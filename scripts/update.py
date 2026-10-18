@@ -30,7 +30,7 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-from outcome_text import classify
+from outcome_text import classify, motion_doc
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
@@ -237,7 +237,13 @@ def outcome_due(outcomes: dict, o: dict, cutoff: str) -> bool:
     if not rules_on_motion(o):
         return False
     r = outcomes.get(f"{o['case']}|{o['doc']}")
-    return r is None or (r.get("src") != "manual" and r.get("outcome") == "unclear" and r.get("at", "") <= cutoff)
+    if r is None:
+        return True
+    if r.get("src") == "manual":
+        return False
+    if r.get("outcome") == "unclear":
+        return r.get("at", "") <= cutoff
+    return "motion_doc" not in r  # outcome known, but the motion's filing date has not been looked for yet
 
 
 def set_outcome(outcomes: dict, o: dict, value: str, src: str, today: str) -> None:
@@ -249,12 +255,36 @@ def set_outcome(outcomes: dict, o: dict, value: str, src: str, today: str) -> No
         outcomes[key] = {"case": o["case"], "doc": o["doc"], "outcome": value, "src": src, "at": today}
 
 
+def fill_motion(cl: CourtListener, outcomes: dict, o: dict, text: str, source: str, docket_id: str) -> None:
+    """Record which motion a known outcome decided (`motion_doc`) and the date it was filed (`motion_filed`).
+
+    Both come from the text the outcome was read from plus one CourtListener call for the docket entry.
+    `motion_doc` is written even when blank, so the ruling is not re-read for it. Hand entries are left alone.
+    """
+    r = outcomes.get(f"{o['case']}|{o['doc']}")
+    if not r or r.get("src") == "manual" or r.get("outcome") in ("", "unclear") or "motion_doc" in r:
+        return
+    r["motion_doc"] = md = motion_doc(text, o.get("event", ""), o.get("r12", 0), o.get("r56", 0), source)
+    if not md or not docket_id:
+        return
+    data = cl.get("docket-entries/", {"docket": docket_id, "entry_number": md, "fields": "date_filed"})
+    filed = ((data or {}).get("results") or [{}])[0].get("date_filed") or ""
+    if re.fullmatch(r"\d{4}-\d{2}-\d{2}", filed) and filed <= o["date"]:
+        r["motion_filed"] = filed
+
+
+def docket_id_of(url: str | None) -> str:
+    m = re.search(r"/docket/(\d+)/", url or "")
+    return m.group(1) if m else ""
+
+
 def link_opinions(cl: CourtListener, opinions: list[dict], checks: dict, outcomes: dict, today: str) -> tuple[int, int]:
     """Look up CourtListener addresses, and the order text for outcomes, a few opinions per run.
 
     An opinion is looked up while it lacks a PDF link or, if it rules on a motion, an outcome.
     Rows never checked go first, newest first; rows checked before are retried after
     LINK_RECHECK_DAYS, because CourtListener adds documents and PDFs after PACER lists them.
+    Known outcomes are read once more for the motion's docket number and filing date (one extra call).
     Returns (rows given new links, outcomes read).
     """
     cutoff = (dt.date.fromisoformat(today) - dt.timedelta(days=LINK_RECHECK_DAYS)).isoformat()
@@ -283,6 +313,7 @@ def link_opinions(cl: CourtListener, opinions: list[dict], checks: dict, outcome
         if text and needs_outcome(o):
             # Order text that yields no outcome is marked "unclear" so it is not read again; a hand entry can replace it.
             set_outcome(outcomes, o, classify(text, o.get("event", ""), o.get("r12", 0), o.get("r56", 0), "order") or "unclear", "opinion_text", today)
+            fill_motion(cl, outcomes, o, text, "order", docket_id_of(o.get("url")))
             read += 1
         if o.get("pdf") and not needs_outcome(o):
             checks.pop(f"{o['case']}|{o['doc']}", None)
@@ -450,6 +481,7 @@ def main() -> int:
         opinion_keys.add(key)
         if rules_on_motion(row) and ent and ent.get("text"):
             set_outcome(outcomes, row, classify(ent["text"], row["event"], row["r12"], row["r56"], "docket"), "docket_text", today)
+            fill_motion(cl, outcomes, row, ent["text"], "docket", docket_id_of(r.get("absolute_url")))
 
     # Rows for magistrate judges presiding by consent and visiting judges are kept;
     # the site charts only the judges listed in data/judges.json.

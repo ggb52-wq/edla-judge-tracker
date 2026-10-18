@@ -86,6 +86,16 @@ def combine(found: list[str], one_motion: bool) -> str:
     return "partial" if one_motion or "partial" in vals else "mixed"
 
 
+def _picked(text: str, event: str, r12: int, r56: int, source: str):
+    """Yield (segments about the motion this ruling is counted for, one_motion) for each place worth reading:
+    the "IT IS ORDERED" paragraphs first, then (for an order) the conclusion."""
+    focus, kinds = _focus(event, r12, r56)
+    tries = [_segments(text, source)] + ([_conclusion(text)] if source == "order" else [])
+    for segs in tries:
+        focused = [s for s in segs if focus and focus.search(s)]
+        yield (focused or [s for s in segs if _MOTION.search(s)]), bool(focused) and kinds == 1
+
+
 def classify(text: str | None, event: str = "", r12: int = 0, r56: int = 0, source: str = "order") -> str:
     """The outcome of the motion ruling in `text`, or "" when none can be read.
 
@@ -94,11 +104,28 @@ def classify(text: str | None, event: str = "", r12: int = 0, r56: int = 0, sour
     """
     if not text:
         return ""
-    focus, kinds = _focus(event, r12, r56)
-    tries = [_segments(text, source)] + ([_conclusion(text)] if source == "order" else [])
-    for segs in tries:  # the "IT IS ORDERED" paragraphs first, then the conclusion
-        focused = [s for s in segs if focus and focus.search(s)]
-        picked = focused or [s for s in segs if _MOTION.search(s)]
-        if value := combine([v for s in picked if (v := _verdict(s))], one_motion=bool(focused) and kinds == 1):
+    for picked, one_motion in _picked(text, event, r12, r56, source):
+        if value := combine([v for s in picked if (v := _verdict(s))], one_motion):
             return value
+    return ""
+
+
+# Docket number of a motion: "granting 12 Motion to Dismiss" in docket text; "(R. Doc. 12)", "(Rec. Doc. 12)",
+# "ECF No. 12" or "Doc. 12" beside the motion's name in an order.
+_DOCKET_MOTION_NO = re.compile(r"\b(\d{1,4})\s+motion\b", re.I)
+_ORDER_DOC_REF = re.compile(r"\b(?:R\.?\s*Doc\.?|Rec\.?\s*Doc\.?|Record\s+Doc(?:ument|\.)?|ECF\s+(?:No\.?|Doc\.?)|Dkt\.?(?:\s*No\.?)?|Doc(?:ument|\.)?)"
+                            r"\s*(?:No\.?\s*)?#?\s*(\d{1,4})\b", re.I)
+
+
+def motion_doc(text: str | None, event: str = "", r12: int = 0, r56: int = 0, source: str = "order") -> str:
+    """The docket number of the motion this ruling decides, read from the segment that carried the verdict, or ""."""
+    if not text:
+        return ""
+    for picked, _ in _picked(text, event, r12, r56, source):
+        for seg in picked:
+            if not _verdict(seg):
+                continue
+            m = (_DOCKET_MOTION_NO if source == "docket" else _ORDER_DOC_REF).search(seg)
+            if m:
+                return m.group(1)
     return ""

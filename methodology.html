@@ -7,20 +7,22 @@
   <meta name="description" content="Sources, definitions and limits of the EDLA Judge Tracker.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap">
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-<div class="wrap">
-  <header class="masthead">
+<header class="band">
+  <div class="wrap masthead">
     <div>
       <p class="kicker">EDLA Judge Tracker</p>
       <h1>Methodology and sources</h1>
     </div>
     <nav class="nav"><a href="index.html">Back to the tracker</a></nav>
-  </header>
+  </div>
+</header>
+<div class="wrap">
 
-  <article class="card prose" style="margin-top:20px">
+  <article class="card prose">
     <h2>What the tracker counts</h2>
     <p>The tracker counts docket events in civil cases in the U.S. District Court for the Eastern District of Louisiana and attributes each to the district judge assigned to the case. It covers the court's 16 active district judges. Rows for magistrate judges presiding by consent, and for visiting or senior judges, are kept in the data but not charted.</p>
     <p>The counts describe activity on the docket. They do not measure the quality, speed, or correctness of any judge's rulings, and the tracker draws no conclusions about any judge.</p>
@@ -68,6 +70,18 @@
       <li><strong>By hand.</strong> The site owner can record or correct an outcome. A hand entry always replaces an outcome read from the docket text or the order.</li>
     </ul>
     <p>Automatic reading is a first pass. It can misread orders written in an unusual form, and it cannot tell which of several motions to dismiss a single sentence addresses. The outcome tables count only rulings with an outcome on file and show how many those are; in the outcome-share chart, a judge's bar is faded when it rests on fewer than five known outcomes.</p>
+
+    <h2>Motion categories</h2>
+    <p>The judge profile and the opinion finder group motion rulings by the motion's name in the docket event. Rule 12 and Rule 56 come from the merits flags above. Of the rest, an event naming remand is <strong>remand</strong>; one naming Daubert, exclusion, or an expert is <strong>Daubert / expert</strong>; one naming a motion to compel, a protective order, a motion to quash, discovery, a deposition, a subpoena, interrogatories, or production is <strong>discovery</strong>; every other motion is <strong>other motions</strong>. The grouping reads the docket event, not the motion papers, so a motion the clerk entered under a general event lands in "other motions."</p>
+
+    <h2>Time to ruling</h2>
+    <p>Calendar days from the date the motion was docketed to the date the written opinion deciding it was entered, reported as a median. The motion's docket number comes from the text the outcome was read from ("granting 12 Motion to Dismiss", or "(R. Doc. 12)" beside the motion's name in the order); the update script then reads that docket entry's date from CourtListener. Filing dates accumulate as rulings are read, so each figure states how many rulings it rests on, and a judge with none shows "not yet" rather than a number. The measure runs from docketing, not from the date the motion was set for submission or fully briefed, so it includes any continuances the parties sought.</p>
+
+    <h2>Written opinions or minute entries</h2>
+    <p>For the period with every civil order on file, the profile sets a judge's written opinions beside that judge's total civil orders: the share of orders flagged for the Written Opinions Report, the share entered as text orders (the docket event begins "Text Order"), and the same comparison for orders whose event names a motion. The docket does not distinguish a reasoned written order that chambers did not flag from a minute entry, so the figure measures flagging practice, not how often a judge writes reasons.</p>
+
+    <h2>Compare judges</h2>
+    <p>The comparison table places up to three judges' figures side by side with the court median (the middle value of the 16 judges, or of the judges with a figure where one is missing). Grant rates are shares of rulings with a known outcome and carry the number known; a rate resting on fewer than five known outcomes is a weak basis for comparison.</p>
 
     <h2>Links to opinions</h2>
     <p>The opinion finder links each written opinion to <a href="https://www.courtlistener.com/">CourtListener</a>, which posts free copies of documents from PACER's Written Opinions Report. When CourtListener holds a copy of the PDF, the case number opens the PDF and carries a PDF mark. When CourtListener lists the docket entry but has no PDF, the case number opens the docket entry. The update script records these addresses for new opinions and looks up addresses for earlier ones a few at a time, rechecking weekly for PDFs not yet posted; until an address is found, the case number opens a CourtListener search for the case. A document can appear on CourtListener after the tracker counts it, and some documents never appear there.</p>
