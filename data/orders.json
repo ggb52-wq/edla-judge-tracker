@@ -1691,6 +1691,7 @@
 {"date":"2026-10-16","time":"11:52","judge":"BWA","case":"2:19-cv-11793","doc":"684","title":"Muslow et al v. Louisiana State University and Agricultural and Mechan","event":"Order on Motion to Stay","src":"pacer_activity"},
 {"date":"2026-10-16","time":"11:57","judge":"JCZ","case":"2:26-cv-01592","doc":"13","title":"Brown v. LCMC Tulane Lakeside Hospital","event":"Report and Recommendations","src":"pacer_activity"},
 {"date":"2026-10-16","time":"12:04","judge":"BSL","case":"2:22-cv-01903","doc":"277","title":"Damon J. Baldone, LLC v. Starr Surplus Lines Insurance Company et al","event":"Order","src":"pacer_activity"},
+{"date":"2026-10-16","time":"12:05","judge":"SSV","case":"2:24-cv-00714","doc":"50","title":"Wilson v. City of Bogalusa","event":"Status Conference AND ~Util - Set/Reset Hearings","src":"courtlistener"},
 {"date":"2026-10-16","time":"12:07","judge":"BSL","case":"2:24-cv-02463","doc":"54","title":"Heney v. Entergy Operations, Inc.","event":"Order on Motion to Withdraw as Attorney","src":"pacer_activity"},
 {"date":"2026-10-16","time":"12:08","judge":"NJB","case":"2:25-cv-01137","doc":"49","title":"Catro v. Kiefer, et al","event":"Order Dismissing Case","src":"pacer_activity"},
 {"date":"2026-10-16","time":"12:09","judge":"BSL","case":"2:25-cv-00679","doc":"25","title":"Hawkins v. Westbank ARC","event":"Order on Motion to Withdraw as Attorney","src":"pacer_activity"},
@@ -1780,5 +1781,6 @@
 {"date":"2026-10-16","time":"16:58","judge":"ASJ","case":"2:26-cv-00063","doc":"17","title":"Howard v. New Orleans Civil Service Commission et al","event":"Order to Show Cause","src":"pacer_activity"},
 {"date":"2026-10-16","time":"17:02","judge":"ASJ","case":"2:26-cv-01771","doc":"18","title":"Robinson v. Hammond City","event":"Order on Motion for Extension of Time to Answer","src":"pacer_activity"},
 {"date":"2026-10-16","time":"17:03","judge":"DJP","case":"2:25-cv-00463","doc":"29","title":"Davis v. Trege et al","event":"Order on Motion for Extension of Time to Answer","src":"pacer_activity"},
-{"date":"2026-10-16","time":"17:05","judge":"WBV","case":"2:24-cv-01933","doc":"367","title":"Tran v. Gulf Coast Bank & Trust Company et al","event":"Order","src":"pacer_activity"}
+{"date":"2026-10-16","time":"17:05","judge":"WBV","case":"2:24-cv-01933","doc":"367","title":"Tran v. Gulf Coast Bank & Trust Company et al","event":"Order","src":"pacer_activity"},
+{"date":"2026-10-16","time":"18:08","judge":"DJP","case":"2:20-cv-00980","doc":"519","title":"Baqer v. St. Tammany Parish Government","event":"Status Conference AND ~Util - Set/Reset Hearings AND ~Util - Set/Reset Motion and R&R Deadlines/Hearings","src":"courtlistener"}
 ]
