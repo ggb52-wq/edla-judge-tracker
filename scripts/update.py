@@ -211,12 +211,15 @@ def pdf_url(path: str | None) -> str:
 
 
 def doc_links(r: dict) -> dict:
-    """The `url` (document page) and `pdf` (file) fields for one recap-documents result."""
+    """The `url` (document page), `pdf` (file), and `pages` fields for one recap-documents result.
+    `pages` is CourtListener's page count for the PDF, 0 when CourtListener has the PDF but no count yet."""
     out = {}
     if u := doc_url(r.get("absolute_url")):
         out["url"] = u
         if r.get("is_available") and (f := pdf_url(r.get("filepath_local"))):
             out["pdf"] = f
+            pc = r.get("page_count")
+            out["pages"] = pc if isinstance(pc, int) and pc > 0 else 0
     return out
 
 
@@ -289,7 +292,8 @@ def link_opinions(cl: CourtListener, opinions: list[dict], checks: dict, outcome
     """
     cutoff = (dt.date.fromisoformat(today) - dt.timedelta(days=LINK_RECHECK_DAYS)).isoformat()
     needs_outcome = lambda o: outcome_due(outcomes, o, cutoff)  # noqa: E731
-    todo = [o for o in opinions if (not o.get("pdf") or needs_outcome(o)) and o.get("doc") and CASE_RE.fullmatch(o.get("case", ""))
+    needs_pages = lambda o: bool(o.get("pdf")) and "pages" not in o  # noqa: E731
+    todo = [o for o in opinions if (not o.get("pdf") or needs_outcome(o) or needs_pages(o)) and o.get("doc") and CASE_RE.fullmatch(o.get("case", ""))
             and checks.get(f"{o['case']}|{o['doc']}", "") <= cutoff]
     todo.sort(key=lambda o: o["date"], reverse=True)
     todo.sort(key=lambda o: checks.get(f"{o['case']}|{o['doc']}", ""))  # stable: oldest check first, then newest row
@@ -300,7 +304,7 @@ def link_opinions(cl: CourtListener, opinions: list[dict], checks: dict, outcome
             break
         data = cl.get("recap-documents/", {
             "docket_entry__docket__court": "laed", "docket_entry__docket__docket_number": o["case"],
-            "document_number": o["doc"], "fields": "absolute_url,filepath_local,is_available,plain_text"})
+            "document_number": o["doc"], "fields": "absolute_url,filepath_local,is_available,page_count,plain_text"})
         if data is None:
             break
         checks[f"{o['case']}|{o['doc']}"] = today
@@ -309,13 +313,15 @@ def link_opinions(cl: CourtListener, opinions: list[dict], checks: dict, outcome
         if any(o.get(k) != v for k, v in links.items()):
             o.update(links)
             found += 1
+        if o.get("pdf") and "pages" not in o:
+            o["pages"] = 0  # looked up; CourtListener had no count
         text = next((r.get("plain_text") for r in results if (r.get("plain_text") or "").strip()), "")
         if text and needs_outcome(o):
             # Order text that yields no outcome is marked "unclear" so it is not read again; a hand entry can replace it.
             set_outcome(outcomes, o, classify(text, o.get("event", ""), o.get("r12", 0), o.get("r56", 0), "order") or "unclear", "opinion_text", today)
             fill_motion(cl, outcomes, o, text, "order", docket_id_of(o.get("url")))
             read += 1
-        if o.get("pdf") and not needs_outcome(o):
+        if o.get("pdf") and not needs_outcome(o) and not needs_pages(o):
             checks.pop(f"{o['case']}|{o['doc']}", None)
     return found, read
 
@@ -442,7 +448,7 @@ def main() -> int:
     docs = list(cl.paged("recap-documents/", {
         "is_free_on_pacer": "true", "docket_entry__docket__court": "laed",
         "date_created__gte": f"{window_from}T00:00:00-05:00", "order_by": "date_created",
-        "fields": "id,description,document_number,absolute_url,filepath_local,is_available,date_created"}))
+        "fields": "id,description,document_number,absolute_url,filepath_local,is_available,page_count,date_created"}))
     missing = set()
     for r in docs:
         m = re.search(r"/docket/(\d+)/", r.get("absolute_url", ""))

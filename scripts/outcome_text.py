@@ -1,28 +1,36 @@
 """Read what a ruling did to a motion, from CM/ECF docket text or from an order's decretal language.
 
 Outcomes describe the motion, not a party: "granted" means the motion was granted, whoever filed it.
-  granted   the motion was granted
-  partial   granted in part and denied in part, or granted as to some relief and denied as to the rest
-  denied    the motion was denied
-  mixed     several motions were decided different ways and the ruling type does not say which one counts
-  moot      the motion was denied or dismissed as moot
-  other     anything else (entered by hand only)
-  unclear   the order text was read and no outcome was found (written by the updater so it does not re-read it)
+  granted        the motion was granted
+  granted_leave  the motion was granted and the order gave leave to amend
+  partial        granted in part and denied in part, or granted as to some relief and denied as to the rest
+  denied         the motion was denied
+  denied_wop     the motion was denied without prejudice
+  mixed          several motions were decided different ways and the ruling type does not say which one counts
+  moot           the motion was denied or dismissed as moot
+  other          anything else (entered by hand only)
+  unclear        the order text was read and no outcome was found (written by the updater so it does not re-read it)
 """
 from __future__ import annotations
 
 import re
 
-VALUES = ("granted", "partial", "denied", "mixed", "moot", "other", "unclear")
+VALUES = ("granted", "granted_leave", "partial", "denied", "denied_wop", "mixed", "moot", "other", "unclear")
+FAMILY = {"granted_leave": "granted", "denied_wop": "denied"}
 
 # The text a reader picks on the issue form, mapped to the stored value.
 FORM_LABELS = {
-    "granted": "granted", "granted in part": "partial", "denied": "denied", "mixed (several motions)": "mixed",
+    "granted": "granted", "granted with leave to amend": "granted_leave", "granted in part": "partial", "denied": "denied",
+    "denied without prejudice": "denied_wop", "mixed (several motions)": "mixed",
     "moot": "moot", "other": "other", "not determined": "unclear",
 }
 
 _VERDICT = re.compile(r"\b(grant(?:ed|ing|s)|den(?:ied|ying|ies))\b(\s+in\s+part|\s+(?:as|for\s+being)\s+moot)?", re.I)
 _MOOT = re.compile(r"\b(?:finding\s+as\s+moot|moot(?:ed|ing)?)\b", re.I)
+_WOP = re.compile(r"\bwithout\s+prejudice\b", re.I)
+_LEAVE_YES = re.compile(r"\b(?:with\s+leave\s+to\s+amend|leave\s+to\s+amend\s+is\s+granted|granted\s+leave\s+to\s+amend|"
+                        r"may\s+(?:file\s+an?\s+)?amend|shall\s+have\s+\w+\s+days\s+to\s+(?:file\s+an?\s+)?amend)", re.I)
+_LEAVE_NO = re.compile(r"\b(?:without\s+leave\s+to\s+amend|leave\s+to\s+amend\s+is\s+denied|with\s+prejudice)\b", re.I)
 _MOTION = re.compile(r"\bmotions?\b", re.I)
 _DECRETAL = re.compile(r"\bIT\s+IS\s+(?:FURTHER\s+|HEREBY\s+|SO\s+|ALSO\s+)*ORDERED\b", re.I)
 _CONCLUSION = re.compile(r"\b(?:accordingly|for\s+(?:the\s+)?(?:foregoing|above|these|those|stated)\s+reasons)\b", re.I)
@@ -58,7 +66,10 @@ def _verdict(segment: str) -> str:
         return "partial"
     if "moot" in tail:
         return "moot"
-    return "granted" if m.group(1).lower().startswith("grant") else "denied"
+    after = segment[m.end():]
+    if m.group(1).lower().startswith("grant"):
+        return "granted_leave" if _LEAVE_YES.search(after) and not _LEAVE_NO.search(after) else "granted"
+    return "denied_wop" if _WOP.search(after[:80]) else "denied"
 
 
 def _segments(text: str, source: str) -> list[str]:
@@ -80,8 +91,9 @@ def combine(found: list[str], one_motion: bool) -> str:
         vals.discard("moot")
     if not vals:
         return ""
-    if len(vals) == 1:
-        return vals.pop()
+    if len({FAMILY.get(v, v) for v in vals}) == 1:
+        # One family of verdict: keep the more specific reading when any segment carried it.
+        return next((v for v in ("granted_leave", "denied_wop") if v in vals), vals.pop())
     # Granted on some points and denied on others: one motion decided in part, or several motions decided differently.
     return "partial" if one_motion or "partial" in vals else "mixed"
 

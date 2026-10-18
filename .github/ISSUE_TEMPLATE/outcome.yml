@@ -27,8 +27,10 @@ body:
       description: What the order did to the motion, whichever party filed it.
       options:
         - Granted
+        - Granted with leave to amend
         - Granted in part
         - Denied
+        - Denied without prejudice
         - Mixed (several motions)
         - Moot
         - Other
