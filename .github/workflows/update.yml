@@ -30,7 +30,7 @@ jobs:
       - name: Fetch new entries
         env:
           COURTLISTENER_TOKEN: ${{ secrets.COURTLISTENER_TOKEN }}
-        run: python scripts/update.py
+        run: python -u scripts/update.py
 
       - name: Commit when the data changed
         run: |

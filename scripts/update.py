@@ -42,6 +42,8 @@ CL_SITE = "https://www.courtlistener.com"
 CL_CALL_BUDGET = 360    # per run; CourtListener allows 5,000 an hour, and runs are 15 minutes apart
 LINK_BUDGET = 300       # of those, calls spent on addresses and order text for opinions already in the data
 LINK_RECHECK_DAYS = 7
+RUN_SECONDS = 11 * 60   # CourtListener calls stop after this, so the run saves well inside the workflow's 20-minute timeout
+RETRY_AFTER_MAX = 60    # longest wait honored on an HTTP 429
 LOW_COVERAGE = 50
 CL_STORAGE = "https://storage.courtlistener.com/"
 DOC_PATH_RE = re.compile(r"^/docket/\d+/\d+/[a-z0-9-]+/$")
@@ -132,14 +134,24 @@ def http_get(url: str, headers: dict | None = None, timeout: int = 45) -> bytes:
         return resp.read()
 
 
+def log(msg: str) -> None:
+    """Progress line for the workflow log, written at once so a stopped run still shows how far it got."""
+    print(f"{dt.datetime.now(CENTRAL):%H:%M:%S} {msg}", flush=True)
+
+
 class CourtListener:
     def __init__(self, token: str | None):
         self.token = token
         self.calls = 0
         self.errors: list[str] = []
+        self.deadline = time.monotonic() + RUN_SECONDS
+        self.out_of_time = False
 
     def get(self, path_or_url: str, params: dict | None = None) -> dict | None:
         if not self.token or self.calls >= CL_CALL_BUDGET:
+            return None
+        if time.monotonic() >= self.deadline:
+            self.out_of_time = True
             return None
         url = path_or_url if path_or_url.startswith("http") else CL_BASE + path_or_url
         if params:
@@ -150,8 +162,13 @@ class CourtListener:
                 return json.loads(http_get(url, {"Authorization": f"Token {self.token}"}))
             except urllib.error.HTTPError as e:
                 if e.code == 429 and attempt < 2:
-                    time.sleep(int(e.headers.get("Retry-After", "60")))
-                    continue
+                    try:
+                        wait = min(int(e.headers.get("Retry-After", "60")), RETRY_AFTER_MAX)
+                    except ValueError:
+                        wait = RETRY_AFTER_MAX
+                    if time.monotonic() + wait < self.deadline:
+                        time.sleep(wait)
+                        continue
                 self.errors.append(f"CourtListener HTTP {e.code}")
                 return None
             except (urllib.error.URLError, TimeoutError, json.JSONDecodeError) as e:
@@ -295,9 +312,12 @@ def link_opinions(cl: CourtListener, opinions: list[dict], checks: dict, outcome
     todo.sort(key=lambda o: checks.get(f"{o['case']}|{o['doc']}", ""))  # stable: oldest check first, then newest row
     found = read = 0
     stop = cl.calls + LINK_BUDGET
-    for o in todo:
+    log(f"looking up {len(todo)} opinions for links and outcomes")
+    for n, o in enumerate(todo):
         if cl.calls >= min(stop, CL_CALL_BUDGET):
             break
+        if n and n % 25 == 0:
+            log(f"  {n} looked up, {found} linked, {read} outcomes read, {cl.calls} calls")
         data = cl.get("recap-documents/", {
             "docket_entry__docket__court": "laed", "docket_entry__docket__docket_number": o["case"],
             "document_number": o["doc"], "fields": "absolute_url,filepath_local,is_available,plain_text"})
@@ -361,6 +381,7 @@ def main() -> int:
         return date >= bench.get(judge, "0000-00-00")
 
     # --- RSS
+    log("reading RSS feed")
     rss = fetch_rss(note)
     rss_civil = [i for i in rss if i["kind"] == "cv"]
     rss_time = {(i["case"], i["doc"]): i["when"] for i in rss_civil if i["when"]}
@@ -374,6 +395,7 @@ def main() -> int:
     cl = CourtListener(os.environ.get("COURTLISTENER_TOKEN"))
     if not cl.token:
         note.append("No CourtListener token; RSS only")
+    log("searching CourtListener for new entries")
     docket_info: dict[int, dict] = {}
     cl_entries: dict[tuple[str, str], dict] = {}
     q = ("short_description:order OR short_description:judgment OR short_description:hearing OR "
@@ -489,12 +511,20 @@ def main() -> int:
     if no_judge:
         note.append(f"{no_judge} entries without a judge")
 
+    log(f"new entries: orders +{len(added_orders)}, opinions +{len(added_opinions)}; {cl.calls} calls")
+    # A run that ran out of time before this point may have missed entries, so the window does not move forward.
+    complete = not cl.out_of_time
+    if not complete:
+        note.append("Time limit reached before all new entries were read; window kept")
+
     # --- CourtListener addresses for opinions already in the data
     linked, read = link_opinions(cl, opinions, link_checks, outcomes, today) if cl.token else (0, 0)
     if linked:
         note.append(f"{linked} opinion links added")
     if read:
         note.append(f"{read} orders read for outcomes")
+    if complete and cl.out_of_time:
+        note.append("Time limit reached; remaining lookups continue next run")
 
     # --- coverage check for completed weekdays in the window
     orders.extend(added_orders)
@@ -511,7 +541,7 @@ def main() -> int:
     # --- save
     orders.sort(key=lambda o: (o["date"], o.get("time", ""), o["case"], o["doc"]))
     opinions.sort(key=lambda o: (o["date"], o["case"], o["doc"]))
-    if now.weekday() < 5 and today not in holidays:
+    if complete and now.weekday() < 5 and today not in holidays:
         through_row["date"] = today
     note.append(f"RSS {len(rss)} items ({len(rss_civil)} civil); CourtListener {cl.calls} calls")
     note.extend(sorted(set(cl.errors)))
