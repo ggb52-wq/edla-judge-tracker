@@ -84,6 +84,7 @@ td.left { text-align: left; white-space: normal; min-width: 12rem; }
 .finder input { min-width: min(100%, 18rem); }
 .more { cursor: pointer; margin-top: 10px; }
 td a { text-decoration: none; }
+.tag { font-size: .68rem; font-weight: 600; letter-spacing: .04em; color: var(--accent); border: 1px solid var(--accent); border-radius: 3px; padding: 0 3px; }
 td a:hover { text-decoration: underline; }
 .status { font-size: .8rem; color: var(--ink-2); }
 .err { color: var(--bad); }
