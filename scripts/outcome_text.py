@@ -64,10 +64,14 @@ def _verdict(segment: str) -> str:
 def _segments(text: str, source: str) -> list[str]:
     if source == "docket":
         return [p for p in _DOCKET_VERB.split(text) if p.strip()]
-    parts = _DECRETAL.split(text)[1:]
-    if not parts:  # no "IT IS ORDERED": fall back to the conclusion paragraph
-        parts = _CONCLUSION.split(text[-2000:])[1:]
-    return [p[:SEGMENT_CHARS] for p in parts]
+    return [p[:SEGMENT_CHARS] for p in _DECRETAL.split(text)[1:]]
+
+
+def _conclusion(text: str) -> list[str]:
+    """The concluding paragraph ("Accordingly, ...", "For the foregoing reasons, ..."), else the order's last lines."""
+    tail = text[-2500:]
+    parts = _CONCLUSION.split(tail)[1:]
+    return [p[:SEGMENT_CHARS] for p in parts] or [tail[-SEGMENT_CHARS * 2:]]
 
 
 def combine(found: list[str], one_motion: bool) -> str:
@@ -90,8 +94,11 @@ def classify(text: str | None, event: str = "", r12: int = 0, r56: int = 0, sour
     """
     if not text:
         return ""
-    segs = _segments(text, source)
     focus, kinds = _focus(event, r12, r56)
-    focused = [s for s in segs if focus and focus.search(s)]
-    picked = focused or [s for s in segs if _MOTION.search(s)]
-    return combine([v for s in picked if (v := _verdict(s))], one_motion=bool(focused) and kinds == 1)
+    tries = [_segments(text, source)] + ([_conclusion(text)] if source == "order" else [])
+    for segs in tries:  # the "IT IS ORDERED" paragraphs first, then the conclusion
+        focused = [s for s in segs if focus and focus.search(s)]
+        picked = focused or [s for s in segs if _MOTION.search(s)]
+        if value := combine([v for s in picked if (v := _verdict(s))], one_motion=bool(focused) and kinds == 1):
+            return value
+    return ""

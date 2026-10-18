@@ -72,6 +72,11 @@ class UpdateTest(unittest.TestCase):
                   "title": "Alpha v. Beta", "event": "Order", "src": "pacer_activity"}]
         orders = json.loads((self.tmp / "data/orders.json").read_text()) + cases
         (self.tmp / "data/orders.json").write_text(json.dumps(orders))
+        # Start from the baseline: no links, lookups, or outcomes collected by earlier live runs.
+        opinions = [{k: v for k, v in o.items() if k not in ("url", "pdf")} for o in json.loads((self.tmp / "data/opinions.json").read_text())]
+        (self.tmp / "data/opinions.json").write_text(json.dumps(opinions))
+        (self.tmp / "data/link_checks.json").write_text("{}\n")
+        (self.tmp / "data/outcomes.json").write_text("[\n\n]\n")
 
     def tearDown(self):
         shutil.rmtree(self.tmp)
@@ -108,9 +113,8 @@ class UpdateTest(unittest.TestCase):
         self.assertEqual(base[("2:26-cv-01880", "6")]["pdf"],
                          "https://storage.courtlistener.com/recap/gov.uscourts.laed.900/gov.uscourts.laed.900.6.0.pdf")
         self.assertNotIn("pdf", op[("2:26-cv-09005", "8")])                # no PDF on CourtListener: page link only
-        before = {(o["case"], o["doc"]) for o in json.loads((ROOT / "data/opinions.json").read_text()) if o.get("url")}
-        after = {(o["case"], o["doc"]) for o in opinions if o.get("url")}
-        self.assertEqual(after - before, {("2:26-cv-09003", "30"), ("2:26-cv-09005", "8"), ("2:26-cv-01880", "6")} - before)
+        self.assertEqual({(o["case"], o["doc"]) for o in opinions if o.get("url")},
+                         {("2:26-cv-09003", "30"), ("2:26-cv-09005", "8"), ("2:26-cv-01880", "6")})
         checks = json.loads((self.tmp / "data/link_checks.json").read_text())
         self.assertNotIn("2:26-cv-09005|8", checks)                      # new row: first in line next run
         self.assertEqual(len(checks), update.LINK_BUDGET - 1)            # misses recorded, PDF and outcome hit removed
@@ -160,6 +164,22 @@ class OutcomeTextTest(unittest.TestCase):
                            "Order on Motion to Remand, Order on Motion to Stay"), "mixed")
         self.assertEqual(c("For the foregoing reasons, the Motion to Dismiss is GRANTED.", "Order on Motion to Dismiss", 1, 0), "granted")
         self.assertEqual(c("The case is remanded.", "Order on Motion to Remand"), "")
+        self.assertEqual(c("IT IS ORDERED that the status conference is CANCELLED. ... Accordingly, the Motion to Remand is GRANTED.",
+                           "Order on Motion to Remand"), "granted")                     # falls back to the conclusion
+
+    def test_motion_rulings(self):
+        self.assertTrue(update.rules_on_motion({"event": "Order on Motion to Dismiss/Failure to State a Claim"}))
+        self.assertFalse(update.rules_on_motion({"event": "Order, Set/Reset Scheduling Order Deadlines, Terminate Motions"}))
+        self.assertFalse(update.rules_on_motion({"event": "Order on Motion to Dismiss", "rr": 1}))
+        out = {"a|1": {"case": "a", "doc": "1", "outcome": "unclear", "src": "opinion_text", "at": "2026-10-01"},
+               "a|2": {"case": "a", "doc": "2", "outcome": "unclear", "src": "manual", "at": "2026-10-01"}}
+        row = lambda d: {"case": "a", "doc": d, "event": "Order on Motion to Compel"}  # noqa: E731
+        self.assertTrue(update.outcome_due(out, row("1"), "2026-10-11"))     # automatic "unclear", a week old
+        self.assertFalse(update.outcome_due(out, row("1"), "2026-09-30"))    # read too recently
+        self.assertFalse(update.outcome_due(out, row("2"), "2026-10-11"))    # hand entry
+        update.set_outcome(out, row("1"), "denied", "opinion_text", "2026-10-19")
+        update.set_outcome(out, row("2"), "denied", "opinion_text", "2026-10-19")
+        self.assertEqual((out["a|1"]["outcome"], out["a|2"]["outcome"]), ("denied", "unclear"))
 
 
 class RecordOutcomeTest(unittest.TestCase):

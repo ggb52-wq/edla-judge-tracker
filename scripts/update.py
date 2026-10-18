@@ -220,15 +220,32 @@ def doc_links(r: dict) -> dict:
     return out
 
 
+MOTION_RULING_RE = re.compile(r"\bmotion\s+(?:to|for|in)\b", re.I)
+
+
 def rules_on_motion(o: dict) -> bool:
-    """Opinions that decide a motion get an outcome; magistrate reports and recommendations do not."""
-    return not int(o.get("rr") or 0) and "motion" in (o.get("event") or "").lower()
+    """Opinions whose event names a motion ("Order on Motion to Dismiss") get an outcome.
+
+    Magistrate reports and recommendations do not, nor do clerk events such as "Terminate Motions".
+    """
+    return not int(o.get("rr") or 0) and bool(MOTION_RULING_RE.search(o.get("event") or ""))
+
+
+def outcome_due(outcomes: dict, o: dict, cutoff: str) -> bool:
+    """A motion ruling needs an outcome read when none is on file, or when an automatic read found none
+    (outcome "unclear") at least LINK_RECHECK_DAYS ago. Hand entries are never re-read."""
+    if not rules_on_motion(o):
+        return False
+    r = outcomes.get(f"{o['case']}|{o['doc']}")
+    return r is None or (r.get("src") != "manual" and r.get("outcome") == "unclear" and r.get("at", "") <= cutoff)
 
 
 def set_outcome(outcomes: dict, o: dict, value: str, src: str, today: str) -> None:
-    """Record an outcome read by the updater. Outcomes already on file, including every hand entry, are kept."""
+    """Record an outcome read by the updater. It replaces only an earlier automatic "unclear"; other outcomes
+    on file, including every hand entry, are kept."""
     key = f"{o['case']}|{o['doc']}"
-    if value and key not in outcomes:
+    old = outcomes.get(key)
+    if value and (old is None or (old.get("src") != "manual" and old.get("outcome") == "unclear")):
         outcomes[key] = {"case": o["case"], "doc": o["doc"], "outcome": value, "src": src, "at": today}
 
 
@@ -241,7 +258,7 @@ def link_opinions(cl: CourtListener, opinions: list[dict], checks: dict, outcome
     Returns (rows given new links, outcomes read).
     """
     cutoff = (dt.date.fromisoformat(today) - dt.timedelta(days=LINK_RECHECK_DAYS)).isoformat()
-    needs_outcome = lambda o: rules_on_motion(o) and f"{o['case']}|{o['doc']}" not in outcomes  # noqa: E731
+    needs_outcome = lambda o: outcome_due(outcomes, o, cutoff)  # noqa: E731
     todo = [o for o in opinions if (not o.get("pdf") or needs_outcome(o)) and o.get("doc") and CASE_RE.fullmatch(o.get("case", ""))
             and checks.get(f"{o['case']}|{o['doc']}", "") <= cutoff]
     todo.sort(key=lambda o: o["date"], reverse=True)
@@ -291,6 +308,9 @@ def main() -> int:
     calendar, runs, judges = load("calendar"), load("runs"), load("judges")
     link_checks = load("link_checks") if (DATA / "link_checks.json").exists() else {}
     outcomes = {f"{r['case']}|{r['doc']}": r for r in (load("outcomes") if (DATA / "outcomes.json").exists() else [])}
+    # Drop automatic outcomes for entries that are not motion rulings (hand entries always stay).
+    motion_keys = {f"{o['case']}|{o['doc']}" for o in opinions if rules_on_motion(o)}
+    outcomes = {k: r for k, r in outcomes.items() if r.get("src") == "manual" or k in motion_keys}
     bench = {j["code"]: j["bench_start"] for j in judges}
     holidays = {r["date"] for r in calendar if r["kind"] == "holiday"}
     through_row = next(r for r in calendar if r["kind"] == "through")

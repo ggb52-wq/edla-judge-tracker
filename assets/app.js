@@ -25,7 +25,8 @@
   const OC_SEGS = [['granted', 'Granted'], ['partial', 'Granted in part'], ['denied', 'Denied'], ['rest', 'Mixed, moot, or other']];
   const ocColor = (v) => css('--o-' + (['granted', 'partial', 'denied'].includes(v) ? v : 'other'));
   const OC_SRC = { manual: 'entered by hand', docket_text: 'read from the docket text', opinion_text: 'read from the order' };
-  const isMotion = (o) => !Number(o.rr) && /motion/i.test(o.event || '');
+  // A motion ruling names a motion ("Order on Motion to Dismiss"); clerk events such as "Terminate Motions" do not count.
+  const isMotion = (o) => !Number(o.rr) && /\bmotion\s+(to|for|in)\b/i.test(o.event || '');
   const GROUPS = { r12: 'Rule 12', r56: 'Rule 56', all: 'All motions' };
   const FEW = 5;
   const inGroup = (o, g) => isMotion(o) && (g === 'all' || Number(o[g]) === 1);
