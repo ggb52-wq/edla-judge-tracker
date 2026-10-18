@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>EDLA Judge Tracker</title>
-  <meta name="description" content="Docket activity by judge in the U.S. District Court for the Eastern District of Louisiana: civil orders, written opinions, and ruling outcomes, updated from the court's public RSS feed.">
+  <title>EDLA Analyzer</title>
+  <meta name="description" content="Public docket statistics for the U.S. District Court for the Eastern District of Louisiana: civil orders, written opinions, and motion outcomes by judge. Not affiliated with the court. Not legal advice.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap">
@@ -15,10 +15,11 @@
   <div class="wrap masthead">
     <div>
       <p class="kicker">U.S. District Court · Eastern District of Louisiana</p>
-      <h1>EDLA Judge Tracker</h1>
-      <p class="lede">Civil orders, written opinions, and ruling outcomes for each of the court's 16 active district judges, counted from the public docket and updated through the day.</p>
+      <h1>EDLA Analyzer</h1>
+      <p class="lede">Counts of civil orders, written opinions, and motion outcomes in the Eastern District of Louisiana, built from the public docket and updated through the day.</p>
+      <p class="lede disclaimer">This is an independent project with no connection to the court. Nothing here is legal advice. The counts come from automated reading of public records and can contain errors, so verify anything you plan to rely on against the docket itself.</p>
     </div>
-    <nav class="nav"><a href="methodology.html">Methodology</a><a href="https://github.com/ggb52-wq/edla-judge-tracker">Data and code</a></nav>
+    <nav class="nav"><a href="methodology.html">How we count</a><a href="https://github.com/ggb52-wq/edla-judge-tracker">Data and code</a></nav>
   </div>
 </header>
 <div class="wrap">
@@ -55,7 +56,7 @@
       <div class="card-head"><h2 id="profile-title">Judge profile</h2>
         <div class="actions"><button type="button" class="btn quiet" id="profile-print" hidden>Print / save profile</button><button type="button" class="btn quiet" id="profile-clear" hidden>Show all judges</button></div></div>
       <div id="profile-empty">
-        <p class="note">Pick a judge for a one-page profile: that judge's figures beside the court median, motion outcomes by category, time to ruling, and latest written opinions. The choice carries across every section and into the page address, so a profile can be bookmarked or shared.</p>
+        <p class="note">Pick a judge to see their numbers next to the court median, how their motion rulings came out, how long rulings took, and their latest opinions. Your pick follows you through every tab, and the page address updates so you can bookmark or share it.</p>
         <div class="chips" id="profile-chips"></div>
       </div>
       <div id="profile-body" hidden>
@@ -97,7 +98,7 @@
         <section class="panel" id="p-compare" tabindex="-1">
           <div class="card-head"><h3>Compare judges</h3>
             <div class="finder compact"><label>with <select id="cmp-1"><option value="">—</option></select></label><label>and <select id="cmp-2"><option value="">—</option></select></label></div></div>
-          <p class="note tight">Key figures side by side, with the court median. Grant rates count rulings with a known outcome; the number known follows each rate.</p>
+          <p class="note tight">Up to three judges side by side, with the court median. Grant rates count only rulings with a recorded outcome; "n" is how many that is.</p>
           <div class="scroll"><table id="cmp-table"></table></div>
         </section>
       </div>
@@ -114,16 +115,16 @@
   <section class="sheet" id="orders" role="tabpanel" aria-labelledby="tab-orders" hidden>
     <div class="card">
       <div class="card-head"><h2>Civil orders by judge</h2><div class="actions"><button type="button" class="btn quiet" data-csv="or-table">Export CSV</button></div></div>
-      <p class="note">Every civil order entered since <span data-since="orders"></span>. Rates divide by each judge's working days; entry times are Central. The trend column plots weekly orders per working day. Sort by any column; click a row to pick that judge.</p>
+      <p class="note">Every civil order since <span data-since="orders"></span>. "Per working day" means divided by the court's working days in the period. Times are Central. Click a column heading to sort, or a row to pick that judge.</p>
       <div class="scroll"><table id="or-table"></table></div>
     </div>
     <div class="grid">
-      <div class="card"><h2>Orders per working day</h2><p class="note">Since <span data-since="orders"></span>. Dashed line marks the median judge.</p><div class="chart" id="c-perday"></div></div>
+      <div class="card"><h2>Orders per working day</h2><p class="note">Since <span data-since="orders"></span>. The dashed line is the median judge.</p><div class="chart" id="c-perday"></div></div>
       <div class="card"><h2>Time of entry</h2><p class="note" id="hours-note"></p><div class="legend" id="hours-legend" aria-hidden="true"></div><div class="chart" id="c-hours"></div></div>
     </div>
     <div class="card">
       <div class="card-head"><h2>Day-of-week pattern</h2><div class="actions"><button type="button" class="btn quiet" data-csv="dow-table">Export CSV</button></div></div>
-      <p class="note">Share of each judge's civil orders entered on each weekday since <span data-since="orders"></span>. Darker cells mark that judge's heavier days.</p>
+      <p class="note">What share of each judge's orders came out on each weekday. Darker means busier.</p>
       <div class="scroll"><table id="dow-table"></table></div>
     </div>
   </section>
@@ -132,12 +133,12 @@
   <section class="sheet" id="opinions" role="tabpanel" aria-labelledby="tab-opinions" hidden>
     <div class="card">
       <div class="card-head"><h2>Written opinions by judge</h2><div class="actions"><button type="button" class="btn quiet" data-csv="op-table">Export CSV</button></div></div>
-      <p class="note">Entries on PACER's Written Opinions Report since <span data-since="opinions"></span>. "Merits rulings" are rulings on Rule 12 motions, summary judgment, and trial or post-trial motions. Chambers decide which orders to flag as written opinions, so these counts are not a complete record of each judge's rulings; see the methodology.</p>
+      <p class="note">Opinions on PACER's Written Opinions Report since <span data-since="opinions"></span>. "Merits rulings" are Rule 12, summary judgment, and trial-related rulings. Each judge's chambers decides what to flag as a written opinion, so this is not every ruling a judge made. <a href="methodology.html">How we count</a>.</p>
       <div class="scroll"><table id="op-table"></table></div>
     </div>
     <div class="grid">
-      <div class="card"><h2>Merits rulings per month</h2><p class="note">Since <span data-since="opinions"></span>, per 21 working days. Dashed line marks the median judge.</p><div class="chart" id="c-merits"></div></div>
-      <div class="card"><h2>Mix of written opinions</h2><p class="note">Each judge's written opinions since <span data-since="opinions"></span>, split by ruling type, as a share of that judge's total. Judges in alphabetical order.</p>
+      <div class="card"><h2>Merits rulings per month</h2><p class="note">Since <span data-since="opinions"></span>. A month is 21 working days. The dashed line is the median judge.</p><div class="chart" id="c-merits"></div></div>
+      <div class="card"><h2>Mix of written opinions</h2><p class="note">What kinds of opinions each judge writes, as a share of their total. Alphabetical order.</p>
         <div class="legend" aria-hidden="true" data-legend="cats"></div><div class="chart" id="c-mix"></div></div>
     </div>
   </section>
@@ -146,7 +147,7 @@
   <section class="sheet" id="outcomes" role="tabpanel" aria-labelledby="tab-outcomes" hidden>
     <div class="card">
       <div class="card-head"><h2>Outcomes of motion rulings</h2><div class="actions"><button type="button" class="btn quiet" data-csv="oc-table">Export CSV</button></div></div>
-      <p class="note">Written opinions since <span data-since="opinions"></span> that rule on a motion, by what the order did to the motion. "Granted" means the motion was granted, whichever party filed it. Outcomes come from the docket text or the order's decretal language, or were entered by hand; "Known" counts rulings with an outcome on file. See the methodology for how outcomes are read.</p>
+      <p class="note">How each judge's motion rulings came out, since <span data-since="opinions"></span>. "Granted" means the motion was granted, no matter who filed it. "Known" is how many rulings have a recorded outcome; the rest are still being coded. Outcomes are read automatically from the docket or the order, so check the opinion before relying on one. <a href="methodology.html">How we read outcomes</a>.</p>
       <div class="scroll"><table id="oc-table"></table></div>
     </div>
     <div class="card">
@@ -162,7 +163,7 @@
   <section class="sheet" id="finder" role="tabpanel" aria-labelledby="tab-finder" hidden>
     <div class="card">
       <div class="card-head"><h2 id="finder-title">Opinion finder</h2><div class="actions"><button type="button" class="btn quiet" data-csv="recent-table">Export CSV</button></div></div>
-      <p class="note">Every written opinion in the data, newest first. Case numbers marked PDF open the opinion itself from CourtListener; others open the docket entry, or a CourtListener search for the case until the tracker finds the opinion's address. The judge and period filters above apply here.</p>
+      <p class="note">Every written opinion we have, newest first. Click a case number to open the opinion. "PDF" means the opinion itself is one click away; otherwise the link goes to the docket on CourtListener. The judge and period filters above apply here too.</p>
       <div class="finder">
         <label>Search <input id="op-q" type="search" placeholder="Case name, number, or ruling" autocomplete="off"></label>
         <label>Ruling type <select id="op-type"><option value="">All</option><option value="merits">Merits rulings</option><option value="r12">Rule 12</option><option value="r56">Rule 56</option><option value="trial">Trial and post-trial</option><option value="rr">Magistrate R&amp;Rs</option><option value="other">Other opinions</option><optgroup label="Motion category"><option value="motion">Any motion ruling</option><option value="discovery">Discovery</option><option value="daubert">Daubert / expert</option><option value="remand">Remand</option><option value="othermotion">Other motions</option></optgroup></select></label>
@@ -180,12 +181,12 @@
   <section class="sheet" id="log" role="tabpanel" aria-labelledby="tab-log" hidden>
     <div class="card">
       <div class="card-head"><h2>Update log</h2></div>
-      <p class="note">Each update that added entries, newest first.</p>
+      <p class="note">Every data update, newest first.</p>
       <div class="scroll tall"><table id="runs-table"></table></div>
     </div>
   </section>
 
-  <footer>Counts describe docket activity only. They say nothing about the quality or correctness of any ruling. Sources: PACER reports, the EDLA CM/ECF public RSS feed, and CourtListener (Free Law Project). Not affiliated with the court. <a href="methodology.html">Methodology</a> · <a href="https://github.com/ggb52-wq/edla-judge-tracker">Data and code</a></footer>
+  <footer>Independent project. Not affiliated with the U.S. District Court for the Eastern District of Louisiana or any judge. Not legal advice. The numbers describe docket activity only and say nothing about whether any ruling was right. Automated counts can be wrong; verify against the docket before relying on them. Sources: PACER, the court's public RSS feed, and CourtListener (Free Law Project). <a href="methodology.html">How we count</a> · <a href="https://github.com/ggb52-wq/edla-judge-tracker">Data and code</a></footer>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 <script src="assets/app.js"></script>

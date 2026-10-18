@@ -1,6 +1,6 @@
-# EDLA Judge Tracker: notes for Claude
+# EDLA Analyzer: notes for Claude
 
-Public static site (GitHub Pages, https://ggb52-wq.github.io/edla-judge-tracker/) counting civil orders and written opinions by judge in the U.S. District Court for the Eastern District of Louisiana. Owner: Grant Butler, a practicing litigator in that court.
+Public static site (GitHub Pages, https://ggb52-wq.github.io/edla-judge-tracker/; the repository keeps its old name) counting civil orders and written opinions by judge in the U.S. District Court for the Eastern District of Louisiana. Owner: Grant Butler, a practicing litigator in that court.
 
 ## Layout
 - `index.html`, `methodology.html`, `assets/style.css`, `assets/app.js`: the site, in six sections (Overview, Orders, Opinions, Outcomes, Opinion finder, Update log) with a shared judge, comparison set, and period filter kept in the URL hash (`#overview?judge=BSL&vs=EEF,JTM&period=90`; `#judge=Africk` also works). The judge profile answers practitioner questions (motion outcomes by category, time to ruling, written opinions vs. minute entries, compare judges) and prints on its own via the "Print / save profile" button. No build step. `app.js` loads `data/*.json` and computes every figure in the browser; d3 7.9.0 comes from cdnjs.
