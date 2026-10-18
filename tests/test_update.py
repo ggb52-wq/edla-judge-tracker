@@ -49,6 +49,10 @@ DOCKET_LOOKUP = {"next": None, "results": [
 def fake_get(url, headers=None, timeout=45):
     if url.startswith(update.RSS_URL):
         return RSS
+    if "docket-entries" in url:                                  # motion filing date lookup
+        q = urllib.parse.parse_qs(urllib.parse.urlparse(url).query)
+        filed = {("501", "25"): "2026-09-02", ("900", "4"): "2026-10-01"}.get((q["docket"][0], q["entry_number"][0]))
+        return json.dumps({"next": None, "results": [{"date_filed": filed}] if filed else []}).encode()
     if "recap-documents" in url and "docket_number" in url:   # opinion link lookup
         q = urllib.parse.parse_qs(urllib.parse.urlparse(url).query)
         hit = (q["docket_entry__docket__docket_number"] == ["2:26-cv-01880"] and q["document_number"] == ["6"])
@@ -117,7 +121,7 @@ class UpdateTest(unittest.TestCase):
                          {("2:26-cv-09003", "30"), ("2:26-cv-09005", "8"), ("2:26-cv-01880", "6")})
         checks = json.loads((self.tmp / "data/link_checks.json").read_text())
         self.assertNotIn("2:26-cv-09005|8", checks)                      # new row: first in line next run
-        self.assertEqual(len(checks), update.LINK_BUDGET - 1)            # misses recorded, PDF and outcome hit removed
+        self.assertTrue(update.LINK_BUDGET - 3 <= len(checks) <= update.LINK_BUDGET - 1)  # misses recorded; the hit removed; a filing-date call used
         self.assertNotIn("2:26-cv-09003|30", checks)
         self.assertNotIn("2:26-cv-01880|6", checks)
         outcomes = {(r["case"], r["doc"]): r for r in json.loads((self.tmp / "data/outcomes.json").read_text())}
@@ -126,6 +130,8 @@ class UpdateTest(unittest.TestCase):
         self.assertEqual(outcomes[("2:26-cv-01880", "6")]["outcome"], "granted")        # from the order's text
         self.assertEqual(outcomes[("2:26-cv-01880", "6")]["src"], "opinion_text")
         self.assertNotIn(("2:26-cv-09005", "8"), outcomes)                               # no text yet
+        self.assertEqual((outcomes[("2:26-cv-09003", "30")]["motion_doc"], outcomes[("2:26-cv-09003", "30")]["motion_filed"]), ("25", "2026-09-02"))
+        self.assertEqual((outcomes[("2:26-cv-01880", "6")]["motion_doc"], outcomes[("2:26-cv-01880", "6")]["motion_filed"]), ("4", "2026-10-01"))
 
     def test_hand_entry_kept(self):
         (self.tmp / "data/outcomes.json").write_text(json.dumps(
@@ -164,6 +170,11 @@ class OutcomeTextTest(unittest.TestCase):
                            "Order on Motion to Remand, Order on Motion to Stay"), "mixed")
         self.assertEqual(c("For the foregoing reasons, the Motion to Dismiss is GRANTED.", "Order on Motion to Dismiss", 1, 0), "granted")
         self.assertEqual(c("The case is remanded.", "Order on Motion to Remand"), "")
+        from outcome_text import motion_doc as m
+        self.assertEqual(m("ORDER granting 12 Motion to Dismiss; denying 20 Motion for Leave.", "Order on Motion to Dismiss", 1, 0, "docket"), "12")
+        self.assertEqual(m("IT IS ORDERED that the Motion to Dismiss (R. Doc. 4) is GRANTED. IT IS FURTHER ORDERED that the Motion "
+                           "for Oral Argument (Rec. Doc. 9) is DENIED AS MOOT.", "Order on Motion to Dismiss", 1, 0), "4")
+        self.assertEqual(m("IT IS ORDERED that the Motion for Summary Judgment is DENIED.", "Order on Motion for Summary Judgment", 0, 1), "")
         self.assertEqual(c("IT IS ORDERED that the status conference is CANCELLED. ... Accordingly, the Motion to Remand is GRANTED.",
                            "Order on Motion to Remand"), "granted")                     # falls back to the conclusion
 
@@ -174,6 +185,10 @@ class OutcomeTextTest(unittest.TestCase):
         out = {"a|1": {"case": "a", "doc": "1", "outcome": "unclear", "src": "opinion_text", "at": "2026-10-01"},
                "a|2": {"case": "a", "doc": "2", "outcome": "unclear", "src": "manual", "at": "2026-10-01"}}
         row = lambda d: {"case": "a", "doc": d, "event": "Order on Motion to Compel"}  # noqa: E731
+        out["a|3"] = {"case": "a", "doc": "3", "outcome": "granted", "src": "opinion_text", "at": "2026-10-01"}
+        self.assertTrue(update.outcome_due(out, row("3"), "2026-09-30"))     # known, but motion not yet looked for
+        out["a|3"]["motion_doc"] = ""
+        self.assertFalse(update.outcome_due(out, row("3"), "2026-10-11"))    # looked for once; not again
         self.assertTrue(update.outcome_due(out, row("1"), "2026-10-11"))     # automatic "unclear", a week old
         self.assertFalse(update.outcome_due(out, row("1"), "2026-09-30"))    # read too recently
         self.assertFalse(update.outcome_due(out, row("2"), "2026-10-11"))    # hand entry

@@ -7,19 +7,21 @@
   <meta name="description" content="Docket activity by judge in the U.S. District Court for the Eastern District of Louisiana: civil orders, written opinions, and ruling outcomes, updated from the court's public RSS feed.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap">
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-<div class="wrap">
-  <header class="masthead">
+<header class="band">
+  <div class="wrap masthead">
     <div>
       <p class="kicker">U.S. District Court · Eastern District of Louisiana</p>
       <h1>EDLA Judge Tracker</h1>
       <p class="lede">Civil orders, written opinions, and ruling outcomes for each of the court's 16 active district judges, counted from the public docket and updated through the day.</p>
     </div>
     <nav class="nav"><a href="methodology.html">Methodology</a><a href="https://github.com/ggb52-wq/edla-judge-tracker">Data and code</a></nav>
-  </header>
+  </div>
+</header>
+<div class="wrap">
 
   <div class="bar">
     <div class="tabs" role="tablist" aria-label="Sections">
@@ -32,6 +34,7 @@
     </div>
     <div class="filters">
       <label>Judge <select id="judge-pick"><option value="">All judges</option></select></label>
+      <span class="vr" aria-hidden="true"></span>
       <label>Period <select id="period-pick"><option value="">All data</option><option value="90">Last 90 days</option><option value="30">Last 30 days</option></select></label>
       <label class="check"><input type="checkbox" id="bars-pick" checked> Bars in tables</label>
       <span class="status" id="status">Loading data…</span>
@@ -40,25 +43,63 @@
 
   <!-- ============================================================ Overview -->
   <section class="sheet" id="overview" role="tabpanel" aria-labelledby="tab-overview">
-    <div class="tiles" aria-label="Court figures">
-      <div class="tile"><span class="tile-label">Civil orders</span><span class="tile-num" id="t-orders">—</span><span class="tile-sub">since <span data-since="orders"></span></span></div>
-      <div class="tile"><span class="tile-label">Orders per working day</span><span class="tile-num" id="t-perday">—</span><span class="tile-sub">all judges combined</span><span id="t-perday-spark"></span></div>
-      <div class="tile"><span class="tile-label">Written opinions</span><span class="tile-num" id="t-opinions">—</span><span class="tile-sub">since <span data-since="opinions"></span></span><span id="t-opinions-spark"></span></div>
-      <div class="tile"><span class="tile-label">Merits rulings</span><span class="tile-num" id="t-merits">—</span><span class="tile-sub">Rule 12, Rule 56, trial</span></div>
-      <div class="tile"><span class="tile-label">Outcomes recorded</span><span class="tile-num" id="t-outcomes">—</span><span class="tile-sub" id="t-outcomes-sub">&nbsp;</span></div>
-      <div class="tile"><span class="tile-label">Opinions with PDF</span><span class="tile-num" id="t-pdf">—</span><span class="tile-sub" id="t-pdf-sub">&nbsp;</span></div>
-      <div class="tile"><span class="tile-label">Data through</span><span class="tile-num" id="t-through">—</span><span class="tile-sub" id="t-updated">&nbsp;</span></div>
+    <div class="tiles" aria-label="Key figures">
+      <button type="button" class="tile" data-go="orders"><span class="tile-label">Civil orders</span><span class="tile-num" id="t-orders">—</span><span class="tile-sub">since <span data-since="orders"></span></span></button>
+      <button type="button" class="tile" data-go="orders"><span class="tile-label">Orders per working day</span><span class="tile-num" id="t-perday">—</span><span class="tile-sub">all judges · weekly trend</span><span id="t-perday-spark"></span></button>
+      <button type="button" class="tile" data-go="finder"><span class="tile-label">Written opinions</span><span class="tile-num" id="t-opinions">—</span><span class="tile-sub" id="t-opinions-sub">since <span data-since="opinions"></span></span><span id="t-opinions-spark"></span></button>
+      <button type="button" class="tile" data-go="merits"><span class="tile-label">Merits rulings</span><span class="tile-num" id="t-merits">—</span><span class="tile-sub" id="t-merits-sub">Rule 12, Rule 56, trial</span></button>
+      <button type="button" class="tile" data-go="log"><span class="tile-label">Data through</span><span class="tile-num" id="t-through">—</span><span class="tile-sub" id="t-updated">&nbsp;</span></button>
     </div>
 
-    <div class="card" id="profile-card">
-      <div class="card-head"><h2 id="profile-title">Judge profile</h2><div class="actions"><button type="button" class="btn quiet" id="profile-clear" hidden>Show all judges</button></div></div>
+    <div class="card profile-card" id="profile-card">
+      <div class="card-head"><h2 id="profile-title">Judge profile</h2>
+        <div class="actions"><button type="button" class="btn quiet" id="profile-print" hidden>Print / save profile</button><button type="button" class="btn quiet" id="profile-clear" hidden>Show all judges</button></div></div>
       <div id="profile-empty">
-        <p class="note">Pick a judge for a one-page profile: that judge's figures beside the court median, ruling outcomes, and latest written opinions. The choice carries across every section.</p>
+        <p class="note">Pick a judge for a one-page profile: that judge's figures beside the court median, motion outcomes by category, time to ruling, and latest written opinions. The choice carries across every section and into the page address, so a profile can be bookmarked or shared.</p>
         <div class="chips" id="profile-chips"></div>
       </div>
-      <div class="profile" id="profile-body" hidden>
-        <div><h3>Figures <span id="profile-period"></span></h3><div class="facts" id="profile-facts"></div></div>
-        <div><h3>Latest written opinions</h3><ul class="list" id="profile-latest"></ul><p class="note" style="margin:8px 0 0"><a href="#" id="profile-more">All of this judge's opinions in the finder</a></p></div>
+      <div id="profile-body" hidden>
+        <div class="questions" role="group" aria-label="Common questions">
+          <span class="q-label">Common questions</span>
+          <button type="button" class="q" data-q="p-motions" data-cat="discovery">How does this judge rule on discovery motions?</button>
+          <button type="button" class="q" data-q="p-motions" data-cat="r12">Grant rates: Rule 12 / Rule 56?</button>
+          <button type="button" class="q" data-q="p-speed">How fast are rulings?</button>
+          <button type="button" class="q" data-q="p-written">Written opinions or minute entries?</button>
+        </div>
+        <div class="profile">
+          <div><h3>Figures <span id="profile-period"></span></h3><div class="facts" id="profile-facts"></div></div>
+          <div>
+            <h3>Written opinions</h3>
+            <div class="finder compact">
+              <input id="pl-q" type="search" placeholder="Filter by keyword" autocomplete="off" aria-label="Filter this judge's opinions by keyword">
+              <select id="pl-type" aria-label="Motion type"><option value="">All types</option><option value="motion">Motion rulings</option><option value="r12">Rule 12</option><option value="r56">Rule 56</option><option value="discovery">Discovery</option><option value="daubert">Daubert / expert</option><option value="remand">Remand</option><option value="trial">Trial and post-trial</option><option value="rr">Magistrate R&amp;Rs</option></select>
+              <span class="status" id="pl-count"></span>
+            </div>
+            <ul class="list" id="profile-latest"></ul>
+            <p class="note tight"><a href="#" id="profile-more">All of this judge's opinions in the finder</a></p>
+          </div>
+        </div>
+        <section class="panel" id="p-motions" tabindex="-1">
+          <h3>Motion outcomes by category</h3>
+          <p class="note tight" id="mo-note"></p>
+          <div class="scroll"><table id="mo-table"></table></div>
+        </section>
+        <section class="panel" id="p-speed" tabindex="-1">
+          <h3>Time to ruling</h3>
+          <p class="note tight" id="speed-note"></p>
+          <div class="facts" id="speed-facts"></div>
+        </section>
+        <section class="panel" id="p-written" tabindex="-1">
+          <h3>Written opinions or minute entries?</h3>
+          <p class="note tight" id="written-note"></p>
+          <div class="facts" id="written-facts"></div>
+        </section>
+        <section class="panel" id="p-compare" tabindex="-1">
+          <div class="card-head"><h3>Compare judges</h3>
+            <div class="finder compact"><label>with <select id="cmp-1"><option value="">—</option></select></label><label>and <select id="cmp-2"><option value="">—</option></select></label></div></div>
+          <p class="note tight">Key figures side by side, with the court median. Grant rates count rulings with a known outcome; the number known follows each rate.</p>
+          <div class="scroll"><table id="cmp-table"></table></div>
+        </section>
       </div>
     </div>
 
@@ -124,10 +165,11 @@
       <p class="note">Every written opinion in the data, newest first. Case numbers marked PDF open the opinion itself from CourtListener; others open the docket entry, or a CourtListener search for the case until the tracker finds the opinion's address. The judge and period filters above apply here.</p>
       <div class="finder">
         <label>Search <input id="op-q" type="search" placeholder="Case name, number, or ruling" autocomplete="off"></label>
-        <label>Ruling type <select id="op-type"><option value="">All</option><option value="merits">Merits rulings</option><option value="r12">Rule 12</option><option value="r56">Rule 56</option><option value="trial">Trial and post-trial</option><option value="rr">Magistrate R&amp;Rs</option><option value="other">Other opinions</option></select></label>
+        <label>Ruling type <select id="op-type"><option value="">All</option><option value="merits">Merits rulings</option><option value="r12">Rule 12</option><option value="r56">Rule 56</option><option value="trial">Trial and post-trial</option><option value="rr">Magistrate R&amp;Rs</option><option value="other">Other opinions</option><optgroup label="Motion category"><option value="motion">Any motion ruling</option><option value="discovery">Discovery</option><option value="daubert">Daubert / expert</option><option value="remand">Remand</option><option value="othermotion">Other motions</option></optgroup></select></label>
         <label>Outcome <select id="op-outcome"><option value="">Any</option><option value="granted">Granted</option><option value="partial">Granted in part</option><option value="denied">Denied</option><option value="mixed">Mixed</option><option value="moot">Moot</option><option value="other">Other</option><option value="known">Any recorded</option><option value="none">Not recorded</option></select></label>
         <label class="check"><input type="checkbox" id="op-pdf"> PDF only</label>
         <span class="status" id="op-count"></span>
+        <span class="chip-row" id="op-chips"></span>
       </div>
       <div class="scroll tall"><table id="recent-table"></table></div>
       <button type="button" class="btn more" id="op-more" hidden>Show more</button>
