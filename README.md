@@ -1,4 +1,4 @@
-# EDLA Judge Tracker
+# EDLA Analyzer
 
 A static website that counts civil orders and written opinions by judge in the U.S. District Court for the Eastern District of Louisiana. The page computes every figure in the browser from the JSON files in `data/`.
 

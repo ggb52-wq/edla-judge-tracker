@@ -1,4 +1,4 @@
-/* EDLA Judge Tracker: computes every figure in the browser from data/*.json. */
+/* EDLA Analyzer: computes every figure in the browser from data/*.json. */
 (() => {
   const fmt = { int: d3.format(','), d1: d3.format('.1f'), d2: d3.format('.2f'), pct0: d3.format('.0%') };
   const utc = (s) => new Date(s + 'T00:00:00Z');
@@ -374,7 +374,7 @@
   function weeklyChart() {
     const box = $('c-weekly'); const rows = state.stats.weekly; const sel = state.selected;
     const accent = css('--accent'); const muted = css('--muted-bar'); const ink2 = css('--ink-2');
-    $('weekly-note').textContent = (sel ? state.stats.names[sel] + ' against the median judge' : 'The median judge') + ', by week (Monday start). The current week is partial. Click the chart for the orders tables.';
+    $('weekly-note').textContent = (sel ? state.stats.names[sel] + ' and the median judge' : 'The median judge') + ', week by week. The current week is not finished yet.';
     if (!rows.length) { box.replaceChildren(); return; }
     const series = [['median', 'Median judge', sel ? muted : accent]];
     if (sel) series.push([sel, state.stats.names[sel], accent]);
@@ -408,7 +408,7 @@
   function monthlyChart() {
     const box = $('c-monthly'); const S = state.stats; const sel = state.selected; const panel = css('--panel');
     $('monthly-title').textContent = 'Written opinions by month' + (sel ? ': ' + S.names[sel] : '');
-    $('monthly-note').textContent = (sel ? S.names[sel] + ', by ruling type.' : 'All 16 judges combined, by ruling type.') + ' The first and current months can be partial. Click a segment to list those opinions.';
+    $('monthly-note').textContent = (sel ? S.names[sel] + "'s opinions each month, by type." : 'All 16 judges combined, by type.') + ' Click a bar segment to see those opinions.';
     const rows = S.monthly.map((r) => ({ ...r, c: sel ? (r.by[sel] || zeroCats()) : r.all }));
     if (!rows.length) { box.replaceChildren(); return; }
     const H = 250; const m = { t: 10, r: 8, b: 26, l: 34 };
@@ -475,7 +475,7 @@
     const g = state.ocGroup;
     document.querySelectorAll('#oc-seg button').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.g === g)));
     const known = d3.sum(state.stats.opinions, (r) => r[g + '_known']); const n = d3.sum(state.stats.opinions, (r) => r[g + '_n']);
-    $('oc-note').textContent = `${GROUPS[g]} rulings with a known outcome, as a share of each judge's known outcomes. Outcomes are on file for ${fmt.int(known)} of ${fmt.int(n)} such rulings since ${fmtDate(state.stats.since.opinions)}; n is the number known. Judges in alphabetical order; bars resting on fewer than ${FEW} known outcomes are faded, because a share of one or two rulings says little. Click a segment to list those opinions.`;
+    $('oc-note').textContent = `How each judge's ${GROUPS[g].toLowerCase()} rulings came out, counting only rulings with a recorded outcome (${fmt.int(known)} of ${fmt.int(n)} so far). "n" is the number recorded. Faded bars rest on fewer than ${FEW} rulings, which is too few to read much into. Click a segment to see those opinions.`;
     shareBars('c-outcomes', 'Outcomes of ' + GROUPS[g] + ' rulings by judge', OC_SEGS.map(([k, l]) => [k, l, ocColor(k)]), (r, k) => r[g + '_' + k], (r) => r[g + '_known'], 'No outcomes on file yet', FEW,
       (r, k) => goFinder({ type: g === 'all' ? 'motion' : g, oc: k }, r.code));
   }
@@ -484,8 +484,8 @@
   function hoursChart() {
     const box = $('c-hours'); const S = state.stats; const sel = state.selected;
     const accent = css('--accent'); const muted = css('--muted-bar');
-    $('hours-note').textContent = 'Share of civil orders entered in each hour (Central) since ' + fmtDate(S.since.orders)
-      + (sel ? ': ' + S.names[sel] + ' against all judges combined.' : ', all judges combined. Pick a judge to compare.');
+    $('hours-note').textContent = 'What time of day orders come out (Central), since ' + fmtDate(S.since.orders)
+      + (sel ? ': ' + S.names[sel] + ' next to the whole court.' : '. Pick a judge to compare.');
     const share = (a) => { const t = d3.sum(a); return a.map((v) => (t ? v / t : 0)); };
     const series = [['all', 'All judges', sel ? muted : accent, share(S.hours.all), S.hours.all]];
     if (sel) series.push([sel, S.names[sel], accent, share(S.hours.by[sel]), S.hours.by[sel]]);
@@ -604,7 +604,7 @@
   // Motion outcomes by category for the picked judge; every figure opens the opinions behind it.
   function drawMotions(op) {
     const S = state.stats; const sel = state.selected;
-    $('mo-note').textContent = `Written opinions by ${S.names[sel]} that rule on a motion, since ${fmtDate(S.since.opinions)}, by what the order did to the motion. Rates are shares of rulings whose outcome is on file; "coded" says how many that is. Click any figure to list the opinions behind it. Outcomes describe the motion, whichever party filed it.`;
+    $('mo-note').textContent = `How ${S.names[sel]}'s motion rulings came out, by type of motion, since ${fmtDate(S.since.opinions)}. Percentages count only rulings with a recorded outcome; "coded" is how many that is. "Granted" means the motion was granted, no matter who filed it. Click any number to see the opinions behind it.`;
     const cols = ['Motion category', 'Rulings', 'Coded', 'Granted', 'Granted in part', 'Denied', 'Mixed, moot, other', 'Median days to ruling'];
     const head = el('thead', {}, el('tr', {}, ...cols.map((c) => el('th', { textContent: c }))));
     const line = (label, t, type) => {
@@ -625,9 +625,8 @@
 
   function drawSpeed(op) {
     const S = state.stats; const t = op.motions;
-    $('speed-note').textContent = 'Median calendar days from the day a motion was docketed to the day the written opinion deciding it was entered. '
-      + 'Filing dates come from the docket entry the order names; the updater records them as it reads each ruling, so the count with dates grows over time. '
-      + (t.nDays ? `For ${S.names[state.selected]}, ${fmt.int(t.nDays)} of ${fmt.int(t.n)} motion rulings have a filing date so far.` : `No filing dates are on file yet for ${S.names[state.selected]}; the figures below fill in as the updater reads this judge's rulings.`);
+    $('speed-note').textContent = 'How many days passed between a motion being filed and the written opinion deciding it. These are medians in calendar days. We collect filing dates one ruling at a time, so the numbers fill in gradually. '
+      + (t.nDays ? `So far ${fmt.int(t.nDays)} of ${S.names[state.selected]}'s ${fmt.int(t.n)} motion rulings have a filing date.` : `None of ${S.names[state.selected]}'s rulings has a filing date yet; check back soon.`);
     const cell = (label, tt) => fact(label, tt.medDays == null ? 'not yet' : fmt.int(tt.medDays) + ' days', tt.nDays ? `median of ${fmt.int(tt.nDays)} ruling${tt.nDays === 1 ? '' : 's'}` : 'no filing dates yet', tt.medDays == null);
     $('speed-facts').replaceChildren(cell('All motions', t), ...MCATS.map(([k, label]) => cell(label, op.cats[k])),
       fact('Court median, all motions', S.totals.medDays == null ? 'not yet' : fmt.int(S.totals.medDays) + ' days', S.totals.medDays == null ? `shown once three judges have ${FEW} or more dated rulings` : 'median of the judges\' medians', S.totals.medDays == null));
@@ -635,7 +634,7 @@
 
   function drawWritten(or, op) {
     const S = state.stats;
-    $('written-note').textContent = `Since ${fmtDate(S.since.orders)}, the period with every civil order on file. A written opinion is an order chambers flagged for PACER's Written Opinions Report; the rest are text orders, minute entries, and written orders chambers did not flag. The docket does not separate those last two, so this is a count of flagged opinions, not of reasoned orders.`;
+    $('written-note').textContent = `How much of this judge's output is a written opinion versus a short order, since ${fmtDate(S.since.orders)}. "Written opinion" means chambers flagged the order for PACER's Written Opinions Report. The docket can't tell an unflagged reasoned order from a minute entry, so treat this as a measure of flagging habits.`;
     $('written-facts').replaceChildren(
       fact('Civil orders', fmt.int(or.orders), fmt.int(or.text_orders) + ' entered as text orders (' + pctOf(or.text_orders, or.orders) + ')'),
       fact('Written opinions in the same period', fmt.int(op.written_window), pctOf(op.written_window, or.orders) + ' of orders · court median ' + fmt.pct0(S.totals.medWrittenShare)),
