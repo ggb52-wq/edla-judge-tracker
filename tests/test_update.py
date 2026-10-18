@@ -4,6 +4,7 @@ import shutil
 import sys
 import tempfile
 import unittest
+import urllib.parse
 from pathlib import Path
 from unittest import mock
 
@@ -46,6 +47,11 @@ DOCKET_LOOKUP = {"next": None, "results": [
 def fake_get(url, headers=None, timeout=45):
     if url.startswith(update.RSS_URL):
         return RSS
+    if "recap-documents" in url and "docket_number" in url:   # opinion link lookup
+        q = urllib.parse.parse_qs(urllib.parse.urlparse(url).query)
+        hit = (q["docket_entry__docket__docket_number"] == ["2:26-cv-01880"] and q["document_number"] == ["6"])
+        results = [{"absolute_url": "/docket/900/6/geico-general-insurance-company-v-united-states/"}] if hit else []
+        return json.dumps({"next": None, "results": results}).encode()
     if "recap-documents" in url:
         return json.dumps(RECAP_DOCS).encode()
     if "docket_id" in url:
@@ -88,6 +94,20 @@ class UpdateTest(unittest.TestCase):
         self.assertEqual(op[("2:26-cv-09005", "8")]["r12"], 1)
         self.assertEqual(runs[-1]["orders_added"], 3)
         self.assertEqual(runs[-1]["opinions_added"], 2)
+        self.assertEqual(op[("2:26-cv-09003", "30")]["url"], "https://www.courtlistener.com/docket/501/30/epsilon-v-zeta/")
+        base = {(o["case"], o["doc"]): o for o in opinions}
+        self.assertEqual(base[("2:26-cv-01880", "6")]["url"],               # baseline row linked by lookup
+                         "https://www.courtlistener.com/docket/900/6/geico-general-insurance-company-v-united-states/")
+        self.assertEqual(sum(1 for o in opinions if o.get("url")), 3)
+        checks = json.loads((self.tmp / "data/link_checks.json").read_text())
+        self.assertEqual(len(checks), update.LINK_BUDGET - 1)            # misses recorded, hit removed
+        self.assertNotIn("2:26-cv-01880|6", checks)
+
+    def test_doc_url(self):
+        self.assertEqual(update.doc_url("/docket/1/2/a-b/"), "https://www.courtlistener.com/docket/1/2/a-b/")
+        self.assertEqual(update.doc_url("/docket/1/2/3/a-b/"), "")      # attachment
+        self.assertEqual(update.doc_url("https://evil.example/docket/1/2/a/"), "")
+        self.assertEqual(update.doc_url(None), "")
 
 
 if __name__ == "__main__":

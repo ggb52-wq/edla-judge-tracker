@@ -94,11 +94,37 @@
     </tr></thead><tbody></tbody></table></div>
   </section>
 
+  <section class="card">
+    <h2 id="monthly-title">Written opinions by month</h2>
+    <p class="note" id="monthly-note">All 16 judges combined, by ruling type. January starts Jan. 10, and the current month is partial.</p>
+    <div class="legend" aria-hidden="true"><span><i style="background:var(--c-r12)"></i>Rule 12</span><span><i style="background:var(--c-r56)"></i>Rule 56</span><span><i style="background:var(--c-trial)"></i>Trial and post-trial</span><span><i style="background:var(--c-rr)"></i>Magistrate R&amp;Rs</span><span><i style="background:var(--c-other)"></i>Other opinions</span></div>
+    <div class="chart short" id="c-monthly"></div>
+  </section>
+
   <section class="grid">
-    <div class="card"><h2 id="recent-title">Latest written opinions</h2><p class="note" id="recent-note">The 25 most recent across the court.</p>
-      <div class="scroll tall"><table id="recent-table"><thead><tr><th>Date</th><th>Judge</th><th>Case · doc</th><th>Ruling</th><th>Case name</th></tr></thead><tbody></tbody></table></div></div>
-    <div class="card"><h2>Update log</h2><p class="note">Each update that added entries, newest first.</p>
-      <div class="scroll tall"><table id="runs-table"><thead><tr><th>Run (Central)</th><th>Orders added</th><th>Opinions added</th><th>Note</th></tr></thead><tbody></tbody></table></div></div>
+    <div class="card"><h2>Mix of written opinions</h2><p class="note">Each judge's written opinions since Jan. 10, 2026, split by ruling type, as a share of that judge's total. Hover a bar for counts.</p>
+      <div class="legend" aria-hidden="true"><span><i style="background:var(--c-r12)"></i>Rule 12</span><span><i style="background:var(--c-r56)"></i>Rule 56</span><span><i style="background:var(--c-trial)"></i>Trial and post-trial</span><span><i style="background:var(--c-rr)"></i>Magistrate R&amp;Rs</span><span><i style="background:var(--c-other)"></i>Other opinions</span></div>
+      <div class="chart" id="c-mix"></div></div>
+    <div class="card"><h2>Time of entry</h2><p class="note" id="hours-note">Share of civil orders entered in each hour (Central) since Sept. 17, 2026, all judges combined. Highlight a judge to compare.</p>
+      <div class="legend" id="hours-legend" aria-hidden="true"></div>
+      <div class="chart" id="c-hours"></div></div>
+  </section>
+
+  <section class="card" id="finder">
+    <h2 id="recent-title">Find a written opinion</h2>
+    <p class="note" id="recent-note">Every written opinion in the data, newest first. Case numbers link to the document on CourtListener when its address is known, and to a CourtListener docket search otherwise. Highlight a judge to narrow the list.</p>
+    <div class="finder">
+      <label for="op-q">Search</label><input id="op-q" type="search" placeholder="Case name, number, or ruling" autocomplete="off">
+      <label for="op-type">Ruling type</label>
+      <select id="op-type"><option value="">All</option><option value="merits">Merits rulings</option><option value="r12">Rule 12</option><option value="r56">Rule 56</option><option value="trial">Trial and post-trial</option><option value="rr">Magistrate R&amp;Rs</option><option value="other">Other opinions</option></select>
+      <span class="status" id="op-count"></span>
+    </div>
+    <div class="scroll tall"><table id="recent-table"><thead><tr><th>Date</th><th>Judge</th><th>Case · doc</th><th>Ruling</th><th>Case name</th></tr></thead><tbody></tbody></table></div>
+    <button type="button" class="more" id="op-more" hidden>Show more</button>
+  </section>
+
+  <section class="card"><h2>Update log</h2><p class="note">Each update that added entries, newest first.</p>
+    <div class="scroll tall"><table id="runs-table"><thead><tr><th>Run (Central)</th><th>Orders added</th><th>Opinions added</th><th>Note</th></tr></thead><tbody></tbody></table></div>
   </section>
 
   <footer>Counts describe docket activity only. They say nothing about the quality or correctness of any ruling. Sources: PACER reports, the EDLA CM/ECF public RSS feed, and CourtListener (Free Law Project). Not affiliated with the court. <a href="methodology.html">Methodology</a> · <a href="https://github.com/ggb52-wq/edla-judge-tracker">Data and code</a></footer>

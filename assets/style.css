@@ -9,6 +9,8 @@
   --accent-soft: #dbe6f5;
   --muted-bar: #c3cad3;
   --bad: #b3261e;
+  /* Opinion categories: validated categorical order (blue, orange, aqua, yellow, magenta). */
+  --c-r12: #2a78d6; --c-r56: #eb6834; --c-trial: #1baf7a; --c-rr: #eda100; --c-other: #e87ba4;
   --font-display: "Newsreader", "Iowan Old Style", Georgia, serif;
   --font-body: "Public Sans", "Segoe UI", system-ui, sans-serif;
   color-scheme: light;
@@ -17,11 +19,13 @@
   :root:not([data-theme="light"]) {
     --paper: #12161c; --panel: #1a2029; --ink: #e8ebef; --ink-2: #a9b2bd; --rule: #2c3440;
     --accent: #6f9be0; --accent-soft: #24344d; --muted-bar: #3c4552; --bad: #f2867d; color-scheme: dark;
+    --c-r12: #3987e5; --c-r56: #d95926; --c-trial: #199e70; --c-rr: #c98500; --c-other: #d55181;
   }
 }
 :root[data-theme="dark"] {
   --paper: #12161c; --panel: #1a2029; --ink: #e8ebef; --ink-2: #a9b2bd; --rule: #2c3440;
   --accent: #6f9be0; --accent-soft: #24344d; --muted-bar: #3c4552; --bad: #f2867d; color-scheme: dark;
+    --c-r12: #3987e5; --c-r56: #d95926; --c-trial: #199e70; --c-rr: #c98500; --c-other: #d55181;
 }
 
 * { box-sizing: border-box; }
@@ -72,6 +76,15 @@ td.left { text-align: left; white-space: normal; min-width: 12rem; }
 .chart svg text { fill: var(--ink); font-family: var(--font-body); }
 .tip { position: absolute; pointer-events: none; background: var(--panel); border: 1px solid var(--rule); border-radius: 6px; box-shadow: 0 4px 14px rgba(0,0,0,.12); padding: 6px 9px; font-size: .78rem; white-space: nowrap; z-index: 3; }
 .tip .k { color: var(--ink-2); }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: .78rem; color: var(--ink-2); margin: -6px 0 10px; }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.legend i { width: 12px; height: 12px; border-radius: 3px; display: inline-block; }
+.finder { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; font-size: .85rem; color: var(--ink-2); margin-bottom: 10px; }
+.finder input, .finder select, .more { font: inherit; color: var(--ink); background: var(--panel); border: 1px solid var(--rule); border-radius: 6px; padding: 5px 9px; }
+.finder input { min-width: min(100%, 18rem); }
+.more { cursor: pointer; margin-top: 10px; }
+td a { text-decoration: none; }
+td a:hover { text-decoration: underline; }
 .status { font-size: .8rem; color: var(--ink-2); }
 .err { color: var(--bad); }
 

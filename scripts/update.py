@@ -36,8 +36,12 @@ CENTRAL = ZoneInfo("America/Chicago")
 RSS_URL = "https://ecf.laed.uscourts.gov/cgi-bin/rss_outside.pl"
 CL_BASE = "https://www.courtlistener.com/api/rest/v4/"
 USER_AGENT = "edla-judge-tracker (github.com/ggb52-wq/edla-judge-tracker)"
+CL_SITE = "https://www.courtlistener.com"
 CL_CALL_BUDGET = 40
+LINK_BUDGET = 15        # CourtListener calls per run spent finding addresses for opinions without one
+LINK_RECHECK_DAYS = 7
 LOW_COVERAGE = 50
+DOC_PATH_RE = re.compile(r"^/docket/\d+/\d+/[a-z0-9-]+/$")
 
 # ---------------------------------------------------------------- judges
 SURNAME_CODES = {
@@ -192,6 +196,41 @@ def fetch_rss(note: list[str]) -> list[dict]:
     return items
 
 
+def doc_url(path: str | None) -> str:
+    """CourtListener address for a main RECAP document, or "" when the path has another shape."""
+    return CL_SITE + path if path and DOC_PATH_RE.match(path) else ""
+
+
+def link_opinions(cl: CourtListener, opinions: list[dict], checks: dict, today: str) -> int:
+    """Look up CourtListener addresses for opinions that have none, a few per run.
+
+    Rows never checked go first, newest first; rows checked before are retried after
+    LINK_RECHECK_DAYS, because CourtListener adds documents after PACER lists them.
+    """
+    cutoff = (dt.date.fromisoformat(today) - dt.timedelta(days=LINK_RECHECK_DAYS)).isoformat()
+    todo = [o for o in opinions if not o.get("url") and o.get("doc") and CASE_RE.fullmatch(o.get("case", ""))
+            and checks.get(f"{o['case']}|{o['doc']}", "") <= cutoff]
+    todo.sort(key=lambda o: o["date"], reverse=True)
+    todo.sort(key=lambda o: checks.get(f"{o['case']}|{o['doc']}", ""))  # stable: oldest check first, then newest row
+    found = 0
+    stop = cl.calls + LINK_BUDGET
+    for o in todo:
+        if cl.calls >= min(stop, CL_CALL_BUDGET):
+            break
+        data = cl.get("recap-documents/", {
+            "docket_entry__docket__court": "laed", "docket_entry__docket__docket_number": o["case"],
+            "document_number": o["doc"], "fields": "absolute_url"})
+        if data is None:
+            break
+        checks[f"{o['case']}|{o['doc']}"] = today
+        url = next((u for u in (doc_url(r.get("absolute_url")) for r in data.get("results", [])) if u), "")
+        if url:
+            o["url"] = url
+            checks.pop(f"{o['case']}|{o['doc']}", None)
+            found += 1
+    return found
+
+
 def to_central(iso: str | None) -> dt.datetime | None:
     if not iso:
         return None
@@ -209,6 +248,7 @@ def main() -> int:
 
     orders, opinions = load("orders"), load("opinions")
     calendar, runs, judges = load("calendar"), load("runs"), load("judges")
+    link_checks = load("link_checks") if (DATA / "link_checks.json").exists() else {}
     bench = {j["code"]: j["bench_start"] for j in judges}
     holidays = {r["date"] for r in calendar if r["kind"] == "holiday"}
     through_row = next(r for r in calendar if r["kind"] == "through")
@@ -341,7 +381,7 @@ def main() -> int:
         desc = (r.get("description") or "").strip()
         added_opinions.append({"date": date, "judge": judge, "case": info["case"], "doc": doc,
                                "title": info["title"], "event": desc[:160], **opinion_flags(desc),
-                               "src": "courtlistener_wo"})
+                               "src": "courtlistener_wo", **({"url": u} if (u := doc_url(r.get("absolute_url"))) else {})})
         opinion_keys.add(key)
 
     # Rows for magistrate judges presiding by consent and visiting judges are kept;
@@ -349,6 +389,11 @@ def main() -> int:
     no_judge = sum(1 for r in added_orders + added_opinions if not r["judge"])
     if no_judge:
         note.append(f"{no_judge} entries without a judge")
+
+    # --- CourtListener addresses for opinions already in the data
+    linked = link_opinions(cl, opinions, link_checks, today) if cl.token else 0
+    if linked:
+        note.append(f"{linked} opinion links added")
 
     # --- coverage check for completed weekdays in the window
     orders.extend(added_orders)
@@ -381,6 +426,7 @@ def main() -> int:
     save("opinions", opinions)
     save("calendar", calendar)
     save("runs", runs)
+    (DATA / "link_checks.json").write_text(json.dumps(dict(sorted(link_checks.items())), indent=0) + "\n")
     print(f"orders +{len(added_orders)}, opinions +{len(added_opinions)}, pending {len(new_pending)}; " + "; ".join(note))
     return 0
 
