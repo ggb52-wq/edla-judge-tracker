@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Methodology · EDLA Judge Tracker</title>
+  <meta name="description" content="Sources, definitions and limits of the EDLA Judge Tracker.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Public+Sans:wght@400;600;700&display=swap">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="masthead">
+    <div>
+      <p class="kicker">EDLA Judge Tracker</p>
+      <h1>Methodology and sources</h1>
+    </div>
+    <nav class="nav"><a href="index.html">Back to the tracker</a></nav>
+  </header>
+
+  <article class="card prose">
+    <h2>What the tracker counts</h2>
+    <p>The tracker counts docket events in civil cases in the U.S. District Court for the Eastern District of Louisiana and attributes each to the district judge assigned to the case. It covers the court's 16 active district judges. Rows for magistrate judges presiding by consent, and for visiting or senior judges, are kept in the data but not charted.</p>
+    <p>The counts describe activity on the docket. They do not measure the quality, speed, or correctness of any judge's rulings, and the tracker draws no conclusions about any judge.</p>
+
+    <h2>Sources</h2>
+    <ul>
+      <li><strong>Written opinions, Jan. 10 to Oct. 16, 2026:</strong> the PACER Written Opinions Report for the court.</li>
+      <li><strong>Civil orders, Sept. 17 to Oct. 16, 2026:</strong> the PACER Docket Activity Report, event category "order."</li>
+      <li><strong>Since Oct. 17, 2026:</strong> the court's public CM/ECF RSS feed, checked every 15 minutes during the workday, matched against <a href="https://www.courtlistener.com/">CourtListener</a> (Free Law Project), which builds docket records from the same feed and adds the assigned judge and full event type. Documents CourtListener marks as free on PACER are the entries on PACER's Written Opinions Report.</li>
+    </ul>
+
+    <h2>Definitions</h2>
+    <ul>
+      <li><strong>Civil order:</strong> any docket event in the court's "order" category, including orders on motions, scheduling orders, text orders, judgments, hearing settings, transfers, and magistrate judges' reports and recommendations, counted once per docket entry.</li>
+      <li><strong>Written opinion:</strong> an entry on PACER's Written Opinions Report. Each chambers decides which of its orders to flag, so chambers flag different shares of their rulings. In a Sept.–Oct. 2026 check, about two-thirds of rulings on Rule 12 and Rule 56 motions appeared on the report, and the share varied widely by judge.</li>
+      <li><strong>Merits ruling:</strong> a written opinion resolving a motion under Rule 12 (dismissal, judgment on the pleadings), Rule 56 (summary judgment), or a trial or post-trial matter (findings of fact and conclusions of law, judgment as a matter of law, new trial, altering a judgment).</li>
+      <li><strong>Working days:</strong> weekdays other than court holidays, including Mardi Gras. A judge who joined the court during the period is counted from that judge's first day on the bench; Judge St. John took the bench on April 13, 2026.</li>
+      <li><strong>Rates:</strong> opinions per week divide district judge opinions by working days ÷ 5; merits per month divide merits rulings by working days ÷ 21; orders per working day divide orders by working days.</li>
+      <li><strong>Longest gap:</strong> the most calendar days between consecutive written opinions in a judge's cases.</li>
+      <li><strong>Entry times</strong> are Central and come from the RSS feed or CourtListener's record of when it read the entry. They show when the clerk entered an order, which may differ from when the judge signed it.</li>
+    </ul>
+
+    <h2>Known limits</h2>
+    <ul>
+      <li>Each count follows the judge currently assigned to the case. An order entered before a reassignment can be credited to the new judge; entries dated before a judge's first day are excluded.</li>
+      <li>The RSS feed shows only the latest entries and does not name the judge. Entries reach the tracker after CourtListener records them, usually within minutes. If the feed or CourtListener is unavailable, entries can arrive late; the update log notes low-coverage days.</li>
+      <li>Oral rulings, minute entries outside the order category, and sealed entries are not counted.</li>
+    </ul>
+
+    <h2>Data and code</h2>
+    <p>The data files and the update script are public at <a href="https://github.com/ggb52-wq/edla-judge-tracker">github.com/ggb52-wq/edla-judge-tracker</a>. Corrections are welcome through that repository.</p>
+  </article>
+
+  <footer>Not affiliated with the U.S. District Court for the Eastern District of Louisiana.</footer>
+</div>
+</body>
+</html>

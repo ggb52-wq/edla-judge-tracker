@@ -1,0 +1,46 @@
+name: Update docket data
+
+on:
+  schedule:
+    # Every 15 minutes, 7:00 AM to about 9:00 PM Central on weekdays (times are UTC).
+    - cron: "*/15 12-23 * * 1-5"
+    - cron: "*/15 0-2 * * 2-6"
+    # Every 3 hours on weekends.
+    - cron: "7 */3 * * 0,6"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch new entries
+        env:
+          COURTLISTENER_TOKEN: ${{ secrets.COURTLISTENER_TOKEN }}
+        run: python scripts/update.py
+
+      - name: Commit when the data changed
+        run: |
+          if git diff --quiet -- data/orders.json data/opinions.json; then
+            echo "No new entries."
+            git checkout -- data
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git commit -m "Data update $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push

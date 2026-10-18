@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>EDLA Judge Tracker</title>
+  <meta name="description" content="Docket activity by judge in the U.S. District Court for the Eastern District of Louisiana: civil orders and written opinions, updated from the court's public RSS feed.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Public+Sans:wght@400;600;700&display=swap">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="masthead">
+    <div>
+      <p class="kicker">U.S. District Court · Eastern District of Louisiana</p>
+      <h1>EDLA Judge Tracker</h1>
+      <p class="lede">Civil orders and written opinions entered by each of the court's 16 active district judges, counted from the public docket and updated through the day.</p>
+    </div>
+    <nav class="nav"><a href="methodology.html">Methodology and sources</a></nav>
+  </header>
+
+  <div class="controls">
+    <label for="judge-pick">Highlight a judge</label>
+    <select id="judge-pick"><option value="">None</option></select>
+    <button type="button" id="judge-clear" hidden>Clear</button>
+    <span class="status" id="status">Loading data…</span>
+  </div>
+
+  <section class="tiles" aria-label="Court totals">
+    <div class="tile"><span class="tile-label">Civil orders</span><span class="tile-num" id="t-orders">—</span><span class="tile-sub" id="t-orders-sub">since Sept. 17, 2026</span></div>
+    <div class="tile"><span class="tile-label">Orders per working day</span><span class="tile-num" id="t-perday">—</span><span class="tile-sub">all judges combined</span></div>
+    <div class="tile"><span class="tile-label">Written opinions</span><span class="tile-num" id="t-opinions">—</span><span class="tile-sub">since Jan. 10, 2026</span></div>
+    <div class="tile"><span class="tile-label">Merits rulings</span><span class="tile-num" id="t-merits">—</span><span class="tile-sub">Rule 12, Rule 56 and trial rulings</span></div>
+    <div class="tile"><span class="tile-label">Data through</span><span class="tile-num" id="t-through">—</span><span class="tile-sub" id="t-updated">&nbsp;</span></div>
+  </section>
+
+  <section class="card" id="orders">
+    <h2>Civil orders by judge</h2>
+    <p class="note">Every civil order entered since Sept. 17, 2026. Rates divide by each judge's working days. Entry times are Central. Sort by any column; click a row to highlight that judge.</p>
+    <div class="scroll"><table id="or-table"><thead><tr>
+      <th data-k="name"><button type="button">Judge</button></th>
+      <th data-k="working_days"><button type="button">Working days</button></th>
+      <th data-k="orders"><button type="button">Total orders</button></th>
+      <th data-k="per_day"><button type="button">Orders per working day</button></th>
+      <th data-k="cases"><button type="button">Cases with orders</button></th>
+      <th data-k="per_case"><button type="button">Orders per case</button></th>
+      <th data-k="early"><button type="button">Entered before 10 AM</button></th>
+      <th data-k="late"><button type="button">Entered after 5 PM</button></th>
+      <th data-k="last10"><button type="button">Orders, last 10 working days</button></th>
+    </tr></thead><tbody></tbody></table></div>
+  </section>
+
+  <section class="card" id="opinions">
+    <h2>Written opinions by judge</h2>
+    <p class="note">Entries on PACER's Written Opinions Report since Jan. 10, 2026. "Merits rulings" are rulings on Rule 12 motions, summary judgment, and trial or post-trial motions. Chambers decide which orders to flag as written opinions, so these counts are not a complete record of each judge's rulings; see the methodology.</p>
+    <div class="scroll"><table id="op-table"><thead><tr>
+      <th data-k="name"><button type="button">Judge</button></th>
+      <th data-k="working_days"><button type="button">Working days</button></th>
+      <th data-k="total"><button type="button">Total opinions</button></th>
+      <th data-k="rr"><button type="button">Magistrate R&amp;Rs</button></th>
+      <th data-k="district"><button type="button">District judge opinions</button></th>
+      <th data-k="cases"><button type="button">Cases with opinions</button></th>
+      <th data-k="days_with"><button type="button">Days with opinions</button></th>
+      <th data-k="per_week"><button type="button">Opinions per week</button></th>
+      <th data-k="merits"><button type="button">Merits rulings</button></th>
+      <th data-k="merits_month"><button type="button">Merits per month</button></th>
+      <th data-k="r12"><button type="button">Rule 12</button></th>
+      <th data-k="r56"><button type="button">Rule 56</button></th>
+      <th data-k="gap"><button type="button">Longest gap (days)</button></th>
+    </tr></thead><tbody></tbody></table></div>
+  </section>
+
+  <section class="grid">
+    <div class="card"><h2>Orders per working day</h2><p class="note">Since Sept. 17, 2026. Dashed line marks the median judge.</p><div class="chart" id="c-perday"></div></div>
+    <div class="card"><h2>Merits rulings per month</h2><p class="note">Since Jan. 10, 2026, per 21 working days. Dashed line marks the median judge.</p><div class="chart" id="c-merits"></div></div>
+  </section>
+
+  <section class="card">
+    <h2>Weekly orders per working day</h2>
+    <p class="note" id="weekly-note">The median judge, by week (Monday start). Highlight a judge to add that judge's line. The current week is partial.</p>
+    <div class="chart short" id="c-weekly"></div>
+  </section>
+
+  <section class="card">
+    <h2>Day-of-week pattern</h2>
+    <p class="note">Share of each judge's civil orders entered on each weekday since Sept. 17, 2026. Darker cells mark that judge's heavier days.</p>
+    <div class="scroll"><table id="dow-table"><thead><tr>
+      <th data-k="name"><button type="button">Judge</button></th>
+      <th data-k="mon"><button type="button">Mon</button></th><th data-k="tue"><button type="button">Tue</button></th>
+      <th data-k="wed"><button type="button">Wed</button></th><th data-k="thu"><button type="button">Thu</button></th>
+      <th data-k="fri"><button type="button">Fri</button></th>
+    </tr></thead><tbody></tbody></table></div>
+  </section>
+
+  <section class="grid">
+    <div class="card"><h2 id="recent-title">Latest written opinions</h2><p class="note" id="recent-note">The 25 most recent across the court.</p>
+      <div class="scroll tall"><table id="recent-table"><thead><tr><th>Date</th><th>Judge</th><th>Case · doc</th><th>Ruling</th><th>Case name</th></tr></thead><tbody></tbody></table></div></div>
+    <div class="card"><h2>Update log</h2><p class="note">Each update that added entries, newest first.</p>
+      <div class="scroll tall"><table id="runs-table"><thead><tr><th>Run (Central)</th><th>Orders added</th><th>Opinions added</th><th>Note</th></tr></thead><tbody></tbody></table></div></div>
+  </section>
+
+  <footer>Counts describe docket activity only. They say nothing about the quality or correctness of any ruling. Sources: PACER reports, the EDLA CM/ECF public RSS feed, and CourtListener (Free Law Project). Not affiliated with the court. <a href="methodology.html">Methodology</a> · <a href="https://github.com/ggb52-wq/edla-judge-tracker">Data and code</a></footer>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
