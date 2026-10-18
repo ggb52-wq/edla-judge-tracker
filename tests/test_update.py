@@ -36,7 +36,8 @@ SEARCH = {"next": None, "results": [
 ]}
 RECAP_DOCS = {"next": None, "results": [
     {"id": 1, "description": "Order on Motion for Summary Judgment", "document_number": "30",
-     "absolute_url": "/docket/501/30/epsilon-v-zeta/", "date_created": "2026-10-19T09:00:00-07:00"},
+     "absolute_url": "/docket/501/30/epsilon-v-zeta/", "is_available": True,
+     "filepath_local": "recap/gov.uscourts.laed.501/gov.uscourts.laed.501.30.0.pdf", "date_created": "2026-10-19T09:00:00-07:00"},
     {"id": 2, "description": "Order on Motion to Dismiss/Failure to State a Claim AND Order on Motion to Stay", "document_number": "8",
      "absolute_url": "/docket/777/8/eta-v-theta/", "date_created": "2026-10-19T10:00:00-07:00"},
 ]}
@@ -50,7 +51,8 @@ def fake_get(url, headers=None, timeout=45):
     if "recap-documents" in url and "docket_number" in url:   # opinion link lookup
         q = urllib.parse.parse_qs(urllib.parse.urlparse(url).query)
         hit = (q["docket_entry__docket__docket_number"] == ["2:26-cv-01880"] and q["document_number"] == ["6"])
-        results = [{"absolute_url": "/docket/900/6/geico-general-insurance-company-v-united-states/"}] if hit else []
+        results = [{"absolute_url": "/docket/900/6/geico-general-insurance-company-v-united-states/", "is_available": True,
+                    "filepath_local": "recap/gov.uscourts.laed.900/gov.uscourts.laed.900.6.0.pdf"}] if hit else []
         return json.dumps({"next": None, "results": results}).encode()
     if "recap-documents" in url:
         return json.dumps(RECAP_DOCS).encode()
@@ -98,9 +100,16 @@ class UpdateTest(unittest.TestCase):
         base = {(o["case"], o["doc"]): o for o in opinions}
         self.assertEqual(base[("2:26-cv-01880", "6")]["url"],               # baseline row linked by lookup
                          "https://www.courtlistener.com/docket/900/6/geico-general-insurance-company-v-united-states/")
+        self.assertEqual(op[("2:26-cv-09003", "30")]["pdf"],
+                         "https://storage.courtlistener.com/recap/gov.uscourts.laed.501/gov.uscourts.laed.501.30.0.pdf")
+        self.assertEqual(base[("2:26-cv-01880", "6")]["pdf"],
+                         "https://storage.courtlistener.com/recap/gov.uscourts.laed.900/gov.uscourts.laed.900.6.0.pdf")
+        self.assertNotIn("pdf", op[("2:26-cv-09005", "8")])                # no PDF on CourtListener: page link only
         self.assertEqual(sum(1 for o in opinions if o.get("url")), 3)
         checks = json.loads((self.tmp / "data/link_checks.json").read_text())
-        self.assertEqual(len(checks), update.LINK_BUDGET - 1)            # misses recorded, hit removed
+        self.assertNotIn("2:26-cv-09005|8", checks)                      # new row: first in line next run
+        self.assertEqual(len(checks), update.LINK_BUDGET - 1)            # misses recorded, PDF hit removed
+        self.assertNotIn("2:26-cv-09003|30", checks)
         self.assertNotIn("2:26-cv-01880|6", checks)
 
     def test_doc_url(self):
@@ -108,6 +117,12 @@ class UpdateTest(unittest.TestCase):
         self.assertEqual(update.doc_url("/docket/1/2/3/a-b/"), "")      # attachment
         self.assertEqual(update.doc_url("https://evil.example/docket/1/2/a/"), "")
         self.assertEqual(update.doc_url(None), "")
+        self.assertEqual(update.pdf_url("recap/gov.uscourts.laed.1/gov.uscourts.laed.1.2.0.pdf"),
+                         "https://storage.courtlistener.com/recap/gov.uscourts.laed.1/gov.uscourts.laed.1.2.0.pdf")
+        self.assertEqual(update.pdf_url("recap/../x.pdf"), "")
+        self.assertEqual(update.doc_links({"absolute_url": "/docket/1/2/a/", "is_available": False,
+                                           "filepath_local": "recap/gov.uscourts.laed.1/gov.uscourts.laed.1.2.0.pdf"}),
+                         {"url": "https://www.courtlistener.com/docket/1/2/a/"})
 
 
 if __name__ == "__main__":

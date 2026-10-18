@@ -12,10 +12,14 @@
   const CATS = [['r12', 'Rule 12'], ['r56', 'Rule 56'], ['trial', 'Trial and post-trial'], ['rr', 'Magistrate R&Rs'], ['other', 'Other opinions']];
   const category = (o) => (Number(o.rr) ? 'rr' : Number(o.r12) ? 'r12' : Number(o.r56) ? 'r56' : Number(o.merits) ? 'trial' : 'other');
   const zeroCats = () => Object.fromEntries(CATS.map(([k]) => [k, 0]));
-  // Links go only to CourtListener: the stored document address, or a docket search by case number.
+  // Links go only to CourtListener: the opinion's PDF, else its docket-entry page, else a search by case number.
   const CL = 'https://www.courtlistener.com/';
-  const opinionLink = (o) => (typeof o.url === 'string' && o.url.startsWith(CL + 'docket/') ? o.url
+  const CL_PDF = 'https://storage.courtlistener.com/recap/';
+  const linkKind = (o) => (typeof o.pdf === 'string' && o.pdf.startsWith(CL_PDF) ? 'pdf'
+    : typeof o.url === 'string' && o.url.startsWith(CL + 'docket/') ? 'page' : 'search');
+  const opinionLink = (o, kind) => (kind === 'pdf' ? o.pdf : kind === 'page' ? o.url
     : CL + '?type=r&court=laed&docket_number=' + encodeURIComponent(o.case));
+  const linkTitle = { pdf: 'Open this opinion (PDF, CourtListener)', page: 'Open this docket entry on CourtListener', search: 'Search CourtListener for this case' };
 
   let state = { selected: '', data: null, stats: null, finderLimit: 100 };
   try { state.selected = localStorage.getItem('edla-judge') || ''; } catch (e) { /* storage unavailable */ }
@@ -334,9 +338,11 @@
       const cell = (text, cls) => { const td = document.createElement('td'); if (cls) td.className = cls; td.textContent = text; tr.append(td); return td; };
       cell(fmtDate(o.date)); cell(S.names[o.judge]);
       const td = cell(''); const a = document.createElement('a');
-      a.href = opinionLink(o); a.target = '_blank'; a.rel = 'noopener noreferrer'; a.textContent = o.case + ' · ' + o.doc;
-      a.title = o.url ? 'Open this document on CourtListener' : 'Search CourtListener for this case';
+      const kind = linkKind(o);
+      a.href = opinionLink(o, kind); a.target = '_blank'; a.rel = 'noopener noreferrer'; a.textContent = o.case + ' · ' + o.doc;
+      a.title = linkTitle[kind];
       td.append(a);
+      if (kind === 'pdf') { const tag = document.createElement('span'); tag.className = 'tag'; tag.textContent = 'PDF'; td.append(' ', tag); }
       cell(o.event, 'left'); cell(o.title, 'left');
       return tr;
     }));

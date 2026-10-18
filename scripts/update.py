@@ -41,7 +41,9 @@ CL_CALL_BUDGET = 40
 LINK_BUDGET = 15        # CourtListener calls per run spent finding addresses for opinions without one
 LINK_RECHECK_DAYS = 7
 LOW_COVERAGE = 50
+CL_STORAGE = "https://storage.courtlistener.com/"
 DOC_PATH_RE = re.compile(r"^/docket/\d+/\d+/[a-z0-9-]+/$")
+PDF_PATH_RE = re.compile(r"^recap/gov\.uscourts\.laed\.\d+/gov\.uscourts\.laed\.\d+\.\d+\.\d+\.pdf$")
 
 # ---------------------------------------------------------------- judges
 SURNAME_CODES = {
@@ -201,14 +203,29 @@ def doc_url(path: str | None) -> str:
     return CL_SITE + path if path and DOC_PATH_RE.match(path) else ""
 
 
+def pdf_url(path: str | None) -> str:
+    """CourtListener's stored copy of a main RECAP document PDF, or "" when the path has another shape."""
+    return CL_STORAGE + path if path and PDF_PATH_RE.match(path) else ""
+
+
+def doc_links(r: dict) -> dict:
+    """The `url` (document page) and `pdf` (file) fields for one recap-documents result."""
+    out = {}
+    if u := doc_url(r.get("absolute_url")):
+        out["url"] = u
+        if r.get("is_available") and (f := pdf_url(r.get("filepath_local"))):
+            out["pdf"] = f
+    return out
+
+
 def link_opinions(cl: CourtListener, opinions: list[dict], checks: dict, today: str) -> int:
-    """Look up CourtListener addresses for opinions that have none, a few per run.
+    """Look up CourtListener addresses for opinions without a PDF link, a few per run.
 
     Rows never checked go first, newest first; rows checked before are retried after
-    LINK_RECHECK_DAYS, because CourtListener adds documents after PACER lists them.
+    LINK_RECHECK_DAYS, because CourtListener adds documents and PDFs after PACER lists them.
     """
     cutoff = (dt.date.fromisoformat(today) - dt.timedelta(days=LINK_RECHECK_DAYS)).isoformat()
-    todo = [o for o in opinions if not o.get("url") and o.get("doc") and CASE_RE.fullmatch(o.get("case", ""))
+    todo = [o for o in opinions if not o.get("pdf") and o.get("doc") and CASE_RE.fullmatch(o.get("case", ""))
             and checks.get(f"{o['case']}|{o['doc']}", "") <= cutoff]
     todo.sort(key=lambda o: o["date"], reverse=True)
     todo.sort(key=lambda o: checks.get(f"{o['case']}|{o['doc']}", ""))  # stable: oldest check first, then newest row
@@ -219,15 +236,16 @@ def link_opinions(cl: CourtListener, opinions: list[dict], checks: dict, today: 
             break
         data = cl.get("recap-documents/", {
             "docket_entry__docket__court": "laed", "docket_entry__docket__docket_number": o["case"],
-            "document_number": o["doc"], "fields": "absolute_url"})
+            "document_number": o["doc"], "fields": "absolute_url,filepath_local,is_available"})
         if data is None:
             break
         checks[f"{o['case']}|{o['doc']}"] = today
-        url = next((u for u in (doc_url(r.get("absolute_url")) for r in data.get("results", [])) if u), "")
-        if url:
-            o["url"] = url
-            checks.pop(f"{o['case']}|{o['doc']}", None)
+        links = max((doc_links(r) for r in data.get("results", [])), key=len, default={})
+        if any(o.get(k) != v for k, v in links.items()):
+            o.update(links)
             found += 1
+        if o.get("pdf"):
+            checks.pop(f"{o['case']}|{o['doc']}", None)
     return found
 
 
@@ -347,7 +365,7 @@ def main() -> int:
     docs = list(cl.paged("recap-documents/", {
         "is_free_on_pacer": "true", "docket_entry__docket__court": "laed",
         "date_created__gte": f"{window_from}T00:00:00-05:00", "order_by": "date_created",
-        "fields": "id,description,document_number,absolute_url,date_created"}))
+        "fields": "id,description,document_number,absolute_url,filepath_local,is_available,date_created"}))
     missing = set()
     for r in docs:
         m = re.search(r"/docket/(\d+)/", r.get("absolute_url", ""))
@@ -381,7 +399,7 @@ def main() -> int:
         desc = (r.get("description") or "").strip()
         added_opinions.append({"date": date, "judge": judge, "case": info["case"], "doc": doc,
                                "title": info["title"], "event": desc[:160], **opinion_flags(desc),
-                               "src": "courtlistener_wo", **({"url": u} if (u := doc_url(r.get("absolute_url"))) else {})})
+                               "src": "courtlistener_wo", **doc_links(r)})
         opinion_keys.add(key)
 
     # Rows for magistrate judges presiding by consent and visiting judges are kept;
