@@ -135,6 +135,37 @@ class UpdateTest(unittest.TestCase):
         self.assertEqual((outcomes[("2:26-cv-09003", "30")]["motion_doc"], outcomes[("2:26-cv-09003", "30")]["motion_filed"]), ("25", "2026-09-02"))
         self.assertEqual((outcomes[("2:26-cv-01880", "6")]["motion_doc"], outcomes[("2:26-cv-01880", "6")]["motion_filed"]), ("4", "2026-10-01"))
 
+    def run_with_clock(self, advance):
+        """Run the updater on a fake clock; advance(url, now) returns the seconds a response takes."""
+        clock = [0.0]
+
+        def timed_get(url, headers=None, timeout=45):
+            clock[0] += advance(url, clock[0])
+            return fake_get(url, headers, timeout)
+        with mock.patch.object(update, "DATA", self.tmp / "data"), mock.patch.object(update, "http_get", timed_get), \
+             mock.patch.object(update.time, "sleep", lambda s: None), mock.patch.object(update.time, "monotonic", lambda: clock[0]), \
+             mock.patch.dict("os.environ", {"COURTLISTENER_TOKEN": "x"}):
+            update.main()
+        through = next(r for r in json.loads((self.tmp / "data/calendar.json").read_text()) if r["kind"] == "through")
+        return json.loads((self.tmp / "data/runs.json").read_text())[-1], through["date"]
+
+    def test_time_limit_in_lookups(self):
+        # Each opinion lookup takes a minute: new entries are saved, and the lookups stop and save at the limit.
+        before = next(r for r in json.loads((self.tmp / "data/calendar.json").read_text()) if r["kind"] == "through")["date"]
+        run, through = self.run_with_clock(lambda url, now: 60 if "docket_number" in url else 0)
+        self.assertEqual(run["orders_added"], 3)
+        self.assertIn("remaining lookups continue next run", run["note"])
+        checks = json.loads((self.tmp / "data/link_checks.json").read_text())
+        self.assertTrue(0 < len(checks) <= update.RUN_SECONDS // 60)
+        self.assertGreaterEqual(through, before)
+
+    def test_time_limit_before_new_entries(self):
+        # Time runs out during the first search: the run saves what it has and keeps the window where it was.
+        before = next(r for r in json.loads((self.tmp / "data/calendar.json").read_text()) if r["kind"] == "through")["date"]
+        run, through = self.run_with_clock(lambda url, now: update.RUN_SECONDS if "search" in url else 0)
+        self.assertIn("window kept", run["note"])
+        self.assertEqual(through, before)
+
     def test_hand_entry_kept(self):
         (self.tmp / "data/outcomes.json").write_text(json.dumps(
             [{"case": "2:26-cv-01880", "doc": "6", "outcome": "denied", "src": "manual", "at": "2026-10-18"}]))
