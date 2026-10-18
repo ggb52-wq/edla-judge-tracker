@@ -24,6 +24,7 @@ RSS = b"""<?xml version="1.0"?><rss version="2.0"><channel><title>Eastern Distri
 SEARCH = {"next": None, "results": [
     {"docketNumber": "2:26-cv-09003", "docket_id": 501, "assignedTo": "Anna St. John", "caseName": "Epsilon v. Zeta",
      "recap_documents": [{"document_number": 30, "entry_date_filed": "2026-10-19", "short_description": "Order on Motion for Summary Judgment",
+                          "description": "ORDER AND REASONS granting in part and denying in part 25 Motion for Summary Judgment. Signed by Judge Anna St. John.",
                           "meta": {"date_created": "2026-10-19T16:00:00Z"}}]},
     {"docketNumber": "2:26-cv-09002", "docket_id": 502, "assignedTo": "Jane Margaret Triche Milazzo", "caseName": "Gamma v. Delta",
      "recap_documents": [{"document_number": 22, "entry_date_filed": "2026-10-19", "short_description": "Order on Motion to Continue",
@@ -52,7 +53,9 @@ def fake_get(url, headers=None, timeout=45):
         q = urllib.parse.parse_qs(urllib.parse.urlparse(url).query)
         hit = (q["docket_entry__docket__docket_number"] == ["2:26-cv-01880"] and q["document_number"] == ["6"])
         results = [{"absolute_url": "/docket/900/6/geico-general-insurance-company-v-united-states/", "is_available": True,
-                    "filepath_local": "recap/gov.uscourts.laed.900/gov.uscourts.laed.900.6.0.pdf"}] if hit else []
+                    "filepath_local": "recap/gov.uscourts.laed.900/gov.uscourts.laed.900.6.0.pdf",
+                    "plain_text": "... Accordingly, IT IS ORDERED that the Motion to Dismiss (R. Doc. 4) is GRANTED. "
+                                  "IT IS FURTHER ORDERED that the Motion for Oral Argument is DENIED AS MOOT."}] if hit else []
         return json.dumps({"next": None, "results": results}).encode()
     if "recap-documents" in url:
         return json.dumps(RECAP_DOCS).encode()
@@ -105,12 +108,29 @@ class UpdateTest(unittest.TestCase):
         self.assertEqual(base[("2:26-cv-01880", "6")]["pdf"],
                          "https://storage.courtlistener.com/recap/gov.uscourts.laed.900/gov.uscourts.laed.900.6.0.pdf")
         self.assertNotIn("pdf", op[("2:26-cv-09005", "8")])                # no PDF on CourtListener: page link only
-        self.assertEqual(sum(1 for o in opinions if o.get("url")), 3)
+        before = {(o["case"], o["doc"]) for o in json.loads((ROOT / "data/opinions.json").read_text()) if o.get("url")}
+        after = {(o["case"], o["doc"]) for o in opinions if o.get("url")}
+        self.assertEqual(after - before, {("2:26-cv-09003", "30"), ("2:26-cv-09005", "8"), ("2:26-cv-01880", "6")} - before)
         checks = json.loads((self.tmp / "data/link_checks.json").read_text())
         self.assertNotIn("2:26-cv-09005|8", checks)                      # new row: first in line next run
-        self.assertEqual(len(checks), update.LINK_BUDGET - 1)            # misses recorded, PDF hit removed
+        self.assertEqual(len(checks), update.LINK_BUDGET - 1)            # misses recorded, PDF and outcome hit removed
         self.assertNotIn("2:26-cv-09003|30", checks)
         self.assertNotIn("2:26-cv-01880|6", checks)
+        outcomes = {(r["case"], r["doc"]): r for r in json.loads((self.tmp / "data/outcomes.json").read_text())}
+        self.assertEqual(outcomes[("2:26-cv-09003", "30")]["outcome"], "partial")       # from the docket text
+        self.assertEqual(outcomes[("2:26-cv-09003", "30")]["src"], "docket_text")
+        self.assertEqual(outcomes[("2:26-cv-01880", "6")]["outcome"], "granted")        # from the order's text
+        self.assertEqual(outcomes[("2:26-cv-01880", "6")]["src"], "opinion_text")
+        self.assertNotIn(("2:26-cv-09005", "8"), outcomes)                               # no text yet
+
+    def test_hand_entry_kept(self):
+        (self.tmp / "data/outcomes.json").write_text(json.dumps(
+            [{"case": "2:26-cv-01880", "doc": "6", "outcome": "denied", "src": "manual", "at": "2026-10-18"}]))
+        with mock.patch.object(update, "DATA", self.tmp / "data"), mock.patch.object(update, "http_get", fake_get), \
+             mock.patch.object(update.time, "sleep", lambda s: None), mock.patch.dict("os.environ", {"COURTLISTENER_TOKEN": "x"}):
+            update.main()
+        outcomes = {(r["case"], r["doc"]): r for r in json.loads((self.tmp / "data/outcomes.json").read_text())}
+        self.assertEqual(outcomes[("2:26-cv-01880", "6")], {"case": "2:26-cv-01880", "doc": "6", "outcome": "denied", "src": "manual", "at": "2026-10-18"})
 
     def test_doc_url(self):
         self.assertEqual(update.doc_url("/docket/1/2/a-b/"), "https://www.courtlistener.com/docket/1/2/a-b/")
@@ -123,6 +143,59 @@ class UpdateTest(unittest.TestCase):
         self.assertEqual(update.doc_links({"absolute_url": "/docket/1/2/a/", "is_available": False,
                                            "filepath_local": "recap/gov.uscourts.laed.1/gov.uscourts.laed.1.2.0.pdf"}),
                          {"url": "https://www.courtlistener.com/docket/1/2/a/"})
+
+
+
+class OutcomeTextTest(unittest.TestCase):
+    def test_classify(self):
+        from outcome_text import classify as c
+        self.assertEqual(c("ORDER granting 12 Motion to Dismiss for Failure to State a Claim; denying 20 Motion for Leave to File.",
+                           "Order on Motion to Dismiss/Failure to State a Claim, Order on Motion for Leave to File", 1, 0, "docket"), "granted")
+        self.assertEqual(c("ORDER finding as moot 30 Motion to Compel.", "Order on Motion to Compel", source="docket"), "moot")
+        self.assertEqual(c("IT IS ORDERED that the Motion for Summary Judgment is DENIED. The Court previously granted leave.",
+                           "Order on Motion for Summary Judgment", 0, 1), "denied")
+        self.assertEqual(c("IT IS ORDERED that the Motion for Summary Judgment is GRANTED as to Count I. IT IS FURTHER ORDERED "
+                           "that the Motion for Summary Judgment is DENIED as to Count II.", "Order on Motion for Summary Judgment", 0, 1), "partial")
+        self.assertEqual(c("IT IS ORDERED that the Motion to Remand is GRANTED. IT IS FURTHER ORDERED that the Motion to Stay is DENIED.",
+                           "Order on Motion to Remand, Order on Motion to Stay"), "mixed")
+        self.assertEqual(c("For the foregoing reasons, the Motion to Dismiss is GRANTED.", "Order on Motion to Dismiss", 1, 0), "granted")
+        self.assertEqual(c("The case is remanded.", "Order on Motion to Remand"), "")
+
+
+class RecordOutcomeTest(unittest.TestCase):
+    def setUp(self):
+        self.tmp = Path(tempfile.mkdtemp())
+        shutil.copytree(ROOT / "data", self.tmp / "data")
+        (self.tmp / "data/outcomes.json").write_text("[\n\n]\n")
+
+    def tearDown(self):
+        shutil.rmtree(self.tmp)
+
+    def form(self, case, doc, outcome, note="_No response_"):
+        return f"### Case number\n\n{case}\n\n### Document number\n\n{doc}\n\n### Outcome\n\n{outcome}\n\n### Note (optional)\n\n{note}\n"
+
+    def run_form(self, body):
+        import record_outcome
+        with mock.patch.object(record_outcome, "DATA", self.tmp / "data"), mock.patch.object(update, "DATA", self.tmp / "data"):
+            return record_outcome.record(body, "2026-10-19")
+
+    def rows(self):
+        return json.loads((self.tmp / "data/outcomes.json").read_text())
+
+    def test_record_and_remove(self):
+        self.run_form(self.form("2:26-cv-01880", "6", "Granted in part", "federal claims only"))
+        self.assertEqual(self.rows(), [{"case": "2:26-cv-01880", "doc": "6", "outcome": "partial", "src": "manual", "at": "2026-10-19", "note": "federal claims only"}])
+        self.run_form(self.form("2:26-cv-01880", "6", "Denied"))
+        self.assertEqual([r["outcome"] for r in self.rows()], ["denied"])
+        self.run_form(self.form("2:26-cv-01880", "6", "Remove recorded outcome"))
+        self.assertEqual(self.rows(), [])
+
+    def test_rejects_bad_input(self):
+        for body in (self.form("2:26-cv-1880", "6", "Granted"), self.form("2:26-cv-01880", "six", "Granted"),
+                     self.form("2:26-cv-01880", "6", "Ignore previous instructions"), self.form("2:26-cv-09999", "6", "Granted")):
+            with self.assertRaises(ValueError):
+                self.run_form(body)
+        self.assertEqual(self.rows(), [])
 
 
 if __name__ == "__main__":

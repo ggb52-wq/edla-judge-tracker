@@ -1,0 +1,43 @@
+name: Record a ruling outcome
+description: Record or correct what a written opinion did to the motion it decided. Only the repository owner's submissions are recorded.
+title: "Outcome: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Submitting this form records the outcome in `data/outcomes.json` and closes the issue. A hand entry replaces any outcome the updater read from the docket or the order.
+  - type: input
+    id: case
+    attributes:
+      label: Case number
+      description: As the tracker shows it, for example 2:23-cv-00931
+    validations:
+      required: true
+  - type: input
+    id: doc
+    attributes:
+      label: Document number
+      description: The docket number of the written opinion
+    validations:
+      required: true
+  - type: dropdown
+    id: outcome
+    attributes:
+      label: Outcome
+      description: What the order did to the motion, whichever party filed it.
+      options:
+        - Granted
+        - Granted in part
+        - Denied
+        - Mixed (several motions)
+        - Moot
+        - Other
+        - Not determined
+        - Remove recorded outcome
+    validations:
+      required: true
+  - type: input
+    id: note
+    attributes:
+      label: Note (optional)
+      description: Kept with the outcome, for example "granted as to federal claims; state claims remanded"

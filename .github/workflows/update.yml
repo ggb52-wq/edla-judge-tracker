@@ -34,7 +34,7 @@ jobs:
 
       - name: Commit when the data changed
         run: |
-          if git diff --quiet -- data/orders.json data/opinions.json data/link_checks.json; then
+          if git diff --quiet -- data/orders.json data/opinions.json data/link_checks.json data/outcomes.json; then
             echo "No new entries."
             git checkout -- data
             exit 0
