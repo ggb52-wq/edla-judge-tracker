@@ -37,7 +37,7 @@ SEARCH = {"next": None, "results": [
 ]}
 RECAP_DOCS = {"next": None, "results": [
     {"id": 1, "description": "Order on Motion for Summary Judgment", "document_number": "30",
-     "absolute_url": "/docket/501/30/epsilon-v-zeta/", "is_available": True,
+     "absolute_url": "/docket/501/30/epsilon-v-zeta/", "is_available": True, "page_count": 14,
      "filepath_local": "recap/gov.uscourts.laed.501/gov.uscourts.laed.501.30.0.pdf", "date_created": "2026-10-19T09:00:00-07:00"},
     {"id": 2, "description": "Order on Motion to Dismiss/Failure to State a Claim AND Order on Motion to Stay", "document_number": "8",
      "absolute_url": "/docket/777/8/eta-v-theta/", "date_created": "2026-10-19T10:00:00-07:00"},
@@ -117,6 +117,8 @@ class UpdateTest(unittest.TestCase):
         self.assertEqual(base[("2:26-cv-01880", "6")]["pdf"],
                          "https://storage.courtlistener.com/recap/gov.uscourts.laed.900/gov.uscourts.laed.900.6.0.pdf")
         self.assertNotIn("pdf", op[("2:26-cv-09005", "8")])                # no PDF on CourtListener: page link only
+        self.assertEqual(op[("2:26-cv-09003", "30")]["pages"], 14)
+        self.assertEqual(base[("2:26-cv-01880", "6")]["pages"], 0)           # PDF found, no page count yet
         self.assertEqual({(o["case"], o["doc"]) for o in opinions if o.get("url")},
                          {("2:26-cv-09003", "30"), ("2:26-cv-09005", "8"), ("2:26-cv-01880", "6")})
         checks = json.loads((self.tmp / "data/link_checks.json").read_text())
@@ -169,6 +171,13 @@ class OutcomeTextTest(unittest.TestCase):
         self.assertEqual(c("IT IS ORDERED that the Motion to Remand is GRANTED. IT IS FURTHER ORDERED that the Motion to Stay is DENIED.",
                            "Order on Motion to Remand, Order on Motion to Stay"), "mixed")
         self.assertEqual(c("For the foregoing reasons, the Motion to Dismiss is GRANTED.", "Order on Motion to Dismiss", 1, 0), "granted")
+        self.assertEqual(c("IT IS ORDERED that the Motion to Dismiss is GRANTED. Plaintiff may file an amended complaint within 21 days.",
+                           "Order on Motion to Dismiss", 1, 0), "granted_leave")
+        self.assertEqual(c("IT IS ORDERED that the Motion to Dismiss is GRANTED and the claims are DISMISSED WITH PREJUDICE.",
+                           "Order on Motion to Dismiss", 1, 0), "granted")
+        self.assertEqual(c("IT IS ORDERED that the Motion to Compel is DENIED WITHOUT PREJUDICE to re-urging after the conference.",
+                           "Order on Motion to Compel"), "denied_wop")
+        self.assertEqual(c("ORDER denying without prejudice 30 Motion to Compel.", "Order on Motion to Compel", source="docket"), "denied_wop")
         self.assertEqual(c("The case is remanded.", "Order on Motion to Remand"), "")
         from outcome_text import motion_doc as m
         self.assertEqual(m("ORDER granting 12 Motion to Dismiss; denying 20 Motion for Leave.", "Order on Motion to Dismiss", 1, 0, "docket"), "12")
@@ -220,8 +229,8 @@ class RecordOutcomeTest(unittest.TestCase):
     def test_record_and_remove(self):
         self.run_form(self.form("2:26-cv-01880", "6", "Granted in part", "federal claims only"))
         self.assertEqual(self.rows(), [{"case": "2:26-cv-01880", "doc": "6", "outcome": "partial", "src": "manual", "at": "2026-10-19", "note": "federal claims only"}])
-        self.run_form(self.form("2:26-cv-01880", "6", "Denied"))
-        self.assertEqual([r["outcome"] for r in self.rows()], ["denied"])
+        self.run_form(self.form("2:26-cv-01880", "6", "Denied without prejudice"))
+        self.assertEqual([r["outcome"] for r in self.rows()], ["denied_wop"])
         self.run_form(self.form("2:26-cv-01880", "6", "Remove recorded outcome"))
         self.assertEqual(self.rows(), [])
 

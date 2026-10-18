@@ -1,6 +1,7 @@
 /* EDLA Analyzer: computes every figure in the browser from data/*.json. */
 (() => {
   const fmt = { int: d3.format(','), d1: d3.format('.1f'), d2: d3.format('.2f'), pct0: d3.format('.0%') };
+  fmt.med = (v) => (Number.isInteger(v) ? fmt.int(v) : fmt.d1(v));  // medians of counts can land on a half
   const utc = (s) => new Date(s + 'T00:00:00Z');
   const iso = (d) => d.toISOString().slice(0, 10);
   const fmtDate = (s) => d3.utcFormat('%b %-d, %Y')(utc(s));
@@ -25,24 +26,33 @@
   // A motion ruling names a motion ("Order on Motion to Dismiss"); clerk events such as "Terminate Motions" do not count.
   const isMotion = (o) => !Number(o.rr) && /\bmotion\s+(to|for|in)\b/i.test(o.event || '');
   // Motion categories, from the Rule 12 / Rule 56 flags first and then the motion's name in the docket event.
-  const MCATS = [['r12', 'Rule 12'], ['r56', 'Rule 56'], ['discovery', 'Discovery'], ['daubert', 'Daubert / expert'], ['remand', 'Remand'], ['othermotion', 'Other motions']];
+  const MCATS = [['r12', 'Rule 12'], ['r56', 'Rule 56'], ['discovery', 'Discovery'], ['daubert', 'Daubert / expert'], ['limine', 'In limine'],
+    ['injunction', 'Injunction / TRO'], ['remand', 'Remand'], ['reconsideration', 'Reconsideration'], ['stay', 'Stay'], ['default', 'Default judgment'],
+    ['fees', 'Attorney fees'], ['othermotion', 'Other motions']];
   const mcatLabel = Object.fromEntries(MCATS);
+  const MCAT_RULES = [['remand', /remand/i], ['limine', /in limine/i], ['daubert', /daubert|exclude|expert/i],
+    ['discovery', /compel|protective order|quash|discovery|deposition|subpoena|interrogator|produc/i],
+    ['injunction', /restraining order|injunction|\btro\b/i], ['reconsideration', /reconsider/i], ['stay', /motion to stay\b/i],
+    ['default', /default/i], ['fees', /attorney'?s? fees|\bfees\b/i]];
   const motionCategory = (o) => {
     if (!isMotion(o)) return '';
     if (Number(o.r12)) return 'r12';
     if (Number(o.r56)) return 'r56';
-    const e = o.event || '';
-    if (/remand/i.test(e)) return 'remand';
-    if (/daubert|exclude|expert/i.test(e)) return 'daubert';
-    if (/compel|protective order|quash|discovery|deposition|subpoena|interrogator|produc/i.test(e)) return 'discovery';
-    return 'othermotion';
+    const hit = MCAT_RULES.find(([, re]) => re.test(o.event || ''));
+    return hit ? hit[0] : 'othermotion';
   };
 
   // Outcomes of motion rulings. "unclear" means the order text was read and no outcome was found.
-  const OUTCOMES = { granted: 'Granted', partial: 'Granted in part', denied: 'Denied', mixed: 'Mixed', moot: 'Moot', other: 'Other', unclear: 'Not determined' };
-  const KNOWN = ['granted', 'partial', 'denied', 'mixed', 'moot', 'other'];
+  const OUTCOMES = { granted: 'Granted', granted_leave: 'Granted, leave to amend', partial: 'Granted in part', denied: 'Denied', denied_wop: 'Denied without prejudice',
+    mixed: 'Mixed', moot: 'Moot', other: 'Other', unclear: 'Not determined' };
+  const KNOWN = ['granted', 'granted_leave', 'partial', 'denied', 'denied_wop', 'mixed', 'moot', 'other'];
+  // Outcome families: the charts and rates group "granted, leave to amend" with granted and "denied without prejudice" with denied.
+  const FAMILY = { granted_leave: 'granted', denied_wop: 'denied' };
+  const family = (v) => FAMILY[v] || v;
+  const ocMatch = (o, f) => (f === 'known' ? KNOWN.includes(o.oc) : f === 'none' ? isMotion(o) && !KNOWN.includes(o.oc)
+    : f === 'rest' ? ['mixed', 'moot', 'other'].includes(o.oc) : (f === 'granted' || f === 'denied') ? family(o.oc) === f : o.oc === f);
   const OC_SEGS = [['granted', 'Granted'], ['partial', 'Granted in part'], ['denied', 'Denied'], ['rest', 'Mixed, moot, or other']];
-  const ocColor = (v) => css('--o-' + (['granted', 'partial', 'denied'].includes(v) ? v : 'other'));
+  const ocColor = (v) => css('--o-' + (['granted', 'partial', 'denied'].includes(family(v)) ? family(v) : 'other'));
   const OC_SRC = { manual: 'entered by hand', docket_text: 'read from the docket text', opinion_text: 'read from the order' };
   const FEW = 5;
   const GROUPS = { r12: 'Rule 12', r56: 'Rule 56', all: 'All motions' };
@@ -81,14 +91,20 @@
 
     const opStart = later(pick('opinions_start'), floor);
     const orStart = later(pick('orders_start'), floor);
+    // Dates on which an order set a hearing, by case, for "was a hearing set before the ruling".
+    const hearingDays = {};
+    D.orders.forEach((o) => { if (/hearing/i.test(o.event || '') && /set/i.test(o.event || '')) (hearingDays[o.case] = hearingDays[o.case] || []).push(o.date); });
     const opRows = [];
     const opinions = D.judges.map((j) => {
       const s = later(j.bench_start, opStart);
       const R = D.opinions.filter((o) => o.judge === j.code && o.date >= s && o.date <= through).map((o) => {
         const r = OC.get(o.case + '|' + o.doc) || {};
         const filed = /^\d{4}-\d{2}-\d{2}$/.test(r.motion_filed || '') ? r.motion_filed : '';
+        // A hearing question is asked only when the whole filing-to-ruling span falls inside the orders window.
+        const askHearing = !!filed && filed >= orStart && o.date >= orStart;
         return { ...o, cat: category(o), mcat: motionCategory(o), oc: r.outcome || '', ocSrc: r.src || '', motionDoc: r.motion_doc || '',
-          filed, days: filed ? daysBetween(filed, o.date) : null };
+          filed, days: filed ? daysBetween(filed, o.date) : null, pages: Number(o.pages) > 0 ? Number(o.pages) : null,
+          hearing: askHearing ? (hearingDays[o.case] || []).some((d) => d >= filed && d <= o.date) : null };
       });
       opRows.push(...R);
       const mix = zeroCats(); R.forEach((o) => { mix[o.cat] += 1; });
@@ -103,14 +119,21 @@
         merits_month: wd ? mer.length / (wd / 21) : 0, r12: mer.filter((o) => Number(o.r12)).length, r56: mer.filter((o) => Number(o.r56)).length, gap, mix,
         pdf: R.filter((o) => linkKind(o) === 'pdf').length };
       const tally = (G) => {
-        const K = G.filter((o) => KNOWN.includes(o.oc)); const n = (v) => K.filter((o) => o.oc === v).length;
-        const days = G.map((o) => o.days).filter((d) => d != null && d >= 0);
+        const K = G.filter((o) => KNOWN.includes(o.oc)); const n = (v) => K.filter((o) => family(o.oc) === v).length; const exact = (v) => K.filter((o) => o.oc === v).length;
+        const days = G.map((o) => o.days).filter((d) => d != null && d >= 0).sort((a, b) => a - b);
+        const pages = G.map((o) => o.pages).filter((p) => p != null);
+        const asked = G.filter((o) => o.hearing != null);
         return { n: G.length, known: K.length, granted: n('granted'), partial: n('partial'), denied: n('denied'),
-          rest: K.length - n('granted') - n('partial') - n('denied'), nDays: days.length, medDays: days.length ? median(days) : null };
+          rest: K.length - n('granted') - n('partial') - n('denied'), grantedLeave: exact('granted_leave'), deniedWop: exact('denied_wop'), moot: exact('moot'),
+          nDays: days.length, medDays: days.length ? median(days) : null, p25: days.length >= 4 ? d3.quantileSorted(days, 0.25) : null, p75: days.length >= 4 ? d3.quantileSorted(days, 0.75) : null,
+          nPages: pages.length, medPages: pages.length ? median(pages) : null,
+          nHearing: asked.length, hearings: asked.filter((o) => o.hearing).length };
       };
       Object.keys(GROUPS).forEach((g) => { const t = tally(R.filter((o) => inGroup(o, g))); Object.keys(t).forEach((k) => { row[g + '_' + k] = t[k]; }); });
       row.cats = Object.fromEntries(MCATS.map(([k]) => [k, tally(R.filter((o) => o.mcat === k))]));
       row.motions = tally(R.filter((o) => isMotion(o)));
+      const allPages = R.map((o) => o.pages).filter((p) => p != null);
+      row.med_pages = allPages.length ? median(allPages) : 0; row.n_pages = allPages.length;
       // Written opinions against all orders in the same window: how much of this judge's output is flagged as a written opinion.
       const W = R.filter((o) => o.date >= later(orStart, s));
       row.written_window = W.length; row.written_motions = W.filter((o) => isMotion(o)).length;
@@ -183,6 +206,7 @@
         medRate: Object.fromEntries(MCATS.map(([k]) => [k, medOf(opinions.map((r) => rate(r, k)), 3)])),
         medDays: medOf(opinions.map((r) => (r.motions.nDays >= FEW ? r.motions.medDays : null)), 3),
         medWrittenShare: median(orders.map((r) => r.written_share)),
+        medPages: medOf(opinions.map((r) => (r.n_pages >= FEW ? r.med_pages : null)), 3),
       },
     };
   }
@@ -232,6 +256,7 @@
       { k: 'r12', label: 'Rule 12', f: fmt.int, sum: true, link: () => ({ type: 'r12' }) },
       { k: 'r56', label: 'Rule 56', f: fmt.int, sum: true, link: () => ({ type: 'r56' }) },
       { k: 'gap', label: 'Longest gap (days)', f: fmt.int },
+      { k: 'med_pages', label: 'Median pages', f: (v) => (v ? fmt.med(v) : '—'), title: 'Median PDF length of the opinions with a page count on file' },
     ] },
     'dow-table': { src: 'orders', sort: { k: 'name', dir: 1 }, pick: true, cols: [
       { k: 'name', label: 'Judge' },
@@ -317,9 +342,9 @@
   // ------------------------------------------------------------ CSV export
   function csvFor(id) {
     if (id === 'recent-table') {
-      const head = ['Date', 'Judge', 'Case', 'Doc', 'Ruling type', 'Motion category', 'Ruling', 'Outcome', 'Outcome source', 'Motion filed', 'Days to ruling', 'Case name', 'Link'];
+      const head = ['Date', 'Judge', 'Case', 'Doc', 'Ruling type', 'Motion category', 'Ruling', 'Outcome', 'Outcome source', 'Motion filed', 'Days to ruling', 'Pages', 'Hearing set', 'Case name', 'Link'];
       return [head, ...finderRows().map((o) => [o.date, state.stats.names[o.judge], o.case, o.doc, catLabel[o.cat], mcatLabel[o.mcat] || '',
-        o.event, OUTCOMES[o.oc] || '', o.ocSrc || '', o.filed, o.days == null ? '' : o.days, o.title, opinionLink(o, linkKind(o))])];
+        o.event, OUTCOMES[o.oc] || '', o.ocSrc || '', o.filed, o.days == null ? '' : o.days, o.pages == null ? '' : o.pages, o.hearing == null ? '' : o.hearing ? 'yes' : 'no', o.title, opinionLink(o, linkKind(o))])];
     }
     const t = TABLES[id]; const cols = t.cols.filter((c) => !c.spark);
     return [cols.map((c) => (c.group ? c.group + ': ' : '') + c.label),
@@ -534,7 +559,7 @@
   function finderRows() {
     const S = state.stats; const sel = state.selected; const F = state.finder; const q = F.q.trim().toLowerCase();
     return S.recent.filter((o) => (!sel || o.judge === sel) && typeMatch(o, F.type)
-      && (!F.oc || (F.oc === 'known' ? KNOWN.includes(o.oc) : F.oc === 'none' ? isMotion(o) && !KNOWN.includes(o.oc) : F.oc === 'rest' ? ['mixed', 'moot', 'other'].includes(o.oc) : o.oc === F.oc))
+      && (!F.oc || ocMatch(o, F.oc))
       && (!F.pdf || linkKind(o) === 'pdf') && (!F.month || o.date.slice(0, 7) === F.month) && textMatch(o, q));
   }
   function drawFinder() {
@@ -545,12 +570,13 @@
     if (F.oc === 'rest') chips.push(['Outcome: mixed, moot, or other', () => { F.oc = ''; }]);
     $('op-chips').replaceChildren(...chips.map(([label, clear]) => el('span', { className: 'fchip' }, label, el('button', { type: 'button', textContent: '×', title: 'Remove this filter', onclick: () => { clear(); drawFinder(); } }))));
     const rows = finderRows(); const shown = rows.slice(0, state.finderLimit);
-    const cols = ['Date', 'Judge', 'Case · doc', 'Ruling', 'Outcome', 'Days to ruling', 'Case name'].concat(state.editor ? ['Record'] : []);
+    const cols = ['Date', 'Judge', 'Case · doc', 'Ruling', 'Outcome', 'Days to ruling', 'Pages', 'Case name'].concat(state.editor ? ['Record'] : []);
     const head = el('thead', {}, el('tr', {}, ...cols.map((c) => el('th', { textContent: c }))));
     const body = el('tbody', {}, ...shown.map((o) => {
       const cells = [el('td', { textContent: fmtDate(o.date) }), el('td', { className: 'txt', textContent: S.names[o.judge] }), el('td', { className: 'txt' }, ...caseLink(o)),
         el('td', { className: 'left', textContent: o.event }), el('td', { className: 'txt' }, outcomePill(o)),
         el('td', { className: o.days == null ? 'dim' : '', textContent: o.days == null ? '—' : fmt.int(o.days), title: o.filed ? 'Motion filed ' + fmtDate(o.filed) : 'Motion filing date not on file' }),
+        el('td', { className: o.pages == null ? 'dim' : '', textContent: o.pages == null ? '—' : fmt.int(o.pages), title: o.pages == null ? 'Page count not on file' : 'Pages in the PDF' }),
         el('td', { className: 'left', textContent: o.title })];
       if (state.editor) cells.push(el('td', { className: 'txt' }, el('a', { href: recordLink(o), target: '_blank', rel: 'noopener noreferrer', textContent: o.oc ? 'Correct' : 'Record' })));
       return el('tr', {}, ...cells);
@@ -581,7 +607,8 @@
       fact('Merits rulings per month', fmt.d2(op.merits_month), 'court median ' + fmt.d2(S.totals.medMerits)),
       fact('Rule 12 rulings', fmt.int(op.cats.r12.n), rateText(op.cats.r12)),
       fact('Rule 56 rulings', fmt.int(op.cats.r56.n), rateText(op.cats.r56)),
-      fact('Median days to ruling', op.motions.medDays == null ? 'not yet' : fmt.int(op.motions.medDays), op.motions.nDays ? `from ${fmt.int(op.motions.nDays)} motion rulings with filing dates` : 'filing dates still being collected', op.motions.medDays == null),
+      fact('Median days to ruling', op.motions.medDays == null ? 'not yet' : fmt.med(op.motions.medDays), op.motions.nDays ? `from ${fmt.int(op.motions.nDays)} motion rulings with filing dates` : 'filing dates still being collected', op.motions.medDays == null),
+      fact('Median opinion length', op.n_pages ? fmt.med(op.med_pages) + ' pages' : 'not yet', op.n_pages ? `from ${fmt.int(op.n_pages)} opinions with a PDF` : 'page counts still being collected', !op.n_pages),
       fact('Counted from', fmtShort(op.start > or.start ? or.start : op.start), op.start === S.since.opinions ? 'start of the data' : 'first day in the period'),
     );
     $('profile-period').textContent = state.period ? '· last ' + state.period + ' days' : '';
@@ -605,17 +632,19 @@
   function drawMotions(op) {
     const S = state.stats; const sel = state.selected;
     $('mo-note').textContent = `How ${S.names[sel]}'s motion rulings came out, by type of motion, since ${fmtDate(S.since.opinions)}. Percentages count only rulings with a recorded outcome; "coded" is how many that is. "Granted" means the motion was granted, no matter who filed it. Click any number to see the opinions behind it.`;
-    const cols = ['Motion category', 'Rulings', 'Coded', 'Granted', 'Granted in part', 'Denied', 'Mixed, moot, other', 'Median days to ruling'];
+    const cols = ['Motion category', 'Rulings', 'Coded', 'Granted', 'Granted in part', 'Denied', 'Mixed, moot, other', 'Days to ruling', 'Pages'];
     const head = el('thead', {}, el('tr', {}, ...cols.map((c) => el('th', { textContent: c }))));
     const line = (label, t, type) => {
       const tr = el('tr'); tr.dataset.cat = type;
       const n = (v, preset) => el('td', {}, v > 0 ? cellLink(fmt.int(v), { type, ...preset }, sel) : el('span', { className: 'dim', textContent: '0' }));
-      const pct = (v, oc) => el('td', {}, t.known && v > 0 ? cellLink(fmt.pct0(v / t.known), { type, oc }, sel, `${fmt.int(v)} of ${fmt.int(t.known)} coded rulings`) : el('span', { className: 'dim', textContent: t.known ? '0%' : '—' }));
+      const detail = { granted: t.grantedLeave ? `; ${fmt.int(t.grantedLeave)} with leave to amend` : '', denied: t.deniedWop ? `; ${fmt.int(t.deniedWop)} without prejudice` : '', rest: t.moot ? `; ${fmt.int(t.moot)} moot` : '', partial: '' };
+      const pct = (v, oc) => el('td', {}, t.known && v > 0 ? cellLink(fmt.pct0(v / t.known), { type, oc }, sel, `${fmt.int(v)} of ${fmt.int(t.known)} coded rulings${detail[oc]}`) : el('span', { className: 'dim', textContent: t.known ? '0%' : '—' }));
       tr.append(el('td', { className: 'txt', textContent: label }), n(t.n, {}), el('td', {}, t.known ? cellLink(fmt.int(t.known), { type, oc: 'known' }, sel) : el('span', { className: 'dim', textContent: '0' })));
       if (t.n && !t.known) tr.append(el('td', { className: 'coding', colSpan: 4, textContent: 'outcome coding in progress' }));
       else if (!t.n) tr.append(el('td', { className: 'dim', colSpan: 4, textContent: 'no rulings in this period' }));
       else tr.append(pct(t.granted, 'granted'), pct(t.partial, 'partial'), pct(t.denied, 'denied'), pct(t.rest, 'rest'));
-      tr.append(el('td', { className: t.medDays == null ? 'dim' : '', textContent: t.medDays == null ? '—' : fmt.int(t.medDays) + ' (n=' + t.nDays + ')', title: t.medDays == null ? 'No filing dates on file yet' : 'Median calendar days from the motion\'s docket date to the ruling' }));
+      tr.append(el('td', { className: t.medDays == null ? 'dim' : '', textContent: daysText(t), title: t.medDays == null ? 'No filing dates on file yet' : 'Median calendar days from the motion\'s docket date to the ruling, with the middle half of rulings in parentheses' }));
+      tr.append(el('td', { className: t.medPages == null ? 'dim' : '', textContent: t.medPages == null ? '—' : fmt.med(t.medPages) + ' (n=' + t.nPages + ')', title: 'Median PDF length' }));
       return tr;
     };
     const body = el('tbody', {}, ...MCATS.map(([k, label]) => line(label, op.cats[k], k)), line('All motion rulings', op.motions, 'motion'));
@@ -623,13 +652,19 @@
     $('mo-table').replaceChildren(head, body);
   }
 
+  // "45 (30–70, n=12)": the median, the middle half when four or more rulings have dates, and the count.
+  const daysText = (t) => (t.medDays == null ? '—' : fmt.med(t.medDays) + (t.p25 != null ? ` (${fmt.med(t.p25)}–${fmt.med(t.p75)}, n=${t.nDays})` : ` (n=${t.nDays})`));
+
   function drawSpeed(op) {
     const S = state.stats; const t = op.motions;
     $('speed-note').textContent = 'How many days passed between a motion being filed and the written opinion deciding it. These are medians in calendar days. We collect filing dates one ruling at a time, so the numbers fill in gradually. '
       + (t.nDays ? `So far ${fmt.int(t.nDays)} of ${S.names[state.selected]}'s ${fmt.int(t.n)} motion rulings have a filing date.` : `None of ${S.names[state.selected]}'s rulings has a filing date yet; check back soon.`);
-    const cell = (label, tt) => fact(label, tt.medDays == null ? 'not yet' : fmt.int(tt.medDays) + ' days', tt.nDays ? `median of ${fmt.int(tt.nDays)} ruling${tt.nDays === 1 ? '' : 's'}` : 'no filing dates yet', tt.medDays == null);
-    $('speed-facts').replaceChildren(cell('All motions', t), ...MCATS.map(([k, label]) => cell(label, op.cats[k])),
-      fact('Court median, all motions', S.totals.medDays == null ? 'not yet' : fmt.int(S.totals.medDays) + ' days', S.totals.medDays == null ? `shown once three judges have ${FEW} or more dated rulings` : 'median of the judges\' medians', S.totals.medDays == null));
+    const cell = (label, tt) => fact(label, tt.medDays == null ? 'not yet' : fmt.med(tt.medDays) + ' days',
+      tt.nDays ? (tt.p25 != null ? `middle half ${fmt.med(tt.p25)}–${fmt.med(tt.p75)} days · n=${fmt.int(tt.nDays)}` : `from ${fmt.int(tt.nDays)} ruling${tt.nDays === 1 ? '' : 's'}`) : 'no filing dates yet', tt.medDays == null);
+    const h = t.nHearing ? fact('Hearing set before ruling', pctOf(t.hearings, t.nHearing), `${fmt.int(t.hearings)} of ${fmt.int(t.nHearing)} motions with a hearing set in the case between filing and ruling`)
+      : fact('Hearing set before ruling', 'not yet', 'needs motions filed and decided since ' + fmtShort(S.since.orders), true);
+    $('speed-facts').replaceChildren(cell('All motions', t), ...MCATS.filter(([k]) => op.cats[k].n).map(([k, label]) => cell(label, op.cats[k])),
+      fact('Court median, all motions', S.totals.medDays == null ? 'not yet' : fmt.med(S.totals.medDays) + ' days', S.totals.medDays == null ? `shown once three judges have ${FEW} or more dated rulings` : 'median of the judges\' medians', S.totals.medDays == null), h);
   }
 
   function drawWritten(or, op) {
@@ -658,8 +693,9 @@
       ['Written opinions per week', (i) => fmt.d2(ops[i].per_week), fmt.d2(S.totals.medPerWeek)],
       ['Merits rulings per month', (i) => fmt.d2(ops[i].merits_month), fmt.d2(S.totals.medMerits)],
       ['Written opinions as a share of orders', (i) => fmt.pct0(ors[i].written_share), fmt.pct0(S.totals.medWrittenShare)],
-      ...MCATS.map(([k, label]) => [label + ' outcomes', (i) => rateCell(ops[i].cats[k]), medRate(k)]),
-      ['Median days to ruling, all motions', (i) => (ops[i].motions.medDays == null ? 'not yet' : fmt.int(ops[i].motions.medDays) + ' (n=' + ops[i].motions.nDays + ')'), S.totals.medDays == null ? '—' : fmt.int(S.totals.medDays)],
+      ['Median opinion length', (i) => (ops[i].n_pages ? fmt.med(ops[i].med_pages) + ' pages (n=' + ops[i].n_pages + ')' : 'not yet'), S.totals.medPages ? fmt.med(S.totals.medPages) + ' pages' : '—'],
+      ...MCATS.filter(([k]) => ops.some((o) => o.cats[k].n)).map(([k, label]) => [label + ' outcomes', (i) => rateCell(ops[i].cats[k]), medRate(k)]),
+      ['Median days to ruling, all motions', (i) => (ops[i].motions.medDays == null ? 'not yet' : fmt.med(ops[i].motions.medDays) + ' (n=' + ops[i].motions.nDays + ')'), S.totals.medDays == null ? '—' : fmt.med(S.totals.medDays)],
     ];
     const head = el('thead', {}, el('tr', {}, el('th', { textContent: 'Figure' }), ...codes.map((c) => el('th', { textContent: S.names[c] })), el('th', { textContent: 'Court median' })));
     const body = el('tbody', {}, ...rows.map(([label, f, med]) => el('tr', {}, el('td', { className: 'txt', textContent: label }), ...codes.map((c, i) => el('td', { className: 'txt', textContent: f(i) })), el('td', { className: 'txt dim', textContent: med }))));
