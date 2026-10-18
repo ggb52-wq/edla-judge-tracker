@@ -40,8 +40,14 @@
       <li><strong>Working days:</strong> weekdays other than court holidays, including Mardi Gras. A judge who joined the court during the period is counted from that judge's first day on the bench; Judge St. John took the bench on April 13, 2026.</li>
       <li><strong>Rates:</strong> opinions per week divide district judge opinions by working days ÷ 5; merits per month divide merits rulings by working days ÷ 21; orders per working day divide orders by working days.</li>
       <li><strong>Longest gap:</strong> the most calendar days between consecutive written opinions in a judge's cases.</li>
+      <li><strong>Ruling type</strong> (monthly chart, mix chart, and opinion finder): each written opinion falls in exactly one type, checked in this order: magistrate judge's report and recommendations; Rule 12 ruling; Rule 56 ruling; trial or post-trial ruling; other opinion. An entry that rules on both a Rule 12 and a Rule 56 motion counts as Rule 12 in these views, so the views can differ by a few entries from the Rule 12 and Rule 56 columns in the opinions table, which count such an entry in both.</li>
+      <li><strong>Mix of written opinions:</strong> each ruling type's count divided by the judge's total written opinions since Jan. 10, 2026. Judges are listed alphabetically.</li>
+      <li><strong>Time of entry:</strong> the share of a judge's civil orders with a recorded entry time that were entered in each clock hour, Central. Orders without a recorded time are left out.</li>
       <li><strong>Entry times</strong> are Central and come from the RSS feed or CourtListener's record of when it read the entry. They show when the clerk entered an order, which may differ from when the judge signed it.</li>
     </ul>
+
+    <h2>Links to opinions</h2>
+    <p>The opinion finder links each written opinion to <a href="https://www.courtlistener.com/">CourtListener</a>, which posts free copies of documents from PACER's Written Opinions Report. When the tracker knows the document's CourtListener address, the case number opens that document. The update script records the address for new opinions and looks up addresses for earlier ones a few at a time; until an address is found, the case number opens a CourtListener search for the case. A document can appear on CourtListener after the tracker counts it, and some documents never appear there.</p>
 
     <h2>Known limits</h2>
     <ul>

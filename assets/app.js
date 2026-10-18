@@ -8,7 +8,16 @@
   const css = (name) => getComputedStyle(document.documentElement).getPropertyValue(name).trim();
   const heat = (v) => d3.interpolateRgb('#eef3fa', '#4a84c9')(Math.max(0, Math.min(1, (v - 0.05) / 0.35)));
 
-  let state = { selected: '', data: null, stats: null };
+  // Each written opinion falls in exactly one ruling type, checked in this order.
+  const CATS = [['r12', 'Rule 12'], ['r56', 'Rule 56'], ['trial', 'Trial and post-trial'], ['rr', 'Magistrate R&Rs'], ['other', 'Other opinions']];
+  const category = (o) => (Number(o.rr) ? 'rr' : Number(o.r12) ? 'r12' : Number(o.r56) ? 'r56' : Number(o.merits) ? 'trial' : 'other');
+  const zeroCats = () => Object.fromEntries(CATS.map(([k]) => [k, 0]));
+  // Links go only to CourtListener: the stored document address, or a docket search by case number.
+  const CL = 'https://www.courtlistener.com/';
+  const opinionLink = (o) => (typeof o.url === 'string' && o.url.startsWith(CL + 'docket/') ? o.url
+    : CL + '?type=r&court=laed&docket_number=' + encodeURIComponent(o.case));
+
+  let state = { selected: '', data: null, stats: null, finderLimit: 100 };
   try { state.selected = localStorage.getItem('edla-judge') || ''; } catch (e) { /* storage unavailable */ }
 
   // ------------------------------------------------------------ calculations
@@ -20,9 +29,12 @@
     const span = (a, b) => Math.round((utc(b) - utc(a)) / 864e5);
 
     const opStart = pick('opinions_start');
+    const opRows = [];
     const opinions = D.judges.map((j) => {
       const s = j.bench_start > opStart ? j.bench_start : opStart;
       const R = D.opinions.filter((o) => o.judge === j.code && o.date >= s && o.date <= through);
+      opRows.push(...R);
+      const mix = zeroCats(); R.forEach((o) => { mix[category(o)] += 1; });
       const ch = R.filter((o) => !Number(o.rr));
       const mer = ch.filter((o) => Number(o.merits));
       const ds = [...new Set(R.map((o) => o.date))].sort();
@@ -31,16 +43,30 @@
       const wd = workdays(s, through).length;
       return { name: j.name, code: j.code, working_days: wd, total: R.length, rr: R.length - ch.length, district: ch.length,
         cases: new Set(R.map((o) => o.case)).size, days_with: ds.length, per_week: ch.length / (wd / 5), merits: mer.length,
-        merits_month: mer.length / (wd / 21), r12: mer.filter((o) => Number(o.r12)).length, r56: mer.filter((o) => Number(o.r56)).length, gap };
+        merits_month: mer.length / (wd / 21), r12: mer.filter((o) => Number(o.r12)).length, r56: mer.filter((o) => Number(o.r56)).length, gap, mix };
+    });
+
+    const months = [];
+    for (let d = utc(opStart.slice(0, 7) + '-01'); iso(d) <= through; d.setUTCMonth(d.getUTCMonth() + 1)) months.push(iso(d).slice(0, 7));
+    const monthly = months.map((month) => ({ month, dt: utc(month + '-01'), all: zeroCats(), by: {} }));
+    const mIndex = Object.fromEntries(months.map((m, i) => [m, monthly[i]]));
+    opRows.forEach((o) => {
+      const row = mIndex[o.date.slice(0, 7)]; if (!row) return;
+      const c = category(o); row.all[c] += 1;
+      (row.by[o.judge] = row.by[o.judge] || zeroCats())[c] += 1;
     });
 
     const orStart = pick('orders_start');
     const allDays = workdays(orStart, through);
     const last10 = allDays.slice(-10)[0] || orStart;
+    const hours = { all: new Array(24).fill(0), by: {} };
     const orders = D.judges.map((j) => {
       const s = j.bench_start > orStart ? j.bench_start : orStart;
       const R = D.orders.filter((o) => o.judge === j.code && o.date >= s && o.date <= through);
       const timed = R.filter((o) => /^\d\d:\d\d/.test(o.time || ''));
+      const hj = new Array(24).fill(0);
+      timed.forEach((o) => { const h = +o.time.slice(0, 2); if (h < 24) { hj[h] += 1; hours.all[h] += 1; } });
+      hours.by[j.code] = hj;
       const wd = workdays(s, through).length;
       const cases = new Set(R.map((o) => o.case)).size;
       const dow = [0, 0, 0, 0, 0, 0, 0];
@@ -71,7 +97,7 @@
 
     const wdAll = allDays.length;
     return {
-      through, names, opinions, orders, weekly, recent,
+      through, names, opinions, orders, weekly, recent, monthly, hours,
       totals: {
         orders: d3.sum(orders, (r) => r.orders), perDay: wdAll ? d3.sum(orders, (r) => r.orders) / wdAll : 0,
         opinions: d3.sum(opinions, (r) => r.total), merits: d3.sum(opinions, (r) => r.merits),
@@ -188,6 +214,137 @@
       : 'The median judge, by week (Monday start). Highlight a judge to add that judge\'s line. The current week is partial.';
   }
 
+  const axisStyle = (g, rule, ink2) => g.attr('font-size', null).attr('font-family', null)
+    .call((a) => a.selectAll('line,path').attr('stroke', rule)).call((a) => a.selectAll('text').style('fill', ink2).attr('font-size', 11));
+
+  // Columns stacked by ruling type, one per month; follows the highlighted judge.
+  function monthlyChart() {
+    const box = document.getElementById('c-monthly'); const S = state.stats; const sel = state.selected;
+    const ink2 = css('--ink-2'); const rule = css('--rule'); const panel = css('--panel');
+    const rows = S.monthly.map((r) => ({ ...r, c: sel ? (r.by[sel] || zeroCats()) : r.all }));
+    if (!rows.length) { box.replaceChildren(); return; }
+    const W = box.clientWidth || 400; const H = 250; const m = { t: 10, r: 8, b: 26, l: 34 };
+    const x = d3.scaleBand(rows.map((r) => r.month), [m.l, W - m.r]).padding(0.25);
+    const y = d3.scaleLinear([0, d3.max(rows, (r) => d3.sum(CATS, ([k]) => r.c[k])) || 1], [H - m.b, m.t]).nice();
+    const svg = d3.create('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('role', 'img')
+      .attr('aria-label', 'Written opinions by month' + (sel ? ', ' + S.names[sel] : ''));
+    box.replaceChildren(svg.node());
+    const every = Math.ceil(rows.length / Math.max(2, Math.floor(W / 60)));
+    svg.append('g').attr('transform', `translate(0,${H - m.b})`)
+      .call(d3.axisBottom(x).tickValues(rows.map((r) => r.month).filter((_, i) => i % every === 0)).tickFormat((k) => d3.utcFormat(k.endsWith('-01') ? '%b %Y' : '%b')(utc(k + '-01'))))
+      .call((g) => axisStyle(g, rule, ink2));
+    svg.append('g').attr('transform', `translate(${m.l},0)`).call(d3.axisLeft(y).ticks(4).tickSize(-(W - m.l - m.r)))
+      .call((g) => axisStyle(g, rule, ink2)).call((g) => g.select('.domain').remove());
+    const tip = tooltip(box);
+    rows.forEach((r) => {
+      let acc = 0;
+      CATS.forEach(([k]) => {
+        const v = r.c[k]; if (!v) return;
+        svg.append('rect').attr('x', x(r.month)).attr('width', x.bandwidth()).attr('y', y(acc + v)).attr('height', y(acc) - y(acc + v))
+          .attr('fill', css('--c-' + k)).attr('stroke', panel).attr('stroke-width', 1);
+        acc += v;
+      });
+      svg.append('rect').attr('x', x(r.month) - x.step() * x.paddingInner() / 2).attr('width', x.step()).attr('y', m.t).attr('height', H - m.t - m.b).attr('fill', 'transparent')
+        .on('mousemove', (e) => showTip(box, tip, e, [d3.utcFormat('%B %Y')(r.dt) + ': ' + fmt.int(acc), ...CATS.filter(([k]) => r.c[k]).map(([k, label]) => label + ': ' + fmt.int(r.c[k]))]))
+        .on('mouseleave', () => { tip.hidden = true; });
+    });
+    document.getElementById('monthly-title').textContent = 'Written opinions by month' + (sel ? ': ' + S.names[sel] : '');
+    document.getElementById('monthly-note').textContent = (sel ? S.names[sel] + ', by ruling type.' : 'All 16 judges combined, by ruling type.')
+      + ' January starts Jan. 10, and the current month is partial.';
+  }
+
+  // One 100% bar per judge, alphabetical, split by ruling type.
+  function mixChart() {
+    const box = document.getElementById('c-mix'); const sel = state.selected; const panel = css('--panel'); const ink2 = css('--ink-2');
+    const rows = state.stats.opinions.slice().sort((a, b) => a.name.localeCompare(b.name));
+    const W = box.clientWidth || 400; const top = 4; const H = rows.length * 22 + top + 6;
+    const svg = d3.create('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('role', 'img').attr('aria-label', 'Mix of written opinions by judge');
+    box.replaceChildren(svg.node());
+    const mt = svg.append('text').attr('font-size', 12).text('Papillion'); const left = Math.ceil(mt.node().getComputedTextLength()) + 12; mt.remove();
+    const x = d3.scaleLinear([0, 1], [left, W - 46]);
+    const y = d3.scaleBand(rows.map((r) => r.name), [top, H - 6]).padding(0.28);
+    const tip = tooltip(box);
+    rows.forEach((r) => {
+      const g = svg.append('g').style('cursor', 'pointer').attr('opacity', !sel || r.code === sel ? 1 : 0.35)
+        .on('click', () => select(r.code === sel ? '' : r.code))
+        .on('mousemove', (e) => showTip(box, tip, e, [r.name + ': ' + fmt.int(r.total) + ' opinions',
+          ...CATS.map(([k, label]) => label + ': ' + fmt.int(r.mix[k]) + (r.total ? ' (' + fmt.pct0(r.mix[k] / r.total) + ')' : ''))]))
+        .on('mouseleave', () => { tip.hidden = true; });
+      let acc = 0;
+      CATS.forEach(([k]) => {
+        const v = r.total ? r.mix[k] / r.total : 0; if (!v) return;
+        g.append('rect').attr('x', x(acc)).attr('width', x(acc + v) - x(acc)).attr('y', y(r.name)).attr('height', y.bandwidth())
+          .attr('fill', css('--c-' + k)).attr('stroke', panel).attr('stroke-width', 1);
+        acc += v;
+      });
+      g.append('rect').attr('x', left).attr('width', W - 46 - left).attr('y', y(r.name) - 2).attr('height', y.bandwidth() + 4).attr('fill', 'transparent');
+    });
+    svg.selectAll('.lbl').data(rows).join('text').attr('x', left - 8).attr('y', (r) => y(r.name) + y.bandwidth() / 2).attr('dy', '0.35em')
+      .attr('text-anchor', 'end').attr('font-size', 12).attr('font-weight', (r) => (r.code === sel ? 700 : 400)).text((r) => r.name);
+    svg.selectAll('.val').data(rows).join('text').attr('x', W - 40).attr('y', (r) => y(r.name) + y.bandwidth() / 2).attr('dy', '0.35em')
+      .attr('font-size', 11).style('fill', ink2).text((r) => fmt.int(r.total));
+  }
+
+  // Share of timed orders by hour of entry: the court, plus the highlighted judge.
+  function hoursChart() {
+    const box = document.getElementById('c-hours'); const S = state.stats; const sel = state.selected;
+    const accent = css('--accent'); const muted = css('--muted-bar'); const ink2 = css('--ink-2'); const rule = css('--rule');
+    const share = (a) => { const t = d3.sum(a); return a.map((v) => (t ? v / t : 0)); };
+    const series = [['all', 'All judges', sel ? muted : accent, share(S.hours.all), S.hours.all]];
+    if (sel) series.push([sel, S.names[sel], accent, share(S.hours.by[sel]), S.hours.by[sel]]);
+    const used = d3.range(24).filter((h) => series.some((s) => s[4][h]));
+    const legend = document.getElementById('hours-legend');
+    legend.replaceChildren(...(sel ? series : []).map(([, label, color]) => { const sp = document.createElement('span'); const i = document.createElement('i'); i.style.background = color; sp.append(i, label); return sp; }));
+    if (!used.length) { box.replaceChildren(); return; }
+    const hrs = d3.range(Math.min(...used), Math.max(...used) + 1);
+    const hourName = (h) => (h % 12 || 12) + (h < 12 ? ' AM' : ' PM');
+    const W = box.clientWidth || 400; const H = 360; const m = { t: 10, r: 8, b: 26, l: 40 };
+    const x = d3.scaleBand(hrs, [m.l, W - m.r]).padding(0.2);
+    const xi = d3.scaleBand(series.map((s) => s[0]), [0, x.bandwidth()]).padding(0.08);
+    const y = d3.scaleLinear([0, d3.max(series, (s) => d3.max(s[3])) || 1], [H - m.b, m.t]).nice();
+    const svg = d3.create('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('role', 'img').attr('aria-label', 'Share of civil orders by hour of entry');
+    box.replaceChildren(svg.node());
+    const every = Math.ceil(hrs.length / Math.max(2, Math.floor(W / 50)));
+    svg.append('g').attr('transform', `translate(0,${H - m.b})`).call(d3.axisBottom(x).tickValues(hrs.filter((_, i) => i % every === 0)).tickFormat(hourName))
+      .call((g) => axisStyle(g, rule, ink2));
+    svg.append('g').attr('transform', `translate(${m.l},0)`).call(d3.axisLeft(y).ticks(4).tickFormat(fmt.pct0).tickSize(-(W - m.l - m.r)))
+      .call((g) => axisStyle(g, rule, ink2)).call((g) => g.select('.domain').remove());
+    const tip = tooltip(box);
+    hrs.forEach((h) => {
+      series.forEach(([k, , color, sh]) => {
+        svg.append('rect').attr('x', x(h) + xi(k)).attr('width', xi.bandwidth()).attr('y', y(sh[h])).attr('height', y(0) - y(sh[h])).attr('rx', 2).attr('fill', color);
+      });
+      svg.append('rect').attr('x', x(h) - x.step() * x.paddingInner() / 2).attr('width', x.step()).attr('y', m.t).attr('height', H - m.t - m.b).attr('fill', 'transparent')
+        .on('mousemove', (e) => showTip(box, tip, e, [hourName(h) + ' to ' + hourName((h + 1) % 24), ...series.map(([, label, , sh, n]) => label + ': ' + fmt.pct0(sh[h]) + ' (' + fmt.int(n[h]) + ')')]))
+        .on('mouseleave', () => { tip.hidden = true; });
+    });
+    document.getElementById('hours-note').textContent = 'Share of civil orders entered in each hour (Central) since Sept. 17, 2026'
+      + (sel ? ': ' + S.names[sel] + ' against all judges combined.' : ', all judges combined. Highlight a judge to compare.');
+  }
+
+  function drawFinder() {
+    const S = state.stats; const sel = state.selected;
+    const q = document.getElementById('op-q').value.trim().toLowerCase(); const type = document.getElementById('op-type').value;
+    const rows = S.recent.filter((o) => (!sel || o.judge === sel)
+      && (!type || (type === 'merits' ? Number(o.merits) && !Number(o.rr) : category(o) === type))
+      && (!q || (o.case + ' ' + o.title + ' ' + o.event).toLowerCase().includes(q)));
+    const shown = rows.slice(0, state.finderLimit);
+    document.querySelector('#recent-table tbody').replaceChildren(...shown.map((o) => {
+      const tr = document.createElement('tr');
+      const cell = (text, cls) => { const td = document.createElement('td'); if (cls) td.className = cls; td.textContent = text; tr.append(td); return td; };
+      cell(fmtDate(o.date)); cell(S.names[o.judge]);
+      const td = cell(''); const a = document.createElement('a');
+      a.href = opinionLink(o); a.target = '_blank'; a.rel = 'noopener noreferrer'; a.textContent = o.case + ' · ' + o.doc;
+      a.title = o.url ? 'Open this document on CourtListener' : 'Search CourtListener for this case';
+      td.append(a);
+      cell(o.event, 'left'); cell(o.title, 'left');
+      return tr;
+    }));
+    document.getElementById('op-count').textContent = rows.length ? 'Showing ' + fmt.int(shown.length) + ' of ' + fmt.int(rows.length) : 'No matching opinions';
+    document.getElementById('op-more').hidden = shown.length >= rows.length;
+    document.getElementById('recent-title').textContent = sel ? 'Find a written opinion: ' + S.names[sel] : 'Find a written opinion';
+  }
+
   function fillRows(id, rows, cols) {
     document.querySelector('#' + id + ' tbody').replaceChildren(...rows.map((r) => {
       const tr = document.createElement('tr');
@@ -216,17 +373,16 @@
     barChart('c-perday', S.orders, 'per_day', fmt.d1, 'Orders per working day', S.totals.medPerDay);
     barChart('c-merits', S.opinions, 'merits_month', fmt.d2, 'Merits rulings per month', S.totals.medMerits);
     weeklyChart();
-
-    const recent = sel ? S.recent.filter((o) => o.judge === sel).slice(0, 15) : S.recent.slice(0, 25);
-    document.getElementById('recent-title').textContent = sel ? 'Latest written opinions: ' + S.names[sel] : 'Latest written opinions';
-    document.getElementById('recent-note').textContent = sel ? 'That judge\'s 15 most recent.' : 'The 25 most recent across the court. Highlight a judge to see that judge\'s latest.';
-    fillRows('recent-table', recent, [[(o) => fmtDate(o.date)], [(o) => S.names[o.judge]], [(o) => o.case + ' · ' + o.doc], [(o) => o.event, 'left'], [(o) => o.title, 'left']]);
+    monthlyChart();
+    mixChart();
+    hoursChart();
+    drawFinder();
     const runs = D.runs.slice().sort((a, b) => String(b.at).localeCompare(String(a.at))).slice(0, 40);
     fillRows('runs-table', runs, [[(r) => String(r.at).slice(0, 16).replace('T', ' ')], [(r) => fmt.int(+r.orders_added || 0)], [(r) => fmt.int(+r.opinions_added || 0)], [(r) => r.note || '', 'left']]);
   }
 
   function select(code) {
-    state.selected = code || '';
+    state.selected = code || ''; state.finderLimit = 100;
     try { localStorage.setItem('edla-judge', state.selected); } catch (e) { /* storage unavailable */ }
     render();
   }
@@ -247,6 +403,10 @@
   document.getElementById('judge-pick').addEventListener('change', (e) => select(e.target.value));
   document.getElementById('judge-clear').addEventListener('click', () => select(''));
   Object.keys(sorts).forEach(wireTable);
+  const refind = () => { state.finderLimit = 100; if (state.stats) drawFinder(); };
+  document.getElementById('op-q').addEventListener('input', refind);
+  document.getElementById('op-type').addEventListener('change', refind);
+  document.getElementById('op-more').addEventListener('click', () => { state.finderLimit += 200; drawFinder(); });
   let rt; window.addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(() => state.stats && render(), 150); });
   matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => state.stats && render());
   load();
