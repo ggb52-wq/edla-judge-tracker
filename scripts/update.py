@@ -30,6 +30,8 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
+from outcome_text import classify
+
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 CENTRAL = ZoneInfo("America/Chicago")
@@ -218,35 +220,56 @@ def doc_links(r: dict) -> dict:
     return out
 
 
-def link_opinions(cl: CourtListener, opinions: list[dict], checks: dict, today: str) -> int:
-    """Look up CourtListener addresses for opinions without a PDF link, a few per run.
+def rules_on_motion(o: dict) -> bool:
+    """Opinions that decide a motion get an outcome; magistrate reports and recommendations do not."""
+    return not int(o.get("rr") or 0) and "motion" in (o.get("event") or "").lower()
 
+
+def set_outcome(outcomes: dict, o: dict, value: str, src: str, today: str) -> None:
+    """Record an outcome read by the updater. Outcomes already on file, including every hand entry, are kept."""
+    key = f"{o['case']}|{o['doc']}"
+    if value and key not in outcomes:
+        outcomes[key] = {"case": o["case"], "doc": o["doc"], "outcome": value, "src": src, "at": today}
+
+
+def link_opinions(cl: CourtListener, opinions: list[dict], checks: dict, outcomes: dict, today: str) -> tuple[int, int]:
+    """Look up CourtListener addresses, and the order text for outcomes, a few opinions per run.
+
+    An opinion is looked up while it lacks a PDF link or, if it rules on a motion, an outcome.
     Rows never checked go first, newest first; rows checked before are retried after
     LINK_RECHECK_DAYS, because CourtListener adds documents and PDFs after PACER lists them.
+    Returns (rows given new links, outcomes read).
     """
     cutoff = (dt.date.fromisoformat(today) - dt.timedelta(days=LINK_RECHECK_DAYS)).isoformat()
-    todo = [o for o in opinions if not o.get("pdf") and o.get("doc") and CASE_RE.fullmatch(o.get("case", ""))
+    needs_outcome = lambda o: rules_on_motion(o) and f"{o['case']}|{o['doc']}" not in outcomes  # noqa: E731
+    todo = [o for o in opinions if (not o.get("pdf") or needs_outcome(o)) and o.get("doc") and CASE_RE.fullmatch(o.get("case", ""))
             and checks.get(f"{o['case']}|{o['doc']}", "") <= cutoff]
     todo.sort(key=lambda o: o["date"], reverse=True)
     todo.sort(key=lambda o: checks.get(f"{o['case']}|{o['doc']}", ""))  # stable: oldest check first, then newest row
-    found = 0
+    found = read = 0
     stop = cl.calls + LINK_BUDGET
     for o in todo:
         if cl.calls >= min(stop, CL_CALL_BUDGET):
             break
         data = cl.get("recap-documents/", {
             "docket_entry__docket__court": "laed", "docket_entry__docket__docket_number": o["case"],
-            "document_number": o["doc"], "fields": "absolute_url,filepath_local,is_available"})
+            "document_number": o["doc"], "fields": "absolute_url,filepath_local,is_available,plain_text"})
         if data is None:
             break
         checks[f"{o['case']}|{o['doc']}"] = today
-        links = max((doc_links(r) for r in data.get("results", [])), key=len, default={})
+        results = [r for r in data.get("results", []) if doc_url(r.get("absolute_url"))]
+        links = max((doc_links(r) for r in results), key=len, default={})
         if any(o.get(k) != v for k, v in links.items()):
             o.update(links)
             found += 1
-        if o.get("pdf"):
+        text = next((r.get("plain_text") for r in results if (r.get("plain_text") or "").strip()), "")
+        if text and needs_outcome(o):
+            # Order text that yields no outcome is marked "unclear" so it is not read again; a hand entry can replace it.
+            set_outcome(outcomes, o, classify(text, o.get("event", ""), o.get("r12", 0), o.get("r56", 0), "order") or "unclear", "opinion_text", today)
+            read += 1
+        if o.get("pdf") and not needs_outcome(o):
             checks.pop(f"{o['case']}|{o['doc']}", None)
-    return found
+    return found, read
 
 
 def to_central(iso: str | None) -> dt.datetime | None:
@@ -267,6 +290,7 @@ def main() -> int:
     orders, opinions = load("orders"), load("opinions")
     calendar, runs, judges = load("calendar"), load("runs"), load("judges")
     link_checks = load("link_checks") if (DATA / "link_checks.json").exists() else {}
+    outcomes = {f"{r['case']}|{r['doc']}": r for r in (load("outcomes") if (DATA / "outcomes.json").exists() else [])}
     bench = {j["code"]: j["bench_start"] for j in judges}
     holidays = {r["date"] for r in calendar if r["kind"] == "holiday"}
     through_row = next(r for r in calendar if r["kind"] == "through")
@@ -322,6 +346,8 @@ def main() -> int:
             sd = (rd.get("short_description") or "").strip()
             if sd and sd not in ent["events"]:
                 ent["events"].append(sd)
+            if not ent.get("text") and not rd.get("attachment_number"):
+                ent["text"] = (rd.get("description") or "").strip()  # full docket text, read for the outcome
 
     added_orders = []
     for key, e in cl_entries.items():
@@ -397,10 +423,13 @@ def main() -> int:
         if judge and not allowed(judge, date):
             continue
         desc = (r.get("description") or "").strip()
-        added_opinions.append({"date": date, "judge": judge, "case": info["case"], "doc": doc,
-                               "title": info["title"], "event": desc[:160], **opinion_flags(desc),
-                               "src": "courtlistener_wo", **doc_links(r)})
+        row = {"date": date, "judge": judge, "case": info["case"], "doc": doc,
+               "title": info["title"], "event": desc[:160], **opinion_flags(desc),
+               "src": "courtlistener_wo", **doc_links(r)}
+        added_opinions.append(row)
         opinion_keys.add(key)
+        if rules_on_motion(row) and ent and ent.get("text"):
+            set_outcome(outcomes, row, classify(ent["text"], row["event"], row["r12"], row["r56"], "docket"), "docket_text", today)
 
     # Rows for magistrate judges presiding by consent and visiting judges are kept;
     # the site charts only the judges listed in data/judges.json.
@@ -409,9 +438,11 @@ def main() -> int:
         note.append(f"{no_judge} entries without a judge")
 
     # --- CourtListener addresses for opinions already in the data
-    linked = link_opinions(cl, opinions, link_checks, today) if cl.token else 0
+    linked, read = link_opinions(cl, opinions, link_checks, outcomes, today) if cl.token else (0, 0)
     if linked:
         note.append(f"{linked} opinion links added")
+    if read:
+        note.append(f"{read} orders read for outcomes")
 
     # --- coverage check for completed weekdays in the window
     orders.extend(added_orders)
@@ -444,6 +475,7 @@ def main() -> int:
     save("opinions", opinions)
     save("calendar", calendar)
     save("runs", runs)
+    save("outcomes", sorted(outcomes.values(), key=lambda r: (r["case"], int(r["doc"]) if r["doc"].isdigit() else 0)))
     (DATA / "link_checks.json").write_text(json.dumps(dict(sorted(link_checks.items())), indent=0) + "\n")
     print(f"orders +{len(added_orders)}, opinions +{len(added_opinions)}, pending {len(new_pending)}; " + "; ".join(note))
     return 0
