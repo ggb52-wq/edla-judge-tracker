@@ -16,6 +16,8 @@ jobs:
         with:
           python-version: "3.12"
       - name: Read the judge pages
+        env:
+          JUDGE_PAGES_DEBUG: "1"
         run: python -u scripts/judge_pages.py
       - name: Commit to this branch
         run: |

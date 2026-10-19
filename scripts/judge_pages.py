@@ -28,6 +28,7 @@ LISTING = BASE + "/judges-information/district-judges"
 JUDGE_PATH = "/judges-information/judge/"
 USER_AGENT = "edla-judge-tracker (github.com/ggb52-wq/edla-judge-tracker)"
 PAUSE = 1.0                 # seconds between page requests
+DEBUG = bool(__import__("os").environ.get("JUDGE_PAGES_DEBUG"))
 DOC_RE = re.compile(r"/sites/default/files/|\.(pdf|docx?|wpd|rtf|xlsx?)(\?|#|$)", re.I)
 VOID = {"area", "base", "br", "col", "embed", "hr", "img", "input", "link", "meta", "source", "track", "wbr"}
 BLOCK = {"p", "div", "li", "ul", "ol", "h1", "h2", "h3", "h4", "h5", "h6", "table", "tr", "blockquote", "fieldset", "section", "article"}
@@ -299,6 +300,27 @@ def read_page(html: str, url: str) -> dict:
     return {"url": url, "title": title, "contact": contact, "sections": sections, "docs": docs}
 
 
+def outline(html: str) -> str:
+    """The page from its title on, as tags with ids and classes plus short text, for the log when a page reads oddly."""
+    root = parse(html)
+    start = root.find(lambda n: n.attrs.get("id") == "page-title") or root
+    node = start.parent if start.parent is not None else root
+    out = []
+
+    def go(n: Node, d: int) -> None:
+        for k in n.kids:
+            if isinstance(k, str):
+                t = clean(k)
+                if t:
+                    out.append("  " * d + repr(t[:80]))
+            elif k.tag not in ("script", "style", "svg", "nav", "form", "footer"):
+                attrs = " ".join(f'{a}="{k.attrs[a][:60]}"' for a in ("id", "class", "href") if k.attrs.get(a))
+                out.append("  " * d + f"<{k.tag}{(' ' + attrs) if attrs else ''}>")
+                go(k, d + 1)
+    go(node, 0)
+    return "\n".join(out)
+
+
 def html_of(node: Node) -> str:
     """Attributes back out of a node, enough to find mailto: links."""
     return " ".join(f'{k}="{v}"' for n in node.walk() for k, v in n.attrs.items())
@@ -330,7 +352,7 @@ def find_pages(listing_html: str, judges: list[dict]) -> dict:
         hit = by_url or by_text
         if hit:
             out[j["code"]] = hit[0]
-    if len(out) < len(judges):
+    if len(out) < len(judges) or DEBUG:
         print(f"Matched {len(out)} of {len(judges)} judges on the listing. Links seen:", flush=True)
         for u, t in links[:120]:
             print(f"  {t[:60]!r} -> {u}", flush=True)
@@ -366,12 +388,16 @@ def write(path: Path, data: dict) -> None:
     path.write_text(head + ',"judges":[\n' + rows + "\n]}\n", encoding="utf-8")
 
 
+def today_iso() -> str:
+    return dt.date.today().isoformat()
+
+
 def main(argv: list[str]) -> int:
     judges = json.loads((DATA / "judges.json").read_text())
     path = DATA / "judge_pages.json"
     old = json.loads(path.read_text()) if path.exists() else {"judges": []}
     prev = {r["code"]: r for r in old.get("judges", [])}
-    today = dt.date.today().isoformat()
+    today = today_iso()
     try:
         pages = find_pages(fetch(LISTING), judges)
     except Exception as e:  # noqa: BLE001 - keep the last copy when the court's site is down
@@ -387,12 +413,15 @@ def main(argv: list[str]) -> int:
             continue
         time.sleep(PAUSE)
         try:
-            cur = read_page(fetch(url), url)
+            html = fetch(url)
+            cur = read_page(html, url)
         except Exception as e:  # noqa: BLE001
-            print(f"{j['name']}: {e}", flush=True)
+            print(f"{j['name']}: {e} ({url})", flush=True)
             if j["code"] in prev:
                 rows.append({**prev[j["code"]], "error": str(e)[:200]})
             continue
+        if DEBUG or not cur["sections"]:
+            print(f"{j['name']}: {url}\n" + outline(html)[:6000 if DEBUG else 600], flush=True)
         row = {"code": j["code"], **merge(prev.get(j["code"]), cur, today)}
         print(f"{j['name']}: {row['title']} · {len(row['sections'])} sections · {len(row['docs'])} documents"
               + (" · changed" if row["changed"] == today and j["code"] in prev else ""), flush=True)
@@ -400,9 +429,23 @@ def main(argv: list[str]) -> int:
     data = {"checked": today, "since": old.get("since") or today, "source": LISTING, "judges": rows}
     if "--print" in argv:
         print(json.dumps(data, ensure_ascii=False, indent=1))
-    else:
+        return 0
+    # Rewrite the file when a page changed, or once a week so the "checked" dates stay current; not every day.
+    stale = old.get("checked", "") < (dt.date.fromisoformat(today) - dt.timedelta(days=7)).isoformat()
+    if rows and (stale or unchecked(old) != unchecked(data)):
         write(path, data)
+    else:
+        print("No change on the judges' pages.", flush=True)
     return 0
+
+
+def unchecked(obj):
+    """The data without its "checked" dates, for telling a real change from a routine read."""
+    if isinstance(obj, dict):
+        return {k: unchecked(v) for k, v in obj.items() if k != "checked"}
+    if isinstance(obj, list):
+        return [unchecked(v) for v in obj]
+    return obj
 
 
 if __name__ == "__main__":

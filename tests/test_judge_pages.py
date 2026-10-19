@@ -55,9 +55,8 @@ class JudgePagesTest(unittest.TestCase):
             if url.endswith("honorable-nannette-jolivette-brown"):
                 return page
             raise OSError("404")
-        day = mock.Mock(); day.today.return_value.isoformat.return_value = today
         with mock.patch.object(judge_pages, "DATA", self.tmp / "data"), mock.patch.object(judge_pages, "fetch", fake_fetch), \
-             mock.patch.object(judge_pages, "PAUSE", 0), mock.patch.object(judge_pages.dt, "date", day), \
+             mock.patch.object(judge_pages, "PAUSE", 0), mock.patch.object(judge_pages, "today_iso", lambda: today), \
              mock.patch("builtins.print"):
             judge_pages.main([])
         return json.loads((self.tmp / "data" / "judge_pages.json").read_text())
@@ -95,9 +94,11 @@ class JudgePagesTest(unittest.TestCase):
         self.assertEqual([s["changed"] for s in r["sections"]], ["", "2026-11-02"])
         self.assertEqual({d["title"]: d["first_seen"] for d in r["docs"]}, {"Standing Order": "2026-10-20", "New Order": "2026-11-02", "form": "2026-10-20"})
         self.assertEqual(r["changed"], "2026-11-02")
-        again = self.run_once(page, today="2026-11-03")["judges"][0]
-        self.assertEqual(again["changed"], "2026-11-02")          # no change, no new date
-        self.assertEqual(again["checked"], "2026-11-03")
+        again = self.run_once(page, today="2026-11-03")
+        self.assertEqual(again["checked"], "2026-11-02")          # nothing changed: the file is left alone
+        later = self.run_once(page, today="2026-11-10")["judges"][0]
+        self.assertEqual(later["changed"], "2026-11-02")          # a week on, the file is rewritten with new checked dates only
+        self.assertEqual(later["checked"], "2026-11-10")
 
     def test_site_down_keeps_last_copy(self):
         self.run_once()
