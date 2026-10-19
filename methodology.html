@@ -25,7 +25,7 @@
   </div>
 </header>
 <main class="wrap">
-  <div class="doc">
+  <div class="docpage">
     <nav class="toc" aria-label="On this page">
       <a href="#counts">What the site counts</a>
       <a href="#sources">Sources</a>
@@ -39,6 +39,7 @@
       <a href="#position">Comparing with other judges</a>
       <a href="#compare">Compare judges</a>
       <a href="#motions">Submitted motions</a>
+      <a href="#requirements">Judges' requirements</a>
       <a href="#lookup">Case lookup</a>
       <a href="#links">Links to opinions</a>
       <a href="#limits">Known limits</a>
@@ -58,6 +59,7 @@
         <li><strong>Written opinions, Jan. 10 to Oct. 16, 2026:</strong> the PACER Written Opinions Report for the court.</li>
         <li><strong>Civil orders, Sept. 17 to Oct. 16, 2026:</strong> the PACER Docket Activity Report, event category "order."</li>
         <li><strong>Opinion PDFs and text:</strong> <a href="https://www.govinfo.gov/app/collection/uscourts">GovInfo's United States Courts collection</a> (Government Publishing Office), which publishes the documents the court flags as written opinions, and CourtListener. Each GovInfo PDF is matched to the docket by the "Document" number CM/ECF stamps on every page.</li>
+        <li><strong>Judges' requirements and chambers contact:</strong> each judge's page on the court's website, read daily (see <a href="#requirements">Judges' requirements</a>).</li>
         <li><strong>Since Oct. 17, 2026:</strong> the court's public CM/ECF RSS feed, checked every 15 minutes during the workday, matched against <a href="https://www.courtlistener.com/">CourtListener</a> (Free Law Project), which builds docket records from the same feed and adds the assigned judge and full event type. Documents CourtListener marks as free on PACER are the entries on PACER's Written Opinions Report.</li>
       </ul>
 
@@ -125,8 +127,13 @@
       <p>Under this court's Local Rule 7.2, a motion is noticed for submission on a set date, after which it is before the judge. The "Motions" page lists civil motions recorded from the court's public CM/ECF feed, which names each entry's event type ("Motion to Dismiss"), case, and document number but not the docket text. The feed shows only its latest entries, so the list begins on the day the site started recording motions and does not reach further back. Responses, replies, and orders that mention a motion are not motions and are not listed.</p>
       <p>The <strong>submission date</strong> is read from the motion's docket text ("Motion(s) will be submitted on 11/4/2026") when the site's periodic CourtListener search indexes the entry, so a motion can appear for a few hours before its date is known. A motion is marked <strong>ruling found</strong> when a later order or written opinion in the same case names the same type of motion, or when an outcome on file cites the motion's docket number. That is a match on docket events, not a link between documents: a motion that was withdrawn, decided under a different event, or ruled on by minute entry can still show as awaiting. <strong>Past submission</strong> means the submission date is before the data-through date and no ruling was found. Days past count calendar days from the submission date. The counts describe the docket; they say nothing about why a ruling is pending.</p>
 
+      <h2 id="requirements">Judges' requirements</h2>
+      <p>Each district judge has a page on the <a href="https://www.laed.uscourts.gov/judges-information/district-judges">court's website</a>. Some of those pages set out the judge's practice requirements under tabs such as "Chambers Communication," "Courtroom Rules," "Motions &amp; Oral Argument," and "Pretrial/Trial Procedure," and link to standing orders, sample documents, and forms; others give only the section and chambers contact. The site reads every judge's page once a day and copies the text of those tabs word for word, with their links, onto the judge's page here and into the requirements search. It does not summarize, rephrase, or interpret them, and it does not open the linked documents; it lists them with links to the court's copies. It keeps the section letter, chambers room, phone number, chambers email address, and Federal Judicial Center biography link, and leaves out the names of chambers staff.</p>
+      <p>When a tab's text changes, the tab is marked <strong>Updated</strong>, and a document link the site has not seen before is marked <strong>New</strong>, for 60 days. Nothing is marked on the first day the site read the pages. Each judge's page here says when the court's page was last checked. The court's page controls: a judge can change a requirement at any time, and an order in a particular case can set different terms, so check the court's page and the case's own orders before relying on anything copied here.</p>
+      <p>The requirements search finds passages that contain every word searched, in singular or plural ("copies" also finds "copy"), across all judges' pages and the titles of the documents they post.</p>
+
       <h2 id="lookup">Case lookup</h2>
-      <p>The search box finds a judge by name, a case by number ("2:25-cv-01750", "25-cv-1750", or "1750") or by party name, and opinions by keyword. A case is listed only if it appears in the site's data: an order since Sept. 17, 2026, a written opinion since Jan. 10, 2026, or a motion since recording began. The judge shown is the district judge on the case's most recent entry in that data.</p>
+      <p>The search box finds a judge by name or section ("Section G"), a case by number ("2:25-cv-01750", "25-cv-1750", or "1750") or by party name, and opinions by keyword. A case is listed only if it appears in the site's data: an order since Sept. 17, 2026, a written opinion since Jan. 10, 2026, or a motion since recording began. The judge shown is the district judge on the case's most recent entry in that data.</p>
 
       <h2 id="links">Links to opinions</h2>
       <p>The opinion search and the judge pages link each written opinion to the best copy the site has found. When GovInfo or CourtListener holds the PDF, the case number opens it and carries a PDF mark. When CourtListener lists the docket entry but has no PDF, the case number opens the docket entry. Until an address is found, the case number opens a CourtListener search for the case. The update script looks up addresses for earlier opinions a few at a time and rechecks weekly for PDFs not yet posted. A document can appear on GovInfo or CourtListener after the site counts it, and some documents never appear there.</p>

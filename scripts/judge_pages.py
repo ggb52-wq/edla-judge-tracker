@@ -7,6 +7,7 @@ with the last copy: a section whose text changed gets a new "changed" date, and 
 a "first_seen" date, so the site can flag what is new.
 
 Run: python scripts/judge_pages.py [--print]   (--print writes the result to stdout instead of the data file)
+Set JUDGE_PAGES_DEBUG=1 to log the listing's links and an outline of every page, for fitting the reader to a new layout.
 """
 from __future__ import annotations
 
@@ -434,8 +435,8 @@ def main(argv: list[str]) -> int:
         cur = read_page(html, url)
         if found.get("section") and not cur["contact"].get("section"):
             cur["contact"]["section"] = found["section"]
-        if DEBUG or not cur["sections"]:
-            print(f"{j['name']}: {url}\n" + outline(html)[:6000 if DEBUG else 600], flush=True)
+        if DEBUG or not (cur["sections"] or cur["contact"]):   # nothing read at all: the page layout may have changed
+            print(f"{j['name']}: {url}\n" + outline(html)[:6000 if DEBUG else 1500], flush=True)
         row = {"code": j["code"], **merge(prev.get(j["code"]), cur, today)}
         print(f"{j['name']}: {row['title']} · {len(row['sections'])} sections · {len(row['docs'])} documents"
               + (" · changed" if row["changed"] == today and j["code"] in prev else ""), flush=True)

@@ -78,15 +78,15 @@
   const recordLink = (o) => REPO + '/issues/new?template=outcome.yml&title=' + encodeURIComponent('Outcome: ' + o.case + ' doc ' + o.doc)
     + '&case=' + encodeURIComponent(o.case) + '&doc=' + encodeURIComponent(o.doc);
 
-  const PAGES = ['judges', 'judge', 'compare', 'opinions', 'motions', 'court', 'log'];
-  const NAV = { judges: 'judges', judge: 'judges', compare: 'judges', opinions: 'opinions', motions: 'motions', court: 'court', log: '' };
+  const PAGES = ['judges', 'judge', 'compare', 'opinions', 'motions', 'rules', 'court', 'log'];
+  const NAV = { judges: 'judges', judge: 'judges', compare: 'judges', opinions: 'opinions', motions: 'motions', rules: 'rules', court: 'court', log: '' };
   const VIEWS = [['orders', 'Civil orders'], ['opinions', 'Written opinions'], ['outcomes', 'Motion outcomes'], ['weekdays', 'Weekdays'], ['hours', 'Time of day']];
   // Addresses from the earlier, tabbed layout still open the matching page.
   const LEGACY = { overview: ['judges'], orders: ['court', 'orders'], outcomes: ['court', 'outcomes'], finder: ['opinions'] };
   const emptyFinder = () => ({ q: '', judge: '', type: '', oc: '', pdf: false, month: '' });
   const state = { page: 'judges', judge: '', cmp: [], vs: [], view: 'orders', period: '', f: emptyFinder(), limit: 100,
     mt: { view: 'past', q: '', judge: '', limit: 100 }, jf: { q: '', type: '', judge: '' }, ocGroup: 'r12', hoursJudge: '', sorts: {},
-    editor: false, data: null, stats: null, cases: [] };
+    rtab: '', rq: '', editor: false, data: null, stats: null, cases: [], pages: {} };
   const editorParam = new URLSearchParams(location.search).get('editor');
   if (editorParam === '1' || editorParam === '0') store.set('edla-editor', editorParam);
   state.editor = store.get('edla-editor') === '1';
@@ -282,7 +282,8 @@
     if (p.has('vs')) state.vs = p.get('vs').split(',').map(judgeCode).filter(Boolean).slice(0, 3);
     if (p.has('period')) state.period = ['30', '90'].includes(p.get('period')) ? p.get('period') : '';
     state.page = page;
-    if (page === 'judge') state.judge = judgeCode(parts[1] || p.get('judge'));
+    if (page === 'judge') { state.judge = judgeCode(parts[1] || p.get('judge')); if (p.has('tab')) state.rtab = p.get('tab'); }
+    if (page === 'rules') state.rq = p.get('q') || '';
     if (page === 'compare') state.cmp = [...new Set((parts[1] || '').split(',').map(judgeCode).filter(Boolean))].slice(0, 4);
     if (page === 'court') state.view = VIEWS.some(([k]) => k === parts[1]) ? parts[1] : 'orders';
     if (page === 'opinions') {
@@ -294,7 +295,8 @@
   }
   function hashFor(page, o = {}) {
     const p = new URLSearchParams(); let path = page;
-    if (page === 'judge') path += '/' + o.judge;
+    if (page === 'judge') { path += '/' + o.judge; if (o.tab) p.set('tab', o.tab); }
+    if (page === 'rules' && o.q) p.set('q', o.q);
     if (page === 'compare' && o.cmp && o.cmp.length) path += '/' + o.cmp.join(',');
     if (page === 'court') path += '/' + (o.view || 'orders');
     if (page === 'opinions' && o.f) { const f = o.f; if (f.q) p.set('q', f.q); if (f.judge) p.set('judge', f.judge); if (f.type) p.set('type', f.type); if (f.oc) p.set('oc', f.oc); if (f.pdf) p.set('pdf', '1'); if (f.month) p.set('month', f.month); }
@@ -302,7 +304,9 @@
     if (state.period) p.set('period', state.period);
     return '#' + path + (p.toString() ? '?' + p : '');
   }
-  const currentHash = () => hashFor(state.page, { judge: state.judge, cmp: state.cmp, view: state.view, f: state.f, mt: state.mt });
+  const currentHash = () => hashFor(state.page, { judge: state.judge, cmp: state.cmp, view: state.view, f: state.f, mt: state.mt, q: state.rq,
+    tab: state.page === 'judge' && (state.pages[state.judge] || { sections: [] }).sections.some((x) => slug(x.title) === state.rtab) ? state.rtab : '' });
+  const slug = (t) => String(t).toLowerCase().replace(/&/g, 'and').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
   const judgeHref = (code) => hashFor('judge', { judge: code });
   const findHref = (preset) => hashFor('opinions', { f: { ...emptyFinder(), ...preset } });
   function writeHash() { const h = currentHash(); if (location.hash !== h) history.replaceState(null, '', h); }
@@ -574,7 +578,8 @@
       const op = S.opinions.find((r) => r.code === j.code); const or = S.orders.find((r) => r.code === j.code);
       const stat = (label, v, tip) => el('div', { title: tip }, el('span', { textContent: label }), el('b', { textContent: v }));
       return el('a', { className: 'jcard', href: judgeHref(j.code) },
-        el('div', { className: 'jc-head' }, el('span', { className: 'jc-name', textContent: j.name }), el('span', { className: 'code', textContent: j.code })),
+        el('div', { className: 'jc-head' }, el('span', { className: 'jc-name', textContent: j.name }),
+          el('span', { className: 'chips' }, sectionOf(j.code) ? el('span', { className: 'code', textContent: 'Sec. ' + sectionOf(j.code), title: 'Section ' + sectionOf(j.code) }) : null, el('span', { className: 'code', textContent: j.code }))),
         el('div', { className: 'jc-stats' },
           stat('Opinions', fmt.int(op.total), 'Written opinions in the period'),
           stat('Merits / mo', fmt.d1(op.merits_month), 'Rule 12, Rule 56, and trial rulings per 21 working days'),
@@ -600,6 +605,9 @@
     rememberJudge(code);
     document.title = 'Judge ' + name + ' · EDLA Analyzer';
     $('j-name').textContent = 'Judge ' + name; $('j-crumb').textContent = name; $('j-code').textContent = code;
+    const P = state.pages[code]; const sec = P && P.contact && P.contact.section;
+    $('j-section').hidden = !sec; $('j-section').textContent = sec ? 'Section ' + sec : '';
+    $('j-full').textContent = P && P.title ? P.title : '';
     $('j-meta').textContent = (state.period ? 'Last ' + state.period + ' days. ' : '') + 'Written opinions counted from ' + fmtDate(op.start) + '; civil orders from ' + fmtDate(or.start) + '. Data through ' + fmtDate(S.through) + '.';
     const list = judgesAlpha(); const i = list.findIndex((j) => j.code === code);
     $('j-prev').href = judgeHref(list[(i - 1 + list.length) % list.length].code); $('j-next').href = judgeHref(list[(i + 1) % list.length].code);
@@ -630,6 +638,7 @@
         : kpi({ label: 'Median opinion length', value: 'Not yet', na: true, sub: op.n_pages ? `${plural(op.n_pages, 'PDF')} measured so far; a median needs ${FEW}` : 'page counts are still being collected' }),
     );
 
+    drawRules(code, name);
     drawJudgeOutcomes(op, name);
     drawJudgeActivity(or, op, name);
     drawJudgeHabits(or, op, name);
@@ -965,6 +974,123 @@
         el('td', { className: 'num', textContent: fmt.int(+r.opinions_added || 0) }), el('td', { className: 'wrap', textContent: r.note || '' })))));
   }
 
+  // ------------------------------------------------------------ the judges' requirements, copied from the court's website
+  const LOCAL_RULES = 'https://www.laed.uscourts.gov/localrules/localrules.htm';
+  const JUDGE_LIST = 'https://www.laed.uscourts.gov/judges-information/district-judges';
+  const SAFE_URL = /^(https?:\/\/|mailto:)/i;
+  const sectionOf = (code) => ((state.pages[code] || {}).contact || {}).section || '';
+  const todayIso = () => iso(new Date());
+  // A document or section counts as new for 60 days after the first time the site saw it change, never on the first read.
+  const isFresh = (d) => { const since = (state.data.judge_pages || {}).since || ''; return !!d && d > since && d >= addDays(todayIso(), -60); };
+  const words = (q) => q.toLowerCase().split(/[^a-z0-9'’&/-]+/i).filter((w) => w.length >= 2);
+  // A search word also finds its singular or plural: "copies" finds "copy", "order" finds "orders".
+  const wordPattern = (w) => { const e = escapeRe(w); return /ies$/.test(w) ? e.slice(0, -3) + '(?:y|ies)' : /y$/.test(w) ? e.slice(0, -1) + '(?:y|ies)' : /[^s]s$/.test(w) && w.length > 3 ? e.slice(0, -1) + 's?' : e + '(?:s|es)?'; };
+  const escapeRe = (w) => w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const segText = (segs) => segs.map((x) => (Array.isArray(x) ? x[0] : x)).join('');
+  function marked(text, re) {
+    if (!re) return [document.createTextNode(text)];
+    const out = []; let last = 0;
+    for (const m of text.matchAll(re)) { out.push(document.createTextNode(text.slice(last, m.index)), el('mark', { textContent: m[0] })); last = m.index + m[0].length; }
+    out.push(document.createTextNode(text.slice(last)));
+    return out;
+  }
+  function segNodes(segs, re) {
+    return segs.flatMap((x) => {
+      if (!Array.isArray(x)) return marked(x, re);
+      const [text, url] = x;
+      if (!SAFE_URL.test(url)) return marked(text, re);
+      const a = el('a', { href: url }, ...marked(text, re));
+      if (!/^mailto:/i.test(url)) { a.target = '_blank'; a.rel = 'noopener noreferrer'; }
+      return [a];
+    });
+  }
+  function blockEl(b, re) {
+    const n = el('div', { className: (b.k === 'h' ? 'rb-h' : b.k === 'li' ? 'rb-li' : 'rb-p') + (segText(b.s).includes('\n') ? ' pre' : '') }, ...segNodes(b.s, re));
+    if (b.k === 'li') n.style.setProperty('--d', Math.min(4, b.d || 0));
+    return n;
+  }
+  const docKind = (url) => { const m = url.match(/\.([a-z0-9]{2,4})(?:$|[?#])/i); return m ? m[1].toUpperCase() : 'LINK'; };
+
+  function drawRules(code, name) {
+    const P = state.pages[code];
+    $('j-rules-src').href = P ? P.url : JUDGE_LIST;
+    if (!P) {
+      $('j-contact').replaceChildren(); $('j-rtabs').replaceChildren(); $('j-docs').replaceChildren();
+      $('j-rbody').replaceChildren(el('p', { className: 'empty', textContent: 'The site has not read this judge\'s page on the court\'s website yet. It reads every judge\'s page each day.' }));
+      $('j-rules-note').textContent = '';
+      return;
+    }
+    const c = P.contact || {}; const item = (k, v) => el('span', {}, el('b', { textContent: k }), v);
+    $('j-contact').replaceChildren(...[
+      c.section && item('Section', c.section),
+      c.room && item('Chambers', 'Room ' + c.room + ', 500 Poydras St.'),
+      c.phone && item('Phone', el('a', { href: 'tel:' + c.phone.replace(/[^\d]/g, ''), textContent: c.phone })),
+      c.email && item('Email', el('a', { href: 'mailto:' + c.email, textContent: c.email })),
+      c.bio && SAFE_URL.test(c.bio) && item('Biography', el('a', { href: c.bio, target: '_blank', rel: 'noopener noreferrer', textContent: 'Federal Judicial Center ↗' })),
+    ].filter(Boolean));
+    const secs = P.sections || [];
+    if (!secs.some((x) => slug(x.title) === state.rtab)) state.rtab = secs.length ? slug(secs[0].title) : '';
+    $('j-rtabs').replaceChildren(...secs.map((x) => {
+      const b = el('button', { type: 'button', textContent: x.title }); b.setAttribute('role', 'tab');
+      b.setAttribute('aria-selected', String(slug(x.title) === state.rtab));
+      if (isFresh(x.changed)) b.append(el('span', { className: 'badge', textContent: 'Updated', title: 'Changed on the court\'s website ' + fmtDate(x.changed) }));
+      b.addEventListener('click', () => { state.rtab = slug(x.title); drawRules(code, name); writeHash(); });
+      return b;
+    }));
+    const cur = secs.find((x) => slug(x.title) === state.rtab);
+    $('j-rbody').replaceChildren(...(cur ? cur.blocks.map((b) => blockEl(b)) : [el('p', { className: 'rb-p dim' }, `Judge ${name}'s page on the court's website lists no separate practice requirements; it gives the section and chambers contact above. The court's `, el('a', { href: LOCAL_RULES, target: '_blank', rel: 'noopener noreferrer', textContent: 'Local Rules' }), ' apply in every section.')]));
+    const docs = P.docs || [];
+    $('j-docs').replaceChildren(...(docs.length ? [el('span', { className: 'l', textContent: 'Standing orders and forms posted on the judge\'s page' }), ...docs.filter((d) => SAFE_URL.test(d.url)).map((d) => el('a', { className: 'doc', href: d.url, target: '_blank', rel: 'noopener noreferrer', title: d.title + ' (' + d.section + ')' },
+      el('span', { className: 'tag', textContent: docKind(d.url) }), el('span', { className: 'dt', textContent: d.title }), isFresh(d.first_seen) ? el('span', { className: 'badge', textContent: 'New', title: 'First seen ' + fmtDate(d.first_seen) }) : null))] : []));
+    $('j-rules-note').textContent = `Copied from the court's website; last checked ${fmtDate(P.checked)}${P.changed ? ', last change found ' + fmtDate(P.changed) : ''}. The court's page controls: check it before filing.`;
+  }
+
+  // Blocks on every judge's page that contain all the words of a search.
+  function ruleHits(q) {
+    const W = words(q).map((w) => new RegExp(wordPattern(w), 'i')); if (!W.length) return [];
+    return judgesAlpha().map((j) => {
+      const P = state.pages[j.code]; if (!P) return null;
+      const hits = [];
+      (P.sections || []).forEach((x) => x.blocks.forEach((b) => { const t = segText(b.s); if (W.every((re) => re.test(t))) hits.push({ section: x.title, block: b }); }));
+      (P.docs || []).forEach((d) => { const t = d.title + ' ' + decodeURIComponent(d.url); if (W.every((re) => re.test(t))) hits.push({ section: 'Posted documents', block: { k: 'p', d: 0, s: [[d.title, d.url]] } }); });
+      return hits.length ? { judge: j, hits } : null;
+    }).filter(Boolean);
+  }
+  const QUICK = ['Courtesy copies', 'Oral argument', 'Continuance', 'Proposed order', 'Page limit', 'Settlement', 'Pretrial', 'Exhibits', 'Jury instructions', 'Email', 'Telephone', 'Sealed'];
+  function renderRules() {
+    document.title = 'Judges\' requirements · EDLA Analyzer';
+    const q = state.rq; const data = state.data.judge_pages || {};
+    if ($('rq').value !== q) $('rq').value = q;
+    $('rq-quick').replaceChildren(...QUICK.map((t) => { const b = el('button', { type: 'button', className: 'quick', textContent: t }); b.setAttribute('aria-pressed', String(q.toLowerCase() === t.toLowerCase())); b.addEventListener('click', () => { state.rq = t; renderRules(); writeHash(); }); return b; }));
+    const box = $('rq-results');
+    if (!Object.keys(state.pages).length) { box.replaceChildren(el('p', { className: 'empty pad', textContent: 'The judges\' pages have not been read yet. The site reads them from the court\'s website each day.' })); $('rq-count').textContent = ''; }
+    else if (!words(q).length) { box.replaceChildren(el('p', { className: 'cap pad', textContent: 'Type a word or phrase, or pick one of the common searches above, to see every judge\'s exact language on it.' })); $('rq-count').textContent = ''; }
+    else {
+      const W = words(q); const re = new RegExp(W.map(wordPattern).join('|'), 'gi');
+      const res = ruleHits(q);
+      $('rq-count').textContent = res.length ? plural(res.length, 'judge') + ' · ' + plural(d3.sum(res, (r) => r.hits.length), 'passage') : '';
+      box.replaceChildren(...(res.length ? res.map(({ judge, hits }) => el('div', { className: 'rq-judge' },
+        el('div', { className: 'rq-head' }, el('a', { className: 'judge', href: judgeHref(judge.code), textContent: 'Judge ' + judge.name }), sectionOf(judge.code) ? el('span', { textContent: 'Section ' + sectionOf(judge.code) }) : null, el('span', { textContent: plural(hits.length, 'passage') })),
+        ...hits.slice(0, 8).map((h) => { const n = el('div', { className: 'rq-hit' }, el('small', {}, el('a', { href: hashFor('judge', { judge: judge.code, tab: h.section === 'Posted documents' ? '' : slug(h.section) }), textContent: h.section })), blockEl(h.block, re)); return n; }),
+        hits.length > 8 ? el('p', { className: 'foot-note' }, el('a', { href: judgeHref(judge.code), textContent: (hits.length - 8) + ' more on Judge ' + judge.name + '\'s page →' })) : null))
+        : [el('p', { className: 'empty pad', textContent: 'No judge\'s page mentions all of: ' + W.join(', ') + '. Try fewer or shorter words.' })]));
+    }
+    $('rq-checked').textContent = data.checked ? 'Checked ' + fmtDate(data.checked) : '';
+    const head = el('thead', {}, el('tr', {}, ...['Judge', 'Section', 'Requirement tabs on the page', 'Documents', 'Last change found', 'Court page'].map((c, i) => el('th', { textContent: c, className: i === 3 ? 'r' : '' }))));
+    const body = el('tbody', {}, ...judgesAlpha().map((j) => {
+      const P = state.pages[j.code];
+      const tr = el('tr', { className: 'go' }); tr.dataset.href = judgeHref(j.code);
+      tr.append(el('td', {}, el('a', { className: 'judge', href: judgeHref(j.code), textContent: j.name })),
+        el('td', { className: 'mono', textContent: sectionOf(j.code) || '—' }),
+        el('td', { className: 'wrap' }, ...(P ? (P.sections.length ? P.sections.flatMap((x, i) => [i ? ' · ' : '', el('a', { href: hashFor('judge', { judge: j.code, tab: slug(x.title) }), textContent: x.title })]) : [el('span', { className: 'dim', textContent: 'none posted' })]) : [el('span', { className: 'dim', textContent: 'not read yet' })])),
+        el('td', { className: 'num', textContent: P ? fmt.int((P.docs || []).length) : '—' }),
+        el('td', { className: 'mono', textContent: P && P.changed ? fmtShort(P.changed) : '—' }),
+        el('td', { className: 'txt' }, P && SAFE_URL.test(P.url) ? el('a', { href: P.url, target: '_blank', rel: 'noopener noreferrer', textContent: 'Open ↗' }) : ''));
+      return tr;
+    }));
+    $('t-rules').replaceChildren(head, body);
+  }
+
   // ------------------------------------------------------------ CSV export
   function csvRows(which) {
     const S = state.stats;
@@ -1005,12 +1131,18 @@
       const op = S.opinions.find((r) => r.code === j.code);
       out.push({ kind: 'Judge', label: 'Judge ' + j.name, sub: plural(op.total, 'written opinion') + ' · ' + j.code, href: judgeHref(j.code) });
     });
+    const sq = q.match(/^sec(?:tion)?\.?\s*([a-z]{1,2})$/i);
+    if (sq) judgesAlpha().filter((j) => sectionOf(j.code) === sq[1].toUpperCase()).forEach((j) => out.push({ kind: 'Section', label: 'Section ' + sq[1].toUpperCase() + ' · Judge ' + j.name, sub: 'Open the judge\'s page', href: judgeHref(j.code) }));
     const cq = caseQuery(q);
     let cases = cq ? state.cases.filter((c) => c.num === cq.num && (!cq.yy || c.yy === cq.yy)) : [];
     if (!cases.length && cq && cq.num.length >= 3) cases = state.cases.filter((c) => c.num.startsWith(cq.num) && (!cq.yy || c.yy === cq.yy));
     if (!cq && lc.length >= 3) cases = state.cases.filter((c) => c.lt.includes(lc));
     cases.slice().sort((a, b) => b.last.localeCompare(a.last)).slice(0, 6).forEach((c) => out.push({ kind: 'Case', label: el('code', { textContent: c.case }),
       sub: (c.judge ? 'Judge ' + S.names[c.judge] : 'Judge not yet known') + ' · ' + (c.title || 'case name not on file'), href: c.judge ? judgeHref(c.judge) : findHref({ q: c.case }) }));
+    if (!cq && !sq && lc.length >= 4) {
+      const n = ruleHits(q).length;
+      if (n) out.push({ kind: 'Rules', label: 'Judges\' requirements mentioning “' + q + '”', sub: plural(n, 'judge') + '\'s page' + (n === 1 ? '' : 's') + ' on the court\'s website', href: hashFor('rules', { q }) });
+    }
     out.push({ kind: 'Search', label: 'Opinions matching “' + q + '”', sub: 'Search every written opinion by party, case number, or motion', href: findHref({ q }) });
     return out;
   }
@@ -1044,7 +1176,7 @@
   }
 
   // ------------------------------------------------------------ render
-  const RENDER = { judges: renderJudges, judge: renderJudge, compare: renderCompare, opinions: renderOpinions, motions: renderMotions, court: renderCourt, log: renderLog };
+  const RENDER = { judges: renderJudges, judge: renderJudge, compare: renderCompare, opinions: renderOpinions, motions: renderMotions, rules: renderRules, court: renderCourt, log: renderLog };
   function render() {
     const S = state.stats;
     if (state.page === 'judge' && !S.names[state.judge]) state.page = 'judges';
@@ -1070,13 +1202,14 @@
   }
 
   async function load() {
-    const names = ['opinions', 'orders', 'judges', 'calendar', 'runs', 'outcomes', 'motions'];
+    const names = ['opinions', 'orders', 'judges', 'calendar', 'runs', 'outcomes', 'motions', 'judge_pages'];
     $('status').textContent = 'Loading the docket data…';
     try {
       const files = await Promise.all(names.map((n) => fetch('data/' + n + '.json', { cache: 'no-cache' })
-        .then((r) => { if (!r.ok) { if (n === 'outcomes' || n === 'motions') return []; throw new Error(n + ' ' + r.status); } return r.json(); })));
+        .then((r) => { if (!r.ok) { if (n === 'outcomes' || n === 'motions') return []; if (n === 'judge_pages') return { judges: [] }; throw new Error(n + ' ' + r.status); } return r.json(); })));
       state.data = Object.fromEntries(names.map((n, i) => [n, files[i]]));
       state.cases = buildCases(state.data);
+      state.pages = Object.fromEntries(((state.data.judge_pages || {}).judges || []).map((r) => [r.code, r]));
       $('status').textContent = '';
       readHash();  // again, now that judge names can be resolved
       update();
@@ -1118,6 +1251,8 @@
   $('mt-q').addEventListener('input', (e) => remotion({ q: e.target.value }));
   $('mt-more').addEventListener('click', () => { state.mt.limit += 200; renderMotions(); });
   document.querySelectorAll('#oc-seg button').forEach((b) => b.addEventListener('click', () => { state.ocGroup = b.dataset.g; renderCourt(); }));
+  $('t-rules').addEventListener('click', (e) => { const tr = e.target.closest('tbody tr.go'); if (tr && !e.target.closest('a,button')) location.hash = tr.dataset.href; });
+  $('rq').addEventListener('input', (e) => { state.rq = e.target.value; if (state.stats) { renderRules(); writeHash(); } });
   $('hours-judge').addEventListener('change', (e) => { state.hoursJudge = e.target.value; drawHours(); });
   document.querySelectorAll('[data-csv]').forEach((b) => b.addEventListener('click', () => downloadCsv(b.dataset.csv)));
   $('court-csv').addEventListener('click', () => downloadCsv('court'));

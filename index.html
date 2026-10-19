@@ -20,6 +20,7 @@
       <a href="#judges" data-nav="judges">Judges</a>
       <a href="#opinions" data-nav="opinions">Opinions</a>
       <a href="#motions" data-nav="motions">Motions</a>
+      <a href="#rules" data-nav="rules">Requirements</a>
       <a href="#court" data-nav="court">Court</a>
     </nav>
     <div class="omni" id="omni-top">
@@ -64,7 +65,8 @@
     <div class="jhead">
       <div>
         <p class="eyebrow"><a href="#judges">Judges</a> <span aria-hidden="true">/</span> <span id="j-crumb"></span></p>
-        <div class="jtitle"><h1 id="j-name">Judge</h1><span class="code" id="j-code"></span></div>
+        <div class="jtitle"><h1 id="j-name">Judge</h1><span class="code" id="j-section" hidden></span><span class="code" id="j-code"></span></div>
+        <p class="fullname" id="j-full"></p>
         <p class="meta" id="j-meta"></p>
       </div>
       <div class="actions">
@@ -82,6 +84,15 @@
 
     <div class="jgrid">
       <div class="stack">
+        <section class="panel rules" id="j-rules" aria-labelledby="h-rules">
+          <div class="ph"><h2 id="h-rules">Chambers and requirements</h2><a class="more-link" id="j-rules-src" target="_blank" rel="noopener noreferrer">The judge's page on the court's website ↗</a></div>
+          <div class="contact" id="j-contact"></div>
+          <div class="rtabs" id="j-rtabs" role="tablist" aria-label="The judge's requirements"></div>
+          <div class="rbody" id="j-rbody" role="tabpanel"></div>
+          <div class="docs" id="j-docs"></div>
+          <p class="foot-note pad" id="j-rules-note"></p>
+        </section>
+
         <section class="panel" aria-labelledby="h-oc">
           <div class="ph"><h2 id="h-oc">Motion outcomes</h2><div class="legend" data-legend="outcomes"></div></div>
           <div class="pb">
@@ -198,6 +209,38 @@
       <summary>How a motion is matched to a ruling</summary>
       <p>In this court a motion is set for submission on a date, and after that date it is in the judge's hands. The site records every civil motion from the court's public feed and reads each motion's submission date from the docket text. "No ruling found" means no order in the same case naming that type of motion has appeared since the motion was filed. That is a docket match, not a certainty: a motion withdrawn, decided under a different docket event, or ruled on by minute entry can still show here. <a href="methodology.html#motions">How we count</a></p>
     </details>
+  </section>
+
+  <!-- ============================================================ Requirements -->
+  <section class="page" id="page-rules" aria-labelledby="h-rules-page" hidden>
+    <div class="jhead">
+      <div>
+        <h1 id="h-rules-page">Judges' requirements</h1>
+        <p class="sub">What each judge's page on the court's website asks of counsel: chambers communication, courtroom rules, motion practice, and the standing orders and forms posted there. Search across all 16 at once.</p>
+      </div>
+    </div>
+      <div class="filters">
+        <label class="grow">Search every judge's requirements<input id="rq" type="search" placeholder="e.g. courtesy copies, oral argument, continuance" autocomplete="off"></label>
+        <span class="chip-row" id="rq-quick" aria-label="Common searches"></span>
+      </div>
+      <section class="panel">
+        <div class="ph"><h2>Matches</h2><span class="count" id="rq-count"></span></div>
+        <div id="rq-results"></div>
+      </section>
+      <section class="panel">
+        <div class="ph"><h2>Each judge's page</h2><span class="count" id="rq-checked"></span></div>
+        <div class="scroll"><table class="t" id="t-rules"></table></div>
+      </section>
+      <section class="panel">
+        <div class="ph"><h2>Court-wide rules</h2></div>
+        <div class="pb links">
+          <a href="https://www.laed.uscourts.gov/localrules/localrules.htm" target="_blank" rel="noopener noreferrer">Local Rules and General Orders ↗</a>
+          <a href="https://www.laed.uscourts.gov/cases/motions/MoHear.htm" target="_blank" rel="noopener noreferrer">Motion submission and oral argument dates ↗</a>
+          <a href="https://www.laed.uscourts.gov/forms/all-forms" target="_blank" rel="noopener noreferrer">Local forms ↗</a>
+          <a href="https://www.laed.uscourts.gov/judges-information/district-judges" target="_blank" rel="noopener noreferrer">District judges on the court's website ↗</a>
+        </div>
+      </section>
+      <p class="foot-note">Text copied from each judge's page on the court's website, including the standing orders and forms those pages link to. The court's page controls; check it before relying on anything here. <a href="methodology.html#requirements">How we copy it</a></p>
   </section>
 
   <!-- ============================================================ Court -->
