@@ -30,6 +30,7 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
+import govinfo
 from outcome_text import classify, motion_doc
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -413,8 +414,10 @@ def link_opinions(cl: CourtListener, opinions: list[dict], checks: dict, outcome
         checks[f"{o['case']}|{o['doc']}"] = today
         results = [r for r in data.get("results", []) if doc_url(r.get("absolute_url"))]
         links = max((doc_links(r) for r in results), key=len, default={})
-        if any(o.get(k) != v for k, v in links.items()):
-            o.update(links)
+        # Fill only what is missing: a PDF link or page count already found (from GovInfo, say) is kept.
+        fresh = {k: v for k, v in links.items() if not o.get(k)}
+        if fresh:
+            o.update(fresh)
             found += 1
         if o.get("pdf") and "pages" not in o:
             o["pages"] = 0  # looked up; CourtListener had no count
@@ -666,6 +669,53 @@ def main() -> int:
     complete = do_search and not cl.out_of_time and not cl.throttled
     if do_search and not complete:
         note.append("Search cut short before all new entries were read; window kept")
+
+    # --- GovInfo: opinion PDFs, page counts, and order text, ahead of CourtListener's tighter limits
+    gi_key = os.environ.get("GOVINFO_API_KEY")
+    gi_pdf = gi_read = 0
+    if gi_key:
+        try:
+            import pypdf  # noqa: F401
+        except ImportError:
+            gi_key = None
+            note.append("GovInfo skipped: pypdf not installed")
+    if gi_key:
+        gi_cache_path = DATA / "govinfo.json"
+        gi_cache = govinfo.load_cache(gi_cache_path)
+
+        def gi_needs(o: dict) -> bool:
+            """An opinion GovInfo can still help with: no PDF link, no page count, or a motion ruling with no outcome."""
+            return bool(CASE_RE.fullmatch(o.get("case", ""))) and (
+                not o.get("pdf") or not o.get("pages") or (rules_on_motion(o) and f"{o['case']}|{o['doc']}" not in outcomes))
+
+        def gi_apply(o: dict, link: str, pages: int, text: str) -> None:
+            nonlocal gi_pdf, gi_read
+            if link and not o.get("pdf"):
+                o["pdf"] = link
+                gi_pdf += 1
+            if pages and not o.get("pages"):
+                o["pages"] = pages
+            key = f"{o['case']}|{o['doc']}"
+            if text and rules_on_motion(o) and key not in outcomes:
+                # The filing date of the decided motion still comes from CourtListener's docket, so motion_doc is left
+                # unset here and the CourtListener pass completes time to ruling as its budget allows.
+                set_outcome(outcomes, o, classify(text, o.get("event", ""), o.get("r12", 0), o.get("r56", 0), "order") or "unclear",
+                            "govinfo_text", today)
+                gi_read += 1
+
+        gi = govinfo.GovInfo(gi_key, http_get, min(cl.deadline, time.monotonic() + 6 * 60), log)
+        log("reading opinions from GovInfo")
+        stats = govinfo.backfill(gi, opinions, gi_needs, gi_cache, gi_apply, today)
+        govinfo.save_cache(gi_cache_path, gi_cache)
+        log(f"GovInfo: {stats['cases']} cases, {stats['read']} PDFs read, {stats['matched']} matched; {gi.api_calls} API calls")
+        if gi_pdf:
+            note.append(f"{gi_pdf} PDF links from GovInfo")
+        if gi_read:
+            note.append(f"{gi_read} orders read from GovInfo")
+        note.append(f"GovInfo {gi.api_calls} calls, {gi.pdfs} PDFs" + (f" (stopped: {gi.stopped})" if gi.stopped else ""))
+        note.extend(sorted(set(gi.errors)))
+    else:
+        note.append("No GovInfo key; GovInfo skipped")
 
     # --- CourtListener addresses for opinions already in the data
     linked, read = link_opinions(cl, opinions, link_checks, outcomes, today) if cl.token else (0, 0)

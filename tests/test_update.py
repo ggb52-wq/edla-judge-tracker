@@ -274,6 +274,77 @@ class UpdateTest(unittest.TestCase):
         through = next(r for r in json.loads((self.tmp / "data/calendar.json").read_text()) if r["kind"] == "through")["date"]
         self.assertEqual(through, before)
 
+    def test_govinfo_backfill(self):
+        # GovInfo has case 2:26-cv-01880 with two opinions; the newer one (Document 6) is the row the data needs.
+        calls = []
+
+        def gi_get(url, headers=None, timeout=45):
+            calls.append((url, dict(headers or {})))
+            if url.startswith("https://api.govinfo.gov/packages/USCOURTS-laed-2_26-cv-01880/granules"):
+                return json.dumps({"count": 2, "nextPage": None, "granules": [
+                    {"granuleId": "USCOURTS-laed-2_26-cv-01880-0"}, {"granuleId": "USCOURTS-laed-2_26-cv-01880-1"}]}).encode()
+            if url.startswith("https://api.govinfo.gov/packages/"):
+                raise urllib.error.HTTPError(url, 404, "Not Found", {}, None)
+            if url.endswith("USCOURTS-laed-2_26-cv-01880-1.pdf"):
+                return make_pdf(["Case 2:26-cv-01880-GGG-JVM Document 6 Filed 10/16/26 Page 1 of 1",
+                                 "Accordingly, IT IS ORDERED that the Motion to Dismiss R. Doc. 4 is GRANTED."])
+            if url.endswith("USCOURTS-laed-2_26-cv-01880-0.pdf"):
+                return make_pdf(["Case 2:26-cv-01880-GGG-JVM Document 2 Filed 09/01/26 Page 1 of 1", "ORDER"])
+            return fake_get(url, headers, timeout)
+        env = {**ENV, "GOVINFO_API_KEY": "gov-key"}
+        with mock.patch.object(update, "DATA", self.tmp / "data"), mock.patch.object(update, "http_get", gi_get), \
+             mock.patch.object(update.time, "sleep", lambda s: None), mock.patch.dict("os.environ", env):
+            update.main()
+        opinions = {(o["case"], o["doc"]): o for o in json.loads((self.tmp / "data/opinions.json").read_text())}
+        row = opinions[("2:26-cv-01880", "6")]
+        self.assertTrue(row["pdf"].startswith("https://www.govinfo.gov/content/pkg/USCOURTS-laed-2_26-cv-01880/pdf/"))
+        self.assertEqual(row["pages"], 1)
+        outcome = {(r["case"], r["doc"]): r for r in json.loads((self.tmp / "data/outcomes.json").read_text())}[("2:26-cv-01880", "6")]
+        self.assertEqual((outcome["outcome"], outcome["src"]), ("granted", "govinfo_text"))
+        self.assertEqual(outcome.get("motion_doc"), "4")                   # filled in afterward by the CourtListener pass
+        cache = json.loads((self.tmp / "data/govinfo.json").read_text())
+        self.assertEqual(cache["granules"]["USCOURTS-laed-2_26-cv-01880-1"]["doc"], "6")
+        self.assertNotIn("USCOURTS-laed-2_26-cv-01880-0", cache["granules"])  # newest first; stopped once found
+        gov = [(u, h) for u, h in calls if "govinfo.gov" in u]
+        self.assertTrue(all("gov-key" not in u for u, _ in gov))           # the key never appears in a URL
+        self.assertTrue(all(h.get("X-Api-Key") == "gov-key" for u, h in gov if "api.govinfo.gov" in u))
+        run = json.loads((self.tmp / "data/runs.json").read_text())[-1]
+        self.assertIn("orders read from GovInfo", run["note"])
+
+    def test_no_govinfo_key(self):
+        with mock.patch.object(update, "DATA", self.tmp / "data"), mock.patch.object(update, "http_get", fake_get), \
+             mock.patch.object(update.time, "sleep", lambda s: None), mock.patch.dict("os.environ", ENV):
+            update.main()
+        self.assertIn("No GovInfo key", json.loads((self.tmp / "data/runs.json").read_text())[-1]["note"])
+
+
+class GovInfoTest(unittest.TestCase):
+    def test_stamp(self):
+        import govinfo
+        self.assertEqual(govinfo.read_stamp("Case 2:23-cv-00931-BSL-JVM Document 99 Filed 01/12/26 Page 1 of 9"), ("99", "2026-01-12"))
+        self.assertEqual(govinfo.read_stamp("Case 2:23-cv-00931 Document 99-1 Filed 01/12/26"), ("", ""))   # an attachment
+        self.assertEqual(govinfo.package_id("2:23-cv-00931"), "USCOURTS-laed-2_23-cv-00931")
+        self.assertEqual(govinfo.pdf_link("USCOURTS-laed-2_23-cv-00931-3"),
+                         "https://www.govinfo.gov/content/pkg/USCOURTS-laed-2_23-cv-00931/pdf/USCOURTS-laed-2_23-cv-00931-3.pdf")
+        self.assertEqual(govinfo.pdf_link("USCOURTS-laed-../../x-1"), "")
+        text, pages = govinfo.pdf_text(make_pdf(["Case 2:26-cv-00001-EEF Document 12 Filed 03/04/26 Page 1 of 1"]))
+        self.assertEqual((govinfo.read_stamp(text), pages), (("12", "2026-03-04"), 1))
+
+
+def make_pdf(lines):
+    """A one-page PDF with these lines of text (no parentheses or backslashes in them)."""
+    content = "BT /F1 10 Tf 40 760 Td 14 TL " + " ".join(f"({line}) Tj T*" for line in lines) + " ET"
+    objs = ["<< /Type /Catalog /Pages 2 0 R >>", "<< /Type /Pages /Kids [3 0 R] /Count 1 >>",
+            "<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>",
+            f"<< /Length {len(content)} >>\nstream\n{content}\nendstream", "<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>"]
+    out, offsets = b"%PDF-1.4\n", []
+    for i, o in enumerate(objs, 1):
+        offsets.append(len(out))
+        out += f"{i} 0 obj\n{o}\nendobj\n".encode()
+    xref = len(out)
+    out += f"xref\n0 {len(objs) + 1}\n0000000000 65535 f \n".encode() + b"".join(f"{o:010d} 00000 n \n".encode() for o in offsets)
+    return out + f"trailer\n<< /Size {len(objs) + 1} /Root 1 0 R >>\nstartxref\n{xref}\n%%EOF\n".encode()
+
 
 class OutcomeTextTest(unittest.TestCase):
     def test_classify(self):

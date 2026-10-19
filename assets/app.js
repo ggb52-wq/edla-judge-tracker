@@ -53,7 +53,7 @@
     : f === 'rest' ? ['mixed', 'moot', 'other'].includes(o.oc) : (f === 'granted' || f === 'denied') ? family(o.oc) === f : o.oc === f);
   const OC_SEGS = [['granted', 'Granted'], ['partial', 'Granted in part'], ['denied', 'Denied'], ['rest', 'Mixed, moot, or other']];
   const ocColor = (v) => css('--o-' + (['granted', 'partial', 'denied'].includes(family(v)) ? family(v) : 'other'));
-  const OC_SRC = { manual: 'entered by hand', docket_text: 'read from the docket text', opinion_text: 'read from the order' };
+  const OC_SRC = { manual: 'entered by hand', docket_text: 'read from the docket text', opinion_text: 'read from the order', govinfo_text: 'read from the order (GovInfo copy)' };
   const FEW = 5;
   const GROUPS = { r12: 'Rule 12', r56: 'Rule 56', all: 'All motions' };
   const inGroup = (o, g) => isMotion(o) && (g === 'all' || Number(o[g]) === 1);
@@ -61,12 +61,13 @@
   // Links go only to CourtListener: the opinion's PDF, else its docket-entry page, else a search by case number.
   const CL = 'https://www.courtlistener.com/';
   const CL_PDF = 'https://storage.courtlistener.com/recap/';
+  const GOV_PDF = 'https://www.govinfo.gov/content/pkg/USCOURTS-laed-';
   const REPO = 'https://github.com/ggb52-wq/edla-judge-tracker';
-  const linkKind = (o) => (typeof o.pdf === 'string' && o.pdf.startsWith(CL_PDF) ? 'pdf'
+  const linkKind = (o) => (typeof o.pdf === 'string' && (o.pdf.startsWith(CL_PDF) || o.pdf.startsWith(GOV_PDF)) ? 'pdf'
     : typeof o.url === 'string' && o.url.startsWith(CL + 'docket/') ? 'page' : 'search');
   const opinionLink = (o, kind) => (kind === 'pdf' ? o.pdf : kind === 'page' ? o.url
     : CL + '?type=r&court=laed&docket_number=' + encodeURIComponent(o.case));
-  const linkTitle = { pdf: 'Open this opinion (PDF, CourtListener)', page: 'Open this docket entry on CourtListener', search: 'Search CourtListener for this case' };
+  const linkTitle = { pdf: 'Open this opinion (PDF)', page: 'Open this docket entry on CourtListener', search: 'Search CourtListener for this case' };
   const recordLink = (o) => REPO + '/issues/new?template=outcome.yml&title=' + encodeURIComponent('Outcome: ' + o.case + ' doc ' + o.doc)
     + '&case=' + encodeURIComponent(o.case) + '&doc=' + encodeURIComponent(o.doc);
 
