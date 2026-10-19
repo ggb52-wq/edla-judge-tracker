@@ -99,6 +99,7 @@ class UpdateTest(unittest.TestCase):
         (self.tmp / "data/opinions.json").write_text(json.dumps(opinions))
         (self.tmp / "data/link_checks.json").write_text("{}\n")
         (self.tmp / "data/outcomes.json").write_text("[\n\n]\n")
+        (self.tmp / "data/feed.json").unlink(missing_ok=True)
         (self.tmp / "data/govinfo.json").unlink(missing_ok=True)
         # Nor the live run log's CourtListener budget, pauses, or pending items.
         runs = [{k: v for k, v in r.items() if k not in ("cl_calls", "cl_paused_until", "searched", "pending_items")}
@@ -278,6 +279,25 @@ class UpdateTest(unittest.TestCase):
         self.assertGreater(run["cl_calls"], 0)                              # lookups still ran
         through = next(r for r in json.loads((self.tmp / "data/calendar.json").read_text()) if r["kind"] == "through")["date"]
         self.assertEqual(through, before)
+
+    def test_feed(self):
+        # Every civil RSS entry is kept for the Activity page, newest first, once each, for FEED_DAYS days.
+        old = {"at": "2026-09-01T09:00-05:00", "case": "2:26-cv-00001", "doc": "1", "event": "Complaint", "title": "Old v. Case", "judge": ""}
+        (self.tmp / "data/feed.json").write_text(json.dumps([old]))
+        keep_days = (update.dt.date.today() - update.dt.date(2026, 9, 15)).days   # a window that holds the fixture's Oct. 19 entries
+        for _ in range(2):
+            with mock.patch.object(update, "DATA", self.tmp / "data"), mock.patch.object(update, "http_get", fake_get), \
+                 mock.patch.object(update.time, "sleep", lambda s: None), mock.patch.dict("os.environ", ENV), \
+                 mock.patch.object(update, "FEED_DAYS", keep_days):
+                update.main()
+        feed = json.loads((self.tmp / "data/feed.json").read_text())
+        self.assertEqual([(r["case"], r["doc"]) for r in feed],
+                         [("2:26-cv-09002", "22"), ("2:26-cv-09001", "14"), ("2:26-cv-09001", "16"), ("2:26-cv-09001", "15")])
+        self.assertEqual(feed[0], {"at": "2026-10-19T10:06-05:00", "case": "2:26-cv-09002", "doc": "22", "event": "Continue",
+                                   "title": "Gamma v. Delta", "judge": "JTM"})          # judge learned from CourtListener
+        self.assertEqual(feed[1]["judge"], "BSL")                                      # judge from earlier orders
+        self.assertEqual(feed[2]["event"], "Response/Memorandum in Opposition to Motion")
+        self.assertNotIn("2:26-cv-00001", json.dumps(feed))                            # older than FEED_DAYS: dropped
 
     def test_pending_items_unique(self):
         # An RSS item still pending from the last run appears once, not once per run.

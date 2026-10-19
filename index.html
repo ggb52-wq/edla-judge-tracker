@@ -18,6 +18,7 @@
     <a class="brand" href="#judges" aria-label="EDLA Analyzer home"><span class="brand-mark">EDLA</span><span class="brand-name">Analyzer</span></a>
     <nav class="nav" aria-label="Sections">
       <a href="#judges" data-nav="judges">Judges</a>
+      <a href="#activity" data-nav="activity">Activity</a>
       <a href="#opinions" data-nav="opinions">Opinions</a>
       <a href="#motions" data-nav="motions">Motions</a>
       <a href="#rules" data-nav="rules">Requirements</a>
@@ -56,6 +57,10 @@
     <p class="notice">Independent project, not affiliated with the court. Not legal advice. Counts come from automated reading of public records and can be wrong; check the docket before relying on one. <a href="methodology.html">How we count</a></p>
     <div class="recent" id="recent" hidden></div>
     <div class="kpis five" id="court-kpis" aria-label="Court figures"></div>
+    <section class="panel" aria-labelledby="h-latest-home">
+      <div class="ph"><h2 id="h-latest-home">Latest on the docket</h2><a class="more-link" href="#activity">All docket activity →</a></div>
+      <ol class="act compact" id="home-act"></ol>
+    </section>
     <div class="cards-head"><h2>District judges · alphabetical</h2><div class="legend" data-legend="outcomes-short"></div></div>
     <div class="cards" id="cards"></div>
   </section>
@@ -119,6 +124,11 @@
           </div>
         </section>
 
+        <section class="panel" aria-labelledby="h-jact">
+          <div class="ph"><h2 id="h-jact">Recent docket activity</h2><a class="more-link" id="j-act-all" href="#activity">All activity in this judge's cases →</a></div>
+          <ol class="act compact" id="j-act"></ol>
+        </section>
+
         <section class="panel" aria-labelledby="h-jm">
           <div class="ph"><h2 id="h-jm">Submitted motions</h2><a class="more-link" id="j-motions-all" href="#motions">All submitted motions →</a></div>
           <div class="pb" id="j-motions"></div>
@@ -155,6 +165,28 @@
       <div class="scroll"><table class="t cmp" id="cmp-table"></table></div>
     </section>
     <p class="foot-note">The "All judges" column gives the median judge for rates and counts, and outcomes pooled across all 16 judges for motion outcomes. Outcome shares count only rulings whose outcome has been coded; "n" is how many that is. <a href="methodology.html#compare">How we count</a></p>
+  </section>
+
+  <!-- ============================================================ Activity -->
+  <section class="page" id="page-activity" aria-labelledby="h-activity" hidden>
+    <div class="jhead">
+      <div>
+        <h1 id="h-activity">Docket activity</h1>
+        <p class="sub">Every civil entry from the court's public docket feed, newest first, with the case, the judge, and what was filed or entered. Orders and written opinions link to the document where a free copy exists.</p>
+      </div>
+      <div class="actions"><span class="live-note" id="act-live"></span><button type="button" class="btn" data-csv="act">Export CSV</button></div>
+    </div>
+    <div class="filters">
+      <label class="grow">Search<input id="act-q" type="search" placeholder="Party, case number, or event" autocomplete="off"></label>
+      <label>Judge<select id="act-judge"></select></label>
+      <label>Show<select id="act-days"><option value="1">Latest day</option><option value="3">Last 3 days</option><option value="7">Last 7 days</option><option value="14">Last 14 days</option></select></label>
+    </div>
+    <div class="chip-row kinds" id="act-kinds" role="group" aria-label="Entry type"></div>
+    <section class="panel">
+      <ol class="act" id="act-list"></ol>
+      <button type="button" class="btn more" id="act-more" hidden>Show more</button>
+    </section>
+    <p class="foot-note" id="act-note"></p>
   </section>
 
   <!-- ============================================================ Opinions -->

@@ -37,6 +37,8 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 CENTRAL = ZoneInfo("America/Chicago")
 RSS_URL = "https://ecf.laed.uscourts.gov/cgi-bin/rss_outside.pl"
+FEED_DAYS = 14          # how far back data/feed.json keeps the RSS feed
+FEED_MAX = 6000         # and at most this many entries
 CL_BASE = "https://www.courtlistener.com/api/rest/v4/"
 USER_AGENT = "edla-judge-tracker (github.com/ggb52-wq/edla-judge-tracker)"
 CL_SITE = "https://www.courtlistener.com"
@@ -288,10 +290,34 @@ def fetch_rss(note: list[str]) -> list[dict]:
             when = None
         items.append({
             "case": case, "kind": kind, "title": title[len(case):].strip()[:70] if case else title[:70],
+            "name": title[len(case):].strip()[:200] if case else title[:200],
             "event": bracket.group(1).strip() if bracket else "", "doc": doc.group(1) if doc else "",
             "when": when,
         })
     return items
+
+
+def update_feed(feed: list[dict], items: list[dict], case_judge: dict, now: dt.datetime) -> list[dict]:
+    """The feed itself, kept for the site's Activity page: every civil entry the RSS feed showed in the last FEED_DAYS
+    days, newest first, with its time, case, document number, event, case name, and the judge once the case's judge is
+    known. The feed shows only its latest entries, so this copy is what lets the site look back a couple of weeks."""
+    seen = {(r["case"], r["doc"], r["event"], r["at"]) for r in feed}
+    for i in items:
+        if not i.get("when") or not i.get("case"):
+            continue
+        row = {"at": i["when"].isoformat(timespec="minutes"), "case": i["case"], "doc": i["doc"], "event": i["event"],
+               "title": i.get("name") or i["title"], "judge": case_judge.get(i["case"], "")}
+        key = (row["case"], row["doc"], row["event"], row["at"])
+        if key not in seen:
+            seen.add(key)
+            feed.append(row)
+    floor = (now - dt.timedelta(days=FEED_DAYS)).isoformat(timespec="minutes")
+    feed = [r for r in feed if r["at"] >= floor]
+    for r in feed:  # judges learned since the entry was seen
+        if not r.get("judge") and case_judge.get(r["case"]):
+            r["judge"] = case_judge[r["case"]]
+    feed.sort(key=lambda r: (r["at"], r["case"], int(r["doc"]) if r["doc"].isdigit() else 0), reverse=True)
+    return feed[:FEED_MAX]
 
 
 def doc_url(path: str | None) -> str:
@@ -763,6 +789,7 @@ def main() -> int:
     save("outcomes", sorted(outcomes.values(), key=lambda r: (r["case"], int(r["doc"]) if r["doc"].isdigit() else 0)))
     motions.sort(key=lambda m: (m["date"], m["case"], int(m["doc"]) if m["doc"].isdigit() else 0))
     save("motions", motions)
+    save("feed", update_feed(load("feed") if (DATA / "feed.json").exists() else [], rss_civil, case_judge, now))
     (DATA / "link_checks.json").write_text(json.dumps(dict(sorted(link_checks.items())), indent=0) + "\n")
     print(f"orders +{len(added_orders)}, opinions +{len(added_opinions)}, pending {len(new_pending)}; " + "; ".join(note))
     return 0
