@@ -34,6 +34,7 @@
       <button class="tab" role="tab" id="tab-opinions" aria-controls="opinions" data-tab="opinions">Opinions</button>
       <button class="tab" role="tab" id="tab-outcomes" aria-controls="outcomes" data-tab="outcomes">Outcomes</button>
       <button class="tab" role="tab" id="tab-finder" aria-controls="finder" data-tab="finder">Opinion finder<span class="n" id="n-finder"></span></button>
+      <button class="tab" role="tab" id="tab-motions" aria-controls="motions" data-tab="motions">Submitted motions<span class="n" id="n-motions"></span></button>
       <button class="tab" role="tab" id="tab-log" aria-controls="log" data-tab="log">Update log</button>
     </div>
     <div class="filters">
@@ -185,6 +186,28 @@
       </div>
       <div class="scroll tall"><table id="recent-table"></table></div>
       <button type="button" class="btn more" id="op-more" hidden>Show more</button>
+    </div>
+  </section>
+
+  <!-- ============================================================ Submitted motions -->
+  <section class="sheet" id="motions" role="tabpanel" aria-labelledby="tab-motions" hidden>
+    <p class="question">Which motions are past their submission date with no ruling on the docket yet?</p>
+    <div class="card">
+      <div class="card-head"><h2 id="mt-title">Submitted motions</h2><div class="actions"><button type="button" class="btn quiet" data-csv="mt-table">Export CSV</button></div></div>
+      <p class="note">In this court a motion is set for submission on a date, and after that date it is in the judge's hands. The site records every civil motion from the court's public feed since <span id="mt-since">—</span> and reads each motion's submission date from the docket text; motions filed before that date are not here. "No ruling found" means no order in the same case naming that type of motion has appeared since the motion was filed. That is a docket match, not a certainty: a motion withdrawn, decided under a different docket event, or ruled on by a minute entry can still show here. Motions whose submission date has not been read yet are listed without one.</p>
+      <div class="facts" id="mt-facts"></div>
+      <div class="finder" style="margin-top:12px">
+        <label>Show <select id="mt-view"><option value="past">Past submission, no ruling found</option><option value="pending">All awaiting a ruling</option><option value="all">All motions on file</option></select></label>
+        <label>Search <input id="mt-q" type="search" placeholder="Case name, number, or motion" autocomplete="off"></label>
+        <span class="status" id="mt-count"></span>
+      </div>
+      <div class="scroll tall"><table id="mt-table"></table></div>
+      <button type="button" class="btn more" id="mt-more" hidden>Show more</button>
+    </div>
+    <div class="card">
+      <div class="card-head"><h2>By judge</h2><div class="actions"><button type="button" class="btn quiet" data-csv="mj-table">Export CSV</button></div></div>
+      <p class="note">Counts of the motions above, per judge. Motions in cases whose judge the site has not yet seen are counted under "Judge not yet known."</p>
+      <div class="scroll"><table id="mj-table"></table></div>
     </div>
   </section>
 
