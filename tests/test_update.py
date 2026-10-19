@@ -193,6 +193,18 @@ class UpdateTest(unittest.TestCase):
                          {"url": "https://www.courtlistener.com/docket/1/2/a/"})
 
 
+    def test_long_throttle_stops_calls(self):
+        def throttled_get(url, headers=None, timeout=45):
+            if url.startswith(update.RSS_URL):
+                return RSS
+            raise urllib.error.HTTPError(url, 429, "Too Many Requests", {"Retry-After": "3600"}, None)
+        with mock.patch.object(update, "DATA", self.tmp / "data"), mock.patch.object(update, "http_get", throttled_get), \
+             mock.patch.object(update.time, "sleep", lambda s: None), mock.patch.dict("os.environ", {"COURTLISTENER_TOKEN": "x"}):
+            update.main()
+        runs = json.loads((self.tmp / "data/runs.json").read_text())
+        self.assertIn("CourtListener throttled (retry after 3600s)", runs[-1]["note"])
+        self.assertIn("CourtListener 1 calls", runs[-1]["note"])                # one refusal ends the run's calls
+
 
 class OutcomeTextTest(unittest.TestCase):
     def test_classify(self):
