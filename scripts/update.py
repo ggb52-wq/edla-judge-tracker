@@ -112,6 +112,30 @@ def opinion_flags(description: str) -> dict:
 
 CASE_RE = re.compile(r"(\d:\d\d-([a-z]{2})-\d{5})")
 
+# A motion's own docket entry: "Motion to Dismiss", "Ex Parte/Consent Motion for Extension", "Joint Motion to Continue".
+# Responses, replies, orders, and notices that mention a motion are not motions.
+MOTION_EVENT_RE = re.compile(r"^(?:[\w./-]+\s){0,2}motion\s+(?:to|for|in)\b", re.I)
+NOT_MOTION_RE = re.compile(r"response|reply|opposition|order|notice|memorand", re.I)
+# EDLA docket text: "Motion(s) will be submitted on 11/4/2026" or "set for submission on 11/4/2026".
+SUBMISSION_RE = re.compile(r"submi(?:tted|ssion)\s+(?:on\s+)?(\d{1,2})/(\d{1,2})/(\d{2,4})", re.I)
+
+
+def is_motion_event(event: str) -> bool:
+    return bool(MOTION_EVENT_RE.match(event or "")) and not NOT_MOTION_RE.search(event or "")
+
+
+def submission_date(text: str) -> str:
+    """The submission date named in a motion's docket text, as YYYY-MM-DD, or ""."""
+    m = SUBMISSION_RE.search(text or "")
+    if not m:
+        return ""
+    mo, d, y = (int(x) for x in m.groups())
+    y = y + 2000 if y < 100 else y
+    try:
+        return dt.date(y, mo, d).isoformat()
+    except ValueError:
+        return ""
+
 
 def base_case(text: str) -> tuple[str, str]:
     m = CASE_RE.search(text or "")
@@ -523,6 +547,47 @@ def main() -> int:
                              "src": "courtlistener"})
         order_keys.add(key)
 
+    # --- Motions from the RSS feed (no API cost). The feed shows the event type, case, and document number;
+    # the submission date comes later from CourtListener's docket text when a search runs.
+    motions = load("motions") if (DATA / "motions.json").exists() else []
+    motion_keys = {(m["case"], m["doc"]) for m in motions}
+    added_motions = 0
+    for i in rss_civil:
+        key = (i["case"], i["doc"])
+        if not i["doc"] or key in motion_keys or not is_motion_event(i["event"]):
+            continue
+        motions.append({"date": i["when"].date().isoformat() if i["when"] else today,
+                        "time": i["when"].strftime("%H:%M") if i["when"] else "", "judge": case_judge.get(i["case"], ""),
+                        "case": i["case"], "doc": i["doc"], "title": i["title"], "event": i["event"], "submit": "", "src": "rss"})
+        motion_keys.add(key)
+        added_motions += 1
+    # Submission dates and motions the feed missed, from CourtListener's docket text (one or two calls per search).
+    if do_search:
+        for r in cl.paged("search/", {"type": "rd", "court": "laed", "q": "short_description:motion",
+                                       "entry_date_filed_after": window_from, "entry_date_filed_before": today}, limit_pages=3):
+            case, kind = base_case(r.get("docketNumber", ""))
+            doc = str(r.get("document_number") or r.get("entry_number") or "")
+            event = (r.get("short_description") or "").strip()
+            if kind != "cv" or not doc or not is_motion_event(event):
+                continue
+            judge = judge_code(r.get("assignedTo")) or case_judge.get(case, "")
+            if judge:
+                case_judge.setdefault(case, judge)
+            key = (case, doc)
+            if key not in motion_keys:
+                motions.append({"date": r.get("entry_date_filed") or today, "time": "", "judge": judge, "case": case, "doc": doc,
+                                "title": (r.get("caseName") or "")[:70], "event": event, "submit": "", "src": "courtlistener"})
+                motion_keys.add(key)
+                added_motions += 1
+            m = next(x for x in motions if (x["case"], x["doc"]) == key)
+            if not m.get("submit"):
+                m["submit"] = submission_date(r.get("description") or "")
+    for m in motions:  # judges learned since the motion was seen
+        if not m.get("judge") and case_judge.get(m["case"]):
+            m["judge"] = case_judge[m["case"]]
+    if added_motions:
+        note.append(f"{added_motions} motions added")
+
     # --- RSS-only items
     new_pending = []
     for i in rss_civil + [{"case": p["case"], "kind": "cv", "doc": p["doc"], "event": p["bracket"],
@@ -645,6 +710,8 @@ def main() -> int:
     save("calendar", calendar)
     save("runs", runs)
     save("outcomes", sorted(outcomes.values(), key=lambda r: (r["case"], int(r["doc"]) if r["doc"].isdigit() else 0)))
+    motions.sort(key=lambda m: (m["date"], m["case"], int(m["doc"]) if m["doc"].isdigit() else 0))
+    save("motions", motions)
     (DATA / "link_checks.json").write_text(json.dumps(dict(sorted(link_checks.items())), indent=0) + "\n")
     print(f"orders +{len(added_orders)}, opinions +{len(added_opinions)}, pending {len(new_pending)}; " + "; ".join(note))
     return 0

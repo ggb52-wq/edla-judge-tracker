@@ -70,10 +70,10 @@
   const recordLink = (o) => REPO + '/issues/new?template=outcome.yml&title=' + encodeURIComponent('Outcome: ' + o.case + ' doc ' + o.doc)
     + '&case=' + encodeURIComponent(o.case) + '&doc=' + encodeURIComponent(o.doc);
 
-  const TABS = ['overview', 'orders', 'opinions', 'outcomes', 'finder', 'log'];
+  const TABS = ['overview', 'orders', 'opinions', 'outcomes', 'finder', 'motions', 'log'];
   const emptyFinder = () => ({ q: '', type: '', oc: '', pdf: false, month: '' });
   const state = { tab: 'overview', selected: store.get('edla-judge') || '', compare: [], period: '', bars: store.get('edla-bars') !== '0',
-    ocGroup: 'r12', finder: emptyFinder(), finderLimit: 100, pl: { q: '', type: '' }, editor: false, data: null, stats: null };
+    ocGroup: 'r12', finder: emptyFinder(), finderLimit: 100, pl: { q: '', type: '' }, mt: { view: 'past', q: '', limit: 100 }, editor: false, data: null, stats: null };
   const editorParam = new URLSearchParams(location.search).get('editor');
   if (editorParam === '1' || editorParam === '0') store.set('edla-editor', editorParam);
   state.editor = store.get('edla-editor') === '1';
@@ -189,12 +189,38 @@
     orders.forEach((r) => { r.spark = weekly.map((w) => w[r.code]); });
 
     const recent = opRows.slice().sort((a, b) => (b.date + b.case + b.doc).localeCompare(a.date + a.case + a.doc));
+
+    // Submitted motions: each motion from the feed, with the first later order or opinion in the same case that names
+    // the same type of motion (or an outcome that cites the motion's docket number) taken as its ruling.
+    const motionCore = (e) => (e || '').replace(/^.*?\bmotion\b/i, 'motion').toLowerCase().trim();
+    const byCase = {};
+    const addRuling = (o, kind) => { if (/\bmotion\b/i.test(o.event || '')) (byCase[o.case] = byCase[o.case] || []).push({ date: o.date, event: (o.event || '').toLowerCase(), kind }); };
+    D.orders.forEach((o) => addRuling(o, 'order'));
+    D.opinions.forEach((o) => addRuling(o, 'opinion'));
+    const cited = new Set((D.outcomes || []).filter((r) => r.motion_doc).map((r) => r.case + '|' + r.motion_doc));
+    const citedDate = Object.fromEntries((D.outcomes || []).filter((r) => r.motion_doc).map((r) => [r.case + '|' + r.motion_doc, (D.opinions.find((o) => o.case === r.case && o.doc === r.doc) || {}).date || '']));
+    const motions = (D.motions || []).filter((m) => (!m.judge || names[m.judge]) && m.date <= through && (!floor || m.date >= floor)).map((m) => {
+      const core = motionCore(m.event);
+      let ruled = '';
+      if (cited.has(m.case + '|' + m.doc)) ruled = citedDate[m.case + '|' + m.doc] || m.date;
+      else { const hit = (byCase[m.case] || []).filter((r) => r.date >= m.date && r.event.includes(core)).sort((a, b) => a.date.localeCompare(b.date))[0]; if (hit) ruled = hit.date; }
+      const past = !!m.submit && m.submit < through && !ruled;
+      return { ...m, core, ruled, past, daysPast: past ? daysBetween(m.submit, through) : null, daysToRule: ruled ? daysBetween(m.date, ruled) : null };
+    }).sort((a, b) => (b.daysPast || -1) - (a.daysPast || -1) || b.date.localeCompare(a.date));
+    const motionsSince = (D.motions || []).reduce((s, m) => (s && s < m.date ? s : m.date), '');
+    const byJudge = [...D.judges.map((j) => ({ name: j.name, code: j.code })), { name: 'Judge not yet known', code: '' }].map((j) => {
+      const M = motions.filter((m) => m.judge === j.code);
+      const P = M.filter((m) => m.past);
+      return { ...j, seen: M.length, dated: M.filter((m) => m.submit).length, awaiting: M.filter((m) => !m.ruled).length, past: P.length,
+        med_past: P.length ? median(P.map((m) => m.daysPast)) : 0, ruled: M.filter((m) => m.ruled).length };
+    }).filter((j) => j.code || j.seen);
     const sum = (rows, k) => d3.sum(rows, (r) => r[k]);
     // A court median of grant rates is shown only when at least three judges each have FEW or more coded outcomes.
     const rate = (r, cat) => (r.cats[cat].known >= FEW ? r.cats[cat].granted / r.cats[cat].known : null);
     const medOf = (vals, min = 1) => { const v = vals.filter((x) => x != null); return v.length >= min ? median(v) : null; };
     return {
       through, names, opinions, orders, weekly, recent, monthly, hours, since: { orders: orStart, opinions: opStart }, workingDays: allDays.length,
+      motions, motionsSince, motionsByJudge: byJudge,
       totals: {
         orders: sum(orders, 'orders'), perDay: allDays.length ? sum(orders, 'orders') / allDays.length : 0,
         opinions: sum(opinions, 'total'), merits: sum(opinions, 'merits'), motions: sum(opinions, 'all_n'), known: sum(opinions, 'all_known'),
@@ -258,6 +284,15 @@
       { k: 'name', label: 'Judge' },
       ...[['mon', 'Mon'], ['tue', 'Tue'], ['wed', 'Wed'], ['thu', 'Thu'], ['fri', 'Fri']].map(([k, label]) => ({ k, label, f: fmt.pct0, heat: true })),
     ] },
+    'mj-table': { src: 'motionsByJudge', sort: { k: 'past', dir: -1 }, pick: true, noMedian: true, cols: [
+      { k: 'name', label: 'Judge' },
+      { k: 'seen', label: 'Motions seen', f: fmt.int, sum: true, title: 'Civil motions recorded from the feed' },
+      { k: 'dated', label: 'With date', f: fmt.int, sum: true, title: 'Motions whose submission date has been read from the docket text' },
+      { k: 'ruled', label: 'Ruling found', f: fmt.int, sum: true, title: 'Motions matched to a later order or opinion in the same case' },
+      { k: 'awaiting', label: 'Awaiting', f: fmt.int, sum: true, title: 'Motions with no ruling found yet, whether or not past submission' },
+      { k: 'past', label: 'Past submission', f: fmt.int, bar: true, sum: true, title: 'Past the submission date with no ruling found' },
+      { k: 'med_past', label: 'Median days past', f: (v) => (v ? fmt.med(v) : '—'), title: 'Median days since the submission date, for motions past it' },
+    ] },
     'oc-table': { src: 'opinions', sort: { k: 'name', dir: 1 }, pick: true, noMedian: true, cols: [
       { k: 'name', label: 'Judge', group: '' }, ...ocCols('r12', 'Rule 12 rulings'), ...ocCols('r56', 'Rule 56 rulings'), ...ocCols('all', 'All motion rulings'),
     ] },
@@ -304,7 +339,7 @@
       return th;
     })));
     const body = el('tbody', {}, ...rows.map((r) => {
-      const tr = el('tr', { className: (t.pick ? 'pickable' : '') + (r.code === state.selected ? ' sel' : '') }); tr.dataset.code = r.code;
+      const tr = el('tr', { className: (t.pick && r.code ? 'pickable' : '') + (state.selected && r.code === state.selected ? ' sel' : '') }); tr.dataset.code = r.code;
       t.cols.forEach((c) => {
         const td = el('td', { className: c.gstart ? 'gstart' : '' });
         if (c.spark) td.append(sparkline(r.spark));
@@ -332,7 +367,7 @@
         s.dir = s.k === k ? -s.dir : (k === 'name' ? 1 : -1); s.k = k; drawTable(id); return;
       }
       const tr = e.target.closest('tbody tr[data-code]');
-      if (tr && TABLES[id].pick && !e.target.closest('a,button')) select(tr.dataset.code === state.selected ? '' : tr.dataset.code);
+      if (tr && tr.dataset.code && TABLES[id].pick && !e.target.closest('a,button')) select(tr.dataset.code === state.selected ? '' : tr.dataset.code);
     });
   }
 
@@ -342,6 +377,10 @@
       const head = ['Date', 'Judge', 'Case', 'Doc', 'Ruling type', 'Motion category', 'Ruling', 'Outcome', 'Outcome source', 'Motion filed', 'Days to ruling', 'Pages', 'Hearing set', 'Case name', 'Link'];
       return [head, ...finderRows().map((o) => [o.date, state.stats.names[o.judge], o.case, o.doc, catLabel[o.cat], mcatLabel[o.mcat] || '',
         o.event, OUTCOMES[o.oc] || '', o.ocSrc || '', o.filed, o.days == null ? '' : o.days, o.pages == null ? '' : o.pages, o.hearing == null ? '' : o.hearing ? 'yes' : 'no', o.title, opinionLink(o, linkKind(o))])];
+    }
+    if (id === 'mt-table') {
+      return [['Judge', 'Case', 'Doc', 'Motion', 'Filed', 'Submission date', 'Days past submission', 'Ruling found', 'Case name'],
+        ...motionRows().map((m) => [state.stats.names[m.judge] || '', m.case, m.doc, m.event, m.date, m.submit, m.daysPast == null ? '' : m.daysPast, m.ruled, m.title])];
     }
     const t = TABLES[id]; const cols = t.cols.filter((c) => !c.spark && !(c.hide && c.hide(state.stats[t.src])));
     return [cols.map((c) => (c.group ? c.group + ': ' : '') + c.label),
@@ -724,6 +763,45 @@
     $('t-opinions-spark').replaceChildren(sparkline(S.monthly.map((m) => d3.sum(CATS, ([k]) => m.all[k])), 120, 22));
   }
 
+  // ------------------------------------------------------------ submitted motions
+  function motionRows() {
+    const S = state.stats; const sel = state.selected; const v = state.mt.view; const q = state.mt.q.trim().toLowerCase();
+    return S.motions.filter((m) => (!sel || m.judge === sel) && (v === 'all' || (v === 'pending' ? !m.ruled : m.past))
+      && (!q || (m.case + ' ' + m.title + ' ' + m.event).toLowerCase().includes(q)));
+  }
+  function drawMotions() {
+    const S = state.stats; const sel = state.selected; const all = S.motions.filter((m) => !sel || m.judge === sel);
+    $('mt-title').textContent = 'Submitted motions' + (sel ? ': ' + S.names[sel] : '');
+    $('mt-since').textContent = S.motionsSince ? fmtDate(S.motionsSince) : 'the day this page went live';
+    $('n-motions').textContent = fmt.int(S.motions.filter((m) => m.past).length);
+    $('mt-view').value = state.mt.view; $('mt-q').value = state.mt.q;
+    const past = all.filter((m) => m.past);
+    $('mt-facts').replaceChildren(
+      fact('Motions on file', fmt.int(all.length), S.motionsSince ? 'since ' + fmtShort(S.motionsSince) : 'none yet'),
+      fact('With a submission date', fmt.int(all.filter((m) => m.submit).length), 'read from the docket text so far'),
+      fact('Ruling found', fmt.int(all.filter((m) => m.ruled).length), 'a later order or opinion names the motion type'),
+      fact('Past submission, no ruling found', fmt.int(past.length), past.length ? 'median ' + fmt.med(median(past.map((m) => m.daysPast))) + ' days past' : 'none right now'),
+    );
+    const rows = motionRows(); const shown = rows.slice(0, state.mt.limit);
+    const head = el('thead', {}, el('tr', {}, ...['Judge', 'Case · doc', 'Motion', 'Filed', 'Submission', 'Days past', 'Status', 'Case name'].map((c) => el('th', { textContent: c }))));
+    const body = el('tbody', {}, ...(shown.length ? shown.map((m) => el('tr', {},
+      el('td', { className: 'txt', textContent: S.names[m.judge] || '—', title: m.judge ? '' : 'Judge not yet known for this case' }),
+      el('td', { className: 'txt' }, el('a', { href: CL + '?type=r&court=laed&docket_number=' + encodeURIComponent(m.case), target: '_blank', rel: 'noopener noreferrer', textContent: m.case + ' · ' + m.doc, title: 'Search CourtListener for this case' })),
+      el('td', { className: 'left', textContent: m.event }),
+      el('td', { textContent: fmtDate(m.date) }),
+      el('td', { className: m.submit ? '' : 'dim', textContent: m.submit ? fmtDate(m.submit) : 'not read yet' }),
+      el('td', { className: m.daysPast == null ? 'dim' : '', textContent: m.daysPast == null ? '—' : fmt.int(m.daysPast) }),
+      el('td', { className: 'txt' }, m.ruled ? el('span', { className: 'pill' }, (() => { const i = el('i'); i.style.background = css('--o-partial'); return i; })(), 'Ruling found ' + fmtShort(m.ruled))
+        : m.past ? el('span', { className: 'pill' }, (() => { const i = el('i'); i.style.background = css('--amber'); return i; })(), 'Past submission')
+        : el('span', { className: 'pill none', textContent: m.submit ? 'Not yet submitted' : 'Awaiting' })),
+      el('td', { className: 'left', textContent: m.title }),
+    )) : [el('tr', {}, el('td', { className: 'left dim', colSpan: 8, textContent: S.motions.length ? 'No motions match.' : 'No motions on file yet. The updater records them from the court\'s feed as they are filed.' }))]));
+    $('mt-table').replaceChildren(head, body);
+    $('mt-count').textContent = rows.length ? 'Showing ' + fmt.int(shown.length) + ' of ' + fmt.int(rows.length) : '';
+    $('mt-more').hidden = shown.length >= rows.length;
+    drawTable('mj-table');
+  }
+
   function drawLog() {
     const runs = state.data.runs.slice().sort((a, b) => String(b.at).localeCompare(String(a.at))).slice(0, 60);
     $('runs-table').replaceChildren(el('thead', {}, el('tr', {}, ...['Run (Central)', 'Orders added', 'Opinions added', 'Note'].map((c) => el('th', { textContent: c })))),
@@ -739,6 +817,7 @@
     opinions: () => { drawTable('op-table'); barChart('c-merits', state.stats.opinions, 'merits_month', fmt.d2, 'Merits rulings per month', state.stats.totals.medMerits); mixChart(); },
     outcomes: () => { drawTable('oc-table'); outcomeChart(); },
     finder: drawFinder,
+    motions: drawMotions,
     log: drawLog,
   };
 
@@ -784,10 +863,10 @@
   function show(tab) { state.tab = tab; update(false); window.scrollTo({ top: Math.min(window.scrollY, document.querySelector('.bar').offsetTop) }); }
 
   async function load() {
-    const names = ['opinions', 'orders', 'judges', 'calendar', 'runs', 'outcomes'];
+    const names = ['opinions', 'orders', 'judges', 'calendar', 'runs', 'outcomes', 'motions'];
     try {
       const files = await Promise.all(names.map((n) => fetch('data/' + n + '.json', { cache: 'no-cache' })
-        .then((r) => { if (!r.ok) { if (n === 'outcomes') return []; throw new Error(n + ' ' + r.status); } return r.json(); })));
+        .then((r) => { if (!r.ok) { if (n === 'outcomes' || n === 'motions') return []; throw new Error(n + ' ' + r.status); } return r.json(); })));
       state.data = Object.fromEntries(names.map((n, i) => [n, files[i]]));
       $('judge-pick').append(...state.data.judges.slice().sort((a, b) => a.name.localeCompare(b.name)).map((j) => new Option(j.name, j.code)));
       readHash();  // again, now that judge names can be resolved
@@ -827,6 +906,9 @@
   $('op-outcome').addEventListener('change', (e) => { state.finder.oc = e.target.value; refind(); });
   $('op-pdf').addEventListener('change', (e) => { state.finder.pdf = e.target.checked; refind(); });
   $('op-more').addEventListener('click', () => { state.finderLimit += 200; drawFinder(); });
+  $('mt-view').addEventListener('change', (e) => { state.mt.view = e.target.value; state.mt.limit = 100; drawMotions(); });
+  $('mt-q').addEventListener('input', (e) => { state.mt.q = e.target.value; state.mt.limit = 100; drawMotions(); });
+  $('mt-more').addEventListener('click', () => { state.mt.limit += 200; drawMotions(); });
   document.querySelector('.tabs').addEventListener('keydown', (e) => {
     const i = TABS.indexOf(state.tab); const d = e.key === 'ArrowRight' ? 1 : e.key === 'ArrowLeft' ? -1 : 0;
     if (d) { e.preventDefault(); show(TABS[(i + d + TABS.length) % TABS.length]); $('tab-' + state.tab).focus(); }
