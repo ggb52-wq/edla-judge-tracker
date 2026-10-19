@@ -10,6 +10,9 @@ from pathlib import Path
 from unittest import mock
 
 ROOT = Path(__file__).resolve().parent.parent
+# Generous limits so the recorded-response tests exercise the whole run; the rate-limit tests set their own.
+ENV = {"COURTLISTENER_TOKEN": "x", "COURTLISTENER_PER_MINUTE": "1000", "COURTLISTENER_PER_HOUR": "5000",
+       "COURTLISTENER_PER_DAY": "5000", "COURTLISTENER_SEARCH_MINUTES": "0"}
 sys.path.insert(0, str(ROOT / "scripts"))
 import update  # noqa: E402
 
@@ -90,7 +93,7 @@ class UpdateTest(unittest.TestCase):
 
     def test_run(self):
         with mock.patch.object(update, "DATA", self.tmp / "data"), mock.patch.object(update, "http_get", fake_get), \
-             mock.patch.object(update.time, "sleep", lambda s: None), mock.patch.dict("os.environ", {"COURTLISTENER_TOKEN": "x"}):
+             mock.patch.object(update.time, "sleep", lambda s: None), mock.patch.dict("os.environ", ENV):
             update.main()
         orders = json.loads((self.tmp / "data/orders.json").read_text())
         opinions = json.loads((self.tmp / "data/opinions.json").read_text())
@@ -126,7 +129,7 @@ class UpdateTest(unittest.TestCase):
                          {("2:26-cv-09003", "30"), ("2:26-cv-09005", "8"), ("2:26-cv-01880", "6")})
         checks = json.loads((self.tmp / "data/link_checks.json").read_text())
         self.assertNotIn("2:26-cv-09005|8", checks)                      # new row: first in line next run
-        self.assertGreater(len(checks), update.LINK_BUDGET // 2)          # most of the budget produced recorded checks
+        self.assertGreater(len(checks), update.CL_CALL_BUDGET // 2)       # most of the budget produced recorded checks
         self.assertNotIn("2:26-cv-09003|30", checks)
         self.assertNotIn("2:26-cv-01880|6", checks)
         self.assertNotIn("2:26-cv-01444|20", checks)                     # refused row: no check recorded, retried next run
@@ -149,7 +152,7 @@ class UpdateTest(unittest.TestCase):
             return fake_get(url, headers, timeout)
         with mock.patch.object(update, "DATA", self.tmp / "data"), mock.patch.object(update, "http_get", timed_get), \
              mock.patch.object(update.time, "sleep", lambda s: None), mock.patch.object(update.time, "monotonic", lambda: clock[0]), \
-             mock.patch.dict("os.environ", {"COURTLISTENER_TOKEN": "x"}):
+             mock.patch.dict("os.environ", ENV):
             update.main()
         through = next(r for r in json.loads((self.tmp / "data/calendar.json").read_text()) if r["kind"] == "through")
         return json.loads((self.tmp / "data/runs.json").read_text())[-1], through["date"]
@@ -175,7 +178,7 @@ class UpdateTest(unittest.TestCase):
         (self.tmp / "data/outcomes.json").write_text(json.dumps(
             [{"case": "2:26-cv-01880", "doc": "6", "outcome": "denied", "src": "manual", "at": "2026-10-18"}]))
         with mock.patch.object(update, "DATA", self.tmp / "data"), mock.patch.object(update, "http_get", fake_get), \
-             mock.patch.object(update.time, "sleep", lambda s: None), mock.patch.dict("os.environ", {"COURTLISTENER_TOKEN": "x"}):
+             mock.patch.object(update.time, "sleep", lambda s: None), mock.patch.dict("os.environ", ENV):
             update.main()
         outcomes = {(r["case"], r["doc"]): r for r in json.loads((self.tmp / "data/outcomes.json").read_text())}
         self.assertEqual(outcomes[("2:26-cv-01880", "6")], {"case": "2:26-cv-01880", "doc": "6", "outcome": "denied", "src": "manual", "at": "2026-10-18"})
@@ -199,11 +202,55 @@ class UpdateTest(unittest.TestCase):
                 return RSS
             raise urllib.error.HTTPError(url, 429, "Too Many Requests", {"Retry-After": "3600"}, None)
         with mock.patch.object(update, "DATA", self.tmp / "data"), mock.patch.object(update, "http_get", throttled_get), \
-             mock.patch.object(update.time, "sleep", lambda s: None), mock.patch.dict("os.environ", {"COURTLISTENER_TOKEN": "x"}):
+             mock.patch.object(update.time, "sleep", lambda s: None), mock.patch.dict("os.environ", ENV):
             update.main()
         runs = json.loads((self.tmp / "data/runs.json").read_text())
         self.assertIn("CourtListener throttled (retry after 3600s)", runs[-1]["note"])
         self.assertIn("CourtListener 1 calls", runs[-1]["note"])                # one refusal ends the run's calls
+
+    def run_rate_limited(self, runs, env=None):
+        (self.tmp / "data/runs.json").write_text(json.dumps(runs))
+        with mock.patch.object(update, "DATA", self.tmp / "data"), mock.patch.object(update, "http_get", fake_get), \
+             mock.patch.object(update.time, "sleep", lambda s: None), \
+             mock.patch.dict("os.environ", {"COURTLISTENER_TOKEN": "x", **(env or {})}, clear=False):
+            for k in ("COURTLISTENER_PER_MINUTE", "COURTLISTENER_PER_HOUR", "COURTLISTENER_PER_DAY", "COURTLISTENER_SEARCH_MINUTES"):
+                if not (env or {}).get(k):
+                    import os
+                    os.environ.pop(k, None)
+            update.main()
+        return json.loads((self.tmp / "data/runs.json").read_text())[-1]
+
+    def test_daily_budget_from_run_log(self):
+        # 120 of a free account's 125 daily calls were used 90 minutes ago: 5 remain, too few for a search, so none are spent.
+        now = update.dt.datetime.now(update.CENTRAL)
+        earlier = (now - update.dt.timedelta(minutes=90)).isoformat(timespec="minutes")
+        run = self.run_rate_limited([{"at": earlier, "cl_calls": 120, "note": ""}])
+        self.assertIn("calls left 5 (hour 0/50, day 120/125)", run["note"])
+        self.assertIn("Saving CourtListener calls", run["note"])
+        self.assertEqual(run["cl_calls"], 0)
+        self.assertFalse(run["searched"])
+
+    def test_paused_after_throttle(self):
+        now = update.dt.datetime.now(update.CENTRAL)
+        later = (now + update.dt.timedelta(hours=2)).isoformat(timespec="minutes")
+        run = self.run_rate_limited([{"at": (now - update.dt.timedelta(minutes=30)).isoformat(timespec="minutes"),
+                                      "cl_calls": 1, "cl_paused_until": later, "note": ""}])
+        self.assertIn("CourtListener paused until", run["note"])
+        self.assertEqual(run["cl_calls"], 0)
+
+    def test_search_interval(self):
+        # A search ran ten minutes ago: this run keeps its calls for lookups, adds RSS-only orders, and leaves the window.
+        now = update.dt.datetime.now(update.CENTRAL)
+        before = next(r for r in json.loads((self.tmp / "data/calendar.json").read_text()) if r["kind"] == "through")["date"]
+        run = self.run_rate_limited([{"at": (now - update.dt.timedelta(minutes=10)).isoformat(timespec="minutes"), "cl_calls": 6, "searched": True, "note": ""}],
+                                    {"COURTLISTENER_PER_MINUTE": "1000", "COURTLISTENER_PER_HOUR": "5000", "COURTLISTENER_PER_DAY": "5000"})
+        self.assertIn("Next CourtListener search after", run["note"])
+        self.assertFalse(run["searched"])
+        self.assertEqual(run["opinions_added"], 0)
+        self.assertEqual(run["orders_added"], 1)                           # the unambiguous RSS order for a known case
+        self.assertGreater(run["cl_calls"], 0)                              # lookups still ran
+        through = next(r for r in json.loads((self.tmp / "data/calendar.json").read_text()) if r["kind"] == "through")["date"]
+        self.assertEqual(through, before)
 
 
 class OutcomeTextTest(unittest.TestCase):

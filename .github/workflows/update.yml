@@ -35,6 +35,12 @@ jobs:
       - name: Fetch new entries
         env:
           COURTLISTENER_TOKEN: ${{ secrets.COURTLISTENER_TOKEN }}
+          # Rate limits for the key. Leave unset for a free account (5 a minute, 50 an hour, 125 a day);
+          # after a CourtListener membership, set these repository variables to the new limits.
+          COURTLISTENER_PER_MINUTE: ${{ vars.COURTLISTENER_PER_MINUTE }}
+          COURTLISTENER_PER_HOUR: ${{ vars.COURTLISTENER_PER_HOUR }}
+          COURTLISTENER_PER_DAY: ${{ vars.COURTLISTENER_PER_DAY }}
+          COURTLISTENER_SEARCH_MINUTES: ${{ vars.COURTLISTENER_SEARCH_MINUTES }}
         run: python -u scripts/update.py
 
       - name: Commit when the data changed
@@ -48,4 +54,10 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data
           git commit -m "Data update $(date -u +%Y-%m-%dT%H:%MZ)"
-          git push
+          # main may have moved during the run (a merge, or the outcome workflow); rebase the data commit onto it.
+          for i in 1 2 3 4; do
+            git pull --rebase origin main && git push && exit 0
+            sleep $((i * 5))
+          done
+          echo "Could not push after 4 tries" >&2
+          exit 1

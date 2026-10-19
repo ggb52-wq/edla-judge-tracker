@@ -39,8 +39,8 @@ RSS_URL = "https://ecf.laed.uscourts.gov/cgi-bin/rss_outside.pl"
 CL_BASE = "https://www.courtlistener.com/api/rest/v4/"
 USER_AGENT = "edla-judge-tracker (github.com/ggb52-wq/edla-judge-tracker)"
 CL_SITE = "https://www.courtlistener.com"
-CL_CALL_BUDGET = 360    # per run; CourtListener allows 5,000 an hour, and runs are 15 minutes apart
-LINK_BUDGET = 300       # of those, calls spent on addresses and order text for opinions already in the data
+CL_CALL_BUDGET = 360    # absolute ceiling per run; the real budget comes from CourtListener's limits (see limits())
+SEARCH_RESERVE = 12     # calls a search for new entries needs; a run that cannot afford one saves its calls for the next
 LINK_RECHECK_DAYS = 7
 RUN_SECONDS = 11 * 60   # CourtListener calls stop after this, so the run saves well inside the workflow's 20-minute timeout
 MAX_FAILURES = 5        # consecutive failed lookups before a run gives up on CourtListener for the rest of the run
@@ -140,17 +140,56 @@ def log(msg: str) -> None:
     print(f"{dt.datetime.now(CENTRAL):%H:%M:%S} {msg}", flush=True)
 
 
+def limits() -> dict:
+    """CourtListener's rate limits for this key. The defaults are a free account's (5 a minute, 50 an hour,
+    125 a day); a membership raises them, and the workflow passes the new numbers as repository variables."""
+    env = lambda k, d: int(os.environ.get(k) or d)  # noqa: E731
+    return {"minute": env("COURTLISTENER_PER_MINUTE", 5), "hour": env("COURTLISTENER_PER_HOUR", 50),
+            "day": env("COURTLISTENER_PER_DAY", 125), "search_minutes": env("COURTLISTENER_SEARCH_MINUTES", 180)}
+
+
+def run_time(r: dict) -> dt.datetime | None:
+    try:
+        at = dt.datetime.fromisoformat(r.get("at", ""))
+    except ValueError:
+        return None
+    return at if at.tzinfo else at.replace(tzinfo=CENTRAL)
+
+
+def calls_since(runs: list[dict], now: dt.datetime, minutes: int) -> int:
+    """CourtListener calls made by runs that started within the last `minutes`, from the run log."""
+    cutoff = now - dt.timedelta(minutes=minutes)
+    total = 0
+    for r in runs:
+        at = run_time(r)
+        if at is None or at <= cutoff:
+            continue
+        n = r.get("cl_calls")
+        if n is None:  # runs logged before cl_calls existed
+            m = re.search(r"CourtListener (\d+) calls", r.get("note", ""))
+            n = int(m.group(1)) if m else 0
+        total += int(n)
+    return total
+
+
+def last_search(runs: list[dict]) -> dt.datetime | None:
+    return max((run_time(r) for r in runs if r.get("searched") and run_time(r)), default=None)
+
+
 class CourtListener:
-    def __init__(self, token: str | None):
+    def __init__(self, token: str | None, budget: int = CL_CALL_BUDGET, interval: float = 12.0):
         self.token = token
+        self.budget = min(budget, CL_CALL_BUDGET)  # calls this run may make
+        self.interval = interval                   # seconds between calls, from the per-minute limit
         self.calls = 0
         self.errors: list[str] = []
         self.deadline = time.monotonic() + RUN_SECONDS
         self.out_of_time = False
-        self.throttled = False  # CourtListener asked for a wait longer than a run can afford; no more calls this run
+        self.throttled = False       # CourtListener asked for a wait longer than a run can afford; no more calls this run
+        self.paused_until: dt.datetime | None = None
 
     def get(self, path_or_url: str, params: dict | None = None) -> dict | None:
-        if not self.token or self.calls >= CL_CALL_BUDGET or self.throttled:
+        if not self.token or self.calls >= self.budget or self.throttled:
             return None
         if time.monotonic() >= self.deadline:
             self.out_of_time = True
@@ -171,6 +210,7 @@ class CourtListener:
                     if asked > RETRY_AFTER_MAX:
                         # Too long to wait inside any run: stop calling and say so, so the log shows the throttle.
                         self.throttled = True
+                        self.paused_until = dt.datetime.now(CENTRAL) + dt.timedelta(seconds=asked)
                         self.errors.append(f"CourtListener throttled (retry after {asked}s)")
                         log(f"  CourtListener asked for a {asked}s wait; stopping its calls for this run")
                         return None
@@ -187,7 +227,7 @@ class CourtListener:
                 self.errors.append(f"CourtListener {type(e).__name__}")
                 return None
             finally:
-                time.sleep(1.2)
+                time.sleep(self.interval)
         return None
 
     def paged(self, path: str, params: dict, limit_pages: int = 10):
@@ -327,11 +367,10 @@ def link_opinions(cl: CourtListener, opinions: list[dict], checks: dict, outcome
     todo.sort(key=lambda o: o["date"], reverse=True)
     todo.sort(key=lambda o: checks.get(f"{o['case']}|{o['doc']}", ""))  # stable: oldest check first, then newest row
     found = read = 0
-    stop = cl.calls + LINK_BUDGET
     failures = 0
     log(f"looking up {len(todo)} opinions for links and outcomes")
     for n, o in enumerate(todo):
-        if cl.calls >= min(stop, CL_CALL_BUDGET) or cl.out_of_time or cl.throttled:
+        if cl.calls >= cl.budget or cl.out_of_time or cl.throttled:
             break
         if n and n % 25 == 0:
             log(f"  {n} looked up, {found} linked, {read} outcomes read, {cl.calls} calls")
@@ -342,7 +381,7 @@ def link_opinions(cl: CourtListener, opinions: list[dict], checks: dict, outcome
             # One refused or timed-out call skips this row (it is retried next run, since no check is recorded);
             # a streak of them means the service is unavailable, so the run stops and saves what it has.
             failures += 1
-            if failures >= MAX_FAILURES or cl.out_of_time or cl.throttled or cl.calls >= CL_CALL_BUDGET:
+            if failures >= MAX_FAILURES or cl.out_of_time or cl.throttled or cl.calls >= cl.budget:
                 log(f"  stopping lookups after {failures} failed call(s) in a row")
                 break
             continue
@@ -417,17 +456,36 @@ def main() -> int:
         if oldest and oldest > prev_dt:
             note.append(f"RSS window gap since {prev_dt:%m/%d %H:%M}")
 
-    # --- CourtListener dockets with order-type entries
-    cl = CourtListener(os.environ.get("COURTLISTENER_TOKEN"))
+    # --- CourtListener budget for this run, from its rate limits and the run log
+    lim = limits()
+    hour_used, day_used = calls_since(runs, now, 60), calls_since(runs, now, 24 * 60)
+    allowance = max(0, min(lim["hour"] - hour_used, lim["day"] - day_used))
+    paused = next((run_time({"at": r["cl_paused_until"]}) for r in reversed(runs) if r.get("cl_paused_until")), None)
+    if paused and paused > now:
+        allowance = 0
+        note.append(f"CourtListener paused until {paused:%m/%d %H:%M}")
+    since = last_search(runs)
+    search_due = since is None or now - since >= dt.timedelta(minutes=lim["search_minutes"])
+    do_search = search_due and allowance >= SEARCH_RESERVE
+    note.append(f"CourtListener calls left {allowance} (hour {hour_used}/{lim['hour']}, day {day_used}/{lim['day']})")
+    if search_due and 0 < allowance < SEARCH_RESERVE:
+        allowance = 0  # save what is left for a search
+        note.append("Saving CourtListener calls for the next search")
+    elif not search_due and since:
+        note.append(f"Next CourtListener search after {since + dt.timedelta(minutes=lim['search_minutes']):%H:%M}")
+    cl = CourtListener(os.environ.get("COURTLISTENER_TOKEN"), allowance, 60 / max(1, lim["minute"]))
     if not cl.token:
         note.append("No CourtListener token; RSS only")
-    log("searching CourtListener for new entries")
+    log(f"CourtListener budget {cl.budget}; search {'yes' if do_search else 'no'}")
+
+    # --- CourtListener dockets with order-type entries
+    log("searching CourtListener for new entries" if do_search else "skipping the CourtListener search this run")
     docket_info: dict[int, dict] = {}
     cl_entries: dict[tuple[str, str], dict] = {}
     q = ("short_description:order OR short_description:judgment OR short_description:hearing OR "
          "short_description:hearings OR short_description:transferred OR short_description:recommendations")
-    for d in cl.paged("search/", {"type": "r", "court": "laed", "q": q,
-                                   "entry_date_filed_after": window_from, "entry_date_filed_before": today}):
+    for d in (cl.paged("search/", {"type": "r", "court": "laed", "q": q,
+                                    "entry_date_filed_after": window_from, "entry_date_filed_before": today}) if do_search else []):
         case, kind = base_case(d.get("docketNumber", ""))
         info = {"case": case, "kind": kind, "judge": judge_code(d.get("assignedTo")),
                 "title": (d.get("caseName") or "")[:70]}
@@ -490,7 +548,7 @@ def main() -> int:
     docs = list(cl.paged("recap-documents/", {
         "is_free_on_pacer": "true", "docket_entry__docket__court": "laed",
         "date_created__gte": f"{window_from}T00:00:00-05:00", "order_by": "date_created",
-        "fields": "id,description,document_number,absolute_url,filepath_local,is_available,page_count,date_created"}))
+        "fields": "id,description,document_number,absolute_url,filepath_local,is_available,page_count,date_created"})) if do_search else []
     missing = set()
     for r in docs:
         m = re.search(r"/docket/(\d+)/", r.get("absolute_url", ""))
@@ -538,10 +596,11 @@ def main() -> int:
         note.append(f"{no_judge} entries without a judge")
 
     log(f"new entries: orders +{len(added_orders)}, opinions +{len(added_opinions)}; {cl.calls} calls")
-    # A run that ran out of time before this point may have missed entries, so the window does not move forward.
-    complete = not cl.out_of_time
-    if not complete:
-        note.append("Time limit reached before all new entries were read; window kept")
+    # Only a run that searched CourtListener to the end moves the window forward; one cut short by the
+    # time limit or a throttle may have missed entries, and an RSS-only run never looked.
+    complete = do_search and not cl.out_of_time and not cl.throttled
+    if do_search and not complete:
+        note.append("Search cut short before all new entries were read; window kept")
 
     # --- CourtListener addresses for opinions already in the data
     linked, read = link_opinions(cl, opinions, link_checks, outcomes, today) if cl.token else (0, 0)
@@ -574,6 +633,8 @@ def main() -> int:
     runs.append({"at": now.isoformat(timespec="minutes"), "from": window_from, "to": today,
                  "orders_added": len(added_orders), "opinions_added": len(added_opinions),
                  "pending": len(new_pending), "ok": not cl.errors and bool(rss or cl.calls),
+                 "cl_calls": cl.calls, "searched": complete,
+                 **({"cl_paused_until": cl.paused_until.isoformat(timespec="minutes")} if cl.paused_until else {}),
                  "note": "; ".join(note), "pending_items": new_pending})
     runs = runs[-500:]
     for r in runs[:-1]:
