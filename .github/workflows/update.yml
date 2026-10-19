@@ -51,7 +51,7 @@ jobs:
         run: |
           # Commit when data changed, or when the run log carries something later runs need: a CourtListener
           # pause, or calls that count against the hourly and daily limits.
-          if git diff --quiet -- data/orders.json data/opinions.json data/link_checks.json data/outcomes.json data/motions.json data/govinfo.json \
+          if git diff --quiet -- data/orders.json data/opinions.json data/link_checks.json data/outcomes.json data/motions.json data/govinfo.json data/feed.json \
              && ! python3 -c "import json,sys; r=json.load(open('data/runs.json'))[-1]; sys.exit(0 if r.get('cl_paused_until') or r.get('cl_calls') else 1)"; then
             echo "No new entries."
             git checkout -- data

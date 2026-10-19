@@ -361,6 +361,35 @@ mark { background: var(--amber-soft); color: var(--ink); box-shadow: 0 0 0 1px c
 .quick { height: 28px; padding: 0 10px; font: 12px var(--font); color: var(--ink-2); background: var(--panel); border: 1px solid var(--line-2); border-radius: 999px; cursor: pointer; }
 .quick:hover, .quick[aria-pressed="true"] { color: var(--ink); border-color: var(--amber); }
 
+/* ---------------------------------------------------------------- docket activity (the court's feed, cleaned up) */
+.act { list-style: none; margin: 0; padding: 0; }
+.act li { display: grid; grid-template-columns: 46px 74px minmax(0, 1.25fr) 196px minmax(0, 1fr) 92px; gap: 2px 14px; align-items: baseline; padding: 8px 14px; border-bottom: 1px solid var(--line); font-size: 13px; }
+.act li:last-child { border-bottom: 0; }
+.act li:hover { background: var(--hover); }
+.act li.day { display: flex; justify-content: space-between; gap: 12px; position: sticky; top: 52px; z-index: 2; padding: 7px 14px; background: var(--raise); border-bottom: 1px solid var(--line-2); font: 600 11px/1.4 var(--mono); text-transform: uppercase; letter-spacing: .08em; color: var(--ink-2); }
+.act li.day span { font-weight: 400; color: var(--ink-3); text-transform: none; letter-spacing: 0; }
+.act li.day:hover { background: var(--raise); }
+.act .tm { font: 12px var(--mono); color: var(--ink-3); white-space: nowrap; }
+.act .ev { color: var(--ink); min-width: 0; }
+.act .ev .pill, .act .ev .tag { margin-left: 8px; }
+.act .cs { min-width: 0; }
+.act .nm { color: var(--ink-2); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.act .jg { text-align: right; font-size: 12.5px; white-space: nowrap; }
+.act .jg a { color: var(--ink); text-decoration: none; }
+.act .jg a:hover { color: var(--link); text-decoration: underline; }
+.act .empty { display: block; padding: 6px 0; color: var(--ink-3); }
+.act li.none { display: block; }
+.act.compact li { grid-template-columns: 88px 70px minmax(0, 1.3fr) 196px minmax(0, 1fr); }
+.act.compact .jg { display: none; }
+.act.compact.withjudge li { grid-template-columns: 88px 70px minmax(0, 1.3fr) 196px minmax(0, 1fr) 92px; }
+.act.compact.withjudge .jg { display: block; }
+.kind { display: inline-block; font: 600 9.5px/1 var(--mono); letter-spacing: .07em; text-transform: uppercase; color: var(--ink-2); border: 1px solid var(--line-2); border-radius: 2px; padding: 4px 5px 3px; white-space: nowrap; justify-self: start; }
+.kind.k-opinion { color: var(--ink); border-color: color-mix(in srgb, var(--judge) 60%, transparent); background: color-mix(in srgb, var(--judge) 18%, transparent); }
+.kind.k-newcase { color: var(--ink); border-color: var(--ink-3); }
+.kind.k-filing { color: var(--ink-3); }
+.kinds .quick b { font-weight: 500; color: var(--ink-3); margin-left: 6px; font-family: var(--mono); font-size: 11px; }
+.live-note { font: 11px var(--mono); color: var(--ink-3); }
+
 /* ---------------------------------------------------------------- latest opinions feed */
 .feed { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
 .feed li { display: grid; grid-template-columns: 52px minmax(0, 1fr); gap: 2px 10px; padding: 9px 14px; border-bottom: 1px solid var(--line); }
@@ -431,7 +460,8 @@ a.kpi:hover .strip em { box-shadow: 0 0 0 2px var(--raise); }
 }
 @media (max-width: 980px) {
   .top-in { flex-wrap: wrap; height: auto; padding-top: 8px; padding-bottom: 8px; gap: 8px 14px; }
-  .nav { order: 3; align-self: auto; }
+  .nav { order: 3; align-self: auto; flex: 1 1 100%; max-width: 100%; overflow-x: auto; scrollbar-width: none; }
+  .nav::-webkit-scrollbar { display: none; }
   .nav a { padding: 8px 10px; }
   .omni { order: 5; flex: 1 1 100%; max-width: none; }
   body[data-page="judges"] .top .omni { display: none; }
@@ -470,6 +500,12 @@ a.kpi:hover .strip em { box-shadow: 0 0 0 2px var(--raise); }
   .filters label.grow { flex-basis: 100%; max-width: none; }
   .keys { display: none; }
   .t th, .t td { padding: 7px 9px; }
+  .act li, .act.compact li, .act.compact.withjudge li { grid-template-columns: auto auto minmax(0, 1fr); gap: 3px 10px; }
+  .act .ev { grid-column: 1 / -1; order: 3; }
+  .act .cs { order: 4; grid-column: 1 / 3; }
+  .act .nm { order: 5; grid-column: 3; }
+  .act .jg, .act.compact.withjudge .jg { display: block; grid-column: 3; grid-row: 1; text-align: right; }
+  .act li.day { top: 0; }
   /* The judge's outcome table folds each row onto two lines: figures, then the bars. */
   .t.oc thead { display: none; }
   .t.oc tbody tr { display: grid; grid-template-columns: minmax(0, 1fr) repeat(3, auto); gap: 4px 12px; align-items: baseline; padding: 10px 12px; border-bottom: 1px solid var(--line); }
