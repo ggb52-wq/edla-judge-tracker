@@ -494,7 +494,7 @@ a.kpi:hover .strip em { box-shadow: 0 0 0 2px var(--raise); }
 .prose td:first-child { white-space: nowrap; color: var(--ink); }
 
 /* ---------------------------------------------------------------- responsive */
-@media (max-width: 1380px) { .live span { display: none; } }
+@media (max-width: 1279px) and (min-width: 981px) { body:not([data-page="judges"]) .live span { display: none; } }
 @media (max-width: 1180px) {
   .cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .kpis.six { grid-template-columns: repeat(3, minmax(0, 1fr)); }
@@ -522,7 +522,6 @@ a.kpi:hover .strip em { box-shadow: 0 0 0 2px var(--raise); }
 }
 @media (max-width: 760px) {
   .top { position: static; }
-  .live span { display: none; }
 }
 @media (max-width: 640px) {
   .wrap { padding: 0 16px; }

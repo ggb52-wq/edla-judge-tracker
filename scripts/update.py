@@ -829,6 +829,14 @@ def main() -> int:
     save("hearings", update_hearings(load("hearings") if (DATA / "hearings.json").exists() else [], cl_entries, case_judge,
                                      judges, orders + opinions + motions, now, note))
     (DATA / "link_checks.json").write_text(json.dumps(dict(sorted(link_checks.items())), indent=0) + "\n")
+    # Rewritten on every pass, so the site can show when the feed was last checked even when nothing new came in.
+    paused_until = cl.paused_until or (paused if paused and paused > now else None)
+    searched = now if complete else since
+    (DATA / "status.json").write_text(json.dumps({
+        "checked": now.isoformat(timespec="minutes"), "rss_items": len(rss), "rss_civil": len(rss_civil),
+        "searched": searched.isoformat(timespec="minutes") if searched else "",
+        "cl_paused_until": paused_until.isoformat(timespec="minutes") if paused_until else "",
+        "through": through_row["date"], "pending": len(new_pending)}, indent=1) + "\n")
     print(f"orders +{len(added_orders)}, opinions +{len(added_opinions)}, pending {len(new_pending)}; " + "; ".join(note))
     return 0
 

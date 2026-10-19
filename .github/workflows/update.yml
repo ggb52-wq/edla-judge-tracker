@@ -2,33 +2,56 @@ name: Update docket data
 
 on:
   schedule:
-    # GitHub runs frequent schedules only about once an hour on a small repository, so each run checks the feed
-    # four times, about 15 minutes apart (see the loop below). Times are UTC; this asks for every hour, all week.
+    # A backstop only. Each run checks the feed four times, 15 minutes apart, then starts the next run itself (last step),
+    # so the checks continue around the clock. GitHub starts scheduled runs late or skips them; this hourly schedule
+    # restarts the checks if that chain ever stops. Times are UTC; this asks for every hour, all week.
     - cron: "5 * * * *"
   workflow_dispatch:
+  push:
+    # A change to this file starts the checks at once, without waiting for the backstop.
+    branches: [main]
+    paths: [".github/workflows/update.yml"]
 
 permissions:
   contents: write
+  actions: write   # to start the next run
 
+# Runs started by the chain or by hand wait their turn here. A scheduled run stays out of the queue (a queue holds one
+# waiting run and cancels any other) and instead stops at once when another run is under way.
 concurrency:
-  group: update-data
+  group: ${{ github.event_name == 'schedule' && format('update-backstop-{0}', github.run_id) || 'update-data' }}
   cancel-in-progress: false
 
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 75
+    timeout-minutes: 90
+    env:
+      GH_TOKEN: ${{ github.token }}
     steps:
+      - name: Skip if the checks are already running
+        id: gate
+        if: github.event_name == 'schedule'
+        run: |
+          live=$(gh run list -R "$GITHUB_REPOSITORY" --workflow update.yml --limit 30 --json databaseId,status \
+                 --jq "[.[] | select(.status != \"completed\" and .databaseId != $GITHUB_RUN_ID)] | length")
+          if [ "$live" != "0" ]; then echo "Another run is checking the feed; nothing to do."; echo "skip=true" >> "$GITHUB_OUTPUT"; fi
+
       - uses: actions/checkout@v4
+        if: steps.gate.outputs.skip != 'true'
 
       - uses: actions/setup-python@v5
+        if: steps.gate.outputs.skip != 'true'
         with:
           python-version: "3.12"
 
       - name: Install the PDF reader
+        if: steps.gate.outputs.skip != 'true'
         run: pip install --quiet pypdf==5.4.0
 
-      - name: Fetch new entries four times, about 15 minutes apart, and commit after each
+      - name: Check the feed every 15 minutes for about an hour, committing after each check
+        if: steps.gate.outputs.skip != 'true'
+        timeout-minutes: 75
         env:
           COURTLISTENER_TOKEN: ${{ secrets.COURTLISTENER_TOKEN }}
           GOVINFO_API_KEY: ${{ secrets.GOVINFO_API_KEY }}
@@ -42,29 +65,62 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           commit() {
-            # Commit when data changed, or when the run log carries something later runs need: a CourtListener
-            # pause, or calls that count against the hourly and daily limits.
+            # Commit all data when it changed, or when the run log carries something later runs need: a CourtListener
+            # pause, or calls that count against the hourly and daily limits. Otherwise commit only data/status.json,
+            # the time of this check, so the site shows the feed is being read.
             if git diff --quiet -- data/orders.json data/opinions.json data/link_checks.json data/outcomes.json data/motions.json data/govinfo.json data/feed.json data/hearings.json \
                && ! python3 -c "import json,sys; r=json.load(open('data/runs.json'))[-1]; sys.exit(0 if r.get('cl_paused_until') or r.get('cl_calls') else 1)"; then
               echo "No new entries."
+              cp data/status.json "$RUNNER_TEMP/status.json"
               git checkout -- data
-              return 0
+              cp "$RUNNER_TEMP/status.json" data/status.json
+              git add data/status.json
+              git commit --quiet -m "Feed check $(date -u +%Y-%m-%dT%H:%MZ)"
+            else
+              git add data
+              git commit --quiet -m "Data update $(date -u +%Y-%m-%dT%H:%MZ)"
             fi
-            git add data
-            git commit -m "Data update $(date -u +%Y-%m-%dT%H:%MZ)"
-            # main may have moved (a merge, or another workflow); rebase the data commit onto it.
+            # main may have moved (a merge, or another workflow); rebase the commit onto it.
             for i in 1 2 3 4; do
-              git pull --rebase origin main && git push && return 0
+              git pull --quiet --rebase origin main && git push --quiet && return 0
+              git rebase --abort 2>/dev/null || true
               sleep $((i * 5))
             done
+            # Drop this pass's commit so the next pass starts clean; it reads the same feed items again.
             echo "Could not push after 4 tries" >&2
+            git fetch --quiet origin main && git reset --quiet --hard origin/main
             return 1
           }
-          for pass in 1 2 3 4; do
-            echo "::group::Pass $pass of 4, $(date -u +%H:%M) UTC"
-            git pull --rebase origin main
-            python -u scripts/update.py
-            commit
+          failed=0; pass=0; t0=$(date +%s)
+          while :; do
+            pass=$((pass + 1)); started=$(date +%s)
+            echo "::group::Pass $pass, $(date -u +%H:%M) UTC"
+            # One failed pass does not stop the others; the run is marked failed at the end.
+            if ! { git pull --quiet --rebase origin main && python -u scripts/update.py && commit; }; then
+              echo "::error::Pass $pass failed"
+              failed=1
+              git rebase --abort 2>/dev/null || true
+              git fetch --quiet origin main && git reset --quiet --hard origin/main
+            fi
             echo "::endgroup::"
-            if [ "$pass" -lt 4 ]; then sleep 840; fi
+            # Passes start 15 minutes apart, the last no later than 45 minutes into the run (usually four passes).
+            if [ $(( started + 900 - t0 )) -gt 2700 ]; then break; fi
+            left=$(( started + 900 - $(date +%s) ))
+            if [ "$left" -gt 0 ]; then sleep "$left"; fi
           done
+          # The next run's first pass then lands about 15 minutes after this run's last.
+          left=$(( started + 840 - $(date +%s) ))
+          if [ "$left" -gt 0 ]; then sleep "$left"; fi
+          exit $failed
+
+      - name: Start the next run
+        # Also after a failed pass, so one bad pass does not stop the checks; not after a run is cancelled by hand.
+        if: (success() || failure()) && steps.gate.outputs.skip != 'true'
+        run: |
+          waiting=$(gh run list -R "$GITHUB_REPOSITORY" --workflow update.yml --limit 30 --json databaseId,status \
+                    --jq "[.[] | select(.status != \"completed\" and .databaseId != $GITHUB_RUN_ID)] | length")
+          if [ "$waiting" = "0" ]; then
+            gh workflow run update.yml -R "$GITHUB_REPOSITORY" --ref main && echo "Started the next run."
+          else
+            echo "A run is already waiting; it continues the checks."
+          fi
