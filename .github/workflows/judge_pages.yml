@@ -1,0 +1,47 @@
+name: Read the judges' pages
+
+on:
+  schedule:
+    # Times are UTC: 6:23 AM Central in daylight time, 5:23 AM in standard time.
+    - cron: "23 11 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: judge-pages
+  cancel-in-progress: false
+
+jobs:
+  read:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Read each district judge's page on the court's website
+        run: python -u scripts/judge_pages.py
+
+      - name: Commit when a page changed
+        run: |
+          # The script rewrites the file only when a judge's page changed, or once a week to refresh the checked dates.
+          if git diff --quiet -- data/judge_pages.json; then
+            echo "No change."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/judge_pages.json
+          git commit -m "Judge pages $(date -u +%Y-%m-%d)"
+          # main may have moved during the run (the data update commits every 15 minutes); rebase onto it.
+          for i in 1 2 3 4; do
+            git pull --rebase origin main && git push && exit 0
+            sleep $((i * 5))
+          done
+          echo "Could not push after 4 tries" >&2
+          exit 1
