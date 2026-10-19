@@ -12,9 +12,10 @@ sys.path.insert(0, str(ROOT / "scripts"))
 import judge_pages  # noqa: E402
 
 LISTING = """<html><body><div id="main-content"></div>
-<a href="/judges-information/judge/honorable-nannette-jolivette-brown">Nannette Jolivette Brown</a>
-<a href="/judges-information/judge/honorable-darrel-james-papillion">Darrel James Papillion</a>
-<a href="/judges-information/judge/honorable-jane-doe-st-john">St. John</a>
+<a href="/judge/honorable-nannette-jolivette-brown">G</a><a href="/judge/honorable-nannette-jolivette-brown">Nannette Jolivette Brown</a>
+<a href="/judge/honorable-darrel-james-papillion">P</a><a href="/judge/honorable-darrel-james-papillion">Darrel James Papillion</a>
+<a href="/judge/honorable-anna-st-john">N</a><a href="/judge/honorable-anna-st-john">Anna St. John</a>
+<a href="/judge/honorable-brandon-s-long">O</a><a href="/judge/honorable-brandon-s-long">Brandon S. Long</a>
 <a href="/judges-information/magistrate-judges">Magistrate Judges</a>
 </body></html>"""
 
@@ -39,6 +40,15 @@ Loose text with a <a href="/sites/default/files/forms/Form.docx">form</a>.</div>
 </div></body></html>"""
 
 
+# A judge page with contact details and no requirement tabs.
+LONG = """<html><body><a id="main-content"></a><h1 id="page-title">The Honorable Brandon S. Long</h1>
+<div id="node-3783" class="node node--judge node--full"><div class="content node__content">
+<div class="field field--name-body"><p><a href="https://www.fjc.gov/history/judges/long">Federal Judicial Center Biography</a></p>
+<p>Phone: (504) 589-7645</p><p>500 Poydras Street<br>Room C317</p></div>
+<div class="staff-info-wrap group-staff-info field-group-div"><h2>Staff Information</h2><p><strong>A. Clerk</strong>, Law Clerk</p></div>
+</div></div></body></html>"""
+
+
 class JudgePagesTest(unittest.TestCase):
     def setUp(self):
         self.tmp = Path(tempfile.mkdtemp())
@@ -52,9 +62,11 @@ class JudgePagesTest(unittest.TestCase):
         def fake_fetch(url):
             if url == judge_pages.LISTING:
                 return LISTING
-            if url.endswith("honorable-nannette-jolivette-brown"):
+            if url == judge_pages.BASE + "/judges-information/judge/honorable-nannette-jolivette-brown":
                 return page
-            raise OSError("404")
+            if url == judge_pages.BASE + "/judge/honorable-brandon-s-long":      # only the listing's own address works
+                return LONG
+            raise OSError("HTTP Error 404: Not Found")
         with mock.patch.object(judge_pages, "DATA", self.tmp / "data"), mock.patch.object(judge_pages, "fetch", fake_fetch), \
              mock.patch.object(judge_pages, "PAUSE", 0), mock.patch.object(judge_pages, "today_iso", lambda: today), \
              mock.patch("builtins.print"):
@@ -65,7 +77,12 @@ class JudgePagesTest(unittest.TestCase):
         data = self.run_once()
         self.assertEqual(data["since"], "2026-10-20")
         rows = {r["code"]: r for r in data["judges"]}
-        self.assertEqual(set(rows), {"NJB"})                      # Papillion's page failed and had no earlier copy
+        self.assertEqual(set(rows), {"NJB", "BSL"})               # Papillion's and St. John's pages failed and had no earlier copy
+        self.assertEqual(rows["NJB"]["url"], "https://www.laed.uscourts.gov/judges-information/judge/honorable-nannette-jolivette-brown")
+        long = rows["BSL"]
+        self.assertEqual((long["url"], long["sections"], long["docs"]), ("https://www.laed.uscourts.gov/judge/honorable-brandon-s-long", [], []))
+        self.assertEqual(long["contact"]["section"], "O")       # from the listing, since the page does not say
+        self.assertNotIn("A. Clerk", json.dumps(long))
         r = rows["NJB"]
         self.assertEqual(r["title"], "The Honorable Nannette Jolivette Brown")
         self.assertEqual(r["contact"], {"section": "G", "phone": "(504) 589-7505", "email": "efile-brown@laed.uscourts.gov",
@@ -89,14 +106,14 @@ class JudgePagesTest(unittest.TestCase):
         page = PAGE.replace("Stand when making an objection.", "Stand when making any objection.").replace(
             "</ul>\nLoose", '<li><a href="/sites/default/files/pdfs/brown/New Order.pdf">New Order</a></li></ul>\nLoose')
         data = self.run_once(page, today="2026-11-02")
-        r = data["judges"][0]
+        r = {x["code"]: x for x in data["judges"]}["NJB"]
         self.assertEqual(data["since"], "2026-10-20")
         self.assertEqual([s["changed"] for s in r["sections"]], ["", "2026-11-02"])
         self.assertEqual({d["title"]: d["first_seen"] for d in r["docs"]}, {"Standing Order": "2026-10-20", "New Order": "2026-11-02", "form": "2026-10-20"})
         self.assertEqual(r["changed"], "2026-11-02")
         again = self.run_once(page, today="2026-11-03")
         self.assertEqual(again["checked"], "2026-11-02")          # nothing changed: the file is left alone
-        later = self.run_once(page, today="2026-11-10")["judges"][0]
+        later = {x["code"]: x for x in self.run_once(page, today="2026-11-10")["judges"]}["NJB"]
         self.assertEqual(later["changed"], "2026-11-02")          # a week on, the file is rewritten with new checked dates only
         self.assertEqual(later["checked"], "2026-11-10")
 

@@ -334,8 +334,10 @@ def fetch(url: str) -> str:
 
 
 def find_pages(listing_html: str, judges: list[dict]) -> dict:
-    """Map judge code -> page URL. A link matches a judge when its address ends with the judge's name
-    ("...honorable-nannette-jolivette-brown") or, failing that, when its text names the judge."""
+    """Map judge code -> {"urls": addresses to try, "section": letter}. A link matches a judge when its address ends
+    with the judge's name ("...honorable-nannette-jolivette-brown") or, failing that, when its text names the judge.
+    The listing links each judge twice, once by section letter ("G") and once by name; the letter is kept. Its links
+    use /judge/<name>, which the court's site does not always serve, so /judges-information/judge/<name> is tried first."""
     root = parse(listing_html)
     start = root.find(lambda n: n.attrs.get("id") in ("main-content", "page-title"))
     scope = start.parent if start is not None and start.parent is not None else root
@@ -344,14 +346,17 @@ def find_pages(listing_html: str, judges: list[dict]) -> dict:
         url = absolute(a.attrs.get("href", ""))
         if url.startswith(BASE) and not DOC_RE.search(url):
             links.append((url, clean(a.text())))
+    letters = {u: t for u, t in links if re.fullmatch(r"[A-Z]{1,2}", t)}
     out = {}
     for j in judges:
         s = slug(j["name"])
         by_url = sorted({u for u, _ in links if u.rstrip("/").split("/")[-1] == s or u.rstrip("/").endswith("-" + s)})
         by_text = sorted({u for u, t in links if re.search(r"(?<![\w.])" + re.escape(j["name"]) + r"(?![\w])", t, re.I)})
-        hit = by_url or by_text
+        hit = (by_url or by_text)[:1]
         if hit:
-            out[j["code"]] = hit[0]
+            last = hit[0].rstrip("/").split("/")[-1]
+            urls = [BASE + JUDGE_PATH + last] + [u for u in hit if u != BASE + JUDGE_PATH + last]
+            out[j["code"]] = {"urls": urls, "section": letters.get(hit[0], "")}
     if len(out) < len(judges) or DEBUG:
         print(f"Matched {len(out)} of {len(judges)} judges on the listing. Links seen:", flush=True)
         for u, t in links[:120]:
@@ -405,21 +410,30 @@ def main(argv: list[str]) -> int:
         return 0
     rows = []
     for j in sorted(judges, key=lambda j: j["name"]):
-        url = pages.get(j["code"]) or prev.get(j["code"], {}).get("url", "")
-        if not url:
+        found = pages.get(j["code"], {})
+        urls = found.get("urls") or [prev.get(j["code"], {}).get("url", "")]
+        urls = [u for u in dict.fromkeys(urls + [prev.get(j["code"], {}).get("url", "")]) if u]
+        if not urls:
             print(f"{j['name']}: no page found on the listing", flush=True)
             if j["code"] in prev:
                 rows.append(prev[j["code"]])
             continue
-        time.sleep(PAUSE)
-        try:
-            html = fetch(url)
-            cur = read_page(html, url)
-        except Exception as e:  # noqa: BLE001
-            print(f"{j['name']}: {e} ({url})", flush=True)
+        html, url, errors = "", "", []
+        for u in urls:
+            time.sleep(PAUSE)
+            try:
+                html, url = fetch(u), u
+                break
+            except Exception as e:  # noqa: BLE001
+                errors.append(f"{e} ({u})")
+        if not html:
+            print(f"{j['name']}: " + "; ".join(errors), flush=True)
             if j["code"] in prev:
-                rows.append({**prev[j["code"]], "error": str(e)[:200]})
+                rows.append({**prev[j["code"]], "error": errors[-1][:200]})
             continue
+        cur = read_page(html, url)
+        if found.get("section") and not cur["contact"].get("section"):
+            cur["contact"]["section"] = found["section"]
         if DEBUG or not cur["sections"]:
             print(f"{j['name']}: {url}\n" + outline(html)[:6000 if DEBUG else 600], flush=True)
         row = {"code": j["code"], **merge(prev.get(j["code"]), cur, today)}
