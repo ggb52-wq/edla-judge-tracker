@@ -170,6 +170,9 @@ class UpdateTest(unittest.TestCase):
         self.assertNotIn(("2:26-cv-09005", "8"), outcomes)                               # no text yet
         self.assertEqual((outcomes[("2:26-cv-09003", "30")]["motion_doc"], outcomes[("2:26-cv-09003", "30")]["motion_filed"]), ("25", "2026-09-02"))
         self.assertEqual((outcomes[("2:26-cv-01880", "6")]["motion_doc"], outcomes[("2:26-cv-01880", "6")]["motion_filed"]), ("4", "2026-10-01"))
+        status = json.loads((self.tmp / "data/status.json").read_text())       # the check time the site shows
+        self.assertEqual(status["checked"], runs[-1]["at"])
+        self.assertEqual((status["rss_items"], status["searched"]), (RSS.count(b"<item>"), runs[-1]["at"]))
 
     def run_with_clock(self, advance):
         """Run the updater on a fake clock; advance(url, now) returns the seconds a response takes."""

@@ -598,10 +598,30 @@
   }
   const recentJudges = () => { try { return JSON.parse(store.get('edla-recent') || '[]'); } catch (e) { return []; } };
   const rememberJudge = (code) => store.set('edla-recent', JSON.stringify([code, ...recentJudges().filter((c) => c !== code)].slice(0, 5)));
+  // When the updater last read the court's feed: data/status.json, rewritten on every check (every 15 minutes), or
+  // failing that the latest run in the log. Times are Central, as written by the updater.
+  const STALE_MINUTES = 45;
+  const ctToday = () => new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Chicago' }).format(new Date());
+  const ctStamp = (iso) => {  // "10:46 AM", or "Oct 18, 10:46 PM" on another day
+    const h = +iso.slice(11, 13);
+    return (iso.slice(0, 10) === ctToday() ? '' : fmtShort(iso.slice(0, 10)) + ', ') + (h % 12 || 12) + ':' + iso.slice(14, 16) + (h < 12 ? ' AM' : ' PM');
+  };
+  function lastCheck() {
+    const st = state.data.status || {};
+    const at = st.checked || state.data.runs.map((r) => String(r.at)).reduce((a, b) => (b > a ? b : a), '');
+    if (!at) return null;
+    return { at, stamp: ctStamp(at), stale: (Date.now() - Date.parse(at)) / 60000 > STALE_MINUTES, paused: st.cl_paused_until || '', rss: st.rss_items };
+  }
   function lastRunText() {
-    const runs = state.data.runs.slice().sort((a, b) => String(b.at).localeCompare(String(a.at)));
-    const at = runs.length ? String(runs[0].at) : '';
-    return at ? 'updated ' + fmtShort(at.slice(0, 10)) + ', ' + at.slice(11, 16) + ' Central' : '';
+    const c = lastCheck();
+    return c ? (c.stale ? 'last feed check ' : 'feed checked ') + c.stamp + ' CT' : '';
+  }
+  function drawLive() {
+    const c = lastCheck(); const S = state.stats;
+    $('live').classList.toggle('stale', !!(c && c.stale));
+    $('live-text').textContent = c ? (c.stale ? 'Last check ' : 'Checked ') + c.stamp : 'Through ' + fmtShort(S.through);
+    $('live').title = (c ? `The court's docket feed was ${c.stale ? 'last ' : ''}read at ${c.stamp} Central. It is read every 15 minutes, around the clock`
+      + (c.stale ? '; the next check is overdue. ' : '. ') : '') + 'Orders and opinions are counted through ' + fmtDate(S.through) + '. Open the update log.';
   }
 
   // ------------------------------------------------------------ page: one judge
@@ -980,6 +1000,12 @@
   function renderLog() {
     document.title = 'Update log · EDLA Analyzer';
     const runs = state.data.runs.slice().sort((a, b) => String(b.at).localeCompare(String(a.at))).slice(0, 80);
+    const c = lastCheck();
+    $('log-status').textContent = (c ? (c.stale ? `The last feed check was at ${c.stamp} CT; the next is overdue. ` : `The feed was last checked at ${c.stamp} CT`
+      + (c.rss ? ` (${plural(c.rss, 'item', 'items')} on it)` : '') + '. ') : '')
+      + `Orders and opinions are counted through ${fmtDate(state.stats.through)}, the last full CourtListener search`
+      + (c && c.paused && c.paused > c.at ? `; CourtListener's rate limits pause its lookups until ${ctStamp(c.paused)} CT. ` : '. ')
+      + 'New docket entries show under Activity as soon as a check finds them.';
     $('t-log').replaceChildren(el('thead', {}, el('tr', {}, ...['Run (Central)', 'Orders added', 'Opinions added', 'Note'].map((c, i) => el('th', { textContent: c, className: i === 1 || i === 2 ? 'r' : '' })))),
       el('tbody', {}, ...runs.map((r) => el('tr', {}, el('td', { className: 'mono', textContent: String(r.at).slice(0, 16).replace('T', ' ') }), el('td', { className: 'num', textContent: fmt.int(+r.orders_added || 0) }),
         el('td', { className: 'num', textContent: fmt.int(+r.opinions_added || 0) }), el('td', { className: 'wrap', textContent: r.note || '' })))));
@@ -1083,7 +1109,8 @@
     });
     $('act-list').replaceChildren(...(list.length ? list : actRowsEl([], { empty: F.q || F.judge || F.kind ? 'Nothing matches these filters in this period.' : 'No docket activity on file yet.' })));
     $('act-more').hidden = shown.length >= rows.length;
-    $('act-live').textContent = 'Updated every 15 minutes' + (state.actChecked ? ' · checked ' + d3.timeFormat('%-I:%M %p')(state.actChecked) : '');
+    const chk = lastCheck();
+    $('act-live').textContent = chk ? (chk.stale ? 'Last feed check ' : 'Feed checked ') + chk.stamp + ' CT · every 15 minutes' : 'Feed checked every 15 minutes';
     $('act-note').textContent = `The court's feed gives each entry's docket event, not its text, so entries are labeled by event name. `
       + (A.feedStart ? `Every civil entry is on file since ${fmtDate(A.feedStart)}; ` : 'The site has just begun keeping every civil entry; ')
       + `before that, this page lists orders, written opinions, and motions only. Times are Central, when the clerk entered the item. Judges are the district judge on the case in the site's data.`;
@@ -1436,7 +1463,7 @@
     });
     document.querySelectorAll('.period button').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.period === state.period)));
     document.querySelectorAll('[data-since]').forEach((n) => { n.textContent = 'Since ' + fmtDate(S.since[n.dataset.since]); });
-    $('live-text').textContent = ['Through ' + fmtShort(S.through), lastRunText().replace(' Central', ' CT')].filter(Boolean).join(' · ');
+    drawLive();
     RENDER[state.page]();
     writeHash();
   }
@@ -1450,17 +1477,18 @@
   }
 
   async function load() {
-    const names = ['opinions', 'orders', 'judges', 'calendar', 'runs', 'outcomes', 'motions', 'judge_pages', 'feed', 'hearings'];
+    const names = ['opinions', 'orders', 'judges', 'calendar', 'runs', 'outcomes', 'motions', 'judge_pages', 'feed', 'hearings', 'status'];
     $('status').textContent = 'Loading the docket data…';
     try {
       const files = await Promise.all(names.map((n) => fetch('data/' + n + '.json', { cache: 'no-cache' })
-        .then((r) => { if (!r.ok) { if (n === 'outcomes' || n === 'motions' || n === 'feed' || n === 'hearings') return []; if (n === 'judge_pages') return { judges: [] }; throw new Error(n + ' ' + r.status); } return r.json(); })));
+        .then((r) => { if (!r.ok) { if (n === 'outcomes' || n === 'motions' || n === 'feed' || n === 'hearings') return []; if (n === 'judge_pages' || n === 'status') return n === 'status' ? {} : { judges: [] }; throw new Error(n + ' ' + r.status); } return r.json(); })));
       state.data = Object.fromEntries(names.map((n, i) => [n, files[i]]));
       state.cases = buildCases(state.data);
       state.pages = Object.fromEntries(((state.data.judge_pages || {}).judges || []).map((r) => [r.code, r]));
       $('status').textContent = '';
       readHash();  // again, now that judge names can be resolved
       update();
+      refreshData();
     } catch (e) {
       const s = $('status'); s.textContent = 'The data files did not load. Reload the page to try again.'; s.className = 'status err';
     }
@@ -1508,22 +1536,44 @@
   $('act-judge').addEventListener('change', (e) => react({ judge: e.target.value }));
   $('act-days').addEventListener('change', (e) => react({ days: e.target.value }));
   $('act-more').addEventListener('click', () => { state.act.limit += 500; renderActivity(); });
-  // While the Activity page is open, re-read the feed every five minutes so new entries appear without a reload.
-  setInterval(async () => {
-    if (!['activity', 'calendar'].includes(state.page) || document.visibilityState !== 'visible' || !state.data) return;
-    if (state.page === 'calendar') {
-      try {
-        const [h, feed] = await Promise.all(['hearings', 'feed'].map((n) => fetch('data/' + n + '.json', { cache: 'no-cache' }).then((r) => (r.ok ? r.json() : null))));
-        if (h) state.data.hearings = h; if (feed) state.data.feed = feed; actCache = null; calCache = null; renderCalendar();
-      } catch (e) { /* keep what is on screen */ }
-      return;
-    }
+  // Keep an open page current. Every five minutes (and when the tab comes back into view) the site reads data/status.json,
+  // which the updater rewrites on each 15-minute check; when the run log shows new data, it reads the data files again and
+  // redraws the page. On the published site these come straight from the repository (raw.githubusercontent.com, a few
+  // minutes behind at most), because GitHub Pages can take 15 minutes or more to publish a data commit; if that address
+  // fails, the site's own copy is used.
+  const RAW = /\.github\.io$/.test(location.hostname) ? 'https://raw.githubusercontent.com/ggb52-wq/edla-judge-tracker/main/data/' : '';
+  const LIVE_FILES = ['opinions', 'orders', 'calendar', 'outcomes', 'motions', 'feed', 'hearings'];
+  // v, the check time, makes each read after a new check a fresh address, so no cached copy from before it is served.
+  const getJson = (base, n, v) => fetch(base + n + '.json' + (v ? '?v=' + encodeURIComponent(v) : ''), { cache: 'no-cache' })
+    .then((r) => (r.ok ? r.json() : null)).catch(() => null);
+  const latestRun = (runs) => (runs || []).map((r) => String(r.at)).reduce((a, b) => (b > a ? b : a), '');
+  let refreshing = false;
+  async function refreshData() {
+    if (!state.data || refreshing || document.visibilityState !== 'visible') return;
+    refreshing = true;
     try {
-      const feed = await fetch('data/feed.json', { cache: 'no-cache' }).then((r) => (r.ok ? r.json() : null));
-      if (feed && JSON.stringify(feed[0]) !== JSON.stringify((state.data.feed || [])[0])) { state.data.feed = feed; actCache = null; calCache = null; }
-      state.actChecked = new Date(); renderActivity();
-    } catch (e) { /* keep what is on screen */ }
-  }, 5 * 60 * 1000);
+      let base = RAW || 'data/';
+      let st = await getJson(base, 'status');
+      if (!st && RAW) { base = 'data/'; st = await getJson(base, 'status'); }
+      if (!st || !st.checked || st.checked <= (state.data.status || {}).checked) return;
+      const runs = await getJson(base, 'runs', st.checked);
+      const fresh = runs && latestRun(runs) > latestRun(state.data.runs);
+      if (fresh) {
+        const files = await Promise.all(LIVE_FILES.map((n) => getJson(base, n, st.checked)));
+        if (files.some((f) => !f)) return;  // a partial read could mix two updates; try again next time
+        LIVE_FILES.forEach((n, i) => { state.data[n] = files[i]; });
+        state.data.runs = runs;
+        state.cases = buildCases(state.data);
+        actCache = null; calCache = null; lastPeriod = null;
+      }
+      state.data.status = st;
+      if (fresh) update();  // new data: recount and redraw the page in place
+      else { drawLive(); if (['judges', 'activity', 'log'].includes(state.page)) RENDER[state.page](); }  // the check time only
+    } finally { refreshing = false; }
+  }
+  setInterval(refreshData, 5 * 60 * 1000);
+  setInterval(() => { if (state.stats && document.visibilityState === 'visible') drawLive(); }, 60 * 1000);
+  document.addEventListener('visibilitychange', refreshData);
   $('t-rules').addEventListener('click', (e) => { const tr = e.target.closest('tbody tr.go'); if (tr && !e.target.closest('a,button')) location.hash = tr.dataset.href; });
   $('rq').addEventListener('input', (e) => { state.rq = e.target.value; if (state.stats) { renderRules(); writeHash(); } });
   $('hours-judge').addEventListener('change', (e) => { state.hoursJudge = e.target.value; drawHours(); });
