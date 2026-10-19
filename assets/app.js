@@ -6,22 +6,24 @@
   const iso = (d) => d.toISOString().slice(0, 10);
   const fmtDate = (s) => d3.utcFormat('%b %-d, %Y')(utc(s));
   const fmtShort = (s) => d3.utcFormat('%b %-d')(utc(s));
+  const fmtMDY = (s) => s.slice(5, 7) + '/' + s.slice(8, 10) + '/' + s.slice(2, 4);
   const fmtMonth = (m) => d3.utcFormat('%B %Y')(utc(m + '-01'));
   const addDays = (s, n) => { const d = utc(s); d.setUTCDate(d.getUTCDate() + n); return iso(d); };
   const daysBetween = (a, b) => Math.round((utc(b) - utc(a)) / 864e5);
   const later = (a, b) => (a > b ? a : b);
   const median = (v) => { const s = v.slice().sort((a, b) => a - b); const m = s.length / 2; return s.length ? (s.length % 2 ? s[Math.floor(m)] : (s[m - 1] + s[m]) / 2) : 0; };
   const css = (name) => getComputedStyle(document.documentElement).getPropertyValue(name).trim();
-  const heat = (v) => d3.interpolateRgb('#eef2f7', '#5b87bf')(Math.max(0, Math.min(1, (v - 0.05) / 0.35)));
   const $ = (id) => document.getElementById(id);
-  const el = (tag, props, ...kids) => { const n = document.createElement(tag); Object.assign(n, props || {}); n.append(...kids.flat().filter((k) => k != null)); return n; };
+  const el = (tag, props, ...kids) => { const n = document.createElement(tag); Object.assign(n, props || {}); n.append(...kids.flat().filter((k) => k != null && k !== false)); return n; };
   const store = { get: (k) => { try { return localStorage.getItem(k); } catch (e) { return null; } }, set: (k, v) => { try { localStorage.setItem(k, v); } catch (e) { /* storage unavailable */ } } };
+  const plural = (n, one, many) => fmt.int(n) + ' ' + (n === 1 ? one : (many || one + 's'));
 
   // Each written opinion falls in exactly one ruling type, checked in this order.
   const CATS = [['r12', 'Rule 12'], ['r56', 'Rule 56'], ['trial', 'Trial and post-trial'], ['rr', 'Magistrate R&Rs'], ['other', 'Other opinions']];
   const category = (o) => (Number(o.rr) ? 'rr' : Number(o.r12) ? 'r12' : Number(o.r56) ? 'r56' : Number(o.merits) ? 'trial' : 'other');
   const zeroCats = () => Object.fromEntries(CATS.map(([k]) => [k, 0]));
   const catLabel = Object.fromEntries(CATS);
+  const meritsOf = (c) => c.r12 + c.r56 + c.trial;
 
   // A motion ruling names a motion ("Order on Motion to Dismiss"); clerk events such as "Terminate Motions" do not count.
   const isMotion = (o) => !Number(o.rr) && /\bmotion\s+(to|for|in)\b/i.test(o.event || '');
@@ -41,24 +43,29 @@
     const hit = MCAT_RULES.find(([, re]) => re.test(o.event || ''));
     return hit ? hit[0] : 'othermotion';
   };
+  const MCAT_LONG = { r12: 'Rule 12 (dismissal, pleadings)', r56: 'Rule 56 (summary judgment)' };
 
   // Outcomes of motion rulings. "unclear" means the order text was read and no outcome was found.
   const OUTCOMES = { granted: 'Granted', granted_leave: 'Granted, leave to amend', partial: 'Granted in part', denied: 'Denied', denied_wop: 'Denied without prejudice',
     mixed: 'Mixed', moot: 'Moot', other: 'Other', unclear: 'Not determined' };
   const KNOWN = ['granted', 'granted_leave', 'partial', 'denied', 'denied_wop', 'mixed', 'moot', 'other'];
-  // Outcome families: the charts and rates group "granted, leave to amend" with granted and "denied without prejudice" with denied.
+  // Outcome families: rates and bars group "granted, leave to amend" with granted and "denied without prejudice" with denied.
   const FAMILY = { granted_leave: 'granted', denied_wop: 'denied' };
   const family = (v) => FAMILY[v] || v;
   const ocMatch = (o, f) => (f === 'known' ? KNOWN.includes(o.oc) : f === 'none' ? isMotion(o) && !KNOWN.includes(o.oc)
     : f === 'rest' ? ['mixed', 'moot', 'other'].includes(o.oc) : (f === 'granted' || f === 'denied') ? family(o.oc) === f : o.oc === f);
   const OC_SEGS = [['granted', 'Granted'], ['partial', 'Granted in part'], ['denied', 'Denied'], ['rest', 'Mixed, moot, or other']];
-  const ocColor = (v) => css('--o-' + (['granted', 'partial', 'denied'].includes(family(v)) ? family(v) : 'other'));
+  const ocVar = (k) => '--o-' + (k === 'rest' ? 'other' : k);
+  const ocColor = (v) => css(ocVar(['granted', 'partial', 'denied'].includes(family(v)) ? family(v) : 'rest'));
   const OC_SRC = { manual: 'entered by hand', docket_text: 'read from the docket text', opinion_text: 'read from the order', govinfo_text: 'read from the order (GovInfo copy)' };
   const FEW = 5;
   const GROUPS = { r12: 'Rule 12', r56: 'Rule 56', all: 'All motions' };
   const inGroup = (o, g) => isMotion(o) && (g === 'all' || Number(o[g]) === 1);
+  const TYPE_OPTS = [['', 'All rulings'], ['merits', 'Merits rulings'], ['r12', 'Rule 12'], ['r56', 'Rule 56'], ['trial', 'Trial and post-trial'], ['rr', 'Magistrate R&Rs'], ['other', 'Other opinions'],
+    ['|', 'Motion category'], ['motion', 'Any motion ruling'], ...MCATS.slice(2)];
+  const typeLabel = Object.fromEntries(TYPE_OPTS);
 
-  // Links go only to CourtListener: the opinion's PDF, else its docket-entry page, else a search by case number.
+  // Links go to the opinion's PDF (GovInfo or CourtListener), else its CourtListener docket entry, else a CourtListener search.
   const CL = 'https://www.courtlistener.com/';
   const CL_PDF = 'https://storage.courtlistener.com/recap/';
   const GOV_PDF = 'https://www.govinfo.gov/content/pkg/USCOURTS-laed-';
@@ -67,14 +74,19 @@
     : typeof o.url === 'string' && o.url.startsWith(CL + 'docket/') ? 'page' : 'search');
   const opinionLink = (o, kind) => (kind === 'pdf' ? o.pdf : kind === 'page' ? o.url
     : CL + '?type=r&court=laed&docket_number=' + encodeURIComponent(o.case));
-  const linkTitle = { pdf: 'Open this opinion (PDF)', page: 'Open this docket entry on CourtListener', search: 'Search CourtListener for this case' };
+  const linkTitle = { pdf: 'Open the opinion (PDF)', page: 'Open the docket entry on CourtListener', search: 'Search CourtListener for this case' };
   const recordLink = (o) => REPO + '/issues/new?template=outcome.yml&title=' + encodeURIComponent('Outcome: ' + o.case + ' doc ' + o.doc)
     + '&case=' + encodeURIComponent(o.case) + '&doc=' + encodeURIComponent(o.doc);
 
-  const TABS = ['overview', 'orders', 'opinions', 'outcomes', 'finder', 'motions', 'log'];
-  const emptyFinder = () => ({ q: '', type: '', oc: '', pdf: false, month: '' });
-  const state = { tab: 'overview', selected: store.get('edla-judge') || '', compare: [], period: '', bars: store.get('edla-bars') !== '0',
-    ocGroup: 'r12', finder: emptyFinder(), finderLimit: 100, pl: { q: '', type: '' }, mt: { view: 'past', q: '', limit: 100 }, editor: false, data: null, stats: null };
+  const PAGES = ['judges', 'judge', 'compare', 'opinions', 'motions', 'court', 'log'];
+  const NAV = { judges: 'judges', judge: 'judges', compare: 'judges', opinions: 'opinions', motions: 'motions', court: 'court', log: '' };
+  const VIEWS = [['orders', 'Civil orders'], ['opinions', 'Written opinions'], ['outcomes', 'Motion outcomes'], ['weekdays', 'Weekdays'], ['hours', 'Time of day']];
+  // Addresses from the earlier, tabbed layout still open the matching page.
+  const LEGACY = { overview: ['judges'], orders: ['court', 'orders'], outcomes: ['court', 'outcomes'], finder: ['opinions'] };
+  const emptyFinder = () => ({ q: '', judge: '', type: '', oc: '', pdf: false, month: '' });
+  const state = { page: 'judges', judge: '', cmp: [], vs: [], view: 'orders', period: '', f: emptyFinder(), limit: 100,
+    mt: { view: 'past', q: '', judge: '', limit: 100 }, jf: { q: '', type: '', judge: '' }, ocGroup: 'r12', hoursJudge: '', sorts: {},
+    editor: false, data: null, stats: null, cases: [] };
   const editorParam = new URLSearchParams(location.search).get('editor');
   if (editorParam === '1' || editorParam === '0') store.set('edla-editor', editorParam);
   state.editor = store.get('edla-editor') === '1';
@@ -95,6 +107,17 @@
     // Dates on which an order set a hearing, by case, for "was a hearing set before the ruling".
     const hearingDays = {};
     D.orders.forEach((o) => { if (/hearing/i.test(o.event || '') && /set/i.test(o.event || '')) (hearingDays[o.case] = hearingDays[o.case] || []).push(o.date); });
+    const tally = (G) => {
+      const K = G.filter((o) => KNOWN.includes(o.oc)); const n = (v) => K.filter((o) => family(o.oc) === v).length; const exact = (v) => K.filter((o) => o.oc === v).length;
+      const days = G.map((o) => o.days).filter((d) => d != null && d >= 0).sort((a, b) => a - b);
+      const pages = G.map((o) => o.pages).filter((p) => p != null);
+      const asked = G.filter((o) => o.hearing != null);
+      return { n: G.length, known: K.length, granted: n('granted'), partial: n('partial'), denied: n('denied'),
+        rest: K.length - n('granted') - n('partial') - n('denied'), grantedLeave: exact('granted_leave'), deniedWop: exact('denied_wop'), moot: exact('moot'),
+        nDays: days.length, medDays: days.length ? median(days) : null, p25: days.length >= 4 ? d3.quantileSorted(days, 0.25) : null, p75: days.length >= 4 ? d3.quantileSorted(days, 0.75) : null,
+        nPages: pages.length, medPages: pages.length ? median(pages) : null,
+        nHearing: asked.length, hearings: asked.filter((o) => o.hearing).length };
+    };
     const opRows = [];
     const opinions = D.judges.map((j) => {
       const s = later(j.bench_start, opStart);
@@ -112,24 +135,11 @@
       const ch = R.filter((o) => !Number(o.rr));
       const mer = ch.filter((o) => Number(o.merits));
       const ds = [...new Set(R.map((o) => o.date))].sort();
-      let gap = 0; let prev = s;
-      ds.forEach((d) => { gap = Math.max(gap, daysBetween(prev, d)); prev = d; });
       const wd = workdays(s, through).length;
       const row = { name: j.name, code: j.code, start: s, working_days: wd, total: R.length, rr: R.length - ch.length, district: ch.length,
         cases: new Set(R.map((o) => o.case)).size, days_with: ds.length, per_week: wd ? ch.length / (wd / 5) : 0, merits: mer.length,
-        merits_month: wd ? mer.length / (wd / 21) : 0, r12: mer.filter((o) => Number(o.r12)).length, r56: mer.filter((o) => Number(o.r56)).length, gap, mix,
-        pdf: R.filter((o) => linkKind(o) === 'pdf').length };
-      const tally = (G) => {
-        const K = G.filter((o) => KNOWN.includes(o.oc)); const n = (v) => K.filter((o) => family(o.oc) === v).length; const exact = (v) => K.filter((o) => o.oc === v).length;
-        const days = G.map((o) => o.days).filter((d) => d != null && d >= 0).sort((a, b) => a - b);
-        const pages = G.map((o) => o.pages).filter((p) => p != null);
-        const asked = G.filter((o) => o.hearing != null);
-        return { n: G.length, known: K.length, granted: n('granted'), partial: n('partial'), denied: n('denied'),
-          rest: K.length - n('granted') - n('partial') - n('denied'), grantedLeave: exact('granted_leave'), deniedWop: exact('denied_wop'), moot: exact('moot'),
-          nDays: days.length, medDays: days.length ? median(days) : null, p25: days.length >= 4 ? d3.quantileSorted(days, 0.25) : null, p75: days.length >= 4 ? d3.quantileSorted(days, 0.75) : null,
-          nPages: pages.length, medPages: pages.length ? median(pages) : null,
-          nHearing: asked.length, hearings: asked.filter((o) => o.hearing).length };
-      };
+        merits_month: wd ? mer.length / (wd / 21) : 0, r12: mer.filter((o) => Number(o.r12)).length, r56: mer.filter((o) => Number(o.r56)).length, mix,
+        last: ds.length ? ds[ds.length - 1] : '', pdf: R.filter((o) => linkKind(o) === 'pdf').length };
       Object.keys(GROUPS).forEach((g) => { const t = tally(R.filter((o) => inGroup(o, g))); Object.keys(t).forEach((k) => { row[g + '_' + k] = t[k]; }); });
       row.cats = Object.fromEntries(MCATS.map(([k]) => [k, tally(R.filter((o) => o.mcat === k))]));
       row.motions = tally(R.filter((o) => isMotion(o)));
@@ -140,6 +150,10 @@
       row.written_window = W.length; row.written_motions = W.filter((o) => isMotion(o)).length;
       return row;
     });
+    // Outcomes pooled across every judge, for the "all judges" comparison bars.
+    const pool = (get) => { const T = opinions.map(get); const out = {}; ['n', 'known', 'granted', 'partial', 'denied', 'rest', 'nDays'].forEach((k) => { out[k] = d3.sum(T, (t) => t[k]); }); return out; };
+    const pooled = { motions: pool((r) => r.motions), ...Object.fromEntries(MCATS.map(([k]) => [k, pool((r) => r.cats[k])])) };
+    Object.keys(GROUPS).forEach((g) => { pooled['g_' + g] = pool((r) => ({ n: r[g + '_n'], known: r[g + '_known'], granted: r[g + '_granted'], partial: r[g + '_partial'], denied: r[g + '_denied'], rest: r[g + '_rest'], nDays: 0 })); });
 
     const months = [];
     for (let d = utc(opStart.slice(0, 7) + '-01'); iso(d) <= through; d.setUTCMonth(d.getUTCMonth() + 1)) months.push(iso(d).slice(0, 7));
@@ -153,6 +167,7 @@
     const allDays = workdays(orStart, through);
     const last10 = allDays.slice(-10)[0] || orStart;
     const hours = { all: new Array(24).fill(0), by: {} };
+    const dowAll = [0, 0, 0, 0, 0, 0, 0];
     const orders = D.judges.map((j, i) => {
       const s = later(j.bench_start, orStart);
       const R = D.orders.filter((o) => o.judge === j.code && o.date >= s && o.date <= through);
@@ -163,7 +178,7 @@
       const wd = workdays(s, through).length;
       const cases = new Set(R.map((o) => o.case)).size;
       const dow = [0, 0, 0, 0, 0, 0, 0];
-      R.forEach((o) => { dow[utc(o.date).getUTCDay()] += 1; });
+      R.forEach((o) => { const w = utc(o.date).getUTCDay(); dow[w] += 1; dowAll[w] += 1; });
       const share = (k) => (R.length ? dow[k] / R.length : 0);
       const textOrders = R.filter((o) => /\btext order\b/i.test(o.event || '')).length;
       const motionOrders = R.filter((o) => /\bmotion\s+(to|for|in)\b/i.test(o.event || '')).length;
@@ -174,6 +189,8 @@
         text_orders: textOrders, motion_orders: motionOrders,
         written_share: R.length ? op.written_window / R.length : 0, written_motion_share: motionOrders ? Math.min(1, op.written_motions / motionOrders) : 0 };
     });
+    const dowTotal = d3.sum(dowAll);
+    const dowCourt = Object.fromEntries([['mon', 1], ['tue', 2], ['wed', 3], ['thu', 4], ['fri', 5]].map(([k, w]) => [k, dowTotal ? dowAll[w] / dowTotal : 0]));
 
     const monday = (s) => { const d = utc(s); d.setUTCDate(d.getUTCDate() - ((d.getUTCDay() + 6) % 7)); return iso(d); };
     const wdays = {};
@@ -210,25 +227,22 @@
     }).sort((a, b) => (b.daysPast || -1) - (a.daysPast || -1) || b.date.localeCompare(a.date));
     const motionsSince = (D.motions || []).reduce((s, m) => (s && s < m.date ? s : m.date), '');
     const byJudge = [...D.judges.map((j) => ({ name: j.name, code: j.code })), { name: 'Judge not yet known', code: '' }].map((j) => {
-      const M = motions.filter((m) => m.judge === j.code);
+      const M = motions.filter((m) => (m.judge || '') === j.code);
       const P = M.filter((m) => m.past);
       return { ...j, seen: M.length, dated: M.filter((m) => m.submit).length, awaiting: M.filter((m) => !m.ruled).length, past: P.length,
         med_past: P.length ? median(P.map((m) => m.daysPast)) : 0, ruled: M.filter((m) => m.ruled).length };
     }).filter((j) => j.code || j.seen);
     const sum = (rows, k) => d3.sum(rows, (r) => r[k]);
-    // A court median of grant rates is shown only when at least three judges each have FEW or more coded outcomes.
-    const rate = (r, cat) => (r.cats[cat].known >= FEW ? r.cats[cat].granted / r.cats[cat].known : null);
     const medOf = (vals, min = 1) => { const v = vals.filter((x) => x != null); return v.length >= min ? median(v) : null; };
     return {
-      through, names, opinions, orders, weekly, recent, monthly, hours, since: { orders: orStart, opinions: opStart }, workingDays: allDays.length,
+      through, names, opinions, orders, weekly, recent, monthly, hours, pooled, dowCourt, since: { orders: orStart, opinions: opStart }, workingDays: allDays.length,
       motions, motionsSince, motionsByJudge: byJudge,
       totals: {
         orders: sum(orders, 'orders'), perDay: allDays.length ? sum(orders, 'orders') / allDays.length : 0,
         opinions: sum(opinions, 'total'), merits: sum(opinions, 'merits'), motions: sum(opinions, 'all_n'), known: sum(opinions, 'all_known'),
         pdf: sum(opinions, 'pdf'),
         medPerDay: median(orders.map((r) => r.per_day)), medMerits: median(opinions.map((r) => r.merits_month)),
-        medPerWeek: median(opinions.map((r) => r.per_week)),
-        medRate: Object.fromEntries(MCATS.map(([k]) => [k, medOf(opinions.map((r) => rate(r, k)), 3)])),
+        medPerWeek: median(opinions.map((r) => r.per_week)), medOrders: median(orders.map((r) => r.orders)), medTotal: median(opinions.map((r) => r.total)),
         medDays: medOf(opinions.map((r) => (r.motions.nDays >= FEW ? r.motions.medDays : null)), 3),
         medWrittenShare: median(orders.map((r) => r.written_share)),
         medPages: medOf(opinions.map((r) => (r.n_pages >= FEW ? r.med_pages : null)), 3),
@@ -236,686 +250,888 @@
     };
   }
 
-  // ------------------------------------------------------------ navigation helpers
-  function goFinder(preset, judge) {
-    if (judge !== undefined) state.selected = judge;
-    state.finder = { ...emptyFinder(), ...preset }; state.finderLimit = 100;
-    show('finder');
+  // Every case seen in the data, for looking up a case number: its name, its judge, and its latest docket date.
+  function buildCases(D) {
+    const names = Object.fromEntries(D.judges.map((j) => [j.code, j.name]));
+    const m = new Map();
+    const add = (r, kind) => {
+      if (!r.case) return;
+      let c = m.get(r.case); if (!c) { c = { case: r.case, title: '', judge: '', last: '', opinions: 0, orders: 0 }; m.set(r.case, c); }
+      if (r.title && !c.title) c.title = r.title;
+      if (names[r.judge] && (r.date >= c.last || !c.judge)) c.judge = r.judge;
+      if (r.date > c.last) c.last = r.date;
+      if (kind === 'op') c.opinions += 1; else if (kind === 'or') c.orders += 1;
+    };
+    D.orders.forEach((r) => add(r, 'or')); D.opinions.forEach((r) => add(r, 'op')); (D.motions || []).forEach((r) => add(r, 'mo'));
+    return [...m.values()].map((c) => { const p = c.case.match(/:(\d{2})-[a-z]+-0*(\d+)/i); return { ...c, yy: p ? p[1] : '', num: p ? p[2] : '', lt: (c.case + ' ' + c.title).toLowerCase() }; });
   }
-  const tipHint = (lines, hint) => lines.concat([{ hint }]);
 
-  // ------------------------------------------------------------ tables
+  // ------------------------------------------------------------ addresses
+  // #judges · #judge/BSL · #compare/BSL,EEF · #opinions?judge=BSL&type=r12&oc=granted&q=... · #motions · #court/outcomes · #log
+  // Any of them can carry period=30 or period=90. #overview?judge=BSL and #judge=Africk from the earlier layout still work.
+  const judgeCode = (v) => { if (!state.data || !v) return ''; const s = String(v).toLowerCase().replace(/[-_]/g, ' '); const j = state.data.judges.find((x) => x.code.toLowerCase() === s || x.name.toLowerCase() === s); return j ? j.code : ''; };
+  function readHash() {
+    let raw = location.hash.slice(1);
+    if (raw && !raw.includes('?') && raw.includes('=')) raw = '?' + raw;
+    const [path, query] = raw.split('?');
+    const p = new URLSearchParams(query || '');
+    let parts = decodeURIComponent(path || '').split('/').filter(Boolean);
+    if (LEGACY[parts[0]]) parts = LEGACY[parts[0]].concat(parts.slice(1));
+    let page = PAGES.includes(parts[0]) ? parts[0] : 'judges';
+    if (page === 'judges' && p.get('judge')) { page = 'judge'; parts = ['judge', p.get('judge')]; }
+    if (p.has('vs')) state.vs = p.get('vs').split(',').map(judgeCode).filter(Boolean).slice(0, 3);
+    if (p.has('period')) state.period = ['30', '90'].includes(p.get('period')) ? p.get('period') : '';
+    state.page = page;
+    if (page === 'judge') state.judge = judgeCode(parts[1] || p.get('judge'));
+    if (page === 'compare') state.cmp = [...new Set((parts[1] || '').split(',').map(judgeCode).filter(Boolean))].slice(0, 4);
+    if (page === 'court') state.view = VIEWS.some(([k]) => k === parts[1]) ? parts[1] : 'orders';
+    if (page === 'opinions') {
+      const f = emptyFinder(); f.q = p.get('q') || ''; f.judge = judgeCode(p.get('judge')); f.type = typeLabel[p.get('type')] && p.get('type') !== '|' ? p.get('type') : '';
+      f.oc = p.get('oc') || ''; f.pdf = p.get('pdf') === '1'; f.month = /^\d{4}-\d{2}$/.test(p.get('month') || '') ? p.get('month') : '';
+      state.f = f;
+    }
+    if (page === 'motions') { state.mt.judge = judgeCode(p.get('judge')); state.mt.view = ['past', 'pending', 'all'].includes(p.get('view')) ? p.get('view') : 'past'; }
+  }
+  function hashFor(page, o = {}) {
+    const p = new URLSearchParams(); let path = page;
+    if (page === 'judge') path += '/' + o.judge;
+    if (page === 'compare' && o.cmp && o.cmp.length) path += '/' + o.cmp.join(',');
+    if (page === 'court') path += '/' + (o.view || 'orders');
+    if (page === 'opinions' && o.f) { const f = o.f; if (f.q) p.set('q', f.q); if (f.judge) p.set('judge', f.judge); if (f.type) p.set('type', f.type); if (f.oc) p.set('oc', f.oc); if (f.pdf) p.set('pdf', '1'); if (f.month) p.set('month', f.month); }
+    if (page === 'motions' && o.mt) { if (o.mt.judge) p.set('judge', o.mt.judge); if (o.mt.view && o.mt.view !== 'past') p.set('view', o.mt.view); }
+    if (state.period) p.set('period', state.period);
+    return '#' + path + (p.toString() ? '?' + p : '');
+  }
+  const currentHash = () => hashFor(state.page, { judge: state.judge, cmp: state.cmp, view: state.view, f: state.f, mt: state.mt });
+  const judgeHref = (code) => hashFor('judge', { judge: code });
+  const findHref = (preset) => hashFor('opinions', { f: { ...emptyFinder(), ...preset } });
+  function writeHash() { const h = currentHash(); if (location.hash !== h) history.replaceState(null, '', h); }
+  const judgesAlpha = () => state.data.judges.slice().sort((a, b) => a.name.localeCompare(b.name));
+
+  // ------------------------------------------------------------ tooltip: one floating box for charts and [data-tip] elements
+  const tipEl = $('tip'); let tipFrom = '';
+  function tipShow(lines, x, y, from) {
+    tipEl.replaceChildren(...lines.map((l, i) => {
+      if (l && typeof l === 'object') { const k = el('i'); k.style.background = l.color; return el('div', { className: 'row' }, k, el('b', { textContent: l.value }), el('span', { textContent: l.label })); }
+      return el('div', { className: i === 0 ? 'tk' : /^(Click|Open)/.test(l) ? 'th' : '', textContent: l });
+    }));
+    tipEl.hidden = false; tipFrom = from || 'chart';
+    const r = tipEl.getBoundingClientRect();
+    let L = x + 14; let T = y + 16;
+    if (L + r.width > innerWidth - 8) L = Math.max(8, x - r.width - 14);
+    if (T + r.height > innerHeight - 8) T = Math.max(8, y - r.height - 12);
+    tipEl.style.left = L + 'px'; tipEl.style.top = T + 'px';
+  }
+  function tipHide() { tipEl.hidden = true; tipFrom = ''; }
+  document.addEventListener('pointermove', (e) => {
+    const t = e.target.closest && e.target.closest('[data-tip]');
+    if (t) tipShow(t.dataset.tip.split('\n'), e.clientX, e.clientY, 'attr'); else if (tipFrom === 'attr') tipHide();
+  });
+  document.addEventListener('focusin', (e) => { const t = e.target.closest && e.target.closest('[data-tip]'); if (t) { const r = t.getBoundingClientRect(); tipShow(t.dataset.tip.split('\n'), r.left, r.bottom, 'attr'); } });
+  document.addEventListener('focusout', () => { if (tipFrom === 'attr') tipHide(); });
+  document.addEventListener('scroll', tipHide, { passive: true });
+
+  // ------------------------------------------------------------ small components
   const pctOf = (n, d) => (d ? fmt.pct0(n / d) : '—');
-  const ocCols = (g, label) => [
-    { k: g + '_n', label: 'Rulings', f: fmt.int, sum: true, group: label, gstart: true, link: (r) => ({ type: g === 'all' ? 'motion' : g }) },
-    { k: g + '_known', label: 'Known', f: fmt.int, sum: true, group: label, link: (r) => ({ type: g === 'all' ? 'motion' : g, oc: 'known' }) },
-    { k: g + '_granted', label: 'Granted', f: fmt.int, sum: true, group: label, link: (r) => ({ type: g === 'all' ? 'motion' : g, oc: 'granted' }) },
-    { k: g + '_partial', label: 'In part', f: fmt.int, sum: true, group: label, link: (r) => ({ type: g === 'all' ? 'motion' : g, oc: 'partial' }) },
-    { k: g + '_denied', label: 'Denied', f: fmt.int, sum: true, group: label, link: (r) => ({ type: g === 'all' ? 'motion' : g, oc: 'denied' }) },
-    { k: g + '_rest', label: 'Other', f: fmt.int, sum: true, group: label, title: 'Mixed, moot, or other', link: (r) => ({ type: g === 'all' ? 'motion' : g, oc: 'rest' }) },
-  ];
-  const TABLES = {
-    'or-table': { src: 'orders', sort: { k: 'per_day', dir: -1 }, pick: true, cols: [
-      { k: 'name', label: 'Judge' },
-      { k: 'working_days', label: 'Days', f: fmt.int, title: 'Working days in the period: weekdays other than court holidays, from the judge\'s first day on the bench' },
-      { k: 'orders', label: 'Orders', f: fmt.int, bar: true, sum: true, title: 'Civil orders entered in the period' },
-      { k: 'per_day', label: 'Per day', f: fmt.d1, bar: true, title: 'Orders per working day' },
-      { k: 'cases', label: 'Cases', f: fmt.int, sum: true, title: 'Distinct cases with at least one order' },
-      { k: 'per_case', label: 'Per case', f: fmt.d1, title: 'Orders per case with orders' },
-      { k: 'last10', label: 'Last 10 days', f: fmt.int, bar: true, sum: true, title: 'Orders in the last 10 working days' },
-      { k: 'spark', label: 'Trend', spark: true, title: 'Orders per working day, week by week' },
-    ] },
-    'op-table': { src: 'opinions', sort: { k: 'merits_month', dir: -1 }, pick: true, cols: [
-      { k: 'name', label: 'Judge' },
-      { k: 'working_days', label: 'Days', f: fmt.int, title: 'Working days in the period' },
-      { k: 'total', label: 'Opinions', f: fmt.int, bar: true, sum: true, link: () => ({}), title: 'Entries on PACER\'s Written Opinions Report' },
-      { k: 'rr', label: 'R&Rs', f: fmt.int, sum: true, link: () => ({ type: 'rr' }), title: 'Magistrate judges\' reports and recommendations in the judge\'s cases' },
-      { k: 'district', label: 'By judge', f: fmt.int, sum: true, title: 'Opinions other than magistrate R&Rs' },
-      { k: 'cases', label: 'Cases', f: fmt.int, sum: true, title: 'Distinct cases with an opinion' },
-      { k: 'days_with', label: 'Days with', f: fmt.int, title: 'Calendar days on which an opinion was entered' },
-      { k: 'per_week', label: 'Per week', f: fmt.d2, bar: true, title: 'Opinions by the judge per five working days' },
-      { k: 'merits', label: 'Merits', f: fmt.int, bar: true, sum: true, link: () => ({ type: 'merits' }), title: 'Rule 12, Rule 56, and trial or post-trial rulings' },
-      { k: 'merits_month', label: 'Merits / mo.', f: fmt.d2, bar: true, title: 'Merits rulings per 21 working days' },
-      { k: 'r12', label: 'Rule 12', f: fmt.int, sum: true, link: () => ({ type: 'r12' }), title: 'Rulings on motions to dismiss or for judgment on the pleadings' },
-      { k: 'r56', label: 'Rule 56', f: fmt.int, sum: true, link: () => ({ type: 'r56' }), title: 'Rulings on motions for summary judgment' },
-      { k: 'med_pages', label: 'Pages', f: (v) => (v ? fmt.med(v) : '—'), title: 'Median PDF length of opinions with a page count on file',
-        hide: (all) => all.filter((r) => r.n_pages >= FEW).length < 8 },
-    ] },
-    'dow-table': { src: 'orders', sort: { k: 'name', dir: 1 }, pick: true, cols: [
-      { k: 'name', label: 'Judge' },
-      ...[['mon', 'Mon'], ['tue', 'Tue'], ['wed', 'Wed'], ['thu', 'Thu'], ['fri', 'Fri']].map(([k, label]) => ({ k, label, f: fmt.pct0, heat: true })),
-    ] },
-    'mj-table': { src: 'motionsByJudge', sort: { k: 'past', dir: -1 }, pick: true, noMedian: true, cols: [
-      { k: 'name', label: 'Judge' },
-      { k: 'seen', label: 'Motions seen', f: fmt.int, sum: true, title: 'Civil motions recorded from the feed' },
-      { k: 'dated', label: 'With date', f: fmt.int, sum: true, title: 'Motions whose submission date has been read from the docket text' },
-      { k: 'ruled', label: 'Ruling found', f: fmt.int, sum: true, title: 'Motions matched to a later order or opinion in the same case' },
-      { k: 'awaiting', label: 'Awaiting', f: fmt.int, sum: true, title: 'Motions with no ruling found yet, whether or not past submission' },
-      { k: 'past', label: 'Past submission', f: fmt.int, bar: true, sum: true, title: 'Past the submission date with no ruling found' },
-      { k: 'med_past', label: 'Median days past', f: (v) => (v ? fmt.med(v) : '—'), title: 'Median days since the submission date, for motions past it' },
-    ] },
-    'oc-table': { src: 'opinions', sort: { k: 'name', dir: 1 }, pick: true, noMedian: true, cols: [
-      { k: 'name', label: 'Judge', group: '' }, ...ocCols('r12', 'Rule 12 rulings'), ...ocCols('r56', 'Rule 56 rulings'), ...ocCols('all', 'All motion rulings'),
-    ] },
-  };
+  // Readable label ink for a fill color.
+  const inkOn = (c) => { const l = d3.lab(c).l; return l > 62 ? '#0a0d12' : '#ffffff'; };
 
-  function tableRows(id) {
-    const t = TABLES[id]; const s = t.sort;
-    return state.stats[t.src].slice().sort((a, b) => {
-      const x = a[s.k]; const y = b[s.k];
-      return (typeof x === 'number' ? x - y : String(x).localeCompare(String(y))) * s.dir;
+  // A 100% bar of coded outcomes. opts: { href(k) for links, labels: true to print shares inside wide segments, thin, few }
+  function ocBar(t, opts = {}) {
+    if (!t || !t.known) return el('div', { className: 'ocbar empty' + (opts.thin ? ' thin' : ''), textContent: opts.thin ? '' : (t && t.n ? 'outcomes not coded yet' : 'no rulings') });
+    const few = !opts.thin && t.known < FEW;
+    const bar = el('div', { className: 'ocbar' + (opts.thin ? ' thin' : '') + (few ? ' few' : '') });
+    const who = opts.who ? opts.who + ': ' : '';
+    OC_SEGS.forEach(([k, label]) => {
+      const v = t[k]; if (!v) return;
+      const share = v / t.known;
+      const detail = k === 'granted' && t.grantedLeave ? `, ${fmt.int(t.grantedLeave)} with leave to amend` : k === 'denied' && t.deniedWop ? `, ${fmt.int(t.deniedWop)} without prejudice` : k === 'rest' && t.moot ? `, ${fmt.int(t.moot)} moot` : '';
+      const tip = [who + label + ' ' + fmt.pct0(share), `${fmt.int(v)} of ${plural(t.known, 'coded ruling')}${detail}`].concat(few ? ['Fewer than ' + FEW + ' coded rulings'] : [], opts.href ? ['Click to list these opinions'] : []).join('\n');
+      const seg = opts.href ? el('a', { href: opts.href(k) }) : el('span');
+      seg.className = 'seg-' + k; seg.style.width = `calc(${share * 100}% - ${2 * (1 - share)}px)`; seg.dataset.tip = tip;
+      if (opts.labels && !few && share >= 0.17) { seg.textContent = fmt.pct0(share); seg.style.color = inkOn(css(ocVar(k))); }
+      if (opts.href) seg.setAttribute('aria-label', label + ' ' + fmt.pct0(share) + ', ' + fmt.int(v) + ' of ' + fmt.int(t.known));
+      bar.append(seg);
+    });
+    return bar;
+  }
+  // Where one judge's figure falls among all judges: a tick per judge, the median, and this judge as a dot.
+  function strip(values, mine, format, label) {
+    const v = values.filter((x) => x != null && Number.isFinite(x));
+    if (v.length < 3 || mine == null) return null;
+    const hi = d3.max(v) || 1; const pos = (x) => (x / hi) * 100;
+    const med = median(v);
+    const box = el('div', { className: 'strip' });
+    box.dataset.tip = [label, 'This judge ' + format(mine) + ' · median judge ' + format(med), 'All ' + v.length + ' judges: ' + format(d3.min(v)) + ' to ' + format(hi)].join('\n');
+    box.append(el('span', { className: 'base' }), ...v.map((x) => { const i = el('i'); i.style.left = pos(x) + '%'; return i; }));
+    const m = el('b'); m.style.left = pos(med) + '%'; const me = el('em'); me.style.left = pos(mine) + '%';
+    box.append(m, me);
+    return box;
+  }
+  // A headline figure: label, value, a line of context, and optionally the position strip.
+  function kpi({ label, value, unit, sub, na, stripEl, href, tip }) {
+    const node = el(href ? 'a' : 'div', { className: 'kpi' + (na ? ' na' : '') });
+    if (href) node.href = href;
+    if (tip) node.title = tip;
+    node.append(el('span', { className: 'l', textContent: label }), el('span', { className: 'v' }, value, unit ? el('small', { textContent: unit }) : null));
+    if (sub) node.append(el('span', { className: 's' }, sub));
+    if (stripEl) node.append(stripEl);
+    return node;
+  }
+  const fact = (k, v, sub) => el('div', { className: 'fact' }, el('span', { textContent: k }), el('b', { textContent: v }), el('small', { textContent: sub }));
+  function caseLink(o) {
+    const kind = linkKind(o);
+    const a = el('a', { className: 'case', href: opinionLink(o, kind), target: '_blank', rel: 'noopener noreferrer', textContent: o.case + ' · ' + o.doc, title: linkTitle[kind] });
+    return kind === 'pdf' ? [a, el('span', { className: 'tag', textContent: 'PDF' })] : [a];
+  }
+  function outcomePill(o) {
+    if (!o.oc) return isMotion(o) ? el('span', { className: 'pill none', textContent: 'Not coded', title: 'No outcome on file yet' }) : null;
+    const i = el('i'); i.style.background = o.oc === 'unclear' ? 'transparent' : ocColor(o.oc);
+    if (o.oc === 'unclear') i.style.boxShadow = 'inset 0 0 0 1px ' + css('--ink-3');
+    return el('span', { className: 'pill', title: 'Outcome ' + (OC_SRC[o.ocSrc] || 'on file') }, i, OUTCOMES[o.oc] || o.oc, o.ocSrc === 'manual' ? el('small', { textContent: 'hand' }) : null);
+  }
+  const numLink = (text, href, title) => el('a', { className: 'n', href, textContent: text, title: title || 'List these opinions' });
+  const legendItem = (color, label, kind) => { const i = el('i', { className: kind || '' }); i.style.background = color; return el('span', {}, i, label); };
+  function fillTypeSelect(sel) {
+    if (sel.options.length) return;
+    let group = null;
+    TYPE_OPTS.forEach(([k, label]) => { if (k === '|') { group = el('optgroup', { label }); sel.append(group); } else (group || sel).append(new Option(label, k)); });
+  }
+
+  // Filters used by the opinion search and the judge page's list. type: a ruling type, "merits", "motion", or a motion category.
+  const typeMatch = (o, type) => !type || (type === 'merits' ? Number(o.merits) && !Number(o.rr) : type === 'motion' ? isMotion(o) : mcatLabel[type] ? o.mcat === type : o.cat === type);
+  const textMatch = (o, q) => !q || (o.case + ' ' + o.title + ' ' + o.event).toLowerCase().includes(q);
+
+  // ------------------------------------------------------------ charts
+  function frame(box, H, label) {
+    const W = Math.max(220, Math.floor(box.clientWidth || 300));
+    const svg = d3.create('svg').attr('viewBox', `0 0 ${W} ${H}`).attr('width', W).attr('height', H).attr('role', 'img').attr('aria-label', label);
+    box.replaceChildren(svg.node());
+    return { svg, W };
+  }
+  // Chart colors are CSS variables set as styles, so a theme switch or the print sheet restyles a drawn chart.
+  const axisStyle = (g) => g.attr('font-size', null).attr('font-family', null)
+    .call((a) => a.select('.domain').remove()).call((a) => a.selectAll('line').attr('stroke', null).style('stroke', 'var(--line)'));
+  const emptyChart = (box, H, text) => { const { svg, W } = frame(box, H, text); svg.append('text').attr('class', 'empty').attr('x', W / 2).attr('y', H / 2).attr('text-anchor', 'middle').text(text); };
+
+  // Lines over weeks; a crosshair snaps to the nearest week and lists every series.
+  function lineChart(box, { rows, series, fmtY, H = 168, label, href }) {
+    if (rows.length < 2) { emptyChart(box, H, 'Not enough weeks in this period'); return; }
+    const m = { t: 8, r: 12, b: 22, l: 30 };
+    const { svg, W } = frame(box, H, label);
+    const x = d3.scaleUtc(d3.extent(rows, (r) => r.dt), [m.l, W - m.r]);
+    const y = d3.scaleLinear([0, (d3.max(rows, (r) => d3.max(series, (s) => s.get(r))) || 1) * 1.08], [H - m.b, m.t]).nice(4);
+    svg.append('g').attr('transform', `translate(0,${H - m.b})`).call(d3.axisBottom(x).ticks(Math.max(2, Math.min(rows.length, Math.floor(W / 80)))).tickFormat(d3.utcFormat('%b %-d')).tickSize(0).tickPadding(8)).call(axisStyle);
+    svg.append('g').attr('transform', `translate(${m.l},0)`).call(d3.axisLeft(y).ticks(4).tickSize(-(W - m.l - m.r)).tickPadding(6).tickFormat(d3.format('~g'))).call(axisStyle);
+    const last = rows[rows.length - 1];
+    series.slice().reverse().forEach((s) => {
+      svg.append('path').datum(rows).attr('fill', 'none').style('stroke', s.color).attr('stroke-width', 2).attr('stroke-linejoin', 'round').attr('stroke-linecap', 'round')
+        .attr('d', d3.line().x((r) => x(r.dt)).y((r) => y(s.get(r))));
+      svg.append('circle').attr('cx', x(last.dt)).attr('cy', y(s.get(last))).attr('r', 4).style('fill', s.color).style('stroke', 'var(--panel)').attr('stroke-width', 2);
+    });
+    const rule = svg.append('line').attr('y1', m.t).attr('y2', H - m.b).style('stroke', 'var(--ink-3)').attr('stroke-width', 1).attr('opacity', 0);
+    const hit = svg.append('rect').attr('x', m.l).attr('y', 0).attr('width', W - m.l - m.r).attr('height', H - m.b).attr('fill', 'transparent')
+      .on('pointermove', (e) => {
+        const t = x.invert(d3.pointer(e)[0]);
+        const r = rows.reduce((best, q) => (Math.abs(q.dt - t) < Math.abs(best.dt - t) ? q : best), rows[0]);
+        rule.attr('x1', x(r.dt)).attr('x2', x(r.dt)).attr('opacity', 1);
+        tipShow(['Week of ' + d3.utcFormat('%b %-d')(r.dt), ...series.map((s) => ({ color: s.color, value: fmtY(s.get(r)), label: s.label }))].concat(href ? ['Click to open the court view'] : []), e.clientX, e.clientY);
+      })
+      .on('pointerleave', () => { rule.attr('opacity', 0); tipHide(); });
+    if (href) hit.style('cursor', 'pointer').on('click', () => { location.hash = href; });
+  }
+
+  // Stacked columns by month. keys: [{k, label, color}]; get(row, k) gives a count; href(row, k) opens those opinions.
+  function monthColumns(box, { rows, keys, get, H = 168, label, href }) {
+    if (!rows.length) { emptyChart(box, H, 'No months in this period'); return; }
+    const m = { t: 8, r: 4, b: 22, l: 30 };
+    const { svg, W } = frame(box, H, label);
+    const x = d3.scaleBand(rows.map((r) => r.month), [m.l, W - m.r]).paddingInner(0.3).paddingOuter(0.1);
+    const total = (r) => d3.sum(keys, (k) => get(r, k.k));
+    const y = d3.scaleLinear([0, d3.max(rows, total) || 1], [H - m.b, m.t]).nice(4);
+    const every = Math.ceil(rows.length / Math.max(2, Math.floor(W / 46)));
+    svg.append('g').attr('transform', `translate(0,${H - m.b})`)
+      .call(d3.axisBottom(x).tickValues(rows.map((r) => r.month).filter((_, i) => i % every === 0)).tickSize(0).tickPadding(8).tickFormat((k) => d3.utcFormat(k.endsWith('-01') ? '%b ’%y' : '%b')(utc(k + '-01')))).call(axisStyle);
+    svg.append('g').attr('transform', `translate(${m.l},0)`).call(d3.axisLeft(y).ticks(4).tickSize(-(W - m.l - m.r)).tickPadding(6).tickFormat(d3.format('~s'))).call(axisStyle);
+    const bw = Math.min(24, x.bandwidth());
+    rows.forEach((r) => {
+      const x0 = x(r.month) + (x.bandwidth() - bw) / 2; let acc = 0;
+      keys.forEach((k, i) => {
+        const v = get(r, k.k); if (!v) return;
+        const top = y(acc + v); const h = y(acc) - top - (acc > 0 ? 2 : 0);
+        if (h > 0) svg.append('rect').attr('x', x0).attr('y', top).attr('width', bw).attr('height', h).attr('rx', i === keys.length - 1 || acc + v === total(r) ? 2 : 0).style('fill', k.color);
+        acc += v;
+      });
+      const hitRect = svg.append('rect').attr('x', x(r.month) - x.step() * x.paddingInner() / 2).attr('width', x.step()).attr('y', m.t).attr('height', H - m.t - m.b).attr('fill', 'transparent')
+        .on('pointermove', (e) => tipShow([fmtMonth(r.month) + ': ' + plural(total(r), 'opinion'), ...keys.map((k) => ({ color: k.color, value: fmt.int(get(r, k.k)), label: k.label }))].concat(href ? ['Click to list these opinions'] : []), e.clientX, e.clientY))
+        .on('pointerleave', tipHide);
+      if (href) hitRect.style('cursor', 'pointer').on('click', () => { location.hash = href(r); });
     });
   }
 
-  function sparkline(values, w = 92, h = 20) {
-    const svg = d3.create('svg').attr('class', 'spark').attr('width', w).attr('height', h).attr('aria-hidden', 'true');
+  // Columns side by side for each category (weekday or hour). series: [{label, color, values}] aligned with cats.
+  function groupedColumns(box, { cats, catLabel: lab, series, fmtY, H = 168, label, tipTitle }) {
+    const m = { t: 8, r: 4, b: 22, l: 34 };
+    const { svg, W } = frame(box, H, label);
+    const x = d3.scaleBand(cats, [m.l, W - m.r]).paddingInner(0.28).paddingOuter(0.1);
+    const xi = d3.scaleBand(series.map((s) => s.label), [0, x.bandwidth()]).padding(0.12);
+    const y = d3.scaleLinear([0, d3.max(series, (s) => d3.max(s.values)) || 1], [H - m.b, m.t]).nice(4);
+    const every = Math.ceil(cats.length / Math.max(2, Math.floor(W / 44)));
+    svg.append('g').attr('transform', `translate(0,${H - m.b})`).call(d3.axisBottom(x).tickValues(cats.filter((_, i) => i % every === 0)).tickFormat(lab).tickSize(0).tickPadding(8)).call(axisStyle);
+    svg.append('g').attr('transform', `translate(${m.l},0)`).call(d3.axisLeft(y).ticks(4).tickSize(-(W - m.l - m.r)).tickPadding(6).tickFormat(fmtY)).call(axisStyle);
+    const bw = Math.min(24, xi.bandwidth());
+    cats.forEach((c, ci) => {
+      series.forEach((s) => {
+        const v = s.values[ci]; const h = y(0) - y(v); if (h <= 0) return;
+        const x0 = x(c) + xi(s.label) + (xi.bandwidth() - bw) / 2;
+        svg.append('path').style('fill', s.color).attr('d', `M${x0},${y(0)}V${y(v) + Math.min(2, h)}q0,-2 2,-2H${x0 + bw - 2}q2,0 2,2V${y(0)}Z`);
+      });
+      svg.append('rect').attr('x', x(c) - x.step() * x.paddingInner() / 2).attr('width', x.step()).attr('y', m.t).attr('height', H - m.t - m.b).attr('fill', 'transparent')
+        .on('pointermove', (e) => tipShow([tipTitle(c), ...series.map((s) => ({ color: s.color, value: fmtY(s.values[ci]) + (s.counts ? ' (' + fmt.int(s.counts[ci]) + ')' : ''), label: s.label }))], e.clientX, e.clientY))
+        .on('pointerleave', tipHide);
+    });
+  }
+
+  function sparkline(values, w = 84, h = 18) {
+    const svg = d3.create('svg').attr('width', w).attr('height', h).attr('aria-hidden', 'true').style('display', 'block').style('margin-left', 'auto');
     if (values.length < 2) return svg.node();
     const x = d3.scaleLinear([0, values.length - 1], [2, w - 4]);
     const y = d3.scaleLinear([0, d3.max(values) || 1], [h - 3, 3]);
-    svg.append('path').attr('fill', 'none').attr('stroke', css('--accent')).attr('stroke-width', 1.5).attr('stroke-linejoin', 'round')
-      .attr('d', d3.line().x((_, i) => x(i)).y((v) => y(v))(values));
-    svg.append('circle').attr('cx', x(values.length - 1)).attr('cy', y(values[values.length - 1])).attr('r', 2.2).attr('fill', css('--amber'));
+    svg.append('path').attr('fill', 'none').style('stroke', 'var(--judge)').attr('stroke-width', 1.5).attr('stroke-linejoin', 'round').attr('d', d3.line().x((_, i) => x(i)).y((v) => y(v))(values));
+    svg.append('circle').attr('cx', x(values.length - 1)).attr('cy', y(values[values.length - 1])).attr('r', 2.5).style('fill', 'var(--judge)');
     return svg.node();
   }
 
-  const cellLink = (text, preset, judge, title) => el('button', { type: 'button', className: 'cell-link', textContent: text, title: title || 'List these opinions in the finder',
-    onclick: (e) => { e.stopPropagation(); goFinder(preset, judge); } });
-
+  // ------------------------------------------------------------ sortable judge tables (court page, motions by judge)
+  // cols: { k, label, title, f, num, bar, sum, href(row) for a link on the value, render(row) for a custom cell, gstart }
+  const TABLES = {};
   function drawTable(id) {
-    const T = TABLES[id]; const s = T.sort; const rows = tableRows(id); const all = state.stats[T.src];
-    const t = { ...T, cols: T.cols.filter((c) => !(c.hide && c.hide(all))) };  // columns the data cannot fill yet stay hidden
-    const table = $(id);
-    const max = Object.fromEntries(t.cols.filter((c) => c.bar).map((c) => [c.k, d3.max(all, (r) => r[c.k]) || 1]));
+    const cfg = TABLES[id]; const all = cfg.rows();
+    const s = state.sorts[id] || (state.sorts[id] = { ...cfg.sort });
+    const cols = cfg.cols.filter((c) => !(c.hide && c.hide(all)));
+    const val = (r, c) => (c.sortVal ? c.sortVal(r) : r[c.k]);
+    const sortCol = cols.find((c) => c.k === s.k) || cols[0];
+    const rows = all.slice().sort((a, b) => { const x = val(a, sortCol); const y = val(b, sortCol); return (typeof x === 'number' ? x - y : String(x).localeCompare(String(y))) * s.dir || a.name.localeCompare(b.name); });
+    const max = Object.fromEntries(cols.filter((c) => c.bar).map((c) => [c.k, d3.max(all, (r) => r[c.k]) || 1]));
     const head = el('thead');
-    if (t.cols.some((c) => c.group)) {
+    if (cols.some((c) => c.group)) {
       const tr = el('tr', { className: 'group' }); let i = 0;
-      while (i < t.cols.length) { const g = t.cols[i].group || ''; let n = 0; while (i + n < t.cols.length && (t.cols[i + n].group || '') === g) n += 1; tr.append(el('th', { colSpan: n, textContent: g, className: g ? 'gstart' : '' })); i += n; }
+      while (i < cols.length) { const g = cols[i].group || ''; let n = 0; while (i + n < cols.length && (cols[i + n].group || '') === g) n += 1; tr.append(el('th', { colSpan: n, textContent: g, className: g ? 'gstart' : '' })); i += n; }
       head.append(tr);
     }
-    head.append(el('tr', {}, ...t.cols.map((c) => {
-      const th = el('th', { title: c.title || '', className: c.gstart ? 'gstart' : '' });
-      if (c.spark) { th.textContent = c.label; return th; }
+    head.append(el('tr', {}, ...cols.map((c) => {
+      const th = el('th', { className: (c.gstart ? 'gstart ' : '') + (c.r || c.num || (c.f && !c.render) ? 'r' : '') }); if (c.title) th.title = c.title;
+      if (c.nosort) { th.append(el('span', { textContent: c.label })); return th; }
       th.dataset.k = c.k; th.setAttribute('aria-sort', c.k === s.k ? (s.dir > 0 ? 'ascending' : 'descending') : 'none');
       th.append(el('button', { type: 'button', textContent: c.label }));
       return th;
     })));
     const body = el('tbody', {}, ...rows.map((r) => {
-      const tr = el('tr', { className: (t.pick && r.code ? 'pickable' : '') + (state.selected && r.code === state.selected ? ' sel' : '') }); tr.dataset.code = r.code;
-      t.cols.forEach((c) => {
-        const td = el('td', { className: c.gstart ? 'gstart' : '' });
-        if (c.spark) td.append(sparkline(r.spark));
-        else if (c.heat) { const sp = el('span', { className: 'heat', textContent: c.f(r[c.k]) }); sp.style.background = heat(r[c.k]); td.append(sp); }
+      const tr = el('tr'); if (r.code) { tr.className = 'go'; tr.dataset.href = judgeHref(r.code); }
+      cols.forEach((c, ci) => {
+        const td = el('td', { className: (c.gstart ? 'gstart ' : '') + (c.num ? 'num' : c.cls || '') });
+        if (ci === 0) td.append(r.code ? el('a', { className: 'judge', href: judgeHref(r.code), textContent: r.name }) : el('span', { className: 'dim', textContent: r.name }));
+        else if (c.render) td.append(c.render(r));
         else {
-          const text = c.f ? c.f(r[c.k]) : r[c.k];
-          if (c.link && r[c.k] > 0) td.append(cellLink(text, c.link(r), r.code)); else td.textContent = text;
-          if (c.bar && state.bars) { const p = Math.max(0, Math.min(100, (r[c.k] / max[c.k]) * 100)); td.className += ' barred'; td.style.setProperty('--p', p + '%'); }
+          const text = c.f ? c.f(r[c.k]) : String(r[c.k]);
+          const node = c.href && r[c.k] > 0 ? numLink(text, c.href(r)) : document.createTextNode(text);
+          if (c.bar) { const tr2 = el('span', { className: 'tr' }, el('i')); tr2.firstChild.style.width = Math.max(0, Math.min(100, (r[c.k] / max[c.k]) * 100)) + '%'; td.append(el('span', { className: 'nb' }, node, tr2)); } else td.append(node);
         }
         tr.append(td);
       });
       return tr;
     }));
     const foot = el('tfoot');
-    if (t.cols.some((c) => c.sum)) foot.append(el('tr', {}, ...t.cols.map((c, i) => el('td', { className: c.gstart ? 'gstart' : '', textContent: i === 0 ? 'All judges' : c.sum ? c.f(d3.sum(all, (r) => r[c.k])) : '' }))));
-    if (!t.noMedian) foot.append(el('tr', {}, ...t.cols.map((c, i) => el('td', { textContent: i === 0 ? 'Median judge' : c.f && !c.spark ? c.f(median(all.map((r) => r[c.k]))) : '' }))));
-    table.replaceChildren(head, body, foot);
+    (cfg.foot || []).forEach(([label, f]) => foot.append(el('tr', {}, ...cols.map((c, i) => { const td = el('td', { className: (c.gstart ? 'gstart ' : '') + (c.num ? 'num' : '') }); const v = i === 0 ? label : f(c, all); if (v instanceof Node) td.append(v); else td.textContent = v == null ? '' : v; return td; }))));
+    $(id).replaceChildren(head, body, foot);
   }
-
   function wireTable(id) {
     $(id).addEventListener('click', (e) => {
       const b = e.target.closest('th button');
-      if (b) {
-        const k = b.parentElement.dataset.k; const s = TABLES[id].sort;
-        s.dir = s.k === k ? -s.dir : (k === 'name' ? 1 : -1); s.k = k; drawTable(id); return;
-      }
-      const tr = e.target.closest('tbody tr[data-code]');
-      if (tr && tr.dataset.code && TABLES[id].pick && !e.target.closest('a,button')) select(tr.dataset.code === state.selected ? '' : tr.dataset.code);
+      if (b) { const k = b.parentElement.dataset.k; const s = state.sorts[id]; s.dir = s.k === k ? -s.dir : (k === 'name' ? 1 : -1); s.k = k; drawTable(id); return; }
+      const tr = e.target.closest('tbody tr.go');
+      if (tr && !e.target.closest('a,button')) location.hash = tr.dataset.href;
     });
+  }
+  const sumFoot = ['All judges', (c, all) => (c.sum ? c.f(d3.sum(all, (r) => r[c.k])) : '')];
+  const medFoot = ['Median judge', (c, all) => (c.med === false || !c.f || c.render ? '' : c.f(median(all.map((r) => r[c.k]))))];
+
+  // ------------------------------------------------------------ page: judges (home)
+  function renderJudges() {
+    const S = state.stats; const T = S.totals;
+    document.title = 'EDLA Analyzer · Judges of the Eastern District of Louisiana';
+    $('court-kpis').replaceChildren(
+      kpi({ label: 'Written opinions', value: fmt.int(T.opinions), sub: 'since ' + fmtDate(S.since.opinions) + ' · ' + fmt.int(T.pdf) + ' with a PDF', href: findHref({}) }),
+      kpi({ label: 'Merits rulings', value: fmt.int(T.merits), sub: 'Rule 12, Rule 56, and trial rulings', href: findHref({ type: 'merits' }) }),
+      kpi({ label: 'Motion outcomes coded', value: fmt.int(T.known), unit: 'of ' + fmt.int(T.motions), sub: 'motion rulings, read from the docket or the order', href: hashFor('court', { view: 'outcomes' }) }),
+      kpi({ label: 'Civil orders', value: fmt.int(T.orders), sub: fmt.d1(T.perDay) + ' per working day since ' + fmtShort(S.since.orders), href: hashFor('court', { view: 'orders' }) }),
+      kpi({ label: 'Data through', value: fmtShort(S.through), sub: lastRunText(), href: '#log' }),
+    );
+    const recent = recentJudges().filter((c) => S.names[c]);
+    $('recent').hidden = !recent.length;
+    $('recent').replaceChildren(...(recent.length ? [el('span', { textContent: 'Recently viewed' }), ...recent.map((c) => el('a', { href: judgeHref(c), textContent: S.names[c] }))] : []));
+    $('cards').replaceChildren(...judgesAlpha().map((j) => {
+      const op = S.opinions.find((r) => r.code === j.code); const or = S.orders.find((r) => r.code === j.code);
+      const stat = (label, v, tip) => el('div', { title: tip }, el('span', { textContent: label }), el('b', { textContent: v }));
+      return el('a', { className: 'jcard', href: judgeHref(j.code) },
+        el('div', { className: 'jc-head' }, el('span', { className: 'jc-name', textContent: j.name }), el('span', { className: 'code', textContent: j.code })),
+        el('div', { className: 'jc-stats' },
+          stat('Opinions', fmt.int(op.total), 'Written opinions in the period'),
+          stat('Merits / mo', fmt.d1(op.merits_month), 'Rule 12, Rule 56, and trial rulings per 21 working days'),
+          stat('Orders / day', fmt.d1(or.per_day), 'Civil orders per working day since ' + fmtShort(or.start))),
+        el('div', { className: 'jc-oc' }, el('span', { className: 'l', textContent: 'Motion outcomes, coded' }), ocBar(op.motions, { who: j.name }), el('span', { className: 'n', textContent: 'n=' + fmt.int(op.motions.known) })),
+        el('div', { className: 'jc-foot' }, el('span', { textContent: op.last ? 'Latest opinion ' + fmtShort(op.last) : 'No opinions in period' }), el('span', { textContent: fmt.int(op.cats.r12.n) + ' Rule 12 · ' + fmt.int(op.cats.r56.n) + ' Rule 56' })));
+    }));
+  }
+  const recentJudges = () => { try { return JSON.parse(store.get('edla-recent') || '[]'); } catch (e) { return []; } };
+  const rememberJudge = (code) => store.set('edla-recent', JSON.stringify([code, ...recentJudges().filter((c) => c !== code)].slice(0, 5)));
+  function lastRunText() {
+    const runs = state.data.runs.slice().sort((a, b) => String(b.at).localeCompare(String(a.at)));
+    const at = runs.length ? String(runs[0].at) : '';
+    return at ? 'updated ' + fmtShort(at.slice(0, 10)) + ', ' + at.slice(11, 16) + ' Central' : '';
+  }
+
+  // ------------------------------------------------------------ page: one judge
+  function renderJudge() {
+    const S = state.stats; const T = S.totals; const code = state.judge;
+    const name = S.names[code];
+    const or = S.orders.find((r) => r.code === code); const op = S.opinions.find((r) => r.code === code);
+    if (state.jf.judge !== code) state.jf = { q: '', type: '', judge: code };
+    rememberJudge(code);
+    document.title = 'Judge ' + name + ' · EDLA Analyzer';
+    $('j-name').textContent = 'Judge ' + name; $('j-crumb').textContent = name; $('j-code').textContent = code;
+    $('j-meta').textContent = (state.period ? 'Last ' + state.period + ' days. ' : '') + 'Written opinions counted from ' + fmtDate(op.start) + '; civil orders from ' + fmtDate(or.start) + '. Data through ' + fmtDate(S.through) + '.';
+    const list = judgesAlpha(); const i = list.findIndex((j) => j.code === code);
+    $('j-prev').href = judgeHref(list[(i - 1 + list.length) % list.length].code); $('j-next').href = judgeHref(list[(i + 1) % list.length].code);
+    const pick = $('j-pick'); if (!pick.options.length) pick.append(...list.map((j) => new Option('Judge ' + j.name, j.code))); pick.value = code;
+    $('j-compare').href = hashFor('compare', { cmp: [code, ...state.vs.filter((c) => c !== code)] });
+
+    // Headline figures, each with where the judge falls among all 16.
+    const vals = (rows, f) => rows.map(f);
+    const days = op.motions;
+    const daysVals = S.opinions.map((r) => (r.motions.nDays >= FEW ? r.motions.medDays : null));
+    const pageVals = S.opinions.map((r) => (r.n_pages >= FEW ? r.med_pages : null));
+    $('j-kpis').replaceChildren(
+      kpi({ label: 'Written opinions', value: fmt.int(op.total), sub: [el('b', { textContent: fmt.d2(op.per_week) }), ' a week · median judge ' + fmt.d2(T.medPerWeek)], href: findHref({ judge: code }),
+        stripEl: strip(vals(S.opinions, (r) => r.per_week), op.per_week, fmt.d2, 'Written opinions per week, excluding magistrate R&Rs') }),
+      kpi({ label: 'Merits rulings', value: fmt.int(op.merits), sub: [el('b', { textContent: fmt.d2(op.merits_month) }), ' a month · median judge ' + fmt.d2(T.medMerits)], href: findHref({ judge: code, type: 'merits' }),
+        stripEl: strip(vals(S.opinions, (r) => r.merits_month), op.merits_month, fmt.d2, 'Rule 12, Rule 56, and trial rulings per 21 working days') }),
+      kpi({ label: 'Orders per working day', value: fmt.d1(or.per_day), sub: fmt.int(or.orders) + ' civil orders · median judge ' + fmt.d1(T.medPerDay), href: hashFor('court', { view: 'orders' }),
+        stripEl: strip(vals(S.orders, (r) => r.per_day), or.per_day, fmt.d1, 'Civil orders per working day') }),
+      kpi({ label: 'Orders flagged as opinions', value: fmt.pct0(or.written_share), sub: 'of civil orders · median judge ' + fmt.pct0(T.medWrittenShare),
+        stripEl: strip(vals(S.orders, (r) => r.written_share), or.written_share, fmt.pct0, 'Share of civil orders flagged for the Written Opinions Report') }),
+      days.nDays < FEW
+        ? kpi({ label: 'Median days to ruling', value: 'Not yet', na: true, sub: days.nDays ? `${fmt.int(days.nDays)} of ${plural(days.n, 'ruling')} dated so far; a median needs ${FEW}` : 'filing dates are still being collected' })
+        : kpi({ label: 'Median days to ruling', value: fmt.med(days.medDays), unit: 'days', sub: 'from ' + plural(days.nDays, 'ruling') + (T.medDays == null ? '' : ' · median judge ' + fmt.med(T.medDays)),
+          stripEl: strip(daysVals, days.medDays, fmt.med, 'Median calendar days from a motion\'s filing to the opinion deciding it') }),
+      op.n_pages >= FEW
+        ? kpi({ label: 'Median opinion length', value: fmt.med(op.med_pages), unit: 'pages', sub: 'from ' + plural(op.n_pages, 'PDF') + (T.medPages ? ' · median judge ' + fmt.med(T.medPages) : ''),
+          stripEl: strip(pageVals, op.med_pages, fmt.med, 'Median pages per written opinion with a PDF on file') })
+        : kpi({ label: 'Median opinion length', value: 'Not yet', na: true, sub: op.n_pages ? `${plural(op.n_pages, 'PDF')} measured so far; a median needs ${FEW}` : 'page counts are still being collected' }),
+    );
+
+    drawJudgeOutcomes(op, name);
+    drawJudgeActivity(or, op, name);
+    drawJudgeHabits(or, op, name);
+    drawJudgeMotions(code);
+    drawFeed();
+  }
+
+  function drawJudgeOutcomes(op, name) {
+    const S = state.stats; const code = op.code;
+    $('j-oc-cap').textContent = `How Judge ${name}'s motion rulings came out, by type of motion. Shares count only rulings whose outcome has been coded; "granted" means the motion was granted, whoever filed it. The thin bar under each is all 16 judges combined. Outlined bars rest on fewer than ${FEW} coded rulings, too few to read much into. Click a segment or a count to see the opinions.`;
+    const shown = MCATS.filter(([k]) => op.cats[k].n);
+    const hasDays = shown.some(([k]) => op.cats[k].nDays);
+    const cols = ['Motion type', 'Rulings', 'Coded', 'Outcomes', 'Granted', 'All judges'].concat(hasDays ? ['Median days to ruling'] : []);
+    const head = el('thead', {}, el('tr', {}, ...cols.map((c, i) => {
+      const th = el('th', { textContent: c, className: i === 0 || i === 3 ? '' : 'r' });
+      if (c === 'Coded') th.title = 'Rulings whose outcome has been read from the docket text or the order';
+      if (c === 'Granted') th.title = 'Share of coded rulings granted in full (with or without leave to amend)';
+      if (c === 'All judges') th.title = 'The same share for all 16 judges combined';
+      if (c === 'Median days to ruling') th.title = 'Calendar days from the motion\'s docket date to the ruling; n is how many rulings have a filing date';
+      return th;
+    })));
+    const line = (label, t, pool, type, total) => {
+      const preset = { judge: code, type };
+      const few = t.known && t.known < FEW;
+      const tr = el('tr', { className: total ? 'total' : '' });
+      tr.append(el('td', { className: 'txt', textContent: label, title: MCAT_LONG[type] || '' }),
+        el('td', { className: 'num' }, t.n ? numLink(fmt.int(t.n), findHref(preset)) : '0'),
+        el('td', { className: 'num' + (t.known ? '' : ' dim') }, t.known ? numLink(fmt.int(t.known), findHref({ ...preset, oc: 'known' }), 'List the coded rulings') : '0'));
+      const cell = el('td', { className: 'ocwrap' }, ocBar(t, { labels: true, who: 'Judge ' + name, href: (k) => findHref({ ...preset, oc: k }) }), ocBar(pool, { thin: true, who: 'All judges' }));
+      tr.append(cell,
+        el('td', { className: 'num' + (few || !t.known ? ' dim' : '') }, t.known ? fmt.pct0(t.granted / t.known) : '—'),
+        el('td', { className: 'num dim allj' }, pool.known ? fmt.pct0(pool.granted / pool.known) : '—'));
+      tr.children[1].dataset.l = 'rulings'; tr.children[2].dataset.l = 'coded'; tr.children[4].dataset.l = 'granted';
+      if (hasDays) tr.append(el('td', { className: 'num days' + (t.medDays == null ? ' dim' : ''), textContent: t.medDays == null ? '—' : fmt.med(t.medDays) + ' (n=' + t.nDays + ')', title: t.p25 != null ? 'Middle half: ' + fmt.med(t.p25) + ' to ' + fmt.med(t.p75) + ' days' : '' }));
+      return tr;
+    };
+    const body = el('tbody', {}, ...shown.map(([k, label]) => line(label, op.cats[k], S.pooled[k], k)), line('All motion rulings', op.motions, S.pooled.motions, 'motion', true));
+    if (!shown.length) body.prepend(el('tr', {}, el('td', { className: 'txt dim', colSpan: cols.length, textContent: 'No motion rulings among this judge\'s written opinions in this period.' })));
+    $('j-oc-table').replaceChildren(head, body);
+    const none = MCATS.filter(([k]) => !op.cats[k].n).map(([, l]) => l);
+    const t = op.motions; const notes = [];
+    if (none.length && shown.length) notes.push('No written rulings in this period on: ' + none.join(', ') + '.');
+    notes.push(t.nDays ? `Time to ruling rests on ${fmt.int(t.nDays)} of ${plural(t.n, 'motion ruling')} so far; filing dates are collected a few at a time.` : 'Time to ruling will appear as motion filing dates are collected.');
+    if (t.nHearing) notes.push(`A hearing was set in the case while the motion was pending for ${fmt.int(t.hearings)} of ${plural(t.nHearing, 'ruling')} with dates on file.`);
+    $('j-oc-foot').textContent = notes.join(' ');
+  }
+
+  function drawJudgeActivity(or, op, name) {
+    const S = state.stats; const code = op.code; const judge = 'var(--judge)'; const court = 'var(--court)';
+    $('j-act-legend').replaceChildren(legendItem(judge, 'Judge ' + name), legendItem(court, 'Court'));
+    lineChart($('c-j-weekly'), { rows: S.weekly, fmtY: fmt.d1, label: 'Orders per working day by week, Judge ' + name + ' and the median judge',
+      series: [{ label: 'Judge ' + name, color: judge, get: (r) => r[code] || 0 }, { label: 'Median judge', color: court, get: (r) => r.median || 0 }] });
+    monthColumns($('c-j-monthly'), { rows: S.monthly, label: 'Written opinions by month, Judge ' + name,
+      keys: [{ k: 'merits', label: 'Merits rulings', color: judge }, { k: 'rest', label: 'Other opinions and R&Rs', color: court }],
+      get: (r, k) => { const c = r.by[code] || zeroCats(); return k === 'merits' ? meritsOf(c) : c.other + c.rr; },
+      href: (r) => findHref({ judge: code, month: r.month }) });
+    const days = [['mon', 'Mon'], ['tue', 'Tue'], ['wed', 'Wed'], ['thu', 'Thu'], ['fri', 'Fri']];
+    if (!or.orders) emptyChart($('c-j-dow'), 168, 'No civil orders in this period');
+    else groupedColumns($('c-j-dow'), { cats: days.map(([k]) => k), catLabel: (k) => days.find((d) => d[0] === k)[1], fmtY: fmt.pct0, label: 'Share of orders by weekday',
+      tipTitle: (k) => days.find((d) => d[0] === k)[1] + ': share of civil orders',
+      series: [{ label: 'Judge ' + name, color: judge, values: days.map(([k]) => or[k]) }, { label: 'All judges', color: court, values: days.map(([k]) => S.dowCourt[k]) }] });
+  }
+
+  function drawJudgeHabits(or, op, name) {
+    const S = state.stats;
+    $('j-habits-cap').textContent = `Since ${fmtDate(or.start)}, how many of Judge ${name}'s civil orders chambers flagged for PACER's Written Opinions Report. The docket cannot tell an unflagged reasoned order from a minute entry, so this measures flagging practice, not how often a judge gives reasons.`;
+    $('j-habits').replaceChildren(
+      fact('Civil orders', fmt.int(or.orders), fmt.int(or.text_orders) + ' entered as text orders (' + pctOf(or.text_orders, or.orders) + ')'),
+      fact('Flagged as written opinions', fmt.int(op.written_window), pctOf(op.written_window, or.orders) + ' of orders · median judge ' + fmt.pct0(S.totals.medWrittenShare)),
+      fact('Orders on motions', fmt.int(or.motion_orders), 'orders whose docket event names a motion'),
+      fact('Written opinions on motions', fmt.int(op.written_motions), pctOf(op.written_motions, or.motion_orders) + ' of orders on motions'),
+    );
+  }
+
+  function drawJudgeMotions(code) {
+    const S = state.stats; const M = S.motions.filter((m) => m.judge === code);
+    $('j-motions-all').href = hashFor('motions', { mt: { judge: code, view: 'pending' } });
+    const box = $('j-motions');
+    if (!M.length) {
+      box.replaceChildren(el('p', { className: 'cap', textContent: S.motionsSince
+        ? `No civil motions recorded for this judge's cases since ${fmtDate(S.motionsSince)}, when recording began. Motions appear here as they are filed, with their submission dates.`
+        : 'Recording of submitted motions has just begun. Motions in this judge\'s cases appear here as they are filed, with their submission dates.' }));
+      return;
+    }
+    const past = M.filter((m) => m.past); const waiting = M.filter((m) => !m.ruled);
+    const rows = waiting.slice(0, 8);
+    box.replaceChildren(
+      el('div', { className: 'facts' }, fact('Motions recorded', fmt.int(M.length), 'since ' + fmtShort(S.motionsSince)), fact('Awaiting a ruling', fmt.int(waiting.length), 'no ruling found yet'),
+        fact('Past submission', fmt.int(past.length), past.length ? 'median ' + fmt.med(median(past.map((m) => m.daysPast))) + ' days past' : 'none right now'), fact('Ruling found', fmt.int(M.length - waiting.length), 'a later order names the motion type')),
+      rows.length ? el('div', { className: 'scroll', style: 'margin-top:12px' }, motionTable(rows, false)) : null);
+  }
+
+  function drawFeed() {
+    const S = state.stats; const code = state.judge; const J = state.jf; const q = J.q.trim().toLowerCase();
+    const sel = $('j-op-type'); fillTypeSelect(sel); sel.value = J.type; if ($('j-op-q').value !== J.q) $('j-op-q').value = J.q;
+    const rows = S.recent.filter((o) => o.judge === code && typeMatch(o, J.type) && textMatch(o, q));
+    const shown = rows.slice(0, 15);
+    $('j-op-count').textContent = rows.length > shown.length ? 'latest ' + shown.length + ' of ' + fmt.int(rows.length) : plural(rows.length, 'opinion');
+    $('j-feed').replaceChildren(...(shown.length ? shown.map((o) => el('li', {},
+      el('span', { className: 'd', textContent: fmtShort(o.date) }),
+      el('span', { className: 'h' }, el('span', {}, ...caseLink(o)), outcomePill(o)),
+      el('span', { className: 'e', textContent: o.event }),
+      el('span', { className: 'c', textContent: o.title, title: o.title })))
+      : [el('li', {}, el('span', { className: 'empty', textContent: q || J.type ? 'No written opinions match this filter.' : 'No written opinions in this period.' }))]));
+    $('j-op-all').href = findHref({ judge: code, q: J.q, type: J.type });
+    $('j-op-all').textContent = rows.length > shown.length ? 'All ' + fmt.int(rows.length) + ' in the opinion search →' : 'Open in the opinion search →';
+  }
+
+  // ------------------------------------------------------------ page: compare
+  function renderCompare() {
+    const S = state.stats; const T = S.totals; const codes = state.cmp.filter((c) => S.names[c]);
+    document.title = 'Compare judges · EDLA Analyzer';
+    $('cmp-chips').replaceChildren(...codes.map((c) => el('span', { className: 'fchip' }, 'Judge ' + S.names[c],
+      el('a', { href: hashFor('compare', { cmp: codes.filter((x) => x !== c) }), textContent: '×', title: 'Remove', 'aria-label': 'Remove Judge ' + S.names[c] }))));
+    const add = $('cmp-add');
+    add.replaceChildren(new Option(codes.length >= 4 ? 'Four judges at most' : '+ Add a judge', ''), ...judgesAlpha().filter((j) => !codes.includes(j.code)).map((j) => new Option(j.name, j.code)));
+    add.disabled = codes.length >= 4;
+    const table = $('cmp-table');
+    if (!codes.length) { table.replaceChildren(el('tbody', {}, el('tr', {}, el('td', { className: 'txt dim', textContent: 'Add a judge to begin.' })))); return; }
+    const ors = codes.map((c) => S.orders.find((r) => r.code === c)); const ops = codes.map((c) => S.opinions.find((r) => r.code === c));
+    const head = el('thead', {}, el('tr', {}, el('th', { textContent: 'Figure' }), ...codes.map((c) => el('th', {}, el('a', { href: judgeHref(c), textContent: 'Judge ' + S.names[c] }))), el('th', { textContent: 'All judges' })));
+    const body = el('tbody');
+    const grp = (label) => body.append(el('tr', { className: 'grp' }, el('td', { colSpan: codes.length + 2, textContent: label })));
+    const row = (label, f, all, tip) => body.append(el('tr', {}, el('td', { textContent: label, title: tip || '' }), ...codes.map((c, i) => { const v = f(i); return el('td', { className: 'num' }, v); }), el('td', { className: 'num dim' }, all)));
+    grp('Volume, ' + (state.period ? 'last ' + state.period + ' days' : 'all data'));
+    row('Civil orders', (i) => fmt.int(ors[i].orders), fmt.int(T.medOrders) + ' (median)');
+    row('Orders per working day', (i) => fmt.d1(ors[i].per_day), fmt.d1(T.medPerDay) + ' (median)');
+    row('Written opinions', (i) => fmt.int(ops[i].total), fmt.med(T.medTotal) + ' (median)');
+    row('Written opinions per week', (i) => fmt.d2(ops[i].per_week), fmt.d2(T.medPerWeek) + ' (median)', 'Excluding magistrate R&Rs');
+    row('Merits rulings per month', (i) => fmt.d2(ops[i].merits_month), fmt.d2(T.medMerits) + ' (median)', 'Rule 12, Rule 56, and trial rulings per 21 working days');
+    row('Orders flagged as written opinions', (i) => fmt.pct0(ors[i].written_share), fmt.pct0(T.medWrittenShare) + ' (median)');
+    row('Median opinion length', (i) => (ops[i].n_pages ? fmt.med(ops[i].med_pages) + ' pages (n=' + ops[i].n_pages + ')' : 'not yet'), T.medPages ? fmt.med(T.medPages) + ' pages (median)' : '—');
+    grp('Motion outcomes · share granted in full, of coded rulings');
+    const ocCell = (t, who, href) => (t.known ? el('div', { className: 'cv' }, ocBar(t, { who, href }), el('span', { textContent: fmt.pct0(t.granted / t.known) + ' ' }), el('small', { textContent: 'n=' + t.known }))
+      : el('span', { className: 'dim', textContent: t.n ? plural(t.n, 'ruling') + ', not coded yet' : 'no rulings' }));
+    [['motion', 'All motion rulings'], ...MCATS].filter(([k]) => k === 'motion' || ops.some((o) => o.cats[k].n)).forEach(([k, label]) => {
+      const get = (o) => (k === 'motion' ? o.motions : o.cats[k]);
+      const pool = k === 'motion' ? S.pooled.motions : S.pooled[k];
+      row(label, (i) => ocCell(get(ops[i]), 'Judge ' + S.names[codes[i]], (oc) => findHref({ judge: codes[i], type: k, oc })), ocCell(pool, 'All judges'));
+    });
+    grp('Time to ruling');
+    row('Median days, all motions', (i) => (ops[i].motions.medDays == null ? 'not yet' : fmt.med(ops[i].motions.medDays) + ' (n=' + ops[i].motions.nDays + ')'), T.medDays == null ? 'not yet' : fmt.med(T.medDays) + ' (median)');
+    table.replaceChildren(head, body);
+  }
+
+  // ------------------------------------------------------------ page: opinion search
+  function finderRows() {
+    const S = state.stats; const F = state.f; const q = F.q.trim().toLowerCase();
+    return S.recent.filter((o) => (!F.judge || o.judge === F.judge) && typeMatch(o, F.type) && (!F.oc || ocMatch(o, F.oc))
+      && (!F.pdf || linkKind(o) === 'pdf') && (!F.month || o.date.slice(0, 7) === F.month) && textMatch(o, q));
+  }
+  function renderOpinions() {
+    const S = state.stats; const F = state.f;
+    document.title = 'Written opinions · EDLA Analyzer';
+    $('op-sub').textContent = `${fmt.int(S.recent.length)} written opinions since ${fmtDate(S.since.opinions)}, newest first. Click a case number to open the opinion; "PDF" means the opinion itself is one click away.`;
+    const js = $('op-judge'); if (js.options.length < 2) js.append(new Option('All judges', ''), ...judgesAlpha().map((j) => new Option(j.name, j.code)));
+    fillTypeSelect($('op-type'));
+    if ($('op-q').value !== F.q) $('op-q').value = F.q;
+    js.value = F.judge; $('op-type').value = F.type; $('op-outcome').value = F.oc === 'rest' ? '' : F.oc; $('op-pdf').checked = F.pdf;
+    const chips = [];
+    if (F.month) chips.push(['Month: ' + fmtMonth(F.month), { month: '' }]);
+    if (F.oc === 'rest') chips.push(['Outcome: mixed, moot, or other', { oc: '' }]);
+    if (F.q || F.judge || F.type || F.oc || F.pdf || F.month) chips.push(['Clear all', emptyFinder()]);
+    $('op-chips').replaceChildren(...chips.map(([label, patch]) => el('span', { className: 'fchip' }, label, el('a', { href: hashFor('opinions', { f: { ...F, ...patch } }), textContent: '×', title: 'Remove this filter', 'aria-label': 'Remove: ' + label }))));
+    const rows = finderRows(); const shown = rows.slice(0, state.limit);
+    const hasDays = rows.some((o) => o.days != null); const hasPages = rows.some((o) => o.pages != null);
+    const cols = ['Date', 'Judge', 'Case · doc', 'Ruling', 'Outcome'].concat(hasDays ? ['Days to ruling'] : [], hasPages ? ['Pages'] : [], ['Case name'], state.editor ? ['Record'] : []);
+    const head = el('thead', {}, el('tr', {}, ...cols.map((c) => el('th', { textContent: c, className: /^(Days|Pages)/.test(c) ? 'r' : '' }))));
+    const body = el('tbody', {}, ...(shown.length ? shown.map((o) => {
+      const cells = [el('td', { className: 'mono', textContent: fmtMDY(o.date) }),
+        el('td', { className: 'txt' }, el('a', { className: 'judge', href: judgeHref(o.judge), textContent: S.names[o.judge] })),
+        el('td', { className: 'txt' }, ...caseLink(o)), el('td', { className: 'ev', textContent: o.event }), el('td', { className: 'txt' }, outcomePill(o))];
+      if (hasDays) cells.push(el('td', { className: 'num' + (o.days == null ? ' dim' : ''), textContent: o.days == null ? '—' : fmt.int(o.days), title: o.filed ? 'Motion filed ' + fmtDate(o.filed) : 'Motion filing date not on file' }));
+      if (hasPages) cells.push(el('td', { className: 'num' + (o.pages == null ? ' dim' : ''), textContent: o.pages == null ? '—' : fmt.int(o.pages) }));
+      cells.push(el('td', { className: 'wrap', textContent: o.title }));
+      if (state.editor) cells.push(el('td', { className: 'txt' }, el('a', { href: recordLink(o), target: '_blank', rel: 'noopener noreferrer', textContent: o.oc ? 'Correct' : 'Record' })));
+      return el('tr', {}, ...cells);
+    }) : [el('tr', {}, el('td', { className: 'txt dim', colSpan: cols.length, textContent: 'No written opinions match. Try fewer filters or a shorter search.' }))]));
+    $('op-table').replaceChildren(head, body);
+    $('op-count').textContent = rows.length ? (shown.length < rows.length ? fmt.int(shown.length) + ' of ' : '') + plural(rows.length, 'opinion') : '';
+    $('op-more').hidden = shown.length >= rows.length;
+  }
+
+  // ------------------------------------------------------------ page: submitted motions
+  function motionTable(rows, withJudge) {
+    const S = state.stats;
+    const cols = (withJudge ? ['Judge'] : []).concat(['Case · doc', 'Motion', 'Filed', 'Submission', 'Days past', 'Status', 'Case name']);
+    return el('table', { className: 't' }, el('thead', {}, el('tr', {}, ...cols.map((c) => el('th', { textContent: c, className: c === 'Days past' ? 'r' : '' })))),
+      el('tbody', {}, ...rows.map((m) => el('tr', {},
+        withJudge ? el('td', { className: 'txt' }, m.judge ? el('a', { className: 'judge', href: judgeHref(m.judge), textContent: S.names[m.judge] }) : el('span', { className: 'dim', textContent: 'Not yet known' })) : null,
+        el('td', { className: 'txt' }, el('a', { className: 'case', href: CL + '?type=r&court=laed&docket_number=' + encodeURIComponent(m.case), target: '_blank', rel: 'noopener noreferrer', textContent: m.case + ' · ' + m.doc, title: 'Search CourtListener for this case' })),
+        el('td', { className: 'ev', textContent: m.event }),
+        el('td', { className: 'mono', textContent: fmtMDY(m.date) }),
+        el('td', { className: 'mono' + (m.submit ? '' : ' dim'), textContent: m.submit ? fmtMDY(m.submit) : 'not read yet' }),
+        el('td', { className: 'num' + (m.daysPast == null ? ' dim' : ''), textContent: m.daysPast == null ? '—' : fmt.int(m.daysPast) }),
+        el('td', { className: 'txt' }, m.ruled ? el('span', { className: 'pill' }, (() => { const i = el('i'); i.style.background = css('--o-partial'); return i; })(), 'Ruling found ' + fmtShort(m.ruled))
+          : m.past ? el('span', { className: 'pill warn' }, el('i'), 'Past submission') : el('span', { className: 'pill none', textContent: m.submit ? 'Not yet submitted' : 'Awaiting' })),
+        el('td', { className: 'wrap', textContent: m.title })))));
+  }
+  function motionRows() {
+    const S = state.stats; const M = state.mt; const q = M.q.trim().toLowerCase();
+    return S.motions.filter((m) => (!M.judge || m.judge === M.judge) && (M.view === 'all' || (M.view === 'pending' ? !m.ruled : m.past))
+      && (!q || (m.case + ' ' + m.title + ' ' + m.event).toLowerCase().includes(q)));
+  }
+  function renderMotions() {
+    const S = state.stats; const M = state.mt; const all = S.motions.filter((m) => !M.judge || m.judge === M.judge);
+    document.title = 'Submitted motions · EDLA Analyzer';
+    $('mt-since').textContent = S.motionsSince ? 'on ' + fmtDate(S.motionsSince) : 'when this page went live';
+    const js = $('mt-judge'); if (js.options.length < 2) js.append(new Option('All judges', ''), ...judgesAlpha().map((j) => new Option(j.name, j.code)));
+    js.value = M.judge; $('mt-view').value = M.view; if ($('mt-q').value !== M.q) $('mt-q').value = M.q;
+    const past = all.filter((m) => m.past);
+    $('mt-kpis').replaceChildren(
+      kpi({ label: 'Motions recorded', value: fmt.int(all.length), sub: S.motionsSince ? 'since ' + fmtShort(S.motionsSince) : 'none yet' }),
+      kpi({ label: 'With a submission date', value: fmt.int(all.filter((m) => m.submit).length), sub: 'read from the docket text so far' }),
+      kpi({ label: 'Ruling found', value: fmt.int(all.filter((m) => m.ruled).length), sub: 'a later order names the motion type' }),
+      kpi({ label: 'Past submission', value: fmt.int(past.length), sub: past.length ? 'no ruling found · median ' + fmt.med(median(past.map((m) => m.daysPast))) + ' days past' : 'none right now' }),
+    );
+    const rows = motionRows(); const shown = rows.slice(0, M.limit);
+    const table = shown.length ? motionTable(shown, true) : el('table', { className: 't' }, el('tbody', {}, el('tr', {}, el('td', { className: 'txt dim', textContent: S.motions.length ? 'No motions match.' : 'No motions on file yet. The updater records them from the court\'s feed as they are filed.' }))));
+    table.id = 'mt-table'; $('mt-table').replaceWith(table);
+    $('mt-count').textContent = rows.length ? (shown.length < rows.length ? fmt.int(shown.length) + ' of ' : '') + plural(rows.length, 'motion') : '';
+    $('mt-more').hidden = shown.length >= rows.length;
+    $('mj-table').closest('.panel').hidden = !S.motions.length;
+    if (S.motions.length) drawTable('mj-table');
+  }
+
+  // ------------------------------------------------------------ page: court
+  const finderCount = (preset) => (r) => findHref({ judge: r.code, ...preset });
+  TABLES['t-orders'] = { rows: () => state.stats.orders, sort: { k: 'name', dir: 1 }, foot: [sumFoot, medFoot], cols: [
+    { k: 'name', label: 'Judge', med: false },
+    { k: 'working_days', label: 'Working days', f: fmt.int, num: true, title: 'Weekdays other than court holidays, from the judge\'s first day on the bench' },
+    { k: 'orders', label: 'Orders', f: fmt.int, num: true, bar: true, sum: true, title: 'Civil orders entered in the period' },
+    { k: 'per_day', label: 'Per working day', f: fmt.d1, num: true, bar: true, title: 'Orders per working day' },
+    { k: 'cases', label: 'Cases', f: fmt.int, num: true, sum: true, title: 'Distinct cases with at least one order' },
+    { k: 'per_case', label: 'Per case', f: fmt.d1, num: true, title: 'Orders per case with orders' },
+    { k: 'last10', label: 'Last 10 days', f: fmt.int, num: true, sum: true, title: 'Orders in the last 10 working days' },
+    { k: 'text_orders', label: 'Text orders', f: fmt.int, num: true, sum: true, title: 'Orders whose docket event begins "Text Order"' },
+    { k: 'written_share', label: 'Flagged as opinions', f: fmt.pct0, num: true, title: 'Share of civil orders flagged for the Written Opinions Report' },
+    { k: 'spark', label: 'Weekly trend', nosort: true, render: (r) => sparkline(r.spark), title: 'Orders per working day, week by week' },
+  ] };
+  TABLES['t-opinions'] = { rows: () => state.stats.opinions, sort: { k: 'name', dir: 1 }, foot: [sumFoot, medFoot], cols: [
+    { k: 'name', label: 'Judge', med: false },
+    { k: 'working_days', label: 'Working days', f: fmt.int, num: true },
+    { k: 'total', label: 'Opinions', f: fmt.int, num: true, bar: true, sum: true, href: finderCount({}), title: 'Entries on PACER\'s Written Opinions Report' },
+    { k: 'rr', label: 'R&Rs', f: fmt.int, num: true, sum: true, href: finderCount({ type: 'rr' }), title: 'Magistrate judges\' reports and recommendations in the judge\'s cases' },
+    { k: 'per_week', label: 'Per week', f: fmt.d2, num: true, bar: true, title: 'Opinions by the judge (excluding R&Rs) per five working days' },
+    { k: 'merits', label: 'Merits', f: fmt.int, num: true, sum: true, href: finderCount({ type: 'merits' }), title: 'Rule 12, Rule 56, and trial or post-trial rulings' },
+    { k: 'merits_month', label: 'Merits / month', f: fmt.d2, num: true, bar: true, title: 'Merits rulings per 21 working days' },
+    { k: 'r12', label: 'Rule 12', f: fmt.int, num: true, sum: true, href: finderCount({ type: 'r12' }), title: 'Rulings on motions to dismiss or for judgment on the pleadings' },
+    { k: 'r56', label: 'Rule 56', f: fmt.int, num: true, sum: true, href: finderCount({ type: 'r56' }), title: 'Rulings on motions for summary judgment' },
+    { k: 'cases', label: 'Cases', f: fmt.int, num: true, sum: true, title: 'Distinct cases with an opinion' },
+    { k: 'pdf', label: 'With PDF', f: fmt.int, num: true, sum: true, href: (r) => findHref({ judge: r.code, pdf: true }), title: 'Opinions whose PDF is one click away' },
+    { k: 'med_pages', label: 'Median pages', f: (v) => (v ? fmt.med(v) : '—'), num: true, title: 'Median PDF length of opinions with a page count on file', hide: (all) => all.filter((r) => r.n_pages >= FEW).length < 8 },
+    { k: 'last', label: 'Latest', f: (v) => (v ? fmtShort(v) : '—'), num: true, med: false, title: 'Date of the most recent written opinion' },
+  ] };
+  const ocTableCols = (g) => [
+    { k: 'name', label: 'Judge' },
+    { k: g + '_n', label: 'Rulings', f: fmt.int, num: true, sum: true, href: finderCount({ type: g === 'all' ? 'motion' : g }) },
+    { k: g + '_known', label: 'Coded', f: fmt.int, num: true, sum: true, href: finderCount({ type: g === 'all' ? 'motion' : g, oc: 'known' }), title: 'Rulings with a coded outcome' },
+    { k: g + '_granted', label: 'Granted', f: fmt.int, num: true, sum: true, gstart: true, href: finderCount({ type: g === 'all' ? 'motion' : g, oc: 'granted' }) },
+    { k: g + '_partial', label: 'In part', f: fmt.int, num: true, sum: true, href: finderCount({ type: g === 'all' ? 'motion' : g, oc: 'partial' }) },
+    { k: g + '_denied', label: 'Denied', f: fmt.int, num: true, sum: true, href: finderCount({ type: g === 'all' ? 'motion' : g, oc: 'denied' }) },
+    { k: g + '_rest', label: 'Other', f: fmt.int, num: true, sum: true, title: 'Mixed, moot, or other', href: finderCount({ type: g === 'all' ? 'motion' : g, oc: 'rest' }) },
+    { k: g + '_share', label: 'Outcome shares', nosort: true, cls: 'ocwrap', gstart: true,
+      render: (r) => ocBar({ n: r[g + '_n'], known: r[g + '_known'], granted: r[g + '_granted'], partial: r[g + '_partial'], denied: r[g + '_denied'], rest: r[g + '_rest'] },
+        { labels: true, who: 'Judge ' + r.name, href: (k) => findHref({ judge: r.code, type: g === 'all' ? 'motion' : g, oc: k }) }) },
+  ];
+  TABLES['t-outcomes'] = { rows: () => state.stats.opinions, sort: { k: 'name', dir: 1 }, get cols() { return ocTableCols(state.ocGroup); },
+    foot: [['All judges', (c, all) => (c.render ? ocBar(state.stats.pooled['g_' + state.ocGroup], { labels: true, who: 'All judges' }) : c.sum ? c.f(d3.sum(all, (r) => r[c.k])) : '')]] };
+  const dayCols = [['mon', 'Mon'], ['tue', 'Tue'], ['wed', 'Wed'], ['thu', 'Thu'], ['fri', 'Fri']];
+  const heatCell = (v) => { const sp = el('span', { className: 'heat', textContent: fmt.pct0(v) }); const c = d3.interpolateRgb(css('--panel'), css('--heat-hi'))(Math.max(0, Math.min(1, (v - 0.05) / 0.35))); sp.style.background = c; sp.style.color = inkOn(c); return sp; };
+  TABLES['t-dow'] = { rows: () => state.stats.orders, sort: { k: 'name', dir: 1 },
+    foot: [['All judges', (c, all) => (c.k === 'orders' ? fmt.int(d3.sum(all, (r) => r.orders)) : c.k in state.stats.dowCourt ? fmt.pct0(state.stats.dowCourt[c.k]) : '')]],
+    cols: [{ k: 'name', label: 'Judge' }, ...dayCols.map(([k, label]) => ({ k, label, r: true, render: (r) => heatCell(r[k]) })), { k: 'orders', label: 'Orders', f: fmt.int, num: true }] };
+  TABLES['mj-table'] = { rows: () => state.stats.motionsByJudge, sort: { k: 'past', dir: -1 }, foot: [sumFoot], cols: [
+    { k: 'name', label: 'Judge' },
+    { k: 'seen', label: 'Motions recorded', f: fmt.int, num: true, sum: true, title: 'Civil motions recorded from the feed' },
+    { k: 'dated', label: 'With date', f: fmt.int, num: true, sum: true, title: 'Motions whose submission date has been read from the docket text' },
+    { k: 'ruled', label: 'Ruling found', f: fmt.int, num: true, sum: true, title: 'Motions matched to a later order or opinion in the same case' },
+    { k: 'awaiting', label: 'Awaiting', f: fmt.int, num: true, sum: true, title: 'Motions with no ruling found yet, whether or not past submission' },
+    { k: 'past', label: 'Past submission', f: fmt.int, num: true, sum: true, title: 'Past the submission date with no ruling found' },
+    { k: 'med_past', label: 'Median days past', f: (v) => (v ? fmt.med(v) : '—'), num: true, title: 'Median days since the submission date, for motions past it' },
+  ] };
+
+  function renderCourt() {
+    const S = state.stats; const v = state.view;
+    document.title = 'All judges · EDLA Analyzer';
+    $('court-nav').replaceChildren(...VIEWS.map(([k, label]) => { const a = el('a', { href: hashFor('court', { view: k }), textContent: label }); if (k === v) a.setAttribute('aria-current', 'page'); return a; }));
+    document.querySelectorAll('.cview').forEach((n) => { n.hidden = n.dataset.view !== v; });
+    const blue = 'var(--judge)'; const gray = 'var(--court)';
+    if (v === 'orders') {
+      drawTable('t-orders');
+      lineChart($('c-court-weekly'), { rows: S.weekly, fmtY: fmt.d1, H: 220, label: 'Civil orders per working day, all judges combined, by week', series: [{ label: 'All judges', color: blue, get: (r) => r.all }] });
+    } else if (v === 'opinions') {
+      drawTable('t-opinions');
+      monthColumns($('c-court-monthly'), { rows: S.monthly, H: 220, label: 'Written opinions by month, all judges',
+        keys: [{ k: 'merits', label: 'Merits rulings', color: blue }, { k: 'rest', label: 'Other opinions and R&Rs', color: gray }],
+        get: (r, k) => (k === 'merits' ? meritsOf(r.all) : r.all.other + r.all.rr), href: (r) => findHref({ month: r.month }) });
+    } else if (v === 'outcomes') {
+      document.querySelectorAll('#oc-seg button').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.g === state.ocGroup)));
+      const g = state.ocGroup; const pool = S.pooled['g_' + g];
+      $('oc-cap').textContent = `How each judge's ${GROUPS[g].toLowerCase()} rulings came out, counting only rulings with a coded outcome (${fmt.int(pool.known)} of ${fmt.int(pool.n)} so far). Outlined bars rest on fewer than ${FEW} coded rulings, too few to read much into. Click a count or a segment to see the opinions.`;
+      drawTable('t-outcomes');
+    } else if (v === 'weekdays') {
+      $('dow-days').textContent = 'Rests on ' + plural(S.workingDays, 'working day') + ' since ' + fmtShort(S.since.orders);
+      drawTable('t-dow');
+    } else if (v === 'hours') {
+      const js = $('hours-judge'); if (js.options.length < 2) js.append(new Option('No judge', ''), ...judgesAlpha().map((j) => new Option(j.name, j.code)));
+      js.value = state.hoursJudge; drawHours();
+    }
+  }
+  function drawHours() {
+    const S = state.stats; const sel = state.hoursJudge; const blue = 'var(--judge)'; const gray = 'var(--court)';
+    const share = (a) => { const t = d3.sum(a); return a.map((x) => (t ? x / t : 0)); };
+    const series = [{ label: 'All judges', color: gray, values: share(S.hours.all), counts: S.hours.all }];
+    if (sel) series.push({ label: 'Judge ' + S.names[sel], color: blue, values: share(S.hours.by[sel]), counts: S.hours.by[sel] });
+    $('hours-cap').textContent = 'Share of civil orders entered in each clock hour, Central, since ' + fmtDate(S.since.orders) + '. Entry time is when the clerk docketed the order, which can differ from when it was signed.';
+    $('hours-legend').replaceChildren(...series.map((s) => legendItem(s.color, s.label)));
+    const used = d3.range(24).filter((h) => series.some((s) => s.counts[h]));
+    if (!used.length) { emptyChart($('c-hours'), 260, 'No entry times on file'); return; }
+    const hrs = d3.range(Math.min(...used), Math.max(...used) + 1);
+    const hourName = (h) => (h % 12 || 12) + (h < 12 ? 'a' : 'p');
+    const hourLong = (h) => (h % 12 || 12) + (h < 12 ? ' AM' : ' PM');
+    groupedColumns($('c-hours'), { cats: hrs, catLabel: hourName, H: 260, fmtY: fmt.pct0, label: 'Share of civil orders by hour of entry', tipTitle: (h) => hourLong(h) + ' to ' + hourLong((h + 1) % 24),
+      series: series.map((s) => ({ ...s, values: hrs.map((h) => s.values[h]), counts: hrs.map((h) => s.counts[h]) })) });
+  }
+
+  function renderLog() {
+    document.title = 'Update log · EDLA Analyzer';
+    const runs = state.data.runs.slice().sort((a, b) => String(b.at).localeCompare(String(a.at))).slice(0, 80);
+    $('t-log').replaceChildren(el('thead', {}, el('tr', {}, ...['Run (Central)', 'Orders added', 'Opinions added', 'Note'].map((c, i) => el('th', { textContent: c, className: i === 1 || i === 2 ? 'r' : '' })))),
+      el('tbody', {}, ...runs.map((r) => el('tr', {}, el('td', { className: 'mono', textContent: String(r.at).slice(0, 16).replace('T', ' ') }), el('td', { className: 'num', textContent: fmt.int(+r.orders_added || 0) }),
+        el('td', { className: 'num', textContent: fmt.int(+r.opinions_added || 0) }), el('td', { className: 'wrap', textContent: r.note || '' })))));
   }
 
   // ------------------------------------------------------------ CSV export
-  function csvFor(id) {
-    if (id === 'recent-table') {
+  function csvRows(which) {
+    const S = state.stats;
+    if (which === 'op') {
       const head = ['Date', 'Judge', 'Case', 'Doc', 'Ruling type', 'Motion category', 'Ruling', 'Outcome', 'Outcome source', 'Motion filed', 'Days to ruling', 'Pages', 'Hearing set', 'Case name', 'Link'];
-      return [head, ...finderRows().map((o) => [o.date, state.stats.names[o.judge], o.case, o.doc, catLabel[o.cat], mcatLabel[o.mcat] || '',
+      return [head, ...finderRows().map((o) => [o.date, S.names[o.judge], o.case, o.doc, catLabel[o.cat], mcatLabel[o.mcat] || '',
         o.event, OUTCOMES[o.oc] || '', o.ocSrc || '', o.filed, o.days == null ? '' : o.days, o.pages == null ? '' : o.pages, o.hearing == null ? '' : o.hearing ? 'yes' : 'no', o.title, opinionLink(o, linkKind(o))])];
     }
-    if (id === 'mt-table') {
+    if (which === 'mt') {
       return [['Judge', 'Case', 'Doc', 'Motion', 'Filed', 'Submission date', 'Days past submission', 'Ruling found', 'Case name'],
-        ...motionRows().map((m) => [state.stats.names[m.judge] || '', m.case, m.doc, m.event, m.date, m.submit, m.daysPast == null ? '' : m.daysPast, m.ruled, m.title])];
+        ...motionRows().map((m) => [S.names[m.judge] || '', m.case, m.doc, m.event, m.date, m.submit, m.daysPast == null ? '' : m.daysPast, m.ruled, m.title])];
     }
-    const t = TABLES[id]; const cols = t.cols.filter((c) => !c.spark && !(c.hide && c.hide(state.stats[t.src])));
-    return [cols.map((c) => (c.group ? c.group + ': ' : '') + c.label),
-      ...tableRows(id).map((r) => cols.map((c) => (typeof r[c.k] === 'number' ? +r[c.k].toFixed(4) : r[c.k])))];
+    const id = which === 'mj' ? 'mj-table' : { orders: 't-orders', opinions: 't-opinions', outcomes: 't-outcomes', weekdays: 't-dow', hours: 't-dow' }[state.view];
+    const cfg = TABLES[id]; const all = cfg.rows(); const cols = cfg.cols.filter((c) => !c.nosort && !(c.hide && c.hide(all)));
+    return [cols.map((c) => c.label), ...all.slice().sort((a, b) => a.name.localeCompare(b.name)).map((r) => cols.map((c) => (typeof r[c.k] === 'number' ? +r[c.k].toFixed(4) : r[c.k])))];
   }
-  function downloadCsv(id) {
-    const text = csvFor(id).map((row) => row.map((v) => { const s = v == null ? '' : String(v); return /[",\n]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s; }).join(',')).join('\n');
-    const a = el('a', { href: URL.createObjectURL(new Blob([text + '\n'], { type: 'text/csv' })), download: `edla-${id.replace('-table', '')}-${state.stats.through}.csv` });
+  function downloadCsv(which) {
+    if (!state.stats) return;
+    const text = csvRows(which).map((row) => row.map((v) => { const s = v == null ? '' : String(v); return /[",\n]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s; }).join(',')).join('\n');
+    const name = which === 'op' ? 'opinions' : which === 'mt' ? 'motions' : which === 'mj' ? 'motions-by-judge' : 'court-' + state.view;
+    const a = el('a', { href: URL.createObjectURL(new Blob([text + '\n'], { type: 'text/csv' })), download: `edla-${name}-${state.stats.through}.csv` });
     document.body.append(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 1000);
   }
 
-  // ------------------------------------------------------------ charts
-  function tooltip(box) { let t = box.querySelector('.tip'); if (!t) { t = el('div', { className: 'tip', hidden: true }); box.append(t); } return t; }
-  function showTip(box, tip, event, lines) {
-    tip.replaceChildren(...lines.map((l, i) => (typeof l === 'object' ? el('div', { className: 'hint', textContent: l.hint }) : el('div', { className: i === 0 ? 'k' : '', textContent: l }))));
-    tip.hidden = false;
-    const [x, y] = d3.pointer(event, box);
-    tip.style.left = Math.max(0, Math.min(box.clientWidth - tip.offsetWidth, x + 12)) + 'px'; tip.style.top = Math.max(0, y - 10) + 'px';
+  // ------------------------------------------------------------ search box: judges, case numbers, and opinion keywords
+  // "2:25-cv-01750", "25-cv-1750", "25cv1750", or "1750" all find the same case.
+  function caseQuery(q) {
+    const s = q.replace(/\s+/g, '').toLowerCase();
+    let m = s.match(/^(?:\d:)?(\d{2})[-:]?(?:cv|civ|c)?[-:]?0*(\d{1,5})(?:-[a-z]+)*$/);
+    if (m && /\D/.test(s)) return { yy: m[1], num: m[2] };
+    m = s.match(/^0*(\d{3,5})$/); if (m) return { yy: '', num: m[1] };
+    return null;
   }
-  const axisStyle = (g) => g.attr('font-size', null).attr('font-family', null)
-    .call((a) => a.selectAll('line,path').attr('stroke', css('--rule'))).call((a) => a.selectAll('text').style('fill', css('--ink-2')).attr('font-size', 11));
-  const labelWidth = (svg) => { const m = svg.append('text').attr('font-size', 12).text('Papillion'); const w = Math.ceil(m.node().getComputedTextLength()) + 12; m.remove(); return w; };
-  function frame(box, H, label) {
-    const W = box.clientWidth || 400;
-    const svg = d3.create('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('role', 'img').attr('aria-label', label);
-    box.replaceChildren(svg.node());
-    return { svg, W };
-  }
-
-  function barChart(boxId, rows, field, format, label, ref) {
-    const box = $(boxId); const sel = state.selected;
-    const accent = css('--accent'); const muted = css('--muted-bar'); const ink2 = css('--ink-2');
-    rows = rows.slice().sort((a, b) => b[field] - a[field]);
-    const top = 22; const H = rows.length * 22 + top + 6;
-    const { svg, W } = frame(box, H, label + ' by judge');
-    const left = labelWidth(svg);
-    const x = d3.scaleLinear([0, d3.max(rows, (r) => r[field]) || 1], [left, W - 50]);
-    const y = d3.scaleBand(rows.map((r) => r.name), [top, H - 6]).padding(0.28);
-    const tip = tooltip(box);
-    svg.selectAll('rect').data(rows).join('rect').attr('x', left).attr('y', (r) => y(r.name)).attr('height', y.bandwidth()).attr('rx', 2)
-      .attr('width', (r) => Math.max(1, x(r[field]) - left)).attr('fill', (r) => (!sel || r.code === sel ? accent : muted)).attr('data-link', 1)
-      .on('click', (e, r) => select(r.code === sel ? '' : r.code))
-      .on('mousemove', (e, r) => showTip(box, tip, e, tipHint([r.name, label + ': ' + format(r[field])], 'Click to pick this judge'))).on('mouseleave', () => { tip.hidden = true; });
-    svg.selectAll('.lbl').data(rows).join('text').attr('x', left - 8).attr('y', (r) => y(r.name) + y.bandwidth() / 2).attr('dy', '0.35em')
-      .attr('text-anchor', 'end').attr('font-size', 12).attr('font-weight', (r) => (r.code === sel ? 600 : 400)).text((r) => r.name);
-    svg.selectAll('.val').data(rows).join('text').attr('x', (r) => x(r[field]) + 6).attr('y', (r) => y(r.name) + y.bandwidth() / 2).attr('dy', '0.35em')
-      .attr('font-size', 11).style('fill', ink2).text((r) => format(r[field]));
-    svg.append('line').attr('x1', x(ref)).attr('x2', x(ref)).attr('y1', top - 4).attr('y2', H - 6).attr('stroke', css('--amber')).attr('stroke-dasharray', '4 3');
-    svg.append('text').attr('x', x(ref)).attr('y', 12).attr('text-anchor', 'middle').attr('font-size', 11).style('fill', ink2).text('Median ' + format(ref));
-  }
-
-  function weeklyChart() {
-    const box = $('c-weekly'); const rows = state.stats.weekly; const sel = state.selected;
-    const accent = css('--accent'); const muted = css('--muted-bar'); const ink2 = css('--ink-2');
-    $('weekly-note').textContent = (sel ? state.stats.names[sel] + ' and the median judge' : 'The median judge') + ', week by week. The current week is not finished yet.';
-    if (!rows.length) { box.replaceChildren(); return; }
-    const series = [['median', 'Median judge', sel ? muted : accent]];
-    if (sel) series.push([sel, state.stats.names[sel], accent]);
-    const H = 250; const m = { t: 10, r: 120, b: 26, l: 34 };
-    const { svg, W } = frame(box, H, 'Weekly orders per working day');
-    const x = d3.scaleUtc(d3.extent(rows, (r) => r.dt), [m.l, W - m.r]);
-    const y = d3.scaleLinear([0, (d3.max(rows, (r) => d3.max(series, ([k]) => r[k] || 0)) || 1) * 1.1], [H - m.b, m.t]).nice();
-    svg.append('g').attr('transform', `translate(0,${H - m.b})`).call(d3.axisBottom(x).ticks(Math.max(2, Math.floor(W / 110))).tickFormat(d3.utcFormat('%b %-d'))).call(axisStyle);
-    svg.append('g').attr('transform', `translate(${m.l},0)`).call(d3.axisLeft(y).ticks(4).tickSize(-(W - m.l - m.r))).call(axisStyle).call((g) => g.select('.domain').remove());
-    const last = rows[rows.length - 1]; const ends = [];
-    series.forEach(([k, label, color]) => {
-      svg.append('path').datum(rows).attr('fill', 'none').attr('stroke', color).attr('stroke-width', 2).attr('stroke-linejoin', 'round').attr('stroke-linecap', 'round')
-        .attr('d', d3.line().x((r) => x(r.dt)).y((r) => y(r[k] || 0)));
-      ends.push(svg.append('text').attr('x', W - m.r + 6).attr('y', y(last[k] || 0)).attr('dy', '0.35em').attr('font-size', 11).text(label + ' ' + fmt.d1(last[k] || 0)));
+  function omniResults(raw) {
+    const q = raw.trim(); if (!q || !state.stats) return [];
+    const S = state.stats; const lc = q.toLowerCase(); const out = [];
+    judgesAlpha().filter((j) => j.name.toLowerCase().startsWith(lc) || (lc.length >= 3 && j.name.toLowerCase().includes(lc)) || j.code.toLowerCase() === lc).slice(0, 4).forEach((j) => {
+      const op = S.opinions.find((r) => r.code === j.code);
+      out.push({ kind: 'Judge', label: 'Judge ' + j.name, sub: plural(op.total, 'written opinion') + ' · ' + j.code, href: judgeHref(j.code) });
     });
-    if (ends.length === 2) { const a = +ends[0].attr('y'); const b = +ends[1].attr('y'); if (Math.abs(a - b) < 13) { const mid = (a + b) / 2; ends[0].attr('y', a <= b ? mid - 7 : mid + 7); ends[1].attr('y', a <= b ? mid + 7 : mid - 7); } }
-    const tip = tooltip(box);
-    const ruleLine = svg.append('line').attr('y1', m.t).attr('y2', H - m.b).attr('stroke', ink2).attr('opacity', 0);
-    svg.append('rect').attr('x', m.l).attr('y', m.t).attr('width', W - m.l - m.r).attr('height', H - m.t - m.b).attr('fill', 'transparent').attr('data-link', 1)
-      .on('click', () => show('orders'))
-      .on('mousemove', (e) => {
-        const t = x.invert(d3.pointer(e)[0]);
-        const r = rows.reduce((best, q) => (Math.abs(q.dt - t) < Math.abs(best.dt - t) ? q : best), rows[0]);
-        ruleLine.attr('x1', x(r.dt)).attr('x2', x(r.dt)).attr('opacity', 1);
-        showTip(box, tip, e, ['Week of ' + d3.utcFormat('%b %-d')(r.dt), ...series.map(([k, label]) => label + ': ' + fmt.d1(r[k] || 0))]);
-      })
-      .on('mouseleave', () => { tip.hidden = true; ruleLine.attr('opacity', 0); });
+    const cq = caseQuery(q);
+    let cases = cq ? state.cases.filter((c) => c.num === cq.num && (!cq.yy || c.yy === cq.yy)) : [];
+    if (!cases.length && cq && cq.num.length >= 3) cases = state.cases.filter((c) => c.num.startsWith(cq.num) && (!cq.yy || c.yy === cq.yy));
+    if (!cq && lc.length >= 3) cases = state.cases.filter((c) => c.lt.includes(lc));
+    cases.slice().sort((a, b) => b.last.localeCompare(a.last)).slice(0, 6).forEach((c) => out.push({ kind: 'Case', label: el('code', { textContent: c.case }),
+      sub: (c.judge ? 'Judge ' + S.names[c.judge] : 'Judge not yet known') + ' · ' + (c.title || 'case name not on file'), href: c.judge ? judgeHref(c.judge) : findHref({ q: c.case }) }));
+    out.push({ kind: 'Search', label: 'Opinions matching “' + q + '”', sub: 'Search every written opinion by party, case number, or motion', href: findHref({ q }) });
+    return out;
   }
-
-  // Columns stacked by ruling type, one per month; follows the picked judge. A segment opens those opinions in the finder.
-  function monthlyChart() {
-    const box = $('c-monthly'); const S = state.stats; const sel = state.selected; const panel = css('--panel');
-    $('monthly-title').textContent = 'Written opinions by month' + (sel ? ': ' + S.names[sel] : '');
-    $('monthly-note').textContent = (sel ? S.names[sel] + "'s opinions each month, by type." : 'All 16 judges combined, by type.') + ' Click a bar segment to see those opinions.';
-    const rows = S.monthly.map((r) => ({ ...r, c: sel ? (r.by[sel] || zeroCats()) : r.all }));
-    if (!rows.length) { box.replaceChildren(); return; }
-    const H = 250; const m = { t: 10, r: 8, b: 26, l: 34 };
-    const { svg, W } = frame(box, H, 'Written opinions by month' + (sel ? ', ' + S.names[sel] : ''));
-    const x = d3.scaleBand(rows.map((r) => r.month), [m.l, W - m.r]).padding(0.25);
-    const y = d3.scaleLinear([0, d3.max(rows, (r) => d3.sum(CATS, ([k]) => r.c[k])) || 1], [H - m.b, m.t]).nice();
-    const every = Math.ceil(rows.length / Math.max(2, Math.floor(W / 60)));
-    svg.append('g').attr('transform', `translate(0,${H - m.b})`)
-      .call(d3.axisBottom(x).tickValues(rows.map((r) => r.month).filter((_, i) => i % every === 0)).tickFormat((k) => d3.utcFormat(k.endsWith('-01') ? '%b %Y' : '%b')(utc(k + '-01')))).call(axisStyle);
-    svg.append('g').attr('transform', `translate(${m.l},0)`).call(d3.axisLeft(y).ticks(4).tickSize(-(W - m.l - m.r))).call(axisStyle).call((g) => g.select('.domain').remove());
-    const tip = tooltip(box);
-    rows.forEach((r) => {
-      let acc = 0; const total = d3.sum(CATS, ([k]) => r.c[k]);
-      CATS.forEach(([k, label]) => {
-        const v = r.c[k]; if (!v) return;
-        svg.append('rect').attr('x', x(r.month)).attr('width', x.bandwidth()).attr('y', y(acc + v)).attr('height', y(acc) - y(acc + v))
-          .attr('fill', css('--c-' + k)).attr('stroke', panel).attr('stroke-width', 1).attr('data-link', 1)
-          .on('click', () => goFinder({ type: k, month: r.month }))
-          .on('mousemove', (e) => showTip(box, tip, e, tipHint([fmtMonth(r.month) + ': ' + fmt.int(total), label + ': ' + fmt.int(v)], 'Click to list these opinions')))
-          .on('mouseleave', () => { tip.hidden = true; });
-        acc += v;
-      });
-    });
-  }
-
-  // One 100% bar per judge, alphabetical. segs: [[key, label, color]]; value(r, key) and total(r) give the counts.
-  function shareBars(boxId, label, segs, value, total, emptyText, few, onSeg) {
-    const box = $(boxId); const sel = state.selected; const panel = css('--panel'); const ink2 = css('--ink-2');
-    const rows = state.stats.opinions.slice().sort((a, b) => a.name.localeCompare(b.name));
-    const top = 4; const H = rows.length * 22 + top + 6;
-    const { svg, W } = frame(box, H, label);
-    const left = labelWidth(svg); const right = 52;
-    const x = d3.scaleLinear([0, 1], [left, W - right]);
-    const y = d3.scaleBand(rows.map((r) => r.name), [top, H - 6]).padding(0.28);
-    const tip = tooltip(box);
-    rows.forEach((r) => {
-      const n = total(r);
-      const g = svg.append('g').attr('opacity', (!sel || r.code === sel ? 1 : 0.35) * (n && few && n < few ? 0.45 : 1));
-      let acc = 0;
-      segs.forEach(([k, l, color]) => {
-        const v = n ? value(r, k) / n : 0; if (!v) return;
-        g.append('rect').attr('x', x(acc)).attr('width', x(acc + v) - x(acc)).attr('y', y(r.name)).attr('height', y.bandwidth())
-          .attr('fill', color).attr('stroke', panel).attr('stroke-width', 1).attr('data-link', 1)
-          .on('click', () => onSeg(r, k))
-          .on('mousemove', (e) => showTip(box, tip, e, tipHint([r.name + ': ' + fmt.int(n), ...segs.map(([k2, l2]) => l2 + ': ' + fmt.int(value(r, k2)) + (n ? ' (' + fmt.pct0(value(r, k2) / n) + ')' : ''))], 'Click to list: ' + l)))
-          .on('mouseleave', () => { tip.hidden = true; });
-        acc += v;
-      });
-      if (!n) g.append('text').attr('x', left + 4).attr('y', y(r.name) + y.bandwidth() / 2).attr('dy', '0.35em').attr('font-size', 11).style('fill', ink2).text(emptyText);
-    });
-    svg.selectAll('.lbl').data(rows).join('text').attr('x', left - 8).attr('y', (r) => y(r.name) + y.bandwidth() / 2).attr('dy', '0.35em')
-      .attr('text-anchor', 'end').attr('font-size', 12).attr('font-weight', (r) => (r.code === sel ? 600 : 400)).style('cursor', 'pointer')
-      .on('click', (e, r) => select(r.code === sel ? '' : r.code)).text((r) => r.name);
-    svg.selectAll('.val').data(rows).join('text').attr('x', W - right + 6).attr('y', (r) => y(r.name) + y.bandwidth() / 2).attr('dy', '0.35em')
-      .attr('font-size', 11).style('fill', ink2).text((r) => 'n=' + fmt.int(total(r)));
-  }
-
-  function mixChart() {
-    shareBars('c-mix', 'Mix of written opinions by judge', CATS.map(([k, l]) => [k, l, css('--c-' + k)]), (r, k) => r.mix[k], (r) => r.total, 'No opinions', 0,
-      (r, k) => goFinder({ type: k }, r.code));
-  }
-
-  function outcomeChart() {
-    const g = state.ocGroup;
-    document.querySelectorAll('#oc-seg button').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.g === g)));
-    const known = d3.sum(state.stats.opinions, (r) => r[g + '_known']); const n = d3.sum(state.stats.opinions, (r) => r[g + '_n']);
-    $('oc-note').textContent = `How each judge's ${GROUPS[g].toLowerCase()} rulings came out, counting only rulings with a recorded outcome (${fmt.int(known)} of ${fmt.int(n)} so far). "n" is the number recorded. Faded bars rest on fewer than ${FEW} rulings, which is too few to read much into. Click a segment to see those opinions.`;
-    shareBars('c-outcomes', 'Outcomes of ' + GROUPS[g] + ' rulings by judge', OC_SEGS.map(([k, l]) => [k, l, ocColor(k)]), (r, k) => r[g + '_' + k], (r) => r[g + '_known'], 'No outcomes on file yet', FEW,
-      (r, k) => goFinder({ type: g === 'all' ? 'motion' : g, oc: k }, r.code));
-  }
-
-  // Share of timed orders by hour of entry: the court, plus the picked judge.
-  function hoursChart() {
-    const box = $('c-hours'); const S = state.stats; const sel = state.selected;
-    const accent = css('--accent'); const muted = css('--muted-bar');
-    $('hours-note').textContent = 'What time of day orders come out (Central), since ' + fmtDate(S.since.orders)
-      + (sel ? ': ' + S.names[sel] + ' next to the whole court.' : '. Pick a judge to compare.');
-    const share = (a) => { const t = d3.sum(a); return a.map((v) => (t ? v / t : 0)); };
-    const series = [['all', 'All judges', sel ? muted : accent, share(S.hours.all), S.hours.all]];
-    if (sel) series.push([sel, S.names[sel], accent, share(S.hours.by[sel]), S.hours.by[sel]]);
-    $('hours-legend').replaceChildren(...(sel ? series : []).map(([, label, color]) => { const i = el('i'); i.style.background = color; return el('span', {}, i, label); }));
-    const used = d3.range(24).filter((h) => series.some((s) => s[4][h]));
-    if (!used.length) { box.replaceChildren(); return; }
-    const hrs = d3.range(Math.min(...used), Math.max(...used) + 1);
-    const hourName = (h) => (h % 12 || 12) + (h < 12 ? ' AM' : ' PM');
-    const H = 360; const m = { t: 10, r: 8, b: 26, l: 40 };
-    const { svg, W } = frame(box, H, 'Share of civil orders by hour of entry');
-    const x = d3.scaleBand(hrs, [m.l, W - m.r]).padding(0.2);
-    const xi = d3.scaleBand(series.map((s) => s[0]), [0, x.bandwidth()]).padding(0.08);
-    const y = d3.scaleLinear([0, d3.max(series, (s) => d3.max(s[3])) || 1], [H - m.b, m.t]).nice();
-    const every = Math.ceil(hrs.length / Math.max(2, Math.floor(W / 50)));
-    svg.append('g').attr('transform', `translate(0,${H - m.b})`).call(d3.axisBottom(x).tickValues(hrs.filter((_, i) => i % every === 0)).tickFormat(hourName)).call(axisStyle);
-    svg.append('g').attr('transform', `translate(${m.l},0)`).call(d3.axisLeft(y).ticks(4).tickFormat(fmt.pct0).tickSize(-(W - m.l - m.r))).call(axisStyle).call((g) => g.select('.domain').remove());
-    const tip = tooltip(box);
-    hrs.forEach((h) => {
-      series.forEach(([k, , color, sh]) => {
-        svg.append('rect').attr('x', x(h) + xi(k)).attr('width', xi.bandwidth()).attr('y', y(sh[h])).attr('height', y(0) - y(sh[h])).attr('rx', 2).attr('fill', color);
-      });
-      svg.append('rect').attr('x', x(h) - x.step() * x.paddingInner() / 2).attr('width', x.step()).attr('y', m.t).attr('height', H - m.t - m.b).attr('fill', 'transparent')
-        .on('mousemove', (e) => showTip(box, tip, e, [hourName(h) + ' to ' + hourName((h + 1) % 24), ...series.map(([, label, , sh, n]) => label + ': ' + fmt.pct0(sh[h]) + ' (' + fmt.int(n[h]) + ')')]))
-        .on('mouseleave', () => { tip.hidden = true; });
-    });
-  }
-
-  // ------------------------------------------------------------ opinion cells
-  function caseLink(o) {
-    const kind = linkKind(o);
-    const a = el('a', { href: opinionLink(o, kind), target: '_blank', rel: 'noopener noreferrer', textContent: o.case + ' · ' + o.doc, title: linkTitle[kind] });
-    return kind === 'pdf' ? [a, ' ', el('span', { className: 'tag', textContent: 'PDF' })] : [a];
-  }
-  function outcomePill(o) {
-    if (!o.oc) return isMotion(o) ? el('span', { className: 'pill none', textContent: 'Not recorded', title: 'No outcome on file' }) : null;
-    const i = el('i'); i.style.background = o.oc === 'unclear' ? 'transparent' : ocColor(o.oc);
-    if (o.oc === 'unclear') i.style.border = '1px solid ' + css('--ink-3');
-    return el('span', { className: 'pill', title: 'Outcome ' + (OC_SRC[o.ocSrc] || 'on file') }, i, OUTCOMES[o.oc] || o.oc, o.ocSrc === 'manual' ? el('small', { textContent: 'hand' }) : null);
-  }
-
-  // Filter used by the finder and the profile list. type: a ruling type, "merits", "motion", or a motion category.
-  const typeMatch = (o, type) => !type || (type === 'merits' ? Number(o.merits) && !Number(o.rr) : type === 'motion' ? isMotion(o) : mcatLabel[type] ? o.mcat === type : o.cat === type);
-  const textMatch = (o, q) => !q || (o.case + ' ' + o.title + ' ' + o.event).toLowerCase().includes(q);
-
-  // ------------------------------------------------------------ finder
-  function finderRows() {
-    const S = state.stats; const sel = state.selected; const F = state.finder; const q = F.q.trim().toLowerCase();
-    return S.recent.filter((o) => (!sel || o.judge === sel) && typeMatch(o, F.type)
-      && (!F.oc || ocMatch(o, F.oc))
-      && (!F.pdf || linkKind(o) === 'pdf') && (!F.month || o.date.slice(0, 7) === F.month) && textMatch(o, q));
-  }
-  function drawFinder() {
-    const S = state.stats; const F = state.finder;
-    $('op-q').value = F.q; $('op-type').value = F.type; $('op-outcome').value = F.oc === 'rest' ? '' : F.oc; $('op-pdf').checked = F.pdf;
-    const chips = [];
-    if (F.month) chips.push(['Month: ' + fmtMonth(F.month), () => { F.month = ''; }]);
-    if (F.oc === 'rest') chips.push(['Outcome: mixed, moot, or other', () => { F.oc = ''; }]);
-    $('op-chips').replaceChildren(...chips.map(([label, clear]) => el('span', { className: 'fchip' }, label, el('button', { type: 'button', textContent: '×', title: 'Remove this filter', onclick: () => { clear(); drawFinder(); } }))));
-    const rows = finderRows(); const shown = rows.slice(0, state.finderLimit);
-    // Columns with nothing to show for this list stay hidden rather than filling with dashes.
-    const hasDays = rows.some((o) => o.days != null); const hasPages = rows.some((o) => o.pages != null);
-    const cols = ['Date', 'Judge', 'Case · doc', 'Ruling', 'Outcome'].concat(hasDays ? ['Days to ruling'] : [], hasPages ? ['Pages'] : [], ['Case name'], state.editor ? ['Record'] : []);
-    const head = el('thead', {}, el('tr', {}, ...cols.map((c) => el('th', { textContent: c }))));
-    const body = el('tbody', {}, ...shown.map((o) => {
-      const cells = [el('td', { textContent: fmtDate(o.date) }), el('td', { className: 'txt', textContent: S.names[o.judge] }), el('td', { className: 'txt' }, ...caseLink(o)),
-        el('td', { className: 'left', textContent: o.event }), el('td', { className: 'txt' }, outcomePill(o))];
-      if (hasDays) cells.push(el('td', { className: o.days == null ? 'dim' : '', textContent: o.days == null ? '—' : fmt.int(o.days), title: o.filed ? 'Motion filed ' + fmtDate(o.filed) : 'Motion filing date not on file' }));
-      if (hasPages) cells.push(el('td', { className: o.pages == null ? 'dim' : '', textContent: o.pages == null ? '—' : fmt.int(o.pages), title: o.pages == null ? 'Page count not on file' : 'Pages in the PDF' }));
-      cells.push(el('td', { className: 'left', textContent: o.title }));
-      if (state.editor) cells.push(el('td', { className: 'txt' }, el('a', { href: recordLink(o), target: '_blank', rel: 'noopener noreferrer', textContent: o.oc ? 'Correct' : 'Record' })));
-      return el('tr', {}, ...cells);
-    }));
-    $('recent-table').replaceChildren(head, body);
-    $('op-count').textContent = rows.length ? 'Showing ' + fmt.int(shown.length) + ' of ' + fmt.int(rows.length) : 'No matching opinions';
-    $('op-more').hidden = shown.length >= rows.length;
-    $('finder-title').textContent = 'Opinion finder' + (state.selected ? ': ' + S.names[state.selected] : '');
-  }
-
-  // ------------------------------------------------------------ judge profile
-  const fact = (k, v, sub, na) => el('div', { className: 'fact' + (na ? ' na' : '') }, el('span', { textContent: k }), el('b', { textContent: v }), el('small', { textContent: sub }));
-  const rateText = (t) => (t.known ? `${pctOf(t.granted, t.known)} granted · ${pctOf(t.partial, t.known)} in part · ${pctOf(t.denied, t.known)} denied` : 'none coded yet');
-
-  function drawProfile() {
-    const S = state.stats; const sel = state.selected;
-    $('profile-empty').hidden = !!sel; $('profile-body').hidden = !sel; $('profile-clear').hidden = !sel; $('profile-print').hidden = !sel;
-    $('profile-title').textContent = sel ? 'Judge ' + S.names[sel] : 'Judge profile';
-    const chips = $('profile-chips');
-    if (!chips.childElementCount) chips.append(...state.data.judges.slice().sort((a, b) => a.name.localeCompare(b.name)).map((j) => el('button', { type: 'button', className: 'chip', textContent: j.name, onclick: () => select(j.code) })));
-    chips.querySelectorAll('.chip').forEach((c) => c.setAttribute('aria-pressed', 'false'));
-    if (!sel) return;
-    const or = S.orders.find((r) => r.code === sel); const op = S.opinions.find((r) => r.code === sel);
-    $('profile-facts').replaceChildren(
-      fact('Orders per working day', fmt.d1(or.per_day), 'court median ' + fmt.d1(S.totals.medPerDay)),
-      fact('Civil orders', fmt.int(or.orders), fmt.int(or.last10) + ' in the last 10 working days'),
-      fact('Written opinions', fmt.int(op.total), fmt.d2(op.per_week) + ' per week · median ' + fmt.d2(S.totals.medPerWeek)),
-      fact('Merits rulings per month', fmt.d2(op.merits_month), 'court median ' + fmt.d2(S.totals.medMerits)),
-      fact('Rule 12 rulings', fmt.int(op.cats.r12.n), rateText(op.cats.r12)),
-      fact('Rule 56 rulings', fmt.int(op.cats.r56.n), rateText(op.cats.r56)),
-      fact('Median days to ruling', op.motions.medDays == null ? 'not yet' : fmt.med(op.motions.medDays), op.motions.nDays ? `from ${fmt.int(op.motions.nDays)} motion rulings with filing dates` : 'filing dates still being collected', op.motions.medDays == null),
-      fact('Median opinion length', op.n_pages ? fmt.med(op.med_pages) + ' pages' : 'not yet', op.n_pages ? `from ${fmt.int(op.n_pages)} opinions with a PDF` : 'page counts still being collected', !op.n_pages),
-      fact('Counted from', fmtShort(op.start > or.start ? or.start : op.start), op.start === S.since.opinions ? 'start of the data' : 'first day in the period'),
-    );
-    $('profile-period').textContent = state.period ? '· last ' + state.period + ' days' : '';
-    drawProfileList(); drawMotions(op); drawSpeed(op); drawWritten(or, op); drawCompare();
-  }
-
-  function drawProfileList() {
-    const S = state.stats; const sel = state.selected; if (!sel) return;
-    const q = state.pl.q.trim().toLowerCase();
-    $('pl-q').value = state.pl.q; $('pl-type').value = state.pl.type;
-    const rows = S.recent.filter((o) => o.judge === sel && typeMatch(o, state.pl.type) && textMatch(o, q));
-    const shown = rows.slice(0, 12);
-    $('pl-count').textContent = rows.length ? (rows.length > shown.length ? `latest ${shown.length} of ${fmt.int(rows.length)}` : `${rows.length} opinion${rows.length === 1 ? '' : 's'}`) : 'no matches';
-    $('profile-latest').replaceChildren(...(shown.length ? shown.map((o) => el('li', {}, el('span', { className: 'd', textContent: fmtShort(o.date) }),
-      el('span', {}, ...caseLink(o), ...(o.oc ? [' ', outcomePill(o)] : [])), el('span', { className: 't', textContent: o.event + ' · ' + o.title })))
-      : [el('li', {}, el('span', { className: 'empty', textContent: q || state.pl.type ? 'No written opinions match this filter.' : 'No written opinions in this period.' }))]));
-    const more = $('profile-more'); more.textContent = rows.length > shown.length ? `All ${fmt.int(rows.length)} in the finder` : "All of this judge's opinions in the finder";
-  }
-
-  // Motion outcomes by category for the picked judge; every figure opens the opinions behind it.
-  function drawMotions(op) {
-    const S = state.stats; const sel = state.selected;
-    $('mo-note').textContent = `How ${S.names[sel]}'s motion rulings came out, by type of motion, since ${fmtDate(S.since.opinions)}. Percentages count only rulings with a recorded outcome; "coded" is how many that is. "Granted" means the motion was granted, no matter who filed it. Click any number to see the opinions behind it.`;
-    const cols = ['Motion category', 'Rulings', 'Coded', 'Granted', 'Granted in part', 'Denied', 'Mixed, moot, other', 'Days to ruling', 'Pages'];
-    const head = el('thead', {}, el('tr', {}, ...cols.map((c) => el('th', { textContent: c }))));
-    const line = (label, t, type) => {
-      const tr = el('tr'); tr.dataset.cat = type;
-      const n = (v, preset) => el('td', {}, v > 0 ? cellLink(fmt.int(v), { type, ...preset }, sel) : el('span', { className: 'dim', textContent: '0' }));
-      const detail = { granted: t.grantedLeave ? `; ${fmt.int(t.grantedLeave)} with leave to amend` : '', denied: t.deniedWop ? `; ${fmt.int(t.deniedWop)} without prejudice` : '', rest: t.moot ? `; ${fmt.int(t.moot)} moot` : '', partial: '' };
-      const pct = (v, oc) => el('td', {}, t.known && v > 0 ? cellLink(fmt.pct0(v / t.known), { type, oc }, sel, `${fmt.int(v)} of ${fmt.int(t.known)} coded rulings${detail[oc]}`) : el('span', { className: 'dim', textContent: t.known ? '0%' : '—' }));
-      tr.append(el('td', { className: 'txt', textContent: label }), n(t.n, {}), el('td', {}, t.known ? cellLink(fmt.int(t.known), { type, oc: 'known' }, sel) : el('span', { className: 'dim', textContent: '0' })));
-      if (t.n && !t.known) tr.append(el('td', { className: 'coding', colSpan: 4, textContent: 'outcome coding in progress' }));
-      else if (!t.n) tr.append(el('td', { className: 'dim', colSpan: 4, textContent: 'no rulings in this period' }));
-      else tr.append(pct(t.granted, 'granted'), pct(t.partial, 'partial'), pct(t.denied, 'denied'), pct(t.rest, 'rest'));
-      tr.append(el('td', { className: t.medDays == null ? 'dim' : '', textContent: daysText(t), title: t.medDays == null ? 'No filing dates on file yet' : 'Median calendar days from the motion\'s docket date to the ruling, with the middle half of rulings in parentheses' }));
-      tr.append(el('td', { className: t.medPages == null ? 'dim' : '', textContent: t.medPages == null ? '—' : fmt.med(t.medPages) + ' (n=' + t.nPages + ')', title: 'Median PDF length' }));
-      return tr;
+  const omnis = [];
+  function omnibox(root) {
+    const input = root.querySelector('input');
+    const list = el('div', { className: 'omni-list', id: root.id + '-list', hidden: true }); list.setAttribute('role', 'listbox'); root.append(list);
+    input.setAttribute('role', 'combobox'); input.setAttribute('aria-expanded', 'false'); input.setAttribute('aria-controls', list.id); input.setAttribute('aria-autocomplete', 'list');
+    let items = []; let active = 0;
+    const close = (clear) => { list.hidden = true; input.setAttribute('aria-expanded', 'false'); input.removeAttribute('aria-activedescendant'); if (clear) { input.value = ''; input.blur(); } };
+    const paint = () => {
+      if (!input.value.trim()) { close(false); return; }
+      list.replaceChildren(...(items.length ? items.map((it, i) => {
+        const a = el('a', { className: 'opt', href: it.href, id: list.id + '-' + i }, el('span', { className: 'k', textContent: it.kind }), el('span', {}, el('span', { className: 'l' }, it.label), it.sub ? el('span', { className: 's', textContent: it.sub }) : null));
+        a.setAttribute('role', 'option'); a.setAttribute('aria-selected', String(i === active));
+        a.addEventListener('mousedown', (e) => e.preventDefault()); a.addEventListener('click', () => close(true));
+        return a;
+      }) : [el('div', { className: 'opt-empty', textContent: 'Still loading the data…' })]));
+      list.hidden = false; input.setAttribute('aria-expanded', 'true'); if (items.length) input.setAttribute('aria-activedescendant', list.id + '-' + active);
     };
-    const body = el('tbody', {}, ...MCATS.map(([k, label]) => line(label, op.cats[k], k)), line('All motion rulings', op.motions, 'motion'));
-    body.lastChild.style.fontWeight = '600';
-    $('mo-table').replaceChildren(head, body);
-  }
-
-  // "45 (30–70, n=12)": the median, the middle half when four or more rulings have dates, and the count.
-  const daysText = (t) => (t.medDays == null ? '—' : fmt.med(t.medDays) + (t.p25 != null ? ` (${fmt.med(t.p25)}–${fmt.med(t.p75)}, n=${t.nDays})` : ` (n=${t.nDays})`));
-
-  function drawSpeed(op) {
-    const S = state.stats; const t = op.motions;
-    $('speed-note').textContent = 'How many days passed between a motion being filed and the written opinion deciding it. These are medians in calendar days. We collect filing dates one ruling at a time, so the numbers fill in gradually. '
-      + (t.nDays ? `So far ${fmt.int(t.nDays)} of ${S.names[state.selected]}'s ${fmt.int(t.n)} motion rulings have a filing date.` : `None of ${S.names[state.selected]}'s rulings has a filing date yet; check back soon.`);
-    const cell = (label, tt) => fact(label, tt.medDays == null ? 'not yet' : fmt.med(tt.medDays) + ' days',
-      tt.nDays ? (tt.p25 != null ? `middle half ${fmt.med(tt.p25)}–${fmt.med(tt.p75)} days · n=${fmt.int(tt.nDays)}` : `from ${fmt.int(tt.nDays)} ruling${tt.nDays === 1 ? '' : 's'}`) : 'no filing dates yet', tt.medDays == null);
-    const h = t.nHearing ? fact('Hearing set before ruling', pctOf(t.hearings, t.nHearing), `${fmt.int(t.hearings)} of ${fmt.int(t.nHearing)} motions with a hearing set in the case between filing and ruling`)
-      : fact('Hearing set before ruling', 'not yet', 'needs motions filed and decided since ' + fmtShort(S.since.orders), true);
-    $('speed-facts').replaceChildren(cell('All motions', t), ...MCATS.filter(([k]) => op.cats[k].n).map(([k, label]) => cell(label, op.cats[k])),
-      fact('Court median, all motions', S.totals.medDays == null ? 'not yet' : fmt.med(S.totals.medDays) + ' days', S.totals.medDays == null ? `shown once three judges have ${FEW} or more dated rulings` : 'median of the judges\' medians', S.totals.medDays == null), h);
-  }
-
-  function drawWritten(or, op) {
-    const S = state.stats;
-    $('written-note').textContent = `How much of this judge's output is a written opinion versus a short order, since ${fmtDate(S.since.orders)}. "Written opinion" means chambers flagged the order for PACER's Written Opinions Report. The docket can't tell an unflagged reasoned order from a minute entry, so treat this as a measure of flagging habits.`;
-    $('written-facts').replaceChildren(
-      fact('Civil orders', fmt.int(or.orders), fmt.int(or.text_orders) + ' entered as text orders (' + pctOf(or.text_orders, or.orders) + ')'),
-      fact('Written opinions in the same period', fmt.int(op.written_window), pctOf(op.written_window, or.orders) + ' of orders · court median ' + fmt.pct0(S.totals.medWrittenShare)),
-      fact('Orders on motions', fmt.int(or.motion_orders), 'orders whose docket event names a motion'),
-      fact('Written opinions on motions', fmt.int(op.written_motions), pctOf(op.written_motions, or.motion_orders) + ' of motion orders'),
-    );
-  }
-
-  function drawCompare() {
-    const S = state.stats; const sel = state.selected;
-    const others = state.data.judges.filter((j) => j.code !== sel).sort((a, b) => a.name.localeCompare(b.name));
-    ['cmp-1', 'cmp-2'].forEach((id, i) => {
-      const s = $(id); s.replaceChildren(new Option('—', ''), ...others.map((j) => new Option(j.name, j.code))); s.value = state.compare[i] || '';
+    const draw = () => { items = omniResults(input.value); active = 0; paint(); };
+    input.addEventListener('input', draw);
+    input.addEventListener('focus', () => { if (input.value.trim()) draw(); });
+    input.addEventListener('blur', () => setTimeout(() => close(false), 150));
+    input.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowDown' || e.key === 'ArrowUp') { e.preventDefault(); if (!items.length) return; active = (active + (e.key === 'ArrowDown' ? 1 : -1) + items.length) % items.length; paint(); list.children[active].scrollIntoView({ block: 'nearest' }); }
+      else if (e.key === 'Enter') { e.preventDefault(); if (!items.length) draw(); const it = items[active]; if (it) { close(true); location.hash = it.href; } }
+      else if (e.key === 'Escape') { close(true); }
     });
-    const codes = [sel, ...state.compare.filter((c) => c && c !== sel && S.names[c])];
-    const ors = codes.map((c) => S.orders.find((r) => r.code === c)); const ops = codes.map((c) => S.opinions.find((r) => r.code === c));
-    const rateCell = (t) => (t.known ? `${pctOf(t.granted, t.known)} granted · ${pctOf(t.denied, t.known)} denied (n=${t.known})` : t.n ? `${fmt.int(t.n)} rulings, none coded yet` : 'no rulings');
-    const medRate = (k) => (S.totals.medRate[k] == null ? 'too few coded' : fmt.pct0(S.totals.medRate[k]) + ' granted');
-    const rows = [
-      ['Orders per working day', (i) => fmt.d1(ors[i].per_day), fmt.d1(S.totals.medPerDay)],
-      ['Written opinions per week', (i) => fmt.d2(ops[i].per_week), fmt.d2(S.totals.medPerWeek)],
-      ['Merits rulings per month', (i) => fmt.d2(ops[i].merits_month), fmt.d2(S.totals.medMerits)],
-      ['Written opinions as a share of orders', (i) => fmt.pct0(ors[i].written_share), fmt.pct0(S.totals.medWrittenShare)],
-      ['Median opinion length', (i) => (ops[i].n_pages ? fmt.med(ops[i].med_pages) + ' pages (n=' + ops[i].n_pages + ')' : 'not yet'), S.totals.medPages ? fmt.med(S.totals.medPages) + ' pages' : '—'],
-      ...MCATS.filter(([k]) => ops.some((o) => o.cats[k].n)).map(([k, label]) => [label + ' outcomes', (i) => rateCell(ops[i].cats[k]), medRate(k)]),
-      ['Median days to ruling, all motions', (i) => (ops[i].motions.medDays == null ? 'not yet' : fmt.med(ops[i].motions.medDays) + ' (n=' + ops[i].motions.nDays + ')'), S.totals.medDays == null ? '—' : fmt.med(S.totals.medDays)],
-    ];
-    const head = el('thead', {}, el('tr', {}, el('th', { textContent: 'Figure' }), ...codes.map((c) => el('th', { textContent: S.names[c] })), el('th', { textContent: 'Court median' })));
-    const body = el('tbody', {}, ...rows.map(([label, f, med]) => el('tr', {}, el('td', { className: 'txt', textContent: label }), ...codes.map((c, i) => el('td', { className: 'txt', textContent: f(i) })), el('td', { className: 'txt dim', textContent: med }))));
-    $('cmp-table').replaceChildren(head, body);
-  }
-
-  function flashPanel(id, cat) {
-    const p = $(id); if (!p) return;
-    p.scrollIntoView({ behavior: 'smooth', block: 'start' }); p.focus({ preventScroll: true });
-    p.classList.add('flash'); setTimeout(() => p.classList.remove('flash'), 1800);
-    if (cat) { const tr = p.querySelector(`tr[data-cat="${cat}"]`); if (tr) { tr.classList.add('hl'); setTimeout(() => tr.classList.remove('hl'), 1800); } }
-  }
-
-  // ------------------------------------------------------------ overview
-  function drawTiles() {
-    const S = state.stats; const T = S.totals; const D = state.data;
-    $('t-orders').textContent = fmt.int(T.orders);
-    $('t-perday').textContent = fmt.d1(T.perDay);
-    $('t-opinions').textContent = fmt.int(T.opinions);
-    $('t-opinions-sub').textContent = `since ${fmtDate(S.since.opinions)} · ${fmt.int(T.pdf)} with a PDF`;
-    $('t-merits').textContent = fmt.int(T.merits);
-    $('t-merits-sub').textContent = `Rule 12, Rule 56, trial · outcomes coded for ${fmt.int(T.known)} of ${fmt.int(T.motions)} motion rulings`;
-    $('t-through').textContent = fmtShort(S.through);
-    const lastRun = D.runs.slice().sort((a, b) => String(b.at).localeCompare(String(a.at)))[0];
-    $('t-updated').textContent = lastRun ? 'updated ' + String(lastRun.at).slice(5, 16).replace('T', ' ') + ' Central' : '';
-    $('t-perday-spark').replaceChildren(sparkline(S.weekly.map((w) => w.all), 120, 22));
-    $('t-opinions-spark').replaceChildren(sparkline(S.monthly.map((m) => d3.sum(CATS, ([k]) => m.all[k])), 120, 22));
-  }
-
-  // ------------------------------------------------------------ submitted motions
-  function motionRows() {
-    const S = state.stats; const sel = state.selected; const v = state.mt.view; const q = state.mt.q.trim().toLowerCase();
-    return S.motions.filter((m) => (!sel || m.judge === sel) && (v === 'all' || (v === 'pending' ? !m.ruled : m.past))
-      && (!q || (m.case + ' ' + m.title + ' ' + m.event).toLowerCase().includes(q)));
-  }
-  function drawMotions() {
-    const S = state.stats; const sel = state.selected; const all = S.motions.filter((m) => !sel || m.judge === sel);
-    $('mt-title').textContent = 'Submitted motions' + (sel ? ': ' + S.names[sel] : '');
-    $('mt-since').textContent = S.motionsSince ? fmtDate(S.motionsSince) : 'the day this page went live';
-    $('n-motions').textContent = fmt.int(S.motions.filter((m) => m.past).length);
-    $('mt-view').value = state.mt.view; $('mt-q').value = state.mt.q;
-    const past = all.filter((m) => m.past);
-    $('mt-facts').replaceChildren(
-      fact('Motions on file', fmt.int(all.length), S.motionsSince ? 'since ' + fmtShort(S.motionsSince) : 'none yet'),
-      fact('With a submission date', fmt.int(all.filter((m) => m.submit).length), 'read from the docket text so far'),
-      fact('Ruling found', fmt.int(all.filter((m) => m.ruled).length), 'a later order or opinion names the motion type'),
-      fact('Past submission, no ruling found', fmt.int(past.length), past.length ? 'median ' + fmt.med(median(past.map((m) => m.daysPast))) + ' days past' : 'none right now'),
-    );
-    const rows = motionRows(); const shown = rows.slice(0, state.mt.limit);
-    const head = el('thead', {}, el('tr', {}, ...['Judge', 'Case · doc', 'Motion', 'Filed', 'Submission', 'Days past', 'Status', 'Case name'].map((c) => el('th', { textContent: c }))));
-    const body = el('tbody', {}, ...(shown.length ? shown.map((m) => el('tr', {},
-      el('td', { className: 'txt', textContent: S.names[m.judge] || '—', title: m.judge ? '' : 'Judge not yet known for this case' }),
-      el('td', { className: 'txt' }, el('a', { href: CL + '?type=r&court=laed&docket_number=' + encodeURIComponent(m.case), target: '_blank', rel: 'noopener noreferrer', textContent: m.case + ' · ' + m.doc, title: 'Search CourtListener for this case' })),
-      el('td', { className: 'left', textContent: m.event }),
-      el('td', { textContent: fmtDate(m.date) }),
-      el('td', { className: m.submit ? '' : 'dim', textContent: m.submit ? fmtDate(m.submit) : 'not read yet' }),
-      el('td', { className: m.daysPast == null ? 'dim' : '', textContent: m.daysPast == null ? '—' : fmt.int(m.daysPast) }),
-      el('td', { className: 'txt' }, m.ruled ? el('span', { className: 'pill' }, (() => { const i = el('i'); i.style.background = css('--o-partial'); return i; })(), 'Ruling found ' + fmtShort(m.ruled))
-        : m.past ? el('span', { className: 'pill' }, (() => { const i = el('i'); i.style.background = css('--amber'); return i; })(), 'Past submission')
-        : el('span', { className: 'pill none', textContent: m.submit ? 'Not yet submitted' : 'Awaiting' })),
-      el('td', { className: 'left', textContent: m.title }),
-    )) : [el('tr', {}, el('td', { className: 'left dim', colSpan: 8, textContent: S.motions.length ? 'No motions match.' : 'No motions on file yet. The updater records them from the court\'s feed as they are filed.' }))]));
-    $('mt-table').replaceChildren(head, body);
-    $('mt-count').textContent = rows.length ? 'Showing ' + fmt.int(shown.length) + ' of ' + fmt.int(rows.length) : '';
-    $('mt-more').hidden = shown.length >= rows.length;
-    drawTable('mj-table');
-  }
-
-  function drawLog() {
-    const runs = state.data.runs.slice().sort((a, b) => String(b.at).localeCompare(String(a.at))).slice(0, 60);
-    $('runs-table').replaceChildren(el('thead', {}, el('tr', {}, ...['Run (Central)', 'Orders added', 'Opinions added', 'Note'].map((c) => el('th', { textContent: c })))),
-      el('tbody', {}, ...runs.map((r) => el('tr', {}, el('td', { textContent: String(r.at).slice(0, 16).replace('T', ' ') }), el('td', { textContent: fmt.int(+r.orders_added || 0) }),
-        el('td', { textContent: fmt.int(+r.opinions_added || 0) }), el('td', { className: 'left', textContent: r.note || '' })))));
+    omnis.push({ root, input });
   }
 
   // ------------------------------------------------------------ render
-  const SHEETS = {
-    overview: () => { drawTiles(); drawProfile(); weeklyChart(); monthlyChart(); },
-    orders: () => { drawTable('or-table'); drawTable('dow-table'); barChart('c-perday', state.stats.orders, 'per_day', fmt.d1, 'Orders per working day', state.stats.totals.medPerDay);
-      $('dow-days').textContent = fmt.int(state.stats.workingDays); if ($('curio-hours').open) hoursChart(); },
-    opinions: () => { drawTable('op-table'); barChart('c-merits', state.stats.opinions, 'merits_month', fmt.d2, 'Merits rulings per month', state.stats.totals.medMerits); mixChart(); },
-    outcomes: () => { drawTable('oc-table'); outcomeChart(); },
-    finder: drawFinder,
-    motions: drawMotions,
-    log: drawLog,
-  };
-
+  const RENDER = { judges: renderJudges, judge: renderJudge, compare: renderCompare, opinions: renderOpinions, motions: renderMotions, court: renderCourt, log: renderLog };
   function render() {
     const S = state.stats;
-    document.querySelectorAll('[data-since]').forEach((n) => { n.textContent = fmtDate(S.since[n.dataset.since]); });
-    $('status').textContent = '';
-    $('judge-pick').value = state.selected; $('period-pick').value = state.period; $('bars-pick').checked = state.bars;
-    $('n-finder').textContent = fmt.int(S.recent.length);
-    TABS.forEach((t) => { $(t).hidden = t !== state.tab; $('tab-' + t).setAttribute('aria-selected', String(t === state.tab)); $('tab-' + t).tabIndex = t === state.tab ? 0 : -1; });
-    SHEETS[state.tab]();
+    if (state.page === 'judge' && !S.names[state.judge]) state.page = 'judges';
+    document.body.dataset.page = state.page;
+    PAGES.forEach((p) => { $('page-' + p).hidden = p !== state.page; });
+    document.querySelectorAll('[data-nav]').forEach((a) => {
+      const k = a.dataset.nav; a.href = hashFor(k, { f: emptyFinder(), mt: { view: 'past' }, view: 'orders' });
+      if (NAV[state.page] === k) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current');
+    });
+    document.querySelectorAll('.period button').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.period === state.period)));
+    document.querySelectorAll('[data-since]').forEach((n) => { n.textContent = 'Since ' + fmtDate(S.since[n.dataset.since]); });
+    $('live-text').textContent = ['Through ' + fmtShort(S.through), lastRunText().replace(' Central', ' CT')].filter(Boolean).join(' · ');
+    RENDER[state.page]();
+    writeHash();
   }
-
-  // The address carries the section, judge, comparison set, and period: #overview?judge=BSL&vs=EEF,JTM&period=90
-  function writeHash() {
-    const p = new URLSearchParams();
-    if (state.selected) p.set('judge', state.selected);
-    if (state.compare.filter(Boolean).length) p.set('vs', state.compare.filter(Boolean).join(','));
-    if (state.period) p.set('period', state.period);
-    const h = '#' + state.tab + (p.toString() ? '?' + p : '');
-    if (location.hash !== h) history.replaceState(null, '', h);
-  }
-  const judgeCode = (v) => { if (!state.data) return v; const j = state.data.judges.find((x) => x.code === v || x.name.toLowerCase() === String(v).toLowerCase()); return j ? j.code : ''; };
-  function readHash() {
-    const raw = location.hash.slice(1);
-    const [tab, query] = raw.includes('?') || !raw.includes('=') ? raw.split('?') : ['', raw];  // also accepts #judge=Africk
-    if (TABS.includes(tab)) state.tab = tab;
-    const p = new URLSearchParams(query || '');
-    if (p.has('judge')) state.selected = judgeCode(p.get('judge'));
-    if (p.has('vs')) state.compare = p.get('vs').split(',').map(judgeCode).filter(Boolean).slice(0, 2);
-    if (p.has('period')) state.period = ['30', '90'].includes(p.get('period')) ? p.get('period') : '';
-  }
-
-  function update(recompute) {
+  let lastPeriod = null; let lastPage = '';
+  function update() {
     if (!state.data) return;
-    if (recompute) state.stats = compute(state.data, state.period);
-    if (state.selected && !state.stats.names[state.selected]) state.selected = '';
-    state.compare = state.compare.filter((c) => c && c !== state.selected && state.stats.names[c]);
-    store.set('edla-judge', state.selected);
-    writeHash(); render();
+    if (state.period !== lastPeriod) { state.stats = compute(state.data, state.period); lastPeriod = state.period; }
+    const pageKey = state.page + '/' + state.judge + '/' + state.view;
+    render();
+    if (pageKey !== lastPage) { if (lastPage) window.scrollTo({ top: 0 }); lastPage = pageKey; }
   }
-  function select(code) { state.selected = code || ''; state.finderLimit = 100; state.pl = { q: '', type: '' }; update(false); }
-  function show(tab) { state.tab = tab; update(false); window.scrollTo({ top: Math.min(window.scrollY, document.querySelector('.bar').offsetTop) }); }
 
   async function load() {
     const names = ['opinions', 'orders', 'judges', 'calendar', 'runs', 'outcomes', 'motions'];
+    $('status').textContent = 'Loading the docket data…';
     try {
       const files = await Promise.all(names.map((n) => fetch('data/' + n + '.json', { cache: 'no-cache' })
         .then((r) => { if (!r.ok) { if (n === 'outcomes' || n === 'motions') return []; throw new Error(n + ' ' + r.status); } return r.json(); })));
       state.data = Object.fromEntries(names.map((n, i) => [n, files[i]]));
-      $('judge-pick').append(...state.data.judges.slice().sort((a, b) => a.name.localeCompare(b.name)).map((j) => new Option(j.name, j.code)));
+      state.cases = buildCases(state.data);
+      $('status').textContent = '';
       readHash();  // again, now that judge names can be resolved
-      update(true);
+      update();
     } catch (e) {
       const s = $('status'); s.textContent = 'The data files did not load. Reload the page to try again.'; s.className = 'status err';
     }
   }
 
   // ------------------------------------------------------------ wiring
-  const legendItem = (color, label) => { const i = el('i'); i.style.background = color; return el('span', {}, i, label); };
-  document.querySelectorAll('[data-legend="cats"]').forEach((n) => n.replaceChildren(...CATS.map(([k, l]) => legendItem(`var(--c-${k})`, l))));
-  document.querySelectorAll('[data-legend="outcomes"]').forEach((n) => n.replaceChildren(...OC_SEGS.map(([k, l]) => legendItem(`var(--o-${k === 'rest' ? 'other' : k})`, l))));
-  readHash();
-  document.querySelectorAll('.tab').forEach((b) => b.addEventListener('click', () => show(b.dataset.tab)));
-  document.querySelectorAll('.tile[data-go]').forEach((b) => b.addEventListener('click', () => {
-    const go = b.dataset.go; if (go === 'finder') goFinder({}); else if (go === 'merits') goFinder({ type: 'merits' }); else show(go);
-  }));
-  $('judge-pick').addEventListener('change', (e) => select(e.target.value));
-  $('period-pick').addEventListener('change', (e) => { state.period = e.target.value; update(true); });
-  $('bars-pick').addEventListener('change', (e) => { state.bars = e.target.checked; store.set('edla-bars', state.bars ? '1' : '0'); update(false); });
-  $('profile-clear').addEventListener('click', () => select(''));
-  $('profile-more').addEventListener('click', (e) => { e.preventDefault(); goFinder({ q: state.pl.q, type: state.pl.type }); });
-  $('profile-print').addEventListener('click', () => { document.body.classList.add('print-profile'); window.print(); });
-  window.addEventListener('afterprint', () => document.body.classList.remove('print-profile'));
-  document.querySelectorAll('.q').forEach((b) => b.addEventListener('click', () => flashPanel(b.dataset.q, b.dataset.cat)));
-  $('pl-q').addEventListener('input', (e) => { state.pl.q = e.target.value; drawProfileList(); });
-  $('pl-type').addEventListener('change', (e) => { state.pl.type = e.target.value; drawProfileList(); });
-  ['cmp-1', 'cmp-2'].forEach((id, i) => $(id).addEventListener('change', (e) => { state.compare[i] = e.target.value; update(false); }));
-  document.querySelectorAll('#oc-seg button').forEach((b) => b.addEventListener('click', () => { state.ocGroup = b.dataset.g; outcomeChart(); }));
-  $('curio-hours').addEventListener('toggle', () => { if ($('curio-hours').open && state.stats) hoursChart(); });
-  document.querySelectorAll('[data-csv]').forEach((b) => b.addEventListener('click', () => state.stats && downloadCsv(b.dataset.csv)));
+  document.querySelectorAll('[data-legend="outcomes"]').forEach((n) => n.replaceChildren(...OC_SEGS.map(([k, l]) => legendItem(`var(${ocVar(k)})`, l)), legendItem('transparent', 'Under ' + FEW + ' coded', 'few'), legendItem('var(--o-granted)', 'All judges', 'thin')));
+  document.querySelectorAll('[data-legend="outcomes-short"]').forEach((n) => n.replaceChildren(el('span', { textContent: 'Motion outcome bars:' }), ...OC_SEGS.map(([k, l]) => legendItem(`var(${ocVar(k)})`, l)), legendItem('transparent', 'Under ' + FEW + ' coded', 'few')));
+  document.querySelectorAll('[data-legend="types"]').forEach((n) => n.replaceChildren(legendItem('var(--judge)', 'Merits rulings'), legendItem('var(--court)', 'Other opinions and R&Rs')));
+  omnibox($('omni-top')); omnibox($('omni-hero'));
   Object.keys(TABLES).forEach(wireTable);
-  const refind = () => { state.finderLimit = 100; if (state.stats) drawFinder(); };
-  $('op-q').addEventListener('input', (e) => { state.finder.q = e.target.value; refind(); });
-  $('op-type').addEventListener('change', (e) => { state.finder.type = e.target.value; refind(); });
-  $('op-outcome').addEventListener('change', (e) => { state.finder.oc = e.target.value; refind(); });
-  $('op-pdf').addEventListener('change', (e) => { state.finder.pdf = e.target.checked; refind(); });
-  $('op-more').addEventListener('click', () => { state.finderLimit += 200; drawFinder(); });
-  $('mt-view').addEventListener('change', (e) => { state.mt.view = e.target.value; state.mt.limit = 100; drawMotions(); });
-  $('mt-q').addEventListener('input', (e) => { state.mt.q = e.target.value; state.mt.limit = 100; drawMotions(); });
-  $('mt-more').addEventListener('click', () => { state.mt.limit += 200; drawMotions(); });
-  document.querySelector('.tabs').addEventListener('keydown', (e) => {
-    const i = TABS.indexOf(state.tab); const d = e.key === 'ArrowRight' ? 1 : e.key === 'ArrowLeft' ? -1 : 0;
-    if (d) { e.preventDefault(); show(TABS[(i + d + TABS.length) % TABS.length]); $('tab-' + state.tab).focus(); }
+  document.querySelectorAll('.period button').forEach((b) => b.addEventListener('click', () => { state.period = b.dataset.period; update(); }));
+  $('theme').addEventListener('click', () => {
+    const next = document.documentElement.dataset.theme === 'light' ? 'dark' : 'light';
+    document.documentElement.dataset.theme = next; store.set('edla-theme', next); if (state.stats) render();
   });
-  window.addEventListener('hashchange', () => { readHash(); update(false); });
+  $('j-pick').addEventListener('change', (e) => { location.hash = judgeHref(e.target.value); });
+  $('j-print').addEventListener('click', () => window.print());
+  $('j-copy').addEventListener('click', (e) => {
+    const b = e.currentTarget; const done = () => { b.textContent = 'Link copied'; b.classList.add('done'); setTimeout(() => { b.textContent = 'Copy link'; b.classList.remove('done'); }, 1600); };
+    if (navigator.clipboard) navigator.clipboard.writeText(location.href).then(done, () => window.prompt('Copy this link:', location.href)); else window.prompt('Copy this link:', location.href);
+  });
+  $('j-op-q').addEventListener('input', (e) => { state.jf.q = e.target.value; drawFeed(); });
+  $('j-op-type').addEventListener('change', (e) => { state.jf.type = e.target.value; drawFeed(); });
+  $('cmp-add').addEventListener('change', (e) => { if (e.target.value) location.hash = hashFor('compare', { cmp: [...state.cmp, e.target.value] }); });
+  const refind = (patch) => { Object.assign(state.f, patch); state.limit = 100; if (state.stats) { renderOpinions(); writeHash(); } };
+  $('op-q').addEventListener('input', (e) => refind({ q: e.target.value }));
+  $('op-judge').addEventListener('change', (e) => refind({ judge: e.target.value }));
+  $('op-type').addEventListener('change', (e) => refind({ type: e.target.value }));
+  $('op-outcome').addEventListener('change', (e) => refind({ oc: e.target.value }));
+  $('op-pdf').addEventListener('change', (e) => refind({ pdf: e.target.checked }));
+  $('op-more').addEventListener('click', () => { state.limit += 200; renderOpinions(); });
+  const remotion = (patch) => { Object.assign(state.mt, patch, { limit: 100 }); if (state.stats) { renderMotions(); writeHash(); } };
+  $('mt-view').addEventListener('change', (e) => remotion({ view: e.target.value }));
+  $('mt-judge').addEventListener('change', (e) => remotion({ judge: e.target.value }));
+  $('mt-q').addEventListener('input', (e) => remotion({ q: e.target.value }));
+  $('mt-more').addEventListener('click', () => { state.mt.limit += 200; renderMotions(); });
+  document.querySelectorAll('#oc-seg button').forEach((b) => b.addEventListener('click', () => { state.ocGroup = b.dataset.g; renderCourt(); }));
+  $('hours-judge').addEventListener('change', (e) => { state.hoursJudge = e.target.value; drawHours(); });
+  document.querySelectorAll('[data-csv]').forEach((b) => b.addEventListener('click', () => downloadCsv(b.dataset.csv)));
+  $('court-csv').addEventListener('click', () => downloadCsv('court'));
+  document.addEventListener('keydown', (e) => {
+    const typing = /^(INPUT|SELECT|TEXTAREA)$/.test(document.activeElement.tagName);
+    if (e.key === '/' && !typing && !e.metaKey && !e.ctrlKey) {
+      const o = omnis.find((x) => x.root.offsetParent !== null && getComputedStyle(x.root).visibility !== 'hidden');
+      if (o) { e.preventDefault(); o.input.focus(); }
+    } else if ((e.key === '[' || e.key === ']') && !typing && state.page === 'judge') {
+      location.hash = $(e.key === '[' ? 'j-prev' : 'j-next').getAttribute('href');
+    } else if (e.key === 'Escape' && typing) document.activeElement.blur();
+  });
+  window.addEventListener('hashchange', () => { readHash(); update(); });
   let rt; window.addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(() => state.stats && render(), 150); });
-  matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => state.stats && render());
+  readHash();
   load();
 })();
