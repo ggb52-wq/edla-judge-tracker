@@ -1,40 +1,37 @@
-"""Temporary probe: prints the court's calendar page and the pages it links to, as outlines and link lists."""
+"""Temporary probe: finds what the court calendar page's frames load, and prints those pages."""
 import re
 import sys
 import urllib.parse
 sys.path.insert(0, "scripts")
 import judge_pages as jp  # noqa: E402
 
-
-def show(url, limit=8000):
+BASE = "https://www.laed.uscourts.gov/court-calendar"
+html = jp.fetch(BASE)
+i = html.find('id="main-content"')
+body = html[i:i + 6000]
+print("BODY HTML:\n", re.sub(r"\s+", " ", body)[:5000])
+srcs = re.findall(r'<iframe[^>]*\ssrc="([^"]*)"', html, re.I) + re.findall(r'\bsrc\s*[:=]\s*["\']([^"\']+)["\']', html)
+print("\nSRC candidates:", srcs)
+for s in re.findall(r"<script[^>]*>(.*?)</script>", html, re.S | re.I):
+    if re.search(r"iframe|calendar|adjust", s, re.I):
+        print("\nSCRIPT:\n", s.strip()[:3000])
+for js in re.findall(r'<script[^>]*src="([^"]*)"', html):
+    if re.search(r"calendar|adjust|iframe|custom", js, re.I):
+        u = urllib.parse.urljoin(BASE, js)
+        try:
+            print("\nJS FILE", u, "\n", jp.fetch(u)[:3000])
+        except Exception as e:  # noqa: BLE001
+            print("ERR", u, e)
+seen = set()
+for s in srcs:
+    u = urllib.parse.urljoin(BASE, s)
+    if u in seen or not u.startswith("http") or re.search(r"\.(js|css|png|jpg|gif|svg)(\?|$)", u):
+        continue
+    seen.add(u)
     try:
-        html = jp.fetch(url)
+        page = jp.fetch(u)
     except Exception as e:  # noqa: BLE001
-        print("ERR", url, e)
-        return None
-    print(f"\n===== {url} ({len(html)} bytes)")
-    print(jp.outline(html)[:limit])
-    return html
-
-
-html = show("https://www.laed.uscourts.gov/court-calendar", 12000)
-if html:
-    root = jp.parse(html)
-    links = []
-    for a in root.find_all(lambda n: n.tag == "a"):
-        h = a.attrs.get("href", "")
-        t = jp.clean(a.text())
-        if re.search(r"calendar|docket|hearing|trial|cal|judge", h + " " + t, re.I):
-            links.append((t, urllib.parse.urljoin("https://www.laed.uscourts.gov/court-calendar", h)))
-    print("\nLINKS:")
-    for t, u in links:
-        print("  ", repr(t[:80]), "->", u)
-    seen = set()
-    for t, u in links:
-        if u in seen or "court-calendar" in u and u.rstrip("/").endswith("court-calendar"):
-            continue
-        seen.add(u)
-        if len(seen) > 4:
-            break
-        if re.search(r"calendar|cal", u, re.I) and not u.endswith(".pdf"):
-            show(u, 6000)
+        print("ERR", u, e)
+        continue
+    print(f"\n===== FRAME {u} ({len(page)} bytes)")
+    print(re.sub(r"\s+", " ", page)[:6000])
