@@ -2,11 +2,16 @@ name: Update docket data
 
 on:
   schedule:
-    # Every 15 minutes, 7:00 AM to about 9:00 PM Central on weekdays (times are UTC).
+    # Times are UTC; Central is UTC-5 (CDT) or UTC-6 (CST).
+    # Weekday working hours, every 15 minutes: 7:00 AM to 9:45 PM Central.
     - cron: "*/15 12-23 * * 1-5"
     - cron: "*/15 0-2 * * 2-6"
-    # Every 3 hours on weekends.
-    - cron: "7 */3 * * 0,6"
+    # Every other hour of the week, hourly, so the backlog keeps draining and no gap goes unwatched:
+    # overnight every day (10:07 PM to 6:07 AM Central) ...
+    - cron: "7 3-11 * * *"
+    # ... and weekend days and evenings (Saturday and Sunday 7:07 AM to 9:07 PM Central).
+    - cron: "7 12-23 * * 0,6"
+    - cron: "7 0-2 * * 0,1"
   workflow_dispatch:
 
 permissions:

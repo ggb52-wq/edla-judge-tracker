@@ -147,9 +147,10 @@ class CourtListener:
         self.errors: list[str] = []
         self.deadline = time.monotonic() + RUN_SECONDS
         self.out_of_time = False
+        self.throttled = False  # CourtListener asked for a wait longer than a run can afford; no more calls this run
 
     def get(self, path_or_url: str, params: dict | None = None) -> dict | None:
-        if not self.token or self.calls >= CL_CALL_BUDGET:
+        if not self.token or self.calls >= CL_CALL_BUDGET or self.throttled:
             return None
         if time.monotonic() >= self.deadline:
             self.out_of_time = True
@@ -162,13 +163,23 @@ class CourtListener:
             try:
                 return json.loads(http_get(url, {"Authorization": f"Token {self.token}"}))
             except urllib.error.HTTPError as e:
-                if e.code == 429 and attempt < 2:
+                if e.code == 429:
                     try:
-                        wait = min(int(e.headers.get("Retry-After", "60")), RETRY_AFTER_MAX)
+                        asked = int(e.headers.get("Retry-After", "60"))
                     except ValueError:
-                        wait = RETRY_AFTER_MAX
-                    if time.monotonic() + wait < self.deadline:
-                        time.sleep(wait)
+                        asked = RETRY_AFTER_MAX
+                    if asked > RETRY_AFTER_MAX:
+                        # Too long to wait inside any run: stop calling and say so, so the log shows the throttle.
+                        self.throttled = True
+                        self.errors.append(f"CourtListener throttled (retry after {asked}s)")
+                        log(f"  CourtListener asked for a {asked}s wait; stopping its calls for this run")
+                        return None
+                    if time.monotonic() + asked >= self.deadline:
+                        self.out_of_time = True
+                        self.errors.append("CourtListener HTTP 429")
+                        return None
+                    if attempt < 2:
+                        time.sleep(asked)
                         continue
                 self.errors.append(f"CourtListener HTTP {e.code}")
                 return None
@@ -320,7 +331,7 @@ def link_opinions(cl: CourtListener, opinions: list[dict], checks: dict, outcome
     failures = 0
     log(f"looking up {len(todo)} opinions for links and outcomes")
     for n, o in enumerate(todo):
-        if cl.calls >= min(stop, CL_CALL_BUDGET) or cl.out_of_time:
+        if cl.calls >= min(stop, CL_CALL_BUDGET) or cl.out_of_time or cl.throttled:
             break
         if n and n % 25 == 0:
             log(f"  {n} looked up, {found} linked, {read} outcomes read, {cl.calls} calls")
@@ -331,7 +342,7 @@ def link_opinions(cl: CourtListener, opinions: list[dict], checks: dict, outcome
             # One refused or timed-out call skips this row (it is retried next run, since no check is recorded);
             # a streak of them means the service is unavailable, so the run stops and saves what it has.
             failures += 1
-            if failures >= MAX_FAILURES or cl.out_of_time or cl.calls >= CL_CALL_BUDGET:
+            if failures >= MAX_FAILURES or cl.out_of_time or cl.throttled or cl.calls >= CL_CALL_BUDGET:
                 log(f"  stopping lookups after {failures} failed call(s) in a row")
                 break
             continue
