@@ -95,10 +95,15 @@ class UpdateTest(unittest.TestCase):
         orders = json.loads((self.tmp / "data/orders.json").read_text()) + cases
         (self.tmp / "data/orders.json").write_text(json.dumps(orders))
         # Start from the baseline: no links, lookups, or outcomes collected by earlier live runs.
-        opinions = [{k: v for k, v in o.items() if k not in ("url", "pdf")} for o in json.loads((self.tmp / "data/opinions.json").read_text())]
+        opinions = [{k: v for k, v in o.items() if k not in ("url", "pdf", "pages")} for o in json.loads((self.tmp / "data/opinions.json").read_text())]
         (self.tmp / "data/opinions.json").write_text(json.dumps(opinions))
         (self.tmp / "data/link_checks.json").write_text("{}\n")
         (self.tmp / "data/outcomes.json").write_text("[\n\n]\n")
+        (self.tmp / "data/govinfo.json").unlink(missing_ok=True)
+        # Nor the live run log's CourtListener budget, pauses, or pending items.
+        runs = [{k: v for k, v in r.items() if k not in ("cl_calls", "cl_paused_until", "searched", "pending_items")}
+                for r in json.loads((self.tmp / "data/runs.json").read_text())]
+        (self.tmp / "data/runs.json").write_text(json.dumps(runs))
 
     def tearDown(self):
         shutil.rmtree(self.tmp)
@@ -273,6 +278,18 @@ class UpdateTest(unittest.TestCase):
         self.assertGreater(run["cl_calls"], 0)                              # lookups still ran
         through = next(r for r in json.loads((self.tmp / "data/calendar.json").read_text()) if r["kind"] == "through")["date"]
         self.assertEqual(through, before)
+
+    def test_pending_items_unique(self):
+        # An RSS item still pending from the last run appears once, not once per run.
+        for _ in range(2):
+            with mock.patch.object(update, "DATA", self.tmp / "data"), mock.patch.object(update, "http_get", fake_get), \
+                 mock.patch.object(update.time, "sleep", lambda s: None), mock.patch.dict("os.environ", ENV):
+                update.main()
+        run = json.loads((self.tmp / "data/runs.json").read_text())[-1]
+        keys = [(p["case"], p["doc"]) for p in run["pending_items"]]
+        self.assertTrue(keys)
+        self.assertEqual(len(keys), len(set(keys)))
+        self.assertEqual(run["pending"], len(keys))
 
     def test_govinfo_backfill(self):
         # GovInfo has case 2:26-cv-01880 with two opinions; the newer one (Document 6) is the row the data needs.

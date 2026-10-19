@@ -592,13 +592,14 @@ def main() -> int:
         note.append(f"{added_motions} motions added")
 
     # --- RSS-only items
-    new_pending = []
+    new_pending, seen = [], set()
     for i in rss_civil + [{"case": p["case"], "kind": "cv", "doc": p["doc"], "event": p["bracket"],
                            "title": p.get("title", ""), "when": dt.datetime.fromisoformat(p["when"]) if p.get("when") else None}
                           for p in pending]:
         key = (i["case"], i["doc"])
-        if not i["doc"] or key in order_keys or key in cl_entries:
+        if not i["doc"] or key in order_keys or key in cl_entries or key in seen:
             continue
+        seen.add(key)
         date = i["when"].date().isoformat() if i["when"] else today
         if i["event"].lower() in RSS_UNAMBIGUOUS and case_judge.get(i["case"]):
             judge = case_judge[i["case"]]
