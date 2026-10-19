@@ -48,4 +48,10 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data
           git commit -m "Data update $(date -u +%Y-%m-%dT%H:%MZ)"
-          git push
+          # main may have moved during the run (a merge, or the outcome workflow); rebase the data commit onto it.
+          for i in 1 2 3 4; do
+            git pull --rebase origin main && git push && exit 0
+            sleep $((i * 5))
+          done
+          echo "Could not push after 4 tries" >&2
+          exit 1
