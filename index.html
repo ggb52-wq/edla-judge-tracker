@@ -1,228 +1,279 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>EDLA Analyzer</title>
-  <meta name="description" content="Public docket statistics for the U.S. District Court for the Eastern District of Louisiana: civil orders, written opinions, and motion outcomes by judge. Not affiliated with the court. Not legal advice.">
+  <meta name="description" content="Civil docket patterns for each district judge in the U.S. District Court for the Eastern District of Louisiana: motion outcomes, time to ruling, and every written opinion. Not affiliated with the court. Not legal advice.">
+  <script>try { document.documentElement.dataset.theme = localStorage.getItem('edla-theme') || 'dark'; } catch (e) { /* storage unavailable */ }</script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
   <link rel="stylesheet" href="assets/style.css">
 </head>
-<body>
-<header class="band">
-  <div class="wrap masthead">
-    <div class="brand">
-      <svg class="mark" viewBox="0 0 40 40" width="40" height="40" aria-hidden="true" focusable="false"><path d="M4 11h32M8 11v18M16 11v18M24 11v18M32 11v18M4 29h32" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><path d="M20 3 36 11H4Z" fill="currentColor"/><path d="M4 35h32" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>
-      <div>
-      <p class="kicker">U.S. District Court · Eastern District of Louisiana</p>
-      <h1>EDLA Analyzer</h1>
-      <p class="lede">Counts of civil orders, written opinions, and motion outcomes in the Eastern District of Louisiana, built from the public docket and updated through the day.</p>
-      <p class="lede disclaimer">This is an independent project with no connection to the court. Nothing here is legal advice. The counts come from automated reading of public records and can contain errors, so verify anything you plan to rely on against the docket itself.</p>
-      </div>
+<body data-page="judges">
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+  <div class="top-in">
+    <a class="brand" href="#judges" aria-label="EDLA Analyzer home"><span class="brand-mark">EDLA</span><span class="brand-name">Analyzer</span></a>
+    <nav class="nav" aria-label="Sections">
+      <a href="#judges" data-nav="judges">Judges</a>
+      <a href="#opinions" data-nav="opinions">Opinions</a>
+      <a href="#motions" data-nav="motions">Motions</a>
+      <a href="#court" data-nav="court">Court</a>
+    </nav>
+    <div class="omni" id="omni-top">
+      <svg class="omni-icon" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m10.4 10.4 3.6 3.6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+      <input type="search" placeholder="Judge, case number, or keyword" autocomplete="off" spellcheck="false" aria-label="Search judges, cases, and opinions">
+      <kbd aria-hidden="true">/</kbd>
     </div>
-    <nav class="nav"><a href="methodology.html">How we count</a><a href="https://github.com/ggb52-wq/edla-judge-tracker">Data and code</a></nav>
+    <div class="seg period" role="group" aria-label="Period">
+      <button type="button" data-period="" title="All data on file">All</button><button type="button" data-period="90" title="Last 90 days">90D</button><button type="button" data-period="30" title="Last 30 days">30D</button>
+    </div>
+    <a class="live" id="live" href="#log" title="Update log"><i aria-hidden="true"></i><span id="live-text">Loading</span></a>
+    <button type="button" class="icon-btn" id="theme" title="Switch between dark and light" aria-label="Switch between dark and light"><svg viewBox="0 0 16 16" width="15" height="15" aria-hidden="true"><circle cx="8" cy="8" r="6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 2a6 6 0 0 1 0 12Z" fill="currentColor"/></svg></button>
   </div>
 </header>
-<div class="wrap">
 
-  <div class="bar">
-    <div class="tabs" role="tablist" aria-label="Sections">
-      <button class="tab" role="tab" id="tab-overview" aria-controls="overview" data-tab="overview">Overview</button>
-      <button class="tab" role="tab" id="tab-orders" aria-controls="orders" data-tab="orders">Orders</button>
-      <button class="tab" role="tab" id="tab-opinions" aria-controls="opinions" data-tab="opinions">Opinions</button>
-      <button class="tab" role="tab" id="tab-outcomes" aria-controls="outcomes" data-tab="outcomes">Outcomes</button>
-      <button class="tab" role="tab" id="tab-finder" aria-controls="finder" data-tab="finder">Opinion finder<span class="n" id="n-finder"></span></button>
-      <button class="tab" role="tab" id="tab-motions" aria-controls="motions" data-tab="motions">Submitted motions<span class="n" id="n-motions"></span></button>
-      <button class="tab" role="tab" id="tab-log" aria-controls="log" data-tab="log">Update log</button>
-    </div>
-    <div class="filters">
-      <label>Judge <select id="judge-pick"><option value="">All judges</option></select></label>
-      <span class="vr" aria-hidden="true"></span>
-      <label>Period <select id="period-pick"><option value="">All data</option><option value="90">Last 90 days</option><option value="30">Last 30 days</option></select></label>
-      <label class="check"><input type="checkbox" id="bars-pick" checked> Bars in tables</label>
-      <span class="status" id="status">Loading data…</span>
-    </div>
-  </div>
+<main id="main" class="wrap" tabindex="-1">
+  <p class="status" id="status" role="status"></p>
 
-  <!-- ============================================================ Overview -->
-  <section class="sheet" id="overview" role="tabpanel" aria-labelledby="tab-overview">
-    <p class="question">What does the court look like right now, and how does one judge compare with the rest?</p>
-    <div class="tiles" aria-label="Key figures">
-      <button type="button" class="tile" data-go="orders"><span class="tile-label">Civil orders</span><span class="tile-num" id="t-orders">—</span><span class="tile-sub">since <span data-since="orders"></span></span></button>
-      <button type="button" class="tile" data-go="orders"><span class="tile-label">Orders per working day</span><span class="tile-num" id="t-perday">—</span><span class="tile-sub">all judges · weekly trend</span><span id="t-perday-spark"></span></button>
-      <button type="button" class="tile" data-go="finder"><span class="tile-label">Written opinions</span><span class="tile-num" id="t-opinions">—</span><span class="tile-sub" id="t-opinions-sub">since <span data-since="opinions"></span></span><span id="t-opinions-spark"></span></button>
-      <button type="button" class="tile" data-go="merits"><span class="tile-label">Merits rulings</span><span class="tile-num" id="t-merits">—</span><span class="tile-sub" id="t-merits-sub">Rule 12, Rule 56, trial</span></button>
-      <button type="button" class="tile" data-go="log"><span class="tile-label">Data through</span><span class="tile-num" id="t-through">—</span><span class="tile-sub" id="t-updated">&nbsp;</span></button>
-    </div>
-
-    <div class="card profile-card" id="profile-card">
-      <div class="card-head"><h2 id="profile-title">Judge profile</h2>
-        <div class="actions"><button type="button" class="btn quiet" id="profile-print" hidden>Print / save profile</button><button type="button" class="btn quiet" id="profile-clear" hidden>Show all judges</button></div></div>
-      <div id="profile-empty">
-        <p class="note">Pick a judge to see their numbers next to the court median, how their motion rulings came out, how long rulings took, and their latest opinions. Your pick follows you through every tab, and the page address updates so you can bookmark or share it.</p>
-        <div class="chips" id="profile-chips"></div>
+  <!-- ============================================================ Judges (home) -->
+  <section class="page" id="page-judges" aria-labelledby="h-judges">
+    <div class="hero">
+      <div>
+        <p class="eyebrow">U.S. District Court · Eastern District of Louisiana · Civil docket</p>
+        <h1 id="h-judges" class="display">Look up a judge.</h1>
+        <p class="sub">How each judge's motion rulings have come out, how long rulings take, and every written opinion, counted from the public docket and updated through the day.</p>
       </div>
-      <div id="profile-body" hidden>
-        <div class="questions" role="group" aria-label="Common questions">
-          <span class="q-label">Common questions</span>
-          <button type="button" class="q" data-q="p-motions" data-cat="discovery">How does this judge rule on discovery motions?</button>
-          <button type="button" class="q" data-q="p-motions" data-cat="r12">Grant rates: Rule 12 / Rule 56?</button>
-          <button type="button" class="q" data-q="p-speed">How fast are rulings?</button>
-          <button type="button" class="q" data-q="p-written">Written opinions or minute entries?</button>
+      <div class="omni big" id="omni-hero">
+        <svg class="omni-icon" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m10.4 10.4 3.6 3.6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        <input type="search" placeholder="Judge name or case number" autocomplete="off" spellcheck="false" aria-label="Search judges, cases, and opinions">
+        <kbd aria-hidden="true">/</kbd>
+      </div>
+    </div>
+    <p class="notice">Independent project, not affiliated with the court. Not legal advice. Counts come from automated reading of public records and can be wrong; check the docket before relying on one. <a href="methodology.html">How we count</a></p>
+    <div class="recent" id="recent" hidden></div>
+    <div class="kpis five" id="court-kpis" aria-label="Court figures"></div>
+    <div class="cards-head"><h2>District judges · alphabetical</h2><div class="legend" data-legend="outcomes-short"></div></div>
+    <div class="cards" id="cards"></div>
+  </section>
+
+  <!-- ============================================================ Judge -->
+  <section class="page" id="page-judge" aria-labelledby="j-name" hidden>
+    <div class="jhead">
+      <div>
+        <p class="eyebrow"><a href="#judges">Judges</a> <span aria-hidden="true">/</span> <span id="j-crumb"></span></p>
+        <div class="jtitle"><h1 id="j-name">Judge</h1><span class="code" id="j-code"></span></div>
+        <p class="meta" id="j-meta"></p>
+      </div>
+      <div class="actions">
+        <div class="stepper" role="group" aria-label="Other judges">
+          <a class="btn icon" id="j-prev" title="Previous judge ( [ )" aria-label="Previous judge">‹</a>
+          <select id="j-pick" aria-label="Switch judge"></select>
+          <a class="btn icon" id="j-next" title="Next judge ( ] )" aria-label="Next judge">›</a>
         </div>
-        <div class="profile">
-          <div><h3>Figures <span id="profile-period"></span></h3><div class="facts" id="profile-facts"></div></div>
-          <div>
-            <h3>Written opinions</h3>
-            <div class="finder compact">
-              <input id="pl-q" type="search" placeholder="Filter by keyword" autocomplete="off" aria-label="Filter this judge's opinions by keyword">
-              <select id="pl-type" aria-label="Motion type"><option value="">All types</option><option value="motion">Motion rulings</option><option value="r12">Rule 12</option><option value="r56">Rule 56</option><option value="discovery">Discovery</option><option value="daubert">Daubert / expert</option><option value="limine">In limine</option><option value="injunction">Injunction / TRO</option><option value="remand">Remand</option><option value="reconsideration">Reconsideration</option><option value="stay">Stay</option><option value="trial">Trial and post-trial</option><option value="rr">Magistrate R&amp;Rs</option></select>
-              <span class="status" id="pl-count"></span>
-            </div>
-            <ul class="list" id="profile-latest"></ul>
-            <p class="note tight"><a href="#" id="profile-more">All of this judge's opinions in the finder</a></p>
+        <a class="btn" id="j-compare">Compare</a>
+        <button type="button" class="btn" id="j-copy">Copy link</button>
+        <button type="button" class="btn" id="j-print">Print</button>
+      </div>
+    </div>
+    <div class="kpis six" id="j-kpis" aria-label="Key figures"></div>
+
+    <div class="jgrid">
+      <div class="stack">
+        <section class="panel" aria-labelledby="h-oc">
+          <div class="ph"><h2 id="h-oc">Motion outcomes</h2><div class="legend" data-legend="outcomes"></div></div>
+          <div class="pb">
+            <p class="cap" id="j-oc-cap"></p>
+            <div class="scroll"><table class="t oc" id="j-oc-table"></table></div>
+            <p class="foot-note" id="j-oc-foot"></p>
           </div>
-        </div>
-        <section class="panel" id="p-motions" tabindex="-1">
-          <h3>Motion outcomes by category</h3>
-          <p class="note tight" id="mo-note"></p>
-          <div class="scroll"><table id="mo-table"></table></div>
         </section>
-        <section class="panel" id="p-speed" tabindex="-1">
-          <h3>Time to ruling</h3>
-          <p class="note tight" id="speed-note"></p>
-          <div class="facts" id="speed-facts"></div>
+
+        <section class="panel" aria-labelledby="h-act">
+          <div class="ph"><h2 id="h-act">Docket activity</h2><div class="legend" id="j-act-legend"></div></div>
+          <div class="trio">
+            <div><h3>Orders per working day, by week</h3><div class="chart" id="c-j-weekly"></div></div>
+            <div><h3>Written opinions by month</h3><div class="chart" id="c-j-monthly"></div></div>
+            <div><h3>Share of orders by weekday</h3><div class="chart" id="c-j-dow"></div></div>
+          </div>
         </section>
-        <section class="panel" id="p-written" tabindex="-1">
-          <h3>Written opinions or minute entries?</h3>
-          <p class="note tight" id="written-note"></p>
-          <div class="facts" id="written-facts"></div>
+
+        <section class="panel" aria-labelledby="h-habits">
+          <div class="ph"><h2 id="h-habits">Written opinions and short orders</h2></div>
+          <div class="pb">
+            <p class="cap" id="j-habits-cap"></p>
+            <div class="facts" id="j-habits"></div>
+          </div>
         </section>
-        <section class="panel" id="p-compare" tabindex="-1">
-          <div class="card-head"><h3>Compare judges</h3>
-            <div class="finder compact"><label>with <select id="cmp-1"><option value="">—</option></select></label><label>and <select id="cmp-2"><option value="">—</option></select></label></div></div>
-          <p class="note tight">Up to three judges side by side, with the court median. Grant rates count only rulings with a recorded outcome; "n" is how many that is.</p>
-          <div class="scroll"><table id="cmp-table"></table></div>
+
+        <section class="panel" aria-labelledby="h-jm">
+          <div class="ph"><h2 id="h-jm">Submitted motions</h2><a class="more-link" id="j-motions-all" href="#motions">All submitted motions →</a></div>
+          <div class="pb" id="j-motions"></div>
         </section>
       </div>
-    </div>
 
-    <div class="grid">
-      <div class="card"><h2>Weekly orders per working day</h2><p class="note" id="weekly-note"></p><div class="chart short" id="c-weekly"></div></div>
-      <div class="card"><h2 id="monthly-title">Written opinions by month</h2><p class="note" id="monthly-note"></p>
-        <div class="legend" aria-hidden="true" data-legend="cats"></div><div class="chart short" id="c-monthly"></div></div>
+      <aside class="stack">
+        <section class="panel latest" aria-labelledby="h-latest">
+          <div class="ph"><h2 id="h-latest">Written opinions</h2><span class="count" id="j-op-count"></span></div>
+          <div class="pb tight">
+            <div class="filters row">
+              <input id="j-op-q" type="search" placeholder="Filter: party, case, motion" autocomplete="off" aria-label="Filter this judge's opinions">
+              <select id="j-op-type" aria-label="Ruling type"></select>
+            </div>
+          </div>
+          <ol class="feed" id="j-feed"></ol>
+          <a class="feed-more" id="j-op-all" href="#opinions">All opinions in the search →</a>
+        </section>
+      </aside>
     </div>
   </section>
 
-  <!-- ============================================================ Orders -->
-  <section class="sheet" id="orders" role="tabpanel" aria-labelledby="tab-orders" hidden>
-    <p class="question">Which judges move paper fastest?</p>
-    <div class="card">
-      <div class="card-head"><h2>Civil orders by judge</h2><div class="actions"><button type="button" class="btn quiet" data-csv="or-table">Export CSV</button></div></div>
-      <p class="note">Every civil order since <span data-since="orders"></span>. "Per working day" means divided by the court's working days in the period. Hover a column heading for its definition; click it to sort. Click a row to pick that judge.</p>
-      <div class="scroll"><table id="or-table"></table></div>
+  <!-- ============================================================ Compare -->
+  <section class="page" id="page-compare" aria-labelledby="h-compare" hidden>
+    <div class="jhead">
+      <div>
+        <p class="eyebrow"><a href="#judges">Judges</a> <span aria-hidden="true">/</span> Compare</p>
+        <h1 id="h-compare">Compare judges</h1>
+        <p class="sub">Up to four judges side by side, with every judge's figure for reference.</p>
+      </div>
+      <div class="actions"><div class="chips" id="cmp-chips"></div><select id="cmp-add" aria-label="Add a judge"></select></div>
     </div>
-    <div class="grid">
-      <div class="card"><h2>Orders per working day</h2><p class="note">Since <span data-since="orders"></span>. The dashed line is the median judge.</p><div class="chart" id="c-perday"></div></div>
-    </div>
-    <div class="card">
-      <div class="card-head"><h2>Day-of-week pattern</h2><div class="actions"><button type="button" class="btn quiet" data-csv="dow-table">Export CSV</button></div></div>
-      <p class="note">What share of each judge's orders came out on each weekday. Darker means busier. <strong>Thin data:</strong> this rests on <span id="dow-days">—</span> working days, so one heavy week can tilt a judge's row.</p>
-      <div class="scroll"><table id="dow-table"></table></div>
-    </div>
-    <details class="curio" id="curio-hours">
-      <summary>Curiosity: what time of day orders come out</summary>
-      <p class="note" id="hours-note"></p><div class="legend" id="hours-legend" aria-hidden="true"></div><div class="chart" id="c-hours"></div>
-    </details>
+    <section class="panel">
+      <div class="scroll"><table class="t cmp" id="cmp-table"></table></div>
+    </section>
+    <p class="foot-note">The "All judges" column gives the median judge for rates and counts, and outcomes pooled across all 16 judges for motion outcomes. Outcome shares count only rulings whose outcome has been coded; "n" is how many that is. <a href="methodology.html#compare">How we count</a></p>
   </section>
 
   <!-- ============================================================ Opinions -->
-  <section class="sheet" id="opinions" role="tabpanel" aria-labelledby="tab-opinions" hidden>
-    <p class="question">Who writes opinions, how often, and on what kinds of motions?</p>
-    <div class="card">
-      <div class="card-head"><h2>Written opinions by judge</h2><div class="actions"><button type="button" class="btn quiet" data-csv="op-table">Export CSV</button></div></div>
-      <p class="note">Opinions on PACER's Written Opinions Report since <span data-since="opinions"></span>. "Merits rulings" are Rule 12, summary judgment, and trial-related rulings. Each judge's chambers decides what to flag as a written opinion, so this is not every ruling a judge made. <a href="methodology.html">How we count</a>.</p>
-      <div class="scroll"><table id="op-table"></table></div>
-    </div>
-    <div class="grid">
-      <div class="card"><h2>Merits rulings per month</h2><p class="note">Since <span data-since="opinions"></span>. A month is 21 working days. The dashed line is the median judge.</p><div class="chart" id="c-merits"></div></div>
-      <div class="card"><h2>Mix of written opinions</h2><p class="note">What kinds of opinions each judge writes, as a share of their total. Alphabetical order.</p>
-        <div class="legend" aria-hidden="true" data-legend="cats"></div><div class="chart" id="c-mix"></div></div>
-    </div>
-  </section>
-
-  <!-- ============================================================ Outcomes -->
-  <section class="sheet" id="outcomes" role="tabpanel" aria-labelledby="tab-outcomes" hidden>
-    <p class="question">How do motions come out in front of each judge?</p>
-    <div class="card">
-      <div class="card-head"><h2>Outcomes of motion rulings</h2><div class="actions"><button type="button" class="btn quiet" data-csv="oc-table">Export CSV</button></div></div>
-      <p class="note">How each judge's motion rulings came out, since <span data-since="opinions"></span>. "Granted" means the motion was granted, no matter who filed it. "Known" is how many rulings have a recorded outcome; the rest are still being coded. Outcomes are read automatically from the docket or the order, so check the opinion before relying on one. <a href="methodology.html">How we read outcomes</a>.</p>
-      <div class="scroll"><table id="oc-table"></table></div>
-    </div>
-    <div class="card">
-      <div class="card-head"><h2>Outcome shares</h2>
-        <div class="seg" role="group" aria-label="Motion type" id="oc-seg"><button type="button" data-g="r12">Rule 12</button><button type="button" data-g="r56">Rule 56</button><button type="button" data-g="all">All motions</button></div></div>
-      <p class="note" id="oc-note"></p>
-      <div class="legend" aria-hidden="true" data-legend="outcomes"></div>
-      <div class="chart" id="c-outcomes"></div>
-    </div>
-  </section>
-
-  <!-- ============================================================ Finder -->
-  <section class="sheet" id="finder" role="tabpanel" aria-labelledby="tab-finder" hidden>
-    <p class="question">Find the opinion you need and open it.</p>
-    <div class="card">
-      <div class="card-head"><h2 id="finder-title">Opinion finder</h2><div class="actions"><button type="button" class="btn quiet" data-csv="recent-table">Export CSV</button></div></div>
-      <p class="note">Every written opinion we have, newest first. Click a case number to open the opinion. "PDF" means the opinion itself is one click away; otherwise the link goes to the docket on CourtListener. The judge and period filters above apply here too.</p>
-      <div class="finder">
-        <label>Search <input id="op-q" type="search" placeholder="Case name, number, or ruling" autocomplete="off"></label>
-        <label>Ruling type <select id="op-type"><option value="">All</option><option value="merits">Merits rulings</option><option value="r12">Rule 12</option><option value="r56">Rule 56</option><option value="trial">Trial and post-trial</option><option value="rr">Magistrate R&amp;Rs</option><option value="other">Other opinions</option><optgroup label="Motion category"><option value="motion">Any motion ruling</option><option value="discovery">Discovery</option><option value="daubert">Daubert / expert</option><option value="limine">In limine</option><option value="injunction">Injunction / TRO</option><option value="remand">Remand</option><option value="reconsideration">Reconsideration</option><option value="stay">Stay</option><option value="default">Default judgment</option><option value="fees">Attorney fees</option><option value="othermotion">Other motions</option></optgroup></select></label>
-        <label>Outcome <select id="op-outcome"><option value="">Any</option><option value="granted">Granted (all)</option><option value="granted_leave">Granted, leave to amend</option><option value="partial">Granted in part</option><option value="denied">Denied (all)</option><option value="denied_wop">Denied without prejudice</option><option value="mixed">Mixed</option><option value="moot">Moot</option><option value="other">Other</option><option value="known">Any recorded</option><option value="none">Not recorded</option></select></label>
-        <label class="check"><input type="checkbox" id="op-pdf"> PDF only</label>
-        <span class="status" id="op-count"></span>
-        <span class="chip-row" id="op-chips"></span>
+  <section class="page" id="page-opinions" aria-labelledby="h-opinions" hidden>
+    <div class="jhead">
+      <div>
+        <h1 id="h-opinions">Written opinions</h1>
+        <p class="sub" id="op-sub"></p>
       </div>
-      <div class="scroll tall"><table id="recent-table"></table></div>
+      <div class="actions"><button type="button" class="btn" data-csv="op">Export CSV</button></div>
+    </div>
+    <div class="filters">
+      <label class="grow">Search<input id="op-q" type="search" placeholder="Party, case number, or motion" autocomplete="off"></label>
+      <label>Judge<select id="op-judge"></select></label>
+      <label>Ruling<select id="op-type"></select></label>
+      <label>Outcome<select id="op-outcome"><option value="">Any</option><option value="granted">Granted</option><option value="granted_leave">Granted, leave to amend</option><option value="partial">Granted in part</option><option value="denied">Denied</option><option value="denied_wop">Denied without prejudice</option><option value="mixed">Mixed</option><option value="moot">Moot</option><option value="other">Other</option><option value="known">Any coded outcome</option><option value="none">Not coded yet</option></select></label>
+      <label class="check"><input type="checkbox" id="op-pdf"> PDF on file</label>
+      <span class="chip-row" id="op-chips"></span>
+    </div>
+    <section class="panel">
+      <div class="ph"><h2>Results</h2><span class="count" id="op-count"></span></div>
+      <div class="scroll tall"><table class="t" id="op-table"></table></div>
       <button type="button" class="btn more" id="op-more" hidden>Show more</button>
-    </div>
+    </section>
   </section>
 
-  <!-- ============================================================ Submitted motions -->
-  <section class="sheet" id="motions" role="tabpanel" aria-labelledby="tab-motions" hidden>
-    <p class="question">Which motions are past their submission date with no ruling on the docket yet?</p>
-    <div class="card">
-      <div class="card-head"><h2 id="mt-title">Submitted motions</h2><div class="actions"><button type="button" class="btn quiet" data-csv="mt-table">Export CSV</button></div></div>
-      <p class="note">In this court a motion is set for submission on a date, and after that date it is in the judge's hands. The site records every civil motion from the court's public feed since <span id="mt-since">—</span> and reads each motion's submission date from the docket text; motions filed before that date are not here. "No ruling found" means no order in the same case naming that type of motion has appeared since the motion was filed. That is a docket match, not a certainty: a motion withdrawn, decided under a different docket event, or ruled on by a minute entry can still show here. Motions whose submission date has not been read yet are listed without one.</p>
-      <div class="facts" id="mt-facts"></div>
-      <div class="finder" style="margin-top:12px">
-        <label>Show <select id="mt-view"><option value="past">Past submission, no ruling found</option><option value="pending">All awaiting a ruling</option><option value="all">All motions on file</option></select></label>
-        <label>Search <input id="mt-q" type="search" placeholder="Case name, number, or motion" autocomplete="off"></label>
-        <span class="status" id="mt-count"></span>
+  <!-- ============================================================ Motions -->
+  <section class="page" id="page-motions" aria-labelledby="h-motions" hidden>
+    <div class="jhead">
+      <div>
+        <h1 id="h-motions">Submitted motions</h1>
+        <p class="sub">Civil motions past their submission date with no ruling found on the docket. Recording began <span id="mt-since">on the first day the feed was read</span>; earlier motions are not here.</p>
       </div>
-      <div class="scroll tall"><table id="mt-table"></table></div>
-      <button type="button" class="btn more" id="mt-more" hidden>Show more</button>
+      <div class="actions"><button type="button" class="btn" data-csv="mt">Export CSV</button></div>
     </div>
-    <div class="card">
-      <div class="card-head"><h2>By judge</h2><div class="actions"><button type="button" class="btn quiet" data-csv="mj-table">Export CSV</button></div></div>
-      <p class="note">Counts of the motions above, per judge. Motions in cases whose judge the site has not yet seen are counted under "Judge not yet known."</p>
-      <div class="scroll"><table id="mj-table"></table></div>
+    <div class="kpis four" id="mt-kpis"></div>
+    <div class="filters">
+      <label>Show<select id="mt-view"><option value="past">Past submission, no ruling found</option><option value="pending">All awaiting a ruling</option><option value="all">All motions on file</option></select></label>
+      <label>Judge<select id="mt-judge"></select></label>
+      <label class="grow">Search<input id="mt-q" type="search" placeholder="Party, case number, or motion" autocomplete="off"></label>
+    </div>
+    <section class="panel">
+      <div class="ph"><h2>Motions</h2><span class="count" id="mt-count"></span></div>
+      <div class="scroll tall"><table class="t" id="mt-table"></table></div>
+      <button type="button" class="btn more" id="mt-more" hidden>Show more</button>
+    </section>
+    <section class="panel">
+      <div class="ph"><h2>By judge</h2><button type="button" class="btn ghost" data-csv="mj">Export CSV</button></div>
+      <div class="scroll"><table class="t" id="mj-table"></table></div>
+    </section>
+    <details class="explain">
+      <summary>How a motion is matched to a ruling</summary>
+      <p>In this court a motion is set for submission on a date, and after that date it is in the judge's hands. The site records every civil motion from the court's public feed and reads each motion's submission date from the docket text. "No ruling found" means no order in the same case naming that type of motion has appeared since the motion was filed. That is a docket match, not a certainty: a motion withdrawn, decided under a different docket event, or ruled on by minute entry can still show here. <a href="methodology.html#motions">How we count</a></p>
+    </details>
+  </section>
+
+  <!-- ============================================================ Court -->
+  <section class="page" id="page-court" aria-labelledby="h-court" hidden>
+    <div class="jhead">
+      <div>
+        <h1 id="h-court">All judges</h1>
+        <p class="sub">Every judge's figures in one place, in alphabetical order. Click a column heading to sort, or a judge to open that judge's page.</p>
+      </div>
+      <div class="actions"><button type="button" class="btn" id="court-csv">Export CSV</button></div>
+    </div>
+    <nav class="subnav" id="court-nav" aria-label="Court views"></nav>
+
+    <div class="cview" data-view="orders">
+      <section class="panel">
+        <div class="ph"><h2>Civil orders</h2><span class="count" data-since="orders"></span></div>
+        <div class="scroll"><table class="t" id="t-orders"></table></div>
+      </section>
+      <section class="panel">
+        <div class="ph"><h2>Orders per working day, all judges, by week</h2></div>
+        <div class="pb"><div class="chart" id="c-court-weekly"></div></div>
+      </section>
+    </div>
+
+    <div class="cview" data-view="opinions">
+      <section class="panel">
+        <div class="ph"><h2>Written opinions</h2><span class="count" data-since="opinions"></span></div>
+        <div class="scroll"><table class="t" id="t-opinions"></table></div>
+      </section>
+      <section class="panel">
+        <div class="ph"><h2>Written opinions by month, all judges</h2><div class="legend" data-legend="types"></div></div>
+        <div class="pb"><div class="chart" id="c-court-monthly"></div></div>
+      </section>
+    </div>
+
+    <div class="cview" data-view="outcomes">
+      <section class="panel">
+        <div class="ph"><h2>Motion outcomes</h2>
+          <div class="seg" id="oc-seg" role="group" aria-label="Motion type"><button type="button" data-g="r12">Rule 12</button><button type="button" data-g="r56">Rule 56</button><button type="button" data-g="all">All motions</button></div>
+          <div class="legend" data-legend="outcomes"></div></div>
+        <div class="pb tight"><p class="cap" id="oc-cap"></p></div>
+        <div class="scroll"><table class="t oc" id="t-outcomes"></table></div>
+      </section>
+    </div>
+
+    <div class="cview" data-view="weekdays">
+      <section class="panel">
+        <div class="ph"><h2>Share of each judge's orders by weekday</h2><span class="count" id="dow-days"></span></div>
+        <div class="scroll"><table class="t" id="t-dow"></table></div>
+      </section>
+    </div>
+
+    <div class="cview" data-view="hours">
+      <section class="panel">
+        <div class="ph"><h2>Time of day orders are entered (Central)</h2>
+          <label class="inline">Compare with<select id="hours-judge" aria-label="Judge to compare"></select></label></div>
+        <div class="pb"><p class="cap" id="hours-cap"></p><div class="legend" id="hours-legend"></div><div class="chart" id="c-hours"></div></div>
+      </section>
     </div>
   </section>
 
   <!-- ============================================================ Log -->
-  <section class="sheet" id="log" role="tabpanel" aria-labelledby="tab-log" hidden>
-    <p class="question">Is the data current, and what did each update add?</p>
-    <div class="card">
-      <div class="card-head"><h2>Update log</h2></div>
-      <p class="note">Every data update, newest first.</p>
-      <div class="scroll tall"><table id="runs-table"></table></div>
-    </div>
+  <section class="page" id="page-log" aria-labelledby="h-log" hidden>
+    <div class="jhead"><div><h1 id="h-log">Update log</h1><p class="sub">Every data update, newest first. The updater runs every 15 minutes in working hours and hourly otherwise.</p></div></div>
+    <section class="panel"><div class="scroll tall"><table class="t" id="t-log"></table></div></section>
   </section>
+</main>
 
-  <footer>Independent project. Not affiliated with the U.S. District Court for the Eastern District of Louisiana or any judge. Not legal advice. The numbers describe docket activity only and say nothing about whether any ruling was right. Automated counts can be wrong; verify against the docket before relying on them. Sources: PACER, the court's public RSS feed, GovInfo (U.S. Government Publishing Office), and CourtListener (Free Law Project). <a href="methodology.html">How we count</a> · <a href="https://github.com/ggb52-wq/edla-judge-tracker">Data and code</a></footer>
-</div>
+<footer class="foot">
+  <div class="foot-in">
+    <p>Independent project. Not affiliated with the U.S. District Court for the Eastern District of Louisiana or any judge. Not legal advice. The numbers describe docket activity only and say nothing about whether any ruling was right. Sources: PACER, the court's public RSS feed, GovInfo (U.S. Government Publishing Office), and CourtListener (Free Law Project).</p>
+    <nav aria-label="About"><a href="methodology.html">How we count</a><a href="#log">Update log</a><a href="https://github.com/ggb52-wq/edla-judge-tracker">Data and code</a></nav>
+    <p class="keys"><kbd>/</kbd> search <kbd>[</kbd> <kbd>]</kbd> previous / next judge <kbd>Esc</kbd> close</p>
+  </div>
+</footer>
+<div class="tip" id="tip" role="tooltip" hidden></div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 <script src="assets/app.js"></script>
 </body>

@@ -1,116 +1,148 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>How we count · EDLA Analyzer</title>
   <meta name="description" content="Where the EDLA Analyzer's numbers come from, what each one means, and what it cannot tell you.">
+  <script>try { document.documentElement.dataset.theme = localStorage.getItem('edla-theme') || 'dark'; } catch (e) { /* storage unavailable */ }</script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
   <link rel="stylesheet" href="assets/style.css">
 </head>
-<body>
-<header class="band">
-  <div class="wrap masthead">
-    <div>
-      <p class="kicker">EDLA Analyzer</p>
-      <h1>How we count</h1>
-    </div>
-    <nav class="nav"><a href="index.html">Back to the site</a></nav>
+<body data-page="method">
+<header class="top">
+  <div class="top-in">
+    <a class="brand" href="index.html" aria-label="EDLA Analyzer home"><span class="brand-mark">EDLA</span><span class="brand-name">Analyzer</span></a>
+    <nav class="nav" aria-label="Sections">
+      <a href="index.html#judges">Judges</a>
+      <a href="index.html#opinions">Opinions</a>
+      <a href="index.html#motions">Motions</a>
+      <a href="index.html#court">Court</a>
+      <a href="methodology.html" aria-current="page">How we count</a>
+    </nav>
   </div>
 </header>
-<div class="wrap">
+<main class="wrap">
+  <div class="doc">
+    <nav class="toc" aria-label="On this page">
+      <a href="#counts">What the site counts</a>
+      <a href="#sources">Sources</a>
+      <a href="#definitions">Definitions</a>
+      <a href="#outcomes">Outcomes</a>
+      <a href="#categories">Motion categories</a>
+      <a href="#timing">Time to ruling</a>
+      <a href="#hearing">Hearing set before ruling</a>
+      <a href="#length">Opinion length</a>
+      <a href="#written">Written opinions and short orders</a>
+      <a href="#position">Comparing with other judges</a>
+      <a href="#compare">Compare judges</a>
+      <a href="#motions">Submitted motions</a>
+      <a href="#lookup">Case lookup</a>
+      <a href="#links">Links to opinions</a>
+      <a href="#limits">Known limits</a>
+      <a href="#data">Data and code</a>
+    </nav>
+    <article class="prose">
+      <p class="eyebrow">EDLA Analyzer</p>
+      <h1>How we count</h1>
+      <p class="notice">Independent project, not affiliated with the court. Not legal advice. The numbers describe docket activity only and say nothing about whether any ruling was right.</p>
 
-  <article class="card prose">
-    <h2>What the site counts</h2>
-    <p>This site counts docket events in civil cases in the U.S. District Court for the Eastern District of Louisiana and attributes each to the district judge assigned to the case. It covers the court's 16 active district judges. Rows for magistrate judges presiding by consent, and for visiting or senior judges, are kept in the data but not charted.</p>
-    <p>The counts describe activity on the docket. They do not measure the quality, speed, or correctness of any judge's rulings, and the site draws no conclusions about any judge.</p>
+      <h2 id="counts">What the site counts</h2>
+      <p>This site counts docket events in civil cases in the U.S. District Court for the Eastern District of Louisiana and attributes each to the district judge assigned to the case. It covers the court's 16 active district judges. Rows for magistrate judges presiding by consent, and for visiting or senior judges, are kept in the data but not charted.</p>
+      <p>The counts describe activity on the docket. They do not measure the quality, speed, or correctness of any judge's rulings, and the site draws no conclusions about any judge. Judges are listed alphabetically; a table is re-ordered only when a reader sorts it.</p>
 
-    <h2>Sources</h2>
-    <ul>
-      <li><strong>Written opinions, Jan. 10 to Oct. 16, 2026:</strong> the PACER Written Opinions Report for the court.</li>
-      <li><strong>Civil orders, Sept. 17 to Oct. 16, 2026:</strong> the PACER Docket Activity Report, event category "order."</li>
-      <li><strong>Opinion PDFs and text:</strong> <a href="https://www.govinfo.gov/app/collection/uscourts">GovInfo's United States Courts collection</a> (Government Publishing Office), which publishes the documents the court flags as written opinions, and CourtListener. Each GovInfo PDF is matched to the docket by the "Document" number CM/ECF stamps on every page.</li>
-      <li><strong>Since Oct. 17, 2026:</strong> the court's public CM/ECF RSS feed, checked every 15 minutes during the workday, matched against <a href="https://www.courtlistener.com/">CourtListener</a> (Free Law Project), which builds docket records from the same feed and adds the assigned judge and full event type. Documents CourtListener marks as free on PACER are the entries on PACER's Written Opinions Report.</li>
-    </ul>
+      <h2 id="sources">Sources</h2>
+      <ul>
+        <li><strong>Written opinions, Jan. 10 to Oct. 16, 2026:</strong> the PACER Written Opinions Report for the court.</li>
+        <li><strong>Civil orders, Sept. 17 to Oct. 16, 2026:</strong> the PACER Docket Activity Report, event category "order."</li>
+        <li><strong>Opinion PDFs and text:</strong> <a href="https://www.govinfo.gov/app/collection/uscourts">GovInfo's United States Courts collection</a> (Government Publishing Office), which publishes the documents the court flags as written opinions, and CourtListener. Each GovInfo PDF is matched to the docket by the "Document" number CM/ECF stamps on every page.</li>
+        <li><strong>Since Oct. 17, 2026:</strong> the court's public CM/ECF RSS feed, checked every 15 minutes during the workday, matched against <a href="https://www.courtlistener.com/">CourtListener</a> (Free Law Project), which builds docket records from the same feed and adds the assigned judge and full event type. Documents CourtListener marks as free on PACER are the entries on PACER's Written Opinions Report.</li>
+      </ul>
 
-    <h2>Definitions</h2>
-    <ul>
-      <li><strong>Civil order:</strong> any docket event in the court's "order" category, including orders on motions, scheduling orders, text orders, judgments, hearing settings, transfers, and magistrate judges' reports and recommendations, counted once per docket entry.</li>
-      <li><strong>Written opinion:</strong> an entry on PACER's Written Opinions Report. Each chambers decides which of its orders to flag, so chambers flag different shares of their rulings. In a Sept.–Oct. 2026 check, about two-thirds of rulings on Rule 12 and Rule 56 motions appeared on the report, and the share varied widely by judge.</li>
-      <li><strong>Merits ruling:</strong> a written opinion resolving a motion under Rule 12 (dismissal, judgment on the pleadings), Rule 56 (summary judgment), or a trial or post-trial matter (findings of fact and conclusions of law, judgment as a matter of law, new trial, altering a judgment).</li>
-      <li><strong>Working days:</strong> weekdays other than court holidays, including Mardi Gras. A judge who joined the court during the period is counted from that judge's first day on the bench; Judge St. John took the bench on April 13, 2026.</li>
-      <li><strong>Rates:</strong> opinions per week divide district judge opinions by working days ÷ 5; merits per month divide merits rulings by working days ÷ 21; orders per working day divide orders by working days.</li>
-      <li><strong>Longest gap:</strong> the most calendar days between consecutive written opinions in a judge's cases.</li>
-      <li><strong>Ruling type</strong> (monthly chart, mix chart, and opinion finder): each written opinion falls in exactly one type, checked in this order: magistrate judge's report and recommendations; Rule 12 ruling; Rule 56 ruling; trial or post-trial ruling; other opinion. An entry that rules on both a Rule 12 and a Rule 56 motion counts as Rule 12 in these views, so the views can differ by a few entries from the Rule 12 and Rule 56 columns in the opinions table, which count such an entry in both.</li>
-      <li><strong>Mix of written opinions:</strong> each ruling type's count divided by the judge's total written opinions since Jan. 10, 2026. Judges are listed alphabetically.</li>
-      <li><strong>Time of entry:</strong> the share of a judge's civil orders with a recorded entry time that were entered in each clock hour, Central. Orders without a recorded time are left out.</li>
-      <li><strong>Period filter:</strong> "Last 30 days" and "Last 90 days" count back from the data-through date in calendar days, and every figure, including working days, is recomputed for that window.</li>
-      <li><strong>Median judge:</strong> the middle value among the 16 judges for that column; with 16 judges, the average of the 8th and 9th.</li>
-      <li><strong>Entry times</strong> are Central and come from the RSS feed or CourtListener's record of when it read the entry. They show when the clerk entered an order, which may differ from when the judge signed it.</li>
-    </ul>
+      <h2 id="definitions">Definitions</h2>
+      <ul>
+        <li><strong>Civil order:</strong> any docket event in the court's "order" category, including orders on motions, scheduling orders, text orders, judgments, hearing settings, transfers, and magistrate judges' reports and recommendations, counted once per docket entry.</li>
+        <li><strong>Written opinion:</strong> an entry on PACER's Written Opinions Report. Each chambers decides which of its orders to flag, so chambers flag different shares of their rulings. In a Sept.–Oct. 2026 check, about two-thirds of rulings on Rule 12 and Rule 56 motions appeared on the report, and the share varied widely by judge.</li>
+        <li><strong>Merits ruling:</strong> a written opinion resolving a motion under Rule 12 (dismissal, judgment on the pleadings), Rule 56 (summary judgment), or a trial or post-trial matter (findings of fact and conclusions of law, judgment as a matter of law, new trial, altering a judgment).</li>
+        <li><strong>Working days:</strong> weekdays other than court holidays, including Mardi Gras. A judge who joined the court during the period is counted from that judge's first day on the bench; Judge St. John took the bench on April 13, 2026.</li>
+        <li><strong>Rates:</strong> opinions per week divide a judge's written opinions, other than magistrate R&amp;Rs, by working days ÷ 5; merits per month divide merits rulings by working days ÷ 21; orders per working day divide orders by working days.</li>
+        <li><strong>Ruling type</strong> (opinion search): each written opinion falls in exactly one type, checked in this order: magistrate judge's report and recommendations; Rule 12 ruling; Rule 56 ruling; trial or post-trial ruling; other opinion. An entry that rules on both a Rule 12 and a Rule 56 motion counts as Rule 12 here, so these counts can differ by a few entries from the Rule 12 and Rule 56 columns of the court tables, which count such an entry in both.</li>
+        <li><strong>Written opinions by month:</strong> each month's written opinions, split into merits rulings and everything else (other opinions and magistrate R&amp;Rs).</li>
+        <li><strong>Share of orders by weekday:</strong> each weekday's share of a judge's civil orders, beside the same share for all judges' orders combined. It rests on a few weeks of orders, so one heavy week can tilt it.</li>
+        <li><strong>Time of entry:</strong> the share of civil orders with a recorded entry time that were entered in each clock hour, Central. Orders without a recorded time are left out. Entry times come from the RSS feed or CourtListener's record of when it read the entry, and show when the clerk entered an order, which may differ from when the judge signed it.</li>
+        <li><strong>Period:</strong> "All", "90D", and "30D" in the top bar. The last two count back 90 or 30 calendar days from the data-through date, and every figure, including working days, is recomputed for that window.</li>
+        <li><strong>Median judge:</strong> the middle value among the 16 judges; with 16 judges, the average of the 8th and 9th.</li>
+      </ul>
 
-    <h2>Outcomes</h2>
-    <p>For each written opinion that rules on a motion, the site records what the order did to the motion. Outcomes describe the motion, not a party: "granted" means the motion was granted, whichever side filed it. Magistrate judges' reports and recommendations get no outcome.</p>
-    <table>
-      <tbody>
-        <tr><td><strong>Granted</strong></td><td>The motion was granted.</td></tr>
-        <tr><td><strong>Granted, leave to amend</strong></td><td>The motion was granted and the order gave leave to amend. Counted with "granted" in rates and charts; shown separately in the finder and in table tooltips.</td></tr>
-        <tr><td><strong>Granted in part</strong></td><td>The motion was granted in part and denied in part, or granted as to some relief and denied as to the rest.</td></tr>
-        <tr><td><strong>Denied</strong></td><td>The motion was denied.</td></tr>
-        <tr><td><strong>Denied without prejudice</strong></td><td>The motion was denied without prejudice to re-urging it. Counted with "denied" in rates and charts; shown separately in the finder and in table tooltips.</td></tr>
-        <tr><td><strong>Mixed</strong></td><td>The order decided several different motions in different ways.</td></tr>
-        <tr><td><strong>Moot</strong></td><td>The motion was denied or dismissed as moot.</td></tr>
-        <tr><td><strong>Other</strong></td><td>Any other disposition, entered by hand.</td></tr>
-        <tr><td><strong>Not determined</strong></td><td>The order was read and no outcome could be found in it. These rulings count as not known.</td></tr>
-      </tbody>
-    </table>
-    <p>Outcomes come from three places, and the opinion finder shows which one each outcome came from when you hover over it:</p>
-    <ul>
-      <li><strong>Docket text.</strong> When the site adds a new opinion, it reads the clerk's docket text for the entry (for example, "ORDER granting 12 Motion to Dismiss").</li>
-      <li><strong>The order.</strong> For opinions already in the data, the update script reads the order's text from CourtListener a few opinions at a time and looks at its "IT IS ORDERED" paragraphs, or its concluding paragraph when there are none. Only paragraphs naming the motion the opinion is counted for are read; for a Rule 12 or Rule 56 ruling, that is the motion to dismiss or for summary judgment.</li>
-      <li><strong>By hand.</strong> The site owner can record or correct an outcome. A hand entry always replaces an outcome read from the docket text or the order.</li>
-    </ul>
-    <p>Automatic reading is a first pass. It can misread orders written in an unusual form, and it cannot tell which of several motions to dismiss a single sentence addresses. The outcome tables count only rulings with an outcome on file and show how many those are; in the outcome-share chart, a judge's bar is faded when it rests on fewer than five known outcomes.</p>
+      <h2 id="outcomes">Outcomes</h2>
+      <p>For each written opinion that rules on a motion, the site records what the order did to the motion. Outcomes describe the motion, not a party: "granted" means the motion was granted, whichever side filed it. Magistrate judges' reports and recommendations get no outcome.</p>
+      <table>
+        <tbody>
+          <tr><td><strong>Granted</strong></td><td>The motion was granted.</td></tr>
+          <tr><td><strong>Granted, leave to amend</strong></td><td>The motion was granted and the order gave leave to amend. Counted with "granted" in shares and bars; shown separately in the opinion search and in bar tooltips.</td></tr>
+          <tr><td><strong>Granted in part</strong></td><td>The motion was granted in part and denied in part, or granted as to some relief and denied as to the rest.</td></tr>
+          <tr><td><strong>Denied</strong></td><td>The motion was denied.</td></tr>
+          <tr><td><strong>Denied without prejudice</strong></td><td>The motion was denied without prejudice to re-urging it. Counted with "denied" in shares and bars; shown separately in the opinion search and in bar tooltips.</td></tr>
+          <tr><td><strong>Mixed</strong></td><td>The order decided several different motions in different ways.</td></tr>
+          <tr><td><strong>Moot</strong></td><td>The motion was denied or dismissed as moot.</td></tr>
+          <tr><td><strong>Other</strong></td><td>Any other disposition, entered by hand.</td></tr>
+          <tr><td><strong>Not determined</strong></td><td>The order was read and no outcome could be found in it. These rulings count as not coded.</td></tr>
+        </tbody>
+      </table>
+      <p>Outcomes come from three places, and the opinion search shows which one each outcome came from when you hover over it:</p>
+      <ul>
+        <li><strong>Docket text.</strong> When the site adds a new opinion, it reads the clerk's docket text for the entry (for example, "ORDER granting 12 Motion to Dismiss").</li>
+        <li><strong>The order.</strong> For opinions already in the data, the update script reads the order's text from GovInfo or CourtListener a few opinions at a time and looks at its "IT IS ORDERED" paragraphs, or its concluding paragraph when there are none. Only paragraphs naming the motion the opinion is counted for are read; for a Rule 12 or Rule 56 ruling, that is the motion to dismiss or for summary judgment.</li>
+        <li><strong>By hand.</strong> The site owner can record or correct an outcome. A hand entry always replaces an outcome read from the docket text or the order.</li>
+      </ul>
+      <p><strong>Outcome bars</strong> show the shares of coded rulings that were granted, granted in part, denied, and mixed, moot, or other. They count only rulings whose outcome has been coded and say how many those are ("n"). A bar resting on fewer than five coded rulings is drawn in outline, because a share of so few rulings says little. The thin bar under each row on a judge's page is the same breakdown for all 16 judges' rulings pooled together. "Granted" columns give the share granted in full.</p>
+      <p>Automatic reading is a first pass. It can misread orders written in an unusual form, and it cannot tell which of several motions to dismiss a single sentence addresses.</p>
 
-    <h2>Motion categories</h2>
-    <p>The judge profile and the opinion finder group motion rulings by the motion's name in the docket event. Rule 12 and Rule 56 come from the merits flags above. The rest are checked in this order and take the first match: <strong>remand</strong>; <strong>in limine</strong>; <strong>Daubert / expert</strong> (Daubert, exclusion, or an expert); <strong>discovery</strong> (motion to compel, protective order, motion to quash, discovery, deposition, subpoena, interrogatories, production); <strong>injunction / TRO</strong>; <strong>reconsideration</strong>; <strong>stay</strong>; <strong>default judgment</strong> (including entry of default and setting aside a default); <strong>attorney fees</strong>; and <strong>other motions</strong> for everything else. The grouping reads the docket event, not the motion papers, so a motion the clerk entered under a general event such as "Motion for Miscellaneous Relief" lands in "other motions."</p>
+      <h2 id="categories">Motion categories</h2>
+      <p>The judge pages and the opinion search group motion rulings by the motion's name in the docket event. Rule 12 and Rule 56 come from the merits flags above. The rest are checked in this order and take the first match: <strong>remand</strong>; <strong>in limine</strong>; <strong>Daubert / expert</strong> (Daubert, exclusion, or an expert); <strong>discovery</strong> (motion to compel, protective order, motion to quash, discovery, deposition, subpoena, interrogatories, production); <strong>injunction / TRO</strong>; <strong>reconsideration</strong>; <strong>stay</strong>; <strong>default judgment</strong> (including entry of default and setting aside a default); <strong>attorney fees</strong>; and <strong>other motions</strong> for everything else. The grouping reads the docket event, not the motion papers, so a motion the clerk entered under a general event such as "Motion for Miscellaneous Relief" lands in "other motions."</p>
 
-    <h2>Time to ruling</h2>
-    <p>Calendar days from the date the motion was docketed to the date the written opinion deciding it was entered, reported as a median. The motion's docket number comes from the text the outcome was read from ("granting 12 Motion to Dismiss", or "(R. Doc. 12)" beside the motion's name in the order); the update script then reads that docket entry's date from CourtListener. Filing dates accumulate as rulings are read, so each figure states how many rulings it rests on, and a judge with none shows "not yet" rather than a number. Where four or more rulings have dates, the figure also gives the middle half: the 25th to 75th percentile range. The measure runs from docketing, not from the date the motion was set for submission or fully briefed, so it includes any continuances the parties sought.</p>
+      <h2 id="timing">Time to ruling</h2>
+      <p>Calendar days from the date the motion was docketed to the date the written opinion deciding it was entered, reported as a median. The motion's docket number comes from the text the outcome was read from ("granting 12 Motion to Dismiss", or "(R. Doc. 12)" beside the motion's name in the order); the update script then reads that docket entry's date from CourtListener. Filing dates accumulate as rulings are read, so each figure states how many rulings it rests on. A judge's headline median appears once five rulings have dates; until then it reads "Not yet" and says how many are dated. Where four or more rulings have dates, the motion-outcome table also gives the middle half (the 25th to 75th percentile range) on hover. The measure runs from docketing, not from the date the motion was set for submission or fully briefed, so it includes any continuances the parties sought.</p>
 
-    <h2>Hearing set before ruling</h2>
-    <p>For a motion ruling with a filing date, the site checks whether any order in the same case set a hearing between the motion's docket date and the ruling. The check uses the civil orders on file, so it is asked only when both dates fall on or after the start of the orders data; earlier motions show no figure. It cannot tell whether the hearing concerned that motion, so read it as "a hearing was set in the case while the motion was pending," not as "the motion was argued."</p>
+      <h2 id="hearing">Hearing set before ruling</h2>
+      <p>For a motion ruling with a filing date, the site checks whether any order in the same case set a hearing between the motion's docket date and the ruling. The check uses the civil orders on file, so it is asked only when both dates fall on or after the start of the orders data; earlier motions show no figure. It cannot tell whether the hearing concerned that motion, so read it as "a hearing was set in the case while the motion was pending," not as "the motion was argued."</p>
 
-    <h2>Opinion length</h2>
-    <p>Pages in the opinion's PDF, as CourtListener counts them, for opinions whose PDF the site has found. Medians are shown with the number of opinions they rest on. Page counts measure length only.</p>
+      <h2 id="length">Opinion length</h2>
+      <p>Pages in the opinion's PDF, for opinions whose PDF the site has found. Medians are shown with the number of opinions they rest on; a judge's headline median appears once five PDFs have page counts. Page counts measure length only.</p>
 
-    <h2>Written opinions or minute entries</h2>
-    <p>For the period with every civil order on file, the profile sets a judge's written opinions beside that judge's total civil orders: the share of orders flagged for the Written Opinions Report, the share entered as text orders (the docket event begins "Text Order"), and the same comparison for orders whose event names a motion. The docket does not distinguish a reasoned written order that chambers did not flag from a minute entry, so the figure measures flagging practice, not how often a judge writes reasons.</p>
+      <h2 id="written">Written opinions and short orders</h2>
+      <p>For the period with every civil order on file, a judge's page sets that judge's written opinions beside the judge's total civil orders: the share of orders flagged for the Written Opinions Report, the share entered as text orders (the docket event begins "Text Order"), and the same comparison for orders whose event names a motion. The docket does not distinguish a reasoned written order that chambers did not flag from a minute entry, so the figure measures flagging practice, not how often a judge writes reasons.</p>
 
-    <h2>Compare judges</h2>
-    <p>The comparison table places up to three judges' figures side by side with the court median (the middle value of the 16 judges, or of the judges with a figure where one is missing). Grant rates are shares of rulings with a known outcome and carry the number known; a rate resting on fewer than five known outcomes is a weak basis for comparison.</p>
+      <h2 id="position">Comparing with other judges</h2>
+      <p>Each headline figure on a judge's page carries the median judge's figure and a strip with one tick per judge, a taller tick at the median, and a dot for the judge on the page. The strip shows where the 16 figures fall, from zero to the highest; it is not a ranking. For time to ruling and opinion length, only judges with five or more measured rulings or PDFs appear on the strip.</p>
 
-    <h2>Submitted motions</h2>
-    <p>Under this court's Local Rule 7.2, a motion is noticed for submission on a set date, after which it is before the judge. The "Submitted motions" tab lists civil motions recorded from the court's public CM/ECF feed, which names each entry's event type ("Motion to Dismiss"), case, and document number but not the docket text. The feed shows only its latest entries, so the list begins on the day the site started recording motions and does not reach further back. Responses, replies, and orders that mention a motion are not motions and are not listed.</p>
-    <p>The <strong>submission date</strong> is read from the motion's docket text ("Motion(s) will be submitted on 11/4/2026") when the site's periodic CourtListener search indexes the entry, so a motion can appear for a few hours before its date is known. A motion is marked <strong>ruling found</strong> when a later order or written opinion in the same case names the same type of motion, or when an outcome on file cites the motion's docket number. That is a match on docket events, not a link between documents: a motion that was withdrawn, decided under a different event, or ruled on by minute entry can still show as awaiting. <strong>Past submission</strong> means the submission date is before the data-through date and no ruling was found. Days past count calendar days from the submission date. The counts describe the docket; they say nothing about why a ruling is pending.</p>
+      <h2 id="compare">Compare judges</h2>
+      <p>The comparison page places up to four judges' figures side by side. Its "All judges" column gives the median judge for counts and rates, and, for motion outcomes, all 16 judges' coded rulings pooled together. Outcome shares carry the number of coded rulings they rest on; a share resting on fewer than five is a weak basis for comparison.</p>
 
-    <h2>Links to opinions</h2>
-    <p>The opinion finder links each written opinion to <a href="https://www.courtlistener.com/">CourtListener</a>, which posts free copies of documents from PACER's Written Opinions Report. When CourtListener holds a copy of the PDF, the case number opens the PDF and carries a PDF mark. When CourtListener lists the docket entry but has no PDF, the case number opens the docket entry. The update script records these addresses for new opinions and looks up addresses for earlier ones a few at a time, rechecking weekly for PDFs not yet posted; until an address is found, the case number opens a CourtListener search for the case. A document can appear on CourtListener after the site counts it, and some documents never appear there.</p>
+      <h2 id="motions">Submitted motions</h2>
+      <p>Under this court's Local Rule 7.2, a motion is noticed for submission on a set date, after which it is before the judge. The "Motions" page lists civil motions recorded from the court's public CM/ECF feed, which names each entry's event type ("Motion to Dismiss"), case, and document number but not the docket text. The feed shows only its latest entries, so the list begins on the day the site started recording motions and does not reach further back. Responses, replies, and orders that mention a motion are not motions and are not listed.</p>
+      <p>The <strong>submission date</strong> is read from the motion's docket text ("Motion(s) will be submitted on 11/4/2026") when the site's periodic CourtListener search indexes the entry, so a motion can appear for a few hours before its date is known. A motion is marked <strong>ruling found</strong> when a later order or written opinion in the same case names the same type of motion, or when an outcome on file cites the motion's docket number. That is a match on docket events, not a link between documents: a motion that was withdrawn, decided under a different event, or ruled on by minute entry can still show as awaiting. <strong>Past submission</strong> means the submission date is before the data-through date and no ruling was found. Days past count calendar days from the submission date. The counts describe the docket; they say nothing about why a ruling is pending.</p>
 
-    <h2>Known limits</h2>
-    <ul>
-      <li>Each count follows the judge currently assigned to the case. An order entered before a reassignment can be credited to the new judge; entries dated before a judge's first day are excluded.</li>
-      <li>The RSS feed shows only the latest entries and does not name the judge. Entries reach the site after CourtListener records them, usually within minutes. If the feed or CourtListener is unavailable, entries can arrive late; the update log notes low-coverage days.</li>
-      <li>Oral rulings, minute entries outside the order category, and sealed entries are not counted.</li>
-    </ul>
+      <h2 id="lookup">Case lookup</h2>
+      <p>The search box finds a judge by name, a case by number ("2:25-cv-01750", "25-cv-1750", or "1750") or by party name, and opinions by keyword. A case is listed only if it appears in the site's data: an order since Sept. 17, 2026, a written opinion since Jan. 10, 2026, or a motion since recording began. The judge shown is the district judge on the case's most recent entry in that data.</p>
 
-    <h2>Data and code</h2>
-    <p>The data files and the update script are public at <a href="https://github.com/ggb52-wq/edla-judge-tracker">github.com/ggb52-wq/edla-judge-tracker</a>. Corrections are welcome through that repository.</p>
-  </article>
+      <h2 id="links">Links to opinions</h2>
+      <p>The opinion search and the judge pages link each written opinion to the best copy the site has found. When GovInfo or CourtListener holds the PDF, the case number opens it and carries a PDF mark. When CourtListener lists the docket entry but has no PDF, the case number opens the docket entry. Until an address is found, the case number opens a CourtListener search for the case. The update script looks up addresses for earlier opinions a few at a time and rechecks weekly for PDFs not yet posted. A document can appear on GovInfo or CourtListener after the site counts it, and some documents never appear there.</p>
 
-  <footer>Not affiliated with the U.S. District Court for the Eastern District of Louisiana.</footer>
-</div>
+      <h2 id="limits">Known limits</h2>
+      <ul>
+        <li>Each count follows the judge currently assigned to the case. An order entered before a reassignment can be credited to the new judge; entries dated before a judge's first day are excluded.</li>
+        <li>The RSS feed shows only the latest entries and does not name the judge. Entries reach the site after CourtListener records them, usually within minutes. If the feed or CourtListener is unavailable, entries can arrive late; the update log notes low-coverage days.</li>
+        <li>Oral rulings, minute entries outside the order category, and sealed entries are not counted.</li>
+      </ul>
+
+      <h2 id="data">Data and code</h2>
+      <p>The data files and the update script are public at <a href="https://github.com/ggb52-wq/edla-judge-tracker">github.com/ggb52-wq/edla-judge-tracker</a>. Corrections are welcome through that repository.</p>
+    </article>
+  </div>
+</main>
+<footer class="foot"><div class="foot-in"><p>Not affiliated with the U.S. District Court for the Eastern District of Louisiana. Not legal advice.</p><nav aria-label="About"><a href="index.html">Back to the site</a><a href="index.html#log">Update log</a></nav></div></footer>
 </body>
 </html>
