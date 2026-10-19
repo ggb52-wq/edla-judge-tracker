@@ -13,11 +13,14 @@
 <body>
 <header class="band">
   <div class="wrap masthead">
-    <div>
+    <div class="brand">
+      <svg class="mark" viewBox="0 0 40 40" width="40" height="40" aria-hidden="true" focusable="false"><path d="M4 11h32M8 11v18M16 11v18M24 11v18M32 11v18M4 29h32" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><path d="M20 3 36 11H4Z" fill="currentColor"/><path d="M4 35h32" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>
+      <div>
       <p class="kicker">U.S. District Court · Eastern District of Louisiana</p>
       <h1>EDLA Analyzer</h1>
       <p class="lede">Counts of civil orders, written opinions, and motion outcomes in the Eastern District of Louisiana, built from the public docket and updated through the day.</p>
       <p class="lede disclaimer">This is an independent project with no connection to the court. Nothing here is legal advice. The counts come from automated reading of public records and can contain errors, so verify anything you plan to rely on against the docket itself.</p>
+      </div>
     </div>
     <nav class="nav"><a href="methodology.html">How we count</a><a href="https://github.com/ggb52-wq/edla-judge-tracker">Data and code</a></nav>
   </div>
@@ -44,6 +47,7 @@
 
   <!-- ============================================================ Overview -->
   <section class="sheet" id="overview" role="tabpanel" aria-labelledby="tab-overview">
+    <p class="question">What does the court look like right now, and how does one judge compare with the rest?</p>
     <div class="tiles" aria-label="Key figures">
       <button type="button" class="tile" data-go="orders"><span class="tile-label">Civil orders</span><span class="tile-num" id="t-orders">—</span><span class="tile-sub">since <span data-since="orders"></span></span></button>
       <button type="button" class="tile" data-go="orders"><span class="tile-label">Orders per working day</span><span class="tile-num" id="t-perday">—</span><span class="tile-sub">all judges · weekly trend</span><span id="t-perday-spark"></span></button>
@@ -113,24 +117,29 @@
 
   <!-- ============================================================ Orders -->
   <section class="sheet" id="orders" role="tabpanel" aria-labelledby="tab-orders" hidden>
+    <p class="question">Which judges move paper fastest?</p>
     <div class="card">
       <div class="card-head"><h2>Civil orders by judge</h2><div class="actions"><button type="button" class="btn quiet" data-csv="or-table">Export CSV</button></div></div>
-      <p class="note">Every civil order since <span data-since="orders"></span>. "Per working day" means divided by the court's working days in the period. Times are Central. Click a column heading to sort, or a row to pick that judge.</p>
+      <p class="note">Every civil order since <span data-since="orders"></span>. "Per working day" means divided by the court's working days in the period. Hover a column heading for its definition; click it to sort. Click a row to pick that judge.</p>
       <div class="scroll"><table id="or-table"></table></div>
     </div>
     <div class="grid">
       <div class="card"><h2>Orders per working day</h2><p class="note">Since <span data-since="orders"></span>. The dashed line is the median judge.</p><div class="chart" id="c-perday"></div></div>
-      <div class="card"><h2>Time of entry</h2><p class="note" id="hours-note"></p><div class="legend" id="hours-legend" aria-hidden="true"></div><div class="chart" id="c-hours"></div></div>
     </div>
     <div class="card">
       <div class="card-head"><h2>Day-of-week pattern</h2><div class="actions"><button type="button" class="btn quiet" data-csv="dow-table">Export CSV</button></div></div>
-      <p class="note">What share of each judge's orders came out on each weekday. Darker means busier.</p>
+      <p class="note">What share of each judge's orders came out on each weekday. Darker means busier. <strong>Thin data:</strong> this rests on <span id="dow-days">—</span> working days, so one heavy week can tilt a judge's row.</p>
       <div class="scroll"><table id="dow-table"></table></div>
     </div>
+    <details class="curio" id="curio-hours">
+      <summary>Curiosity: what time of day orders come out</summary>
+      <p class="note" id="hours-note"></p><div class="legend" id="hours-legend" aria-hidden="true"></div><div class="chart" id="c-hours"></div>
+    </details>
   </section>
 
   <!-- ============================================================ Opinions -->
   <section class="sheet" id="opinions" role="tabpanel" aria-labelledby="tab-opinions" hidden>
+    <p class="question">Who writes opinions, how often, and on what kinds of motions?</p>
     <div class="card">
       <div class="card-head"><h2>Written opinions by judge</h2><div class="actions"><button type="button" class="btn quiet" data-csv="op-table">Export CSV</button></div></div>
       <p class="note">Opinions on PACER's Written Opinions Report since <span data-since="opinions"></span>. "Merits rulings" are Rule 12, summary judgment, and trial-related rulings. Each judge's chambers decides what to flag as a written opinion, so this is not every ruling a judge made. <a href="methodology.html">How we count</a>.</p>
@@ -145,6 +154,7 @@
 
   <!-- ============================================================ Outcomes -->
   <section class="sheet" id="outcomes" role="tabpanel" aria-labelledby="tab-outcomes" hidden>
+    <p class="question">How do motions come out in front of each judge?</p>
     <div class="card">
       <div class="card-head"><h2>Outcomes of motion rulings</h2><div class="actions"><button type="button" class="btn quiet" data-csv="oc-table">Export CSV</button></div></div>
       <p class="note">How each judge's motion rulings came out, since <span data-since="opinions"></span>. "Granted" means the motion was granted, no matter who filed it. "Known" is how many rulings have a recorded outcome; the rest are still being coded. Outcomes are read automatically from the docket or the order, so check the opinion before relying on one. <a href="methodology.html">How we read outcomes</a>.</p>
@@ -161,6 +171,7 @@
 
   <!-- ============================================================ Finder -->
   <section class="sheet" id="finder" role="tabpanel" aria-labelledby="tab-finder" hidden>
+    <p class="question">Find the opinion you need and open it.</p>
     <div class="card">
       <div class="card-head"><h2 id="finder-title">Opinion finder</h2><div class="actions"><button type="button" class="btn quiet" data-csv="recent-table">Export CSV</button></div></div>
       <p class="note">Every written opinion we have, newest first. Click a case number to open the opinion. "PDF" means the opinion itself is one click away; otherwise the link goes to the docket on CourtListener. The judge and period filters above apply here too.</p>
@@ -179,6 +190,7 @@
 
   <!-- ============================================================ Log -->
   <section class="sheet" id="log" role="tabpanel" aria-labelledby="tab-log" hidden>
+    <p class="question">Is the data current, and what did each update add?</p>
     <div class="card">
       <div class="card-head"><h2>Update log</h2></div>
       <p class="note">Every data update, newest first.</p>
