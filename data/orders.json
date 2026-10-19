@@ -1784,5 +1784,10 @@
 {"date":"2026-10-16","time":"17:05","judge":"WBV","case":"2:24-cv-01933","doc":"367","title":"Tran v. Gulf Coast Bank & Trust Company et al","event":"Order","src":"pacer_activity"},
 {"date":"2026-10-16","time":"18:08","judge":"DJP","case":"2:20-cv-00980","doc":"519","title":"Baqer v. St. Tammany Parish Government","event":"Status Conference AND ~Util - Set/Reset Hearings AND ~Util - Set/Reset Motion and R&R Deadlines/Hearings","src":"courtlistener"},
 {"date":"2026-10-19","time":"09:54","judge":"EEF","case":"2:26-cv-00378","doc":"13","title":"Faulder v. Christian Shane Development LLC, et al","event":"Set Hearings","src":"rss"},
-{"date":"2026-10-19","time":"10:43","judge":"JTM","case":"2:26-cv-02052","doc":"11","title":"Green v. Mobilitas General Insurance Company","event":"Scheduling Order","src":"rss"}
+{"date":"2026-10-19","time":"10:43","judge":"JTM","case":"2:26-cv-02052","doc":"11","title":"Green v. Mobilitas General Insurance Company","event":"Scheduling Order","src":"rss"},
+{"date":"2026-10-19","time":"11:40","judge":"ASJ","case":"2:25-cv-01062","doc":"55","title":"Jynes v. Orleans Parish Sheriff&#039;s Office et al","event":"Set Hearings","src":"rss"},
+{"date":"2026-10-19","time":"11:45","judge":"SSV","case":"2:25-cv-02008","doc":"10","title":"Franklin v. Hobby Lobby Stores, Inc.","event":"Terminate Hearings","src":"rss"},
+{"date":"2026-10-19","time":"12:12","judge":"BSL","case":"2:26-cv-00676","doc":"13","title":"Johnson et al v. Rick Shipman Construction, LLC et al","event":"Judgment","src":"rss"},
+{"date":"2026-10-19","time":"12:14","judge":"ASJ","case":"2:26-cv-02156","doc":"21","title":"Kerbow et al v. Washington Parish School Board et al","event":"Order","src":"rss"},
+{"date":"2026-10-19","time":"12:15","judge":"ASJ","case":"2:26-cv-00397","doc":"158","title":"Western Motorcoach, Inc. v. American Safety, LLC et al","event":"Order","src":"rss"}
 ]
