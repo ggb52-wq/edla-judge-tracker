@@ -1839,6 +1839,11 @@
 {"date":"2026-10-19","time":"16:20","judge":"EEF","case":"2:26-cv-01576","doc":"12","title":"Sierra v. United States of America","event":"Set Hearings","src":"rss"},
 {"date":"2026-10-19","time":"16:24","judge":"BWA","case":"2:26-cv-01372","doc":"20","title":"Cook v. Galliano Marine Service, L.L.C. et al","event":"Scheduling Order","src":"rss"},
 {"date":"2026-10-19","time":"16:27","judge":"BWA","case":"2:26-cv-01129","doc":"9","title":"Dollar et al v. Hood Industries Inc","event":"Scheduling Order","src":"rss"},
+{"date":"2026-10-19","time":"16:31","judge":"EEF","case":"2:24-cv-02477","doc":"15","title":"Zeballos v. United States","event":"Order Dismissing Case","src":"courtlistener"},
+{"date":"2026-10-19","time":"16:37","judge":"EEF","case":"2:23-cv-06585","doc":"29","title":"Transportation Consultants, Inc. v. Certain Underwriters at Lloyd's, L","event":"Order Setting/Resetting Hearing on Motion","src":"courtlistener"},
 {"date":"2026-10-19","time":"16:44","judge":"SSV","case":"2:25-cv-00747","doc":"39","title":"Buckey et al v. Henry&#039;s Uptown Bar, LLC","event":"Scheduling Order","src":"rss"},
-{"date":"2026-10-19","time":"16:57","judge":"JTM","case":"2:26-cv-00128","doc":"17","title":"Hydra Force L.L.C. v Dawn Services, L.L.C.","event":"Order Dismissing Case","src":"rss"}
+{"date":"2026-10-19","time":"16:44","judge":"BSL","case":"2:26-cv-01685","doc":"9","title":"Johnson v. Home Depot U.S.A., Inc.","event":"Order on Motion to Remand","src":"courtlistener"},
+{"date":"2026-10-19","time":"16:50","judge":"JCZ","case":"2:25-cv-01013","doc":"45","title":"Sears v. LHC Group, Inc.","event":"Order on Motion for Discovery","src":"courtlistener"},
+{"date":"2026-10-19","time":"16:57","judge":"JTM","case":"2:26-cv-00128","doc":"17","title":"Hydra Force L.L.C. v Dawn Services, L.L.C.","event":"Order Dismissing Case","src":"rss"},
+{"date":"2026-10-19","time":"17:02","judge":"SM","case":"2:24-cv-00725","doc":"83","title":"Brown v. Turlich","event":"Order AND Set Hearings","src":"courtlistener"}
 ]
