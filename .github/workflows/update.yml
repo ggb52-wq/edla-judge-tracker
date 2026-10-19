@@ -35,6 +35,12 @@ jobs:
       - name: Fetch new entries
         env:
           COURTLISTENER_TOKEN: ${{ secrets.COURTLISTENER_TOKEN }}
+          # Rate limits for the key. Leave unset for a free account (5 a minute, 50 an hour, 125 a day);
+          # after a CourtListener membership, set these repository variables to the new limits.
+          COURTLISTENER_PER_MINUTE: ${{ vars.COURTLISTENER_PER_MINUTE }}
+          COURTLISTENER_PER_HOUR: ${{ vars.COURTLISTENER_PER_HOUR }}
+          COURTLISTENER_PER_DAY: ${{ vars.COURTLISTENER_PER_DAY }}
+          COURTLISTENER_SEARCH_MINUTES: ${{ vars.COURTLISTENER_SEARCH_MINUTES }}
         run: python -u scripts/update.py
 
       - name: Commit when the data changed
