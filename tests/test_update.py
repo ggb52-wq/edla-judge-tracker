@@ -4,6 +4,7 @@ import shutil
 import sys
 import tempfile
 import unittest
+import urllib.error
 import urllib.parse
 from pathlib import Path
 from unittest import mock
@@ -55,6 +56,8 @@ def fake_get(url, headers=None, timeout=45):
         return json.dumps({"next": None, "results": [{"date_filed": filed}] if filed else []}).encode()
     if "recap-documents" in url and "docket_number" in url:   # opinion link lookup
         q = urllib.parse.parse_qs(urllib.parse.urlparse(url).query)
+        if q["docket_entry__docket__docket_number"] == ["2:26-cv-01444"]:   # one row CourtListener refuses
+            raise urllib.error.HTTPError(url, 429, "Too Many Requests", {"Retry-After": "5"}, None)
         hit = (q["docket_entry__docket__docket_number"] == ["2:26-cv-01880"] and q["document_number"] == ["6"])
         results = [{"absolute_url": "/docket/900/6/geico-general-insurance-company-v-united-states/", "is_available": True,
                     "filepath_local": "recap/gov.uscourts.laed.900/gov.uscourts.laed.900.6.0.pdf",
@@ -123,9 +126,11 @@ class UpdateTest(unittest.TestCase):
                          {("2:26-cv-09003", "30"), ("2:26-cv-09005", "8"), ("2:26-cv-01880", "6")})
         checks = json.loads((self.tmp / "data/link_checks.json").read_text())
         self.assertNotIn("2:26-cv-09005|8", checks)                      # new row: first in line next run
-        self.assertTrue(update.LINK_BUDGET - 3 <= len(checks) <= update.LINK_BUDGET - 1)  # misses recorded; the hit removed; a filing-date call used
+        self.assertTrue(update.LINK_BUDGET - 8 <= len(checks) <= update.LINK_BUDGET - 1)  # misses recorded; hits removed; retries and filing-date calls spent
         self.assertNotIn("2:26-cv-09003|30", checks)
         self.assertNotIn("2:26-cv-01880|6", checks)
+        self.assertNotIn("2:26-cv-01444|20", checks)                     # refused row: no check recorded, retried next run
+        self.assertIn("CourtListener HTTP 429", runs[-1]["note"])
         outcomes = {(r["case"], r["doc"]): r for r in json.loads((self.tmp / "data/outcomes.json").read_text())}
         self.assertEqual(outcomes[("2:26-cv-09003", "30")]["outcome"], "partial")       # from the docket text
         self.assertEqual(outcomes[("2:26-cv-09003", "30")]["src"], "docket_text")
