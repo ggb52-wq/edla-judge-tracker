@@ -1835,5 +1835,10 @@
 {"date":"2026-10-19","time":"15:59","judge":"WBV","case":"2:26-cv-02394","doc":"6","title":"Fernandez v. State Farm Fire and Casualty Company","event":"Order","src":"courtlistener"},
 {"date":"2026-10-19","time":"16:01","judge":"WBV","case":"2:24-cv-02662","doc":"81","title":"Perkins v. Swift Transportation of Arizona, LLC","event":"Order on Motion to Alter Judgment AND Order on Motion to Dismiss Case","src":"courtlistener"},
 {"date":"2026-10-19","time":"16:06","judge":"EEF","case":"2:26-cv-01375","doc":"27","title":"Thomure v. FCA US LLC","event":"Order on Motion to Substitute Attorney","src":"courtlistener"},
-{"date":"2026-10-19","time":"16:08","judge":"EEF","case":"2:25-cv-02220","doc":"71","title":"Blackman v. Mamco Harvey LLC","event":"Order AND ~Util - Set/Reset Hearings","src":"courtlistener"}
+{"date":"2026-10-19","time":"16:08","judge":"EEF","case":"2:25-cv-02220","doc":"71","title":"Blackman v. Mamco Harvey LLC","event":"Order AND ~Util - Set/Reset Hearings","src":"courtlistener"},
+{"date":"2026-10-19","time":"16:20","judge":"EEF","case":"2:26-cv-01576","doc":"12","title":"Sierra v. United States of America","event":"Set Hearings","src":"rss"},
+{"date":"2026-10-19","time":"16:24","judge":"BWA","case":"2:26-cv-01372","doc":"20","title":"Cook v. Galliano Marine Service, L.L.C. et al","event":"Scheduling Order","src":"rss"},
+{"date":"2026-10-19","time":"16:27","judge":"BWA","case":"2:26-cv-01129","doc":"9","title":"Dollar et al v. Hood Industries Inc","event":"Scheduling Order","src":"rss"},
+{"date":"2026-10-19","time":"16:44","judge":"SSV","case":"2:25-cv-00747","doc":"39","title":"Buckey et al v. Henry&#039;s Uptown Bar, LLC","event":"Scheduling Order","src":"rss"},
+{"date":"2026-10-19","time":"16:57","judge":"JTM","case":"2:26-cv-00128","doc":"17","title":"Hydra Force L.L.C. v Dawn Services, L.L.C.","event":"Order Dismissing Case","src":"rss"}
 ]
