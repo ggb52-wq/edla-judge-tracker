@@ -312,15 +312,28 @@ def fetch(url: str) -> str:
 
 
 def find_pages(listing_html: str, judges: list[dict]) -> dict:
-    """Map judge code -> page URL, by matching the end of each judge page's address to the judge's name."""
+    """Map judge code -> page URL. A link matches a judge when its address ends with the judge's name
+    ("...honorable-nannette-jolivette-brown") or, failing that, when its text names the judge."""
     root = parse(listing_html)
-    links = {absolute(a.attrs.get("href", "")) for a in root.find_all(lambda n: n.tag == "a" and JUDGE_PATH in (n.attrs.get("href") or ""))}
+    start = root.find(lambda n: n.attrs.get("id") in ("main-content", "page-title"))
+    scope = start.parent if start is not None and start.parent is not None else root
+    links = []
+    for a in scope.find_all(lambda n: n.tag == "a"):
+        url = absolute(a.attrs.get("href", ""))
+        if url.startswith(BASE) and not DOC_RE.search(url):
+            links.append((url, clean(a.text())))
     out = {}
     for j in judges:
         s = slug(j["name"])
-        hit = sorted(u for u in links if u.rstrip("/").split("/")[-1] == s or u.rstrip("/").endswith("-" + s))
+        by_url = sorted({u for u, _ in links if u.rstrip("/").split("/")[-1] == s or u.rstrip("/").endswith("-" + s)})
+        by_text = sorted({u for u, t in links if re.search(r"(?<![\w.])" + re.escape(j["name"]) + r"(?![\w])", t, re.I)})
+        hit = by_url or by_text
         if hit:
             out[j["code"]] = hit[0]
+    if len(out) < len(judges):
+        print(f"Matched {len(out)} of {len(judges)} judges on the listing. Links seen:", flush=True)
+        for u, t in links[:120]:
+            print(f"  {t[:60]!r} -> {u}", flush=True)
     return out
 
 
