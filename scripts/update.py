@@ -43,6 +43,7 @@ CL_CALL_BUDGET = 360    # per run; CourtListener allows 5,000 an hour, and runs 
 LINK_BUDGET = 300       # of those, calls spent on addresses and order text for opinions already in the data
 LINK_RECHECK_DAYS = 7
 RUN_SECONDS = 11 * 60   # CourtListener calls stop after this, so the run saves well inside the workflow's 20-minute timeout
+MAX_FAILURES = 5        # consecutive failed lookups before a run gives up on CourtListener for the rest of the run
 RETRY_AFTER_MAX = 60    # longest wait honored on an HTTP 429
 LOW_COVERAGE = 50
 CL_STORAGE = "https://storage.courtlistener.com/"
@@ -316,9 +317,10 @@ def link_opinions(cl: CourtListener, opinions: list[dict], checks: dict, outcome
     todo.sort(key=lambda o: checks.get(f"{o['case']}|{o['doc']}", ""))  # stable: oldest check first, then newest row
     found = read = 0
     stop = cl.calls + LINK_BUDGET
+    failures = 0
     log(f"looking up {len(todo)} opinions for links and outcomes")
     for n, o in enumerate(todo):
-        if cl.calls >= min(stop, CL_CALL_BUDGET):
+        if cl.calls >= min(stop, CL_CALL_BUDGET) or cl.out_of_time:
             break
         if n and n % 25 == 0:
             log(f"  {n} looked up, {found} linked, {read} outcomes read, {cl.calls} calls")
@@ -326,7 +328,14 @@ def link_opinions(cl: CourtListener, opinions: list[dict], checks: dict, outcome
             "docket_entry__docket__court": "laed", "docket_entry__docket__docket_number": o["case"],
             "document_number": o["doc"], "fields": "absolute_url,filepath_local,is_available,page_count,plain_text"})
         if data is None:
-            break
+            # One refused or timed-out call skips this row (it is retried next run, since no check is recorded);
+            # a streak of them means the service is unavailable, so the run stops and saves what it has.
+            failures += 1
+            if failures >= MAX_FAILURES or cl.out_of_time or cl.calls >= CL_CALL_BUDGET:
+                log(f"  stopping lookups after {failures} failed call(s) in a row")
+                break
+            continue
+        failures = 0
         checks[f"{o['case']}|{o['doc']}"] = today
         results = [r for r in data.get("results", []) if doc_url(r.get("absolute_url"))]
         links = max((doc_links(r) for r in results), key=len, default={})
