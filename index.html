@@ -19,6 +19,7 @@
     <nav class="nav" aria-label="Sections">
       <a href="#judges" data-nav="judges">Judges</a>
       <a href="#activity" data-nav="activity">Activity</a>
+      <a href="#calendar" data-nav="calendar">Calendar</a>
       <a href="#opinions" data-nav="opinions">Opinions</a>
       <a href="#motions" data-nav="motions">Motions</a>
       <a href="#rules" data-nav="rules">Requirements</a>
@@ -136,6 +137,10 @@
       </div>
 
       <aside class="stack">
+        <section class="panel" aria-labelledby="h-jcal">
+          <div class="ph"><h2 id="h-jcal">On the calendar</h2><a class="more-link" id="j-cal-all" href="#calendar">Calendar →</a></div>
+          <ol class="cal-list" id="j-cal"></ol>
+        </section>
         <section class="panel latest" aria-labelledby="h-latest">
           <div class="ph"><h2 id="h-latest">Written opinions</h2><span class="count" id="j-op-count"></span></div>
           <div class="pb tight">
@@ -187,6 +192,39 @@
       <button type="button" class="btn more" id="act-more" hidden>Show more</button>
     </section>
     <p class="foot-note" id="act-note"></p>
+  </section>
+
+  <!-- ============================================================ Calendar -->
+  <section class="page" id="page-calendar" aria-labelledby="h-calendar" hidden>
+    <div class="jhead">
+      <div>
+        <h1 id="h-calendar">Calendar</h1>
+        <p class="sub">What each judge has scheduled: trials, oral arguments, hearings, and conferences from the court's public calendar and from docket entries that set them, with motions set for submission. Updated with the docket activity, about every 15 minutes.</p>
+      </div>
+      <div class="actions"><button type="button" class="btn" data-csv="cal">Export CSV</button></div>
+    </div>
+    <div class="filters cal-controls">
+      <div class="stepper" role="group" aria-label="Week">
+        <a class="btn icon" id="cal-prev" aria-label="Previous week" title="Previous week">‹</a>
+        <a class="btn" id="cal-today">This week</a>
+        <a class="btn icon" id="cal-next" aria-label="Next week" title="Next week">›</a>
+      </div>
+      <span class="cal-range" id="cal-range"></span>
+      <label>Judge<select id="cal-judge"></select></label>
+      <div class="seg" id="cal-view" role="group" aria-label="View"><button type="button" data-v="week">Week</button><button type="button" data-v="list">List</button></div>
+      <label class="check"><input type="checkbox" id="cal-subs"> Motion submissions</label>
+    </div>
+    <div class="legend cal-legend" id="cal-legend"></div>
+    <section class="panel">
+      <div class="scroll" id="cal-week-wrap"><table class="t cal" id="cal-week"></table></div>
+      <ol class="cal-list big" id="cal-list" hidden></ol>
+    </section>
+    <section class="panel">
+      <div class="ph"><h2>Settings entered, date not on file yet</h2><span class="count" id="cal-pending-count"></span></div>
+      <div class="pb tight"><p class="cap">Docket entries from the last two weeks that set or reset a proceeding. The court's feed gives the event but not the date; the date appears here once the entry's docket text is read or the proceeding reaches the court's seven-day calendar.</p></div>
+      <ol class="act compact withjudge" id="cal-pending"></ol>
+    </section>
+    <p class="foot-note" id="cal-note"></p>
   </section>
 
   <!-- ============================================================ Opinions -->

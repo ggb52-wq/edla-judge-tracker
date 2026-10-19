@@ -78,15 +78,15 @@
   const recordLink = (o) => REPO + '/issues/new?template=outcome.yml&title=' + encodeURIComponent('Outcome: ' + o.case + ' doc ' + o.doc)
     + '&case=' + encodeURIComponent(o.case) + '&doc=' + encodeURIComponent(o.doc);
 
-  const PAGES = ['judges', 'judge', 'compare', 'activity', 'opinions', 'motions', 'rules', 'court', 'log'];
-  const NAV = { judges: 'judges', judge: 'judges', compare: 'judges', activity: 'activity', opinions: 'opinions', motions: 'motions', rules: 'rules', court: 'court', log: '' };
+  const PAGES = ['judges', 'judge', 'compare', 'activity', 'calendar', 'opinions', 'motions', 'rules', 'court', 'log'];
+  const NAV = { judges: 'judges', judge: 'judges', compare: 'judges', activity: 'activity', calendar: 'calendar', opinions: 'opinions', motions: 'motions', rules: 'rules', court: 'court', log: '' };
   const VIEWS = [['orders', 'Civil orders'], ['opinions', 'Written opinions'], ['outcomes', 'Motion outcomes'], ['weekdays', 'Weekdays'], ['hours', 'Time of day']];
   // Addresses from the earlier, tabbed layout still open the matching page.
   const LEGACY = { overview: ['judges'], orders: ['court', 'orders'], outcomes: ['court', 'outcomes'], finder: ['opinions'] };
   const emptyFinder = () => ({ q: '', judge: '', type: '', oc: '', pdf: false, month: '' });
   const state = { page: 'judges', judge: '', cmp: [], vs: [], view: 'orders', period: '', f: emptyFinder(), limit: 100,
     mt: { view: 'past', q: '', judge: '', limit: 100 }, jf: { q: '', type: '', judge: '' }, ocGroup: 'r12', hoursJudge: '', sorts: {},
-    rtab: '', rq: '', act: { q: '', judge: '', kind: '', days: '7', limit: 300 }, editor: false, data: null, stats: null, cases: [], pages: {} };
+    rtab: '', rq: '', act: { q: '', judge: '', kind: '', days: '7', limit: 300 }, cal: { week: '', judge: '', view: '', subs: false }, editor: false, data: null, stats: null, cases: [], pages: {} };
   const editorParam = new URLSearchParams(location.search).get('editor');
   if (editorParam === '1' || editorParam === '0') store.set('edla-editor', editorParam);
   state.editor = store.get('edla-editor') === '1';
@@ -284,6 +284,8 @@
     state.page = page;
     if (page === 'judge') { state.judge = judgeCode(parts[1] || p.get('judge')); if (p.has('tab')) state.rtab = p.get('tab'); }
     if (page === 'rules') state.rq = p.get('q') || '';
+    if (page === 'calendar') state.cal = { week: /^\d{4}-\d{2}-\d{2}$/.test(p.get('week') || '') ? p.get('week') : '', judge: judgeCode(p.get('judge')),
+      view: ['week', 'list'].includes(p.get('view')) ? p.get('view') : '', subs: p.get('subs') === '1' };
     if (page === 'activity') state.act = { q: p.get('q') || '', judge: judgeCode(p.get('judge')), kind: ACT_KINDS.some(([k]) => k === p.get('kind')) ? p.get('kind') : '',
       days: ['1', '3', '7', '14'].includes(p.get('days')) ? p.get('days') : '7', limit: 300 };
     if (page === 'compare') state.cmp = [...new Set((parts[1] || '').split(',').map(judgeCode).filter(Boolean))].slice(0, 4);
@@ -299,6 +301,7 @@
     const p = new URLSearchParams(); let path = page;
     if (page === 'judge') { path += '/' + o.judge; if (o.tab) p.set('tab', o.tab); }
     if (page === 'rules' && o.q) p.set('q', o.q);
+    if (page === 'calendar' && o.cal) { const c = o.cal; if (c.week) p.set('week', c.week); if (c.judge) p.set('judge', c.judge); if (c.view) p.set('view', c.view); if (c.subs) p.set('subs', '1'); }
     if (page === 'activity' && o.act) { const a = o.act; if (a.q) p.set('q', a.q); if (a.judge) p.set('judge', a.judge); if (a.kind) p.set('kind', a.kind); if (a.days && a.days !== '7') p.set('days', a.days); }
     if (page === 'compare' && o.cmp && o.cmp.length) path += '/' + o.cmp.join(',');
     if (page === 'court') path += '/' + (o.view || 'orders');
@@ -307,7 +310,7 @@
     if (state.period) p.set('period', state.period);
     return '#' + path + (p.toString() ? '?' + p : '');
   }
-  const currentHash = () => hashFor(state.page, { judge: state.judge, cmp: state.cmp, view: state.view, f: state.f, mt: state.mt, q: state.rq, act: state.act,
+  const currentHash = () => hashFor(state.page, { judge: state.judge, cmp: state.cmp, view: state.view, f: state.f, mt: state.mt, q: state.rq, act: state.act, cal: state.cal,
     tab: state.page === 'judge' && (state.pages[state.judge] || { sections: [] }).sections.some((x) => slug(x.title) === state.rtab) ? state.rtab : '' });
   const slug = (t) => String(t).toLowerCase().replace(/&/g, 'and').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
   const judgeHref = (code) => hashFor('judge', { judge: code });
@@ -648,6 +651,7 @@
     drawJudgeActivity(or, op, name);
     drawJudgeHabits(or, op, name);
     drawJudgeMotions(code);
+    drawJudgeCal(code, name);
     $('j-act').replaceChildren(...actItems(activity().rows.filter((r) => r.judge === code).slice(0, 12), { empty: 'No docket activity in this judge\'s cases in the last ' + ACT_DAYS + ' days.' }));
     $('j-act-all').href = hashFor('activity', { act: { judge: code, days: '14' } });
     drawFeed();
@@ -1087,6 +1091,128 @@
   // Panels on the home and judge pages: a date beside each entry rather than day headings.
   const actItems = (rows, opts = {}) => actRowsEl(rows, { ...opts, dates: true });
 
+  // ------------------------------------------------------------ calendar: what each judge has scheduled
+  // Sources: data/hearings.json (the court's seven-day calendar and proceedings set in docket text), proceedings held
+  // (minute entries in the feed and orders), and motions set for submission. A proceeding on the court's calendar and
+  // in a docket entry shows once.
+  const CAL_SRC = { court: 'Court calendar', docket: 'Set in a docket entry', held: 'Held (minute entry)', subs: 'Motions set for submission' };
+  const HELD_RE = /^(?:(?:telephone|video|in-person|zoom)\s+)?(?:(?:status|scheduling|pretrial|final pretrial|preliminary|settlement|rule 16|discovery)\s+)?conference$|^motion hearing|^(?:jury|bench|non-jury) trial|^oral argument|^evidentiary hearing|^preliminary injunction hearing/i;
+  const SETTING_RE = /set hearings|set\/reset hearings|reset hearings|setting\/resetting hearing|order setting|scheduling order/i;
+  const mondayOf = (d) => { const x = utc(d); x.setUTCDate(x.getUTCDate() - ((x.getUTCDay() + 6) % 7)); return iso(x); };
+  const shortOf = (c) => { const m = (c || '').match(/:(\d\d)-[a-z]+-0*(\d+)/i); return m ? m[1] + '-' + m[2] : ''; };
+  const fmtTime = (t) => { if (!t) return ''; const [h, m] = t.split(':').map(Number); return (h % 12 || 12) + ':' + String(m).padStart(2, '0') + (h < 12 ? ' AM' : ' PM'); };
+  let calCache = null;
+  function calEvents() {
+    const D = state.data; const hs = D.hearings || [];
+    if (calCache && calCache.h === hs && calCache.feed === D.feed && calCache.stats === state.stats) return calCache;
+    const cases = new Map(state.cases.map((c) => [c.case, c]));
+    const shortTo = new Map(); state.cases.forEach((c) => { if (/-cv-/.test(c.case) && c.yy && c.num) shortTo.set(c.yy + '-' + c.num, c.case); });
+    const ev = []; const byKey = new Map();
+    hs.forEach((h) => {
+      const cs = h.case || shortTo.get(h.case_short) || ''; const info = cases.get(cs) || {};
+      const e = { date: h.date, time: h.time || '', judge: h.judge || info.judge || '', case: cs, short: h.case_short || shortOf(cs), title: h.title || info.title || '',
+        what: h.what || 'Proceeding', room: h.room || '', text: h.text || '', src: h.src === 'court_calendar' ? 'court' : 'docket', doc: h.doc || '' };
+      const k = e.date + '|' + e.judge + '|' + (e.case || e.short || e.text);
+      const prev = byKey.get(k);
+      if (prev && !(prev.src === 'docket' && e.src === 'docket' && prev.what !== e.what)) {
+        if (prev.src === 'docket' && e.src === 'court') { const doc = prev.doc; Object.assign(prev, e, { alsoDoc: doc }); }
+        else if (e.src === 'docket') { prev.alsoDoc = e.doc; if (!prev.time) prev.time = e.time; }
+        return;
+      }
+      byKey.set(k + (prev ? '|' + e.what : ''), e); ev.push(e);
+    });
+    const A = activity(); const docketDocs = new Set(hs.filter((h) => h.src === 'docket_text').map((h) => h.case + '|' + h.doc));
+    const pending = [];
+    A.rows.forEach((r) => {
+      const first = splitEvents(r.event)[0] || '';
+      if (HELD_RE.test(first.replace(/\s*~Util.*$/i, '').trim())) {
+        ev.push({ date: r.date, time: '', entered: r.time, judge: r.judge, case: r.case, short: shortOf(r.case), title: r.title, what: first.trim(), room: '', text: cleanEvent(r.event), src: 'held', doc: r.doc });
+      }
+      if (SETTING_RE.test(r.event || '') && !docketDocs.has(r.case + '|' + r.doc)) pending.push(r);
+    });
+    const subs = d3.groups((D.motions || []).filter((m) => m.submit && m.judge), (m) => m.judge + '|' + m.submit).map(([k, list]) => {
+      const [judge, date] = k.split('|');
+      return { date, time: '', judge, case: '', short: '', title: '', what: plural(list.length, 'motion') + ' set for submission', room: '', text: list.map((m) => m.case + ' · ' + m.event).join('\n'), src: 'subs', n: list.length };
+    });
+    const all = ev.concat(subs).sort((a, b) => (a.date + (a.time || '99') + a.judge).localeCompare(b.date + (b.time || '99') + b.judge));
+    const courtDates = hs.filter((h) => h.src === 'court_calendar').map((h) => h.date).sort();
+    calCache = { h: hs, feed: D.feed, stats: state.stats, events: all, pending, courtFrom: courtDates[0] || '', courtTo: courtDates[courtDates.length - 1] || '' };
+    return calCache;
+  }
+  function calWeek() {
+    const C = state.cal; const E = calEvents();
+    const start = C.week || mondayOf(todayIso()); const end = addDays(start, 6);
+    const events = E.events.filter((e) => e.date >= start && e.date <= end && (!C.judge || e.judge === C.judge) && (C.subs || e.src !== 'subs'));
+    return { start, end, events };
+  }
+  function calChip(e, opts = {}) {
+    const S = state.stats;
+    const n = el('div', { className: 'cev src-' + e.src });
+    const tip = [e.what + (e.time ? ' · ' + fmtTime(e.time) : ''), e.title || e.case || e.short, e.room ? 'Courtroom ' + e.room : '',
+      CAL_SRC[e.src] + (e.src === 'docket' && e.doc ? ', doc ' + e.doc : '') + (e.alsoDoc ? ' · also set in doc ' + e.alsoDoc : ''), e.text && e.src !== 'subs' ? e.text.slice(0, 160) : ''].filter(Boolean);
+    n.dataset.tip = tip.join('\n');
+    if (!opts.noTime || e.src === 'held') n.append(el('span', { className: 'tm', textContent: e.src === 'held' ? (e.entered ? 'entered ' + fmtTime(e.entered) : 'minute entry') : (fmtTime(e.time) || 'time not listed') }));
+    n.append(e.what);
+    if (e.case || e.short) {
+      n.append(' ', e.case ? el('a', { className: 'cn', href: CL + '?type=r&court=laed&docket_number=' + encodeURIComponent(e.case), target: '_blank', rel: 'noopener noreferrer', textContent: e.short || e.case, title: e.title || 'Search CourtListener for this case' })
+        : el('span', { className: 'cn', textContent: e.short, style: 'color:var(--ink-2)' }));
+    }
+    if (e.src === 'subs') { const a = el('a', { className: 'cn', href: hashFor('motions', { mt: { judge: e.judge, view: 'all' } }), textContent: ' list →' }); n.append(a); }
+    return n;
+  }
+  function renderCalendar() {
+    const S = state.stats; const C = state.cal; const E = calEvents(); const W = calWeek();
+    document.title = 'Calendar · EDLA Analyzer';
+    const view = C.view || (innerWidth < 900 ? 'list' : 'week');
+    const js = $('cal-judge'); if (js.options.length < 2) js.append(new Option('All judges', ''), ...judgesAlpha().map((j) => new Option(j.name, j.code)));
+    js.value = C.judge; $('cal-subs').checked = C.subs;
+    document.querySelectorAll('#cal-view button').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.v === view)));
+    $('cal-prev').href = hashFor('calendar', { cal: { ...C, week: addDays(W.start, -7) } });
+    $('cal-next').href = hashFor('calendar', { cal: { ...C, week: addDays(W.start, 7) } });
+    $('cal-today').href = hashFor('calendar', { cal: { ...C, week: '' } });
+    $('cal-range').textContent = d3.utcFormat('%b %-d')(utc(W.start)) + ' – ' + d3.utcFormat('%b %-d, %Y')(utc(addDays(W.start, 4)));
+    $('cal-legend').replaceChildren(...['court', 'docket', 'held', 'subs'].filter((k) => k !== 'subs' || C.subs).map((k) => el('span', { className: 'ev' }, el('i', { className: 'swatch src-' + k }), CAL_SRC[k])));
+    const today = todayIso();
+    const days = d3.range(7).map((i) => addDays(W.start, i)).filter((d, i) => i < 5 || W.events.some((e) => e.date === d));
+    const codes = C.judge ? [C.judge] : judgesAlpha().map((j) => j.code);
+    const unknown = W.events.filter((e) => !S.names[e.judge]);
+    $('cal-week-wrap').hidden = view !== 'week'; $('cal-list').hidden = view !== 'list';
+    if (view === 'week') {
+      const head = el('thead', {}, el('tr', {}, el('th', { textContent: 'Judge' }), ...days.map((d) => el('th', { className: d === today ? 'today' : '', textContent: d3.utcFormat('%a %-m/%-d')(utc(d)) }))));
+      const row = (label, list, code) => el('tr', {}, el('td', {}, code ? el('a', { className: 'judge', href: judgeHref(code), textContent: label }) : el('span', { className: 'dim', textContent: label }),
+        code && sectionOf(code) ? el('div', { className: 'dim', style: 'font:11px var(--mono)', textContent: 'Sec. ' + sectionOf(code) }) : null),
+        ...days.map((d) => { const items = list.filter((e) => e.date === d); return el('td', { className: (d === today ? 'today ' : d < today ? 'past ' : '') + (items.length ? '' : 'empty-day') }, ...(items.length ? items.map(calChip) : ['—'])); }));
+      const body = el('tbody', {}, ...codes.map((c) => row(S.names[c], W.events.filter((e) => e.judge === c), c)), ...(unknown.length && !C.judge ? [row('Judge not yet known', unknown, '')] : []));
+      $('cal-week').replaceChildren(head, body);
+    } else {
+      const items = [];
+      days.forEach((d) => {
+        const list = W.events.filter((e) => e.date === d);
+        items.push(el('li', { className: 'day' }, d3.utcFormat('%A, %B %-d')(utc(d)) + (d === today ? ' · today' : ''), el('span', { textContent: list.length ? plural(list.length, 'item') : 'nothing listed' })));
+        list.forEach((e) => items.push(el('li', {}, el('span', { className: 'when', textContent: e.src === 'held' ? 'held' : (fmtTime(e.time) || '—') }),
+          el('span', { className: 'jn' }, S.names[e.judge] ? el('a', { href: judgeHref(e.judge), textContent: S.names[e.judge] }) : el('span', { className: 'dim', textContent: 'Judge not yet known' })),
+          el('span', { className: 'ch' }, calChip(e, { noTime: true })))));
+      });
+      $('cal-list').replaceChildren(...items);
+    }
+    const P = E.pending.filter((r) => !C.judge || r.judge === C.judge);
+    $('cal-pending-count').textContent = P.length ? plural(P.length, 'entry', 'entries') : '';
+    const shownP = state.calAllPending ? P : P.slice(0, 10);
+    $('cal-pending').replaceChildren(...actItems(shownP, { judge: true, empty: 'None in the last two weeks.' }),
+      ...(P.length > shownP.length ? [el('li', { className: 'none' }, el('button', { type: 'button', className: 'btn ghost', textContent: 'Show all ' + fmt.int(P.length), onclick: () => { state.calAllPending = true; renderCalendar(); } }))] : []));
+    const maxDocket = (state.data.hearings || []).filter((h) => h.src === 'docket_text').map((h) => h.date).sort().pop();
+    $('cal-note').textContent = (E.courtFrom ? `The court's calendar currently covers ${fmtShort(E.courtFrom)} to ${fmtShort(E.courtTo)}; the court notes that some proceedings are left off it. ` : 'The court\'s calendar has not been read yet. ')
+      + (maxDocket ? `Settings read from docket text reach ${fmtDate(maxDocket)}. ` : 'Settings read from docket text appear as entries are read. ')
+      + 'Weeks beyond the court\'s calendar show only proceedings set in docket text the site has read, so an empty day does not mean the judge has nothing scheduled. Held proceedings come from minute entries; times there are when the clerk entered them. Criminal matters appear only as the court\'s calendar lists them.';
+  }
+  function drawJudgeCal(code, name) {
+    const today = todayIso();
+    const up = calEvents().events.filter((e) => e.judge === code && e.date >= today && e.src !== 'subs').slice(0, 8);
+    $('j-cal-all').href = hashFor('calendar', { cal: { judge: code } });
+    $('j-cal').replaceChildren(...(up.length ? up.map((e) => el('li', {}, el('span', { className: 'when', textContent: d3.utcFormat('%a %-m/%-d')(utc(e.date)) }),
+      el('span', {}, calChip(e)))) : [el('li', {}, el('span', { className: 'none', textContent: `Nothing for Judge ${name} on the court's calendar or in docket entries read so far.` }))]));
+  }
+
   // ------------------------------------------------------------ the judges' requirements, copied from the court's website
   const LOCAL_RULES = 'https://www.laed.uscourts.gov/localrules/localrules.htm';
   const JUDGE_LIST = 'https://www.laed.uscourts.gov/judges-information/district-judges';
@@ -1212,6 +1338,11 @@
       return [head, ...finderRows().map((o) => [o.date, S.names[o.judge], o.case, o.doc, catLabel[o.cat], mcatLabel[o.mcat] || '',
         o.event, OUTCOMES[o.oc] || '', o.ocSrc || '', o.filed, o.days == null ? '' : o.days, o.pages == null ? '' : o.pages, o.hearing == null ? '' : o.hearing ? 'yes' : 'no', o.title, opinionLink(o, linkKind(o))])];
     }
+    if (which === 'cal') {
+      const C = calWeek();
+      return [['Date', 'Time', 'Judge', 'Proceeding', 'Case', 'Case name', 'Room', 'Source', 'Text'],
+        ...C.events.map((e) => [e.date, e.time, S.names[e.judge] || '', e.what, e.case || e.short, e.title, e.room, CAL_SRC[e.src], e.text])];
+    }
     if (which === 'act') {
       return [['Date', 'Time', 'Type', 'Event', 'Case', 'Doc', 'Case name', 'Judge'],
         ...actFilter(activity()).filter((r) => !state.act.kind || r.kind === state.act.kind).map((r) => [r.date, r.time, ACT_LABEL[r.kind], cleanEvent(r.event), r.case, r.doc, r.title, S.names[r.judge] || r.judge])];
@@ -1227,7 +1358,7 @@
   function downloadCsv(which) {
     if (!state.stats) return;
     const text = csvRows(which).map((row) => row.map((v) => { const s = v == null ? '' : String(v); return /[",\n]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s; }).join(',')).join('\n');
-    const name = which === 'op' ? 'opinions' : which === 'act' ? 'activity' : which === 'mt' ? 'motions' : which === 'mj' ? 'motions-by-judge' : 'court-' + state.view;
+    const name = which === 'op' ? 'opinions' : which === 'cal' ? 'calendar' : which === 'act' ? 'activity' : which === 'mt' ? 'motions' : which === 'mj' ? 'motions-by-judge' : 'court-' + state.view;
     const a = el('a', { href: URL.createObjectURL(new Blob([text + '\n'], { type: 'text/csv' })), download: `edla-${name}-${state.stats.through}.csv` });
     document.body.append(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 1000);
   }
@@ -1293,7 +1424,7 @@
   }
 
   // ------------------------------------------------------------ render
-  const RENDER = { judges: renderJudges, judge: renderJudge, compare: renderCompare, activity: renderActivity, opinions: renderOpinions, motions: renderMotions, rules: renderRules, court: renderCourt, log: renderLog };
+  const RENDER = { judges: renderJudges, judge: renderJudge, compare: renderCompare, activity: renderActivity, calendar: renderCalendar, opinions: renderOpinions, motions: renderMotions, rules: renderRules, court: renderCourt, log: renderLog };
   function render() {
     const S = state.stats;
     if (state.page === 'judge' && !S.names[state.judge]) state.page = 'judges';
@@ -1319,11 +1450,11 @@
   }
 
   async function load() {
-    const names = ['opinions', 'orders', 'judges', 'calendar', 'runs', 'outcomes', 'motions', 'judge_pages', 'feed'];
+    const names = ['opinions', 'orders', 'judges', 'calendar', 'runs', 'outcomes', 'motions', 'judge_pages', 'feed', 'hearings'];
     $('status').textContent = 'Loading the docket data…';
     try {
       const files = await Promise.all(names.map((n) => fetch('data/' + n + '.json', { cache: 'no-cache' })
-        .then((r) => { if (!r.ok) { if (n === 'outcomes' || n === 'motions' || n === 'feed') return []; if (n === 'judge_pages') return { judges: [] }; throw new Error(n + ' ' + r.status); } return r.json(); })));
+        .then((r) => { if (!r.ok) { if (n === 'outcomes' || n === 'motions' || n === 'feed' || n === 'hearings') return []; if (n === 'judge_pages') return { judges: [] }; throw new Error(n + ' ' + r.status); } return r.json(); })));
       state.data = Object.fromEntries(names.map((n, i) => [n, files[i]]));
       state.cases = buildCases(state.data);
       state.pages = Object.fromEntries(((state.data.judge_pages || {}).judges || []).map((r) => [r.code, r]));
@@ -1368,6 +1499,10 @@
   $('mt-q').addEventListener('input', (e) => remotion({ q: e.target.value }));
   $('mt-more').addEventListener('click', () => { state.mt.limit += 200; renderMotions(); });
   document.querySelectorAll('#oc-seg button').forEach((b) => b.addEventListener('click', () => { state.ocGroup = b.dataset.g; renderCourt(); }));
+  const recal = (patch) => { Object.assign(state.cal, patch); if (state.stats) { renderCalendar(); writeHash(); } };
+  $('cal-judge').addEventListener('change', (e) => recal({ judge: e.target.value }));
+  $('cal-subs').addEventListener('change', (e) => recal({ subs: e.target.checked }));
+  document.querySelectorAll('#cal-view button').forEach((b) => b.addEventListener('click', () => recal({ view: b.dataset.v })));
   const react = (patch) => { Object.assign(state.act, patch, { limit: 300 }); if (state.stats) { renderActivity(); writeHash(); } };
   $('act-q').addEventListener('input', (e) => react({ q: e.target.value }));
   $('act-judge').addEventListener('change', (e) => react({ judge: e.target.value }));
@@ -1375,10 +1510,17 @@
   $('act-more').addEventListener('click', () => { state.act.limit += 500; renderActivity(); });
   // While the Activity page is open, re-read the feed every five minutes so new entries appear without a reload.
   setInterval(async () => {
-    if (state.page !== 'activity' || document.visibilityState !== 'visible' || !state.data) return;
+    if (!['activity', 'calendar'].includes(state.page) || document.visibilityState !== 'visible' || !state.data) return;
+    if (state.page === 'calendar') {
+      try {
+        const [h, feed] = await Promise.all(['hearings', 'feed'].map((n) => fetch('data/' + n + '.json', { cache: 'no-cache' }).then((r) => (r.ok ? r.json() : null))));
+        if (h) state.data.hearings = h; if (feed) state.data.feed = feed; actCache = null; calCache = null; renderCalendar();
+      } catch (e) { /* keep what is on screen */ }
+      return;
+    }
     try {
       const feed = await fetch('data/feed.json', { cache: 'no-cache' }).then((r) => (r.ok ? r.json() : null));
-      if (feed && JSON.stringify(feed[0]) !== JSON.stringify((state.data.feed || [])[0])) { state.data.feed = feed; actCache = null; }
+      if (feed && JSON.stringify(feed[0]) !== JSON.stringify((state.data.feed || [])[0])) { state.data.feed = feed; actCache = null; calCache = null; }
       state.actChecked = new Date(); renderActivity();
     } catch (e) { /* keep what is on screen */ }
   }, 5 * 60 * 1000);

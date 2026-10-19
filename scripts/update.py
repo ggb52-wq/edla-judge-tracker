@@ -31,6 +31,7 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 import govinfo
+import hearings
 from outcome_text import classify, motion_doc
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -318,6 +319,41 @@ def update_feed(feed: list[dict], items: list[dict], case_judge: dict, now: dt.d
             r["judge"] = case_judge[r["case"]]
     feed.sort(key=lambda r: (r["at"], r["case"], int(r["doc"]) if r["doc"].isdigit() else 0), reverse=True)
     return feed[:FEED_MAX]
+
+
+def update_hearings(old: list[dict], cl_entries: dict, case_judge: dict, judges: list[dict], rows: list[dict],
+                    now: dt.datetime, note: list[str]) -> list[dict]:
+    """data/hearings.json for the Calendar page: the court's seven-day calendar (one small page, read every pass) and
+    proceedings set in the docket text CourtListener returned this run (no extra calls)."""
+    today = now.date()
+    try:
+        cal_rows, cal_dates = hearings.parse_court_calendar(http_get(hearings.CALENDAR_URL).decode("utf-8", "replace"), judges)
+        note.append(f"court calendar {len(cal_rows)} proceedings over {len(cal_dates)} days")
+    except Exception as e:  # noqa: BLE001 - keep the last copy when the court's site is down
+        cal_rows, cal_dates = [], []
+        note.append(f"court calendar unavailable ({type(e).__name__})")
+    # The calendar names cases in short form ("24-1933"); match it to a civil case the data knows.
+    short = {}
+    for r in rows:
+        m = re.match(r"\d:(\d\d)-cv-0*(\d+)$", r.get("case", ""))
+        if m:
+            short.setdefault(f"{m.group(1)}-{m.group(2)}", r["case"])
+    for r in cal_rows:
+        r["case"] = short.get(r["case_short"], "")
+    docket_rows = []
+    for (case, doc), e in cl_entries.items():
+        if e.get("kind") != "cv" or not e.get("text"):
+            continue
+        for x in hearings.settings_from_text(e["text"], today):
+            docket_rows.append({**x, "judge": e.get("judge") or case_judge.get(case, ""), "case": case, "doc": doc,
+                                "title": e.get("title", ""), "text": e["text"][:300], "src": "docket_text", "seen": today.isoformat()})
+    if docket_rows:
+        note.append(f"{len(docket_rows)} proceedings set in docket text")
+    merged = hearings.merge(old, cal_rows, cal_dates, docket_rows, today)
+    for r in merged:  # judges learned since the row was written
+        if not r.get("judge") and case_judge.get(r.get("case", "")):
+            r["judge"] = case_judge[r["case"]]
+    return merged
 
 
 def doc_url(path: str | None) -> str:
@@ -790,6 +826,8 @@ def main() -> int:
     motions.sort(key=lambda m: (m["date"], m["case"], int(m["doc"]) if m["doc"].isdigit() else 0))
     save("motions", motions)
     save("feed", update_feed(load("feed") if (DATA / "feed.json").exists() else [], rss_civil, case_judge, now))
+    save("hearings", update_hearings(load("hearings") if (DATA / "hearings.json").exists() else [], cl_entries, case_judge,
+                                     judges, orders + opinions + motions, now, note))
     (DATA / "link_checks.json").write_text(json.dumps(dict(sorted(link_checks.items())), indent=0) + "\n")
     print(f"orders +{len(added_orders)}, opinions +{len(added_opinions)}, pending {len(new_pending)}; " + "; ".join(note))
     return 0
