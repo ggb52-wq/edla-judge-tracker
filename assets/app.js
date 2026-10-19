@@ -12,7 +12,7 @@
   const later = (a, b) => (a > b ? a : b);
   const median = (v) => { const s = v.slice().sort((a, b) => a - b); const m = s.length / 2; return s.length ? (s.length % 2 ? s[Math.floor(m)] : (s[m - 1] + s[m]) / 2) : 0; };
   const css = (name) => getComputedStyle(document.documentElement).getPropertyValue(name).trim();
-  const heat = (v) => d3.interpolateRgb('#eef2f7', '#4f7fb3')(Math.max(0, Math.min(1, (v - 0.05) / 0.35)));
+  const heat = (v) => d3.interpolateRgb('#eef2f7', '#5b87bf')(Math.max(0, Math.min(1, (v - 0.05) / 0.35)));
   const $ = (id) => document.getElementById(id);
   const el = (tag, props, ...kids) => { const n = document.createElement(tag); Object.assign(n, props || {}); n.append(...kids.flat().filter((k) => k != null)); return n; };
   const store = { get: (k) => { try { return localStorage.getItem(k); } catch (e) { return null; } }, set: (k, v) => { try { localStorage.setItem(k, v); } catch (e) { /* storage unavailable */ } } };
@@ -169,8 +169,6 @@
       const op = opinions[i];
       return { name: j.name, code: j.code, start: s, working_days: wd, orders: R.length, per_day: wd ? R.length / wd : 0, cases,
         per_case: cases ? R.length / cases : 0,
-        early: timed.length ? timed.filter((o) => o.time < '10:00').length / timed.length : 0,
-        late: timed.length ? timed.filter((o) => o.time >= '17:00').length / timed.length : 0,
         last10: R.filter((o) => o.date >= last10).length, mon: share(1), tue: share(2), wed: share(3), thu: share(4), fri: share(5),
         text_orders: textOrders, motion_orders: motionOrders,
         written_share: R.length ? op.written_window / R.length : 0, written_motion_share: motionOrders ? Math.min(1, op.written_motions / motionOrders) : 0 };
@@ -196,7 +194,7 @@
     const rate = (r, cat) => (r.cats[cat].known >= FEW ? r.cats[cat].granted / r.cats[cat].known : null);
     const medOf = (vals, min = 1) => { const v = vals.filter((x) => x != null); return v.length >= min ? median(v) : null; };
     return {
-      through, names, opinions, orders, weekly, recent, monthly, hours, since: { orders: orStart, opinions: opStart },
+      through, names, opinions, orders, weekly, recent, monthly, hours, since: { orders: orStart, opinions: opStart }, workingDays: allDays.length,
       totals: {
         orders: sum(orders, 'orders'), perDay: allDays.length ? sum(orders, 'orders') / allDays.length : 0,
         opinions: sum(opinions, 'total'), merits: sum(opinions, 'merits'), motions: sum(opinions, 'all_n'), known: sum(opinions, 'all_known'),
@@ -232,31 +230,29 @@
   const TABLES = {
     'or-table': { src: 'orders', sort: { k: 'per_day', dir: -1 }, pick: true, cols: [
       { k: 'name', label: 'Judge' },
-      { k: 'working_days', label: 'Working days', f: fmt.int },
-      { k: 'orders', label: 'Total orders', f: fmt.int, bar: true, sum: true },
-      { k: 'per_day', label: 'Orders per working day', f: fmt.d1, bar: true },
-      { k: 'cases', label: 'Cases with orders', f: fmt.int, sum: true },
-      { k: 'per_case', label: 'Orders per case', f: fmt.d1 },
-      { k: 'early', label: 'Entered before 10 AM', f: fmt.pct0 },
-      { k: 'late', label: 'Entered after 5 PM', f: fmt.pct0 },
-      { k: 'last10', label: 'Orders, last 10 working days', f: fmt.int, bar: true, sum: true },
-      { k: 'spark', label: 'Weekly trend', spark: true },
+      { k: 'working_days', label: 'Days', f: fmt.int, title: 'Working days in the period: weekdays other than court holidays, from the judge\'s first day on the bench' },
+      { k: 'orders', label: 'Orders', f: fmt.int, bar: true, sum: true, title: 'Civil orders entered in the period' },
+      { k: 'per_day', label: 'Per day', f: fmt.d1, bar: true, title: 'Orders per working day' },
+      { k: 'cases', label: 'Cases', f: fmt.int, sum: true, title: 'Distinct cases with at least one order' },
+      { k: 'per_case', label: 'Per case', f: fmt.d1, title: 'Orders per case with orders' },
+      { k: 'last10', label: 'Last 10 days', f: fmt.int, bar: true, sum: true, title: 'Orders in the last 10 working days' },
+      { k: 'spark', label: 'Trend', spark: true, title: 'Orders per working day, week by week' },
     ] },
     'op-table': { src: 'opinions', sort: { k: 'merits_month', dir: -1 }, pick: true, cols: [
       { k: 'name', label: 'Judge' },
-      { k: 'working_days', label: 'Working days', f: fmt.int },
-      { k: 'total', label: 'Total opinions', f: fmt.int, bar: true, sum: true, link: () => ({}) },
-      { k: 'rr', label: 'Magistrate R&Rs', f: fmt.int, sum: true, link: () => ({ type: 'rr' }) },
-      { k: 'district', label: 'District judge opinions', f: fmt.int, sum: true },
-      { k: 'cases', label: 'Cases with opinions', f: fmt.int, sum: true },
-      { k: 'days_with', label: 'Days with opinions', f: fmt.int },
-      { k: 'per_week', label: 'Opinions per week', f: fmt.d2, bar: true },
-      { k: 'merits', label: 'Merits rulings', f: fmt.int, bar: true, sum: true, link: () => ({ type: 'merits' }) },
-      { k: 'merits_month', label: 'Merits per month', f: fmt.d2, bar: true },
-      { k: 'r12', label: 'Rule 12', f: fmt.int, sum: true, link: () => ({ type: 'r12' }) },
-      { k: 'r56', label: 'Rule 56', f: fmt.int, sum: true, link: () => ({ type: 'r56' }) },
-      { k: 'gap', label: 'Longest gap (days)', f: fmt.int },
-      { k: 'med_pages', label: 'Median pages', f: (v) => (v ? fmt.med(v) : '—'), title: 'Median PDF length of the opinions with a page count on file' },
+      { k: 'working_days', label: 'Days', f: fmt.int, title: 'Working days in the period' },
+      { k: 'total', label: 'Opinions', f: fmt.int, bar: true, sum: true, link: () => ({}), title: 'Entries on PACER\'s Written Opinions Report' },
+      { k: 'rr', label: 'R&Rs', f: fmt.int, sum: true, link: () => ({ type: 'rr' }), title: 'Magistrate judges\' reports and recommendations in the judge\'s cases' },
+      { k: 'district', label: 'By judge', f: fmt.int, sum: true, title: 'Opinions other than magistrate R&Rs' },
+      { k: 'cases', label: 'Cases', f: fmt.int, sum: true, title: 'Distinct cases with an opinion' },
+      { k: 'days_with', label: 'Days with', f: fmt.int, title: 'Calendar days on which an opinion was entered' },
+      { k: 'per_week', label: 'Per week', f: fmt.d2, bar: true, title: 'Opinions by the judge per five working days' },
+      { k: 'merits', label: 'Merits', f: fmt.int, bar: true, sum: true, link: () => ({ type: 'merits' }), title: 'Rule 12, Rule 56, and trial or post-trial rulings' },
+      { k: 'merits_month', label: 'Merits / mo.', f: fmt.d2, bar: true, title: 'Merits rulings per 21 working days' },
+      { k: 'r12', label: 'Rule 12', f: fmt.int, sum: true, link: () => ({ type: 'r12' }), title: 'Rulings on motions to dismiss or for judgment on the pleadings' },
+      { k: 'r56', label: 'Rule 56', f: fmt.int, sum: true, link: () => ({ type: 'r56' }), title: 'Rulings on motions for summary judgment' },
+      { k: 'med_pages', label: 'Pages', f: (v) => (v ? fmt.med(v) : '—'), title: 'Median PDF length of opinions with a page count on file',
+        hide: (all) => all.filter((r) => r.n_pages >= FEW).length < 8 },
     ] },
     'dow-table': { src: 'orders', sort: { k: 'name', dir: 1 }, pick: true, cols: [
       { k: 'name', label: 'Judge' },
@@ -290,7 +286,8 @@
     onclick: (e) => { e.stopPropagation(); goFinder(preset, judge); } });
 
   function drawTable(id) {
-    const t = TABLES[id]; const s = t.sort; const rows = tableRows(id); const all = state.stats[t.src];
+    const T = TABLES[id]; const s = T.sort; const rows = tableRows(id); const all = state.stats[T.src];
+    const t = { ...T, cols: T.cols.filter((c) => !(c.hide && c.hide(all))) };  // columns the data cannot fill yet stay hidden
     const table = $(id);
     const max = Object.fromEntries(t.cols.filter((c) => c.bar).map((c) => [c.k, d3.max(all, (r) => r[c.k]) || 1]));
     const head = el('thead');
@@ -346,7 +343,7 @@
       return [head, ...finderRows().map((o) => [o.date, state.stats.names[o.judge], o.case, o.doc, catLabel[o.cat], mcatLabel[o.mcat] || '',
         o.event, OUTCOMES[o.oc] || '', o.ocSrc || '', o.filed, o.days == null ? '' : o.days, o.pages == null ? '' : o.pages, o.hearing == null ? '' : o.hearing ? 'yes' : 'no', o.title, opinionLink(o, linkKind(o))])];
     }
-    const t = TABLES[id]; const cols = t.cols.filter((c) => !c.spark);
+    const t = TABLES[id]; const cols = t.cols.filter((c) => !c.spark && !(c.hide && c.hide(state.stats[t.src])));
     return [cols.map((c) => (c.group ? c.group + ': ' : '') + c.label),
       ...tableRows(id).map((r) => cols.map((c) => (typeof r[c.k] === 'number' ? +r[c.k].toFixed(4) : r[c.k])))];
   }
@@ -570,14 +567,16 @@
     if (F.oc === 'rest') chips.push(['Outcome: mixed, moot, or other', () => { F.oc = ''; }]);
     $('op-chips').replaceChildren(...chips.map(([label, clear]) => el('span', { className: 'fchip' }, label, el('button', { type: 'button', textContent: '×', title: 'Remove this filter', onclick: () => { clear(); drawFinder(); } }))));
     const rows = finderRows(); const shown = rows.slice(0, state.finderLimit);
-    const cols = ['Date', 'Judge', 'Case · doc', 'Ruling', 'Outcome', 'Days to ruling', 'Pages', 'Case name'].concat(state.editor ? ['Record'] : []);
+    // Columns with nothing to show for this list stay hidden rather than filling with dashes.
+    const hasDays = rows.some((o) => o.days != null); const hasPages = rows.some((o) => o.pages != null);
+    const cols = ['Date', 'Judge', 'Case · doc', 'Ruling', 'Outcome'].concat(hasDays ? ['Days to ruling'] : [], hasPages ? ['Pages'] : [], ['Case name'], state.editor ? ['Record'] : []);
     const head = el('thead', {}, el('tr', {}, ...cols.map((c) => el('th', { textContent: c }))));
     const body = el('tbody', {}, ...shown.map((o) => {
       const cells = [el('td', { textContent: fmtDate(o.date) }), el('td', { className: 'txt', textContent: S.names[o.judge] }), el('td', { className: 'txt' }, ...caseLink(o)),
-        el('td', { className: 'left', textContent: o.event }), el('td', { className: 'txt' }, outcomePill(o)),
-        el('td', { className: o.days == null ? 'dim' : '', textContent: o.days == null ? '—' : fmt.int(o.days), title: o.filed ? 'Motion filed ' + fmtDate(o.filed) : 'Motion filing date not on file' }),
-        el('td', { className: o.pages == null ? 'dim' : '', textContent: o.pages == null ? '—' : fmt.int(o.pages), title: o.pages == null ? 'Page count not on file' : 'Pages in the PDF' }),
-        el('td', { className: 'left', textContent: o.title })];
+        el('td', { className: 'left', textContent: o.event }), el('td', { className: 'txt' }, outcomePill(o))];
+      if (hasDays) cells.push(el('td', { className: o.days == null ? 'dim' : '', textContent: o.days == null ? '—' : fmt.int(o.days), title: o.filed ? 'Motion filed ' + fmtDate(o.filed) : 'Motion filing date not on file' }));
+      if (hasPages) cells.push(el('td', { className: o.pages == null ? 'dim' : '', textContent: o.pages == null ? '—' : fmt.int(o.pages), title: o.pages == null ? 'Page count not on file' : 'Pages in the PDF' }));
+      cells.push(el('td', { className: 'left', textContent: o.title }));
       if (state.editor) cells.push(el('td', { className: 'txt' }, el('a', { href: recordLink(o), target: '_blank', rel: 'noopener noreferrer', textContent: o.oc ? 'Correct' : 'Record' })));
       return el('tr', {}, ...cells);
     }));
@@ -735,7 +734,8 @@
   // ------------------------------------------------------------ render
   const SHEETS = {
     overview: () => { drawTiles(); drawProfile(); weeklyChart(); monthlyChart(); },
-    orders: () => { drawTable('or-table'); drawTable('dow-table'); barChart('c-perday', state.stats.orders, 'per_day', fmt.d1, 'Orders per working day', state.stats.totals.medPerDay); hoursChart(); },
+    orders: () => { drawTable('or-table'); drawTable('dow-table'); barChart('c-perday', state.stats.orders, 'per_day', fmt.d1, 'Orders per working day', state.stats.totals.medPerDay);
+      $('dow-days').textContent = fmt.int(state.stats.workingDays); if ($('curio-hours').open) hoursChart(); },
     opinions: () => { drawTable('op-table'); barChart('c-merits', state.stats.opinions, 'merits_month', fmt.d2, 'Merits rulings per month', state.stats.totals.medMerits); mixChart(); },
     outcomes: () => { drawTable('oc-table'); outcomeChart(); },
     finder: drawFinder,
@@ -818,6 +818,7 @@
   $('pl-type').addEventListener('change', (e) => { state.pl.type = e.target.value; drawProfileList(); });
   ['cmp-1', 'cmp-2'].forEach((id, i) => $(id).addEventListener('change', (e) => { state.compare[i] = e.target.value; update(false); }));
   document.querySelectorAll('#oc-seg button').forEach((b) => b.addEventListener('click', () => { state.ocGroup = b.dataset.g; outcomeChart(); }));
+  $('curio-hours').addEventListener('toggle', () => { if ($('curio-hours').open && state.stats) hoursChart(); });
   document.querySelectorAll('[data-csv]').forEach((b) => b.addEventListener('click', () => state.stats && downloadCsv(b.dataset.csv)));
   Object.keys(TABLES).forEach(wireTable);
   const refind = () => { state.finderLimit = 100; if (state.stats) drawFinder(); };
