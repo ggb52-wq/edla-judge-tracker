@@ -54,6 +54,9 @@ DOCKET_LOOKUP = {"next": None, "results": [
     {"docketNumber": "2:26-cv-09005", "docket_id": 777, "assignedTo": "Eldon E. Fallon", "caseName": "Eta v. Theta", "recap_documents": []}]}
 
 
+OPINION_QUERIES = []   # the written-opinion queries the updater sent
+
+
 def fake_get(url, headers=None, timeout=45):
     if url.startswith(update.RSS_URL):
         return RSS
@@ -72,6 +75,7 @@ def fake_get(url, headers=None, timeout=45):
                                   "IT IS FURTHER ORDERED that the Motion for Oral Argument is DENIED AS MOOT."}] if hit else []
         return json.dumps({"next": None, "results": results}).encode()
     if "recap-documents" in url:
+        OPINION_QUERIES.append(urllib.parse.parse_qs(urllib.parse.urlparse(url).query))
         return json.dumps(RECAP_DOCS).encode()
     if "docket_id" in url:
         return json.dumps(DOCKET_LOOKUP).encode()
@@ -170,6 +174,13 @@ class UpdateTest(unittest.TestCase):
         self.assertNotIn(("2:26-cv-09005", "8"), outcomes)                               # no text yet
         self.assertEqual((outcomes[("2:26-cv-09003", "30")]["motion_doc"], outcomes[("2:26-cv-09003", "30")]["motion_filed"]), ("25", "2026-09-02"))
         self.assertEqual((outcomes[("2:26-cv-01880", "6")]["motion_doc"], outcomes[("2:26-cv-01880", "6")]["motion_filed"]), ("4", "2026-10-01"))
+        # Opinions are found by when CourtListener marked them free on PACER, looking back past the window, because
+        # it marks them the morning after filing, after the window may have moved on (Tran, doc 378, Oct. 19-20, 2026).
+        q = OPINION_QUERIES[-1]
+        self.assertNotIn("date_created__gte", q)
+        self.assertEqual(q["order_by"], ["date_modified"])
+        window = next(r for r in json.loads((ROOT / "data/calendar.json").read_text()) if r["kind"] == "through")["date"]
+        self.assertEqual(q["date_modified__gte"][0][:10], (update.dt.date.fromisoformat(window) - update.dt.timedelta(days=update.OPINION_LOOKBACK_DAYS)).isoformat())
         status = json.loads((self.tmp / "data/status.json").read_text())       # the check time the site shows
         self.assertEqual(status["checked"], runs[-1]["at"])
         self.assertEqual((status["rss_items"], status["searched"]), (RSS.count(b"<item>"), runs[-1]["at"]))
