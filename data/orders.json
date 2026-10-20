@@ -1910,5 +1910,7 @@
 {"date":"2026-10-20","time":"15:58","judge":"DJP","case":"2:22-cv-01271","doc":"222","title":"Hutchinson-Harper, et al v. Jefferson Parish School Board, et al","event":"Terminate Hearings","src":"rss"},
 {"date":"2026-10-20","time":"15:58","judge":"CJB","case":"2:25-cv-02452","doc":"18","title":"Bradley v. Bayou Automotive Group, L.L.C.","event":"Order Dismissing Case","src":"rss"},
 {"date":"2026-10-20","time":"16:01","judge":"CJB","case":"2:26-cv-01538","doc":"9","title":"Lucineo v. GPS Hospitality Partners, IV, LLC","event":"Order Dismissing Case","src":"courtlistener"},
-{"date":"2026-10-20","time":"16:01","judge":"WJC","case":"2:26-cv-01920","doc":"19","title":"Montelongo v. PBF Holding Company LLC","event":"Order on Motion for Leave to File","src":"courtlistener"}
+{"date":"2026-10-20","time":"16:01","judge":"WJC","case":"2:26-cv-01920","doc":"19","title":"Montelongo v. PBF Holding Company LLC","event":"Order on Motion for Leave to File","src":"courtlistener"},
+{"date":"2026-10-20","time":"16:54","judge":"LMA","case":"2:26-cv-00289","doc":"49","title":"Jones v. W&T Offshore Inc et al","event":"Set Hearings","src":"rss"},
+{"date":"2026-10-20","time":"16:56","judge":"EEF","case":"2:26-cv-00390","doc":"19","title":"Cox v. Belle Chasse Marine Transportation, LLC et al","event":"Set Hearings","src":"rss"}
 ]
