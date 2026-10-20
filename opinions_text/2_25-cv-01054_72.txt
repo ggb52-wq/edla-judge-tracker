@@ -1,0 +1,1680 @@
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+O.E., BY AND THROUGH HIS
+PARENTS, C.E AND C.E.
+CIVIL ACTION
+
+VERSUS NO. 25-1054
+
+ADVOCATES FOR ARTS-BASED
+EDUCATION, D/B/A THE WILLOW
+SCHOOL
+SECTION: “P” (5)
+
+ORDER AND REASONS
+  Before the Court is a motion to dismiss (R. Doc. 30) filed by Defendant, Advocates for
+Arts-Based Education, and a motion for a preliminary injunction (R.  Doc. 16) filed by Plaintiff,
+O.E.1 This action arises out of allegations that a public charter school is using an admissions
+assessment to discriminate against students with intellectual disabilities. For the following reasons,
+Defendant’s motion to dismiss is GRANTED, and Plaintiff’s motion for preliminary injunction is
+DENIED.
+I. BACKGROUND
+A. Relevant Procedural History
+In early February 2025, about four months prior to the commencement of this action in
+federal court, Plaintiff, O.E., filed a Request for a Due Process Hearing with the Louisiana Division
+of Administrative Law, challenging The Willow School’s (“Willow”)  “blanket refusal to accept
+students with intellectual disabilities.” 2 The Request sought a due process hearing to establish
+violations of the Individuals with Disabilities Education Act (“IDEA”), Americans with
+Disabilities Act (“ADA”), and Louisiana Human Rights Act (“LHRA”) for Willow’s use of an
+
+1 O.E. is a minor and brings this action by and through his parents, C.E. and C.E., so the  docket lists three plaintiffs.
+For ease of reference, however, the Court simply refers to the plaintiff party in the singular as O.E.
+2 R. Doc. 1 ¶ 120.
+Case 2:25-cv-01054-DJP-MBN     Document 72     Filed 03/17/26     Page 1 of 54
+2
+
+academic achievement assessment as an admissions criterion  and “because its lower -school
+campus is not wheelchair accessible.”3 Among other relief, the Request sought an order “barring”
+Willow from using the assessment  as an admissions criterion .4 Willow moved to dismiss the
+request,5 and the Administrative Law Judge (“ALJ”) granted the motion, concluding that the issues
+were “outside the jurisdiction of th[e] tribunal” because, under the Louisiana Administrative Code,
+a Request for Due Process Hearing may only be sought on certain matters relating to the
+identification, evaluation, or educational placement of a student with a disability, or to the
+provision of a free appropriate public education (“FAPE”) to the student with a disability.6 And
+the ALJ found that O.E.’s “allegations of systemic discriminatory admissions practices, as well as
+issues under the ADA and the LHRA” were “ unrelated to the identification, evaluation, or
+educational placement, or the provision of FAPE to [O.E.].” 7 The ALJ’s order notified O.E. that
+he had 90 days to seek review in a civil action, to which this action followed.8
+O.E. brought this action in federal court in May 2025, but it did not pick up speed until
+some months later when O.E. filed a motion for partial summary judgment.9 This Court denied the
+motion, without prejudice.10 Although procedurally proper under Federal Rule of Civil Procedure
+56(b), it violated this Section’s standard scheduling order, which requires leave of court for the
+filing of motions of this type before the close of discovery. 11 About one week later, O.E. filed a
+motion for preliminary injunction. 12 Willow filed an opposition in response 13 and two days later
+
+3 R. Doc. 30-3 at 14.
+4 Id. at 14–15.
+5 R. Doc. 1 ¶ 121; see also R. Doc. 30-4 at 1.
+6 R. Doc. 30-4 at 2–3; see also R. Doc. 1 ¶ 121.
+7 R. Doc. 30-4 at 3; see also R. Doc. 1 ¶ 121.
+8 R. Doc. 30-4 at 6; see also R. Doc. 1 ¶ 122.
+9 R. Doc. 11.
+10 R. Doc. 15.
+11 Id.
+12 R. Doc. 16.
+13 R. Doc. 27.
+Case 2:25-cv-01054-DJP-MBN     Document 72     Filed 03/17/26     Page 2 of 54
+3
+
+filed a motion to dismiss the case. 14 O.E. then filed a motion to renew the motion for partial
+summary judgment, which remains pending.15 In December 2025, this Court heard oral argument
+on the motion to dismiss 16 and then, some days later, held an evidentiary hearing on the motion
+for preliminary injunction.17
+O.E. asserts that Willow, by using an academic achievement assessment  as a criterion in
+its admissions process, (1) violates Title II of the ADA; (2) violates O.E.’s right to a free
+appropriate public education under the IDEA; (3) violates the LHRA; and (4) commits negligence
+under state law.18 O.E. also claims that Willow’s lower -school campus is not fully wheelchair
+accessible.19 O.E. seeks monetary and injunctive relief, as well as attorney’s fees and costs.20
+B. Charter Schools
+At the center of this case is a public charter school in a school district comprised almost
+entirely of charter schools , so some legal background on charter schools is necessary . Charter
+schools are a relatively recent phenomenon in the education space. 21 They are publicly funded
+educational institutions that operate pursuant to a contract, or “charter,” with a state, school district,
+or some other public entity. 22 Because they operate through this separate agreement rather than
+under the standard rules and regulations of a school district, they typically have more autonomy in
+areas such as curriculum, instruction, and budget , much like traditional private schools. 23
+
+14 R. Doc. 30.
+15 R. Doc. 32.
+16 R. Doc. 66.
+17 R. Doc. 67.
+18 R. Doc. 1 ¶¶ 143–63.
+19 Id. ¶¶ 139–42.
+20 Id. at 20.
+21 Robin Cheryl Miller, Annotation, V alidity, Construction, and Application of Statute or Regulation Governing § 2
+Charter Schools , 78 A.L.R.5th 533 (Originally published in 2000) (“Charter schools have become the public
+educational innovation of the 1990s.”).
+22 Id.
+23 See, e.g., La. Stat. Ann. § 17:3996(A) (“Notwithstanding any state law, rule, or regulation to the contrary and except
+as may be otherwise specifically provided for in an approved charter, a charter school established and operated in
+Case 2:25-cv-01054-DJP-MBN     Document 72     Filed 03/17/26     Page 3 of 54
+4
+
+Accordingly, charter schools are often tools of innovation and provide families with greater
+educational choice within the public school system.24
+Given that charter schools arise from contracts with state entities, states have enacted
+statutory schemes governing the creation and legal status of charter schools. 25 Congress has not
+enacted a comprehensive federal statutory scheme governing the creation or legal status of charter
+schools, so charter schools remain creatures of state law. That said, as public education institutions
+and (often) federal funding recipients, charter schools  are subject to federal laws governing civil
+rights, special education, and constitutional protections, though the specific implementation of
+these laws may vary based on the state’s charter school statutory framework.
+The state statutory scheme relevant here is Louisiana’s charter school law .26 Louisiana
+Public Charter School Law defines charter school as “an independent public school that provides
+a program of elementary or secondary education, or both, . . . to provide a learning environment
+that will improve pupil achievement.”27 The statute seeks to advance several goals , including
+“increas[ing] school choice options throughout the state”; “[e]ncourag[ing] the use of different and
+innovative teaching methods, educational models, and a variety of governance, management, and
+
+accordance with the provisions of this Chapter and its approved charter and the school’s officers and employees shall
+be exempt from all rules and regulations of the state board and those of any local school board that are applicable to
+public schools and to public school officers and employees except for the following rules and regulations otherwise
+applicable to public schools . . . .”). See also Voices for Int'l Bus. & Educ., Inc. v. Nat'l Lab. Rels. Bd. , 905 F.3d 770,
+774 (5th Cir. 2018) (“ One of the perceived virtues, if not the virtue, of charter schools is that a lack of political
+oversight gives them freedom to experiment.”).
+24 See, e.g., La. Stat. Ann. § 17:3972(A) (“It is the intent of the legislature in enacting this Chapter to authorize school
+choice options for parents, teachers, and pupils through the creation of innovative kinds of independent public charter
+schools.”); Del. Code Ann. tit. 14, § 501 (West) (referring to “independent ‘charter’ schools” when stating that “[t]his
+chapter is intended to . . . encourage the use of different and innovative or proven school environments and teaching
+and learning methods; provide parents and students with measures of improved school and student performance and
+greater opportunities in choosing public schools . . . .”); Mass. Gen. Laws Ann. ch. 71, § 89(b) (West) (“The purposes
+of establishing charter schools are: (i) to stimulate the development of innovative programs within public education . . .
+(iii) to provide parents and students with greater options in selecting schools within and outside their school
+districts . . . .”).
+25 As of 2002, 37 states had some type of charter school law.  See Zelman v. Simmons-Harris, 536 U.S. 639, 683 n.9
+(2002) (Thomas, J., concurring).
+26 See La. Stat. Ann. §§ 17:3971–4002.6.
+27 Id. § 17:3973(2)(a).
+Case 2:25-cv-01054-DJP-MBN     Document 72     Filed 03/17/26     Page 4 of 54
+5
+
+administrative structures”; and “[i] ncreas[ing] learning opportunities and access to quality
+education for pupils.”28
+Louisiana’s statutory scheme  provides for five “types” of charter schools. 29 Although
+creation of a charter school depends on its “type,” generally, charter schools in the State are created
+pursuant to a performance-based contract, or charter, between a nonprofit corporation and the State
+Board of Elementary and Secondary Education or the local school board. 30 That contract
+establishes, among other things, the school’s mission and educational model ; “[a]dmission
+requirements, if any, that are consistent with the school’s role, scope, and mission” ; and
+accountability measures.31
+Consistent with the statute ’s purpose, charter schools in the State enjoy significant
+operational flexibility, including authority over curriculum and instructional methods, budgeting
+and finances, and personnel decisions. 32 As to enrollment, charter schools are generally required
+to be open to all students within the authorized geographic area and use random lotteries if
+applications exceed the available seats.33 Limited admissions criteria are permitted, however,  in
+certain circumstances. For example, Louisiana law permits charter schools to establish specific
+admission requirements “related to a school’s mission [,] such as auditions for schools with a
+performing arts mission or proficiency in a foreign language for schools with a language
+immersion mission.”34 In addition, any school chartered prior to July 2012 that previously
+“incorporated achievement of a certain academic record as part of its admissions requirements may
+
+28 Id. § 17:3972(B).
+29 Id. § 17:3973(2).
+30 See id. § 17:3973(2)(b); see also Voices for Int'l Bus. & Educ., Inc. v. Nat'l Lab. Rels. Bd. , 905 F.3d 770, 772 (5th
+Cir. 2018).
+31 See id. § 17:3991(B).
+32 Cf. id. § 17:3996.
+33 See id. § 17:3991(C)(1).
+34 Id. § 17:3991(B)(3).
+Case 2:25-cv-01054-DJP-MBN     Document 72     Filed 03/17/26     Page 5 of 54
+6
+
+continue to use such admission requirements .”35 With Louisiana’s charter-school framework in
+mind, the Court turns to the instant motions.
+II. MOTION TO DISMISS
+Willow seeks to dismiss O.E.’s IDEA, ADA, and LHRA claims, pursuant to Federal Rule
+of Civil Procedure 12(b)(6), for failure to state a claim upon which relief can be granted.36 Willow
+also asserts that the IDEA claim should be dismissed for lack of subject -matter jurisdiction ,
+pursuant to Rule 12(b)(1), because O.E. lacks standing.37 In the alternative, Willow asserts that the
+entire case should be dismissed, pursuant to Rule 12(b)(7), for failure to join Orleans Parish School
+Board (“OPSB”), an entity Willow alleges is an indispensable party under Rule 19.38
+This Part will address the IDEA and ADA claims in turn. Although the Court heard
+evidence at the preliminary injunction hearing, the Court considers that evidence only where
+relevant to the preliminary injunction analysis and not in evaluating the sufficiency of the
+pleadings under Rule 12(b)(6). Because the Court dismisses O.E.’s ADA and IDEA claims under
+Rule 12(b)(6) and declines to exercise supplemental jurisdiction over the state law claims , the
+Court will not address Willow’s 12(b)(7) argument.
+A. Factual Allegations
+i. Plaintiff, O.E.
+Plaintiff, O.E., is a nine-year-old boy with profound physical and intellectual disabilities.39
+Compared to a typically developing child, his cognitive functioning is that of a one- to two-year-
+
+35 Id.
+36 R. Doc. 38.
+37 Id.
+38 Id.; R. Doc. 38-1 at 34–35.
+39 R. Doc. 1 ¶¶ 11–35.
+Case 2:25-cv-01054-DJP-MBN     Document 72     Filed 03/17/26     Page 6 of 54
+7
+
+old child.40 O.E. is non-verbal, so to communicate, he uses an “eye -gaze”-enabled augmentative
+and alternative communication device. 41 Because of his physical disabilities, he cannot walk
+without assistance and uses a wheelchair. 42 When O.E. was four years old, he was evaluated by
+the Jefferson Parish Public School System, the district in which he was living at the time, and an
+individualized education program (“IEP”) was created for O.E.43 Now, O.E. and his parents reside
+in New Orleans, so he is currently a resident of Orleans Parish. 44 At the time of the events giving
+rise to the instant action, O.E. was homeschooled.45
+ii. Orleans Parish School System
+Orleans Parish has a unique public school system. The school system is comprised almost
+entirely of public charter schools with only one “traditional” public school. 46 To attend a public
+school in Orleans Parish, students apply to schools through a parish- wide application system
+governed by Orleans Parish School Board (“OPSB”). 47   In a “lottery” fashion, OPSB’s system
+assigns students to schools. 48 In addition to OPSB’s application, Willow  has its own admissions
+criteria that a student must meet for him or her to be eligible to attend Willow.49
+
+40 Id. ¶ 12.
+41 Id. ¶¶ 33–34.
+42 Id. ¶ 19.
+43 Id. ¶ 25.
+44 Id. ¶ 2; Orleans Parish Profile , LOUISIANA.GOV, https://www.louisiana.gov/local-louisiana/orleans-
+parish#:~:text=Orleans%20Parish%20%2D%20The%20official%20website%20of%20Louisiana.
+45 R. Doc. 1 ¶¶ 27–31.
+46 Id.  ¶¶ 38–39.
+47 Id. ¶ 77.
+48 Id.
+49 Id. ¶¶ 76–81.
+Case 2:25-cv-01054-DJP-MBN     Document 72     Filed 03/17/26     Page 7 of 54
+8
+
+iii. Defendant, Advocates for Arts-Based Education (The Willow School)
+Advocates for Arts -Based Education  is a nonprofit corporation that operates a school
+known as The Willow School.50 Willow is a public charter school located in New Orleans.51 Under
+Louisiana law, Willow is a “Type 3” charter school .52 A Type 3 school is “a preexisting public
+school converted and operated as the result of and pursuant to a charter between a nonprofit
+corporation and the local school board.”53
+As part of its admissions process, and in addition to other admissions criteria, Willow
+requires each applicant to take an assessment known as the Iowa Assessment.54 An applicant must
+obtain a minimum score on the Iowa Assessment to be eligible for assignment to Willow. 55 That
+is, if an applicant does not obtain a certain minimum score on the Iowa Assessment, he or she may
+not continue with Willow’s admissions process, and thus may not attend Willow.
+Generally, students seeking admission into fourth grade, like O.E., have only three to six
+hours to complete the assessment.56 Willow creates a “scorecard,” or “matrix,” for each applicant,
+and an applicant’s score on the Iowa Assessment makes up the largest share of possible points on
+an applicant’s matrix.57 Therefore, “the higher [an applicant] score[s], the[] higher their chances
+of admission.”58
+
+50 Id. ¶ 5.
+51 Id. ¶¶ 6–7.
+52 Id. ¶ 40.
+53 La. Stat. Ann. § 17:3973(2)(b)(iii).
+54 R. Doc. 1 ¶ 83.
+55 Id. ¶ 85.
+56 Id. ¶ 84.
+57 Id. ¶ 92.
+58 Id. ¶ 94.
+Case 2:25-cv-01054-DJP-MBN     Document 72     Filed 03/17/26     Page 8 of 54
+9
+
+iv. O.E.’s Experience with The Willow School’s Admissions Process
+Last school year, O.E. applied to Willow for the 2025- 2026 school year through OPSB’s
+system. The events giving rise to the instant action began in November 2024 when O.E.’s father
+contacted admissions officials at Willow to discuss O.E.’s application.59 Around this time, Willow
+received O.E.’s IEP and other documents related to O.E.’s testing accommodations. 60 At some
+point, O.E.’s father also requested that Willow waive the Iowa Assessment for O.E., which Willow
+refused to do.61 In response, O.E.’s father threatened Willow with a lawsuit.62 Nevertheless, O.E.
+submitted a complete application for Willow through OPSB’s system , and O.E. took the Iowa
+Assessment on Willow’s middle school campus over a span of two days in mid- February 2025.63
+O.E. did not obtain the minimum score necessary to be eligible for admission into Willow.64
+B. Individuals with Disabilities Education Act (IDEA) Claim
+The Court begins with Willow’s attack on O.E.’s claim  under the IDEA  for denial of a
+FAPE. Willow first contends, under Rule 12(b)(1), that O.E. lacks standing to sue Willow based
+on the absence of standing under the IDEA.65 Willow’s second argument challenges O.E.’s right
+to relief under Rule 12(b)(6) based on the ALJ’s finding that “allegations of systemic
+discriminatory admissions practices . . . are unrelated to the identification, evaluation, or
+educational placement, or the provision of FAPE.”66
+
+59 Id. ¶¶ 95–96.
+60 Id. ¶ 104.
+61 Id. ¶¶ 95, 108.
+62 Id. ¶ 103.
+63 Id. ¶¶ 115–16.
+64 Id. ¶ 118.
+65 R. Doc. 30-1 at 12–13.
+66 Id. at 30–34.
+Case 2:25-cv-01054-DJP-MBN     Document 72     Filed 03/17/26     Page 9 of 54
+10
+
+i. The IDEA’s Administrative-Exhaustion Requirement
+This claim comes before the Court in an unusual procedural posture. Generally, a plaintiff
+is required to exhaust the state’s administrative remedies before filing suit in the district court to
+seek relief under the IDEA.67 The district court then reviews the decision of the hearing officer.68
+But there are exceptions to the administrative-exhaustion requirement. For instance, if exhaustion
+would be futile or if the “gravamen” of the plaintiff’s complaint is disability discrimination and
+not denial of a FAPE, then the plaintiff need not clear the IDEA’s administrative hurdles.69 The
+plaintiff may also avoid the administrative -exhaustion requirement if the relief sought is not one
+that the IDEA can provide.70 On top of that, the United States Court of Appeals for the Fifth Circuit
+“has not yet determined whether exhaustion under the IDEA is a jurisdictional requirement” or a
+mandatory claim-processing rule. 71 Nor has it “‘directly addressed the point’ of whether a
+plaintiff’s failure to exhaust administrative remedies under the IDEA deprives the court of subject
+matter jurisdiction.”72
+Here, the ALJ decided that she lacked jurisdiction over O.E.’s “allegations of systemic
+discriminatory admissions practices,” which she determined “are unrelated to the . . . provision of
+FAPE.” That language implicates a host of potential issues under the IDEA’s administrative
+requirement, like whether exhaustion was, as the ALJ determined, futile or whether  the
+“gravamen” of O.E.’s complaint, like the ALJ implies, is disability discrimination. But Willow
+
+67 Lartigue v. Northside Indep. Sch. Dist., 100 F.4th 510, 518 (5th Cir. 2024) (citing Fry v. Napoleon Cmty. Schs., 580
+U.S. 154 (2017)); see also 20 U.S.C. § 1415(l).
+68 20 U.S.C. § 1415(i)(2)(B).
+69 Gardner v. Sch. Bd. Caddo Par., 958 F.2d 108, 111–12 (5th Cir. 1992); Lartigue, 100 F.4th at 515.
+70 Lartigue, 100 F.4th at 515 (citing Luna Perez v. Sturgis Pub. Schs., 598 U.S. 142, 149–50 (2023)).
+71 T. B. by & through Bell v. Nw. Indep. Sch. Dist., 980 F.3d 1047, 1050 n.2 (5th Cir. 2020) (noting that “the Supreme
+Court has recently held that Title VII’s administrative exhaustion requirement is not jurisdictional but is, instead, a
+mandatory claim-processing rule” (citing Fort Bend Cnty., Texas v. Davis, 587 U.S. 541 (2019))).
+72 T. B. by & through Bell, 980 F.3d at 1050 n.2 (quoting Doe v. Harlandale Indep. Sch. Dist., No. SA-20-CV-00960-
+JKP, 2020 WL 6566854, at *2 (W.D. Tex. Nov. 9, 2020)).
+Case 2:25-cv-01054-DJP-MBN     Document 72     Filed 03/17/26     Page 10 of 54
+11
+
+does not dispute O.E’s exhaustion of administrative remedies under the statute. 73 Instead, the
+essence of Willow’s 12(b)(1) and 12(b)(6) arguments is that it never had an obligation to O.E.
+under the IDEA because O.E. was never enrolled in Willow. Finding merit in Willow’s argument,
+this Court declines to review the ALJ’s finding and dismisses his IDEA claim on other grounds.
+ii. Willow’s IDEA Challenge is More Appropriately Analyzed Under
+Rule 12(b)(6)
+Willow’s basis for dismissal is a question of legal duty under the statute in question—
+whether Willow has an obligation to provide a FAPE to O.E. under the IDEA. This  is a merits
+determination, not a question of the Court’s power. Thus, Willow’s 12(b)(6) motion—not its
+12(b)(1) motion—is the proper avenue to review the legal viability of O.E.’s IDEA claim.
+To survive a Rule 12(b)(6) motion to dismiss, a complaint must contain sufficient factual
+matter, accepted as true, to ‘state a claim to relief that is plausible on its face.’” 74 “A claim has
+facial plausibility when the plaintiff pleads factual content that allows the court to draw the
+reasonable inference that the defendant is liable for the misconduct alleged.”75 “‘[D]etailed factual
+allegations’ are not required.” 76 “The ultimate question in a Rule 12(b)(6) motion is whether the
+complaint states a valid claim when all well-pleaded facts are assumed true and are viewed in the
+light  most favorable to the plaintiff.”77 The court’s task is not to evaluate the plaintiff’s likelihood
+of success but instead to determine whether the claim is both legally cognizable and plausible. 78
+Here, determining whether O.E. has both a legally cognizable and plausible claim for relief under
+the IDEA requires examining the statute itself.
+
+73 R. Doc. 30-1 at 30.
+74 Ashcroft v. Iqbal, 556 U.S. 662, 678 (2009).
+75 Id.
+76 Id. at 663.
+77 Lone Star Fund V (U.S.), L.P . v. Barclays Bank PLC, 594 F.3d 383, 387 (5th Cir. 2010).
+78 Id.
+Case 2:25-cv-01054-DJP-MBN     Document 72     Filed 03/17/26     Page 11 of 54
+12
+
+iii. Analysis Under the IDEA
+“The IDEA offers federal funds to States in exchange for a commitment: to furnish a ‘free
+appropriate public education’ —more concisely known as a FAPE —to all children with certain
+physical or intellectual disabilities.” 79 “[A] FAPE comprises ‘special education and related
+services’—both ‘instruction’ tailored to meet a child’s ‘unique needs’ and sufficient ‘supportive
+services’ to permit the child to benefit from that instruction.” 80 The “primary vehicle” for
+providing a FAPE is the individualized education program (“IEP”).81
+To ensure each child within a state receiving IDEA funds has access to a FAPE, “Congress
+established a three-tiered funding, administration, and implementation scheme . . . .”82 “[T]he state
+must submit a plan of compliance to the Secretary of Education which provides federal IDEA
+funds to the state.”83 “The state is then responsible for administering the funds on the state level,
+including the distribution of federal funds to local education[al] agencies (LEAs) . . . .” 84 To
+receive funds from the state, an LEA must submit a plan of compliance to the state educational
+agency (“SEA”).85 “The LEA then provides services directly to children with disabilities using the
+funds obtained from the SEA.” 86 Accordingly, while the LEA is responsible for the direct
+provision of services under the IDEA, the SEA is responsible for general supervision of the IDEA’s
+implementation in the state.87 Thus, the state, through its SEA, is the ultimate guarantor of a FAPE
+for each child with a disability who resides there.88
+
+79 Fry v. Napoleon Cmty. Schs., 580 U.S. 154, 158 (2017).
+80 Id. (citing 20 U.S.C. §§ 1401(9), (26), (29)).
+81 Fry, 580 U.S. at 158 (citing Honig v. Doe, 484 U.S. 305, 311 (1988)).
+82 Gadsby by Gadsby v. Grasmick, 109 F.3d 940, 942 (4th Cir. 1997) (citing 20 U.S.C. §§ 1412–14)).
+83 Grasmick, 109 F.3d at 942; see also 20 U.S.C. § 1412(a).
+84 Grasmick, 109 F.3d at 942; see also 20 U.S.C. § 1412.
+85 20 U.S.C. § 1413(a).
+86 Grasmick, 109 F.3d at 942; see also 20 U.S.C. § 1413.
+87 See 20 U.S.C. §§ 1412(a)(11), 1413(a)(1).
+88 See id. § 1412(a).
+Case 2:25-cv-01054-DJP-MBN     Document 72     Filed 03/17/26     Page 12 of 54
+13
+
+The IDEA defines an LEA as a “public board of education or other public authority legally
+constituted within a State for either administrative control or direction of, or to perform a service
+function for, public . . . schools in a city, . . . school district, or other political subdivision of a
+State.”89 Typically, LEAs are school districts within a state, so an individual public school is
+usually not an LEA, but part of an LEA. Thus, in the usual situation, the school district —not an
+individual school—is directly responsible for ensuring access to a FAPE. A public charter school,
+however, may be part of an LEA or its own LEA.90 If a charter school is its own LEA, it is generally
+held to the same standards as all other LEAs,  i.e., school districts, “unless State law assigns that
+responsibility to some other entity.”91
+O.E. hangs his IDEA claim on this final point: he asserts that because Willow has
+established itself as its own LEA, and because Louisiana law does not assign the responsibility for
+providing a FAPE to some other entity, Willow “bears the sole responsibility for ensuring that its
+IDEA obligations are met” for students residing in Orleans Parish’s district.92 Thus, according to
+O.E., LEAs like Willow must educate all handicapped children who live in the district, so O.E. is
+entitled to a FAPE from Willow. 93 Willow disagrees; according to Willow, it is enrollment—not
+residence—that triggers an LEA’s obligations under the IDEA.94
+While the IDEA requires a state to provide a FAPE to children with disabilities “residing
+in the State,”95 it contains no similarly unambiguous provision dictating that a public charter school
+that is its own LEA  (“charter-school LEA”) must provide a FAPE to students “residing” within
+
+89 Id. § 1401(19)(A).
+90 34 C.F.R. § 300.209(a)–(b).
+91 See id. § 300.209(c); Charlene R. v. Solomon Charter Sch., 63 F. Supp. 3d 510, 521 (E.D. Pa. 2014) (citing 34 C.F.R.
+§ 300.209(c)).
+92 R. Doc. 38 at 16–17.
+93 Id. at 20 (quoting Timothy W. v Rochester, N.H., Sch. Dist., 875 F.2d 954, 966 (1st Cir. 1989)); see R. Doc. 1 ¶ 74.
+94 R. Doc. 30-1 at 24–30.
+95 20 U.S.C. § 1412(a)(1)(A).
+Case 2:25-cv-01054-DJP-MBN     Document 72     Filed 03/17/26     Page 13 of 54
+14
+
+the district in which the charter-school LEA is located. When it comes to whom  an LEA must
+serve, the IDEA indicates that an LEA’s obligations extend to children “within its jurisdiction,”
+but the statute does not define that jurisdictional boundary. 96 Instead, the IDEA’s three -tiered
+accountability framework, which “is frequently described as a model of cooperative federalism,”97
+and which “leaves to the States the primary responsibility for developing and executing
+educational programs for handicapped children,” leaves to participating states the primary
+responsibility of determining how special-education responsibilities are allocated among state and
+local agencies.98 Accordingly, states have the power to define the scope of an LEA’s jurisdiction,99
+and courts therefore look to state law to determine the boundaries of an LEA’s jurisdiction, which
+state law often defines as residence within a geographic boundary.100 Thus, to determine Willow’s
+
+96 Id. § 1413(a)(1) (“The local educational agency, in providing for the education of children with disabilities within
+its jurisdiction, has in effect policies . . . .”); see also Est. of Lance v. Lewisville Indep. Sch. Dist. , 743 F.3d 982, 989
+(5th Cir. 2014) (“Specifically, IDEA requires each federally funded school district to: ‘(1) provide each disabled child
+within its jurisdictional boundaries with a “free appropriate public education” . . . .’” (quoting Cypress -Fairbanks
+Indep. Sch. Dist. v. Michael F ., 118 F.3d 245, 247 (5th Cir. 1997))).
+97 See Schaffer ex rel. Schaffer v. Weast, 546 U.S. 49, 52 (2005) (quoting Little Rock Sch. Dist. v. Mauney , 183 F.3d
+816, 830 (8th Cir. 1999)).
+98 See Manchester Sch. Dist. v. Crisman, 306 F.3d 1, 9–10 (1st Cir. 2002) (“[N]o court has stated that the IDEA itself
+mandates that a state make determinations of school district liability based invariably on . . . residency.”) (finding that
+the IDEA does not dictate which district or agency within a state must assume financial liability for special education
+services and, instead, leaves the assignment and allocation of financial responsibility for special education costs of
+local school districts to each individual’s state legislature); Charlene R. v. Solomon Charter Sch., 63 F. Supp. 3d 510,
+521 (E.D. Pa. 2014) (“In light of the structure of the statute, Manchester is read more naturally to mean that the State
+has broad authority to distribute responsibility among the LEAs within the state in discharging its responsibility to
+assure proper education. . . . The proposition that a SEA has the power to allocate responsibility among LEAs subject
+to its supervision is self -evident . . . .”); Los Angeles Unified Sch. Dist. v. Garcia, 669 F.3d 956, 960 (9th Cir.
+2012), certified question answered,  58 Cal. 4th 175, 314 P.3d 767 (2013) (“Each state is responsible for ensuring
+compliance with the IDEA and must specify which state or local educational agency (SEA or LEA) is responsible for
+providing special education services to certain students . . . . Thus, questions of which agency is responsible for
+providing a student with a FAPE are determined under state law.”).
+99 See also 34 C.F.R. § 300.209(c).
+100 See, e.g., Cumberland Reg'l High Sch. Dist. Bd. of Educ. v. Freehold Reg'l High Sch. Dist. Bd. of Educ., 293 F.
+App'x 900, 902–03 (3d Cir. 2008) (looking to state law governing the determination of domicile to resolve a dispute
+between two school districts over which district was responsible for providing a child with divorced parents residing
+in the different districts with a FAPE under the IDEA); Herbert v. St. James Par. Sch. Bd., No. CV 25-758, 2025 WL
+1685256, at *5 (E.D. La. June 16, 2025) (Ashe, J.) (“Thus, whether a local education authority is responsible for
+providing a FAPE to a given child, which would entitle that child to IDEA protections a s to that local education
+authority, is dependent upon the threshold determination of residency under the applicable state law.”); R.F . v. Delano
+Union Sch. Dist. , No. 116CV01796LJOJLT, 2017 WL 633919, at *4 (E.D. Cal. Feb. 15, 2017) (finding that, under
+state law, the school district responsible for the education of a child is the district in which the child’s parent or legal
+Case 2:25-cv-01054-DJP-MBN     Document 72     Filed 03/17/26     Page 14 of 54
+15
+
+“jurisdiction,” and hence to whom it owes  the IDEA obligation of providing a FAPE , the Court
+turns to Louisiana law.
+According to Louisiana’s Regulations for Implementation of the Children with
+Exceptionalities Act, “[e]ach LEA is responsible for making available a [FAPE] to each eligible
+student with a disability . . . who resides within its jurisdiction . . . .” 101 The Regulations then go
+on to define jurisdiction as “the right and obligation of an LEA to exercise authority over all
+students residing within its geographic area  . . . .”102 For “city/ parish school systems, the
+geographic area is the boundary of the school district as defined in [Louisiana law].”103 But “[f]or
+a charter school that is considered an LEA, the geographic area is the boundary of the educational
+facility.”104 Although an LEA’s jurisdiction is referred to as  “resid[ence] within [a] geographic
+area,” that language cannot be read literally as applied to charter -school LEAs , given that a
+charter-school LEA’s geographic area is limited to the educational facility itself .  J urisdiction,
+then, must turn on enrollment rather than physical residence  when it comes to charter -school
+LEAs.105 This conclusion comports with Louisiana’s regulations governing charter schools.
+According to the charter school regulations, a charter -school LEA “located in Orleans
+Parish” shall “provide all identification, evaluation, and special education . . . services to students
+enrolled at the school required by the . . . [IDEA] and other applicable federal and state laws and
+
+guardian resides, so “[d]etermining which LEA is a responsible for providing a FAPE to a given child, then, is
+primarily a determination of residence”).
+101 La. Admin. Code tit. 28, pt. XLIII, § 230(B).
+102 Id.  § 230(D).
+103 Id.  § 230(D)(1).
+104 Id. § 230(D)(2) (emphasis added).
+105 SWAT 24 Shreveport Bossier, Inc. v. Bond, 2000- 1695 (La. 6/29/01), 808 So. 2d 294 (“[W]here a literal
+interpretation would produce absurd consequences, the letter must give way to the spirit of the law and the statute
+construed so as to produce a reasonable result.”).  See Camacho v. Ford Motor Co., 993 F.3d 308, 311 (5th Cir. 2021)
+(noting that when interpreting a state statute, the federal court uses the same methods of statutory interpretation used
+by the state’s highest court).
+Case 2:25-cv-01054-DJP-MBN     Document 72     Filed 03/17/26     Page 15 of 54
+16
+
+regulations for LEAs[.]” 106 Thus, for charter-school LEAs  that are located in Orleans Parish ,
+enrollment—not residence—triggers IDEA obligations, including the obligation “for making
+available a [FAPE] to each eligible student with a disability.” But for parish school systems, like
+OPSB, it is residence within the school district’s geographic boundaries that  triggers FAPE
+obligations. Accordingly, a logical reading of  Louisiana’s regulations provides that OPSB is
+responsible for ensuring a FAPE to eligible students who reside within Orleans Parish but are not
+yet enrolled in a school or are enrolled in schools that are not their own LEAs. But Willow, or the
+applicable charter-school LEA, becomes responsible for ensuring a FAPE to eligible students once
+the students are enrolled in that school.
+Such a reading aligns with the purpose of the IDEA, which was enacted in part to “assure
+a single line of responsibility with regard to the education of handicapped children.”107 If residency
+was to trigger a charter -school LEA’s FAPE obligation in Orleans Parish’s charter -dominant
+district, the statute would be flipped on its head. In a traditional school district, a residence-based
+obligation works because one LEA, the school district, serves children according to residence
+within the district, and thus only one LEA —the school district in which the child resides —is
+responsible for ensuring a child has access to a FAPE. But in a charter -dominant district, like
+Orleans Parish, a student residing in the district may attend any number of charter -school LEAs
+within the school-district LEA. Thus, if residence triggered IDEA responsibility in such a district,
+multiple LEAs could simultaneously owe a FAPE to the same child. This would create overlapping
+and indeterminate obligations, which would be untenable under the IDEA’s framework.
+
+106 La. Admin. Code tit. 28, pt. CXXXIX, § 2303(B)(2)(a)(ii) (emphasis added).
+107 St. Tammany Par. Sch. Bd. v. State of La., 142 F.3d 776, 784 (5th Cir. 1998) (quoting Gadsby by Gadsby v. Grasmick,
+109 F.3d 940, 952 (4th Cir. 1997)).
+Case 2:25-cv-01054-DJP-MBN     Document 72     Filed 03/17/26     Page 16 of 54
+17
+
+For example, consistent with the IDEA’s multi-tiered accountability scheme, the SEA steps
+in to provide services directly to eligible children if the SEA determines that the LEA responsible
+has not met the IDEA’s requirements for providing a FAPE.108 If multiple entities simultaneously
+owe the obligation to provide a FAPE to a child, the SEA would have difficulty determining which
+LEA’s failure triggers state intervention. In Orleans Parish, for instance, the charter-school LEAs
+could point at each other or at OPSB as the entity responsible for providing a FAPE to a particular
+child to subvert responsibility under the IDEA, which is exactly what the IDEA seeks to prevent.109
+Rule 12(b)(6) provides for the dismissal of a claim if a plaintiff fails to state a claim upon
+which relief can be granted. “[T]he only ‘relief’ the IDEA makes ‘available’ is relief for the denial
+of a FAPE.”110 Here, for all the reasons stated above, the Court has concluded Willow did not owe
+O.E. a FAPE under the IDEA. Accordingly, O.E  has failed to state a legally cognizable claim
+against Willow for violating his right to a FAPE under the IDEA, and this claim must be dismissed.
+ O.E. heavily relies on Timothy W. v. Rochester, N.H., Sch. Dist.,111 a First Circuit case, and
+Forest Grove School District v. T.A.,112 a United States Supreme Court decision, in support of his
+arguments. But his reliance on these cases is misplaced. Significantly, in both cases, it was
+undisputed that the defendant was the LEA responsible for providing a FAPE. Thus, the issues in
+those cases presupposed the answer to the question before this Court, which is whether the
+defendant–LEA has an obligation to the plaintiff–student in the first place. Those cases, then, are
+
+108 See 18 U.S.C. § 1413(g).
+109 See Honig v. Doe, 484 U.S. 305, 309 (1988) (noting that Congress “sought ‘to assure that all handicapped children
+have available to them . . . a [FAPE] . . . .’” after congressional studies revealed that “one out of every eight of these
+children were . . . were neglectfully shepherded through the system until they were old enough to drop out”).
+110 Fry v. Napoleon Cmty. Schs., 580 U.S. 154, 169 (2017).
+111 875 F.2d 954 (1st Cir. 1989).
+112 557 U.S. 230 (2009).
+Case 2:25-cv-01054-DJP-MBN     Document 72     Filed 03/17/26     Page 17 of 54
+18
+
+inapposite here. Accordingly, O.E.’s arguments fail, and O.E. does not have a claim for relief
+against Willow under the IDEA.
+C. Title II of the Americans with Disabilities Act (ADA) Claim
+The Court now turns to Willow’s 12(b)(6) motion to dismiss O.E.’s ADA claim using the
+same 12(b)(6) standard articulated above. Willow’s motion includes a series of factual assertions,
+as well as attachments like its operating agreement with OPSB. In deciding a Rule 12(b)(6) motion
+to dismiss, “[t]he court’s review is limited to the complaint, any documents attached to the
+complaint, and any documents attached to the motion to dismiss that are central to the claim and
+referenced by the complaint.”113 N ot only does O.E. object to the Court’s consideration of
+Willow’s factual assertions and attachments, 114 O.E.’s claims do not rely on the operating
+agreement, and Willow uses the agreement to advance a factual defense.115 Accordingly, this Court
+proceeds by addressing O.E.’s ADA claim based only the factual allegations in the complaint,
+which, at this stage, this Court must accept at true, and on the legal arguments in the briefing.
+“The ADA is a ‘broad mandate’ of ‘comprehensive character’ and ‘sweeping purpose’
+intended ‘to eliminate discrimination against disabled individuals, and to integrate them into the
+economic and social mainstream of American life.’”116 While the IDEA imposes “an affirmative
+obligation on states to assure disabled children a free appropriate public education,” the ADA
+broadly prohibit s discrimination against disabled  persons. 117 The ADA consists of five Titles,
+
+113 Id.
+114 See R. Doc. 38 at 1.
+115 Scanlan v. Texas A&M Univ., 343 F.3d 533, 537 (5th Cir. 2003) (finding district court erred in considering report
+that defendant provided in motion to dismiss when, even though plaintiffs relied on attachment in their complaints,
+the attachment alone was not central to plaintiffs’ claims and was much more central to the defendant’s defenses).
+116 Frame v. City of Arlington, 657 F.3d 215, 223 (5th Cir. 2011) (quoting PGA Tour, Inc. v. Martin, 532 U.S. 661, 675
+(2001)).
+117 D.A. ex rel. Latasha A. v. Houston Indep. Sch. Dist., 629 F.3d 450, 453 (5th Cir. 2010); see also Lartigue v. Northside
+Indep. Sch. Dist. , 100 F.4th 510, 513 (5th Cir. 2024) (describing the IDEA and ADA as “two distinct, but linked,
+statutes”).
+Case 2:25-cv-01054-DJP-MBN     Document 72     Filed 03/17/26     Page 18 of 54
+19
+
+covering various areas such as employment (Title I) and public accommodations (Title III). 118
+Relevant here is Title II, which covers state and local government services.119
+Title II of the ADA provides that “no qualified individual with a disability shall, by reason
+of such disability, be excluded from participation in or be denied the benefits of the services,
+programs, or activities of a public entity, or be subjected to discrimination by any such entity.”120
+Thus, “ [t]o make out a claim under Title II,” a plaintiff must show “(1) that he is a qualified
+individual with a disability; (2) that he was excluded from participation in, or denied the benefits
+of, services, programs, or activities for which the public entity is responsible, or was otherwise
+being discriminated against; and (3) that such discrimination is because of his disability.” 121
+Notably, “the language in the ADA generally tracks the language set forth in” § 504 of the
+Rehabilitation Act,122 and “the rights and remedies afforded plaintiffs under Title II of the ADA
+are almost entirely duplicative of those provided under § 504 . . . .”123 “The only material difference
+between the two provisions lies in their respective causation requirements.” 124 Therefore,
+“[j]urisprudence interpreting either section is applicable to both.”125
+O.E. alleges Willow violates the ADA in two respects. First, he alleges that Willow
+excludes students with intellectual disabilities through its use of the Iowa Assessment in its
+admissions process. Second, he alleges that Willow’s lower-school campus is not wheelchair
+accessible. Assuming without deciding that Willow is a public entity under Title II and that O.E.
+
+118 42 U.S.C. §§ 12111–17; Id. §§ 12181–89.
+119 Id. §§ 12131–34.
+120 Id.  § 12132.
+121 Luke v. Texas, 46 F.4th 301, 305 (5th Cir. 2022).
+122 Delano-Pyle v. Victoria Cnty., Tex., 302 F.3d 567, 574 (5th Cir. 2002).
+123 Bennett-Nelson v. Louisiana Bd. of Regents, 431 F.3d 448, 454 (5th Cir. 2005).
+124 Id. Whereas § 504 provides that no qualified individual with a disability shall be excluded or denied benefits “solely
+by reason of his or her disability,” Title II does not require that discrimination be the sole reason for the exclusion or
+denial of benefits. Id.
+125 Hainze v. Richards, 207 F.3d 795, 799 (5th Cir. 2000).
+Case 2:25-cv-01054-DJP-MBN     Document 72     Filed 03/17/26     Page 19 of 54
+20
+
+is an individual with a disability, O.E.’s ADA claim fails because he cannot establish that he was
+excluded “by reason of his disability,” or alternatively, that he is “qualified” to attend Willow.
+i. The Iowa Assessment
+To satisfy the second and third elements of the prima facie test, a qualified individual with
+a disability must be excluded from or denied the benefit of a public program or discriminated
+against “by reason of his disability” in one of several ways.126 The public entity may do so based
+on, at least in part, the individual’s disability , triggering what has been referred to as conscious
+discrimination or disparate treatment.127 Alternatively, the public entity may have a facially neutral
+policy or practice that prevents individuals with disabilities  from “meaningfully accessing” the
+service or benefit.128 In this latter situation, “reasonable modifications” may have to be made  to
+ensure meaningful access.129 If the public entity knowingly fails to accommodate an individual’s
+request or need for a reasonable modification that would give him meaningful access, the failure-
+to-accommodate theory is triggered.130 But if the denial of meaningful access is based on a “more
+‘systemic’ obstacle to access,” some courts recognize the denial as a disparate-impact claim.131
+But Title II is not limitless. “[A]  public entity is not ‘required to undertake measures that
+would impose an undue financial or administrative burden . . . or effect a fundamental alteration
+
+126 See Carter as next of friend of Carter v. City of Shreveport, 144 F.4th 809, 813 (5th Cir. 2025).
+127 Id.; Pickett v. Texas Tech Univ. Health Scis. Ctr., 37 F.4th 1013, 1033–34 (5th Cir. 2022).
+128 Luke v. Texas, 46 F.4th 301, 305–06 (5th Cir. 2022) (“Lack of meaningful access is itself the harm under Title II,
+regardless of whether any additional injury follows.”).
+129 Alexander v. Choate, 469 U.S. 287, 301 –02 (1985); see also Smith v. Harris Cnty., Texas, 956 F.3d 311, 317 (5th
+Cir. 2020) (“In addition to prohibiting discrimination, the ADA . . . ‘impose[s] upon public entities an affirmative
+obligation to make reasonable accommodations for disabled individuals.’” (quoting Bennett-Nelson, 431 F.3d at 454)).
+130 Payan v. Los Angeles Cmty. Coll. Dist., 11 F.4th 729, 738 (9th Cir. 2021); Smith, 956 F.3d at 317–18; Block v. Texas
+Bd. of L. Examiners, 952 F.3d 613, 618 (5th Cir. 2020) (“A public entity’s failure to make a reasonable modification
+may satisfy the second and third prongs of the prima facie case.”). “Accommodation” and “modification” are used
+interchangeably in the case law.
+131 See Sosa v. Massachusetts Dep't of Correction, 80 F.4th 15, 31 (1st Cir. 2023); Payan , 11 F.4th at 738. But see
+Payan, 11 F.4th at 740–44 (Lee, J., dissenting) (arguing that Title II of the ADA and § 504 of the Rehabilitation Act
+do not allow plaintiffs to sue based on a disparate impact theory of discrimination, especially since the U.S. Supreme
+Court’s decision in Alexander v. Sandoval, 532 U.S. 275 (2001), wherein the Supreme Court rejected a private cause
+of action for disparate impact under Title VI of the Civil Rights Act of 1964).
+Case 2:25-cv-01054-DJP-MBN     Document 72     Filed 03/17/26     Page 20 of 54
+21
+
+in the nature of the service.’” 132 Further, evidence of intentional discrimination is necessary to
+support a claim for monetary damages. 133 The standard for liability, while imprecise, “requires
+something more than deliberate indifference.”134
+O.E.’s complaint tells a story within a story.  The embedded narrative is O.E’s individual
+experience with Willow’s admissions process, namely, his attempt at overcoming the “barrier”
+that the Iowa Assessment poses to his eligibility. 135 Because of O.E.’s cognitive functioning, he
+allegedly will never be able to obtain the minimum score necessary for admission into Willow and,
+thus, waiver of the Iowa Assessment is the only accommodation that will provide him meaningful
+access.136 The broader narrative  is that this “barrier” was designed to exclude children with
+intellectual disabilities. According to O.E., Willow uses the Iowa  Assessment as a sort of IQ test
+to “screen out” intellectually disabled students, which enables Willow to receive a “windfall” in
+“per-pupil” funding from the State of Louisiana, and O.E. is just one victim of this practice. In any
+event, he alleges that Willow virtually has no students with intellectual disabilities  and attributes
+the disproportionate impact on such students to Willow’s use of the Iowa Assessment . Thus, the
+complaint speaks to the three theories of liability described above; though, Willow’s motio n
+addresses only the conscious-discrimination and failure-to-accommodate theories.137
+
+132 Frame v. City of Arlington, 657 F.3d 215, 232 (5th Cir. 2011) (quoting Tennessee v. Lane, 541 U.S. 509, 532 (2004));
+Lane, 541 U.S. at 532 (Title II “requires only ‘reasonable modifications’ that would not fundamentally alter the nature
+of the service provided, and only when the individual seeking modification is otherwise eligible for service.”) .
+133 T.O. v. Fort Bend Indep. Sch. Dist., 2 F.4th 407, 417 (5th Cir. 2021).
+134 J.W. v. Paley, 81 F.4th 440, 451 (5th Cir. 2023).
+135 R. Doc. 1 ¶¶ 74–82, 95–118, 143–48.
+136 Id. ¶¶ 80, 111.
+137 R. Doc. 30-1 at 16–22. But see Shaikh v. Texas A&M Univ. Coll. of Med., 739 F. App'x 215, 221 n.6 (5th Cir. 2018)
+(“On a motion to dismiss, a court ‘must examine the complaint to determine if the allegations provide for relief of any
+possible theory.” (omitting citations)).
+Case 2:25-cv-01054-DJP-MBN     Document 72     Filed 03/17/26     Page 21 of 54
+22
+
+a. Disparate Impact
+O.E.’s complaint  primarily relies on the disparate -impact theory. The  Fifth Circuit,
+however, has not squarely recognized or h eld that disparate impact is a cognizable theory under
+Title II of the ADA  (or § 504 of the Rehabilitation Act) . Claims of conscious discrimination , or
+disparate treatment, and failure to make reasonable accommodations are established in the case
+law, but disparate-impact claims remain an unsettled area. While several circuits have recognized
+disparate-impact claims under Title II, 138 and the Fifth Circuit has alluded to such claims ,139 the
+Fifth Circuit has also declined to recognize disparate -impact private causes of action in a related
+statutory context, raising substantial questions as to whether such claims are cognizable under Title
+II in this circuit. Further, to recognize disparate-impact claims would contravene basic principles
+of statutory interpretation.
+The United States Supreme Court left open the question in 1985 in Alexander v. Choate
+when it “assume[d] without deciding that § 504 reaches at least some conduct that has an
+unjustifiable disparate impact upon the handicapped.”140 Then, in 2001 in Alexander v. Sandoval,
+the Supreme Court held that no private right of action exists to enforce regulations acknowledging
+disparate-impact discrimination promulgated under Title VI of the Civil Rights Act of 1964. 141
+
+138 See Sosa v. Massachusetts Dep't of Correction, 80 F.4th 15, 31 (1st Cir. 2023); Hamilton v. Westchester Cnty. , 3
+F.4th 86, 91 (2d Cir. 2021); A Helping Hand, LLC v. Baltimore Cnty., MD, 515 F.3d 356, 362 (4th Cir. 2008); Wisconsin
+Cmty. Servs., Inc. v. City of Milwaukee, 465 F.3d 737, 753 (7th Cir. 2006); Payan v. Los Angeles Cmty. Coll. Dist., 11
+F.4th 729, 738 (9th Cir. 2021); J.V . v. Albuquerque Pub. Schs., 813 F.3d 1289, 1299 (10th Cir. 2016).  But see Doe v.
+BlueCross BlueShield of Tennessee, Inc., 926 F.3d 235, 241 (6th Cir. 2019) (concluding that § 504 does not prohibit
+disparate-impact discrimination).
+139 See T.O., 2 F.4th at 417 (stating that while “[e]vidence of intentional discrimination is necessary to support a claim
+for monetary damages, . .  . a plaintiff seeking only equitable relief may succeed on a disparate impact theory” in
+finding that, absent identifiable theory, complaint contained no allegations to meet “by reason of disability” element).
+140 469 U.S. 287, 299 (holding that, assuming § 504 or its implementing regulations reach some claims of disparate -
+impact discrimination, the effect on the handicapped of a state’s reduction in annual inpatient hospital coverage under
+Medicaid is not among those claims). If disparate-impact claims are recognized under § 504’s more stringent causation
+standard, then it follows that such claims are recognized under Title II, whose only difference from § 504 is a less
+stringent causation standard.
+141 532 U.S. 275, 293.
+Case 2:25-cv-01054-DJP-MBN     Document 72     Filed 03/17/26     Page 22 of 54
+23
+
+This potentially has significant implications for Title II of the ADA—Title II’s statutory language
+is almost entirely duplicative of § 504, 142 which was modeled after  Title VI ,143 and Title II’s
+disparate-impact language is also found only in its regulations.
+Then, in the unreported decision Kamps v. Baylor University, the Fifth Circuit, relying on
+Sandoval, found that the Age Discrimination Act—whose language is similar to that of Title II—
+does not prohibit policies that have a disparate impact. 144 The Kamps Court distinguished the
+language of the Age Discrimination Act from that of Title VII of the Civil Rights Act and that of
+the Age Discrimination in Employment Act of 1967 (“ADEA”). W hereas Title VII’s  and the
+ADEA’s statutory language prohibit policies that have a disparate impact, the Age Discrimination
+Act’s statutory language does not. 145 Instead, the Age Discrimination Act’s  disparate-impact
+language is found only in its regulations.146 Noting that the Age Discrimination Act’s “prohibition
+is almost identical to Title VI of the Civil Rights Act, which prohibits only intentional
+discrimination,” the Fifth Circuit found that “if a statutory provision prohibits only intentional
+discrimination . . . regulations adopted to effectuate the provision may be enforceable through its
+private cause of action only to the extent that they, too, prohibit intentional discrimination.”147
+
+142 Compare 42 U.S.C. § 12132 (“[N]o qualified individual with a disability shall, by reason of such disability, be
+excluded from participation in or be denied the benefits of the services, programs, or activities of a public entity, or
+be subjected to discrimination by any such entity.”) with 29 U.S.C. § 794 (“No otherwise qualified individual with a
+disability in the United States . . . shall, solely by reason of her or his disability, be excluded from the participation in,
+be denied the benefits of, or be subjected to discrimination under any program or activity receiving Federal financial
+assistance . . . .”).
+143 United States v. Baylor Univ. Med. Ctr. , 736 F.2d 1039, 1043 (5th Cir. 1984)  (“[Section] 505(a)(2) of the
+Rehabilitation Act points directly to Title VI as a model for Section 504 . . . .” (internal citations omitted)).
+144 592 F. App'x 282, 285 (5th Cir. 2014).
+145 Id. at 286.
+146 Id.
+147 Id. (quoting Ability Ctr. of Greater Toledo v. City of Sandusky, 385 F.3d 901, 906 (6th Cir. 2004)); see also Frame v.
+City of Arlington , 657 F.3d 215, 224 (5th Cir. 2011) (“Moreover, to the extent Title II’s implementing regulations
+‘simply apply’ Title II’s substantive ban on disability discrimination and do not prohibit conduct that Title II permits,
+they too are enforceable through Title II’s private right of action.” (citing Alexander v. Sandoval , 532 U.S. 275, 285
+(2001))).
+Case 2:25-cv-01054-DJP-MBN     Document 72     Filed 03/17/26     Page 23 of 54
+24
+
+Not only does Title II’s language nearly mirror that of the Age Discrimination Act’s,148 but
+examining Title II alongside Titles I and III yields results analogous to the Kamp Court’s
+comparison of the Age Discrimination Act with Title VII and the ADEA . Title I (employment)
+and Title III (public accommodations) both contain disparate -impact language, but Title II does
+not; instead, the disparate-impact language found in Titles I and III is found only in the regulations
+of Title II.149 And the principles of statutory interpretation instruct the Court to give weight to this
+omission: “[W]here Congress includes particular language in one  section of a statute but omits it
+in another section of the same Act, it is generally presumed that Congress acts intentionally and
+purposely in the disparate inclusion or exclusion.” 150 Further, to find that Title II also creates a
+private cause of action for disparate impact would render the disparate -impact language in Titles
+I and III superfluous, and this Court is “reluctan[t] to treat statutory terms as surplusage” in any
+setting.151
+In short, where  the Fifth Circuit has not held that a private right of action for disparate -
+impact liability  exists under Title II, Title II’s text indicates it does not, and Supreme Court
+precedent is indeterminate, this Court would be remiss to find that such a cause of action is
+
+148 Compare 42 U.S.C. § 12132 with 42 U.S.C. § 6102 (“Pursuant to regulations prescribed under section 6103 of this
+title, and except as provided by section 6103(b) and 6103(c) of this title, no person in the United States shall, on the
+basis of age, be excluded from participation in, be denied the benefits of, or be subjected to discrimination under, any
+program or activity receiving Federal financial assistance.”).
+149 Compare 42 U.S.C. § 12112(b)(6) (“As used in subsection (a), the term “discriminate against a qualified individual
+on the basis of disability” includes . . . using qualification standards, employment tests or other selection criteria that
+screen out or tend to screen out an individual with a disability or a class of individuals with disabilities . . . .” and 42
+U.S.C. § 12182(b)(2) (“For purposes of subsection (a), discrimination includes . . . the imposition or application of
+eligibility criteria that screen out or tend to screen out an individual with a disability or any class of individuals with
+disabilities . . . .”) with 28 C.F.R. § 35.130(b)(8) (“A public entity shall not impose or apply eligibility criteria that
+screen out or tend to screen out an individual with a disability or any class of individuals with disabilities from fully
+and equally enjoying any service, program, or activity . . . .).
+150 Russello v. United States, 464 U.S. 16, 23 (1983) (quoting United States v. Wong Kim Bo, 472 F.2d 720, 722 (5th
+Cir. 1972)).
+151 Babbitt v. Sweet Home Chapter of Communities for a Great Oregon, 515 U.S. 687, 698 (1995) ; United States v.
+Menasche, 348 U.S. 528, 520 (1955) (“It is [a court’s] duty ‘to give effect, if possible, to every clause and word of a
+statute . . . .’” (quoting Inhabitants of Montclair Twp. v. Ramsdell , 107 U.S. 147, 152 (1883)) ). See also Williams v.
+Taylor, 529 U.S. 362, 404 (2000) (quoting Ramsdell, 107 U.S. at 152) (describing this rule as a “cardinal principle of
+statutory construction”).
+Case 2:25-cv-01054-DJP-MBN     Document 72     Filed 03/17/26     Page 24 of 54
+25
+
+cognizable under Title II. Accordingly, O.E.’s ADA claim under the disparate-impact theory is not
+cognizable.
+b.  Conscious Discrimination or Disparate Treatment
+O.E.’s ADA claim , however, does not end there because his complaint also contains
+allegations that implicate the disparate- treatment or conscious -discrimination and failure -to-
+accommodate theories. Both are avenues to ADA liability in the Fifth Circuit.152
+ Starting with the disparate -treatment claim, O.E. implies that Willow is  using the Iowa
+Assessment as a pretext to exclude students with intellectual disabilities  so that it receives a
+“windfall” in government funding. In his opposition, O.E. makes clear that he is not alleging
+disparate treatment in his personal experience  through the admissions process . In other words ,
+O.E. concedes that he was treated equally as  other students going through the admissions
+process.153 Because he abandons that argument, the Court will not analyze his ADA claim  under
+that set of facts. Instead, the Court considers O.E.’s allegations that the use of the Iowa Assessment
+in Willow’s admissions process is an illegal policy because it is being used to discriminate against
+or exclude students with disabilities.
+It is undisputed that O.E. was “excluded” from Willow because he did not obtain the
+necessary score on the Iowa Assessment to be eligible for admission into Willow. The key inquiry
+for purposes of his ADA claim is whether such exclusion is “by reason of his disability.” The “by
+reason of disability” element requires facts “making it ‘plausible that he was discriminated against
+“because of”’ —but not necessarily solely because of —his disability.” 154 In other words , the
+
+152 Carter as next of friend of Carter v. City of Shreveport, 144 F.4th 809, 813 (5th Cir. 2025).
+153 R. Doc. 38 at 8.
+154 Pickett v. Texas Tech Univ. Health Scis. Ctr., 37 F.4th 1013, 1033 (5th Cir. 2022) (quoting Olivarez v. T -Mobile
+USA, Inc., 997 F.3d 595, 601 (5th Cir. 2021)).
+Case 2:25-cv-01054-DJP-MBN     Document 72     Filed 03/17/26     Page 25 of 54
+26
+
+“[d]isability-related animus ‘need not be the sole reason’ for the challenged decision.” 155 Thus,
+O.E. must show a causal connection between his exclusion from Willow and his intellectual
+disability, but he need only show that the disability “play[ed] a role ” in the exclusion and that it
+had “a determinative influence on the outcome.” 156 Specifically, O.E. “must include facts that
+allow the court to reasonably infer that his disability affected the decision.” 157 “After assuming
+those allegations to be true, [the court] must undertake a ‘sensitive inquiry into such circumstantial
+and direct evidence of intent as may be available.’”158
+Stripping away all legal conclusions, the complaint’s factual allegations  relevant to the
+ADA claim  can be boiled down to the following: (1) Willow is  a public charter school  in a
+charter-school district that educates students in grades kindergarten through twelfth and has elected
+to establish itself as its own LEA ;159 (2) Willow is receiving  “per pupil” funding from the
+government, some of which is dedicated to serving students with disabilities ;160 (3) Willow
+currently has no students with “profound cognitive disabilities requiring a special -education
+curriculum;”161 (4) Willow requires all students applying for admission to sit for an academic
+achievement assessment called the Iowa A ssessment;162 and (5) prospective students must attain
+a minimum score on this assessment or else be disqualified from continuing with the admissions
+process.163 O.E. alleges that this creates a “windfall” in government funding for Willow, implying
+that Willow is intentionally or consciously excluding students with intellectual disabilities for
+
+155 Pickett, 37 F.4th at 1033 (quoting Soledad v. U.S. Dep't of Treasury , 304 F.3d 500, 503 (5th Cir. 2002) (quoting
+Ahrens v. Perot Sys. Corp., 205 F.3d 831, 835 (5th Cir. 2000))).
+156 Pickett, 37 F.4th at 1033 (quoting Soledad, 304 F.3d at 503–04).
+157 Pickett, 37 F.4th at 1033 (citing Olivarez, 997 F.3d at 601).
+158 Pickett, 37 F.4th at 1033 (quoting Vill. of Arlington Heights v. Metro. Hous. Dev. Corp., 429 U.S. 252, 266 (1977)).
+159 R. Doc. 1 ¶¶ 6, 46.
+160 Id. ¶¶ 62–63.
+161 Id. ¶ 65.
+162 Id. ¶ 83.
+163 Id. ¶ 85.
+Case 2:25-cv-01054-DJP-MBN     Document 72     Filed 03/17/26     Page 26 of 54
+27
+
+financial gain.164 But this cleverly pled narrative requires the Court to make the sort of inferential
+leap that is prohibited by Twombly and Iqbal.
+Although it is possible that Willow may have adopted the Iowa  Assessment, at least in part, to
+exclude students with intellectual disabilities, without more, it is only “merely consistent with”
+liability and “stops short of the line between possibility and plausibility.”165 That is because, when
+drawing on experience and common sense, there are “more likely explanations” for Willow’s
+decision to use an achievement assessment in its admissions process. 166 Namely, accepting the
+windfall theory would require this Court to ignore the generally known fact  that there exist
+elementary and high schools with additional academic admission requirements, which is especially
+pertinent given that Louisiana law allows such schools. 167  Although the general legality of such
+schools or such admissions practices has been a topic of discussion, that issue is not the one
+presently before this Court.168 The issue here is a much narrower one: whether O.E. has plausibly
+alleged that the exclusion of students with intellectual disabilities played a role in Willow’s
+decision to use the Iowa Assessment in its admissions process. And he has not.
+That is because O.E. pleads no facts  suggesting students with an intellectual disability
+played a role in Willow’s decision to use the Iowa A ssessment in its admissions process. He
+includes allegations that attempt to paint Willow in a sinister light, but these allegations collapse
+
+164 Id. ¶ 63.
+165 Ashcroft v. Iqbal, 556 U.S. 662, 678 (2009) (quoting Bell Atl. Corp. v. Twombly, 550 U.S. 544, 557 (2007)).
+166 See Iqbal, 556 U.S. at 663–64, 681–82.
+167 See La. Stat. Ann. §§ 17:3991(B)(3). See also C.O. v. Portland Pub. Schs., 679 F.3d 1162, 1169–70 (9th Cir. 2012)
+(“In particular, Congress has explicitly contemplated that public school districts might create magnet and charter
+programs. . . . Hundreds of school districts have taken advantage of these procedures, many creating schools with
+competitive admissions policies more stringent than those here. And yet, we know of no case holding such institutions
+liable for violations of the ADA or Rehabilitation Act.”).
+168 See, e.g., Suzanne E. Eckes & Jonathan A. Plucker, Charter Schools and Gifted Education: Legal Obligations , 34
+J.L. & Educ. 421 (2005); Janet R. Decker, J.D., Ph.D. (ABD), Suzanne E. Eckes, J.D., Ph.D., & Jonathan A. Plucker,
+Ph.D., Charter Schools Designed for Gifted and Talented Students: Legal and Policy Issues and Considerations, 259
+Ed. Law Rep. 1 (2010); Jay P. Heubert,  Schools Without Rules? Charter Schools, Federal Disability Law, and the
+Paradoxes of Deregulation, 32 Harv. C.R.-C.L. L. Rev. 301 (1997). But see C.O., 679 F.3d at 1169–70.
+Case 2:25-cv-01054-DJP-MBN     Document 72     Filed 03/17/26     Page 27 of 54
+28
+
+under closer scrutiny. First, he alleges that , “prior to 2015,” Willow, when it was known as
+“Lusher,” was forced by the state attorney general  to disclose the name of its prior admissions
+assessment after it had initially refused to do so.169  While such alleged “secrecy” may be suspect,
+this isolated incident occurred ten plus years ago when Willow operated under a different name,
+involved a different assessment, and possibly occurred under different leadership. Thus, its
+relevance here is attenuated. Second, he alleges that “Willow has also used confusing and
+Kafkaesque procedures” that were allegedly “designed to weed out certain families,” such as
+“refusing to accept applications from 11 a.m. to 1 p.m.”170 Not only is much of this allegation
+conclusory, but it too concerns events that took place ten plus years ago. Further, it is unclear how
+these “confusing and Kafkaesque”  procedures target families who have  intellectually disabled
+children. Such remote allegations  do not support an inference  that students with intellectual
+disabilities played a role in Willow’s decision to use the Iowa A ssessment in its admissions
+process.171
+Also relevant, O.E., who admits that the Iowa Assessment is an achievement test,
+Generally, an
+172 alleges
+that “[t]he IOWA assessment is an examination that identifies a student’s ‘intelligence level’ or
+identifies a student as a ‘student with an exceptionality.’”173 But as a matter of ordinary meaning,
+an achievement test is distinct from a test that measures intelligence .  achievement
+test measures what someone has done, that is, what he or she has learned, while a test that assesses
+for intelligence measures what someone can do, that is, one’s potential or ability to learn. O.E.
+
+169 R. Doc. 1 ¶¶ 87–89.
+170 Id. ¶¶ 90–91.
+171 See Iqbal, 556 U.S. at 679 (“A claim has facial plausibility when the plaintiff pleads factual content that allows the
+court to draw the reasonable inference that the defendant is liable for the misconduct alleged.”).
+172 R. Doc. 1 ¶ 83 (“As noted, Willow requires all students applying for admissions (even kindergarteners) to s it for
+an achievement ‘assessment,’ called the IOWA assessment.”); see also R. Doc. 1 at 1 (“Instead, it accepts only those
+who obtain a certain score on a 3-hour ‘assessment,’ an achievement test called the ‘IOWA assessment.’”).
+173 Id. ¶ 134.
+Case 2:25-cv-01054-DJP-MBN     Document 72     Filed 03/17/26     Page 28 of 54
+29
+
+contends that this distinction is “legally irrelevant” because “[r]egardless of what label one attaches
+to the assessment, the outcome is the same: O.E. cannot achieve the minimum score because of
+his disability.”178 But the distinction is relevant: an intelligence test is ordinarily designed to
+measure general cognitive ability, the defining characteristic of the disability at issue, while an
+achievement test is ordinarily designed to measure mastery of specific academic content typically
+acquired through academic instruction.179 Although some level of cognitive ability is needed to
+“pass” an achievement test, the achievement test measures much more, namely a student’s mastery
+of academic content, which experience and common sense tell us is affected by a host of factors,
+like prior schooling, parental involvement, home life, personality traits, et cetera. If Willow were
+to use an intelligence test in its admissions process, then it would be  plausible to say it was
+excluding children based on intellectual disability because Willow would be assessing for the very
+defining feature of the disability. But by using an academic achievement test, Willow is assessing
+for mastery of academic content.
+Even though O.E. alleges that the Iowa A ssessment “identifies a student’s ‘intelligence
+level’ or identifies a student as a ‘student with an exceptionality ,’ he also alleges that the Iowa
+Assessment measures reading and math. 180 And in his opposition, he supports this allegation ,
+explicitly stating that the Iowa A ssessment “is a multiple -choice exam that tests a child’s ability
+
+178 R. Doc. 38 at 15.
+179 Compare Hall v. Fla., 572 U.S. 701, 710– 14 (2014) (“In the context of a formal assessment, ‘[t]he existence of
+concurrent deficits in intellectual and adaptive functioning has long been the defining characteristic of intellectual
+disability.’”) (defining intellectual disability according to three criteria, one of which is significantly subaverage
+intellectual functioning, and explaining that intellectual functioning is usually measured with a standardized
+intelligence test) with Montgomery v. Starkville Mun. Separate Sch. Dist. , 665 F. Supp. 487, 495 (N.D. Miss.
+1987), aff'd, 854 F.2d 127 (5th Cir. 1988) (noting that “[s]tudents are required to take an achievement test once a year
+to determine how well they are learning the material taught in class”).  See also Simpson v. Quarterman, 593 F. Supp.
+2d 922, 937 (E.D. Tex. 2009) (noting that “grades and achievement test scores do not measure IQ”).
+180 R. Doc. 1 ¶ 117 (“O.E.’s scores on the IOWA assessment were as follows: 8 percentile in reading; 2 percentile in
+math.”).
+Case 2:25-cv-01054-DJP-MBN     Document 72     Filed 03/17/26     Page 29 of 54
+30
+
+in reading, math, and various other subjects, as compared to their peers.” 181 This is a textbook
+description of an academic achievement test, and besides O.E.’s blanket assertion that the test
+identifies a student’s intelligence or exceptionalities, there are no factual allegations that allow this
+Court to reasonably infer that the Iowa  Assessment measures intelligence. That is, there are no
+facts showing how or why that is so. Therefore, this Court cannot reasonably infer that Willow is
+measuring applicants’ intelligence or general cognitive ability.  In sum , O.E. has  not plausibly
+alleged that Willow’s use of the Iowa Assessment in its admissions process is connected to the
+disability in question in a manner that would support an inference of conscious discrimination and
+thus has failed to adequately plead a conscious-discrimination or disparate-treatment claim.
+c. Failure to Accommodate
+In addition to its prohibition on disability discrimination, Title II also imposes an
+“affirmative obligation” on public entities to make “reasonable modifications to rules, policies, or
+practices” for disabled individuals, 182 “unless the entity can show that a modification would
+‘fundamentally alter the nature’ of the service or program it offers.”183 Accordingly, “[t]he failure-
+to-accommodate theory augments the last element of the general ADA claim such that
+discrimination ‘by reason of his disability’ is established  ‘by showing that the disability and its
+consequential limitations were known by the covered entity, and the entity failed to make
+reasonable accommodations.’”184 “But Title II ‘does not require States to compromise their
+essential eligibility criteria for public programs’ —‘[i]t requires only reasonable modifications,’
+and ‘only when the individual seeking modification is otherwise eligible for service.’”185
+
+181 R. Doc. 38 at 3 (citing R. Doc. 1 ¶ 117).
+182 42 U.S.C. § 12131(2). See also Bennett-Nelson v. Louisiana Bd. of Regents, 431 F.3d 448, 454 (5th Cir. 2005).
+183 Block v. Texas Bd. of L. Examiners, 952 F.3d 613, 618 (5th Cir. 2020).
+184 Carter as next of friend of Carter v. City of Shreveport, 144 F.4th 809, 814 (5th Cir. 2025).
+185 Block, 952 F.3d at 618 (quoting Tennessee v. Lane, 541 U.S. 509, 532 (2004)).
+Case 2:25-cv-01054-DJP-MBN     Document 72     Filed 03/17/26     Page 30 of 54
+31
+
+To succeed on a failure- to-accommodate claim, a plaintiff must show that in addition to
+being a qualified individual with a disability, that “the disability and its consequential limitations
+were known by the covered entity; and the entity failed to make r easonable accommodations.”186
+The “knowledge requirement is satisfied when either (1) the plaintiff ‘specifically identif[ies] the
+disability and resulting limitations’ and . . . request[s] an accommodation in ‘direct and specific’
+terms,’ or (2) ‘the disability, resulting limitation[s], and necessary reasonable accommodation’
+were ‘open, obvious, and apparent’ to the entity’s relevant agents.”187
+The knowledge element is plainly satisfied by O.E.’s allegations. Willow had knowledge
+of O.E.’s disability and resulting limitations when O.E.’s father sent Willow O.E.’s IEP, along
+with “myriad medical documents” and a note from O.E.’s pediatrician.188 Additionally, O.E.
+requested the sought-after accommodation in terms that could not be any more direct or specific
+by explicitly asking Willow to waive the assessment. 189 It is undisputed that O.E. received
+accommodations on the assessment, but in his opposition, O.E. makes clear that he is only
+concerned with waiver of the assessment itself.190 Thus, whether O.E. states a plausible claim for
+relief under this theory boils down to whether waiver of the Iowa Assessment is reasonable.191
+“An accommodation is reasonable if ‘it does not impose undue financial or administrative
+burdens or fundamentally alter the nature of the service, program, or activity.’” 192  Although the
+public-entity defendant may raise fundamental alteration or undue burden as a defense, the plaintiff
+
+186 Pickett v. Texas Tech Univ. Health Scis. Ctr., 37 F.4th 1013, 1032 (5th Cir. 2022) (quoting Smith v. Harris Cnty. ,
+956 F.3d 311, 317 (5th Cir. 2020)).
+187 Carter as next of friend of Carter, 144 F.4th at 814.
+188 R. Doc. 1 ¶¶ 105–06.
+189 Id. ¶¶ 95–96.
+190 R. Doc. 38 at 13–14.
+191 Bennett-Nelson v. Louisiana Bd. of Regents , 431 F.3d 448, 455 (5th Cir. 2005) (“[T]he existence of a violation
+depends on whether under . . . the ADA, the demanded accommodation is in fact reasonable and therefore required.”).
+192 Smith v. Harris Cnty., Texas, 956 F.3d 311, 317 (5th Cir. 2020) (quoting Cadena v. El Paso Cnty., 946 F.3d 717,
+724 (5th Cir. 2020) (quoting 28 C.F.R. § 35.130(b)(7))).
+Case 2:25-cv-01054-DJP-MBN     Document 72     Filed 03/17/26     Page 31 of 54
+32
+
+“bears the burden of showing that he requested the accommodation and that it was reasonable.”193
+Because O.E.’s requested accommodation is waiver of an eligibility criterion, however, O.E.’s
+failure-to-accommodate claim is inextricably linked with the question of whether O.E. is
+“qualified” to attend Willow.
+Title II applies only to “qualified individual[s] with a disability.” An individual with a
+disability is “qualified” if he “meets the essential eligibility requirements” “with or without
+reasonable modifications to rules, policies, or practices[.]”194 Accordingly, “an individual does not
+need to satisfy non-essential program requirements to be ‘otherwise qualified.’”195 “A requirement
+is ‘essential’ if ‘the nature of the program would be fundamentally altered’ without it.”196 “Courts
+have therefore reasoned that essential eligibility requirements, unlike ‘rules, policies, [and]
+practices,’ . . . are not subject to reasonable modification or waiver.”197 Thus,  whether waiver of
+the Iowa Assessment is a “reasonable modification” to Willow’s admissions policy speaks directly
+to whether O.E. is “qualified” to attend Willow. If obtaining the minimum score on the Iowa
+Assessment is an “essential” requirement, then waiver of the assessment is not “reasonable,” as
+waiver would result in a fundamental alteration of the program. Thus, the inquiry starts with
+whether waiver of the Iowa Assessment is an “essential” eligibility requirement.
+The Fifth Circuit explored what makes an eligibility requirement essential when analyzing
+a § 504 disability discrimination claim in Shaikh v. Texas A&M University College of Medicine.198
+At the motion-to-dismiss stage, t he Shaikh Court sought to determine whether a medical school
+student had satisfied a medical school program’s “essential” requirements , namely, whether
+
+193 Block v. Texas Bd. of L. Examiners, 952 F.3d 613, 618 (5th Cir. 2020).
+194 42 U.S.C. § 12131(2) (emphasis added).
+195 Shaikh v. Texas A&M Univ. Coll. of Med., 739 F. App'x 215, 220 (5th Cir. 2018) (omitting citations).
+196 Id. (citing Mary Jo C. v. New York State & Loc. Ret. Sys., 707 F.3d 144, 158 (2d Cir. 2013)).
+197 Mary Jo C., 707 F.3d at 156.
+198 739 F. App'x at 220–21.
+Case 2:25-cv-01054-DJP-MBN     Document 72     Filed 03/17/26     Page 32 of 54
+33
+
+passing a required exam by the end of a certain time period was an “essential requirement” or just
+“a requirement.” 199 In finding that passing the exam in a timely manner was not essential, t he
+Shaikh Court noted that “nothing on the face of his complaint establishes that doing so was an
+‘essential’ requirement of the program.”200
+Conversely, here, the facts alleged in the complaint tend to establish that the Iowa
+Assessment is an “essential” requirement of Willow’s program. O.E. alleges that “Willow requires
+all students applying for admission (even kindergarteners)” to sit for the Iowa A ssessment.201 He
+further alleges that prospective students must attain the minimum score or else be disqualified and
+that “a student’s score on the IOWA assessment makes up the largest share of the possible point
+total” for a student’s matrix score.202 And “ [t]he higher [an applicant] scores, the higher [an
+applicant’s] chances of admission.” 203 Thus, the very mechanism that Willow uses to determine
+eligibility prioritizes an applicant’s score on the Iowa Assessment more than any other eligibility
+requirement. The fact that this criterion constitutes the largest component of the eligibility matrix
+strongly suggests that it is central to the admissions determination, as opposed to a peripheral
+consideration. This in turn suggests the assessment criterion is fundamental to the nature of
+Willow’s program . Accordingly, it is speculative whether  O.E. is even “qualified” to attend
+Willow.204
+Even assuming O.E. is a qualified individual, O.E. has failed to plausibly allege that waiver
+of the Iowa Assessment is reasonable. By its definition, the reasonableness determination requires
+an inquiry into the nature of Willow’s  program, but O.E. alleges no facts whatsoever regarding
+
+199 See id.
+200 Id.
+201 R. Doc. 1 ¶ 83.
+202 R. Doc. 1 ¶¶ 85, 92.
+203 Id.  ¶ 94.
+204 Bell Atl. Corp. v. Twombly, 550 U.S. 544, 555 (2007) (“Factual allegations must be enough to raise a right to relief
+above the speculative level.”).
+Case 2:25-cv-01054-DJP-MBN     Document 72     Filed 03/17/26     Page 33 of 54
+34
+
+Willow’s program. This is especially relevant where a purpose of charter schools in Louisiana is
+to support innovation, which necessarily permits such schools to pursue educational missions that
+differ from those of traditional public schools.
+Further, Louisiana law requires charter schools to have a mission, and, to that end, allows
+certain charter schools to use admissions requirements that “incorporate[] achievement of a certain
+academic record” if those admissions requirements are “related to the school’s mission, scope, or
+role.”205 But the complaint is completely devoid of any facts regarding Willow’s mission, purpose,
+role, or scope; in fact, outside of his allegation that all of Willow’s students require only a general
+education curriculum, O.E.  provides no facts  whatsoever about the school’s curriculum,
+instruction, or program. Also, he provides no substitute to the Iowa Assessment criterion, such as
+consideration of O.E.’s past grades  in its place , and thus complete waiver would give O.E. a
+distinct advantage over his peers, who are required to take the assessment and obtain the requisite
+score.206 Thus, O.E. has established no facts allowing this Court to draw a reasonable inference
+that waiving the Iowa Assessment is a reasonable accommodation.
+In his opposition, O.E. argues that the assessment is not “necessary” because Willow’s
+“testing requirement is not a ‘necessary’ condition of educating students.”207 But this statement is
+completely devoid of law and context. At this level of generality, almost no condition is
+“necessary” to educate a student; taken to its logical conclusion, O.E.’s argument would eliminate
+all discretionary admissions criteria in public education, even at the postsecondary education level,
+on the theory that education can occur without them.  O.E. also contends that “[i]t would be absurd
+for Willow to argue that screening out students is ‘necessary’ when the school explicitly agreed to
+
+205 La. Stat. Ann. § 17:3991(B)(3).
+206 See Hammel v. Eau Galle Cheese Factory, 407 F.3d 852, 867  (7th Cir. 2005) (“Accommodations which require
+special dispensations and preferential treatment are not reasonable under the ADA . . . .”).
+207 R. Doc. 38 at 11.
+Case 2:25-cv-01054-DJP-MBN     Document 72     Filed 03/17/26     Page 34 of 54
+35
+
+educate students with intellectual disabilities under federal and state law.” 208 This argument,
+however, is circular because it assumes that Willow’s use of the Iowa Assessment violates the
+ADA.
+Finally, O.E. asserts that  “[w]hile Willow did make modifications to its usual ‘policies,
+practices, or procedures,’ . . . the issue here is more fundamental, as the ‘eligibility criteria’ itself
+‘screen[s] out or tend[s] to screen out’ intellectually disabled students . . . .” 209 “In other words,”
+he asserts, “no amount of accommodations or modifications —short of waiving the test
+altogether—could ever eliminate the discriminatory effect.” 210 Thus, according to O.E., “the
+‘modifications’ that Willow provided were not ‘reasonable.’” 211 But O.E. is mistaken: the law is
+clear—reasonableness is not the same as effectiveness. That is, whether an accommodation is
+reasonable does not depend on how well it accommodates the handicapped individual; instead, it
+concerns the effect the requested accommodation has on the entity providing the
+accommodation.212 Further, this argument is an  attempt to repackage the disparate-impact claim
+as a failure-to-accommodate claim.213 In making this argument, O.E. effectively seeks to invalidate
+the eligibility criterion because of its alleged screening -out effect. But a failure -to-accommodate
+claim presupposes that some reasonable modification will allow plaintiff meaningful access to the
+program. By conceding that no accommodation or modification will suffice, O.E.’s failure -to-
+accommodate claim collapses into a challenge to the policy itself, i.e., a disparate-impact claim.
+
+208 Id.
+209 Id. at 13 (citing 28 C.F.R. § 35.130(b)(7)–(8)).
+210 Id. at 13.
+211 Id. (citing 28 C.F.R. § 35.130(b)(7)).
+212 See Smith v. Harris Cnty., Texas, 956 F.3d 311, 317 (5th Cir. 2020) (explaining that an accommodation is reasonable
+if it does not impose undue burdens on the public entity or fundamentally alter the nature of the entity’s program,
+service, or activity).
+213 See Sosa v. Massachusetts Dep't of Correction, 80 F.4th 15, 31 (1st Cir. 2023) (“[A] reasonable accommodation
+claim focuses on ‘an individualized request or need’ for a reasonable modification, while a disparate impact claim
+alleges a more ‘systemic’ obstacle to access.” (citing Payan v. Los Angeles Cmty. Coll. Dist., 11 F.4th 729, 738 (9th
+Cir. 2021)).
+Case 2:25-cv-01054-DJP-MBN     Document 72     Filed 03/17/26     Page 35 of 54
+36
+
+In short, although a “Rule 12(b)(6) motion to dismiss is not well suited to th[e]  type of
+evidence-intensive inquiry” implicated by a failure -to-accommodate claim, O.E. must still clear
+Twombly and Iqbal’s plausibility hurdle.214 And for the reasons stated above, the Court finds that
+O.E. has not.
+ii. Wheelchair Accessibility of Willow’s Lower-School Campus
+O.E.’s wheelchair-accessibility claim must meet the same three-element test applicable to
+all Title II claims.215 If Willow’s program is not readily accessible to a qualified individual with a
+disability because its facilities are not wheelchair accessible, and thus that individual is excluded
+from Willow by reason of his disability, the individual will have stated a claim under the ADA for
+wheelchair accessibility.216
+Even assuming O.E. is qualified to attend Willow, he does not sufficiently plead that
+Willow’s facilities are wheelchair inaccessible and thus fails on the “by reason of disability”
+element. In his attempt to plead that Willow’s lower-school campus is wheelchair inaccessible, he
+plainly alleges, multiple times , that “Willow’s lower -school campus is not wheelchair
+accessible.”217 But such an allegation is a legal  conclusion dressed up as a factual assertion  and
+not entitled to the assumption of  truth.218 O.E. does not point to facts showing how the lower-
+school campus is inaccessible. 219 He further alleges that the inaccessibility of the lower -school
+campus is the reason he took the assessment at Willow’s middle -school campus, but again, there
+
+214 Shaikh v. Texas A&M Univ. Coll. of Med., 739 F. App'x 215, 221 n.6 (5th Cir. 2018).
+215 See Greer v. Richardson Indep. Sch. Dist., 472 F. App'x 287, 292 (5th Cir. 2012).
+216 See id.
+217 R. Doc. 1 ¶ 116; see also R. Doc. 1 ¶¶ 139, 141.
+218 See Ashcroft v. Iqbal, 556 U.S. 662, 678–79 (2009) (quoting Bell Atl. Corp. v. Twombly, 550 U.S. 544, 555 (2007)).
+219 Iqbal, 556 U.S. at 678 (“Nor does a complaint suffice if it tenders ‘naked assertion[s]’ devoid of ‘further factual
+enhancement.’” (quoting Twombly, 550 U.S. at 557)); see also S. Christian Leadership Conf. v. Supreme Ct. of State
+of La., 252 F.3d 781, 786 (5th Cir. 2001)  (“[C]onclusory allegations or legal conclusions masquerading as factual
+conclusions will not suffice to prevent a motion to dismiss.” (quoting Fernandez -Montes v. Allied Pilots Ass’n , 987
+F.2d 278, 284 (5th Cir. 1993))).
+Case 2:25-cv-01054-DJP-MBN     Document 72     Filed 03/17/26     Page 36 of 54
+37
+
+are no facts showing why O.E. could not physically take the assessment at the lower -school
+campus. Were the lower -school classrooms inaccessible by wheelchair because they were only
+reachable by stairs? Were the lower -school classrooms inaccessible because they were unable to
+fit a wheelchair ? These are possible reasons for having O.E. take the assessment at the middle -
+school campus, but there are innumerable “obvious alternative explanations” having nothing to do
+with wheelchair accessibility, such as staffing and personnel issues, space constraints at the lower-
+school due to contemporaneously occurring school functions, or construction or repairs being done
+at the lower -school campus.220 Therefore, where the motion- to-dismiss standard “asks for more
+than a sheer possibility that a defendant has acted unlawfully,” the Court cannot find that O.E.’s
+wheelchair allegations are sufficient to survive a motion to dismiss, and thus he has failed to plead
+a Title II claim based on wheelchair inaccessibility of Willow’s lower-school campus.
+For the foregoing reasons, O.E.’s ADA claim cannot survive Rule 12(b)(6), and dismissal
+is warranted. But because the Court cannot conclude at this stage that —excluding the
+disparate-impact claim—amendment would be futile, the Court will permit O.E. an opportunity to
+file an amended complaint under Title II of the ADA.
+D. State Law Claims
+The Court possesses federal subject matter jurisdiction over the federal law claims under
+28 U.S.C. § 1331 and thus exercised supplemental jurisdiction over the state law claims, including
+the claim brought pursuant to the LHRA, under 28 U.S.C. § 1367(a). But § 1367 also allows a
+district court to decline the exercise of supplemental jurisdiction in certain circumstances when
+exercising supplemental jurisdiction may be imprudent.
+
+220 See Pickett v. Texas Tech Univ. Health Scis. Ctr., 37 F.4th 1013, 1034 (5th Cir. 2022) (“Plausibility just requires
+that there is no ‘obvious alternative explanation’ for the decision.”) (citing Iqbal, 556 U.S. at 682).
+Case 2:25-cv-01054-DJP-MBN     Document 72     Filed 03/17/26     Page 37 of 54
+38
+
+Where “all federal claims have been eliminated[,]” the “district court has ‘wide discretion’
+in deciding whether to retain jurisdiction over state law claims . . . .”221 Indeed, in the Fifth Circuit,
+the “general rule is to dismiss state claims when the federal claims to which they are pendent are
+dismissed.”222 But that rule is “neither mandatory nor absolute,” and the district court must
+“analyze the statutory and common law factors that are relevant to the question of its jurisdiction
+over pendent state law claims.”223
+The relevant statutory factors are those circumstances found in section 1367(c), including
+“(1) whether the state claims raise novel or complex issues of state law; (2) whether the state claims
+substantially predominate over the federal claims; (3) whether the federal claims have been
+dismissed; and (4) whether there are exceptional circumstances or other compelling reasons for
+declining jurisdiction.”224 “The common law factors . . . include judicial economy, convenience,
+fairness, and comity.” 225 “These interests are to be considered on a case- by-case basis, and no
+single factor is dispositive.”226
+Here, the second and third statutory factors collapse into each other and heavily weigh in
+favor of dismissal, especially given the Fifth Circuit’s general rule articulated above.227  Because
+all federal claims have been dismissed (the third factor), the state law claims wholly predominate
+over the non-existent federal law claims (the second factor). The first factor also tips the scales
+
+221 Enochs v. Lampasas Cnty., 641 F.3d 155, 161 (5th Cir. 2011) (citing Guzzino v. Felterman, 191 F.3d 588, 595 (5th
+Cir. 1999)).
+222 Parker & Parsley Petroleum Co. v. Dresser Indus., 972 F.2d 580, 585 (5th Cir. 1992) (citing Wong v. Stripling, 881
+F.2d 200, 204 (5th Cir. 1989)).
+223 Enochs, 641 F.3d at 160–61.
+224 Francis v. Louisiana, No. CV 21- 706, 2022 WL 1134935, at *2 (E.D. La. Apr. 18, 2022)  (V ance, J.) (quoting
+Enochs, 641 F.3d at 158–59 (citing 28 U.S.C. § 1367(c))).
+225 Enochs, 641 F.3d at 159.
+226 Mendoza v. Murphy, 532 F.3d 342, 346 (5th Cir. 2008) (citing Parker & Parsley Petroleum Co., 972 F.2d at 587).
+227 See Smith v. Amedisys Inc. , 298 F.3d 434, 447 (5th Cir. 2002) (“Considering the second and third factors, our
+analysis above affirms the trial court’s dismissal of the only federal claims alleged. Thus, the state law claims now
+predominate over the nonexistent federal claims.”).
+Case 2:25-cv-01054-DJP-MBN     Document 72     Filed 03/17/26     Page 38 of 54
+39
+
+toward dismissal because this case potentially involves statutory interpretation questions regarding
+Louisiana’s charter school law. 228 Therefore, the balance of the statutory factors weighs in favor
+of dismissal.
+The common law factors too support dismissal. First, judicial economy would not be served
+by retaining jurisdiction over the LHRA and negligence claims because this case is still in its early
+stages and has mainly involved only early- stage pleadings.229 Although a preliminary injunction
+hearing was held, that hearing concerned only the federal law claims. Second, dismissal will likely
+not cause undue inconvenience to the litigants because it is unlikely that much discovery has been
+completed at these early stages , and the applicable state court , along with the parties, evidence,
+and witnesses, are all located in New Orleans, Louisiana. 230 Third, and in that same vein,  the
+parties will likely not be unduly prejudiced by dismissal ; as just indicated, the parties probably
+will not have to repeat much of the effort and expense of the discovery process. 231 Further, O.E.
+will have the same amount of time to file his state suit as he had to file his federal suit because ,
+under Louisiana law, the entire prescriptive period runs anew from the date of dismissal if a suit
+is involuntarily dismissed without prejudice.232 Additionally, “allowing Louisiana courts to rule
+on Louisiana law encourages fairness between the parties ‘by procuring them a surer -footed
+reading of applicable law.’”233 Finally, comity considerations only further favor dismissal as “[t]he
+
+228 See R. Doc. 30-1 at 18–19.
+229 See Parker & Parsley Petroleum Co., 972 F.2d at 587–88.
+230 See Hicks v. Austin Indep. Sch. Dist. , 564 F. App'x 747, 749 (5th Cir. 2014) (per curiam) (comparing locations of
+federal and state courthouses when balancing common law factors).
+231 See Parker & Parsley Petroleum Co., 972 F.2d at 588.
+232 Henry v. Sw. Airlines , 23 -522 (La. App. 5 Cir. 7/31/24), 392 So. 3d 1176, 1182,  writ denied , 2024-1081 (La.
+11/20/24), 396 So. 3d 68 (citing Louisiana appellate court cases and a Louisiana Supreme Court case); see also Artis
+v. D.C., 583 U.S. 71, 88 (2018) (explaining that in some cases, the state -law tolling period “undoubtedly will” be
+longer than § 1367(d)’s 30-day grace period, like Louisiana, which “provides that after dismissal the limitations period
+‘run anews’” (citing La. Civ. Code Ann. arts. 3462, 3466 (West 2007))).
+233 Watt v. New Orleans City, 647 F. Supp. 3d 496, 507 (E.D. La. 2022),  aff'd, No. 23-30050, 2023 WL 6807033 (5th
+Cir. Oct. 16, 2023) (citing Fountain v. New Orleans City, No. CV 18-145, 2018 WL 3475375, at *2 (E.D. La. July 19,
+2018) (quoting United Mine Workers of Am. v. Gibbs, 383 U.S. 715, 726 (1966))).
+Case 2:25-cv-01054-DJP-MBN     Document 72     Filed 03/17/26     Page 39 of 54
+40
+
+federal courts are courts of limited jurisdiction, and often are not as well equipped for
+determinations of state law as are state courts.” 234 Given that both the statutory and common law
+factors weigh in favor of dismissal, this Court declines to exercise supplemental jurisdiction over
+O.E.’s remaining state law claims.
+III. PRELIMINARY INJUNCTION
+Having addressed the motion to dismiss , the Court  now turns to O.E.’s motion for
+preliminary injunction.235 “A court considering a motion to dismiss and a motion for preliminary
+injunction simultaneously will commonly deny the motion for a preliminary injunction as moot if
+it determines dismissal is appropriate.”236 Given the nature of this case, namely its compressed
+timeline and the likelihood of an appeal, it is worth separately addressing the motion for
+preliminary injunction.237
+In his motion, O.E. seeks to enjoin Willow from “using an ‘achievement’ test as a criteria
+in admissions.”238  In response, Willow incorporates, and relies largely on, its motion to dismiss
+and memorandum in support of the motion.239 At the preliminary injunction hearing, Willow also
+purported to make new arguments, including O.E.’s lack of standing under the ADA. The Court
+declines to consider these arguments, as they were raised for the first time at the hearing.
+A. Legal Standard
+“A preliminary injunction is an ‘extraordinary and drastic remedy . . . .”240 As such “[t]he
+decision to grant a preliminary injunction is to be treated as the exception rather than the rule.”241
+
+234 Parker & Parsley Petroleum Co., 972 F.2d at 588–89 (internal citation omitted).
+235 R. Doc. 16.
+236 Orbit Sports LLC v. Taylor, 546 F. Supp. 3d 832, 850 (D. Minn. 2021).
+237 See id.
+238 Id.
+239 R. Doc. 27 at 3.
+240 Munaf v. Geren, 553 U.S. 674, 689 (2008).
+241 Mississippi Power & Light Co. v. United Gas Pipe Line Co., 760 F.2d 618, 621 (5th Cir. 1985).
+Case 2:25-cv-01054-DJP-MBN     Document 72     Filed 03/17/26     Page 40 of 54
+41
+
+“It should only be granted if the movant has clearly carried the burden of persuasion” on the
+following four prerequisites:
+(1) a substantial likelihood that the plaintiff will prevail on the
+merits, (2) a substantial threat that irreparable injury will result if the
+injunction is not granted, (3) that the threatened injury outweighs the
+threatened harm to the defendant, and (4) that granting the
+preliminary injunction will not disserve the public interest.242
+
+“The purpose of a preliminary injunction is merely to preserve the relative positions of the
+parties until a trial on the merits can be held.”243 “Given this limited purpose, and given the haste
+that is often necessary if those positions are to be preserved, a preliminary injunction is customarily
+granted on the basis of procedures that are less formal and evidence that is less complete than in a
+trial on the merits.”244 Thus, “the findings of fact and conclusions of law made by a court granting
+a preliminary injunction are not binding at trial on the merits.”245
+B. Factual Findings
+Based on the evidence presented at the preliminary injunction hearing, including witness
+testimony and admitted exhibits, the Court makes the following findings. These findings are made
+solely for purposes of the Court’s preliminary injunction analysis and do not constitute final
+findings of fact on the merits.
+i. NOLA-PS
+The additional facts presented at the preliminary injunction hearing provide fuller context
+of Willow’s role as a school within Orleans Parish. New Orleans Public Schools (“NOLA -PS”),
+which is described as a “community of schools,” is a unique public school system. 246 It is made
+
+242 Id. (citing Canal Auth. of State of Fla. v. Callaway, 489 F.2d 567 (5th Cir. 1974)).
+243 Univ. of Texas v. Camenisch, 451 U.S. 390, 395 (1981).
+244 Id.
+245 Id.
+246 R. Doc. 71 at 61:7–10; R. Doc. 67-11.
+Case 2:25-cv-01054-DJP-MBN     Document 72     Filed 03/17/26     Page 41 of 54
+42
+
+up almost entirely of public charter schools. In fact, out of NOLA-PS’s 60-plus schools, only one
+school is a “direct -run” school, meaning only one is  a traditional public school run directly by
+OPSB; the rest are charter schools.247
+In a traditional public school district, public charter schools that are their own LEAs are
+generally independent of the school district in which they may be located.248 That is, unless local
+or state law dictates otherwise, charter -school LEAs are generally  not answerable to the local
+school board or its policies and procedures. 249 In the typical school district, then, charter-school
+LEAs are their own islands, acting like miniature independent school districts. But because of the
+unique nature and make -up of NOLA -PS, charter schools in Orleans Parish have a different
+relationship with the local school board, OPSB. 250 OPSB, which is  an elected governing board,
+sets policies for all schools  in Orleans Parish —charter and direct -run alike —and the
+Superintendent of OPSB is responsible for overseeing administration of those policies. 251 While
+NOLA-PS public charter schools retain much autonomy in their day-to-day operations, much like
+public charter schools in typical school districts, OPSB’s policies govern three key areas:
+authorization and renewal of charters , student enrollment, and facilities. 252 This hybrid system
+allows NOLA-PS to operate as  a district of choice, meaning families are not confined to their
+neighborhood school. 253 Instead, they may apply to any school or schools within the district
+through the centralized application and enrollment process governed by OPSB, known as the
+NOLA-PS Common Application Process, or “NCAP.”254
+
+247 R. Doc. 71 at 62:1–4.
+248 Id. at 181:2–24.
+249 Id. at 181:18–21.
+250 Id. at 178:2–9.
+251 Id. at 45:3–22; R. Docs. 67-3, 67-11.
+252 R. Doc. 71 at 182:3–25.
+253 Id. at 178:12–25; id. at 179:1–20.
+254 Id. at 183:14–25.
+Case 2:25-cv-01054-DJP-MBN     Document 72     Filed 03/17/26     Page 42 of 54
+43
+
+To apply to Orleans Parish schools during the “main round” of admissions, a student
+completes a single online application through NOLA -PS’s website .255 On that application, the
+student can rank up to 12 schools based on their preferences.256 While most schools—charter and
+direct-run alike —are “open -enrollment” schools, meaning they have no admissions criteria
+beyond the NCAP, three groups of schools have additional admissions criteria.257  The first group
+includes schools, like Willow, that have academic eligibility criteria.258 The second group includes
+language-immersion schools that require applicants to “pass” a language-proficiency test to remain
+eligible.259 And the third group is a military and maritime academy that requires  applicants to
+attend an open house and learn about the school’s mission to remain eligible. 260 Thus, for those
+three groups of schools, applicants must complete an additional step to determine eligibility .261 It
+goes without saying that if an applicant does not meet the requisite eligibility criteria, the student
+is no longer eligible to attend the respective school. Once an applicant’s eligibility is determined,
+the school reports the applicant’s eligibility status to OPSB .262 OPSB then runs an algorithm -
+driven, lottery -type process where each applicant is assigned a random number. The process
+“matches” each student to a school using his or her number after considering the student’s ranked
+schools, priorities, and eligibilities, along with the number of available seats in the applicable grade
+level at each ranked school. 263 Students then have the option to directly enroll in a school  during
+
+255 Id.
+256 Id.
+257 Id. at 184:1–2.
+258 Id. at 184:2–5.
+259 Id. at 184:6–10.
+260 Id. at 184:11–15.
+261 Id. at 184:16–18.
+262 Id. at 184:18–21.
+263 Id. at 184:23–25; id. at 185:1–9.
+Case 2:25-cv-01054-DJP-MBN     Document 72     Filed 03/17/26     Page 43 of 54
+44
+
+the “open enrollment” period that follows the main round’s matching process, provided there are
+available seats and they meet the school’s eligibility criteria, if any.264
+Every school authorized or directly run by OPSB must participate in the centralized
+enrollment process, even those schools with additional admissions criteria.265 This system, which
+has been in effect since 2011, prevents families from receiving multiple offers and enables NOLA-
+PS schools to track and predict  enrollment. 266 Overall, NOLA- PS’s hybrid school system has
+proven successful for New Orleans’s public school system, as schools and students are performing
+better than they were before Hurricane Katrina.267
+ii. Willow and Its Admissions Process
+As previously noted, three groups of schools within NOLA-PS impose additional eligibility
+criteria that applicants must satisfy before they may be matched to those schools. These schools
+offer specialized programs and function as “magnet” schools .268  According to Willow’s CEO,
+OPSB maintains a variety of magnet -style schools to ensure all the needs of Orleans Parish
+students are being met.269
+Willow is part of a group of four schools with additional academic eligibility criteria.270
+These schools are referred to as “high academic” schools, whose curricula meets the needs of
+students “who require a challenge.”271 Willow’s mission, specifically,  is to provide “a
+developmentally appropriate learning environment in which high academics” and “comprehensive
+arts education . . . enable each child to achieve as a learner, a person, and a valuable member of
+
+264 Id. at 178:18–21.
+265 Id. at 186:15–19.
+266 Id. at 186:1–15.
+267 Id. at 179:20–24; 180:3–11.
+268 Id. at 46:10–19.
+269 Id. at 62:23-25; id. at 63:1–4.
+270 Id. at 198:2–4.
+271 Id. at 62:21–25; id. at 62:1
+Case 2:25-cv-01054-DJP-MBN     Document 72     Filed 03/17/26     Page 44 of 54
+45
+
+our society.” 272 To ensure Willow is serving its high- academics and arts -focused mission, it
+provides a rigorous academic environment that focuses on the arts.273 To ensure that students are
+ready for Willow’s “rigorous experience” and arts program, Willow uses a “matrix” score in its
+application process that is composed of a reading score, a math score, a grade point average
+(“GPA”) calculated from a previous report card, and an arts -interest profile. 274 Students earn
+“points” for each component of the matrix; some points are awarded based merely on completion,
+while some points are awarded based on performance. 275 For instance, if a student completes the
+arts-interest profile, he or she automatically receives three points upon submission of the
+application, but a student must obtain a minimum reading and math score or have a minimum GPA
+to obtain the requisite number of points necessary for eligibility.276
+The reading and math score are obtained using an academic achievement assessment
+known as the Iowa Assessment. 277 The Iowa  Assessment, which was previously given as the
+end-of-year state assessment in Louisiana to measure a student’s academic growth, is a “norm -
+referenced” standardized assessment, meaning it is used to measure a student’s academic
+improvement relative to peers in his grade level nationwide.278 Thus, where a GPA based on prior
+grades from a previous school is a subjective measure of a student’s performance in that particular
+academic environment, the Iowa Assessment is an objective measure that provides “real-time, non-
+biased information about a student’s standing in the curriculum at the time of the test.” 279
+Significantly, the Iowa Assessment is not regarded as an IQ test, and Willow currently has students
+
+272 R. Doc. 67-3 at 49.
+273 R. Doc. 71 at 187:1–2; id. at 19–24.
+274 Id. at 187:1–19.
+275 Id.
+276 Id. at 187:14–19; 193:19–24.
+277 Id. at 193:19–24.
+278 Id. at 188:6–14; 112:13–7; 122:16–19.
+279 Id. at 125:17–25; 126:1–6.
+Case 2:25-cv-01054-DJP-MBN     Document 72     Filed 03/17/26     Page 45 of 54
+46
+
+who have tested in the borderline intellectual functioning range and are scoring “high” on their
+classroom assessments or on the annual state assessment. 280 Also, Willow’s matrix process does
+not inquire about intellectual disabilities, and Willow’s Admissions Director testified that there is
+no way of knowing how many applicants have an intellectual disability. 281 Further, Willow
+provides appropriate testing accommodations to those students who need them, but Willow has
+never waived the Iowa Assessment for any student. 282 Each applicant must meet each eligibility
+requirement and obtain the requisite amount of matrix points  to be eligible for admission into
+Willow.283
+Thus, coupled with OPSB’s centralized enrollment system, a student may fail to be enrolled
+at Willow for a number of reasons, such as failing to complete Willow’s application process,
+NOLA-PS’s matching algorithm, or failing to obtain the requisite score on the Iowa Assessment.
+In any event, Willow has no way of knowing how many students with intellectual disabilities apply
+to but do not enroll in Willow and why.284
+In 2022-2023, less than five percent of Willow’s students ha d intellectual disabilities.285
+But other NOLA -PS charter schools also ha d extremely low percentages of students with
+intellectual disabilities, and notably, these schools are open -enrollment schools and thus do not
+have additional admissions criteria. For example, in 2022-2023, less than five percent of the
+students at Bricolage Academy had intellectual disabilities , and only six percent of students at
+Hynes Charter School had intellectual disabilities.286
+
+280 Id. at 126:11–20; 127:14–19.
+281 Id. at 190:25; id. at 191:1–25.
+282 Id. at 197:7–9; id. at 198:16–25.
+283 Id. at 199:1–17.
+284 Id. at 190:1–25; id. at 191:1–25.
+285 R. Doc. 67-5 at 8; R. Doc. 71 at 106:16–25; R. Doc. 71 at 107:4–25.
+286 R. Doc. 67-5 at 8.
+Case 2:25-cv-01054-DJP-MBN     Document 72     Filed 03/17/26     Page 46 of 54
+47
+
+iii. O.E. and His Experience with Willow’s Admissions Process
+O.E. is a nine-year-old boy who is physically and intellectually disabled.287 He is nonverbal
+and uses an augmentative alternative communication (“AAC”) device to communicate. Because
+of his intellectual disability, he has the cognitive functioning of a one - or two-year-old. While he
+can express basic wants and needs using his AAC device, he cannot recite the alphabet or answer
+questions such as two plus two.288
+In mid -November 2025, O.E.’s father, C.E., reached out to Maggie Schodell, the
+Admissions Director at Willow.289 C.E. provided a copy of O.E.’s most recent IEP and evaluation,
+dated from 2020 and obtained when O.E. was four years old. C.E. informed Schodell that because
+of the profoundness of O.E.’s disabilities, O.E. would never be able to “pass” the Iowa
+Assessment.290 Therefore, C.E. requested a waiver of the assessment. 291 Schodell and C.E.
+exchanged email communications back and forth, as Schodell worked to get C.E. a response to his
+request for a waiver.292 Meanwhile, O.E. and his parents completed the main round application for
+NOLA-PS, completed Willow’s Supplemental Admissions Form, and scheduled O.E. to take the
+Iowa Assessment in mid -January.293 A month after C.E.’s initial email, Schodell responded that
+Willow would not waive the assessment because Willow is “legally permitted” to have academic
+eligibility criteria in its admissions process. She also expressed that it was important to Willow
+that its admissions process remain fair and non-discriminatory and that to accommodate students
+with disabilities during the admissions assessment, the school is required to provide rea sonable
+accommodations, “in lieu of an automatic waiver.” Schodell also requested a “more recent
+
+287 R. Doc. 71 at 15:24; id. at 21:20–23.
+288 Id. at 16:5–19; id. at 17:1–2, 16–19.
+289 R. Doc. 67-6 at 7.
+290 Id. at 5–6.
+291 Id. at 7–8.
+292 Id. at 6–7.
+293 Id. at 6.
+Case 2:25-cv-01054-DJP-MBN     Document 72     Filed 03/17/26     Page 47 of 54
+48
+
+document” that shared more information about the appropriate testing accommodations for O.E.
+because Willow’s policy requires that an applicant’s IEP must be current and dated within the last
+three years.294
+C.E. responded with a lengthy email requesting Schodell’s availability for a meeting and
+reiterating that no matter the accommodations provided that O.E. would never be able to obtain
+the required minimum score on the Iowa Assessment. He also argued that IEPs “do not expire”
+and “always remain in effect,” despite the fact that “school districts are suppo sed to update them
+at least every three years,” and offered to provide a letter from O.E.’s doctor(s) and therapist(s)
+explaining that O.E. cannot pass the Iowa Assessment. C.E. ended the email by explaining that
+“[i]f Willow is taking a hard line on this (i.e. refusing to even consider providing a waiver of the
+assessment), then Willow is violating [federal] law . . . .”295 With no response from Schodell, C.E.
+emailed again asking whether Willow would meet with C.E. and whether Willow would waive the
+Iowa Assessnent. Schodell eventually confirmed Willow’s refusal to waive the Iowa Assessment
+but reaffirmed “Willow’s commitment to providing reasonable accommodations for students with
+documented disabilities, ensuring they have equal access and opportunity during entrance exams.”
+Schodell also expressed that she was open to exploring accommodations that C.E. believed would
+best support O.E. and welcomed any relevant documentation to that effect, as “it is not standard
+practice during the admissions process to meet individually with families.”296  The email exchange
+ended with C.E. stating that he would provide the relevant documentation but “guarantee[ing]”
+
+294 Id. at 5–6.
+295 Id. at 5.
+296 Id. at 3–4.
+Case 2:25-cv-01054-DJP-MBN     Document 72     Filed 03/17/26     Page 48 of 54
+49
+
+that Willow will “face a lawsuit” “if Willow is unwilling to waive the assessment.” 297 At some
+point, C.E. emailed Willow eight medical documents regarding O.E.298
+O.E. ended up taking the Iowa Assessment over a span of two days in February 2025 at
+Willow’s middle school campus.299 Willow provided various accommodations to O.E.’s taking
+the assessment including a human reader to read the entire assessment aloud, alternative response
+format, answers recorded, breaks as needed, extended and flexible testing time over the course of
+multiple days, wheelchair-accessible testing environment with appropriate seating and physical
+accommodations, a quiet room with minimal distractions, and comfort objects. 300 O.E. was
+permitted to use his AAC device to communicate throughout the assessment days, but he did not
+use the device as an accommodation because it was not used for the assessment responses.301
+O.E. scored in the eighth and second percentiles on the Iowa Assessment .302 Because he
+did not obtain the requisite minimum score on the Iowa Assessment, he was not eligible to attend
+Willow for the 2025-2026 school year. Instead, O.E. is currently attending NOLA-PS’s one direct-
+run school and is “thriving” there; though, his mother expressed that “there’s been a lot of
+speculation about whether the school will be in existence after this year,” which puts O.E.’s family
+in “limbo” regarding O.E.’s future schooling.303
+
+297 Id. at 2–3.
+298 Id. at 12.
+299 R. Doc. 71 at 201:4–6.
+300 R. Doc. 67-9; R. Doc. 71 at 201:18–23.
+301 R. Doc. 67-9 at 1.
+302 R. Doc. 71 at 138:12–17.
+303 Id. at 22:1–17.
+Case 2:25-cv-01054-DJP-MBN     Document 72     Filed 03/17/26     Page 49 of 54
+50
+
+C. Law and Analysis
+i. Likelihood of Success on the Merits
+“To satisfy the first element of likelihood of success on the merits, the [plaintiff’s] evidence
+in the preliminary injunction proceeding ‘is not required to prove [his] entitlement to summary
+judgment.”304 In other words, a “plaintiff must present a prima facie case but need not show a
+certainty of winning.” 305 But “[n]o matter how severe and irreparable an injury one seeking a
+preliminary injunction may suffer in its absence, the injunction should never issue if there is no
+chance that the movant can show some likelihood of ultimate success.”306 Thus, “‘the absence of
+likelihood of success on the merits is sufficient to make a district court’s grant of a preliminary
+injunction improvident as a matter of law[.]’”307 To assess the likelihood of success on the merits,
+the court looks to standards provided by the substantive law.
+a. ADA Claim
+Applying the ADA’s three-prong prima facie test articulated above,  O.E.’s ADA claim is
+likely to fail for a multitude of reasons. First and foremost, for the reasons stated above, O.E. has
+failed to state a claim for relief under Title II of the ADA. Second , even assuming O.E. has
+plausibly alleged a Title II ADA claim, O.E. still fails the likelihood- of-success element. O.E.
+primarily relies on his disparate-impact claim to enjoin Willow from using the Iowa  Assessment.
+For the reasons previously articulated, this Court declines to find that a disparate -impact claim is
+cognizable under Title II of the ADA. But even if this Court were to find a disparate-impact claim
+cognizable, O.E.’s statistical evidence does not demonstrate a causal relationship between
+
+304 Janvey v. Alguire, 647 F.3d 585, 595 (5th Cir. 2011) (quoting Byrum v. Landreth, 566 F.3d 442, 446 (5th Cir. 2009)).
+305 § 2948.3 Grounds for Granting or Denying a Preliminary Injunction—Likelihood of Success on the Merits, 11A
+Fed. Prac. & Proc. Civ. § 2948.3 (3d ed.).
+306 State of Tex. v. Seatrain Int'l, S. A., 518 F.2d 175, 180 (5th Cir. 1975).
+307 Lake Charles Diesel, Inc. v. Gen. Motors Corp., 328 F.3d 192, 203 (5th Cir. 2003).
+Case 2:25-cv-01054-DJP-MBN     Document 72     Filed 03/17/26     Page 50 of 54
+51
+
+Willow’s use of the Iowa A ssessment and Willow’s low enrollment of students with intellectual
+disabilities. To prove a disparate -impact claim, a plaintiff must show that the challenged policy
+causes the disparity at issue. 308 Statistics introduced at the h earing undermine that contention.
+While Willow enrolls fewer than five percent of students with intellectual disabilities, two other
+NOLA-PS charter schools that do not use additional admissions criteria report nearly the same
+percentages. This similarity weakens any argument that the Iowa Assessment is responsible for
+the disparity.309
+Third, O.E. introduced no evidence upholding the conscious -discrimination theory. T he
+evidence introduced established that the Iowa Assessment is not an IQ test, and the fact that Willow
+has students with borderline intellectual functioning only underscores this fact. Additionally, the
+evidence introduced shows that Willow has legitimate , non-discriminatory reasons for using the
+Iowa Assessment; unlike GPA, which is a subjective measure of an applicant’s academic
+performance, the Iowa Assessment provides the school with an objective measure  of whether an
+applicant is ready for Willow’s rigorous academic environment. And this measure appears to be a
+valid measure b ecause Willow currently has students in the borderline intellectual functioning
+range who are performing well on school assessments.
+Finally, as noted above, “a public entity is not ‘required to undertake measures that would
+impose an undue financial or administrative burden, . . . or effect a fundamental alteration in the
+nature of the service.’”310 At the hearing, Willow introduced evidence establishing that enjoining
+
+308 See Texas Dep't of Hous. & Cmty. Affs. v. Inclusive Communities Project, Inc. , 576 U.S. 519, 542 (2015) (“[A]
+disparate-impact claim that relies on a statistical disparity must fail if the plaintiff cannot point to a defendant’s policy
+or policies causing that disparity.”).
+309 See id.; Pouncy v. Prudential Ins. Co. of Am., 668 F.2d 795, 801–02 (5th Cir. 1982) (finding that evidence presented
+at trial could not establish a case of employment discrimination based on the disparate impact model where statistics
+presented showed that, on the whole, blacks were overrepresented in the lower levels of defendant–company’s
+workforce but that the overrepresentation might have resulted from any number of causes).
+310 Frame v. City of Arlington, 657 F.3d 215, 232 (5th Cir. 2011).
+Case 2:25-cv-01054-DJP-MBN     Document 72     Filed 03/17/26     Page 51 of 54
+52
+
+use of the Iowa Assessment in its admissions practices would likely fundamentally alter the nature
+of its program. Willow made clear that the school’s mission and purpose is to serve students who
+“require a challenge” by providing them with “high academics” curriculum and instruction. Not
+only does an academic achievement test provide an objective predictor of performance in Willow’s
+program, but Willow already takes several other measures into consideration , such as GPA and
+parental input. Therefore, it is hard to imagine what other criterion Willow could substitute in place
+of an assessment , and O.E. proposed no other measures that could replace an assessment’s
+objective, consistent function in Willow’s application process.
+Additionally, the evidence introduced suggests that Willow and the other groups of schools
+that have additional admissions criteria play an important role in NOLA -PS’s hybrid district, a
+district that has  improved and experienced success  since Hurricane Katrina. For those reasons,
+O.E. has failed to show a likelihood of success on the merits of his ADA claim.
+b. IDEA Claim
+For the reasons explained above, the law does not provide relief to O.E. under the IDEA
+because he was not enrolled in Willow. Therefore, it is unlikely that O.E.  will succeed on the
+merits of his IDEA claim.
+ii. Other Factors
+“If the party requesting a preliminary injunction cannot show a substantial likelihood of
+success on the merits, the injunction should be denied and there is no need for the court to address
+the other requirements for a preliminary injunction.”311 Because O.E.’s ADA and IDEA claims
+
+311 Butts v. Aultman, 953 F.3d 353, 361 (5th Cir. 2020) (citing Lake Charles Diesel, Inc. v. Gen. Motors Corp. , 328
+F.3d 192, 203 (5th Cir. 2003) (affirming district court’s dismissal of claims when plaintiffs lacked standing and claims
+were not supported by law and then affirming district court’s denial of plaintiffs’ motion for temporary restraining
+order and preliminary injunction based on grounds for dismissals under likelihood- of-success-on-the-merits prong,
+Case 2:25-cv-01054-DJP-MBN     Document 72     Filed 03/17/26     Page 52 of 54
+53
+
+fail on the merits, he has not demonstrated a substantial likelihood of success. Therefore, he is not
+entitled to preliminary relief.
+IV. CONCLUSION
+Accordingly,
+IT IS ORDERED that Defendant’s motion to dismiss Plaintiff s’ claim under the
+Individuals with Disabilities Education Act (R. Doc. 30) is GRANTED and that Plaintiffs’ IDEA
+claim is DISMISSED WITH PREJUDICE.
+IT IS FURTHER ORDERED that Defendant’s motion to dismiss for lack of standing,
+pursuant to Federal Rule of Civil Procedure Rule 12(b)(1), (R. Doc. 30) is DENIED AS MOOT.
+IT IS FURTHER ORDERED that Defendant’s motion to dismiss Plaintiffs’ claims under
+Title II of the Americans with Disabilities Act  (R. Doc. 30)  is GRANTED and that Plaintiffs’
+ADA claim is DISMISSED WITHOUT PREJUDICE. Plaintiffs have twenty-one (21) days to
+file an amended complaint if they  believe that they can allege, in good faith , sufficient facts to
+state a plausible claim under Title II of the ADA.
+IT IS FURTHER ORDERED that Plaintiff s’ state law claims are DISMISSED
+WITHOUT PREJUDICE. Pursuant to 28 U.S.C. § 1367(d), Plaintiff s shall have the applicable
+time period under Louisiana law to file their remaining claims in state court, if they so choose, or
+twenty-one (21) days to refile the claims in this Court as part of the Amended Complaint.
+IT IS FURTHER ORDERED that Defendant’s motion to dismiss Plaintiffs’ claims under
+the Louisiana Human Rights Act for failure to state a claim, pursuant to Federal Rule of Civil
+Procedure 12(b)(6), (R. Doc. 30) is DENIED AS MOOT.
+
+stating that there is no need for court to address other requirements for preliminary injunction when merits prong not
+met).
+Case 2:25-cv-01054-DJP-MBN     Document 72     Filed 03/17/26     Page 53 of 54
+54
+
+IT IS FURTHER ORDERED that Defendant’s motion to dismiss for failure to join a
+party under Federal Rule of Civil Procedure 19, pursuant to Federal Rule of Civil Procedure
+12(b)(7), (R. Doc. 30) is DENIED AS MOOT.
+IT IS FURTHER ORDERED that Plaintiffs’ motion for preliminary injunction (R. Doc.
+16) is DENIED.
+In light of the foregoing,  IT IS FURTHER ORDERED that Plaintiffs’ motion to renew
+his partial summary judgment (R. Doc. 32) is DENIED AS MOOT.
+ New Orleans, Louisiana, this 17th day of March 2026.
+
+__________________________________________
+DARREL JAMES PAPILLION
+UNITED STATES DISTRICT JUDGE
+
+Case 2:25-cv-01054-DJP-MBN     Document 72     Filed 03/17/26     Page 54 of 54
