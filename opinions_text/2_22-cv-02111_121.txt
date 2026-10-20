@@ -1,0 +1,442 @@
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+THOMAS C.A. SCHLUMBRECHT, ET
+AL.
+CIVIL ACTION
+
+VERSUS NO. 22-2111
+
+ANDREW V. TOPEL, ET AL. SECTION: “P” (1)
+
+ORDER AND REASONS
+
+  Before the Court is  the Motion for Summary Judgment filed by Defendants Andrew
+V. Topel and Atlassoftwareservices (Atlas) .1 Plaintiffs Thomas C.A. Schlumbrecht and
+National Table Games Corporation (NTG) filed an opposition to the motion, 2 and the
+Defendants filed a reply in support of their motion.3 Having considered the motion, the parties’
+briefing, the oral argument, the record, and the applicable law, the Court GRANTS the motion
+for summary judgment for the following reasons.
+I. BACKGROUND
+On August 2, 2013, Plaintiff National Table Games (“NTG”) contracted with Topel to
+design and build a table games progressive system  targeted for use in casinos .4 The contract
+provided that NTG was hiring Topel “until all work for the system is built and performing to
+specification to pass all state compliance laws along with testing requirements and full
+functionality of the entire system.”5 Topel completed the stand-alone version of the system on
+
+1 R. Doc. 101.
+2 R. Doc. 107.
+3 R. Doc. 108.
+4 R. Doc. 1 at 8.
+5 R. Doc. 107-1 at 4.
+Case 2:22-cv-02111-DJP-JVM     Document 121     Filed 02/18/26     Page 1 of 15
+2
+
+March 30, 2014,6 and the system passed state compliance requirements on May 14, 2014.7 The
+system was installed at Treasure Chest Casino in August 2015 for a field trial, which it passed
+in October of that year.8
+For the next seven years, Topel continued to work with NTG  to maintain, service,
+update, change, and modify the software for the system.9 According to Plaintiffs’ statement of
+uncontested facts, the system was successfully installed, operational, and generating profits in
+the Magnolia Bluffs Casino starting in November 2017, in Ameristar Casino starting in August
+2020, and in Waterview Casino starting in February 2021. 10 In March 2022, the parties
+discussed entering into an agreement with MSC Gaming for national distribution of the system
+and into an agreement with Pegasus Gaming for international distribution of the system. 11 In
+conjunction with these discussions, Topel proposed a new partnership agreement to
+Schlumbrecht and NTG in May 2022. 12 No agreement came to fruition. 13 Plaintiffs instead
+terminated their relationship with Topel and Atlas and instigated this lawsuit.14
+Plaintiffs sued Topel and Atlas , asserting claims for: (1) breach of contract;
+(2) conversion; (3) violations of the Louisiana Unfair Trade Practices Act; (4) fraud;
+(5) detrimental reliance; (6) unjust enrichment; and (7) negligent misrepresentation.15
+Defendants moved for summary judgment.16 Defendants assert that Plaintiffs fail to meet their
+
+6 Id. at 4-5.
+7 Id. at 5; R. Doc. 101-6.
+8 R. Doc. 107-1, at 5.
+9 R. Doc. 107 at 11; R. Doc. 107-1, at 6.
+10 R. Doc. 107-1 at 7.
+11 Id. at 9.
+12 Id.
+13 Id. at 10.
+14 Id.
+15 R. Doc. 1.
+16 R. Doc. 101.
+Case 2:22-cv-02111-DJP-JVM     Document 121     Filed 02/18/26     Page 2 of 15
+3
+
+burden of proof for each cause of action and have failed to present any competent  summary
+judgment evidence of damages.17
+II. LEGAL STANDARD
+Summary judgment is proper when the movant shows “there is no genuine dispute as
+to any material fact and the movant is entitled to judgment as a matter of law.” 18 When the
+dispositive issue raised in a motion for summary judgment is one on which the nonmovant will
+bear the burden of proof at trial, the movant may satisfy its burden by pointing out that the
+evidence in the record is insufficient with respect to an essential element of the nonmoving
+party's claim.19 The burden then shifts to the nonmoving party, who must, by submitting or
+referring to evidence, set out specific facts showing a genuine dispute of material fact exists.20
+The nonmovant may not rest upon the pleadings, but must identify specific facts that establish
+a genuine issue for resolution.21
+A fact is “material” if proof of its existence or nonexistence would affect the outcome
+of the lawsuit under the applicable law in the case. 22 A dispute about a material fact is
+“genuine” if it is one upon which a reasonable jury could return a verdict for the nonmoving
+party based upon the jury's resolution of the factual issue.23 “When assessing whether a dispute
+
+17 Id.
+18 Fed. R. Civ. P. 56(a); see also Celotex Corp. v. Catrett, 477 U.S. 317, 322–23 (1986); Little v. Liquid Air Corp., 37
+F.3d 1069, 1075 (5th Cir. 1994) (en banc) (per curiam).
+19 See Celotex, 477 U.S. at 325.
+20 See id. at 324.
+21 See, e.g., id.; Little, 37 F.3d at 1075 (quoting Celotex, 477 U.S. at 322) (“Rule 56 mandates the entry of summary
+judgment, after adequate time for discovery and upon motion, against a party who fails to make a showing sufficient
+to establish the existence of an element essential to that party's case, and on which that party will bear the burden of
+proof at trial.’”).
+22 Anderson v. Liberty Lobby, Inc., 477 U.S. 242, 248 (1986).
+23 Bodenheimer v. PPG Indus., Inc., 5 F.3d 955, 956 (5th Cir. 1993).
+Case 2:22-cv-02111-DJP-JVM     Document 121     Filed 02/18/26     Page 3 of 15
+4
+
+as to any material fact exists, [the Court] consider[s] all of the evidence in the record but
+refrain[s] from making credibility determinations or weighing the evidence.”24
+III. LAW AND ANALYSIS
+A. Breach of Contract
+Under Louisiana law, a breach of contract claim requires plaintiff to prove three
+elements: 1) a contract, 2) breach, and 3) damages suffered because of the breach.25 Here, the
+undisputed facts establish that an agreement existed between Plaintiffs and Defendants under
+which Topel agreed to work for $90.00/hour until the gaming system was buil t “and
+performing to specification to pass all state compliance laws along with testing requirements
+and full functionality of the entire system.”26 Defendants and Plaintiffs dispute whether there
+remain genuine issues of material fact as to the two remaining elements: breach and damages.
+1. Breach
+Plaintiffs assert that Topel breached the Employment Agreement in three ways: 1) in
+failing to build a system that performed “to specification” with “full functionality ,”27 2) in
+failing to give Plaintiffs the source code, 3) and in trying to sell the system to third parties.
+Plaintiffs fail to carry their burden to show a genuine issue of material fact as to whether
+Topel failed to build a system to specification with full functionality. Plaintiffs argue that
+“[e]vidence has been provided of [the] terms being breached.” 28 At the summary judgment
+stage, however, the non-movant must point to specific evidence in the record and explain how
+
+24 Delta & Pine Land Co. v. Nationwide Agribusiness Ins ., 530 F.3d 395, 398–99 (5th Cir. 2008) (first citing Reeves
+v. Sanderson Plumbing Prods., Inc ., 530 U.S. 133, 150 (2000); and then citing Matsushita Elec. Indus. Co. v. Zenith
+Radio Corp., 475 U.S. 574, 587 (1986)).
+25 Favrot v. Favrot , 68 So. 3d 1099, 1109 (La. Ct. App. 4 Cir. 2011)  (citing 1436 Jackson Joint Venture v. World
+Constr. Co., Inc., 499 So. 2d 426, 427 (La. Ct. App. 4 Cir. 1986)).
+26 R. Doc. 101-5 at 1.
+27 R. Doc. 107 at 8.
+28 Id. at 15.
+Case 2:22-cv-02111-DJP-JVM     Document 121     Filed 02/18/26     Page 4 of 15
+5
+
+this specific evidence defeats the motion for summary judgment. Indeed, Courts are not like
+pigs, dispatched to hunt for promised truffles a party contends can be found if the Court
+endeavors to root and dig about the record in a quest to find that which the non- movant has
+failed to identify. 29 Plaintiffs’ repeated nonspecific, vague, and general references to “all
+witness testimony cited” fail to satisfy Plaintiffs’ obligation to point to specific evidence in the
+record.30 Nor do Plaintiffs’ footnotes citing to, but failing to explain the relevance or
+applicability of,  sundry lists of depositions or “other cited evidence.” 31 Moreover, while
+Plaintiffs point to the ir assertions in the Complaint that the system failed to work , t hese
+assertions are insufficient  because Plaintiffs must go “beyond the pleadings and designate
+specific facts showing that there is a genuine issue for trial.”32
+Further, the depositions on which Plaintiffs rely do not support their claim that Topel
+failed to build a system with full functionality.  For example, Wilbert Lynch, a Waterview
+Casino employee,  testified that the system worked for a year with no problems at full
+functionality.33 Plaintiffs’ witness Felicia Hedrick, in her deposition, affirmed that as of mid -
+July 2022, the system was performing and “ all was good.” 34 Plaintiff Schlumbrecht, in his
+deposition, said that the “basic functions of the system were operable  . . . .”35 Plaintiffs point
+to no evidence in the record having any tendency to prove the system did not reach full
+functionality and did not pass state compliance requirements . Topel had thus completed his
+
+29 See, e.g., United States v. Dunkel, 927 F.2d 955, 956 (7th Cir. 1991) (“Judges are not like pigs, hunting for truffles
+buried in briefs.”)
+30 R. Doc. 107 at 8.
+31 Id. at 11 nn. 13 & 14, 18 n.18.
+32 Little v. Liquid Air Corp., 37 F.3d 1069, 1075 (5th Cir. 1994).
+33 R. Doc. 107-2 at 5.
+34 R. Doc. 101-13 at 15.
+35 R. Doc. 101-12 at 9.
+Case 2:22-cv-02111-DJP-JVM     Document 121     Filed 02/18/26     Page 5 of 15
+6
+
+duties under the Employment Agreement: to work until the gaming system passed state
+compliance requirements and reached full functionality.
+Plaintiffs assert that the system’s need for updates and adjustments shows the system
+did not reach full functionality. That the system needed updates is immaterial , however,
+because Topel had already completed his obligations under the terms of the contract. Plaintiffs
+present no evidence suggesting that a need to update the software in 2021 was a breach of the
+contract or a failure of the system to reach full functionality. Further, the emails that Plaintiffs
+contend show the system required updates  are from June 2022: seven years after the system
+passed the state compliance requirements and  after Plaintiffs purport to have ended their
+relationship with Topel.36 Plaintiffs have failed to produce any competent summary judgment
+material that creates any genuine dispute of material fact as to whether Topel failed to create
+a system that passed state regulatory requirements or reached full functionality. After Topel
+created a system that was fully functional and passed state regulatory requirements, he had
+completed his duties under the Employment Agreement. That the system eventually required
+input and updates does not negate Topel’s performance of his obligation under the contract
+because the conditions of the contract were already satisfied.
+As to the source code and the alleged efforts to sell the system , Plaintiffs again fail to
+create a genuine issue of material fact. Neither delivery of the source code to NTG  nor a
+restriction on selling the product  are terms of  the Employment Agreement. Because it is
+axiomatic that one cannot breach a contract if the provision giving rise to the alleged breach is
+not a part of the contract, Plaintiffs cannot maintain a breach of contract claim arising out of
+
+36 R. Doc. 107-2 at 17; see also R. Doc. 107-3, at 11; R. Doc. 107-4, at 2.
+Case 2:22-cv-02111-DJP-JVM     Document 121     Filed 02/18/26     Page 6 of 15
+7
+
+Topel’s alleged failure to comply with terms that are not actually in the contract. Further, even
+if this were a term of the contract, D efendants point to the deposition of Topel, in which he
+averred that he provided the source code to NTG on multiple occasions, an assertion that
+Plaintiffs failed to rebut. Plaintiffs failed to successfully carry their burden with respect to an
+issue, if it were actually an issue, on which they would have the burden of proof at trial. Indeed,
+Plaintiffs’ response to the motion for summary judgment actually quotes Topel’s deposition in
+which he affirmed that he provided the source code to NTG “several times.” 37 Plaintiffs have
+also failed to point to any material in the record that shows that Topel tried to sell the system
+to a third party. Topel is a software designer who  was working for NTG part -time; that he
+designed other software over the course of the business relationship does not show he was
+selling the system he created for Plaintiffs to third parties, and Plaintiffs point to no evidence
+to support that conclusion.38 Plaintiffs have simply failed to show a genuine issue of material
+fact regarding whether their alleged, but unsupported, claim of  failure to provide the source
+code or their alleged, but unsupported, claim of attempts to sell the system constitute a breach
+of contract.
+Plaintiffs have not met their burden to point to competent summary judgment evidence
+to show a genuine dispute of material fact as to breach. As Plaintiffs have failed to carry their
+burden on an essential element of the claim, Defendants are entitled to summary judgment as
+a matter of law.
+
+37 R. Doc. 107 at 16. Plaintiffs’ brief also states that “there is no credible evidence of breach as alleged by Plaintiffs
+for failing to deliver the source code.”
+38 Contra R. Doc. 107 at 2.
+Case 2:22-cv-02111-DJP-JVM     Document 121     Filed 02/18/26     Page 7 of 15
+8
+
+2. Damages
+While Plaintiffs’ failure to meet their burden as to breach dooms their breach of contract
+claim, Plaintiffs also fail to meet their summary judgment burden as to damages. In their
+amended complaint, Plaintiffs allege specific dollar amounts for each casino from which they
+allege they lost revenue.  Plaintiffs point to no competent summary judgment evidence ,
+however, to support the alleged losses. In general, lost profits are calculated by deducting the
+costs of complying with a contract from the gross revenues that would have been derived from
+the contract .39 Plaintiffs, however,  provide absolutely no evidence regarding the  expected
+gross revenues from the contract nor the costs of complying with the contract, precluding this
+calculation. The only evidence to which Plaintiffs point is Schlumbrecht’s own deposition and
+declaration. Generally, a claim for lost profits “cannot rest solely on the testimony of the
+injured party without being substantiated by other evidence.”40 Indeed, Schlumbrecht admitted
+in his deposition that the damage calculations were based on his own “speculations.”41 Further,
+during Schlumbrecht’s deposition, Plaintiffs offered to stipulate that the “losses for individual
+casinos” were “extrapolations” based on assumptions. 42 Outside of Schlumbrecht’s claims in
+his deposition and declaration, Plaintiffs point to no law or evidence to support damages. The
+“lack of even a minimal degree of detail or specificity as to the extent of loss precludes an
+award.”43 Plaintiffs have failed to create a genuine issue of material fact as to damages , and
+Defendants are therefore entitled to summary judgment on Plaintiffs’ breach of contract claim
+as a matter of law.
+
+39 First Alarm Fire Equipment, Inc. v. Southland Intern., 114 So. 3d 1168, 1172 (La. App. 2 Cir. 2013).
+40 Id.
+41 R. Doc. 101-12 at 21.
+42 Id. at 26.
+43 Jackson v. Lare, 779 So. 2d 808, 814 (La. App. 2 Cir. 2000).
+Case 2:22-cv-02111-DJP-JVM     Document 121     Filed 02/18/26     Page 8 of 15
+9
+
+B. Conversion
+Under Louisiana law, a conversion is committed when “1) possession is acquired in an
+unauthorized manner; 2) the chattel is removed from one place to another with the intent to
+exercise control over it; 3) possession of the chattel is transferred without authority; 4)
+possession is withheld from the owner or possessor; 5) the chattel is altered or destroyed; 6)
+the chattel is used improperly; or 7) ownership is asserted over the chattel.”44
+Plaintiffs assert in the amended complaint that Topel attempted to market and sell the
+casino gaming system products to third parties, alleging that possession of the products were
+transferred without authority, and that Topel withheld possession of the gaming system code
+from Plaintiffs.45 These assertions are insufficient, as Plaintiffs must go “beyond the pleadings
+and designate specific facts showing that there is a genuine issue for trial.”46
+Plaintiffs point to no evidence in the record beyond the amended complaint that creates
+a genuine issue of material fact as to whether Topel transferred possession of the gaming
+system or withheld the system from the owner. Instead, Plaintiffs simply quote in full the
+section of Defendants’ motion for summary judgment on conversion. 47 The Court finds that
+there is no issue of material fact as to whether Topel or Atlas committed a conversion .
+Defendants are entitled to summary judgment on Plaintiffs’ conversion claim as a matter of
+law.
+
+44 Dual Drilling Co. v. Mills Equipment Investments, Inc., 721 So. 2d 853, 857 (La. 1998).
+45 R. Doc. 7 at 14.
+46 Little v. Liquid Air Corp., 37 F.3d 1069, 1075 (5th Cir. 1994).
+47 R. Doc. 107 at 18.
+Case 2:22-cv-02111-DJP-JVM     Document 121     Filed 02/18/26     Page 9 of 15
+10
+
+C. Louisiana Unfair Trade Practices Act violations
+The Louisiana Unfair Trade Practices Act (“LUTPA”) prohibits egregious fraud,
+deception, or coercion. 48 The alleged conduct must offend public policy, and the “range of
+prohibited practices are extremely narrow.” 49 LUTPA provides a private cause of action to a
+person “who suffers any ascertainable loss of money or movable property” because of
+another’s use of “an unfair or deceptive method, act, or practice.” 50 A trade practice is unfair
+under the statute “only when it  . . . is immoral, unethical, oppressive or unscrupulous.” 51
+Courts determine what constitutes an unfair trade practice on a case -by-case basis. 52 The
+“unfair or deceptive methods” must occur “in the conduct of any trade or commerce.” 53
+Louisiana law defines “trade or commerce” as “the advertising, offering for sale, sale, or
+distribution of any services and any property . . . .”54
+Here, Schlumbrecht and NTG point to no genuine issue of material fact to support any
+claim that Topel committed any act that was “immoral, unethical, oppressive or
+unscrupulous.”55 The mere recitation of Plaintiffs’ breach of contract claim, including the
+words “fraud, misrepresentation, deceit and unethical conduct” 56 is not enough to defeat
+summary judgment on the LUTPA claim. There is a “great deal of daylight between a breach
+of contract claim and the egregious behavior” LUTPA proscribes. 57 Plaintiffs point to no
+competent summary judgment evidence that Topel committed any act  that was immoral,
+
+48 Cheramie Servs., Inc. v. Shell Deepwater Prod., Inc., 35 So. 3d 1053, 1060 (La. 2010).
+49 Id. at 1059-60.
+50 La. R.S. 51:1405(A).
+51 Computer Mgmt. Assistance Co. v. Robert F. DeCastro, Inc., 220 F.3d 396, 404 (5th Cir. 2000).
+52 Omnitech Int’l, Inc. v. Clorox Co., 11 F.3d 1316, 1332 (5th Cir. 1994).
+53 Law Indus., LLC v. Dep’t of Educ., 378 So. 3d 3, 8 (La. 2024).
+54 Id.
+55 Computer Mgmt. Assistance Co., 220 F.2d at 404.
+56 R. Doc. 7 at 14.
+57 Turner v. Purina Mills, Inc., 989 F.2d 1419, 1422 (5th Cir. 1993).
+Case 2:22-cv-02111-DJP-JVM     Document 121     Filed 02/18/26     Page 10 of 15
+11
+
+unethical, oppressive, or unscrupulous. Further, for the reasons discussed in the section on
+breach of contract damages, above, Plaintiffs have not provided competent summary judgment
+evidence of an “ascertainable loss.” 58 One cannot declare that another engaged in an unfair
+trade practice and, on that conclusory incantation alone, hope to survive a motion for summary
+judgment. Because Plaintiffs fail to support essential elements of their claim, the Court grants
+Defendants’ motion for summary judgment as to Plaintiffs’ LUTPA claims.
+D. Fraud
+A plaintiff bringing a claim for fraud under Louisiana law must prove the following
+elements: (1) misstatement or omission (2) of a material fact (3) made with the intent to defraud
+(4) on which the plaintiff relied and (5) which proximately caused the plaintiff's injury.59 There
+is a heightened pleading standard for fraud claims: the plaintiff must “specify the statements
+contended to be fraudulent, identify the speaker, state when and where the statements were
+made, and explain why the statements were fraudulent.”60
+Plaintiffs assert that Topel’s assurances that the system would run properly are
+misstatements or omissions of material fact. First, Plaintiffs’ generalized assertions that Topel
+assured that the system would work or that the problems had been addressed do not rise to the
+level of required specificity.61 Further, under Louisiana law, “[f]raud cannot be predicated on
+unfulfilled promises or statements as to future events,”62 and thus the statements of “imminent
+success”63 do not rise to the level of a fraudulent misstatement or omission.
+
+58 La. R.S. 51:1405(A).
+59 Williams v. WMX Techs., 112 F.3d 175, 177 (5th Cir. 1997).
+60 Dorsey v. Portfolio Equities, Inc. , 540 F.3d 333, 339 (5th Cir. 2008);  see also Sullivan v. Leor Energy, LLC , 600
+F.3d 542, 551-52 (5th Cir. 2010).
+61 Plaintiffs instead provide citations to four depositions without specifying which precise statements Plaintiffs contend
+were fraudulent.
+62 Johnson v. Unopened Succession of Alfred Covington, Jr., 969 So. 2d 733, 742 (La. App. 2 Cir. 2007).
+63 R. Doc. 107 at 22.
+Case 2:22-cv-02111-DJP-JVM     Document 121     Filed 02/18/26     Page 11 of 15
+12
+
+Second, Plaintiffs fail to carry their burden as to the third element, intent to defraud.
+Plaintiffs have pointed to no evidence that Topel and Atlas had an intent to defraud NTG and
+Schlumbrecht. A failure “to perform as promised  . . . is not evidence of fraud.” 64 Louisiana
+law is clear that “[t]he mere failure to do what one promises in order to induce another to sign
+a contract is not fraud but a mere breach of promise.” 65 To hold otherwise would transform
+any claim for breach of contract into a fraud claim. There must be “an intent to defraud” to
+prove fraud.66 Plaintiffs have pointed to no evidence showing that Defendants committed to
+the project intending to harm Plaintiffs.
+Plaintiffs do not meet their burden as to the essential elements of a misstatement or
+omission and of intent to defraud. Defendants are thus entitled to summary judgment as a
+matter of law. Like Plaintiffs’ LUTPA claim, Plaintiffs’ purported fraud claim more closely
+resembles a breach of contract claim.  Plaintiffs’ assertion that its evidence shows “fraud,
+misrepresentation, deception, or other unethical conduct” 67 is not enough to avoi d summary
+judgment. Accordingly, the Court grants Defendants’ motion for summary judgment on
+Plaintiffs’ fraud claim.
+E. Detrimental Reliance
+The elements of detrimental reliance under Louisiana law are: “1) representation by
+conduct or word; 2) justifiable reliance; and 3) a change in position to one’s detriment because
+of the reliance.” 68 The focus of the analysis is “whether a representation was made in such a
+
+64 Taylor v. Dowling Gosslee & Assocs., 22 So. 3d 246, 255 (La. App. 2 Cir. 2009).
+65 Johnson, 969 So. 2d at 742 (citing Dutton & Vaughan v. Spurney, 600 So. 2d 693, 698 (La App. 4 Cir. 1992)).
+66 Taylor, 22 So. 3d at 255.
+67 R. Doc. 7 at 14.
+68 Suire v. Lafayette City-Parish Cnsl. Gov’t, 907 So. 2d 37, 59 (La. 2005).
+Case 2:22-cv-02111-DJP-JVM     Document 121     Filed 02/18/26     Page 12 of 15
+13
+
+manner that the promisor should have expected the promisee to rely upon it, and whether the
+promisee so relies to his detriment.”69
+Defendants contend that Plaintiffs have not pointed to competent summary judgment
+evidence to support the element s of a representation and of a detrimental change in position.
+Plaintiffs’ support for their detrimental reliance claim is that Plaintiffs relied on Topel to
+perform the contract and that his alleged failure to do so harmed their future profits and
+business relationships. For the reasons discussed above,70 Topel completed his performance of
+the Employment Agreement. 71 Plaintiffs have further provided no competent summary
+judgment evidence of their alleged damages and thus no evidence of their detrimental change
+in position. 72 Defendants are thus entitled to summary judgment on Plaintiffs’ detrimental
+reliance claim as a matter of law.
+F. Unjust Enrichment
+Unjust enrichment requires a plaintiff to show: 1) an enrichment, 2) an impoverishment,
+3) a connection between the enrichment and resulting impoverishment, 4) a lack of cause for
+the enrichment and impoverishment, and 5) that there is no other remedy available at law. 73
+As to the fifth element, it is the “ existence of other causes of action” that determines whether
+unjust enrichment can be applied. 74 The existence of a claim on a contract “precludes
+application” of unjust enrichment, because the potential contract claim is a practical remedy at
+law, whether or not the contract claim is successful. 75 Here, Plaintiffs have made a slew of
+
+69 Id.
+70 See Section III.A.
+71 See Section III.A.1.
+72 See Section III.A.2.
+73 Minyard v. Curtis Prods., Inc., 205 So. 2d 422, 432 (La. 1967).
+74 Garber v. Badon & Ranier, 981 So. 2d 92, 100 (La. App. 3 Cir. 2008).
+75 Id.
+Case 2:22-cv-02111-DJP-JVM     Document 121     Filed 02/18/26     Page 13 of 15
+14
+
+claims, including a breach of contract claim, all based on the same underlying facts. As there
+are other remedies available at law, Plaintiffs cannot bring an unjust enrichment action.76 And,
+in this case, even if Plaintiffs, who have alleged multiple causes of action, actually had no other
+remedy available at law, they have failed to offer any viable summary judgment proof that
+Defendants suffered an enrichment; that Plaintiffs suffered an impoverishment; or any
+connection between these two, non- existent elements of their purported claim for unjust
+enrichment. Defendants are thus entitled to summary judgment on Plaintiffs’ detrimental
+reliance claim as a matter of law.
+G. Negligent Misrepresentation
+Under Louisiana law, the elements of a claim for negligent misrepresentation are:
+1) the defendant, in the course of its business or other matters in which
+it had a pecuniary interest, supplied false information; 2) the defendant had a
+legal duty to supply correct information to the plaintiff; 3) the defendant
+breached its duty, which can be breached by omission as well as by
+affirmative misrepresentation; and 4) the plaintiff suffered damages or
+pecuniary loss as a result of its justifiable reliance upon the omission or
+affirmative misrepresentation.77
+
+Here, like the fraud claim, Plaintiffs failed to identify specific false information that
+Topel provided. 78 Similarly, Plaintiffs do not point to a specif ic or particular legal duty to
+supply correct information to Plaintiffs in this case, or any facts or evidence to support any of
+the other elements of this claim. Plaintiffs have  thus failed to meet their burden regarding
+essential elements of the negligent misrepresentation claim. Defendants are entitled to
+summary judgment on Plaintiffs’ negligent misrepresentation claim as a matter of law.
+
+76 Id.
+77 Kadlec Med. Ctr. v. Lakeview Anesthesia Assocs., 2005 WL 1309153, at *3 (E.D. La. May 19, 2005).
+78 See Section III.D.
+Case 2:22-cv-02111-DJP-JVM     Document 121     Filed 02/18/26     Page 14 of 15
+15
+
+H. Ripeness
+To the extent that Plaintiffs assert that the matter is not “ripe” for summary judgment,
+that claim is wholly without merit. 79 Defendants’ motion for summary judgment here is not
+premature. Under Federal Rule of Civil Procedure 56(d), the Court may defer consideration of
+a motion for summary judgment if the opposing party shows by affidavit or declaration that it
+cannot present facts essential to justify its opposition. 80 Here, Plaintiffs have provided no
+affidavit or provided any indication as to how additional discovery would create a genuine
+issue of material fact. Discovery, which the Court had extended at Plaintiffs’ request on more
+than one occasion, closed prior to the submission of this motion. The Court finds that a delay
+in considering Defendants’ motion for summary judgment is not warranted.
+
+IV. CONCLUSION
+ For the foregoing reasons, the Motion for Summary Judgment , filed by Defendants
+Andrew V. Topel and Atlassoftwareservices,81 is GRANTED. The Court hereby DISMISSES
+Plaintiffs’ claims WITH PREJUDICE.
+ New Orleans, Louisiana, this 18th day of February, 2026.
+
+__________________________________________
+DARREL JAMES PAPILLION
+UNITED STATES DISTRICT JUDGE
+
+79 R. Doc. 107, at 4.
+80 Fed. R. Civ. P. 56(d).
+81 R. Doc. 101.
+Case 2:22-cv-02111-DJP-JVM     Document 121     Filed 02/18/26     Page 15 of 15
