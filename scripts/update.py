@@ -34,6 +34,7 @@ from zoneinfo import ZoneInfo
 import govinfo
 import court_info
 import hearings
+import import_written_opinions
 import opinion_text
 from outcome_text import classify, motion_doc
 
@@ -591,6 +592,10 @@ def main() -> int:
     docket_info: dict[int, dict] = {}
     cl_entries: dict[tuple[str, str], dict] = {}
     dockets = {r["case"]: r for r in court_info.load_json(DATA / "dockets.json", [])}
+    # Written Opinions Reports the owner saved from PACER (data/imports/wo_*.json): opinions, signers, outcomes.
+    import_written_opinions.apply_imports(DATA, opinions, outcomes, dockets, calendar, judges, today, note,
+                                          classify, opinion_flags, judge_code, rules_on_motion)
+    opinion_keys = {(o["case"], o["doc"]) for o in opinions}
     q = ("short_description:order OR short_description:judgment OR short_description:hearing OR "
          "short_description:hearings OR short_description:transferred OR short_description:recommendations")
     for d in (cl.paged("search/", {"type": "r", "court": "laed", "q": q,

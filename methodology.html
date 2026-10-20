@@ -55,12 +55,12 @@
       <p class="notice">Independent project, not affiliated with the court. Not legal advice. The numbers describe docket activity only and say nothing about whether any ruling was right.</p>
 
       <h2 id="counts">What the site counts</h2>
-      <p>This site counts docket events in civil cases in the U.S. District Court for the Eastern District of Louisiana and attributes each to the district judge assigned to the case. It covers the court's 16 active district judges. Rows for magistrate judges presiding by consent, and for visiting or senior judges, are kept in the data but not charted.</p>
+      <p>This site counts docket events in civil cases in the U.S. District Court for the Eastern District of Louisiana and attributes each to the district judge assigned to the case, except that a written opinion signed by a different district judge (one entered before the case was reassigned) is credited to the judge who signed it. It covers the court's 16 active district judges. Rows for magistrate judges presiding by consent, and for visiting or senior judges, are kept in the data but not charted.</p>
       <p>The counts describe activity on the docket. They do not measure the quality, speed, or correctness of any judge's rulings, and the site draws no conclusions about any judge. Judges are listed alphabetically; a table is re-ordered only when a reader sorts it.</p>
 
       <h2 id="sources">Sources</h2>
       <ul>
-        <li><strong>Written opinions, Jan. 10 to Oct. 16, 2026:</strong> the PACER Written Opinions Report for the court.</li>
+        <li><strong>Written opinions, 2025 and 2026:</strong> the PACER Written Opinions Report for the court, run by hand by the site's owner (it carries no fee) for Jan. 1 to Dec. 21, 2025 and Jan. 1 to Oct. 20, 2026, with each opinion's docket text, signing judge, and case details. Counts begin at the earliest date from which the reports leave no gap, now Jan. 1, 2026; the 2025 opinions are on file and join the counts once the remaining days of December 2025 are added.</li>
         <li><strong>Civil orders, Sept. 17 to Oct. 16, 2026:</strong> the PACER Docket Activity Report, event category "order."</li>
         <li><strong>Opinion PDFs and text:</strong> <a href="https://www.govinfo.gov/app/collection/uscourts">GovInfo's United States Courts collection</a> (Government Publishing Office), which publishes the documents the court flags as written opinions, and CourtListener. Each GovInfo PDF is matched to the docket by the "Document" number CM/ECF stamps on every page.</li>
         <li><strong>Calendar:</strong> the court's seven-day calendar, docket text that sets proceedings, and minute entries (see <a href="#calendar">Calendar</a>).</li>
@@ -171,7 +171,7 @@
 
       <h2 id="limits">Known limits</h2>
       <ul>
-        <li>Each count follows the judge currently assigned to the case. An order entered before a reassignment can be credited to the new judge; entries dated before a judge's first day are excluded.</li>
+        <li>Order counts follow the judge currently assigned to the case, so an order entered before a reassignment can be credited to the new judge. Written opinions on the Written Opinions Report are credited to the district judge who signed them. Entries dated before a judge's first day are excluded.</li>
         <li>The RSS feed shows only the latest entries and does not name the judge. Entries reach the site after CourtListener records them, usually within minutes. If the feed or CourtListener is unavailable, entries can arrive late; the update log notes low-coverage days.</li>
         <li>Oral rulings, minute entries outside the order category, and sealed entries are not counted.</li>
       </ul>
