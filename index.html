@@ -18,6 +18,7 @@
     <a class="brand" href="#judges" aria-label="EDLA Analyzer home"><span class="brand-mark">EDLA</span><span class="brand-name">Analyzer</span></a>
     <nav class="nav" aria-label="Sections">
       <a href="#judges" data-nav="judges">Judges</a>
+      <a href="#cases" data-nav="cases">My cases</a>
       <a href="#activity" data-nav="activity">Activity</a>
       <a href="#calendar" data-nav="calendar">Calendar</a>
       <a href="#opinions" data-nav="opinions">Opinions</a>
@@ -58,6 +59,10 @@
     <p class="notice">Independent project, not affiliated with the court. Not legal advice. Counts come from automated reading of public records and can be wrong; check the docket before relying on one. <a href="methodology.html">How we count</a></p>
     <div class="recent" id="recent" hidden></div>
     <div class="kpis five" id="court-kpis" aria-label="Court figures"></div>
+    <section class="panel" id="home-cases" aria-labelledby="h-home-cases" hidden>
+      <div class="ph"><h2 id="h-home-cases">Your cases</h2><a class="more-link" href="#cases">My cases →</a></div>
+      <ol class="mini-cases" id="home-cases-list"></ol>
+    </section>
     <section class="panel" aria-labelledby="h-latest-home">
       <div class="ph"><h2 id="h-latest-home">Latest on the docket</h2><a class="more-link" href="#activity">All docket activity →</a></div>
       <ol class="act compact" id="home-act"></ol>
@@ -151,6 +156,84 @@
           </div>
           <ol class="feed" id="j-feed"></ol>
           <a class="feed-more" id="j-op-all" href="#opinions">All opinions in the search →</a>
+        </section>
+      </aside>
+    </div>
+  </section>
+
+  <!-- ============================================================ My cases -->
+  <section class="page" id="page-cases" aria-labelledby="h-cases" hidden>
+    <div class="jhead"><div><h1 id="h-cases">My cases</h1><p class="sub">Look up any civil case in the Eastern District to see its judge, motions, settings, and the judge's requirements on one page. Watch a case to keep it on your list, with new docket entries marked each time you come back. The list stays in this browser; nothing about it is sent anywhere.</p></div></div>
+    <section class="panel" aria-labelledby="h-lookup">
+      <div class="ph"><h2 id="h-lookup">Look up a case</h2></div>
+      <div class="pb">
+        <div class="omni big lookup" role="search">
+          <svg class="omni-icon" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m10.4 10.4 3.6 3.6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+          <input id="cl-q" type="search" placeholder="Case number (24-1933, 2:24-cv-01933) or party name" autocomplete="off" spellcheck="false" aria-label="Case number or party name" aria-controls="cl-results">
+        </div>
+        <div class="lookup-list" id="cl-results" role="listbox" aria-label="Matching cases" hidden></div>
+        <p class="notice" id="cl-note" hidden></p>
+      </div>
+    </section>
+    <section class="panel" id="cw-new-panel" aria-labelledby="h-cw-new" hidden>
+      <div class="ph"><h2 id="h-cw-new">New since your last look</h2><div class="actions"><span class="count" id="cw-new-count"></span><button type="button" class="btn ghost" id="cw-seen">Mark all as seen</button></div></div>
+      <ol class="act compact withjudge" id="cw-new"></ol>
+    </section>
+    <section class="panel" aria-labelledby="h-cw">
+      <div class="ph"><h2 id="h-cw">Watched cases</h2><div class="actions" id="cw-tools"><span class="count" id="cw-count"></span><button type="button" class="btn ghost" id="cw-ics"></button><button type="button" class="btn ghost" id="cw-share" title="A link that adds these cases to the list on another computer or phone">Copy a link to this list</button></div></div>
+      <div class="pb" id="cw-empty">
+        <p class="cap">No cases on your list yet. Look one up above and press <b>Watch this case</b>. Recently active cases, to try it:</p>
+        <div class="chips" id="cw-examples"></div>
+      </div>
+      <div class="scroll"><table class="t" id="cw-table"></table></div>
+    </section>
+  </section>
+
+  <!-- ============================================================ One case -->
+  <section class="page" id="page-case" aria-labelledby="c-title" hidden>
+    <div class="jhead">
+      <div>
+        <p class="eyebrow"><a href="#cases">My cases</a> <span aria-hidden="true">/</span> <span id="c-crumb"></span></p>
+        <div class="jtitle"><h1 id="c-title">Case</h1><span class="code" id="c-num"></span></div>
+        <p class="fullname" id="c-judge"></p>
+      </div>
+      <div class="actions">
+        <button type="button" class="btn watch" id="c-watch" aria-pressed="false">☆ Watch this case</button>
+        <button type="button" class="btn" id="c-copy">Copy link</button>
+        <button type="button" class="btn" id="c-print">Print</button>
+        <a class="btn" id="c-cl" target="_blank" rel="noopener noreferrer">CourtListener ↗</a>
+      </div>
+    </div>
+    <p class="notice" id="c-empty" hidden></p>
+    <div class="kpis five" id="c-kpis" aria-label="Case at a glance"></div>
+    <div class="jgrid">
+      <div class="stack">
+        <section class="panel" id="c-motions" aria-labelledby="h-cm">
+          <div class="ph"><h2 id="h-cm">Motions</h2><span class="count" id="c-mcount"></span></div>
+          <ol class="mcs" id="c-motion-list"></ol>
+          <p class="foot-note pad" id="c-motion-note"></p>
+        </section>
+        <section class="panel" id="c-docket" aria-labelledby="h-cd">
+          <div class="ph"><h2 id="h-cd">Docket entries on file</h2><span class="count" id="c-dcount"></span></div>
+          <ol class="act incase" id="c-docket-list"></ol>
+          <button type="button" class="btn more" id="c-more" hidden></button>
+          <p class="foot-note pad" id="c-docket-note"></p>
+        </section>
+      </div>
+      <aside class="stack">
+        <section class="panel" id="c-cal" aria-labelledby="h-ccal">
+          <div class="ph"><h2 id="h-ccal">On the calendar</h2><div class="actions"><button type="button" class="btn ghost" id="c-ics" title="Download a calendar file (.ics) for Outlook, Google, or Apple Calendar">Add all to calendar</button><a class="more-link" id="c-cal-all" href="#calendar">Judge's calendar →</a></div></div>
+          <ol class="cal-list" id="c-cal-list"></ol>
+        </section>
+        <section class="panel" id="c-req-panel" aria-labelledby="h-creq">
+          <div class="ph"><h2 id="h-creq">Chambers and requirements</h2><a class="more-link" id="c-req-src" target="_blank" rel="noopener noreferrer">Court's page ↗</a></div>
+          <div class="pb creq" id="c-req"></div>
+        </section>
+        <section class="panel latest" id="c-cmp-panel" aria-labelledby="c-cmp-h">
+          <div class="ph"><h2 id="c-cmp-h">Written rulings on similar motions</h2></div>
+          <div class="pb tight"><div class="chips" id="c-cmp-kinds"></div></div>
+          <ol class="feed" id="c-cmp"></ol>
+          <a class="feed-more" id="c-cmp-all" href="#opinions">Open in the opinion search →</a>
         </section>
       </aside>
     </div>

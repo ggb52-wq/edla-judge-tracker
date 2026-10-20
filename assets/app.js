@@ -78,8 +78,8 @@
   const recordLink = (o) => REPO + '/issues/new?template=outcome.yml&title=' + encodeURIComponent('Outcome: ' + o.case + ' doc ' + o.doc)
     + '&case=' + encodeURIComponent(o.case) + '&doc=' + encodeURIComponent(o.doc);
 
-  const PAGES = ['judges', 'judge', 'compare', 'activity', 'calendar', 'opinions', 'motions', 'rules', 'court', 'log'];
-  const NAV = { judges: 'judges', judge: 'judges', compare: 'judges', activity: 'activity', calendar: 'calendar', opinions: 'opinions', motions: 'motions', rules: 'rules', court: 'court', log: '' };
+  const PAGES = ['judges', 'judge', 'compare', 'cases', 'case', 'activity', 'calendar', 'opinions', 'motions', 'rules', 'court', 'log'];
+  const NAV = { judges: 'judges', judge: 'judges', compare: 'judges', cases: 'cases', case: 'cases', activity: 'activity', calendar: 'calendar', opinions: 'opinions', motions: 'motions', rules: 'rules', court: 'court', log: '' };
   const VIEWS = [['orders', 'Civil orders'], ['opinions', 'Written opinions'], ['outcomes', 'Motion outcomes'], ['weekdays', 'Weekdays'], ['hours', 'Time of day']];
   // Addresses from the earlier, tabbed layout still open the matching page.
   const LEGACY = { overview: ['judges'], orders: ['court', 'orders'], outcomes: ['court', 'outcomes'], finder: ['opinions'] };
@@ -209,22 +209,29 @@
     const recent = opRows.slice().sort((a, b) => (b.date + b.case + b.doc).localeCompare(a.date + a.case + a.doc));
 
     // Submitted motions: each motion from the feed, with the first later order or opinion in the same case that names
-    // the same type of motion (or an outcome that cites the motion's docket number) taken as its ruling.
-    const motionCore = (e) => (e || '').replace(/^.*?\bmotion\b/i, 'motion').toLowerCase().trim();
+    // the same relief ("Compel" and "Order on Motion to Compel"), or an outcome that cites the motion's docket number,
+    // taken as its ruling.
     const byCase = {};
-    const addRuling = (o, kind) => { if (/\bmotion\b/i.test(o.event || '')) (byCase[o.case] = byCase[o.case] || []).push({ date: o.date, event: (o.event || '').toLowerCase(), kind }); };
+    const addRuling = (o, kind) => { if (/\bmotion\b/i.test(o.event || '')) (byCase[o.case] = byCase[o.case] || []).push({ date: o.date, doc: o.doc, event: (o.event || '').toLowerCase(), raw: o.event || '', kind }); };
     D.orders.forEach((o) => addRuling(o, 'order'));
     D.opinions.forEach((o) => addRuling(o, 'opinion'));
     const cited = new Set((D.outcomes || []).filter((r) => r.motion_doc).map((r) => r.case + '|' + r.motion_doc));
     const citedDate = Object.fromEntries((D.outcomes || []).filter((r) => r.motion_doc).map((r) => [r.case + '|' + r.motion_doc, (D.opinions.find((o) => o.case === r.case && o.doc === r.doc) || {}).date || '']));
-    const motions = (D.motions || []).filter((m) => (!m.judge || names[m.judge]) && m.date <= through && (!floor || m.date >= floor)).map((m) => {
-      const core = motionCore(m.event);
-      let ruled = '';
-      if (cited.has(m.case + '|' + m.doc)) ruled = citedDate[m.case + '|' + m.doc] || m.date;
-      else { const hit = (byCase[m.case] || []).filter((r) => r.date >= m.date && r.event.includes(core)).sort((a, b) => a.date.localeCompare(b.date))[0]; if (hit) ruled = hit.date; }
+    const citedBy = Object.fromEntries((D.outcomes || []).filter((r) => r.motion_doc).map((r) => [r.case + '|' + r.motion_doc, r.doc]));
+    // Every motion on file (the case pages use them all); the Motions page and judge pages use those in the period.
+    const allMotions = (D.motions || []).map((m) => {
+      const keys = reliefKeys(m.event);
+      let ruled = ''; let ruling = null;
+      if (cited.has(m.case + '|' + m.doc)) { ruled = citedDate[m.case + '|' + m.doc] || m.date; ruling = (byCase[m.case] || []).find((r) => r.doc === citedBy[m.case + '|' + m.doc]) || null; }
+      else {
+        ruling = (byCase[m.case] || []).filter((r) => r.date >= m.date && keys.some((k) => r.event.includes(k))).sort((a, b) => a.date.localeCompare(b.date))[0] || null;
+        if (ruling) ruled = ruling.date;
+      }
       const past = !!m.submit && m.submit < through && !ruled;
-      return { ...m, core, ruled, past, daysPast: past ? daysBetween(m.submit, through) : null, daysToRule: ruled ? daysBetween(m.date, ruled) : null };
-    }).sort((a, b) => (b.daysPast || -1) - (a.daysPast || -1) || b.date.localeCompare(a.date));
+      return { ...m, core: keys[0] || '', kind: motionKind(m.event), ruled, ruling, past, daysPast: past ? daysBetween(m.submit, through) : null, daysToRule: ruled ? daysBetween(m.date, ruled) : null };
+    });
+    const motions = allMotions.filter((m) => (!m.judge || names[m.judge]) && m.date <= through && (!floor || m.date >= floor))
+      .sort((a, b) => (b.daysPast || -1) - (a.daysPast || -1) || b.date.localeCompare(a.date));
     const motionsSince = (D.motions || []).reduce((s, m) => (s && s < m.date ? s : m.date), '');
     const byJudge = [...D.judges.map((j) => ({ name: j.name, code: j.code })), { name: 'Judge not yet known', code: '' }].map((j) => {
       const M = motions.filter((m) => (m.judge || '') === j.code);
@@ -236,7 +243,7 @@
     const medOf = (vals, min = 1) => { const v = vals.filter((x) => x != null); return v.length >= min ? median(v) : null; };
     return {
       through, names, opinions, orders, weekly, recent, monthly, hours, pooled, dowCourt, since: { orders: orStart, opinions: opStart }, workingDays: allDays.length,
-      motions, motionsSince, motionsByJudge: byJudge,
+      motions, allMotions, motionsSince, motionsByJudge: byJudge,
       totals: {
         orders: sum(orders, 'orders'), perDay: allDays.length ? sum(orders, 'orders') / allDays.length : 0,
         opinions: sum(opinions, 'total'), merits: sum(opinions, 'merits'), motions: sum(opinions, 'all_n'), known: sum(opinions, 'all_known'),
@@ -284,6 +291,11 @@
     state.page = page;
     if (page === 'judge') { state.judge = judgeCode(parts[1] || p.get('judge')); if (p.has('tab')) state.rtab = p.get('tab'); }
     if (page === 'rules') state.rq = p.get('q') || '';
+    if (page === 'case') { const id = normCase(parts[1]); if (id) state.caseId = id; else page = state.page = 'cases'; }
+    if (page === 'cases' && p.get('w') && state.data) {
+      const n = importWatch(p.get('w').split(','));
+      state.importNote = n ? 'Added ' + plural(n, 'case') + ' from the link to your list.' : 'Every case in the link is already on your list.';
+    }
     if (page === 'calendar') state.cal = { week: /^\d{4}-\d{2}-\d{2}$/.test(p.get('week') || '') ? p.get('week') : '', judge: judgeCode(p.get('judge')),
       view: ['week', 'list'].includes(p.get('view')) ? p.get('view') : '', subs: p.get('subs') === '1' };
     if (page === 'activity') state.act = { q: p.get('q') || '', judge: judgeCode(p.get('judge')), kind: ACT_KINDS.some(([k]) => k === p.get('kind')) ? p.get('kind') : '',
@@ -300,6 +312,7 @@
   function hashFor(page, o = {}) {
     const p = new URLSearchParams(); let path = page;
     if (page === 'judge') { path += '/' + o.judge; if (o.tab) p.set('tab', o.tab); }
+    if (page === 'case') path += '/' + o.caseId;
     if (page === 'rules' && o.q) p.set('q', o.q);
     if (page === 'calendar' && o.cal) { const c = o.cal; if (c.week) p.set('week', c.week); if (c.judge) p.set('judge', c.judge); if (c.view) p.set('view', c.view); if (c.subs) p.set('subs', '1'); }
     if (page === 'activity' && o.act) { const a = o.act; if (a.q) p.set('q', a.q); if (a.judge) p.set('judge', a.judge); if (a.kind) p.set('kind', a.kind); if (a.days && a.days !== '7') p.set('days', a.days); }
@@ -310,7 +323,7 @@
     if (state.period) p.set('period', state.period);
     return '#' + path + (p.toString() ? '?' + p : '');
   }
-  const currentHash = () => hashFor(state.page, { judge: state.judge, cmp: state.cmp, view: state.view, f: state.f, mt: state.mt, q: state.rq, act: state.act, cal: state.cal,
+  const currentHash = () => hashFor(state.page, { caseId: state.caseId, judge: state.judge, cmp: state.cmp, view: state.view, f: state.f, mt: state.mt, q: state.rq, act: state.act, cal: state.cal,
     tab: state.page === 'judge' && (state.pages[state.judge] || { sections: [] }).sections.some((x) => slug(x.title) === state.rtab) ? state.rtab : '' });
   const slug = (t) => String(t).toLowerCase().replace(/&/g, 'and').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
   const judgeHref = (code) => hashFor('judge', { judge: code });
@@ -577,6 +590,7 @@
       kpi({ label: 'Civil orders', value: fmt.int(T.orders), sub: fmt.d1(T.perDay) + ' per working day since ' + fmtShort(S.since.orders), href: hashFor('court', { view: 'orders' }) }),
       kpi({ label: 'Data through', value: fmtShort(S.through), sub: lastRunText(), href: '#log' }),
     );
+    drawHomeCases();
     $('home-act').classList.add('withjudge');
     $('home-act').replaceChildren(...actItems(activity().rows.slice(0, 8), { judge: true }));
     const recent = recentJudges().filter((c) => S.names[c]);
@@ -860,7 +874,7 @@
     return el('table', { className: 't' }, el('thead', {}, el('tr', {}, ...cols.map((c) => el('th', { textContent: c, className: c === 'Days past' ? 'r' : '' })))),
       el('tbody', {}, ...rows.map((m) => el('tr', {},
         withJudge ? el('td', { className: 'txt' }, m.judge ? el('a', { className: 'judge', href: judgeHref(m.judge), textContent: S.names[m.judge] }) : el('span', { className: 'dim', textContent: 'Not yet known' })) : null,
-        el('td', { className: 'txt' }, el('a', { className: 'case', href: CL + '?type=r&court=laed&docket_number=' + encodeURIComponent(m.case), target: '_blank', rel: 'noopener noreferrer', textContent: m.case + ' · ' + m.doc, title: 'Search CourtListener for this case' })),
+        el('td', { className: 'txt' }, caseNumLink(m.case, m.doc)),
         el('td', { className: 'ev', textContent: m.event }),
         el('td', { className: 'mono', textContent: fmtMDY(m.date) }),
         el('td', { className: 'mono' + (m.submit ? '' : ' dim'), textContent: m.submit ? fmtMDY(m.submit) : 'not read yet' }),
@@ -1022,46 +1036,75 @@
   const splitEvents = (t) => (t || '').split(/\s+AND\s+|\s+\/\s+/).map((x) => x.trim()).filter(Boolean);
   const isOrderEvent = (t) => splitEvents(t).some((e) => ORDER_PREFIXES.some((p) => e.toLowerCase().startsWith(p)));
   // The feed often names a motion by its relief alone ("[Continue]" for a motion to continue, "[Reconsideration]").
-  const RELIEF_RE = /^(?:continue|expedite|reconsideration|extension of (?:time|deadlines)|leave to (?:file|amend|appeal|proceed)|dismiss|(?:partial )?summary judgment|judgment on the pleadings|compel|protective order|remand|stay|withdraw as attorney|enroll as counsel|substitute attorney|appear pro hac vice|default judgment|entry of default|quash|strike|in limine|exclude|intervene|amend|seal|attorney fees|sanctions|new trial|transfer|consolidate|miscellaneous relief|preliminary injunction|temporary restraining order|reopen|set aside|recuse|sever|bifurcate|certify class|vacate|substitute party|appoint counsel)\b/i;
+  const RELIEF_RE = /^(?:proceed in forma pauperis|continue|expedite|reconsideration|extension of (?:time|deadlines)|leave to (?:file|amend|appeal|proceed)|dismiss|(?:partial )?summary judgment|judgment on the pleadings|compel|protective order|remand|stay|withdraw as attorney|enroll as counsel|substitute attorney|appear pro hac vice|default judgment|entry of default|quash|strike|in limine|exclude|intervene|amend|seal|attorney fees|sanctions|new trial|transfer|consolidate|miscellaneous relief|preliminary injunction|temporary restraining order|reopen|set aside|recuse|sever|bifurcate|certify class|vacate|substitute party|appoint counsel)\b/i;
   const isMotionEvent = (t) => (/^(?:[\w./-]+\s){0,2}motion\s+(?:to|for|in)\b/i.test(t || '') || splitEvents(t).some((e) => RELIEF_RE.test(e)))
     && !/response|reply|opposition|order|notice|memorand|judgment entered/i.test(t || '');
+  // The relief a motion asks for, as words an order on it repeats: "Compel" and "Motion to Compel" give ["compel"];
+  // "Extension of Deadlines AND Continue" gives ["extension of deadlines", "continue"].
+  const reliefKeys = (t) => splitEvents(t).map((e) => {
+    const x = e.replace(/^.*?\bmotion\s+(?:to|for|in)\s+/i, '');
+    const m = x.match(RELIEF_RE);
+    return (m ? m[0] : x.split(/\s+/).slice(0, 3).join(' ')).toLowerCase().trim();
+  }).filter(Boolean);
+  // A motion's kind, for comparing how long rulings take: the opinion categories (Rule 12, Rule 56, discovery, ...),
+  // plus scheduling and procedural motions, which are usually decided by short order.
+  const KIND_OF_RELIEF = { compel: 'discovery', quash: 'discovery', 'protective order': 'discovery', remand: 'remand', reconsideration: 'reconsideration',
+    stay: 'stay', 'default judgment': 'default', 'entry of default': 'default', 'attorney fees': 'fees', 'in limine': 'limine', exclude: 'daubert',
+    'preliminary injunction': 'injunction', 'temporary restraining order': 'injunction', 'summary judgment': 'r56', 'partial summary judgment': 'r56',
+    dismiss: 'r12', 'judgment on the pleadings': 'r12' };
+  const PROCEDURAL_RE = /^(?:continue|expedite|extension of|leave to|withdraw as attorney|enroll as counsel|substitute attorney|appear pro hac vice|seal|substitute party|proceed in forma pauperis|appoint counsel|amend|consolidate|sever|bifurcate|transfer|reopen|intervene)/;
+  function motionKind(t) {
+    const keys = reliefKeys(t);
+    for (const k of keys) if (KIND_OF_RELIEF[k]) return KIND_OF_RELIEF[k];
+    if (/summary judgment/i.test(t || '')) return 'r56';
+    if (/\bdismiss|judgment on the pleadings|more definite statement/i.test(t || '')) return 'r12';
+    const hit = MCAT_RULES.find(([, re]) => re.test(t || '')); if (hit) return hit[0];
+    return keys.some((k) => PROCEDURAL_RE.test(k)) ? 'procedural' : 'othermotion';
+  }
+  const KIND_LABEL = { ...Object.fromEntries(MCATS), r12: 'motions to dismiss and other Rule 12 motions', r56: 'summary judgment motions', discovery: 'discovery motions',
+    daubert: 'Daubert and expert motions', limine: 'motions in limine', injunction: 'injunction and TRO motions', remand: 'motions to remand', reconsideration: 'motions for reconsideration',
+    stay: 'motions to stay', default: 'default judgment motions', fees: 'attorney fee motions', procedural: 'scheduling and procedural motions', othermotion: 'other motions' };
   const cleanEvent = (t) => splitEvents(t).map((e) => e.replace(/\s*~Util\s*-\s*/gi, ' · ').replace(/^ · /, '')).join(' · ') || 'Docket entry';
   const actKind = (r) => (r.opinion ? 'opinion' : r.isOrder || isOrderEvent(r.event) ? 'order' : isMotionEvent(r.event) ? 'motion'
     : /^(?:(?:verified|class action|amended)\s+)?complaint\b|^notice of removal|^petition\b/i.test(r.event || '') && !/amended/i.test(r.event || '') ? 'newcase'
       : /hearing|conference|trial|minute entry|oral argument/i.test(r.event || '') ? 'hearing' : 'filing');
   let actCache = null;
-  function activity() {
+  // Docket entries from every source, merged: the feed, orders, written opinions (with their outcome and links), and
+  // motions. keep(row) picks the rows (by date for the Activity page, by case for a case page).
+  function mergeEntries(keep) {
     const D = state.data; const S = state.stats; const feed = D.feed || [];
-    if (actCache && actCache.stats === S && actCache.feed === feed) return actCache;
-    const latest = [feed.length ? feed[0].at.slice(0, 10) : '', ...D.orders.map((o) => o.date), ...D.opinions.map((o) => o.date), ...(D.motions || []).map((m) => m.date)].reduce((a, b) => (b > a ? b : a), '');
-    const floor = addDays(latest, 1 - ACT_DAYS);
     const rows = new Map();
     const keyOf = (r) => (r.doc ? r.case + '|' + r.doc : r.case + '||' + r.event + '|' + r.date + (r.time || ''));
     feed.forEach((f) => {
-      const date = f.at.slice(0, 10); if (date < floor) return;
-      const r = { date, time: f.at.slice(11, 16), case: f.case, doc: f.doc, event: f.event, title: f.title, judge: f.judge, feed: true };
-      if (!rows.has(keyOf(r))) rows.set(keyOf(r), r);
+      const r = { date: f.at.slice(0, 10), time: f.at.slice(11, 16), case: f.case, doc: f.doc, event: f.event, title: f.title, judge: f.judge, feed: true };
+      if (keep(r) && !rows.has(keyOf(r))) rows.set(keyOf(r), r);
     });
     D.orders.forEach((o) => {
-      if (o.date < floor) return;
+      if (!keep(o)) return;
       const r = rows.get(keyOf(o));
       if (r) { r.isOrder = true; r.judge = r.judge || o.judge; r.title = r.title || o.title; if (!r.time && o.time) r.time = o.time; }
       else rows.set(keyOf(o), { date: o.date, time: o.time || '', case: o.case, doc: o.doc, event: o.event, title: o.title, judge: o.judge, isOrder: true });
     });
     const full = new Map(S.recent.map((o) => [o.case + '|' + o.doc, o]));
     D.opinions.forEach((o) => {
-      if (o.date < floor) return;
+      if (!keep(o)) return;
       const op = full.get(o.case + '|' + o.doc) || o; const r = rows.get(keyOf(o));
       if (r) { r.opinion = op; r.judge = r.judge || o.judge; } else rows.set(keyOf(o), { date: o.date, time: '', case: o.case, doc: o.doc, event: o.event, title: o.title, judge: o.judge, opinion: op });
     });
     (D.motions || []).forEach((m) => {
-      if (m.date < floor) return;
-      if (!rows.has(keyOf(m))) rows.set(keyOf(m), { date: m.date, time: m.time || '', case: m.case, doc: m.doc, event: m.event, title: m.title, judge: m.judge });
+      if (keep(m) && !rows.has(keyOf(m))) rows.set(keyOf(m), { date: m.date, time: m.time || '', case: m.case, doc: m.doc, event: m.event, title: m.title, judge: m.judge });
     });
     const caseJudge = new Map(state.cases.map((c) => [c.case, c.judge]));
-    const out = [...rows.values()].map((r) => ({ ...r, judge: r.judge || caseJudge.get(r.case) || '', kind: actKind(r),
+    return [...rows.values()].map((r) => ({ ...r, judge: r.judge || caseJudge.get(r.case) || '', kind: actKind(r),
       lt: (r.case + ' ' + (r.title || '') + ' ' + (r.event || '')).toLowerCase() }))
       .sort((a, b) => (b.date + (b.time || '00:00') + b.case + b.doc.padStart(6, '0')).localeCompare(a.date + (a.time || '00:00') + a.case + a.doc.padStart(6, '0')));
+  }
+  function activity() {
+    const D = state.data; const S = state.stats; const feed = D.feed || [];
+    if (actCache && actCache.stats === S && actCache.feed === feed) return actCache;
+    const latest = [feed.length ? feed[0].at.slice(0, 10) : '', ...D.orders.map((o) => o.date), ...D.opinions.map((o) => o.date), ...(D.motions || []).map((m) => m.date)].reduce((a, b) => (b > a ? b : a), '');
+    const floor = addDays(latest, 1 - ACT_DAYS);
+    const out = mergeEntries((r) => r.date >= floor);
     const feedStart = feed.length ? feed[feed.length - 1].at.slice(0, 10) : '';
     actCache = { stats: S, feed, rows: out, latest, floor, feedStart };
     return actCache;
@@ -1072,13 +1115,13 @@
     return rows.map((r) => {
       const ev = el('span', { className: 'ev', textContent: cleanEvent(r.event) });
       if (r.opinion) { const p = outcomePill(r.opinion); if (p) ev.append(p); }
-      const link = r.opinion ? caseLink(r.opinion) : [el('a', { className: 'case', href: CL + '?type=r&court=laed&docket_number=' + encodeURIComponent(r.case), target: '_blank', rel: 'noopener noreferrer',
-        textContent: r.case + (r.doc ? ' · ' + r.doc : ''), title: 'Search CourtListener for this case' })];
+      const pdf = r.opinion && linkKind(r.opinion) === 'pdf' ? el('a', { className: 'tag', href: r.opinion.pdf, target: '_blank', rel: 'noopener noreferrer', textContent: 'PDF', title: 'Open the opinion (PDF)' }) : null;
       return el('li', {},
         el('span', { className: 'tm', textContent: opts.dates ? r.date.slice(5, 7) + '/' + r.date.slice(8, 10) + (r.time ? ' ' + r.time : '') : (r.time || '—'), title: fmtDate(r.date) }),
         el('span', { className: 'kind k-' + r.kind, textContent: ACT_LABEL[r.kind] }),
-        ev, el('span', { className: 'cs' }, ...link), el('span', { className: 'nm', textContent: r.title || '', title: r.title || '' }),
-        el('span', { className: 'jg' }, S.names[r.judge] ? el('a', { href: judgeHref(r.judge), textContent: S.names[r.judge] }) : el('span', { className: 'dim', textContent: r.judge || '—', title: r.judge ? 'Not one of the 16 district judges the site covers' : 'Judge not yet known' })));
+        ev, el('span', { className: 'cs' }, opts.noCase ? el('span', { className: 'docn', textContent: r.doc ? 'doc ' + r.doc : '' }) : caseNumLink(r.case, r.doc), pdf),
+        opts.noCase ? null : el('span', { className: 'nm', textContent: r.title || '', title: r.title || '' }),
+        opts.noCase ? null : el('span', { className: 'jg' }, S.names[r.judge] ? el('a', { href: judgeHref(r.judge), textContent: S.names[r.judge] }) : el('span', { className: 'dim', textContent: r.judge || '—', title: r.judge ? 'Not one of the 16 district judges the site covers' : 'Judge not yet known' })));
     });
   }
   function actFilter(A) {
@@ -1181,7 +1224,7 @@
     if (!opts.noTime || e.src === 'held') n.append(el('span', { className: 'tm', textContent: e.src === 'held' ? (e.entered ? 'entered ' + fmtTime(e.entered) : 'minute entry') : (fmtTime(e.time) || 'time not listed') }));
     n.append(e.what);
     if (e.case || e.short) {
-      n.append(' ', e.case ? el('a', { className: 'cn', href: CL + '?type=r&court=laed&docket_number=' + encodeURIComponent(e.case), target: '_blank', rel: 'noopener noreferrer', textContent: e.short || e.case, title: e.title || 'Search CourtListener for this case' })
+      n.append(' ', e.case ? el('a', { className: 'cn', href: caseHref(e.case), textContent: e.short || e.case, title: (e.title ? e.title + ' · ' : '') + 'Open the case page' })
         : el('span', { className: 'cn', textContent: e.short, style: 'color:var(--ink-2)' }));
     }
     if (e.src === 'subs') { const a = el('a', { className: 'cn', href: hashFor('motions', { mt: { judge: e.judge, view: 'all' } }), textContent: ' list →' }); n.append(a); }
@@ -1357,6 +1400,353 @@
     $('t-rules').replaceChildren(head, body);
   }
 
+  // ------------------------------------------------------------ my cases: a page per case, and a watchlist
+  // A case page gathers what the site has on one civil case: its judge and the judge's posted requirements, its motions
+  // with how long past rulings on that kind of motion took, its settings on the calendar, the judge's written rulings on
+  // the same kinds of motion, and every docket entry on file. The watchlist, the last look at each case, and judges
+  // picked by hand stay in this browser (localStorage); nothing about them leaves it.
+  // "2:24-cv-01933", "24-cv-1933", "24-1933", "24cv1933", and "2:24-cv-01933-WBV-DPC" all give "2:24-cv-01933".
+  function normCase(raw) {
+    const s = String(raw || '').trim().toLowerCase().replace(/\s+/g, '');
+    const m = s.match(/^(?:(\d):)?(\d{2})[-:]?([a-z]{2})?[-:]?0*(\d{1,5})(?:-[a-z]+)*$/);
+    return m ? (m[1] || '2') + ':' + m[2] + '-' + (m[3] || 'cv') + '-' + m[4].padStart(5, '0') : '';
+  }
+  const caseHref = (id) => '#case/' + id;
+  const caseNumLink = (id, doc, cls) => el('a', { className: cls || 'case', href: caseHref(id), textContent: id + (doc ? ' · ' + doc : ''), title: 'Open the case page' });
+  const clCase = (id) => CL + '?type=r&court=laed&docket_number=' + encodeURIComponent(id);
+  const readJson = (k, empty) => { try { const v = JSON.parse(store.get(k) || 'null'); return v && typeof v === 'object' ? v : empty; } catch (e) { return empty; } };
+  const watchList = () => { const w = readJson('edla-watch', []); return Array.isArray(w) ? w.filter((x) => x && normCase(x.case) === x.case) : []; };
+  const saveWatch = (w) => store.set('edla-watch', JSON.stringify(w));
+  const isWatched = (id) => watchList().some((x) => x.case === id);
+  const judgePicks = () => readJson('edla-case-judge', {});
+  function setJudgePick(id, code) { const p = judgePicks(); if (code) p[id] = code; else delete p[id]; store.set('edla-case-judge', JSON.stringify(p)); caseCache = null; }
+  const stampOf = (r) => r.date + 'T' + (r.time || '00:00');
+  function toggleWatch(id) {
+    const w = watchList(); const i = w.findIndex((x) => x.case === id);
+    if (i >= 0) w.splice(i, 1); else w.unshift({ case: id, added: todayIso(), seen: caseData(id).latest });
+    saveWatch(w);
+  }
+  function markSeen(id, stamp) { const w = watchList(); const x = w.find((y) => y.case === id); if (x && stamp && stamp > (x.seen || '')) { x.seen = stamp; saveWatch(w); } }
+
+  // Everything on file for one case.
+  let caseCache = null; const caseMemo = new Map();
+  function caseData(id) {
+    const D = state.data; const S = state.stats;
+    const sig = S === (caseCache && caseCache.S) && D.feed === caseCache.feed && D.hearings === caseCache.h;
+    if (!sig) { caseMemo.clear(); caseCache = { S, feed: D.feed, h: D.hearings }; }
+    if (caseMemo.has(id)) return caseMemo.get(id);
+    const info = state.cases.find((c) => c.case === id) || null;
+    const entries = mergeEntries((r) => r.case === id);
+    const feedRow = (D.feed || []).find((f) => f.case === id && f.judge);
+    const picked = judgePicks()[id] && S.names[judgePicks()[id]] ? judgePicks()[id] : '';
+    const known = (info && info.judge) || (feedRow && feedRow.judge) || entries.map((e) => e.judge).find((j) => S.names[j]) || '';
+    const cal = calEvents().events.filter((e) => e.case === id && e.src !== 'subs');
+    const today = ctToday();
+    const out = {
+      id, info, entries, judge: known || picked, judgePicked: !known && !!picked, title: (info && info.title) || (entries.find((e) => e.title) || {}).title || (cal.find((e) => e.title) || {}).title || '',
+      motions: S.allMotions.filter((m) => m.case === id).sort((a, b) => b.date.localeCompare(a.date) || (+b.doc || 0) - (+a.doc || 0)),
+      opinions: S.recent.filter((o) => o.case === id),
+      upcoming: cal.filter((e) => e.date >= today && e.src !== 'held'), held: cal.filter((e) => e.date < today || e.src === 'held').reverse(),
+      latest: entries.length ? stampOf(entries[0]) : '',
+    };
+    caseMemo.set(id, out);
+    return out;
+  }
+
+  // How long past rulings took, from a motion's filing to the order deciding it: written opinions with the decided
+  // motion's filing date (from CourtListener) and motions seen in the feed with a later order on the same relief.
+  let waitCache = null;
+  function waitSamples() {
+    const S = state.stats; if (waitCache && waitCache.S === S) return waitCache.rows;
+    const rows = []; const cited = new Set();
+    S.recent.forEach((o) => { if (isMotion(o) && o.days != null && o.days >= 0) { rows.push({ judge: o.judge, kind: o.mcat, days: o.days }); if (o.motionDoc) cited.add(o.case + '|' + o.motionDoc); } });
+    S.allMotions.forEach((m) => { if (m.daysToRule != null && m.daysToRule >= 0 && S.names[m.judge] && !cited.has(m.case + '|' + m.doc)) rows.push({ judge: m.judge, kind: m.kind, days: m.daysToRule }); });
+    waitCache = { S, rows };
+    return rows;
+  }
+  function waitFor(judge, kind) {
+    const R = waitSamples(); const sorted = (f) => R.filter(f).map((r) => r.days).sort((a, b) => a - b);
+    const own = sorted((r) => r.judge === judge && r.kind === kind);
+    const court = sorted((r) => r.kind === kind);
+    const v = own.length >= FEW ? own : court;
+    if (v.length < FEW) return { scope: 'none', own: own.length, n: court.length };
+    return { scope: v === own ? 'judge' : 'court', own: own.length, n: v.length, med: d3.quantileSorted(v, 0.5), p25: d3.quantileSorted(v, 0.25), p75: d3.quantileSorted(v, 0.75), p90: d3.quantileSorted(v, 0.9) };
+  }
+  const dayWord = (n) => plural(Math.round(n), 'day');
+  function waitBar(age, w, judgeName) {
+    const max = Math.max(14, w.p90 || 0, age) * 1.12;
+    const pos = (d) => Math.min(100, (d / max) * 100) + '%';
+    const track = el('div', { className: 'wb-track' });
+    const band = el('i', { className: 'wb-band' + (w.scope === 'court' ? ' court' : '') }); band.style.left = pos(w.p25); band.style.width = 'calc(' + pos(w.p75) + ' - ' + pos(w.p25) + ')';
+    const tick = el('i', { className: 'wb-med' + (w.scope === 'court' ? ' court' : '') }); tick.style.left = pos(w.med);
+    const now = el('i', { className: 'wb-now' }); now.style.left = pos(age);
+    const lab = el('span', { className: 'wb-lab', textContent: 'day ' + fmt.int(age) }); lab.style.left = pos(age);
+    if (age / max < 0.06) lab.style.transform = 'translateX(-4px)'; else if (age / max > 0.94) lab.style.transform = 'translateX(-100%)';
+    track.append(band, tick, now, lab);
+    const who = w.scope === 'judge' ? 'Judge ' + judgeName : 'All judges';
+    const tip = `${who}: half of past rulings came within ${dayWord(w.med)} of filing; the middle half took ${fmt.int(Math.round(w.p25))}–${dayWord(w.p75)}. Based on ${plural(w.n, 'ruling')}.`;
+    track.dataset.tip = tip;
+    return el('div', { className: 'wb' }, track, el('div', { className: 'wb-axis' }, el('span', { textContent: 'filed' }), el('span', { textContent: dayWord(max) })));
+  }
+
+  function motionCard(m, C, today) {
+    const S = state.stats; const name = S.names[C.judge] || '';
+    const age = daysBetween(m.date, today);
+    const head = el('div', { className: 'mc-head' },
+      el('span', { className: 'mc-ev', textContent: cleanEvent(m.event) }),
+      el('span', { className: 'mc-doc', textContent: m.doc ? 'doc ' + m.doc : '' }),
+      el('span', { className: 'mc-when', textContent: 'filed ' + fmtShort(m.date) + (m.time ? ' ' + fmtTime(m.time) : '') }));
+    const facts = [];
+    if (m.submit) facts.push(m.submit >= today ? 'Submission date ' + fmtDate(m.submit) + (m.submit === today ? ' (today)' : ' (in ' + dayWord(daysBetween(today, m.submit)) + ')')
+      : 'Submitted ' + fmtDate(m.submit) + ' (' + dayWord(daysBetween(m.submit, today)) + ' ago)');
+    else facts.push('Submission date not read yet');
+    const card = el('li', { className: 'mc' }, head, el('p', { className: 'mc-facts', textContent: facts.join(' · ') }));
+    if (m.ruled) {
+      const r = m.ruling; const op = r && C.opinions.find((o) => o.doc === r.doc);
+      card.classList.add('done');
+      card.append(el('p', { className: 'mc-ruled' }, 'Ruling found ' + fmtDate(m.ruled) + ', ' + dayWord(m.daysToRule) + ' after filing' + (r && r.raw ? ': ' + cleanEvent(r.raw) : ''),
+        op ? ' ' : null, op ? outcomePill(op) : null, op && linkKind(op) === 'pdf' ? el('a', { className: 'tag', href: op.pdf, target: '_blank', rel: 'noopener noreferrer', textContent: 'PDF' }) : null));
+      return card;
+    }
+    if (!C.judge) { card.append(el('p', { className: 'mc-wait dim', textContent: 'Pick the judge above to compare with that judge\'s past rulings.' })); return card; }
+    const w = waitFor(C.judge, m.kind);
+    if (w.scope === 'none') {
+      card.append(el('p', { className: 'mc-wait dim', textContent: `Day ${fmt.int(age)} since filing. Too few dated rulings on ${KIND_LABEL[m.kind] || 'this kind of motion'} to compare yet (${fmt.int(w.n)} on file; a comparison needs ${FEW}).` }));
+      return card;
+    }
+    card.append(waitBar(age, w, name), el('p', { className: 'mc-wait' },
+      el('b', { textContent: 'Day ' + fmt.int(age) + '.' }), ` ${w.scope === 'judge' ? 'Judge ' + name : 'All judges'}, ${KIND_LABEL[m.kind]}: median ${dayWord(w.med)}, middle half ${fmt.int(Math.round(w.p25))}–${fmt.int(Math.round(w.p75))}. `,
+      el('span', { className: 'dim', textContent: plural(w.n, 'past ruling') + (w.scope === 'court' ? `; Judge ${name} has ${fmt.int(w.own)}, fewer than ${FEW}` : '') })));
+    return card;
+  }
+
+  // Passages of the judge's posted requirements that bear on the case's motions.
+  const REQ_TERMS = { r56: ['summary judgment', 'statement of uncontested', 'oral argument', 'page limit'], r12: ['dismiss', 'oral argument', 'page limit'],
+    discovery: ['discovery', 'magistrate'], daubert: ['daubert', 'expert'], limine: ['limine'], injunction: ['injunction', 'restraining order'],
+    procedural: ['continuance', 'extension', 'proposed order'], reconsideration: ['reconsider'], remand: ['remand'] };
+  const REQ_ALWAYS = ['courtesy cop', 'oral argument', 'proposed order', 'memoranda'];
+  function reqPassages(code, kinds) {
+    const P = state.pages[code]; if (!P) return { hits: [], re: null };
+    const terms = [...new Set(kinds.flatMap((k) => REQ_TERMS[k] || []).concat(REQ_ALWAYS))];
+    const res = terms.map((t) => new RegExp(words(t).map(wordPattern).join('\\W+'), 'i'));
+    const out = [];
+    (P.sections || []).forEach((x) => x.blocks.forEach((b) => { if (b.k !== 'h' && res.some((re) => re.test(segText(b.s)))) out.push({ section: x.title, block: b }); }));
+    return { hits: out, re: new RegExp(terms.map((t) => words(t).map(wordPattern).join('\\W+')).join('|'), 'gi') };
+  }
+
+  // A calendar file (.ics) for settings, which Outlook, Google Calendar, and Apple Calendar all open.
+  const ICS_TZ = ['BEGIN:VTIMEZONE', 'TZID:America/Chicago', 'BEGIN:DAYLIGHT', 'TZOFFSETFROM:-0600', 'TZOFFSETTO:-0500', 'TZNAME:CDT', 'DTSTART:19700308T020000',
+    'RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU', 'END:DAYLIGHT', 'BEGIN:STANDARD', 'TZOFFSETFROM:-0500', 'TZOFFSETTO:-0600', 'TZNAME:CST', 'DTSTART:19701101T020000',
+    'RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU', 'END:STANDARD', 'END:VTIMEZONE'];
+  const icsText = (t) => String(t || '').replace(/\\/g, '\\\\').replace(/;/g, '\\;').replace(/,/g, '\\,').replace(/\r?\n/g, '\\n');
+  const icsFold = (line) => { const out = []; let rest = line; while (rest.length > 74) { out.push(rest.slice(0, 74)); rest = ' ' + rest.slice(74); } out.push(rest); return out.join('\r\n'); };
+  function icsFile(events, name) {
+    const S = state.stats; const stamp = new Date().toISOString().replace(/[-:]/g, '').slice(0, 15) + 'Z';
+    const lines = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//EDLA Analyzer//Case settings//EN', 'CALSCALE:GREGORIAN', ...ICS_TZ];
+    events.forEach((e) => {
+      const d = e.date.replace(/-/g, '');
+      const when = e.time ? ['DTSTART;TZID=America/Chicago:' + d + 'T' + e.time.replace(':', '') + '00', 'DURATION:PT1H'] : ['DTSTART;VALUE=DATE:' + d, 'DTEND;VALUE=DATE:' + addDays(e.date, 1).replace(/-/g, '')];
+      const src = e.src === 'court' ? 'the court\'s calendar' : 'docket entry' + (e.doc ? ' ' + e.doc : '');
+      lines.push('BEGIN:VEVENT', 'UID:' + (e.case + '-' + e.date + '-' + (e.time || '') + '-' + e.what).replace(/[^\w-]/g, '') + '@edla-analyzer', 'DTSTAMP:' + stamp, ...when,
+        'SUMMARY:' + icsText(e.what + ' · ' + (e.short || e.case) + (e.title ? ' ' + e.title : '')),
+        'LOCATION:' + icsText((e.room ? 'Courtroom ' + e.room + ', ' : '') + 'U.S. District Court, 500 Poydras St., New Orleans'),
+        'DESCRIPTION:' + icsText((S.names[e.judge] ? 'Judge ' + S.names[e.judge] + '. ' : '') + 'From ' + src + ', as read by EDLA Analyzer. Confirm on the docket.'), 'END:VEVENT');
+    });
+    lines.push('END:VCALENDAR');
+    const a = el('a', { href: URL.createObjectURL(new Blob([lines.map(icsFold).join('\r\n') + '\r\n'], { type: 'text/calendar' })), download: name + '.ics' });
+    document.body.append(a); a.click(); a.remove();
+  }
+
+  function settingRow(e, opts = {}) {
+    return el('li', {}, el('span', { className: 'when', textContent: d3.utcFormat('%a %-m/%-d')(utc(e.date)) }),
+      el('span', {}, el('span', { className: 'what', textContent: e.what }), e.time ? el('span', { className: 'dim', textContent: ' · ' + fmtTime(e.time) }) : null,
+        el('p', { className: 'sub', textContent: [e.room ? 'Courtroom ' + e.room : '', CAL_SRC[e.src] + (e.src === 'docket' && e.doc ? ', doc ' + e.doc : '')].filter(Boolean).join(' · ') }),
+        opts.ics ? el('p', { className: 'sub' }, el('button', { type: 'button', className: 'linklike', textContent: '+ Add to calendar', title: 'Download a calendar file (.ics) for this setting', onclick: () => icsFile([e], 'setting-' + e.date + '-' + slug(e.what)) })) : null));
+  }
+
+  // ---- the case page
+  function renderCase() {
+    const S = state.stats; const id = state.caseId; const C = caseData(id); const today = ctToday();
+    const name = S.names[C.judge] || '';
+    const w = watchList().find((x) => x.case === id);
+    if (!state.caseSeen || state.caseSeen.id !== id) state.caseSeen = { id, prev: w ? w.seen || '' : '' };
+    const prev = state.caseSeen.prev;
+    if (w) markSeen(id, C.latest);
+    document.title = (C.title || id) + ' · EDLA Analyzer';
+    $('c-crumb').textContent = id;
+    $('c-title').textContent = C.title || 'Case ' + id;
+    $('c-num').textContent = id;
+    $('c-judge').replaceChildren(...(C.judge ? [el('a', { href: judgeHref(C.judge), textContent: 'Judge ' + name }), sectionOf(C.judge) ? ' · Section ' + sectionOf(C.judge) : '',
+      C.judgePicked ? el('span', { className: 'dim' }, ' · picked by you ', el('button', { type: 'button', className: 'linklike', textContent: 'change', onclick: () => { setJudgePick(id, ''); renderCase(); } })) : '']
+      : [judgePicker(id)]));
+    const wbtn = $('c-watch'); const on = !!w;
+    wbtn.setAttribute('aria-pressed', String(on)); wbtn.textContent = on ? '★ Watching' : '☆ Watch this case';
+    wbtn.title = on ? 'Stop watching this case' : 'Keep this case on your list, with new entries marked';
+    $('c-cl').href = clCase(id);
+    const pending = C.motions.filter((m) => !m.ruled); const decided = C.motions.filter((m) => m.ruled);
+    const next = C.upcoming[0];
+    const newCount = prev ? C.entries.filter((e) => stampOf(e) > prev).length : 0;
+    $('c-kpis').replaceChildren(
+      kpi({ label: 'Pending motions', value: fmt.int(pending.length), sub: pending.length ? 'oldest filed ' + fmtShort(pending[pending.length - 1].date) : C.motions.length ? 'all with a ruling found' : 'none on file', href: '#c-motions' }),
+      next ? kpi({ label: 'Next setting', value: d3.utcFormat('%b %-d')(utc(next.date)), unit: next.time ? fmtTime(next.time) : '', sub: next.what, href: '#c-cal' })
+        : kpi({ label: 'Next setting', value: 'None found', na: true, sub: 'on the court\'s calendar or in docket text read so far', href: '#c-cal' }),
+      kpi({ label: 'Latest entry', value: C.entries.length ? d3.utcFormat('%b %-d')(utc(C.entries[0].date)) : '—', sub: C.entries.length ? cleanEvent(C.entries[0].event) : 'nothing on file yet', href: '#c-docket' }),
+      kpi({ label: 'Written opinions', value: fmt.int(C.opinions.length), sub: C.opinions.length ? 'latest ' + fmtShort(C.opinions[0].date) : 'none in this case yet', href: '#c-docket' }),
+      kpi({ label: w ? 'New since your last look' : 'Entries on file', value: fmt.int(w ? newCount : C.entries.length), sub: w ? (prev ? 'entries after ' + ctStamp(prev) : 'your first look')  : 'orders, opinions, motions, filings', href: '#c-docket' }));
+    $('c-empty').hidden = C.entries.length > 0 || C.upcoming.length > 0;
+    $('c-empty').textContent = `The site has nothing on file for ${id} yet. It keeps every civil entry in the court's feed from ${fmtDate((state.data.feed || []).map((f) => f.at.slice(0, 10)).sort()[0] || todayIso())}, civil orders from ${fmtDate(S.since.orders)}, and written opinions from ${fmtDate(S.since.opinions)}, so a case with no entry since then shows nothing. Check the number, or watch the case: its entries appear here as they are filed.`;
+
+    // Motions
+    $('c-mcount').textContent = C.motions.length ? plural(pending.length, 'pending motion') + (decided.length ? ' · ' + fmt.int(decided.length) + ' with a ruling' : '') : '';
+    const mlist = [...pending.map((m) => motionCard(m, C, today)), ...decided.slice(0, state.caseAllDecided ? 99 : 3).map((m) => motionCard(m, C, today))];
+    $('c-motion-list').replaceChildren(...(mlist.length ? mlist : [el('li', { className: 'mc none' }, el('p', { className: 'dim', textContent: `No motions on file for this case. The site records motions from the court's feed as they are filed (since ${fmtDate(S.motionsSince || todayIso())}).` }))]),
+      ...(decided.length > 3 && !state.caseAllDecided ? [el('li', { className: 'mc none' }, el('button', { type: 'button', className: 'btn ghost', textContent: 'Show all ' + decided.length + ' with a ruling', onclick: () => { state.caseAllDecided = true; renderCase(); } }))] : []));
+    $('c-motion-note').textContent = 'Each bar counts days from the motion\'s filing (▲ is today). The shaded span is the middle half of past rulings on the same kind of motion, from filing to the order deciding it, and the tick is the median: the judge\'s own rulings when there are at least ' + FEW + ', otherwise all judges\' (gray). Past rulings are written opinions whose motion has a known filing date and motions seen in the feed with a later order on the same relief. The bars describe how long past rulings took; they do not predict this one. "Ruling found" means a later order in the case names the same relief.';
+
+    // Docket entries
+    const shown = C.entries.slice(0, state.caseAll ? 2000 : 40);
+    const items = []; let day = '';
+    shown.forEach((r) => {
+      if (r.date !== day) { day = r.date; items.push(el('li', { className: 'day' }, d3.utcFormat('%A, %B %-d, %Y')(utc(day)))); }
+      const li = actRowsEl([r], { noCase: true })[0];
+      if (prev && stampOf(r) > prev) { li.classList.add('new'); li.querySelector('.ev').append(el('span', { className: 'badge', textContent: 'New' })); }
+      items.push(li);
+    });
+    $('c-docket-list').replaceChildren(...(items.length ? items : actRowsEl([], { empty: 'No docket entries on file for this case yet.' })));
+    $('c-dcount').textContent = C.entries.length ? plural(C.entries.length, 'entry', 'entries') + ' on file' : '';
+    $('c-more').hidden = shown.length >= C.entries.length; $('c-more').textContent = 'Show all ' + fmt.int(C.entries.length);
+    $('c-docket-note').textContent = 'Entries the site has seen: every civil entry in the court\'s feed for the last 14 days, and orders, written opinions, and motions from when the site began recording them. It is not the full docket; open the case on CourtListener or PACER for that.';
+
+    // Comparable rulings
+    const kinds = [...new Set((pending.length ? pending : C.motions).map((m) => m.kind))].filter((k) => mcatLabel[k] && k !== 'othermotion');
+    const opts = (kinds.length ? kinds : ['r12', 'r56']);
+    if (!opts.includes(state.caseKind)) state.caseKind = opts[0];
+    $('c-cmp-h').textContent = name ? `Judge ${name}'s written rulings on similar motions` : 'Written rulings on similar motions';
+    $('c-cmp-kinds').replaceChildren(...opts.map((k) => { const b = el('button', { type: 'button', className: 'quick', textContent: mcatLabel[k] }); b.setAttribute('aria-pressed', String(k === state.caseKind)); b.addEventListener('click', () => { state.caseKind = k; renderCase(); }); return b; }));
+    const comp = C.judge ? S.recent.filter((o) => o.judge === C.judge && o.mcat === state.caseKind && o.case !== id) : [];
+    $('c-cmp').replaceChildren(...(comp.length ? comp.slice(0, 8).map((o) => el('li', {},
+      el('span', { className: 'd', textContent: fmtShort(o.date) }),
+      el('span', { className: 'h' }, el('span', {}, ...caseLink(o)), outcomePill(o)),
+      el('span', { className: 'e', textContent: o.event }),
+      el('span', { className: 'c', textContent: o.title, title: o.title })))
+      : [el('li', {}, el('span', { className: 'empty', textContent: C.judge ? `No written opinions by Judge ${name} on ${(KIND_LABEL[state.caseKind] || 'these motions')} in the period.` : 'Pick the judge to see that judge\'s rulings.' }))]));
+    $('c-cmp-all').hidden = !C.judge; $('c-cmp-all').href = findHref({ judge: C.judge, type: state.caseKind });
+    $('c-cmp-all').textContent = comp.length > 8 ? 'All ' + fmt.int(comp.length) + ' in the opinion search →' : 'Open in the opinion search →';
+
+    // Calendar
+    $('c-cal-list').replaceChildren(...(C.upcoming.length ? C.upcoming.map((e) => settingRow(e, { ics: true }))
+      : [el('li', {}, el('span', { className: 'none', textContent: 'No upcoming settings found on the court\'s calendar or in the docket text read so far.' }))]),
+      ...(C.held.length ? [el('li', { className: 'day' }, 'Earlier'), ...C.held.slice(0, 5).map((e) => settingRow(e))] : []));
+    const ics = $('c-ics'); ics.hidden = !C.upcoming.length; ics.onclick = () => icsFile(C.upcoming, 'settings-' + id.replace(/:/g, '-'));
+    $('c-cal-all').href = hashFor('calendar', { cal: { judge: C.judge } });
+
+    // Requirements
+    const P = C.judge ? state.pages[C.judge] : null;
+    $('c-req-src').href = P ? P.url : JUDGE_LIST; $('c-req-src').hidden = !C.judge;
+    const req = $('c-req');
+    if (!C.judge) req.replaceChildren(el('p', { className: 'dim', textContent: 'Pick the judge to see the judge\'s chambers contact and posted requirements.' }));
+    else if (!P) req.replaceChildren(el('p', { className: 'dim', textContent: 'The site has not read this judge\'s page on the court\'s website yet.' }));
+    else {
+      const c = P.contact || {};
+      const contact = el('div', { className: 'contact' }, ...[c.section && el('span', {}, el('b', { textContent: 'Section' }), c.section),
+        c.phone && el('span', {}, el('b', { textContent: 'Phone' }), el('a', { href: 'tel:' + c.phone.replace(/[^\d]/g, ''), textContent: c.phone })),
+        c.email && el('span', {}, el('b', { textContent: 'Email' }), el('a', { href: 'mailto:' + c.email, textContent: c.email }))].filter(Boolean));
+      const { hits, re } = (P.sections || []).length ? reqPassages(C.judge, kinds.concat(pending.map((m) => m.kind))) : { hits: [] };
+      const tabs = (P.sections || []).map((x) => el('a', { className: 'quick', href: hashFor('judge', { judge: C.judge, tab: slug(x.title) }), textContent: x.title }));
+      req.replaceChildren(contact,
+        ...(P.sections || []).length ? [
+          hits.length ? el('p', { className: 'cap', textContent: 'Passages that bear on this case\'s motions and on submitting papers:' }) : el('p', { className: 'cap', textContent: 'No passage on these motions; the judge\'s requirement tabs:' }),
+          ...hits.slice(0, 5).map((h) => el('div', { className: 'rq-hit' }, el('small', {}, el('a', { href: hashFor('judge', { judge: C.judge, tab: slug(h.section) }), textContent: h.section })), blockEl(h.block, re))),
+          el('div', { className: 'chips' }, ...tabs)]
+          : [el('p', { className: 'cap' }, `Judge ${name}'s page lists no separate practice requirements. The court's `, el('a', { href: LOCAL_RULES, target: '_blank', rel: 'noopener noreferrer', textContent: 'Local Rules' }), ' apply.')]);
+    }
+  }
+  function judgePicker(id) {
+    const sel = el('select', {}, new Option('Judge not yet known: pick one', ''), ...judgesAlpha().map((j) => new Option('Judge ' + j.name, j.code)));
+    sel.setAttribute('aria-label', 'Pick the judge');
+    sel.addEventListener('change', () => { setJudgePick(id, sel.value); renderCase(); });
+    return el('span', { className: 'pick' }, sel);
+  }
+
+  // ---- the My cases page: look up a case, and the watchlist
+  function caseMatches(q) {
+    const t = q.trim(); if (!t) return [];
+    const cq = caseQuery(t); const lc = t.toLowerCase();
+    let list = cq ? state.cases.filter((c) => c.num === cq.num && (!cq.yy || c.yy === cq.yy)) : [];
+    if (!list.length && cq && cq.num.length >= 3) list = state.cases.filter((c) => c.num.startsWith(cq.num) && (!cq.yy || c.yy === cq.yy));
+    if (!cq && lc.length >= 2) list = state.cases.filter((c) => lc.split(/\s+/).every((w) => c.lt.includes(w)));
+    list = list.slice().sort((a, b) => b.last.localeCompare(a.last)).slice(0, 8);
+    const id = normCase(t);
+    if (id && !list.some((c) => c.case === id)) list.push({ case: id, title: '', judge: '', last: '', missing: true });
+    return list;
+  }
+  function drawLookup() {
+    const S = state.stats; const q = $('cl-q').value; const list = caseMatches(q);
+    state.lookActive = Math.min(state.lookActive || 0, Math.max(0, list.length - 1));
+    $('cl-results').hidden = !q.trim();
+    $('cl-results').replaceChildren(...(list.length ? list.map((c, i) => {
+      const a = el('a', { className: 'opt', href: caseHref(c.case) }, el('span', { className: 'k', textContent: 'Case' }),
+        el('span', {}, el('span', { className: 'l' }, el('code', { textContent: c.case }), c.title ? ' ' + c.title : ''),
+          el('span', { className: 's', textContent: c.missing ? 'Nothing on file yet: open it anyway, or watch it' : (S.names[c.judge] ? 'Judge ' + S.names[c.judge] : 'Judge not yet known') + ' · latest entry ' + fmtShort(c.last) })));
+      a.setAttribute('aria-selected', String(i === state.lookActive));
+      return a;
+    }) : [el('div', { className: 'opt-empty', textContent: 'No case on file matches. Type a case number like 24-1933 or 2:24-cv-01933, or a party name.' })]));
+    state.lookList = list;
+  }
+  function renderCases() {
+    const S = state.stats; const W = watchList();
+    document.title = 'My cases · EDLA Analyzer';
+    if (state.importNote) { $('cl-note').textContent = state.importNote; $('cl-note').hidden = false; state.importNote = ''; } else $('cl-note').hidden = true;
+    drawLookup();
+    const rows = W.map((w) => ({ w, C: caseData(w.case) }));
+    const fresh = rows.flatMap(({ w, C }) => C.entries.filter((e) => w.seen && stampOf(e) > w.seen).map((e) => ({ ...e, C })));
+    $('cw-count').textContent = W.length ? plural(W.length, 'case') : '';
+    $('cw-empty').hidden = W.length > 0;
+    $('cw-table').hidden = !W.length; $('cw-tools').hidden = !W.length;
+    if (!W.length) {
+      const busy = state.cases.filter((c) => S.names[c.judge] && /-cv-/.test(c.case)).sort((a, b) => b.last.localeCompare(a.last) || (b.orders + b.opinions) - (a.orders + a.opinions)).slice(0, 4);
+      $('cw-examples').replaceChildren(...busy.map((c) => el('a', { className: 'quick', href: caseHref(c.case), textContent: c.case + (c.title ? ' · ' + c.title.slice(0, 28) : '') })));
+    }
+    const head = el('thead', {}, el('tr', {}, ...['Case', 'Name', 'Judge', 'New', 'Pending motions', 'Next setting', 'Latest entry', ''].map((c, i) => el('th', { textContent: c, className: i === 3 || i === 4 ? 'r' : '' }))));
+    const body = el('tbody', {}, ...rows.sort((a, b) => b.C.latest.localeCompare(a.C.latest)).map(({ w, C }) => {
+      const n = w.seen ? C.entries.filter((e) => stampOf(e) > w.seen).length : 0;
+      const pend = C.motions.filter((m) => !m.ruled).length; const nx = C.upcoming[0];
+      const tr = el('tr', { className: 'go' + (n ? ' has-new' : '') }); tr.dataset.href = caseHref(C.id);
+      tr.append(el('td', { className: 'txt' }, caseNumLink(C.id, '', 'case')),
+        el('td', { className: 'wrap', textContent: C.title || '—' }),
+        el('td', { className: 'txt' }, S.names[C.judge] ? el('a', { className: 'judge', href: judgeHref(C.judge), textContent: S.names[C.judge] }) : el('span', { className: 'dim', textContent: 'not yet known' })),
+        el('td', { className: 'num' }, n ? el('span', { className: 'badge', textContent: fmt.int(n) + ' new' }) : el('span', { className: 'dim', textContent: '—' })),
+        el('td', { className: 'num' + (pend ? '' : ' dim'), textContent: pend ? fmt.int(pend) : '—' }),
+        el('td', { className: 'mono' + (nx ? '' : ' dim'), textContent: nx ? d3.utcFormat('%b %-d')(utc(nx.date)) + (nx.time ? ' ' + fmtTime(nx.time) : '') + ' · ' + nx.what : '—' }),
+        el('td', { className: 'mono' + (C.entries.length ? '' : ' dim'), textContent: C.entries.length ? fmtShort(C.entries[0].date) + ' · ' + cleanEvent(C.entries[0].event) : 'nothing on file' }),
+        el('td', { className: 'txt' }, el('button', { type: 'button', className: 'btn ghost', textContent: 'Remove', title: 'Stop watching ' + C.id, onclick: (e) => { e.stopPropagation(); toggleWatch(C.id); renderCases(); } })));
+      return tr;
+    }));
+    $('cw-table').replaceChildren(head, body);
+    $('cw-new-panel').hidden = !fresh.length;
+    fresh.sort((a, b) => stampOf(b).localeCompare(stampOf(a)));
+    $('cw-new-count').textContent = fresh.length ? plural(fresh.length, 'new entry', 'new entries') : '';
+    $('cw-new').replaceChildren(...actRowsEl(fresh.slice(0, 40), { dates: true }));
+    const upcoming = rows.flatMap(({ C }) => C.upcoming).sort((a, b) => (a.date + (a.time || '99')).localeCompare(b.date + (b.time || '99')));
+    $('cw-ics').hidden = !upcoming.length; $('cw-ics').onclick = () => icsFile(upcoming, 'my-cases-settings');
+    $('cw-ics').textContent = upcoming.length ? 'Add ' + plural(upcoming.length, 'setting') + ' to calendar' : '';
+  }
+  function importWatch(list) {
+    const w = watchList(); let added = 0;
+    list.map(normCase).filter(Boolean).forEach((id) => { if (!w.some((x) => x.case === id)) { w.push({ case: id, added: todayIso(), seen: '' }); added += 1; } });
+    saveWatch(w);
+    return added;
+  }
+  // On the home page, the watched cases with something new.
+  function drawHomeCases() {
+    const W = watchList(); const box = $('home-cases');
+    box.hidden = !W.length; if (!W.length) return;
+    const rows = W.map((w) => { const C = caseData(w.case); return { C, n: w.seen ? C.entries.filter((e) => stampOf(e) > w.seen).length : 0 }; })
+      .sort((a, b) => b.n - a.n || b.C.latest.localeCompare(a.C.latest)).slice(0, 6);
+    $('home-cases-list').replaceChildren(...rows.map(({ C, n }) => el('li', {}, caseNumLink(C.id, '', 'case'), el('span', { className: 'nm', textContent: C.title || '' }),
+      n ? el('span', { className: 'badge', textContent: n + ' new' }) : el('span', { className: 'dim', textContent: C.entries.length ? fmtShort(C.entries[0].date) : '' }))));
+  }
+
   // ------------------------------------------------------------ CSV export
   function csvRows(which) {
     const S = state.stats;
@@ -1413,7 +1803,9 @@
     if (!cases.length && cq && cq.num.length >= 3) cases = state.cases.filter((c) => c.num.startsWith(cq.num) && (!cq.yy || c.yy === cq.yy));
     if (!cq && lc.length >= 3) cases = state.cases.filter((c) => c.lt.includes(lc));
     cases.slice().sort((a, b) => b.last.localeCompare(a.last)).slice(0, 6).forEach((c) => out.push({ kind: 'Case', label: el('code', { textContent: c.case }),
-      sub: (c.judge ? 'Judge ' + S.names[c.judge] : 'Judge not yet known') + ' · ' + (c.title || 'case name not on file'), href: c.judge ? judgeHref(c.judge) : findHref({ q: c.case }) }));
+      sub: (c.judge ? 'Judge ' + S.names[c.judge] : 'Judge not yet known') + ' · ' + (c.title || 'case name not on file'), href: caseHref(c.case) }));
+    const typed = normCase(q);
+    if (typed && /\D/.test(q.replace(/\s/g, '')) && !cases.some((c) => c.case === typed)) out.push({ kind: 'Case', label: el('code', { textContent: typed }), sub: 'Nothing on file yet: open the case page, or watch it', href: caseHref(typed) });
     if (!cq && !sq && lc.length >= 4) {
       const n = ruleHits(q).length;
       if (n) out.push({ kind: 'Rules', label: 'Judges\' requirements mentioning “' + q + '”', sub: plural(n, 'judge') + '\'s page' + (n === 1 ? '' : 's') + ' on the court\'s website', href: hashFor('rules', { q }) });
@@ -1451,11 +1843,12 @@
   }
 
   // ------------------------------------------------------------ render
-  const RENDER = { judges: renderJudges, judge: renderJudge, compare: renderCompare, activity: renderActivity, calendar: renderCalendar, opinions: renderOpinions, motions: renderMotions, rules: renderRules, court: renderCourt, log: renderLog };
+  const RENDER = { judges: renderJudges, judge: renderJudge, compare: renderCompare, cases: renderCases, case: renderCase, activity: renderActivity, calendar: renderCalendar, opinions: renderOpinions, motions: renderMotions, rules: renderRules, court: renderCourt, log: renderLog };
   function render() {
     const S = state.stats;
     if (state.page === 'judge' && !S.names[state.judge]) state.page = 'judges';
     document.body.dataset.page = state.page;
+    if (state.page !== 'case') { state.caseSeen = null; state.caseAll = false; state.caseAllDecided = false; }
     PAGES.forEach((p) => { $('page-' + p).hidden = p !== state.page; });
     document.querySelectorAll('[data-nav]').forEach((a) => {
       const k = a.dataset.nav; a.href = hashFor(k, { f: emptyFinder(), mt: { view: 'past' }, view: 'orders' });
@@ -1471,7 +1864,7 @@
   function update() {
     if (!state.data) return;
     if (state.period !== lastPeriod) { state.stats = compute(state.data, state.period); lastPeriod = state.period; }
-    const pageKey = state.page + '/' + state.judge + '/' + state.view;
+    const pageKey = state.page + '/' + state.judge + '/' + state.view + '/' + (state.page === 'case' ? state.caseId : '');
     render();
     if (pageKey !== lastPage) { if (lastPage) window.scrollTo({ top: 0 }); lastPage = pageKey; }
   }
@@ -1568,12 +1961,33 @@
       }
       state.data.status = st;
       if (fresh) update();  // new data: recount and redraw the page in place
-      else { drawLive(); if (['judges', 'activity', 'log'].includes(state.page)) RENDER[state.page](); }  // the check time only
+      else { drawLive(); if (['judges', 'activity', 'log', 'cases'].includes(state.page)) RENDER[state.page](); }  // the check time only
     } finally { refreshing = false; }
   }
   setInterval(refreshData, 5 * 60 * 1000);
   setInterval(() => { if (state.stats && document.visibilityState === 'visible') drawLive(); }, 60 * 1000);
   document.addEventListener('visibilitychange', refreshData);
+  $('cl-q').addEventListener('input', () => { state.lookActive = 0; drawLookup(); });
+  $('cl-q').addEventListener('keydown', (e) => {
+    const L = state.lookList || [];
+    if ((e.key === 'ArrowDown' || e.key === 'ArrowUp') && L.length) { e.preventDefault(); state.lookActive = (state.lookActive + (e.key === 'ArrowDown' ? 1 : -1) + L.length) % L.length; drawLookup(); }
+    else if (e.key === 'Enter') { e.preventDefault(); const c = L[state.lookActive || 0]; if (c) location.hash = caseHref(c.case); }
+    else if (e.key === 'Escape') { e.target.value = ''; drawLookup(); }
+  });
+  $('cw-table').addEventListener('click', (e) => { const tr = e.target.closest('tbody tr.go'); if (tr && !e.target.closest('a,button')) location.hash = tr.dataset.href; });
+  $('cw-share').addEventListener('click', (e) => {
+    const url = location.origin + location.pathname + '#cases?w=' + watchList().map((x) => x.case).join(',');
+    const b = e.currentTarget; const done = () => { b.textContent = 'Link copied'; setTimeout(() => { b.textContent = 'Copy a link to this list'; }, 1600); };
+    if (navigator.clipboard) navigator.clipboard.writeText(url).then(done, () => window.prompt('Copy this link:', url)); else window.prompt('Copy this link:', url);
+  });
+  $('cw-seen').addEventListener('click', () => { watchList().forEach((w) => markSeen(w.case, caseData(w.case).latest)); renderCases(); });
+  $('c-watch').addEventListener('click', () => { toggleWatch(state.caseId); state.caseSeen = null; renderCase(); });
+  $('c-copy').addEventListener('click', (e) => {
+    const b = e.currentTarget; const done = () => { b.textContent = 'Link copied'; b.classList.add('done'); setTimeout(() => { b.textContent = 'Copy link'; b.classList.remove('done'); }, 1600); };
+    if (navigator.clipboard) navigator.clipboard.writeText(location.href).then(done, () => window.prompt('Copy this link:', location.href)); else window.prompt('Copy this link:', location.href);
+  });
+  $('c-print').addEventListener('click', () => window.print());
+  $('c-more').addEventListener('click', () => { state.caseAll = true; renderCase(); });
   $('t-rules').addEventListener('click', (e) => { const tr = e.target.closest('tbody tr.go'); if (tr && !e.target.closest('a,button')) location.hash = tr.dataset.href; });
   $('rq').addEventListener('input', (e) => { state.rq = e.target.value; if (state.stats) { renderRules(); writeHash(); } });
   $('hours-judge').addEventListener('change', (e) => { state.hoursJudge = e.target.value; drawHours(); });

@@ -65,10 +65,10 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           commit() {
-            # Commit all data when it changed, or when the run log carries something later runs need: a CourtListener
+            # Commit all data (and new opinion text) when it changed, or when the run log carries something later runs need: a CourtListener
             # pause, or calls that count against the hourly and daily limits. Otherwise commit only data/status.json,
             # the time of this check, so the site shows the feed is being read.
-            if git diff --quiet -- data/orders.json data/opinions.json data/link_checks.json data/outcomes.json data/motions.json data/govinfo.json data/feed.json data/hearings.json \
+            if [ -z "$(git status --porcelain -- data/orders.json data/opinions.json data/link_checks.json data/outcomes.json data/motions.json data/govinfo.json data/feed.json data/hearings.json opinions_text)" ] \
                && ! python3 -c "import json,sys; r=json.load(open('data/runs.json'))[-1]; sys.exit(0 if r.get('cl_paused_until') or r.get('cl_calls') else 1)"; then
               echo "No new entries."
               cp data/status.json "$RUNNER_TEMP/status.json"
@@ -77,7 +77,7 @@ jobs:
               git add data/status.json
               git commit --quiet -m "Feed check $(date -u +%Y-%m-%dT%H:%MZ)"
             else
-              git add data
+              git add data opinions_text
               git commit --quiet -m "Data update $(date -u +%Y-%m-%dT%H:%MZ)"
             fi
             # main may have moved (a merge, or another workflow); rebase the commit onto it.
