@@ -1,0 +1,771 @@
+1
+
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+JONES COMPANY CIVIL ACTION
+
+VERSUS No. 25-1645
+
+SIGNATURE FLIGHT SUPPORT, LLC, ET AL. SECTION I
+
+ORDER & REASONS
+Before the Court are two motions : defendant Phillip Everett ’s (“Everett”)
+motion1 to dismiss pursuant to Rule 12(b)(6) and plaintiff the Jones Company ’s
+(“plaintiff”) motion2 for partial summary judgment pursuant to Federal Rule of Civil
+Procedure 56.
+Everett moves to dismiss count two of plaintiff ’s first amended complaint,
+which alleges gross negligence against Everett, for a failure to state a claim upon
+which relief can be granted. 3 Plaintiff opposes4 Everett’s motion to dismiss. Everett
+did not file a reply.
+Plaintiff moves for summary judgment in its favor on three issues  against all
+defendants: (1) that an exculpatory clause (“Term (4)”) in a document (the “landing
+card”) prepared by defendant Signature Flight Support, LLC (“Signature”) and signed
+by plaintiff’s employee is “null, void, and unenforceable” as a “contract of adhesion;”
+(2) that Term (4) is separately and additionally “null, void, and unenforceable” as
+
+1 R. Doc. No. 43.
+2 R. Doc. No. 46.
+3 R. Doc. No. 43.
+4 R. Doc. No. 50.
+Case 2:25-cv-01645-LMA-JVM     Document 63     Filed 04/07/26     Page 1 of 30
+2
+
+contrary to Louisiana Civil Code Article 2004 (“Article 2004”); and (3) that even if
+Term (4) is exculpatory for  Signature, it is not applicable to Everett  because “he is
+not an ‘affiliate’ of signature to whose benefit Term (4) inures .”5 Both Signature and
+Everett (collectively, “defendants”) oppose6 plaintiff’s motion. Plaintiff filed a reply
+reasserting its arguments in support of summary judgment.7
+For the reasons that follow, the Court denies Everett’s motion to dismiss count
+two, and grants in part and denies in part plaintiff’s motion for summary judgment—
+finding that the landing card is not a contract of adhesion, Term (4) is unenforceable
+and void to the extent Signature or Everett claim it shields them from liability for
+their gross negligence, and Term (4) is not applicable to Everett because he is not an
+affiliate of Signature as the term is used in the landing card.
+I. BACKGROUND
+This action stems from damage caused to plaintiff ’s “brand new” aircraft, a
+2024 Embraer Phenom 300E (the “aircraft”).8 On December 30, 2024, plaintiff landed
+at the New Orleans Lakefront Airport  where Signature functions as a “fixed based
+operator,” offering “refueling, cleaning, de-icing, and storage” services.9 After landing
+in New Orleans, plaintiff’s pilot, William “Trent” Cady (“Cady”),  signed a partially
+pre-completed landing card  from Signature  that confirmed the services plaintiff
+required and handed custody of the aircraft to Signature .10 Although plaintiff had
+
+5 See generally R. Doc. No. 46-1.
+6 R. Doc. Nos. 51, 52.
+7 R. Doc. No. 54.
+8 R. Doc. No. 46-1, at 5.
+9 R. Doc. No. 51-1, at 1.
+10 R. Doc. Nos. 46-6, 51-4; see also infra Attachment A (the landing card).
+Case 2:25-cv-01645-LMA-JVM     Document 63     Filed 04/07/26     Page 2 of 30
+3
+
+made a reservation with Signature ahead of time, p laintiff did not receive a copy of
+the landing card in advance of landing.11
+According to plaintiff and Signature, after Signature took custody of the
+aircraft on December 30, 2024 , Everett, then a Signature employee and assistant
+general manager, damaged the aircraft ’s wing.12 The damage was caused when
+Everett “was towing the unpowered” aircraft and struck “a stationary, in-ground fire
+hydrant” and “continued to pull” the aircraft after striking the hydrant, “creas[ing]”
+the wing  and resulting in visibly “leaking” fuel. 13 Plaintiff also alleges, and
+defendants dispute, that Everett failed to report the damage and attempted to
+“conceal[] it by placing a rock in the hole.” 14 Plaintiff was not made aware of the
+damage,15 and only discovered the damage two days later during Cady ’s pre-flight
+inspection for the return flight.16
+Signature performed an investigation of the incident and ultimately
+terminated Everett’s employment, on or around January 10, 2025.17 Everett’s notice
+of termination states:
+[O]n Monday, December 30, 2024, during your tow of [the aircraft], you
+damaged it and did not report it for two days. Your pre -tow inspection
+card reflects no damage to the aircraft before the tow. On Wednesday,
+January 1, 2025, you reported damage to its left wing.
+[Signature’s] investigation concluded that your tow caused the wing to
+contact a fire hydrant and that you were untruthful during the
+
+11 R. Doc. No. 51-1, at 8.
+12 Id. at 9.
+13 R. Doc. No. 30 ¶¶ 9, 10.
+14 R. Doc. No. 51-1, at 9; R. Doc. No. 52-1, at 9.
+15 Id.
+16 R. Doc. No. 51-1, at 10.
+17 R. Doc. No. 30-2, at 9.
+Case 2:25-cv-01645-LMA-JVM     Document 63     Filed 04/07/26     Page 3 of 30
+4
+
+investigation. First, the aircraft did not move from when you towed it
+onto Taxiway A to the time you reported the damage. 18 You stated that
+you used the TT -8 tug when you used the white TLD tug. The tread
+marks from the TLD tug were present on Taxiway A consistent with
+contact of the fire hydrant on the side of Taxiway A and the damage on
+the left wing of the aircraft. We foun d pieces of the wing near the base
+of the fire hydrant, which was knocked over by approximately 5 degrees.
+Another inconsistency in your statement is that you stated your path of
+travel was on the centerline of Taxiway A although there was evidence
+that yo u swooped the aircraft off centerline and near the edge of the
+taxiway to position the aircraft for parking. This movement off the
+centerline is further confirmed by the tire marks left on the pavement.
+Additionally, you were observed making a sudden stop and then
+reversing the path of travel in the area where the fire hydrant is located.
+The damage to the aircraft is consistent with the movement that was
+observed . . . As a result of multiple avoidable SOP violations and
+untruthfulness, your employment is terminated.19
+The aircraft’s manufacturer represented to plaintiff that to permanently repair
+the wing, the entire wing would need to be replaced—a process with a “two-year lead
+time” and an estimated cost of $2,963,101.48.20 To mitigate potential losses and make
+the aircraft ferriable, plaintiff temporarily repaired the damaged wing at an
+approximate cost of $250,000.21 Plaintiff also alleges that it incurred other costs and
+expenses, such as “the costs to return the owners, guests, and pilots  [of the aircraft]
+from New Orleans to Georgia, pilot supervision of repairs, [] charters for scheduled
+
+18 The Court acknowledges that it is unclear whether Everett or Cady first reported
+the damage to the aircraft on January 1, 2025. However, the difference is of no
+moment for the present order.  In the absence of any evidence or allegations from
+defendants to the contrary, the Court will infer from plaintiff ’s factual allegations
+that regardless of whether Everett reported the damaged aircraft to Signature on
+January 1, 2025, plaintiff was not aware of the damage until Cady discovered it the
+same day.
+19 Id.
+20 R. Doc. No. 30, at ¶ 13.
+21 Id. at ¶ 14.
+Case 2:25-cv-01645-LMA-JVM     Document 63     Filed 04/07/26     Page 4 of 30
+5
+
+trips for which TJC could not use the Aircraft  . . . [and diminution in value of the
+aircraft].”22
+Plaintiff filed suit against Signature on August 11, 2025, 23 and on February
+12, 2026, filed its first amended complaint24 (the “complaint”) against Signature and
+Everett. Count one of plaintiff’s complaint alleges that Everett’s negligent acts and
+omissions were the “proximate and legal cause” of plaintiff’s damages.25 Specifically,
+plaintiff states that Everett negligently: failed “to tow the [a]ircraft in a safe and
+prudent manner;” caused the aircraft’s “wing to strike a stationary object;” failed “to
+maintain a proper lookout,” did not “see what he should have seen,” and did not “heed
+what [he] did see;” concealed “the damage to the [a]ircraft;” and failed to notify
+plaintiff of the damage.26
+Count two alleges that Everett’s acts and omissions were “not only” negligent,
+but grossly negligent, and the “proximate and legal cause” of plaintiff’s damages.27
+Plaintiff also states that Everett ’s “reckless manner” in towing the aircraft and
+
+22 Id. at ¶¶ 15, 16.
+23 R. Doc. No. 1.
+24 R. Doc. No. 30. U.S. Magistrate Judge granted plaintiff’s motion to file an out of
+time amended complaint to join Everett as a defendant. R. Doc. No. 18. The
+Magistrate Judge found that the out of time pleading was justified because Signature
+did not alert plaintiff to Everett ’s role in damaging the aircraft until after the
+pleading deadline, plaintiff promptly moved to amend its pleading, it is possible a
+trier of fact may find Everett independently liable outside of Signature ’s vicarious
+liability, trying Everett separately would prejudice plaintiff, and a continuance would
+cure any prejudice with respect to the parties ’ ability to meet the existing trial
+schedule. Id.
+25 R. Doc. No. 30, at ¶¶ 19–20.
+26 Id.
+27 Id. at ¶¶ 22, 23.
+Case 2:25-cv-01645-LMA-JVM     Document 63     Filed 04/07/26     Page 5 of 30
+6
+
+concealing the damage was grossly negligent, without “the slightest degree of care
+and diligence,” and done “in spite of . . . the high risk of danger” to the “safety, welfare,
+and health of others, including [plaintiff].”28
+Counts three and four allege that Signature is vicariously liable as Everett ’s
+employer for his aforementioned negligent and/or grossly negligent acts and
+omissions.29 As relief, plaintiff requests monetary damages, including damages for
+“[a]ctual, temporary, permanent, and emergency repair costs;” loss of use, diminution
+in value, consequential damages, inconvenience, attorney’s fees and costs; and “legal
+interest.”30
+In answer, Signature denies plaintiff’s allegations to the extent they  include
+“acts or omissions which might be considered gross negligence ” or concern Everett’s
+actions that are “outside the course and scope of  [his] employment [with Signature]
+and/or actions or conduct motivated by personal considerations extraneous to
+Signature’s interest.”31 During a telephone status conference on February 12, 2026,
+Signature conceded liability as to Everett’s negligence, but did not concede any
+liability as to gross negligence.32
+As of this date, Everett has not answered the complaint nor otherwise
+responded with respect to count one, alleging negligence on his p art. However, on
+March 12, 2026, Everett moved to dismiss count two against him, arguing that
+
+28 Id.
+29 Id. at ¶¶ 25–27, 29–31.
+30 Id. at ¶ 33.
+31 R. Doc. No. 37, at ¶¶ 19–20, 22–23, 25–27, 29–31.
+32 R. Doc. No. 29.
+Case 2:25-cv-01645-LMA-JVM     Document 63     Filed 04/07/26     Page 6 of 30
+7
+
+plaintiff “fails to state a claim  upon which relief can be granted because Louisiana
+law does not recognize gross negligence as an independent cause of action.”33 Plaintiff
+counters that its gross negligence claim is permitted pursuant to Article 200434 and
+that it has  pleaded sufficient facts to establish a claim that “ Everett acted in a
+reckless manner with complete indifference to the rights of others and that his grossly
+negligent actions” caused plaintiff’s damages.35
+Shortly after Everett filed his motion to dismiss, plaintiff filed a motion for
+summary judgment regarding the applicability of an exculpatory provision in the
+landing card (“Term (4)”)  to both defendants .36 The core of the issue, according to
+plaintiff, is that while Signature has not disputed “that it is responsible for the direct,
+physical damage ” to the aircraft, 37 it contests that pursuant to Term (4), it is not
+responsible for the “indirect, incidental, and consequential damages stemming from
+Everett’s and its own tortious conduct.”38 Everett similarly claims Term (4) insulates
+him from such liability.39 Term (4) of the landing card states in relevant part:
+The parties agree that under no circumstances shall Signature be liable
+to the  Customer in relation to the Services for indirect, incidental,
+consequential, special or exemplary damages, whether in contract or
+tort (including strict liability and negligence), such as, but not limited
+to, loss of revenue, loss of use or anticipated pr ofits, diminution or loss
+
+33 R. Doc. No. 43, at 1.
+34 “Any clause is null that, in advance, excludes or limits the liability of one party for
+intentional or gross fault that causes damage to the other party. Any clause is null
+that, in advance, excludes or limits the liability of one party for causing physic al
+injury to the other party.” La. Civ. Code art. 2004.
+35 R. Doc. No. 50, at 4, 7.
+36 R. Doc. No. 46.
+37 R. Doc. No. 51-1, at 10.
+38 R. Doc. No. 46-1, at 6.
+39 R. Doc. No. 52, at 8.
+Case 2:25-cv-01645-LMA-JVM     Document 63     Filed 04/07/26     Page 7 of 30
+8
+
+of value, travel room and meal accommodations, or costs associated with
+substitution or replacement aircraft.40
+Plaintiff advances three areas of argument  in its motion for summary
+judgment. First, plaintiff contends that Term (4) is a contract of adhesion and “null,
+void, and unenforceable” because plaintiff did not consent to the provision, the
+agreement lacked mutuality, and an unequal balance in bargaining power existed
+when the landing card was signed. 41 Second, plaintiff argues that Term (4) is “null,
+void, and unenforceable”  because it attempts to prospectively limit Signature ’s
+liability for gross negligence in contravention of Article 2004.42 Finally, plaintiff ’s
+position is that even if Term (4) is an enforceable clause as to Signature, the landing
+card defines Signature as “Signature Flight Support LLC and its affiliates,” which
+does not include Everett.43
+ Defendants filed separate memoranda addressing each issue that plaintiff
+raises for summary judgment, advancing primarily the same arguments in opposition
+to plaintiff’s motion. Defendants oppose plaintiff’s first issue for summary judgment,
+arguing that the landing card is a valid and enforceable contract, not a contract of
+adhesion.44 Similarly, defendants argue that Term (4) is enforceable as to ordinary
+negligence and that Article 2004 only nullifies the clause with respect to gross
+negligence.45 Signature also asserts that Term (4) “ does not purport to limit
+
+40 See infra Attachment A.
+41 R. Doc. No. 46-1, at 8, 11–12.
+42 Id. at 15–16.
+43 Id. at 16–18.
+44 R. Doc. No. 51, at 7–9; R. Doc. No. 52, at 3–5.
+45 Id. at 5–6, 8; R. Doc. No. 51, at 9–11.
+Case 2:25-cv-01645-LMA-JVM     Document 63     Filed 04/07/26     Page 8 of 30
+9
+
+Signature’s liability for its own gross negligence ” and “does not reference ‘gross
+negligence’ on its face.”46 Finally, defendants counter that Term (4) is applicable as
+to Everett because he falls under the definition of a Signature “affiliate” with respect
+to the terms of the landing card.47 Everett also claims that even if the landing card is
+a contract of adhesion, it cannot “[s]trip a [n]on -[d]rafting [t]hird [p]arty of [i]ts
+[p]rotection.”48
+II. LAW & ANALYSIS
+a. Choice of Law
+This case is a  diversity action,49 filed pursuant to 28 U.S.C. § 1332(a).
+Therefore, as the parties agree, Louisiana substantive law and federal procedural
+rules apply. Jack v. Evonik Corp., 79 F.4th 547, 555 (5th Cir. 2023).
+When sitting in diversity, a federal court evaluates issues of state substantive
+law “by looking to the decisions of the state ’s highest court.” Keiland Constr., L.L.C.
+v. Weeks Marine, Inc., 109 F.4th 406, 418 (5th Cir. 2024) (citing Meador v. Apple, Inc.,
+911 F.3d 260, 264 (5th Cir. 2018)). If lacking case law from the highest state court,
+here the Louisiana Supreme Court, a federal court “may look to decisions  of the
+intermediate appellate courts, barring a reason to think the highest court would
+decide otherwise.”  Id. The federal court may consider the persuasiveness of
+intermediate appellate courts’ decisions “only when” the highest court “has not
+
+46 Id. at 9, 10.
+47 Id. at 11; R. Doc. No. 52, at 8.
+48 Id. at 3.
+49 R. Doc. No. 1-1.
+Case 2:25-cv-01645-LMA-JVM     Document 63     Filed 04/07/26     Page 9 of 30
+10
+
+spoken on an issue.” Primrose Operating Co. v. Nat'l Am. Ins. Co., 382 F.3d 546, 565
+(5th Cir. 2004) (quotation and citation omitted).
+b. Everett’s Rule 12(b)(6) Motion to Dismiss Count Two
+Federal Rule of Civil Procedure 12(b)(6) allows for dismissal of a complaint for
+“failure to state a claim upon which relief can be granted.” To survive a motion to
+dismiss under Rule 12(b)(6), a plaintiff ’s complaint must meet the requirement in
+Rule 8(a)(2), requiring “a short and plain statement of the claim showing that the
+pleader is entitled to relief.” Ashcroft v. Iqbal, 556 U.S. 662, 677 –78 (2009) (quoting
+Fed. R. Civ. P. 8(a)(2)). While this short and plain statement does not require
+“detailed factual allegations,” it “must contain sufficient factual matter, accepted as
+true, to state a claim to relief that is plausible on its face.”  Id. at 678 (internal
+quotations and citations omitted). A claim is facially plausible “when the plaintiff
+pleads factual content that allows the court to draw the reasonable inference that the
+defendant is liable for the misconduct alleged.”  Id. “The plausibility standard is not
+akin to a probability requirement, but it asks for more than a sheer possibility that a
+defendant has acted unlawfully.”  Culbertson v. Lykos, 790 F.3d 608, 616 (5th Cir.
+2015) (citation and internal quotations omitted).
+“[T]he face of the complaint must contain enough factual matter to raise a
+reasonable expectation that discovery will reveal evidence of each element of the
+[plaintiff’s] claim.” Hi-Tech Elec., Inc v. T&B Constr. & Elec. Servs., Inc., No. 15-3034,
+2017 WL 615414, at *2 (E.D. La. Feb. 15, 2017) (Vance, J.) (citing Lormand v. US
+Unwired, Inc., 565 F.3d 228, 255–57 (5th Cir. 2009)). A complaint is insufficient if it
+Case 2:25-cv-01645-LMA-JVM     Document 63     Filed 04/07/26     Page 10 of 30
+11
+
+contains “only labels and conclusions, or a formulaic recitation of the elements of a
+cause of action.”  Whitley v. Hanna, 726 F.3d 631, 638 (5th Cir. 2013) (citation and
+internal quotations omitted). The complaint “must provide the defendant with fair
+notice of what the plaintiff ’s claim is and the grounds upon which it rests.”  Dura
+Pharms., Inc. v. Broudo, 544 U.S. 336, 346 (2005) (citation and internal quotations
+omitted).
+In considering a motion to dismiss, a court views the complaint “in the light
+most favorable to [the] plaintiff, accepting as true all well-pleaded factual allegations
+and drawing all reasonable inferences in [the] plaintiff ’s favor.” Lovick v. Ritemoney
+Ltd., 378 F.3d 433, 437 (5th Cir. 2004). A court must limit its review to “the complaint,
+any documents attached to the complaint, and any documents attached to the motion
+to dismiss that are central to the claim and referenced by the complaint.” Lone Star
+Fund V (U.S.), L.P. v. Barclays Bank PLC , 594 F.3d 383, 387 (5th Cir. 2010) (citing
+Collins v. Morgan Stanley Dean Witter, 224 F.3d 496, 498–99 (5th Cir. 2000)).
+Count two of the complaint alleges that Everett was grossly negligent in the
+“reckless manner” that he towed the aircraft and concealed the ensuing damage. 50
+Plaintiff claims that Everett’s “actions and omissions” were “in spite of . . . the high
+risk of danger” and “done with complete indifference to the rights, safety, welfare,
+and health of others . . . without even the slightest degree of care and diligence . . . in
+spite of the subjective and objective awareness of the high risk of danger involved.”51
+
+50 R. Doc. No. 30, at ¶ 22.
+51 Id. at ¶¶ 22, 23.
+Case 2:25-cv-01645-LMA-JVM     Document 63     Filed 04/07/26     Page 11 of 30
+12
+
+Everett argues that the Court should dismiss count two pursuant to Rule
+12(b)(6) because Louisiana substantive law has no independent cause of action for
+“gross negligence” and no statute creates a right for plaintiff ’s gross negligence
+claim.52 Everett rests his hat on Smith v. XTO Offshore, Inc., No. 11-01487, 2012 WL
+1247224 (E.D. La. Apr. 12, 2012)  (Lemelle, J) . He  argues that Smith found that
+“ordinary negligence” is the “exclusive tort remedy”  in Louisiana.53 Everett claims
+that per the principle of expressio unius est exclusion alterius,54 because the Louisiana
+legislature only provides a gross negligence standard in  a sparse minority of
+statutes,55 any statutory cause of action that lacks an explicit reference to gross
+negligence was therefore intentional and does not provide a right to relief for damages
+from gross negligence .56 He contends that plaintiff ’s deficiency is not in failing to
+plead sufficient facts, but in failing to assert a cause of action recognized pursuant to
+Louisiana law.57
+
+52 R. Doc. No. 43, at 2.
+53 R. Doc. No. 43-1, at 4.
+54 “[T]he settled doctrine of statutory construction, expressio unius est exclusio
+alterius, which dictates that ‘when the legislature specifically enumerates a series of
+things, the legislature's omission of other items, which could have easily been
+included in the statute, is deemed intentional.’ ” Wederstrandt v. Kol, 366 So. 3d 47 ,
+52 (La. 2023) (other quotation and citations omitted).
+55 “[G]ratuitous rescuers, La. R.S. 9:2793; public entities, La. R.S. 9:2793.1; Mardi
+Gras organizations, La. R.S. 9:2796; landowners as against trespassers, La. R.S.
+9:2800.4 and La. R.S. 14:63(H); emergency medical technicians, La. R.S. 40:1235; and
+nonprofit corporate officers, La. R.S. 9:2792.1 . . . intoxicated drivers, La. Civ. Code
+Article 2315.4, and child pornography, La. Civ. Code Article 2315.3.” R. Doc. No.
+43-1, at 6.
+56 Id. at 4, 5, 7.
+57 Id. at 8.
+Case 2:25-cv-01645-LMA-JVM     Document 63     Filed 04/07/26     Page 12 of 30
+13
+
+Despite his aforementioned arguments, Everett does not contest  that Article
+2004 “prohibits contractual limitations on liability for ‘intentional or gross fault’” and
+is one example where the Louisiana legislature enacted a statute “ addressing gross
+negligence.”58 He fails to explain, or even acknowledge, Article 2004 ’s obvious
+relevance to this dispute and how it undercuts the position he takes in his motion to
+dismiss.
+Regardless, the Court finds Everett ’s arguments unpersuasive. First, unlike
+Smith, plaintiff has both pleaded facts alleging gross negligence 59 and an applicable
+statute, Article 2004, clearly articulates plaintiff ’s right to relief for damages from
+gross negligence. Further, Everett’s suggested application of Smith, arguing that to
+seek relief for gross negligence the statutory cause of action must explicitly include a
+cause of action for gross negligence, is contradictory to how courts apply Article 2004’s
+right to relief. See Petrobras Am. Inc. v. Vicinay Cadenas, S.A., 780 F. App’x 96, 100
+(5th Cir. 2019) (per curiam) (“Louisiana courts have never applied Article 2004 on ly
+to causes of action that include an element of intentional or gross fault .”) (citations
+omitted); Harvey Gulf Int ’l Marine, LLC v. Hydradyne, LLC , No. 24 -592, 2024 WL
+4512419 (E.D. La. Oct. 17, 2024)  (Vitter, J)  (analyzing, for purposes of a 12(b)(6)
+motion to dismiss, whether plaintiff pleaded sufficient facts to allege culpability
+beyond ordinary negligence to establish an exception to a limitation of liability clause,
+per Article 2004); Sevarg Co. v. Energy Drilling Co., 591 So. 2d 1278, 1281 (La. App.
+
+58 Id. at 6.
+59 See supra notes 13, 14, 16, 28 and accompanying text.
+Case 2:25-cv-01645-LMA-JVM     Document 63     Filed 04/07/26     Page 13 of 30
+14
+
+3d Cir. 1991) (finding plaintiff ’s “ allegation that the breach was the result of
+[defendant’s] gross fault ” was a “ well-pleaded fact ” supporting plaintiff ’s cause of
+action).60
+Congruous to the defendant in Petrobras, Everett’s position is essentially that
+the Court should dismiss count two because regardless of “ whether the alleged
+underlying conduct involves ” gross negligence, plaintiff does not have a statutory
+“cause of action.” 780 F. App’x at 101 (emphasis in original). However, as the Fifth
+Circuit found, such an approach would “ lead[] to strange results” and “make Article
+2004 irrelevant except in cases of fraud and the rarest of other cases  . . . because
+nearly all [of] Louisiana’s causes of action do not require a plaintiff to prove any
+element that amounts to intentional or gross [negligence].” Id. at 100–101.
+Everett’s arguments concerning the application of expressio unius est exclusion
+alterius with respect to Louisiana tort law are similarly unavailing. The Fifth Circuit
+has previously ruled that the statutes that Everett cites61 as providing the sole causes
+of action for gross negligence in Louisiana “are not causes of actions unto themselves,”
+they “merely enhance damages ” or limit immunity from liability. Id. at 101 & n.3.
+The parties do not contest  that Louisiana Civil Code Article 2315 (“Article 2315”)
+provides plaintiff ’s cause of action for the damage to the aircraft. Article 2315,
+
+60 Gross fault “includes not only gross negligence, but also bad faith breach of contract
+or fraud.” Wadick v. Gen. Heating & Air Conditioning, LLC, 145 So. 3d 586, 598 (La.
+App. 4th Cir. 2014) (citing Article 2004, comment (a)).
+61 See supra note 55.
+Case 2:25-cv-01645-LMA-JVM     Document 63     Filed 04/07/26     Page 14 of 30
+15
+
+“Liability for acts causing damages,” 62 does not distinguish negligence from more
+deliberate forms of fault, such as willful or intentional harm. Moses v. Butts, 70 So.
+2d 203, 206 (La. App. 1st Cir. 1954). As the Fifth Circuit has reasoned, Article 2315
+provides a cause of action for damages due to negligence that necessarily includes a
+right to relief for gross negligence. See Petrobras Am. Inc., 780 F. App’x at 101. Mere
+negligence is the threshold for finding a party liable for “fault” pursuant to an Article
+2315 claim, see Moses, 70 So. 2d . at 206 , and acts as “ a floor, not a ceiling ,” cf.
+Petrobras Am. Inc., 780 F. App’x at 102. Defendants do “not somehow escape liability”
+for gross negligence as their conduct “become[s] more egregious.” Cf. id.
+For these reasons, the Court denies Everett ’s motion to dismiss count two,
+plaintiff’s gross negligence claim.
+c. Plaintiff’s Rule 56(a) Motion for Summary Judgment
+Summary judgment is proper if, after reviewing the materials in the record, a
+court determines that there is no genuine dispute of material fact and the movant is
+entitled to judgment as a matter of law. FED. R. CIV. P. 56(a). “[A] party seeking
+summary judgment always bears the initial responsibility of informing the district
+court of the basis for its motion, and identifying those portions of [the record] which
+it believes demonstrate the absence of a genuine issue of material fact.” Celotex Corp.
+v. Catrett, 477 U.S. 317, 323 (1986). The party seeking summary judgment need not
+produce evidence negating the existence of a material fact; it need only point out the
+
+62 “Every act whatever of man that causes damage to another obliges him by whose
+fault it happened to repair it.” Article 2315.
+Case 2:25-cv-01645-LMA-JVM     Document 63     Filed 04/07/26     Page 15 of 30
+16
+
+absence of evidence supporting the other party’s case. Id.; see also Fontenot v. Upjohn
+Co., 780 F.2d 1190, 1195–96 (5th Cir. 1986) (“There is no sound reason why conclusory
+allegations should suffice to require a trial when there is no evidence to support them
+even if the movant lacks contrary evidence.”).
+Once the party seeking summary judgment carries that burden, the
+nonmoving party must come forward with specific facts showing that there is a
+genuine dispute of material fact for trial. See Matsushita Elec. Indus. v. Zenith Radio
+Corp., 475 U.S. 574, 587 (1986). The showing of a genuine issue is not satisfied by
+creating “‘some metaphysical doubt as to the material facts,’ by ‘conclusory
+allegations,’ by ‘unsubstantiated assertions,’ or by only a ‘scintilla’ of evidence.” Little
+v. Liquid Air Corp., 37 F.3d 1069, 1075 (5th Cir. 1994) (citations omitted). Rather, a
+genuine issue of material fact exists when the “evidence is such that a reasonable
+jury could return a verdict for the nonmoving party.” Anderson v. Liberty Lobby, Inc.,
+477 U.S. 242, 248 (1986). If the nonmovant fails to meet their burden of showing a
+genuine issue for trial that could support a judgment in favor of the nonmovant,
+summary judgment must be granted. See Little, 37 F.3d at 1075–76.
+“Although the substance or content of the evidence submitted to support or
+dispute a fact on summary judgment must be admissible . . . the material may be
+presented in a form that would not, in itself, be admissible at trial.” Lee v. Offshore
+Logistical & Transp., L.L.C., 859 F.3d 353, 355 (5th Cir. 2017) (citations omitted).
+The party responding to the motion for summary judgment may not rest upon the
+pleadings but must identify specific facts that establish a genuine issue. See
+Case 2:25-cv-01645-LMA-JVM     Document 63     Filed 04/07/26     Page 16 of 30
+17
+
+Anderson, 477 U.S. at 248. The nonmoving party’s evidence, however, “is to be
+believed, and all justifiable inferences are to be drawn in [the nonmoving party’s]
+favor.” Id. at 255.
+i. Whether the landing card is a contract of adhesion
+Pursuant to  Louisiana law, “a contract of adhesion is a standard contract,
+usually in printed form, prepared by a party of superior bargaining power for
+adherence or rejection of the weaker party,” which may “raise a question as to
+whether or not the weaker party act ually consented to the terms.” Aguillard v.
+Auction Mgmt. Corp. , 908 So.2d 1, 8 –9 (La. 2005) (quotation and citation omitted).
+The party challenging the contract has the burden of proving its lack of consent. Id.
+at 10. The court focuses on the following factors: “(1) the physical characteristics of
+the [] clause, including font size; (2) the distinguished features of the [] clause; (3) the
+mutuality of the [] clause, in terms of the relative burdens and advantages conferred
+by the clause upon each party; and (4) the relative bargaining strength of the parties.”
+Georgetown Home Owners Ass ’n, 2021 WL 359735 , at *12 (citing Aguillard, 908 So.
+2d at 16–17).
+Plaintiff claims the landing card, including Term (4), is a contract of adhesion
+and therefore unenforceable. First, plaintiff asserts that  the physical placement of
+the binding terms and characteristics of the exculpatory provision are camouflaged,
+with misleading or missing section titles, small text, and the disclaimer of liability
+“buried” between other “benign terms.”63 Plaintiff also argues that there is a lack of
+
+63 R. Doc. No. 46-1, 10–11.
+Case 2:25-cv-01645-LMA-JVM     Document 63     Filed 04/07/26     Page 17 of 30
+18
+
+mutuality indicating unequal bargaining power because only plaintiff was required
+to sign the card and cede rights. 64 Further, according to plaintiff, the landing card
+was executed while plaintiff was in a “disadvantageous position.” 65 In signing the
+landing card, plaintiff states that Cady “ neither needed to read the fine print nor
+actually did read the fine print and thus was unaware” he was “subscribing” plaintiff
+to Term (4). 66 Cady believed he was merely completing a “necessary transaction”
+meant to note the aircraft’s “operational needs.”67
+ The Court agrees with plaintiff that the physical characteristics of the landing
+card lend themselves to a finding that the landing card was adhesionary —
+particularly considering the standard form of the agreement, the small typeface, and
+location of the waiver of liability  following the bolded and underlined  “definitions”
+header.68  Aguillard, 908 So. 2d at 12 (holding that “[c]onsent is called into question
+by the standard form  [and] small print ” of an agreement); cf. Georgetown Home
+Owners Ass’n, 2021 WL 359735, at *13 (finding that the relevant portion “set off by a
+bold, capitalized header and the text of the [a]greement [being] equivalently sized to
+the rest of the document” suggested that the agreement was not adhesionary). Term
+(4) also does not appear mutually applicable as it only burdens plaintiff and waives
+its right to seek damages, without similarly binding Signature. Cf. Aguillard, 908 So.
+
+64 Id. at 11.
+65 Id. at 12.
+66 Id. Plaintiff has not argued that Cady lacked authority to sign the landing card on
+its behalf, but reserves the right to do so. Id. at 12 nn.10, 11; R. Doc. No. 54, at 3 n.1.
+67 Id. at 12.
+68 See infra Attachment A.
+Case 2:25-cv-01645-LMA-JVM     Document 63     Filed 04/07/26     Page 18 of 30
+19
+
+2d at 16 (finding mutuality where “ the arbitration clause severely limits both the
+defendants’ and the plaintiff’s right to litigate”).
+However, the Court finds that plaintiff has failed to show that it  was
+disadvantaged or possessed unequal bargaining power . Although plaintiff did not
+receive the landing card prior to landing in New Orleans, Cady stated that he was
+familiar with  the landing card and  had signed similar Signature agreements “at
+many” other airports.69 Further, Signature also stated that it would have serviced the
+aircraft “in the same manner” regardless of whether the landing card was signed, as
+it has done when other customers refuse to sign the landing card.70 Plaintiff was “not
+forced to agree to the terms” of the exculpatory clause. See Georgetown Home Owners
+Ass’n, 2021 WL 359735 at *13; see also Aguillard, 908 So. 2d at 17 (“[T]he underlying
+transaction . . . does not indicate that it was such a necessary transaction to establish
+the plaintiff was compelled to enter it.”).
+Notably, although Cady now states he has never read the terms of the landing
+card,71 his signature on the agreement indicates otherwise.72 “[A] party who signs a
+written instrument is presumed to know its contents and cannot avoid its obligations
+by contending that he did not read it, that he did not understand it, or that the other
+party failed to explain it to him.” Geovera Specialty Ins. Co. v. Odoms, No. 19-30971,
+
+69 R. Doc. No. 46-5, at 31:20–32:5.
+70 R. Doc. No. 46-4, at 159:9–21.
+71 R. Doc. No. 46-5, at 36:15–17.
+72 See infra Attachment A. Cady signed the landing card, which provides “I have read
+and understand, and have authority to accept on behalf of the owner or manager of
+the aircraft, this agreement.” Id.
+Case 2:25-cv-01645-LMA-JVM     Document 63     Filed 04/07/26     Page 19 of 30
+20
+
+2020 WL 6532087, at *4 (5th Cir. Nov. 5, 2020) (quoting Aguillard, 908 So. 2d at 17).
+At a bare minimum, and contrary to plaintiff ’s position, Cady’s attestations indicate
+that there is a genuine dispute as to whether he consented to the terms of the landing
+card. Accordingly, the Court finds that the plaintiff has failed to meet its burden of
+establishing there exists no genuine dispute of material fact with respect to whether
+it consented to the terms of the landing card. Aguillard, 908 So. 2d at 11.
+ii. Whether Term (4) is enforceable pursuant to Louisiana law
+Louisiana Civil Code Article 2004 directs, “[a]ny clause is null that, in advance,
+excludes or limits the liability of one party for intentional or gross fault that causes
+damage to the other party.” Gross fault encompasses gross negligence for purposes of
+Article 2004.73 Occidental Chem. Corp. v. Elliott Turbomachinery Co. , 84 F.3d 172
+(5th Cir. 1996).
+The parties do not contest that  Term (4) of the landing card may not
+prospectively limit a party ’s liability for gross negligence. 74 However, the parties
+disagree on two key issues: (1) whether Term (4) is drafted in a way where it offends
+Article 2004, and (2) if Term (4) offends Article 2004, whether Term (4) is null and
+unenforceable in its entirety or solely to the extent a party seeks to apply it to gross
+negligence.
+
+73 The discussion herein is limited to Article 2004 ’s application to gross negligence
+because that is the issue presently before the Court. However, Article 2004 also
+applies to contractual clauses prospectively disclaiming liability for other forms of
+gross fault and liability for causing physical injury.
+74 R. Doc. No. 46-1, at 13; R. Doc. No. 51, at 9; R. Doc. No. 52, at 5.
+Case 2:25-cv-01645-LMA-JVM     Document 63     Filed 04/07/26     Page 20 of 30
+21
+
+Plaintiff argues that Term (4) impermissibl y acts to  prospectively limit
+Signature’s liability for gross negligence related to consequential and incidental
+damages because it states, “ under no circumstances shall Signature be liable to the
+Customer . . . for indirect, incidental, consequential, special or exemplary damages,
+whether in contract or tort (including strict liability and negligence) ,” without an
+exception for gross negligence.75 While Everett does not challenge plaintiff’s position
+on this issue,  Signature counters that “Term (4) simply does not purport to limit
+Signature’s liability for its own gross negligence.”76
+With respect to the first issue, the Court disagrees with Signature’s reading of
+Term (4). The clause is not ambiguous or “susceptible of different meanings.” 77 The
+plain language of the exculpatory clause  attempts to limit liability for gross
+negligence, disclaiming “ under no circumstances  shall Signature be liable  . . . for
+indirect . . . damages.” 78 See Ostrowiecki v. Aggressor Fleet, Ltd. , No. 07-6598, 2008
+WL 3874609, *12 –13 (E.D. La. Aug. 15, 2008)  (Africk, J) ( finding language
+disclaiming liability “from any claim or lawsuit” offensive to Article 2004). Courts
+have consistently found language similar to that in Term (4) to run afoul of Article
+2004. See, e.g., Occidental Chem. Corp., 84 F.3d at 173 n.4 (“[I]n no event shall Seller
+or its suppliers be liable, whether arising under contract, tort (including negligence),
+strict liability, or otherwise, for . . . any special, incidental, indirect or consequential
+
+75 R. Doc. No. 46-1, at 13–14; R. Doc. No. 46-6.
+76 R. Doc. No. 51, at 9.
+77 Id. at 10 (citing La. Civ. Code art. 2049).
+78 See infra Attachment A.
+Case 2:25-cv-01645-LMA-JVM     Document 63     Filed 04/07/26     Page 21 of 30
+22
+
+loss or damage.”); Petrobras Am. Inc., 780 F. App ’x at 97–98 (“[W]hether due to the
+neglect or fault . . . each party hereby releases each other party (and such other party’s
+group) from any liability for consequential loss of the releasing party.”).
+As the plain language of Term (4) offends Article 2004,  the Court must next
+consider whether Term (4) is unenforceable in its entirety or solely as to its
+application to liability for gross negligence.  Wadick v. Gen. Heating & Air
+Conditioning, LLC , 145 So. 3d 586, 596–97 (La. App. 4th Cir. 2014)  (citing
+Ostrowiecki, 2008 WL 3874609, *11, 14).
+Plaintiff relies on Ostrowiecki to support its position that the entire clause is
+null, which although  persuasive, is distinguishable from the case at hand. In
+Ostrowiecki, this Court found that language limiting liability “from any claim or
+lawsuit” rendered the entire exculpatory provision null and unenforceable. 2008 WL
+3874609, at *12–13. However, the contract at issue also included a severability clause
+that stated, “in the event that one or more of the provisions of this agreement  . . . is
+held . . . to be invalid or unenforceable in any respe ct . . . this agreement shall be
+construed as if such . . . provision had never been contained herein.” Ostrowiecki, 2008
+WL 3874609 , at *13. This Court found that the severability clause required the
+invalidation of the entire exculpatory provision and that the agreement could not
+“retain its meaning once those aspects which offend article 2004 [were] nullified.” Id.
+at 13 –14. As a result, the plaintiff was permitted to proceed with both their
+intentional tort and negligence claims. Id. at 14.
+Case 2:25-cv-01645-LMA-JVM     Document 63     Filed 04/07/26     Page 22 of 30
+23
+
+ In contrast to Ostrowiecki, the severability clause in SWAT 24 Shreveport
+Bossier, Inc. v. Bond, 808 So. 2d 294, 309 (La. 2001), required a different outcome. In
+Swat 24 , the severability  clause provided that  “each term and provision of the
+agreement shall be valid and enforceable to the fullest extent permitted by law.”79 Id.
+As this Court explained in Ostrowiecki, this formulation allowed the Swat 24 court to
+“rescu[e] the valid portions of a provision, while striking the offending portions.” 2008
+WL 3874609, at 12.
+Unlike the agreements in Ostrowiecki and SWAT 24, the landing card does not
+include a severability clause directing whether to remove the offending provision in
+its entirety. Other courts have relied on Louisiana Civil Code Article 2034 (“Article
+2034”) as authority to “delete from the exculpatory provision the offending claims . .
+. and to allow the remainder of the exculpatory provision to stand .” See Wadick, 145
+So. 3d at 599; see also Precht v. Columbia Gulf Transmission, LLC, No. 18-0853, 2019
+WL 3368600 (W.D. La. July 24, 2019)  (reasoning Article 2004 does not nullify  an
+exculpatory clause “in its entirety . . . ‘unless, from the nature of the provision of the
+intention of the parties, it can be presumed that the contract would not have been
+made without the null provision.’” (quoting Article 2034, other citations omitted)); cf.
+Ostrowiecki, 2008 WL 3874609 , at *11 (reasoning that Article 2034 “ protects the
+integrity of an overall contract when a provision has been nullified”).
+Here, there is no applicable severability provisions, and it is consistent with
+the Fifth Circuit’s approach in similar cases to find contractual limitations of liability
+
+79 Everett incorrectly argues that Swat 24 did not include a severability provision.
+Case 2:25-cv-01645-LMA-JVM     Document 63     Filed 04/07/26     Page 23 of 30
+24
+
+unenforceable with respect to claims alleging damages for gross negligence. See, e.g.,
+Alonso v. Westcoast Corp., 920 F.3d 878, 885 (5th Cir. 2019); Petrobras Am. Inc., 780
+F. App’x at 100 (finding that Article 2004 nullifies application of contractual limits to
+liability for claims alleging physical injury or gross fault); Occidental Chem. Corp. ,
+No. 92-0127, 1994 WL 17114860 , *4 (W.D. La. Dec. 8, 1994), aff’d, 84 F.3d at 173
+(granting summary judgment and finding “limitation of liability provisions . . . invalid
+insofar as they exclude liability for gross fault.”).
+The Court concludes that any application of Term (4) to claims alleging gross
+negligence is unenforceable pursuant to Article 2004. Whether defendants ’ alleged
+gross negligence caused plaintiff’s damages is a factual issue left to the jury.
+iii. Whether Everett is an affiliate of Signature with respect to Term (4)
+According to the Civil Code, “[i]nterpretation of a contract is the determination
+of the common intent of the parties.”  La. Civ. Code art. 2045. “When the words of a
+contract are clear and explicit and lead to no absurd consequences, no further
+interpretation may be made in search of the parties’ intent.” La. Civ. Code. art. 2046.
+Additionally, “[e]ach provision in a contract must be interpreted in light of the other
+provisions so that each is given the meaning suggested by the contract as a
+whole.” La. Civ. Code art. 2050. “The words of a contract are to be construed using
+their plain, ordinary and generally prevailing meaning, unless the words have
+acquired a technical meaning.” Guidry v. Am. Pub. Life Ins. Co. , 512 F.3d 177, 181
+(5th Cir.2007).
+Case 2:25-cv-01645-LMA-JVM     Document 63     Filed 04/07/26     Page 24 of 30
+25
+
+“[A] contract is ambiguous, under Louisiana law, ‘when it is uncertain as to the
+parties’ intentions and susceptible to more than one reasonable meaning under the
+circumstances and after applying established rules of construction. ’” Tex. E.
+Transmission Corp. v. Amerada Hess Corp. , 145 F.3d 737, 741 (5th Cir.
+1998) (quoting Lloyds of London v. Transcon. Gas Pipe Line Corp., 101 F.3d 425, 429
+(5th Cir. 1996)) (cleaned up). “Under Louisiana law, the interpretation of an
+unambiguous contract is an issue of law  for the court.” Amoco Prod. Co. v. Tex.
+Meridian Res. Exploration Inc ., 180 F.3d 664, 668 (5th Cir.1999) (citing Tex. E.
+Transmission Corp. v. Amerada Hess Corp., 145 F.3d 737, 741 (5th Cir.1998)).
+The final issue for which plaintiff seeks summary judgment is whether
+Everett, as an employee of Signature, is included as an “affiliate”  pursuant to the
+terms of the landing card and therefore shielded from liability to the extent Term (4)
+is enforceable. Plaintiff states that Signature affiliates, defined in the landing card
+as “Signature Flight Support LLC and its affiliates that are providing Services to the
+Customer at the Airport,” refers to legal entities affiliated with Signature, not
+employees such as Everett.80
+Tellingly, Signature does not use its briefing to inform the Court whether, as
+an employee, Everett is an “affiliate” of Signature as the term is used with respect to
+the landing card. Instead of directly addressing the issue before the Court, Signature
+deflects and states that “[t]o the extent that any of Signature ’s employees . . . act
+negligently and within the course and scope of their employment with Signature, the
+
+80 R. Doc. No. 46-1, at 16–17; R. Doc. No. 54, at 9–10.
+Case 2:25-cv-01645-LMA-JVM     Document 63     Filed 04/07/26     Page 25 of 30
+26
+
+terms of the Landing Card plainly apply to their status as employees .”81 However,
+Signature is already vicariously liable for tortious conduct of its employees through
+the “operation of law” pursuant to Louisiana Civil Code Article 2320. See Lewis v.
+Hamilton, 652 So. 2d 1327, 1330 (La. 1995). Additionally, the landing card could not
+create or duplicate a legal obligation between Signature and Everett because Everett
+is not a party to the landing card.
+Everett argues that employees must fall under the umbrella of an affiliate
+because they are the individuals providing the services and products to the customer
+at the airport. 82 Although Everett protests that an affiliate may include natural
+persons, he does not provide any evidence that Signature ever used the term to define
+employees or applied the term to him in some other capacity.
+In the present case, whether affiliates include employees is readily discernable
+through the application of the established rules of construction to the plain language
+of the landing card. Term (3) of the landing card states, “Customer agrees to
+indemnify . . . Signature and the Airport . . . to the defense of any claims arising out
+of Signature’s acts or omissions, or the act[s] or omissions of its directors, officers,
+employees, agents or assigns . . . “ 83 The only proposed definition that Everett
+advances that references employees in the context of affiliates is from the Investment
+Company Act of 1940  which defines “affiliated person” rather than affiliate s—“any
+
+81 R. Doc. No. 51, at
+82 R. Doc. No. 52 at 9
+83 See infra Attachment A.
+Case 2:25-cv-01645-LMA-JVM     Document 63     Filed 04/07/26     Page 26 of 30
+27
+
+officer, director, partner, copartner, or employee .”84 Unfortunately, Everett ’s
+definition has an insurmountable defect. It  is duplicative of the “directors, officers,
+employees, agents or assigns ” provision in Term (3) and its inclusion would render
+the language in Term (3)  essentially meaningless  in contravention of Louisiana’s
+basic tenets of contract interpretation. Further, the express inclusion of employees as
+a party in Term (3) and the term’s exclusion from Term (4) indicates the drafters’
+intent. “Each provision of a contract must be interpreted in light of the other
+provisions, and a p rovision susceptible of different meanings must be interpreted
+with a meaning that renders it effective rather than one which renders it ineffective.”
+Lewis, 652 So. 2d at 1330.
+ Accordingly, the term affiliate as it is used in the landing card unambiguously
+does not refer to Signature employees. Furthermore, Everett has not provided any
+evidence that the term applies  to him in some other capacity with respect to the
+landing card. For the foregoing reasons, the Court finds that defendants have not
+established a genuine dispute of material fact  with respect t o the issue of whether
+Everett is an affiliate of Signature in accordance with Term (4) of the landing card.
+III. CONCLUSION
+IT IS ORDERED that defendant Phillip Everett’s motion to dismiss is
+DENIED.
+IT IS ORDERED  that plaintiff’s partial motion for summary judgment is
+GRANTED IN PART and DENIED IN PART. The motion is DENIED with respect
+
+84 R. Doc. No. 52 at 9.
+Case 2:25-cv-01645-LMA-JVM     Document 63     Filed 04/07/26     Page 27 of 30
+28
+
+to plaintiff’s arguments regarding whether the landing card is enforceable as a
+contract of adhesion. The motion is GRANTED with respect to whether Term (4) is
+unenforceable for claims alleging damages for gross negligence but DENIED with
+respect to whether Term (4) is unenforceable in its entirety. The motion is
+GRANTED with respect to whether Everett is an affiliate of Signature with respect
+to Term (4) of the landing card.
+New Orleans, Louisiana, April 7, 2026.
+
+_______________________________________
+         LANCE M. AFRICK
+           UNITED STATES DISTRICT JUDGE
+Case 2:25-cv-01645-LMA-JVM     Document 63     Filed 04/07/26     Page 28 of 30
+ATTACHMENT A
+Case 2:25-cv-01645-LMA-JVM     Document 63     Filed 04/07/26     Page 29 of 30
+SIGNATURE-JONES CO-000062
+Case 2:25-cv-01645-LMA-JVM     Document 63     Filed 04/07/26     Page 30 of 30
