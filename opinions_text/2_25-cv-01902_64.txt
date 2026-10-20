@@ -1,0 +1,648 @@
+1
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+CALVIONA LYNISE BROWN CIVIL ACTION
+
+VERSUS No. 25-1902
+
+EPIC FEDERAL CREDIT UNION, ET AL. SECTION I
+
+ORDER AND REASONS
+
+Before the Court are two motions to dismiss pro se plaintiff Calviona Lynise
+Brown’s (“plaintiff”) claims in her first amended complaint1 pursuant to Federal Rule
+of Civil Procedure 12(b)(6) . First, d efendant Trans Union LLC ’s (“Trans Union ”)
+motion2 to dismiss , joined by defendants Experian Information Solutions, Inc.
+(“Experian”) and Equifax Information Services, LLC  (“Equifax”),3 (collectively, the
+“Consumer Reporting Agenc y Defendants ” or “CRAs”) seeks to dismiss plaintiff ’s
+claims alleged against the CRAs. Second, defendants Brittany Johnson (“Johnson”),
+EPIC Federal Credit Union ( “EPIC”),4 and Vega, Jones & Dubois, APLC ( “VJD”)
+(collectively with the CRAs, “defendants”) filed a joint motion 5 to dismiss plaintiff’s
+claims alleged against them.
+
+1 R. Doc. No. 32.
+2 R. Doc. No. 36.
+3 See R. Doc. Nos. 38, 41, 47, 48.
+4 Formerly known as Greater New Orleans Federal Credit Union. See R. Doc. No. 32
+¶ 19.
+5 R. Doc. No. 42.
+Case 2:25-cv-01902-LMA-KWR     Document 64     Filed 06/26/26     Page 1 of 25
+2
+Plaintiff filed responses in opposition to both motions.6 Equifax and Trans
+Union, joined by Experian, filed a joint reply7 with respect to the CRAs’ motion to
+dismiss. Johnson, EPIC, and VJD did not file a reply.
+For the foregoing reasons , the motion s to dismiss  are granted in part and
+denied in part. The motion to dismiss p laintiff’s claims, pursuant to the Fair Credit
+Reporting Act ( “FCRA”), against the CRAs is granted  with respect to  defendants
+Trans Union and Equifax, and denied with respect to Experian. The motion to dismiss
+plaintiff’s Federal Debt Collection Practices Act ( “FDCPA”) claim against VJD and
+her FCRA claim against EPIC is also denied. However, the Court grants in part the
+same motion to dismiss with respect to plaintiff ’s abuse of process claims against
+Johnson, EPIC, and VJD.
+I. BACKGROUND
+On January 2, 2026, plaintiff filed her first amended complaint  (the
+“complaint”) alleging causes of action pursuant to the FDCPA, the FCRA, and abuse
+of process  under Louisiana law .8 According to plaintiff , this case concerns
+“misconduct involving a federal credit union, its employee, its outside counsel, and
+consumer reporting agencies [that] misrepresent[ed] the nature of an alleged
+consumer debt, conceal [ed] a vehicle repossession and disposition, unlawfully
+
+6 R. Doc. Nos. 37, 45. While R. Doc. No. 45 was entered into the record as a sur-reply,
+plaintiff captioned it as an opposition to Johnson, Epic, and VJD ’s joint motion to
+dismiss. See id.
+7 R. Doc. No. 44.
+8 R. Doc. No. 32.
+Case 2:25-cv-01902-LMA-KWR     Document 64     Filed 06/26/26     Page 2 of 25
+3
+pursue[d] debt collection and garnishment activity, and retaliat e[d] against [her]
+through false credit reporting and litigation-related misconduct.”9
+Plaintiff alleges that her vehicle was repossessed in October 2020 in connection
+with “an alleged consumer debt ” “purportedly arising from a retail installment
+transaction” with EPIC. 10 She asserts that “material facts concerning the
+repossession, including but not limited to the date of repossession, the subsequent
+sale or disposition of the vehicle, and the application of any sale proceeds to the
+alleged debt ” were “concealed” from her. 11 As a result, plaintiff claims that the
+concealment of these facts prevented her “from timely discovering the disposition of
+the collateral and accurately assessing the balance” of the consumer debt.12
+According to plaintiff, VJD, “acting as outside counsel and collection counsel
+for” EPIC, “pursue[d] collection activity against he r . . . without disclosing the
+repossession, the sale or disposition of the vehicle, or providing  . . . a complete and
+accurate accounting of the alleged debt .”13 Plaintiff claims that VJD proceeded with
+“seeking entry of default judgment based on alleged balances that were not updated
+to reflect the repossession, and without disclosing the repossession, providing a post-
+repossession ledger, or producing the purported ‘promissory note.’”14 Plaintiff alleges
+that defendant Johnson participated in the collection efforts by submitting sworn
+
+9 Id. ¶ 1
+10 Id. ¶ 27.
+11 Id. ¶ 29.
+12 Id. ¶ 30
+13 Id. ¶¶ 31–32.
+14 Id. ¶ 34.
+Case 2:25-cv-01902-LMA-KWR     Document 64     Filed 06/26/26     Page 3 of 25
+4
+affidavits that included the aforementioned “material” omissions.15 Plaintiff refers to
+the default action, in which VJD represented EPIC, as “DOCKET NO. 19 -08974,
+DIVISION ‘B’” (“Docket No. 19-08974”).
+Around September 2023, enforcement of the default entry in Docket No. 19 -
+08974 was initiated against plaintiff, “including through wage garnishment and
+related collection mechanisms .”16 Plaintiff states that her ability to contest the
+default judgment and wage garnishment was impacted by the “concealment” of “the
+repossession and the disposition of” her vehicle, as well as  the absence of a “post-
+repossession accounting reflecting any adjustment of the alleged balance ” of her
+debt.17
+Plaintiff also claims that EPIC “furnished information regarding the alleged
+debt to” the CRAs, and in doing so “omitted material facts concerning the repossession
+and sale of [her] vehicle and misrepresented the nature, status, and amount of the
+alleged obligation. ”18 Plaintiff states that she submitted “multiple disputes
+challenging the accuracy and completeness of the reported information ” with the
+CRAs and the Consumer Financial Protection Bureau ( “CFPB”), but the complaints
+were closed “without correcting the tradelines or performing a reasonable
+reinvestigation of the disputed items .”19 According to plaintiff,  the CRAs closed
+disputes that she lodged with them in 2021 and 2024, regarding the accuracy of her
+
+15 Id. ¶¶ 33–34.
+16 Id. ¶ 48.
+17 Id. ¶¶ 49–50.
+18 Id. ¶¶ 39–40.
+19 Id. ¶¶ 40–41.
+Case 2:25-cv-01902-LMA-KWR     Document 64     Filed 06/26/26     Page 4 of 25
+5
+credit profile, based on information that EPIC provided, and without providing her
+with descriptions of the procedures the y used to verify the accuracy of the reported
+information.20 Plaintiff posits that this resulted in the CRAs continuing to report
+“inaccurate and misleading information, ” including an artificially inflated and
+improperly reported account balance and payment history,” and “caus[ed] damage to
+[her] credit reputation, increased borrowing costs, denial of financial opportunities,
+and other . . . harm.”21
+Additionally, plaintiff alleges that VJD continued making misrepresentations
+and “material” omissions during the CFPB’s review of her complaint, as recently as
+November 2025.22 Plaintiff asserts that VJD’s submissions to the CFPB in November
+2025 “constituted new acts and representations in furtherance of [an] ongoing course
+of conduct to misrepresent the alleged debt and conceal material facts .”23 She also
+states that she was not, and could not have been, aware of VJD’s full involvement in
+the collection proceedings against her prior to November 2025.24
+II. STANDARD OF LAW
+Pursuant to Rule 12(b)(6), a district court may dismiss a complaint or part of
+a complaint when a plaintiff fails to set forth well -pleaded factual allegations that
+“raise a right to relief above the speculative level. ” Bell Atl. Corp. v. Twombly , 550
+U.S. 544, 555 (2007);  see also Cuvillier v. Taylor, 503 F.3d 397, 401 (5th Cir. 2007).
+
+20 Id. ¶¶ 62–64, 66–69, 73–77, 80–81, 83.
+21 Id. ¶¶ 37, 40, 42.
+22 Id. ¶¶ 43–44.
+23 Id. ¶ 46.
+24 Id. ¶ 47.
+Case 2:25-cv-01902-LMA-KWR     Document 64     Filed 06/26/26     Page 5 of 25
+6
+The complaint “must contain sufficient factual matter, accepted as true, to ‘state a
+claim to relief that is plausible on its face. ’” Ashcroft v. Iqbal , 556 U.S. 662, 678
+(2009) (quoting Twombly, 550 U.S. at 547).
+A facially plausible claim is one in which “the plaintiff pleads factual content
+that allows the court to draw the reasonable inference that the defendant is liable for
+the misconduct alleged.” Id. If the well-pleaded factual allegations “do not permit the
+court to infer more than the mere possibility of misconduct,” then “the complaint has
+alleged—but it has not ‘show[n]’—’that the pleader is entitled to relief. ’” Id. at
+679 (quoting Fed. R. Civ. P. 8(a)(2)) (alteration in original).
+In assessing the complaint, a court must accept all well -pleaded facts as true
+and liberally construe all factual allegations in the light most favorable to the
+plaintiff. Spivey v. Robertson, 197 F.3d 772, 774 (5th Cir. 1999). However, “plaintiffs
+must allege facts that support the elements of the cause of action in order to make
+out a valid claim,” and the Court does “not accept as true ‘[t]hreadbare recitals of the
+elements of a cause of action, supported by mere conclusory statements. ’” City of
+Clinton, Ark. v. Pilgrim ’s Pride Corp. , 632 F.3d 148 , 152–53 (5th Cir. 2010)  (first
+citing Twombly, 550 U.S. at 555; and then quoting Iqbal, 556 U.S. at 678). Although,
+“[i]t is well -established that pro se complaints are held to less stringent standards
+than formal pleadings drafted by lawyers ,” Bustos v. Martini Club,  599 F.3d 458,
+461–62 (5th Cir. 2010) (alteration in original), “[t]his requirement holds true even for
+pro se litigants.” Roque v. Jazz Casino Co. LLC, 388 F. App’x 402, 405 (5th Cir. 2010).
+Case 2:25-cv-01902-LMA-KWR     Document 64     Filed 06/26/26     Page 6 of 25
+7
+Furthermore, “the Court must typically limit itself to the contents of the
+pleadings, including attachments thereto. ” Admins. of the Tulane Educ. Fund v.
+Biomeasure, Inc. , No. 08 -5096, 2011 WL 4352299, at *3 (E.D. La. Sept. 6, 2011)
+(Vance, J.) (citing Collins v. Morgan Stanley Dean Witter, 224 F.3d 496, 498 (5th Cir.
+2000)). The Court may consider all “documents incorporated into the complaint by
+reference, and matters of which a court may take judicial notice. ” Tellabs, Inc. v.
+Makor Issues & Rts., Ltd. , 551 U.S. 308, 322  (2007). “It is clearly proper in deciding
+a 12(b)(6) motion to take judicial notice of matters of public record. ” Jenkins v.
+Tahmahkera, 151 F.4th 739, 747 (5th Cir. 2025) (quotations omitted).
+“Dismissal is appropriate when the complaint ‘on its face show[s] a bar to
+relief.’” Cutrer v. McMillan, 308 F. App ’x 819, 820 (5th Cir. 2009) (quoting Clark v.
+Amoco Prod. Co. , 794 F.2d 967, 970 (5th Cir. 1986)) (alteration in original). The
+complaint must plead facts that “raise a right to relief above the speculative level. ”
+Spiller v. Harris Cnty., 113 F.4th 573 (5th Cir. 2024) (quoting Ruiz v. Brennan, 851
+F.3d 464, 468 (5th Cir. 2017)
+III. ANALYSIS
+A. Count I – Fair Debt Collection Practices Act Claim
+Plaintiff alleges count I against VJD only, claiming that VJD violated the
+FDCPA, 15 U.S.C. §§ 1692e and 1692f , by utilizing “false, deceptive, or misleading
+representations and unfair or unconscionable means ” when attempting to collect on
+her alleged debt. 25 To state a claim pursuant to the FDCPA, a plaintiff must plead
+
+25 R. Doc. No. 32 ¶ 58.
+Case 2:25-cv-01902-LMA-KWR     Document 64     Filed 06/26/26     Page 7 of 25
+8
+facts indicating that a defendant, acting as a “debt collector, ” violated one of the
+prohibited practices enumerated in the act. See Taylor v. Perrin, Landry, deLaunay
+& Durand, 103 F.3d 1232, 1234, 1238 (5th Cir. 1997).
+A debt collector includes “any person who uses any instrumentality of
+interstate commerce or the mails in any business, the principal purpose of which is
+the collection of any debts, or who regularly collects or attempts to collect, directly or
+indirectly, debts owed or due or asserted to be owed or due another.” § 1692a(6). Here,
+plaintiff alleges facts establishing—and VJD does not dispute—that VJD was acting
+as a debt collector on behalf of EPIC.26
+Additionally, Sections 1692e and 1692f of the FDCPA prohibit debt collectors
+from using “any false, deceptive, or misleading representation or means in connection
+with the collection of any debt,” § 1692e, or using “unfair or unconscionable means to
+collect or attempt to collect any debt ,” § 1692f. Plaintiff alleges that in violation of
+§§ 1692e and 1692f, VJD made misrepresentations and “material” omissions in
+connection with its collection of her alleged debt, and continued with its collection
+efforts despite being aware of the “disputed, incomplete, or misleading” nature of the
+information it was relying on and disseminating to third parties.27
+In response to plaintiff ’s FDCPA claim, VJD’s sole argument is that the one-
+year statute of limitation s has run, pursuant to 15 U.S.C. § 1692k(d), because her
+allegations concern the 2020 repossession  of her vehicle  and associated default
+
+26 Id. ¶¶ 31–37, 56.
+27 Id. ¶¶ 43–47, 55–60.
+Case 2:25-cv-01902-LMA-KWR     Document 64     Filed 06/26/26     Page 8 of 25
+9
+judgment.28 However, plaintiff also asserts that around November 2025, well within
+the one -year FDCPA statute of limitations,  VJD misrepresented information
+concerning the “nature, status, and amount ” of her alleged debt in response to a
+complaint she filed with the  CFPB, despite being aware that the information it
+provided was false.29 Plaintiff also alleges that the collection activity directed against
+her, including wage garnishment, has continued .30 She also states that VJD ’s
+misrepresentations have allowed it “to obtain collection leverage and enforcement
+advantages to which [it was]  not entitled, and not for the legitimate purpose of
+resolving a fully disclosed and accurately stated debt.”31 VJD does not respond to nor
+offer any counterarguments addressing the violations that plaintiff alleges occurred
+within the statute of limitations.
+“Drawing all reasonable inferences in favor of [p]laintiff,” her complaint alleges
+facts supporting an inference that VJD used misleading representations or unfair
+practices in connection with its debt collection activity against plaintiff. Roberts v.
+Am. Bank & Tr. Co., 835 F. Supp. 2d 183, 199 (E.D. La. 2011) (Fallon, J.). Plaintiff’s
+claims could plausibly give rise to an entitlement to relief  pursuant to §§ 1692e and
+1692f, and “discovery is warranted with respect to these allegations.” Id. Accordingly,
+VJD’s motion to dismiss count I of plaintiff’s complaint is denied.
+
+28 R. Doc. No. 42-1, at 3.
+29 R. Doc. No. 32 ¶¶ 3, 40–41,43–47.
+30 Id. ¶¶ 48, 57; R. Doc. No. 45, at 2.
+31 R. Doc. No. 32 ¶ 88.
+Case 2:25-cv-01902-LMA-KWR     Document 64     Filed 06/26/26     Page 9 of 25
+10
+B. Count II – Federal Credit Reporting Act Claims
+Count II of plaintiff’s complaint alleges claims pursuant to the FCRA against
+EPIC, specifically violations of 15 U.S.C. § 1681s-2(b), and against the CRAs, alleging
+violations of 15 U.S.C. §§ 1681i(a) and 1681e(b).32 The Court will address plaintiff ’s
+claims against EPIC and the CRAs separately in turn.
+1. EPIC – 15 U.S.C. § 1681s-2(b) Claim
+Section 1681s -2(b) provides a private right of action for consumers against
+furnishers of credit information (“furnisher”). See Thomasson v. Bank One,
+Louisiana, N.A., 137 F. Supp. 2d 721, 723 (E.D. La. 2001) (Fallon, J.). While the FCRA
+does not define “furnishers of credit information,” “[c]ourts in the Fifth Circuit ‘have
+defined the term broadly to mean an entity [that] transmits information concerning
+a particular debt owed by a particular consumer to a credit reporting agency.’” Beard
+v. Experian Info. Sols., Inc., No. 23-1306, 2023 WL 8827762, at *4 (E.D. La. Dec. 21,
+2023) (Milazzo, J.) (citations omitted). EPIC has not disputed plaintiff ’s contention
+that it is a furnisher for purposes of the FCRA.
+To state a claim against a furnisher, a plaintiff must show that: “(1) he disputed
+the accuracy or completeness of information with a consumer reporting agency; (2)
+the agency notified the furnisher of the consumer ’s dispute; (3) and the furnisher
+failed to conduct an investigation, correct any inaccuracies, or notify the agency of
+the results of the investigation. ” Id. Plaintiff alleges that she disputed credit
+information that EPIC provided to the CRAs on numerous occasions and that
+
+32 Id. ¶¶ 64, 71, 78, 84.
+Case 2:25-cv-01902-LMA-KWR     Document 64     Filed 06/26/26     Page 10 of 25
+11
+nevertheless, EPIC continued to furnish allegedly “inaccurate and materially
+incomplete information” and “failed to conduct a reasonable investigation.”33
+In response, EPIC raises a statute of limitations argument in support of
+dismissing plaintiff ’s claim .34 Section 1681p of the FCRA instructs a statute of
+limitations of no later than the earlier of “[two] years after the date of discovery by
+the plaintiff of the violation” or “[five] years after the date on which the violation . . .
+occurs.” EPIC argues that because plaintiff first disputed the accuracy of the data
+that it furnished the CRAs in December 2021, plaintiff “had obviously discovered the
+violation at that time,” but did not “file her original complaint until” more than three
+years after she discovered the violation. 35 Plaintiff counters that she also disputed,
+on multiple occasions, the accuracy of credit information that EPIC furnished to the
+CRAs less than two years prior to the filing of this lawsuit —including disputes she
+filed around June 2024  with Experian, August 2024  with Trans Union , July 2025
+with Equifax and the CFPB , and September 2025 with Equifax and the CFPB .36 As
+such, the question remains whether the alleged inaccuracies that plaintiff disputed
+in 2024 and 2025, and EPIC’s resulting investigation or lack thereof, support a right
+to relief pursuant to the FCRA in the present action.37
+EPIC’s argument is essentially that plaintiff’s later allegations do not escape
+
+33 Id. ¶¶ 62, 64.
+34 R. Doc. No. 42-1, at 3–4.
+35 Id. at 3.
+36 R. Doc. No. 32 ¶¶ 62–64, 68, 75–76, 81–8; R. Doc. No. 45, at 3.
+37 Plaintiff does not argue that she maintains a cause of action for any inaccuracies
+that she failed to dispute within the statute of limitations. See id. at 2.
+Case 2:25-cv-01902-LMA-KWR     Document 64     Filed 06/26/26     Page 11 of 25
+12
+the statute of limitations bar because they concern the same issues encompassed in
+her December 2021 disputes. This argument is uncompelling. The Fifth Circuit has
+held that with respect to the FCRA statute of limitations, “each transmission of the
+same credit report is a separate and distinct [violation] to which a separate statute
+of limitations applies ” and “each new issuance results in a distinct and separate
+injury.” Hyde v. Hibernia Nat. Bank in Jefferson Par. , 861 F.2d 446 (5th Cir. 1988) .
+Other districts have similarly found that each subsequent reporting of inaccurate or
+misleading credit information , and the resulting failure to conduct a reasonable
+investigation, constitutes a separate FCRA violation. See Ponder v. Ocwen Loan
+Servicing, LLC , No. 16 -04125, 2021 WL 5027495 , at *9  (N.D. Ga. Aug. 4, 2021) ;
+Marcinski v. RBS Citizens Bank, N.A., 36 F. Supp. 3d 286, 291 (S.D.N.Y. 2014); Tilley
+v. Glob. Payments, Inc., 603 F. Supp. 2d 1314, 1323–24 (D. Kan. 2009). As such, each
+time EPIC furnishes erroneous credit information, it carries the potential for a new
+§ 1681s-2(b) violation if it also fails to correct the alleged inaccuracy or to conduct a
+reasonable investigation in response to plaintiff’s disputes.
+Plaintiff alleges that on at least four instances in 2024 and 2025,  within the
+prescriptive period, EPIC failed to conduct an adequate investigation and did not
+correct information she disputed as incorrect and incomplete.38 Accordingly, she has
+sufficiently alleged a cause of action against EPIC pursuant to  § 1681s -2(b) with
+respect to the inaccuracies that she raised in her 2024 and 2025 disputes, regardless
+of whether she had also previously raised the same issues in December 2021.
+
+38 See supra note 36 and associated text.
+Case 2:25-cv-01902-LMA-KWR     Document 64     Filed 06/26/26     Page 12 of 25
+13
+2. Consumer Reporting Agencies – 15 U.S.C. §§ 1681i and 1681e(b) Claims
+Plaintiff asserts two causes of action against all three CRAs concerning the
+alleged inaccuracies in her reported debt obligation to EPIC. First, she alleges the
+CRAs violated 15 U.S.C. § 1681i  by failing to “conduct reasonable reinvestigations”
+into the alleged “inaccurate or misleading reporting. ”39 Second, she claims that the
+CRAs “failed to follow reasonable procedures to assure maximum possible accuracy ”
+of her credit report, in contravention of 15 U.S.C. § 1681e(b).40 Finally, plaintiff also
+specifically asserts a claim pursuant to 15 U.S.C. § 1681i(a)(7) against Experian and
+Equifax for failing to provide her with “a description of the procedure used to
+determine the accuracy and completeness of the information ” in her credit report,
+despite her request for the same.41
+To state a claim for a failure to conduct a reasonable investigation pursuant to
+§ 1681i, a plaintiff must sufficiently allege that:
+(1) he disputed the completeness or accuracy of an item of information
+contained in his consumer file at [defendant] and notified [defendant]
+directly of that dispute; (2) [defendant] did not reinvestigate free of
+charge and either record the current status of the disputed information
+or delete the item from the file in the manner prescribed by Section
+1681i(a)(5) within the statutory period; (3) [defendant’s] noncompliance
+was negligent or willful; (4) [plaintiff] suffered injury; and (5) [plaintiff’s]
+injury was caused by [defendant ’s] failure to reinvestigate and record
+the current status of the disputed information or delete the item from
+the file.
+Beard, 2023 WL 10554729, at *4 (alterations in original) (quoting Hammer v. Equifax
+Info. Servs., LLC, No. 18-1502, 2019 WL 7602463, at *2 (N.D. Tex. Jan. 16, 2019)).
+
+39 R. Doc. No. 32 ¶ 71; see also id. ¶¶ 78, 84.
+40 Id. ¶ 84; see also id. ¶¶ 71, 78.
+41 Id. ¶¶ 76, 83.
+Case 2:25-cv-01902-LMA-KWR     Document 64     Filed 06/26/26     Page 13 of 25
+14
+Similarly, to state a claim pursuant to § 1681e(b), plaintiff “must adequately
+allege that:  (1) inaccurate information was included in her credit report; (2) the
+inaccuracy was due to [the CRA’s] failure to follow reasonable procedures to assure
+maximum possible accuracy; (3) [she] suffered injury; and (4) [her] injury was caused
+by the inclusion of the inaccurate entry.” Huggins v. Trans Union, LLC, No. 21-02418,
+2023 WL 3361202 , at *3 (N.D. Tex. May 10, 2023)  (citing Hammer, 2019 WL
+7602463).
+A threshold requirement for a plaintiff  asserting claims pursuant to either
+§ 1681e(b) or § 1681i is establishing that there was an inaccuracy in the information
+the defendant CRA reported. See Reyes v. Equifax Info. Servs., L.L.C., 140 F.4th 279,
+286 (5th Cir. 2025); Hammer v. Equifax Info. Servs., L.L.C. , 974 F.3d 564 , 568 (5th
+Cir. 2020). Plaintiff’s complaint alleges five discernible inaccuracies in support of her
+FCRA claims. She claims,  with respect to her alleged obligation to EPIC,  that the
+CRAs (1) conveyed  in a misleading way  the nature of her debt as a “promissory
+note”;42 (2) omitted or inaccurately reported facts regarding the “status” and “amount
+of the alleged obligation”;43 and (3) inaccurately reported her payment history on the
+debt.44 She also alleges that Experian inaccurately reported that (4) “the [EPIC]
+account [was] charged off while simultaneously updating balances through May 31,
+2024,” and (5) “that the creditor was unable to locate [her] from December 31, 2019
+
+42 Id. ¶¶ 28, 40, 67.
+43 Id. ¶¶ 40, 67.
+44 Id. ¶ 67.
+Case 2:25-cv-01902-LMA-KWR     Document 64     Filed 06/26/26     Page 14 of 25
+15
+through May 31, 2024. ”45 Plaintiff claims that she disputed these inaccuracies with
+the CRAs.46
+Courts may find information inaccurate pursuant to the FCRA “either because
+it is patently incorrect, or because it is misleading in such a way and to such an extent
+that it can be expected to adversely affect credit decisions.” Sepulvado v. CSC Credit
+Servs., Inc., 158 F.3d 890, 895 (5th Cir. 1998). “Courts use an ‘objectively reasonable’
+interpretation of the credit report to determine if it is accurate under the FCRA  . . .
+[i]n sum, a credit report contains inaccurate information if it is ‘factually incorrect,
+objectively likely to mislead its intended user, or both.’” Thomas v. Transunion, LLC,
+No. 21 -2241, 2022 WL 1288733 , *3  (E.D. La. Apr. 29, 2022)  (Ashe, J.)  (quoting
+Erickson v. First Advantage Background Servs. Corp., 981 F.3d 1246, 1252 (11th Cir.
+2020)). “[I]f an alleged inaccuracy ‘evades objective verification ’—like inaccuracies
+that turn on legal disputes —it is not cognizable under the FCRA. ” Reyes, 140 F.4th
+at 288 (citing Mader v. Experian Info Sols., Inc., 56 F.4th 264, 267 (2d Cir. 2023)).
+The CRAs argue that the first, second, and third  inaccuracies that plaintiff
+alleges are insufficient to support her FCRA claims against them because  they are
+conclusory and lacking sufficient factual detail, are not objectively verifiable, and
+should not be brought against the CRAs but against the furnisher, EPIC.47 The Court
+agrees.
+
+45 Id. ¶ 82.
+46 See generally id.
+47 Id. at 8–10.
+Case 2:25-cv-01902-LMA-KWR     Document 64     Filed 06/26/26     Page 15 of 25
+16
+First, to the extent plaintiff objects to the description of her obligation to EPIC
+as a “promissory note” because it is in reality a “retail installment contract,” such a
+categorization is not facially inaccurate. Financing agreements for the purchase of a
+vehicle may sometimes be referred to as a “retail installment contract ” or a
+“promissory note.” See, e.g., Myles v. Gen. Motors Acceptance Corp., No. 97-2030, 1998
+WL 158483 (E.D. La. Apr. 1, 1998)  (Clement, J.) (using “promissory note retail
+installment contract ,” “retail installment contract ,” and “promissory note ” in
+reference to the same financing agreement). Beyond general conclusory statement s
+that it was false ,48 plaintiff has not alleged any facts detailing how referring to her
+retail installment contract  as a promissory note  was inaccurate or misleading.
+Additionally, to the extent plaintiff objects to referring to the agreement as a
+promissory note because it entails a legal obligation for the underlying debt, she
+readily admits that the existence of such an obligation on her account was a legal
+issue “in litigation.”49 As such, her first alleged inaccuracy is insufficient to support
+an FCRA claim against the CRAs.
+Plaintiff also alleges, without providing additional detail with respect to what
+specific information she disputed as inaccurate, that the CRAs inaccurately reported
+the status, amount, and payment history of her obligation to EPIC. 50 However,
+
+48 See R. Doc. No 32 ¶¶ 2, 28, 44.
+49 Id. ¶ 68.
+50 Plaintiff also argues that Trans Union ultimately deleting EPIC tradelines is
+indicative that an objectively verifiable inaccuracy existed in her report prior to the
+deletion. Id. ¶ 71. However, the fact that Trans Union ultimately decided to delete
+the tradelines is not determinative that an inaccuracy existed prior to that decision
+and plaintiff does not provide any facts allowing the Court to infer otherwise.
+Case 2:25-cv-01902-LMA-KWR     Document 64     Filed 06/26/26     Page 16 of 25
+17
+without specific facts detailing the alleged inaccuracies with respect to the status,
+amount, and payment history of the EPIC tradeline in her credit report, her
+complaint is insufficient to support a cause of action pursuant to §§ 1681i and
+1681e(b). See Burches v. Equifax Info. Servs., LLC, No. 25-804, 2026 WL 1413072, *5
+(E.D. La. May 20, 2026)  (Morgan, J.)  (finding that because the plaintiff had only
+asserted inaccuracies such as “date opened, balance, account status, payment history,
+charge-off information, and creditor name ” without further detail, the plaintiff had
+“failed to state a cause of action under the FCRA”); see also Cruel v. Experian, No. 22-
+5236, 2023 WL 4140828, at *3 (E.D. Pa. June 22, 2023)  (“Plaintiff does not provide
+any details regarding what items on their credit reports were inaccurate or negative
+. . . Plaintiff alleges additional facts in their (sic) response . . . that Defendants report
+inaccurate and/or inconsistent information regarding Plaintiff ’s name, the name of
+Plaintiff’s employer, dates accounts were opened, and payment history.  Even if the
+Court accepts the response in opposition as pleaded facts, Plaintiff still fails to
+sufficiently state a claim.” (internal citations omitted)).
+Additionally, to the extent the inaccuracies that plaintiff complains of are
+derivative of her disputes regarding the legitimacy of the state court default judgment
+and collection activities against her, or that the inaccuracies in her report stem from
+misconduct of the non-CRA defendants, such disputes are not for the CRAs to resolve.
+“The FCRA expects consumers to dispute the validity of a debt with the furnisher of
+the information or append a note to their credit report to show the claim is disputed.”
+See Reyes, 140 F.4th at 287 (quoting Wright v. Experian Info. Sols., Inc. , 805 F.3d
+Case 2:25-cv-01902-LMA-KWR     Document 64     Filed 06/26/26     Page 17 of 25
+18
+1232, 1244 (10th Cir. 2015)). “Inaccuracies that are objectively and readily verifiable
+do not include claims of tortious conduct that require a furnisher to evaluate the
+subjective nature of the parties ’ actions—such as claims of fraud or
+retaliation.”  Roberts v. Carter -Young, Inc. , 131 F.4th 241, 251 (4th Cir. 2025) .
+Furthermore, “[a] dispute that . . . requires credibility determinations and quasi -
+discovery isn’t” an objective and verifiable inaccuracy supporting a cause of action
+pursuant to the FCRA. Id.
+Accordingly, plaintiff has failed to surmount the initial threshold necessary to
+establish her §§ 1681i and 1681e(b) claims with respect to the first, second, and third
+inaccuracies alleged against the CRAs in her complaint.
+Plaintiff also asserts that the CRAs failed to conduct reasonable investigations
+to verify the alleged inaccuracies, and specifically alleges that Equifax and Experian
+violated § 1681i(a)(7) by failing to provide descriptions of the processes they used to
+investigate the disputed information.
+Plaintiff readily admits that the CRAs contacted the information furnisher to
+verify the accuracy of the information she disputed. 51 As she acknowledges that the
+CRAs did take steps to verify the accuracy of the information she disputed, the
+remaining question is whether simply alleging that a CRA ’s investigation was
+unreasonable because it did not remove the  disputed information from her credit
+report supports a § 1681i cause of action. It does not. See Kennedy v. Victoria’s Secret
+Stores, Inc., No. 03-2691, 2004 WL 414808, at *4 (E.D. La. Mar. 3, 2004) (holding that
+
+51 R. Doc. No. 32 ¶¶ 67–68, 75–76, 83.
+Case 2:25-cv-01902-LMA-KWR     Document 64     Filed 06/26/26     Page 18 of 25
+19
+simply alleging that a CRA did not reasonably investigate a dispute because the
+disputed information remained on her credit report was insufficient to support the
+plaintiff’s § 1681i claim). Additionally, the Fifth Circuit has found that, absent notice
+to the CRA of a need to employ procedures beyond furnisher verification, it is not
+facially unreasonable for the CRA to rely on the furnisher to verify disputed
+information. See Barron v. Equifax Info. Servs., L.L.C., 802 F. App’x 161, 162–63 (5th
+Cir. 2020) . Here, plaintiff neither details how  the CRAs investigation was
+unreasonable, nor does she allege that the CRAs were on notice that verification
+beyond outreach to the furnisher was necessary. As such, she has failed to adequately
+plead a cause of action for a failure to conduct a reasonable investigation pursuant to
+§ 1681i.
+Plaintiff’s claims against Equifax and Experian for violations of § 1681i(a)(7)
+fail for similar reasons. Section 1681i(a)(7) requires a CRA to provide, “by not later
+than 15 days after receiving a request from the consumer,”
+a description of the procedure used to determine the accuracy and
+completeness of the information shall be provided to the consumer by
+the agency, including the business name and address of any furnisher
+of information contacted in connection with such inf ormation and the
+telephone number of such furnisher, if reasonably available.
+§§ 1681i(a)(6)(B)(iii), 1681i(a)(7). Plaintiff ’s complaint is self -defeating with respect
+to her § 1681i(a)(7) claims because, as discussed, she readily admits that Equifax and
+Experian informed her that they contacted the furnisher to verify the disputed
+information.52 As she has not alleged that the CRAs  responded untimely to her
+
+52 Id. ¶¶ 75–76, 83.
+Case 2:25-cv-01902-LMA-KWR     Document 64     Filed 06/26/26     Page 19 of 25
+20
+request for a description of their verification process, or failed to provide the furnisher
+information the act requires,  she has failed to  plausibly plead that Equifax and
+Experian violated § 1681i(a)(7).
+Comparatively, plaintiff’s §§ 1681i and  1681e(b) claims against Experian —
+predicated on specific factual inaccuracies—survive. Her allegations, that Experian
+inaccurately reported that her  “account [was] charged off while simultaneously
+updating balances through May 31, 2024” and “that [EPIC] was unable to locate [her]
+from December 31, 2019 through May 31, 2024 ,”53 include greater factual specificity
+and reference to easily verifiable factual inaccuracies than those she broadly alleges
+elsewhere in her complaint. Additionally, Trans Union ’s motion to dismiss , which
+Experian joined, did not address these claims and Experian has not otherwise filed
+its own motion to dismiss. As such, plaintiff ’s §§ 1681i and 1681e(b) claims against
+Experian, with respect to these specific inaccuracies, may proceed.
+C. Count III – Abuse of Process
+The third count of plaintiff ’s complaint, alleged against Johnson, EPIC, and
+VJD, claims a cause of action pursuant to Louisiana law  for abuse of process  with
+respect to the state court default judgment and associated wage garnishment actions
+against her.
+Plaintiff asserts that Johnson, EPIC, and VJD “pursued default judgment and
+subsequent enforcement activity while knowingly omitting material facts  . . . [and]
+presented filings to the court that created a false and misleading impression of the
+
+53 Id. ¶ 82.
+Case 2:25-cv-01902-LMA-KWR     Document 64     Filed 06/26/26     Page 20 of 25
+21
+validity and amount of the debt .”54 She also states that “misuse of judicial process
+was undertaken to obtain collection leverage and enforcement advantages to which
+they were not entitled .”55 Johnson, EPIC, and VJD disagree with plaintiff ’s
+characterization of the state court proceedings and argue that she has failed to
+sufficiently plead a cause of action for abuse of process.56 These defendants also assert
+that, to their knowledge , there is “no cause of action for [abuse of process] in
+Louisiana.”57
+ “Abuse of process involves the misuse of a process already legally issued
+whereby a party attempts to obtain a result not proper under the law.” Sream, Inc. v.
+Superior Disc., LLC, No. 17-8177, 2019 WL 2124887 , at *6 (E.D. La. May 15, 2019)
+(Morgan, J.). In Louisiana, a buse of process “has two essential elements: (1) the
+existence of an ulterior purpose and (2) a willful act in the use of the process not
+proper in the regular prosecution of the proceeding. ” Id. (quoting No Drama, LLC v.
+Caluda, No. 15-211, 177 So.3d 747, 751 (La. App. 5 Cir. 2015)).
+Although Johnson, EPIC, and VJD are mistaken regarding the existence of an
+abuse of process cause of action in Louisiana, plaintiff has nevertheless failed to state
+a claim for the same. Taking or threatening legal action to collect a debt is not
+considered an abuse of process or acting with an “ulterior purpose” in Louisiana. See
+Harvey v. Caesars Ent. Operating Co., Inc., 790 F. App’x 582, 591–92 (5th Cir. 2019);
+
+54 R. Doc. No 32 ¶ 87.
+55 Id. ¶ 88.
+56 R. Doc. No. 42-1, at 3–4.
+57 Id. at 3.
+Case 2:25-cv-01902-LMA-KWR     Document 64     Filed 06/26/26     Page 21 of 25
+22
+see also Graham v. Foret, 818 F. Supp. 175, 178 (E.D. La. 1992) (“[A]s a matter of law
+. . . there can be no ‘ulterior purpose’ in the attempt to collect money owed.” (quoting
+Owl Constr. Co. v. Ronald Adams Contractor, Inc. , 642 F.  Supp. 475, 478 (E.D. La.
+1986))). Similarly, allegations that a party “‘wrongfully assert[ed]’ claims” during the
+course of legal proceedings are not indicative of an “irregularity in the process itself
+or an act not proper in the regular prosecution of the proceeding” because, in essence,
+plaintiff’s complaint is “not based on any perversion of any process but simply the
+filing of the suit.” Sream, Inc., 2019 WL 2124887, at *8 (citations omitted).
+ Plaintiff’s abuse of process claim is predicated on the institution of a  legal
+process to collect on a debt that she acknowledges exists ,58 and she has not alleged
+that the collection activities instituted against her involved a wrongful act or a use of
+the process not proper in the regular prosecution of the proceeding.  Accordingly,
+plaintiff has failed to  sufficiently allege the elements of an abuse of process claim
+against Johnson, EPIC, and VJD.
+D. Amendment of Pleadings
+In her response to VJD’s motion to dismiss, plaintiff requests that she be
+granted leave to amend if the Court identifies any deficiencies in her complaint.59
+Federal Rule of Civil Procedure 15(a)  provides that leave to amend pleadings “shall
+be freely given when justice so requires.” “A formal motion is not always required, so
+
+58 Although plaintiff has indicated that she may disagree with how the balance of her
+debt was calculated, she admits that a retail installment contract did exist. R. Doc.
+No. 32 ¶ 2.
+59 R. Doc. No. 45, at 4.
+Case 2:25-cv-01902-LMA-KWR     Document 64     Filed 06/26/26     Page 22 of 25
+23
+long as the requesting party has set forth with particularity the grounds for the
+amendment and the relief sought. ” United States ex rel. Willard v. Humana Health
+Plan of Tex. Inc., 336 F.3d 375, 387 (5th Cir. 2003). However, “[a] bare request in an
+opposition to a motion to dismiss—without any indication of the particular grounds
+on which the amendment is sought —does not constitute a motion within the
+contemplation of Rule 15(a).” Id. (quoting Confederate Mem’l Ass’n, Inc. v. Hines, 995
+F.2d 295, 299 (D.C. Cir. 1993)).
+Although Rule 15 “evinces a bias in favor of granting leave to amend,” it is not
+automatic. Martin’s Herend Imps., Inc. v. Diamond & Gem Trading U.S.A. Co. , 195
+F.3d 765, 770 (5th Cir. 1999); United States ex rel. Lin v. Mayfield, 773 F. App’x 789,
+790 (5th Cir. 2019). A decision to grant leave to amend is within the discretion of the
+trial court. Mayfield, 773 F. App’x at 790. And a trial court may deny a request, even
+when it is made within the deadline set by a court for seeking leave to
+amend. See Mason v. Fremont Inv. & Loan , 671 F. App ’x 880, 883 (5th Cir.
+2016) (differentiating the liberal Rule 15 standard for leave to amend, when a request
+is made before the court ’s deadline for requesting leave to amend, from the more
+stringent Rule 16 standard, requiring a showing of good cause if a request is made
+after the court’s deadline).
+Pursuant to Rule 15, a “district court must possess a ‘substantial reason’ to
+deny a request for leave to amend. ” Id. (quoting Smith v. EMC Corp., 393 F.3d 590,
+595 (5th Cir. 2004)). These reasons include “undue delay, bad faith or dilatory motive
+on the part of the movant, repeated failure to cure deficiencies by amendments
+Case 2:25-cv-01902-LMA-KWR     Document 64     Filed 06/26/26     Page 23 of 25
+24
+previously allowed, undue prejudice to the opposing party by virtue of allowance of
+the amendment, [and]  futility of amendment. ” Foman v. Davis , 371 U.S. 178, 182
+(1962). “[A]n amended complaint is  futile ‘if the complaint as amended would be
+subject to dismissal.’” Rohi v. Brewer (In re ABC Dentistry, P.A. ), 978 F.3d 323, 325
+(5th Cir. 2020) (quoting Varela v. Gonzales , 773 F.3d 704, 707 (5th Cir. 2014)).
+Futility is evaluated “under the same standards as a dismissal under  Rule
+12(b)(6).” Butler v. Denka Performance Elastomer, L.L.C., 16 F.4th 427, 437 (5th Cir.
+2021) (citing Villarreal v. Wells Fargo Bank, N.A., 814 F.3d 763, 766 (5th Cir. 2016)).
+Plaintiff has already received one opportunity to amend her complaint with
+particular facts to support her claims and she has failed to do so. Her second petition
+to amend her complaint provides this Court with only a bare request to amend if the
+Court finds that any aspects of her claims are insufficiently pled. She does not apprise
+the Court of the way in which she would rectify any deficiencies identified. Courts
+have frequently denied leave to amend on similarly bare requests. See, e.g. ,
+Kovalchuk v. Wi lmington Sav. Fund Socy. , No. 21 -40281, 2021 WL 5119705, at *2
+(5th Cir. Nov. 3, 2021) (affirming the district court ’s denial of a request for leave to
+amend for being insufficiently particular when it asked to amend “any other cause of
+action which the Court determines should be dismissed ”); U.S. ex rel. Doe v. Dow
+Chem. Co., 343 F.3d 325, 331 (5th Cir. 2003) (affirming the district court decision to
+deny leave to amend for being insufficiently particular when the plaintiff asked to
+“file amended pleadings  adding additional plaintiffs and facts as allowed by law ”).
+The Court will therefore deny plaintiff’s request for leave to amend.
+Case 2:25-cv-01902-LMA-KWR     Document 64     Filed 06/26/26     Page 24 of 25
+25
+IV. CONCLUSION
+ For the foregoing reasons,
+ IT IS ORDERED  that Trans Union’s motion60 to dismiss is DENIED with
+respect to plaintiff’s claims alleging that Experian inaccurately reported that her
+“account [was] charged off while simultaneously updating balances through May 31,
+2024” and “that [EPIC] was unable to locate [her] from December 31, 2019 through
+May 31, 2024.”61 Trans Union’s motion to dismiss is GRANTED with respect to all
+claims alleged against defendants Trans Union and Equifax , and such claims are
+DISMISSED WITH PREJUDICE.
+ IT IS FURTHER ORDERED that Johnson, EPIC, and VJD’s joint motion62
+to dismiss is GRANTED with respect to count III of plaintiff ’s first amended
+complaint, and DENIED with respect to counts I and II. Count III of plaintiff ’s
+complaint is DISMISSED WITH PREJUDICE.63
+ New Orleans, Louisiana, June 26, 2026.
+
+______________________________________
+         LANCE M. AFRICK
+       UNITED STATES DISTRICT JUDGE
+
+60 R. Doc. No. 36.
+61 R. Doc. No 32 ¶ 82.
+62 R. Doc. No. 42.
+63 As count III was the only claim alleged against Brittany Johnson, all claims against
+her have been dismissed.
+Case 2:25-cv-01902-LMA-KWR     Document 64     Filed 06/26/26     Page 25 of 25
