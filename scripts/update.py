@@ -49,6 +49,7 @@ CL_SITE = "https://www.courtlistener.com"
 CL_CALL_BUDGET = 360    # absolute ceiling per run; the real budget comes from CourtListener's limits (see limits())
 SEARCH_RESERVE = 12     # calls a search for new entries needs; a run that cannot afford one saves its calls for the next
 LINK_RECHECK_DAYS = 7
+OPINION_LOOKBACK_DAYS = 5   # written opinions are marked free on PACER a day or more after they are filed
 RUN_SECONDS = 11 * 60   # CourtListener calls stop after this, so the run saves well inside the workflow's 20-minute timeout
 MAX_FAILURES = 5        # consecutive failed lookups before a run gives up on CourtListener for the rest of the run
 RETRY_AFTER_MAX = 60    # longest wait honored on an HTTP 429
@@ -699,10 +700,15 @@ def main() -> int:
                                 "when": i["when"].isoformat() if i["when"] else "", "date": date})
 
     # --- Written opinions (free on PACER)
+    # CourtListener records an entry when the RSS feed shows it (date_created) but marks it free on PACER only when
+    # it reads the court's Written Opinions Report, usually the next morning (date_modified). So the query goes by
+    # date_modified and looks back OPINION_LOOKBACK_DAYS before the window; opinions already on file are skipped.
     added_opinions = []
+    order_dates = {(o["case"], o["doc"]): o["date"] for o in orders + added_orders}
+    op_since = (dt.date.fromisoformat(window_from) - dt.timedelta(days=OPINION_LOOKBACK_DAYS)).isoformat()
     docs = list(cl.paged("recap-documents/", {
         "is_free_on_pacer": "true", "docket_entry__docket__court": "laed",
-        "date_created__gte": f"{window_from}T00:00:00-05:00", "order_by": "date_created",
+        "date_modified__gte": f"{op_since}T00:00:00-05:00", "order_by": "date_modified",
         "fields": "id,description,document_number,absolute_url,filepath_local,is_available,page_count,date_created"})) if do_search else []
     missing = set()
     for r in docs:
@@ -731,7 +737,7 @@ def main() -> int:
             continue
         ent = cl_entries.get(key)
         created = to_central(r.get("date_created"))
-        date = (ent or {}).get("date") or (created.date().isoformat() if created else today)
+        date = (ent or {}).get("date") or order_dates.get(key) or (created.date().isoformat() if created else today)
         judge = info["judge"] or case_judge.get(info["case"], "")
         if judge and not allowed(judge, date):
             continue
