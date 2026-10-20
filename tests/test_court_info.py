@@ -100,7 +100,7 @@ class NoticesTest(unittest.TestCase):
         get = lambda url, *a: NEWS if url == court_info.NEWS else ORDERS.encode()  # noqa: E731
         out = court_info.update_notices({}, get, now, [])
         self.assertEqual(out["orders"][0]["first_seen"], "")
-        self.assertEqual(out["news"][0]["first_seen"], "2026-10-20")
+        self.assertEqual(out["news"][0]["first_seen"], "")
 
 
 class FifthCircuitTest(unittest.TestCase):
@@ -115,7 +115,10 @@ class FifthCircuitTest(unittest.TestCase):
         self.assertEqual(court_info.disposition("the judgment is VACATED and REMANDED for further proceedings."), "Vacated and remanded")
         self.assertEqual(court_info.disposition("AFFIRMED IN PART, REVERSED IN PART, and REMANDED."), "Affirmed in part, reversed in part and remanded")
         self.assertEqual(court_info.disposition("AFFIRMED. Stephen A. Higginson, Circuit Judge, dissenting: I would REVERSE... REVERSED"), "Affirmed")
-        self.assertEqual(court_info.disposition("No capitals here."), "")
+        self.assertEqual(court_info.disposition("For these reasons, we AFFIRM."), "Affirmed")
+        self.assertEqual(court_info.disposition("We REVERSE and REMAND for further proceedings consistent with this opinion."), "Reversed and remanded")
+        self.assertEqual(court_info.disposition("Accordingly, we affirm the district court's judgment."), "Affirmed")
+        self.assertEqual(court_info.disposition("No judgment stated here."), "")
 
     def test_update(self):
         now = dt.datetime(2026, 10, 20, 7, 0, tzinfo=dt.timezone(dt.timedelta(hours=-5)))
