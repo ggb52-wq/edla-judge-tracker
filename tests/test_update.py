@@ -105,6 +105,7 @@ class UpdateTest(unittest.TestCase):
         (self.tmp / "data/outcomes.json").write_text("[\n\n]\n")
         (self.tmp / "data/feed.json").unlink(missing_ok=True)
         (self.tmp / "data/govinfo.json").unlink(missing_ok=True)
+        shutil.rmtree(self.tmp / "data/imports", ignore_errors=True)   # nor the owner's saved PACER reports
         # Nor the live run log's CourtListener budget, pauses, or pending items.
         runs = [{k: v for k, v in r.items() if k not in ("cl_calls", "cl_paused_until", "searched", "pending_items")}
                 for r in json.loads((self.tmp / "data/runs.json").read_text())]
