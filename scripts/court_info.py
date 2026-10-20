@@ -191,6 +191,7 @@ def disposition(text: str) -> str:
     """The judgment line in capitals ('AFFIRMED.', 'VACATED and REMANDED.', 'we DISMISS the appeal'), from the
     majority opinion: text after a 'dissenting:' or 'concurring:' heading is left out."""
     body = re.split(r"Circuit\s+Judge,\s+(?:dissenting|concurring)", text or "", maxsplit=1)[0]
+    body = re.sub(r"\bON\s+REMAND\s+FROM\b", " ", body)  # a heading on opinions after remand, not the judgment
     words = [(m.group(1), bool(m.group(2))) for m in DISPOSITION_RE.finditer(body)]
     if not words:  # some opinions state it in lower case at the end: "we affirm the district court's judgment"
         words = [(m.group(1).upper(), False) for m in LOWER_RE.finditer(body[-3000:])][-2:]

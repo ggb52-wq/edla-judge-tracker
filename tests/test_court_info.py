@@ -119,6 +119,7 @@ class FifthCircuitTest(unittest.TestCase):
         self.assertEqual(court_info.disposition("We REVERSE and REMAND for further proceedings consistent with this opinion."), "Reversed and remanded")
         self.assertEqual(court_info.disposition("Accordingly, we affirm the district court's judgment."), "Affirmed")
         self.assertEqual(court_info.disposition("No judgment stated here."), "")
+        self.assertEqual(court_info.disposition("ON REMAND FROM THE SUPREME COURT ... We once again enforce the waiver and DISMISS the appeal."), "Dismissed")
 
     def test_update(self):
         now = dt.datetime(2026, 10, 20, 7, 0, tzinfo=dt.timezone(dt.timedelta(hours=-5)))

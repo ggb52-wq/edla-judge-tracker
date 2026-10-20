@@ -18,6 +18,7 @@ from __future__ import annotations
 
 import datetime as dt
 import email.utils
+import html
 import json
 import os
 import re
@@ -293,7 +294,7 @@ def fetch_rss(note: list[str]) -> list[dict]:
         return []
     items = []
     for it in root.iter("item"):
-        title = (it.findtext("title") or "").strip()
+        title = html.unescape((it.findtext("title") or "").strip())  # the feed escapes some characters twice ("Henry&#039;s")
         desc = it.findtext("description") or ""
         case, kind = base_case(title)
         bracket = re.search(r"\[([^\]]+)\]", desc)

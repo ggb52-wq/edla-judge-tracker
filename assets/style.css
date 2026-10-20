@@ -545,6 +545,25 @@ a.tag:hover { border-color: var(--link); }
 .creq .chips .quick { display: inline-flex; align-items: center; text-decoration: none; }
 #c-cmp-kinds:empty { display: none; }
 
+/* ---------------------------------------------------------------- court information */
+.cev.src-subday { border-left-color: var(--court); border-left-style: dotted; background: transparent; color: var(--ink-3); }
+.swatch.src-subday { border-left-color: var(--court); border-left-style: dotted; background: transparent; }
+.cal-list li.subdays { background: var(--raise); }
+.feed .h .kind { margin-right: 2px; }
+.kind.k-notice { color: var(--ink-2); }
+.feed a.nt { color: var(--ink); text-decoration: none; font-size: 13px; }
+.feed a.nt:hover { color: var(--link); text-decoration: underline; }
+.feed .h b { font-weight: 600; font-size: 13px; }
+.feed .c a.case { margin-left: 2px; }
+.counsel .cn-group { display: grid; grid-template-columns: 74px minmax(0, 1fr); gap: 10px; padding: 6px 0; border-bottom: 1px solid var(--line); font-size: 12.5px; color: var(--ink-2); }
+.counsel .cn-group b { font: 500 10px/1.8 var(--mono); text-transform: uppercase; letter-spacing: .08em; color: var(--ink-3); }
+.counsel .foot-note { margin-top: 8px; }
+#c-facts, #c-reassigned { font: 12px/1.5 var(--mono); }
+.feed li.grp { display: flex; justify-content: space-between; gap: 12px; padding: 7px 14px; background: var(--raise); border-bottom: 1px solid var(--line-2); font: 600 11px/1.4 var(--mono); text-transform: uppercase; letter-spacing: .08em; color: var(--ink-2); }
+.feed li.grp:hover { background: var(--raise); }
+.feed li.grp .n { font-weight: 400; color: var(--ink-3); text-transform: none; letter-spacing: 0; }
+.feed.notices .c, #nt-appeals .c, #c-appeals .c { white-space: normal; }
+
 /* ---------------------------------------------------------------- responsive */
 @media (max-width: 1240px) and (min-width: 981px) { .nav a { padding: 0 7px; font-size: 12.5px; } .top .omni { min-width: 170px; } }
 @media (max-width: 1100px) and (min-width: 981px) { .brand-name { display: none; } }
@@ -558,7 +577,7 @@ a.tag:hover { border-color: var(--link); }
   /* a case page on one column: motions, then settings and requirements, then the long docket list */
   #page-case .jgrid { display: flex; flex-direction: column; }
   #page-case .jgrid > .stack { display: contents; }
-  #c-motions { order: 1; } #c-cal { order: 2; } #c-req-panel { order: 3; } #c-docket { order: 4; } #c-cmp-panel { order: 5; }
+  #c-motions { order: 1; } #c-cal { order: 2; } #c-appeals-panel { order: 3; } #c-counsel-panel { order: 4; } #c-req-panel { order: 5; } #c-docket { order: 6; } #c-cmp-panel { order: 7; }
 }
 @media (max-width: 980px) {
   .top-in { flex-wrap: wrap; height: auto; padding-top: 8px; padding-bottom: 8px; gap: 8px 14px; }

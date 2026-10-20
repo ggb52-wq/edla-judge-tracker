@@ -78,8 +78,8 @@
   const recordLink = (o) => REPO + '/issues/new?template=outcome.yml&title=' + encodeURIComponent('Outcome: ' + o.case + ' doc ' + o.doc)
     + '&case=' + encodeURIComponent(o.case) + '&doc=' + encodeURIComponent(o.doc);
 
-  const PAGES = ['judges', 'judge', 'compare', 'cases', 'case', 'activity', 'calendar', 'opinions', 'motions', 'rules', 'court', 'log'];
-  const NAV = { judges: 'judges', judge: 'judges', compare: 'judges', cases: 'cases', case: 'cases', activity: 'activity', calendar: 'calendar', opinions: 'opinions', motions: 'motions', rules: 'rules', court: 'court', log: '' };
+  const PAGES = ['judges', 'judge', 'compare', 'cases', 'case', 'notices', 'activity', 'calendar', 'opinions', 'motions', 'rules', 'court', 'log'];
+  const NAV = { judges: 'judges', judge: 'judges', compare: 'judges', cases: 'cases', case: 'cases', notices: '', activity: 'activity', calendar: 'calendar', opinions: 'opinions', motions: 'motions', rules: 'rules', court: 'court', log: '' };
   const VIEWS = [['orders', 'Civil orders'], ['opinions', 'Written opinions'], ['outcomes', 'Motion outcomes'], ['weekdays', 'Weekdays'], ['hours', 'Time of day']];
   // Addresses from the earlier, tabbed layout still open the matching page.
   const LEGACY = { overview: ['judges'], orders: ['court', 'orders'], outcomes: ['court', 'outcomes'], finder: ['opinions'] };
@@ -590,7 +590,7 @@
       kpi({ label: 'Civil orders', value: fmt.int(T.orders), sub: fmt.d1(T.perDay) + ' per working day since ' + fmtShort(S.since.orders), href: hashFor('court', { view: 'orders' }) }),
       kpi({ label: 'Data through', value: fmtShort(S.through), sub: lastRunText(), href: '#log' }),
     );
-    drawHomeCases();
+    drawHomeCases(); drawHomeNotices();
     $('home-act').classList.add('withjudge');
     $('home-act').replaceChildren(...actItems(activity().rows.slice(0, 8), { judge: true }));
     const recent = recentJudges().filter((c) => S.names[c]);
@@ -1071,12 +1071,13 @@
   let actCache = null;
   // Docket entries from every source, merged: the feed, orders, written opinions (with their outcome and links), and
   // motions. keep(row) picks the rows (by date for the Activity page, by case for a case page).
+  const unEntity = (t) => (t && t.includes('&') ? new DOMParser().parseFromString(t, 'text/html').documentElement.textContent : t);
   function mergeEntries(keep) {
     const D = state.data; const S = state.stats; const feed = D.feed || [];
     const rows = new Map();
     const keyOf = (r) => (r.doc ? r.case + '|' + r.doc : r.case + '||' + r.event + '|' + r.date + (r.time || ''));
     feed.forEach((f) => {
-      const r = { date: f.at.slice(0, 10), time: f.at.slice(11, 16), case: f.case, doc: f.doc, event: f.event, title: f.title, judge: f.judge, feed: true };
+      const r = { date: f.at.slice(0, 10), time: f.at.slice(11, 16), case: f.case, doc: f.doc, event: f.event, title: unEntity(f.title), judge: f.judge, feed: true };
       if (keep(r) && !rows.has(keyOf(r))) rows.set(keyOf(r), r);
     });
     D.orders.forEach((o) => {
@@ -1165,7 +1166,7 @@
   // Sources: data/hearings.json (the court's seven-day calendar and proceedings set in docket text), proceedings held
   // (minute entries in the feed and orders), and motions set for submission. A proceeding on the court's calendar and
   // in a docket entry shows once.
-  const CAL_SRC = { court: 'Court calendar', docket: 'Set in a docket entry', held: 'Held (minute entry)', subs: 'Motions set for submission' };
+  const CAL_SRC = { court: 'Court calendar', docket: 'Set in a docket entry', held: 'Held (minute entry)', subs: 'Motions set for submission', subday: 'Civil submission day (section calendar)' };
   const HELD_RE = /^(?:(?:telephone|video|in-person|zoom)\s+)?(?:(?:status|scheduling|pretrial|final pretrial|preliminary|settlement|rule 16|discovery)\s+)?conference$|^motion hearing|^(?:jury|bench|non-jury) trial|^oral argument|^evidentiary hearing|^preliminary injunction hearing/i;
   const SETTING_RE = /set hearings|set\/reset hearings|reset hearings|setting\/resetting hearing|order setting|scheduling order/i;
   const mondayOf = (d) => { const x = utc(d); x.setUTCDate(x.getUTCDate() - ((x.getUTCDay() + 6) % 7)); return iso(x); };
@@ -1204,7 +1205,10 @@
       const [judge, date] = k.split('|');
       return { date, time: '', judge, case: '', short: '', title: '', what: plural(list.length, 'motion') + ' set for submission', room: '', text: list.map((m) => m.case + ' · ' + m.event).join('\n'), src: 'subs', n: list.length };
     });
-    const all = ev.concat(subs).sort((a, b) => (a.date + (a.time || '99') + a.judge).localeCompare(b.date + (b.time || '99') + b.judge));
+    const subdays = Object.entries((D.submission_dates || {}).judges || {}).flatMap(([judge, r]) => (r.dates || []).map((date) => ({
+      date, time: (r.time || '').match(/^(\d{1,2}):(\d\d)\s*([AP])M$/i) ? to24(r.time) : '', judge, case: '', short: '', title: '', what: 'Civil submission day', room: '',
+      text: 'Section ' + r.section + ': motions noticed for this date are submitted to the judge' + (r.time ? ' at ' + r.time : '') + '.', src: 'subday', url: r.url })));
+    const all = ev.concat(subs, subdays).sort((a, b) => (a.date + (a.time || '99') + a.judge).localeCompare(b.date + (b.time || '99') + b.judge));
     const courtDates = hs.filter((h) => h.src === 'court_calendar').map((h) => h.date).sort();
     calCache = { h: hs, feed: D.feed, stats: state.stats, events: all, pending, courtFrom: courtDates[0] || '', courtTo: courtDates[courtDates.length - 1] || '' };
     return calCache;
@@ -1212,7 +1216,7 @@
   function calWeek() {
     const C = state.cal; const E = calEvents();
     const start = C.week || mondayOf(todayIso()); const end = addDays(start, 6);
-    const events = E.events.filter((e) => e.date >= start && e.date <= end && (!C.judge || e.judge === C.judge) && (C.subs || e.src !== 'subs'));
+    const events = E.events.filter((e) => e.date >= start && e.date <= end && (!C.judge || e.judge === C.judge) && (C.subs || (e.src !== 'subs' && e.src !== 'subday')));
     return { start, end, events };
   }
   function calChip(e, opts = {}) {
@@ -1228,6 +1232,7 @@
         : el('span', { className: 'cn', textContent: e.short, style: 'color:var(--ink-2)' }));
     }
     if (e.src === 'subs') { const a = el('a', { className: 'cn', href: hashFor('motions', { mt: { judge: e.judge, view: 'all' } }), textContent: ' list →' }); n.append(a); }
+    if (e.src === 'subday') n.querySelector('.tm') && n.querySelector('.tm').remove();
     return n;
   }
   function renderCalendar() {
@@ -1241,7 +1246,7 @@
     $('cal-next').href = hashFor('calendar', { cal: { ...C, week: addDays(W.start, 7) } });
     $('cal-today').href = hashFor('calendar', { cal: { ...C, week: '' } });
     $('cal-range').textContent = d3.utcFormat('%b %-d')(utc(W.start)) + ' – ' + d3.utcFormat('%b %-d, %Y')(utc(addDays(W.start, 4)));
-    $('cal-legend').replaceChildren(...['court', 'docket', 'held', 'subs'].filter((k) => k !== 'subs' || C.subs).map((k) => el('span', { className: 'ev' }, el('i', { className: 'swatch src-' + k }), CAL_SRC[k])));
+    $('cal-legend').replaceChildren(...['court', 'docket', 'held', 'subday', 'subs'].filter((k) => (k !== 'subs' && k !== 'subday') || C.subs).map((k) => el('span', { className: 'ev' }, el('i', { className: 'swatch src-' + k }), CAL_SRC[k])));
     const today = todayIso();
     const days = d3.range(7).map((i) => addDays(W.start, i)).filter((d, i) => i < 5 || W.events.some((e) => e.date === d));
     const codes = C.judge ? [C.judge] : judgesAlpha().map((j) => j.code);
@@ -1271,16 +1276,18 @@
     $('cal-pending').replaceChildren(...actItems(shownP, { judge: true, empty: 'None in the last two weeks.' }),
       ...(P.length > shownP.length ? [el('li', { className: 'none' }, el('button', { type: 'button', className: 'btn ghost', textContent: 'Show all ' + fmt.int(P.length), onclick: () => { state.calAllPending = true; renderCalendar(); } }))] : []));
     const maxDocket = (state.data.hearings || []).filter((h) => h.src === 'docket_text').map((h) => h.date).sort().pop();
+    drawSubTable();
     $('cal-note').textContent = (E.courtFrom ? `The court's calendar currently covers ${fmtShort(E.courtFrom)} to ${fmtShort(E.courtTo)}; the court notes that some proceedings are left off it. ` : 'The court\'s calendar has not been read yet. ')
       + (maxDocket ? `Settings read from docket text reach ${fmtDate(maxDocket)}. ` : 'Settings read from docket text appear as entries are read. ')
       + 'Weeks beyond the court\'s calendar show only proceedings set in docket text the site has read, so an empty day does not mean the judge has nothing scheduled. Held proceedings come from minute entries; times there are when the clerk entered them. Criminal matters appear only as the court\'s calendar lists them.';
   }
   function drawJudgeCal(code, name) {
     const today = todayIso();
-    const up = calEvents().events.filter((e) => e.judge === code && e.date >= today && e.src !== 'subs').slice(0, 8);
+    const up = calEvents().events.filter((e) => e.judge === code && e.date >= today && e.src !== 'subs' && e.src !== 'subday').slice(0, 8);
     $('j-cal-all').href = hashFor('calendar', { cal: { judge: code } });
     $('j-cal').replaceChildren(...(up.length ? up.map((e) => el('li', {}, el('span', { className: 'when', textContent: d3.utcFormat('%a %-m/%-d')(utc(e.date)) }),
-      el('span', {}, calChip(e)))) : [el('li', {}, el('span', { className: 'none', textContent: `Nothing for Judge ${name} on the court's calendar or in docket entries read so far.` }))]));
+      el('span', {}, calChip(e)))) : [el('li', {}, el('span', { className: 'none', textContent: `Nothing for Judge ${name} on the court's calendar or in docket entries read so far.` }))]),
+      ...subDatesItem(code));
   }
 
   // ------------------------------------------------------------ the judges' requirements, copied from the court's website
@@ -1440,7 +1447,7 @@
     const feedRow = (D.feed || []).find((f) => f.case === id && f.judge);
     const picked = judgePicks()[id] && S.names[judgePicks()[id]] ? judgePicks()[id] : '';
     const known = (info && info.judge) || (feedRow && feedRow.judge) || entries.map((e) => e.judge).find((j) => S.names[j]) || '';
-    const cal = calEvents().events.filter((e) => e.case === id && e.src !== 'subs');
+    const cal = calEvents().events.filter((e) => e.case === id && e.src !== 'subs' && e.src !== 'subday');
     const today = ctToday();
     const out = {
       id, info, entries, judge: known || picked, judgePicked: !known && !!picked, title: (info && info.title) || (entries.find((e) => e.title) || {}).title || (cal.find((e) => e.title) || {}).title || '',
@@ -1583,6 +1590,27 @@
     wbtn.setAttribute('aria-pressed', String(on)); wbtn.textContent = on ? '★ Watching' : '☆ Watch this case';
     wbtn.title = on ? 'Stop watching this case' : 'Keep this case on your list, with new entries marked';
     $('c-cl').href = clCase(id);
+    const K = docketOf(id) || {};
+    const facts = [K.referred ? 'Magistrate Judge ' + K.referred.replace(/^(?:magistrate\s+judge\s+)/i, '') : '', K.nos ? 'Nature of suit: ' + K.nos : '', K.cause ? 'Cause: ' + K.cause : '',
+      K.jury ? 'Jury demand: ' + K.jury : '', K.filed ? 'Filed ' + fmtDate(K.filed) : '', K.terminated ? 'Terminated ' + fmtDate(K.terminated) : ''].filter(Boolean);
+    $('c-facts').textContent = facts.join(' · ');
+    $('c-facts').hidden = !facts.length;
+    const moved = (K.reassigned || []).filter((x) => S.names[x.from] || S.names[x.to]);
+    $('c-reassigned').hidden = !moved.length;
+    $('c-reassigned').textContent = moved.map((x) => 'Reassigned from Judge ' + (S.names[x.from] || x.from) + ' to Judge ' + (S.names[x.to] || x.to) + ' (seen ' + fmtDate(x.date) + ')').join(' · ');
+    const att = K.attorneys || []; const firms = K.firms || []; const parties = K.parties || [];
+    $('c-counsel').replaceChildren(...(att.length || parties.length ? [
+      parties.length ? el('div', { className: 'cn-group' }, el('b', { textContent: 'Parties' }), el('span', { textContent: parties.join(' · ') })) : null,
+      att.length ? el('div', { className: 'cn-group' }, el('b', { textContent: 'Attorneys' }), el('span', { textContent: att.join(' · ') })) : null,
+      firms.length ? el('div', { className: 'cn-group' }, el('b', { textContent: 'Firms' }), el('span', { textContent: firms.join(' · ') })) : null,
+      el('p', { className: 'foot-note', textContent: 'As CourtListener lists them' + (K.seen ? ', read ' + fmtDate(K.seen) : '') + '. CourtListener does not say which attorney represents which party here; check the docket.' })]
+      : [el('p', { className: 'dim', textContent: K.case ? 'CourtListener lists no counsel for this case yet. It has counsel only for dockets someone has bought from PACER with the parties included.' : 'The site has not read this case\'s docket details from CourtListener yet. They are read as the case appears in the site\'s periodic searches.' })]));
+    $('c-cl2').href = K.docket_id ? CL + 'docket/' + K.docket_id + '/' : clCase(id); $('c-cl2').textContent = 'CourtListener ↗';
+    const ap = appealsOf(id);
+    $('c-appeals-panel').hidden = !ap.length;
+    $('c-appeals').replaceChildren(...ap.map((a) => el('li', {}, el('span', { className: 'd', textContent: fmtShort(a.date) }),
+      el('span', { className: 'h' }, el('b', { textContent: a.disposition || 'Decided' }), el('a', { className: 'nt', href: a.pdf, target: '_blank', rel: 'noopener noreferrer', textContent: (a.kind || 'Opinion') + ' ↗' })),
+      el('span', { className: 'c', textContent: 'Fifth Circuit No. ' + a.ca5 + ' · ' + a.caption }))));
     const pending = C.motions.filter((m) => !m.ruled); const decided = C.motions.filter((m) => m.ruled);
     const next = C.upcoming[0];
     const newCount = prev ? C.entries.filter((e) => stampOf(e) > prev).length : 0;
@@ -1637,6 +1665,7 @@
     $('c-cal-list').replaceChildren(...(C.upcoming.length ? C.upcoming.map((e) => settingRow(e, { ics: true }))
       : [el('li', {}, el('span', { className: 'none', textContent: 'No upcoming settings found on the court\'s calendar or in the docket text read so far.' }))]),
       ...(C.held.length ? [el('li', { className: 'day' }, 'Earlier'), ...C.held.slice(0, 5).map((e) => settingRow(e))] : []));
+    $('c-cal-list').append(...(C.judge ? subDatesItem(C.judge) : []));
     const ics = $('c-ics'); ics.hidden = !C.upcoming.length; ics.onclick = () => icsFile(C.upcoming, 'settings-' + id.replace(/:/g, '-'));
     $('c-cal-all').href = hashFor('calendar', { cal: { judge: C.judge } });
 
@@ -1747,6 +1776,75 @@
       n ? el('span', { className: 'badge', textContent: n + ' new' }) : el('span', { className: 'dim', textContent: C.entries.length ? fmtShort(C.entries[0].date) : '' }))));
   }
 
+  // ------------------------------------------------------------ court information: submission days, notices, appeals
+  // data/submission_dates.json (each section's civil submission calendar, read daily), data/notices.json (the court's
+  // news feed and General Orders page), data/appeals.json (Fifth Circuit decisions in civil cases from this court), and
+  // data/dockets.json (docket details from CourtListener: magistrate judge, nature of suit, counsel when listed).
+  const to24 = (t) => { const m = String(t).match(/^(\d{1,2}):(\d\d)\s*([AP])M$/i); if (!m) return ''; const h = (+m[1] % 12) + (m[3].toUpperCase() === 'P' ? 12 : 0); return String(h).padStart(2, '0') + ':' + m[2]; };
+  const subDates = (code) => ((state.data.submission_dates || {}).judges || {})[code] || null;
+  const nextSubDates = (code, n) => { const r = subDates(code); return r ? (r.dates || []).filter((d) => d >= ctToday()).slice(0, n) : []; };
+  function subDatesItem(code) {
+    const r = subDates(code); const next = nextSubDates(code, 4);
+    if (!r || !next.length) return [];
+    return [el('li', { className: 'subdays' }, el('span', { className: 'when', textContent: 'Submission' }),
+      el('span', {}, el('span', { className: 'what', textContent: 'Next civil submission dates: ' + next.map((d) => d3.utcFormat('%b %-d')(utc(d))).join(' · ') }),
+        el('p', { className: 'sub' }, (r.day ? r.day + (r.time ? ', ' + r.time : '') + ' · ' : '') + 'Section ' + r.section + ' · ', el('a', { href: r.url, target: '_blank', rel: 'noopener noreferrer', textContent: 'court\'s list ↗' }))))];
+  }
+  function drawSubTable() {
+    const S = state.stats; const J = (state.data.submission_dates || {}).judges || {};
+    const box = $('cal-subtable'); box.closest('.panel').hidden = !Object.keys(J).length;
+    if (!Object.keys(J).length) return;
+    const head = el('thead', {}, el('tr', {}, ...['Judge', 'Section', 'Day', 'Next civil submission dates', 'Court\'s list'].map((c) => el('th', { textContent: c }))));
+    const body = el('tbody', {}, ...judgesAlpha().filter((j) => J[j.code]).map((j) => { const r = J[j.code];
+      return el('tr', {}, el('td', {}, el('a', { className: 'judge', href: judgeHref(j.code), textContent: j.name })), el('td', { className: 'mono', textContent: r.section }),
+        el('td', { className: 'mono', textContent: ((r.day || '').replace(/s$/, '') || (r.dates && r.dates[0] ? d3.utcFormat('%A')(utc(r.dates[0])) : '')) + (r.time ? ' ' + r.time : '') }),
+        el('td', { className: 'mono', textContent: nextSubDates(j.code, 5).map((d) => d3.utcFormat('%b %-d')(utc(d))).join(' · ') || '—' }),
+        el('td', { className: 'txt' }, el('a', { href: r.url, target: '_blank', rel: 'noopener noreferrer', textContent: 'Open ↗' }))); }));
+    box.replaceChildren(head, body);
+    const upd = Object.values(J).map((r) => r.updated).filter(Boolean)[0];
+    $('cal-sub-note').textContent = 'Each section\'s civil motion submission dates, from the calendars the court posts for each judge' + (upd ? ' (court update ' + upd + ')' : '') + '. Under Local Rule 7.2 a civil motion is noticed for one of these dates. Read once a day; the court\'s list controls.';
+  }
+
+  // Docket details from CourtListener for one case.
+  const docketOf = (id) => (state.data.dockets || []).find((r) => r.case === id) || null;
+  const appealsOf = (id) => ((state.data.appeals || {}).appeals || []).filter((a) => a.case === id);
+
+  // Court notices: news, general orders, and Fifth Circuit decisions, newest first.
+  function noticeRows() {
+    const N = state.data.notices || {};
+    const rows = (N.news || []).map((n) => ({ date: n.date, kind: 'News', title: n.title, url: n.url, sub: n.summary, fresh: n.first_seen }))
+      .concat((N.orders || []).map((o) => ({ date: o.date, kind: 'General order', title: o.title, url: o.url, sub: o.category, fresh: o.first_seen })))
+      .concat(((state.data.appeals || {}).appeals || []).map((a) => ({ date: a.date, kind: 'Fifth Circuit', title: (a.disposition || 'Decided') + ' · ' + a.caption, url: a.pdf,
+        sub: 'No. ' + a.ca5 + ' · ' + (a.kind || 'Opinion') + ' · from ', caseId: a.case })));
+    return rows.filter((r) => r.date).sort((a, b) => b.date.localeCompare(a.date) || a.kind.localeCompare(b.kind));
+  }
+  function noticeItem(r) {
+    return el('li', {}, el('span', { className: 'd', textContent: fmtShort(r.date) }),
+      el('span', { className: 'h' }, el('span', { className: 'kind k-notice', textContent: r.kind }),
+        el('a', { className: 'nt', href: r.url, target: '_blank', rel: 'noopener noreferrer', textContent: r.title }), isFresh(r.fresh) ? el('span', { className: 'badge', textContent: 'New' }) : null),
+      r.sub ? el('span', { className: 'c' }, (r.sub || '').slice(0, 220), r.caseId ? caseNumLink(r.caseId, '', 'case') : null) : null);
+  }
+  function drawHomeNotices() {
+    const rows = noticeRows().filter((r) => r.date >= addDays(ctToday(), -90)).slice(0, 5);
+    $('home-notices').closest('.panel').hidden = !rows.length;
+    $('home-notices').replaceChildren(...rows.map(noticeItem));
+  }
+  function renderNotices() {
+    document.title = 'Court notices · EDLA Analyzer';
+    const N = state.data.notices || {}; const A = (state.data.appeals || {}).appeals || [];
+    $('nt-news').replaceChildren(...((N.news || []).length ? N.news.slice(0, 30).map((n) => noticeItem({ date: n.date, kind: 'News', title: n.title, url: n.url, sub: n.summary, fresh: n.first_seen }))
+      : [el('li', {}, el('span', { className: 'empty', textContent: 'The court\'s news feed has not been read yet.' }))]));
+    const groups = d3.groups(N.orders || [], (o) => o.category);
+    $('nt-orders').replaceChildren(...(groups.length ? groups.flatMap(([cat, list]) => [el('li', { className: 'grp' }, el('span', { textContent: cat || 'General orders' }), el('span', { className: 'n', textContent: plural(list.length, 'order') })),
+      ...list.map((o) => noticeItem({ date: o.date, kind: 'Order', title: o.title, url: o.url, fresh: o.first_seen }))])
+      : [el('li', {}, el('span', { className: 'empty', textContent: 'The General Orders page has not been read yet.' }))]));
+    $('nt-appeals').replaceChildren(...(A.length ? A.map((a) => el('li', {}, el('span', { className: 'd', textContent: fmtShort(a.date) }),
+      el('span', { className: 'h' }, el('b', { textContent: a.disposition || 'Decided' }), el('a', { className: 'nt', href: a.pdf, target: '_blank', rel: 'noopener noreferrer', textContent: a.caption + ' ↗' })),
+      el('span', { className: 'c' }, 'Fifth Circuit No. ' + a.ca5 + ' · ' + (a.kind || 'Opinion') + ' · from ', caseNumLink(a.case, '', 'case'))))
+      : [el('li', {}, el('span', { className: 'empty', textContent: 'No Fifth Circuit decision in a civil case from this court since the site began reading the Fifth Circuit\'s feed.' }))]));
+    $('nt-checked').textContent = N.checked ? 'Court pages read ' + ctStamp(N.checked) + ' CT' : '';
+  }
+
   // ------------------------------------------------------------ CSV export
   function csvRows(which) {
     const S = state.stats;
@@ -1843,7 +1941,7 @@
   }
 
   // ------------------------------------------------------------ render
-  const RENDER = { judges: renderJudges, judge: renderJudge, compare: renderCompare, cases: renderCases, case: renderCase, activity: renderActivity, calendar: renderCalendar, opinions: renderOpinions, motions: renderMotions, rules: renderRules, court: renderCourt, log: renderLog };
+  const RENDER = { judges: renderJudges, judge: renderJudge, compare: renderCompare, cases: renderCases, case: renderCase, notices: renderNotices, activity: renderActivity, calendar: renderCalendar, opinions: renderOpinions, motions: renderMotions, rules: renderRules, court: renderCourt, log: renderLog };
   function render() {
     const S = state.stats;
     if (state.page === 'judge' && !S.names[state.judge]) state.page = 'judges';
@@ -1870,11 +1968,12 @@
   }
 
   async function load() {
-    const names = ['opinions', 'orders', 'judges', 'calendar', 'runs', 'outcomes', 'motions', 'judge_pages', 'feed', 'hearings', 'status'];
+    const names = ['opinions', 'orders', 'judges', 'calendar', 'runs', 'outcomes', 'motions', 'judge_pages', 'feed', 'hearings', 'status', 'dockets', 'notices', 'submission_dates', 'appeals'];
+    const OPTIONAL = { outcomes: [], motions: [], feed: [], hearings: [], dockets: [], judge_pages: { judges: [] }, status: {}, notices: {}, submission_dates: {}, appeals: {} };
     $('status').textContent = 'Loading the docket data…';
     try {
       const files = await Promise.all(names.map((n) => fetch('data/' + n + '.json', { cache: 'no-cache' })
-        .then((r) => { if (!r.ok) { if (n === 'outcomes' || n === 'motions' || n === 'feed' || n === 'hearings') return []; if (n === 'judge_pages' || n === 'status') return n === 'status' ? {} : { judges: [] }; throw new Error(n + ' ' + r.status); } return r.json(); })));
+        .then((r) => { if (!r.ok) { if (n in OPTIONAL) return OPTIONAL[n]; throw new Error(n + ' ' + r.status); } return r.json(); })));
       state.data = Object.fromEntries(names.map((n, i) => [n, files[i]]));
       state.cases = buildCases(state.data);
       state.pages = Object.fromEntries(((state.data.judge_pages || {}).judges || []).map((r) => [r.code, r]));
@@ -1935,7 +2034,7 @@
   // minutes behind at most), because GitHub Pages can take 15 minutes or more to publish a data commit; if that address
   // fails, the site's own copy is used.
   const RAW = /\.github\.io$/.test(location.hostname) ? 'https://raw.githubusercontent.com/ggb52-wq/edla-judge-tracker/main/data/' : '';
-  const LIVE_FILES = ['opinions', 'orders', 'calendar', 'outcomes', 'motions', 'feed', 'hearings'];
+  const LIVE_FILES = ['opinions', 'orders', 'calendar', 'outcomes', 'motions', 'feed', 'hearings', 'dockets', 'notices', 'submission_dates', 'appeals'];
   // v, the check time, makes each read after a new check a fresh address, so no cached copy from before it is served.
   const getJson = (base, n, v) => fetch(base + n + '.json' + (v ? '?v=' + encodeURIComponent(v) : ''), { cache: 'no-cache' })
     .then((r) => (r.ok ? r.json() : null)).catch(() => null);
@@ -1953,15 +2052,15 @@
       const fresh = runs && latestRun(runs) > latestRun(state.data.runs);
       if (fresh) {
         const files = await Promise.all(LIVE_FILES.map((n) => getJson(base, n, st.checked)));
-        if (files.some((f) => !f)) return;  // a partial read could mix two updates; try again next time
-        LIVE_FILES.forEach((n, i) => { state.data[n] = files[i]; });
+        if (files.some((f, i) => !f && !['dockets', 'notices', 'submission_dates', 'appeals'].includes(LIVE_FILES[i]))) return;  // a partial read could mix two updates; try again next time
+        LIVE_FILES.forEach((n, i) => { if (files[i]) state.data[n] = files[i]; });
         state.data.runs = runs;
         state.cases = buildCases(state.data);
         actCache = null; calCache = null; lastPeriod = null;
       }
       state.data.status = st;
       if (fresh) update();  // new data: recount and redraw the page in place
-      else { drawLive(); if (['judges', 'activity', 'log', 'cases'].includes(state.page)) RENDER[state.page](); }  // the check time only
+      else { drawLive(); if (['judges', 'activity', 'log', 'cases', 'notices'].includes(state.page)) RENDER[state.page](); }  // the check time only
     } finally { refreshing = false; }
   }
   setInterval(refreshData, 5 * 60 * 1000);
