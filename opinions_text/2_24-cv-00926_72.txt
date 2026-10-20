@@ -1,0 +1,543 @@
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+BRIAN CORNWELL    * CIVIL ACTION NO. 24-926
+
+VERSUS      * JUDGE ELDON E. FALLON
+
+EXTREME TACTICAL COMPONENTS, * MAGISTRATE JUDGE
+LLC, A.K.A. EXTREME AIR RIFLES, LLC,  MICHAEL B. NORTH
+A.K.A. EXTREME BIG BORE AIR RIFLES, *
+TEXAS MACHINE PARTS, LLC, DANNY
+DUKE, AND JOHN WILEY   *
+* * * * * * *
+
+ORDER & REASONS
+Before the Court is a motion for partial summary judgment filed by Defendants Texas
+Machine Parts, Danny Duke, and John Wiley (collectively, “Defendants”). R. Doc. 49. Plaintiff
+opposed the motion. R. Doc. 59. Defendants replied. R. Doc. 64. Considering the record, briefing,
+and applicable law, the Court now rules as follows.
+I. BACKGROUND
+This is a products liability case arising from an alleged injury caused by an air rifle. Plaintiff
+Brian Cornwell (“Cornwell”) ordered an air rifle from Extreme Big Bore Air Rifles on March 25,
+2021. R. Doc. 49-13 at 2; 59-6 at 1. After regularly using the rifle for nearly two years, on January
+11, 2023, Plaintiff injured himself while attempting to fill the air rifle with compressed air. R. Doc.
+49-13 at 2; 59-6 at 1; 66 at 5. Defendants’ air rifle filling instructions state that, when filling it with
+compressed air, “You may need to cover the barrel with your finger.” R. Doc. 59-1 at 3. According
+to Plaintiff, while attempting to fill the air rifle with compressed air—and with his thumb over the
+barrel as instructed by the manual —the valve failed to s eat and the air rifle “discharged while
+petitioner’s left thumb was located over the barrel.” E.g., R. Doc. 2-2 at 2–3. As a result, he alleges
+that his “left thumb was blown open” and his thumb “bone tip” was blown off. Id. at 2.
+Case 2:24-cv-00926-EEF-MBN     Document 72     Filed 01/21/26     Page 1 of 21
+2
+
+Plaintiff brought claims against Defendants pursuant to the Louisiana Products Liability
+Act (“LPLA”), redhibition pursuant to La. Civ. Code art. 2520 et seq. , and for a rescission of the
+sale pursuant to La. Civ. Code art. 2545. Id.  at 4. He seeks damages for disfigurement, pain and
+suffering, medical treatment, and lost income. Id.
+II. PRESENT MOTION
+Defendants ask this Court to grant summary judgment in their favor on four of Plaintiff’s
+six total liability theories. R. Doc. 49. They request a dismissal with prejudice three of the four
+claims provided for in the  LPLA: construction/manufacturing defect pursuant to La. R.S.
+§ 9:2800.55, design defect pursuant to La. R.S. § 9:2800.56, and breach of express warranty
+pursuant to La. R.S. § 9:2800.58. Id. They also request the Court dismiss with prejudice Plaintiff’s
+redhibition claims. Id.
+Turning to the LPLA claims, Defendants first argue that Plaintiff has no evidence of a
+design defect because “to the extent his experts suggested an alternative design ,” neither expert
+opined on the second element of a defective design claim —the “likelihood that the product’s
+design would cause the claimant’s damage and the gravity of that damage outweighed the burden
+on the manufacturer of adopting such alternative design.” R. Doc. 49-1 at 12–13; La. R.S.
+§ 9:2800.56. Concerning the construction/manufactur ing defect claim, Defendants take the
+position that neither of Plaintiff’s experts explain how or why “at the time the product left its
+manufacturer’s control, [it] deviated in a material way from the manufacturer’s specifications or
+performance standards for the product or from otherwise identical products manufactured by the
+same manufacturer.” R. Doc. 49-1 at 15–16; La. R.S. § 9:2800.55. And regarding the breach of
+express warranty claim, Defendants press that neither Plaintiff nor his experts have ident ified an
+express warranty that could have been breached by the manufacturer. R. Doc. 49-1 at 17.
+Case 2:24-cv-00926-EEF-MBN     Document 72     Filed 01/21/26     Page 2 of 21
+3
+
+Defendants also argue that Plaintiff has no factual support for his redhibition claim because
+Plaintiff consistently used and modified the air rifle during the near-two-year period that he owned
+it before the date of injury. Id. at 17–18. They argue that, as a result of this consistent use, Plaintiff
+cannot plausibly claim that the air rifle was completely useless for its intended purpose or was so
+inconvenient that had Cornwell known of the defect at the time of purchase, he would not have
+purchased the air rifle. Id. at 17–18.
+Plaintiff opposed the motion. R. Doc. 59. He generally asserts that his expert reports,
+together with the expert affidavits attached to his opposition, create sufficient material facts to
+allow each of his claims to survive summary judgment. Id.  He also presses a fact that he asserts
+Defendants “evade[d]” addressing in their motion: his claims pertain to two products. Id. Both the
+air rifle itself and a separate product, the “second valve assembly”—a replacement valve assembly
+that Plaintiff purchased from Defendants and installed himself  into the air rifle shortly before the
+subject accident—are alleged to be defective. Id.
+Plaintiff defends his LPLA c onstruction/manufacturing defect  claim by referencing the
+deposition testimony of John Wiley (“Wiley”), a named defendant and principal of Texas Machine
+Parts, arguing that his  testimony gives rise to the inference that other air rifle s previously
+manufactured by Defendants do not contain the same manufacturing defect at issue here. Id. at 6–
+7. On the design defect claim, he contends  that the report and testimony of his gunsmith expert
+explains the existence of an alternative design. Id. at 8. Plaintiff further submits that his breach of
+express warranty claim should survive because the filling instructions, which instruct that a user
+“may” need to place their finger over the barrel, warrants that doing so will provide the user with
+a safe filling experience. Id. at 15.
+Case 2:24-cv-00926-EEF-MBN     Document 72     Filed 01/21/26     Page 3 of 21
+4
+
+Relevant to his redhibition claim, Plaintiff argues that the two defective products at issue—
+the air rifle and its replacement valve—each contain  their own redhibitory vices. Id.  at 15–16.
+Plaintiff does not explicitly discuss, however, the elements of a redhibition claim in relation to the
+facts submitted on summary judgment.
+Defendants replied, largely arguing that the Court should strike the three affidavits attached
+to Plaintiff’s opposition. R. Doc. 64. Plaintiff attached his own affidavit, R. Doc. 59-2, an affidavit
+of his expert gunsmith Kennith Comeaux, R. Doc. 59- 3, and an affidavit of his air mechanics
+expert William Caster, R. Doc. 59- 4. Defendant s assert  that the experts’ affidavits should be
+stricken for a myriad of reasons , including but not limited to the ir containment of (1) statements
+“correcting” prior sworn testimony without an explanation as to why, (2) statements that operate
+as “new reports from the[] experts [that] contain opinion and fact recitations that were not disclosed
+in their Rule 26 reports or in their deposition testimony,” (3) statements that constitute
+impermissible hearsay, and (4) specific to Plaintiff’s affidavit, statements not made from personal
+knowledge and premised with the clause “upon information and belief.”  Id. at 1–4. Defendants
+argue that, in the event the Court does not strike Plaintiff’s affidavit, the Court should observe that
+the affidavit establishes Cornwell as a “sophisticated user” as defined by the LPLA. Id. at 4–5.
+III. LEGAL STANDARD
+Summary judgment is proper when “there is no genuine dispute as to any material fact and
+the movant is entitled to judgment as a matter of law.” Fed. R. Civ. P. 56(a). The court must view
+the evidence in the light most favorable to the nonmovant. Coleman v. Hous. Indep. Sch. Dist., 113
+F.3d 528, 533 (5th Cir. 1997). Initially, the movant bears the burden of presenting the basis for the
+motion; that is, the absence of a genuine issue as to any material fact or facts. Celotex Corp. v.
+Catrett, 477 U.S. 317, 323 (1986). The burden then shifts to the nonmovant to come forward with
+Case 2:24-cv-00926-EEF-MBN     Document 72     Filed 01/21/26     Page 4 of 21
+5
+
+specific facts showing there is a genuine dispute for trial. F ed. R. Civ. P. 56(c); Matsushita Elec.
+Indus. Co. v. Zenith Radio Corp., 475 U.S. 574, 586–87 (1986). A fact is “material” if its resolution
+in favor of one party may affect the outcome of the case. Saketkoo v. Adm’rs of Tulane Educ. Fund,
+31 F.4th 990, 997 (5th Cir. 2022). “A dispute about a material fact is ‘ genuine’ if the evidence is
+such that a reasonable jury could return a verdict for the  nonmoving party.” Bodenheimer v. PPG
+Indus., Inc., 5 F.3d 955, 956 (5th Cir. 1993) (citation omitted).
+IV. ANALYSIS
+Defendants ask this Court to dismiss four of Plaintiff’s claims because Plaintiff lacks the
+necessary genuine material facts to support every element of each claim. Plaintiff asks this Court
+to review the record evidence, including three affidavits, and determine that he does have sufficient
+factual support to allow these four claims to be presented to the jury. Because Defendants takes
+issue with Plaintiff’s affidavits, the Court will first discuss whether the affidavits comply with the
+applicable rules and can serve as summary judgment evidence . It will then assess  the competent
+record evidence and determine whether Plaintiff has submitted sufficient factual support for each
+of the four theories challenged by Defendants.
+A. Summary Judgment Evidence—Affidavits
+Plaintiff’s opposition attaches three affidavits: Plaintiff’s affidavit, R. Doc. 59- 2, an
+affidavit of Plaintiff’s gunsmith expert Kennith Comeaux, R. Doc. 59- 3, and an affidavit of
+Plaintiff’s air mechanics expert William Caster, R. Doc. 59-4.  For the following reasons, the Court
+will not consider any of the affidavits attached to Plaintiff’s motion.
+1. Plaintiff’s Affidavit
+Rule 56 of the Federal Rules of Civil Procedure provides that a party supporting a factual
+position may do so with, inter alia, affidavits. Affidavits, no matter if used to support or oppose a
+Case 2:24-cv-00926-EEF-MBN     Document 72     Filed 01/21/26     Page 5 of 21
+6
+
+summary judgment motion, “must be made on personal knowledge, set out facts that would be
+admissible in evidence, and show that the affiant or declarant is competent to testify on the matters
+stated.” Fed. R. Civ. P. 56(c)(4). The Court may refuse to consider affidavits as competent summary
+judgment evidence if they do not comport with these requirements. E.g., Bolen v. Dengel, 340 F.3d
+300, 313 (5th Cir. 2003)  (“Because [the defendant’s] affidavit is expressly based merely on
+information and belief, it . . . fails the requirements of summary judgment evidence.”).
+Plaintiff’s affidavit is not appropriate summary judgment evidence. After the first few
+introductory sentences, his affidavit states, “Upon information and belief, Affiant attests herein to
+the following facts pertaining to this action:” and thereafter proceeds in eight paragraphs. R. Doc.
+59-2. The Federal Rules of Civil Procedure require affidavits to be made on personal knowledge,
+and the Fifth Circuit has held that statements “based merely on information and belief . . . fail []
+the requirements of summary judgment evidence.” 340 F.3d at 312. Under a strict application of
+the Fifth Circuit’s precedent, each of the succeeding eight paragraphs cannot be considered by this
+Court as competent summary judgment evidence. See Obregon v. United States, 791 F. App’x 458,
+461 (5th Cir. 2019) (reading out a portion of an affidavit where the affiant stated that she had
+“belief” of something and only considering other parts of her statement which were based on
+personal knowledge); Lejeune v. Prod. Servs. Network U.S., Inc., No. 11-2482, 2014 WL 3587495,
+at *3 (E.D. La. July 21, 2014) (refusing to consider an affidavit where the affiant stated that he
+“believed” certain facts, so the “facts” were not based on personal knowledge); Whitney Bank v.
+Nafel, No. 14-208, 2015 WL 1457528, at *10 (M.D. La. Mar. 30, 2015) (striking the defendants’
+affidavit for failure to meet the personal knowledge requirement).
+Even if the Court were to read out the prefacing statement in Plaintiff’s affidavit, the Court
+would not consider the affidavit as competent evidence because all of the statements found in the
+Case 2:24-cv-00926-EEF-MBN     Document 72     Filed 01/21/26     Page 6 of 21
+7
+
+following eight paragraphs: (1) reiterate facts already present in Plaintiff’s deposition, (2) set out
+facts that would be inadmissible as evidence, (3) do not lay an appropriate foundation to explain
+why Plaintiff is competent to testify on the matter, and/or (4) contain conclusory allegations
+without sufficient supporting facts to be  competent summary judgment evidence.  See Bentz -
+Seiders v. Dollar Gen. Corp., No. 19-003, 2020 WL 13430019, at *3–5 (N.D. Tex. June 5, 2020)
+(explaining why the court would not consider  an affidavit, and then detailing why the outcome
+would not change even if the court had considered the affidavit).
+The Court will not strike Plaintiff’s affidavit, but it will not utilize any statements in it as
+“facts” in assessing the summary judgment evidence. The Court notes that it would have come to
+the same ultimate determination on each of the four liability theories even if it would have utilized
+any non-conclusory, admissible, substantiated, and personal knowledge -based factual statements
+in Plaintiff’s affidavit.
+2. Plaintiff’s Experts’ Affidavits
+Plaintiff also submitted  affidavits of two of his experts. Rule 26 of the Federal Rules of
+Civil Procedure provides parameters for the timely disclosure of expert -related materials, and
+parties are obligated to comply with Rule 26’s requirements by the deadlines set forth in the
+scheduling order. Fed. R. Civ. P. 16. The purpose of the rule “is to avoid the disclosure of ‘sketchy
+and vague’ expert information.” Sierra Club, Lone Star Chapter v. Cedar Point Oil Co., 73 F.3d
+546, 571 (5th Cir. 1996) (citing Rule 26’s advisory committee notes). If a party does not produce
+witnesses and evidence by the scheduling order’s deadlines, Rule 37(c)(1) provides an “automatic
+exclusion of witnesses and information that should have been provided under Rule 26(a) . . . but
+was not.” Guidry v. Aventis Pharms., Inc., No. 03-493, 2005 WL 8155425, at *1 (M.D. La. Dec.
+20, 2005) (discussing Rule 37). Specifically, Rule 37 states that parties who “fail[] to provide
+Case 2:24-cv-00926-EEF-MBN     Document 72     Filed 01/21/26     Page 7 of 21
+8
+
+information . . . as required by Rule 26(a) or (e) . . . [are] not allowed to use that information . . .
+unless the failure was substantially justified or is harmless.” (emphasis added).
+In addition to Rule 56’s requirements for summary judgment affidavits, and in the context
+of expert affidavits specifically, “[a] subsequent expert affidavit submitted to rebut a summary
+judgment motion may be excluded if it differs from an earlier Rule 26 report.” Brumley v. Pfizer,
+Inc., 200 F.R.D. 596, 603 (S.D. Tex. 2001). “Courts have also refused to consider expert affidavits
+where those affidavits offer opinions that contradict prior testimony or offer entirely new opinions
+not contained in expert reports.” Gamboa v. Centrifugal Casting Mach. Corp., No. 14-1273, 2015
+WL 6835359, at *5 (S.D. Tex. Nov. 6, 2015) (collecting and explaining cases).
+The Court will not consider either expert affidavit as competent summary judgment
+evidence. The second scheduling order, R. Doc. 30, required Plaintiff to comply with Rule
+26(a)(2)’s expert disclosure requirements by October 14, 2025. R. Doc. 30 at 1. Both expert
+affidavits are dated December 12, 2025—notably, nearly two months after its disclosure deadline,
+and ten days after Defendants filed their motion for partial summary judgment. R. Docs. 59-2, 59-
+3, 49. This presents a problem because, after careful review, the Court observes that both affidavits
+contain statements and conclusions that could not be found in the experts’ reports and testimony.
+Moreover, Plaintiff provides no explanation as to why these affidavits should fall within
+Rule 37’s untimeliness exception. He does not explain how or why his failure to disclose the “new”
+information in the affidavits is substantially justified or is harmless. Fed. R. Civ. P. 37. “For those
+failures that are not substantially justified or harmless, this sanction [of exclusion] is ‘self-
+executing’ and ‘automatic.’” Tri Invests., Inc. v. United Fire & Cas. Co., No. 18- 116, 2019 WL
+13114346, at *2 (S.D. Tex. Dec. 10, 2019) (citing Fed. R. Civ. P. 37(c)(1), Advisory Comm. Note
+(1993)). Thus, because the experts’ affidavits go beyond the scope of the  experts’ reports and
+Case 2:24-cv-00926-EEF-MBN     Document 72     Filed 01/21/26     Page 8 of 21
+9
+
+testimony, and the affidavits were executed well after Plaintiff’s disclosure deadline, the Court will
+not utilize the experts’ affidavits as further evidence in support of Plaintiff’s claims. See Reliance
+Ins. Co. v. La. Land & Expl. Co., 110 F.3d 253, 258 (5th Cir. 1997) (“District judges have the
+power to control their dockets by refusing to give . . . litigants a second chance to develop their
+case.”).
+ To the extent the expert affidavits reiterate, restate, or expand on the experts’ timely-issued
+reports and testimony, the Court will rely on the timely-issued documents in its summary judgment
+analysis. Overall, and in lieu of striking all the three affidavits, the Court will not consider any of
+the three affidavits attached to Plaintiff’s opposition in the following analysis.
+B. Claims Subject to Summary Judgment
+The Court now turns to evaluate whether  the evidence demonstrates that Plaintiff can
+support the essential elements of four of his six total claims. Defendants press that Plaintiff lacks
+competent summary judgment evidence to sustain construction defect, design defect, and breach
+of express warranty claims under the LPLA, as well as claims in redhibition pursuant to La. Civ.
+Code art. 2520. For the following reasons, the Court finds that Plaintiff’s
+construction/manufacturing defect claims and redhibition claims do not survive summary
+judgment, but his design defect claims and breach of express warranty claims do and may proceed
+to trial.
+1. Construction/Manufacturing Defect
+Plaintiff asserts that the air rifle and its replacement value were unreasonably dangerous in
+construction or composition. A product is unreasonably dangerous in its construction or
+composition if “at the time the product left its  manufacturer’s control, [it] deviated in a material
+way from the manufacturer’s specifications or performance standards for the product or from
+Case 2:24-cv-00926-EEF-MBN     Document 72     Filed 01/21/26     Page 9 of 21
+10
+
+otherwise identical products manufactured by the same manufacturer.” La. R.S. § 9:2800.55. A
+claimant must demonstrate not only the manufacturer ’s specifications or performance standards
+for the particular product, but also how the product materially deviated from those standards so as
+to render it “unreasonably dangerous.”  Jenkins v. Int ’l Paper Co., 41,566 (La. App. 2 Cir.
+11/15/06), 945 So. 2d 144, 150. “This is a narrow and demanding test” because the plaintiff must
+show “that the particular product use d by the [relevant individual] deviated from its intended
+design.” Guidry v. Janssen Pharms., 206 F. Supp. 3d 1187, 1197–98 (E.D. La. 2016).
+ Defendants argue that Plaintiff cannot prevail on his construction/manufacturing defect
+claim because (1) his experts do not opine, and are not qualified to opine, on whether the air rifle
+or replacement valves at issue were manufactured in accordance with Defendants’ standards, and
+(2) the air rifle—both at the time of the incident and its inspection by Plaintiff’s experts—was not
+the same as it was when it left the manufacturer. R. Doc. 49-1 at 15–16.
+Plaintiff submits that Wiley ’s testimony creates sufficient material fact s to support a
+manufacturing defect claim. Wiley testified that the air rifle at issue here bore serial number 079.
+R. Doc. 59-5 at 2. When asked if Riley knew how the air rifles were serialized, “like the first one
+that came out is Number 1, and this was Number 79,” he stated that he did not “know the exact
+answer to that, but [he] believe[d] that [was] correct.” Id. at 7. Plaintiff connects this testimony to
+Wiley’s answer “no” to the question, “Have there been any other accidents or complaints of
+malfunctions other than with Mr. Cornwell?” Id. at 5. Plaintiff a rgues that this  testimony, when
+viewed together, supports his position that “the subject air rifle and its two air valve assemblies
+are the only two products of the 78 earlier air rifles and valve assemblies to fail, [so] serial number
+0079 . . . deviated and was unreasonably dangerous in its construction and composition.” R. Doc.
+59 at 7.
+Case 2:24-cv-00926-EEF-MBN     Document 72     Filed 01/21/26     Page 10 of 21
+11
+
+The Court finds that the foregoing presents only a vague and tenuous conclusion, and
+otherwise does not satisfy all the required elements to support a construction/manufacturing defect
+claim. “Plaintiff has neither identified the applicable specifications or standards nor demonstrated
+that the [products] at issue deviated from those standards in any way.” Power v. Louisville Ladder
+Inc., No. 19- 14627, 2020 WL 3971278, at *3 (E.D. La. July 14, 2020). He has only generally
+established that it is possible that 78 other air rifles were manufactured before the air rifle at issue
+here, and that Wiley is not aware of any other injurious incidents with this model air rifle.
+Moreover, Plaintiff’s air mechanic’s expert Caster testified that he “d[id] not have any of
+the specs that [the air rifle] was designed off of,” so he could not answer the question, “Was the
+valve itself properly manufactured, or was this a design problem?” R. Doc. 57-5 at 88. The statute
+explicitly requires  plaintiffs to rely on  the manufacturer’s specifications  so that they can
+demonstrate how the at -issue product contained particularized deviations from the relevant
+specification. Cf. Walker v. Manitowoc Co., No. 2016-897 (La. App. 3 Cir. 10/10/18), 259 So. 3d
+465, 475 (finding evidence sufficient to raise a genuine issue of material fact on a
+construction/composition defect claim when the plaintiffs submitted (1) deposition testimony of
+defendants’ former Director of Product Safety who detailed that a crane’s plans and specifications
+called for a certain product to be applied to its screws, and (2) evidence of a microscopic
+examination of the screws of the particular crane at issue, conducted after the alleged accident,
+which indicated that the product was not applied to those specific screws).
+Without any evidence of what it means for this particular air rifle model and valve to be
+properly manufactured, and without any documents or testimony detailing an aspect of Plaintiff’s
+specific air rifle and replacement valve that differed from a properly manufactured product,
+Plaintiff’s construction defect claim must fail.
+Case 2:24-cv-00926-EEF-MBN     Document 72     Filed 01/21/26     Page 11 of 21
+12
+
+2. Design Defect
+Plaintiff asserts that the air rifle and replacement valve are unreasonably dangerous due to
+a design defect. Under the LPLA, a product is unreasonably dangerous in design if, at the time the
+product left its manufacturer’s control: (1) there existed an alternative design for the product that
+was capable of preventing the claimant’s damage; and (2) the likelihood that the product’s design
+would cause the claimant’s damage and the gravity of that damage outweighed the burden on the
+manufacturer of adopting such alternative design and the adverse effect, if any, of such alternative
+design on the utility of the product. La. R .S. § 9:2800.56. Thus, “[i]n order to demonstrate that a
+product is unreasonably dangerous in design, the plaintiff must (1) identify a specific alternative
+design that existed and was capable of preventing his injury; and (2) perform the requisite risk-
+utility analysis.” Gray v. Indus. Plant Maint., No. 01-1167, 2004 WL 1661209, at *5 (E.D. La. July
+23, 2004) (citing Krummel v. Bombardier Corp., 206 F.3d 548, 551 (5th Cir. 2000)).
+ “Louisiana law does not allow a fact finder to presume an unreasonably dangerous design
+solely from the fact that injury occurred.” Celino v. Biotronik, Inc., No. 20- 2298, 2021 WL
+2982971, at *2 (E.D. La. July 15, 2021). Therefore, in all but the most basic cases, expert evidence
+is required to support an allegation that a product is defective in design. McCarthy v. Danek Med.,
+Inc., 65 F. Supp. 2d 410, 412 (E.D. La. 1999) (“Without expert or technical evidence to support
+the contention that the design was defective or to establish an alternative design, plaintiff has failed
+to create an issue of fact to be left to a jury”).  The Fifth Circuit has acknowledged, however, that
+“there may be cases in which the judge or the jury, while relying on background knowledge and
+‘common sense,’ can ‘fill in the gaps’” and “estima[e] the extent of the risk avoided, the costs of
+implementing the proposed design change, or the adverse effects of the design modification on the
+utility of the machine.” See Morgan v. Gaylord Container Corp., 30 F.3d 586, 591 (5th Cir. 1994)
+Case 2:24-cv-00926-EEF-MBN     Document 72     Filed 01/21/26     Page 12 of 21
+13
+
+(quoting Lavespere v. Niagara Mach. & Tool Works, Inc.,  910 F.2d 167, 184 (5th Cir. 1990),
+abrogated on other grounds by Little v. Liquid Air Corp., 37 F.3d 1069 (5th Cir. 1994)).
+Defendants press that Plaintiff cannot prevail on his design defect claim because he has no
+evidence of a design defect, but to the extent that his experts passively opine d on an alternative
+design, neither engaged in a risk-utility analysis. R. Doc. 49-1 at 12–15. The Court finds that there
+is enough evidence that an alternative design existed. Caster, Plaintiff’s air mechanics expert,
+described that over the course of his decades -long career he has worked with high- pressure
+machines operating with PSIs close to the subject air rifle’s PSI, and these machines operate using
+springs to seat valves. R. Doc. 57- 5 at 85–88. Comeaux, Plaintiff’s gunsmith expert, testified to
+his familiarity of the designs of other air rifles and his business’s status as a Benjamin warranty
+station, which means he is authorized by Benjamin to repair their rifles . R. Doc. 57- 4 at 41–42.
+Thus, Comeaux can testify as to other designs that were on the market at the time of Plaintiff’s
+injury. Taken together, the experts’ testimony could allow a reasonable juror to conclude that an
+alternative design—namely, the use of a spring to seat the valve —existed commercially around
+the date of injury.
+  As to the risk -utility analysis,  the Court finds that a reasonable jury is capable of
+performing the risk/utility balancing test  in this case based on the record evidence . The Fifth
+Circuit has stated that they “do not mean to suggest that the plaintiff must, in every case, introduce
+evidence that details and quantifies the risk and the burden incurred in order to prevail under the
+design theory set out in the LPLA.” Lavespere, 910 F.2d at 184. But for this to be possible, “the
+product itself, or at least the design feature in question, must be relatively uncomplicated, and the
+implications of the change in design must be such that a layman could readily grasp them.” Id.  In
+this case, a reasonable juror would be able to rely on background knowledge and common sense
+Case 2:24-cv-00926-EEF-MBN     Document 72     Filed 01/21/26     Page 13 of 21
+14
+
+in understanding the inherent risk in placing one’s thumb over the muzzle of any air rifle or similar
+item.
+Moreover, while expert testimony may be necessary to explain the mechanics of seating
+the valve in an air rifle either using a spring or not using a spring, the inherent concept of an air
+rifle having a spring versus not having a spring is not the kind of concept that “demand[s] a
+complex, statistical risk -utility analysis.” McDaniel v. Texas USA, LLC , 466 F. App’x 365, 377
+(5th Cir. 2012). Instead, the alternative design of a valve that uses a spring is the kind of alternative
+design that “is ‘uncomplicated’ enough for a layman to ‘readily grasp:’” the air rifle either has a
+spring and the valve seats automatically, or it does not have a spring and requires assistance in
+seating the valve. Id. (quoting Krummel, 206 F.3d at 522 n.4).
+The relatively uncomplicated nature of the spring- versus-no-spring concept is evidenced
+by Plaintiff’s own actions taken after the subject incident. Plaintiff posted on social media shortly
+after the alleged accident stating that he “placed a spring from an ink pen on the valve stem before
+putting the top hat back on.” R. Doc. 57-11. The factfinder could reasonably infer from Plaintiff’s
+own solution that the manufacturer did not face a high burden in changing the design of this air
+rifle to include a valve  spring. Overall, “while the evidence is not certain to result in a favorable
+jury verdict, it is not so overwhelmingly deficient as to preclude the possibility that a reasonable
+jury might” find that the air rifle and replacement valves were unreasonably dangerous in design.
+McDaniel, 466 F. App’x at 377. Plaintiff’s design defect claim survives.
+3. Breach of Express Warranty
+Defendants take the position that Plaintiff has not identified an express warranty that they
+could have breached. An express warranty is defined under Louisiana law as “ a representation,
+statement of alleged fact or promise about a product or its nature, material or workmanship that
+Case 2:24-cv-00926-EEF-MBN     Document 72     Filed 01/21/26     Page 14 of 21
+15
+
+represents, affirms or promises that the product or its nature, material or workmanship possesses
+specified characteristics or qualities or will meet a s pecified level of performance .” La. R.S.
+§ 9:2800.53(6). Notably, “‘Express Warranty’ does not mean a general opinion about or general
+praise of a product.” Id.
+The LPLA provides that “[a] product is unreasonably dangerous when it does not conform
+to an express warranty made at any time by the manufacturer about the product if the express
+warranty has induced the claimant or another person or entity to use the product and the claimant’s
+damage was proximately caused because the express warranty was not true.” La. R.S. § 9:2800.58.
+Therefore, to survive summary judgment, there must be evidence that “(1) the manufacturer made
+an express warranty regarding the product, (2) the plaintiff was induced to use the product because
+of that warranty, (3) the product failed to conform to that express warranty, and (4) the plaintiff ’s
+damage was proximately caused because the express warranty was untrue.” Caboni v. Gen. Motors
+Corp., 278 F.3d 448, 452 (5th Cir. 2002).
+Plaintiff argues that Defendants’ “entire manual [for the air rifle] should be considered [an]
+express warranty.” R. Doc. 59 at 15. The air rifle’s “Safety and Filling Instructions,” R. Doc. 59-
+1, appear in a four-page document, with the second page listing the “Safety Instruct ions” and the
+third page listing the “Filling Instructions.” R. Doc. 59-1 at 2–3. Under “Filling Instructions,” the
+final line reads: “You may need to cover the barrel with your finger when filling.” Id. at 3. Plaintiff
+submits that the portion of the “Fil ling Instructions” direct ing him to place his finger over the
+barrel must be observed in its context : adjacent to the safety instructions.  Thus, to Plaintiff, each
+statement made in the “Filling Instructions” constitutes an express warranty because, due to their
+proximity to the safety instructions, they “expressly warrant[] a user a safe shooting experience.”
+R. Doc. 59 at 14.
+Case 2:24-cv-00926-EEF-MBN     Document 72     Filed 01/21/26     Page 15 of 21
+16
+
+The Fifth Circuit has found that statements in an owner’s manual can be construed by a
+reasonable juror to constitute an express warranty. I n Caboni v. General Motors Corp., the Fifth
+Circuit reversed a district court’s entry of summary judgment  on a breach of express warranty
+claim when it found that a statement in a car’s manual could have been determined to go beyond
+“general opinion” or “general praise” about a car’s air bag system. 278 F.3d at 452–53. There, the
+plaintiff’s air bag did not deploy upon his impact into an interstate guardrail. Id. at 450. The
+plaintiff argued that his vehicle’s manual  included statements that expressly warranted when his
+airbag would inflate. Id. at 452. The Fifth Circuit agreed, reasoning that a juror could find that the
+statement “[t]he air bag is designed to inflate in moderate to severe frontal or near-frontal crashes”
+created an express warranty. Id. at 453. It determined that “[a] reasonable jury could find that the
+passage is a ‘representation’ or ‘statement of alleged fact’ about the air bag system that ‘represents’
+or ‘affirms’ that the air bag will meet a ‘specified level of performance,’ i.e. inflate in moderate to
+severe frontal or near-frontal crashes.” Id. (quoting La. R.S. § 9:2800.53(6)).
+Like the Fifth Circuit found in Caboni , the Court here finds that a reasonable juror in this
+case could conclude that the statement “You may need to cover the barrel with your finger when
+filling” constitutes a “representation, statement of alleged fact or promise” that  the air rifle was
+constructed to operate in a way wherein it would be safe to follow the instructions and place one’s
+finger over the air rifle’s barrel.  The plausibility of this potential conclusion is supported by the
+“Filling Instructions” being found in the same document as the safety instructions. R. Doc. 59-1.
+Thus, a reasonable factfinder could determine that the filling instruction “affirms or promises that
+the product . . . possesses specific characteristics or qualities or will meet a specified level of
+performance” to function in a way wherein it would be safe to follow the instruction. La. R.S.
+§ 9:2800.53(6).
+Case 2:24-cv-00926-EEF-MBN     Document 72     Filed 01/21/26     Page 16 of 21
+17
+
+Similarly, Plaintiff submitted sufficient summary judgment evidence to support the other
+three elements of a breach of express warranty claim. As to inducement, Plaintiff testified in his
+deposition that he spoke to one of Defendants’ employees before his injury about whether “there
+was anything that they sold to block off the end of the barrel with for an initial fill.” R. Doc. 59-2
+at 21. Then, shortly after the incident, he posted to social media , saying, “Never did like how the
+instructions said to place your finger over the muzzle knew better did it anyway . . . .” R. Doc. 57-
+11. Taken together, a reasonable juror could conclude that Plaintiff was induced to place his thumb
+over the barrel because the safety and filling instructions said to do so, especially when considering
+his potential hesitancy  to follow the instructions . And because Plaintiff’s thumb was allegedly
+injured when it was placed over the air rifle’s barrel in accordance with Defendants’ instructions,
+a factfinder could determine that the  product did not conform to the filling instructions’ express
+warranty and that it’s lack of conformity proximately caused Plaintiff’s injuries. His breach of
+express warranty claim will survive summary judgment.
+4. Redhibition Claims
+Finally, Defendants submit that Plaintiff does not have sufficient evidence to support a
+redhibition claim for both the air rifle and the replacement valve assembly. Redhibition claims are
+permissible in the LPLA context because the LPLA, despite its exclusivity provision, carves out
+redhibition claims from its definition of “damages.”  See La. R.S. § 9:2800.52 (exclusivity
+provision); La. R.S. § 9:2800.53(5) (definition of damages). Thus, “[c]ourts have interpreted the
+LPLA as preserving redhibition as a cause of action only to the extent the claimant seeks to recover
+the value of the product or other economic loss.” Pipitone v. Biomatrix, Inc., 288 F.3d 239, 251
+(5th Cir. 2002). Here, Plaintiff’s redhibition claim concerns the economic damages related to both
+the air rifle and the replacement valve assembly.
+Case 2:24-cv-00926-EEF-MBN     Document 72     Filed 01/21/26     Page 17 of 21
+18
+
+“Redhibition is the avoidance of a sale on account of some vice or defect in the thing sold
+which renders it either absolutely useless, or its use so inconvenient and imperfect, that it must be
+supposed that the buyer would not have purchased it had he known of the vice.” Alston v.
+Fleetwood Motor Homes of Ind., Inc., 480 F.3d 695, 699 (5th Cir. 2007) (citing La. Civ. Code art.
+2520). “A defect is redhibitory also when, without rendering the thing totally useless, it diminishes
+its usefulness or its value s o that it must be presumed that a buyer would still have bought it but
+for a lesser price.” La. Civ. Code art. 2520. In order to prevail in a suit for redhibition, the plaintiff
+must prove that “(1) the thing sold is absolutely useless for its intended purposes or that its use is
+so inconvenient that it must be supposed that he would not have bought it had he known of the
+defect; (2) that the defect existed at the time he purchased the thing, but was neither known or
+apparent to him; (3) that the seller was given the opportunity to repair the defect.” Alston, 480 F.3d
+at 699 (quoting Dalme v. Blockers M anufactured Homes, Inc., No. 2000- 00244 (La. App. 3 Cir.
+1/25/01), 779 So. 2d 1014, 1028).
+Defendants argue that Plaintiff’s redhibition claims cannot survive because, inter alia ,
+Plaintiff did not tell Defendants in his pre -accident e-mails that the air rifle had a defect. R. Doc.
+49-1 at 17. They also argue that Plaintiff’s consistent use of the air rifle between the March 2021
+purchase date and the January 2023 accident operates against any potential argument by Plaintiff
+that the air rifle was totally useless for its intended purpose. Plaintiff submits that he requested the
+second valve assembly from Defendants “in lieu of a request to repair the air rifle.” R. Doc. 59 at
+16. He also contends that  any modifications he made to the air rifle and second valve assembly
+before the accident  do not  work against him  in demonstrating that the products contained
+redhibitory vices when they left Defendants’ control. Id.
+Case 2:24-cv-00926-EEF-MBN     Document 72     Filed 01/21/26     Page 18 of 21
+19
+
+The Court finds that Plaintiff has not submitted sufficient evidence to allow his redhibition
+claims to survive. First, Plaintiff has not directed the Court to any record evidence that supports
+his position that the air rifle was absolutely useless for its intended purpose or its use was so
+inconvenient that Plaintiff would not have purchased it had he known of the defect. Upon a search
+of the record, the Court can find no competent summary judgment evidence to support his position.
+On the contrary, it appears that the parties do not contest that “Plaintiff fired the air rifle extensively
+prior to the subject accident” for nearly two years. R. Doc. 66 at 5.
+Plaintiff testified in his deposition that he used the air rifle for target practice during the
+first year he owned it because Louisiana had not yet made the use of these air rifles legal for large
+game. R. Doc. 59-2 at 16–17. He also used the air rifle both at friends’ houses and at a shooting
+range and tailored the product to his personal specifications through pre-accident modifications,
+such as painting the gun and replacing “O -rings.” E.g., id. at 17, 19. Plaintiff cites no deposition
+testimony describing that he made these modifications to the air rifle for reasons related to it being
+useless for its intended purpose. Moreover, the Court cannot find testimony or other competent
+summary judgment evidence to show that Plaintiff would not have purchased the rifle if he had
+known that the valve was defective, as he alleges. Altogether, the Court finds a lack of evidence to
+support Plaintiff’s redhibition claim as to the air rifle.
+Though a lack of evidence on the first element of a redhibition claim is sufficient to enter
+summary judgment, the Court notes that Plaintiff has not shown any evidence of the other
+redhibition elements. Plaintiff does not point the Court to any evidence, and the Court cannot find
+any evidence in the record itself, to show that the alleged defect was hidden and not known to
+Plaintiff at the time of purchase. Plaintiff similarly fails to show that he provided Defendants with
+an opportunity to repair the defect.
+Case 2:24-cv-00926-EEF-MBN     Document 72     Filed 01/21/26     Page 19 of 21
+20
+
+Plaintiff refers the Court to e -mails that he sent to Defendants about a month before the
+accident, arguing that “plaintiff warned the defendants about the problems he was experiencing
+with the product.” R. Doc. 59 at 3. Plaintiff’s initial e-mail to Defendants states:
+I would like to get a price quote for a new valve assembly for my
+408 extreme big bore. Hi [sic] disassembled the gun several times
+to make small modifications and change out o-rings on the air
+chamber . . . however I need a new valve [assembly] due to galvanic
+corrosion which occurred after the gun was dropped in a saltwater
+marsh.
+
+Id. at 1. Defendants replied, stating that “Unfortunately, the Valve assembly is tied to the change
+tube . . . so if you put on a separate valve the entire gun will be misaligned.” Id.  Plaintiff replied:
+“Well then can y’all send me a new valve . . . .” Id. Five days later, when Plaintiff did not yet hear
+back from Defendants, he sent a follow-up e-mail, stating in part, “I can rebuild the valve myself
+. . . Although I would truly prefer that you would just sell me a whole new valve assembly . . . I
+will go to another machine shop with the original valve and have them make me one.” Id. at 2.
+ The Court finds that a reasonable factfinder could not conclude, based on these e- mails,
+that Plaintiff contacted Defendants in order to  place them on notice of a redhibitory defect with
+their valve. The e-mails contain consistent representations from the Plaintiff that he wanted to
+purchase a replacement valve on his own accord. Indeed, Plaintiff’s initial e -mail to Defendants
+describes that he “need[ed] a new valve due to galvanic corrosion which occurred after the gun
+was dropped in a saltwater marsh.” R. Doc. 49-5 at 1 (emphasis added). These facts do not serve
+to support a redhibition claim and, at best, present only a scintilla of evidence that the valve could
+have been defective, which is insufficient at the summary judgment stage.
+ The Court comes to the same conclusion with respect to Plaintiff’s redhibition claim as to
+the replacement valve assembly. Plaintiff did not point the Court to any evidence exhibiting that
+he communicated with Defendants after purchasing the replacement valve assembly to provide
+Case 2:24-cv-00926-EEF-MBN     Document 72     Filed 01/21/26     Page 20 of 21
+21
+
+them with an opportunity to repair its alleged defects. Plaintiff also does not point to competent
+summary judgment evidence showing that he did not know that the second valve assembly
+possessed a hidden defect. With a complete lack of evidence as to the third element of a redhibition
+claim, the Court finds that Defendants are entitled to summary judgment on these claims.
+V. CONCLUSION
+Considering the foregoing,
+IT IS ORDERED that Defendants’ motion for partial summary judgment is GRANTED
+IN PART and DENIED IN PART . The motion is GRANTED IN PART  as to Plaintiff’s
+manufacturing/construction defect claims and redhibition claims. The motion is DENIED IN
+PART as to Plaintiff’s design defect claims and breach of express warranty claims.
+ New Orleans, Louisiana, this 20th day of January, 2026.
+
+       THE HONORABLE ELDON E. FALLON
+Case 2:24-cv-00926-EEF-MBN     Document 72     Filed 01/21/26     Page 21 of 21
