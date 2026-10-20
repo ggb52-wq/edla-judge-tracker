@@ -843,6 +843,17 @@ def main() -> int:
     opinions.sort(key=lambda o: (o["date"], o["case"], o["doc"]))
     if complete and now.weekday() < 5 and today not in holidays:
         through_row["date"] = today
+    # Court pages beyond the docket: each section's submission dates (daily), court notices (every six hours), and
+    # Fifth Circuit decisions in cases from this court (every pass). Read before the run log is written, so their notes are in it.
+    jp = court_info.load_json(DATA / "judge_pages.json", {})
+    sections = {j["code"]: (j.get("contact") or {}).get("section", "") for j in jp.get("judges", []) if j.get("code") in bench}
+    for name, fn in (("submission_dates", lambda old: court_info.update_submission_dates(old, http_get, sections, now, note)),
+                     ("notices", lambda old: court_info.update_notices(old, http_get, now, note)),
+                     ("appeals", lambda old: court_info.update_appeals(old, http_get, now, note))):
+        old = court_info.load_json(DATA / f"{name}.json", {})
+        new = fn(old)
+        if new is not old:
+            court_info.save_json(DATA / f"{name}.json", new)
     note.append(f"RSS {len(rss)} items ({len(rss_civil)} civil); CourtListener {cl.calls} calls")
     note.extend(sorted(set(cl.errors)))
     runs.append({"at": now.isoformat(timespec="minutes"), "from": window_from, "to": today,
@@ -867,17 +878,6 @@ def main() -> int:
                                      judges, orders + opinions + motions, now, note))
     texts.write_index()
     court_info.save_json(DATA / "dockets.json", sorted(dockets.values(), key=lambda r: r["case"]))
-    # Court pages beyond the docket: each section's submission dates (daily), court notices (every six hours), and
-    # Fifth Circuit decisions in cases from this court (every pass).
-    jp = court_info.load_json(DATA / "judge_pages.json", {})
-    sections = {j["code"]: (j.get("contact") or {}).get("section", "") for j in jp.get("judges", []) if j.get("code") in bench}
-    for name, fn in (("submission_dates", lambda old: court_info.update_submission_dates(old, http_get, sections, now, note)),
-                     ("notices", lambda old: court_info.update_notices(old, http_get, now, note)),
-                     ("appeals", lambda old: court_info.update_appeals(old, http_get, now, note))):
-        old = court_info.load_json(DATA / f"{name}.json", {})
-        new = fn(old)
-        if new is not old:
-            court_info.save_json(DATA / f"{name}.json", new)
     (DATA / "link_checks.json").write_text(json.dumps(dict(sorted(link_checks.items())), indent=0) + "\n")
     # Rewritten on every pass, so the site can show when the feed was last checked even when nothing new came in.
     paused_until = cl.paused_until or (paused if paused and paused > now else None)
