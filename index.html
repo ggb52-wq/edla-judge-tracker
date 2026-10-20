@@ -63,6 +63,10 @@
       <div class="ph"><h2 id="h-home-cases">Your cases</h2><a class="more-link" href="#cases">My cases →</a></div>
       <ol class="mini-cases" id="home-cases-list"></ol>
     </section>
+    <section class="panel" aria-labelledby="h-notices-home" hidden>
+      <div class="ph"><h2 id="h-notices-home">Court notices</h2><a class="more-link" href="#notices">All notices →</a></div>
+      <ol class="feed notices" id="home-notices"></ol>
+    </section>
     <section class="panel" aria-labelledby="h-latest-home">
       <div class="ph"><h2 id="h-latest-home">Latest on the docket</h2><a class="more-link" href="#activity">All docket activity →</a></div>
       <ol class="act compact" id="home-act"></ol>
@@ -189,6 +193,22 @@
     </section>
   </section>
 
+  <!-- ============================================================ Court notices -->
+  <section class="page" id="page-notices" aria-labelledby="h-notices" hidden>
+    <div class="jhead"><div><h1 id="h-notices">Court notices</h1><p class="sub">The court's news posts and General Orders, and Fifth Circuit decisions in civil cases from this court, each linked to the original. Read from the court's and the Fifth Circuit's public pages several times a day.</p></div><div class="actions"><span class="count" id="nt-checked"></span></div></div>
+    <div class="jgrid">
+      <div class="stack">
+        <section class="panel" aria-labelledby="h-nt-news"><div class="ph"><h2 id="h-nt-news">Court news</h2></div><ol class="feed notices" id="nt-news"></ol></section>
+        <section class="panel" aria-labelledby="h-nt-orders"><div class="ph"><h2 id="h-nt-orders">General orders</h2><a class="more-link" href="https://www.laed.uscourts.gov/attorney-information/rules-and-orders/general-orders" target="_blank" rel="noopener noreferrer">Court's page ↗</a></div><ol class="feed notices" id="nt-orders"></ol></section>
+      </div>
+      <aside class="stack">
+        <section class="panel" aria-labelledby="h-nt-ap"><div class="ph"><h2 id="h-nt-ap">Fifth Circuit decisions</h2><a class="more-link" href="https://www.ca5.uscourts.gov/opinions" target="_blank" rel="noopener noreferrer">Fifth Circuit ↗</a></div>
+          <div class="pb tight"><p class="cap">Opinions in appeals from civil cases in this court, with the judgment as the opinion states it. Read from each opinion's first page; the opinion controls.</p></div>
+          <ol class="feed" id="nt-appeals"></ol></section>
+      </aside>
+    </div>
+  </section>
+
   <!-- ============================================================ One case -->
   <section class="page" id="page-case" aria-labelledby="c-title" hidden>
     <div class="jhead">
@@ -196,6 +216,8 @@
         <p class="eyebrow"><a href="#cases">My cases</a> <span aria-hidden="true">/</span> <span id="c-crumb"></span></p>
         <div class="jtitle"><h1 id="c-title">Case</h1><span class="code" id="c-num"></span></div>
         <p class="fullname" id="c-judge"></p>
+        <p class="meta" id="c-facts" hidden></p>
+        <p class="meta" id="c-reassigned" hidden></p>
       </div>
       <div class="actions">
         <button type="button" class="btn watch" id="c-watch" aria-pressed="false">☆ Watch this case</button>
@@ -224,6 +246,14 @@
         <section class="panel" id="c-cal" aria-labelledby="h-ccal">
           <div class="ph"><h2 id="h-ccal">On the calendar</h2><div class="actions"><button type="button" class="btn ghost" id="c-ics" title="Download a calendar file (.ics) for Outlook, Google, or Apple Calendar">Add all to calendar</button><a class="more-link" id="c-cal-all" href="#calendar">Judge's calendar →</a></div></div>
           <ol class="cal-list" id="c-cal-list"></ol>
+        </section>
+        <section class="panel" id="c-appeals-panel" aria-labelledby="h-cap" hidden>
+          <div class="ph"><h2 id="h-cap">Fifth Circuit</h2></div>
+          <ol class="feed" id="c-appeals"></ol>
+        </section>
+        <section class="panel" id="c-counsel-panel" aria-labelledby="h-ccn">
+          <div class="ph"><h2 id="h-ccn">Parties and counsel</h2><a class="more-link" id="c-cl2" target="_blank" rel="noopener noreferrer"></a></div>
+          <div class="pb counsel" id="c-counsel"></div>
         </section>
         <section class="panel" id="c-req-panel" aria-labelledby="h-creq">
           <div class="ph"><h2 id="h-creq">Chambers and requirements</h2><a class="more-link" id="c-req-src" target="_blank" rel="noopener noreferrer">Court's page ↗</a></div>
@@ -306,6 +336,11 @@
       <div class="ph"><h2>Settings entered, date not on file yet</h2><span class="count" id="cal-pending-count"></span></div>
       <div class="pb tight"><p class="cap">Docket entries from the last two weeks that set or reset a proceeding. The court's feed gives the event but not the date; the date appears here once the entry's docket text is read or the proceeding reaches the court's seven-day calendar.</p></div>
       <ol class="act compact withjudge" id="cal-pending"></ol>
+    </section>
+    <section class="panel" hidden>
+      <div class="ph"><h2>Civil motion submission dates</h2></div>
+      <div class="scroll"><table class="t" id="cal-subtable"></table></div>
+      <p class="foot-note pad" id="cal-sub-note"></p>
     </section>
     <p class="foot-note" id="cal-note"></p>
   </section>
@@ -465,7 +500,7 @@
 <footer class="foot">
   <div class="foot-in">
     <p>Independent project. Not affiliated with the U.S. District Court for the Eastern District of Louisiana or any judge. Not legal advice. The numbers describe docket activity only and say nothing about whether any ruling was right. Sources: PACER, the court's public RSS feed, GovInfo (U.S. Government Publishing Office), and CourtListener (Free Law Project).</p>
-    <nav aria-label="About"><a href="methodology.html">How we count</a><a href="#log">Update log</a><a href="https://github.com/ggb52-wq/edla-judge-tracker">Data and code</a></nav>
+    <nav aria-label="About"><a href="#notices">Court notices</a><a href="methodology.html">How we count</a><a href="#log">Update log</a><a href="https://github.com/ggb52-wq/edla-judge-tracker">Data and code</a></nav>
     <p class="keys"><kbd>/</kbd> search <kbd>[</kbd> <kbd>]</kbd> previous / next judge <kbd>Esc</kbd> close</p>
   </div>
 </footer>

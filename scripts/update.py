@@ -18,6 +18,7 @@ from __future__ import annotations
 
 import datetime as dt
 import email.utils
+import html
 import json
 import os
 import re
@@ -31,6 +32,7 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 import govinfo
+import court_info
 import hearings
 import opinion_text
 from outcome_text import classify, motion_doc
@@ -292,7 +294,7 @@ def fetch_rss(note: list[str]) -> list[dict]:
         return []
     items = []
     for it in root.iter("item"):
-        title = (it.findtext("title") or "").strip()
+        title = html.unescape((it.findtext("title") or "").strip())  # the feed escapes some characters twice ("Henry&#039;s")
         desc = it.findtext("description") or ""
         case, kind = base_case(title)
         bracket = re.search(r"\[([^\]]+)\]", desc)
@@ -587,6 +589,7 @@ def main() -> int:
     log("searching CourtListener for new entries" if do_search else "skipping the CourtListener search this run")
     docket_info: dict[int, dict] = {}
     cl_entries: dict[tuple[str, str], dict] = {}
+    dockets = {r["case"]: r for r in court_info.load_json(DATA / "dockets.json", [])}
     q = ("short_description:order OR short_description:judgment OR short_description:hearing OR "
          "short_description:hearings OR short_description:transferred OR short_description:recommendations")
     for d in (cl.paged("search/", {"type": "r", "court": "laed", "q": q,
@@ -595,6 +598,7 @@ def main() -> int:
         info = {"case": case, "kind": kind, "judge": judge_code(d.get("assignedTo")),
                 "title": (d.get("caseName") or "")[:70]}
         docket_info[d.get("docket_id")] = info
+        court_info.note_docket(dockets, case, info["judge"], d, today)
         if info["judge"]:
             case_judge.setdefault(case, info["judge"])
         for rd in d.get("recap_documents", []) or []:
@@ -712,6 +716,7 @@ def main() -> int:
             for d in cl.paged("search/", {"type": "r", "court": "laed",
                                            "q": "docket_id:(" + " OR ".join(map(str, chunk)) + ")"}, limit_pages=2):
                 case, kind = base_case(d.get("docketNumber", ""))
+                court_info.note_docket(dockets, case, judge_code(d.get("assignedTo")), d, today)
                 docket_info[d.get("docket_id")] = {"case": case, "kind": kind,
                                                    "judge": judge_code(d.get("assignedTo")),
                                                    "title": (d.get("caseName") or "")[:70]}
@@ -861,6 +866,18 @@ def main() -> int:
     save("hearings", update_hearings(load("hearings") if (DATA / "hearings.json").exists() else [], cl_entries, case_judge,
                                      judges, orders + opinions + motions, now, note))
     texts.write_index()
+    court_info.save_json(DATA / "dockets.json", sorted(dockets.values(), key=lambda r: r["case"]))
+    # Court pages beyond the docket: each section's submission dates (daily), court notices (every six hours), and
+    # Fifth Circuit decisions in cases from this court (every pass).
+    jp = court_info.load_json(DATA / "judge_pages.json", {})
+    sections = {j["code"]: (j.get("contact") or {}).get("section", "") for j in jp.get("judges", []) if j.get("code") in bench}
+    for name, fn in (("submission_dates", lambda old: court_info.update_submission_dates(old, http_get, sections, now, note)),
+                     ("notices", lambda old: court_info.update_notices(old, http_get, now, note)),
+                     ("appeals", lambda old: court_info.update_appeals(old, http_get, now, note))):
+        old = court_info.load_json(DATA / f"{name}.json", {})
+        new = fn(old)
+        if new is not old:
+            court_info.save_json(DATA / f"{name}.json", new)
     (DATA / "link_checks.json").write_text(json.dumps(dict(sorted(link_checks.items())), indent=0) + "\n")
     # Rewritten on every pass, so the site can show when the feed was last checked even when nothing new came in.
     paused_until = cl.paused_until or (paused if paused and paused > now else None)
