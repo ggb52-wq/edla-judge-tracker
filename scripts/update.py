@@ -32,6 +32,7 @@ from zoneinfo import ZoneInfo
 
 import govinfo
 import hearings
+import opinion_text
 from outcome_text import classify, motion_doc
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -119,13 +120,25 @@ CASE_RE = re.compile(r"(\d:\d\d-([a-z]{2})-\d{5})")
 # A motion's own docket entry: "Motion to Dismiss", "Ex Parte/Consent Motion for Extension", "Joint Motion to Continue".
 # Responses, replies, orders, and notices that mention a motion are not motions.
 MOTION_EVENT_RE = re.compile(r"^(?:[\w./-]+\s){0,2}motion\s+(?:to|for|in)\b", re.I)
-NOT_MOTION_RE = re.compile(r"response|reply|opposition|order|notice|memorand", re.I)
+# The court's RSS feed usually names a motion by its relief alone: "[Compel]", "[Continue]", "[Leave to File Document]",
+# "[Extension of Deadlines AND Continue]". Same list as RELIEF_RE in assets/app.js.
+RELIEF_RE = re.compile(
+    r"^(?:continue|expedite|reconsideration|extension of (?:time|deadlines)|leave to (?:file|amend|appeal|proceed)|dismiss|"
+    r"(?:partial )?summary judgment|judgment on the pleadings|compel|protective order|remand|stay|withdraw as attorney|"
+    r"enroll as counsel|substitute attorney|appear pro hac vice|default judgment|entry of default|quash|strike|in limine|"
+    r"exclude|intervene|amend|seal|attorney fees|sanctions|new trial|transfer|consolidate|miscellaneous relief|"
+    r"preliminary injunction|temporary restraining order|reopen|set aside|recuse|sever|bifurcate|certify class|vacate|"
+    r"substitute party|appoint counsel|proceed in forma pauperis)\b", re.I)
+NOT_MOTION_RE = re.compile(r"response|reply|opposition|order|notice|memorand|judgment entered", re.I)
 # EDLA docket text: "Motion(s) will be submitted on 11/4/2026" or "set for submission on 11/4/2026".
 SUBMISSION_RE = re.compile(r"submi(?:tted|ssion)\s+(?:on\s+)?(\d{1,2})/(\d{1,2})/(\d{2,4})", re.I)
 
 
 def is_motion_event(event: str) -> bool:
-    return bool(MOTION_EVENT_RE.match(event or "")) and not NOT_MOTION_RE.search(event or "")
+    e = event or ""
+    if NOT_MOTION_RE.search(e):
+        return False
+    return bool(MOTION_EVENT_RE.match(e)) or any(RELIEF_RE.match(p.strip()) for p in re.split(r"\s+AND\s+|\s+/\s+", e))
 
 
 def submission_date(text: str) -> str:
@@ -437,7 +450,8 @@ def docket_id_of(url: str | None) -> str:
     return m.group(1) if m else ""
 
 
-def link_opinions(cl: CourtListener, opinions: list[dict], checks: dict, outcomes: dict, today: str) -> tuple[int, int]:
+def link_opinions(cl: CourtListener, opinions: list[dict], checks: dict, outcomes: dict, today: str,
+                  texts: opinion_text.Store | None = None) -> tuple[int, int]:
     """Look up CourtListener addresses, and the order text for outcomes, a few opinions per run.
 
     An opinion is looked up while it lacks a PDF link or, if it rules on a motion, an outcome.
@@ -484,6 +498,8 @@ def link_opinions(cl: CourtListener, opinions: list[dict], checks: dict, outcome
         if o.get("pdf") and "pages" not in o:
             o["pages"] = 0  # looked up; CourtListener had no count
         text = next((r.get("plain_text") for r in results if (r.get("plain_text") or "").strip()), "")
+        if text and texts is not None:
+            texts.save(o["case"], o["doc"], text, int(o.get("pages") or 0), "courtlistener", today)
         if text and needs_outcome(o):
             # Order text that yields no outcome is marked "unclear" so it is not read again; a hand entry can replace it.
             set_outcome(outcomes, o, classify(text, o.get("event", ""), o.get("r12", 0), o.get("r56", 0), "order") or "unclear", "opinion_text", today)
@@ -617,7 +633,11 @@ def main() -> int:
     motions = load("motions") if (DATA / "motions.json").exists() else []
     motion_keys = {(m["case"], m["doc"]) for m in motions}
     added_motions = 0
-    for i in rss_civil:
+    # The saved feed (data/feed.json, 14 days) as well as this read, so a motion missed by an earlier run is still added.
+    saved_feed = [{"case": f["case"], "doc": f["doc"], "event": f["event"], "title": f.get("title", "")[:70],
+                   "when": dt.datetime.fromisoformat(f["at"])} for f in (load("feed") if (DATA / "feed.json").exists() else [])
+                  if f.get("case") and f.get("at") and "-cv-" in f["case"]]
+    for i in rss_civil + saved_feed:
         key = (i["case"], i["doc"])
         if not i["doc"] or key in motion_keys or not is_motion_event(i["event"]):
             continue
@@ -628,7 +648,7 @@ def main() -> int:
         added_motions += 1
     # Submission dates and motions the feed missed, from CourtListener's docket text (one or two calls per search).
     if do_search:
-        for r in cl.paged("search/", {"type": "rd", "court": "laed", "q": "short_description:motion",
+        for r in cl.paged("search/", {"type": "rd", "court": "laed", "q": 'short_description:motion OR description:"submitted on"',
                                        "entry_date_filed_after": window_from, "entry_date_filed_before": today}, limit_pages=3):
             case, kind = base_case(r.get("docketNumber", ""))
             doc = str(r.get("document_number") or r.get("entry_number") or "")
@@ -734,6 +754,7 @@ def main() -> int:
         note.append("Search cut short before all new entries were read; window kept")
 
     # --- GovInfo: opinion PDFs, page counts, and order text, ahead of CourtListener's tighter limits
+    texts = opinion_text.Store(DATA.parent / "opinions_text")
     gi_key = os.environ.get("GOVINFO_API_KEY")
     gi_pdf = gi_read = 0
     if gi_key:
@@ -758,6 +779,8 @@ def main() -> int:
                 gi_pdf += 1
             if pages and not o.get("pages"):
                 o["pages"] = pages
+            if text:
+                texts.save(o["case"], o["doc"], text, pages, "govinfo", today)
             key = f"{o['case']}|{o['doc']}"
             if text and rules_on_motion(o) and key not in outcomes:
                 # The filing date of the decided motion still comes from CourtListener's docket, so motion_doc is left
@@ -780,8 +803,17 @@ def main() -> int:
     else:
         note.append("No GovInfo key; GovInfo skipped")
 
+    # --- The full text of opinions with a stored PDF, for search (opinions_text/; public downloads, no API calls)
+    try:
+        import pypdf  # noqa: F401
+        tx = texts.backfill(opinions, http_get, today, time.monotonic() + 4 * 60)
+        if tx["tried"]:
+            note.append(f"{tx['saved']} opinion texts saved ({tx['left']} to go)" + (f", {tx['errors']} downloads failed" if tx["errors"] else ""))
+    except ImportError:
+        note.append("Opinion text skipped: pypdf not installed")
+
     # --- CourtListener addresses for opinions already in the data
-    linked, read = link_opinions(cl, opinions, link_checks, outcomes, today) if cl.token else (0, 0)
+    linked, read = link_opinions(cl, opinions, link_checks, outcomes, today, texts) if cl.token else (0, 0)
     if linked:
         note.append(f"{linked} opinion links added")
     if read:
@@ -828,6 +860,7 @@ def main() -> int:
     save("feed", update_feed(load("feed") if (DATA / "feed.json").exists() else [], rss_civil, case_judge, now))
     save("hearings", update_hearings(load("hearings") if (DATA / "hearings.json").exists() else [], cl_entries, case_judge,
                                      judges, orders + opinions + motions, now, note))
+    texts.write_index()
     (DATA / "link_checks.json").write_text(json.dumps(dict(sorted(link_checks.items())), indent=0) + "\n")
     # Rewritten on every pass, so the site can show when the feed was last checked even when nothing new came in.
     paused_until = cl.paused_until or (paused if paused and paused > now else None)
