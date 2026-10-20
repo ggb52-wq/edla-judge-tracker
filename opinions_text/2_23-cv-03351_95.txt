@@ -1,0 +1,609 @@
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+STEVEN JAY SENCIAL
+
+             CIVIL ACTION
+VERSUS
+
+      NO. 23-3351
+JOSEPH LOPINTO III, ET AL.                  SECTION: (4)
+
+ORDER AND REASONS
+
+Before the Court, on consent of the parties under the authority of 28 U.S.C. § 636(c), is a
+Motion for Summary Judgment (ECF No. 76) filed by defendants CorrectHealth Jefferson LLC,
+Dr. Juanita Alexander-Sallier, Dr. Philip W. Nowlin, and Clara McKinley, LPN (“Defendants”)
+through counsel. Plaintiff Steven Jay Sencial  (“Sencial”) filed an opposition to the motion. ECF
+No. 83. Neither party requested oral argument in accordance with Local Rule 78.1 and the Court
+agrees that oral argument is unnecessary.
+I. Factual and Procedural Background
+   Sencial was a pretrial detainee housed in the Jefferson Parish Correctional Center
+(“JPCC”) when he filed this pro se and in forma pauperis complaint pursuant to 42 U.S.C. § 1983.
+ECF No. 1, ¶I(A), at 2; id., ¶III, at 4. Sencial named as defendants Jefferson Parish Sheriff Joseph
+Lopinto III, in his individual and official capacities, CorrectHealth Jefferson, LLC
+(“CorrectHealth”), and Deputy Jody Lee Banks, Deputy L. Preatto, Dr. Juanita Alexander-Sallier,
+Dr. Phillip W. Nowlin, Clara McKinley, LPN, Dr. Lumbar, Sgt. Steven Rabb, and Deputy Kevin
+Smith1, each in an individual capacity, challenging the length and conditions of his confinement,
+
+1 Sencial voluntarily dismissed defendants Smith and Rabb. See ECF No. 16.
+Case 2:23-cv-03351-KWR     Document 95     Filed 04/14/26     Page 1 of 23
+2
+
+as well as the alleged use of excessive force and adequacy of the medical care received at JPCC.
+Id., ¶I(B), at 2; id., ¶III, at 4.
+The undersigned Magistrate Judge conducted its frivolousness review and, on April 15,
+2024, issued an extensive Partial Report and Recommendation. ECF No. 18. In the Partial Report,
+the Court outlined the only two remaining claims asserted in Sencial’s  complaint as follows and
+as relevant to this Motion and the moving defendants:
+B. Incident No. 1 – Medical Care for Ongoing Ailments in June, 2022
+Sencial alleges that on June 22, 2022, he was found unconscious on the floor
+of his cell and brought to medical and put in cell 2MI. Sencial alleges that he was
+not provided medical treatment for his injury.  Instead, Sencial alleges that the
+nurses put hi m on tuberculosis confinement and isolated him in cell MI8 for one
+month, where he was denied access to daily showers.  Sencial asserts that the x-ray
+for his injury was delayed 15 days because he was in solitary confinement, with no
+way to communicate with the outside per the instructions of Drs. Alexander-Sallier
+and Nowlin.  Sencial claims that this also led to the loss of his personal property
+and pets when he could not make calls to arrange his personal matters.  Id., ¶5, at
+6.
+Sencial further claims that on June 23, 2022, he attempted suicide due to his
+circumstances and encouragement by nurses and deputies.  Id ., ¶6, at 7.  Sencial
+alleges that this caused him to lose “over 80,000 in equity and extreme emotional
+distress.”  Id.  He also claims that the doctors at the jail failed to document his long-
+term disabilities of anterior cervical discectomy and fusion (“ACDF”) in his
+cervical spine, a gunshot wound to his left thigh, a dog bite to his right arm, and
+resulting loss of strength and feeling in his limbs.  Id. at ¶8.  Sencial alleges that as
+a result, he needs help with daily tasks like climbing, showering, and sleeping
+because of nerve pain.
+Sencial asserts that the doctors failed to document his disabilities, causing
+wanton infliction of pain for more than one year.  Sencial claims that he made
+multiple requests for a lower bunk, seats for showers, a knee brace, and pain
+medication to no avail.  Sencial asserts that the failure to provide these caused him
+additional injuries from a fall in the shower, fall off a top bunk, and hopping around
+the jail on one leg.  He claims that all of this was deliberate indifference, inadequate
+medical care, and violations of “ADA” (presumably the Americans with
+Disabilities Act”) by Drs. Alexander-Sallier and Nowlin.  Id. at ¶9; Id. at 11.
+
+[. . .]
+
+D. Incident No. 3 – Medical Care After Ingesting Rat Feces
+Sencial alleges that on October 31, 2022, he was taken off suicide watch
+and placed in a suicide watch holding cell.  Id ., ¶13, at 9.  Sencial asserts that he
+Case 2:23-cv-03351-KWR     Document 95     Filed 04/14/26     Page 2 of 23
+3
+
+was given commissary items from a storage area that was infested with mice.
+Sencial claims that when eating the items, he ingested mice droppings and food
+covered in mice urine.  He claims that he became ill and reported it to deputies and
+nurses.  He alleges that his face went numb but he was denied poison control or
+treatment by Nurse McKinley.  He claims that the nurse told him to get treated by
+a doctor when he was released.  He also asserts that this mistreatment by
+CorrectHealth nurses led to acute reactions, breathing problems, blackouts, and loss
+of enjoyment of life because his tongue lost sensation.
+Sencial further claims that Cell 4DR was infested with mice, and that this
+caused more reactions, swelling in face and eyes, and blackouts while in Cell 10.
+He alleges that Sheriff Lopinto failed to control the mice infestation in the jail.  He
+claims that mice were in his bedding and have bitten and scratched him, causing
+him to go into shock.  He also claims that he has been on medication as a result for
+six months.
+Sencial alleges that Nurse McKinley failed to provide adequate medical
+care and that Sheriff Lopinto failed to maintain the jail facility through failure to
+address the rodent issue.  Id. at 12.
+ECF No. 18, ¶I(B), at 3-4; id., ¶I(D), at 5-6.
+After applying the relevant law and standards of review to the facts alleged in Incident Nos.
+1 and 3, the only claims remaining after the frivolousness review against the moving defendants
+were as follows:
+1. Sencial’s § 1983 medical indifference and violation of ADA claims under
+Incident One against Dr. Alexander -Sallier and Dr. Nowlin arising from their
+alleged failure to recognize and provide him with treatment for pain and other side-
+effects from his listed chronic pre-existing conditions which have resulted in injury
+including unnecessary long-term pain and repeated difficulties in performing basic
+life tasks and which prevented him from receiving needed accommodations from
+the jail.
+2. Sencial’s § 1983 medical indifference claims against Nurse McKinley
+under Incident Three arising from her alleged failure to adequately treat him for a
+reaction after ingesting rat excrement.
+3. Sencial’s state law claims of  malpractice, negligence, and intentional
+infliction of emotional distress, against Dr. Alexander -Sallier, Dr. Nowlin, and
+Nurse McKinley, and his state law respondeat superior  liability claims against
+CorrectHealth arising from the actions and inactions of its employees, Drs. Nowlin
+and Alexander-Sallier and Nurse McKinley, in connection with Incidents One and
+Three.
+Case 2:23-cv-03351-KWR     Document 95     Filed 04/14/26     Page 3 of 23
+4
+
+ECF No. 45 at 10- 11. These findings and the recommendations in the Partial Report and
+Recommendation were adopted by the District Judge as the opinion of the Court on May 9, 2024.
+ECF No. 20.
+ On October 15, 2024, Defendants filed a motion to dismiss for failure  to state a claim.
+ECF No. 40. The Court interpreted Defendants motion to include requests to dismiss (1) the ADA
+claims asserted in Incident One against Drs. Nowlin and Alexander-Sallier for being brought
+against individuals and not an entity, and for otherwise lacking merit, (2) the inadequate medical
+care claim in Incident Three against Nurse McKinley because Sencial fails to allege that he
+received inadequate medical care and only dis agrees with the treatment he received; and (3) the
+state law medical malpractice and negligence claims under Incident One against Drs. Nowlin and
+Alexander-Sallier and Incident Three against Nurse McKinley, and related respondeat superior
+claims against CorrectHealth as premature. ECF No. 45 at 11.
+Following the review of  Defendants’ motion, t he undersigned issued a Report and
+Recommendation recommending that Defendants ’ motion be granted in part to dismiss with
+prejudice Sencial’s ADA and RA claims against Dr. Nowlin and Dr. Alexander -Sallier in their
+individual capacities, and to dismiss without prejudice Sencial’s state law claims of malpractice
+and negligence urged against Dr. Nowlin, Dr. Alexander-Sallier, and Nurse McKinley and the
+related respondeat superior  claims against CorrectHealth as premature. ECF No. 45 at 19 -20.
+Further, it was recommended that the motion be denied in part  as to Sencial’s claims of medical
+indifference against Nurse McKinley and state law intentional tort claims against Dr. Nowlin, Dr.
+Alexander-Sallier, Nurse McKinley, and related respondeat superior  claims against
+CorrectHealth.
+Case 2:23-cv-03351-KWR     Document 95     Filed 04/14/26     Page 4 of 23
+5
+
+These findings and recommendations in the Report and Recommendation were adopted by
+the District Judge on April 17, 2025.  ECF No. 47. Based on Sencial’s objection to the Report and
+Recommendation, the District Judge ordered that Sencial be allowed to amend his complaint only
+for the purpose of naming Drs. Nowlin and Alexander -Sallier in their official capacities with
+respect to his ADA and RA claims. Id. at 5. On April 28, 2025, Sencial filed an amended complaint
+naming Drs. Nowlin and Alexander-Sallier in their official capacities for his ADA and RA claims.
+At this juncture, the only claims remaining as related this motion for summary judgment
+and the moving defendants are Sencial’s § 1983 medical indifference claims and Sencial’s
+violation of ADA  and RA  claims in their official capacities under Incident One against Dr.
+Alexander-Sallier and Dr. Nowlin , Sencial’s § 1983 medical indifference claims against Nurse
+McKinley for Incident Three, and Sencial’s related state law intentional tort claims against Dr.
+Nowlin, Dr. Alexander-Sallier, Nurse McKinley, and related respondeat superior  claims against
+CorrectHealth.
+a. Defendants’ Motion for Summary Judgment (ECF No. 76)
+Defendants Dr. Alexander-Sallier, Dr. Nowlin, Nurse McKinley, and CorrectHealth moved
+for summary judgment dismissal of Sencial’s § 1983 medical indifference  and related state law
+intentional tort claims against Dr. Alexander-Sallier, Dr. Nowlin, and Nurse McKinley, Sencial’s
+ADA and RA claims against Drs. Alexander -Sallier and Nowlin in their official capacities, and
+Sencial’s related state law respondeat superior claims against CorrectHealth. ECF No. 76-2, ¶I, at
+3.
+In their supporting memorandum , as to Sencial’s ADA and RA claims,  Defendants state
+that they are entitled to summary judgment as private entities and their employees are not subject
+to suit under the ADA, Sencial failed to prove federal funding under the RA, mere disagreements
+Case 2:23-cv-03351-KWR     Document 95     Filed 04/14/26     Page 5 of 23
+6
+
+with medical care do not constitute violations of the ADA and RA, and because the Medical
+Review Panel is unrebutted evidence that Sencial cannot prove a violation of the ADA or RA. Id.
+at 6, 8, 9. Second, Defendants state they are entitled to summary judgment on Sencial’s § 1983
+medical indifference clams against Dr. Alexander -Sallier, Dr. Nowlin, and Nurse McKinle y
+because there is no evidence of deliberate indifference. Id. at 12. Defendants argue that the Medical
+Review Panel’s report should guide the Court in evaluating Sencial’s medical care. Id. at 17. Third,
+Defendants state they are entitled to summary judgment because Sencial’s state law claims fail as
+a matter of law. Id. at 15. Finally, Defendants state they are entitled to summary judgment because
+Sencial cannot prove damages or establish lost wages. Id. at 18, 21.
+In their statement of uncontested facts, Defendants state that Sencial was incarcerated in
+JPCC in 2022 and 2023. ECF No. 76-13 at 1. They state that CorrectHealth is a private company
+contracted by Jefferson Parish to provide medical care to inmates during the relevant time period
+and employed the Defendants. Defendants assert that Sencial underwent an anterior cervical
+discectomy and fusion in August 2011 and was looking to return to work by May 2012. Id. at 1-2.
+Defendants note that Sencial’s treating neurosurgeon concluded that he was healed from his injury
+and could return to work. Id . at 2. They claim that Sencial returned to work as a plumber in
+Wisconsin post -surgery and continued to work as a plumber in California following a state
+licensing exam in 2017.
+Defendants state that Sencial was injured when he was kicked in the head by other inmates
+causing memory loss, eye issues, inability to see, and a TBI. Id . Further, Defendants state that
+Sencial was punched in the face by an inmate. Further, Defendants state that while incarcerated in
+Stone County, Mississippi, in August 2024 that Sencial reported a fall that caused pain in his left
+elbow, claimed nerve damage in his arm, and emotional and mental anguish damages as a result
+Case 2:23-cv-03351-KWR     Document 95     Filed 04/14/26     Page 6 of 23
+7
+
+of his incarceration in Stone County. Id. at 2-3. Defendants also state that Sencial claimed medical
+deliberate indifference in Stone County and that his neck, back, and leg conditions were aggravated
+or made worse.
+While he was incarcerated in JPCC, Defendants state that Sencial was examined by Nurse
+McKinley on November 10, 2022, following his alleged ingestion of rodent waste. Id . at 3. This
+examination included observing Sencial take his medication and drink four ounces of water, taking
+his blood pressure, respiratory rate, and oxygen saturation as well as a physical manual
+examination which noted his skin and temperature color.
+Defendants also state that Sencial requested a Medical Review Panel involving all his
+complaints regarding the medical care at issue here. Id. Defendants state the medical review panel
+consisted of three doctors who unanimously determined that Sencial was appropriately evaluated
+for his complaints, an adequate response was made to all his complaints, and that the response to
+his complaints met the standard of care.
+Further, Defendants state that Sencial has not filed a witness or exhibit list, produced any
+corroborative evidence supporting his claims, nor provided any expert reports or disclosures
+supporting his damages claims. Id.
+In support of these uncontested facts, Defendants provide  a copy of  Sencial’s Medical
+Review Panel Request, Sencial’s submission to the Patient’s Compensation Fund, and the Medical
+Review Panel opinion. See ECF No. 76-3 Exh. A (Medical Review Panel Request); ECF No. 76-
+4 Exh. B (PCF Submission); ECF No. 76-5 Exh. C (Medical Review Panel Opinion). Defendants
+also provide an operative note from Sencial’s surgeon in August 2011, and a May 2012 note
+regarding his return to work. See ECF No. 76-7 Exh. E (Operati ve Note); ECF No. 76 -8 Exh. F
+(Work Note). Defendants also produce transcripts containing excerpts of Sencial’s testimony in
+Case 2:23-cv-03351-KWR     Document 95     Filed 04/14/26     Page 7 of 23
+8
+
+depositions on January 5, 2026, and May 21, 2025. See ECF No. 76- 9 Exh. G (Deposition
+Transcript); ECF No. 76-10 Exh. H (Deposition Transcript). Further, Defendants provide medical
+records from November 2023 and Stone County medical records. See ECF No. 76-11 Exh. I (UMC
+Medical Records); ECF No. 76-12 Exh. J (Stone County Medical Records).
+In his opposition to Defendants motion, Sencial states  that Defendants assertions are
+refuted by his allegations of deliberate indifference to his serious medical needs. ECF No. 83 at 1.
+Further, he states that Exhibit E, the operative note from his surgeon in August 2011, is proof that
+he had a preexisting condition under the ADA. Sencial also claims that his visit to medical in
+November 2022 with Nurse McKinley was for a hunger strike and did not pertain to the ingestion
+of rat feces. Sencial states that as a disabled person he was discriminated against by not receiving
+proper bedding and a lower bunk which he stated he communicated to Dr. Nowlin and all other
+medical staff. Id. at 2.  Regarding the Medical Review Panel, Sencial states Defendants reliance
+on the Panel’s conclusions should have no weight in this proceeding as it is misleading, biased,
+and not binding. Finally, Sencial claims that Defendants assertion that he was injured due to an
+incident while incarcerated in Stone County is flawed, as the claim was negligence from a delay
+of service for ulnar nerve damage caused by Deputy Wilkie  at JPCC  that was not treated by
+CorrectHealth.
+II. Standard of Review for Summary Judgment
+ Rule 56(a) of the Federal Rules of Civil Procedure provides that summary judgment is
+appropriate where “the movant shows that there is no genuine dispute as to any material fact and
+the movant is entitled to judgment as a matter of law.”  A fact is “material” if resolving that fact
+Case 2:23-cv-03351-KWR     Document 95     Filed 04/14/26     Page 8 of 23
+9
+
+in favor of one party could affect the outcome of the suit.  See Anderson v. Liberty Lobby, Inc.,
+477 U.S. 242, 248 (1986); Poole v. City of Shreveport, 691 F.3d 624, 626-27 (5th Cir. 2012).
+Where the moving party bears the burden of proof at trial as the plaintiff, or as a defendant
+asserting an affirmative defense, that party must support its motion with “credible evidence . . .
+that would entitle it to directed verdict if not controverted at trial.”  Celotex Corp. v. Catrett , 477
+U.S. 317, 331 (1986).  Moreover, in evaluating a motion for summary judgment by the party with
+the underlying burden of proof, the Court considers the substantive evidentiary burden of proof
+that would apply at the trial on the merits.  Anderson, 477 U.S. at 252.  In such a case, the moving
+party must “establish beyond peradventure all of the essential elements of the claim or defense to
+warrant judgment in his favor.”  Fontenot v. Upjohn Co., 780 F.2d 1190, 1194 (5th Cir. 1986)
+(emphasis in original); see also Access Mediquip L.L.C. v. UnitedHealthcare Ins. Co., 662 F.3d
+376, 378 (5th Cir. 2011).  Credible evidence may include depositions, documents, affidavits,
+stipulations, admissions, interrogatory answers, or other materials.  Fed. R. Civ. P. 56(c).
+Once the moving party has made its showing, the burden shifts to the non-moving party to
+produce evidence that demonstrates the existence of a genuine issue of fact.  Engstrom v. First
+Nat. Bank of Eagle Lake, 47 F.3d 1459, 1462 (5th Cir. 1995) (citing Celotex, 477 U.S. at 322-24).
+All justifiable inferences are to be drawn in the non-moving party’s favor.  Anderson, 477 U.S. at
+255.  However, “[u]nsubstantiated assertions, improbable inferences, and unsupported speculation
+are not sufficient to defeat a motion for Summary Judgment.”  Brown v. City of Houston, Tex., 337
+F.3d 539, 541 (5th Cir. 2003) (internal citations omitted); see also Eason v. Thaler, 73 F.3d 1322,
+1325 (5th Cir. 1996) (stating that “mere conclusory allegations” are insufficient to defeat a motion
+for summary judgment).  Although the Court may not evaluate evidence on a motion for summary
+judgment, the Court may make a determination as to the “caliber or quantity” of evidence as part
+Case 2:23-cv-03351-KWR     Document 95     Filed 04/14/26     Page 9 of 23
+10
+
+of its determination of whether sufficient evidence exists for the fact -finder to find for the non-
+moving party.  Anderson, 477 U.S. at 254.  “[T]his court construes ‘all facts and inferences in the
+light most favorable to the nonmoving party.’”  McFaul v. Valenzuela, 684 F.3d 564, 571 (5th Cir.
+2012) (quoting Dillon v. Rogers, 596 F.3d 260, 266 (5th Cir. 2010)).
+III. Discussion
+a.  ADA and RA Claims
+ Sencial asserts a claim against Drs. Alexander -Sallier and Nowlin in their official
+capacities for violation of the ADA and RA by failing to document his long- term disabilities of
+anterior cervical discectomy and fusion (“ACDF”) in his cervical spine, a gunshot wound to his
+left thigh, a dog bite to his right arm, and resulting loss of strength and feeling in his limbs. Sencial
+claims that he made multiple requests for extra bedding, a lower bunk, seats for showers, a knee
+brace, and pain medication to no avail.
+Under the ADA, “no qualified individual with a disability shall, by reason of such
+disability, be excluded from participation in or be denied the benefits of the services, programs, or
+activities of a public entity, or be subjected to discrimination by any such entity.”  42 U.S.C. §
+12132.   A plaintiff must show “(1) that he has a qualifying disability; (2) that he is being denied
+the benefits of services, programs, or activities for which the public entity is responsible, or is
+otherwise discriminated against by the public entity; and (3) that such discrimination is by reason
+of his disability.”  Hale v. King, 642 F.3d 492, 499 (5th Cir. 2011).  The elements needed to plead
+a claim under the RA and the standards governing such claims are “operationally identical” to
+those required to state a claim under the ADA.  Melton v. Dallas Area Rapid Transit, 391 F.3d
+669, 676 n.8 (5th Cir. 2004); see also Sligh v. City of Conroe , 87 F.4th 290, 304 (5th Cir. 2023).
+Case 2:23-cv-03351-KWR     Document 95     Filed 04/14/26     Page 10 of 23
+11
+
+“The only material difference between the two provisions lies in their respective causation
+requirements.”  Bennett-Nelson v. La. Bd. of Regents, 431 F.3d 448, 454 (5th Cir. 2005).
+ To have a qualifying disability, a plaintiff must demonstrate “(A) a physical or mental
+impairment that substantially limits one or more of the major life activities of such individual; (B)
+a record of such an impairment; or (C) being regarded as having such an impairment.”  Hale, 642
+F.3d at 499- 500 (internal quotations omitted).  Further, under the ADA, a plaintiff may assert a
+claim for failure to make “reasonable accommodations to the known physical or mental limitations
+of an otherwise qualified individual.”  42 U.S.C. § 12112(b)(5)(A).
+  Defendants state that any ADA claim against Drs. Alexander -Sallier and Nowlin in their
+official capacities fails as they are employees of CorrectHealth Jefferson LLC , which is a private
+entity contracted to provide medical services to inmates at JPCC.
+ The Defendants are correct that Title II , as codified at 42 U.S.C. § 12131(1) , prohibits
+discrimination by “public entities.” It is undisputed that state and local prisons fall squarely within
+this statutory definition.  See Pennsylvania Dep’t of Corr. v. Yeskey, 524 U.S. 206, 210 (1998).
+ Given that CorrectHealth Jefferson LLC is a private institution contracted to provide
+medical services with JPCC, it would appear that CorrectHealth does not qualify as a public entity
+for purposes of Title II. The Act provides that “[t]he term ‘public entity’ means -(A) any State or
+local government; (B) any department, agency, special purpose district, or other instrumentality of
+a State or States or local government; and (C) the National Railroad Passenger Corporation, and
+any commuter authority (as defi ned in section 24102(4) of Title 49).” 42 U.S.C. § 12131(1).
+CorrectHealth is neither a state or local government, nor a department, agency, or instrumentality
+of the state.
+Case 2:23-cv-03351-KWR     Document 95     Filed 04/14/26     Page 11 of 23
+12
+
+ While the C ourt was unable to locate any Fifth Circuit precedent on point, other courts
+have found that private entities contracted to provide medical services within state run entities are
+not a “public entity” within the meaning of the ADA. See Morgan v. Mississippi, No. 07-15, 2009
+WL 1609060 at *13 (S.D. Miss. June 8, 2009) (holding that a private independent contractor for
+medical services with the Mississippi Department of Corrections was not a public entity for
+purposes of the ADA); Cox v. Jackson, 579 F.Supp.2d 831, 852–53 (E.D. Mich. 2008) (“A private
+contractor does not become a ‘public entity’ under Title II merely by contracting with a
+governmental entity to provide governmental s ervices”); Basat v. Caruso, No. 07–13332, 2008
+WL 4457828, at *15 (E.D. Mich. Sept. 30, 2008) (dismissing plaintiff ’s ADA claims against a
+private entity  and its independent contractor physicians because they were clearly not public
+entities). Further, the Fifth Circuit has repeatedly held that a  private prison, or a private prison
+management corporation, is not a “public entity” under the ADA. See Maringo v. Warden, 283 F.
+App’x 205, 206 (5th Cir. 2008) (concluding that Title II is inapplicable to a privat e prison or its
+employees); Edison v. Douberly, 604 F.3d 1307, 1310 (11th Cir. 2010).
+ Given that CorrectHealth Jefferson LLC is a private institution contracted to provide
+medical services with JPCC , defendants Drs. Alexander -Sallier and Nowlin, in their official
+capacities, are entitled to summary judgment on Sencial’s ADA/RA claims.
+ Further, Defendants state that even if Sencial were able to bring a claim against the Doctors
+in their official capacities, Sencial’s  mere disagreement with his medical care does not constitute
+a violation of the ADA or RA. Sencial opposes this assertion, stating that as a disabled person he
+was discriminated against by not receiving proper bedding and a lower bunk which he stated he
+communicated to Dr. Nowlin and all other medical staff. Additionally, Sencial claims that the
+Case 2:23-cv-03351-KWR     Document 95     Filed 04/14/26     Page 12 of 23
+13
+
+doctors refused to document his disabilities such as his ACDF in his cervical spine, a gunshot
+wound to his left thigh, and a dog bite to his right arm.
+ To have a qualifying disability under the ADA, a plaintiff must demonstrate “(A) a physical
+or mental impairment that substantially limits one or more of the major life activities of such
+individual; (B) a record of such an impairment; or (C) being regarded as having such an
+impairment.” Hale v. King, 642 F.3d 492, 499- 500 (5th Cir. 2011) (internal quotations omitted) ;
+Nottingham v. Richardson, 499 F. App ’x 368, 376 (5th Cir. 2012). In support of summary
+judgment, Defendants submit a note from Sencial’s surgeon regarding his ACDF surgery in
+August 2011. ECF No. 76-8 at 1. In the note, Sencial’s surgeon states that, based on his x-rays, it
+appears he is solidly healed from his injury and may return to work as a plumber. Defendants also
+submit Sencial’s testimony during his January 5, 2026, deposition where Sencial testified that after
+his surgery he returned to work as a plumber in 2012 as well as in 2017 when he was licensed in
+California. ECF No. 76-9 at 2-3.
+ As for Drs. Alexander -Sallier and Nowlin’s failure to document Sencial’s alleged
+disabilities, upon review of the medical records submitted by Sencial, it appears that on June 28,
+2022, Dr. Nowlin documented that Sencial was seen for neck and back pain as well as a history of
+a gunshot wound in the pelvis area. ECF No. 12-2 at 6. That same day, Dr. Nowlin ordered an x-
+ray of Sencial’s kidneys, ureters, bladder, chest, pelvis, and cervical spine and marked it as a “1”
+on a scale of 1-5, meaning it was “high” priority. ECF No. 12-5 at 93. In regard to Dr. Alexander-
+Sallier, a provider examination sheet from June 29, 2023, indicates that Dr. Alexander -Sallier
+documented Sencial’s history of a gun shot wound to his left thigh in 2018. Id . at 8. Further, on a
+June 1, 2023, provider examination sheet Dr. Alexander-Sallier noted that Sencial presented with
+complaints of allergies and documented that “he also requests a bottom bunk due to back pain.”
+Case 2:23-cv-03351-KWR     Document 95     Filed 04/14/26     Page 13 of 23
+14
+
+Id. at 84. Under the clinical impressions for that visit, Dr. Alexander-Sallier wrote “Bottom Bunk”
+and “Refer to Mental Health.” Id. at 83.
+ The Fifth Circuit has repeatedly held that ‘“ the ‘ADA does not  set out a standard of care
+for medical treatment,’ and the ‘ADA is not violated by a prison’s simply failing to attend to the
+medical needs of its dis-abled prisoners.’” Parker v. Hooper, No. 23-30825, 2026 WL 864705, at
+*17 (5th Cir. Mar. 30, 2026)  (quoting Carter ex rel. Carter v. City of Shreveport , 144 F.4th 809,
+815 (5th Cir. 2025) (emphasis in original)  (quoting Hale v. Harrison Cnty. Bd. of Supervisors , 8
+F.4th 399, 404 n.† (5th Cir. 2021) (per curiam))  (citing Bell v. State Prison Offs.,  No. 23-30339,
+2024 WL 2863293, *6 (5th Cir. June 6, 2024) (per curiam) (unpublished) (“The ADA is a
+discrimination statute, not merely a recourse- for-failure-to-treat statute.” (emphasis in original) );
+Nottingham v. Richardson, 499 F. App’x 368, 377 (5th Cir. 2012) (“The ADA is not violated by a
+prison’s simply failing to attend to the medical needs of its disabled prisoners.”)). Noting that
+“even the Supreme Court refused to hold that the ADA imposes a “standard of care” on States.”
+Id.; Olmstead v. L.C. ex rel. Zimring, 527 U.S. 581, 603 n.14, (1999) (“We do not in this opinion
+hold that the ADA imposes on the States a ‘standard of care’ for whatever medical services they
+render, or that the ADA requires States to provide a certain level of benefits to individuals with
+disabilities.” (some internal quotations omitted)).
+ Further, claims where an inmate was denied bedding accommodations by medical
+providers for pre-existing health conditions have been found to not constitute a violation of the
+ADA. See Barber v. Maoirana, No. 14-2227, 2015 WL 5562222, at *10 (W.D. La. June 3, 2015)
+(inmate’s claim that medical providers refused to give him an extra mattress for his arthritis was
+not a violation of the ADA), R&R adopted, 2015 WL 5566699, (W.D. La. Sept. 18, 2015).
+Case 2:23-cv-03351-KWR     Document 95     Filed 04/14/26     Page 14 of 23
+15
+
+ For these reasons, Sencial cannot state an ADA claim against Drs. Alexander -Sallier and
+Nowlin as they are employed by CorrectHealth which is a private entity contra cted by JPCC and
+not a public entity for purposes of the ADA . Additionally, Sencial’s mere disagreement with the
+standard of care received and the way doctors documented his alleged disabilities does not create
+a violation of the ADA/RA. As such, Defendants are entitled to summary judgment on Sencial’s
+ADA/RA claims against Dr. Alexander-Sallier and Dr. Nowlin their official capacities.
+b. Medical Indifference Claims
+ Defendants state they are entitled to summary judgment on Sencial’s medical indifference
+claims under Incident One against Dr s. Alexander -Sallier and Dr. Nowlin arising from their
+alleged failure to recognize and provide him with treatment for incidents in June 2022 and for pain
+and other side-effects from his listed chronic pre-existing conditions throughout his time at JPCC.
+Defendants also state they are entitled to summary judgment on Sencial’s medical indifference
+claims against Nurse McKinley under Incident Three arising from her alleged failure to adequately
+treat him for a reaction after ingesting rat excrement.
+ As an initial matter, Defendants state that the Medical Review Panel should guide the Court
+in reviewing Sencial’s medical care claims.  According to the defendants the panel determined that
+the they did not fail to meet an adequate standard of care  for medical malpractice and justifies
+summary judgment on the issue of deliberate indifference.
+ However, the Medical Review Panel’s findings are not conclusive in disproving Sencial’s
+claims. In fact, under Louisiana law, the panel's opinion is not even dispositive as to whether there
+was medical malpractice.  The Louisiana Supreme Court has explained that although the panel's
+opinion is “admissible as evidence in any action subsequently brought” in court, the opinion “shall
+not be conclusive.” McGlothlin v. Christus St. Patrick Hosp., No. 10-2775 (La. 7/1/11); 65 So. 3d
+Case 2:23-cv-03351-KWR     Document 95     Filed 04/14/26     Page 15 of 23
+16
+
+1218, 1227. Rather, “as with any expert testimony or evidence, the medical review panel opinion
+is subject to review and contestation by an opposing viewpoint,” and “the jury as trier of fact, is
+free to accept or reject any portion or all of the opinion.”  Id. at 1227. In addition, Louisiana law
+permits a party to challenge the board’ s opinion if its decision was based on its resolution of
+disputed material facts.  Id. at 1229- 30. Although the panel ’s opinion may be strong evidence
+against Plaintiffs’ claims  to the jury, at the summary judgment stage the Court must “refrain[ ]
+from making credibility determinations or weighing the evidence.”  Delta & Pine Land Co. v.
+Nationwide Agribusiness Ins. Co., 530 F.3d 395, 398–99 (5th Cir. 2008).
+ Thus, the Medical Review Panel’s finding that Defendants met the standard of care for all
+of Sencial’s complaints while at JPCC is not unrebutted evidence that Defendants were not
+deliberately indifferent to his medical needs. As such, Defendants are not entitled to summary
+judgment on these grounds.
+ Defendants also submit that they are entitled to summary judgment because Defendants
+were not deliberately indifferent to Sencial’s medical needs. Inadequate medical care for purposes
+of a § 1983 claim occurs only when the conduct amounts to “deliberate indifference to [the
+prisoner’s] serious medical needs” that “constitutes the ‘unnecessary and wanton infliction of
+pain.’”  Estelle v. Gamble, 429 U.S. 97, 104 (1976).  For pretrial detainees, like Sencial, “[t]he
+Fourteenth Amendment requires that state officials not disregard the ‘basic human needs’ of
+pretrial detainees, including medical care.”  Reed v. Krajca (Estate of Henson), 440 F. App’x 341,
+343 (5th Cir. 2011).  Under this deliberate indifference standard, a prison official is not liable
+unless the official knows of and disregards an excessive risk to inmate health or safety.  Farmer v.
+Brennan, 511 U.S. 825, 847 (1994); Bradley v. Puckett, 157 F.3d 1022, 1025 (5th Cir. 1998).
+Case 2:23-cv-03351-KWR     Document 95     Filed 04/14/26     Page 16 of 23
+17
+
+Deliberate indifference is manifested in the providers intentional denial of medical care or
+intentional interference with the treatment once prescribed.  Farmer , 511 U.S. at 847.  To state a
+cognizable claim, a prisoner must allege acts or omissions sufficiently harmful to evidence
+deliberate indifference that can offend “evolving standards of decency.”  Id .  Thus, mere
+disagreement with medical treatment is insufficient to state a claim of deliberate indifference.  See
+Varnado v. Lynaugh, 920 F.2d 320, 321 (5th Cir. 1991).  The Fifth Circuit has repeatedly noted
+that deliberate indifference is an extremely high standard to meet.  Domino v. Tex. Dep’t of Crim.
+Justice, 239 F.3d 752, 756 (5th Cir. 2001); Johnson v. Treen, 759 F.2d 1236, 1238 (5th Cir. 1985).
+The standard is so high that the Fifth Circuit recently noted, “In essence, when prison officials
+have attempted to care for a prisoner’s medical needs, even if the care falls short, they have not
+exhibited subjective deliberate indifference.” Parker v. Hooper, No. 23-30825, 2026 WL 864705,
+at *13 (5th Cir. Mar. 30, 2026). Further, “ disagreements over medical judgment or isolated
+negligence may constitute medical malpractice but do not rise to the level of quasi -criminal
+deliberate indifference.” Id. at *16 (citing Gamble, 429 U.S. at 106; Williams  v. Hampton, 797
+F.3d 276, 281 (5th Cir. 2015); Domino, 239 F.3d at 756).
+a. Drs. Alexander-Sallier and Nowlin
+ Sencial claims that Drs. Alexander-Sallier and Nowlin were deliberately indifferent to his
+serious medical needs arising from their alleged failure to recognize and provide him with
+treatment for incidents in June 2022 and for pain and other side-effects from his listed chronic pre-
+existing conditions throughout his time at JPCC. Specifically, Sencial claims that on June 22, 2022,
+he was found unconscious on the floor of his cell and brought to medical and put in cell 2MI.
+Sencial asserts that the x-ray for his in jury was delayed 15 days because he was in solitary
+confinement, with no way to communicate with the outside per the instructions of Drs. Alexander-
+Case 2:23-cv-03351-KWR     Document 95     Filed 04/14/26     Page 17 of 23
+18
+
+Sallier and Nowlin.  He also claims that the doctors at the jail failed to document his long -term
+disabilities of anterior cervical discectomy and fusion (“ACDF”) in his cervical spine, a gunshot
+wound to his left thigh, a dog bite to his right arm . Sencial asserts that the doctors failed to
+document his disabilities, causing wanton infliction of pain for more than one year.  Sencial claims
+that he made multiple requests for a lower bunk, seats for showers, a knee brace, and pain
+medication to no avail.
+ Sencial claims that, while housed in medical, his x-rays were delayed and he had no way
+to communicate with the outside world per the instructions of Drs. Alexander-Sallier and Nowlin.
+Upon review of the record, on June 21, 2022, Dr. Alexander-Sallier documented that Sencial must
+get a chest x-ray and noted; “Please ensure patient gets chest x-ray this week.” ECF No. 12-2 at 3.
+On June 27, 2022, Dr. Nowlin documented that Sencial was ordered to have a chest x-ray, but that
+Sencial refused the chest x -ray. Id. at 4. In the same entry, Dr. Nowlin also documented that “he
+knows he needs chest x -ray to get out of medical.” The next day, on June 28, 2022, Dr. Nowlin
+documented that Sencial was seen for neck and back pain as well as a history of a gunshot wound
+in the pelvis area. Id. at 6. Dr. Nowlin then ordered an x-ray of Sencial’s kidneys, ureters, bladder,
+chest, pelvis, and cervical spine and marked it as a “1” on a scale of 1 -5, meaning it was “high”
+priority. ECF No. 12-5 at 93.
+ Sencial also claims that the Doctors ’ failure to document his disabilities caused wanton
+infliction of pain for more than one year. As previously mentioned, on June 28, 2022, Dr. Nowlin
+documented that Sencial was seen for neck and back pain as well as a history of a gunshot wound
+in the pelvis area. ECF No. 12-2 at 6. In regard to Dr. Alexander -Sallier, a provider examination
+sheet from June 29, 2023, indicat es that Dr. Alexander-Sallier documented Sencial’s history of a
+gunshot wound to his left thigh in 2018. ECF No. 12- 5 at 8. Further, on June 1, 2023, provider
+Case 2:23-cv-03351-KWR     Document 95     Filed 04/14/26     Page 18 of 23
+19
+
+examination sheet Dr. Alexander-Sallier noted that Sencial presented with complaints of allergies
+and documented that “he also requests a bottom bunk due to back pain.” Id . at 84. Under the
+clinical impressions for that visit, Dr. Alexander -Sallier wrote “Bottom Bunk” and “Refer to
+Mental Health.” Id. at 83.
+ Additionally, the record reveals numerous instances where Sencial was seen by providers
+or given medical care while at JPCC. Sencial was booked into JPCC on May 23, 2022. ECF No.
+12-3 at 39. At minimum, records indicate that Sencial was admitted to JPCC’s infirmary four times
+during his time at JPCC. In addition to his time in the infirmary, records indicate that between May
+23, 2022, and March 30, 2023, Sencial was seen or treated by a medical provider at least 60 times.
+Id.
+ As stated above, mere disagreement with medical treatment is insufficient to state a claim
+of deliberate indifference.  See Varnado v. Lynaugh, 920 F.2d 320, 321 (5th Cir. 1991). “In
+essence, when prison officials have attempted to care for a prisoner’s medical needs, even if the
+care falls short, they have not exhibited subjective deliberate indifference.” Parker v. Hooper, No.
+23-30825, 2026 WL 864705, at *13 (5th Cir. Mar. 30, 2026). Further, prison medical providers’
+denial of certain care requests, su ch as specific bedding related to preexisting health conditions,
+has not been found to rise to the level of deliberate indifference. See Davis v. Young, 624 F. App’x
+203, 206 (5th Cir. 2015) (holding that a nurses refusal to give an inmate an extra mattress and
+pillow does not rise to the level of a constitutional violation); Barber v. Maoirana, No. 14-2227,
+2015 WL 5562222, at *10 (W.D. La. June 3, 2015) (no finding of deliberate indifference where
+medical providers refused to give an inmate an extra mattress for his arthritis), R&R adopted, 2015
+WL 5566699, (W.D. La. Sept. 18, 2015).
+Case 2:23-cv-03351-KWR     Document 95     Filed 04/14/26     Page 19 of 23
+20
+
+ The record indicates that Sencial was seen by providers numerous times and that both
+doctors documented Sencial’s complaints and past conditions, ordered various treatment, and
+documented his requests for specific accommodation. As such, Defendants ’ conduct did not rise
+to deliberate indifference for failure to treat or respond to Sencial’s serious medical needs. Thus,
+Drs. Alexander-Sallier and Nowlin are entitled to summary judgment on Sencial’s medical
+indifference claims as they relate to Incident One.
+b. Nurse McKinley
+ Defendants state they are entitled to summary judgment on Sencial’s medical indifference
+claims against Nurse McKinley under Incident Three arising from her alleged failure to adequately
+treat him for a reaction after ingesting rat excrement.
+ In support of their motion, Defendants submit a deposition transcript from January, 5, 2026,
+where Sencial testifies about the care received by Nurse McKi nley. ECF No. 76- 6 Exh. G at 5.
+During the deposition, Sencial testified that when he was seen by Nurse McKinley, she made sure
+he could swallow water, noted he was not drooling and was able to take medication, took his blood
+pressure, took his temperature, took his pulse, record his respiratory rate, oxygen stats, and noted
+that his skin was pink and warm. Id. at 5-7. Sencial testified that Nurse McKin ley also entered a
+disposition that told him to return to sick call if he had any more issues. Id. at 7. Further, Sencial
+testified that he saw Dr. Azikiwe after that visit and was prescribed allergy medicine.
+ Sencial’s deposition testimony is corroborated by his medical records pertaining to his visit
+with Nurse McKinley on November 11, 2022. ECF No. 12-5 at 96. Under chief complaint, Nurse
+McKinley documented that Sencial was complaining of rat poison and how his tongue and bottom
+lip were swollen. Further, Nurse McKinley documented that Sencial’s blood pressure was 140/95,
+his temperature was 97.3 degrees, his pulse rate was 94, his respiratory rate was 20, and his oxygen
+Case 2:23-cv-03351-KWR     Document 95     Filed 04/14/26     Page 20 of 23
+21
+
+saturation was 99%. The record also states for him to return to sick call if his condition persists or
+worsens. Id. at 97.
+ As outlined above, mere disagreement with treatment is insufficient to state a claim of
+deliberate indifference. Nurse McKin ley documented Sencial’s complaint s, took his vitals, and
+told him to return to sick call if his condition persisted or worsened. Further, Sencial testified that
+he saw a doctor after that visit and was provided allergy medicine. Thus, any failure by Nurse
+McKinley to adequately treat Sencial in relation to Incident Three does not rise to the level of a
+constitutional violation and, t herefore, Nurse McKinley is entitled to summary judgment  on
+Sencial’s medical indifference claims.
+c. State Law Claims
+Sencial also asserts state law intentional tort claims against Dr. Nowlin, Dr. Alexander -
+Sallier, Nurse McKinley, and related respondeat superior claims against CorrectHealth.
+Pursuant to 28 U.S.C. § 1367(a), in any civil action of which the district courts have original
+jurisdiction, the district courts shall have supplemental jurisdiction over all other claims that are
+so related to claims in action within such original jurisdiction that they form part of the same case
+or controversy under Article III of the United States Constitution.  This jurisdiction is “a doctrine
+of discretion,” and in so deciding, courts consider “judicial economy, convenience and fairness to
+litigants,” as well as whether “the state issues substantially predominate.”  United Mine Workers
+of America v. Gibbs , 383 U.S. 715, 726 -27 (1966).  Ultimately, “[a] district court has ‘wide
+discretion’ in deciding whether it should retain jurisdiction over state law claims once all federal
+claims have been eliminated.”  Enochs v. Lampasas Cnty., 641 F.3d 155, 161 (5th Cir. 2011) (citing
+Guzzino v. Felterman, 191 F.3d 588, 595 (5th Cir. 1999)).
+Case 2:23-cv-03351-KWR     Document 95     Filed 04/14/26     Page 21 of 23
+22
+
+The Fifth Circuit recognizes that its “general rule is to dismiss state claims when the federal
+claims to which they are pendent are dismissed.”  Parker & Parsley Petroleum Co. v. Dresser
+Indus., 972 F.2d 580, 585 (5th Cir. 1992) (citing Wong v. Stripling, 881 F.2d 200, 204 (5th Cir.
+1989)); see Carnegie-Mellon University v. Cohill , 484 U.S. 343, 351 (1988) (when the federal
+claims are eliminated at an “early stage” of the litigation the district court has “a powerful reason
+to choose not to continue to exercise jurisdiction”); Gibbs , 383 U.S. at 726 (“Certainly, if the
+federal claims are dismissed before trial, even though not insubstantial in a jurisdictional sense,
+the state claims should be dismissed as well.”).
+For the reasons outlined above, all of Sencial’s § 1983 medical indifference and ADA/RA
+claims involving Dr. Alexander-Sallier, Dr. Nowlin, and Nurse McKinley may be dismissed. Under
+the provisions of § 1367(c), and balancing the relevant factors of judicial economy, convenience,
+fairness and comity, the Court declines to exercise supplemental jurisdiction and dismisses without
+prejudice Sencial’s state law intentional tort claims against Dr. Nowlin, Dr. Alexander -Sallier,
+Nurse McKinley, and related respondeat superior claims against CorrectHealth.
+Accordingly,
+ IT IS ORDERED that defendants CorrectHealth Jefferson LLC, Dr. Juanita Alexander -
+Sallier, Dr. Philip W. Nowlin, and Clara McKinley, LPN’s Motion for Summary Judgment
+(ECF No. 76) is GRANTED and that Sencial’s § 1983 medical indifference claims against Dr.
+Nowlin. Dr. Alexander-Sallier, and Nurse McKinley and ADA/RA claims against Dr. Nowlin and
+Dr. Alexander-Sallier in their official capacities are DISMISSED WITH PREJUDICE.
+IT IS FURTHER ORDERED that Sencial’s related state law intentional tort claims
+against Dr. Nowlin, Dr. Alexander -Sallier, Nurse McKinley, and related respondeat superior
+Case 2:23-cv-03351-KWR     Document 95     Filed 04/14/26     Page 22 of 23
+23
+
+claims against CorrectHealth  are DISMISSED WITHOUT PREJUDICE  because the Court
+declines to exercise supplemental jurisdiction.
+IT IS FURTHER ORDERED that, in light of summary judgment, Defendants’ pending
+Motion in Limine (ECF No. 91) is DENIED WITHOUT PREJUDICE as MOOT.
+ New Orleans, Louisiana, this _____ day of April, 2026.
+      ____________________________________
+       KAREN WELLS ROBY
+UNITED STATES MAGISTRATE JUDGE
+
+14th
+Case 2:23-cv-03351-KWR     Document 95     Filed 04/14/26     Page 23 of 23
