@@ -1,0 +1,653 @@
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+THE BURLINGTON INSURANCE
+COMPANY
+
+ CIVIL ACTION
+VERSUS
+
+ NO. 22-981
+HOUSTON CASUALTY COMPANY
+
+ SECTION “R” (1)
+
+ORDER AND REASONS
+
+ Before the Court is defendant  Houston Casualty Company’s (“HCC”)
+motion to dismiss the complaint under Fed. R. Civ. P. 12(b)(1) or
+alternatively under 12(b)(6).1  Plaintiff, The Burlington Insurance Company
+(“TBIC”), opposes defendant’s motion.2  For the following reasons, the Court
+grants in part and denies in part defendant’s motion.
+
+I. BACKGROUND
+
+This case is an insurance dispute derivative of a  tort case captioned
+Cameron Soule, et al. v. Woodward Design + Build, et al. , No. 2018- 935,
+(hereinafter the “Soule Litigation”) in the Civil District Court for the Parish
+of Orleans .3  The Soule Litigation arose from a construction accident
+
+1  R. Doc. 5.
+2  R. Doc. 9.
+3  R. Doc. 1 ¶ 1.
+Case 2:22-cv-00981-SSV-JVM   Document 16   Filed 03/06/23   Page 1 of 27
+2
+
+involving an elevator leased by Woodward Design + Build, LLC
+(“Woodward”) from Eagle Access, LLC and Division Management, LLC
+(“Eagle Access”).4  Defendant HCC was first sued by Cameron Soule in the
+Soule Litigation as the purported insurer of Woodward.  Later, HCC was sued
+by the state-court personal injury plaintiffs as the purported insurer of Eagle
+Access.  TBIC, the plaintiff here , was sued in the Soule  Litigation as a
+purported insurer of the defendant Eagle Access.5
+
+A.   The Insurance Policies
+This dispute centers around what, if any, duty HCC has to defend or
+otherwise contribute to Eagle Access’ defense costs in the Soule Litigation.
+It is not disputed that HCC issued a  primary commercial general liability
+insurance policy to Woodward numbered H16PC 3025-00, as well as an
+excess liability policy numbered H16XC50653-00 (together, the “Policies”),
+both of which were in effect at the time of the accident that gave rise to the
+Soule Litigation.6  The Policies specified that a third party would become an
+additional insured (the “Additional Insured Provision”) if Woodward leased
+
+4  Id.
+5  R. Doc. 9-13 at 13-14.
+6  R. Doc. 1 ¶¶ 16-17.
+Case 2:22-cv-00981-SSV-JVM   Document 16   Filed 03/06/23   Page 2 of 27
+3
+
+equipment from it and “agreed in writing in a contract or agreement that
+such person or organization be added as an additional insured on [the
+Policies].”7   As described below, the Soule plaintiffs alleged in the state-court
+petition that Eagle Access became an additional insured under the Policies.
+When Woodward entered into an agreement to lease two elevators from
+Eagle Access (the “ Subcontract”), the parties included a provision that
+stipulated that Woodward would procure coverage for the project for which
+it was renting elevators from Eagle Access.  Specifically, the Subcontract
+contained a clause (the “CCIP Clause”), which provided that:
+6. Woodward Design & Build, LLC (WDB) has arranged for the
+Project to be insured under a controlled insurance program (the
+“CCIP” or “Wrap-Up”) . . . .  The CCIP shall provide to, as detailed
+in Exhibit “E”, commercial general liability insurance and excess
+liability insurance, in connection with the performance of the
+Work [Eagle Access’ Work] at the Project site.8
+Relatedly, the Policies themselves also contained a clause (the “ Wrap-Up
+Endorsement”), which stated that the definition of “an insured” also included
+Woodward’s “enrolled contractors,” defined as “contractors who, prior to the
+commencement of their work on the covered project, have completed the
+appropriate enrollments documents for the ‘covered project’.”9  These three
+
+7  Id. ¶ 18.
+8  R. Doc. 5-7 at 8.
+9  R. Doc. 9-5 at 51.
+Case 2:22-cv-00981-SSV-JVM   Document 16   Filed 03/06/23   Page 3 of 27
+4
+
+portions of the respective agreements form the basis of TBIC’s federal claim
+that HCC owes a duty to defend Eagle Access.   First, TBIC alleges that the
+CCIP Clause and the Wrap-Up Endorsement jointly formed a sufficient basis
+to trigger HCC’s duty to defend Eagle Access, despite the Louisiana Supreme
+Court’s holding that Eagle Access did not actually become  an enrolled
+contractor under the Policies.  Second, TBIC contends that the Additional
+Insured Provision, taken together with the CCIP Clause, is sufficient to bring
+Eagle Access within the definition of an additional insured under the
+Policies.
+
+B.   The  Soule Litigation
+On August 8, 2017, Eagle Access first demanded defense and
+indemnity from HCC against anticipated claims arising from the July 28,
+2017 accident , which HCC denied. 10  TBIC , on the other hand, agreed to
+participate in the defense of Eagle Access pursuant to its policy issued to
+Eagle Access, despite taking the position that it was not actually liable to the
+state-court plaintiffs under that policy. 11  On January 30, 2018,  Cameron
+Soule filed a complaint in the Civil District Court for the Parish of Orleans
+
+10  R. Doc. 1 ¶ 23.
+11  Id. ¶ 27.
+Case 2:22-cv-00981-SSV-JVM   Document 16   Filed 03/06/23   Page 4 of 27
+5
+
+alleging that Woodward and Eagle Access were liable for the 2017 accident.
+The suit was later consolidated with other plaintiffs’ cases arising from the
+same accident .12  Notably, the Soule petition was eventually amended to
+include a claim against HCC as the insurer of Eagle Access under the
+Policies.13
+As the Soule Litigation proceeded, Woodward and HCC cross -moved
+for summary judgment on the issue of whether Eagle Access was an insured
+under the Wrap-Up Endorsement.  The trial court eventually granted
+summary judgment in favor of Woodward and denied HCC’s motion. HCC
+appealed the decision, and the Louisiana Supreme Court reversed, granting
+HCC’s motion for summary judgment and denying  Woodward’s motion .
+Soule v. Woodward Design + Build, L.L.C., No. 2021-322, at *2 (La. May 11,
+2021).
+
+C.   The Cost Sharing Negotiations
+While the Soule Litigation was unfolding, TBIC tendered a demand to
+HCC to defend Eagle  Access and reimburse TBIC for past defense costs it
+
+12  R. Doc. 9-3.
+13  R. Doc. 9-3 at 16 (Third Supplemental and Amended Petition ¶ 2).
+Case 2:22-cv-00981-SSV-JVM   Document 16   Filed 03/06/23   Page 5 of 27
+6
+
+incurred in defending Eagle Access .14  TBIC alleges that HCC eventually
+offered to pay half of the cost of defending  Eagle Access, which TBIC
+accepted and memorialized in a September 3, 2020 letter.15  Specifically, the
+September 3 letter stated that that TBIC accepted HCC’s offer to split Eagle
+Access’s defense costs, and that TBIC anticipated “that the parties will enter
+into a more formal cost sharing agreement.”16  TBIC concluded the letter by
+requesting a signature and return of the correspondence “[i]f HCC is
+agreeable to the foregoing.”17  Then, on September 18, 2020, HCC’s counsel
+sent a letter in response which explained that HCC “agrees to reimburse
+[TBIC] for 50% of the defense costs of” Eagle Access.18  HCC’s attorneys
+concluded the letter by requesting that “TBIC prepare the defense cost
+sharing agreement referenced in [the] September 3, 2020 letter . . . only for
+further discussion.”19
+
+D.   The Federal Litigation
+
+14  R. Doc. 1 ¶ 28.
+15  Id. ¶ 29.
+16  R. Doc.
+17  Id.
+18  R. Doc. 9-2 at 1.
+19  Id. at 4.
+Case 2:22-cv-00981-SSV-JVM   Document 16   Filed 03/06/23   Page 6 of 27
+7
+
+On April 12, 2022 , TBIC brought this action in seeking a declaratory
+judgment that HCC has a duty to defend Eagle Access, as well as an award of
+money damages.20  It alleges that HCC has a duty to defend Eagle in the Soule
+Litigation under Louisiana insurance law and th at HCC is also liable for
+breach of contract by not honoring its commitment to pay fifty percent of
+Eagle’s defense costs .21  HCC moved to dismiss TBIC’s  federal complaint
+under Rule 12(b)(6) on the grounds that TBIC had no duty to defend an entity
+that was not in fact an insured, and that the parties never entered into a
+formal cost sharing agreement regarding Eagle’s defense.22  HCC also moved
+under Rule 12(b)(1) on the alternative bas is that the Court should abstain
+from exercising jurisdiction over this matter under the Rooker -Feldman
+doctrine or the Supreme Court’s Brillhart decision.23  TBIC opposes HCC’s
+motion.24
+The Court considers the parties’ arguments below.
+
+II. RULE 12(B)(1) MOTION
+
+A.   Legal Standard
+
+20  See generally R. Doc. 1.
+21  Id.
+22  R. Doc. 5.
+23  Id.
+24  R. Doc. 9.
+Case 2:22-cv-00981-SSV-JVM   Document 16   Filed 03/06/23   Page 7 of 27
+8
+
+Federal Rule of Civil Procedure 12(b)(1) permits dismissal for lack of
+jurisdiction over the subject matter of the claim.  In ruling on a 12(b)(1)
+motion to dismiss, the Court may rely on (1) the complaint alone, presuming
+the allegations to be true, (2) the complaint supplemented by undisputed
+facts, or (3) the complaint supplemented by undisputed facts and by the
+court’s resolution of disputed facts.  Den Norske Stats Oljeselskap As v.
+HeereMac Vof , 241 F.3d 420, 424 (5th Cir. 2001); see also Barrera-
+Montenegro v. United States , 74 F.3d 657, 659 (5th Cir. 1996).  The party
+asserting jurisdiction bears the burden of establishing that the district court
+possesses jurisdiction.  Ramming v. United States , 281 F.3d 158, 161 (5th
+Cir. 2001).  A court’s dismissal of a case for lack of subject matter jurisdiction
+is not a decision on the merits, and the dismissal does not ordinarily prevent
+the plaintiff from pursuing the claim in another forum.  See Hitt v. City of
+Pasadena, 561 F.2d 606, 608 (5th Cir. 1977).
+
+B.   Discussion
+1.   Rooker-Feldman Doctrine
+The Court first addresses defendant’s contentions regarding the
+Rooker-Feldman doctrine.  Under the Rooker -Feldman doctrine, federal
+district courts lack jurisdiction to entertain collateral attacks on state court
+Case 2:22-cv-00981-SSV-JVM   Document 16   Filed 03/06/23   Page 8 of 27
+9
+
+judgments.  See Rooker v. Fidelity Trust Co., 263 U.S. 413, 415 (1923); D.C.
+Court of Appeals v. Feldman, 460 U.S. 462, 476, 482 (1983).  In Exxon Mobil
+Corp. v. Saudi Basic Indus. Corp., 544 U .S. 280 (2005), the Supreme Court
+clarified that the Rooker-Feldman doctrine applies only to “cases brought by
+state-court losers complaining of injuries caused by state -court judgments
+rendered before the district court proceedings commenced and inviting
+district court review and rejection of those judgments.”  Id.  at 284.  In such
+cases, federal courts lack subject matter jurisdiction.  Id.
+Further, this doctrine does not merely bar review of claims that were
+actually raised in state court proceedings.  “If the district court is confronted
+with issues that are ‘inextricably intertwined’ with a state judgment, the court
+is ‘in essence being called upon to review the state- court decision,’ and the
+originality of the district court ’s jurisdiction precludes such a review.”
+United States v. Shepherd, 23 F.3d 923 (5th Cir. 1994) (quoting Feldman ,
+460 U.S. at 482 n.16).  On the other hand, the Rooker-Feldman doctrine does
+not preclude a district court ’s jurisdiction over a plaintiff ’s “independent
+claim,” even “one that denies a legal conclusion that a state court has
+reached.”  Exxon Mobil, 544 U.S. at 293 (quoting GASH Assocs. v. Rosemont,
+995 F.2d 726, 728 (7th Cir. 1993)).
+Case 2:22-cv-00981-SSV-JVM   Document 16   Filed 03/06/23   Page 9 of 27
+10
+
+Here, HCC argues, in summary fashion  and without any meaningful
+analysis, that plaintiff’s complaint should be dismissed under the Rooker -
+Feldman doctrine.25   B ut because defendant has not pointed to a ny state
+court judgment “inextricably intertwined” with the claims in this case, the
+Court finds that Rooker-Feldman is inapplicable.  See Feldman, 460 U.S., at
+482 n.16 .  The Louisiana Supreme Court, in overturning the summary
+judgment orders in the Soule Litigation, specified that “[t]he narrow issue
+presented . . . [was] whether Eagle was properly enrolled as an insured under
+the HCC policy.”  Soule v. Woodward Design + Build, L.L.C., No. 2021-322,
+at *2 (La. May 11, 2021).  As explained in Section III.B.1, infra, the issue of
+coverage is separate and distinct from whether HCC had a duty to defend
+Eagle Access. It is also separate from the contractual claim asserted in this
+matter.  Cf. Martco Ltd. P’ship v. Wellons, Inc., 588 F.3d 864, 872 (5th Cir.
+2009) ( an insurer’s duty to defend an insured is “a separate and distinct
+inquiry from that of the insurer’s duty to indemnify a covered claim after
+judgment against the insured in the underlying liability case” (citing Elliott
+v. Cont’l Cas. Co. , 949 So.2d 1247, 1250 (La. 2007)).  Nor do  the claims in
+this matter inv ite review of the non-substantive, procedural orders in the
+
+25  R. Doc. 5-1 at 14-15.
+Case 2:22-cv-00981-SSV-JVM   Document 16   Filed 03/06/23   Page 10 of 27
+11
+
+Soule Litigation, i.e., the scheduling order and the trial court’s order on
+TBIC’s motion for leave to file an amended petition.   To the contrary, this
+case, at most, involves independent claims that might sit in tension with the
+Civil District Court’s proc edural orders.  Because the complaint does not
+actually invite this Court to review and reject a state court’s judgment , the
+Court finds that the Rooker-Feldman doctrine is inapplicable here.
+
+2.  Colorado River Abstention
+HCC also asserts that the Court should abstain from exercising
+jurisdiction under Brillhart v. Excess Insurance Company of America , 316
+U.S. 491 (1942).  But it is well established that  “when an action involves
+coercive relief, the district court must apply the abstention standard set forth
+in Colorado River Water Conservation District v. United  States.”  New
+England Ins. Co. v. Barnett, 561 F.3d 392, 394–95 (5th Cir. 2009) (internal
+citation omitted).  Here, because plaintiff seeks coercive relief in the form of
+damages in addition to declaratory relief, Colorado River  provides the
+proper abstention framework instead of Brillhart.  See Southwind Aviation,
+Inc. v. Bergen Aviation, Inc. , 23 F.3d 948, 951 (5th Cir. 1994) (inclusion of
+breach of contract claim for monetary damages, among other claims seeking
+coercive relief, demanded application of Colorado River); Tower Nat. Ins.
+Case 2:22-cv-00981-SSV-JVM   Document 16   Filed 03/06/23   Page 11 of 27
+12
+
+Co. v. Dixie Motors, No. 14-1634, 2015 WL 2452336, at *3 (E.D. La. May 21,
+2015) (holding that “inclusion of a request for coercive relie f in the form of
+damages and attorney’s fees ‘indisputably removes this suit from the ambit
+of a declaratory judgment action’” (quoting Barnett, 561 F.3d at 395)).
+Applying Colorado River to this case, the Court begins with the axiom
+that “[f]ederal courts have a ‘virtual unflagging obligation  . . . to exercise the
+jurisdiction given them.” 424 U.S. at 817.  But, “in ‘extraordinary and narrow’
+circumstances, a district court may abstain from exercising jurisdiction over
+a case when there is a concurrent state proceeding.”  Murphy v. Uncle Ben’s,
+Inc., 168 F.3d 734, 737 (5th Cir. 1999) (quoting Colo. River, 424 U.S. at 813).
+The Court’s decision whether to abstain should be based on considerations
+of “[w]ise judicial administration, giving regard to conservation of judicial
+resources and comprehensive disposition of litigation.”  Id. (quoting
+Kerotest Mfg. Co. v. C –O–Two Fire Equip. Co. , 342 U.S. 180, 183 (1952)).
+For a court to abstain from exercising jurisdiction under the Colorado River
+doctrine, it first must find that the federal and state court actions are
+“parallel.”  Hartford Accident & Indem. Co. v. Costa Lines Cargo Servs., Inc.,
+903 F.2d 352, 360 (5th Cir. 1990).  Actions are parallel when the same parties
+are litigating the same issues.  See Republicbank Dallas, Nat ’l Ass’ n v.
+McIntosh, 828 F.2d 1120, 1121 (5th Cir. 1987).
+Case 2:22-cv-00981-SSV-JVM   Document 16   Filed 03/06/23   Page 12 of 27
+13
+
+Here, no parallel proceeding existed at the time TBIC filed this action.
+The Soule Litigation, even while TBIC was a party,26 did not involve the issue
+of HCC’s duty to defend Eagle Access, which is a separate issue from whether
+HCC insured Eagle Access under the Policy.  Martco, 588 F.3d at 872.  And,
+it appears that the claims raise d in this case cannot be litigated in the
+underlying state -court dispute, as TBIC is no longer a party in the Soule
+Litigation, and the court denied TBIC’s earlier motion to amend its  petition
+to raise these claims in the Soule Litigation.  As this case does not involve the
+same parties litigating the same issues as the Soule Litigation, the Court need
+not proceed to analysis of the Colorado River factors.  See Hartford Accident
+& Indem. Co., 903 F.2d at 360.  The Court denies defendant’s Rul e 12(b)(1)
+motion.
+
+III. RULE 12(B)(6) MOTION
+
+A.   Legal Standard
+To survive a Rule 12(b)(6) motion to dismiss, a plaintiff must plead
+enough facts to “state a claim to relief that is plausible on its face.”  Ashcroft
+v. Iqbal, 556 U.S. 662, 678 (2009) (quoting Bell Atlantic Corp. v. Twombly,
+550 U.S. 544, 547 (2007)).  A claim is facially plausible “when the plaintiff
+
+26  TBIC has been dismissed from the Soule Litigation.
+Case 2:22-cv-00981-SSV-JVM   Document 16   Filed 03/06/23   Page 13 of 27
+14
+
+pleads factual content that allows the court to draw the reasonable inference
+that the defendant is liable for the misconduct alleged.”  Id. at 678.  The Court
+must accept all well -pleaded facts as true and  must draw all reasonable
+inferences in favor of the plaintiff.  Lormand v. U.S. Unwired, Inc., 565 F.3d
+228, 239, 244 (5th Cir. 2009).  But the Court is not bound to accept as true
+legal conclusions couched as factual allegations.  Iqbal, 556 U.S. at 678.
+On a Rule 12(b)(6) motion, the Court must limit its review to the
+contents of the pleadings, including attachments.  Brand Coupon Network,
+L.L.C. v. Catalina Mktg. Corp., 748 F.3d 631, 635 (5th Cir. 2014).  The Court
+may also consider documents attached t o a motion to dismiss or an
+opposition to that motion when the documents are referred to in the
+pleadings and are central to a plaintiff’s claims.  Id.  “In addition to facts
+alleged in the pleadings, however, the district court ‘may also consider
+matters of which [it] may take judicial notice.’”  Hall v. Hodgkins , 305 F.
+App’x 224, 227 (5th Cir. 2008) (citing Lovelace v. Software Spectrum, Inc.,
+78 F.3d 1015, 1017-18 (5th Cir. 1996)).
+
+B.   Discussion
+
+1.   TBIC’s Duty to Defend
+Under Louisiana law, an insurer’s duty to defend is determined by
+comparing the language of the insurance policy with the allegations in the
+Case 2:22-cv-00981-SSV-JVM   Document 16   Filed 03/06/23   Page 14 of 27
+15
+
+complaint against the insured— in this case, the petitions  in the Soule
+Litigation.  See Martco, 588 F.3d at 872 (“Under Louisiana’s ‘Eight Corners
+Rule,’ we must assess whether there is a duty to defend by applying the
+allegations of the complaint to the underlying policy without resort to
+extrinsic evidence.” (citing Adams v. Frost , 990 So.2d 751, 756 (La. App. 2
+Cir. 2008))); La. Stadium & Exposition Dist. v. BFS Diversified Prods., LLC,
+49 So.3d 49, 51 (La. App. 4 Cir. 2010) (“The duty to defend is determined
+solely from the plaintiff’s pleadings and the face of the policy without
+consideration of extraneous evidence.”).  The insurer generally has a duty to
+defend its insured unless the allegations “unambiguously preclude
+coverage.”  Martco , 588 F.3d at 872 (citing Elliott  v. Continental Cas. Co. ,
+949 So.2d 1247, 1250 (La. 2007)).  The duty to defend “arises whenever the
+pleadings against the insured disclose a possibility of liability under the
+policy.”  Id. (citing Meloy v. Conoco, Inc., 504 So.2d 833, 839 (La. 1987)).
+Here, HCC’s argument is that because the  Louisiana Supreme Court
+held that Eagle Access did not properly  enroll under the Wrap -Up
+Endorsement, HCC had no duty to defend Eagle Access.   But the relevant
+question is whether the complaint against the insured unambiguously
+precludes coverage under the Policies.   Id.  The starting point in resolving
+this issue is Am. Home Assur. Co. v. Czarniecki, 230 So. 2d 253 (1969), the
+Case 2:22-cv-00981-SSV-JVM   Document 16   Filed 03/06/23   Page 15 of 27
+16
+
+landmark Louisiana duty-to-defend decision.  That case involved an
+automotive insurance policy which covered accidents arising from third-
+party, non-owners’ operation of the relevant vehicle when those individuals
+borrowed the vehicle with the owner’s permissio n.  Id. at 259.   But third
+parties were not covered under the relevant policies if they operated the
+relevant vehicle without the owner’s permission.  Id.  The  Czarniecki court
+found that the defendant  had not received permission from the owner, but
+nonetheless held that Aetna and State Farm were obligated to defend the
+owner.  Id.  This was because the petition alleged that the defendant  had
+received permission from the owner to operate the vehicle.  Id.  The court
+explained that “if, assuming all the allegations of the petition to be true, there
+would be both (1) coverage under the policy and (2) liability to the plaintiff,
+the insurer must defend the insured regardless of the outcome of the suit.”
+Id.
+Relevant to the present dispute, the Soule plaintiffs alleged that Eagle
+Access was an insured under the Policy in multiple versions of the state-court
+petition.27  The Court addresses the relevant state-court petitions below.
+
+27  R. Doc. 9-3 at 16; R. Doc. 9-4 at 22.
+Case 2:22-cv-00981-SSV-JVM   Document 16   Filed 03/06/23   Page 16 of 27
+17
+
+  a.   The January 15, 2019 complaint
+The first version of the petition to allege that HCC insured Eagle Access
+is the  Third Supplemental and Amended Petition, filed on January 15,
+2019.28  That pleading stated only that “HCC issued a policy of insurance to
+. . . Eagle Access . . . that provides insurance coverage for plaintiff’s claims
+asserted herein.” 29   When a  complaint conclusorily  alleges coverage, the
+question arises as to the outer limits of the Czarniecki holding and the ‘Eight
+Corners Rule .’  Indeed, in Richards v. Farmers Export Company ,
+Louisiana’s Fourth Circuit Court of Appeal explained that an overly  broad
+reading of Czarniecki , carried to its logical conclusion, “would enable a
+plaintiff to pick out of the air any insurance co mpany, allege coverage and
+require the company to defend.”  377 So. 2d 859, 863 (La. App. 4 Cir. 1979),
+writ denied, 380 So. 2d 69 (La. 1980).  In denying a duty to defend, that
+court distinguished Czarniecki on the grounds that Czarniecki involved the
+duty to defend a named insured, while Richards involved individuals that
+were ordinarily non-insureds but were covered under certain circumstances.
+
+28  R. Doc. 9 -3 at 16 (Third Supplemental and Amended Petition ¶ 2).
+Subsequent iterations of the Soule petition replicated the insurance
+allegations against HCC contai ned in the January 15, 2019 petition,
+until the March 7, 2022  version of the petition was filed by the state -
+court plaintiffs.
+29  Id.
+Case 2:22-cv-00981-SSV-JVM   Document 16   Filed 03/06/23   Page 17 of 27
+18
+
+Id.  See also T.H.E. Ins. Co. v. Larsen Intermodal Servs., Inc., 242 F.3d 667,
+678 n.11 (5th Cir. 2001) ( recognizing but distinguishing  Richards, noting
+that Richards was not applicable because the case at bar was factually
+dissimilar due to the presence of a named insured).  But a more accurate
+limiting principle of Czarniecki is contained within its own holding:  that
+there must be factual allegations in the petition that would trigger coverage
+if true.  230 So. 2d at 259.   A proper reading of Czarniecki reveals that the
+decision turned on the underlying allegation that the defendant had
+permission to drive the vehicle, not simply the assertion that he was covered
+under the relevant policies.  Id. (“Most importantly, [plaintiffs] alleged that
+[the defendant] ‘was driving the Chevrolet with the permission and consent
+of the insured within the terms of and within the meaning of the [policies].’”).
+Applying the above authorities to the present dispute, along with the
+general principle that the ‘Eight Corners Rule’ requires the court to compare
+the factual allegations in the complaint with the Policy, the Court finds that
+conclusory assertions of coverage are insufficient to trigger a duty to defend
+when the putative insured is not a named insured.  And, as the January 2019
+version of the Soule petition contained only a conclusory assertion of HCC’s
+coverage of Eagle Access, the duty -to-defend claim by TBIC must be
+dismissed.
+Case 2:22-cv-00981-SSV-JVM   Document 16   Filed 03/06/23   Page 18 of 27
+19
+
+Further, the Court is not persuaded by plaintiff’s citation to the
+Donahue decision by another section of this court.  The Donahue decision
+included broad language that might be read as holding that  the duty to
+defend a putative, unnamed insured is triggered by a plaintiff’s complaint
+which simply “shows the possibility of coverage.”  Donahue v. Republic Nat’l
+Distrib. Co., LLC, 489 F. Su pp. 3d 455, 466 (E.D. La. 2020).  To the extent
+the Donahue court may have implied that a mere conclusory allegation of
+coverage is sufficient to trigger the duty to defend an unnamed putative
+insured, the Court declines to follow  it in light of  contradictory Louisiana
+authorities.  See Czarniecki, 230 So. 2d at 259; Richards, 377 So. 2d at 863;
+cf. Tichenor v. Roman Cath. Church of Archdiocese of New Orleans, 32 F.3d
+953, 963 (5th Cir. 1994) (refusing to impose a duty to defend when the
+relevant policy provided coverage to priests only when acting in the course
+and scope of their employment , but the c ourt determined that the priest
+acted outside that capacity in committing tortious conduct , despite the fact
+that the complaint plainly alleged the priest was acting in the course and
+scope of employment) (Wisdom, J.).  Moreover, the Donahue court, before
+making its broad statements about an insured’s duty to defend, initially
+determined that the putative insured was in fact an additional insured under
+the relev ant policy.  Id.  Thus, the issue before the court was limited to
+Case 2:22-cv-00981-SSV-JVM   Document 16   Filed 03/06/23   Page 19 of 27
+20
+
+whether the duty to defend an additional insured could be retroactively
+extended to before the insurer was provided proof of a party’s additional
+insured status.  Id.  And, the Vaughn decision that Donahue relied on, which
+plaintiff also invokes, noted that the putative insureds in that case “had been
+sued based on allegations that they were property growers who had
+contracted with the named insured” and were therefore additional insureds
+under specific provisions of the relevant policy regarding coverage of third-
+parties.  Vaughn v. Franklin, 785 So. 2d 79, 87 (La. App. 1 Cir. 2001), writ
+denied, 798 So. 2d 969 (La. 2001).  The Soule Litigation, on the other hand,
+presented mere conclusory allegations that HCC issued a policy to Eagle
+Access.  The Court therefore dismisses plaintiff’s claim against HCC to the
+extent that it is based on the January 15, 2019 Soule petition.
+
+  b.  The March 7, 2022 complaint
+The Soule petition was a mended on March 7, 2022, alleging Eagle
+Access’ putative insured status in greater detail. 30  TBIC relies on this
+petition to assert that HCC had a duty to defend Eagle Access because it was
+an additional insured under the Policies.  The March 2022 petition invoked
+
+30  See R. Doc. 9-4 at 135–39
+Case 2:22-cv-00981-SSV-JVM   Document 16   Filed 03/06/23   Page 20 of 27
+21
+
+the Additional Insured Provision of the Policies and the CCIP Clause in the
+Subcontract in contending that Eagle Access was an additional insured under
+the Policies.  To reiterate, the Additional Insured Provision of the Policies
+states that the definition of an insured includes:
+any person or organization from whom you lease equipment
+when you and such person or organization have agreed in writing
+that such person or organization be added as an additional
+insured on your policy.31
+The petition points to the CCIP Clause of the Subcontract, which states that
+Woodward would arrange for the project to be insured under the Wrap -Up
+Endorsement.  Particularly, the CCIP Clause of the Subcontract states that:
+6. Woodward Design & Build, LLC (WDB) has arranged for the
+Project to be insured under a controlled insurance program (the
+“CCIP” or “Wrap-Up”) . . . .  The CCIP shall provide to, as detailed
+in Exhibit “E”, commercial general liability insurance and excess
+liability insurance, in connection with the performance of the
+Work [Eagle Access’ Work] at the Project site.32
+The Soule plaintiffs therefore concluded that Eagle Access was an additional
+insured under the Policies because Woodward agreed to procure coverage
+for Eagle Access’ work pursuant to t he CCIP Clause, which was a sufficient
+writing to bring Eagle Access within the definition of an additional insured.
+
+31  Id.
+32  R. Doc. 5-7 at 8.
+Case 2:22-cv-00981-SSV-JVM   Document 16   Filed 03/06/23   Page 21 of 27
+22
+
+The Court finds that the March 2022 petition, the CCIP Clause of the
+Subcontract mentioned in that pleading , and the Additional Insured
+Provision of the Policies collectively  triggered HCC’s duty to defend Eagle
+Access.  The Court cannot say that, under a liberal reading of the March 2022
+Soule petition, as required by the ‘ Eight Corne r Rule,’ coverage is
+“unambiguously preclude[d].”  Martco , 588 F.3d at 872.  To the contrary ,
+the state-court pleading plainly  “disclose[s] a possibility of coverage under
+the [Policies].”  Id.  Accordingly, defendant’s motion is denied to the extent
+it seeks to dismiss plaintiff’s claim arising from the March 7, 2022 petition.
+
+   c.  Non-retroactivity of the duty to defend
+ Finally, the Court holds that, because the Soule plaintiffs did not
+trigger HCC’s duty to defend Eagle Access until the March 2022 amended
+pleading was filed, the duty to defend is not retroactive to the date s of the
+earlier petitions.  It  is the filing of pleadings which could lead to liability
+under a policy that trigger an insurer’s duty to defend.  See Chicago Prop.
+Ints., L.L.C. v. Broussard , 8 So. 3d 42, 48 ( La. App. 5 Cir. 2009).
+Accordingly, imposition of the duty to defend prior to the filing of the
+complaint that triggers the duty is improper.  See Spitzfaden v. Daigle
+Welding Serv., Inc., 607 So. 2d 951, 955 (La. App. 4 Cir. 1992), writ denied,
+Case 2:22-cv-00981-SSV-JVM   Document 16   Filed 03/06/23   Page 22 of 27
+23
+
+612 So. 2d 59 (La. 1993) (holding that “the trial court was wrong in imposing
+upon [insurer] the duty to defend from the time the original petition was
+filed” when prior version of the petition did not properly allege liability under
+the relevant policy); cf. Maldonado v. Kiewit Louisiana Co., 146 So. 3d 210,
+220 (La. App. 1 Cir. 2014) (“When a petition is amended, the duty to defend
+analysis must be performed again to determine whether the amended
+petition alleges liability that is potentially within the scope of coverage.”);
+Donahue, 489 F. Supp. 3d at 469 (holding that an insurer “had a duty to
+defend [the insured] at the time [the plaintiffs] filed their Fourth
+Supplemental and Amended Complaint”); Guar. Nat. Ins. Co. v. Vic Mfg.
+Co., 143 F.3d 192, 194 n.15 (5th Cir. 1998) (noting that under Texas law, the
+most recent complaint determines an insurer’s prospective duty to defend,
+but earlier complaints determine whether the insurer had a duty to defend
+prior to the filing of the operative complaint ).  In light of t he above-cited
+authorities, the Court finds that HCC had no duty to defend TBIC prior to
+March 7, 2022.  Accordingly, defendant’s motion to dismiss is granted in part
+and denied in part as to the duty-to-defend claim against HCC.
+
+  2. TBIC’s Contractual Claim
+Case 2:22-cv-00981-SSV-JVM   Document 16   Filed 03/06/23   Page 23 of 27
+24
+
+ Under Louisiana law, “[t]he essential elements of a breach of contract
+claim are [that] (1) the obligor[ ] undert[ook]  . . . an obligation to perform,
+(2) the obligor failed to perform the obligation (the breach), and (3) the
+failure to perform resulted in damages to the obligee.”   Favrot v. Favrot, 68
+So. 3d 1099, 1108-09 (La. App. 4 Cir. 2011).  The only issue raised in HCC’s
+motion is whether it undertook an obligation to perform.  Generally , offer
+and acceptance may be made orally, in writing, or by conduct that, under the
+circumstances, clearly indicates consent.  La. Civ. Code art. 1927; see also
+Cantu Servs., Inc. v. Frazier, No. 12-1292, 2016 WL 285108, at *3 (W.D. La.
+Jan. 21, 2016).  Here, HCC argues that TBIC’s breach of contract claim should
+be dismissed because HCC and TBIC never entered into a binding cost
+sharing agreement despite an intention to reduce the agreement to a writing.
+HCC’s entire argument is premised on La. Civ. Code art. 194 7, which
+provides that “[w]hen . . . the parties have contemplated a certain form, it is
+presumed that they do not intend to be bound until the contract is executed
+in that form.”  Cf. Laroussini v. Werlein, 27 So. 89, 90 (1899) (holding that
+if “a verbal contract of lease is agreed on, [but] it is . . . intended that it should
+be reduced to writing . . . then until the writing is drawn up and signed the
+contract is inchoate, incomplete, and either party . .  . may recant, retract,
+recede, withdraw, decline to go further, refuse to consummate.”).
+Case 2:22-cv-00981-SSV-JVM   Document 16   Filed 03/06/23   Page 24 of 27
+25
+
+But the “ultimate question is whether the parties intended to be bound”
+before memorializing the agreement in writing.  Admins. of the Tulane Educ.
+Fund v. Biomeasu re, Inc., No. 08- 5096, 2011 WL 692045, at *4 (E.D. La.
+Feb. 18, 2011) (citing Chevron U.S.A. , Inc. v. Martin Expl. Co., 447 So.  2d
+469, 472 (La. 1984)).  For example, in Chevron U.S.A, Inc. v. Martin
+Exploration Co., the Louisiana Supreme Court held that a n agreement was
+enforceable although labeled “preliminary” because the parties intended to
+be bound.  447 So.2d at 472.  Thus, the present inquiry tuns on whether the
+parties considered a written form  to be a prerequisite to a binding
+agreement, or if the contemplated writing was intended as a formality to take
+place after entering into a binding agreement.  If the intent of the parties was
+to be bound first and then reduce the contract to a formal writing, then the
+contemplation of the written agreement does not foreclose the  earlier
+existence of a contract.  If the writing was a perquisite to a binding contract,
+then the requirement of a writing is a suspensive condition, which prevents
+enforcement of the agreement until that condition is satisfied.  Cf. La. Civ.
+Code art. 1767 (explaining that a “conditional obligation is one dependent on
+an uncertain event” and that if “the obligation may not be enforced until the
+uncertain event occurs, the condition is suspensive”).
+Case 2:22-cv-00981-SSV-JVM   Document 16   Filed 03/06/23   Page 25 of 27
+26
+
+ In ruling on defendant’s motion, the Court refers to the
+correspondence between the parties attached to the complaint.  The starting
+point is t he September 3, 2020 letter i n which TBIC “memorialized its
+acceptance”33 of HCC’s purported offer to split defense costs.34  In that letter,
+TBIC’s counsel stated that TBIC accepted HCC’s offer to split Eagle Access’s
+defense costs, and that TBIC anticipated “that the parties will enter into a
+more formal cost sharing agreement.” 35  TBIC concluded the letter by
+requesting a signature and return of the correspondence “[i]f HCC is
+agreeable to the foregoing.”36  Then, on September 18, 2020, HCC’s counsel
+sent a letter in response which explained that HCC “agrees to reimburse
+[TBIC] for 50% of the defense costs of” Eagle Access.37  HCC concluded the
+letter by requesting that “TBIC prepare the defense cost sharing agreement
+referenced in [the] September 3, 2020 letter . . . only for further
+discussion.”38
+ In light of the above correspondence and the allegations of fact in the
+complaint that TBIC accepted HCC’s offer to split defense costs for Eagle
+
+33  R. Doc. 9 at 4.
+34  R. Doc. 9-10 at 2.
+35  Id.
+36  Id.
+37  R. Doc. 9-2 at 1.
+38  Id. at 4.
+Case 2:22-cv-00981-SSV-JVM   Document 16   Filed 03/06/23   Page 26 of 27
+27
+
+Access, the Court finds that TBIC  has stated a valid claim for breach of
+contract.  The motion to dismiss is denied as to this claim.
+
+IV. CONCLUSION
+
+For all of the foregoing reasons, the Court GRANTS IN PART and
+DENIES IN PART defendant’s motion to dismiss.  The motion is GRANTED
+as to TBIC ’s duty-to-defend claim to the extent that claim arises from the
+January 15, 2019 state -court petition and substantially identical petitions ,
+and that claim is DISMISSED WITH PREJUDICE.  The motion is DENIED
+as to the duty-to-defend claim based on  the Marc h 7, 2022 state -court
+petition.  The motion to dismiss is likewise DENIED as to the breach -of-
+contract claim.
+
+New Orleans, Louisiana, this _____ day of March, 2023.
+
+_____________________
+SARAH S. VANCE
+UNITED STATES DISTRICT JUDGE
+6th
+Case 2:22-cv-00981-SSV-JVM   Document 16   Filed 03/06/23   Page 27 of 27
