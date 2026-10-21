@@ -1,0 +1,965 @@
+1
+
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+A.F. BY AND THROUGH HIS PARENTS, J.F. & L.F.  CIVIL ACTION
+
+VERSUS  NO. 23-7426
+
+ST. TAMMANY PARISH SCHOOL BOARD  SECTION “L” (1)
+
+ORDER & REASONS
+ Before the Court is Defendant’s Motion for Summary Judgment. R. Doc. 65. Plaintiff opposes
+the motion. R. Doc. 72. The Court heard oral argument on the motion on Wednesday, April 9, 2025.
+Subsequently, each side also submitted supplemental briefing regarding a potential continuance of the
+case. R. Doc. 78 (Plaintiff’s brief); R. Doc. 79 (Defendant’s brief). Considering the record, the briefing,
+the arguments, and the applicable law, the Court now rules as follows.
+I. BACKGROUND
+ This case arises out alleged abuse of a student by school staff. The student, A.F. is a blind
+and autistic child who attends Mandeville Middle School (“MMS”). R. Doc. 10 at 3-4. At the time
+of these incidents, A.F. was eleven years old. R. Doc. Id. at 2. Because of his blindness and autism,
+which Plaintiffs assert are disabilities under both federal and state law, he is accompanied
+throughout the school day by a paraprofessional, who is an employee of the school district. Id.
+Plaintiffs claim that on January 30, 2023, A.F.  was abused by  various paraprofessional staff in
+three different incidents: (1) Tiffany Bourgeois kicked him (2) Angela Rayer shoved him and hit
+him in the face with a walkie talkie and (3) Leslie Cookmeyer pushed his head into the cafeteria
+table. Id. Video security footage submitted to the Court from the day of January 30, 2023 shows
+that all of the alleged incidents occurred within a ten-minute period between approximately 11:14
+Case 2:23-cv-07426-EEF-JVM     Document 81     Filed 04/28/25     Page 1 of 35
+2
+
+A.M and 11:24 A.M. as the paraprofessionals escorted A.F. from his classroom through the school
+hallways and into the cafeteria. R. Doc. 71.
+ Plaintiffs learned about the first incident through a school resource officer, who reportedly
+had witnessed it through the security footage. Id.  at 3. The officer stated that while A.F. and
+paraprofessional Tiffany Bourgeois were standing in the hallway, it appeared that A.F. accidentally
+made contact with Bourgeois’ leg with his cane. She responded by kicking A.F. in the leg and
+stating, “There. Now you know how it feels.” Id.  A.F. contends that another school official had
+observed this incident as well and timely reported it to the school’s principal, Cheryl Barton. Id.
+ The second incident, which allegedly occurred moments after the first, involved a different
+paraprofessional, Angela Rayer. Id.  A.F.’s complaint states that Rayer took A.F.’s walking cane
+and refused to give it back. Id. at 4. She then began “forcefully grabbing A.F’s fingers” and tried
+to “pull him down the hallway.” When A.F. “resisted being dragged down the hallway,” Rayer
+“intentionally hit A.F. in the face with her walkie talkie.” Id.
+ The same day, another aide, Leslie Cookmeyer, allegedly “slammed” A.F.’s head into the
+cafeteria table where he was eating lunch. Id. at 3. At the time, A.F. states that he was engaging in
+a “stimulation” behavior, commonly known as “stimming,” which occurs because of his autism.
+Id. A.F. contends that he was rocking back and forth while eating his lunch, and Cookmeyer got
+frustrated and “slammed” his head on the table to “ get him to stop.”  Id. Another employee
+allegedly witnessed this incident and also reported it to Principal Barton. Id.
+ Plaintiffs allege that school officials placed Bourgeois on administrative leave on the same
+day that the first incident occurred. Id.  Following an administrative investigation, Bourgeois was
+allegedly asked to resign, and she did. Id.  However, Plaintiffs aver that Rayer and Cookmeyer
+were not immediately sanctioned and, as a result, remained with A.F. for several more weeks. Id.
+Case 2:23-cv-07426-EEF-JVM     Document 81     Filed 04/28/25     Page 2 of 35
+3
+
+Later administrative investigations into their conduct led to school officials asking them to resign
+as well. Id.  Plaintiffs notes that the school board accepted the resignations of all three
+paraprofessionals on March 9, 2023. Id.
+ Plaintiffs contend that they were notified by the school on the day of the incidents yet were
+merely told that A.F. was “love  tapped” by a school employee , and there was nothing to be
+concerned about. Id. at 5. Plaintiffs allege that Principal Barton only referenced one of the three
+incidents that day, and because it was intentionally downplayed, they did not think to investigate
+the matter more closely. Id. In February 2023, Plaintiffs learned that the three paraprofessionals—
+Bourgeois, Rayer, and Cookmeyer —had suddenly resigned, which prompted them to inquire
+further into the January 31, 2023 incident. Id.
+ Plaintiffs state that when they asked Principal Barton why she did not tell them about the
+other two incidents from that day, she said that she must have forgotten about them. Id.
+Additionally, Plaintiffs aver that Principal Barton told a teacher not to speak with anyone about
+the incidents because she was going to handle it. Id. at 6. Plaintiffs claim that they asked MMS for
+the security footage from that day, but Principal Barton made excuses as to why she could not
+obtain it. Id. After Plaintiffs lodged several more requests, Assistant Superintendent Kimberly
+Gardner told them that the footage had been deleted as more than thirty-one days had passed since
+the incident occurred. Id.   However, Plaintiffs aver that this was a lie , and St. Tammany Parish
+School Board in fact intentionally withheld the videos for nearly two years.  Id. at 7.
+ Plaintiffs sued St. Tammany Parish School Board as a result of the incidents at MMS. R.
+Doc. 56. In their  Second Amended Complaint, Plaintiffs state eight causes of action  on A.F.’s
+behalf against St. Tammany: (1) violation of the Americans with Disabilities Act (“ADA”), 42
+U.S.C. § 12132; (2) violation of Louisiana ’s analogous disability statute, the Louisiana Human
+Case 2:23-cv-07426-EEF-JVM     Document 81     Filed 04/28/25     Page 3 of 35
+4
+
+Rights Law (“LHRL”), La. Rev. Stat. § 51:2247; (3) a § 1983 claim for violation of substantive
+due process; (4) a § 1983 claim for use of excessive force; (5) a § 1983 claim for violation of equal
+protection rights; (6) state law battery and (7) state law negligence. Id. at 9-11. Furthermore, A.F’s
+parents also bring a negligence claim and intentional infliction of emotional distress claim on their
+own behalf arising out of Defendant’s alleged withholding of the video footage. Id. at 12. Plaintiffs
+have not sued the three paraprofessionals.
+ On April 25, 2024, the Court denied Defendant’s 12(b)(6) motion to dismiss the case. R.
+Doc. 22. The Court held that Plaintiff s’ allegations that school employees kicked A.F., hit him
+with a walkie talkie, and slammed his head in to the table were sufficient to state claims for
+disability discrimination, excessive force, violations of due process and equal protection, battery,
+and negligence for which the School Board could potentially be held liable. Id.  Further, the Court
+explained that “ many of the facts [Defendant]  claimed A.F. must include in his complaint are
+within the exclusive control and custody of [Defendant], such as whether the paraprofessionals
+had a history of similar conduct at this school or others.” Id. at 9-10.
+ On February 12, 2025, the St. Tammany Parish Sheriff’s Office arrested Bourgeois, Rayer,
+and Cookmeyer. R. Doc. 72- 24 at 2. The y face charges of “simple battery of persons with
+infirmities” in violation of Louisiana Revised Statute § 14:35.2 for their treatment of A.F. Id.
+II.        PRESENT MOTION
+ Defendant moves for summary judgment as to all of Plaintiffs ’ claims. R. Doc. 65. First,
+Defendant avers that Plaintiffs’ § 1983 claims must be dismissed because settled Fifth Circuit case
+law holds that corporeal punishment of students does not rise to the level of a constitutional
+violation. R. Doc. 65-1 at 9-18. Moreover, Defendant argues that even if Plaintiffs could establish
+that the paraprofessionals committed constitutional violations, Plaintiffs’ § 1983 claims still must
+Case 2:23-cv-07426-EEF-JVM     Document 81     Filed 04/28/25     Page 4 of 35
+5
+
+be dismissed because Plaintiffs cannot impute liability to the School Board for such violations
+under the exacting  standards for municipal liability . Id. at 18. Second, Defendant contends that
+Plaintiffs’ claims for disability discrimination in violation of the ADA and the LHRL must be
+dismissed because Plaintiffs failed to prove that the paraprofessionals treated A.F. differently than
+his peers based on his disability. Id. at 8-9. Third, Defendant argues that Plaintiff has failed to
+prove facts sufficient to support a verdict in their favor as to their state law claims for (1) battery ,
+(2) negligent training, and (3) intentional infliction of emotional distress.  Id. at 20-24. Moreover,
+Defendant argues that it is entitled to immunity as to all  Plaintiffs’ state-law claims. Id. at 7.
+  Plaintiffs oppose the motion, arguing that Defendants fundamentally mischaracterize and
+downplay the severity of the incidents depicted in the video footage. R. Doc. 72. They aver that
+they have in fact, proven the facts alleged in their complaint, meaning that they should necessarily
+prevail on summary judgment as to each of their claims. Id. at 11.
+ Finally, each party addresses the possibility of a continuance of the case. Defendant
+requests that the Court stay the instant civil proceeding pending the conclusion of the criminal
+proceedings against Bourgeois, Rayer, and Cookmeyer. R. Doc. 79. Plaintiffs consent to a brief
+continuance of the trial date. R. Doc. 78. However, they oppose a stay or any lengthy continuance
+contingent on the conclusion of the criminal proceedings. Id.
+III.        LEGAL STANDARD
+ Summary judgment is proper when “there is no genuine dispute as to any material fact and
+the movant is entitled to judgment as a matter of law.” Fed. R. Civ. P. 56(a). The court must view
+the evidence in the light most favorable to the nonmovant. Coleman v. Hous. Indep. Sch. Dist.,
+113 F.3d 528, 533 (5th Cir. 1997). Initially, the movant bears the burden of presenting the basis
+for the motion; that is, the absence of a genuine issue as to any material fact or facts. Celotex Corp.
+Case 2:23-cv-07426-EEF-JVM     Document 81     Filed 04/28/25     Page 5 of 35
+6
+
+v. Catrett, 477 U.S. 317, 323 (1986). The burden then shifts to the nonmovant to come forward
+with specific facts showing there is a genuine dispute for trial. See Fed. R. Civ. P. 56(c); Matsushita
+Elec. Indus. Co. v. Zenith Radio Corp., 475 U.S. 574, 586- 87 (1986). A fact is “material” if its
+resolution in favor of one party may affect the outcome of the case. See Saketkoo v. Adm ’rs of
+Tulane Educ. Fund, 31 F.4th 990, 997 (5th Cir. 2022) “A dispute about a material fact is ‘genuine’
+if the evidence is such  that a reasonable jury could return a verdict for the  nonmoving party.”
+Bodenheimer v. PPG Indus., Inc., 5 F.3d 955, 956 (5th Cir. 1993) (citation omitted).
+IV. LAW & ANALYSIS
+ Here, the parties dispute whether the instant civil case may go forward before the
+conclusion of the criminal proceedings against the paraprofessionals . Further, the parties dispute
+whether summary judgment is appropriate as to Plaintiffs’ : (1) § 1983 claims for violations of
+substantive due process, use of excessive force and denial of equal protection;  (2) claims for
+disability discrimination under the ADA and LHRL; and (3) state law claims for battery, negligent
+hiring, and intentional infliction of emotional distress . Because the reasons for continuing the
+case—and the effect of such continuance —interact with Defendant’ s request for summary
+judgment on several claims, the Court first addresses the continuance. Next, the Court takes each
+category of claims in turn.
+A. The Court Will Continue the Case.
+ Plaintiffs’ claims all arise out of the alleged abuse perpetrated by the three
+paraprofessionals. Although these paraprofessionals are not actually defendants in this case, their
+behavior underlies the suit. However, all three women are facing criminal charges. They have not
+yet been deposed. Accordingly, there appears to be a strong likelihood that should the Court allow
+Case 2:23-cv-07426-EEF-JVM     Document 81     Filed 04/28/25     Page 6 of 35
+7
+
+the trial to go forward before the criminal proceedings have resolved, the paraprofessionals would
+invoke the Fifth Amendment and refrain from testifying.
+ Indeed, Defendant avers that it would be prejudiced should the Court allow the instant civil
+case to go forward before the criminal proceedings have concluded. R. Doc. 79. It argues that:
+[I]f the paraprofessionals attend the trial and assert their rights under
+the Fifth Amendment to the U.S. Constitution , [Defendant] will be
+prejudiced in the trial as the witnesses will not be able to provide
+accurate testimony. As an example, the paraprofessionals could be
+asked whether they intentionally struck the child, and that individual
+would merely be able to state that they “plead the Fifth.” This type
+of testimony would not provide the jury with any insights on intent,
+nor would the paraprofessionals be able to offer an explanation for
+their behavior.
+R. Doc. 79 at 2. Accordingly, Defendant requests that this Court stay the instant case pending
+resolution of the criminal proceedings.
+ Plaintiffs, however, contend that the Court need not wait until the conclusion of the
+criminal proceedings to try the instant civil matter. R. Doc. 78. Rather, Plaintiffs argue  that they
+can simply call the paraprofessionals to testify despite the ongoing criminal proceedings against
+them. Id. at 2.  Specifically, Plaintiffs urge that if the paraprofessionals invoke the Fifth
+Amendment, the Court should merely instruct the jury that they may draw an “adverse inference”
+against Defendant based on the witnesses’ refusal to testify. Id.
+ The Court finds that this case must be continued pending resolution of the criminal
+proceedings against the paraprofessionals. Plaintiff is correct that “it is well-settled that ‘the Fifth
+Amendment does not forbid adverse inferences against parties to civil actions when they refuse to
+testify in response to probative evidence offered against them.’” Hinojosa v. Butler, 547 F.3d 285,
+291 (5th Cir. 2008)  (quoting Baxter v. Palmigiano, 425 U.S. 308, 318 (1976)). However, “[i] n
+general, the decision as to whe ther to admit a person’ s invocation of the Fifth Amendment into
+evidence is committed to the discretion of the district court.” FDIC v. Fid. & Deposit Co., 45 F.3d
+Case 2:23-cv-07426-EEF-JVM     Document 81     Filed 04/28/25     Page 7 of 35
+8
+
+969, 977 (5th Cir. 1995). That is, such evidence, while admissible, is still subject to the balancing
+test laid out in Federal Rule of Evidence 403. See Hinojosa, 547 F.3d at 294 (“[A]  witness’s
+invocation may be so prejudicial in certain circumstances as to warrant its exclusion under Rule
+403.”). More specifically, the Fifth Circuit has cautioned that “[t] he assertion of the privilege,
+particularly on the advice of counsel, is an ambiguous response . . . The jury is not likely to realize
+that the innocent may invoke.” Farace v. Indep. Fire Ins. Co., 699 F.2d 204, 210- 11 (5th Cir.
+1983). Here, the Court is persuaded by Defendant’s argument that it will be unfairly prejudiced if
+the three key witnesses, who are under active criminal prosecution, take the stand and plead the
+Fifth. In this particular case, as illustrated below, the presence of discriminatory intent on the part
+of the paraprofessionals and the full context of the incidents displayed in the video footage will be
+key to the jury’s fair and informed decision.
+ However, although the Court will stay the case, the Court does not find that an indefinite
+stay is appropriate. Rather, the Court will stay the suit for 90 days, after which time the parties
+may update the Court on the status of the criminal proceedings and request an extension of the stay
+if appropriate. The Court will monitor the progress of the underlying criminal proceedings through
+regular status conferences to ensure that this matter proceeds to trial as soon as possible.
+ With this background in mind—the fact that key witness testimony is still outstanding and
+that the case may not go forward in the near future—the Court moves on to address Defendant’s
+pending motion for summary judgment.
+B. Plaintiffs’ § 1983 Claims are Not Viable at This Time.
+ Here, Plaintiff seeks to hold the School Board liable under § 1983 for alleged constitutional
+violations perpetrated by its employees, the three paraprofessionals. There are two steps involved
+in bringing a successful § 1983 claim against a municipality such as a school board. First, the
+Case 2:23-cv-07426-EEF-JVM     Document 81     Filed 04/28/25     Page 8 of 35
+9
+
+plaintiff must show that the employee s in question actually violated the plaintiff’s constitutional
+rights. See Monell v. New York City Dept. of Social Servs. , 436 U.S. 658 (1978). Second, the
+plaintiff must show that a specific “ policy or custom” enacted by the municipality itself was the
+“moving force” of the particular constitutional violation. Id. That is, “the unconstitutional conduct
+must be directly attributable to the municipality through some sort of official action or
+imprimatur.” Piotrowski v. City of Houston, 237 F.3d 567, 578 (5th Cir. 2001).
+ With that in mind, the Court examines each issue in turn: (1) whether Plaintiffs have a
+viable claim that the paraprofessionals violated A.F.’s constitutional rights  and (2) if so, whether
+they have shown that the School Board could be held liable for any of these violations  under the
+stringent requirements of municipal liability.  Ultimately, the Court concludes that although
+genuine issues of fact exist as to the  first issue —the underlying constitutional violations —
+Plaintiffs have not yet presented sufficient evidence to create a genuine issue as to whether such
+conduct is “directly attributable” to the School Board. Id.
+i. The Underlying Constitutional Violations
+ “To state a claim under 42 U.S.C. § 1983, a plaintiff must first show a violation of the
+Constitution or of federal law .” T.O. v. Fort Bend Indep. Sch. Dist., 2 F.4th 407, 413 (5th Cir.
+2021). Plaintiffs allege that the paraprofessionals violated A.F.’s  constitutional rights in three
+ways: infringing his right to  bodily integrity, using excessive force, and denying him equal
+protection. Defendant disagrees and argues that the high bar for § 1983 claims in school abuse
+cases warrants summary judgment. The Court examines each constitutional violation in turn.
+1. Fourteenth Amendment Due Process and Fourth Amendment Excessive Force
+ “It is well-established in this circuit that ‘corporal punishment in public schools implicates
+a constitutionally protected liberty interest’  under the Fourteenth Amendment.”  T.O., 2 F.4th at
+Case 2:23-cv-07426-EEF-JVM     Document 81     Filed 04/28/25     Page 9 of 35
+10
+
+413-14.  Usually, when a plaintiff brings both a Fourteenth Amendment due process claim and a
+Fourth Amendment excessive force claim, the court examines the claims together through the lens
+of the Fourteenth Amendment. See id. (“The Fourth Amendment is applicable in a school context.
+In [the Fifth] Circuit, however, claims involving corporal punishment are generally analyzed under
+the Fourteenth Amendment.”); Flores v. Sch. Bd. of DeSoto Par., 116 F. App’x 504, 510 (5th Cir.
+2004) (explaining that “ permitting students to bring excessive force claims under the Fourth
+Amendment would eviscerate ” the established process for analyzing substantive due process
+violations in the school context).
+ Overall, the Fifth Circuit has set a high bar for § 1983 due process  / excessive force cases
+in the school context. The key issue in such cases is determining whether the teacher’s behavior
+qualifies as mere “corporeal punishment” or whether the behavior crosses the line into something
+more sinister . “Corporeal punishment” is defined by the Fifth Circuit as “discipline [] for the
+purpose of maintaining order and respect.” Flores , 116 F. App’x at 510. In Fee v. Herndon, the
+court explained that where the teacher’s behavior constitutes mere “corporeal punishment,” a
+plaintiff may not bring a § 1983 suit for a constitutional violation. 900 F.2d 804, 808 (5th Cir.
+1990). Rather, they must rely on state law remedies:
+[I]njuries sustained incidentally to corporal punishment, irrespective of the severity of
+these injuries or the sensitivity of the student, do not implicate the due process clause if the
+forum state affords adequate post-punishment civil or criminal remedies for the student to
+vindicate legal transgressions. The rationale for this rule, quite simply, is that such states
+have provided all the process constitutionally due.
+The Fifth Circuit has already found that Louisiana indeed affords adequate state law remedies to
+plaintiffs for claims arising from corporeal punishment by teachers. See Flores , 116 F. App’x at
+509 (“We have previously held that the State of Louisiana affords students an adequate remedy
+through its tort law and statutory provisions in Title 17.”). Thus, “corporeal punishment” is not
+actionable under § 1983 pursuant to existing Fifth Circuit case law.
+Case 2:23-cv-07426-EEF-JVM     Document 81     Filed 04/28/25     Page 10 of 35
+11
+
+ In contrast, however, behavior that goes beyond mere corporeal punishment can sustain a
+§ 1983 claim. For example, a “malicious and unprovoked attack,”—that is, an attempt to “cause
+harm to the student for no legitimate pedagogical purpose” —does not qualify as corporeal
+punishment and can thus support a § 1983 claim. Flores, 116 F. App’x at 510. Put another way, a
+teacher’s behavior is actionable under § 1983 when it is “arbitrary, capricious, or wholly unrelated
+to the legitimate state goal of maintaining an atmosphere conducive to learning.” Woodard v. Los
+Fresnos Indep. Sch. Dist., 732 F.2d 1243, 1246 (5th Cir. 1984).
+ The Fifth Circuit has summarized its application of this precedent as follows:
+[W]e have consistently dismissed substantive due process claims
+when the offending conduct occurred in a disciplinary, pedagogical
+setting. For example, we dismissed substantive due process claims
+(1) when a student was instructed to perform excessive physical
+exercise as a punishment for talking to a friend;  (2) when a police
+officer slammed a student to the ground and dragged him along the
+floor after the student disrupted class; (3) when a teacher threatened
+a student, threw him against a wall, and choked him after the student
+questioned the teacher ’s directive; (4) when an aide grabbed,
+shoved, and kicked a disabled student for sliding a compact disc
+across a table; and (5) when a principal hit a student with a wooden
+paddle for skipping class.
+
+In contrast, we have allowed substantive due process claims against
+public school officials to proceed when the act complained of was
+‘arbitrary, capricious, or wholly unrelated to the legitimate state goal
+of maintaining an atmosphere conducive to learning.’ For example,
+we held that a substantive due process claim could proceed when a
+teacher allegedly molested a student, and when a teacher tied a
+student to a chair for two days as part of an experimental technique.
+We allowed those claims to proceed because, unlike disciplinary
+measures, these alleged acts were ‘unrelated to any legitimate state
+goal.’
+T.O., 2 F.4th at 414 (internal citations omitted).
+ Defendant contends that this precedent shows that no underlying due process or excessive
+force violation was committed against A.F. R. Doc. 65. It maintains that like the student s in the
+cases where the Court found inactionable “corporeal punishment,” A.F. was misbehaving at the
+Case 2:23-cv-07426-EEF-JVM     Document 81     Filed 04/28/25     Page 11 of 35
+12
+
+time of the incidents . That is, Defendant  contends that A.F. provoked the teachers by hitting
+Bourgeois in the leg with his cane, struggling with and attempting to bite Rayer, and engaging in
+“hand fighting” with Cookmeyer . Id. Thus, Defendant asserts that the paraprofessional’s actions
+were “legitimate, though inappropriate, attempts to prevent disruptive behavior.” Id. at 18.
+ Plaintiffs argue that the Fifth Circuit case law summarized above, holding that corporeal
+punishment of children is categorically not actionable under § 1983, has in fact recently been
+abrogated. R. Doc. 72 at 22. They observe that  in 2017, Louisiana passed a statute banning any
+corporeal punishment of children with disabilities. See La. R.S. § 17:416.1(B)(1). (“ No form of
+corporal punishment shall be administered to a student with an exceptionality”). They thus argue
+that “[b]ecause Louisiana has made a policy choice that any amount of corporal punishment against
+disabled children is per se  unreasonable, the conduct here is no longer ‘related to the legitimate
+state goal of maintaining an atmosphere conducive to learning.’”  R. Doc. 72 at 22 (quoting T.O. ,
+2 F.4th at 414).
+ Moreover, elsewhere in their brief, Plaintiffs challenge Defendant’s interpretation that A.F.
+was misbehaving at the time of the incidents. R. Doc. 72 at 3. They argue that video from A.F.’s
+classroom shows that the sequence of events begins when Rayer pushes A.F. out of the door of the
+classroom into the hallway without  any provocation. Id. at 3. They argue that A.F. only
+accidentally touched Bourgeois’ leg with his cane . Id. Rayer then attacked A.F. by grabbing his
+cane, striking him with it, and, per deposition testimony of witnesses, saying “how does that feel?”
+Id. As to the third incident in the cafeteria, Plaintiff alleges that Cookmeyer’s pushing A.F.’s head
+into the table is “inexplicable” given that she had finished guiding him to the table  and he was
+seated and ready to eat lunch. Id. at 7. Thus, overall, P laintiffs seem to allege that the
+paraprofessionals’ actions were a “malicious and unprovoked attack ” rather than corporal
+Case 2:23-cv-07426-EEF-JVM     Document 81     Filed 04/28/25     Page 12 of 35
+13
+
+punishment “intended to discipline the student for the purpose of maintaining order and respect .”
+Flores, 116 F. App’x at 509.
+ Here, the Court finds that genuine issues of material fact exist on the issue of whether the
+paraprofessionals violated A.F.’s constitutional rights to bodily integrity and freedom from
+excessive force. Preliminarily, the Court observes that there may be some merit in Plaintiffs’
+argument that Louisiana’s passage of a law rejecting corporeal punishment for disabled children
+undermines prior Fifth Circuit case s holding that “corporeal punishment” is categorically not
+actionable under § 1983 regardless of how disproportionate the teacher’s abuse is to the student’s
+misbehavior. The Court is sympathetic to Plaintiffs’ argument that law and attitudes regarding the
+physical punishment of schoolchildren, particularly disabled school children, have been
+meaningfully altered since this line of case law developed in the late 1970s. See, e.g., Ingraham v.
+Wright, 430 U.S. 651 (1977) (originating the “corporeal punishment” distinction).
+ However, the Court ultimately does not reach this issue because it finds that even under
+the existing case law described above, issues of material fact persist. Essentially, the case law turns
+on whether the student was misbehaving at the time of the teacher’s attack. See T.O. , 2 F.4th at
+414. If so, the teacher’s behavior is deemed non-actionable corporeal punishment. Id. However, if
+the teacher’s actions are “malicious and unprovoked,” § 1983 is still in play. See Flores, 116 F.
+App’x at 509. Crucially, the parties dispute whether A.F. was misbehaving. Defendant argues that
+A.F.’s actions triggered the incidents because he hit Bourgeois with his cane, tried to bite Rayer,
+and engaged in “hand fighting” with Cookmeyer. Plaintiff s, meanwhile, aver that Rayer initiated
+the sequence of events by pushing A.F. out the classroom door for no apparent reason. They argue
+that A.F., who is blind, was reasonably sweeping his cane when he inadvertently touched
+Bourgeois’ leg. And they aver that Cookmeyer’s head push was completely “unprovoked.”
+Case 2:23-cv-07426-EEF-JVM     Document 81     Filed 04/28/25     Page 13 of 35
+14
+
+ The Court has viewed the video in question and finds that it is susceptible to both
+interpretations. Therefore, f act issues persist as to whether A.F.’s behavior was in fact
+“unwarranted.” Marquez v. Garnett , 567 F. App’x 214, 215 (5th Cir. 2014) . Accordingly,
+fundamental fact issues preclude the Court from granting summary judgment on Plaintiffs’ failure
+to show a genuine issue of fact as the these constitutional violations.
+2. Equal Protection
+ The parties also dispute whether the paraprofessionals denied A.F.’s constitutional right to
+equal protection. “The Equal Protection Clause of the Fourteenth Amendment commands that no
+State shall deny to any person within its jurisdiction the equal protection of the laws, which is
+essentially a direction that all persons similarly situated should be treated alike.” City of Cleburne
+v. Cleburne Living Ctr., 473 U.S. 432, 439 (1985) . An equal protection claim can be sustained
+“even if the plaintiff has not a lleged class-based discrimination, but instead claims that she has
+been irrationally singled out as a so- called “class of one.” Engquist v. Oregon Dep’t of Agr., 553
+U.S. 591, 601 (2008). This is because “[w]hether the complaint alleges a class of one or of five is
+of no consequence . . . the number of individuals in a class is immaterial for equal protection
+analysis.” Vill. of Willowbrook  v. Olech, 528 U.S. 562, 564 n.1 (2000). Rather, a plaintiff must
+simply show that he has (1) “been intentionally treated differently from others similarly situated”
+and (2) “that there is no rational basis for the difference in treatment.” Id.
+ Defendant avers that there is no evidence that A.F. was treated  worse than other students.
+R. Doc. 65-1 at 18. Moreover, it argues that to the extent that A.F. was treated differently, this was
+rationally related to “maintaining order at MMS and correcting inappropriate behavior.” Id.
+ Again, the Court finds that fact issues underlie the question of whether the
+paraprofessionals violated A.F.’s right to equal protection. In some cases, the Fifth Circuit has
+Case 2:23-cv-07426-EEF-JVM     Document 81     Filed 04/28/25     Page 14 of 35
+15
+
+dismissed equal protection claims on the basis that the plaintiff has failed to adequately show a
+causal connection between the plaintiff’s disability and the teacher’s maltreatment. For example,
+in S.B. on behalf of S.B. v. Jefferson Parish School Board, the autistic eleven -year-old plaintiff
+pinched and kicked at her teachers unprovoked, and the teachers responded by smacking her wrists.
+No. 22-30139, 2023 WL 3723625, at *4 (5th Cir. May 30, 2023), cert. denied , 144 S. Ct. 562
+(2024). The court dismissed the plaintiff’s equal protection claims, explaining that  “although
+[plaintiff’s] autism was the root cause of her disability,” which caused her to pinch and kick at her
+teachers, it could not automatically “be inferred” that the teachers’ reactions were “influenced by
+her disability.” Id.
+ However, where a teacher is abusing certain disabled children with higher-than-normal
+needs but not other less -disabled or non- disabled children, summary judgment is often not
+appropriate. See H.M. v. Bd. of Educ. of the Kings Loc. Sch. Dist., 117 F. Supp. 3d 992, 1003 (S.D.
+Ohio 2015) (“It also is reasonable to infer from the alleged facts that the treatment was solely due
+to Plaintiff -children’s multiple handicaps without any rational relationship to a legitimate
+governmental purpose and tha t non- disabled students were not treated in the same manner.”);
+Vicky M. v. Ne. Educ. Intermediate Unit 19, 486 F. Supp. 2d 437, 457 (M.D. Pa. 2007)  (plaintiff
+had a viable claim where he “alleged that Defendant [] repeatedly discriminated against the Minor–
+Plaintiff and other autistic students in her class by inflicting physical and emotional abuse upon
+them but did not so discriminate against her other special education students.”).
+ Plaintiff has indeed offered evidence that the paraprofessionals’ abuse was causally related
+to A.F.’s disabilities. Here, Plaintiffs aver that A.F. is significantly disabled in that he is completely
+blind, non-verbal, and autistic. R. Doc. 72-3 at 3-4. The Court has reviewed the video footage and
+agrees with the Plaintiffs that it does not appear that the paraprofessionals were abusing the other
+Case 2:23-cv-07426-EEF-JVM     Document 81     Filed 04/28/25     Page 15 of 35
+16
+
+students. And most importantly, Plaintiffs offer evidence specifically connecting the
+paraprofessionals’ abuse to A.F.’s disabilities. For example, they argue that video evidence shows
+that A.F’s blindness and use of a cane caused him to accidentally touch Bourgeois’ leg, prompting
+her kick. R. Doc. 72 at 4. They also aver that his autism and “stimming” behaviors prompted the
+incidents with Rayer and Cookmeyer. Further, Plaintiffs offer testimony of Shannon White, a
+behavior technician who witnessed the incidents, who stated that Rayer was “way too rough
+physically w/ certain autistic / impaired children” and that, during the incident, she “told [A.F.]
+who is blind w/ a cane to ‘figure out how to walk by himself.’” R. Doc. 72-8 at 3 (emphasis added).
+Finally, Plaintiffs present evidence of emotional abuse, such as the paraprofessionals calling A.F.
+“ridiculous” and “bad,” and preventing other teachers from even speaking to him. R. Doc. 72 at 5.
+Accordingly, the Court finds that Plaintiff has raised a genuine issue of fact as to whether the
+paraprofessionals targeted A.F. on the basis of his disabilities.
+ii. Monell Liability: Failure to Train
+ As explained above, fact issues preclude the Court from deciding whether the
+paraprofessionals violated A.F.’s constitutional rights to bodily integrity, freedom from excessive
+force, and equal protection. However, such a finding is only half of the  equation. To survive
+summary judgment in a municipal liability case, a plaintiff must also submit evidence sufficient to
+show that the municipality’s own policy or custom was the “moving force” of the constitutional
+violations in question. Monell, 436 U.S. at 694. Thus, the Court now moves on to decide whether
+Plaintiff has created a genuine issue of fact as to this second step of the analysis.
+ A municipality is not liable under § 1983 on the theory of respondeat superior. Id. Rather,
+a municipality is liable only  for acts directly attributable to it “through some official action or
+imprimatur.” Piotrowski v. City of Houston, 237 F.3d 567, 578 (5th Cir.  2001). Here, Plaintiffs
+Case 2:23-cv-07426-EEF-JVM     Document 81     Filed 04/28/25     Page 16 of 35
+17
+
+aver that Defendant is liable for the paraprofessionals’ constitutional violations based on its failure
+to adequately train them.1 Such claims “can only yield liability against a municipality where that
+[municipality’s] failure to train reflects deliberate indifference to the constitutional rights” of those
+it interacts with. City of Canton v. Harris , 489 U.S. 378, 386–92 (1989) (emphasis added). That
+is, a municipal defendant must have “ actual or constructive notice that a particular omission in
+their training program causes . . .  employees to violate citizens’ constitutional rights and the actor
+nevertheless chooses to retain that program.” Porter v. Epps , 659 F.3d 440, 446 (5th Cir. 2011) .
+This is because “ without notice that a course of training is deficient in a particular respect,
+decisionmakers can hardly be said to have deliberately chosen a training program that will cause
+violations of constitutional rights.” Id.
+ There are two ways of proving that a defendant’s failure to train its employees amounts to
+“deliberate indifference” to the constitutional rights of those the municipality serves. City of
+Canton, 489 U.S. at 390 n.10. First, a plaintiff can establish notice if a violation occurs “so often”
+that a factfinder can infer from the pattern of violations that “the need for further training must
+have been plainly obvious to the . . .  policymakers.” Id. Second, there is a “single incident
+exception” where, even absent proof of a pattern, deliberate indifference can be inferred if a
+factfinder determines that the risk of constitutional violations was or should have been an
+“obvious” or “highly predictable consequence” of the alleged training inadequacy. Burge v. St.
+Tammany Par., 336 F.3d 363, 373 (5th Cir. 2003). Because Plaintiffs argue both of these methods
+in their briefing, the Court analyzes each in turn.
+
+1 Plaintiffs also mention failure to properly hire and supervise in their complaint. However, Plaintiffs do not make
+any argument as to hiring or supervision in their opposition brief; they only mention training. Because Plaintiff has
+abandoned these theories and offers no evidence to support them, the Court does not analyze them.
+Case 2:23-cv-07426-EEF-JVM     Document 81     Filed 04/28/25     Page 17 of 35
+18
+
+1. Pattern
+ The Fifth Circuit has explained that “[w]here prior incidents are used to prove a pattern,
+they must have occurred for so long or so frequently that the course of conduct warrants the
+attribution to the governing body of knowledge that the objectionable conduct is the expected,
+accepted practice of city employees.” Peterson v. City of Fort Worth, 588 F.3d 838, 849- 50 (5th
+Cir. 2009). “A pattern requires similarity and specificity.” Id. at 851. It “also requires sufficiently
+numerous prior incidents, as opposed to isolated instances.” Id.
+  Here, Plaintiffs make two arguments in support of their “pattern” theory. First, Plaintiffs
+allege that Principal Barton had “received complaints” about the three paraprofessionals such as
+that Bourgeois was “emotionally abusive,”  Cookmeyer displayed “consistent negativity” and
+“handled” students in a “physically abrupt” manner, and Rayer was “lazy.”  R. Doc. 72 at 25.
+However, Plaintiffs cite  only to Principal Barton’s notes and deposition testimony for these
+descriptions. Id. The Court has reviewed these exhibits and observes that these statements appear
+to be either  personal observations made by Principal Barton or perhaps remarks made by other
+teachers and included in negative performance reviews. As far as the Court can tell, these general
+comments are not in reference to any particular incidents. Overall, such generic comments, without
+reference to any specific incidents, fall far short of the “similarity and specificity” required to prove
+deliberate indifference by repeated pattern of incidents. Peterson, 588 F.3d at 851.
+ Second, Plaintiffs more emphatically argue that the facts of this case alone  demonstrate a
+“pattern” because “there are eight discrete incidents committed by three different employees
+within a period of just ten minutes.” Id.  at 24. Plaintiffs contend that “[t]he assistant principal
+herself admitted that this presents a pattern” because she testified on deposition that “As a parent,
+Case 2:23-cv-07426-EEF-JVM     Document 81     Filed 04/28/25     Page 18 of 35
+19
+
+I would assume that it probably had happened more . . . Because if it happened that much, it
+probably wasn’t the first time.” Id.
+ Unfortunately, however, Plaintiffs cite no case law in support of their argument that a
+“pattern” of violations sufficient to impute notice to the defendant can be found based only on a
+series of incidents occurring within a ten- minute period. The Court, in its own research, has not
+found a case within the Fifth Circuit addressing such an argument. However, other federal district
+courts, applying the same Monell standard, have uniformly rejected this  argument. For example,
+in Dubose v. City of Hueytown, the district court found that a plaintiff failed to prove a pattern
+where he alleged that four officers committed various acts of excessive force against him in short
+succession:
+[Plaintiff] merely assumes that because incidents excessive force
+occurred on a single day involving multiple officers, then a lack of
+training, supervision, and discipline must have also occurred . . .
+
+Perhaps [Plaintiff] cites no supporting cases because the opinions of
+the United States Supreme Court and Eleventh Circuit do not
+support [his] argument that the unconstitutional acts of multiple
+officers on one date necessarily implicates their supervisor’s failure
+to train or supervise or discipline; that argument is, in effect, calling
+for the imposition of de facto respondeat superior or vicarious
+liability, theories of liability that the Supreme Court and the
+Eleventh Circuit have repeatedly refused to impose under section
+1983.
+No. 15-852-S, 2016 WL 3854241, at *8 (N.D. Ala. July 15, 2016) . Another court, addressing an
+identical argument, explained that:
+In the instant case, the relevant events took place within the span of
+a single day, in one unbroken series of events. Plaintiffs fail to cite,
+and this Court cannot identify any authority in which violations that
+occurred only a few hours apart, as part of the same arrest and
+detention, were considered separate incidents from which one could
+infer a pattern of violations. Adopting Plaintiffs’ legal theory would
+blur the distinction between the single -incident and multiple -
+incident theories of liability for failure to train.
+Case 2:23-cv-07426-EEF-JVM     Document 81     Filed 04/28/25     Page 19 of 35
+20
+
+Dillman v. Tuolume County, No. 13-404, 2013 WL 3832736, at *5 (E.D. Cal. July 23, 2013).
+ Here, Plaintiff s do not cite, and the Court could not locate, any decisions reaching an
+opposite conclusion. And, the Court agrees with the reasoning of these courts: incidents all
+occurring within ten minutes are not sufficient to create a fact issue as to whether Defendant had
+“actual or constructive notice that a particular omission in their training program causes . . .
+employees to violate citizens’ constitutional rights.” Porter, 659 F.3d at 446. Put simply, Plaintiff’s
+failure to identify a single case accepting their  novel theory of Monell  liability (i.e., inferring a
+pattern from a series of nearly instantaneous actions) is fatal to their argument.
+2. Single Incident
+ “[A]bsent proof of pattern, deliberate indifference can still be inferred if the factfinder
+determines that the risk of constitutional violations was or should have been an ‘obvious’ or ‘highly
+predictable consequence’ of the alleged training inadequacy.” Littell v. Houston Indep. Sch. Dist.,
+894 F.3d 616, 624 (5th Cir. 2018). That is, “in a limited set of cases, a plaintiff, unable to show a
+pattern of constitutional violations, may establish deliberate indifference by “showing a single
+incident with proof of the possibility of recurring situations that present an obvious potential for
+violation of constitutional rights.” Burge v. St. Tammany Par., 336 F.3d 363, 373 (5th Cir. 2003).
+ “The single incident exception, however, is a narrow one, and one that [the Fifth Circuit]
+ha[s] been reluctant to expand.” Id. “Because ‘virtually every’ plaintiff alleging municipal liability
+can propose some training reform that would have prevented ‘the particular injury -causing
+conduct,’ [Fifth Circuit] caselaw has ‘ generally reserved’ the single-incident method of proving
+deliberate indifference for cases in which the policymaker provides ‘no training whatsoever’ with
+respect to the relevant constitutional duty, as opposed to training that is inadequate only as to the
+particular conduct that gave rise to the plaintiff ’s injury.” Littell, 894 F.3d at  625 n.5; see also
+Case 2:23-cv-07426-EEF-JVM     Document 81     Filed 04/28/25     Page 20 of 35
+21
+
+Connick v. Thompson, 563 U.S. 51, 67, (2011) ( explaining that “nuance[d]” training deficiencies
+are inadequate to sustain a single-incident theory). Id.
+ Thus, the single-incident exception is reserved for where the defendant completely fails to
+train regarding (1) a “clear constitutional duty” (2) implicated in “recurrent situations” that (3) a
+particular employee is “certain to face.” Canton, 489 U.S. at 396. For example, the Fifth Circuit
+found that the single-incident exception was viable where the plaintiff alleged that a school district
+provided its employees with no training whatsoever regarding the constitutional requirements for
+performing searches of students. Littell, 894 F.3d at 625. It explained that the “precise nature” of
+the Fourth Amendment’s “constraints on searches” was “sufficiently clear  in the law ” because
+“[s]tudent searches are governed by defined principles such as the need for individualized
+suspicion, the nexus requirement, and the limit on unduly intrusive means.” Id. Further, the Court
+explained that “the school district knew or should have known to a high degree of certainty that
+[the teacher in question] and other employees would be placed in situations requiring knowledge
+of Fourth Amendment search law.” Id. And, the plaintiffs alleged that the defendant provided no
+training whatsoever as to this constitutional duty. Id.
+ However, mere failure to train in “one limited area” is not cognizable. Est. of Davis ex rel.
+McCully v. City of N. Richland Hills, 406 F.3d 375, 386 (5th Cir. 2005). For example, in Sneed v.
+Austin Independent School District , the plaintiff argued that single -incident liability was proper
+because the defendant school district provided no training on “harassment based on cultural issues”
+such as “implicit bias.” 487 F. Supp. 3d 584, 596 (W.D. Tex. 2020). However, the plaintiff notably
+did not allege that the school district completely failed to train its employees  with regards to its
+constitutional duty to refrain from discrimination or harassment. Id. Thus, the Court found that the
+plaintiff’s alleged training defect was too particularized to sustain single-incident liability. Id.
+Case 2:23-cv-07426-EEF-JVM     Document 81     Filed 04/28/25     Page 21 of 35
+22
+
+ Here, Plaintiff alleges that the single-incident theory of liability is cognizable because the
+paraprofessionals received no training on “how to guide blind children .” R. Doc. 72 at 25.
+However, this is precisely the sort of nuanced training defect that goes to the “particular injury-
+causing conduct” at issue in the case rather than a wholesale failure to train as to a major
+constitutional duty. Littell, 894 F.3d at 625 n.5 “Guiding blind children”  is not a “clear
+constitutional duty.” Canton, 489 U.S. at 396. Put simply, Plaintiffs have failed to submit evidence
+showing that Defendant completely failed to train the paraprofessionals with respect to their
+constitutional duties to respect student’s bodily integrity, refrain from excessive force, or afford
+students equal protection. Accordingly, this is not a single-incident case.
+iii. Although Plaintiffs’ §  1983 Claims Fail at th is Time, Summary Judgment is
+Premature.
+ As explained above, Plaintiffs three § 1983 claims fail at the Monell prong of the analysis.
+However, the Court notes that it has decided to stay this case pending the conclusion of the criminal
+proceedings against the paraprofessionals in question, so that they will be able to freely testify .
+Accordingly, highly relevant witness testimony is still outstanding. Indeed, the testimony of the
+paraprofessionals could well generate key evidence as to their history of committing similar
+violations and as to their training on the relevant constitutional duties. Accordingly, the Court will
+not grant summary judgment on Plaintiffs’  §1983 claims at this time. Rather, it will deny
+Defendant’s request for summary judgment without prejudice and allow it to re-urge the motion—
+either on the eve of trial or  on a Rule 50 motion—should Plaintiffs fail to produce any further
+evidence that could cure the deficiencies noted above.
+C. Plaintiffs Have Viable ADA and LHRL Claims.
+ The Court now leaves behind Plaintiffs’ § 1983 claims to address their ADA and LHRL
+claims. The Title II of the ADA focuses on disability discrimination in the provision of public
+Case 2:23-cv-07426-EEF-JVM     Document 81     Filed 04/28/25     Page 22 of 35
+23
+
+services. Specifically, Title II, 42 U.S.C. § 12132, provides that “no qualified individual with a
+disability shall, by reason of such disability, be excluded from participation in or be denied the
+benefits of the services, programs, or activities of a public entity, or be subjected to discrimination
+by any such entity.” ADA claims are viable under both a “conscious discrimination” theory and a
+“failure to accommodate” theory. See Pickett v. Texas Tech Univ. Health Scis. Ctr., 37 F.4th 1013,
+1033 (5th Cir. 2022). And crucially, “the ADA . . . provide[s] for vicarious liability. This means
+that a plaintiff need not identify an official policy to sustain a claim against a public entity as it
+may be held vicariously liable for the acts of its employees.” J.W. v. Paley, 81 F.4th 440, 449 (5th
+Cir. 2023). The Louisiana Human Rights Law (“LHRA”) is “modeled after the ADA.” Conine v.
+Universal Oil Prod. Co. , 42,409 (La. App. 2 Cir. 9/26/07), 966 So. 2d 763, 767. Thus, when
+“interpreting the scope of the LHRA,” courts “look[] to the ADA.” Cougle v. Berkshire Life Ins.
+Co. of Am., 429 F. Supp. 3d 208, 216 (E.D. La. 2019).
+  Here, Plaintiffs argue theories of conscious discrimination and failure to accommodate
+under the ADA and LHRL. The Court takes each in turn before addressing vicarious liability.
+i. Conscious Discrimination
+ In general, a plaintiff bringing suit under Title II of the ADA must prove that (1) he has a
+disability; (2) “he is being excluded from participation in, or being denied benefits of, services,
+programs, or activities for which the public entity is responsible, or is otherwise being
+discriminated against by the public entity”; and (3) “such exclusion, denial of benefits, or
+discrimination is by reason of his disability.” Windham v. Harris Cnty., Texas, 875 F.3d 229, 235
+(5th Cir. 2017). The plaintiff need not prove that the action was taken “solely because” of his
+disability. Pickett v. Texas Tech Univ. Health Scis. Ctr. , 37 F.4th 1013, 1024 (5th Cir. 2022). A
+“mixed motive” is equally unlawful. Id. at 1035. Thus, if a defendant acts for “two reasons”—one
+Case 2:23-cv-07426-EEF-JVM     Document 81     Filed 04/28/25     Page 23 of 35
+24
+
+legitimate and one discriminatory —then it violates Title II. Id.  at 1035, n.14. The plaintiff “may
+only recover compensatory damages upon a showing of intentional discrimination.” Rideau v.
+Keller Indep. Sch. Dist., 978 F. Supp. 2d 678, 682 (N.D. Tex. 2013).
+ Here, the parties largely re-urge the arguments summarized above in relation to Plaintiffs’
+equal protection claim. That is, Defendants aver that there is “no evidence of discrimination or a
+discriminatory motive” on behalf of the paraprofessionals. R. Doc. 65- 1 at 9. They claim that the
+video footage shows that “A.F.’s behavior was the trigger for an employee response.” Id. Plaintiffs,
+for their part, connect the abuse to A.F.’s disabilities. For example, they argue that the
+paraprofessionals’ telling A.F. to “figure out how to walk by himself” after taking away his cane
+supports a finding of disability-based animus.
+ The Court finds tha t Plaintiffs have presented viable ADA  and LHRL claims. Similar to
+the equal protection context, the case law shows  that where a teacher abuses a particular, highly
+disabled student but not other less disabled students, an ADA claim is potentially viable. For
+example, Plaintiffs cite Rideau v. Keller Indep. Sch. Dist., 978 F. Supp. 2d 678, 683 (N.D. Tex.
+2013). There, the court denied summary judgment where a severely disabled student incurred
+suspicious injuries suggestive of abuse while under the care of a particular teacher. The Court
+relied on this physical abuse as well as deposition testimony from witnesses who stated that the
+teacher was “impatient” and “forceful” with certain students and “often got more impatient with”
+those “students who required a lot [of] attention,” than he did with “ less needy” students. Here,
+the evidence summarized above in conne ction with Plaintiffs’ equal protection claim—that  A.F.
+was severely disabled as blind, nonverbal and autistic and that  the paraprofessionals (1) only
+abused A.F. and not the less-disabled students, (2) called A.F. “ridiculous” and “bad” among other
+derogatory remarks (3) kicked, hit, and pushed A.F. and (4) were, per witness testimony, “way too
+Case 2:23-cv-07426-EEF-JVM     Document 81     Filed 04/28/25     Page 24 of 35
+25
+
+rough physically” with “ certain autistic / impaired children” —also suffices for their conscious
+discrimination ADA theory. R. Doc. 72-8 at 3.
+ii. Reasonable Accommodation
+ Plaintiffs also bring their ADA claim of the basis of a failure-to-accommodate theory. “To
+succeed on a failure-to-accommodate claim, a plaintiff must prove: (1) he is a qualified individual
+with a disability; (2) the disability and its consequential limitations were known by the covered
+entity; and (3) the entity failed to make reasonable a ccommodations.” Smith v. Harris Cnty., 956
+F.3d 311, 317 (5th Cir. 2020) (quotation omitted). If the plaintiff proves those three elements, “the
+defendants are liable simply [for] denying [the accommodation].” Bennett-Nelson, 431 F.3d at
+455. “Although these laws may require certain accommodations regardless of a defendant’s intent,
+plaintiffs can only recover damages when a defendant engaged in intentional discrimination.”
+Phillips next friend of J.H. v. Prator , No. 20-30110, 2021 WL 3376524, at *2 (5th Cir. Aug. 3,
+2021). Courts have therefore held that “intentional discrimination requires at least actual
+knowledge that an accommodation is necessary.” Id. “The requisite notice” can come from “facts
+establishing that the disability, resulting limitation, and necessary reasonable accommodation were
+‘open, obvious, and apparent’ to the entity’s relevant agents.” Paley, 81 F.4th at 450.
+ Defendant maintains that there is no evidence that it failed to accommodate A.F.,
+intentionally or otherwise. R. Doc. 65-1 at 9. It states that it “provided an Individualized Education
+Program to A.F.” and “assigned an employee to A.F. to assist him with his disabilities.” Id.
+ Plaintiffs argue that the paraprofessionals failed to accommodate A.F.’s disabilities in the
+context of the particular incidents at issue. They argue that A.F. clearly needed an accommodation
+to be assisted down the hallway to the cafeteria.  R. Doc. 72 at 16.  Plaintiffs argue that many
+reasonable accommodations were available to the paraprofessionals, such as speaking slowly and
+Case 2:23-cv-07426-EEF-JVM     Document 81     Filed 04/28/25     Page 25 of 35
+26
+
+calmly to A.F. or given clear and concise verbal directions. Id. Overall, they contend that “no
+reasonable jury could deny that the School Board had ‘actual notice’ that kicking and hitting an
+autistic and blind child because of his disability-related behaviors violates the ADA.” Id.
+ The Court agrees with Plaintiffs. No one disputes that the paraprofessionals were aware
+that A.F. was blind, autistic, and non- verbal. Accordingly, his disabilities were “apparent” to the
+School Board’s “relevant agents.” Paley, 81 F.4th at 450. Further, Plaintiffs provide video
+evidence arguably showing the paraprofessionals taking A.F.’s walking cane away, striking him
+with it, and then bodily moving him down the hall rather than returning the cane. The Court finds
+that choosing to take away a blind child’s walking cane, hit him with it, and make him walk without
+the cane is sufficient to support a claim for denial of reasonable accommodation.
+iii. Respondeat Superior
+ “[T]he Fifth Circuit [has] held that the ADA, unlike section 1983, does not require a policy,
+custom, or practice of discrimination by a public entity, and instead contemplates respondeat
+superior liability for the public entity based on the actions of its employees and agents.”  Pena v.
+Bexar Cnty., Tex., 726 F. Supp. 2d 675, 686 (W.D. Tex. 2010). The precise contours and elements
+of the respondeat superior  doctrine in the context of federal statutes general ly, and the ADA in
+particular, is not immediately clear. However, the Fifth Circuit has broadly stated that “the public
+entity is liable for the vicarious acts of any of its employees as specifically provided by the ADA.”
+Delano-Pyle v. Victoria Cnty., Tex., 302 F.3d 567, 574–75 (5th Cir. 2002). Here, Defendant does
+not dispute that the paraprofessionals were in the course and scope of their employment at the time
+of the incidents. In fact, in the context of Plaintiffs’ § 1983 claims, Defendant itself urges that the
+paraprofessionals’ actions were disciplinary and “pedagogical.” Accordingly, the Court concludes
+that Plaintiffs’ ADA and LHRL claims are viable as alleged against the School Board.
+Case 2:23-cv-07426-EEF-JVM     Document 81     Filed 04/28/25     Page 26 of 35
+27
+
+iv. Jurisdiction
+ At this point, the Court briefly pauses to address its jurisdictio n. At oral argument, the
+parties appeared to believe that this Court’s  continuing jurisdiction depended on the survival of
+Plaintiffs’ § 1983 claims. Although the viability of the § 1983 claims is tenuous, as explained
+above, the Court now confirms that Plaintiffs have a viable ADA claim. Because the ADA is a
+federal statute, the Court’s federal question jurisdiction is therefore secure. See 28 U.S.C. § 1331.
+D. Plaintiff’s State Law Claims Are Viable.
+ Next, Defendant seeks dismissal of all of Plaintiffs’ state -law claims. First, Defendant
+argues that all claims —negligent training, IIED, and battery—are insufficiently proven. Second,
+Defendant avers that i t is entitled to immunity as to each of these claims pursuant to La. R.S. §
+9:2798.1. The Court takes these issues in turn.
+i. Negligent Training
+ Plaintiffs’ complaint does not specify a theory as to their negligence claim on behalf of
+A.F. However, Plaintiffs argue in their briefing that “the School Board is responsible for its own
+negligent training” and that it is “easy to connect the negligent training to the abuse.” R. Doc. 72
+at 18. Elsewhere, Plaintiffs urge that their negligent training allegations are based in the fact that
+the paraprofessionals received “no training on how to guide blind children.” Id. at 25.  Thus,
+Plaintiffs premise their negligence claim on the idea that the School B oard itself is directly liable
+based on its own negligent training.
+ To be clear, a claim for negligent training under state law is completely different from the
+failure-to-train theory of Monell liability analyzed above . As explained by the Fifth Circuit ,
+“Louisiana’s test for whether a duty exists for these  [negligent hiring and training]  claims is
+different than the test for whether [plaintiff] states a Monell claim.” Gomez v. Galman, 18 F.4th
+Case 2:23-cv-07426-EEF-JVM     Document 81     Filed 04/28/25     Page 27 of 35
+28
+
+769, 780 (5th Cir. 2021) . That is, in the context of a § 1983 claim, a failure -to-train theory of
+Monell liability is a specific standard requiring a plaintiff to prove “deliberate indifference” by
+connecting a particular constitutional violation to a municipality’s training inadequacies through
+either a pattern of similar incidents or the single incident exception. See supra, at 19 -25.
+Conversely, a state -law negligent training claim is based in ordinary state negligence principles
+and requires no such formulaic and particularized showing. See Warren v. Penzone, No. 22-2200,
+2023 WL 7686666, at *13 (D. Ariz. Nov. 15, 2023)  (“[A] pattern of prior similar incidents is
+ordinarily required to establish the sort of deliberate indifference necessary to support a Monell
+claim. But such a pattern is not required to support a state-law negligent training claim. To prevail
+on such a claim, a plaintiff need only demonstrate ‘that a defendant's training or lack thereof was
+negligent and that such negligent training was the proximate cause of the plaintiff’s injuries.’”).
+ Here, Plaintiff alleges that Defendant’s training was inadequate because it failed to train
+the paraprofessionals on how to “guide blind children.” Although this contention is inadequate to
+establish deliberate indifference in the § 1983 context, as explained above, the Court finds that it
+is sufficient to meet the lower, much less specific requirements of a state law negligence claim.
+See Farmer v. Brennan, 511 U.S. 825, 835 (1994)  (“[D]eliberate indifference entails something
+more than mere negligence ”). Under Louisiana law, “[t] here are five elements to a negligence
+claim: duty, breach, cause in fact, legal cause, and damages. ” Lemann v. Essen Lane Daiquiris,
+Inc., 923 So. 2d 627, 632-33 (La. 2006).
+ Defendants only dispute the fifth element. They maintain that  “even if [Plaintiffs] could
+demonstrate elements (1) through (4),” they cannot prove that A.F. sustained damages because
+they “have provided no medical bills, no evidence of past or future medical care, and no evidence
+of economic damages associated with the alleged incidents.” R. Doc. 65-1 at 22.
+Case 2:23-cv-07426-EEF-JVM     Document 81     Filed 04/28/25     Page 28 of 35
+29
+
+ This argument is unavailing. Plaintiffs present evidence from witnesses suggesting that
+A.F. was kicked and hit by the paraprofessionals, that his fingers and skin were twisted and turned
+red, and that his head was pushed into the table. R. Doc. 72 at 4 -5. Such evidence is sufficient to
+support a finding that A.F. experienced pain and suffering, thus incurring damages. Defendant
+cites no law in support of its argument that seeking medical care is a requirement to prove  the
+damages element of a negligence claim.
+ii. Intentional Infliction of Emotional Distress
+ Next, Plaintiffs bring IIED claims in their own right, alleging that Defendants breached a
+duty of care as to their response to the incident s and particularly by covering up the existence of
+video footage of the incidents. To recover for intentional infliction of emotional distress, “plaintiff
+must establish (1) that the conduct of the defendant was extreme and outrageous; (2) that the
+emotional distress suffered by the plaintiff was severe; and (3) that the defendant desired to inflict
+severe emotional distress or knew that severe emotional distress would be certain or substantially
+certain to result from his conduct.” White v. Monsanto Co., 585 So. 2d 1205, 1209 (La. 1991).
+ Defendant argues  that it cannot be found liable for intentional infliction of emotional
+distress as a result of its post-incident handling of the situation and its actions regarding the video
+footage. First, it urges that the video footage at issue was not a public record under Louisiana law.
+R. Doc. 65-1 at 23. It maintains that Plaintiffs had no entitlement to obtain the video and that they
+did not timely request to view t he video. Id. Furthermore, they maintain that the evidence shows
+that Principal Barton and Assistant Superintendent Gardner “genuinely believed that the security
+footage was overwritten and unavailable for viewing” by the time Plaintiffs requested a copy.  Id.
+at 24. Thus, this “good faith” mistake cannot constitute “outrageous” conduct for the purpose of
+an IIED claim. Id. at 23. Finally, Defendant argues that Plaintiffs have not presented any evidence
+that they in fact suffered severe emotional distress. Id. at 24.
+Case 2:23-cv-07426-EEF-JVM     Document 81     Filed 04/28/25     Page 29 of 35
+30
+
+ In opposition, Plaintiffs argue that  “whether [the videos] were ‘public records’ is besides
+the point, because the School Board did not refuse to produce the videos on this ground—rather,
+it told J.F. that the videos did not exist.” Further, they maintain that Defendant undertook a variety
+of outrageous actions including as follows:
+First, J.F. directly emailed Mr. Cosse, Ex. U, and Mr. Cosse admits
+that he had requested the footage be archived, doc. 65-12 at 2 ¶ 11.
+Second, the School Board had motive to lie because, in Mr. Cosse’s
+words, it was worried about the parents “press[ing] charges.” Ex. C
+at 195; Ex. K. Third, Mrs. Barton lied to the police, saying that
+A.F.’s parents did not want to press charges, when in fact she had
+not even spoken to them yet. Ex. S; Ex. C at 257–67. Fourth, she
+downplayed the incidents to L.F., while be hind the scenes she was
+recommending the most extreme sanction (termination). Ex. I; Ex.
+J; Ex. A at 73–74; Ex. B at 37–39. Fifth, when J.F. demanded
+answers, Mrs. Barton lied again, claiming she could not remember
+what happened or the date of the incidents, even though she presided
+over the just-cause hearings herself and took detailed notes. Ex. B
+at 42–45; Ex. J; Ex. C at 303–04. Sixth, the form Mrs. Barton gave
+J.F. to fill out was for classroom footage, when she knew that most
+of this occurred in the c ommon areas. Ex. J. Finally, Mrs. Gardner
+told J.F. that the videos had been deleted. Ex. U. Although Mrs.
+Gardner claims she made an honest mistake, a reasonable jury could
+simply disbelieve [her] side of the story.
+R. Doc. 72 at 20. Overall, Plaintiffs argue that these actions can  sustain a claim for IIED because
+“parents send their children to school to learn and be safe” and “[t]he idea that a school would use
+deception to deprive parents the ability to view footage of abuse is stomach-turning.” Id. at 21.
+ Further, as to their own emotional distress, Plaintiffs point to their own affidavits . L.F.
+states that “[t]he way my son was treated and the School Board’s decision to cover it up has been
+emotionally devastating for myself and my family.” R. Doc. 72- 10 at 3. Additionally, J.F. states
+that “[s]ince the abuse, I have called myself a ‘ paranoid basket case’ when it comes to my kids ,”
+and “I have lost countless nights of sleep because of the School Board’s dishonesty regarding what
+happened and lying to me that the videos had been deleted.” R. Doc. 72-11 at 5.
+Case 2:23-cv-07426-EEF-JVM     Document 81     Filed 04/28/25     Page 30 of 35
+31
+
+ Clearly, factual disputes persist as to whether the School Board intentionally downplayed
+or covered up the incidents. Overall, the Court finds that a jury could possibly credit Plaintiff’s
+theory that the School Board’s actions were intentional. Neither party has directed the Court to an
+on-point Louisiana case where a court considered whether an alleged cover -up of student abuse
+can rise to the level of “outrageous” conduct sufficient to support an IIED claim. However
+Plaintiffs submit evidence that the School Board essentially attempted to downplay its employees’
+physical abuse of their blind and non-verbal son, going so far as to “lie[] to the police” regarding
+Plaintiffs’ knowledge of the situation and to withhold video footage of the alleged child abuse. R.
+Doc. 72 at 20. Ultimately, the Court finds that whether this conduct rises to the level of “extreme”
+and “outrageous” is best left to a jury.
+ Plaintiffs also purport to bring a claim for “negligent” infliction of emotional distress. R.
+Doc. 72 at 19. However, “in Louisiana, there is no independent tort of negligent infliction of
+emotional distress.” Richardson v. Cella, No. CV 12-1771, 2014 WL 12924980, at *1 (E.D. La.
+Mar. 10, 2014). Rather, emotional distress damages are merely an “element of damages” which
+may “aris[e] out of” other tort claims. Kelly v. W. Cash & Carry Bldg. Materials Store, 99-0102
+(La. App. 4 Cir. 10/20/99), 745 So. 2d 743, 760. Accordingly, to the extent that Plaintiffs bring an
+independent claim for ‘negligent infliction of emotional distress,’ such claim must be dismissed.
+iii. State Law Claim for Battery of A.F.
+ As to their battery claim, Plaintiffs seek to hold the School Board vicariously liable for the
+torts allegedly committed by the paraprofessionals. In determining whether an employer is
+vicariously liable for their employee’s torts under Louisiana law, courts consider the following
+factors: “(1) whether the tortious act was primarily employment rooted; (2) whether the violence
+was reasonably incidental to the performance of the employee ’s duties; (3) whether the act
+Case 2:23-cv-07426-EEF-JVM     Document 81     Filed 04/28/25     Page 31 of 35
+32
+
+occurred on the employer ’s premises; and (4) whether it occurred during the hours of
+employment.” Baumeister v. Plunkett, 95-2270 (La. 5/21/96), 673 So. 2d 994. Not all four factors
+must be met before liability may be found. Id.
+ Applying these factors, a school board can indeed be held vicariously liable for the batteries
+perpetrated by their employees against students. See Doe, 316 So. 3d at 1099 (School Board was
+vicariously liable for a janitor’s rape of a student in a school bathroom because the janitor’s “status,
+duties, and presence at the school facilitated his assault” of the child); Buckley v. Tangipahoa Par.
+Sch. Sys., 2020-0668 (La. App. 1 Cir. 2/1/21)  (holding that a school system could be vicariously
+liable where the plaintiff alleged that a teacher intentionally pushed him into a classroom door).
+ Here, Plaintiffs point out that the three paraprofessionals involved in the incidents are
+currently facing criminal charges for “simple battery of the infirmed in violation of La. R.S.
+14.35.2.” R. Doc. 72 at 11. They thus urge that Defendant’s request for summary judgment of their
+battery claim is “frivolous.” Id. at 18. The Court agrees.  As to respondeat superior , Defendant
+itself argues that the paraprofessionals’ behavior was for disciplinary and pedagogical purposes.
+Thus, Plaintiffs have a viable vicarious liability claim against the School Board for battery by the
+paraprofessionals.
+iv. Immunity
+ Finally, Defendant avers that it is entitled to immunity pursuant to La. R.S. § 9:2798.1 as
+to all of Plaintiffs’ state law claims.2 This statute provides that:
+B. Liability shall not be imposed on public entities or their officers
+or employees based upon the exercise or performance or the failure
+to exercise or perform their policymaking or discretionary acts when
+such acts are within the course and scope of their lawful powers and
+duties.
+
+2 The parties agree that this Louisiana immunity statute could not apply to Plaintiffs’ federal claims, including its §
+1983 and ADA claims.
+
+Case 2:23-cv-07426-EEF-JVM     Document 81     Filed 04/28/25     Page 32 of 35
+33
+
+C. The provisions of Subsection B of this Section are not applicable:
+
+(1) To acts or omissions which are not reasonably related to the
+legitimate governmental objective for which the policymaking or
+discretionary power exists; or
+
+(2) To acts or omissions which constitute criminal, fraudulent,
+malicious, intentional, willful, outrageous, reckless, or flagrant
+misconduct.
+The case law has further developed a “two-step test to determine whether a public entity is entitled
+to immunity” under Section 9:2798.1B:
+First, if a statute, regulation, or policy prescribes a particular course
+of action, there is no choice or discretion involved, and the immunity
+does not apply. However, when discretion is involved, the court
+must then determine whether that discretion is the kind that is
+shielded by the statutory immunity, that is, discretion grounded in
+social, economic or political policy. Section 9:2798.1 protects the
+government from liability only at the policy making or ministerial
+level, not at the operational level.
+Doe v. ABC Sch., 2019-0983 (La. App. 1 Cir. 12/17/20), 316 So. 3d 1086, 1099.
+ Here, Defendant argues that its actions were “at all times reasonable and never criminal,
+fraudulent, or malicious.” R. Doc. 65-1 at 7.  Thus, it contends that “the Board’s discretionary and
+policymaking actions, such as its investigation, personnel decisions, and adherence to policy” fall
+within the scope of the statute “especially considering the video footage in this case.” Id.
+Accordingly, Defendant avers that it is immune as to “all” of Plaintiffs’ state law claims,
+presumably including the LHRL, negligence, IIED, and battery claims analyzed above.
+ Crucially, “immunity under La. R.S. 9 :2798.1 is an affirmative defense and, as such, the
+party raising it bears the initial burden of demonstrating its applicability.”  Gomez v. City of New
+Orleans, No. CV 19- 11803, 2023 WL 4351230, at *3 (E.D. La. July 5, 2023) . Here, Defendant
+has not met this burden. Preliminarily, one fundamental flaw in Defendant’s immunity argument
+is that it fails to assert the immunity with particularity as to each of Plaintiffs’ state law claims. It
+Case 2:23-cv-07426-EEF-JVM     Document 81     Filed 04/28/25     Page 33 of 35
+34
+
+merely alleges that it is entitled to immunity as to all claims without explaining how the decisions
+underlying each particular claim are policymaking ones. This is problematic, because each of
+Plaintiffs’ claims focus on distinct conduct and decisions, some made by the paraprofessionals
+(battery, LHRL) and others made by School Board personnel (negligent training, IIED).
+ Plaintiffs’ claims for battery and violations of the LHRL target abusive conduct by the
+paraprofessionals. This is clearly conduct at the “ operational,” rather than “policymaking” level.
+Doe v. ABC Sch., 316 So. 3d at 1099. The School Board certainly does not allege that it had a
+“policy” of allowing such behavior. Moreover, it is undisputed that the paraprofessionals are being
+criminally prosecuted. Thus, even if the conduct were somehow policymaking, it would fall within
+the exception prohibiting discretionary immunity for criminal conduct. La. R.S. § 9:2798.1(C)(2).
+Accordingly, discretionary immunity does not apply to these claims.
+ As to Plaintiffs’ claims for negligent training and IIED, the Court can understand
+Defendant’s argument that the School Board’s decisions as to its training and its response to
+Plaintiffs’ requests for information could have been exercises in policymaking discretion.
+Crucially, however, Defendant presents no summary judgment evidence in support of this
+assertion. It offers no evidence as to why these particular decisions were “grounded in social,
+economic or political policy” such that they were made at the “policymaking” level. Doe v. ABC
+Sch., 316 So. 3d at 1099. If fact, Defendant does not actually identify who made the decisions or
+what particular decisions it seeks to protect as exercises in discretion. Accordingly, Defendant has
+not met its burden of proving the affirmative defense of discretionary immunity as to these claims
+at this time. However, as in relat ion to Plaintiffs’ § 1983 claims, the Court observes that key
+evidence is still outstanding and that the case may be continued for some time. Accordingly,
+Case 2:23-cv-07426-EEF-JVM     Document 81     Filed 04/28/25     Page 34 of 35
+35
+
+Defendant may re-urge its discretionary immunity argument with more specificity on  the eve of
+trial or on a Rule 50 motion after presentation of the evidence.
+V. CONCLUSION
+ For the foregoing reasons,
+ IT IS ORDERED that Defendant’s motion for summary judgment, R. Doc. 65, is
+DENIED in part and GRANTED in part. The motion is DENIED with prejudice as to Plaintiffs’
+ADA claim, LHRL claim, and battery claim. However, the motion is DENIED without prejudice
+to Defendant’s right to re-urge summary judgment at a later date as to (1) Plaintiffs’ § 1983 claims
+on the basis of their continued failure to create a genuine issue on Monell liability and (2) Plaintiffs’
+negligent training and IIED claims on the basis of discretionary immunity. The motion is
+GRANTED as to Plaintiffs’ independent claim for negligent infliction of emotional distress
+because such claim is not cognizable under Louisiana law.
+ IT IS FURTHER ORDERED that the instant case is stayed until July 25, 2025. A
+telephone status conference is SET for July 22, 2025 at 8:30 am. At that time, the parties may
+advise as to the status of the criminal proceedings. The parties are instructed to use the following
+dial-in information and to join the line five minutes before the scheduled time.
+ Dial in: 571-353-2301
+ ID code: 342767621
+ New Orleans, Louisiana, this 25th day of April, 2025.
+
+_________________________________
+HONORABLE ELDON E. FALLON
+
+Case 2:23-cv-07426-EEF-JVM     Document 81     Filed 04/28/25     Page 35 of 35

@@ -1,0 +1,642 @@
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+ORDER & REASONS
+Before the Court is a motion to dismiss the fifth supplemental and amending complaint for
+failure to state a claim pursuant to Rule 12(b)(6) of the Federal Rules of Civil Procedure filed by
+defendant Arthur J. Gallagher Risk Management Services, LLC (“AJG”).1  Plaintiffs Monticello
+Equipment Corporation (“Monticello”) and Kostmayer Construction, LLC (“Kostmayer”)
+(together, “Plaintiffs”) respond in opposition,2 and AJG replies in furt her support of its motion. 3
+Having considered the parties’ memoranda, the record, and the appl icable law, the Court issues
+this Order & Reasons, granting the motion as to Plaintiffs’ claim regarding delivery of the policy,
+but otherwise denying the motion.
+I. BACKGROUND
+This case concerns a maritime allision and the resulting insurance claims.  At the relevant
+time, Monticello owned a crane barge known as the OU701, along with its machinery, equipment,
+and appurtenances, which included a L ima 175-ton lattice boom crawler crane. 4  Kostmayer, the
+bareboat charterer, owner pro hac vice, and operator of the OU701, us ed the barge in connection
+
+1 R. Doc. 88 (citing R. Doc. 87).
+2 R. Doc. 90.
+3 R. Doc. 92.
+4 R. Doc. 87 at 4.  The following facts are taken from the fifth amended complaint, the allegations of which
+are taken as true at this motion-to-dismiss stage.
+KOSTMAYER CONSTRUCTION, LLC
+
+VERSUS
+
+ZURICH AMERICAN
+INSURANCE COMPANY, et al.
+CIVIL ACTION
+
+NO. 24-408
+
+SECTION M (5)
+Case 2:24-cv-00408-BWA-MBN     Document 93     Filed 05/15/25     Page 1 of 19
+2
+
+with its marine construction business. 5  On September 21, 2023, Kostmayer’s field personnel
+inspected the OU701 and found it to be spudded down, afloat, and on an even keel, adjacent to
+Rain Carbon’s dock facility near Gramercy, Louisiana, located on the left descending bank of the
+Mississippi River.6  Then, on September 22, 2023, the tug M/V Louisiana Transporter (“Louisiana
+Transporter”) approached Rain Carbon’s dock near the OU701, picked up a ba rge, and departed
+the facility.7  Plaintiffs allege that, during this maneuver, the tug’s stern and propeller or wheel-
+wash was directed at, and too close to, the OU701, which caused damage to the OU701’s hull. 8
+The OU701 began listing and then partially sank , which caused the Lima crawler crane to slide
+from the deck and damage the crane and Rain Carbon’s adjacent dock facility. 9  Thereafter,
+Plaintiffs raised the OU701, th e Lima crane, and the damage d portion of Rain Carbon’s dock
+facility.10  They also commenced repairs to Rain Car bon’s dock facility and notified the insurers
+of the casualty.11
+After the accident, Plaintiffs made claims with these insurers, defendants Zurich American
+Insurance Company, Ascot Insurance Company, Endurance American Insurance Company, and
+Navigators Insurance Company (collectively, the “Insurance De fendants”), under their hull and
+machinery and protection and indemnity policies.12  But the Insurance Defendants have refused to
+pay Plaintiffs’ claim.13
+On February 16, 2024, Kostmayer filed this action against the In surance Defendants,
+alleging that they failed to tender payment for the loss, although Kostmayer provided a timely
+
+5 Id.
+6 Id. at 10.
+7 Id. at 11.
+8 Id.
+9 Id.
+10 Id. at 12.
+11 Id. at 11-12.
+12 Id. at 3, 12.
+13 Id. at 12.
+Case 2:24-cv-00408-BWA-MBN     Document 93     Filed 05/15/25     Page 2 of 19
+3
+
+proof of loss and the Insurance Defendants had am ple time to investigat e, adjust, and pay the
+claim.14  On February 27, 2024, Kostmayer filed its first amended complaint adding the Louisiana
+Transporter and its owner and operator, American Ri ver Transportation Co., LLC, as defendants
+and alleging that they are liable for the allision.15  The second amended complaint, filed on March
+1, 2024, added Monticello as a plaintiff.16
+Then, on September 16, 2024, Plaintiffs filed a third amended complaint adding AJG as a
+defendant and alleging that AJG “breached its obligations and duties to Plaintiffs by allowing the
+inclusion or provisions in the Insurance Defendant s’ policies, without notice to Plaintiffs, which
+provisions are now being used by the [Insurance] Defendants in defense of Plaintiffs’ claims, and
+causing loss and damages to Plaintiffs.”17  As factual support for the claim, Plaintiffs alleged:
+12.
+
+In March 2023, [AJG] was Kostmayer and Monticello’s agent for the procurement
+of the insurance coverages made subject of this litigation.  [AJG]’s services
+included communication with insurers and the submission of proposals on
+Plaintiffs’ behalf.
+
+13.
+
+[AJG] obtained the insurance coverages made subject of this litigation on Plaintiffs’
+behalf, which policies set forth provisions not contained in Plaintiffs’ prior policies;
+not contained in the covera ge proposal; not contained in the binder; but which
+provisions are now being used by the [In surance] Defendants in defense to
+Plaintiffs’ claims herein.18
+
+14 R. Doc. 2.
+15 R. Doc. 6.
+16 R. Doc. 8.
+17 R. Doc. 53 at 8.
+18 Id. at 5.
+Case 2:24-cv-00408-BWA-MBN     Document 93     Filed 05/15/25     Page 3 of 19
+4
+
+ AJG represents that, prior to filing respons ive pleadings, it informed  Plaintiffs that it
+intended to file a Rule 12(b)(6) motion for failur e to state a claim and provided supporting case
+law.19  As a result, Plaintiffs filed a fourth amended complaint.20
+In the fourth amended complaint, Plaintiffs alleged that AJG “breached its obligations and
+duties to Plaintiffs by errors and omissions by allowing, without notice to Plaintiffs, the inclusion
+of provisions and exclusions in the Insurance Defendants’ po licies[, which] provisions and
+exclusions are now being argued in defense to Plaintiff[s’] claims.”21  This time, as factual support
+for the claim, Plaintiffs alleged:
+12.
+In March of 2023, [AJG] was Kostmaye r and Monticello’s  agent for the
+procurement of the insurance coverages made subject of this litigation.  [AJG]’s
+services included communication with insurers and the submission of proposals on
+Plaintiffs’ behalf.
+
+13.
+
+In March of 2023, [AJG] obtained the insu rance coverages on Plaintiffs’ behalf
+made subject of this litigation and pres ented the coverages to Plaintiffs.  The
+coverages presented by [AJG] to Plaintiffs were understood by Plaintiffs to be the
+same coverages as their previous policy.
+
+14.
+
+On April 1, 2023, Plaintiffs’ insurance policy became effective with provisions and
+exclusions not contained in Plaintiffs’ prior policies; not contained in the coverage
+proposal; and not contained in the binder given to Plaintiffs  on March 27, 2023.
+These provisions and exclus ions are now being argued in  defense to Plaintiff[s’]
+claims.
+
+19 R. Doc. 78-1 at 2.
+20 R. Doc. 71.
+21 Id. at 8.
+Case 2:24-cv-00408-BWA-MBN     Document 93     Filed 05/15/25     Page 4 of 19
+5
+
+15.
+
+[AJG] never provided a copy of Plaintiffs’ final policy until Plaintiffs requested the
+policy several days after the incident in September of 2023, over six[] months after
+the policy had been in effect.22
+
+AJG moved to dismiss the fourth amended comp laint, arguing that Plaintiffs could not
+identify any duty owed, but breached, by AJG that w ould give rise to a cl aim because Plaintiffs
+did not allege that they requested that AJG procure a specific amount or type of insurance and that
+AJG failed to obtain the requested insurance. 23  This Court agreed, holding that, under Louisiana
+law, without an allegation that Plaintiffs made a specific reques t to AJG for insurance and that
+AJG failed to use reasonable diligence to procure said insurance, Plaintiffs did not state a breach-
+of-fiduciary-duty claim against AJG. 24  The Court also held that Plai ntiffs failed to state a claim
+against AJG for any alleged failure to deliver ti mely a copy of the insurance policy because AJG
+had no duty to do so. 25  However, the Court granted Plaintiffs  fifteen (15) days from the date of
+the order to file an amended complaint to cure the noted pleading deficiencies.26
+In the fifth amended complain t, Plaintiffs allege that AJG breached its duties and
+obligations by “failing to procure renewal insura nce coverages as requested by Plaintiffs on its
+fleet of vessels, including the OU701, on the same  terms and conditions as Plaintiffs’ expiring
+annual policies (which Plaintiffs had already provided to [AJG] in May-June 2022).”27  Plaintiffs
+also allege that AJG failed to notify them that AJG could not, or did not, procur e the requested
+
+22 Id. at 5 (emphasis added).
+23 R. Doc. 78-1 at 4-5.
+24 R. Doc. 82 at 8-11.
+25 Id. at 11-12.
+26 Id. at 12.  The Order was signed on March 26, 2025, but it was not placed on the docket until March 27,
+2025.  Plaintiffs sought, and were granted, leave to file their amended complaint on April 11, 2025, fifteen days after
+March 27. 2025.  See R. Docs. 85; 86.  Considering the delayed docketing and this Court’s grant of Plaintiffs motion
+for leave to file their fifth amended complaint, the Cour t deems the filing timely, notw ithstanding AJG’s timeliness
+argument to the contrary. See R. Doc. 88-1 at 1-2, 4-6.  To the extent AJG believes it has been prejudiced by any delay
+in pleading, R. Docs. 88-1 n.26; 92 at 1-2, it may seek appropriate relief to cure the prejudice.
+27 R. Doc. 87 at 13.
+Case 2:24-cv-00408-BWA-MBN     Document 93     Filed 05/15/25     Page 5 of 19
+6
+
+insurance on the same terms and conditions as the expiring policies. 28  Further, Plaintiffs allege
+that AJG breached its duties to perform contracted-for risk management services, to provide a copy
+of the policy to Plaintiffs, and to review the po licies to identify and notify Plaintiffs of any
+discrepancies between the terms and conditions of the new policies and the expiring ones and the
+April 2023 binder.29  In this latest amended complaint, as factual support for their claims, Plaintiffs
+allege:
+12.
+
+In 2022, Plaintiffs’ fleet of vessels, equi pment, marine yard, offices and entire
+business enterprise were insured under a package of insurance policies expiring at
+the end March 2023 that had been procured by another insurance broker not [AJG].
+
+13.
+
+In May-June 2022, and in anticipation of the March 2023 renewal date of Plaintiffs’
+package of insurance policies, representa tives of [AJG] bega n soliciting business
+from Plaintiffs urging a change from Pl aintiffs’ existing insurance broker in
+connection with the renewal of Plaintiffs’ package of insurance policies scheduled
+to expire the following March 2023.
+
+14.
+
+In connection with the solicitation of Plaintiffs’ insurance needs, representatives of
+[AJG] met with Plaintiffs and communicate d with Plaintiffs by email to gain an
+understanding of Plaintiffs’ overall business enterprise and risk management needs
+and insurance needs.
+
+15.
+
+As part of its investigati on of Plaintiffs’ risk mana gement needs and insurance
+requirements, Plaintiffs pr ovided [AJG] with copies of  all Plaintiffs’ expiring
+insurance policies together  with the insurance propos al from Plaintiffs’ prior
+insurance broker.
+
+16.
+
+In addition to providing insurance brokerage , [AJG] also agreed to perform “true
+risk management services” for Plaintif fs beyond “simply brokering insurance”
+
+28 Id. at 14.
+29 Id.
+Case 2:24-cv-00408-BWA-MBN     Document 93     Filed 05/15/25     Page 6 of 19
+7
+
+which additional professional services included “removable exclusions” from
+insurance policies.
+
+17.
+
+Based on [AJG]’s offer and agreement to  perform professiona l services beyond
+mere insurance brokerage (i.e. risk management, removable exclusions and policy
+review), Plaintiffs switched from its previous insuranc e broker to [AJG] effective
+January 2023.
+
+18.
+
+In addition to its obligations as br oker and provider of risk management
+professional services, [AJG] was further obligated to transmit, within a reasonable
+time, insurance policies to Plaintiffs that  it received or obtained approval from/by
+the Insurance Defendants and other carri ers, which duty and obligation [AJG]
+breached causing loss and damages to Plaintiffs.
+
+19.
+
+As part of its agreed professional services beyond mere insurance brokerage, [AJG]
+also assumed the additional duty and contractual obligation, as confirmed in its own
+emails, to conduct a review of the renewing policies on behalf of Plaintiffs within
+ten (10) business days to identify a ny discrepancies, which assumed duty and
+obligation [AJG] breached causing loss and damages to Plaintiffs.
+
+20.
+
+Plaintiffs contracted [AJG] to place re newal insurance coverages on its fleet of
+vessels, including the OU701, on the same terms and conditions as Plaintiffs’
+expiring annual policies (which Plaintiffs  had already provided to [AJG] in May-
+June 2022), which duty and obligation [AJG] breached causing loss and damages
+to Plaintiffs.
+
+21.
+
+[AJG] failed to place renewal insurance coverages on its fleet of vessels, including
+the OU701, on the same terms and conditions as Plaintiffs’ expiring annual policies
+(which Plaintiffs had alr eady provided to [AJG] in  May-June 2022) and [AJG]
+failed [to] timely notify Plaintiffs of this failure.
+
+22.
+
+Further, because [AJG] did not timely provi de Plaintiffs with notice or a copy of
+the renewal hull and protection & indemnit y policy, Plaintiffs did not learn of
+Case 2:24-cv-00408-BWA-MBN     Document 93     Filed 05/15/25     Page 7 of 19
+8
+
+[AJG]’s breach of duty and obligation until after the September 23, 2023 casualty
+forming the basis of this litigation.
+
+23.
+
+On March 27, 2023, [AJG] provided Plaintiffs with a binder of insurance coverages
+from the Insurance Defendants with an effe ctive insurance coverage date starting
+April 1, 2023 causing Plaintif fs to assume that [AJG] procured the insurance
+coverages on the same terms and conditions as Plaintiffs expired policies.
+
+. . . .
+
+26.
+
+From April-July 2023, Plaintiffs received no insurance policies from either [AJG]
+or the Insurance Defendants.
+
+27.
+
+On July 3, 2023, Plaintiffs requested [AJG ] for copies of its renewal insurance
+policies which included Plaintiffs’ hull and protection & indemnity policy.
+
+28.
+
+On July 5, 2023, [AJG] provided all Plain tiffs’ renewal insurance policies except
+Plaintiffs’ hull and protection & indemnit y policy covering its  fleet of vessels
+including the OU701.
+
+29.
+
+Regarding Plaintiffs’ hull and protection & indemnity policy, either [AJG], the
+Insurance Defendants or both, failed to co mply with Plaintiffs’ request for the
+policy for over two and half months until September 25, 2023 which was after the
+September 23, 2023 casualty forming the basis of this litigation.
+
+30.
+
+In further breach of its duties and obligations, [AJG] failed to perform any services
+for risk management or services for “removable exclusions” from Plaintiffs’
+renewed hull and protection & indemnity policy.
+
+31.
+
+In further breach of its duties and obligations, [AJG] also failed to conduct a review
+or notify Plaintiffs of the results of th e review of Plaintiffs’ renewal hull and
+Case 2:24-cv-00408-BWA-MBN     Document 93     Filed 05/15/25     Page 8 of 19
+9
+
+protection & indemnity policy within ten (10) business days to identify any
+discrepancies.
+
+32.
+
+The Insurance Defendants never transmi tted the renewal hull and protection &
+indemnity policy to Plaintiffs.
+
+33.
+
+It is unknown, without discovery, the exac t date when the Insurance Defendants
+approved or transmitted the renewal hul l and protection & indemnity insurance
+policy to [AJG].
+34.
+
+It is unknown, without discovery, the exact da te when or if [AJG] performed risk
+management services and policy review on behalf of Plaintiffs to identify
+discrepancies in Plaintiffs’ renewal hull and protection & indemnity policy.
+
+35.
+
+Although discrepancies existed in the re newal hull and protection & indemnity
+policy issued by the Insurance Defendants, and in breach of its assumed duty and
+contractual obligation to do s o, [AJG] at no time whatsoever notified Plaintiffs of
+those discrepancies, nor did [AJG] perform risk management on [P]laintiffs’ behalf.
+
+36.
+
+In further breach of its duty and contractual obligations, [AJG] and/or the Insurance
+Defendants failed to timely provide a copy of the rene wal hull and protection and
+indemnity policy to Plaintiffs until after the casualty forming the basis of this
+litigation making it impossible until after the September 23, 2023 casualty
+described below for Plaintif fs to know about the policy discrepancies, exclusions
+and conditions being raised [by] the Insurance Defendant s or to engage in risk
+management.
+
+. . . .
+43.
+On September 25, 2023, [AJG] provided a c opy of Plaintiffs’ hull and protection
+and indemnity policy.
+
+Case 2:24-cv-00408-BWA-MBN     Document 93     Filed 05/15/25     Page 9 of 19
+10
+
+44.
+
+The hull and protection & indemnity policy issued by the Insurance Defendants and
+provided to Plaintiffs by  [AJG] on September 25, 2023 contains added terms and
+conditions not included in Plaintiffs’ prior expired policy, not included in the April
+1, 2023 binder and not included in the renewal policy’s table of contents.30
+
+II. PENDING MOTION
+AJG moves to dismiss Plaintiffs’ fifth amen ded complaint pursuant to Rule 12(b)(6),
+arguing that Plaintiffs again fail to state a claim upon which relief can be granted because they still
+have not alleged that they requested that AJG procure a specific amount and type of insurance and
+that AJG failed to obtain such coverage. 31  AJG contends that Plaint iffs’ allegations that they
+“contracted” AJG to procure insurance and “understood” that AJG would obtain the same coverage
+as was included in the expiring policies are insuffici ent to allege that Plaintiffs made a request to
+AJG for a specific type and amount of coverage.32  AJG also asserts that Plaintiffs have not stated
+a claim for failure to deliver the policy because they repeat the same allegations as were included
+in the fourth amended complain t, which this Court dismissed. 33  Moreover, AJG argues that
+Louisiana law does not recognize any heightened duties on insurance agents such as reviewing a
+policy for discrepancies or provi ding risk management services. 34  Finally, AJG posits that
+Plaintiffs’ theory of liability – wh ether it be tort or contract – is  unclear, but, to the extent that
+Plaintiffs attempt to assert br each-of-contract claims, they have  not stated any, particularly
+pertaining to review of the policy or providing risk management services.35
+
+30 Id. at 5-12.
+31 R. Doc. 88-1 at 2, 8-9.
+32 Id.
+33 Id. at 2, 9-10.
+34 Id. at 10-11.
+35 Id. at 7-8, 11-13.
+Case 2:24-cv-00408-BWA-MBN     Document 93     Filed 05/15/25     Page 10 of 19
+11
+
+In opposition, Plaintiffs argue that they have stated viable claims against AJG, including,
+particularly, “(1) breach of AJG’s duties of procurement as Plaintiffs’ insurance broker; (2) breach
+of AJG’s additional assumed duties and obligations to provide risk management services, removal
+of policy exclusions and insurance policy review; and (3) breach of AJG’s duties as agent and
+fiduciary to timely provide a copy of the rele vant hull and protection & indemnity policy to
+Plaintiffs.”36  Plaintiffs then recite the allegations against AJG contained in the fifth amended
+complaint, asserting that such allegations ar e sufficient to allege  the purported claims. 37  With
+respect to procurement of the po licy, Plaintiffs contend that they allege they requested AJG to
+procure a renewal policy w ith the same terms and conditions as  their expiring polices, and that
+AJG failed to do so, which, according to Plaintiffs, is tantamount to requesting a specific type and
+amount of insurance.38  Plaintiffs further argue that, under Louisiana law, an insurance agent can
+assume additional duties, and, say Plaintiffs, they  allege that AJG did so  by agreeing to perform
+true risk management services, to remove exclusions from the policies, and to review the policies
+for discrepancies.39  Finally, Plaintiffs contend that, based on fiduciary and agency law, AJG was
+obligated to provide timely to Plaintiffs a copy of the insurance policy.40
+AJG replies, reurging its argumen t that Plaintiffs do not alle ge they requested a specific
+type of insurance nor that AJG did not use reasonable diligence to obtain said insurance.41  AJG
+further contends that Louisiana law, post-Coleman E. Adler & Sons and Isidore Newman, does not
+recognize any heightened duties on insurance brokers. 42  Finally, as to nondelivery of the policy,
+
+36 R. Doc. 90 at 3.
+37 Id. at 3-7.
+38 Id. at 8-12.
+39 Id. at 12-14.
+40 Id. at 14-16.
+41 R. Doc. 92 at 2-3.
+42 Id. at 3-7.
+Case 2:24-cv-00408-BWA-MBN     Document 93     Filed 05/15/25     Page 11 of 19
+12
+
+AJG points out that Plaintiffs attempt to support this claim by recycling the same allegations and
+arguments that this Court previously rejected.43
+III. LAW & ANALYSIS
+A. Rule 12(b)(6) Standard
+ The Federal Rules of Civil Pr ocedure require a complaint to  contain “a short and plain
+statement of the claim showing that the pleader is entitled to relief.”  Fed. R. Civ. P. 8(a)(2).    Rule
+8 “does not require ‘detailed f actual allegations,’ but it demands more than an unadorned, the-
+defendant-unlawfully-harmed-me accusation.”  Ashcroft v. Iqbal , 556 U.S. 662, 678 (2009)
+(quoting Bell Atl. Corp. v. Twombly, 550 U.S. 544, 555 (2007)).  The statement of the claim must
+“‘give the defendant fair notic e of what the ... claim is and the grounds upon which it rests.’”
+Twombly, 550 U.S. at 555 (quoting Conley v. Gibson, 355 U.S. 41, 47 (1957)).  A pleading does
+not comply with Rule 8 if it offers “labels and conclusions,” “a formulaic recitation of the elements
+of a cause of action,” or “‘naked assertions’ devoid of ‘further factual enhancement.’”  Iqbal, 556
+U.S. at 678 (quoting Twombly, 550 U.S. at 555, 557) (alteration omitted).
+Rule 12(b)(6) of the Federal Rules of Civil Pr ocedure permits a party to move to dismiss
+for “failure to state a claim upon  which relief can be granted.”  Fed. R. Civ. P. 12(b)(6).  “To
+survive a motion to dismiss, a complaint must cont ain sufficient factual matter, accepted as true,
+to ‘state a claim to relief that is plausible on its face.’”  Iqbal, 556 U.S. at 678 (quoting Twombly,
+550 U.S. at 570).  A claim is plausible on the f ace of the complaint “when the plaintiff pleads
+factual content that allows the court to draw the reasonable inference that the defendant is liable
+for the misconduct alleged.”  Id. (citing Twombly, 550 U.S. at 556).  Plausi bility does not equate
+to probability, but rather “it asks for more than  a sheer possibility that  a defendant has acted
+
+43 Id. at 7-9.
+Case 2:24-cv-00408-BWA-MBN     Document 93     Filed 05/15/25     Page 12 of 19
+13
+
+unlawfully.”  Id. (citing Twombly, 550 U.S. at 556).  “Where a complaint pleads facts that are
+‘merely consistent with’ a defendant’s liability, it ‘stops short of the line between possibility and
+plausibility of “entitlement to relief.”’”  Id. (quoting Twombly, 550 U.S. at 557).  Thus, if the facts
+pleaded in the complaint “do not permit the court to infer more than th e mere possibility of
+misconduct, the complaint has alleged – but it has not ‘shown’ – ‘that the pleader is entitled to
+relief.’”  Id. at 679 (quoting Fed. R. Civ. P. 8(a)(2)) (alteration omitted).
+In considering a Rule 12(b)(6) motion to dismiss for failure to state a claim, a court employs
+the two-pronged approach utilized in Twombly.  The court “can choose to begin by identifying
+pleadings that, because they are no more than conclusions [unsupported by factual allegations],
+are not entitled to the assumption of truth.”  Iqbal, 556 U.S. at 679.  However, “[w]hen there are
+well-pleaded factual allegations, a court should assume their veracity and then determine whether
+they plausibly give rise to an entitlement to relief.”  Id.  “‘[The] task, then, is to determine whether
+the plaintiff has stated a legally c ognizable claim that is plausible,  not to evaluate the plaintiff’s
+likelihood of success.’”  Body by Cook, Inc. v. State Farm Mut. Auto. Ins., 869 F.3d 381, 385 (5th
+Cir. 2017) (quoting Doe ex rel. Magee v. Covington Cty. Sch. Dist. , 675 F.3d 849, 854 (5th Cir.
+2012)).
+ A court’s review of a Rule 12(b)(6) motion to dismiss “is limited to  the complaint, any
+documents attached to the complaint, and any doc uments attached to the motion to dismiss that
+are central to the claim and re ferenced by the complaint.”  Lone Star Fund V (U.S.), L.P. v.
+Barclays Bank PLC , 594 F.3d 383, 387 (5th Cir. 2010) (citing Collins v. Morgan Stanley Dean
+Witter, 224 F.3d 496, 498-99 (5th Cir. 2000)).  A court ma y also take judicial notice of certain
+matters, including public records and government websites.  Dorsey v. Portfolio Equities, Inc., 540
+F.3d 333, 338 (5th Cir. 2008); see also Kitty Hawk Aircargo, Inc. v. Chao, 418 F.3d 453, 457 (5th
+Case 2:24-cv-00408-BWA-MBN     Document 93     Filed 05/15/25     Page 13 of 19
+14
+
+Cir. 2005).  Thus, in weighing a Rule 12(b)(6) motion, district courts primarily look to the
+allegations found in the complaint, but courts may also consider “documents incorporated into the
+complaint by reference or integral to the claim, items subject to judicial notice, matters of public
+record, orders, items appearing in the record of the case, and exhibits attached to the complaint
+whose authenticity is unquestioned.”  Meyers v. Textron, Inc. , 540 F. App’x 408, 409 (5th Cir.
+2013) (citing Tellabs, Inc. v. Makor Issues & Rights, Ltd., 551 U.S. 308, 322 (2007)).
+B. Analysis
+1. Procurement of the Policy
+In Isidore Newman School v. J. Everett Eaves, Inc. , the Louisiana supreme court
+recognized that, “[i]n Louisiana, an insurance agent ‘owes a duty of “reasonable diligence” to his
+customer,’ which is ‘fulfilled when the ag ent procures the insurance requested.’”  Coleman E.
+Adler & Sons, L.L.C. v. Axis Surplus Ins. Co. , 49 F.4th 894, 899 (5th Cir. 2022) (quoting Isidore
+Newman Sch. v. J. Everett Eaves, Inc. , 42 So. 3d 352, 356 (La. 2010)).  “To recover under
+Louisiana law for an agent’s failure to obtain in surance coverage, a plaintiff must show ‘(1) an
+undertaking or agreement by the insurance agency to procure insurance; (2) failure of the agent to
+use reasonable diligence in atte mpting to place the insurance a nd failure to notify the client
+promptly if he has failed to obtain the insurance; and (3) actions by the agent warranting the client’s
+assumption that the client was properly insured.’”  Id. (quoting Offshore Prod. Contractors, Inc.
+v. Republic Underwriters Ins. Co., 910 F.2d 224, 229 (5th Cir. 1990)).  Thus, an insurance agent
+fulfills his duty of reasonable diligence to his customer when he procures the insurance requested.
+Id. (citing Isidore Newman, 42 So. 3d at 356).  However, the agent’s duty “‘has not been expanded
+to include the obligation to advise whether the cl ient has procured the correct amount or type of
+insurance coverage.’”  Id. (citing Isidore Newman, 42 So. 3d at 359).  “To the contrary, ‘it is the
+Case 2:24-cv-00408-BWA-MBN     Document 93     Filed 05/15/25     Page 14 of 19
+15
+
+insured’s responsibility to request the type of insura nce coverage … needed,’ and ‘it is not the
+agent’s obligation to spontaneously  or affirmatively identify th e scope or amount of insurance
+coverage the client needs.’”  Id. (quoting Isidore Newman, 42 So. 3d at 359) (emphasis in original;
+alteration omitted).
+The Fifth Circuit’s pre-Isidore Newman decision in Offshore Production Contractors, Inc.
+v. Republic Underwriters Insurance Co. initiated a narrow line of cases holding that an insurance
+agent’s fiduciary duty to the in sured may be heightened under circumstances giving rise to a
+special relationship between the agent and the insured.  910 F.2d at 230.  The case involved an
+insurance agent with 30 years’ experience who specialized in insurance for oil-service companies.
+The insured, a maritime construction company hired by an oil company to construct a pipeline in
+the Gulf of Mexico, had expressed concern to the agent about losses it could incur from downtime
+caused by bad weather.  An insu rance policy was specially drawn for the insured but the drafters
+rejected language that would have extended coverage to include downtime caused by bad weather.
+The agent told the insured that the policy cove red losses due to downtime for any reason.  The
+construction project was beset by weather delays, the insured made a claim for its losses, and the
+insurer denied the claim because weather delays  were not covered under the policy.  The insured
+sued the agent for breach of fiduciary duty.  In upholding judgment agains t the agent, the Fifth
+Circuit observed that under the scenario presented – that is, “[w]here an agent is familiar with the
+insured’s business, has reason to know the risks against which an insure d wants protection, and
+has experience with the t ypes of coverage available in a part icular market” – an insurance agent
+acts as more than a “mere order taker” for the insured, and the agent’s expanded “fiduciary duties
+include advising the client with regard to reco mmended coverage, investigating and ascertaining
+the financial condition of prospective companies, and notifying the insured of policy cancellations
+Case 2:24-cv-00408-BWA-MBN     Document 93     Filed 05/15/25     Page 15 of 19
+16
+
+or terminations.”  Id.  Now, though, in the wake of Isidore Newman , which represents the
+pronouncement of the state’s highest court on a matter of state law, courts have rightly counseled
+that “the holding of Offshore Production  should be closely cabined by the facts of the case.”
+Lightfoot v. Hartford Fire Ins. Co., 2010 WL 11545223, at *4 n.4 (E.D. La. Aug. 27, 2010).
+Indeed, in Coleman E. Adler & Sons, the Fifth Circuit explained that Offshore Production
+“does not stand for the broad and murky proposition that a client’s ‘close relationship’ with an
+insurance agent or broker creates a ‘heightened duty’ to anticipate the client’s insurance needs or
+to recommend specific coverage.”  49 F.4th at 900.  Instead, the facts of Offshore Production “are
+far narrower” in that the insured there “told its insurance agent about its specific coverage needs,
+but the agent procured a policy th at excluded the exact coverage [t he insured] wanted.  In other
+words, the agent breached its fiduciary duty by negligently failing to obtain the coverage requested
+by its client.”  Id.
+In their fifth amended complain t, Plaintiffs have, by the th innest of margins, pleaded
+enough facts to overcome AJG’s motion to dismiss their claim based on procurement of insurance.
+To start, AJG represents that Plaintiffs again allege, as they did in their fourth amended complaint,
+that they “understood,” but did not  request, that the renewal polic ies would be the same as the
+expiring ones.  AJG rightly insists that any such allegation, alone, would be insufficient to state a
+claim.  But Plaintiffs do not repeat this failed a llegation in their latest iteration of the complaint.
+Instead, Plaintiffs add in their fifth amended comp laint factual allegations that they provided the
+expiring policies to AJG and that they “contracted” AJG to place renewal insurance coverages on
+the same terms and conditions as contained in the expiring policies.  It is true that the word
+“contracted” is not the same as the word “request ed,” but the term can be read as being in the
+nature of a request.  Moreover, in Plaintiffs’ formulation of count III (i.e., Plaintiffs’ claims against
+Case 2:24-cv-00408-BWA-MBN     Document 93     Filed 05/15/25     Page 16 of 19
+17
+
+AJG), Plaintiffs do finally allege that AJG fail ed to procure renewal insurance coverages “as
+requested by Plainitffs … on the same terms and conditions as [the] expiring … policies.”  This
+supposed request is akin to the one at issue in Offshore Production, where the prospective insured
+requested insurance that covered (i.e., did not exclude) a specific event (viz., weather delays).  Of
+course, this assumes, as a prerequisite to liabi lity, that the terms and conditions of the expiring
+policies would have provided coverage for the loss, but this issue is not before the Court at this
+time.  In short, at this motion- to-dismiss stage, where a “complai nt must be liberally construed,
+with all reasonable inferences drawn in the light most favorable to the plaintiff,”  Woodward v.
+Andrus, 419 F.3d 348, 351 (5th Cir. 2005), quoted in Villarreal v. City of Laredo , 44 F.4th 363,
+376 (5th Cir. 2022), Plaintiffs have stated a clai m against AJG for failing to procure requested
+insurance – albeit just barely.44
+2. Assumption of additional duties
+As stated above, an insurance agent’s duty to  its client is genera lly limited to using
+reasonable diligence to procure the insurance specifically requested.  Coleman E. Adler & Sons ,
+49 F.4th at 899.  However, Louisian a courts have recognized that an insurance agent can assume
+
+44 In affording Plaintiffs “one last effort” to state such a claim, the Co urt cautioned that, in doing so, “they
+must comply with their obligations under Rule 11.”  R. Do c. 82 at 12.  The Court has generously read the relevant
+allegations of the fifth amended complaint in Plaintiffs’ favor notwithstanding the ambiguity in which they have been
+drawn.  Thus, while paragraph 20 coul d be read to allege only that AJG wa s expressly “contracted to place renewal
+insurance coverages” generally, with Plaintiffs unilaterally understanding that such placement would be “on the same
+terms and conditions” as contained in the expiring polices, the Court reads the paragraph, for purposes of this motion
+to dismiss, as alleging that Plaintiffs specifically c ontracted AJG to renew the policies on the same terms and
+conditions as contained in the expiring policies – essentially  a request for a specific amou nt and type of coverage.
+Count III is even more ambiguous: do  Plaintiffs claim that AJG breached its  duties by failing to procure coverage
+Plaintiffs specifically requested – that is, coverage on the same terms and conditions as the expiring policies – or do
+Plaintiffs claim that they requested renewal coverages that AJG was not able to procure on the same terms and
+conditions as contained in the expiring policies?  In other words, did Plaintiffs specifically contract or request AJG to
+procure renewal insurance having the same terms and conditions as the expiring policies, which AJG failed to do, or
+did Plaintiffs contract or request AJG to procure renewal insurance more generally, which AJG was unable to place
+with the same terms and conditions as the expiring policies?   These questions are rendered more acute by Plaintiffs’
+curious and mistaken pronouncement that “[t]his case is not about the types of insurance requested by Plaintiffs.”  R.
+Doc. 90 at 10.  The Court is banking that this is not an instance of artful pleading (or “linguistic maneuvering,” as
+AJG puts it, R. Doc. 92 at 2), but time and discovery – and perhaps later testing on summary judgment – will tell the
+tale.  In the meantime, the Court’s caution regarding Rule 11 remains in place.
+Case 2:24-cv-00408-BWA-MBN     Document 93     Filed 05/15/25     Page 17 of 19
+18
+
+a greater duty by agreement with its client.  See, e.g., Bulldog, Inc. v. Starstone Specialty Ins. Co.,
+2024 WL 1132228, at *7 (E.D. La. Mar. 15, 2024) (quoting Belmont Commons, LLC v. Axis
+Surplus Ins. Co., 569 F. Supp. 2d 637, 644 (E.D. La. July 28, 2008)).  There is nothing in Coleman
+E. Adler & Sons or Isidore Newman that precludes an insurance agent from assuming by agreement
+duties beyond those imposed by law.  Here, Plaintiffs allege that the cited additional services were
+agreed to between themselves and AJG in meetings and emails and thus became contractual duties.
+This is enough to allege a claim at this motion-to-dismiss stage.  However, whether AJG actually
+assumed any additional duties by agreement will be probed in discovery and this claim, too, likely
+tested by summary judgment.
+3. Delivery of the policies
+Plaintiffs have not stated a claim against AJG for any alleged failure to deliver timely a
+copy of the insurance policy.  Plaintiffs make the same arguments regarding delivery of the policy
+that this Court already rejected in ruling on AJG’s motion to dismi ss the fourth amended
+complaint.45  As this Court previously held in this case, AJG had no duty to  timely deliver to
+Plaintiffs a copy of the insurance policy:
+Louisiana Revised Statute 22:873 provides that an insurer must deliver the policy
+to the insured within a reasonable time of its issuance.  Not so in this case.  First,
+this statute applies to insurers, not agents or brokers like AJG.  Second, even if §
+873 applied to agents and brokers, Louisiana Revised Statute 22:851(A) states that
+the provisions of chapter 4 of the Louisiana Insurance Code, where § 873 is found,
+do not apply to ocean marine insurance.  The parties do not dispute that the policy
+at issue here is one for marine insurance.  Plaintiffs attempt to avoid this problem,
+though, by arguing that insurance agents and brokers have a duty under general
+agency principles to provide a copy of the policy to the insured because a
+“mandatary is bound to deliver to the principal everything he received by virtue of
+the mandate,” relying upon Louisiana Civ il Code article 3004.  But Plaintiffs do
+not cite any caselaw applying article 3004 in  this way to an insurance agent or
+broker, and the Court has not unearthed a ny.  Moreover, Plaintiffs’ argument flies
+
+45 Compare R. Doc. 80 at 11-13, with R. Doc. 90 at 14-16.  Plaintiffs also argue that AJG’s alleged
+nondisclosure amounts to a claim for negligent misrepresentation.  R. Doc. 90 at 16.  But Plaintiffs do not allege such
+a claim in the fifth amended complaint.  See R. Doc. 87.
+Case 2:24-cv-00408-BWA-MBN     Document 93     Filed 05/15/25     Page 18 of 19
+19
+
+in the face of the “well-settled rule of statutory construction that the more specific
+statute … controls over the more general provision.”  Self v. BPX Operating Co. ,
+388 So. 3d 366, 369 (La. 2024).46
+
+Thus, Plaintiffs have not, and cannot, state a claim for failure to deliver timely the policy, and that
+claim is dismissed with prejudice.
+IV. CONCLUSION
+Accordingly, for the foregoing reasons,
+IT IS ORDERED that AJG’s Rule 12(b)(6) motion to dismiss (R. Doc. 88) is GRANTED
+as to Plaintiffs’ failure-to-deliver claim, which is DISMISSED WITH PREJUDICE.  The motion
+is otherwise DENIED.
+New Orleans, Louisiana, this 15th day of May, 2025.
+
+________________________________
+      BARRY W. ASHE
+      UNITED STATES DISTRICT JUDGE
+
+46 R. Doc. 82 at 11-12 (footnote omitted).
+Case 2:24-cv-00408-BWA-MBN     Document 93     Filed 05/15/25     Page 19 of 19
