@@ -10,12 +10,13 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
   <link rel="stylesheet" href="assets/style.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 24 24%27%3E%3Crect width=%2724%27 height=%2724%27 rx=%275%27 fill=%27%2310151c%27/%3E%3Cg transform=%27translate(2.4 2.4) scale(.8)%27%3E%3Cpath d=%27M12 2 22.5 8h-21Z M1.5 20.5h21v2h-21Z%27 fill=%27%23e6e9ee%27/%3E%3Cpath d=%27M3.5 14h3.2v6H3.5Z M8.1 10h3.2v10H8.1Z M12.7 12.5h3.2V20h-3.2Z M17.3 11h3.2v9h-3.2Z%27 fill=%27%233987e5%27/%3E%3C/g%3E%3C/svg%3E">
 </head>
 <body data-page="judges">
 <a class="skip" href="#main">Skip to content</a>
 <header class="top">
   <div class="top-in">
-    <a class="brand" href="#judges" aria-label="EDLA Analyzer home"><span class="brand-mark">EDLA</span><span class="brand-name">Analyzer</span></a>
+    <a class="brand" href="#judges" aria-label="EDLA Analyzer home"><svg class="brand-mark" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M12 2 22.5 8h-21Z"/><rect x="1.5" y="20.5" width="21" height="2" rx=".4"/><g class="bars"><rect x="3.5" y="14" width="3.2" height="6" rx=".4"/><rect x="8.1" y="10" width="3.2" height="10" rx=".4"/><rect x="12.7" y="12.5" width="3.2" height="7.5" rx=".4"/><rect x="17.3" y="11" width="3.2" height="9" rx=".4"/></g></svg><span class="brand-name">EDLA <span>Analyzer</span></span></a>
     <nav class="nav" aria-label="Sections">
       <a href="#judges" data-nav="judges">Judges</a>
       <a href="#cases" data-nav="cases">My cases</a>
@@ -47,8 +48,8 @@
     <div class="hero">
       <div>
         <p class="eyebrow">U.S. District Court · Eastern District of Louisiana · Civil docket</p>
-        <h1 id="h-judges" class="display">Look up a judge.</h1>
-        <p class="sub">How each judge's motion rulings have come out, how long rulings take, and every written opinion, counted from the public docket and updated through the day.</p>
+        <h1 id="h-judges" class="display">Judges</h1>
+        <p class="sub">Motion outcomes, time to ruling, and written opinions for each district judge, from the public docket.</p>
       </div>
       <div class="omni big" id="omni-hero">
         <svg class="omni-icon" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m10.4 10.4 3.6 3.6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
@@ -56,7 +57,7 @@
         <kbd aria-hidden="true">/</kbd>
       </div>
     </div>
-    <p class="notice">Independent project, not affiliated with the court. Not legal advice. Counts come from automated reading of public records and can be wrong; check the docket before relying on one. <a href="methodology.html">How we count</a></p>
+    <p class="notice">Not affiliated with the court. Not legal advice. Figures are read automatically from public records and may contain errors; confirm anything important on the docket. <a href="methodology.html">How we count</a></p>
     <div class="recent" id="recent" hidden></div>
     <div class="kpis five" id="court-kpis" aria-label="Court figures"></div>
     <section class="panel" id="home-cases" aria-labelledby="h-home-cases" hidden>
@@ -71,7 +72,7 @@
       <div class="ph"><h2 id="h-latest-home">Latest on the docket</h2><a class="more-link" href="#activity">All docket activity →</a></div>
       <ol class="act compact" id="home-act"></ol>
     </section>
-    <div class="cards-head"><h2>District judges · alphabetical</h2><div class="legend" data-legend="outcomes-short"></div></div>
+    <div class="cards-head"><h2>District judges</h2><div class="legend" data-legend="outcomes-short"></div></div>
     <div class="cards" id="cards"></div>
   </section>
 
@@ -98,14 +99,14 @@
     <div class="kpis six" id="j-kpis" aria-label="Key figures"></div>
 
     <section class="panel jfacts" aria-labelledby="h-facts">
-      <div class="ph"><h2 id="h-facts">Facts from the data</h2><a class="more-link" href="methodology.html#profile">How these are computed</a></div>
+      <div class="ph"><h2 id="h-facts">Facts</h2><a class="more-link" href="methodology.html#profile">Method</a></div>
       <div class="pb"><p class="cap" id="j-facts-cap"></p><div class="facts many" id="j-facts"></div></div>
     </section>
 
     <div class="jgrid">
       <div class="stack">
         <section class="panel rules" id="j-rules" aria-labelledby="h-rules">
-          <div class="ph"><h2 id="h-rules">Chambers and requirements</h2><a class="more-link" id="j-rules-src" target="_blank" rel="noopener noreferrer">The judge's page on the court's website ↗</a></div>
+          <div class="ph"><h2 id="h-rules">Chambers and requirements</h2><a class="more-link" id="j-rules-src" target="_blank" rel="noopener noreferrer">Court's page ↗</a></div>
           <div class="contact" id="j-contact"></div>
           <div class="rtabs" id="j-rtabs" role="tablist" aria-label="The judge's requirements"></div>
           <div class="rbody" id="j-rbody" role="tabpanel"></div>
@@ -149,7 +150,7 @@
           <div class="duo">
             <div><h3>Motion types decided in written opinions <span class="n" id="j-mix-n"></span></h3><div id="j-mix"></div></div>
             <div><h3>Days from filing to ruling <span class="n" id="j-wait-n"></span></h3><div class="chart" id="c-j-wait"></div>
-              <p class="foot-note">Each dot is one ruling. Dark tick: this judge's median (five or more rulings); gray tick: all judges' median for that motion type.</p></div>
+              <p class="foot-note">One dot per ruling. Dark tick: this judge's median (5+ rulings). Gray tick: all judges.</p></div>
           </div>
         </section>
 
@@ -171,7 +172,7 @@
         </section>
 
         <section class="panel" aria-labelledby="h-jact">
-          <div class="ph"><h2 id="h-jact">Recent docket activity</h2><a class="more-link" id="j-act-all" href="#activity">All activity in this judge's cases →</a></div>
+          <div class="ph"><h2 id="h-jact">Recent docket activity</h2><a class="more-link" id="j-act-all" href="#activity">All activity →</a></div>
           <ol class="act compact" id="j-act"></ol>
         </section>
 
@@ -192,7 +193,7 @@
         </section>
         <section class="panel" aria-labelledby="h-ca5">
           <div class="ph"><h2 id="h-ca5">Fifth Circuit decisions</h2></div>
-          <p class="cap pad">Published and unpublished decisions in appeals from this judge's cases, as each issues. Listed one by one; the site does not total them by judge.</p>
+          <p class="cap pad">Appeals from this judge's cases.</p>
           <ol class="feed" id="j-ca5"></ol>
         </section>
         <section class="panel latest" aria-labelledby="h-latest">
@@ -204,7 +205,7 @@
             </div>
           </div>
           <ol class="feed" id="j-feed"></ol>
-          <a class="feed-more" id="j-op-all" href="#opinions">All opinions in the search →</a>
+          <a class="feed-more" id="j-op-all" href="#opinions">Search all opinions →</a>
         </section>
       </aside>
     </div>
@@ -212,7 +213,7 @@
 
   <!-- ============================================================ My cases -->
   <section class="page" id="page-cases" aria-labelledby="h-cases" hidden>
-    <div class="jhead"><div><h1 id="h-cases">My cases</h1><p class="sub">Look up any civil case in the Eastern District to see its judge, motions, settings, and the judge's requirements on one page. Watch a case to keep it on your list, with new docket entries marked each time you come back. The list stays in this browser; nothing about it is sent anywhere.</p></div></div>
+    <div class="jhead"><div><h1 id="h-cases">My cases</h1><p class="sub">Look up a civil case, or watch it to see what's new each time you come back. Your list is stored in this browser only.</p></div></div>
     <section class="panel" aria-labelledby="h-lookup">
       <div class="ph"><h2 id="h-lookup">Look up a case</h2></div>
       <div class="pb">
@@ -229,9 +230,9 @@
       <ol class="act compact withjudge" id="cw-new"></ol>
     </section>
     <section class="panel" aria-labelledby="h-cw">
-      <div class="ph"><h2 id="h-cw">Watched cases</h2><div class="actions" id="cw-tools"><span class="count" id="cw-count"></span><button type="button" class="btn ghost" id="cw-ics"></button><button type="button" class="btn ghost" id="cw-share" title="A link that adds these cases to the list on another computer or phone">Copy a link to this list</button></div></div>
+      <div class="ph"><h2 id="h-cw">Watched cases</h2><div class="actions" id="cw-tools"><span class="count" id="cw-count"></span><button type="button" class="btn ghost" id="cw-ics"></button><button type="button" class="btn ghost" id="cw-share" title="Copy a link that opens this list on another device">Share list</button></div></div>
       <div class="pb" id="cw-empty">
-        <p class="cap">No cases on your list yet. Look one up above and press <b>Watch this case</b>. Recently active cases, to try it:</p>
+        <p class="cap">No watched cases yet. Some recently active ones:</p>
         <div class="chips" id="cw-examples"></div>
       </div>
       <div class="scroll"><table class="t" id="cw-table"></table></div>
@@ -240,7 +241,7 @@
 
   <!-- ============================================================ Court notices -->
   <section class="page" id="page-notices" aria-labelledby="h-notices" hidden>
-    <div class="jhead"><div><h1 id="h-notices">Court notices</h1><p class="sub">The court's news posts and General Orders, and Fifth Circuit decisions in civil cases from this court, each linked to the original. Read from the court's and the Fifth Circuit's public pages several times a day.</p></div><div class="actions"><span class="count" id="nt-checked"></span></div></div>
+    <div class="jhead"><div><h1 id="h-notices">Court notices</h1><p class="sub">Court news, General Orders, and Fifth Circuit decisions in civil appeals from this court.</p></div><div class="actions"><span class="count" id="nt-checked"></span></div></div>
     <div class="jgrid">
       <div class="stack">
         <section class="panel" aria-labelledby="h-nt-news"><div class="ph"><h2 id="h-nt-news">Court news</h2></div><ol class="feed notices" id="nt-news"></ol></section>
@@ -248,7 +249,6 @@
       </div>
       <aside class="stack">
         <section class="panel" aria-labelledby="h-nt-ap"><div class="ph"><h2 id="h-nt-ap">Fifth Circuit decisions</h2><a class="more-link" href="https://www.ca5.uscourts.gov/opinions" target="_blank" rel="noopener noreferrer">Fifth Circuit ↗</a></div>
-          <div class="pb tight"><p class="cap">Opinions in appeals from civil cases in this court, with the judgment as the opinion states it. Read from each opinion's first page; the opinion controls.</p></div>
           <ol class="feed" id="nt-appeals"></ol></section>
       </aside>
     </div>
@@ -320,14 +320,14 @@
       <div>
         <p class="eyebrow"><a href="#judges">Judges</a> <span aria-hidden="true">/</span> Compare</p>
         <h1 id="h-compare">Compare judges</h1>
-        <p class="sub">Up to four judges side by side, with every judge's figure for reference.</p>
+        <p class="sub">Up to four judges side by side.</p>
       </div>
       <div class="actions"><div class="chips" id="cmp-chips"></div><select id="cmp-add" aria-label="Add a judge"></select></div>
     </div>
     <section class="panel">
       <div class="scroll"><table class="t cmp" id="cmp-table"></table></div>
     </section>
-    <p class="foot-note">The "All judges" column gives the median judge for rates and counts, and outcomes pooled across all 16 judges for motion outcomes. Outcome shares count only rulings whose outcome has been coded; "n" is how many that is. <a href="methodology.html#compare">How we count</a></p>
+    <p class="foot-note">"All judges" is the median judge for rates and counts, and all 16 judges pooled for outcomes. n = rulings with a coded outcome. <a href="methodology.html#compare">How we count</a></p>
   </section>
 
   <!-- ============================================================ Activity -->
@@ -335,7 +335,7 @@
     <div class="jhead">
       <div>
         <h1 id="h-activity">Docket activity</h1>
-        <p class="sub">Every civil entry from the court's public docket feed, newest first, with the case, the judge, and what was filed or entered. Orders and written opinions link to the document where a free copy exists.</p>
+        <p class="sub">Civil docket entries from the court's RSS feed, newest first. Orders and opinions link to a free copy where one exists.</p>
       </div>
       <div class="actions"><span class="live-note" id="act-live"></span><button type="button" class="btn" data-csv="act">Export CSV</button></div>
     </div>
@@ -357,7 +357,7 @@
     <div class="jhead">
       <div>
         <h1 id="h-calendar">Calendar</h1>
-        <p class="sub">What each judge has scheduled: trials, oral arguments, hearings, and conferences from the court's public calendar and from docket entries that set them, with motions set for submission. Updated with the docket activity, about every 15 minutes.</p>
+        <p class="sub">Trials, hearings, and conferences by judge, from the court's calendar and the docket.</p>
       </div>
       <div class="actions"><button type="button" class="btn" data-csv="cal">Export CSV</button></div>
     </div>
@@ -378,8 +378,8 @@
       <ol class="cal-list big" id="cal-list" hidden></ol>
     </section>
     <section class="panel">
-      <div class="ph"><h2>Settings entered, date not on file yet</h2><span class="count" id="cal-pending-count"></span></div>
-      <div class="pb tight"><p class="cap">Docket entries from the last two weeks that set or reset a proceeding. The court's feed gives the event but not the date; the date appears here once the entry's docket text is read or the proceeding reaches the court's seven-day calendar.</p></div>
+      <div class="ph"><h2>Settings with no date yet</h2><span class="count" id="cal-pending-count"></span></div>
+      <div class="pb tight"><p class="cap">Entries from the last two weeks that set a proceeding. The feed omits the date; it is added once the docket text is read.</p></div>
       <ol class="act compact withjudge" id="cal-pending"></ol>
     </section>
     <section class="panel" hidden>
@@ -419,7 +419,7 @@
     <div class="jhead">
       <div>
         <h1 id="h-motions">Submitted motions</h1>
-        <p class="sub">Civil motions past their submission date with no ruling found on the docket. Recording began <span id="mt-since">on the first day the feed was read</span>; earlier motions are not here.</p>
+        <p class="sub">Civil motions past their submission date with no ruling on the docket. Tracked since <span id="mt-since">the site began reading the feed</span>.</p>
       </div>
       <div class="actions"><button type="button" class="btn" data-csv="mt">Export CSV</button></div>
     </div>
@@ -439,8 +439,8 @@
       <div class="scroll"><table class="t" id="mj-table"></table></div>
     </section>
     <details class="explain">
-      <summary>How a motion is matched to a ruling</summary>
-      <p>In this court a motion is set for submission on a date, and after that date it is in the judge's hands. The site records every civil motion from the court's public feed and reads each motion's submission date from the docket text. "No ruling found" means no order in the same case naming that type of motion has appeared since the motion was filed. That is a docket match, not a certainty: a motion withdrawn, decided under a different docket event, or ruled on by minute entry can still show here. <a href="methodology.html#motions">How we count</a></p>
+      <summary>How rulings are matched</summary>
+      <p>A motion counts as ruled on once a later order in the same case names the same type of motion. A motion that was withdrawn or decided by minute entry can still show here. <a href="methodology.html#motions">How we count</a></p>
     </details>
   </section>
 
@@ -449,11 +449,11 @@
     <div class="jhead">
       <div>
         <h1 id="h-rules-page">Judges' requirements</h1>
-        <p class="sub">What each judge's page on the court's website asks of counsel: chambers communication, courtroom rules, motion practice, and the standing orders and forms posted there. Search across all 16 at once.</p>
+        <p class="sub">Each judge's posted requirements, standing orders, and forms, copied from the court's website.</p>
       </div>
     </div>
       <div class="filters">
-        <label class="grow">Search every judge's requirements<input id="rq" type="search" placeholder="e.g. courtesy copies, oral argument, continuance" autocomplete="off"></label>
+        <label class="grow">Search all judges<input id="rq" type="search" placeholder="e.g. courtesy copies, oral argument, continuance" autocomplete="off"></label>
         <span class="chip-row" id="rq-quick" aria-label="Common searches"></span>
       </div>
       <section class="panel">
@@ -473,7 +473,7 @@
           <a href="https://www.laed.uscourts.gov/judges-information/district-judges" target="_blank" rel="noopener noreferrer">District judges on the court's website ↗</a>
         </div>
       </section>
-      <p class="foot-note">Text copied from each judge's page on the court's website, including the standing orders and forms those pages link to. The court's page controls; check it before relying on anything here. <a href="methodology.html#requirements">How we copy it</a></p>
+      <p class="foot-note">Copied verbatim from the court's website, which controls. <a href="methodology.html#requirements">Details</a></p>
   </section>
 
   <!-- ============================================================ Court -->
@@ -481,7 +481,7 @@
     <div class="jhead">
       <div>
         <h1 id="h-court">All judges</h1>
-        <p class="sub">Every judge's figures in one place, in alphabetical order. Click a column heading to sort, or a judge to open that judge's page.</p>
+        <p class="sub">Figures for all 16 judges.</p>
       </div>
       <div class="actions"><button type="button" class="btn" id="court-csv">Export CSV</button></div>
     </div>
@@ -537,14 +537,14 @@
 
   <!-- ============================================================ Log -->
   <section class="page" id="page-log" aria-labelledby="h-log" hidden>
-    <div class="jhead"><div><h1 id="h-log">Update log</h1><p class="sub">Every data update, newest first. The updater reads the court's feed every 15 minutes, around the clock; the log lists the checks that found something new.</p><p class="sub" id="log-status"></p></div></div>
+    <div class="jhead"><div><h1 id="h-log">Update log</h1><p class="sub">Updates that added data, newest first. The feed is checked every 15 minutes.</p><p class="sub" id="log-status"></p></div></div>
     <section class="panel"><div class="scroll tall"><table class="t" id="t-log"></table></div></section>
   </section>
 </main>
 
 <footer class="foot">
   <div class="foot-in">
-    <p>Independent project. Not affiliated with the U.S. District Court for the Eastern District of Louisiana or any judge. Not legal advice. The numbers describe docket activity only and say nothing about whether any ruling was right. Sources: PACER, the court's public RSS feed, GovInfo (U.S. Government Publishing Office), and CourtListener (Free Law Project).</p>
+    <p>Independent project, not affiliated with the U.S. District Court for the Eastern District of Louisiana or any judge. Not legal advice. Counts describe docket activity, not the merits of any ruling. Sources: PACER, the court's RSS feed, GovInfo, and CourtListener.</p>
     <nav aria-label="About"><a href="#notices">Court notices</a><a href="methodology.html">How we count</a><a href="#log">Update log</a><a href="https://github.com/ggb52-wq/edla-judge-tracker">Data and code</a></nav>
     <p class="keys"><kbd>/</kbd> search <kbd>[</kbd> <kbd>]</kbd> previous / next judge <kbd>Esc</kbd> close</p>
   </div>
