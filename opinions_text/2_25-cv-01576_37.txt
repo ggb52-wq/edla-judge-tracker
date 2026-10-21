@@ -1,0 +1,312 @@
+1
+
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+JIMMY RAMIREZ
+
+CIVIL ACTION
+
+VERSUS
+
+NO: 25-1576
+
+DEFENDANT 1 a/k/a
+“DURMAZ TANAYDIN,” ET AL.
+
+SECTION: T (2)
+
+ORDER AND REASONS
+Before the Court is Plaintiff Jimmy Ramirez’s Motion for Review of Magistrate Judge’s
+Order Pursuant to Fed. R. Civ. P. 72(a) (R. Doc. 29, “the Motion”). In the Motion, Plaintiff seeks
+review of the Magistrate’s Order of September 2, 2025 (R. Doc. 24) , in which Plaintiff’s Motion
+to Modify the Discovery Order was granted in part and denied in part. The Court finds that Plaintiff
+has failed to meet his burden under applicable law . Accordingly, Plaintiff’s Motion is DENIED
+and the Magistrate’s decision is AFFIRMED.
+I. FACTUAL BACKGROUND
+Plaintiff, Jimmy Ramirez, is “a long- term investor in Bitcoin (BTC),” R. Doc. 1, p. 5, a
+form of cryptocurrency. He has accumulated Bitcoin holdings since 2017 “ through a disciplined
+strategy of daily cost averaging as well as through proceeds from the sale of rental properties and
+rollovers from his IRA and 401(k) retirement accounts.” Id. Plaintiff states that this investment
+was intended to provide long-term financial security for his young family. Id.
+On or about July 15, 2025, Plaintiff downloaded a mobile application titled “Sparrow
+Multi-Sig” from the Apple App Store. Id. Sparrow Wallet is a legitimate and well-known Bitcoin
+wallet software  available for desktop computers. Id.  However, the “Sparrow Multi -Sig”
+application was not affiliated with the legitimate Sparrow Wallet project. Id. at p. 6. Nevertheless,
+Case 2:25-cv-01576-GGG-DPC     Document 37     Filed 11/18/25     Page 1 of 12
+2
+
+its use of the name and branding of Sparrow Wallet’s desktop application led Plaintiff to reasonably
+believe that it was an official mobile version of the Sparrow Wallet service. Id. at p. 5.
+On July 25, 2025, at approximately 3:08 p.m. Central Standard Time, Plaintiff opened the
+“Sparrow Multi-Sig” application and was prompted to input his Bitcoin wallet seed phrase.1 Id. at
+pp. 5-6. Believing the application to be legitimate and secure, Plaintiff followed this instruction,
+thereby providing full access to his Bitcoin wallet stored on a ColdCard Q cold storage device. 2
+Id. at p. 6.
+Immediately after entering the seed phrase, the application displayed an error message
+stating that the import was unsuccessful and urging Plaintiff to try again later. Id. Suspicious of
+the message, Plaintiff promptly turned to the official desktop version of Sparrow Wallet application
+and discovered that his Bitcoin wallet had been emptied. Id. A total of 7.40 BTC —valued at
+approximately $865,000 at the time and representing the entirety of Plaintiff’s long- term Bitcoin
+holdings—had been transferred out of his wallet without authorization. Id.
+Upon further investigation, Plaintiff discovered that the “Sparrow Multi -Sig” mobile
+application was not affiliated with the legitimate Sparrow Wallet project.  Id. Instead, it was a
+fraudulent application designed to deceive users into entering their Bitcoin seed phrases for
+purposes of cryptocurrency theft. Id. The creator and distributor of the application was later
+identified as Defendant “1” in this matter, a/k/a “Durmaz Tanaydin.” Id. at p. 9.
+Plaintiff was able to trace portions of the stolen assets using blockchain forensic tracing
+tools. Id. at p. 6. Approximately 1.9 BTC—valued at roughly $225,490 (at the time of transfer)—
+
+1 “A seed phrase is a sequence of random words that stores the data required to access or recover cryptocurrency.”
+What Is A Seed Phrase?, COINBASE, https://www.coinbase.com/learn/wallet/what-is-a-seed-phrase (last visited Nov.
+3, 2025).
+2 A cold storage device is a security device that “store[s] private keys [to a Bitcoin wallet] completely offline while
+still allowing users to confirm – or “sign” – crypto transactions.” Thomas Sweeney, The Best Cold Storage Wallets
+for Keeping Your Crypto Safe in 2025, COINTRACKER (Sep. 18, 2025), https://www.cointracker.io/blog/best-cold-
+storage-wallets.
+Case 2:25-cv-01576-GGG-DPC     Document 37     Filed 11/18/25     Page 2 of 12
+3
+
+was traced to a deposit wallet hosted by the cryptocurrency exchange HitBTC bearing the
+destination address bc1qdfl3dfnwwvlqa5jpckh0ccwpjczh5y566c4g76. Id. Additional stolen funds
+were transferred to multiple unhosted wallets, and Plaintiff has since monitored these wallets for
+movement to centralized exchanges. Id. at pp. 7-8.
+After the “Sparrow Multi -Sig” application was removed from the Apple App Store,
+“Defendants began to move Plaintiff’s stolen Bitcoin from the unhosted wallets.” R. Doc. 15, p. 2.
+Approximately 0.543387 BTC was transferred to a wallet hosted by the Binance exchange with
+the wallet address 1Rmp43KjjhrVcBPvsSRVtKQMmbnRJWbR8. Id.  Plaintiff later discovered
+through a forensic expert that “multiple deposit wallets at the Exolix, ByBit, and ChangeN OW
+exchanges [] received the currency that was swapped from Plaintiff’s stolen Bitcoin.” R. Doc. 20,
+p. 3. He also learned that Defendants carried out anonymous “swaps via bridge and coin swap
+services” ChangeNOW and Changelly.3 Id. at p. 4.
+II. PROCEDURAL HISTORY
+ Plaintiff filed suit against several unidentified defendants for theft of cryptocurrency assets
+in this Court on June 30, 2025. R. Doc. 1. Along with the Complaint, Plaintiff filed an Emergency
+Ex Parte Motion for Temporary Restraining Order against Defendants “to freeze Plaintiff’s assets
+. . . held by Defendant ‘1’ a/k/a ‘DURMAZ TANAYDIN’ or his cohorts Defendants JOHN DOES
+2-18, without prior notice to Defendants.” R. Doc. 2, pp. 1-2. He then filed an Emergency Motion
+to Supplement and Expand the Motion for Temporary Restraining Order to include additional
+wallets identified by Plaintiff after filing his Complaint. R. Doc. 5, pp. 1- 2. Finding that Plaintiff
+had shown a strong likelihood of success on the merits of the claims against Defendants for fraud,
+
+3 Plaintiff explained that “coin swap” services like ChangeNOW and Changelly allow users to exchange one kind of
+cryptocurrency for an alternative cyptocurrency. R. Doc. 29, p. 3. “The users transfer their cryptocurrency to the
+swap site service, select the kind of cryptocurrency they would like to exchange for, and then input a destination
+address whereto the swapped funds will be sent.” Id.
+Case 2:25-cv-01576-GGG-DPC     Document 37     Filed 11/18/25     Page 3 of 12
+4
+
+conversion, unjust enrichment, and violations of 18 U.S.C. § 1030, the Court granted the Motion
+and entered the temporary restraining order. R. Doc. 6, pp. 5-7.
+Plaintiff then sought leave of court to conduct limited third-party discovery via subpoenas
+duces tecum to the Apple App Store and the HitBTC and Binance exchanges to obtain information
+necessary to identify and serve the defendants. R. Doc. 8, p. 2. Specifically, Plaintiff first sought
+leave to obtain Know Your Customer (“KYC”) and Anti-Money Laundering (“AML”) information
+from Binance and HitBTC to help identify the names of the Defendants, their locations, and
+account details. Id. at p. 3. Second, he sought to subpoena Apple for information submitted when
+the fraudulent “Sparrow Multi-Sig” application was uploaded to its App Store. Id. Third, he sought
+to subpoena Namecheap.com, the company which hosted Defendants’ fraudulent website,
+Sparr0web.xyz. Id. at pp. 3-4. Finally, Plaintiff also indicated his intent to “serv[e] discovery upon
+other third- party services connected to Defendants’ fraudulent activity and Plaintiff’s loss
+including but not limited to cell phone and mobile carriers, payment processors, fiat on/off -ramp
+services, and cloud storage providers.” Id. at p. 4.
+The Magistrate considered Plaintiff’s Motion f or Expedited Discovery and found that
+Plaintiff had established good cause for expedited discovery to obtain “any identifying
+information” collected from Defendants by Binance, HitBTC, Apple, and Namecheap.com. R.
+Doc. 14, pp. 6- 7. However, the Magistrate reasoned, Plaintiff had not established good cause to
+obtain other requested information from the companies —such as account balances, transaction
+history, or any other financial information—because “[t]hese items do not relate to obtaining
+necessary information for service but appear to relate to the affirmative relief sought through this
+lawsuit and go beyond the underlying basis justifying the need for expedited discovery.” Id. at p.
+7. Similarly, the Magistrate held that “Plaintiff has not established good cause to open discovery
+Case 2:25-cv-01576-GGG-DPC     Document 37     Filed 11/18/25     Page 4 of 12
+5
+
+as to any unidentified third party for unspecified information.” Id. Accordingly, Plaintiff’s Motion
+was granted in part and denied in part. Id.  at pp. 7-9. The Magistrate found that “[t]his measured
+approach allows Plaintiff to obtain enough information to identify the Defendants and serve
+process but reserves other discovery until after a Rule 26(f) conference as required under Rule
+26(d)(1).” Id. at p. 8.
+Plaintiff then  filed an Ex Parte Motion to Modify the Court’s Order and Reasons to
+incorporate (1) additional, newly- identified wallet addresses held at Exolix, ByBit, and
+ChangeNOW cryptocurrency exchanges and (2) KYC information and transaction data related to
+Plaintiff’s stolen assets from the Challengy cryptocurrency service provider. R. Doc. 20.
+Reiterating that good cause exists for authorizing expedited discovery “to enable a plaintiff to
+ascertain certain identifying information regarding John Doe defendants” but not for “merits-based
+discovery related to substantive relief sought,” the Magistrate  granted in part and denied in part
+Plaintiff’s Motion to Modify. R. Doc. 24, p. 1. Specifically, Plaintiff was permitted to serve
+discovery upon the requested exchanges and provider, but this discovery was “limited to seeking
+only the name, address, telephone number, and e-mail address associated with the forensically
+identified account(s).” Id. at p. 2.
+Plaintiff then filed a timely motion, pursuant to Federal Rule of Civil Procedure 72(a) and
+Local Rule 72.2, requesting review of the Magistrate’s decision  as to the ChangeN OW and
+Changelly data sought . R. Doc. 29. Specifically, Plaintiff argues that the Court should grant his
+discovery request because (1) rather than “highly confidential or personal information,” Plaintiff
+seeks “what amounts to a time stamp and a transaction identifier” that will allow continued
+tracking of the stolen funds beyond the coi n swap service s; (2) “[n]o privacy interests are
+implicated” because the transaction data sought “likely only includes the destination wallet
+Case 2:25-cv-01576-GGG-DPC     Document 37     Filed 11/18/25     Page 5 of 12
+6
+
+addresses input by Defendants;” and (3) “Plaintiff has shown good cause to seek this information.”
+Id. at p. 2. For these reasons, Plaintiff argues, his request for transaction data from ChangeN OW
+and Changelly “is well within the limitations of Rule 26.” Id. at p. 4.
+III. LEGAL STANDARD
+a. Standard of Review of a Magistrate Judge’s Ruling
+“United States Magistrate Judges have the power to hear and determine pretrial matters as
+designated by the court.” Barnes v. Dolgencorp, LLC, No. CV 22-2179, 2023 WL 7403450, at *2
+(E.D. La. Nov. 9, 2023) (citing 28 U.S.C. § 636(b)(1)(A); Fed. R. Civ. P. 72(a)). “A magistrate
+judge is afforded broad discretion in resolving non- dispositive pre -trial matters[.]” Id. (citing
+Palmisano, LLC v. N. Am. Capacity Ins. Co., No. 19-cv-12755, 2020 WL 1429857, at *1 (E.D. La.
+Mar. 24, 2020)).
+Rule 72(a) of the Federal Rules of Civil Procedure governs a district court judge’s review
+of a magistrate judge’s decision on a non- dispositive pretrial matter. A party who objects to a
+magistrate judge’s ruling “may serve and file objections to the order  within 14 days after being
+served with a copy.” Fed. R. Civ. P. 72(a). Once a timely objection is filed, the district judge must
+consider the objection and “modify or set aside any part of the order that is clearly erroneous or is
+contrary to law.” Id. This high standard requires that the district court affirm the magistrate judge’s
+decision unless it is “left with the definite and firm conviction that a mistake has been committed.”
+Barnes, 2023 WL 7403450 at *2 (citing United States v. U.S. Gypsum Co., 333 U.S. 364, 395
+(1948); Yelton v. PHI, Inc., 284 F.R.D. 374, 375 (E.D. La. 2012)).
+b. Standard for Authorizing Expedited Discovery
+ As explained in the Magistrate’s Order and Reasons, R. Doc. 14, Rule 26(d)(1) of the
+Federal Rules of Civil Procedure prohibits discovery from any source before the Rule 26(f)
+Case 2:25-cv-01576-GGG-DPC     Document 37     Filed 11/18/25     Page 6 of 12
+7
+
+conference except when authorized by, among other things, a court order. Fed. R. Civ. P. 26(d)(1).
+While expedited discovery is available in certain situations, it his highly disfavored and not the
+norm. E.g., Merrill Lynch, Pierce, Fenner & Smith, Inc. v. O’Connor, 194 F.R.D. 618, 623 (N.D.
+Ill. 2000). “Absent an affirmative showing of good cause, the party seeking discovery in advance
+of a Rule 26(f) conference will be unable to overcome the procedural requirements necessary to
+circumvent the standard discovery timeline.” Bryan v. Walmart, Inc., No. 23- 7116, 2023 WL
+8890341, at *3 (E.D. La. Dec. 26, 2023) (Ashe, J.) (quoting United States ex rel. Branch
+Consultants, L.L.C. v. Allstate Ins. Co., No. 06-4091, 2007 WL 9780392, at *2 (E.D. La. July 27,
+2007)).
+ District courts generally employ either (1) the preliminary injunction-style analysis known
+as the Notaro test or (2) the “good cause” or “reasonableness” standard when determining whether
+to exercise its authority to order expedited discovery. E.g., Crutchfield v. City of New Orleans, No.
+CV 17-08562, 2017 WL 4812408, at *1 (E.D. La. Oct. 25, 2017) (citing Notaro v. Koch, 95 F.R.D.
+403 (S.D.N.Y . 1982); St. Louis Grp., Inc. v. Metals and Additives Corp., 275 F.R.D. 236, 239 (S.D.
+Tex. 2011)). Although the Fifth Circuit has not specified which standard to use, “several district
+courts within the Circuit have expressly employed the ‘good cause’ standard when addressing the
+question whether to authorize early discovery.” Id. at *2 (citing BKGTH Prods., LLC v. Does 1-
+20, No. CIV .A. 13-5310, 2013 WL 5507297, at *4 (E.D. La. Sept. 30, 2013) (citing St. Louis Grp.,
+275 F.R.D. at 239-40)). “The burden of showing good cause is on the party seeking the discovery,
+and the proposed discovery must be narrowly tailored in scope to seek only necessary
+information.” Id. (citations omitted).
+ “Good cause may be found where the need for expedited discovery, in consideration of the
+administration of justice, outweighs the prejudice to the responding party.” Semitool, Inc. v. Tokyo
+Case 2:25-cv-01576-GGG-DPC     Document 37     Filed 11/18/25     Page 7 of 12
+8
+
+Electron. Am., Inc., 208 F.R.D. 273, 276 (N.D. Cal. 2002). Factors which courts consider to
+determine whether “good cause” exists for expedited discovery include (1) whether a preliminary
+injunction is pending; (2) the breadth of the discovery requests; (3) the purpose for requesting the
+expedited discovery; (4) the burden on the defendants to comply with the requests; (5) how far in
+advance of the typical discovery process the request was made; (6) whether plaintiff makes a prima
+facie showing of harm; (7) the specificity of the discovery request; (8) the absence of alternative
+means to obtain the subpoenaed information; (9) the necessity of the subpoenaed information to
+advance the claim; and (10) the user’s expectation of privacy. St. Louis Grp., 275 F.R.D. at 239
+n.4; Turner Indus. Grp., LLC v. Int’l Union of Operating Eng’rs, Loc. 450, No. CIV .A. H-13-0456,
+2013 WL 2147515, at *3 (S.D. Tex. May 10, 2013).
+ It is not uncommon for courts to find good cause for expedited discovery when sought to
+ascertain the identity of a John Doe defendant. See, e.g., Wuluvarana v. Does, No. 22-CV-982-PP,
+2023 WL 183874, at *4 (E.D. Wis. Jan. 13, 2023) (citing Jacobo v. Doe , No. 22- cv-672-DAD-
+BAK, 2022 WL 2079766, at *1 (E.D. Cal. June 9, 2022)). See also Yogaratnam v. Doe, No. CV
+24-393, 2024 WL 4838925, at *7 (E.D. La. Nov. 20, 2024) (authorizing expedited discovery solely
+to ascertain identifying information with respect to John Doe defendants in cryptocurrency theft
+action). To find good cause in such a scenario, courts have established a four-part test which asks
+“whether the plaintiff (1) identifies the Doe defendant with sufficient specificity that the Court can
+determine that the defendant is a real person who can be sued in federal court, (2) recounts the
+steps taken to locate and identify the defendant, (3) demonstrat es that the action can withstand a
+motion to dismiss, and (4) proves that discovery is likely to lead to identifying information that
+will permit a service of process.” ZG TOP Tech. Co. v. Doe, No. 19-92, 2019 WL 917418, at *2
+(W.D. Wash. Feb. 25, 2019) (citing Bodyguard Prods., Inc. v. Doe 1, 17-1647, 2018 WL 1470873,
+Case 2:25-cv-01576-GGG-DPC     Document 37     Filed 11/18/25     Page 8 of 12
+9
+
+at *1 (W.D. Wash. Mar. 26, 2018) (citing Columbia Ins. v. Seescandy.com, 185 F.R.D. 573, 578-
+80 (N.D. Cal. 1999))). Expedited discovery should not be allowed if it is clear either that the
+discovery requested would not uncover the identities of the defendant(s) or that the complaint
+would be dismissed on other grounds. Wakefield v. Thompson, 177 F.3d 1160, 1163 (9th Cir. 1999)
+(quoting Gillespie v. Civiletti, 629 F.2d 637, 642 (9th Cir. 1980)).
+IV . ANALYSIS
+Having reviewed the Magistrate Judge’s Orders (R. Docs. 14 and 24), the Court finds that
+the Magistrate’s legal conclusions are neither  clearly erroneous nor contrary to law. Plaintiff
+contends that his discovery request for “the highly relevant transaction data held by ChangeNOW
+and Changelly that was generated as a result of Defendants converting Plaintiff’s Bitcoin to
+alternative cryptocurrency” is “narrowly tailored” and “well within the limitations of Rule 26” of
+the Federal Rules of Civil Procedure. R. Doc. 29, p. 4. He adds that the transaction data in question
+“is limited to the recipient wallet address input by Defendants to where the converted
+cryptocurrency was sent.” Id.  at p. 6. Plaintiff further asserts  that the Magistrate’s finding that
+granting his discovery request for transaction data would violate privacy interests and is unlikely
+to lead to information identifying the Defendants is “clearly erroneous as it misinterprets and
+misunderstands the nature of cryptocurrency and the cryptocurrency services at issue.” Id. at p. 4.
+Plaintiff states that he “only seeks the transaction data collected as part of the illicit
+transactions which will allow [his] trace and investigation as to these specific stolen assets to
+advance.” Id. at p. 6. As explained by the Magistrate, expedited discovery in a case with
+unidentified defendants  is designed “to enable a plaintiff to ascertain certain identifying
+information regarding John Doe defendants” rather than to give a plaintiff a head start on “merits-
+Case 2:25-cv-01576-GGG-DPC     Document 37     Filed 11/18/25     Page 9 of 12
+10
+
+based discovery related to the substantive relief sought.” See, e.g., R. Doc. 24, p. 1. The transaction
+data sought falls within the latter category.
+Plaintiff has also directed the Court to a decision from the Eastern District of Texas which
+states that “any privacy interests that alleged cybercriminals have concerning the discovery of
+information about their identities and activities is outweighed by the need to adjudicate victims’
+claims against them.” Id. at p. 7 (quoting Cohn v. Popescu, No. 1:24-CV-00337, 2024 WL 4525511
+(E.D. Tex. Aug. 16, 2024) (citing Gaponyuk v. Alferov, No. 2:23-CV-01317-KJM-JDP, 2023 WL
+4670043, at *4 (E.D. Cal. July 20, 2023)). Plaintiff’s reliance on this persuasive authority is
+misplaced. While less weight should be given to the privacy interests of alleged cybercriminals,
+the privacy concerns voiced by the Magistrate are those of potentially innocent third parties. As
+noted by the Magistrate, there is a “lack of evidence establishing that any owner of the unhosted
+wallets is a holder of the accounts to which Plaintiff’s cryptocurrency was transferred rather than
+some unknown victim of the Defendants.” R. Doc. 14, p. 5. These “potentially innocent persons
+have an interest in  avoiding the time and expense required to defend against a ‘false positive’
+identification.” Id. (citing Mizrahi v. Anna, No. 23-2462, 2023 WL 7273725, at *5 (D.N.J. Nov. 3,
+2024)).
+Courts regularly impose conditions limiting the scope of expedited discovery in cases
+involving Doe defendants to protect such interests. See, e.g., Jacobo, 2022 WL 207966, at *3- 4
+(citing ZG TOP Tech. Co, 2019 WL 917418, at *3) (refusing to authorizing expedited discovery of
+transactional data where plaintiff made “no showing that this information [was] necessary to
+‘obtain defendant’s identity’ or to ascertain ‘a physical and/or electronic address at which
+defendant can be given notice of the claims asserted against him in this lawsuit’”).
+Case 2:25-cv-01576-GGG-DPC     Document 37     Filed 11/18/25     Page 10 of 12
+11
+
+ In fact, in the case upon which Plaintiff relies, Cohn v. Popescu, the plaintiff’s discovery
+request was granted specifically because he sought “only information sufficient to identify the
+Defendants’ payments provider and the Defendants’ accounts with that provider.” Cohn, 2024 WL
+4525511 at *5. Additionally, when analyzing whether to grant the requested discovery, the Cohn
+court noted that “[c]ourts have authorized similar discovery where the plaintiff adduced evidence
+that the persons about whom the information was sought were cybercriminals.” Id.  (citations
+omitted). The Magistrate’s decision is consistent with that framework because, in the instant case,
+doubt remains as to whether the owners of each unhosted wallet are participants in the scheme
+which defrauded Plaintiff or additional victims of the same cybercriminals. Allowing discovery of
+the additional data sought could violate these additional victims’ privacy interests.
+Additionally, Plaintiff states in the instant  Motion for Review that “ChangeNOW has
+already informed Plaintiff that KYC information was not collected on the transactions at issue.”
+R. Doc. 29, p. 7 n.3. It appears that Plaintiff offers this information to support the need to expand
+the scope of  discovery. However, Plaintiff learned of this  after filing the Motion to Modify the
+Discovery Order (R. Doc. 20). R. Doc. 29, p. 2. As such, no clear error was committed when Judge
+Currault ruled on Plaintiff’s Motion without considering information that Plaintiff himself neither
+had nor presented to the Court. Should Plaintiff seek further  modification of the discovery order
+based on this new information, the proper procedural channel is through an additional Motion to
+Modify, not a Motion for Review of the Magistrate Judge’s previous order.
+
+Accordingly,
+IT IS ORDERED that Plaintiff’s Motion to Review (R. Doc. 29) is DENIED.
+Case 2:25-cv-01576-GGG-DPC     Document 37     Filed 11/18/25     Page 11 of 12
+12
+
+IT IS FURTHER ORDERED that the Magistrate Judge’s decision (R. Doc. 24) is
+AFFIRMED.
+New Orleans, Louisiana, this ____ day of ___________ 2025.
+
+        GREG GERARD GUIDRY
+          UNITED STATES DISTRICT JUDGE
+
+November
+Case 2:25-cv-01576-GGG-DPC     Document 37     Filed 11/18/25     Page 12 of 12

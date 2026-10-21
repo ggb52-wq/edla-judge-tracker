@@ -1,0 +1,286 @@
+1
+
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+JIMMY RAMIREZ
+
+VERSUS
+
+DEFENDANT 1 a/k/a “DURMAZ
+TANAYDIN,” ET EL.
+
+*
+
+*
+
+*
+CIVIL ACTION
+
+NO. 25-1576
+
+SECTION “T” (2)
+ORDER AND REASONS
+Pending before me is Plaintiff Jimmy Ramirez’s Ex Parte Motion for Expedited Discovery
+seeking leave to issue subpoenas duces tecum to the Apple App Store and two non-party
+cryptocurrency exchanges to obtain information necessary to identify and serve the unidentified
+defendants.  ECF No. 8.
+Having considered the record, the submissions, and the applicable law, Plaintiff’s  Motion
+for Expedited Discovery is GRANTED IN PART AND DENIED IN PART for the reasons stated
+herein.
+I. BACKGROUND
+Plaintiff filed suit against several unidentified defendants for theft of cryptocurrency assets
+via a copycat scam app downloaded from the Apple App Store.  ECF No. 1 ¶¶ 18-24.  After
+accessing Plaintiff’s Bitcoin, Defendants transferred Plaintiff’s stolen Bitcoin to unhosted wallets
+as well as hosted wallets at HitBTC and Binance to launder Plaintiff’s stolen assets.  Id. ¶¶ 25-27.
+Plaintiff seeks leave to conduct limited third-party discovery via subpoenas to the Apple App Store
+and the HitBTC and Binance exchanges to obtain information necessary to identify and serve the
+Defendants.  ECF No. 8 at 2.  Plaintiff argues that he has good cause for expedited discovery.  Id.
+at 4-8.
+Specifically, Plaintiff asks that he be granted leave to serve a subpoena duces tecum on:
+Case 2:25-cv-01576-GGG-DPC     Document 14     Filed 08/13/25     Page 1 of 9
+2
+
+(1) Binance and HitBTC  to obtain Know Your Customer (KYC) and Anti -Money
+Laundering (AML) information to help identify the names of the Defendants and their
+locations, as well as account details to prevent further dissipation of the assets.1
+(2) Apple to determine what information was submitted when the fraudulent Sparrow
+Multi-Sig app was uploaded to the App Store.2
+(3) Namecheap.com, which is the domain registrar and hosting company that registered
+and hosted Defendants’ now defunct and disabled fraudulent website Sparr0web.xyz.3
+(4)  “[O]ther third -parties discovered through investigation likely to possess account
+holder information,”4 such as cell phone and mobile carriers, payment processors, fiat
+on/off-ramp services, and cloud storage providers.5
+Plaintiff seeks identifying and necessary information including relevant account holders’ names,
+addresses, phone numbers, email addresses (including any Know Your Customer and Anti-Money
+Laundering information), and payment information; and as it relates to cryptocurrency exchanges,
+account balances, ledgers, and transaction history to prevent the further dissipation of Plaintiff’s
+assets.  Id. at 7-8.
+II. AP PLICABLE LAW AND ANALYSIS
+Rule 26(d)(1) of the Federal Rules of Civil Procedure prohibits discovery from any source
+before the Rule 26(f) conference except when authorized by , among other things, a  court order.
+Expedited discovery is not the norm. 6  Indeed, expedited discovery is highly disfavored, and
+“[a]bsent an affirmative showing of good cause, the party seeking discovery in advance of a Rule
+
+1 Id. at 3.
+2 Id.
+3 Id. at 3-4.
+4 Id. at 7.
+5 Id. at 4.
+6 Merrill Lynch, Pierce, Fenner & Smith, Inc. v. O'Connor, 194 F.R.D. 618, 623 (N.D. Ill. 2000).
+Case 2:25-cv-01576-GGG-DPC     Document 14     Filed 08/13/25     Page 2 of 9
+3
+
+26(f) conference will be unable to overcome the procedural requirements necessary to circumvent
+the standard discovery timeline.” 7  Caution must be exercised with ex parte  expedited discovery
+requests.8
+While neither the Federal Rules nor the Fifth Circuit have specified the standard for
+determining whether to exercise its authority to order expedited discovery, district courts generally
+use either the preliminary injunction-style analysis known as the Notaro test9 or the “good cause”
+standard (also known as the “reasonableness” standard). 10  Most courts, including those in this
+district, follow the good cause standard.11
+“Good cause may be found where the need for expedited discovery, in consideration of the
+administration of justice, outweighs the prejudice to the responding party .”12  Thus, when faced
+with irreparable harm that can be addressed by limited, expedited discovery or when failing to
+grant expedited discovery would substantially impact progress of the case, courts have authorized
+expedited discovery.13  Courts consider several factors in determining whether “good cause”
+exists: (1) whether a preliminary injunction is pending; (2) the breadth of the discovery requests;
+(3) the purpose for requesting the expedited discovery; (4) the burden on the defendants to comply
+
+7 Bryan v. Walmart, Inc., No. 23-7116, 2023 WL 8890341, at *3 (E.D. La. Dec. 26, 2023) (Ashe, J.) (quoting United
+States ex rel. Branch Consultants, L.C.C. v. Allstate Ins. Co., No. 06-4091, 2007 WL 9780392, at *2 (E.D. La. July
+27, 2007)).
+8 See, e.g., Mick Haig Prods., e.K. v. Does 1-670, No. 10 -1900, 2011 WL 5104095, at *1 (N.D. Tex. Sept. 9, 2011)
+(citing cases involving ex parte requests for expedited discovery for identity of John Does based on allegations that
+turn out to be false).
+9 In Notaro v. Koch, 95 F.R.D. 403 (S.D.N.Y . 1982), the court articulated a test that requires the movant to demonstrate:
+(1) irreparable injury; (2) some probability of success on the merits; (3) some connection between the expedited
+discovery and the avoidance of irreparable injury; and (4) some evidence that the injury that will result w ithout
+expedited discovery is greater than the injury a party will suffer if the expedited relief is granted.  Wuluvarana v. Does
+1-3, No. 22-982, 2023 WL 183874, at *1 (E.D. Wis. Jan. 13, 2023) (citations omitted).
+10 St. Louis Grp., Inc. v. Metals & Additives Corp., 275 F.R.D. 236, 239 & n.3 (S.D. Tex. 2011) (citing Notaro v. Koch,
+95 F.R.D. 403 (S.D.N.Y . 1982); Edgenet, Inc. v. Home Depot U.S.A., Inc ., 259 F.R.D. 385, 386 (E.D. Wis. 2009);
+MOORE’S FEDERAL PRACTICE § 26.121; Am. LegalNet, Inc. v. Davis, 673 F. Supp. 2d 1063, 1067 n.4 (C.D. Cal. 2009);
+Dimension Data N. Am., Inc. v. Netstar-1, Inc., 226 F.R.D. 528, 531-32 (E.D.N.C. 2005)).
+11 St. Louis Grp., Inc., 275 F.R.D. at 240 (collecting cases).
+12 Semitool, Inc. v. Tokyo Electron Am., Inc., 208 F.R.D. 273, 276 (N.D. Cal. 2002).
+13 St. Louis Grp., Inc., 275 F.R.D at 240-41 (citations omitted).
+Case 2:25-cv-01576-GGG-DPC     Document 14     Filed 08/13/25     Page 3 of 9
+4
+
+with the requests; and (5) how far in advance of the typical discovery process the request was
+made.14  Courts also consider (6)  whether plaintiff makes a prima facie showing of harm; (7) the
+specificity of the discovery request; (8) the absence of alternative means to obtain the subpoenaed
+information; (9) the necessity of the subpoenaed information to advance the claim; and (10) the
+user's expectation of privacy.15
+Courts deny expedited discovery requests when the movant fails to establish good cause.16
+ Courts have found good cause for expedited discovery when same is sought to ascertain
+the identity of a John Doe defendant. 17  To determine whether a plaintiff has established good
+cause to seek the identity of a Doe defendant through expedited discovery, courts have established
+a four-part test, asking whether the plaintiff has (1) identified the Doe defendant with sufficient
+specificity to enable the court to determine that the defendant is a real person who can be sued in
+federal court, (2) recounted the steps taken to locate and identify the defendant, (3) demonstrated
+that the action can withstand a motion to dismiss, and (4) proven that the discovery is likely to lead
+to identifying information that will permit service of process.18  When it is clear that discovery
+
+14 Id. at 239 n.4 (citations omitted); Doe I v. Marine-Lombard, No. 16-14876, 2016 WL 6658965, at *2 (E.D. La. Nov.
+10, 2016) ( quoting BKGTH Prods., LLC v. Does 1 -20, No. 13 -5310, 2013 WL 5507297, at *4 (E.D. La. Sept. 30,
+2013)).
+15 Turner Indus. Grp., LLC v. Int’l Union of Operating Eng’rs, Local 450, No. 13-456, 2013 WL 2147515, at *3 (S.D.
+Tex. May 10, 2013) (quoting Combat Zone Corp. v. John/Jane Does 1–2, No. 12–509, 2012 WL 6684711, at *1 (E.D.
+Tex. Dec. 21, 2012)).
+16 See Magnolia Fleet, LLC v. Grey, No. 18-8363, 2018 WL 5619995, at *2-4 (E.D. La. Oct. 30, 2018) (applying good
+cause standard to deny expedited discovery);  Firestone v. McCarthy Holthus & Ackerman, LLP , No. 12-286, 2012
+WL 12887677, at *2 (W.D. Tex. May 24, 2012); Davis v. Duncan Energy Partners L.P., 801 F. Supp. 2d 589, 596-97
+(S.D. Tex. 2011); see also Northstar Offshore Ventures, LLC v. Tana Expl . Co., No. 18-2025, 2018 WL 3970616, at
+*9 (N.D. Tex. Aug. 20, 2018) (vacating state court order granting expedited discovery when good cause did not exist
+after removal).
+17 See Wuluvarana, 2023 WL 183874, at *4 (citing and quoting Jacobo v. Doe, No. 22-672, 2022 WL 2079766 (E.D.
+Cal. June 9, 2022)); First Time Videos, LLC v. Doe, No. 12-621, 2012 WL 1355725, at *4 (E.D. Cal. Apr. 18, 2012);
+UMG Recordings, Inc. v. Doe, No. 08-3999, 2008 WL 4104207, at *1 (N.D. Cal. Sept. 4, 2008); Arista Recs. LLC v.
+Does 1-43, No. 07-2357, 2007 WL 4538697, at *1 (S.D. Cal. Dec. 20, 2007).
+18 ZG TOP Tech. Co. v. Doe, No. 19-92, 2019 WL 917418, at *2 (W.D. Wash. Feb. 25, 2019) (citing Bodyguard Prods.,
+Inc. v. Doe 1, 17-1647, 2018 WL 1470873, at *1 (W.D. Wash. Mar. 26, 2018) (citing Columbia Ins. v. Seescandy.com,
+185 F.R.D. 573, 578–80 (N.D. Cal. 1999))).
+Case 2:25-cv-01576-GGG-DPC     Document 14     Filed 08/13/25     Page 4 of 9
+5
+
+would not uncover the identities or that the complaint would be dismissed on other grounds ,
+expedited discovery should not be allowed.19
+Courts regularly authorize expedited discovery requests in similar cryptocurrency theft
+cases, allowing plaintiffs to conduct expedited discovery to ascertain identifying information
+(excluding social security numbers) with respect to the John Doe defendants, but not allowing
+discovery beyond obtaining identifying information on the bases that substantive discovery is not
+narrowly tailored to support the need for expedited discovery.20  Indeed, this Court did so recently
+in another case.21
+Although Plaintiff has not addressed the merits necessary to establish that the action can
+withstand a motion to dismiss , the detailed factual assertions of fraud, theft and conversion are
+sufficient to establish that the case would likely survive Rule 12(b)(6).  Less clear, however, is
+whether Plaintiff has proven that the discovery is likely to lead to identifying information that will
+permit service of process.  Further problematic is the lack of evidence establishing that any owner
+of the unhosted walle ts is a holder of the accounts to which Plaintiff’s cryptocurrency was
+transferred rather than some other unknown victim of the Defendants.
+
+19 Wakefield v. Thompson, 177 F.3d 1160, 1163 (9th Cir. 1999) (quoting Gillespie v. Civiletti, 629 F.2d 637, 642 (9th
+Cir. 1980)).
+20 See Cohn v. Popescu, No. 24-337, 2024 WL 4525511, at *4- 5 (E.D. Tex. Aug. 16, 2024) (authorizing expedited
+discovery); Strivelli v. Doe , No. 22 -2060, 2022 WL 1082638, at *2 (D.N.J. Apr. 11, 2022) (authorizing expedited
+discovery from cryptocurrency exchanges in crypto case and noting “the Court's review of cryptocurrency theft cases
+reveals that courts often grant motions for expedited discovery to ascertain the identity of John Doe defendants”) ;
+Licht v. Ling , No. 23 -1018, 2023 WL 4504585, at *4 (N.D. Tex. June 20, 2023)  (allowing expedited discovery in
+crypto-fraud case); Wuluvarana, 2023 WL 183874, at *4 (authorizing expedited discovery of identifying information
+but not of defendants’ transaction history and logs and a third party’s internal documents and correspondence); Jacobo,
+2022 WL 2079766, at *3-4 (authorizing expedited discovery of account holder information but not transaction history
+and communications of the defendant); ZG TOP Tech. Co., 2019 WL 917418, at *2 (authorizing expedited discovery
+of identifying information); Lee v. Does #1 -3, No. 23 -2008, 2024 WL 472375, at *2 (W.D. Wash. Jan. 10, 2024)
+(authorizing expedited discovery of only identifying information).
+21 See Chow v. Defendant 1 a/k/a Kai Xuan Wang, Civ. No. 24-480 (E.D. La. Nov. 4, 2024); see also Yogaratnam v.
+Doe,  No. 24-393, 2024 WL 4838925, at *1 (E.D. La. Nov. 20, 2024) (Brown, C.J.).
+Case 2:25-cv-01576-GGG-DPC     Document 14     Filed 08/13/25     Page 5 of 9
+6
+
+Plaintiff certainly has an interest in asserting his rights and obtaining remedies for his
+alleged losses suffered from Defendants ’ purported fraudulent cryptocurrency scheme.  At the
+same time, exchange account holders have a privacy interest in their personal information , and
+potentially innocent persons have an interest in avoiding the time and expense required to defend
+against a “false positive” identification.22  Even though the account holders may not be personally
+responsible for the alleged misappropriation of funds, they might possess information that assists
+Plaintiff in identifying the persons responsible, and thus, their identities are discoverable under the
+broad scope of Rule 26.23
+To balance these competing concerns, courts have implemented protocols to safeguard the
+privacy rights of potentially innocent third parties.24  This Court will implement similar protocols
+to reduce the potential prejudice to any potentially innocent third parties, including an order
+specifying that Plaintiff may only use the information disclosed in response to the subpoena for
+the purpose of protecting and enforcing his rights as set forth in the operative complaint in this
+matter.
+Plaintiff has established good cause for certain expedited discovery from Binance and
+HitBTC as well as Apple and Namecheap.com.  Such discovery will be restricted, and Plaintiff
+may only use the information disclosed in response to the subpoena for the purpose of protecting
+and enforcing his rights as set forth in the operative complaint in this matter.  Likewise, Plaintiff
+has established good cause to serve discovery to Apple to obtain any identifying information
+
+22 See Mizrahi v. Anna, No. 23-2462, 2023 WL 7273725, at *5 (D.N.J. Nov. 3, 2023).
+23 Tyson v. Coinbase Glob., Inc., No. 23-22066, 2024 WL 69929, at *3 (D.N.J. Jan. 4, 2024) (citing Strivelli, 2022
+WL 1082638, at *2-3; Wuluvarana, 2023 WL 183874, at *4; Jacobo, 2022 WL 2079766, at *4; ZG TOP Tech. Co.,
+2019 WL 917418, at *2).
+24 See Perrong v. Caller Identified as Connor, No. 22-4479, 2023 WL 113957, at *4 (D.N.J. Jan. 4, 2023) (citing
+Strike 3 Holdings, LLC v. Doe, No. 21-17860, 2021 WL 5173473, at *3 (D.N.J. Oct. 29, 2021) (imposing similar
+conditions when granting leave to serve a third-party subpoena upon an internet service provider to identify an IP
+address subscriber)).
+Case 2:25-cv-01576-GGG-DPC     Document 14     Filed 08/13/25     Page 6 of 9
+7
+
+collected from Defendant “1” related to the fraudulent Sparrow Multi -Sig application hosted by
+the Apple App Store as well as to obtain identifying information from Namecheap.com regarding
+the domain registrar that hosts Defendants’ fraudulent website.
+Plaintiff has not, however, established a need for expedited discovery from Binance and
+HitBTC with regard to the requested other items (i.e., account balances and transaction history) or
+from Apple and Namecheap.com with regard to financial information.  These items do not relate
+to obtaining necessary information for service but appear to relate to the affirmative relief sought
+through this lawsuit and go beyond the underlying basis justifying the need for expedited
+discovery.  And while Plaintiff has an important interest in seeking to prevent Defendants from
+transferring the money to an unreachable account, the prejudice of disclosing account balance,
+transfer, and transaction information is far greater than the identifying information.  Discovery of
+that information can await discovery following service.
+Similarly, Plaintiff has not established good cause to open discovery as to any unidentified
+third party for unspecified information.  Once Plaintiff identifies third parties whom investigation
+indicates likely possess account holder information, Plaintiff may at that time file a motion for
+leave to seek expedited discovery and establish good cause to proceed with discovery from the
+then-identified third parties for specified identifying information.
+III. CONCLUSION
+Although there is no certainty that the discovery sought will lead to the necessary
+identifying information, given the need for same to advance the progress of this case by identifying
+and serving the defendants, the absence of alternative means to obtain the subpoenaed identifying
+information and the interests of the administration of justic e, the Court finds that Plaintiff has
+established good cause for expedited discovery to obtain identifying information for the holder of
+Case 2:25-cv-01576-GGG-DPC     Document 14     Filed 08/13/25     Page 7 of 9
+8
+
+the accounts to which his assets have been traced.  Upon service of a Rule 45 subpoena to Binance
+and HitBTC, either the account holder or exchange will have the opportunity to raise objections
+through a motion to quash, including the opportunity to demonstrate that the prejudice to them
+outweighs Plaintiff’s need for the information sought.  Likewise, Plaintiff has established good
+cause to obtain identifying information from Apple and N amecheap.com.  Plaintiff has not,
+however, established  good cause to obtain discovery relating to the affirmative relief sought.  Nor
+has Plaintiff established good cause to conduct unspecified discovery against not yet identified
+third parties.  Plaintiff may seek leave for expedited discovery against other third parties once they
+are identified and Plaintiff specifies the information sought.
+This measured approach allows Plaintiff to obtain enough information to identify the
+Defendants and serve process but reserves  other discovery until after a Rule 26(f) conference as
+required under Rule 26(d)(1).  Accordingly, for the foregoing reasons,
+IT IS ORDERED that Plaintiff’s Motion for Expedited Discovery is GRANTED IN PART
+AND DENIED IN PART as stated herein.
+IT IS FURTHER ORDERED that Plaintiff may serve a Rule 45 subpoena issued to Binance
+and HitBTC that is limited to requesting only the name, address, telephone number, and e -mail
+address associated with the specified account(s) and:
+(a) No other disclosure may be requested.
+(b) Plaintiff shall attach a copy of this Order to the subpoena.  Binance and HitBTC
+shall have thirty days from the service of the subpoena to object to or move to quash
+the subpoena.
+Case 2:25-cv-01576-GGG-DPC     Document 14     Filed 08/13/25     Page 8 of 9
+9
+
+(c) Binance and HitBTC must give notice to the customer (s) to afford them an
+opportunity to challenge the subpoena.  The customer(s) shall likewise have thirty
+days from service of the subpoena to object to or move to quash the subpoena.
+(d) Binance and HitBTC shall not respond to any subpoena served in this case until the
+later of the expiration of the thirty -day periods set forth above or the resolution of
+a motion to quash or for a protective order.
+IT IS FURTHER ORDERED that Plaintiff may serve a Rule 45 subpoena issued to Apple
+for identifying information collected from Defendant “1” related to the fraudulent Sparrow Multi-
+Sig application hosted by the Apple App Store.
+IT IS FURTHER ORDERED that Plaintiff may serve a Rule 45 subpoena issued to
+Namecheap.com for identifying information regarding the domain registrar that hosts Defendants’
+fraudulent website.
+IT IS FURTHER ORDERED that Plaintiff may only use the information disclosed in
+response to a Rule 45 subpoena for the purpose of protecting and enforcing his rights as set forth
+in the operative complaint in this matter.
+IT IS FURTHER ORDERED that Plaintiff shall forward copies of the responsive
+information to any Defendant who enters an appearance in this case.
+ New Orleans, Louisiana, this ________ day of August, 2025.
+
+___________________________________
+DONNA PHILLIPS CURRAULT
+UNITED STATES MAGISTRATE JUDGE
+
+12th
+Case 2:25-cv-01576-GGG-DPC     Document 14     Filed 08/13/25     Page 9 of 9

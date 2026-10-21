@@ -1,0 +1,848 @@
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+SEACOR MARINE, LLC
+
+ CIVIL ACTION
+VERSUS
+
+ NO. 24-2409
+GOL, LLC
+
+ SECTION “R” (3)
+
+ORDER AND REASONS
+
+ Before the Court is defendant GOL, LLC’s (“GOL”) motion for
+summary judgment. 1  P l a i n t i f f  S E A C O R  M a r i n e  ( “ S E A C O R ” )  o p p o s e s
+defendant’s motion and moves the Court to grant summary judgment in its
+favor under Federal Rule of Civil Procedure 56(f). 2  The Court grants GOL’s
+motion and dismisses SEACOR’s complaint with prejudice.
+
+I. BACKGROUND
+The Court has reviewed the record  and determines the undisputed
+facts are as follows.  On May 17, 20 18, GOL and SEACOR entered into a
+Brokerage Agreement. 3  The Brokerage Agreemen ts says that GOL and
+SEACOR “separately are in the busine ss of providing crewed vessels for
+
+1  R. Doc. 36.
+2  R. Doc. 46.
+3  R. Doc. 36-3 at ¶ 1; R. Doc. 46-1 at ¶ 1; R. Doc. 36-2, Exhibit A.
+Case 2:24-cv-02409-SSV-EJD     Document 65     Filed 09/16/25     Page 1 of 33
+2
+
+marine transportation in support  of oil and gas exploration and
+production.”4  It further states that “from time to time in situations of excess
+demand for vessels or otherwise, [GOL ] acts as a vessel broker between
+various charterers of vessels and th e operators of such vessels” like
+SEACOR.5  The Agreement states that SEACOR “wishes to establish a
+relationship by which [GOL] can serv e as a boat broker for [SEACOR’s]
+vessels.”6  Accordingly, under the Brokerage Agreement, SEACOR appointed
+GOL as its agent “solely for the purpose of obtaining charters for [SEACOR’s]
+vessels.”7  It further provides that th e Agreement was not an exclusive
+appointment, and that GOL “will act for [SEACOR] on a job-by-job basis and
+not as the exclusive broker.” 8  It states that when GOL obtains a proposed
+charter for a vessel, it was required to “provide . . . all necessary information
+it receives from the prospective [c ]harterer” to SEACOR, which had the
+“right to accept or reje ct the charter so offered.” 9  Under the Agreement,
+SEACOR authorized GOL to sign, as the agent, a charter agreement, but only
+with consent from SEACOR.10
+
+4  R. Doc. 36-2, Exhibit A at 1.
+5  Id.
+6  Id.
+7  Id.
+8  Id.
+9  Id.
+10  Id.
+Case 2:24-cv-02409-SSV-EJD     Document 65     Filed 09/16/25     Page 2 of 33
+3
+
+The Brokerage Agreement outlines the responsibilities regarding
+payments for charters obtained by GOL as follows:
+A. For charters in which Charterer pays charter hire to [GOL],
+[SEACOR] consents to the Charterer paying the charter hire to
+[GOL] [sic].  Invoicing by [GOL] to the Charterer will be on a per-
+job basis and according to the requirements of the Charterer.
+B. [GOL] will use reasonable efforts to obtain from the Charterer
+provisions for payment within a reasonable time.
+C. [GOL] will remit net charter hire (c harter hire less [GOL’s] fee) to
+[SEACOR] within fifteen (15) business days after receipt of such
+charter hire from the Charterer. . . . In the event charter hire is paid
+directly to [SEACOR] from the Ch arterer, [SEACOR] shall remit
+broker’s fee to [GOL] within the same fifteen (15) day period.
+D. Under no circumstances shall [GOL] be responsible to [SEACOR]
+for the Charterer’s non-payment of charter hire.  [GOL] agrees to
+undertake all reasonable efforts to collect charter hire from the
+Charterer.  [SEACOR] retains the ri ght to act on its own behalf in
+order to collect unpaid invoices directly from the Charterer.11
+
+Sometime after entering into this  agreement, GOL arranged for the
+charter of SEACOR’s vessels to Cox Operating, LLC (“Cox”).12
+This case arises out of invoices issued to Cox for charter hire of
+SEACOR’s vessels between September 2022 and December 2022.  During
+that period, SEACOR provided vessels to Cox, and GOL issued invoices for
+the charters. 13  On May 14, 2023, Cox filed for bankruptcy relief under
+
+11  Id. at 2-3.
+12  R. Doc. 36-3 at ¶ 2; R. Doc. 46-1 at ¶ 2; R. Doc. 1 at 2.
+13  R. Doc. 36-3 at ¶ 3; R. Doc. 46 -1 at ¶ 3; R. Doc. 36-2, Exhibit B.
+Case 2:24-cv-02409-SSV-EJD     Document 65     Filed 09/16/25     Page 3 of 33
+4
+
+Chapter 11, 14 at which time Cox was delinquent on certain outstanding
+invoices for charter of SEACOR’s vessels.15
+GOL filed, and later preserved, lien s against various of Cox’s oil and
+gas producing properties to secure payment of outstanding invoices,
+including invoices from SEACOR.16  Additionally, SEACOR filed its own liens
+against Cox’s oil and gas producing properties. 17  As of May 25, 2023, GOL
+estimated that its prepetition claim in the Cox bankruptcy amounted to
+$24.8 million.18  This amount included approximately $2.7 million in unpaid
+invoices for SEACOR’s services.19  On July 24, 2023, GOL filed a proof of
+claim for approximately $15.9 million, 20 which GOL states that it continues
+
+14  R. Doc. 36-3 at ¶ 15; R. Doc. 46-1 at ¶ 15.
+15  R. Doc. 1 at 2.  The parties disput e whether the invoices have since been
+paid.  See R. Docs. 46, 48.
+16  R. Doc. 36-3 at ¶¶ 6-7; R. Doc. 46-1 at ¶¶ 6-7; R. Doc. 36-2, Exhibit C;
+R. Doc. 36-2, Exhibit D.
+17  R. Doc. 36-3 at ¶ 8; R. Doc. 46-1 at ¶ 8; R. Doc. 36-2, Exhibit D.
+18  R. Doc. 46-3, Exhibit 2 at 1.
+19  R. Doc. 46-2, Exhibit 1 at 13; R. Doc. 36-2, Exhibit B.
+20  Bankr. S.D. Tex. Case No. 23-90324 , Claims Register R. Docs. 27-1, 27-
+2.  The Court takes judicial notice of the existence of the proof of claim
+and amended proof of claim but make s no determinations as to the
+accuracy of the contents within.  Un der Federal Rule of Evidence 201,
+the Court can judicially notice facts that are “generally known within
+the trial court’s territorial jurisd iction” or “can be accurately and
+readily determined from sources whose accuracy cannot reasonably be
+questioned.”  Fed. R. Evid. 201.  “The Bankruptcy Code provides that
+all papers filed in a bankruptcy case and the dockets of a bankruptcy
+court are public records except for limited . . . exceptions.”  The
+exceptions outlined in the bankruptcy code are not applicable here.
+Case 2:24-cv-02409-SSV-EJD     Document 65     Filed 09/16/25     Page 4 of 33
+5
+
+to pursue for the benefit of SEACOR.  SEACOR admits that it filed its own
+proof of claim in the bankruptcy proceedings, which, as of July 2025, remain
+pending.21
+After filing its Chapter 11 petition, Cox filed a motion seeking
+authorization to pay certain undispute d, liquidated prepet ition amounts to
+creditors who agreed to provide essential services during the bankruptcy
+proceedings.22  The motion is explicit in its aims. 23  The motion represents
+that Debtors identified “a select subset  of vendor activities essential to the
+continued, safe, and responsible daily operation of the Debtor’s Oil and Gas
+Leases,” referred to as “Essential Vendor Activities.”24  The Essential Vendor
+Activities included: (1) transportati on and dock services; (2) third-party
+labor providers; (3) specialized mate rials, equipment, and supplies; (4)
+offshore compression and generation providers; and (5) regulatory and
+
+See 11 U.S.C. § 107.  Therefore, the proof of claim is a matter of public
+record that this Court may, and does, take judicial notice of.  See PNC
+Bank, Nat’l Assoc. v. Ruiz, 2023 WL 3340078, at *4 (5th Cir. May 10,
+2023) (holding that a “district co urt did not err in taking judicial
+notice” of bankruptcy records as they “are matters of public record.”).
+21  R. Doc. 36-3 at ¶ 9; R. Doc. 46-1 at ¶ 9.
+22  B a n k r .  S . D .  T e x .  C a s e  N o .  2 3 - 9 0 3 2 4 ,  R .  D o c .  1 5 .   T h e  C o u r t  t a k e s
+judicial notice of this record.  See PNC Bank, 2023 WL 3340078, at *4
+(holding that a “district court did not err in taking judicial notice” of
+bankruptcy records as they “are matters of public record.”).
+23  Bankr. S.D. Tex. Case No. 23-90324, R. Doc. 15.
+24  Id. at 4.
+Case 2:24-cv-02409-SSV-EJD     Document 65     Filed 09/16/25     Page 5 of 33
+6
+
+compliance related vendors. 25  It represented that “any interruption of the
+Essential Vendor Activities would si gnificantly diminish ” its ability to
+reorganize which would “diminish recoveries for all stakeholders.” 26  T h e
+motion thus seeks authorization to “pay at least a portion of the prepetition
+amount due with respect to the Essential Vendor Activities,” as not doing so
+“would likely result in the cessation  of Essential Vendor Activities.” 27  The
+motion additionally states that “the Debtors intend to pay Essential Vendor
+Obligations . . . only to the extent necessary to preserve their businesses and
+only to the extent that Vendors receivi ng such payments agree to continue
+providing goods and services . . . [under] Customar y Trade Terms.” 28
+Customary Trade Terms are defined as “trade terms that are the same or
+better than the trade terms that existed  immediately prior to the Petition
+Date or, if more favorable, that exist ed within the one hundred eighty (180)
+day period prior to the Petition Date.” 29  The Motion specifically sought to
+pay $40 million towards essential operating expenses.30
+
+25  Id. at 5-7.
+26  Id. at 4.
+27  Id. at 5.
+28  Id. at 9-10.
+29  Id.
+30  Id. at 3.
+Case 2:24-cv-02409-SSV-EJD     Document 65     Filed 09/16/25     Page 6 of 33
+7
+
+In May 2023, the bankruptcy court entered an order authorizing such
+payments.31  The Order states:
+The Debtors are author ized, but not directe d, to pay accrued and
+outstanding prepetition Oil and Gas Obligations in the ordinary course
+of business in the amounts, categories, and manners described in the
+Motion.32
+
+It continues:
+
+The Debtors are authorized to require that, as a condition to receiving
+any payment of a prepetition claim under this Order, a payee maintain
+or apply, as applicable, terms duri ng the pendency of the Chapter 11
+Cases that are the same or better than the trade terms that existed
+immediately prior to the Petition Date or, if more favorable, that
+existed within the one hundred eighty (180)-day period prior to the
+Petition Date, or that are otherw ise satisfactory to the Debtors
+(“Customary Trade Terms”).  If a payee, after receiving a payment of a
+prepetition claim under this Order, ceases to provide Customary Trade
+Terms, then the Debtors may, in their sole discretion, deem such
+payment to apply instead to any po stpetition amount that may be
+owing to such payee or treat such payment as an avoidable postpetition
+transfer of property.33
+
+Thereafter, Cox and GOL entered into a Trade Agreement, under which
+GOL agreed to continue providing se rvices to Cox on Customary Trade
+Terms and Cox provided GOL $13 milli on to be applied towards GOL’s
+
+31  R. Doc. 36-2, Exhibit F; Bankr. S.D. Tex. Case No. 23-90324, R. Doc.
+112.
+32  R. Doc. 36-2, Exhibit F at 2.
+33  R. Doc. 36-2, Exhibit F at 2.
+Case 2:24-cv-02409-SSV-EJD     Document 65     Filed 09/16/25     Page 7 of 33
+8
+
+prepetition claim.34  The Trade Agreement requires GOL “to agree to supply
+goods and/or services to [Cox] based on ‘Customary Trade Terms’” in order
+to “receive payment on pre-bankruptcy claims.”35  It additionally states that
+GOL “has regularly provided, and may co ntinue to provide, the services of
+vessels owned and operated by third-party vessel owners and operators” and
+defined those vessel owners and operators who agree to continue to provide
+essential services based on Customary Trade Terms as “Third-Party Vessel
+Interests.”36  The Agreement states that the “inability of Third-Party Vessel
+Interests to provide services to GOL or [Cox] shall not be a default by GOL,”
+but that to avoid default, GOL must  “supply the same or commercially
+equivalent fleet of vessels” that th e Third-Party Vessel Interest was to
+provide.37  There is no dispute as to th e Agreement’s requirement that GOL
+serve as an essential vendor, but the parties dispute the Agreement’s
+applicability and meaning vis-à-vis SEACOR.
+
+34  R. Doc. 46-3.  The parties agree on the sum received pursuant to the
+Trade Agreement but dispute whether it can be construed as payment
+towards SEACOR’s outstanding invoices.
+35  R. Doc. 46-3 at 1.
+36  Id.
+37  Id.
+Case 2:24-cv-02409-SSV-EJD     Document 65     Filed 09/16/25     Page 8 of 33
+9
+
+GOL continued to provide Cox vessel  services and later filed in the
+bankruptcy proceeding an application for allowance of an administrative
+expense claim for $6.2 million for post-petition materials and services.38
+On February 28, 2024, the Bankruptcy Court converted Cox’s Chapter
+11 proceedings to Chapter 7 proceedings 39 and appointed a Chapter 7
+Trustee.40  The Chapter 7 Trustee has since filed a case in the Eastern District
+of Louisiana, in which the Trustee a lleged that Cox was victim of “gross
+mismanagement and pillaging by insiders.”41
+
+38  Bankr. S.D. Tex. Case No. 23-90324, R. Doc. 2066.  The Court takes
+judicial notice of the existence of the filing but makes no
+determinations as to the accuracy of the contents within.  PNC Bank,
+2023 WL 3340078, at *4 (holding th at a “district court did not err in
+taking judicial notice” of bankruptcy  records as they “are matters of
+public record.”); In re SI Restructuring Inc., 480 F. App’x 327, 329 (5th
+Cir. 2012) (“[W]hile ‘a court may take judicial notice of a document
+filed in another court . . . to establish the fact of such litigation and
+related filings, a court cannot take judicial notice of the factual findings
+of another court.’” (quoting Taylor v. Charter Med. Corp. , 162 F.3d
+827, 830 (5th Cir. 1998))).
+39  Bankr. S.D. Tex. Case No. 23-90324, R. Doc. 1720.  The Court takes
+judicial notice of this record.  See PNC Bank, 2023 WL 3340078, at *4.
+40  Bankr. S.D. Tex. Case No. 23-90324.  The Court takes judicial notice of
+this record.  See PNC Bank, 2023 WL 3340078, at *4.
+41  E.D. La. Case No. 25-943, R. Doc. 1.  Documents filed in a court
+proceeding are public records.  See Harris v. Cty. of Orange, 682 F.3d
+1126, 1132 (9th Cir. 2012 ) (“[M]atters of public record . . . includ[e]
+documents on file in federal or state court.”); Mangiafico v.
+Blumenthal, 471 F.3d 391, 398 (2d Cir. 2006) (“[D]ocket sheets are
+public records. . . .”).  While the Cou rt does not take judicial notice of
+the conclusions within the complaint, the Court takes judicial notice of
+the complaint itself and the allegations within.  In re SI Restructuring
+Case 2:24-cv-02409-SSV-EJD     Document 65     Filed 09/16/25     Page 9 of 33
+10
+
+On October 4, 2024, SEACOR filed its complaint against GOL in this
+Court.42  SEACOR alleges that GOL breached its contractual and other duties
+owed to SEACOR.43  SEACOR claims that GOL breached its contractual duty
+to use “all reasonable efforts” to collect  charter hire, failed to pay SEACOR
+funds due to it based “on information and belief” that GOL was paid by Cox,
+and failed to provide an accounting.  SEACOR seeks a “full accounting” of
+GOL’s dealings with Cox as they relate to SEACOR and demands that GOL
+pay SEACOR the full amount of the outstanding invoices (approximately
+$2.7 million), as well as any other relief the Court finds appropriate.44
+GOL now moves for summary judgment.45  GOL argues that there has
+been no breach of the contract between GOL and SEACOR and that SEACOR
+lacks any rights to receive funds pa id to GOL under the Trade Agreement
+between Cox and GOL. 46  SEACOR opposes the motion, asserting that GOL
+breached its contractual an d fiduciary duties by fail ing to take appropriate
+steps to obtain payment from Cox and by failing to remit monies to SEACOR
+
+Inc., 480 F. App’x at 329 (“[W]hile ‘a court may take judicial notice of
+a document filed in another court . . . to establish the fact of such
+litigation and related filings, a cour t cannot take judicial notice of the
+factual findings of another court.’” (quoting Taylor, 162 F.3d at 830)).
+42  R. Doc. 1.
+43  Id. at 3-4.
+44  Id.
+45  R. Doc. 36.
+46  Id.
+Case 2:24-cv-02409-SSV-EJD     Document 65     Filed 09/16/25     Page 10 of 33
+11
+
+after GOL received payment from Cox in the bankruptcy proceeding.
+SEACOR also alleges that GOL still has not provided a full accounting, which
+SEACOR claims it is owed.47  SEACOR additionally moves the Court to grant
+summary judgment sua sponte in its favor under Rule 56(f). 48  The Court
+considers the parties’ arguments below.
+
+II. LEGAL STANDARD
+Summary judgment is warranted when  “the movant shows that there
+is no genuine dispute as to  any material fact and the movant is entitled to
+judgment as a matter of law.”  Fed. R. Civ. P. 56(a); see also Celotex Corp. v.
+Catrett, 477 U.S. 317, 322-23 (1986); Little v. Liquid Air Corp., 37 F.3d 1069,
+1075 (5th Cir. 1994) (en banc) (per curiam).  “When assessing whether a
+dispute to any material fact exists, [the Court] consider[s] all of the evidence
+in the record but refrain[s] from ma king credibility determinations or
+weighing the evidence.”  Delta & Pine Land Co. v. Nationwide Agribusiness
+Ins., 530 F.3d 395, 398-99 (5th Cir. 2008) (citing Reeves v. Sanderson
+Plumbing Prods., Inc. , 530 U.S. 133, 150 (2000); and Matsushita Elec.
+Indus. Co. v. Zenith Radio Corp. , 475 U.S. 574, 587 (1986)).  All reasonable
+
+47  R. Doc. 46.
+48  Id.
+Case 2:24-cv-02409-SSV-EJD     Document 65     Filed 09/16/25     Page 11 of 33
+12
+
+inferences are drawn in favor of th e nonmoving party, but “unsupported
+allegations or affidavits setting fort h ‘ultimate or conclusory facts and
+conclusions of law’ are insufficient to either support or defeat a motion for
+summary judgment.”  Galindo v. Precision Am. Corp. , 754 F.2d 1212, 1216
+(5th Cir. 1985) (quoting 10A Charles Alan Wright & Arthur R. Miller, Federal
+Practice and Procedure § 2738 (2d ed. 1983)); see also Little, 37 F.3d at 1075
+(noting that the moving party’s “bur den is not satisfied with ‘some
+metaphysical doubt as to the material facts,’ by ‘conclusory allegations,’ by
+‘unsubstantiated assertions,’ or by only a ‘scintilla’ of evidence” (citations
+omitted)).  “No genuine dispute of fact  exists if the record taken as a whole
+could not lead a rational trier of fact to find for the non-moving party.”  EEOC
+v. Simbaki, Ltd., 767 F.3d 475, 481 (5th Cir. 2014).
+ If the dispositive issue is one on  which the nonmoving party will bear
+the burden of proof at trial, the moving party may satisfy its burden by
+pointing out that the evidence in the record is insufficient with respect to an
+essential element of the nonmoving party’s claim.  See Celotex, 477 U.S. at
+325.  The burden then shifts to the nonmoving party, who must, by
+submitting or referring to evidence, set out specific facts showing that a
+genuine issue exists.  See id. at 324.  The nonmovan t may not rest upon the
+pleadings but must identify specific fa cts that establish a genuine issue for
+Case 2:24-cv-02409-SSV-EJD     Document 65     Filed 09/16/25     Page 12 of 33
+13
+
+resolution.  See, e.g., id.; Little, 37 F.3d at 1075 (“Rule 56 ‘mandates the entry
+of summary judgment, after adequate time for discovery and upon motion,
+against a party who fails to make a showing sufficient to establish the
+existence of an element essential to that party’s case, and on which that party
+will bear the burden of proof at trial.’” (quoting Celotex, 477 U.S. at 322)).
+ Additionally, under Federal Rule of Civil Procedure 56(f), a court may
+“grant summary judgment for a nonm ovant” after giving the nonmovant
+“notice and a reasonable time to respond.”  Summary judgment to a
+nonmovant is available when the party against whom summary judgment is
+granted is aware the legal issue is “at play and had a full opportunity to argue
+against it and present whatever evidence he had.”  Atkins v. Salazar , 677
+F.3d 667, 681 (5th Cir. 2016).
+ The Court notes that this matter is set for bench trial.  “[E]ven at the
+summary judgment stage, a judge in a be nch trial has the limited discretion
+to decide that the same evidence, presented to him or her as trier of fact in a
+plenary trial, could not possibly lead to a different result.”  Matter of Placid
+Oil Co., 932 F.2d 394, 398 (5th Cir. 1991).  This is because “it makes little
+sense to forbid the judge from drawing inferences from the evidence
+submitted on summary judgment when that same judge will act as the trier
+of fact.”  Id.
+Case 2:24-cv-02409-SSV-EJD     Document 65     Filed 09/16/25     Page 13 of 33
+14
+
+III. DISCUSSION
+A. Obligations Under the Brokerage Agreement
+In maritime cases, a plaintiff a lleging breach of contract must
+demonstrate the following elements: “‘ (1) contract; (2) breach of that
+contract; and (3) damages.’”  Mid-Gulf Shipping Co. In c. v. Energy Subsea
+LLC, 472 F. Supp. 3d 318, 324 (E.D. La. 2020) (Africk, J.) (quoting FEC
+Heliports, LLC v. Hornbeck Offshore Operators, LLC, No. 15-4827, 2016 WL
+5678557, at *5 (E.D. La. Oct. 3, 2016) (Feldman, J.)).
+A contract “‘governed by federal ma ritime [law] should be read as a
+whole and its words given their plai n meaning unless the provision is
+ambiguous.’”  LLOG Exploration Co. v. Signet Maritime Corp., 673 F. App'x
+422, 425 (5th Cir. 2016) (quoting Weathersby v. Conoco Oil Co. , 752 F.2d
+953, 955 (5th Cir. 1984)).  “‘Disagreem ent as to the meaning of a contract
+does not make it ambiguous, nor does uncertainty or lack of clarity in the
+language chosen by the parties.’”  Breaux v. Halliburton Energy Servs., 562
+F.3d 358, 364 (5th Cir. 2009) (quoting Weir v. Fed. Asset Disposition Ass'n,
+123 F.3d 281, 286 (5th Cir. 1997)).  “Where ‘the written instrument is so
+worded that it can be given a certain definite legal meaning or interpretation,
+t h e n  i t  i s  n o t  a m b i g u o u s ,  a n d  [ t h e  c ourt] will construe the contract as a
+matter of law.’” Breaux, 562 F.3d at 364 (quoting Weir, 123 F.3d at 286).
+Case 2:24-cv-02409-SSV-EJD     Document 65     Filed 09/16/25     Page 14 of 33
+15
+
+1. Payment of charter invoices
+The Court finds that the Brokerage Agreement is unambiguous.  The
+Brokerage Agreement expressly states that “[b]roker [GOL] will remit net
+charter hire . . . to Operator [SEACOR] within fifteen (15) business days after
+receipt of such charter hire from the Charterer.” 49  T he next  cla u se of t he
+Agreement provides that “under no circumstances” will GOL be responsible
+for a Charterer’s “non-payment of charter hire.”50  It is undisputed that the
+Brokerage Agreement has a pay-if-paid clause, 51 which is a suspensive
+condition.  Cf. Material Handling Tech., Inc. v. Southland Process Grp. LLC,
+2020 WL 1042236 at *4 (citing Tymless Flooring, Inc. v. Rotolo Consultants,
+Inc., 172 So. 3d 145, 146 (La. App. 4 Cir. 5/20/15)).  If GOL has not been paid,
+then its obligation to pay SE ACOR has not been triggered.  See id.  at *6.
+Whether, therefore, GOL owes SEACOR  payments for the Cox charter hires
+depends on whether GOL has received payment on SEACOR’s invoices.
+SEACOR claims that GOL has b een paid because GOL collected
+approximately $13 million as part of the Trade Agreement it entered with
+Cox in Cox’s Chapter 11 bankruptcy.  GOL contends that it was not paid on
+SEACOR’s invoices.  It argues that the payment was for agreeing to provide
+
+49  R. Doc. 36-2 at 2.
+50  Id.
+51  R. Doc. 46-1 at ¶ 5.
+Case 2:24-cv-02409-SSV-EJD     Document 65     Filed 09/16/25     Page 15 of 33
+16
+
+post-petition essential services, and that SEACOR is not entitled to payment
+because it is not an essential ve ndor under the Trade Agreement and
+Bankruptcy Order.
+The Trade Agreement does not list sp ecific invoices to which the $13
+million corresponds; it states simply that Cox’s $13 million payment is
+“towards GOL’s [p]repetition [c]laim.”52  The record lacks any evidence that
+funds received from Cox were to be allocated to SEACOR’s invoices.  And
+there is no evidence that the $13 million was to apply pro rata to all invoices
+comprising the estimated $24.8 million pr epetition claim.  Accordingly, the
+Court finds that GOL has not been “p aid” SEACOR’s invoices.  As the
+Brokerage Agreement obliges GOL to re mit funds only once paid, GOL has
+not breached its contractual duty to pay SEACOR.
+Further, SEACOR is not entitled to  any portion of the $13 million
+because it does not meet the requirements outlined by the Trade Agreement
+and the Bankruptcy Order, which au thorized payments of prepetition
+obligations “in the amounts, categories, and manners described in [Debtor’s]
+motion.”53  To avoid this conclusion, SEAC OR largely avoids the context of
+the Trade Agreement.  SEACOR instea d points to the Trade Agreement’s
+
+52  R. Doc. 46-3, Exhibit 2 at 1.
+53  R. Doc. 36-2, Exhibit F at 2.
+Case 2:24-cv-02409-SSV-EJD     Document 65     Filed 09/16/25     Page 16 of 33
+17
+
+general hierarchy for disbursement, which lists “amount[s] secured by a lien”
+as receiving second priority. 54  While the Agreemen t does contain this
+hierarchy, and SEACOR’s invoices do fall into this second category, the
+hierarchy must be understood in the context of the whole Agreement and its
+purposes.  The Court looks to the complete Trade Agreement and the
+Bankruptcy Order, which is expressly referred to in the Trade Agreement and
+a copy of which was enclosed with the Trade Agreement, to determine
+whether SEACOR’s invoices were to be paid from the $13 million under the
+Trade Agreement.  Cf. Bloom v. Hearst Entm’t, Inc., 33 F.3d 518, 522 (5th
+Cir. 1994) (A term is not ambiguous unless “it is susceptible to more than one
+meaning when viewed objectively by a reasonably intelligent person who has
+examined the context of the entire integrated agreement  and who is
+cognizant of the customs, practices, usages, and terminology as generally
+understood in the particular trade or  business.” (emphasis added) (quoting
+Walk-In Medical Centers, Inc.  v. Breuer Capital Corp. , 818 F.2d 260, 263
+(2nd Cir. 1987))).
+The Trade Agreement states that Cox  has received authorization from
+the Bankruptcy Court to, under certain conditions, pay prepetition claims for
+essential vendors that agreed to be bound by the terms of the Bankruptcy
+
+54  Id. at 2.
+Case 2:24-cv-02409-SSV-EJD     Document 65     Filed 09/16/25     Page 17 of 33
+18
+
+Order and the terms of  the Trade Agreement.55  The Bankruptcy Order that
+provided this authorization enabled Cox “to pay accrued and outstanding
+prepetition . . . [o]bligations” to partie s that agree to continue to provide to
+Cox “Customary Trade Terms.” 56  The Trade Agreement states the same
+requirement.  Additionally, the Trade Agreement, recognizing GOL’s status
+as a vessel broker, authorized GOL to engage vessel companies that had
+provided prepetition services to Cox and agreed to “ continue providing
+vessels and/or services based on Customary Trade Te rms” (emphasis
+added).  The Agreement labeled these entities “Third Party Vessel Interests.”
+Thus, the Agreement contemplated that  GOL would continue to act as a
+vessel broker, and those Third Party Vessel Interests would participate under
+the Agreement and its conditions.
+Moreover, the Trade Agreement, Ba nkruptcy Order, and underlying
+Motion all make clear that the ai m of paying prepetition claims pre-
+confirmation was to help Cox successfu lly reorganize.  This goal would be
+achievable only if the money that Cox was authorized to disburse was to
+entities that continued to provide,  under Customary Trade Terms, the
+essential goods and services explicitly mentioned in the Bankruptcy Motion
+
+55  R. Doc. 46-3, Exhibit 2 at 1.
+56  R. Doc. 32-2, Exhibit F at 2.
+Case 2:24-cv-02409-SSV-EJD     Document 65     Filed 09/16/25     Page 18 of 33
+19
+
+which was adopted in the Bankruptcy Order.  Indeed, such constrained
+distributions were all that the Bank ruptcy Motion contemplated and the
+Bankruptcy Order subsequently authorize d.  And this is all that is allowed
+under bankruptcy code, which ordi narily does not allow for the pre-
+confirmation payment of pre-petition debts.  In re Roman Catholic Church
+of Archdiocese of New Orleans , 2022 WL 4005570 at *6 (Bankr. E.D. La.
+Aug. 31, 2022) (“A chapter 11 debtor generally may not make any payments
+or other distributions on account of  prepetition claims except through a
+confirmation plan of reorganization  or court authorized liquidation.”
+(quoting In re Pioneer Health Servs. , 570 B.R. 228, 232 (Bankr. S.D. Miss.
+2017) (internal quotations omitted))); In re Sticky’s Holdings LLC, No. 24-
+10856 (JKS), 2025 WL 1571906, at *10 n. 93 (Bankr. D. Del. June 3, 2025)
+(“Generally, absent court order, a chapter 11 debtor cannot make payments
+on account of prepetition claims excep t through a plan.” (citing 11 U.S.C. §
+1129(b)(1))).  Thus, vendors/suppliers had to agree to continue providing
+Cox with essential services under Cu stomary Trade Terms to receive any
+payment towards their prepetition claims.
+SEACOR argues that those agreemen ts bind GOL’s future obligations
+to Cox but do not prohibit GOL from paying invoices to parties like SEACOR,
+which are not continuing to provide Cox with services under “Customary
+Case 2:24-cv-02409-SSV-EJD     Document 65     Filed 09/16/25     Page 19 of 33
+20
+
+Trade Terms.”  GOL argues that the agreements do not contemplate any
+payments to entities that do not serv e as essential vendors.  Further, GOL
+argues, and SEACOR does not contest, that SEACOR is not serving as an
+essential vendor.
+The evidence in the record shows that SEACOR had stopped providing
+services to Cox months before Cox filed for bankruptcy. 57  Indeed, Jesus
+Llorca, SEACOR’s Executive Vice President and CFO, admitted that by the
+end of 2022 SEACOR was wary of continuing to provide Cox services as Cox
+was slow to pay, had already accumulated a large receivable, and there were
+rumors of Cox’s precarious financial position.58  The 30(b)(6) deposition of
+Mr. Llorca confirms this.  The deposition transcript reads:
+Q.  Okay.
+A.  So we were, I think, all of us, collectively, very wary as to how much
+additional credit we were willing to extend to Cox.
+Q.  Okay.
+A.  Right.  Now, I mean, again, we had no visibility and nothing had
+been filed.  But the rumors of Cox, like being in — in not the best
+financial position were — we re on the street, right.
+Q.  Okay.  And so that was some thing that SEACOR would’ve been
+aware of in — by the end of 2022?
+A.  I mean, generally speaking, they  were — they were not the best
+payers, right.  So by the end of 2022, we would have become
+increasingly concerned.
+Q.  All right.  And is that why SEACOR pulled its vessels and stopped
+providing vessels in December of 2022?
+
+57  R. Doc. 48-1, Exhibit A at 6-8.
+58  See id.
+Case 2:24-cv-02409-SSV-EJD     Document 65     Filed 09/16/25     Page 20 of 33
+21
+
+A.  I don’t think it’s fair to say th at we pulled the vessels.  We just
+finished the jobs and did not provide additional vessels.
+Q.  Okay.
+A.  Right.  Because why would you — you know, we decided not to
+extend additional credit on commercial terms to Cox in the regular
+practice, you know.
+. . .
+Q.  So the reason why, in the beginning of 2023 up until the time they
+filed for bankruptcy, y’all decided not to continue providing services is
+because you were not go[ing] [to] be  able to continue to extend Cox
+credit?
+A.  We, we had — we had already accumulated a fairly large receivable
+for a customer of that size.  And with the payment history they had with
+us and the rumors that were on the street, so we were wary.
+Q.  Right.  And so by January of 2023 y’all were not willing to continue
+to provide additional vessel services to Cox?
+A.  On commercial terms.59
+
+Further, SEACOR’s proof of claim adde ndum states that SEACOR stopped
+working for Cox in December 2022 because of non-payment. 60  The Court
+finds that the record demonstrates that SEACOR did not serve as an essential
+vendor.
+SEACOR was therefore not entitled  to money disbursed under the
+Bankruptcy Order and Trade Agreement, which allows only for limited
+payments on prepetition invoices to enable Cox’s continued operation during
+the bankruptcy proceedings.  As SE ACOR did not continue to provide
+
+59  Id.
+60  R. Doc. 36-2, Exhibit B at 10.
+Case 2:24-cv-02409-SSV-EJD     Document 65     Filed 09/16/25     Page 21 of 33
+22
+
+essential services to Cox post-petition,  it was not entitled to receive pre-
+confirmation payment towards outstanding invoices.
+Furthermore, to the extent that the Trade Agreement does not
+explicitly state that GOL can apply the $13 million only to prepetition claims
+held by entities who agreed to contin ue to provide essential services at
+customary rates, the Agreement’s aims, and the context of the Bankruptcy
+Order and Chapter 11 conf irm this understanding.  SEACOR’s proposed
+interpretation, under which GOL coul d pay the entire $13 million to
+prepetition claims of parties that did not agree to continue to provide
+essential services at prepetition rates, would defeat the purpose of the
+Agreement.  The Agreement, the Bankruptcy Order, and the Motion it was
+based on, were all designed to give Co x the best opportunity to successfully
+reorganize, a key goal of Chapter 11.61  See e.g., In re Ionosphere Clubs, Inc.,
+98 B.R. 174, 176 (Bankr. S.D. N.Y. 1989) (“[T]he paramount policy and goal
+of Chapter 11, to which all other bankruptcy policies are subordinated, is the
+rehabilitation of the debtor.”).  To find that the Trade Agreement did not
+impose limitations in line with this aim would be illogical.
+
+61  The Court looks to Chapter 11 to in form the Agreement as it essential
+to the context in which the Agreement was crafted.  Cf. Bloom, 33 F.3d
+at 522.
+Case 2:24-cv-02409-SSV-EJD     Document 65     Filed 09/16/25     Page 22 of 33
+23
+
+This is true because the purpose of allowing prepetition payments is to
+induce parties to continue providing essential services to Cox during the
+bankruptcy proceedings and prior to confirmation of a plan of
+reorganization.  See e.g., 4 Norton Bankr. L. & Prac. 3d § 95:1 (July 2025)
+(“To successfully reorganize, in many cases, it will be necessary for the debtor
+to pay the prepetition claims of cert ain creditors, such as employees or
+suppliers prior to confirmation of a plan because of their importance to
+continued operations.”).  The debtor’s motion applied to entities that were
+providing essential services at the time it filed its bankruptcy petition so that
+they would not discontinue those services. 62  It did not apply to entities like
+SEACOR that stopped providing serv ices to Cox months before the
+bankruptcy petition was filed.  Thus, the Trade Agreement authorized GOL
+to meet its obligations as an essential vendor by continuing to broker vessels
+owned and operated by Third-Party Ve ssel Interests, defined in the Trade
+Agreement as “third-party vessel ow ners and operators who agree to
+continue providing vessels and/or serv ices based on Customary Trade
+Terms.”  (emphasis added).  GOL likely could not entice parties to be Third-
+
+62  Bankr. S.D. Tex. Case No. 23-90324, R. Doc. 15 at 5.  (“[T]he Debtors
+believe that a failure to pay at least a portion of the prepetition amount
+due with respect to the Essential Ve ndor Activities . . . would likely
+result in the cessation of Essential Vendor Activities.”)
+Case 2:24-cv-02409-SSV-EJD     Document 65     Filed 09/16/25     Page 23 of 33
+24
+
+Party Vessel Interests and continue dealing with a company in bankruptcy at
+terms the company did not honor before  seeking bankruptcy relief, if GOL
+did not utilize the funds received to pay their prepetition invoices as an
+inducement to do so.  Thus, the payment that GOL received was disbursable
+only to entities that, like GOL, commit ted to continue to provide Cox with
+essential post-petition services unde r Customary Trade Terms.  SEACOR
+was not such a company.  GOL therefor e did not have the discretion to use
+the money it received from Cox to pay SEACOR’s invoices either in whole or
+in part.
+Even if the Trade Agreement and Bankruptcy Order did not foreclose
+GOL from paying SEACOR part of the $13 million it received, SEACOR has
+not pointed to any evidence that GOL was required to pay SEACOR’s
+invoices.  SEACOR argues that it would have been paid had GOL engaged in
+a first-in-first-out priority system  for paying outsta nding prepetition
+i n v o i c e s .   H o w e v e r ,  S E A C O R  p o i n t s  t o  n o  e v i d e n c e  t h a t  t h i s  s y s t e m  w a s
+mandated.  SEACOR simply asserts that it is a “r easonable” system, under
+which SEACOR would have received payment for nearly all of its outstanding
+prepetition invoices.  That it may be a “reasonable” method does not mean it
+was required.  GOL’s stated reason for not paying SEACOR, that SEACOR
+was not acting as a Third Party Ve ssel Interest/essential vendor, is
+Case 2:24-cv-02409-SSV-EJD     Document 65     Filed 09/16/25     Page 24 of 33
+25
+
+reasonable as well.  Indeed, for th e reasons described in the preceding
+paragraphs, the most reasonable (if not the mandated) way for GOL to use
+the funds it received, was to pay prepetition claims to entities that agreed to
+continue providing essential servic es on Customary Trade Terms post-
+petition, not entities like SEACOR that had already stopped providing Cox
+services.  Thus, even if GOL were not foreclosed from paying SEACOR under
+the Trade Agreement, SEACOR has failed to show that GOL was required to
+pay SEACOR or that it was unreasonable in failing to do so.
+For all the foregoing reasons, GOL has not breached its contractual
+duty to remit SEACOR invoices within 15 days of receipt.  The Court therefore
+must grant GOL’s motion for summ ary judgment and deny summary
+judgment for SEACOR on this claim.
+2. Accusations of “self-dealing” in fund distribution
+SEACOR argues that GOL engaged in  “self-dealing” by distributing
+funds primarily to companies wholly  owned by GOL’s owners.  But any
+improper allocation of funds under the Trade Agreement is something the
+debtor, and now the Chapter 7 trustee,  can complain about, not SEACOR,
+who is not a party to the Agreement or  entitled to funds under it.  The
+available redress would be for the payment to be deemed as applying to post-
+Case 2:24-cv-02409-SSV-EJD     Document 65     Filed 09/16/25     Page 25 of 33
+26
+
+petition services that GOL has since pr ovided Cox or treated as a voidable
+preference.63  The money would not be reallocated to SEACOR.
+To the extent that SEACOR argues that GOL’s actions violate fiduciary
+duties owed under agency law, this too fails.
+“Agency is a legal relationship created by an express or implied
+agreement or by operation of law whereb y the agent is authorized to act for
+the principal, subject to the principal’s control.”  Karl Rove & Co. v.
+Thornburgh, 39 F.3d 1273, 1296 (5th Cir. 1 994).  Agency is never presumed
+and must be proven affirmatively.  Id.  The party who asserts the existence of
+an agency relationship must show that: (1) the principal indicated the agent
+was acting for it, (2) the agent acted or agreed to act on the principal’s behalf,
+and (3) the agent was subject to the principal’s control.  Aetna Ins. Co. v.
+Glens Falls Ins. Co. , 453 F.2d 687, 690-91 (5th Cir. 1972).  Further,
+“maritime law embraces the principles of agency.”  West India Indus., Inc. v.
+Vance & Sons AMC-Jeep , 671 F.2d 1384, 1387 (5th Cir. 1982) (citing Kirno
+Hill Corp. v. Holt, 618 F.2d 982, 985 (2d Cir. 1980)).
+SEACOR argues that GOL served as  SEACOR’s agent for the purpose
+of obtaining vessel charters.  SEACOR points to the Brokerage Agreement for
+support.  That agreemen t states: “Operator [SEACOR] hereby appoints
+
+63  See R. Doc. 46-2, Exhibit 2 at 3.  Cf. R. Doc. 36-2, Exhibit F.
+Case 2:24-cv-02409-SSV-EJD     Document 65     Filed 09/16/25     Page 26 of 33
+27
+
+Broker [GOL] as Operator’s agent solely for the purpose of obtaining charters
+for Operator’s vessels.”64  The agreement continues:
+At such time as Broker obtains a proposed charter for a vessel, Broker
+shall provide to Operator all necessary information it receives from the
+prospective Charterer, and Operator sh all have the right to accept or
+reject the charter so offered . . . .
+If Operator orally agrees to accept a job offered by Broker, Broker is
+hereby authorized by Operator to sign, as agent on behalf of Operator,
+a Charter . . . . In no event is Broker  authorized to sign on behalf of
+Operator, a Charter . . . without prior written communication with
+Operator. . . .65
+
+This language establishes that GOL was SEACOR’s agent in its capacity as
+procurer of charter hires for SEACOR’s vessels.  This agency relationship was
+limited and non-exclusive.  The Brok erage Agreement stated that GOL was
+not SEACOR’s exclusive broker, did not provide that GOL could not act as a
+broker for other vessel owners, and stated that GOL was also in the business
+of providing vessels.
+The Fifth Circuit looks to the Restat ement of Agency for guidance on
+general agency law.  Port Ship Serv., Inc. v. In t’l Ship Mgmt. & Agencies
+Serv., Inc., 800 F.2d 1418, 1420 (5th Cir. 1986) (citing Lubbock Feed Lots,
+Inc. v. Iowa Beef Processors, 630 F.2d 250, 275-76 (5th Cir. 1980)); see also
+Huntsman, LLC v. Blessey Marine Service, Inc. , 2016 WL 1031330, at *4
+
+64  R. Doc. 36-2, Exhibit A at 1.
+65  Id.
+Case 2:24-cv-02409-SSV-EJD     Document 65     Filed 09/16/25     Page 27 of 33
+28
+
+(E.D. La. Mar. 15, 2016) (Barbier, J.) (applying the Restatement (Third) of
+Agency to a maritime case); Constance Joy II, LLC v. Stewart & Stevenson
+FDDA LLC, 2024 WL 4008094, at *5 (S.D. Tex. Aug. 30, 2024) (Tipton, J.)
+(same).  The Restatement (T hird) of Agency states th at fiduciary obligation
+“is not monolithic in its operation.  In particular, an agent’s fiduciary duties
+to the principal vary depending on th e parties’ agreement and the scope of
+the parties’ relationship.”  § 8.01 (2006).
+GOL was SEACOR’s agent only for the limited purpose of obtaining
+charter hire and was obliged only to remit payments actually received.  GOL’s
+fiduciary duties are thus similarly limited.  See Restatement (Third) of
+Agency § 8.01 (2006).  For the reason s stated above, GOL has not received
+payments on SEACOR’s invoices, nor received payments that should have
+been disbursed to SEACOR under the Trade Agreement.
+While GOL may have favored its sist er companies in its use of the
+partial payment it did re ceive, SEACOR cannot challenge GOL’s actions
+under a theory that it had a fiduciary duty to SEACOR over money to which
+SEACOR was not entitled.  To allow such a claim would require expanding
+the fiduciary obligation beyond the agreement and scope of the parties’
+relationship.
+Case 2:24-cv-02409-SSV-EJD     Document 65     Filed 09/16/25     Page 28 of 33
+29
+
+The Court therefore must grant GO L’s motion for summary judgment
+and deny summary judgment for SEACOR on this claim.
+3. Efforts to collect charter invoices
+The Brokerage Agreement states that “[b]roker [GOL] will use
+reasonable efforts to obtain from the Charterer provisions for payment
+within a reasonable time” and that “[b]roker [GOL] agrees to undertake all
+reasonable efforts to collect ch arter hire from the Charterer.” 66  I t
+additionally states that “[u]nder no circumstances shall [GOL] be
+responsible to [Cox] for the Chartere r’s non-payment of charter hire,” 67 a
+provision SEACOR ignores.  The Agreement itself does not provide guidance
+on what efforts would be deemed “a ll reasonable” ones.  When the word
+reasonable modifies other terms in the contract, as it does here with “efforts,”
+the Fifth Circuit has held that “it is used . . . to designate that specific [efforts]
+. . . that would be thought satisfactory to the offeror by a reasonable man in
+the position of the offeree.”  Ergon-W. Virginia, Inc. v. Dynegy Mktg. &
+Trade, 706 F.3d 419, 425 (5th  Cir. 2013) (cleaned up).  This determination
+requires consideration of “the circumstances of the case, including the nature
+
+66  R. Doc. 36-2, Exhibit A at 2.
+67  Id.
+Case 2:24-cv-02409-SSV-EJD     Document 65     Filed 09/16/25     Page 29 of 33
+30
+
+of the proposed contract, the purposes of the parties, the course of dealing
+between them, and any relevant usages of trade.”  Id. (cleaned up).
+GOL argues that it made all reasonable efforts to collect on SEACOR’s
+invoices.  The Brokerage Agreement did not specify a date by which GOL was
+required to obtain “provisions for payment” from Cox.  The Court thus looks
+to the actions that GOL took to determine if it met its obligation.  Before Cox
+filed for bankruptcy relief, GOL empl oyees sought payment from Cox of
+unpaid invoices68 and filed liens on SEACOR’s behalf.69  GOL also points to
+its continued efforts to collect for SE ACOR after Cox filed for bankruptcy
+relief.  Once Cox filed for bankruptcy relief, GOL preserved those liens in the
+Cox bankruptcy proceeding.70
+SEACOR does not contest that GO L took these steps.  Instead,
+SEACOR argues that there were additional steps that GOL could have taken.
+Importantly, however, SEACOR identifies  no specific steps GOL could have
+taken or what would constitute “all re asonable efforts.”  SEACOR does not
+even allege or argue that GOL failed  to use “all reasonable efforts” post-
+bankruptcy.  Instead, SEACOR argues th at “there were significant other”
+unspecified steps that GOL could have  taken pre-bankruptcy and that GOL
+
+68  R. Doc. 48-1, Exhibit C at 24-27.
+69  R. Doc. 36-2, Exhibit B.
+70  Id., Exhibit C.
+Case 2:24-cv-02409-SSV-EJD     Document 65     Filed 09/16/25     Page 30 of 33
+31
+
+failed to remit payment on SEACOR’s  invoices that it recovered post-
+bankruptcy.  SEACOR does not argue that  GOL should have invited it to be
+a Third Party Vessel Interest, and even if it made such an argument the Court
+finds that such a step was not required under the circumstances to satisfy the
+obligation to make “all reasonable efforts.”  “All reasonable efforts” does not
+mean all efforts, or efforts that were not a reasonable business decision.  GOL
+had no obligation to ask a vessel pr ovider that had stopped providing Cox
+services months before Cox filed fo r bankruptcy if it would consider
+restarting services for Cox.  Moreover, SEACOR has pointed to no evidence
+that it would have agreed to do so if asked.  Instead, SEACOR argues it was
+not required to be a Third Party Vessel  Interest to be entitled to payment
+from GOL under the Trade Agreement.
+SEACOR has not rebutted any of the facts put forth by GOL regarding
+the sufficiency of its collection efforts.  SEACOR has pointed to no additional
+action that GOL could have taken to collect on SEACOR’s invoices and has
+provided no industry standard that GOL has failed to meet.  The Court
+therefore finds that SEACOR has failed to raise an issue of material fact that
+GOL did not use “all reasonable efforts.”
+The Court grants GOL’s motion for summary judgment and denies
+summary judgment for SEACOR on this claim.
+Case 2:24-cv-02409-SSV-EJD     Document 65     Filed 09/16/25     Page 31 of 33
+32
+
+B. Fiduciary Duty to Account
+The Fifth Circuit looks to the Restat ement of Agency for guidance on
+general agency law.  Port Ship Serv., Inc., 800 F.2d 1418, 1420 (5th Cir. 1986)
+(citing Lubbock Feed Lots, Inc. v. Iowa Beef Processors, 630 F.2d 250, 275-
+76 (5th Cir. 1980)).  The Restatement (Third) of Agency provides: “An agent
+has a duty, subject to any agreement wi th the principal, . . . to keep and
+render accounts to the principal of money or other property received or paid
+out on the principal’s account.”  § 8.12 (2006).  Given the relationship
+between the parties, the Court finds that any accounting duty that GOL owes
+SEACOR is limited in scope to payments received or earmarked for SEACOR.
+As explained more fully above, the $13 million that Cox paid GOL
+during the Chapter 11 ba nkruptcy does not constitute payments on
+SEACOR’s invoices.  SEACOR was not a party to the Trad e Agreement that
+allowed for the $13 million payment, none of the $13 million was earmarked
+for SEACOR’s invoices, and SEACOR, as a non-essential vendor, was not
+eligible to be paid on prepetition cl aims.  GOL therefore owes SEACOR no
+accounting duty on this money.
+The Court grants GOL’s motion for summary judgment and denies
+summary judgment for SEACOR on this claim.
+
+Case 2:24-cv-02409-SSV-EJD     Document 65     Filed 09/16/25     Page 32 of 33
+33
+IV. CONCLUSION
+For the foregoing reasons, the Cou rt GRANTS defendant’s motion for
+summary judgment and DENIES plaintiff’s request for summary judgment
+in its favor.
+New Orleans, Louisiana, this _____ day of September, 2025.
+_____________________
+SARAH S. VANCE
+UNITED STATES DISTRICT JUDGE
+16th
+Case 2:24-cv-02409-SSV-EJD     Document 65     Filed 09/16/25     Page 33 of 33

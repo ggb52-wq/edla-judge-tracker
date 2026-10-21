@@ -1,0 +1,835 @@
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+ANKOR ENERGY, LLC ET AL.
+
+ CIVIL ACTION
+VERSUS
+
+ NO. 24-1953
+MERIT MANAGEMENT PARTNERS
+I, L.P. ET AL.
+
+ SECTION “R” (3)
+
+ORDER AND REASONS
+
+ Before the Court is the motion of defendants  Merit Management
+Partners I, L.P., Merit Energy Partners III, L.P., and Merit Energy Partners
+D-III, L.P. (collectively Merit) for summary judgment  on plaintiffs’ claims
+for decommissioning expenses;1 the motion of plaintiffs Ankor Energy, LLC
+and ANKOR E&P Holdings Corporation’s (collectively ANKOR) for partial
+summary judgment on defendants’ liability for decommissioning expenses;2
+and ANKOR’s motion for partial summary judgment on quantum of
+decommissioning expenses.3  Each motion is opposed.4  The Court grants in
+part and denies in part ANKOR’s  motion for partial summary judgment on
+liability, grants ANKOR’s motion for partial summary judgment on quantum
+
+1  R. Doc. 27.
+2  R. Doc. 32.
+3  R. Doc. 35.
+4  R. Docs. 40, 38, 39.
+Case 2:24-cv-01953-SSV-EJD     Document 47     Filed 11/21/25     Page 1 of 33
+2
+
+of decommissioning expenses, and denies Merit’s motion for summary
+judgment.
+
+I. BACKGROUND
+The Court has reviewed the record and determines the undisputed
+facts are as follows.  This suit arises from the decommissioning of two federal
+offshore oil and gas leases: South Pelto 8 (OCS F03587) and South Pelto 13
+(OCS G03171).5  Both leases are in  the Gulf of Mexico on the Outer
+Continental Shelf, adjacent to Louisiana.6  The operations on the South Pelto
+8 lease were conducted under the Operating Agreement Block 8, South Pelto
+Area Offshore Louisiana, dated August 1, 1977 (the “PL 8 OA”).7  The
+operations on the South Pelto 13 lease were conducted under the Operating
+Agreement Block 13, South Pelto Area Offshore Louisiana, dated July 1, 1975
+(the “PL 13 OA”).8
+In 2002, Merit acquired record title and operating rights interests in
+the South Pelto 8 and South Pelto 13 leases.9  Merit later assigned its interests
+in the Leases to Black Elk  Energy Offshore Operations, LLC (“Black Elk”) ,
+
+5  R. Doc. 27-2 at ¶ 1; R. Doc. 40-2 at ¶ 1.
+6  R. Doc. 27-2 at ¶ 2; R. Doc. 40-2 at ¶ 2.
+7  R. Doc. 27-2 at ¶ 4; R. Doc. 40-2 at ¶ 4.
+8  R. Doc. 27-2 at ¶ 5; R. Doc. 40-2 at ¶ 5.
+9  R. Doc. 27-2 at ¶ 3; R. Doc. 40-2 at ¶ 3.
+Case 2:24-cv-01953-SSV-EJD     Document 47     Filed 11/21/25     Page 2 of 33
+3
+
+effective on January 1, 2011. 10  Black Elk later assigned its interests in the
+Leases to Northstar Offshore Group, LLC (“Northstar”) , effective as of
+December 31, 2014 .11  Black Elk and Northstar have since filed for
+bankruptcy.12
+On October 1, 2011 , ANKOR E&P Holdings Corporation (“AEPH”)
+acquired its interests in the Leases. 13  ANKOR Energy LLC (“ANKOR
+Energy”), which was not a working interest owner in the Leases, later became
+the operator of the Leases.14  The Leases terminated in 2018.15  As part of its
+responsibilities as Operator, ANKOR  Energy performed decommissioning
+operations.16  In connection with the decommissioning efforts, ANKOR
+incurred over $7 million in decommissioning expenses.17  Both Black Elk and
+Northstar failed to pay for the share of decommissioning expenses
+attributable to their interest in the Leases.18
+On December 3, 2021, Brandt Prat, a land manager for ANKOR
+Energy, sent Christopher Hagge at Merit a letter by email and overnight
+
+10  R. Doc. 1 at ¶ 6; R. Doc. 24 at ¶ 6.
+11  Id.
+12  R. Doc. 1 at ¶ 7; R. Doc. 24 at ¶ 7.
+13  R. Doc. 27-2 at ¶ 8; R. Doc. 40-2 at ¶ 8.
+14  R. Doc. 27-2 at ¶ 8; R. Doc. 40-2 at ¶ 8.
+15  R. Doc. 32-5 at ¶ 10.
+16  Id.
+17  Id.
+18  Id. at 12.
+Case 2:24-cv-01953-SSV-EJD     Document 47     Filed 11/21/25     Page 3 of 33
+4
+
+mail.19  The letter stated that ANKOR undertook the decommissioning
+obligations for the South Pelto 8 and South Pelto 13 Leases; that, due to their
+insolvency, Northstar and Black Elk, have not contributed; and that ANKOR
+sought contribution from Merit, as predecessor in interest.20  The letter also
+included the Authorizations for Expenditures (“AFEs”) associated with
+completing the decommissioning operations, and previous correspondence
+from ANKOR to Merit  from December 12, 2018 transmitting  AFEs for
+abandonment operations on the leases .21  On July 11, 2022, Myoung Joon
+Kim, ANKOR Energy CFO , wrote Christopher Hagge at Merit  that ANKOR
+had completed the decommissioning operations on the South Pelto 8 and 13
+Leases and asserted that Merit was obligated to pay its proportionate share.22
+The correspondence attached i nvoices setting forth the costs of the
+operations.23  The invoices calculated the Merit entities ’ share of costs as
+$3,052,559.12,24 with Merit Energy Partners D -III, L.P. responsible for
+
+19  R. Doc. 32-8.
+20  Id.
+21  Id.
+22  R. Doc. 32-9.
+23  Id.
+24  R. Doc. 35-9 at 3.
+Case 2:24-cv-01953-SSV-EJD     Document 47     Filed 11/21/25     Page 4 of 33
+5
+
+$106,839.71,25 Merit Energy Partners III, L.P. responsible for $76,314.35, 26
+and Merit Management Partners I, L.P. responsible for $2,869,405.06.27
+On August 6, 2024, ANKOR sued Merit  in this Court seeking
+contribution for decommissioning expenses.28  ANKOR claims that Merit, as
+predecessor-in-interest to Northstar and Black Elk , remains liable for the
+share of  decommissioning expenses  attributable to the Northstar/Black
+Elk/Merit interests.29  Merit now moves for summary judgment arguing that
+it is not liable for the expenses, as it assigned its interests to Black Elk, which
+later assigned those interests to Northstar. 30  ANKOR oppose s31 Merit’s
+motion and seeks partial summary judgment on (1) Merit’s liability for
+decommissioning expenses; 32 and (2) the quantum of decommissioning
+expenses.33  Merit opposes both ANKOR motions.34
+The Court considers the motions below.
+
+25  Id. at 4, 7.
+26  Id. at 5, 9.
+27  Id. at 6, 8.
+28  R. Doc. 1.
+29  See generally id.
+30  R. Doc. 27.
+31  R. Doc. 40.
+32  R. Doc. 32.
+33  R. Doc. 35.
+34  R. Docs. 38, 39.
+Case 2:24-cv-01953-SSV-EJD     Document 47     Filed 11/21/25     Page 5 of 33
+6
+
+II. LEGAL STANDARD
+Summary judgment is warranted when “the movant shows that there
+is no genuine dispute as to any material fact and the movant is entitled to
+judgment as a matter of law.”  Fed. R. Civ. P. 56(a); see also Celotex Corp. v.
+Catrett, 477 U.S. 317, 322-23 (1986); Little v. Liquid Air Corp., 37 F.3d 1069,
+1075 (5th Cir. 1994) (en banc) (per curiam).  “When assessing whether a
+dispute to any material fact exists, [the Court] consider[s] all of the evidence
+in the record but refrain[s] from making credibility determinations or
+weighing the evidence.”  Delta & Pine Land Co. v. Nationwide Agribusiness
+Ins., 530 F.3d 395, 398 -99 (5th Cir. 2008) (citing Reeves v. Sanderson
+Plumbing Prods., Inc. , 530 U.S. 133, 150 (2000); and Matsushita Elec.
+Indus. Co. v. Zenith Radio Corp., 475 U.S. 574, 587 (1986)).  All reasonable
+inferences are drawn in favor of the nonmoving party, but “unsupported
+allegations or affidavits setting forth ‘ultimate or conclusory facts and
+conclusions of law’ are insufficient to either support or defea t a motion for
+summary judgment.”  Galindo v. Precision Am. Corp. , 754 F.2d 1212, 1216
+(5th Cir. 1985) (quoting 10A Charles Alan Wright & Arthur R. Miller, Federal
+Practice and Procedure § 2738 (2d ed. 1983)); see also Little, 37 F.3d at 1075
+(noting that the moving party’s “burden is not satisfied with ‘some
+metaphysical doubt as to the material facts,’ by ‘conclusory allegations,’ by
+Case 2:24-cv-01953-SSV-EJD     Document 47     Filed 11/21/25     Page 6 of 33
+7
+
+‘unsubstantiated assertions,’ or by only a ‘scintilla’ of evidence” (citations
+omitted)).  “No genuine dispute of fact exists if the record taken as a whole
+could not lead a rational trier of fact to find for the non-moving party.”  EEOC
+v. Simbaki, Ltd., 767 F.3d 475, 481 (5th Cir. 2014).
+If the dispositive issue is one on which the moving party will bear the
+burden of proof at trial, the moving party must put forth evidence that would
+“entitle it to a directed verdict if the evidence went uncontroverted at trial.”
+Int’l Shortstop, Inc. v. Rally’s Inc., 939 F.2d 1257, 1264 -65 (5th Cir. 1991)
+(quoting Golden Rule Ins. v. Lease , 755 F. Supp. 948, 951 (D. Colo. 1991)
+(internal quotation marks omitted)).  “[T]he nonmoving party can defeat the
+motion” by either countering with evidence sufficient to demonstrate the
+“existence of a genuine dispute of material fact,” or by “showing that the
+moving party’s evidence is so sheer that it may not persuade the reasonable
+fact-finder to return a verdict in favor of the moving party.”  Id. at 1265.
+ If the dispositive issue is one on which the nonmoving party will bear
+the burden of proof at trial, the moving party may satisfy its burden by
+pointing out that the evidence in the record is insufficient with respect to an
+essential element of the nonmoving party’s claim.  See Celotex, 477 U.S. at
+325.  The burden then shifts to the nonmoving party, who must, by
+submitting or referring to evidence, set out specific facts showing that a
+Case 2:24-cv-01953-SSV-EJD     Document 47     Filed 11/21/25     Page 7 of 33
+8
+
+genuine issue exists.  See id. at 324.  The nonmovant may not rest upon the
+pleadings but must identify specific facts that establish a genuine issue for
+resolution.  See, e.g., id.; Little, 37 F.3d at 1075 (“Rule 56 ‘mandates the entry
+of summary judgment, after adequate time for discovery and upon motion,
+against a party who fails to make a showing sufficient to establish the
+existence of an element essential to that party’s case, and on which that party
+will bear the burden of proof at trial.’” (quoting Celotex, 477 U.S. at 322)).
+ At this stage, an affirmative defense will defeat summary judgment for
+plaintiff “if the defendant supports each element of the defense with
+summary judgment evidence.”  Occidental Petroleum Corp. v. Wells Fargo
+Bank, N.A., 117 F.4th 628, 643 (5th Cir. 2024).  The burden of proof is on the
+party pleading the affirmative defense.  See id.
+
+III. DISCUSSION
+The Leases, South Pelto Blocks 8 and 13, are located on the Outer
+Continental Shelf off the coast of Louisiana.  Under the Outer Continental
+Shelf Lands Act (“OCSLA”), 43 U.S.C. § 1331, et se q., which sets out the
+governing framework for this case, the Court applies the law of the state that
+is adjacent to the area of the Outer Continental Shelf upon which the leases
+are located, 43 U.S.C. § 1333(a)(1)-(2).  Here, that is Louisiana law.
+Case 2:24-cv-01953-SSV-EJD     Document 47     Filed 11/21/25     Page 8 of 33
+9
+
+A. Breach of Contract
+ANKOR argues that Merit has breached the Operating Agreements by
+refusing to pay its share of the decommissioning expenses. 35  Merit argues
+that it owes no decommissioning expenses because, when it assigned its
+interest in the Leases to Black Elk, it became a non -party to the Operating
+Agreements.36  Merit also raises various affirmative defenses, each of which
+this Court addresses below.37
+Louisiana law dictates that contracts must be read in a common-sense
+fashion, according to the common and usual meaning of the words, to lead
+to logical conclusions and give effect to the parties’ obvious intentions.
+Lambert v. Maryland Cas. Co., 418 So. 2d 553, 559 (La. 1982); see also La.
+Civ. Code art. 2047 (“words of a contract must be given their generally
+prevailing meaning”) .  Under Louisiana law, the “essential elements of a
+breach of contract claim are the existence of a contract, the party’s brea ch
+thereof, and resulting damages.”  Carollo v. Tulane Univ. , 414 So.  3d 610,
+616 (La. Ct. App. 4 Cir. 2025) (quoting 1100 South Jefferson Davis Parkway,
+LLC v. Williams, 165 So. 3d 1211, 1216 (La. Ct. App. 4 Cir. 2015)).
+
+35  R. Docs. 32, 40.
+36  R. Docs. 27, 38.
+37  R. Doc. 38.
+Case 2:24-cv-01953-SSV-EJD     Document 47     Filed 11/21/25     Page 9 of 33
+10
+
+1. The Operating Agreements
+The Operating Agreements for South Pelto 8 and South Pelto 13 control
+here and determine  whether, under the ir terms, Merit is liable for
+decommissioning.  Under Louisiana law, an assignor remains solidarily
+liable with its assignee to a third party unless th at third party releases the
+assignor.  La. Civ. Code art. 1821; see also Chiefta in Int’l (U.S .) Inc. v.
+Southeast Offshore, Inc. , 553 F.3d 817 , 819 (5th Cir. 2008).  Upon Merit’s
+assignment to Black Elk, Merit’s rights in the Operating Agreements were
+extinguished.  Lusher v. Kilcrease, 384 So. 2d 589, 591 (La. Ct. App. 4 Cir.
+1980) (“The effect of an assignment is to transfer the assignor’s rights in the
+original agreement in favor of the assignee.”) ; Restatement (Second) of
+Contracts § 317 (1981).  But Merit’s obligations were not extinguished unless
+“expressly done so by the obligee.”  Bradford v. Onshore Pipeline Const. Co.,
+Inc., 853 So. 2d 756, 767 (La. Ct. App. 2d Cir. 2003)  (noting that defendant
+“is not relieved from its obligations under the gas purchase contract with
+[p]laintiffs just because it made an assignment to [a third party] ”).  The
+parties have presented no summary judgment evidence of a release by the
+obligee.  At issue is thus whether the Operating Agreements themselves
+contain express language releasing assignors from accrued obligations upon
+assignment, or express language modifying the time at which
+Case 2:24-cv-01953-SSV-EJD     Document 47     Filed 11/21/25     Page 10 of 33
+11
+
+decommissioning obligations accrue , such that Merit never accrued
+decommissioning obligations.
+Merit argues that the Operating Agreements do not contemplate
+continuing obligations post-assignment.38  In support, Merit points to Total
+E&P USA, Inc. v. Marubeni Oil & Gas (USA) Inc. , in which the Fifth Circuit
+interpreted the language of different Operating Agreements to determine
+liability for decommissioning expenses  post-assignment.  824 F. App’x 197
+(5th Cir. 2020).39  ANKOR argues that Total E&P in fact supports a finding
+that Merit’s obligations were not extinguished.40
+In Total E&P, the Fifth Circuit held that an assignor was not liable for
+decommissioning expenses post-assignment when the operating agreement
+explicitly stated that costs were to be shared based on interests at the time of
+abandonment, but that same assignor was liable for decommissioning
+expenses post-assignment under another operating agreement that did not
+contain that clear language .  Id.   In reaching its decision, the Fifth Circuit
+evaluated Articles 11.3 and 14.1 of the “CEPS Operating Agreement, ” and
+Articles 18.4 and 21.1.4 of the “ MC 305 Operating Agreement. ”  Id.  Article
+
+38  See R. Docs. 27, 38.
+39  Total E&P was decided under Texas law.
+40  See R. Doc. 32, 40.
+Case 2:24-cv-01953-SSV-EJD     Document 47     Filed 11/21/25     Page 11 of 33
+12
+
+11.3 of the CEPS Operating Agreement, which pertain ed to abandonment
+operations, provided:
+Abandonment Operations Required by Governmental Authority.  The
+Operator shall conduct the abandonment of the Common System as
+required by law and any governmental authority and the
+Abandonment Costs, risks and net proceeds will be shared by the
+Common Sys tem Owners based on the Common System Owner’s
+Equity Interest at the time of abandonment.
+
+Id. at 200 (emphasis added).  And Article 14.1 of that agreement , which
+discussed assignment of interests, provided:
+Assignment. . . . No Common System Owner assigning all or a part of
+its Equity Interest in the Common System is released from its
+obligations and liabilities created under this Agreement attributable to
+the period prior to the date of execution of the assi gnment (which
+obligations include liability for abandonment of the Common System,
+or that portion of the Common System in existence as of the date of
+execution of the assignment.)
+
+Id.
+Article 18.4 of the MC 305 Operating Agreement, which cover ed
+abandonment operations, provided:
+Abandonment Operations Required by Governmental Authority.  The
+Operator shall conduct the abandonment and removal of any well,
+Production System or Facilities required by a governmental authority,
+and the Costs, risks and net proceeds will be shared by the
+Participating Parties in such well, Production System or Facilities
+according to their Participating Interest Share.
+
+Id.  Notably, unlike its counterpart in the CEPS Operating Agreement, Article
+18.4 of the MC 305 Operating Agreement  did not state that “[c]osts, risks,
+Case 2:24-cv-01953-SSV-EJD     Document 47     Filed 11/21/25     Page 12 of 33
+13
+
+and net proceeds” will be shared based on the interest “at the time of
+abandonment.”  Id.   Finally, A rticle 24.1.4 of the MC 305 Operating
+Agreement, pertaining to assignments, provided:
+Form of Assignments: . . . No Party assigning all or part of its Working
+Interest [“the record title leaseholder interest or, where applicable, the
+operating rights of each party in and to each lease”] is released from its
+obligations and liabilities creat ed under this Agreement prior to the
+effective date of the Assignment.
+
+Id. at 200-01.
+ The Fifth Circuit, after evaluating the Operating Agreements, held that
+Total, the previous interest holder, was jointly and severally liable for the MC
+305 abandonment costs, but not the CEPS abandonment costs.
+ For the CEPS Agreement, the Fifth Circuit looked to the language “by
+the Common System Owners based on the Common System Owner’s Equity
+Interest at the time of abandonment” to find that Article 11.3 limited Total’s
+liability to zero percent.  Id.  at 205.  The Court reasoned that because Total
+had no Equity Interest in CEPS  at the time of abandonment , Total had no
+liability for the abandonment costs.  Id.   The Court held that Article 14.1,
+which “makes clear that obligations ‘created under’ the CEPS Agreement
+‘attributable to the period prior to the date of execution of the assignment’
+include ‘liability for abandonment ,’” did not change this result.  Id. at 204-
+05.  The Fifth Circuit reasoned that Article 14.1 did not address when
+Case 2:24-cv-01953-SSV-EJD     Document 47     Filed 11/21/25     Page 13 of 33
+14
+
+decommissioning obligations accrued, indicating that Article 11.3 of the
+CEPS Agreement modified the point at which decommissioning obligations
+accrued.  Id.   Moreover, the Fifth Circuit  held that “even if the
+decommissioning obligations did arise before Total’s assignment, Article 11.3
+still limits Total’s liability to its ‘Equity Interest at the time of
+abandonment.’”  Id.   T hus, regardless of whether Article 11.3 operated to
+modify when decommissioning obligations accrued, it was clear that
+decommissioning obligations were to be assessed at the time of
+abandonment, which was after Total assigned away its interest in the lease.
+ For the MC 305 Agreement, the Fifth Circuit noted that, unlike the
+CEPS Agreement, it did not “limit an assignor’s liability for abandonment
+costs to its ownership interest at the time of abandonment .”  Id. at 205.
+Instead, the Agreement stated that abandonment “[c]osts, risks and net
+proceeds will be shared by the Participating Parties . . . according to their
+Participating Interest Share. ”  Id.   Absent language providing when
+abandonment obligations were created, the Court looked to 30 C.F.R. §§
+250.1701(c), 250.1702 , which provide that “obligations accrue when
+operators, among other things, ‘drill a well’ or ‘[i]nstall a platform, pipeline,
+or other facility.’”  Id. at 206 (citing 30 C.F.R. §§ 250.1701(c), 250.1702).  The
+Fifth Circuit thus found that the obligations arose not when the government
+Case 2:24-cv-01953-SSV-EJD     Document 47     Filed 11/21/25     Page 14 of 33
+15
+
+ordered decommissioning but when the wells were drilled.  Id.  The Fifth
+Circuit concluded that, because the obligations arose  prior to Total ’s
+assigning its interest, and the Operating Agreement did not extinguish those
+obligations, Total was liable for its share of the MC 305 abandonment costs.
+Id.
+ Merit argues that the South Pelto 8 and South Pelto 13  Operating
+Agreements are more akin to the CEPS Agreement than the MC 305
+Agreement.  Specifically, Merit relies on a provision that  automatically
+amends the percentage interests in the Operating Agreements if such
+interests change .  Merit  asserts that its interest has been 0% since the
+assignment.  This argument misses the point.
+The South Pelto 8  and South Pelto 13  Operating Agreements are
+substantially similar.  The key provisions , which are the same 41 in both
+agreements, are Articles IV and V.  Article IV states:
+Except as hereinafter provided, all costs and expenses incurred
+hereunder shall be shared , all equipment installed on the Joint Lease
+shall be owned, and all Oil and Gas produced and saved hereunder
+shall be owned by the Parties in the following percentages:
+
+[Original Parties to the Agreement and Percentage Interests Listed]
+
+Each Party shall have a “Voting Interest” equal to its Percentage
+Interest as shown above.   Should the Percentage Interest change at
+
+41  The original parties and associated percentage interests, omitted from
+the recitation of the Article, are not the same.
+Case 2:24-cv-01953-SSV-EJD     Document 47     Filed 11/21/25     Page 15 of 33
+16
+
+any time this Article IV shall automatically be amended to reflect such
+change.  Except as otherwise provided herein, all matters shall be
+decided by an affirmative vote of at least three (3) Parties jointly
+owning at least 51% Voting Interest; provided, however, that
+amendment of the Agreement shall require mutual consent of the
+Parties.42
+
+And Article V states:
+Except as hereinafter provided, Operator shall advance, pay and
+discharge all costs and expenses incurred hereunder and shall charge
+each of the Parties the same percentage thereof as said Party’s
+Percentage Interest stated in Article IV.43
+
+Merit argues that the language “shall automatically be amended” means that
+upon assignment to Black Elk , Merit’s percentage interest was amended to
+0%, so the decommissioning costs assessed post-assignment are 0%.  Merit
+is extrapolating too much from this language.  While true that upon
+assignment Merit’s percentage interest was amended to 0%, this would be
+true even absent the “shall automatically be amended” language.  The
+language is simply a recitation of the effects of assignment  and signals that
+the original parties and percentages explicitly listed in Article IV would
+change as assignments occurred .  It is not an explicit release of accrued
+obligations.  Merit’s proffered reading would mean that any assignment
+releases the assignor  of accrued obligations.  This is contrary to Louisiana
+
+42  R. Doc. 27-4 at 5-6, 98-99  (emphasis added).
+43  R. Doc. 27-4 at 6, 99.
+Case 2:24-cv-01953-SSV-EJD     Document 47     Filed 11/21/25     Page 16 of 33
+17
+
+law, which is clear that assignment alone does not relieve the assigning party
+from its accrued obligations.  La. Civ. Code art. 1821; see also Chieftain Int’l,
+553 F.3d at 819.  Without explicit language extinguishing the obligation, the
+Court does not find that Merit has been relieved of obligations accrued pre -
+assignment.
+Further, the Operating Agreements  do not spell out as of when
+abandonment costs are to be assessed , as did  the CEPS Agreement.   The
+language the Fifth Circuit relied on in Total E&P to find that Total was not
+liable for decommissioning expenses under the CEPS Agreement was far
+more specific than the language here.  There, the CEPS Agreement explicitly
+defined a time as of which abandonment costs were to be assessed, and that
+time was at abandonment, which was after the assignment.  Here, the
+Operating Agreements are silent as to the time as of which costs are to be
+assessed.  Article V states only that the costs are to be assessed based on
+percentage interests.   Such a  provision does not , on its own, release an
+assignor from decommissioning obligations.  See LLOG Expl. Offshore, LLC
+v. Newfield Expl. & Prod. Co. , 2016 WL 98618, at *6- 7 (E.D. La. Jan. 8,
+2016); Total E&P, 824 F. App’x at 204- 06; Seagull Energy E&P, Inc. v.
+Eland Energy, Inc., 207 S.W. 3d 342, 345-47 (Tex. 2006).  Nor does it modify
+either when obligations accrue, nor when they are assessed, as was the case
+Case 2:24-cv-01953-SSV-EJD     Document 47     Filed 11/21/25     Page 17 of 33
+18
+
+in the CEPS Agreement.  Absent such specific language, this Court will not
+find that the Operating Agreements set a time, post -assignment for the
+accrual or assessment of decommissioning expenses.
+As the Operating Agreements do not contain clear language modifying
+the time at which the decommissioning obligations accrue , nor releasing
+assignors of accrued obligations, the Court must determine whether Merit
+had decommissioning obligations pre-assignment.  Absent clear language
+defining the accrual date of decommissioning obligations, the Court looks to
+the Federal Regulations for guidance.  Per Federal Regulations,
+decommissioning obligations accrue when a party does any of the following:
+(a) Drill a well;
+(b) Install a platform, pipeline, or other facility;
+(c) Create an obstruction to other users of the OCS;
+(d) Are or become a lessee or the owner of operating rights of a lease
+on which there is a well that has not been permanently plugged
+according to this subpart, a platform, a lease term pipeline, or other
+facility, or an obstruction . . .
+
+30 C.F.R. § 250.1702; see also Total E&P, 824 F. App’x at 205-06 (looking to
+the Federal Regulations to determine the time as of which decommissioning
+obligations accrue when the operating agreement is silent as to the same) .
+Thus, Merit accrued decommissioning obligations upon becoming a Lessee
+of the South Pelto 8 and 13 Leases .  These obligations remained post -
+assignment.  The automatic amendment language does not alter this result ,
+Case 2:24-cv-01953-SSV-EJD     Document 47     Filed 11/21/25     Page 18 of 33
+19
+
+as it is not a specific release of the decommissioning obligations.  Without
+language clearly and expressly relieving Merit of accrued obligations, this
+Court will not deviate from basic principles that, in Louisiana, assignment
+alone does not relieve an assignor of third- party obligations.  See La. Civ.
+Code art. 1821; Chieftain Int’l, 553 F.3d at 819 ; LLOG Expl. Offshore, 2016
+WL 98618, at *6-7; Nippon Oil Expl. v. Murphy Expl. & Prod. Co., 2011 WL
+2456358 at *4 (E.D. La. Jun. 15, 2011) ; see also Seagull Energy E&P, 207
+S.W. 3d at 345 -47 (when contract provided that costs for abandonment
+would be shared according to owner’s participating interest but contained no
+explicit release of obligations following assignment, found that the general
+rule applied and the assignor remained liable unless released by other parties
+to the contract) (Texas law).
+None of the other sections of the Operating Agreement cited by Merit
+provide a release from the decommissioning obligations.  Specifically, Merit
+points to Articles XXVI and XV.  Neither article clearly and explicitly change
+the accrual and assessment of obligations as would be necessary to preclude
+Merit’s liability.  See Bradford, 853 So. 2d at 767 (explaining that a release
+or discharge of the original obligor must be express).  Article XXVI does not
+release Merit from decommissioning obligations.  Artic le XXVI, in relevant
+part, states:
+Case 2:24-cv-01953-SSV-EJD     Document 47     Filed 11/21/25     Page 19 of 33
+20
+
+All or part of any Party’s interest in the Joint Lease may be conveyed
+to a party or third party; however, because of the mutuality of interest
+required to successfully carry out the intent and purposes of this
+Agreement, any such conveyance to a party or third party must be
+approved by Parties representing 51.0% in interest hereunder, which
+approval cannot be unreasonably withheld.  Before such conveyance
+shall become effective as to the other Parties, all payments due by the
+conveying Party under this Agreement to the Operator shall have been
+paid or settlement otherwise made. . . .44
+
+This language pertains to costs assessed prior to assignment; it is silent as to
+costs assessed post-assignment for obligations that accrued pre-assignment.
+Accordingly, to read this as an express release of an assignor’s obligations
+would be a step too far.
+ Finally, Article XV does not apply here.  It states:
+[N]o well which is producing or has once produced under the
+terms hereof shall be abandoned without the mutual consent of the
+Parties who own an interest in that well.  If any of the Parties desire to
+abandon such well, it or they shall so notify the other Parties in writing
+and request their consent to the abandonment thereof.  If such other
+Parties do not consent to the abandonment of said well, such other
+Parties shall take over such well and they shall pay to t he other Party
+or Parties desiring to aband on same, in cash, the value of their
+respective interests in the salvage of the material and equipment in and
+on such well, less the estimated cost of salvaging same . . .
+In the event of such transfer and assignment as herein provided,
+the Party or Parties so assigning after discharging its or their
+proportion of all obligations which have accrued hereunder up to the
+effective date of such assignment shall be relieved from any and all
+further liability under this agreement, insofar as said well is concerned;
+provided, however, that any such assignment shall neither affect nor
+change the participation of the Parties in and to the Oil and Gas
+produced from any other portion of  the Joint Lease nor in the
+
+44  R. Doc. 27-4 at 62-63, 149-50.
+Case 2:24-cv-01953-SSV-EJD     Document 47     Filed 11/21/25     Page 20 of 33
+21
+
+ownership in any other property and equipment owned hereunder by
+the Parties.45
+
+The Article pertains to situations in which some parties desire to abandon a
+well that “is producing or has once produced.” 46  In short , it applies to
+situations in which some or all parties desire to abandon a well prior to the
+expiration of the Leases.  At issue here is abandonment obligations following
+termination of the Leases.
+For the foregoing reasons, the  Court finds th at Merit accrued
+decommissioning obligations pre-assignment, and it has not been relieved of
+those obligations .  Accordingly, Merit remains obligated to contribute to
+decommissioning costs.
+2. Breach
+The Operating Agreements contemplate that expenses are to be
+shared.  Both Operating Agreements provide that “[n]o Party may refuse to
+pay . . . its share of the cost of . . . abandoning any well which is required to
+be drilled on the Joint Lease,  or the cost of any other action or operation
+which may be ordered or required by the final order of an authorized
+representative of the United States. ”47  Merit argues that this provision is
+
+45  R. Doc. 27-4 at 50, 140-41
+46  Id.
+47  R. Doc. 27-4 at 46-47, 138-39.
+Case 2:24-cv-01953-SSV-EJD     Document 47     Filed 11/21/25     Page 21 of 33
+22
+
+inapplicable because the subsection is titled “Wells Ordered by the United
+States.”  The Operating Agreements plainly state that the headings used in
+the Operating Agreements are “for convenience only and shall be
+disregarded in construing” the Agreements.48  Merit’s reliance on the header
+is therefore misplaced.
+Moreover, the wells and platforms were required by the United States
+to be decommissioned within one year of the lease terminations .  30 C.F.R.
+§250.1710 (“You must permanently plug all wells on a lease within 1 year
+after the lease terminates.”); 30 C.F.R. §250.1725 (“You must remove all
+platforms and other facilities within 1 year after the lease . . .”).  The
+decommissioning costs here fall within the purview of Article XIV(F) of the
+Operating Agreements.   Accordingly, by not paying its share, Merit is i n
+breach of the Operating Agreements.
+3. Damages
+ANKOR has provided, and Merit has pointed to no summary judgment
+evidence disputing, that the breach has resulted in  financial damage .
+Accordingly, the final requirement for a breach of contract claim is met.
+
+48  R. Doc. 27-4 at 64, 154.
+Case 2:24-cv-01953-SSV-EJD     Document 47     Filed 11/21/25     Page 22 of 33
+23
+
+4. Privity
+Merit argues that there is no “direct privity” between it and plain tiffs,
+and therefore ANKOR’s breach of contract claim fails .  Merit cites only one
+case in support of this argument.  The case, Quality Environmental
+Processes, Inc. v. Energy Development Corp., does not stand for the position
+Merit asserts.  835 So.  2d 642 (La. Ct. App. 1  Cir. 2002).  Quality
+Environmental involved a dispute over royalties under an onshore mineral
+lease, not a dispute over whether an Operating Agreement released an
+assignor of obligations concerning an offshore oil and gas lease.  Id.  And, the
+issue before Louisiana’s First Circuit  Court of Appeal in Quality
+Environmental was whether plaintiffs ’ claim for unpaid royalties was
+prescribed.  See id.   That court did not announce a requirement for direct
+privity of parties to enforce decommissioning obligations under oil and gas
+lease operating agreements.
+Moreover, such a requirement would run contrary to the holdings of
+other courts.  For example, in Nippon , the Eastern District of Louisiana
+found that the defendant remained liable to plaintiff, which had become
+operator of the lease years after defendant assigned its interest, for its share
+of decommissioning expenses.  Nippon , 2011 WL 2456358 , at *1.  As  in
+Nippon, the question of whether obligations remain here turns on the terms
+Case 2:24-cv-01953-SSV-EJD     Document 47     Filed 11/21/25     Page 23 of 33
+24
+
+of the operating agreements, not whether the disputing parties held
+leasehold interests at the same time.
+5. Prescription of the Breach of Contract Claim
+Merit additionally argues that ANKOR’s claims are prescribed because
+ANKOR began to accrue  decommissioning expenses in May of 2014,  and
+Black Elk defaulted on its obligation to pay at that time .49  ANKOR argues
+that Merit’s start date for determining prescription is incorrect. 50  ANKOR
+argues that the start date is actually 30 days after Merit received the bills for
+decommissioning expenses.51
+In Louisiana, the prescriptive period for a personal action, such as an
+action for breach of a contract, is ten years.  La. Civ. Code art. 3499.  The
+prescriptive period begins to run on the date that the cause of action arose.
+Corbello v. Iowa Prod., 850 So. 2d 686, 705 (La. 2003).  Here, the cause of
+action is breach of contract.  Per the contracts, non-Operators were required
+to pay their “proportion of all other bills within thirty (30) days after
+receipt.”52  ANKOR issued a bill to  Merit on July 11, 2022.  Assuming
+
+49  R. Doc. 38 at 12.
+50  R. Doc. 42 at 6.
+51  Id.
+52  R. Doc. 32-6 at 75, 32-7 at 66.
+Case 2:24-cv-01953-SSV-EJD     Document 47     Filed 11/21/25     Page 24 of 33
+25
+
+arguendo,53 that Merit received the bill the same day, Merit was in breach of
+the contracts on August 10, 2022.  ANKOR filed this suit in 2024, less than
+ten years after the cause of action arose.  Therefore, ANKOR’s breach of
+contract claim against Merit is not prescribed.
+6. Waiver and Equitable Estoppel
+Merit next argues that actions ANKOR took in attempting to recover
+from Northstar and Black Elk constitute waiver and/or provide a basis for
+equitably estopping ANKOR from pursuing Merit for the decommissioning
+expenses.  On summary judgment, a defendant  relying upon affirmative
+defenses “must establish beyond peradventure all of the essential elements”
+of the affirmative defense.  Access Mediquip L.L.C. v. UnitedHealthcare Ins.
+Co., 662 F.3d 376, 378 (5th Cir. 2011).  A plaintiff is not required to “negate
+each element of an affirmative defense to succeed at the summary judgment
+stage.”  Occidental Petroleum Corp. v. Wells Fargo Bank, N.A. , 117 F.4th
+628, 643 (5th Cir. 2024) (internal citation omitted).  Here, as to both waiver
+and equitable estoppel, Merit fails to meet that bar.
+
+53  In Merit’s July 19, 2022, email to ANKOR, Merit’s representative Mr.
+Hagge acknowledged receipt of the ANKOR bill.  The specific date
+between July 11 and 19 is unimportant because any of those days is
+certainly less than 10-years from the date at which ANKOR filed suit.
+Case 2:24-cv-01953-SSV-EJD     Document 47     Filed 11/21/25     Page 25 of 33
+26
+
+“Waiver occurs when there is an existing right, a knowledge of its
+existence and an actual intention to relinquish it or conduct so inconsistent
+with the intent to enforce the right as to induce a reasonable belief that it has
+been relinquished.”  Steptore v. Masco Const. Co., 643 So. 2d 1213, 1216 (La.
+1994).  The party claiming waiver must establish reliable proof of waiver.
+FDIC v. Duffy , 47 F.3d 146, 150 (5th Cir. 1995) (citing Tate v. Charles
+Aquillard Ins. & Real Est., Inc., 508 So. 2d 1371, 1375 (La. 1987)).
+Merit argues that ANKOR’s pursuit of Black Elk and Northstar for the
+decommissioning expenses for multiple years before seeking payment from
+Merit constitutes waiver.54  Merit additionally argues that ANKOR’s pursuit,
+and ultimate release, of Black Elk and Northstar impaired Merit’s ability to
+protect its own rights. 55  ANKOR argues that its prior failed attempts to
+recover from Black Elk and Northstar were consistent with its right to pursue
+any solidary obligor for the debt.56  ANKOR further argues that this conduct
+is not “so inconsistent with the intent to enforce” its  rights as to induce a
+reasonable belief it  had waived them .57  ANKOR is correct .  Pursuing one
+obligor for a debt is not “so inconsistent” with the intent to pursue another
+
+54  R. Doc. 38 at 13-14.
+55  Id.
+56  R. Doc. 43 at 4.
+57  Id.
+Case 2:24-cv-01953-SSV-EJD     Document 47     Filed 11/21/25     Page 26 of 33
+27
+
+obligor for the very same debt, that it should induce a reasonable belief that
+the obligee had waived that right.  Cf. Amsouth Bank v. Sessions, 34 So. 3d
+342, 344 (La. Ct. App. 5 Cir. 2010) (“Unless the obligation is extinguished,
+an obligee may institute action against any of his solidary obligors even after
+institution of action against another solidary obligor.”).  Merit has failed to
+provide any evidence showing that ANKOR intentionally relinquished its
+right against Merit or that it acted so inconsistently with the intent to enforce
+its right against  Merit that it indeed relinquish ed that right.  See Steptore,
+643 So. 2d at 1216.  Therefore, Merit’s defense must fail.
+The doctrine of equitable estoppel is designed to prevent injustice by
+barring a party from taking a position contrary to its prior acts, admissions,
+representations, or silence.  Bellsouth Advert. & Pub. Corp. v. Gassenberger,
+565 So. 2d 1093, 1095 (La. Ct. App. 4 Cir. 1990) .  The elements of equitable
+estoppel are: (1) representation by words or conduct; (2) justifiable reliance;
+and (3) a change in position to one’s detriment because of such reliance.
+Wilkinson v. Wilkinson, 323 So. 2d 120 , 126  (La. 197 5).  Estoppel is not
+favored.
+Merit relies upon the same actions by ANKOR for its estoppel
+argument as it does for waiver.  As with waiver, Merit has not put forth
+summary judgment evidence of a representation by ANKOR that it would not
+Case 2:24-cv-01953-SSV-EJD     Document 47     Filed 11/21/25     Page 27 of 33
+28
+
+pursue Merit for decommissioning costs.  Nor has Merit put forth summary
+judgment evidence of how Merit “justifiably relied” on any such statement.
+Because Merit has failed to offer such evidence, Merit’s defense must fail.
+7. Substantial Breach by ANKOR
+Finally, Merit next argues that ANKOR cannot recover for breach of
+contract because ANKOR  itself breached the contracts. 58  Here too Merit’s
+arguments lack merit.  Merit has confounded rights with obligations.  Upon
+assignment of its lease interests, Merit’s rights under the Operating
+Agreements were extinguished.  Lusher , 384 So. 2d at 591; Restatement
+(Second) of Contracts § 317 (1981).  Thus, ANKOR was not required to submit
+Authority for Expenditures to Merit as outlined by Article V, seek or obtain
+Merit’s approval for decommissioning AFEs, consult with Merit on matters,
+or provide monthly billing to Merit, as Merit claims.  These are all rights
+provided in the Operating Agreements, not obligations.  Those rights were
+held by Merit’s assignees, not by Merit.
+Moreover, for a breach by one party to justify the non- performance of
+the other, it must be substantial.  See LAD Servs. Of La., L.L.C. v. Superior
+Derrick Servs., L.L.C. , 167 So.  3d 746, 755- 56 (La. Ct. App. 1 Cir. 2014)
+(explaining that “not every breach excuses the other party from the
+
+58  R. Doc. 38 at 17-20.
+Case 2:24-cv-01953-SSV-EJD     Document 47     Filed 11/21/25     Page 28 of 33
+29
+
+contract”).  “A breach is substantial if it is an actual cause of the other party’s
+‘failure to comply with its obligations.’”  Alonso v. Westcoast Corp., 920 F.3d
+878, 884 (5th Cir. 2019) (quoting LAD Servs., 167 So. 3d at 756-57).  Merit
+has provided no summary judgment evidence that if only it had received
+monthly AFE and billing statements  it would have paid its portion of the
+decommissioning expenses .  Merit’s argument that ANKOR first
+substantially breached the Operating Agreements is therefore unsupp orted
+and does not provide a bar to ANKOR’s own breach of contract claim.
+***
+Accordingly, because there is no genuine dispute of material fact as to
+the satisfaction of all elements of the breach of contract claim, and
+defendants have not produced summary judgment evidence on each element
+on any affirmative defenses, the Court grants summary judgment for
+plaintiffs and denies summary judgment for defendants on this claim.
+B. Subrogation, Contribution, and Unjust Enrichment
+Claims
+It is not necessary to reach ANKOR’s claims for subrogation,
+contribution, and unjust enrichment because the Court’s conclusion that
+plaintiffs prevail on the  breach of contract claim justifies the same relief to
+plaintiffs.
+Case 2:24-cv-01953-SSV-EJD     Document 47     Filed 11/21/25     Page 29 of 33
+30
+
+C. Quantum of Decommissioning Expenses Owed
+ANKOR seeks a finding that the statements ANKOR issued to Merit
+setting forth Merit’s share of decommissioning expenses are correct and
+establish the amount owed by each Merit entity. 59  ANKOR points out that
+the Operating Agreements provide two -years from the end of the calendar
+year the bill was sent to make any objections,  and that Merit made no such
+objections.60  Therefore, ANKOR argues, the amounts allotted to each Merit
+entity should be deemed “true and correct.”61
+In support, ANKOR submits a declaration , along with supporting
+documentation, that ANKOR sent written notice to Merit of Merit’s share of
+the decommissioning expenses .62  The declaration also states that Merit
+never filed a written exception to the expenses identified and that the 24-
+month period for Merit to contest the expenses has expired.63  ANKOR
+additionally submits the COPAS Accounting Procedure of the Operating
+Agreements, which supports ANKOR’s assertion that Merit had 24- months
+
+59  See generally R. Doc. 35.
+60  Id.
+61  Id.
+62  R. Doc. 35-5 at ¶¶ 13-15; R. Doc. 35-8; R. Doc. 35-9.
+63  R. Doc. 35-5 at ¶ 19.
+Case 2:24-cv-01953-SSV-EJD     Document 47     Filed 11/21/25     Page 30 of 33
+31
+
+to take written exception to the statements of expenses before they would
+conclusively be presumed true and correct.64
+ANKOR has satisfied its burden on summary judgment here.  Exhibit
+A to the Operating Agreements state:
+[A]ll bills and statements rendered to Non -Operators by Operator
+during any calendar year shall conclusively be presumed to be true and
+correct after twenty -four (24) months following the end of any such
+calendar year, unless within the said twenty-four (24) month period a
+Non-Operator takes written exception thereto and makes claim on
+Operator for adjustment.65
+
+And ANKOR submits correspondence supporting its uncontested series of
+events related to the Statements.  Specifically, ANKOR issued the bills to
+Merit on July 11, 2022. 66  Merit received the bills no later than July 19,
+2022.67  Merit therefore had until December 31, 2024, to properly challenge
+the expenses.  Although Merit initially sought to audit the charges, 68 Merit
+abandoned the audit and never submitted a written exception.  The time to
+properly challenge the Statements has thus passed, and the Statements are
+now deemed “true and correct.”
+
+64  R. Doc. 35-6 at 75; R. Doc. 35-7 at 66.
+65  R. Doc. 35-6 at 75; R. Doc. 35-7 at 66.
+66  R. Doc. 35-9.
+67  R. Doc. 35-10.
+68  Id.
+Case 2:24-cv-01953-SSV-EJD     Document 47     Filed 11/21/25     Page 31 of 33
+32
+
+Merit does not address ANKOR’s showing that the Statements are now
+“true and correct” ; instead, Merit filed the same response to both motions
+for partial summary judgment.69  Merit makes no attempt to dispute that (1)
+ANKOR issued the Statements to Merit on July 11, 2022; (2) Merit received
+the Statements; (3) Merit never “[took] written exception” to the Statements
+or made a “claim on [ANKOR] for adjustment” before the end of the two-year
+allotted period to do so; or (4) per the Operating Agreements, Merit had two
+years from the end of 2022 to challenge the Statements before they “shall
+conclusively be presumed to be true and correct.”70
+Accordingly, the Court grants plaintiffs’ motion for partial summary
+judgment as to the quantum of decommissioning expenses owed.  Each
+defendant’s share of expenses is correctly set forth in the Statements as
+follows: $2,869,405.06 attributable to Merit Management Partners;
+$76,314.35 attributable to Merit Energy Partners III, L.P.; and $106,839.71
+attributable to Merit Energy Partners D-III, L.P.
+
+69  Compare R. Doc. 39 with R. Doc. 38.
+70  R. Doc. 35-6 at 75; R. Doc. 35-7 at 66.
+Case 2:24-cv-01953-SSV-EJD     Document 47     Filed 11/21/25     Page 32 of 33
+33
+IV. CONCLUSION
+For the foregoing reasons  the Court GRANTS IN PART plaintiffs’
+partial motions for summary judgment and DENIES defendants’ motion for
+summary judgment.
+The Court GRANTS IN PART and DENIES IN PART plaintiffs’ partial
+motion for summary judgment on liability.  Plaintiffs’ motion is granted as
+to the breach of contract claim.  Because the Court need not reach plaintiffs’
+claims for subrogation, contribution, and unjust enrichment, the Court
+DISMISSES those claims WITHOUT PREJUDICE.
+The Court GRANTS plaintiffs’ p artial motion for s ummary judgment
+on quantum of decommissioning expenses.
+The Court DENIES defendants’ motion for summary judgment.
+New Orleans, Louisiana, this 21st day of November, 2025.
+_____________________
+SARAH S. VANCE
+UNITED STATES DISTRICT JUDGE
+Case 2:24-cv-01953-SSV-EJD     Document 47     Filed 11/21/25     Page 33 of 33
