@@ -1,0 +1,591 @@
+1
+
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+FRED V. BEEBE, ET AL. CIVIL ACTION
+VERSUS No. 22-4518
+ILLINOIS NATIONAL INSURANCE SECTION I
+COMPANY
+
+ORDER AND REASONS
+Before the Court are three motions to dismiss pursuant to Federal Rule of Civil
+Procedure 12(b)(6) filed by Illinois National Insurance Company (“Illinois National”).
+Illinois National requests that the Court dismiss the complaint filed by plaintiffs Fred
+V. Beebe (“Beebe” ) and Ashton Ryan, Jr. (“Ryan”)  (collectively, “plaintiffs”) ,1 the
+complaint in intervention filed by John F . French, Charles C. Teamer, Sr, William
+Carrouche, Stephen Petagna, James C. Roddy, Leon Giorgio, Jr., Herbert Anderson,
+John C. Calhoun, Lawrence Blake Jones, William D. Aaron, Jr., Joseph F. Toomy, R.
+Michael Wilkinson, Shivan Govindan, Grish Roy Pandit, Hermann Moyse, III, and
+Dale B. Atkins (collectively, “Independent Directors”),2 and the amended complaint
+in intervention filed by the I ndependent Directors.3 Also before the Court are three
+motions for partial summary judgment, filed by Beebe,4 Ryan,5 and the Independent
+Directors,6 respectively. For the reasons below, the Court denies the motion to
+
+1 R. Doc. No. 10.
+2 R. Doc. No. 34.
+3 R. Doc. No. 57.
+4 R. Doc. No. 40.
+5 R. Doc. No. 42.
+6 R. Doc. No. 49.
+Case 2:22-cv-04518-LMA-MBN   Document 73   Filed 07/13/23   Page 1 of 21
+2
+
+dismiss the complaint an d the motion to dismiss the amended complaint -in-
+intervention, dismisses the motion to dismiss the original complaint -in-intervention
+as moot, and denies the motions for summary judgment.
+I. BACKGROUND
+This matter arises from the demise of First NBC Bank (“First NBC”).  First
+NBC was closed by the Louisiana Office of Financial Institutions on April 28, 2017,
+and put into receivership under the authority of the Federal Deposit Insurance
+Corporation (“FDIC”). Ryan was formerly the president and CEO of First N BC, and
+Beebe was its senior vice president.7
+As relevant here, Illinois National issued an “Excess Edge policy” (“Illinois
+National policy”) to First NBC that provided $15,000,000 in excess coverage following
+an underlying Directors and Officers  (“D&O”) policy issued to First NBC by Zurich
+American Insurance Company (“Zurich”).8 The Illinois National policy was explicitly
+issued “in reliance upon the completeness and accuracy of the applications,
+warranties, [and] statements . . . submitted for [the] policy[.]”9 The warranty relevant
+here applies only to the $5,000,000 in coverage in excess of $10,000,000 under the
+Illinois National policy. It provides:
+“[A]fter inquiry of all the directors and officers of First NBC Holding
+Company and its subsidia ries (if any), the undersigned authorized officer(s)
+of FNBC hereby represents and warrants on behalf of himself/herself, First
+NBC Bank Holding Company, any subsidiary thereof and all such directors
+or officers that:
+
+7 R. Doc. No. 1, ¶ 7.
+8 Id. ¶ 4.
+9 R. Doc. No. 1-1, at 2.
+Case 2:22-cv-04518-LMA-MBN   Document 73   Filed 07/13/23   Page 2 of 21
+3
+
+(a) There has not been nor is there now p ending any claim(s), suit(s), or
+action(s) (including but not limited to any investigation) against any
+person or entity proposed for insurance under the policy referenced above,
+except as follows: (Attach complete details. If no such claims, check here
+“none” X.)
+
+(b) No person or entity proposed for insurance under the policy referenced
+above has knowledge or information of any act, error or omission which
+might give rise to a claim(s), suit(s), or action(s) under such proposed
+policy, except as follows: (Attach complete details. If they have no such
+knowledge or information, check here “none”: X.)
+
+It is further understood and agreed that if such claim(s), suit(s), action(s),
+knowledge or information exists, then such claim(s), suit(s) or action(s) and
+any claim(s), suit(s) or action(s) arising therefrom or arising from such
+knowledge or information is excluded from coverage under the proposed
+policy referenced above.10
+
+Ryan signed this warranty on June 9, 2015.11
+In July 2020, Ryan , among other First NBC officers,  was indicted by federal
+authorities on various bank fraud charges  related to conduct taking place between
+approximately 2006 and 2017. 12 Beebe was added as a defendant in tha t case via a
+superseding indictment on January 29, 2021.13 Zurich’s policy limits were exhausted
+in 2021, and Illinois National began paying defense costs for the insureds, including
+Ryan and Beebe.14
+On October 11, 2021, Illinois National Informed Ryan and Beebe that “Illinois
+National has determined that the Wa rranty was false when provided and acts as a
+bar to coverage for all Insureds under the $5 million, excess of $10 million, portion of
+
+10 R. Doc. No. 1-3, at 4–5.
+11 Id.
+12 R. Doc. No. 1, ¶ 10; United States v. Ryan, et al., E.D. La. Case No. 20-65.
+13 R. Doc. No. 1, ¶ 10.
+14 Id. ¶ 11.
+Case 2:22-cv-04518-LMA-MBN   Document 73   Filed 07/13/23   Page 3 of 21
+4
+
+the $15 million 2015/16 Excess Policy.”15 Illinois National therefore ceased payments
+for losses exceeding $10 million and  made no payments under the remaining $5
+million  of its policy, and, as a result, prevented the insured from recovering payments
+under the excess insurance provided by other carriers.16
+While the criminal case was pending, certain insureds —excluding Ryan and
+Beebe—filed a lawsuit against Illinois National, among other insurance companies,
+seeking a declaratory judgment that the warranty defense is invalid. 17 Illinois
+National subsequently filed a separate lawsuit in this District against Ryan and
+Beebe, am ong other insureds, seeking a declaratory judgment that the warranty
+made by Ryan in connection with the policy was false, that the warranty was made
+by all directors and officers of First NBC or any subsidiary thereof, and that
+knowledge or information possessed by any director or officer of First NBC or any of
+its subsidiaries rendered the warrant y false and defeats coverage for all insureds. 18
+The Court consolidated the two matters on August 17, 2022. 19 Hereinafter, these
+consolidated matters will be referred to as the “coverage litigation.”
+
+15 Id. ¶ 12.
+16 Id.
+17 E.D. La. Case No. 22-09, R. Doc. No. 1.
+18 E.D. La. Case No. 22-2070, R. Doc. No. 1.
+19 E.D. La. Case No. 22-09 c/w 22-2070, R. Doc. No. 188. A separate case, filed by the
+FDIC as receiver for First NBC against various individuals affiliated with First NBC,
+including Ryan, and certain insurers, is also pending before this Court. FDIC v. Ryan,
+et al., E.D. La. Case No. 20 -1253. In that action, FDIC seeks “to recover over $165
+million in losses [First NBC] suffered on dozens of loans that the individual
+Defendants” allegedly caused the bank “to make to financially distressed borrowers.”
+E.D. La. Case No. 20 -1253, R. Doc. No. 196, ¶ 2. FDIC also seeks to recover losses
+directly from certain insurance companies, including Illinois National, that provided
+Case 2:22-cv-04518-LMA-MBN   Document 73   Filed 07/13/23   Page 4 of 21
+5
+
+Just before the coverage litigation cases were consolidated, the United States
+sought leave to intervene in both cases due to the ongoing criminal case against Ryan
+and Beebe, among others. 20 The government also sought a stay of the coverage
+litigation due to the pending criminal case. The Court granted the government’s
+motion and stayed the consolidated cases , reserving the parties’ rights to move to
+reopen those cases within thirty days of entry of final judgment in the criminal case.21
+On November 15, 2022, w hile the criminal litigation was ongoing and the
+consolidated cases were stayed, Ryan and Beebe filed the above -captioned lawsuit.
+As in the coverage litigation, the litigants in this matter seek a judicial determination
+as to the legality of the warranty defense. The complaint alleges that Illinois National
+breached the insurance contract, that its failure to pay all defense costs is a bad-faith
+insurance practice entitling plaintiffs to fees and penalties, and it also requests a
+preliminary injunction ordering Illinois National to continue paying defense costs
+“until the Court makes a final ruling on the merits.”22
+On December 30, 2022, the I ndependent Directors—who are also covered
+under the Illinois National policy —filed a motion for leave to file a complaint -in-
+intervention.23 The U.S. Magistrate Judge assigned to this matter granted the motion
+
+D&O insurance during the relevant times. Id. ¶ 7. The FDIC case is not consolidated
+with the coverage litigation.
+20 E.D. La. Case No. 22-09, R. Doc. Nos. 187, 189.
+21 E.D. La. Case No. 22 -09 c/w 22 -2070, R. Doc. No. 231.  The government also
+intervened in the FDIC litigation, which was likewise stayed but is now reopened.
+22 R. Doc. No. 1, ¶¶ 31–35.
+23 R. Doc. No. 17.
+Case 2:22-cv-04518-LMA-MBN   Document 73   Filed 07/13/23   Page 5 of 21
+6
+
+on January 13, 2023. 24 The complaint -in-intervention, like Ryan and Beebes’
+complaint, alleges that the warranty defense is legally inadequate. It seeks
+declaratory relief to that effect , and alleges that Illinois National has acted in bad
+faith.25 Illinois National filed a motion to dismiss the  complaint-in-intervention,26
+and the I ndependent Directors thereafter filed an amended complaint -in-
+intervention.27 Illinois National has filed a motion to dismiss the amended complaint-
+in-intervention, which is largely identical to the original complaint -in-intervention,
+except that it also specifically alleges that Illinois  National breached the insurance
+contract and alleges entitlement “to an order requiring Illinois National to pay [the
+Independent Directors’] defense costs . . . unless and until a final and non-appealable
+judgment is rendered in Illinois National’s favor.”28
+After a jury trial in February of 2023, Ryan was convicted on all counts and
+Beebe was acquitted on all counts.29 The above-captioned civil matter was thereafter
+transferred to the undersigned because of relatedness with the consolidated and
+stayed civil matters already pending before the undersigned.30
+In the instant motions, Illinois National seeks dismissal of the complaint, the
+complaint-in-intervention,31 and the amended complain t-in-intervention on the
+
+24 R. Doc. No. 32.
+25 R. Doc. No. 17-4.
+26 R. Doc. No. 34.
+27 R. Doc. No. 41.
+28 Id.
+29 E.D. La. Case No. 20-65, R. Doc. Nos. 948, 950.
+30 R. Doc. No. 45.
+31 Because the Independent Directors’ original complaint-in-intervention is no longer
+the operative pleading, the Court will dismiss the motion to dismiss the original
+Case 2:22-cv-04518-LMA-MBN   Document 73   Filed 07/13/23   Page 6 of 21
+7
+
+grounds that the above -captioned matter is impermissibly duplicative of the
+consolidated coverage litigation , that the Louisiana bad -faith insurance statute
+pursuant to which Ryan and Beebe have asserted cl aims is inapplicable to this
+matter, and that Beebe and Ryan have failed to allege facts supporting a claim
+pursuant to that statute. 32 In their motions for partial summary judgment, Beebe,
+Ryan, and the Independent Directors  seek an order from this Court stating that
+Illinois National breached the insurance contract and that Illinois National acted in
+bad faith.
+II.  STANDARD OF LAW
+a. Motion to Dismiss
+Rule 12(b)(6) of the Federal Rules of Civil Procedure allows for dismissal of a
+complaint for “failure to state a claim upon which relief can be
+granted.” Fed. R. Civ. P. 12(b)(6). “To survive a motion to dismiss, a complaint must
+contain sufficient factual matter, accepted as true, to state a claim to relief that is
+plausible on its face.” Ashcroft v. Iqbal, 556 U.S. 662, 678 (2009) (citation and internal
+quotations omitted). A claim is facially plausible “when the plaintiff pleads factual
+content that allows the court to draw the reasonable inference that the defendant is
+liable for the misconduct  alleged.” Id. “The plausibility standard is not akin to a
+probability requirement, but it asks for more than a sheer possibility that a defendant
+
+complaint-in-intervention as moot; however, the Court notes that the legal
+arguments raised as to both complaints-in-intervention are identical.
+32 As discussed below, the Independent Directors did not allege claims pursuant to
+that statute.
+Case 2:22-cv-04518-LMA-MBN   Document 73   Filed 07/13/23   Page 7 of 21
+8
+
+has acted unlawfully.” Culbertson v. Lykos, 790 F.3d 608, 616 (5th Cir. 2015) (citation
+omitted) (internal quotation marks omitted).
+“[T]he face of the complaint must contain enough factual matter to raise a
+reasonable expectation that discovery will reveal evidence of each element  of the
+plaintiffs’ claim.” Hi-Tech Elec., Inc v. T&B Constr. & Elec. Servs., Inc., No. 15-3034,
+2017 WL 615414, at *2 (E.D. La. Feb. 15, 2017) (Vance, J.) (emphasis added) (citing
+Lormand v. US Unwired, Inc., 565 F.3d 228, 255–57 (5th Cir. 2009)). A complaint is
+insufficient if it contains “only labels and conclusions, or a formulaic recitation of the
+elements of a cause of action.”  Whitley v. Hanna, 726 F.3d 631, 638 (5th Cir. 2013)
+(citation and internal quotations omitted). It “must provide the defendant with fair
+notice of what the plaintiff's claim is and the grounds upon which it r ests.” Dura
+Pharms., Inc. v. Broudo, 544 U.S. 336, 346 (2005) (internal quotations omitted).
+In considering a motion to dismiss, a court views the complaint “in the light
+most favorable to the plaintiff, accepting as true all well -pleaded factual allegations
+and drawing all reasonable inferences in the plaintiff's favor.”  Lovick v. Ritemoney
+Ltd., 378 F.3d 433, 437 (5th Cir. 2004).
+b. Motion for Summary Judgment
+Summary judgment is proper when, after reviewing the pleadings, the
+discovery and disclosure materials on file, and any affidavits, a court determines that
+there is no genuine dispute of material fact and the movant is entitled to judgment
+as a matter of law. Fed. R. Civ. P. 56(a). “[A] party seeking summary judgment always
+bears the initial responsibility of informing the district court of the basis for its
+Case 2:22-cv-04518-LMA-MBN   Document 73   Filed 07/13/23   Page 8 of 21
+9
+
+motion, and identifying those portions of [the record] which it believes demonstrate
+the absence of a genuine issue of material fact.” Celotex Corp. v. Catrett, 477 U.S. 317,
+323 (1986). The party seeking summary judgment need not produce evidence
+negating the existence of a material fact; it need only point out the absence of evidence
+supporting the other party’s case. Id.; see also Fontenot v. Upjohn Co., 780 F.2d 1190,
+1195–96 (5th Cir. 1986) (“There is no sound reason why conclusory allegations should
+suffice to require a trial when there is no evidence to support them even if the movant
+lacks contrary evidence.”).
+ Once the party seeking summary judgment carries that burden, the
+nonmoving party must come forward with specific facts showing that there is a
+genuine dispute of material fact for trial. See Matsushita Elec. Indus. v. Zenith Radio
+Corp., 475 U.S. 574, 587 (1986). The showing of a genuine issue is not satisfied by
+creating “‘some metaphysical doubt as to the material facts,’ by ‘conclusory
+allegations,’ by ‘unsubstantiated assertions,’ or by only a ‘scintilla’ of evidence.” Little
+v. Liquid Air Corp., 37 F.3d 1069, 1075 (5th Cir. 1994) (citations omitted). Rather, a
+genuine issue of material fact exists when the “evidence is such that a reasonable
+jury could return a verdict for the nonmoving party.” Anderson v. Liberty Lobby, Inc.,
+477 U.S. 242, 248 (1986).  If the nonmovant fails to meet their burden of showing a
+genuine issue for trial that could support a judgment in favor of the nonmovant,
+summary judgment must be granted. See Little, 37 F.3d at 1075–76.
+“Although the substance or content of the evidence submitted to support or
+dispute a fact on summary judgment must be admissible . . . the material may be
+Case 2:22-cv-04518-LMA-MBN   Document 73   Filed 07/13/23   Page 9 of 21
+10
+
+presented in a form that would not, in itself, be admissible at trial.” Lee v. Offshore
+Logistical & Transp., L.L.C., 859 F.3d 353, 355 (5th Cir. 2017) (citations omitted).
+The party responding to the motion for summary judgment may not rest upon the
+pleadings but must identify specific facts that establish a genuine issue. See
+Anderson, 477 U.S. at 248. The nonmoving party’s evidence, however, “is to be
+believed, and all justifiable inferences are to be drawn in [the nonmoving party’s]
+favor.” Id. at 255.
+III. ANALYSIS
+a. Motions to Dismiss
+i. Duplicative Lawsuits
+“It is well established that a plaintiff is generally required to ‘ bring all claims
+arising out of a common set of facts in a single lawsuit, and federal district courts
+have discretion to enforce that requirement as necessary ‘to avoid duplicative
+litigation.’” Life Church of Oak Grove, Inc. v. GuideOne Mut. Ins. Co. , No. 18-1167,
+2019 WL 4803284, at *2 (W.D. La. Sept. 30, 2019) (quoting Elgin v. Dept. of Treasury,
+567 U.S. 1, 34 (2012) ) (further citations omitted). “‘ When a plaintiff files a second
+complaint alleging the same cause of action as a prior, pending, related action, the
+second complaint may be dismissed. ’” Id. (quoting Oliney v. Gardner, 771 F.2d 856,
+859 (5th Cir. 1985) ) (emphasis omitted). “When a district court becomes aware that
+the two actions begun by a plaintiff are virtually identical, the second complaint may
+be dismissed without prejudice or stayed until judgment is entered in the first.” Extex
+Case 2:22-cv-04518-LMA-MBN   Document 73   Filed 07/13/23   Page 10 of 21
+11
+
+Prod., Inc. v. Mid Continent Cas. Co. , No. 07-760, 2008 WL 191650, at *2 (M.D. La.
+Jan. 22, 2008).
+“District courts are accorded a great deal of latitude and discretion in
+determining whether one action is duplicative of another, but generally, a suit is
+duplicative if the claims, parties, and available relief do not significantly differ
+between the two actions.” Smith v. Saint Paul Travelers Ins. Co. , No. 19-1454, 2019
+WL 1756297, at *2 (E.D. La. Apr. 2, 2019) (Douglas, M.J.) (quoting Serlin v. Arthur
+Andersen & Co., 3 F.3d 221, 223 (7th Cir. 1993)); see also Braddy v. Infinity Assurance
+Ins. Co., No. 15-119, 2016 WL 1446202, at *1 (M.D. Fla. Apr. 11, 2016) (“Duplicative
+claims are those that stem from identical allegations, that are decided under identical
+legal standards, and for which identical relief is available .” (quotation and citation
+omitted)).
+The plaintiffs and I ndependent Directors argue that the fact that different
+remedies are sought in this matter and the other matter renders them non -
+duplicative.33 They argue that “[t]he injunctive relief sought in this case does not
+require [the] Court to reach the merits of the coverage dispute,” but rather “simply
+asks [the] Court to recognize that the subject policy and relevant policy considerations
+require Illinois National to continue paying the Independent Directors’ defense costs
+[and those of plaintiffs] unless and until a court determines that [the] warranty
+defense is valid in the Coverage Litigation.”34
+
+33 R. Doc. No. 36, at 8.
+34 Id. at 9.
+Case 2:22-cv-04518-LMA-MBN   Document 73   Filed 07/13/23   Page 11 of 21
+12
+
+The Court agrees that the different relief requested in the two lawsuits makes
+the lawsuits not entirely duplicative. Smith, 2019 WL 1756297, at *2.  Because the
+coverage litigation is no longer stayed, it is no longer true that  “there is no other
+avenue to obtain the relief sought herein.”35 However, to the extent that the plaintiffs
+and Independent Directors still plan to seek an injunction in the above -captioned
+case,36 this case is distinct from the coverage litigation, despite the fact that the
+ultimate legal questions are essentially the same. 37 Accordingly, based on the
+different relief requested in the lawsuits, the Court will deny the instant motions to
+dismiss. See id.  (noting that the district court has “a great deal of latitude and
+discretion in determining whether one action is duplicative of another”).
+ii. Section 1892 Claims
+Illinois National next argues that La. R.S.  § 22:1892, which provides for
+recovery of penalties and fees against insurers, applies only to property damage
+claims, not to the D&O policy at issue here. Plaintiffs’ complaint seeks fees and
+
+35 Id.
+36 Though Illinois National’s motions to dismiss make  substantive arguments as to
+the plaintiffs’ and the Independent Directors’ request for a preliminary injunction,
+neither the plaintiffs nor the Independent Directors have yet briefed their
+entitlement to such relief . The Court therefore makes no ruling as to the requested
+injunctive relief at this time. See R. Doc. Nos. 11, at 7 (Beebe’s opposition to the
+motion to dismiss, arguing that Illinois National’s briefing as to entitlement to a
+preliminary injunction is premature, and stating that he “will request [the injunction]
+in this case at the appropriate time and in the appropriate manner”).
+37 The Court also notes that ther e are certain parties , largely other insurance
+companies, named as defendants in the coverage litigation that are not parties to the
+instant matter.
+Case 2:22-cv-04518-LMA-MBN   Document 73   Filed 07/13/23   Page 12 of 21
+13
+
+penalties pursuant to this statute. 38 Illinois National further argues that this Court
+should dismiss plaintiffs’ claims pursuant to this statute because they have failed to
+allege facts giving rise to  a case or controversy, depriving the Court of jurisdiction.
+The Court addresses the latter argument first.
+“Article III of the Constitution limits federal courts ’ jurisdiction to certain
+‘Cases’ and ‘Controversies. ’” Taylor v. Denka Performance Elastomer LLC , 332 F.
+Supp. 3d 1039, 1049 (E.D. La. 2018) (Feldman, J.) (quotation and citation omitted).
+In order to bring an issue to federal court, the party invoking federal jurisdiction must
+show both that they have standing to sue and that the issue is ripe for adjudication.
+Id. Standing and ripeness are separate but related inquiries. Texas v. United Sates,
+497 F.3d 491, 496 (5th Cir. 2007) . “In general terms, standing is concerned with
+whether a proper party is bringing suit, while ripeness is concerned with whether the
+suit is being brought at the proper time.” Id. (citation omitted).
+Illinois National appears to challenge the ripeness of this lawsuit.39 “A case or
+controversy ‘must be ripe for decision, meaning that it must not be premature or
+speculative.’” Taylor, 332 F. Supp. 3d at 1052 (quoting Lower Colo. River Auth. v.
+Papalote Creek II, L.L.C., 858 F.3d 916, 922 (5th Cir. 2017) (further citation omitted)).
+“The two key considerations for a ripeness determination are the fitness of the issues
+for judicial decision and the hards hip to the parties of withholding court
+
+38 R. Doc. No. 1, ¶¶ 29 –30. The Independent Directors’ complaint -in-intervention
+seeks fees and penalties pursuant to a different Louisiana statute, La. R.S. § 22:1973.
+Illinois National does not appear to challenge that claim in the instant motions.
+39 See R. Doc. No. 10-1, at 10–11.
+Case 2:22-cv-04518-LMA-MBN   Document 73   Filed 07/13/23   Page 13 of 21
+14
+
+consideration.” Id. (quotation and citation omitted). “If the purported injury is
+contingent on future events that may not occur as anticipated, or indeed may not
+occur at all, the claim is not ripe for adjudication.” Lopez v. City of Houston, 617 F.3d
+336, 341 (5th Cir. 2010). However, “[w]hile standing to sue is assessed at the time of
+filing the complaint, in determining ripeness, a court may consider events that
+occurred after the filing of the complaint.” Regions Ins., Inc. v. Ace Prop. & Cas. Ins.
+Co., 80 F. Supp. 3d 730, 733 (M.D. La. 2015) (quoting Roman Catholic Diocese of
+Dallas v. Sebelius, 927 F. Supp. 2d 406, 424 (N.D. Tex. 2013)).
+Louisiana Revised Statute § 1892 provides, in relevant part, that “[a]ll insurers
+issuing any type of contract, other than [exemptions not relevant here] shall pay the
+amount of any claim due any insured within thirty days after receipt of satisfactory
+proofs of loss from the insured or any party in interest .” La. R.S.  § 1892(A )(1). It
+further provides that “failure to make such payment within thirty days after receipt
+of such satisfactory written proofs and demand therefor . . . when such failure is
+found to be arbitrary, capricious, or without probable cause, shall subject the insurer
+to a [monetary] penalty[.]” Id. § 1892(B)(1)(a).
+At the time the complaint was filed, Illinois National had not yet ceased its
+payments under the policy —it had merely informed the insureds  that it would not
+pay the portion of the policy that was issued subject to the warranty. However, since
+the filing of the complaint, Illinois National has in fact ceased payment. Accordingly,
+considering facts arising after the filing of the complaint, th e Court concludes this
+claim is ripe for adjudication. Regions Ins., Inc., 80 F. Supp. 3d at 733.
+Case 2:22-cv-04518-LMA-MBN   Document 73   Filed 07/13/23   Page 14 of 21
+15
+
+As noted, Illinois National also argues that § 1892, pursuant to which Beebe
+and Ryan allege their bad faith claims, does not apply to this case because the policy
+at issue is not a property or casualty insurance policy. This question of statutory
+interpretation is governed by Louisiana law. The Court starts with the language of
+the statute, and “[w]hen a law is clear and unambiguous and its application does not
+lead to absurd consequences, the law shall be applied as written and no further
+interpretation may be made in search of the intent of the legislature.” Gloria’s Ranch,
+LLC v. Tauren Expl., Inc. , 252 So.3d 431, 445 (La. 2018) (quotation and citation
+omitted).
+As noted, § 1892 states that “[a]ll insurers issuing any type of contract . . . shall
+pay the amount of any claim due any insured within thirty days after receipt of
+satisfactory proofs of loss from the insured or any party in interest. La. R.S. §
+1892(A)(1) (emphasis added). The statute specifically does not apply to life, health, or
+accident insurance policies, but no specific exemption is made for D&O policies.  Id.
+Accordingly, nothing in the text of the statute prevents its application to this
+matter.40
+Illinois National points out that the statute appears in a Part of the Louisiana
+Insurance Code entitled “Property and Casualty Insurance Claims Payments.” The
+placement of a statute within the code can elucidate ambiguities. Anderson v. Oschner
+
+40 Illinois National emphasizes that certain subsections of the statute refer
+specifically to “property damage claims.” R. Doc. No. 10-1, at 13. However, it ignores
+that subsection (A)(1) of the statute requires that “[a]ll insurers issuing any type of
+contract” must pay claims within thirty days of receipt of proof of loss.
+Case 2:22-cv-04518-LMA-MBN   Document 73   Filed 07/13/23   Page 15 of 21
+16
+
+Health Sys., 172 So.3d 579, 581 (La. 2014) (“In ascertaining the true meaning of a
+word, phrase, or section of a statute, the act as a whole must be considered. . . . When
+doubt exists as to the proper interpretation of a statute, the title or preamble may be
+used to determine legislative intent.” (citation omitted)). The language at issue here
+is not ambiguous, and the Court finds that the statute’s placement in the code doe s
+not alter  its plain meaning. 41 Accordingly, the Court finds that plaintiffs’ claims
+pursuant to § 1892 should not be dismissed on this basis.
+Having found that the complaint and amended complaint -in-intervention
+should not be dismissed pursuant to Illino is Nationals’ motions, the Court proceeds
+to the motions for summary judgment.
+
+41 The parties have not pointed to, and the Court has not identified, any cases
+squarely answering the question of whether § 1892 applies outside the context of
+property and casualty insurance claims. Illinois National cites Katie Realty, Ltd. v.
+La. Citizens Prop. Ins. Co. , wherein the Louisiana Supreme Court, interpreting the
+term “proof of loss,” wrote that the term “claim” in the statute “refers to an insurance
+claim, either property or casualty.” 100 So.3d 324, 331 (2012). This case does not
+address the issue at hand. Beebe and Ryan cite cases involving non –property and
+casualty insurance policies  in which courts have discussed the statute , but none
+specifically hold that the statute is applicable to such policies. E.g. , La. CNI, LLC v.
+Landmark Am. Ins. Co. , No. 06 -112, 2007 WL 9706524, at *13 (M.D. La. June 26,
+2007) (discussing the statute as applied to a D&O policy and denying summary
+judgment due to factual issues). The Court notes that the cases cited by Ryan and
+Beebe all applied the version of the statute in effect prior to the Louisiana
+legislature’s 2008 renumbering of the Insurance Code, which transferred § 1892 from
+a portion of the code entitled “The Insurance Contract” to a portion of the code entitled
+“Property and Casualty Insurance  Claims.” 2008 La. Sess. Law Serv. Act 415 (S.B.
+335) (West). In renumbering the statutes, however, the legislature specifically stated
+its intent to “redesignate the current provisions . . . without changing the substance
+of the provisions.” Id.
+Case 2:22-cv-04518-LMA-MBN   Document 73   Filed 07/13/23   Page 16 of 21
+17
+
+b. Motions for Summary Judgment
+Beebe, Ryan, and the Independent Directors seek summary judgment as to
+their breach of contract and bad faith claims. They assert that Illinois National
+breached the insurance contract by refusing to pay the amount of the policy subject
+to the warranty, and that such refusal was a bad faith insurance practice prohibited
+by Louisiana law.
+The three motions for summary make identical legal arguments, and all three
+rely heavily on Pendergest-Holt v. Certain Underwriters at Lloyd’s of London , 600
+F.3d 562 (5th Cir. 2010). In that case, certain executives  facing criminal charges
+related to an alleged Ponzi scheme sought coverage under a D&O insurance policy.
+Id. at 566. The insurers “ initially agreed to advance defense costs  . . . but expressly
+reserved the right to deny coverage at any time based on the policy’s terms, including
+exclusions for fraud and money laundering.” Id.  The money laundering exclusion in
+the policy barred “coverage for loss (including defense costs) resulting from any claim
+‘arising directly or indirectly as a result of or in connection with any act or acts (or
+alleged act or acts) of Money Laundering, ’” but “ provide[d] for qualified
+reimbursement of defense costs, coupled with the ability to claw back reimbursed
+funds from the insureds ” in certain circumstances. Id.  at 567. The policy provided
+that “[n]otwithstanding the [money laundering] [e]xclusion, [the insurers] shall pay
+Costs, Charges and Expenses in the event of an alleged act or alleged acts until such
+time that it is determined that the alleged act or alleged acts did in fact occur.” Id.
+Case 2:22-cv-04518-LMA-MBN   Document 73   Filed 07/13/23   Page 17 of 21
+18
+
+The insurers later denied coverage to the executives as of the date of another
+executive’s guilty plea “because [the insurers] had determined, based on the evidence
+available to them up to that point, that [m]oney [l]aundering, as defined by the policy,
+had occurred.” Id. at 568. The executives then filed a civil lawsuit against the insurers
+“seeking damages, a declaration that their defense costs must be reimbursed under
+the D&O Policy, and a preliminary injunction ordering the underwriters to pay their
+defense costs until a final judgment on the merits of the coverage dispute.” Id. The
+district court found that the money laundering exclusion likely would not preclude
+coverage and enjoined the insurers from withholding payment. Id.
+Interpreting the insurance contract, and applying Texas law, the Fifth Circuit
+held that the policy’s requirement that the insurers continue paying until “it is
+determined that [money laundering] did in fact occur” required “a judicial act.” Id. at
+574. The court rejected the insu rers’ argument that the insurers were entitled to
+make the requisite “determination in fact” unilaterally. Id.  In reaching this
+conclusion, the court relied on dictionary definitions of “determination,” the fact that
+the policy did not explicitly state tha t the determination was to be made by the
+insurers, and the principle that such an exclusion should be stated explicitly. Id.  at
+570.
+In so holding, the Fifth Circuit compared the “determined . . . in fact” language
+to another exclusion, which applied only after a “final adjudication.”  The court held
+that the “determined in fact” language meant that the decision of whether costs would
+be covered had to be determined “in a parallel and independent proceeding” as
+Case 2:22-cv-04518-LMA-MBN   Document 73   Filed 07/13/23   Page 18 of 21
+19
+
+opposed to “in the criminal or [se parate civil] SEC actions.” Id.  at 573.” In contrast,
+it concluded that “[w]hen a D&O policy requires a ‘ final adjudication’ to trigger an
+exclusion, courts have consistently held that the adjudication must occur in the
+underlying D&O proceeding, rather th an in a parallel coverage action or other
+lawsuit.” Id. at 572 (quotation and citation omitted).
+Beebe, Ryan, and the Independent Directors, relying on Pendergest-Holt, argue
+that Illinois National breached the insurance policy by “unilaterally ceasing payment
+before reaching the full limits of its policy for which it has sought but not yet obtained
+a judicial determination.”42 But, in contrast to the policy in Pendergest-Holt, there is
+nothing in the policy or warranty that required any “determination in f act” or “final
+adjudication” be made as to the falsity of the warranty. Indeed, the warranty simply
+provided that “if such claim(s), suit(s), action(s), knowledge or information exists, then
+such claim(s), suit(s), or action(s) and any claim(s), suit(s), o r action(s)  arising
+therefrom or arising from such knowledge or information is excluded from
+coverage[.]”43 It requires neither a determination in fact nor a final adjudication. This
+policy language is in stark contrast to that at issue in Penderg est-Holt, and renders
+the movants’ reliance on that case unavailing.44
+
+42 R. Doc. No. 40-1, at 6.
+43 R. Doc. No. 1-3, at 4–5 (emphasis added).
+44 The movants’ reliance on In re WorldCom, Inc. Securities Litigation , 354 F. supp.
+2d 455 (S.D.N.Y. 2005) fares no better.  In that case, the insurer asserted that it did
+not need to pay defense costs pursuant to a D&O policy that required such payments
+because “ the policies were issued in reliance on WorldCom's false financial
+statements and were therefore properly rescinded and are void ab initio.” Id. at 462.
+Applying New York contract law, the court wrote that, while “an insurer may avoid
+an insurance contract if the insured made a false statement of fact as an inducement
+Case 2:22-cv-04518-LMA-MBN   Document 73   Filed 07/13/23   Page 19 of 21
+20
+
+Beebe, Ryan, and the Independent Directors assert that Penderg est-Holt
+stands for the proposition that an insurer’s right to make a unilateral factual
+determination resulting in cessation of payments must always be expressly stated in
+the policy.45 The Court does not read Penderg est-Holt so broadly. The court in that
+case was faced with ambiguous policy language, because the policy at issue did not
+define what “determination in fact” meant. Indeed, the Fifth Circuit specifically noted
+that the “neither [party’s] interpretation [of the term] was unreasonable.” Id. at 571.
+Confronted with two plausible interpretations, the Court adopted the interpretation
+that favored the insured.
+ Pursuant t o Louisiana law, 46 “[if] an insurance contract is clear and
+unambiguous and does not lead to absurd consequences, the court shall apply the
+ordinary meaning of the contractual language.” Q Clothier New Orleans LLC v. Twin
+City Fire Ins. Co. , 535 F. Supp. 3d 574, 581 (E.D. La. 2021) (Lemelle, J.) (quotation
+and citation omitted). Ambiguities are to be resolved in favor of the insured, but, in
+the absence of ambiguity, “the court lacks authority to alter the terms of [the]
+insurance contract[ ].” Id. (quotation and citation omitted). Neither plaintiffs nor the
+Independent Directors have pointed to any ambiguous policy language, much less any
+explicit language supporting the proposition that a judicial determination of any kind
+
+to making the contract and the misrepresentation was material ,” the “contract of
+insurance remains in effect and the duty to pay defense costs is enforceable” until the
+issue of recission is adjudicated. Id.  at 465. This case is inapposite because Illinois
+National has not attempted to rescind the insurance contract. Instead, it seeks to
+enforce the terms of the warranty.
+45 E.g., R. Doc. No. 54, at 4.
+46 The Court notes that Pendergest-Holt applied Texas law, not Louisiana law.
+Case 2:22-cv-04518-LMA-MBN   Document 73   Filed 07/13/23   Page 20 of 21
+21
+
+was required to trigger the warranty exclusion. Accordingly, the Court finds that they
+have not carried their burden to show that they are entitled to summary judgment as
+to their breach of contract claims. Celotex, 477 U.S. at 323.
+Because the movants have failed to establish tha t summary judgment is
+appropriate as to the breach of contract claims, their motion as to the bad faith claims
+must fail also. Q Clothier, 535 F. Supp. 3d at 588 (“[W]hen a breach of insurance
+contract fails, a bad faith claim shall likewise fail. ”). Accordingly, the motions for
+summary judgment will be denied as to the bad faith claims.
+IV.  CONCLUSION
+For the reasons stated herein,
+IT IS ORDERED  that the motions 47 to dismiss the complaint and the
+amended complaint-in-intervention are DENIED.
+IT IS FURTHER ORDERED  that the motion 48 to dismiss the original
+complaint-in-intervention is DISMISSED AS MOOT.
+IT IS FURTHER ORDERED that the motions49 for summary judgment are
+DENIED.
+ New Orleans, Louisiana, July 13, 2023.
+
+_______________________________________
+         LANCE M. AFRICK
+           UNITED STATES DISTRICT JUDGE
+
+47 R. Doc. Nos. 10, 57.
+48 R. Doc. No. 34.
+49 R. Doc. No. 40, 42, 49.
+Case 2:22-cv-04518-LMA-MBN   Document 73   Filed 07/13/23   Page 21 of 21
