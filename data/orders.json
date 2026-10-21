@@ -2004,5 +2004,13 @@
 {"date":"2026-10-21","time":"16:20","judge":"BSL","case":"2:24-cv-02214","doc":"71","title":"Rijos v. Sanare Energy Partners, LLC et al","event":"Scheduling Order","src":"rss"},
 {"date":"2026-10-21","time":"16:38","judge":"SM","case":"2:24-cv-00269","doc":"77","title":"Stennis et al v. The Moorings of Oak Harbor Property Owners' Associati","event":"Set Hearings","src":"rss"},
 {"date":"2026-10-21","time":"16:41","judge":"GGG","case":"2:25-cv-00725","doc":"51","title":"Bordelon et al v. Jefferson Parish Sheriff's Office et al","event":"Terminate Hearings","src":"rss"},
-{"date":"2026-10-21","time":"16:43","judge":"BSL","case":"2:26-cv-02171","doc":"8","title":"Brown v. Crider et al","event":"Scheduling Order","src":"rss"}
+{"date":"2026-10-21","time":"16:43","judge":"BSL","case":"2:26-cv-02171","doc":"8","title":"Brown v. Crider et al","event":"Scheduling Order","src":"rss"},
+{"date":"2026-10-21","time":"16:44","judge":"GGG","case":"2:25-cv-00725","doc":"52","title":"Bordelon v. Jefferson Parish Sheriff's Office","event":"Order Setting/Resetting Hearing on Motion AND ~Util - Terminate Motions","src":"courtlistener"},
+{"date":"2026-10-21","time":"16:54","judge":"SM","case":"2:18-cv-05231","doc":"72","title":"Plaquemines Parish v. Linder Oil Company","event":"Order of Recusal","src":"courtlistener"},
+{"date":"2026-10-21","time":"17:20","judge":"JTM","case":"2:26-cv-00247","doc":"27","title":"Caldwell v. Einstein Charter School","event":"Scheduling Order","src":"courtlistener"},
+{"date":"2026-10-21","time":"17:32","judge":"ILRL","case":"2:18-cv-05213","doc":"84","title":"Jefferson Parish v. Anadarko E&P Onshore, LLC","event":"Order of Recusal","src":"courtlistener"},
+{"date":"2026-10-21","time":"17:34","judge":"ILRL","case":"2:18-cv-05218","doc":"66","title":"Plaquemines Parish v. June Energy, Inc.","event":"Order of Recusal","src":"courtlistener"},
+{"date":"2026-10-21","time":"17:36","judge":"ILRL","case":"2:18-cv-05220","doc":"77","title":"Plaquemines Parish v. Equitable Petroleum Corporation","event":"Order of Recusal","src":"courtlistener"},
+{"date":"2026-10-21","time":"17:39","judge":"ILRL","case":"2:18-cv-05252","doc":"70","title":"Jefferson Parish v. Canlan Oil Company","event":"Order of Recusal","src":"courtlistener"},
+{"date":"2026-10-21","time":"17:41","judge":"ILRL","case":"2:18-cv-05260","doc":"70","title":"Plaquemines Parish v. Helis Oil & Gas Company, LLC","event":"Order of Recusal","src":"courtlistener"}
 ]
