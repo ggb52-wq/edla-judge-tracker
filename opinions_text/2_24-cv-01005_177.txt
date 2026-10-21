@@ -1,0 +1,856 @@
+1
+
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+JOSEPH GONSOULIN      CIVIL ACTION
+VERSUS        NO. 24-1005
+BETA USA, INC., ET AL.                 SECTION “L”(4)
+ORDER & REASONS
+ Before the Court are three motions for summary judgment filed by Defendant Beta, USA
+Inc. R. Docs. 83, 94, and 96. Defendant Zhejiang Apollo Sports Technology Co., Ltd. has also
+filed a motion for summary judgment in its own right. R. Doc. 105. Plaintiff Joseph Gonsoulin
+opposes the motions. R. Docs. 136, 137, 138, 139. Defendants replied. R. Docs. 146, 147, 148,
+149. Oral argument  was held on Wednesday, July 23, 2023 at 9:00 A.M. R. Doc. 157. After
+considering the record, briefing, and applicable law, the Court now rules as follows.
+I. BACKGROUND
+This products liability case arises out of injuries sustained by Plaintiff Joseph Gonsoulin
+(“Gonsoulin”) while seated on an allegedly defective electronic motorcycle that unexpectedly took
+off and caused him to crash into a wall. R. Doc. 18. On the morning of October 10, 2023, Gonsoulin
+drove to his job at Champion Cycle Center in Covington, Louisiana where he worked as a
+motorcycle salesman.1 R. Doc. 140-21 at 11, 135 . Upon arrival, he noticed a brand new Beta
+Explorer Electric Motorcycle (the “Beta Explorer”) in the store’s showroom. Id. at 96. Gonsoulin’s
+co-worker, Madison Penton, had already walked two of the Beta Explorers outside of the store but
+
+1  Gonsoulin is a self -proclaimed “experienced motorcycle rider” who claims to have ridden approximately
+1,000 different motorcycles throughout his life. He has previously raced dirt bikes in motor cross leagues, winning
+various trophies and plaques throughout his racing career, and even had a motorcycle endorsement on his driver’s
+license. Id. at 34-37, 46-47, 80, 106.
+Case 2:24-cv-01005-EEF-KWR     Document 177     Filed 07/31/25     Page 1 of 30
+2
+
+left one inside the dealership because she thought Gonsoulin would want to see it. R. Doc. 83-10
+at ¶7, 11. Gonsoulin then asked Ms. Penton how the bike operated because she had apparently
+helped assemble it and rode one the day before in the store’s parking lot. Id. at  ¶ 3-5; R. Doc. 140-
+21 at 91; R. Doc. 140 -22 at 73-74. Gonsoulin then mounted the bike while it was still inside the
+Champion showroom. R. Doc. 140-21 at 96, 114, 127-28. It is undisputed that he did not read the
+Beta Explorer’s Owner’s Manual (the “Manual”) or put on any protective gear before  getting on
+the bi ke. Id. at 92, 96. While Gonsoulin was sitting on the Beta Explorer, Ms. Penton began
+showing him how to cycle through the bike ’s different modes, such as “Turtle,” “Rabbit,” and
+“Rocket” and eventually placed the bike into “READY” status. R. Doc. 83-10 at ¶12-13; R. Doc.
+140-21 at 91; R. Doc. 140-22 at 73-74. According to Ms. Penton, Gonsoulin then allegedly twisted
+the throttle, causing the bike to jump, and the two discussed the Beta Explorer’s “torque” and
+“power.” R. Doc. 83-10 at ¶13; R. Doc. 140-21 at 122 (Gonsoulin refuting Ms. Penton’s statement
+that he intentionally turned the throttle at any time on the date of the accident).
+After their conversation, Ms. Penton turned away and went to move a four -wheeler that
+was parked behind the Beta Explorer. R. Doc. 83 -10 at ¶14; R. Doc. 140- 22 at 146. Thereafter,
+Gonsoulin, who remained on the bike, alleges that he rested his right hand on the Beta Explorer’s
+right handlebar where the throttle is located with no intention of riding the bike. R. Doc. 140-21 at
+56. Gonsoulin then claims that the Beta Motorcycle suddenly entered “Rocket Mode,” accelerated
+without warning, and popped a “wheelie.” Id. at 58, 101. At that moment, Ms. Penton turned back
+and witnessed the accident in real time, noting that Gonsoulin was on balance but with his face
+down when he “went straight into the wall” approximately 25-30 feet ahead of him. R. Doc. 83-
+10 at ¶ 15; R. Doc. 83-7; R. Doc. 140-22 at 150-51. Gonsoulin states that he was unable to reach
+the brakes located on each handlebar due to the sudden force of the bike’s acceleration and thus
+Case 2:24-cv-01005-EEF-KWR     Document 177     Filed 07/31/25     Page 2 of 30
+3
+
+was searching for a kill switch or foot lever brake to stop it—both of which the Beta Explorer does
+not have—during the one to two seconds before the collision. R. Doc. 140-21 at 58, 104-05. As a
+result of the accident, Gonsoulin sustained multiple facial fractures and permanent damage to his
+spinal cord, which ultimately rendered him quadriplegic. Id. at 158, 216.
+On April 8, 2024, Gonsoulin filed the present action before this Court on the basis of
+diversity jurisdiction. R. Docs. 1, 18. He has sued both the manufacturer of the Beta Explorer —
+Defendant Zhejiang Apollo Sports Technology (“Apollo”) —and the bike’s American
+distributor—Defendant Beta USA, Inc. (“Beta USA”).2 Id. at 4-9. Gonsoulin asserts two causes of
+action under the Louisiana Products Liability Act, including failure to warn and defective design.
+Id. at 11-24; R. Doc. 157 (dismissing Gonsoulin’s negligence and strict liability claims based on
+the exclusivity of the LPLA). In support of his claims, he contends that the Beta Explorer was
+defective insofar as its motor safety system catastrophically and unexpectedly failed and because
+the bike had an overly-sensitive throttle as well as lacked a “kill switch” and rear foot pedal brake,
+which allegedly could have prevented the accident and/or minimized his injuri es. Id. Gonsoulin
+also argues that the Beta Explorer was deceptively advertised and failed to incorporate visible
+warnings related to the risk of the product’s sudden acceleration with full throttle use. Id.
+II. PR ESENT MOTION S
+ In the present motions, Defendants Beta USA and Apollo (“Defendants ”) move for
+dismissal on summary judgment of Gonsoulin’s failure to warn and design defect claims for
+various reasons. First, Defendants argue that Gonsoulin’s injuries from the motorcycle accident
+did not arise out of a “reasonably anticipated use” of the Beta Explorer, and thus, they cannot be
+held liable under the LPLA. R. Doc. 83. Second, Defendants contend that Gonsoulin’s failure to
+
+2  Apollo manufactures the Beta Explorer, which is then imported by Beta USA for distribution in the United
+States. Id. at 1, 10.
+Case 2:24-cv-01005-EEF-KWR     Document 177     Filed 07/31/25     Page 3 of 30
+4
+
+warn claim fails, inter alia, due to a lack of causation and the fact that the Beta Explorer’s warnings
+were otherwise adequate. R. Doc. 94. Third, Defendants aver that Gonsoulin’s design defect claim
+should be dismissed largely because he has failed to point to a specific alternative design or any
+expert testimony in support of adding the safety features at issue in this case. R. Doc. 96. In
+opposition, Gonsoulin maintains that there are genuine issues of material fact that preclude a
+finding of summary judgment as to his LPLA claims. R. Docs. 136, 137, 138, 139. Defendants
+replied, re-urging their stated arguments. R. Docs. 146, 147, 148, 149.
+III. APPLICABLE LAW
+a. Summary Judgment Standard
+ Summary judgment is proper when “there is no genuine dispute as to any material fact and
+the movant is entitled to judgment as a matter of law.” Fed. R. Civ. P. 56(a). The court must view
+the evidence in the light most favorable to the nonmovant. Coleman v. Hous. Indep. Sch. Dist.,
+113 F.3d 528, 533 (5th Cir. 1997). Initially, the movant bears the burden of presenting the basis
+for the motion; that is, the absence of a genuine issue as to any material fact or facts. Celotex Corp.
+v. Catrett, 477 U.S. 317, 323 (1986). The burden then shifts to the nonmovant to come forward
+with specific facts showing there is a genuine dispute for trial. See Fed. R. Civ. P. 56(c); Matsushita
+Elec. Indus. Co. v. Zenith Radio Corp., 475 U.S. 574, 586- 87 (1986). A fact is “material” if its
+resolution in favor of one party may affect the outcome of the case. See Saketkoo v. Adm’rs of
+Tulane Educ. Fund, 31 F.4th 990, 997 (5th Cir. 2022). “A dispute about a material fact is ‘genuine’
+if the evidence is such that a reasonable jury could return a verdict for the nonmoving party.”
+Bodenheimer v. PPG Indus., Inc., 5 F.3d 955, 956 (5th Cir. 1993) (citation omitted).
+b. Louisiana Products Liability Act
+ As an initial matter, the Court notes that its jurisdictional authority to decide the present
+Case 2:24-cv-01005-EEF-KWR     Document 177     Filed 07/31/25     Page 4 of 30
+5
+
+case is grounded in diversity, which requires a federal district cour t to apply the substantive law
+of the state in which it sits. Erie v. Tompkins , 304 U.S. 64, 71-77 (1938). Accordingly, the Court
+applies the Louisiana Products Liability Act to this products liability suit. The LPLA “establishes
+the exclusive theories of liability for manufacturers for damage caused by their products.” La. Rev.
+Stat. Ann. 9:2800.52. Plaintiffs may not rely on Louisiana law regarding negligence, strict liability,
+or breach of express warranty as a viable independent theory of recovery against a
+manufacturer. Jefferson v. Lead Indus. Ass’n, Inc., 106 F.3d 1245, 1251 (5th Cir. 1997) . The
+elements of a products liability claim under the LPLA are: “(1) that the defendant is a manufacturer
+of the product; (2) that the claimant’s damage was proximately caused by a characteristic of the
+product; (3) that this characteristic made the product ‘unreasonably dangerous;’ and (4) that the
+claimant’s damage arose from a reasonably anticipated use of the product by the claimant or
+someone else.” Sistrunk v. Dake Corp., No. 13-2983, 2015 WL 4164910, *4 (E.D. La. Jul. 9,
+2015); see also Jack v. Alberto-Culver USA, Inc., 2006-1883, 949 So. 2d 1256, 1258 (La. 2/22/07)
+(citing La. Rev. Stat. Ann. 9:280054(A)).
+ A product is “unreasonably dangerous” under the LPLA if and only if the product meets at
+least one of the following criteria: (1) the product is unreasonably dangerous in construction or
+composition as provided in  La. Rev. Stat. Ann. 9:2800.55; (2) the product is unreasonably
+dangerous in design as provided in  La. Rev. Stat. Ann. 9:2800.56; (3) the product is unreasonably
+dangerous because of an inadequate warning about the product as provided in  La. Rev. Stat. Ann.
+9:2800.57; or (4) the product is unreasonably dangerous because it does not conform to an express
+warranty of the manufacturer about the product as provided in  La. Rev. Stat. Ann.
+9:2800.58. However, “[i]f a plaintiff’s damages [do] not arise from a reasonably anticipated use
+of the product, then the ‘unreasonably dangerous’ question need not be reached.” Kampen v. Am.
+Case 2:24-cv-01005-EEF-KWR     Document 177     Filed 07/31/25     Page 5 of 30
+6
+
+Isuzu Motors, Inc., 157 F.3d 306, 309 (5th Cir. 1998).
+IV. ANALYSIS
+Beta USA and Apollo’s motions raise various issues that this Court must address: (1)
+whether Gonsoulin’s testing of the Beta Explorer prior to his accident qualifies as a “reasonably
+anticipated use” subjecting Defendants to liability under the LPLA; (2) whether Gonsoulin has a
+viable failure to warn claim under the LPLA; and (3) whether Gonsoulin has a viable defective
+design claim under the LPLA. The Court takes each in turn.
+a. Reasonably Anticipated Use
+The Court will begin its analysis by  addressing Defendants’ reasonably anticipated use
+arguments raised in their respective motions for summary judgment. R. Docs. 83, 105. The
+decision to take this issue first is not an arbitrary one. Indeed, “[r]easonably anticipated use” is a
+threshold requirement for a plaintiff’s recovery under the LPLA. Kelley v. Hanover Ins. Co., 98–
+506 (La. App. 5 Cir. 11/25/98), 722 So. 2d 1133, 1136, writ denied, 98-3168 (La.2/12/99), 738 So.
+2d 576 (“[B]efore reaching the question whether a product is unreasonably dangerous because of
+an inadequate warning, a plaintiff must first meet the threshold requirement of Sec. 2800.54 A,
+which is that the injury arose from a ‘reasonably anticipated use’ of the product. It is only after
+such use is shown that the inquiry moves on . . . . ”). Courts have thus consistently held that if a
+plaintiff fails to establish that his injury arose out of a “reasonably anticipated use,” the
+manufacturer is entitled to summary judgment as a matter of law. See e.g., Kampen, 157 F.3d at
+309 (finding plaintiff’s use of a car jack while he got underneath the vehicle to inspect it  was not
+a reasonably anticipated use); Lockart v. Kobe Steel Ltd. Cons. Mach. Div., 989 F.2d 864 (5th Cir.
+1993) (granting summary judgment where plaintiffs use of excavator to suspend a heavy pontoon
+by chaining it to the bucket’s teeth was not reasonably anticipated use due to the obviousness of
+Case 2:24-cv-01005-EEF-KWR     Document 177     Filed 07/31/25     Page 6 of 30
+7
+
+the danger); Broussard v. Procter & Gamble Co., 517 F.3d 767 (5th Cir. 2008) (holding plaintiff’s
+use of a heating blanket was not reasonably anticipated because she had violated the product’s
+express warnings). The justification for such a harsh outcome is that “if a manufacturer does not
+reasonably anticipate a plaintiff’s use, then he owes no duty to that consumer and is not responsible
+for any damages caused by misuse.” Sandifer v. Hoyt Archery, Inc., No. 12-322, 2015 WL
+5138271, at *3 (M.D. La. Aug. 31, 2015).
+The LPLA expressly defines “reasonably anticipated use” as “a use or handling of a
+product that the product’s manufacturer should reasonably expect of an ordinary person in the
+same or similar circumstances.” La. Rev. Stat. Ann. 9:2800.53(7). This language makes clear that
+what constitutes a “reasonably anticipated use” is an objective standard that is ascertained from
+the point of view of the manufacturer at the time the product left its control. Daigle v. Audi of Am.,
+Inc., 598 So. 2d 1304, 1307 (La. App. 3d Cir. 1991), writ denied , 604 So. 2d 1306 (La. 1992)
+(citing John Kennedy, A Primer on the Louisiana Products Liability Act , 49 L A. L. REV. 565
+(1989)). It also effectively discourages the factfinder from using hindsight in determining whether
+a use was “reasonably foreseeable” or not. Id.
+In Kampen v. American Isuzu Motors, Inc ., the Fifth Circuit directly addressed the scope
+of reasonably anticipated use under the LPLA and defined the term to include not only the
+ordinary, intended use of a product, but also some of the plaintiff’s negligence as well. 157 F.3d
+at 316. Furthermore, the court clarified that a manufacturer is not responsible for every
+conceivable, foreseeable use of its product,  holding that “reasonably anticipated use does not
+encompass misuses in direct contravention of a warning or where the danger should have been
+obvious to the experienced as well as the ordinary consumer.”3 Id. With these legal principles in
+
+3  It is important to note t he term “reasonably anticipated use” is considerably narrower in scope than its pre-
+LPLA counterpart, “normal use,” which included “all reasonably foreseeable uses and misuses of the product.”
+Case 2:24-cv-01005-EEF-KWR     Document 177     Filed 07/31/25     Page 7 of 30
+8
+
+mind, the Court proceeds to its analysis of this issue.
+i. Defining the Scope of Gonsoulin’s Use of the Beta Explorer
+ The Kampen decision compels this Court to make a preliminary determination delineating
+the scope of Gonsoulin’s conduct that comprised “use” of the Beta Explorer. McDaniel v. Terex
+USA, L.L.C., 466 F. App’x 365, 372 (5th Cir. 2012) (explaining the “Kampen framework” requires
+the court to first define the parameters of a plaintiff’s use of a product). This inquiry is imperative
+because whether a manufacturer could reasonably anticipate the plaintiff’s conduct is oftentimes
+dependent upon the extent of his or her use of the product in light of the case’s factual context. See
+Kampen, 157 F.3d at 309. To be sure, without a definitive summarization as to the manner in which
+Gonsoulin interacted with the bike leading up to the accident, it would be impossible to properly
+assess whether his use of the Beta Explorer was reasonably anticipated by the Defendants. See id.
+ Here, the Court observes that the parties have presented two competing theories regarding
+the extent of Gonsoulin’s interactions with the Beta Explorer leading up to the accident. Relying
+on an affidavit prepared by Ms. Penton, Defendants seem to suggest that Gonsoulin’s use of the
+Beta Explorer included deliberately operating the bike inside the Champion dealership and him
+somehow losing control of it. R. Doc. 83- 10. Conversely, Gonsoulin’s stance is that his only
+intention was to sit on the Beta Explorer and learn its controls, which as a salesman of the vehicle
+he needed to know to effectively carry out his job . R. Doc. 140-21 at 56-57. He had no desire to
+actually ride the bike inside the store. Id. Rather, he claims that it was the faulty, over -sensitive
+throttle that he barely touched, which ultimately caused the Beta Explorer to lurch forward and
+collide with the wall. Id.
+
+Compare Payne v. Gardner, 56 So. 3d 229, 231 (La. 2011), with Bloxom v. Bloxom, 512 So. 2d 839, 841 (La. 1987)
+(defining “normal use”). Thus, while “normal use” could potentially encompass misuse that was clearly contrary to
+the manufacturer’s instructions or warnings, “reasonably anticipated use” cannot include such activity—that is, actual
+intentional abuse of a product. Id.
+Case 2:24-cv-01005-EEF-KWR     Document 177     Filed 07/31/25     Page 8 of 30
+9
+
+ At face value, it appears that the parties’ diametrically -opposed interpretations of the use
+of the Beta Explorer presents a question of fact regarding the scope of his use. Indeed, Gonsoulin’s
+credibility and the weight of the testimony inform whether he truly meant to ride the bike in the
+store, which are issues traditionally in the province of a factfinder and not appropriately considered
+on summary judgment. However, counsel for Beta USA argued at oral argument that any
+consideration of Gonsoulin’s mindset regarding whether he intended to ride the Beta Explorer or
+not has no place in defining use under the LPLA and is thus immaterial to the Court’s analysis
+here. R. Doc. 157. Instead, Defendants maintain that a more generic definition based simply on
+Gonsoulin’s actions in interacting with the Beta Explorer —such as mounting the bike, flipping
+through the controls, and turning the throttle —is more appropriate. This Court agrees  with
+Defendants’ interpretation of the law.
+ As the Fifth Circuit has made clear in Kampen, defining the scope of a plaintiff’s use of a
+particular product “does not depend in any way on his mental state.” 157 F.3d at 311. Rather, the
+focus should only be on “what [the plaintiff] actually did and not what he intended to do.” Id.
+(noting that it would be “nonsensical” to make use depend on the “user’s mental state”). Applied
+here, the Court concludes that the proper scope of Gonsoulin’s use of the Beta Explorer on the date
+of the accident encompasses him: (1) mounting the bike inside; (2) interacting with it to learn its
+controls; and (3) moving the throttle that caused the bike to lurch forward. This definition is in line
+with the applicable LPLA case law on this issue, which requires a plaintiff’s use be delineated at
+“a level of generality” without regard to any subjective intent. See id. (citing Delphen v. Dep’t of
+Transp. & Dev., 657 So. 2d 328 (La. App. 4th Cir. 1995)  and Johnson v. Black & Decker U.S.,
+Inc., 701 So. 2d 1360 (La. App. 2d Cir.1997) as examples). Any reference to whether Gonsoulin
+actually intended to turn the throttle is more appropriately considered with regard to whether he
+Case 2:24-cv-01005-EEF-KWR     Document 177     Filed 07/31/25     Page 9 of 30
+10
+
+violated any of the bike’s express warnings and the obviousness of the danger as further discussed
+below. The question remains, how ever, whether this use  defined by the Court  was reasonably
+anticipated.
+ii. Whether Gonsoulin’s Use of the Beta Explorer I s Reasonably
+Anticipated
+
+Having properly defined what actions constituted Gonsoulin’s use of the Beta Explorer on
+the date of the accident, the Court is now prepared to discuss whether there is legally sufficient
+evidence showing that Defendants could have reasonably anticipated his specific use of the Beta
+Explorer on these facts. Courts typically consider several factors in determining whether a
+particular use is reasonably anticipated by a manufacturer, such as: (1) whether the injured party
+used the product in a manner that was obviously dangerous; (2) what the user was instructed to do
+and warned not to do with respect to the use of the product; (3) whether the use of the product was
+expressly warned against in the product ’s labeling or manual ; (4) the specific language of th e
+product’s warnings, and (5) the sophistication and experience of the user. Sandifer, 2015 WL
+5138271, at *3 (collecting cases). Drawing upon these principles of law, Defendants argue here
+that Gonsoulin’s handling of the Beta Explorer “inside of an enclose d building with numerous
+obstacles and walls,” “without wearing appropriate protective equipment,” and “without
+familiarizing himself with the controls” is contrary to the bike’s express warnings and otherwise
+constitutes an “open and clear” danger that any user should have known. Therefore, they take the
+position the record indisputably supports the conclusion that Gonsoulin was not engaged in a
+reasonably anticipated use of the Beta Explorer when he was injured, absolving them of any
+liability. The Court, however, must disagree for the following reasons.
+1. Express Warning
+
+As an initial matter, the Court recognizes there is simply no question under the LPLA that
+Case 2:24-cv-01005-EEF-KWR     Document 177     Filed 07/31/25     Page 10 of 30
+11
+
+“reasonably anticipated use” does not include uses of a product which are in direct contravention
+to a manufacturer’s instructions and warnings. Kampen, 157 F.3d at 314. The Louisiana Supreme
+Court’s most recent pronouncement on this issue is illustrative. In Hardisty v. Walker, the plaintiff
+and his co-worker attached chains from a tractor to a bulldozer that was stuck in the mud in order
+to remove it. 2025-00239 (La. 6/3/25), 410 So. 3d 774. As the men attempted to tow the bulldozer,
+one of the chains snapped and flew backward, striking the plaintiff in the head and face. Id. at 776-
+777. Plaintiff subsequently brought claims under the LPLA against several parties, includi ng the
+manufacturer of the bulldozer , Caterpillar. Id. On summary judgment, Caterpillar argued that
+plaintiff was not engaged in a reasonably anticipated use of its product because the bulldozer’s
+manual explicitly stated: “Do not use a chain for pulling a disabled machine. A chain link can
+break. This action may cause personal injury.” Id. at 777. In light of this warning language, the
+court upheld the trial court’s granting of summary judgment, finding that there is no reasonably
+anticipated use where Caterpillar’s manual expressly warned users, such as plaintiff, against using
+chains to tow a disabled machine, and there was no evidence that Caterpillar knew of any incidents
+or accidents involving the use of a chain to tow a disabled machine at any time before the product
+hit the market. Id. at 779-80.
+Here, Defendants argue that this Court is presented with the same factual scenario. More
+specifically, they point out that Gonsoulin, like the Hardisty  plaintiff, failed to follow various
+warnings and instructions on the bike’s label and Manual, including:
+• “Check the condition of the vehicle and its surroundings before starting so as to
+avoid accident.” R. Doc. 83-4 at 5 (Beta Explorer manual).
+
+• “For your safety, always wear helmet and protection equipment while riding.”  R.
+Doc. 83-5 (Beta Explorer label).
+
+• “Always wear helmet and protection equipment.” Id.
+
+Case 2:24-cv-01005-EEF-KWR     Document 177     Filed 07/31/25     Page 11 of 30
+12
+
+• “The rider shall receive good riding training in all functions of the vehicle with the
+necessary technical instruction for off -road riding, as well as wear the protective
+gear for off-road equipment.” R. Doc. 83-4 at 3.
+
+• The Manual provides a detailed list of the off-road equipment that should be worn
+when riding a dirt bike, including: “Anti -armor,” “Helmet,” “Goggles,” “Off-road
+gloves,” “Boots,” and “Clothing.” Id. at 5.
+
+• “Please read instruction handbook carefully before your first ride.”  R. Doc. 83-5.
+
+• “This manual explains the correct and safe use of the vehicle and a simple
+inspection before using. Please read the operation instructions carefully.” R. Doc.
+83-4 at 2.
+
+• “The instructions in this User Manual are prepared for your own safety. Please read
+this User Manual carefully before operating the vehicle to ensure that you have a
+thorough understanding of how to operate and control.” Id. at 3.
+
+• “Check whether the function of the throttle is normal, and the rotation is smooth
+without jamming. Whether the return position is normal.” Id. at 16.
+
+• “Before departure, please familiarize yourself with all of the control components of
+the vehicle and how to operate them.” Id. at 17.
+
+• “Slowly turn the throttle (right) to start riding.” Id.
+
+The Court concludes, however, there is a material factual dispute in the interpretation of the Beta
+Explorer’s warnings and instructions and how they apply to Gonsoulin as a salesman, not a
+potential buyer, that warrant a different outcome here than the one reached in Hardisty.
+As this Court has already observed earlier in this order, Gonsoulin testified that when he
+mounted the Beta Explorer inside the Champion dealership, he never intended to ride it and that
+his moving of the throttle was unanticipated. R. Doc. 140- 21 at 56- 57. This factual assertion is
+crucial because there was notably no question in Hardisty that the plaintiff intended to “misuse”
+and/or “abuse” the bulldozer vis-à-vis improperly attaching chains to it. See Hardisty, 410 So. 3d
+at 774. But here, the turning of the throttle and the movement of the Beta Explorer that ultimately
+led to his injuries may or may not have been a deliberate choice that he made.
+Case 2:24-cv-01005-EEF-KWR     Document 177     Filed 07/31/25     Page 12 of 30
+13
+
+The Court notes that Gonsoulin’s interpretation of the facts is not without support; Ms.
+Penton’s and Gonsoulin’s deposition testimony provide at least some objective  evidence for his
+telling of the events. For instance, both stated that employees at this specific Champion dealership,
+including Gonsoulin, very rarely rode motorcycles like the Beta Explorer inside to test drive them
+or even to move them out side for display. R. Doc. 140- 21 at 64; R. Doc. 140- 22 at 107, 108
+(explaining employees only occasionally started up engines inside and that she only ever sa w
+Gonsoulin on a bike inside on the date of the accident). And to the extent that they did, the bikes
+were moved at idle speeds. R. Doc. 140-21 at 67. Furthermore, Ms. Penton specifically testified
+that Gonsoulin had some paralysis in right hand from a previous car accident , which the Court
+finds could have contributed to the reason why the throttle was unintentionally activated on the
+date of the accident. R. Doc. 140-22 at 93.
+ Thus, taking Gonsoulin’s position as true as this Court is required to do on summary
+judgment, such evidence of a lack of intent  coupled with objective facts  seriously calls into
+question whether the Beta Explorer’s warnings and instructions even applied to him. See Coleman,
+113 F.3d at 533. Indeed, the specific ones that  Defendants chose to highlight here appear to be
+directed at users attempting to ride the bike, rather than salesmen who are just sitting on it to learn
+the controls. As such, a factual determination involving the interpretation of the Beta Explorer’s
+warnings and instructions is needed to ascertain whether Gonsoulin was really required to consider
+his surroundings, put on any safety gear, or read the instructions within the context of his specific
+use as a salesman trying to learn the controls of a vehicle that he was tasked with selling. See id. If
+it is indeed true that Gonsoulin was not planning on moving the Beta Explorer in any way, it is not
+beyond reason that he would take a more casual approach in using the bike in accordance with his
+Case 2:24-cv-01005-EEF-KWR     Document 177     Filed 07/31/25     Page 13 of 30
+14
+
+stated intention. 4
+Furthermore, as Gonsoulin points out in his opposition, there may be some merit to the
+argument that he was actually in compliance with the Beta Explorer’s instructions. R. Doc. 137 at
+9-10. For instance, the Beta Explorer’s M anual specifically requires users to familiarize
+themselves with the bike before riding it,5 which is exactly what he claims he was doing when the
+accident occurred. Nowhere in the manual does it warn or provide a pictogram conveying the idea
+that sitting on the motorcycle or gently touching the throttle indoors—particularly in a dealership
+context—is dangerous or prohibited. See generally R. Doc. 83-4. The Court thus finds that the lack
+of a more specific warning coupled with Gonsoulin’s alleged adherence to the manual’s general
+recommendation to familiarize presents yet another material fact question as to whether his actions
+were in “direct contravention” of the Beta Explorer’s instructions and warnings. A jury is more
+appropriately equipped to construe Gonsoulin’s mental impressions and how exactly they are
+intertwined with his actual physical use of the Beta Explorer.
+2. Obvious Danger
+
+In the alternative, Defendants argue that Gonsoulin’s use of the Beta Explorer as an
+experienced motorcycle rider cannot be considered reasonably anticipated because handling the
+
+4  While the Court is aware that the Kampen decision dictates that a user’s subjective mindset may not be
+accounted for in defining use, whether Gonsoulin acted in direct contravention of the Beta Explorer’s instructions and
+warnings is a more distinct and granular inquiry that does not necessarily prohibit such considerations. The Louisiana
+Supreme Court’s seminal case on  reasonably anticipated use supports this. See Butz v. Lynch , 99-1070 (La. App. 1
+Cir. 6/23/00), 762 So. 2d 1214, 1218, writ denied , 00–2660 (La. 11/17/00). In Butz, the question presented on appeal
+was whether the plaintiff’s  deliberate inhalation  of air brush propellant to produce an intoxicating effect while
+operating a motor vehicle constituted a “reasonably anticipated use” of that product by an ordinary person under the
+current construction of the LPLA. Id.  at 1215.  The court unequivocally held that it was not, agreeing with two
+Louisiana appellate courts that the “ intentional abuse of a chemical product for the purpose of getting high is not, as
+a matter of law, a reasonably anticipated use of the product.” Id.  at 1218 (emphasis added). Plaintiff’s state of mind
+and his deliberate decision to huff the propellant’s contents was front and center in the court’s reasoning, which
+provides justification for taking into account Gonsoulin’s intentions at least to some extent in the present analysis. See
+id.
+5  “Before departure, please familiarize yourself with all of the control components of the vehicle and how to
+operate them.” R. Doc. 83-4 at 17.
+Case 2:24-cv-01005-EEF-KWR     Document 177     Filed 07/31/25     Page 14 of 30
+15
+
+bike inside, without protective gear, and without reading the instructions would have presented an
+obvious danger to any user. This argument invokes the specific language of the LPLA, stating that
+a manufacturer’s duty to warn does not extend to dangers that are or should be obvious or common
+knowledge to the ordinary user or handler of the product. See Ballam v. Seibels Bruce Ins. Co., No.
+97-1444 (La. App. 4 Cir. 4/1/98), 712 So. 2d 543, 550; Mallery v. Int’s Harvester Co., No. 96-321
+(La. App. 3 Cir. 11/6/96), 690 So. 2d 765, 768.  Courts have found t his rule  to be even more
+exacting where “ the user is familiar with the product, making him a ‘sophisticated user.’ ”
+Ballam, 712 So. 2d at 550 (citation omitted). “To be relieved of the duty to warn, the manufacturer
+need not show that the user had actual knowledge of the danger,” but rather “only that the user
+should have known of the danger.” Mallery, 690 So. 2d at 768 (citations omitted). More over,
+courts have presumed that so-called “sophisticated users” know about the danger because of their
+familiarity with the product.  Id. (citations omitted); see also  LaSalle v. Wilson Trailer Co.,
+Inc., 2000-1731 (La. App. 3 Cir. 5/30/01), 787 So. 2d 1173, 1178-79;  Morgan v. Gaylord
+Container Corp., 30 F.3d 586, 591 (5th Cir. 1994) ; Gautreaux v. Tex -Steam Co., 723 F. Supp.
+1181, 1182-83 (E.D. La. 1989).
+Applying this case law here, the Court notes preliminarily that whether Gonsoulin should
+have had a heightened understanding of the dangers that the Beta Explorer as a “sophisticated
+user” is a question of fact. The Court concedes there is no dispute that Gonsoulin has extensive
+experience selling, riding, and even competing on gasoline-powered motorcycles. R. Doc. 140-21
+at 34-37, 46-47, 80, 106.  The same cannot be said, however, of his background with electronic
+motorcycles, such as the Beta Explorer. For instance, Gonsoulin testified in his deposition that he
+has only ridden a handful of electric motorcycles. R. Doc. 140-21 at 46-47 (stating that Gonsoulin
+has only ever ridden three different electric motorcycles) . This is important because as the
+Case 2:24-cv-01005-EEF-KWR     Document 177     Filed 07/31/25     Page 15 of 30
+16
+
+Defendants themselves  note elsewhere in their briefing , there are notable differences between
+gasoline and electric motorcycles to such an extent that they are best considered to be separate
+products in certain regards . R. Doc. 96- 1 at 12 ( explaining electric motorcycles do not have a
+clutch and gears, the same auditory and tactile feedback, or the same acceleration capabilities).
+Accordingly, the Court is hesitant to impute Gonsoulin’s extensive knowledge regarding gas -
+powered bikes to the facts at hand and thus refrains from declaring him a sophisticated user at this
+time.
+Additionally, the “obviousness” of the danger posed by the Beta Explorer is inherently a
+factual inquiry. What might seem clearly dangerous to one person might not be so as to the next;
+it is not this Court’s place to inject its particular perceptions as to Gonsoulin’s acts into the analysis.
+Rather, the Court’s duty is to consider the sufficiency of evidence on summary judgment, and there
+is more than enough for a jury to reasonably conclude that Gonsoulin’s use of the Beta Explorer
+did not present any obvious dangers. See Matsushita, 475 U.S. at 586-87. At the sake of
+redundancy, the Court emphasizes once again that Gonsoulin says he had no intention of riding
+the bike and avers that merely placing his hand on the bike’s loose throttle caused it to move. R.
+Doc. 140-21 at 56-57. Thus, it is unclear to the Court whether it can be conclusively established at
+this stage in the proceedings that Gonsoulin imperiled himself to the same degree that other
+plaintiffs who had their claims dismissed under the so-called “clear and obvious” theory did. See,
+e.g., Lockart, 989 F.2d at 867- 68 (use of an excavator bucket to move an object was an obvious
+danger and, therefore, not a reasonably anticipated use); Spears v. Cintas Sales Corp., 414 F .
+App’x 667, 670 (5th Cir. 2011) (danger of exposing polyester uniform to flame was obvious and,
+thus, not a reasonably anticipated use); In re Crosby Marine Transp., LLC , 540 F. Supp. 3d 588,
+595 (E.D. La. 2021) (replacing a navigation light by zip- tying a temporary light to a shorter pole
+Case 2:24-cv-01005-EEF-KWR     Document 177     Filed 07/31/25     Page 16 of 30
+17
+
+was an obvious danger and, therefore, not a reasonably anticipated use). As such, the question of
+obviousness, the Court finds, is one of material fact.
+3. Gonsoulin’s Use of the Beta Explorer as a Motorcycle
+Salesman
+
+With Defendants summary judgment arguments dispensed with then, the Court is now left
+with the facts of this case taken in the light most favorable to  Gonsoulin. See Coleman, 113 F.3d
+at 533. A motorcycle salesman who is required to sell the new Beta Explorer mounts the bike
+inside to learn the controls, and in putting his hand on the bike’s throttle, the bike lurches forward
+causing him to severe injuries. Such a scenario is not so clearly beyond contemplation that this
+Court can conclusively say that Gonsoulin’s use of the Beta Explorer surpassed what Defendants,
+as the manufacturer and distributer of the bike, could have reasonably anticipated in this specific
+factual context. Accordingly, this issue is ripe for trial and must be submitted to the jury. See
+McDaniel, 466 F. App’x at 374 (stating that the “issue of reasonably anticipated use should [be]
+left for our presumptively trustworthy, traditional fact-finder: the jury”).
+b. Failure to Warn
+ Next, the Court will address whether dismissal of Gonsoulin’s failure to warn claim is
+warranted on summary judgment . T o maintain a failure -to-warn claim, a plaintiff must
+demonstrate that “(1) the product possessed a characteristic that may cause damage[,] and (2) the
+manufacturer failed to use reasonable care to provide an adequate warning of such characteristic
+and its danger to users and handlers of the product.” La. Rev. Stat. Ann. § 9:2800.57(A). In
+establishing the first element, a plaintiff must pr ovide evidence about the “ cause, frequency,
+severity, or consequences ” of the dangerous characteristic in question. Grenier v. Med. Eng’g
+Corp., 243 F.3d 200, 205 (5th Cir. 2001) ; see also Krummel v. Bombardier Corp., 206 F.3d 548,
+552 (5th Cir. 2000) (finding that liability for failure-to-warn requires a plaintiff to provide evidence
+Case 2:24-cv-01005-EEF-KWR     Document 177     Filed 07/31/25     Page 17 of 30
+18
+
+of the probability or risk of injury from the allegedly damaging characteristic of the product). As
+to the second element, the LPLA defines “adequate warning” as a warning or instruction that would
+lead an ordinary reasonable user or handler of a product to contemplate the danger in using or
+handling the product and either to decline to use or handle the product or, if possible, to use or
+handle the product in such a manner as to avoid the damage for which the claim is made. La. Rev.
+Stat. Ann. § 9:2800.53(9). Further, “an essential element of the plaintiff’s cause of action for failure
+to adequately warn of a product’s danger is that there be some reasonable connection between the
+omission of the manufacturer and the damage which the plaintiff has suffered.” Id. at 850.
+ Here, Gonsoulin submits that the Beta Explorer should have had more effective warnings
+to be provided in a more reasonably accessible manner. R. Doc. 18; R. Doc. 138. However,
+Defendants argue, inter alia, that such warnings would have been futile because Gonsoulin never
+read the Beta Explorer’s instructions or warnings in the first place. R. Doc. 94. They also claim
+that the warnings that were provided were more than sufficient to notify users of the specific
+dangers that the Beta Explorer posed. Id. The Court will address each of these issues in turn.
+i. Causation
+First, Defendants assert that Gonsoulin’s failure to warn claim must be dismissed on
+causation grounds. More specifically, they contend that because Gonsoulin admits to not reading
+the Beta Explorer’s warnings in the manual or on the bike’s label, he cannot prove that any alleged
+failure to warn was the proximate cause of his injuries. Indeed, courts have routinely held that
+where a plaintiff entirely failed to read a product’s warnings or label, there was no causation and
+thus dismissed their LPLA claims. See, e.g., Bloxom v. Bloxom, 512 So. 2d 839, 850-51 (La. 1987)
+(finding plaintiff was unable to defeat summary judgment for a lack of a causal relationship where
+he did not read a car’s product manual); Peart v. Dorel Juv. Grp., Inc., 456 F. App’x 446, 447 (5th
+Case 2:24-cv-01005-EEF-KWR     Document 177     Filed 07/31/25     Page 18 of 30
+19
+
+Cir. 2012) (affirming summary judgment where plaintiff did not read warning on a stool and thus
+could not prove causation for failure to warn); Fernandez v. Tamko Bldg. Prods., Inc., 456 F.
+App’x 446, 447 (5th Cir. 2012) (affirming dismissal of LPLA failure to warn where plaintiff did
+not read any warnings associated with a felt roofing product). The legal rationale behind these
+rulings is that “because no warning was read before using the product, the warning, inadequate as
+it might have been, could not have been a cause of the injury suffered by the use of the product.”
+Fernandez, 456 F. App’x at 447. The Court finds on further reflection, however, that the present
+case is distinguishable and does not necessarily mandate the same result as those cases  for two
+reasons.
+First, unlike in Bloxom , Peart, and Fernandez , there is evidence that Gonsoulin actually
+attempted to read the Beta Explorer’s label but was allegedly unable to do so due to the words’
+font size. R. Doc. 140-21 at 93, 185 (explaining that Gonsoulin would need a “magnifying glass”
+to see the label). Gonsoulin’s co-worker, Ms. Penton, also claims that she had the same experience
+when test driving the Beta Explorer the day before the accident, testifying that she did not read the
+bike’s label because it was “so small that really you [could not] read [the warnings] on there.” R.
+Doc. 140-22 at 77. Even one of Gonsoulin’s expert witnesses stated that he struggled with reading
+the warning label. R. Doc. 140-11 at 4 (“The warning labels as seen on the photographs submitted
+for review has lettering that is quite small and almost unreadable without concerted effort.”). This
+evidence is key because the Beta Explorer’s label notably instruct s users to read the manual. R.
+Doc. 94-5. But if that instruction were not reasonably legible to Gonsoulin, or Ms. Penton for that
+matter, it is unclear whether they were adequately on notice that reading the Beta Explorer’s
+Manual was absolutely imperative or any of the specific dangers that the bike posed. Put more
+simply—but for the label’s  alleged inadequate font size, Gonsoulin could have had a fairer
+Case 2:24-cv-01005-EEF-KWR     Document 177     Filed 07/31/25     Page 19 of 30
+20
+
+opportunity to assess the risk involved in using the Beta Explorer.
+While the Court is aware that no other court tasked with interpreting the LPLA has
+recognized a “font size theory” similar to the one proffered by Gonsoulin here, persuasive authority
+provides the needed support. For instance, in O’Neal v. Bumbo International Trust , a federal
+district court in this Circuit denied summary judgment based on the fact a plaintiff had alleged
+they could not read a kitchen counter seat label that was printed in six-point font. 959 F. Supp. 2d
+972, 978 (S.D. Tex. 2013). In doing so, the court held that:
+Such small print can make the warning inconspicuous and subject
+to a factual determination of inadequacy. “ Numerous decisions
+confirm that the physical characteristics of the warning itself are
+pertinent to the evaluation of its adequacy. The warning’ s
+conspicuousness, prominence, and size of print, in comparison to
+the print size employed for other parts of the manufacturer’s
+message, must be adequate to alert the reasonably prudent person.”
+Madden, Owen & Davis, Madden & Owen on Products Liability §
+9:10 (citation and internal quotation marks omitted); see also Lewis,
+Product Liability: Design and Manufacturing Defects § 4:9 (noting
+that warnings should be “eye arresting ” and “ may be inadequate
+because they are not conspicuous enough” ). Plaintiffs list other
+potential inadequacies identified by their expert, regarding such
+things as the fadeability of the print, the contrast between the color
+of the print and the seat, the all-capital lettering, and the order in
+which the warnings are given. While some of these theories seem
+more plausible than others, a fact question remains for the jury to
+resolve about the adequacy of the on-seat warning. Accordingly,
+summary judgment is not appropriate.
+
+Id. at 979-80. The Court agrees with this reasoning and finds it pertinent not only to the adequacy
+inquiry but also causation—especially  where a failure to read is accompanied by a potentially
+egregious choice in the form in which a manufacturer conveys its warnings.6
+
+6  Although the court in O’Neil was applying Indiana products liability law, the Court could find no meaningful
+distinction between that law and the LPLA, such that it would not be informative whatsoever in this context. Compare
+Ind. Code Ann. § 34- 20-2-2 (“[T]he party making the claim must establish that the manufacturer or seller failed to
+exercise reasonable care under the circumstances in designing the product or in providing the warnings or instructions)
+with La. Rev. Stat. Ann. § 9:2800.57(A) (A plaintiff must prove that “a manufacturer failed to use reasonable care to
+provide an adequate warning of such characteristic and its danger to users and handlers of the product .”).
+Case 2:24-cv-01005-EEF-KWR     Document 177     Filed 07/31/25     Page 20 of 30
+21
+
+Second, the Court notes that whether the Beta Explorer’s manual was  reasonably made
+available to Gonsoulin for his review as a motorcycle salesman, and not a buyer, is seriously in
+question. As noted in Ms. Penton’s deposition, the bike’s manual was “stored in a nice, pretty box”
+because she “did not want to ruin [it] for a customer who was going to buy it.” R. Doc. 140- 22 at
+78. With this in mind , there is no indication on the record that Defendants provided a separate
+manual for dealership sales persons to review before  sitting on or even  test driving the Beta
+Explorer—not only so that they can understand the product that they are trying to sell, but also to
+warn them in demonstrating its capabilities to customers as required by their position. Indeed, as
+Ms. Penton’s deposition testimony indicates, customers were not permitted to ride the motorcycles
+at this Champion dealership. R. Doc. 140-22 at 54, 69. Instead, employees like her and Gonsoulin
+were made to test drive the bikes, like the Beta Explorer, in order for the customers to assess how
+they ride. Id. at 103, 133-34 (explaining Ms. Penton was required to drive a Beta Explorer for a
+customer after the accident occurred).
+As such, the Court finds that there is a genuine issue of material fact if Gonsoulin’s failure
+to read the Beta Explorer’s warnings and instructions was the result of user inattention and
+assumption of risk or Defendants’ failure to communicate the warnings in a reasonably accessible
+manner to Gonsoulin. Whether Defendants could have made the Beta Explorer’s label font size
+larger or provided Gonsoulin a copy of the manual as a person tasked with selling their bike are
+jury questions that present viable cau sation theories for Gonsoulin’s failure to warn claim. More
+specifically, these theories explain that it could be due to Defendants’ chosen methods in warning
+Gonsoulin that he did not read the Beta Explorer’s instructions, which ultimately made him more
+vulnerable to having an accident exactly like the one that occurred here. Accordingly, the Court
+rejects Defendants’ causation argument.
+Case 2:24-cv-01005-EEF-KWR     Document 177     Filed 07/31/25     Page 21 of 30
+22
+
+ii. Adequacy of the Warnings
+ Next, Defendants argue that Beta USA provided a plethora of specific warnings  to
+Gonsoulin regarding the safe operation of the Beta Explorer in the M anual and on the Beta
+Explorer itself, such that their adequacy cannot be in question. In determining whether a warning
+is adequate, courts balance various considerations, including: (1) the severity of the danger, (2) the
+likelihood that the warning will catch the attention of those who will foreseeably use the product
+and convey the nature of the danger to them, (3) the intensity and form of the warning, and (4) the
+cost of improving the strength or mode of the warning.” Bloxom, 512 So. 2d at 844. Whether a
+particular warning is adequate is usually a question for the trier of fact. Jack, 949 So. 2d at 1259;
+see also Walker v. Manitowoc Co., 2016-897, 259 So. 3d 465, 477 (La. App. 3d Cir. 10/10/18).
+However, when the warnings provided by the manufacturer are specific to the circumstances of a
+claim, the adequacy of the warning oftentimes does not present an issue of fact, and an award of
+summary judgment is appropriate. See, e.g., Broussard v. Procter & Gamble Co., 463 F. Supp. 2d
+596, 608-10 (W.D. La. 2006), affirmed, 517 F.3d 767 (5th Cir. 2008).
+ Here, as the Court noted above with respect to the reasonably anticipated use issue, there
+is a fact question as to the application and specificity of the Beta Explorer’s warnings  in relation
+to a motorcycles salesman who is simply sitting on the bike to learn its controls. See supra, at 10-
+14. Therefore, this is not a situation where the warnings provided by the manufacturer are so clear
+and specific that summary judgment is appropriate. Moreover, the Court has  also already
+highlighted that there are fact questions as to the adequacy of the Beta Explorer’s label based on
+Defendants’ chosen font size and failure to provide a “salesperson specific manual.” Id. at 18-21.
+Finally, the Court observes that Gonsoulin has testimony from two experts disputing the
+sufficiency of the Beta Explorer’s warnings for failing to indicate that it lacked certain safety
+Case 2:24-cv-01005-EEF-KWR     Document 177     Filed 07/31/25     Page 22 of 30
+23
+
+features common to all motorcycles and being too small to read. R. Doc. 140- 17 at 1- 2
+(highlighting the lack of warnings about features of the Beta Explorer that could “catch even
+experienced motorcycle riders off guard”); R. Doc. 140- 11 at 4 (“The warning labels as seen on
+the photographs submitted for review has lettering that is quite small and almost unreadable
+without concerted effort.”). Accordingly, there are genuine issues of material fact as to the
+adequacy of the Beta Explorer’s warnings to Gonsoulin that must go before a jury.7
+c. Design Defect
+Lastly, the Court will address Defendants’ argument that summary judgment is warranted
+on Gonsoulin’s design defect claim. Under the LPLA, a product is unreasonably dangerous in
+design if, at the time the product left its manufacturer’s control: (1) there existed an alternative
+design for the product that was capable of preventing the claimant’s damage; and (2) the likelihood
+that the product’s design would cause the claimant’s damage and the gravity of that damage
+outweighed the burden on the manufacturer of adopting such alternative design and the adverse
+effect, if any, of such alternative design on the utility of the product. La. Rev. Stat. Ann. §
+9:2800.56. Notably, “Louisiana law does not allow a fact finder to presume an unreasonably
+dangerous design solely from the fact that injury occurred.” Celino v. Biotronik, Inc., No. 20-2298,
+2021 WL 2982971, at *2 (E.D. La. July 15, 2021). In all but the most basic cases, expert evidence
+is required to support an allegation that a product is defective in design. McCarthy v. Danek Med.,
+Inc., 65 F. Supp. 2d 410, 412 (E.D. La. 1999) (“Without expert or technical evidence to support
+
+7  As for Defendants’ argument regarding the lack of expert testimony, the Court notes that it does not plan to
+categorically exclude Gonsoulin’s experts as will be explained in a forthcoming order  and thus will not dismiss his
+failure to warn claim on this ground . Even so, the Court finds that Gonsoulin’s specific challenges to the Beta
+Explorer’s warnings are not so complex as to require expert testimony in understanding how they are deficient. Issues
+as to whether a warning’s font is too small or whether the product lacks common safety features are rather
+straightforward. Moreover, the Court has also already found that questions related to Gonsoulin’s experience with
+electric motorcycles under the sophisticated user doctrine and the obviousness of danger that the Beta Explorer posed
+are pregnant with facts. Accordingly, the Court rejects these arguments raised by Defendants with respect to
+Gonsoulin’s failure to warn claim as well.
+Case 2:24-cv-01005-EEF-KWR     Document 177     Filed 07/31/25     Page 23 of 30
+24
+
+the contention that the design was defective or to establish an alternative design, plaintiff has failed
+to create an issue of fact to be left to a jury”); Broussard v. Procter & Gamble Co., 463 F. Supp.
+2d 596, 611 (W.D. La. 2006) (“An unreasonably dangerous design will not be presumed simply
+because injury occurred; rather, the plaintiff must come forward with scientifically viable evidence
+to show that the alternative design would have prevented her injuries”).
+Here, Gonsoulin contends that the Beta Explorer was defective in design because the
+bike:(1) lacked a kill switch, (2) did not have a rear brake pedal, and (3) had an overly- sensitive
+throttle.8 On summary judgment, however, Defendants argue that Gonsoulin has merely set forth
+unspecific safety designs and has provided no expert testimony that the proposed changes  would
+have prevented his injuries. They also argue that Gonsoulin’s experts did not consider certain
+aspects of the risk-utility analysis required for a design defect claim. The Court takes each issue in
+turn.
+i. The Existence of Alternative Designs
+
+At first instance, the Court rejects Defendants’ position that Gonsoulin has failed to identify
+specific, non-speculative alternative designs in support of his design defect claim . Gonsoulin’s
+experts, both in their depositions and reports, have opined extensively on Defendants’ failure to
+incorporate a rear brake pedal and a kill switch on the Beta Explorer whereas other electric
+
+8  To the extent Gonsoulin has also alleged a design defect based on characteristics inherent to gasoline-
+powered motorcycles and not electric ones, the Court agrees that such proposed safety features cannot support his
+claim. While a gasoline motorcycle and an electric motorcycle are both designed to accomplish the same general
+function, i.e. transportation of a rider from one location to another, the reality is that they are two different products
+in many ways. Gonsoulin has provided no evidence to refute this. Therefore, the Court finds that whether or not the
+Beta Explorer had a clutch and gears, greater noise/vibration, and slower end acceleration are not appropriate issues
+for trial and may not be argued to the jury. See, e.g., Theriot v. Danek Med., Inc., 168 F.3d 253 (5th Cir. 1999) (holding
+that a claimant cannot satisfy the existence of an alternative design by demonstrating entirely different products
+existed); see also Massa v. Genentech , Inc., No. 11 -70, 2012 WL 956192 (S.D. Tex. Mar. 19, 20 22) (“A plaintiff
+cannot demonstrate the existence of a safer alternative design by pointing to a substantially different product, even
+when the other product has the same general purpose as the allegedly defective product. A safer alternative design
+must be one for the product at issue, not a different product. ”). The remaining safety features that the Cou rt will
+discuss, however, seem to be more universal and thus applicable to both electric and gasoline -powered motorcycles
+alike.
+Case 2:24-cv-01005-EEF-KWR     Document 177     Filed 07/31/25     Page 24 of 30
+25
+
+motorcycles, including some manufactured by Defendants, 9 have these safety features. R. Docs.
+140-11 at 4 (identifying three other electric motorcycles with kill switches and rear brake pedals);
+140-14 at 5 (noting the lack of a kill switch and rear brake pedals); R. Doc. 140-17 at 2 (explaining
+the Beta Explorer does not have a kill switch or rear brake pedals); see also  R. Doc. 139-14 (list
+of electric motorcycles identified with kill switches).  Gonsoulin himself even stated in his
+deposition that all three of the electric motorcycles that he had ridden prior to the Beta Explorer
+included both a kill switch and a rear brake pedal. R. Doc. 140-21 at 46. And as for Gonsoulin’s
+proposed throttle design, his expert Mr. James Evans conducted an extensive analysis mapping out
+the throttle force and resistance in two other motorcycles, one gasoline -powered and another
+electric, compared to the Beta Explorer and found that its “throttle was much easier to apply, taking
+less than half the force of other dirt bikes or motorcycles.” R. Doc. 89-8 at 13. In doing so, he
+necessarily identified at least two other specific designs that required more weight and angling to
+engage the motorcycle’s throttle. Id. at 8.
+It is unclear to the Court why Gonsoulin should then be required to show here whether his
+proffered changes to the Beta Explorer’s design can be feasibly incorporated into the bike with
+extensive drawings and data when other similarly-situated bikes with these exact same features
+already exist on the market. To be sure, at least one federal district court in interpreting the LPLA’s
+design defect provision has recognized that the Fifth Circuit jurisprudence has no “bright line
+requirement that proffered alternative designs must be built and tested” where an expert’s proposed
+alternative design “has already been commercially produced by [a manufacturer].” Sandifer, 2015
+WL 5138271, at *8; Johnson v. Transwood, Inc., No. CV 14-102, 2016 WL 589875, at *5 (M.D.
+La. Feb. 11, 2016)  (“[T]he plaintiff’s burden is not to show that an alternative design was
+
+9  R. Doc. 139-7 at 3 (noting the Beta Kinder and Apollo electric motorcycles have a kill switch).
+Case 2:24-cv-01005-EEF-KWR     Document 177     Filed 07/31/25     Page 25 of 30
+26
+
+‘feasible,’ but instead simply to show that the alternative design was ‘in existence’ at the time the
+product left the manufacturer’s control.”). Such specific expert testimony is required more  so
+where a plaintiff’s alternative design is entirely new and untested or involves complex calculations
+and incorporation into the product at issue. See, e.g., Seither v. Winnebago Indus., Inc., 2002-2091
+(La. App. 4 Cir. 7/2/03), 853 So. 2d 37, 41 (finding that an expert’s proposal of using a van design
+instead when constructing the front end of an RV was “untested” and “unengineered”); Vallee v.
+Crown Equip. Corp., No. 22-30053, 2023 WL 2964407, at *1-2 (5th Cir. 2023)  (noting that a
+proposed safety door for a forklift would require information as to extremely specific door
+dimensions, composition, and attachment methods). As explained above, that is simply not the
+case here where both the incorporation of a kill switch and rear brake pedal appear to be rather
+straightforward mechanical designs,10 and an expert has identified more resistant throttles in other
+bikes through seemingly rigorous scientific testing.
+ii. Whether The Proposed Safety Features Would Have Prevented or
+Reduced Gonsoulin’s Injuries
+
+Defendants’ argument that Gonsoulin failed to demonstrate that his proposed alternative
+designs would have been capable of preventing his injuries fairs no better. Contrary to their
+assertion, Gonsoulin “need not demonstrate that his proposed alternative design would completely
+prevent damages of the sort he suffered.” White v. Black & Decker (U.S.) Inc., No. 03-0874, 2004
+WL 1373271, at *7 (E.D. La. June 16, 2004) . “Rather, he needed only show that his proposed
+alternative design would have been significantly less likely to cause the damages.” Id.  (citing
+Johnson v. Black & Decker  U.S., Inc., 701 So.  2d 1360, 1367 (La. App. 2 Cir. 1997) , writ
+denied, 709 So.2d 741 (La. 1998)); see also Bernard v. Ferrellgas, Inc., 689 So. 2d 554, 560 (La.
+
+10  For example, there is evidence showing that the owner of the Champion dealership where Gonsoulin worked
+was able to easily install a kill switch on the Beta Explorer himself after the accident and without any heightened
+motorcycle design expertise. R. Doc. 140-21 at 150.
+Case 2:24-cv-01005-EEF-KWR     Document 177     Filed 07/31/25     Page 26 of 30
+27
+
+App. 3 Cir. 1997) (noting “the question is whether the alternative design would have  reduced the
+plaintiff’s injuries”). With this in mind, the Court explains below that there is a question of material
+fact as to whether the incorporation of a kill switch, right rear brake pedal, and a throttle with more
+resistance would have had some positive impact in the context of Gonsoulin’s accident  for the
+following reasons. See White, 2004 WL 1373271, at *7.
+1. Kill Switch11
+
+Initially, the Court recognizes that both Gonsoulin and Defendants’ experts seem to agree
+that the activation of a kill switch would not have necessarily stopped the Beta Explorer within the
+25 feet it took for Gonsoulin to collide with the wall. R. Doc. 147 at 7-8. Gonsoulin’s expert Mr.
+Evans has opined separately in an affidavit, however, that if the Beta Explorer had a kill switch,
+Gonsoulin could have instantly hit it with his thumb, which would have returned his front wheel
+to the ground, reduced the speed of the motorcycle, and thus lessened his impact. R. Doc. 139-7 at
+3. Furthermore, Gonsoulin plans to call his treating physicians as experts who may be able to
+testify at trial as to the extent of his injuries in relation to the speed that he was going when the
+accident occurred and whether they would have been less substantial had he been going more
+slowly at the time of impact. R. Doc. 156. As such, there is sufficient evidence on the record for a
+
+11  In support of his design defect claim, Gonsoulin has argued that the Federal Motor Vehicle Safety Standards
+(“FMVSS”) require the Beta Explorer to be equipped with a kill switch. These regulations, however, only apply to
+“vehicles . . . manufactured  primarily for use on public streets, roads, and highways .” 49 U .S.C. § 30102(a)(7)
+(emphasis added). Because there is no dispute that the Beta Explorer was designed and advertised as an off -road
+motorcycle, the Court finds the FMVSS to be inapplicable here. R. Doc. 140- 33 (Defendants’ motorcycle design
+expert explaining that the FMVSS does not apply to the Beta Explorer and identifying at least 10 other “off -road
+electric motorcycles” that do not have a kill switch). While the Court notes that the existence of the FMVSS kill switch
+requirement may be relevant insofar as regulators have made this safety feature compulsory in certain contexts, its
+probative value does not exceed the prejudicial effect it would have on jurors who would likely be confused on how
+to consider this specific regulation when it categorically does not apply to the Beta Explorer. See Fed. R. Evid. 403.
+Accordingly, the Court will prohibit Gonsoulin from referencing the FMVSS and its kill switch requirement at trial
+based on its inapplicability to the Beta Explorer and prejudicial nature.
+Additionally, the Court will prohibit Gonsoulin from referencing at trial the European standards for
+motorcycles contained in the Conformité Européenne  (the “CE”) on the same basis. The issues in this case,
+indisputably, involve a motorcycle marketed, distributed, and sold in the United States.
+Case 2:24-cv-01005-EEF-KWR     Document 177     Filed 07/31/25     Page 27 of 30
+28
+
+jury to reasonably conclude that the use of kill switch—had there been one—would have slowed
+the Beta Explorer’s speed to some extent and thereby potentially reduced the extremity of his
+injuries. See Bernard, 689 So. 2d at 560 (noting only proof of reduction of injuries is necessary to
+prove a design defect claim).
+2. Rear Brake Pedal
+
+Mr. Evans has also provided expert testimony explaining that the incorporation of a rear
+brake pedal is crucial in a motorcycle’s design because “in the event of a wheelie or unintended
+front-end lift, the rider can quickly press the rear brake with their right foot while maintaining a
+firm grip on the handlebars to remain steady.” R. Doc. 139-7 at 3. The specific fa cts of this case
+perfectly illustrate this concept given that Gonsoulin has claimed he was unable to reach the front
+brakes on the handlebars when the Beta Explorer wheelied. R. Doc. 140-21 at 58. In light of Mr.
+Evans’s expert testimony then, a reasonable jury could conclude that Gonsoulin arguably would
+have had a better chance at stopping the bike  if a rear brake pedal would have been incorporated
+into the Beta Explorer’s design. Indeed, it is the Court’s understanding from oral argument  that
+the application of a rear brake serves to halt all movement of the back wheel almost immediately.
+R. Doc. 157.
+3. Throttle
+
+Lastly, as noted above, Mr. Evans tested both the average force and angling needed to twist
+the Beta Explorer in comparison to other motorcycles and concluded that “[t]he light force required
+to rotate the Beta’s throttle, along with the relatively small throttle rotation angle, means that
+[Gonsoulin] could have accidentally applied full throttle when holding the handlebars.” R. Doc.
+140-14 at 11. This expert opinion is in line with Gonsoulin’s claim that it only took a slight,
+unintentional movement of the Beta Explorer’s throttle to cause the bike to move forward. Based
+Case 2:24-cv-01005-EEF-KWR     Document 177     Filed 07/31/25     Page 28 of 30
+29
+
+on this evidence, the Court finds that a reasonable jury could conclude that an accident like this
+would have been less likely to occur —if at all—had the Beta Explorer ’s throttle been designed
+with more resistance and required a heightened angling of the hand to move it similar to the other
+two bikes tested.
+iii. Danger v. Utility Analysis
+
+Finally, Defendants assert that Gonsoulin failed to perform the risk-utility analysis required
+for a design defect claim under the LPLA. La. Rev. Stat. Ann. 9:2800.56(2) requires a plaintiff to
+show that “[t]he likelihood that the product’s design would cause the claimant’s damage and the
+gravity of that damage outweighed the burden on the manufacturer of adopting such alternative
+design and the adverse effect, if any, of such alternative design on the utility of the product.” The
+statute then goes on to specifically state that “[a]n adequate warning about a product shall be
+considered in evaluating the likelihood of damage when the manufacturer has used reasonable care
+to provide the adequate warning to users and handlers of the product.” Id.
+ Based on this language, Defendants argue that Gonsoulin’s experts failed to consider the
+Beta Explorer’s warnings as part of their analysis when offering opinions that modifications to the
+design of the bike were needed. However, the Court notes that two of Gonsoulin’s experts, Edward
+Patterson and Robin Simmons, have directly addressed the Beta Explorer’s warnings—both as to
+their substance and the form in which they were presented to Gonsoulin. R. Doc. 140-11; 140-17.
+Thus, it cannot be said that Gonsoulin has provided no evidence on this issue, such that his risk-
+utility analysis is entirely insufficient. Accordingly, the Court rejects this argument and will allow
+Gonsoulin’s design defect claim to be submitted to the jury.12
+
+12  Again, the Court notes that it has already clarified that it will not categorically exclude Gonsoulin’s experts
+and found there are genuine issues of material fact related to Gonsoulin’s experience with electric motorcycles under
+the sophisticated user doctrine and the obviousness of danger that the Beta Explorer  presents. Accordingly, the Court
+also rejects these arguments made by Defendants regarding Gonsoulin’s design defect claim.
+Case 2:24-cv-01005-EEF-KWR     Document 177     Filed 07/31/25     Page 29 of 30
+30
+
+V. CONCLUSION
+ For the foregoing reasons;
+ IT IS HEREBY ORDERED that Defendants’ Motions for Summary Judgment, R. Docs.
+83, 94, 96, and 105, are DENIED.
+ New Orleans, Louisiana, this 31st day of July, 2025.
+
+United States District Judge
+Case 2:24-cv-01005-EEF-KWR     Document 177     Filed 07/31/25     Page 30 of 30

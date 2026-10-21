@@ -1,0 +1,484 @@
+1
+
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+JONATHAN MANN, et al.
+
+CIVIL ACTION
+
+VERSUS
+
+NO: 24-1881
+
+SECURITIES AND EXCHANGE
+COMMISSION, et al.
+
+SECTION: T (4)
+
+ ORDER AND REASONS
+ Before the Court is the Securities and Exchange Commission’s (SEC) Motion to Dismiss
+for Lack of Jurisdiction. R. Doc. 18. For the following reasons, the motion is GRANTED.
+BACKGROUND
+ This case asks whether P laintiffs can manufacture a justiciable pre-enforcement action to
+determine whether the ir non-fungible tokens (NFTs)  a re an  “investment contract” under the
+Securities Act of 1933, 15 U.S.C. § 77a et. seq . (the “Securities Act”). Because the Court finds
+Plaintiffs do not identify a final agency action and the issue is not fit for judicial decision, the SEC
+is entitled to sovereign immunity, the case is not ripe, and the Complaint must be dismissed.
+1. Factual Summary1
+Plaintiffs, Jonathan Mann and Brian L. Frye, w ant to sell their digital art to troll the SEC.
+R. Doc. 1 at ¶¶ 5 -9. They wish to do so via electronic, non- fungible digital assets recorded on a
+blockchain, NFTs. Id. at ¶¶ 6-7, 69. NFTs, short for “non- fungible tokens,” encompass a wide
+
+1 A Rule 12(b)(1) motion to dismiss is treated like motions to dismiss under Rule 12(b)(6) but
+allows the Court to consider a broader range of materials. Thomas v. City of New Orleans, 883 F.
+Supp. 2d 669, 676 (E.D. La. 2012) (citing Williams v. Wynne, 533 F.3d 360, 364–65 n. 2 (5th Cir.
+2008)). The Court assumes Plaintiff’s well- pleaded factual allegations in the Complaint as true.
+Daniel v. Univ. of Texas Sw. Med. Ctr., 960 F.3d 253, 256 (5th Cir. 2020).
+Case 2:24-cv-01881-GGG-KWR     Document 43     Filed 09/30/25     Page 1 of 18
+2
+
+range of digital tokens that can take the form of art, music, videos, and collectables . But unlike
+fungible digital assets like cryptocurrencies, which are identical and interchangeable, NFTs are
+uniquely identifiable and irreplaceable. Id. at ¶ 71. NFTs provide the owner with a wide array of
+rights, including an exclusive right to ownership which can be transferable by the owner to the
+buyer.  Id. at ¶ 74.
+ Plaintiffs have been selling NFTs since 2018. Id. at ¶¶ 8, 23. Plaintiff Mann creates a new
+song every day and sells it online via a “bid- to-earn” auction. R. Doc. 1 at ¶ 24. Mann now plans
+to release 10,420 NFTs priced at $800 that contain remixes of his song “This Song Is A Security”
+(the “Mann Project”). Id. at ¶ 122. He released the song in 2023. Mann alleges that he has taken
+“substantial steps” to prepare the Mann P roject, including writing the song, hiring a visual artist,
+and preparing a publicity campaign. Id. at ¶ 127.
+ Plaintiff Frye is a law professor and digital artist. Id. at ¶ 8. He has been selling NFTs that
+parody the SEC by releasing a token titled “SEC No-Action Letter Request.” Id. He now plans to
+sell 10,420 cryptographic tokens of the drawing for $80 per token (the “Frye Project”).2 The token
+itself is the proposed no- action letter. With each token, Frye plans to charge a 5% resale royalty
+on each sale. Id. at ¶¶ 128-130. Frye alleges he has taken substantial steps to prepare for the release
+of the Frye Project, including designing the artwork, creating the LLC, and preparing a publicity
+campaign. Id. at ¶ 130.
+
+2 The SEC has noted that Plaintiff Frye has “in his own words” stated that his art is used to “troll
+the SEC.” R. Doc. 18 -1 at p. 9. The same can be said about the Mann Project. The song’s lyrics
+contain explicit references to then-SEC Chairman Gary Gensler and the SEC’s enforcement action
+against other NFTs. See R. Doc. 1 at ¶ 122 (citing
+https://www.youtube.com/watch?v=h_4PCCt8kuo (“This song is a security, I better register with
+the SEC”) and (“because it’s so confusing [Gary,] I don’t know what you’re doing is it power
+you’re abusing for kicks?”))
+Case 2:24-cv-01881-GGG-KWR     Document 43     Filed 09/30/25     Page 2 of 18
+3
+
+ On January 1, 2020, and September 4, 2021, Plaintiff Frye submitted two no- action letter
+requests to the SEC. R. Doc. 1 at ¶ 130. In a no -action letter request, a proponent details their
+proposed project and requests that the agency issue a no -action letter indicating that the agency
+will not enforce or regulate the project. See, e.g., Clarke v. Commodity Futures Trading Comm’n,
+74 F.4th 627, 634 (5th Cir. 2023). In his first no-action request letter, Frye instead asked the SEC
+to “deny [his] request for a no-action letter, because I [Frye] am proposing to sell an unregistered
+security.” R. Doc. 18-3 at p. 2.3 The SEC did not respond.
+Frye followed up. In his second letter to the SEC, he wrote that he “assume[d] that the SEC
+has concluded that the sale of the work was not the sale of an unregistered security” and maintained
+that his NFT project was lawful. R. Doc. 18 -4 at ¶ 3.  That letter also described a near identical
+project to the current Frye Project. The SEC did not respond to Frye’s second letter. Frye suggests
+these no-action request letters indicate that he sought prior clarification that his project was not an
+unregistered security. R. Doc. 1 at ¶ 131.
+ The SEC has not taken any direct action against Plaintiffs. But they have pursued
+enforcement actions against other NFT sellers. Plaintiffs point to the SEC’s commencement of
+enforcement actions against Impact Theory, LLC (“Impact Theory”), Stoner Cats 2, LLC (“Stoner
+Cats”), and Flyfish Club, LLC (“Flyfish”) for violations of the Securities Act for offering and
+selling unregistered NFTs as “investment contract securities” (collectively “ the Enforcement
+Actions”). R. Doc. 1 at ¶¶ 10-12, 68, 84-104; In re Flyfish Club, LLC, Securities Act Release No.
+11305, 2024 WL 4203737 (Sept. 16, 2024); In re Impact Theory, LLC, Securities Act Release No.
+
+3 Frye’s first no -action letter request concerned a near identical proposal to the current Frye
+Project—a request that he sell multiple editions of the same conceptual art titled “SEC No-Action
+Letter Request.” R. Doc. 18-3.
+Case 2:24-cv-01881-GGG-KWR     Document 43     Filed 09/30/25     Page 3 of 18
+4
+
+11226, 2023 WL 5530012 (Aug. 28, 2023); In re Stoner Cats 2, LLC, Securities Act Release No.
+11233, 2023 WL 5956272 (Sept. 13, 2023).  In the Enforcement Actions, the SEC issued cease-
+and-desist orders (the “Cease-And-Desist Orders”). Id.
+ To date, three district courts have considered whether a particular NFT offering constitutes
+a security under the governing test set forth in SEC v. W. J. Howey Co., 328 U.S. 293 (1946). Friel
+v. Dapper Labs, Inc., 657 F. Supp. 3d 422, 430 (S.D.N.Y. 2023) (original complaint filed May 12,
+2021); Dufoe v. DraftKings Inc ., 2024 WL 3278637, at *3 (D. Mass. July 2, 2024) (original
+complaint filed March 9, 2023); Harper v. O’Neal , 2024 WL 3845444 (S.D. Fla. Aug. 16, 2024)
+(original complaint filed May 23, 2023). However, each case involved private parties, not the SEC,
+who alleged NFT sales violated Section 5(a) of the Securities Act because they were unregistered.
+Dapper Labs, 657 F. Supp. 3d at 450 (NBA game video clips); DraftKings Inc., 2024 WL 3278637,
+at *2, *10 (pro athlete images); O’Neal, 2024 WL 3845444, at *1, *11 (virtual avatars). In all three
+cases, the courts denied motions to dismiss based on specific allegations, holding that the plaintiffs
+had sufficiently pled the defendants had offered and sold the NFTs as investment contracts, and
+thus were securities. Id. The courts applied the Howey test’s three distinct elements, (1) an
+investment of money; (2) in a common enterprise; and (3) on an expectation of profits to be derived
+solely from the efforts of individuals other than the investor , see Williamson v. Tucker, 645 F.2d
+404, 417 (5th Cir. 1981) , to each NFT offering —not to NFTs in general . See id. These Section
+5(a) civil suits are not to be confused with the E nforcement Actions. Plaintiffs claim they face a
+credible threat of enforcement based on the Enforcement Actions, not from these three decisions.
+See R. Doc. 1 at ¶ 145.
+ In addition to the Enforcement Actions, Plaintiffs point to the SEC’s actions in the general
+Case 2:24-cv-01881-GGG-KWR     Document 43     Filed 09/30/25     Page 4 of 18
+5
+
+digital asset space. R. Doc. 1 at ¶¶ 48 -68. First, in 2019, an SEC division published a 60- factor
+“Framework” for analyzing whether a digital asset may or may not be a security.4 Id. at ¶ 55. But
+in the same breath, Plaintiffs claim that “the SEC has provided no constructive guidance” despite
+the Framework because the SEC sets it policy in case-by-case enforcement actions. Id. at ¶ 56. To
+highlight the lack of guidance, Plaintiff c ompares then SEC Chairman Gary Gensler’s  public
+remarks—that the “vast majority” of tokens are securities to the view of then SEC Director of the
+Division of Corporate Finance William Hinman, who said digital tokens are not securities. Id. at ¶
+63. However, Plaintiffs assert that the SEC’s position today is that “digital assets can be securities
+if the efforts of third parties drive the value of the ecosystem with which the asset is associated.”
+Id. at ¶ 65-66.
+ Plaintiffs allege their offerings are substantially similar to those in the Enforcement
+Actions. See, e.g., R. Doc. 1 at ¶ 12. They allege their offerings are not share in a company and do
+not generate any type of dividend or ongoing commitment to generate profits for the purchasers.
+Id.
+2. Procedural History
+The Securities Act gives the SEC the power to regulate securities. 15 U.S.C. § 77a et. seq.
+The Howey test lays out the factors courts use to determine whether an offering is an “investment
+contract” and therefore can be regulated as a security. Tucker, 645 F.2d at 417.
+
+4 SEC, Framework for “Investment Contract” Analysis of Digital Assets (Apr. 3, 2019) ,
+https://www.sec.gov/corpfin/framework-investment-contract-analysis-digital-assets (a 60 -factor
+non-exhaustive inquiry to determine whether a digital asset may constitute a security  under
+Howey.) The Framework openly “identifies some of the factors market participants should
+consider” but are “not intend to be exhaustive in evaluating whether a digital asset is an investment
+contract.” Id.
+Case 2:24-cv-01881-GGG-KWR     Document 43     Filed 09/30/25     Page 5 of 18
+6
+
+ Plaintiffs sued the SEC  and its commissioners seeking a declaratory judgment that their
+proposed offerings are not a security under the Howey test. R. Doc. 1 at ¶¶ 149 –162. Soon after,
+the SEC filed this motion to dismiss for lack of jurisdiction under Fed. R. Civ. P. 12(b)(1). R. Doc.
+18.
+The SEC asserts three jurisdictional barriers: (1) sovereign immunity, (2) standing, and (3)
+ripeness. Id. On sovereign immunity, the SEC argues Plaintiffs’ case was brought under the general
+provisions of the  APA (5 U.S.C. § 551 et seq .) and is unreviewable because Plaintiffs do not
+identify a final agency action. R. Doc. 18-1 at pp. 19- 20. The SEC also argues Plaintiffs do not
+present a justiciable case or controversy. Id. at at pp. 23-33. On standing, the SEC claims Plaintiffs
+do not identify a concrete and imminent injury because there is no indication Plaintiffs will be
+subject to civil liability for offerings they have sold for years. Id. at pp. 23-27. And for ripeness,
+the SEC argues th e issue is not fit for judicial decision because it requires the  Court to opine on
+unknown but dispositive future factual allegations. Id. at pp. 28-33.
+Plaintiffs oppose all three barriers. R. Doc. 21. On sovereign immunity, Plaintiffs  first
+frame their complaint as a First Amendment challenge arguing that the registration requirement is
+an unconstitutional prior restraint on speech. Id. at pp. 16-18. Even if the First Amendment was
+not implicated, Plaintiffs assert they properly assert a 5 U.S.C. § 702 sovereign immunity waiver
+for this non-APA claim. Id. at pp. 16-23. Plaintiffs contend the Enforcement Actions, Cease-And-
+Desist Orders, and public statements from SEC commissioners on NFT regulation are an “agency
+action” within the meaning of § 702. Id.
+On the justiciability defenses, Plaintiffs argue the SEC’s public statements and prior
+enforcement actions credibly proscribe Plaintiffs’ proposed conduct. Id. at pp. 24-34. And because
+Case 2:24-cv-01881-GGG-KWR     Document 43     Filed 09/30/25     Page 6 of 18
+7
+
+such conduct is credibly proscribed, Plaintiffs claim that releasing their product creates an
+imminent injury that does not require future factual development. Id.
+LAW & ANALYSIS
+1. Rule 12(b)(1) Standard
+Federal courts are courts of limited jurisdiction and possess power over only those cases
+authorized by the United States Constitution and federal statutes. Coury v. Prot, 85 F.3d 244, 248
+(5th Cir. 1996). A party may raise the lack of subject matter jurisdiction at any time during the
+litigation in a motion to dismiss pursuant to Rule 12(b)(1) . Kontrick v. Ryan, 540 U.S. 443, 456
+(2004); Fed. R. Civ. P. 12(b)(1).
+In ruling on a Rule 12(b)(1) motion to dismiss, the court may rely on more documents than
+in a motion to dismiss under Rule 12(b)(6). Krim v. pcOrder.com, Inc., 402 F.3d 489, 494 (5th Cir.
+2005) (“the district court is ‘free to weigh the evidence and resolve factual disputes in order to
+satisfy itself that it has the power to hear the case’”). A court may find subject matter jurisdiction
+is lacking from “(1) the complaint alone; (2) the complaint supplemented by undisputed facts
+evidenced in the record; or (3) the complaint supplemented by undisputed facts plus the court’s
+resolution of disputed facts.” Ramming v. United States , 281 F.3d 158, 161 (5th Cir. 2001) . The
+party asserting jurisdiction carries the burden of pr oving that the court has subject matter
+jurisdiction. Randall D. Wolcott, M.D., P.A. v. Sebelius, 635 F.3d 757, 762 (5th Cir. 2011). At this
+stage, he must do so through a “plausible set of facts . . ..” Physician Hosps. of Am. v. Sebelius ,
+691 F.3d 649, 652 (5th Cir. 2012). If a plaintiff cannot invoke subject matter jurisdiction, the court
+should dismiss the action with prejudice. In re Great Lakes Dredge & Dock Co ., 624 F.3d 201,
+209 (5th Cir. 2010).
+Case 2:24-cv-01881-GGG-KWR     Document 43     Filed 09/30/25     Page 7 of 18
+8
+
+2. Plaintiff’s Complaint Proceeds Under the General Provisions of the APA
+As a threshold matter, the Court must determine the substantive cause of action  under
+which Plaintiffs’ claims may proceed.
+In the Complaint, Plaintiffs’ first and only count is a “declaratory judgment.” R. Doc. 1 at
+¶¶ 149 –163. They claim “the suit arises and is brought under the Declaratory Judgment Act [DJA],
+28 U.S.C. § 2201 et seq.,” and argue this triggers federal question jurisdiction pursuant to 28 U.S.C.
+§ 1331. Id. at ¶ 20. Plaintiffs assert that “a party faced with a ‘genuine threat of enforcement’ [can]
+bring suit to seek a declaration to determine the legality of an expected government enforcement
+action.” Id. at ¶ 150 (citing MedImmune, Inc. v. Genentech, Inc., 549 U.S. 118, 129 (2007)). True,
+a claimant is allowed to seek a declaratory judgment in federal court for action that is threatened
+by government before bringing suit. MedImmune, Inc., 549 U.S. at 129. In this case, Plaintiffs ask
+the Court to “declare that their offerings do not violate the [] Securities Act.” Id. at ¶ 163.
+But Plaintiffs’ claims cannot proceed under the DJA. T he DJA does not waive the
+sovereign immunity of the United States. Shields of Strength v. U.S. Dep’ t of Def., 742 F. Supp.
+3d 721, 724 (E.D. Tex. 2024) (citing Anderson v. United States, 229 F.2d 675, 677 (5th Cir. 1956)).
+The Act is a procedural mechanism for the c ourt’s remedies and  does not provide for an
+independent cause of action.  In re B-727 Aircraft Serial No. 21010, 272 F.3d 264, 270 (5th Cir.
+2001). Rather, the viability of a party ’s request for declaratory relief is dependent on another
+substantive cause of action. See, e.g. , Collin Cty. v. Homeowners Ass ’n for Values Essential to
+Neighborhoods, 915 F.2d 167, 171 (5th Cir. 1990). And 28 U.S.C. § 1331 “alone does not provide
+jurisdiction for agency actions unless a statute, such as the APA, has waived sovereign immunity.”
+Case 2:24-cv-01881-GGG-KWR     Document 43     Filed 09/30/25     Page 8 of 18
+9
+
+Elldakli v. Garland, 64 F.4th 666, 670 (5th Cir. 2023). “[T] he relevant cause of action must arise
+under some other federal law.” Gaar v. Quirk, 86 F.3d 451, 453 (5th Cir. 1996).
+Beyond the DJA, Plaintiffs do not make clear what substantive law  they invoke. Argued
+for the first time in Plaintiffs’ opposition, Plaintiffs attempt to re -frame the Complaint to assert a
+First Amendment violation. R. Doc. 21 at pp. 16- 18. They claim that requiring NFTs to be
+registered as securities before they can be offered or sold is an unlawful prior restraint in violation
+of the First Amendment. Id. at pp. 17. However, nowhere in the Complaint do Plaintiffs allege a
+First Amendment claim, or even men tion the Constitution . See generally R. Doc. 1. Indeed,
+Plaintiffs explicitly limit their complaint to “a declaratory judgment that their proposed NFT
+offerings do not violate U.S. securities laws—i.e., that they would not be engaging in the offer and
+sale of securities by merely publicly offering and selling their art.” Id. at ¶ 19 (emphasis added).
+A declaration that their offerings, under the fact intensive and multi-factor Howey test, are not an
+“investment contract” does not say that the SEC lacks authority to regulate any NFT. Regardless,
+Plaintiffs cannot amend the Complaint in a response to a motion to dismiss. See Mun. Employees’
+Ret. Sys. of Michigan v. Pier 1 Imports, Inc., 935 F.3d 424, 436 (5th Cir. 2019).
+The Court agrees with the SEC that the Complaint is best construed as a general APA claim
+(5 U.S.C. § 551 et seq.). Plaintiffs cite to the APA as the purported waiver to sovereign immunity,
+5 U.S.C. § 702, and consistently argue the SEC has exceeded its statutory authority  when
+regulating digital assets. R. Doc. 1 at ¶¶ 161, 13, 18, 68, 119; see also R. Doc. 21 at p. 22
+(“Plaintiffs instead are challenging the SEC’s incorrect interpretation of an ‘ investment contract’
+and exercise of its enforcement powers beyond its statutory mandate, which ‘can be reviewed to
+determine whether the agency exceeded its statutory powers. ’”). Plaintiffs do not mention any
+Case 2:24-cv-01881-GGG-KWR     Document 43     Filed 09/30/25     Page 9 of 18
+10
+
+other statutory or ultra vires common law  cause of action in the Complaint. The question of
+whether agency action exceeds its statutory authority is a quintessential APA claim. See Loper
+Bright Enters. v. Raimondo, 603 U.S. 369, 412 (2024) (“[T]he APA requires” “[c]ourts [to]
+exercise their independent judgment in deciding whether an agency has acted within its statutory
+authority.”); see also 5 U.S.C. § 704; Gen. Fin. Corp. v. FTC , 700 F.2d 366, 372 (7th Cir. 1983)
+(“The jurisdiction of the federal courts to review  administrative action is codified in the
+Administrative Procedure Act.”).
+The Court will thus construe Plaintiffs’ claim as an action under the general provisions of
+the APA.5
+3. The SEC Is Entitled to Sovereign Immunity
+Irrespective of what cause of action under which Plaintiffs’ claims ultimately proceed, they
+must show a waiver of sovereign immunity. See FDIC v. Meyer, 510 U.S. 471, 475 (1994). Absent
+congressional authorization – through an unequivocal statutory waiver – it is “unquestioned” that
+the federal government retains sovereign immunity. Alden v. Maine, 527 U.S. 706, 749 (1999).
+Plaintiffs contend § 702 of the APA  waives sovereign immunity. R. Doc. 1 at ¶ 161. To
+
+5 Also raised for the first time in opposition, Plaintiff s’ claim the relevant cause of action
+underlying Plaintiffs’ DJA suit is Section 5 of the Securities Act. R. Doc. 21 at p. 21. But Section
+5 imposes obligations on the offerors  of unregistered securities, not the SEC. Section 5 makes it
+unlawful for any person (directly or indirectly) to: “(1) to make use of any means or instruments
+of transportation or communication in interstate commerce or of the mails to sell such security
+through the use or medium of any prospectus or otherwise; or (2) to carry or cause to be carried
+through the mails or in interstate commerce, by any means or instruments of transportation, any
+such security for the purpose of sale or for delivery after sale.” 15 U.S.C. § 77e. And Section 12(a)
+of the Securers Act allows the purchasers of a security to sue the offeror. 15 U.S.C. § 77l(a)(1) .
+Because the Court reads the Complaint to challenge whether their projects are securities under the
+Securities Act, not that the SEC purchased unlicensed securities from Plaintiffs, a claim under the
+general provisions of the APA is better supported.
+Case 2:24-cv-01881-GGG-KWR     Document 43     Filed 09/30/25     Page 10 of 18
+11
+
+state a § 702 waiver Plaintiffs must: (1) identify “agency action affecting [Plaintiffs] in a specific
+way” and (2) show they “suffered legal wrong because of the challenged agency action.” Alabama-
+Coushatta Tribe of Texas v. United States, 757 F.3d 484, 489 (5th Cir. 2014) (citiation omitted).
+ However, because Plaintiffs seek judicial review under the general provisions of the APA,
+they must identify a “final agency action” for this Court to exercise jurisdiction. Id. “[F]inal agency
+actions are actions which (1) ‘mark the consummation of the agency’s decisionmaking process,’
+and (2) ‘by which rights or obligations have been determined, or from which legal consequences
+will flow.’” Sierra Club v. Peterson, 228 F.3d 559, 565 (5th Cir. 2000) (en banc) (quoting Bennett
+v. Spear, 520 U.S. 154, 178 (1997)). “The Supreme Court has long taken a pragmatic approach to
+finality, viewing the APA’s finality requirement as flexible.” Texas v. EEOC, 933 F.3d 433, 441
+(5th Cir. 2019). Ultimately though, “[w]hat matters is whether the [action] has practical binding
+effect such that affected private parties are reasonably led to believe that failure to conform will
+bring adverse consequences.” Id. at 442.
+ Plaintiffs identify the Enforcement Actions, SEC commissioners’ public statements, and
+the Cease-And-Desist Orders as “agency actions,” and claim that they mark NFT  offerings to be
+unlawful securities transactions when accompanied by royalties and public marketing statements.
+R. Doc. 20 at p. 20 (citing R. Doc. 1 at ¶¶ 84-104). While they might be “agency actions[,]” these
+actions are not final.
+First, the commencement of SEC “enforcement actions do[es] not constitute final agency
+actions.” Consensys Software, Inc. v. Sec. & Exch. Comm’n, 749 F. Supp. 3d 736, 742 (N.D. Tex.
+2024) (citing Dow Chem. v. EPA, 832 F.2d 319, 325 (5th Cir. 1987)); see also Broadstreet, Inc. v.
+Sec. & Exch. Comm’n, No. 4:24-CV-00803-O, 2025 WL 417933, at *4 (N.D. Tex. Feb. 6, 2025).
+Case 2:24-cv-01881-GGG-KWR     Document 43     Filed 09/30/25     Page 11 of 18
+12
+
+In Consensys, a plaintiff in the digital asset space brought a declaratory judgment action against
+the SEC. 749 F. Supp. 3d at 736. The plaintiff, like here, argued that an SEC enforcement action
+against another party in a similar case was a final agency action. Id. at 742. The Court disagreed.
+Id. It applied binding Fifth Circuit precedent , which holds that the commencement of “ an
+enforcement suit do[es]  not impose the kind of legal obligations with which finality doctrine is
+concerned.” Id. (quoting Dow Chem., 832 F.2d at 325). In Dow Chem., the Fifth Circuit relied on
+the Supreme Court precedent in FTC v. Standard Oil Company of California, which held that filing
+an enforcement action was not a final agency action. Id. (citing 449 U.S. 232, 239-45 (1980)). That
+principle was recognized  again this year in a similar declaratory judgment action w here the
+plaintiffs alleged the SEC  lacked the statutory authority to regulate their conduct. Broadstreet,
+Inc., 2025 WL 417933, at *4.
+Regardless, there is no indication that the SEC’s decision to instigate an enforcement action
+against three discrete NFT offerings is tantamount to a final  SEC action stating that all NFT
+offerings in all circumstances are securities. Indeed, in the Impact Theory enforcement action, SEC
+Commissioners Peirce and Uyeda issued a dissent and expressed their view that NFT sales should
+not be regulated under Howey . R. Doc. 1 at ¶ 93. To them, the SEC “should have grappled with
+these questions long ago and offered guidance when NFTs first started proliferating.”6 Their view
+is shared with Plaintiffs who claim that the SEC has provided “no constructive guidance.” R. Doc.
+1 at ¶ 56.
+Yet precisely because the SEC has provided little guidance indicates t here is no final
+
+6 SEC Comm’rs Hester M. Peirce and Mark T. Uyeda, NFTs & the SEC: Statement on
+Impact Theory, LLC (Aug. 28, 2023), https://www.sec.gov/news/statement/peirce -
+uyedastatement- nft-082823
+Case 2:24-cv-01881-GGG-KWR     Document 43     Filed 09/30/25     Page 12 of 18
+13
+
+agency action. The issue is far from settled . Plaintiffs cannot point to a “settled agency position”
+that gives “marching orders” to a regulated entity. Texas v. United States Dep’t of Health & Hum.
+Servs., 681 F. Supp. 3d 665, 682 (W.D. Tex. 2023) (describing elements of a final agency action)
+(citing Appalachian Power Co. v. EPA , 208 F.3d 1015, 1020–23 (D.C. Cir. 2000) ). The SEC’s
+other enforcement actions do not bind the SEC to any set policy in all NFT offerings or suggest a
+particular course of action going forward. See Luminant Generation Co. v. U.S. E.P.A., 757 F.3d
+439, 442 (5th Cir. 2014) (because an agency was not bound to a particular course of action, the ir
+actions were not final).
+Second, the Cease-And-Desist Orders in this case are no different than the commencement
+of an enforcement action. They mark the beginning of the SEC’s decision-making process and are
+part of what Plaintiffs identify as the Enforcement Actions .7 The orders  call only for the
+“institut[ion]” of “proceedings.” Id. Accordingly, they are not “ [a]‘final agency action.’ . . .
+[because the Cease-And-Desist Orders represent ] only the beginning of the . . . process, not its
+consummation.” See Rueth v. U.S. E.P.A ., 13 F.3d 227, 231 (7th Cir. 1993). Numerous district
+courts have reached the same conclusion with similar cease-and-desist orders. See, e.g., Leslie Salt
+Co. v. United States , 789 F.Supp. 1030, 1033–34 (N.D.  Cal. Dec. 31, 1991) (“issuance of cease
+and desist orders are not sufficient to create jurisdiction . . .”); Lafayette City-Par. Consol. v. Gov’t
+of St. Martin Par., No. CV 22-1127, 2023 WL 6307998, at *7 (W.D. La. Aug. 11, 2023) (“cease-
+and-desist order” that indicated “apparent” violations before “proceed[ing]” with appropriate legal
+
+7 See In re Flyfish Club, LLC , Securities Act Release No. 11305, 2024 WL 4203737 (Sept. 16,
+2024); In re Impact Theory, LLC, Securities Act Release No. 11226, 2023 WL 5530012 (Aug. 28,
+2023); In re Stoner Cats 2, LLC, Securities Act Release No. 11233, 2023 WL 5956272 (Sept. 13,
+2023) (enforcement actions)
+Case 2:24-cv-01881-GGG-KWR     Document 43     Filed 09/30/25     Page 13 of 18
+14
+
+actions is not a final agency order); Spring Branch Wildlife Pres. v.  EPA, 2021 WL 6503917, at
+*1 (S.D. Tex. Sept. 17, 2021), aff’d, 2022 WL 9914735 (5th Cir. Oct. 17, 2022) (“cease-and-desist
+order” that outlined possible enforcement options was not a final agency action).
+Plaintiffs also rely on a series of statements from then Chairman Gary Gensler who stated
+that he “believed the vast majority [of tokens in the crypto market] are securities.” R. Doc. 1 at ¶
+62.8 But these statements reflect Gensler’s personal views .9 Even if they were not  so limited ,
+Gensler’s use of the word “tokens” reasonably encompasses all digital assets, including fungible
+tokens like Bitcoin and Ethereum. See id. Nevertheless, there is no indication that his speeches are
+a final commission wide policy on NFTs.
+The same is true for a 2018 speech given by William Hinman, the then- SEC Director of
+the Division of Corporate Finance. R. Doc. 1 at ¶ 62.  Indeed, the Ninth Circuit explicitly rejected
+such argument that his statements were a final agency action. Hodl L., PLLC v. U.S. Sec. & Exch.
+Comm’n, No. 23-55810, 2024 WL 3898607, at *2 (9th Cir. Aug. 22, 2024). “Hinman explicitly
+stated that the contents of the speech constituted his personal views, and the speech is therefore
+not ‘a definitive statement of [the] age ncy’s position.’” Id. (citing Ass’n of Am. Med. Colleges v.
+United States, 217 F.3d 770, 780 (9th Cir. 2000)).
+
+8 SEC Chair Gary Gensler, Statement on Financial Stability Oversight Council’s Report
+on Digital Asset Financial Stability Risks and Regulation Before the Financial Stability Oversight
+Council Open Meeting (Oct. 3, 2022), https://www.sec.gov/news/speech/gensler -statement-
+fsocmeeting- 100322 (“Of the nearly 10,000 tokens in the crypto market, I believe the vast majority
+are securities.”)
+9 SEC Chair Gary Gensler, Prepared Remarks of Gary Gensler On Crypto
+Markets - Penn Law Capital Markets Association Annual Conference (Apr. 4, 2022),
+https://www.sec.gov/news/speech/gensler-remarks-crypto-markets-040422 (“As is customary, I’d
+like to note that my views are my own, and I’m not speaking on behalf of the Commission or the
+SEC staff.”); SEC Chair Gary Gensler, Remarks Before the Aspen Security Forum (Aug. 3, 2021),
+https://www.sec.gov/news/speech/gensler-aspen-security-forum-2021-08-03 (same).
+Case 2:24-cv-01881-GGG-KWR     Document 43     Filed 09/30/25     Page 14 of 18
+15
+
+Neither speech was the product of the SEC’s formal voting or delegation procedures and
+does not indicate an official agency position . The Fifth Circuit has also  recognized that informal
+statements, even in social media posts from an agency’s official account, were not final agency
+actions because they did not “determine[] rights, produce[] obligations, or cause[] legal
+consequences.” Apter v. Dep’t of Health & Hum. Servs., 80 F.4th 579, 594 (5th Cir. 2023) (citation
+omitted). For as many statements Plaintif fs identify in support of regulating NFTs , they cite
+Commissioners who oppose them. These conflicting viewpoints hardly reflect a “settled agency
+position” that the entire agency intends to follow. Neese v. Becerra, No. 2:21-CV-163-Z, 2022 WL
+1265925, at *9 (N.D. Tex. Apr. 26, 2022) (quoting Appalachian Power Co. v. U.S. Env ’t Prot.
+Agency, 208 F.3d 1015, 1020–23 (D.C. Cir. 2000)).
+The SEC’s future regulation of NFTs is far from resolved. There is little guidance. But the
+Supreme Court has “prohibit[ed] challenges that seek ‘wholesale improvement’ of an agency's
+programs by court decree, rather than through Congress or the agency itself where such changes
+are normally made.” Alabama-Coushatta, 757 F.3d at 490 (citing Sierra Club, 228 F.3d at 566
+(5th Cir. 2000); Lujan v. Nat’l Wildlife Fed’n, 497 U.S. 871, 877-79 (1990)). Without final agency
+action, the SEC is entitled to sovereign immunity.
+4. Plaintiffs’ Claim Is Not Ripe
+Even assuming Plaintiffs sufficiently allege d a non- APA claim , showed a waiver of
+sovereign immunity, and had standing, their claim is not ripe. They are unable to satisfy the first
+ripeness prong—that their claims are fit for judicial review.
+“A declaratory judgment action is ripe for adjudication only where an actual controversy
+exists.” Orix Credit All., Inc. v. Wolfe, 212 F.3d 891, 896 (5th Cir. 2000) (internal quotation marks
+Case 2:24-cv-01881-GGG-KWR     Document 43     Filed 09/30/25     Page 15 of 18
+16
+
+and citation omitted). “A declaratory judgment action, like any other action, must be ripe in order
+to be justiciable[.]” TOTAL Gas & Power N. Am., Inc. v. FERC, 859 F.3d 325, 332 (5th Cir. 2017)
+(cleaned up). Accordingly, “[a] court should dismiss a case for lack of ‘ripeness’ when the case is
+abstract or hypothetical.” Monk v. Huston, 340 F.3d 279, 282 (5th Cir. 2003). The ripeness inquiry
+asks whether (1) the issues are fit for judicial decision and (2) will the plaintiffs suffer hardship
+from withholding judicial review. Walmart Inc. v. DOJ, 21 F.4th 300, 311 (5th Cir. 2021).
+When analyzing fitness, courts consider three factors: “whether the issue presented is a
+purely legal one, whether consideration of that issue would benefit from a more concrete setting,
+and whether the agency’s action is sufficiently final.” Id. (quoting Ciba-Geigy Corp. v. EPA, 801
+F.2d 430, 435 (D.C. Cir. 1986)). “Failure on even one of [these] prongs can render a case unfit for
+judicial review.” Id.
+First, for the reasons discussed above, Plaintiffs cannot point to a “sufficiently final”
+agency action. A “sufficiently final” agency action is treated the same as a “final agency action”
+under the APA . See Broadstreet, Inc., 2025 WL 417933 at *3 (citing Walmart Inc., 21 F.4th at
+313). The Supreme Court construes the finality requirement “within the meaning of § 10 of the
+Administrative Procedure Act, 5 U.S.C. § 704.”  Abbott Lab’ys v. Gardner , 387 U.S. 136, 149
+(1967). The same ripeness test applies “ regardless of whether suit is brought under the APA.”
+Walmart Inc., 21 F.4th at 311 n.10. Without a “sufficiently final” action, Plaintiffs fail on judicial
+fitness.
+Plaintiffs also cannot show that this litigation presents a purely legal question. The Court
+agrees with the SEC that Plaintiffs are “not challenging agency action; rather, they are contesting
+a theoretical future investigation or enforcement action.” R. Doc. 34 at p. 9; see also R. Doc. 1 at
+Case 2:24-cv-01881-GGG-KWR     Document 43     Filed 09/30/25     Page 16 of 18
+17
+
+¶ 19, 163 (Plaintiffs seek “a declaratory judgment that their proposed NFT projects do not violate
+U.S. securities laws”). They seek to determine the scope of the Securities Act in the context of this
+case. Whether Plaintiffs’ NFT offerings are an “investment contract” under Howey necessarily
+requires further factual development. The Howey test requires courts to consider future, unknown
+actions—such as what exact marketing techniques Plaintiffs used to promote their NFTs after they
+were released. See, e.g., Friel, 657 F. Supp. 3d at 443 (finding contemporaneous Tweets and emojis
+that suggested a financial return on investment could satisfy the expectation of future profits
+prong). Thus, at best, this case is a mixed question of law and fact unripe for a pre -enforcement
+action. See Broadstreet, Inc., 2025 WL 417933, at *3.
+Plaintiffs’ reliance on Braidwood v. EEOC , 70 F.4th 914  (5th Cir. 2023)  is misplaced.
+There, a group of Christian employers sought a declaratory judgment that Title VII, as applied in
+an EEOC guidance document which prohibited specific employment actions on the basis of sexual
+orientation or gender identity, violated the Free Exercise Clause of the First Amendment. Id. The
+Fifth Circuit concluded this pre-enforcement action was ripe. Id. at 930-932. On fitness, the Court
+concluded the case did not need more factual development because the EEOC  guidance set out
+prohibited practices and the EEOC already admitted the plaintiff s’ actions would violate the
+guidance. Id. at 931. And since the court concluded the plaintiffs were forced  to abandon their
+practices or violate the guidance, they would suffer hardship from delayed judicial review. Id. at
+931-32.
+The Court finds this case distinguishable . First, in Braidwood, “[n]o party dispute[d] that
+under current EEOC guidance, neither [plaintiff] c [ould] fire any employee for nonconformance
+with the [plaintiff’s] challenged religious beliefs.” Id. at 931. The EEOC guidance also determined
+Case 2:24-cv-01881-GGG-KWR     Document 43     Filed 09/30/25     Page 17 of 18
+18
+
+unequivocally that certain employment practices were unlawful. Whereas here Plaintiffs do not
+rely on any applicable agency guidance. To the contrary, they allege that the SEC has not provided
+any guidance on NFTs. See, e.g., R. Doc. 1 at ¶  56 (“[T]he SEC has provided no constructive
+guidance.”). Second, the Braidwood plaintiffs “admit[ted] they [were] breaking EEOC guidance,
+which the EEOC [did] not seriously contest.”  70 F.4th at 926.  Plaintiffs suggest the exact
+opposite—that their proposed offerings do not violate the Sec urities Act because they are not an
+“investment contract.” R. Doc. 1 at ¶ 163 (asking the Court “[d]eclare” the projects “would not
+violate Sections 5(a) or 5(c) of the Securities Act”). And finally, the Braidwood plaintiffs made an
+explicit First Amendment challenge . 70 F.4th at 921. The Complaint makes no such claim  but
+rather asks the Court to resolve a mixed question of fact and law  and issue a declaration as to the
+scope of the Securities Act. See, e.g. , R. Doc. 1 at ¶ 19 (asking the C ourt declare that “their
+proposed NFT projects do not violate U.S. securities laws”). Accordingly,
+IT IS ORDERED that the SEC’s Motion to Dismiss, R. Doc. 18, is GRANTED.  The
+Complaint is DISMISSED WITH PREJUDICE.
+New Orleans, Louisiana, this 30th day of September 2025.
+
+GREG GERARD GUIDRY
+UNITED STATES DISTRICT JUDGE
+
+Case 2:24-cv-01881-GGG-KWR     Document 43     Filed 09/30/25     Page 18 of 18

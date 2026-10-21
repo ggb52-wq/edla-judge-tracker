@@ -1,0 +1,625 @@
+1
+
+UNITED STATES DISTRICT COURT
+ EASTERN DISTRICT OF LOUISIANA
+
+DEREK BROWN, ET AL * CIVIL ACTION
+ *
+VERSUS * NO. 22-847
+ *
+DERRICK BURMASTER, ET AL. * SECTION L(4)
+
+ORDER & REASONS
+
+ There are presently two motions before the Court. The first is a Partial Motion for Summary
+Judgment filed by Defendant the City of New Orleans (the “City”). R. Doc. 208. Plaintiffs Derek
+Brown and Julia Barecki-Brown (“Plaintiffs”) oppose the motion. R. Doc. 214. The City replied.
+R. Doc. 216. The second is another Partial Motion for Summary Judgment filed by Plaintiffs. R.
+Doc. 224. The City  and Defendant Derrick Burmaster  oppose the motion. R. Doc. 226. The
+Plaintiffs replied. R. Doc. 227. After considering the record, briefing, and applicable law, the Court
+now rules as follows.
+I. BACKGROUND
+This case arises out of the alleged shooting of a pre -adolescent dog by a  New Orleans
+Police Department (“NOPD”) officer. On April 14, 2021, NOPD Officers Derrick Burmaster and
+John Roussel responded to a noise complaint at Plaintiffs’ residence in the Lower Garden District
+neighborhood of New Orleans. R. Doc. 60 at 1. Upon their arrival, Burmaster and Roussel entered
+the front gate of Plaintiffs’ fenced yard and  almost immediately noticed two dogs coming down
+the stairs to the courtyard, one much lar ger than the o ther. Brown v. Burmaster , No. 23-30180,
+2025 WL 227785, at *1 (5th Cir. Jan. 17, 2025) . T he small er dog ran toward Burmaster and
+Roussel, wagging his tail . Id. Rous sel stepped backwards  and exited the gate  in response . Id.
+Burmaster, however, who had already drawn his firearm, fired three rounds of bullets at the smaller
+Case 2:22-cv-00847-EEF-KWR     Document 245     Filed 06/02/25     Page 1 of 23
+2
+
+dog–—Plaintiffs’ 16-week-old Catahoula puppy named Apollo that stood at about 18 inches tall
+and weighed approximately 22 pounds. R. Doc. 60 at 1. One of these bullets struck Apollo in the
+back of the neck, breaking two of his ribs and causing his lungs to fill with blood; shrapnel from
+another struck Officer Roussel in the hand. Id.  at 2. Plaintiffs promptly stepped outside of their
+home to investigate the commotion and found Apollo bleeding on the ground. Id. Plaintiffs held
+Apollo as he died in their arms  from the gunshot wound. Id.  Shortly after the incident, NOPD’s
+Public Integrity Bureau (“PIB”) conducted an initial investigation into Burmaster’s actions and
+determined the shooting of Apollo to be unjustified. Id. at 7-8. After this suit was filed, however,
+a NOPD hearing panel exonerated Burmaster of all charges for improper use of force but sustained
+his violation of police uniform policy for failing to carry a baton on the date of the incident. R.
+Doc. 194-4.
+On March 31, 2022, Plaintiffs filed the instant case against Defendants Derrick Burmaster;
+the City of New Orleans ; and former NOPD Superintendent Shaun Ferguson, a sserting multiple
+causes of action. R. Doc. 60. Plaintiffs allege § 1983 claims against Burmaster in his personal and
+official capacity, contending that the shooting of Apollo was a  constitutional violation of their
+Fourth, Fifth, and Fourteenth Amendment rights. Id. at 9-10. More specifically, they contend that
+the law clearly establishes that “an officer cannot shoot a dog in the absence of an objectively
+legitimate and imminent threat to him or others.” Id. at 9. Additionally, they bring Monell claims
+against the City , asserting it is liable for the alleged § 1983 violations for failing  in its
+“constitutional duty”   to “adequately train, supervise, and discipline ” Burmaster regarding his
+police work and interact ions with dogs in the field. Id.  at 14 -17. In support, Plaintiffs aver
+Burmaster has had “at least thirty” reported incidents involving an excessive use of force filed
+against him over a ten-year period while working for NOPD, most notably including a prior
+Case 2:22-cv-00847-EEF-KWR     Document 245     Filed 06/02/25     Page 2 of 23
+3
+
+shooting of a dog in 2012. Id. Plaintiffs also c ontend, inter alia, that the City provided NOPD
+officers with a revised copy of  a U.S. Department of Justice training program and intentionally
+took out passages about the low risk and general friendliness of approaching dogs, and information
+about “specific tactics” for dealing with animals. Id.  Plaintiffs further allege several Louisiana
+state law claims, including  negligent infliction of emotional distress against all Defendants ;
+negligent hiring, training, retention, and supervision against the City and the Superintendent ; and
+a general negligence claim against Burmaster and the City under a theory of respondeat superior
+as Burmaster’s employer.  Id. at 10-13.
+Later, Burmaster filed a motion for summary judgment as  to all of Plaintiffs’ claims
+brought against him based upon a theory of qualified immunity, which this Court  ultimately
+denied. R. Doc. 162. Thereafter, on March 30, 2023, the case was administratively stayed pending
+Burmaster’s appeal of this Court’s summary judgment determination. R. Doc. 167. On January 17,
+2025, the Fifth Circuit issued its opinion affirming the denial of Burmaster’s summary judgment
+motion, and this Court reopened the case for further proceedings. R. Docs. 174, 178.
+II. PRESENT MOTIONS
+The City now moves for partial summary judgment as to Plaintiffs’ state law claims for
+negligent infliction of emotional distress as well as negligent hiring, training, retention, and
+supervision. R. Doc. 208. Additionally, it seeks dismissal of Plaintiffs’ Monell claim with respect
+to the City’s duty to adequately train and supervise Burmaster and its decision to retain him as an
+employee despite his alleged history of excessive force violations. Id. Plaintiffs generally oppose
+the motion, which the City rebuts in its reply. R. Doc. 214; R. Doc. 216. Plaintiffs have also moved
+for partial summary judgment in their own right, contending that they have conclusively
+established the City’s liability regarding their Monell claims on the basis of a ratification theory.
+Case 2:22-cv-00847-EEF-KWR     Document 245     Filed 06/02/25     Page 3 of 23
+4
+
+R. Doc. 224. In opposition, the City argues that the Fifth Circuit permits the use of ratification to
+support Monell claims under very limited circumstances and is thus not applicable on the facts at
+hand. R. Doc. 226. Plaintiffs replied, refining the ratification theory argument made in their initial
+motion. R. Doc. 227.
+III. APPLICABLE LAW
+Summary judgment is proper when “there is no genuine dispute as to any material fact and
+the movant is entitled to judgment as a matter of law.” Fed. R. Civ. P. 56(a). The court must view
+the evidence in the light most favorable to the nonmovant. Coleman v. Hous. Indep. Sch. Dist.,
+113 F.3d 528, 533 (5th Cir. 1997). Initially, the movant bears the burden of presenting the basis
+for the motion; that is, the absence of a genuine issue as to any material fact or facts. Celotex Corp.
+v. Catrett, 477 U.S. 317, 323 (1986). The burden then shifts to the nonmovant to come forward
+with specific facts showing there is a genuine dispute for trial. See Fed. R. Civ. P. 56(c); Matsushita
+Elec. Indus. Co. v. Zenith Radio Corp., 475 U.S. 574, 586-87 (1986). “A dispute about a material
+fact is ‘ genuine’ if the evidence is such that a reasonable jury could return a verdict for the
+nonmoving party.” Bodenheimer v. PPG Indus., Inc., 5 F.3d 955, 956 (5th Cir. 1993) (citation
+omitted).
+IV. ANALYSIS
+The focus of the parties’ present motions centers exclusively upon Plaintiffs’ claims against
+the City and particularly to what extent it can be held liable for Burmaster’s shooting of Apollo
+vis-à-vis his employment with NOPD. The Court will thus consider the following four issues in
+turn: (1) whether Plaintiffs have provided sufficient evidence to support their negligent infliction
+of emotional distress claim against the City; (2) whether the City is entitled to discretionary
+immunity with regard to Plaintiffs’ negligent hiring, training, supervision, and retention  claims;
+Case 2:22-cv-00847-EEF-KWR     Document 245     Filed 06/02/25     Page 4 of 23
+5
+
+(3) whether Plaintiffs ha ve a viable Monell claim against the City for failure to train, supervise,
+and discipline Burmaster; and (4) whether Plaintiffs’ ratification theory is sufficient to
+conclusively prove at this stage in the proceedings that the City is liable for Burmaster’s alleged §
+1983 violations under Monell.
+A. Negligent Infliction of Emotional Distress
+The Court will first address whether dismissal of Plaintiffs’ state law negligent infliction
+of emotional distress (“NIED”) claim based on witnessing their pet dog’s death  is warranted. In
+Louisiana, a domestic animal is considered corporeal movable property. Holland v.
+Teague, 43,496, p. 8 (La. App. 2 Cir. 9/17/08), 996 So.2d 325 at 329. A NIED claim premised
+entirely upon damage to a person’s property, such as a pet, originates from La. Civ. Code art.
+2315(A), which provides : “[e]very act whatever of man that causes damages to another obliges
+him by whose fault it happened to repair it.”  Kador o/b/o Willis v. Gautreaux , No. 23 -CV-11-
+SDD-RLB, 2025 WL 967158, at *19 (M.D. La. Mar. 31, 2025) . In order to recover for such a
+claim, the Louisiana Supreme Court recently established a five -part analytical framework that
+mirrors the duty- risk ana lysis for general negligence claims. Spencer v. Valero Ref. Meraux,
+L.L.C., 2022-00469 (La. 1/27/23), 356 So. 3d 936, 949. More specifically, the plaintiff must show:
+(1) the defendant had a duty to conform his or her conduct to a
+specific standard of care (the duty element); (2) the defendant failed
+to conform his or her conduct to the appropriate standard (the breach
+of duty element); (3) the defendant’s substandard conduct was a
+cause-in-fact of the plaintiff's injuries (the cause -in-fact element);
+(4) the defendant ’s substandard conduct was a legal cause of the
+plaintiff’s injuries (the scope of liability or scope of protection
+element); and, (5) actual damages (the damages element).
+
+Id. at 949 (citing Mathieu v. Imperial Toy Corp., 94- 952, pp. 4-5 (La. 11/30/94), 646 So. 2d 318,
+322).
+Case 2:22-cv-00847-EEF-KWR     Document 245     Filed 06/02/25     Page 5 of 23
+6
+
+ Oftentimes, the viability of a NIED claim resulting from property damage turns on the final
+element of damages . This is  so because Louisiana law requires pla intiffs to present sufficient
+evidence of the nature and extent of the ir mental anguish caused by the defendant’s conduct that
+shows a “likelihood of genuine and serious mental distress” and “guarantee[s] that the claim is not
+spurious.” Moresi v. State Through Dep’ t of Wildlife & Fisheries , 567 So. 2d 1081, 1096 (La.
+1990). In other words, “the emotional distress must be severe and not merely the result of the usual
+worry or anxiety attendant to property damage.” Doerr v. Mobil Oil Corp., 04-1789, pp. 8-9 (La.
+App. 4 Cir. 6/14/06), 935 So. 2d 231, 237. Indeed, “ [e]very incident of property damage is
+necessarily accompanied by some degree of worry and consternation,” so plaintiff must show that
+he or she “suffered a psychic trauma in the nature of or similar to physical injury.” Trim v. S .E.
+Exp., Inc., 562 So. 2d 26 (La. App. 5 Cir. 1990). In evaluating the required severity threshold for
+emotional distress , factors such as whether the plaintiff sought medical, psychiatric, or
+psychological treatment are instructive, but receiving such care is not necessarily  required.
+Spencer,  356 So. 3d at 950 (“Evidence of medical treatment is not required, nor is medical
+testimony . . . .”).  Proof that constitutes “generalized fear” or “mere inconvenience,” however, is
+generally insufficient. Id.
+ Here, the City argues that Plaintiffs’ NIED claim should be dismissed on summary
+judgment because the evidence does not show that they had a “severe emotional reaction to the
+shooting of their dog that can be said to be different from the ‘worry or anxiety’ attendant to
+property damage.” R. Doc. 208- 1 at 8 -10. More specifically, the City takes the position that
+Plaintiffs have  failed to provide medical documentation demonstrating that they received any
+counseling services or prescriptions for medication after witnessing Apollo’s death. Id. And while
+the City concedes that both Plaintiffs met with Dr. Elizabeth Berk –—a licensed clinical
+Case 2:22-cv-00847-EEF-KWR     Document 245     Filed 06/02/25     Page 6 of 23
+7
+
+psychologist–—for a psychiatric evaluation, it notes that this meeting was a “single encounter,”
+and the Plaintiffs had “no other contact” with her since then. Id. at 9. As such, the City opines that
+Plaintiffs are relying merely on “self -reported symptoms” that cannot support a finding that they
+suffered sufficiently severe trauma needed for a valid NIED claim. R. Doc. 216 at 4. Conversely,
+Plaintiffs argue they have provided sufficient evidence for a reasonable jury to find in their favor
+on the NIED claim. R. Doc. 214 at 3-8. Upon review of the evidence and record, the Court agrees
+with Plaintiffs for the following reasons.
+ Preliminarily, the Court observes that it has already once before addressed Plaintiffs’ NIED
+claims within the context of an earlier motion filed by Burmaster and found that genuine issues of
+material fact precluded dismissal on summary judgment. R. Doc. 162. The outcome is no different
+here with respect to the City . As Plaintiffs correctly point out, there is a voluminous amount of
+evidence that tends to prove the  severity of the  psychological harm that they suffered from
+witnessing Apollo’s death. For ex ample, video evidence show s both Plaintiffs visibly disturbed
+and crying over Apollo as he dies in front of them mere feet from their front door. R. Doc. 130-5.
+Furthermore, Plaintiffs can be heard saying: “He was our baby . . . You shot a puppy; this was the
+love of our life.” Id. at 00:04:30. The Plaintiffs’ depositions also indicate that it has been hard for
+them to sleep and get back to day -to-day life, noting the incident had left them with a “pretty
+permanent . . . vivid horrible memory.” R. Doc. 208-18 at 63:5-8; R. Doc. 214-2 at 26:1-5. One of
+the Plaintiffs even testified to experiencing “massive amounts of anxiety . . . [and] depression”
+following Apollo’s death and ultimately s ought out a licensed clinical social worker  who he met
+with “every other week” for over “five or six months .” R. Doc. 208- 18 at 63:11- 12, 64:1- 5.
+Moreover, Dr. Berk diagnosed both Plaintiffs with PTSD and one of them with Major Depressive
+Disorder, stating in her professional opinion as a licensed psychologist that “it was directly caused
+Case 2:22-cv-00847-EEF-KWR     Document 245     Filed 06/02/25     Page 7 of 23
+8
+
+by the death of the dog.” R. Doc. 214-3 at 49:8-10, 71:9-18. Surely all this evidence taken together
+is more than sufficient to show at least a fact question as to whether the Plaintiffs’ emotional
+reactions elicited by Apollo’s death were more than just “worry or anxiety attendant to property
+damage.” See Doerr, 935 So. 2d at 237.
+ As for the City’s argument  regarding the lack of medical documentation evincing
+Plaintiffs’ counseling visits, the Court finds this position to be untenable. The Louisiana Supreme
+Court has made clear in Spencer v. Valero Refining Meraux, L.L.C. that medical documentation or
+testimony is not required per se to prove a NIED claim under Louisiana law. 356 So. 3d at 950.
+And even if providing such exacting medical evidence were necessary, Plaintiffs have submitted
+official diagnoses of PTSD and clinical depression directly tied to the death of Apollo, which could
+be considered evidence as to a “real mental injury” that gives rise to a NIED claim for damages.
+Heard v. Affordable Movers, Inc., 40,432, pp. 5–8 (La. App. 2 Cir. 12/14/05), 917 So. 2d 722, 726-
+27. While the Court agrees that it is peculiar that Plaintiffs have yet to produce specific medical
+records regarding their other alleged counseling visits, the Court concludes that it is more
+appropriate to address this issue during trial, rather than on summary judgment.
+Lastly, the Court  recognizes that even though pets are classified as corporeal movable
+property in Louisiana, Apollo was clearly not an inanimate object. As such, the Court is hesitant
+to characterize the Plaintiffs’ alleged emotional trauma from witnessing their dog’s death as simple
+“worry or anxiety” associated with other types of property in light of the “emotional bond that
+exists between some pets and their owners and the ‘family status’ status awarded some pets by
+their owners.” Barrios v. Safeway Ins. Co., 2011-1028 (La. App. 4 Cir. 3/21/12), 97 So. 3d 1019,
+1024 (affirming trial court’s finding in favor of plaintiffs’ NIED claim based on the emotional
+distress they experience after their pet dog was run over by a negligent driver). Accordingly, the
+Case 2:22-cv-00847-EEF-KWR     Document 245     Filed 06/02/25     Page 8 of 23
+9
+
+Court finds that there are genuine issues of material fact as to Plaintiffs’ state law NIED claim
+against the City and will not dismiss it at this time.
+B. Discretionary Immunity
+Next, the Court will address the City’s discretionary immunity defense  under La. R.S. §
+9:2798.1 as to Plaintiff s’ negligent hiring, training, retention, and supervision state law claims.
+This statute provides that:
+Liability shall not be imposed on public entities or their officers or
+employees based upon the exercise or performance or the failure to
+exercise or perform their policymaking or discretionary acts when
+such acts are within the course and scope of their lawful powers and
+duties.
+
+La. R.S. 9:2798.1(B). Drawing upon this text, Louisiana case law has developed a two-step inquiry
+for determining whether the statute ’s policymaking or discretionary acts immunity applies to a
+given set of facts. First, a court must look to whether a statute, policy, or regulation required the
+government entity to follow the particular course of conduct at issue. Aucoin v. Larpenter, 2020-
+0792 (La. App. 1 Cir. 4/16/21), 324 So. 3d 626, 637, writ denied, 2021-00688 (La. 9/27/21), 324
+So. 3d 87. If so, then the act or omission did not involve discretion and the immunity provisions
+of La. R.S. 9:2798.1 do not apply. Id.  Second, if the act or omission did involve discretion, “the
+court must then determine whether that discretion is the kind that is shielded by the statutory
+immunity, that is, discretion grounded in social, economic or political policy.” Id. at 637-38. “In
+other words, when the government acts negligently for reasons unrelated to public policy
+considerations, it is liable to those it injures.” Id. at 638; see also Gregor v. Argenot Great Cent.
+Ins. Co., 2002-1138 (La. 5/20/03), 851 So. 2d 959, 968; Dominique v. St. Tammany Par., 2019-
+0452 (La. App. 1 Cir. 9/16/20), 313 So. 3d 307, 315, writ denied sub nom. Dominque v. St.
+Tammany Par., 2020-01202 (La. 12/22/20), 307 So. 3d 1045. Here, the City argues that it has met
+Case 2:22-cv-00847-EEF-KWR     Document 245     Filed 06/02/25     Page 9 of 23
+10
+
+this two-part test and is thus entitled to discretionary immunity. R. Doc. 208-1 at 11-13. The Court
+disagrees.
+ At first instance, the Court notes that the defendant bears the initial burden of
+demonstrating the applicability of discretionary immunity in this case  since it is an affirmative
+defense. See Dominique, 313 So. 3d at 314; Mercadel v. State Through Dep’ t of Pub. Safety &
+Corr., 2018-0415 (La. App. 1 Cir. 5/15/19), 2019 WL 2234404 at *5; Sauceberry v. Webre, 2016-
+0719 (La. App. 1 Cir. 5/5/17), 2017 WL 1788096, at *4. It is thus the City’s responsibility to first
+show that it did not violate any applicable statutes, regulations, or policies prescribing a mandatory
+course of action with respect to its hiring, retention, supervision and training of Burmaster. Id. The
+Court finds that the City has met its burden in this respect.
+ Notably, the Plaintiffs have not alleged in their complaint any applicable laws or
+regulations that require law enforcement agencies to supervise and train their officers in a specific
+manner. R. Doc. 60. In an attempt to remedy this problem, the Plaintiffs draw the Court’s attention
+to La. R.S. §§ 40:2404.2 and 40:2405.8, which prescribe a certain amount of hours that a law
+enforcement agency must train its officers each year in Louisiana. R. Doc. 214-10 (citing Pierre
+v. Wellpath, LLC, No. CV 21-1043, 2022 WL 2263693, at *4 (E.D. La. June 23, 2022)). However,
+Plaintiffs have presented no evidence  that the City failed to comply with these statutory training
+requirements at any time during Burmaster’s employment with NOPD.  Rather, the issue here is
+focused on what topics the City chose in training Burmaster and its decision to retain him despite
+his past use of force instances and violations of NOPD rules. As such, the Court finds La. R.S. §§
+40:2404.2 and 40:2405.8 to be irrelevant and thus have no bearing on this  specific discretionary
+immunity analysis. Furthermore, the Plaintiffs note that NOPD is subject to an ongoing court -
+ordered federal consent decree, which specifically addresses requirements for the agency’s use-of-
+Case 2:22-cv-00847-EEF-KWR     Document 245     Filed 06/02/25     Page 10 of 23
+11
+
+force training. United States v. City of New Orleans , 12-cv-01924-SM-JCW, R. Doc. 565. But
+Plaintiffs’ main point of contention with respect to Burmaster’s training is an alleged lack of
+instruction he received regarding best practices for using force against dogs in the field. With this
+in mind, the Court observes that the NOPD consent decree does not prescribe any specific training
+programming for dog encounters during police work and in fact fails to address the use of force
+against dogs whatsoever. See id. Accordingly, it cannot be said that the City was in violation of
+any mandatory course of action required by either positive law in Louisiana or the NOPD consent
+decree, such that discretionary immunity would be unavailable to the City on this basis.
+ But the City is not yet off the hook because it still has the burden of offering facts that
+indicate its decisions to hire, supervise, retain, and train Burmaster were “rooted in some social,
+economic, or political concern.” Gomez v. City of New Orleans , No. CV 19- 11803, 2023 WL
+4351230, at *4 (E.D. La. July 5, 2023) . On this point, the City has merely stated in a conclusory
+fashion that its supervisory and training decisions underlying Plaintiffs’ claims are “grounded in
+policy considerations based on the  needs and unique circumstances of the City of New Orleans,
+the NOPD police force, and the City budget.” R. Doc. 216 at 5.  The Court finds such a generic
+assertion to be insufficient to meet the City’s burden in proving immunity because it has presented
+virtually no evidence to substantiate this assertion. For instance, the City does not identify what
+decisions it seeks to protect as exercises in discretion, who made the decisions, when the decisions
+were made, and the specific basis for the decisions. R. Doc. 208-1 at 11-12; R. Doc. 216 at 4- 7.
+Therefore, the Court finds that fact questions remain in light of the City’s failure to articulate with
+particularity any social, economic, or political considerations that drove its decision-making as to
+the hiring, training, supervision, and retention of Burmaster  and how those decisions were made.
+See Misuraca v. City of Kenner, 01-707 (La. App. 5 Cir. 11/14/01), 802 So. 2d 784, 789 (finding
+Case 2:22-cv-00847-EEF-KWR     Document 245     Filed 06/02/25     Page 11 of 23
+12
+
+a municipality was not immune where it had failed to articulate policy considerations surrounding
+a particular officer’s actions that gave rise to an alleged constitutional violation).
+ Moreover, the Court notes that even if it were to find that the City had adequately
+demonstrated the applicability of discretionary immunity based on the arguments above, the Court
+would still be unable to grant summary judgment in its favor. This is because once the defendant
+establishes entitlement to immunity , “ the burden then shifts to the plaintiffs to show there is
+conduct that would except the defendant[ ] from liability.”  Id. at 314 n.6. One such exception to
+discretionary immunity  particularly relevant here is found in La. R.S. 9:2798.1(C)(2), which
+excludes immunity where a government entity’s “ acts or omissions . . . constitute criminal,
+fraudulent, malicious, intentional, willful, outrageous, reckless, or flagrant misconduct.” Plaintiffs
+invoke this exception in their opposition, arguing that the City acted recklessly in the training and
+supervision of Burmaster. R. Doc. 214 at 11. In support of their position, they point to evidence
+showing that the City omitted or removed information regarding the use of force against dogs from
+a Department of Justice training document that was ultimately disseminated to NOPD officers .
+Compare R. Doc. 56-2 (NOPD training) with R. Doc. 56-3 (DOJ training). Plaintiffs also highlight
+elsewhere in their brief with respect to their Monell claim that the City was aware of Burmaster’s
+involvement in over thirty reported incidents of excessive forc e and had numerous NOPD rule
+violations. R. Doc. 122- 4 at 3 -4; R. Doc. 122 -3 at 34:13-35:9. Yet, the City continued to retain
+Burmaster as an employee and has not offered a clear rationale for its inaction.  The Court finds
+that this evidence, taken together, also raises genuine issues of material fact as to whether the City
+acted recklessly in its training and supervision of Burmaster within the meaning of La. R.S.
+9:2798.1(C)(2), such that a finding in favor of discretionary immunity is not warranted at this stage
+in the proceedings.
+Case 2:22-cv-00847-EEF-KWR     Document 245     Filed 06/02/25     Page 12 of 23
+13
+
+ Consequently, it cannot be said that the City is entitled to judgment as a matter of law on
+its discretionary immunity argument. The Court thus refuses to dismiss Plaintiffs’ state law
+negligent hiring, training, supervision, and retention claims. T his outcome comports with
+Louisiana law and its directive to the Court to construe the discretionary immunity statute strictly
+against a defendant asserting it. Dominique, 313 So. 3d at 314 (“Immunity statues [under Louisiana
+law] are strictly construed against the party claiming immunity.”).
+C. Monell Claim for Failure to Train, Supervise, and Discipline
+ The Court now moves on to address whether the City can be held liable under § 1983 for
+the alleged constitutional violations perpetrated by Burmaster. Notably, a municipality is not liable
+under § 1983 through the standard theory of respondeat superior. Bd. of Cnty. Comm’rs of Bryan
+Cnty., Okl. v. Brown, 520 U.S. 397, 403  (1997) ( holding § 1983 does not “impose liability
+vicariously on governing bodies solely on the basis of the existence of an employer -employee
+relationship with a tortfeasor”). Rather, a municipality is liable only for acts directly attributable
+to it “through some official action or imprimatur ,”  oftentimes referred to by courts as “ Monell
+liability”. Piotrowski v. City of Hous ., 237 F.3d 567, 578 (5th Cir. 2001). This official policy
+requirement was “ intended to distinguish acts of the  municipality from acts of  employees of
+the municipality, and thereby make clear that  municipal liability is limited to  action for which
+the municipality is actually responsible.” Doe v. Edgewood Indep. Sch. Dist., 964 F.3d 351, 364-
+65 (5th Cir. 2020)  (emphasis in original)  (quoting Pembaur v. Cincinnati , 475 U.S. 469, 479
+(1986)). Here, Plaintiffs assert that the City is liable under Monell for a: (1) failure to train, (2)
+failure to supervise, and (3) failure to discipline. More specifically, they contend that these failures
+ultimately led to Burmaster shooting Apollo , which constituted deliberate indifference to their
+constitutional rights . In the present motion, however, the City argues that Plaintiffs have not
+Case 2:22-cv-00847-EEF-KWR     Document 245     Filed 06/02/25     Page 13 of 23
+14
+
+presented sufficient evidence to support an imposition of liability under § 1983 against the City on
+two separate grounds. The Court takes each in turn.
+1. Adequate Training
+ First, the City challenges the Plaintiffs’ failure to train allegations  alone, contending its
+training of Burmaster was more than sufficient and thus cannot subject the City to liability. R. Doc.
+208 at 13-16. To hold a municipality liable under § 1983 based on a policy of inadequate training
+of employees, a plaintiff must first demonstrate that the municipality’s training policy was
+“inadequate.” Kitchen v. Dallas Cnty., 759 F.3d 468, 484 (5th Cir. 2014). In assessing whether a
+training policy and procedure is inadequate, courts look to “whether the program ‘enable[s]
+officers to respond properly to the usual and recurring situations with which they must deal.’”
+Benavides v. Wilson Cnty., 955 F.2d 968, 973 (5th Cir. 1992) . On this basis, the City argues that
+the indisputable facts show “NOPD enacted a facially constitutional policy regarding the use of
+force, including the use of force against animal[s].” R. Doc. 208-1 at 14. As such, it avers
+Plaintiffs’ “criticism of isolated aspects [of] NOPD’s training” fails to demonstrate that its training
+of Burmaster was inadequate, such that the City cannot be held liable for his actions. Id. at 16. In
+support, the City references NOPD’s policy manual, which states that firearms may only be used
+against animals when it “reasonably appears to pose an imminent threat to human safety and
+alternative methods are not reasonably available or would likely be ineffective.” Id. at 14 (citing
+R. Doc. 208- 6 at 10 ). Furthermore, the City points to two NOPD daily training bulletins
+(“DTBs”)—short training exercises in which an officer reads or watches a video and then answers
+questions—issued to its officers in 2017 and 2019 that discussed how to interact with dogs safely
+during the course and scope of police work. Id. Finally, the City notes that NOPD trains its officers
+regarding animal encounters at the police academy prior to entering the force. Id. at 14.
+Case 2:22-cv-00847-EEF-KWR     Document 245     Filed 06/02/25     Page 14 of 23
+15
+
+ Upon review of this evidence, the Court finds the City has taken at least some measures in
+training its officers with respect to dog encounters. However, to the extent the City characterizes
+its training program as “robust . . . as to the parameters of constitutional uses of force against
+animals,” such that summary judgment is warranted in this case, the Court must disagree. Id. at
+16. As the Plaintiffs note in their opposition, the City has only pointed the Court to three  relevant
+items of training concerning the excessive use of force against dogs over Burmaster’s twenty-five
+years on the force : (1) police academy training;  (2) a 2017 DTB ; and (3) a 2019 DTB . But
+Burmaster crucially failed to recall anything specific about these training materials. For example,
+when asked at his deposition about his NOPD police academy experience when he supposedly
+received his initial training regarding animal encounters, Burmaster testified that he was
+“instructed to forget all training from that era” and did not elaborate as to what information he was
+given. R. Doc. 122-2 at 182:6-11. Moreover, when asked what other training he had received since
+then about interacting with animals on the job, he simply answered: “Be safe.”  Id. at 182:12-15.
+Any mention of the 2017  DTB that the City so heavily emphasize s is notably absent. And while
+Burmaster goes on to testify that the 2019 DTB “looks familiar” and that he was “probably” trained
+on it at some point, the Court can hardly interpret these responses to conclusively prove on
+summary judgment that Burmaster received meaningful instruction regarding the use of excessive
+force against dogs without further proof. Id. at 182:19-25; see Coleman, 113 F.3d at 533 (holding
+courts must “view evidence in the light most favorable” to the non-movant).
+ Furthermore, the contents of the 2017 and 2019 DTBs and whether the City improperly cut
+certain information from them are also seriously in question. Indeed, one of the  City’s 30(b)(6)
+witness testified that no one from NOPD “downloaded or captured” any of the videos contained
+in the 2017 DTB and thus does not “know anything about the[ir] contents.” R. Doc. 214-4 87:9-
+Case 2:22-cv-00847-EEF-KWR     Document 245     Filed 06/02/25     Page 15 of 23
+16
+
+12. The only information presented to the Court is that the 2017 DTB was created by the ASPCA
+and that officers were made to watch the videos and then take a short test  on certain topics, such
+as “canine aggression” and “dog bite prevention.”  Id. at 87:4- 9; R. Doc. 208- 10. And of the
+questions that NOPD officers were required to answer in the 2017 DTB, there are none that
+indicate the videos specifically discussed the use of force, like firing a weapon, against dogs. R.
+Doc. 208-11. The 2019 DTB fairs no better. Plaintiffs have shown that the documents contained
+in this training session appear to be largely copied- and-pasted from the DOJ’s COPS curriculum
+entitled “The Problem of Dog-Related Incidents and Encounters.” Compare R. Doc. 56-2 (NOPD
+training) with R. Doc. 56-3 (DOJ training). NOPD’s version, however, notably altered key aspects
+of the DOJ’s materials, such as omitting facts that state “serious [dog] bites are relatively rare” and
+that the “overwhelming majority of dog bites are minor, causing either no injury at all or injuries
+so minor that no medical care is required.” R. Doc. 56-3 at 11. The NOPD version also leaves out
+clarifying information particularly relevant to the facts leading up to the shooting of Apollo:
+Most dogs happily greet a new human. Some will be so enthusiastic
+about greeting that they will do this at a full run and then launch
+themselves at the officer. Absent any of the warning signals
+described below, an approaching dog is almost always friendly. A
+dog who feels threatened will usually try to keep his distance.
+
+Id. at 25. The City has yet to justify why exactly it chose to excise this pertinent information
+established by a federal agency from NOPD’s materials and whether its decision to do so affected
+the sufficiency of its officers’ training. Lastly, the Court notes that Plaintiff s’ witness James
+Crosby–—an expert on law enforcement interactions with dogs –—has testified that the City’s
+“cherry-picking” indicated that  the “New Orleans Police Department failed to meet recognized
+best practices regarding police- dog encounter training.” R. Doc. 209- 3 at 21. More specifically,
+Crosby opined that the City’s omission of “crucial material” from its training “likely contributed
+Case 2:22-cv-00847-EEF-KWR     Document 245     Filed 06/02/25     Page 16 of 23
+17
+
+to Burmaster’s incorrect perception of Apollo as a threat.” Id. at 20. In light of these lingering fact
+questions and Plaintiffs’ expert testimony, the Court finds that material disputes still remain as to
+the adequacy of the City’s training and thus will not dismiss the Plaintiffs’ failure to train claim
+for this reason.1
+2. Deliberate Indifference
+ Next, the City contends that all three of Plaintiffs’ failure to train, supervise, and discipline
+claims should be dismissed because Plaintiffs have not proven “ deliberate indifference. ”
+Deliberate indifference is a stringent standard of fault, requiring proof that a municipal  actor
+disregarded a known or obvious action.”  Estate of Davis ex rel. McCully v. City of N. Richland
+Hills, 406 F.3d 375, 381 (5th Cir. 2005) (quoting Bd. of Cnty. Comm’rs of Bryan Cnty. v. Brown,
+520 U.S. 397, 410 (1997) (alteration omit ted)). There are two “theories” that plaintiffs most
+commonly argue in order to prove that a defendant’s failure to supervise, train, or discipline  its
+employees amounts to “deliberate indifference” to the constitutional rights of those the
+municipality serves. City of Canton, 489 U.S. at  390 n.10. First, a plaintiff can establish notice if
+a violation by a particular employee occurs “so often” that a factfinder can infer from the pattern
+of violations that “the need for further training must have been plainly obvious to the . . .
+policymakers.” Id. Second, there is a “single incident exception” where, even absent proof of a
+pattern, deliberate indif ference can be inferred if a factfinder determines that the risk of
+constitutional violations was or should have been an “obvious” or “highly predictable
+consequence” of the alleged inadequacies of the municipality . Burge v. St. Tammany Par., 336
+F.3d 363, 373 (5th Cir. 2003). Because the Plaintiffs have not  provided any argument regarding
+
+1  Because the Court finds there are genuine issues of material fact as to the adequacy of the City’s training, the
+Court rejects its causation argument given that it is premised upon the same reasoning.
+Case 2:22-cv-00847-EEF-KWR     Document 245     Filed 06/02/25     Page 17 of 23
+18
+
+the single incident exception in their briefing, the Court deems this theory of  deliberate
+indifference as waived and focuses the remainder of its analysis on the pattern theory.
+a. Pattern Theory
+ The Fifth Circuit has explained that “[w]here prior incidents are used to prove a pattern,
+they must have occurred for so long or so frequently that the course of conduct warrants the
+attribution to the governing body of knowledge that the objectionable co nduct is the expected,
+accepted practice of city employees.” Peterson v. City of Fort Worth, 588 F.3d 838, 849- 50 (5th
+Cir. 2009). “A pattern requires similarity and specificity.” Id. at 851. It “also requires sufficiently
+numerous prior incidents, as opposed to isolated instances.” Id.  A plaintiff pointing “only to his
+own incident as proof of a policy of deliberate indifference” is generally insufficient. Anokwuru v.
+City of Hous., 990 F.3d 956, 966 (5th Cir. 2021). Further, “[f]or an official to act with deliberate
+indifference, the official must both be aware of facts from which the inference could be drawn that
+a substantial risk of serious harm exists, and he must also draw the inference.” Pompey v. Cheney,
+214 F. App’x  463, 464 (5th Cir. 2007) (citing Smith v. Brenoettsy , 158 F.3d 908, 912 (5th Cir.
+1998)).
+ Here, Plaintiffs have  submitted evidence showing that Burmaster had “thirty or more”
+reported uses of force, with his NOPD “use of force file” amounting to more than 600 pages . R.
+Doc. 122-4 at 3-4; R. Doc. 122-3 at 14:1-6. Of these incidents, Burmaster even admits to killing
+another dog with a firearm while on the job, which makes him the only NOPD officer to have shot
+two animals from 2012 to present. R. Doc. 122-2 at 191:3-8; 122-3 at 14:1-6. Burmaster has also
+reportedly discharged a firearm against two people and brandished his firearm at least four times.
+R. Doc. 208-4 at 2; R. Doc. 208-21. Other use of force incidents involving Burmaster elicited from
+discovery include multiple instances of: use of hands, causing a take down, and exhibiting a CEW
+Case 2:22-cv-00847-EEF-KWR     Document 245     Filed 06/02/25     Page 18 of 23
+19
+
+Exhibit/Laser. R. Doc. 208-21. Moreover, there is proof that NOPD has documented at least  22
+rule violations committed by Burmaster, including verbal intimidation, moral conduct,
+professionalism, performance of duty, and neglect of duty. R. Doc. 122-3 at 25:11-20. And after
+reviewing all this evidence, Plaintiffs’ expert Mr. Crosby, in his capacity as a former lieutenant in
+a law enforcement agency, notably testified that:
+[T]he disciplinary history of Officer Burmaster documents his poor
+decision making, lack of professional conduct, and should have, in
+my experience, resulted in his termination from service. Thus, it
+appears that the New Orleans Police Department wrongly retained
+Burmaster prior to this shooting, and wrongfully retained him again
+in the aftermath of this incident.
+
+R. Doc. 110-18 at 21.
+ As the Court foreshadowed in a prior order, Burmaster’s past uses of force and disciplinary
+record, now supported throughout the record, are more than sufficient for a reasonable jury to find
+that the City had “constructive notice” that Burmaster was likely to commit a constitutional
+violation similar to the one allegedly visited upon the Plaintiffs. R. Doc. 115 at 8 (holding that “if
+this Court accepts as true Plaintiffs’ allegations about Burmaster’s past use of force incidents and
+other rule violations, the complaint does raise factual questions about the ‘the inappropriateness of
+NOPD’s choice to continue having Burmaster on the force.’”). T he evidence cited by Plaintiffs
+demonstrates at the very least a fact question  as to Burmaster’s proclivity for the use of force in
+his police work, NOPD’s knowledge of it, and whether NOPD should have taken action, such as
+providing him with more training, supervision, or terminating him.
+ The Court does not make this determination lightly, acknowledging deliberate indifference
+is a stringent standard that requires sufficiently numerous and similar past violations or complaints.
+See Peterson v. City of Fort Worth, 588 F.3d at 851. T he Court finds, however, that Burmaster’s
+“thirty or more” reported instances of use of force coupled with over twenty-two rule violations
+Case 2:22-cv-00847-EEF-KWR     Document 245     Filed 06/02/25     Page 19 of 23
+20
+
+arising during his tenure with NOPD are sufficiently numerous to support constructive notice on
+behalf of the City. See Muslow v. City of Shreveport , 491 F. Supp. 3d 172, 194 (W.D. La. 2020)
+(finding seven instances of use of force over four years was sufficient to preclude summary
+judgment on the deliberate indifference element); Hayward v. City of New Orleans, No. 02-3532,
+2004 WL 258116 at *5 (E.D. La. Feb. 12, 2004) (finding fourteen reports of excessive use of force
+and seven lawsuits over a nine -year period were sufficiently numerous despite the fact that most
+of the “internal complaints” were withdrawn, not sustained, or dismissed); Hegeman v. Harrison,
+No. 18-613, 2019 WL 1277523 at *12 (E.D. La. Mar. 20, 2019)  (finding eleven use of force
+instances over an eight-year period were sufficient to create a factual issue as to whether the city’s
+policymakers had notice of the complaints, whether the city’s investigation was adequate, and
+whether the city’s failure to discipline the individual officer was the “moving force” behind the
+plaintiff’s injuries). Indeed, the Court averaged Burmaster’s uses of force documented in his
+NOPD employee summary from 2016 to the year of the incident in 2022 and determined that he
+received at least 2.16 use of force reports per year. R. Doc. 208-21 at 9-10. The Court performed
+the same calculation as to Burmaster’s alleged breaches of NOPD policy, which resulted in a rate
+of about 5.5 reported violations per year. Id. at 2-9. Certainly, these numerous, repeated incidents
+and violations, taken together, make it questionable whether the City knew or should have known
+that Burmaster would break from NOPD policy and impermissibly use excessive force against
+Apollo as alleged by the Plaintiffs here.
+ And as for the City’s argument that Burmaster’s past use of force violations against humans
+are not sufficiently similar to support deliberate indifference because they do not involve dogs, the
+Court has already patently rejected this argument on Burmaster’s motion to dismiss and will not
+depart from this decision. R. Doc. 115 at 7-8. As the Court noted previously, “it is appropriate to
+Case 2:22-cv-00847-EEF-KWR     Document 245     Filed 06/02/25     Page 20 of 23
+21
+
+suggest that it is foreseeable that a failure to train or discipline an officer who use excessive force
+would result in his continued use of excessive force ––whether against humans or against other
+living beings.” Id.  This reasoning still stands in the present motion given that the summary
+judgment standard calls for t he court to “ view the evidence in the light most favorable ” to the
+Plaintiffs. Coleman, 113 F.3d at 533. And even more importantly, the Court notes that Plaintiffs
+now have proof that Burmaster has discharged firearms against other s, even shooting and killing
+a civilian’s dog on the job before—exactly what transpired on these facts.
+ Accordingly, the Court concludes there are genuine issues of material fact as to whether
+the City acted with deliberate indifference in its alleged failures to train, supervise, and discipline
+Burmaster in light of the evidence showing sufficiently numerous and similar past instances  of
+excessive force as well as Burmaster’s general disciplinary history.
+D. Ratification Theory
+ Finally, the Court addresses Plaintiffs’ Partial Summary Judgment. In the motion, Plaintiffs
+argue the City may be held liable under § 1983 because NOPD’s final policymaker –—
+Superintendent Anne Kirkpatrick–—“ ratified” Burmaster’s shooting of Apollo. R. Doc. 224- 1.
+Thus, whether Plaintiffs can show a failure to train, supervise, and/or discipline on behalf of the
+City would essentially become moot. Indeed, “[t]he ratification theory provides another way of
+holding a city liable under § 1983.” Allen v. Hays, 65 F.4th 736, 749 (5th Cir. 2023).
+ The origins of the so -called “ratification theory”  can be traced back to the United States
+Supreme Court’s decision in City of St. Louis v. Praprotnik, 485 U.S. 112 (1988). In that case, the
+Court held that “[i]f the authorized policymakers approve a subordinate’s decision and the basis
+for it, their ratification would be chargeable to the municipality because their decision is final.” Id.
+at 127. Here, when asked whether she “approved of Burmaster’s decision to shoot the dog and his
+Case 2:22-cv-00847-EEF-KWR     Document 245     Filed 06/02/25     Page 21 of 23
+22
+
+basis for it,” Superintendent Kirkpatrick’s unequivocally answered in the affirmative, which
+appears at first glance to be a valid ratification in light of Praprotnik. R. Doc. 224-4 at 4.
+ Courts, however, have held “a municipality is not liable under the ratification theory where
+a Police Chief accepts [their] officers’ version of events, so long as ‘the version did not show that
+the deputies’ actions were manifestly indefensible.” Allen v. City of Galveston, Tex., No. G-06-
+467, 2008 WL 905905, at *8 (S.D. Tex. Mar. 31, 2008) (citing Coon v. Ledbetter, 780 F.2d 1158,
+1161 (5th Cir. 1986)). Rather, the plaintiff must show that the ratifying policymaker knew that
+their employees’ actions were unlawful and “clearly excessive” to the officer’s apparent need to
+defend themselves but approved them anyways. Id.; see also Peterson v. City of Fort Worth,
+Tex., 588 F.3d 838, 848 (5th Cir. 2009) (holding “a policymaker who defends conduct that is later
+shown to be unlawful does not necessarily incur liability on behalf of the municipality”). Indeed,
+“such limitations on municipal liability are necessary to prevent the ratification theory from
+becoming a theory of respondeat superior, which . . . Monell does not countenance.” Milam v. City
+of San Antonio, 113 F. App’ x 622, 627 (5th Cir. 2004). With this precedent in mind, the Court
+finds that Plaintiffs have failed to meet their burden on summary judgment because they have not
+presented any evidence beyond Superintendent Kirkpatrick’s mere affirmance of Burmaster’s
+actions to support their ratification theory. But the Court observes that there may still be a fact
+question as to whether she did so impermissibly such that ratification could be viable here in light
+of the fact that NOPD’s PIB previously found the shooting of Apollo to be unjustified, and NOPD
+only just recently changed its position, exonerating Burmaster of any wrongdoing during the
+course of this litigation. R. Doc. 94-8; R. Doc. 208-16.
+ Moreover, the Court recognizes that the Fifth Circuit has limited the theory of ratification
+to “extreme factual situations.” Peterson, 588 F.3d at 848. “[U]nless the subordinate’s actions are
+Case 2:22-cv-00847-EEF-KWR     Document 245     Filed 06/02/25     Page 22 of 23
+23
+
+sufficiently extreme —for instance, an obvious violation of clearly established law —a
+policymaker’s ratification or defense of his subordinate ’s actions is insufficient to establish an
+official policy or custom.” Id. As such, there is yet another fact question as to whether the shooting
+of Apollo rose to the level of “sufficiently extreme” that is required for the imposition of liability
+against the City based on ratification , which is a  fact-intensive inquiry better left for the jury to
+decide. Accordingly, the Court will not grant the Plaintiffs’ motion at this time but will allow them
+to proceed with their ratification theory at trial.2
+V. CONCLUSION
+For the foregoing reasons;
+IT IS HEREBY ORDERED that the City’s Motion for Partial Summary Judgment, R.
+Doc. 208, is DENIED.
+IT IS FURTHER ORDERED that Plaintiffs’ Motion for Partial Summary Judgment, R.
+Doc. 227, is DENIED.
+New Orleans, Louisiana, this 2nd day of June, 2025.
+
+2  Additionally, the Court wishes to clarify that it will not preclude the Plaintiffs from raising their ratification
+theory just because they failed to allege it in their complaint as suggested by the City and Burmaster. The Defendants
+have not cited, nor could the Court find, any case law to support the position that a plaintiff must plead ratification in
+order to assert it on summary judgment or at trial. Rather, the Court agrees with the Plaintiffs that ratification is merely
+a theory of liability underlying their overarching Monell claim, which need not be specifically pled. Phenix de Tejas,
+Inc. v. Sentinel Ins. Co., No. 5:24-CV-1112-JKP-HJB, 2025 WL 1243912, at *4 (W.D. Tex. Apr. 29, 2025) (“Plaintiffs
+need not plead the legal basis for a claim”); Green v. City of Shreveport , No. CV 5:20-01528, 2024 WL 1341049, at
+*13 (W.D. La. Feb. 6, 2024), report and recommendation adopted, No. CV 5:20 -01528, 2024 WL 1340350 (W.D.
+La. Mar. 28, 2024) (finding a plaintiff “need not plead theories of recovery”). Moreover, Plaintiffs have made clear to
+the Defendants in prior motions dating back to the beginning of this case that they would pursue a ratification theory
+if the police chief endorsed Burmaster’s actions. R. Doc. 56 at 3-4 (writing in their brief that the “question then is
+whether the City ratifies Burmaster’s actions . . . .  As a result, the City has not formulated its official policy on the
+Burmaster shooting. Accordingly, the Monell question is premature.”). It thus cannot be said that the Defendants have
+had inadequate time to prepare an opposition to this argument.
+United States District Judge
+Case 2:22-cv-00847-EEF-KWR     Document 245     Filed 06/02/25     Page 23 of 23

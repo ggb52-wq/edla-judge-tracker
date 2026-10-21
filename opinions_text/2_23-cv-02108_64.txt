@@ -1,0 +1,828 @@
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+INLAND FRESH SEAFOOD
+CORPORATION OF AMERICA, INC.
+
+CIVIL ACTION
+VERSUS NO. 23-2108
+TRAVELERS PROPERTY CASUALTY
+COMPANY OF AMERICA
+
+SECTION “O”
+ORDER AND REASONS
+ Before the Court in this insurance coverage case are the cross -motions1 for
+partial summary judgment of Plaintiff Inland Fresh Seafood Corporation of America,
+Inc. (“Inland”)  and Defendant Travelers Property Casualty Company of America
+(“Travelers”) on Inland’s Extended Business Income claim. For the following reasons,
+both motions  are DENIED. Travelers submits a n additional motion for summary
+judgment seeking dismissal of Inland’s second cause of action alleging Title 22 bad
+faith pursuant to La. Rev. Stat. §§ 22:1973 and 1892. For the following reasons, that
+motion is GRANTED in part and DENIED in part.
+I.  BACKGROUND
+Inland is a seafood wholesaler that operates a regional facility in New Orleans,
+Louisiana. Travelers is an insurance company that sold Inland an all risk property
+insurance policy with a policy period of August 8, 2021 to August 8, 2022 (the
+“Policy”).2 The Policy covered Inland’s facility located at  2527 Perdido St. (the
+
+1 ECF Nos. 35 and 39.
+2 ECF No. 39-2 (Certified Policy).
+Case 2:23-cv-02108-BSL-KWR     Document 64     Filed 09/22/25     Page 1 of 29
+2
+
+“Perdido Property”).3 The Perdido Property was 12,687 square feet and included a
+room to cut fish, a lobster tank, cold storage spaces (including refrigeration and
+freezer), forklifts, and a loading dock.4
+A. Hurricane Ida Damages Inland’s Perdido Property
+Hurricane Ida struck the New Orleans area on August 29, 2021, and damaged
+Inland’s Perdido Property.5 Inland’s operations were entirely suspended from August
+29, 2021, until September 5, 2021.6
+Inland partially resumed operations on September 6, 2021. During that time,
+Inland was working out of a temporary location in Independence, Louisiana.7 Inland
+operated out of that location until November 6, 2021. 8 Inland shared the property
+with a shrimp processing company that was operating out of the same facility, which
+required sharing freezer space, the loading dock, and the forklifts. Due to inadequate
+freezer space, Inland also needed to lease additional refrigerated trailers for its
+products.9
+In November 2021, Inland moved to another temporary location in Chalmette,
+Louisiana.10 At this property, too, Inland needed to lease supplemental refrigerated
+trailers and freezers to store its seafood.11 Inland remained at this second temporary
+
+3 Id. at 10.
+4 ECF No. 43-5 ¶ 3 (Comeaux Decl.).
+5 Id. ¶ 4.
+6 Id. ¶ 5.
+7 Id.
+8 Id.
+9 Id.
+10 Id. ¶ 6.
+11 ECF No. 42-4 (Jones Depo. at 70:1-24).
+Case 2:23-cv-02108-BSL-KWR     Document 64     Filed 09/22/25     Page 2 of 29
+3
+
+location until January 2023.12 Throughout its time in the temporary facilities, Inland
+struggled to maintain the quality of its products for its customers.13 Some customers
+switched to other distributors.14
+On January 15, 2023, Inland moved into its post-storm permanent location at
+134 Brookhollow Esplanade in Harahan , Louisiana (the “Brookhollow Property”).15
+The Brookhollow Property was of a similar size and quality to the original Perdido
+Property.16 The new property was also capable of handling the same volume and
+quality of operations that the Perdido Property had been handling before it was
+damaged by Hurricane Ida. 17 Despite resuming operations in January 2023 at the
+new, permanent location, however, Inland struggled to immediately resume the same
+level of business activity it had sustained before the hurricane. It experienced slower
+sales from customers, many of whom had reduced their orders from Inland while it
+was operating out of the temporary locations.18
+B. Inland’s Policy with Travelers
+Inland’s insurance Policy with Travelers—the Policy at issue here —promises
+to pay for any “direct physical loss of or damage to Covered Property  caused by or
+resulting from a Covered Cause of Loss.”19 It also agrees to pay for the “actual loss of
+Business Income” and the “actual Extra Expense” incurred during the “ Period of
+
+12 ECF No. 43-5 ¶ 6.
+13 Id. ¶ 7.
+14 Id.
+15 Id. ¶ 8.
+16 Id.
+17 Id.
+18 Id. ¶¶ 8-9.
+19 ECF No. 39-2 at 25.
+Case 2:23-cv-02108-BSL-KWR     Document 64     Filed 09/22/25     Page 3 of 29
+4
+
+Restoration[.]”20 The “ Period of Restoration” is calculated as the period of time
+between (a) the time of loss plus any deductible period —here, September 5, 2021 —
+and (b) the earlier of the date the Property “should be repaired, rebuilt or replaced
+with reasonable speed and similar quality” or “when business is resumed at a new
+permanent location.”21 “Business Income” is calculated as the sum of net income (net
+profit or loss before taxes) plus continuing normal operating expenses.22
+The Policy also covers “Business Income” losses for a time after the “Period of
+Restoration” ends—that is, after the policyholder has “repaired, rebuilt or replaced
+with reasonable speed and similar quality” its damaged property or “resumed
+[business] at a new permanent location.” 23 This coverage is known as Extended
+Business Income coverage (“EBI”). The EBI provision of Inland’s Policy with
+Travelers provides:
+(1) Business Income Other Than “Rental Value”
+If the necessary “suspension” of your “operations” produces a Business Income
+loss payable under this Coverage Part, we will pay for the actual loss of
+Business Income you incur during the period that:
+(a) Begins on the date property (except “finished stock”) is actually
+repaired, rebuilt or replaced and “operations” are resumed; and
+(b) Ends on the earlier of:
+(i) The date you could restore your “operations”, with reasonable
+speed, to the level which would generate the Business Income
+amount that would have existed if no direct physical loss or
+damage had occurred; or
+
+20 Id. at 63.
+21 Id. at 74.
+22 Id. at 63.
+23 Id. at 74.
+Case 2:23-cv-02108-BSL-KWR     Document 64     Filed 09/22/25     Page 4 of 29
+5
+
+(ii) 180 consecutive days after the date determined in (1)(a)
+above . . .
+However, Extended Business Income does not apply to loss of Business
+Income incurred as a result of unfavorable business conditions caused
+by the impact of the Covered Cause of Loss in the area  where the
+described premises are located.
+Loss of Business Income must be caused by direct physical loss of or
+damage to property at the described premises caused by or resulting
+from a Covered Cause of Loss.24
+Additionally, “Operations” is defined as:
+Your business activities occurring at the described premises even if such
+activities would not have produced income during the ‘period of restoration,’
+such as research and development activities[.]25
+C. Travelers Denies Inland’s Extended Business Income Claim and
+the Parties Dispute the Timing and Reimbursement Amounts of
+Certain of Inland’s Other Claims
+After sustaining damage to the Perdido Property from Hurricane Ida in August
+2021, Inland notified Travelers of its claim for damage  to the Perdido Property  and
+potential Business Income loss.26 The parties were ultimately successful in agreeing
+on the amount of Inland’s claim for physical damage to the Perdido Property .
+Travelers paid Inland $530,993.97 for the physical damage to the property.27
+The parties disagreed, however, regarding the extent and timing of Inland’s
+Business Income and Extra Expense claim. Travelers asserts that over the course of
+its adjustment of the claim, it has paid Inland $1,355,717.40 for loss of  Business
+Income and Extra Expense under the Policy .28 Inland disputes this figure and the
+
+24 Id. at 65.
+25 Id. at 74.
+26 ECF No. 43-9.
+27 ECF No. 43-1 ¶ 13.
+28 Id.
+Case 2:23-cv-02108-BSL-KWR     Document 64     Filed 09/22/25     Page 5 of 29
+6
+
+timing of certain of the payments.29 On June 16, 2023, Inland filed suit for (1) breach
+of contract and (2) bad faith under La. Rev. Stat. §§ 22:1973 and 1892.30
+Several months after filing its Complaint , Inland sought payment for its EBI
+losses to cover the 180 days after it had moved into the new, permanent Brookhollow
+Property.31 In an October 26, 2023 correspondence to Travelers, Inland stated that it
+had “replaced its damaged property by and resumed operations on January 15, 2023.
+But its business interruption losses continued 180 days after that, up to and through
+July 14, 2023.”32
+Travelers rejected Inland’s request for EBI coverage. According to Travelers’
+February 16, 2024 response letter, Inland could not show that its “ability to
+warehouse and distribute seafood and other goods” was diminished at the new
+property.33
+The parties now bring cross -motions for partial summary judgment  on the
+issue of Travelers’ alleged breach of contract for failure to provide EBI coverage under
+the Policy.34 Travelers contends that Inland is not entitled to EBI coverage under the
+Policy because Inland had the physical ability and capability to generate its pre -
+hurricane level of Business Income as of January 15, 2023—i.e., the day it moved into
+its permanent Brookhollow Property. Inland argues that the Policy covers its loss es
+in Business Income after moving into the Brookhollow Property because its slowdown
+
+29 Id.
+30 ECF No. 1 ¶¶ 13-19.
+31 ECF No. 43-1 ¶ 28.
+32 ECF No. 35-3 at 1.
+33 ECF No. 35-6 at 2.
+34 ECF Nos. 35, 39.
+Case 2:23-cv-02108-BSL-KWR     Document 64     Filed 09/22/25     Page 6 of 29
+7
+
+in customer orders was caused by Hurricane Ida after customers switched to other
+distributors due to product  quality issues  at the  temporary properties. For the
+reasons given below, the Court denies each motion.
+Travelers also brings a motion for summary judgment on Inland’s bad faith
+claims.35 Travelers argues that it acted in good faith while resolving Inland’s claims.
+Travelers contends that it consistently communicated with Inland and that any
+disagreement is a question of Policy interpretation, not bad faith. Inland asserts that
+Travelers acted unreasonably in its coverage determinations and that its payments
+were late. Inland argues that any dispute is a factual question for the jury. For the
+reasons given below, the Court grants in part and denies in part the motion.
+II.  LEGAL STANDARD
+A. Summary Judgment
+Summary judgment is appropriate when “the movant shows that there is no
+genuine dispute of material fact and the movant is entitled to judgment as a matter
+of law.” FED . R.  CIV . P.  56(a); see also Celotex Corp. v. Catrett, 477 U.S. 317, 322-23
+(1986). “In reviewing the record, ‘the court must draw all reasonable inferences in
+favor of the nonmoving party, and it may not make credibility determinations or
+weigh the evidence.’” Vote.Org v. Callanen, 89 F.4th 459, 469 (5th Cir. 2023) (quoting
+Reeves v. Sanderson Plumbing Prods., Inc. , 530 U.S. 133, 150 (2000)). The Court
+“‘resolve[s] factual controversies in favor of the nonmoving party, but only where
+there is an actual controversy, that is, when both parties have submitted evidence of
+
+35 ECF No. 36.
+Case 2:23-cv-02108-BSL-KWR     Document 64     Filed 09/22/25     Page 7 of 29
+8
+
+contradictory facts.’” Antoine v. First Student, Inc., 713 F.3d 824, 830 (5th Cir. 2013)
+(quoting Boudreaux v. Swift Transp. Co., 402 F.3d 536, 540 (5th Cir. 2005)).
+If the dispositive issue is one on which the moving party will bear the burden
+of proof at trial, the moving party “must come forward with evidence which would
+‘entitle it to a directed verdict if the evidence went uncontroverted at trial. ’” Int’l
+Shortstop, Inc. v. Rally ’s, Inc. , 939 F.2d 1257, 1264 -65 (5th Cir. 1991)  (citation
+omitted). The nonmoving party can then defeat the motion by either countering with
+evidence sufficient to demonstrate the existence of a genuine dispute of material fact,
+or by “showing that the moving party’s evidence is so sheer that it may not persuade
+the reasonable fact -finder to return a verdict in favor of the moving party.” Id. at
+1265.
+If, however, the nonmovant bears the burden of proof at trial on the dispositive
+issue, “‘the movant may merely point to an absence of evidence, thus shifting to the
+non-movant the burden of demonstrating by competent summary judgment proof
+that there is an issue of material fact warranting trial.’” In re La. Crawfish Producers,
+852 F.3d 456, 462 (5th Cir. 2017) (quoting Lindsey v. Sears Roebuck & Co. , 16 F.3d
+616, 618 (5th Cir. 1994)). “‘If the evidence is merely colorable, or is not significantly
+probative, summary judgment is appropriate.’” Guillot ex rel T.A.G. v. Russell , 59
+F.4th 743, 750 (5th Cir. 2023) (quoting Cutting Underwater Techs. USA, Inc. v. Eni
+U.S. Operating Co., 671 F.3d 512, 517 (5th Cir. 2012)).
+B. Louisiana Insurance Claims
+Case 2:23-cv-02108-BSL-KWR     Document 64     Filed 09/22/25     Page 8 of 29
+9
+
+This dispute was filed in this Court on the basis of diversity jurisdiction under
+28 U.S.C. § 1332.36 “A federal court sitting in diversity applies the substantive law of
+the forum state, in this case Louisiana.” Wisznia Co. v. Gen. Star Indem. Co ., 759
+F.3d 446, 448 (5th Cir. 2014). Under Louisiana law, in a dispute over the
+interpretation of an insurance policy issued in the state, Louisiana substantive law
+controls. See Lamar Advert. Co. v. Cont’l Cas. Co., 396 F.3d 654, 659 (5th Cir. 2005).
+In Louisiana, “[a]n insurance policy is a contract between the parties and
+should be construed using the general rules of interpretation of contracts set forth in
+the Civil Code.” Bonin v. Westport Ins. Corp., 2005-0886 (La. 5/17/06), 930 So. 2d 906,
+910. The policy “‘should not be interpreted in an unreasonable or a strained manner
+so as to enlarge or to restrict its provisions beyond what is reasonably contemplated
+by its terms or so as to achieve an absurd conclusion. ’” Carrier v. Reliance Ins. Co. ,
+1999-2573 (La. 4/11/00), 759 So. 2d 37, 43 (citation omitted). Courts are “reluctant to
+grant summary judgment denying coverage ‘unless there is no reasonable
+interpretation of the policy, when applied to the undisputed material facts shown by
+the evidence supporting the motion, under which coverage could be afforded .’”
+Crumedy v. XYZ Ins. Co. , 2023 WL 7411282, at *2 (E.D. La. Nov. 9,  2023) (quoting
+Cosey v. Flight Acad. of New Orleans, LLC , 2019-0757 (La. App. 4 Cir. 5/13/20), 364
+So. 3d 226, 231 ); see also Arctic Slope Regional Corp. v. Affiliated FM Ins. Co. , 564
+F.3d 707, 709 -10 (5th Cir.  2009) (ambiguities in insurance contracts are “to be
+
+36 ECF No. 1 ¶ 3.
+
+Case 2:23-cv-02108-BSL-KWR     Document 64     Filed 09/22/25     Page 9 of 29
+10
+
+construed against the insurer and in favor of coverage”) (quoting  Sher v. Lafayette
+Ins. Co., 2007-2441 (La. 4/8/08), 988 So. 2d 186, 193).
+III.  ANALYSIS
+A. Extended Business Income Claim
+Both parties move for summary judgment on the issue of Travelers’ alleged
+breach of insurance contract for failure to pay Extended Business Income loss
+benefits.
+Travelers argues that Inland  is foreclosed from entitlement to EBI coverage
+under the Policy’s “unambiguous” language.37 According to Travelers, the day Inland
+moved into its new Brookhollow Property—which was the same size and capacity as
+its original facility—Inland physically “could restore” its “‘business activities” to the
+level that would generate its pre -hurricane Business Income. In other words, under
+Travelers’ reading  of the Policy , the word “could” only involves “consideration of
+Inland’s ability, or capability, at the new location ,” and does not g uarantee a
+“continued customer base” or “customer loyalty .”38 Therefore, argues Travelers ,
+Inland is not eligible for EBI coverage because it had the physical capability to
+generate its previous level of Business Income from its first day at the new facilit y.
+Inland’s other reasons for experiencing  decreased Business Income , such as fewer
+customer orders, are not covered.39
+
+37 ECF No. 35-1 at 6.
+38 ECF No. 47-2 at 5.
+39 ECF No. 35-1 at 12-13.
+Case 2:23-cv-02108-BSL-KWR     Document 64     Filed 09/22/25     Page 10 of 29
+11
+
+Inland argues that  Travelers’ reading of the Policy would render  it
+meaningless. Inland points out that under Travelers’ reading, EBI coverage would
+begin and end o n the same day —i.e., the day the policyholder moved into a new,
+permanent facility and began operations. 40 Inland contends that the Policy covers
+Business Income  losses resulting from  decreased customer orders caused by
+Hurricane Ida’s damage to its original property. In other words, according to Inland,
+but for the damage to the Perdido Property, Inland would not have been forced to
+work out of inferior, temporary facilities with “insufficient refrigeration,” its
+customers would not have been “dissatisfied,” and those customers would not have
+“turned to other vendors to meet their needs.”41 Therefore, argues Inland, the Policy
+must cover the losses at the new facility that stem from customers “not resum[ing]
+the same level of orders of [its] products as they had before [Hurricane] Ida,” because
+those losses ultimately relate back to the hurricane’s damage to the original Perdido
+Property.42
+Inland has the better reading of the Policy. Recall that under the Policy, EBI
+coverage:
+(a) Begins on the date property (except “finished stock”) is actually
+repaired, rebuilt or replaced and “operations”43 are resumed; and
+(b) Ends on the earlier of:
+(i) The date you could restore your “operations”, with reasonable
+speed, to the level which would generate the Business Income
+
+40 ECF No. 42 at 16-17.
+41 Id. at 13.
+42 Id. at 16-17, 19.
+43 “Operations” means “[y]our business activities occurring at the described premises even if
+such activities would not have produced income during the ‘period of restoration,’ such as research and
+development activities[.]” ECF No. 39-2 at 74.
+Case 2:23-cv-02108-BSL-KWR     Document 64     Filed 09/22/25     Page 11 of 29
+12
+
+amount that would have existed if no direct physical loss or
+damage had occurred; or
+(ii) 180 consecutive days after the date determined in (1)(a)
+above . . . 44
+ Recall, too, that EBI coverage
+does not apply to loss of Business Income incurred as a result of
+unfavorable business conditions caused by the impact of the Covered
+Cause of Loss in the areas where the described premises are located[,]45
+ and
+[l]oss of Business Income must be caused by direct physical loss of or
+damage to property at the described premises caused by or resulting
+from a Covered Cause of Loss.46
+Travelers’ reading of the Policy would render  EBI coverage  all but
+meaningless.47 EBI coverage “[b]egins on the date property . . . is actually repaired,
+rebuilt or replaced and ‘operations’ are resumed[.]”48 Put differently, the onset of the
+EBI coverage period is triggered only after the insured’s property has been actually
+repaired or replaced with a property of like kind and quality. Travelers agrees that
+EBI coverage began the day Inland moved into its new , permanent  Brookhollow
+location, which was of similar size and capability as its original Perdido Property .49
+But under Travelers’ reading of the Policy, EBI coverage would terminate on the same
+day it started because Inland had moved into a permanent location of a similar size
+
+44 Id. at 65.
+45 Id.
+46 Id.
+47 At best, Travelers’ argument highlights an ambiguity in the Policy’s language. But to the
+extent that ambiguous terms appear in an insurance contract, they “are to be construed liberally in
+favor of a person claiming coverage.” Westerfield v. LaFleur, 493 So.2d 600, 602-03 (La. 1986); see also
+La. Civ. Code art. 2056 (“In case of doubt that cannot be otherwise resolved, a provision in a contract
+must be interpreted against the party who furnished its text. A contract executed in a standard form
+of one party must be interpreted, in case of doubt, in favor of the other party.”).
+48 ECF No. 39-2 at 65.
+49 ECF No. 41 at 7.
+Case 2:23-cv-02108-BSL-KWR     Document 64     Filed 09/22/25     Page 12 of 29
+13
+
+and capability as its original property , and thus, according to Travelers, Inland had
+restored “operations” sufficient to generate Business Income as if no direct physical
+loss or damage had occurred to the original property.50
+This reading of the Policy would render an insured’s purchase of EBI coverage
+superfluous. That interpretation cannot stand  under Louisiana law.  See Naquin v.
+Elevating Boats, L.L.C., 817 F.3d 235, 239 (5th Cir. 2016) (citing La. Civ. Code art.
+2049) (“A contractual ‘provision susceptible of different meanings must be interpreted
+with a meaning that renders it effective and not with one that renders it ineffective,’
+so as to avoid rendering any provision  in the contract superfluous.”).  It would also
+undermine the purpose of EBI coverage, which exists “to support the business until
+it can regain the customers and level of business income that existed before the loss.”
+Daniel T. Torpey, et al., The Business Interruption Book: Coverage, Claims, and
+Recovery, at 36 (2004) . EBI coverage is distinct from the coverage Inland received
+before it moved into the Brookhollow Property (during the “ period of restoration”)
+because EBI compensates for the “additional loss of business income that continues
+past the time that the damaged property is repaired and operations resumed.” Id.;
+see also Island Concepts, LLC v. Certain Underwriters at Lloyd’s, London , 2014 WL
+5524379, at *8 (E.D. La. Oct. 31, 2014) (“[T]he purpose behind business interruption
+insurance . . .  is to ‘protect the earnings which the insured would have enjoyed had
+no interruption or suspension occurred.’” (citation omitted)).
+
+50 As Travelers explains, “In this case, those [start and end] dates are the same  – on the
+day that Inland began operations at the Brookhollow Location it could have restored its operations, its
+business activities, to the level which would generate the Business Income amount that would have
+existed in the absence of Hurricane Ida.” Id. at 6-7 (emphasis in original).
+Case 2:23-cv-02108-BSL-KWR     Document 64     Filed 09/22/25     Page 13 of 29
+14
+
+In Berwick v. Hartford Fire In surance Company, a nother district court
+considered and rejected  a similar argument by the insurer -defendant. 2012 WL
+3843323 (D. Colo. Sept. 4, 2012) . In that case , a dental practice damaged in a fire
+sought EBI coverage from its insurer under a policy with near-identical language as
+here. Id. at *1-2. The plaintiffs sought coverage for the time-period after they had
+repaired and reopened their facility but before customers had returned at pre -loss
+rates. Id. The insurer -defendant argued the plaintiffs did not qualify for EBI
+coverage. Id. at *3. According to the insurer -defendant, once the plaintiffs reopened
+the facility, their “operations were fully functional, and the same volume and nature
+of work could be physically performed on that date as before the fire ,” and the fact
+that there were fewer customers after the re -opening date was  a “market force[]”
+damage not covered by the policy.  Id. at *3. The court rejected that argument  and
+concluded that physically “[r]estoring the Premises and restoring operations have to
+be interpreted differently” for the EBI policy to have any meaning. Id. at *5. The court
+accordingly denied the insurer-defendant’s summary judgment motion. Id.
+So too here. Inland’s restoration of its facility to one of similar size and quality
+cannot mark both the beginning and end of its EBI coverage . That reading would
+ignore that EBI coverage begins when operations are “resumed”—but ends when
+operations are “restored.” 51 This means that the end of EBI coverage is marked by
+the restoration of operations, not the restoration of the physical property. In other
+words, “[r]estoring the Premises and restoring operations have to be interpreted
+
+51 Id. at 65 (emphasis added).
+Case 2:23-cv-02108-BSL-KWR     Document 64     Filed 09/22/25     Page 14 of 29
+15
+
+differently” for the EBI policy to have any meaning . Berwick, 2012 WL 3843323 , at
+*5.
+Though Travelers offers two examples of potential scenarios in which EBI
+coverage would theoretically apply under its reading of the Policy, neither persuades.
+Travelers contends that Inland would qualify for EBI coverage during any time lag
+between moving into its permanent facility and “hir[ing] a sufficient workforce” in a
+hypothetical world in which Inland had “lost all of its employees” in the “tumultuous
+efforts to keep the business running after the storm.”52 Travelers further asserts that
+its interpretation of EBI coverage would apply during any time lag between Inland
+moving into the permanent facility and Inland completing the “test[ing] or
+commission[ing]” of any required “machinery or equipment.” 53 But each of these
+examples ignores that EBI coverage begins when the property “is actually repaired,
+rebuilt or replaced and ‘operations’ are resumed[.]”54 Travelers does not explain how
+Inland’s operations would have “resumed” under the Policy—and EBI coverage would
+have begun —if Inland were still lacking the employees or critical equipment
+necessary to functionally resume those operations. Travelers’ reading of the Policy is
+therefore rejected. See also Am. Guarantee & Liab. Ins. Co. v. S. Minnesota Beet
+Sugar Co-op., 320 F. Supp. 2d 879, 883 (D. Minn. 2004) ( rejecting reading of policy
+
+52 ECF No. 41 at 9.
+53 Id.
+54 ECF No. 39-2 at 65 (emphasis added).
+Case 2:23-cv-02108-BSL-KWR     Document 64     Filed 09/22/25     Page 15 of 29
+16
+
+that would “render the extended business income coverage redundant ”). The Court
+accordingly denies Travelers’ motion55 for summary judgment.56
+The Court instead agrees with Inland’s reading of EBI coverage—i.e., that the
+Policy covers Business Income losses that stem from decreased orders due to
+customers switching distributors after experiencing quality issues while Inland was
+working out of temporary locations. Though it is true that the EBI Policy only covers
+Business Income losses “ caused by direct physical loss of or damage to property at
+the described premises,” EBI coverage also begins on “the date property . . . is actually
+repaired, rebuilt or replaced and ‘operations’ are resumed.”57 For EBI coverage to
+have any meaning, losses that are “caused by direct physical loss of or damage to the
+[original] property” must include downstream losses of that original physical damage.
+Otherwise, it would be impossible for any Business Income losses to still be occurring
+at the new permanent location after operations had resumed. See Shaw Mortg. Corp.
+v. Peerless Ins. Co., 615 F. Supp. 2d 1172, 1177 (S.D. Cal. 2009) (“[T]he purpose of the
+Extended Business Income coverage is to provide a cushion for the time after the
+‘Period of Restoration’ when the insured is back in business but still not doing
+business at the same vol ume as before.”)  These covered losses therefore  include
+
+55 ECF No. 35.
+56 Travelers further argues that even if Inland’s interpretation of the Policy’s EBI provision is
+correct, Inland lacks sufficient evidence to carry its burden at trial that it lost customer s due to the
+consequences of Hurricane Ida. According to Travelers, Inland has failed to “produce[] any evidence or
+documentation demonstrating why it lost customers between Ida and July 14, 2023.” ECF No. 35-1 at
+11 (emphasis in original). The Court disagrees. Inland has submitted evidence into the record
+supporting its contention that its EBI losses were caused by its property damage. See, e.g., ECF Nos.
+42-2 ¶ 9; 42 -4 at 107:1-25; see also Citadel Broad. Corp. v. Axis U.S. Ins. Co ., 2014-0326 (La. App. 4
+Cir. 2/11/15), 162 So. 3d 470, 475  (“customer-by-customer proof” of business interruption losses  is
+unnecessary; business interruption losses need only be proved with “reasonable certainty”).
+57 ECF No. 39-2 at 65.
+Case 2:23-cv-02108-BSL-KWR     Document 64     Filed 09/22/25     Page 16 of 29
+17
+
+decreased customer orders after customers switched distributors due to quality issues
+caused by the temporary locations.
+Beyond championing its reading of the Policy alone, however, Inland also urges
+the Court to grant  summary judgment on its entitlement to EBI coverage . Inland
+points to evidence in the record that it experienced decreased Business Income after
+opening its Brookhollow Property due to its loss of customers stemming from the
+aforementioned quality issues.58 Inland argues there is no genuine dispute that it is
+eligible for EBI coverage and urges the Court to grant summary judgment on that
+issue.
+The Court disagrees.  Inland’s argument ignores certain of the Policy’s
+language and erroneously assumes the factual conclusion  that Inland’s slower
+customer orders were necessarily due to issues relating to the hurricane . Under
+Louisiana law, when determining whether a policy affords coverage for an incident,
+it is the burden of the insured to prove the incident falls within the policy ’s terms.
+See, e.g., Cent. Crude, Inc. v. Liberty Mut. Ins. Co., 51 F.4th 648, 653 (5th Cir. 2022);
+Courtenay, Hunter & Fontana, LLP v. Massachusetts Bay Ins. Co., 2008 WL 3876421,
+at *4 (E.D. La. Aug. 19, 2008) (“The motion is likewise denied as to extended business
+income coverage because Plaintiff must first establish at trial that  coverage under
+
+58 See, e.g. ECF Nos. 42-2 ¶ 9 (Comeaux Decl.) (“In summary, because of the damage caused to
+Inland’s Perdido Location, customers reduced and/or eliminated orders for certain products after
+Inland had been unable to meet certain customer needs while Inland was operati ng out of temporary
+locations from September 2021 to January 2023[.]”); 42 -4 at 107:19 -21 (Jones Depo.) (“The
+refrigeration was—it killed us. It really did. The non-refrigeration hurt us so bad.”)
+Case 2:23-cv-02108-BSL-KWR     Document 64     Filed 09/22/25     Page 17 of 29
+18
+
+the business income section of the policy applies.”). It is therefore Inland’s burden to
+show that it is entitled to EBI coverage in the first instance.
+Inland fails to do so. As explained, to qualify for EBI coverage, Inland’s loss of
+Business Income “must be caused by direct physical loss of or damage to property at
+the described premises[.]” 59 Inland provides evidence that it experienced Business
+Income losses after opening its new facility due to the loss of customers stemming
+from quality issues during its time in temporary locations. 60 Travelers, however,
+provides conflicting evidence that Inland lost customers for reasons unrelated to
+Hurricane Ida’s damage, including a lawsuit over unpaid bills with one of its largest
+customers and “pricing issues”  with other customers. 61 Based on the parties’
+submissions, therefore, there is a factual dispute as to whether Inland’s Business
+Income losses at its Brookhollow Property were caused by the “direct physical loss of
+or damage to property ” at its original Perdido Property  or by issues not covered by
+the Policy. These are factual questions to be determined by the jury. See, e.g., Berwick,
+2012 WL 3843323, at * 4 (holding that whether any “diminution in operations” was
+
+59 ECF No. 39-2 at 65.
+60 See, e.g. ECF Nos. 42-2 ¶ 9 (Comeaux Decl.) (“In summary, because of the damage caused to
+Inland’s Perdido Location, customers reduced and/or eliminated orders for certain products after
+Inland had been unable to meet certain customer needs while Inland was operati ng out of temporary
+locations from September 2021 to January 2023[.]”); 42 -4 at 107:19 -21 (Jones Depo.) (“The
+refrigeration was—it killed us. It really did. The non-refrigeration hurt us so bad.”) Inland also points
+to Travelers’ financial expert, who calculated potential EBI reimbursement amounts for Inland under
+various scenarios. ECF No. 39 -1 at 7 (citing ECF No. 39 -5 at 6 -9). According to Inland,  these
+calculations mean that Travelers’ expert “recognized that Inland had at least some business income
+losses during the extended period of indemnity.” Id. But the expert testified that her calculations only
+applied “[i]f the extended period is covered [by the Policy] .” ECF No. 47-5 at 111:9-10 (Rusnak Depo.)
+(emphasis added) . The expert’s calculations are therefore in sufficient evidence on which to grant
+summary judgment to Inland on the issue of coverage.
+61 ECF Nos. 35 -1 at 12 (citing Inland Fresh Seafood Corporation of  America, Inc. v. Rouse’s
+Enterprises, LLC, No. 2:24-cv-00044-DJP-DPC (E.D. La.)); 41-2 at 31:7-232:2.
+Case 2:23-cv-02108-BSL-KWR     Document 64     Filed 09/22/25     Page 18 of 29
+19
+
+“‘caused by or resulting from’ the fire” as required under the EBI Policy was a
+question of fact for the jury).62
+Though the Court agrees with Inland’s interpretation of the Policy, Inland has
+failed to carry its summary judgment burden on entitlement to EBI coverage  due to
+the remaining factual disputes.63
+B. Bad Faith Claims
+Travelers also submits a second motion 64 for summary judgment seeking
+dismissal of Inland’s second cause of action alleging Title 22 bad faith pursuant to
+La. R.S. §§ 22:1973 and 1892.
+An insurer is susceptible  to penalties under La. R.S. §§ 22:1973 and 1892  for
+breaching its duty of good faith owed  to its policyholder when: (1) the insurer has
+received satisfactory proof of loss; (2) the insurer fails to pay the undisputed amount
+owed within the statutorily prescribed time (30 or 60 days) of receiving satisfactory
+proof of loss; and (3) that failure to pay is arbitrary, capricious or without probable
+
+62 Travelers’ belated invocation of the “loss of market” exclusion to EBI coverage is barred as a
+matter of law because Travelers did not reference that exclusion in its Answer. ECF No. 8 at 6.
+Boilerplate invocations of all “conditions, limitations, or exclusions” are insufficient, as they do not put
+the plaintiff on fair notice of the issues for trial . Aunt Sally’s Praline Shop, Inc. v. United Fire & Cas.
+Co., 418 F. App’x 327, 330 -31 (5th Cir. 2011)  (“loss of market” exclusion must be specifically pled as
+litigating it is a “highly fact intensive exercise” dependent on “factual development, on consultation
+with experts, and on the opportunity to test the scope of the legal applicability of the exclusion through
+dispositive motions”).
+63 Assuming the jury finds that Inland is entitled to EBI coverage , it will also need to decide
+the day Inland’s EBI coverage expired —i.e., the day that Inland, using “reasonable speed,”  “could”
+restore its operations to  generate pre-hurricane levels  of Business Income . That day may well  be
+different from the day Inland actually did restore its operations to generate pre-hurricane levels of
+Business Income . See Berwick, 2012 WL 3843323, at *3  (holding that whether plaintiffs had used
+“reasonable speed” such that they “could have restored normal operations ” sooner by, for example
+“sending out flyers, making phone calls, engaging in advertising, and otherwise letting the world know
+that they were back in business in the weeks or days leading up to the re -opening” was a question for
+the jury).
+64 ECF No. 36.
+Case 2:23-cv-02108-BSL-KWR     Document 64     Filed 09/22/25     Page 19 of 29
+20
+
+cause. Lacoste Aviation, LLC v. StarStone Nat’l Ins. Co., 719 F. Supp. 3d 502, 511-12
+(E.D. La. 2024).  “The purpose of these penalty statutes is to ‘provide remedies to
+insureds whose insurance claims are improperly handled or to whom payment is
+unreasonably delayed.’” Bourg v. Safeway Ins. Co. of Louisiana, 2019-0270 (La. App.
+1 Cir. 3/5/20), 300 So. 3d 881, 888 (citation omitted).
+Satisfactory proof of loss is proof that is “sufficient to fully apprise the insurer
+of the insured ’s claims.” Louisiana Bag Co. v. Audubon Indem. Co. , 2008-0453 (La.
+12/2/08), 999 So. 2d 1104, 1119  (citation omitted);  Katie Realty, Ltd. v. Louisiana
+Citizens Prop. Ins. Corp. , 2012-0588 (La. 10/16/12), 100 So. 3d 324, 331  (“[P]roof of
+loss necessarily means proof sufficient to establish the amount due on an insurance
+claim.”). “[P]roof of loss ‘is a flexible requirement to advise an insurer of the facts of
+the claim, and [] need not ‘be in any formal style.’”  First Baptist Church of Iowa,
+Louisiana v. Church Mut. Ins. Co., S.I. , 105 F.4th 775, 794 (5th Cir. 2024)  (quoting
+La. Bag Co., Inc. v. Audubon Indem. Co. , 2008-0453 (La. 12/2/08), 999 So. 2d 1104,
+1119)). “[A]rbitrary, capricious, or without probable cause” means “vexatious,” and
+indicates a refusal to pay that is “unjustified” and “not based on a good-faith defense.”
+Reed v. State Farm Mut. Auto. Ins. Co. , 2003-0107 (La. 10/21/03), 857 So. 2d 1012,
+1021 (citation omitted). The analysis “depends on the facts known to the insurer at
+the time of its action.” Id.
+Inland’s allegations of bad faith center on four particular actions by Travelers:
+(1) Travelers’ failure to pay a portion of Inland’s claim for Business Income loss (the
+“BI Claim”); (2) Travelers’ calculation of the “Period of Restoration” for the BI Claim;
+Case 2:23-cv-02108-BSL-KWR     Document 64     Filed 09/22/25     Page 20 of 29
+21
+
+(3) Travelers’ failure to timely pay a portion of Inland’s claimed Extra Expenses (the
+“EE Claim”); and (4) Travelers’ determination that Inland was ineligible for Extended
+Business Income Loss coverage (the “EBI Claim”).65 The Court considers each action
+in turn.
+i. Business Income Claim
+Inland asserts bad faith in Travelers’ 20 -day delay past La. R.S. §
+22:1892(B)(1)’s 30-day deadline to pay Inland’s Business Income claim.66 The parties
+agree on the following chronology of events relating to this claim. On May 3, 2022,
+Travelers received financial documents concerning Inland’s BI losses through March
+2022 from Inland.67 On June 7, 2022, Travelers informed Inland that it calculated the
+undisputed amount  owed to Inland as $131,812.00.68 On June 13, 2022, Inland
+informed Travelers that  it would like to receive the undisputed payment. 69 And on
+June 21, 2022, Travelers paid the undisputed amount to Inland.70
+ “To avoid penalties under § 22:1892, the insurer must pay ‘any undisputed
+amount over which reasonable minds could not differ ’ within the statutorily
+mandated time period. ” First Baptist Church of  Iowa, Louisiana, 105 F.4th at 795
+(citation omitted ). Travelers presents evidence that  it did not calculate  the
+undisputed $131,812.00 owed to Inland within the 30-day deadline due to delays and
+
+65 ECF No. 36-1 at 2; see generally ECF No. 43.
+66 ECF No. 43 at 13-14.
+67 ECF No. 43-1 ¶ 17.
+68 Id. ¶ 19.
+69 Id. ¶ 20.
+70 Id. ¶ 21.
+Case 2:23-cv-02108-BSL-KWR     Document 64     Filed 09/22/25     Page 21 of 29
+22
+
+errors by its accountant .71 In other words, Travelers admits that it had received
+“enough information” to calculate the undisputed amount owed to Inland as of May
+3, 2022. Austin v. Parker, 672 F.2d 508, 520 (5th Cir. 1982). Even if the accountant’s
+errors were a viable excuse  for its de lay in calculating the undisputed amount ,
+Travelers offers no explanation for its delay in tendering the $131,812.00 to Inland
+once confirmed.72 Travelers’ delay is a  facial, per se violation of the statute. See id.
+(“’[T]he failure to pay an undisputed amount is a per se violation of the statute .”
+(citation omitted) ). The Court  accordingly denies Travelers’ motion for  summary
+judgment dismissing Inland’s Business Income bad faith claim.
+ii. Length of the Period of Restoration
+The parties next dispute the appropriate “ Period of Restoration” for Inland’s
+Business Income claim. Recall that under the Policy Travelers must pay the “actual
+loss of Business Income [the insured] sustains” and the  “actual Extra Expense”
+incurred during the “ Period of Restoration.”73 Inland argues that Travelers’
+determination that the Period of Restoration was only 13 months—rather than 17
+months—amounts to bad faith.74
+Under the Policy, the Period of Restoration runs from the date of the loss (after
+applying any waiting period deductible).75 The Period ends on the earlier of “(a) The
+date when the property at the described premises should be repaired, rebuilt, or
+
+71 Id. ¶¶ 17-21.
+72 See id.
+73 ECF No. 39-2 at 63.
+74 ECF No. 43 at 17.
+75 ECF No. 39-2 at 74.
+Case 2:23-cv-02108-BSL-KWR     Document 64     Filed 09/22/25     Page 22 of 29
+23
+
+replaced with reasonable speed and similar quality; or (b) The date when business is
+resumed at a new  permanent location.” 76 The parties agree that the period of
+restoration began on September 5, 2021. But the parties disagree on the end date.
+Travelers’ expert—citing the Policy’s language that the end date is the “earlier
+of” the date when the property  “should be  repaired, rebuilt, or replaced with
+reasonable speed”—calculated the end date to be October 1, 2022.77 In other words,
+according to Travelers’ expert, Inland theoretically could have repaired its original
+facility and resumed operations at th e original property in 13 months . Travelers
+concluded that Inland’s Business Income claim was therefore limited to a “Period of
+Restoration” between September 5, 2021 and October 1, 2022.78
+Inland’s experts, on the other hand, calculate the end date as January 2023—
+that is, the date Inland did “resume[]” “business” at a “new permanent location,” its
+Brookhollow Property.79  Inland asserts that Travelers’ expert is an “unqualified,”
+“out-of-state, unlicensed,” consultant who is “unfamiliar with local permitting or the
+devastation New Orleans was facing” following Hurricane Ida. 80 Inland argues that
+Travelers “concocted a pretext to avoid payment for the full period ” by hiring the
+unqualified expert “to posit a facially unreasonable 13-month timeline for restoration
+of the original damaged property,” thereby demonstrating bad faith.81
+
+76 Id.
+77 ECF No. 36-1 at 17-18 (emphasis added).
+78 Id.
+79 ECF No. 43 at 16-17.
+80 Id. at 1, 7.
+81 Id. at 16-17.
+Case 2:23-cv-02108-BSL-KWR     Document 64     Filed 09/22/25     Page 23 of 29
+24
+
+The Court disagrees. The parties’ dispute regarding the correct length of the
+Period of Restoration is based on competing expert reports. Both parties relied on the
+work and opinions of experts familiar with the construction industry to estimate the
+length of time that it would have taken to repair the Perdido Property following
+Hurricane Ida. Though Inland now asserts that Travelers’ expert is wholly
+unqualified, Inland worked with that expert to successfully resolve Inland’s claim for
+building damage to the Perdido Property.82 Moreover, two of the expert reports Inland
+now cites as evidence that Travelers’ expert’s timeline was “facially flaw[ed]” were
+not provided until December 2024 in connection with Inland’s expert disclosures in
+this litigation.83 In other words, during the adjustment of the claim, the parties each
+retained one expert to assess the theoretical length of the Period of Restoration, and
+each party relied on that  expert. A legitimate dispute between experts does  not
+support a bad faith claim. See, e.g., 2715 Marietta, LLC v. Axis Surplus Ins. Co., 2023
+WL 8773747, at *5 (E.D. La. Dec. 19, 2023), reconsideration denied, 2024 WL 493300
+(E.D. La. Feb. 8, 2024)  (holding that defendant insurance carrier did not act in bad
+faith because it relied on the conclusions of its retained expert and because there was
+“a legitimate dispute among the experts as to the cause of the loss”); Gentilly, LLC v.
+State Farm Fire & Cas. Co., 2024 WL 5246606, at *6 (E.D. La. Dec. 30, 2024) (holding
+that payout of damage amount “does not indicate arbitrary or capricious behavior”
+where “Defendant’s actions were consistently in line with its expert appraisals”). The
+
+82 ECF No. 43-1 ¶ 22.
+83 ECF Nos. 43-17; 43-18.
+Case 2:23-cv-02108-BSL-KWR     Document 64     Filed 09/22/25     Page 24 of 29
+25
+
+Court accordingly grants summary judgment to Travelers as to the length of the
+Period of Restoration and dismisses Inland’s bad faith claim on this issue.
+iii. Extra Expense Claim
+Inland next asserts that the time it took for Travelers to reimburse Inland for
+its extra expenses after Travelers received invoices showing those expenses amounts
+to bad faith. Under the Policy Travelers must pay the “actual loss of Business Income
+[the insured] sustains” and the  “actual Extra Expense” incurred during the “Period
+of Restoration.”84 “Extra Expense” means the “reasonable and necessary expenses . . .
+that you incur during the ‘Period of Restoration’ and that you would not have incurred
+if there had been no [covered] direct physical loss of or damage to property.”85
+The parties agree on the following key dates of the timeline for the Extra
+Expense claim. On March 10, 2022 , Inland submitted to Travelers an accounting of
+its extra expenses with invoices.86 In that email, Inland informed Travelers that the
+“enclosed bills and recap for extra expenses” were “not included in [its] financial
+results.”87 On December 15,  2022, Inland “requested adjustment based on the
+invoicing previously provided.” 88 On February 2,  2023, Travelers’ adjuster emailed
+Inland to ask about several of the amounts claimed.89 And on May 1, 2023, Travelers
+
+84 ECF No. 39-2 at 63.
+85 Id.
+86 ECF No. 43 -6 (March 10, 2022 Eric Sussman transmission of Inland’s receipts for extra
+expenses to Travelers).
+87 Id.
+88 ECF No. 43-9 (Claims Notes Travelers_7374).
+89 ECF No. 43-20 (Travelers Email to Inland Inland_6412-6414).
+Case 2:23-cv-02108-BSL-KWR     Document 64     Filed 09/22/25     Page 25 of 29
+26
+
+paid $174,265.04 to Inland in connection with extra expenses alleged to have been
+incurred but not included in Inland’s profit & loss statements.90
+Inland argues that its March 2022 email to Travelers “made clear” that  the
+submitted expenses were “not included in [its] financial results ” and thus were
+eligible for Extra Expense  coverage.91 According to Inland, Travelers’ “decision to
+wait more than a year after receiving Inland’s submitted extra expenses” was made
+in bad faith.92
+The Court disagrees. “To avoid penalties under § 22:1892, the insurer must
+pay ‘any undisputed amount over which reasonable minds could not differ’ within the
+statutorily mandated time period. ’” First Baptist Church, 105 F.4th at 795 (citation
+omitted). Inland’s assertion in its email to Travelers that the claimed extra expenses
+were “not included in [its] financial results” is insufficient to conclude that Travelers
+had “enough information” to calculate the undisputed amount. Austin, 672 F.2d at
+520. Travelers cites evidence that it engaged with Inland about its claim “throughout
+2022,” including determining “whether certain of the extra expenses claimed by
+Inland were covered, whether they were covered under any other insurance, whether
+they were also considered within  the business income calculation, or if they
+overlapped with direct damage repair costs made at an  alternate location. ”93
+Travelers also cites evidence that it was continuing to engage in a back -and-forth
+with Inland about revisions and calculations to its extra expenses claim through April
+
+90 ECF No. 43-9 (Claims Notes Travelers_7360).
+91 ECF No. 43 at 15.
+92 Id. at 16.
+93 ECF No. 36-2 ¶ 36 (citing ECF No. 36-4 (Lederman Decl. ¶ 25)).
+Case 2:23-cv-02108-BSL-KWR     Document 64     Filed 09/22/25     Page 26 of 29
+27
+
+2023.94 Though Inland points to the fact Travelers’ internal accountant ultimately
+only identified one line item that was potentially duplicated with prior business
+interruption calculations, this does not in itself demonstrate that Travelers’ process
+was flawed or intentionally delayed.95
+As the nonmoving party that will bear the burden of proof at trial, Inland must
+point to specific facts showing that a genuine issue exists to defeat a summary
+judgment motion. Celotex, 477 U.S. at 324-25. Here, Inland does not provide any facts
+indicating that Travelers’ conduct was arbitrary or capricious. This is insufficient to
+defeat a motion for summary judgment. See Gates v. Auto Club Family Ins. Co., 2007
+WL 1464259, at *4 (E.D. La. May 17, 2007) (granting summary judgment to insurer
+because the plaintiffs failed to provide any facts indicating that the insurer’s conduct
+was arbitrary and capricious); DeFrancesch, M.D, L.L.C. v. Employers Mut. Cas. Co.,
+2008 WL 1930450, at *4 (E.D. La. Apr. 30, 2008) (same). The Court accordingly grants
+Travelers’ motion for summary judgment on the extra expense bad faith claim.
+iv. Extended Business Income Claim
+Finally, Inland contends that Travelers has acted in bad faith because it failed
+to pay Inland for  any of its claimed Extended Business Income  losses. As discussed
+supra, Travelers asserts that it declined to pay Inland’s EBI Claim because under
+Travelers’ reading of the Policy, Inland’s decreased business income after it moved
+into its new , permanent facility is not covered  given Inland had the physical
+
+94 ECF No. 36-1 at 24 (citing ECF No. 36-2 at ¶¶ 37-42).
+95 ECF No. 43 at 14-15.
+Case 2:23-cv-02108-BSL-KWR     Document 64     Filed 09/22/25     Page 27 of 29
+28
+
+“capability” of generating the same level of income as pre-hurricane.96 Inland argues
+that Travelers’ reading of the Policy’s EBI coverage has “no reasonable basis” and
+consequently is “textbook bad faith.”97
+ “‘An insurer does not act arbitrarily and capriciously  . . . when it withholds
+payment based on a genuine (good  faith) dispute about the amount of a loss or the
+applicability of coverage. ’” Monk v. Allstate Ins. Co. , 2012 WL 2133639, at *3 (E.D.
+La. June 12, 2012) (quoting Dickerson v. Lexington Ins. Co., 556 F.3d 290, 297-98 (5th
+Cir. 2009)). But if an insurance company’s interpretation is “unreasonable” or without
+“probable cause,” it may be exposed to bad faith penalties. Calogero v. Safeway Ins.
+Co. of Louisiana, 1999-1625 (La. 1/19/00), 753 So. 2d 170, 173.
+ The Court agrees with Inland that a reasonable factfinder could find that
+Travelers’ interpretation of the Policy was unreasonable. Travelers’ interpretation of
+its EBI Policy—that coverage ended the same day it began when Inland moved into
+its new facility  and restarted operations —rendered it functionally meaningless.
+Inland presents evidence that Travelers could not recall the last time it applied
+Extended Business Income coverage in this  way.98 Nor could Travelers point to any
+publication or document directing adjusters to apply it in this way.99 And Travelers’
+internal guidance advises its underwriters to calculate the expected amount of
+extended business interruption  coverage by inputting the “number of months [the
+
+96 ECF No. 36-1 at 19-22.
+97 ECF No. 43 at 23.
+98 ECF No. 43-24 at 68:9-16 (30(b)(6) Lederman Depo.).
+99 Id. at 69:8-14.
+Case 2:23-cv-02108-BSL-KWR     Document 64     Filed 09/22/25     Page 28 of 29
+29
+
+insured] anticipate[s] reduced income after resuming normal operations.”100 It is for
+the factfinder to decide if Travelers’ conduct in interpreting its EBI Coverage was
+arbitrary and capricious here. See Clement v. Sontheimer Offshore Catering Co., 577
+So. 2d 1083, 1088 (La. Ct. App. 1991)  (affirming award of penalties where
+“Underwriters erroneously chose to interpret its policy as not providing coverage for
+the plaintiff’s claim in this case.”). The Court accordingly denies Travelers’ motion for
+summary judgment on the EBI bad faith claim.
+IV.  CONCLUSION
+IT  IS  ORDERED  that Inland and Travelers’ cross-motions101 for partial
+summary judgment on Inland’s Extended Business Income claim are DENIED.
+IT  IS  FURTHER  ORDERED  that Travelers’ motion102 for summary
+judgment seeking dismissal of Inland’s second cause of action alleging Title 22 bad
+faith pursuant to La. Rev. Stat. §§ 22:1973 and 1892  is GRANTED in part and
+DENIED in part.
+New Orleans, Louisiana, this 22nd day of September, 2025.
+BRANDON S. LONG
+UNITED STATES DISTRICT JUDGE
+
+100 ECF No. 43-3 (emphasis added).
+101 ECF Nos. 35 and 39.
+102 ECF No. 36.
+Case 2:23-cv-02108-BSL-KWR     Document 64     Filed 09/22/25     Page 29 of 29
