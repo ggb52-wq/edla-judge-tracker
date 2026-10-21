@@ -1,0 +1,751 @@
+1
+
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+FREE SPEECH COALITION, INC.,
+ET AL.,
+           Plaintiffs
+
+CIVIL ACTION
+
+VERSUS NO.  23-2123
+
+JAMES M. LEBLANC, ET AL.,
+           Defendants
+SECTION: “E” (2)
+
+ORDER AND REASONS
+
+ Before the Court is a Rule  12(b)(1) Motion to Dismiss 1 by Defendants James
+LeBlanc, Secretary of the Louisiana Depart ment of Public Safety and Corrections
+(“Secretary LeBlanc”); Jay Dardenne, Commi ssioner of the Louisiana Division of
+Administration (“Commissioner Dardenne”); and Jeffrey Landry, Attorney General of
+Louisiana (“AG Landry”). Each is sued in his official capacity.2 Defendants urge this Court
+to dismiss all of Plaintiffs’ claims arising out of La. R.S. § 9:2800.29 (“the Act”) for lack
+of subject-matter jurisdiction. 3 Defendants argue Plaintiffs’ claims are barred by
+sovereign immunity and Plaintiffs lack Arti cle III standing. For the reasons that follow,
+Defendants’ motion is GRANTED.
+FACTUAL BACKGROUND
+
+ In June 2022, Louisiana Governor John Bel Edwards signed the Act into law.  4 The
+law took effect on January 1, 2023.5 The relevant parts of the Act impose liability on “[a]ny
+commercial entity that knowingly and intent ionally publishes or distributes material
+
+1 R. Doc. 35.
+2 See R. Doc. 31.
+3 Defendants concede (R. Doc. 35 at p. 1) this Court has jurisdiction over Plaintiffs’ claims against AG Landry
+with respect to the Public Enforcement Act, La. R.S. § 51:2121.
+4 R. Doc. 31 at p. 18.
+5 See Note, La. R.S. § 9:2800.29.
+Case 2:23-cv-02123-SM-DPC   Document 50   Filed 10/04/23   Page 1 of 23
+2
+
+harmful to minors on the internet from a we bsite that contains a substantial portion of
+such [harmful] material” if those commercial entities “fail[] to perform reasonable age
+verification methods to verify the age of in dividuals attempting to access the material.”6
+Crucially, the Act is “intended to provide [t hrough private actions] a civil remedy for
+damages against commercial entities who di stribute harmful material to minors.” 7 The
+Act does not explicitly charge any government official or entity with enforcement. Instead,
+the Act may be enforced only through private actions. 8 Under La. R.S.
+9:2800.29(B)(3)(a), “[a]ny commercial entity that is found to have violated this Section
+shall be liable to an individual  for damages resulting from a minor's accessing the
+material, including court costs and reasonable attorney fees as ordered by the court.”9
+ The Act provides two options to meet he  required “reasonable age verification.”10
+The first option is for a commercial entity to verify that the person attempting to access
+
+6 § 9:2800.29(B)(1). Section 9:2800.29(D)(4) of the Ac t describes “material harmful to minors” as “all of
+the following:”
+
+(a) Any material that the averag e person, applying contemporary
+community standards would find, taking the material as a whole and with
+respect to minors, is designed to appeal to, or is designed to pander to, the
+prurient interest.
+
+(b) Any of the following material that exploits, is devoted to, or principally
+consists of descriptions of actual, simulated, or animated display or
+depiction of any of the following, in a manner patently offensive with
+respect to minors:
+ (i) Pubic hair, anus, vulva, genitals , or nipple of the female breast.
+ (ii) Touching, caressing, or fondling of nipples, breasts, buttocks,
+ anuses, or genitals.
+ (iii) Sexual intercourse, mastur bation, sodomy, bestiality, oral
+ copulation, flagellation, excretor y functions, exhi bitions, or any
+ other sexual act.
+
+7 § 9:2800.29(A).
+8 In June 2023, Governor Edwards signed into law a companion act, the “Public Enforcement Act,” codified
+at La. R.S. § 51:2121. The Public Enforcement Act took effect August 1, 2023. 8 As noted, see note 3, supra,
+Defendants do not contest this Court’s jurisdiction over AG Landry with respect to the Public Enforcement
+Act.
+9 § 9:2800.29(B)(3)(a) (emphasis added).
+10 §§ 9:2800.29(D)(8)(a),(b).
+Case 2:23-cv-02123-SM-DPC   Document 50   Filed 10/04/23   Page 2 of 23
+3
+
+the material is 18 years of age or older by requiring the person to “[p]rovide a digitized
+identification card as de fined in R.S. 51:3211.” 11 Alternatively, a commercial entity may
+require “the person attempting to access the [harmful] material to comply with a
+commercial age verification system that veri fies” either through “[g]overnment-issued
+identification” or “[a]ny commercially reasonable method that relies on public or private
+transactional data to verify the age of the pe rson attempting to access the information is
+at least eighteen years of age or older.”12
+PROCEDURAL BACKGROUND
+ On June 20, 2023,  Plaintiffs filed their first complaint seeking declaratory and
+injunctive relief against Secretary LeBlanc, Commissioner Dardenne, and AG Landry. At
+an August 17, 2023, status conference,13 the Court gave Plaintiffs leave to file an Amended
+Complaint. Plaintiffs did so on August 25, 2023.14
+Plaintiffs are a group of website operators, online content creators, and individuals
+who claim they each will be “s ubstantial[ly] burden[ed]” by the Act’s requirement that
+“websites . . . age-verify every internet us er before providing access to non-obscene
+material that meets the State’s murky definition of ‘material harmful to minors.’”15
+ Plaintiffs assert a variety of federa l claims under the First and Fourteenth
+Amendments, the Commerce Clause, and the Supremacy Clause. 16 Plaintiffs also allege
+
+11 § 9:2800.29(D)(8)(a). La. R.S. 51:3211(2) defines a “digitized identification card” as “a data file available
+on any mobile device which has connectivity to the in ternet” that is provided “through a state-approved
+application that allows the mobile device to download the data file from the Department of Public Safety
+and Corrections or an authorized representative of the Department of Public Safety and Corrections.” The
+data file must “contain[] all of the data elements visible on the face and back of a license or identification
+card and display[] the current status of the license or identification card.”
+12 § 9:2800.29(D)(8)(b).
+13 R. Doc. 28.
+14 R. Doc. 31.
+15 Id. at pp. 1–2, ¶¶ 1–3.
+16 Id. at pp. 38–43.
+Case 2:23-cv-02123-SM-DPC   Document 50   Filed 10/04/23   Page 3 of 23
+4
+
+the Act “stand[s] in direct conflict with [47 U.S.C. § 230], which expressly preempts
+inconsistent state laws.”17 Plaintiffs assert the Act “[has] placed [them] in justified fear
+that, if they continue to exercise their constitutional rights, they will haled into
+court . . . by . . . any host of individuals alleging harm.” 18 Plaintiffs believe they have “no
+adequate remedy at law.”19 Instead, they seek declaratory relief against Defendants under
+the Declaratory Judgment Act, 28 U.S.C. §§ 2201 and 2202, and injunctive relief under
+42 U.S.C. §§ 1983 and 1988. 20 Plaintiffs seek a declaratio n that the Act violates the
+Constitution and federal law 21 and an “injunction precluding” AG Landry, Secretary
+LeBlanc, and Commissioner Dardenne from “participating in the enforcement” of the
+Act.22
+ Defendants filed this Motion to  Dismiss on September 4, 2023,23 asking the Court
+to “dismiss for lack of subject-matter jurisdicti on all [of Plaintiffs’] claims and requests
+for relief” under the Act.24 Defendants argue that Plaintiffs’ claims are barred by sovereign
+immunity and also fail for lack of standing.25
+ Plaintiffs filed their response in opposition on September 11, 2023. 26 Defendants
+replied on September 14, 2023.27
+
+17 Id. at p. 36, ¶ 85.
+18 Id., ¶ 86.
+19 Id.
+20 Id. at p. 38.
+21 Id. at p. 43, ¶¶ 116–17.
+22 Id. at pp. 36–37, ¶¶ 87–89.
+23 R. Doc. 35.
+24 Id. at p. 1.
+25 R. Doc. 35-1, pp. 2–3.
+26 R. Doc. 36.
+27 R. Doc. 41.
+Case 2:23-cv-02123-SM-DPC   Document 50   Filed 10/04/23   Page 4 of 23
+5
+
+LEGAL STANDARD
+“Federal courts are courts of limited jurisdiction; without jurisdiction conferred by
+statute, they lack the power to adjudicate claims.”28 A motion to dismiss under Federal
+Rules of Civil Procedure 12(b)(1) challenges a federal court’s subject-matter jurisdiction.29
+Under Rule 12(b)(1), “[a] case is properly dismissed for lack of subject matter jurisdiction
+when the court lacks the statutory or constitutional power to adjudicate the case.”30 The
+party asserting jurisdiction bears the burden  of establishing that the district court
+possesses subject-matter jurisdiction.31 The district court may base its determination as
+to its subject matter jurisdiction on: “(1)  the complaint alone; (2) the complaint
+supplemented by undisputed facts evidence d in the record; or (3) the complaint
+supplemented by undisputed facts plus the court's resolution of disputed facts.” 32 The
+district court may consider facts contained in affidavits or sworn declarations.33
+LAW AND ANALYSIS
+ “Federal courts may analyze arguments that question our jurisdiction in any
+order.”34 The Court first considers Defendants’ arguments based on the sovereign
+immunity provided by the Eleventh Amendment.
+
+28  In re FEMA Trailer Formaldehyde Prods.  Liab. Litig. (Mississippi Plaintiffs) , 668 F.3d 281, 286 (5th
+Cir. 2012).
+29 Fed. R. Civ. P. 12(b)(1).
+30 Home Builders Ass’n of Miss., Inc. v. City of Madison, Miss., 143 F.3d 1006, 1010 (5th Cir. 1998) (cleaned
+up).
+31 Ramming v. United States, 281 F.3d 158, 161 (5th Cir. 2001).
+32 Id.
+33 See Williamson v. Tucker, 645 F.2d 404, 411 (5th Cir.1981).
+34 NiGen Biotech, L.L.C. v. Paxton, 804 F.3d 389, 393 (5th Cir. 2015).
+Case 2:23-cv-02123-SM-DPC   Document 50   Filed 10/04/23   Page 5 of 23
+6
+
+I. Plaintiffs have not established the requirements of the Ex Parte
+Young exception to Eleventh Amendment sovereign immunity.
+
+Plaintiffs have sued Secretary LeBlanc,  Commissioner Dardenne, and AG Landry
+in their official capaci ties as state officials. 35 Accordingly, this is “effectively [a] suit[]”
+against the State of Louisiana.36 As a general rule, the Eleventh Amendment bars lawsuits,
+like this one, “against nonconsenting states in federal court.” 37 In 1908, the Supreme
+Court established an exception to Eleventh Amendment sovereign immunity in Ex Parte
+Young.38 This exception permits private parties, like the Plaintiffs in this case, to
+challenge state laws through “suits for injuncti ve or declaratory relief against individual
+state officials acting in violation of federal law” 39 In this case, Plaintiffs have pleaded the
+general elements of an action that fits within the exception to sovereign immunity
+provided by Ex Parte Young: (1) they seek both injunctive and declaratory relief;40 (2) the
+named Defendants are individual state officials,41 and (3) Plaintiffs allege Defendants, in
+support of the Act, are violating federal law.42
+Ex Parte Young held that for the exception to apply, any state official named as a
+defendant must, “by virtue of hi s office,” be “clothed with some duty in regard to the
+enforcement of the laws of the state”—i ncluding and especially the allegedly
+“unconstitutional act.”43 Importantly, “[t]he text of the challenged law need not actually
+state the official’s duty to enforce it, alth ough such a statement may make that duty
+
+35 R. Doc. 31 at p. 1.
+36 City of Austin v. Paxton, 943 F.3d 993, 997 (5th Cir. 2019).
+37 Id. (citing Va. Office for Prot. & Advocacy v. Stewart, 563 U.S. 247, 253 (2011)).
+38 209 U.S. 123 (1908).
+39 Raj v. La. State Univ., 714 F.3d 322, 328 (5th Cir. 2013).
+40 See R. Doc. 31 at p. 4.
+41 Id. at p. 1.
+42 Id. at p. 4.
+43 209 U.S. at 156, 158.
+Case 2:23-cv-02123-SM-DPC   Document 50   Filed 10/04/23   Page 6 of 23
+7
+
+clearer.”44 Indeed, when the challenged state law specifies the official charged with its
+enforcement, no further exploration is needed  to determine that official has a sufficient
+“connection with the enforcement” of that law. 45 When the challenged law does not
+specify an official responsible for its enforcement, “some connection with the
+enforcement of the act” may still be found in “the general law.” 46 Whether the source of
+that “connection” is in the challenged statute  or in other legislation, if the official
+“threaten[s] and [is] about to commence pr oceedings . . . to enforce . . . [the]
+unconstitutional act,” a federal court may as sert jurisdiction despite the Eleventh
+Amendment.47
+A. Ex Parte Young requires a state official ha ve a particular duty to
+enforce a challenged law and the willingness to enforce it.
+
+ The Fifth Circuit has consistently applied Ex Parte Young’s holding establishing a
+two-part test that requires a defendant state offi cial to have “(1) the ability . . . to enforce
+the statute at issue under his statutory or constitutional powers, and (2) the demonstrated
+willingness . . . to enforce the statute.” 48 This distillation of Ex Parte Young was first
+explained by Judge Jolly, writing for a non- binding seven-judge plurality in 2001’s
+Okpalobi v. Foster ,49 in which the Louisiana governor and attorney general invoked
+sovereign immunity as a defense to a suit brought by providers of abortion services.50 The
+challenged law, Louisiana’s “Act 825” of 1997,51 was a private-right-of-action statute like
+
+44 City of Austin, 943 F.3d at 998 (citing Ex Parte Young, 209 U.S. at 157).
+45 See id.
+46 Ex Parte Young, 209 U.S. at 157.
+47 Id. at 156.
+48 Okpalobi v. Foster, 244 F.3d 405, 417 (5th Cir.2001) (en banc) (plurality opinion).
+49 244 F.3d 405 (5th Cir.2001) (en banc).
+50 Id. at 409. Though Judge Jolly’s opinion did not garner majority support, the Court notes that only three
+judges joined in the in an opinion written by Judge Parker, expressly dissenting from the plurality’s opinion
+as to Ex Parte Young. Id. at 408 n.*
+51 La. R.S. 9:2800.12(A) (1999).
+Case 2:23-cv-02123-SM-DPC   Document 50   Filed 10/04/23   Page 7 of 23
+8
+
+the Act in this case; it provided “women wh o undergo an abortion a private tort remedy
+against the doctors who perform the abortion.” 52 Plaintiffs argued Act 825 was an
+unconstitutional “undue burden” on the right to an abortion.53 Comparing Act 825 to the
+statutory and constitutional duties of the defendant state officials, the plurality reasoned
+the defendants had “no ability to enforce Act 825, a purely private tort statute, which can
+be invoked only by private litigants.” 54 The plurality ruled “that the Ex [P]arte Young
+exception to the Eleventh Amendment [could not] be applied” under those facts.55
+ In a subsequent 2010 case also concerning abortion care, K.P. v. LeBlanc ,56
+abortion providers challenged the constitutionality of a state statute57 excluding abortion-
+related claims from coverage provided by a state-run medical compensation fund akin to
+malpractice insurance.58 Plaintiffs sued members of Louisiana’s Patient Compensation
+Fund Oversight Board, which had refused to pay from the fund when a patient brought a
+claim against her abortion provider. Again applying Ex Parte Young’s two-part test, the
+K.P. panel summarized the defendants’ duties as  beginning with “deciding whether to
+have a medical review panel consider abortion claims and end[ing] with deciding whether
+to pay them.”59 By this standard, it was obvious to the court the Board was willing to
+enforce the law that excluded abortion-relat ed claims from fund usage. Because this
+prong of Ex Parte Young’s two-part test was met, the panel focused on whether the Board
+had the duty to enforce the statute, holding th at it did: the relevant statutory scheme
+
+52 Okpalobi, 244 F.3d at 417.
+53 See Planned Parenthood of Se. Penn. v. Casey , 505 U.S. 833 (1992), overruled by Dobbs v. Jackson
+Women's Health Org., 142 S. Ct. 2228 (2022).
+54 Okpalobi, 244 F.3d at 422.
+55 Id. at 429. A majority of the en banc court, id. at 408 n.*, joined the holding that Plaintiffs had no Article
+III standing and thus “plaintiffs [had] no case or controversy with the[] defendants.” Id.
+56 627 F.3d 115 (5th Cir. 2010).
+57 La. R.S. 9:2800.12(C)(2) (2010).
+58 K.P., 627 F.3d at 119.
+59 Id. at 125.
+Case 2:23-cv-02123-SM-DPC   Document 50   Filed 10/04/23   Page 8 of 23
+9
+
+“implicitly require[d] the Board to differe ntiate between claims allowable and not
+allowable” under the challenged law. Because state law imposed a duty to enforce and the
+willingness to enforce was apparent, the “s uit [was] not barred by the Eleventh
+Amendment.”60
+ In 2014’s Morris v. Livingston,61 a Fifth Circuit panel considered whether Ex Parte
+Young would permit a Texas inmate’s § 1983 claims against the governor and the director
+of the Texas Department of Criminal Justice (“TDCJ”).62 The plaintiff challenged a Texas
+law that required inmates to “pay a $100 annual health care services fee” if they received
+medical treatment in the state’s prisons. 63 Once again, the court asked whether the
+defendant officials had “the particular duty to enforce the statute in question and a
+demonstrated willingness to exercise that duty.”64 Because the relevant Texas laws made
+it clear that TDCJ was responsible for the en forcement and administration of the health
+services fee, and because TDCJ had clearly enforced it, evincing an obvious willingness to
+enforce, the court held that Ex Parte Young permitted the claims against TDCJ’s director.
+By contrast, the governor had no particular duty to enforce the fee, and the court affirmed
+his dismissal on sovereign immunity grounds.65
+In Air Evac EMS, Inc. v. Texas, Department of Insurance, Division of Workers'
+Compensation,66 decided in 2017, an air-ambulance company sued the Texas
+commissioner of insurance and the Texas co mmissioner of workers’ compensation to
+challenge a state workers’ compensation statute setting a maximum reimbursement for
+
+60 Id.
+61 739 F.3d 740 (5th Cir. 2014).
+62 Id. at 742.
+63 Id.
+64 Id. at 746 (quoting Okpalobi, 244 F.3d at 414–15).
+65 Id. at 746.
+66 851 F.3d 507 (5th Cir. 2017).
+Case 2:23-cv-02123-SM-DPC   Document 50   Filed 10/04/23   Page 9 of 23
+10
+
+medical services, like air evacuation.67 The panel again echoed Ex Parte Young’s two-part
+requirement that “defendants have some co nnection to the state law’s enforcement and
+threaten to exercise that authority” 68 and found that based on the defendants’ “rate-
+setting authority” and administrative duties  to “arbitrat[e] fee disputes,” defendants
+“effectively ensure[d] the maximum-reimbursement scheme [was] enforced from start to
+finish.”69 Thus, the panel held that the Ex Parte Young exception applied to permit the
+suit.70
+ In a 2020 COVID-era challenge to Texas mail-in ballot requirements, the Fifth
+Circuit panel in Texas Democratic Party v. Abbott reasoned that although “the precise
+scope of the requirement for a connection has not been defined, a plaintiff [invoking Ex
+Parte Young] at least must show the defendant has ‘the particular duty to enforce the
+statute in question and a demonstrated willingness to exercise that duty.’” 71 After
+conducting a “provision-by-provision analysis” to determine whether the Texas secretary
+of state and attorney general had “the requirement connection to the enforcement of [the
+challenged law],” the panel held that the “the Secretary ha[d] at least a scintilla of
+enforcement authority” with respect to the challenged law. 72 The secretary had the
+“specific and relevant duty to design the a pplication form for mail-in ballots” and to
+“provide that form to local author ities” and others who requested it. 73 Moreover, “local
+authorities [were] required to use the Secretary’s absentee-ballot form outside of
+emergency situations,” so the secretary had “the authority to compel or constrain local
+
+67 Id. at 510–13.
+68 Id. at 517 (citing Ex Parte Young, 209 U.S. at 157) (cleaned up).
+69 Id. at 519.
+70 Id.
+71 Texas Democratic Party v. Abbott, 978 F.3d 168, 179 (5th Cir. 2020) (quoting Morris, 739 F.3d at 746).
+72 Id. at 180.
+73 Id. at 179 (citations omitted).
+Case 2:23-cv-02123-SM-DPC   Document 50   Filed 10/04/23   Page 10 of 23
+11
+
+officials based on actions she [took] as to the application form.” 74 As a result, Ex Parte
+Young applied to permit the suit against the secretary of state.75
+However, the attorney general’s broad “duty to enforce and uphold the laws of
+Texas” did not constitute a “particular duty” to enforce the challenged law. Although the
+attorney general had sent letters to “judges and election officials” reminding them that
+fraudulently applying for mail-in voting was a felony, the court found these letters did not
+in fact “threaten” or otherwise demonstrate a willingness to enforce the law sufficient to
+trigger Ex Parte Young .76 The same outcome applied to the governor, who was “not
+statutorily tasked with enforcing the challenged law,” 77 and whose actions concerning
+elections in the early days of the COVID-19 pandemic were instead “exercises of [his]
+emergency powers unrelated to the Election Code.”78
+In 2022, a three-judge panel of the Fifth Circuit issued decisions on three separate
+challenges to Texas voting laws, each brough t against the Texas secretary of state. Each
+opinion, issued on the same day, applied the two-part Ex Parte Young test.
+In Richardson v. Flores,79 Texas voters sued the secretary of state in a challenge to
+the constitutionality of Texas’s signature verification process for mail-in ballots. 80 In a
+relatively brief opinion, the panel reasoned that Ex Parte Young did not apply because
+the first prong—a particular duty  to enforce the statute in question—was not satisfied. The
+panel ruled that “it is local election offici als, not the Secretary, who verify voters’
+
+74 Id. at 180 (emphasis added) (citations omitted).
+75 Id.
+76 Id. at 181.
+77 Id. at 180.
+78 Id.
+79 Richardson v. Flores, 28 F.4th 649 (5th Cir. 2022).
+80 Id. at 652. The voters also sued local officials seeking similar relief, but the district court issued a detailed
+injunction against only the secretary of state. Richardson v. Hancock, et al., 485 F.Supp.3d 744, 812 (W.D.
+Tex. 2020).
+Case 2:23-cv-02123-SM-DPC   Document 50   Filed 10/04/23   Page 11 of 23
+12
+
+signatures [on mail-in ballots] and notify voters of a mismatch.”81 In turn, the court also
+explained that the secretary’s other duties related to elections and ballots were the more
+general duties that did not amount to a particular duty to enforce the statute in question.82
+No analysis of the second prong, the secret ary’s willingness to enforce the non-existent
+duty, was needed to hold that sovereign immunity barred the claims against the secretary
+of state.
+In Lewis v. Scott ,83 Texas voters and voting righ ts groups challenged various
+provisions of Texas’s vote-by-mail scheme in light of the challenges posed by the COVID-
+19 pandemic. As in Richardson, the panel, applying Ex Parte Young’s two-part test, ruled
+that the secretary of state did not have the particular duty to enforce the various
+challenged laws; those respective duties fell to the early voting clerk, local election
+officials, and local prosecutors. 84 The duties identified by the voters fell under the
+secretary’s “general duties” as the “chief election officer” who, for example, had a duty to
+“assist and advise” election officials and “ta ke appropriate action to protect voting
+rights.”85 The court found the actions cited by plaintiffs failed to show enforcement of any
+of the challenged provisions.86
+In the third of the companion Texas election cases, Texas Alliance for Retired
+Americans v. Scott ,87 civic and political organization s sued the secretary of state
+challenging the constitutionality of Texas’ s elimination of straight-ticket voting. 88 The
+
+81 Richardson, 28 F.4th at 654 (quotation omitted).
+82 Id.
+83 28 F.4th 659 (5th Cir. 2022).
+84 Id. at 663–64.
+85 Id. at 664.
+86 Id. at 664 n.8.
+87 Texas All. for Retired Americans v. Scott, 28 F.4th 669 (5th Cir. 2022).
+88 Id. at 670.
+Case 2:23-cv-02123-SM-DPC   Document 50   Filed 10/04/23   Page 12 of 23
+13
+
+panel relied on Ex Parte Young ’s holding that a state official “must have the particular
+duty to enforce the statute in question and a demonstrated willingness to exercise that
+duty.”89 The elimination of straight-ticket voting had been effected by repealing a law that
+“required that a square for straight-ticket vo ting shall be printed to the left of each
+political party’s name.”90 But it was local officials—a county clerk, county party chair, city
+secretary, or other local official—who had the particular duty to print the ballots. 91
+Similarly, the secretary’s other “responsibilities” for voter education, coordination with
+local officials, and the design of write-in and provisional ballots—as opposed to in-person
+ballots—were not particular duties related to enforcing the challenged law repealing
+straight-ticket voting.92 The court did not reach the issue of whether the secretary clearly
+had a willingness to enforce the statute. Ex Parte Young did not allow the plaintiffs to
+overcome sovereign immunity.93
+Lastly, Ostrewich v. Tatum, 94 decided this year, once more examined whether
+defendant state officials had a “particular duty  to enforce the statute in question and a
+demonstrated willingness to exercise that duty.”95 A Texas voter sued the Texas attorney
+general, the Texas secretary of state, and local county officials in a First Amendment
+challenge to a law that criminalized poli tical expression within polling places. 96 The
+Ostrewich panel held that neither the Texas secr etary of state nor the Texas attorney
+general had a particular d uty sufficient to satisfy Ex Parte Young ’s first requirement.
+
+89 Id. at 672. (quotation omitted).
+90 Id. at 672 (citing Tex. Elec. Code § 52.071(a) (repealed eff. Sept. 1, 2020)) (cleaned up).
+91 Id. at 673.
+92 Id.
+93 Id.
+94 Ostrewich v. Tatum, 72 F.4th 94 (5th Cir. 2023).
+95 Id. at 100 (quotation omitted).
+96 Id. at 97.
+Case 2:23-cv-02123-SM-DPC   Document 50   Filed 10/04/23   Page 13 of 23
+14
+
+Though the secretary of state was responsible for training local presiding judges to enforce
+election laws, like the one in question, the particular duty to enforce those laws fell to the
+judges. Similarly, it was local prosecutors, no t the state’s attorney general, who had the
+ultimate authority to prosecute  election-related offenses. 97 As a result, Ex Parte Young
+did not permit the suit to proceed against the attorney general or secretary of state.
+It is clear that in the Fifth Circuit, the test for an exception to Eleventh Amendment
+sovereign immunity is the two-pa rt test first articulated in Ex Parte Young: a defendant
+state official must have a particular duty to enforce a challenged statute and demonstrate
+a willingness to enforce that statute.
+B. No defendant has a particular duty to enforce the Act or a
+demonstrated willingness to enforce it.
+
+The Court examines Defendant’s Motion to Dismiss person-by-person and claim-by-
+claim based on the principles set forth above.
+1. Jay Dardenne, Commissioner of the Louisiana Division of
+Administration, does not have a particular duty to enforce the
+Act or a demonstrated willingness to enforce it.
+
+Plaintiffs seek to prohibit Commissioner  Dardenne from participating in the
+enforcement of the Act. They allege “Commissioner Dardenne has some connection with
+the enforcement of [the Act]” because the st ate division he leads administers LA Wallet
+and he has recognized “LA Wallet as [Louisiana’s] only qualifying ‘digitized identification
+card.’”98 Plaintiffs allege LA Wallet is admini stered by the Louisiana Division of
+Administration.99 Plaintiffs allege, and Defendants do not contest, that only LA Wallet
+satisfies the Act’s definition of “a digitized identification  c a r d  a s  d e f i n e d  i n  R . S .  §
+
+97 Id. at 101 (citing relevant Texas case law and statutes).
+98 R. Doc. 31 at p. 12, ¶ 29.
+99 Id. at p. 11, ¶ 27.
+Case 2:23-cv-02123-SM-DPC   Document 50   Filed 10/04/23   Page 14 of 23
+15
+
+51:3211.”100 Relying on Judge Dennis’s concurrence in K.P.,101 Plaintiffs argue
+Commissioner Dardenne “gives effect to” the Act through his oversight of LA Wallet, and
+this effectuation means Commissioner Dardenne enforces the Act.102
+To support their claims against Commissioner Dardenne, Plaintiffs argue that LA
+Wallet is the state’s “one and only . . . qualifying ‘digitized identification card’” as
+described in the Act. 103 However, even if this is undisp uted, the Plaintiffs have not met
+their burden of providing Commissioner Dardenne has a particular duty to enforce the
+Act.104
+The best argument that Commissioner Dard enne in effect enforces the Act would
+be to show that LA Wallet is, in reality, the only acceptable age verification method to
+comply with the Act and that Commissioner  Dardenne does not permit commercial
+entities and individuals providing material th e Act defines as “harmful to minors,” such
+as the Plaintiffs, to use it. Plai ntiffs do not make this argument and, if they did, it would
+not be successful. In a declaration, Michael Dupree, Director of the Public Protection
+Division of the Louisiana Department of Justic e, stated that he knows of at least three
+commercial entities that use LA Wallet to comply with the age-verification requirements
+of the Act through the use of AllPassTrust.105 Plaintiffs do not dispute this.106
+Plaintiffs do allege Commissioner Dardenne enforces the Act because, even if
+commercial entities such as the Plaintiffs ar e allowed to use LA Wa llet, LA Wallet is the
+
+100 Id.; La. R.S. § 9:2800.29(D)(2). See also note 11, supra.
+101 627 F.3d at 127 (Dennis, J., concurring).
+102 R. Doc. 36 at pp. 16–17.
+103 R. Doc. 31 at p. 11, ¶ 27; R. Doc. 36 at pp. 12–13. Cf. R. Doc. 35-1 at p. 18.
+104 R. Doc. 31 at p. 11, ¶¶ 28-30.
+105 Delcl. of Michael Dupree, R. Doc. 47-2 at p. 2, ¶ 5. AllPassTrust is an age-verification compliance
+platform. On its website, AllPassTrust re presents that it works with LA Wallet. AllPassTrust,
+https://www.allpasstrust.com/en (last visited Oct. 2, 2023) [https://perma.cc/Y8GS-L86G].
+106 See R. Doc. 48.
+Case 2:23-cv-02123-SM-DPC   Document 50   Filed 10/04/23   Page 15 of 23
+16
+
+only qualifying age-verification method th at complies with § 9:2800(D)(8) of the Act. 107
+Neither is this argument successful. The Act makes clear that, apart from verifying a user’s
+age through a digitized identification card , a commercial entity may comply by using
+another “commercial age verification system ” that verifies a user’s age through a
+“[g]overnment-issued identification” or any other “commercially reasonable method.”108
+In his declaration, Director Dupree listed fourteen “vendors that offer age verification
+services that apparently do not require LA Wallet and that a commercial entity may
+nonetheless use to satisfy” the age verification requirements of the Act.109 In a response,110
+Plaintiffs provided a declaration from Dominic Ford, 111 managing and sole member of
+Plaintiff JFF Publications, LLC. Mr. Ford states that one of the vendors listed by Director
+Dupree, Stripe, does not “do busi ness” with “adult businesses.”112 This does not negate
+Director Dupree’s general point that there are many other options beyond LA Wallet
+available to satisfy the age-verification requirements of the Act.
+The Fifth Circuit cases finding a particular duty to enforce under the two-part Ex
+Parte Young test all involved a much clearer duty  to enforce the challenged law than
+Plaintiffs establish for Commissioner Da rdenne. The defendant board members in K.P.
+were the final arbiters of whether a claim was paid or not from the medical compensation
+fund.113 The defendants in Air Evac set the upper limit on reimbursement rates under the
+challenged statute and ensured the maximu m-reimbursement provision was enforced
+
+107 R. Doc. 31 at pp. 11–12, ¶ 28.
+108 § 9:2800.29(D)(8)
+109 Decl. of Michael Dupree, R. Doc. 47-2 at pp. 3–4.
+110 R. Doc. 48.
+111 Decl. of Dominic Ford, R. Doc. 48-2.
+112 Id. at p. 3, ¶ 30.
+113 K.P., 627 F.3d at 125.
+Case 2:23-cv-02123-SM-DPC   Document 50   Filed 10/04/23   Page 16 of 23
+17
+
+from start to finish.114 The secretary of state in Texas Democratic Party designed the mail-
+in ballot form at the center of the constitutional challenge and furnished it to local officials
+who were required to use it.115
+The strength of Commissioner Dardenne’s connection to enforcement of the Act
+does not approach the level of those scen arios described above. Plaintiffs allege
+Commissioner Dardenne enforces the Act becaus e, even if they are allowed to use LA
+Wallet, the fact that it is the only qualifyi ng “digitized identification card” means the
+operation of the Act is predicated upon the exclusive use of such a card.116 Quite obviously,
+the multiple options for age-verification co mpliance defeat Plaintiff’s argument that
+Commissioner Dardenne has a particular duty  to enforce the Act solely because his
+division administers LA Wallet.
+Though Ex Parte Young did not provide a precise definition of enforcement,117 the
+K.P. court, relying on an alternative definition from Webster’s dictionary, observed that
+“[e]nforcement typically involves compuls ion or constraint.” This “compulsion or
+constraint” definition of enforcement has carried the day in this circuit’s Ex Parte Young
+caselaw since. In 2017,118  2019,119  2020,120  twice in 2022,121 and again this year,122 panels
+of the Fifth Circuit followed K.P. a n d  l o o k e d  f o r  s o m e  d e g r e e  o f  “ c o m p u l s i o n  o r
+
+114 Air Evac, 851 F.3d at 514.
+115 Texas Democratic Party, 978 F.3d at 179–180.
+116 R. Doc. 31 at pp. 11–12, ¶ 28.
+117 See Ex Parte Young , 209 U.S. at 156 (explaining that an official charged with enforcement “may
+threaten . . . proceedings, either of a civil or crim inal nature, to enforce against parties affected an
+unconstitutional act”).
+118 Air Evac, 851 F.3d at 519.
+119 City of Austin, 943 F.3d at 1002.
+120 Texas Democratic Party, 978 F.3d at 180.
+121 Richardson, 28 F.4th at 655; Texas All. for Retired Americans, 28 F.4th at 673.
+122 Ostrewich, 72 F.4th at 101.
+Case 2:23-cv-02123-SM-DPC   Document 50   Filed 10/04/23   Page 17 of 23
+18
+
+constraint” in the duties of a st ate official when ruling on Ex Parte Young exceptions to
+defenses of sovereign immunity.
+The overwhelming weight of authority from  the Fifth Circuit, which this Court is
+bound to follow, provides that “enforcement” means “compulsion or constraint.” Even
+were this Court to apply the “give effect to” definition of enforcement, Commissioner
+Dardenne can hardly be said to  give effect to a statute re quiring age verification when
+there are, counting LA Wallet, as many as fifteen options for compliance. 123 He does not
+constrain the options that providers have to comply with the Act. He does not compel (nor
+do Plaintiffs argue as such) providers to use LA Wallet and forgo other options.
+Plaintiffs do not allege Commissioner Dardenne has any willingness to enforce the
+Act apart from his willingness to administer his division and LA Wallet, which is not
+sufficient. The claims against Commissioner  Dardenne fail both prongs of the Ex Parte
+Young two-part test. Sovereign immunity ba rs the claims against Commissioner
+Dardenne.
+2. James LeBlanc, Secretary of the Louisiana Department of
+Public Safety and Corrections, does not have a particular duty
+to enforce the act or a demonstrated willingness to enforce it.
+
+Plaintiffs also seek to prohibit Secr etary LeBlanc from participating in the
+enforcement of the Act. Plaintiffs allege “Secretary LeBlanc has some connection with the
+enforcement of [the Act]” because the department he heads operates the Office of Motor
+Vehicles (OMV) database, which contains data without which “LA Wallet simply couldn’t
+function.”124 The essence of this argument is the same as Plaintiffs’ argument with respect
+
+123 See notes 109–112, supra, and accompanying text. Accepting Plaintiffs’ evidence that Stripe is not a
+viable option, the number of options may still be fourteen, including LA Wallet. See Decl. of Dominic Ford,
+R. Doc. 48-2 at p. 3, ¶ 30.
+124 R. Doc. 31 at p. 14, ¶ 32.
+Case 2:23-cv-02123-SM-DPC   Document 50   Filed 10/04/23   Page 18 of 23
+19
+
+to Commissioner Dardenne, namely, that LA Wallet is the only qualifying age-verification
+method that complies with § 9:2800(D)(8) of the Act. Thus, Plaintiffs argue, Secretary
+LeBlanc’s connection to the data needed to operate LA Wallet constitutes a particular duty
+to enforce the Act.125
+This theory was not sufficient to establis h any particular duty of enforcement for
+Commissioner Dardenne.126 A fortiori, it fails with respect to Secretary LeBlanc, who does
+not even administer LA Wallet, but merely oversees a department that operates a dataset
+used by LA Wallet. Plaintiffs argue, in total,  that Secretary LeBlanc enforces the Act
+because he is the head of a department that oversees a dataset used by LA Wallet and that
+LA Wallet may be used to comply with the Act. This connection between the Act and
+Secretary LeBlanc’s general duties is ev en more attenuated than Commissioner
+Dardenne’s. Plaintiffs make no argument that Secretary LeBlanc has a willingness to
+enforce the Act other than his willingness to ad minister his responsibilities with respect
+to his department. Plaintiffs’ claims ag ainst Secretary LeBlanc do not satisfy Ex Parte
+Young’s two-part test. Sovereign immunity ba rs Plaintiffs’ claims against Secretary
+LeBlanc.
+3. Jeffrey Landry, Attorney General of Louisiana, does not have
+a particular duty to enforce the Act.
+
+Plaintiffs seek an injunction against AG Landry precluding his participation in the
+enforcement of the Act. 127 Plaintiffs allege AG Landry has “some connection to the
+enforcement” of the Act because “he is responsible for the ‘assertion or protection of any
+right or interest of the state of Louisiana,’ and for the legal representation of governmental
+
+125 Id.
+126 See Part B.1, supra.
+127 R. Doc. 31 at p. 36, ¶ 89.
+Case 2:23-cv-02123-SM-DPC   Document 50   Filed 10/04/23   Page 19 of 23
+20
+
+officers, agencies, boards, of commissions.’”128 Plaintiffs also allege a connection based on
+AG Landry’s discretionary responsibility to defend the interests of the state and the Act’s
+constitutionality.129
+In sum, Plaintiffs’ theory of AG Landry’s duty to enforce the Act hinges on “merely
+[his] duty to see that the laws of the state are implemented.”130 Even accepting Plaintiffs’
+argument that AG Landry “has manifested hi s intention to ‘represent or supervise the
+representation’ of the State’s interest in any forthcoming litigation brought under” the
+Act,131 this is no more than a willingness to exercise his general duties as attorney general
+of the state. This is the opposite of the “particular duty” required by Ex Parte Young. The
+Fifth Circuit has consistently held that genera l duties cannot provide the particular duty
+of enforcement required to overcome sovereign immunity. 132 For this reason, sovereign
+immunity bars Plaintiffs’ claims against AG Landry with respect to the Act.
+II. Plaintiffs do not have Article III standing to bring their claims.
+
+“Article III of the United States Constitution limits the jurisdiction of federal courts
+to actual ‘Cases’ and ‘Controversies.’” 133 “One element of the case-or-controversy
+requirement is that plaintiffs must establish that they have standing to sue.” 134 Because
+standing is a matter of subject-matter jurisdiction, a motion to dismiss for lack of standing
+is properly brought pursuant to Federal Rule of Civil Procedure 12(b)(1).135 Federal courts
+must dismiss an action if, “at any time,” it is determined that subject-matter jurisdiction
+
+128 Id. at p. 16, ¶ 36 (citing La. R.S. 36:704(E)).
+129 Id.
+130 Morris, 739 F.3d at 746 (citing Okpalobi, 244 F.3d at 405).
+131 R. Doc. 31 at p. 16, ¶ 36.
+132 E.g., Morris, 739 F.3d. at 746; Texas Democratic Party, 978 F.3d at 180.
+133 Crane v. Johnson, 783 F.3d 244, 251 (5th Cir. 2015) (citing U.S. CONST., art. III, § 2).
+134 Clapper v. Amnesty Int'l USA, 568 U.S. 398, 408 (2013) (cleaned up).
+135 See Fed. R. Civ. P.  12(b)(1). A motion to dismiss for lack of standing may be either ‘facial’ or ‘factual.’”
+Superior MRI Servs., Inc. v. Alliance Healthcare Servs., Inc. , 778 F.3d 502, 504 (5th Cir. 2015) (citing
+Paterson v. Weinberger, 644 F.2d 521, 523 (5th Cir. 1981)).
+Case 2:23-cv-02123-SM-DPC   Document 50   Filed 10/04/23   Page 20 of 23
+21
+
+is lacking.136 As the party invoking federal jurisdic tion, the plaintiff constantly bears the
+burden of establishing the jurisdictional requirements, including standing.137
+“To establish Article III standing, a plaintiff must show (1) an ‘injury in fact,’ (2) a
+sufficient ‘causal connection between the injury and the conduct complained of,’ and (3)
+a ‘likel[ihood]’ that the injury ‘will be redressed by a favorable decision.’” 138 The first
+prong focuses on whether the plaintiff suffered harm, the second focuses on who inflicted
+that harm, and the third focuses on whether a favorable decision will likely alleviate that
+harm.139 “If any one of these thr ee elements—injury, causatio n, and redressability—is
+absent, plaintiffs have no standing in federal court under Article III of the constitution to
+assert their claim.”140
+In this case, Plaintiffs fail to establish the causation and redressability required for
+standing.141 Broadly, Plaintiffs allege that the Act chills and infringes on speech,
+“burden[s] interstate commerce,” and violates other federal laws. The engine of the Act’s
+operation, Plaintiffs argue, is the Act’s priv ate-right-of-action provision: the burden on
+Plaintiffs’ speech and commerce is reinforced by their “justified fear that . . . they will be
+haled into court . . . by any number of private individuals alleging harm” under the Act.142
+
+136 See Fed. R. Civ. P. 12(h)(3).
+137 See Ramming v. United States, 281 F.3d 158, 161 (5th Cir. 2001) (citations omitted); Crane, 783 F.3d at
+251.
+138 Susan B. Anthony List v. Driehaus, 573 U.S. 149, 158 (alteration in original) (quoting Lujan v. Defenders
+of Wildlife, 504 U.S. 555, 560–61 (1992)).
+139 See Lujan, 504 U.S. at 560–61.
+140 Okpalobi, 244 F.3d at 425.
+141 “Article III standing analysis and Ex [P]arte Young analysis significantly overlap.” City of Austin, 943
+F.3d at 1002 (5th Cir.2019) (quotation omitted). A threat of enforcement from a state official with a
+particular duty to do so sufficiently constitu tes a “threatened injury” for Article III standing. Id. (citing
+Russell v. Lundergan-Grimes, 784 F.3d 1037, 1047 (6th Cir. 2015)). The state official is the cause of that
+injury, and enjoining his enforcement would redress the harm.
+142 R. Doc. 31 at p. 36, ¶ 86.
+Case 2:23-cv-02123-SM-DPC   Document 50   Filed 10/04/23   Page 21 of 23
+22
+
+Nowhere do Plaintiffs show how Defendants are the cause of the Act’s alleged harms, and
+the remedies Plaintiffs seek would not redress their alleged injuries.
+“Plaintiffs seek an injunction against all Defendants precluding their participation
+in the enforcement” of the Act. 143 Based on Plaintiffs’ theories about each of the
+Defendants’ roles in enforcement, 144 they seek an injunction prohibiting: (1)
+Commissioner Dardenne from operating LA Wallet, (2) Secretary LeBlanc from providing
+the OMV data to be used in LA Wallet, and (3) AG Landry from exercising his general
+duty to defend the Act’s constitutionality. Were such an injunction issued, any individual
+could still bring a suit for damages against a provider. 145 This injunctive relief would not
+redress Plaintiffs’ “justified fear” that “they will be haled into court.”146 If the threat of a
+private suit for damages imposes a burden on Plaintiffs’ rights, an injunction against these
+three Defendants would not redress that threat. Despite Plaintiffs’ argument otherwise, it
+is not the operation of LA Wallet that is the source of their alleged injury; their
+redressability argument hinges on their beli ef that the injunctions would preclude state
+officials from “performing functions that ar e indispensable to [the Act’s] statutory
+scheme,”147 but as explained, this is not true. In deed, “[f]or all practical purposes, the
+injunction granted by [this] district court [would be] utterly meaningless.”148
+The same applies to Plaintiffs’ prayer for a declaratory judgment that the Act is in
+violation of federal law. A declaratory judgment is a “definitive determination of the legal
+rights of the parties.”149 Binding any of the Defendants through such a judgment, were
+
+143 Id. at p. 39, ¶ 95.
+144 See id. at pp. 10–17.
+145 See § 9:2800.29(B)(3).
+146 R. Doc. 31 at p. 36, ¶ 86.
+147 R. Doc. 36 at p. 26–27.
+148 Okpalobi, 244 F.3d at 426.
+149 Medtronic, Inc. v. Mirowski Family Ventures, LLC, 571 U.S. 191, 200 (2014) (emphasis added) (quoting
+Aetna Life Ins. Co. of Hartford, Conn. v. Haworth, 300 U.S. 227, 241 (1937)).
+Case 2:23-cv-02123-SM-DPC   Document 50   Filed 10/04/23   Page 22 of 23
+23
+
+the Court to have jurisdiction to do so, would not bind any of the private citizens who may
+bring a suit under the Act. 150 Rather, “proper declaratory judgments . . . have preclusive
+effect on a traditional lawsuit that is imminent.” 151 Any such declaration against
+Commissioner Dardenne, Secretary LeBlanc, or AG Landry would not bind any of those
+private citizens who may bring suit under th e Act, and the declaration thus would not
+provide “redress for the claimed injury resulting from . . . this [allegedly] unconstitutional
+statute—that is, the filing and prosecution of a private civil action.” 152
+Because Plaintiffs have not shown how De fendants are the cause of their alleged
+injury, and because this Court cannot provide any redress, Plaintiffs lack Article III
+standing.
+CONCLUSION
+ The Plaintiffs have failed to meet their burden of establishing that the Ex Parte
+Young exception to Eleventh Amendment to sovereign immunity applies to these claims
+and that the Plaintiffs have standing to  bring them. Plaintiffs’ claims against
+Commissioner Dardenne, Secretary LeBlanc, and AG Landry for declaratory and
+injunctive relief with respect to the Act are DISMISSED without prejudice.
+ New Orleans, Louisiana, this 4th day of October, 2023.
+
+______ __________ __ _________
+SUSIE MORGAN
+UNITED STATES DISTRICT JUDGE
+
+150 This is no accident. The Act appears “designed to  [be] shield[ed]” from pre-enforcement “judicial
+review.” Whole Woman's Health v. Jackson , 595 U.S. 30, 59 (2021) (Roberts, C.J., concurring in part,
+dissenting in part).
+151 Brackeen v. Haaland, 994 F.3d 249, 448 (5th Cir.2021) (Costa, J., concurring in part and dissenting in
+part), aff'd in part, vacated in part, rev'd in part, 599 U.S. 255 (2023); see also 10B Fed. Prac. & Proc. Civ.
+§ 2771 (4th ed.) (“A declaratory judgment is binding on the parties before the court and is claim preclusive
+in subsequent proceedings as to the matters declared . . . .”).
+152 Okapalobi, 244. F.3d at 428.
+Case 2:23-cv-02123-SM-DPC   Document 50   Filed 10/04/23   Page 23 of 23
