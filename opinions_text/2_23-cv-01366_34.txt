@@ -1,0 +1,486 @@
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+OPAL JEAN LENNIX CIVIL ACTION
+VERSUS NO. 23-1366
+AMAZON.COM SERVICES LLC SECTION “O”
+ORDER AND REASONS
+Before the Court in this denial-of-benefits case under Section 502(a)(1)(B) of
+the Employee Retirement Income Security Act  of 1974  (“ERISA ”), 29 U.S.C.
+§ 1132(a)(1)(B), is the opposed motion1 of Defendant Amazon.com Services LLC to
+dismiss pro se Plaintiff Opal Jean Lennix’s complaint for failure to state a claim under
+Federal Rule of Civil Procedure 12(b)(6). Liberally construing Lennix’s pro se
+complaint, see Erickson v. Pardus , 551 U.S. 89, 94 (2007) (per curiam), the Court
+holds that Lennix fails to state any plausible  tort claims against Amazon. Any tort
+claims against Amazon are barred by the exclusive-remedy provision of the Louisiana
+Workers Compensation Act (“LWCA ”), outside the intentional-tort exception to that
+provision, and facially prescribed in any event. Lennix also fails to state any ERISA
+claims for denial of long-term disability benefits against Amazon because Amazon
+does not control administration of the relevant long-term disability benefit plan. But
+Amazon has not convinced the Court that it may properly dismiss Lennix’s ERISA
+claims for denial of short-term disability benefits at this Rule 12(b)(6) stage based on
+the arguments Amazon has raised. Many of those arguments rely on evidence the
+
+1 ECF No. 11.
+Case 2:23-cv-01366-BSL-DPC     Document 34     Filed 06/17/25     Page 1 of 18
+2
+
+Court may not properly consider under Rule 12(b)(6) and on doctrines better suited
+for a motion for summary judgment.  Accordingly, for these reasons and those that
+follow, Amazon’s motion to dismiss is GRANTED IN PART as to any tort claims
+and any ERISA  claims for denial of long-term disability benefits and DENIED IN
+PART as to any ERISA  claims for denial of short-term disability benefits.
+I. BACKGROUND
+ Liberally construed, see Erickson, 551 U.S. at 94, Lennix’s pro se complaint2
+and the submissions3 accompanying it suggest that Lennix intends to assert tort and
+ERISA  denial-of-benefits claims against both her former employer, Amazon, and the
+administrator of Amazon’s long-term disability benefit plan, The Hartford.
+In mid-April 2021, Amazon hired Lennix to work as a “sortation associate” at
+an Amazon disbursement warehouse in Baton Rouge, Louisiana.4 Lennix alleges that
+she suffered an on -the-job rotator -cuff injury  just over a month later,  on May 24,
+2021,5 which Lennix describes as the day she last performed “productive working
+activities with Amazon.”6 Documents accompanying Lennix’s complaint suggest that
+Amazon subsequently fired Lennix, but Lennix does not clearly allege the timing or
+the circumstances surrounding her termination.7
+
+2 ECF No. 1.
+3 ECF No. 1-1 (104-page attachment to complaint); ECF No. 7 (letter to the Court).
+4 ECF No. 1 at 2; ECF No. 1-1 at 95.
+5 ECF No. 1 at 2; ECF No. 1-1 at 95.
+6 ECF No. 7 at 1.
+7 See ECF No. 1 -1 at 75 (letter signed by Lennix referencing a “[d]etermination about being
+[t]erminated”); id. at 100 (appeal decision from The Hartford stating that Lennix’s “last day of work
+was 05/27/2021”). Amazon says that it fired Lennix “on or about May 27, 2021 for job abandonment”
+because Lennix “neither returned to work nor notified her employer of [her] work injury.” ECF No. 11-
+1 at 2. But Amazon cites no support in the record for the assertion, and Lennix’s liberally construed
+complaint does not clearly allege the reasons for, or the precise date of, Lennix’s termination.
+Case 2:23-cv-01366-BSL-DPC     Document 34     Filed 06/17/25     Page 2 of 18
+3
+
+After her on-the-job injury, on a date she does not specify, Lennix alleges that
+she “expressed” “concerns” to “Amazon Management/Leadership Personnel” about
+her alleged  need to “seek[ ] medical attention” for “extreme body pains” and
+“concerns” stemming from “a massive illness within the warehouse from Covid -19.”8
+Lennix alleges that she tested negative for Covid -19, but that she still experienced
+“[c]ontinuous pain” that made “[c]ontinuous medical treatment . . . necessary.”9
+ Despite doctor appointments , physical -therapy treatments, and injections,
+Lennix alleges her “continuous” shoulder pain did not improve.10 Documents attached
+to her complaint reflect that  she was diagnosed  with left-rotator-cuff tendinopathy
+and restricted from lifting, pushing, or pulling more than 10 pounds; from reaching
+overhead; and from “maintain[ing] a forceful hand grip for more than 3–4 hours.”11
+Citing those restrictions, Lennix sought an accommodation from Amazon in
+the form of “continuous leave” that (if granted) would have stretched from late May
+2021 to late January 2022. 12 But Amazon denied leave, explaining that “[a]ll paths
+require lifting, pushing, or pulling of more than 10 lbs.” ; “[a]ll associates are also
+required to maintain a forceful grip or c-grip when handling a package”; and “[t]here
+are also no roles without overhead, shoulder reach, and/or below should[er] reach.”13
+In June 2021, according to Lennix,  “[s]everal changes were made” to her
+“insurance benefits,” including “additional coverage for Short Term and Long Term
+
+8 ECF No. 1 at 4.
+9 Id.
+10 ECF No. 1 at 4.
+11 ECF No. 1-1 at 57.
+12 Id.
+13 Id. at 37.
+Case 2:23-cv-01366-BSL-DPC     Document 34     Filed 06/17/25     Page 3 of 18
+4
+
+Disability Benefits.”14 Lennix alleges that, on an unspecified date, she “resubmit[ed]”
+an application “for double coverage of benefits,” but an “Amazon Benefits Insurance
+provider” informed her by mail “that additional cover[age] wasn’t necessary.”15
+In a November 2021 email to Amazon’s accommodations team, Lennix wrote
+that “[s]hort [t]erm [b]enefits were never received are [sic] applied for doing [sic] my
+absence from Amazon.”16 Along similar lines, Lennix’s liberally construed complaint
+alleges that Lennix’s requests for workers’ compensation benefits and for “light
+[d]uty” were “denied by Amazon Distribution Center Management.”17
+At some unspecified later point, Lennix sought long -term disability benefits
+from the administrator of Amazon’s long -term disability benefit plan, The Hartford.
+But The Hartford denied Lennix’s request for long -term disability benefits in
+December 2021, and Lennix appealed.18 The Hartford upheld the denial on appeal,
+concluding Lennix did not have long -term disability coverage on the date of her
+disability.19 In a letter to Lennix, The Hartford gave this reasoning for its decision:
+Although you may have understood that you would be eligible for [short-
+term disability] and [long -term disability] coverage at an earlier date,
+the information provided from your Employer confirms that your last
+day of work was 05/27/2021 and you did not h ave [long-term disability]
+coverage until 06/06/2021. Because you did not have [long-term
+disability] coverage on 05/27/2021 and have not returned to work as an
+Active Employee you are not eligible for benefits at this time and we
+must uphold our prior decision to deny [long-term disability] benefits at
+this time.20
+
+14 ECF No. 1 at 6.
+15 Id.
+16 ECF No. 1-1 at 47.
+17 ECF No. 1 at 5.
+18 ECF No. 1-1 at 98.
+19 Id. at 100.
+20 Id.
+Case 2:23-cv-01366-BSL-DPC     Document 34     Filed 06/17/25     Page 4 of 18
+5
+
+ The Hartford’s letter also notified Lennix that its “claim decision is now final
+as administrative remedies available under the Policy have been exhausted.”21
+This litigation followed. Proceeding pro se , Lennix sued Amazon and The
+Hartford in April 2023, submitting a letter complaint with 104 pages of
+attachments.22 Lennix alleges that she has “not received any compensation which
+was applied for but denied due [to] untruthful information.”23 Lennix asks “the Court
+to review all forwarded documents on . . . behalf of [her] medical condition and to be
+in consideration about the amount of pain and suffering [she] [has] sustained without
+any [f]inancial support from the false delegation about receiving benefits. No benefits
+were received.”24 Although her filings are unclear on the point, the Court liberally
+construes her complaint and the accompanying submissions to attempt to plead  tort
+and ERISA denial -of-benefits claim s. Lennix seeks $5 million for “permanent
+damages to [her] [p]ersonal [l]ife,” “[p]hysical [a]bilities,” “[m]ental [h]ealth,”
+“[m]obility [a]bilities,” [e]motional [w]ell-being,” and “[n]o [f]inancial [s]upport.”25
+Now, Amazon moves the Court under Rule 12(b)(6) to dismiss Lennix’s
+complaint for failure to state a claim.26 Lennix opposes.27
+
+21 Id.
+22 ECF No. 1 at 1.
+23 Id.
+24 Id.
+25 Id.
+26 ECF No. 11.
+27 ECF No. 25; ECF No. 26; ECF No. 29.
+Case 2:23-cv-01366-BSL-DPC     Document 34     Filed 06/17/25     Page 5 of 18
+6
+
+II.  LEGAL STANDARD
+Rule 8(a)(2) requires “a short and plain statement of the claim showing that
+the pleader is entitled to relief.” FED . R.  CIV . P.  8(a)(2). A complaint that does not
+satisfy Rule 8(a)(2)’s pleading standard fails to state a claim upon which relief can be
+granted. See generally FED . R.  CIV . P.  12(b)(6). “[T]he pleading standard Rule 8
+announces does not require ‘detailed factual allegations,’ but it demands more than
+an unadorned, the -defendant-unlawfully-harmed-me accusation.” Ashcroft v. Iqbal ,
+556 U.S. 662, 678 (2009) (quoting Bell. Atl. Corp. v. Twombly , 550 U.S. 544, 555
+(2007)). “A pleading that offers ‘labels and conclusions’ or ‘a formulaic recitations of
+the elements of a cause of action will not do.’” Id. (quoting Twombly, 550 U.S. at 555).
+“Nor does a complaint suffice if it tenders ‘ naked assertion[s]’ devoid of ‘further
+factual enhancement.’” Id. (quoting Twombly, 550 U.S. at 557).
+“To survive a motion to dismiss” under Rule 12(b)(6), “a complaint must
+contain sufficient factual matter, accepted as true, to ‘state a claim to relief that is
+plausible on its face.’” Iqbal, 556 U.S. at 678 (quoting Twombly, 550 U.S. at 570). “A
+claim has facial plausibility when the plaintiff pleads factual content that allows the
+court to draw the reasonable inference that the defendant is liable for the misconduct
+alleged.” Id. (citing Twombly, 550 U.S. at 556). “Although ‘[courts] accept all well-pled
+facts as true, construing all reasonable inferences in the complaint in the light most
+favorable to the plaintiff, conclusory allegations unwarranted factual inferences, or
+legal conclusions are not accepted as true.’” Hodge v. Engleman , 90 F.4th 840, 843
+(5th Cir. 2024) (quoting Allen v. Hays, 65 F.4th 736, 743 (5th Cir. 2023)).
+Case 2:23-cv-01366-BSL-DPC     Document 34     Filed 06/17/25     Page 6 of 18
+7
+
+“The filings of a pro se litigant are to be liberally construed and a pro se
+complaint, however inartfully pleaded, must be held to less stringent standards than
+formal pleadings drafted by lawyers.” Tucker v. Gaddis, 40 F.4th 289, 292 (5th Cir.
+2022) (citation and quotation omitted). But “ pro se plaintiffs must still plead factual
+allegations that raise the right to relief above the speculative level.” Chhim v. Univ.
+of Tex. at Austin, 836 F.3d 467, 469 (5th Cir. 2016).
+III.  ANALYSIS
+ Amazon moves the Court to dismiss Lennix’s claims against it with prejudice
+under Rule 12(b)(6).28 Amazon’s argument proceeds in two parts : It first focuses on
+tort claims and then turns to ERISA  claims. The Court does the same.
+ A. Tort Claims
+Amazon contends that Lennix fails to state any tort claims against it. If Lennix
+intends to plead plausible tort claims against Amazon, she fails to do so—for at least
+two independent reasons. First, any tort claims Lennix intends to assert against
+Amazon are barred by the exclusive -remedy provision of the LWCA , LA. STAT .
+ANN . § 23:1032 , and do not come within the intentional -tort exception to LWCA
+exclusivity, LA. STAT . ANN . § 23:1032(B). Second, any tort claims  against Amazon
+are facially prescribed, and Lennix’s complaint raises no basis for tolling.
+
+28 ECF No. 11.
+Case 2:23-cv-01366-BSL-DPC     Document 34     Filed 06/17/25     Page 7 of 18
+8
+
+ 1. The Exclusive-Remedy Provision
+Any tort claims against Amazon are barred by the  LWCA ’s exclusive-remedy
+provision. Under that provision, receipt of LWCA  benefits is ordinarily an employee’s
+exclusive remedy against her employer for an on -the-job injury, and the employer is
+ordinarily immune from tort liability to the employee. See Moreno v. Entergy Corp.,
+2012-97, p. 13 (La. 12/4/12); 105 So. 3d 40, 49.  But the LWCA  carves out an
+intentional-tort exception to that general rule of exclusivity . See LA. STAT . ANN .
+§ 23:1032(B). Under the intentional-tort exception, an employee may recover against
+an employer in tort if the employee shows that “the employer (1) consciously desired
+the physical result of its act, whatever the likelihood of that result happening from
+its conduct, or (2) knew that the result is substantially certain to follow from its
+conduct, whatever its desire may be as to that result.” Danos v. Boh Bros. Const. Co.,
+2013-2605, p. 1 (La. 2/7/14); 132 So. 3d 958, 959 (per curiam) (citations omitted).
+Lennix fails to plead facts sufficient to avoid the exclusive -remedy provision
+and to come within the intentional-tort exception. Any tort claims she intends to bring
+come within the LWCA —and are thus subject to the exclusive-remedy provision—
+because she alleges that Amazon was her employer and that her left -rotator-cuff
+injury was an “on the job injury.”29 See Brightbill v. Circuit Grand Bayou, L.L.C., 21-
+578, p. 9 (La. App. 5 Cir. 5/11/22); 342 So. 3d 127, 135  (noting that an employer–
+employee relationship is a prerequisite to application of the LWCA ). Any tort claims
+Lennix intends to bring  are not saved by the  intentional-tort exception  because
+
+29 ECF No. 1 at 1.
+Case 2:23-cv-01366-BSL-DPC     Document 34     Filed 06/17/25     Page 8 of 18
+9
+
+Lennix does not allege that Amazon “consciously desired the physical result o f” the
+injury-causing act  or that her injury was “substantially certain to follow from
+[Amazon’s] conduct[.]” Danos, 132 So. 3d at 959 (citations omitted). Lennix’s liberally
+construed complaint lacks facts establishing that Amazon played any role in causing
+her alleged injury. Because Lennix alleges facts implicating the  LWCA ’s exclusive-
+remedy provision, and because Lennix does not allege facts  sufficient to invoke the
+intentional-tort exception, Lennix fails to state any tort claims against Amazon.
+ 2. Prescription
+Any tort claims against Amazon fail for the independent reason that they are
+facially prescribed . When the events described in the complaint occurred, the
+prescriptive period for torts was one year. 30 See LA. CIV . CODE ANN . art. 3492,
+repealed by TORT ACTIONS , 2024 La. Sess. Law Serv. Act 423 (H.B. 315). But Article
+3492 was repealed and replaced by Article 3493.1 effective July 1, 2024. See id. Article
+3493.1 extends the prescriptive period for delictual claims from one year to two. See
+LA. CIV . CODE ANN . art. 3493.1. Even so,  Article 3493.1 has “prospective
+application only,” and its two-year prescriptive period “shall apply to delictual actions
+arising after the [July 1, 2024] effective date of [Act 423].” TORT ACTIONS , 2024 La.
+Sess. Law Serv. Act 423 (H.B. 315) . Because the alleged facts underlying Lennix ’s
+claims occurred before July 1, 2024, the former Article 3492 and its one -year
+prescriptive period apply.  See Allied World Nat’l Assurance Co. v. Nisus Corp. , 134
+
+30 “In Louisiana, . . . tort claims are often called ‘delictual’ claims, and the limitations periods
+are often called ‘prescriptions’ or ‘prescriptive periods.’” Franklin v. Regions Bank, 976 F.3d 443, 447
+n.1 (5th Cir. 2020).
+Case 2:23-cv-01366-BSL-DPC     Document 34     Filed 06/17/25     Page 9 of 18
+10
+
+F.4th 821 , 826 n.3  (5th Cir. 2025)  (applying the former Article 3492’s one-year
+prescriptive period to tort claim arising from facts occurring before July 1, 2024).
+Under the former Article 3492, the one-year prescriptive period “commences to
+run from the day injury or damage is sustained.” LA. CIV . CODE ANN . art. 3492.
+“Damage is considered to have been sustained, within the meaning of [the former
+Article 3492], only when it has manifested itself with sufficient certainty to support
+accrual of a cause of action.” Cole v. Celotex Corp., 620 So. 2d 1154, 1156 (La. 1993).
+Lennix’s liberally construed complaint indicates that she “sustained” the
+“injury or damage” that commenced the one -year prescriptive period when she
+suffered her left-rotator-cuff injury in May 2021.31 LA. CIV . CODE ANN . art. 3492.
+Accordingly, because Lennix’s complaint indicates that Lennix first
+“sustained” the relevant “injury or damage” in May 2021, id. , the one -year
+prescriptive period began to run in May 2021. And because Lennix waited 23
+months—until April 2023—to sue Amazon, any tort claims Lennix intends to assert
+are time barred unless her liberally construed complaint raises a basis for tolling.
+Lennix’s complaint does not raise a basis for tolling the prescriptive period on
+any tort claims she intends to assert. “Under Louisiana law, there is a firmly rooted
+equitable-tolling doctrine known as contra non valentem agree non currit praescriptio,
+which means ‘[n]o prescription runs against a person unable to bring an action.’” In
+re Taxotere (Docetaxel) Prods. Liab. Litig., 995 F.3d 384, 390 (5th Cir. 2021) (quoting
+R.J. Reynolds Tobacco Co. v. Hudson , 314 F.2d 776, 786 (5th Cir. 1963)). “The
+
+31 ECF No. 1 at 2; ECF No. 1-1 at 95.
+Case 2:23-cv-01366-BSL-DPC     Document 34     Filed 06/17/25     Page 10 of 18
+11
+
+doctrine tolls prescription only in these four ‘exceptional circumstances’: (1) where
+there was some legal cause which prevented the courts or their officers from acting
+or taking cognizance of the plaintiff's action; (2) where there was some condition or
+matter coupled with the contract or connected with the proceedings which prevented
+the plaintiff from availing himself of his cause of action; (3) where the defendant has
+done some act effectually to prevent the plaintiff from availing himself of his cause of
+action; and (4) where the cause of action is not known or reasonably knowable by the
+plaintiff, even though this ignorance is not induced by the defendant. ’” Id. (quoting
+Morgan v. Entergy New Orleans, 2016-1250, p. 5 (La. App. 4th Cir. 12/6/17); 234 So.
+3d 113, 116, 120). Lennix’s complaint does not implicate any of those circumstances.
+Accordingly, because any tort claims Lennix intends to assert against Amazon
+are prescribed on the face of Lennix’s complaint, and because Lennix’s complaint
+raises no basis for tolling, Lennix fails to state any tort claims against Amazon.
+B. ERISA  Denial-of-Benefit Claims
+ Amazon contends that Lennix fails to state ERISA  denial-of-benefits claims
+against it. The source of those claims is 29 U.S.C. § 1132(a)(1)(B), known as ERISA
+§ 502(a)(1)(B). See Innova Hosp. San Antonio, Ltd. P’ship v. Blue Cross & Blue Shield
+of Ga., Inc. , 892 F.3d 719, 726 –27 (5th Cir. 2018). Under ERISA  § 502(a)(1)(B), a
+“participant or beneficiary” may sue “to recover benefits due to him under the terms
+of his plan, to enforce his rights under the terms of the plan, or to clarify his rights to
+future benefits under the terms of the plan . . . .” 29 U.S.C.  § 1132(a)(1)(B).  A
+“participant” is “any employee or former employee of an employer, or any member or
+Case 2:23-cv-01366-BSL-DPC     Document 34     Filed 06/17/25     Page 11 of 18
+12
+
+former member of an employee organization, who is or may become eligible to receive
+a benefit . . . from an employee benefit plan.” 29 U.S.C. § 1002(7). The Fifth Circuit
+has cautioned against holding ERISA  plaintiffs “to an excessively burdensome
+pleading standard .” Innova, 892 F.3d at 728 . But an ERISA  plaintiff still must
+“plausibly allege that [the plaintiff] [is] a participant, beneficiary, or assignee entitled
+to assert a claim under [ ERISA  § 502(a)(1)(B)] .” Electrostim Med. Servs., Inc. v.
+Health Care Serv. Corp., 614 F. App’x 731, 742 (5th Cir. 2015) (per curiam).
+Here, Amazon contends Lennix fails to state an ERISA  § 502(a)(1)(B) claim
+against it for three reasons. First, Lennix does not allege that she exhausted available
+remedies under Amazon’s short-term disability plan. Second, Lennix does not allege
+facts establishing that she meets the eligibility requirements for short-term disability
+benefits under Amazon’s plan. Finally, Amazon is not a proper party to any claim for
+denial of long-term disability benefits. The Court takes each argument in turn.
+1. Exhaustion of Available Remedies
+Amazon first contends that Lennix fails to state any ERISA  denial-of-benefits
+claims against it because Lennix fails to  affirmatively allege that she exhausted
+available remedies under Amazon’s short -term disability plan. The Court may not
+dismiss Lennix’s denial-of-benefits claims on that basis in this Rule 12(b)(6) posture.
+As a claimant seeking benefits under an ERISA  plan, Lennix “must first
+exhaust available administrative remedies under the plan before bringing suit to
+recover benefits.” Bourgeois v. Pension Plan for Emps. of Santa Fe Int’l Corps. , 215
+F.3d 475, 479 (5th Cir. 2000) (citation omitted). But ERISA  exhaustion is an
+Case 2:23-cv-01366-BSL-DPC     Document 34     Filed 06/17/25     Page 12 of 18
+13
+
+affirmative defense—not a jurisdictional bar. See Crowell v. Shell Oil Co. , 541 F.3d
+295, 308–09 (5th Cir. 2008).  Because ERISA  exhaustion is an affirmative defense,
+the Court may not dismiss Lennix’s claims under Rule 12(b)(6) simply because she
+has not specifically and affirmatively alleged that she exhausted available remedies
+under Amazon’s short-term disability benefit plan; to support Rule 12(b)(6) dismissal,
+Lennix’s failure to exhaust must  instead be “clear from the face of the complaint.”
+Coleman v. Sweetin, 745 F.3d 756, 763 (5th Cir. 2014) (per curiam). It is not. The
+complaint makes no mention of Lennix’s pursuit of available remedies under
+Amazon’s short-term disability benefits plan. So it is not “clear from the face of the
+complaint” that Lennix failed to exhaust available remedies under Amazon’s short-
+term disability benefits plan. Id. The Court is thus constrained to deny  Amazon’s
+motion to dismiss Lennix’s ERISA  § 502(a)(1)(B) claim for denial of short -term
+disability benefits based on exhaustion. Accord, e.g., Wilson v. Kimberly–Clark Corp.,
+254 F. App’x 280, 286 (5th Cir. 2007) (per curiam) (reversing Rule 12(b)(6) dismissal
+on ERISA  exhaustion grounds and explaining that “the [district] court’s requirement
+that plaintiffs plead exhaustion of remedies under the plan was an improper ground
+for dismissal”); Encompass Office Sols., Inc. v. Ingenix, Inc., 775 F. Supp. 2d 938, 969
+(E.D. Tex. 2011) (denying motion to dismiss ERISA  claims on exhaustion grounds
+because the plaintiff “did not have to plead exhaustion of administrative remedies”).32
+
+32 Because it is not clear from the face of Lennix’s complaint that Lennix failed to exhaust
+available remedies under Amazon’s short -term disability benefits plan, “[t]he proper procedural
+vehicle for the assertion of the affirmative defense of lack of ERISA  administrative exhaustion is by
+way of properly supported motion for summary judgment.” Ford v. Freemen, 388 F. Supp. 3d 692, 708
+(N.D. Tex. 2019) (quotation omitted). Amazon did not move the Court for summary judgment as an
+alternative to moving to dismiss . In an argument related to a footnote in its supplemental
+Case 2:23-cv-01366-BSL-DPC     Document 34     Filed 06/17/25     Page 13 of 18
+14
+
+2. Eligibility for Short-Term Disability Benefits
+Amazon next contends that Lennix fails to state a claim for denial of short-
+term disability benefits because she fails to plead facts plausibly establishing that
+she is eligible for short -term disability benefits under Amazon’s plan. In support,
+Amazon attaches  four documents  to its briefing : (1) the declaration 33 of Bethany
+Reyes, the “Director, Product Manager Technical-Employee Services” for Amazon; (2)
+Amazon’s “Short Term Disability Summary Plan Description ”34 (the “Plan
+Description”) governing Amazon’s provision of short-term disability benefits;  (3) an
+April 2021 letter35 offering Lennix employment as a “Seasonal Sortation Associate”;
+and (4) a June 2021 letter 36 offering Lennix employment as “Sortation Associate.”
+Before evaluating the merits of Amazon’s eligibility argument, the Court must decide
+which of these documents (if any) the Court may consider in its Rule 12(b)(6) review.
+The Court may not consider the contents of Reyes’s declaration or the offer
+letters in its Rule 12(b)(6) review. “[A] Rule 12(b)(6) motion typically cannot rely on
+evidence outside the complaint.” C &C Inv. Props., L.L.C. v. Trustmark Nat’l Bank ,
+838 F.3d 655, 660 (5th Cir. 2016). But that general rule is subject to two exceptions:
+The Court “ may rely on evidence outside the complaint, without converting a Rule
+
+memorandum, Amazon suggests that it “would be proper” to convert the motion to dismiss to a motion
+for summary judgment under Rule 12(d). ECF No. 16 at 7. The Court does not consider this Rule 12(d)
+conversion request because it is inadequately briefed and therefore forfeited. See, e.g., Smith v. Sch.
+Bd. of Concordia Par ., 88 F.4th 588, 594 (5th Cir. 2023) (“ Courts “have repeatedly cautioned that
+arguments appearing only in footnotes are insufficiently addressed in the body of the brief and thus
+forfeited.” (quotation omitted)).  Importantly, however, n othing in this order and reasons should be
+construed to limit Amazon’s ability to seek summary judgment on ERISA  exhaustion grounds.
+33 ECF No. 16-1.
+34 ECF No. 16-2.
+35 ECF No. 16-3.
+36 ECF No. 16-4.
+Case 2:23-cv-01366-BSL-DPC     Document 34     Filed 06/17/25     Page 14 of 18
+15
+
+12(b)(6) motion into a motion for summary judgment, if that evidence is either (a) a
+document attached to the Rule 12(b)(6) motion, referred to in the complaint, and
+central to the plaintiff’s claim; or (b) a matter subject to judicial notice under Federal
+Rule of Evidence 201.” George v. SI Grp., Inc., 36 F.4th 611, 619 (5th Cir. 2022) (citing
+Walker v. Beaumont Indep. Sch. Dist., 938 F.3d 724, 735 (5th Cir. 2019)). “But going
+beyond the pleadings is otherwise error.” Id. (citing Brand Coupon Network, L.L. C.
+v. Catalina Mktg. Corp. , 748 F.3d 631, 635 (5th Cir. 2014)).  Neither of those two
+exceptions applies to the Reyes declaration or the two offer letters. No party asks the
+Court to take judicial notice of the contents of those documents. And none of those
+documents is “referred to” in the complaint. 37 Id. So the Court may not rely on the
+Reyes declaration or the Amazon offer letters to resolve the Rule 12(b)(6) motion.
+But the Court may consider the Plan Description in its Rule 12(b)(6) analysis
+because Amazon’s short-term disability benefits policies are “referred to” in Lennix’s
+complaint and central to her ERISA  § 502(a)(1)(B) denial-of-benefits claim against
+Amazon.38 See, e.g. , Wilson, 254 F. App’x at 286 (concluding that a district court
+properly considered an ERISA  plan in its Rule 12(b)(6) analysis).
+Under the Plan  Description, an Amazon employee is eligible for short-term
+disability benefits if they are “assigned to work a minimum of 30 hours per week” and
+
+37 Amazon asks the Court to consider the offer letters “[g]iven the allegations referring to
+[Lennix’s] hire date.” ECF No. 16 at 10 n.3. But the complaint’s mere reference to Lennix’s hire date
+is not a reference to the offer letters themselves. Because the offer letters are not referenced in the
+complaint, the Court does not consider them in its Rule 12(b)(6) analysis. See, e.g., W. Bankers Cap.,
+Inc. v. Kirton McConkie, P.C., No. 23-CV-5124, 2025 WL 563449, at *4 (E.D. La. Feb. 20, 2025) (Long,
+J.) (declining to consider document not referenced in the complaint in Rule 12(b)(6) analysis) .
+38 ECF No. 1 at 5–7.
+Case 2:23-cv-01366-BSL-DPC     Document 34     Filed 06/17/25     Page 15 of 18
+16
+
+“Active at Work on the date immediately preceding [their] date of Disability.” 39
+“Active at Work” is defined as “performing your regular occupation for Amazon on a
+full-time basis for the number of hours you are normally scheduled to work . . . at one
+of Amazon’s usual places of business.” 40 Seasonal and part-time Amazon employees
+are not eligible for short-term disability benefits under the Plan Description.41
+With the benefit of liberal construction, see Erickson, 551 U.S. at 94, Lennix’s
+pro se complaint includes enough facts to allow the Court to reasonably infer that
+Lennix was eligible for short -term disability benefits under the Plan  Description.
+Lennix alleges that Amazon hired her “as a full time Amazon Warehouse Sorter” in
+April 2021 ,42 and that she suffered an “on the [j]ob injury” while so employed. 43
+Lennix specifically alleges that “[t]he classification status on which [she] was hired
+for was a[ ] full time employee.” 44 Taken as true, and liberally construed, these
+allegations45 allow a reasonable inference that Lennix was “Active at Work” “on the
+date immediately preceding” her alleged on-the-job injury and thus that Lennix was
+eligible for short-term disability benefits. Accordingly, viewing only the language of
+the Plan Description and the allegations of Lennix’s liberally construed pro se
+
+39 ECF No. 16-2 at 4 (§2).
+40 Id. at 18 (§ 9).
+41 Id. at 4 (§ 2).
+42 ECF No. 1 at 6.
+43 Id. at 4.
+44 Id. at 6.
+45 The Court recognizes that some  allegations material to Lennix’s denial -of-benefits claim
+appear to conflict with evidence in Amazon’s possession. For example, in the declaration and April
+2021 offer letter the Court  excluded from its Rule 12(b)(6) review, Lennix’s employment is described
+as “[s]easonal.” ECF No. 16 -1 at ¶ 4; ECF No. 16 -3 at 3. If Amazon in fact employed Lennix on a
+seasonal basis on the date immediately preceding her on-the-job injury, then Lennix would appear to
+be ineligible for short -term disability benefits , ECF No. 16 -2 at 4 (§ 2) , and her ERISA
+§ 502(a)(1)(B) claim for short-term disability benefits would appear to fail as a matter of law.
+Case 2:23-cv-01366-BSL-DPC     Document 34     Filed 06/17/25     Page 16 of 18
+17
+
+complaint, the Court is not convinced that it may properly  dismiss Lennix’s ERISA
+§ 502(a)(1)(B) claim for failure to plead that she was eligible for short-term benefits.
+3. Improper Party and Long-Term Disability Benefits
+Finally, Amazon contends the Court should dismiss any ERISA
+§ 502(a)(1)(B) claims for denial of long -term disability benefits  that Lennix asserts
+against it because it is not a proper party to those claims. The Court agrees. “[T]he
+proper party defendant in an action concerning ERISA  benefits is the party that
+controls administration of the plan[.]” LifeCare Mgmt. Servs. LLC v. Ins. Mgmt.
+Adm’rs Inc. , 703 F.3d 835, 845 (5th Cir. 2013) (quotation omitted ). Documents
+attached to Lennix’s complaint, and thus part of her pleadings for Rule 12(b)(6)
+purposes, confirm  that The Hartford —not Amazon —“control[s] administration of”
+the long-term disability benefits plan.46 Id. (quotation omitted). Accordingly, because
+Lennix does not plead facts establishing that Amazon “control[s] administration of”
+the long-term disability benefits plan, Lennix fails to state a claim against Amazon
+under ERISA  § 502(a)(1)(B) claim for denial of long-term disability benefits.
+
+46 See, e.g., ECF No. 1-1 at 98–101.
+Case 2:23-cv-01366-BSL-DPC     Document 34     Filed 06/17/25     Page 17 of 18
+18
+
+IV.  CONCLUSION
+Accordingly,
+IT IS ORDERED  that Amazon’s motion47 to dismiss is GRANTED IN
+PART and DENIED IN PART as outlined above. Any tort claims asserted
+against Amazon are dismissed with prejudice. Any ERISA  § 502(a)(1)(B) claims for
+denial of long -term disability benefits asserted against Amazon are also dismissed
+with prejudice. The only claim remaining against Amazon is an ERISA  § 502(a)(1)(B)
+claim for denial of short -term disability benefits. Nothing in this order and reasons
+should be construed to foreclose Amazon from moving for summary judgment on that
+remaining claim  before any discovery has been exchanged . See, e.g. , Dominick v.
+Mayorkas, 52 F.4th  992, 995 (5th Cir. 2022) (“Rule 56 does not require that any
+discovery take place before summary judgment can be granted” (quotation omitted)).
+New Orleans, Louisiana, this 17th day of June, 2025.
+BRANDON S. LONG
+UNITED STATES DISTRICT JUDGE
+
+47 ECF No. 11.
+Case 2:23-cv-01366-BSL-DPC     Document 34     Filed 06/17/25     Page 18 of 18

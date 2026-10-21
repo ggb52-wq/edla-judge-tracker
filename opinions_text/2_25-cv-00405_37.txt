@@ -1,0 +1,481 @@
+1
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+MICHAEL DOUCET  CIVIL ACTION
+
+V.  NO. 25-405
+
+ABBOTT LABORATORIES, INC., ET AL.   SECTION "L"(2)
+
+ORDER & REASONS
+There are presently two motions before the Court. The first is a Motion for Lack of Personal
+Jurisdiction pursuant to Federal Rule of Civil Procedure 12(b)(2) filed by Defendant Abbott
+Laboratories, Inc. (“Abbott”). R. Doc. 11. The second is a Motion to Di smiss for Failure to State
+a Claim pursuant to Federal Rule of Civil Procedure 12(b)(6) filed by Defendants Abbott and St.
+Jude Medical, LLC (“St. Jude”). R. Doc. 9. Plaintiff Michael Doucet opposes the motions. R. Docs.
+32, 33. Defendants Abbott and St. Jude replied. R. Docs. 34, 35. Oral argument was held on
+Monday, May 19, 2025. Considering the record, the briefing, the arguments, and the applicable law,
+the Court now rules as follows.
+I. BACKGROUND
+
+This is a product liability suit concerning the implantation of an allegedly defective medical
+device approved by the Food and Drug Administration (the “FDA”). R. Doc. 1-1. On March 27, 2020,
+Plaintiff Michael Doucet fell some twenty-five feet down an elevator shaft . R. Doc. 1- 2 at 2.
+Thereafter, Mr. Doucet underwent multiple surgeries and extensive medical treatment to mend a
+bone fracture in  his right ankle. Id.  at 2 -4. After these procedures , Mr. Doucet  nevertheless
+continued to experience chronic pain in his lower back and extremities. Id. at 4. Mr. Doucet’s
+doctor thus recommended him for a study involving a medical device  allegedly manufactured by
+Defendant Abbott that is designed to manage chronic, intractable pain in the lower body. Id. at 5.
+Case 2:25-cv-00405-EEF-DPC     Document 37     Filed 05/29/25     Page 1 of 19
+2
+This device, called a Proclaim Dorsal Root Ganglion Stimulator (“DRG Stimulator”), is surgically
+implanted in the patient and stimulates a bundle of “DRG” nerves located on the outside of the
+spinal cord to alleviate pain . Id. The DRG Stimulator “system” includes an implantable pulse
+generator or “IPG,” implantable leads that connect to the IPG, an external charger, and an external
+programmer. R. Doc. 9- 1 at 12. The IPG and implantable leads work together to send electrical
+pulses toward the DRG nerves, which can block or alter pain signals before they reach the brain.
+Id.
+ On October 18, 2022, Mr. Doucet had a DRG Stimulator inserted without complications.
+R. Doc. 1- 2 at 5 -6. Over the next year, he reported to his doctor that the DRG Stimulator was
+effective, and his pain had subsided significantly. Id. at 6-7. However, on October 27, 2023, Mr.
+Doucet began to complain that he had “some irritation” at his DRG procedure site. Id.  at 7. As
+such, the doctor informed Mr. Doucet that he would have Abbott reach out to him to discuss the
+issues he had been having with the device. Id. at 8. In the meantime, Mr. Doucet alleges the DRG
+Stimulator would malfunction, “feeling like it was turning off and on sporadically causing
+continuing extreme discomfort and irritation.” Id. On January 16, 2024, Abbott advised Mr.
+Doucet that the DRG Stimulator had been recalled.  Id. Mr. Doucet subsequently informed his
+doctor that he would like the device to be removed as soon as possible. Id. However, as of this
+date, it is the Court’s understanding that  the device has yet to be removed because Mr. Do ucet
+claims that he cannot afford to have it medically extracted. Id.
+On January 13, 2025, Mr. Doucet filed the present lawsuit in state court against Abbott. Id.
+He alleges four causes of action under the Louisiana Products Liability Act, including: (1)
+construction or composition defect; (2) design defect; (3) inadequate warning; and (4) breach of
+express warranty. Id. at 8-13. He also brings three Louisiana state law claims for: (1) breach of
+Case 2:25-cv-00405-EEF-DPC     Document 37     Filed 05/29/25     Page 2 of 19
+3
+implied warrant of merchantability and fitness; (2) redhibition; and (3) breach of warranty of
+fitness for ordinary use. Id. at 13-15. He requests damages for various injuries, such as past and
+future physical pain and suffering; past and future medical expenses; loss of enjoyment of life, etc.
+Id. at 15-16. In response, Abbott removed the case to this Court based on diversity jurisdiction. R.
+Doc. 1. On May 9, 2025, Mr. Doucet amended his petition and added Defendant St. Jude who joins
+in Abbott’s Motion to Dismiss for Failure to State a Claim. R. Docs. 11; 30.
+II. PRESENT MOTION
+Upon removal of the case to this Court, Abbott filed the present Motion to Dismiss for Lack
+of Personal Jurisdiction, and argues that it is subject to neither specific nor general jurisdiction in
+Louisiana. R. Doc. 11-1. Additionally, Abbott and St. Jude jointly move to dismiss Mr. Doucet’s
+case pursuant to Federal Rule of Civil Procedure 12(b)(6) on the grounds of federal preemption
+under the Medical Devices Amendment to the Food, Drug, and Cosmetics Act; failure to state a
+claim; and prescription. R. Doc. 9-1. Mr. Doucet generally opposes Abbott and St. Jude’s motions,
+highlighting Abbott’s complex corporate structure and the necessity for discovery in order to
+properly state a claim. R. Docs. 32, 33. Abbott and St. Jude replied, largely reiterating the
+arguments made in their initial motion. R. Docs. 34, 35.
+III. LAW & ANALYSIS
+The Court begins its analysis by first addressing Abbott’s 12(b)(2) motion and then proceeds
+to the merits of Abbott and St. Jude’s arguments on their 12(b)(6) motion.
+A. Abbott’s Motion to Dismiss for Lack of Personal Jurisdiction
+ Federal Rule of Civil Procedure 12(b)(2)  confers a right to dismissal of claims against a
+defendant where personal jurisdiction is lacking. Indeed, personal jurisdiction is “an essential
+element of the jurisdiction of a district court, without which the court is powerless to proceed to
+Case 2:25-cv-00405-EEF-DPC     Document 37     Filed 05/29/25     Page 3 of 19
+4
+an adjudication.” Ruhrgas AG v. Marathon Oil Co., 526 U.S. 574, 584 (1999)  (internal quotation
+marks omitted). “When a nonresident defendant moves to dismiss for lack of personal jurisdiction,
+the plaintiff bears the burden of establishing the district court’s jurisdiction over the
+nonresident.” Jobe v. ATR Mktg., Inc., 87 F.3d 751, 753 (5th Cir. 1996) . A plaintiff satisfies this
+burden by “presenting a prima facie case for personal jurisdiction.”  Colwell Realty Invs., Inc. v.
+Triple T Inns of Az., Inc., 785 F.2d 1330, 1333 (5th Cir. 1986) . To be clear, “[p]roof by a
+preponderance of the evidence is not required” at this stage in the proceedings. Bullion v. Gillespie,
+895 F.2d 213, 217 (5th Cir. 1990). In assessing whether the plaintiff has made a prima facie
+showing of personal jurisdiction, the allegations made in the complaint “must be taken as true, and
+conflicts between the facts contained in the parties’ affidavits must be resolved in the plaintiff’s
+favor.” D.J. Invs., Inc. v. Metzeler Motorcycle Tire Agent Gregg, Inc., 754 F.2d 542, 546 (5th Cir.
+1985). The court may thus consider affidavits, depositions, and other documentation outside of the
+plaintiff’s complaint when determining whether personal jurisdiction exists. Brown v. Flowers
+Industries, Inc., 688 F.2d 328, 332 (5th Cir. 1982).
+ Within the context of diversity cases such as the one at present, a federal district court’s
+ability to exercise personal jurisdiction over a defendant residing outside of the state in which it
+sits involves a two-part test. See Alpine View Co. v. Atlas Copco AB , 205 F.3d 208, 214 (5th Cir.
+2000); Unified Brands, Inc. v. Teders, 868 F. Supp. 2d 572, 577 (S.D. Miss. 2012). First, the court
+must assess whether a forum state’s long arm statue permits service of process. Id.  Second, the
+court must determine wh ether the assertion of personal jurisdiction over the Defendant violates
+due process. Id. Here, Louisiana’s long-arm statute, La. R.S. § 13:3201(B), extends jurisdiction to
+the constitutional limit, providing that a court “may exercise personal jurisdiction over a
+nonresident on any basis consistent with . . . the Constitution of the United Sta tes.” As such, the
+Case 2:25-cv-00405-EEF-DPC     Document 37     Filed 05/29/25     Page 4 of 19
+5
+“two inquiries fold into one,” and a separate analysis of the Louisiana long- arm statute and due
+process is unnecessary. Luv N’ care, Ltd. v. Insta- Mix, Inc., 438 F.3d 465, 469 (5th Cir. 2006).
+Rather, the sole question before the court is whether the defendant has meaningful “contacts, ties,
+or relations” with Louisiana, such that exercise of jurisdiction against it would not offend
+constitutional due process. See Int’l Shoe Co. v. Washington, 326 U.S. 310, 319 (1945).
+ Personal jurisdiction may be general or specific. Helicopteros Nacionales de Colombia,
+S.A. v. Hall , 466 U.S. 408, 414- 15 (1984). Where a defendant has “continuous and systematic
+general business contacts” with the forum state, the court may exercise “general” jurisdiction over
+any action brought against that defendant. Id. Where contacts are less pervasive, the court may still
+exercise “specific” jurisdiction “in a suit arising out of or related to the defendant’s contacts with
+the forum.” Id. In this cas e, Mr. Doucet alleges that this Court has both general and specific
+jurisdiction over Abbott. Conversely, Abbott maintains that it is not subject to personal jurisdiction
+in Louisiana whatsoever, and that due process mandates dismissal of Mr. Doucet’s claims against
+it. As explained below, the Court ultimately need not reach the issue of general jurisdiction because
+it finds that Mr. Doucet has successfully made a prima facie showing of specific jurisdiction.
+a. Mr. Doucet Has Made a Prima Facie Showing of Specific Personal
+Jurisdiction.
+
+When addressing specific jurisdiction, federal district courts apply a three -part test to
+determine:
+(1) whether the defendant has minimum contacts with the forum
+state, i.e., whether it purposely directed its activities toward the
+forum state or purposefully availed itself of the privileges of
+conducting activities there; (2) whether the plaintiff’s cause of
+action arises out of or results from the defendant ’s forum -related
+contacts; and (3) whether the exercise of personal jurisdiction is fair
+and reasonable.
+
+Case 2:25-cv-00405-EEF-DPC     Document 37     Filed 05/29/25     Page 5 of 19
+6
+Seiferth v. Helicopteros Atuneros, Inc., 472 F.3d 266, 271 (5th Cir. 2006). Upon plaintiff
+establishing the first two requirements, the burden then shifts to the defendant to demonstrate that
+an exercise of personal jurisdiction would be unfair or unreasonable. Burger King Corp. v.
+Rudzewicz, 471 U.S. 462, 477 (1985) (citing World-Wide Volkswagen Corp. v. Woodson, 444 U.S.
+286, 292 (1980)).
+Particularly relevant to the present motion, the second requirement for specific jurisdiction
+focuses on the “affiliation between the forum and the underlying controversy.” Goodyear Dunlop
+Tires Operations, S.A. v. Brown, 564 U.S. 915, 919 (2011) . Indeed, d ue process requires a
+connection between the defendant’s in-state activities and a plaintiff’s claims; specific jurisdiction
+may only be exercised over a non- resident defendant where the defendant’s actions within the
+forum state concern the plaintiff’s causes  of action. Id. at 930 n.6. “[E]ven regularly occurring
+sales of a product in a State do not justify the exercise of jurisdiction over a claim unrelated to
+those sales.” Id. In other words, the suit itself must arise out of or relate to the defendant’s contacts
+with the forum. See Britsol-Myers Squibb Co. v. Superior Court, 582 U.S. 255, 272 (2017).
+Here, Mr. Doucet alleges in his petition that Abbott is subject to specific jurisdiction in this
+forum because the company developed, manufactured, and placed its products, including the DRG
+Stimulator, into a stream of commerce that included distribution in Louisiana. Such an allegation
+invokes the Supreme Court’s “stream of commerce theory,” which has been expressly endorsed
+by the Fifth Circuit and stands for the proposition that “[w]here a defendant knowingly benefits
+from the availability of a particular state’s market for its products, it is only fitting that the
+defendant be amenable to suit in that state.” Luv N’ care , 438 F.3d at 470; see also  Oswalt v.
+Scripto, Inc., 616 F.2d 191, 199- 200 (5th Cir. 1980)  (finding jurisdiction where defendant had
+“attempted in [no] way to limit the states in which the [products] could be sold” but instead “had
+Case 2:25-cv-00405-EEF-DPC     Document 37     Filed 05/29/25     Page 6 of 19
+7
+every reason to believe its product would be sold to a nation- wide market, that is, in any or all
+states”). However, Abbott takes the position that Mr. Doucet’s claims do not arise out of the
+company’s contacts with Louisiana, arguing that it was not the e ntity responsible for or involved
+at all in the manufacturing of the DRG Stimulator. In support, Abbott submits the Declaration of
+Timothy Lorinser, the company’s Director of Tax, which states that St. Jude designed and
+manufactured the DRG Stimulator, not Abbott. R. Doc. 1- 1. Mr. Doucet, on the other hand,
+maintains that Abbott indeed manufactured the DRG Stimulator or at least had some role in its
+distribution. Furthermore, he attaches his own exhibits that indicate a representative from Abbott
+personally reached out to him prior to his implantation procedure, the packaging he received
+containing the DRG Stimulator was emblazoned with the word “Abbott,” and the loan device
+agreement that he was made to sign stated Abbott would be party to the contract. R. Docs. 32-1;
+32-2; 32-3; 32-4; 32-6.
+Upon review of the record and the evidence submitted by the parties, the Court is satisfied
+that Mr. Doucet has made a prima facie showing of specific jurisdiction. As an initial matter, Mr.
+Doucet has furnished the Court with several materials that he received in connection with his DRG
+Stimulator procedure that bear the name “Abbott” and its corresponding corporate logo, rather
+than anything to do with St. Jude. Moreover, the premarket approval letter for the DRG Stimulator
+submitted by Abbott itself indicates that an “Abbott Medical” was the applicant-manufacturer who
+submitted the DRG Stimulator for FDA approval; any mention of St. Jude is notably absent. R.
+Doc. 10-3. The Court finds that this documentation seriously undermines Abbott’s representations
+of its minimal to non -existent involvement with the device at the manufacturing and production
+levels and thus weighs in favor of jurisdiction.
+Case 2:25-cv-00405-EEF-DPC     Document 37     Filed 05/29/25     Page 7 of 19
+8
+Furthermore, the Court observes that, on its face, there may be some merit to the declaration
+made by Abbott’s Tax Director supposedly clarifying that St. Jude is the manufacturer of the DRG
+Stimulator. This declaration, however, does not explain why all t he product labeling that Mr.
+Doucet received indicates Abbott as the company associated with the device––a fact that this Court
+must construe in favor of jurisdiction at this stage in the proceedings. D.J. Invs., 754 F.2d at 546
+(explaining a conflict in the facts is resolved in plaintiff’s favor when there is a prima facie  burden
+for personal jurisdiction). Indeed, Abbott has crucially failed to submit any further proof to
+substantiate the conclusion that it did not in fact manufacture the device at issue. Rather, it
+essentially asks this Court to reach a pre-discovery finding that Abbott is not the entity responsible
+and thus not subject to jurisdiction on the basis of its employee’s word alone. The Court refuses to
+entertain such a request. A bare-bones assertion––even one made by a purportedly knowledgeable
+employee––that is not supported by facts is insufficient to support a motion to dismiss on
+jurisdiction grounds at this stage in the proceedings. Galindo v. Precision Am. Corp., 754 F.2d
+1212, 1216 (5th Cir. 1985) (noting “ultimate or conclusory facts and conclusions of law” are
+insufficient to support or defeat even a motion for summary judgment).
+Based on the foregoing, the Court finds that it is premature to conclude at this time that
+Abbott had nothing to do with the manufacturing or distribution of the DRG Stimulator in this
+matter. There are simply too many lingering questions as to Abbott’s le vel of involvement with
+the device that have yet to be answered in light of its participation throughout the FDA approval
+process and the prior representations it made to Mr. Doucet. Furthermore, as noted by the parties
+at oral argument, Abbott’s corporate structure appears to be factually complex; thus, its
+relationship with St. Jude warrants at least some discovery before Mr. Doucet’s claims are to be
+dismissed on jurisdictional grounds. See Kelly v. Syria Shell Petroleum Dev. B.V. , 213 F.3d 841,
+Case 2:25-cv-00405-EEF-DPC     Document 37     Filed 05/29/25     Page 8 of 19
+9
+855 (5th Cir. 2000)  (finding discovery designed to support an alter ego theory of personal
+jurisdiction is warranted if there are issues of fact that need to be explored). Accordingly, the Court
+will construe the factual allegations made in Mr. Doucet’s petition in his favor and concl udes he
+has made a prima facie showing that Abbott is subject to specific jurisdiction in Louisiana. The
+Court does wish to clarify, however, that this finding today does not preclude Abbott from re-
+challenging the exercise of personal jurisdiction at a la ter date and in accordance with the proper
+procedure, either following discovery or at trial. DeMelo v. Toche Marine, Inc.,  711 F.2d 1260,
+1271 n.12 (5th Cir. 1983)  (“Eventually, of course, the plaintiff must establish [personal]
+jurisdiction by a preponderance of the evidence, either at a pretrial evidentiary hearing or at trial.
+But until such a hearing is held, a prima facie showing suffices, notwithstanding any controverting
+presentation by the moving party, to defeat the motion.”). But at this  time, Mr. Doucet has made
+the required prima facie showing of personal jurisdiction.
+B. Abbott and St. Jude’s Motion to Dismiss for Failure to State a Claim
+The Court now moves on to address Abbott and St. Jude’s Motion to Dismiss for Failure
+to State a Claim pursuant to Federal Rule of Civil Procedure 12(b)(6). The motion raises arguments
+based on, inter alia, federal preemption and prescription. The Court takes each in turn.
+a. Preemption Under § 360k(a) of the Medical Device Amendments
+The first issue raised in Abbott and St. Jude’s motion is federal preemption. More precisely,
+Abbott and St. Jude argue that § 360k(a) of the Medical Device Amendments prohibits state law
+causes of action that impose requirements “different from, or in addition to” requirements already
+imposed by the FDA vis-à-vis a regulatory mechanism known as premarket approval. On this
+basis, Abbott and St. Jude contend that § 360k(a) expressly preempts Mr. Doucet’s claims under
+the Louisiana Products Liability Act and Louisiana redhibition law because they are not premised
+Case 2:25-cv-00405-EEF-DPC     Document 37     Filed 05/29/25     Page 9 of 19
+10
+upon the FDA’s regulations already in place with respect to the DRG Stimulator, but rather an
+entirely different standard of care established by Louisiana law.  Before diving into the
+complexities of how preemption applies in the context of state law claims involving medical
+devices approved by the FDA, the Court will start the analysis by providing a background of the
+relevant statutory and regulatory framework.
+In 1976, Congress passed the Medical Devices Amendments (“MDA”) to the Federal Food,
+Drug, and Cosmetic Act (“FDCA”), which established a regulatory regime to approve and monitor
+the manufacture and sale of medical devices. Riegel v. Medtronic, Inc., 552 U.S. 312, 316 (2008).
+The MDA sets forth three levels of “oversight for medical devices, depending on the risks they
+present.” Id. Class I devices are “subject to the lowest level of oversight” such as “labeling
+requirements.” Id. (citing 21 U.S.C. § 360c(a)(1)(A) ). Class II devices are subject to all of the
+Class I requirements and additional “‘special controls such as performance standards and
+postmarket surveillance measures.” Id. at 316-17 (quoting 21 U.S.C. § 360c(a)(1)(B) ). Class III
+devices are subject to the “most federal oversight.” Id.  These devices either support or sustain
+human life, substantially prevent impairment of human health, or present a potentially
+unreasonable risk of injury or illness. Id. (citing 21 U.S.C. § 360c(a)(1)(C)(ii)).
+The Food and Drug Administration (“FDA”) subjects all new Class III devices to
+premarket approval (“PMA”), at which time the “manufacturer must provide the FDA with a
+‘reasonable assurance’ that the device is both safe and effective.” Medtronic, Inc. v. Lohr, 518 U.S.
+470, 477 (1996) (quoting 21 U.S.C. § 360e(d)(2) ). “Premarket approval is a ‘rigorous process,’”
+and the FDA spends “an average of 1,200 hours reviewing each application.”  Riegel, 552 U.S. at
+317-18 (quoting Lohr, 518 U.S. at 477). Ultimately, to gain premarket approval, the manufacturer
+must demonstrate that the device satisfies the statutory standard ––a “reasonable assurance of
+Case 2:25-cv-00405-EEF-DPC     Document 37     Filed 05/29/25     Page 10 of 19
+11
+safety and effectiveness.” See 21 U.S.C. §§ 360c(a)(1)(C), 360e(c). To meet this burden, the
+manufacturer:
+must submit a detailed PMA application that contains full reports of
+all investigations of the safety and effectiveness of the device; a full
+statement of the components, ingredients, properties, and principles
+of operation of the device; a full description of the methods used in
+the manufacture and processing of the device; information about
+performance standards of the device; samples of the device;
+specimens of the proposed labeling for the device; and any other
+relevant information.
+
+Riegel v. Medtronic, Inc., 451 F. 3d 104, 109 (2d Cir. 2006), aff’d, 552 U.S. 312 (2008) (citing 21
+U.S.C. § 360e(c)). In analyzing PMA applications, the FDA balances “any probable benefit to
+health from the use of the device against any probable risk of injury or illness from such use.”
+Riegel, 552 U.S. at 318 (citation omitted). If the agency is not satisfied with the information the
+manufacturer provided, it can demand more information. 21 U.S.C. § 360e(c)(1)(G). The agency
+can also require a manufacturer to revise the device’s design, manufacturing methods, or labeling
+to obtain approval. 21 C.F.R. § 814.44(e). Under the “reasonable assurance of safety and
+effectiveness” standard, the agency may “approve devices that present great risks if they
+nonetheless offer great benefits in light of available alternatives.” Riegel, 552 U.S. at 318.
+Particularly relevant to the present motion, 21 U.S.C. § 360k(a) of the MDA contains an
+express preemption clause, providing that no State may establish “any requirement . . . which is
+different from, or in addition to” a federal requirement “which relates to the safety or effectiveness
+of [a medical device subject to the MDA].” The United States Supreme Court has twice now
+interpreted § 360k(a). See Lohr, 518 U.S. at 477; Riegel, 552 U.S. at 317-18. In fact, the Court in
+Riegel v. Medtronic, Inc. created a helpful two-part test to determine whether preemption applies
+to a plaintiff’s state law claims against a certain medical device. First, the court must determine
+whether the federal government has “established requirements applicable to [the med ical
+Case 2:25-cv-00405-EEF-DPC     Document 37     Filed 05/29/25     Page 11 of 19
+12
+device].” Id. at 372. The Fifth Circuit has held that Class III devices subject to PMA
+“automatically” satisfy the first prong.  Bass v. Stryker Corp., 669 F.3d 501, 507 (5th Cir. 2012) .
+Second, the court evaluates whether the state law claims are based on “requirements with respect
+to the device that are ‘different from, or in addition to,’ the federal ones, and that relate to safety
+and effectiveness.” Riegel, 552 U.S. at 321-22 (quoting § 360k(a)). If they are, the state law claim
+is preempted. See id.
+However, courts have concluded that so- called “parallel” state law claims are not
+preempted by § 360k(a). Id.  at 330. A state law claim is “parallel” if it “provid[es] a damages
+remedy . . . premised on a violation of FDA regulations.” Id.  Put more simply, plaintiffs may use
+the LPLA or any other state law as a legal mechanism to seek recovery for violations of FDA
+regulations that rendered the device at issue “unreasonably dangerous” and ultimately caused them
+harm. See Reddick v. Medtronic, Inc., No. 21 -30169, 2022 WL 715494, at *3 (5th Cir. Mar. 9,
+2022); Scianneaux v. St. Jude Medical S.C., Inc., 961 F.Supp.2d 808, 812 (E.D. La. 2013); Parra
+v. Coloplast Corp., No. CV 16-14696, 2017 WL 24794, at *3 (E.D. La. Jan. 3, 2017).
+Even if a state law claim is sufficiently parallel in that it alleges liability based on a
+defendant’s failure to comply with FDA -imposed requirements, a district court may still dismiss
+it if the claim is “impermissibly conclusory and vague.” Funk v. Stryker Corp., 631 F.3d 777, 782
+(5th Cir. 2011). A complaint is insufficient to state a “parallel” products liability claim where it
+does not “specify the manufacturing defect,” “specify a causal connection between the failure of
+the specific manufacturing process and the specific defect in the process that caused the personal
+injury,” or “tell us how the manufacturing process failed, or how it deviated from the FDA
+approved manufacturing process.” Id. at 782. Similarly, in  Naquin v. Medtronic, Inc., the Fifth
+Circuit affirmed the district court’s dismissal of claims for design defect, construction defect,
+Case 2:25-cv-00405-EEF-DPC     Document 37     Filed 05/29/25     Page 12 of 19
+13
+failure to warn, and breach of express warranty due to inadequate pleading. No. 20- 30793, 2021
+WL 4848838, at *3 (5th Cir. Oct. 18, 2021). The complaint in that case only “ma[de] numerous
+conclusory allegations . . . [without] details as to how a violation of federal regulations” led to a
+manufacturing defect, a design defect, or an inadequate warning.
+i. Mr. Doucet’s State Law Claims Are Expressly Preempted, But He
+May Amend to State Parallel Claims.
+
+In the present motion, Defendants Abbott and St. Jude submit that this Court should take
+judicial notice that the DRG Stimulator at issue here is a Class III medical device that went through
+premarket approval before the FDA. R. Doc. 10. As such, it takes the position that § 360k(a)’s
+express preemption clause is applicable to all of Mr. Doucet’s state law claims. More specifically,
+it argues that because Mr. Doucet’s claims explicitly relate to safety and effectiveness and would
+require the device to use a different design, different warnings, or a different manufacturing
+process than the ones the FDA required through the PMA process, they would impose “different
+or additional” state law requirements and thus are expressly preempted. In opposition, Mr. Doucet
+asserts that “the LPLA duty is parallel to the duty imposed by federal PMA requirements, and thus,
+the DRG System’s marketing and manufacturing implicate relevant laws that are federal in
+nature.” Alternatively, Mr. Doucet requests leave to amend in the event that he has not sufficiently
+pled “parallel claims.”
+After considering the applicable case law, the Court reaches the inescapable conclusion
+that Mr. Doucet’s state law claims are expressly preempted by § 360k(a) for the following reasons.
+Preliminarily, the Court notes that under a 12(b)(6) analysis, it is typically bound to the allegations
+made in a plaintiff’s complaint on a motion to dismiss. This is troublesome for purposes of a
+preemption analysis because Mr. Doucet notably does not state that the DRG Stimulator is a Class
+III medical device subject to the MDA anywhere in his petition. Federal Rule of Evidence 201,
+Case 2:25-cv-00405-EEF-DPC     Document 37     Filed 05/29/25     Page 13 of 19
+14
+however, permits a court to take judicial notice of an adjudicative fact “not subject to reasonable
+dispute” because the fact is either: “(1) [] generally known within the trial court’s territorial
+jurisdiction; or (2) can be accurately and readily determined from sources whose accuracy cannot
+reasonably be questioned.” Fed. R. Evid. 201(b); see also Davis v. Toyota Motor Sales , No. 14-
+683, 2015 WL 3456656, at *7 (M.D. La. May 29, 2015). Applying that rule to the present case,
+the Court will take judicial notice of the fact that the DRG Stimulator was approved by the FDA
+vis-à-vis the PMA process and received Class III status. The FDA documentation provided by
+Abbott and St. Jude in support bears sufficient indicia of reliability, such that its consideration at
+this stage in the proceedings is fair as to all the parties. Indeed, other courts routinely take judicial
+notice of PMA approval letters for Class III medical devices when deciding preemption issues at
+the motion to dismiss stage. See, e.g., Funk, 631 F.3d at 782-83 (finding that the district court took
+appropriate judicial notice of a PMA approval letter); Gavin v. Medtronic, Inc., No. 12-0851, 2013
+WL 3791612, at *2-3, *35-37 (E.D. La. July 19, 2013) (taking judicial notice of Class III medical
+device’s FDA approval documents);  Rollins v. St. Jude Medical, 583 F.Supp.2d 790, 805 (WD.
+La. 2008) (stating that a court “may take judicial notice of and consider the public records of the
+FDA ... without transforming a [motion to dismiss] into a motion for summary judgment.”).
+With no dispute then that the DRG Stimulator at issue here is a Class III medical device,
+whether preemption applies pursuant § 360k(a) of the MDA becomes a straightforward inquiry.
+Given Class III medical devices automatically satisfy the first prong of the Riegel test, the pivotal
+question is to what extent Mr. Doucet’s state law claims create requirements “different from, or in
+addition to” the relevant FDA requirements. On similar facts to those presently before the Court
+in this case, the Fifth Circuit and other courts have consistently held that generically -pled LPLA
+and other redhibition claims premised upon substantive Louisiana law alone  do not pass muster
+Case 2:25-cv-00405-EEF-DPC     Document 37     Filed 05/29/25     Page 14 of 19
+15
+under the Riegel  test and thus are expressly preempted under § 360k(a) because they impose
+“requirement[s]” that related to the “safety and effectiveness” of a device that has already been
+approved by the FDA. Rodriguez v. Am. Med. Sys., Inc., 597 F. App’x 226, 229 (5th Cir. 2014)
+(affirming district court’s dismissal of complaint involving Class III medical device on preemption
+grounds); Greene v. Nevro Corp., No. 23-CV-1648-JWD-RLB, 2025 WL 369682, at *7 (M.D. La.
+Jan. 31, 2025) (dismissing plaintiff’s LP LA claims involving a spinal stimulator on preemption
+grounds); Parra v. Coloplast Corp., No. CV 16- 14696, 2017 WL 24794, at *4 (E.D. La. Jan. 3,
+2017) (dismissing plaintiff’s LPLA claims on preemption). Reddick v. Medtronic, Inc., 2022 WL
+715494, at *3 (affirming dismissal of LPLA claims because “all four claims impose requirements
+that relate to the safety and effectiveness of the device”); Gavin, 2013 WL 3791612, at *15
+(dismissing plaintiff’s state law inadequate warning, strict liability and negligence , redhibition,
+and warranty claims as preempted). Accordingly, the Court finds that it is well -settled law the
+MDA expressly preempts Mr. Doucet’s claims, making them ripe for dismissal.1
+But as the Court noted previously, the Fifth Circuit has opened the door to “parallel”
+claims––state law claims for damages “premised on a violation of FDA regulations.” See,
+e.g., Rodriguez, 597 F. App’x at 228 (“Section 360k does not prevent a State from providing a
+damages remedy for claims premised on a violation of FDA regulations; the state duties in such a
+case ‘parallel,’ rather than add to, federal requirements.”); Gomez, 442 F.3d at 932 (“[A] lawsuit
+that simply parallels or enforces the federal regulatory requirements without ‘threatening’ or
+interfering with them is not preempted.”). The problem here though is that Mr. Doucet’s state law
+
+1  Alternatively, Abbott and St. Jude contend that Mr. Doucet’s state law claims are impliedly preempted by the
+MDA. The basis of their argument is that in enacting the FDCA, Congress declined to create a private cause of action
+and required that any action to enforce the FDCA “shall be by and in the name of the United States,” thus mandating
+that the FDCA and its implementing regulations  be “enforced exclusively by the Federal Government. 21 U.S.C. §
+337(a); Buckman v. Plaintiffs’ Legal Comm., 531 U.S. 341, 352 (2001). However, the Court need not reach this issue
+because the express preemption provision under § 360k(a) plainly applies to the present facts as clarified by the
+aforementioned case law.
+Case 2:25-cv-00405-EEF-DPC     Document 37     Filed 05/29/25     Page 15 of 19
+16
+claims cannot be considered “parallel” as pled because he does not explicitly allege any violations
+of FDA regulations. Instead, his petition merely states generic allegations that the DRG Stimulator
+is defective without mention of the FDA or any specific requirements applicable to device that
+were imposed per the PMA process.
+Rather than dismissing this case outright, however, the Court will give Mr. Doucet an
+opportunity to amend his petition in order to properly plead “parallel” claims. This outcome
+comports with this Court’s prior decisions under similar facts involving preemption under the
+MDA. Cenac v. Hubbell, No. 09-3686, 2010 WL 4174573, at *3 (E.D. La. Oct. 21, 2010) (granting
+plaintiff two opportunities to amend and clarify her parallel claim); Bush v. Thoratec Corp., 837
+F. Supp. 2d 603, 609 (2011) (granting plaintiff leave to amend the complaint to attempt to “thread
+the needle” and state a cognizable parallel claim). For example, in Chiasson v. Medtronic Inc, the
+plaintiffs sued a manufacturer of a Class III medical device and brought three causes of action
+under the LPLA and a redhibition claim, which were all clearly preempted by the MDA. No. CV
+16-3552, 2016 WL 4191837, at *4 (E.D. La. Aug. 9, 2016). But t he court ultimately decided not
+to dismiss their claims and instead held:
+Because of the complex nature of this area of law and in the interest
+of justice, this Court has given plaintiffs in similar cases an
+opportunity to amend their complaints to clarify the parallel claim,
+specifically to plead a violation of state law, a parallel violation of a
+federal regulation, and the connection between that violation and the
+Plaintiff’s injury.
+
+Id. With this case law in mind, the Court in this instance will not depart from its prior reasoning
+and gives Mr. Doucet a chance to plead claims that can survive preemption. Mr. Doucet must be
+sure to plead his parallel claims with specificity––particularly the federal regulation that he alleges
+Case 2:25-cv-00405-EEF-DPC     Document 37     Filed 05/29/25     Page 16 of 19
+17
+Abbott and St. Jude breached; the parallel state claim; and its causal nexus to his injuries. Id.
+Should he fail to do so, Defendants may re-raise their motion to dismiss on preemption grounds.2
+b. The Court Will Not Dismiss Mr. Doucet’s LPLA Claims on the Basis of
+Prescription at This Stage in the Proceedings.
+
+ Lastly, Abbott and St. Jude argue in the alternative that Mr. Doucet’s LPLA claims should
+be dismissed on the basis of prescription. A federal court sitting in diversity must apply state law
+to issues of prescription. Calhoun v. Ford, 625 F.2d 576, 577 (5th Cir. 1980); see also Mullen v.
+Sears, Roebuck, & Co., 887 F.2d 615 (5th Cir. 1989) (holding that Louisiana Civil Code articles
+regarding prescription apply in a removed diversity case). It is undisputed that Mr. Doucet’s four
+products liability claims are governed by the Louisiana Products Liability Act. Delictual actions,
+such as those found in the LPLA, are subject to a prescriptive period of one year under Article
+3492 of the Louisiana Civil Code. “[The prescription of delictual actions] commences to run from
+the day injury or damage is sustained.” La. Civ. Code Ann. art. 3492 (2016). In Louisiana, damages
+are considered sustained “only when [the damage] has manifested itself with sufficient certainty
+to support accrual of a cause of action.” Cole v. Celotex Corp., 620 So.2d 1154, 1156 (La.
+1993) (citing McCray v. New England Ins. Co., 579, So.2d 1156 (La. App. 2 Cir. 1991)).
+Here, Abbott and St. Jude contend that Mr. Doucet’s LPLA claims arose in October of
+2023 when he began experiencing irritation at the DRG Stimulator implant site. Mr. Doucet would
+thus have had until October 2024 to file his claims under the applicable one-year prescriptive
+period. His state court petition, however, was filed on January 13, 2025. In opposition, Mr. Doucet
+argues that prescription began to run on January 16, 2024 when Abbott informed him that the DRG
+Stimulator had been recalled, which would make his January 13, 2025 filing timely.
+
+2  Because Abbott and St. Jude’s arguments based on the exclusivity of LPLA claims and an alleged failure to
+satisfy federal pleading standards are necessarily related to the preemption question, the Court will reserve any ruling
+on these issues until Mr. Doucet properly pleads a cognizable parallel claim.
+Case 2:25-cv-00405-EEF-DPC     Document 37     Filed 05/29/25     Page 17 of 19
+18
+Considering the applicable standard under a 12(b)(6) motion, the Court is required to
+construe all factual allegations contained in the petition and draw all reasonable inferences in the
+light most favorable to Mr. Doucet. Baker v. Putnal, 75 F.3d 190, 196 (5th Cir. 1996). As such,
+the Court must presume at this time that Mr. Doucet’s LPLA claims arose on January 16, 2024––
+the date he was informed of the recall as alleged. To be clear, Mr. Doucet’s claims may very indeed
+well be prescribed, but the facts presented on the face of the petition are sufficient to entitle the
+parties to discovery. Mr. Doucet notably had several post -operative discussions with his doctor
+about the DRG Stimulator leading up to the purported complications. Without discovering the
+content of these interactions, the Court finds that Abbott and St. Jude cannot present sufficient
+evidence to foreclose Mr. Doucet’s claims as a matter of law. Chiasson, 2016 WL 4191837, at *6
+(denying defendant’s prescription argument on a 12(b)(6) because “the accrual of a cause of action
+and the reasonableness of delay in filing suit often hinge on the testimony of the plaintiff and his
+or her doctor); see also Guidry v. Aventis Pharmaceuticals, Inc., 418 F. Supp. 2d 835 (M.D. La.
+2006). However, after the parties have had an opportunity to discover such matters, Abbott and St.
+Jude may re-raise their prescription argument.
+IV. CONCLUSION
+ For the foregoing reasons;
+ IT IS HEREBY ORDERED that Abbott’s Motion to Dismiss for Lack of Personal
+Jurisdiction, R. Doc. 11, is DENIED.
+ IT IS FURTHER ORDERED that Abbott and St. Jude’s Motion to Dismiss for Failure to
+State a Claim, R. Doc. 9, is DENIED without prejudice. This Court will grant Mr. Doucet leave to
+amend his petition as explained above. He will have 30 days from the issuance of this Order to file his
+amended complaint. Failure to do so will result in the dismissal of his case.
+Case 2:25-cv-00405-EEF-DPC     Document 37     Filed 05/29/25     Page 18 of 19
+19
+ New Orleans, Louisiana on this 29th day of May, 2025.
+
+Case 2:25-cv-00405-EEF-DPC     Document 37     Filed 05/29/25     Page 19 of 19
