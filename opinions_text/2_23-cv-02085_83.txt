@@ -1,0 +1,878 @@
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+STEWART DEVELOPMENT, LLC CIVIL ACTION
+VERSUS NO. 23-2085
+111 VETERANS BOULEVARD, LLC   SECTION “O”
+ORDER AND REASONS
+Before the Court are cross motions for summary judgment. Plaintiff Stewart
+Development, LLC (“Stewart”) seeks summary judgment 1 on its request for
+declaratory judgment on liability, its breach-of-contract claim, and its claim under
+the Louisiana Unfair Trade Practice and Consumer Protection Act (“ LUTPA”).
+Defendant 111 Veterans seeks partial summary judgment 2 as to the interpretation
+of Section 3(g) of the Fourth Amendment of the Ground Lease between Stewart and
+111 Veterans —the contract  provision underlying this dispute . The Court has
+considered both summary-judgment motions and the summary-judgment record, and
+hereby denies both motions. But the Court finds , consistent with Stewart’s
+contention, that  there is no genuine dispute of material fact that the phrase “if
+reasonably obtainable” in Section 3(g) modifies all types of insurance listed in Section
+3(g), not just flood insurance. This fact will be treated as established in the case.
+
+1 ECF No. 41.
+2 ECF No. 43.
+Case 2:23-cv-02085-BSL-EJD     Document 83     Filed 11/15/24     Page 1 of 31
+2
+
+I.  BACKGROUND
+This case arises from a dispute regarding the insurance provisions of a ground
+lease.3 Stewart is the owner, developer, and builder of Heritage Plaza (“the building”),
+an office tower located at 111 Veterans Blvd in Metairie, Louisiana .4 Stewart leases
+space in the building to a variety of tenants including law firms, medical practices,
+and a restaurant. 5 Although Stewart owns the building , since 1980 Stewart has
+leased the land on which Heritage Plaza sits pursuant to a ground lease.6
+In 2003, Stewart obtained a commercial loan backed by the building .7 As a
+condition of the loan, Stewart’s lender required Stewart (as lessee) and the existing
+lessor to amend the ground lease to include a provision requiring Stewart to maintain
+certain levels of insurance  on the building .8 Under the amendment, enacted as the
+“Fourth Amendment of the Ground Lease,” Stewart and the lender were named loss
+payees who would receive insurance proceeds in the event of damage to the building.9
+Because the ground lessor had no ownership interest in the building, the lessor would
+receive no insurance proceeds in the event of a loss.10
+In 2017, 111 Veterans acquired the land on which Heritage Plaza sits, and thus
+assumed the obligations of the lessor pursuant to the ground lease.11 111 Veterans is
+
+3 ECF No. 1.
+4 ECF No. 1 at 2 ¶ 5. Heritage Plaza is a 19-story Class A office building encompassing 353,000
+rentable square feet. Id. at 3 ¶ 8.
+5 Id.
+6 Id. at 2 ¶ 5; ECF No. 41-2 at 2–3; ECF No. 41-2 at 32–40 (Fourth Amendment of the Ground
+Lease).
+7 ECF No. 41-2 at 5.
+8 Id. at 5–7, 25; ECF No. 41-2 at 32–40 (Fourth Amendment of the Ground Lease).
+9 ECF No. 41-2 at 32–40 (Fourth Amendment of the Ground Lease).
+10 Id.; ECF No. 41-3 at 7.
+11 ECF No. 41-3 at 5, 15, 104–114.
+Case 2:23-cv-02085-BSL-EJD     Document 83     Filed 11/15/24     Page 2 of 31
+3
+
+part of the Feil Organizatio n (“Feil”), a New -York based company that owns and
+manages commercial and residential properties in metropolitan areas across the
+country, including New Orleans. 12 Feil affiliates own the only other Class A office
+buildings in Metairie: the Lakeway Center  and Galleria.13 Heritage Plaza has been
+the only non-Feil Class A building in the Metairie commercial market since 2013.14
+In 2022, several years after 111 Veterans took over the ground lease,  Stewart
+listed Heritage Plaza for sale. 15 111 Veterans expressed interest in buying the
+building from Stewart. 16 During purchase negotiations, the parties executed a
+confidentiality agreement.17 This agreement stated that 111 Veterans would receive
+and keep confidential certain information for pu rposes of vetting the potential
+purchase.18 Subject to the agreement, Stewart provided 111 Veterans with sensitive
+materials, including the fact that Stewart’s commercial loan was set to expire in April
+2023, and Stewart’s “rent rolls.”19 The rent rolls included information on the Heritage
+Plaza’s tenants, their rental rates, and lease expirations.20 Emails show that, shortly
+after receiving Stewart’s rent rolls, Feil sent the rent rolls to its New Orleans-based
+
+12 Id. at 2.
+13 Id. at 5; ECF No. 45-4 at 15.
+14 ECF No. 45-4 at 15. The Lakeway Center is a three-building complex. Id. at 4; ECF No. 41-
+2 at 18.
+15 ECF No. 41-3 at 42. Stewart hired Evan Stone of Goodwin Advisors to market the building
+for sale. ECF No. 41-2 at 22; ECF No. 41-5.
+16 ECF No. 41-3 at 88.
+17 Id. at 121–130.
+18 Id.
+19 ECF No. 41-3 at 131–225; ECF No. 41-3 at 90–94.
+20 Id.
+Case 2:23-cv-02085-BSL-EJD     Document 83     Filed 11/15/24     Page 3 of 31
+4
+
+commercial property broker, Corporate Realty, with instructions to steal Stewart’s
+tenants.21
+Ultimately, purchase negotiations between Stewart and 111 Veter ans fell
+through.22 The parties could not agree on a price, and 111 Veterans did not make an
+offer to purchase Heritage Plaza.23
+On March 16, 2023, not long after negotiations failed , 111 Veterans sent a
+default letter to Stewart.24 The letter claimed Stewart had violated the ground lease
+by failing to maintain insurance coverage on the building and insurance deductibles
+in amounts required by Section 3(g) of the Fourth Amendment to the Ground Lease.25
+Stewart argues that 111 Veterans’ objective was to acquire Heritage Plaza and
+thereby reduce 111 Veterans’ competition in the Metairie office market by (1)
+manufacturing Stewart’s breach of the lease, lead ing to Stewart’s eviction , or (2)
+inflicting financial harm on Stewart so Stewart would be unable to refinance  its
+commercial loan, giving 111 Veterans the opportunity to purchase the building for a
+reduced price.26
+
+21 ECF No. 41-3 at 272; ECF No. 43-3 at 91.
+22 ECF No 41-3 at 59.
+23 Id.
+24 ECF No. 41-3 at 230–31.
+25 Id. As discussed further below,  111 Veterans’ default letter to Stewart state d that the
+replacement cost of the building wa s $123,000,000 and that Stewart wa s obligated to maintain
+$110,700,000 in insurance (accounting for a physical depreciation o f 10%) along with a $10,000
+deductible for property insurance  under Section 3(g). Id. 111 Veterans alleges that, because Stewart
+maintained $40 million in property insurance and a deductible exceeding $ 10,000, Stewart had
+breached the ground lease and was in default. Id.
+26 ECF No. 41-1 at 1, 5.
+Case 2:23-cv-02085-BSL-EJD     Document 83     Filed 11/15/24     Page 4 of 31
+5
+
+On June 15, 2023, Stewart filed this lawsuit requesting a declaratory judgment
+and damages. 27 Stewart seeks a declaratory judgment that (1) the amount of
+insurance demanded by 111 Veterans pursuant to Section 3(g) is not “reasonably
+obtainable”; (2) “the previous limits of ins urance” obtained by Stewart before 2023
+“were reasonably obtainable  and did not result in a breach of the Ground Lease
+because Stewart acted in good faith,  obtained insurance that was reasonably
+obtainable and economically sustainable and  which protected t he interest of [111
+Veterans]”; (3) “the failure to obtain the limits of insurance demanded by [111
+Veterans was] not a breach” and “ thus as long as the prior limits are in  place, [111
+Veterans] can take no action to dissolve the Ground Lease, or evict or take  other
+adverse action against Stewart”; (4) “[111 Veterans] is estopped from or has waived
+any objection to the insurance limits obtained by Stewart,” and alternatively “through
+its course of conduct in not objecting [h]as modified the  Ground Lease”; and (5) “the
+added coverage acquired by [Stewart] was unnecessary and Stewart can terminate
+the policy at will and will not be forced to continue or renew such added coverage in
+the future.”28 Stewart also seeks damages based on 111 Veterans’ alleg ed bad-faith
+breach of contract and 111 Veterans’ alleged violation of LUTPA.29 111 Veterans filed
+
+27 ECF No. 1.
+28 Id. at 24–25. In his November 21, 2023 Order & Reasons, Judge Lance M. Africk granted in
+part and denied in part 111 Veterans’ Rule 12(b)(6) motion to dismiss. ECF No. 13. The motion was
+granted as to Stewart’s declaratory judgment claim regarding waiver, a part of number (4) above, but
+denied as to Stewart’s other declaratory judgment claims, including Stewart’s claim that the ground
+lease was modified through 111 Veterans’ course of conduct in not objecting to Stewart’s insurance
+coverage. Id. at 11–15, 17–18. This case was transferred from Section “I” to Section “O” in December
+2023. ECF No. 20.
+29 ECF No. 1 at  19–25 ¶¶ 6 0–77. Judge Africk’s November 21, 2023 order denied 12(b)(6)
+dismissal of Stewart’s breach of contract and LUTPA claims, but granted the dismissal o f Stewart’s
+claim for detrimental reliance. ECF No. 13 at 18.
+Case 2:23-cv-02085-BSL-EJD     Document 83     Filed 11/15/24     Page 5 of 31
+6
+
+a counterclaim seeking declaratory judgment against Stewart that Stewart breached
+its obligations under Section 3(g).30
+This matter is scheduled for a bench trial on November 18, 2024.31
+II.  LEGAL STANDARD
+Summary judgment is appropriate “if the movant shows that there is no
+genuine dispute of material fact and the movant is entitled to judgment as a matter
+of law.” FED. R. CIV. P. 56(a). “A dispute is genuine if ‘the evidence is such that a
+reasonable jury could return a verdict for the nonmoving party.’” Perry v. VHS San
+Antonio Partners, L.L.C ., 990 F.3d 918, 926 (5th Cir. 2021) (quoting Anderson v.
+Liberty Lobby, Inc., 477 U.S. 242, 248 (1986)). “A fact is material if it ‘might affect the
+outcome of the suit.’” Id. (quoting Anderson, 477 U.S. at 248).
+[A] party seeking summary judgment always bears the initial
+responsibility of informing the district court of the basi s for its motion,
+and identifying those portions of the pleadings, depositions, answers to
+interrogatories, and admissions on file, together with the affidavits, if
+any, which it believes demonstrate the absence of a genuine issue of
+material fact.
+
+Celotex Corp. v. Catrett, 477 U.S. 317, 323 (1986) (internal quotations omitted).
+“In reviewing the record, ‘the [C]ourt must draw all reasonable inferences in
+favor of the nonmoving party, and it may not make credibility determinations or
+weigh the evidence.’” Vote.Org v. Callanen, 89 F.4th 459, 469 (5th Cir. 2023) (quoting
+Reeves v. Sanderson Plumbing Prods., Inc. , 530 U.S. 133, 150 (2000)). The Court
+“resolve[s] factual controversies in favor of the nonmoving party, but only where there
+
+30 ECF No. 15 at 21.
+31 ECF No. 60.
+Case 2:23-cv-02085-BSL-EJD     Document 83     Filed 11/15/24     Page 6 of 31
+7
+
+is an actual controvers y, that is, when both parties have submitted evidence of
+contradictory facts.” Antoine v. First Student, Inc., 713 F.3d 824, 830 (5th Cir. 2013)
+(quoting Boudreaux v. Swift Transp. Co. , 402 F.3d 536, 540 (5th Cir. 2005)). And
+“[w]hen parties file cross -motions for summary judgment, [the court]  reviews each
+party’s motion independently, viewing the evidence and inferences in the light most
+favorable to the nonmoving party.” Cooley v. Hous. Auth. of Slidell, 747 F.3d 295, 298
+(5th Cir. 2014) (internal quotations and citation omitted).
+In a non-jury case like this, “a district court has somewhat greater discretion
+to consider what weight it will accord the evidence.” Johnson v. Diversicare Afton
+Oaks, LLC, 597 F.3d 673, 676 (5th Cir. 2010) (quo tation omitted). If a “[bench] trial
+on the merits will not enhance the court’s ability to draw inferences and conclusions,
+then a district court properly should draw his inferences without resort to the expense
+of trial.” Matter of Placid Oil Co. , 932 F.2d 394, 398 (5th Cir. 1991)  (quotation
+omitted); see also Adriatic Marine, LLC v. Harrington, 442 F. Supp. 3d 929, 935 (E.D.
+La. 2020). Of course, “a district court must be aware that assessments of credibility
+come into sharper focus once live witnesses ar e heard.” Placid Oil, 932 F.2d at 398.
+But “[w]hen deciding a motion for summary judgment prior to a bench trial, the
+district court has the limited discretion to decide that the same evidence, presented
+to him or her as a trier of fact in a plenary trial, could not possibly lead to a different
+result.” Johnson, 597 F.3d at 676 (internal quotations omitted).
+
+Case 2:23-cv-02085-BSL-EJD     Document 83     Filed 11/15/24     Page 7 of 31
+8
+
+III.  ANALYSIS
+Stewart is not entitled to summary judgment on its request for declaratory
+judgment, its breach -of-contract claim, or its LUTPA claim. However, Stewart has
+shown that its interpretation of Section 3(g) controls: that is, the phrase “if reasonably
+obtainable” limits both the flood and non-flood insurance requirements imposed upon
+Stewart. This will be treated as an established fact in this case. It follows that because
+no genuine issue of material fact exists as to Stewart’s interpretation of Section 3(g),
+111 Veterans’ countervailing motion for partial summary judgment is denied.
+A.  Interpretation of Section 3(g) of the Fourth Amendment of the Ground
+Lease
+
+Stewart and 111 Veterans both seek summary judgment on their contrary
+readings of Section 3(g) of the Fourth Amendment of the Ground Lease:
+Whichever party is required to maintain fire insurance on the
+improvements on the Demised Premises shall keep same insured with
+financially sound and reputable  insurance companies against loss or
+damage by fire, theft, lightning, windstorm, hail, explosion, riot and civil
+commotion, aircraft and vehicles, and smoke and such other casualties
+as are presently included in the so-called Extended Coverage
+Endorsement; and flood, if reasonably obtainable, in amounts
+sufficient to prevent the insured from becoming a co -insurer within the
+terms of the insurance policies covering such risks, but in any event in
+an amount not less than 100% of the actual replacement cost of such
+improvements (exclusive of excavation and foundation costs and costs of
+underground tanks, conduits, pipes, pilings and other similar
+underground items), less the actual physical depreciation thereof, and
+with not more than a $10,000 deductible from the loss payable for any
+particular occurrence.32
+
+32 ECF No. 41 -2 at 35– 36 ( Section 3(g) of the Fourth Amendment of the Ground Lease)
+(emphasis added).
+Case 2:23-cv-02085-BSL-EJD     Document 83     Filed 11/15/24     Page 8 of 31
+9
+
+Stewart argues that the phrase  “if reasonably obtainable” modifies all types of
+insurance—including fire, theft, lightning, windstorm, and the like —not just flood
+insurance.33 111 Veterans contends that “if reasonably obtainable” applies only to
+flood insurance.34
+Whether Stewart in fact breached the ground lease in 2023 depends in part on
+which of these interpretations controls. If Stewart ’s interpretation is correct, then
+Stewart was required to keep coverage levels at “100% of the actual replacement cost
+. . . less the actual physical depreciation replacement cost ,” and a deductible of not
+more than $10,000, for both flood and non-flood insurance only if such coverage was
+“reasonably obtainable. ”35 If 111 Veterans ’ interpretation  is correct, Stewart  was
+required to keep these coverage and deductible levels for non-flood insurance even if
+such coverage and deductibles were not reasonably obtainable.
+According to Stewart, 111 Veterans breached Section 3(g) by placing Stewart
+in default for failing to maintain these coverage and deductible levels .36 Stewart
+argues that 111 Veterans ignored or read out “if reasonably obtainable” from Section
+3(g) by insisting that Stewart maintain non-flood insurance levels that are not
+reasonably obtainable.37 111 Veterans contends that Stewart breached Section 3(g)
+by failing to procure insurance coverage for all non-flood risks at replacement cost, as
+they are required to do under Section 3(g).38
+
+33 ECF No. 41-1 at 12–13.
+34 ECF No. 43; ECF No. 45.
+35 ECF No. 41-2 at 35–36 (Section 3(g) of the Fourth Amendment of the Ground Lease)
+36 ECF No. 41-1 at 12–19.
+37 Id.
+38 ECF No. 45 at 19–21.
+Case 2:23-cv-02085-BSL-EJD     Document 83     Filed 11/15/24     Page 9 of 31
+10
+
+Both parties agree that f rom 2017 ( when 111 Veterans first assumed the
+ground lease) until 2021, Stewart maintained approximately $40 million of insurance
+coverage for the building, with deductibles over $10,000 for wind and named -storm
+coverage.39 Stewart claims that 111 Veterans accepted Stewart’s insurance coverage
+year-after-year and never questioned these amounts until it defaulted Stewart on
+March 16, 2023.40 At that time, according to Stewart, 111 Veterans claimed Stewart
+was in breach for failing to maintain over $110 million of casualty insurance coverage,
+the amount allegedly equal to the replacement cost of the building (less depreciation
+of 10%), as well as for having deductibles over $10,000. 41 111 Veterans does not
+dispute that 111 Veterans never raised the adequacy of Stewart’s insurance coverage
+before placing Stewart in default.42
+1. Plain Language of Section 3(g)
+The parties previously litigated the meaning of Section 3(g) before Judge
+Africk, who found the provision’s language to be “ambiguous.”43 In its Rule 12(b)(6)
+motion before Judge Africk, 111 Veterans argued that the placement of a semicolon
+before the words “and flood,” applying the last-antecedent rule, supported its reading
+that “if reasonably obtainable” applies only to flood insurance. 44 Stewart argued
+conversely—and maintains now —that the series -qualifier canon instructs that “if
+
+39 ECF No. 41-10 at 11; ECF No. 43-12–14.
+40 ECF No. 41-1 at 3-4.
+41 Id. at 8; ECF No. 41-3 at 230–31.
+42 Id. at 64; ECF Nos. 43, 45, 50.
+43 ECF No. 13 at 10.
+44 ECF No. 7-1 at 8–11. 111 Veterans appears to abandon this argument in its response to the
+motion for summary judgment, instead arguing that this section of Court should simply affirm Judge
+Africk’s finding that the plain language of Section 3(g) is ambiguous. ECF No. 45 at 15 –17.
+Case 2:23-cv-02085-BSL-EJD     Document 83     Filed 11/15/24     Page 10 of 31
+11
+
+reasonably obtainable” modifies all of the listed insurance types preceding the
+semicolon, not just flood insurance.45
+This Section of the Court agrees with Judge Africk’s determination that
+Section 3(g), on its face , is anything but “clear and explicit .”46 When interpreting a
+contract, the Court must first determine whether the language is “clear and explicit.”
+LA. CIV. CODE. ANN. art. 2046. In his November 21, 202 3 Order & Reasons, Judge
+Africk performed extensive analysis of the parties’ competing arguments and the
+interpretive rules upon which those arguments relied, and found that the language
+of Section 3(g) was simply ambiguous.47 Judge Africk noted that “[i]t is not clear from
+the text of Section 3(g) whether flood insurance is an integrated part of the series of
+different kinds of insurance, or a type of insurance set apart.”48 Neither the series-
+qualifier canon nor the last-antecedent rule resolves the ambiguity.
+2. Intent and Historical Meaning of Section 3(g)
+Because the contract’s language is ambiguous, the Court must then look
+beyond the language to clarify its meaning.  W hen a contract is  ambiguous, “the
+agreement shall be construed according to the intent of the parties” under Louisiana
+law. Guidry v. Am. Pub. Life Ins. Co. , 512 F.3d 177, 181 (5th Cir. 2007) ( internal
+quotations omitted). “Intent is an issue of fact which is to be inferred from all of the
+
+45 ECF No. 9 at 10; ECF No. 41-1 at 13–14.
+46 ECF No. 13 at 10.
+47 Id. at 9–10 (“As the clause is written, however, and at this early stage in the litigation, the
+Court cannot conclude based on the semicolon that the phrase ‘ reasonably obtainable’ modifies only
+the obligation to procure flood insurance based on the presence of a single semicolon in the sentence.”).
+Id. at 9.
+48 Id. at 10.
+Case 2:23-cv-02085-BSL-EJD     Document 83     Filed 11/15/24     Page 11 of 31
+12
+
+surrounding circumstances.” Id. (citing Kuswa & Assocs., Inc. v. Thibault Constr. Co.,
+463 So.2d 1264, 1266 (La. 1985)  (a ffirming that trial judge’s factual finding as to
+intent was reasonably inferred from the circumstances surrounding the contract and
+was adequately supported by credible evidence in the record). “[T]he intent of a party
+in entering into a contract can [also] be determined by how it  operates under the
+contract.” Total Minatome Co. v. Union Tx. Prods. Co. , 766 So.2d 685, 689–691 (La.
+Ct. App. 2d Cir. 2000) (“One of the best ways to determine what the parties intended
+in a contract is to examine the method in which the contract is performed, particularly
+if performance has been consistent for a period of many years.”). “A doubtful provision
+must be interpreted in light of . . . the conduct of the parties before and after the
+formation of the contract[.]” LA. CIV. CODE. ANN. art. 2053.
+Stewart contends that the intent of the parties  was for the phrase “if
+reasonably obtainable” to apply to all types of casualty insurance, not just flood .49
+Based on the history of the parties’ conduct under Section 3(g), the Court agrees.
+The Fourth Amendment of the Ground Lease, which contains Section 3(g), was
+enacted on April 10, 2003.50 The signatories to the Fourth Amendment of the Ground
+Lease were (1) the lessor and owner of the land under Heritage Plaza , “a trustee
+under the will of Margaret E. Lauer,” and (2) the lessee, Stewart.51 Stewart contends
+and 111 Veterans does not dispute that the amendment was drafted because Stewart
+
+49 ECF No. 41-1 at 15–16.
+50 ECF No. 41-2 at 32–40 (Fourth Amendment of the Ground Lease).
+51 Id. Stewart has leased the land under Heritage Plaza pursuant to a ground lease since 1980.
+Id.
+Case 2:23-cv-02085-BSL-EJD     Document 83     Filed 11/15/24     Page 12 of 31
+13
+
+was seeking a commercial loan.52 Stewart’s lender required the amendment to ensure
+both Stewart and the len der would receive  insurance proceeds in the event the
+building was damaged.53 Attorneys for Stewart, the trust, and the lender worked
+together “to come up with the fourth amendment to protect the lender.” 54 Under the
+amendment (and specifically, Section 3(g)), none of the insurance proceeds would flow
+to the ground lessor. 55 Thus, at the time the amendment was adopted in 2003, the
+existing lessor —111 Veterans’ predecessor under the agreement —had no direct
+financial interest in the insurance provision.56
+111 Veterans did not then become a party to the ground lease until it acquired
+the land in 2017.57 But in reviewing the record pre-2017, the Court sees no evidence
+that the lender or prior lessor required Stewart to maintain non-flood insurance
+coverage at replacement cost  levels . On the contrary, in 2013, the building was
+appraised at $40 million. 58 At that time, Stewart’s insurance broker ran a report
+indicating that the “insurable value (replacement cost)” of the building was nearly
+$50 million.59 Stewart’s lender, who had required the insurance language in Section
+3(g), explicitly approved Stewart to insure the building for its $40 million appraised
+value—even though that was nearly $10 million less than the building’s replacement
+
+52 ECF No. 41-1 at 2; ECF No. 41-2 at 5–6.
+53 Id. at 6–7.
+54 Id.
+55 ECF No. 41-2 at 32–40 (Fourth Amendment of the Ground Lease).
+56 Id.
+57 ECF No. 41-3 at 104–14.
+58 ECF No. 47-1 at 11.
+59 ECF No. 47-5 at 21.
+Case 2:23-cv-02085-BSL-EJD     Document 83     Filed 11/15/24     Page 13 of 31
+14
+
+cost.60 Thus, with the lender’s permission  in 2013, Stewart was able to maintain
+insurance coverage in amounts less than the building’s replacement cost.61
+111 Veterans argues that “private discussions” between Stewart and its lender
+in 2013 are not germane to the interpretation of Section 3(g) in 2023 .62 On the
+contrary, the performance of the parties before 111 Veterans assumed the ground
+lease is compelling evidence of the in tent of Section 3(g). That intent was to allow
+Stewart to maintain coverage limits less than the replacement value of the building—
+a practice that appears to have been acceptable to the prior lessor. 63 Significantly,
+when 111 Veterans assumed the ground lease in 2017, the prior lessor certified to 111
+Veterans that Stewart was in compliance with the g round lease, including Section
+3(g).64 111 Veterans accepted this certification.65
+Further contrary to 111 Veterans’ interpretation of Section 3(g), records reflect
+that neither the prior lessor nor 111 Veterans ever required a deductible of $10,000
+or less for non-flood insurance. Under 111 Veterans’ reading of Section 3(g), Stewart
+must maintain deductibles of not more than $10,000 for non -flood insurance even if
+those deductibles are not reasonably obtainable. 66 But insurance certificates show
+that, between 2013 and 2022, Stewart routinely carried deductibles well over $10,000
+
+60 ECF No. 41-2 at 14; ECF No. 47-5 at 13–15.
+61 Id.
+62 ECF No. 50 at 5.
+63 ECF No. 41-2 at 14; ECF No. 47-5 at 13–15.
+64 ECF No. 41-3 at 16–19, 107.
+65 Id.
+66 ECF Nos. 43, 45, 50.
+Case 2:23-cv-02085-BSL-EJD     Document 83     Filed 11/15/24     Page 14 of 31
+15
+
+for wind and named -storm coverage.67 For years , 111 Veterans received these
+certificates of insurance and never questioned Stewart’s compliance with Section
+3(g).68 Despite being on notice that Stewart maintained deductibles exceeding
+$10,000, 111 Veterans did not default Stewart until 2023 , conveniently at a time
+when 111 Veterans was considering purchasing the building.69 This suggests that the
+parties intended to read Section 3(g) consistent with Stewart’s interpretation: that a
+$10,000-or-less deductible for non -flood i nsurance was not a firm mandate, but
+required only “ if reasonably obtainable.” 70 This, in turn, supports Stewart’s
+interpretation of Section 3(g) that “if reasonably obtainable” applies to both flood and
+non-flood insurance coverage limits.
+111 Veterans  effectively ignores the history and pattern surrounding its
+acceptance of Stewart’s deductible  amounts, and instead focus es the Court on
+Stewart’s insurance coverage. 111 Veterans claims that it believed Stewart was
+maintaining insurance coverage at the replacement cost value every year until 2023,
+the year it defaulted Stewart. According to 111 Veterans, this belief was based on the
+certificates of insurance Stewart sent to 111 Veterans  each year between 2017 and
+
+67 ECF No. 43-8 at 2–4 (2013–2014); ECF No. 43-9 at 1 (2014–2015); ECF No. 43-10 at 1 (2015–
+2016); ECF No. 43- 11 at 1– 2 (2016–2017); ECF No. 41-3 at 115 (2017–2018); ECF No. 41- 10 at 11
+(2018–2019); ECF No. 41-3 at 116 (2019–2020); ECF No. 41-2 at 31 (2021–2022).
+68 ECF No. 41-3 at 34.
+69 Id. at 230–31.
+70 At the October 4, 2024, oral argument on these motions, 111 Veterans tried to justify not
+requiring deductibles of $10,000 or less between 2018 and 2022 by noting that such deductibles were
+“impossible” in the current insurance market. ECF No. 63. But 111 Veterans took a remarkably
+different stance in its March 2023 default letter, specifically citing Stewart’s failure to maintain
+deductibles of no more than $10,000 as a grounds for default, with no mention of the fact that such
+deductibles may have been impossible to obtain in the market. ECF No. 41- 3 at 230–31.
+Case 2:23-cv-02085-BSL-EJD     Document 83     Filed 11/15/24     Page 15 of 31
+16
+
+2022.71 The certificates showed that Stewart maintained casualty insurance coverage
+of approximately $40 million  from 2017 through 2021, 72 and almost $63 million in
+2021/2022.73 111 Veterans points out that the certificates themselves label these
+dollar values as “Building, Special (including theft) – Detail, Replacement Cost,”74
+suggesting the values reflect the replacement value of the building. And according to
+111 Veterans, because the certificates of insurance were the sole communications
+from Stewart regarding the building’s insurance coverage, 111 Veterans believed
+Stewart was insuring the building up to the replacement value as required by Section
+3(g).75
+But testimony from both parties’ insurance agents tells a different story.
+Anderson Baker, Stewart’s insurance agent,  explained that “replacement cost” as
+used in the certificates simply referred to how an underwriter or insurer would adjust
+a specific loss incident—meaning, a loss would be adjusted up to its replacement cost,
+not its actual cash value or depreciated value. 76 Baker was clear that the term
+“replacement cost” on the certificates was not the replacement value of the entire
+building.77 111 Veterans’ insurance expert agreed, confirming that “replacement cost”
+refers to how a specific loss incident is adjusted by an underwriter or insurer:
+
+71 ECF No. 41-3 at 115 (2017–2018); ECF No. 41- 10 at 11 (2018–2019); ECF No. 41- 3 at 116
+(2019–2020); ECF No. 41- 2 at 31 (2021– 2022). 111 Veterans’ corporate representative, Eric
+Lowenstein, stated that he believed the certificates were received and not reviewed, but that 111
+Veterans began asking questions about Stewart’s insurance in 2023. ECF No. 41- 3 at 34.
+72 ECF No. 41-3 at 115 (2017– 2018); ECF No. 41- 10 at 11 (2018–2019); ECF No. 41- 3 at 116
+(2019–2020).
+73 ECF No. 41-2 at 31 (2021–2022).
+74 ECF No. 43-1 at 13.
+75 Id.
+76 ECF No. 47-6 at 6.
+77 Id. at 6–7.
+Case 2:23-cv-02085-BSL-EJD     Document 83     Filed 11/15/24     Page 16 of 31
+17
+
+“Replacement cost is about the terms in which a loss would be adjusted as
+replacement cost versus actual cash value.”78
+Furthermore, 111 Veterans should have known the “replacement cost ” on the
+certificates was not the same as the actual replacement value of the building. In 2018,
+111 Veterans’ own insurance broker, Jason Provenz ano, ran a valuation r eport
+calculating the replacement value of Heritage Plaza to be  $80,187,954.79 That year,
+the insurance coverage, or “replacement cost,” on the certificate of insurance was $40
+million.80 T he Feil Organization would have had access to this valuation report,
+according to Provenzano.81 He explained that this report would “typically” be sent to
+Feil to “review the values and make sure [Feil] was in agreement .”82 And because
+requesting this valuation report is “generally the practice” when looking at a new
+property, Provenzano “assume[d]” that this report would have been  shared with
+Feil.83 The timing of Provenzano’s report, produced on February 22, 2018, indicates
+that 111 Veterans had notice as early as 2018 that there was a potential gap between
+Stewart’s insurance coverage and the replacement value of Heritage Plaza—which is
+consistent with Stewart’s reading of Section 3(g) that “if reasonably obtainable” was
+a condition placed on both flood and non-flood insurance requirements.84
+
+78 ECF No. 47-4 at 14–16.
+79 ECF No. 47 -7 at 22. This CoreLogic Valuation Report was based on the building’s
+reconstruction value. The report also lists “Broadwall Management” and Heritage Plaza under the
+“business” and “location” sections of the report. Broadwall Management is a subsidiary of Feil.
+80 ECF No. 41-3 at 115 (2017–2018); ECF No. 41-10 at 11 (2018–2019).
+81 ECF No. 47-7 at 6.
+82 Id.
+83 Id.
+84 111 Veterans contends that nothing in the record indicates that this valuation report was
+obtained or reviewed by Feil. ECF No. 50 at 9.
+Case 2:23-cv-02085-BSL-EJD     Document 83     Filed 11/15/24     Page 17 of 31
+18
+
+111 Veterans separately argues that the replacement value of the building was
+contained within a document called a “Statement of Values.” Baker, Stewart’s agent,
+described the Statement of Values as a “table listing the locations [and] the insured
+or to be insured values of the building [.]”85 The Statement of Values “is designed to
+tell the underwriter what his or her total might be on a par ticular account.” 86 Its
+purpose is to ensure “the values are accurate or what the insured wants to purchase
+insurance for.”87 Based on this description, which is uncontested by 111 Veterans,88
+the building value listed in the Statement of Values appears to be functionally
+equivalent to the “replacement cost” in the certificates of insurance—in other words,
+the insurance coverage on the building , not the actual replacement value of the
+building. In fact, 111 Veterans acknowledges that the building values in the
+Statement of Values were the same values reflected in the certificates of insurance.89
+Two Statement s of Values are included in the summary -judgment record,
+neither of which proves 111 Veterans’ contention that Stewart maintained insurance
+coverage at the building’s replacement value. First, i n 2013 Stewart’s insurance
+agency prepared a Statement of Values listing the building’s value at $40 million, as
+determined by the “replacement cost” valuation method .90 111 Veterans notes that
+this valu e is consistent with the “ replacement cost ” on that year’s certificate of
+
+85 ECF No. 47-6 at 2.
+86 Id.
+87 Id. at 3.
+88 ECF No. 50.
+89 ECF No. 43-1 at 14.
+90 ECF No. 43-7 at 8.
+Case 2:23-cv-02085-BSL-EJD     Document 83     Filed 11/15/24     Page 18 of 31
+19
+
+insurance.91 However, as noted above, $40 million was the appraised  value of the
+building in 2013 ; the actual replacement cost of the b uilding, as determined by
+Stewart’s insurance broker, was approximately $50 million. 92 Second, a 2021
+Statement of Values shows the total insured value of the building to be $62,952,212,
+which matches the “replacement cost” on the 2021/2022 certificate of insurance.93 But
+the 2021 Statement of Values makes no reference to “ replacement cost.” And even if
+the replacement value of the building in 2021 was $62,952,212 , matching the
+insurance coverage, this alone does not prove that Stewart was obligated  under
+Section 3(g) to maintain insurance coverage at the replacement value.
+111 Veterans goes further to claim that the 2022/2023 policy year was the first
+year that the replacement cost and insurance limits diverged.94 Indeed, the certificate
+of insurance for that year showed , for the first time,  the replacement cost (over $90
+million) exceeding the building’s coverage limits ($40 million).95 Not coincidentally,
+according to 111 Veterans, 2022/2023 was the policy year in which 111 Veterans
+defaulted Stewart.96
+But it is the very timing of the default  letter, in March 2023 , that further
+undermines 111 Veterans’ claim that Stewart failed to meet its insurance obligations
+under Section 3(g). For many years, Stewart and 111 Veterans had been competitors
+
+91 ECF No. 43-1 at 11–12.
+92 ECF No. 43-7 at 8.
+93 ECF No. 43-16.
+94 ECF No. 43-1 at 13.
+95 ECF No. 41-3 at 117, 119 (2022–2023).
+96 Id. at 230–31.
+Case 2:23-cv-02085-BSL-EJD     Document 83     Filed 11/15/24     Page 19 of 31
+20
+
+in the Metairie commercial real estate market. 97 In or around April 2022, Stewart
+shared with 111 Veterans that it was selling Heritage Plaza. 98 111 Veterans
+expressed interest in purchasing the building .99 I n May 2022 Stewart and 111
+Veterans entered into a confidentiality agreement, pursuant to which Stewart shared
+sensitive and confidential business information  with 111 Veterans. 100 The
+confidential information included its tenant rent rolls , as well as the fac t that
+Stewart’s loan on the building was set to expire in April 2023.101 Emails from within
+the Feil Organization show that, within days of receiving this information , Feil
+discussed leveraging the information to gain a competitive advan tage against
+Stewart and improve its own position in the Metairie commercial real estate
+market.102 111 Veterans’ default letter followed in March 2023.103 Importantly, prior
+to Stewart’s decision to sell the building , 111 Veterans never raised concerns about
+the adequacy of Stewart’s insurance coverage. 104 For many years 111 Veterans
+approved Stewart ’s coverage of approximately $40 million , with deductibles over
+$10,000, without raising an objection.105 It is dubious to say the least that 111
+Veterans would send the default letter to Stewart, citing its never-before-articulated
+interpretation of Section 3(g), at a time when 111 Veterans was in a position to gain
+a competitive advantage against Stewart by leveraging that interpretation.
+
+97 ECF No. 41-6 at 10.
+98 ECF No. 41-3 at 42.
+99 Id.
+100 ECF No. 41-3 at 121–130.
+101 Id. at 44–49, 90–94, 131–225.
+102 Id. at 272, 275, 281.
+103 Id. at 230–31.
+104 Id. at 34.
+105 Id.
+Case 2:23-cv-02085-BSL-EJD     Document 83     Filed 11/15/24     Page 20 of 31
+21
+
+Furthermore, 111 Veterans’ interpretation of Section 3(g) defies simple logic.
+At the time of Section 3(g)’s drafting, there would have been no obvious incentive for
+the ground lessor to limit “if reasonably obtainable” to Stewart’s flood insurance. If
+Stewart were forced to obtain exorbitant or “unreasonable” insurance coverage, it
+would struggle to maintain its obligations as a ground lessee ; this could undermine
+the viability of the contract. “Louisiana courts will not interpret a contract in a way
+that leads to unreasonable consequences or inequitable or absurd results even when
+the words used in the contract are fairly explicit.”  Richards Clearview, L.L.C. v.
+Target Corp., No. CIV.A. 03-1851, 2004 WL 241693, at *3 (E.D. La. Feb. 6, 2004). The
+Court finds that reading “if reasonably obtainable” with a limited application would
+lead to an “unreasonable consequence” and an “absurd result.” See In re Katrina
+Canal Breaches Litig., 495 F.3d 191, 218 (5th Cir. 2007) (declining to follow an
+interpretation of the word “flood” in a contract where that interpretation would lead
+to an absurd result).
+This is especially true considering the  volatility of the insurance market. The
+ground lease was enacted in 1980 for a 99- year period. 106 Over that time, it is
+reasonable to expect the local insurance market to fluctuate from hard (difficult to
+insure) to soft (easier to insure), and back again.107 Insurance limits and deductibles
+available in one year may not be available in another year ov er a lease term  of 99
+years.108 And it is logical that the original parties to Section 3(g) would have
+
+106 ECF No. 1-1 at 4.
+107 ECF No. 47-4 at 4–5.
+108 Id.
+Case 2:23-cv-02085-BSL-EJD     Document 83     Filed 11/15/24     Page 21 of 31
+22
+
+anticipated this volatility for both flood and non-flood insurance and, in the interest
+of preserving the lease, sought to limit Stewart’s insurance requi rements to what is
+“reasonably obtainable.”109
+Thus, after considering the record, the parties’ arguments, and applicable
+Louisiana law, the Court finds that Section 3(g) is ultimately not susceptible to more
+than one reasonable interpretation —Stewart’s reading is the correct one . The same
+evidence offered by the parties in summary judgment, presented to the Court as trier
+of fact in a trial, could not possibly lead to a different result . The Court finds the
+phrase “if reasonably obtainable” was meant to modify all  types of insurance listed
+in Section 3(g), not just flood insurance. This fact is not genuinely in dispute and will
+be treated as established in this case. See FED. R. CIV. P. 56(g).
+B. Stewart’s Claims for Declaratory Judgment
+
+Having determined the scope of Section 3(g) ’s insurance requirement , t he
+Court next considers whether Stewart is entitled to summary judgment on liability
+for declaratory judgment.110 Because there is a genuine dispute of material fact as to
+whether non- flood insurance was “reasonably obtainable” at the time of default ,
+summary judgment is not appropriate on Stewart’s claim for declaratory judgment.
+
+109 111 Veterans contends that non-flood insurance at replacement value was generally
+available in 2003, but the availability of flood insurance at replacement value pre -Katrina was
+“murkier.” ECF No. 43-1 at 8–10. 111 Veterans further reasons that these market conditions explain
+why the original parties to Section 3(g) would have required replacement value limits for  non-flood
+insurance, but not for flood insurance. Id . This is pure speculation. There is no evidence that in 2003
+Stewart, its lender, and the prior lessor all intended to treat flood insurance differently and impose an
+obligation on Stewart to maintain non-flood insurance in amounts that are unreasonable to obtain.
+110 ECF No. 1 at 18. In its motion for summary judgment, Stewart notes that it is seeking
+summary judgment on liability only and requests that damages be reserved for trial. ECF No. 41-1 at
+25.
+Case 2:23-cv-02085-BSL-EJD     Document 83     Filed 11/15/24     Page 22 of 31
+23
+
+Stewart seeks declaratory judgment on his claims that ( 1) the amount of
+insurance demanded by 111 Veterans is not “reasonably obtainable”; (2) “the previous
+limits of insurance obtained by Stewart were reasonably obtainable”  and did not
+result in a breach because “Stewart acted in good faith, obtained insurance that was
+reasonably obtainable and economically sustainable and which protected the interest
+of [111 Veterans]”; (3) “the failure to obtain the limits of insurance demanded by [111
+Veterans was] not a breach and such limits were not enforceable,” and “as long as the
+prior limits are in place, [111 Veterans] can take no action to dissolve the G round
+Lease, or evict or take other adverse action against Stewart” as to Section 3(g);  (4)
+“through its course of conduct in not objecting [, 111 Veterans] [h]as modified the
+Ground Lease”; and (5) “the added coverage acquired by [Stewart] was unnecessary
+and Stewart can terminate the policy at will and will not be forced to continue or
+renew such added coverage in the future.” 111 To determine whether Stewart is
+entitled to summary judgment on these declarations, the Court must consider, as a
+starting point, whether non-flood insurance coverage at replacement cost levels was
+in fact reasonably obtainable both before and at the time of default in 2023.
+The parties disagree on this question. Stewart points to testimony from
+Anderson Baker, Stewart’s insurance broker, that he sought coverage of
+approximately $110 million for Heritage Plaza from mutiple underwriters and
+brokers in 2023, and that these limits were unavailable.112 Baker also stated that no
+
+111 ECF No. 1 at 24–25.
+112 ECF No. 41-9 at 4–5.
+Case 2:23-cv-02085-BSL-EJD     Document 83     Filed 11/15/24     Page 23 of 31
+24
+
+similarly-insured building was able to obtain such limits on a single building. 113
+Similarly, Stewart claims that 111 Veterans’ insurance broker was unable to find
+insurance coverage for the building in 2023 even up to the $40 million Stewart
+already had in place. 114 111 Veterans disagrees, noting that its insurance expert,
+Timothy Gold, has opined that “all other perils” coverage at full replacement cost was
+available at a reasonable cost.115 Moreover, 111 Veterans points out that, in Stewart’s
+own complaint, Stewart acknowledges that “[t]he additional premium to increase the
+Loss Limit t o $110,700,000 would have been at least $500,000 and probably closer
+$1,000,000 with no benefit to Lender, Ground Lessor or Stewart. ”116 Whether such
+additional premium is reasonable or unreasonable has not been established through
+summary-judgment evidence.
+Given the factual disagreement, the  Court will be in a better position at trial
+to consider the replacement cost of Heritage Plaza, what types and levels of insurance
+coverage were reasonably available to Stewart before and as of March 16, 2003, and
+the costs of that coverage. In turn t his will allow the Court to evaluate Stewart’s
+claims for declaratory judgment, including whether the insurance demanded by 111
+Veterans was reasonably obtainable, whether Stewart’s failure to obtain those limits
+was a breach of the ground lease, whether 111 Veterans’ alleged failure to object to
+Stewart’s insurance coverage amounted to a contract modification, and whether
+
+113 Id. at 5.
+114 ECF No. 41-8 at 24–26.
+115 ECF No. 45-33 at 4–5 (“Special form, replacement cost, full limits property terms for perils
+other than flood and wind are available at a reasonable market cost.”)
+116 ECF No. 1 at 15 ¶ 49.
+Case 2:23-cv-02085-BSL-EJD     Document 83     Filed 11/15/24     Page 24 of 31
+25
+
+Stewart’s captive cell policy was unnecessary and otherwise compliant with Section
+3(g). For these reasons, summary judgment on Stewart’s declaratory judgment claims
+is inappropriate.
+C. Stewart’s Breach-of-Contract Claim
+
+Stewart argues that 111 Veterans breached Section 3(g) by defaulting Stewart
+for failing to maintain insurance coverage that 111 Veterans knew was “impossible ”
+to obtain.117 111 Veterans rejoins that “substantial evidence” exists that Stewart was
+indeed in default of Section 3(g) given the reasonable obtainability of non -flood
+insurance, specifically “all other perils” coverage.118 As previously discussed, there is
+a genuine issue of material fact as to whether such coverage was reasonably
+obtainable. If coverage was reasonably obtainable as alleged by 111 Veterans ,
+Stewart may have been in default . If not  reasonably obtainable, 111 Veterans may
+have indeed breached the lease by placing Stewart in default. On the existing
+summary-judgment record, t he Court is unable to make that determination, and
+accordingly, the Court need not yet reach the question whether  111 Veterans acted
+in bad faith. These are questions for trial.
+D.  Stewart’s LUTPA Claim
+
+Stewart also seeks summary judgment on its LUTPA claim.119 Stewart argues
+that the same conduct by 111 Veterans that supports its breach-of-contract claim also
+supports a LUTPA violation.120 Stewart argues that 111 Veterans inflicted financial
+
+117 ECF No. 41-1 at 12–13, 17–19.
+118 ECF No. 45 at 19–21.
+119 ECF No. 41.
+120 ECF No. 1 at 22–24 ¶¶ 72–77.
+Case 2:23-cv-02085-BSL-EJD     Document 83     Filed 11/15/24     Page 25 of 31
+26
+
+hardship on Stewart by requiring it to obtain “extraordinary” levels of coverage. 121
+Stewart claims that this financial hardship was intended to cause Stewart, 111
+Veterans’ competitor in the Metairie office market, to sell the building  to 111
+Veterans for a lower price. 122 Stewart further contends that 111 Veterans
+manufactured a breach of the g round lease by mandating  Stewart secure higher
+coverage as a means to evict Stewart and take over the building.123 Moreover, Stewart
+contends that Stewart provided confidential business information to 111 Veterans
+pursuant to a confidentiality agreement, and 111 Veterans then shared that
+information with its broker, Corporate Realty, which led to the poaching of Stewart’s
+tenants and lost profits. 124 Ultimately, Stewart contends that 111 Veterans’ actions
+caused Stewart to incur (1) unnecessary insurance costs (over $1 million a year);  125
+(2) lost profits;126 (3) lost business value;127 and (4) attorney’s fees.128
+In opposition, 111 Veterans argues that its actions constituted behavior typical
+of business competitors, not LUTPA violations. 129 111 Veterans contends that it s
+
+121 Id. at 23 ¶ 75.
+122 Id.
+123 Id.
+124 ECF No. 41 -3 at 272; ECF No. 41- 1 at 19– 25. This argument was not raised in Stewart’s
+complaint, but was alleged in its motion for summary judgment.
+125 Id. at 25.
+126 Stewart alleges that 111 Veterans attempted to steal two of its tenants. One tenant moved
+to a Feil-owned building, and a second tenant was about to move buildings before forcing Stewart to
+lower its rent price in April 2024. Stewart claims that both instances have resulted in lost profits. Id.
+at 25.  Stewart notes that information on these tenants was included in the confidential rent rolls sent
+to Corporate Realty in May 2022. Id. It claims that Corporate Realty then targeted these tenants for
+the next two years. Id.
+127 Stewart alleges that 111 Veterans’ scheme has caused potential buyers to lose interest in
+the building because no potential buyer will want to do business with a ground lessor who acts in bad
+faith. Id.
+128 Stewart seeks attorney’s fees and expenses incurred since May 2022. Id.
+129 ECF No. 45 at 22–24.
+Case 2:23-cv-02085-BSL-EJD     Document 83     Filed 11/15/24     Page 26 of 31
+27
+
+behavior, and the behavior of Feil, was typical of long-standing business competitors
+in a small market.130 According to 111 Veterans, Stewart’s allegations of a scheme to
+take over Heritage Plaza are unfounded; this suit is merely Stewart’s attempt “to
+turn the four decades of competition among Metairie’s class A buildings into a cause
+of action.” 131 As to the confidential tenant information 111 Veterans disclosed to
+Corporate Realty,132 111 Veterans claims Corporate Realty already possessed similar
+information and thus did not rely on or need Stewart’s rent rolls.133 And 111 Veterans
+contends that the lack of potential buyers for Heritage Plaza had nothing to do with
+any of 111 Veterans’ actions.134
+LUTPA pro hibits the use of  “[u]nfair methods of competition and unfair or
+deceptive acts or practices in the conduct of any trade or commerce .” LA. STAT. ANN.
+§ 51:1405(A). “[T]he elements of a cause of action under LUTPA are: (1) an unfair or
+deceptive trade practice declared unlawful; (2) that impacts a consumer, business
+competitor or other person to whom the statute grants a private right of action; (3)
+which has caused ascertainable loss.” Flood v. Uber Techs., Inc., No. CV 18-4322, 2018
+WL 3387536, at *4 (E.D. La. July 12, 2018) (quoting Who Dat Yat LLC v. Who Dat?
+
+130 Id.
+131 Id. at 22.
+132 ECF No. 41-3 at 272, 275, 281.
+133 ECF No. 45 at 23. Bruce Sossaman, Corporate Realty’s Leasing Director, explained that he
+maintained his “own database” on tenants, including those leasing space within Heritage Plaza. ECF
+No. 45-4 at 6.
+134 “[Stewart] sent out an e -mail blast on January 10, 2023 to over 4,000 possible buyers  . . .
+[o]ther than 111 Veterans, n ot a single prospective purchaser other than Feil expressed more than a
+passing interest.” ECF No. 45 at 8.
+Case 2:23-cv-02085-BSL-EJD     Document 83     Filed 11/15/24     Page 27 of 31
+28
+
+LLC, No. 10-1333, 2011 WL 39043, at *3 (E.D. La. Jan. 4, 2011).135 LUTPA does not
+specifically define an “unfair t rade practice.” Instead, [i]t has been left to the courts
+to decide, on a case-by-case basis, what conduct falls within the statute’s prohibition.”
+Cheramie Servs., Inc. v. Shell Deepwater Prod., Inc., 35 So. 3d 1053, 1059 (La. 2010).
+“The range of prohibited practices under LUTPA is extremely narrow and includes
+only egregious actions involving elements of fraud, misrepresentation, deception, or
+other unethical conduct. ” IberiaBank v. Broussard , 907 F.3d 826, 839– 40 (5th Cir.
+2018) (internal quotations omitted ). And t he “defendant ’s motivation” is a critical
+factor—his “actions must have been taken with the specific purpose of harming the
+competition.” Id.
+Considering the summary -judgment record, the Court finds the existence of
+genuine disputes of material fact to preclude summary judgment  on the LUTPA
+claim. For instance, LUTPA requires proof that the alleged unfair or deceptive
+conduct cause d an ascertainable loss.  But i t is unclear from the record what loss
+Stewart suffered and whether 111 Veterans’  caused such loss through unfair or
+deceptive trade practice. In viewing the evidence in the light most favorable to 111
+Veterans, Stewart’s lost profits are not entirely ascertainable. Moreover, there is still
+an open question as to whether Stewart’s inability to sell Heritage Plaza was a result
+
+135 “Business consumers and competitors are included in the group afforded a private right of
+action under [] LUTPA.” Flood, 2018 WL 3387536, at *4 (E.D. La. July 12, 2018) (internal quotations
+omitted). It is undisputed that Stewart and 111 Veterans are competitors in the Metairie office market.
+Case 2:23-cv-02085-BSL-EJD     Document 83     Filed 11/15/24     Page 28 of 31
+29
+
+of 111 Veterans’ conduct, the volatility of the commercial office market, or some other
+reason.136
+Additionally, while Stewart claims 111 Veterans sought to take advantage of
+Stewart’s confidential tenant information, 111 Veterans claims  its leasing agent
+already possessed information on Heritage Plaza tenants, rental rates, and lease
+expirations.137 While 111 Veterans acknowledges it competed with Stewart for
+tenants, 111 Veterans  contends it simply “behaved as any [] rival would.” 138 And
+although 111 Veterans shared the information with Corporate Realty in violation of
+the confidentiality agreement,139 it is unclear whether 111 Veterans actually misused
+any confidential information to poach tenants, and if so what loss Stewart suffered
+as a result . As such, the Court finds that summary judgment is not proper on
+Stewart’s LUTPA claims.
+E.  111 Veterans’ Claims for Declaratory Judgment
+
+Finally, 111 Veterans seeks partial summary judgment on its contrary
+interpretation of Section 3(g). 140 111 Veterans asks the Court to (1) declare that
+Stewart’s obligation to maintain non -flood property insurance under Section 3(g) is
+not limited by what is “reasonably obtainable;” and to (2) dismiss all claims for relief
+
+136 According to Evan Stone, the real estate broker marketing Heritage Plaza, buildings of “this
+vintage don’t normally trade in the [$40 million range] even in the best of times.” ECF No. 45-20 at 1.
+He also notes that the price was  aggressive given current economic volatility, the reduction in office
+market investors, and the building’s ground lease. Id.
+137 ECF No. 45 at 23.
+138 Id. at 24.
+139 This was admitted by 111 Veterans during the oral argument on these motions on October
+4, 2024.
+140 ECF No. 43.
+Case 2:23-cv-02085-BSL-EJD     Document 83     Filed 11/15/24     Page 29 of 31
+30
+
+by Stewart based upon a contrary reading of Section 3(g).141 But as described above,
+the Court has determined that “if reasonably obtainable” places a condition on
+coverage requirements for both flood and non-flood insurance. And because the Court
+finds that 111 Veterans’ interpretation of Section 3(g) is incorrect, 111 Veterans’ cross
+motion for partial summary judgment necessarily fails.
+
+141 Id. at 1.
+Case 2:23-cv-02085-BSL-EJD     Document 83     Filed 11/15/24     Page 30 of 31
+31
+
+IV. CONCLUSION
+Accordingly, for the reasons discussed above,
+IT IS ORDERED  that the motion 142 for summary judgment by  Plaintiff
+Stewart Development, LLC is DENIED .
+IT IS FURTHER ORDERED that the motion 143 for partial summary
+judgment by Defendant 111 Veterans Boulevard, LLC is DENIED.
+IT IS FURTHER ORDERED  that the phrase “if reasonably obtainable”
+in Section 3(g) of the Fourth Amendment of the Ground Lease applie s a condition
+upon Stewart’s flood and non-flood insurance obligations.
+New Orleans, Louisiana, this 15th day of November, 2024.
+BRANDON S. LONG
+UNITED STATES DISTRICT JUDGE
+
+142 ECF No. 41.
+143 ECF No. 43.
+Case 2:23-cv-02085-BSL-EJD     Document 83     Filed 11/15/24     Page 31 of 31

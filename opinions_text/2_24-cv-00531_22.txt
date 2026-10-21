@@ -1,0 +1,467 @@
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+TAYLOR B. THEUNISSEN, MD, LLC,
+Individually and as Assignee and Authorized Representative of
+J.C.
+Plaintiff,
+ CIVIL ACTION
+
+VERSUS  NO. 24-531
+
+UNITED STATES OFFICE OF PERSONNEL
+MANAGEMENT
+Defendant.
+
+SECTION “A” (4)
+ORDER AND REASONS
+The following motions are before the Court: Defendant’s Motion to Dismiss (Rec. Doc.
+6) and Defendant’s Motion to Dismiss State Law and Administrative Procedures Act Claims
+(Rec. Doc. 11) . Pursuant to Federal Rule of Civil Procedure 12(d), the motions have been
+converted to motions for summary judgment.1 The converted motions, submitted for consideration
+on November 13, 2024, are before the Court on the briefs without oral argument.
+I. Background
+i. Factual background
+This matter arises out of an alleged underpayment by Government Employees Health
+Association, Inc. (“GEHA”) for medical services rendered to Patient J.C . (“J.C.”) by Dr. Taylor
+B. Theunissen, MD, LLC (“TBT” or “Plaintiff”).2 At all relevant times, J.C. was a beneficiary of
+a health benefit plan (“Plan”) sponsored and administered by GEHA. 3 The Plan was available to
+
+1 See Rec. Doc. 18.
+2 TBT identified Patient J.C. only by initials due to privacy concerns. See Rec. Doc. 1, at 1 n.1. Dr. Theunissen
+is suing OPM in his individual capacity and as assignee and authorized representative of J.C.
+3 Id. ¶ 1; see also Rec. Doc. 21, at 2 n.1 (“Pursuant to its contract with OPM, GEHA makes payment to covered
+providers and facilities with which it contracts, or in certain cases provides reimbursement directly to the
+enrollee, for benefits covered under the terms of the applicable Plan brochure, which is a part of the OPM-carrier
+contract.”) (citing 5 U.S.C. §§ 8902(a), 8903(1), 8907(b)); Rec. Doc. 1- 1, at 1 (noting the Plan is “Sponsored
+and administered by: Government Employees, Health Association, Inc.”) . The Plan was attached to Plaintiff’s
+Case 2:24-cv-00531-JCZ-KWR     Document 22     Filed 11/27/24     Page 1 of 14
+2
+
+J.C., who is an employee of the federal government,4 via a GEHA contract with Defendant, Office
+of Personnel Management (“OPM”), as authorized by the Federal Employees Health Benefits Act
+(“FEHBA”).5
+In 2019, J.C. was diagnosed with breast cancer .6 She underwent bilateral mastectomies
+(“mastectomy”) on February 13, 2019. 7 Prior to her mas tectomy, J.C. assigned her provider the
+right to receive payment of benefits from the Plan and, if necessary, take legal action to recover
+benefits on her behalf. 8 Immediately following her mastectomy, Dr. Theunissen and Dr. Alireza
+Sadeghi, working as co- surgeons, performed bilateral breast reconstructions with deep inferior
+epigastric perforator flaps (“Reconstructive Procedure”).9
+According to TBT, he requested a pre -authorization for the Reconstructive Procedure
+before conducting J.C.’s mastectomy.10 But as his complaint makes clear, “[t]he Reconstructive
+Procedure is directly covered by the Plan” and “the Plan specifically exempts from the
+preauthorization requirement breast reconstruction [if it is] ‘immediate reconstruction for
+
+Complaint and is properly before the Court. Internal citations to the Plan will refer to page listed on the CM/ECF
+heading.
+4 Rec. Doc. 1, ¶ 6.
+5 Rec. Doc. 1-1, at 6.
+6 Rec. Doc. 1, ¶ 16.
+7 Id. ¶ 28.
+8 Id. ¶¶ 14-15; see also Rec. Doc. 19-3 (“Assignment of Benefits/Designated Authorized Representative/Limited
+Special Power of Attorney”). The Plan defines “Assignment” as “An authorization by an enrollee or spouse for
+the Plan to issue payment of benefits directly to the provider .” Rec. Doc. 1 -1, at 115. It is not uncommon for
+patients to assign their benefits under the Plan to a provider. See, e.g., Transitional Learning Cmty., Inc. v. OPM,
+220 F.3d 427, 429 (5th Cir. 2000).
+9 Rec. Doc. 1, ¶ 17; see also Rec. Doc. 1 -1, at 58 (listing the Reconstructive Procedure as a covered surgery
+under the Plan).
+10 Rec. Doc. 1, ¶ 19; see also Rec. Doc. 1-1, at 22.
+Case 2:24-cv-00531-JCZ-KWR     Document 22     Filed 11/27/24     Page 2 of 14
+3
+
+diagnosis of cancer.’” 11 Accordingly, preauthorization (or, as the Plan refers to it,
+“precertification”) was unnecessary for the Reconstructive Procedure.12
+But precertification was necessary under the Plan for J.C.’s in -hospital stay .13 And, as
+evidenced by the February 6, 2019 letter from Conifer Health Solutions, she received the requisite
+precertification.14 According to TBT , however, the February 6 letter is the basis for an  alleged
+“binding contractual agreement” between TBT and OPM  for performance of the Reconstructive
+Procedure.15
+
+11 Rec. Doc. 1, ¶¶ 23, 25 . Rec. Doc. 1 -1, at 58 (listing the Reconstructive Procedure under “Benefits
+Description”).
+12 Plaintiff’s complaint refers to the letter as a “Preauthorization Letter,” but under the Plan, the letter is more
+accurately described as a “Precertification Letter.” See Rec. Doc. 1-1, at 21 (“The pre- service claim approval
+process for inpatient hospital admissions (c alled precertification) and for other services, are detailed in this
+Section.”). The term “Preauthorization” does not appear in the Plan.
+13 See Rec. Doc. 1-1, at 22–24 (Plan provisions regarding precertification).
+14 Rec. Doc. 19-1 (Feb. 6, 2019 letter).
+15 Rec. Doc. 1, ¶ 27. According to TBT,
+Through correspondence dated on or about February 6, 2019
+(“Preauthorization Letter”), GEHA, through Conifer Health Solutions,
+authorized the Reconstructive Procedure and that both TBT and Dr. Sadeghi
+would be providing services, referral number 450701. Through the
+Preauthorization Letter, GEHA specifically determined that the
+Reconstructive Procedure was medically necessary.
+Id. ¶ 21-22 (paragraph numbering omitted).
+The Court doubts the merits of this allegation for several reasons. First, as already discussed, precertification for
+the Reconstructive Procedure was expressly exempted under the Plan. Id. ¶ 25 (quoting Rec. Doc. 1- 1, at 25).
+Second, the letter makes no reference to the medical necessity of the Reconstructive Procedure; instead, under
+“Approval of Service,” it states: “Service Approved: 3: Inpatient Admission Med or Surg (excluding NICU),
+DOA February 13, 2019 and LCD 2/15/19.” Rec. Doc. 19 -1; see also Rec. Doc. 20 -2, Affidavit of Kathryn
+Peterson, OPM Program Manager (Disputed Claims), ¶ 7 (“This document confirmed the patient’s demonstrated
+medical necessity for a three-day post surgical inpatient admission beginning February 13, 2019.”). Third, the
+letter expressly stated:
+This review is a determination of medical necessity for confinement. It is not
+a verification of benefits. For benefit verification or an approval for associated
+procedures, please contact GEHA.
+Rec. Doc. 19-1. And finally, the letter notes that “this [letter] is not a guarantee of payment.” Id.
+For these reasons and others, OPM argues that the precertification letter is not evidence of a contract  for
+performance of the Reconstructive Procedure and, t hus, Plaintiff’s breach of contract and detrimental reliance
+claims fail. Rec. Doc. 21, at 2; see Hornbeck Offshore Operators, LLC v. Cross Group, Inc., 16-0174 (La. App.
+1st Cir. 10/31/16), 207 So.3d 1141, 1146  (“The existence of the contract and its terms must be proven by a
+preponderance of the evidence, either direct or circumstantial.”), writ denied, 16-2095 (La. 1/9/17), 214 So.3d
+Case 2:24-cv-00531-JCZ-KWR     Document 22     Filed 11/27/24     Page 3 of 14
+4
+
+The instant dispute began when TBT submitted a claim for  the Reconstructive Procedure
+to GEHA under the Plan  and the claim was not reimbursed at  the “reasonable and customary”
+amount the parties allegedly agreed to in the February 6 letter from Conifer Health Solutions.16 In
+response to the adverse determination, TBT (acting on behalf of J.C.) submitted first and second
+level appeals to OPM  via th e FEHBA claim review process outlined in the Code of Federal
+Regulations, thereby exhausting his administrative remedies. 17 OPM ultimately issued a final
+ruling denying TBT’s  appeal on September 10, 2021, noting “Should [J.C.] wish to pursue this
+matter, she must now file suit against [OPM] in Federal court.”18
+ii. Procedural background
+On March 1, 2024, TBT filed suit on behalf of J.C. and in his individual capacity. 19 On
+behalf of J.C., TBT sought judicial review of the final agency action and alleged violations of the
+
+872. The Court notes the substantial lack of evidence supporting the existence of a contract, but declines to rule
+on the merits of OPM’s argument because, as discussed infra , Plaintiff’s state law claims are preempted by
+FEHBA.
+The Court also notes that  TBT is an experienced litigant who is well aware of the details that are ordinarily
+included in precertification letters. See infra n. 19. In Taylor B. Theunissen, MD, LLC v. United Healthcare of
+Louisiana, Inc., a case filed only a year before the instant case, TBT asserted similar state law claims for breach
+of contract and detrimental reliance. No. 22-2820, 2023 WL 2913529, at *1 ( E.D. La. April 12, 2023). Unlike
+the case at hand, his state law claims there were based on a precertification letter that described in great detail
+the procedure he was authorized to perform. See id. (“The March 5, 2018 pre-authorization request submitted to
+UHC explicitly stated two surgeons, Dr. Sadeghi and Dr. Theunissen, would be performing the first
+reconstruction procedure.”) (citing No. 22-2820, Rec. Doc. 20-5)).
+16 Id. ¶¶ 27–32. It’s TBT’s position that the “reasonable and customary” amount it should have been reimbursed
+under the Plan totals $129,969.98. Id. ¶¶ 27, 37.
+17 Id. ¶¶ 41, 47; see also Rec. Doc. 9, at 4; Rec. Doc. 9-2, at 2; 5 C.F.R. § 890.105(e) (“OPM review”); 5 C.F.R.
+890.107(d)(1) (“An action under paragraph (c) . . . [m]ay not be brought prior to exhaustion of the administrative
+remedies provided in § 890.105.”).
+18 Rec. Doc. 9-2, at 2.
+19 See generally Rec. Doc. 1.  This is not the first time  Dr. Theunissen has raised  claims for underpayment of
+benefits for breast reconstruction surgery . It’s likewise not his first attempt to do so wh ile asserting nearly
+identical state law claims. He has filed at least four other lawsuits alleging similar claims against insurers, but
+none, like here, against OPM. And the other lawsuits are based on ERISA plans, not, like here, on a FEHBA
+plan. See Taylor Theunissen, M.D. LLC v. United HealthCare Grp., Inc., 365 F. Supp. 3d 242, 247–48  (D. Conn.
+2019) (dismissing claims based on anti-assignment clause in ERISA plan and finding that that no basis for state
+law promissory estoppel claim existed because the pre-authorization letters did not contain a clear and definite
+promise to pay benefits); Sadeghi v. Aetna Life Ins. Co., 564 F. Supp. 3d 429, 470–72 (M.D. La. 2021) (granting
+Case 2:24-cv-00531-JCZ-KWR     Document 22     Filed 11/27/24     Page 4 of 14
+5
+
+Administrative Procedure Act (“APA”). In his individual capacity, TBT asserted state law causes
+of action against OPM for breach of contract and detrimental reliance .20 In turn, OPM filed two
+motions to dismiss.21
+OPM’s first motion attacked the timeliness of Plaintiff’s claim for judicial review, arguing
+the claim prescribed on January 1, 2023—over a year before this lawsuit was filed.22 In response,
+Plaintiff argued the three -year prescription period does not commence until all administrative
+remedies are exhausted.23 Relying on OPM’s September 10, 2021 letter giving notice that a final
+administrative review had been rendered, Plaintiff  posited that the prescription period runs until
+December 31, 2024, making the judicial review claim timely.24
+Defendant’s second motion argued (1) TBT’s state law claims for breach of contract and
+detrimental reliance are preempted by FEHBA ; and (2) because FEHBA provides an adequate
+remedy for judicial review, Plaintiff’s claims under the APA are precluded. 25 Plaintiff
+
+partial summary judgment and holding that letters granting an in-network exception to providers did not
+constitute a separate contract or agreement between the insurer and provider), id. at 455–56 (agreeing with the
+defendant’s contention that the lawsuit was “simply a continuance of the ERISA appeal procedures,” and noting
+that TBT’s claims were “disingenuous at best”); Tamburrino v. United Healthcare Ins. Co., No. 21-12766, Rec.
+Doc. 35, at 4–8  (D.N.J. April 25, 2022) (dismissing TBT’s claims due to anti-assignment provision in a patient’s
+health plan); Taylor B. Theunissen, MD, LLC, 2023 WL 2913529, at *10 (dismissing state law claims for breach
+of contract and detrimental reliance as preempted by ERISA).
+20 Id. ¶¶ 72–73.
+21 See Rec. Doc. 6; Rec. Doc. 11.
+22 Rec. Doc. 6-1, at 4 (noting that both the Code of Federal Regulations and the Plan state that a cause of action
+for judicial review must be brought no later than “December 31 of the third year after the year in which [the
+patient] received the disputed services,” which, in this case, were administered on February 13, 2019) (quoting
+5 C.F.R. § 890.107(d)(2) and Rec. Doc. 1-1, at 105).
+23 Rec. Doc. 9, at 7 (quoting Gonzalez v. Blue Cross Blue Shield Assoc., 62 F.4th 891, 896 (5th Cir. 2023)
+(quoting 5 C.F.R. §§ 890.105(a)(1), 890.107(d)(1))).
+24 Rec. Doc. 9-2, at 2; Rec. Doc. 9, at 8.
+25 See generally Rec. Doc. 11-1.
+Case 2:24-cv-00531-JCZ-KWR     Document 22     Filed 11/27/24     Page 5 of 14
+6
+
+subsequently withdrew its claims under the APA, leaving only the preemption issue to be decided
+by the Court.26
+The Court reviewed the motions and exercised its discretion to convert the motions to
+motions for summary judgment for two reasons.27 First, the complaint and responses in opposition
+to the motions relied on certain extraneous documents that were not attached to the  complaint or
+the motions but were central to Plaintiff’s argument.28 This triggered the Court’s obligation under
+Rule 12(d) to convert the motions if it opted to consider them. See Boateng v. BP, P.L.C., 779 F.
+App’x 217, 219 (5th Cir. 2019) (“A district court converts a Rule 12(b)(6) motion to dismiss into
+a motion for summary judgment when matters outside of the pleadings are presented to and not
+excluded by the court. Such matters include evidence introduced in opposition to a 12(b)(6) motion
+that provides some substantiation for and does not merely reiterate what is said in the pleadings.”)
+(internal citations and quotations omitted)). Second, only two issues remained before the Court:
+(i) whether Plaintiff’s claim for judicial review should be dismissed as untimely; and (ii) whether
+Plaintiff’s state law claims are preempted by FEHBA.29
+In exercising its discretion to convert the motions, the Court granted the parties twenty-six
+days to file supplemental briefing and submit any additional evidence in support of their positions,
+and an additional seven days to reply to the opposing party’s supplemental brief.30 See Hodge v.
+
+26 See Rec. Doc. 14, at 2 n.2.
+27 See Rec. Doc. 18, at 5–6.
+28 These documents principally include the Preauthorization Letter, which is the basis for Plaintiff’s breach of
+contract and detrimental reliance claims, and the September 10, 2021 correspondence between OPM and
+Plaintiff’s counsel, which establishes the date of the final administrative review of the TBT Claim. See Rec. Doc.
+1, ¶¶ 22, 27, 30, 34, 41–42, 65–68, 75; Rec. Doc. 9, at 2 –4; Rec. Doc. 14, at 2–4; Rec. Doc. 9- 2, at 2. Other
+examples include: the Assignment and Designation document (Rec. Doc. 1, ¶¶ 14-15); the TBT claim (Id. ¶ 29;
+Rec. Doc. 9, at 3–4; Rec. Doc. 14, at 2–5); and various referenced correspondences between GEHA and/or OPM
+and counsel for TBT (see, e.g., Rec. Doc. 1, ¶¶ 30–32, 35–36, 39, 41–42, 45, 75; Rec. Doc. 9, at 3–4; Rec. Doc.
+14, at 2–4).
+29 Rec. Doc. 18.
+30 Id. at 6.
+Case 2:24-cv-00531-JCZ-KWR     Document 22     Filed 11/27/24     Page 6 of 14
+7
+
+Engleman, 90 F.4th 840, 844 (5th Cir. 2024) (“Parties must have at least ten days' notice bef ore
+the court's ruling that ‘the court could convert the Rule 12(b)(6) motion into a summary
+judgment.’”) (quoting Holguin v. U.S. Dep't of Army, 98 F.3d 1337, 1996 WL 556767, at *2 (5th
+Cir. 1996) (per curiam) (table) (unpublished) (“The only requirement is that the non-moving party
+have at least ten days in which to submit its own evidence.”)). Each party filed supplemental
+memoranda and the following evidence was submitted to the Court: (i) the Preauthorization Letter;
+(ii) correspondence between GEHA an d J.C.; (iii) the Assignment and Designation document
+executed by J.C.; and (iv) the declaration of Kathryn Peterson, OPM Program Manager (Disputed
+Claims).31
+For the following reasons, Defendant’s converted motions for summary judgment are
+GRANTED and Plaintiff’s claims are DISMISSED WITH PREJUDICE.
+II. Legal Standard
+Summary judgment is proper where there is “no genuine dispute of material fact” and “the
+movant is entitled to judgment as a matter of law.” FED. R. CIV. P. 56(a). That is, it is appropriate
+where “the pleadings, depositions, answers to interrogatories, and admissions on file, together with
+the affidavits, if any,” when viewed in the light most favorable to the non-movant, “show that there
+is no genuine issue as to any material fact.” TIG Ins. Co. v. Sedgwick James , 276 F.3d 754, 759
+(5th Cir. 2002) (citing Anderson v. Liberty Lobby, Inc., 477 U.S. 242, 249 –50 (1986)). A dispute
+about a material fact is  “genuine” if the evidence is such that a reasonable jury could return a
+verdict for the non-moving party. Id. (citing Anderson, 477 U.S. at 248). The court must draw all
+justifiable inferences in favor of the non -moving party. Id.  (citing Anderson, 477 U.S. at 255).
+Once the moving party has initially shown “that there is an absence of evidence to support the non-
+
+31 See Rec. Doc. 19-1, Rec. Doc. 19-2, Rec. Doc. 19-3, Rec. Doc. 20-2.
+Case 2:24-cv-00531-JCZ-KWR     Document 22     Filed 11/27/24     Page 7 of 14
+8
+
+moving party’s cause,” Celotex Corp. v. Catrett, 477 U.S. 317, 325 (1986), the non-movant must
+come forward with “specific facts” showing a genui ne factual issue for trial. Id.  (citing FED. R.
+CIV. P. 56(e); Matsushita Elec. Indus. Co. v. Zenith Radio, 475 U.S. 574, 587 (1986)).
+III. The Federal Employees Health Benefits Act
+Congress enacted FEHBA to create “a comprehensive program of health insurance for
+federal employees.” Empire Healthchoice Assurance, Inc. v. McVeigh, 547 U.S. 677, 682 (2006);
+see also 5 U.S.C. §§ 8901–14. FEHBA authorizes OPM to promulgate regulations and contract
+with insurance “carriers” for the purpose of “negotiating and regulating health- benefits plans for
+federal employees.” Empire , 547 U.S. at 682, 684; 5 U.S.C. §§ 8901(7), 8902–03, 8913. OPM
+then carries out that duty by entering contracts with private insurers, like GE HA, who act as
+carriers and provide health benefits to federal employees . Gonzalez v. Blue Cross Blue Shield
+Ass’n, 62 F.4th 891, 895 (5th Cir. 2023) (quoting St. Charles Surgical Hosp., LLC v. La. Health
+Serv. & Indem. Co., 935 F.3d 352, 356 (5th Cir. 2019) (citations omitted)).
+Notably, carriers “never take[] on the risks of an insurer in [their] relationship with
+OPM”—in other words, they operate more like a claims processor than an insurer. Id.  at 896. So
+it is OPM, not GEHA, who has the final say on t he health benefits that an employee may receive
+under the Plan. Id.  Accordingly, if a dispute arises between an employee and GEHA under the
+plan, OPM ultimately resolves the issue. Id.  In Gonzalez v. Blue Cross Blue Shield Association,
+the Fifth Circuit concisely summarized the dispute resolution protocol as follows:
+The patient begins the process by submitting a claim to [the carrier].
+If [the carrier] denies the claim, the patient can ask [the carrier] to
+reconsider. If [the carrier] affirms the denial, then the patient can ask
+for OPM's review. If OPM also denies the claim, then the patient
+can then seek judicial review of OPM's denial.
+
+Case 2:24-cv-00531-JCZ-KWR     Document 22     Filed 11/27/24     Page 8 of 14
+9
+
+OPM's regulations require a patient to exhaust both the carrier and
+OPM review processes before seeking judicial review . The
+regulations also say that a patient who wishes to challenge a denial
+may sue only OPM, not [the carrier]. The recovery in such a suit
+shall be limited to a court order directing OPM to require the carrier
+to pay the amount of benefits in dispute. The Plan documents
+describe all of these procedures.
+
+62 F.4th at 896 (cleaned up).
+When, as here, a patient has assigned her  right to collect benefits under the Plan to her
+provider, the provider may then stand in the shoes of its  patient and bring suit against OPM. See
+id. at 899 (“As relevant here, the district courts of the United States have original jurisdiction of a
+civil action or claim against the United States founded on 5 U.S.C. §§ 8901–14, that is, FEHBA.
+The government has thus consented to suits to vindicate rights or enforce obligations created by
+FEHBA.”) (cleaned up); see also RAI Care Ctrs., LLC v. OPM, 459 F. Supp. 3d 124, 132 (D.D.C.
+2020) (noting “[A]lthough no case from this Circuit has addressed whether an assignee may sue
+under FEHBA and 8 C.F.R. § 8901.107 . . . . Without specifically addressing the issue, the  Tenth
+and Fifth Circuits have permitted suits along these lines to proceed” and collecting cases in support
+of the proposition).
+IV. Discussion
+Two issues are directly before the Court on summary judgment: (i) whether Plaintiff’s
+claim for judicial review sh ould be dismissed as untimely; and (ii) whether Plaintiff’s state law
+claims for breach of contract and detrimental reliance are preempted by FEHBA.
+i. Plaintiff’s judicial review claim is untimely.
+Under 5 C.F.R. § 890.107(c)–(d), a covered individual may seek judicial review of OPM’s
+final action on the denial of a health benefits claim subject to three limitations: first, the claim may
+not be brought prior to the exhaustion of the administrative remedies outlined in Section 890.105
+Case 2:24-cv-00531-JCZ-KWR     Document 22     Filed 11/27/24     Page 9 of 14
+10
+
+of Code of Federal Regulations; second, and most relevant here, the claim may be brought no later
+than December 31 of the third year after the year in which the care or service was provided; and
+third, the claim will be limited to the record that was before OPM when it rendered its decision
+affirming the carrier’s denial of benefits. Here, only the second limitation is at issue, and it is
+undisputed that the “care or service” was provided to J.C. in February 2019. See FED. R. CIV. P.
+56(a). As such, the Court must determine whether OPM is entitled to judgment as a matter of law.
+Id.
+OPM argues that a plain reading of the regulation unambiguously establishes that
+Plaintiff’s claims are time -barred because the care was provided to J.C.  in February 2019. 32
+Accordingly, its position is that the deadline to file this lawsuit was December 31, 2022.33
+In opposition, Plaintiff argues that the three- year prescription period starts on the date of
+the final agency decision , which was rendered September 10, 2021. 34  Under this analysis, the
+deadline to file this lawsuit is December 31, 2024. 35 Plaintiff further argues that OPM’s reading
+of the regulation results in the limitations period commencing before patients are even permitted
+to file their lawsuit because the clock begins to run before administrative remedies are exhausted.36
+Having considered both parties ’ positions, 37 the Court returns to the relevant question
+before it, which is properly framed as follows: Whe re a patient has exhausted the administrative
+
+32 Rec. Doc. 21, at 5–6.
+33 Rec. Doc. 6-1, at 4.
+34 Rec. Doc. 19, at 6; Rec. Doc. 9-2.
+35 Rec. Doc. 9, at 8.
+36 Rec. Doc. 19, at 7  (contending that “OPM’s own regulations are potentially inconsistent” because 5 C.F.R.
+890.107 requires that a lawsuit be filed within three years of the care or service, but 5 C.F.R. 890.105 requires
+the claimant to exhaust all administrative remedies before filing suit).
+37 In support of its position, Plaintiff misguidedly relies on Hallman v. OPM, 5:19-516, 2021 WL 4458642 (N.D.
+N.Y. Sept. 29, 2021). In Hallman, the Court declined to find the judicial review claim time-barred because there
+was “conflicting evidence as to when Plaintiff received the letter and learned about OPM's final decision to deny
+his claim (thereby exhausting his administrative remedies).” 2021 WL 4458642, at *3. Unlike the instant case—
+where it is undisputed that  Plaintiff received the OPM final decision more than a year before the limitations
+Case 2:24-cv-00531-JCZ-KWR     Document 22     Filed 11/27/24     Page 10 of 14
+11
+
+remedies listed in § 890.105, when does the statute of limitations for judicial review under 5 C.F.R.
+§ 890.107(d)(2) begin to run? Notably, this question has been addressed by few  district courts,38
+but the text of the regulation provides a clear answer 39—“A legal action to review final action by
+OPM involving denial of health benefits . . . . May not be brought later than December 31 of the
+3rd year after the year in which the care or service was provided.” 5 C.F.R. 890.107(c) –(d).
+Accordingly, Plaintiff’s claim for judicial review became untimely on January 1, 2023, over a year
+before this lawsuit was filed. See Pellicano v. OPM,  No. 3:17-698, 2018 WL 771362, at *6 (M.D.
+Pa. Jan. 19, 2018)  (recommending dismissal of two claims as untimely based on the limitations
+period starting when the care or service was provided where the claims were filed more than a year
+after the limitations period ended), report and recommendation adopted, No. 3:17-698, 2018 WL
+798172 (M.D. Pa. Feb. 9, 2018).
+
+period ended (see Rec. Doc. 9-2)—the Hallman plaintiff claimed that he did not receive a final decision from
+OPM until three months after the limitations period passed. Id. Accordingly, the Hallman Plaintiff established
+the existence of a genuine dispute of material fact, thus precluding summary judgment.
+Plaintiff also misguidedly relies on Horvath v. Dodaro , 160 F. Supp. 3d 32 (D.D.C. 2015) to support his
+proposition that “The date of that final agency decision is the relevant date for the purpose of applying the statute
+of limitations because Plaintiff could have brought an action under [FEHBA] at that time.” Rec. Doc. 19, at 6.
+But a close reading of Horvath shows that the case concerned a discrimination claim, not a claim for judicial
+review. Horvath, 160 F. Supp. 3d, at 40 (“Plaintiff did not seek judicial review of the decision denying him
+benefits. However, in light of the denial of benefits by the GAO, Plaintiff proceeded to pursue a discrimination
+complaint, through both the GAO's Office of Opportunity and Inclusiveness and the GAO's Personnel Appeals
+Board (“PAB”).”) (internal citations omitted)) . And an even closer reading of the case shows that Plaintiff’s
+proposition has been taken out of context. The Horvath court was considering whether the limitations period had
+passed in the context of 28 U.S.C. § 2401(a) (“Time for commencing action against United States”), not 5 C.F.R.
+§ 890.107(d)(2) (FEHBA “Court review”). Horvath, 160 F. Supp. 3d, at 43–44 . As such, Plaintiff’s argument
+carries no weight under these facts.
+38 See, e.g., Hallman v. OPM, No. 5:19-516, 2020 WL 3035567, at *2 (N.D. N.Y. June 5, 2020) (“Scant caselaw
+exists analyz ing the relevant regulations. The parties –understandably–fail to cite authority central to their
+contentions [regarding the issue of timeliness].”).
+39 “The always primary, and here decisive, interpretive tool is the text itself.” Latiolais v. Huntington I ngalls,
+Inc., 951 F.3d 286, 292 (5th Cir. 2020). Whether the rule is ambiguous is not directly at issue in this case, but
+the Court notes that, “if the law gives an answer—if there is only one reasonable construction of a regulation—
+then a court has no business deferring to any other reading.” Kisor v. Wilkie , 588 U.S. 558, 575 (2019). Here,
+there is only one reasonable construction of the regulation.
+Case 2:24-cv-00531-JCZ-KWR     Document 22     Filed 11/27/24     Page 11 of 14
+12
+
+ii. Plaintiff’s state law claims are preempted by FEHBA.
+The Court dismisses TBT’s state law claims for breach of contract and detrimental reliance
+because federal law expressly preempts them.
+FEHBA contains a preemption clause:
+The terms of any contract under this chapter which relate to the
+nature, provision, or extent of coverage or benefits (including
+payments with respect to benefits) shall supersede and preempt any
+State or local law, or any regulation issued thereunder, which relates
+to health insurance or plans.
+
+5 U.S.C. § 8902(m)(1). The Supreme Court has recognized the expansiveness of FEHBA's
+preemption clause, noting that “state law —whether consistent or inconsistent with federal plan
+provisions—is displaced on matters of ‘coverage or benefits.’” Empire, 547 U.S. at 686 (quoting
+5 U.S.C. § 8902(m)(1)); see also Coventry Health Care of Mo., Inc. v. Nevils , 581 U.S. 87, 96
+(2017); Gonzalez, 62 F.4th at 903.
+FEHBA preempts state law when “(1) the FEHBA contract terms at issue relate to the
+nature, provision, or extent of coverage or benefits, and (2) the state law relates to health insurance
+or plans.” Gonzalez, 62 F.4th at 903 (quoting Health Care Serv. Corp. v. Methodist Hosps. Dall.,
+814 F.3d 242, 253 (5th Cir. 2016)). Both elements are met here.
+First, the complaint expressly states, “[t]he Reconstructive Procedure is directly covered
+by the Plan,” and both of Plaintiff ’s state law claims seek damages based on a claim for benefits
+related to the Reconstructive Procedure. 40 See Gonzalez , 62 F.4th at 901 (“OPM's regulations
+define ‘claim’ as ‘a request for (i) payment of a health -related bill[ ] . . . .’” (quoting 5 C.F.R. §
+890.101)). For example, Plaintiff’s breach of contract claim states that , “Through the
+
+40 Rec. Doc. 1, ¶ 23; see also Rec. Doc. 1-1, at 58 (listing and describing the Reconstructive Procedure under
+“Benefits”); Rec. Doc. 1, ¶¶ 64-80; Rec. Doc. 19-1; Rec. Doc. 20-2, ¶ 7.
+Case 2:24-cv-00531-JCZ-KWR     Document 22     Filed 11/27/24     Page 12 of 14
+13
+
+Preauthorization Letter, GEHA specifically determined that the Reconstructive Procedure was
+medically necessary.”41 As a result of this alleged determination, Plaintiff asserts  that “a meeting
+of the minds was reached between TBT and GEHA where the Plan agreed that TBT would perform
+the Reconstructive Procedure for J.C. and the Plan would pay to TBT the reasonable and customary
+fee for such procedure.”42 Plaintiff’s detrimental reliance claim likewise asserts that “TBT changed
+is position to its detriment based on said representations by, inter alia , undertaking the
+Reconstructive Procedure for J.C.” 43 Accordingly, the first prong is satisfied because  each claim
+necessarily “places ‘at issue’ Plan terms that ‘relate to the nature, provision, or extent of coverage
+or benefits (including payments with respect to benefits).’”44 Id. (quoting 5 U.S.C. § 8902(m)(1)).
+The second prong is also satisfied. In bringing his breach of contract and detrimental
+reliance claims, TBT invokes Louisiana common law. These causes of action do not specifically
+relate to health insurance, “but preemption reaches even a state’s general laws when their
+application relates to the scope or administration of federal healthcare plans.” Id. at 904. As the
+Fifth Circuit noted in Gonzalez,
+
+41 Rec. Doc. 19, at 3.
+42 Rec. Doc. 1, ¶ 68.
+43 Id. ¶ 77.
+44 OPM disagrees that the letter determined the Reconstructive Procedure to be medically necessary, arguing
+instead that the letter (characterized by OPM as a “Precertification Letter”) “confirmed the patient’s
+demonstrated medical necessity for a three-day post -surgical inpatient admission” and “satisfie[d] the
+Precertification requirement for an inpatient hospital admission as stated on page 20 of the 2019 GEHA Plan
+brochure.” Rec. Doc. 20-2, at 2.
+The Court notes that, here, either party’s position suffices the first prong of the analysis in Gonzalez  because
+both positions place at issue Plan terms that relate to the nature provision, or extent of coverage or benefits. 62
+F.4th at 903.
+Case 2:24-cv-00531-JCZ-KWR     Document 22     Filed 11/27/24     Page 13 of 14
+14
+
+The key phrase, obviously, is “relates to.” The ordinary meaning of
+these words is a broad one. The phrase means “to stand in some
+relation; to have bearing or concern; to pertain; refer; to bring into
+association with or connection with.” It is thus no surprise that the
+phrase expresses a broad pre-emptive purpose. A state law may
+“relate to” a benefit plan, and thereby be pre-empted, even if the law
+is not specifically designed to affect such plans, or the effect is only
+indirect.
+
+62 F.4th at 904 (cleaned up).
+ TBT’s common-law claims seek to hold OPM liable for allegedly breaching a contract by
+failing to pay what he believed to be “reasonable and customary” rates after TBT performed a
+procedure covered under the Plan.45 But as just discussed, and as TBT admits in the complaint, 46
+a contract or representation related to what TBT believes to be the reasonable and customary
+amount owed for the covered Reconstructive Procedure indisputably “relate s to” the scope or
+administration of the Plan, and TBT’s claims thus “meet the criteria for preemption.” Id.  at 904–
+05 (quoting 5 U.S.C. § 8902(m)(1) and Pilot Life Ins. Co. v. Dedeaux, 481 U.S. 41, 48 (1989)).
+ Accordingly;
+IT IS ORDERED that Defendant’s Motion to Dismiss (Rec. Doc. 6)  and Defendant’s
+Motion to Dismiss State Law and Administrative Procedures Act Claims (Rec. Doc. 11) ,
+subsequently converted to motions for summary judgment (Rec. Doc. 18), are GR ANTED and
+Plaintiff’s clams are DISMISSED WITH PREJUDICE.
+ November 26, 2024
+
+      _____________________________________
+    JAY C. ZAINEY
+  UNITED STATES DISTRICT JUDGE
+
+45 Rec. Doc. 1, ¶ 23.
+46 Id.
+Case 2:24-cv-00531-JCZ-KWR     Document 22     Filed 11/27/24     Page 14 of 14
