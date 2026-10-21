@@ -1,0 +1,556 @@
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+KEVIN MERRELL
+
+ CIVIL ACTION
+VERSUS
+
+ NO. 23-1450
+1ST LAKE PROPERTIES, INC.
+
+ SECTION “R” (2)
+
+ORDER AND REASONS
+
+ Before the Court is defendant’s motion to dismiss. 1  Plaintiff opposes
+the motion.2  For the reasons set forth below, the Court grants in part and
+denies in part the motion to dismiss.
+
+I. BACKGROUND
+
+Defendant is a developer and property manager in the N ew Orleans
+area.3  This action arises from a data breach of sensitive personal information
+(“PII”) collected and held by defendant in the course of its business.
+Defendant learned of the breach in  December 2021 and notified those
+affected in July 2022. 4  The information affected by the breach included
+
+1  R. Doc. 16.
+2  R. Doc. 17.
+3  R. Doc. 1-2 ¶ 7.
+4  Id. ¶¶ 14-15.
+Case 2:23-cv-01450-SSV-DPC     Document 23     Filed 09/28/23     Page 1 of 24
+2
+
+names, Social Security numbers (“SSN”), driver’s license numbers, financial
+account numbers, credit card numbers, and debit card numbers. 5  Plaintiff
+was a tenant at one of defendant’s properties from about 2017 to 2018 and
+alleges that his information was compromised as a result of the breach.6  He
+filed a class action petition in state court in March 2023  on behalf of all
+individuals residing in Louisiana whose personal information was affected.7
+Defendant removed the action to this Court.8
+Plaintiff alleges that he has suffered three incidents of identity theft
+resulting from the data breach.  First, Verizon Communications Inc. claimed
+plaintiff owed $700 as a result of fraudulent purchases. 9  Plaintiff reported
+the fraud and closed the account. 10  Second, AT&T Corporation (“AT&T”)
+claimed plaintiff owed $800 as a result of fraudulent purchases.11  AT&T has
+not removed these charges and is requiring plaintiff to file a police report
+before it does.12  Third, plaintiff discovered an unauthorized inquiry from T-
+Mobile US Inc. on his credit report.13
+
+5  Id. ¶ 18.
+6  Id. ¶ 24.
+7  Id. ¶ 67.
+8  R. Doc. 1.
+9  R. Doc. 1-2 ¶ 32.
+10  Id.
+11  Id. ¶ 33.
+12  Id.; R. Doc. 17 at 8.
+13  R. Doc. 1-2 ¶ 34.
+Case 2:23-cv-01450-SSV-DPC     Document 23     Filed 09/28/23     Page 2 of 24
+3
+
+Plaintiff does not recall receiving any notifications that his personal
+information was compromised in any data breach other than defendant’s. 14
+He thus contends that that these three incidents were caused by defendant’s
+breach.15  Plaintiff also alleges that, as a result of the breach, he is subject to
+a continuing substantial risk of future identity fraud; he has suffered anxiety,
+sleep disruption, stress, fear, and frustration ; the value of his personal
+information has diminished; and he has lost time and money attempting to
+mitigate injuries, including preventing, detecting, contesting, and recovering
+from identity theft and fraud. 16  Plaintiff brings claims for negligence,
+negligence per se, breach of fiduciary duty, invasion of privacy, and violation
+of the Louisiana Database Security Breach Notification Law. 17  Defendant
+moves to dismiss these claims for lack of Article III standing and  for failure
+to state a claim upon which relief can be granted.18
+The Court considers the motion below.
+
+14  Id. ¶ 28.
+15  Id.
+16  Id. ¶¶ 37, 39, 41.
+17  Id. ¶¶ 88-147.
+18  R. Doc. 16.
+Case 2:23-cv-01450-SSV-DPC     Document 23     Filed 09/28/23     Page 3 of 24
+4
+
+II. DEFENDANT’S RULE 12(b)(1) MOTION
+
+A. Legal Standard
+Federal Rule of Civil Procedure 12(b)(1) requires dismissal of an action
+if the court lacks jurisdiction over the subject matter of the plaintiff’s claim.
+Motions submitted under Rule 12(b)(1) allow a party to challenge the court’s
+subject matter jurisdic tion based upon the allegations on the face of the
+complaint.  Barrera-Montenegro v. United States, 74 F.3d 657, 659 (5th Cir.
+1996).  In ruling on a Rule 12(b)(1) motion to dismiss, the Court may rely on
+“(1) the complaint alone; (2)  the complaint supplem ented by undisputed
+facts evidenced in the record; or (3)  the complaint supplemented by the
+undisputed facts plus the court’s resolution of disputed facts.”  Moore v.
+Bryant, 853 F.3d 245, 248 (5th Cir. 2017) (quoting Barrera-Montenegro, 74
+F.3d at 659).  The plaintiff bears the burden of demonstrating that subject
+matter jurisdiction exists.  See Spokeo, Inc. v. Robins , 578 U.S. 330, 338
+(2016).
+To survive a motion to dismiss under Rule 12(b)(1) based on lack of
+Article III standing, a plaintiff must establish: “(1) an ‘injury in fact,’ (2) a
+sufficient ‘causal connection between the injury and the conduct complained
+of,’ and (3) a ‘likel[ihood]’ that the injury ‘will be redressed by a favorable
+decision.’”  Susan B. Anthony List v. Driehaus , 573 U.S. 149, 157 -58 (2014)
+Case 2:23-cv-01450-SSV-DPC     Document 23     Filed 09/28/23     Page 4 of 24
+5
+
+(quoting Lujan v. Wildlife Defs. , 504 U.S. 555, 560 (1992)).  “To establish
+injury in fact, a plaintiff must show that he or she s uffered ‘an invasion of a
+legally protected interest’ that is ‘concrete and particularized’ and ‘actual or
+imminent, not conjectural or hypothetical.’”  Spokeo, 578 U.S. at 339
+(quoting Lujan, 573 U.S. at 560).   To determine whether an injury is
+concrete, a court must assess “whether the alleged injury to the plaintiff has
+a ‘close relationship’ to a harm ‘traditionally’ recognized as providing a basis
+for a lawsuit in American courts.”  TransUnion LLC v. Ramirez , 141 S. Ct.
+2190, 2204 (2021) (quoting Spokeo, 578 U.S. at 341).   A plaintiff “must
+demonstrate standing for each claim that [he] press[es] and for each form of
+relief that [he] seek[s] (for example, injunctive relief and damages) .”  Id. at
+2208.
+The “manner and degree of evidence required”  to show  standing is
+proportionate to the stage of litigation at which the standing inquiry occurs.
+TransUnion, 141 S. Ct. at 2208 (quoting Lujan, 504 U.S. at 561).  At the
+motion to dismiss stage, “both the trial and reviewing courts must accept as
+true all material allegations of the complaint.” Metro. Wash. Airports Auth.
+v. Citizens for Abatement of Aircraft Noise, Inc., 501 U.S. 252, 264-65 (1991)
+(citations omitted).  To establish standing for a class action complaint, only
+the named plaintiff who represents  the class must demonstrate an injury,
+Case 2:23-cv-01450-SSV-DPC     Document 23     Filed 09/28/23     Page 5 of 24
+6
+
+“not that the injury has been suffered by other, unidentified members of the
+class.”  Spokeo, 578 U.S. at 338 n.6 (quoting Simon v. E. Ky. Welfare Rts.
+Org., 426 U.S. 26, 40 n.20 (1976)).
+
+B. Discussion
+Plaintiff alleges that he has suffered four kinds of injury -in-fact:
+(1) actual injury from exposure and theft of personal information,
+(2) imminent and impending injury resulting from substantially increased
+risk of fraud and misuse of the stolen personal  information, (3) diminution
+in the value of personal information,  and (4) loss of time and money spent
+mitigating injuries.  Since the Court finds that the first theory states an injury
+sufficient to confer standing for each of plaintiff’s claims, the Court declines
+to consider the rest.
+Defendant alleges that the incidents of identity theft  plaintiff has
+already suffered  are not injuries -in-fact.  Defendant specifically contends
+that the incidents did not result in actual financial loss to plaintiff because
+they were reimbursed. 19  Defendant further argues that the risk of future
+
+19  Id. at 4-5.
+Case 2:23-cv-01450-SSV-DPC     Document 23     Filed 09/28/23     Page 6 of 24
+7
+
+incidents of identity theft is too remote and speculative to constitute an
+injury-in-fact under Article III.20
+The Fifth Circuit has not addressed whether identity theft that results
+in unauthorized, but reimbursed, charges can constitute an injury -in-fact.
+Yet, it has held that, under certain circumstances, financial injury that could
+be avoided or borne by a third party can confer standing.  Rideau v. Keller
+Indep. Sch. Dist., 819 F.3d 155, 161 -63 (5th Cir. 2016)  (holding appellant
+suffered economic harm despite third-party payor); Texas v. United States,
+787 F.3d 733, 749 (5th Cir. 2015) (“A plaintiff suffers an injury even if it can
+avoid that injury by incurring other costs.”); N. Cypress Med. Ctr. Operating
+Co., Ltd. v. Cigna Healthcare , 781 F.3d 182, 192 (5th Cir. 2015) (“[The
+insurer] argues that its refusal to pay based on the full charges [the hospital
+provider] reported did not cause patients any injury because they were never
+at imminent risk of out -of-pocket expenses. . . . We cannot agree.”).  In any
+case, plaintiff alleges that there are at least $800 worth of  unreimbursed
+charges.21  At this stage, that is sufficient to constitute an injury -in-fact for
+purposes of Article III.   See All. for Hippocratic Med. v. Food & Drug
+
+20  Id. at 5-8.
+21  R. Doc. 1-2 ¶ 33; R. Doc. 17 at 8.
+Case 2:23-cv-01450-SSV-DPC     Document 23     Filed 09/28/23     Page 7 of 24
+8
+
+Admin., 78 F.4th 210, 235 (5th Cir. 2023) (“[E]conomic harm .  . . is a
+quintessential Article III injury.”).
+Moreover, courts have recognized that exposure, theft, and misuse of
+PII itself constitutes sufficient injury to confer Article III standing.  See In re
+Marriott Int’l, Inc., 78 F.4th 677, 681 (4th Cir. 2023) (“Everyone agreed that
+plaintiffs who had experienced actual ‘fraudulent misuse of their personal
+information’ had suffered a cognizable injury.”) ; accord Attias v. Carefirst,
+Inc., 865 F.3d 620, 627 (D.C. Cir. 2017) (“Nobody doubts that identity theft,
+should it befall one of these plaintif fs, would constitute a concrete and
+particularized injury.”); Alleruzzo v. SuperValu, Inc., 870 F.3d 763, 773 (8th
+Cir. 2017) (“[A]llegations of misuse of Card Information were sufficient to
+demonstrate . . . standing.”).  Under TransUnion LLC v. Ramirez, a plaintiff
+need not show “that the level of harm he has suffered would be actionable
+under a similar, common -law cause of action,” only that “the type of harm
+he’s suffered is similar in kind to a type of harm that the common law has
+recognized as actionable.”  Perez v. McCreary, Veselka, Bragg & Allen, P.C.,
+45 F.4th 816, 822 (5th Cir. 2022).  Unauthorized disclosure of plaintiff’s PII
+to third parties is analogous to the common -law tort of invasion of privacy
+based on public disclosure of private facts .  See Restatement (Second) of
+Torts § 652D (Am. Law Inst. 1977) (outlining elements of tort); 9 Alfred Gans
+Case 2:23-cv-01450-SSV-DPC     Document 23     Filed 09/28/23     Page 8 of 24
+9
+
+et al., American Law of Torts  § 30:29, Westlaw (database updated March
+2023) (discussing history of tort); Bohnak v. Marsh & McLennan Cos., Inc.,
+79 F.4th 276, 285 (2d Cir. 2023)  (holding unauthorized exposure of PII is
+analogous to public disclosure of private facts under TransUnion).
+Actual theft and misuse of PII is analogous to the common law tort of
+invasion of privacy by appropriation of name  or likeness.  See Restatement
+(Second) of Torts § 652C (Am. Law Inst. 1977) (outlining elements of tort);
+Harold Gordon, Right of Property in Name, Likeness, Personality and
+History, 55 Nw. U. L. Rev. 553 (1960 ) (discussing development of
+appropriation of name or likeness tort);  Webb v. Injured Workers
+Pharmacy, LLC, 72 F.4th 365, 374 (1st Cir. 2023) (holding misuse of PII “is
+closely related to the tort of invasion of privacy based on appropriation of
+another's name or likeness ”); Green-Cooper v. Brinker Int ’l, Inc., 73 F.4th
+883, 889 (11th Cir. 2023) (holding misuse of PII after theft is concrete injury-
+in-fact under TransUnion).
+ Based on the foregoing authorities,  the Court finds that the  exposure
+and misuse of plaintiff’s PII constitute concrete and particularized injuries-
+in-fact for purposes of Article III .  Further, plaintiff’s allegations suffice to
+establish concrete injuries for standing purposes  for each of his claims  for
+damages.  Standing as to one claim does not “suffice for all claims arising
+Case 2:23-cv-01450-SSV-DPC     Document 23     Filed 09/28/23     Page 9 of 24
+10
+
+from the same ‘nucleus of operative fact.’”  DaimlerChrysler Corp. v. Cuno,
+547 U.S. 332, 352 (2006).  Whether a plaintiff has standing to press multiple
+claims depends on whether the injury alleged gives the plaintiff “the requisite
+stake in the outcome” of each claim.  Davis v. Fed . Election Comm’n, 554
+U.S. 724, 734 (2008).   The theory of recovery underlying each of plaintiff’s
+claims is that defendant had an obligation to safeguard plaintiff’s PII—by
+implementing reasonable electronic data protection protocols,22 by ensuring
+it was not disclosed in an unauthorized manner to third parties, 23 and by
+notifying plaintiff in a timely manner of any security breaches 24—which
+defendant breached, resulting in the unauthorized exposure, theft, and
+misuse of his PII.25  See, e.g., TransUnion, 141 S. Ct. at 2213 (grouping claims
+by theory of recovery for standing analysis); Angell v. GEICO Advantage Ins.
+Co., 67 F.4th 727, 735 (5th Cir. 2023) (same);  Perez, 45 F.4th at 823 -26
+(analyzing standing for damages and injunctive relief separately).
+ Plaintiff’s state court petition also seeks declaratory, injunctive, and
+other equitable relief as necessary to protect the interests of plaintiff and the
+class.26  To establish standing to press claims for prospective relief,  plaintiff
+
+22  See, e.g., R. Doc. 1-2 ¶¶ 90, 93, 100, 111, 122.
+23  See, e.g., id. ¶¶ 102, 131.
+24  See, e.g., id. ¶¶ 94, 123, 147.
+25  See, e.g., id. ¶¶ 107, 117, 124, 136, 147.
+26  R. Doc. 1-2 at 28.
+Case 2:23-cv-01450-SSV-DPC     Document 23     Filed 09/28/23     Page 10 of 24
+11
+
+must show that  “the threatened injury is certainly impending, or there is a
+substantial risk that the harm will occur.”  All. for Hippocratic Med., 78 F.4th
+at 227 (quoting Susan B. Anthony List v. Driehaus, 573 U.S. 149, 158 (2014)
+(internal quotation marks omitted) ).  When, as here,  a plaintiff alleges a
+substantial risk of future identity theft as a result of actual theft and misuse
+of PII, courts have usually found the allegations sufficient to state an
+imminent and certainly impending injury.  Webb, 72 F.4th at 374 -76
+(holding standard met where plaintiff alleged PII was stolen by criminals,
+some information had already been misused, and information included SSNs
+and names); Bohnak, 79 F.4th at 289 (“We conclude that the allegations of a
+targeted hack that exposed [plaintiff] ’s name and SSN to an unauthorized
+actor are sufficient to suggest a substantial likelihood of future harm.” );
+Clemens v. ExecuPharm Inc., 48 F4th 146, 157 (3d Cir. 2022) ( “Because we
+can reasonably assume that many of those who visit the Dark Web . . . do so
+with nefarious intent, it follows that [plaintiff] faces a substantial risk of
+identity theft or fraud by virtue of her personal information being made
+available on underground websites.” ); Hutton v. Nat ’l Bd . of Exam’rs in
+Optometry, Inc. , 892 F.3d 613, 622  (4th Cir. 2018) (holding plaintiffs’
+allegations “that their data has been stolen, accessed, and used in a
+fraudulent manner” sufficiently stated “an imminent threat of injury”), cited
+Case 2:23-cv-01450-SSV-DPC     Document 23     Filed 09/28/23     Page 11 of 24
+12
+
+with approval in  O’Leary v. TrustedID, Inc. , 60 F.4th 240, 244 (4th Cir.
+2023); Galaria v. Nationwide Mut. Ins. Co., 663 F. App’x 384, 388 (6th Cir.
+2016) (“Where a data breach targets personal information, a reasonable
+inference can be drawn that the hackers will use the victims’ data for the
+fraudulent purposes alleged in Plaintiffs’ complaints.”) ; Dinerstein v.
+Google, LLC , 73 F.4th 502, 516 (7th Cir. 2023) ( noting that the Seventh
+Circuit has recognized substantial risk of future harm when plaintiffs alleged
+theft of credit -card information); In re Zappos.com, Inc. , 888 F.3d 1020,
+1027 (9th Cir. 2010) (“[T]he information taken in the data breach still gave
+hackers the means to commit fraud or identity theft.” ); Green-Cooper, 73
+F.4th at 889 (“[M]isuse of the data cybercriminals acquire from a data breach
+. . . constitutes both a ‘present’ injury and a ‘substantial risk’ of harm in the
+future.”); Attias, 865 F.3d at 628-29 (“[A] substantial risk of harm exists
+already, simply by virtue of the hack and the nature of the data that the
+plaintiffs allege was taken.  That risk . . . satisfies the requirement of an injury
+in fact.”).  Accordingly, the Court finds that plaintiff has shown a substantial
+risk of future harm sufficient to confer standing to pursue claims for
+prospective relief.
+Defendant argues that even if plaintiff has stated an injury-in-fact, that
+injury is not traceable to defendant because plaintiff’s information may have
+Case 2:23-cv-01450-SSV-DPC     Document 23     Filed 09/28/23     Page 12 of 24
+13
+
+been compromised in another data breach. 27  Plaintiff has alleged that he
+does not recall receiving any other notices of data breach ,28 and that his PII
+was compromised because defendant failed to implement minimum
+safeguards in contravention of  its legal obligation to do so.29  At this stage,
+nothing further is required to establish traceability for constitutional
+purposes.  See Lexmark Int’l, Inc. v. Static Control Components, Inc. , 572
+U.S. 118, 134 n.6 (2014) (“Proximate causation is not a requirement of Article
+III standing, which requires only that the plaintiff's injury be fairly traceable
+to the defendant’s conduct.”); Glen v. Am. Airlines, 7 F.4th 331, 335-36 (5th
+Cir. 2021) (“To show traceability, a plaintiff must allege that his injur y is
+‘connect[ed] with the conduct about which he complains.’” (quoting Trump
+v. Hawaii, 138 S. Ct. 2392, 2416 (2018))); Daves v. Dallas County, 22 F.4th
+522, 542 (5th Cir. 2022) (“[T]he plaintiff must demonstrate ‘personal injury
+fairly traceable to the defendant’s allegedly unlawful conduct and likely to be
+redressed by the requested relief.’” (quoting DaimlerChrysler Corp. , 547
+U.S. at 342)).
+
+27  R. Doc. 16-1 at 6-8.
+28  R. Doc. 1-2 ¶ 28.
+29  Id. ¶¶ 52-65.
+Case 2:23-cv-01450-SSV-DPC     Document 23     Filed 09/28/23     Page 13 of 24
+14
+
+Additionally, defendant argues that plaintiff’s injury is not redressable
+because plaintiff has suffered no actual loss.30  Insofar as plaintiff has stated
+injuries that are cognizable under Article III, those injuries are redressable
+in the form o f compensation and injunctive relief as sought in the petition.
+See Remijas, 794 F3d at 696 -97 (holding that while reimbursed fraudulent
+charges may not be redressable by monetary damages, the same is “not true
+for the mitigation expenses or the future inj uries” and noting that “a
+favorable judicial decision could redress any injuries caused by less than full
+reimbursement of unauthorized charges”) ; Crawford v. Hinds C nty. Bd. of
+Supervisors, 1 F.4th 71, 375 (5th Cir. 2021) (“Plaintiffs seeking injunctive and
+declaratory relief can satisfy the redressability requirement only by
+demonstrating a continuing injury or threatened future injury .” (quoting
+Stringer v. Whitley , 942 F.3d 715, 720 (5th Cir. 2019))) .  Additionally,
+plaintiff alleges at least some unreimbursed charges.31
+
+30  R. Doc. 16-1 at 7-8.
+31  R. Doc. 1-2 ¶ 33; R. Doc. 17 at 8.
+Case 2:23-cv-01450-SSV-DPC     Document 23     Filed 09/28/23     Page 14 of 24
+15
+
+III. DEFENDANT’S RULE 12(b)(6) MOTION
+A. Legal Standard
+To survive a Rule 12(b)(6) motion to dismiss, a plaintiff must plead
+enough facts to “state a claim to relief that is plausible on its face.”  Ashcroft
+v. Iqbal, 556 U.S. 662, 678 (2009) (quoting Bell Atl. Corp. v. Twombly, 550
+U.S. 544, 547 (2007)).  A claim is facially plausible “when the plaintiff pleads
+factual content that allows the court to draw the reasonable inference that
+the defendant is liable for the  misconduct alleged.”  Id. at 678.  The Court
+must accept all well -pleaded facts as true and must draw all reasonable
+inferences in favor of the plaintiff.  Lormand v. U.S. Unwired, Inc., 565 F.3d
+228, 239, 244 (5th Cir. 2009).  But the Court is not bound to accept as true
+legal conclusions couched as factual allegations.  Iqbal, 556 U.S. at 678.
+On a Rule 12(b)(6) motion, the Court must limit its review to the
+contents of the pleadings, including attachments.  Brand Coupon Network,
+L.L.C. v. Catalina Mktg. Corp., 748 F.3d 631, 635 (5th Cir. 2014).  The Court
+may also consider documents attached to a motion to dismiss or an
+opposition to that motion when the documents are referred to in the
+pleadings and are central to a plaintiff’s claims.  Id.  Additionally, the Court
+may “consider matters of which [it] may take judicial notice.”  Hall v.
+Hodgkins, 305 F. App’x 224, 227 (5th Cir. 2008) (alteration in original)
+Case 2:23-cv-01450-SSV-DPC     Document 23     Filed 09/28/23     Page 15 of 24
+16
+
+(quoting Lovelace v. Software Spectrum, Inc., 78 F.3d 1015, 1017-18 (5th Cir.
+1996) (internal quotation marks omitted)).
+
+B. Discussion
+1. Negligence, Gross Negligence, and Negligence Per Se
+There are five elements of a negligence claim under Louisiana law:
+duty, breach, factual causation, legal causation, and damages.  Jack v.
+Evonik Corp. , No. 22 -30526, 2023 WL 5359086, at *4 (5th Cir. Aug. 22,
+2023); see La. Civ. Code Ann. art. 2315 .  The d uty-risk analysis “is the
+standard negligence analysis employed in determining whether to impose
+liability.”  Audler v. CBC Innovis, Inc. , 519 F.3d 239, 249 (5th Cir. 2008)
+(quoting Lemann v. Essen Lane Daiquiris, 923 So. 2d 627, 633 (La. 2006)).
+Like ordinary negligence, gross negligence is analyzed under the duty -risk
+analysis.  Rathey v. Priority EMS, Inc., 894 So. 2d 438, 459 (La. App. 4 Cir.
+2005).  To determine whether a defendant owes a plaintiff a duty, Louisiana
+courts “examine ‘whether the plaintiff has any law (statutory,
+jurisprudential, or arising from general principles of fault) to support the
+claim that the defendant owed him a duty.’”  Audler, 519 F.3d at 249 (quoting
+Faucheaux v. Terrebonne Consol. Gov’t, 615 So. 2d 289, 292 (La. 1993)).
+Case 2:23-cv-01450-SSV-DPC     Document 23     Filed 09/28/23     Page 16 of 24
+17
+
+Plaintiff alleges that defendant owed him the following duties: (1) to
+“exercise reasonable care in handling and using the PII in its care,” (2) to
+“implement industry-standard security procedures sufficient to reasonably
+protect the information from a data breach,” (3) to “promptly detect attempts
+at unauthorized access,” and (4) to “notify [plaintiff] within a reasonable
+timeframe of any breach.”32  But plaintiff offers no statutory or case authority
+articulating these standards.  See Butler v. Denka Performance Elastomer,
+L.L.C., 16 F.4th 427, 444 -45 (5th Cir. 2021) (“While Louisiana law does
+impose a ‘universal duty’ on defendants in a negligence action  to use
+‘reasonable care,’ plaintiffs are still required to assert a ‘specific standard’ of
+care.” (citations omitted) (quoting Rando v. Anco Insulations, Inc., 16 So. 3d
+1065, 1086 (La. 2009))).   Accordingly, plaintiff’s negligence claim must be
+dismissed.
+
+2. Negligence Per Se
+Negligence per se is not recognized under Louisiana law.  Ducote v.
+Boleware, 216 So. 3d 934, 944 (La. App. 4 Cir. 2016).  Accordingly, this claim
+must be dismissed.
+
+32  R. Doc. 1-2 ¶ 93.
+Case 2:23-cv-01450-SSV-DPC     Document 23     Filed 09/28/23     Page 17 of 24
+18
+
+3. Breach of Fiduciary Duty
+“Generally, whether a fiduciary duty exists, and the extent of that duty,
+depends upon the facts and circumstances of the case and the relationship of
+the parties.”  Scheffler v. Adams & Reese, LLP , 950 So.  2d 641, 647 (La.
+2007).  One acts in a fiduciary capacity  if he holds property “for the benefit
+of another person, as to whom he stands in a relation implying and
+necessitating great confidence and trust on the one part and a high degree of
+good faith on the other.”  Id. (quoting State v. Hagerty , 251 La. 477, 492
+(1967)).  A contractual relationship “does not establish a fiduciary duty.”
+Petre v. Living Ctrs.-East, Inc., 935 F. Supp. 808,  812 (E.D. La. 1996).   “A
+cause of action for breach of fiduciary duty requires proof of fraud, breach of
+trust, or an action outside the limits of the fiduciary ’s authority.”  Gerdes v.
+Estate of Cush, 953 F.2d 201, 205 (5th Cir. 1992).
+Here, plaintiff alleges that defendant stood in a fiduciary relationship
+with him when it took custody of his PII .33  Louisiana courts have not
+addressed whether the relationship between a landlord and tenant can be
+converted into a fiduciary relationship by the landlord’s maintenance of a
+database of PII.  But this does not in itself distinguish plaintiff’s relationship
+with defendant from an ordinary landlord-tenant relationship, and plaintiff
+
+33  R. Doc. 1-2 ¶ 119.
+Case 2:23-cv-01450-SSV-DPC     Document 23     Filed 09/28/23     Page 18 of 24
+19
+
+refers to  no lease provision or other contractual agreement in which
+defendant agreed to act as a fiduciary.  Therefore, the relationship is simply
+a contractual one that does no t impose fiduciary responsibilities on the
+defendant.  See, e.g., Attias v. Carefirst, Inc. , 365 F. Supp. 3d 1, 5 (D.D.C.
+2019) (“Plaintiffs fail to plead anything to suggest that their relationship with
+[defendant] was anything more than the typical commercial relationship.”);
+Weisenberger v. Ameritas Mut. Holding Co., 597 F. Supp. 3d 1351, 1368 (D.
+Neb. 2022) (“[C]ourts have been less willing to extend a fiduciary
+relationship to what is otherwise a regular business transaction.”); Gaines v.
+Krawczyk, 354 F. Supp. 2d 573, 582 (W.D. Penn. 2004) (“[T]he relationship
+between . . . landlord and tenant does not in itself create a setting giving rise
+to a confidential or fiduciary relationship . . . . [A] confidential or fiduciary
+relationship can arise in such a  setting ‘only if one party surrenders
+substantial control over some portion of his affairs to the other.’” (quoting
+Dep’t of Transp . v. E -Z Parks, Inc. , 620 A.2d 712, 717 (Pa. Commw. Ct.
+1993)); Toc Retail, Inc. v. Gulf Coast Oil Co. , No. 94-1949, 1996 WL 67633,
+at * 4-5 (E.D. La. Fe b. 14, 1996) (holding landlord -tenant relationship not
+fiduciary in nature).
+Additionally, plaintiff’s allegations that defendant was negligent in
+securing and protecting his PII does not amount to “fraud, breach of trust,
+Case 2:23-cv-01450-SSV-DPC     Document 23     Filed 09/28/23     Page 19 of 24
+20
+
+or an action outside the limits of the fiduciary’s authority.”   See F.D.I.C. v.
+Duffy, 47 F.3d 146, 152 (5th Cir. 1995) (“The definition of breach of fiduciary
+duty in Louisiana requires that the act constituting the breach be
+intentional.”).  Thus, even if there were a fiduciary relationship between
+plaintiff and defendant, plaintiff’s allegations fail to state a  claim under
+Louisiana law.
+
+4. Invasion of Privacy
+There are four theories of invasion of privacy under Louisiana law:
+“(1) by appropriating an individual ’s name or likeness; (2)  by unreasonably
+intruding on physical solitude or seclusion; (3)  by giving publicity which
+unreasonably places a person in a false light before the public; and (4)  by
+unreasonable public disclosure of embarrassing private facts.”  Brunner v.
+Holloway, 235 So. 3d 1153, 1161 (La. App. 1 Cir. 2017).  Each theory requires
+a plaintiff to show that “a defendant’s conduct is unreasonable and seriously
+interferes with another ’s privacy interest .”  Bradix v. Advance Stores Co.,
+Inc., 226 So. 3d 523, 530 (La. App. 4 Cir. 2017) (quoting Landrum v. Bd. Of
+Comm’rs of the Orleans Levee D ist., 685 So.2d 382, 392 (La. App. 4 Cir.
+1996)).  Invasion of privacy is an intentional tort.  Pinero, 594 F. Supp. 2d at
+721.
+Case 2:23-cv-01450-SSV-DPC     Document 23     Filed 09/28/23     Page 20 of 24
+21
+
+Plaintiff alleges that  “[t]he unauthorized acquisition ( i.e., theft) by a
+third party of . . . PII is highly offensive to a reasonable person,” and that this
+constitutes an “intentional interference with [plaintiff’s] interest in .  . .
+seclusion.”34  Additionally, plaintiff argues that defendant “intentionally
+[disclosed] [p]laintiff’s PII” by “placing it in an electronic format that had no
+security measures in place.”35  But plaintiff fails to plausibly allege any facts
+suggesting that defendant intended to expose his PII to breaches .  The
+allegation that defendant failed to adopt security measures does not
+plausibly suggest an intent to disclose PII to third parties.  See In re Mednax
+Servs., 803 F. Supp. 3d at 1225 -26 (“Plaintiff[’s] invasion -of-privacy claim
+fails because [he] do[es] not allege that [d]efendant[] intentionally disclosed
+[his] . . . PII to unauthorized pe rsons.”); Feins v. Goldwater Bank NA , No.
+22-00932, 2022 WL 17552440, at *5 (D. Ariz . Dec. 9, 2022) (holding that
+invasion of privacy claim fail ed where hacker stole information because
+defendant took no intentional action to disclose PII); Purvis v. Avean na
+Healthcare LLC, 563 F. Supp. 3d 1360, 1377 (N.D. Ga. 2021) (“Plaintiffs have
+not plausibly alleged any facts indicating that Defendant—as opposed to the
+third party that allegedly carried out the Data Breach —actively participated
+
+34  R. Doc. 1-2 ¶¶ 130, 132.
+35  R. Doc. 17 at 19.
+Case 2:23-cv-01450-SSV-DPC     Document 23     Filed 09/28/23     Page 21 of 24
+22
+
+in the alleged intrusio n into Plaintiffs’ affairs .”).  Accordingly, plaintiff has
+failed to state a claim for invasion of privacy.
+
+5. Louisiana Database Security Breach Notification Law
+The Louisiana Database Security Breach Notification Law (“LDSBNL”)
+provides that “[a] civil action may be instituted to recover actual damages
+resulting from the failure to disclose in a timely manner to a person that there
+has been a breach of the security system resulting in the disclosure of a
+person’s personal inform ation.”  L a. Stat. Ann. § 51:3075.  The notification
+required by LDSBNL “shall be made in the most expedient time possible and
+without unreasonable delay but not later than sixty days from the discovery
+of the breach,” with certain exceptions.  Id. § 51:3074(E).  Because Louisiana
+requires a plaintiff to show “manifest physical or mental injury .  . . in order
+to obtain any damage recovery,” a plaintiff must allege “actual damages ;”
+namely, “that someone actually used the disclosed information to his
+detriment.”  Ponder v. Pfizer, Inc. , 522 F. Supp. 2d 793, 797 -98 (M.D. La.
+2007) (quoting Bonnette v. Conoco, Inc ., 837 So.  2d 1219, 1230 n.6 (La.
+2003) (internal quotation marks omitted)).
+Here, plaintiff alleges that the breach occurred more than sixty days
+after the discovery of the breach.  Additionally, plaintiff alleges that his PII
+Case 2:23-cv-01450-SSV-DPC     Document 23     Filed 09/28/23     Page 22 of 24
+23
+
+was “disclosed” and “used to his detriment.”  See In re MCG Health Data Sec.
+Issue Litig., No. 22 -849, 2023 WL 3057428, at *13 (W.D. Wash. Mar. 27,
+2023) (“Plaintiff Ictech ’s c laims that she suffered multiple fraudulent
+charges on her debit card is sufficient to state actual damages under the
+LDSBNL. . . . Plaintiff Strecker has not sufficiently alleged any actual
+damage.  She has not alleged that a third party actually used her information
+to her detriment .”); Cf. Pinero , 594 F. Supp. 2d at 717 (holding no
+recoverable damages exist where plaintiff did not allege actual identity
+fraud).  Thus, plaintiff has stated a claim sufficient to survive the motion to
+dismiss stage under LDSBNL.
+
+III. CONCLUSION
+
+For the foregoing reasons, defendant’s motion to dismiss is GRANTED
+IN PART and DENIED IN PART.  The Court grants defendant’s motion with
+respect to the  negligence, negligence per se, breach of fiduciary duty, and
+invasion of privacy claims.  The negligence claim is DISMISSED WITHOUT
+PREJUDICE, and plaintiff may file an amended Complaint within 20 days of
+this Order to remedy the deficiencies identified  herein.  The negligence per
+se, breach of fiduciary duty, and invasion of privacy  claims are DISMISSED
+Case 2:23-cv-01450-SSV-DPC     Document 23     Filed 09/28/23     Page 23 of 24
+24
+
+WITH PREJUDICE.  The Court denies defendant’s motion with respect to
+the Louisiana Database Security Breach Notification Law claim.
+
+New Orleans, Louisiana, this _____ day of September, 2023.
+
+_____________________
+SARAH S. VANCE
+UNITED STATES DISTRICT JUDGE
+28th
+Case 2:23-cv-01450-SSV-DPC     Document 23     Filed 09/28/23     Page 24 of 24

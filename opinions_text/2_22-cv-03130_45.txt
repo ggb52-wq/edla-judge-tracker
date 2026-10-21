@@ -1,0 +1,429 @@
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+ORDER & REASONS
+Before the Court are two motions in limine filed by defendant Nautilus Insurance Company
+(“Nautilus”) seeking to exclude three of  plaintiff’s purporte d expert witnesses, 1 along with
+Nautilus’s motion for partial summary judgment concerning plaintiff’s claim for a full metal roof
+replacement and co rresponding bad faith. 2  Plaintiff Light City Chur ch (“Plaintiff”) responds in
+opposition to all three motions,3 and Nautilus replies in further support of its motions.4  Also before
+the Court is Plaintiff’s motion in limine to exclude Nautilus’s pur ported expert Joe Balkan, 5 to
+which Nautilus responds in opposition, 6 and Plaintiff replies in further support of its motion. 7
+Having considered the parties’ memoranda, the record, and the appl icable law, the Court issues
+this Order & Reasons.
+I. BACKGROUND
+This is an insurance coverage dispute arising out of damage to Plaintiff’s property allegedly
+sustained during Hurricane Ida, which made landfall on August 29, 2021.8  At that time, Plaintiff’s
+
+1 R. Docs. 23; 24.
+2 R. Doc. 25.
+3 R. Docs. 33; 37; 38.
+4 R. Docs. 41; 42; 43.
+5 R. Doc. 28.
+6 R. Doc. 36.
+7 R. Doc. 44.
+8 R. Doc. 1-4 at 4-10.
+LIGHT CITY CHURCH
+
+VERSUS
+
+NAUTILUS INSURANCE COMPANY
+
+CIVIL ACTION
+
+NO. 22-3130
+
+SECTION M (2)
+Case 2:22-cv-03130-BWA-DPC   Document 45   Filed 02/08/24   Page 1 of 14
+2
+
+property was insured by Nautilus.9  A church and offices occupy a bout one-third of the building,
+with the rest being warehouse space. 10  A metal roof of approxima tely 42,300 square feet was
+installed on the building in 2000 or 2001.11  The policy provides coverage for direct physical loss
+or damage to the building w ith a policy limit of $600,000, and a named storm deductible of
+$19,500.12  With respect to roof damage caused by wi nd or hail, the policy limits coverage to the
+actual cash value of the roof surfacing at the time of the loss or damage.13  Further, the policy states
+that Nautilus –
+will not pay for cosmetic damage to roof surfacing caused by wind or hail.  For the
+purpose of this endorsement, cosmetic damage means that wind or hail caused
+marring, pitting or other superficial damage that altered the appearance of the roof
+surfacing, but such damage does not preven t the roof from c ontinuing to function
+as a barrier to entrance of the elements  as it did before the cosmetic damage
+occurred.14
+
+For the purposes of the roof e ndorsement, “roof surfacing” is defined as “the shingles, tiles,
+cladding, metal or synthetic sheeting or simila r materials covering the roof and includes all
+materials used in securi ng the roof surface and al l materials applied to or  under the roof surface
+for moisture protection, as well as roof flashing.”15
+Shortly after the storm, Plaintiff reported its loss to Nautilus. 16  Nautilus hired Phillips &
+Associates, Inc. (“Phillips”) to inspect the property. 17  On September 30, 2021, a Phillips
+representative inspected the property and issued a report dated October 6, 2021, finding damages
+with a total replacement cost value of $66,980.98. 18  After subtracting the non-recoverable
+
+9 R. Doc. 26-1 at 1.
+10 Id. at 3.
+11 Id.
+12 R. Doc. 26-4 at 73-74.
+13 Id. at 106.
+14 Id.
+15 Id.
+16 R. Doc. 1-4 at 2.
+17 R. Doc. 26-13 at 1.
+18 Id. at 1-10.
+Case 2:22-cv-03130-BWA-DPC   Document 45   Filed 02/08/24   Page 2 of 14
+3
+
+depreciation and named-storm deductible, Plaintiff’s net claim was valued at $28,935.40.19  This
+estimate included replacement of 2,400 square feet of metal roofing in the southeast corner of the
+building.20  Nautilus then hired a structural engineer with J.S. Held, LLC (“J.S. Held”) to conduct
+a storm damage analysis.21  Cal Bearman, P.E., inspected th e property on October 18, 2021, and
+issued a report on November 10, 2021, finding that  “high winds from Hurricane Ida led to the
+isolated roof failure at the southeast corner of the building.”22  Bearman also noted that there was
+pre-storm corrosion in that area that “weakened the connection and contributed to the failure.”  On
+January 26, 2022, Nautilus tendered $28,935.40 to Plaintiff.23
+Plaintiff, believing that Nautilus’s damage es timate was too low, hired counsel and an
+insurance adjustor, The Able Group. 24  On May 9, 2022, representatives of The Able Group,
+Marvin Dishman and Joshua Guidry, inspected the property and estimated the actual cash value of
+the damage to be $620,828.69, which included replacing 21,108 square feet of the roof.25  On June
+17, 2022, Plaintiff provided its adjustor’s report to Nautilus, along with a demand for the damages
+documented therein.26  On July 6, 2022, Nautilus confirmed receipt of the demand.27
+On July 14, 2022, Plaintiff filed this suit against Nautilus in state court alleging breach-of-
+contract and bad-faith claims stemming from Nautilus’s handling of Plaintiff’s Hurricane Ida
+insurance claim. 28  Nautilus removed the suit to this Court, invoking divers ity subject-matter
+jurisdiction.29
+
+19 Id. at 7.
+20 Id. at 2.
+21 R. Doc. 26-8.
+22 Id. at 1.
+23 R. Doc. 38 at 3.
+24 R. Docs. 1-4 at 5-6; 23-3.
+25 R. Doc. 23-3.
+26 R. Doc. 1-4 at 6.
+27 R. Doc. 38 at 4.
+28 R. Doc. 1-4 at 4-10.
+29 R. Doc. 1 at 1-6.
+Case 2:22-cv-03130-BWA-DPC   Document 45   Filed 02/08/24   Page 3 of 14
+4
+
+During the course of litigation, on Februa ry 27, 2023, Stephen Fleishmann, an employee
+of Titan Construction, L.L.C., inspected the property on Nautilus’s behalf.30  Fleishmann’s March
+21, 2023 report documented additional damages valued at $8,175.31  Nautilus tendered that amount
+to Plaintiff on March 24, 2023.32
+Around the same time, Plaintiff hired Childr ess Engineering Services to inspect the
+property.  Randall Davis and Allen Kipp performed the inspection and prepared a report, and Tony
+Childress, a licensed profession al engineer, reviewed and a pproved the report dated March 30,
+2023.33  They opined that “full replacement of the roof is necessary to ensure a watertight system
+and restore the roof to pre-storm condition” beca use it is difficult to replace specific panels and
+there was damage to panel fastener s that could allow water intrusion. 34  They also stated that the
+damaged structural components under  the collapsed portion of the r oof need to be repaired or
+replaced before new roof panels can be installed in that area, necessitating a full roof replacement
+in the area where the panels could not be salvageable.35
+Nautilus now moves to exclude Plaintiff’s purported expert insurance adjustors, Marvin
+Dishman and Joshua Guidry of The Able Group,36 and Plaintiff’s purported roofing expert, Keith
+Colson.37  In a similar vein, Plaintif f seeks to exclude Joe Balkan, Nautilus’s purported roofing
+expert.38  And, Nautilus moves for partial summary judgment on Plaintiff’s claim for a full metal
+roof replacement and corresponding bad faith.39
+
+30 R. Doc. 26-14.
+31 Id.
+32 R. Doc. 38-3.
+33 R. Doc. 26-9.
+34 Id. at 6.
+35 Id. at 7.
+36 R. Doc. 23.
+37 R. Doc. 24.
+38 R. Doc. 28.
+39 R. Doc. 25.
+Case 2:22-cv-03130-BWA-DPC   Document 45   Filed 02/08/24   Page 4 of 14
+5
+
+II. LAW & ANALYSIS
+A. Motions In Limine
+ 1. Nautilus’s motion in limine regarding Marvin Dishman, Joshua Guidry, and The
+Able Group
+
+ Nautilus seeks to exclude certain testimony and opinions of Plaintiff’s insurance adjustors,
+Dishman, Guidry, and The Able Group, as failing to  meet the disclosure requirements of Rule
+26(a)(2)(B) of the Federal Rules of Civil Procedure.40   On November 20, 2023, Plaintiff’s counsel
+emailed to Nautilus’s counsel Plaintiff’s expert disclosures, which listed Dishman, Guidry, or other
+representatives of The Able Group as fact and e xpert witnesses “in property damage assessment
+and estimating,” who “inspected  Plaintiff’s property, prepared  a detailed estimate, secured
+photographs of the subject property and associat ed damages, and may generally have knowledge
+concerning Plaintiff’s property da mages caused by Hurricane Ida.” 41  The disclosures further
+provide that these witnesses “may testify as to the item s outlined in the report, estimate, photos,
+scope, pricing, and timeline of repairs, repairs, causation of damages, and physical observations of
+the property during inspection.”42  Nautilus argues that Plaintiff’s November 20 disclosure is the
+first time Dishman was mentioned in the litigati on and he should be prevented from testifying as
+an expert because there is “no indication, beyond counsel’s representations, that Dishman
+inspected the property, created the estimate, or even reviewed these documents.”43  Nautilus also
+argues that Dishman, Guidry, or other represen tatives of The Able Group should be prevented
+from rendering causation opinions because Plaintiff did not produce a report containing any such
+opinions of these witnesses.44
+
+40 R. Doc. 23.
+41 R. Doc. 23-2.
+42 Id.
+43 R. Doc. 23-1 at 5 (emphasis omitted).
+44 Id. at 5-6.
+Case 2:22-cv-03130-BWA-DPC   Document 45   Filed 02/08/24   Page 5 of 14
+6
+
+ In opposition, Plaintiff argues that it has in formed Nautilus of Dishman’s involvement in
+the claim at least four times: (1) Dishman’s curriculum vitae was included in the documentation
+supporting Plaintiff’s June 17, 2022 demand; (2) that same demand documentation was provided
+to counsel with Plaintiff’s October 3, 2022 case management order disclosures; (3) Dishman was
+listed on Plaintiff’s July 11, 2023 Rule 26 initial disclosures; and (4) Dishman was included in
+Plaintiff’s November 20, 2023 expert disclosures, along with the report signed by both Dishman
+and Guidry.45  Plaintiff further argues that its expert disclosure of Dishman and Guidry complied
+with Rule 26(a)(2)(B) because it informs Nautilus of the opinions  they will render regarding the
+scope and cost to repair the property damage said to be “caused” by Hurricane Ida, which occurred
+on August 29, 2021, the identified “date of loss.”46  In the alternative, Plaintiff argues that Dishman
+and Guidry should be permitted to testify as experts in property damage assessment and estimating
+or at least as fact witnesses.47
+ Nautilus replies, reiterating that The Able  Group witnesses should not be permitted to
+testify as to causation because such opinions are not stated in their report.48
+ Rule 26(a)(2)(B) of the Federal Rules of Civi l Procedure requires a pa rty to disclose the
+identity of any expert witness it may use at tr ial and generally must accompany this disclosure
+with a written report prepared and signed by the witness.   The report must contain, among other
+things, “a complete statement of all opinions the witness will express and the basis and reasons for
+them.”  Fed. R. Civ. P. 26(a)(2)(B)(i).  An expe rt who fails to provide a report complying with
+Rule 26(a) should not be permitted to testify “unle ss such failure was substa ntially justified or is
+harmless.”  Fed. R. Civ. P. 37(c)(1).
+
+45 R. Doc. 33 at 1-6.
+46 Id. at 6-8.
+47 Id. at 8-10.
+48 R. Doc. 43.
+Case 2:22-cv-03130-BWA-DPC   Document 45   Filed 02/08/24   Page 6 of 14
+7
+
+ Here, Plaintiff complied with Rule 26 in disclosing Dishman and Guidry as expert
+witnesses in property damage assessment and estimating.  Beginning in  June 2022, Plaintiff
+repeatedly informed Nautilus that both Dishman and Guidry were involved in producing The Able
+Group’s estimate of the property damage.  Nevertheless, The Able Group report does not provide
+specific opinions regarding causation.  Accordingl y, Dishman and Guidry may testify as experts
+in property damage assessment and estimating (to the extent that their testimony is not
+unnecessarily cumulative), but they may not rend er opinions regarding causation beyond stating
+that Plaintiff attributes the loss to Hurricane Ida.
+ 2. Nautilus’s motion in limine regarding Keith Colson
+ Nautilus seeks to exclude Colson from testifying at trial because his report and estimate
+were not produced timely, he is unq ualified to testify as an engi neering expert, and his report is
+unreliable due to inaccuracies concerning the roof  gauge, insulation, and the inclusion of figures
+for commercial tax, overhead, and profit. 49  Plaintiff responds in opposition, arguing that the
+untimely production should be excused as nonprejudicial, it does not intend to offer Colson as an
+expert engineer, and the cited inaccuracies go to  the weight, not the admissibility, of Colson’s
+opinions.50  Nautilus replies, reiterating that Colson ’s opinions are untimely, outside the area of
+his expertise, and unreliable.51
+On June 28, 2023, this Court entered a schedu ling order that set November 20, 2023, as
+Plaintiff’s deadline to produce its expert disclosu res pursuant to Rule 26(a)(2)(B) of the Federal
+Rules of Civil Procedure, and Nautilus’s reciprocal deadline as December 19, 2023. 52  T h e
+scheduling order informs the parties that “[t]he C ourt will not permit any witness, expert or fact,
+
+49 R. Doc. 24.
+50 R. Doc. 37.
+51 R. Doc. 42 at 1-5.
+52 R. Doc. 10 at 3.
+Case 2:22-cv-03130-BWA-DPC   Document 45   Filed 02/08/24   Page 7 of 14
+8
+
+to testify … unless there has been  compliance with this Order as  it pertains to the witness …
+without an order to do so issued on a motion for good cause shown.”53  On November 20, Plaintiff
+produced to Nautilus its expert disclosures stating for the first time that it intended to offer Colson
+as a roofing expert.54  That same day, Plaintiff’s counsel informed Nautilus’s counsel that he was
+waiting on Colson’s report and requested a 10-day extension.55  Nautilus’s counsel responded that
+her client did not authorize an extension.56  Colson inspected the property on November 28, 2023.57
+Plaintiff produced Colson’s report and es timate on December 8, 2023, and December 17, 2023,
+respectively.58
+The timeline shows that Plaintiff timely disclosed Colson as a fact witness but failed to
+timely produce his Rule 26(a)(2)(B) expert report.  Although Plaintiff sought opposing counsel’s
+consent for an extension, when it was not receive d, Plaintiff failed to file a motion to extend the
+deadline.  The scheduling order cautions that a witness not disclosed in compliance with the order
+will not be permitted  to testify unless the Court allows it by order “issued on a motion for good
+cause shown.”  There was no motion showing good cause for Plaintiff’s  tardy production of
+Colson’s expert report and estimate, and conse quently, the required or der was not obtained.
+Accordingly, Colson may not testify as an expert in any respect, but he may testify as a fact witness
+limited to his observations based on personal knowledge.  Nautilus’s concerns with the substance
+of Colson’s anticipated testimony (o ther than expert opinions, wh ich are not permitted) can be
+addressed through cross-examination and contemporaneous objections.
+
+53 Id.
+54 R. Doc. 24-2 at 2.
+55 R. Doc. 24-3.
+56 R. Doc. 24-1 at 2.
+57 Id.
+58 Id. at 2-3.
+Case 2:22-cv-03130-BWA-DPC   Document 45   Filed 02/08/24   Page 8 of 14
+9
+
+ 3. Plaintiff’s motion  in limine regarding Joe Balkan
+ Plaintiff seeks to exclude Balkan’s test imony from trial as untimely disclosed and
+cumulative.59  Plaintiff argues that Nautilus’s expert disclosures were due on December 19, 2023,
+but Balkan inspected the property on Decembe r 22, 2023, and his report and estimate were not
+provided to Plaintiff unt il January 8, 2024, and January 18, 2024, respectively. 60  Plaintiff also
+points out that Nautilus did not include Balkan  on its witness list. 61  Plaintiff further argues that
+Balkan’s testimony and opinions as a roofing expe rt would be cumulative because Nautilus has
+two expert engineers, Bearman and Fleishmann, who will testify about the building’s roof.62
+ In opposition, Nautilus argues that it acted timely in disclosing Balkan as a rebuttal expert
+pursuant to Rule 26(a)(2)(D) of the Federal Rules of Civil Procedure.63  Nautilus states that it hired
+Balkan to rebut Colson’s repor t and estimate, which were th emselves produced  untimely on
+December 8, 2023, and December 17, 2023, respectively, and that it thus timely provided Balkan’s
+report on January 8, 2024.64  Nautilus admits that Balkan’s estimate was produced late – 32 days
+after Colson’s estimate – but submits that the two-day delay did not prejudice Plaintiff considering
+the intervening federal holiday and weather emergency that forced the closure of many offices and
+schools.65
+ Plaintiff replies, arguing that, because Ba lkan was hired to rebu t Colson, if Colson is
+excluded from testifying at trial, Balkan should be as well.66
+
+59 R. Doc. 28.
+60 R. Doc. 28-1 at 1-2.
+61 Id. at 2.
+62 Id. at 3-4.
+63 R. Doc. 36 at 1-4.
+64 Id.
+65 Id.
+66 R. Doc. 44.
+Case 2:22-cv-03130-BWA-DPC   Document 45   Filed 02/08/24   Page 9 of 14
+10
+
+ Rule 26(a)(2)(D)(ii) allows a pa rty to produce expert “evidence [that] is intended solely to
+contradict or rebut evidence on the same subjec t matter identified by another party under Rule
+26(a)(2)(B) or (C), within 30 days after the other party’s disclosure.”  This 30-day delay is built
+into the deadlines established in the Court’s scheduling order.  Here, Nautilus produced Balkan’s
+report to rebut Colson’s tardy opinions within the 30-day window.  Further, considering the
+intervening federal holiday and severe weather, the two-day delay in producing Balkan’s estimate
+is excusable and not prejudicial.  The question remains whether Balkan’s expert testimony is
+necessary given the Court’s exclusion of Colson’s expert testimony.  Yet, because this question is
+not answered solely by the exclusion of Colson’s expert testimony but must be evaluated in the
+context of the evidence presented at trial, th e Court will address any objections based on this
+question, or the cumulation of testimony, as they arise at trial.  Accordingly, Plaintiff’s motion to
+exclude Balkan is denied at this juncture.
+ B. Nautilus’s Motion for Partial Summary Judgment
+  1. Legal Standard
+Summary judgment is proper if the pleadings, depositions, answers to interrogatories, and
+admissions on file, together  with the affidav its, if any, show that there is no genuine issue as to
+any material fact and that the moving party is  entitled to a judgment as a matter of law.  Celotex
+Corp. v. Catrett, 477 U.S. 317, 322 (1986).  “Rule 56(c) mandates the entry of summary judgment,
+after adequate time for discove ry and upon motion, against a party who fails to make a showing
+sufficient to establish the existence of an element essential to that party’s case, and on which that
+party will bear the burden of proof at trial.”  Id.  A party moving for summary judgment bears the
+initial burden of demonstrating the basis for summary judgment and identifying those portions of
+the record, discovery, and any affidavits supporti ng the conclusion that there is no genuine issue
+Case 2:22-cv-03130-BWA-DPC   Document 45   Filed 02/08/24   Page 10 of 14
+11
+
+of material fact.  Id. at 323.  If the moving party meets that burden, then the nonmoving party must
+use evidence cognizable under Rule 56 to demonstrate the existence of a genuine issue of material
+fact.  Id. at 324.
+A genuine issue of material fact exists if a reasonable jury could return a verdict for the
+nonmoving party.  See Anderson v. Liberty Lobby, Inc., 477 U.S. 242, 248 (1986).  The substantive
+law identifies which facts are material.  Id.  Material facts are not genuinely disputed when a
+rational trier of fact could not find for the nonmoving party upon a review of the record taken as a
+whole.  See Matsushita Elec. Indus. Co. v. Zenith Radio Corp., 475 U.S. 574, 587 (1986); EEOC
+v. Simbaki, Ltd ., 767 F.3d 475, 481 (5th Cir. 2014).  Uns ubstantiated assertions, conclusory
+allegations, and merely colorable factual bases ar e insufficient to defeat a motion for summary
+judgment.  See Anderson, 477 U.S. at 249-50; Little v. Liquid Air Corp., 37 F.3d 1069, 1075 (5th
+Cir. 1994); Hopper v. Frank, 16 F.3d 92, 97 (5th Cir. 1994).  In ruling on a su mmary-judgment
+motion, a court may not resolve credibility issues or weigh evidence.  See Delta & Pine Land Co.
+v. Nationwide Agribusiness Ins. Co., 530 F.3d 395, 398-99 (5th Cir. 200 8).  Furthermore, a court
+must assess the evidence, review the facts, an d draw any appropriate inferences based on the
+evidence in the light most favorable to the party opposing summary judgment.  See Tolan v. Cotton,
+572 U.S. 650, 656-57 (2014); Daniels v. City of Arlington, 246 F.3d 500, 502 (5th Cir. 2001).  Yet,
+a court only draws reasonable infe rences in favor of the nonmova nt “when there is an actual
+controversy, that is, when both parties have submitted evidence of contradictory facts.”  Little, 37
+F.3d at 1075 (citing Lujan v. Nat’l Wildlife Fed’n, 497 U.S. 871, 888 (1990)).
+After the movant demonstrates the absence of a genuine issue of  material fact, the
+nonmovant must articulat e specific facts showing a genuine  issue and point  to supporting,
+competent evidence that may be presented in a form admissible at trial.  See Lynch Props., Inc. v.
+Case 2:22-cv-03130-BWA-DPC   Document 45   Filed 02/08/24   Page 11 of 14
+12
+
+Potomac Ins. Co. , 140 F.3d 622, 625 (5th Cir. 1998); Fed. R.  Civ. P. 56(c)(1)(A), (c)(2).  Such
+facts must create more than “some metaphysical doubt as to the material facts.”  Matsushita, 475
+U.S. at 586.  When the nonmovant will bear the bur den of proof at trial on the dispositive issue,
+the moving party may simply point to insufficient admissible evidence to establish an essential
+element of the nonmovant’s claim in order to satisfy its summary-judgment burden.  See Celotex,
+477 U.S. at 322-25; Fed. R. Civ. P. 56(c)(1)(B).  Unless there is a genuine issue for trial that could
+support a judgment in favor of the nonmovant, summary judgment must be granted.  See Little, 37
+F.3d at 1075-76.
+2. Analysis
+  Nautilus moves for partial summary judgmen t on Plaintiff’s cla im for a full roof
+replacement.67  Nautilus argues that the undisputed evidence shows that only 2,400 square feet of
+the roof needs to be replaced and that Plaintif f has no expert evidence supporting its claim for a
+full roof replacement.68  Nautilus contends that Childress, Plaintiff’s expert engineer, testified at
+his deposition that he could not say that a full roof replacement is warr anted and he could not
+determine what portions of the roof actually need replacing without additional testing.69  Further,
+Nautilus argues that Davis, who inspected the building for Childress, identified only five areas of
+the roof that had non-superficial damage.70  Thus, argues Nautilus, the majority of the roof damage
+is superficial and, consequen tly, excluded from coverage. 71  Nautilus also seeks dismissal of
+Plaintiff’s bad-faith claims related to the roof replacement because it relied in good faith on expert
+reports and the policy language to dispute the extent of the damage and coverage.72
+
+67 R. Doc. 26.
+68 R. Doc. 26-1 at 1-8.
+69 Id. at 3-5, 11.
+70 Id. at 5-7, 11.
+71 Id. at 10-12.
+72 Id. at 12-14.
+Case 2:22-cv-03130-BWA-DPC   Document 45   Filed 02/08/24   Page 12 of 14
+13
+
+  In opposition, Plaintiff argues that there are disput ed issues of materi al fact concerning
+whether the entire roof needs to be replaced.73  In support of its position, Plaintiff cites Childress’s
+report where he states that a total roof repl acement is necessary a nd his deposition testimony
+reiterating that opinion. 74  Plaintiff also cites Davis’s deposition testimony to the same effect. 75
+Further, Leonard Lucas, Jr., the pastor of Light City Church, testified that the roof was replaced in
+the early 2000s and did not leak until after Hurricane Ida.76  In opposing dismissal of the bad-faith
+claims, Plaintiff points to ev idence of Nautilus tendering undi sputed amounts outside of the
+statutorily prescribed period and its undue delay in adjusting the claim after Plaintiff submitted
+substantial proofs of loss, and it also questions whether the cosmetic damage exclusion was
+arbitrarily applied.77
+  Nautilus replies, arguing that its motion s eeks a ruling that the roofing surface endorsement
+excludes coverage for cosmetic da mage, and that Plaintiff has faile d to demonstrate that it is
+entitled to a full roof replacement because most of the roof sustained only cosmetic damage. 78
+Nautilus further contends that Plaintiff’s bad-faith claim associated with a full roof replacement
+must be dismissed because Nautilus has paid Pl aintiff for the small portion of the roof that
+sustained covered damage.79
+  Considering the record before the Court, Nautilus has failed to sustain its summary-
+judgment burden of demonstrating that there are no disputed issues  of material fact concerning
+
+73 R. Doc. 38.  Within its opposition memorandum, Plaintiff suggests that the Court, pursuant to Rule 56(d)
+of the Federal Rules of Civil Procedure, should delay ruling on Nautilus’s motion for partial summary judgment until
+after certain depositions are completed.  Id. at 11-12.  The Court declines Plaintiff’s invitation to apply Rule 56(d)
+because denial of the motion is supported by the current record.
+74 Id. at 5-7, 13-15.
+75 Id. at 7, 15-16.  Plaintiff likewise cites Colson’s concurring opinion.  Id. at 8, 16-17.  However, the Court
+does not consider it because Colson may not testify as an expert.
+76 Id. at 8-9.
+77 Id. at 17-24.
+78 R. Doc. 41 at 1-3.
+79 Id. at 3-5.
+Case 2:22-cv-03130-BWA-DPC   Document 45   Filed 02/08/24   Page 13 of 14
+14
+
+whether the building needs an entire roof replace ment, and the conflicting evidence on this score
+will need to be sifted by the factfinder at trial.  Suffice it to say that what is cosmetic to Nautilus
+is damage Plaintiff insists prevents the entire roof from continuing to f unction as a barrier to
+entrance of the elements.  As to Plaintiff’s bad-faith claims, genuine issues of material fact remain
+with respect to the timely payment of undisputed  amounts, and the timeliness and sufficiency of
+Nautilus’s investigation and adjustment of the insurance claim.  As a result, Nautilus’s motion for
+partial summary judgment must be denied.
+III. CONCLUSION
+Accordingly, for the foregoing reasons,
+ IT IS ORDERED that Nautilus’s motion in limine to exclude Dishman, Guidry, and The
+Able Group (R. Doc. 23) is DENIED with respect to entirely excluding Dishman, Guidry, and The
+Able Group.  The motion is GRANTED to the extent of precluding these witnesses from rendering
+opinions on causation beyond stating that Plaintiff attributes the loss to Hurricane Ida.
+IT IS FURTHER ORDERED that Nautilus’s motion in limine to exclude Keith Colson (R.
+Doc. 24) is GRANTED with respect to excluding Colson as an expert witness.  Colson will be
+permitted to testify as a fact witness.
+IT IS FURTHER ORDERED that Plaintiff’s motion in limine to exclude Joe Balkan (R.
+Doc. 28) is DENIED.
+IT IS FURTHER ORDERED that Nautilus’s motion for partial summary judgment on
+Plaintiff’s claim for a full roof replacement and corresponding bad faith (R. Doc. 26) is DENIED.
+New Orleans, Louisiana, this 8th day of February, 2024.
+
+________________________________
+      BARRY W. ASHE
+      UNITED STATES DISTRICT JUDGE
+Case 2:22-cv-03130-BWA-DPC   Document 45   Filed 02/08/24   Page 14 of 14

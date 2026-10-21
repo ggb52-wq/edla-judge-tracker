@@ -1,0 +1,525 @@
+1
+
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+FEDERAL DEPOSIT INSURANCE CORP.  CIVIL ACTION
+
+VERSUS  NO. 20-1259
+
+ERNST & YOUNG LLP ET AL  SECTION “L” (1)
+
+ORDER & REASONS
+Before the Court is Defendant Ernst & Young LLP’s Motion to Compel Arbitration, or in
+the Alternative, to Dismiss the Complaint. R. Doc. 145. Plaintiff opposes the Motion. R. Doc. 159.
+Ernst & Young LLP filed a reply. R. Doc. 161.  Also before the Court is Gloucester Insurance
+Ltd.’s Motion to Stay Litigation Pending Proposed Arbitration. R. Doc. 147. Plaintiff opposed this
+Motion as premature and urged the Court to reset this Motion to Stay for a full briefing schedule
+should it grant the Motion to Compel Arbitration. R. Doc. 157.  After a review of the record,
+briefings, applicable law, and after hearing oral argument on the motion, the Court now rules as
+follows.
+I. BACKGROUND
+a. Factual Background
+This case arises out of financial statement audits of First NBC Bank and First NBC Bank
+Holding Company, Inc. (“First NBC” or “Bank”) by Ernst & Young LLP in 2014 and 2015. R.
+Doc. 1 ¶ 1. Plaintiff, the Federal Deposit Insurance Corporation as Receiver for First NBC Bank
+(“FDIC-R”)1, filed the instant suit to recover damages from Defendants Ernst & Young LLP
+(“EY”) and Gloucester Insurance Ltd. (“Gloucester”)2, alleging that the audits of First NBC were
+
+1 The State of Louisiana closed First NBC Bank on April 28, 2017, and appointed the FDIC as Receiver. R. Doc. 1
+at 4.
+2 Gloucester provided EY with professional liability insurance during the relevant period. R. Doc. 1 ¶ 11.
+Case 2:20-cv-01259-EEF-JVM   Document 164   Filed 01/23/24   Page 1 of 20
+2
+
+negligently performed. Id. ¶ 2. Specifically, FDIC -R alleges that EY failed to design audit
+procedures to discover material fraud, and accor dingly, failed to discover fraud perpetrated by
+First NBC’s President and Chief Executive Officer, Ashton Ryan. Id. 1 ¶ 2. Additionally, FDIC -
+R contends EY identified false statements made by Ryan but failed to investigate the falsehoods
+or report them to the Audit Committee. Id. ¶ 3. FDIC-R further alleges that EY negligently issued
+an unqualified opinion regarding First NBC’s financial statements and internal controls processes.
+Id. FDIC-R characterizes these actions as a breach of EY’s professional duties. Id.
+FDIC-R alleges that First NBC suffered at least $125 million in losses as a result of Ryan’s
+fraudulent conduct, which was not detected or timely reported by EY . Id. In recounting Ryan’s
+allegedly fraudulent practices, FDIC-R explains that Ryan held formal roles as the Bank’s founder
+and CEO in addition to overseeing the lending department and having unilateral authority to
+approve tax credit investments. Id. ¶ 16–19. FDIC-R argues that Ryan, acting in his own interest,
+“committed fraud at First NBC  by repeatedly causing the Bank to advance money through loans
+and tax credit investments on false pretenses.” Id. ¶ 20. He further allegedly “advance[d] hundreds
+of millions of dollars to promote his own financial interests and mask the deteriorating fina ncial
+condition of his lending and tax credit investment portfolios.” Id. ¶ 4. Additionally, FDIC -R
+contends Ryan made numerous “false statements in loan approval memoranda regarding the
+condition of collateral, alleged payments by borrowers, and the exist ence and financial condition
+of guarantors,” which were identified in EY’s work papers but not acted upon. Id. ¶ 20. The
+Complaint also identifies several other alleged actors in the scheme, including Jeffrey Dunlap,
+Kenneth Charity, and Gregory St. Angelo . Id. ¶ 21–23. FDIC-R contends that these fraudulent
+practices, and accordingly the $125 million loss associated with them, could have been discovered
+and prevented had EY conducted its audits in accordance with its professional responsibilities.
+Case 2:20-cv-01259-EEF-JVM   Document 164   Filed 01/23/24   Page 2 of 20
+3
+
+FDIC-R alleges that EY was engaged to conduct integrated audits in 2014 and 2015 as
+required by the Sarbanes -Oxley Act. Id. ¶ 28 –29. An integrated audit requires an auditor to
+evaluate a company’s financial statements and internal controls over financial reporting . Id. ¶ 28.
+During the audits, EY was allegedly given “direct and unfettered” access to the Bank’s internal
+systems and records  Id. ¶ 30. EY’s audit for the 2014 fiscal year represented that the Bank’s
+consolidated financial statements “were fairly stated in accordance with GAAP and free from
+material misstatement whether due to error or fraud.” Id. ¶ 32. The audit also included an
+unqualified opinion that the Bank’s internal controls over financial reporting were effective. Id. ¶
+32. As to the 2015 fiscal year, EY issued an unqualified opinion regarding the Bank’s consolidated
+financial statements but  finally identified several material weaknesses in internal controls and
+accordingly issued an adverse opinion. Id. ¶ 33.
+FDIC-R identifies a number of alleged failures on EY’s part that caused the fraud to remain
+undiscovered. In particular, FDIC -R alleges that EY failed to exercise professional skepticism
+while conducting the audits and failed to  timely identify material weaknesses in internal controls
+despite knowing that Ryan exercised a dominant influence over the Bank’s lending and financial
+statement process, including personally handling a large portfolio of loans and tax credit
+investments and recklessly advancing tens of millions of dollars to borrowers without meaningful
+controls.” Id. ¶ 5. Additionally, FDIC-R argues that EY ignored fraud risks, failed to design audit
+procedures that would adequately address those risks, and failed to obtain sufficient information
+to support its audit opinions, relying instead—erroneously—on management’s representations. Id.
+¶ 6. FDIC-R contends these failures constitute breaches of EY’s professional duties to conduct the
+audits in accordance with Public Company Accounting Oversight Board rules, auditing standards,
+Case 2:20-cv-01259-EEF-JVM   Document 164   Filed 01/23/24   Page 3 of 20
+4
+
+quality co ntrol standards, GAAP and Generally Accepted Auditing Standards, and other
+professional auditing standards. Id. ¶ 39.
+Based on the foregoing, FDIC-R brought suit against EY in this Court on April 22, 2020,
+seeking damages for professional negligence from EY. Id. ¶ 133. FDIC -R also brings a direct
+action against Gloucester, an insurance entity that provided $400 million in  professional liability
+insurance coverage to EY during the relevant period. Id. ¶ 138.
+On June 1, 2020, the United States filed a Motion to Intervene and Stay the case under Rule
+24 of the Federal Rules of Civil Procedure. R. Doc. 21. On July 13, 2020, th is Court granted the
+government’s motion to stay the case due to the overlapping facts between the instant case and the
+criminal cases related to the Bank’s failure. See R. Doc. 55 at 10-15. The criminal case concluded
+and the stay in this matter was lifted on March 3, 2023. R. Doc. 85.
+b. The Belcher Suit & PCAOB Materials
+While the matter was stayed, EY alleged that counsel for FDIC -R in this case obtained
+confidential and privileged information from the Public Company Accounting Oversight Board
+(“PCAOB”) relating to PCAOB’s investigation into the financial statement audits performed by
+EY. R. Doc. 58 -1 at 2. Specifically, they alleged that counsel received and reviewed materials,
+including thousands of pages of testimony transcripts, in preparation for a de position of Daniel
+Belcher, a former auditor with EY. Id. (citing FDIC v. Belcher, No. 19-12561). In a proceeding in
+another section of this Court, the FDIC-R sought to enforce an administrative subpoena requiring
+Belcher to appear at a deposition . See FDIC v. Belcher, No. 19-12561, No. 19-12561, 2019 WL
+6728338 (E.D. La. Dec. 11, 2019) (Zainey, J.). In that case, the district court ruled against Belcher
+and enforced the subpoena after concluding that the materials the PCAOB provided to the FDIC -
+Case 2:20-cv-01259-EEF-JVM   Document 164   Filed 01/23/24   Page 4 of 20
+5
+
+R were produced pursuan t to a statutory authorization, 3 and therefore the subpoena was not
+improper in any manner. See id.
+On October 26, 2020, the Fifth Circuit issued an opinion concluding that the lower court
+erred when interpreting 15 U.S.C. § 7215(b)(5)(B) so as to authorize the PCAOB to share the
+materials with the FDIC -R. FDIC v. Belcher,  978 F.3d 959 , 963-64 (5th Cir. 2020). The Fifth
+Circuit held that none of the confidential and privileged EY materials that the PCAOB had amassed
+during its investigation into EY should have been provided to the FDIC -R. Id. The Fifth Circuit
+then directed the district court to fashion “ some form of meaningful relief,” notwithstanding that
+Belcher had already been deposed, and remanded the case. Id. at 961 n.1.
+On remand, Judge Zainey, who was handling the subpoena enforcement matter, denied the
+FDIC-R’s renewed motion to enforce, and de nied the FDIC -R’s request that the Court find that
+Belcher’s deposition was valid. In their motion to enforce, FDIC-R took the position that no further
+action other than the destruction of the materials was required to address the PCAOB’s erroneous
+production of EY’s confidential and privileged materials. Judge Zainey declined to address what
+specific remedies are now available to Belcher or EY and instead deferred to this Court for
+determining the appropriate remedy.
+On January 25, 2021, FDIC-R then allegedly forwarded EY’s counsel a letter it sent to the
+PCAOB stating that in light of the Fifth Circuit ruling, it intended to destroy the documents it had
+obtained from the PCAOB. R. Doc. 86 -1 at 11. However, FDIC -R did not commit to destroying
+all internal documents of FDIC-R counsel reflecting the contents of and documents provided by
+the PCAOB nor did it intend to recuse any counsel who had reviewed the documents. Id.
+
+3 The district court based its decision on the “federal functional regulator” statutory exception. 15 U.S.C. §
+7215(b)(5)(B)(ii)(II)
+Case 2:20-cv-01259-EEF-JVM   Document 164   Filed 01/23/24   Page 5 of 20
+6
+
+On January 29, 2021, EY moved for a partial lifting of the stay before this Court to address
+the issues it perceived with the FDIC-R’s unauthorized access to PCAOB documents, including a
+motion to disqualify FDIC-R’s counsel, and FDIC-R responded by filing a “Renewed Motion to
+Enforce Administrative Subpoena” in the original Belcher matter bef ore Judge Zainey. Judge
+Zainey rejected the FDIC -R’s bid and explained in his ruling that the FDIC -R had “not
+demonstrated that Belcher’s deposition is without taint.” Order Denying Renewed Motion to
+Enforce Administrative Subpoena, FDIC-R v. Belcher, No. 19-12561 (E.D. La. Mar. 18, 2021), R.
+Doc. 134 at 13. This Court then held a hearing on March 31, 2021 regarding EY’s request for a
+partial lift of the stay. R. Doc. 75. This Court ultimately maintained the stay in deference to the
+criminal proceedings  which were then ongoing , denying EY’s motion  to disqualify counsel
+without prejudice to EY’s ability to file it after the stay of this case was lifted. R. Doc. 76. The
+court ordered FDIC -R, its counsel, and consultants to preserve any relevant documents in th e
+meantime. Id. Upon FDIC -R’s unopposed motion following the conclusion of the criminal
+proceedings, the Court lifted the stay on March 3, 2023. R. Doc. 85.
+EY subsequently filed its motion to disqualify counsel and for other relief. R. Doc. 86.
+Following the parties’ briefing on the matter, the Court granted the motion to disqualify and
+ordered FDIC-R to substitute new counsel and to “return to EY and/or destroy all material provided
+by the PCAOB.” Order & Reasons, R. Doc. 112 (hereinafter “June Order”). The Court gave FDIC-
+R until October 31,2023 to comply with this June Order. R. Doc. 128 . On September 22, 2023,
+FDIC-R filed a Notice of Compliance and a Motion to Confirm Scope of the June Order and on
+October 31, 2023, this Court held that the administrative depositions were not included in the
+documents to be returned or destroyed  and that the proposed disqualification and destruction
+Case 2:20-cv-01259-EEF-JVM   Document 164   Filed 01/23/24   Page 6 of 20
+7
+
+actions complied with the June Order. Order & Reasons, R. Doc. 139 (hereinafter “October
+Order”).
+II. PRESENT MOTION
+In the instant motion, EY urges the Court to compel arbitration  in this matter pursuant to
+the engagement agreements (also referred to as “contracts”  or “agreements”) executed between
+EY and the Bank’s Holding Company because they contain a mandatory arbitration clause which
+also requires threshold questions of arbitrability to be sent to arbitration. R. Doc. 145-1 at 4. While
+the Bank was not a signatory to those engagement agreements, EY argues that FD IC-R, as its
+receiver, is nonetheless bound by them and the arbitration clause by operation of direct benefits
+estoppel because the Bank “embraced” the contracts by both “knowingly seeking and obtaining
+‘direct benefits’ from” them as well as by “asserting claims that must be determined by reference
+to” those contracts. Id. at 8-9 (quoting Traders’ Mart Inc. v. AOS, Inc. , 268 So. 3d 420, 428 (La.
+App. 2 Cir.  2019)). The benefit sought and obtained by the Bank was that it used the audits
+performed under the contracts to satisfy its regulatory obligations, which EY argues is one
+independent ground for finding the Bank, and thus FDIC -R, is bound by the contracts and their
+arbitration clause. Id. at 9-12. As another independent ground for estoppel, EY argues that FDIC-
+R’s claims must be determined by reference to the engagement agreements because “the Receiver
+would have no cause of action for professional negligence but for the underlying agreeme nts.
+There would have been no audit at all without those agreements.” Id. at 12.
+EY argues that should the Court not compel arbitration, it alternatively should dismiss the
+complaint for failure to state a claim because Louisiana’s privity statute bars thi s cause of action.
+Id. at 16. Citing La. R.S. § 37:91(B)(2), EY argues that the Louisiana Accountancy Act limits who
+may bring a negligence cause of action against an accountant and that FDIC-R does not satisfy the
+Case 2:20-cv-01259-EEF-JVM   Document 164   Filed 01/23/24   Page 7 of 20
+8
+
+privity requirement. Id. at 16 -18. Specif ically, the statute requires a non -client plaintiff to
+demonstrate that it both detrimentally relied upon the audit and that the auditor was aware that the
+audit would be used for a “specified transaction.” Id. at 17 (quoting the statute). EY asserts that
+FDIC-R can show neither detrimental reliance nor a specified transaction and therefore its claim
+against EY must be dismissed. Id. at 18-23.
+FDIC-R opposes the motion on all grounds.  R. Doc. 159. FDIC-R argues that federal law
+bars EY from compelling FDIC -R to arbitrate, citing the Administrative Dispute Resolution Act
+(“ADR Act”), the Financial Institutions Reform, Recovery, and Enforcement Act (“FIRREA”),
+and E.E.O.C. v. Waffle House, Inc., 534 U.S. 279 (2002). Id. at 2. FDIC-R explains that the ADR
+Act sets forth the specific requirements as to when a federal agency can be compelled to arbitrate,
+which are not present in this case. Id. at 1. The FIRREA grants the FDIC-R a “statutory right to a
+federal judicial forum” of which EY cannot deprive it  because the Supremacy Clause requires
+federal law to trump state law doctrines such as estoppel. Id. at 1-2. Further, the Supreme Court in
+Waffle House has “concluded that public agencies like FDIC -R cannot be compelled to arbitrate
+when they have authority to choose their forum.” Id. at 2. FDIC-R argues additionally that should
+this Court find estoppel applies, state law under either New York or Louisiana requires the same
+result because (1) both states apply the principles of Waffle House, and (2) FDIC -R has neit her
+invoked the contracts nor received a benefit expressly provided by them. Id.
+On the motion to dismiss, FDIC-R avers that both the detrimental reliance and the specified
+transaction requirements of La. R.S. § 37:91(B)(2) are satisfied and pled sufficien tly in the
+complaint and therefore dismissal is unwarranted. Id.
+Case 2:20-cv-01259-EEF-JVM   Document 164   Filed 01/23/24   Page 8 of 20
+9
+
+EY filed a reply brief  distinguishing the case law relied upon by FDIC-R in its opposition
+to this motion and reiterating its central arguments in favor of arbitration. R. Doc. 161. The Court
+heard oral argument on this motion on Wednesday, January 17, 2024.
+III. APPLICABLE LAW
+A. Arbitration
+The Federal Arbitration Act (“FAA”) governs contracts that affect interstate commerce and
+contain arbitration clauses. Citizens Bank v. Alafabco, Inc. , 539 U.S. 52, 55 -6 (2003). The FAA
+states that a provision within
+a contract evidencing a transaction involving commerce to settle by arbitration a
+controversy thereafter arising out of such contract or transaction, or the refusal to
+perform the whole or an y part thereof, or an agreement in writing to submit to
+arbitration an existing controversy arising out of such contract, transaction, or
+refusal, shall be valid, irrevocable, and enforceable.
+
+9 U.S.C. § 2. The purpose of the FAA is to permit arbitration agreements to be “as enforceable as
+other contracts, but not more so.” Morgan v. Sundance, Inc. , 596 U.S. 411, 418 (2022).
+Accordingly, “a court may not devise novel rules to favor arbitration over litigation.” Id.
+The FAA is not without its limits and arbitration may be disallowed if a litigant is a federal
+agency. The ADR Act provides that arbitration is available for a federal agency party “whenever
+all parties consent” and that the “arbitrat ion agreement shall specify a maximum award that may
+be issued by the arbitrator and may specify other conditions limiting the range of possible
+outcomes.” 5 U.S.C. § 575(a)(1)-(2).
+The Supreme Court has also held that federal agencies may not be compelled to arbitrate
+when they have the statutory authority to pursue a claim in their own name . In Waffle House, the
+Supreme Court addressed whether the EEOC was limited by an arbitration agreement signed by
+the employee whose rights it sought to vindicate after he alleged wrongful termination due to
+Case 2:20-cv-01259-EEF-JVM   Document 164   Filed 01/23/24   Page 9 of 20
+10
+
+disability. 534 U.S. 279 (2002). The employee, Baker, was not a party to the suit brought by the
+EEOC against the employer, Waffle House. Id. at 283-84. The district court denied the employer’s
+motion to compel arbitration and the Court of Appeals for the Fourth Circuit, balancing competing
+priorities between the FAA, Title VII, and the arbitration agreement, held that “when an employee
+has signed a mandatory arbitration agreement, the EEOC’s remedies in an enforcement action are
+limited to injunctive relief” and it may not pursue victim-specific remedies. Id. at 285, 293.
+The Supreme Court reversed, finding the EEOC may pursue both categories o f relief and
+to hold otherwise would interfere with its statutorily authorized public function in “seeking to
+vindicate a public interest.” Id. at 294-96. The Supreme Court reasoned that it has recognized other
+instances where the EEOC does not stand precisely in the employee’s shoes, for example it is not
+bound by statutes of limitations, it does not need to comply with Rule 23 requirements, and that it
+may seek equitable relief in court on behalf of employees who have signed arbitration agreements.
+Id. at 297-98 (first citing Occidental Life Ins. Co. of California v. E.E.O.C. , 432 U.S. 355, 368
+(1977); then citing General Telephone of the Northwest, Inc. v . E.E.O.C. , 446 U.S. 318, 326
+(1980); then citing Gilmer v. Interstate/Johnson Lane Corp., 500 U.S. 20, 32 (1991)). Relying on
+the plain language of Title VII, the Court found that the statute “specifically grants the EEOC the
+exclusive authority over the choice of forum and the prayer for relief once a charge has been filed”
+and that “ordinary principles of res judicata, mootness, or mitigation may ap ply to EEOC claims
+does not contradict these decisions, nor does it render the EEOC a proxy for the employee.” Id. at
+298.
+Under its statutory authority, the FDIC is required to take into account a number of public
+interest considerations, including but not limited to its impact on other insured banks and local
+businesses, it must both maximize its recovery and  minimize its losses, it must have “due regard
+Case 2:20-cv-01259-EEF-JVM   Document 164   Filed 01/23/24   Page 10 of 20
+11
+
+to the conditions of credit in the locality,”  and it must consider housing affordability when
+liquidating assets. 12 U.S.C. § 1821(h)(1); id. at § 1821(h)(4)(A); id. at (d)(2)(E); id. at
+(d)(13)(E)(v). The FDIC has the right to remove most cases to federal court, it has the right to issue
+administrative subpoenas in the course of administering its duties, and it is unfettered by certain
+state and common law constraints that would otherwise apply to a regular receiver, for example it
+is entitled to  extensions of statutes of limitations , and it may bring negligence claims against
+directors and officers even when state law would require a greater standard of culpability.  12
+U.S.C. § 1819(b); 12 U.S.C. § 1821(d)(2)(I); id. at § 1821(e)(1); id. at § 1821(k).
+Federal courts recognize that in some instances the FDIC has statutory responsibilities that
+distinguish it from an ordinary receiver. See, e.g., U.S. v. Sweeney, 226 F.3d 43, 45 -46 (1st Cir.
+2000) (holding that when the FDIC acts a receiver for a failed bank, it “fosters important public
+policies relating to the avoidance of a national banking crisis”); Niemuller v. Nat’l Union Fire Ins.
+Co. of Pittsburgh, PA, No. 92 Civ. 0070 (SS), 1993 WL 546678, at  *4 (S.D.N.Y. Dec. 30, 1993)
+(Sotomayor, J.) (“[R]egulatory banking agencies have greater standing than ordinary successors -
+in-interest because they, empowered by statute, represent the bank as well as the creditors,
+depositors and shareholders of the bank.”).
+Nevertheless, c ourts also recognize that the FDIC wear s many hats, and courts treat it
+differently depending on whether it is acting in its corporate capacity or as a receiver. See, e.g.,
+FDIC v. Ernst & Young, LLP , 374 F.3d 579, 581 (7th Cir. 2004).  One case out of the Seventh
+Circuit, FDIC v. Ernst & Young, LLP, is particularly illuminating on the relationship between the
+FDIC’s various roles and arbitration. There, Judge Easterbrook explained as follows:
+FDIC-Receiver acquires the assets and legal interests  of the failed bank and
+proceeds much as a trustee in bankruptcy; FDIC-Corporate acts as a guardian of the
+public fisc, disburses proceeds from the insurance fund, and having paid insurance
+claims is subrogated to rights of the bank’s depositors against the failed institution.
+Case 2:20-cv-01259-EEF-JVM   Document 164   Filed 01/23/24   Page 11 of 20
+12
+
+Id. In that case, the FDIC in its corporate capacity had supplied credit to make depositors whole
+after the failure of Superior Bank FSB (“Superior”). It alleged that as a result, the insurance fund
+suffered losses near $500 million and it sued EY, Superior’s accounting firm, for those damages.
+Id. at 580. The court described FDIC’s theory as “FDIC -Corporate suffered an injury when it
+disbursed money from the insurance fund; it asserts that Ernst & Young caused (part of) this loss.”
+Id. at 582 (explaining why FDIC-Corporate had standing to bring the suit).
+However, the court found that, despite having standing, FDIC-Corporate could not pursue
+this malpractice cause of action because it belonged to the client, Superior, and accordingly now
+belonged to FDIC acting in its receiver capacity. Id. at 581 (“Other claims held by the failed bank
+(as opposed to its depositors) come within the control of FDIC-Receiver. Accounting misconduct,
+like legal malpractice, may entitle the client (and FDIC -Receiver as its proxy) to recover
+damages.”). The court, and EY, believed FDIC -Corporate brought the suit, rather than FDIC -
+Receiver, because “FDIC believes that this maneuver allows it to avoid two terms of the contract
+by which Superior Bank engaged Ernst & Young. Superior Bank promised to arbitrate any disputes
+with the accounting firm, and it also waived any claim to punitive damages.” Id. The court further
+explained that Illinois state law authorized suits by third parties against accountants for fraud, and
+that FDIC -Corporate was hoping to “take advantage of state law’s beneficial aspects while
+avoiding those it does not like – particularly rules enforcing waivers of punitive dama ges and
+agreements to arbitrate.” Id. at 580-81, 583.
+ The court ultimately found against FDIC on this basis. Id. at 584. The court also agreed in
+theory with the district court’s rejection of a repudiation argument under 12 U.S.C. § 1821(e).
+Below, the FDIC had argued that § 18 21(e), which authorizes the FDIC as receiver to repudiate
+contracts it finds burdensome to the administration of the failed institution’s affairs, permitted it
+Case 2:20-cv-01259-EEF-JVM   Document 164   Filed 01/23/24   Page 12 of 20
+13
+
+to repudiate the arbitration clause. Id. In so rejecting, the district ju dge found a piecemeal
+repudiation power to result in absurd consequences, such as repudiating a decimal in a percentage
+or the word “not” in various clauses, and concluded repudiation would apply to the entire contract,
+not parts of it. See id. The Seventh Circuit did not resolve this question but found it “hard to escape
+the logic of the district judge’s position,” reasoning that “[i]f the FDIC really thought that FDIC -
+Receiver could ignore these promises, then why did FDIC -Corporate pursue this litigation ? It
+makes sense only if FDIC -Receiver is bound” by the agreement to arbitrate and waive punitive
+damages. Id.
+ Federal courts have  compelled the FDIC as a receiver to arbitrate on behalf of the
+institution it succeeded when that institution would have itself been required to arbitrate. In College
+Boulevard National Bank v. Credit Systems, Inc., the District Court of Kansas held that the FDIC
+as receiver for College Boulevard National Bank (“CBNB”)  was bound by the arbitration clause
+in the contract between CBNB and Credit Systems Inc., just “as CBNB would have been.” No. 92-
+2051-EEO, 1994 WL 242670, at * 1 (D. Kan. May 18, 1994). In that case, the FDIC had argued it
+could only be compelled into nonbinding arbitration, relying on 5 U.S.C. § 580 which, at the time,
+had authorized the head of an agency that is a party to terminate an arbitration proceeding or vacate
+an arbitration award.4 See id. The court disagreed, finding no statutory or precedential support for
+limiting FDIC’s authority to only participate in nonbinding arbitration. Id. (first citing FDIC v. Air
+Florida System, Inc., 822 F.2d 833 (9th Cir. 1987); then citing Chemical Futures & Options, Inc.
+v. RTC, 832 F. Supp. 1188 (N.D. Ill. 1993)). The court compelled the parties, including the FDIC
+as receiver, to arbitrate the claims. Id. at *1-*2.
+B. Estoppel
+
+4 That language was later struck from the statute in an amendment passed in 1996.
+Case 2:20-cv-01259-EEF-JVM   Document 164   Filed 01/23/24   Page 13 of 20
+14
+
+Arbitration agreements are generally enforceable only against the agreement’s signatories.
+See Kubala v. Supreme Production Services, Inc. , 830 F.3d 199, 201 -02 (5th Cir. 2016).
+Nevertheless, courts may compel a  nonsignatory to arbitrate pursuant to an agreement if certain
+conditions are met. See Bridas S.A.P.O.C. v. Government of Turkmenistan, 345 F.3d 347, 355-56
+(5th Cir. 2003) (recognizing the six theories under which a nonsignatory to an arbitration
+agreement may be bound under ordinary principles of contract and agency law). One such theory
+is estoppel. Hellenic Investment Fund, Inc. v. Det Norske Veritas , 464 F.3d 514, 417 (5th Cir.
+2006). In Louisiana, “[d]irect benefits estoppel involves nonsignatories who, during the life of the
+contract, have embraced the contract despite their nonsignato ry status but then, during litigation,
+attempt to repudiate the arbitration clause in the contract.” Traders’ Mart, Inc. v. AOS, Inc. , 268
+So. 3d 420, 428 (La. App. 2 Cir. 2019). One can “embrace” the contract “(1) by knowingly seeking
+and obtaining ‘direc t benefits’ from that contract; or (2) by seeking to enforce the terms of that
+contract or asserting claims that must be determined by reference to that contract.” Id. (citing Noble
+Drilling Servs. Inc. v. Certex USA, Inc., 620 F.3d 469 (5th Cir. 2010)).
+ Courts find a nonsignatory knowingly sought and obtained a direct benefit when it can be
+shown that the nonsignatory “had actual knowledge of the contract containing the arbitration
+clause” and proceeded with the arrangement in order to obtain some sort of benefit. Noble Drilling,
+620 F.3d at 473; Hellenic, 464 F.3d at 519. For example, in Hellenic, Hellenic Investment Fund
+(“Hellenic”) purchased a ship from Inlet Navigation Company (“Inlet”), knowing that Inlet had
+contracted with a ship classification society, Det Norske Veritas (“DNV”), to provide “class related
+inspections and certifications.” Hellenic, 464 F.3d at 515-16. When Hellenic sued DNV for issues
+relating to its classification services, the Fifth Circuit held that Hellenic was bound by the
+arbitration clause in the contract between Inlet and DNV because it knew of the agreement and
+Case 2:20-cv-01259-EEF-JVM   Document 164   Filed 01/23/24   Page 14 of 20
+15
+
+“specifically admitted before the district court that ‘without … that condition of class [certificate],
+we wouldn’t have done the deal.” Id. at 519. The court reject ed the argument that those services
+“ultimately proved of little benefit to Hellenic” because “at the critical moment of sale, DNV’s
+performance was essential to Hellenic’s decision to purchase the MARIANNA.” Id. The court thus
+affirmed the lower court’s e nforcement of the arbitration clause in the Inlet -DNV agreement. Id.
+at 520.
+ Courts have also found that that a nonsignatory obtained a direct benefit when they receive
+“the same sort of benefits from the [] agreement that a client would have received ” su ch as
+“research, reasoning, drafting, and filing” services. Blaustein v. Huete, 449 F. App’x 347, 350 (5th
+Cir. 2011). In Blaustein v. Huete , the Fifth Circuit again rejected an argument that the services
+were of no actual benefit because they turned out to be “poorly rendered,” noting that Huete had
+received all of the same services he would have received if he had hired the firm himself, and
+“[t]he only way this benefit could have been any more direct were if Huete had been an actual
+party to the fee agreement” in question. Id.
+ A separate way a nonsignatory may embrace a contract and thus be bound by the arbitration
+clause contained therein is when they assert a claim that must be determined by reference to the
+contract. In Hellenic, the court explained that Hellenic’s claim was “based upon DNV’s failure to
+follow its own Rules in classing the MARIANNA,” rules which contained the arbitration clause.
+Hellenic, 464 F.3d at 519 -20. The court estopped Hellenic from denying the contract on this
+ground, reasoning that “Hellenic cannot embrace the Rules by bringing a claim under Otto Candies
+alleging, in essence, a violation of the DNV Rules without accepting the consequences of those
+Rules,” that is, by disavowing the arbitration clause. Id. at 520.
+Case 2:20-cv-01259-EEF-JVM   Document 164   Filed 01/23/24   Page 15 of 20
+16
+
+ Courts applying New York law, the choice of law selected in the agreement, employ a
+similar direct benefits estoppel doctrine.  “Under New York law, the ‘guiding principle’ of the
+theory ‘is whether the benefit gained by the nonsignatory is one that be traced directly to the
+agreement containing the arbitration clause.’” Trina Solar US, Inc. v. Jasmin Solar Pty Ltd , 954
+F.3d 567, 572 (2d Cir. 2020) (quoting Belzberg v. Verus Invs. Holdings Inc. , 999 N.E.2d 1130
+(2013)). “The nonsignatory beneficiary must actually invoke the contract to obtain its benefit, or
+the contract must expressly provide the beneficiary with a benefit.” Id.
+c. Privity
+Under Louisiana’s privity of contract statute, the right to bring a negligence suit against an
+accountant is limited to only those who can demonstrate an injury “as a result of their justifiable
+reliance upon financial statements or other informatio n” prepared pursuant to an engagement
+relationship and either (1) the plaintiff “is the issuer or successor of the issuer of the financial
+statements or other information,” or (2) the defendant accountant “was aware at the time the
+engagement was undertake n that the financial statements or other information were to be made
+available for use in connection with a specified transaction by the plaintiff who was specifically
+identified to the defendant.” La. R.S. § 37:91(B). For the second condition, defendant must have
+“had direct contact and communication with the plaintiff and expressed by words and conduct”
+their understanding of the plaintiff’s reliance. Id.
+ The principle set forth in Ultramares Corp. v. Touche  underpins the privity statute’s
+requirements. See 174 N.E. 441 (N.Y. 1931). Ultramares made clear that liability for negligence
+in the accountant context, without parameters, could “expose accountants to a liability in an
+indeterminate amount for an indeterminate time to an indeterminate class.” Id. at 444. The court
+recounted the extreme ramifications should liability for negligence become so unbounded and
+Case 2:20-cv-01259-EEF-JVM   Document 164   Filed 01/23/24   Page 16 of 20
+17
+
+unpredictable. Id. at 448 (explaining that lawyers could become liable to the public to investors if
+they overlook one statute in the course o f their representation to a client, or that title companies
+could become liable to future unknown purchasers). Reluctant to permit such a parade of horribles,
+the court connected liability with privity and statutes like Louisiana’s codify this principle. See id.
+IV. DISCUSSION
+As a threshold matter, the Court applies Louisiana law and not New York law , as neither
+party urges the applicability of New York law, both parties argue Louisiana law, and the FDIC-R
+alleges causes of action pursuant to Louisiana law.
+EY’s argument is essentially as follows: (1) the agreement between EY and the Holding
+Company contained a  mandatory arbitration agreement;  (2) the Bank (and thus FDIC -R as its
+successor) although not a signatory to the agreement is nevertheless bound by the agreement under
+direct benefits estoppel; (3) FDIC-R is acting as a receiver of the First NBC Bank and thus assumes
+the rights and obligations of that institution; and (4) if arbitration is not compelled, the complaint
+must be dismissed for lack of privity. The FDIC-R’s argument is essentially as follows: (1) as a
+federal agency with authority to select its forum, it cannot be compelled to arbitrate; (2) even if it
+can be compelled to arbitrate, it is not bound by the agreement under estoppel theories; and (3) its
+complaint must not be dismissed because it satisfies the privity requirements of La. R.S. § 37:91.
+For the following reasons, the Court will compel arbitration and therefore will not address the
+parties arguments for or against dismissal.
+First, the Court must address whether the FDIC -R, as a federal agency, can be compelled
+to arbitrate a claim it brings on behalf of a failed institution it has succeeded, and the Court answers
+this question in the affirmative. As Judge Easterbrook explained, the FDIC can act in its corporate
+capacity, which is how it acts when it serves in its regulatory and enforcement role, or it can serve
+Case 2:20-cv-01259-EEF-JVM   Document 164   Filed 01/23/24   Page 17 of 20
+18
+
+as a receiver, whereupon it assumes the rights of the institution into whose shoes it steps. See FDIC
+v. EY, 374 F.3d at 581. In this case, there is no question that the FDIC -R has its receiver hat on
+and that it acts on behalf of the now defunct First NBC Bank. Therefore, the rights it has are only
+those rights that the Bank would have had. The Court thus distinguishes Waffle House from the
+instant suit and finds it unhelpful to the FDIC-R.
+Waffle House involved the EEOC bringing a claim of its own enforcement volition. See
+Waffle House, 534 U.S. at 282. The question presented surrounded the nature of relief the agency
+could obtain in such a context. Id. Central to the Court’s reasoning was the public function of
+EEOC’s enforcement actions in discrimination suits, and the Court found it critical that that EEOC
+was bringing its own enforcement claim, and not a “claim only with Baker’s consent.” Id. at 291.
+While the EEOC bringing its own charge may in fact be “in command of the process,” this is not
+determinative here and the Court finds no reason to reach as broad a holding as to touch on every
+federal agency bringing its ow n enforcement action , as different organic statutes may grant
+agencies different rights and responsibilities. See id. (interpreting Title VII to find that EEOC was
+in command of the suit once it decides to bring an enforcement charge).
+Here, the FDIC-R is not bringing an enforcement claim in its corporate capacity against
+EY. It is asserting a claim which belonged to the Bank, and thus now belongs to it.  The Fifth
+Circuit has held in the course of this same litigation that the FDIC -R is not acting in a regulatory
+or enforcement capacity. Belcher, 978 F.3d at 963-64 (holding that the FDIC in this suit was not
+“the appropriate Federal functional regulator” but rather was “acting in its capacity as the Bank’s
+receiver” and therefore was not entitl ed to documents the regulator could receive) . The Court
+acknowledges that the FDIC-R has statutory rights, in its receiver capacity, that distinguish it from
+regular receivers. However, absent express Congressional authorization to the contrary, this Court
+Case 2:20-cv-01259-EEF-JVM   Document 164   Filed 01/23/24   Page 18 of 20
+19
+
+will not read into the FIRREA an exemption from the FAA.  That other federal courts have either
+compelled the FDIC -R to arbitration or contemplated its permissibility lends support to this
+finding. See FDIC v. EY, 374 F.3d at 584 (contemplating that the FDIC brought suit in its corporate
+capacity to specifically avoid being bound by an arbitration clause it would have been otherwise
+required to respect had it brought suit in its receiver capacity); College Blvd. Nat’l Bank, 1994 WL
+242670, at *1-*2 (compelling the FDIC as receiver to arbitrate a claim that the bank would have
+been required to arbitrate).
+Second, since the FDIC-R can be compelled to arbitrate, the next question is whether it
+should be in this case. That is, whether the FDIC -R is bound by the agr eement between EY and
+the Holding Company. Applying Louisiana law, the Court finds that, because the Bank knowingly
+sought and obtained a direct benefit from the agreement, direct benefits estoppel operates to bind
+the FDIC-R acting in its place. Neither party disputes that the Bank had actual knowledge of the
+agreement. Indeed, in the FDIC-R’s complaint, it alleges specifically that all parties knew that the
+audits conducted by EY for the Holding Company would be used by the Bank to satisfy its
+regulatory obligations. R. Doc. 1 at 10-11. The Court likewise has no trouble concluding that the
+Bank sought and obtained a direct benefit from this agreement. “ EY’s audit reports for the 2014
+and 2015 Audits specifically  provided that they were performed to comply with these audit and
+audit-reporting requirements” Id. at 11. Like in Blaustein, the Bank obtained a direct benefit when
+they received “the same sort of benefits from the [] agreement that a client would have received.”
+See 449 F. App’x at 350.
+During oral argument on this motion, EY observed that the FDIC-R functionally concedes
+that it obtained a direct benefit when it argues that it satisfies Louisiana’s privity statute. In arguing
+that it relied on EY’s audits and was injured as a result of t his detrimental reliance, the FDIC -R
+Case 2:20-cv-01259-EEF-JVM   Document 164   Filed 01/23/24   Page 19 of 20
+20
+claimed that “EY knew that the FDIC, as the Bank’s federal regulator, would review and rely upon
+EY’s audit reports in evaluating the safety and soundness of the Bank’s operations.” R. Doc. 1 at
+11. EY noted that the statute requires the plaintiff, here the FDIC-R, to be the one who relied to its
+detriment, not a third-party regulator. See R. Doc. 145-1 at 22. That the Bank obtained a direct
+benefit is thus clear:  absent this agreement and  relationship between EY  and the Holding
+Company, the Bank would have had to hire its own accounting firm in order to  comply with its
+regulatory requirements. That it did not have to do so and that it could use the audits performed
+pursuant to the agreement is clearly a benefit that the Bank both sought and obtained.
+For the foregoing reasons, the Court finds that the  Bank would have been bound to the
+agreement between EY and the Holding  Company under direct  benefits estoppel and, therefore,
+FDIC-R standing in the Bank’s  shoes as its receiver is bound as  well.  Finding no statutory
+instruction to the contrary, the FDIC-R is required to arbitrate this claim, as the Bank would have
+been. In so finding, the Court  need not reach the question of whether a reliance on the contract
+theory of estoppel would bind the FDIC-R, nor does it reach the question privity and whether the
+complaint can survive a 12(b)(6) motion.
+Accordingly, it is ordered that EY’s Motion to Compel Arbitration be GRANTED and this
+matter be REFERRED
+to arbitration.  It is further  ordered that Gloucester’s Motion to Stay  be
+GRANTED and that this matter be STAYED AND ADMINISTRATIVELY CLOSED pending
+the outcome of that arbitration.
+New Orleans, Louisiana, this 23rd day of January, 2024
+United States District Judge
+Case 2:20-cv-01259-EEF-JVM   Document 164   Filed 01/23/24   Page 20 of 20

@@ -1,0 +1,502 @@
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+KEVIN MERRELL
+
+ CIVIL ACTION
+VERSUS
+
+ NO. 23-1450
+1ST LAKE PROPERTIES, INC.
+
+ SECTION “R” (2)
+
+ORDER AND REASONS
+
+ Before the Court is defendant’s motion to dismiss Count I and strike
+Count II of the amended complaint.1  Plaintiff opposes the motion.2  For the
+reasons set forth below, the Court denies the motion.
+
+I. BACKGROUND
+
+Defendant is a developer and property m anager in the New Orleans
+area.3  This action arises from a data breach of personal ly identif iable
+information (“PII”) collected and held by defendant in the course of its
+business.  Plaintiff alleges that defendant learned of the breach in December
+
+1  R. Doc. 27.
+2  R. Doc. 29.
+3  R. Doc. 24 ¶ 5.
+Case 2:23-cv-01450-SSV-DPC     Document 30     Filed 02/15/24     Page 1 of 21
+2
+
+2021 and that plaintiff was notified  of the breach  in late 2022 .4  The
+information affected by the breach allegedly included names, Social Security
+numbers (“SSN ”), driver’s license numbers, financial account numbers,
+credit card numbers, and debit card numbers.5  Plaintiff was a tenant at one
+of defendant’s properties  from about 2017 to 2018 and alleges that his
+information was compromised as a result of the breach. 6  Specifically ,
+plaintiff alleges that he suffered three incide nts of identity theft.  First,
+Verizon Communications Inc. allegedly claimed plaintiff owed $700 as a
+result of fraudulent purchases ,  after which p laintiff allegedly reported the
+fraud and closed the account. 7  Second, plaintiff alleges that AT&T
+Corporation (“AT&T”) claimed plaintiff owed $800 as a result of fraudulent
+purchases.8  Plaintiff further alleges that AT&T has not removed these
+charges and is requiring plaintiff to file a police report before it does.9  Third,
+plaintiff claims he  discovered an unauthorized inquiry from T -Mobile US
+Inc. on his credit report.10
+
+4  Id. ¶¶ 12-13.
+5  Id. ¶ 16.
+6  Id. ¶ 22.
+7  Id. ¶ 30.
+8  Id. ¶ 31.
+9  Id. ¶ 32.
+10  Id. ¶ 34.
+Case 2:23-cv-01450-SSV-DPC     Document 30     Filed 02/15/24     Page 2 of 21
+3
+
+Plaintiff filed a class action in state court in March 2023  on behalf of
+all individuals residing in Louisiana whose personal information was held by
+the defendant and affected by the data breach .11  Defendant removed the
+action to this Court12 and filed a motion to dismiss the state court petition.13
+The Court partially granted the motion, dismissing with prejudice plaintiff’s
+claims for negligence per se, breach of fiduciary duty, and invasion of
+privacy; dismissing without prejudice plaintiff’s negligence claim ; and
+allowing plaintiff’s Louisiana Database Security Breach Notification Law
+(“LDSBNL”) claim to go forward.14  The Court granted plaintiff leave to file
+an amended complaint  to address  the deficiencies the Court identified in
+plaintiff’s negligence claim, specifically, plaintiff’s failure to “offer[] statutory
+or case authority articulating” the duties plaintiff alleged defendant owed to
+him.15
+Plaintiff has now  filed an amended complaint alleging  negligence
+under Louisiana law and a violation of the LDSBN L.16  As to the negligence
+claim, the amended complaint added citations to various provisions of the
+
+11  R. Doc. 1-2.
+12  R. Doc. 1.
+13  R. Doc. 16.
+14  R. Doc. 23.
+15  Id.
+16  R. Doc. 24.
+Case 2:23-cv-01450-SSV-DPC     Document 30     Filed 02/15/24     Page 3 of 21
+4
+
+LDSBNL and Section 5 of the Federal Trade Commission (“FTC”) Act, which
+plaintiff contends sufficiently articulate standards supporting the duty
+element of a n egligence claim under Louisiana law.   Defendant moves to
+dismiss the negligence claim under Federal Rule of Civil Procedure 12(b)(6)
+and to strike the LDSBNL claim under Federal Rule of Civil Procedure 12(f).17
+The Court considers the motion below.
+
+II. RULE 12(b)(6)
+
+A. Legal Standard
+To survive a Rule 12(b)(6) motion to dismiss, a plaintiff must plead
+enough facts to “state a claim to relief that is plausible on its face.”  Ashcroft
+v. Iqbal, 556 U.S. 662, 678 (2009) (quoting Bell Atl. Corp. v. Twombly, 550
+U.S. 544, 547 (2007)).  A claim is facially plausible “when the plaintiff pleads
+factual content that allows the court to draw the reasonable inference that
+the defendant is liable for the misconduct alleged.”  Id. at 678.  The Court
+must accept all well -pleaded facts as true and must draw all reasonable
+inferences in favor of the plaintiff.  Lormand v. U.S. Unwired, Inc., 565 F.3d
+228, 239, 244 (5th Cir. 2009).  But the Court is not bound to accept as true
+legal conclusions couched as factual allegations.  Iqbal, 556 U.S. at 678.
+
+17  R. Doc. 27.
+Case 2:23-cv-01450-SSV-DPC     Document 30     Filed 02/15/24     Page 4 of 21
+5
+
+On a Rule 12(b)(6) motion, the Court must limit its review to the
+contents of the pleadings, including attachments.  Brand Coupon Network,
+L.L.C. v. Catalina Mktg. Corp., 748 F.3d 631, 635 (5th Cir. 2014).  The Court
+may also consider documents attached to a motion to dismiss or an
+opposition to that motion when the documents are referred to in the
+pleadings and are central to a plaintiff’s claims.  Id.  Additionally, the Court
+may “consider matters of which [it] may take judicial notice.”  Hall v.
+Hodgkins, 305 F. App’x 224, 227 (5th Cir. 2008) (alteration in original)
+(quoting Lovelace v. Software Spectrum, Inc., 78 F.3d 1015, 1017-18 (5th Cir.
+1996) (internal quotation marks omitted)).
+
+B. Plaintiff’s Negligence Claim
+Defendant contends that plaintiff’s amended negligence claim must be
+dismissed because neither the LDSBNL, nor the FTC Act cited by pla intiff
+supplies the basis for a duty under Louisiana negligence law , and p laintiff
+does not allege actual damages sufficient to sustain a claim for negligence.
+The Court held that plainitff’s original complaint failed to allege
+statutory or case law authority to support a duty in negligence under
+Louisiana law.  In the amended complaint, plaintiff cites the LD SBNL, the
+FTC Act, and federal caselaw supporting the duties he alleges.  P laintiff
+Case 2:23-cv-01450-SSV-DPC     Document 30     Filed 02/15/24     Page 5 of 21
+6
+
+contends that defendant owed him specific duties supported by the text of
+the LDSB NL to maintain reasonable security procedures and practi ces to
+protect PII, 18 take all reasonable steps to destroy or arrange for the
+destruction of records within its custody or control containing PII that were
+no longer needed,19 and keep victims of potential data breaches notified. 20
+Plaintiff further alleges that Section 5 of the FTC Act  supports a duty owed
+by a business to employ reasonable measures to protect and secure the PII
+that it collects, citing FTC guidance and federal caselaw.21  Louisiana courts
+have not ruled on whether LDSBNL or the FTC Act and associated caselaw
+set forth cognizable standards for the purposes of a duty-risk analysis under
+Louisiana negligence law.
+There are five elements of a negligence claim under Louisiana law:
+duty, breach, factual causation, legal causation, and damages.  Jack v.
+Evonik Corp., 79 F.4th 547, 556 (5th Cir. 2023); La. Civ. Code Ann. art. 2315.
+The duty -risk analysis “is the standard negligence analysis employed in
+determining whether to impose liability.”  Audler v. CBC Innovis, Inc. , 519
+F.3d 239, 249 (5th Cir. 2008) (quoting Lemann v. Essen Lane Daiquiris ,
+
+18  R. Doc. 24 ¶ 86 (citing La. Rev. Stat. Ann. § 51:3074, et seq.).
+19  Id. ¶ 92 (citing La. Rev. Stat. Ann. § 51:3074(B)).
+20  Id. ¶ 91 (citing La. Rev. Stat. Ann. §§ 51:3074(B) and (C)).
+21  Id. ¶ 95.
+Case 2:23-cv-01450-SSV-DPC     Document 30     Filed 02/15/24     Page 6 of 21
+7
+
+Inc., 923 So. 2d 627, 633 (La. 2006)).  Like ordinary negligence, gross
+negligence is analyzed under the duty-risk analysis.  Rathey v. Priority EMS,
+Inc., 894 So. 2d 438, 459 (La. App. 4 Cir. 2005).  To determine whether a
+defendant owes a plaintiff a duty, Louisiana courts “examine ‘whether the
+plaintiff has any law (statutory , jurisprudential, or arising from general
+principles of fault) to support the claim that the defendant owed him a duty.’”
+Audler, 519 F.3d at 249 (quoting Faucheaux v. Terrebonne Consol. Gov’t ,
+615 So. 2d 289, 292 (La. 1993)) ; see also  Butler v. Denka Pe rformance
+Elastomer, L.L.C., 16 F.4th 427, 445 (5th Cir. 2021) (citing Lemann, 923 So.
+2d at 633).
+To plead a duty, a Louisiana negligence plaintiff must  cite a specific
+standard of care by pointing to “any law (statutory, jurisprudential, or arising
+from general principles of fault).”  Lemann, 923 So. 2d at 633.  The Fifth
+Circuit has recognized that Louisiana law may look to federal statutory and
+regulatory schemes in delineating the scope of a duty under the duty -risk
+analysis.  See Bd. of Comm’rs of Se. La. Flood Prot. Auth. – East v. Tenn. Gas
+Pipeline Co., L.L.C., 850 F.3d 714, 727 (5th Cir. 2017) (applying Louisiana
+law and noting “this court has often held that violation of a [f] ederal law or
+regulation can be evidence of negligence ” (citation and internal quotation
+marks omitted) (alteration in original)).
+Case 2:23-cv-01450-SSV-DPC     Document 30     Filed 02/15/24     Page 7 of 21
+8
+
+As to the LDSBNL, the Court finds that the statute articulates sufficient
+standards of conduct to satisfy the requirements for a duty under Louisiana
+negligence law.  “In order f or the violation of a  . . . statute to constitute
+actionable negligence, the violation must be encompassed within the scope
+of the risks that the statute was designed to protect against .”  Snyder v.
+Bergeron, 501 So. 2d 291, 293 (La. App. 1 Cir. 1986) .  While the legislative
+findings that preface the LDSBNL do not articulate binding standards, they
+define the scope of the risks that the statute was designed to protect against,
+such as the risks to “[t]he privacy and financial security of individuals” posed
+by “the ever more widespread collection of personal informatio n” and the
+risks posed by the failure to timely notify victims of identity theft.   La. Rev.
+Stat. Ann. § 51:3072; see also  Haley Zhu -Butler, Establishing A Cause of
+Action for Cybersecurity Breaches Against Government Agencies in
+Louisiana, 68 Loy. L. Rev. 415, 435 -36 (2022) (“The LDSBNL was enacted
+to protect the security of individuals when their information is collected and
+stored electronically because the legislature recognized the potential  for
+abuse should this information be accessed by unauthorized, ill -intentioned
+parties.”).  Accordingly, the Court finds that plaintiff’s allegations are
+encompassed within the scope of the risks that the statute was designed to
+protect against.
+Case 2:23-cv-01450-SSV-DPC     Document 30     Filed 02/15/24     Page 8 of 21
+9
+
+Further, the statute  imposes specific duties to (1)  “implement and
+maintain reasonable security procedures . . . appropriate to the nature of the
+information to protect the personal information from unauthorized access ,
+destruction, use, modification, or disclosure; ” (2) “take all reasonable steps
+to destroy . . . the records  . . . containing personal information that is no
+longer to be retained ;” and (3)  notify individuals whose information may
+have been compromised in a data breach “in the most expedient time
+possible and without unreasonable delay, but not later than  sixty days from
+discovery of the breach.”  La. Rev. Stat. Ann. §§ 3074(A)-(E); cf. Butler v. E.I.
+Dupont de Nemours & Co., No. 22-30069, 2022 WL 5059893, at *3 (5th Cir.
+Oct. 4, 2022) (findin g plaintiff failed to allege specific standard when they
+pointed to statute which “merely establish [defendant’s] general role in the
+state, the general powers it holds, and the general contours of its actions”).
+Accordingly, the Court finds that plaintiff’s citations to the LDSBNL provide
+some “law (statutory, jurisprudential, or arising from general principles of
+fault) to support the claim that the defendant owed him a duty.”  Butler, 16
+F.4th at  445 (quoting Lemann, 923 So. 2d at  633); see also Berthelot v.
+Union Carbide Corp., No. 22-793, 2022 WL 3280100, at *4 (E.D. La. Aug.
+11, 2022) (“[Plaintiff’s citation to and application of statute] is a far-cry from
+. . . plaintiff’s allegations [in Butler v. Denka Performance Elastomer, L.L.C.,
+Case 2:23-cv-01450-SSV-DPC     Document 30     Filed 02/15/24     Page 9 of 21
+10
+
+16 F.4th 427 (5th Cir. 2021)]  . . . that generally alluded to ‘ unreasonably
+excessive emissions.’”).
+As to the FTC Act, the Court finds that the statute, associated caselaw,
+and administrative decisions  sufficiently identify particular duties  with
+standards specific en ough to support a negligence claim .  Section 5 of the
+FTC Act prohibits “[u]nfair methods of competition in or affecting
+commerce, and unfair or deceptive acts or practices in or affecting
+commerce.”  15 U.S.C. § 45(a)(1).  Plaintiff contends that this statute imposes
+a duty on  businesses to employ reasonable measures to protect and secure
+PII, including by maintaining and testing security systems to ensure PII is
+protected, implementing processes to timely detect security breaches, and
+complying with industry security standards.22  Federal courts have held that
+“[s]ection 5 of the FTC Act  . . . creates enforceable duties, and [these duties
+are] ascertainable as it relates to data breach cases.”  In re Cap . One
+Consumer Data Sec. Breach Litig ., 488 F. Supp. 3d 374, 407 (E.D. Va.
+2020); see also Perry v. Bay & Bay Transp. Servs., Inc., 650 F. Supp. 3d 743,
+754 (D. Minn. 2023) (holding that Section 5 imposes a specific standard of
+care in the data security context) .  The FTC  has repeatedly exercised its
+authority to enforce S ection 5 ’s prohibition against unfair or deceptive
+
+22  R. Doc. 24 ¶¶ 95-97.
+Case 2:23-cv-01450-SSV-DPC     Document 30     Filed 02/15/24     Page 10 of 21
+11
+
+practices to prosecute businesses for failing to implement reasonable data
+security measures, and federal courts have found that this is an appropriate
+exercise of the FTC’s authority .  See F.T.C. v. Wyndham Worldwide Corp. ,
+799 F.3d 236, 240 -49 (3d Cir. 2015 ) (finding FTC stated a claim for a
+violation of S ection 5’s prohibition on unfair practices when it alleged,
+among other things, that defendant allowed subsidiaries to store credit card
+information in clear text, failed to use readily available security measures
+such as firewalls, did not adequately restrict third-party access to networks).
+Orders issued by the FTC articulate specific standards of conduct that
+constitute “reasonable measures” under S ection 5.  See Residual Pumpkin
+Entity, LLC, F.T.C. Pub. 192 -3209, No. 4768, 2022 WL 2355879  (June 23,
+2022) ( requiring business to implement written “comprehensive
+information security program,” including , among other specific measures,
+periodic threat assessment  and system security verification , technical
+measures to monitor networks for security events, policies and procedures
+for minimizing data collection and deleting unnecessary data, encryption of
+social security numbers, and multi-factor authentication) ; Twitter, Inc. ,
+F.T.C. Pub. 202-3062, No. 4316, 2022 WL 2160376 (May 26, 2022) (same);
+Chegg, Inc., F.T.C. Pub. 202 -3151, No. 4782 , 2023 WL 14386 60 (Jan. 25,
+2023) (same).
+Case 2:23-cv-01450-SSV-DPC     Document 30     Filed 02/15/24     Page 11 of 21
+12
+
+Moreover, the Louisiana Legislature has codified the principle that a
+failure to “implement and maintain reasonable [data] security procedures
+and practices” constitutes “an unfair act or practice”  for purposes of the
+Louisiana Unfair Trade Practices Act (“LUTPA”).   La.  Rev. Stat Ann.
+§§ 51:3074(A) & (J).  Louisiana courts have recognized that the LUTPA “was
+modeled after the . . . FTC Act . . . and the two acts share the same goals: to
+protect consumers and to foster competition.”   Guillory v. Broussard , 190
+So. 3d 486, 497 (La. App. 3 Cir. 2016).  Further, the LUTPA and the FTC Act
+“prohibit the same types of . . . conduct.”  Capitol House Pres. Co., L.L.C. v.
+Perryman Consultants, Inc. , 47 So. 3d 408, 417 (La. App. 1 Cir. 2009) ;
+compare La. Rev. Stat. Ann. § 51:1405(A) (prohibiting “[u] nfair methods of
+competition and unfair or deceptive acts or practices in the conduct of any
+trade or commerce ”), with 15 U.S.C. §  45(a)(1) (prohibiting “[u]nfair
+methods of competition in or affecting commerce, and unfair or deceptive
+acts or practices in or af fecting commerce”).  Thus, Louisiana courts would
+likely find duties imposed by the FTC Act relevant in defining the scope of a
+defendant’s duty as part of a negligence claim in the data breach context.
+Manchak v. Willamette Indus., Inc., 621 So. 2d 649, 652-53 (La. App. 2 Cir.
+1993) ( holding that Occupational Safety and Health Administration
+regulations on workplace safety  were relevant in determining scope of
+Case 2:23-cv-01450-SSV-DPC     Document 30     Filed 02/15/24     Page 12 of 21
+13
+
+defendant’s duty when he alleged  that he was injured by unsafe conditions
+in workplace), cited with approval in Jones v. Buck Kreihs Marine Repair,
+L.L.C., 122 So. 3d 1181, 1187 (La. App. 4 Cir. 2013).
+While the FTC Act itself does not enumerate clear standards, the Court
+finds that Section 5, in conjunction with federal caselaw and administrative
+orders and guidance interpreting it,23 provides specific standards of care for
+purposes of pleading a duty as part of a negligence claim.  See In re TJX Cos.
+Retail Sec. Breach Litig., 564 F.3d 489, 497 (1st Cir. 2009), as amended on
+reh’g in part (May 5, 2009) (“Where, as here, a substantial body of FTC
+complaints and consent decrees focus on a class of conduct, it is hard to see
+why a court would choose flatly to ignore it.”).
+
+23  Plaintiff points to the FTC’s guidebook, Protecting Personal
+Information: A Guide for Business, F.T.C. (2016),
+https://www.ftc.gov/system/files/documents/plain-language/pdf-
+0136_proteting-personal-information.pdf, as an explanation of the
+standard of conduct imposed under Section 5 of the FTC Act.  While
+not a binding source of law, the guidebook includes such steps as
+assessing the vulnerability of network connections to reasonably
+foreseeable attacks, encrypting sensitive information sent to third
+networks over the internet, using common secured connection
+protocols such as Transport Layer Security when receiving or
+transmitting credit card information, using intrusion detection
+systems, and more.  See Wyndham Worldwide Corp., 799 F.3d at
+256-57 (referring to Protecting Personal Information guidebook and
+noting that the “FTC’s expert views about the characteristics of a
+‘sound data security plan’ could certainly have helped [defendant]
+determine in advance that its conduct” may have violated Section 5’s
+prohibition on unfair practices).
+Case 2:23-cv-01450-SSV-DPC     Document 30     Filed 02/15/24     Page 13 of 21
+14
+
+As to defendant’s argument that Section 5 cannot support a negligence
+claim because there is no private right of action under the statute, the Fifth
+Circuit has held that the question of whether a federal statute without a
+private right of action can inform a state common law right of act ion is a
+question of state law.  See Audler , 519 F.3d at 253 (whether the National
+Flood Insurance Act can support a negligence claim under Louisiana law is a
+question for Louisiana courts); Till v. Unifirst Fed. Sav. & Loan Ass’n, 653
+F.2d 152, 161 (5th C ir. 1981) (question of state law whether a common law
+duty may be informed by federal statute with  no private cause of action).
+Louisiana courts have looked to federal statutes that do not confer private
+rights of action in determining “whether defendants violated their duties and
+obligations under Louisiana law.”  See Claborne v. Hous . Auth. of New
+Orleans, 165 So. 3d 268, 286 (La. App. 4 Cir. 2015).  Violations of federal law
+are particularly relevant where the “principal purpose” of the law at issue is
+“to protect the plaintiff.”  Tenn. Gas Pipeline Co., L.L.C., 850 F.3d at 727.  As
+discussed above, the Louisiana Legislature has declared  that the failure to
+implement reasonable data security measures violates a duty imposed by a
+Louisiana statute that state courts have expressly recognized is modeled on
+the FTC Act.  Thus, Louisiana courts would be likely to conclude that Section
+5 of the FTC Act is an appropriate authority on the scope of a defendant’s
+Case 2:23-cv-01450-SSV-DPC     Document 30     Filed 02/15/24     Page 14 of 21
+15
+
+duty under Louisiana negligence law in data breach cases, irrespective of the
+absence of a private right of action under the FTC Act .  See In re Marriott
+Int’l, Inc., Customer Data Sec. Breach Litig. , No. 19 -MD-2879, 2020 WL
+6290670, at *10 (D. Md. Oct. 27, 2020) (“Numerous courts have held that
+Section 5 of the FTC Act was designed to protect the consumer whose data
+was compromised by the negligent actions of a defendant.”) ; In re Equifax,
+Inc., Customer Data Sec. Breach Litig., 371 F. Supp. 3d 1150, 1176 (N.D. Ga.
+2019) (“Section 5 of the FTC Act can provide a statutory duty for a negligence
+. . . claim, even if the underlying statute does not itself provide a private right
+of action.”).  Accordingly, the Court finds that plaintiff’s reference to Section
+5 of the FTC Act sufficiently supports the  duty element of a claim for
+negligence under Louisiana law.
+As to the element of damages, the Court held in its Order and Reasons
+dated September 28, 2023, that in the context of the LDSBNL, plaintiff has
+alleged actual damages sufficient to survive the motion to dismiss stage
+because he “alleges that his PII was ‘disclosed’ and ‘used to his detriment.’”24
+Cf. Bradix v. Advance Stores Co ., Inc., 226 So. 3d 523, 529 (La. App. 4 Cir.
+2017) (holding that damages element of negligence claim could not be
+established when plaintiff alleged only “potential identity theft, loss of credit,
+
+24  R. Doc. 23 at 22-23.
+Case 2:23-cv-01450-SSV-DPC     Document 30     Filed 02/15/24     Page 15 of 21
+16
+
+loss of opportunity for credit, denial of credit applications and severe stress
+and anxiety”).  Plaintiff alleges that he has suffered three specific incidents
+of identity theft,25 has at least $800 in unreimbursed fraudulent charges, 26
+must pay for identity theft prevention services, 27 and suffers various
+emotional harms.28  Cf. Pinero v. Jackson Hewitt Tax Serv., Inc. , 594 F.
+Supp. 2d 710, 717 (E.D. La. 2009) (holding no recoverable damage existed
+when plaintiff did not allege actual identity fraud).  The Court finds that these
+allegations are sufficient to state a claim for negligence under Louisiana law
+at the motion to dismiss stage.  See Austin v. Abney Mills, Inc., 824 So. 2d
+1137, 1148 (La. 2002) (“Louisiana is generous in its conception of damages,
+the slightest being sufficient to support an action .” (citing Cole v. Celotex
+Corp., 599 So. 2d 1058, 1063 n.15 (La. 1992))).
+
+III. RULE 12(f)
+A. Legal Standard
+Federal Rule of Civil Procedure 12(f) allows the Court to strike “from a
+pleading . . . any redundant, immaterial, impertinent, or scandalous matter.”
+
+25  R. Doc. 24 ¶¶ 30-32.
+26  Id. ¶ 31.
+27  Id. ¶¶ 33 & 39.
+28  Id. ¶ 35.
+Case 2:23-cv-01450-SSV-DPC     Document 30     Filed 02/15/24     Page 16 of 21
+17
+
+A motion to strike under Rule 12(f) “is a drastic remedy to be resorted to only
+when required for the purposes of justice.”  Augustus v. Bd. of Pub.
+Instruction of Escambia C nty., 306 F.2d 862, 868 (5th Cir. 1962); see also
+Kaiser Aluminum & Chem. Sales, Inc. v. Avondale Shipyards, Inc., 677 F.2d
+1045, 1057 (5th Cir. 1982) (“[M]otions to strike  . . . are generally
+disfavored.”); Synergy Mgmt., LLC v. Lego Juris A/S , No. 07 -5892, 2008
+WL 4758634, at *1 (E.D. La. Oct. 24, 2008) (“Motions to strike made under
+Rule 12(f) are viewed with disfavor by the federal courts, and are infrequently
+granted.”).
+
+B. Plaintiff’s LDSBNL Claim
+Defendant argues that plaintiff’s LDSBN L claim should be stricken
+because plaintiff knew that the allegations contained within it are false based
+on correspondence between plaintiff’s and defendant’s  attorneys.29  In
+support of this argument, defendant attaches email correspondence in which
+defense counsel sends to plaintiff’s counsel two letters defendant sent to the
+Louisiana Attorney General that defendant argues categorically prove that it
+complied with the requirements of LDSBNL.30
+
+29  R. Doc. 27 at 8-12.
+30  R. Doc. 27-2 at 4-22.
+Case 2:23-cv-01450-SSV-DPC     Document 30     Filed 02/15/24     Page 17 of 21
+18
+
+Rule 12(f) is not an appropriate vehicle for disposing of an entire claim
+for relief .  See Fed. R. Civ. P. 12(f);  see also Wright & Miller, 5C Federal
+Practice and Procedure  § 1380 (3d ed.) (“[A] s the cases make clear, [Rule
+12(f)] is neither an authorized nor a proper way to procure the dismissal of
+all or a part of a complaint .”).  The Fifth Circuit reviews a district court ’s
+disposition on a motion to strike  under Rule 12(f)  for abuse of discretion .
+United States v. Coney , 689 F.3d 365, 379 (5th Cir. 2012).  Conversely, the
+Fifth Circuit reviews a district court’s decision on a motion to dismiss a claim
+under Rule 12(b)(6) de novo.  Parker v. LeBlanc, 73 F.4th 400, 404 (5th Cir.
+2023).  This distinction underscores the important difference between Rule
+12(b)(6), as a claim -dispositive procedure, and Rule 12(f), as an
+administrative vehicle for “clean[ing] up the proceedings.”  Coulter v. Deere
+& Co., No. 21-2105, 2022 WL 32212999, at *9 (S.D. Tex. Aug. 9, 2022).  The
+Court has already ruled on defendant’s Rule 12(b)(6) motion on the LDSBNL
+claim and held that plaintiff stated a plausible claim for relief sufficient to
+survive the motion to dismiss stage.  Defendant may not now dispose of the
+claim under Rule 12(f).  See Whittlestone, Inc. v. Handi-Craft Co., 618 F.3d
+970, 973-74 (9th Cir. 2010) (“ Were we to read Rule 12(f) in a manner that
+allowed litigants to use it as a means to dismiss some or all of a pleading . . .
+Case 2:23-cv-01450-SSV-DPC     Document 30     Filed 02/15/24     Page 18 of 21
+19
+
+we would be creating redundancies within the Federal Rules of Civil
+Procedure.”).
+Further, the Court could not consider the documents defendant
+attaches to the  Rule 12(f)  motion under Rule 12(b)(6), since the y are not
+referred to in the complaint and are not public records of which the Court
+may take judicial notice.  See Causey v. Sewell Cadillac-Chevrolet, Inc., 394
+F.3d 285, 288 (5th Cir. 2004) (“Documents that a defendant attaches to a
+motion to dismiss are considered part of the pleadings if they are referred to
+in the plaintiff’s complaint and are central to h[is] claim.”); Luv n’ care, Ltd.
+v. Jackel Int’l Ltd., 502 F. Supp. 3d 1106, 1108 (W.D. La. 2020) (describing
+the kinds of documents that may be considered as “public records” under
+Rule 12(b)(6)).  Considering the documents under Rule 12(f) to determine
+the legal sufficiency of a claim prior to discovery  would undermine the
+purpose of Rule 12(b)(6).  Moreover, that defendant must introduce these
+letters to advance its argument under Rule 12(f) suggests that plaintiff’s
+claim is not, on its face , “redundant, immaterial, impertinent, or
+scandalous.”  See Spoon v. Bayou Bridge Pipeline, LLC, 335 F.R.D. 468, 470
+(M.D. La. 2020) (“Typically, it is clear on the face of the pleadings whether
+the challenged matter should be stricken under Rule 12(f).”)
+Case 2:23-cv-01450-SSV-DPC     Document 30     Filed 02/15/24     Page 19 of 21
+20
+
+Even if the Court consider ed the letters to the Attorney General, they
+would not show on their face that plaintiff’s LDSBNL claim is fatally
+defective.  Striking a portion of a pleading is a “drastic remedy” that must be
+denied “[i]f there is any question of fact or law.”  F.D.I.C. v. Niblo , 821 F.
+Supp. 441, 449 (N.D. Tex. 1993); see also Augustus , 306 F.2d at 868 (“ A
+disputed question of fact cannot be decided on motion to strike  . . . [A]lso,
+. . . when there is no showing of prejudicial harm to the moving party, the
+courts generally are not willing to determine disputed . . . questions of law.”).
+The letters do not negate plaintiff’s contention that  he and “much of the
+[putative c]lass” received notice of the breach on July 22, 2022, nor do they
+establish as a matter of law that defendant acted “in the most expedient time
+possible.”  La. Rev. S tat. Ann. § 51:3074(E) (permitting “reasonable”
+extension of time to notify victims upon written application to Louisiana
+Attorney General explaining reasons for the delay) .  The only letter sent
+within the 60 -day period does not “give reasons for the delay” beyond
+conclusory assertions that the incident was being investigated .31  Thus, the
+Court finds that the LDSBNL claim cannot be stricken under Rule 12(f).
+
+31  See R. Doc. 27-2 at 8-9.
+Case 2:23-cv-01450-SSV-DPC     Document 30     Filed 02/15/24     Page 20 of 21
+21
+
+III. CONCLUSION
+
+For the foregoing reasons, defendant’s motion to dismiss Count I and
+to strike Count II of the amended complaint is DENIED.
+
+New Orleans, Louisiana, this _____ day of February, 2024.
+
+_____________________
+SARAH S. VANCE
+UNITED STATES DISTRICT JUDGE
+15th
+Case 2:23-cv-01450-SSV-DPC     Document 30     Filed 02/15/24     Page 21 of 21

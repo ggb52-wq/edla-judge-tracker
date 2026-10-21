@@ -1,0 +1,336 @@
+1
+
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+FEDERAL DEPOSIT INSURANCE CORP.  CIVIL ACTION
+
+VERSUS  NO. 20-1259
+
+ERNST & YOUNG LLP  SECTION "L" (1)
+
+ORDER AND REASONS
+ Before the Court is a Motion to Disqualify Plaintiff’s Counsel by Defendant Ernst &
+Young LLP (“EY”). R. Doc. 86. Defendant also requests discovery regarding the share
+and use of confidential and privileged information, and the destruction of any confidential and
+privileged documents that have been disclosed to Plaintiff. Id. at 1. Plaintiff opposes Defendant’s
+motion to disqualify counsel, and argues that the proper remedy is destruction and/or return of
+improperly disclosed documents. R. Doc. 104. Having considered the briefing and relevant law,
+the Court rules as follows.
+I.  BACKGROUND
+This case arises out of financial statement audits of First NBC Bank and First NBC Bank
+Holding Company, Inc. (“First NBC” or “Bank”)  by Ernst & Young LLP in 2014 and 2015. R.
+Doc. 1 ¶ 1. Plaintiff, the Federal Deposit Insurance Corporation as Receiver for First NBC Bank
+(“FDIC-R”)1, filed the instant suit to recover damages from Defen dants Ernst & Young LLP
+(“EY”) and Gloucester Insurance Ltd. (“Gloucester”)2, alleging that the audits of First NBC were
+negligently performed, allowing the fraud to proceed undetected and result ing in substantial
+
+1 The State of Louisiana closed First NBC Bank on April 28, 2017, and appointed the FDIC as Receiver. R. Doc. 1
+at 4.
+2 Gloucester provided EY with professional liability insurance during the relevant period. R. Doc. 1 ¶ 11.
+Case 2:20-cv-01259-EEF-JVM   Document 112   Filed 06/15/23   Page 1 of 13
+2
+
+financial losses. Id. ¶ 2. Specifically, FDIC-R alleges that EY failed to design audit procedures to
+discover material fraud, and accordingly, failed to discover fraud perpetrated by First NBC’s
+President and Chief Executive Officer, Ashton Ryan. Id. 1 ¶ 2. Additionally, FDIC-R contends EY
+identified false statements made by Ryan but failed to investigate the falsehoods or report them to
+the Audit Committee. Id.  ¶ 3. FDIC-R further alleges that EY negligently issued an unqualified
+opinion regarding First NBC’s financial statements and internal cont rols processes. Id.  FDIC-R
+characterizes these actions as a breach of EY’s professional duties. Id.
+FDIC-R alleges that First NBC suffered at least $125 million in losses as a result of Ryan’s
+fraudulent conduct. Id. In recounting Ryan’s allegedly fraudulent practices, FDIC-R explains that
+Ryan held formal roles as the Bank’s founder and CEO in addition to overseeing the lending
+department and having unilateral authority to approve tax credit investments. Id. ¶ 16–19. FDIC-
+R argues  that Ryan, acting in his own interest, “committed fraud at First NBC by repeatedly
+causing the Bank to advance money through loans and tax credit investments on false pretenses.”
+Id. ¶ 20. He further allegedly “advance[d] hundreds of millions of dollars to promote his own
+financial interests and mask the deteriorating financial condition of his lending and tax credit
+investment portfolios.” Id. ¶ 4. Additionally, FDIC -R contends Ryan made numerous “false
+statements in loan approval memoranda regarding the condition of collateral, alleged payments by
+borrowers, and the existence and financial condition of guarantors,” which were identified in EY’s
+work papers but not acted upon. Id. ¶ 20. The Complaint also identifies several other alleged actors
+in the scheme, including Jeffrey Dunlap, Kenneth Charity, and Gregory St. Angelo. Id. ¶ 21–23.
+FDIC-R contends that these fraudulent practices, and the $125 million loss associated with them,
+could have been discovered and prevented had EY conducted its audits properly and  in accordance
+with its professional responsibilities.
+Case 2:20-cv-01259-EEF-JVM   Document 112   Filed 06/15/23   Page 2 of 13
+3
+
+FDIC-R alleges that EY was engaged to conduct integrated audits in 2014 and 2015 as
+required by the Sarbanes -Oxley Act. Id.  ¶ 28–29. An integrated audit requi res an auditor to
+evaluate a company’s financial statements and internal controls over financial reporting. Id.  ¶ 28.
+During the audits, EY was allegedly given “direct and unfettered” access to the Bank’s internal
+systems and records  Id. ¶ 30. EY’s audit f or the 2014 fiscal year represented that the Bank’s
+consolidated financial statements “were fairly stated in accordance with GAAP and free from
+material misstatement whether due to error or fraud.” Id. ¶ 32. EY also issued  an “unqualified
+opinion” that the Bank’s internal controls over financial reporting were effective. Id. ¶ 32. As to
+the 2015 fiscal year, EY issued an “unqualified audit opinion” regarding the Bank’s consolidated
+financial statements, but an “adverse opinion” regarding the Bank’s internal controls due to Ryan’s
+“dominant influence without adequate controls and material weaknesses in the credit department’s
+monitoring over borrowers’ ability to repay credits.” Id. ¶ 33.
+FDIC-R identifies a number of alleged failures on EY’s part that caused the fraud to remain
+undiscovered. In particular, FDIC -R alleges that EY failed to exercise professional skepticism
+while conducting the audits and failed to identify material weaknesses in internal controls despite
+knowing that Ryan exercised a dominant influence over the Bank’s lending and financial statement
+process, including personally handling a large portfolio of loans and tax credit investments and
+recklessly advancing tens of millions of dollars to borrowers without meaningful controls.” Id. ¶
+5. Additionally, FDIC-R argues that EY ignored fraud risks, failed to design audit procedures that
+would adequately address those risks, and failed to obtain sufficient information to support its
+audit opinions, relying instead—erroneously—on management’s representations. Id. ¶ 6. FDIC-R
+contends these failures constitute breaches of EY’s professional duties to conduct the audits in
+accordance with Public Company Accounting Oversight Board rules, auditing standards, quality
+Case 2:20-cv-01259-EEF-JVM   Document 112   Filed 06/15/23   Page 3 of 13
+4
+
+control standards, GAAP and Generally Accepted Auditing Standards, and other professional
+auditing standards. Id. ¶ 39.
+Based on the foregoing, FDIC-R brought suit against EY in this Court on April 22, 2020,
+seeking damages for professional negligence. Id. ¶ 133. FDIC-R also brings a direct action against
+Gloucester, an insurance entity that provided $400 million in professional liability insurance
+coverage to EY during the relevant period. Id. ¶ 138.
+On June 1, 2020, the United States filed a Motion  in this Court to Intervene and Stay the
+case under Rule 24 of the Federal Rules of Civil Procedure. R. Doc. 21. On July 13, 2020, this
+Court granted the government’s motion to stay the case due to the overlapping facts between the
+instant case and the criminal cases related to the Bank’s failure. See R. Doc. 55 at 10-15.
+In the meantime, EY alleges, counsel for FDIC -R in this case obtained confidential and
+privileged information from the Public Company Accounting Oversight Board (“PCAOB”)
+relating to PCAOB’s investigation into the financial statement audits performed by EY. R. Doc.
+58-1 at 2. Specifically, they allege that counsel received materials, including thousands of pages
+of testimony transcripts, in preparation for a deposition of Daniel Belcher, a former auditor with
+EY, in a proceeding brought by FDIC-R to enforce an administrative subpoena against Belcher in
+another section of this Court . Id. (citing FDIC v. Belcher , No. 19-12561) . In that case, Judge
+Zainey ruled against Belcher and enforced the subpoena after concluding that the materials from
+the PCAOB to the FDIC-R were produced pursuant to a statutory authorization,3 and therefore the
+subpoena was not improper in any manner. See FDIC v. Belcher, No. 19-12561, 2019 WL Case
+6728338 (E.D. La. Dec. 11, 2019). Accordingly, the FDIC’s counsel reviewed the material a nd
+took Belcher’s deposition.
+
+3 The district court based its decision on the “federal functional regulator” statutory exception.  U.S.C §
+7215(b)(5)(B)(ii)(II)
+Case 2:20-cv-01259-EEF-JVM   Document 112   Filed 06/15/23   Page 4 of 13
+5
+
+On October 26, 2020, the Fifth Circuit issued an opinion concluding that the lower court
+erred when interpreting 15 U.S.C. § 7215(b)(5)(B) so as to authorize the PCAOB to share
+transcripts of Belcher’s deposition testimony wit h the FDIC -R. FDIC v. Belcher,  978 F.3d 959
+(5th Cir. 2020). The Fifth Circuit held that none of the confidential and privileged EY materials
+that the PCAOB had amassed during its investigation into EY should have been provided to the
+FDIC-R. Id. The Fifth Circuit then directed the district court to fashion “some form of meaningful
+relief,” notwithstanding that Belcher had already been deposed, and remanded the case. Id. at 961
+n.1.
+On January 25, 2021, FDIC -R alleges, it forwarded EY’s counsel a letter it sent to the
+PCAOB stating that in light of the Fifth Circuit ruling, it intended to destroy the documents it had
+obtained from the PCAOB. R. Doc. 86-1 at 11. However, FDIC-R did not commit to destroying
+all internal documents of FDIC -R counsel reflecting the contents of and documents provided by
+the PCAOB nor did it intend to recuse any counsel who had reviewed the documents. Id.
+On January 29, 2021 EY moved for a partial lifting of the stay to address the issues it has
+raised in this motion. FDIC-R responded by filing a “Renewed Motion to Enforce Administrative
+Subpoena” in the original Belcher matter before Judge Zainey. In their motion to enforce, FDIC-
+R took the position that no further action other than the destruction of the materials was required
+to address the PCAOB’s erroneous production of EY’s confidential and privileged materials.
+Motion for Renewed Motion to Enforce Administrative Subpoena, FDIC-R v. Belcher , No. 19-
+12561 (E.D. La. Mar. 18, 2021), R. Doc. 120.
+Judge Zainey rejected the FDIC -R’s bid and explained in his ruling that the FDIC -R had
+“not demonstrated that Belcher’s deposition is without taint.” Order Denying Renewed Motion to
+Enforce Administrative Subpoena, FDIC-R v. Belcher, No. 19-12561 (E.D. La. Mar. 18, 2021), R.
+Case 2:20-cv-01259-EEF-JVM   Document 112   Filed 06/15/23   Page 5 of 13
+6
+
+Doc. 134 at 13. However, Judge Zainey declined to address what specific remedies are now due
+to Belcher or EY and instead deferred to this Court for determining the appropriate remedy. Id.
+This Court held a hearing on March 31, 2021 regarding EY’s request for a partial lift of the
+stay. R. Doc. 75. This Court ultimately maintained the stay in deference to the pending criminal
+proceedings, denying EY’s motion without prejudice to EY’s ability to file it after the stay of this
+case was lifted. R. Doc. 76. The court ordered FDIC -R, its counsel, and consultants to preserve
+any relevant documents in the meantime. Id. On FIDC -R’s unopposed motion following the
+conclusion of the criminal proceedings, the Court lifted the stay on March 3, 2023. R. Doc. 85. EY
+subsequently filed the present motion to disqualify counsel and for other relief.
+II. PRESENT MOTION
+In its Motion, EY asks this Court to disqualify the lead counsel and in-house counsel of the
+Plaintiff, FDIC-R, as well as anyone else who had access to, obtained, and reviewed volumes of
+EY’s privileged and confidential information in violation of federal law. EY also seeks
+authorization for discovery regarding the extent to which confidential and privileged information
+may have been shared and used, in order to remove any taint from the procee dings. Lastly, EY
+requests the court to order destruction of the confidential and privileged documents, and any other
+“fruits” derived therefrom. In the present motion, EY  argues that the necessary remedy for the
+PCAOB’s violation of the Sarbanes -Oxley Act, as determined by the United States Court of
+Appeals for the Fifth Circuit in FDIC, as Receiver for First NBC Bank v. Belcher , 978 F.3d 959
+(5th Cir. 2020), is the disqualification of FDIC-R’s counsel who had access to privileged materials
+and information derived from those materials, as well as discovery to determine the full extent of
+the taint.
+Case 2:20-cv-01259-EEF-JVM   Document 112   Filed 06/15/23   Page 6 of 13
+7
+
+In response, FDIC-R argues that EY is seeking to use a statutory interpretation ruling as a
+tactical gambit to deny the FDIC -R its chosen counsel. FDIC -R argues that its counsel acted
+appropriately and consistent with all professional rules in receiving the production from the
+PCAOB attorneys based on the PCAOB’s own interpretation of its statutory authority. FDIC -R
+avers th at, following the Fifth Circuit’s determination that the disclosure of documents was
+unlawful, the proper remedy is to return the production to PCAOB and dispose of any documents
+referencing it. FDIC-R argues that there was no violation of ethics rules, no bad faith conduct, and
+that EY suffers no prejudice from the disclosure regarding the audit.
+III. APPLICABLE LAW
+Federal courts have inherent authority to disqualify attorneys in pending litigation when
+necessary to “‘preserve the integrity of the adversary process.’” Hempstead Video, Inc. v. Vill. of
+Valley Stream, 409 F.3d 127, 132 (2d Cir. 2005) (quoting Bd. of Educ. v. Nyquist, 590 F.2d
+1241, 1246 (2d Cir. 1979)). However, “disqualification is a harsh consequence” for both the
+attorney and the client. Acad. of Allergy & Asthma in Primary Care v. Louisiana Health Serv. &
+Indem. Co., 384 F. Supp. 3d 644, 653 (E.D. La. 2018); see also F.D.I.C. v. U.S. Fire Ins. Co., 50
+F.3d 1304, 1313 (5th Cir. 1995). Courts must be wary that a motion to disqualify is not being
+used merely as a “‘procedural weapon’ to advance purely tactical purposes.” In re American
+Airlines, Inc., 972 F.2d 605, 611 (5th Cir. 1992). Thus it is required that “‘a court engage in a
+“painstaking analysis of the facts and precise application of precedent’” when determining
+whether disqualification is an appropriate remedy. Acad. of Allergy & Asthma in Primary Care,
+384 F. Supp. 3d at 653 (E.D. La. 2018) (quoting Brennan's, Inc. v. Brennan's Restaurants, Inc.,
+590 F.2d 168, 174 (5th Cir. 1979)).
+Case 2:20-cv-01259-EEF-JVM   Document 112   Filed 06/15/23   Page 7 of 13
+8
+
+Motions to disqualify in the Fifth Circuit are governed by state and national ethical
+standards, but “the rule of disqualification is not mechanically applied.” Church of Scientology
+of California v. McLean, 615 F.2d 691, 693 (5th Cir. 1980). Rather, the Fifth Circuit has
+concluded that in determining the appropriate remedy, “all of the facts particular to a case must
+be considered, in the context of the relevant ethical criteria and with meticulous deference to the
+litigant's rights.” U.S. Fire Ins. Co., 50 F.3d at 1314. “The Local Rules ‘are the most immediate
+source of guidance for the district court.’” Treece v. Perrier Condo. Owners Ass'n, Inc., 559 F.
+Supp. 3d 530, 535 (E.D. La. 2021) (quoting U.S. Fire Ins. Co., 50 F.3d at 1312). The Rules of
+Professional Conduct of the Louisiana State Bar (“Louisiana Rules”) are incorporated in the
+Local Rules for the Eastern District of Louisiana. LR 83.2.3. Louisiana Rule 4.4(b) provides that,
+A lawyer who receives a writing or electronically stored information that, on its face,
+ appears to be subject to the attorney-client privilege or otherwise confidential, under
+ circumstances where it is clear that the writing or electronically stored information was
+ not intended for the receiving lawyer, shall refrain from examining or reading the writing
+ or electronically stored information, promptly notify the sending lawyer, and return the
+ writing or delete the electronically stored information.
+
+However, “[i]n addition to these ethical standards, the Court also considers the public interest
+and the litigants’ rights.” Zichichi v. Jefferson Ambulatory Surgery Ctr., LLC, No. 07-2774, 2008
+U.S. Dist. LEXIS 63133, at *6-7 (E.D. La. July 22, 2008). In the Fifth Circuit, it is appropriate
+for courts to consider “whether a conflict has (1) the appearance of impropriety in general, or (2)
+a possibility that a specific impropriety will occur, and (3) the likelihood of public suspicion
+from the impropriety outweighs any social interests which will be served by the lawyer's
+continued participation in the case.” U.S. Fire Ins. Co., 50 F.3d at 1314 (quoting In re Dresser
+Indus., Inc., 972 F.2d 540, 544 (5th Cir. 1992)).
+IV. DISCUSSION
+ This Court recognizes that attorney disqualification is a severe penalty for litigants. “All
+Case 2:20-cv-01259-EEF-JVM   Document 112   Filed 06/15/23   Page 8 of 13
+9
+
+of the facts particular to a case must be considered, in the context of the relevant ethical criteria
+and with meticulous deference to the litigant's rights.” U.S. Fire Ins. Co., 50 F.3d at 1314. The
+right for a party to choose his own counsel is an “important societal right” which should not be
+abrogated by the “inflexible application of a professional rule.” Id.  “An attorney may be
+disqualified only when there is ‘a reasonable possibility that some specifically identifiable
+impropriety’ actually occurred and, in light of the interests underlying the standards of ethics, the
+social need for ethical practice outweighs the party's right to counsel of his choice.” United
+States v. Kitchin, 592 F.2d 900, 904 (5th Cir. 1979) (quoting Woods v. Covington Cty. Bank, 537
+F.2d 804, 812-13 (5th Cir. 1976)).
+ Louisiana Rule 4.4 requires that a lawyer promptly return documents or information that
+on their face appear to be subject to the attorney-client privilege or otherwise confidential, and
+where it is clear that the information was not intended for the receiving lawyer. FDIC-R argues
+that this rule does not apply in the current instance, because PCAOB’s Board of Directors
+intentionally decided to share the documents in question based on their understanding of their
+lawful authority. See Ex. G ¶¶ 59 & Ex. 1. FDIC-R counsel received the documents only after
+attorneys in the PCAOB Division of Enforcement and Investigations advised the FDIC-R that
+the PCAOB Board had approved of their production. Id. When EY later objected to the
+production, the PCAOB disagreed with EY’s understanding of the statute, reaffirmed its view
+that it had the authority to share the materials, and stated that “the determination whether to
+provide documents, testimony, or other information pursuant to [15 U.S.C. § 7215(b)(5)(B)] . . .
+rests squarely with the [PCAOB].” R. Doc. 86-2, pp. 40-42 of 72.
+ In addition to the PCAOB’s interpretation of its own authority under the statute, a sitting
+federal judge—Judge Zainey—twice agreed with the PCAOB’s interpretation of the law. Thus,
+Case 2:20-cv-01259-EEF-JVM   Document 112   Filed 06/15/23   Page 9 of 13
+10
+
+the FDIC-R’s counsel received an intentional production of documents from counsel for a
+government-created entity carried out under the approval of the entity’s board of directors and
+later approved by Judges. Rule 4.4 only governs materials that are, on their face, subject to the
+attorney-client privilege and for which it is clear that the materials were not intended for the
+receiving lawyer. Under Rule 4.4, counsel’s conduct is evaluated based on the circumstances
+when counsel acted. The Fifth Circuit’s later ruling that the production was improper does not
+negate the circumstances at the time of production under which the production was deemed
+authorized by a number of reasonable lawyers (including Judge Zainey and the PCAOB’s
+attorneys). Importantly, the Fifth Circuit did not find fault with the FDIC-R for receiving the
+materials, but merely decided that PCAOB’s interpretation that production was authorized was
+faulty. This Court does not find that the FDIC-R’s counsel violated Rule 4.4.
+ However, while “the relevant local and national ethical canons provide a useful guide for
+adjudicating motions to disqualify, they are not controlling.” U.S. Fire Ins. Co., 50 F.3d at 1314.
+The Court should “also take into account the standards of the profession, the public interest, and
+the litigant’s rights” in determining whether disqualification is proper, which may include the
+possibility or public perception of impropriety. In re Dresser, 972 F.2d at 543, 544. This Court
+does not discount the FDIC-R’s attorneys argument that, in reviewing the documents produced to
+it by the PCAOB, they acted on the reasonable belief—their own and that of others—that the
+production was statutorily authorized. The Court also credits their assurance that the FDIC-R
+halted review of the materials pending decisions by Judge Zainey and the Fifth Circuit, and
+agreed to preserve the documents as well as any documents referencing them. R. Doc. 104 Ex. H
+¶ 6, Ex. 7; see also R. Doc. 76. See Burt Hill, Inc. v. Hassan, No. CIV.A. 09-1285, 2010 WL
+419433, at *4-5 (counsel’s “responsible handling” of documents “once it became apparent that
+Case 2:20-cv-01259-EEF-JVM   Document 112   Filed 06/15/23   Page 10 of 13
+11
+
+their conduct would be subject to scrutiny” supported denial of disqualification); see also Ex. E
+Ex. 1 ¶ 66; Ex. D ¶¶ 55-57. This Court does not find that FDIC-R’s conduct demonstrates bad
+faith.
+ However, a lack of bad faith does not make it possible for FDIC-R’s counsel to un-see or
+forget thousands of pages of materials that the Fifth Circuit ruled they were not supposed to see.
+EY argues that the production of materials and the alleged taint of the FDIC-R counsel has and
+would unfairly prejudice EY.  Perhaps most relevant here, EY asserts that harm arises because
+information can “never be erased” from the minds of counsel who received certain information.
+E.g., R. Doc. 86-1 at 14-15; R. Doc. 86-3 ¶ 77 (quoting Camden v. Maryland, 910 F. Supp. 1115,
+1124 (D. Md. 1996)). The FDIC-R, in response, argues that the PCAOB production consists of
+the same categories of documents—containing the same underlying factual information—which
+the FDIC-R had already obtained through its own subpoena to EY, including audit work papers,
+EY correspondence, and EY audit records. R. Doc. 104. The FDIC-R argues that, while it may
+not be authorized to view the PCAOB deposition transcripts, the underlying factual information
+contained therein would be subject to inevitable disclosure. Id.
+Further, FDIC-R argues that the only documents covered by the PCAOB statute that were
+improperly disclosed were an informational questionnaire and the transcripts of depositions
+taken by the PCAOB. See Ex F. ¶ 3; R. Doc. 86-2, pp. 40-42 of 72. FDIC-R notes that the 15
+U.S.C. § 7215(b)(5)(A) also authorizes the PCAOB to provide protect materials to government
+agencies and regulators for use in public litigation, which includes production to the Federal
+Reserve. The FDIC-R argues that this statute means that PCAOB could have produced the
+documents to the Federal Reserve and the Federal Reserve could then produce them to the FDIC-
+R. R. Doc. 104 at 24. The PCAOB, it argues, simply produced the documents to the wrong
+Case 2:20-cv-01259-EEF-JVM   Document 112   Filed 06/15/23   Page 11 of 13
+12
+
+entity. As a result, the FDIC-R had multiple avenues for receiving the information in the
+produced materials, and the produced materials themselves, thus vitiating any idea of prejudice.
+Id. EY contests that this argument is irrelevant because the FDIC-R was not acting as a regulator,
+but rather “is bound by the rules that the bank itself would encounter in litigation,” and therefore,
+it could not have accessed these materials. R. Doc. 109 at 10.
+Most germanely, this is not what happened here. The FDIC-R did not come into the
+information at issue here through discovery of the same facts in this litigation, nor did it receive
+the documents from the FDIC-R via the Federal Reserve through the mechanism of 15 U.S.C. §
+7215(b)(5)(A). These are counterfactual chains of events that could have occurred, but did not
+occur. The actual path that these documents took—production by the PCAOB directly to the
+FDIC-R—was deemed impermissible by the circuit court.
+ This Court recognizes that disqualification is a harsh consequence that affects the
+Plaintiff’s right to choose its own counsel and the attorneys’ ability to freely practice law. The
+FDIC-R argues that replacing counsel, who have deployed thousands of hours of work, “would
+result in significant waste of resources at great expense of the receivership.” R. Doc. 104 at 21.
+The Court does not underestimate the ramifications that disqualification will have for the FDIC-
+R, especially since the Fifth Circuit did not find, and this Court does not find, evidence of bad
+faith or wrongdoing. However, in this instance, the Fifth Circuit has found clearly that a party’s
+attorneys viewed documents they were not supposed to view, and that they had these documents
+in their possession for a number of years. Given the finding of the Fifth Circuit and the resulting
+prejudice that could accrue to the Defendant—in addition to this Court’s interest in ensuring that
+this litigation continues free of any taint of impropriety—the appropriate remedy here is
+disqualification of FDIC-R’s counsel.
+Case 2:20-cv-01259-EEF-JVM   Document 112   Filed 06/15/23   Page 12 of 13
+13
+
+V. CONCLUSION
+For the foregoing reasons, Defendant Ernst and Young LLP’s Motion to Disqualify
+Counsel is GRANTED. FDIC-R must substitute new counsel and must return to EY and/or
+destroy all material provided by the PCAOB. This should be done within 60 days, or by August
+15, 2023, unless extended for good cause. The Court does not see a need at this time to permit
+discovery on this issue. Accordingly, Defendant’s motion is DENIED in that regard.
+
+New Orleans, Louisiana, this 15th day of June, 2023.
+
+               __________________________________
+                UNITED STATES DISTRICT JUDGE
+
+Case 2:20-cv-01259-EEF-JVM   Document 112   Filed 06/15/23   Page 13 of 13

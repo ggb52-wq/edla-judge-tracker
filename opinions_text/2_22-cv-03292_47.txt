@@ -1,0 +1,504 @@
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+ORDER & REASONS
+Before the Court are two motion in limine filed by defendant Axis Surplus Lines Insurance
+Company (“Axis”) seeking to exclude five of plaintiff’s purported expert witnesses. 1  Plaintiff
+2715 Marietta, LLC (“Plaintiff”) responds in opposition,2 and Axis replies in further support of its
+motions.3  Also before the Court is Ax is’s motion for summary judgment, 4 to which Plaintiff
+responds in opposition,5 and Axis replies in further support of its motion.6  Having considered the
+parties’ memoranda, the record, and the applicable law, the Court issues this Order & Reasons.
+I. BACKGROUND
+This is an insurance coverage dispute arisi ng out of damage Plaintiff’s property allegedly
+sustained during Hurricane Ida, which made landfall on August 29, 2021.  At that time, Plaintiff’s
+property was insured by Axis unde r a policy that provide s coverage for dire ct physical loss or
+damage to the structure caused by or resulting from a windstorm.7  The policy, however, excludes
+coverage “for loss or damage caused by or resulti ng from … [w]ear and tear [or] [r]ust or other
+corrosion, decay, deterioration, hidden or latent def ect or any quality in property that causes it to
+
+1 R. Docs. 33; 34.
+2 R. Docs. 41; 42.
+3 R. Docs. 45; 46.
+4 R. Doc. 35.
+5 R. Doc. 43.
+6 R. Doc. 44.
+7 R. Doc. 6-1.
+2715 MARIETTA, LLC
+
+VERSUS
+
+AXIS SURPLUS
+INSURANCE COMPANY
+CIVIL ACTION
+
+NO. 22-3292
+
+SECTION M (1)
+Case 2:22-cv-03292-BWA-JVM   Document 47   Filed 01/25/24   Page 1 of 17
+2
+
+damage or destroy itself ….” 8  The policy also includes a pre-existing damage clause that excludes
+coverage “for any loss or damage which: (a) occurred prior to the inception of the policy regardless
+of whether such damages were appa rent at the time of the inception of this policy; or (b) occurs
+after the inception of this policy but arises out of workmanship, repairs or failure to repair prior to
+the inception of this policy.”9
+On March 1, 2022, six months after Hurricane Id a made landfall in Louisiana, Plaintiff
+made a claim with Axis for storm-related roof dama ge that caused water to leak into the interior
+of the building. 10  Axis responded to the claim and assign ed a field adjuster , who inspected the
+property.11  The field adjuster found that  the building’s “metal roof show[ed] heavy signs of rust
+and wear and tear,” resulting in “water damage in multiple rooms, offices and hallways ….” 12  He
+also noted that the roof showed “prior repairs and patches,” but he “did not see any apparent wind
+damage to the roof system” or “‘lifted’ metal panels due to high winds.” 13  Moreover, he noted
+that the type of roof repairs he observed – namel y, the application of roofing tar to the fasteners
+and joints on the metal roof – “will easily deteriorate and separate over time.”14  The field adjuster
+recommended an inspection by an engineer.15
+Axis then hired Forcon International Corp. (“Forcon”) to inspect the property. 16  A
+professional structural engineer employed by Forcon inspected Plaintiff’s property and found that
+the 30-year-old metal roof “is severely corroded and has been patched numerous times throughout
+
+8 Id. at 79.
+9 Id. at 130.
+10 R. Docs. 17-4; 17-5.
+11 R. Docs. 17-5; 17-6; 17-7.
+12 R. Doc. 17-7 at 3.
+13 Id.
+14 Id.
+15 Id. at 4.
+16 R. Doc. 17-8.
+Case 2:22-cv-03292-BWA-JVM   Document 47   Filed 01/25/24   Page 2 of 17
+3
+
+the years.”17  He also noted that “[t]he roof and gutters are beyond [their] useful service life” and
+that “[n]o roof damage could be attributed due to winds from Hurricane Ida.”18  Instead, the Forcon
+engineer opined “that rain during Hurricane Ida entered an already corroded and faulty roof” due
+to “deteriorated patches and corrosion throughout the roof.”19  He further opined that roof damage
+“occurred over the years” and not as the result of “a one-time event.”20
+On May 6, 2022, citing the wear-and-tear and rust/corrosion exclusions and relying on the
+findings of the initial insurance adjuster and the Forcon engineer, Axis’s independent adjuster
+informed Plaintiff that there was no coverage for the roof damage and resulting water intrusion.21
+Then, on June 27, 2022, without providing any a dditional photographs, invoices, estimates, or
+other documentation, Plaintiff’s counsel wrote to Axis demanding the policy li mits for the roof
+claim.22  Axis, relying on the insurance policy, the adjuster’s report, and the Forcon report, rejected
+the demand.23
+Thereafter, Plaintiff hired Public Service Adjusting, L.L.C. (“PSA”) to inspect the
+property.24  The PSA personnel working on Plaintiffs claim included Tina Nabhan, Nedal Nabhan,
+and Christina Muha.  On July 14, 2022, Muha, who is a licensed public adjustor in Indiana, Ohio,
+Michigan, and Florida, in spected the property and pr epared a damage report. 25  Another PSA
+employee then used Muha’s inspection report to prepare an Xactimate estimate of the repair costs,
+which was approved by Nedal Nabhan, who is a licensed public adju stor in Louisiana.26  Nedal
+
+17 Id. at 1-4.
+18 Id. at 4.
+19 Id.
+20 Id.
+21 R. Doc. 17-9.
+22 R. Doc. 17-10.
+23 R. Doc. 17-11.
+24 R. Doc. 17-13 at 2.
+25 R. Doc. 34-5 at 1-10.
+26 R. Doc. 34-4 at 2-5.
+Case 2:22-cv-03292-BWA-JVM   Document 47   Filed 01/25/24   Page 3 of 17
+4
+
+Nabhan did not analyze the damage or its cause.27  Tina Nabhan, the owner of PSA, did not conduct
+any analysis of the property damage, including its cause or repair cost. 28  Instead, she worked on
+Plaintiff’s file only in an administrative capacity. 29  PSA found $298,252.09 in damages to the
+property, which Plaintiff demanded from Axis as “undisputed” amounts due.30
+Axis responded by retaining another engin eer, Kevin Vanderbook of Veco Consulting,
+LLC (“Veco”), to evaluate the conflicting estimates.31  Vanderbook opined that any water intrusion
+“was due to the poor condition of the roof” and th at “[i]t is likely this roof has been leaking
+sporadically for many years as evidenced by the poor condition of the roof surface and numerous
+previous repairs.”32  In a supplemental report, Vanderbook ex plained that he compared satellite
+images of the property from various dates between March 2013 and January 2019.33  He said the
+images demonstrate that there was no patching or repair to the roof in 2013, but that beginning in
+2014, the images show sealant applied at th e overlap seams and repairs to the ridge. 34  Also, in
+January 2018, repairs are visible at the northwest corner of the roof.35
+On November 10, 2023, Plaintiff submitted to Axis an expe rt report dated November 3,
+2023, that was prepared by Michael Gurtler and Joseph Rickett of Gurtler Bros. Consultants, Inc.
+(“Gurtler Bros.”)36  Gurtler inspected th e property on October 27, 2023. 37  By then, the roof had
+been replaced.38  Rickett, a licensed civil engineer, wrote the analysis portion of the report.39  The
+
+27 Id. at 5.
+28 R. Doc. 34-3 at 5.
+29 Id. at 8.
+30 R. Doc. 17-13 at 2.
+31 R. Docs. 17-14 at 1; 17-15.
+32 R. Doc. 17-15 at 3.
+33 R. Doc. 17-16 at 2.
+34 Id.
+35 Id.
+36 R. Docs. 17-17; 33-4.
+37 R. Doc. 33-3 at 4.
+38 Id. at 10.
+39 R. Docs. 33-4 at 20; 33-6 at 4.
+Case 2:22-cv-03292-BWA-JVM   Document 47   Filed 01/25/24   Page 4 of 17
+5
+
+Gurtler Bros. report stated that  the property sustained damage caused by the wind and rain of
+Hurricane Ida, including “wind-created openings in the roofing, flashing and gutters” that allowed
+water to enter the building. 40  Notably, Gurtler did not observe  any wind-created openings in the
+roof, but instead, based this opi nion on the tenant’s eyewitness account of water intrusion during
+the storm and his own training and experience regarding storm-related building damage.41
+In the meantime, on September 15, 2022, Plaintiff had filed this suit, asserting breach-of-
+contract and bad-faith claims against Axis.42  According to Plaintiff, the insured property sustained
+storm-related roof damage that resulted in water infiltrating the building, which had not occurred
+prior to Hurricane Ida. 43  Axis now moves to exclude the te stimony, opinions, and reports of
+Gurtler, Rickett, Tina Na bhan, Nedal Nabhan, and Muha. 44  Axis also moves for summary
+judgment on Plaintiff’s breach-of-contract claim.45
+II. LAW & ANALYSIS
+A. Axis’s Daubert Motions In Limine
+ 1. Legal Standard
+ A district court has discretion to admit or exclude expert testimony under the Federal Rules
+of Evidence.  Gen. Elec. Co. v. Joiner , 522 U.S. 136, 139 (1997).  In Daubert v. Merrell Dow
+Pharmaceuticals, Inc., 509 U.S. 579, 589 (1993), the Supreme C ourt held that Rule 702 requires
+a district court to act as a gatekeeper to ensure  that “any and all scientif ic testimony or evidence
+admitted is not only relevant, but reliable.”  Rule 702 of the Federal Rules of Evidence provides:
+A witness who is qualified as an expert  by knowledge, skill, experience, training,
+or education may testify in the form of an opinion or otherwise if:
+
+40 R. Doc. 33-4 at1-3.
+41 R. Doc. 33-3 at 10-16.
+42 R. Doc. 1 at 1-10.  This Court granted Axis’s mo tion for partial summary judgment regarding Plaintiff’s
+bad-faith claims, dismissing those claims with prejudice.  R. Doc. 32.
+43 R. Doc. 1 at 3.
+44 R. Docs. 33; 34.
+45 R. Doc. 35.
+Case 2:22-cv-03292-BWA-JVM   Document 47   Filed 01/25/24   Page 5 of 17
+6
+
+(a) the expert’s scientific, technical, or other speciali zed knowledge will help the
+trier of fact to understand the evidence or to determine a fact in issue;
+
+(b) the testimony is based on sufficient facts or data;
+
+(c) the testimony is the product of reliable principles and methods; and
+
+(d) the expert has reliably applied the principles and methods to the facts of the
+case.
+
+ The reliability inquiry requires a court to assess whether the reas oning or methodology
+underlying the expert’s testimony is valid.  See Daubert, 509 U.S. at 592-93.  In Daubert, the
+Supreme Court listed several non-exclusive factors for a court to consider in assessing reliability:
+(1) whether the theory has been te sted; (2) whether the theory has been subjected to peer review
+and publication; (3) the known or po tential rate of erro r; and (4) the general acceptance of the
+methodology in the sc ientific community.  Id. at 593-95.  However, a court’s evaluation of the
+reliability of expert testimony is flexible because “[t]he factors identified in Daubert may or may
+not be pertinent in assessing reliability, depending on the nature of the issue, the expert’s particular
+expertise, and the subject of his testimony.”  Kumho Tire Co. v. Carmichael , 526 U.S. 137, 150
+(1999) (quotations omitted).  In sum, the district court must ensure “that an expert, whether basing
+testimony upon professional studies or personal experiences, employs in the courtroom the same
+level of intellectual rigor that characterizes the practice of an expert in the relevant field.”  Id. at
+152.  The party offering the testimony must establ ish its reliability by a preponderance of the
+evidence.  See Moore v. Ashland Chem. Inc., 151 F.3d 269, 276 (5th Cir. 1998).
+  Next, the district court must determine whether the expert’s r easoning or methodology
+“fits” the facts of the case and whether it will assist th e trier of fact to understand the evidence,
+i.e., whether it is relevant.  Daubert, 509 U.S. at 591.  An expert’s testimony is not relevant and
+may be excluded if it is directed to an issue th at is “well within the common sense understanding
+Case 2:22-cv-03292-BWA-JVM   Document 47   Filed 01/25/24   Page 6 of 17
+7
+
+of jurors and requires no expert testimony.”  Vogler v. Blackmore , 352 F.3d 150, 155 (5th Cir.
+2003).  Further, an expert cannot make “legal conclusions reserv ed for the court,” credit or
+discredit witness testimony, or “otherwise make[] factual determinations reserved for the trier of
+fact.”  Highland Cap. Mgmt., L.P. v. Bank of Am., N.A., 574 F. App’x 486, 491 (5th Cir. 2014).
+ Rule 702 also requires that an expert be pr operly qualified.  Generally, if there is some
+reasonable indication of qualifica tions, the district court may admit the expert’s testimony, and
+then the expert’s qualifications become an issue for the trier of fact.  Rushing v. Kan. City S. Ry.
+Co., 185 F.3d 496, 507 (5th Cir. 1999), superseded in part by statute on other grounds as noted in
+Lester v. Wells Fargo Bank, N.A., 805 F. App’x 288, 291 (5th Cir. 2020).  A witness qualified as
+an expert is not strictly confined to his ar ea or practice but may te stify regarding related
+applications; a lack of specialization goes to the weight, not the admissibility of the opinion.  Cedar
+Lodge Plantation, L.L.C. v. CSHV Fairway View I, L.L.C. , 753 F. App’x 191, 195-96 (5th Cir.
+2018).
+The facts, data, and sources used in an expe rt’s opinion are generally considered by the
+jury in weighing the evidence, but “in some cases ‘the sour ce upon which an expert’s opinion
+relies is of such little weight that the jury should not be permitted to receive that opinion.’”  Jacked
+Up, L.L.C. v. Sara Lee Corp. , 807 F. App’x 344, 348 (5th Cir. 2020) (quoting Viterbo v. Dow
+Chem. Co., 826 F.2d 420, 422 (5th Cir. 1987)).  As the gate keeper, a district judge must “extract
+evidence tainted by farce or fiction.  Expert evidence based on a ficti tious set of facts is just as
+unreliable as evidence based upon no research at all.”  Guillory v. Domtar Indus. Inc. , 95 F.3d
+1320, 1331 (5th Cir. 1996).  “Genera lly, the fact-finder is entitled to hear an expert’s testimony
+and decide whether the predicate facts on which the expert relied are accurate.  At the same time,
+however, expert testimony that relies on comple tely unsubstantiated fa ctual assertions is
+Case 2:22-cv-03292-BWA-JVM   Document 47   Filed 01/25/24   Page 7 of 17
+8
+
+inadmissible.”  Moore v. Int’l Paint, L.L.C. , 547 F. App’x 513, 515 (5th Cir. 2013) (internal
+quotation marks, alterations, and citations omitted).  Ultimately, the expert must “‘bring to the jury
+more than the lawyers can offer in argument.’”  Salas v. Carpenter, 980 F.2d 299, 305 (5th Cir.
+1992) (quoting In re Air Crash Disaster at New Orleans, La., 795 F.2d 1230, 1233 (5th Cir. 1986)).
+ 2. Axis’s Daubert motion in limine regarding Michael Gurtler and Joseph Rickett
+ Axis, while conceding that Gurtler and Ricket t are qualified to testify as expert civil
+engineers regarding the cause of property damage, argues that their testimony should be excluded
+as unreliable, inaccurate, and confusing to the jury.46  As to Gurtler, Axis argues that he does not
+have a reliable basis to support his opinions regarding hurricane- caused roof and gutter damage
+because, by the time he inspected the property, the roof and gutters had been replaced and he did
+not view any pre-replacement photographs of the roof before issuing his report.47  Instead, Gurtler
+based his opinions regarding roof dama ge on statements ma de by the tenant. 48  Gurtler did not
+observe, and had no direct eviden ce of, wind-created roof openings. 49 Further, Gurtler could not
+determine whether other damage pre-dated Hurricane Ida.50  With respect to Rickett, Axis argues
+that his opinions should be excluded because he did not inspect the property, performed no analysis
+or testing as to causation, and his testimony would be duplicative of Gurtler’s testimony.51
+ In opposition, Plaintiff argues that Gur tler’s methodology of inspecting the property,
+interviewing the tenant, and re viewing other damage reports regarding the property is sound. 52
+Plaintiff further argues that Gurtler’s opinions regarding the roof, gutter, and window damage are
+reliable because they are base d on his observations, training, and experience, as well as an
+
+46 R. Doc. 33.
+47 R. Doc. 33-1 at 3-8.
+48 Id.
+49 Id.
+50 Id.
+51 Id. at 8-11.
+52 R. Doc. 42 at 5-7.
+Case 2:22-cv-03292-BWA-JVM   Document 47   Filed 01/25/24   Page 8 of 17
+9
+
+eyewitness account of what occurred during the storm. 53  As to Rickett, Plaintiff argues that his
+testimony is relevant and reliabl e because, as an expert, he can rely on another expert’s
+observations.54
+ Axis replies, arguing that Plaintiff “cherry  picked” deposition testimony of Gurtler and
+Rickett that supports its positi on regarding the roof damage. 55  Axis contends that these experts
+have no scientific support for their methodology in determining that th ere was a storm-created
+opening in the roof because they did not see one  with their own eyes and instead rely on the
+insured’s representation that the ro of did not leak before the storm. 56  Axis further argues that
+Rickett’s testimony is unreliable because he performed no inspection, testing, or analysis, but relies
+on Gurtler’s faulty inspection and unsupported conclusion.57
+ Axis does not contest the qualifications of eith er Gurtler or Rickett.  Instead, Axis argues
+that Gurtler’s opinions regarding the cause of the damage – particularly, a purported storm-related
+opening in the roof – are irrelevant because he in spected the property after the roof was repaired
+and based his opinions, at least in part, on statements made by the tenant.  Axis points to Gurtler’s
+deposition testimony to show that he cannot definitively testify that the storm created an opening
+in the roof.  Plaintiff, on the other hand, points to deposition passages where Gurtler explains his
+opinions and why he believes there was a storm -related opening, even if he did not personally
+observe one.  Axis’s concerns regarding the evidence upon which Gurtler’s opinions are based can
+be addressed through cross-examination and the presentation of countervailing expert testimony.
+Further, to the extent that Gurtler’s testimony and opinions are relevant and reliable, so are those
+
+53 Id. at 7-17.
+54 Id. at 17-21.
+55 R. Doc. 46 at 2.
+56 Id. at 2-7.
+57 Id. at 7-8.
+Case 2:22-cv-03292-BWA-JVM   Document 47   Filed 01/25/24   Page 9 of 17
+10
+
+of Rickett that are based on Gurtler’s inspection report.  However, the Court cautions Plaintiff that
+cumulative testimony will not be permitted, and the Court will rule on such objections as they are
+raised at trial.
+3. Axis’s Daubert motion in limine  regarding  Tina Nabhan, Nedal Nabhan, and
+Christina Muha
+
+ Axis seeks to exclude all three PSA employees as expert witnesses.58  As to Tina Nabhan,
+Axis argues that she cannot testify as an expe rt concerning the property damage because she did
+not inspect the property or prepare the estimate.59  She had no involvement in this claim, says Axis,
+other than administrative duties and reviewing the estimate, damage report, and other documents
+for her deposition.60  Axis argues that Nedal Nabhan should be excluded as an expert concerning
+the property damage and the repair cost because  he did not inspect the property or conduct any
+analysis.61  He reviewed for final approval the estimat e that someone else prepared, but admitted
+at his deposition that portions of the estimate were inaccurate and that he had no evidence of a
+storm-created opening in the metal roof.62  Moreover, argues Axis, the estimate is inadmissible as
+to any item of damage that has been repaired because the actual repair cost is the best evidence.63
+As to Muha, Axis points out that she was not identified in Plaintiff’s Rule 26 disclosures as either
+a retained or non-retained expert. 64  Axis also argues that Muha is  not qualified to testify as an
+expert because she is not a licensed public adjustor in Louisiana, nor does she have a contractor’s
+license or any certificates or  training in carpentry, electr ical work, HVAC, plumbing, or
+engineering.65  Further, Axis argues that Muha’s opini ons are not reliable because she made no
+
+58 R. Doc. 34.
+59 R. Doc. 34-1 at 2-3, 6-7.
+60 Id. at 3, 7-9.
+61 Id.
+62 Id.
+63 Id. at 13-14.
+64 Id. at 3, 9-10.
+65 Id. at 3-4; 10-11.
+Case 2:22-cv-03292-BWA-JVM   Document 47   Filed 01/25/24   Page 10 of 17
+11
+
+independent analysis of the cause of the damage  and could not explain what damage was related
+to the storm and which was not.66
+ In opposition, Plaintiff maintains that all thre e PSA employees are qual ified to testify as
+expert public adjustors.67  Plaintiff argues that Nedal Nabhan’s testimony is relevant because, as
+an expert, he is entitled to rely  on others to inspect the property and prepare an estimate that he
+reviewed and approved.68  As for Tina Nabhan, Plaintiff insists that she is qualified to testify about
+hurricane-related damage, and although she was not  personally involved in the investigation of
+Plaintiff’s claim, she can offer opinions that the photographs taken by Muha show water inside the
+building.69  Finally, Plaintiff argues that Muha is a qualified public adjustor who is licensed in four
+states, albeit not Louisiana, and she actually inspected the property. 70  Plaintiff contends that its
+disclosure of PSA as the company that performed the inspections, together with its inclusion of
+Muha on the witness list, should suffice for an expert disclosure.71
+ Axis replies, arguing that Muha should be disqua lified as an expert because Plaintiff failed
+to timely disclose her as such and because she offers no analysis or opinions as to the causation of
+the damage she “observed and documented.”72  Similarly, Axis contends that Nedal Nabhan should
+be excluded because he did not perform an inspection or analysis of the damage, or prepare the
+Xactimate report, but rather reviewed the work of other PSA employees.73  Axis again points out
+that Nedal Nabhan testified at his deposition that several of the estimate items are inaccurate and
+need revision, meaning that his testimony will confuse the jury.74  Further, Axis reiterates that Tina
+
+66 Id. at 3-4; 13-15.
+67 R. Doc. 41.
+68 Id. at 4-5.
+69 Id. at 5-6.
+70 Id. at 6-8.
+71 Id. at 8.
+72 R. Doc. 45 at 2-4.
+73 Id. at 4-7.
+74 Id.
+Case 2:22-cv-03292-BWA-JVM   Document 47   Filed 01/25/24   Page 11 of 17
+12
+
+Nabhan’s testimony should be excluded because she had no personal involvement in Plaintiff’s
+claim other than administration.75
+Axis does not dispute the qualifications of Nedal Nabhan or Tina Nabhan.  Instead, Axis
+argues that neither of them has sufficient person al knowledge of the Plaintiff’s property damage.
+While it is true that Nedal Nabhan did not inspect the property or perform any analysis of the cause
+of the property damage, he granted final approval to the Xactimate estimate that was prepared by
+other PSA employees based on Muha’s inspection.   Axis also points out that Nedal Nabhan
+testified that some line items on the estimate require revision.  These limitations go to the weight,
+not the admissibility of Nedal Nabhan’s testimony, and can be addressed through vigorous cross-
+examination and the presentation of countervailing expert testimony.  However, “to the extent any
+of the items damaged have been repaired, estima tes are improper evidence fo r that item’s repair
+costs; consequently, Plaintiff’s evidence is limited to the actual repair costs.”  Bhrahmani 1 LLC
+v. AmGUARD Ins. Co., 2023 WL 3474575, at *2 (W.D. La. May 15, 2023).  Thus, Nedal Nabhan
+may not testify about estimates to repair damage that has been repaired.
+ Tina Nabhan’s involvement with  Plaintiff’s claim is more removed than that of Nedal
+Nabhan.  She testified at her deposition that she was not involved in Plaintiff’s claim in any way
+except in an administrative capacity.  She was not familiar with the details of the claim and only
+reviewed the documents to prepare for her deposition.  Tina Nabhan did not inspect the property,
+perform any analysis, or have any involvement in the preparation of the Xactimate estimate.  Thus,
+her testimony is not relevant or reliable, and she may not testify as an expert in this case.
+ Finally, Muha may not testify as an expert in  this case either becau se Plaintiff failed to
+include her in its Rule 26 expert disclosures.  Rule 26(a)(2)(B) of the Federal Rules of Civil
+
+75 Id. at 7-9.
+Case 2:22-cv-03292-BWA-JVM   Document 47   Filed 01/25/24   Page 12 of 17
+13
+
+Procedure requires a party to disclose the identity  of any expert witness it may use at trial and
+generally must accompany this disclosure with a written report prepared and signed by the witness.
+The report must contain, among other things, “a co mplete statement of a ll opinions the witness
+will express and the basis and reasons for them.”  Fed. R. Civ. P. 26(a)(2)(B)(i).  An expert who
+fails to provide a report complying with Rule 26(a) should not be permitted to testify “unless such
+failure was substantially justified or is harmless.”  Fed. R. Civ. P. 37(c)(1).  Here, Plaintiff has not
+explained why its failure to properly disclose Muha as an expert was substantially justified or is
+harmless.  However, because Plaintiff included Muha on its witness list and she was deposed by
+Axis, there is no unfair surprise in allowing her to testify as a fact witness as to her inspection of
+the property.  In doing so, Muha may not testify as an expert.  In other words, she cannot offer any
+opinions as to the causation of, or cost to repair, the damage she observed.
+ B. Axis’s Motion for Summary Judgment
+  1. Legal Standard
+Summary judgment is proper if the pleadings, depositions, answers to interrogatories, and
+admissions on file, together  with the affidav its, if any, show that there is no genuine issue as to
+any material fact and that the moving party is  entitled to a judgment as a matter of law.  Celotex
+Corp. v. Catrett, 477 U.S. 317, 322 (1986).  “Rule 56(c) mandates the entry of summary judgment,
+after adequate time for discove ry and upon motion, against a party who fails to make a showing
+sufficient to establish the existence of an element essential to that party’s case, and on which that
+party will bear the burden of proof at trial.”  Id.  A party moving for summary judgment bears the
+initial burden of demonstrating the basis for summary judgment and identifying those portions of
+the record, discovery, and any affidavits supporti ng the conclusion that there is no genuine issue
+of material fact.  Id. at 323.  If the moving party meets that burden, then the nonmoving party must
+Case 2:22-cv-03292-BWA-JVM   Document 47   Filed 01/25/24   Page 13 of 17
+14
+
+use evidence cognizable under Rule 56 to demonstrate the existence of a genuine issue of material
+fact.  Id. at 324.
+A genuine issue of material fact exists if a reasonable jury could return a verdict for the
+nonmoving party.  See Anderson v. Liberty Lobby, Inc., 477 U.S. 242, 248 (1986).  The substantive
+law identifies which facts are material.  Id.  Material facts are not genuinely disputed when a
+rational trier of fact could not find for the nonmoving party upon a review of the record taken as a
+whole.  See Matsushita Elec. Indus. Co. v. Zenith Radio Corp., 475 U.S. 574, 587 (1986); EEOC
+v. Simbaki, Ltd ., 767 F.3d 475, 481 (5th Cir. 2014).  Uns ubstantiated assertions, conclusory
+allegations, and merely colorable factual bases ar e insufficient to defeat a motion for summary
+judgment.  See Anderson, 477 U.S. at 249-50; Little v. Liquid Air Corp., 37 F.3d 1069, 1075 (5th
+Cir. 1994); Hopper v. Frank, 16 F.3d 92, 97 (5th Cir. 1994).  In ruling on a su mmary-judgment
+motion, a court may not resolve credibility issues or weigh evidence.  See Delta & Pine Land Co.
+v. Nationwide Agribusiness Ins. Co., 530 F.3d 395, 398-99 (5th Cir. 200 8).  Furthermore, a court
+must assess the evidence, review the facts, an d draw any appropriate inferences based on the
+evidence in the light most favorable to the party opposing summary judgment.  See Tolan v. Cotton,
+572 U.S. 650, 656-57 (2014); Daniels v. City of Arlington, 246 F.3d 500, 502 (5th Cir. 2001).  Yet,
+a court only draws reasonable infe rences in favor of the nonmova nt “when there is an actual
+controversy, that is, when both parties have submitted evidence of contradictory facts.”  Little, 37
+F.3d at 1075 (citing Lujan v. Nat’l Wildlife Fed’n, 497 U.S. 871, 888 (1990)).
+After the movant demonstrates the absence of a genuine issue of  material fact, the
+nonmovant must articulat e specific facts showing a genuine  issue and point  to supporting,
+competent evidence that may be presented in a form admissible at trial.  See Lynch Props., Inc. v.
+Potomac Ins. Co. , 140 F.3d 622, 625 (5th Cir. 1998); Fed. R.  Civ. P. 56(c)(1)(A), (c)(2).  Such
+Case 2:22-cv-03292-BWA-JVM   Document 47   Filed 01/25/24   Page 14 of 17
+15
+
+facts must create more than “some metaphysical doubt as to the material facts.”  Matsushita, 475
+U.S. at 586.  When the nonmovant will bear the bur den of proof at trial on the dispositive issue,
+the moving party may simply point to insufficient admissible evidence to establish an essential
+element of the nonmovant’s claim in order to satisfy its summary-judgment burden.  See Celotex,
+477 U.S. at 322-25; Fed. R. Civ. P. 56(c)(1)(B).  Unless there is a genuine issue for trial that could
+support a judgment in favor of the nonmovant, summary judgment must be granted.  See Little, 37
+F.3d at 1075-76.
+2. Analysis
+Axis argues that it is entitled to summary judgment in its favor dismissing Plaintiff’s
+breach-of-contract claims because Plaintiff has no evidence that there was a storm-created opening
+in the roof that caused damage to  leak into the building’s interior.76  In support of  its argument,
+Axis cites the opinions of its fi eld adjustor and the Forcon and V eco engineers that there was no
+storm-created opening in the building and instead the damage occurred due to the poor condition
+of the roof.77  Axis also cites the deposition testimony of Gurtler, Rickett, and Muha that they did
+not see any storm-created openings or do any analysis to determine that there was one. 78
+According to Axis, the storm-related damage to Plaintiff’s propert y did not exceed the
+deductible.79
+In opposition, Plaintiff argues that the roof did not leak prior to Hurricane Ida, but did leak
+after the storm, and that there ar e disputed issues of material fact regarding whether the storm
+caused the leaking. 80  Plaintiff contends that Axis ca nnot use unauthenticated Google Earth
+
+76 R. Doc. 35.
+77 R. Doc 35-1 at 3-5, 8.
+78 Id. at 5-6, 9-10.
+79 Id. at 6-7, 10-12.
+80 R. Doc. 43-2.
+Case 2:22-cv-03292-BWA-JVM   Document 47   Filed 01/25/24   Page 15 of 17
+16
+
+photographs to show the condition of the roof. 81  Plaintiff also cites the deposition testimony of
+the property owner where he stated  that the roof did not leak be fore the storm and the deposition
+testimony of Nedal Nabhan, Muha, Gurtler, and Rick etts where they opine that the storm created
+an opening in the building and that the cost to repair the resulting damage exceeded the
+deductible.82
+Axis replies, arguing that it has established that there was no coverage for the claim because
+there was no storm-related opening and that the burden then shifted to Plaintiff to prove that there
+was one, which Plaintiff failed to do. 83  Axis reiterates that none of  Plaintiff’s expert witnesses
+testified that he or she saw a storm-created opening in the building and contends that the building
+owner’s testimony is insufficient to establish a genuine issue of  material fact.84  Axis posits that
+using Google Earth images is standard in the insu rance industry and that its underwriting file is
+irrelevant.85
+ Although Muha cannot offer opinion testimony as to the cause of the damage, the sum of
+the other testimony creates a disputed issue of material fact as to the cause of the water intrusion
+and whether it is covered by the policy.  Conse quently, Axis’s motion for summary judgment is
+denied.
+III. CONCLUSION
+Accordingly, for the foregoing reasons,
+IT IS ORDERED that Axis’s Daubert motion in limine  to exclude the testimony and
+opinions of Michael Gurtler and Joseph Rickett (R. Doc. 33) is DENIED.
+
+81 Id. at 5-6.
+82 Id. at 6-11.
+83 R. Doc. 44 at 1-8.
+84 Id. at 1-6.
+85 Id. at 2, 6-8.
+Case 2:22-cv-03292-BWA-JVM   Document 47   Filed 01/25/24   Page 16 of 17
+17
+
+IT IS FURTHER ORDERED that Axis’s Daubert motion in limine  to exclude the
+testimony, opinions, and report of Tina Nabhan (R. Doc. 34) is GRANTED.
+IT IS FURTHER ORDERED that Axis’s Daubert motion in limine  to exclude the
+testimony, opinions, and report of  Nedal Nabhan (R. Doc. 34) is DENIED.  However, Nedal
+Nabhan may not testify about any estimate to repa ir property damage that has already been
+repaired.
+IT IS FURTHER ORDERED that Axis’s Daubert motion in limine  to exclude the
+testimony, opinions, and report of Christina Muha (R. Doc. 34) is GRANTED as to excluding her
+as an expert witness.  The motion is DENIED as to excluding her as a fact witness.
+IT IS FURTHER ORDERED that Axis’s motio n for summary judgment (R. Doc. 35) is
+DENIED.
+New Orleans, Louisiana, this 25th day of January, 2024.
+
+________________________________
+      BARRY W. ASHE
+      UNITED STATES DISTRICT JUDGE
+Case 2:22-cv-03292-BWA-JVM   Document 47   Filed 01/25/24   Page 17 of 17
