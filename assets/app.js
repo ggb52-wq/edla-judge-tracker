@@ -697,6 +697,7 @@
     drawJudgeHabits(or, op, name);
     drawJudgeMotions(code);
     drawJudgeCal(code, name);
+    drawJudgeProfile(code, name, or, op);
     $('j-act').replaceChildren(...actItems(activity().rows.filter((r) => r.judge === code).slice(0, 12), { empty: 'No docket activity in this judge\'s cases in the last ' + ACT_DAYS + ' days.' }));
     $('j-act-all').href = hashFor('activity', { act: { judge: code, days: '14' } });
     drawFeed();
@@ -801,6 +802,400 @@
       : [el('li', {}, el('span', { className: 'empty', textContent: q || J.type ? 'No written opinions match this filter.' : 'No written opinions in this period.' }))]));
     $('j-op-all').href = findHref({ judge: code, q: J.q, type: J.type });
     $('j-op-all').textContent = rows.length > shown.length ? 'All ' + fmt.int(rows.length) + ' in the opinion search →' : 'Open in the opinion search →';
+  }
+
+  // ------------------------------------------------------------ judge page: docket profile charts and facts from the data
+  // Sequential shades of the judge's blue, mixed over the panel in CSS so a theme switch or the print sheet restyles them.
+  const SHADES = [34, 52, 70, 85, 100];
+  const shade = (lvl) => (lvl <= 0 ? 'var(--line)' : `color-mix(in srgb, var(--judge) ${SHADES[Math.min(SHADES.length, lvl) - 1]}%, var(--panel))`);
+  const DAY_CLASSES = [[1, '1'], [2, '2'], [3, '3'], [4, '4–5'], [6, '6+']];  // written opinions in a day
+  const dayLevel = (n) => (n <= 0 ? 0 : n >= 6 ? 5 : n >= 4 ? 4 : n);
+  const WD = [[1, 'Mon'], [2, 'Tue'], [3, 'Wed'], [4, 'Thu'], [5, 'Fri'], [6, 'Sat'], [0, 'Sun']];
+  const hourName = (h) => (h % 12 || 12) + (h < 12 ? 'a' : 'p');
+  const hourLong = (h) => (h % 12 || 12) + (h < 12 ? ' AM' : ' PM');
+  const holidays = () => new Set(state.data.calendar.filter((r) => r.kind === 'holiday').map((r) => r.date));
+  const isWorkday = (d, H) => { const w = utc(d).getUTCDay(); return w > 0 && w < 6 && !H.has(d); };
+  function shadeKey(items) {
+    return el('div', { className: 'shades' }, el('span', { textContent: 'Fewer' }), ...items.map(([lvl, label]) => { const i = el('i'); i.style.background = shade(lvl); return el('span', { className: 'sw' }, i, label || null); }), el('span', { textContent: 'More' }));
+  }
+  // The judge's cases in the period: every case with a written opinion or a civil order entered by the judge.
+  let caseIdx = null;
+  function caseIndex() {
+    const D = state.data; const S = state.stats;
+    if (caseIdx && caseIdx.S === S && caseIdx.dk === D.dockets) return caseIdx;
+    const byJudge = {}; const add = (j, c) => { if (S.names[j]) (byJudge[j] = byJudge[j] || new Set()).add(c); };
+    S.recent.forEach((o) => add(o.judge, o.case));
+    const ors = Object.fromEntries(S.orders.map((r) => [r.code, r.start]));
+    D.orders.forEach((o) => { if (ors[o.judge] && o.date >= ors[o.judge] && o.date <= S.through) add(o.judge, o.case); });
+    const dk = new Map((D.dockets || []).map((r) => [r.case, r]));
+    const owner = new Map(state.cases.map((c) => [c.case, c.judge]));
+    (D.dockets || []).forEach((r) => { if (S.names[r.judge]) owner.set(r.case, r.judge); });
+    caseIdx = { S, dk: D.dockets, byJudge, docket: dk, owner };
+    return caseIdx;
+  }
+  const filedYear = (id, dk) => { const f = dk && /^\d{4}/.test(dk.filed || '') ? +dk.filed.slice(0, 4) : 0; if (f) return f; const m = String(id).match(/:(\d\d)-/); if (!m) return 0; const y = 2000 + +m[1]; return y > +state.stats.through.slice(0, 4) ? y - 100 : y; };
+
+  // Written opinions by day: one cell per weekday, a column per week, shaded by count.
+  function calHeat(box, { start, end, counts, label, href }) {
+    const H = holidays();
+    const weeks = []; for (let w = mondayOf(start); w <= end; w = addDays(w, 7)) weeks.push(w);
+    const ml = 30; const mt = 16;
+    const W0 = Math.max(220, Math.floor(box.clientWidth || 300));
+    if ((W0 - ml) / Math.max(1, weeks.length) < 10) { calHeatByMonth(box, { start, end, counts, label, href, W0, H }); return; }
+    const step = Math.max(6, Math.min(17, Math.floor((W0 - ml) / Math.max(1, weeks.length))));
+    const cell = step - 2; const Hh = mt + step * 5;
+    const { svg } = frame(box, Hh, label);
+    svg.attr('viewBox', `0 0 ${W0} ${Hh}`);
+    ['Mon', 'Wed', 'Fri'].forEach((d, i) => svg.append('text').attr('x', 0).attr('y', mt + step * (i * 2) + cell - 1).text(d));
+    let lastMonth = ''; let lastX = -99;
+    weeks.forEach((w, wi) => {
+      const x = ml + wi * step;
+      const firstDay = [0, 1, 2, 3, 4].map((k) => addDays(w, k)).find((d) => d >= start) || w;
+      const mo = firstDay.slice(0, 7);
+      if (mo !== lastMonth && wi < weeks.length - 1 && x - lastX >= 30) { lastX = x; svg.append('text').attr('x', x).attr('y', 10).text(d3.utcFormat(wi === 0 || mo.endsWith('-01') ? '%b ’%y' : '%b')(utc(mo + '-01'))); lastMonth = mo; }
+      [0, 1, 2, 3, 4].forEach((k) => {
+        const d = addDays(w, k); if (d < start || d > end) return;
+        const y = mt + k * step; const n = counts.get(d) || 0; const hol = H.has(d);
+        const r = svg.append('rect').attr('x', x).attr('y', y).attr('width', cell).attr('height', cell).attr('rx', 1.5);
+        if (hol) r.attr('fill', 'none').style('stroke', 'var(--line-2)').attr('stroke-width', 1);
+        else r.style('fill', shade(dayLevel(n)));
+        r.on('pointermove', (e) => tipShow([d3.utcFormat('%a, %b %-d, %Y')(utc(d)), hol ? 'Court holiday' + (n ? ' · ' + plural(n, 'written opinion') : '') : plural(n, 'written opinion')].concat(n && href ? ['Click to list the month\'s opinions'] : []), e.clientX, e.clientY)).on('pointerleave', tipHide);
+        if (n && href) r.style('cursor', 'pointer').on('click', () => { location.hash = href(d); });
+      });
+    });
+  }
+
+  // The same cells at phone width: one row per month, one cell per working day in order.
+  function calHeatByMonth(box, { start, end, counts, label, href, W0, H }) {
+    const months = []; for (let m = start.slice(0, 7); m <= end.slice(0, 7); m = addDays(m + '-01', 32).slice(0, 7)) months.push(m);
+    const days = (m) => { const out = []; for (let d = m + '-01'; d.startsWith(m); d = addDays(d, 1)) { const w = utc(d).getUTCDay(); if (w > 0 && w < 6 && d >= start && d <= end) out.push(d); } return out; };
+    const ml = 34; const step = Math.max(6, Math.min(16, Math.floor((W0 - ml) / 23))); const cell = step - 2;
+    const Hh = months.length * step + 2;
+    const { svg } = frame(box, Hh, label);
+    months.forEach((m, mi) => {
+      const y = mi * step;
+      svg.append('text').attr('x', 0).attr('y', y + cell - 1).text(d3.utcFormat('%b')(utc(m + '-01')));
+      days(m).forEach((d, i) => {
+        const n = counts.get(d) || 0; const hol = H.has(d);
+        const r = svg.append('rect').attr('x', ml + i * step).attr('y', y).attr('width', cell).attr('height', cell).attr('rx', 1.5);
+        if (hol) r.attr('fill', 'none').style('stroke', 'var(--line-2)').attr('stroke-width', 1); else r.style('fill', shade(dayLevel(n)));
+        r.on('pointermove', (e) => tipShow([d3.utcFormat('%a, %b %-d, %Y')(utc(d)), hol ? 'Court holiday' + (n ? ' · ' + plural(n, 'written opinion') : '') : plural(n, 'written opinion')], e.clientX, e.clientY)).on('pointerleave', tipHide);
+        if (n && href) r.style('cursor', 'pointer').on('click', () => { location.hash = href(d); });
+      });
+    });
+  }
+
+  // Civil orders by weekday and clock hour of entry, with the hour totals as a column row on top.
+  function hourHeat(box, { rows, courtShare, label }) {
+    const used = rows.map((o) => +o.time.slice(0, 2));
+    const lo = Math.min(8, d3.min(used)); const hi = Math.max(17, d3.max(used));
+    const hours = d3.range(lo, hi + 1);
+    const days = WD.filter(([w]) => w >= 1 && w <= 5 || rows.some((o) => utc(o.date).getUTCDay() === w));
+    const grid = new Map(); rows.forEach((o) => { const k = utc(o.date).getUTCDay() + '|' + +o.time.slice(0, 2); grid.set(k, (grid.get(k) || 0) + 1); });
+    const byHour = hours.map((h) => d3.sum(days, ([w]) => grid.get(w + '|' + h) || 0));
+    const max = d3.max([...grid.values()]) || 1; const total = rows.length;
+    const ml = 32; const mt = 34; const ch = 18; const Hh = mt + days.length * ch + 18;
+    const { svg, W } = frame(box, Hh, label);
+    const x = d3.scaleBand(hours, [ml, W - 2]).paddingInner(0.08);
+    const top = d3.scaleLinear([0, d3.max([...byHour.map((v) => v / total), ...hours.map((h) => courtShare[h] || 0)]) || 1], [mt - 6, 2]);
+    const bw = Math.min(24, x.bandwidth());
+    hours.forEach((h, i) => {
+      const x0 = x(h) + (x.bandwidth() - bw) / 2; const v = byHour[i] / total; const y0 = top(v);
+      if (byHour[i]) svg.append('path').style('fill', 'var(--judge)').attr('d', `M${x0},${mt - 6}V${y0 + 1.5}q0,-1.5 1.5,-1.5H${x0 + bw - 1.5}q1.5,0 1.5,1.5V${mt - 6}Z`);
+      if (courtShare[h]) svg.append('line').attr('x1', x(h)).attr('x2', x(h) + x.bandwidth()).attr('y1', top(courtShare[h])).attr('y2', top(courtShare[h])).style('stroke', 'var(--court)').attr('stroke-width', 2);
+      svg.append('rect').attr('x', x(h)).attr('y', 0).attr('width', x.bandwidth()).attr('height', mt - 4).attr('fill', 'transparent')
+        .on('pointermove', (e) => tipShow([hourLong(h) + ' to ' + hourLong((h + 1) % 24), { color: 'var(--judge)', value: fmt.pct0(v), label: 'this judge (' + fmt.int(byHour[i]) + ')' }, { color: 'var(--court)', value: fmt.pct0(courtShare[h] || 0), label: 'all judges' }], e.clientX, e.clientY)).on('pointerleave', tipHide);
+    });
+    days.forEach(([w, name], di) => {
+      const y = mt + di * ch;
+      svg.append('text').attr('x', 0).attr('y', y + ch - 6).text(name);
+      hours.forEach((h) => {
+        const n = grid.get(w + '|' + h) || 0;
+        svg.append('rect').attr('x', x(h)).attr('y', y).attr('width', x.bandwidth()).attr('height', ch - 2).attr('rx', 1.5).style('fill', shade(n ? Math.ceil((n / max) * 5) : 0))
+          .on('pointermove', (e) => tipShow([name + ', ' + hourLong(h) + ' to ' + hourLong((h + 1) % 24), plural(n, 'civil order') + ' · ' + pctOf(n, total) + ' of this judge\'s timed orders'], e.clientX, e.clientY)).on('pointerleave', tipHide);
+      });
+    });
+    const every = Math.ceil(hours.length / Math.max(2, Math.floor((W - ml) / 30)));
+    hours.forEach((h, i) => { if (i % every === 0) svg.append('text').attr('x', x(h) + x.bandwidth() / 2).attr('y', Hh - 3).attr('text-anchor', 'middle').text(hourName(h)); });
+  }
+
+  // Small multiples: one column chart per ruling type, all on the same y scale.
+  function typeMultiples(box, { rows, code, name }) {
+    const shown = CATS.filter(([k]) => rows.some((r) => (r.by[code] || {})[k]));
+    if (!shown.length) { box.replaceChildren(el('p', { className: 'cap', textContent: 'No written opinions in this period.' })); return; }
+    const max = d3.max(rows, (r) => d3.max(shown, ([k]) => (r.by[code] || {})[k] || 0)) || 1;
+    box.replaceChildren(...shown.map(([k, label]) => {
+      const cellBox = el('div', { className: 'chart' });
+      const wrap = el('div', { className: 'mult' }, el('h4', {}, label, el('b', { textContent: fmt.int(d3.sum(rows, (r) => (r.by[code] || {})[k] || 0)) })), cellBox);
+      return wrap;
+    }));
+    [...box.querySelectorAll('.mult .chart')].forEach((cb, idx) => {
+      const [k, label] = shown[idx]; const Hh = 78; const m = { t: 4, b: 16, l: 2, r: 2 };
+      const { svg, W } = frame(cb, Hh, label + ' opinions by month, Judge ' + name);
+      const x = d3.scaleBand(rows.map((r) => r.month), [m.l, W - m.r]).paddingInner(0.25);
+      const y = d3.scaleLinear([0, max], [Hh - m.b, m.t]);
+      svg.append('line').attr('x1', m.l).attr('x2', W - m.r).attr('y1', Hh - m.b + 0.5).attr('y2', Hh - m.b + 0.5).style('stroke', 'var(--line-2)');
+      const bw = Math.min(14, x.bandwidth());
+      rows.forEach((r) => {
+        const v = (r.by[code] || {})[k] || 0; const x0 = x(r.month) + (x.bandwidth() - bw) / 2; const h = y(0) - y(v);
+        if (h > 0) svg.append('path').style('fill', 'var(--judge)').attr('d', `M${x0},${y(0)}V${y(v) + Math.min(1.5, h)}q0,-1.5 1.5,-1.5H${x0 + bw - 1.5}q1.5,0 1.5,1.5V${y(0)}Z`);
+        svg.append('rect').attr('x', x(r.month)).attr('width', x.step()).attr('y', 0).attr('height', Hh - m.b).attr('fill', 'transparent')
+          .on('pointermove', (e) => tipShow([fmtMonth(r.month), plural(v, label.toLowerCase().startsWith('magistrate') ? 'R&R' : 'opinion') + ' · ' + label], e.clientX, e.clientY)).on('pointerleave', tipHide);
+      });
+      const first = rows[0]; const last = rows[rows.length - 1];
+      svg.append('text').attr('x', m.l).attr('y', Hh - 3).text(d3.utcFormat('%b')(first.dt));
+      if (rows.length > 2) svg.append('text').attr('x', W - m.r).attr('y', Hh - 3).attr('text-anchor', 'end').text(d3.utcFormat('%b')(last.dt));
+    });
+  }
+
+  // Each past ruling as a dot on a days axis, one row per motion type; ticks mark the judge's and all judges' medians.
+  function waitDots(box, { code, name }) {
+    const R = waitSamples();
+    const kinds = [...MCATS.map(([k]) => k), 'procedural'].filter((k) => R.some((r) => r.judge === code && r.kind === k));
+    if (!kinds.length) { emptyChart(box, 80, 'No ruling with a filing date on file yet'); return 0; }
+    const rowH = 30; const m = { t: 6, b: 22, l: Math.min(150, Math.max(122, (box.clientWidth || 300) * 0.3)), r: 10 };
+    const Hh = m.t + kinds.length * rowH + m.b;
+    const { svg, W } = frame(box, Hh, 'Days from filing to ruling, by motion type, Judge ' + name);
+    const mine = R.filter((r) => r.judge === code && kinds.includes(r.kind));
+    const courtMed = (k) => { const a = R.filter((r) => r.kind === k).map((r) => r.days).sort((p, q) => p - q); return a.length >= FEW ? d3.quantileSorted(a, 0.5) : 0; };
+    const x = d3.scaleLinear([0, d3.max([...mine.map((r) => r.days), ...kinds.map(courtMed)]) || 1], [m.l, W - m.r]).nice(5);
+    svg.append('g').attr('transform', `translate(0,${Hh - m.b})`).call(d3.axisBottom(x).ticks(Math.max(2, Math.floor((W - m.l) / 60))).tickSize(-(Hh - m.b - m.t)).tickPadding(6)).call(axisStyle);
+    const lab = (k) => (k === 'procedural' ? 'Procedural' : mcatLabel[k]);
+    kinds.forEach((k, i) => {
+      const y = m.t + i * rowH + rowH / 2;
+      const own = mine.filter((r) => r.kind === k).map((r) => r.days).sort((a, b) => a - b);
+      const all = R.filter((r) => r.kind === k).map((r) => r.days).sort((a, b) => a - b);
+      svg.append('text').attr('class', 'lbl').attr('x', 0).attr('y', y + 4).text(lab(k) + ' · ' + own.length);
+      if (all.length >= FEW) { const cm = d3.quantileSorted(all, 0.5); svg.append('line').attr('x1', x(cm)).attr('x2', x(cm)).attr('y1', y - 11).attr('y2', y + 11).style('stroke', 'var(--court)').attr('stroke-width', 2).attr('stroke-linecap', 'round'); }
+      if (own.length >= FEW) { const jm = d3.quantileSorted(own, 0.5); svg.append('line').attr('x1', x(jm)).attr('x2', x(jm)).attr('y1', y - 12).attr('y2', y + 12).style('stroke', 'var(--ink)').attr('stroke-width', 2).attr('stroke-linecap', 'round'); }
+      // Ties stack a little up and down so each ruling stays visible.
+      const seen = new Map();
+      own.forEach((d) => {
+        const b = Math.round(x(d) / 6); const c = seen.get(b) || 0; seen.set(b, c + 1);
+        const dy = c === 0 ? 0 : (c % 2 ? -1 : 1) * Math.ceil(c / 2) * 4;
+        svg.append('circle').attr('cx', x(d)).attr('cy', y + Math.max(-10, Math.min(10, dy))).attr('r', 4).style('fill', 'var(--judge)').style('stroke', 'var(--panel)').attr('stroke-width', 1.5);
+      });
+      const tip = [lab(k), 'This judge: ' + plural(own.length, 'ruling') + (own.length >= FEW ? ', median ' + dayWord(d3.quantileSorted(own, 0.5)) : own.length ? ', ' + own.map((d) => fmt.int(d)).join(', ') + ' days' : '')]
+        .concat(all.length >= FEW ? ['All judges: median ' + dayWord(d3.quantileSorted(all, 0.5)) + ' from ' + plural(all.length, 'ruling')] : ['All judges: fewer than ' + FEW + ' rulings']);
+      svg.append('rect').attr('x', 0).attr('y', y - rowH / 2).attr('width', W).attr('height', rowH).attr('fill', 'transparent').on('pointermove', (e) => tipShow(tip, e.clientX, e.clientY)).on('pointerleave', tipHide);
+    });
+    return mine.length;
+  }
+
+  // Columns of the judge's share in each ordered bin, with the all-judges share as a gray tick across the bin.
+  function binColumns(box, { bins, mine, court, label, unit, H = 150 }) {
+    const tm = d3.sum(mine); const tc = d3.sum(court);
+    if (!tm) { emptyChart(box, H, 'Nothing on file in this period'); return; }
+    const sm = mine.map((v) => v / tm); const sc = court.map((v) => (tc ? v / tc : 0));
+    const m = { t: 8, r: 4, b: 22, l: 34 };
+    const { svg, W } = frame(box, H, label);
+    const x = d3.scaleBand(bins, [m.l, W - m.r]).paddingInner(0.28).paddingOuter(0.1);
+    const y = d3.scaleLinear([0, d3.max([...sm, ...sc]) || 1], [H - m.b, m.t]).nice(4);
+    const every = Math.ceil(bins.length / Math.max(2, Math.floor(W / 40)));
+    svg.append('g').attr('transform', `translate(0,${H - m.b})`).call(d3.axisBottom(x).tickValues(bins.filter((_, i) => i % every === 0)).tickSize(0).tickPadding(8)).call(axisStyle);
+    svg.append('g').attr('transform', `translate(${m.l},0)`).call(d3.axisLeft(y).ticks(4).tickSize(-(W - m.l - m.r)).tickPadding(6).tickFormat(fmt.pct0)).call(axisStyle);
+    const bw = Math.min(24, x.bandwidth());
+    bins.forEach((b, i) => {
+      const x0 = x(b) + (x.bandwidth() - bw) / 2; const h = y(0) - y(sm[i]);
+      if (h > 0) svg.append('path').style('fill', 'var(--judge)').attr('d', `M${x0},${y(0)}V${y(sm[i]) + Math.min(2, h)}q0,-2 2,-2H${x0 + bw - 2}q2,0 2,2V${y(0)}Z`);
+      if (sc[i]) svg.append('line').attr('x1', x0 - 3).attr('x2', x0 + bw + 3).attr('y1', y(sc[i])).attr('y2', y(sc[i])).style('stroke', 'var(--court)').attr('stroke-width', 2).attr('stroke-linecap', 'round');
+      svg.append('rect').attr('x', x(b) - x.step() * x.paddingInner() / 2).attr('width', x.step()).attr('y', m.t).attr('height', H - m.t - m.b).attr('fill', 'transparent')
+        .on('pointermove', (e) => tipShow([b + ' ' + unit, { color: 'var(--judge)', value: fmt.pct0(sm[i]), label: 'this judge (' + fmt.int(mine[i]) + ')' }, { color: 'var(--court)', value: fmt.pct0(sc[i]), label: 'all judges (' + fmt.int(court[i]) + ')' }], e.clientX, e.clientY)).on('pointerleave', tipHide);
+    });
+  }
+
+  // Horizontal share bars in HTML (long labels wrap at phone width): the judge's share as a bar, all judges' as a gray mark.
+  function shareBars(rows, { href } = {}) {
+    const max = d3.max(rows, (r) => Math.max(r.share, r.court || 0)) || 1;
+    return el('div', { className: 'sbars' }, ...rows.map((r) => {
+      const track = el('span', { className: 'sb-track' }); const bar = el('i'); bar.style.width = (r.share / max) * 100 + '%'; track.append(bar);
+      if (r.court != null) { const mk = el('b'); mk.style.left = (r.court / max) * 100 + '%'; track.append(mk); }
+      const row = el(href && r.href ? 'a' : 'div', { className: 'sb-row' }, el('span', { className: 'sb-l', textContent: r.label }), track, el('span', { className: 'sb-v', textContent: fmt.int(r.n) + ' · ' + fmt.pct0(r.share) }));
+      if (href && r.href) row.href = r.href;
+      row.dataset.tip = [r.label, 'This judge: ' + fmt.int(r.n) + ' (' + fmt.pct0(r.share) + ')'].concat(r.court != null ? ['All judges: ' + fmt.pct0(r.court) + (r.courtN != null ? ' (' + fmt.int(r.courtN) + ')' : '')] : [], href && r.href ? ['Click to list these opinions'] : []).join('\n');
+      return row;
+    }));
+  }
+
+  const PROC_ROWS = [['trial', 'Trials', /trial/i], ['hearing', 'Hearings', /hearing|argument/i], ['conference', 'Conferences', /conference/i], ['other', 'Other', /./]];
+  // Proceedings from 30 days back to 30 days ahead, one row per kind, with today marked.
+  function procTimeline(box, { code, name }) {
+    const today = todayIso(); const from = addDays(today, -30); const to = addDays(today, 30);
+    const ev = calEvents().events.filter((e) => e.judge === code && ['court', 'docket', 'held'].includes(e.src) && e.date >= from && e.date <= to);
+    const kindOf = (e) => PROC_ROWS.find(([, , re]) => re.test(e.what || ''))[0];
+    const rowsUsed = PROC_ROWS.filter(([k]) => ev.some((e) => kindOf(e) === k));
+    const rws = rowsUsed.length ? rowsUsed : PROC_ROWS.slice(0, 3);
+    const rowH = 24; const m = { t: 6, b: 22, l: 86, r: 8 }; const Hh = m.t + rws.length * rowH + m.b;
+    const { svg, W } = frame(box, Hh, 'Proceedings from ' + fmtShort(from) + ' to ' + fmtShort(to) + ', Judge ' + name);
+    const x = d3.scaleUtc([utc(from), utc(addDays(to, 1))], [m.l, W - m.r]);
+    svg.append('g').attr('transform', `translate(0,${Hh - m.b})`).call(d3.axisBottom(x).ticks(Math.max(2, Math.floor((W - m.l) / 70))).tickFormat(d3.utcFormat('%b %-d')).tickSize(-(Hh - m.b - m.t)).tickPadding(6)).call(axisStyle);
+    const tx = x(utc(today)) + (x(utc(addDays(today, 1))) - x(utc(today))) / 2;
+    svg.append('line').attr('x1', tx).attr('x2', tx).attr('y1', m.t - 4).attr('y2', Hh - m.b).style('stroke', 'var(--ink-3)').attr('stroke-width', 1);
+    svg.append('text').attr('x', tx + 3).attr('y', m.t + 4).text('today');
+    rws.forEach(([k, label], i) => {
+      const y = m.t + i * rowH + rowH / 2;
+      svg.append('text').attr('class', 'lbl').attr('x', 0).attr('y', y + 4).text(label);
+      const seen = new Map();
+      ev.filter((e) => kindOf(e) === k).forEach((e) => {
+        const c = seen.get(e.date) || 0; seen.set(e.date, c + 1);
+        const cx = x(utc(e.date)) + (x(utc(addDays(e.date, 1))) - x(utc(e.date))) / 2;
+        const dot = svg.append('circle').attr('cx', cx).attr('cy', y + (c ? (c % 2 ? -1 : 1) * Math.ceil(c / 2) * 5 : 0)).attr('r', 4.5).style('stroke', 'var(--panel)').attr('stroke-width', 2)
+          .style('fill', e.src === 'held' ? 'var(--court)' : 'var(--judge)');
+        const lines = [d3.utcFormat('%a, %b %-d')(utc(e.date)) + (e.time ? ' · ' + fmtTime(e.time) : ''), e.what, (e.short || e.case || '') + (e.title ? ' · ' + e.title : ''), CAL_SRC[e.src] || ''].filter(Boolean);
+        dot.on('pointermove', (ev2) => tipShow(lines.concat(e.case ? ['Click to open the case page'] : []), ev2.clientX, ev2.clientY)).on('pointerleave', tipHide);
+        if (e.case) dot.style('cursor', 'pointer').on('click', () => { location.hash = caseHref(e.case); });
+      });
+    });
+    return ev;
+  }
+
+  function factCard({ k, v, sub, href, ext }) {
+    const node = el(href ? 'a' : 'div', { className: 'fact' + (href ? ' go' : '') }, el('span', { textContent: k }), el('b', { textContent: v }), sub ? el('small', { textContent: sub }) : null);
+    if (href) { node.href = href; if (ext) { node.target = '_blank'; node.rel = 'noopener noreferrer'; } }
+    return node;
+  }
+  // Longest run of consecutive working days in a sorted list of dates (each a working day).
+  function longestRun(dates, H) {
+    let best = { n: 0 }; let cur = null;
+    dates.forEach((d) => {
+      if (cur) { let nx = addDays(cur.end, 1); while (!isWorkday(nx, H)) nx = addDays(nx, 1); if (nx === d) { cur.end = d; cur.n += 1; } else cur = null; }
+      if (!cur) cur = { start: d, end: d, n: 1 };
+      if (cur.n > best.n || (cur.n === best.n && cur.end > (best.end || ''))) best = { ...cur };
+    });
+    return best;
+  }
+  // The largest group of a d3.rollup map; ties go to the latest key, so a fact names the most recent instance.
+  const topOf = (map) => [...map].reduce((a, b) => (!a || b[1] > a[1] || (b[1] === a[1] && b[0] > a[0]) ? b : a), null);
+
+  function judgeFacts(code, name, or, op, ords) {
+    const S = state.stats; const H = holidays(); const CI = caseIndex();
+    const R = S.recent.filter((o) => o.judge === code);
+    const out = [];
+    const paged = R.filter((o) => o.pages);
+    if (paged.length) {
+      const L = paged.reduce((a, b) => (b.pages > a.pages || (b.pages === a.pages && b.date > a.date) ? b : a));
+      const kind = linkKind(L);
+      out.push({ k: 'Longest written opinion', v: plural(L.pages, 'page'), sub: L.case + ' · ' + fmtShort(L.date) + ' · ' + (L.title || ''), href: opinionLink(L, kind), ext: true });
+      const long = paged.filter((o) => o.pages >= 20).length;
+      out.push({ k: 'Opinions of 20 pages or more', v: fmt.int(long), sub: pctOf(long, paged.length) + ' of ' + plural(paged.length, 'opinion') + ' with a page count' });
+    }
+    if (R.length) {
+      const [d, n] = topOf(d3.rollup(R, (v) => v.length, (o) => o.date));
+      out.push({ k: 'Most written opinions in a day', v: fmt.int(n), sub: d3.utcFormat('%a, %b %-d, %Y')(utc(d)) });
+      const [mo, mn] = topOf(d3.rollup(R, (v) => v.length, (o) => o.date.slice(0, 7)));
+      out.push({ k: 'Most written opinions in a month', v: fmt.int(mn), sub: fmtMonth(mo), href: findHref({ judge: code, month: mo }) });
+      const run = longestRun([...new Set(R.map((o) => o.date))].filter((d) => isWorkday(d, H)).sort(), H);
+      if (run.n > 1) out.push({ k: 'Longest run of days with an opinion', v: plural(run.n, 'working day'), sub: fmtShort(run.start) + ' to ' + fmtShort(run.end) });
+      const [cs, cn] = topOf(d3.rollup(R, (v) => v.length, (o) => o.case));
+      const ct = (R.find((o) => o.case === cs) || {}).title || '';
+      out.push({ k: 'Case with the most opinions', v: cs, sub: plural(cn, 'written opinion') + ' · ' + ct, href: caseHref(cs) });
+      out.push({ k: 'Cases with a written opinion', v: fmt.int(op.cases), sub: plural(R.length, 'opinion') + ' across them' });
+      const ages = R.map((o) => ({ o, y: filedYear(o.case, CI.docket.get(o.case)) })).filter((x) => x.y);
+      if (ages.length) {
+        const old = ages.reduce((a, b) => (b.y < a.y || (b.y === a.y && b.o.case < a.o.case) ? b : a));
+        out.push({ k: 'Oldest case with an opinion', v: old.o.case, sub: 'filed ' + old.y + ' · ' + (old.o.title || ''), href: caseHref(old.o.case) });
+      }
+    }
+    const mt = MCATS.filter(([k]) => k !== 'othermotion' && op.cats[k].n).reduce((a, [k, l]) => (!a || op.cats[k].n > a.n ? { k, l, n: op.cats[k].n } : a), null);
+    if (mt) out.push({ k: 'Most common motion decided', v: mt.l, sub: fmt.int(mt.n) + ' of ' + plural(op.motions.n, 'motion ruling') + ' in written opinions', href: findHref({ judge: code, type: mt.k }) });
+    if (ords.length) {
+      const [d, n] = topOf(d3.rollup(ords, (v) => v.length, (o) => o.date));
+      out.push({ k: 'Most civil orders in a day', v: fmt.int(n), sub: d3.utcFormat('%a, %b %-d, %Y')(utc(d)) });
+      const timed = ords.filter((o) => /^\d\d:\d\d/.test(o.time || ''));
+      if (timed.length) {
+        const first = timed.reduce((a, b) => (b.time < a.time ? b : a)); const last = timed.reduce((a, b) => (b.time > a.time ? b : a));
+        out.push({ k: 'Earliest order entry time', v: fmtTime(first.time), sub: fmtShort(first.date) + ' · ' + first.case + ' · ' + cleanEvent(first.event), href: caseHref(first.case) });
+        out.push({ k: 'Latest order entry time', v: fmtTime(last.time), sub: fmtShort(last.date) + ' · ' + last.case + ' · ' + cleanEvent(last.event), href: caseHref(last.case) });
+      }
+    }
+    const mine = [...(CI.byJudge[code] || [])].map((c) => CI.docket.get(c)).filter(Boolean);
+    const withNos = mine.filter((r) => r.nos);
+    if (withNos.length) {
+      const [nos, n] = topOf(d3.rollup(withNos, (v) => v.length, (r) => r.nos));
+      out.push({ k: 'Most common nature of suit', v: nos, sub: fmt.int(n) + ' of ' + plural(withNos.length, 'case') + ' with a nature of suit on file' });
+    }
+    const ref = mine.filter((r) => r.referred);
+    if (ref.length) {
+      const [mj, n] = topOf(d3.rollup(ref, (v) => v.length, (r) => r.referred));
+      out.push({ k: 'Magistrate judge most often referred', v: 'Judge ' + mj, sub: fmt.int(n) + ' of ' + plural(ref.length, 'case') + ' with a referral on file' });
+    }
+    return out;
+  }
+
+  function drawJudgeProfile(code, name, or, op) {
+    const S = state.stats; const D = state.data; const CI = caseIndex();
+    const ords = D.orders.filter((o) => o.judge === code && o.date >= or.start && o.date <= S.through);
+    const facts = judgeFacts(code, name, or, op, ords);
+    $('j-facts').replaceChildren(...(facts.length ? facts.map(factCard) : [el('p', { className: 'cap pad', textContent: 'No opinions or orders on file for this judge in this period.' })]));
+    $('j-facts-cap').textContent = `Items computed from the written opinions (since ${fmtDate(op.start)}), civil orders (since ${fmtDate(or.start)}), and docket details on file for Judge ${name}. Ties go to the most recent.`;
+
+    // Written opinions by day.
+    const R = S.recent.filter((o) => o.judge === code);
+    const counts = d3.rollup(R, (v) => v.length, (o) => o.date);
+    const weekend = R.filter((o) => { const w = utc(o.date).getUTCDay(); return w === 0 || w === 6; }).length;
+    calHeat($('c-j-days'), { start: op.start, end: S.through, counts, label: 'Written opinions by day, Judge ' + name, href: (d) => findHref({ judge: code, month: d.slice(0, 7) }) });
+    $('j-days-key').replaceChildren(shadeKey([[0, '0'], ...DAY_CLASSES.map(([, l], i) => [i + 1, l])]), el('span', { className: 'dim wrap', textContent: 'Outlined: court holiday' + (weekend ? ' · ' + plural(weekend, 'opinion') + ' dated on a weekend not shown' : '') }));
+
+    // Orders by weekday and hour.
+    const timed = ords.filter((o) => /^\d\d:\d\d/.test(o.time || ''));
+    const allH = S.hours.all; const allT = d3.sum(allH);
+    if (timed.length) hourHeat($('c-j-hours'), { rows: timed, courtShare: allH.map((v) => (allT ? v / allT : 0)), label: 'Civil orders by weekday and hour of entry, Judge ' + name });
+    else emptyChart($('c-j-hours'), 120, 'No timed civil orders in this period');
+    $('j-hours-key').replaceChildren(shadeKey([[0, '0'], [1], [2], [3], [4], [5]]), legendItem('var(--judge)', 'Hour total, this judge'), legendItem('var(--court)', 'All judges', 'line'));
+    $('j-hours-n').textContent = plural(timed.length, 'timed order') + ' since ' + fmtShort(or.start);
+
+    typeMultiples($('c-j-mult'), { rows: S.monthly, code, name });
+
+    // Motion types decided.
+    const pooledN = S.pooled.motions.n;
+    const mrows = MCATS.filter(([k]) => op.cats[k].n).map(([k, l]) => ({ label: l, n: op.cats[k].n, share: op.motions.n ? op.cats[k].n / op.motions.n : 0, court: pooledN ? S.pooled[k].n / pooledN : 0, courtN: S.pooled[k].n, href: findHref({ judge: code, type: k }) }));
+    $('j-mix').replaceChildren(mrows.length ? shareBars(mrows, { href: true }) : el('p', { className: 'cap', textContent: 'No motion rulings among this judge\'s written opinions in this period.' }));
+    $('j-mix-n').textContent = plural(op.motions.n, 'motion ruling');
+
+    const nWait = waitDots($('c-j-wait'), { code, name });
+    $('j-wait-n').textContent = nWait ? plural(nWait, 'ruling') + ' with a filing date' : '';
+
+    // Opinion length.
+    const PB = [['1', 1, 1], ['2', 2, 2], ['3–4', 3, 4], ['5–7', 5, 7], ['8–11', 8, 11], ['12–19', 12, 19], ['20–29', 20, 29], ['30+', 30, Infinity]];
+    const binOf = (p) => PB.findIndex(([, a, b]) => p >= a && p <= b);
+    const pageCount = (rows) => { const c = PB.map(() => 0); rows.forEach((o) => { if (o.pages) c[binOf(o.pages)] += 1; }); return c; };
+    binColumns($('c-j-pages'), { bins: PB.map((b) => b[0]), mine: pageCount(R), court: pageCount(S.recent), label: 'Written opinions by page count, Judge ' + name + ' and all judges', unit: 'pages' });
+    $('j-pages-n').textContent = plural(R.filter((o) => o.pages).length, 'opinion') + ' with a page count';
+
+    // Cases by year filed.
+    const yearsOf = (set) => [...set].map((c) => filedYear(c, CI.docket.get(c))).filter(Boolean);
+    const mineY = yearsOf(CI.byJudge[code] || new Set());
+    const allY = Object.values(CI.byJudge).flatMap((s) => yearsOf(s));
+    const ymax = +S.through.slice(0, 4); const y0 = ymax - 7;
+    const YB = d3.range(y0, ymax + 1).map((y) => (y === y0 ? '≤' + String(y).slice(2) : '’' + String(y).slice(2)));
+    const yc = (ys) => { const c = YB.map(() => 0); ys.forEach((y) => { c[Math.max(0, y - y0)] += 1; }); return c; };
+    binColumns($('c-j-years'), { bins: YB, mine: yc(mineY), court: yc(allY), label: 'Cases by year filed, Judge ' + name + ' and all judges', unit: '(year filed)' });
+    $('j-years-n').textContent = plural(mineY.length, 'case');
+
+    // Nature of suit.
+    const nosOf = (set) => [...set].map((c) => (CI.docket.get(c) || {}).nos).filter(Boolean);
+    const mineN = nosOf(CI.byJudge[code] || new Set()); const allN = Object.values(CI.byJudge).flatMap((s) => nosOf(s));
+    const cnt = d3.rollup(mineN, (v) => v.length, (x) => x); const cntAll = d3.rollup(allN, (v) => v.length, (x) => x);
+    const top = [...cnt].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])).slice(0, 8);
+    const rest = mineN.length - d3.sum(top, (t) => t[1]);
+    const nrows = top.map(([k, n]) => ({ label: k, n, share: n / mineN.length, court: allN.length ? (cntAll.get(k) || 0) / allN.length : 0, courtN: cntAll.get(k) || 0 }));
+    if (rest > 0) { const topK = new Set(top.map((t) => t[0])); const allRest = allN.filter((x) => !topK.has(x)).length; nrows.push({ label: 'All other natures of suit', n: rest, share: rest / mineN.length, court: allN.length ? allRest / allN.length : 0, courtN: allRest }); }
+    $('j-nos').replaceChildren(nrows.length ? shareBars(nrows) : el('p', { className: 'cap', textContent: 'No nature of suit on file for this judge\'s cases yet.' }));
+    $('j-nos-n').textContent = plural(mineN.length, 'case') + ' with a nature of suit';
+
+    // Hearings and trials.
+    const ev = procTimeline($('c-j-proc'), { code, name });
+    const today = todayIso();
+    $('j-proc-note').textContent = `${plural(ev.filter((e) => e.date < today).length, 'proceeding')} in the last 30 days and ${plural(ev.filter((e) => e.date >= today).length, 'proceeding')} set for the next 30, from the court's calendar, docket settings, and minute entries read so far.`;
+
+    // Fifth Circuit decisions in the judge's cases, one line each; never totaled.
+    const ap = ((D.appeals || {}).appeals || []).filter((a) => CI.owner.get(a.case) === code).sort((a, b) => b.date.localeCompare(a.date));
+    $('j-ca5').replaceChildren(...(ap.length ? ap.map((a) => el('li', {},
+      el('span', { className: 'd', textContent: fmtShort(a.date) }),
+      el('span', { className: 'h' }, el('a', { href: SAFE_URL.test(a.pdf || '') ? a.pdf : '#', target: '_blank', rel: 'noopener noreferrer', textContent: 'No. ' + a.ca5 }), el('span', { className: 'tag', textContent: a.kind || 'Opinion' })),
+      el('span', { className: 'e', textContent: (a.disposition || 'Disposition not read') + ' · ' + (a.caption || '') }),
+      el('span', { className: 'c' }, caseNumLink(a.case))))
+      : [el('li', {}, el('span', { className: 'empty', textContent: 'No Fifth Circuit decision on file in this judge\'s cases. Decisions are read from the Fifth Circuit\'s opinions feed as they issue.' }))]));
   }
 
   // ------------------------------------------------------------ page: compare

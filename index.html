@@ -97,6 +97,11 @@
     </div>
     <div class="kpis six" id="j-kpis" aria-label="Key figures"></div>
 
+    <section class="panel jfacts" aria-labelledby="h-facts">
+      <div class="ph"><h2 id="h-facts">Facts from the data</h2><a class="more-link" href="methodology.html#profile">How these are computed</a></div>
+      <div class="pb"><p class="cap" id="j-facts-cap"></p><div class="facts many" id="j-facts"></div></div>
+    </section>
+
     <div class="jgrid">
       <div class="stack">
         <section class="panel rules" id="j-rules" aria-labelledby="h-rules">
@@ -126,6 +131,37 @@
           </div>
         </section>
 
+        <section class="panel" aria-labelledby="h-when">
+          <div class="ph"><h2 id="h-when">When opinions and orders are entered</h2></div>
+          <div class="pb">
+            <h3>Written opinions by day</h3>
+            <div class="chart" id="c-j-days"></div>
+            <div class="legend keyrow" id="j-days-key"></div>
+          </div>
+          <div class="duo">
+            <div><h3>Civil orders by weekday and hour of entry <span class="n" id="j-hours-n"></span></h3><div class="chart" id="c-j-hours"></div><div class="legend keyrow" id="j-hours-key"></div></div>
+            <div><h3>Written opinions by ruling type and month</h3><div class="mults" id="c-j-mult"></div></div>
+          </div>
+        </section>
+
+        <section class="panel" aria-labelledby="h-decided">
+          <div class="ph"><h2 id="h-decided">Motions decided</h2><div class="legend"><span><i style="background:var(--judge)"></i>This judge</span><span><i class="line" style="background:var(--court)"></i>All judges</span></div></div>
+          <div class="duo">
+            <div><h3>Motion types decided in written opinions <span class="n" id="j-mix-n"></span></h3><div id="j-mix"></div></div>
+            <div><h3>Days from filing to ruling <span class="n" id="j-wait-n"></span></h3><div class="chart" id="c-j-wait"></div>
+              <p class="foot-note">Each dot is one ruling. Dark tick: this judge's median (five or more rulings); gray tick: all judges' median for that motion type.</p></div>
+          </div>
+        </section>
+
+        <section class="panel" aria-labelledby="h-shape">
+          <div class="ph"><h2 id="h-shape">Opinions and cases</h2><div class="legend"><span><i style="background:var(--judge)"></i>This judge</span><span><i class="line" style="background:var(--court)"></i>All judges</span></div></div>
+          <div class="duo">
+            <div><h3>Opinion length, pages <span class="n" id="j-pages-n"></span></h3><div class="chart" id="c-j-pages"></div></div>
+            <div><h3>Cases by year filed <span class="n" id="j-years-n"></span></h3><div class="chart" id="c-j-years"></div></div>
+          </div>
+          <div class="pb bt"><h3>Nature of suit <span class="n" id="j-nos-n"></span></h3><div id="j-nos"></div></div>
+        </section>
+
         <section class="panel" aria-labelledby="h-habits">
           <div class="ph"><h2 id="h-habits">Written opinions and short orders</h2></div>
           <div class="pb">
@@ -149,6 +185,15 @@
         <section class="panel" aria-labelledby="h-jcal">
           <div class="ph"><h2 id="h-jcal">On the calendar</h2><a class="more-link" id="j-cal-all" href="#calendar">Calendar →</a></div>
           <ol class="cal-list" id="j-cal"></ol>
+        </section>
+        <section class="panel" aria-labelledby="h-proc">
+          <div class="ph"><h2 id="h-proc">Hearings and trials</h2><div class="legend"><span><i class="dot" style="background:var(--judge)"></i>Set</span><span><i class="dot" style="background:var(--court)"></i>Held</span></div></div>
+          <div class="pb"><div class="chart" id="c-j-proc"></div><p class="foot-note" id="j-proc-note"></p></div>
+        </section>
+        <section class="panel" aria-labelledby="h-ca5">
+          <div class="ph"><h2 id="h-ca5">Fifth Circuit decisions</h2></div>
+          <p class="cap pad">Published and unpublished decisions in appeals from this judge's cases, as each issues. Listed one by one; the site does not total them by judge.</p>
+          <ol class="feed" id="j-ca5"></ol>
         </section>
         <section class="panel latest" aria-labelledby="h-latest">
           <div class="ph"><h2 id="h-latest">Written opinions</h2><span class="count" id="j-op-count"></span></div>

@@ -36,6 +36,7 @@
       <a href="#hearing">Hearing set before ruling</a>
       <a href="#length">Opinion length</a>
       <a href="#written">Written opinions and short orders</a>
+      <a href="#profile">Judge page charts and facts</a>
       <a href="#position">Comparing with other judges</a>
       <a href="#compare">Compare judges</a>
       <a href="#motions">Submitted motions</a>
@@ -119,6 +120,31 @@
 
       <h2 id="length">Opinion length</h2>
       <p>Pages in the opinion's PDF, for opinions whose PDF the site has found. Medians are shown with the number of opinions they rest on; a judge's headline median appears once five PDFs have page counts. Page counts measure length only.</p>
+
+      <h2 id="profile">Judge page charts and facts</h2>
+      <p>Each judge's page carries charts and a list of facts computed in the browser from the same files as every other figure. They use the period chosen in the top bar. They describe counts and dates on the docket; none ranks, scores, or rates a judge, and none says anything about the quality of a ruling. Where a chart shows all judges, it pools every judge's rows into one figure; it never orders judges against each other.</p>
+      <ul>
+        <li><strong>Written opinions by day:</strong> one cell per weekday from the start of the opinion count to the data-through date, shaded by the number of the judge's written opinions (magistrate R&amp;Rs included) dated that day, in fixed classes (0, 1, 2, 3, 4–5, 6 or more) that are the same on every judge's page. Court holidays are outlined. Opinions dated on a weekend are left out of the grid and counted in its key.</li>
+        <li><strong>Civil orders by weekday and hour of entry:</strong> the judge's civil orders with a recorded entry time, by weekday and clock hour (Central), shaded relative to the judge's busiest cell. The columns above give each hour's share of the judge's timed orders; the gray mark is the same share for all judges' orders combined. Entry time is when the clerk docketed the order (see <a href="#definitions">Time of entry</a>).</li>
+        <li><strong>Written opinions by ruling type and month:</strong> one small chart per ruling type (see Ruling type under <a href="#definitions">Definitions</a>), each month's count, all on one scale so the charts can be read against each other.</li>
+        <li><strong>Motion types decided:</strong> the judge's motion rulings among written opinions, by <a href="#categories">motion category</a>, as a count and a share of the judge's motion rulings. The gray mark is the share of all judges' motion rulings in that category. Categories are listed in a fixed order.</li>
+        <li><strong>Days from filing to ruling:</strong> each ruling with a filing date on file as one dot, in calendar days from the motion's docket date to the ruling (see <a href="#timing">Time to ruling</a>), grouped by motion category. The samples are the same ones the case pages use: written opinions with a filing date, and motions seen in the RSS feed with a later order matched to them. The dark tick is the judge's median once a category has five rulings; the gray tick is the median for all judges' rulings in that category once it has five.</li>
+        <li><strong>Opinion length:</strong> the share of the judge's written opinions with a page count that fall in each page range, beside the same share for all judges' opinions.</li>
+        <li><strong>Cases by year filed:</strong> the judge's cases (every case in which the judge entered a written opinion or civil order in the period) by the year the case was filed, read from the docket where CourtListener supplied a filing date and otherwise from the case number. The first column gathers every older year. The gray mark is the share for all judges' cases.</li>
+        <li><strong>Nature of suit:</strong> the same set of cases, by the nature of suit on the docket where it is on file; the eight most frequent for the judge are listed and the rest are combined. The gray mark is the share of all judges' cases with a nature of suit on file.</li>
+        <li><strong>Hearings and trials:</strong> proceedings in the judge's cases from 30 days before today to 30 days after, from the court's calendar, docket entries that set a proceeding, and minute entries (see <a href="#calendar">Calendar</a>), one row per kind: trials, hearings (including oral argument), conferences, and other proceedings. Blue marks a setting; gray marks a proceeding recorded as held in a minute entry. The court's calendar shows only a week at a time and the feed is kept for 14 days, so this is not a complete record.</li>
+        <li><strong>Fifth Circuit decisions:</strong> decisions read from the Fifth Circuit's opinions feed in appeals from the judge's cases (see <a href="#court-info">Submission dates, notices, and appeals</a>), listed one by one with the disposition as the decision states it. The site does not total or rate them by judge.</li>
+      </ul>
+      <p><strong>Facts from the data</strong> are single items taken from the same rows. Where several rows tie, the most recent one is named.</p>
+      <ul>
+        <li><strong>Longest written opinion</strong> and <strong>opinions of 20 pages or more:</strong> from PDF page counts.</li>
+        <li><strong>Most written opinions in a day</strong> and <strong>in a month:</strong> the date or month with the largest number of the judge's written opinions.</li>
+        <li><strong>Longest run of days with an opinion:</strong> the most consecutive working days on each of which the judge entered at least one written opinion.</li>
+        <li><strong>Case with the most opinions</strong>, <strong>cases with a written opinion</strong>, and <strong>oldest case with an opinion</strong> (by year filed, as above).</li>
+        <li><strong>Most common motion decided:</strong> the motion category, other than "other motions," with the most rulings among the judge's written opinions.</li>
+        <li><strong>Most civil orders in a day</strong>, <strong>earliest order entry time</strong>, and <strong>latest order entry time:</strong> from civil orders and their recorded entry times (when the clerk docketed the order).</li>
+        <li><strong>Most common nature of suit</strong> and <strong>magistrate judge most often referred:</strong> among the judge's cases with that detail on the docket.</li>
+      </ul>
 
       <h2 id="written">Written opinions and short orders</h2>
       <p>For the period with every civil order on file, a judge's page sets that judge's written opinions beside the judge's total civil orders: the share of orders flagged for the Written Opinions Report, the share entered as text orders (the docket event begins "Text Order"), and the same comparison for orders whose event names a motion. The docket does not distinguish a reasoned written order that chambers did not flag from a minute entry, so the figure measures flagging practice, not how often a judge writes reasons.</p>
