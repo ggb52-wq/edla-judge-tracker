@@ -1,0 +1,1182 @@
+1
+
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+SOUTHERN OIL OF LOUISIANA LLC
+
+VERSUS
+
+ALLIANCE OFFSHORE, LLC, ET AL
+*
+
+*
+
+*
+CIVIL ACTION
+
+NO. 21-2337 c/w 23-131
+
+MAG. JUDGE CURRAULT
+
+DOCUMENT RELATES TO ALL CASES
+
+PHASE I
+(LIABILITY, INCLUDING LIMITATION AND ALLOCATION)
+FINDINGS OF FACT AND CONCLUSIONS OF LAW
+
+These consolidated cases arise from a vessel’s allision with a fixed well platform in the Gulf
+of Mexico.  As described in detail below, i n the early morning of December 2, 2021, the M/V MR.
+CADE (a vessel owned by Mr. Cade, LLC, managed by SeaTran Marine, LLC and on a bareboat
+charter to Alliance Offshore, L .L.C. (collectively, “Alliance”)  and being captained by Alliance’s
+employee Capt. Christopher Tyndall), allided with a fixed well platform owned by Southern Oil  of
+Louisiana, LLC ("Southern Oil").  Alliance contends that the allision was caused by Southern Oil’s
+failure to comply with applicable U.S. Coast Guard regulations requiring that certain aids to
+navigation be affixed to well platforms (e.g., 360⁰ lights and an operable foghorn) .  Southern Oil
+alleges that the allision was caused by the negligence of Alliance and/or Capt. Tyndall (e.g., failure
+to properly use or operate radar and other onboard systems to detect the structure and excessive hours
+worked), unseaworthiness, and a defectively designed or manufactured lantern produced by Sabik
+Oy.  As a result of the allision, crew member Jeremy Turner allegedly sustained personal injuries ,
+and both the vessel and well platform sustained damage.
+Case 2:21-cv-02337-DPC     Document 172     Filed 08/20/24     Page 1 of 43
+2
+
+Invoking FED. R. CIV. P. 9(h), Southern Oil filed suit against Alliance Offshore, LLC, SeaTran
+Marine, LLC, Iberia Crewboat & Marine Services, LLC,1 Mr. Cade, LLC,  and the M/V MR CADE.2
+Civ. No. 21-2337, ECF No. 10 ¶¶ 1-10.  Alliance, SeaTran and Mr. Cade, LLC answered and filed a
+counterclaim alleging that Southern Oil’s platform was not properly lighted and lacked a foghorn to
+alert vessels of its presence, which they allege caused the allision and consequent damage.  ECF No.
+13 ¶¶ 8 -10.  By Third Amended Complaint, Southern Oil asserted a Rule 14(c) contribution claim
+against Sabik Oy, alleging that Sabik Oy designed, manufactured, marketed, and sold a defective
+lantern that was a contributing cause of the allision.  ECF No. 50 ¶¶ 2, 7, 10-28. 3  On January 10,
+2023, Alliance and the M/V MR CADE filed a proceeding for exoneration or limitation.  Civ. No.
+23-131, ECF No. 1.  Southern Oil and Jeremy Turner answered and filed claims in the limitation, and
+Turner filed an Amended Claim and Complaint.  ECF Nos. 6, 7 in No. 23-131 and ECF No. 83 in No.
+21-2337.4  Southern Oil has stipulated it does not have and is no longer pursuing claims against Sabik
+for punitive damages or violation of the Louisiana Unfair Trade Practices Act, L A. REV. STAT.
+§§ 51:1401-1428.  ECF No. 148, Stip. #20, #21.
+These consolidated matters were referred to the United States Magistrate  Judge for all
+proceedings and entry of judgment in accordance with 28 U.S.C. § 636(c) upon the written consent
+of all parties.  ECF Nos. 39, 58.  The Court granted bifurcation and ordered that trial proceed in two
+phases:  (1) liability, including exoneration or limitation of liability and apportionment of fault, and
+(2) damages.  ECF Nos. 77, 127.
+
+1 Plaintiff voluntarily dismissed its claims against Iberia Crewboat & Marine Services, LLC.  ECF No. 11.
+2 Plaintiff voluntarily dismissed its claims against the M/V MR CADE.  ECF No. 26.
+3 By Second Amended Complaint, Southern Oil added Carmanah Technologies Corp. as a defendant, asserting that it
+purchased lanterns for its platform from Carmanah, but the lanterns were defective and inoperable on the night of the
+allision; it later voluntarily dismissed those claims without prejudice.  ECF No. 44 ¶¶ 10-28; No. 46.
+4 The Court granted Turner’s motion to bifurcate and ordered that trial of the matter be bifurcated into two phases :
+(1) liability, including exoneration or limitation of liability and apportionment of fault,  and (2) damages.  ECF No. 77.
+Case 2:21-cv-02337-DPC     Document 172     Filed 08/20/24     Page 2 of 43
+3
+
+The Court he ard the first phase of the case, without a jury, on July 22- 23, 2024.  At the
+beginning of the trial, the parties introduced Joint Exhibits 1-46, 48-50, 52-82 (“Exhibits”) along with
+a corrected Exhibit 13.  D uring trial, the parties introduced additional Exhibits J  15a, J 2a, J 39a, J
+52-16a, and J 52-16b.  Southern Oil also introduced exhibits SO  1, SO 3-9, and Alliance introduced
+exhibits A 17 and A 18.  ECF Nos. 162, 163.  The Court admitted all of the listed exhibits and heard
+testimony from the following witnesses:
+Harvey Kelley
+Jason Lacoste
+Thomas Dale Carter
+Todd Fuselier
+Bryan Miller
+Shane Schexnider
+Andrew Minster (expert)
+Jared Chiasson
+Capt. Christopher Tyndall
+Ronald May (expert)
+Mark Lane (expert–via depo)
+David Scruton(expert-via depo)
+George Mahl (expert–via depo)
+Andrea Stewart (via depo)
+Christopher Karentz (expert-via
+depo)
+Brandon Magie (via depo)
+Jeremy Turner (via depo)
+ECF No. 163.  Alliance moved for directed verdict at the close of Southern Oil’s case as to the claims
+of manufacturing defect, design defect, redhibitory defect, failure to warn, and breach of express
+warranty claims.  In light of the deposition submissions, the Court deferred ruling until completing
+review of the deposition testimony introduced during trial.
+ Having considered the evidence adduced at trial, the record, the testimony of the witnesses,
+the arguments and written submissions of counsel, and the applicable law, the Court makes the
+following findings of fact and conclusions of law pursuant to FED. R. CIV. P. 52(a).  To the extent, if
+any, that any of the following findings of fact constitute conclusions of law, or vice versa, they are
+adopted as such.
+FINDINGS OF FACT
+I. Background
+1. Plaintiff/Claimant Southern Oil is the owner/operator of the Corvus Well and Platform
+located in the Gulf of Mexico in Breton Sound Block 51 (“ BS 51”), which has been in place and
+producing hydrocarbons for seventeen years.  ECF No. 148, Stip. #1, #2.
+Case 2:21-cv-02337-DPC     Document 172     Filed 08/20/24     Page 3 of 43
+4
+
+2. The MP45 Corvus/SL 18550#1 Well and Platform (the “Well”) consists of a me tal
+caisson, a two-level metal platform, a boat dock, and an access ladder that extends twenty to thirty
+feet above water level.  The Well contained two light fixtures on opposing corners of the structure.
+3. The BS 51 platform is a manned platform that usually has 3 or 4 workers (a foreman
+and 2-3 operators) stationed there at a time.  From the BS 51, these workers oversee 20 -25 other
+structures (or if counting multi -structure platforms as a single structure, about 12 other structures),
+including the Well at issue.  Kelley Test.; Carter Test.
+4. Thomas Dale Carter and Ashley Stegall (now deceased) were the foremen for Southern
+Oil assigned to the BS 51 at the time of the incident, each working 2 weeks on, 2 weeks off.  C arter
+has been in the industry over 25 years.  Carter Test.
+5. Defendant/Petitioner M/V MR CADE is a crew boat owned by Mr. Cade, LLC and
+operated by Alliance Offshore, LLC pursuant to a bareboat charter arrangement.  ECF No. 148, Stip.
+#3.  At the time of and before the allision, the vessel was being operated by Capt. Chris Tyndall.  ECF
+No. 148, Stip. #13.
+6. Alliance’s HR Manager Jared Chiasson hired Capt. Tyndall on July 29, 2021, and
+assigned him to the M/V MR. CADE.  He has hired over 100 captains and det ermined that Capt.
+Tyndall was competent by interviewing him and looking at his years of experience, valid credentials,
+references, and work history.  When a captain applies for a job and has a valid license, Chiasson
+assumes they have prior radar training and know how radar functions.  Chiasson Test.
+7. Capt. Tyndall has been a pilot for about ten years.  He had a 100-ton license when
+hired by Alliance but later  obtained a 200-ton license in October 2021.  Tyndall Test.  He did not
+have a radar endorsement on December 2, 2021 (ECF No. 148, Stip. #14), but he took the class and
+obtained an unlimited radar endorsement a few months later.  Tyndall Test.
+Case 2:21-cv-02337-DPC     Document 172     Filed 08/20/24     Page 4 of 43
+5
+
+8. The M/V MR. CADE had two separate radar systems, Rose Point  Coastal Explorer,
+GP-39 GPS Navigator , Furuno FA170 Automatic Identification System (“AIS”) , Furuno Navpilot
+auto pilot system, and paper charts.  Rose Point displays charts of the Gulf and enables the captain to
+plot a voyage plan and overlay it over the charted obstacles .  Tyndall Test.  See also J-67 – J-71; J-
+78; SO-9.
+9. Tyndall had no school training on how to operate radar, GPS, AIS or Rose Point at the
+time of the allision.  All of the manuals for these pieces of equipment were on the vessel,  but Capt.
+Tyndall did not review them because he had prior experience with those programs through his
+approximately 7 years of work as a captain prior to the allision.  Tyndall Test.
+10. The Well was included on both navigational charts and the M/V MR CADE’s Rose
+Point Explorer/electronic navigational aid/chart plotter.  ECF No. 148, Stip. #4.
+11. Tyndall was not aware that he could overlay radar over the digital chart. Tyndall Test.
+12. Capt. Tyndall had tuned one radar device to ½ mile range and the other radar device
+to ¾ mile range.  Tyndall Test.
+13. The radar systems have alarm features, but Capt. Tyndall did not know how to set
+those alarms.  Karentz, 37:4 -12.  Capt. Tyndall had turned the alarms off because the proximity to
+structures would have constantly set off the alarms.  Tyndall Test.
+14. If the radar failed to pick up the object, the alarm features would not have sounded
+either.  Karentz, 37:13-25.
+15. On December 1- 2, 2021, the M/V MR CADE was operating in the Gulf of Mexico
+offshore Louisiana in the area of the platform and well in Main Pass Block 45.  ECF No. 148, Stip.
+#11.  At approximately 12:30 a.m. on December 2, the M/V MR. CADE allided with the Well.  The
+SCADA (satellite communication) from the Well went down approximately 12:28 a.m. on December
+2, 2021.  Kelley Test.
+Case 2:21-cv-02337-DPC     Document 172     Filed 08/20/24     Page 5 of 43
+6
+
+16. Jeremy Turner, an employee of Alliance Offshore on December 2, 2021, was in the
+vessel’s rudder room at the time of the allision.  ECF No. 148, S tip. #23, #24.  At the time of the
+allision, he was in the course and scope of his employment with Alliance Offshore and did not cause
+or contribute to the allision.  ECF No. 148, Stip. #25, #26.
+17. Weather was not a factor in the December 2, 2021 allision.  ECF No. 148, Stip. #22.
+The night was clear, seas were calm, no rain or fog; it was very dark with no moonlight.  Stewart,
+70:17-71:9.
+18. Capt. Tyndall had woken up at approximately 10:30 am on December 1, 2021.  After
+getting some coffee and doing his normal morning pre-shift things, such as inspecting the vessel, he
+began his watch at 12 noon.  He was still on watch at the time of the allision at approximately 12:30
+a.m. on December 2, 2021.  Tyndall Test.  Thus, Capt. Tyndall was approximately 30 minutes past
+the 12-hour maximum work period at the time of the allision.
+19. Of Capt. Tyndall’s 12 hour watch, 6 hours was standby time.  Karentz, 20:13-21:16.
+Although Capt. Tyndall had approximately 6 hours of standby time during his watch, he remained on
+watch that entire twelve hour period and thus had no “rest period” during that shift.  Scruton, 19:11-
+19, 37:3-11; see also Karentz, 21:7-27:6.
+20. Alliance has training and a policy on rest/fatigue which is addressed during orientation
+and part of its 52-week annual training.  Chiasson Test.
+21. Capt. Tyndall did not feel fatigued or tired at the time of the allision as several hours
+of his watch time was spent on standby.  Tyndall Test.  He did, however, go to the galley to get coffee
+shortly before the allision.
+22. Mr. Chiasson, along with Alliance coordinators, handled scheduling of captains for
+their hitches.  He tries to consider a worker’s travel scheduled in shift scheduling.  But the c aptains
+handle watch schedules on the vessel.  Chiasson Test.
+Case 2:21-cv-02337-DPC     Document 172     Filed 08/20/24     Page 6 of 43
+7
+
+23. At approximately 10:00 pm, Capt. Brandon Magie boarded the M/V MR. CADE after
+having driven approximately 9- 10 hours from his home in Texas.  Tyndall Test.  Capt. Tyndall
+suggested Capt. Magie get some rest before taking over watch.  Tyndall Test.
+24. Before the allision, Capt. Tyndall had departed the EPS dock at Venice at
+approximately 11:00 pm.  As he exited Baptiste Collette, he saw a shrimp trawler, so he reduced
+speed and changed the charted course from his original voyage plan by making a wide port turn to
+not wake the trawler’s vessel.  Tyndall Test.
+25. Capt. Tyndall was very familiar with the Main Pass areas, having worked in the same
+area while with other employers as well.  Based on his prior experience, Capt. Tyndall was  aware
+that the Main Pass area is somewhat dangerous to operate in because there are several structures
+nearby.  Tyndall Test.
+26. Although Capt. Tyndall testified that he began “veering towards the original voyage
+plan,” after passing the trawler,  the record reflects that he maintained a course parallel to the charted
+course for roughly six nautical miles before alliding with the Well.   See Ex. J-52-16B.  Capt. Tyndall
+further testified that at least 10-15 minutes passed between the time he deviated from the voyage plan
+to the time the vessel struck the Well.
+27. Deckhand Andrea Stewart came to the wheelhouse at approximately 11:30 or 11:45
+p.m.  Stewart, 33:16- 22.  While still on the deviation from the voyage plan, Capt. Tyndall engaged
+the autopilot and left Stewart to monitor the vessel while Capt. Tyndall went  down to get a cup of
+coffee.  Capt. Tyndall spent approximately one minute in the galley, and he felt it was safe to leave
+Stewart because he had steering ability.  Tyndall Test.; J-5, Ex. 7.
+28. After Capt. Tyndall returned to the wheelhouse from getting c offee, he steered the
+vessel back toward his original voyage plan and increased his speed.  Tyndall Test.
+Case 2:21-cv-02337-DPC     Document 172     Filed 08/20/24     Page 7 of 43
+8
+
+29. Capt. Tyndall did not consult his Rose Point Explorer, either when he deviated from
+his charted voyage plan or when he sought to return to the chart ed voyage plan, to assess potential
+obstructions.
+30. After getting coffee and returning the vessel to its original voyage plan, Capt. Tyndall
+stood looking out of the window in front of him.  He saw a dark area directly ahead and, after checking
+his radar and not seeing anything, he turned on his spotlight , which illuminated the Well
+approximately 30 yards directly ahead of him.  Unable to avoid the Well, he decreased speed but did
+not reverse engines because he knew he could not avoid the structure and wanted to keep the bow
+low to avoid impact above the vessel’s waterline  to reduce the risk of sinking were the vessel to
+sustain damage below the water line.  Tyndall Test.  Capt. Tyndall was back in the wheelhouse for
+about 5-15 minutes before the allision.  Stewart, 58:4-16; Tyndall Test.
+31. Platforms such as the Well usually show up on radar, and Capt. Tyndall , as well as
+others, regularly saw this Well on radar with the exception of this one incident.  Karentz, 38:24-39:23.
+Tyndall does not recall any prior occasion where this Well did not show up on radar.  Tyndall Test.
+32. On the day of the allision, the Well did not show up on either one of the two separate
+radars systems onboard the M/V MR. CADE.  Tyndall Test.
+33. After the allision, Capt. Tyndall sounded the general alarm and Capt. Magie came to
+the wheelhouse.  They all looked at the radar and tried to pick up the structure but could not.  Tyndall
+Test; Magie Test. 9:16-21, 49:25-50:3.
+34.  One radar system was significantly damaged in the allision, but the other radar system
+remained operable.  See Ex. J-77-3.  No one provided any evidence of any damage to the remaining
+operable radar system, either before or after the allision.  Capt. Karentz opined that the Well may not
+have shown up on radar or other systems for various reasons.  For instance, when an object  is head-
+on, directly in the vessel’s path, the image may reflect back twice and not show up properly when the
+Case 2:21-cv-02337-DPC     Document 172     Filed 08/20/24     Page 8 of 43
+9
+
+radar received the image or electronic information, or the radar emission could bounce back off the
+mass and blank out anything directly ahead of the boat.  Similarly, it may be hidden under the heading
+flasher.  Karentz, 40:10- 41:5.  Vessels often change course a few degrees to allow radar to capture
+objects in the direct path.  Id.
+35. After the allision, Capt. Tyndall steered the vessel on a 360⁰ pass around the Well ,
+during which cellphone video recorded the scene.  Tyndall Test.; Ex. J-76- 1.  The video shows the
+southern light blinking, but the northern light inoperable.
+36. After returning to the dock following the allision, Capt. Tyndall told Sout hern Oil’s
+Harvey Kelley that the Well did not show up on radar, and the Well had no light or foghorn.  Kelley
+Test.
+A. The Nav Aids
+37. On July 19, 2012, the U.S. Coast Guard approved the M650H lanterns for use as
+private aids to navigation on Class C structures, like the Well.  ECF No. 148, Stip. #15; Ex. J-9.  The
+M650H has a range up to 4 nautical miles.  Ex. J-10 at 1-2.
+38.  Sabik Oy designed, manufactured, marketed, and sold a Carmanah- branded LED
+Solar  Marine Lantern designated as Model 650H, which was designed for use as navigational aids
+for buoys, docks, platforms, and beacons.  ECF No. 148, Stip. #5.  This lantern was marketed as a
+cost-effective, high -performance, low maintenance, and easy -to-install solar LED marine lantern
+ideal for use as aids-to-navigation and having a long-lasting battery, extreme temperature range, and
+five-year life expectancy with a simple installation that consisted of attaching the self-contained light
+unit to the structure using three M6 bolts.  ECF No. 148, Stip. #6, #7.
+39. The M650H uses a sealed lead acid AGM battery , which is one of the best available.
+Lane, 40:23-42:9.
+Case 2:21-cv-02337-DPC     Document 172     Filed 08/20/24     Page 9 of 43
+10
+
+40. Jason Lacoste is the Aids to Navigation Service Manager for Essi Corporation
+(“Essi”).  Lacoste Test.  Essi purchased several M650H lanterns, including those bearing serial
+numbers 1560059508 and 1560059732, on July 25, 2019.  Essi sold electrician Bryan M iller (via
+United Control Systems) two M650H lanterns along with the IR (infrared) remote on May 31, 2019,
+and then sold him two more M650H lanterns on November 18, 2019.  ECF No. 148, Stip. #16; Ex. J-
+10 at 3-4, 6-7.  The IR remote cost $28.  Ex. J-10 at 4.
+41. When Essi sells the M650H lanterns, it provides the lantern in a box with a brochure
+and one bird deterrent.  Lacoste Test.  The upper left corner of the backside of the brochure shows
+the internal display screen that provides relevant lantern information.  Specifically, the display
+provides information regarding, among other things, battery health, voltage, intensity, and flash code.
+Information about the battery health is also available via the IR (infrared remote) or through a USB
+port that hooks up to a computer.  Lacoste Test.
+42. The M650H has a User Manual.  Ex. J-39.   Essi has copies of the M650H User Manual
+available, but most buyers access the User Manual via the internet, downloading the pdf of same to
+their phones so that the User Manual may be accessed from any location.  Lacoste Test.  The User
+Manual stresses the importance of battery health to the proper functioning of the lantern.  Lane Test.,
+98:19-100:17.  When the battery is depleted or not working properly, the output will be dim.  Lane
+Test., 106:5-15; 138:15-139:1; 175:21-177:14.
+43. Essi presets the M650H lanterns to Coast Guard specifications, but the customer can
+refer to the User Manual to change those settings.  When Essi programs the M650H to comply with
+Coast Guard regulations, it turns off the automatic light control feature.  With that feature turned off,
+when the battery depletes, the light will stop working rather than get dimmer or flash at a lower
+intensity.  Lacoste Test.
+Case 2:21-cv-02337-DPC     Document 172     Filed 08/20/24     Page 10 of 43
+11
+
+44. At the time the lantern at issue left the factory, it was in working order and continued
+to work properly for approximately a year, while affixed to the Pegasus and prior to removal from
+that well.  Mahl, 27:24-28:3; 71:14-24.
+45. The light should be inspected at least annually, but most users perform quarterly
+inspections.  Regular maintenance consists of checking the battery health and making sure the lanterns
+are clean.  Lacoste Test.  The M650H has several available avenues to check battery health:  (1) the
+LED screen display on the underside of the lantern; (2) with the IR remote; or (3) testing the battery
+with a voltmeter. Lacoste Test.; May Test.  The user should check the battery health via one of these
+methods, not simply by covering the lantern to see if it flashes.  Lacoste Test.
+46. Foreman Carter decided to change the lanterns on the Well because they were having
+problems with the earlier lights, and Stegall decided to transition to the M650H lantern because it was
+self-contained and required little maintenance.  Carter Test.
+47. Bryan Miller has owned United Control Services for 22 years and has worked in the
+electrical field for 42 years.  He installed the navigational lighting aboard the Well on March 8, 2021
+by installing two M 650H lanterns, one on the northwest side  and the other on the southeast side of
+the platform.  ECF No. 148, Stips. #8 - #10; Miller Test.
+48. Miller has used Carmanah lights for 5-6 years.  He worked with Southern Oil operators
+when they decided to go with the Carmanah lanterns because they cost less, were self-contained, and
+did not require a solar bank.  Most of the information he got was from Essi, and he was told these
+lights were reliable and low maintenance.  Miller Test.
+49. Shane Schexnider has worked on BS 51 for 8 years, first as operator and later lead
+operator.  Schexnider Test.  Schexnider was not on the platform on December 2, 2021.  He was,
+however, on the platform and assisted Bryan Miller with changing the lights on March 8, 2021.  Id.
+Case 2:21-cv-02337-DPC     Document 172     Filed 08/20/24     Page 11 of 43
+12
+
+50. Southern Oil has no documents tracing the custody or location of the lantern at issue
+between its acquisition in September 2019 and installation on the Well on March 8, 2021, nor does it
+have any documents reflecting the care or maintenance of the lantern after installation on March 8,
+2021 through the December 2, 2021 allision.  ECF No. 148, Stip. #17, #18.
+51. Mr. Kelley and Mr. Carter were not aware that the lantern had previously been used
+on another platform or that it was not functioning properly when installed.  Rather, they thought the
+lights were new.  Kelley Test.; Carter Test.  There is no dispute, however, that the lights installed on
+the Well on March 8, 2021, were not new or “ just out of the box.”   Rather, they had been used on
+another platform (the Pegasus) and removed when work was being done on that platform.
+52. No one could identify who removed the lights from the Pegasus .  After removal, the
+lights were kept on the B S 51 platform, either behind the line heater or on top of the tool shed, for
+approximately five months before being installed at the Well on March 8, 2021.  Schexnider Test.
+53. Miller could not recall whether he replaced both lights or only one light on March 8,
+2021.  Ex. J-33; Kelley Test.  He did not fill in the volt information on that form because he thought
+that information was not available because it was a self -contained unit, and he did not know how to
+open the lantern to test the battery.  Instead, he simply tested the unit by covering it with a box to
+ensure it blinked.  Miller Test.; Ex. J-33-1.
+54. Southern Oil engages a third party to come out quarterly to perform inspections of the
+structures.  Kelley Test.  Electrician Miller did his best to conduct Southern Oil’s quarterly inspections
+though he did not inspect quarterly during the COVID pandemic.  After each inspection, he would
+fill out paperwork and take one copy for his files and leave one copy with BS 51.  Given that Miller’s
+last report is dated March 8, 2021, Miller conceded that he may not have gone back out to test the
+lantern after installation on March 8, 2021 and before the December 2, 2021 incident .  Miller Test.;
+Case 2:21-cv-02337-DPC     Document 172     Filed 08/20/24     Page 12 of 43
+13
+
+see also Exs. 37, 38, 53-65.  There were no quarterly inspections of the lantern by Miller or any other
+electrician after the March 8, 2021 installation.
+55. The Southern Oil workers would visit the BS 51 area structures (including the Well)
+whenever a boat was available, usually at least once or twice a week, to do rounds.  Schexnider Test.;
+Fuselier Test.  During rounds, the workers would check for leaks, verify sensors, check nav aids (such
+as lights), and clean solar panels.
+56. Miller did not provide any instructions on how the workers could perform light checks.
+Schexnider Test.  The  operators would conduct lights checks by covering the fixture and checking
+for a flash; the operators did not perform voltage checks or battery health checks.  Schexnider Test.
+For units that do not have self-contained batteries, operators check volt and bulbs.  Fuselier Test.  For
+the M60H lanterns, they did not know how to check the battery status via the display on the bottom
+of the unit.  Fuselier Test.
+57. In addition to the routine platform checks, after sunset and from the BS 51, an operator
+would scan the area nightly (weather permitting) through a spotting scope to confirm that the lights
+were blinking on the structures.  Kelley Test.; Schexnider Test.; Carter Test.  They did not have a
+schedule to check the lights throughout the night and just assumed the light continued to work.  Carter
+Test.
+58. Although electrician Bryan Miller and crew member Shane Schexnider  testified they
+also checked the lights using the spotting scope when they woke up before sunrise, that testimony
+occurred only after other witnesses testified that they used the spotting scope at sunset and admittedly
+did not take any steps to determine whether the light remained operable all night.  The suggestion that
+these two later witnesses also conducted early morning spotting scope checks is not credible.  Further,
+Miller did not recall whether he checked  any lights using the spotting scope in March 2021, which
+was the last time he was on the BS 51.  Miller Test.
+Case 2:21-cv-02337-DPC     Document 172     Filed 08/20/24     Page 13 of 43
+14
+
+59. There is no checklist implementing any operations manual or policies and procedures
+relating to the crew’s regular platform checks.  Fuselier Test.  Likewise, there is no written procedure
+to perform nightly checks of lighting or documentation when same is completed.  Carter Test.
+60. The Well lies approximately 4 -6 miles from the BS 5 1 manned platform.  From that
+distance and vantage point, you can only see that a light was blinking, not whether it was the northern
+or southern lantern.  You cannot see that both lights are blinking at the same time.  Carter Test.;
+Schexnider Test.; J-76-1.
+61. Any documentation of such nightly spotting scope inspections would be in the daily
+log, which should reflect people on board and when and how often the workers had access to a vessel
+for platform checks.  Kelley Test.; Carter Test.  The BS 51 daily log was not produced during
+discovery or introduced at trial.  Likewise, Southern Oil did not introduce any documentary evidence
+reflecting that any Southern Oil worker or third party inspector inspected the lights on the Well after
+the March 8, 2021 installation.  Kelley Test.
+62. When electrician Bryan Miller installed the lanterns on March 8, 2021, he did not
+review the User Manual at that time.  He recalls reviewing the User Manual when the lights first came
+out.  Miller Test.  (Carmanah  first obtained Coast Guard approval for the M650H lantern in 2012.
+Ex. J-9; Lane Depo. 17:15-18).
+63. The lantern has several alternative means to test the battery’s health: (1) open the
+bottom to read the display screen to check the battery health; (2) us e the IR remote to force the light
+to flash a code indicating its battery health; (3) remove the battery to test with a voltmeter  (which
+Miller had with him at installation because he checked the voltage of the foghorn (Ex. 33)).  Simply
+checking to see if the light flashes is insufficient to determine the battery health.  If the light comes
+on at dusk, that does not mean it is fully operational because, depending on the amount of sun, it may
+Case 2:21-cv-02337-DPC     Document 172     Filed 08/20/24     Page 14 of 43
+15
+
+have put in just enough energy to charge the battery to operate t he lantern for a short period of time
+rather than the entire night.  Lane, 118:12-120:3.
+64. Although Miller purchased an IR remote in May 2019 (which he believes went missing
+from the BS 51) and had his voltmeter when installing the lantern on March 8, 2021 (Ex. J-33 at 1)),
+before installing, he simply determined that the light flashed by covering it, without taking any steps
+to determine the health of the battery through any one of the several methods available to do so.
+Miller Test.  Although a Southern Oil employee ( Carter) testified that Miller checked the lantern
+using the IR remote, Miller testified that he never used an IR remote to check the battery’s health for
+any platform and does not recall whether he knew that the IR remote could check the voltage or
+battery health.  Miller did not test the light beyond covering it with a box to ensure it blinked.  Miller
+Test.  O perators could take the IR remote with them to check the lights  during the weekly routine
+visits, but Carter did not know how to use the IR remote and didn’t think other operators knew either
+or thought they could not get it to work right.  Carter Test.
+65. Once installed, you cannot access the onsite display to check the battery health without
+unbolting the three bolts holding the lantern to the Well.  Before installation (and before the allision),
+Miller did not know that you could look at the display on the bottom of the lantern to check on the
+battery health.  Likewise, he did not know that you could unscrew the bottom to check the battery
+with a voltmeter.  Miller Test.
+66. Miller’s trial testimony reflected that he lacked a basic understanding or familiarity
+with the M650H and essentially had no understanding of the numerous avenues to test the battery
+health of the lantern.  In fact, he testified that if it stopped working, he would just replace the entire
+lantern, not replace the battery.  Miller Test.  Had Miller read the M650H User Manual or discussed
+the attributes of this fixture with his Essi representative, he would have learned how to determine the
+Case 2:21-cv-02337-DPC     Document 172     Filed 08/20/24     Page 15 of 43
+16
+
+health of the battery.  The bad battery could have been replaced before installing the lantern on March
+8, 2021.  Mahl Depo., 79:10-13.
+67. The lantern came with a single bird deterrent  but had slots for up to three bird
+deterrents.  The bird deterrent affixed to the lantern appeared to be out of place though no witness
+testified as to its condition at the time of the allision.  Witnesses did, however, indicate that they
+would move the deterrent to cover the lantern with a box or bag to check whether it flashed during
+routine platform checks.  Schexnider Test.
+68. Southern Oil could have added more bird deterrents but, as Mr. Carter explained, none
+of them really work.  Carter Test.
+69. The lantern’s maintenance schedule is best determined by the end user who knows the
+conditions to which it is exposed.  Lane  Depo., 209:11- 210:9.  If one bird deterrent and weekly
+cleaning was insufficient to ensure bird droppings did not interfere with operation or potentially
+damage the lantern, more frequent cleaning should have been done.
+70. Miller had no issues with any other M650H lanterns on other platforms.  Miller Test.
+The lantern at issue worked properly for almost a year.  Around the time that it was removed from
+the Pegasus and stored on BS 51, its data log shows an issue impacting either its motherboard or
+battery.  Ex. J-44, May Test.  That defect did not exist at the time of manufacture or sale, but rather,
+developed almost a year later after its use on, and removal from, the Pegasus.
+71. The lantern’s battery was not in good working condition when the lantern was installed
+on the Well on March 8, 2021.  An inspection of the battery health would have revealed problems
+necessitating further inspection to determine whether the problem was with the lantern, its battery or
+some other component.
+72. The battery condition resulted in the lantern obtaining insufficient daily charge to
+allow the light to remain operable throughout the entire night.  Although the battery would accept
+Case 2:21-cv-02337-DPC     Document 172     Filed 08/20/24     Page 16 of 43
+17
+
+some charge to power the light to blink were someone to merely cover the light for a few minutes to
+check it, the battery would not charge sufficiently to power the lantern to remain illuminated
+throughout the course of the night.
+73. In the early morning of December 2, 2021, the battery had depleted, and the light was
+not illuminated or blinking.  Consequently, the Well was not visible to the naked eye from the vessel’s
+wheelhouse before Capt. Tyndall turned on the spotlight because the Well’s northern lantern was
+completely dark.  Ex. J-5 (video labelled 1-Bow, Platform Collision); Stewart Depo., 86:7-87:19.  At
+that time, only the southern lantern was operating.  Ex. J-76-1 (360⁰ post-allision video).
+74. No one on the vessel heard the foghorn sound before the allision.  Tyndall Test.;
+Stewart, 85:15-86:6.  However, at the M/V MR. CADE’s speed with the windows closed, those inside
+most likely would not have heard the foghorn.  Tyndall Test.; Karentz Depo., 16:1-21.
+75. The first person to arrive at the Well after the allision was operator Fuselier with two
+Coast Guard employees who arrived around 9:00-10:00 am.  Fuselier found the foghorn hanging by
+its cord, so he was not able to test it.  It looked like the foghorn had fallen off the box during allision.
+Fuselier Test.
+76. When Fuselier arrived at the Well at around 9:00-10:00 a.m. following the allision, he
+placed a box over both lights and they flashed.  Fuselier Test.
+77. Later that day, Kelley went to the Well and found the foghorn laying on the ground.
+He does not know when it became inoperable but also believes it fell off during allision .  When he
+picked it up and plugged it in, the horn worked.  Kelley also covered each lantern with a black bag or
+his jacket and saw the lights blinking.  The northern light was about 50% dimmer and blinked less
+frequently than the southern light.  Kelley Test.
+78. The Court finds that the foghorn fell off during the allision.
+Case 2:21-cv-02337-DPC     Document 172     Filed 08/20/24     Page 17 of 43
+18
+
+B. Post-Allision Inspection of the Nav Lights
+79. Electrical Engineering experts George Mahl and Ronald May traveled to the Well to
+remove both the northern and southern lanterns on June 6, 2022, before Southern Oil named Sabik
+Oy a party to this lawsuit.  ECF No. 148, Stip. #19.  Neither had any prior experience with the M650H
+lantern.  May Test.; Mahl Depo. At 9:2-5.
+80. When initially inspecting the lanterns, neither Mahl nor May had a copy of the M650H
+User Manual nor did they understand the codes on the lantern’s built -in display.  Mahl, 18:7- 20:8;
+51:18-55:9; 85:22-87:8.
+81. In October 2023, experts Mahl and May went to Nashville to inspect the lanterns at
+Sabik Oy’s SPX/Carmanah facility.  Mahl Depo, at 20:9-11.  In Nashville, the Sabik/SPX/Carmanah
+employee connected the lantern to their computer system and downloaded its information to produce
+a G-log, which is essentially the lantern’s “black box” providing a record of operations including time
+switched on and off, voltage, temperature, and other pertinent information.  Ex. J -44; Mahl Depo.,
+21:6-11; 28:14-30:18; Lane Depo., 160:23-168:14; May Test.
+82. The G -log reflects that  something happened on or about September 2, 2020, that
+impacted the battery charging circuit, after which the lantern’s battery indicated it was bad.  Ex. 44
+at 20; Mahl Depo., 66:17-68:10; Lane Depo., 175:14-180:15.  An event like a nearby lighting strike
+could cause such damage.  Lane Depo., 213:14-214:20.
+83. Mahl opined that the use of a single bird deterrent was inadequate to address the large
+amount of bird droppings.  The lantern’s design, however, accommodated up to three bird deterrents.
+If excessive droppings were experienced and the user elected not to purchase additional bird
+deterrents, the user could also have addressed excessive bird droppings by more  frequent cleaning
+(i.e., more than the once a week or every other week as indicated by Southern Oil employees).
+84. The M650H lantern was not defectively designed with regard to bird deterrents.
+Case 2:21-cv-02337-DPC     Document 172     Filed 08/20/24     Page 18 of 43
+19
+
+85. Although Mahl had initially opined that the battery was charged at a high voltage that
+damaged the battery, after the deposition of Mark Lane, Mahl changed his opinion to suggest that
+there was an internal fault in the lantern, which developed over a year after the lantern left the factory,
+that either caused the high voltage on the battery resulting in damage or caused an erroneous reading
+that resulted in the battery not charging.  Mahl Depo., 37:8-38:3; 71:14-24.  Mahl suggested that the
+defect was either a design defect or manufacturing defect and , because other l anterns functioned
+properly, he concluded it was some unidentified manufacturing defect.  Mahl  Depo. 40:19-41:13.
+Mahl did not consider any misuse, abuse or damage, and he had no information about how the lantern
+was used or maintained during the lengthy period after it left the factory. Mahl  Depo., 41:8-42:12;
+64:7-66:16.
+86. Mahl did not identify any alleged manufacturing defect and stated that he did not know
+what the manufacturing defect was or even that the battery was defectively designed or manufactured.
+Mahl Depo., 42:15-16; 61:10-17.  Rather, he suggests that there are more resilient batteries that could
+have been employed but then indicated that there was probably not another battery available that
+would have made any difference.  Mahl Depo., 61:24-63:25.
+87. The battery in the northern lantern reflected battery failure as early as September 2020,
+long before installation on the Well on March 8, 2021.  Ex. J -44.  The battery was not properly
+recharging to a full charge, resulting in the battery running out of power to operate the light throughout
+the entire night through sunrise.
+88. The September 2, 2020, event that damaged the battery circuit could also have
+compromised the lantern’s ability to continue recording the log where by the processor was still
+handling the photocell allowing the light to function intermittently but not recording log entries.  Lane
+Depo., 195:11-197:16.
+89. Both the vessel and Well sustained damages in the allision.  ECF No. 148, Stip. #12.
+Case 2:21-cv-02337-DPC     Document 172     Filed 08/20/24     Page 19 of 43
+20
+
+90. The m arket value of M/V MR. CADE as of December 2021 was $1.5 million.
+Although the market value was $4.5 million in 2018, with COVID -19, the substantial slowdown of
+operations in the Gulf, and lack of vessel demand, the value decreased substantially because vessels
+were just sitting in storage.  Minster Test.  See also Ex. A-17.
+CONCLUSIONS OF LAW
+I. Jurisdiction
+1. This Court has jurisdiction over the claims in the complaint under the admiralty and
+maritime laws of the United States, 28 U.S.C. § 1333, and Rule 9(h) of the Federal Rules of Civil
+Procedure.  Venue is proper in the Eastern District of Louisiana under 28 U.S.C. § 1391(b) because
+a significant portion of the events occurred within this district.  All parties consented to proceed before
+a United States Magistrate Judge pursuant to 28 U.S.C. § 636(c).
+II. Claims at Issue
+2. Southern Oil asserts general maritime negligence and unseaworthiness claims against
+Alliance Offshore, L.L.C., Seatran Marine, LLC, and Mr. Cade, LLC, in personam, (collectively,
+“Alliance”).    ECF No. 148 at 5-9, 35 ¶¶ 9(3)-(5).
+3. Southern Oil asserts maritime products liability, Rule 14(c) maritime contribution,
+redhibition, negligent misrepresentation, breach of express warranty, and negligence claims against
+Sabik Oy, manufacturer of the subject lantern.  Id. at 5-9, 35-36 ¶¶ 9 (9)-(14).
+4. Alliance asserts a general maritime negligence counterclaim against Southern Oil for
+damages allegedly caused by Southern Oil’s failure to properly light and affix a functional foghorn
+to the Corvus Well.  Id. at 15-17.  Alliance further seeks to limit its liability under 46 U.S.C. § 30501,
+arguing that the cause of the allision was not within the vessel owner’s privity or knowledge or within
+the knowledge of the vessel master or managing agent at or before the beginning of the voyage.  Id .
+at 36 ¶ 9(20).  Jeremy Turner asserts Jones Act personal inj ury and unseaworthiness claims against
+Case 2:21-cv-02337-DPC     Document 172     Filed 08/20/24     Page 20 of 43
+21
+
+Alliance for injuries allegedly sustained as a result of the allision, general maritime negligence claims
+against Southern Oil, and a maritime products liability claim against Sabik Oy.  Id. at 17-24.5
+5. In response to Alliance’s counterclaim asserting maritime negligence, Southern Oil
+invoked Rule 14(c) to both tender Sabik Oy to Alliance and assert a contribution claim against Sabik.
+See ECF Nos. 44, Count II, at 7; 50.  See Ambraco, Inc. v. Bossclip B.V., 570 F.3d 233, 242- 43 (5th
+Cir. 2009) (under Rule 14(c), a party defending an admiralty or maritime claim may “implead a third-
+party for two purposes: (1) to seek contribution o r indemnification from the third -party defendant,
+and (2) to tender the third-party defendant to the plaintiff.”) (citation omitted).
+III. Fault of the Parties
+6. In admiralty cases, the standard of care is established by statutes or regulations,
+maritime custom, or by the general principles of negligence law.  S.C. Loveland, Inc. v. E.W. Towing,
+Inc., 608 F.2d 160, 165 (5th Cir. 1979); THOMAS J. SCHOENBAUM, ADMIRALTY AND MARITIME LAW
+§ 5–2 (2d ed. 1994).
+7. Rule 7 of the Inland Rules of Navigation states that “Proper use shall be made of radar
+equipment if fitted and operational, including long-range scanning to obtain early warning of risk of
+collision and radar plotting or equivalent systematic observation of detected objects.”  33 C.F.R.
+§ 83.07.  Rule 5 provides:  “Every vessel shall at all times maintain a proper look -out by sight and
+hearing as well as by all available means appropriate in the prevailing circumstances and conditions
+so as to make a full appraisal of the situation and of the risk of collision.”  33 C.F.R. § 83.05.
+8. “General principles of negligence guide the analysis of a maritime tort case.”  Casaceli
+v. Martech International, Inc., 774 F.2d 1322, 1328 (5th Cir. 1985).  “To state a claim for relief under
+maritime law, the ‘plaintiff must demonstrate that there was a duty owed by the defendant to the
+
+5 Turner further alleges that Alliance is guilty of willful and wanton misconduct in failing to provide him with maintenance
+and cure ( Id. ¶ XIII, at 10), but the parties agreed to defer maintenance and cure and medical causation until the second
+phase of trial.
+Case 2:21-cv-02337-DPC     Document 172     Filed 08/20/24     Page 21 of 43
+22
+
+plaintiff, breach of that duty, injury sustained by [the] plaintiff, and a causal connection between the
+defendant’s conduct and the plaintiff’s injury.” In re Great Lakes Dredge & Dock Co., LLC, 624 F.3d
+201, 211 (5th Cir. 2010) (quoting Canal Barge Co. v. Torco Oil Co., 220 F.3d 370, 376 (5th Cir.
+2000) (internal quotation omitted)).
+9. “Under maritime law, a plaintiff is owed a duty of ordinary care under the
+circumstances.” Id. (citing Daigle v. Point Landing, Inc ., 616 F.2d 825, 827 (5th Cir. 1980)).  “ To
+give rise to liability, a culpable act or omission must have been ‘a substantial and material factor in
+causing the [allision].’” American River Transportation Co. v. Kavo Kaliakra SS, 148 F.3d 446, 450
+(5th Cir. 1998) (quoting Inter-Cities Navigation Corp. v. United States, 608 F.2d 1079, 1081 (5th Cir.
+1979)).
+10. “[W]hen two or more parties have contributed by their fault to cause property damage
+in a maritime [allision], liability for such damage is to be allocated among the parties proportionately
+to the comparative degree of their fault, and that liability for such damages is to be allocated equally
+only when the parties are equally at fault or when it is not possible to fairly measure the comparative
+degree of their fault.”  United States v. Reliable Transfer, 421 U.S. 397, 411 (1975).  Thus, a primary
+question before the Court is who at fault for the allision, and if more than one party is at fault, the
+degree of fault shared for the allision.
+11. “Under general maritime law, joint tortfeasors are held jointly and severally liable to
+a plaintiff,” but a joint tortfeasor’s liability is determined through comparative fault.  Matter of Jack’d
+Up Charters LLC, 690 F. Supp. 3d 560, 570 (E.D. L a. 2023) (Brown, C.J.) (citing McDermott, Inc.
+v. AmClyde, 511 U.S. 202, 220, (1994) ; United States v. Reliable Transfer Co., 421 U.S. 397, 411
+(1975)). “To reconcile comparative fault with joint and several liability, maritime law recognizes the
+right of contribution between joint tortfeasors.”  Id . (citing S CHOENBAUM, ADMIRALTY AND
+MARITIME LAW § 5:16).  A defendant that pays more than its pro rata share of a judgment may invoke
+Case 2:21-cv-02337-DPC     Document 172     Filed 08/20/24     Page 22 of 43
+23
+
+the right of contribution to collect from other parties their allocated portions of the judgment based
+on comparative fault.  Id.  In other words, “[a] contribution cause of action arises . . . when a tortfeasor
+actually pays more than its share of the judgment.”  Id .  “[C]ases from the federal district courts of
+Louisiana suggest that a defendant can assert contribution claims against a third-party defendant.”  Id.
+(citing cases).
+12.  Rule 14(c) “ also requires the third-party plaintiff (1) to assert an action sounding [in]
+admiralty or maritime, (2) that arises out of the same transaction, occurrence, or series of transactions
+or occurrences as the plaintiff's original claim, and (3) over which the district court has jurisdiction.”
+Supreme Rice, L.L.C. v. Turn Services, L.L.C., 475 F. Supp. 3d 556, 560 (E.D. La. 2020) (citation and
+internal quotations omitted).
+13. As the Supreme Court stated in Exxon Co., U.S.A. v. Sofec, Inc., “The doctrine of
+superseding cause is . . . applied where the defendant’s negligence in fact substantially contributed to
+the plaintiff’s injury, but the injury was actually brought about by a later cause of independent origin
+that was not foreseeable.” 517 U.S. 830, 837 (citing 1 T. SCHOENBAUM, ADMIRALTY AND MARITIME
+LAW § 165-166 (2d ed. 1994)).  “Superseding cause operates to cut off the liability of an admittedly
+negligent defendant, and there is properly no apportionment of comparative fault where there is an
+absence of proximate causation.” Id. (citing 1 T.  SCHOENBAUM, ADMIRALTY AND MARITIME LAW
+§ 165-166 (2d ed. 1994)).
+14. A third-person’s act is not a  superseding cause if “(a) the actor at the time of the
+negligent conduct should have realized that a third person might so act; (b) a reasonable man knowing
+the situation existing when the act of the third person was done would not regard it as highly
+extraordinary that the third person had so acted, or (c) the intervening act is a normal consequence of
+a situation created by the actor’s conduct and the manner in which it is done is not extraordinarily
+Case 2:21-cv-02337-DPC     Document 172     Filed 08/20/24     Page 23 of 43
+24
+
+negligent.” Donaghey v. Ocean Drilling & Exploration Co., 974 F.2d 646, 652 (5th Cir. 1992) (citing
+Nunley v. M/V Dauntless Colocotronis, 727 F.2d 455, 464-65 (5th Cir. 1984)).
+15. The parties invoke two maritime presumptions: The Oregon Rule , and The
+Pennsylvania Rule to address liability.  The Oregon Rule “provides that a moving vessel that allides
+with a stationary object is deemed to be presumptively at fault for the negligence.”   N.D. Shipping,
+S.A. v. ZAGORA M/V, No. 06- 10734, 2009 WL 1606877, at *5 (E.D. La. June 5, 2009) (citing The
+Oregon, 158 U.S. 186, 197 (1895)).  The Oregon  Rule’s “presumption derives from the common-
+sense observation that moving vessels do not usually collide with stationary objects unless the vessel
+is mishandled in some way.”  American Petrofina Pipeline Co., v. M/V Shoko Maru, 837 F. 2d. 1324
+(5th Cir. 1988) (citing Delta Transload, 818 F.2d at 449; Bunge , 558 F.2d at 795).  “The Oregon
+presumption ‘only applies in the absence of evidence of fault.’”  Impala Terminals  Burnside LLC v.
+Marquette Transportation Co., LLC, No. 19- 12584, 2021 WL 1123566, at *6 (E.D. La. Mar. 24,
+2021)  (quoting In re Omega Protein, Inc., 548 F.3d 361, 368-69 (5th Cir. 2008)).
+16. “[T]he scope of The Oregon rule, which speaks explicitly only to a presumed breach
+on the part of the alliding vessel, . . . is not a presumption regarding either the question of causation
+(either cause in fact or legal cause) or the percentages of fault assigned parties adjudged n egligent.”
+In re Mid-South Towing Co., 418 F.3d 526, 532 (5th Cir. 2005) (citations omitted).  Rather, it operates
+to shift the burden of proof—both the burden of producing evidence and the burden of persuasion—
+onto the moving ship.   Am. Petrofina Pipeline Co. v. M/V SHOKO MARU, 837 F.2d 1324, 1326 (5th
+Cir.1988) (citing Delta Transload, Inc. v. M/V NAVIOS COMMANDER , 818 F.2d 445, 449 (5th
+Cir.1987); James v. River Parishes Co., 686 F.2d 1129, 1131–33 (5th Cir.1982). “If a defendant
+comes forward with evidence to rebut the presumption, a court must consider such evidence.” Vinson
+v. Cobb, 501 F. Supp. 2d 1125, 1132 (E.D. Tenn. 2007).
+Case 2:21-cv-02337-DPC     Document 172     Filed 08/20/24     Page 24 of 43
+25
+
+17. Further, “the alliding-vessel presumption of fault is not a presumption of sole fault.”
+Impala Terminals, 2021 WL 1123566, at *5 (quoting Combo Maritime, 615 F.3d at 608).
+18. “Insofar as The Oregon Rule ‘presumptively allocates fault when the circumstances of
+an allision are [relatively] unknown,’ many courts decline to presume fault where there is a developed
+factual record concerning the circumstances of an allision.” Id. at *7-8 (collecting cases).
+19. Unlike The Oregon Rule, which deals with the presumption of fault, The Pennsylvania
+Rule concerns the burden of proving causation. Under that rule , “any party to a maritime accident
+who violates a federal statute is presumed to be at fault, and thus, has the burden of proving that the
+violation could not have been a contributing cause of the allision.”  Impala Terminals , 2021 WL
+1123566, at *6 (citing The Pennsylvania, 86 U.S. 125 (1873)).
+20. For The Pennsylvania Rule to apply, a party must demonstrate: “(1) proof by a
+preponderance of evidence of violation of a statute or regulation that imposes a mandatory duty;
+(2) the statute or regulation must involve marine safety or navigation; (3) the injury suffered must be
+of a nature that the statute or regulation was intended to prevent.”  In re Marquette Transportation
+Co., 292 F. Supp. 3d 719, 729 (E.D. La. 2018) (citing United States v. Nassau Marine Corp., 778
+F.2d 1111, 1116-17 (5th Cir. 1985)).
+21. Both Southern Oil and Alliance have presented evidence regarding fault and causation,
+leaving no “vacuum” to be filled by an evidentiary presumption.  Therefore, application of either  The
+Oregon Rule or The Pennsylvania Rule is unnecessary.  See Impala Terminals , 2021 WL 1123566,
+at *7 (noting that the presumptions are “rendered superfluous on a fulsome record”); St. James
+Stevedoring Partners, LLC v. Motion Navigation Ltd., No. 13-541, 2014 WL 3892178, at *6-7 (E.D.
+La. Aug. 6. 2014) (declining to apply either presumption because the court, as factfinder, had “heard
+all of the evidence upon which to make findings regarding fault and causation under the rules of
+admiralty negligence claims.”).
+Case 2:21-cv-02337-DPC     Document 172     Filed 08/20/24     Page 25 of 43
+26
+
+A. Sabik Oy’s Fault
+22. The Supreme Court recognized products liability, including strict liability, as part of
+the general maritime law in East River S.S. Corp v. Transamerica Delaval, Inc ., 476 U.S. 858, 865
+(1986).  In formulating federal maritime law, the federal courts ma y examine, among other sources,
+judicial opinions, legislation, treatises, and scholarly writings. Air and Liquid Systems Corp. v.
+DeVries, 586 U.S. 446, 452 (2019) (citations omitted).  Although the Fifth Circuit has not explicitly
+addressed whether the Louisiana Products Liability Act can supplement the law governing products
+liability under general maritime law, several judges in this court have held that state law supplements
+general maritime law when: (1)   there is no applicable admiralty rule; (2)  local and state interests
+predominate; and (3) the uniformity principle is not crucial. See Parekh v. Argonautica Shipping
+Investments. B.V., No. 16- 13731, 2017 WL 3456300, at *2 (E.D. La. Aug. 11, 2017) (Morgan, J.);
+Matter of American River Transp., Co., LLC, No. 18-2186, 2019 WL 2847702, at *3 (E.D. La. July
+2, 2019) (Lemmon, J.); Island Ventures, LLC v. K -Mar Supply II, LLC , No. 20- 2263, 2020 WL
+6269136, at *7 (E.D. La. Oct. 26, 2020) (Brown, C.J.); see also Transco Syndicate No. 1, Ltd. v.
+Bollinger Shipyards, Inc., 1 F. Supp. 2d 608, 614 (E.D. La. 1998) (Vance, J.) (indicating the LPLA
+can apply to a maritime products claim when consistent with § 402A).
+23. Since East River , numerous courts have embraced § 402A of the R ESTATEMENT
+(SECOND) OF TORTS as the best expression of the law of products liability under the general maritime
+law.   Section 402A of the RESTATEMENT (SECOND) OF TORTS provides:
+(1) One who sells any product in a defective condition unreasonably dangerous to
+the user or consumer or to his property is subject to liability for physical harm
+thereby caused to the ultimate user or consumer, or to his property if
+
+(a) the seller is engaged in the business of selling such a product, and
+(b) it is expected to and does reach the user or consumer without substantial
+change in   the condition on which it is sold.
+
+(2) The rule stated in Subsection (1) applies although
+Case 2:21-cv-02337-DPC     Document 172     Filed 08/20/24     Page 26 of 43
+27
+
+(a) the seller has exercised all possible care in the preparation and sale of his
+product, and
+(b) the user or consumer has not bought the product from or entered into any
+ contractional relation with the seller.
+RESTATEMENT (SECOND) OF TORTS § 402A.
+24. Thus, to recover on a products liability claim under general maritime law, a pla intiff
+must establish: (1) the defendant sold or manufactured the product; (2)  the product was unreasonably
+dangerous for its normal use (which includes foreseeable misuse) or defective when it left the
+defendant's control; and (3) the defect caused plaintiff's injury.  Vickers  v. Chiles Drilling Co., 822
+F.2d 535, 538 (5th Cir. 1987); Authement v. Ingram Barge Co.,  977 F. Supp. 2d 606, 614–15 (E.D.
+La. 2013) (citations omitted).  The threshold inquiry under § 402A is whether the defendant is a
+seller or manufacturer of the allegedly defective product.  1 THOMAS J. SCHOENBAUM, ADMIRALTY
+AND MARITIME LAW § 5–7 (5th ed. 2012); Daigle, 322 F. Supp.2d at 727.  Although § 402A uses
+the term “seller,” manufacturers fall within its ambit.  Reyes v. Wyeth Labs ., 498 F.3d 1264, 1272
+n.10 (5th Cir. 1974); RESTATEMENT (SECOND) OF TORTS § 402A cmt. f.
+25. A product can be considered unreasonably dangerous for defect in design or
+manufacture or because of inadequate instructions or warnings.  S ee Pavlides v. Galveston Yacht
+Basin, Inc., 727 F.2d 330, 337–39 (5th Cir. 1984); In re M/V DANIELLE BOUCHARD, 164 F. Supp.
+2d 794, 798 (E.D. La. 2001).  Thus, a  products liability claim may be premised on  (1) defective
+design; (2) defective manufacture; and/or (3) lack of adequate warning.  Edwards v. Sears, Roebuck
+& Co., 512 F.2d 276, 288 (5th Cir. 1975).
+26. For a defective manufacture claim, the plaintiff must establish that ( 1) the defendant
+sold or manufactured a product; (2) the product was unreasonably dangerous or defective when it
+left the defendant's control; and (3) the defect caused the plaintiff's injury.  Penn Maritime, Inc. v.
+Rhodes Electronic Servs., Inc., 41 F. Supp. 3d 507, 524 (E.D. La. Aug. 19, 2014) (citing Authement,
+Case 2:21-cv-02337-DPC     Document 172     Filed 08/20/24     Page 27 of 43
+28
+
+977  F. Supp. 2d at 614; see also Transco Syndicate  No. 1, Ltd. v. Bollinger Shipyards, Inc., 1 F.
+Supp. 2d 608, 613–14 (E.D. La. 1998) (noting that these provisions extend to manufacturers).
+27. To decide whether a product is defectively designed and unreasonably dangerous,
+courts may consider how easily the manufacturer could have designed a safer alternative product .
+Vickers, 822 F.2d at  539 (citing Louisiana and Texas cases considering alternative designs).  To
+prove a defect in design, there must be evidence that there was a safer alternative design available at
+the time and that this alternative design would have prevented the ri sk of harm.  Further, this
+alternative design must be both economically and technically feasible at the time the product left the
+control of the manufacturer.  Id.
+28. Southern Oil asserts both design defect and manufacturing defect claims against Sabik
+Oy as to the lant ern’s bird deterrent feature and battery.  It contends the design of the lantern was
+defective because it did not include sufficient deterrents to prevent birds from landing on the light
+and soiling it.  Southern Oil further asserts that Sabik could have used one of several reasonable
+alternate designs that provided for either a more robust single bird spike or shipped the light with
+three wire deterrents that could be installed upon installation.  See ECF No. 157 ¶¶ 51-52, at 40.
+29. Southern Oil has not provided evidence that a larger bird spike or multiple spikes
+would have prevented the risk of harm.  To the contrary, with regard to the efficacy of bird deterrents,
+Southern Oil’s witness Dale Carter testified that “[n]one of them work . . . They’ll land right on top
+of them.  They don’t care.”  Carter Test.  When questioned about bird deterrents, Shane Schexnider
+likewise testified “we tried so many things . . . they [are] still going to land on it.  It don’t change
+anything” (sic).  Schexnider Test.  Bird deterrents are deterrents, not preventers.  If the number of
+bird deterrents were insufficient to prevent soiling the lantern, Southern Oil should have cleaned the
+lanterns more frequently , including requesting additional vessel coverage if necessary to enable
+operators to properly clean and maintain the lights.
+Case 2:21-cv-02337-DPC     Document 172     Filed 08/20/24     Page 28 of 43
+29
+
+30. Southern Oil has not established that the M650H lantern’s bird deterrent feature was
+unreasonably dangerous or defective when it left Sabik’s control.  Thus, it has failed to prove by a
+preponderance of the evidence that the bird deterrent feature of the M650H lantern was defective in
+either design or manufacture.
+31. Southern Oil also contends the lantern’s battery was defective.  Its expert, however,
+does not identify any particular defect, but rat her, simply concludes that there was a defect without
+accounting for misuse or lack of care before the incident.
+32. The Court finds that, when the lantern left the control of Sabik, it was in good working
+order.  See Ex. J-44; Mahl, 27:24-28:3; 71:14-24.
+33. Southern Oil has not provided evidence of the proper use, care, maintenance,
+inspection, or storage of the lantern from the time the light was taken off of the Pegasus platform
+until March 8, 2021, when Southern Oil placed the previously used lantern on the Well.  The record
+instead reflects that the lantern was left in an unsecured position behind a heater on top of a barrel
+on the BS 51.  Schexnider Test.  The battery began to malfunction during that time period.  Ex. J-
+44.
+34. Southern Oil has not proven by a preponderance of the evidence that the lantern was
+defective in design or manufacture rather than damaged through misuse or improper care.
+35.   In Louisiana, a “seller warrants the buyer against redhibitory defects, or vices, in the
+thing sold.”  LA. CIV. CODE art. 2520. A claim in redhibition is akin to a claim for breach of implied
+warranty.  Boat Service of Galveston, Inc. v. NRE Power Sys tems, Inc., 429 F. Supp. 3d 261, 278
+(E.D. La. 2019) (citing Coleman v. Sears Home Improvement Products., Inc., No. 16-2537, 2017 WL
+1089580, at *7 (E.D. La. Mar. 2017)).
+36. Considering the Court’s conclusion that the M650H lantern was not defective  at the
+time of sale , the court need not decide whether the application of general maritime law precludes
+Case 2:21-cv-02337-DPC     Document 172     Filed 08/20/24     Page 29 of 43
+30
+
+Southern Oil from asserting a c laim for redhibition under Louisiana law.  Compare ECF No. 157 ¶
+62, at 42 with ECF No 159 ¶ 1, at 35.  Even if Southern Oil were able to assert a redhibition claim in
+this general maritime case, it has not proven the lantern had a redhibitory defect at the time of sale.
+37. The Fifth Circuit has held that a negligent misrepresentation claim is cognizable under
+general maritime law, citing the RESTATEMENT (SECOND) OF TORTS § 552 as the controlling standard.
+Otto Candies, L.L.C. v. Nippon Kaiji Kyokai Corp., 346 F.3d 530, 534–35 (5th Cir. 2003).  A general
+maritime claim for negligent misrepresentation requires a plaintiff to prove:
+(1) the defendant, in the course of its profession, supplied false information for its
+guidance in a business transaction;
+(2) the defendant failed to exercise reasonable care in gathering the information;
+(3) the plaintiff justifiably relied on the false information in a transaction that the
+defendant intended to influence; and
+(4) the plaintiff thereby suffered pecuniary loss.
+Cargill, Inc. v. Degesch America, Inc., 875 F. Supp. 2d 667, 674 (E.D. La. 2012) (citing Otto Candies,
+346 F.3d at 535).
+38. Southern Oil alleges that Sabik misrepresented the parameters of the M650H lantern
+as "more robust than the actual operational parameters,” ultimately resulting in significant damages
+to Southern Oil when the lanterns did not meet Sabik’s designated specifications or Southern Oil’s
+operational requirements.  See ECF No. 157, ¶¶ 79-81, at 46.  The evidence reflects otherwise.
+39. Southern Oil has failed to identify a particular specification that constituted false
+information.  Rather, the evidence reflects that the M650H lantern was accurately described in the
+product specifications and had no defects.  Any functionality issues Southern Oil encountered were
+the result of its misuse, lack of proper maintenance and/or lack of proper storage of the lantern.
+40. A breach of express warranty claim is a recognized cause of action under the Louisiana
+Products Liability Act.  LA. REV. STAT. § 9:2800.58; LA. REV. STAT. § 9:2800.53(6).  Neither party
+has addressed whether a general maritime products liability claim under Restatement § 402A
+likewise encompasses an express warranty claim or whether same is otherwise available under
+Case 2:21-cv-02337-DPC     Document 172     Filed 08/20/24     Page 30 of 43
+31
+
+general maritime law.  The parties appear to agree, however, that Plaintiff’s express warranty claim
+requires it to prove (1) a statement or promise about a product or its characteristics, apart from a
+general opinion; (2) the express warranty induced the plaintiff to use the product; and (3) pla intiff
+suffered damage because the express warranty was untrue.  ECF No. 108-1 at 21; No. 115 at 22-23.
+Even if an express warranty claim were available under general maritime law, Southern Oil has failed
+to prove by a preponderance of the evidence that Sabik made a false statement about the lantern that
+induced Southern Oil to use the product, or that Southern Oil suffered damage because the express
+warranty was untrue.
+41. Sabik Oy bears no fault for the allision.
+B. Captain Tyndall’s Fault
+42. The Court next considers Capt. Tyndall’s conduct.  After careful consideration of the
+testimony and evidence in the record, the Court finds that Capt. Tyndall failed to exercise reasonable
+care and was negligent in several distinct ways.  In reaching this conclusion, the Court carefully
+considered the testimony of the parties’ experts, including Capt. Dave Scruton and Capt. Christopher
+Karentz.
+43. First, when encountering the shrimp trawler and changing his path, Capt. Tyndall
+failed to consult the Rose Point system to determine whether the course change resulted in any known
+obstructions in the new path.
+44. Rather than return to the original voyage plan immediately after passing the trawler,
+Capt. Tyndall stayed on a course parallel to the original voyage plan.  Ex. J-52-16B.  Then, while on
+the deviated path, Capt. Tyndall decided to leave the wheelhouse to get coffee  before returning the
+vessel to its charted path, which is particularly concerning given that he was aware that the vessel was
+traversing a dangerous area known to have many obstructions.
+Case 2:21-cv-02337-DPC     Document 172     Filed 08/20/24     Page 31 of 43
+32
+
+45. Capt. Tyndall then again failed to consult the Rose  Point system  or make note or
+review maps to determine where the Well or other obstructions were after changing his course back
+to the original voyage plan.  Karentz Depo., 47:11-49:10.
+46. Capt. Tyndall fail ed to keep a proper lookout  when he failed to use properly all
+available navigational aids available to him during the course change .  Karentz Depo., 80:2-81:11;
+87:3-89:14; l02:6-18.  This failure constituted a violation of Rules 5 and 7 of the Coast Guard
+regulations, 33 C.F.R. §§ 83.05, 83.07.
+47. Capt. Tyndall’s breach of duty was a proximate cause of the allision.
+48. Alliance failed to train Capt. Tyndall properly on the usage of the radar and Rose Point
+systems aboard the M/V MR. CADE, including how to overlay radar over the digital chart.  Had Capt.
+Tyndall been trained to do so and had he done so, the charted Well would have been shown to be in
+his direct path.
+49. The M/V MR. CADE would not have run into the platform had the radar, Rose Point
+and/or other equipment been operating and used properly.  E ven Alliance’s expert Capt. Karentz
+concedes that Capt. Tyndall bore some fault for the allision.  Karentz Depo., 92:2-93:2; see also 59:6-
+14; 67:5-68:25; 75:6-76:9; 77:3-25.
+C. Southern Oil’s Fault
+50. Southern Oil violated 33 C.F.R. § 67.05-1(b), Arrangement of Obstruction Lights,6 by
+failing to have 360⁰ lights on the Well.  This regulatory violation constitutes negligence per se.
+
+6 That regulation provides:
+
+Structures having a maximum horizontal dimension of over 30 feet, but not in excess of 50 feet, on
+any one side, or in diameter, shall be required to have two obstruction lights installed on diagonally
+opposite corners, 180º apart, or as prescribed by the District Commander, each light to have a 360º
+lens.
+Case 2:21-cv-02337-DPC     Document 172     Filed 08/20/24     Page 32 of 43
+33
+
+51. Southern Oil’s electrician failed to properly inspect the lantern before installation to
+ensure its battery health, and as a result, installed a lantern with a damaged battery that was incapable
+of fully charging on the Well.
+52. Southern Oil failed to use any of the available avenues to check the lantern’s battery
+health after installation , failed to take implement measures to ensure that the light functioned
+throughout the entire night , and failed to take s teps to determine whether  the light functioned
+throughout the night.
+53. Accordingly, the Court finds Southern Oil shares the fault for the accident.
+54. Had Southern Oil properly lighted the Well, Capt. Tyndall would have seen the Well
+and avoided it on the night of the allision.
+55. The non- functioning light cannot be described as “highly extraordinary” or
+“extraordinarily negligent,” and the Court does not find it to be so.  Thus, the court applies the doctrine
+of comparative fault to determine the proportion of liability between Alliance and Southern Oil.
+D. Apportionment of Fault
+56. “It is a fundamental rule in admiralty law that damages ‘are to be apportioned on the
+basis of the comparative fault of the parties.’”  In re Marquette Transportation Co., 292 F. Supp. 3d
+at 734 (quoting Pennzoil Producing Co. v. Offshore Express, Inc., 943 F.2d 1465, 1469 (5 th Cir.
+1991)). “District courts have considerable discretion in assigning comparative fault.”  Id.
+57. Alliance Offshore, LLC, SeaTran, LLC, Mr. Cade, LLC, and the M/V MR. CADE
+have not differentiated amongst themselves.  See, e.g., Alliance Offshore, LLC, Seatran Marine, LLC,
+the M/V MR. CADE, and Sabik Oy’s Proposed Findings of Fact and Conclusions of Law, ECF No.
+159 ¶ B(2) at 2 (referring to themselves as “the Alliance Defendants”).  Alliance Offshore, LLC has,
+however, acknowledged that, at all relevant times, it was the owner pro hac vice, bareboat charterer,
+Case 2:21-cv-02337-DPC     Document 172     Filed 08/20/24     Page 33 of 43
+34
+
+and/or operator of the M/V MR. CADE , which vessel was owned by Mr. Cade, LLC and chartered
+from its manager SeaTran Marine, LLC to Alliance.  ECF Nos. 148 at 4; 159 ¶ A(2), at 1.
+58. The Alliance Defendants  offer no evidence or argument distinguishing the vessel
+owner’s (Mr. Cade, LLC) liability from that of the bareboat charterer (Alliance) or manager (SeaTran
+Marine, LLC).  Instead, the defendants merely argue that, to the extent any negligence is attributable
+to “Alliance,” it should be entitled to limit its liability.  ECF No. 159 ¶ 14, at 28.
+59. In Reed v. S.S. Yaka, 373 U.S. 410 (1963), the Supreme Court held that, barring explicit
+statutory exemption, a bareboat charterer of a vessel is personally liable for the unseaworthiness of
+the chartered vessel.  The Court expressly reserved decision, however, on the question of whether a
+bareboat charter absolves a shipowner from liability on his warranty of seaworthiness.  Courts have
+recognized, however, that, under general maritime law, a shipowner who has “demised” or “bareboat
+chartered” its vessel to a charterer no longer controls it, and thus is not liable for unseaworthiness or
+negligence that comes into existence while the charter is in effect.  See In Re Oil Spill by Oil Rig
+Deepwater Horizon in Gulf of Mexico, on April 20, 2010, 21 F. Supp. 657, 751- 52 (E.D. La. 2014)
+(Barbier, J.) (citing Picou v. D & L Towing, Inc., No. 09-2810, 2010 WL 269648, at *3 (E.D. La. July
+6, 2010) (Vance, J. )).  Instead, the bareboat charterer, as  owner pro hac vice, “is responsible for
+navigation errors by its crew and seaworthiness of the vessel.”  Gabrick v. Laurin Maritime
+(America), Inc., 900 F. Supp. 669, 674 (E.D. La. 2012) (Leme lle, J.) (citing Continental Oil Co. v.
+Bonanza Corp., 706 F.2d 1365, 1372 (5th Cir. 1983); Moore v. Phillips Petroleum, Co., 912 F.2d
+789, 792 (5th Cir. 1990); Mallard v. Aluminum Co., of Canada, 634 F.2d 236, 242 n. 5 (5th Cir.
+1981)).
+60. Here, Alliance Offshore, LLC has acknowledged that, at all relevant times, it was the
+owner pro hac vice , bareboat charterer, and/or operator of the M/V MR. CADE.  Although the
+“Alliance Defendants” do not distinguish the extent to which Alliance, M r. Cade, LLC, or SeaTran
+Case 2:21-cv-02337-DPC     Document 172     Filed 08/20/24     Page 34 of 43
+35
+
+Marine, LLC bear responsibility for any negligence or unseaworthiness on the part of the vessel, the
+record does not support a finding that the M/V MR CADE was unseaworthy at the time it was
+chartered.  Contrary to Southern Oil’s contenti on, the evidence did not establish that the vessel had
+defective and/or inadequate equipment and appurtenances, or that the radar was not working properly
+at the time of the allision.  The record instead reflects that the vessel was equipped with sufficien t
+charts, radars, autopilot, navigational aids, and equipment manuals. R ather, as Capt. Karentz
+explained, radar sometimes experiences “ghost” effects that hide objects in the vessel’s direct path as
+the image may reflect back twice and not show up properl y when the radar received the image or
+electronic information, or when the radar emission bounces back off the mass and blanks out anything
+directly ahead of the boat.  Karentz, 40:10-41:5.  These phenomena are not the result of faulty
+equipment; they are known “features,” not “bugs.”  Captains often change the vessel’s course a few
+degrees in each direction to allow radar to capture objects in the direct path.  Id.
+61. Capt. Tyndall failed to alter the course a few degrees in each direction to ensure no
+obstacles were directly in the vessel’s path.  He also failed to overlay the Rose Point on the radar,
+which he admitted that he did not know how to do.  Alliance’s failure to train Capt. Tyndall on the
+vessel’s equipment’s capabilities rendered the vessel unseaworthy at the time of the allision.  That
+fault is attributable to Alliance, not the vessel owner or manager.  Thus, considering the fault of the
+vessel owner and manager separately from that of the bareboat charterer, as the court must do, neither
+Mr. Cade, LLC, as vessel owner, nor SeaTran Marine, LLC, as manager, bear any fault for the allision.
+Rather, as to the Alliance interests, fault lies with Captain Tyndall and Alliance.
+62. Neither Alliance/Captain Tyndall nor Southern Oil have established that their conduct
+was not a substantial contributing cause of the allision.  Had the light been working, Capt. Tyndall
+would not have allided with the well.  Likewise, had Capt. Tyndall been properly trained and using
+all available the navigational equipment aboard the vessel, he would have seen that the Well  was in
+Case 2:21-cv-02337-DPC     Document 172     Filed 08/20/24     Page 35 of 43
+36
+
+his direct path even absent light ing.  Thus, the Court finds that Southern Oil and Alliance  Offshore,
+LLC are equally at fault for the allision (i.e., Alliance is 50% liable and Southern Oil is 50% liable).
+Sabik Oy, Mr. Cade, LLC, and SeaTran Marine, LLC are not at fault for the allision.
+E. The Jones Act Claim
+63. Turner asserts claims against Alliance under the Jones Act, 46 U.S.C. § 30104, which
+provides a remedy to a seaman for personal injury sustained as a result of his employer’s negligence.
+See REC Marine Logistics, LLC v. Richard, 470 F. Supp. 3d 606, 612 (E.D. La. 2020) (citations
+omitted).
+64. The standard of care is that of ordinary prudence under the circumstances.  Gautreaux
+v. Scurlock Marine, Inc., 107 F.3d 331, 338 (5th Cir. 1997) (en banc). “An employer ‘has a continuing
+duty to provide a reasonably safe place to work and to use ordinary care to maintain the vessel in a
+reasonably safe condition.’” Omega Protein, Inc., 487 F. App'x at  843 (quoting T HOMAS J.
+SCHOENBAUM, ADMIRALTY AND MARITIME LAW § 6–22 (5th ed.)).
+65. A seaman is entitled to recovery under the Jones Act “if his employer's negligence is
+the cause, in whole or in part, of his injury.” Gowdy v. Marine Spill Response Corp., 925 F.3d 200,
+205 (5th Cir. 2019) (citation omitted).  The standard of causation in Jones Act cases is “not
+demanding” and only requires “that employer negligence played any part, even the slightest, in
+producing the injury.”  Id.; see also Grab v. Traylor Bros., 796 F. Supp. 2d 788, 794 (E.D. La. 2011)
+(“The terms ‘slightest’ and ‘feathe rweight’ have been used to describe the reduced standard of
+causation between the employer's negligence and the employee's injury.”) ( citation omitted), aff’d
+sub nom Grab v. Boh Bros. Const. Co., L.L.C., 506 F. App’x 271 (5th Cir. 2013).
+66. Having determined that Alliance’s negligence played a substantial part in the allision,
+and in light of the parties’ stipulation that Turner did not cause or contribute to the allision (ECF No.
+148, Stip. 26), Turner is entitled to recover under the Jones Act.
+Case 2:21-cv-02337-DPC     Document 172     Filed 08/20/24     Page 36 of 43
+37
+
+F. Unseaworthiness
+67. Both Southern Oil and Turner assert an unseaworthiness claim against Alliance.
+“Unseaworthiness is a claim under general maritime law based on the vessel owner's duty to ensure
+that the vessel is reasonably fit to be at sea.”  Gowdy, 925 F.3d at 205 (internal quotation and citation
+omitted)
+68. A vessel owner’s duty to furnish a seaworthy ship is “absolute and completely
+independent of his duty under the Jones Act to exercise reasonable care.”  The Dutra Group v.
+Batterton, 588 U.S. 358, 367 (2019) (internal quotation and citation omitted).
+69. In a bareboat charter, “the vessel owner transfers full possession and control to the
+charterer, who in turn furnishes the crew and maintenance for the vessel (thus the term ‘bareboat’) ,”
+and thus becomes responsible for the negligence of the crew and the unseaworthiness of the vessel.
+Neptune v. Shipmanagement Services PTE, Ltd. v. Dahiya, 15 F.4th 630, 633 n.1 (quoting  Forrester
+v. Ocean Marine Indemnity Co., 11 F.3d 1213, 1215 (5th Cir. 1993) (internal quotations omitted)).
+70. Unlike a Jones Act negligence claim, unseaworthiness does not require notice.  Luwich
+v. American Marine Corp., 956 F.3d 320, 328 & n.1 (5th Cir. 2020) (citations omitted).   Indeed, “the
+shipowner’s actual or constructive knowledge of the unseaworthy condition is not essential to his
+liability.”  Mitchell v. Trawler Racer, Inc., 362 U.S. 539, 549 (1960).  “A vessel is unseaworthy only
+if it presents an unreasonable risk of harm to the seaman.”  Park v. Stockstill Boat Rentals, Inc., 492
+F.3d 600, 604 (5th Cir. 2007).  The vessel may be unseaworthy “if its ‘gear [is] defective,’ its
+‘appurtenances [are] in disrepair,’ or its ‘crew [is] unfit.’” Lett v. Omega Protein, Inc., 487 F. App'x
+839, 844 (5th Cir. 2012) (quoting Usner v. Luckenbach Overseas Corp., 400 U.S. 494, 499, (1971)).
+71. The injured seaman must prove that the owner failed to provide a vessel, including her
+equipment and crew, that is reasonably fit and safe for the purposes for which it is to be used.  Jackson
+v. OMI Corp., 245 F.3d 525, 527 (5th Cir. 2001)  (citation omitted).  To recover damages for an
+Case 2:21-cv-02337-DPC     Document 172     Filed 08/20/24     Page 37 of 43
+38
+
+unseaworthy condition, the plaintiff is required to establish that the unseaworthy condition was a
+proximate cause of the injury.  Jones v. United States, 936 F.3d 318, 324 (5th Cir. 2019).  “[P]roximate
+cause means that the unseaworthy condition played a substantial part in bringing about or actually
+causing the injury and that the injury was either a direct result or a reasonably probable consequence
+of the unseaworthiness.” Id. (internal quotations and citation omitted).
+72. Alliance’s failure to train Capt. Tyndall on proper use of the navigational  equipment
+aboard the M/V MR CADE rendered the vessel unseaworthy at the time of the allision .  See Trico
+Marine Assets Inc. v. Diamond B Marine Services, Inc., 332 F.3d 779, 790 (5th Cir. 2003) (affirming
+district court’s denial of limitation of liability where vessel owner sent captain out with a radar system
+that he had no training in how to use and record reflected that owner knew, or should have known,
+that the vessel was unseaworthy and that its captain was improperly trained).
+G. Limitation of Liability
+73. The Exoneration and Limitation of Liability Act, 46 U.S.C. §§ 30501-30512, allows a
+vessel owner to limit its liability for maritime casualties to “the value of the vessel and pending
+freight.” 46 U.S.C. § 30505(a); In re Omega Protein, Inc., 548 F.3d 361, 371–72 (5th Cir. 2008); In
+re Devall Towing & Boat Service of Hackberry LLC, No. 18-752, 2018 WL 5316937, at *1–2 (W.D.
+La. Oct. 26, 2018).
+74. Given the court’s finding that Mr. Cade, LLC, and SeaTran Marine, LLC bear no fault
+for the allision, the court need only consider whether Alliance, as owner pro hac vice of the M/V MR
+CADE by way of its bareboat charter, may limit its liability.
+75. A limitation action is a two -step proceeding.  First, each claimant must prove the
+liability of the vessel owner, and then the vessel owner seeking limitation must establish that it lacked
+privity or knowledge of the unseaworthiness or negligence that caused the injury.  Trico Marine
+Assets, Inc. v. Diamond B Marine Services, Inc., 332 F.3d 779, 789 (5th Cir. 2003); see also Complaint
+Case 2:21-cv-02337-DPC     Document 172     Filed 08/20/24     Page 38 of 43
+39
+
+of Port Arthur Towing Co., 42 F.3d 312, 317 (5th Cir. 1995); Cupit v. McClanahan Contractors, Inc.,
+1 F.3d 346, 348 (5th Cir. 1993); Brister v. AWI, 946 F.2d 350, 355 (5th Cir. 1991); Farrell Lines, Inc.
+v. Jones, 530 F.2d 7, 10 (5th C ir. 1976).  Thus, a party is entitled to limitation only if it is without
+privity or knowledge of the cause of loss.  46 U.S.C. § 30505.  In other words, if a vessel’s negligence
+or unseaworthiness is the proximate cause of a claimant’s loss, the ship owne r must prove it had no
+privity or knowledge of unseaworthy conditions or negligent acts to be entitled to limitation of
+liability.  SCF Waxler Marine, L.L.C. v. Aris T M/V , 24 F.4th 458, 472 (5th Cir. 2022) (citing Trico
+Marine Assets, 332 F.3d at 789).
+76. “[K]nowledge, when the shipowner is a corporation, is judged not only by what the
+corporation's managing officers actually knew, but also by what they should have known.”  Id . at
+789–90.  If the unseaworthy “condition could have been discovered through the exercise of reasonable
+diligence,” a corporate owner is deemed to have knowledge of it and cannot limit its liability.  In re
+Omega Protein, Inc., 548 F.3d 361, 371 (5th Cir. 2008) (quoting Brister v. A.W.I., Inc., 946 F.2d 350,
+356 (5th Cir. 1991)).  Privity or knowledge thus “extends beyond actual knowledge to knowledge that
+the ship owner would have obtained by reasonable investigation.” Matter of Cheramie Marine,
+L.L.C., 2023 WL 4295710, at *4 (E.D. La. 06/30/2023) (citing Cupit, 1 F.3d at 348).
+77.   The owner must have privity or knowledge of the actual  acts of negligence or
+conditions of unseaworthiness that caused the accident; “knowledge of acts of negligence or
+conditions of seaworthiness that did not cause the accident does not prevent the owner from limiting
+liability.”  SCF Waxler Marine, 24 F. 4th at 472 (citations omitted). “Similarly, the owner's knowledge
+of acts that actually caused the accident, but were not acts of negligence or conditions of
+unseaworthiness, does not prevent the owner from limiting liability.”  Id.
+78.   The privity or knowledge standard “obliges the owner to select a competent master”
+and properly train the master and crew, but it does not render the owner liable for “mere mistakes of
+Case 2:21-cv-02337-DPC     Document 172     Filed 08/20/24     Page 39 of 43
+40
+
+navigation by an otherwise competent crew,” because “when the owner is so far removed from the
+vessel that he can exert no control over the master’s actions, he should not be taxed with the master’s
+negligence.”  Id. (citing In re Omega Protein, 548 F.3d at 374; Trico Marine Assets, 332 F.3d at 790)
+(internal quotations and c itations omitted); Cont inental Oil Co. v. Bonanza Corp., 706 F.2d 1365,
+1377 n.15 (5th Cir. 1983) (en banc).  Thus, mere navigational errors or other negligence by master or
+crew are not within the “privity or knowledge” of the vessel owner. Omega Protein, 548 F.3d at 372;
+Mac Towing, Inc. v. American Commercial Lines, 670 F.2d 543, 548 (5th Cir. 1982). In re BOPCO,
+L . P., No. 11-3137, 2013 WL 4854121, at *2 (E.D. La. Sept. 10, 2013).
+79. “[W]hen the cause of the allision was the crew's errors, the owner's ability to limit its
+liability turns on whether the crew was incompetent, which the owner should have known, or whether
+the crew made mere mistakes of navigation, which the owner could not have known about. A captain's
+record and years of experience are relevant to this inquiry.”  SC F Waxler Marine,  24 F.4th at 473
+(citing Kristie Leigh Enters. v. Am. Com. Lines, 72 F.3d 479, 482 (5th Cir. 1996) .  The court must
+also consider how well trained the captain is.  Id. (citing Trico Marine Assets, 332 F.3d at 790).
+80. “[A]ll of these questions—the cause of the accident, the owner's privity or knowledge,
+and the crew's competence—are fact-specific, and therefore subject to clear-error review.”  Id. (citing
+In re Omega Protein, 548 F.3d at 361).
+81. The court has already determined that Capt. Tyndall’s negligence was a proximate
+cause of the allision.  In order to limit liability, Alliance must demonstrate that it did not have
+knowledge of the negligent condition.
+82.  In the factually similar care of In Re Omega Proteins , 548 F.3d 361 (5th Cir. 2008),
+the Fifth Circuit addressed whether limitation is appropriate where a vessel owner fails to train  a
+captain on the extent of a navigational tool’s ability.  Omega Proteins involved a  fishing vessel’s
+allision with an oil platform where the vessel was equipped with autopilot, radar, and a navigational
+Case 2:21-cv-02337-DPC     Document 172     Filed 08/20/24     Page 40 of 43
+41
+
+chart system.  Id.  The Omega Protein captain was accident-free for approximately twenty years, but
+the vessel owner failed to provide training on how to use the radar aboard its vessel, and the owner
+had no policy requiring the captain to use the radar’s anti-collision alarm feature.  On the night of the
+accident, the captain had the overhead lights on in the vessel’s wheelhouse, creating a “mirror effect,”
+and was on the phone attempting to order a replacement drop when the vessel struck an oil platform.
+The captain and other crew members testified that they circled the platform after the allision and
+observed no lights and heard no sounding devices.  Id. at 365-66.  The district court found, among
+other things, that the captain had violated Rule 7 by failing to use all available means to determine if
+a risk of collision existed  (namely, the mirror effect prevented him from seeing the radar display).
+Id. at 367.  The court concluded that the allision was caused by the captain’s “mistake of navigation”
+and that the vessel owner had exercised reasonable care in selecting the captain given his record and
+experience.  Consequently, the district court found that the owner lacked privity or knowledge of the
+captain’s negligence, and was therefore entitled to limit its liability.
+83.  On appeal, the Fifth Circuit affirmed the lower court’s decision that the captain’s
+failure to use his navigational aids caused the allision.  Id . at 370.  As to the district court’s decision
+to limit liability, the Fifth Circuit determined that same was p roper because the captain did not have
+a pattern of improper or unsafe behavior .  Thus, although the vessel owner did not do everything in
+its power to ensure the captain knew the full capabilities of the vessel’s radar, it did select a competent
+master, resulting in a mere mistake of navigation that did not preclude limitation of liability.
+84.   More recently, in SCF Waxler Marine, L.L.C.  v. Aris T M/V, 24 F.4th 458 (5th Cir
+2022), the Fifth Circuit again confronted the similar situation of when it is appropriate to decline
+limitation in the context of a maritime allision.  The Fifth Circuit concluded that the district court
+erred in finding the vessel’s captain incompetent based on suspensions twenty years before the
+incident and denying limitation on that basis.  The district court, however, declined to limit the vessel
+Case 2:21-cv-02337-DPC     Document 172     Filed 08/20/24     Page 41 of 43
+42
+
+owner’s liability  for two other reasons, including the owner’s failure to provide the captain with
+training on the Rose Point navigation system  and the captain’s resultant failure to use all available
+means to maintain a proper lookout.  The Fifth Circuit thus agreed that the vessel owner had “privity
+or knowledge” of the conditions that contributed to the allision and denied limitation.
+85.   Although Capt. Tyndall had a few years of experience and a clean record like the
+captain in Omega Proteins, Alliance hired him on the assumption that he had prior radar training, and
+it failed to provide him with training on its specific navigation systems, including the ability to overlay
+his radar over a digital chart.  Further, Capt. Tyndall admittedly was not aware that he could overlay
+his radar on the digital chart.  Had Capt. Tyndall done so on the night of December 2, 2021, he would
+have seen the Well in his direct path and avoided the allision.  Thus, in this case as in SC F Waxler
+Marine, Alliance’s failure to provide the captain with training on its navigation system resulted in the
+captain not using all available means to maintain a proper lookout, and that failure was a proximat e
+cause of the allision.
+86. The court concludes that Alliance is not entitled to limitation of liability  because its
+failure to properly train Capt. Tyndall on the use the vessel’s navigational equipment and his admitted
+lack of knowledge as to the equipment’s abilities (particularly, the Rose Point system and laying same
+over radar) was a contributing factor to the allision and Alliance knew, or should have known, that
+he was not trained in the proper use of the vessel’s navigational equipment.
+IV. CONCLUSION
+Based on the foregoing findings of fact and conclusions of law, the Court finds that finds no
+fault, negligence or other basis of recovery against Sabik Oy, Mr. Cade, LLC, or SeaTran Marine,
+LLC.  All claims against these defendants will be dismissed with prejudice.
+The Court further finds that the negligence attributable to Southern Oil and negligence
+attributable to Alliance/Capt. Tyndall were both proximate causes of the December 2, 2021, allision.
+Case 2:21-cv-02337-DPC     Document 172     Filed 08/20/24     Page 42 of 43
+43
+
+The Court finds that this fault is shared equally, with Alliance liable for 50% of the damages and
+Southern Oil liable for 50% of the damages.
+The Court further finds that Alliance ’s failure to train Capt. Tyndall on the vessel’s
+navigational equipment renders Capt. Tyndall’s negligence within its privity or knowledge .
+Therefore, Alliance is not entitled to limit its liability to the $1.5 million value of the vessel under the
+Exoneration from and/or Limitation of Liability Act, 46 U.S.C. § 30511.
+The second phase (trial on damages) will commence at 9:00 a.m. on MONDAY,
+SEPTEMBER 23, 2024.
+ New Orleans, Louisiana, this ______ day of August, 2024.
+
+___________________________________
+DONNA PHILLIPS CURRAULT
+UNITED STATES MAGISTRATE JUDGE
+
+20th
+Case 2:21-cv-02337-DPC     Document 172     Filed 08/20/24     Page 43 of 43
