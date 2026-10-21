@@ -1,0 +1,332 @@
+1
+
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+ORDER & REASONS
+ Before the Court is a motion to dismiss filed by defendant Trans Union LLC (“Trans
+Union”).1  Plaintiff Pamala Thomas (“Thomas”) responds in opposition,2 and Trans Union replies
+and submits supplemental authority in further support of its motion. 3  Having considered the
+parties’ memoranda, the record, an d the applicable law, the Court issues this Order & Reasons
+granting Trans Union’s motion to dismiss because the credit report at issue is neither inaccurate
+nor misleading.
+I. BACKGROUND
+
+ This case concerns alleged inaccuracies in a c onsumer credit report.  Thomas filed this suit
+against defendants Trans Union, Equifax Information Services, LLC (“Equifax”), Experian
+Information Solutions, Inc. (“Experian”), Self Financial, Inc., d/b/a Lead Bank (“Self Financial”),
+and Credit One Bank, N.A. (“Credit One”), 4 alleging that defendants Trans Union, Equifax, and
+Experian (collectively, the “Bureaus”) prepared  and issued inaccurate and misleading credit
+reports relating to her Self Financial account in violation of the Fair Cr edit Reporting Act, 15
+
+1 R. Doc. 24.  The complaint identifies the defendant as Transunion, LLC, R. Doc. 1, which, presumably, is
+mistaken given the defendant’s consistent reference to itself as Trans Union LLC.  R. Docs. 24; 30.  The Court will
+use the convention Trans Union, not Transunion, to refer to the defendant, but they are one and the same.
+2 R. Doc. 25.
+3 R. Docs. 30; 32.
+4 Credit One was later voluntarily dismissed as a defendant.  R. Doc. 27.
+PAMALA THOMAS
+
+VERSUS
+
+TRANSUNION, LLC, et al.
+CIVIL ACTION
+
+NO. 21-2241
+
+SECTION M (4)
+Case 2:21-cv-02241-BWA-KWR   Document 43   Filed 04/29/22   Page 1 of 12
+2
+
+U.S.C. §§ 1681-1681x.5  Thomas alleges that she paid in full and closed her Self Financial account
+in December 2019, but the credit reports issued by the Bureaus still indicate that her Self Financial
+account is 60 days past due. 6  According to Thomas, on or about June 24, 2020, she notified the
+Bureaus that she disputed the accuracy of the information they were reporting and that the Bureaus,
+in turn, notified Self Financial of Thomas’s disputes.7
+ With respect to Trans Union, Thomas alleges that it willfully and negligently violated the
+FCRA, specifically §§ 1681e(b) and 1681i(a), in reporting her Self Financial account as being 60
+days past due.8  She alleges that Trans Union failed to follow reasonable procedures to ensure the
+maximum possible accuracy of the information re ported, failed to pr operly investigate the
+inaccuracy after she reported it, and otherwise failed to take corrective action to remove or annotate
+the inaccurate information.9
+II. PENDING MOTION
+
+Trans Union argues that Thomas cannot satisfy the initial burden for pleading viable claims
+under §§ 1681e(b) and 1681i because she has not pointed to any inaccuracy in her credit report.10
+Next, Trans Union argues that, wh en viewing, in its entirety, th e information it reported about
+Thomas’s Self Financial account, the credit report is not inaccurate or misleading because the “pay
+status” section reflects historical information regarding a past delinquency, not the current status
+of the account.11  Trans Union then argues that Thomas’s algorithm theory is without merit because
+the ways in which third-party companies use al gorithms to read information contained in the
+
+5 R. Doc. 1 at 1, 4.
+6 Id. at 4.  Trans Union’s credit report shows that the account was closed on December 24, 2019.  R. Doc.
+24-3 at 9.
+7 R. Doc. 1 at 5.
+ 8 Id. at 9-12.
+9 Id.  Thomas likewise brings claims of willful and negligent violation of the FCRA against the other
+defendants, Equifax, Experian, and Self Financial.  See id. at 12-22.
+10 R. Doc. 24-1 at 4-5.
+11 See id. at 5-16
+Case 2:21-cv-02241-BWA-KWR   Document 43   Filed 04/29/22   Page 2 of 12
+3
+
+reports to create credit scores have no bearin g on the accuracy or inaccuracy of the reports
+themselves.12  Trans Union contends that Thomas’s subjective belief that the pay status field refers
+to the current status of the account is insufficient to support a claim of inaccuracy.13  Lastly, Trans
+Union argues that Thomas’s willfulness claim sh ould be dismissed becaus e the report was not
+inaccurate.14  In the alternative, Trans Union argues that Thomas has not pleaded the required
+elements of a willfulnes s claim because Thomas ha s not identified a single  practice or policy of
+Trans Union that is objectively unreasonable.15
+ In opposition, Thomas argues that  the “pay status” recorded in  the report refers to the
+account’s current status and is  not historical information. 16  She also argues that, although the
+account balance is reported as “$0,” the credit report is misleading because the account status is a
+“separate, discrete line item in the credit report that carri es with it an independent duty to
+communicate concrete information a bout the nature of the account ….” 17  She contends that the
+report is “technically inaccurate and materially misleading” because it is impossible for an account
+to be 60 days past due in the same  month that it was fully satisfied. 18  Thomas then argues that
+Trans Union’s report of the account’s delinquency is inaccurate because credit-scoring algorithms
+interpret the “pay status” section of the report as a current de linquency, which negatively affects
+her credit score. 19  A s  t o  T h o m a s ’ s  w i l l f u l n e s s  c l aim, she argues that reporting a 60-day
+delinquency on a closed and fully satisfied account is an obvious  inconsistency which should be
+viewed as a willful violation of the FCRA.20  She contends that, at this early stage of the litigation,
+
+12 Id. at 16-17.
+13 Id. at 19.
+14 Id. at 19-20.
+15 Id. at 20-21.
+16 R. Doc. 25 at 10-11.
+17 Id. at 13.
+18 Id. at 14.
+19 Id. at 15.
+20 Id. at 20-21.
+Case 2:21-cv-02241-BWA-KWR   Document 43   Filed 04/29/22   Page 3 of 12
+4
+
+the Court should draw the reasonable inference that Trans Union’s conduct in continuing to publish
+the inaccurate information was willful. 21  Finally, Thomas argues th at, without discovery, she is
+unable to identify a policy, practi ce, or procedure of Trans Union that might justify a finding of
+willfulness, but with the benefit of discovery, she might be able to do so.22
+ In reply, Trans Union attempts to distingu ish the cases upon whic h Thomas relies and
+reiterates that reporting Thomas’s Self Financia l account to have been 60 days past due in the
+month before it was closed, along with the closed status of the account and its having a “$0”
+balance, is not inaccurate or misleading.23  Trans Union also re-urges that Thomas’s algorithm
+theory is inconsistent with persuasive jurisprudence, and that Thomas has not pleaded a willful
+violation of the FCRA.24
+III. LAW & ANALYSIS
+
+A. Motion to Dismiss Standard
+
+ The Federal Rules of Civil Pr ocedure require a complaint to  contain “a short and plain
+statement of the claim showing that the pleader is entitled to relief.”  Fed. R. Civ. P. 8(a)(2).  Rule
+8 “does not require ‘detailed f actual allegations,’ but it demands more than an unadorned, the-
+defendant-unlawfully-harmed-me accusation.”  Ashcroft v. Iqbal , 556 U.S. 662, 678 (2009)
+(quoting Bell Atl. Corp. v. Twombly, 550 U.S. 544, 555 (2007)).  The statement of the claim must
+“‘give the defendant fair notic e of what the ... claim is and the grounds upon which it rests.’”
+Twombly, 550 U.S. at 555 (quoting Conley v. Gibson, 355 U.S. 41, 47 (1957)).  A pleading does
+not comply with Rule 8 if it offers “labels and conclusions,” “a formulaic recitation of the elements
+
+21 Id. at 20.
+22 Id. at 21.
+ 23 R. Doc. 30 at 1-5.
+24 Id. at 6-8.
+Case 2:21-cv-02241-BWA-KWR   Document 43   Filed 04/29/22   Page 4 of 12
+5
+
+of a cause of action,” or “‘naked assertions’ devoid of ‘further factual enhancement.’”  Iqbal, 556
+U.S. at 678 (quoting Twombly, 550 U.S. at 555, 557) (alteration omitted).
+Rule 12(b)(6) of the Federal Rules of Civil Pr ocedure permits a party to move to dismiss
+for “failure to state a claim upon  which relief can be granted.”  Fed. R. Civ. P. 12(b)(6).  “To
+survive a motion to dismiss, a complaint must cont ain sufficient factual matter, accepted as true,
+to ‘state a claim to relief that is plausible on its face.’”  Iqbal, 556 U.S. at 678 (quoting Twombly,
+550 U.S. at 570).  A claim is plausible on the f ace of the complaint “when the plaintiff pleads
+factual content that allows the court to draw the reasonable inference that the defendant is liable
+for the misconduct alleged.” Id. (citing Twombly, 550 U.S. at 556).  Plausibility does not equate to
+probability, but rather “it asks for more than a sheer possibility that a defendant has acted
+unlawfully.”  Id. (citing Twombly, 550 U.S. at 556).  “Where a complaint pleads facts that are
+‘merely consistent with’ a defendant’s liability, it ‘stops short of the line between possibility and
+plausibility of “entitlement to relief.”’”  Id. (quoting Twombly, 550 U.S. at 557).  Thus, if the facts
+pleaded in the complaint “do not permit the court to infer more than th e mere possibility of
+misconduct, the complaint has alleged – but it has not ‘shown’ – ‘that the pleader is entitled to
+relief.’”  Id. at 679 (quoting Fed. R. Civ. P. 8(a)(2)) (alteration omitted).
+In considering a Rule 12(b)(6) motion to dismiss for failure to state a claim, a court employs
+the two-pronged approach utilized in Twombly.  The court “can choose to begin by identifying
+pleadings that, because they are no more than conclusions [unsupported by factual allegations],
+are not entitled to the assumption of truth.”  Iqbal, 556 U.S. at 679.  However, “[w]hen there are
+well-pleaded factual allegations, a court should assume their veracity and then determine whether
+they plausibly give rise to an entitlement to relief.”  Id.  “[The] task, then, is to determine whether
+the plaintiff has stated a legally c ognizable claim that is plausible,  not to evaluate the plaintiff’s
+Case 2:21-cv-02241-BWA-KWR   Document 43   Filed 04/29/22   Page 5 of 12
+6
+
+likelihood of success.”  Body by Cook, Inc. v. State Farm Mut. Auto. Ins., 869 F.3d 381, 385 (5th
+Cir. 2017) (quoting Doe ex rel. Magee v. Covington Cnty. Sch. Dist., 675 F.3d 849, 854 (5th Cir.
+2012)).  Motions to dismiss are disfavored and rarely granted.  Turner v. Pleasant, 663 F.3d 770,
+775 (5th Cir. 2011) (citing Harrington v. State Farm Fire & Cas. Co., 563 F.3d 141, 147 (5th Cir.
+2009)).
+ A court’s review of a Rule 12(b)(6) motion to dismiss “is limited to  the complaint, any
+documents attached to the complaint, and any doc uments attached to the motion to dismiss that
+are central to the claim and referenced by the complaint.” 25  Lone Star Fund V (U.S.), L.P. v.
+Barclays Bank PLC , 594 F.3d 383, 387 (5th Cir. 2010) (citing Collins v. Morgan Stanley Dean
+Witter, 224 F.3d 496, 498-99 (5th Cir. 2000)).  A court ma y also take judicial notice of certain
+matters, including public records and government websites.  Dorsey v. Portfolio Equities, Inc., 540
+F.3d 333, 338 (5th Cir. 2008); see also Kitty Hawk Aircargo, Inc. v. Chao, 418 F.3d 453, 457 (5th
+Cir. 2005).  Thus, in weighing a Rule 12(b)(6) motion, district courts primarily look to the
+allegations found in the complaint, but courts may also consider “documents incorporated into the
+complaint by reference or integral to the claim, items subject to judicial notice, matters of public
+record, orders, items appearing in the record of the case, and exhibits attached to the complaint
+whose authenticity is unquestioned.”  Meyers v. Textron, Inc. , 540 F. App’x 408, 409 (5th Cir.
+2013) (citing Tellabs, Inc. v. Makor Issues & Rights, Ltd., 551 U.S. 308, 322 (2007)).
+B. Analysis
+
+ The FCRA requires “consumer reporting agen cies [to] adopt reas onable procedures for
+meeting the needs of commerce for consumer credit … in a manner wh ich is fair and equitable to
+
+ 25  Trans Union attaches Thomas’s cred it report to its motion to dismiss.  See R. Doc. 24-3.  The report is
+referenced in the complaint and central to Thomas’s claim.   Thomas neither objects to consideration of the credit
+report nor challenges its authenticity.  Thus, the Court will consider it in ruling on Trans Union’s motion.
+Case 2:21-cv-02241-BWA-KWR   Document 43   Filed 04/29/22   Page 6 of 12
+7
+
+the consumer.”  15 U.S.C. § 1681(b).  By establishing “a complex set of rights and obligations that
+attend the relationships among and between the provi der of a credit report, the user of that
+information and the consumer who is made the subject of such a report,” Sepulvado v. CSC Credit
+Servs., Inc., 158 F.3d 890, 895 (5th Cir. 1998), the FCRA is designed “to protect an individual
+from inaccurate or arbitrary information about [her]self in a consumer report that is being used as
+a factor in determining the individual’s eligibility for credit, insurance, or employment.”  Pinner
+v. Schmidt, 805 F.2d 1258, 1261 (5th Cir. 1986).  The FCRA provides remedies to an aggrieved
+consumer for a credit reporting agency’s neglig ent or willful failure to comply with the
+requirements of the Act.  See 15 U.S.C. §§ 1681n, 1681o.
+ Thomas brings claims agai nst Trans Union for failure to  comply with §§ 1681e(b) and
+1681i.  Section 1681e(b) provides th at, when preparing a consum er report, a credit reporting
+agency must use “reasonable procedures to assure maximum possible accuracy of the information
+concerning the individual about whom the report relates.”  Id. § 1681e(b); see also Pinner , 805
+F.2d at 1262 (“[Section 1681e(b)] imposes a duty of reasonable care in the preparation of a
+consumer report.”).  Section 1681i  requires consumer credit “repor ting agencies to reinvestigate
+and to delete information found to be inaccurate  or no longer verifiable once the consumer has
+protested the inclusion of the material.”  Pinner, 805 F.2d at 1262.  A consumer credit reporting
+agency that negligently violates either of these sections is liable for the injured consumer’s actual
+damages resulting from the violation, along with co sts and reasonable attorney’s fees.  15 U.S.C.
+§ 1681o.  Willful violation of eith er section exposes the reporting agency to punitive damages as
+well.  Id. § 1681n.
+ While §§ 1651e(b) and 1681i each have severa l elements, both sections require a plaintiff
+to establish, at a minimum, that her credit report c ontains inaccurate information in order to state
+Case 2:21-cv-02241-BWA-KWR   Document 43   Filed 04/29/22   Page 7 of 12
+8
+
+a claim.  Hurst v. Equifax Info. Servs., LLC, 2021 WL 5926125, at *4 (W.D. Tex. Dec. 15, 2021)
+(collecting cases).  “A credit en try may be ‘inaccurate’ within the meaning of the statute either
+because it is patently incorrect, or because it is misleading in such a way and to such an extent that
+it can be expected to adversely affect credit decisions.”  Sepulvado, 158 F.3d at 895 (citing Pinner,
+805 F.2d at 1258); see also Erickson v. First Advantage Background Servs. Corp., 981 F.3d 1246,
+1252 (11th Cir. 2020) (defining “maximum possible accuracy” as “factually true and also unlikely
+to lead to a misunderstanding”).  Courts use an “objectively reasonable” interpretation of the credit
+report to determine if it is accurate under the FCRA.  Erickson, 981 F.3d at 1252.  Under this
+standard, “[i]f a report is so misl eading that it is objectively likely  to cause the intended user to
+take adverse action against its subject, it is not maximally accurate.  On the other hand, the fact
+that some user somewhere could possibly squint at a report and imagine a reason to think twice
+about its subject would not render th e report objectively misleading.”  Id.  In sum, a credit report
+contains inaccurate information if it is “fact ually incorrect, objectively likely to mislead its
+intended user, or both.”  Id.  When making this determination, th e report must be viewed in its
+entirety, instead of focusing on a single field of data.  See, e.g., O’Neal v. Equifax Info. Servs.,
+LLC, 2021 WL 4989943 at *2 (S.D. Fla. Oct. 27, 2021) (collecting cases)
+ The Trans Union credit report at issue here shows the status of Thomas’s Self Financial
+account from July 2019 (w hen it was opened) to December  2019 (when it was paid off and
+closed).26  It shows an opening balance of $526; the amounts due and actually paid for July through
+December 2019; that the account became past due in November 2019; and that the account was 60
+days past due when it was paid off in December 2019.27  It notes the “Pay Status” as “Account 60
+
+ 26 R. Doc. 24-3 at 9.
+ 27 Id.
+Case 2:21-cv-02241-BWA-KWR   Document 43   Filed 04/29/22   Page 8 of 12
+9
+
+Days Past Due Date,” and that the account had a “Maximum Delinquency of 60 days in 12/2019.”28
+But it also notes that the “Terms” are “$0 per month, paid Monthly for 24 months” and the “Date
+Closed” as “12/24/2019.”29
+ Thomas has not established that any of th is constitutes inaccurate information.  Notably,
+Thomas does not allege in the complaint that any of this information is factually incorrect.  Instead,
+Thomas argues that “reporting a paid-off debt as 60-days past due” is patently inaccurate and
+misleading.30  She contends it was misleading because an account cannot be simultaneously paid
+off and past due.  But the report is not inaccura te or misleading when objectively viewed as a
+whole.  The “pay status” field clearly reflects hi storical information, not the current status of the
+account, especially when considered in conjunction with the report’s detailing that the account was
+closed on December 24, 2019, had payment terms of “$0 per month” and a “$0” balance, and a
+maximum delinquency of 60 days before it was closed with nothing owed.  A reasonable creditor
+objectively reading the credit report in its entirety would not (really, could not) believe that Thomas
+was 60 days past due on a closed  account with a $0 balance.  See Pineda v. TransUnion, LLC ,
+2021 WL 5798282, at *2 (M.D. Fla. Dec. 7, 2021) (holding that reporting an historical delinquency
+on a closed account is not inaccurate or misleading); O’Neal, 2021 WL 498994,3 at *2-3 (same);
+Lacey v. TransUnion, LLC, 2021 WL 2917602, at *4-6 (M.D. Fla. July 12, 2021) (same); Smith v.
+Transunion, LLC, 2021 WL 3111583, at *2 (M.D. Fla. July 1, 2021) (same); Samoura v. Trans
+Union, LLC, 2021 WL 915723, at *2-9 (E.D. Pa. Mar. 10, 2021) (same); Bibbs v. Trans Union
+LLC, 521 F. Supp. 3d 569, 573-80 (E.D. Pa. 2021) (same); Gross v. Priv. Nat’l Mort. Acceptance
+Co., 512 F. Supp. 3d 423, 425-27 (E.D.N.Y. 2021) (same); Hernandez v. Trans Union LLC, 2020
+
+ 28 Id.
+ 29 Id.
+30 R. Doc. 25 at 4.
+Case 2:21-cv-02241-BWA-KWR   Document 43   Filed 04/29/22   Page 9 of 12
+10
+
+WL 8368221, at *2-4 (N.D. Fl a. Dec. 10, 2020) (same); Settles v. Trans Union, LLC , 2020 WL
+6900302, at *3-5 (M.D. Tenn. Nov. 24, 2020)  (same).  The Court has carefully considered the
+cases Thomas cites in her opposition but they clearly represent only the minority view and are not
+persuasive, most often because they focus only on the “pay status” field without reference to the
+other data reflected in the credit report viewed in its entirety.
+ Moreover, Thomas’s algorithm argument is unavailing.  Thom as alleges that computer
+algorithms look at each tradeline as  “discrete piece[s] of information” and therefore interpret the
+“pay status” section in her credit report as a current delinquency.31  Virtually all courts addressing
+this issue have concluded that this is not  the relevant question for FCRA purposes.  See, e.g.,
+O’Neal, 2021 WL 4989943, at *3 (“How third-party companies choose  to utilize algorithms to
+decipher the accurate information reported by De fendant has no bearing on the accuracy of the
+report itself.”); Pineda, 2021 WL 5798282, at *3 (adopting the reasoning of O’Neal); Gibbs v.
+Trans Union LLC , 2021 WL 5882109, at *2 (E.D. Pa. Dec. 13, 2021) (“The question the Court
+must answer is whether the cred it report is misleading, not whethe r some third pa rty could read
+the credit report incorrectly.”); Brown v. Trans Union, LLC , 2022 WL 344579, at *3 (M.D. Fla.
+Feb. 4, 2022) (adopting the reasoning of O’Neal), appeal docketed, No. 22-1075 (3d Cir. Jan. 12,
+2022); Weeks v. Equifax Info. Servs., LLC, 2022 WL 685665, at *5 (M.D. Fla. Mar. 8, 2022) (“[The
+plaintiff] tries to overcome this hurdle by alleging that the allegedly inaccurate information is being
+used to calculate his credit score, and a lower credit score could impact his creditworthiness. But
+this argument has been rejected by multiple courts.”); Pinhasov v. Equifax Info. Servs., LLC, 2022
+WL 823886, at *3 (S.D. Fla. Mar. 18, 2022) (adopting the reasoning of O’Neal).
+
+31 Id. at 2-3.
+Case 2:21-cv-02241-BWA-KWR   Document 43   Filed 04/29/22   Page 10 of 12
+11
+
+As was observed in Gibbs v. Trans Union LLC , “the Court’s analysis must focus on the
+contents of the credit report itself, not the way that a computer interprets it.”  2021 WL 5882109,
+at *1.  The Gibbs court explained that “the re is no way for the Court to control the way people
+read a credit report, nor is there a way for the Court to know what quirk of computer programming
+leads a particular algorithm to draw particular conclusions from aspects of computer report.”  Id.
+at *2.  Furthermore, the court stated that even if it accepted the notion that lenders use algorithms
+that misinterpret accounts and base their decisions in reliance on an algorithm’s misinterpretation
+of Trans Union’s reporting data, “t hat does not make it plausible th at the credit report itself is
+inaccurate; it might only establish that the lender is relying on an illogical algorithm.”  Id.
+ Applying this reasoning to the present case, th e fact that Thomas’s credit score may have
+been adversely affected by a computer algorith m’s misinterpretation of Trans Union’s reporting
+of Thomas’s Self Financial account data does not mean the report itself is inaccurate.  As the court
+in Gibbs stated, “Trans Union is not obligated to pr ovide credit reporting that  will not have an
+adverse effect, it is only obligated to provide reporting that is not inaccurate or misleading.”  Id. at
+*3.
+Under the prevailing jurisprudence, Thomas ’s credit report was not inaccurate or
+misleading.  Therefore, her claims against Trans Union under §§ 1681e(b) and 1681i of the FCRA
+must be dismissed.
+
+Case 2:21-cv-02241-BWA-KWR   Document 43   Filed 04/29/22   Page 11 of 12
+12
+
+IV. CONCLUSION
+
+Accordingly, for the foregoing reasons,
+
+ IT IS ORDERED that Trans Union’s motion to dismiss (R. Doc. 24) is GRANTED, and
+Thomas’s claims against it are DISMISSED WITH PREJUDICE.
+
+New Orleans, Louisiana this 29th day of April, 2022.
+
+      ________________________________
+      B A R R Y  W .  A S H E
+      U N I T E D  S T A T E S  D I S T R I C T  J U D G E
+Case 2:21-cv-02241-BWA-KWR   Document 43   Filed 04/29/22   Page 12 of 12

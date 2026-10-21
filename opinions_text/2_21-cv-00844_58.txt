@@ -1,0 +1,476 @@
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+ORDER & REASONS
+Before the Court is a motion for summary judgment filed by defendants L Brands Service
+Company, LLC (“L Brands”), Shawn Tolbert (“Tolbert”), and Aidan Duffy (“Duffy”)
+(collectively, “Defendants”).1  Plaintiff David M. Phillips (“Phillips”) responds in opposition,2 and
+Defendants reply in further support of their motion.3  Having considered the parties’ memoranda,
+the record, and the applicable law, the Court issues this Order & Reasons granting the motion.
+I. BACKGROUND
+ This case involves claims arising out of an alleged theft and subsequent prosecution.  In
+2017, Phillips and his then-wife, Zipphora Hawkins, co-owned a transportation company that made
+deliveries for Dicom Transportation Group (“ Dicom”), a warehousing and delivery company
+located in St. Rose, Louisiana.4  Dicom handled the delivery of L Brands, Inc.’s products in Baton
+Rouge, Louisiana, including to the Mall of Louisiana. 5  L Brands is the pa rent company of Bath
+and Body Works (“BBW”) and Victoria’s Secret (“VS”).6  L Brands’s distribution center in Ohio
+sent products to Dicom, and Dico m contracted with drivers, incl uding Phillips, to deliver the
+
+1 R. Doc. 20.
+2 R. Doc. 42.
+3 R. Doc. 49.
+4 R. Doc. 1-1 at 3.
+5 Id.  L Brands Service Company, LLC is the logistics and distribution arm of L Brands, Inc.  For ease of
+reference, the Court will refer to both companies interchangeably as “L Brands.”
+6 Id.
+DAVID M. PHILLIPS
+
+VERSUS
+
+DICOM TRANSPORTATION GROUP,
+et al.
+CIVIL ACTION
+
+NO. 21-844
+
+SECTION M (5)
+Case 2:21-cv-00844-BWA-MBN   Document 58   Filed 04/18/22   Page 1 of 16
+2
+
+products.7  Phillips would leave his 26-foot box truck at  Dicom’s facility overnight to be loaded
+by Dicom’s employees with the next-day’s deliveries.8
+ L Brands had a system of tr acking cartons of merchandise. 9  Each carton was assigned a
+unique number and scanned as it left the Ohio distribution center.10  The cartons were scanned four
+more times: (1) when they arrived at Dicom’s warehouse; (2) when they left Dicom’s warehouse;
+(3) when they were put on a driver’s truck; and (4) finally, when they were delivered by the driver
+to the store.11  The process accurately monitored for a ny duplicate cartons, which would then be
+labeled using the original identification number along with a suffix of “-1.”12
+ At the beginning of the day, the delivery driv er is given paperwork listing the identification
+number of each carton on the tr uck and its delivery location.13  He is also given a scanner loaded
+with a digital version of this information. 14  When the driver arrives at a delivery stop, he scans
+the barcode on the store’s backdoor and then brings the cartons inside, leaving the scanner inside
+the store if he needs to make more than one trip back to the truck. 15  The driver then scans each
+carton marking them as delivered.16  At this point, the scanner will note any overages, underages,
+or duplicates, all of which drivers are required to report immediately. 17  Store employees are not
+required to count the cartons upon de livery, but rather rely on the s canned total to determine that
+the store received the correct number of cartons.18
+
+7 R. Doc. 20-4 at 1.
+8 R. Doc. 1-1 at 3.
+9 R. Doc. 20-4 at 1-2.
+10 Id.
+11 Id.
+12 Id. at 2.
+13 Id.
+14 Id.
+15 Id.
+16 Id.
+17 Id.
+18 Id.
+Case 2:21-cv-00844-BWA-MBN   Document 58   Filed 04/18/22   Page 2 of 16
+3
+
+ In the spring and summer of 2017, the BBW and VS stores in the Mall of Louisiana were
+experiencing significant “shrinkage,” i.e., loss of product. 19  Tolbert, L Brands’s logistics asset
+protection manager, received notices of specific items missing from the deliveries made to the VS
+store on March 2, March 9, April 21, and May 11.20  The scan records showed that all items were
+delivered and the shortages became apparent only after the delivery driver, Phillips, left.21  Around
+the same time, Tolbert learned that Duffy, L Brands’s regional asset protection manager, saw VS
+products for sale on Facebook and Instagram Marketplace in the Baton Rouge area that appeared
+to be in the original, distribution center packaging, indicating that the items were likely stolen prior
+to unpacking at the store, and possibly during the warehousing or delivery process.22  Because all
+cartons were scanned as delivered to the store, Duffy suspected that Phillips may be involved in
+the apparent theft.23
+ As a result, Tolbert and Duffy conducted a dr iver observation of Phillips on June 26, 2017,
+to look for suspicious activity and audit the truck at the day’s end.24  They observed Phillips spend
+an unusual amount of time in the trailer of his truck between deliveries, which they thought was a
+sign of potential fraud.25  Phillips completed his deliveries timely, with no reports of any overages,
+underages, or duplicates, includ ing at the Mall of Louisiana. 26  Tolbert and Duffy approached
+Phillips at his last stop at the Juban Crossing Mall in Livingston Parish, Louisiana, and explained
+that they were conducting an audit. 27  They searched Phillips’s truck and found six cartons that
+were scanned as having been delivered earlier in the day at the Mall of Louisiana’s BBW and VS
+
+19 Id.; R. Doc. 20-5 at 1.
+20 R. Docs. 20-4 at 2.
+21 Id.
+22 R. Docs. 20-4 at 2-3; 20-5 at 1.
+23 R. Doc. 20-4 at 3.
+24 Id.; R. Doc. 20-5 at 1.
+25 R. Docs. 20-4 at 3; 20-5 at 1.
+26 R. Docs. 20-4 at 3; 20-5 at 2.
+27 R. Docs. 20-4 at 3; 20-5 at 2.
+Case 2:21-cv-00844-BWA-MBN   Document 58   Filed 04/18/22   Page 3 of 16
+4
+
+stores.28  Tolbert reviewed Phillips’s paperwork and confirmed that there was no record in the
+system of any duplicates that could explain the discrepancy, and Phillips had not reported any
+discrepancies or noted any on his paperwork.29  Moreover, Tolbert observed discrepancies in the
+scan times for these six cartons relative to those of other cartons in the same deliveries that fit a
+pattern of fraud, i.e., taking the scanner back to the truck to scan boxes and leaving them on the
+truck instead of bringing them into the store.30  Further, the cartons had signs of tampering because
+BBS and VS products had apparently been consolidated into larger cartons.31  Tolbert called Brad
+Hambleton, a Dicom manager, to discuss the situation. 32  Hambleton did not provide any viable
+explanation.33
+ Thereafter, Tolbert and Duffy questioned Ph illips inside the Juban Crossing Mall’s BBW
+store.34  Phillips stated that the cartons must have been misloaded on the truck.35  In light of all the
+other evidence, Tolbert thought that Phillips was attempting to steal the six cartons.36  Tolbert and
+Duffy, following L Brands’s policy, reported their findings to Dicom and local law enforcement.37
+When the officers from Livingst on Parish Police Department (“ LPPD”) arrived, they concluded
+that they did not have jurisdiction because the cartons at issue were intended for a store in another
+parish.38  The LPPD officers contacted the East  Baton Rouge Parish Police Department
+(“EBRPD”), but officers from the EBRPD never arrived at the scene. 39  Phillips was released. 40
+
+28 R. Docs. 20-4 at 3; 20-5 at 2.
+29 R. Doc. 20-4 at 3.
+30 Id. at 4.
+31 R. Docs. 20-4 at 3; 20-5 at 2.
+32 R. Doc. 20-4 at 4.
+33 Id.
+34 R. Docs. 20-4 at 4; 20-5 at 2.
+35 R. Docs. 20-4 at 4; 20-5 at 2.
+36 R. Docs. 20-4 at 4; 20-5 at 2.
+37 R. Docs. 20-4 at 4; 20-5 at 2.
+38 R. Docs. 20-4 at 4; 20-5 at 2.
+39 R. Docs. 20-4 at 4; 20-5 at 2.
+40 R. Docs. 20-4 at 4; 20-5 at 2.
+Case 2:21-cv-00844-BWA-MBN   Document 58   Filed 04/18/22   Page 4 of 16
+5
+
+Hambleton instructed Phillips to leave to cartons  with Tolbert and Duffy, which he did and then
+left.41
+ The next day, Tolbert and Duffy informed  Hambleton and David Pippen (another Dicom
+manager) of their findings and asked that Phillips be removed from the L Brands account.42  They
+also reported their findings to a detective from the EBRPD.43  Finally, they visited the BBW and
+VS stores in the Mall of Louisiana to return the missing cartons, account for the value of their
+contents, and retrain the store employees to take the scanner before the delivery driver returns to
+his truck.44  Also that day, Dicom suspended Phillip s’s delivery contract because he was under
+investigation for stealing.45  Dicom terminated Phillips’s contract a week later.46
+ On July 5, 2017, a judge of the Nineteenth Judi cial District Court, Parish of East Baton
+Rouge, State of Louisiana, signed a warrant for Phillips’s arrest on the charge of felony theft in
+violation of La. R.S. 14:67. 47  On October 26, 2017, Phillips was pulled over by officers of the
+New Orleans Police Department (“ NOPD”) for a traffic violation. 48  The NOPD officers
+discovered the warrant, arrested Phillips, and bo oked him into Orleans Parish Prison, where he
+remained for eight days. 49  On November 1, 2017, Phillips was transferred to East Baton Rouge
+Parish Prison where he spent three more days before being released on bail.50  On April 23, 2018,
+the East Baton Rouge Parish District Attorney made a provisional determination not to file formal
+charges against Phillips.51
+
+41 R. Doc. 20-4 at 4.
+42 Id. at 5; R. Doc. 20-5 at 2.
+43 R. Docs. 20-4 at 5; 20-5 at 2.
+44 R. Docs. 20-4 at 5; 20-5 at 2.
+45 R. Doc. 1-1 at 5.
+46 Id.
+47 R. Doc. 20-8 at 45.
+48 R. Doc. 1-1 at 5.
+49 Id.
+50 Id.; R. Doc. 20-8 at 43.
+51 R. Doc. 20-8 at 48.
+Case 2:21-cv-00844-BWA-MBN   Document 58   Filed 04/18/22   Page 5 of 16
+6
+
+ Thereafter, on June 8, 2018, Phillip s filed this suit in Civil District Court, Parish of Orleans,
+State of Louisiana, against Dicom and Pippen (a Dicom manager) alleging claims of defamation,
+false arrest, malicious prosecution, and negligent and intentional infliction of emotional distress.52
+On January 23, 2019, Phillips filed his first amende d petition in state court adding Ann Arbor
+Distribution Inc. and MMS Distributors, Inc. as defendants.53  On January 29, 2021, Phillips filed
+a second amended petition in state court adding  L Brands, Tolbert, and Duffy as defendants. 54
+Phillips alleged that Tolbert and Duffy are liable for defamation per se and malicious prosecution
+because they “repeatedly contacted police to file charges against [him] and to request prosecution
+of said charges.”55  Phillips dismissed his claims against all defendants except L Brands, Tolbert,
+and Duffy, who then removed the action to this Court alleging diversity subject-matter jurisdiction
+under 28 U.S.C. § 1332.56
+II. PENDING MOTION
+Defendants move for summary judgment ar guing that Phillips ca nnot prevail on his
+defamation claim because their reports to law en forcement officers and Dicom are subject to a
+conditional privilege as good faith reports of misconduct, or alternatively, because the statements
+were true and ma de without malice.57  Defendants also argue that Phillips cannot prevail on his
+malicious prosecution claim because they acted reasonably and without ma lice in reporting the
+apparent theft to the police.58  As to Phillips’s false arrest claim, Defendants argue that they made
+their reports to police in good faith based on a reasonable interpretation of the available evidence,
+and alternatively, intervening and independent acts by law enforcement broke the causal chain
+
+52 R. Doc. 1-1 at 1-8.
+53 Id. at 18-22.
+54 Id. at 44-49.
+55 Id. at 46.
+56 R. Doc. 1 at 1-7.
+57 R. Doc. 20-2 at 17-22.
+58 Id. at 23-25.
+Case 2:21-cv-00844-BWA-MBN   Document 58   Filed 04/18/22   Page 6 of 16
+7
+
+between their report and Phillips’s arrest. 59  Further, Defendants argue that Phillips’s claims for
+negligent and intentional infliction of emotiona l distress fail because they acted reasonably, not
+outrageously, and Phillips has no evidence to support severe emotional distress.60
+In opposition, Phillips argues that Defendants acted in bad faith because their investigation
+was inadequate in that they did not talk to th e store employees, review surveillance footage, or
+inspect the warehouse before contacting law enforcement.61  He also argues that duplicate labels
+could explain why the cartons were left on his truck. 62  Phillips contends that Defendants’
+statements to law enforcement were not true and made with malice. 63  According to Phillips,
+Defendants continued to say that he was a thief even after the district attorney refused the charges
+and they have harassed his family. 64  Further, Phillips argues that Defendants are liable for
+negligent and intentional infliction of emotiona l distress because they breached a duty of good
+faith in reporting him to law enforcement and “blacklisted” Phillips from other companies by
+labeling him as a thief.65  Phillips claims that he suffered severe distress because he lost his
+business and his wife, and spent time in jail, all of which has caused him to have nightmares, anger,
+and lasting humiliation.66
+In their reply memorandum, De fendants argue that, although their investigation was not
+inadequate, a failure to investig ate does not abrogate good faith. 67  Defendants contend that they
+had ample evidence that Phillips was attempting to steal the cartons and made reports to law
+
+59 Id. at 25-27.
+60 Id. at 27-31.
+61 R. Doc. 42 at 1-7.
+62 Id.
+63 Id. at 9-25.
+64 Id. at 12, 15-16.
+65 Id. at 19-23.
+66 Id. at 23-24.
+67 R. Doc. 49 at 3-4.
+Case 2:21-cv-00844-BWA-MBN   Document 58   Filed 04/18/22   Page 7 of 16
+8
+
+enforcement in good faith and without malice.68  Defendants also argue that they did not investigate
+Philips’s family and did not make any statements about him to anyone after June 27, 2017, much
+less after the district attorney refused the charges.69  Defendants also reiterate that Phillips cannot
+maintain claims for false arrest or malicious prosecution because there were intervening actions
+by law enforcement leading to his arrest.70  Finally, Defendants argue that the facts Phillips claims
+support his emotional distress claims are attributable to Dicom and Pippen, not them.71
+III. LAW & ANALYSIS
+A. Summary Judgment Standard
+Summary judgment is proper “if the pleadings, depositions, answers to interrogatories, and
+admissions on file, together  with the affidav its, if any, show that there is no genuine issue as to
+any material fact and that the moving party is entitled to a judgment as a matter of law.”  Celotex
+Corp. v. Catrett, 477 U.S. 317, 322 (1986) (quoting Fed. R. Civ. P. 56(c)).  “Rule 56(c) mandates
+the entry of summary judgment, after adequate time for discovery and upon motion, against a party
+who fails to make a showing sufficient to establis h the existence of an element essential to that
+party’s case, and on which that party will bear the burden of proof at trial.”  Id.  A party moving
+for summary judgment bears the initial burden of demonstrating the basis for summary judgment
+and identifying those portions of the recor d, discovery, and any affi davits supporting the
+conclusion that there is no genui ne issue of material fact.  Id. at 323.  If the moving party meets
+that burden, then the nonmoving party must use evidence cognizable under Rule 56 to demonstrate
+the existence of a genuine issue of material fact.  Id. at 324.
+
+68 Id. at 3-6.
+69 Id. at 6-7, 9-10.
+70 Id. at 10.
+71 Id.
+Case 2:21-cv-00844-BWA-MBN   Document 58   Filed 04/18/22   Page 8 of 16
+9
+
+A genuine issue of material fact exists if a reasonable jury could return a verdict for the
+nonmoving party.  See Anderson v. Liberty Lobby, Inc., 477 U.S. 242, 248 (1986).  The substantive
+law identifies which facts are material.  Id.  Material facts are not genuinely disputed when a
+rational trier of fact could not find for the nonmoving party upon a review of the record taken as a
+whole.  See Matsushita Elec. Indus. Co. v. Zenith Radio Corp., 475 U.S. 574, 587 (1986); EEOC
+v. Simbaki, Ltd ., 767 F.3d 475, 481 (5th Cir. 2014).  Uns ubstantiated assertions, conclusory
+allegations, and merely colorable factual bases ar e insufficient to defeat a motion for summary
+judgment.  See Anderson, 477 U.S. at 249-50; Little v. Liquid Air Corp., 37 F.3d 1069, 1075 (5th
+Cir. 1994); Hopper v. Frank, 16 F.3d 92, 97 (5th Cir. 1994).  In ruling on a su mmary-judgment
+motion, a court may not resolve credibility issues or weigh evidence.  See Delta & Pine Land Co.
+v. Nationwide Agribusiness Ins. Co., 530 F.3d 395, 398-99 (5th Cir. 200 8).  Furthermore, a court
+must assess the evidence, review the facts, an d draw any appropriate inferences based on the
+evidence in the light most favorable to the party opposing summary judgment.  See Tolan v. Cotton,
+572 U.S. 650, 656-57 (2014); Daniels v. City of Arlington, 246 F.3d 500, 502 (5th Cir. 2001).  Yet,
+a court only draws reasonable infe rences in favor of the nonmova nt “when there is an actual
+controversy, that is, when both parties have submitted evidence of contradictory facts.”  Little, 37
+F.3d at 1075 (citing Lujan v. Nat’l Wildlife Fed’n, 497 U.S. 871, 888 (1990)).
+After the movant demonstrates the absence of a genuine issue of  material fact, the
+nonmovant must articulat e specific facts showing a genuine  issue and point  to supporting,
+competent evidence that may be presented in a form admissible at trial.  See Lynch Props., Inc. v.
+Potomac Ins. Co., 140 F.3d 622, 625 (5th Cir. 1998); Fed. R. Civ. P. 56(c)(1)(A) & (c)(2).  Such
+facts must create more than “some metaphysical doubt as to the material facts.”  Matsushita, 475
+U.S. at 586.  When the nonmovant will bear the bur den of proof at trial on the dispositive issue,
+Case 2:21-cv-00844-BWA-MBN   Document 58   Filed 04/18/22   Page 9 of 16
+10
+
+the moving party may simply point to insufficient admissible evidence to establish an essential
+element of the nonmovant’s claim in order to satisfy its summary-judgment burden.  See Celotex,
+477 U.S. at 322-25; Fed. R. Civ. P. 56(c)(1)(B).  Unless there is a genuine issue for trial that could
+support a judgment in favor of the nonmovant, summary judgment must be granted.  See Little, 37
+F.3d at 1075-76.
+B. Defamation Per Se
+The tort of “[d]efamation involves the invasion of a person’s interest in his or her reputation
+and good name.”  Fitzgerald v. Tucker, 737 So. 2d 706, 715 (La. 1999).  A defamation claims has
+four elements: “(1) a false and defamatory stat ement concerning another;  (2) an unprivileged
+publication to a third party; (3) fa ult (negligence or greater) on th e part of the publisher; and (4)
+resulting injury.”  Johnson v. Pupera, 320 So. 3d 374, 386-87 (La. 2021).  The Louisiana supreme
+court has explained that “the fault requirement is  generally referred to in the jurisprudence as
+malice, actual or implied.”  Id. at 387.  “[I]n order to prevail on a defamation claim, a plaintiff
+must prove that the defendant, with actual malice or other fault, published a false statement with
+defamatory words which caused plaintiff damages.”  Id. (quotation omitted).  “If even one of the
+required elements of the tort is l acking, the cause of action fails.”  Costello v. Hardy, 864 So. 2d
+129, 140 (La. 2004).
+Defamatory words are defined as “words which tend to harm the reputation of another so
+as to lower the person in the estimation of the community, to deter others from associating or
+dealing with the person, or otherwise expos e a person to contempt or ridicule.”  Id.  Words that
+convey “an element of personal disgrace, dishonesty, or disrepute are defamatory.”  Id.  Moreover,
+“[w]ords which expressly or implicitly accuse another of criminal conduct, or which by their very
+nature tend to injure one’s personal or professional reputation, even without considering extrinsic
+Case 2:21-cv-00844-BWA-MBN   Document 58   Filed 04/18/22   Page 10 of 16
+11
+
+facts or surrounding circumstances, are considered defamatory per se.”  Id.  If a plaintiff proves
+publication of words that are defamatory per se, “the  elements of falsity and malice (of fault) are
+presumed, but may be rebu tted by the defendant.”  Id.  The element of injury may also be
+presumed.  Id.
+Good faith reports to law enforcement of po tential criminal activ ity are conditionally
+privileged from claims for defamation per se.  Kennedy v. Sheriff of E. Baton Rouge , 935 So. 2d
+669, 683 (La. 2006).  “[T]he elements of the cond itional privilege have been described as good
+faith, an interest to be upheld and a statement limited in scope to this purpose, a proper occasion,
+and publication in the proper manner and to proper parties only.”  Id. (quotation omitted).  The
+good faith conditional privilege “arises from the social necessity of permitting full and unrestricted
+communication concerning a matter in which the parties have an interest or duty, without inhibiting
+free communication in such instances by the fear that the communicating party will be held liable
+in damages if the good faith communication later turns out to be inaccurate.”  Id. at 681-82
+(quotation omitted).  The priv ilege extends to good faith repor ts of suspected  wrongdoing or
+misconduct within business relationships.  See, e.g., Maggio v. Liztech Jewelry, 912 F. Supp. 216,
+221 (E.D. La. 1996) (holding that  communication of suspected copyright infringement was
+protected by qualified privilege where it served legitimate and shared business purpose).
+Here, Tolbert and Duffy made statements about Phillips that were defamatory per se
+because they accused Phillips of criminal conduc t.  Although falsity and malice are therefore
+presumed, Defendants have successfully rebutted the presumption by proving that they made the
+statements in good faith and only to proper parties.  Tolbert and Duffy both executed declarations
+in which they describe L Brands’s tracking system, the findings of their investigation of Phillips,
+and why they reasonably thought he was attempting to steal the cartons.  These factors include:
+Case 2:21-cv-00844-BWA-MBN   Document 58   Filed 04/18/22   Page 11 of 16
+12
+
+(1) the shrinkage at the BBW and VS stores in the Mall of Louisiana th at suggested potential
+misconduct of the delivery driver, and items posted for sale online in what appeared to be delivery
+packaging; (2) the location of six cartons on Phillips’s truck at the end of the day that had all been
+scanned as delivered earlier in the day; (3) the scan history showing suspicious time delays around
+the scanning of the six cartons; (4) no record of  any duplicate cartons or other discrepancies that
+would corroborate Phillips’s explanation for th e presence of the cartons on his truck; (5)
+Hambleton’s inability to provide an alternative explanation; and (6) the appearance that someone
+tampered with the cartons.  This evidence supported Defendants’ good faith suspicion of theft by
+Phillips.  Tolbert and Duffy both declared that th ey reported Phillips only to interested parties –
+namely, others within L Brands, Dicom’s manage rs Hambleton and Pippen, and officers of the
+LPPD and EBRBP. 72  Neither Tolbert nor Duffy discusse d Phillips with anyone else, and they
+were not involved with Phillips or the investigation after June 27, 2017.73
+Phillips offers no evidence to overcome the good faith privilege.  There is no evidence that
+Tobert or Duffy continued to discuss Phillips wi th anyone after June 27, 2017.  Phillips does not
+present evidence of knowing falsity or reckless disr egard on the part of Defendants.  Moreover,
+the perceived inadequacies in Defendants’ i nvestigation do not under mine their good faith in
+reporting the information they had to the police.  See Kennedy, 935 So. 2d at 689 (observing that
+the “failure to investigate does not present a jury question on whether a statement was published
+with reckless disregard for the truth” when the suspicions of those making the report to the police
+are not arbitrary).  On this summary-judgment record, Defendants’ suspicions were hardly
+arbitrary.  Therefore, Phillips cannot prevail on his defamation claim.
+
+72 R. Docs. 20-4 at 5; 20-5 at 3.  Given their business relationship, L Brands and Dicom share an interest in
+preventing theft of L Brands product.
+73 R. Docs. 20-4 at 5; 20-5 at 3.
+Case 2:21-cv-00844-BWA-MBN   Document 58   Filed 04/18/22   Page 12 of 16
+13
+
+C. Malicious Prosecution
+ Under Louisiana law, there are six el ements of a malicious prosecution claim:
+
+(1) the commencement or continuance of an  original criminal or civil judicial
+proceeding; (2) the legal causation by th e present defendant in the original
+proceeding; (3) its bona fide termination in favor of the present plaintiff; (4) the
+absence of probable cause for such proceeding; (5) the presence of malice therein;
+and (6) damage conforming to legal standards resulting to plaintiff.
+
+Lemoine v. Wolfe , 168 So. 3d 362, 367 (La. 2015) (quoting  Jones v. Soileau , 448 So. 2d 1268,
+1271 (La. 1984)).  The Louisiana supreme court has defined “malice” as follows:
+“Malice is found when the defendant uses the prosecu tion for the purpose of
+obtaining any private advantage, for instance, as a means to extort money, to collect
+a debt, to recover property, to compel pe rformance of a contract, to ‘tie up the
+mouths’ of witnesses in another action, or as an experiment to discover who might
+have committed the crime.  Malice may be inferred from the lack of probable cause
+or inferred from a finding that the defendant acted in reckless disregard of the other
+person’s rights.”
+
+Kelly v. W. Cash & Carry Bldg. Materials Store , 745 So. 2d 743, 761 (La. App. 1999) (quoting
+Miller v. E. Baton Rouge Par. Sheriff’s Dep’t, 511 So. 2d 446, 453 (La. 1987)).  In that regard,
+“[m]alice exists when a charge is made with knowledge that it is fa lse or with reckless disregard
+for the truth.”  Id.  “The crucial determination in regard to the absence of probable cause is whether
+the defendants had an honest and reasonable belief in the allegations they made.”  Id.  “Actions
+for malicious prosecu tion have never been favored, and hence,  in order to sustain them, a clear
+case must be established.”  Id.
+ Phillips cannot make a clear case for malicious  prosecution.  First, he was never prosecuted
+because the district attorney de cided not to pursue charges.  Second, there was no malice.  As
+discussed above, Defendants, at th e very least, acted with probabl e cause that a crime had been
+committed, not with reckless disregard for the truth.  They reported the findings of their
+investigation of Phillips to la w enforcement with an honest, r easonable belief that Phillips was
+Case 2:21-cv-00844-BWA-MBN   Document 58   Filed 04/18/22   Page 13 of 16
+14
+
+attempting to steal the cartons.  There is no evidence that they were using the legal process for one
+of the improper purposes delineated by the Louisian a supreme court in its definition of malice.
+Contrary to Phillips’s assertion, Defendants did not use any prosecution as an experiment to
+discover who committed a crime, but rather perform ed an investigation that  gave rise to their
+reasonable belief that Phillips committed the crime they subsequently reported.  See Kelly, 745 So.
+2d at 761-62 (affirming dismissa l of malicious prosecution cl aim where employer reported
+suspected crime based on honest and reasonable belief).  Because Phillips cannot make a clear
+case for malicious prosecution, the claim must be dismissed.
+D. False Arrest
+False arrest occurs “when one arrests and re strains another against his will without a
+warrant or other statutory authority.”  Id. at 761.  “The tort of false imprisonment consists of the
+following two essential elements: (1) detention of the person; and (2) the unlawfulness of the
+detention.”  Kennedy, 935 So. 2d at 690.  A detention is unlawf ul if made without color of legal
+authority, such as an arrest made pursuant to a warrant that is null and void on its face.  Touchton
+v. Kroger Co., 512 So. 2d 520, 524 (La. App. 1987).  On the other hand, “an arrest pursuant to a
+facially lawful arrest warrant cannot support a claim for false arrest.”  Morgan v. Richard, 305 So.
+3d 932, 935 (La. App. 2020).  The plaintiff has the burden of proving that an arrest was made
+without color of legal authority.  Touchton, 512 So. 2d at 524.
+Phillips does not have a claim for false arrest.  He was arrested pursuant to a warrant, signed
+by a judge, that appears to be valid on its face.  Phillips has offered no evidence that the warrant
+was facially null and void.  Moreover, Phillips has not established how, under Louisiana law,
+private citizens, such as Defendants, could be liable for an arrest made by law enforcement
+authorities.
+Case 2:21-cv-00844-BWA-MBN   Document 58   Filed 04/18/22   Page 14 of 16
+15
+
+E. Negligent Infliction of Emotional Distress
+Louisiana Civil Code article 2315 permits a cl aim for negligent infliction of emotional
+distress unaccompanied by physical injury.  Holmes v. Lea , 250 So. 3d 1004, 1014 (La. App.
+2018).  Liability for tort damages for mental anguish based on article 2315 requires the application
+of the duty-risk analysis, where a plaintiff must  prove each of the foll owing elements: (1) the
+defendant had a duty to conform his conduct to a specific standard of care; (2) the defendant failed
+to conform to that standard; (3) the defendant’s s ubstandard conduct was a cause-in-fact of
+plaintiff’s injuries; (4) the defendant’s substandard conduct was a legal cause of plaintiff’s injury;
+and (5) actual damages.  Id.  No liability can attach if an y of these elements is lacking.  Id.
+“Moreover, recovery for negligent infliction of emotional distress una ccompanied by physical
+injury has been limited to cases  involving the ‘especial likelihood of genuine and serious mental
+distress, arising from the special circumstances, which serves as  a guarantee that the claim is not
+spurious.’”  Id. (quoting Moresi v. State, Dep’t of Wildlife & Fisheries, 567 So. 2d 1081, 1096 (La.
+1990)).  In other words, the defendant’s conduct must be outrageous or such that he knew or should
+have known that his conduct would cause genuine and severe mental distress as judged in light of
+the effect such conduct would have on a person of ordinary sensibilities.”  Id.
+As discussed above, Defendants acted reason ably in reporting the findings of their
+investigation of Phillips to law enforcement, Dicom, and within  L Brands.  Thus, their conduct
+cannot be said to rise to the level of outrageous  as would be necessary for a claim of negligent
+infliction of emotional distress to lie.  Thus, this claim must be dismissed.
+ F. Intentional Infliction of Emotional Distress
+ To prove intentional infliction of emotional distress in Louisiana, a plaintiff must show:
+“(1) that the conduct of the defendant was extreme and outrageous; (2) that the emotional distress
+Case 2:21-cv-00844-BWA-MBN   Document 58   Filed 04/18/22   Page 15 of 16
+16
+
+suffered by the plaintiff was severe; and (3) that the defendant desired to inflict severe emotional
+distress or knew that severe emotional distress w ould be certain or substantially certain to result
+from his conduct.”  White v. Monsanto Co. , 585 So. 2d 1205, 1209 (La. 1991).  Extreme and
+outrageous conduct is that which exceeds “all possi ble bounds of decency” and is “regarded as
+atrocious and utterly intolerable in a civilized community.”  Id.  “Liability does not extend to mere
+insults, indignities, threats, annoyances, petty oppressions, or other trivialities.” Id.    Additionally,
+“[t]he conduct must be intended or calculated to cause severe emotional distress and not just some
+lesser degree of fright, humiliation, embarrassment, worry, or the like.”  Id. at 1210.
+Again, as discussed above, Defendants acted re asonably in reporting the findings of their
+investigation of Phillips to law enforcement, Dicom, and within L Brands.  Their conduct was not
+extreme and outrageous.  Nor is there any evid ence that Defendants’ conduct was intended or
+calculated to cause severe emoti onal distress or that it did.  Thus , Phillips’s claim for intentional
+infliction of emotional distress must also be dismissed.
+IV. CONCLUSION
+Accordingly, for the forgoing reasons,
+IT IS ORDERED that Defendants’ motion for summary judgment (R. Doc. 20) is
+GRANTED, and Phillips’s claims are DISMISSED WITH PREJUDICE.
+New Orleans, Louisiana, this 18th day of April, 2022.
+
+________________________________
+      BARRY W. ASHE
+      UNITED STATES DISTRICT JUDGE
+Case 2:21-cv-00844-BWA-MBN   Document 58   Filed 04/18/22   Page 16 of 16
