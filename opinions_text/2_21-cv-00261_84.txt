@@ -1,0 +1,660 @@
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+INGRAM BARGE COMPANY LLC  CIVIL ACTION
+
+VERSUS  NO. 21-261
+
+CAILLOU ISLAND TOWING COMPANY INC., ET AL.  SECTION "L" (2)
+
+ORDER AND REASONS
+ Before the Court are two motions to dismiss filed by Claimant Cecil Brashear. The first
+motion seeks dismissal of Caillou Island Towing Company, Inc.’s counterclaim against Brashear.
+R. Doc. 41. Caillou Island Towing Company, Inc . opposes the motion. R. Doc. 47. Brashear’s
+tsecond motion requests dismissal of Central Gulf Towing, L.L.C.’s (CGT’s) three counterclaims.
+R. Doc. 49. Central Gulf Towing, L.L.C. opposes the motion. R. Doc. 52. Considering the parties’
+briefs, the oral arguments of counsel, the record, and the applicable law, the Court now rules as
+follows.
+ BACKGROUND
+ These three consolidated limitation actions arise out of an alleged vessel collision on
+November 26, 2020 near mile marker 74.4 of the Mississippi River in Plaquemines Parish. R.
+Doc. 1.1 On that date, around 3:30 a.m., the M/V La Belle, a push boat owned and/or operated by
+Petitioner Caillou Island Towing Company, Inc. (“Caillou Island”), and the M/V Helen, a towing
+vessel owned and/or operated by Petitioner Central Gulf Towing, L.L.C. (“CGT”), were towing
+downriver a 500-foot dredge pipe owned by Claimant Manson Construction Company
+(“Manson”). R. Doc. 12 at 12; R. Doc. 8 (Case No. 21-489). At the same time, the David G.
+
+1 For the sake of simplicity, unless otherwise specified, all citations to the record refer to case number 21-
+261, the lead case in these proceedings.
+Case 2:21-cv-00261-EEF-DPC   Document 84   Filed 08/18/22   Page 1 of 24
+2
+
+Sehrt (DGS), a towing vessel owned by Petitioner Ingram Barge Company, LLC (“Ingram
+Barge”), was pushing 18 empty barges upriver. R. Doc. 1 at 2. The DGS collided with the dredge
+pipe, allegedly causing damage to the vessels and the dredge pipe and injuring Claimant Cecil
+Brashear, a Jones Act seamen employed by Caillou Island who was serving aboard the La Belle.
+ Each of the vessel owners claimed exoneration from or limitation of liability under the
+Limitation of Liability of Shipowners Act, 46 U.S.C. § 30501, R. Doc. 1 (Case No. 21-489); R.
+Doc. 1 (21-953); R. Doc. 1 (21-1008). The vessel owners all filed claims against one another,
+contending that the other shipowners’ vessels were unseaworthy and/or that the captains and
+crews aboard those other vessels operated them in a negligent fashion. R. Doc. 1 (21-261); R.
+Doc. 4 (21-261); R. Doc. 1 (Case No. 21-262). Claimant Manson filed a claim against Ingram
+Barge, alleging that its negligence was responsible for damage to the dredge pipe. R. Doc. 8
+(Case No. 21-489).
+ Additionally, Claimant Cecil Brashear, the Jones Act seaman, allegedly was “violently
+knocked around in his bunk” as a result of the collision, sustaining “serious injuries to his neck,
+head, shoulder, and arm.” R. Doc. 10 at 12. He filed personal injury claims in state court. This
+Court then issued a stay enjoining prosecution of Brashear’s state court claims. After receiving
+notice of the limitation proceedings, Brashear answered filed his answers and claims in the
+limitation proceedings. Specifically, Brashear made claims under the Jones Act, 46 U.S.C. §
+30104, and/or general maritime law against Caillou Island, R. Doc. 10 at 14, and CGT, R. Doc.
+12 at 13.
+Caillou responded to Brashear’s claims in the limitation proceeding by asserting a
+counterclaim against him for fraud. R. Doc. 28. Caillou alleges that, on November 17, 2020,
+Brashear received treatment by Dr. Geoffrey Stone for the same conditions and injuries he
+Case 2:21-cv-00261-EEF-DPC   Document 84   Filed 08/18/22   Page 2 of 24
+3
+
+alleges were caused by the November 26, 2020 collision. Brashear allegedly fraudulently
+concealed this pre-collision treatment during several post-collision medical visits for the injuries
+he claims were caused by the incident. Id. at 9-11. According to Caillou, Brashear told Dr. Stone
+that his injuries arose at home either two weeks or a month prior to November 17, 2020. Id. at 9.
+Immediately after the collision, Brashear allegedly did not report any injuries and completed his
+hitch on the M/V LA BELLE. Id. at 8. Then, on December 16, 2020 and January 8, 2021, Dr.
+Suneil Jolly at Louisiana Pain Specialists saw Brashear for the same injuries he complained of to
+Dr. Stone. During this appointment, Brashear allegedly reported that these injuries arose from the
+collision. Id. Brashear purportedly concealed from Dr. Jolly his prior treatment on November 17,
+2020, as well as that his injuries and symptoms predated the November 26, 2020 collision. Id.
+Caillou alleges that Brashear concealed the same facts and made the same false representation
+regarding the cause of his injuries when he was seen by Dr. William Brennan with Neurological
+Solutions of Lafayette on February 8, 2021 and April 8, 20201, and during his independent
+medical evaluation by Dr. Henry Eiserloh III of Baton Rouge Orthopedic on August 10, 2021.
+Id. at 10-11. Caillou also alleges that Brashear hid and misrepresented these facts when he
+received an MRI on his cervical spine on January 8, 2021 and an MRI on his left shoulder on
+February 23, 2021. Id.
+CGT asserted counterclaims in the limitation proceeding against Brashear for fraud and
+intentional misrepresentation for similar reasons. R. Doc. 34 at 4. Additionally, Caillou sued
+Brashear for malicious prosecution. Id. at 5.
+All actions and limitation proceedings arising out of the November 26, 2020 collision
+were consolidated in this Court.
+Case 2:21-cv-00261-EEF-DPC   Document 84   Filed 08/18/22   Page 3 of 24
+4
+
+ PRESENT MOTIONS
+Brashear moves to dismiss Caillou’s and CGT’s counterclaims. R. Doc. 41; R. Doc. 49.
+He argues that Caillou, as a Jones Act employer, cannot assert a cognizable claim for affirmative
+recovery against its seamen. R. Doc.  41-1 at 1. Brashear further argues, even assuming such a
+claim were cognizable, Caillou fails to comply with the heightened pleading standards mandated
+by Federal Rule of Civil Procedure 9(b).
+In opposition, Caillou contends that its claim is cognizable and that its counterclaim
+clears the hurdles imposed by Rule 9(b). R. Doc. 47.
+As to CGT, Brashear makes similar arguments as to why its fraud and intentional
+misrepresentation claims do not meet the pleading requirements under Rule 9(b). R. Doc. 47.
+Brashear further argues that CGT’s malicious prosecution is premature and non-viable.
+CGT opposes Brashear’s motion, arguing that its fraud and intentional misrepresentations
+pass muster under Rule 9(b) but agrees that its malicious prosecution is likely premature. R. Doc.
+52.
+ DISCUSSION
+A. Legal Standard
+ The Federal Rules of Civil Procedure permit a defendant to seek a dismissal of a
+complaint based on the “failure to state a claim upon which relief can be granted.” Fed. R. Civ.
+P. 12(b)(6). To survive a Rule 12(b)(6) motion to dismiss, a complaint must include factual
+allegations that are “enough to raise a right to relief above the speculative level.” Bell Atl. Corp.
+v. Twombly, 550 U.S. 544, 555 (2007). Particularly, “a plaintiff must plead specific facts, not
+mere conclusory allegations.” Elliott v. Foufas, 867 F.2d 877, 881 (5th Cir. 1989). The complaint
+must also “state a claim to relief that is plausible on its face.” Twombly, 550 U.S. at 570. “A
+Case 2:21-cv-00261-EEF-DPC   Document 84   Filed 08/18/22   Page 4 of 24
+5
+
+claim has facial plausibility when the plaintiff pleads factual content that allows the court to
+draw the reasonable inference that the defendant is liable for the misconduct alleged.” Ashcroft v.
+Iqbal, 556 U.S. 662, 678 (2009).
+ When ruling on a motion to dismiss, a court must construe facts in the light most
+favorable to the nonmoving party, id., and it “must accept as true all of the factual allegations
+contained in the complaint.” Twombly, 550 U.S. at 572 (quoting Swierkiewicz v. Sorema N. A.,
+534 U.S. 506, 508 n.1 (2002)). A court “do[es] not accept as true conclusory allegations,
+unwarranted factual inferences, or legal conclusions.” Plotkin v. IP Axess Inc., 407 F.3d 690, 696
+(5th Cir. 2005).
+B. Analysis
+As mentioned above, there are two Rule 12(b)(6) motions to dismiss counterclaims
+against personal injury claimant Brashear. One, to dismiss a counterclaim filed by the Jones Act
+seaman’s employer (Caillou), and another filed by a non-employer vessel owner (CGT). The
+Court will discuss each in turn.
+1. Brashear’s Motion to Dismiss Caillou’s Counterclaim, R. Doc. 41
+Brashear contends that Caillou’s counterclaim must be dismissed under Rule 12(b)(6)
+because no authority supports allowing a vessel owner employer to maintain a counterclaim for
+fraud against a Jones Act seaman in response to the seaman’s claim for damages due to injury
+aboard the vessel. R. Doc. 41-1 at 1. Indeed, Brashear argues that permitting Caillou’s
+counterclaim to go forward would improperly “create new law and circumvent the long-
+established” rules set forth in McCorpen v. Central Gulf Steamship Corp., 396 F.2d 547 (5th Cir.
+1968). Id. Brashear also asserts that Caillou’s counterclaim for fraud fails to meet the heightened
+pleading standard Rule 9(b) demands for such claims. Id.
+Case 2:21-cv-00261-EEF-DPC   Document 84   Filed 08/18/22   Page 5 of 24
+6
+
+ The starting point for the Court’s discussion on the availability of an affirmative claim by
+an employer against its seaman must be the Supreme Court’s decision in Still v. Norfolk &
+Western Railroad Company, 368 U.S. 35 (1961). There, the Court held that a railroad worker’s
+fraud in procuring his employment does not terminate the employment relationship, permitting
+the employee to maintain a suit for damages against his employer under the Federal Employers’
+Liability Act (“FELA”), even where the employee’s misrepresentation contributed to the incident
+or injury that is the basis for his claim. Id. at 41. This conclusion was rooted in FELA’s broad
+policy of holding railroads liable for their workers’ personal injuries resulting from the railroad’s
+negligence. In the Jones Act, Congress extended FELA’s protections to seamen. Beech v.
+Hercules Drilling Co., L.L.C., 691 F.3d 566, 570 (5th Cir. 2012). FELA caselaw thus applies to
+Jones Act cases. Id. The Court’s decision in Still thus “makes clear that a ‘seaman . . . is not
+barred from suit under the Jones Act because he conceals a material fact in applying for
+employment.’” Johnson, 544 F.3d 296, 302 (5th Cir. 2008) (quoting Gypsum Carrier, Inc. v.
+Handelsman, 307 F.2d 525, 530 (9th Cir. 1962)).
+ A lthough a dishonest seaman may pursue a Jones Act claim against his employer, the
+Fifth Circuit, in McCorpen, established an affirmative defense for employers that eliminates their
+liability for maintenance and cure—that is, payments for food, lodging, and basic medical care—
+when an injured seaman obtains his employment through fraud. The McCorpen defense applies
+where the “employer subjects a seaman to a medical examination as part of the hiring process
+and the vessel owner can prove that the seaman: (1) intentionally misrepresented or concealed
+pertinent medical facts; (2) the non-disclosed facts were material to the company’s decision to
+hire the claimant; and (3) there was a causal link between the concealed pre-existing injury and
+the employment injury.” Atl. Sounding Co. v. Petrey, 402 F. App’x 939, 941 (5th Cir. 2010). If
+Case 2:21-cv-00261-EEF-DPC   Document 84   Filed 08/18/22   Page 6 of 24
+7
+
+the vessel owner satisfactorily proves these elements, then it is not liable for the maintenance and
+cure of a seaman who is injured in the service of his vessel. Id.
+The Fifth Circuit has acknowledged that McCorpen is “in tension” with Still. Boudreaux
+v. TransOcean Deepwater, Inc., 721 F.3d 723, 726 (5th Cir. 2013) (observing that “if,” as Still
+establishes, “the seaman’s dishonesty does not terminate his status as seaman or his damages
+remedy, the right to maintenance and cure ought be an a fortiori case; after all, it is an essential
+part of the employment relationship—a down payment on damages that allows the seaman to
+subsist and pay for basic medical expenses in the immediate aftermath of his injury”).
+Nonetheless, the McCorpen defense remains available.
+ In Boudreaux v. TransOcean Deepwater, Inc., the Fifth Circuit clarified that defendants
+may wield McCorpen solely as a shield and not as a sword. Id. In other words, Jones Act
+employers can invoke McCorpen to insulate themselves from liability for continuing
+maintenance and cure benefits; they cannot, however, call upon McCorpen to recoup
+maintenance-and-cure benefits already paid to a seaman. Id. at 724. Thus, the McCorpen defense
+may not spawn a counterclaim by a vessel owner employer against his seaman employee for
+restitution of paid maintenance.
+Boudreaux involved a Jones Act seaman who misrepresented that he had serious back
+problems when he filled out his pre-employment medical questionnaire. Later, while servicing
+equipment, the seaman injured his back. His employer paid him maintenance and cure for several
+years. Id. After the seaman filed suit seeking, among other things, further maintenance and cure
+payments, his employer discovered evidence of his pre-employment back problems. The
+employer thus asserted McCorpen as a defense to liability for continuing maintenance and cure
+payments. The employer then went a step further: purporting to rely on McCorpen, it filed a
+Case 2:21-cv-00261-EEF-DPC   Document 84   Filed 08/18/22   Page 7 of 24
+8
+
+counterclaim, seeking restitution of the maintenance and cure payments it had already made to
+the seaman. Id. at 725.
+ The Fifth Circuit dismissed the counterclaim and held that, as a matter of law, a vessel
+owner who establishes a McCorpen defense is not entitled to restitution for benefits already paid.
+Id. at 727. Rather, the Fifth Circuit ruled that a Jones Act employer who pays maintenance and
+cure to an injured seaman can recover those payments “only by offset against the seamen’s
+damages award—not by an independent suit seeking affirmative recovery.” Id. at 728.
+The Boudreaux court noted that the law authorizes an employer to investigate a seaman’s
+claim prior to paying maintenance and cure benefits2 and establishes the McCorpen defense,
+enabling an employer to deduct benefits already paid from any damages award a seaman may
+receive. This existing regime, the court reasoned, strikes the appropriate balance between
+protecting seamen from the dangers of the sea and employers from dishonest workers. Endorsing
+the employer’s “novel attempt to extend the [McCorpen] defense into an affirmative right of
+recovery” would result in an affirmative judgment against the seaman when the seaman does not
+recover damages or the damages award is insufficient to offset the seaman’s liability for
+restitution. Id. at 727. Such a judgment “would stand as a serious impediment to the seaman’s
+economic recovery, and its threat would have a powerful in terrorem effect in settlement
+negotiations.” Id. In light of these considerations, the Fifth Circuit refused to unsettle
+longstanding maritime jurisprudence by exercising its “extraordinary power to a create a new
+right of action.” Id. at 728.
+
+2 See Morales v. Garjiak, Inc., 829 F.2d 1355, 1358 (5th Cir. 1987), abrogated on other grounds by
+Gueveara v. Maritime Overaseas Corp., 59 F.3d 1496 (5th Cir. 1995) (“Upon receiving a claim for maintenance and
+cure, the shipowner need not immediately commence payments; he is entitled to investigate and require
+corroboration of the claim. . . . A shipowner who is in fact liable for maintenance and cure, but who has been
+reasonable in denying liability, may be held liable only for the maintenance and cure[,] [not compensatory or
+punitive damages].”).
+Case 2:21-cv-00261-EEF-DPC   Document 84   Filed 08/18/22   Page 8 of 24
+9
+
+ Under McCorpen  and Boudreaux, Brashear asserts that, at most, his employer, Caillou,
+could only receive an offset for prior maintenance and cure paid to him should he be awarded
+damages. R. Doc. 41-1 at 6. Put another way, Brashear contends that the Fifth Circuit’s
+precedents preclude Caillou from bringing its counterclaim.
+Caillou disagrees for several reasons. Although initially Caillou’s arguments appear to
+have some persuasive force, upon closer analysis none are availing.
+First, Caillou contends that McCorpen and its progeny have no bearing on the case at bar.
+Caillou points out that, by its terms, McCorpen only applies to fraud perpetrated by a seaman
+that occurs during the hiring process. Caillou’s counterclaim, on the other hand, alleges that
+Brashear concealed medical treatment that he received after he had been hired. Compare Atl.
+Sounding Co., 402 F. App’x at 941 (explaining that “the non-disclosed facts were material to the
+company’s decision to hire the claimant” (emphasis added)) and Nelton v. Cenac Towing Co.,
+LLC, No. 10-373, 2011 WL 289040, at *20 (E.D. La. Jan. 25, 2011) (“The Fifth Circuit, starting
+with McCorpen itself, has indicated that the defense applies only to pre-employment physical
+examinations.”), with R. Doc. 47 at 3-4.
+Under the facts alleged, it may well be the case that the McCorpen defense is unavailable
+to Caillou. But of course, if Caillou’s argument is correct—and Brashear fabricated his claim that
+he was injured as a result of his service on Caillou’s vessel—then Brashear will not be entitled to
+any recovery under the Jones Act; all he will have received are past maintenance and cure. And
+that is the same result that would obtain even if McCorpen and Boudreaux did apply. Thus, that
+McCorpen may not apply directly does not advance Caillou’s argument.
+Caillou also argues that its affirmative claim should not be barred because, unlike the
+employer in Boudreaux, the “remedy of set-off” is not available to it. R. Doc. 47 at 6. As
+Case 2:21-cv-00261-EEF-DPC   Document 84   Filed 08/18/22   Page 9 of 24
+10
+
+Boudreaux noted, precedent permits an employer to offset or deduct past maintenance and cure
+from any Jones Act damages recovered by the seaman to the extent the two are duplicative. Id.
+(citing Wood v. Diamond M Drilling Co., 691 F.2d 1165, 1171 (5th Cir. 1982)). This is true,
+regardless of the applicability of McCorpen. Id.
+Caillou is correct that, if Brashear’s claims are fraudulent, then it will not be able to set
+off any prior maintenance and cure against a damages award to Brashear. That is because if
+Caillou prevails, then that necessarily means that Brashear was never injured during the vessel
+collision—and that means Brashear will not be entitled to any damages from which past
+maintenance and cure can be offset. But if the jury finds that Brashear did in fact falsely allege
+that his injuries stemmed from the collision, then it will not have to pay any damages award at
+all.3 Thus, Caillou is no worse off than a Jones Act employer that can offset past maintenance
+and cure payments from a damages award to its seaman. Indeed, whereas an employer who
+establishes the McCorpen defense may still be liable for Jones Act damages exceeding the
+amount offset by past maintenance and cure, Caillou will not be liable for any damages to
+Brashear, if its allegations of fraud are meritorious.
+Next, Caillou asserts that its affirmative claim should be allowed to proceed because the
+claim hinges on Brashear’s subjective intent, whereas the McCorpen defense is satisfied by the
+lesser showing that a seaman made material misstatements or omissions. Therefore, according to
+Caillou, Boudreaux’s holding that McCorpen may only serve as a defense and not an offense
+does not apply when employer can prove actual, subjective intent to commit fraud. R. Doc. 47-
+
+3 Although Caillou contends that Brashear suffered no injury due to the vessel collision, it is conceivable
+that a seaman could suffer actual personal injuries but fraudulently overstate the extent of their injuries. In that
+situation, a seaman may be entitled to a Jones Act award for damages. At the same time, the seaman’s employer may
+be able to deduct past maintenance and cure payments from any such award.
+
+Case 2:21-cv-00261-EEF-DPC   Document 84   Filed 08/18/22   Page 10 of 24
+11
+
+4.4 In support, Caillou cites the original panel opinion in Boudreaux, which was later vacated,
+withdrawn, and substituted with the precedential opinion. See Boudreaux, 711 F.3d 501 (5th
+Cir.), vacated by 721 F.3d at 724 (5th Cir. 2013). In the vacated opinion, the panel majority
+observed that, unlike common law fraud claims, which turns on the subjective intent of the
+alleged wrongdoer, the McCorpen defense does not require any showing of mens rea; instead, it
+is satisfied merely by showing that, prior to hiring, the seaman failed to disclose medical
+information that an employer clearly sought. Id. (citing Brown v. Parker Drilling Offshore Corp.,
+410 F.3d 166, 174 (5th Cir. 2005)). Because establishing McCorpen does not require
+demonstrating a seaman’s intent to conceal, the Fifth Circuit, in the since-vacated opinion,
+worried that transforming McCorpen’s defense into an authorization to pursue an affirmative
+claim against a seaman would, in practice, threaten honest seamen who inadvertently fail to
+
+4 Technically, this argument was pressed by the employer in Crowe v. Marquette Transp. Co. Gulf-Inland,
+LLC, No. 14-1130, (E.D. La.), in a 26-page memorandum objecting to the magistrate’s denial of its motion for leave
+to file its counterclaim, R. Doc. 47-3, and a 21-page memorandum opposing the seaman’s motion to dismiss its
+counterclaim, R. Doc. 47-4. Caillou’s 9-page memorandum attempts to incorporate by reference these memoranda
+by the employer in Crowe. R. Doc. 47 at 5-6. Caillou cites Federal Rule of Civil Procedure 10(c) as permitting this
+adoption by reference. That Rule permits “[a] statement in a pleading [to] be adopted by reference elsewhere in the
+same pleading or in any other pleading or motion.” Fed. R. Civ. P. 10(c) (emphasis added). By its terms, the Rule
+applies only to the adoption of a statement in a pleading. The memorandum Caillou seeks to adopt, however, plainly
+is not a pleading, see Fed. R. Civ. P. 7 (listing the types of pleadings), and therefore Rule 10(c) provides no basis for
+Brashear to adopt by reference the arguments urged by the employer in Crowe. In addition, Brashear’s maneuvering
+runs up against Local Rule 7.7. That provision states that, unless a party receives leave of court, memoranda
+“supporting or opposing a motion must not exceed 25 pages, excluding exhibits[.]” E.D. La. Local Rule 7.7. To add
+the entirety of the 26-page and 21-page memoranda by the employer in Crowe on top of Caillou’s own 9-page
+memorandum would clearly violate this Rule.
+
+In a
+ddition to the attempted adoption-by-reference, Brashear attached the employer’s memorandum in
+Crowe as an exhibit to his memorandum. R. Doc. 47-3. And exhibits are expressly excluded from the page count
+limitation imposed by Local Rule 7.7. But permitting parties to attach as exhibits documents that are purely legal
+arguments—as opposed to documents that merely support the legal arguments already presented in a parties’
+memoranda—would effectively sanction an end-run around Local Rule 7.7. On the other hand, this Court is not
+inclined to stick its head in the sand and ignore potentially meritorious legal arguments. Accordingly, although the
+Court admonishes counsel to comply with the Local Rules, the Court will consider the primary arguments asserted
+by the employer in Crowe in favor of recognizing a cognizable affirmative claim for recovery by an employer
+against a seaman.
+Case 2:21-cv-00261-EEF-DPC   Document 84   Filed 08/18/22   Page 11 of 24
+12
+
+disclose material information to their employer with the specter of “crushing liability”—a result
+“inimical to the existing fabric of maritime law.” Id.
+Subsequently, as noted, the Boudreaux panel vacated its original opinion. In its
+precedential decision, the panel appeared to retreat from the view that McCorpen does not
+necessitate an intent to defraud. The McCorpen defense, the Fifth Circuit stated, applies “where a
+seaman procures his employment by ‘intentionally’ and ‘fraudulently’ concealing a material
+medical condition causally related to the injury later sustained.” 712 F.3d at 726 (quoting
+McCorpen, 396 F.2d at 549). The Fifth Circuit further stated that the “requisite quantum of proof
+under McCorpen is the same as that for fraud claims.” Id. In other words, although Boudreaux
+does not expressly state that McCorpen requires proof of subjective intent on the part of the
+seaman to defraud his employer, Boudreaux does equate an employer’s burden of proof to
+establish intentional fraud under McCorpen with that required to establish the requisite scienter
+for common law fraud.
+Nevertheless, Caillou argues that Boudreaux does not prohibit an employer’s
+counterclaim against a seaman where the employer proves the seaman’s subjective intent to
+commit fraud. R. Doc. 47-4 at 13. Caillou points out that, in Boudreaux, the employer “made a
+strategic decision not to litigate the case on its facts;” instead, the employer asked the court “to
+hold that any employer that establishes a McCorpen defense is automatically entitled to
+restitution.” Id. at 725. Under Caillou’s reading of Boudreaux, the case merely stands for the
+proposition that establishing the McCorpen defense, without more, does not per se entitle the
+employer to restitution. R. Doc. 47-4 D at 13.
+But Caillou itself construes Boudreaux as “appear[ing] to recognize [that] the intentional
+concealment component of the McCorpen test is akin to common law fraud,” which requires a
+Case 2:21-cv-00261-EEF-DPC   Document 84   Filed 08/18/22   Page 12 of 24
+13
+
+showing of subjective intent to defraud. Id. at 13. More importantly, Boudreaux’s broader
+teaching is that courts should proceed with great caution before “creating a right of action never
+before recognized in maritime law” given the existing scheme that carefully balances the
+interests of seamen against those of their employers. 721 F.3d at 724. Yet, that is precisely what
+Caillou urges here—without citation to a single reported decision recognizing the right it asserts.
+Indeed, Caillou asks this Court to go far beyond authorizing the type of claim the Fifth Circuit
+rejected in Boudreaux. That case concerned a claim to recoup maintenance and cure fees. But
+here, Caillou makes a much more expansive claim: it seeks, in addition to maintenance and cure
+payments, reimbursement for fees and expenses associated with investigating and defending
+Brashear’s claim, increases in its insurance premiums, and harm to its reputation and business. R.
+Doc. 28 at 10-14. This certainly would create a new right of action never before recognized by
+maritime law—an outcome the Firth Circuit rejected in Boudreaux.
+Caillou’s final argument concerning Boudreaux’s inapplicability is that the decision is
+inconsistent with the Fifth Circuit’s prior decision in Withhart v. Otto Candies, L.L.C., 431 F.3d
+840 (5th Cir. 2005), and that one of these decisions must be “overturned.” R. Doc. 47-4 at 19.5
+Needless to say, this Court does not have the power to overturn the Fifth Circuit. In any event,
+this argument rings hollow because the two cases are distinguishable.
+Withhart held that a Jones Act employer could sue its seamen-employee for property
+damage under a negligence theory. 431 F.3d at 845. First, the Fifth Circuit determined that,
+under general maritime law, vessel owners could sue negligent seamen for property damage. Id.
+at 842. Second, the Fifth Circuit determined that the Jones Act did not bar such a counterclaim
+for property damage, and therefore the counterclaim was viable. Id. at 845. In reaching its
+
+5 Caillou also makes this argument via its “incorporation” of the employer’s memorandum in Crowe , No.
+14-1130, (E.D. La.).
+Case 2:21-cv-00261-EEF-DPC   Document 84   Filed 08/18/22   Page 13 of 24
+14
+
+conclusion, the Fifth Circuit agreed with every other federal appeals court that FELA (and thus
+the Jones Act, which imports FELA caselaw) did not abrogate an employer’s common law right
+to sue its employees for property damage. Id. at 843.
+It is true that Withhart and Boudreaux reached opposite conclusions about the
+cognizability of counterclaims asserted by Jones Act employers against their employees. But
+there is good reason for the divergent outcomes in these cases: they address fundamentally
+different types of counterclaims. Withhart, on the one hand, concerned the viability of a
+negligent property damage counterclaim against a seaman—a cause of action long recognized by
+general maritime law. And this counterclaim, Withhart explained, was consistent with the Jones
+Act. That determination was based in part on the Fifth Circuit’s finding that permitting the
+counterclaim would not chill Jones Act seamen from pressing their statutory rights—a
+conclusion that makes sense given that a property damage counterclaim would generally arise
+out of a different set of operative facts than a seaman’s Jones Act claims and thus is not likely to
+be asserted by an employer merely as a retaliatory response to a seaman’s Jones Act claims. 431
+F.3d at 842.
+Boudreaux, by contrast, dealt with a counterclaim for fraud by a seaman’s employer
+brought in response to the seaman’s personal injury claims—a counterclaim without precedent in
+maritime law. That this fraud-based counterclaim found little support in the caselaw was
+unsurprising: judicially licensing such counterclaims could seriously impair seamen’s ability to
+assert their rights, a result that would conflict with courts’ historic duty to safeguard seamen’s
+rights. See Harden, 11 F. Cas. at 485. Unlike the negligent property damage counterclaim in
+Withhart, if a fraud counterclaim could go forward, then every time that a seaman sues his
+employer under the Jones Act, the employer would simply turnaround and countersue, asserting
+Case 2:21-cv-00261-EEF-DPC   Document 84   Filed 08/18/22   Page 14 of 24
+15
+
+that the seaman’s personal injury claims are fraudulent. The mere threat of this counterclaim
+could cow a seaman into foregoing otherwise meritorious claims. Thus, whereas Withhart found
+that allowing a negligent property damage counterclaim would not deter seamen from upholding
+their rights, Boudreaux understandably expressed concern that authorizing fraud counterclaims
+against Jones Act seamen may thwart seamen’s ability to recover or even bring a Jones Act
+claim—an outcome that would be at odds with the Jones Act’s liberal policy of providing relief
+for injured seaman. 721 F.3d at 724.
+In sum, although at first blush there may appear to be some tension in the reasoning of
+Boudreaux and Withhart, upon closer scrutiny, the cases can be harmonized. And Boudreaux,
+which deals directly with the inviability of a novel counterclaim by a Jones Act employer based
+on a seamen’s alleged fraud, is the more pertinent and relevant decision.
+The Court bears in mind that Boudreaux addresses the cognizability of an affirmative
+claim for relief by a Jones Act employer when a seaman allegedly intentionally misleads his
+employer about a pre-existing injury whose disclosure would have been material to the hiring
+decision. The precise issue presented here is somewhat different: the cognizability of a Jones Act
+employer’s fraud claim asserted against a seaman for allegedly intentional misrepresenting
+whether the injury that he complains of occurred as a result of his service on a vessel. The Court
+has located only a handful of cases confronting this latter issue. Overall, those decisions support
+the Court’s determination that Caillou’s counterclaim must be dismissed.
+The most on point case is Dolmo v. Galliano Tugs, Inc., No. 09-3976, 2011 WL 6817824,
+*1 (E.D. La. Dec. 28, 2011), aff’d sub. nom in Dolmo v. Tugs, 479 F. App’x 656 (5th Cir. 2012).
+There, a seaman sued his employer under the Jones Act and general maritime law. Id. at *1. The
+employer countersued to recover attorneys’ fees and costs, contending that the seaman fabricated
+Case 2:21-cv-00261-EEF-DPC   Document 84   Filed 08/18/22   Page 15 of 24
+16
+
+the accident upon which he sued. The Dolmo court, in a decision cited favorably by Boudreaux,
+rejected the employer’s claim largely based on historical and policy reasons. The court
+recognized that, although recovery of maintenance and cure payments to the seaman was “not
+the exact issue” before it, “that issue presents in lesser form some of the fundamental problems
+inherent in this counterclaim[.]” Id. at *2. The court viewed “[t]he problems with the potential
+ramifications of recognizing this counterclaim for fraud” as “exponentially enhanced from those
+associated with the mere repayment of maintenance and cure.” Id. Moreover, the threat of a suit
+for fraud in response to a personal injury claim by a seaman “seriously undercuts the historical
+rationale and the very deference the admiralty gives its ward of the court.” Id. The court also
+worried that recognizing the employer’s claim would result in attorneys refusing to represent
+injured seamen.6 Id.
+ Similarly, in Whitchurch v. Canton Marine Towing Co., No. 16-3278, 2018 WL
+3213137, at *2 (C.D. Ill. June 29, 2018), the court held that a Jones Act employer could not
+clawback maintenance and cure payments by pursuing a fraud counterclaim against a seaman
+who the employer alleged had fabricated the injury and accident sued upon. The court
+acknowledged that, unlike in the McCorpen line of cases, which concern fraud during the hiring
+process, it was confronted with fraud related to the occurrence of the accident and the injury
+itself. Id. But the court determined that the “general principles” enunciated in Boudreaux for
+prohibiting employers from asserting affirmative causes of actions against seamen applied to that
+case, too. Id. at *3. The court also cited the paucity of precedent supporting the employer’s cause
+of action and expressed concern that permitting counterclaims by Jones Act employers would
+chill seamen from asserting their rights under maritime law. Id.
+
+6 As an additional reason supporting its conclusion, the Dolmo court noted that the employer had available
+the McCorpen defense.
+Case 2:21-cv-00261-EEF-DPC   Document 84   Filed 08/18/22   Page 16 of 24
+17
+
+ Conversely, in Crowe v. Marquette Transp. Co. Gulf-Inland, LLC , No. 14-1130, R. Doc.
+90 at 1 (E.D. La. May 5, 2015), a district court permitted an employer to assert a counterclaim
+for fraud against a seaman. In a two-paragraph Order and Reasons, the district judge overruled
+the magistrate’s recommendation that the fraud claim was not cognizable. Deeming the issue a
+“close call,” the district court distinguished Boudreaux because the plaintiff in that case
+“undisputedly suffered an injury” while performing his duties as a seaman, whereas the employer
+in Crowe contended that the seaman did not suffer an on-the-job injury. Id.; see also id. at R.
+Doc. 143 (denying seaman’s motion to dismiss employer’s counterclaim for the same reasons
+provided in the order granting leave to amend).7
+ Although the Court agrees with Crowe that the issue presented is a difficult one, the
+Court ultimately must side with the conclusions in Dolmo and Whitchurch that a Jones Act
+employer cannot be allowed to maintain a cause of action for damages against its seaman based
+on fraud in retaliation or response to a seaman’s suit for maintenance and cure or damages.
+While a Jones Act employer—like Caillou in this case—may assert that its counterclaim for
+fraud is merely intended to recover the costs incurred in defending against supposedly dishonest
+claims, such a result is doubtful; in actuality, recovery on such a counterclaim would be highly
+unlikely due to the impecunious status of the average seaman; so the only purpose of allowing
+such a claim would be to serve as a threat to a seaman who files a claim which the Jones Act
+preserves. Furthermore, a ruling allowing such a claim would likely open the floodgates of
+
+7 In a sur-reply, Caillou attached a Findings of Fact and Conclusions of Law as well as a Judgment  in civil
+action no. 83-1465, E.D. La., Guidry v. Bengal Marine, Inc. (Apr. 25, 1986). In that case, a plaintiff-seaman sued his
+Jones Act employer for injuries he allegedly sustained onboard his employer’s vessel, and the employer countersued
+for fraud. The jury, through interrogatories, found that the seaman’s personal injury claims were based on false
+representations. Thus, the jury found that the seaman was not entitled to the maintenance and cure payments that he
+had received. The district court therefore granted judgment to a vessel owner on its counterclaim. R. Doc. 65-1.
+Although the court in that case did award an affirmative recovery to the employer against its seaman, there is no
+indication that the seaman ever contested whether the counterclaim against him was cognizable.
+Case 2:21-cv-00261-EEF-DPC   Document 84   Filed 08/18/22   Page 17 of 24
+18
+
+litigation to disgruntled vessel owners who take extreme umbrage over being sued by their own
+crew members. In nearly every case in which a seaman claims injury due to vessel negligence or
+unseaworthiness, the vessel owner denies liability and causation. Essentially, the vessel owner
+disputes the statement or testimony of the seaman as to how he was injured, the nature and extent
+of his claimed injuries, and often claims that if there were any injuries, they were likely caused
+by prior incidents or prior disabilities unknown to the employer. These positions would spawn
+counterclaims based on fraud in nearly every case.
+ Under the present regime the vessel owner who prevails at trial as a result of a finding of
+no negligence or no unseaworthiness or a lack of causation pays nothing. No damages are
+assessed, and any court costs or attorney fees are usually paid by insurance, the cost of which is
+passed on to the consumer of the vessel owner’s services. This approach has held for decades,
+and the case for creating a new right of action has not been made. The nearly complete absence
+of caselaw approving of the counterclaim asserted here in response to a seaman’s Jones Act
+claim militates strongly in favor of dismissing the counterclaim. Id. at 728. (“[W]e are not so
+bold as to now claim a new view—one that the hundreds before us have overlooked or
+rejected.”). So, too, do the serious misgivings articulated in Dolmo and Crowe about the
+deleterious effects that would result from permitting the type of counterclaim pressed here. As
+those courts observed, authorizing the affirmative right of action sought by the employer may
+well dissuade seamen from asserting their rights, either by causing them not to press meritorious
+claims or deterring counsel from taking on their cases. Although the scenario here is factually
+distinguishable from that in Boudreaux, this Court heeds the Fifth Circuit’s admonition in that
+case that courts should be reticent to recognize rights of action that are novel in maritime law,
+Case 2:21-cv-00261-EEF-DPC   Document 84   Filed 08/18/22   Page 18 of 24
+19
+
+particularly when they would likely adversely affect the established rights of seamen.8 721 F.3d
+at 724.
+ Notably, barring a Jones Act employer from countersuing its seamen for fraud is
+c
+onsistent with the history and policy of the Jones Act itself. That statute arose out of the
+shortcomings of an earlier congressional enactment, a 1915 measure intended “to promote the
+welfare of American seamen . . . and to promote safety at sea.” 38 Stat. 1164 (1915), codified at
+46 U.S.C. § 50101 et seq; see also GRANT GILMORE AND CHARLES L. BLACK, JR., THE LAW OF
+ADMIRALTY, (2d ed. 1975), at 325-27 [hereinafter, “THE LAW OF ADMIRALTY”]. In one
+provision, Congress sought to provide a cause of action for a mariner injured as a result of the
+negligence of his vessel’s master or crew. Specifically, Congress prohibited application of the
+so-called “fellow-servant doctrine”—a rule that imputed the negligence of each member of the
+crew to all and was perceived as a bar to recovery for maritime negligence claims—to suits for
+injuries sustained by seamen aboard vessels. THE LAW OF ADMIRALTY at 325. Despite Congress’s
+intent to remove any barriers to a seaman’s ability to recover for negligence claims, the Supreme
+Court, in Chelentis v. Luckenbach S.S. Co., interpreted the 1915 statute’s bar to applying the
+fellow-servant rule as “irrelevant” to a seaman’s recovery; rather, the Court held that
+longstanding jurisprudence limited a seaman’s recovery to maintenance and cure only. 247 U.S.
+372, 381, 384-85 (1918) (citing The Osceola, 189 U. S. 158, 175 (1903)). The decision left
+seaman without legal recourse—other than mere maintenance and cure—for the negligence of
+their master or crew.
+
+8 Although not directly on-point, the limited scholarly treatment of related issues appears to be in accord.
+See David W. Robertson & Michael F. Sturley, Recent Developments in Admiralty and Maritime Law at the
+National Level and in the Fifth and Eleventh Circuits, 41 TUL. MARITIME L. J. 437, 490 n.357 (2017) n. 357
+(explaining that when a seamen is alleged to have “faked his injuries, . . . [i]t seems likely (and dicta in Boudreaux []
+suggests) that” the employer’s overpayment to the seamen “will be treated analogously to Boudreaux” and therefore
+no affirmative recovery will be permitted).
+Case 2:21-cv-00261-EEF-DPC   Document 84   Filed 08/18/22   Page 19 of 24
+20
+
+Congress responded swiftly, enacting the Jones Act in 1920. Merchant Marine Act of
+1920, Pub. L. No. 261 (1920). As part of its overarching goal of promoting the growth of the
+nation’s “foreign and domestic commerce,” the Jones Act conferred upon seamen the negligence
+cause of action against their employers that Congress had attempted to provide several years
+earlier. 41 Stat. 1007 (1920), codified at 46 U.S.C. § 30104 et seq. In establishing an affirmative
+right of recovery for seaman against their employers for negligence, Congress codified in
+admiralty law a fundamental tenet of tort theory: that the costs of a harm should be placed on the
+party best positioned to prevent the harm. By requiring vessel owners and operators to internalize
+the costs of unsafe vessel conditions, Congress incentivized these employers to provide their
+seamen with safe workplaces. In this way, the Jones Act promotes the well-being of seamen—a
+chief purpose behind the 1915 statute. The Jones Act thus cures inadequacies in the 1915 statute
+vis-à-vis the protection of seaman’s rights and, in turn, their safety. And in so doing, the Jones
+Act encourages the development of the maritime industry, thereby advancing national
+commerce—a further goal of the statute. See 41 Stat. 1007.
+To permit the counterclaim asserted by the Jones Act employer here would chip away at
+the Act’s purpose. As discussed, this counterclaim would discourage seaman from pursuing their
+rights under the Jones Act. And, as tort theory teaches, employers would thus have a diminished
+economic incentive to encourage safe conditions on their vessels. That result would frustrate the
+Jones Act’s purposes of promoting maritime safety and national commerce.9 The Court thus
+finds that barring the Jones Act employer’s counterclaim for fraud best effectuates the statute’s
+broad aims of promoting maritime safety and, consequently, maritime commerce.
+
+ 9 This caption accompanied the original 1915 Act. In 1920, the Jones Act amended the 1915 Act to further
+enumerate seamen’s rights. See Grant Gilmore & Charles L. Black, THE LAW OF ADMIRALTY, 325 (2d ed. 1975).
+Case 2:21-cv-00261-EEF-DPC   Document 84   Filed 08/18/22   Page 20 of 24
+21
+
+Accordingly, though Caillou may decry the balance the courts have struck between the
+rights of Jones Act employers and their seamen, this Court does not find occasion to upset it. To
+the extent that the Fifth Circuit in Boudreaux may not have entirely foreclosed the possibility of
+an affirmative recovery by a Jones Act employer that Caillou seeks here, “[t]he case for
+exercising” this Court’s “extraordinary power to create a new right of action has not been made.”
+Id. at 728.10
+2. Brashear’s Motion to Dismiss CGT’s Counterclaims, R. Doc. 49
+Brashear also moves to dismiss each of CGT’s counterclaims under Rule 12(b)(6). R.
+Doc. 49. First, Brashear contends that dismissal of CGT’s fraud and intentional
+misrepresentation claims is appropriate because CGT fails to meet the heightened pleading
+requirements for such claims under Rule 9(b). R. Doc. 49-1 at 1, 6-7. Id. at 6-7. Second,
+Brashear argues that CGT’s malicious prosecution claim is premature. Id. at 7-9.11
+Under Federal Rule of Civil Procedure 9(b), a party alleging fraud “must state with
+particularity the circumstances constituting fraud or mistake. Malice, intent, knowledge, and
+other conditions of a person’s mind may be alleged generally.” The Fifth Circuit “interprets Rule
+9(b) strictly, requiring a plaintiff [who pleads] fraud to specify the statements contended to be
+fraudulent, identify the speaker, state when and where the statements were made, and explain
+why the statements were fraudulent.” Dorsey v. Portfolio Equities, Inc., 540 F.3d 333, 339 (5th
+
+10 Because Caillou’s counterclaim is not cognizable, the Court need not consider Brashear’s alternative
+argument that the claim should be dismissed for failing to the meet the heightened  leading requirements for claims
+of fraud.
+11 Notably, Brashear does not argue that Boudreaux bars CGT’s counterclaims. Presumably, that is because
+CGT is not Brashear’s employer. Accordingly, the concerns that permitting a Jones Act employer to countersue its
+seaman for fraud may preclude a seaman from asserting his rights under that statute are not implicated by CGT’s
+counterclaims.
+Case 2:21-cv-00261-EEF-DPC   Document 84   Filed 08/18/22   Page 21 of 24
+22
+
+Cir. 2008) (citations omitted). “Put simply, Rule 9(b) requires the complaint to set forth the
+‘who, what, where, and how of the events at issue.’” Id. (citation omitted).
+The Court first considers C GT’s counterclaim for fraud. CGT alleges that, on or around
+November 17, 2020, Brashear “was already being treated for the same conditions and injuries for
+which he now alleges were a result of the November 26, 2020 collision.” R. Doc. 34 at ¶3. CGT
+also alleges that “Brashear treated for his alleged claims of injury from November 26, 2020
+without disclosing the pre-existing conditions and injuries” and “concealed and misrepresented
+them as being from the . . . collision.” Id. ¶4. However, CGT fails to identify when and to whom
+Brashear’s allegedly fraudulent statements were made. See Dorsey, 540 F.3d at 339. CGT
+therefore has not satisfied the heightened requirements of Rule 9(b). See id.12
+Turning to CGT’s intentional misrepresentation claim, “[t]he elements of a Louisiana
+delictual fraud or intentional misrepresentation cause of action are: (a) a misrepresentation of a
+material fact, (b) made with the intent to deceive, and (c) causing justifiable reliance with
+resultant injury.” Guidry v. U.S. Tobacco Co., 188 F.3d 619, 627 (5th Cir. 1999). Because such a
+claim includes the elements of fraud, it is subject to the pleading hurdles imposed by Rule 9(b).
+See, e.g., Coleman v. Sears Home Improvement Prods., Inc., No. 16-2537, 2017 WL 1089580,
+*10 (E.D. La. Mar. 21, 2017); Schafer v. State Farm & Fire Casualty Co., No. 06-8262, 2008
+WL 11353621, *1 (E.D. La. June 11, 2008); Dorsey v. N. Life Ins. Co., No. 04-0342, 2005 WL
+
+12 Brashear takes issue with CGT alleging its fraud claim “on information and belief.” R. Doc. 49- 1 at 2, 7.
+“If the facts pleaded in a complaint are peculiarly within the opposing party’s knowledge, fraud pleadings may be
+based on information and belief. However, this luxury may not be mistaken for license to base claims of fraud on
+speculation and conclusory allegations.” Dorsey, 540 F.3d at 339 (quoting Tuchman v. DSC Commc’ns Corp., 14
+F.3d 1061, 1068 (5th Cir. 1994)). Rather, the pleading “must set forth a factual basis for such belief.” United States
+ex rel. Thompson v. Columbia/HCA Healthcare Corp., 125 F.3d 899, 903 (5th Cir. 1997). CGT’s counterclaim does
+not provide a factual basis for its allegations concerning Brashear’s alleged fraud. Any future fraud claim pled on
+information and belief must furnish a factual basis for such allegations.
+
+Case 2:21-cv-00261-EEF-DPC   Document 84   Filed 08/18/22   Page 22 of 24
+23
+
+2036738, *9-10 (E.D. La. Aug. 15, 2005). Indeed, it is unclear how CGT’s fraud claim is distinct
+from its claim for intentional misrepresentation. In any event, assuming these claims are distinct,
+the intentional misrepresentation claims fails to satisfy Rule 9(b) for the same reasons its fraud
+claim falls short.
+Last is CGT’s counterclaim for malicious prosecution. “Under Louisiana law, a malicious
+prosecution claim requires: 1) the commencement of an original criminal or civil judicial
+proceeding; 2) its legal causation by the present defendant against the present plaintiff who was
+the defendant in the original proceeding; 3) its bona fide termination in favor of the present
+plaintiff; 4) the absence of probable cause for such proceeding; 5) the presence of malice therein;
+and 6) damages conforming to legal standards resulting to the plaintiff.” St. Paul Mercury Ins.
+Co. v. Williamson, 224 F.3d 425, 435 (5th Cir. 2000) (citing Hibernia Nat’l Bank v. Bolleter, 390
+So. 2d 842, 843 (La. 1980)). CGT concedes that this cause of action “appears premature.” R. Doc. 52
+at 12. The Court agrees. The present case concerning Brashear’s injury claims has not terminated, let
+alone concluded in CGT’s favor. Thus, as a matter of law, CGT cannot prevail on its malicious
+prosecution claim against Brashear while the current litigation proceeds.
+CGT indicates that it will request leave to amend if its fraud or intentional
+misrepresentation claims are inadequate. R. Doc. 52 at 12. Although the deadline for
+amendments to pleadings passed somewhat recently, see R. Doc. 69, the Court will grant CGT
+leave to amend given that the submission date for the motion to dismiss predated the deadline for
+amendments. CGT must file any amended pleading within 10 days of the entry of this Order.
+ CONCLUSION
+For these reasons,
+Case 2:21-cv-00261-EEF-DPC   Document 84   Filed 08/18/22   Page 23 of 24
+24
+
+IT IS ORDERED that claimant Brashear’s motion to dismiss Caillou’s
+counterclaims, R. Doc. 41, is GRANTED. Caillou’s counterclaims against Brashear are
+hereby DISMISSED with prejudice.
+IT IS FURTHER ORDERED that claimant Brashear’s motion to dismiss CGT’s
+counterclaims, R. Doc. 49, is GRANTED in part. CGT’s malicious prosecution
+counterclaim against claimant Brashear is DISMISSED with prejudice. CGT’s fraud and
+intentional misrepresentation claims against Brashear are DISMISSED without
+prejudice.
+IT IS FURTHER ORDERED that CGT is granted 10 days to amend its
+counterclaims against Brashear.
+
+New Orleans, Louisiana, this 18th day of August, 2022.
+
+    _________________________________
+    UNITED STATES DISTRICT JUDGE
+Case 2:21-cv-00261-EEF-DPC   Document 84   Filed 08/18/22   Page 24 of 24

@@ -1,0 +1,552 @@
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+IN RE GH STORM CAT, LLC, et al.    CIVIL ACTION
+         NO. 20-3085
+         S E C T I O N  M  ( 2 )
+ORDER & REASONS
+ Before the Court is a motion for partial summary judgment filed by petitioners GH Storm
+Cat, LLC and Celsius Shipping ApS (together, “Petitioners”). 1 The claimants, Zen-Noh Grain
+Corporation (“ZGC” or “Zen-Noh”) and its in surers as subrogees (together with ZGC,
+“Claimants”), oppose the motion,2 and Petitioners reply in further support of the motion.3  Having
+considered the parties’ memoranda, the record, and the applicable law, the Court issues this Order
+& Reasons denying the motion.
+I. BACKGROUND
+ This dispute arises out of an incident th at occurred in the morning of November 11, 2020,
+after a long night of grain loading and payload shifting operations.  On the evening of November
+10, the M/V GH Storm Cat (“Storm Cat”) berthed at ZGC’s grain terminal in Convent, Louisiana,
+to load corn.4  As part of the loading operation, the Storm Cat agreed to provide a crew member to
+operate the vessel’s cranes to move a small tr actor belonging to ZGC to and from the dock and
+between the vessel’s cargo holds.5  The ship’s cranes were used to lift the tractor from the dock
+
+1 R. Doc. 53.
+2 R. Doc. 62.
+3 R. Doc. 70.
+4 R. Doc. 53-2 at 1.  The Court notes and concur s with Claimants’ hearsay objection to the Incident
+Investigation Report which forms the basis for some of Petiti oners’ statement of material facts.  As such, the Court
+will only credit these portions of the statement to the extent that Claimants admit the relevant facts in their answer to
+the statement, R. Doc. 62-1 at 2-4, or Petitioners have submitted other summary-judgment evidence in support of such
+facts.
+5 R. Docs. 53-2 at 1-2; 62-1 at 2, 5.
+Case 2:20-cv-03085-BWA-DPC   Document 74   Filed 08/05/22   Page 1 of 19
+2
+
+into one of the vessel’s cargo holds, and then from hold to hold, in order to level the cargo that had
+been loaded.6  Crane operations continued intermittently into the early morning hours of November
+11, with the crucial operation beginning around nine.7  The Storm Cat crewman then operating the
+crane, Dashrath Manharbhai Tandel, commenced lifting the tractor from a cargo hold to place it
+back on the dock.  He testified that he received a signal from a ZGC stevedore that he was good to
+lift.8  While it is clear from his te stimony that he expected the stev edore to act as his signalman,
+Tandel had no discussion with the stevedore about doing so. 9  After that signal, says Tandel, the
+stevedore “just disappeared.”10  For his part, the stevedore, later identified as Sederic McWilliams,
+testified that he connected the tractor to the crane from within the cargo hold,11 but insisted that he
+gave no signal to confirm the cr ane was good to lift, a nd that at no point di d he expect to be
+responsible for signaling to the crane operator.12
+ Whatever the reason, there wa s no signalman to guide Tandel  as he lifted the tractor
+towards the dock.  Tandel testified that he felt he could not stop the maneuver despite the absence
+of a signalman because the crane boom was too high and there were other safety considerations in
+play.13  Unfortunately, the tip of the crane then ca me into contact with the terminal’s conveyor
+gallery, which connected two of the ship loaders, and pierced the sidewall of the gallery.14  Out of
+concern for the structural integrity of the gallery, ZGC initially prevented the Storm Cat from
+extracting the crane boom from the gallery an d required the vessel to remain in berth. 15  T h e
+
+6 R. Doc. 53-2 at 1-2.
+7 Id. at 2.
+8 R. Doc. 53-6 at 9.
+9 R. Doc. 62-6 at 4.
+10 R. Doc. 53-6 at 9.  While the stevedore’s presence on the scene was evidently confirmed by video evidence,
+the stevedore appears to have been out of sight at the crucial moment.  See id. at 10.
+11 R. Doc. 62-7 at 3.
+12 Id. at 6.
+13 R. Doc. 53-6 at 5.
+14 R. Doc. 53-2 at 3.
+15 R. Doc. 62-4 at 6.
+Case 2:20-cv-03085-BWA-DPC   Document 74   Filed 08/05/22   Page 2 of 19
+3
+
+following day (November 12), th e crane was dislodged from the gallery when the wake of a
+passing vessel caused the Storm Cat to move in its berth. 16  Nonetheless, ZGC did not allow the
+Storm Cat  to leave the berth until the next day (N ovember 13), again out of concern for the
+structural integrity of the gallery. 17  None of the terminal’s ship loaders was damaged and ZGC
+did not lose any grain product as a result of the incident, but the loaders were rendered
+unavailable.18  After the Storm Cat left the berth, ZGC commenced  repairs.  By November 15,
+three of the four ship loaders at th e terminal were again in operation. 19  The fourth was fully
+operational on November 17.20
+At the time of the incident, the relationship between the pa rties was governed by a tariff,
+Dock Tariff No. 7.  Among other th ings, the tariff provides that  “[t]he vessel and its owners,
+charterers, operators and agents shall be liable fo r the cost of restorati on, replacement and repair
+for damage to or destruction of Terminal property or equipment caused by any User, and for any
+loss of revenue to ZGC caused thereby.” 21  The tariff also provides that “ZGC shall … have all
+remedies available at law, in equity and/or under maritime, federal or state law to collect charges,
+damages, liquidated damages and indemnities.”22  Under the tariff, vessels which fail to vacate a
+berth within one hour of completion of loading “for any reason whatsoev er” are subject to “a
+charge of $7,500.00 for each hour, or fraction thereof, that the vessel remains in berth.”23
+
+16 R. Doc. 53-2 at 3.
+17 R. Doc. 62-4 at 7.
+18 R. Doc. 53-2 at 3.
+19 R. Doc. 62-14 at 5.
+20 Id.
+21 R. Doc. 53-8 at 3.  This provision is titled “vessel liability.”
+22 Id. at 4.  This provision is titled “remedies for enforcement of tariff.”
+23 Id. at 9.  This provision is titled “continuous nature of liquidated damages for delay.”  The tariff contains
+several other provisions for liquidated damages relating to a vessel’s delay in vacating a berth for various reasons.  Id.
+at 6-9.
+Case 2:20-cv-03085-BWA-DPC   Document 74   Filed 08/05/22   Page 3 of 19
+4
+
+The day after the incident, ZGC filed suit against the Storm Cat and its owners for damages
+relating to the incident and sought and obtained an arrest warrant against the vessel.24  The vessel
+owners then filed a complaint for exoneration from or limitation of liability. 25  Claimants assert
+maritime tort and contract claims, seeking damages in the amount of $460,957 for property
+damage, $16,778,853 for “extra expenses,” and $2,773,038 for “business interruption.”26
+II. PENDING MOTION
+Petitioners move for summary judgment on the grounds that the tariff precludes recovery
+of all but a fraction of the Claimants’ losses.  They submit that the published tariff “specifie[s] the
+remedy if Petitioners damaged Zen-Noh’s equipment as ‘the cost of restoration, replacement and
+repair for damage to or destru ction of Terminal property or equipment caused by any User, and
+for any loss of revenue to ZGC caused thereby.’”27  These categories of recoverable damages,
+Petitioners suggest, do not incl ude most of the damages assert ed by Claimants.  Moreover,
+Petitioners submit that “[i]t is Hornbook law that  when a contract specifies the remedy for its
+breach, the claimant cannot seek more than what the contract allows.”28  As such, Petitioners argue
+that the recoverable losses should be limi ted to the cost of repair a nd any lost revenue, and that
+even the lost revenue should be limited to the liquidated damages specified in the tariff.29
+Alternatively, Petitioners maintain that the economic damage s sought by Claimants were
+unforeseeable as a matter of law.  “[T]he key issue to be decided by this Court,” they submit, “is
+whether a shipowner … could have reasonably anticipated that if it caused limited physical damage
+to the terminal, it was probable that the terminal owner would claim $4-5 million per day in alleged
+
+24 See Zen-Noh Grain Corp. v. M/V GH Storm Cat, No. 20-3081 (E.D. La. filed Nov. 12, 2020).
+25 R. Doc. 1.
+26 R. Docs. 53-13 at 1-2; 53-14 at 2.
+27 R. Doc. 53-13 at 12 (quoting the tariff).
+28 Id. at 11.
+29 Id. at 14.  Petitioners offer that the sum of liquidated damages at $7,500 per hour, as provided in the tariff,
+can total just $180,000 per day.
+Case 2:20-cv-03085-BWA-DPC   Document 74   Filed 08/05/22   Page 4 of 19
+5
+
+losses in its distinct capacity as a commodities trad er, rather than as the operator of the damaged
+loading terminal.”30  Petitioners’ foreseeability argument consists of three main prongs.  First, they
+propose that the language of the tariff is  a reasonable basis for foreseeability.31  As the language
+of the tariff does not indicate th at Petitioners could be liable for the vast damages now levied
+against them (and, they suggest , implies the opposite), they argue  that the damages were not
+foreseeable as a matter of law.  Second, Petitioners  present expert testimony to the effect that a
+reasonable shipowner would not expect this sort of liability to attach to this kind of incident, largely
+because, in the expert’s opinion, the losses “deriv[ed] from [ZGC’s] trading of grain products, as
+opposed to losses of revenues from terminal operations.”32  Third, Petitioners assert that trading
+losses ought not be considered foreseeable due to  the “serious implications for the shipping
+industry” that would result.33
+In opposition, Claimants contend that Petiti oners’ motion rests on the mistaken premise
+that ZGC suffered its losses as a commodities tr ader, not as a terminal operator, whereas
+“purchasing and selling commoditie s (such as grain and soybeans) is the principal and most
+important component of the Terminal’s operations.” 34  Claimants submit that Petitioners have
+misread the tariff in several ways – first, by r eading “loss of revenue” to exclude mitigation
+expenses; second, by reading the “vessel liability” or damages clause in isolation from rather than
+in harmony with the rest of the contract; and, third, by applying the “liquidated damages” provision
+to a scenario involving physical damage.35  In response to Petitioner’s foreseeability contentions,
+Claimants assert that the tariff does not preclude their maritime law tort claim, and that reasonable
+
+30 Id. at 16 (emphasis in original).
+31 Id. at 17-18.
+32 Id. at 19.
+33 Id. at 23.
+34 R. Doc. 62-14 at 7.
+35 Id. at 14-17.
+Case 2:20-cv-03085-BWA-DPC   Document 74   Filed 08/05/22   Page 5 of 19
+6
+
+mitigation costs are recoverable.  They presen t alternative expert te stimony to suggest that
+reasonable shipowners should expect that damages of  this sort could be possible in the event of
+physical damage to a grain terminal.36  Claimants then proceed to describe the “direct” connections
+between the terminal’s physical damage and th e costs ZGC incurred, reviewing relevant case
+law.37
+In reply, Petitioners reassert their position on the language of the tariff, contending that
+“Claimants try to distort the plain meaning of ‘re venue’ by equating ‘extra expense’ with ‘lost
+revenue,’ ‘revenue losses,’ or ‘costs to mitigate revenue losses.’” 38  They also note that the
+liquidated damages provision in the tariff is, by its  terms, not limited to situations in which no
+physical damage occurred.39  Finally, Petitioners contend that the foreseeability analysis turns on
+whether or not “a shipowner not itself in the grain trading business [could] reasonably foresee that
+a grain company … would … purchase new corn and soybeans from competitors at extremely
+disadvantageous prices rather than wait a few days until it could load its own corn and soybeans
+at its own terminal onto the scheduled vessels.”40
+III. LAW & ANALYSIS
+A. Summary Judgment Standard
+Summary judgment is proper “if the pleadings, depositions, answers to interrogatories, and
+admissions on file, together  with the affidav its, if any, show that there is no genuine issue as to
+any material fact and that the moving party is entitled to a judgment as a matter of law.”  Celotex
+Corp. v. Catrett, 477 U.S. 317, 322 (1986) (quoting Fed. R. Civ. P. 56(c)).  “Rule 56(c) mandates
+
+36 Id. at 19.
+37 Id. at 19-24.
+38 R. Doc. 70 at 3.
+39 Id. at 7.
+40 Id. at 8-9.
+Case 2:20-cv-03085-BWA-DPC   Document 74   Filed 08/05/22   Page 6 of 19
+7
+
+the entry of summary judgment, after adequate time for discovery and upon motion, against a party
+who fails to make a showing sufficient to establis h the existence of an element essential to that
+party’s case, and on which that party will bear the burden of proof at trial.”  Id.  A party moving
+for summary judgment bears the initial burden of demonstrating the basis for summary judgment
+and identifying those portions of the recor d, discovery, and any affi davits supporting the
+conclusion that there is no genui ne issue of material fact.  Id. at 323.  If the moving party meets
+that burden, then the nonmoving party must use evidence cognizable under Rule 56 to demonstrate
+the existence of a genuine issue of material fact.  Id. at 324.
+A genuine issue of material fact exists if a reasonable jury could return a verdict for the
+nonmoving party.  See Anderson v. Liberty Lobby, Inc., 477 U.S. 242, 248 (1986).  The substantive
+law identifies which facts are material.  Id.  Material facts are not genuinely disputed when a
+rational trier of fact could not find for the nonmoving party upon a review of the record taken as a
+whole.  See Matsushita Elec. Indus. Co. v. Zenith Radio Corp., 475 U.S. 574, 587 (1986); EEOC
+v. Simbaki, Ltd ., 767 F.3d 475, 481 (5th Cir. 2014).  Uns ubstantiated assertions, conclusory
+allegations, and merely colorable factual bases ar e insufficient to defeat a motion for summary
+judgment.  See Anderson, 477 U.S. at 249-50; Little v. Liquid Air Corp., 37 F.3d 1069, 1075 (5th
+Cir. 1994); Hopper v. Frank, 16 F.3d 92, 97 (5th Cir. 1994).  In ruling on a summary judgment
+motion, a court may not resolve credibility issues or weigh evidence.  See Delta & Pine Land Co.
+v. Nationwide Agribusiness Ins. Co., 530 F.3d 395, 398-99 (5th Cir. 200 8).  Furthermore, a court
+must assess the evidence, review the facts, an d draw any appropriate inferences based on the
+evidence in the light most favorable to the party opposing summary judgment.  See Tolan v. Cotton,
+572 U.S. 650, 656-57 (2014); Daniels v. City of Arlington, 246 F.3d 500, 502 (5th Cir. 2001).  Yet,
+a court only draws reasonable infe rences in favor of the nonmova nt “when there is an actual
+Case 2:20-cv-03085-BWA-DPC   Document 74   Filed 08/05/22   Page 7 of 19
+8
+
+controversy, that is, when both parties have submitted evidence of contradictory facts.”  Little, 37
+F.3d at 1075 (citing Lujan v. Nat’l Wildlife Fed’n, 497 U.S. 871, 888 (1990)).
+After the movant demonstrates the absence of a genuine issue of  material fact, the
+nonmovant must articulat e specific facts showing a genuine  issue and point  to supporting,
+competent evidence that may be presented in a form admissible at trial.  See Lynch Props., Inc. v.
+Potomac Ins. Co. , 140 F.3d 622, 625 (5th Cir. 1998); Fed. R.  Civ. P. 56(c)(1)(A), (c)(2).  Such
+facts must create more than “some metaphysical doubt as to the material facts.”  Matsushita, 475
+U.S. at 586.  When the nonmovant will bear the bur den of proof at trial on the dispositive issue,
+the moving party may simply point to insufficient admissible evidence to establish an essential
+element of the nonmovant’s claim to satisfy its summary-judgment burden.  See Celotex, 477 U.S.
+at 322-25; Fed. R. Civ. P. 56(c)(1)(B).  Unless there is a genuine issue for trial that could support
+a judgment in favor of the nonmovant, summary judgment must be granted.  See Little, 37 F.3d at
+1075-76.41
+B. Interpretation of the Tariff
+There are two questions arisin g out of the tariff: first, what kinds of damages are
+recoverable under the terms of the tariff, and second, whether the tariff limits the recovery of those
+enumerated damages.  By its terms (specifically, the “vessel liability” provision), the tariff permits
+recovery “for the cost of rest oration, replacement and repair for damage to or destruction of
+Terminal property or equipment caused by any User, and for any loss of revenue to ZGC caused
+thereby.”42  Petitioners contend that the extra expenses and business interruption costs sought by
+
+41 Additionally, as this case is set for a bench trial, if  the “‘the evidentiary facts are not disputed’ and ‘there
+are no issues of witness credibility,’” Manson Gulf, L.L.C. v. Modern Am. Recycling Serv. , 878 F.3d 130, 134 (5th
+Cir. 2017) (quoting Nunez v. Superior Oil Co.,  572 F.2d 1119, 1123-24 (5th Cir. 1978)), the Court “has somewhat
+greater discretion to consider what weight it will accord the evidence.”  Jones v. United States, 936 F.3d 318, 321 (5th
+Cir. 2019) (quotation omitted).
+42 R. Doc. 53-8 at 3.
+Case 2:20-cv-03085-BWA-DPC   Document 74   Filed 08/05/22   Page 8 of 19
+9
+
+Claimants are not recoverable unde r the terms of the tariff.  Th e “extra expenses” in question
+consist of $11,472,195 in replacement grain purchases/sales, 43 $244,737 in barge movement
+costs,44 and $5,061,921 in incremental demurrage,45 while the “business interruption” costs consist
+of $1,340,376 in replacement soybean purchases to  fulfill a “swap” contract and $1,432,662 in
+“lost elevator income.”46  Of those costs, Petitioners admit that the last is recoverable by the terms
+of the tariff. 47  However, they contend that the re maining $18,000,000 or so is not recoverable
+under the tariff because such expenses do not fit within the ordinary definition of “loss of revenue.”
+After all, say Petitioners, the largest share of these expenses consists of ZGC’s trading losses
+associated with grain transactions it entered due to the incident, rather than lost revenue.
+Claimants, however, assert that the expenses ought to be understood as lost revenue (or, at
+least, as mitigation expenses incurred to avoid lost revenue) when placed in context.  They submit
+that they had six contracts schedul ed for fulfillment at the time of  the incident and that those six
+contracts would have ge nerated $132,000,000 in revenue. 48  ZGC claims that it conducted
+mitigation efforts swiftly to meet each of these contracts on time and did so, ensuring that none of
+that $132,000,000 in revenue was lost.49  In order to fulfill the contracts without the use of its own
+loader, ZGC purchased grain from competitors, paid third parties to help “stage, move, restage and
+
+43 ZGC purchased grain from other sources to meet the requirements of six contracts that would have been
+fulfilled by grain set to be loaded onto vessels at ZGC’s Convent terminal between November 11 and 16, 2020, but
+which could not be loaded due to the accident.  Thereafter, ZGC sold to other customers the grain at the terminal that
+would have been loaded onto the vessels to fulfill the six contracts.  R. Doc. 62-1 at 8.  The difference between these
+two amounts was an $11,472,195 loss to ZGC.  R. Doc. 62-14 at 21.
+44 R. Doc. 62-14 at 21.  ZGC incurred these additional costs in moving the barges, which were intended for
+delivery at its Convent terminal during the unanticipated downtime, to competitor facilities to meet other contract
+obligations.  Id. at 20; R. Doc. 62-1 at 8.
+45 R. Doc. 62-14 at 21-22.  ZGC incurred such demurrage because barges and other vessels could not be
+released from the Convent terminal within the allotted contract time.  Id.; R. Doc. 62-1 at 8.
+46 R. Doc. 62-1 at 6.
+47 R. Doc. 53-13 at 8.  Petitioners reserve, though, their right to dispute the reasonableness of the loss figure.
+Nor do Petitioners dispute that damages for the property casualty are recoverable.
+48 R. Doc. 62-16 at 5.  The “swap” contract was not one of these six contracts.
+49 Id. at 6.
+Case 2:20-cv-03085-BWA-DPC   Document 74   Filed 08/05/22   Page 9 of 19
+10
+
+deliver barges containing the commodities to alternative locations,” and incurred costs associated
+with delays in moving barges. 50  These expenses, ZGC submits, should all be recoverable as
+mitigation damages because, but for these efforts, it would have incurred as much as $132,000,000
+in lost revenue.
+Petitioners counter that the tariff provides for recovery of lost revenue, not lost profit.  ZGC
+received all $132,000,000 in scheduled revenue, so, reason Petitioners, ZGC is not entitled under
+the contract to recover as damages the additional amount it had to expend to preserve the scheduled
+revenue because this amounts to lost profit.
+Petitioners’ reading of the tariff  is too narrow as it disreg ards another of the tariff’s
+provisions and the ordinary remedi es typically available to an a ggrieved party under a contract.
+Thus, the tariff’s “remedies” pr ovision expressly states that “Z GC shall … have all remedies
+available at law, in equity and/or under maritime, federal or state law to collect charges, damages,
+liquidated damages and indemnities.”51  In cases such as this, where a vessel has caused physical
+damage to property, remedies av ailable to an injured party include the right to recover damages
+for its mitigation expenses, whether the claim is viewed as one involving a maritime contract or a
+maritime tort.  See, e.g., Delta S.S. Lines, In c. v. Avondale Shipyards, Inc., 747 F.2d 995, 1003
+n.23 (5th Cir. 1984) (“[A] vessel owner is requir ed to mitigate damage s and may not recover
+damages for losses resulting from the owner’s fa ilure to use reasonable measures to halt the
+progress of damage.”); Domar Ocean Transp., Ltd., v. Indep. Ref. Co. , 783 F.2d 1185, 1191 (5th
+Cir. 1986) (“Sums reasonably expended in mitig ating damages are recoverable against the
+
+50 R. Doc. 62-14 at 8-9.  With respect to the “swap” contract, ZGC states that the $1.3 million cost identified
+as lost margin on soybeans relates to a planned trans action involving a competitor whereby the $1.3 million would
+have been repaid upon the loading of a competitor’s vessel.  As that vessel could not be loaded, ZGC lost the $1.3
+million.
+51 R. Doc. 53-8 at 4.
+Case 2:20-cv-03085-BWA-DPC   Document 74   Filed 08/05/22   Page 10 of 19
+11
+
+defendant’s cost in judgme nt in a tort action.”); Grupo HGM Tecnologias Submarina, S.A. v.
+Energy Subsea, LLC,  566 F. Supp. 3d 1219, 1234-35 (S.D. Ala.  2021) (allowing recovery of
+mitigation expenses in a breach-of-maritime-contract case).  Here, such mitigation expenses would
+include ZGC’s costs in arranging alternatives to the Storm Cat’s required performance under the
+tariff – that is, the loading of grain required, in turn, for ZGC to perform under its six other
+contracts.
+Petitioners suggest that this reading of the tariff “contravenes two … basic rules of contract
+interpretation.”52  First, Petitioners assert that reading the tariff to permit recovery of ZGC’s extra
+expenses as mitigation damages would render meani ngless the provision of th e tariff that limits
+the recovery of damages to the co st of repairs and loss of revenue .  In other word s, reading the
+“remedies” provision to permit such recovery  renders meaningless the “vessel liability”
+provision’s enumeration of recoverable damages as any loss of revenue and costs of repair caused
+by physical damage.  Second, Petitioners invoke the “fundamental axiom of contract interpretation
+that specific provisions control general provisions.”  Baton Rouge Oil & Chem. Workers Union v.
+ExxonMobil Corp., 289 F.3d 373, 377 (5th Cir. 2002).  In th is case, say Petitioners, the specific
+provision regarding recovery in the event of physical damage c ontrols the broader provision
+concerning available remedies.
+The Court disagrees.  The “vessel liability ” provision can be, and should be, read in
+harmony with the “remedies” provision, not in conflict and not as a controlling specific provision.
+“Maritime contracts must be cons trued like any other contracts,” CITGO Asphalt Ref. Co. v.
+Frescati Shipping Co.,  140 S. Ct. 1081, 1087 (2020), including “i nterpret[ing], to the extent
+possible, all the terms in a contract without rend ering any of them meani ngless or superfluous.”
+
+52 R. Doc. 70 at 5.
+Case 2:20-cv-03085-BWA-DPC   Document 74   Filed 08/05/22   Page 11 of 19
+12
+
+Chembulk Trading LLC v. Chemex Ltd., 393 F.3d 550, 555 (5th Cir. 2004).  “Each provision in a
+contract must be interpreted in light of the other provisions so that each is given the meaning
+suggested by the contract as a whole.”  La. Civ. Code art. 2050.  Reading the relevant tariff
+provisions in harmony and as co mplementary, the enumerated la nguage of the “vessel liability”
+provision certainly limits damages for the terminal’s physical damage to costs of  repair and loss
+of revenue.  But the “remedies” provision preserve s to Claimants the right to seek recovery of
+these damages by pursuing the ordinary remedies available for maritime claims, including the right
+to recover mitigation expenses incurred to avoid a loss of revenue or additional costs of repair.
+Significantly, the interpretation pr oposed by Petitioners (which re quires that these provisions be
+construed as in conflict) would lead to the anom alous scenario of allowing ZGC to recover from
+Petitioners all $132,000,000 in lost revenue had it not attempted to mitigate its losses but
+foreclosing ZGC from recovering the much smalle r sum of mitigation expenses incurred to
+preserve that revenue.
+Petitioners argue further that a post-incident addition to the tariff’s  language, expressly
+allowing ZGC to recover “extra expense incurre d by ZGC to continue as nearly normal as
+practicable the conduct of ZGC’s business,”53 means that the right to recover mitigation expenses
+as damages could not have been permitted under the tariff’s provisions in place at the time of the
+incident.  However, the post-incident addition does not alter this Court’s reading of the pre-incident
+contract language.  Even  if the language were intended to make clearer ZGC’s right to recover
+extra expenses due to mitigation efforts, it does not negate the tariff’s pre-incident language
+affording ZGC the right to rec over such expenses.  Notably, though, the post-incident language
+can be read to give ZGC the right to recover extra expenses above and beyond those attributable
+
+53 R. Doc. 53-9 at 3.
+Case 2:20-cv-03085-BWA-DPC   Document 74   Filed 08/05/22   Page 12 of 19
+13
+
+to mitigation efforts.  Hence, the post-incident a ddition cannot be used to require that the tariff’s
+pre-incident provisions be read to bar the recovery of mitigation expenses.
+Petitioners also suggest that the liquidated da mages provision of the tariff applies to cap
+Claimants’ potential recovery at $180,000 per day.  In relevant part, the tariff provides that a vessel
+which fails to vacate its berth within one hour  of completion of loading “for any reason
+whatsoever” is subject to “a charge of $7,500.00 for each hour, or fraction thereof, that the vessel
+remains in berth.”54  Putting to one side whether or not lo ading was complete at the time of the
+incident, the Court is not convinced that the liquidated damages provision applies to this situation.
+First, the tariff gives no indication that the liquida ted damages it provides were intended to serve
+as a proxy for damages for physical harm to the terminal caused by a vessel using the terminal.
+Instead, each liquidated damages provision in the tariff (and there are several) relates to relatively
+routine instances of delay in a vessel’s leaving its berth, not a maritime casualty involving physical
+damage to the terminal.  Second, the provision in question states that “a ssessment of liquidated
+damages shall not preclude ZGC from ordering the vessel to vacate the berth at the vessel’s own
+expense.”55  The delay that prevented the Storm Cat from leaving its berth was not the vessel’s
+choice but ZGC’s, guided by its desire to prevent the possibility of additional physical damage to
+its terminal, particularl y, the gallery.  Had the Storm Cat  failed to vacate the berth once
+commanded to do so, liquidated damages could then be assessed against it.56  But the clause cannot
+be read to allow ZGC to hold a vessel in berth “for any reason whatsoever” simply to ratchet up
+the total of liquidated damages it could then demand.  Under the circumstances of this case, then,
+
+54 R. Doc. 53-8 at 9.
+55 Id.
+56 See id. at 8 (“Vessel, its owner(s), operator(s), charterer( s) and agent(s) shall be subject to a charge of
+$7,500.00 for each hour, or fraction thereof, of delay caused by vessel’s failure to comply with directions or maintain
+continuous readiness.”).
+Case 2:20-cv-03085-BWA-DPC   Document 74   Filed 08/05/22   Page 13 of 19
+14
+
+liquidated damages would not be available to ZGC, and therefore likewise cannot be used to limit
+ZGC’s recovery.57
+C. Foreseeability Analysis
+Alternatively, Petitioners assert that Cla imants cannot recover th e challenged damages
+because they were unforeseeable.  “In the contex t of maritime torts, … harm [is] a foreseeable
+consequence of an act or omission ‘if harm of a general sort to persons of a general class might
+have been anticipated by a reasonably thoughtful person, as a probable result of the act or omission,
+considering the interplay of natural forces and lik ely human intervention.’”  In re Great Lakes
+Dredge & Dock Co. LLC , 624 F.3d 201, 211 (5th Cir. 2010) (quoting Consolidated Aluminum
+Corp. v. C.F. Bean Corp., 833 F.2d 65, 68 (5th Cir. 1987)).  A party’s duty in maritime torts “may
+be owed only with respect to the interest that is foreseeably jeopardized by the negligent conduct,
+and not to other interests even of the same plai ntiff which may in fact happen to be injured.”
+Consolidated Aluminum , 833 F.2d at 67 (quotation omitted).  Foreseeability attaches to “the
+‘natural and probable’ risks that a reasonable person would likely take into account in guiding her
+practical conduct.”  In re Signal Int’l LLC, 579 F.3d 478, 491-92 (5th Cir. 2009).
+There is no dispute that clai ms for damages relating to “repair costs and lost terminal
+income from dockage, stevedoring, line handling, etc.” are foreseeable;58 the connection between
+physical damage and those immedi ate damages is direct and obvious .  At dispute, Petitioners
+submit, is “the massive grain trading losses that Zen-Noh claims it suffered in its distinct capacity
+
+57 In any case, the Court does not believe that liquidated damages would limit ZGC’s ability to recover.  The
+Petitioners cite an Eighth Circuit case for the proposition that , “where the parties especially provide or stipulate for
+liquidated damages, such liquidated damages take the place of any actual damages suffered and that any recovery for
+breach is limited to the amount so agreed upon.”  Trans World Airlines, Inc. v. Travelers Indem. Co. , 262 F.2d 321,
+325 (8th Cir. 1959).  That case, which relies on Missouri law, is not binding on this Court, but in any event, it applies
+only where the contract expressly provides for liquidated damages in a broader range of circumstances than does the
+tariff here, which limits liquidated damages to instances of a vessel’s delay, generally, due to its failure to maintain
+“continuous readiness.”
+58 R. Doc. 53-13 at 16.
+Case 2:20-cv-03085-BWA-DPC   Document 74   Filed 08/05/22   Page 14 of 19
+15
+
+as a commodities trader.”59  The chief operating officer of one of  the Petitioners declares that he
+has “never heard of a grain elevator or other terminal owner/operator claiming the type or amount
+of trading loss damages that Zen-Noh claims in th is case,” and that if that potential liability had
+been known ahead of time, “trading to this ter minal would have been excluded” in the ship’s
+charter.60  Petitioners also submit expert testimony to the effect that “[s]uch trading losses were
+not of a type or of a size that an experienced shipowner could reasonably have expected to flow
+from the physical damage that took place when the ship’s crane came into contact with the terminal
+loading equipment.”61  The disputed losses, Petitioners contend, “are largely a product of the grain
+trading markets and the sale cont racts Zen-Noh had pending at th e time of the incident,” and
+therefore are not foreseeable as “the average shipowner would have no knowledge of the market
+forces that determine the prices of bulk soybeans and corn for export at any given time.”62
+The question, though, is not whether a shipowne r could have foreseen the size of the
+damages but rather whether it c ould have foreseen the “general sort” of damages that could be
+incurred.  Great Lakes Dredge,  624 F.3d at 211; Consolidated Aluminum, 833 F.2d at 68.  The
+general sort of damages in this case are mitigation damages, which are recoverable in actions such
+as this.63  It is entirely foreseeable that a company would engage in mitigation efforts to maintain
+its contractual obligations to other customers.  The scale of these efforts may have been surprising
+to Petitioners, but not the type.  Had ZGC’s loader  been unable to load Petitioners’ grain due to
+negligence on ZGC’s side, would Pe titioners not have likewise s ought to mitigate their losses?
+Petitioners may not have known that ZGC had $132,000,000 in contracts scheduled for fulfillment
+
+59 Id.
+60 R. Doc. 53-10 at 3.
+61 R. Doc. 53-17 at 11.
+62 R. Doc. 53-13 at 20.
+63 See supra at 10-11.
+Case 2:20-cv-03085-BWA-DPC   Document 74   Filed 08/05/22   Page 15 of 19
+16
+
+in the timeframe in ques tion, but they cannot say they were unaware that  ZGC had contracts to
+fulfill, theirs among them.  As ZGC points out , terminals “purchase co mmodities [to fulfill
+contracts], receive the commodities mostly by barges, and load those commodities on a bulk vessel
+(like the M/V GH STORM CAT) for delivery.”64  The claimed damages relate directly to the type
+of activity the Storm Cat was engaged in at the time of the incident.
+Petitioners also suggest that these specifi c mitigation expenses were not foreseeable
+because ZGC did not lose any grain product as  a result of the incident.  ZGC had some
+$585,000,000 worth of grain ready or nearly ready to be  loaded in the elevat or at the time of the
+incident.65  Petitioners contend that ZGC’s decision to “purchase new corn and soybeans from
+competitors at extremely disadvantageous prices rather than wait a few days until it could load its
+own corn and soybeans at its own terminal onto the scheduled vessels” was not foreseeable to any
+reasonable shipowner.66  This may go to the reasonableness of the mitigation expenses, but it does
+not speak to their foreseeability.  Again, it is foreseeable that a company would attempt to mitigate
+its losses by attempting to fulfill its contracts by any means of less expense than the value of the
+contracts.  Moreover, had ZGC not purchased a dditional grain from outside sources and instead
+defaulted on its pendi ng contracts, the claims it might then  assert against these same Petitioners
+could have been far greater.
+Nor are the cases Petitioners cite applicable to these circumstances.  The first, Republic of
+France v. United States , 290 F.2d 395 (5th Cir. 1961), involv ed a vessel that exploded while
+loading fertilizer, causing a trem endous number of deaths and a gr eat deal of destruction.  The
+
+64 R. Doc. 62-14 at 7.  Notably, ZGC has a division called Zen-Noh Grain Trading (“ZGT”) that
+“speculatively trades commodity futures without any expectation of taking physical delivery” of the commodity.  Id.
+at n.29.  Claimants make no claim for losses associated with  ZGT in this lawsuit, R. Doc. 62-10 at 3-4, and indeed
+such losses would not have been foreseeable.
+65 R. Doc. 62-10 at 4.
+66 R. Doc. 70 at 9.
+Case 2:20-cv-03085-BWA-DPC   Document 74   Filed 08/05/22   Page 16 of 19
+17
+
+court, applying Texas law, held that the expl osion was unforeseeable because “the force and
+devastating effects of this expl osion shocked and surprised the sc ientific field as well as the
+transportation industry.”  Id. at 400.  Here, there is no such  shock – ZGC’s business model of
+purchasing and loading grain to fu lfill contracts is arguably general knowledge; at the very least,
+there is a material dispute of fact as to this knowledge given the competing claims of the parties’
+experts.67  Petitioners likewise cite Consolidated Aluminum, in which the court found that damages
+resulting from “failure to follow safe dredging practices” would not have foreseeably “result[ed]
+in physical damage to the equipment and work-in-progress at Consolidated’s aluminum reduction
+plant several miles away.”  Consolidated Aluminum, 833 F.2d at 68.  There, the damage at the
+plant was not the direct result of the dredging issues  but resulted from a knock-on effect when
+Texaco shut off the plant’s supply of natural gas to halt the escape of natural gas from Texaco’s
+pipelines.  Id. at 66.  The court held that the damage to the aluminum plant, which arose “from the
+loss of natural gas supply, in turn causing the shut down of electric turbines, in turn causing a loss
+of electric power …, with the ultimate result be ing substantial damage to equipment and product-
+in-process, goes beyond the pale of general harm which reasonably might have been anticipated.”
+Id. at 68.  Here, the chain of events is not near ly so attenuated.  ZGC’s terminal was allegedly
+rendered inoperable by the damage caused by the Storm Cat.  As a result, ZGC sought other means
+to fulfill its contracts that it had intended to fulf ill by making use of its own loader.  ZGC is not,
+as Consolidated Aluminum was, a third party seeking damages which resulted from the actions of
+a directly damaged entity (in Consolidated Aluminum , Texaco).  ZGC was directly harmed.
+Finally, as Petitioners note, th e Supreme Court’s decision in Robins Dry Dock & Repair Co. v.
+
+67 Petitioners submit that the foreseeability opinions of Claimants’ expert are “self-evidently conclusory and
+unsupported by any specific facts,” and that the Cour t should therefore ignore them as inadmissible.  Id.  The Court
+disagrees.  The expert’s qualifications and credibility are open to dispute, but his opinions on the nature of terminal
+operations appear to be based on his experience.  See generally R. Doc. 62-17.
+Case 2:20-cv-03085-BWA-DPC   Document 74   Filed 08/05/22   Page 17 of 19
+18
+
+Flint, 275 U.S. 303 (1927), does not prevent recovery of economic damages when physical damage
+is present.  To the extent that ZGC’s mitigatio n expenses are demonstrat ed to be unreasonable,
+Petitioners can still challenge them; “a showing of physical damage to a proprietary interest does
+not automatically ‘open the door to all foreseeable economic consequences’….  The benchmark
+for this Court is reasonableness.”  Am. River Transp. Co. v. Morton Int’l, Inc., 2008 WL 2436280,
+at *4 (E.D. La. June 13, 2008) (quoting Corpus Christi Oil & Gas Co. v. Zapata Gulf Marine
+Corp., 71 F.3d 198, 202 (5th Cir. 1995)).  Again, how ever, this principle does not go to
+foreseeability.
+ Finally, Petitioners’ own purported policy suggests that these kinds of damages may have
+been foreseeable.  Petitioners assert that if th e scope of potential liability had been known ahead
+of time, “trading to this termin al would have been excluded.”68  But the issue was not trading as
+such so much as it was the use and alleged misuse of the crane.  Damage of this kind would not
+have occurred in ordinary loading exercises, and in deposition one of Petitioners’ employees stated
+that “none of the crew members are supposed to use the crane for cargo operations.”69  The use of
+the crane was out of the ordinary and appears to have been in contravention of regular Storm Cat
+policy.  The danger of this kind  of physical damage was certainly in mind in the creation and
+general enforcement of this policy.  In sum, th ese mitigation expenses were of the kind that a
+reasonable shipowner could have expected in the event of an accident which caused physical
+damage to a loader.  It remains to be decided whether the damage was as substantial as ZGC claims
+it was, and it remains to be determined whether the mitigation expenses were reasonable.  But they
+were at the very least foreseeable.70  Summary judgment is therefore not appropriate at this stage.
+
+68 R. Doc. 53-10 at 3.
+69 R. Doc. 62-5 at 5.
+70 The Court credits Petitioner’s claim that the tariff did not put them on notice of these potential damages.
+But, for much the same reasons as were discussed in the section in which the tariff was interpreted, the Court does not
+Case 2:20-cv-03085-BWA-DPC   Document 74   Filed 08/05/22   Page 18 of 19
+19
+
+IV. CONCLUSION
+Accordingly, for the foregoing reasons,
+IT IS ORDERED that the Petitioner’s motion for partial summary judgment (R. Doc. 53)
+is DENIED.
+New Orleans, Louisiana, this 5th day of August, 2022.
+
+_______________________________________
+    BARRY W. ASHE
+                UNITED STATES DISTRICT JUDGE
+
+agree that the tariff’s language – or the changes thereto following the incident – suggests that the damages were
+unforeseeable.
+Case 2:20-cv-03085-BWA-DPC   Document 74   Filed 08/05/22   Page 19 of 19
