@@ -1,0 +1,347 @@
+1
+
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+SANTO GUERRERA
+
+CIVIL ACTION
+
+VERSUS
+
+NO: 2:24-cv-1354
+
+UNITED FINANCIAL CASUALTY
+COMPANY, et al.
+
+SECTION: T (1)
+ ORDER AND REASONS
+Before the Court are  various Motions to Dismiss and Motions for Summary Judgment
+regarding two legal issues. For the following reasons, defendants Rasier, LLC (“Rasier”) and Uber
+Technologies, Inc.’s (“Uber”), Motion to Dismiss, R. Doc. 13, and defendant United Financial
+Casualty Company’s (“UFCC”) Motion for Summary Judgment, R. Doc. 15, are GRANTED.
+Plaintiff’s, Santo Guerrera, Motion for Summary Judgment, R. Doc. 12, is DENIED. Plaintiff’s
+Motion to Certify to the Louisiana Supreme Court, R. Doc. 53, is DENIED AS MOOT. Secondly,
+Defendant Certain Underwrit ers of Lloyd’s, London (“Lloyd’ s”) Cross -Motion for Summary
+Judgment, R. Doc. 62, is GRANTED. Plaintiff’s Motion for Partial Summary Judgment  against
+Lloyd’s, R. Doc. 44, is accordingly DENIED.
+BACKGROUND
+ This lawsuit arises from a car accident on February 11, 2023 (“the Accident”). Defendant
+Rasier is a wholly-owned subsidiary of Uber, a “ transportation network company” (“TNC”) that
+facilitates rideshare services between drivers and passengers via a popular mo bile-phone
+Case 2:24-cv-01354-GGG-EJD     Document 75     Filed 02/18/25     Page 1 of 14
+2
+
+application (“the Uber App”). 1 See R. Doc. 1 -1. UFCC is the alleged uninsured/underinsured
+motorist (“ UM”) carrier for Rasier . R. Doc. 13- 1 at p. 2. Plaintiff was a passenger in a “pre-
+arranged ride” with driver, Louis Faciane, (“the Uber driver”) via the Uber App. Id.2
+The accident occurred on a Saturday during Mardi Gras  season. R. Doc. 60- 3 at p. 3.
+Plaintiff first left his house in his own vehicle  around midday and drove to his friend William
+McKay’s residence. Id. Plaintiff is the sole owner, operator, and member of Smart Well Solutions,
+LLC (“SWS”), a limited liability company for Plaintiff’s deepwater well construction consulting
+services. R. Doc. 69-1 at p. 1. McKay however does not have a  business relationship with SWS.
+R. Doc. 60-3 at p. 5. Plaintiff left his car at McKay’s house and called for a ride via the Uber App
+from McKay’s residence  to a local restaurant for lunch. Id. at p. 3. The two ate lunch at  the
+restaurant, and then watched a Mardi Gras parade. Id. at pp. 3-4. After the parade, Plaintiff called
+another ride on the Uber App to transport him and McKay back to McKay’s residence. Id. On the
+way back to McKay’s house, the Accident allegedly occurred at the Claiborne and Jackson Avenue
+intersection in New Orleans . R. Doc. 12 at p. 2; R. Doc. 60- 3 at p. 8. Plaintiff alleges  another
+
+1 La. R.S. 42.201.4(6) defines “‘[t]ransportation network company’ [as] a person, whether
+natural or juridical, that uses a digital network to connect transportation network company riders
+to transportation network company drivers who provide prearranged rides, or a person, whether
+natural or juridical, that provides a technology platform to a transportation network company
+rider that enables the transportation network company rider to schedule a prearranged ride.”
+
+2 La. R.S. 45:201.4(4) defines “prearranged ride” as the provision of transportation by a driver to
+a rider that commences when a driver accepts a ride requested by a person through a digital
+network controlled by a transportation network company, continues during the driver
+transporting a requesting rider, and ends when the last requesting rider departs from the personal
+vehicle.”
+Case 2:24-cv-01354-GGG-EJD     Document 75     Filed 02/18/25     Page 2 of 14
+3
+
+vehicle struck the Uber driver’s vehicle in a hit -and-run accident  leaving him with personal
+injuries. Id.
+At the time of the Accident, UFCC issued an automobile insurance policy issued to Rasier,
+LLC providing liability limits of $1,000,000.00 CSL and but no UM  coverage (“the UFCC
+policy”). R. Doc. 12-1 at p. 3. Rasier executed an Uninsured/Underinsured Motorist Bodily Injury
+Coverage Form signed by Amy E. Wagner, employed at the time as Head of North American
+Insurance for Uber (“the UFCC rejection form”). See R. Doc. 15-4. Wagner’s initials appear next
+to the box which states “I do not want UMBI Coverage. I understand that I will not be compensated
+[for] UMBI coverage for losses arising from an accident caused by an uninsured/underinsured
+motorist.” R. Doc. 15-4 at p. 11. Plaintiff does not dispute that the UFCC rejection form exists and
+purportedly rejects UM coverage. R. Doc. 12-1 at p. 2.
+Also at issue is a commercial general liability insurance policy, No. HISOG61P, issued to
+SWS from Defendant Lloyd’s (“the Lloyd’s policy”). R. Doc. 44-4. The policy lists SWS, not
+Plaintiff, as the “Named Insured.” R. Doc. 44-4 at p. 1. The LLC’s members are later included as
+“‘insureds’, but only with respect to the conduct of [the] business .” Id. at p. 18. There is no
+language in the Lloyd’s policy expressly providing for UM coverage. See generally id. Further,
+the Lloyd’s policy contained an auto liability exclusion exempting coverage to “autos,” except for
+when “bodily injury…relates solely and exclusively to the conduct of the ‘insured’s’ business and
+if only carried out by an ‘insured.’” Id. at p. 13.
+Lloyd’s also provided a form attached to the Lloyd’s policy which states in part:
+“APPLICABLE ONLY IN LOUISIANA:
+Case 2:24-cv-01354-GGG-EJD     Document 75     Filed 02/18/25     Page 3 of 14
+4
+
+I ACKNOWLEDGE THAT UM COVERAGE HAS BEEN EXPLAINED TO ME, AND
+I HAVE BEEN OFFERED THE OPTION OF SELECTING UM LIMITS EQUAL TO
+MY LIABILITY LIMITS, UM LIMITS LOWER THAN MY LIABILITY LIMITS, OR
+TO REJECT UM COVERAGE ENTIRELY….2. I REJECT UM COVERAGE IN ITS
+ENTIRETY. [SG]”
+
+(“the Lloyd’s waiver”). R. Doc. 44-6. T his waiver has Plaintiff’s initials next to the box
+rejecting UM coverage and is signed and dated October 11, 2022. Id. However, the Lloyd’s waiver
+does not use the current UM rejection form, Bulletin 08 -02, that the Louisiana Commissioner of
+Insurance allegedly requires. See R. Doc. 44-1 at pp. 9-10.
+LAW AND ANALYSIS
+1. Legal Standard
+Federal Rule of Civil Procedure 12(b)(6) allows a defendant to seek dismissal of a
+complaint based on the “failure to state a claim upon which relief can be granted.” Fed. R. Civ. P.
+12(b)(6). “To survive a motion to dismiss, a complaint must contain suffi cient factual matter,
+accepted as true, to ‘state a claim to relief that is plausible on its face.’” Ashcroft v. Iqbal, 556 U.S.
+662, 678 (2009) (quoting Bell Atl. Corp. v. Twombly , 550 U.S. 544, 570 (2007)). “A claim has
+facial plausibility when the plain tiff pleases factual content that allows the court to draw the
+reasonable inference that the defendant is liable for the misconduct alleged.” Id. Under Fed. R.
+Civ. P. 8(a), a “short and plain statement of the claim” is required. Id. When evaluating a 12(b)(6)
+motion, the Court must “take the well -pled factual allegations of the complaint as true and view
+them in the light most favorable to the plaintiff.” Lane v. Halliburton, 529 F.3d 548, 557 (5th Cir.
+2008) (citing In re Katrina Canal Breaches Litig., 495 F.3d 191, 205 (5th Cir. 2007)). However,
+Case 2:24-cv-01354-GGG-EJD     Document 75     Filed 02/18/25     Page 4 of 14
+5
+
+a court “do[es] not accept as true conclusory allegations, unwarranted factual inferences, or legal
+conclusions.” Plotkin v. IP Axess Inc., 407 F.3d 690, 696 (5th Cir. 2005).
+ Summary judgment on the other hand is proper when “the pleadings, depositions, answers
+to interrogatories, and admissions on file, together with the affidavits, if any, show that there is no
+genuine issue as to any material fact and that the moving party is entitled to a judgment as a matter
+of law.” Celotex Corp. v. Catrett , 477 U.S. 317, 322 (1986) (citing Fed. R. Civ. P. 56(c)).  The
+court must find “a factual dispute to be ‘genuine’ if the evidence is such that a reasonable jury
+could return a verdict for the nonmoving party and a fact to be ‘material’ if it might affect the
+outcome of the suit under the governing substantive law.” Voelkel McWilliams Const., LLC v. 84
+Lumber Co., 2015 WL 1184148, at *5 (E.D. La. Mar. 13, 2015) (quoting Beck v. Somerset Techs.,
+Inc., 882 F.2d 993, 996 (5th Cir. 1989)). The party seeking summary judgment bears the burden
+of demonstrating the absence of a genuine issue of material fact and all reasonable inferences are
+drawn in favor of the nonmoving party. Celotex, 477 U.S. at 323.
+After th e movant meets his burden, the burden shifts to the non- movant to show the
+existence of a genuine issue for trial. Gernain v. U.S. Bank Nat’ Ass'n, 920 F.3d 269, 272 (5th Cir.
+2019). In doing so, the non-movant must submit “significant probative evidence” in support of his
+claim. State Farm Ins. Co. v. Gutterman, 896 F.2d 116, 118 (5th Cir. 1990). When assessing
+whether a dispute as to any material fact exists, the court considers “all of the evidence in the
+record but refrains from making credibility determinations or weighing the evidence.”  Delta &
+Pine Land Co. v. Nationwide Agribusiness Ins. Co., 530 F.3d 395, 398–99 (5th Cir. 2008).
+However, “unsupported allegations or affidavits setting forth ‘ultimate or conclusory facts and
+Case 2:24-cv-01354-GGG-EJD     Document 75     Filed 02/18/25     Page 5 of 14
+6
+
+conclusions of law’ are insufficient to either support or defeat a motion for summary judgment.”
+Galindo v. Precision Am. Corp., 754 F.2d 1212, 1216 (5th Cir. 1985); Little v. Liquid Air Corp .,
+37 F.3d 1069, 1075 (5th Cir. 1994).
+ Interpretation of insurance contracts  are questions of law.  See Martco Ltd. P'ship v.
+Wellons, Inc., 588 F.3d 864, 878 (5th Cir. 2009).  “When the language of an insurance policy is
+clear and unambiguous, a reasonable interpretation consistent with the obvious meaning and intent
+of the policy must be given.” S. Fid. Ins. Co. v. Gomez, 2022 WL 3285014, at *3 (E.D. La. Aug.
+11, 2022) (citing Robinson v. Heart, 809 So.2d 943, 945 (La. 2022)).
+2. Defendants Properly Rejected UM Coverage Under the UFCC Policy.
+The first set of motions ask whether La. R.S. 45:201.6 requires TNCs to provide UM
+coverage. Plaintiff first moved for summary judgment on June 27, 2024, arguing that La.  R.S.
+45:201.6 creates an independent mandate for TNCs to provide UM coverage. R. Doc. 12. Because
+this independent mandate is  allegedly separate from La. R.S. 22:1295, Plaintiff  maintains TNCs
+cannot waive or reject UM coverage.  See R. Doc. 12-1 at pp. 8-13. Uber and Rasier oppose and
+argue in their motion to dismiss that La. R.S. 45:201.6’s plain language that TNCs “include [UM]
+coverage to the extent required by La. R.S. 22:1295” allows TNCs to reject UM coverage under
+La. R.S. 22:1295(1)(a)(ii) as any other insured. R. Doc. 13 (emphasis added). UFCC moves for
+summary judgment on the same grounds —that Rasier’s reject ion of UM coverage  in the UFCC
+rejection form was valid and enforceable. R. Doc. 15. Nearly five months after the motions w ere
+submitted, Plaintiff requested the Court certify th is question to the Louisiana Supreme Court. R.
+Doc. 53.
+Case 2:24-cv-01354-GGG-EJD     Document 75     Filed 02/18/25     Page 6 of 14
+7
+
+UM coverage is govern ed by La. R.S. 22:1295 in addition to the terms of the insurance
+contract. Generally, insurance contracts in Louisiana require UM coverage equal to the limits of
+bodily injury liability coverage under the policy.  La. R.S. 22:1295(1)(a)(i). However, the UM
+coverage required by statute “is not applicable when any insured named in the policy either rejects
+coverage, selects lower limits, or selects economic-only coverage, in the manner provided” by La.
+R.S. 22:1295(1)(a)(ii). (emphasis added). The rejection form must be provided by the insurer and
+signed by the named insured, or his legal representative. La. R.S. 22:1295(1)(a)(ii). “A properly
+completed and signed form creates a rebuttable presumption that the insured knowingly rejected
+coverage, selected a lower limit, or selected economic-only coverage.” Id.
+ The Louisiana Supreme Court has six elements for a valid waiver or rejection of UM
+coverage: (1) initialing the selection or rejection of chosen coverage; (2) if lower limits are
+selected, those lower limits are reflected; (3) the printed name of the insured or legal representative;
+(4) signature of the insured or legal representative; (5) the policy number; and (6) the effective
+date of rejection. Duncan v. U.S.A.A. Ins. Co., 2006- 363 (La. 11/29/06), 950 So.2d 544, 547.
+Following a revision of the standard UM form and Bulletin 08- 02 set forth by the insurance
+commissioner in 2010, inclusion of the policy number on a UM waiver form is optional, but
+inclusion of the insurer's name is now mandatory. Dotson v. Price, 399 F.Supp. 3d 617, 622 (E.D.
+La. 2019); Berkley Assurance Co. v. Willis, 2020-0354 (La. App. 4 Cir. 9/29/21), 328 So.3d 567,
+575-76. Louisiana law requires a UM rejection be clear and unmistakable. Daigle v. Authement,
+92-1662, p. 3 (La. 4/8/97), 691 So.2d 1213, 1213.
+Case 2:24-cv-01354-GGG-EJD     Document 75     Filed 02/18/25     Page 7 of 14
+8
+
+La. R.S. 45:201.6(b)(2) requires TNCs to “include [UM] coverage to the extent required
+by La. R.S. 22:1295.” La. R.S. 22:1295(1)(a)(i) exempts insurer s from UM coverage “when any
+insured named in the policy either rejects coverage, selects lower limits, or selects economic-only
+coverage, in the manner provided in Item (1)(a)(ii) of this Section.”  (emphasis added). In other
+words, an insure d can waive UM coverage so long as the waiver complies with La. R.S.
+22:1295(1)(a)(ii). As is now well settled, “to the extend required by La. R.S. 22:1295” in La. R.S.
+45:201.6 means TNCs can likewise waive or reject UM coverage. Jean v. James River Ins. Co .,
+2019-0041 (La. App. 4 Cir. 5/29/19), 274 So.3d 43, 46, writ denied , 2019-01000 (La. 10/1/19),
+280 So.3d 160. This conclusion has been recognized by this Court and others. Washington v. Uber
+Techs., Inc., No. CV 22- 2078, 2023 WL 3004662, at *2 (E.D. La. Apr. 19, 2023) (Guidry, J.) ;
+Ward v. Rasier, LLC, No. CV 23-5503, 2024 WL 4964733, at *4 (E.D. La. Dec. 4, 2024) (Brown,
+C.J.).
+As applied to this matter, the Court finds no reason to upset this settled interpretation of
+La. R.S. 45:201.6. When a “‘ law is clear and unambiguous and its application does not lead to
+absurd consequences, the law shall be applied a[s] written, and no further interpretation may be
+made in search of the intent of the legislature.’” McLane S., Inc. v. Bridges , 2011-1141, pp. 5-6
+(La. 1/24/12), 84 So.3d 479, 483; Harrah's Bossier City Inv. Co., LLC v. Bridges, 2009-1916 (La.
+5/11/10), 41 So.3d 438, 446-447 (citing La. C.C. art. 9) . The language “to the extent required by
+[] 22:1295” adopts by general reference La. R.S. 22:1295’ s UM requirements. It ties TNCs’ UM
+responsibilities to the general UM statute. TNCs are only required to provide UM coverage “as
+required by” or only “in so far as” La. R.S. 22:1295 mandates. La. R.S. 45:201.6 unambiguously
+Case 2:24-cv-01354-GGG-EJD     Document 75     Filed 02/18/25     Page 8 of 14
+9
+
+incorporates all of La. R.S. 22:1295, not limited sections. Courts have long held that under La.
+R.S. 22:1295, “UM coverage is not required when a named insured rejects such coverage in writing
+or selects lower limits.”  Courtney v. Sovereign Fire & Cas. Ins. Co., 33,196 (La. App. 2 Cir.
+6/21/00), 764 So. 2d 239,240, writ denied , 2000-2179 (La. 10/13/00), 771 So. 2d 651. T hus, the
+reference to La. R.S. 22:1295 as the UM coverage standard for TNCs is not absurd given La. R.S.
+22:1295 is the general UM statute.
+As Plaintiff admits, in Louisiana, “all laws pertaining to the same subject matter must be
+interpreted in par i materia , or in reference to each other.” Pierce Foundations, Inc. v. Jaroy
+Construction, Inc., 15- 785, p. 7 (La. 5/3/16), 190 So.3d 298, 303. Reading  the TNC UM
+requirements in pari materia to the general UM statute—which allows an insured to waive or reject
+UM coverage—is thus consistent with  Louisiana statutory interpretation  principals. Plaintiff’s
+alternative readings rather obfuscate the plain meaning. Jean, 274 So.3d at 46. Additionally,
+Plaintiff’s reliance on the UM New Orleans City Ordinance is inapposite because it was preempted
+by La. R.S. 45:201.6. Willie v. Nguyen, 2023-01253 (La. 11/21/23), 373 So. 3d 440; R. Doc. 19-
+1l see also New Orlea ns Campaign For a Living Wage v. City of New Orleans , 2002-0991 (La.
+9/4/02), 825 So. 2d 1098, 1101 (Louisiana state law prevails over a New Orleans city ordinance).
+As such, there is no independent UM  mandate in La. R.S. 45:201.6 because the plain language,
+“include [UM] coverage to the extent required by La. R.S. 22:1295 ,” ties the TNC  UM
+requirements to La. R.S. 22:1295, which in turn encompasses the ability to waive or reject such
+coverage.
+Case 2:24-cv-01354-GGG-EJD     Document 75     Filed 02/18/25     Page 9 of 14
+10
+
+Thus, the remaining question is whether Defendants properly waived UM coverage for the
+UFCC policy. Defendants UFCC, Rasier , and Uber assert there is no coverage because Rasier ’s
+representative executed a valid and enforceable UM  waiver. R. Docs. 13, 15. Defendant Rasier,
+Uber, and UFCC present the UFCC rejection waiver executed by Wagner on March 1, 2022, on
+behalf of Rasier. R. Doc. 15-4 at p. 10. Wagner initialed the section reading “I do not want UMBI
+Coverage. I understand that I will not be compensated through UMBI coverage for losses arising
+from an accident caused by an uninsured/underinsured motorist.” R. Doc. 15-4 at p. 11. Wagner's
+name is printed on the form, and she signed and dated the form. Id. The name of the insurer, UFCC,
+is printed on the form, along with the policy number. Id. Therefore, the form meets the
+requirements of Louisiana law and is a valid and unambiguous rejection of UM coverage.
+UFCC also presents an uncontested affidavit of Wagner. R. Doc. 15-5. Wagner attests that
+she was employed as Head of North America Insurance for Uber on March 1, 2022. Id. at pp. 1-3.
+Recall Uber is Rasier ’s parent company . R. Doc. 15- 1 at p. 2. Wagner  also states that she was
+responsible for overseeing and supervising insurance decisions on behalf of Uber and its
+subsidiaries. R. Doc. 15-5 at p. 1. She maintains that she was authorized to reject UM coverage on
+behalf of Rasier and did reject UM coverage in the UFCC policy. Id. at pp. 2-3.
+An executed and valid waiver form creates a rebuttable presumption that the insured
+knowingly rejected uninsured motorist coverage. Terrell v. Fontenot, 2011-1472, p. 4 (La. App. 4
+Cir. 6/27/12), 96 So. 3d 658, 661. The burden then shifts to the insured to show that the form was
+not properly completed. Rapalo-Alfaro v. Lee, 2015-0209 (La. App. 4 Cir. 8/12/15), 173 So. 3d
+1174, 1180. Plaintiff does not challenge or suggest that the UFCC rejection form was not properly
+Case 2:24-cv-01354-GGG-EJD     Document 75     Filed 02/18/25     Page 10 of 14
+11
+
+completed. See R. Docs. 12, 14, 18. With a lawful and valid UM rejection waiver, UFCC, Rasier,
+and Uber have no UM obligations to Plaintiff.3
+3. Plaintiff Is Not an “Insured” Under the Lloyd’s Policy at The Time of the Accident.
+The second set of motions focuses on whether Plaintiff is entitled to collect UM coverage
+from the Lloyd’s policy issued to SWS . R. Docs. 44, 62. Even though Plaintiff initialed  the box
+that rejected UM coverage, Plaintiff argues that the UM rejection is inv alid because, (1) the
+rejection form is different than the one required under La. R.S. 22:1295(1)(a)(ii), (2) UM coverage
+follows Plaintiff himself not his vehicle, and (3) Plaintiff is an “insured” under the Lloyd’s policy
+because he is “always conducting the business of the LLC.” R. Doc. 44- 1 at pp. 10-14. As such
+Plaintiff moves to collect UM coverage from the Lloyd’s policy. Id.
+Lloyd’s opposes and submits a cross-motion for summary judgment. R. Doc. 62. First, they
+argue Plaintiff is not an “insured” under the policy during the time of the accident because he did
+not do any work in performance of the LLC, as he suffered his injuries during a purely personal
+outing, after having lunch and watching a Mardi Gras parade. R. Doc. 62 -1 at pp. 3-6. Even if
+Plaintiff was an “insured,” Lloyd’s contends Plaintiff is still not entitled to UM coverage because
+the policy provides no express UM coverage, and Louisiana Law does not require statutory UM
+coverage in this case. Id. at 6-9. Lloyd’s also maintains that it is entitled to dismissal with prejudice
+
+3 The Court will also deny Plaintiff’s request to certify the issue to the Louisiana Supreme Court
+because the Supreme Court has denied review twice. Jean v. James River Ins. Co., 2019-0041
+(La. App. 4 Cir. 5/29/19), 274 So. 3d 43, 46, writ denied, 2019-01000 (La. 10/1/19), 280 So. 3d
+160; Willie. v. Nguyen, 2023-01253 (La. App. 4. Cir. 8/17/23), 373 So. 3d 440, 441, writ denied,
+(La. 11/21/23).
+Case 2:24-cv-01354-GGG-EJD     Document 75     Filed 02/18/25     Page 11 of 14
+12
+
+because SWS chose to decline UM coverage and the Lloyd’s policy has no liability coverage. Id.
+at pp. 13-14.
+There are t wo ways to collect UM coverage in Louisiana. First, express UM coverage
+applies when the policy’s terms provide for UM coverage. See, e.g., Magnon v. Collins, 98-2822
+(La. 7/7/99), 739 So. 2d 191, 195 If express coverage is absent, statutory UM coverage applies
+when UM coverage is attached to the policy by operation of Louisiana law. See, e.g., Bernard v.
+Ellis, 2011-2377 (La. 7/2/12), 111 So. 3d 995, 1000. The Louisiana Supreme Court holds that if a
+plaintiff is an insured under the auto liability coverage , he is entitled to UM coverage. Filipski v.
+Imperial Fire & Casualty Ins. Co., 09–1013 (La.12/1/09), 25 So.3d 742, 745 (per curiam); see also
+Magnon, 739 So.2d at 196. Inversely, only “insureds” under an auto policy insurance are entitled
+to UM coverage. See, e.g., Taylor v. Rowell, 98–2865, at 6 (La.5/18/99), 736 So.2d 812. Here, UM
+coverage first turns on whether Plaintiff is an “insured” under the Lloyd’s policy. See Filipski, 25
+So.3d at 745.
+The Lloyd’s policy defines “ insureds” as the LLC ’s, SWS,  “members…but only with
+respect to the conduct of [the] business.”  R. Doc. 44- 4 at p. 18. The parties do not dispute that
+Plaintiff is a member of SWS.  The only question is whether Plaintiff’s Mardi Gras lunch -day
+qualifies as activities “only with respect to the conduct of [the] business.” Id. It does not. Plaintiff
+performed no work on the day of the A ccident. See R. Doc. 69. Plaintiff rather admits that the
+Accident occurred when he was returning to a friend’s, McKay, house after having a social lunch
+and watching a Mardi Gras parade. R. Doc. 60-3 at pp. 3-12. He also received no calls from SWS
+customers. Id. at p. 13. Instead, Plaintiff alleges at the time of the accident he was under  contract
+Case 2:24-cv-01354-GGG-EJD     Document 75     Filed 02/18/25     Page 12 of 14
+13
+
+for consulting services and was on-call 24/7 to provide those services . R. Doc. 69- 1 at p. 3.
+Nevertheless, he does not put forward any facts that suggest he performed any work for the client
+or any client on the day  of the Accident . See generally R. Docs. 44, 69. Most importantly, he
+concedes that his lunch with McKay , as well as  all other activities near or during the Accident ,
+were not in any way related to his business. See R. Doc. 60-3 at pp. 8-9. In sum, Plaintiff failed to
+show he performed any activities “with respect to the conduct of [the] business” at the time of the
+accident.
+ Plaintiff attempts to work around these facts by suggesting that because he is  “on call”
+“24/7” for SWS, he is always performing “conduct for [his] business.” R. Doc. 60 at pp. 4-6. This
+on-call theory strips away any operative meaning or limitation to the words “but only with respect
+to the conduct of [the] business .” Under Plaintiff’s theory, he  always performs activities with
+“respect to the conduct of [his] business .” Insurance c ontracts are not interpreted to render
+provisions meaningless. Rather, they “are interpreted in light of the other provisions so that each
+is given the meaning suggested by the contract as a whole.” La. C.C. art. 2050; Dean v. State Farm
+Mut. Auto. Ins. Co., 2007-0645 (La. App. 4 Cir. 1/16/08), 975 So. 2d 126, 132. The Lloyd’s policy
+sought to limit coverage to Plaintiff’s select business acts as other provisions narrowed coverage
+to the “sole[] and exclusive[]…conduct of the ‘insured’s’ business and only if carried out by an
+‘insured.’” R. Doc. 44-4 at p. 13. The limitation that Plaintiff must have  at least “engaged in any
+business activities during [an] [a]ccident” to qualify as an “insured” is also consistent with other
+courts’ interpretation of similar insured provisions . See, e.g., Amoroso v. State Farm Mut. Auto.
+Ins. Co., No. CV 18- 1106-EWD, 2021 WL 1176184, at *20 (M.D. La. Mar. 26, 2021). There is
+Case 2:24-cv-01354-GGG-EJD     Document 75     Filed 02/18/25     Page 13 of 14
+14
+no genuine dispute of material fact that Plaintiff performed or engaged in any business activities.
+Thus, at the time of the accident , Plaintiff was not an “insured” under the Lloyd’s policy.
+Accordingly,
+IT IS ORDERED that Rasier and Uber’s Motion to Dismiss, R. Doc. 13, and UFCC’s
+Motion for Summary Judgment, R. Doc. 15, are GRANTED.
+IT IS FURTHER ORDERED that Plaintif f’s Motion for Summary Judgment, R. Doc.
+12, is DENIED.
+IT IS FURTHER ORDERED that Plaintiff’s Motion to Certify to the Louisiana Supreme
+Court, R. Doc. 53, is DENIED AS MOOT.
+IT IS FURTHER ORDERED that Lloyd’s Cross-Motion for Summary Judgment, R.
+Doc. 62, is GRANTED.
+IT IS FURTHER ORDERED that Plaintiff’s Motion for Partial Summary Judgment, R.
+Doc. 44, is DENIED.
+IT IS FURTHER ORDERED that Plaintiff’s claims are DISMISSED WITH
+PREJUDICE. Judgment will be entered for Defendants.
+New Orleans, Louisiana, this 18th day of February 2025.
+GREG GERARD GUIDRY
+UNITED STATES DISTRICT JUDGE
+Case 2:24-cv-01354-GGG-EJD     Document 75     Filed 02/18/25     Page 14 of 14

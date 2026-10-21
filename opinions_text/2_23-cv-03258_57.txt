@@ -1,0 +1,399 @@
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+LIBERTY MUTUAL INSURANCE COMPANY CIVIL ACTION
+VERSUS NO. 23-3258
+ROYAL WHITE CEMENT, INC. SECTION “O”
+ORDER AND REASONS
+ Before the Court in this marine-insurance-coverage case are cross-motions1 for
+summary judgment by Plaintiff Liberty Mutual Insurance Company and Defendant
+Royal White Cement, Inc . At issue is coverage for “demurrage”—a penalty assessed
+against a vessel charterer for delays loading or unl oading cargo. Here, v essel
+charterer Royal White was charged demurrage because of delay caused by the spilling
+of the vessel’s cement -bag cargo. Royal White sought coverage for that demurrage
+under a Liberty Mutual  cargo-insurance policy . But Liberty Mutual denied
+demurrage coverage, pointing to (among other provisions) an exclusion for “expense
+arising from delay.” The parties agree that the cross-motions raise no factual dispute;
+they present just one question of law: Does  the policy cover the demurrage Royal
+White incurred due to delay s stemming from the vessel’s spilled cargo? It does not.
+The policy unambiguously excludes coverage for “expense arising from delay,” and
+demurrage expense—by definition—arises from delay. Accordingly, for these reasons
+and those that follow, Royal White’s motion for partial summary judgment is
+DENIED  and Liberty Mutual’s motion for summary judgment is GRANTED .
+
+1 ECF No. 20; ECF No. 30.
+Case 2:23-cv-03258-BSL-DPC     Document 57     Filed 02/24/25     Page 1 of 15
+2
+
+I. BACKGROUND
+This case concerns marine-cargo-insurance coverage for demurrage that Royal
+White Cement, charter er of the M/V WECO HOLLI, incurred because of delays
+traceable to the spilling of the M/V WECO HOLLI’s cement-bag cargo.2
+The material facts are simple, undisputed, and few. Royal White chartered the
+M/V WECO HOLLI to transport cement-bag cargo from Egypt to Houston, with a stop
+in New Orleans.3 Some of the cement would be discharged in New Orleans; the rest
+would be discharged in Houston. 4 The charter party between Royal White and the
+vessel owner required Royal White to pay the vessel owner for cargo demurrage.5
+The vessel arrived in New Orleans  without issue .6 Some of the  cargo was
+unloaded there; the rest would be unloaded in Houston. 7 En route to Houston, some
+cement spilled in the hold of the vessel, requiring cleaning. 8 That cleaning in turn
+delayed discharge operations.9 The vessel owner charged Royal White over $738,000
+for demurrage because of the delay stemming from the spilled cement-bag cargo.10
+Liberty Mutual issued Royal White a marine-cargo-insurance policy endorsed
+to cover the specific shipment of the cement -bag cargo.11 Subject to “warranties or
+
+2 See generally ECF No. 6.
+3 ECF No. 20-1 at ¶ 2; ECF No. 30-3 at ¶ 12; ECF No. 37-1 at ¶ 12.
+4 Id.; see also ECF No. 20-4 at 1.
+5 ECF No. 20-1 at ¶ 4; see also ECF No. 20-4 at 16 cl. 57.
+6 ECF No. 20-1 at ¶ 6.
+7 Id.
+8 ECF No. 30-3 at ¶ 14; ECF No. 37-1 at ¶ 14.
+9 ECF No. 30-3 at ¶ 15; ECF No. 37 -1 at ¶ 15 (denying that the policy excludes coverage for
+the demurrage, but admitting that Royal White incurred the demurrage “as a result of holding the
+[vessel] at the dock while clean[ing] the spilled cargo from the vessel”).
+10 ECF No. 20-1 at ¶ 8; ECF No. 30 -3 at ¶ 15; ECF No. 37 -1 at ¶ 15 (denying that the policy
+excludes coverage for the demurrage, but admitting that Royal White incurred the demurrage “as a
+result of holding the [vessel] at the dock while clean[ing] the spilled cargo from the vessel”).
+11 See ECF No. 16-1 (policy); see also ECF No. 16-3 (endorsement covering the shipment).
+Case 2:23-cv-03258-BSL-DPC     Document 57     Filed 02/24/25     Page 2 of 15
+3
+
+exclusions,” that policy insured Royal White “[a]gainst all risks of physical loss or
+damage from any external cause irrespective of percentage . . . .” 12 Four features of
+the all-risk policy bear on the cross-motions for summary judgment before the Court.
+First, the policy covers sue-and-labor expenses. To that end, the policy includes
+a sue-and-labor clause that provides in relevant part as follows:
+In case of any loss or misfortune, it shall be lawful and necessary to and
+for The Insured, his or their factors, servants and assigns, to sue, labor
+and travel for, in and about the defense, safeguard and recovery of the
+goods insured, or any part thereof, without prejudice to this insurance.13
+Second, the policy repeatedly and expressly  excludes coverage for expenses
+arising from delay. As just one example, the policy’s delay -and-inherent-vice
+provision expressly excludes coverage for expense arising from delay:
+This policy is warranted free from claims for loss of market or loss,
+damage, deterioration, and expense arising from delay, whether caused
+by a peril insured against or otherwise, including from inherent vices (or
+nature) of the insured good(s) itself.14
+Third, the policy mentions demurrage  by name  in just one provision that
+expressly covers demurrage in one limited circumstance—when demurrage is
+assessed for the late return of containers retained at Liberty Mutual’s instruction:
+This policy shall cover demurrage charges and/or late penalties assessed
+against and paid by The Insured for late return of containers when said
+containers are retained by The Insured at the instruction of The
+Company for inspection by The Company’s surveyor in investigation of
+loss or damage recoverable under this policy.15
+
+12 ECF No. 16-1 at 2 ¶ 6(a).
+13 Id. at 15 at ¶ 29.
+14 Id. at 20 at ¶ 40.
+15 Id. at 23 ¶ 52.
+Case 2:23-cv-03258-BSL-DPC     Document 57     Filed 02/24/25     Page 3 of 15
+4
+
+Fourth and finally , the policy features a choice -of-law clause. That clause
+instructs that “the rights and obligations” of the parties under the policy “shall be
+governed by the federal maritime common law of the United States or, in the absence
+of controlling federal maritime common law of the United States, the law of the state
+of New York, irrespective of any principles of choice of law.”16
+Royal White sought coverage from Liberty Mutual  under the policy  for the
+demurrage it was charged  because of del ay stemming from  the cement -bag cargo
+spillage. Liberty Mutual denied th at demurrage-coverage claim.17 Still, Liberty
+Mutual paid Royal White “nearly $850,000” under other coverages.18
+This declaratory-judgment action followed. Liberty Mutual sued Royal W hite
+for a declaration that the policy does not cover the demurrage charges assessed
+against Royal White. 19 Royal White then brought a counterclaim against Liberty
+Mutual for breaching the policy by denying coverage for the demurrage charges.20
+Now, Liberty Mutual and Royal White cross -move for summary judgment on
+Royal White’s declaratory -judgment request a nd on Liberty Mutual’s breach -of-
+contract counterclaim.21 The cross-motions turn on the purely legal question whether
+Liberty Mutual’s policy covers the demurrage charges assessed against Royal White.
+
+16 Id. at 28 ¶ 69.
+17 ECF No. 30-3 at ¶ 17; ECF No. 37-1 at ¶ 17.
+18 ECF No. 30-3 at ¶ 16; ECF No. 37-1 at ¶ 16.
+19 ECF No. 6.
+20 ECF No. 16 at 6–11.
+21 ECF No. 20; ECF No. 30.
+Case 2:23-cv-03258-BSL-DPC     Document 57     Filed 02/24/25     Page 4 of 15
+5
+
+II.  LEGAL STANDARD
+The Court “shall grant summary judgment if the movant shows that there is
+no genuine dispute of material fact and the movant is entitled to judgment as a
+matter of law.” FED . R.  CIV . P.  56(a). “A dispute is genuine if ‘the evidence is such
+that a reasonable jury could return a verdict for the nonmoving party.’” Perry v. VHS
+San Antonio Partners, L.L.C., 990 F.3d 918, 926 (5th Cir. 2021) (quoting Anderson v.
+Liberty Lobby, Inc., 477 U.S. 242, 248 (1986)). “A fact is material if it ‘might affect the
+outcome of the suit.’” Id. (quoting Anderson, 477 U.S. at 248).
+The movant has the initial burden to show that there is no genuine dispute of
+material fact. See Celotex Corp. v. Catrett, 477 U.S. 317, 323 (1986). If the nonmovant
+will bear the burden of proof at trial, the movant meets its initial burden by “merely
+point[ing] to an absence of evidence” supporting the nonmovant’s claim. Little v.
+Liquid Air Corp. , 37 F.3d 1069, 1075 (5th Cir. 1994) (en banc) (per curiam). The
+movant “need not negate the elements of t he nonmovant’s case.” Id. (first citing
+Celotex, 477 U.S. at 323; and then citing Lujan v. Nat’l Wildlife Fed’n, 497 U.S. 871,
+885–86 (1990)). Nor must the movant “set forth evidence when the nonmovant bears
+the burden of persuasion at trial,” Wease v. Ocwen Loan Serv., L.L.C., 915 F.3d 987,
+997 (5th Cir. 2019). If the movant “fails to meet this initial burden, the motion must
+be denied, regardless of the nonmovant’s response.” Little, 37 F.3d at 1075.
+If the movant meets its initial summary -judgment b urden, however, the
+burden shifts to the nonmovant to “identify specific evidence in the summary
+judgment record demonstrating that there is a dispute of material fact concerning the
+Case 2:23-cv-03258-BSL-DPC     Document 57     Filed 02/24/25     Page 5 of 15
+6
+
+essential elements of its case for which it will bear the burden of proof at trial.” In re
+Taxotere (Docetaxel) Prod. Liab. Litig., 994 F.3d 704, 708 (5th Cir. 2021) (first citing
+FED. R. CIV. P. 56(a) & (e); and then citing Celotex, 477 U.S. at 324). “Speculative
+theories cannot defeat a motion for summary judgment.” Guillot e x rel. T.A.G. v.
+Russell, 59 F.4th 743, 750 (5th Cir. 2023) (citing Little, 37 F.3d at 1075). Nor may a
+nonmovant “defeat summary judgment with ‘conclus[ory] allegations, unsupported
+assertions, or presentation of only a scintilla of evidence.’” Flowers v. Wal-Mart Inc.,
+79 F.4th 449, 452 (5th Cir. 2023) (quoting McFaul v. Valenzuela, 684 F.3d 564, 571
+(5th Cir. 2012)). “Instead, the nonmovant must go beyond the pleadings and designate
+specific facts that prove that a genuine [dispute] of material fact exis ts.” Id. (citing
+Little, 37 F.3d at 1075). If the nonmovant “fails to meet this burden, the motion for
+summary judgment must be granted.” Little, 37 F.3d at 1076 (emphasis added).
+In reviewing the summary -judgment record, the Court draws all reasonable
+inferences in favor of the nonmovant. See Vote.Org v. Callanen, 89 F.4th 459, 469 (5th
+Cir. 2023) (quoting Reeves v. Sanderson Plumbing Prods., Inc., 530 U.S. 133, 150
+(2000)). And the Court “resolve[s] factual controversies in favor of the nonmoving
+party, but only where there is an actual controversy, that is, when both parties have
+submitted evidence of contradictory facts.” Little, 37 F.3d at 1075.
+
+Case 2:23-cv-03258-BSL-DPC     Document 57     Filed 02/24/25     Page 6 of 15
+7
+
+III.  GOVERNING LAW
+“As a matter of federal maritime law, choice -of-law provisions in maritime
+contracts are presumptively enforceable.” Gr eat Lakes Ins. SE v. Raiders Retreat
+Realty Co., 60 U.S. 65, 76 (2024). But there are two “narrow” exceptions when choice-
+of-law clauses are not enforceable. Id. The first is “when the chosen law would
+contravene a controlling federal statute.” Id. The second is when the chosen law
+would “conflict with an established federal maritime law.” Id.  Here, no party
+contends either exception applies. So the Court enforces the choice-of-law provision.
+Under that choice-of-law provision, the Court’s interpretation of the policy is
+“governed by the federal maritime common law of the United States or, in the absence
+of controlling federal maritime common law of the United States, the law of the state
+of New York, irrespectiv e of any principles of choice of law.” 22 The parties do not
+identify any “federal maritime common law” that “control[s]” the Court’s
+interpretation of this cargo-insurance policy.23 So the Court applies New York law.
+Under New York law, “insurance contracts are subject to the general rules of
+contract interpretation.” J.P. Morgan Secs., Inc. v. Vigilant Ins. Co., 183 N.E.3d 443,
+447 (N.Y. 2021). “Like other agreements, insurance contracts are typically enforced
+as written; absent a violation of public policy, parties to an insurance agreement may
+generally contract as they wish and the courts will enforce their agreements.” Id.
+
+22 Id. at 28 ¶ 69.
+23 See, e.g., ECF No. 20 -2 at 6 (Royal White asserting that “[t]here is no specific fed eral rule
+governing construction of maritime insurance contracts ”); id. (Royal White agreeing that “what law
+governs is inconsequential”); ECF No. 30 -1 at 7 –12 (Liberty Mutual applying New York law to
+interpret the policy).
+Case 2:23-cv-03258-BSL-DPC     Document 57     Filed 02/24/25     Page 7 of 15
+8
+
+(quotation and citation omitted). “In determining a coverage dispute,” courts applying
+New Yo rk law “look to the specific language used in the relevant policies.” Id.
+(citations omitted). Courts interpret insurance policies under New York law
+“according to common speech and consistent with the reasonable expectation of the
+average insured at the t ime of contracting, with any ambiguities construed against
+the insurer and in favor of the insured.” Id. (quotation and citation omitted).
+When interpreting an insurance policy under New York law, “the initial
+question for the court on a motion for summary judgment is ‘whether the contract is
+unambiguous with respect to the question disputed by the parties.’” SCW West LLC
+v. Westport Ins. Cor p., 856 F. Supp. 2d 514, 524 (E.D.N.Y. 2012) (quoting Int’l
+Multifoods Corp. v. Commercial Union Ins. Co. , 309 F.3d 76, 83 (2d Cir. 2002)). A
+contract is ambiguous if its terms “could suggest more than one meaning when viewed
+objectively by a reasonably in telligent person who has examined the context of the
+entire integrated agreement and who is cognizant of the customs, practices, usages
+and terminology as generally understood in the particular trade or business.” Int’l
+Multifoods, 309 F.3d at 83 (quotatio n and citations omitted). “ The language of a
+contract is not made ambiguous simply because the parties urge different
+interpretations.” Seiden Assocs., Inc. v. ANC Holdings, Inc. , 959 F.2d 425, 428 (2d
+Cir. 1992). No party contends the language of the policy is ambiguous. So the Court
+considers the policy unambiguous in all relevant respects and proceeds to apply its
+plain language to the demurrage -coverage question the cross -motions for summary
+judgment raise.
+Case 2:23-cv-03258-BSL-DPC     Document 57     Filed 02/24/25     Page 8 of 15
+9
+
+IV.  ANALYSIS 24
+The cross-motions for summary j udgment raise one purely legal question of
+contract interpretation: Does Liberty Mutual’s policy cover the demurrage assessed
+against Royal White ? It does not. The policy unambiguously excludes coverage for
+“expense arising from delay .”25 And the demurrage assessed against Royal White is
+an “expense arising from delay.” 26 So the Court grants Liberty Mutual’s motion for
+summary judgment and denies Royal White’s motion for partial summary judgment.
+The policy is an all -risk policy. That means “losses caused by any fortuitous
+peril not specifically excluded under the policy will be covered.” Parks Real Est.
+Purchasing Grp. v. St. Paul Fire & Marine Ins. Co. , 472 F.3d 33, 41 (2d Cir. 2006)
+(citation and alterations omitted). As the all -risk insured, Royal White  “has the
+burden of establishing a prima facie case for recovery by showing: (1) the existence of
+an all-risk policy, (2) an insurable interest in the subject of the insurance contract,
+and (3) the fortuitous loss of the covered property.” Int’l Multifoods Corp., 309 F.3d
+at 83 (quotation and citations omitted).  The Court assumes without deciding that
+Royal White has made a prima facie case for coverage by meeting these requirements.
+
+24 Because this case comes to the  Court on cross -motions for summary judgment , the Court
+ordinarily would “review each motion independently, viewing the evidence and inferences in the light
+most favorable to the nonmoving party.” Miller v. Reliance Standard Life Ins. Co. , 999 F.3d 820, 28 3
+(5th Cir. 2021) (quotation and citation omitted)).  But the parties agree that the material facts are
+essentially undisputed and that the cross -motions raise only questions of law. So the Court conducts
+a singular analysis of the demurrage-coverage question and the parties’ competing arguments.
+25 ECF No. 16-1 at 20 ¶ 40.
+26 Id.
+Case 2:23-cv-03258-BSL-DPC     Document 57     Filed 02/24/25     Page 9 of 15
+10
+
+“Once an insured has met its burden of establishing a prima facie case, the
+burden shifts to the insurer to establish that an exclusion or exception to coverage
+applies.” Fabrique Innovations, Inc. v. Fed. Ins. Co. , 354 F. Supp. 3d 340, 349
+(S.D.N.Y. 2019), aff’d 853 F. App’x 709 (2d Cir. 2021). Here, because the Cour t has
+assumed arguendo that Royal White has made a prima facie case, the burden shifts
+to Liberty Mutual to show that an exclusion bars coverage for the demurrage. See id.
+Liberty Mutual has met that burden . The policy’s delay -and-inherent-vice
+provision unambiguously excludes coverage for the demurrage assessed aga inst
+Royal White. 27 As relevant here, that  delay-and-inherent-vice provision expressly
+excludes coverage for “expense arising from delay, whether caused by a peril insured
+against or otherwise . . . .”28 For their part, the parties have not briefed what “arising
+from” means, but the Court interprets th at phrase to share the meaning New York
+courts have assigned the phrase “arising out of.” Under New York law, “arising out
+of” means “originating from, incident to, or having connection with.” Maroney v. New
+York Cent. Mut. Fire Ins. Co., 839 N.E.2d 886, 889 (N.Y. 2005) (quotation and citation
+omitted). Applying that understanding to the phrase “arising from” under the policy,
+the Court concludes that an expense “aris[es] from” delay within the meaning o f the
+policy’s delay-and-inherent-vice exclusion if the expense “originat[es] from, [is]
+incident to, or ha[s] connection with” delay. Id. (quotation and citation omitted).
+
+27 Because the Court concludes that the policy’s delay -and-inherent-vice provision
+unambiguously excludes coverage for the demurrage charges assessed against Royal White, the Court
+need not consider the other provisions on which Liberty Mutual relies. See ECF No. 25 at 2–3 (invoking
+the “Warehouse to Warehouse and Marine Extension Clause,” the endorsement entitled “Strikes, Riots
+& Civil Commotions,” and the endorsement entitled “Section 1 War Risk Policy”).
+28 ECF No. 16-1 at 20 ¶ 40.
+Case 2:23-cv-03258-BSL-DPC     Document 57     Filed 02/24/25     Page 10 of 15
+11
+
+The demurrage assessed against Royal White is an “expense” that “aris[es]
+from” delay and so is excluded from coverage. Royal White was assessed demurrage
+because the vessel was held at the dock—i.e., delayed—in Houston while Royal White
+cleaned up the cement that had spilled inside the vessel.29 Royal White acknowledges
+that the “delay cleaning up the mess in Houston caused Royal White[ ] to be charged
+for demurrage” under the charter party. 30 That demurrage necessarily “originat[es]
+from, [is] incident to, or ha[s] connection with” delay , id. (quotation and citation
+omitted), because “[d]emurrage is a type of charge for delays.” Maersk Line A/S v.
+Carew, 588 F. Supp. 3d 493, 500 (S.D.N.Y. 2022) (citation omitted). Indeed,
+demurrage by definition results from delay. See, e.g. , Demurrage, BLACK’S LAW
+DICTIONARY (12th ed. 2024) (“Liquidated damages owed by a charterer to a shipowner
+for the charterer’s failure to load or unload cargo by the agreed time.”); Demurrage,
+OXFORD DICTIONARY OF ENGLISH (3d ed. 2010) (“[A] charge payable to the owner of a
+chartered ship on failure to load or discharge the ship within the time agreed.”). So it
+is unsurprising that courts consistently define demurrage in terms of delay. See, e.g.,
+Ingram Barge Co. v. Zen-Noh Grain Corp., 3 F.4th 275, 278 (6th Cir. 2021) (defining
+demurrage as “penalties related to delayed loading or unloading of goods” (quotation
+omitted)); Venus Lines Agency, Inc. v. CVG In, 234 F.3d 1225, 1228 n.2 (11th Cir.
+2000) (defining demurrage similarly); Trans-Asiatic Oil Ltd., S.A. v. Apex Oil Co., 804
+F.2d 773, 774 n.1 (1st Cir. 1986) (defining demurrage as “a penalty imposed on a
+charterer of a vessel . . . for delays in loading or unloading the ship’s cargo”).
+
+29 ECF No. 30-3 at ¶ 15; ECF No. 37-1 at ¶ 15; see also ECF No. 20-5 at 1–2 (demurrage invoice).
+30 ECF No. 20-2 at 2.
+Case 2:23-cv-03258-BSL-DPC     Document 57     Filed 02/24/25     Page 11 of 15
+12
+
+The Court’s interpretation of the policy accords with fundamentals of New
+York contract interpretation. “A court may not interpret an insurance contract in a
+way that leaves part of the contract meaningless.” Northwell Health, Inc. v. Lexington
+Ins. Co., 550 F. Supp. 3d 108, 121 (S.D.N.Y. 2021) (citation omitted). Were the Court
+to adopt Royal White’ s reading and thus  interpret the delay -and-inherent-vice
+exclusion not to exclude coverage for demurrage as an “expense arising from delay,”
+the policy’s separate, limited expansion of coverage for demurrage would prove
+meaningless.31 Indeed, if the policy did not generally exclude coverage for demurrage,
+there would have been no reason to include paragraph 52’s carve -out creating
+coverage for demurrage in the limited and specific circumstance in which demurrage
+is assessed for the late return of containers retained at Liberty Mutual’s instruction.32
+Accordingly, because the policy unambiguously excludes coverage for “expense
+arising from delay,”33 and because the demurrage assessed against Royal White is an
+“expense arising from delay,”34 the policy does not cover that demurrage.
+Royal White’s principal counterarguments fail to  persuade. First, it is
+immaterial that the delay that led to the  demurrage was itself caused by a covered
+risk—i.e., the spilled cement -bag cargo —because the policy expressly excludes
+“expense arising from delay, whether caused by a peril insured against or otherwise.”35
+
+31 ECF No. 16-1 at 23 ¶ 52.
+32 Id.
+33 Id. at ¶ 40.
+34 Id.
+35 Id. (emphasis added). Because the terms of the  policy expressly exclude coverage for even
+those delay-based expenses that are themselves caused by a covered loss, Royal White’s invocation of
+causation-focused cases like Blaine Richards & Co. v. Marine Indemnity Ins. Co., 635 F.2d 1051, 1054–
+55 (2d Cir. 1980), Lanasa Fruit Steamship & Importing Co. v. Universal Ins. Co. , 302 U.S. 556, 562–
+Case 2:23-cv-03258-BSL-DPC     Document 57     Filed 02/24/25     Page 12 of 15
+13
+
+Second, the demurrage is not covered as a sue-and-labor expense. The purpose
+of a sue-and-labor clause is “to reimburse the assured for . . . expenditures which are
+made primarily for the benefit of the underwriter either to reduce or eliminate a
+covered loss altogether.” Reliance Ins. Co. v. The Escap ade, 280 F.2d 482, 488 (5th
+Cir. 1960 ). The duty to reimburse an insured for  sue-and-labor expenses is not
+triggered unless the loss is one “for which the underwriter would be liable.” Id. Put
+differently, if the policy does not cover the loss, there is no  duty to reimburse the
+insured for sue-and-labor expenses linked to that loss. See Collins v. A.B.C. Marine
+Towing, L.L.C. , No. 14 -CV-1900, 2015 WL 5797793, at *5 (E.D. La. Oct. 2, 2015)
+(Fallon, J.). That is because sue-and-labor clauses do not “operate as an enlargement
+of the perils underwritten against.” Continental Food Prods., Inc. v. Ins. Co. of N.
+Am., 554 F.2d 834, 837 (5th Cir. 1977). The upshot is that  an insurer  need not
+reimburse an insured under a sue -and-labor clause “where the policy . . . does not
+afford coverage.” Id. Just so here . The policy ’s delay -and-inherent-vice provision
+unambiguously excludes coverage for the demurrage  assessed against Royal White .
+So, because the policy does not cover that demurrage, and because the sue-and-labor
+clause cannot create coverage that does not otherwise exist under the policy, the sue-
+and-labor clause does not cover the demurrage assessed against Royal White.36
+
+63 (1938), and Commodities Reserve Co. v. St. Paul Fire & Marine Ins. Co., 879 F.2d 640, 642 (9th Cir.
+1989), does not change the Court’s analysis or the result on the demurrage-coverage question.
+36 No party (1) identifies any interpretive rules or other relevant principles that are rooted in
+New York law (rather than federal law) that govern sue-and-labor clauses, specifically; or (2) contends
+that the Fifth Circuit’s treatment of sue-and-labor clauses under federal law differs from the treatment
+of sue-and-labor clauses under New York law (assuming a New York-law-specific approach to sue-and-
+labor clauses even exists).  In all events, Royal White admits that “ what law governs is
+inconsequential,” ECF No. 20 -2 at 6 , and Royal White  relies in part on Fifth Circuit precedent to
+advance its arguments under the sue-and-labor clause. Id. at 8 (citing Reliance Ins. Co., 280 F.2d 482).
+Case 2:23-cv-03258-BSL-DPC     Document 57     Filed 02/24/25     Page 13 of 15
+14
+
+Finally, Royal White’s principal cases do not persuade the Court that the policy
+covers the demurrage assessed against it despite the policy’s unambiguous exclusion
+of expenses arising from delay —even if caused by a covered peril . The first of Royal
+White’s cases—AGCS Marine Insurance Company v. World Fuel Services, Inc.—does
+not compel the Court to conclude that the policy covers the demurrage assessed
+against Royal White. There, no party raised a delay exclusion like the one raised here.
+220 F. Supp. 3d 431, 440 (S.D.N.Y. 2016). Instead, the court merely considered and
+rejected the insurer’s “quite unpersuasive” argument that demurrage was not covered
+because the policy covered only “physical loss or damage,” and demurrage is not
+“physical loss or damage.” Id. Royal White’s second case, Ingersoll Milling Machine
+Co. v. M/V Bodena , is not instructive for the independent reasons that it does not
+address coverage for demurrage, and it does not interpret a delay exclusion like the
+one raised here. 619 F. Supp. 493, 508 (S.D.N.Y. 1985). And Royal White’s third and
+final case, Armada Supply Inc. v. Wright, does not move the needle either. 858 F.2d
+842 (2d Cir. 1988). There, a panel  held that some  demurrage expenses were
+“reasonably or necessarily incurred” under a sue-and-labor clause; however, the panel
+did not address the antecedent question the Court must address here —whether the
+demurrage is itself a covered loss under the policy. Id. at 853–54.
+
+Case 2:23-cv-03258-BSL-DPC     Document 57     Filed 02/24/25     Page 14 of 15
+15
+
+V.  CONCLUSION
+Accordingly,
+IT  IS  ORDERED  that Royal White’s motion 37 for partial summary
+judgment is DENIED , and Liberty Mutual’s motion 38 for summary judgment is
+GRANTED . Royal White’s counterclaim is DISMISSED WITH PREJUDICE .
+A final judgment will follow in accordance with Federal Rule of Civil Procedure 58.
+New Orleans, Louisiana, this 24th day of February, 2025.
+BRANDON S. LONG
+UNITED STATES DISTRICT JUDGE
+
+37 ECF No. 20.
+38 ECF No. 30.
+Case 2:23-cv-03258-BSL-DPC     Document 57     Filed 02/24/25     Page 15 of 15
