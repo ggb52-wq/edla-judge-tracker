@@ -95,9 +95,11 @@ class StoreTest(unittest.TestCase):
 class MotionEventTest(unittest.TestCase):
     def test_relief_names(self):
         for e in ["Compel", "Continue", "Leave to File Document", "Extension of Deadlines AND Continue", "Dismiss Case", "Amend/Correct",
-                  "Proceed In Forma Pauperis", "Motion to Dismiss", "Ex Parte/Consent Motion for Extension of Deadlines"]:
+                  "Proceed In Forma Pauperis", "Motion to Dismiss", "Ex Parte/Consent Motion for Extension of Deadlines",
+                  "Extension of Time to File Response/Reply", "Motion for Leave to File Reply", "Motion to Quash Notice of Deposition"]:
             self.assertTrue(update.is_motion_event(e), e)
         for e in ["Amended Complaint", "Order on Motion to Dismiss", "Reply to Response to Motion", "Notice of Voluntary Dismissal",
+                  "Response/Memorandum in Opposition to Motion", "Memorandum in Support of Motion to Dismiss", "Protective Order",
                   "Set Hearings", "Settlement Conference", "Judgment", "Answer to Amended Complaint", "Summons Issued"]:
             self.assertFalse(update.is_motion_event(e), e)
 

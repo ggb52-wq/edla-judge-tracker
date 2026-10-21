@@ -1,4 +1,5 @@
 """Offline test of scripts/update.py with recorded-shape responses. Run: python -m unittest discover tests"""
+import http.client
 import json
 import shutil
 import sys
@@ -166,6 +167,8 @@ class UpdateTest(unittest.TestCase):
         self.assertTrue(update.is_motion_event("Ex Parte/Consent Motion for Extension of Deadlines"))
         self.assertFalse(update.is_motion_event("Order on Motion to Dismiss"))
         self.assertFalse(update.is_motion_event("Reply to Response to Motion"))
+        self.assertFalse(update.is_order("Judgment on the Pleadings"))     # the motion's entry (2:24-cv-01607 doc 155)
+        self.assertTrue(update.is_order("Judgment"))
         self.assertIn("CourtListener HTTP 429", runs[-1]["note"])
         outcomes = {(r["case"], r["doc"]): r for r in json.loads((self.tmp / "data/outcomes.json").read_text())}
         self.assertEqual(outcomes[("2:26-cv-09003", "30")]["outcome"], "partial")       # from the docket text
@@ -251,6 +254,38 @@ class UpdateTest(unittest.TestCase):
         self.assertIn("CourtListener throttled (retry after 3600s)", runs[-1]["note"])
         self.assertIn("CourtListener 1 calls", runs[-1]["note"])                # one refusal ends the run's calls
 
+    def run_failing(self, fail):
+        """Run the updater with fake_get, except that fail(url) may raise for a CourtListener call."""
+        def failing_get(url, headers=None, timeout=45):
+            fail(url)
+            return fake_get(url, headers, timeout)
+        before = next(r for r in json.loads((self.tmp / "data/calendar.json").read_text()) if r["kind"] == "through")["date"]
+        with mock.patch.object(update, "DATA", self.tmp / "data"), mock.patch.object(update, "http_get", failing_get), \
+             mock.patch.object(update.time, "sleep", lambda s: None), mock.patch.dict("os.environ", ENV):
+            update.main()
+        through = next(r for r in json.loads((self.tmp / "data/calendar.json").read_text()) if r["kind"] == "through")["date"]
+        return json.loads((self.tmp / "data/runs.json").read_text())[-1], before, through
+
+    def test_failed_search_call_keeps_window(self):
+        # The written-opinion query fails mid-search: what it would have found is still ahead, so the window stays.
+        def fail(url):
+            if "is_free_on_pacer" in url:
+                raise urllib.error.HTTPError(url, 502, "Bad Gateway", {}, None)
+        run, before, through = self.run_failing(fail)
+        self.assertIn("window kept", run["note"])
+        self.assertFalse(run["searched"])
+        self.assertEqual(through, before)
+
+    def test_dropped_connection_is_logged(self):
+        # A connection dropped mid-response is a failed call, not a crash: the run log still records the calls made.
+        def fail(url):
+            if "type=rd" in url:
+                raise http.client.RemoteDisconnected("Remote end closed connection without response")
+        run, before, through = self.run_failing(fail)
+        self.assertIn("CourtListener RemoteDisconnected", run["note"])
+        self.assertGreater(run["cl_calls"], 0)
+        self.assertEqual(through, before)
+
     def run_rate_limited(self, runs, env=None):
         (self.tmp / "data/runs.json").write_text(json.dumps(runs))
         with mock.patch.object(update, "DATA", self.tmp / "data"), mock.patch.object(update, "http_get", fake_get), \
@@ -295,6 +330,14 @@ class UpdateTest(unittest.TestCase):
         through = next(r for r in json.loads((self.tmp / "data/calendar.json").read_text()) if r["kind"] == "through")["date"]
         self.assertEqual(through, before)
 
+    def test_lookups_leave_a_search(self):
+        # Free account, 110 of 125 daily calls used, no search due: lookups get 3 and leave 12 for the next search.
+        now = update.dt.datetime.now(update.CENTRAL)
+        run = self.run_rate_limited([{"at": (now - update.dt.timedelta(minutes=70)).isoformat(timespec="minutes"), "cl_calls": 110,
+                                      "searched": True, "note": ""}], {"COURTLISTENER_SEARCH_MINUTES": "180"})
+        self.assertFalse(run["searched"])
+        self.assertLessEqual(run["cl_calls"], 125 - 110 - update.SEARCH_RESERVE)
+
     def test_feed(self):
         # Every civil RSS entry is kept for the Activity page, newest first, once each, for FEED_DAYS days.
         old = {"at": "2026-09-01T09:00-05:00", "case": "2:26-cv-00001", "doc": "1", "event": "Complaint", "title": "Old v. Case", "judge": ""}
@@ -313,6 +356,19 @@ class UpdateTest(unittest.TestCase):
         self.assertEqual(feed[1]["judge"], "BSL")                                      # judge from earlier orders
         self.assertEqual(feed[2]["event"], "Response/Memorandum in Opposition to Motion")
         self.assertNotIn("2:26-cv-00001", json.dumps(feed))                            # older than FEED_DAYS: dropped
+
+    def test_rss_order_sharing_a_doc(self):
+        # The feed shows doc 20 twice, "~Util - Set/Reset Deadlines" first: the "[Order]" item still makes it an order.
+        two = RSS.replace(b"</channel>", b"""<item><title>2:26-cv-09001 Alpha v. Beta</title><link>x</link>
+<description>[~Util - Set/Reset Deadlines] (&lt;a href="x"&gt;20&lt;/a&gt;)</description><pubDate>Mon, 19 Oct 2026 15:09:00 GMT</pubDate></item>
+<item><title>2:26-cv-09001 Alpha v. Beta</title><link>x</link>
+<description>[Order] (&lt;a href="x"&gt;20&lt;/a&gt;)</description><pubDate>Mon, 19 Oct 2026 15:09:00 GMT</pubDate></item></channel>""")
+        with mock.patch.object(update, "DATA", self.tmp / "data"), \
+             mock.patch.object(update, "http_get", lambda url, *a, **k: two if url.startswith(update.RSS_URL) else fake_get(url, *a, **k)), \
+             mock.patch.object(update.time, "sleep", lambda s: None), mock.patch.dict("os.environ", ENV):
+            update.main()
+        orders = {(o["case"], o["doc"]): o for o in json.loads((self.tmp / "data/orders.json").read_text())}
+        self.assertEqual(orders[("2:26-cv-09001", "20")]["src"], "rss")
 
     def test_pending_items_unique(self):
         # An RSS item still pending from the last run appears once, not once per run.
@@ -426,6 +482,16 @@ class OutcomeTextTest(unittest.TestCase):
         self.assertEqual(m("IT IS ORDERED that the Motion for Summary Judgment is DENIED.", "Order on Motion for Summary Judgment", 0, 1), "")
         self.assertEqual(c("IT IS ORDERED that the status conference is CANCELLED. ... Accordingly, the Motion to Remand is GRANTED.",
                            "Order on Motion to Remand"), "granted")                     # falls back to the conclusion
+        # The page stamp names the order itself, and a cited case's parenthetical is not this ruling (2:24-cv-02118 doc 39).
+        stamped = ("Accordingly, plaintiffs failed to carry their burden.”), with Conner v. Penn Nat'l Gaming, Inc., 2023 WL 2439839, "
+                   "at *3 (E.D. La. 2023) (denying summary judgment to\nCase 2:24-cv-02118-WJC-MBN     Document 39     Filed 10/02/26     "
+                   "Page 7 of 8\n8\n\ndefendant as defendant had acknowledged the water). Jones' claim must be dismissed.\nIII. CONCLUSION\n"
+                   "Defendant Kendrick’s Motion for Summary Judgment (R. Doc. 33)\nis GRANTED.\nCase 2:24-cv-02118-WJC-MBN     "
+                   "Document 39     Filed 10/02/26     Page 8 of 8\n")
+        self.assertEqual(c(stamped, "Order on Motion for Summary Judgment", 0, 1), "granted")
+        self.assertEqual(m(stamped, "Order on Motion for Summary Judgment", 0, 1), "33")
+        self.assertEqual(m("IT IS ORDERED that the motion for leave is GRANTED.\nCase 2:25-cv-00662-JTM-MBN Document 56 Filed 09/17/26 "
+                           "Page 3 of 3", "Order on Motion for Extension of Deadlines"), "")
 
     def test_motion_rulings(self):
         self.assertTrue(update.rules_on_motion({"event": "Order on Motion to Dismiss/Failure to State a Claim"}))
@@ -438,6 +504,15 @@ class OutcomeTextTest(unittest.TestCase):
         self.assertTrue(update.outcome_due(out, row("3"), "2026-09-30"))     # known, but motion not yet looked for
         out["a|3"]["motion_doc"] = ""
         self.assertFalse(update.outcome_due(out, row("3"), "2026-10-11"))    # looked for once; not again
+        out["a|3"]["motion_doc"] = "2"                                        # known (Written Opinions Report), not yet dated
+        self.assertTrue(update.outcome_due(out, row("3"), "2026-10-11"))
+        refused = mock.Mock(get=lambda *a, **k: None)
+        update.fill_motion(refused, out, row("3"), "", "order", "900")
+        self.assertNotIn("motion_filed", out["a|3"])                          # an unanswered call is made again later
+        answered = mock.Mock(get=lambda *a, **k: {"results": []})
+        update.fill_motion(answered, out, {**row("3"), "date": "2026-10-01"}, "", "order", "900")
+        self.assertEqual(out["a|3"]["motion_filed"], "")                      # answered without a date: not asked again
+        self.assertFalse(update.outcome_due(out, row("3"), "2026-10-11"))
         self.assertTrue(update.outcome_due(out, row("1"), "2026-10-11"))     # automatic "unclear", a week old
         self.assertFalse(update.outcome_due(out, row("1"), "2026-09-30"))    # read too recently
         self.assertFalse(update.outcome_due(out, row("2"), "2026-10-11"))    # hand entry

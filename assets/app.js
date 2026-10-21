@@ -15,7 +15,9 @@
   const css = (name) => getComputedStyle(document.documentElement).getPropertyValue(name).trim();
   const $ = (id) => document.getElementById(id);
   const el = (tag, props, ...kids) => { const n = document.createElement(tag); Object.assign(n, props || {}); n.append(...kids.flat().filter((k) => k != null && k !== false)); return n; };
-  const store = { get: (k) => { try { return localStorage.getItem(k); } catch (e) { return null; } }, set: (k, v) => { try { localStorage.setItem(k, v); } catch (e) { /* storage unavailable */ } } };
+  // Where the browser blocks storage, settings and the watchlist last until the tab closes instead of not at all.
+  const mem = new Map();
+  const store = { get: (k) => { try { return localStorage.getItem(k); } catch (e) { return mem.has(k) ? mem.get(k) : null; } }, set: (k, v) => { try { localStorage.setItem(k, v); } catch (e) { mem.set(k, v); } } };
   const plural = (n, one, many) => fmt.int(n) + ' ' + (n === 1 ? one : (many || one + 's'));
 
   // Each written opinion falls in exactly one ruling type, checked in this order.
@@ -118,18 +120,19 @@
         nPages: pages.length, medPages: pages.length ? median(pages) : null,
         nHearing: asked.length, hearings: asked.filter((o) => o.hearing).length };
     };
+    const enrich = (o) => {
+      const r = OC.get(o.case + '|' + o.doc) || {};
+      const filed = /^\d{4}-\d{2}-\d{2}$/.test(r.motion_filed || '') ? r.motion_filed : '';
+      // A hearing question is asked only when the whole filing-to-ruling span falls inside the orders window.
+      const askHearing = !!filed && filed >= orStart && o.date >= orStart;
+      return { ...o, cat: category(o), mcat: motionCategory(o), oc: r.outcome || '', ocSrc: r.src || '', motionDoc: r.motion_doc || '',
+        filed, days: filed ? daysBetween(filed, o.date) : null, pages: Number(o.pages) > 0 ? Number(o.pages) : null,
+        hearing: askHearing ? (hearingDays[o.case] || []).some((d) => d >= filed && d <= o.date) : null };
+    };
     const opRows = [];
     const opinions = D.judges.map((j) => {
       const s = later(j.bench_start, opStart);
-      const R = D.opinions.filter((o) => o.judge === j.code && o.date >= s && o.date <= through).map((o) => {
-        const r = OC.get(o.case + '|' + o.doc) || {};
-        const filed = /^\d{4}-\d{2}-\d{2}$/.test(r.motion_filed || '') ? r.motion_filed : '';
-        // A hearing question is asked only when the whole filing-to-ruling span falls inside the orders window.
-        const askHearing = !!filed && filed >= orStart && o.date >= orStart;
-        return { ...o, cat: category(o), mcat: motionCategory(o), oc: r.outcome || '', ocSrc: r.src || '', motionDoc: r.motion_doc || '',
-          filed, days: filed ? daysBetween(filed, o.date) : null, pages: Number(o.pages) > 0 ? Number(o.pages) : null,
-          hearing: askHearing ? (hearingDays[o.case] || []).some((d) => d >= filed && d <= o.date) : null };
-      });
+      const R = D.opinions.filter((o) => o.judge === j.code && o.date >= s && o.date <= through).map(enrich);
       opRows.push(...R);
       const mix = zeroCats(); R.forEach((o) => { mix[o.cat] += 1; });
       const ch = R.filter((o) => !Number(o.rr));
@@ -206,7 +209,10 @@
     });
     orders.forEach((r) => { r.spark = weekly.map((w) => w[r.code]); });
 
-    const recent = opRows.slice().sort((a, b) => (b.date + b.case + b.doc).localeCompare(a.date + a.case + a.doc));
+    const newestFirst = (a, b) => (b.date + b.case + b.doc.padStart(6, '0')).localeCompare(a.date + a.case + a.doc.padStart(6, '0'));
+    const recent = opRows.slice().sort(newestFirst);
+    // Every opinion on file, whatever its date or judge, for case pages and the docket lists.
+    const allOpinions = D.opinions.map(enrich).sort(newestFirst);
 
     // Submitted motions: each motion from the feed, with the first later order or opinion in the same case that names
     // the same relief ("Compel" and "Order on Motion to Compel"), or an outcome that cites the motion's docket number,
@@ -224,7 +230,9 @@
       let ruled = ''; let ruling = null;
       if (cited.has(m.case + '|' + m.doc)) { ruled = citedDate[m.case + '|' + m.doc] || m.date; ruling = (byCase[m.case] || []).find((r) => r.doc === citedBy[m.case + '|' + m.doc]) || null; }
       else {
-        ruling = (byCase[m.case] || []).filter((r) => r.date >= m.date && keys.some((k) => r.event.includes(k))).sort((a, b) => a.date.localeCompare(b.date))[0] || null;
+        // Docket numbers run in order, so a ruling on the motion has a higher number than the motion itself.
+        ruling = (byCase[m.case] || []).filter((r) => r.date >= m.date && +r.doc > +m.doc && keys.some((k) => r.event.includes(k)))
+          .sort((a, b) => a.date.localeCompare(b.date) || +a.doc - +b.doc)[0] || null;
         if (ruling) ruled = ruling.date;
       }
       const past = !!m.submit && m.submit < through && !ruled;
@@ -242,7 +250,7 @@
     const sum = (rows, k) => d3.sum(rows, (r) => r[k]);
     const medOf = (vals, min = 1) => { const v = vals.filter((x) => x != null); return v.length >= min ? median(v) : null; };
     return {
-      through, names, opinions, orders, weekly, recent, monthly, hours, pooled, dowCourt, since: { orders: orStart, opinions: opStart }, workingDays: allDays.length,
+      through, names, opinions, orders, weekly, recent, allOpinions, monthly, hours, pooled, dowCourt, since: { orders: orStart, opinions: opStart }, workingDays: allDays.length,
       motions, allMotions, motionsSince, motionsByJudge: byJudge,
       totals: {
         orders: sum(orders, 'orders'), perDay: allDays.length ? sum(orders, 'orders') / allDays.length : 0,
@@ -282,8 +290,9 @@
     if (raw && !raw.includes('?') && raw.includes('=')) raw = '?' + raw;
     const [path, query] = raw.split('?');
     const p = new URLSearchParams(query || '');
-    let parts = decodeURIComponent(path || '').split('/').filter(Boolean);
-    if (LEGACY[parts[0]]) parts = LEGACY[parts[0]].concat(parts.slice(1));
+    let decoded = path || ''; try { decoded = decodeURIComponent(decoded); } catch (e) { /* a stray % in a typed address: read it as is */ }
+    let parts = decoded.split('/').filter(Boolean);
+    if (Object.hasOwn(LEGACY, parts[0] || '')) parts = LEGACY[parts[0]].concat(parts.slice(1));
     let page = PAGES.includes(parts[0]) ? parts[0] : 'judges';
     if (page === 'judges' && p.get('judge')) { page = 'judge'; parts = ['judge', p.get('judge')]; }
     if (p.has('vs')) state.vs = p.get('vs').split(',').map(judgeCode).filter(Boolean).slice(0, 3);
@@ -296,14 +305,15 @@
       const n = importWatch(p.get('w').split(','));
       state.importNote = n ? 'Added ' + plural(n, 'case') + ' from the link to your list.' : 'Every case in the link is already on your list.';
     }
-    if (page === 'calendar') state.cal = { week: /^\d{4}-\d{2}-\d{2}$/.test(p.get('week') || '') ? p.get('week') : '', judge: judgeCode(p.get('judge')),
+    const wk = p.get('week') || '';  // a real date ("2026-13-01" would stop the calendar from drawing)
+    if (page === 'calendar') state.cal = { week: /^\d{4}-\d{2}-\d{2}$/.test(wk) && !isNaN(utc(wk)) && iso(utc(wk)) === wk ? wk : '', judge: judgeCode(p.get('judge')),
       view: ['week', 'list'].includes(p.get('view')) ? p.get('view') : '', subs: p.get('subs') === '1' };
     if (page === 'activity') state.act = { q: p.get('q') || '', judge: judgeCode(p.get('judge')), kind: ACT_KINDS.some(([k]) => k === p.get('kind')) ? p.get('kind') : '',
       days: ['1', '3', '7', '14'].includes(p.get('days')) ? p.get('days') : '7', limit: 300 };
     if (page === 'compare') state.cmp = [...new Set((parts[1] || '').split(',').map(judgeCode).filter(Boolean))].slice(0, 4);
     if (page === 'court') state.view = VIEWS.some(([k]) => k === parts[1]) ? parts[1] : 'orders';
     if (page === 'opinions') {
-      const f = emptyFinder(); f.q = p.get('q') || ''; f.judge = judgeCode(p.get('judge')); f.type = typeLabel[p.get('type')] && p.get('type') !== '|' ? p.get('type') : '';
+      const f = emptyFinder(); f.q = p.get('q') || ''; f.judge = judgeCode(p.get('judge')); f.type = Object.hasOwn(typeLabel, p.get('type') || '') && p.get('type') !== '|' ? p.get('type') : '';
       f.oc = p.get('oc') || ''; f.pdf = p.get('pdf') === '1'; f.month = /^\d{4}-\d{2}$/.test(p.get('month') || '') ? p.get('month') : '';
       state.f = f;
     }
@@ -533,7 +543,8 @@
     const s = state.sorts[id] || (state.sorts[id] = { ...cfg.sort });
     const cols = cfg.cols.filter((c) => !(c.hide && c.hide(all)));
     const val = (r, c) => (c.sortVal ? c.sortVal(r) : r[c.k]);
-    const sortCol = cols.find((c) => c.k === s.k) || cols[0];
+    let sortCol = cols.find((c) => c.k === s.k);
+    if (!sortCol) { Object.assign(s, cfg.sort); sortCol = cols.find((c) => c.k === s.k) || cols[0]; }  // the sorted column is gone (another motion type)
     const rows = all.slice().sort((a, b) => { const x = val(a, sortCol); const y = val(b, sortCol); return (typeof x === 'number' ? x - y : String(x).localeCompare(String(y))) * s.dir || a.name.localeCompare(b.name); });
     const max = Object.fromEntries(cols.filter((c) => c.bar).map((c) => [c.k, d3.max(all, (r) => r[c.k]) || 1]));
     const head = el('thead');
@@ -1034,11 +1045,12 @@
   const ORDER_PREFIXES = ['order', 'text order', 'scheduling order', 'judgment', 'set hearings', 'set/reset', '~util', 'terminate hearings', 'terminate deadlines',
     'case transferred out', 'report and recommendations', 'pauper order', 'contempt order', 'certificate of appealability'];
   const splitEvents = (t) => (t || '').split(/\s+AND\s+|\s+\/\s+/).map((x) => x.trim()).filter(Boolean);
-  const isOrderEvent = (t) => splitEvents(t).some((e) => ORDER_PREFIXES.some((p) => e.toLowerCase().startsWith(p)));
+  // "Judgment on the Pleadings" alone is the feed's name for the motion, not a judgment.
+  const isOrderEvent = (t) => splitEvents(t).some((e) => !/^judgment on the pleadings/i.test(e) && ORDER_PREFIXES.some((p) => e.toLowerCase().startsWith(p)));
   // The feed often names a motion by its relief alone ("[Continue]" for a motion to continue, "[Reconsideration]").
   const RELIEF_RE = /^(?:proceed in forma pauperis|continue|expedite|reconsideration|extension of (?:time|deadlines)|leave to (?:file|amend|appeal|proceed)|dismiss|(?:partial )?summary judgment|judgment on the pleadings|compel|protective order|remand|stay|withdraw as attorney|enroll as counsel|substitute attorney|appear pro hac vice|default judgment|entry of default|quash|strike|in limine|exclude|intervene|amend|seal|attorney fees|sanctions|new trial|transfer|consolidate|miscellaneous relief|preliminary injunction|temporary restraining order|reopen|set aside|recuse|sever|bifurcate|certify class|vacate|substitute party|appoint counsel)\b/i;
   const isMotionEvent = (t) => (/^(?:[\w./-]+\s){0,2}motion\s+(?:to|for|in)\b/i.test(t || '') || splitEvents(t).some((e) => RELIEF_RE.test(e)))
-    && !/response|reply|opposition|order|notice|memorand|judgment entered/i.test(t || '');
+    && !/order|judgment entered|^(?:response|reply|opposition|notice|memorand)/i.test(t || '');  // as NOT_MOTION_RE in scripts/update.py
   // The relief a motion asks for, as words an order on it repeats: "Compel" and "Motion to Compel" give ["compel"];
   // "Extension of Deadlines AND Continue" gives ["extension of deadlines", "continue"].
   const reliefKeys = (t) => splitEvents(t).map((e) => {
@@ -1067,7 +1079,7 @@
   const cleanEvent = (t) => splitEvents(t).map((e) => e.replace(/\s*~Util\s*-\s*/gi, ' · ').replace(/^ · /, '')).join(' · ') || 'Docket entry';
   const actKind = (r) => (r.opinion ? 'opinion' : r.isOrder || isOrderEvent(r.event) ? 'order' : isMotionEvent(r.event) ? 'motion'
     : /^(?:(?:verified|class action|amended)\s+)?complaint\b|^notice of removal|^petition\b/i.test(r.event || '') && !/amended/i.test(r.event || '') ? 'newcase'
-      : /hearing|conference|trial|minute entry|oral argument/i.test(r.event || '') ? 'hearing' : 'filing');
+      : /hearing|conference|\btrial\b|minute entry|oral argument/i.test(r.event || '') ? 'hearing' : 'filing');  // not "Proposed Pretrial Order"
   let actCache = null;
   // Docket entries from every source, merged: the feed, orders, written opinions (with their outcome and links), and
   // motions. keep(row) picks the rows (by date for the Activity page, by case for a case page).
@@ -1078,7 +1090,12 @@
     const keyOf = (r) => (r.doc ? r.case + '|' + r.doc : r.case + '||' + r.event + '|' + r.date + (r.time || ''));
     feed.forEach((f) => {
       const r = { date: f.at.slice(0, 10), time: f.at.slice(11, 16), case: f.case, doc: f.doc, event: f.event, title: unEntity(f.title), judge: f.judge, feed: true };
-      if (keep(r) && !rows.has(keyOf(r))) rows.set(keyOf(r), r);
+      if (!keep(r)) return;
+      // The feed lists each event of a docket entry as its own item ("Status Conference", then "Order on Motion ..."
+      // for doc 380); they are one entry here, its events joined as CM/ECF joins them.
+      const prev = rows.get(keyOf(r));
+      if (!prev) rows.set(keyOf(r), r);
+      else if (r.doc && r.event && !splitEvents(prev.event).includes(r.event)) prev.event = prev.event ? prev.event + ' AND ' + r.event : r.event;
     });
     D.orders.forEach((o) => {
       if (!keep(o)) return;
@@ -1086,7 +1103,7 @@
       if (r) { r.isOrder = true; r.judge = r.judge || o.judge; r.title = r.title || o.title; if (!r.time && o.time) r.time = o.time; }
       else rows.set(keyOf(o), { date: o.date, time: o.time || '', case: o.case, doc: o.doc, event: o.event, title: o.title, judge: o.judge, isOrder: true });
     });
-    const full = new Map(S.recent.map((o) => [o.case + '|' + o.doc, o]));
+    const full = new Map(S.allOpinions.map((o) => [o.case + '|' + o.doc, o]));
     D.opinions.forEach((o) => {
       if (!keep(o)) return;
       const op = full.get(o.case + '|' + o.doc) || o; const r = rows.get(keyOf(o));
@@ -1180,12 +1197,14 @@
     const shortTo = new Map(); state.cases.forEach((c) => { if (/-cv-/.test(c.case) && c.yy && c.num) shortTo.set(c.yy + '-' + c.num, c.case); });
     const ev = []; const byKey = new Map();
     hs.forEach((h) => {
-      const cs = h.case || shortTo.get(h.case_short) || ''; const info = cases.get(cs) || {};
+      // A criminal matter's short number ("24-37 Rearraignment") is not the civil case 24-37 (as scripts/hearings.py).
+      const criminal = /\bcriminal\b|\b(?:re)?arraignment\b|\bsentencings?\b|\brevocation\b|\bplea\b/i.test(h.text || '') && !/\bcivil\b/i.test(h.text || '');
+      const cs = h.case || (criminal ? '' : shortTo.get(h.case_short)) || ''; const info = cases.get(cs) || {};
       const e = { date: h.date, time: h.time || '', judge: h.judge || info.judge || '', case: cs, short: h.case_short || shortOf(cs), title: h.title || info.title || '',
         what: h.what || 'Proceeding', room: h.room || '', text: h.text || '', src: h.src === 'court_calendar' ? 'court' : 'docket', doc: h.doc || '' };
       const k = e.date + '|' + e.judge + '|' + (e.case || e.short || e.text);
       const prev = byKey.get(k);
-      if (prev && !(prev.src === 'docket' && e.src === 'docket' && prev.what !== e.what)) {
+      if (prev && !(prev.src === e.src && prev.what !== e.what)) {  // two proceedings from one source (a trial and a hearing) both stay
         if (prev.src === 'docket' && e.src === 'court') { const doc = prev.doc; Object.assign(prev, e, { alsoDoc: doc }); }
         else if (e.src === 'docket') { prev.alsoDoc = e.doc; if (!prev.time) prev.time = e.time; }
         return;
@@ -1195,9 +1214,9 @@
     const A = activity(); const docketDocs = new Set(hs.filter((h) => h.src === 'docket_text').map((h) => h.case + '|' + h.doc));
     const pending = [];
     A.rows.forEach((r) => {
-      const first = splitEvents(r.event)[0] || '';
-      if (HELD_RE.test(first.replace(/\s*~Util.*$/i, '').trim())) {
-        ev.push({ date: r.date, time: '', entered: r.time, judge: r.judge, case: r.case, short: shortOf(r.case), title: r.title, what: first.trim(), room: '', text: cleanEvent(r.event), src: 'held', doc: r.doc });
+      const held = splitEvents(r.event).find((x) => HELD_RE.test(x.replace(/\s*~Util.*$/i, '').trim()));
+      if (held) {
+        ev.push({ date: r.date, time: '', entered: r.time, judge: r.judge, case: r.case, short: shortOf(r.case), title: r.title, what: held.trim(), room: '', text: cleanEvent(r.event), src: 'held', doc: r.doc });
       }
       if (SETTING_RE.test(r.event || '') && !docketDocs.has(r.case + '|' + r.doc)) pending.push(r);
     });
@@ -1215,7 +1234,7 @@
   }
   function calWeek() {
     const C = state.cal; const E = calEvents();
-    const start = C.week || mondayOf(todayIso()); const end = addDays(start, 6);
+    const start = mondayOf(C.week || todayIso()); const end = addDays(start, 6);
     const events = E.events.filter((e) => e.date >= start && e.date <= end && (!C.judge || e.judge === C.judge) && (C.subs || (e.src !== 'subs' && e.src !== 'subday')));
     return { start, end, events };
   }
@@ -1295,7 +1314,7 @@
   const JUDGE_LIST = 'https://www.laed.uscourts.gov/judges-information/district-judges';
   const SAFE_URL = /^(https?:\/\/|mailto:)/i;
   const sectionOf = (code) => ((state.pages[code] || {}).contact || {}).section || '';
-  const todayIso = () => iso(new Date());
+  const todayIso = () => ctToday();  // the court's date, not UTC's (which turns over at 6 or 7 PM Central)
   // A document or section counts as new for 60 days after the first time the site saw it change, never on the first read.
   const isFresh = (d) => { const since = (state.data.judge_pages || {}).since || ''; return !!d && d > since && d >= addDays(todayIso(), -60); };
   const words = (q) => q.toLowerCase().split(/[^a-z0-9'’&/-]+/i).filter((w) => w.length >= 2);
@@ -1428,9 +1447,15 @@
   const judgePicks = () => readJson('edla-case-judge', {});
   function setJudgePick(id, code) { const p = judgePicks(); if (code) p[id] = code; else delete p[id]; store.set('edla-case-judge', JSON.stringify(p)); caseCache = null; }
   const stampOf = (r) => r.date + 'T' + (r.time || '00:00');
+  // Now, in Central time like the docket's own stamps ("2026-10-21T14:05").
+  const nowStamp = () => { const p = Object.fromEntries(new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Chicago', year: 'numeric', month: '2-digit', day: '2-digit',
+    hour: '2-digit', minute: '2-digit', hourCycle: 'h23' }).formatToParts(new Date()).map((x) => [x.type, x.value])); return `${p.year}-${p.month}-${p.day}T${p.hour}:${p.minute}`; };
+  // Entries after this stamp are new. A case watched with nothing on file yet (or added from a shared link before this
+  // was stamped) counts from the day it was added.
+  const seenOf = (w) => (w ? w.seen || (w.added ? w.added + 'T00:00' : '') : '');
   function toggleWatch(id) {
     const w = watchList(); const i = w.findIndex((x) => x.case === id);
-    if (i >= 0) w.splice(i, 1); else w.unshift({ case: id, added: todayIso(), seen: caseData(id).latest });
+    if (i >= 0) w.splice(i, 1); else w.unshift({ case: id, added: todayIso(), seen: caseData(id).latest || nowStamp() });
     saveWatch(w);
   }
   function markSeen(id, stamp) { const w = watchList(); const x = w.find((y) => y.case === id); if (x && stamp && stamp > (x.seen || '')) { x.seen = stamp; saveWatch(w); } }
@@ -1444,7 +1469,7 @@
     if (caseMemo.has(id)) return caseMemo.get(id);
     const info = state.cases.find((c) => c.case === id) || null;
     const entries = mergeEntries((r) => r.case === id);
-    const feedRow = (D.feed || []).find((f) => f.case === id && f.judge);
+    const feedRow = (D.feed || []).find((f) => f.case === id && S.names[f.judge]);
     const picked = judgePicks()[id] && S.names[judgePicks()[id]] ? judgePicks()[id] : '';
     const known = (info && info.judge) || (feedRow && feedRow.judge) || entries.map((e) => e.judge).find((j) => S.names[j]) || '';
     const cal = calEvents().events.filter((e) => e.case === id && e.src !== 'subs' && e.src !== 'subday');
@@ -1452,7 +1477,7 @@
     const out = {
       id, info, entries, judge: known || picked, judgePicked: !known && !!picked, title: (info && info.title) || (entries.find((e) => e.title) || {}).title || (cal.find((e) => e.title) || {}).title || '',
       motions: S.allMotions.filter((m) => m.case === id).sort((a, b) => b.date.localeCompare(a.date) || (+b.doc || 0) - (+a.doc || 0)),
-      opinions: S.recent.filter((o) => o.case === id),
+      opinions: S.allOpinions.filter((o) => o.case === id),
       upcoming: cal.filter((e) => e.date >= today && e.src !== 'held'), held: cal.filter((e) => e.date < today || e.src === 'held').reverse(),
       latest: entries.length ? stampOf(entries[0]) : '',
     };
@@ -1546,7 +1571,9 @@
     'RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU', 'END:DAYLIGHT', 'BEGIN:STANDARD', 'TZOFFSETFROM:-0500', 'TZOFFSETTO:-0600', 'TZNAME:CST', 'DTSTART:19701101T020000',
     'RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU', 'END:STANDARD', 'END:VTIMEZONE'];
   const icsText = (t) => String(t || '').replace(/\\/g, '\\\\').replace(/;/g, '\\;').replace(/,/g, '\\,').replace(/\r?\n/g, '\\n');
-  const icsFold = (line) => { const out = []; let rest = line; while (rest.length > 74) { out.push(rest.slice(0, 74)); rest = ' ' + rest.slice(74); } out.push(rest); return out.join('\r\n'); };
+  // Lines fold at 75 octets (RFC 5545), counted in UTF-8 so "·" and accented names stay within it, never splitting a character.
+  const utf8 = new TextEncoder();
+  const icsFold = (line) => { const out = []; let cur = ''; let n = 0; for (const ch of line) { const b = utf8.encode(ch).length; if (n + b > 75) { out.push(cur); cur = ' '; n = 1; } cur += ch; n += b; } out.push(cur); return out.join('\r\n'); };
   function icsFile(events, name) {
     const S = state.stats; const stamp = new Date().toISOString().replace(/[-:]/g, '').slice(0, 15) + 'Z';
     const lines = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//EDLA Analyzer//Case settings//EN', 'CALSCALE:GREGORIAN', ...ICS_TZ];
@@ -1576,7 +1603,7 @@
     const S = state.stats; const id = state.caseId; const C = caseData(id); const today = ctToday();
     const name = S.names[C.judge] || '';
     const w = watchList().find((x) => x.case === id);
-    if (!state.caseSeen || state.caseSeen.id !== id) state.caseSeen = { id, prev: w ? w.seen || '' : '' };
+    if (!state.caseSeen || state.caseSeen.id !== id) state.caseSeen = { id, prev: seenOf(w) };
     const prev = state.caseSeen.prev;
     if (w) markSeen(id, C.latest);
     document.title = (C.title || id) + ' · EDLA Analyzer';
@@ -1705,7 +1732,7 @@
     if (!list.length && cq && cq.num.length >= 3) list = state.cases.filter((c) => c.num.startsWith(cq.num) && (!cq.yy || c.yy === cq.yy));
     if (!cq && lc.length >= 2) list = state.cases.filter((c) => lc.split(/\s+/).every((w) => c.lt.includes(w)));
     list = list.slice().sort((a, b) => b.last.localeCompare(a.last)).slice(0, 8);
-    const id = normCase(t);
+    const id = /\D/.test(t.replace(/\s/g, '')) ? normCase(t) : '';  // a bare "1933" is a docket number to match above, not 2:19-cv-00033
     if (id && !list.some((c) => c.case === id)) list.push({ case: id, title: '', judge: '', last: '', missing: true });
     return list;
   }
@@ -1728,7 +1755,7 @@
     if (state.importNote) { $('cl-note').textContent = state.importNote; $('cl-note').hidden = false; state.importNote = ''; } else $('cl-note').hidden = true;
     drawLookup();
     const rows = W.map((w) => ({ w, C: caseData(w.case) }));
-    const fresh = rows.flatMap(({ w, C }) => C.entries.filter((e) => w.seen && stampOf(e) > w.seen).map((e) => ({ ...e, C })));
+    const fresh = rows.flatMap(({ w, C }) => C.entries.filter((e) => seenOf(w) && stampOf(e) > seenOf(w)).map((e) => ({ ...e, C })));
     $('cw-count').textContent = W.length ? plural(W.length, 'case') : '';
     $('cw-empty').hidden = W.length > 0;
     $('cw-table').hidden = !W.length; $('cw-tools').hidden = !W.length;
@@ -1738,7 +1765,7 @@
     }
     const head = el('thead', {}, el('tr', {}, ...['Case', 'Name', 'Judge', 'New', 'Pending motions', 'Next setting', 'Latest entry', ''].map((c, i) => el('th', { textContent: c, className: i === 3 || i === 4 ? 'r' : '' }))));
     const body = el('tbody', {}, ...rows.sort((a, b) => b.C.latest.localeCompare(a.C.latest)).map(({ w, C }) => {
-      const n = w.seen ? C.entries.filter((e) => stampOf(e) > w.seen).length : 0;
+      const n = seenOf(w) ? C.entries.filter((e) => stampOf(e) > seenOf(w)).length : 0;
       const pend = C.motions.filter((m) => !m.ruled).length; const nx = C.upcoming[0];
       const tr = el('tr', { className: 'go' + (n ? ' has-new' : '') }); tr.dataset.href = caseHref(C.id);
       tr.append(el('td', { className: 'txt' }, caseNumLink(C.id, '', 'case')),
@@ -1762,7 +1789,7 @@
   }
   function importWatch(list) {
     const w = watchList(); let added = 0;
-    list.map(normCase).filter(Boolean).forEach((id) => { if (!w.some((x) => x.case === id)) { w.push({ case: id, added: todayIso(), seen: '' }); added += 1; } });
+    list.map(normCase).filter(Boolean).forEach((id) => { if (!w.some((x) => x.case === id)) { w.push({ case: id, added: todayIso(), seen: nowStamp() }); added += 1; } });
     saveWatch(w);
     return added;
   }
@@ -1770,7 +1797,7 @@
   function drawHomeCases() {
     const W = watchList(); const box = $('home-cases');
     box.hidden = !W.length; if (!W.length) return;
-    const rows = W.map((w) => { const C = caseData(w.case); return { C, n: w.seen ? C.entries.filter((e) => stampOf(e) > w.seen).length : 0 }; })
+    const rows = W.map((w) => { const C = caseData(w.case); return { C, n: seenOf(w) ? C.entries.filter((e) => stampOf(e) > seenOf(w)).length : 0 }; })
       .sort((a, b) => b.n - a.n || b.C.latest.localeCompare(a.C.latest)).slice(0, 6);
     $('home-cases-list').replaceChildren(...rows.map(({ C, n }) => el('li', {}, caseNumLink(C.id, '', 'case'), el('span', { className: 'nm', textContent: C.title || '' }),
       n ? el('span', { className: 'badge', textContent: n + ' new' }) : el('span', { className: 'dim', textContent: C.entries.length ? fmtShort(C.entries[0].date) : '' }))));
@@ -1872,7 +1899,9 @@
   }
   function downloadCsv(which) {
     if (!state.stats) return;
-    const text = csvRows(which).map((row) => row.map((v) => { const s = v == null ? '' : String(v); return /[",\n]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s; }).join(',')).join('\n');
+    // Case names and docket text come from whoever files: a value a spreadsheet would read as a formula is kept as text.
+    const cell = (v) => { let s = v == null ? '' : String(v); if (typeof v === 'string' && /^[=+\-@\t\r]/.test(s)) s = "'" + s; return /[",\n\r]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s; };
+    const text = csvRows(which).map((row) => row.map(cell).join(',')).join('\n');
     const name = which === 'op' ? 'opinions' : which === 'cal' ? 'calendar' : which === 'act' ? 'activity' : which === 'mt' ? 'motions' : which === 'mj' ? 'motions-by-judge' : 'court-' + state.view;
     const a = el('a', { href: URL.createObjectURL(new Blob([text + '\n'], { type: 'text/csv' })), download: `edla-${name}-${state.stats.through}.csv` });
     document.body.append(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 1000);
@@ -1946,7 +1975,7 @@
     const S = state.stats;
     if (state.page === 'judge' && !S.names[state.judge]) state.page = 'judges';
     document.body.dataset.page = state.page;
-    if (state.page !== 'case') { state.caseSeen = null; state.caseAll = false; state.caseAllDecided = false; }
+    if (state.page !== 'case' || (state.caseSeen && state.caseSeen.id !== state.caseId)) { state.caseSeen = null; state.caseAll = false; state.caseAllDecided = false; }
     PAGES.forEach((p) => { $('page-' + p).hidden = p !== state.page; });
     document.querySelectorAll('[data-nav]').forEach((a) => {
       const k = a.dataset.nav; a.href = hashFor(k, { f: emptyFinder(), mt: { view: 'past' }, view: 'orders' });
@@ -1977,13 +2006,14 @@
       state.data = Object.fromEntries(names.map((n, i) => [n, files[i]]));
       state.cases = buildCases(state.data);
       state.pages = Object.fromEntries(((state.data.judge_pages || {}).judges || []).map((r) => [r.code, r]));
-      $('status').textContent = '';
-      readHash();  // again, now that judge names can be resolved
-      update();
-      refreshData();
     } catch (e) {
       const s = $('status'); s.textContent = 'The data files did not load. Reload the page to try again.'; s.className = 'status err';
+      return;
     }
+    $('status').textContent = '';
+    refreshData();  // started first, so a drawing error below does not stop the page from staying current
+    readHash();  // again, now that judge names can be resolved
+    update();
   }
 
   // ------------------------------------------------------------ wiring
@@ -2038,7 +2068,9 @@
   // v, the check time, makes each read after a new check a fresh address, so no cached copy from before it is served.
   const getJson = (base, n, v) => fetch(base + n + '.json' + (v ? '?v=' + encodeURIComponent(v) : ''), { cache: 'no-cache' })
     .then((r) => (r.ok ? r.json() : null)).catch(() => null);
-  const latestRun = (runs) => (runs || []).map((r) => String(r.at)).reduce((a, b) => (b > a ? b : a), '');
+  // Stamps carry a UTC offset ("2026-11-01T01:10-06:00"), so they are compared as instants, not as text.
+  const when = (s) => Date.parse(s || '') || 0;
+  const latestRun = (runs) => (runs || []).reduce((a, r) => Math.max(a, when(r.at)), 0);
   let refreshing = false;
   async function refreshData() {
     if (!state.data || refreshing || document.visibilityState !== 'visible') return;
@@ -2047,7 +2079,7 @@
       let base = RAW || 'data/';
       let st = await getJson(base, 'status');
       if (!st && RAW) { base = 'data/'; st = await getJson(base, 'status'); }
-      if (!st || !st.checked || st.checked <= (state.data.status || {}).checked) return;
+      if (!st || !st.checked || when(st.checked) <= when((state.data.status || {}).checked)) return;
       const runs = await getJson(base, 'runs', st.checked);
       const fresh = runs && latestRun(runs) > latestRun(state.data.runs);
       if (fresh) {
@@ -2097,11 +2129,17 @@
     if (e.key === '/' && !typing && !e.metaKey && !e.ctrlKey) {
       const o = omnis.find((x) => x.root.offsetParent !== null && getComputedStyle(x.root).visibility !== 'hidden');
       if (o) { e.preventDefault(); o.input.focus(); }
-    } else if ((e.key === '[' || e.key === ']') && !typing && state.page === 'judge') {
+    } else if ((e.key === '[' || e.key === ']') && !typing && !e.metaKey && !e.ctrlKey && !e.altKey && state.page === 'judge') {
       location.hash = $(e.key === '[' ? 'j-prev' : 'j-next').getAttribute('href');
     } else if (e.key === 'Escape' && typing) document.activeElement.blur();
   });
-  window.addEventListener('hashchange', () => { readHash(); update(); });
+  window.addEventListener('hashchange', () => {
+    // A link within the page ("Skip to content", a case page's figures) names an element, not a page: go to it and keep the address.
+    const id = location.hash.slice(1);
+    const target = /^[\w-]+$/.test(id) && !PAGES.includes(id) && !Object.hasOwn(LEGACY, id) ? document.getElementById(id) : null;
+    if (target) { writeHash(); target.scrollIntoView(); if (target.hasAttribute('tabindex')) target.focus({ preventScroll: true }); return; }
+    readHash(); update();
+  });
   let rt; window.addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(() => state.stats && render(), 150); });
   readHash();
   load();

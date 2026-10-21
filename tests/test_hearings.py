@@ -59,6 +59,8 @@ class DocketTextTest(unittest.TestCase):
                          [{"date": "2026-11-12", "time": "14:00", "what": "Telephone Status Conference"}])
         self.assertEqual(hearings.settings_from_text("Oral Argument set for 13/40/2026", self.TODAY), [])
         self.assertEqual(hearings.settings_from_text("Status Conference set for 1/5/2031 10:00 AM", self.TODAY), [])  # too far out
+        self.assertEqual(hearings.settings_from_text("ORDER: The Telephone Status Conference set for 11/4/2026 is CANCELLED.", self.TODAY), [])
+        self.assertEqual(hearings.settings_from_text("The Jury Trial set for 12/7/2026 at 8:30 a.m. is hereby CONTINUED.", self.TODAY), [])
 
     def test_merge(self):
         old = [
@@ -84,13 +86,15 @@ class UpdaterTest(unittest.TestCase):
     def test_update_hearings(self):
         entries = {("2:26-cv-09002", "22"): {"kind": "cv", "judge": "JTM", "title": "Gamma v. Delta",
                                              "text": "ORDER: Oral Argument set for 11/12/2026 10:00 AM before Judge Jane Triche Milazzo."}}
-        rows = [{"case": "2:24-cv-01933", "judge": "WBV"}]
+        rows = [{"case": "2:24-cv-01933", "judge": "WBV"}, {"case": "2:21-cv-00138", "judge": "SSV"}]
         note = []
         with mock.patch.object(update, "http_get", lambda url, *a, **k: CAL.encode()):
             out = update.update_hearings([], entries, {"2:24-cv-01933": "WBV"}, JUDGES, rows,
                                          dt.datetime(2026, 10, 19, 9, 0, tzinfo=update.CENTRAL), note)
         trial = next(r for r in out if r["judge"] == "WBV")
         self.assertEqual(trial["case"], "2:24-cv-01933")   # "24-1933" matched to the civil case on file
+        revocation = next(r for r in out if r["judge"] == "ILRL")
+        self.assertEqual(revocation["case"], "")            # criminal 21-138, not civil 2:21-cv-00138
         arg = next(r for r in out if r["src"] == "docket_text")
         self.assertEqual((arg["date"], arg["time"], arg["judge"], arg["case"], arg["doc"]), ("2026-11-12", "10:00", "JTM", "2:26-cv-09002", "22"))
         self.assertIn("court calendar 5 proceedings over 3 days", note)

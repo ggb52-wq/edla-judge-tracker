@@ -40,6 +40,12 @@ _FLAG_FOCUS = {
     "r56": r"summary\s+judgment",
 }
 SEGMENT_CHARS = 400
+# Not the ruling's own words: the CM/ECF stamp atop each page ("Case 2:24-cv-02118-WJC-MBN Document 39 Filed 10/02/26
+# Page 7 of 8"), which names the order's own docket number, and citation parentheticals describing another court's
+# ruling ("(denying summary judgment where ...)").
+_STAMP = re.compile(r"(?:Case\s+\d:\d{2}-[a-z]{2}-\d+\S*\s+)?Document\s*\d{1,5}(?:-\d+)?\s*Filed\s*\d{1,2}/\d{1,2}/\d{2,4}"
+                    r"(?:\s*Page\s*\d+\s*of\s*\d+)?", re.I)
+_CITED_RULING = re.compile(r"\(\s*(?:granting|denying)\b[^()]*\)", re.I)
 
 
 def _focus(event: str, r12: int, r56: int) -> tuple[re.Pattern | None, int]:
@@ -102,6 +108,8 @@ def _picked(text: str, event: str, r12: int, r56: int, source: str):
     """Yield (segments about the motion this ruling is counted for, one_motion) for each place worth reading:
     the "IT IS ORDERED" paragraphs first, then (for an order) the conclusion."""
     focus, kinds = _focus(event, r12, r56)
+    if source != "docket":
+        text = _CITED_RULING.sub(" ", _STAMP.sub(" ", text))
     tries = [_segments(text, source)] + ([_conclusion(text)] if source == "order" else [])
     for segs in tries:
         focused = [s for s in segs if focus and focus.search(s)]

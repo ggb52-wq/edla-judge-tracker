@@ -101,6 +101,13 @@ class JudgePagesTest(unittest.TestCase):
         self.assertTrue(all(d["first_seen"] == "2026-10-20" for d in r["docs"]))
         self.assertTrue(all(s["changed"] == "" for s in r["sections"]))   # nothing is "changed" on the first read
 
+    def test_staff_named_in_a_tab(self):
+        # A requirement tab that names a staff member keeps the role, not the name (as two tabs did in Oct. 2026).
+        page = PAGE.replace("Stand when making an objection.", "To reset a conference, contact Jenny Doe, Judicial Assistant at (504) 589-7585.")
+        r = next(x for x in self.run_once(page)["judges"] if x["code"] == "NJB")
+        self.assertNotIn("Jenny Doe", json.dumps(r))
+        self.assertIn("contact the Judicial Assistant at (504) 589-7585.", json.dumps(r))
+
     def test_changes(self):
         self.run_once()
         page = PAGE.replace("Stand when making an objection.", "Stand when making any objection.").replace(

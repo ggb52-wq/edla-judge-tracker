@@ -37,6 +37,15 @@ KIND_RE = re.compile(r"jury trial|bench trial|trial|oral argument|evidentiary he
 # "Status Conference set for 11/4/2026 10:00 AM", "Jury Trial reset for 3/1/2027 at 8:30 a.m.", "Oral Argument set for 11/12/2026".
 SET_RE = re.compile(r"((?:[A-Za-z][\w/&'-]*\s+){0,4}?(?:Conference|Hearing|Trial|Argument))\s+(?:is\s+|was\s+|has been\s+)?(?:re-?)?set\s+"
                     r"(?:for|on)\s+(\d{1,2})/(\d{1,2})/(\d{2,4})(?:\s+(?:at\s+)?(\d{1,2}:\d{2}\s*[AaPp]\.?\s*[Mm]\.?))?", re.I)
+# A criminal matter on the court's calendar ("24-37 Rearraignment", "26-211 Criminal Hearing", "21-138 USA v. Reed- Revocation")
+# carries a short number like a civil case's, so it is never matched to the civil case with the same year and number.
+CRIMINAL_RE = re.compile(r"\bcriminal\b|\b(?:re)?arraignment\b|\bsentencings?\b|\brevocation\b|\bplea\b", re.I)
+
+
+def is_criminal(text: str) -> bool:
+    return bool(CRIMINAL_RE.search(text or "")) and not re.search(r"\bcivil\b", text or "", re.I)
+
+
 LEAD_WORDS = {"a", "an", "the", "order", "orders", "scheduling", "minute", "entry", "and", "by", "setting", "that", "court", "hearings",
               "notice", "of", "is", "are", "accordingly", "it", "ordered", "further", "regarding", "re", "on", "to", "in"}
 
@@ -106,10 +115,18 @@ def parse_court_calendar(html: str, judges: list[dict]) -> tuple[list[dict], lis
     return rows, dates
 
 
+# "The Status Conference set for 11/4/2026 is CANCELLED": the entry takes a setting off, it does not make one.
+UNSET_RE = re.compile(r"(?:\s+before\s+(?:Magistrate\s+|District\s+)?Judge(?:\s+[A-Z][\w.'-]*){1,4})?\s*,?\s*"
+                      r"(?:is|are|was|has\s+been|shall\s+be)\s+(?:hereby\s+)?"
+                      r"(?:cancell?ed|continued|vacated|terminated|reset|rescheduled|upset|withdrawn)\b", re.I)
+
+
 def settings_from_text(text: str, today: dt.date) -> list[dict]:
     """Proceedings a docket entry's text sets, with their dates and times."""
     out = []
     for m in SET_RE.finditer(text or ""):
+        if UNSET_RE.match(text, m.end()):
+            continue
         words = m.group(1).split()
         while words and words[0].lower().strip(":.,;") in LEAD_WORDS:
             words.pop(0)

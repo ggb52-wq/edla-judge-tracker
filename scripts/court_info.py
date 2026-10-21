@@ -142,8 +142,9 @@ def update_notices(old: dict, http_get, now: dt.datetime, note: list) -> dict:
     try:
         fresh = parse_news(http_get(NEWS))
         known = {n["url"]: n for n in out["news"]}
+        first_read = not known
         for n in fresh:  # the first read marks nothing new
-            n["first_seen"] = known[n["url"]].get("first_seen", "") if n["url"] in known else (today if known else "")
+            n["first_seen"] = known[n["url"]].get("first_seen", "") if n["url"] in known else ("" if first_read else today)
             known[n["url"]] = n
         out["news"] = sorted(known.values(), key=lambda n: (n["date"], n["url"]), reverse=True)[:NEWS_KEEP]
     except Exception as e:
@@ -153,7 +154,8 @@ def update_notices(old: dict, http_get, now: dt.datetime, note: list) -> dict:
         if rows:
             seen = {r["url"]: r.get("first_seen", "") for r in out["orders"]}
             for r in rows:
-                r["first_seen"] = seen.get(r["url"]) or (today if out["orders"] else "")  # the first read marks nothing new
+                # the first read marks nothing new, and an order it stamped "" stays that way
+                r["first_seen"] = seen[r["url"]] if r["url"] in seen else (today if out["orders"] else "")
             out["orders"] = sorted(rows, key=lambda r: (r["date"], r["title"]), reverse=True)
     except Exception as e:
         note.append(f"general orders unavailable ({type(e).__name__})")
@@ -165,7 +167,7 @@ CA5_ITEM_RE = re.compile(r"^(\d\d-\d{5})\s+(.*)$")
 ORIGIN_RE = re.compile(r"Appeal\s+from\s+the\s+United\s+States\s+District\s+Court\s+for\s+the\s+(\w+)\s+District\s+of\s+(\w+)", re.I)
 USDC_RE = re.compile(r"USDC\s+No\.?\s*(\d):(\d\d)-(CV|CR|MC)-0*(\d{1,5})", re.I)
 # The judgment in capitals, as a past participle ("AFFIRMED.") or a verb ("We AFFIRM", "we DISMISS the appeal").
-DISPOSITION_RE = re.compile(r"\b(AFFIRM(?:ED)?|REVERSE[D]?|VACATE[D]?|REMAND(?:ED)?|RENDER(?:ED)?|MODIF(?:Y|IED)|DISMISS(?:ED)?)\b(\s+IN\s+PART)?")
+DISPOSITION_RE = re.compile(r"\b(AFFIRM(?:ED)?|REVERSE[D]?|VACATE[D]?|REMAND(?:ED)?|RENDER(?:ED)?|MODIF(?:Y|IED)|DISMISS(?:ED)?)\b((?i:\s+in\s+part))?")
 LOWER_RE = re.compile(r"\b(?:we|court)\s+(?:therefore\s+|accordingly\s+|thus\s+)?(affirm|reverse|vacate|dismiss|remand)\b", re.I)
 PAST = {"AFFIRM": "AFFIRMED", "REVERSE": "REVERSED", "VACATE": "VACATED", "REMAND": "REMANDED", "RENDER": "RENDERED", "MODIFY": "MODIFIED",
         "DISMISS": "DISMISSED"}
@@ -190,7 +192,7 @@ def parse_ca5_feed(xml: bytes) -> list[dict]:
 def disposition(text: str) -> str:
     """The judgment line in capitals ('AFFIRMED.', 'VACATED and REMANDED.', 'we DISMISS the appeal'), from the
     majority opinion: text after a 'dissenting:' or 'concurring:' heading is left out."""
-    body = re.split(r"Circuit\s+Judge,\s+(?:dissenting|concurring)", text or "", maxsplit=1)[0]
+    body = re.split(r"(?:Circuit|Chief)\s+Judge,\s+(?:dissenting|concurring)", text or "", maxsplit=1)[0]
     body = re.sub(r"\bON\s+REMAND\s+FROM\b", " ", body)  # a heading on opinions after remand, not the judgment
     words = [(m.group(1), bool(m.group(2))) for m in DISPOSITION_RE.finditer(body)]
     if not words:  # some opinions state it in lower case at the end: "we affirm the district court's judgment"

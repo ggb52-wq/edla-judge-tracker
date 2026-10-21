@@ -101,6 +101,17 @@ class NoticesTest(unittest.TestCase):
         out = court_info.update_notices({}, get, now, [])
         self.assertEqual(out["orders"][0]["first_seen"], "")
         self.assertEqual(out["news"][0]["first_seen"], "")
+        # Later reads keep the first read's items unmarked and mark only what is new (all 139 orders read "New" in Oct. 2026).
+        news2 = NEWS.replace(b"<item><title>Elsewhere", b"<item><title>Ceremony</title><link>https://www.laed.uscourts.gov/content/ceremony</link>"
+                             b"<pubDate>Fri, 16 Oct 2026 14:00:00 +0000</pubDate></item><item><title>Elsewhere")
+        orders2 = ORDERS.replace("<tr class=\"even\">", "<tr><td><span content=\"2026-10-20T00:00:00-05:00\">10/20/2026</span></td><td>"
+                                 "<a href=\"https://www.laed.uscourts.gov/sites/default/files/general-orders/new.pdf\">New Order</a></td></tr><tr class=\"even\">")
+        later = now + dt.timedelta(hours=7)
+        out = court_info.update_notices(out, lambda url, *a: news2 if url == court_info.NEWS else orders2.encode(), later, [])
+        self.assertEqual({o["title"]: o["first_seen"] for o in out["orders"]}, {"New Order": "2026-10-20", out["orders"][1]["title"]: ""})
+        self.assertEqual({n["title"]: n["first_seen"] for n in out["news"]}, {"Ceremony": "2026-10-20", "Kristen D. Amond Selected as U.S. Magistrate Judge": ""})
+        first = court_info.update_notices({}, lambda url, *a: news2 if url == court_info.NEWS else ORDERS.encode(), now, [])
+        self.assertEqual({n["first_seen"] for n in first["news"]}, {""})   # every item on the first read, not only the first one
 
 
 class FifthCircuitTest(unittest.TestCase):
@@ -120,6 +131,8 @@ class FifthCircuitTest(unittest.TestCase):
         self.assertEqual(court_info.disposition("Accordingly, we affirm the district court's judgment."), "Affirmed")
         self.assertEqual(court_info.disposition("No judgment stated here."), "")
         self.assertEqual(court_info.disposition("ON REMAND FROM THE SUPREME COURT ... We once again enforce the waiver and DISMISS the appeal."), "Dismissed")
+        self.assertEqual(court_info.disposition("we AFFIRM in part, REVERSE in part, and REMAND."), "Affirmed in part, reversed in part and remanded")
+        self.assertEqual(court_info.disposition("We AFFIRM. Jennifer Walker Elrod, Chief Judge, dissenting: I would REVERSE."), "Affirmed")
 
     def test_update(self):
         now = dt.datetime(2026, 10, 20, 7, 0, tzinfo=dt.timezone(dt.timedelta(hours=-5)))

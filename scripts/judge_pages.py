@@ -161,8 +161,13 @@ def inline(node: Node, out: list) -> None:
             inline(k, out)
 
 
+# Staff names are never kept: "contact Jenny Doe, Judicial Assistant at (504) ..." is kept as "contact the Judicial Assistant at ...".
+STAFF_NAME_RE = re.compile(r"\b[A-Z][a-z'’.-]+(?:\s+[A-Z]\.)?(?:\s+[A-Z][a-z'’-]+){1,2},\s+(?=(?:Judicial Assistant|(?:Career |Term )?Law Clerk|"
+                           r"Case Manager|Courtroom Deputy|Secretary)\b)")
+
+
 def tidy(segs: list) -> list:
-    """Merge neighboring strings, collapse spaces, and drop empty pieces."""
+    """Merge neighboring strings, collapse spaces, drop staff names, and drop empty pieces."""
     out: list = []
     for s in segs:
         if isinstance(s, str):
@@ -177,6 +182,7 @@ def tidy(segs: list) -> list:
         if isinstance(s, str):
             t = re.sub(r"[ \t\r\f\v ]+", " ", s)
             t = re.sub(r" *\n+ *", "\n", t)
+            t = STAFF_NAME_RE.sub("the ", t)
             if i == 0:
                 t = t.lstrip()
             if i == len(out) - 1:

@@ -19,6 +19,7 @@ from __future__ import annotations
 import datetime as dt
 import email.utils
 import html
+import http.client
 import json
 import os
 import re
@@ -103,11 +104,13 @@ TRIAL = {
 
 
 def split_events(text: str) -> list[str]:
-    return [e.strip() for e in re.split(r"\s+AND\s+|\s+/\s+", text or "") if e.strip()]
+    # CM/ECF joins events with " AND "; rows from the Written Opinions Report join one per motion with ", Order on".
+    return [e.strip() for e in re.split(r"\s+AND\s+|\s+/\s+|,\s+(?=Order on\b)", text or "") if e.strip()]
 
 
 def is_order(text: str) -> bool:
-    return any(e.lower().startswith(ORDER_PREFIXES) for e in split_events(text))
+    # "Judgment on the Pleadings" alone is the motion's own entry, not a judgment.
+    return any(e.lower().startswith(ORDER_PREFIXES) and not e.lower().startswith("judgment on the pleadings") for e in split_events(text))
 
 
 def opinion_flags(description: str) -> dict:
@@ -133,7 +136,10 @@ RELIEF_RE = re.compile(
     r"exclude|intervene|amend|seal|attorney fees|sanctions|new trial|transfer|consolidate|miscellaneous relief|"
     r"preliminary injunction|temporary restraining order|reopen|set aside|recuse|sever|bifurcate|certify class|vacate|"
     r"substitute party|appoint counsel|proceed in forma pauperis)\b", re.I)
-NOT_MOTION_RE = re.compile(r"response|reply|opposition|order|notice|memorand|judgment entered", re.I)
+# Not a motion: an order anywhere in the entry, or a filing that answers one ("Reply to Response to Motion"). Only the
+# event's first words count for the second kind, since motions name them too ("Extension of Time to File Response/Reply",
+# "Motion for Leave to File Reply", "Motion to Quash Notice of Deposition"). Same rule as isMotionEvent in assets/app.js.
+NOT_MOTION_RE = re.compile(r"order|judgment entered|^(?:response|reply|opposition|notice|memorand)", re.I)
 # EDLA docket text: "Motion(s) will be submitted on 11/4/2026" or "set for submission on 11/4/2026".
 SUBMISSION_RE = re.compile(r"submi(?:tted|ssion)\s+(?:on\s+)?(\d{1,2})/(\d{1,2})/(\d{2,4})", re.I)
 
@@ -231,10 +237,15 @@ class CourtListener:
         self.deadline = time.monotonic() + RUN_SECONDS
         self.out_of_time = False
         self.throttled = False       # CourtListener asked for a wait longer than a run can afford; no more calls this run
+        self.failed = False          # a call this run wanted went unanswered: no token, refused, or failed
         self.paused_until: dt.datetime | None = None
 
     def get(self, path_or_url: str, params: dict | None = None) -> dict | None:
-        if not self.token or self.calls >= self.budget or self.throttled:
+        if not self.token:
+            self.failed = True
+            return None
+        if self.calls >= self.budget or self.throttled:
+            # Not a failure: a search that kept its window for want of calls would try again every pass and never finish.
             return None
         if time.monotonic() >= self.deadline:
             self.out_of_time = True
@@ -267,9 +278,13 @@ class CourtListener:
                         time.sleep(asked)
                         continue
                 self.errors.append(f"CourtListener HTTP {e.code}")
+                self.failed = True
                 return None
-            except (urllib.error.URLError, TimeoutError, json.JSONDecodeError) as e:
+            except (urllib.error.URLError, http.client.HTTPException, OSError, ValueError) as e:
+                # Also a connection dropped mid-response (RemoteDisconnected, IncompleteRead, a reset): an error that
+                # escaped here would end the pass before the run log recorded the calls already made.
                 self.errors.append(f"CourtListener {type(e).__name__}")
+                self.failed = True
                 return None
             finally:
                 time.sleep(self.interval)
@@ -282,7 +297,13 @@ class CourtListener:
             yield from data.get("results", [])
             pages += 1
             nxt = data.get("next")
-            if not nxt or pages >= limit_pages:
+            if not nxt:
+                break
+            if pages >= limit_pages:
+                self.errors.append("CourtListener results past the page limit not read")
+                break
+            if not str(nxt).startswith(CL_BASE):  # the token goes only to CourtListener's own API
+                self.failed = True
                 break
             data = self.get(nxt)
 
@@ -356,7 +377,7 @@ def update_hearings(old: list[dict], cl_entries: dict, case_judge: dict, judges:
         if m:
             short.setdefault(f"{m.group(1)}-{m.group(2)}", r["case"])
     for r in cal_rows:
-        r["case"] = short.get(r["case_short"], "")
+        r["case"] = "" if hearings.is_criminal(r.get("text", "")) else short.get(r["case_short"], "")
     docket_rows = []
     for (case, doc), e in cl_entries.items():
         if e.get("kind") != "cv" or not e.get("text"):
@@ -419,7 +440,10 @@ def outcome_due(outcomes: dict, o: dict, cutoff: str) -> bool:
         return False
     if r.get("outcome") == "unclear":
         return r.get("at", "") <= cutoff
-    return "motion_doc" not in r  # outcome known, but the motion's filing date has not been looked for yet
+    if "motion_doc" not in r:
+        return True  # outcome known, but the decided motion has not been looked for yet
+    # The motion is known (from the order or the Written Opinions Report) and its filing date not yet looked up.
+    return bool(r["motion_doc"]) and "motion_filed" not in r
 
 
 def set_outcome(outcomes: dict, o: dict, value: str, src: str, today: str) -> None:
@@ -434,19 +458,25 @@ def set_outcome(outcomes: dict, o: dict, value: str, src: str, today: str) -> No
 def fill_motion(cl: CourtListener, outcomes: dict, o: dict, text: str, source: str, docket_id: str) -> None:
     """Record which motion a known outcome decided (`motion_doc`) and the date it was filed (`motion_filed`).
 
-    Both come from the text the outcome was read from plus one CourtListener call for the docket entry.
-    `motion_doc` is written even when blank, so the ruling is not re-read for it. Hand entries are left alone.
+    The docket number comes from the text the outcome was read from (or the Written Opinions Report's link), the date
+    from one CourtListener call for the docket entry. `motion_doc` is written even when blank, so the ruling is not
+    re-read for it; `motion_filed` is written once the call is answered (blank when CourtListener has no date), and a
+    call that goes unanswered is made again on a later pass. Hand entries are left alone.
     """
     r = outcomes.get(f"{o['case']}|{o['doc']}")
-    if not r or r.get("src") == "manual" or r.get("outcome") in ("", "unclear") or "motion_doc" in r:
+    if not r or r.get("src") == "manual" or r.get("outcome") in ("", "unclear"):
         return
-    r["motion_doc"] = md = motion_doc(text, o.get("event", ""), o.get("r12", 0), o.get("r56", 0), source)
-    if not md or not docket_id:
+    if "motion_doc" not in r:
+        md = motion_doc(text, o.get("event", ""), o.get("r12", 0), o.get("r56", 0), source)
+        r["motion_doc"] = "" if md == o["doc"] else md  # a ruling never decides itself
+    md = r["motion_doc"]
+    if not md or "motion_filed" in r or not docket_id:
         return
     data = cl.get("docket-entries/", {"docket": docket_id, "entry_number": md, "fields": "date_filed"})
-    filed = ((data or {}).get("results") or [{}])[0].get("date_filed") or ""
-    if re.fullmatch(r"\d{4}-\d{2}-\d{2}", filed) and filed <= o["date"]:
-        r["motion_filed"] = filed
+    if data is None:
+        return
+    filed = (data.get("results") or [{}])[0].get("date_filed") or ""
+    r["motion_filed"] = filed if re.fullmatch(r"\d{4}-\d{2}-\d{2}", filed) and filed <= o["date"] else ""
 
 
 def docket_id_of(url: str | None) -> str:
@@ -509,6 +539,8 @@ def link_opinions(cl: CourtListener, opinions: list[dict], checks: dict, outcome
             set_outcome(outcomes, o, classify(text, o.get("event", ""), o.get("r12", 0), o.get("r56", 0), "order") or "unclear", "opinion_text", today)
             fill_motion(cl, outcomes, o, text, "order", docket_id_of(o.get("url")))
             read += 1
+        elif needs_outcome(o) and (outcomes.get(f"{o['case']}|{o['doc']}") or {}).get("motion_doc"):
+            fill_motion(cl, outcomes, o, "", "order", docket_id_of(o.get("url")))  # the motion is known; only its date is wanted
         if o.get("pdf") and not needs_outcome(o) and not needs_pages(o):
             checks.pop(f"{o['case']}|{o['doc']}", None)
     return found, read
@@ -547,7 +579,8 @@ def main() -> int:
     order_keys = {(o["case"], o["doc"]) for o in orders}
     opinion_keys = {(o["case"], o["doc"]) for o in opinions}
     case_judge: dict[str, str] = {}
-    for row in orders + opinions:
+    # The latest row decides: a case reassigned since an older opinion (credited to the judge who signed it) is the new judge's.
+    for row in sorted(orders + opinions, key=lambda r: r.get("date", "")):
         if row.get("judge"):
             case_judge[row["case"]] = row["judge"]
 
@@ -582,6 +615,9 @@ def main() -> int:
         note.append("Saving CourtListener calls for the next search")
     elif not search_due and since:
         note.append(f"Next CourtListener search after {since + dt.timedelta(minutes=lim['search_minutes']):%H:%M}")
+    if not search_due:
+        # Lookups between searches leave a search's worth of the day's calls, or they use it all and searches wait for hours.
+        allowance = max(0, min(allowance, lim["day"] - day_used - SEARCH_RESERVE))
     cl = CourtListener(os.environ.get("COURTLISTENER_TOKEN"), allowance, 60 / max(1, lim["minute"]))
     if not cl.token:
         note.append("No CourtListener token; RSS only")
@@ -685,9 +721,13 @@ def main() -> int:
 
     # --- RSS-only items
     new_pending, seen = [], set()
-    for i in rss_civil + [{"case": p["case"], "kind": "cv", "doc": p["doc"], "event": p["bracket"],
-                           "title": p.get("title", ""), "when": dt.datetime.fromisoformat(p["when"]) if p.get("when") else None}
-                          for p in pending]:
+    items = rss_civil + [{"case": p["case"], "kind": "cv", "doc": p["doc"], "event": p["bracket"],
+                          "title": p.get("title", ""), "when": dt.datetime.fromisoformat(p["when"]) if p.get("when") else None}
+                         for p in pending]
+    # One docket entry can show as several items ("~Util - Set/Reset Deadlines", then "[Order]" for doc 20): the one
+    # that makes it an order is read first, so the others do not hide it.
+    items.sort(key=lambda i: (i["event"] or "").lower() not in RSS_UNAMBIGUOUS)
+    for i in items:
         key = (i["case"], i["doc"])
         if not i["doc"] or key in order_keys or key in cl_entries or key in seen:
             continue
@@ -764,10 +804,12 @@ def main() -> int:
 
     log(f"new entries: orders +{len(added_orders)}, opinions +{len(added_opinions)}; {cl.calls} calls")
     # Only a run that searched CourtListener to the end moves the window forward; one cut short by the
-    # time limit or a throttle may have missed entries, and an RSS-only run never looked.
-    complete = do_search and not cl.out_of_time and not cl.throttled
+    # time limit, a throttle, a failed or refused call, or the budget may have missed entries, and an RSS-only run never looked.
+    complete = do_search and not cl.out_of_time and not cl.throttled and not cl.failed
     if do_search and not complete:
         note.append("Search cut short before all new entries were read; window kept")
+    elif complete and cl.calls >= cl.budget:
+        note.append("Search used every call it had; entries past that point may be missed")
 
     # --- GovInfo: opinion PDFs, page counts, and order text, ahead of CourtListener's tighter limits
     texts = opinion_text.Store(DATA.parent / "opinions_text")
@@ -865,6 +907,9 @@ def main() -> int:
         new = fn(old)
         if new is not old:
             court_info.save_json(DATA / f"{name}.json", new)
+    # The calendar too, before the run log is written, so its notes ("court calendar N proceedings ...") are in it.
+    hearing_rows = update_hearings(load("hearings") if (DATA / "hearings.json").exists() else [], cl_entries, case_judge,
+                                   judges, orders + opinions + motions, now, note)
     note.append(f"RSS {len(rss)} items ({len(rss_civil)} civil); CourtListener {cl.calls} calls")
     note.extend(sorted(set(cl.errors)))
     runs.append({"at": now.isoformat(timespec="minutes"), "from": window_from, "to": today,
@@ -885,8 +930,7 @@ def main() -> int:
     motions.sort(key=lambda m: (m["date"], m["case"], int(m["doc"]) if m["doc"].isdigit() else 0))
     save("motions", motions)
     save("feed", update_feed(load("feed") if (DATA / "feed.json").exists() else [], rss_civil, case_judge, now))
-    save("hearings", update_hearings(load("hearings") if (DATA / "hearings.json").exists() else [], cl_entries, case_judge,
-                                     judges, orders + opinions + motions, now, note))
+    save("hearings", hearing_rows)
     texts.write_index()
     court_info.save_json(DATA / "dockets.json", sorted(dockets.values(), key=lambda r: r["case"]))
     (DATA / "link_checks.json").write_text(json.dumps(dict(sorted(link_checks.items())), indent=0) + "\n")

@@ -72,6 +72,10 @@ class ReportTest(unittest.TestCase):
         self.assertEqual(iw.event_for(rows["30"]), "Order on Motion to Dismiss/Failure to State a Claim")   # "Partial" dropped
         self.assertEqual(iw.event_for(rows["25"]), "Order Adopting Report and Recommendations")
         self.assertEqual(iw.event_for(rows["491"]), "Order on Motion to Stay")
+        # One ruling on several motions: the event lists each, and the merits flags still see the Rule 12 and Rule 56 ones.
+        flags = update.opinion_flags("Order on Motion to Dismiss/Failure to State a Claim, Order on Motion for Partial Summary Judgment")
+        self.assertEqual((flags["merits"], flags["r12"], flags["r56"]), (1, 1, 1))
+        self.assertEqual(update.opinion_flags("Order on Motion to Compel, Order on Motion to Strike")["merits"], 0)
 
     def test_covered_start(self):
         self.assertEqual(iw.covered_start([["2025-01-01", "2025-12-21"], ["2026-01-01", "2026-10-20"]], "2026-01-10"), "2026-01-01")  # a gap stops it
