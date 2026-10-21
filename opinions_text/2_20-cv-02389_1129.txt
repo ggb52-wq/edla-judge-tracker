@@ -1,0 +1,1014 @@
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+CALLEN J. CORTEZ, ET AL.
+
+ CIVIL ACTION
+VERSUS
+
+ NO. 20-2389
+LAMORAK INSURANCE COMPANY,
+ET AL.
+
+ SECTION “R” (1)
+
+ORDER A ND REASONS
+ Before the Court is defendant Legacy Vulcan, LLC’s (“Vulcan”) motion
+for summary judgment. 1  Plaintiffs, Huntington Ingalls, Inc. (“Avondale”),
+and Continental Insurance Company (“Continental”) oppose the motion. 2
+Because material facts remain in dispute, the Court denies Vulcan’s motion.
+
+I.  BACKGROUND
+ This is an asbestos exposure case.  Plaintiffs allege that Callen Cortez
+contracted mesothelioma as a result of , inter alia, working with asbestos-
+containing insulation and removing and installing asbestos -containing
+gaskets at Vulcan’s facility in Geismar, Louisiana. 3  On July 1, 2020, Cortez
+sued Vulcan, and approximately thirty -four other defendants, including
+
+1  R. Doc. 433.
+2  R. Docs. 639, 653, & 680.
+3  R. Doc. 1-1 at 36 (Complaint ¶ 74).
+Case 2:20-cv-02389-SSV   Document 1129   Filed 08/03/22   Page 1 of 42
+2
+
+former emplo yers, manufacturers, and insurance companies. 4  In his
+petition, Cortez alleged various negligence and strict liability claims against
+Vulcan as a premises owner.5  Callen Cortez passed away on May 26, 2022.6
+Cortez’s surviving spouse and children filed an amended complaint on June
+6, 2022, 7 substituting themselves as plaintiffs in a survival action and
+seeking additional damages arising from Cortez’s alleged wrongful death.8
+Vulcan now moves for summary judgment, seeking the dismissal of
+plaintiffs’ negligence and strict liability claims against it .9  Plaintiffs,
+Avondale, and Continental oppose the motion. 10  The Court considers the
+parties’ arguments below.
+
+II. LEGAL STANDARD
+Summary judgment is warranted when “the movant shows that there
+is no genuine dispute as to any material fact and the movant is entitled to
+judgment as a matter of law.”  Fed. R. Civ. P. 56(a); see also Celotex Corp. v.
+Catrett, 477 U.S. 317, 322-23 (1986); Little v. Liquid Air Corp., 37 F.3d 1069,
+
+4  R. Doc. 1-1 at 1-3 (Complaint ¶¶ 1-2); id. at 45-48.
+5  Id. at 36-39 (Complaint ¶¶ 74, 76-80).
+6  R. Doc. 1026 at 2 (Fourth Amended Complaint ¶ 111).
+7  Id.
+8  Id. at 2-3 (Fourth Amended Complaint ¶¶ 111-114).
+9  R. Doc. 433.
+10  R. Docs. 639, 653, & 680.
+Case 2:20-cv-02389-SSV   Document 1129   Filed 08/03/22   Page 2 of 42
+3
+
+1075 (5th Cir. 1994) (en banc) (per curiam).  “When assessing whether a
+dispute to any material fact exists, [the Court] consider[s] all of the evidence
+in the record but refrain[s] from making credibility determinations or
+weighing the evidence.”  Delta & Pine Land Co. v. Nationwide Agribusiness
+Ins., 530 F.3d 395, 398 -99 (5th Cir. 2008).  All reasonable inferences are
+drawn in favor of the nonmoving party, but “unsupported allegations or
+affidavits setting forth ‘ultimate or conclusory facts and conclusions of law’
+are insufficient to either support or defeat a motion for summary judgment.”
+Galindo v. Precision Am. Corp., 754 F.2d 1212, 1216 (5th Cir. 1985) (quoting
+10A Charles Alan Wright & Arthur R. Miller, Federal Practice and Procedure
+§ 2738 (2d ed. 1983)); see also Little, 37 F.3d at 1075.  “No genuine dispute
+of fact exists if the record taken as a whole could not lead a rational trier of
+fact to find for the nonmoving party.”  EEOC v. Simbaki, Ltd., 767 F.3d 475,
+481 (5th Cir. 2014).
+If the dispositive issue is one on which the moving party will bear the
+burden of proof at trial, the moving party “must come forward with evidence
+which would ‘entitle it to a directed verdict if the evidence went
+uncontroverted at trial.’”  Int’l Shortstop, Inc. v. Rally’s, Inc., 939 F.2d 1257,
+1264-65 (5th Cir. 1991) (quoting Golden Rule Ins. v. Lease, 755 F. Supp. 948,
+951 (D. Colo. 1991)).  “[T]he nonmoving party can defeat the motion” by
+Case 2:20-cv-02389-SSV   Document 1129   Filed 08/03/22   Page 3 of 42
+4
+
+either countering with evidence sufficient to demonstrate the “existence of a
+genuine dispute of material fact,” or by “showing that the moving party’s
+evidence is so sheer that it may not persuade the reasonable fact -finder to
+return a verdict in favor of the moving party.”  Id. at 1265.
+If the dispositive issue is one on which the  nonmoving party will bear
+the burden of proof at trial, the moving party may satisfy its burden by
+pointing out that the evidence in the record is insufficient with respect to an
+essential element of the nonmoving party’s claim.  See Celotex, 477 U.S. at
+325.  The burden then shifts to the nonmoving party, who must, by
+submitting or referring to evidence, set out specific facts showing that a
+genuine issue exists.  See id. at 324.  The nonmovant may not rest upon the
+pleadings, but must identify specific f acts that establish a genuine issue for
+resolution.  See, e.g., id.; Little, 37 F.3d at 1075 (“Rule 56 ‘mandates the entry
+of summary judgment, after adequate time for discovery and upon motion,
+against a party who fails to make a showing sufficient to est ablish the
+existence of an element essential to that party’s case, and on which that party
+will bear the burden of proof at trial.’”  (quoting Celotex, 477 U.S. at 322)).
+
+Case 2:20-cv-02389-SSV   Document 1129   Filed 08/03/22   Page 4 of 42
+5
+
+III. DISCUSSION
+Vulcan seeks summary judgment o n plaintiffs’ negligence and strict
+liability claims for three reasons: (1) Cortez’s alleged exposure to asbestos at
+Vulcan was not a substantial contributing factor to his mesothelioma; (2)
+Vulcan did not owe a duty to Cortez as an employee of an unknown
+independent contractor; and (3) Vulcan, as a premises owner, cannot be
+strictly liable for a dangerous condition on its premises that is temporary in
+nature.
+
+A. Asbestos Exposure
+Under Louisiana law, in an asbestos exposure case, the claimant must
+show that (1) “he had significant exposure to the product complained of,” and
+that (2) the exposure to the product “was a substantial factor in bringing
+about his injury.”  Rando v. Anco Insulations, Inc., 16 So. 3d 1065, 1091 (La.
+2009) (quoting Asbestos v. Bordelon, Inc., 726 So. 2d 926, 948 (La. App. 4
+Cir. 1998)).  The plaintiff bears the burden of proof on both elements.
+Vodanovich v. A.P. Green Indus., Inc., 869 So. 2d 930, 932 (La. App. 4 Cir.
+2004).  When there are multiple causes of injury, “a defendant’s conduct is a
+cause in fact if it is a substantial factor generating plaintiff’s harm.”  Adams
+v. Owens-Corning Fiberglas Corp., 923 So. 2d 118, 122 (La. App. 1 Cir. 2005)
+Case 2:20-cv-02389-SSV   Document 1129   Filed 08/03/22   Page 5 of 42
+6
+
+(citing Vodanovich, 969 So. 2d at 932).  “Because there is a medically
+demonstrated causal relationship between asbestos exposure and
+mesothelioma, every non- trivial exposure to asbestos contributes to and
+constitutes a cause of mesothelioma.”  Labarre v. Bienville Auto Parts, Inc.,
+No. 21-89, 2022 WL 293250, at *3 (E.D. La. Feb. 1, 2022) (citing McAskill v.
+Am. Marine Holding Co., 9 So. 3d 264, 268 (La. App. 4 Cir. 2009)).   Thus,
+as the Fifth Circuit has explained, “[e]ven if the plaintiff was only exposed to
+asbestos for a  ‘short period for an employer[,] and he had longer exposure
+working for others, it cannot be said the relatively short asbestos exposure
+was not a substantial factor in causing his mesothelioma.’”  Williams v.
+Boeing Co., 23 F.4th 507, 512 (5th Cir. 2022)  (quoting Rando, 16 So. 3d at
+1091).  To defeat an asbestos defendant’s motion for summary judgment, a
+plaintiff “need only show that a reasonable jury could conclude that it is more
+likely than not that [plaintiff] inhaled defendant’s asbestos fibers, even if
+there were only ‘slight exposures.’”  Id. (citing Held v. Avondale Indus., Inc.,
+672 So. 2d 1106, 1109 (La. App. 4 Cir. 1996)).
+Vulcan asserts that it is entitled to summary judgment because
+plaintiffs have not produced sufficient evidence that Cortez  had significant
+exposure to asbestos during his “very short job” at Vulcan, let alone that the
+Case 2:20-cv-02389-SSV   Document 1129   Filed 08/03/22   Page 6 of 42
+7
+
+exposure was a substantial factor in causing Cortez’s injuries. 11  Vulcan
+asserts that plaintiffs cannot meet their burden o n either requirement
+because the “only evidence in this matter is the extremely limited testimony”
+provided by Cortez, who had a “poor memory” of the nature of his work at
+Vulcan.12
+1. Significant Exposure
+First, Vulcan argues that plaintiffs lack evidence that Cortez had
+significant exposure to asbestos at Vulcan.  In support of its assertion, Vulcan
+notes that Cortez testified that he “never saw any of the Vulcan
+specifications”13 for the gaskets or insula tion that he worked with, and
+“couldn’t tell how old [the insulation] was,” or the date that the gaskets were
+originally installed. 14  Vulcan also cites to the deposition of plaintiff s’
+industrial-hygiene expert, Gerard Baril, who testified that he “can[no t] say
+one way or the other . . . whether any insulation [Cortez] may have removed
+[at Vulcan] contained asbestos.”15  Vulcan further contends that even if the
+gaskets and insulation did contain asbestos, Vulcan had safety procedures in
+
+11  Id. at 7-8.
+12  R. Doc. 433-1 at 4-6.
+13  R. Doc. 433-4 at 13 (Deposition of Collen Cortez at 431:5-11).
+14  Id. at 7 (Deposition of Callen Cortez at 194:9-15); id. at 13 (Deposition
+of Callen Cortez at 431:1-4).
+15  R. Doc. 433-5 at 26 (Deposition of Gerard Baril, at 261:3-12).
+Case 2:20-cv-02389-SSV   Document 1129   Filed 08/03/22   Page 7 of 42
+8
+
+place during the 1980s for handling asbestos -containing products. 16
+Defendant specifically points to the deposition testimony of its corporate
+representative, Rodney Gremillion, who testified that when he arrived at the
+plant in 1984, Vulcan provided written instructions to maintenance
+contractors on the appropriate procedure for handling asbestos-containing
+insulation and gaskets, and Gremillion speculated that “most” of the se
+procedures “extended back to about [the] mid-seventies.”17
+Plaintiffs have cited sufficient eviden ce to create an issue of material
+fact that Cortez was exposed to asbestos -containing gaskets and insulation
+at the Vulcan plant.  Specifically, plaintiffs cite Cortez’s testimony that he was
+exposed to asbestos at Vulcan from changing asbestos- containing gaskets
+and removing old asbestos- containing insulation.  Plaintiffs  submit the
+following description from Cortez’s deposition:
+Q. Now, you said you were also exposed to asbestos at Vulcan.
+A. Yes.
+Q. And how were you exposed to asbestos at Vulcan?
+A. I was on a shutdown over there and I was . . . [n]ut busting,
+changing gaskets, removing old insulation so we could get to the
+flanges and stuff.  And if we had to change out a whole pipe, we
+
+16  R. Doc. 433-1 at 7 & n.36.
+17  R. Doc. 433-6 at 3, 22-24 (Deposition of Rodney Gremillion at 71:1-4;
+90:8-92:25).
+Case 2:20-cv-02389-SSV   Document 1129   Filed 08/03/22   Page 8 of 42
+9
+
+had to take the whole pipe down and replace it with a new pipe.
+And then they would come back behind us and insulate it.
+. . .
+Q. And how did you remove gaskets at Vulcan?
+A. With a scraper and wire brush.
+Q. And there did you use [a] power wire brush and [a] hand wire
+brush?
+A. Yes.
+Q. And when you would replace the gaskets, what kind of gaskets
+were you replacing?
+A. Mostly everywhere[] I worked it was Garlock.
+Q. And at Vulcan[,] what style numbers were you using?
+A. . . . 900 and the 7705.18
+As t o Cortez’s exposure to asbestos-containing gaskets , Garlock’s
+corporate representative, James Hefron, testified that Garlock’s 7705 style
+gaskets contained crocidolite asbestos,19 and its 900 series gaskets contained
+chrysotile asbestos. 20  Additionally , two of plaintiffs’ experts testified that
+based on their education, training, and review of the literature, the Garlock
+900 and 7705 gaskets both contained asbestos.21  Finally, Vulcan’s corporate
+
+18  R. Doc. 653-4 at 2-4 (Deposition of Callen Cortez at 53:25-55:19).
+19  R. Doc. 639-3 at 5 (Deposition of James Heffron at 41:6-8).
+20  Id. at 10 (Deposition of James Heffron at 14-22).
+21  See R. Doc. 653 -12 at 3 (Deposition of James Millette at 52:2 -10)
+(explaining that based on his “review of literature and [his] education,
+training, [and] experience,” it was his understanding that the Garlock
+900 “contains chrysotile asbestos . . . [a]nd the Garlock 7705 was a
+Case 2:20-cv-02389-SSV   Document 1129   Filed 08/03/22   Page 9 of 42
+10
+
+representative, Gremillion, testified that these asbestos-containing gaskets
+were still used at Vulca n’s plant when he arrived in 1984. 22  The foregoing
+evidence raises a genuine issue of material fact as to whether Cortez was
+exposed to asbestos-containing gaskets during his time at the Vulcan plant.
+ As to Cortez’s exposure to asbestos- containing insulation, Cortez
+testified that when he was “changing out valves and gaskets at Vulcan,”  this
+work generated dust, which he breathed in. 23  Cortez additionally testified
+that by changing out the gaskets and valves, he disturbed insulation, and
+although he could not tell the exact age of the insulation, he knew “it wasn’t
+new” and that it “looked like it had been there.”24  Vulcan’s corporate
+representative testified that several facilities within the Vulcan plant were
+initially constructed during the 1970s with  asbestos-containing insulation,
+and that when he arrived in 1984, many of those facilities’ “lines and
+equipment” still utilized asbestos insulation.25  And although Cortez testified
+that he did not know the exact age of the insulation he was exposed to a t
+
+gasket that contained crocidolite asbestos”); R. Doc. 653 -6 at 6- 7
+(Deposition of Gerard Baril at 25:21- 26:16) (noting that based on his
+reading of “the lit erature over the years,” both the Garlock 900 and
+Garlock 7705 gaskets “contained asbestos during the years relevant to
+Mr. Callen Cortez’s exposure history”).
+22  R. Doc. 639-4 at 3 (Deposition of Rodney Gremillion at 57:15-18).
+23  R. Doc. 653-5 at 6-7 (Deposition of Callen Cortez at 194:5-195:8).
+24  Id. at 194:5-15 at 6 (Deposition of Callen Cortez at 194:5-15).
+25  R. Doc. 653-13 at 8-10 (Deposition of Rodney Gremillion at 53:1-55:7).
+Case 2:20-cv-02389-SSV   Document 1129   Filed 08/03/22   Page 10 of 42
+11
+
+Vulcan, his testimony that it “looked like it had been there,” combined with
+the testimony from Gremillion, “could be construed by a jury as indicating
+that asbestos -containing [insulation] . . . was used” at Vulcan during the
+1980s.  See Lopez v. McDermott, Inc., No. 17-8977, 2020 WL 3668059, at *4
+(E.D. La. July 6, 2020) ( noting that testimony in the record that the
+“‘insulation looked the same from 1968 to 1980’ . . . could be construed by a
+jury as indicating that asbestos-containing materials continued to be used on
+[defendant’s] platforms in a manner that would release asbestos fibers into
+the air despite the EPA’s ban in 1975”). Thus, as with the gaskets, the Court
+finds that plaintiffs’ have presented sufficient evidence to raise a genuine
+issue of  fact as to whether Cortez was exposed to asbestos -containing
+insulation at Vulcan.
+ Finally, the Court finds that plaintiffs’ have raised a genuine issue as to
+whether Vulcan failed to have  precautionary measures in place during
+Cortez’s time at the plant that would have protected workers from substantial
+exposure to asbestos.  Although Vulcan’s corporate representative testified
+that by the 1980s defendant and its contractors had implemented safety
+procedures for work involving asbestos-containing products, this testimony
+is directly contradicted by Cortez’s own testimony that he was not provided
+“any warnings about [the] hazards of asbestos when [he] w[as] at Vulcan,”
+Case 2:20-cv-02389-SSV   Document 1129   Filed 08/03/22   Page 11 of 42
+12
+
+and that he was not provided “any protective equipment to protect [him]
+from breathing the dust.”26
+ In sum, based on the above testimony, plaintiffs have created a genuine
+issue of fact as to whether Cortez was exposed to asbestos-containing gaskets
+and insulation during his work at Vulcan.
+
+2. Substantial Factor in Causing Injury
+Vulcan also contends that, even if Cortez w ere exposed to asbestos
+through his work at Vulcan, plaintiffs cannot show that the exposure was a
+substantial factor in causing his injury.  Vulcan notes that its certified
+industrial hygienist, Joseph  Holtshouser, opined that Cortez “did not receive
+any direct . . . [or] bystander exposures to asbestos while he worked at the
+Vulcan Chemicals plant that would have been a substantial contributing
+factor towards increasing his risk for any asbestos- related disease.” 27
+Further, Vulcan emphasizes that Cortez worked at Vulcan “on only one
+occasion . . . for a shutdown that lasted approximately one month,” and
+argues that, accordingly, his exposure cannot be consider ed a substantial
+factor.28  Specifically, Vulcan asserts that in order to support “a reasonable
+
+26  R. Doc. 653-5 at 6-7 (Deposition of Callen Cortez at 194:16-195:8).
+27  R. Doc. 433-7 at 8-9 (Holtshouser Report).
+28  R. Doc. 433-1 at 5 (emphasis in original).
+Case 2:20-cv-02389-SSV   Document 1129   Filed 08/03/22   Page 12 of 42
+13
+
+inference of substantial causation,” plaintiffs must come forward with
+“evidence of exposure to a specific product on a regular basis over some
+extended period of time,” and that plaintiffs have failed to produce such
+evidence here.29
+These arguments fail for two reasons.  First, the brevity of Cortez’s
+asbestos exposure does not alone warrant summary judgment for the
+defendant.  As the Louisiana Supreme Court has explained, “[s]imply
+because a plaintiff suffered asbestos exposure while working only a short
+period for an employer,” and “had longer exposure working for others, it
+cannot be said the relatively short asbestos exposure was not a substantial
+factor in causing his mesothelioma.”  Rando, 16 So. 3d 1065 at 1091; Hoerner
+v. ANCO Insulations, Inc., 812 So. 2d 45, 64 (La. App. 4 Cir. 2002) (noting
+that the “frequent and regular” requirement for asbestos exposure in
+Louisiana “refers to the quality of the exposure during the employment
+period, not to the length of that period”).   Accordingly, Vulcan’s assertion
+that plaintiffs must produce evidence of exposure “over some extended
+period of time” seeks to hold plaintiffs to a higher causation standard than
+required under Louisiana law.
+
+29  Id. at 4.
+Case 2:20-cv-02389-SSV   Document 1129   Filed 08/03/22   Page 13 of 42
+14
+
+Second, contrary to defendant’s expert, plaintiffs’ experts all opine that
+Cortez’s exposure through his work at Vulcan was a substantial contributing
+factor in causing his mesothelioma.   Specifically, Baril, an expert industrial
+hygienist, noted in his report that Cortez worked at Vulcan “during a
+shutdown 12 hours p er day, 7 days per week” and that his basic work
+“involved removing and replacing gaskets . . . [with] scraper and wire brushes
+. . . which created visible dust which he inhaled.” 30  Based on this exposure,
+Baril testified that, in his opinion , “Callen Cor tez sustained occupational
+exposures to asbestos while he was working at Vulcan” and that those
+exposures at Vulcan “significantly increase[d] his risk of developing
+mesothelioma.”31  Similarly, Dr. Stephen Kraus, testified that after reviewing
+Cortez’s deposition and the relevant scientific literature, it was his “opinion
+that Callen Cortez sustained occupational exposures to asbestos while he was
+working at Vulcan” and that those exposures were “a significant contributing
+factor to causation of his mesothelioma.”32
+In light of this  conflicting evidence, the Court denies summary
+judgment on the issue of whether Cortez’s exposure through his work at
+Vulcan was a substantial factor in causing his mesothelioma.
+
+30  R. Doc. 653-9 at 41 (Baril Report).
+31  R. Doc. 653-6 at 9 (Deposition of Gerard Baril 62:6-22).
+32  R. Doc. 653-8 at 14-15 (Deposition of Stephen Kraus at 71:23-72:12).
+Case 2:20-cv-02389-SSV   Document 1129   Filed 08/03/22   Page 14 of 42
+15
+
+B. Negligence Claims
+Plaintiffs allege that Vulcan, as the premises owner, was negligent in
+failing to warn Cortez about the hazards associated with exposure to asbestos
+and for failing to provide Cortez a safe place to work. 33  Louisian a courts
+conduct “a duty -risk analysis to determine whether [negligence] liability
+exists under the particular facts presented.”  Posecai v. Wal -Mart Stores,
+Inc., 752 So. 2d 762, 765 (La. 1999).  Under the duty-risk analysis, a plaintiff
+must prove: (1) the defendant had a duty to conform his conduct to a specific
+standard of care; (2) the defendant’s conduct failed to conform to the
+appropriate standard of care; (3) the defendant’s substandard conduct was a
+cause-in-fact of the plaintiff’s injuries; (4) the defendant’s substandard
+conduct was the legal cause of the plaintiff’s injuries; and (5) actual damages.
+Pinsonneault v. Merchs. & Farmers Bank & Trust Co., 816 So. 2d 270, 275-
+76 (La. 2002).
+Vulcan challenges the duty 34 element of plaintiffs’ negligence claims ,
+invoking the “independent-contractor defense.”35  “Under Louisiana law, the
+existence of a duty presents a question of law that ‘varies depending on the
+
+33  R. Doc. 1-1 at 36-39 (Complaint ¶¶ 74, 76-80).
+34  Vulcan’s challenge to causation was previously addressed in in Part III
+(A).
+35  R. Doc. 433-1 at 3-15.
+Case 2:20-cv-02389-SSV   Document 1129   Filed 08/03/22   Page 15 of 42
+16
+
+facts, circumstances, and context of each case and is limited by the particular
+risk, harm, and plaintiff involved.’” Bursztajn v. United States, 367 F.3d 485,
+489 (5th Cir. 2004) (quoting Dupre v. Chevron U.S.A., Inc., 20 F.3d 154, 157
+(5th Cir.1994)).  In determining whether specific duties of care exist, “[t]he
+role of the court is to determine whether any jurisprudential or statutory rule
+exists, or any policy reason why, under the facts and circumstances of the
+case, the [defendant] would owe a duty to compensate the plaintiff for his
+injuries.” Bridgewater v. New Orleans Reg’l Transit Auth., 190 So. 3d 408,
+415 (La. App. 4 Cir. 2016) (citing Cormier v. T.H.E. Ins. Co. , 745 So. 2d 1, 8
+(La. 1999)).  Plaintiffs’ negligence claims “will only survive a motion for
+summary judgment if, as a matter of law, [they] can prove [Vulcan] owed
+[Cortez] a duty of care.”  Thomas v. Burlington Res. Oil & Gas Co., No. 99-
+3904, 2000 WL 1528082, at *1 (E.D. La. Oct. 13, 2000).
+It is undisputed that Cortez was not an employee of Vulcan, the
+premises owner. 36  In such a situation, there are “two ways in which a
+premises owner can be liable to employees of contractors who are injured
+while working on its premises: ‘(1) directly, for its own negligence; (2)
+vicariously, for the negligence of the independent contractor.’”  Thomas v.
+
+36  R. Doc. 653-1 at 2 (Plaintiffs’ Statement of Uncontested Facts); R. Doc.
+433-2 at 3 (Defendant’s Statement of Uncontested Facts).
+Case 2:20-cv-02389-SSV   Document 1129   Filed 08/03/22   Page 16 of 42
+17
+
+A.P. Green Indus., Inc., 933 So. 2d 843, 851 (La. App. 4 Cir. 2006) (quoting
+1A Stuart M. Speiser, Charles F. Krause, & Alfred W. Gans, The American
+Law of Torts  § 4:23 (2003)).  The Court considers plaintiffs’ vicarious and
+direct liability claims in turn.
+
+1. Vicarious Liability
+Under Louisiana law, “a premise[s] owner is not vicariously liable for
+the negligence of an independent contractor.”  Thomas , 933 So. 2d at 852;
+Ainsworth v. Shell Offshore, Inc. , 829 F.2d 548, 549 (5th Cir. 1987).   This
+general rule, often known as the independent -contractor defense, is subject
+to “two exceptions :” (1) when the independent contractor is engaged in an
+ultrahazardous activity; 37 or (2) when the principal “retains or exercises
+operational control” or expressly or impliedly authorizes an unsafe practice.
+Ainsworth, 829 F.2d at 549-550; Bartholomew v. CNG Producing, Inc., 832
+F.2d 326, 329 (5th Cir. 1987)  (holding that there was evidence to support a
+jury’s finding that the principal was liable given that the principal expressly
+authorized an unsafe work practice).
+
+37  Neither party contends that Cortez was engaged in an “ultrahazardous
+activity” during his time at the Vulcan plant.
+Case 2:20-cv-02389-SSV   Document 1129   Filed 08/03/22   Page 17 of 42
+18
+
+“Operational control exists only if the principal has direct supervision
+over the step -by-step process of accomplishing the work such that the
+contractor is not entirely free to do the work in his own way.”  Fruge ex rel.
+v. Parker Drilling Co., 337 F.3d 558, 564 (5th Cir. 2003); see also Hawkins
+v. Evans Cooperage Co., Inc., 766 F.2d 904, 907-08 (5th Cir. 1985) (finding
+there was no operational control because the principal checked on operations
+but never supplied detailed instructions).  “It is not enough” that the
+principal “has merely a general right to order the work stopped or resumed,
+to inspect its progress or to receive reports, to make suggestions or
+recommendations which need not necessarily be followed, or to prescribe
+alterations or deviations.”  LeJeune v. Shell Oil Co. , 950 F.2d 267, 270 (5th
+Cir. 1992).  Instead, there must be “control over the operative detail of doing
+any part of the work.”  Renwick v. PNK Lake Charles, L.L.C., 901 F.3d 605,
+613-14 (5th Cir. 2018).
+Vulcan contends that Cortez worked on its premises for an
+independent contractor and that it  did not have any supervision or
+operational control over Cortez’s work. 38  Accordingly, Vulcan asserts that,
+as a matter of law, it did not owe Cortez a duty to provide a safe  place to
+
+38  R. Doc. 433-1 at 11-12.
+Case 2:20-cv-02389-SSV   Document 1129   Filed 08/03/22   Page 18 of 42
+19
+
+work.39  Plaintiffs contest whether Vulcan has established that the
+independent-contractor defense is applicable to plaintiffs’  vicarious
+negligence claims .40  Plaintiffs note that defendant has not produced a
+contract establishing that a principal -independent contractor relationship
+existed, and that even if it had, there is an issue of material fact as to whether
+Vulcan controlled and directed the work of  its a lleged independent
+contractor’s employees.41
+Vulcan, as the “principal seeking to avoid vicarious liability through the
+independent-contractor exception must establish the existence of an
+independent-contractor relationship between it and the alleged[ly] negligent
+contractor.”  Coleman v. BP Expl. & Prod. Inc. , No. 19 -102, 2020 WL
+6292491, at *3 (S.D. Tex. Oct. 27, 2020), aff’d 19 F.4th 720 (5th Cir. 2021)
+(applying Louisiana law).  To determine whether Vulcan has established the
+existence of such a relationship, the Court must consider whether: “(1) a valid
+contract exists between the parties; (2) the work is of an independent nature;
+(3) the contract allows for the work to be done according to the contractor’s
+own methods, without being subject to control and direction, except as to the
+result of the services to be rendered; (4) a specific price for the overall
+
+39  R. Doc. 433-1 at 10.
+40  R. Doc. 653 at 18.
+41  Id. at 14.
+Case 2:20-cv-02389-SSV   Document 1129   Filed 08/03/22   Page 19 of 42
+20
+
+undertaking is agreed upon; and (5) the duration of the work is for a specific
+time and not subject to termination at the will of either party.”  Bouquet v.
+Williams, 206 So. 3d 232, 237 (La. App. 1 Cir. 2016) (citing Hickman v. S.
+Pac. Trans. Co. , 262 So. 2d 385, 390 -91 (La. 1972)).   “In other words, to
+determine whether someone is an independent contractor, the court must
+look at the degree of control over the work.”  Id.; Henderson v. Atmos
+Energy, 509 F. Supp. 3d 625, 641 (E.D. La. 2020) (“[T]he most important
+inquiry is whether the principal retained the right to control the work.”
+(quoting McLeod v. Moore, 7 So. 3d 190 at 192 (La. App. 2 Cir. 2009))).
+The Court finds that defendant is not entitled to summary judgment
+on plaintiffs’ vicarious liability claims.  Cortez testified that he worked as a
+pipefitter at Vulcan’s plant at some point during the 1980s, but that he was
+unable to remember his employer’s name. 42  Vulcan argues that because
+Cortez could not identify his employer, it is “impossible” for Vulcan to
+produce a contract with an unknown entity.43  Although Vulcan has not
+produced a written agreement that purports to establish an independent -
+contractor relationship, Louisiana courts have explained that the “existence
+of an independent contractor agreement is not necessarily dispositive,” and
+
+42  R. Doc. 433-4 at 6 (Deposition of Callen Cortez at 193:12-14).
+43  R. Doc. 836 at 7 n.30.
+Case 2:20-cv-02389-SSV   Document 1129   Filed 08/03/22   Page 20 of 42
+21
+
+that courts must “inquire as to the real nature of the relationship and the
+degree of control exercised.”  Arroyo v. E. Jefferson Gen. Hosp. , 956 So. 2d
+661, 664 (La. App. 5 Cir. 2007).  But Vulcan has not produced evidence on
+the factors that shed light on the “real nature” of its relationship with its
+allegedly independent contractor, such as facts about the specific terms
+defining the scope, nature, duration, or price of the contractor’s work.
+Further, plaintiffs have produced evidence that raises a genuine
+dispute as to whether Vulcan exercised control over the pipefitters that
+worked at its plant, thereby creating an issue of fact as to whether Cortez’s
+employer was an independent contractor, and relatedly, whether an
+exception to the independent-contractor defense exists.  See Coleman, 2020
+WL 6292491, at *3 (noting that the answer to “whether there was an
+independent-contractor relationship will often correspondingly answer
+whether the principal enjoyed ‘operational control’ . . . an exception to the
+independent-contractor [defense]” (citing Arroyo , 956 So. 2d at 664)).
+Defendant argues that it did not control or direct the manner of Cortez’s work
+as a pipefitter, pointing to Cortez’s testimony that he did not know “any
+employees of Vulcan,”44 that he took his “instructions from” either his union
+
+44  R. Doc. 433-4 at 10 (Deposition of Callen Cortez at 428:17-19).
+Case 2:20-cv-02389-SSV   Document 1129   Filed 08/03/22   Page 21 of 42
+22
+
+steward or his supervisor through his unknown employer, 45 and that he
+supplied his own tools.46  Defendant also notes that although it was “involved
+in safety” at its plant, and made sure that contractors followed its asbestos
+safety procedures, that does not equate to control over day -to-day
+activities.47  But the testimony of Vulcan’s own corporat e representative
+raises an issue of fact as to whether Vulcan “issued the ‘how to’ instructions
+to . . . workers necessary to support a finding that [Vulcan] exerted
+operational control.”  Thomas, 2000 WL 1528082, at *2.  Specifically,
+Rodney Gremillion testified as follows:
+Q. Did Vulcan Geismar provide instruction to maintenance
+contractors as to what type of method should be used in
+removing an asbestos gasket?
+A. Yes.
+Q. Okay.  And what type of measures did Vulcan Geismar state
+should be used?
+. . .
+A. We had a procedure that was written.  And what that involved
+was, when you break the flange apart, [the contractor was] to
+spray a solvent release agent on it, which wetted the surface, and
+then [the contractor was to] scrape it . . . . But in no
+circumstances were [contractors] allowed to use any kind of
+power brushes or grinders.
+
+45  Id. at 11-12 (Deposition of Callen Cortez at 429:16-430:1).
+46  Id. at 12 (Deposition of Callen Cortez at 430:2-3).
+47  R. Doc. 836.
+Case 2:20-cv-02389-SSV   Document 1129   Filed 08/03/22   Page 22 of 42
+23
+
+Q. And . . . I know I’ve seen in the documents some written
+procedures for handling of insulation.
+. . .
+Q. Do you have any knowledge as to how far back that procedure
+goes?
+A. . . . [M]y memory says that a lot of these— most of these
+documents we had, maintenance procedure wise, extended back
+to about [the] mid-seventies.48
+Gremillion additionally testified that contractors “had to follow the
+Vulcan written asb estos procedure.” 49  He explained that pipefitters were
+made aware of Vulcan’s procedures through “work packages” that were
+written by Vulcan maintenance personnel. 50  These work packages would
+also include the list of materials that pipefitters would need  for the job, and
+where those materials could be found at the plant. 51  Gremillion further
+testified that based on these work packages, Vulcan maintenance planners
+would write “a purchase requisition to [Vulcan’s] purchasing group,” and
+that the purchasing group would then buy the necessary materials, and have
+those materials delivered to the plant’s warehouse. 52  He additionally
+
+48  R. Doc. 433 -6 at 22- 24 (Deposition of Rodney Gremillion at 90:8 -
+92:1).
+49  R. Doc. 653-13 at 17 (Deposition of Rodney Gremillion at 71:1-4).
+50 R. Doc. 433 -6 at 25-26 (Deposition of Rodney Gremi llion at 104:10 -
+105:18).
+51  Id. at 26 (Deposition of Rodney Gremillion at 105:1-6).
+52  R. Doc. 653-13 at 13 (Deposition of Rodney Gremillion at 67:4-15).
+Case 2:20-cv-02389-SSV   Document 1129   Filed 08/03/22   Page 23 of 42
+24
+
+specified that it would have been Vulcan’s purchasing group that would have
+ordered gaskets and insulation based on “Vulcan’s specifications that existed
+at the time.”53
+Gremillion’s testimony further raises an issue of fact as to whether
+Vulcan was simply “involved in” worker safety, or whether it was providing
+workers with safety instructions and supervision on a day -to-day basis.  He
+confirmed that Vulcan had “site-specific safety rules” that “contractors were
+required to follow when working at its plant.” 54  And to ensure that these
+safety procedures were being followed, Gremillion agreed that “[w]henever
+asbestos insulation was being removed by the on-site insulation contractor
+in the seventies and eighties,” there would “[a]bsolutely . . . be a Vulcan
+representative there to oversee that work.”55  Gremillion additionally noted
+that during a shutdown, it would not have been “uncommon” to have
+contract maintenance employees working in the same area as Vulcan
+employees, and that Vulcan employees would help get contract maintenance
+workers “starte d on each of the [ir] jobs,” including “actually walk[ing]
+[them]” out to the job site to “make sure they were on the right thing.”56
+
+53  Id. at 13-14 (Deposition of Rodney Gremillion at 67:20-68:16).
+54  Id. at 18 (Deposition of Rodney Gremillion at 95:2-9).
+55  Id. at 18-19 (Deposition of Rodney Gremillion at 95:22-96:2).
+56  Id.
+Case 2:20-cv-02389-SSV   Document 1129   Filed 08/03/22   Page 24 of 42
+25
+
+Based on the above testimony, a fact finder could reasonably conclude
+that Vulcan’s role involved a level of “control over the operative detail of . . .
+the work,” such that pipefitters were “not entirely free to do the work in
+[their] own way.”  Grammar , 860 F.2d at 644.   Notably, the record raises
+fact issues as to Vulcan’s control over workers tasked with removing asbestos
+gaskets during the time period that Cortez asserts  he worked at the plant.
+Deposition testimony from Vulcan’s corporate representative states that
+Vulcan oversaw many aspects of the manner in which pipefitters did their
+jobs, including the methods and tools that they required or prohibited when
+removing asbestos gaskets.   See Renwick , 901 F.3d at 613 -14 (finding that
+there was a “jury issue on operational control” when defendant controlled
+“work-site access,” provided “specific inst ructions” about how to reach the
+work-site, and rejected an alternative access route); Warner v. Talos ERT
+LLC, No. 18-1435, 2022 WL 529351, at *3 (W.D. La. Feb. 22, 2022) (finding
+that there were “fact issues as to [defendant’s] control over the time workers
+w[ere] allowed to work, the ‘details’ to which [they] must conform, and the
+tools [they] w[ere] allowed to use”).
+The cases defendant relies on are distinguishable.  Cf.  Coulter v.
+Texaco, Inc., 117 F.3d 909, 912 (5th Cir. 1997) (finding that the operational
+control exception to vicarious liability did not apply, in part because the “fact
+Case 2:20-cv-02389-SSV   Document 1129   Filed 08/03/22   Page 25 of 42
+26
+
+that a principal . . . reserves the right to monitor its contractor’s
+performance” and “has the right to make saf ety recommendations to the
+contractor and is obligated to report continuing unsafe work practices . . .
+does not mean that the principal controls the methods or details of the
+contractor’s work”); Lopez, 2020 WL 3668059, at *5 -6 (finding that Exxon
+did not  have operational control over Brown & Root pipefitters, citing
+plaintiff’s testimony that although Exxon inspectors were on the premises,
+the inspectors were ‘inspecting the progress of the end product’ rather than
+‘telling [him] how to weld,” and that Brown & Root provided plaintiff with all
+his “training, safety instructions, and supervision ”); Thomas, 2000 WL
+1528082, at *2 (noting that the independent contractor’s foreman “was left
+to accomplish the painting and sandblasting of the platform in any way he
+chose,” and that although defendant’s company representative would
+regularly attend safety meetings, he “did not participate in the discussion or
+any decisions”).   The evidence of Vulcan’s involvement and control is
+qualitatively more substantial than in any of these cases.
+Further, the Court rejects defendant’s argument that plaintiffs have
+relied on the “non -established notion ” that Cortez worked for Payne and
+Keller of Louisiana, Inc. (“Payne and Keller”) during his time at Vulcan’s
+plant in order “ to create an issue of material fact regarding operational
+Case 2:20-cv-02389-SSV   Document 1129   Filed 08/03/22   Page 26 of 42
+27
+
+control.”57  Plaintiffs have produced evidence that raises an issue of material
+fact as to whether Cortez worked for Payne and Keller.   Cortez testified that
+he replaced gaskets at Vulcan’s plant at s ome point during the 1980s. 58
+Vulcan’s corporate representative testified that Vulcan had maintenance
+contracts with two companies, National Maintenance and Payne and Keller,
+and that one of the typical job duties of employees of either company during
+the 1970s through the 1980s was to remove and change gaskets. 59  Cortez’s
+Social Security Administration Statement of Earnings shows that Cortez
+received income from Payne and Keller in 1974, 1977, and 1979- 1984.60
+Thus, the Court concludes that plaintiffs have produced evidence that raises
+a reasonable inference that Cortez was employed by Payne and Keller.  See
+Matsushita Elec. Indus. Co., Ltd. v. Zenith Radio Corp., 475 U.S. 574, 587
+(1986) (explaining that in the summary judgment context “inferences to be
+drawn from the underlying fact s . . . must be viewed in the light most
+favorable to the party opposing the motion”).
+The Court concludes that there is an issue of fact as to whether
+defendant exercised control over Cortez’s employer .  The Court is thus
+
+57  R. Doc. 836 at 5.
+58  R. Doc. 433-4 at 6 (Deposition of Callen Cortez at 193:12-14).
+59  R. Doc. 653-13 at 4 (Deposition of Rodney Gremillion at 35:9-13; 51:10-
+24).
+60  R. Doc. 653-3 at 3, 5.
+Case 2:20-cv-02389-SSV   Document 1129   Filed 08/03/22   Page 27 of 42
+28
+
+unable to determine, for purposes of summary judgment, that there was an
+independent-contractor relationship here, and that no exception to the
+independent-contractor defense exists.  Accordingly, the Court denies
+defendant’s motion for summary judgment on plaintiffs’ vicarious liabilit y
+claims.
+
+2. Direct Liability
+“Although the independent contractor defense is a bar to a vicarious
+liability claim, it is not a bar to [a] direct liability claim arising out of a
+premises-owner’s own negligence.”  Thomas, 933 So. 2d at 852 (citing
+Sandbom v. BASF Wyandotte, Corp. , 674 So. 2d 349, 557 (La. App. 1 Cir.
+1996)).  Plaintiffs contend that even if the independent -contractor defense
+prevents them from holding Vulcan vicariously liable for Cortez’s injuries,
+Vulcan is still directly liable for its own negligence. 61  In response,  Vulcan
+asserts that as a premises owner, it cannot be held directly liable for its
+alleged negligence because it d id not owe a duty to protect Cortez, an
+independent contractor’s employee, from risks inherent to his job.62
+
+61  R. Doc. 653 at 14-15.
+62  R. Doc. 433-1 at 13.
+Case 2:20-cv-02389-SSV   Document 1129   Filed 08/03/22   Page 28 of 42
+29
+
+“In general, a premises owner has a duty of exercising reasonable care
+for the safety of persons on its premises and a duty of not exposing such
+persons to unreasonable risks of injury or harm.”  Id.  A premises owner ’s
+“knowledge (actual or constructive) gives rise to the duty to take reasonable
+steps to protect against injurious consequences resulting from the risk.”
+Watts v. Ga. -Pac. Corp. , 135 So. 3d 53, 59 -60 (La. App. 1 Cir. 2013).  A
+premises owner’s duty “extends to employees of independent contractors for
+whose benefit the owner must take reasonable steps to ensure a safe working
+environment.”  Id.  But this duty “does not extend so far as to require the
+[premises owner] to intervene in and correct the work practices selected by
+an independent contractor.”  Thomas , 2000 WL 1528082, at *2 (citing
+Ainsworth v. Shell Offshore, Inc. , 829 F.2d 548, 551 (5th Cir. 1987) ).  It
+similarly does not extend as far as to require a principal to protect its
+independent contractors’ employees from dangers inherent i n their job.
+Lopez, 2020 WL 3668059, at *7 (citing Perkins v. Gregory Mfg. Co., 671 So.
+2d 1036, 1040 (La. App. 3 Cir. 1996)).  In sum, “while a premises owner may
+be directly liable for hazards inherent in the premises, the owner cannot be
+liable for hazards inherent in a contractor’s job.”  Id.
+Case 2:20-cv-02389-SSV   Document 1129   Filed 08/03/22   Page 29 of 42
+30
+
+Vulcan argues that any asbestos that Cortez alleges he was exposed to
+during his time at Vulcan was  created by his job as a pipefitter .63  Vulcan
+points to Cortez’s testimony that his work involved “[c]hanging ou t gaskets
+[and] replacing valves” and that this work “create[d] dust.” 64  Vulcan thus
+argues that Cortez’s alleged exposure to asbestos came not from some hazard
+inherent in its plant, but instead from a hazard inherent in Cortez’s job of
+replacing gaskets and old insulation. 65  Defendant cites two district court
+cases that both held that a premises owner  does not have a duty to an
+independent contractor’s employee under a theory of direct liability when
+there is evidence that the hazard “resulted from the tools, equipment, and
+material supplied by the independent contractor and accordingly was a risk
+inherent in [plaintiff’s] job as a welder and pipefitter.”  See Lopez, 2020 WL
+3668059, at *7 (finding that “the evidence indicates that any asbestos
+exposure suffered by [plaintiff] while working on Exxon platforms resulted
+from tools, equipment, and materials” supplied by the independent
+contractor, who not only supplied the materials necessary for the project, but
+“also supervised the manner in which the work was performed,” and thus any
+asbestos exposure was “inherently related to the job [plaintiff] was hired by
+
+63  R. Doc. 433-1 at 14.
+64  R. Doc. 433-4 at 7-8 (Deposition of Callen Cortez at 194:23-195:8).
+65  R. Doc. 433-1 at 14-15.
+Case 2:20-cv-02389-SSV   Document 1129   Filed 08/03/22   Page 30 of 42
+31
+
+[the independent contractor] to perform”); Roach v. Air Liquids Am. , No.
+12-3165, 2016 WL 1453074, at *4 (W.D. La. Apr. 11, 2016) (“In the insta nt
+case, the hazard was not inherent in defendant’s premises; the airborne silica
+which was temporary in nature and transported to the facility by plaintiff’s
+employer and/or supplier.”).
+The Court finds that defendant is not entitled to summary judgment
+on the duty issue.  First, as this Court observed in Venezia v. ConocoPhillips
+Co., “[b]oth the Fifth Circuit and this Court have found summary judgment
+to platform owners to be unwarranted when a question of fact exists as to
+whether the owner created the hazard that resulted in the plaintiff’s injury.”
+See No. 12-2168, 2014 WL 107962, at *5 (E.D. La. Jan. 9, 2014) (collecting
+cases); see also T homas, 933 So. 2d at 856 -57 (affirming the jury’s verdict
+that defendant “breached its duty as a premises owner” by exposing
+employees of an independent contractor to asbestos , “to the extent [that
+defendant] specified the use of asbestos containing products”) ; Tajonera v.
+Black Elk Energy Offshore Op erations, L.L.C. , No. 13- 366, 2015 WL
+6758258, at *19 (E.D. La. Nov. 5, 2015) (“Although duty is a question of law,
+the Court finds that opposing parties have proffered sufficient evidence of a
+genuine issue of material fact that precludes summary judgment on whether
+[defendant] created a hazardous situation . . . and the refore was
+Case 2:20-cv-02389-SSV   Document 1129   Filed 08/03/22   Page 31 of 42
+32
+
+independently negligent.”).  Here, there is evidence in the record that Cortez
+was exposed to asbestos because of Vulcan’s actions in specifying the use of
+asbestos-containing gaskets and insulation, and providing asbestos gaskets
+to pipefitters like Cortez.66
+Further, there is evidence that Vulcan had knowledge of the risks of
+asbestos exposure during the relevant time period.  Defendant’s corporate
+representative testified that the company was aware of the hazards of
+asbestos in 1957, and was involved in the 1970s and 1980s in approving
+protective measures for workers.67  Based on this testimony, it is reasonable
+to infer that Vulcan knew, or should have known, about the danger s of
+asbestos exposure, and thus had a duty to protect pipefitters that were
+exposed to asbestos at its facility.  See Watts, 135 So. 3d at 59-60 (noting that
+either actual or constructive knowledge of a risk “gives rise to the duty to take
+reasonable steps to protect against injurious consequences resulting from
+the risk”).
+Finally, there is an issue of material fact as to whether Vulcan retained
+control over the work performed by pipefitter s, and thus owed them a duty
+of care.  See Smith v. Union Carbide Corp., No. 13-6323, 2014 WL 4930457,
+
+66  R. Doc. 653 -13 at 14 (Deposition testimony of Rodney Gremillion at
+68:6-16).
+67  Id. at 10 (Deposition of Rodney Gremillion at 96:3-13).
+Case 2:20-cv-02389-SSV   Document 1129   Filed 08/03/22   Page 32 of 42
+33
+
+at *2 (E.D. La. Oct . 1, 2014) ( noting that although a principal owes no duty
+to its independent contractor’s employees “absent a showing that the
+principal’s conduct created the risk or the principal retained control over the
+contractor’s employees,” plaintiff had “presented a genuine issue of material
+fact as to whether Defendants breached the independent duty they owed to
+[plaintiff]”).  As previously discussed , Vulcan’s corporate representative
+testified that Vulcan provided pipefitters with written guidelines on how to
+handle asbestos- containing materials, and then supervised the manner in
+which the work was performed.68
+In light of the record evidence raising issues of fact as to whether Cortez
+was exposed to asbestos because of the risks created by Vulcan, while doing
+work that was controlled by Vulcan, and despite Vulcan’s knowledge about
+the risks associated with asbestos exposure, the Court denies defendant’s
+motion for summary judgment on the no- duty argument.  In sum,
+defendant’s motion for summary judgment on plaint iffs’ negligence claims
+under a theory of direct or vicarious liability are denied.
+
+68  R. Doc. 653 -13 at 18 -19 (Deposition of Rodney Gremillion at 95:22 -
+96:2).
+Case 2:20-cv-02389-SSV   Document 1129   Filed 08/03/22   Page 33 of 42
+34
+
+C. Strict-Liability Claims
+ Defendant also moves for summary judgment on plaintiffs’ strict -
+liability claims, arguing that plaintiffs cannot to show that Cortez’s injuries
+were caused by a defect on Vulcan’s premises. 69  In cases involving long -
+latency occupational diseases, such as mesothelioma, the Court must apply
+the law that was in effect at the time of the exposure.  Cole v. Celotex Corp.,
+599 So. 2d 1058, 1066 (La. 1992).  Accordingly, the Court looks to the
+language of Louisiana Civil Code article 2317, which, at the time of the
+exposure at issue, imposed strict liability for damage caused by “things which
+we have in our custody.”  La. Civ. Code art. 2317.  To establish strict liability
+under this version of article 2317, a plaintiff must prove that: “(1) the thing
+which caused the damage was in the care, custody and control of the
+defendant; (2) the thing had a vice or defect which created an unreasonable
+risk of harm; and (3) the injuries were caused by this defect.”  Migliori v.
+Willows Apartments, 727 So.2d 1258, 1260 (La. App. 4 Cir. 1999).
+Here, the parties dispute the first and second elements: 70 whether
+Vulcan had care, custody, and control of the asbestos, and whether asbestos
+
+69  R. Doc. 433-1 at 15-16.
+70  The third element —causation—was previously addr essed in Part III
+(A).
+Case 2:20-cv-02389-SSV   Document 1129   Filed 08/03/22   Page 34 of 42
+35
+
+constitutes a defect under art icle 2317.71  “Custody” in this context means
+“supervision and control.”  Ainsworth, 829 F.2d at 551.  Ownership creates
+a presumption of custody that may be rebutted “by showing that the owner
+(1) did not receive a substantial benefit from ownership nor (2) had any
+control or authority over the [object].”  Royer v. Citgo Pet. Corp. , 53 F.3d
+116, 119 (5th Cir. 1995).   Defendant as serts that because it did not have
+control over Cortez’s work activities that allegedly resulted in his exposure to
+asbestos, it did not have care, custody, or control over the asbestos. 72  In
+support of its argument, defendant points to Lopez v. McDermott , in which
+the court granted defendant’s motion for summary judgment on plaintiff’s
+strict-liability claims, finding that the plaintiff had failed to point to evidence
+that the premises-owner defendant had custody of the asbestos.  2020 WL
+3668059, at *8.  In Lopez, the court held that although “[a]lthough asbestos
+may have been present in materials, equipment, and tools located on
+[defendant’s] platforms, and that asbestos may have been disturbed,” the
+record reflected that it was defendant’s independent contractor “who
+provided the tools, equipment, and materials, oversaw the operation, and
+gave instructions to welders and pipefitters.”  Id.  Defendant also points to
+
+71  R. Doc. 433-1 at 15-17; R. Doc. 836 at 8.
+72  R. Doc. 836 at 8.
+Case 2:20-cv-02389-SSV   Document 1129   Filed 08/03/22   Page 35 of 42
+36
+
+Smith v. Union Carbide Corp., in which a court similarly granted summary
+judgment on plaintiff’s strict-liability claims on the grounds that plaintiff had
+not produced evidence that defendants had custody of the asbestos while it
+was being installed in their facility.  No. 13 -6323, 2014 WL 4930457, at *6
+(E.D. La. Oct. 1, 2014).
+But Lopez and Smith are both distinguishable from this case.  As
+previously discussed, plaintiffs have presented evidence that Vulcan
+“provided” the asbestos-containing materials, “oversaw the operation,” and
+“gave instructions” to pipefitters on asbestos removal procedures.  Cf. Lopez,
+2020 WL 3668059, at *8.  And unlike in Smith where the court found that
+defendants did not have custody of the asbestos used in constructing their
+plant “until after [the asbestos] was installed and put into service at their
+facilities,” Cortez was allegedly exposed to asbestos that was already in use
+on Vulcan’s premises.73  Cf. 2014 WL 4930457, at *6.  Accordingly, unlike the
+plaintiffs in Lopez and Smith, plaintiffs here have pointed to evidence
+
+73  See R. Doc. 653-13 at 8-10 (Deposition of Rodney Gremillion at 53:1 -
+55:7) (testifying that several facilities within the Vulcan plant were
+initially constructed dur ing the 1970s with asbestos -containing
+insulation, and that throughout the 1980s many of those facilities’
+“lines and equipment” still utilized asbestos insulation).
+Case 2:20-cv-02389-SSV   Document 1129   Filed 08/03/22   Page 36 of 42
+37
+
+showing that Vulcan had custody of the asbestos for purposes of strict
+liability.
+Vulcan also asserts that because Cortez’s alleged exposure to asbestos
+dust at Vulcan was a temporary condition that was created by Cortez’s work
+methods, it does not constitute a defect under article 2317. 74  “A defect for
+the purposes of article 2317 is a flaw or condition of relative permanence
+inherent in the thing as one of its qualities.”  Crane v. Exxon Corp., U.S.A.,
+613 So. 2d 214, 219 (La. App. 1 Cir. 1992).   And although a “temporary
+condition may constitute a hazard, . . . it does not constitute a defect as
+contemplated by article 2317.”  Dauzat v. Thompson Const. Co., 839 So. 2d
+319, 323 (La. App. 5 Cir. 2003) (holding that a hole in a concrete slab was a
+“temporary condition” and thus not a defect under article 2317).
+The parties dispute what the “thing that caused the damage” is for
+purposes of strict liability.  Plaintiffs assert that “the thing in question is the
+asbestos,”75 whereas defendant contends that the unreasonably dangerous
+thing is respirable asbestos-fibers released into Vulcan’s facility. 76  Vulcan
+argues that under Louisiana law, asbestos itself is not considered defective,
+and thus the unreasonably dangerous condition here must be asbestos dust.
+
+74  R. Doc. 433-1 at 16-17.
+75  R. Doc. 653 at 23.
+76  R. Doc. 836 at 7.
+Case 2:20-cv-02389-SSV   Document 1129   Filed 08/03/22   Page 37 of 42
+38
+
+This, they contend is only a temporary condition and therefore cannot be a
+“defect” for purposes of strict liability.77
+Both parties assert that the Smith decision supports their argument.
+In Smith, the court noted that it was “unclear whether the ‘thing’ in question”
+was defendants’ premises generally or the asbestos used in defendants’
+facility more specifically.  Smith, 2014 WL 4930457, at *6.  The court
+proceeded to hold that if “the thing in question is the asbestos” that plaintiff’s
+strict-liability claims failed because “defendants did not have custody of the
+asbestos at the time of [plaintiff’s] exposure.”  Id.  On the other hand, the
+court noted that if “the thing in question is the premises itself ,” plaintiff’s
+exposure to asbestos dust during the construction of the premises “was
+temporary in nature,” and thus did “not constitute a defect in satisfaction of
+the second element of a strict liability claim under Article 2317.”  Id. at *7.
+Here, unlike in Smith, the Court has found a question of material fact
+as to Vulcan’s custody over the asbestos-containing materials, and therefore
+must determine whether asbestos is a defect for purposes of strict liability.
+Because the Smith court never had to answer this question, defendant’s
+reliance on it for its temporary condition argument is misplaced.  Notably, in
+assuming that the thing in question was the premises itself, the Smith court
+
+77  Id.
+Case 2:20-cv-02389-SSV   Document 1129   Filed 08/03/22   Page 38 of 42
+39
+
+explained that the “defect in asbestos is not temporary; it is the dusty
+condition during construction of Defendants’ premises that was temporary,”
+and therefore sought to distinguish the case from a Louisiana court of
+appeals case where “the ‘thing’ in question was the asbestos itself . . . not the
+premises on which the asbestos exposure occurred.”  Id. (citing Watts, 135
+So. 3d at 53).
+Defendant asserts that asbestos it self is not unreasonably dangerous
+under Louisiana law.  In support of its argument, Vulcan relies on Palermo
+v. Port of New Orleans, 933 So. 2d 168, 180 (La. App. 4 Cir. 2006), in which
+the court held that a boiler insulated with asbestos did not constitute a vice
+or defect absent evidence that asbestos was disturbed.  Id. at 179 (noting that
+“it was undisputed that the boilers were inactive during the time period in
+question” and that there was “no evidence that [plaintiff] ever worked on or
+near the boil ers, as their jobs did not include repairing pipes”).   But here,
+unlike in Palermo, there is evidence that the asbestos present on defendant’s
+premises was disturbed.  In fact, Cortez explicitly stated in his testimony that
+when he was changing out gaskets and replacing valves he had to “disturb”
+the asbestos-containing insulation.78  Further, there is evidence that it was
+Vulcan’s direction to pipefitters to replace the gaskets which created the
+
+78  R. Doc. 433-4 at 7 (Deposition of Callen Cortez at 194:1-8).
+Case 2:20-cv-02389-SSV   Document 1129   Filed 08/03/22   Page 39 of 42
+40
+
+disturbance.  The Court thus rejects defendant’s assertion that asbestos itself
+cannot be considered a defect, and notes that Louisiana courts have held that
+asbestos is unreasonably dangerous in cases with similar facts to the present
+case.  For example, in Watts, a Louisiana appeals court concluded that there
+was “a reasonable factual basis” to support the trial court’s finding that Dow
+was liable under article 2317 based on the evidence that the decedent worked
+at Dow’s plant,  “inhaled significant quantities of asbestos . . . on Dow’s
+premises,” and that “ Dow owned the asbestos, which was unreasonably
+dangerous.” See Watts, 135 So. 3d at 62 (emphasis added).
+ Thus, plaintiffs have raised an issue of fact as to whether the asbestos-
+containing gaskets and insulation on Vulcan’s premises were a “thing [that]
+had a vice or defect that created an unreasonable risk of harm.”  A
+characteristic of asbestos that makes it unreasonably harmful is that when it
+is disturbed, its fibers can be inhaled by workers causing injury.  See id. at 62
+(noting that there “is really no dispute . . . that asbestos is a substance that
+creates an unreasonable risk of harm when inhaled”).  Here, plaintiffs have
+produced evidence that Vulcan required workers to use asbestos-containing
+products, and to use them in ways that would disturb the asbestos, thereby
+Case 2:20-cv-02389-SSV   Document 1129   Filed 08/03/22   Page 40 of 42
+41
+
+activating its dangerous characteristics. 79  Defendant seeks to avoid this
+conclusion by noting that it required pipefitters to use a solvent when
+removing gaskets to reduce dust , and that it therefore “cannot be liable for
+th[e] unsafe work practices performed by an outside contractor.”80  But given
+the evidence in the record that Vulcan required its contractors to follow its
+asbestos removal procedure, and that Vulcan r epresentatives oversaw that
+work, there is at least a dispute of material fact as to Vulcan’s involvement in
+the unsafe practices that Cortez alleges he was exposed to in his deposition.
+Accordingly, because plaintiffs have raised issue of material fact a s to
+each element of their strict-liability claims, defendant’s motion for summary
+judgment on these claims is denied.
+
+79  R. Doc. 653-13 at 14, 17 (Deposition of Rodney Gremillion at 68:5 -25;
+71:1-4).
+80  R. Doc. 836 at 7.
+Case 2:20-cv-02389-SSV   Document 1129   Filed 08/03/22   Page 41 of 42
+42
+
+IV. CONCLUSION
+
+For the foregoing reasons,  the Court DENIES defendant’s motion for
+summary judgment.81
+
+New Orleans, Louisiana, this _____ day of August, 2022.
+
+_____________________
+SARAH S. VANCE
+UNITED STATES DISTRICT JUDGE
+
+81  R. Doc. 433.
+3rd
+Case 2:20-cv-02389-SSV   Document 1129   Filed 08/03/22   Page 42 of 42

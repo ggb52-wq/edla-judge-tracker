@@ -1,0 +1,856 @@
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+CALLEN J. CORTEZ
+
+ CIVIL ACTION
+VERSUS
+
+ NO. 20-2389
+LAMORAK INSURANCE COMPANY,
+ET AL.
+
+ SECTION “R” (1)
+
+ORDER A ND REASONS
+ Before the Court is defendant Huntington Ingalls, Inc.’s (“ Avondale”)
+motion for summary judgment, seeking dismissal of plaintiff’s claims against
+it.1  The motion is opposed by defendants General Electric Co., Fos ter
+Wheeler LLC, and ViacomCBS, Inc.; 2 Union Carbide Corp. and
+BayerCropScience, Inc.; 3 and plaintiff Callen Cortez  (collectively, the
+“opposing parties”).4
+ For the following reasons, the Court grants the  motion in part, and
+denies the motion in part.
+
+1  R. Doc. 386.
+2  R. Doc. 487.
+3  R. Doc. 531.
+4  R. Doc. 580.
+Case 2:20-cv-02389-SSV   Document 886   Filed 04/04/22   Page 1 of 35
+2
+
+I.  BACKGROUND
+ This is an asbestos exposure case.  Plaintiff Callen Cortez alleges that
+he contracted mesothelioma as a result of  exposure to asbestos during  his
+employment with various companies, including Avondale ,5 as well as take -
+home exposure resulting from his father’s6 and brothers’ work with various
+companies, including Avondale.7
+ Plaintiff lived in his family home in Kraemer, Louisiana, starting from
+his birth in 1951, until he married and moved out in May of 1972.8  Plaintiff’s
+brother, Daniel Cortez, also lived in the home.  Daniel began working at the
+Avondale Shipyards on August 29, 1967,9 and remained living with plaintiff
+at their family home until Daniel married and moved out in July of 1968. 10
+Daniel testified that, during these first ten to eleven months at Avondale, he
+worked with asbestos cloth and other insulation materials, and that fibers
+released from cutting and tearing the cloth got onto his work clothes. 11  He
+further testified that, after work each day, he would come home, hang up his
+
+5  R. Doc. 1-1 at 3-6 (Complaint ¶¶ 3, 8).
+6  Id. at 7-9 (Complaint ¶¶ 11-16).
+7  R. Doc. 149 at 1-2 (Second Amended Complaint ¶¶ 94-95).
+8  R. Doc. 580-4 at 2-3 (Discovery Deposition of Callen Cortez at 100:11-
+101:8).
+9  R. Doc. 580-5 at 4 (Deposition of Daniel Cortez at 12:3-13).
+10  Id. at 3-4 (Deposition of Daniel Cortez at 11:21-12:2).
+11  Id. at 16 (Deposition of Daniel Cortez at 36:6-13).
+Case 2:20-cv-02389-SSV   Document 886   Filed 04/04/22   Page 2 of 35
+3
+
+clothes, and, with plaintiff’s help, beat the fibers off his clothes.12  Avondale’s
+expert, Dr. Brent Staggs, opined at his deposition that asbestos taken home
+on Daniel Cortez’s clothes significantly contributed to plaintiff’s
+development of mesothelioma.13
+On March 6, 1969, plaintiff began working for Avondale.14  He worked
+as a welder and tacker helper, primarily at Avondale’s Westwego Yard, until
+May 31, 1974. 15  Plaintiff testified that, throughout his employment with
+Avondale, he used asbestos cloth to protect from burns and hot sparks.16
+Plaintiff was diagnosed with mesothelioma on June 2, 2020.17  On July
+1, 2020, plaintiff filed suit in the Civil District Court for the Parish of Orleans
+against Avondale and approximately thirty-four other defendants, including
+former employers, manufacturers, and insurance companies. 18  On August
+31, 2020, the case was removed to federal court.19
+
+12  Id. at 5-6 (Deposition of Daniel Cortez at 17:16-18:17).
+13  R. Doc. 580-8 at 9 (Deposition of Dr. Brent Christopher Staggs at 64:8-
+16).
+14  R. Doc. 609-3 at 2 (Discovery Deposition of Callen Cortez at 109:1-9).
+15  Id.
+16  Id. at 8-9 (Discovery Deposition of Callen Cortez at 118:19-119:12).
+17  R. Doc. 1-1 at 10 (Complaint ¶ 17).
+18  Id. at 1-3 ¶¶ 1-2; id. at 45-48.
+19  R. Doc. 1 (Notice of Removal).
+Case 2:20-cv-02389-SSV   Document 886   Filed 04/04/22   Page 3 of 35
+4
+
+On February 9, 2022, Avondale moved for summary judgment. 20
+Avondale contends that plaintiff’s claims against it should be dismissed
+because they are preempted by the Longshore and Harbor Workers’
+Compensation Act (“LHWCA”).  It seeks dismissal of plaintiff’s claims arising
+out of his own employment with Avondale, as well as his claims arising out
+of alleged exposure to asbestos from clothing that his brother brought home
+from Avondale.21  Avondale also contends that plaintiff’s intentional -tort
+claim must be dismissed, because there is no intentional -tort exception to
+the LHWCA, and, even if there were, plaintiff has failed to create an issue of
+material fact on such a claim.22
+Multiple parties oppose Avondale’s motion.  Specifically, co -
+defendants General Electric Co., Foster Wheeler LLC, ViacomCBS, Inc., 23
+Union Carbide Corp., and BayerCropScience, Inc. 24 oppose the motion.
+Plaintiff also opposes the motion.25
+The opposing parties contend that plaintiff’s claims against Avondale
+are not preempted by the LHWCA because his injuries fall within the
+
+20  R. Doc. 386.
+21  Id.
+22  Id.
+23  R. Doc. 487.
+24  R. Doc. 531.
+25  R. Doc. 580.
+Case 2:20-cv-02389-SSV   Document 886   Filed 04/04/22   Page 4 of 35
+5
+
+“twilight zone” of concurrent federal and state jurisdiction over workers’
+compensation claims.  They also argue that, even if the LHWCA preempts
+plaintiff’s claims against Avondale arising out of his employment w ith
+Avondale, the statute does not preempt his “third party” claims arising out
+of Daniel Cortez’s take-home asbestos.  Finally, the opposing parties contend
+that the LHWCA has an intentional -tort exception, and that material facts
+remain in dispute as to such a claim.
+The Court considers the parties’ arguments below.
+
+II. LEGAL STANDARD
+Summary judgment is warranted when “the movant shows that there
+is no genuine dispute as to any material fact and the movant is entitled to
+judgment as a matter of law.”  Fed. R. Civ. P. 56(a); see also Celotex Corp. v.
+Catrett, 477 U.S. 317, 322-23 (1986); Little v. Liquid Air Corp., 37 F.3d 1069,
+1075 (5th Cir. 1994) (en banc) (per curiam).  “When assessing whether a
+dispute to any material fact exists, [the Court] consider[s] all of the evidence
+in the record but refrain[s] from making credibility determinations or
+weighing the evidence.”  Delta & Pine Land Co. v. Nationwide Agribusiness
+Ins., 530 F.3d 395, 398 -99 (5th Cir. 2008).  All reasonable inferences are
+drawn in favor of the nonmoving party, but “unsupported allegation s or
+Case 2:20-cv-02389-SSV   Document 886   Filed 04/04/22   Page 5 of 35
+6
+
+affidavits setting forth ‘ultimate or conclusory facts and conclusions of law’
+are insufficient to either support or defeat a motion for summary judgment.”
+Galindo v. Precision Am. Corp., 754 F.2d 1212, 1216 (5th Cir. 1985) (quoting
+10A Charles Alan Wright & Arthur R. Miller, Federal Practice and Procedure
+§ 2738 (2d ed. 1983)); see also  Little, 37 F.3d at 1075.  “No genuine dispute
+of fact exists if the record taken as a whole could not lead a rational trier of
+fact to find for the nonmoving party.”  EEOC v. Simbaki, Ltd., 767 F.3d 475,
+481 (5th Cir. 2014).
+If the dispositive issue is one on which the moving party will bear the
+burden of proof at trial, the moving party “must come forward with evidence
+which would ‘entitle it to a directed verdict if the evidence went
+uncontroverted at trial.’”  Int’l Shortstop, Inc. v. Rally’s, Inc., 939 F.2d 1257,
+1264-65 (5th Cir. 1991) (quoting Golden Rule Ins. v. Lease, 755 F. Supp. 948,
+951 (D. Colo. 1991)).  “[T]he nonmoving party can defeat the motion” by
+either countering with evidence sufficient to demonstrate the “existence of a
+genuine dispute of material fact,” or by “showing that the moving party’s
+evidence is so sheer that it may not persuade the reasonable fact -finder to
+return a verdict in favor of the moving party.”  Id. at 1265.
+If the dispositive issue is one on which the nonmoving party will bear
+the burden of proof at trial, the moving party may satisfy its burden by
+Case 2:20-cv-02389-SSV   Document 886   Filed 04/04/22   Page 6 of 35
+7
+
+pointing out that the evidence in the record is insufficient with respect to an
+essential element of the nonmoving party’s claim.  See Celotex, 477 U.S. at
+325.  The burden then shifts to the nonmoving party, who must, by
+submitting or referring to evidence, set out specific facts showing that a
+genuine issue exists.  See id. at 324.  The nonmovant may not rest upon the
+pleadings, but must identify specific facts that establish a genuine issue for
+resolution.  See, e.g., id.; Little, 37 F.3d at 1075 (“Rule 56 ‘mandates the entry
+of summary judgment, after adequate time for discovery and u pon motion,
+against a party who fails to make a showing sufficient to establish the
+existence of an element essential to that party’s case, and on which that party
+will bear the burden of proof at trial.’”  (quoting Celotex, 477 U.S. at 322)).
+
+III. DISCUSSION
+Avondale’s motion presents three distinct questions: (1) whether
+plaintiff’s tort claims against Avondale as his employer are preempted by the
+LHWCA; (2) whether plaintiff’s tort claims against Avondale as his brother’s
+employer, i.e., as the alleged source of take-home exposure before plaintiff’s
+work for Avondale, are preempted by the LHWCA; and (3) whether plaintiff
+may maintain his intentional-tort claim against Avondale.
+Case 2:20-cv-02389-SSV   Document 886   Filed 04/04/22   Page 7 of 35
+8
+
+The first question, whether the LHWCA preempts plaintiff’s employee-
+employer claims,  has been a nswered in the affirmative in multiple cases
+before this Court and other sections of this Court.   See Barrosse v.
+Huntington Ingalls, Inc., No. 20-2042, 2021 WL 4355415 (E.D. La. Sept. 24,
+2021); Krutz v. Huntingon Ingalls, Inc. , No. 20 -1722, 2021 WL 5893981
+(E.D. La. Apr. 22, 2021); Hulin v Huntington Ingalls, Inc., No. 20-924, 2020
+WL 6059645 (E.D. La. Oct. 14, 2020);  Dempster v. Lamorak Ins. Co. , No.
+20-95, 2020 WL 5071115 (E.D. La. Aug. 26, 2020);  Cobb v. Sipco Servs. &
+Marine, Inc., No. 95 -2131, 1997 WL 159491  (E.D. La. Mar. 27, 1997) .  The
+Court therefore addresses this question first, and, in so doing, largely
+reiterates its prior analyses on this issue.  The Court then proceeds to the
+second and third issues, which have not been addressed as extensively.
+
+A. Preemption of Plaintiff’s Claims Against Avondale
+Arising out of His Employment
+The LHWCA is a federal workers’ compensation statute providing
+covered maritime workers with “medical, disability, and survivor benefits for
+work-related injuries and death.”  MMR Constructors, Inc. v. Dir., Office of
+Workers’ Comp. Programs, 954 F.3d 259, 262 (5th Cir. 2020) (citation and
+internal quotation marks omitted).  Before 1972, the statute covered only
+workers on “navigable waters of the United States (including any dry dock).”
+Case 2:20-cv-02389-SSV   Document 886   Filed 04/04/22   Page 8 of 35
+9
+
+Id. (citing 33 U.S.C. § 903(a) (pre- 1972)).  But, in 1972, Congress amended
+the Act and “extend[ed] the LHWCA landward.”  Sun Ship, Inc. v.
+Pennsylvania, 447 U.S. 715, 719 (1980).
+1. Applicable Version of the LHWCA
+Plaintiff argue s that the pre -1972 version of the law applies  to this
+dispute,26 while Avondale contends that the post- 1972 Act applies. 27
+Specifically, Avondale argues that the Court must apply the Act as it existed
+when Cortez’s disease manifested , i.e., in 2020,  to determine whether the
+alleged injuries are covered. 28   Plaintiff argues that the date of his exposure
+governs which version applies.29
+Courts use the “date of injury” to determine which version of the
+LHWCA applies.  Castorina v. Lykes Bros. S.S. Co., 758 F.2d 1025, 1029 (5th
+Cir. 1985).  In the context of long -latency diseases arising from asbestos
+exposure, the Fifth Circuit in Castorina held that manifestation, not
+exposure, determines the date of injury.  Id.  at 1031.  There, plaintiff's
+disease, asbestosis, manifested in 1979.  Id. at 1028.  His exposures occurred
+between 1965 and 1972.  Id. at 1027.  The Fifth Circuit  looked to judicial
+
+26  R. Doc. 580 at 23-25.
+27  R. Doc. 386-1 at 5-6.
+28  Id.
+29  R. Doc. 580 at 23-25.
+Case 2:20-cv-02389-SSV   Document 886   Filed 04/04/22   Page 9 of 35
+10
+
+authority stating that the LHWCA “is not concerned with pathology, but with
+industrial disability; and a disease is no disease until it manifests itself.”  Id.
+(quoting Grain Handling Co. v. Sweeney , 102 F.2d 464 (2d Cir.), cert.
+denied, 308 U.S. 570 ( 1939)).  It also inferred Congress’s intent from
+Congress’s express adoption of the manifestation rule in 1984.  Id.  (citing
+Pub. L. No. 98– 426, § 28(g)(1), 98 Stat. 1639 (1984)). In the 1984
+amendments to the LHWCA, Congress provided a specific definition  of
+“injury” for occupational diseases:
+[I]n the case of an occupational disease which does not
+immediately result in a disability or death, an injury shall be
+deemed to arise on the date on which the employee or claimant
+becomes aware, or in the exercise of reasonable diligence or by
+reason of medical advice should have been aware, of the
+disease . . . .
+Pub. L. No. 98-426, § 28(g)(1), 98 Stat. 1639 (1984).  Under Castorina and
+the 1984 amendments, Cortez ’s injury is deemed to arise on the date it
+manifested.  Because Cortez’s disease manifested in 2020, the Court applies
+the LHWCA as it existed in 2020, the date of his injury.30
+Plaintiff disputes this legal conclusion by pointing to dicta in a footnote
+in Savoie v. Huntington Ingalls, Inc., 817 F.3d 457, 466 n.6 (5th Cir. 2016),31
+in which the Fifth Circuit stated:
+
+30  R. Doc. 1-1 at 10 (Complaint ¶ 17).
+31  R. Doc. 580 at 23-25.
+Case 2:20-cv-02389-SSV   Document 886   Filed 04/04/22   Page 10 of 35
+11
+
+Defendant’s preemption defense is governed by the law at the
+time [plaintiff] was exposed to asbestos, which occurred before
+the Louisiana Worker’s Compensation Act was amended in 1989
+to eliminate any concurrent coverage between that Act and the
+federal Longshore and Harbor Workers’ Compensation Act.  See
+La. Rev. Stat. 23:1035.2 (providing that “[n]o compensation shall
+be payable in respect to the disability or death of any employee
+covered by . . . the Longshoremen’s and Harbor Worker's
+Compensation Act, or any of its extensions . . .”).
+
+Id. (emphasis added).  The Court does not find that this footnote has the
+import plaintiff attributes to it.
+In the Savoie  opinion, the court makes clear that it is discussing the
+applicable version of state law.  For example, in the footnote upon which
+plaintiffs rely, the Fifth Circuit noted that the  plaintiff’s exposure “occurred
+before the Louisiana Worker’s Compensation Act was amended in 1989 to
+eliminate any concurrent coverage between that Act and the federal
+Longshore and Harbor Workers’ Compensation Act.”  Id. (citing La. Rev.
+Stat. § 23:1035.2).  If the court were not referring to the appropriate version
+of state law, there would have been no need to discuss the elimination of
+concurrent state-federal workers’ compensation coverage.  The references to
+state law in the same footnote and throughout the opinion support the
+Court’s conclusion that the Fifth Circuit was referring to the applicable state
+law, not which version of the LHWCA applies.  See id.  at 464 (“[Wrongful
+death] claims are governed by the [state] law in effect at the time the
+Case 2:20-cv-02389-SSV   Document 886   Filed 04/04/22   Page 11 of 35
+12
+
+decedent passes away,” but “survival claims based on asbestos exposure are
+governed by the [state] law in effect when the exposure occurred.” (first
+citing Rando v. Anco Insulations, Inc., 16 So.3d 1065, 1072 (La. 2009), and
+then citing Landry v. Avondale Indus., Inc., 877 So.2d 970, 972 (La. 2004)).
+Further, the Fifth Circuit expressly stated that it did not decide whether
+defendant had a colorable federal preemption defense.  Id. at 466.  One Fifth
+Circuit panel cannot overrule another without an intervening change in the
+law, see United States v. Darrington, 351 F.3d 632, 634 (5th Cir. 2003), and
+in the event of a conflict, the earlier case controls.  Texaco Inc. v. La. Land &
+Expl. Co., 995 F.2d 43, 44 (5th Cir. 1993).  But in any event, the Court does
+not find that the Fifth Circuit intended to overrule its earlier, reasoned
+decision in Castorina by way of dicta in a footnote.
+Because Castorina’s manifestation rule controls, the Court applies the
+LHWCA as it existed in 2020, when Cortez’s mesothelioma manifested.32
+2. Applicability of the Post-1972 LHWCA to Cortez’s Injuries
+
+Since the 1972 amendments, the LHWCA  covers injuries of workers
+who meet the Act’s “status” and “situs” requirements.  See New Orleans
+Depot Servs. v. Dir., Office of Worker’s Comp. Programs, 718 F.3d 384, 389
+(5th Cir. 2013).  Plaintiff easily meets these criteria.
+
+32  R. Doc. 1-1 at 10 (Complaint ¶ 17).
+Case 2:20-cv-02389-SSV   Document 886   Filed 04/04/22   Page 12 of 35
+13
+
+The “status” requirement limits application of the LHWCA to
+“traditional maritime occupations.”  Id.; see 33 U.S.C. § 902(3) (defining
+“employee” as “any person engaged in maritime employment, including any
+longshoreman or other person engaged in longshoring operations, and any
+harbor-worker including a ship repairman, shipbuilder, and ship -breaker”
+(emphasis added)).  The status test is satisfied when the person is “directly
+involved in an ongoing shipbuilding operation.”  Ingalls Shipbuilding Corp.
+v. Morgan, 551 F.2d 61, 62 (5th Cir. 1977).
+Plaintiff worked as a tacker helper and welder on vessels at Avondale’s
+Westwego Yard.  This type of work satisfies the status test because it is an
+“essential step of the shipbuilding process.”  Id. (holding that a worker who
+died when a stee l plate he was cleaning fell on him  satisfied the status test
+because the “cleaning task was an essential step of the shipbuilding
+process”); see also McLaurin v. Noble Drilling (US) Inc., 529 F.3d 285, 289
+(5th Cir. 2008) (stating that the LHWCA applies t o “longshoremen,
+shipbuilders, ship repairers, and various harbor workers, such as carpenters,
+cleaners, or painters”); 1 Robert Force and Martin J. Norris, The Law of
+Maritime Personal Injuries § 3:9 (5th ed.) (stating that the LHWCA
+specifically includes “any harborworker,” which includes “shipcleaners, tank
+cleaners, riggers, carpenters, ship ceilers, cargo checkers, cargo weighers,
+Case 2:20-cv-02389-SSV   Document 886   Filed 04/04/22   Page 13 of 35
+14
+
+cargo talleyers, port watchmen, electricians, painters, mechanics, etc.”).
+Thus, the Court finds that the LHWCA’s status test is satisfied.
+The “situs” test, extended by Congress in 1972, requires that the injury
+occur on the “navigable waters of the United States” and “any adjoining pier,
+wharf, dry dock, terminal, building way, marine railway, or other adjoining
+area custo marily used by an employer in loading, unloading, repairing,
+dismantling, or building a vessel.”  33 U.S.C. § 903(a); see also Sun Ship, 447
+U.S. at 719 (“In 1972, Congress . . . extend[ed] the LHWCA landward beyond
+the shoreline of the navigable waters of  the United States.”).  There is no
+dispute that Cortez ’s exposure to asbestos occurred in a covered situs—
+Avondale Shipyards.   See Pitre v. Huntington Ingalls, Inc. , No. 17 -7029,
+2018 WL 2010026, at *3 (E.D. La. Apr. 30, 2018) (“Avondale ’s vessel
+construction and repair activities occurred on the west bank of the
+Mississippi River adjacent to navigable waters.”).
+Cortez’s status falls within the coverage of the LHWCA, and his injuries
+occurred on a covered situs.  Therefore, the Court finds that plaintiff could
+have brought his claims under the LHWCA.
+3. LHWCA Preemption of Tort Claims Against Employers
+Avondale contends that the LHWCA immunizes it  from tort liability.
+Section 905(a) of the LHWCA, the employer immunity provision, states:
+Case 2:20-cv-02389-SSV   Document 886   Filed 04/04/22   Page 14 of 35
+15
+
+The liability of an employer prescribed in section 904 of this title
+shall be exclusive and in place of all other liability of such
+employer to the employee, his legal representative, husband or
+wife, parents, de pendents, next of kin, and anyone otherwise
+entitled to recover damages from such employer at law or in
+admiralty on account of such injury or death . . . .
+
+33 U.S.C. § 905(a).  Based on this provision, Avondale argues that plaintiff’s
+state-law tort claims conflict with the LHWCA, and are therefore preempted.
+The opposing parties contend that a state may constitutionally provide for
+state-law tort remedies concurrently with the LHWCA , and that, therefore,
+the LHWCA does not preempt plaintiff’s claims.
+Federal law applies to questions of preemption.  Hetzel v. Bethlehem
+Steel Corp., 50 F.3d 360, 363 (5th Cir. 1995).  Federal law can preempt state
+law in three ways: (1) express preemption, where Congress expresses an
+explicit intent to preempt state law; (2 ) field preemption, where the “sheer
+comprehensiveness” of the federal scheme implies congressional intent to
+preempt state regulation in the area; or (3) conflict preemption, where the
+state law either directly conflicts with the federal law or interferes with the
+regulatory program established by Congress.  Id.  The U.S. Supreme Court
+has set out “two cornerstones” of preemption jurisprudence.  Wyeth v.
+Levine, 555 U.S. 555, 565 (2009).  First, the “ultimate touchstone” is “the
+purpose of Congress.”  Id. (citing Medtronic, Inc. v. Lohr, 518 U.S. 470, 485
+(1996)).  Second, the Court must “start with the assumption that the historic
+Case 2:20-cv-02389-SSV   Document 886   Filed 04/04/22   Page 15 of 35
+16
+
+police powers of the States were not to be superseded by the Federal Act
+unless that was the clear and manifest purpose of Congress,” especially when
+the case involves a “field which the states have traditionally occupied.”  Id.
+(quoting Lohr, 518 U.S. at 485) (quotation marks omitted).
+Because tort law is a field traditionally occupied by the States, the Court
+starts with the a ssumption that Congress did not intend to supersede state
+law when it enacted the LHWCA.  But this assumption does not stand in face
+of the text of the LHWCA, the purpose behind the statute, and the weight of
+judicial authority.
+Section 905(a) of the LHWCA provides that compensation under the
+LHWCA is exclusive of all other employer liability, including for actions to
+recover damages at law.  33 U.S.C. § 905(a).  The plain language of this
+provision “evidences an unmistakable intention to embody the quid pro quo
+that defines most workmen’s compensation statutes.”  Cobb , 1997 WL
+159491, at *7 (citing Peter v. Hess Oil Virgin Islands Corp. , 903 F.2d 935,
+950 (3d Cir. 1990)).  Specifically, the employee gets the benefit of no -fault
+compensation, and the employer enjoys immunity from tort liability for
+damages.  Id.  The Supreme Court recognized this exchange  when it
+explained:
+[T]he [LHWCA is] not a simple remedial statute intended for the
+benefit of the workers. Rather, it was designed to strike a balance
+Case 2:20-cv-02389-SSV   Document 886   Filed 04/04/22   Page 16 of 35
+17
+
+between the concerns of the longshoremen and harbor workers
+on the one hand, and their employers on the other.  Employers
+relinquish their defenses to tort actions in exchange for limited
+and predictable liability. Employees accepted the lim ited
+recovery because they receive prompt relief without the expense,
+uncertainty, and delay that tort actions entail.
+
+Morrison-Knudsen Constr. Co. v. Director, OWCP, 461 U.S. 624, 636 (1983).
+Allowing state-law tort claims against employers would contradict the text of
+the statute and would frustrate the Act’s purpose by undermining the quid
+pro quo.
+Indeed, several courts have recognized as much.  The Fifth Circuit held
+in Rosetti v. Avondale Shipyards, Inc. , that the LHWCA bars a “state law
+negligence claim,” because “[u]nder the LHWCA, workers compensation is
+the exclusive remedy for an injured employee against his employer.”  821
+F.2d 1083, 1085 (5th Cir. 1987).  Further, in Hetzel v. Bethlehem Steel Corp.,
+the Fifth Circuit found that “[p]reemption of [a] state [tort] act is required to
+avoid frustration of the policies and purpose behind the LHWCA.”  50 F.3d
+at 366-67 (5th Cir. 1995).  In Hetzel, the court reasoned that “[c]ongressional
+policy would be frustrated if an injured worker were allowed to collect
+benefits under the Act, and then sue his employer under a state statutory tort
+theory.”  Id.  Similarly, the Third Circuit in Peter v. Hess Oil Virgin Islands
+Corp., concluded that “§ 905(a) [of the LHWCA] and the Supremacy Clause
+bar the Virgin Is lands from imposing negligence liability on [a covered
+Case 2:20-cv-02389-SSV   Document 886   Filed 04/04/22   Page 17 of 35
+18
+
+employer.]” 903 F.3d at 953.  The Peter  court specifically noted that
+Congress “intended that compensation, not tort damages, [was] to be the
+primary source of relief for workplace injuries for longshoremen against
+their employers.”  Id. at 952.
+Moreover, this Court has held, in three separate cases, that the LHWCA
+preempts a state tort claim. See Krutz, 2021 WL 5893981, at *7; Hulin, 2020
+WL 6059645, at *7; Cobb, 1997 WL 159491, at *8 ([A]pplication of Louisiana
+tort law, which plaintiff concedes is not a workmen’s compensation remedy,
+does not further the availability of no fault compensation, and it obstructs
+the purposes of the LHWCA.”).  Other sections of this Court have held the
+same.  See Barrosse, 2021 WL 4355415, at *10 -11; Dempster, 2020 WL
+5071115, at *7.
+Because permitting plaintiff’s state tort claims against Avondale as his
+employer would obstruct the purposes of the LHWCA, the Court finds that
+these claims are preempted and must be dismissed.
+The opposing parties’ arguments to the contrary are without merit.
+First, they dedicate much of their briefing to the contention that Cortez’s
+injuries occurred in the so-called “twilight zone” of concurrent state-federal
+jurisdiction, and that his state claims are therefore permissible.  Consistent
+with prior district-court opinions, the Court rejects this argument.
+Case 2:20-cv-02389-SSV   Document 886   Filed 04/04/22   Page 18 of 35
+19
+
+The Supreme Court has long held that there are areas where a state
+may legislate concurrently with the LHWCA.  In Sun Ship , Inc. v.
+Pennsylvania, the Supreme Court addressed the “single question” of
+“whether a State may apply its workers’ compensation scheme to land-based
+injuries that fall within the coverage of the [LHWCA], as amended in 1972.”
+447 U.S. at 716 (emphasis added ).  Extending its prior “twilight zone”
+jurisprudence, the Court unanimously held that it may, i.e., that the LHWCA
+does not preempt concurrent state workers’ compensation remedies in these
+areas. Id.  The Court reasoned that, in the 1972 amendments to the Act,
+Congress intended to “upgrade the benefits” available under inadequate
+state compensation regimes, by guaranteeing the option of federal
+compensation available under the LHWCA.  Id.  at 723.  Sun Ship and other
+“twilight zone” cases make clear that a state is not entirely precluded from
+providing workers’ compensation remedies to workers covered by the
+LHWCA.  Similarly, in  Hahn v. Ross Island Sand & Gravel Co. , the U.S.
+Supreme Court found that the LHWCA did not preclude a plaintiff’s
+negligence claim brought pursuant to Oregon’s  workers’ compensation
+statute.  358 U.S. 272, 273 (1959).  The plaintiff in Hahn sought benefits
+through Oregon’s compensation regime, but his employer “elected to reject
+them.”  Id.  In these circumstances, Oregon’s Workmen’s Compensation Act
+Case 2:20-cv-02389-SSV   Document 886   Filed 04/04/22   Page 19 of 35
+20
+
+allowed the employee to bring a negligence action for damages.  T he Court
+expressly stated that the LHWCA “gave an injured waterfront employee an
+election to recover compensation under either the [LHWCA] or the
+Workmen’s Compensation law of the State  in which the injury occurred.”
+Id. (emphasis added).  Hahn does not, as the opposing parties contend, hold
+that the LHWCA permits ordinary tort claims.  Rather, like Sun Ship, it holds
+that a plaintiff may elect between federal compensation under the LHWCA
+or state workers’ compensation.
+Unlike in Sun Ship and Hahn, plaintiff here has not brought his claims
+pursuant to a state workers’ compensation regime.  Instead, plaintiff asserts
+freestanding state tort claims against his employer.  For the reasons already
+given, the LHWCA preempts these claims against Avondale.
+Second, the opposing parties argue that preemption does not apply
+because plaintiff is not seeking benefits under the LHWCA.  This Court has
+rejected this argument before, and it rejects it again .  See Krutz, 2021 WL
+5893981, at *8 (rejecting plaintiff’s contention that his claims are not
+preempted because he was not seeking LHWCA benefits); Hulin, 2020 WL
+6059645, at *7 (same).  The Fifth Circuit has made clear that, if the LHWCA
+covers an employee ’s injury, his  only remedy  against an employer lies in
+workers’ compensation.  Rosetti, 821 F.2d at 1085.  That plaintiff has not
+Case 2:20-cv-02389-SSV   Document 886   Filed 04/04/22   Page 20 of 35
+21
+
+elected to pursue those benefits does not affect the preemptive power of the
+Act.  Permitting the tort claim merely because plaintiff has foregone the
+LHWCA avenue would conflict with LHWCA’s text and undermine the quid
+pro quo that Congress enacted.
+Third and finally, the opposing parties passingly contend that a
+dismissal of plaintiff’s claims against Avondale as his employer would violate
+due process by divesting them  of a right in their accrued claims. 33  They
+assert that such a result amounts to a denial of due process.  Consistent with
+prior rulings, this Court finds that  neither the retroactive nor  preemptive
+effects of the LHWCA raise due-process concerns.  See, e.g., Krutz, 2021 WL
+5893981, at *11-12 (rejecting arguments that LHWCA preemption divested a
+worker of his negligence claim in violation of due process). The  opposing
+parties have given the Court no reason to reach a different result in this case,
+and have thus  failed to carry their burden of establishing a due- process
+violation.
+For these reasons, the Court finds that the LHWCA preempts plaintiff’s
+state-law negligence claims agai nst Avondale, in its capacity as  plaintiff’s
+employer.  The Court grants Avondale’s motion for summary judgment as to
+these claims.
+
+33  R. Doc. 531 at 17-19; R. Doc. 580 at 7.
+Case 2:20-cv-02389-SSV   Document 886   Filed 04/04/22   Page 21 of 35
+22
+
+B. Preemption of Plaintiff’s Claims Against Avondale
+Arising out of His Brother’s Employment
+ Cortez does not sue Avondale only in its capacity as his employer.  He
+also brings tort claims arising out of his alleged exposure to asbestos that his
+brother brought home from Avondale.34  Specifically, plaintiff asserts that
+his brother, Daniel, worked for Avondale when plaintiff was a teenager, and
+that during this period, Daniel brought asbestos home on his clothes.
+Avondale’s expert, Dr. Staggs, testified that this exposure significantly
+contributed to plaintiff’s development of mesothelioma. 35  And Joseph
+Holtshouser, a defense- side industrial hygiene expert, states in his expert
+report that “the occupational health literature suggests that the earlier
+exposures to airborne asbestos contribute more to the risk of developing
+mesothelioma than do later exposures.”36
+The parties dispute whether plaintiff’s tort claims against Avondale in
+its capacity as Daniel Cortez’s employer are preempted by the LHWCA.  The
+Court begins with the language of the statute.  The LHWCA covers
+
+34  See R. Doc. 149 at 1-2 (Second Amended Complaint ¶¶ 94-95).
+35  R. Doc. 580-8 at 9 (Deposition of Dr. Brent Christopher Staggs at 64:8-
+16).
+36  R. Doc. 580 -36 at 2 (Expert Report of Joseph L. Houtshouser, CIH,
+CSP) (Feb. 3, 2022).
+Case 2:20-cv-02389-SSV   Document 886   Filed 04/04/22   Page 22 of 35
+23
+
+“accidental injury or death arising out of and in the course of employment ,
+and such occupational disease or infection as arises naturally out of such
+employment or as naturally or unavoidably results from such accidental
+injury.”  33 U.S.C. § 902(2) (emphasis added) .  Similarly, the exclusiv ity
+provision of the LHWCA provides that the “ liability of an  employer
+prescribed in . . . this title shall be exclusive and in place of all other liability
+of such employer  to the employee .”  33 U.S.C. § 905(a) (emphasis added) ;
+see also Rosetti , 821 F.2d  at 1085 (“Under the LHWCA, workers[’]
+compensation is the exclusive remedy for an injured employee against his
+employer.” (emphasis added)).
+Plaintiff’s claims based on his take -home exposure via Daniel do not
+arise out of, and did not occur in the course of, plaintiff’s employment with
+Avondale.  On the contrary, this exposure predated and is unrelated to
+plaintiff’s eventual work for Avondale .  In this sense, plaintiff seeks not to
+impose on Avondale any “liability [as] an employer . . . to [its] employee,” 33
+U.S.C. § 905(a), but instead, liability as a non-employer tortfeasor to a then-
+unrelated third party .  As such , plaintiff’s claim against Avondale in its
+capacity as his brother Daniel’s employer  is materially indistinguishable
+from plaintiff’s claims against his father’s employers for whom plaintiff
+Case 2:20-cv-02389-SSV   Document 886   Filed 04/04/22   Page 23 of 35
+24
+
+himself never worked. 37  The Court finds that plaintiff is not deprived of a
+tort claim for non-employment injuries suffered via his brother in the home,
+merely because he later became an Avondale employee.
+Another Louisiana district court reached the same result in an
+analogous case, Greene v. Owens -Corning Fiberglas Corp. , 682 F. Supp.
+304, 306 (M.D. La. 1988) .  In Greene, plaintiff had worked as an in sulator
+for defendant Owens-Corning.  Id. at 305.  Plaintiff contracted asbestosis and
+related lung disease, and filed suit against Owens -Corning and others,
+seeking, inter alia, tort damages for alleged asbestos exposure from products
+manufactured by defendant Owens-Corning while plaintiff was employed by
+other companies.  Id.  The court considered whether the exclusivity provision
+of the Louisiana Worker’s Compensation Act barre d the products -liability
+claim against Owens-Corning, and found that it did not.  The court explained
+that “ plaintiff’s allegations of asbestos injury due to exposure from
+defendant’s products while employed by others, do not arise out of the
+employee-employer relationship of plaintiff and defendant; Owens-Corning
+under these circumstances is essentially a third party manufacturer outside
+of the plaintiff's employment relationship with another company. ”  Id.  at
+
+37  See R. Doc. 1-1 at 7-8 ¶ 11-14 (alleging take-home exposure attributable
+to four of plaintiff’s father’s former employers).
+Case 2:20-cv-02389-SSV   Document 886   Filed 04/04/22   Page 24 of 35
+25
+
+306.  The court rejected defendant’s “suggest[ ion] that it should escape
+liability for the separate, non -employment connected wrong because of its
+possible worker’s compensation liability.”  Id.  In conclusion, the court wrote:
+This court sees nothing inconsistent in holding Owens -Corning
+liable for w orker’s compensation because of harm done to
+plaintiff during the employment and holding it liable for delictual
+damages for torts committed following termination.  Such a
+result advances the purposes of both bodies of law —worker’s
+compensation and tort—and does no violence to either.  Plaintiff
+claims that Owens -Corning committed torts which caused him
+harm after his employment was terminated; if plaintiff can prove
+that allegation, the Louisiana Worker’s Compensation Act should
+not prevent plaintiff’s recovery of damages under tort law.
+
+Id. at 307.
+Similarly, in considering the exclusivity provisions of Pennsylvania’s
+worker’s compensation law, the U.S. Court of Appeals for the Third Circuit
+declined to bar plaintiffs’ tort claims arising out of “community” exposure to
+asbestos that was attributable to a defendant -employer but occurred away
+from the workplace.  Shelly v. Johns-Manville Corp., 798 F.2d 93, 96 (3d Cir.
+1986).  The court held tha t, “to the extent plaintiffs alleged exposure away
+from the workplace, they alleged violations that were entirely unrelated  to
+their employment,” which “affected them as members of the general public,
+simply living in the neighborhood.”  Id. at 99.
+This Court recognizes that both Greene and Shelly apply state worker’s
+compensation law, rather than the LHWCA, and deal with tort allegations
+Case 2:20-cv-02389-SSV   Document 886   Filed 04/04/22   Page 25 of 35
+26
+
+that do not exactly mirror plaintiff’s take -home allegations in this case.
+Nonetheless, Greene and Shelly illustrate th e principle that the exclusive
+liability of an employer to an employee under a worker’s compensation
+regime does not shield a covered employer from tort liability for non -
+employment harms merely because the employer previously employed, or
+would eventually employ, the tort claimant.  That principle aids this Court in
+its resolution of Avondale’s motion.
+Having reviewed this persuasive caselaw, the Court reiterates that the
+LHWCA provides that the “liability of an employer prescribed in . . . this title
+shall be exclusive and in place of all other liability of such employer  to the
+employee.”  33 U.S.C. § 905(a) (emphasis added).  Here, it is plain that
+plaintiff’s allegations of take -home exposure through his brother, Daniel ,
+“stand entirely apart from plaintiff[’s] employment” with Avondale, and that
+the take -home exposure “would have occurred exactly as it did even if
+plaintiff[] had never worked for [Avondale].”  Id. at 99.  This Court finds that
+extending the preemptive effect of the LHWCA to bar plaintiff’s take-home
+claim would run afoul of the statutory text and caselaw,  which pertain
+exclusively to claims by employees against employers , for employment -
+related injuries.  Accordingly, the Court finds that permitting plaintiff’s take-
+home claim does not  conflict with LHWCA ’s text  (which addresses the
+Case 2:20-cv-02389-SSV   Document 886   Filed 04/04/22   Page 26 of 35
+27
+
+liability of employers), nor would it undermine the Act’s quid pro quo, which
+directs benefits to employers and their employees, not to an employee’s
+teenage brother living at home.
+Moreover, the Fifth Circuit has expressly recognized that “[t] he
+difference between the capacities in which an employer may act is extremely
+important.”  Levene v. Pintail Enters., Inc., 943 F.2d 528, 531 (5th Cir. 1991).
+For instance, courts recognize a “ dual capacity” exception to the LHWCA,
+permitting an injured employee to bring a negligence claim against his
+employer in the employer’s capacity as a vessel owner .  See id.  As the Fifth
+Circuit has explained, while “[t]he LHWCA absolutely bars suit for all other
+acts taken in the capacity as the employer of the injured worker ,” id.
+(emphasis added), it does not bar suits against the employer in its capacity
+as a vessel owner.  This exception, while narrow, illustrates that a defendant
+may act as an employer at one time, and as a non -employer, with different
+consequences, at other times.
+Avondale’s arguments to the contrary are without merit.  First,
+Avondale attempts to group plaintiff’s alleged exposure from Daniel’s work
+at Avondale with plaintiff’s allegations regarding his continued exposure off
+Avondale’s premises during his own employment, such as on his bus ride to
+Case 2:20-cv-02389-SSV   Document 886   Filed 04/04/22   Page 27 of 35
+28
+
+and from work.38  Avondale argues that, because any such exposure “to his
+brothers’ and co-workers’ clothing” originated on Avondale’s premises, those
+claims “arose out of and in the course of” plaintiff’s employment , and are
+covered by the LHWCA. 39  This argument  is meritless .  Quite plainly,
+plaintiff’s exposure to his own  clothes, and his  own coworkers’ clothes, on
+his own ride to and from work, during his own employment with Avondale,
+is covered by the LHWCA.  The same is not true for the exposure he suffered
+when his brother came home from work at Avondale, when plaintiff was a
+teenager and had not worked a single day for Avondale.  The Court rejects
+this argument.
+Second, Avondale argues that the LHWCA’s “non-apportionment rule”
+requires preemption of the claims arising out of plaintiff ’s exposure from
+Daniel.40  This rule, as articulated by the Benefits Review Board  (“BRB”),
+prohibits apportionment of LHWCA benefits across jurisdictions when a
+claimant’s employment -related injuries occurred both within and outside
+the LHWCA’s coverage.  As the BRB explained, “[t]he amount of time spent
+over navig able waters during exposure to harmful stimuli causing or
+aggravating an occupational disease is unimportant and will not lend itself
+
+38  See R. Doc. 386-1 at 11-14.
+39  Id. at 13-14.
+40  Id. at 14-17.
+Case 2:20-cv-02389-SSV   Document 886   Filed 04/04/22   Page 28 of 35
+29
+
+to apportionment between jurisdictions as long as the exposure over
+navigable waters was sufficient to have at least aggra vated the condition.”
+Fulks v. Avondale Shipyards, Inc. , 637 F.2d 1008, 1010 (5th Cir. 1981)
+(quoting McCabe v. Sun Shipbuilding & Dry Dock Co. , BRB No. 74 -193, 1
+BRBS 509, 515, (June 4, 1975), rev’d on other grounds, 593 F.2d 234 (3d Cir.
+1979)).  In oth er words, “ even if the injurious stimuli were encountered
+during employment both on navigable waters and in an area not covered by
+the Act, the entire disability [is] nevertheless compensable ” under the
+LHWCA.  Id. at 1012; see also Arbogast v. Georgia-Pac. LLC, No. 14-4049,
+2017 WL 1468883, at *2 (D. Md. Apr. 25, 2017) (declining to apportion an
+employer’s LHWCA liability between covered injuries and nonmaritime,
+non-covered injuries).
+But this rule has no application to the Court’s preemption analysis of
+plaintiff’s non-employee claims against Avondale.  The rule as articulated by
+the BRB, and cited with approval by the Fifth Circuit in Fulks, contemplates
+scenarios in which employees, during the course of their employment, cross
+the boundary between coverage and non -coverage under the LHWCA.  The
+rule precludes any attempts to sort an employer’s liability into those two
+buckets.  It does not  facially speak to claims arising out non- employment
+relationships, and Avondale cites no case in which the  rule was applied to
+Case 2:20-cv-02389-SSV   Document 886   Filed 04/04/22   Page 29 of 35
+30
+
+preempt claims arising out of non-employment injuries.  The Court finds that
+the “non-apportionment” rule has no application to its preemption analysis
+of plaintiff’s claims pertaining to take -home asbestos from his brother,
+Daniel.
+Third and f inally, Avondale contends that  plaintiff has a “single,
+compensable disease, mesothelioma,” which allegedly arose at least in part
+from his employment at Avondale. 41  Because individual exposures  are not
+individual injuries—the argument goes—all claims arising out of individual
+exposures, but contributing to the ultimate, indivisible injury,  are
+preempted.42  The cases that Avondale cites for this “single injury”
+proposition discuss the claimants’ LHWCA compensation awards, and note
+the general rule that, if a workplace condition has aggravated or contributed
+to the worker’s injury, then the entire resulting injury is compensable under
+the LHWCA.  See, e.g., Ceres Marine Terminal v. Hinton, 243 F.3d 222, 226
+(5th Cir. 2001) (“Under the Act’s aggravation rule, if an employment injury
+aggravates, accelerates, exacerbates, contributes to, or combines with, a
+previous infirmity, disease or underlying condition, the employer is liable for
+compensation for, not just the disability resulting from the employment
+
+41  R. Doc. 622 at 15.
+42  Id. at 15, 18.
+Case 2:20-cv-02389-SSV   Document 886   Filed 04/04/22   Page 30 of 35
+31
+
+injury, but the employee’s total resulting disability.”); Strachan Shipping Co.
+v. Nash , 782 F.2d 513, 517 -18 (5th Cir. 1986) (same).   This principle
+recognizes that “[a]ggravation of a pree xisting condition can be an ‘injury’
+under the Act,” Bludworth Shipyard, Inc. v. Lira, 700 F.2d 1046, 1049 (5th
+Cir. 1983), and that, therefore,  a preexisting condition, accelerated or
+otherwise worsened by a workplace condition, does not deprive a LHWCA
+claimant of full recovery for the resulting injury within the Act’s
+compensation system.
+But Avondale provides no authority that, once the LHWCA covers an
+injury, the Act preempts recovery from all other sources contributing to the
+injury.  Most obviously, the potential scope of a n LHWCA award does not
+affect plaintiff’s ability to sue manufacturers of asbestos -containing
+products, or, as discussed above, his father’s employers who are allegedly
+responsible for take-home exposure.  Because Avondale has acted in at least
+two capacities as to this plaintiff —as an employer, and as a non -employer
+third party —and because the LHWCA is  concerned with only the former ,
+plaintiff’s non-employment claims against Avondale are not preempted by
+the LHWCA.
+For all of these reasons, the Court finds that Avondale is not entitled to
+summary judgment on plaintiff’s claims brought against Avondale in its
+Case 2:20-cv-02389-SSV   Document 886   Filed 04/04/22   Page 31 of 35
+32
+
+capacity as Daniel Cortez’s employer, arising out of exposure before plaintiff
+began his employment with Avondale.
+
+C. Intentional Tort Claim
+ The Court further finds that plaintiff’s intentional -tort claims against
+Avondale must be dismissed.  The parties dispute whether the LHWCA
+recognizes an intentional -tort exception, but the Court need not reach this
+issue, because even if such an exception existed, plaintiff has failed to point
+to evidence sufficient to meet his burden under Louisiana law.
+To prove an intentional tort, plaintiff must show that Avondale either
+consciously desired that plaintiff contract mesothelioma, or knew that the
+result was “substantially certain to follow from [its] conduct.” Zimko v. Am.
+Cyanamid, 905 So. 2d 465, 475 (La. App. 4 Cir. 2005), cert. denied, 925 So.
+2d 538 (2006) (internal citations omitted).  Substantial certainty “requires
+more than a reasonable probability that an injury will occur,” and plaintiff
+must prove that his  contracting mesothelioma was “inevitable or incapable
+of failing.”  Reeves v. Structural Pres. Sys. , 731 So. 2d 208, 213 (La. 1999)
+(internal citations omitted).  It is not  sufficient for plaintiff to show that
+Avondale had knowledge that its  practices were dangerous and created a
+high probability that someone would event ually be injured.  Id.  Indeed, a
+Case 2:20-cv-02389-SSV   Document 886   Filed 04/04/22   Page 32 of 35
+33
+
+defendant’s “belie[f] that someone may, or even probably will, eventually get
+hurt if a workplace practice is continued does not rise to the level of
+intentional tort, but instead falls within the range of negligent acts.”  Id. at
+214.
+Another section of this Court  recently considered an intentional -tort
+claim against Avondale arising out of asbestos exposure.  There, plaintiffs
+argued that Avondale was “ aware of the risks associated with asbestos and
+with the unsafe working conditions at Avondale ,” and that it “fai led to
+remedy those conditions despite [its]  knowledge of the risks. ”  Vedros v.
+Northrop Grumman Shipbuilding, Inc., No. 11-1198, 2014 WL 906164, at *3
+(E.D. La. Mar. 7, 2014).  Judge Carl Barbier dismissed the claim on summary
+judgment.  He found that, “ [e]ven considering the facts in the light most
+favorable to Plaintiffs and assuming that Defendants were aware that there
+was a major risk, or even a probability, that [decedent]  would contract
+mesothelioma,” plaintiffs had not submitted evidence permittin g a
+reasonable jury to “conclude that [decedent’s] contracting mesothelioma was
+‘inevitable or incapable of failing’ and was thus substantially certain to result
+from Defendants’ conduct.”  Id.
+Case 2:20-cv-02389-SSV   Document 886   Filed 04/04/22   Page 33 of 35
+34
+
+Here, plaintiff contends that there are disputed issues of fact regarding
+Avondale’s “motive and intent” as to plaintiff’s asbestos exposure.43  But his
+evidence falls far short of what is necessary to raise a material issue for an
+intentional-tort claim.  Plaintiff  generally asserts that Avondale “knew that
+asbestos was a health hazard,” that it “caused fatal lung disease,” and that it
+“had problems with it.”44  Plaintiff also points to Avondale’s attempts to clean
+up the yard before inspectors arrived, and its inst ructions to its employees
+that they should not work with insulation while inspectors were in the yard.45
+But a defendant’s  “mere knowledge and appreciation of a risk does not
+constitute intent, nor does reckless or wanton conduct  by an employer
+constitute intentional wrongdoing .”  Reeves, 731 So. 2d at 213 (citations
+omitted).  Plaintiff has not submitted any evidence suggesting that Avondale
+intended to harm him, or that his mesothelioma was “inevitable or incapable
+of failing.”  Id.  In fact, as other courts have recognized, “ it is [not] common
+human experience . . . that mesothelioma is known certainly or inevitably to
+follow from asbestos exposure.”   Vedros , 2014 WL 906164, at *3  (quoting
+Zimko, 905 So. 2d at 479 ).  Accordingly,  plaintiff’s claim against Avondale
+“lies in the realm of negligence, not in the realm of intentional tort.”  Id.
+
+43  R. Doc. 580 at 43-46.
+44  Id. at 44-45.
+45  Id. at 45.
+Case 2:20-cv-02389-SSV   Document 886   Filed 04/04/22   Page 34 of 35
+35
+
+For these reasons, Avondale is entitled to summary judgment
+dismissing plaintiff’s intentional-tort claims.
+
+IV. CONCLUSION
+For the foregoing reasons, th e Court GRANTS IN PART and DENIES
+IN PART Avondale’s motion for summary judgment.46
+The Court grants the motion as to plaintiff’s tort claims against
+Avondale in its capacity as plaintiff’s employer, as well as his intentional-tort
+claims against Avondale.  The Court denies the motion as to plaintiff’s claims
+against Avondale in its capacity as his brother Daniel’s employer.
+The Court thus DISMISSES all of plaintiff’s claims against Avondale,
+except his take -home-exposure claims brought ag ainst Avondale in its
+capacity as Daniel Cortez’s employer.
+
+New Orleans, Louisiana, this _____ day of April, 2022.
+
+_____________________
+SARAH S. VANCE
+UNITED STATES DISTRICT JUDGE
+
+46  R. Doc. 386.
+4th
+Case 2:20-cv-02389-SSV   Document 886   Filed 04/04/22   Page 35 of 35
