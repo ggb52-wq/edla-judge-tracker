@@ -1,0 +1,1000 @@
+1
+
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+CLINTON EVANS et al.  CIVIL ACTION
+VERSUS NO. 18-8972
+JOSEPH LOPINTO et al. SECTION: “G”(1)
+
+ORDER AND REASONS
+In this litigation, Plaintiff s Clinton Evans and Jeresa Morgan (collectively, “Plaintiffs”)
+bring claims individually and on behalf of their deceased son, Jatory Evans (“Evans”), against
+Defendants CorrectHealth Jefferson (“CHJ”), Jefferson Parish, Sheriff Joseph Lopinto
+(“Lopinto”), Corrections Administrator and Deputy Chief Sue Ellen Monfra (“Monfra”), Deputy
+Christopher Mayeaux (“Mayeaux”), Dr. William Lo (“Dr. Lo”), David Jennings (“Jennings”), and
+Ironshore Specialty Insurance Co. (“Ironshore”), (collectively, “Defendants”).1 Plaintiffs allege
+that Defendants failed to properly monitor Evans while he was incarcerated in Jefferson Parish
+Correctional Facility (“JPCC”) and that their acts or omissions lead to Evans’ death by suicide .2
+Pending before the Court is Defendants CHJ, Ironshore, Jennings and Dr. Lo’s (collectively “CHJ
+Defendants”) “Motion for Summary Judgment On Plaintiffs’ 1983 Claims and Request for
+Punitive Damages.”3
+
+1 Rec. Doc. 6 at 2–5.
+2 Id. at 1.
+3 Rec. Doc. 67.
+Case 2:18-cv-08972-NJB-JVM   Document 151   Filed 05/31/22   Page 1 of 37
+2
+
+CHJ Defendants argue that they are entitled  to summary judgment because (1) all of
+Plaintiff’s § 1983 claims fail because the Medical Review Panel found that CHJ Defendants’
+treatment was not below the standard of care; (2) CHJ cannot be held vicariously liable for
+Jennings’ and Dr. Lo’s conduct; and (3) Plaintiffs cannot establish punitive damages against any
+of the CHJ Defendants. For the reasons described in detail below, CHJ Defendants are not entitled
+to summary judgment on all claims. Specifically, the Court finds that the Medical Review Panel’s
+opinion does not preclude Plaintiffs from establishing a deliberate indifference claim. The Court
+further finds that although Plaintiffs cannot establish a deliberate indifference claim against Dr.
+Lo, a reasonable jury could find that Jennings acted with deliberate indifference. As a result, the
+jury may also award punitive damages against Jennings. Because the Fifth Circuit is currently
+considering whether a private corporation performing government functions can be held
+vicariously liable under § 1983 and whether such a corporation can face punitive damages, the
+Court defers ruling on those issue s pending the Fifth Circuit’s decision on those issues. Thus,
+considering the motion, the memoranda in support and in opposition, and the applicabl e law, the
+grants the motion in part, denies it in part, and defers ruling in part.
+
+I. Background
+A.  Factual Background
+ The Amended Complaint alleges that Evans was a pre-trial detainee in the custody and care
+of the Jefferson Parish Sheriff’s Office at JPCC when he died by hanging in his cell on September
+27, 2017. 4 Plaintiffs allege that Evans had an extensive history of PTSD for which he had
+
+4 Rec. Doc. 38.
+Case 2:18-cv-08972-NJB-JVM   Document 151   Filed 05/31/22   Page 2 of 37
+3
+
+previously been treated with medication. 5 Plaintiffs aver that Evans reported numerous incidents
+of mental distress while at JPCC. 6 For example, Plaintiffs aver that Evans was seen by Social
+Worker David Jennings after reporting that he felt like he was going crazy, could not sleep, and
+described other PTSD symptoms, and Jennings referred him to a psychiatrist to be evaluated for
+psychosis.7 In December 2016, Plaintiffs allege Evans reported that he was having headaches and
+experiencing feelings of “jitteriness and shaking.” 8 In February 2017, Plaintiffs aver that Evans
+was seen by Jennings after reporting that he was having flashbacks  of his deployment to
+Afghanistan.9 Plaintiffs aver that Jennings “simply noted that [Evans] was in no acute distress.”10
+The following day, Plaintiffs allege that Evans reported again that he was “having visions from
+[his] Afghanistan events (deployment) and other events,” and that he had “painful knots in his
+arms and legs.”11 Plaintiffs aver that he also reported not being able to sleep. 12 Plaintiffs allege
+that Evans was not seen by Jennings or Dr. Lo in response to these reports. 13
+ Plaintiffs alleged that on March 25, 2017, Evans was placed on suicide watch after
+wrapping a towel around his neck. 14 Plaintiffs aver that the reason for his placement on suicide
+
+5 Id. at 5.
+6 Id. at 6.
+7 Id.
+8 Id. at 6
+9 Id.
+10 Id.
+11 Id. at 7.
+12 Id.
+13 Id.
+14 Id.
+Case 2:18-cv-08972-NJB-JVM   Document 151   Filed 05/31/22   Page 3 of 37
+4
+
+watch was listed as “severe depression.”15 Plaintiffs contend that Evans was never seen by Dr. Lo
+or any other psychiatrist while on suicide watch.16 Rather, Plaintiffs aver that two days after being
+put on suicide watch, Evans was seen by Jennings, who then discharged Evans.17 Plaintiffs allege
+that his discharge did not include any kind of “step-down process,” and that Evans did not receive
+a follow up visit which he was supposed to have a week after discharge.18
+ Plaintiffs aver that on May 10, 2017, Evans reported “multiple nightmares, anxiety issues,
+depression with [his] thoughts, [and] thinking about [his] own death.” 19 Nevertheless, Plaintiffs
+allege that Evans was not seen until May 17 by Jennings. 20 Plaintiffs aver that during this visit,
+Evans noted that his mother and sister were “the reasons that he did not act on his thoughts of
+suicide.”21 Nevertheless, Plaintiffs aver that Jennings reported that Evans was in no acute
+distress.22
+ Plaintiffs allege that on May 28, 2017, Evans requested a mental health referral.23 Plaintiffs
+aver that Evans saw Dr. Lo, and reported that he was having nightmares and flashbacks.24 Plaintiffs
+aver that Dr. Lo noted an “an impression of a mood disorder… and an anxiety disorder,” and
+
+15 Id.
+16 Id. at 8.
+17 Id.
+18 Id. at 8–9.
+19 Id.
+20 Id. at 9.
+21 Id.
+22 Id.
+23 Id.
+24 Id.
+Case 2:18-cv-08972-NJB-JVM   Document 151   Filed 05/31/22   Page 4 of 37
+5
+
+prescribed Rispe ridone.25 Nevertheless, Plaintiffs allege that Evans “continued to experience
+significant periods of despondence and expressed to others that a desire to commit suicide was
+always in the back of his mind.” 26 Additionally, Plaintiffs aver that Evans was placed on suicide
+watch for a second time on September 1, after a member of the defense team reached out to a JPSO
+deputy expressing concerns that Evans might harm himself.27 Plaintiffs allege that Evans was seen
+by Jennings on September 1, and that Jennings “scored his suicide risk as low with a note to follow
+up with the mental health provider.”28 Plaintiffs allege that he was kept on suicide watch for nearly
+a week and, although he was seen by nurses, he did not see Jennings or Dr. Lo, nor did he receive
+counseling or other therapy.29
+ Plaintiffs aver that Jennings discharged Evans on September 6, 2017, stating that Evans
+told him he was “good,” had no intention of harming himself, and had hope for his future. 30
+Plaintiffs aver that throughout the rest of Se ptember, Evans was in “acute and increasing
+psychological distress” which Plaintiffs allege other JPCC detainees began to notice. 31 Plaintiffs
+
+25 Id. at 9–10.
+26 Id. at 10.
+27 Id.
+28 Id.
+29 Id.
+30 Id. at 11.
+31 Id.
+Case 2:18-cv-08972-NJB-JVM   Document 151   Filed 05/31/22   Page 5 of 37
+6
+
+aver that Evans saw Dr. Lo again on September 14, 2017, during which Dr. Lo increased Evans’
+medication.32
+ Plaintiffs aver that on the night before he died, Evans expressed his intent to kill himself to
+other detainees.33 Furthermore, Plaintiffs allege that he was “very quiet and withdrawn” on the day
+he died and that other detainees were concerned about his change in behavior.34 Plaintiffs aver that
+shortly after roll call on September 27, 2017, Evans blocked the view into his cell with a blanket,
+in violation of  JPSO policy.35 Nevertheless, Plaintiffs allege that Mayeaux, the guard on duty, did
+nothing to remove the blanket. 36 Plaintiffs aver that other detainees began to become concerned
+about Evans, and tried to alert Mayeaux, who was unresponsive. 37 When detainee Furnell Daniel
+was permitted to leave his cell, approximately an hour after roll call, h e learned of the concerns
+for Evans safety and went to check on him.38 Plaintiffs aver that he looked behind the blanket and
+saw Evans with the sheet around his neck and his head slumped to one side.39 Plaintiffs allege that
+he immediately began shouting and motioning to Mayeaux. 40 Thus, Plaintiffs aver that Mayeux
+
+32 Id at 12.
+33 Id.
+34 Id.
+35 Id.
+36 Id.
+37 Id. at 13.
+38 Id.
+39 Id.
+40 Id.
+Case 2:18-cv-08972-NJB-JVM   Document 151   Filed 05/31/22   Page 6 of 37
+7
+
+was alerted about Evans’ condition no later than between 4:18 and 4:20 PM. Plaintiffs allege that
+Mayeux delayed for “at least five to six minutes” before calling for assistance.41
+B.  Procedural Background
+ On September 26, 2018, Plaintiffs filed a Complaint in this case.42 On December 7, 2018,
+Plaintiffs filed the First Amended Complaint, which was identical to the original Complaint.43 On
+January 24, 2019, Defendant Jefferson Parish filed a Motion to Dismiss and a request for oral
+argument on the motion.44 The Court heard oral argument on the Motion to Dismiss on February
+27, 2019,45 and then denied the Motion to Dismiss without prejudice and gave Plaintiffs 30 days
+to amend the compla int.46 On March 27, 2019, Plaintiffs filed a Second Amended C omplaint,
+changing Plaintiffs ’ allegations against Jefferson Parish, but maintaining the same allegations
+against other defendants.47 Thus, the claims involved in this case are outlined below:
+• Count One: Section 1983 claim  “Based on Establishment of a System in which Prisoners
+are Denied Appropriate Protection from Harm” against Defendants Lopinto and JP.48
+
+• Count 2: Section 1983 claim “Based on Failure to Supervise other Defendants to Ensure
+Patients Received Appropriate Care and Supervision to Protect Patients from Harm”
+against Defendants Lopinto, Monfra, and CHJ. 49
+
+41 Id.
+42 Rec. Doc. 1.
+43 Rec. Doc. 6.
+44 Rec. Docs. 16, 17.
+45 Rec. Doc. 22.
+46 Rec. Doc. 25.
+47 Rec. Doc. 38.
+48 Rec. Doc. 38 at 26–27.
+49 Id. at 28–29.
+Case 2:18-cv-08972-NJB-JVM   Document 151   Filed 05/31/22   Page 7 of 37
+8
+
+• Count 3: Section 1983 claim “ Based on Deliberate Indifference to Mr. Evans’
+Constitutional Right to Protection from Harm” against Defendants Lopinto, Monfra,
+Mayeaux, Lo, Jennings, CHJ, and JP.50
+
+• Count 4: Violation of  the Americans with Disabilities Act and Section 504 of the
+Rehabilitation Act “by discriminating against and failing to accommodate a disability”
+against Lopinto and JP.51
+
+• Count 6: 52  Monell c laim under § 1983 “based on establishment of policies, patterns, or
+practices pursuant to which inmates with serious mental health conditions are denied access
+to appropriate medical care and prevention from harm” against Defendants Lopinto,
+Monfra, and CHJ.53
+
+• Count 7: Medical Malpractice claim against Defendants CHJ, Lo, and Jennings54
+
+• Count 8: Negligence and/or Intentional Tort claim against all Defendants55
+
+ On March 6, 2019, CHJ Defendants filed  a Motion to D ismiss.56 The Court denied the motion
+without prejudice and stayed the case pending the completion of a medical review panel.57 On July
+27, 2021, the stay was lifted.58
+
+50 Id. at 29–30.
+51 Id. at 30–32.
+52 Plaintiffs’ Second Amended Complaint mistakenly skips count 5.
+53 Rec. Doc. 38. at 32–33.
+54 Id. at 33.
+55 Id. at 34
+56 Rec. Doc. 27.
+57 Rec. Doc. 54.
+58 Rec. Doc. 57.
+Case 2:18-cv-08972-NJB-JVM   Document 151   Filed 05/31/22   Page 8 of 37
+9
+
+ On March 8, 2022, CHJ Defendants filed the instant Motion for Summary Judgment.59 On
+April 26, 2022, Plaintiffs opposed the motion. 60 On May 9, 2022, with leave of Court, CHJ
+Defendants filed a reply.61
+II. Parties’ Arguments
+A. CHJ Defendants’ Arguments in Support of the Motion for Summary Judgment
+CHJ Defendants argue that they are entitled to summary judgment on Plaintiff’s claims for
+supervisory liability in Count 2, deliberate indifference in Count 3, municipal liability in Count 6,
+and Plaintiff’s request for punitive damages.
+First, CHJ Defendants argue that all of Plaintiffs’ claims under § 1983 fail because mere
+negligence is not actionable under  § 1983. 62 CHJ Defendants contend that because the Medical
+Review Panel unanimously found that CHJ Defendants were not negligent, Plaintiffs cannot
+possibly prove their § 1983 claims, “which requires that the defendant act with something more
+than mere negligence.” 63 CHJ Defendants argue that at best, Plaintiffs will be able to show only
+that there is a “disagreement over the treatment afforded to decedent,” but that this is insufficient
+to support a § 1983 claim. 64 Therefore, CHJ Defendants contend they are entitled to summary
+judgment on Counts 2, 3 and 6 of the Second Amended Complaint.65
+
+59 Rec. Doc. 67.
+60 Rec. Docs. 100, 126.
+61 Rec. Docs. 124, 148.
+62 Rec. Doc. 67-2 at 10.
+63 Id. at 11.
+64 Id.
+65 Id.
+Case 2:18-cv-08972-NJB-JVM   Document 151   Filed 05/31/22   Page 9 of 37
+10
+
+Second, CHJ Defendants argue that CHJ is entitled  to summary judgment on Plaintiffs’
+deliberate indifference claim because “there is no vicarious/respondeat superior liability under
+1983.”66 CHJ Defendants contend that t he Supreme Court has made clear that municipal entities
+such as CHJ cannot be held liable based solely on the torts of its employees. 67 Therefore, CHJ
+Defendants argue that Plaintiffs’ claims in Count 3 that CHJ is vicariously liable must be
+dismissed.68
+Third, CHJ Defendants contend that Plaintiffs cannot recover punitive damages from any
+defendants.69 CHJ Defendants contend that punitive damages cannot be imposed against
+municipalities.70 Furthermore, CHJ Defendants argue that several district courts in this circuit have
+held that punitive damages similarly cannot be imposed on “private e ntities performing
+government functions,” such as CHJ. 71 As to Jennings and Dr. Lo, CHJ Defendants argue that
+there is no evidence to support a  punitive damages award. 72 CHJ Defendants argue that punitive
+damages are available only where the defendant’s conduct is “motivated by evil motive or intent,”
+or “involves reckless or callous indifference to the federally protected rights of others.”73 CHJ
+
+66 Id.
+67 Id. at 12.
+68 Id.
+69 Id. at 12–13.
+70 Id.
+71 Id. at 13.
+72 Id. at 14.
+73 Id.
+Case 2:18-cv-08972-NJB-JVM   Document 151   Filed 05/31/22   Page 10 of 37
+11
+
+Defendants argue that there is no such evidence in this case.74 CHJ Defendants argue that because
+the “medical records and unanimous Medical Review Panel Opinion demonstrate [that] [CHJ
+Defendants] appropriately treated [Evans] on a frequent and ongoing basis, exceeding the standard
+of care applicable in Louisiana, and complying with the national guidelines of NCCHC,” there is
+no evidence that would support an award of punitive damages.75
+B. Plaintiffs’ Arguments in Opposition to the Motion for Summary Judgment
+In opposition, Plaintiffs argue that CHJ Defendants are not entitled to summary judgment
+on their claims under Counts 2, 3, or 6, or on their request for punitive damages. First, Plaintiffs
+argue that the Medical Review Panel Opinion on which CHJ Defendants rely is not dispositive. 76
+Rather, Plaintiffs argue that the review panel opinion is “of the same weight as any expert opinion,
+and therefore can be challenged and rebutted by opposing expert testimony.”77 Plaintiffs argue that
+there is other evidence, such as medical records, testimony of CHJ witnesses, and expert reports
+that raise issues of fact as to whether CHJ Defendants were deliberately indifferent to Evans’
+medical needs.78
+Plaintiffs argue that Jennings was aware of Evans’ risk of suicide and failed to take
+reasonable measures to abate it.79 Plaintiffs highlight evidence of Jennings knowledge that Evans
+
+74 Id.
+75 Id.
+76 Rec. Doc. 126 at 8.
+77 Id. at 7–8. Plaintiffs also argue that the medical review panel opinion was improperly rendered because the
+oaths were improperly administered. Id. at 28–29.
+78 Id. at 8.
+79 Id.
+Case 2:18-cv-08972-NJB-JVM   Document 151   Filed 05/31/22   Page 11 of 37
+12
+
+was suicidal, including that Evans was a veteran with a history of PTSD, that he was facing serious
+criminal charges, and that he had attempted suicide at JPCC in March of 2017.80 Plaintiffs also
+point to evidence of Jennings’ conduct to suggest that he was indifferent to Evans’ risk of suicide.
+Plaintiffs argue that Jennings discharged Evans from his first suicide watch without follow ing up
+and that Jennings’ interactions with Evans were not confidential. 81 Plaintiffs further contend that
+after placing Evans on suicide watch for a second time, Evans did not receive any treatment while
+on suicide watch and was ultimately discharged by Jennings.82 Plaintiffs argue that this was done
+in violation of CHJ policy requiring daily visits. 83 Plaintiffs also contend that upon discharge,
+Jennings did not place Evans on any kind of “step down” program.84
+Plaintiffs similarly argue that Dr. Lo was aware of Evans’ risk of suicide and failed to take
+reasonable measures to abate it. 85 Plaintiffs highlight evidence suggesting Dr. Lo’s awareness of
+Evans’ risk of suicide, including that Dr. Lo knew Evans was facing serious charges, he had been
+asked to determine if Evans suffered from psychosis, he knew Evans was a veteran with a history
+of PTSD, he knew Evans had attempted suicide, he knew Evans requested to see a psychiatrist for
+suicidal ideations, he knew Evans was taking medication, he knew Evans was expressing suicidal
+thoughts, and he knew that Evans requested stronger medication.86 Plaintiffs argue that despite
+
+80 Id. at 9.
+81 Id. at 12.
+82 Id. at 14.
+83 Id.
+84 Id. at 15.
+85 Id. at 19.
+86 Id. at 20.
+Case 2:18-cv-08972-NJB-JVM   Document 151   Filed 05/31/22   Page 12 of 37
+13
+
+this knowledge, Dr. Lo failed to provide appropriate treatment.87 Plaintiffs contend that Dr. Lo did
+not see Evans in a confidential setting, but rather in a hallway where anybody could hear their
+conversations.88 Furthermore, Plaintiffs argue that Dr. Lo did not see Evans as frequently as he
+should have, and that Dr. Lo failed to properly monitor Evans’ medication.89 In addition, Plaintiffs
+argue that Dr. Lo’s  prescribing Risperdal was done “without documenting any clinical basis for
+doing so.” 90 Plaintiffs point to their expert’s report indicating that Risperdal, when prescribed
+improperly, can cause worsening depression, and that it is not approved for treatment of PTSD. 91
+Lastly, Plaintiffs highlight evidence that although Dr. Lo’s notes from Evans’ September 14, 2017
+visit reflected that Evans was suffering from hallucinations, paranoia and psychosis, Dr. Lo
+“simply persisted with his clinically inappropriate medication, untimely follow -up, and non-
+private cursory evaluation.”92
+As to CHJ, Plaintiffs argue that CHJ Defendants are not entitled  to summary judgment
+because the only basis offered in its motion was the findings of the medical review panel. 93
+Plaintiffs contend that its claims in Counts 2 and 6 as to CHJ are that CHJ failed to supervise or
+train its employees and has a pattern of failing to treat patients with mental illnesses. 94 Plaintiffs
+
+87 Id.
+88 Id. at 20–21.
+89 Id.
+90 Id. at 22.
+91 Id.
+92 Id. at 24–25.
+93 Id. at 25.
+94 Id.
+Case 2:18-cv-08972-NJB-JVM   Document 151   Filed 05/31/22   Page 13 of 37
+14
+
+contend that the findings of the medical review panel do not provide evidence regarding these
+claims.95 Plaintiffs argue that the Medical Review Panel made only two findings with respect to
+CHJ: (1) that neither CHJ or its employees  deviated from the standard of care; and (2) that CH J
+was accredited by the NCCHC during Evans’ detainment. 96 However, Plaintiffs argue that they
+have provided evidence that is sufficient to create a dispute of fact as to whether CHJ deviated
+from the standard of care, and that CHJ’s accreditation alone is not dispositive of CHJ’s conduct.97
+In addition, Plaintiffs argue that the latter finding is inaccurate, as the NCCHC found that CHJ was
+not incompliance with three of its standards.98
+Next, Plaintiffs argue that respondeat superior claims and punitive damages are permitted
+against private companies like CHJ.99 Plaintiffs argue that Monell rule that municipalities are not
+liable based on respondeat superior does not extend to private companies. 100 Similarly, although
+Plaintiffs acknowledge that punitive damages cannot be imposed against municipalities, Plaintiffs
+argue that the same rule does not apply to private corporations such as CHJ.101
+C.  CHJ Defendants’ Arguments in Further Support of the Motion
+ In reply, CHJ Defendants first argue that they are entitled  to summary judgment because
+disagreement with how CHJ Defendants treated Evans is insufficient to establish the constitutional
+
+95 Id. at 26.
+96 Id.
+97 Id.
+98 Id. at 27.
+99 Id. at 30.
+100 Id.
+101 Id. at 33.
+Case 2:18-cv-08972-NJB-JVM   Document 151   Filed 05/31/22   Page 14 of 37
+15
+
+violation necessary under § 1983.102 CHJ Defendants contend that Plaintiffs must show that CHJ
+Defendants “refused to treat [Evans], ignored his complaints, intentionally treated him incorrectly,
+or engaged in similar conduct.” 103 CHJ Defendants argue that the testimony  of Plaintiff’s own
+expert, Dr. Elliot, demonstrates that Plaintiffs cannot meet this standard. 104 CHJ Defendants rely
+on the following statements from Dr. Elliot: (1) that he thought Jennings and Dr. Lo were “to the
+best of [their] ability . . . doing what [they] thought was the right thing”; (2) that medical staff
+responded to Evans’ reports; (3) that Dr. Elliot’s opinions are based on his disagreement with the
+medical care provided; and (4) that Dr. Elliot agreed with the decision to take him off of suicide
+watch based on the information Jennings had.105
+ CHJ Defendants next argue that CHJ’s alleged failure to comply with three NCCHC
+standards does not establish liability under § 1983.106 CHJ Defendants contend that such standards
+are not constitutional minimums, and therefore the failure to follow one “does not rise to the level
+of deliberate indifference.”107
+ CHJ Defendants also argue that CHJ’s alleged violation of its own policies  does not
+establish a constitutional violation. 108 CJH Defendants contend that the failure to follow a CHJ
+
+102 Rec. Doc 148.
+103 Id. at 2.
+104 Id. at 15.
+105 Id. at 6.
+106 Id.
+107 Id. at 6–7.
+108 Id. at 7.
+Case 2:18-cv-08972-NJB-JVM   Document 151   Filed 05/31/22   Page 15 of 37
+16
+
+policy shows “at most, negligence and cannot support a finding of deliberate indifference.” 109 In
+any event, CHJ Defendants argue that although Plaintiffs contend that Jennings failed to follow up
+with Evans after he returned from court in violation of CHJ policy, the evidence demonstrates that
+Evans did not actually go to court on the day in question.110
+ CHJ Defendants further contend that Jennings and Dr. Lo’s failure to evaluate Evans in a
+confidential setting does not rise to the level of deliberate indifference. 111 In order to establish a
+constitutional violation in this context, CHJ Defendants argue that Plaintiffs must show that Evans’
+medical records were intentionally disclosed or that CHJ Defendants intentionally “fostered an
+atmosphere of intentional disclosure with deliberate indifference to constitutional rights.” 112 CHJ
+Defendants contend that there is no evidence that Evans medical records were intentionally
+disclosed or that there was an atmosphere of intentional disclosure.113
+ Defendants further reiterate their argument that CHJ cannot be held liable based on
+respondeat superior. CHJ Defendants contend that Supreme Court and Fifth Circuit precedent
+make clear that “a private prison management company and/or medical provider sued under 1983
+should be treated as a municipality/state actor.”114
+
+109 Id. at 8 (quoting Smith v. New Orleans City, 2020 WL 6582284 at *7 (E.D. La. Nov. 10, 2020)).
+110 Id. at 8–9.
+111 Id. at 10.
+112 Id.
+113 Id.
+114 Id. at 11–12.
+Case 2:18-cv-08972-NJB-JVM   Document 151   Filed 05/31/22   Page 16 of 37
+17
+
+ Lastly, CHJ Defendants reurge that Plaintiffs are not entitled to punitive damages.115 CHJ
+Defendants contend that the medical records, the Medical Review Panel Opinion, and testimony
+from both parties’ experts establishes that Jennings and Dr. Lo treated Evans and did not ignore
+him.116 CHJ Defendants further argue that there is no evidence that they were “motivated by evil
+intent.”117
+III. Legal Standards
+A. Legal Standard on a Motion for Summary Judgment
+Summary judgment is appropriate when the pleadings, discovery, and affidavits
+demonstrate “no genuine dispute as to any material fact and the movant is entitled to judgment as
+a matter of law.”118 To decide whether a genuine dispute as to any material fact exists, the court
+considers “all of the evidence in the record but refrain[s] from making credibility determinations
+or weighing the evidence.”119 All reasonable inferences are drawn in favor of t he nonmoving
+party.120 Yet “unsupported allegations or affidavits setting forth ‘ultimate or conclusory facts and
+conclusions of law’ are insufficient to either support or defeat a motion for summary judgment.”121
+If the entire record “could not lead a rational trier of fact to find for the non- moving party,” then
+no genuine issue of fact exists and, consequently, the moving party is entitled to judgment as a
+
+115 Id. at 15–16.
+116 Id.
+117 Id. at 16.
+118 Fed. R. Civ. P. 56(a); see also Little v. Liquid Air Corp., 37 F.3d 1069, 1075 (5th Cir. 1994).
+119 Delta & Pine Land Co. v. Nationwide Agribusiness Ins. Co., 530 F.3d 395, 398–99 (5th Cir. 2008).
+120 Turner v. Baylor Richardson Medical Center , 476 F.3d 337, 343 (5th Cir. 2007) (quoting Reeves v.
+Sanderson Plumbing Prods., Inc., 530 U.S. 133, 150 (2000))
+121 Galindo v. Precision Am. Corp., 754 F.2d 1212, 1216 (5th Cir. 1985); Little, 37 F.3d at 1075.
+Case 2:18-cv-08972-NJB-JVM   Document 151   Filed 05/31/22   Page 17 of 37
+18
+
+matter of law.122 The nonmoving party may not rest upon the pleadings.123 Instead, the nonmoving
+party must identify specific facts in the record and articulate the precise manner in which that
+evidence establishes a genuine issue for trial.124
+The party seeking summary judgment always bears the initial responsibility of showing the
+basis for its motion and identifying record evidence that demonstrates the absence of a genuine
+issue of material fact. 125 “To satisfy this burden, the movant may either (1) submit evidentiary
+documents that negate the existence of some material element of the opponent’s claim or defense,
+or (2) if the crucial issue is one on which the opponent will bear the ultimate burden of proof at
+trial, demonstrate that the evidence in the record insufficiently supports an essential element of the
+opponent’s claim or defense.”126 If the moving party satisfies its initial burden, the burden shifts
+to the nonmoving party to “identify specific evidence in the record, and to articulate” precisely
+how that evidence supports the nonmoving party’s claims.127 The nonmoving party must set forth
+“specific facts showing the existence of a ‘genuine’ issue concerning every essential component
+of its case.”128
+The nonmovant’s burden of demonstrating a genuine issue of material fact is not satisfied
+merely by creating “some metaphysical doubt as to the material  facts,” “by conclusory
+
+122 Matsushita Elec. Indus. Co. v. Zenith Radio Corp., 475 U.S. 574, 587 (1986).
+123 Celotex Corp. v. Catrett, 477 U.S. 317, 325 (1986).
+124 See id.; Ragas v. Tenn. Gas Pipeline Co., 136 F.3d 455, 458 (5th Cir. 1998).
+125 Celotex, 477 U.S. at 323.
+126 Duplantis v. Shell Offshore, Inc., 948 F.2d 187, 190 (5th Cir. 1991) (quoting Little, 939 F.2d at 1299).
+127 Forsyth v. Barr, 19 F.3d 1527, 1537 (5th Cir. 1994), cert. denied , 513 U.S. 871 (1994); see also Morris
+v. Covan World Wide Moving, Inc., 144 F.3d 377, 380 (5th Cir. 1998).
+128 Morris, 144 F.3d at 380; see also Bellard v. Gautreaux, 675 F.3d 454, 460 (5th Cir. 2012).
+Case 2:18-cv-08972-NJB-JVM   Document 151   Filed 05/31/22   Page 18 of 37
+19
+
+allegations,” by “unsubstantiated assertions,” or “by only a scintilla of evidence.” 129 Moreover,
+the nonmoving party may not rest upon mere allegations or denials in its pleadings.130
+IV. Analysis
+
+ In the instant motion, CHJ Defendants move for summary judgment on Counts 2, 3, and 6
+of Plaintiffs’ Second Amended C omplaint as well as Plaintiffs’ request for punitive damages.
+Under Count 2, Plaintiffs assert a claim under § 1983 for the “failure to supervise other defendants
+to ensure patients received appropriate care and supervision to protect patients from harm.” 131 In
+Count 3, Plaintiffs assert a claim under section § 1983 for deliberate indifference to Evans ’
+constitutional rights. 132 In Count 6, Pla intiffs assert a Monell  claim under § 1983 “based on
+establishment of policies, patterns or practices pursuant to which inmates with serious mental
+health conditions are denied access to appropriate medical care and prevention from harm.” 133
+Plaintiffs also request punitive damages.134
+Title 42 U.S.C. Section 1983 provides that every “person” who, under color of any statute,
+ordinance, regulation, custom, or usage of any State subjects, or “causes to be subjected,” any
+person to the deprivation of any federally protected rights, privileges, or immunities shall be civilly
+liable to the injured party. “Section 1983 provides a cause of action against any person who
+
+129 Little, 37 F.3d at 1075 (internal citations omitted).
+130 Morris, 144 F.3d at 380.
+131 Rec. Doc. 38 at 28.
+132 Id. at 29.
+133 Id. at 32.
+134 Id. at 35.
+Case 2:18-cv-08972-NJB-JVM   Document 151   Filed 05/31/22   Page 19 of 37
+20
+
+deprives an individual of federally guaranteed rights ‘under color’ of state law.”135 “The traditional
+definition of acting under color of state law requires that the defendant in a § 1983 action have
+exercised power ‘possessed by virtue of state law and made possible only because the wrongdoer
+is clothed with the authority of state law.’”136 Thus, to establish a claim under § 1983, a plaintiff
+must establish (1) a violation of rights secured by the Constitution or laws of the United States and
+(2) demonstrate that the alleged deprivation as committed by a person acting under color of state
+law.137
+The Fifth Circuit has recognized that “[t]he constitutional rights of a pretrial detainee . . .
+flow from both the procedural and substantive due process guarantees of the Fourteenth
+Amendment.”138 The Court has further explained that “[t]hese  rights include the right to medical
+care and the right to protection from known suicidal tendencies.”139 Specifically, detainees have a
+right “not to have their serious medical needs met with deliberate indifference.”140 To succeed on
+a claim for deliberate indifference, a plaintiff must show that (1) the official was ‘aware of facts
+from which the inference could be drawn that a substantial risk of serious harm exists’ and (2) the
+official actually drew that inference.141 However, “[a]n official is not liable unless he ‘knows of
+
+135 Filarsky v. Delia, 566 U.S. 377, 383 (2012) (quoting 42 U.S.C. § 1983).
+136 West v. Atkins, 487 U.S. 42, 49 (1988) (quoting United States v. Classic, 313 U.S. 299, 326 (1941)).
+137 Randolph v. Cervantes, 130 F.3d 727 (5th Cir. 1997).
+138 Garza v. City of Donna, 922 F.3d 626, 632 (5th Cir. 2019) (quoting Hare v. City of Corinth, 74 F.3d 633,
+639 (5th Cir. 1996))
+139 Id. (internal citations omitted).
+140 Kelson v. Clark, 1 F.4th 411, 417 (5th Cir. 2021).
+141 Id.  (quoting Dryer v.  Houston, 964 F.3d 372, 389 (5th Cir. 2020).
+Case 2:18-cv-08972-NJB-JVM   Document 151   Filed 05/31/22   Page 20 of 37
+21
+
+and disregards an excessive risk’ to a plaintiff’s safety.” 142 Deliberate indifference “cannot be
+inferred merely from a negligent or even a grossly negligent response to a substantial risk of serious
+harm.”143 Instead, a plaintiff “ must show that the officials refused to treat him, ignored his
+complaints, intentionally treated him incorrectly, or engaged in any similar conduct that would
+clearly evince a wanton disregard for any serious medical needs.”144 For these reasons, deliberate
+indifference is “an extremely high standard to meet.”145
+ In a § 1983 claim for failure to train or supervise , a plaintiff must show that (1) the
+supervisor either failed to train or supervise  the subordinate official; (2) a causal link exists
+between the failure to train or supervise and the violation of the plaintiff’s rights; and (3) the failure
+to train or supervise amounts to deliberate indifference.146
+ To assert a 1983 clean against a municipality rather than an individual, a plaintiff must
+establish both (i) “that a constitutional violation occurred” and (ii) “that a municipal policy was
+the moving force behind the violation.”147 Under the latter, a plaintiff must show three things: (1)
+an “official policy or custom ‘was a cause in fact of the deprivatio n of rights inflicted,’148 (2) the
+
+142 Id. (citing Garza v., 922 F.3d at 635).
+143 Id. (quoting Thompson v. Upshur Cnty., 245 F.3d 447, 459 (5th Cir. 2001)).
+144 Id. (quoting Domino v. Tex. Dept’ of Crim. Just., 239 F.3d 447, 756 (5th Cir. 2001)).
+145 Id.(quoting Domino, 239 F.3d at 756)).
+146 Goodman v. Harris County, 571 F.3d 388, 395 (5th Cir. 2009) (quoting Smith v Brenoettsy, 158 F.3d 908,
+911–91 (5th Cir. 1998)).
+147 Sanchez v. Young Cnty., Texas, 956 F.3d 785, 791 (5th Cir. 2020), cert. denied, 141 S. Ct. 901, 208 L. Ed.
+2d 455 (2020).
+148 Spiller v. City of Texas City, Police Dept. , 130 F.3d 162, 167 (5th Cir. 1997) (quoting Leffall v. Dallas
+Indep. Sch. Dist., 28 F.3d 521, 525 (5th Cir. 1994)).
+Case 2:18-cv-08972-NJB-JVM   Document 151   Filed 05/31/22   Page 21 of 37
+22
+
+policy “served as a moving force” behind the constitutional violation,  149 and (3) the policy was
+decided on by a policymaker with “either actual or constructive knowledge of the alleged
+policy.”150
+Here, CHJ Defendants argue that they are entitled to summary judgment for three reasons:
+(1) CHJ Defendants argue that all of Plaint iff’s § 1983 claims fail because negligence is not
+actional able under § 1983; (2) CHJ Defendants argue that Plaintiff’s claims in C ount 3 for
+deliberate indifference against CHJ should be dismissed because § 1983 does not permit claims
+for vicarious liability; and (3) CHJ Defendants argue that Plaintiffs cannot recover punitive
+damages. The Court will address each argument in turn.
+A. CHJ Defendants’ Argument that All of Plaintiffs § 1983 Claims Fail Based on the
+Medical Review Panel’s Determination
+
+CHJ Defendants argue that they are entitled to judgment on all of Plaintiffs’ § 1983 claims
+because the Medical Review Panel determined that CHJ Defendants did not fail to meet the
+applicable standard of care.151 Plaintiffs raised state law claims for medical malpractice in Count
+8.152  On July 8, 2019, the Court stayed this action pending an opinion by a medical review panel
+formed pursuant to the Louisiana Medical Malpractice Act. 153 Louisiana law states that “[n]o
+action against a health care provider . . . may be commenced in any court before the claimant’s
+
+149 Id. (internal citations and quotation marks omitted).
+150 Cox v. City of Dallas , 430 F.3d 734, 748– 49 (5th Cir. 2005) (citing Piotrowski v. City of Houston , 237
+F.3d 567, 579 (5th Cir. 2001)).
+151 Rec. Doc. 67-2 at 10–11.
+152 Rec. Doc. 38 at 2, 33.
+153 Rec. Doc. 54.
+Case 2:18-cv-08972-NJB-JVM   Document 151   Filed 05/31/22   Page 22 of 37
+23
+
+proposed complaint has been presented to a medical review panel.”154 The Medical Review Panel
+in this case rendered its opinion on May 4, 2021, finding that the evidence “does not support the
+conclusion that [CHJ Defendants] failed to meet the applicable standard of care.”155 According to
+CHJ Defendants, this determination means that Plaintiffs will not be able to prove that CHJ
+Defendants acted “with something more than mere negligence,” which is required to establish
+deliberate indifference.156
+ Nevertheless, the Medical Review Panel’s determination is not conclusive proof
+foreclosing Plaintiffs’ claims. Under Louisiana law, the panel’s opinion is not even dispositive as
+to whether there was medical malpractice. The Louisiana Supreme Court has explained that
+although the panel’s opinion is “admissible as evidence in any action subsequently brought” in
+court, the opinion “shall not be conclusive.”157 Rather, “as with any expert testimony or evidence,
+the medical review panel opinion is subject to review and contestation by an opposing viewpoint,”
+and “the jury as trier of fact, is free to accept or reject any portion or all of the opinion.”158 In
+addition, Louisiana law permits a party to challenge the board’s opinion if its decision was based
+on its resolution of disputed material facts.159 Although the panel’s opinion may be strong evidence
+against Plaintiffs’ claims to the jury, at the summary judgment stage the Court must “refrain[] from
+
+154 La. Rev. Stat. § 40:1231.8(B)(1)(a)(i) (formerly La. Rev. Stat. § 40:1299.47(B)(1)(a)(i)).
+155 Rec. Doc. 67-4.
+156 Id.
+157 McGlothlin v. Christus St. Patrick Hosp., No. 10-2775 (La. 7/1/11); 65 So. 3d 1218, 1227.
+158 Id. at 1227.
+159 Id. at 1229–30.
+Case 2:18-cv-08972-NJB-JVM   Document 151   Filed 05/31/22   Page 23 of 37
+24
+
+making credibility determinations or weighing the evidence.” 160 Therefore, the panel’s opinion
+does not necessarily preclude Plaintiffs from demonstrating “something more than mere
+negligence.” As a result, Defendant is not entitled to summary judgment on this basis.
+ Plaintiffs provide various pieces of evidence in support of their argument that CHJ
+Defendants acted with deliberate indifference. “[E]ach defendant’s subjective deliberate
+indifference, [or lack thereof], must be examined separately.” 161 Thus, the Court turns to that
+inquiry now.
+1. Alleged Deliberate Indifference of Jennings
+ Plaintiffs contend that Jennings was deliberately indifferent to Plaintiffs medical needs. In
+support, Plaintiffs point to various pieces of evidence in the record suggesting that throughout
+Evans’ detention, Jennings failed to ensure that Evans saw Dr. Lo, failed to follow up with Evans
+on numerous occasions,162 that Jennings interactions with Evans were short and did not take place
+in a confidential setting, 163 and that Jennings took only cursory notes during their meetings. 164
+Plaintiffs also provide evidence that Jennings’ assessed Evans on September 1, 2017, and
+documented the following:
+IM state he is having SI. Has no plans, but does not know what the future holds.
+Does not know about his future. Said he hears voices of his ex- girlfriend and is
+dead now. SI associated with his legal problems. PTSD is attributed to being to was
+[sic] in Iraq and Afganastan [sic]. No past suicide attempts. Denied command
+hallucinations. Feeling depressed – poor sleep. Wakes up at night, energy level
+
+160 Delta & Pine Land Co. v. Nationwide Agribusiness Ins. Co., 530 F.3d 395, 398–99 (5th Cir. 2008).
+161 Stewart v. Murphy , 174 F.3d 530, 537 (5th Cir. 1999); see also Tamez v. Manthley , 589 F.3d 764, 770
+(5th Cir. 2009).
+162 Rec. Doc 126-7 at 20–30.
+163 Rec. Doc. 126-2.
+164 Id.
+Case 2:18-cv-08972-NJB-JVM   Document 151   Filed 05/31/22   Page 24 of 37
+25
+
+‘alright’, decreased appetite, rumination, hopeless. IM said his depression a 10 on
+10 scale.165
+
+Additionally, despite Jennings’ notation that Evans had “[n]o past suicide attempts,” the evidence
+in the record shows that Evans had made a previous suicide attempt on March 24, 2017. 166
+Plaintiffs provide evidence of a JPSO deputy’s statement that he observed “Evans with a piece of
+fabric around his neck and on his cell gate. Inmate Evans was leaning away from the gate causing
+the fabric to be (appeared) tightened in an attempt to restrict air flow.”167 The evidence further
+suggests that Jennings’ was aware of this attempt, as Jennings was  the one who subsequently
+discharged him after he was placed on suicidal watch following this incident.168
+Plaintiffs provide evidence that Evans was put on suicide watch for a second time from
+September 1, 2017 to September 6, 2017. 169 Furthermore, Plaintiffs point to medical records
+indicating that Evans did not receive any mental  health treatment or evaluation during those five
+days.170 Plaintiffs point to Jennings’ deposition testimony confirming that he and Dr. Lo were the
+only mental health providers, and that Evans “wouldn’t have been seen by a mental health
+professional person during that period” because “[i]t was a long weekend.” 171 Plaintiffs’ further
+point to evidence that this was a violation of CHJ policies. For example, Plaintiffs point to evidence
+
+165 Rec. Doc. 126-7 at 29.
+166 Rec. Doc. 18.
+167 Id.
+168 Rec. Doc. 126-7 at 127.
+169 Id. at 132–166.
+170 Rec. Doc. 126 at 15.
+171 Rec. Doc. 126-8 at 198.
+Case 2:18-cv-08972-NJB-JVM   Document 151   Filed 05/31/22   Page 25 of 37
+26
+
+of CHJ’s policy stating that the “Level 1” patient designation—which Evans  received172—
+“requires that the medical provider evaluate that patient every day when on site.” 173 Lastly,
+Plaintiffs note that Evans was ultimately disch arged from suicide watch by Jennings ,174 despite
+the fact that Jennings was aware that two other detainees, Jerome Bell and Joshua Belcher, had
+recently died by hanging from their cells after Jennings discharged them from suicide watch. 175
+There is also evidence in the record that on September 6, 2017, the day Jennings’ discharged Evans
+from suicide watch, Jennings’ was in the infirmary from 9:15 AM and 9:33 AM to speak with six
+detainees.176 The CHJ infirmary  log book states that during this time, “Social Wor ker David
+Jennings speaks with Suicide Inmates backed by Deputy T. Wilkerson.”177 It further states that at
+9:33 AM, Jennings took three of the detainees off suicide watch, including Evans.178
+The Fifth Circuit has explained  that a “disagreement about the recommended medical
+treatment is generally not sufficient to show deliberate indifference,” and a plaintiff must instead
+show that a defendant “denied him treatment, ignored his complaints, knowingly treated him
+incorrectly, or otherwise evidenced a wanton disregard for his serious medical needs.”179 The
+
+172 Rec. Doc. 126-8 at 190.
+173 Rec. Doc. 126-10 at 8.
+174 Rec. Doc. 126 at 15.
+175 See Belcher v. Lopinto , 492 F. Supp. 3d 636, 644 (E.D. La. 2020) (Milazzo, J.) (noting that Jerome B ell
+and Joshua Belcher died by suicide on August 4, 2017 and August 17, 2017, respectively, after being discharged from
+suicide watch by Jennings).
+176 Rec. Doc. 127-22 at 14–15.
+177 Id. at 14.
+178 Id. at 15.
+179 Carlucci v. Chapa, 884 F.3d 534, 538 (5th Cir. 2018).
+Case 2:18-cv-08972-NJB-JVM   Document 151   Filed 05/31/22   Page 26 of 37
+27
+
+defendant’s conduct “must be ‘wanton,’ which is defined to mean ‘reckless.’” 180 However,
+deliberate indifference “cannot be inferred merely from a negligent or even a grossly negligent
+response to a substantial risk of serious harm.”181
+ Another section of this Court recently considered a similar claim brought on behalf of
+Joshua Belcher, who also died by hanging from his cell grate after being discharged  from suicide
+watch by Jennings. In Belcher v. Lopinto , the court was faced with the following evidence: (1)
+Belcher had been placed on suicide watch following a failed suicide attempt; (2) Jennings
+evaluated Belcher twice while on suicide watch, both of which lasted fewer than twenty minutes;
+(3) Belcher had been experiencing symptoms of withdrawal while at JPCC; and (4) Jennings knew
+that another detainee, Jerome Bell, died by hanging two weeks prior after being discharged from
+suicide watch by Jennings.182 Considering these facts, the court determined that “a reasonable
+factfinder could therefore conclude that Jennings drew an inference of a substantial risk of harm
+to Belcher from the very fact that Belcher’s risk of suicide was obvious,” and that “by ordering
+Belcher’s discharge from suicide watch with full knowledge of Belcher’s high risk of self-harm, a
+factfinder could easily find that Jennings disregarded that risk.” 183 The court went on to find that
+Jennings’ deliberate indifference “emanated from the policies and pract ices of [CHJ] that were
+maintained and adopted with objective deliberate indifference.”184
+
+180 Baughman v.  Hicman, 935 F.3d 302, 307 (5th Cir. 2019).
+181 Dryer v. Houston, 964 F.3d 374, 381 (5th Cir. 2020).
+182 Belcher v. Lopinto, 492 F. Supp. 3d 636, 655–56 (E.D. La. 2020) (Milazzo, J.).
+183 Id.
+184 Id. at 656.
+Case 2:18-cv-08972-NJB-JVM   Document 151   Filed 05/31/22   Page 27 of 37
+28
+
+Although Belcher is non-binding on this Court, 185 Belcher is nevertheless instructive. In
+fact, Plaintiffs’ claim here is even stronger than the plaintiff ’s in Belcher. Here, as in Belcher ,
+Jennings knew that Evans had previously attempted suicide.186 Evans had also reported to Jennings
+only three weeks earlier that he was experiencing suicidal ideations, that he was hearing voices of
+his deceased ex -girlfriend, that he had PTSD attributable to his experience serving in Iraq and
+Afghanistan, and that he rated his depression a ten on a scale of one to ten.187 Furthermore, whereas
+the court in Belcher found that Jennings’ two, twenty minute visits with Belcher during his suicide
+watch supported a finding of deliberate indifference, the record here demonstrates that Jennings
+did not meet with Evans at all until the day of discharge.188 Furthermore, although the record does
+not reflect how long Jennings spent with Evans that day prior to discharging him, the evidence
+does indicate that Jennings spent a total of eighteen minutes in the infirmary to visit with six
+detainees, and ultimately discharged three of them including Evans. 189 Lastly, whereas the court
+in Belcher found that Jennings ’ knowledge of Jerome Bell’s suicide following a  premature
+
+185 Belcher also involved the additional hurdle of demonstrating the existence of a policy or custom that was
+the moving force behind Jennings’ deliberate indifference. Unlike in this case where Plaintiffs sued Jennings and Dr.
+Lo individually, the plaintiffs in Belcher instead sued only CHJ. The Fifth Circuit has made clear that it “employ[s]
+different standards depending on whether the liability of the individual defendant or the municipal defendant is at
+issue.” Baughman v. Hickman, 935 F.3d 302, 207 (5th Cir. 2019). (quoting Olabisiomotosho v. City of Houston, 185
+F.3d 521, 526 (5th Cir. 1999)). “For the individual defendant, the plaintiff must establish that the official(s) acted with
+subjective deliberate indifference to prove a violation of [her] constitutional rights.” Olabisiomotosho, 185 F.3d at
+527 (internal quotation omitted). However, “[t]o succeed in holding a municipality liable, the plaintiff must
+demonstrate a municipal employee ’s subjective indifference and additionally that the municipal employee's act
+‘resulted from a municipal policy or custom adopted or maintained with objective deliberate indifference to the
+[plaintiff]'s constitutional rights.’” Id. (alteration in original) (quoting Hare, 74 F.3d at 649). Therefore, Plaintiffs here
+can establish a deliberate claim against Jennings individually without demonstrating that Jennings conduct was the
+result of a municipal policy.
+186 Rec. Doc. 126-7 at 127.
+187 Id. at 29
+188 Rec. Doc. 126-8 at 197.
+189 Rec. Doc. 127-22 at 14–15.
+Case 2:18-cv-08972-NJB-JVM   Document 151   Filed 05/31/22   Page 28 of 37
+29
+
+discharge from suicide watch supported a finding of deliberate indifference, here Jennings knew
+of both Jerome Bell and Joshua Belcher’s suicide s. Given Jennings knowledge of Evans’ mental
+health history, his prior suicide attempt, his recent reports of suicidal ideation, and the suicides of
+two other inmates following discharge form suicide watch a month prior, the Court is convinced
+that a reasonable jury could conclude that Jennings’ decision to discharge Evans from suicide
+watch after only the most cursory of interactions was sufficiently reckless as to constitute
+deliberate indifference.
+2. Alleged Deliberate Indifference of Dr. Lo
+Plaintiffs also contend that Dr. Lo was deliberately indifferent to Evans’ medical needs.190
+Plaintiffs point to evidence that Dr. Lo was “aware of a number of factors” that increased Evans’
+risks of suicide as well as the fact that his condition was getting worse over time.191 Specifically,
+as with Jennings, Plaintiffs point to the medical record s demonstrating that Evans was a veteran
+with a history of PTSD, he had attempted suicide, he had requested to see a psychiatrist, he
+received medication, he expressed suicidal ideations, and that he was suffering from paranoia and
+hallucinations and requested stronger medication before he died.192 Despite this knowledge,
+Plaintiffs contend that Dr. Lo was deliberately indifferent to Evans’ medical needs because : (1)
+Dr. Lo’s visits with Evans did not take place in a confidential setting; 193 (2) Dr. Lo failed  to
+evaluate Evans with the frequency his symptoms required; 194 (3) Dr. Lo “inappropriately”
+
+190 Rec. Doc. 126 at 19.
+191 Id. at 19–20.
+192 Rec. Doc. 126-7.
+193 Rec. Doc. 126 at 21.
+194 Id.
+Case 2:18-cv-08972-NJB-JVM   Document 151   Filed 05/31/22   Page 29 of 37
+30
+
+prescribed Risperdal.195
+ Plaintiffs’ complaints about Dr. Lo’s treatment, however meritorious, are not sufficient to
+rise to the level of deliberate indifference. P laintiffs’ claim against Dr. Lo as to the frequency,
+location, and method of treatment are “classic example[s] of a matter for medical judgment” which
+are not sufficient to establish a claim for deliberate indifference. 196 As the Fifth Circuit has
+explained, “[u]nsuccessful medical treatment, acts of negligence, or medical malpractice do not
+constitute deliberate indifference, nor does a [detainee’s] disagreement with his medical treatment,
+absent exceptional circumstances.”197 A plaintiff must show that the defendant “denied him
+treatment, ignored his complaints, knowingly treated him incorrectly, or otherwise evidenced a
+wanton disregard for his serious medical needs.”198 Here, although Plaintiffs contend that Dr. Lo’s
+treatment was incorrect in numerous ways , including by prescribing Evans a medication that,
+according to Plaintiffs is not approved to treat PTSD, 199 Plaintiffs have not offered any evidence
+that Dr. Lo did so intentionally. Whether Dr. Lo’s treatment of Evans was ultimately negligent,
+grossly negligent, or even amounted to medical malpractice is not the subject of this motion.
+However, assuming Dr. Lo’s treatment of Evans was inadequate, claims based on “unsuccessful
+medical treatment, negligence, or medical malpractice” are insufficient to establish a claim for
+deliberate indifference.200 Unlike with Jennings, Plaintiffs do not point to evidence that Dr. Lo was
+
+195 Id. at 22.
+196 Dryer v. Houston, 964 F.3d 374, 381 (5th Cir. 2020).
+197 Govert v. Caldwell, 463 F.3d 339, 346 (5th Cir. 2006).
+198 Carlucci v. Chapa, 884 F.3d 534, 538 (5th Cir. 2018).
+199 Rec. Doc. 126 at 22.
+200 Delaughter v. Woodall, 909 F.3d 130, 137 (5th Cir 2018).
+Case 2:18-cv-08972-NJB-JVM   Document 151   Filed 05/31/22   Page 30 of 37
+31
+
+similarly involved in discharging Evans from suicide watch despite the knowledge that two other
+detainees had recently died by suicide following discharge. Therefore, CHJ Defendants are entitled
+to summary judgment on Plaintiffs’ claim that Dr. Lo acted with deliberate indifference to Evans’
+medical needs.
+B. CHJ’s Argument that § 1983 Does not Permit Claims for Vicarious Liability
+CHJ Defendants argue that Plaintiffs’ deliberate indifference claim against CHJ in Count
+3 should be dismissed because § 1983 does not permit claims for vicarious liability. 201 Plaintiffs
+respond that although municipalities may not be held vicariously liable, a private company like
+CHJ can be.202 As explained above, § 1983 “ provides a cause of action against any person who
+deprives an individual of federally guaranteed rights ‘under color’ of state law.” 203 The Supreme
+Court has held that municipal entities are “persons” under the definition of § 1983. 204 However,
+the Supreme Court in Monell v. Department of Social Services of City of New York  held that “a
+municipality cannot be held liable solely because it employs a tortfeasor —or, in other words, a
+municipality cannot be held liable under § 1983 on a respondent superior  theory.” 205 Rather, a
+municipality can be liable under § 1983 “only where the municipality itself causes the
+constitutional violation at issue.”206
+ The issue before the Court is whether CHJ —a private company —is considered a
+
+201 Rec. Doc. 67-2 at 11–12.
+202 Rec. Doc. 126 at 30.
+203 Filarsky, 566 U.S. at 383 (quoting 42 U.S.C. § 1983) (emphasis added).
+204 City of Oklahoma City v. Tuttle, 471 U.S. 808, 810 (1985).
+205 436 U.S. 658, 691 (1978).
+206 City of Canton v. Harris, 489 U.S. 378, 385 (1989).
+Case 2:18-cv-08972-NJB-JVM   Document 151   Filed 05/31/22   Page 31 of 37
+32
+
+municipality for these purposes. Plaintiff points to the Seventh Circuit’s decision in Shields v.
+Illinois Department of Corrections in support of its argument that a private corporation can be held
+liable on a respondeat superior theory. In that case, however, the Seventh Circuit began its analysis
+by noting that under controlling Seventh Circuit precedent, “respondeat superior liability does not
+apply to private corporations under § 1983,” but rather such a corporation can be held liable only
+if “the constitutional violation was caused by an unconstitutional policy or custom of the
+corporation itself.”207 Acknowledging that the panel was bound by these precedents, the court went
+on to argue that these precedents should be reconsidered and that private corporations shoul d be
+liable under a respondeat superior theory.208 Nevertheless, the court acknowledged that all other
+circuits which have addressed the issue have determined that respondeat superior  liability does
+not apply to private corporations providing government services.209
+ As discussed above, to establish a claim under § 1983 the plaintiff must prove that their
+rights were violated by a person acting under the color of state law. 210 However, “[t]o act ‘under
+color’ of law does not require that the accused by an officer of the state.” 211 A private company
+“acts under color of state law ‘when that entity performs a function which is traditionally the
+exclusive province of the state.’”212 Although the Fifth Circuit has yet to address  the issue, every
+
+207 Shields v. Ill. Dep’t of Corrs., 746 F.3d 782, 789 (7th Cir. 2014).
+208 Id. at 789–96.
+209 Id. at 790.
+210 Rosborough v. Mgmt. & Training Corp., 350 F.3d 459, 460 (5th Cir. 2003) (quoting West v. Atkins, 487
+U.S. 42, 48 (1988).
+211 Id. (quoting Adickes v. S.H Kress & Co., 398 U.S. 144, 152 (1970)).
+212 Id. (quoting Wong v. Stripling, 881 F.2d 200, 202 (5th Cir. 1989).
+Case 2:18-cv-08972-NJB-JVM   Document 151   Filed 05/31/22   Page 32 of 37
+33
+
+circuit to do so, 213 as well as every section of this Court to consider the issue, 214 has determined
+that like municipalities under Monell , a private entity cannot be held vicariously liable under
+§ 1983 for the acts of its employees. Nevertheless, the Court is aware that the Fifth Circuit is
+currently considering this precise issue on appeal in Moore v. LaSalle Corrections, Inc., a decision
+from the Western District of Louisiana. 215 Oral argument was held on May 11, 2022. The Court
+therefore will defer an ultimate ruling as to this argument pending the Fifth Circuit’s ruling on this
+issue. Therefore, at this time, CHJ Defendants are not entitled to summary judgment as to
+Plaintiffs’ claim in Count 3 that Defendant CHJ “is liable . . . under the doctrine of respondeat
+superior for the constitutional torts of its employees.”216
+C. CHJ Defendants’ Argument that Plaintiffs Cannot Recover Punitive Damages
+CHJ Defendants argue that they are entitled to summary judgment on Plaintiffs ’ request
+for punitive damages because (1) punitive damages cannot be imposed against a municipal entity
+such as CHJ and (2) Plaintiffs cannot show that CHJ Defendants acted with “evil motive or intent.”
+The Court will address each argument in turn.
+
+213 Iskander v. Village of Forest Park , 690 F.2d 126, 128 (7th Cir. 1982); Rojas v. Alexander’s Dept. Store,
+Inc., 924 F.2d 406, 408–09 (2d Cir. 1990); Powell v. Shopco Laurel Co., 678 F.2d 504, 506 (4th Cir. 1982); Street v.
+Corrections Corp. of America, 102 F.3d 810, 818 (6th Cir. 1996); Lux v. Hansen, 886 F.2d 1064, 1067 (8th Cir.
+1989); Tsao v. Desert Palace, Inc., 698 F.3d 1128, 1139 (9th Cir. 2012); DeVargas v. Mason & Hanger–Silas Mason
+Co., 844 F.2d 714, 723 (10th Cir. 1988); Harvey v. Harvey, 949 F.2d 1127, 1129–30 (11th Cir. 1992). See also Lyons
+v. National Car Rental Systems, Inc., 30 F.3d 240, 246 (1st Cir.1994); Defreitas v. Montgomery County Corr.
+Facility, 525 Fed. App’x. 170, 176 (3d Cir. 2013).
+214 Mixon v. Pohlmann, No. 20-1216, 2021 WL 6072501 at *14 (E.D. La. December 23, 2021) (Morgan, J.);
+Walker v. Pohlmann, No. 20-3464, 2021 WL 2579803 at *6 (E.D. La. June 23, 2021) (Feldman, J); Belcher v. Lopinto,
+482 F. Supp. 3d 636, 651 (E.D. La. 2020) (Milazzo, J.).
+215 429 F. Supp. 3d 285 (W.D. La. 2019).
+216 Rec. Doc. 38 at 30. The Court further notes that CHJ Defendants’ motion did not argue that there was no
+CHJ policy or custom that was the moving force behind Evans’ constitutional violation. Therefore, the Court need not
+consider whether a CHJ policy or custom caused Evan’s constitutional violation.
+Case 2:18-cv-08972-NJB-JVM   Document 151   Filed 05/31/22   Page 33 of 37
+34
+
+1. Whether Punitive Damages May Be Imposed Against CHJ
+In City of Newport v. Fact Concerts, Inc ., the Supreme Court considered whether a
+municipality could be held liable for punitive damages under § 1983.217 The Court ultimately held
+that municipalities were immune from punitive damages because (1) there was no evidence that
+Congress intended to displace the “settled common- law” rule that municipalities were immune
+from such damages and (2) public policy considerations do not support exposing a municipality to
+punitive damages for the actions of its officials. 218 However, neither the Supreme Court nor any
+of the Courts of Appeals have decided whether private entities performing government functions
+are similarly immune from punitive damages under § 1983. Three district courts within the Fifth
+Circuit have held that such entities are also immune from punitive damages. 219 Nevertheless, the
+Court is aware that the Fifth Circuit is also considering this issue  in the same appeal discussed
+above.220 Oral argument was held on May 11, 2022 . Therefore, the Court will similarly defer an
+ultimate ruling as to this argument pending the Fifth Circuit’s intervening ruling on this issue.
+2. Whether Punitive Damages May be Imposed Against Jennings or Dr. Lo
+CHJ Defendants also argue that Plaintiffs cannot recover punitive damages against
+Jennings or Dr. Lo because there is “nothing to support the notion that [they] were motivated by
+evil motive or intent in their medical treatment.221 Plaintiffs respond that there are “genuine issues
+
+217 43 U.S. 247 (1981).
+218 Id. at 271.
+219 Id. See also Mixon, 2021 WL 6072501 at *18 (finding the reasoning in Moore persuasive and concluding
+that private entities performing government functions are immune from punitive damages); Carter v. Gautreaux, No.
+19-105, 2021 WL 2785332 at *6 (M.D. La July 2, 2021) (citing Moore without conducting any separate analysis).
+220 Moore v LaSalle Corrections, Inc., 429 F. Supp. 3d 285 (W.D. La. 2019).
+221 Rec. Doc 67-2 at 14.
+Case 2:18-cv-08972-NJB-JVM   Document 151   Filed 05/31/22   Page 34 of 37
+35
+
+of material facts as to whether the actions and omissions” by Jennings and Dr. Lo meet the standard
+for punitive damages.222
+In Smith v. Wade , the Supreme Court held that a jury may award punitive damages in a
+§ 1983 action when “the defendant’s conduct is shown to be motivated by evil motive or intent, or
+when it involves reckless or callous indifference to the federally protected rights of others.”223 The
+Court further noted that this standard applies “even when the underlying standard of liability for
+compensatory damages is one of recklessness.”224 Although Defendants argue that Plaintiffs
+cannot demonstrate that Jennings or Dr. Lo acted with “evil motive or intent,” Defendants ignore
+the second half of the Supreme Court’s punitive damages standard, allowing recovery of such
+damages for conduct that involves “reckless or callous indifference to the federally protected rights
+of others.”225 “The callous indifference required for punitive damages is essentially the same as
+the deliberate indifference required for a finding of liability” under 1983.226 As the Supreme Court
+explained in Wade , “[t]here has never been any general common -law rule that the threshold for
+punitive damages must always be higher than that  for compensatory liability,” and therefore “in
+situations where the standard for compensatory liability is as high as or higher than the usual
+threshold for punitive damages, most courts will permit awards of punitive damages without
+
+222 Rec. Doc. 126 at 34.
+223 461 U.S. 30, 56 (1983).
+224 Id.
+225 461 U.S. 30, 56 (1983).
+226 Cooper v Dyke, 814 F.2d 941, 948 (4th Cir. 1987); Castro v. Cnty of Los Angeles, 797 F.3d 654, 670 (9th
+Cir. 2015), affirmed 833 F.3d 1060 (9th Cir. 2016) (en banc)  (incorporating “by reference the three- judge panel’s
+opinion as to punitive damages.”).
+Case 2:18-cv-08972-NJB-JVM   Document 151   Filed 05/31/22   Page 35 of 37
+36
+
+requiring any extra s howing.”227 Because the “deliberate indifference” and “reckless or callous
+indifference” standards are essentially the same, CHJ Defendants are not entitled to summary
+judgment on Plaintiffs’ request for punitive damages because the Court has determined that a
+reasonable jury could find that Jennings’ acted with deliberate indifference to Evans’ medical
+needs. However, because the Court has determined that CHJ Defendants’ are entitled to summary
+judgment on Plaintiffs’ deliberate indifference claims as to Dr . Lo, they are also entitled to
+summary judgment on Plaintiffs’ request for punitive damages related to his conduct.
+
+227 Wade, 461 U.S. at 53.
+Case 2:18-cv-08972-NJB-JVM   Document 151   Filed 05/31/22   Page 36 of 37
+37
+
+V. Conclusion
+Based on the foregoing,
+IT IS HEREBY ORDERED that CHJ Defendants’ “Motion for Summary Judgment On
+Plaintiffs’ 1983 Claims and Request for Punitive Damages” 228 is GRANTED IN PART,
+DENIED IN PART, and DEFERRED IN PART . The motion is GRANTED to the extent it
+seeks summary judgment on Plaintiffs’ claim for deliberate indiffere nce against Dr. Lo and
+Plaintiffs’ request for punitive damages as to Dr. Lo’s conduct. The motion is DEFERRED to the
+extent it seeks dismissal of Plaintiffs’ claims for vicarious liability and punitive damages against
+CHJ pending the Fifth Circuit’s resolution of these issues in a pending appeal. The motion is
+DENIED in all other respects.
+ NEW ORLEANS, LOUISIANA, this ___ day of May, 2022.
+
+       _________________________________
+       NANNETTE JOLIVETTE BROWN
+       CHIEF JUDGE
+       UNITED STATES DISTRICT COURT
+
+228 Rec. Doc. 67.
+31st
+Case 2:18-cv-08972-NJB-JVM   Document 151   Filed 05/31/22   Page 37 of 37

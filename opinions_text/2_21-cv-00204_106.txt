@@ -1,0 +1,355 @@
+1
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+BOMMARITO CIVIL ACTION
+VERSUS NO. 21-204
+BELLE CHASSE MARINE TRANSPORTATION, ET AL. SECTION “L” (5)
+ORDER AND REASONS
+Before the Court are Defendants’ Motion for Partial Summary Judgment on Seaman
+Status, R. Doc. 69, and Defendants’ Motion for Partial Summary Judgment on Vessel
+Negligence, R. Doc. 77. Plaintiffs filed oppositions to both motions, R. Docs. 75 and 83, to
+which Defendants filed replies, R. Docs. 82 and 97. Having considered the briefing and the
+applicable law, the Court now rules as follows.
+I. BACKGROUND
+Plaintiff Bosit Bommarito, III initially brought this Jones Act suit claiming injuries
+suffered in the course of his employment. Mr. Bommarito filed his Complaint and requested a
+jury trial on February 1, 2021. R. Doc. 1. Mr. Bommarito averred that he was a Jones Act
+seaman assigned to work as a crewmember aboard a crane barge known as OC160. Id. at 4. Mr.
+Bommarito alleged that he was injured while assisting in the movement of various gangway
+segments. Id. Mr. Bommarito claimed that, although he voiced concerns about the weight of the
+gangway segments, his supervisor refused to use a backhoe and instructed the crewmembers to
+move the segments themselves. Id. Mr. Bommarito claimed that the crane operator then
+recklessly lifted the segments without first performing a “rigging weight calculation.” Id. at 4-5.
+Mr. Bommarito averred that without the backhoe’s support, the equipment was insufficient to lift
+Case 2:21-cv-00204-EEF-MBN   Document 106   Filed 03/17/22   Page 1 of 14
+2
+
+the gangway segment, causing one of the fabricated hooks to break. Id. Mr. Bommarito claimed
+that one of the “plate hooks broke loose and went flying and hit [him] in the head, knocking
+[him] onto the river batture.” Id. at 5.
+Mr. Bommarito alleged that he sustained serious injuries, including disabling and
+permanent injuries to his head, skull, eye, neck, shoulders, and spine. Id. Mr. Bommarito claimed
+that his eye was sunken into his skull and that he was experiencing neurological deficits and
+concussion syndrome. Id. Further, Mr. Bommarito claimed that he had a temporary total
+disability and a permanent partial disability. Id. Mr. Bommarito sought damages for lost earnings
+and earning capacity, physical and mental pain and suffering, past and future physical disability,
+and past and future medical and related expenses. Id. at 7. Mr. Bommarito also sought
+maintenance and cure, attorney’s fees, and punitive damages. Id. at 8.
+On March 15, 2021, Mr. Bommarito died at the age of forty-eight. R. Doc. 17-1 at 3.
+Susan Bommarito, Mr. Bommarito’s mother, and Sheila Mae Callais, the legal tutor of Mr.
+Bommarito’s minor children1, moved for substitution to pursue Mr. Bommarito’s claims. R.
+Doc. 17. The Court granted the motion, substituting Susan Bommarito and Sheila Mae Callais as
+Plaintiffs, on May 3, 2021. R. Doc. 18. The Court later granted a request by plaintiff Bosit
+Bommarito, IV, one of Mr. Bommarito’s two children, to be substituted as a party on his own
+behalf, having reached the age of majority. R. Doc. 74.
+Plaintiffs filed a First Amended Complaint on May 13, 2021. R. Doc. 19. Plaintiffs allege
+that the previously-named Defendants have a common owner, Gordon Konrad. Id. at 2. Plaintiffs
+also add Talisman Insurance Company LLC as a Defendant. Id. at 1. Additionally, Plaintiffs now
+bring a wrongful death and survival action. Id. at 2. Plaintiffs allege that in December 2020, Mr.
+
+1 The mother of Mr. Bommarito’s two children is also deceased.
+Case 2:21-cv-00204-EEF-MBN   Document 106   Filed 03/17/22   Page 2 of 14
+3
+
+Bommarito had to undergo an emergency surgery due to his injuries. Id. Plaintiffs allege that Mr.
+Bommarito struggled to obtain post-operative pain management, which he sought from
+Defendants and which Defendants owed him, and accidentally overdosed on pain medication as
+a result. Id. In the survival action, Plaintiffs allege that Defendants are liable to Mr. Bommarito’s
+children for Mr. Bommarito’s pain and suffering between the initial incident and his death. Id. at
+3. Plaintiffs further allege that Defendants are liable for the trauma that Susan Bommarito
+suffered while trying to resuscitate Mr. Bommarito after his overdose. Id.
+Plaintiffs filed a Second Amended Complaint on May 17, 2021. R. Doc. 22. Plaintiffs
+now seek bystander damages for Susan Bommarito. Id. at 4. Plaintiffs also seek damages for loss
+of support for Mr. Bommarito’s children. Id. at 5. Plaintiffs further seek punitive damages and
+attorney’s fees, arguing that “Defendants’ wrongful actions in failing to provide pain
+management therapy to Mr. Bommarito were grossly negligent, reckless, willful, and wrongful in
+derogation of Mr. Bommarito’s right to maintenance and cure.” Id. Plaintiffs now seek
+$6,010,000 in itemized damages, including $1,000,000 for Mr. Bommarito’s personal injuries,
+$500,000 for aggravation of these injuries (including survivorship damages), $1,000,000 in
+punitive damages, $500,000 for Susan Bommarito’s mental anguish, $1,500,000 for each of Mr.
+Bommarito’s children for their father’s wrongful death, and $10,000 for funeral expenses. Id. at
+6-7. Plaintiffs further seek maintenance and cure and attorney’s fees and costs. Id. at 7.
+Defendants have filed Answers to Mr. Bommarito’s original complaint and to both of
+Plaintiffs’ Amended Complaints. R. Docs. 35, 36, 38. Defendants generally deny the allegations
+in Mr. Bommarito’s original complaint and assert affirmative defenses, including that Mr.
+Bommarito failed to state a claim on which relief can be granted; that any injury Mr. Bommarito
+sustained was caused by his own negligence or the acts of third parties; that Defendants are
+Case 2:21-cv-00204-EEF-MBN   Document 106   Filed 03/17/22   Page 3 of 14
+4
+
+entitled to limitation of liability; and that Mr. Bommarito’s only remedy is worker’s
+compensation. R. Doc. 35. Defendants also generally deny the allegations in Plaintiffs’ Amended
+Complaints and assert defenses including that Mr. Bommarito’s own fault is a complete bar to
+Plaintiffs’ claims; that Defendants are not liable for Plaintiffs’ survival and wrongful death
+claims under La. R.S. § 9:2800.10, which provides immunity from liability for injuries sustained
+while committing a felony2; and similar defenses to Defendants’ first Answer. R. Docs. 36, 38.
+On September 10, 2021, Plaintiffs filed another Amended Complaint asserting an alternative
+claim under 33 U.S.C. § 905(b) for the negligence of third parties, given that Defendants dispute
+Plaintiff’s status as a seaman. R. Doc. 47.
+II. PRESENT MOTIONS
+a. Defendants’ Motion for Partial Summary Judgment on Seaman Status Under
+the Jones Act
+Defendants seek summary judgment on the issue of Mr. Bommarito’s status as a Jones
+Act seaman, arguing that Plaintiffs cannot prove the requirements for seaman status and that
+Plaintiffs’ claims for Jones Act negligence, unseaworthiness, and maintenance and cure must
+fail. R. Doc. 69. Plaintiffs oppose the motion, arguing that genuine disputes remain as to whether
+Mr. Bommarito met the requirements for seaman status based on which entity employed him, the
+extent of his work that took place on the water, and the nature of his work. R. Doc. 75.
+b. Defendants’ Motion for Partial Summary Judgment on Vessel Negligence
+Under §905(b)
+
+2 Defendants allege that Mr. Bommarito overdosed on substances including fentanyl and
+xylazine, which are restricted substances for which Mr. Bommarito did not have a prescription.
+Case 2:21-cv-00204-EEF-MBN   Document 106   Filed 03/17/22   Page 4 of 14
+5
+
+Defendants seek summary judgment on Plaintiffs’ alternative claim for vessel negligence
+under 33 U.S.C. § 905(b), arguing that Belle Chasse Marine, the owner of the vessel, did not
+breach any of its duties as vessel owner and that the other relevant defendant, Belle Chasse Land,
+was not acting as owner of the vessel when Mr. Bommarito was injured; thus, Defendants argue,
+neither defendant can be held liable. R. Doc. 77. Plaintiffs oppose the motion, arguing that Belle
+Chasse Marine breached its duties as vessel owner and, alternatively, that Belle Chasse Land
+may also be liable for vessel negligence as an operator of the vessel. R. Doc. 83.
+III. APPLICABLE LAW
+a. Summary Judgment Standard
+Summary judgment is proper “if the pleadings, depositions, answers to interrogatories, and
+admissions on file, together with the affidavits, if any, show that there is no genuine issue as to
+any material fact and that the moving party is entitled to a judgment as a matter of law.” Celotex
+Corp. v. Catrett, 477 U.S. 317, 322 (1986) (citing Fed. R. Civ. P. 56(c)). “Rule 56(c) mandates the
+entry of summary judgment, after adequate time for discovery and upon motion, against a party
+who fails to make a showing sufficient to establish the existence of an element essential to that
+party’s case, and on which the party will bear the burden of proof at trial.” Id. The moving party
+bears the burden of “informing the district court of the basis for its motion, and identifying those
+portions of [the record] which it believes demonstrate the absence of a genuine issue of material
+fact.” Id. at 323.
+“A factual dispute is ‘genuine’ if the evidence is such that a reasonable jury could return
+a verdict for the nonmoving party. A fact is ‘material’ if it might affect the outcome of the suit
+under the governing substantive law.” Beck v. Somerset Techs., Inc., 882 F.2d 993, 996 (5th Cir.
+1989) (citing Anderson v. Liberty Lobby, Inc., 477 U.S. 242, 248 (1986)). When ruling on a
+Case 2:21-cv-00204-EEF-MBN   Document 106   Filed 03/17/22   Page 5 of 14
+6
+
+motion for summary judgment, a court may not resolve credibility issues or weigh evidence. See
+Delta & Pine Land Co. v. Nationwide Agribusiness Ins. Co., 530 F.3d 395, 398-99 (5th Cir.
+2008); Int’l Shortstop, Inc. v. Rally’s Inc., 939 F.2d 1257, 1263 (5th Cir. 1991). Moreover, the
+court must assess the evidence and “review the facts drawing all inferences most favorable to the
+party opposing the motion.” Reid v. State Farm Mut. Auto. Ins. Co., 784 F.2d 577, 578 (5th Cir.
+1986). However, “conclusory allegations,” “unsubstantiated assertions,” or “only a scintilla of
+evidence” are not sufficient to show a genuine dispute of material fact. Little v. Liquid Air Corp.,
+37 F.3d 1069, 1075 (5th Cir. 1994).
+b. Seaman Status Under the Jones Act
+The Jones Act provides that “[a] seaman injured in the course of employment or, if the
+seaman dies from the injury, the personal representative of the seaman may elect to bring a civil
+action at law, with the right of trial by jury, against the employer.” 46 U.S.C. § 30104. In
+addition to damages for negligence under the Jones Act, seamen may also recover “maintenance
+and cure” and damages for unseaworthiness. Chandris, Inc. v. Latsis, 515 U.S. 347, 354 (1995).
+These Jones Act remedies are available only to seamen, to protect them from the unique risks
+posed by “their exposure to ‘the perils of the sea.’” Id. The Jones Act itself does not define the
+term “seaman,” and courts once struggled to establish a definition. Id. at 355-56. However, the
+United States Supreme Court has established two main criteria that an employee claiming
+seaman status must prove: (1) the employee’s duties “contribut[e] to the function of [a] vessel or
+to the accomplishment of its mission,” and (2) the employee has “a connection to a vessel in
+navigation (or to an identifiable group of such vessels) that is substantial in terms of both its
+duration and its nature.” Id. at 368 (quoting McDermott Int’l, Inc. v. Wilander, 498 U.S. 337, 355
+(1991)).
+Case 2:21-cv-00204-EEF-MBN   Document 106   Filed 03/17/22   Page 6 of 14
+7
+
+A seaman’s connection to a vessel is substantial in duration if he spends thirty percent or
+more of his working time in service of the vessel in navigation. Id. at 371. “A maritime worker
+who spends only a small fraction of his working time on board a vessel is fundamentally land
+based and therefore not a member of the vessel’s crew, regardless of what his duties are.” Id.
+As for the nature of a seaman’s connection to a vessel, whether it is substantial depends
+on “whether the employee’s duties take him to sea,” which “distinguish[es] land-based from sea-
+based employees.” Harbor Tug & Barge Co. v. Papai, 520 U.S. 548, 555 (1997). This has
+generally been interpreted as a means of determining whether a plaintiff’s work exposes him to
+“the perils of the sea.” But while being subject to the perils of the sea may be one of the
+considerations in the calculus of the nature test, it is not the sole or even the primary
+consideration. See Sanchez v. Smart Fabricators of Texas, L.L.C., 997 F.3d 564, 574 (5th Cir.
+2021) (“[s]imply asking whether the worker was subject to the ‘perils of the sea’ is not enough to
+resolve the nature element”). The Fifth Circuit in Sanchez noted that “In Chandris, the [United
+States Supreme] Court made clear that seamen and non-seamen maritime workers may face
+similar risks and perils, and that this is not an adequate test for distinguishing between the two.”
+Id. Therefore, the Fifth Circuit concluded that the following additional inquiries should be made:
+(1) Does the worker owe his allegiance to the vessel, rather than simply to a shoreside
+employer?
+(2) Is the work sea-based or [does it] involve seagoing activity?
+(3) (a) Is the worker’s assignment to a vessel limited to performance of a discrete task
+after which the worker’s connection to the vessel ends, or (b) Does the worker’s
+assignment include sailing with the vessel from port to port or location to location?
+
+Id. The Fifth Circuit also noted that generally, ““maintenance work while the [vessel] was
+docked’ [does] not satisfy the nature test.” Id. at 575 (quoting Papai, 520 U.S. at 559).
+
+Case 2:21-cv-00204-EEF-MBN   Document 106   Filed 03/17/22   Page 7 of 14
+8
+
+c. Vessel Negligence Under §905(b)
+Section 905(b) of the Longshore and Harbor Workers’ Compensation Act (“LHWCA”)
+provides that workers such as longshoremen or stevedores (who lack the requirements of seamen
+status), if injured “by the negligence of a vessel,” may bring an action against the vessel, “and
+the employer shall not be liable to the vessel for such damages directly or indirectly.” 33 U.S.C.
+§905(b). Such plaintiffs under the LHWCA may also bring negligence claims against the vessel
+owner. Aguilar v. Bollinger Shipyards, Inc., 833 F. Supp. 2d 582, 591 (E.D. La. 2011) (Berrigan,
+J.). Vessel owners owe three general duties to longshoremen:
+The first, which courts have come to call the “turnover duty,” relates to the condition of
+the ship upon the commencement of stevedoring operations. The second duty, applicable
+once stevedoring operations have begun, provides that a shipowner must exercise
+reasonable care to prevent injuries to longshoremen in areas that remain under the “active
+control of the vessel.” The third duty, called the “duty to intervene,” concerns the vessel’s
+obligations with regard to cargo operations in areas under the principal control of the
+independent stevedore.
+
+Howlett v. Birkdale Shipping Co., S.A., 512 U.S. 92, 98 (1994) (internal citations omitted).
+ The first duty, the “turnover duty,” contains two parts: (1) “a duty to exercise ordinary
+care under the circumstances to turn over the ship and its equipment in such condition that an
+expert stevedore can carry on stevedoring operations with reasonable safety,” and (2) “a duty to
+warn the stevedore of latent or hidden dangers which are known to the vessel owner or should
+have been known to it”—unless such dangers are “open and obvious” or “dangers a reasonably
+competent stevedore should anticipate.” Kirksey v. Tonghai Mar., 535 F.3d 388, 392 (5th Cir.
+2008). The second duty, the “active control” duty, is a duty to prevent injury due to “hazards
+under the control of the ship,” and its scope depends on whether the vessel owner had
+“operational control” of the area in question and the stevedore’s work “at the time of the
+activities in question.” Singleton v. Guangzhou Ocean Shipping Co., 79 F.3d 26, 28 (5th Cir.
+Case 2:21-cv-00204-EEF-MBN   Document 106   Filed 03/17/22   Page 8 of 14
+9
+
+1996); Fontenot v. McCall’s Boat Rentals, Inc., 227 F. App’x 397, 403 (5th Cir. 2007). The third
+duty, the “duty to intervene,” “imposes liability ‘if the vessel owner fails to intervene in the
+stevedore’s operations when [the vessel owner] has actual knowledge both of the hazards and
+that the stevedore, in the exercise of ‘obviously improvident’ judgment means to work [despite
+the hazards] and therefore cannot be relied on to remedy [them].” Manson Gulf, L.L.C v. Mod.
+Am. Recycling Serv., Inc., 878 F.3d 130, 134 (5th Cir. 2017) (quoting Burchett v. Cargill, Inc.,
+48 F.3d 173, 178 (5th Cir. 1995)).
+ When an entity is both the vessel owner and the employer of longshoreman, it remains
+subject to the three duties of vessel owners and may be liable for negligence in its capacity as the
+vessel owner. Levene v. Pintail Enterprises, Inc., 943 F.2d 528, 532 (5th Cir. 1991). However, in
+these cases in which the longshoreman’s employer has a “dual capacity” as the vessel owner, the
+employer “retains its immunity for acts taken in its capacity as an employer”—it is only liable in
+its capacity as the vessel owner. Id. Therefore, courts must “separate the negligence of the
+shipowner and that of the stevedore, even when the shipowner performs its own stevedoring
+activities.” Castorina v. Lykes Bros. S.S. Co., 758 F.2d 1025, 1033 (5th Cir. 1985). The vessel
+owner’s duty is “to provide the stevedore a safe ship and to correct any unreasonably dangerous
+situation that arises during cargo operations, if the owner is aware of the danger and knows that
+the stevedore has failed adequately to protect against the danger.” Id. Thus, the plaintiff must
+show that the employer breached this specific duty to hold the employer liable in its capacity as a
+vessel owner. Id.
+
+Case 2:21-cv-00204-EEF-MBN   Document 106   Filed 03/17/22   Page 9 of 14
+10
+
+IV. DISCUSSION
+a. Seaman Status Under the Jones Act
+Plaintiffs’ claims for Jones Act negligence, maintenance and cure, and unseaworthiness
+must fail because Mr. Bommarito does not qualify as a Jones Act seaman. R. Doc. 69. Mr.
+Bommarito’s work as a welder’s helper was mostly land-based and his role on the OC160, the
+crane barge on which he was working when he was injured, did not constitute traditional crew
+member duties. R. Doc. 69-1 at 4-5, 7. Further, Mr. Bommarito spent only a fraction of his
+working time on the vessel in navigation and most of his work took place on land or when the
+vessel was moored. Id. at 17-18.
+Therefore, the Court finds that Plaintiffs cannot meet their burden to show that Mr.
+Bommarito was a Jones Act seaman. Plaintiffs must prove (1) that Mr. Bommarito’s duties
+“contribut[ed] to the function of the vessel or to the accomplishment of its mission,” and (2) that
+he had “a connection to a vessel in navigation . . . that [was] substantial in terms of both its
+duration and its nature.” Chandris, 515 U.S. at 368. Plaintiffs have likely satisfied the broader
+first prong by showing that Mr. Bommarito somehow contributed to the function of the OC160.
+However, Plaintiffs have not satisfied the second prong, which has two parts.
+First, to show that Mr. Bommarito’s connection to the vessel was substantial in duration,
+Plaintiffs must show that he spent thirty percent or more of his working time in service of the
+vessel in navigation. Id. at 371. The parties dispute how much of Mr. Bommarito’s time was
+spent in service of the OC160 while it was on the water. Defendants argue, with supporting
+evidence, that the vessel was moored to the dock the vast majority of the time that Mr.
+Bommarito worked on it, while Plaintiffs assert that Mr. Bommarito was occasionally on the
+vessel while it was in navigation. Thus, whether the first part of this prong is satisfied is doubtful
+Case 2:21-cv-00204-EEF-MBN   Document 106   Filed 03/17/22   Page 10 of 14
+11
+
+and may depend on further fact development. However, Plaintiffs cannot satisfy the second part
+of this prong, which requires Plaintiffs to show that Mr. Bommarito’s connection to the vessel
+was substantial in nature by showing that he was a sea-based, rather than land-based, employee.
+Papai, 520 U.S. at 555. In the Fifth Circuit, this analysis considers three questions: whether the
+employee “owe[d] his allegiance to the vessel, rather than simply to a shoreside employer”;
+whether the work was “sea-based” or “involve[d] seagoing activity”; and whether the work on
+the vessel was “limited to performance of a discrete task after which the worker’s connection to
+the vessel end[ed]” or “include[d] sailing with the vessel from port to port or location to
+location.” Sanchez, 997 F.3d at 574.
+The first question is uncertain due to the ambiguities Plaintiffs have noted regarding
+which entity employed Mr. Bommarito. However, as to the second question, Defendants have
+provided solid evidence that Mr. Bommarito worked mostly on land and that when his work took
+him onto the vessel, the vessel was secured to the dock, so that Mr. Bommarito simply stepped
+aboard from the dock. This makes it doubtful that Mr. Bommarito’s work was sea-based. The
+third question also weighs against Plaintiffs. Mr. Bommarito’s work was largely limited to
+discrete tasks after which his connection to the vessel ended—namely, serving as a welder’s
+helper during construction work—and overwhelmingly did not include sailing with the vessel
+from location to location (Mr. Bommarito usually drove a car to the vessel when it moved
+locations). However, the clearest indication that Mr. Bommarito does not meet the “nature”
+requirement comes from the Fifth Circuit’s recent observation in Sanchez that maintenance work
+while a vessel is docked does not satisfy the “nature” requirement. 997 F.3d at 575. Based on the
+evidence about Mr. Bommarito’s work and the fact that the OC160 was almost always moored
+while he worked on it, this description characterizes the bulk of Mr. Bommarito’s work on the
+Case 2:21-cv-00204-EEF-MBN   Document 106   Filed 03/17/22   Page 11 of 14
+12
+
+OC160, precluding Plaintiffs from satisfying the “nature” requirement. Thus, Plaintiffs have
+failed to show that Mr. Bommarito qualifies as a seaman under the Jones Act, and Plaintiffs’
+claims for Jones Act negligence, maintenance and cure, and unseaworthiness must fail.
+b. Vessel Negligence Under §905(b)
+Defendants argue that Plaintiffs’ alternative claim for vessel negligence must fail because
+Plaintiffs cannot prove that Belle Chasse Marine, the purported vessel owner, was negligent. R.
+Doc. 77. Defendants assert that there is no evidence that any part of the OC160 was defective or
+that Belle Chasse Marine had control over Mr. Bommarito’s work when the accident happened,
+and that the hooks that caused Mr. Bommarito’s injuries were provided by Belle Chasse Land, a
+separate entity. R. Doc. 77-1 at 9. Defendants also assert that any claim against Belle Chasse
+Land fails because it was acting in its capacity as a construction company, not as a vessel owner.
+Id. at 15-16. On the other hand, Plaintiffs argue that the distinction between Belle Chasse Marine
+and Belle Chasse Land is unclear because the two entities’ management and finances are
+blended, and that there is evidence that the vessel owner (whichever entity that was) breached its
+duties by failing to keep Mr. Bommarito safe on the OC160. R. Doc. 83 at 1, 15.
+The Court finds that genuine disputes of fact remain as to Plaintiffs’ vessel negligence
+claim. Plaintiffs must prove that the vessel owner breached one of the three duties it owed to
+longshoremen. The first is the “turnover duty,” which includes “a duty to exercise ordinary care
+under the circumstances to turn over the ship and its equipment in [reasonably safe] condition”
+and “a duty to warn the stevedore of latent or hidden dangers” about which the vessel owner
+knows or should know, unless such dangers are “open and obvious” or “a reasonably competent
+stevedore should anticipate [them]”. Kirksey, 535 F.3d at 392. The second is the “active control”
+duty, which requires the vessel owner to prevent injury due to “hazards under the control of the
+Case 2:21-cv-00204-EEF-MBN   Document 106   Filed 03/17/22   Page 12 of 14
+13
+
+ship” and depends on whether the vessel owner had “operational control” of the area in question
+and the stevedore or harbor worker’s work when the accident occurred. Singleton, 79 F.3d at 28;
+Fontenot, 227 F. App’x at 403. The third is the “duty to intervene,” which requires the vessel
+owner to “intervene in the stevedore’s operations when [the vessel owner] has actual knowledge
+both of the hazards and that the stevedore, in the exercise of ‘obviously improvident’ judgment
+means to work [despite the hazards] and therefore cannot be relied on to remedy [them].”
+Manson Gulf, 878 F.3d at 134.
+Any determination of whether the vessel owner breached one of these duties depends on
+further development of the facts. Plaintiffs and Defendants provide differing views of the nature
+of Mr. Bommarito’s work, which specific piece of equipment caused his injuries, and even
+which entity was the vessel owner and which was Mr. Bommarito’s employer. Given these
+disputes, it would be premature for the Court to decide such issues as whether the vessel owner
+turned over the ship in reasonably safe condition, which areas and work activities were under the
+vessel owner’s operational control, which hazards were within the vessel owner’s knowledge,
+and whether Mr. Bommarito was exercising “obviously improvident” judgment. Moreover,
+given the confusion Plaintiffs have noted about the extent to which Belle Chasse Marine and
+Belle Chasse Land are separate entities and which one employed Mr. Bommarito, it would also
+be premature to determine whether this case involves a “dual capacity” vessel owner and
+employer and whether that entity may be held liable purely in its capacity as a vessel owner.
+Levene, 943 F.2d at 532. Therefore, summary judgment on Plaintiffs’ vessel negligence claim is
+inappropriate.
+V. CONCLUSION
+For the foregoing reasons,
+Case 2:21-cv-00204-EEF-MBN   Document 106   Filed 03/17/22   Page 13 of 14
+14
+
+IT IS ORDERED that Defendants’ Motion for Partial Summary Judgment on Seaman
+Status, R. Doc. 69, is GRANTED.
+IT IS FURTHER ORDERED that Defendants’ Motion for Summary Judgment on Vessel
+Negligence, R. Doc. 77, is DENIED.
+
+New Orleans, Louisiana, this 17th day of March, 2022.
+
+________________________________
+UNITED STATES DISTRICT JUDGE
+
+Case 2:21-cv-00204-EEF-MBN   Document 106   Filed 03/17/22   Page 14 of 14

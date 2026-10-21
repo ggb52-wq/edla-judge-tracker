@@ -1,0 +1,1109 @@
+UNITED STATES DISTRICT COURT
+
+EASTERN DISTRICT OF LOUISIANA
+
+MGMTL, LLC      CIVIL ACTION
+
+VERSUS       NO. 20-2138-WBV-MBN
+
+STRATEGIC TECHNOLOGY    SECTION: D (5)
+
+ORDER AND REASONS
+Before the Court is Defendant’s Motion in Limine  to Preclude Opinion
+Testimony of Jorge Menes .1  MGMTL, LLC oppose the Motion,2 and Defendant has
+filed a Reply.3
+After careful consideration of the parties’ memoranda and the applicable law,
+the Motion is GRANTED in part and DENIED in part.
+I. FACTUAL AND PROCEDURAL BACKGROUND
+This is copyright infringement case concerning a computer software
+application.  On July 28, 2020, MGMTL, LLC (“MGMTL”) filed a Complaint in this
+Court, seeking a permanent injunction  against, and damages  from, Strategic
+Technology Institute, Inc. (“STI”) for copyright infringement, breach of contract, and
+
+1 R. Doc. 91.
+2 R. Doc. 99-7, filed into the record under seal.  MGMTL moved for leave to file under seal its Opposition
+brief and several exhibits thereto “[o]ut of an abundance of caution” and on the basis that, “STI has
+taken an expansive  approach with respect to the parties’ protective order and has designated all
+documents it has produced in discovery in this litigation as ‘confidential’ pursuant to the protective
+order (Rec. Doc. 39).”  R. Doc. 100.  The Court granted that request.  R. Doc. 105.
+3 R. Doc. 121, filed into the record under seal.  The Court granted STI’s request to file the Reply brief
+and two exhibits thereto into the record under seal on the basis that the Reply brief discusses
+“information contained within the above exhi bits and other documents that have been designated as
+‘confidential’ under the Court’s general Protective Order.”  See, R. Docs. 112 & 121.
+Case 2:20-cv-02138-WBV-MBN     Document 173     Filed 02/16/22     Page 1 of 38
+
+misappropriation of trade secrets.4  With the Court’s consent, MGMTL subsequently
+filed an Amended and Restated Complaint (the “Amended Complaint”) to clarify and
+revise certain allegations.5
+MGMTL alleges that in 1998, Jorge Menes, a full-time college student, started
+teaching himself software coding and began creating a security management
+database at home in his spare time. 6  MGMTL alleges that Menes and his business
+partner, Whit Himel, created MGMTL and transferred their ownership of the
+security database and its intellectual property to MGMTL.7  MGMTL alleges that the
+security database was refined over time with the help of Himel, and eventually
+evolved into the Security Management and Reporting Tool (“ SMART”), a “computer
+software application designed to streamline and efficiently manage the complex tasks
+and requirements of United States Department of Defense security managers,
+government contracting companies, and other industries for which the management
+of personnel and their security  clearance is a priority.” 8  MGMTL alleges that the
+SMART software application is an extremely valuable tool and the first of its kind,
+capable of evaluating thousands of personnel records while applying Department of
+Defense rules, regulations, and applicable security clearance guidelines to each one.9
+MGMTL asserts that it obtained a registered copyright for “the SMART Security
+Management and Reporting Tool” on September 27, 2013.10  MGMTL asserts that it
+
+4 R. Doc. 1.
+5 R. Docs. 19, 21, & 22.
+6 R. Doc. 22 at ¶ 6.
+7 Id. at ¶ 7.
+8 Id. at ¶¶ 2 & 8.
+9 Id. at ¶ 9.
+10 Id. at ¶ 11.
+Case 2:20-cv-02138-WBV-MBN     Document 173     Filed 02/16/22     Page 2 of 38
+
+had previously granted the New Orleans office o f the Marine Forces Reserve
+(sometimes referred to by the parties as “MARFORRES”) ,11 a unit of the United
+States Marine Corps, limited permission to use its SMART software application on a
+trial basis.12  MGMTL does not specify when this occurred.
+MGMTL alleges that on May 27, 2015, it entered into a software evaluation
+agreement with STI, whereby MGMTL granted STI temporary access to the SMART
+software applica tion to evaluate it for the possibility  of long -term licensing. 13
+MGMTL asserts that, due to STI’s experience and presence in the realm of
+government contracting, MGMTL was considering the possibility of STI providing
+distribution, marketing, and other support services to MGMTL regarding SMART.14
+According to MGMTL, STI received a copy of  the SMART software application and
+was authorized to install and evaluate it for a 30-day period, during which STI agreed
+to maintain the confidentiality of the application and to not duplicate the application
+or disclose it to anyone outside of STI. 15  MGMTL alleges that soon after executing
+the software evaluation agreement, the parties entered into a distributor agreement,
+through which STI was permitted to advertise, promote, and resell SMART to end -
+users. 16   MGMTL asserts that the distributor agreemen t included an
+acknowledgment by STI that SMART is “proprietary to MGMTL and that MGMTL
+retains all right, title, and interest in and to the SMART Software including, without
+
+11 R. Doc. 91-1 at p. 4; R. Doc. 99-27; R. Doc. 99-6 at p. 25.
+12 R. Doc. 22 at ¶ 12.
+13 Id. at ¶ 15.
+14 Id. at ¶ 14.
+15 Id. at ¶ 16.
+16 Id. at ¶¶ 19 & 20.
+Case 2:20-cv-02138-WBV-MBN     Document 173     Filed 02/16/22     Page 3 of 38
+
+limitation, all copyrights, trademarks, patents, and other proprietary rights of a ny
+kind.”17  MGMTL further alleges that the agreement did not give STI the right to
+reverse engineer, reverse compile, duplicate, rename, repackage or otherwise
+disassemble the SMART software application, as may be permitted by applicable
+legislation.18   MGMTL asserts that the parties agreed that all of the foregoing
+provisions of the distributor agreement would survive termination of the agreement,
+such that STI remains bound by the provisions.19
+MGMTL further alleges that STI  held a meeting in or about April 2016 with
+several high-ranking employees of the Marine Forces Reserve at the headquarters in
+New Orleans, Louisiana to discuss SMART.  MGMTL claims that the Marine Forces
+Reserve officials, who previously had MGMTL’s permi ssion to use the SMART
+software application for free for a limited, trial -run basis in the New Orleans office,
+“were apparently frustrated that STI was working with Menes and that  Menes’s
+entity (MGMTL) wanted to charge them for the future use of the SMART  software
+application.”20  MGMTL asserts that, after this unsuccessful meeting, STI refused to
+communicate with MGMTL and ignored all communications from MGMTL until
+March 2017, when STI responded to an MGMTL email and stated that S TI “ha[s]
+nothing to do with your products/services.”21
+
+17 Id. at ¶ 22 (internal quotation marks omitted).
+18 Id. at ¶ 23.
+19 Id. at ¶ 26.
+20 Id. at ¶ 30.
+21 Id. at ¶ 32 (quoting R. Doc. 22-4 at p. 2) (internal quotation marks omitted).
+Case 2:20-cv-02138-WBV-MBN     Document 173     Filed 02/16/22     Page 4 of 38
+
+MGMTL then alleges that in or around November 2017, a colleague who
+worked at the Marine Forces Reserve office in New Orleans informed Menes that he
+had observed STI install security management software at the New Orleans of fice,
+which he believed was a repackaged or altered version of SMART.22  MGMTL asserts
+that Menes also received an anonymous email dated September 6, 2018 from someone
+identified as an “STI employee,” stating that STI had repackaged the SMART
+software appl ication as an application called Personnel Administrative Security
+System, or “PASS,” which STI then sold to the Marine Forces Reserve  and installed
+on five machines at the Marine Forces Reserve office in New Orleans .23  MGMTL
+alleges that PASS is listed o n STI’s United States Government General Services
+Administration (“GSA”) Schedule, which is a long -term government -wide contract
+that provides federal, state, and local government buyers certain contractual pre -
+approvals to move forward with licensing or p urchasing the PASS application. 24
+According to MGMTL, the PASS application is actively listed and available for
+purchase on GSA’s Advantage! Website at a purchase price of $214,094.00 per
+license.25  MGMTL filed this lawsuit a fter learning of t hese actions allegedly taken
+by STI.
+On May 10, 2021, STI filed the instant Motion in Limine, seeking to preclude,
+under Fed. R. Evid. 701 and 702, the opinion testimony of Menes at trial on any
+
+22 R. Doc. 22 at ¶ 35.
+23 Id. at ¶ 36.
+24 Id. at ¶ 38.
+25 Id. at ¶ 39.
+Case 2:20-cv-02138-WBV-MBN     Document 173     Filed 02/16/22     Page 5 of 38
+
+matters relating to damages .26   Specifically, STI seeks to preclude Menes from
+offering opinion testimony regarding  the fair market value or reasonable licensing
+fee of the SMART software application , as set forth  in the Summary of Opinion
+Testimony of Jorge Menes, dated January 28, 2021 (the “Summary Opinion”).27  STI
+asserts that the Summary Opinion states that Menes estimates the fair market value
+or reasonable exclusive licensing fee for all rights to SMART “for a period of five years
+as $7,650,00 as a minimum and likely $89,870,000 .”28  STI claims that Menes ’s
+testimony is inadmissible under Rule 702 because he is not qualified to testify as an
+expert regarding the fair market value or reasonable licensing fees for software, and
+because his opinions are not reliable .29  STI further asserts that Menes’s testimony
+should be excluded under Rule 701  because it does not satisfy the requirements for
+lay opinion testimony.30
+MGMTL opposes the Motion, asserting that Menes is an experience -based
+expert in security management and is qualified to address the issue of damages under
+the less rigid approach taken by Daubert toward such experts .31  MGMTL asserts
+that Menes’s knowledge, skill, experience, training, and education qualify him to offer
+opinion testimony on the issue of damages because he played a significant role in the
+development of SMART, he established a price point for it, and he can tes tify that it
+was met with acceptance in negotiations for sale of a license to the Marine Force s
+
+26 R. Doc. 91.
+27 Id.; See, R. Doc. 91-2.
+28 R. Doc. 91-1 at p. 1 (quoting R. Doc. 91-2) (internal quotation marks omitted).
+29 R. Doc. 91-1 at pp. 2 & 3-11.
+30 R. Doc. 99-27 at pp. 11-12.
+31 Id. at pp. 1 & 2-4, 7-8, & 9-10.
+Case 2:20-cv-02138-WBV-MBN     Document 173     Filed 02/16/22     Page 6 of 38
+
+Reserve. 32   MGMTL argues that Menes’s opinion valuing a one -year license of
+SMART  at $30,000 is not speculative because MGMTL sold a SMART license to the
+Marine Forces Reserve and, therefore, MGMTL has experience in licensing SMART.33
+In a footnote, however, MGMTL notes that, “Due to sequestration, the money was
+never actually paid; but a sale was made nevertheless.”34  MGMTL then explains that
+Menes arrived at his calculation of $7,650,000 by multiplying the one-year, $30,000
+license “by a conservative estimate of licenses Menes knew were doable and realistic,”
+meaning the 51 units within the Marine Force s Reserve, and multiplying that
+number by five years, which is “the period of time during which STI has taken
+unrestricted access to [SMART].”35  MGMTL contends that this is “simply a baseline
+as to what would have been required to give up unrestricted rights to SMART.” 36
+MGMTL asserts that Menes’s testimony will be corroborated by the testimony of
+other witnesses, and that it should be considered in th at context rather than in
+isolation.37  Finally, MGMTL asserts that, at a minimum, Menes should be allowed
+to offer lay opinion testimony under Rule 701 regarding his personal time and
+expense in creating SMART and to explain that MGMTL would not have give n STI
+unrestricted rights to SMART without being compensated for its labor and time.38
+In response, STI maintains that Menes’s testimony regarding the fair market
+value or reasonable exclusive licensing fee for SMART should be excluded because he
+
+32 Id. at pp. 13-14.
+33 Id. at p. 17.
+34 Id. at n.56 (citations omitted).
+35 Id. at p. 19.
+36 Id.
+37 Id. at pp. 21-22.
+38 Id. at pp. 23-24.
+Case 2:20-cv-02138-WBV-MBN     Document 173     Filed 02/16/22     Page 7 of 38
+
+is not qualified to give expert testimony on that topic, his opinions are unreliable, and
+his opinions are based upon insufficient information.39  STI contends that the Court
+should preclude Menes’s testimony because Menes testified during his deposition that
+he picked $30,000 as the starting point for his calculations because it was the
+“threshold of what could be charged on a government charge card.” 40  STI urges the
+Court to disregard the new Declaration from Menes, submitted with the Opposition
+brief, in wh ich he states that the $30,000 figure was based on cost savings to the
+government, because it is a sham -affidavit that contradicts his deposition
+testimony.41  STI argues that such supplemental expert reports cannot be used to fix
+problems in initial reports.42  STI points out that while MGMTL claims that it sold a
+SMART license to the Marine Forces Reserve through a “signed bailment agreement,”
+the Marine Forces Reserve never executed the bailment agreement. 43   MGMTL
+maintains that Menes should not be allowed to offer lay opinion testimony regarding
+a reasonable royalty or licensing fee, and argues the cases relied upon by MGMTL
+are distinguishable.44  Finally, STI asserts that MGMTL  seems to have abandoned
+any defense of Menes’s calculation of damages above $7,650,000 because it did not
+defend Menes’s higher calculation of $89,870,000 in its Opposition brief.45
+
+39 R. Doc. 121.
+40 Id. at p. 1 (quoting R. Doc. 91-1 at pp. 6-7) (internal quotation marks omitted).
+41 R. Doc. 121 at pp. 2-3.
+42 Id. at p. 2 (citing authority).
+43 Id at p. 8 (citing R. Docs. 121-3 & 121-4).
+44 R. Doc. 121 at pp. 9 -10 (citing LaCombe v. A -T-O, Inc., 679 F.2d 431, 433 (5th Cir. 1982); King v.
+Ames, 179 F.3d 370 (5th Cir. 1999)).
+45 R. Doc. 121 at p. 10.  STI notes in a footnote in its Reply brief that, “Menes could never quite get his
+math to add up to $89,870.000 during his deposition.”  R. Doc. 121 at p.1, fn 1.  The Court notes that
+this appears to be a typographical error, as STI likely intended to reference Menes’s higher estimate
+of $89,870,000.
+Case 2:20-cv-02138-WBV-MBN     Document 173     Filed 02/16/22     Page 8 of 38
+
+II. LEGAL STANDARD
+Federal Rule of Civil Procedure 26(a)(2)(A) requires parties to “disclose to the
+other parties the identity of any witness it may use at trial to present evidence under
+Federal Rule of Evidence 702, 703, or 705.” 46   Rule 26 distinguishes between
+witnesses who are retained or specially employed to give expert testimony and those
+who are not retained or specially employed, but who may nonetheless testify as a fact
+witness and also provide expert testimony. 47  According to Rule 26(a)(2)(B), if a
+witness “is one retained or specially employed to provide expert testimony in the case
+or one whose duties as the party’s employee regularly involve giving expert
+testimony,” the witness must provide an expert report.   Rule 26(a)(2)(C),  entitled
+“Witnesses Who Do Not Provide a Written Report,” provides the following:
+Unless otherwise stipulated or ordered by the Court, if the witness is
+not required to provide a written report, this disclosure must state:
+
+(i) the subject matter on which the witness is expected to present
+evidence under Fed. R. Evid. 702, 703, or 705; and
+(ii) a summary of the facts and opinions to which the witness is
+expected to testify.48
+
+  As previously explained by this Court, “Rule 26(a)(2)(C) was added to
+‘mandate summary disclosures of the opinions to be offered by expert witnesses who
+
+46 Fed. R. Civ. P. 26(a)(2)(A).
+47 Fed. R. Civ. P. 26, Advisory Committee Notes to 2010 Amendments; Tajonera v. Black Elk Energy
+Offshore Operations, LLC , Civ. A. No. 13 -0366 c/w 13 -0550, 13-5137, 13-2496, 13-5508, 13-6413, 14-
+374, 14-1714,  2016 WL 3180776, at *7 (E.D. La. June 7, 2016) (Brown, J.) (citing Rea v. Wis. Coach
+Lines, Inc., Civ. A. No. 12-1252, 2014 WL 4981803, at *2 (E.D. La. Oct. 3, 2014) (Duval, J.)).
+48 Fed. R. Civ. P. 26(a)(2)(C).
+Case 2:20-cv-02138-WBV-MBN     Document 173     Filed 02/16/22     Page 9 of 38
+
+are not required to provide reports under Rule 26(a)(2)(B) and of the facts supporting
+those opinions.’”49
+As explained by other courts in this Circuit, “The distinction between retained
+and non -retained experts should be interpreted in a common sense manner.” 50
+“While a retained expert is recruited to provide expert testimony without any prior,
+personal knowledge of the facts giving rise to litigation, a non -retained expert’s
+testimony ‘arises not from his enlistment as an expert, but, rather, from his ground -
+level involvement in the events giving rise to the litigation. ’”51  Often referred to in
+this Circuit  as a “hybrid fact/expert witness, ” a non -retained expert under Rule
+26(a)(2)(C) is typically limited to testifying about his opinions formed as a result of
+his knowledge of the case gained through direct observation. 52  Stated another way,
+a hybrid witness can testify as “ an actor with regard to the occurrences from which
+the tapestry of the lawsuit was woven.”53  “While non-retained experts may be asked
+questions that implicate their expertise, they cannot be asked to opine about broader
+
+49 Tajonera, Civ. A. No. 13 -0366, 2016 WL 3180776 at *7 ( quoting Fed. R. Evid. 26(a)(2)(C), Advisory
+Committee Notes to 2010 Amendments).  The Court notes that the Tajonera court’s reference to Fed.
+R. Evid. 26(a)(2)(C) appears to be a typographical error and an intended reference to Fed. R. Civ. P.
+26(a)(2)(C).
+50  Ferrara Land Management Mississippi, LLC v. Landmark American Insur. Co. , Civ. A. No.
+1:19cv956-HSO-JCG, 2021 WL 4819461, at *2 (S.D. Miss. July 19, 2021) (Ozerden, J.) (quoting
+DiSalvatore v. Foretravel, Inc. , Civ. A. No. 9:14 -CV-00150-KFG, 2016 WL 7742996, at *2 (E.D. Tex.
+May 20, 2016) (Giblin, M.J.)) (internal quotation marks omitted); See also, Cooper v. Meritor, Inc., Civ.
+A. No. 4:16-CV-52-DMB-JMV, 2018 WL 1513006, at *2 (N.D. Miss. Mar. 27, 2018) (Virden, M.J.); Meier
+v. UHS of Delaware, Inc., Civ. A. No. 4:18-CV-00615, 2020 WL 923952, at *8 (E.D. Tex. Feb. 26, 2020)
+(Mazzant, J.).
+51 Ferrara, Civ. A. No. 1:19cv956-HSO-JCG, 2021 WL 4819461 at *2 (quoting DiSalvatore, Civ. A. No.
+9:14-CV-00150-KFG, 2016 WL 7742996 at *2).  See, United States ex rel. Rigsby v. State Farm Fire &
+Cas. Co. , Civ. A. No. 1:06CV433 -HSO-RHW, 2019 WL 6792774, at *2 (S.D. Miss. Dec. 12, 2019)
+(Walker, M.J.).
+52 Ferrara, Civ. A. No. 1:19cv956 -HSO-JCG, 2021 WL 4819461 at *2 (citing DiSalvatore, Civ. A. No.
+9:14-CV-00150-KFG, 2016 WL 7742996 at *2).
+53 Tajonera, Civ. A. No. 13 -0366, 2016 WL 3180776 at *9 (quoting LaShip, LLC v. Hayward Baker,
+Inc., 296 F.R.D. 475, 480 n.34 (E.D. La. 2013) (Brown, J.)) (internal quotation marks omitted).
+Case 2:20-cv-02138-WBV-MBN     Document 173     Filed 02/16/22     Page 10 of 38
+
+issues beyond their own personal involvement unless they also submit written expert
+reports.”54  Thus, the scope of a non -retained expert’s testimony is limited to expert
+opinions based upon her personal knowledge and observations.55
+Regardless of whether a witness is proffered as a retained expert or as a non -
+retained expert, the witness must still satisfy the requirements of Daubert v. Merrell
+Dow Pharmaceuticals, Inc.56 and Fed. R. Evid. 702 .57  “Thus, although Daubert and
+its progeny often discuss specially retained experts, Rule 26(a)(2)(C) experts who
+provide expert opinions pursuant to Rule 702 may also be challenged under
+Daubert.”58  The district court has considerable discretion to admit or exclude expert
+testimony under Fed. R. Evid. 702 ,59 and the burden rests with the party seeking to
+present the testimony to show that the requirements of Rule 702 are met.60  Rule 702
+provides that an expert witness “qualified . . . by knowledge, skill, experience,
+training or education may testify in the form of an opinion” when all of the following
+
+54 Ferrara, Civ. A. No. 1:19cv956 -HSO-JCG, 2021 WL 4819461 at *2 (citing DiSalvatore, Civ. A. No.
+9:14-CV-00150-KFG, 2016 WL 7742996 at *2); See, Spears v. United States , Civ. A. No. 5:13 -CV-47-
+DAE, 2014 WL 258766, at *8 (W.D. Tex. Jan. 23, 2014) (Ezra, J.) (citing Fed. R. Civ. P. 26(a)(2)(B) and
+26(e)).
+55 Ferrara, Civ. A. No. 1:19cv956-HSO-JCG, 2021 WL 4819461 at *2 (quoting StoneCoat of Texas, LLC
+v. Procal Stone Design, LLC , Civ. A. No. 4:17CV303, 2019 WL 9899919, at *15 (E.D. Tex. June 28,
+2019) (Craven, M.J.)).
+56 509 U.S. 579, 113 S.Ct. 2786, 125 L.Ed.2d 469 (1993).
+57 Ferrara, Civ. A. No. 1:19cv956 -HSO-JCG, 2021 WL 4819461 at *3 (citing Collett v. Weherhaeuser
+Co., Civ. A. No. 19-11144, 2021 WL 76396, at *3 (E.D. La. Jan. 8, 2021) (Fallon, J.); Tajonera, Civ. A.
+No. 13-0366, 2016 WL 3180776, at *7).
+58 Tajonera, Civ. A. No. 13-0366, 2016 WL 3180776 at *7 (citing authority).
+59 See, Gen. Elec. Co. v. Joiner, 522 U.S. 136, 138-39, 118 S.Ct. 512, 139 L.Ed.2d 508 (1997); Seatrax,
+Inc. v. Sonbeck Int’l, Inc. , 200 F.3d 358, 371 (5th Cir. 2000); Tajonera, Civ. A. No. 13 -0366, 2016 WL
+3180776 at *8 (citing authority).
+60 Moore v. Ashland Chemical Inc., 151 F.3d 269, 276 (5th Cir. 1998).
+Case 2:20-cv-02138-WBV-MBN     Document 173     Filed 02/16/22     Page 11 of 38
+
+requirements are met:
+(a) The expert’s scientific, technical, or other specialized knowledge will
+help the trier of fact to understand the evidence or to determine a
+fact in issue;
+(b) The testimony is based on sufficient facts or data;
+(c) The testimony is the product of reliable principles and methods; and
+(d) The expert has reliably applied the principles and methods to the
+facts of the case.61
+
+Rule 702 codifies the Supreme Court’s opinion in Daubert, which charges district
+courts to act as “gatekeepers” when determining the admissibility of expert
+testimony.62  “To be admissible under Rule 702, the court must find that the evidence
+is both relev ant and reliable.” 63   According to the Fifth Circuit, reliability is
+determined by assessing whether the reasoning or methodology underlying the
+testimony is scientifically valid, while relevance depends on whether the reasoning
+or methodology underlying t he testimony can be properly applied to the facts at
+issue.64  The purpose of the reliability requirement is to exclude expert testimony
+based merely on subjective belief or unsupported speculation.65
+III. ANALYSIS
+A. Menes is a Non-Retained Expert Under Fed. R. Civ. P. 26(a)(2)(C)
+At the outset, t he Court notes that while both parties refer to Menes as an
+“expert” in their briefs, neither party has addressed, much less mentioned, whether
+
+61 Fed. R. Evid. 702; Tajonera, Civ. A. No. 13-0366, 2016 WL 3180776 at *8.
+62  United States v. Fullwood , 342 F.3d 409, 412 (5th Cir. 2003) (citing Daubert v. Merrell Dow
+Pharmaceuticals, Inc., 509 U.S. 579, 113 S.Ct. 2786, 125 L.Ed.2d 469 (1993)).
+63 United States v. Ebron, 683 F.3d 105, 139 (5th Cir. 2012) (citing United States v. Valencia, 600 F.3d
+389, 423 (5th Cir. 2010)).
+64 Ebron, 683 F.3d at 139 (citing Pipitone v. Biomatrix, Inc., 288 F.3d 239, 244 (5th Cir. 2002)).
+65 Tajonera, Civ. A. No. 13-0366, 2016 WL 3180776 at *8 (citing Daubert, 509 U.S. at 590, 113 S.Ct. at
+2795).
+Case 2:20-cv-02138-WBV-MBN     Document 173     Filed 02/16/22     Page 12 of 38
+
+Menes is a retained expert under Fed. R. Civ. P. 26(a)(2)(B) or a non-retained expert
+under Fed. R. Civ. P. 26(a)(2)(C).  Nonetheless, there is no evidence before the Court
+indicating that Menes was specially retained or employed by MGMTL to provide
+expert testimony in the case, or  that his duties as a “majority member/manager of
+MGMTL”66  “regularly involve giving expert testimony.” 67   Instead, the evidence
+before the Court reveals that Menes is  the co -creator of the SMART software
+application at issue in this case .  As such, it seems that Menes’s opinion testimony
+“arises not from his enlistment as an expert but, rather, from his ground -level
+involvement in the events giving rise to the litigation.”68  Further, STI does not raise
+any objection to Menes’s failure to provide a written report.  Thus, Menes appears to
+be a non-retained expert under Rule 26(a)(2)(C).  Additionally, Menes’s Summary
+Opinion appears to be a Rule 26(a)(2)(C) disclosure fo r a non-retained witness.  The
+Court reaches this conclusion  based upon both the information contained in the
+Summary Opinion and the fact that it is dated January 28, 2021, the Court’ imposed
+deadline for MGMTL’s “expert disclosures, as defined by the Federal Rules of Civil
+Procedure 26(a)(2)(C).”69
+As a non-retained expert under Rule 26(a)(2)(C) , Menes is exempt from the
+Rule 26(a)(2)(B) reporting req uirements insofar as his testimony may be related to
+his personal involvement in the events that gave rise to this litigation.  That personal
+
+66 R. Doc. 99-5 at p. 1.
+67 Fed. R. Civ. P. 26(a)(2)(B).
+68 Tajonera, Civ. A. No. 13 -0366, 2016 WL 3180776 at *9 (quoting LaShip, LLC v. Hayward Baker ,
+Inc., 296 F.R.D. 475, 480 n.34 (E.D. La. 2013)) (internal quotation marks omitted).
+69 R. Doc. 44.
+Case 2:20-cv-02138-WBV-MBN     Document 173     Filed 02/16/22     Page 13 of 38
+
+involvement includes his observations and opinions regarding his creation of the
+SMART software application, his personal involvement in MGMTL’s discussions with
+individuals at the Marine Forces Reserve office in New Orleans, Louisiana regarding
+licensing the SMART software applicatio n, and his personal involvement in
+MGMTL’s negotiations  with STI to market and sell the SMART software
+application.70  Any opinion testimony offered by Menes on these issues clearly fall
+within the purview of Rule 26(a)(2)(C).
+Menes’s expert testimony, however,  will be allowed only as to facts and
+opinions that were not produced sp ecifically in preparation for the trial of this
+matter.71  As previously explained by this Court, this approach comports with “the
+plain language of Rule 26(a)(2)(B), which clearly contemplates that some employees
+who render expert opinions should be exempt from the reporting requirement, but
+would limit the exception to ‘experts who are testifying as fact witnesses, although
+they may also express some expert opinions.’” 72  If, however, Menes is called to offer
+expert testimony that extends beyond “his ground-level involvement in the events
+giving rise to the litigation ,” 73  and strays into opinions that he developed in
+preparation for this litigation, Menes must comply with the Rule 26(a)(2)(B) reporting
+requirements, regardless of his status as a non-retained expert.74
+
+70 Beechgrove Redevelopment, LLC v. Carter & Sons Plumbing, Heating, and Air -Conditioning, Inc.,
+Civ. A. No. 07-8446, 2009 WL 981724, at *6 (E.D. La. Apr. 9, 2009) (Barbier, J.).
+71 Id.
+72 Id. (quoting Day v. Consol. Rail Corp. , Civ. A. No. 95 CIV. 968 (PKL), 1996 WL 257654, at *2
+(S.D.N.Y. May 15,1996) (Dolinger, M.J.)) (emphasis added by Beechgrove).
+73 Tajonera, Civ. A. No. 13 -0366, 2016 WL 3180776 at *9 (quoting LaShip, LLC v. Hayward Baker,
+Inc., 296 F.R.D. 475, 480 n.34 (E.D. La. 2013)) (internal quotation marks omitted).
+74 Beechgrove Redevelopment, LLC, Civ. A. No. 07 -8446, 2009 WL 981724 at *6 (quoting Day, Civ. A.
+No. 95 CIV. 968 (PKL), 1996 WL 257654 at *2) (quotation marks omitted); See, Lee v. Valdez, Civ. A.
+Case 2:20-cv-02138-WBV-MBN     Document 173     Filed 02/16/22     Page 14 of 38
+
+B. The Opinion Testimony At Issue in STI’s Motion.
+At the outset, the Court notes that in the instant Motion, STI requests “an
+Order to preclude the opinion testimony of Jorge Menes at trial on any matters related
+to damages (including regarding fair market value or a reasonable licensing fee) as
+disclosed in the Summary of Opinion Testimony of Jorge Menes dated Janu ary 28,
+2021.” 75   STI’s Supporting Memorandum , however,  is devoted exclusively to
+excluding Menes’s opinion testimony regarding the fair market value or reasonable
+licensing fee of the SMART software application. 76  As such, the Court’s review of
+STI’s Mot ion is limited to STI’s request for the Court to exclude Menes’s opinion
+testimony regarding the fair market value or reasonable licensing fee for the SMART
+software application, as set forth in Menes’s Summary Opinion .77  The Court must
+therefore determine whether Menes’s testimony regarding the fair market value or
+
+No. 3:07 -CV-1298-D, 2008 WL 4287730 (N.D. Tex. Sept. 18, 2008) (Fitzwater, C.J.) (excluding
+defendant sheriff’s expert treating physicians in actio n for wrongful death of inmate based on failure
+to produce Rule 26 expert reports, despite argument that physicians were exempt as employees of
+defendant); Prieto v. Malgor , 361 F.3d 1313, 1318 -19 (11th Cir. 2004) (finding that an expert report
+was required regarding the testimony of an employee proffered as an expert in use of force and police
+procedures).
+75 R. Doc. 91 at p. 1 (emphasis added).
+76 R. Doc. 91-1 at pp. 1-2, 3, 4-5, & 6-11.
+77 Although not raised by STI, the Court questions whether the Summary Opinion meets the disclosure
+requirements of Fed. R. Civ. P. 26(a)(2)(C).  As noted by another Section of this Court, “[W]hile courts
+‘must take care against requiring undue detail’ in Rule 26(a)(2)(C) disclosures, Adv. Comm. Notes to
+2010 Amendments, the ‘summary’ disclosure should at the very least an [sic] ‘abstract, abridgement,
+or compendium’ of the opinion and facts supporting the opinion.”  Rea v. Wisconsin Coach Lines, Inc.,
+Civ. A. No. 12 -1252, 2014 WL 4981803, at *5 (E.D. La. Oct. 3, 2014) (Duval, J.) (quotation omitted)
+(emphasis in original).  The Summary Opinion does not specify the facts upon which Menes based his
+valuation of the SMART license.  Instead, the Summary Opinion states that, “With respect to these
+opinions, Menes will testify as a fact witness to establish the fair market value or reasonable licensing
+fee of SMART based on real world facts and knowledge of the target industry and the current state of
+information technology.”  R. Doc. 91 -2 at p. 3.  However, because STI has not rais ed this as a basis
+upon which to exclude Menes’s opinion testimony, the Court need not answer this question in this
+Order.
+Case 2:20-cv-02138-WBV-MBN     Document 173     Filed 02/16/22     Page 15 of 38
+
+reasonable licensing fee of SMART satisfies the relevancy and reliability
+requirements of Daubert and Fed. R. Evid. 702.78
+C. MGMTL Has Failed to Show That Menes is Qualified to Offer
+Opinion Testimony Regarding the Fair Market Value or
+Reasonable Exclusive Licensing Fee For SMART.
+
+On the question of whether Menes is qualified to offer opinion testimony
+regarding the fair market value or reasonable licensing fee of SMART , the parties’
+arguments are brief.  STI argues that Menes has no professional background,
+experience, training, or education in valuation or software licensing, and points out
+that no qualifications are listed in the Summary Opinion.79  Relying upon Menes’s
+deposition testimony, STI further asserts that neither Menes nor MGMTL have ever
+sold a software license, that Menes has never served as an expert, that Menes has
+never been paid for his time to provide an expert opinion, and that Me nes has never
+been paid to calculate a reasonable licensing fee for software. 80  STI also points out
+that Menes admitted that he is not an expert in software, “but simply claims to
+understand economics.”81
+MGMTL asserts that it seeks to recover its actual damages from STI’s alleged
+copyright infringement and trade secret misappropriation, and that “actual damages”
+are based on a reasonable licensing fee, or the “fair market value of the copyright.”82
+
+78  Ferrara Land Management Mississippi, LLC v. Landmark American Insur. Co. , Civ. A. No.
+1:19cv956-HSO-JCG, 2021 WL 4819461, at *2 -3 (S.D. Miss. July 19, 2021); Tajonera, Civ. A. No. 13 -
+0366,  2016 WL 3180776 at *7 -9; Beechgrove Redevelopment, LLC , Civ. A. No. 07 -8446, 2009 WL
+981724 at *5-7.
+79 R. Doc. 91-1 at p. 3 (citing R. Doc 91-2).
+80 R. Doc. 91-1 at pp. 3-4 (citing R. Doc. 91-3 at pp. 2, 14, & 42).
+81 R. Doc. 91-1 at p. 4 (citing R. Doc. 91-3 at p. 16).
+82 R. Doc. 99-27 at pp. 10-11 (quoting Ghirmay v. Tsegia, Civ. A. No. 07-1826, 2009 WL 2488185, at *3
+(E.D. La. Aug. 10, 2009) (Berrigan, J.)) (internal quotation marks omitted).
+Case 2:20-cv-02138-WBV-MBN     Document 173     Filed 02/16/22     Page 16 of 38
+
+MGMTL contends that for intellectual property damages, the Fifth Circuit applies a
+“flexible and imaginative approach to the problem of damages,” which is controlled
+by the facts particular to the case. 83  Relying upon this framework and the Fifth
+Circuit’s decision in University Computing Co. v. Lykes -Youngstown Corp., MGMTL
+asserts that Menes is qualified to testify regarding the fair market value of an
+unrestricted license to SMART because he played a significant role in the
+development of SMART, he established the price point for it and can testify that it
+was met with acceptance in negotiations for sale of a license to MARFORRES, and he
+served as a technical expert at sales presentations of SMART.84  MGMTL further
+asserts that, as the co-creator of SMART, Menes has the personal knowledge to speak
+about development costs, the field -testing SMART underwent, “and other extrinsic
+factors such as the need for SMART and the highly specialized security management
+knowledge required to build SMART – specialized knowledge that goes beyond
+software valuation and deep into various Department of Defense regulations and
+general principles of security management.” 85   MGMTL contends that Menes’s
+knowledge, skill, and experience as manager of MGMTL, as a security management
+specialist, and as the co -creator of SMART make him uniquely qualified to testify
+regarding these issues.
+ The Court agrees with STI that MGMTL has failed to establish that Menes is
+qualified to offer an expert opinion regarding the “fair market value or reasonable
+
+83 R. Doc. 99-27 at p. 11 (quoting University Computing Co. v. Lykes-Youngstown Corp., 504 F.2d 518,
+538 (5th Cir. 1974)) (internal quotation marks omitted).
+84 R. Doc. 99-27 at p. 14 (citing Univ. Computing Co., 504 F.2d at 543).
+85 R. Doc. 99-27 at p. 14.
+Case 2:20-cv-02138-WBV-MBN     Document 173     Filed 02/16/22     Page 17 of 38
+
+exclusive licensing fee for all rights to SMART (including the ability to sell a copy or
+derivative of SMART through a Government Ser vices Agency contract) for a period
+of five years as $7,650,000 as a minimum and likely $89,870,000 .”86  While there is
+evidence before the Court indicating that Menes has experience in the field of security
+management,87 which STI does not appear to dispute,88 that experience does not
+automatically qualify him to provide expert testimony regarding the fair market
+value or reasonable exclusive licensing fee for software  in a copyright infringement
+case.  Likewise, the fact that Menes is the co -creator of SMART and has personal
+knowledge about the development costs and field -testing of the software reveals
+nothing about Menes’s knowledge or experience in calculating a reasonable licensing
+fee for a software application.  There is no evidence before the Court indicating that
+Menes has any professional or significant experience-based background, experience,
+training, or education in valuing software licensing or that Menes or MGMTL have
+ever sold a software li cense. 89   As STI points out, Menes testified during his
+deposition that he has never sold a software license to anything he has created , and
+also confirmed that MGMTL has never sold a software license to anyone.90
+The Court recognizes that MGMTL strenuously argues in its Opposition brief
+that Menes is qualified to opine on the fair market value or reasonable exclusive
+licensing fee for SMART because “MGMTL did sell a SMART license” to the Marine
+
+86 R. Doc. 91-2; R. Doc. 99-5.
+87 R. Doc. 91-2 at p. 2; R. Doc. 99-5 at p. 1, R. Doc. 99-2.
+88 See, generally, R. Docs. 91-1 & 121.
+89 See, R. Doc. 99-27 at pp. 2-4; R. Doc. 99-2.
+90 R. Doc. 91-3 at pp. 2 & 14.
+Case 2:20-cv-02138-WBV-MBN     Document 173     Filed 02/16/22     Page 18 of 38
+
+Forces Reserve office in New Orleans, Louisiana in 2014 for $30,000.91  Nonetheless,
+MGMTL also acknowledges, somewhat reluctantly, that the sale fell through because
+“a government sequestration that fiscal year prevented the release of funds to pay for
+the SMART license.”92  As explained by Menes during his deposition:
+Q  Has Managemental or MGMTL, for short, sold any software licenses?
+
+A  Yes, we - - we had sold a license to MARFORRES.
+
+. . . .
+
+Q  For What Product?
+
+A  For SMART.
+
+Q  Did they pay you for it?
+
+A. They did not pay me for it.
+
+. . . .
+
+Q  And why do you believe they agreed to pay you $30,000 to license
+SMART for one year?
+
+A  Well, over the course of a year, we provided sole source justification,
+provided a purchase request, provided documentation on what the
+client, MARFORRES, wo uld receive, and we even signed a bailment
+agreement provided to us by the regional contracting office at
+MARFORRES.
+
+All of those steps, with the exception of receiving a check, in my
+opinion constitute a sale.
+
+Q  I see.  Did MARFORRES ever - - did MA RFORRES ever sign a
+contract with MGMTL where MARFORRES agreed to pay MGMTL
+$30,000 to license SMART for one year?
+
+A  That was in the bailment agreement.  We never received a returned
+signed copy by the government, and in 2014, a thing called
+
+91 R. Doc. 99-27 at p. 7 & n.56; See, Id. at pp. 5, 15, 16,  21, & 25.
+92 Id. at p. 5, n.16 & pp. 15, 16 & n.56, 21.
+Case 2:20-cv-02138-WBV-MBN     Document 173     Filed 02/16/22     Page 19 of 38
+
+“sequestration” held up all discretionary funding for things like
+software, purchasing of vehicles, things like that.93
+
+But simply believing that an unaccepted offer constitutes a sale does not make it so.
+It is clear to the Court, from both the Opposition brief and Menes’s deposition
+testimony, that a sale of the one -year license of the SMART software was never
+effectuated between MGMTL and the Marine Forces Reserve for $30,000.   Further,
+Menes’s testimony makes clear that MGMTL n ever received a signed contract, or
+bailment agreement, from the Marine Forces Reserve demonstrating its acceptance
+of that purchase price of $30,000.  MGMTL points to no other sale of a software license
+by either Menes or MGMTL. 94  Thus, while Menes may offer testimony regarding
+MGMTL’s discussions with the Marine Forces Reserve to sell a one -year license of
+the SMART software application for $30,000 , as such testimony was likely “formed
+as a result of [his] knowledge of the case g ained through direct observation,” 95 any
+opinions regarding the fair market value or reasonable exclusive licensing fee for
+SMART would “stray into opinions that [he] may have developed in preparation for
+the litigation of this matter.” 96  Any such testimony would be subject to the expert
+report requirement of Fed. R. Civ. P. 26(a)(2)(B). 97  MGMTL has not directed the
+Court to any expert report prepared by Menes.
+
+93 R. Doc. 99-6 at pp. 2-4.
+94 See, generally, R. Doc. 99-27.
+95  Ferrara Land Management Mississippi, LLC v. Landma rk American Insur. Co. , Civ. A. No.
+1:19cv956-HSO-JCG, 2021 WL 4819461, at *2 (S.D. Miss. July 19, 2021).
+96 Beechgrove Redev., LLC v. Carter & Sons Plumbing, Heating and Air-Conditioning, Inc., Civ. A. No.
+07-8446, 2009 WL 981724, at *6 (E.D. La. Apr. 9, 2009).
+97 Id.
+Case 2:20-cv-02138-WBV-MBN     Document 173     Filed 02/16/22     Page 20 of 38
+
+To the extent MGMTL claims that Menes is qualified  to render an expert
+opinion regarding the fair market value of the SMART license based upon the fact
+that he priced it at $30,000 for the attempted sale to the Marine Forces Reserve,
+Menes’s deposition testimony makes clear that he did not perform any calculation in
+setting that price .  As STI points out, Menes testified that he valued the license at
+$30,000 for one year because “$30,000 seems to be the threshold that could be charged
+on a government charge card by, of course, an authorized approved agent with - - you
+know, with those charge cards.” 98  MGMTL does not address this testimony in its
+Opposition brief.  The Court notes that MGMTL omitted Menes’s testimony regarding
+the charge card limit from the deposition transcript that was submitted with its
+Opposition brief.99
+Rather than address this issue directly, MGMTL opted instead to submit a new
+Declaration from Menes, dated May 17, 2021, in which he asserts that:
+The price of licensing SMART for one year was originally based on the
+labor cost savin gs it provided to the licensee.  SMART allowed the
+security management office at MARFORRES to reduce the security
+administration duties from four personnel down to one.  The $30,000
+licensing fee is roughly the equivalent of the annual salary of a lance
+corporeal in the Marine Corps.  Licensing of SMART at $30,000 a year
+would thus allow a security management office to reduce its security
+administration labor costs by half.100
+
+MGMTL relies upon this new Declaration to assert that Menes’s determination that
+a one-year license of the SMART software application is not speculative, but “turns
+
+98 R. Doc. 91-3 at p. 27.
+99 See, R. Doc. 99-6 at pp. 26-27.
+100 R. Doc. 99-1 at ¶ 16.
+Case 2:20-cv-02138-WBV-MBN     Document 173     Filed 02/16/22     Page 21 of 38
+
+on real world economic considerations.”101  The Court agrees with STI that this new
+Declaration is merely an attempt by MGMTL to circumvent Menes’s deposition
+testimony, as there is no indication from the deposition transcripts submitted by the
+parties that Menes ever testified that the $30,000 valuation was based upon “labor
+cost savings.”102  Thus, the Court is not persuaded by the new Declaration that Menes
+is qualifie d to render an expert opinion on the fair market value or reasonable
+exclusive licensing fee for the SMART software application in this case.
+ To the extent MGMTL relies on University Computing Co. to argue that Menes
+has the professional background and experience to offer an opinion regarding the fair
+market value of a SMART license,103 the Court disagrees and finds that case factually
+distinguishable.  There, the Fifth Circuit found no error in the lower court a llowing
+Stan Josephson, the plaintiff’s Vice President of Technical Services, to testify as an
+expert on the question of damages for the defendant’s misappropriation of the
+plaintiff’s computer system. 104   In doing so, t he Fifth Circuit pointed out that
+Josephson had testified that he was responsible for developing software systems,
+pricing them for marketing, and assisting as technical expert at sales presentations,
+and that in pricing a software system, he took into acc ount such factors as
+development costs, the long -term potential for the system, and the plaintiff’s sales
+objectives, as well as the current market for such systems.105
+
+101 R. Doc. 99-27 at p.18.
+102 See, R. Docs. 91-3, 99-6, & 121-1.
+103 R. Doc. 99 -27 at p. 11 -14 (citing Univ. Computing Co. v. Lykes -Youngstown Corp., 504 F.2d 518,
+536-38, 543 (5th Cir. 1974)).
+104 504 F.2d at 543.
+105 Id.
+Case 2:20-cv-02138-WBV-MBN     Document 173     Filed 02/16/22     Page 22 of 38
+
+Unlike the witness in University Computing Co., MGMTL has failed to direct
+the Court t o any evidence suggesting that Menes has similar prior experience in
+marketing or pricing software licenses for SMART , or any software for that matter,
+beyond the one unsuccessful sale of a license to one office of the Marine Forces
+Reserve.  More importan tly, however, STI has produced evidence in the form of
+Menes’s deposition testimony  showing that : (1)  Menes attributes most of the
+development of SMART to its co-creator, Whit Himel; (2) Menes admitted he is not a
+software expert; and (3) Menes has only ever priced the SMART software application,
+which was based upon the government’s charge card limit.106  STI has also presented
+evidence showing that no one has ever purchased a one-year license of SMART for
+$30,000, despite MGMTL’s attempts , and that Menes’s only sales presentation
+experience, to two prospective customers other than STI, was unsuccessful.107  Thus,
+Menes’s deposition testimony flatly contradicts MGMTL’s assertion that Menes is
+qualified to render an expert opinion on the fair market value or reasonable exclusive
+licensing fee for SMART based upon his prior experience and training.  As cautioned
+by another Section of this Court, this seems to be a situation in which MGMTL is
+attempting “to avoid Rule 26(a)(2)(B)’s reporting requ irements by having a regular
+employee testify on an issue instead of an expert.”108
+ Based upon the foregoing analysis, the Court finds that MGMTL has failed to
+carry its burden of proving that Menes is qualified to offer opinion testimony
+
+106 R. Doc. 121 at p. 7 (citing R. Doc. 121-1 at pp. 4-5; R. Doc. 91-3 at pp. 16 & 27).
+107 R. Doc. 121 at p. 7 (citing R. Doc. 91-3 at p. 14; R. Doc. 121-2 at pp. 3-4).
+108 Beechgrove Redevelopment, LLC v. Carter & Sons Plumbing, Heating and Air-Conditioning, Inc.,
+Civ. A. No. 07-8446, 2009 WL 981724, at *5 (E.D. La. April 9, 2009).
+Case 2:20-cv-02138-WBV-MBN     Document 173     Filed 02/16/22     Page 23 of 38
+
+regarding the fair market value or reasonable exclusive licensing fee for all rights to
+SMART.
+D. MGMTL Has Failed to Show That Menes’s Opinions Regarding the
+Fair Market Value or Reasonable Exclusive Licensing Fee For
+SMART Are Reliable Under Rule 702.
+
+The Court further finds that, e ven if Menes is qualified to provide opinion
+testimony regarding the fair market value or reasonable exclusive lice nsing fee for
+the SMART software application, such opinions must be excluded as unreliable under
+Fed. R. Evid. 702.  To satisfy the reliability prong of the Daubert/Rule 702 analysis,
+a “party seeking to introduce expert testimony must show (1) the testimony is based
+upon sufficient facts or data, (2) the testimony is the product of reliable principles
+and methods, and (3) the witness has applied the principles and methods reliably to
+the facts of the case.” 109  To prove reliability, the proponent of the expert testimony
+must present some objective, independent validation of the expert’s methodology. 110
+As explained by the Supreme Court, the objective of this Court’s gatekeeper role is to
+ensure that an expert “employs in the courtroom the same level o f intellectual rigor
+that characterizes the practice of an expert in the relevant field.”111
+
+109 Recif Resources, LLC v. Juniper C apital Advisors, L.P., Civ. A. No. H -19-2953, 2020 WL 5623982,
+at *2 (S.D. Tex. Sept. 18, 2020) (Atlas, J.) (quoting Huss v. Gayden, 571 F.3d 442, 452 (5th Cir. 2009))
+(internal quotation marks omitted).
+110 Recif Resources, LLC, Civ. A. No. H-19-2953, 2020 WL 5623982 at *2 (citing Brown v. Illinois Cent.
+R. Co., 705 F.3d 531, 536 (5th Cir. 2013)).
+111 Kumho Tire Co. , Ltd. v. Carmichael , 526 U.S. 137, 152, 119 S.Ct. 1167, 1176, 143 L.Ed.2d 238
+(1999); Hodges v. Mack Trucks Inc., 474 F.3d 188, 194 (5th Cir. 2006).
+Case 2:20-cv-02138-WBV-MBN     Document 173     Filed 02/16/22     Page 24 of 38
+
+1. Menes’s Opinions Are Based Upon Sufficient Facts or Data.
+As STI points out ,112  the Fifth Circuit has recognized that , “T he Daubert
+reliability analysis applies to, among other things, ‘the facts underlying the expert’s
+opinion.’”113  “In particular, an opinion based on ‘insufficient, erroneous information,’
+fails the reliability standard. ” 114   The Fifth Circuit has further cautioned th at,
+“Although the Daubert reliability analysis is flexible and the proponent of the expert
+evidence need not satisfy every one of its factors, ‘the existence of sufficient facts . . .
+is in all instances mandatory.’”115  Thus, “expert testimony that relies on ‘completely
+unsubstantiated factual assertions’ is inadmissible.” 116   Nevertheless, the Fifth
+Circuit has made clear that, “[a]s a general rule, questions relating to the bases and
+sources of an expert’s opinion affect the weight to be assigned that opinion rather
+than its admissibility and should be left for the jury’s consideration.”117  “It is the role
+of the adversarial system, not the court, to highlight weak evidence.”118
+STI asserts that Menes’s opinion testimony regarding the fair market value or
+reasonable exclusive licensing fee for SMART is not based on sufficient facts or data
+because it is based upon assumptions regarding the price of a one-year license for the
+
+112 R. Doc. 91-1 at p. 4.
+113 Moore v. Int’l Paint, LLC , 547 Fed.Appx. 513, 515 (5th Cir. 2013) (quoting Knight v. Kirby Inland
+Marine Inc., 482 F.3d 347, 355 (5th Cir. 2007)); Jacked Up, LLC v. Sara Lee Corporation, 291 F. Supp.
+3d 795, 802 (N.D. Tex. 2018) (Horan, M.J.) (quoting Moore, 547 Fed.Appx. at 515).
+114 Moore, 547 Fed.Appx. at 515 (quoting Paz v. Brush Engineered Materials, Inc. , 555 F.3d 383, 389
+(5th Cir. 2009)).
+115 Moore, 547 Fed.Appx. at 515 (quoting Hathaway v. Baza ny, 507 F.3d 312, 318 (5th Cir. 2007))
+(internal citation omitted).
+116 Moore, 547 Fed.Appx. at 515 (quoting Hathaway, 507 F.3d at 319, n.4).
+117 Primrose Operating Co. v. National American Ins. Co. , 382 F.3d 546, 562 (5th Cir. 2004) (quoting
+United States v. 14.38 Acres of Land, More of Less Sit. In Leflore County, Miss, 80 F.3d 1074, 1077 (5th
+Cir. 1996)) (internal quotation marks omitted) (emphasis added by Primrose).
+118 Primrose, 382 F.3d at 562.
+Case 2:20-cv-02138-WBV-MBN     Document 173     Filed 02/16/22     Page 25 of 38
+
+SMART software application, the number of licenses that would have been sold to the
+military, the duration of the licenses and, for the higher damages estimate, a royalty
+fee, a fee for technical services provided by MGMTL, and payment for the hours spent
+by Menes and Himel to develop SMART .119  STI argues that the assumptions are
+speculative and not based in fact because MGMTL never sold a license to SMART.120
+Although difficult to decipher, MGMTL seems to argue that Menes’s testimony
+regarding the fair market value of a SMART license is not speculative because the
+$30,000 price for a one -year license of SMART is based upon t he price at which
+MGMTL sold a license to the Marine Forces Reserve, and because STI valued its own
+copycat PASS software at $214,094 per year. 121  MGMTL contends that Menes then
+multiplied $30,000 by five years, “the period of time during which STI has tak en
+unrestricted access to [SMART],” 122 and multiplied that number “by a conservative
+estimate of licensees Menes knew were doable and realistic” based upon his own
+experience in the field. 123  According to MGMTL, “Within MARFORRES  (which is
+only one component of the entire Marine Corps), there are 51 units across the United
+States and so represent 51 potential licensees.  A five -year license to each of these
+generates revenue of $7.65 million.”124  MGMTL further asserts that, “MARFORRES
+was used as a baseline for predicting sales because it constitutes ‘low hanging fruit’
+closely connected to Menes’s experience and accessible through its position and
+
+119 R. Doc. 91-1 at pp. 4-5.
+120 Id. at p. 5.
+121 R. Doc. 99-27 at pp. 17 & 19.
+122 Id. at p. 19.
+123 Id. at pp. 18 & 19.
+124 Id. at p. 19.
+Case 2:20-cv-02138-WBV-MBN     Document 173     Filed 02/16/22     Page 26 of 38
+
+proven record within the MARFORRES security management office and his personal
+contacts.”125  As STI points out in its Reply brief, MGMTL does not attempt to explain
+the basis for Menes’s higher damages estimate of $89.8 million.126
+During his deposition, Menes testified that his lower estimate of $7.65 million
+was reached by multiplying $3 0,000, his price for a one -year license of the SMART
+software application, by 51 licenses over the course of five years, which is the length
+of time that STI had unrestricted use of SMART.127  Menes valued a one-year license
+of the SMART software application at $30,000 because “That was the calculation that
+we presented to MARFORRES, so that was the calculation that we would have
+presented to STI.”128  Menes explained that the 51 licenses “included MARFORRES
+and the 50 battalions at MARFORRES that Steve McMur try at the time of his
+licensing of SMART believed that the SMART application would be capable of being
+plugged into every one of the battalions at MARFORRES.” 129  When asked whether
+he took any steps to check the reliability of the 51-license assumption, Menes testified
+that, “The one person in the Marine Corps that could have authorized and would have
+authorized such a procurement was Steve McMurtry at the time.  There was no other
+individual.”130  As for the higher estimate of $89.8 million, Menes testifie d that he
+reached that number by multiplying a one -year, $30,000 license by five years, and
+multiplying that number by 500 licenses.131  Menes explained that, “We also believed
+
+125 R. Doc. 121 at p. 10; See, generally, R. Doc. 99-27.
+126 R. Doc. 121 at p.
+127 R. Doc. 91-3 at p. 6.
+128 Id. at p. 4.
+129 Id. at p. 17.
+130 Id. at p. 19.
+131 Id. at pp. 4-5 & 6-7.
+Case 2:20-cv-02138-WBV-MBN     Document 173     Filed 02/16/22     Page 27 of 38
+
+that contacts with the Marine Corps, specifically Steve McMurtry and MARFORRES
+and the Navy, that that would have potentially included a conservative number of
+500 licenses,”132 and that, “from conversations with STI, we believed that 500 licenses
+was the minimum amount that we could get between the Navy and the Marine
+Corps.”133
+The Court finds that, although the facts relied upon by Menes in calculating
+the fair market value or reasonable exclusive licensing fee for SMART are thin, they
+are sufficient for purposes of Daubert.  The Court remains cognizant that,
+notwithstanding Daubert, “the rejection of expert testimony is the exception and not
+the rule.”134  Thus, to the extent that  STI is attacking the factual basis of Menes’s
+opinions, such arguments address the weight to be assigned to those opinions, rather
+than their admissibility at trial. 135  The Court is fully satisfied that, during trial,
+counsel for STI is perfectly able to, and will, take the opportunity to vigorously cross-
+examine Menes regarding the bases for his opinions.
+2. Menes’s Opinions Are Not The Product of Reliable Methodologies.
+Although Menes’s opinions regarding the fair market value or reasonable
+exclusive licensing fee for SMART are based upon sufficient facts, t he Court finds
+that his opinions must be excluded under Rule 702 because they are not based upon
+
+132 Id. at p. 4.
+133 Id. at p. 7.
+134 Johnson v. Samsung Electronics America, Inc. , 277 F.R.D. 161, 165 (E.D. La. 2011) (Duval, J.)
+(quoting Fed. R. Evid. 702 Advisory Committee Notes to 2000 Amendments) (internal quotation marks
+omitted).
+135 See, Tyler v. Union Oil Co. of Cal. , 304 F.3d 379, 393 (5th Cir. 2002) (“Unocal instead attempts to
+show that the underlying data – provided by Unocal – was itself unreliable.  This is an issue that
+Unocal could – and did – raise in cross-examination.”).
+Case 2:20-cv-02138-WBV-MBN     Document 173     Filed 02/16/22     Page 28 of 38
+
+reliable principles or methods.  The Supreme Court in Daubert set forth the following non-
+exclusive list of factors to consider in determining the reliability of expert testimony: (1)
+whether the theory has been tested; (2) whether the theory has been subject to peer review
+and publication; (3) the known or potential rate of error; (4) whether standards and controls
+exist and have been maintained with respect to the technique; and (5) the general acceptance
+of the methodology in the scientific community.136  Whether some or all of these factors apply
+in a particular case depends on the facts, the expert’s particular expertise, and the subject of
+his testimony.137  The Fifth Circuit has held that a trial court may consider additional factors
+in assessing the scientific reliability of expert testimony, including: (1) whether the expert’s
+opinion is based on incomplete or inaccurate data; (2) whether the expert has unjustifiably
+extrapolated from an accepted premise to an unfounded conclusion ; and (3) whether the
+expert has adequately accounted for alternative explanations.138  “The overarching goal ‘is to
+make certain that an expert, whether basing testimony on professional studies or personal
+experience, employs in the courtroom the same level of intellectual rigor that characterizes
+the practice of an expert in the relevant field.’”139
+As previously mentioned, Menes testified that his opinions are based upon a
+calculation in which he multiplied the price of a one -year license of the SMART
+software application ($30,000), by the number of licenses he believes MGMTL could
+
+136 In re: Vioxx Products Liability Litigation, 401 F. Supp. 2d 565, 573 (E.D. La. 2005) (Fallon, J.) (citing
+Daubert v. Merrell Dow Pharmaceuticals, Inc., 509 U.S. 579, 593-95, 113 S.Ct. 2768, 125 L.Ed.2d 469
+(1993)).
+137 In re: Vioxx, 401 F. Supp. 2d at 573 (citing Kumho Tire Co., Ltd. v. Carmichael, 526 U.S. 137, 13,
+119 S.Ct. 1167, 143 L.Ed.2d 238 (1999)).
+138 Nola Ventures, LLC v. Upshaw Insurance Agency, Inc., Civ. A. No. 12-1026, 2014 WL 12721798, at
+*6 (E.D. La. Oct. 31, 2014) (Brown, J.) (citing Black v. Food Lion Inc., 171 F.3d 308, 313 (5th Cir. 1999);
+Moore v. Ashland Chemical Inc. , 151 F.3d 269, 278 -79 (5th Cir. 1998); In re Vioxx, 401 F. Supp 2d at
+573).
+139 Nola Ventures, LLC, Civ. A. No. 12-1026, 2014 WL 12721798 at *6 (quoting Kumho Tire, 526 U.S.
+at 152, 119 S.Ct. at 1176).
+Case 2:20-cv-02138-WBV-MBN     Document 173     Filed 02/16/22     Page 29 of 38
+
+have sold to the military (at least 51 and up to 500), and multiplied that number by
+the length of time that STI had unrestricted access to SMART (five years).  According
+to MGMTL, Menes valued a one -year license at $30,000  because that was the price
+at which it sold a one-year license to the Marine Forces Reserve.140  Menes admitted,
+however, that he did not know how much STI was willing to pay to license SMART,141
+that MARFORRES never actually licensed the SMART software for $30,000, 142 and
+that MGMTL has never sold technical services or a software license to anyone. 143
+More importantly, however, Menes further testified that the price of a one -year
+license for the SMART software a pplication was set at $30,000  because that “seems
+to be the threshold that could be charged on a government charge card by, of course,
+an authorized approved agent with - - you know, with those charge cards.” 144  Thus,
+the evidence before the Court suggests  that Menes valued a one -year license at
+$30,000 based upon the credit card limit of its potential customer, rather than actual
+information regarding its fair market value.
+With respect to the number of licenses that MGMTL could have sold in the five
+years that STI had the SMART software application, Menes testified that he believed
+500 licenses was a “conservative number” based upon MGMTL’s contacts with Steve
+McMurtry, MARFORRES, and the Navy.145  Menes explained, “[F]rom conversations
+with STI, we believed that 500 licenses was the minimum amount that we could get
+
+140 R. Doc. 99-27 at pp. 17 & 19.
+141 R. Doc. 91-3 at p. 11.
+142 Id. at p. 3.
+143 Id. at p. 14.
+144 R. Doc. 91-3 at p. 27.
+145 Id. at p. 4.
+Case 2:20-cv-02138-WBV-MBN     Document 173     Filed 02/16/22     Page 30 of 38
+
+between the Navy and the Marine Corps.  Multiply 500 by 30,000 times 5 is $75
+million.”146  Menes explained that to calculate MGMTL’s  royalty fee, he “tacked an
+additional 15 percent off on those 500 licenses, comes out to 11 million point 65.” 147
+Menes likewise testified that he added another $3 million to that calculation to
+account for “technical assistance” provided by Menes and Him el,148 and added an
+additional $600,000 for development costs.149
+As for the lower end of 51 licenses, Menes testified that “Steve McMurtry at
+the time of his licensing of SMART believed that the SMART application would be
+capable of being plugged into every one of the battalions at MARFORRES,” of which
+there are 51.150  When asked directly if he did anything to check the reliability of his
+assumption that MGMTL could sell 51 licenses to MARFORRES, Menes repeatedly
+answered “no.”151  Menes further answered that Steve McMurtry was the one person
+in the Marine Corps who could have authorized such a procurement of the SMART
+license and that McMurtry “said he wanted it at 51 units, I mean that’s the guy that
+told me.  I mean that’s what was told to me, that that was  the plan.” 152  Menes
+testified that he believed it was “100 percent probable” that MGMTL was going to be
+able to sell 51 licenses to MARFORRES based upon his discussions with Steve
+McMurtry because “the man asked me and told me he was going to license it 50 more
+times, so I have no reason to believe it would have been less, no, or more, for that
+
+146 R. Doc. 91-3 at p. 7.
+147 Id. at pp. 5, 7, & 11.
+148 Id. at pp. 8 & 12.
+149 Id. at p. 8; R. Doc. 99-6 at pp. 14, 37-41.
+150 R. Doc. 91-3 at p. 17.
+151 Id. at pp. 18 & 21.
+152 Id. at p. 19.
+Case 2:20-cv-02138-WBV-MBN     Document 173     Filed 02/16/22     Page 31 of 38
+
+matter.”153  According to Menes, “There was an assumption.  It was based off of what
+McMurtry had told me he wanted to happen.”154
+Although Menes testified that these valuations are based upon his
+“understanding and fact of the marketplace”  and that he “understand[s]
+economics,”155 Menes stated that he did not consult any technical documents and that
+he is not an expert in software  or in calculating the fair market  value or reasonable
+licensing fees for software. 156  Menes testified that the co -creator of SMART, Whit
+Himel, has “been in the business for a long time creating database utilities for oil
+companies.  So what I would tell you, a lot of my valuations on wha t SMART was
+worth came from his 40 -plus years of experience.  So, yeah, I would say Whit’s an
+expert.  I consulted an expert.” 157   Menes also testified that the “scientific
+information” he used to calculate damages was “the market, the market being
+MARFORRES.”158  When asked if he conducted a survey in connection with his
+opinion as to the fair market value or reasonable exclusive licensing fee for all rights
+to SMART, Menes stated:
+Again, I don’t need to take a survey for something that I have created.
+I understand the labor.  I understand the economy of scale.  I understand
+the demand.  I understand the placement of our product.  I had enough
+
+153 Id. at p. 41.
+154 R. Doc. 99-6 at p. 26.
+155 R. Doc. 91-3 at pp. 5 & 16; R. Doc. 99-6 at p. 51.
+156 R. Doc. 91-3 at pp. 15 & 16; R. Doc. 99-6 at p. 17.
+157 R. Doc. 99-6 at p. 16.
+158 R. Doc. 91-3 at pp. 17-18.
+Case 2:20-cv-02138-WBV-MBN     Document 173     Filed 02/16/22     Page 32 of 38
+
+experience with the help of Whit Himel  and his 40 years to position,
+price, and license SMART.  I didn’t need a survey.159
+
+Menes subsequently clarified that, “No, I did not need to conduct a survey.  I did not
+need a survey to answer those questions.  I was able to answer them myself.”160  When
+asked if he talked to “anyone else in any other government or military agency and
+ask them what they would pay to license SMART,” Menes said “no.”161
+ The Court finds that Menes’s calculations of the fair market value or
+reasonable exclusive licensing fee for SMART as “$7,650,000 to $89,870,000” were
+based solely upon unreliable methodologies, including assumptions made from
+conversations he had with Steve McMurtry and Whit Himel, a credit card limit, and
+an unconsummated sale of a one-year license to MARFORRES.  Menes very plainly
+stated that he performed no market analysis to verify the reasonableness or accuracy
+of his calculations.  In fact, it is clear to the Court that Menes performed no
+independent research, beyond his discussions with Steve McMu rtry or Whit Himel,
+regarding the numbers he used to calculate the fair market value or reasonable
+exclusive licensing fee for SMART .  Thus, there is no “concrete” evidence before the
+Court to support Menes’s opinion regarding the fair market valu e or reasonable
+exclusive licensing fee for the SMART software application , such as market surveys
+or quotes solicited from other companies regarding the cost to create and license
+analogous works. 162   Other courts, including this Court, have excluded exper t
+
+159 Id. at p. 32.
+160 Id.
+161 Id. at p. 33.
+162 See, Recif Resources, LLC v. Juniper Capital Advisors, L.P. , Civ. A. No. H -19-2953, 2020 WL
+5623982, at *1, 5 (S.D. Tex. Sept. 18, 2020) (“Bersin’s methodology of soliciting multiple quotes to
+Case 2:20-cv-02138-WBV-MBN     Document 173     Filed 02/16/22     Page 33 of 38
+
+opinions where the expert failed to conduct any independent research to determine
+the reliability of his assumptions.163
+The Court reaches the same conclusion in this case  as to Menes’s opinion
+testimony.  It is evident that Menes merely accepted as true the information provided
+to him by McMurtry regarding his interest in licensing the SMART software
+application at the 51 battalions of the Marine Forces Reserve and performed no
+independent analysis of those numbers.  Thus, Menes’s theory cannot be tested.  The
+Court finds that MGMTL has failed to  establish that Menes reached his opinions
+regarding the fair market value or reasonable exclusive licensing fee for SMART
+using “the same level of intellectual rigor that characterizes the practice of an expert
+in the relevant field.”164  Instead, this appears to be an attempt by MGMTL to present
+its own estimation of damages in the guise of an expert opinion.165  MGMTL has also
+failed to show that Menes was impartial in formulating his opinions, which is
+especially troubling since he is the co-creator of the SMART software application and
+a major member/manager  of MGMTL.  The Court therefore concludes that STI’s
+Motion must be granted to the extent that STI seeks to exclude any opinion testimony
+from Menes regarding his calculations of the fair market value or reasonable
+
+determine the reasonable royalty/license fee for the copyrighted works ba sed on the market value of
+obtaining analogous works is a rational, reliable methodology.”).
+163 JRL Enterprises, Inc. v. Procorp Associates, Inc. , Civ. A. No. 01 -2893, 2003 WL 21284020, at *7 -8
+(E.D. La. June 3, 2003) (Fallon, J.) (citing authority).
+164 Kumho Tire Co., Ltd. v. Carmichael , 526 U.S. 137, 152, 119 S.Ct. 1167, 1176, 143 L.Ed.2d 238
+(1999).
+165 JRL Enterprises, Inc., Civ. A. No. 01-2893, 2003 WL 21284020 at *8.
+Case 2:20-cv-02138-WBV-MBN     Document 173     Filed 02/16/22     Page 34 of 38
+
+exclusive licensing fee for all rights to SMART , as MGMTL has failed to show that
+Menes’s calculations are reliable under Rule 702.166
+E. MGMTL Has Failed to Show That Menes’s Opinions Regarding the
+Fair Market Value or Reasonable Exclusive Licensing Fee For
+SMART Are Admissible Under Rule 701.
+
+To the extent that MGMTL asserts that Menes should be allowed to offer
+opinion testimony regarding the value of SMART under Federal Rule of Evidence
+701,167  the Court finds that such opinions fall outside the scope of lay opinion
+testimony.  Rule 701 provides that if a witness is not testifying as an expert, his
+testimony is limited to opinions that are: “(a) rationally based on the witness’s
+perception; (b) helpful to clearly understanding the witness’s testimony or to
+determining a fact in issue; and (c) not based on scientific, technical, or other
+specialized knowledge within the scope of Rule 702.” 168  It is well settled in this
+Circuit that, “a person may testify as a lay witness only if his opinions or inferences
+do not require any specialized knowledge and  could be reached by any ordinary
+person.”169
+MGMTL has made no showing that the fair market value or reasonable
+exclusive licensing fee for SMART could be determin ed by an ordinary person.
+Instead, MGMTL cites two Fifth Circuit cases, LaCombe v. A-T-O, Inc. and King  v.
+
+166 Because the Court finds that Menes’s expert opinions are not reliable under Rule 702,  the Court
+need not address whether they are relevant.  See, JRL Enterp., Inc. , Civ. A. No. 01 -2893, 2003 WL
+21284020 at *6 (“After the proponent of the expert testimony has carried her burden of showing
+reliability, the party must also prove the expert opinions’ relevance.”).
+167 R. Doc. 99-27 at pp. 22-25.
+168 Fed. R. Evid. 701.
+169 Doddy v. Oxy USA, Inc., 101 F.3d 448, 460 (5th Cir. 1996) (citing Brady v. Chemical Constr. Corp.,
+740 F.2d 195, 200 (2d Cir. 1984)).
+Case 2:20-cv-02138-WBV-MBN     Document 173     Filed 02/16/22     Page 35 of 38
+
+Ames, for the proposition that the owner of property is qualified by his ownership
+alone to testify as to its value.170  The Court finds those cases clearly distinguishable
+from the facts of this case, as LaCombe concerned testimony of a homeowner
+regarding the value of his home and furnishings  and the Fifth Circuit relied upon
+case law addressing the admissibility of testimony concerning the value of movable
+and immovable property. 171  While the Fifth Circuit in King allowed a daughter to
+testify regarding the value of damages resulting from the misappropriation of the
+name and likeness of her father, a famous musician, it did so, at least in part, because
+“the image was her father’s and she had engaged in some limited transactions
+involving the marketing of her father’s name and likeness” and her testimony was
+not “based on naked conjecture and speculation.” 172  Unlike King, MGMTL has not
+directed the Court to any evidence showing that Menes has engaged in successful
+negotiations or marketing of a SMART license.  As such, the Court finds that opinion
+testimony from Menes regarding the fair market value or reasonable exclusive
+licensing fee fo r SMART would “be based on naked conjecture or solely speculative
+factors,”173 as Menes’s calculations were based solely upon assumptions made from
+conversations he had with Steve McMurtry and Whit Himel, a credit card limit, and
+an unconsummated sale of a one-year license to MARFORRES.
+
+170 R. Doc. 99-27 at pp. 22-23 (citing LaCombe, 679 F.2d 431, 433 (5th Cir. 1982); Ames, 179 F.3d 370,
+376 (5th Cir. 1999)).
+171 LaCombe, 679 F.2d at 434-35 (citing authority).
+172 King, 179 F.3d at 376-77 (“King explained that she had informally conducted business on behalf of
+the heirs of Freddie King and the Freddie King estate for over ten years.  King testified that she was
+familiar with the commercial value of her father’s name and likeness because of her prior involvement
+in negotiations to market that name and likeness on T-shirts.  Nothing in the record appears to rebut
+this testimony.”) (footnotes omitted).
+173 Id. at 376 (citation omitted).
+Case 2:20-cv-02138-WBV-MBN     Document 173     Filed 02/16/22     Page 36 of 38
+
+Based on the foregoing analysis, the Court agrees with STI that the fair market
+value or reasonable exclusive licensing fee for SMART is not within the realm of
+knowledge of the average lay person. 174   As such, Menes cannot offer opinion
+testimony regarding the fair market value or reasonable exclusive licensing f ee of
+SMART under the guise of Rule 701 lay opinion testimony.  This finding, as detailed
+above, is limited to restricting Menes’s opinion testimony regarding the fair market
+value or reasonable exclusive licensing fee  of SMART.  STI has not sought, nor wi ll
+the Court provide, any broader findings as to Menes’s testimony.
+IV. CONCLUSION
+ For the foregoing reasons, IT IS HEREBY ORDERED that Defendant’s
+Motion in Limine to Preclude Opinion Testimony of Jorge Menes175 is GRANTED in
+part and DENIED in part.  The Motion is GRANTED to the extent that STI seeks
+to exclude the opinion testimony of Jorge Menes regarding his calculation of the fair
+market value or reasonable exclusive licensing fee for SMART as between $7,650,000
+and $89,870,000, as set forth in the Summary Opinion dated January 28, 2021. 176
+The Motion is DENIED to the extent that STI seeks to exclude “the opinion testimony
+of Jorge Menes at trial on any matters relating to damages,” as Menes may offer
+opinion testimony under Fed. R. Civ. P. 26(a)(2)(C) regarding matters related to his
+
+174 R. Doc. 91-1 at p. 11.
+175 R. Doc. 91.
+176 R. Doc. 91-2.
+Case 2:20-cv-02138-WBV-MBN     Document 173     Filed 02/16/22     Page 37 of 38
+
+personal involvement in the events that gave rise to this litigation as long as those
+opinions were not produced specifically in preparation for the trial of this matter.
+ New Orleans, Louisiana, February 16, 2022.
+
+______________________________
+WENDY B. VITTER
+United States District Judge
+Case 2:20-cv-02138-WBV-MBN     Document 173     Filed 02/16/22     Page 38 of 38

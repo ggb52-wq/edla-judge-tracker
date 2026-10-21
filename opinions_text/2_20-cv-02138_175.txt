@@ -1,0 +1,913 @@
+UNITED STATES DISTRICT COURT
+
+EASTERN DISTRICT OF LOUISIANA
+
+MGMTL, LLC      CIVIL ACTION
+
+VERSUS       NO. 20-2138-WBV-MBN
+
+STRATEGIC TECHNOLOGY    SECTION: D (5)
+
+ORDER AND REASONS
+Before the Court is Defendant’s Motion in Limine  to Preclude Expert
+Testimony of James C. Fontana.1  MGMTL, LLC oppose the Motion,2 and Defendant
+has filed a Reply.3
+After careful consideration of the parties’ memoranda and the applicable law,
+the Motion is GRANTED in part and DENIED in part.
+I. FACTUAL AND PROCEDURAL BACKGROUND4
+This is copyright infringement case concerning MGMTL, LLC’s (“MGMTL’s”)
+Security Management and Reporting Tool (“SMART”), a “computer software
+application designed to streamline and efficiently manage the complex tasks and
+
+1 R. Doc. 92.
+2 R. Doc. 103 -6, filed into the record under seal.  MGMTL moved for leave to file under seal its
+Opposition brief and several exhibits thereto “[o]ut of an abundance of caution” and on the basis that,
+“Strategic Technology, Institute, Inc. has taken an expa nsive approach with respect to the parties’
+protective order and has designated all documents it has produced in discovery in this litigation as
+‘confidential’ pursuant to the protective order (Rec. Doc. 39).”  R. Doc. 104.  The Court granted that
+request.  R. Doc. 105.
+3 R. Doc. 120.
+4 In the interest of judicial economy, and because the Court set forth the factual and procedural
+background of this matter in great detail in its February 16, 2022  Order and Reasons regarding
+Defendant’s Motion In Limine to Preclude Opinion Testimony of Jorge Menes (R. Doc. 173), the Court
+will limit its recitation of the factual and procedural background to matters relevant to the instant
+Motion.
+Case 2:20-cv-02138-WBV-MBN     Document 175     Filed 02/17/22     Page 1 of 32
+
+requirements of United States Department of Defense security managers,
+government contracting companies, and other industries for which the management
+of personnel and their security clearance is a priority.” 5  MGMTL alleges that the
+SMART software application is an extremely valuable tool and the first of its kind,
+capable of evaluating thousands of personnel records while applying Department of
+Defense rules, regulations, and applicable security clearance guidelines to each one.6
+MGMTL asserts that it obtained a registered copyright for “the SMART Security
+Management and Reporting Tool” on September 27, 2013.7
+MGMTL alleges that it entered into a distributor agreement with Strategic
+Technology Institute, Inc. (“STI”), through which STI was permitted to advertise,
+promote, and resell SMART to end -users.8  MGMTL alleges that STI violated the
+distributor agreement, as well as MGMTL’s copyright interests in SMART, by
+repackaging the software application as a  security personnel management software
+called Personnel Administrative Security System, or “PASS,” which STI then sold to
+the Marine Forces Reserve  and installed on five machines at the Marine Forces
+Reserve office in New Orleans.9  MGMTL alleges that PASS is listed on STI’s United
+States Government General Services Administration (“GSA”) schedule, which is a
+long-term government-wide contract that provides federal, state, and local
+government buyers certain contractual pre-approvals to move forward with licensing
+
+5 R. Doc. 22 at ¶¶ 2 & 8.
+6 Id. at ¶ 9.
+7 Id. at ¶ 11.
+8 Id. at ¶¶ 19 & 20.
+9 Id. at ¶¶ 35 & 36.
+Case 2:20-cv-02138-WBV-MBN     Document 175     Filed 02/17/22     Page 2 of 32
+
+or purchasing the PASS application. 10  According to MGMTL, the PASS application
+is actively listed and available for purchase on GSA’s Advantage! Website at a
+purchase price of $214,094.00 per license.11  MGMTL filed this lawsuit after learning
+of these actions allegedly taken by STI.
+On May 10, 2021, STI filed the instant Motion in Limine, seeking to preclude
+the expert testimony of James C. Fontana under  Fed. R. Evid. 702. 12  STI seeks to
+exclude the opinions contained in Fontana’s expert report dated January 28, 2021 for
+several reasons.  Specifically, STI asserts that Fontana’s opinions regarding the value
+of, and market for, SMART must be excluded because Fontana is not qualified to
+render expert opinions on that subject  and because the opinions are not based upon
+reliable methodology. 13   STI also seeks to exclude Fontana’s opinion that the
+Government has determined that the price for PASS on STI’s GSA Schedule contract
+($214,094.00) is fair and reasonable on the basis that this is a legal conclusion. 14
+Finally, STI seeks to exclude Fontana’s opinion that STI has a competitive advantage
+in being certified as a small business in connection with its potential sales of PASS
+on the basis that the opinion is irrelevant to the facts in dispute in this case.15
+MGMTL opposes the Motion, asserting  that Fontana is an experience -based
+expert, namely an attorney who has worked  as general counsel for multiple
+government contractors and in private practice in the realm of government
+
+10 Id. at ¶ 38.
+11 Id. at ¶ 39.
+12 R. Doc. 92.
+13 R. Doc. 92-1 at pp. 3 & 5-10.
+14 Id. at p. 4 (citing R. Doc. 92-2 at ¶¶ 7-8 & 11-12).
+15 R. Doc. 92-1 at p. 4.
+Case 2:20-cv-02138-WBV-MBN     Document 175     Filed 02/17/22     Page 3 of 32
+
+contracting for approximately 35 years . 16   MGMTL contends that Fontana’ s
+testimony will help the jury understand the complicated process of government
+contracting and acquisitions, including in the context of security management tools,
+and that he will provide a framework for the jury to determine the amount of damages
+suffered by MGMTL as a result of STI’s actions. 17  While not a model of clarity,
+MGMTL also seems to assert that Fontana is qualified to offer expert opinions in this
+case,18 that his opinions  are based upon sufficient facts and data, 19 and that his
+methodologies are reliable.20
+In response, STI maintains that Fontana’s testimony should be excluded
+because he is not qualified to opine about the value of, and market for, SMART and
+because his op inions are unreliable and based upon insufficient information. 21  STI
+contends that while MGMTL seeks to use Fontana’s testimony to “shore up” the
+damages opinion testimony of Jorge Menes, Fontana failed to identify how many
+people he thinks would license SMART, how likely they are to license SMART, how
+long they would license SMART, the probability that they would license SMART, or
+at what price they may market SMART.22  As such, STI argues that Fontana’s opinion
+“is so general that it is irrelevant.” 23  STI further asserts  that the Court  should
+disregard the new Declaration from Fontana, submitted with the Opposition brief,
+
+16 R. Doc. 103-6 at pp. 1, 5 & 9-17.
+17 Id. at p. 6.
+18 Id. at pp. 5, 6, 12, 14, 15-16, 17, & 23.
+19 Id. at pp. 21-22.
+20 Id. at pp. 8-21.
+21 R. Doc. 120.
+22 Id. at p. 1.
+23 Id.
+Case 2:20-cv-02138-WBV-MBN     Document 175     Filed 02/17/22     Page 4 of 32
+
+which seems designed to make it look like Fontana – contrary to his deposition
+testimony – actually considered some financial factors in reaching his opinions.24  STI
+maintains that Fontana’s experience in the field of government contracts does not
+relate to his opinions about the value of, and market for , SMART, and that his
+reliance on his experience alone is fatal to the reliability of his report.25  Finally, STI
+asserts that MGMTL relies upon inapposite cases in its Opposition brief, ignoring the
+fact that other courts have severely limited testimony from government contracting
+experts.26
+II. LEGAL STANDARD
+When expert testimony is challenged, the party seeking to present the
+testimony has the burden of proving by a preponderance of the evidence that the
+testimony satisfies Federal Rule of Evidence 702.27  Rule 702 provides:
+A witness who is qualified as an expert by knowledge, skill, experience,
+training, or education may testify in the form of an opinion or otherwise
+if:
+(a) the expert’s scientific, technical, or other specialized knowledge will
+help the trier of fact to understand the evidence or to determine a
+fact in issue;
+(b) the testimony is based on sufficient facts or data;
+(c) the testimony is the product of reliable principles and methods; and
+(d) the e xpert has reliably applied the principles and methods to the
+facts of the case.28
+
+Rule 702 codifies the Supreme Court’s opinion in Daubert v. Merrell Dow
+Pharmaceuticals, Inc. , which charges district courts to act as “gatekeepers” when
+
+24 Id. at pp. 2 -3.
+25 Id. at pp. 3-4.
+26 Id. at pp. 4-5 (citing authority).
+27 Moore v. Ashland Chemical Inc., 151 F.3d 269, 276 (5th Cir. 1998).
+28 Fed. R. Evid. 702.
+Case 2:20-cv-02138-WBV-MBN     Document 175     Filed 02/17/22     Page 5 of 32
+
+determining the admissibility of expert testimony. 29  “To be admissible under Rule
+702, the court must find that the evidence is both relevant and reliable.”30  According
+to the Fifth Circuit, reliability is determined by assessing whether the reasoning or
+methodology underlying the testimony is scientifically valid, while relevance depends
+on whether the reasoning or methodology underlying the testimony can be properly
+applied to the facts at issue.31  The purpose of the reliability requirement is to exclude
+expert testimony based merely on subjective belief or unsupported speculation. 32
+District courts have considerable discretion to admit or exclude expert testimony
+under Rule 702.33
+III. ANALYSIS
+A. MGMTL Has Established That Fontana Is Qualified to Offer Expert
+Opinions Regarding Government Contracting, But Not the Value
+of, or Market For, the SMART Software Application.
+
+STI asserts that Fontana’s testimony must be excluded under Rule 702
+because he does not possess expertise in determining the value of , or market for ,
+software, his specialized knowledge does not pertain to the facts at issue in this case,
+and he offers opinions on legal issues that are the province of the Court. 34  As to
+
+29 United States v. Fullwood, 342 F.3d 409, 412 (5th Cir. 2003) (citing Daubert, 509 U.S. 579, 113 S.Ct.
+2786, 125 L.Ed.2d 469 (1993)).
+30 United States v. Ebron, 683 F.3d 105, 139 (5th Cir. 2012) (citing United States v. Valencia, 600 F.3d
+389, 423 (5th Cir. 2010)).
+31 Ebron, 683 F.3d at 139 (citing Pipitone v. Biomatrix, Inc., 288 F.3d 239, 244 (5th Cir. 2002)).
+32 Tajonera v. Black Elk Energy Offshore Operations, LLC , Civ. A. No. 13 -0366, 2016 WL 3180776 at
+*8 (E.D. La. June 7, 2016) (Brown, J.) (citing Daubert, 509 U.S. at 590, 113 S.Ct. at 2795).
+33 See, Gen. Elec. Co. v. Joiner , 522 U.S. 136, 138-39, 118 S.Ct. 512, 139 L.Ed.2d 508 (1997); Seatrax,
+Inc. v. Sonbeck Int’l, Inc. , 200 F.3d 358, 371 (5th Cir. 2000); Tajonera, Civ. A. No. 13 -0366, 2016 WL
+3180776 at *8 (citing authority).
+34 R. Doc. 92-1 at pp. 2-3.
+Case 2:20-cv-02138-WBV-MBN     Document 175     Filed 02/17/22     Page 6 of 32
+
+Fontana’s opinion regarding the value of, and market for, SMART,35 STI asserts that
+Fontana has no profess ional background, experience, training, or education in
+valuation, software licensing, conducting market analyses, marketing software
+products to government agencies or government contractors, or purchasing software
+products for government agencies or gove rnment contractors.36  STI contends that
+Fontana’s background and experience is limited to providing legal advice regarding
+contracts.  STI points out that Fontana testified during his deposition that he has
+never performed a market analysis as part of any expert work, he has never been
+retained as an expert to evaluate software, he has not authored any publications
+regarding software licensing, software valuation, or the market for software, and he
+has never been accepted as an expert by a court.37
+Regarding Fontana’s opinion that the Government has determined the price
+for PASS listed on STI’s GSA Schedule contract is fair and reasonable , STI asserts
+this is a legal conclusion based upon federal regulat ions and that experts may not
+render legal conclusions. 38   Finally, as to Fontana’s opinion that STI has a
+competitive advantage as a small business in its sales of PASS to government
+agencies, STI asserts that the opinion is irrelevant because it is undisputed that STI
+has never sold PASS from its GSA Schedule contract. 39  STI contends that Fontana
+
+35 R. Doc. 92-1 at p. 3 (citing R. Doc. 92-2 at ¶¶ 21-23).
+36 R. Doc. 92-1 at p. 3 (citing R. Doc. 92-2 at ¶¶ 1-2 & 21).
+37 R. Doc. 92-1 at p. 3 (citing R. Doc. 92-3 at pp. 2-5, 6, 7; R. Doc. 92-2 at p. 21).
+38 R. Doc. 92-1 at p. 4 (citing R. Doc. 92-2 at ¶¶ 7-8, 11-12; Snap-Drape, Inc. v. C.I.R., 98 F.3d 194, 198
+(5th Cir. 1996)).
+39 R. Doc. 92-1 at p. 4 (citing R. Doc. 92-2 at ¶¶ 18-19).
+http://www.fpds.gov/ezsearch/search.do?indexName=awardfull&templateName=1.5.1&s=FPDS.GOV
+&a=47ATCA19D009P ).  The Court notes that, as of the date of this Order, a search of the foregoing
+website yields the following result: “ezSearch - Page Not Found.”
+Case 2:20-cv-02138-WBV-MBN     Document 175     Filed 02/17/22     Page 7 of 32
+
+failed to quantify the value of PASS and that his opinions are so general that they
+are irrelevant.40
+MGMTL argues that Fontana’s experience is not limited to government
+contracts and includes “d eep and personal involvement in industrial security and
+security clearance management processes.” 41  MGMTL claims that this experience
+includes managing security officers who are responsible for processing, managing,
+and otherwise handling facility and personnel security clearances and access to
+classified information fac ilities, which required knowledge of security management
+regulations, the cost of security management, security management systems, and the
+challenges presented to security managers. 42  MGMTL asserts that the premise of
+STI’s argument, that Fontana must be labeled as a software valuation expert to offer
+his opinion testimony, is wrong.43
+Although difficult to discern,44 MGMTL seems to assert that Daubert requires
+specialized knowledge only as to the topics about which the expert will testify , and
+that Fontana meets that requirement . 45   MGMTL contends that Fontana
+understands the potential need for and use of security management software with
+the functionality of SMART among government offices and government contractors,
+since he has personally worked in that space for years.  MGMTL argues that
+
+40 R. Doc. 92-1 at p. 4.
+41 R. Doc. 103-6 at p. 6.
+42 Id. (citing R. Doc. 103-3 at ¶ 2).
+43 R. Doc. 103-6 at p. 12.
+44 The Court notes that MGMTL provided a combined analysis of Fontana’s qualifications and the
+reliability and relevance of his opinions, making it difficult for the Court  to construe MGMTL’s
+arguments regarding Fontana’s qualifications to testify as an expert.  Id. at pp. 12-23.
+45 Id. at p. 14.
+Case 2:20-cv-02138-WBV-MBN     Document 175     Filed 02/17/22     Page 8 of 32
+
+Fontana’s testimony that SMART would likely be sold in substantial or marketable
+quantities is supported not only by his government contracti ng experience, but also
+by his detailed personal knowledge of security management. 46  MGMTL claims that
+Fontana’s knowledge of government contracting will also allow him to testify that it
+is well known in the industry that listing a product on a GSA Schedule is a recognition
+by the government that such a listed price is “fair and reasonable.” 47  Although STI
+attempts to downplay Fontana’s experience in the security management context,
+MGMTL argues that his industrial security and security management process
+experience “is significant,” as set forth in Fontana’s Declaration, submitted with the
+Opposition brief.48  As such, MGMTL asserts that Fontana is qualified by knowledge
+and experience to provide testimony as to the value of a security management tool
+such as SMART.49
+MGMTL further asserts that Fontana is not providing legal conclusions
+regarding the price at which PASS is listed on STI’s GSA Schedule, as he will testify
+about the industry meaning and standards regarding representations made on the
+GSA Schedule and in the documentation STI submitted of past commercial sales
+(called “CSP-1”),50 how putting a price on a particular product in the GSA Schedule
+is a representation that the price is fair and reasonable, and that GSA, in evaluating
+and awarding such schedule contracts, places a heavy premium on that
+
+46 Id.
+47 Id.
+48 Id. at p. 16 (citing R. Doc. 103-3 at ¶ 2).
+49 R. Doc. 103-6 at p. 17.
+50 Id. at p. 5.
+Case 2:20-cv-02138-WBV-MBN     Document 175     Filed 02/17/22     Page 9 of 32
+
+representation.51  MGMTL points out that expert testimony on industry standards is
+common in civil litigation, and helpful in explaining contract terms in government
+contracts.52
+In response, STI asserts that despite Fontana’s 35 years of experience in
+security management, he is not qualified to testify regarding the value of, or market
+for, SMART because his testimony shows that he “has no idea about what government
+offices would do because Fontana could not answer even the basic question of whether
+SMART could work on government systems.”53  STI argues that Fontana’s experience
+in the field of government contracts does not relate to his opinions about the value of,
+and market for , SMART and that his opinions must be excluded .54  STI further
+asserts that while Fontana may have the experience to discuss terms in the
+government contracting industry, he lacks a foundation for his opinions that SMART
+is “valuable” or that someone might purchase it.55
+According to the Opposition brief, MGMTL intends to offer Fontana  as an
+expert in government contr acting and security systems management. 56  Fontana’s
+expert report provides that he has assisted clients on a variety of government contract
+matters during his career, including: (1) contract formation issues and related
+regulatory compliance pursuant to f ederal procurement laws and regulations,
+including the Federal Acquisition Regulation (“FAR”) and its agency acquisition
+
+51 Id. at p. 18.
+52 Id. (citing authority).
+53 R. Doc. 120 at p. 3 (citing R. Doc. 92-3 at p. 8; R. Doc. 120-1 at p. 3).
+54 R. Doc. 120 at p. 3.
+55 Id. at p. 5.
+56 R. Doc. 103-6 at p. 21.
+Case 2:20-cv-02138-WBV-MBN     Document 175     Filed 02/17/22     Page 10 of 32
+
+supplements; ( 2) government contracts litigation, including bid protests before
+federal agencies, the Government Accountability Office (“GAO”), and the United
+States Court of Federal Claims (“COFC”), and claims and appeals before the Boards
+of Contract Appeals and COFC; (3) issues related to contracts with the United States
+General Services Administration (“GSA”) and  the GSA Federal Supply Schedule,
+including Schedule contracting matters, interpretation of and compliance with FAR,
+GSA Acquisition Manual (“GSAM”), and GSA Acquisition Regulation (GSAR”),
+formation of and amendments to GSA Schedule contracts, GSA audits of Schedule
+contract holders, litigation involving GSA Schedule contract holders, and related
+legal matters; (4) small business contracting issues; and (5) transactions related to
+government contractors, including GSA Schedule holders. 57   According to his
+curriculum vitae, Fontana “has over 35 years of experience as an attorney
+specializing in government and commercial contracts and related litigation, as well
+as ethics compliance and corporate governance issues,” and “specializes in mergers
+and acquisition s in both the government technology and commercial sectors.” 58
+Fontana has also given seminars on several topics, including “issues relating to
+government contracts . . . and technology -related issues,” was previously a regular
+contributor to Washington T echnology’s Infotech and the Law column, and has
+published articles in several publications, including the American Bar Association’s
+Public Contract Law Journal.59
+
+57 R. Doc. 92-2 at p. 2.
+58 Id. at p. 15.
+59 Id.
+Case 2:20-cv-02138-WBV-MBN     Document 175     Filed 02/17/22     Page 11 of 32
+
+With this in mind, the Court finds that Fontana is qualified to testify regarding
+government contracting based upon his extensive experience and knowledge in that
+field.  Specifically, Fontana is qualified to testify regarding the effect of an award of
+a GSA Schedule contract to STI for its PASS product, 60 any competitive advantage
+STI may receive as a result of  being certified as a small disadvantaged business, 61
+and whether the SMART product would likely be a valuable tool available to
+Government Security Management Officers (“ SMOs”), Government  contractor
+Facility Security Officers (“FSOs”), or other Government personnel in managing and
+implementing Government personnel security clearances. 62  It is clear to the Court,
+from Fontana’s expert report and his curriculum vitae,  that Fontana possesses the
+knowledge and experience required to  offer expert opinions on  these top ics.  The
+Court rejects STI’s request to exclude, as a legal conclusion , Fontana’s opinion that
+the Government has determine d $214,094 to be a fair and reasonable price of the
+PASS product by virtue of the awarded GSA Schedule contract to STI.  As MGMTL
+points out, 63  the Fifth Circuit has recognized that, “a trial court’s reliance on
+individuals experienced in a particular field for the purposes of obtaining explanation
+of the technical meaning of terms used in the industry is ‘prudent.’” 64  Moreover,
+MGMTL and Fontana have represented to the Court that Fontana has explicitly
+recognized and accepted the duty to avoid rendering legal conclusions, which he
+
+60 Id. at ¶¶ 6-17.
+61 Id. at ¶¶ 18-19.  See, Id. at ¶ 20 for the definitions of SMOs and FSOs.
+62 Id. at ¶ 21.
+63 R. Doc. 103-6 at p. 20.
+64 Kona Technology Corp. v. Southern Pacific Transp. Co. , 225 F.3d 595, 611 (5th Cir. 2000) (quoting
+Phillips Oil Co. v. OKC, Corp., 812 F.2d 265, 281 (5th Cir. 1987)).
+Case 2:20-cv-02138-WBV-MBN     Document 175     Filed 02/17/22     Page 12 of 32
+
+acknowledged is the sole province of this Court.65  Should Fontana’s testimony stray
+into offering strictly legal conclusions, the Court will entertain and rule on objections
+from STI at that time.
+The Court further finds  that Fontana’s experience in the area of government
+contracts, while extensive, does not make him qualified to render opinions regarding
+the value of, or the market for, the SMART software application.   The Fifth Circuit
+“require[s] that a witness’s qualifying training or experience, and resultant
+specialized knowledge, are sufficiently related to the issues and evidence befo re the
+trier of fact [such] that the witness’s proposed testimony will help the trier of fact.”66
+Stated another way, an expert may not go beyond the scope of his expertise in giving
+his opinion.67  The Court agrees with STI that MGMTL has not demonstrate d that
+Fontana has any experience, training, background, or knowledge regarding software
+valuation or licensing, conducting market analyses, marketing software products to
+government agencies or government contractors, or purchasing software products for
+government agencies or government contractors to support an opinion as to the value
+of, or market for , the SMART software.68  In fact, Fontana testified that he has not
+conducted any market studies in this case, nor did he conduct a market analysis when
+he was retained as an expert in a prior, unrelated case.69
+
+65 R. Doc. 103-6 at p. 21 (citing R. Doc. 103-2 at ¶ 6).
+66 Macy v. Whirlpool Corp., 613 Fed.Appx. 340, 345 (5th Cir. 2015) (quoting United States v. Wen Chyu
+Liu, 716 F.3d 159, 167 (5th Cir. 2013)) (internal quotation marks omitted) (emphasis added by Macy).
+67 Tingle v. Hebert , Civ. A. No. 15 -626, 2018 WL 2 287028, at *4 (M.D. La. April 23, 2018) (quoting
+Goodman v. Harris County, 571 F.3d 388, 399 (5th Cir. 2009)) (quotation marks omitted).
+68 R. Doc. 92-1 at p. 3 (citing R. Doc. 92-2 at ¶¶ 1-2 & 21; R. Doc. 92-3 at pp. 2, 3-4, 5, 6, & 7).
+69 R. Doc. 92-3 at pp. 2-5 & 9.
+Case 2:20-cv-02138-WBV-MBN     Document 175     Filed 02/17/22     Page 13 of 32
+
+While MGMTL argues that the inquiry into Fontana’s expertise and
+qualifications should be  guided by the specific opinions to which he will testify, 70
+MGMTL fails to address how Fontana’s experience in the area of “government
+contracts and related litigation”71 makes him qualified to testify regarding the value
+of SMART or its marketability to government agencies.  Fontana’s expert report
+merely states that his opinions are based upon his knowledge of the government
+contracting industry, his representation of contractors in matters related to GSA
+Schedules, his experience representing contractor s with security clearances at the
+facility and personnel levels, his familiarity with the use and management of security
+clearances by Government SMOs , his experience with defense agency purchasing
+practices, and his general familiarity with the Joint Personnel Adjudications Systems
+(“JPAS”). 72   The Court finds that these conclusory statements and this prior
+experience does not make Fontana qualified to testify that the SMART software
+application “would likely be marketable for purchase by [Government] organizations
+in substantial quantities .”73  As such, STI’s Motion is granted to the extent that it
+seeks to exclude Fontana’s testimony regarding the market for, or value of, the
+SMART software application,74 on the basis that Fontana is not qualified to testify as
+an expert on those topics.
+
+70 R. Doc. 103-6 at pp. 12-15.
+71 R. Doc. 92-2 at p. 2.
+72 Id. at ¶¶ 21 & 22.
+73 Id. at p. 4.
+74 Id. at p. 4 & ¶¶ 21-23.
+Case 2:20-cv-02138-WBV-MBN     Document 175     Filed 02/17/22     Page 14 of 32
+
+B. MGMTL Has Failed to Establish that Fontana’s Opinions
+Regarding The Value Of, and the Market For, the SMART Software
+Application Are Reliable.
+
+The Court further finds that, even if Fontana is qualified to offer opinion
+testimony regarding the value of, and the market for, SMART, such opinions must be
+excluded as unreliable under Fed. R. Evid. 702.  To satisfy the reliability prong of the
+Daubert/Rule 702 analysis, a “party seeking to introduce expert testimony must show:
+(1) the testimony is based upon sufficient facts or data, (2) the testimony is the
+product of reliable principles and methods, and (3) the witness has applied the
+principles and m ethods reliably to the facts of the case.” 75  To prove reliability, the
+proponent of the ex pert testimony must present some objective, independent
+validation of the expert’s methodology. 76  As explained by the Supreme Court, the
+objective of this Court’s g atekeeper role is to ensure that an expert “employs in the
+courtroom the same level of intellectual rigor that characterizes the practice of an
+expert in the relevant field.”77
+1. Fontana’s Opinions Are Based Upon Sufficient Facts or Data.
+As STI points out ,78  the Fifth Circuit has recognized that , “T he Daubert
+reliability analysis applies to, among other things, ‘the facts underlying the expert’s
+
+75 Recif Resources, LLC v. Juniper Capital Advisors, L.P., Civ. A. No. H-19-2953, 2020 WL 5623982, at
+*2 (S.D. Tex. Sept. 18, 2020) (Atlas, J.) (quoting Huss v. Gayden , 571 F.3d 442, 452 (5th Cir. 2009))
+(internal quotation marks omitted).
+76 Recif Resources, LLC, Civ. A. No. H-19-2953, 2020 WL 5623982, at *2 (citing Brown v. Illinois Cent.
+R. Co., 705 F.3d 531, 536 (5th Cir. 2013)).
+77 Kumho Tire Co., Ltd. v. Carmichael, 526 U.S. 137, 152, 119 S.Ct. 1167, 1176, 143 L.Ed.2d 238 (1999);
+Hodges v. Mack Trucks Inc., 474 F.3d 188, 194 (5th Cir. 2006).
+78 R. Doc. 92-1 at p. 5.
+Case 2:20-cv-02138-WBV-MBN     Document 175     Filed 02/17/22     Page 15 of 32
+
+opinion.’”79  “In particular, an opinion based on ‘insufficient, erroneous information,’
+fails the reliability standard. ” 80   The Fifth Circuit has further cautioned that,
+“Although the Daubert reliability analysis is flexible and the proponent of the expert
+evidence need not satisfy every one of its factors, ‘the existence of sufficient facts . . .
+is in all instances mandatory.’” 81  Thus, “expert testimony that relies on ‘completely
+unsubstantiated factual assertions’ is inadmissible.” 82   Nevertheless, the F ifth
+Circuit has made clear that, “[a]s a general rule, questions relating to the bases and
+sources of an expert’s opinion affect the weight to be assigned that opinion rather
+than its admissibility and should be left for the jury’s consideration.”83  “It is the role
+of the adversarial system, not the court, to highlight weak evidence.”84
+STI asserts that Fontana’s opinions are not based on  sufficient facts or data
+because the only “facts and data” he relied upon was a simple demonstration of the
+SMART software application by its co-creator, Jorge Menes, a statement from Steve
+McMurtry of the Marine Forces Reserve, the number of Department of Defense
+personnel and g overnment contractors with security clearances, and his own
+experience providing legal advice to companies regarding federal procurement and
+
+79 Moore v. Int’l Paint, LLC , 547 Fed.Appx. 513, 515 (5th Cir. 2013) (quoting Knight v. Kirby Inland
+Marine Inc., 482 F.3d 347, 355 (5th Cir. 2007)); Jacked Up, LLC v. Sara Lee Corporation, 291 F. Supp.
+3d 795, 802 (N.D. Tex. 2018) (Horan, M.J.) (quoting Moore, 547 Fed.Appx. at 515).
+80 Moore, 547 Fed.Appx. at 515 (quoting Paz v. Brush Engineered Materials, Inc. , 555 F.3d 383, 389
+(5th Cir. 2009)).
+81 Moore, 547 Fed.Appx. at 515 (quoting Hathaway v. Bazany , 507 F.3d 312, 318 (5th Cir. 2007))
+(internal citation omitted).
+82 Moore, 547 Fed.Appx. at 515 (quoting Hathaway, 507 F.3d at 319 n.4).
+83 Primrose Operating Co. v. National American Ins. Co. , 382 F.3d 546, 562 (5th Cir. 2004) (quoting
+United States v. 14.38 Acres of Land, More of Less Sit. In Leflore County, Miss, 80 F.3d 1074, 1077 (5th
+Cir. 1996)) (internal quotation marks omitted) (emphasis added by Primrose).
+84 Primrose, 382 F.3d at 562.
+Case 2:20-cv-02138-WBV-MBN     Document 175     Filed 02/17/22     Page 16 of 32
+
+GSA Schedules.85  STI also claims that Fontana failed to speak with any agency or
+contractor in the market to develop his opinion regarding the value of SMART or any
+potential interest in licensing it, he failed to complete any market surveys to evaluate
+what, if any, other comparable software was on the market, and he failed to conduct
+any independent investigation to determine if any other government office or official
+would be interested in SMART.86  The Court finds that these factors are relevant to
+whether Fontana’s methodology is reliable, not the sufficiency of the facts or data
+supporting his opinions.
+While not a model of clarity, MGMTL seems to argue that STI’s criticisms of
+the bases and sources of Fontana’s opinions affect the weight to be assigned to his
+opinions, rather than their admissibility, and should be left for the jury’s
+consideration.87  The Court agrees.  During his deposition, Fontana confirmed that
+his analysis in this case was based upon his experience, as well as a demonstration
+of the SMART software application by one of its creators, Jorge Menes, and a
+discussion with Menes.88  MGMTL asserts that Fontana’s analysis is also based upon
+“a review of materials related to SMART and the copycat PASS product” and STI’s
+submissions to the federal government, and that Fontana considered the parameters
+and requirements for getting a product lis ted on a government -wide GSA contract,
+STI’s submissions to the GSA office, and its listing of PASS on its GSA schedule.89
+
+85 R. Doc. 92-1 at pp. 5-6 (citing R. Doc. 92-2 at ¶¶ 20-23 & pp. 17-18; R. Doc. 92-3 at pp. 23-24, 25-26).
+86 R. Doc. 92-1 at pp. 6-7 (citing R. Doc. 92-3 at pp. 9, 20, 21-22, 26, & 27).
+87 R. Doc. 103 -6 at pp. 21 -22 (quoting Viterbo v. Dow Chem. Co. , 826 F.2d 420, 422 (5th Cir. 1987))
+(internal quotation marks omitted).
+88 R. Doc. 92-3 at p. 10; See, Id. at pp. 6 & 8-9.
+89 R. Doc. 103-6 at p. 7.  See also, Id. at pp. 17-18.
+Case 2:20-cv-02138-WBV-MBN     Document 175     Filed 02/17/22     Page 17 of 32
+
+Although perhaps not as concrete as STI would like them to be, the Court finds
+that the facts and data relied upon by Fontana in reaching his opinions are sufficient
+for purposes of Daubert.  The Court remains cognizant that, notwithstanding
+Daubert, “the rejection of expert testimony is the exception and not the rule.” 90  To
+the extent that  STI i s attacking the factual basis of Fontana’s opinions, s uch
+arguments address the weight to be assigned to those opinions, rather than their
+admissibility at trial.91  As suggested by MGMTL ,92 the Court is fully satisfied that
+during the trial, counsel for STI is perfectly able to, and will, take the opportunity to
+cross-examine Fontana regarding the bases for his opinions , thus allowing the jury
+to determine the weight to give the testimony .  The Court therefore rejects STI’s
+contention that Fontana’s opinions must be excluded because they are not based upon
+sufficient facts or data.
+2. Fontana’s Opinions Regarding the Value of, and the Market For,
+SMART Are Not The Product of Reliable Methodologies.
+
+The Supreme Court in Daubert set forth the following non -exclusive list of
+factors to consider in determining the reliability of expert testimony: (1) whether the
+theory has been tested; (2) whether the theory has been subject to peer review and
+publication; (3) the known or potential  rate of error; (4) whether standards and
+controls exist and have been maintained with respect to the technique; and (5) the
+
+90 Johnson v. Samsung Electronics America, Inc. , 277 F.R.D. 161, 165 (E.D. La. 2011) (Duval, J.)
+(quoting Fed. R. Evid. 702 Advisory Committee Notes to 2000 Amendments) (internal quotation marks
+omitted).
+91 See, Tyler v. Union Oil Co. of Cal. , 304 F.3d 379, 393 (5th Cir. 2002) (“Unocal instead attempts to
+show that the underlying dat a – provided by Unocal – was itself unreliable.  This is an issue that
+Unocal could – and did – raise in cross-examination.”).
+92 R. Doc. 103-6 at p. 22.
+Case 2:20-cv-02138-WBV-MBN     Document 175     Filed 02/17/22     Page 18 of 32
+
+general acceptance of the methodology in the scientific community.93  “Whether some
+or all of these factors apply in a particular c ase depends on the facts, the expert’s
+particular expertise, and the subject of his testimony. ”94  The Fifth Circuit has held
+that a trial court may consider additional factors in assessing the scientific reliability
+of expert testimony, including: (1) whether the expert’s opinion is based on incomplete
+or inaccurate data; (2) whether the expert has unjustifiably extrapolated from an
+accepted premise to an unfounded conclusion; and (3) whether the expert has
+adequately accounted for alternative explanations .95  “The overarching goal ‘is to
+make certain that an expert, whether basing testimony on professional studies or
+personal experience, employs in the courtroom the same level of intellectual rigor that
+characterizes the practice of an expert in the relevant field.’”96
+STI asserts, generally,  that Fontana’s opinions are “unmoored from any
+principles or methodology that can be objectively evaluated for reliability” because
+Fontana repeatedly testified that his opinions are not based on any objective
+principles or methodology. 97  The remainder of the Motion, however, addresses the
+reliability of Fontana’s opinions regarding the value of, and the market for, SMART98
+
+93 In re: Vioxx Products Liability Litigation, 401 F. Supp. 2d 565, 573 (E.D. La. 2005) (Fallon, J.) (citing
+Daubert v. Merrell Dow Pharmaceuticals, Inc., 509 U.S. 579, 593-95, 113 S.Ct. 2768, 125 L.Ed.2d 469
+(1993)).
+94 In re: Vioxx, 401 F. Supp. 2d at 573 (citing Kumho Tire Co., Ltd. v. Carmichael, 526 U.S. 137, 13 8,
+119 S.Ct. 1167, 143 L.Ed.2d 238 (1999)).
+95 Nola Ventures, LLC v. Upshaw Insurance Agency, Inc. , Civ. A. No. 12-1026, 2014 WL 12721798, at
+*6 (E.D. La. Oct. 31, 2014) (Brown, J.) (citing Black v. Food Lion Inc., 171 F.3d 308, 313 (5th Cir. 1999);
+Moore v. Ashland Chemical Inc. , 151 F.3d 269, 278-79 (5th Cir. 1998); In re Vioxx, 401 F. Supp 2d at
+573).
+96 Nola Ventures, LLC, Civ. A. No. 12 -1026, 2014 WL 12721798 at *6 (quoting Kumho Tire, 526 U.S.
+at 152, 119 S.Ct. at 1176).
+97 R. Doc. 92-1 at pp. 7-8 (citing R. Doc. 92-3 at pp. 8-9, 10, 19, & 27).
+98 R. Doc. 92-1 at pp. 7-10.
+Case 2:20-cv-02138-WBV-MBN     Document 175     Filed 02/17/22     Page 19 of 32
+
+and, as such, the Court will limit its reliability review to those opinions.  STI  claims
+that F ontana did not conduct any independent market analysis, surveys, or
+comparative analysis, nor did he use any scientific or mathematical methodologies in
+determining that SMART is a “valuable tool.”99  STI also complains that Fontana did
+not interview anyone other than Menes. 100  STI contends that courts often exclude
+expert opinions where the expert, like Fontana, failed to conduct any independent
+research to determine the reliability of his assumptions.101
+While Fontana states that his opinions are based upon his prior years of
+experience assisting and representing clients in the government contracting field, STI
+asserts that Fontana has no experience purchasing products like SMART or PASS
+for government agencies.102  STI contends that while Fontana may have “familiarity
+with the use and management of security clearances by Government SMOs,” he cites
+no experience or actual involvement therein and his belief that government agencies
+would find SMART a va luable tool is speculative. 103  STI asserts that Fontana’s
+opinions, particularly his opinion regarding the value of and market for SMART, are
+not reliable because he performed no independent research and did not employ any
+methods that are subject to empir ical testing, peer review or publication, known or
+potential error rates, or general acceptance. 104  STI contends that because Fontana
+did not run any surveys, perform any market studies, complete any comparative
+
+99 Id. at p. 8 (citing R. Doc. 92-3 at pp. 8-9, 10 & 19).
+100 R. Doc. 92-1 at p. 8 (citing R. Doc. 92-3 at pp. 6, 9, & 20).
+101 R. Doc. 92-1 at p. 8 (quoting JRL Enterp., Inc. v. Procorp Associates, Inc., Civ. A. No. 01-2893, 2003
+WL 21284020, at *8 (E.D. La. June 3, 2003) (Fallon, J.)) (internal quotation marks omitted).
+102 R. Doc. 92-1 at p. 9 (citing R. Doc. 92-2 at ¶¶ 2-3 & pp. 15-16).
+103 R. Doc. 92-1 at p. 9 (citing R. Doc. 92-2 at ¶¶ 21-22).
+104 R. Doc. 92-1 at p. 10.
+Case 2:20-cv-02138-WBV-MBN     Document 175     Filed 02/17/22     Page 20 of 32
+
+analyses, conduct any interviews, or determi ne any appropriate price point for
+SMART, his report does not satisfy Daubert and his opinions must be excluded.105
+In it Opposition brief, MGMTL seems to rely on the Supreme Court’s decision
+in Kumho Tire Co., Ltd. v. Carmichael to assert that Fontana’s opinions are reliable
+based upon his experience and qualifications , and urges the Court to focus on
+Fontana’s experience, rather than his methodology . 106   MGMTL asserts that
+Fontana’s testimony that SMART would likely be sold in substantial or marketable
+quantities “is supported not only by his government contracting experience but also
+by his detailed personal knowledge of security management.” 107  MGMTL disputes
+STI’s attempt to downplay Fontana’s experience by referring to his “familiarity” with
+security management, and asserts that Fontana’s industrial security and security
+management process experience “is significant,” as  set forth in Fontana’s Declaration
+submitted with the Opposition brief.108  MGMTL argues that Fontana’s opinions are
+rational deductions based on directly applicable and specific experience, as Fontana
+has personally been in the position of a potential customer for a security management
+tool like SMART.109  As such, MGMTL claims that Fontana is qualified by knowledge
+and experience to provide testimony  regarding the value of a security management
+tool like SMART.110
+
+105 Id.
+106 R. Doc. 103-6 at pp. 8-10 (citing Kumho Tire Co., Ltd. v. Carmichael , 526 U.S. 137, 142, 119 S.Ct.
+1167, 143 L.Ed.2d 238 (1999)).
+107 R. Doc. 103-6 at p. 14.
+108 Id. at p. 16 (citing R. Doc. 103-2 at ¶ 2); R. Doc. 103-6 at p. 10 (citations omitted).
+109 R. Doc. 103-6 at pp. 16-17 (quoting R. Doc. 103-3 at ¶ 4) (internal quotation marks omitted).
+110 R. Doc. 103-6 at p. 17.
+Case 2:20-cv-02138-WBV-MBN     Document 175     Filed 02/17/22     Page 21 of 32
+
+In response, STI urges the Court to ignore Fontana’s new Declaration, which
+it contends was submitted to make it appear, contrary to his deposition testimony,
+that Fontana actually considered some financial factors to reach the opinions
+contained in his expert report. 111   STI specifically takes issue with Fontana’s
+assertion in his Declaration that he considered “savings in terms of financial outlay
+and personnel that would be made through [security management software].”112  STI
+claims that Fontana explicitly testified duri ng his deposition that his opinion of
+SMART’s value was “independent of price” and that costs were a factor that he did
+not consider when he opined that SMART was “valuable.”113  Further, STI points out
+that Fontana’s expert report does not discuss analyzing savings in terms of financial
+outlay and personnel in reaching his opinions.114  STI argues that these assertions in
+the Declaration contradict Fontana’s prior testimony and seek to add new material
+that he did not consider and did not previously disclose.  STI contends that the Court
+should disregard Fontana’s Declaration because “supplemental expert reports cannot
+be used to fix problems in initial reports.”115  STI also argues that the Court should
+disregard Fontana’s Declaration under the “sham -affidavit rule.”116  STI maintains
+that Fontana has provided no methodology for his opinions, relying only on his
+
+111 R. Doc. 120 at p. 2.
+112 Id. (quoting R. Doc. 103-2 at ¶ 4) (internal quotation marks omitted).
+113 R. Doc. 120 at p. 2 (quoting R. Doc. 92-3 at pp. 8-13) (internal quotation marks omitted).
+114 R. Doc. 120 at p. 2 (citing R. Doc. 92-2).
+115 R. Doc. 120 at p. 2 (quoting Simmons v. Johnson, Civ. A. No. 06-325-A-M2, 2008 WL 474203, at *2
+(M.D. La. Feb. 14, 2008) (Noland, M.J.)) (internal quotation marks omitted).
+116 R. Doc. 120 at p. 3 (citing Hacienda Records, L.P. v. Ramos, 718 Fed.Appx. 223, 235 (5th Cir. 2018)).
+Case 2:20-cv-02138-WBV-MBN     Document 175     Filed 02/17/22     Page 22 of 32
+
+experience and materials  provided to him by MGMTL , and that his lack of
+methodology is fatal to the reliability of his report.117
+The Court finds that MGMTL has failed to carry its burden of establishing that
+Fontana’s opinions regarding the value of, and the market for, the SMART  software
+application are based upon reliable methods or principles, as required by Daubert and
+Fed. R. Evid. 702.  Regarding his opinion on the value of SMART to government
+agencies, Fontana testified during his deposition that he has never been retained as
+a software expert, that he is not a software expert, and that he did not apply any sort
+of scientific methodology or conduct any market study to arrive at his conclusion that
+a product like SMART “would likely be a valuable tool available to SM Os or other
+government personnel in managing security clearances, and that such agencies
+employing an SMO would likely purchase this tool.”118  Fontana further testified that
+he did not contact any of his clients to inquire if they would be interested in licensing
+SMART or a product like SMART , and that he did not perform an analysis of the
+price point that he thought SMOs would likely pay to purchase SMART .119  Instead,
+Fontana stated that, “The analysis was really based on my experience.”120  Fontana
+then gave conflicting testimony regarding whether he considered the price point of
+SMART in reaching his c onclusion regarding the value of SMART , at first stating
+that he did not consider price, but later testifying that he compared the price at which
+MGMTL had attempted to sell a one-year license of SMART to the military ($30,000)
+
+117 R. Doc. 120 at pp. 3-4.
+118 R. Doc. 92-3 at pp. 6-7 & 8-9.  See, R. Doc. 92-2 at ¶ 21.
+119 R. Doc. 92-3 at pp. 9-13.
+120 Id. at p. 10.
+Case 2:20-cv-02138-WBV-MBN     Document 175     Filed 02/17/22     Page 23 of 32
+
+to the $214,094 price of PASS “that is on STI’s federal supply schedule - - GSA
+schedule.”121  Fontana likewise gave conflicting testimony regarding the importance
+of considering the price point in reaching his conclusion regarding the value of
+SMART, stating that , “price will always be a factor,” and that the price “would
+certainly be a factor in the government’s decision to buy a product or not buy a
+product,” but also stating that he “was looking at the value of SMART to government
+agencies independent of price, although, as I said, price is always going to be a
+factor.” 122   Fontana subsequently testified that he reviewed Steve McMurtry’s
+deposition transcript, and that McMurtry’s  testimony reinforced Fontana’s opinion
+about “how agencies would look upon such a tool” like SMART.123
+Fontana further testified that the basis for his opinion regarding the value of
+SMART to government agencies is contained in his expert report.124  According to the
+report, Fontana’s opinion is based upon his “knowledge of the Government
+contracting industry and representation of such contractors both as an in -house
+general counsel and private law firm attorney in matters related to GSA Schedules,”
+as well has his  “experience representing contractors having se curity clearances at
+both the facility and personnel levels, my familiarity with the use and management
+of security clearances by Government SMOs and my general familiarity with
+JPAS.”125  Although Fontana has repeatedly stated that his opinion is based upon his
+
+121 Id. at pp. 13-14.
+122 Id. at pp. 11-12.
+123 Id. at pp. 25-26.
+124 Id. at p. 9.
+125 Id.; See, R. Doc. 92-2 at ¶ 21.
+Case 2:20-cv-02138-WBV-MBN     Document 175     Filed 02/17/22     Page 24 of 32
+
+experience, t hese conclusory statements  were not supported by an explanation of
+how, specifically, his experience led him to the conclusion reached, or how that
+experience was applied to the facts of this case.  For example, Fontana testified that
+his opinion regarding the value of SMART “was really based on my experience,” but
+he did not expound upon that statement or explain what specific past experience he
+had in evaluating the value of computer software to government agencies and how
+his opinion in this case compared with his past experience.126
+Moreover, while the evidence before the Court demonstrates that Fontana has
+extensive experience in the field of government contracting and related litigation, 127
+neither his curriculum vitae nor his expert report mention any experience or
+knowledge regarding software valuation or purchasing software on behalf of
+government agencies.  To the extent MGMTL asserts that Fontana has sufficient
+experience to render an opinion on the value of SMART because he has “ been in the
+position of a potential customer for a security management tool like SMART ,”128 the
+Court is not persuaded that this conclusory statement , without more,  shows that
+Fontana has any experience in softwa re valuation or purchasing software on behalf
+of government agencies.  The Court therefore finds that Fontana’s opinion regarding
+the value of SMART to government agencies lacks a sufficiently reliable basis in the
+
+126 See, GWTP Investment, L.P. v. SES Americom, Inc., Civ. A. No. 3:04-CV-1383-L, 2007 WL7630459,
+at *14 (N.D. Tex. Aug. 3, 20 07) (Ramirez, M.J.)  (excluding expert testimony where the expert ’s
+“conclusory statements were not supported by an explanation of how, specifically, his experience led
+him to the conclusion reached or how that experience was applied to the facts.”).
+127 R. Doc. 92-2 at pp. 2 & 15.
+128 R. Doc. 103-6 at pp. 16-17 (quoting R. Doc. 103-3 at ¶ 4) (internal quotation marks omitted).
+Case 2:20-cv-02138-WBV-MBN     Document 175     Filed 02/17/22     Page 25 of 32
+
+knowledge and experience of the  relevant discipline and must be excluded .129  As
+explained by the Supreme Court, “Experts of all kinds tie observations to conclusions
+through the use of what Judge Learned Hand called ‘general truths derived from . . .
+specialized experience.’” 130  MGMTL has failed to show that Fontana derived his
+opinion regarding the value of SMART from such specialized experience.
+The Court recognizes that Fontana’s experience-based testimony regarding the
+value of a software application to government agencies may not be subject to
+traditional scientific, peer-tested theories or techniques .  MGMTL, which bears the
+burden of proving that the opinions are base d on reliable methods, however, has
+failed to address whether  Fontana’s methodology  “is generally accepted in the
+relevant” government contracting community, or that “his preparation  is of a kind
+that others in the field would recognize as acceptable.”131  As STI points out, Fontana
+could have conducted a market analysis or contacted government agencies to
+determine their level of  interest in the SMART software application.  Other courts,
+including this one, have excluded expert opinions where the expert fai led to conduct
+any independent research to determine the reliability of his assumptions.132  Fontana
+also gave conflicting testimony regarding whether his opinion concerning the value
+of SMART is based upon a specific price point or some nebulous comparison between
+
+129 Kumho Tire Co., Ltd. v. Carmichael, 526 U.S. 137, 149, 119 S.Ct. 1167, 1175, 143 L.Ed.2d 238 (1999)
+(quoting Daubert v. Merrell Dow Pharmaceuticals, Inc., 509 U.S. 579, 592, 113 S.Ct. 2786, 125 L.Ed.2d
+469 (1993)); Looney Ricks Kiss Architects, Inc. v. Bryan , Civ. A. No. 07 -572, 2010 WL 5157874, at *3
+(W.D. La. Dec. 7, 2010) (citing Kumho Tire, 526 U.S. at 149, 119 S.Ct. at 1175)).
+130  Kumho Tire , 526 U.S. at 148 -49, 119 S.Ct. at 1174 ( quoting Hand, Historical and Practical
+Considerations Regarding Expert Testimony, 15 Harv. L. Rev. 40, 54 (1901)).
+131 Kumho Tire, 526 U.S. at 151, 119 S.Ct. at 1176.
+132 JRL Enterp., Inc. v. Procorp Associa tes, Inc., Civ. A. No. 01 -2893, 2003 WL 21284020, at *8 (E.D.
+La. June 3, 2003) (citing authority).
+Case 2:20-cv-02138-WBV-MBN     Document 175     Filed 02/17/22     Page 26 of 32
+
+the respective price to license SMART and PASS, 133 leaving the Court  wondering
+whether, and to what extent, that comparison contributed to Fontana’s opinion.  To
+the extent MGMTL relies upon the new Declaration from Font ana to bolster the
+reliability of the methodology relied upon by Fontana in reaching his conclusion, the
+Court agrees with STI that the Declaration is merely an attempt by MGMTL to
+circumvent Fontana’s deposition testimony that the opinions contained in his expert
+report are based solely upon his own personal experience .134   The Court is not
+persuaded by the new Declaration that Fontana’s opinion regarding the value of
+SMART is based upon sufficiently reliable methodology.  Accordingly, the Court finds
+Fontana’s opinion regarding the value of SMART to government agencies is not
+reliable and must be excluded under Daubert and Fed. R. Evid. 702.
+The Court reaches the same conclusion regarding Fontana’s opinion that
+SMART “would likely be marketable for purchase in substantial quantities by
+multiple Government agencies employing SMOs or similar type positions to manage
+and implement security clearances” 135  and that, “a Government contracting
+organization managing and implementing such security clearances would also benefit
+by using the SMART tool, and such a tool would likely be marketable for purchase in
+substantial quantities by such organizations.” 136  During his deposition, Fontana
+testified that these opinions were not the product of any scientific meth odology, but
+that he believed, based on his experience being in charge of industrial security
+
+133 R. Doc. 92-3 at pp. 9-14.
+134 R. Doc. 120 at p. 2.
+135 R. Doc. 92-2 at p. 4 & ¶ 22.
+136 Id. at p. 4 & ¶ 23.
+Case 2:20-cv-02138-WBV-MBN     Document 175     Filed 02/17/22     Page 27 of 32
+
+matters for different companies and advising clients regarding security, that SMART
+would be a valuable tool for SMOs and that agencies “would be interested in th at
+tool.”137  As with his opinion regarding the value of SMART, Fontana testified that
+his opinion regarding its marketability was not based on “any market studies in
+terms of surveying agencies with regard to that issue,” and that he did not undertake
+any analysis as to what a fair price might be for SMART that such an agency would
+actually pay.138  Fontana further testified that he did not assess whether there were
+any products that were the same or similar to SMART or PASS available on the GSA
+Schedule, bu t confirmed that he has knowledge about how a government agency
+would acquire a service or product.139
+ According to Fontana’s expert report, his opinions that SMART “would likely
+be marketable for purchase in substantial quantities by multiple Government
+agencies employing SMOs or similar type positions to manage and implement
+security clearances” and that, “a Government contracting organization managing and
+implementing such security clearances would also benefit by using the SMART tool,
+and such a tool would likely be marketable for purchase in substantial quantities by
+such organizations” are based upon his knowledge of GSA Schedule contracts over 35
+years of legal practice, his general familiarity of JPAS, his experience with defense
+agency purchasing practices, his familiarity with the use and management of security
+clearances by Government GMOs, and his knowledge of the Government contracting
+
+137 R. Doc. 92-3 at pp. 19-20.
+138 Id. at p. 20.
+139 Id. at pp. 21-22 & 27.
+Case 2:20-cv-02138-WBV-MBN     Document 175     Filed 02/17/22     Page 28 of 32
+
+industry and representation of such contractors as an in-house general counsel and a
+private practice attorney in matters related to GSA Schedules. 140  The Court, again,
+finds that Fontana’s assertion s that his opinions are based upon his experience are
+conclusory statements without any support or explanation of how, specifically, his
+experience led him to reach those opinions, or how that experience was applied to the
+particular facts of this case.  For instance, Fontana did not expound upon or explain,
+either in his report or during his deposition, what specific past experience he had in
+evaluating the market value of computer software to government agencies and how
+his opinion in this case compared with his past experience. 141  Moreover, neither his
+curriculum vitae  nor his expert report mention any experience or knowledge
+regarding computer software marketability to government agencies or purchasing
+such software on behalf of government agencies.  Thus, the Court finds that MGMTL
+has failed to show that Fontana will  “employ[] in the courtroom the same level of
+intellectual rigor that characterizes the practice of an expert in the relevant field” 142
+with respect to his opinions regarding the market for the SMART software
+application.  The opinions regarding the market for the software must, therefore, be
+excluded as unreliable under Daubert and Fed. R. Evid. 702.
+
+140 R. Doc. 92-2 at ¶¶ 22 & 23.
+141 See, GWTP Investment, L.P. v. SES Americom, Inc., Civ. A. No. 3:04-CV-1383-L, 2007 WL7630459,
+at *14 (N.D. Tex. Aug. 3, 2007) (excluding expert testimony where the experts “conclusory statements
+were not supported by an explanation of how, specifically, his experience led him to the conclusion
+reached or how that experience was applied to the facts.”).
+142 Kumho Tire Co. , Ltd. v. Carmichael , 526 U.S . 137, 152, 119 S.Ct. 1167, 1176, 143 L.Ed.2d 238
+(1999); Hodges v. Mack Trucks Inc., 474 F.3d 188, 194 (5th Cir. 2006).
+Case 2:20-cv-02138-WBV-MBN     Document 175     Filed 02/17/22     Page 29 of 32
+
+C. MGMTL Has Failed to Show That Fon tana’s Opinion Regarding
+STI’s Competitive Advantage Is Relevant.
+
+At the outset, the Court notes that STI only challenges the relevance of
+Fontana’s opinion that STI has a competitive advantage in being certified as a small
+disadvantaged business (a “SDB”) in connection with its potential sales of PASS to
+government agencies and other GSA Schedule users. 143   STI contends that this
+testimony is irrelevant because it is undisputed that STI has never sold PASS from
+its GSA Schedule contract. 144   MGMTL does not address this argument in its
+Opposition brief.145  Instead, MGMTL asserts, generally, that Fontana’s experience
+and qualifications make his opinions relevant and relia ble.146  MGMTL claims that
+Fontana’s testimony, “considered together with other evidence and testimony, will
+help MGMTL prove its case.” 147  MGMTL also asserts that Fontana’s testimony
+would be insightful and useful to the jury, and that, “This helpfulness i s apparent
+from his deposition testimony, in which he explained, among other things . . .
+competitive advantages of disadvantaged-business status . . .”148  MGMTL, however,
+does not cite to Fontana’s deposition testimony to support this assertion, and cites
+instead to the two paragraphs in Fontana’s expert report that address STI’s
+certification as a small disadvantaged business.
+
+143 R. Doc. 92-1 at p. 4 (citing R. Doc. 92-2 at p. 4 & ¶¶ 18-19).
+144 R. Doc. 92-1 at p. 4 (citing
+http://www.fpds.gov/ezsearch/search.do?indexName=awardfull&templateName=1.5.1&s=FPDS.GOV
+&a=47ATCA19D009P ).  Although STI asserts that this web address shows “that there have been no
+purchases on the contract and that STI has made no revenue from the contract,” as of the date of this
+Order, a search of the foregoing web address yields the following result: “ezSearch - Page Not Found.”
+145 See, generally, R. Doc. 103-6.
+146 Id. at pp. 2, 9, & 11.
+147 Id. at p. 2.
+148 Id. at pp. 19-20 (citing R. Doc. 103-1 at pp. 8-9).
+Case 2:20-cv-02138-WBV-MBN     Document 175     Filed 02/17/22     Page 30 of 32
+
+The Court finds that MGMTL has failed to carry its burden of proving that
+Fontana’s testimony regarding STI’s purported competitiv e advantage as a small
+disadvantaged business is relevant to the disputed facts of this case and that it will
+aid the jury in understanding and resolving such factual disputes. 149  The Court
+surmises that this opinion may have some bearing on the issue of MGMTL’s damages,
+as Fontana asserts in his report that, “A Government contractor with an SDB
+certification have [sic] access to certain procurements that are ‘set aside’ specifica lly
+for small businesses as well as a small business that are [sic] qualified as an SDB,”
+and that, “STI, as an SDB, would have available to it more opportunities to
+participate in Government procurements that are set aside than other non -small or
+non-SDB concerns.”150  Fontana further opines that STI would have an enhanced
+competitive position in the sale of its PASS software “because Government agencies
+are required to set aside a certain percentage of contract awards to targeted groups
+to include SDBs.” 151  Neither Fontana nor MGMTL, however, tie these opinions to
+any facts in dispute in this case.  Nor does MGMTL address STI’s assertion that
+Fontana’s testimony on this issue is irrelevant because “it is undisputed that STI has
+never sold PASS off its GSA S chedule contract.” 152  As such, the Court finds that
+MGMTL has failed to carry its burden of proving, by a preponderance of the evidence,
+that Fontana’s testimony regarding STI’s competitive advantage from its certification
+
+149 Looney Ricks Kiss Architects, Inc. v. Bryan , Civ. A. No. 07 -572, 2010 WL 5157874, at *1 (W.D. La.
+Dec. 7, 2010) (Hicks, Jr., J.) (citing Daubert v. Merrell Dow Pharmaceuticals, Inc. , 509 U.S. 579, 591,
+113 S.Ct. 2768, 2796, 125 L.Ed.2d 469 (1993)).
+150 R. Doc. 92-2 at p. 9, ¶ 18.
+151 Id. at ¶ 19.
+152 R. Doc. 92-1 at p. 4 (citation omitted).
+Case 2:20-cv-02138-WBV-MBN     Document 175     Filed 02/17/22     Page 31 of 32
+
+as a SDB should be excluded under the relevancy prong of Daubert and Fed. R. Evid.
+702.
+IV. CONCLUSION
+ For the foregoing reasons, IT IS HEREBY ORDERED that Defendant’s
+Motion in Limine  to Preclude Expert Testimony of James C. Fontana 153  is
+GRANTED in part and DENIED in part.  The Motion is GRANTED to the extent
+that STI seeks to exclude Fontana’s expert testimony regarding the value of, and the
+market for, the SMART software application to government agencies,  as well as his
+opinion regarding STI’s competitive advantage as a small disadvantaged business, as
+set forth in Fontana’s January 28, 2021 e xpert report.154  The Motion is otherwise
+DENIED.
+ New Orleans, Louisiana, February 17, 2022.
+
+______________________________
+WENDY B. VITTER
+United States District Judge
+
+153 R. Doc. 92.
+154 R. Doc. 92-2 at p. 4 & ¶¶ 18-19 & 21-23.
+Case 2:20-cv-02138-WBV-MBN     Document 175     Filed 02/17/22     Page 32 of 32
