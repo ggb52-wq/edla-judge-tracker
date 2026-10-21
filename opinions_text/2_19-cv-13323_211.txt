@@ -1,0 +1,832 @@
+1
+
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+GERALYN HAWKINS, ET AL.,
+           Plaintiffs
+CIVIL ACTION
+
+VERSUS NO.  19-13323
+
+SHELLY SANDERS, ET AL.,
+           Defendants
+SECTION: “E” (1)
+
+ORDER AND REASONS
+
+ Before the Court is Defendants’, Grea ter New Orleans Federal Credit Union,
+Heather Rodgers, Shelly Sanders an d Gerry Kish, Motion to Dismiss. 1 Plaintiffs oppose
+the motion,2 and Defendants have filed a reply. 3 Having reviewed the pleadings and the
+case law, the Court rules as follows.
+I. Background 4
+ Plaintiffs Geralyn Hawkins, Nichole Th ompson, and Chad Li ghtfoot (sometimes
+referred to collectively as “Plaintiffs”) su e numerous defendants, captioning their
+complaint as a “Civil Rights Complaint 42 U.S.C. Section 1983; 1985; and 1986.” Plaintiffs’
+claims stem from a pending criminal proceeding against Lightfoot for perjury, RICO theft,
+and RICO identity fraud in Louisiana state criminal court.5  Lightfoot has a criminal and
+civil history in Louisiana federal and state courts dating back to 1996.6
+
+1 R. Doc. 88.
+2 R. Doc. 142.
+3 R. Doc. 144.
+4 The following allegations are based on the third amended complaint. R. Doc. 57.
+5 R. Doc. 57 at ¶ 56.
+6 See, e.g., United States v. Lightfoot , Civ. A. No. 17-00274, 2018 WL 5269827 (W.D. La. Oct. 22, 2018)
+(“Lightfoot is charged in the Indictment [Doc. No. 1] with one count of Fraud Scheme in Connection with
+Major Disaster or Emergency Benefits, in violation of 18 U.S.C. § 1040(a)(2).”), affirmed, 809 F. App’x. 246
+(5th Cir. 2020); Lightfoot v. Corrections Corp. of Am., 101 F.3d 699 (5th Cir. 1996) (barring Lightfoot from
+filing any civil lawsuit as a pauper within the jurisdiction of the Fifth Circuit).
+Case 2:19-cv-13323-SM-JVM   Document 211   Filed 03/17/23   Page 1 of 25
+2
+
+ Hawkins, Thompson, and Lightfoot obta ined personal loans in 2010 from
+Defendant Greater New Orleans Fede ral Credit Union (“the Union”). 7 To apply for the
+loans, Plaintiffs submitted personal and/or private information to the Union, such as
+their places of employment, social security numbers, and drivers’ license information.8 In
+2012, the Union conducted an internal invest igation of numerous loans when it became
+suspicious because many of the loan applic ants had the same information, such as
+addresses or job information. 9 Plaintiffs’ loans were among those investigated. 10
+Defendants Shelly Sanders, Heather Rodgers,  and Gerry Kish, empl oyees of the Union,
+assisted with the investigation. 11 Ultimately, Louisiana authorities accused Plaintiffs of
+participating in an “auto loan shopping scam” and fraud against the Union, and Lightfoot
+was arrested on October 15, 2015 and later ch arged with one count of perjury, one count
+of RICO identity theft, and one count of fraud.12
+ Plaintiffs filed this lawsuit in October 2019. 13 Plaintiffs sue Defendants the Union,
+Sanders, Rodgers, and Kish for violating th eir constitutional rights by conducting the
+investigation of their personal information without their consent. 14  They also sue these
+Defendants for communicating these findings to  District Attorney’s Office (“DA”)  and
+later complying with a subpoena from Orlean s Parish Criminal Court that ordered the
+
+7 R. Doc. 57 at ¶¶ 20-21, 23.
+8 Id. at ¶¶ 22, 24.
+9 Id. at ¶ 26.
+10 Id. at ¶ 27-29.
+11 Id. at ¶¶ 26-28.
+12 Id. at ¶¶ 25, 32-33. In the third amended complaint, Plaintiffs allege that mu ltiple grand juries were
+convened, multiple indictments issued against Lightfoot on various charges that were later dismissed when
+the later grand jury superseded those charges, and Lightfoot was arrested no fewer than four times. Id. at
+pp. 4-5. It appears that the three charges noted above are now the only charges pending as of the date of
+filing the third amended complaint.
+13 R. Doc. 1.
+14 R. Doc. 57 at ¶ 33.
+Case 2:19-cv-13323-SM-JVM   Document 211   Filed 03/17/23   Page 2 of 25
+3
+
+production of Plaintiffs’ personal information. 15  They also accuse the Union, Sanders,
+Rodgers, and Kish of conspiring with the DA under 42 U.S.C. § 1985 to falsely accuse them
+of participating in the “auto loan shopping scam”16 and to deny them equal protection and
+due process of law as well as failing to prevent such a conspiracy under 42 U.S.C. § 1986.17
+Plaintiffs further allege that Union, Sand ers, Rodgers, and Kish committed fraud and
+defamation against Plaintiffs by turning over  their internal investigation, which linked
+Plaintiffs to the commission of several crimes. 18 Plaintiffs arguably allege nebulous
+violations of the First, Fourth, Fifth, Ei ghth, and Fourteenth Amendments; various
+provisions of the Louisiana Constitution; the Privacy Act, 5 U.S.C. 552a; 42 U.S.C. § 1983;
+Louisiana’s Unfair Trade Practices and Consumer Protection Law, La. Rev. Stat. § 51:1401
+et seq.;19 and La. Rev. Stat. §§ 6:333 and 9:3571. Finally, Plaintiffs ask this Court to charge
+Defendants with criminal violations of various Louisiana statutes under 42 U.S.C. § 1983.
+ Plaintiffs also sue the City of New Orleans, 20 former District Attorney Leon
+Cannizzaro, Jr. and Assistant District Attorney Andre Gaudin for fabricating evidence to
+support the criminal allegations against Plaintiffs and for bad faith prosecution. 21
+Plaintiffs also sue former Orleans Parish  Criminal Court Judge Franz Zibilich; Jan
+Schmidt and Dawn Plaisance, two court reporters; and the Rules of the Court Committee
+
+15 Id. at ¶ 45.
+16 Id. at ¶ 39.
+17 Id. at ¶¶ 44, 121.
+18 Id. at ¶¶ 50, 91, 117.
+19 Plaintiffs cite repeatedly to the “Consumer Rights Act” allegedly contained at 51 U.S.C. § 1401. See, e.g.,
+R. Doc. 57 at 2, ¶¶ 42, 90. There does not appear to be a section 1401 in title 51 of the United States Code,
+and in fact title 51 is entitled “National and Commercial Space Programs.” However, section 1401 of title 51
+of the Louisiana Revised Statutes is the short title for Louisiana’s Unfair Trade Practices and Consumer
+Protection Law. Because the Court “give[s] pro se  briefs a liberal construction,” the Court construes
+Plaintiffs’ citation to 51 U.S.C. § 1401 as a claim under Louisiana’s Unfair Trade Practices and Consumer
+Protection Law. Brown v. Sudduth, 675 F.3d 472, 477 (5th Cir. 2012).
+20 R. Doc. 57.
+21 R. Doc. 57 at ¶¶ 32-44.
+Case 2:19-cv-13323-SM-JVM   Document 211   Filed 03/17/23   Page 3 of 25
+4
+
+of Orleans Parish Criminal Court (“the Rule s Committee”). Plaintiffs sue these four
+Defendants for failing to turn over a transcript of a hearing in violation of an order issued
+by Judge Arthur Hunter when Hunter was considering Lightfoot’s motion to recuse
+Zibilich from his criminal case and for Zibilich’s rulings against Lightfoot in that criminal
+action.22
+ Defendants the Union, Sanders, Rodgers,  and Kish (“Defendants”) now move to
+dismiss Plaintiffs’ claims against them unde r Federal Rules of Civil Procedure 12(b)(1)
+and 12(b)(6).23
+II. Legal Standard
+A. Rule 12(b)(1)
+Federal courts are courts of limited jurisdiction; without jurisdiction conferred by
+statute, they lack the power to adjudicate claims.” 24 A motion to dismiss under Federal
+Rules of Civil Procedure 12(b)(1) challenges a federal court’s subject-matter jurisdiction.25
+Under Rule 12(b)(1), “[a] case is properly dismissed for lack of subject matter jurisdiction
+when the court lacks the statutory or constitutional power to adjudicate the case.”26 “Lack
+of subject-matter jurisdiction may be found in the complaint alone, the complaint
+supplemented by the undisputed facts as ev idenced in the record, or the complaint
+supplemented by the undisputed facts plus the court’s resolution of the disputed facts.”27
+“When, as here, grounds for dismissal may exist under both Rule 12(b)(1) and Rule
+
+22 Id. at ¶¶ 62-83.
+23 R. Doc. 88.
+24 In re FEMA Trailer Formaldehyde Products Liab. Litig. (Mississippi Plaintiffs), 668 F.3d 281, 286 (5th
+Cir. 2012).
+25 See Fed. R. Civ. P. 12(b)(1).
+26 Home Builders Ass’n of Miss., Inc. v. City of Madison, Miss., 143 F.3d 1006, 1010 (5th Cir. 1998) (internal
+quotation marks and citation omitted).
+27 In re FEMA, 668 F.3d at 287.
+Case 2:19-cv-13323-SM-JVM   Document 211   Filed 03/17/23   Page 4 of 25
+5
+
+12(b)(6), the Court should, if necessary, dism iss only under the former without reaching
+the question of failure to state a claim.”28
+B. Rule 12(b)(6)
+Pursuant to Federal Rule of Civil Procedu re 12(b)(6), a district court may dismiss
+a complaint, or any part of it, for failure to state a claim upon which relief may be granted
+if the plaintiff has not set forth factual allegations in support of his claim that would entitle
+him to relief. 29 “To survive a motion to dismiss, a complaint must contain sufficient
+factual matter, accepted as true, to ‘state a claim to relief that is plausible on its face.’”30
+“A claim has facial plausibility when the plai ntiff pleads factual content that allows the
+court to draw the reasonable inference that the defendant is liable for the misconduct
+alleged.”31 The court, however, does not accept as true legal conclusions or mere
+conclusory statements, and “conclusory allegations or legal conclusions masquerading as
+factual conclusions will not suffice to prevent a motion to dismiss.” 32 “[T]hreadbare
+recitals of elements of a cause of action, supported by mere conclusory statements” or
+“naked assertion[s] devoid of further factual enhancement” are not sufficient.33
+In summary, “[f]actual allegations must be enough to raise a right to relief above
+the speculative level.”34 “[W]here the well-pleaded facts do not permit the court to infer
+more than the mere possibility of miscondu ct, the complaint has alleged—but it has not
+
+28 Valdery v. Louisiana Workforce Comm’n, No. CIV.A. 15-01547, 2015 WL 5307390, at *1 (E.D. La. Sept.
+10, 2015).
+29 Bell Atl. Corp. v. Twombly , 550 U.S. 544, 555 (2007); Cuvillier v. Taylor , 503 F.3d 397, 401 (5th Cir.
+2007).
+30 Ashcroft v. Iqbal, 556 U.S. 662, 678 (2009) (quoting Twombly, 550 U.S. at 570).
+31 Id.
+32 S. Christian Leadership Conf. v. Sup. Ct. of the State of La. , 252 F.3d 781, 786 (5th Cir. 2001) (citing
+Fernandez-Montes v. Allied Pilots Ass’n, 987 F.2d 278, 284 (5th Cir. 1993)).
+33 Iqbal, 556 U.S. at 663, 678 (citations omitted).
+34 Twombly, 550 U.S. at 555.
+Case 2:19-cv-13323-SM-JVM   Document 211   Filed 03/17/23   Page 5 of 25
+6
+
+show[n]’—that the pleader is entitled to relief.” 35 “Dismissal is appropriate when the
+complaint ‘on its face show[s] a bar to relief.’”36
+III. Legal Analysis
+A. Claims Against “All Defendan ts” Are Dismissed Without
+Prejudice
+
+ In numerous paragraphs of the third amen ded complaint, Plaintiffs allege that “all
+named Defendants,” “all Defendants,” or “named Defendants” violated their
+constitutional or statutory rights.37 Mere “conclusory allegations against [d]efendants as
+a group” that “fail[ ] to allege the personal involvement of any defendant” are insufficient
+to put Defendants on notice of their alleged wrongdoing. 38 A plaintiff must allege facts
+that “establish each individual [d]efendant’s liability for the misconduct alleged.”39 When
+a number of defendants are named in a complaint, a plaintiff cannot refer to all
+defendants “who occupied different positions and presumably had distinct roles in the
+alleged misconduct” without specifying “whi ch defendants engaged in what wrongful
+conduct.”40 A complaint that contains “impermi ssibly vague group pleading” will be
+dismissed.41
+ Accordingly, the claims against “all na med Defendants,” “all Defendants,” or
+“named Defendants,” including the Union, Sanders, Rodgers, and Kish as Defendants, are
+
+35 Id. (quoting Fed. R. Civ. P. 8(a)(2)).
+36 Cutrer v. McMillan, 308 F. App’x 819, 820 (5th Cir. 2009) (per curiam) (quotations omitted).
+37 See, e.g, R. Doc. 57 at ¶¶ 18, 85-88, 90, 92, 95, 125.
+38 Galicki v. New Jersey, No. 14-169, 2015 WL 3970297, at *2 (D.N.J. June 29, 2015) (dismissing plaintiffs’
+claims without prejudice for failure to provide each defendant with notice of its alleged participation in the
+racketeering enterprise).
+39 Id.; see also Ashcroft v. Iqbal , 556 U.S. 662, 676 (2009) (finding th at a plaintiff must plead that each
+Government-official defendant, through the official's own individual actions, has violated the Constitution);
+Aruanno v. Main, 467 F. App'x 134, 137-38 (3d Cir. 2012) (dismissal of § 1983 action was appropriate where
+Defendants were collectively sued as “[government] personnel” and failed to allege the personal
+involvement of the individual Defendants).
+40 Falat v. County of Hunterdon, No. 12-6804, 2013 WL 1163751, at *3 (D.N.J. Mar. 19, 2013).
+41 Id.
+Case 2:19-cv-13323-SM-JVM   Document 211   Filed 03/17/23   Page 6 of 25
+7
+
+dismissed without prejudice for impermissible group pleading and failing to specify how
+the Union, Sanders, Rodgers, and Kish sp ecifically violated Plaintiffs’ rights.42 However,
+when the Plaintiffs referenced any of thes e claims elsewhere in their third amended
+complaint specifically against the Defendants, these claims are addressed below.
+B. Plaintiffs Lack Standing to Re quest Criminal Charges Against
+Defendants
+
+Plaintiffs request the Court invoke its “pendent/supervisory jurisdiction” under 42
+U.S.C. § 1983 to charge Defendants with criminal violations of various Louisiana
+statutes.43  As the Court has stated before, this is beyond its authority and jurisdiction. 44
+“Section 1983 and Bivens actions are available to seek damages and injunctive relief. They
+are not avenues for private citizens to bring criminal charges.”45 “[A] private citizen lacks
+a judicially cognizable interest in the prosecution or nonprosecution of another.” 46
+Because Plaintiffs lack standing to bring criminal charges against Defendants, these
+claims must be dismissed without prejudice.
+C. The Federal Law Claims Against Defendants Are Dismissed with
+Prejudice
+
+ Plaintiffs’ remaining federal law clai ms against Defendants include alleged
+violations of the Privacy Act, 5 U.S.C. 552 a, as well as 42 U.S.C. §§ 1985, 1986 for
+conspiring to deny them equal protection under the law, or to prevent a conspiracy to do
+so. Plaintiffs also claim the Union violated 42 U.S.C. § 1983 by failing to properly
+discipline Sanders, Rodgers, and Kish for con spiring to violate Plaintiffs’ Fourth, Fifth,
+
+42 These claims are dismissed as to all Defendants in this lawsuit for the same reasons, notwithstanding that
+this Order and Reasons addresses only the Union, Rodgers, Sanders and Gerry Kish’s motion to dismiss.
+43 R. Doc. 57 at ¶¶ 96-111.
+44 R. Doc. 148.
+45 Banks v. Gillie, No. 03-3098, 2004 U.S. Dist. LEXIS 5413, at *20 (E.D. La. Feb. 25, 2004).
+46 See Linda R.S. v. Richard D., 410 U.S. 614, 619 (1973).
+Case 2:19-cv-13323-SM-JVM   Document 211   Filed 03/17/23   Page 7 of 25
+8
+
+Sixth, Eighth, and Fourteenth Amendment rights. Finally, Plaintiffs ask for a declaratory
+judgment that the Union violated their Fourth, Fifth, Sixth, and Fourteenth Amendment
+rights.
+In their motion to dismiss and their repl y, Defendants maintain this Court lacks
+subject matter jurisdiction and should dism iss Plaintiffs’ claims under Rule 12(b)(1)
+because Plaintiffs have no Article III standing, lacking an injury in fact. Defendants argue
+that under United States v. Miller,47 Plaintiffs have no constitutionally protected right of
+privacy in their bank records. Without a right to privacy in their bank records, Defendants
+contend, Plaintiffs lack standing to chal lenge a bank’s disclosure to government
+authorities.  Citing 15 U.S.C. § 6802 and Louisiana Revised Statute § 6:333, Defendants
+argue even when Congress and the Louisiana Le gislature have created a right to privacy
+in bank records, the legislative bodies have created exceptions to the disclosure laws for
+judicial process.  Citing the exceptions of  judicial process to the disclosure laws,
+Defendants contend that Plaintiffs cannot state a plausible claim for relief under Rule
+12(b)(6) as the exception protects them from liability for any disclosure.48 They also argue
+that Plaintiffs’ allegations are conclusory and lack factual support.
+ Plaintiffs maintain they have standing because Defendants released their personal
+banking and loan information to the governme nt, information subsequently filed on the
+record in a public forum, thereby exposing Pl aintiffs’ personal information to identity
+
+47 425 U.S. 435 (1976).
+48 Defendants also maintain that Plaintiffs have no standing because Lightfoot was ultimately arrested,
+tried, found guilty on all counts by a jury, and the Louisiana Fourth Circuit Court of Appeal has upheld the
+jury’s finding. See State v. Lightfoot , – So.3d –, 2018 WL 6536999 (La. Ct. App. 2019). Given Lightfoot’s
+history with the Louisiana justice sy stem, however, the parties have failed to clearly discuss which of
+Lightfoot’s arrests and charges they discuss.  In the case relied on by Defendants  in their reply, Lightfoot
+was arrested in 2016. However, in this action, Lightfoo t challenges his 2015 arrest for charges that appear
+to be still pending against him as of the date of filing the third amended complaint.
+Case 2:19-cv-13323-SM-JVM   Document 211   Filed 03/17/23   Page 8 of 25
+9
+
+theft and constituting an invasion of privacy.  Citing the exceptions to the disclosure laws
+for judicial process, Plaintiffs maintain they do not apply under the particular
+circumstances of this action.   Plaintiffs also maintain the Orleans Parish DA exceeded its
+investigatory jurisdiction because the Union is located in Metairie, Louisiana, outside the
+jurisdiction of Orleans Parish. Plaintiffs assert they have stated a plausible claim for relief
+because the third amended complaint outlines in detail what Defendants did and what
+documents Defendants produced. They mainta in their third amended complaint is not
+conclusory, and it puts Defendants on notice of the claims against them.
+1. Standing
+ Standing to sue is a doctrine rooted in the traditional understanding of a case or
+controversy.49 The doctrine developed to ensure federal courts do not exceed their
+authority as it has been traditionally understood. 50 The doctrine limits the category of
+litigants empowered to maintain a lawsuit in  federal court to seek redress for a legal
+wrong.51
+ The Supreme Court has established that the “irreducible constitutional minimum”
+of standing consists of three elements.52 The plaintiff must have (1) suffered an injury in
+fact, (2) that is fairly traceable to the challenged conduct of the defendant, and (3) that is
+likely to be redressed by a favorable judicial decision. 53 Injury in fact is a constitutional
+requirement, and “[i]t is settled that Congress cannot erase Article III's standing
+requirements by statutorily granting the right to sue to a plaintiff who would not
+
+49 Spokeo, Inc. v. Robins, 578 U.S. 856 (2016).
+50 See id. at 820.
+51 See Valley Forge Christian Coll. v. Americans United for Separation of Church & State, Inc. , 454 U.S.
+464, 473 (1982); Warth v. Seldin, 422 U.S. 490, 498-499 (1975).
+52 Lujan v, Defenders of Wildlife, 504 U.S. 555, 560 (1992).
+53 Id. at 560–561.
+Case 2:19-cv-13323-SM-JVM   Document 211   Filed 03/17/23   Page 9 of 25
+10
+
+otherwise have standing.”54
+ To establish injury in fact, a plaintiff must  show that he or she suffered “an invasion
+of a legally protected interest” that is “concrete and particularized” and “actual or
+imminent, not conjectural or hypothetical.”55 For an injury to be “particularized,” it “must
+affect the plaintiff in a personal and individual way.” 56 A “concrete” injury must be “de
+facto”; that is, it must actually exist.57 “Concrete” is not, however, necessarily synonymous
+with “tangible.”58 The Supreme Court has held that an intangible harm may constitute a
+concrete injury.59 The Court has held:
+Congress' role in identifying and elevating intangible harms does not mean
+that a plaintiff automatically satisfies the injury-in-fact requirement
+whenever a statute grants a person a statutory right and purports to
+authorize that person to sue to vind icate that right. Article III standing
+requires a concrete injury even in the context of a statutory violation. For
+that reason, Robins could not, for example, allege a bare procedural
+violation, divorced from any concrete harm, and satisfy the injury-in-fact
+requirement of Article III. See Summers, 555 U.S., at 496, 129 S. Ct. 1142
+(“[D]eprivation of a procedural right without some concrete interest that is
+affected by the deprivation . . . is insufficient to create Article III standing”);
+see also Lujan, supra, at 572, 112 S. Ct. 2130.60
+
+Defendants point to United States v. Miller  for the proposition Plaintiffs lack an
+injury in fact because there is no consti tutional right to privacy in bank records. 61 In
+Miller, the Court affirmed the denial of a motion  to suppress a banks’ production of the
+defendant’s checks, deposit slips, and financ ial statements in response to a faulty
+subpoena because the defendant had no legiti mate expectation of privacy in his bank
+
+54 See Summers v. Earth Island Inst., 555 U.S. 488, 497 (2009); Gladstone, Realtors v. Village of Bellwood,
+441 U.S. 91, 100 (1979) (“In no event . . . may Congress abrogate the Art. III minima”).
+55 Lujan, 504 U.S. at 560 (internal quotation marks omitted).
+56 Id. at n.1.
+57 Spokeo, Inc., 136 S. Ct. at 1548.
+58 Id. at 1549.
+59 See id.
+60 Id.
+61 United States v. Miller, 425 U.S. 435, 440-45 (1976).
+Case 2:19-cv-13323-SM-JVM   Document 211   Filed 03/17/23   Page 10 of 25
+11
+
+records under the Fourth Amendment. 62 “The depositor takes the risk in revealing his
+affairs to another,” the Court stated, “that the information will be conveyed by that person
+to the Government.” 63 However, Miller concerned a motion to suppress and the
+reasonable expectation of privacy stan dard under the Fourth Amendment, and the
+Supreme Court has made clear that the analysis for standing under the Fourth
+Amendment—whether the defendant had a personal expectation of privacy in the place
+searched or thing seized which is reasonab le—is different from that of Article III
+standing.64 Standing under the Fourth Amendment is much narrower than Article III
+standing because “Fourth Amendment rights are personal in nature.” 65 Ultimately,
+finding an expectation of privacy under the Fourth Amendment makes a separate Article
+III inquiry unnecessary because the personal nature of Fourth Amendment rights
+“already answer[s] many of the[] traditional standing inquiries.” 66 The obverse is also
+true. Finding no expectation of privacy under the Fourth Amendment does not
+automatically answer the broader question  of Article III standing. Under certain
+circumstances, plaintiffs can have standing to  sue for injuries not personal to them—for
+example, third-party standing. 67 Therefore, a lack of expectation of privacy in bank
+records under the Fourth Amendment—the narrower question—does not mean there is
+no Article III standing.
+
+62 Id.
+63 Id. at 443.
+64 Minnesota v. Carter, 525 U.S. 83, 87-88 (1998); Rakas v. Illinois, 439 U.S. 128, 139-40 (1978).
+65 Rakas, 439 U.S. at 140.
+66 Id.
+67 See, e.g., Kowalski v. Turner, 543 U.S. 125, 129-30 (2004) (“[A] party ‘generally must assert his own legal
+rights and interests, and cannot rest his claim to relief on the legal rights or interests of third parties.’ . . .
+We have not treated this rule as absolute, however, recognizing that there may be circumstances where it is
+necessary to grant a third party standing to assert the rights of another.” (quoting Warth v. Seldin, 422 U.S.
+490, 499 (1975)). Those plaintiffs alleging third party standing must of course assert some injury as well.
+Id. at 129 & n.2. The point is that not all claims must be strictly personal to the plaintiffs.
+Case 2:19-cv-13323-SM-JVM   Document 211   Filed 03/17/23   Page 11 of 25
+12
+
+Instead, the Supreme Court’s analysis in Spokeo, Inc. v. Robbins  remains
+instructive on whether an injury-in-fact has occurred for an intangible harm resulting
+from a statutory violation.68 “In determining whether an intangible harm constitutes an
+injury in fact, both history and the judgment of Congress play important roles.”69
+In this case, Plaintiffs allege that Defe ndants violated the Privacy Act, 5 U.S.C.
+552a, in disclosing their bank records to the DA, causing Plaintiffs to suffer an invasion of
+privacy. They allege that the disclosure of this information to the DA caused it to be filed
+on a public forum— i.e., the court record—exposing Plaintiffs to the risk of identity theft.70
+Following the analysis in Spokeo, invasion of privacy has long been recognized as a tort.71
+Moreover, Congress has acted to create privacy interests in personal records transmitted
+to agencies covered by the Privacy Act an d an accompanying cause of action for its
+violation.72 Considering this history and the judgme nt of Congress, this Court finds that
+the alleged invasion of privacy into bank recor ds, exposing the Plaintiffs to the risk of
+identity theft, is a concrete harm that meets the injury-in-fact requirements.
+Plaintiffs also allege violations of 42 U.S.C. §§ 1983, 1985, 1986 for conspiring to
+violate their Fourth, Fifth, Sixth, Eighth, and Fourteenth Amendment rights, to deny
+them equal protection under the law, or to prevent a conspiracy to do so. Plaintiffs allege
+that Defendants did not notify them or give  them an opportunity to be heard before
+making criminal allegations against Plaintiffs in Defendants’ internal investigation, which
+
+68 Spokeo, Inc., 136 S. Ct. at 1545-50.
+69 Id. at 1549.
+70 Plaintiffs allege this private information contained their social security cards, full credit and consumer
+data reports, driver’s licenses, job history, residence history, an d income statements. Defendants do not
+dispute that this private information was publicly av ailable in the public court record, and there are no
+allegations that sensitive information was redacted or otherwise protected to prevent an injury.
+71 See, e.g., Restatement (Second) of Torts § 652A (Am. L. Inst. 1977); Eli A. Meltz, “Attempted” Invasion of
+Privacy and the Tort of Intrusion Upon Seclusion, 83 Fordham L. Rev. 3431, 3440-41 (2015) (listing cases
+for each state that recognizes invasion of privacy).
+72 5 U.S.C. 552a(b), (g).
+Case 2:19-cv-13323-SM-JVM   Document 211   Filed 03/17/23   Page 12 of 25
+13
+
+was ultimately turned over to the DA, or before Defendants complied with the DA’s
+subpoena. Moreover, Plaintiffs allege that the Union did not properly train Sanders,
+Rodgers, or Kish and so failed to prevent the conspiracy to deny Plaintiffs their
+constitutional rights. These violations, Plaintiff allege, exposed them to the risk of identity
+theft, resulted in a loss of wages, damaged their reputation, and so traumatized Plaintiffs
+that they must now pay for psychological services.
+As the Supreme Court has stated, “[i]f a defendant has caused physical or monetary
+injury to the plaintiff, the plaintiff has suff ered a concrete injury in fact under Article
+III.”73 Moreover, “reputational harm” is an intangible “harm[] traditionally recognized as
+providing a basis for lawsuits in American Courts.”74 Finally, “traditional harms may also
+include harms specified by the Constitution itself.”75 Considering Plaintiffs’ allegation of
+monetary damages; reputation damages; and the risk of identity theft stemming from
+alleged violations of their constitutional ri ghts, the Court finds that there are concrete
+harms that meet the injury-in-fact requirements.
+ Defendants, citing 15 U.S.C. § 6802 an d Louisiana Revised Statute § 6:333, argue
+both Congress and the Louisiana Legislature have allowed banks to disclose consumer
+information in response to subpoenas by ex cepting those disclosures from the general
+prohibition on disclosing such information,  which prevents Plaintiffs from having
+alleging an injury in fact. 76 However, assuming these statutes apply, pointing to the
+
+73 TransUnion LLC v. Ramirez, 141 S. Ct. 2190, 2204 (2021).
+74 Id.
+75 Id.
+76 15 U.S.C. § 6802 provides in relevant part:
+(a) Notice requirements
+Except as otherwise provided in this subchapter, a financial institution may not, directly or
+through any affiliate, disclose to a nonaffi liated third party any nonpublic personal
+information, unless such financial institution provides or has provided to the consumer a
+notice that complies with section 6803 of this title.
+. . . .
+Case 2:19-cv-13323-SM-JVM   Document 211   Filed 03/17/23   Page 13 of 25
+14
+
+statutory exceptions to the prohibition on banks’ disclosure of consumer information
+confuses standing with the substantive question  of whether Plaintiffs have stated a valid
+claim. “[S]tanding in no way depends on th e merits of the plaintiff’s contention that
+particular conduct is illegal . . . .” 77 The question for injury in  fact is whether there has
+been a valid harm, not whether there is a va lid cause of action. The Supreme Court has
+recently reiterated “an important difference exists between (i) a plaintiff ’s statutory cause
+of action  to sue a defendant over the defendant's violation of federal law, and (ii) a
+
+(e) General exceptions
+Subsections (a) and (b) shall not prohibit the disclosure of nonpublic personal information
+–
+. . . .
+(8) . . . to comply with Federal, State, or local laws, rules, and other applicable legal
+requirements; to comply with a properly authorized civil, criminal, or regulatory
+investigation or subpoena or summons by Federal, State, or local authorities; or to respond
+to judicial process or government regulatory authorities having jurisdiction over the
+financial institution for examination, compliance, or other purposes as authorized by law.
+La. Rev. Stat. § 6:333 provides in relevant part:
+B. . . . [N]o bank or its affiliate shall disclose any financial records to any person other than
+the customer to whom the financial records pertain, unless such financial records are
+disclosed [in accordance with this Section.]
+. . . .
+(F) The following disclosures by a bank or any affiliate are hereby specifically authorized
+and, except as otherwise provided in this Subsection, nothing in this Section shall prohibit,
+restrict, or otherwise apply to:
+. . . .
+(6) The disclosure by a bank or any affiliate of financial records to a government authority
+or law enforcement agency or department in connection with a known or suspected
+criminal act against the bank or involving a bank officer or employee.
+. . . .
+(11) The disclosure by a bank or any affiliate of financial records in situations governed by,
+pursuant to, and in accordance with the provisions of . . . 15 U.S.C. 6801 et seq. or pursuant
+to a search warrant issued in accordance with Title IV of the Code of Criminal Procedure.
+. . . .
+(13) The disclosure by a bank or any affiliate of financial records pursuant to a subpoena or
+court order issued in connection with proceedin gs before a federal or state grand jury in
+accordance with applicable federal or state la w, rule, or regulation, or subpoena or court
+order issued in connection with a state criminal investigation pursuant to Code of Criminal
+Procedure Article 66.
+77 Warth v. Seldin, 422 U.S. 490, 500 (1975); see also Planned parenthood of Gulf Coast, Inc. v. Gee , 862
+F.3d 445, 455 (5th Cir. 2017) (“[Defendant’s] contention turns on the sole substantive question before us
+on appeal, and we decline to allow [the defendant] to  bootstrap this issue into our standing inquiry.”),
+overruled on other grounds, Planned Parenthood of Greater Tex. Family Planning & Preventative Health
+Servs., Inc. v. Kauffman, 981 F.3d 347, 368 (5th Cir. 2020); In re Special Grand Jury 89-2, 450 F.3d 1159,
+1172 (10th Cir. 2006) (“The term legally protected interest has generated some confusion because the Court
+has made clear that a plaintiff can have standing despite losing on the merits—that is, even though the
+interest would not be protected by the law in that case.”).
+Case 2:19-cv-13323-SM-JVM   Document 211   Filed 03/17/23   Page 14 of 25
+15
+
+plaintiff ’s suffering concrete harm because of the defendant's violation of federal law.”78
+Plaintiffs have alleged that Defendants inva ded the privacy of their banking records by
+disclosing these records to the DA without permission, after which these records were
+publicly available, exposing Plaintiffs to the possibility of identity theft. Moreover,
+Plaintiffs allege monetary and reputational damages. This alleged harm is sufficiently
+concrete and particularized to constitute an injury in fact.
+2. Failure to State a Claim
+a. Privacy Act
+The Privacy Act provides, subject to certai n exception, “No agency shall disclose
+any record which is contained in a system of records by any means of communication to
+any person, or to another agency, except purs uant to a written request by, or with the
+prior written consent of, the individual to whom the record pertains.”79 An agency “means
+agency as defined in section 552(e) of this title.”80 The relevant definition in Section 552
+defines agency as “includ[ing] any exec utive department, military department,
+Government corporation, Government controlled corporation, or other establishment in
+the executive branch of the Government (including the Executive Office of the President),
+or any independent regulatory agency.”81 In this case, Defendants are not agencies within
+the meaning of the Privacy Act because th ey are a private bank and private bank
+employees, not federal governmental agencies. 82 For this reason, the Court finds the
+
+78 TransUnion LLC, 141 S. Ct. at 2205 (emphasis added).
+79 5 U.S.C. § 552a(b).
+80 Id. § 552a(a)(1).
+81 Id. § 552(f)(1). Although Section 552a(a)(1) refers to Se ction 552(e), the definition of agency is actually
+found in Section 552(f). Courts have thus looked to subsection (f) for the definition of agency. See, e.g.,
+Gilbreath v. Guadalupe Hosp. Found. Inc., 5 F.3d 785, 791 (5th Cir. 1993).
+82 See 5 U.S.C. § 552(f)(1); Gilbreath, 5 F.3d at 791 (holding that private hospitals are not agencies as defined
+in the Privacy Act).
+Case 2:19-cv-13323-SM-JVM   Document 211   Filed 03/17/23   Page 15 of 25
+16
+
+Plaintiff has failed to state a plausible clai m for relief under the Privacy Act, and his
+Privacy Act cause of action must be dismissed with prejudice.83
+b. Section 1983
+Plaintiffs arguably attempt to bring a claim against the Union under Section 1983.84
+Plaintiffs allege that the Union failed to pr operly discipline Sanders, Rodgers, and Kish
+for conspiring to violate Plaintiffs’ Fourth, Fifth, Sixth, Eighth, and Fourteenth
+Amendment rights and later alleges that all Defendants acted “under the color of law.”85
+Giving these pro se allegations “a liberal construction,” the Court construes Plaintiffs’
+allegations here against Union as an effort to bring a claim under Section 1983.86
+Plaintiffs, however, have not sufficientl y alleged a Section 1983 claim against
+Sanders, Rodgers, and Kish. While the Court “applies less stringent standards to parties
+proceeding pro se than to parties represented by counsel and liberally construes the briefs
+of pro se litigants, a pro se [litigant] still must actually argue something that is susceptible
+of liberal construction.”87 Plaintiffs make no reference to  Sanders, Rodgers, and Kish in
+any of the four times, one of which is merely the caption of the third amended complaint,
+
+83 To the extent Plaintiffs also assert a claim agai nst Sanders (or any of the other Defendants) under the
+Fair Credit Reporting Act, 15 U.S.C. § 1681 et seq. , the Plaintiffs also fail to state a claim because the
+Defendants are not “consumer repo rting agencies” under 15 U.S.C. § 1681a(f). A “consumer reporting
+agency” is defined as “any person which . . . assembl[es] or evaluat[es] consumer credit information . . . for
+the purpose of furnishing consumer reports to third parties.” Id. The term “consumer report,” in turn, is
+defined not to include “any report containing information solely as to transactions or experiences between
+the consumer and the person making the report.” Id. § 1681a(d)(2)(A)(i). Defendants’ internal
+investigations into Plaintiffs’ loans with Defendants  and any subsequent disclosure relate solely to
+Defendants’ personal experiences with the Plaintiffs  and fall under this transaction and experiences
+exception. See Hodge v. Texaco, Inc., 975 F.2d 1093, 1096 (5th Cir. 1992); Dawson v. Bank of Am., N.A. ,
+605 F. App’x 263, 266 (5th Cir. 2015).
+84 R. Doc. 57 at ¶¶ 93, 96.
+85 Id.
+86 Brown, 675 F.3d at 477.
+87 Toole v. Peak, 361 F. App'x 621, (5th Cir. 2010) (citing Grant v. Cuellar, 59 F.3d 523, 524 (5th Cir. 1995));
+see also Williams v. Noel, No. 18-9296, 2019 WL 277271 (E.D. La. Jan. 22, 2019).
+Case 2:19-cv-13323-SM-JVM   Document 211   Filed 03/17/23   Page 16 of 25
+17
+
+they mention Section 1983. 88 A plaintiff must allege facts th at “establish each individual
+[d]efendant’s liability for the misconduct alleged.”89 Simply including “Section 1983” in
+the caption of the complaint without later specifying how each defendant allegedly
+violated Section 1983 is insufficient to put defendants on notice of the claims against
+them.90
+Section 1983 “provides a remedy for de privations of rights secured by the
+Constitution and laws of the United States when that deprivation takes place ‘under color
+of any statute, ordinance, regulation, custom, or usage, of any State or Territory.’”91 Thus,
+to state a claim under Section 1983, a plainti ff must allege that the person or entity
+depriving him of a federal right was a state actor and was acting under the color of law. 92
+When a plaintiff asserts a Section 1983 clai m “against any private defendant, . . . the
+conduct of the private defendant that form s the basis of the claimed constitutional
+deprivation must constitute state action under color of law.”93  To succeed, a plaintiff must
+“allege facts that suggest: 1) an agreement between the private and public defendants to
+commit an illegal act, and 2) an actual deprivation of constitutional rights.”94
+In Cinel v Connick, the Fifth Circuit held there was no evidence of an agreement to
+commit an illegal act when a subpoena duces tecum for private sexually oriented material
+was issued at the request of a private party in a civil lawsuit to the state, who held the
+
+88 See R. Doc. 57, at caption, 1, 10, ¶¶ 93, 96.
+89 Cf. Galicki, 2015 WL 3970297, at *2; see also Iqbal, 556 U.S. at 676 (finding that a plaintiff must plead
+that each Government-official defendant, through the official's own individual actions, has violated the
+Constitution).
+90 See Galicki, 2015 WL 3970297, at *2; Iqbal, 556 U.S. at 676.
+91 Lugar v. Edmondson oil Co., Inc., 457 U.S. 922, 924 (1982) (quoting 42 U.S.C. § 1983).
+92 See, e.g., James v. Tex. Collin Cnty. , 535 F.3d 365, 373 (5th Cir. 2008); Cinel v. Connick, 15 F.3d 1338,
+1342 (5th Cir. 1994).
+93 Morris v. Dillard Dep’t Stores, Inc., , 747 (5th Cir. 2001) (citing Lugar, 457 U.S. at 924).
+94 Cinel, 15 F.3d at 1343 (citations omitted) (first citing Arsenaux v. Roberts , 726 F.2d 1022, 1024 (5th
+Cir.1982); and then citing Villanueva v. McInnis, 723 F.2d 414, 418 (5th Cir.1984)).
+Case 2:19-cv-13323-SM-JVM   Document 211   Filed 03/17/23   Page 17 of 25
+18
+
+material from a previous investigation. 95 Moreover, a release of some of these materials
+even before the subpoena was issued did not rise to the level of an agreement. 96 These
+materials were released without notice to th e plaintiff and were later publicly published
+more than a year later.97 The court stated the plaintiff “failed to aver facts that suggest[ed]
+an agreement between the state actors and th e private actors to publish the materials
+released pursuant to the subpoena,” and th ere was no evidence that the responding
+party’s “intention in releasing the information to [the requesting party] was to make it
+available for future publication.”98 Moreover, the fact that some documents were handed
+over even before there was a valid subpoena, even if it was improper, was “insufficient by
+itself to rise to the level of a conspiracy.”99
+Even if there was state action, the court stated that there was no violation of a
+federal right. The production of the plaintif f’s private documents was “irrelevant to the
+issuance of a valid subpoena duces tecum; a subpoena may order a person to produce
+documents in his or her possession.”100 The court also found “no legal authority . . . that
+creates an affirmative duty of a non-party . . . in possession of documents to notify the
+owner of the subpoenaed documents.”101
+In this case, as in Cinel, Plaintiffs do not present allegations to suggest an
+agreement between the Union and the Louisi ana state actors. Plaintiffs’ conclusory
+allegations stating that there was a conspiracy do not “suggest an agreement between the
+state actors and the private actors to publ ish the materials released pursuant to the
+
+95 Id.at 1344.
+96 Id. at 1333-44.
+97 Id.
+98 Id. at 1344.
+99 Id.
+100 See id. at 1343.
+101 Id.
+Case 2:19-cv-13323-SM-JVM   Document 211   Filed 03/17/23   Page 18 of 25
+19
+
+subpoena.”102 Nothing in Plaintiffs’ complaint establishes it was the Union’s intention in
+allowing its employees to release Plaintiffs’ records to have them published in a public
+forum or deprive Plaintiffs of their rights. The allegations only establish that the Union
+released the records to assist in an ongoing criminal investigation. Even when the Union
+released records on their own initiative befo re the subpoena was issued, this disclosure
+alone is insufficient to rise to the level of a conspiracy. Plaintiffs do not allege that the
+Louisiana state actors asked for this information at that point, so there was no agreement
+between them and Union. For these reasons, the Court finds no agreement between Union
+and the Louisiana state actors to deprive Plaintiffs of their rights.
+Even if there was an agreement, the Cour t finds that there was no violation of a
+federal right. As in Cinel, an interest in subpoenaed documents is irrelevant; “a subpoena
+may order a person to produce documents in his or her possession.”103 Moreover, there is
+no duty for a non-party to notify people with an interest in subpoenaed documents.104 For
+these reasons, Plaintiffs failed to state a valid claim under Section 1983 against the Union,
+and the cause of action must be dismissed with prejudice.
+c. Section 1985
+ Section 1985 provides for three separate causes of action. Section 1985(1) prohibits
+the interference with a federal officer in the performance of his or her duties, and Section
+1985(2) protects parties and witnesses who s eek to attend or testify in federal court. 105
+Plaintiffs assert claims under Sections 1985(2) and 1985(3).
+
+102 Id. at 1344.
+103 See id. at 1343.
+104 Id.; see also Miller, 425 U.S. at 440-45; 15 U.S.C. § 6802(e)(8); La. Rev. Stat. § 6:333(13).
+105 See, e.g., Kush v. Rutledge , 460 U.S. 719, 724 (1983); Kimble v. D.J. McDuffy, Inc. , 648 F.2d 340 (5th
+Cir. 1981); Bryant v. Miss. Military Dep’t, 519 F. Supp. 2d 622, 628–29 (S.D. Miss. 2007); Turner v. Bowen,
+No. 3:06-cv-576-DPJ-JCS, 2007 WL 1295 787, at *2 (S.D. Miss. May 1, 2007);  Ragsdale v. Classroom
+Case 2:19-cv-13323-SM-JVM   Document 211   Filed 03/17/23   Page 19 of 25
+20
+
+ The first portion of Section 1985(2) concerns federal judicial proceedings. 106 The
+second part of Section 1985(2), however, applies to conspiracies to obstruct the course of
+justice in state courts.107 The Court construes Plaintiffs’ allegations as invoking the second
+part of Section 1985(2). The second part of Section 1985(2) “describe[s] conspiracies
+designed to interfere with the equal protection of the laws.” 108 The language requiring
+intent to deprive one of equal protection of the laws means that there must be some racial
+or otherwise class-based discriminatory animus behind the conspirators' actions. 109
+Plaintiffs fail to allege racial or otherwise class-based discriminatory animus. Accordingly,
+the Court finds that Plaintiffs fail to state a claim under Section 1985(2).
+“Section 1985(3) prohibits private consp iracies to deprive persons of equal
+protection of the laws.”110 To state a claim for relief under Section 1985(3), a plaintiff must
+show, inter alia , “that some racial, or perhaps ot herwise class-based, invidiously
+discriminatory animus [lay] behind the conspirators’ action.”111 Stated differently, to state
+a claim under Section 1985(3), the plainti ff must allege sufficient facts showing the
+defendants conspired to discriminate against th e plaintiff on the basis of his or her race
+or class. 112 Plaintiffs have not alleged, however, that the Defendants conspired to
+
+Teachers of Dallas, No. 3:06-CV-863-H (BH), 3:06-CV-870-D, 2007 WL 426637, at *4 n.5 (N.D. Tex. Feb.
+5, 2007).
+106 Kush v. Rutledge, 460 U.S. 719, 724
+107 Id. at 725.
+108 Bradt v. Smith, 634 F.2d 796, 801 (5th Cir. 1981).
+109 Griffin v. Breckenridge, 403 U.S. 88, 91 (1971); Bradt, 634 F.2d at 801.
+110 Daigle v. Gulf State Utilities Co., Local Union Number 2286, 794 F.2d 974, 978 (5th Cir. 1986) (citation
+omitted).
+111 Bray v. Alexandria Women’s Health Clinic, 506 U.S. 263, 267–68 (1993) (internal quotations omitted)
+(quoting Griffin v. Breckenridge, 403 U.S. 825, 833 (1983)). See also David v. Signal Intern., LLC, No. 08-
+1220, 2012 WL 10759668, at *36 (E.D. La. Jan. 4, 2012).
+112 See, e.g., Newsome v. EEOC, 301 F.3d 227, 232 (5th Cir. 2002).
+Case 2:19-cv-13323-SM-JVM   Document 211   Filed 03/17/23   Page 20 of 25
+21
+
+discriminate against him on the basis of his race or other class. Plaintiffs’ cause of action
+under Section 1985 must be dismissed with prejudice.113
+d. Section 1986
+ Section 1986 provides for liability against third parties based on their knowledge
+of Section 1985 violations. Section 1986 does not provide an independent cause of action
+but instead requires the existence of a valid claim under Section 1985. 114 “A valid § 1985
+claim is a prerequisite to a § 1986 claim.” 115 Because the Plaintiffs have failed to state a
+plausible claim for relief under Section 1985, Plaintiffs’ cause of action under Section 1986
+is not cognizable. Therefore, Plaintiffs’ ca use of action under Section 1986 must be
+dismissed with prejudice.
+e. Violations of the Fourth, Fifth, Sixth, and Fourteenth
+Amendments
+
+Reading Plaintiffs’ third amended complaint liberally,116 Plaintiffs arguably ask this
+court to issue a declaratory judgment that th e Union violated their Fourth, Fifth, Sixth,
+and Fourteenth Amendment rights to privacy,  due process, and fair notice under the
+United States Constitution.117
+ “It is well-settled that the protection provided by the Fourth Amendment
+proscribes only governmental action, and that private party searches of property, even if
+wrongfully conducted, do not raise Fourth Amendment implications.” 118 To determine if
+private actor has become a state actor for purposes of the Fourth Amendment the courts
+
+113 To the extent Plaintiffs request a declaratory judgment that Defendants violated Section 1985, that claim
+is dismissed for the same reasons.
+114 Bradt, 634 F.2d at 799 n.3.
+115 Bryan v. City of Madison, Miss., 213 F.3d 267, 276 (5th Cir. 2000).
+116 Brown, 675 F.3d at 477.
+117 R Doc. 57 at ¶ 112.
+118 United States v. Paige, 136 F.3d 1012, 1017 (5th Cir. 1998) (citing United States v. Blocker, 104 F.3d 720,
+725 (5th Cir. 1997)).
+Case 2:19-cv-13323-SM-JVM   Document 211   Filed 03/17/23   Page 21 of 25
+22
+
+must evaluate a two-factor test: “(1) whether the government knew or acquiesced in the
+intrusive conduct; and (2) whether the private party intended to assist law enforcement
+efforts or to further his own ends.”119 In this case, even if there was a Fourth Amendment
+violation, the Union was not a state actor fo r the same reasons described above relating
+to Plaintiffs’ Section 1983 claim. Union acted on its own initiative to investigate Plaintiffs
+and turn that information over to the Loui siana authorities. Moreover, once a valid
+subpoena was issued, turning over Plaintiffs ’ information could not be an invasion of
+privacy.
+ The Fourteenth Amendment appl ies only to state actors, 120 and the Fifth
+Amendment only to federal actors. 121 Plaintiffs do not allege there was any federal
+involvement, so their Fifth Amendment claim must fail. The question of whether someone
+is bound by the Fourteenth Amendment is the “same question” posed “in determining
+whether a person is subject to suit under § 1983.”122 For the same reasons described above
+relating to Plaintiffs’ Section 1983 clai m, Plaintiffs’ claim under the Fourteenth
+Amendment must fail.
+ The Sixth Amendment provides that “[i]n all criminal prosecutions, the accused
+shall enjoy the right . . . to be informed of the nature and cause of the accusation.”123 This
+right “guarantees every defendant th e right to be informed of the government's
+accusation against him.” 124 The Union is a private enti ty, not the government, and
+
+119 United States v. Paige, 136 F.3d 1012, 1018 (5th Cir. 1998).
+120 See Williams v. Bramer, 180 F.3d 699, 705 (5th Cir. 1999); Landry v. A-Able Bonding, Inc., 75 F.3d 200,
+203 (5th Cir. 1996); Doe v. Rains Cnty. Indep. Sch. Dist., 66 F.3d 1402, 1406 (5th Cir. 1995).
+121 Richard v. Hinson, 70 F.3d 415, 416–17 (5th Cir. 1995); Blackburn v. City of Marshall, 42 F.3d 925, 930
+n.3 (5th Cir. 1995).
+122 Rendell-Baker v. Kohn, 457 U.S. 830, 838 (1982).
+123 U.S. Const. amend. VI.
+124 United States v. Ramos, 66 F.2d 469, 474 (11th Cir. 1982) (emphasis added); see also United States v.
+Sanchez, 508 F.2d 388, 395 (5th Cir. 1975) (noting the Sixth Amendment’s notice requirements are relevant
+to the government’s acts and charging documents).
+Case 2:19-cv-13323-SM-JVM   Document 211   Filed 03/17/23   Page 22 of 25
+23
+
+Plaintiffs have not alleged that the Union is  responsible for the bill of information filed
+against Lightfoot or its contents. For these re asons, Plaintiffs’ claims against the Union
+under the Fourth, Fifth, Sixth, and Fourtee nth Amendments must be dismissed with
+prejudice.
+ D. Plaintiffs’ State Law Claims  Are Dismissed Without Prejudice
+Plaintiffs also assert various state law claims against Defendants. Having dismissed
+each of Plaintiffs’ federal claims, the Court declines to exercise supplemental jurisdiction over
+Plaintiffs’ state law claims. District courts have discretion  not to exercise supplemental
+jurisdiction over a claim when all claims over which the court had original jurisdiction have
+been dismissed.125 Although the “‘general rule’ is to decline to exercise jurisdiction over
+pendent state-law claims” under such circumstances, the “rule is neither mandatory nor
+absolute.”126 Rather, a court must consi der “both the statutory provi s i o n s  o f  2 8  U . S . C .  §
+1367(c) and the balance of the relevant factors of judicial economy, convenience, fairness,
+and comity.”127 Having considered the applicable law, the complexity of Plaintiffs’ remaining
+state law claims, and the fact that the trial of  this matter has not yet been set, the Court
+declines to exercise supplemental jurisdiction over these claims an d dismisses Plaintiff’s
+remaining state law claims without prejudice.128
+
+125 42 U.S.C. § 1367(c)(3). 42 U.S.C. § 1367(c) reads:
+The district courts may decline to exercise supplemental jurisdiction over a claim under subsection (a) if:
+(1) the claim raises a novel or complex issue of State law, (2) the claim substantially predominates
+over the claim or claims over which the district court has original jurisdiction, (3) the district court
+has dismissed all claims over which it has original jurisdiction, or (4) in exceptional circumstances,
+there are other compelling reasons for declining jurisdiction.
+126 Batiste v. Island Records Inc., 179 F.3d 217, 227 (5th Cir. 1999) (quoting McClelland v. Gronwaldt, 155
+F.3d 507, 519 (5th Cir. 1998)).
+127 Id. (citations omitted).
+128 See Carnegie-Mellon Univ. v. Cohill , 484 U.S. 343, 350 n.7 (1988) (sta ting that “in the usual case in
+which all federal-law claims are eliminated before tria l, the balance of factors to be considered under the
+pendent jurisdiction doctrine . . . will point toward declining to exercise jurisdiction over the remaining
+state-law claims”); Batiste v. Island Records, Inc., 179 F.3d 217, 227 (5th Cir. 1999) (reversing the district
+court for declining to retain supplemental jurisdiction over the state law claims that remained following the
+district court’s grant of summary judgment on all of the plaintiff’s federal claims because “the remaining
+Case 2:19-cv-13323-SM-JVM   Document 211   Filed 03/17/23   Page 23 of 25
+24
+IV. Conclusion
+For the foregoing reasons,
+IT IS ORDERED that Defendants’, the Greate r New Orleans Federal Credit
+Union, Heather Rodgers, Shelly Sanders, and Gerry Kish, Motion to Dismiss 129 is
+GRANTED.
+IT IS FURTHER ORDERED that Plaintiffs’ claims against “all Defendants” are
+DISMISSED WITHOUT PREJUDICE  as the claims are impermissibly vague.
+IT IS FURTHER ORDERED that Plaintiffs’ lack standing to bring criminal
+charges under Louisiana statutes against the Greater New Orleans Federal Credit Union,
+Heather Rodgers, Shelly Sanders, and Gerry Kish and these claims are DISMISSED
+WITHOUT PREJUDICE FOR LACK OF STANDING.
+IT IS FURTHER ORDERED that Plaintiffs’ federal law claims against the
+Greater New Orleans Federal Credit Union, Heather Rodgers, Shelly Sanders, and Gerry
+Kish are DISMISSED WITH PREJUDICE.
+IT IS FURTHER ORDERED that Plaintiffs’ state law claims against Defendants
+the Greater New Orleans Federal Credit Union, Heather Rodgers, Shelly Sanders, and
+Gerry Kish are DISMISSED WITHOUT PREJUDICE as the Court declines to exercise
+its supplemental jurisdiction over these claims.
+New Orleans, Louisiana, this 16th day of March, 2023.
+_____________________________
+SUSIE MORGAN
+UNITED STATES DISTRICT JUDGE
+[state law] claims d[id] not involve any ‘novel or complex’ issues of state law,” and “[t]he case had been
+pending in the district court for almost three years”). The Court dismisses without prejudice all of Plaintiffs’
+remaining state law claims against each Defendant in this case.
+129 R. Doc. 88.
+Case 2:19-cv-13323-SM-JVM   Document 211   Filed 03/17/23   Page 24 of 25
+25
+
+Clerk to Notify via Mail:
+Geralyn Hawkins
+500 South Starrett Road
+New Orleans, LA 70123
+
+Chad Lightfoot #301162
+Orleans Parish Justice Center
+I.D. #2516543
+300 Perdido Street
+New Orleans, LA 70119
+
+Nicole Thompson
+P.O. Box 1472
+Kenner, LA 70063
+
+Clerk to Notify via E-Mail:
+
+Geralyn Hawkins
+geralynhawkins@yahoo.com
+
+Case 2:19-cv-13323-SM-JVM   Document 211   Filed 03/17/23   Page 25 of 25

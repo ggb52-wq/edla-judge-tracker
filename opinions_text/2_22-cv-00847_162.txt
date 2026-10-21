@@ -1,0 +1,391 @@
+1
+
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+BROWN ET AL
+VERSUS
+BURMASTER ET AL
+* CIVIL ACTION
+*
+* NO. 22-847
+*
+* SECTION: “L” (4)
+*
+*
+
+ORDER AND REASONS
+Before the Court are motions for summary judgment by Plaintiffs, Derek Brown and Julia
+Barecki-Brown, at R. Doc. 110, and Defendant Derrick Burmaster, at R. Doc. 105. Plaintiffs
+seek summary judgment on qualified immunity, their § 1983 claims, and their state law claims.
+Defendant Burmaster seeks summary judgment on qualified immunity and, in addition, asks this
+Court to dismiss Plaintiffs’ claim for punitive damages.
+Defendant Derrick Burmaster and Defendants Shaun Ferguson and the City of New Orleans
+(together, “City Defendants”) have filed memoranda in opposition to Plaintiffs’ motion, at R.
+Doc. 129 and R. Doc. 131, respectively. Plaintiffs have filed a memorandum in opposition to
+Defendant Burmaster’s motion, at R. Doc. 130. Having considered the briefing and the
+applicable law, the Court rules as follows.
+
+I. BACKGROUND
+  This case arises out of the alleged shooting of a dog by a New Orleans Police Department
+(“NOPD”) officer on April 10, 2021. R. Doc. 60 at ¶¶ 1-7. Plaintiffs allege that NOPD officer
+Derrick Burmaster and his partner, Officer John Roussel (“Officer Roussel”), arrived at the
+Plaintiffs’ home, in New Orleans, to respond to a noise complaint. Id. at ¶ 29. The officers
+allegedly banged on the fence to see if there were any dogs present and then walked through the
+Case 2:22-cv-00847-EEF-KWR     Document 162     Filed 03/29/23     Page 1 of 15
+2
+
+gate. Id. at ¶ 30. As two dogs ran towards the officers, Burmaster’s partner stepped backward and
+exited the gate. Id. at ¶ 32. Burmaster withdrew his firearm and fired three rounds at the smaller
+of the two dogs. Id. at ¶ 37. At least one of the rounds hit and killed the smaller of the two dogs:
+Apollo, an 18-week-old Catahoula puppy that stood at about 18 inches tall. Id. at ¶ 37. Shrapnel
+from the round hit Burmaster’s partner, who was treated for minor hand injuries at Tulane
+University Medical Center. Id. at ¶¶ 43-44. Plaintiff allege that Burmaster was carrying a
+conducted energy weapon (“CEW”), a Taser, which he did not use or deploy. Id. at ¶ 35. In
+addition, Plaintiffs allege that did not use his police baton against the dog, because he was not
+carrying it even though doing so is a requirement of NOPD policy. Id. at ¶ 36.
+  After the incident, Plaintiff alleges, NOPD’s internal affairs division, the Public Integrity
+Bureau (“PIB”), and NOPD Use of Force Review Board conducted an investigation and found
+the shooting to be unjustified, and that Burmaster had not engaged in appropriate de-escalation
+of the situation. Id. at ¶¶ 61-63. Plaintiffs allege that Burmaster is a “frequent user of force,” who
+has used force at least 30 times since 2011, including an incident in 2012 when he shot and killed
+a dog while investigating a property damage complaint. Id. at ¶¶ 68-71. Plaintiffs allege that
+Burmaster’s use of force has been the subject of multiple complaints, and that the NOPD has
+sustained at least twenty other rule violations against Burmaster, for violations involving “verbal
+intimidation, moral conduct, professionalism, performance of duty, neglect of duty, [and] failure
+to comply with instructions.” Id. at ¶ 74.
+  Plaintiffs state several causes of action against Burmaster, against NOPD Superintendent
+Shaun Ferguson, and against the City of New Orleans. First, Plaintiffs allege that Burmaster’s
+shooting of Apollo was a violation of their Fourth, Fifth, and Fourteenth Amendment rights
+under 42 U.S.C. § 1983, because “[i]t is clearly established that an officer cannot shoot a dog in
+Case 2:22-cv-00847-EEF-KWR     Document 162     Filed 03/29/23     Page 2 of 15
+3
+
+the absence of an objectively legitimate and imminent threat to him or others.” Id. at ¶¶ 76-80.
+  The Plaintiffs have also made claims for Monell liability against Shaun Ferguson and the
+City of New Orleans. Plaintiffs allege that the City had a “constitutional duty to adequately train,
+supervise and discipline Burmaster in order to prevent the violation of the rights of the citizens
+that he encountered,” and that it was deliberately indifferent to Plaintiffs’ constitutional rights in
+its failure to do so. Id. at ¶¶ 113-114. Plaintiffs allege that, despite Burmaster’s 2012 shooting of
+a dog, he either received no training or the NOPD’s “The Problem of Dog-Related Incidents and
+Encounters” training. Id. at ¶ 110. This training is deficient, Plaintiffs allege, because it copies a
+U.S. Department of Justice COPS program training while taking out passages about the low risk
+and general friendliness of approaching dogs, and information about “specific tactics” for
+dealing with animals. Id. at ¶¶ 121-135. Plaintiffs allege that the inclusion of these facts would
+have reduced the likelihood of Burmaster shooting Apollo. Id. at ¶¶ 121-136.
+  Plaintiffs also bring claims of negligence; negligent hiring, training, and supervision;
+vicarious liability; indemnity; and conversion against various defendants.
+II. PRESENT MOTIONS
+The motions for summary judgment submitted by Plaintiffs and Defendant Derrick
+Burmaster center on Burmaster’s liability under § 1983, and the threshold question of whether
+Burmaster should be granted qualified immunity.
+A. Plaintiffs’ Motion for Summary Judgment on Liability
+Plaintiffs ask the Court to grant their § 1983 claim, to dismiss Burmaster’s qualified
+immunity defense, and to grant their state law claims against all Defendants. They assert that
+“Officer Burmaster’s use of lethal force on Apollo was avoidable, objectively unreasonable and
+violative of the Brown family’s constitutional rights.” R. Doc. 111 at 2.
+Case 2:22-cv-00847-EEF-KWR     Document 162     Filed 03/29/23     Page 3 of 15
+4
+
+Plaintiffs argue that, under the totality of the circumstances, Burmaster’s use of lethal
+force against the Plaintiffs’ dog violated their constitutional rights because it was unreasonable.
+First, Plaintiffs argue, Burmaster made “kissy sounds” to draw out dogs, but the Body-Worn
+Camera (“BWC”) footage from the incident shows that he did so in front of the neighbor’s
+house, some distance from the Plaintiffs’ own home, and therefore the sounds would have been
+inaudible to the Browns’ dogs. Id. at 14. Second, Plaintiffs contend that Burmaster’s belief that
+Apollo would cause him “serious bodily harm” was objectively unreasonable. Id at 15. Plaintiffs
+argue that the BWC footage shows that Apollo “never barked, growled, vocalized, jumped,
+lunged, or bared his teeth at Burmaster,” and note that the NOPD’s PIB team, which investigated
+Burmaster determined that Burmaster “fir[ed] his weapon out of fear and not because the dog
+presented a threat of serious bodily injury or death to Officer Burmaster.” Id. at 16. Further,
+Plaintiffs’ note, Defendants’ 30(b)(6) representative Sergeant John Helou and Christopher
+Goodly came to the same conclusion as the PIB. Id.
+Third, Plaintiffs argue, Burmaster acted unreasonably because he employed none of the
+“numerous effective non-lethal options readily available to him at the time he shot Apollo.” Id. at
+17. Plaintiffs point to the CEW that Burmaster had on his person, which NOPD policy states may
+be used to reduce the need for greater force against animals. Id. at 18. Further, Plaintiffs cite the
+depositions of multiple police witnesses, who stated that the Burmaster’s NOPD-issued baton
+would have been an effective tool against Apollo; however, Burmaster was not carrying the
+baton with him when he arrived at the Plaintiffs’ home, “in express violation of NOPD’s
+mandatory policy.” Id. Furthermore, Plaintiffs argue, these same witnesses said that he could
+have kicked the puppy away with his boots. Id.
+ Plaintiffs contend that the findings of the PIB, which concluded that Burmaster violated
+Case 2:22-cv-00847-EEF-KWR     Document 162     Filed 03/29/23     Page 4 of 15
+5
+
+five separate NOPD policies relating to the use of deadly force, along with Burmaster’s firing of
+multiple shots “without conducting any evaluation of the need to do so,” weigh against a finding
+of reasonableness. Id. at 19-20.
+Plaintiffs argue that the law—that the unreasonable killing of a dog is considered an
+unconstitutional “seizure” under the Fourth Amendment—was “clearly established” at the time
+Burmaster shot Apollo, and that Burmaster had “reasonable notice of the illegality” of his action.
+Id. at 22. Plaintiffs cite Skinner v. Ard, in which a district court notes that in the Fifth Circuit
+“‘[i]t is beyond dispute that the killing of an individual’s pet dog by an officer constitutes a
+‘seizure’ within the meaning of the Fourth Amendment’ and that ‘[s]eizures by law-enforcement
+officials violate the Fourth Amendment . . . if they are unreasonable.” R. Doc. 111-1 (citing
+Skinner v. Ard, 517 F. Supp. 3d 586, 603 (M.D. La. 2021) (citing Grant v. City of Hous., 625 F.
+App’x 670, 675 (5th Cir. 2015)). Because controlling authority in the Fifth Circuit and “a robust
+consensus of persuasive authority” creates a “framework” for determining whether the shooting
+of a dog is a Fourth Amendment violation, Plaintiffs reason that the unlawfulness of Burmaster’s
+shooting of Apollo would be apparent to a reasonable officer. R. Doc. 111-1 at 24-25.
+In their memorandum in opposition, the City Defendants argue that Plaintiffs are not
+entitled to summary judgment because doing so would constitute “second-guessing a police
+officer” who made a “split-second decision when faced with a tense, uncertain, and rapidly
+evolving situation.” R. Doc. 131 at 1. The City Defendants argue that it was “not unreasonable”
+for Burmaster to have discharged his weapon at Apollo because of a number of facts: he made
+“kissy sounds” as he approached the house; there was “objectively” no indication that the
+Browns had dogs; Burmaster was “clearly surprised by the sudden loud barking from above” and
+the subsequent appearance of two dogs on the stairs; Officer Roussel “slammed shut” the gate
+Case 2:22-cv-00847-EEF-KWR     Document 162     Filed 03/29/23     Page 5 of 15
+6
+
+during his retreat; and Burmaster did not know that Apollo was a “puppy.” Id. at 4-5.
+The City Defendants cite Stephenson vs. McClelland, 632 F. App’x 177 (5th Cir. 2015),
+in which the Fifth Circuit upheld a district court ruling that an officer was entitled to qualified
+immunity when an officer shot a dog that was showing his teeth. Id. at 5. In that instance, like
+this one, the City Defendants argue, the officer was surprised by the dog, the officer “did not
+know the family pet was friendly and nonaggressive,” and the officer had to make a “split-
+second decision” to defend himself. Id. As a result, the City Defendants argue that the Plaintiffs
+“cannot show that no genuine issue of fact exists as to the reasonableness of Officer Burmaster’s
+actions” and that their motion should be denied. Id. at 6.
+B. Defendant Derrick Burmaster’s Motion for Summary Judgment
+Defendant Burmaster argues that he is entitled to summary judgment on qualified
+immunity because the Plaintiffs’ constitutional rights were not violated. R. Doc. 105-1 at 1. Even
+if they were, Defendant Burmaster argues, “the Browns cannot demonstrate that Burmaster’s
+alleged conduct violated a constitutional right that was clearly established at the time.” Id.
+Burmaster argues that there is “undisputed evidence” from the BWCs of Burmaster and
+his partner, Roussel, that both officers “were totally surprised by the presence of the dogs and
+their aggressive behavior.” Id. at 17. Defendant Burmaster argues that these videos, along with
+the testimony of Sergeant David Duplantier (“Sgt. Duplantier”)—an NOPD Training Academy
+supervisor who reviewed Officer Burmaster’s actions after the incident—establish that “in the
+short time he had to react, Burmaster had no non-lethal options available to him.” Id. at 17. To
+support his contention that he and his partner were surprised by the dogs, Burmaster notes that he
+made “kissing” noises to draw out the dogs, but heard no response and saw no posted signs
+indicating the presence of dogs. Id. at 3. When the dogs appeared and ran down the stairs,
+Case 2:22-cv-00847-EEF-KWR     Document 162     Filed 03/29/23     Page 6 of 15
+7
+
+Burmaster states, “the dogs were not behaving in a friendly manner but rather were behaving
+aggressively” leading him to be fear the dog would bite him. Id.
+ To the Plaintiffs’ point about subsequent reviews by the NOPD finding that he was “not
+credible” weighing in favor of a finding that his actions were not reasonable, Burmaster argues
+that he was not present at the Use of Force Review Board, in which the board reviewed the BWC
+videos and the PIB investigation, and ultimately determined that the shooting was “not justified.”
+Id. at 7. Burmaster also points to the review meeting that he underwent with Sgt. Duplantier of
+the NOPD Training Academy, in which Sgt. Duplantier recommended that Burmaster return to
+full duty because “Burmaster’s decision to use lethal force towards the dog falls within reason.”
+Id. at 8.
+ Burmaster argues that, even if there was no threat to him based on the foregoing facts,
+Plaintiffs “cannot carry the burden of proving that it is clearly established law that making a split
+second decision to shoot a dog that is aggressively charging at an officer is unconstitutional.” Id.
+at 24. As a result, Burmaster argues, he should still be entitled to qualified immunity. Id.
+ Burmaster further argues that the Plaintiffs’ claim for punitive damages should be
+dismissed because Plaintiff “has not alleged any specific facts against Burmaster, and there is no
+evidence adduced to date, to establish malicious, wanton or oppressive conduct to warrant the
+consideration of punitive damages.” Id. at 25.
+ In their memorandum in opposition, Plaintiffs largely restate the content of their own
+motion for summary judgment on the qualified immunity issue. With regards to punitive
+damages, Plaintiffs argue, “a reasonable jury could conclude that Burmaster’s actions reflected a
+reckless indifference to the Browns’ rights” because he could have avoided killing Apollo by
+“extremely simple” means, including kicking the dog or using his Taser or baton. R. Doc. 130 at
+Case 2:22-cv-00847-EEF-KWR     Document 162     Filed 03/29/23     Page 7 of 15
+8
+
+25.
+III. APPLICABLE LAW
+A. Summary Judgment Standard
+Summary judgment is proper if the pleadings and the evidence gathered in discovery “show
+that there is no genuine issue as to any material fact and that the moving party is entitled to a
+judgment as a matter of law.” Celotex Corp. v. Catrett, 477 U.S. 317, 322 (1986) (citing Fed. R.
+Civ. P. 56(c)). “Rule 56(c) mandates the entry of summary judgment, after adequate time for
+discovery and upon motion, against a party who fails to make a showing sufficient to establish
+the existence of an element essential to that party’s case, and on which the party will bear the
+burden of proof at trial.” Id. The moving party bears the burden of “informing the district court
+of the basis for its motion, and identifying those portions of [the record] which it believes
+demonstrate the absence of a genuine issue of material fact.” Id. at 323.
+“A factual dispute is ‘genuine’ if the evidence is such that a reasonable jury could return
+a verdict for the nonmoving party. A fact is ‘material’ if it might affect the outcome of the suit
+under the governing substantive law.” Beck v. Somerset Techs., Inc., 882 F.2d 993, 996 (5th Cir.
+1989) (citing Anderson v. Liberty Lobby, Inc., 477 U.S. 242, 248 (1986)). When ruling on a
+motion for summary judgment, a court may not resolve credibility issues or weigh evidence.
+Delta & Pine Land Co. v. Nationwide Agribusiness Ins. Co., 530 F.3d 395, 398-99 (5th Cir.
+2008); Int’l Shortstop, Inc. v. Rally’s Inc., 939 F.2d 1257, 1263 (5th Cir. 1991). Moreover, the
+court must assess the evidence and “review the facts drawing all inferences most favorable to the
+party opposing the motion.” Reid v. State Farm Mut. Auto. Ins. Co., 784 F.2d 577, 578 (5th Cir.
+1986). However, “conclusory allegations,” “unsubstantiated assertions,” or “only a scintilla of
+Case 2:22-cv-00847-EEF-KWR     Document 162     Filed 03/29/23     Page 8 of 15
+9
+
+evidence” are not sufficient to show a genuine dispute of material fact. Little v. Liquid Air Corp.,
+37 F.3d 1069, 1075 (5th Cir. 1994).
+IV. ANALYSIS
+The Court will consider the following three issues in turn: first, Plaintiffs’ and Defendant
+Burmaster’s motions for summary judgment regarding qualified immunity and Plaintiffs’ § 1983
+Claims; second, the Plaintiffs’ motion for summary judgment on their state tort claims; and
+fourth, Defendant’s motion for this Court to dismiss Plaintiffs’ punitive damages claim.
+A. Qualified Immunity and § 1983 Claims
+For lawsuits brought against public officials under 42 U.S.C. § 1983, the Supreme Court
+has established the doctrine of qualified immunity. The doctrine aims “to balance two competing
+societal interests: ‘the need to hold public officials accountable when they exercise power
+irresponsibly and the need to shield officials from harassment, distraction, and liability when
+they perform their duties reasonably.’” Joseph on behalf of Est. of Joseph v. Bartlett, 981 F.3d
+319, 328 (5th Cir. 2020) (quoting Pearson v. Callahan, 555 U.S. 223, 231 (2009)). When this
+immunity from suit is invoked, the summary judgment burden shifts from the public official-
+defendant—that is, the moving party on whom the burden traditionally rests—to the plaintiff. Id.
+Qualified immunity has two prongs which a plaintiff must overcome in order to defeat
+summary judgment. First, the plaintiff must demonstrate that the actor claiming immunity
+violated his constitutional or statutory right. Second, the plaintiff must show that the “violated
+right was ‘clearly established’ at the time of the alleged violation.” Id. at 329.
+“‘Clearly established’ means that, at the time of the officer’s conduct, the law was sufficiently
+clear that every ‘reasonable official would understand that what he is doing is unlawful.’” Dist.
+of Columbia v. Wesby, 138 S. Ct. 577, 590 (2018) (internal quotation marks omitted). The
+Case 2:22-cv-00847-EEF-KWR     Document 162     Filed 03/29/23     Page 9 of 15
+10
+
+Supreme Court has “repeatedly stressed that courts must not define clearly established law at a
+high level of generality, since doing so avoids the crucial question whether the official acted
+reasonably in the particular circumstances that he or she faced.’” Wesby, 138 S. Ct. at 590
+(internal quotation marks omitted).
+ In sum, when a public official makes a good-faith invocation of qualified immunity, it is
+the plaintiff’s burden: (1) to demonstrate a genuine dispute of material fact and to show “that a
+jury could return a verdict entitling the plaintiff to relief for a constitutional [or statutory] injury,”
+and (2) to show that the allegedly violated right was clearly established by “‘identify[ing] a
+case—usually, a body of relevant case law—in which an officer acting under similar
+circumstances . . . was held to have violated the Constitution.’” Joseph on behalf of Est. of
+Joseph v. Bartlett, 981 F.3d at 329 (quoting Wesby, 138 S. Ct. at 590).
+This Court has the discretion to decide which of the two prongs of the qualified immunity
+analysis should be addressed first. See Pearson, 555 U.S. at 236.  In other words, the Court may
+choose to analyze the second prong—that is, the clearly established prong— immediately
+without first deciding whether there was a violation of rights. See id.
+1. Clearly Established Law
+It is clearly established law that the unreasonable shooting of a pet dog by a police officer
+is an unconstitutional seizure under the Fourth Amendment. “[I]t is beyond dispute that the
+killing of an individual’s pet dog by an officer constitutes a ‘seizure’ within the meaning of the
+Fourth Amendment” and that “[s]eizures by law-enforcement officials violate the Fourth
+Amendment . . . if they are unreasonable.” Skinner v. Ard, 517 F. Supp. 3d 586, 602-03 (M.D.
+La. 2021) (citing Grant v. City of Houston, 625 F. App’x 670, 675 (5th Cir. 2015)). See also
+Jones v. Lopez, 689 Fed. Appx. 337, 339 (5th Cir. 2017). In determining whether a seizure was
+Case 2:22-cv-00847-EEF-KWR     Document 162     Filed 03/29/23     Page 10 of 15
+11
+
+reasonable, “we look to the totality of the circumstances, balancing ‘the nature and quality of the
+intrusion on the individual’s Fourth Amendment interests against the countervailing
+governmental interests at stake.’” Stephenson v. McClelland, 632 F. App’x 177, 184 (5th Cir.
+2015) (citing Graham v. Connor, 490 U.S. 386, 396-97 (1989)).
+Plaintiffs and Defendant Burmaster have each cited a number of cases in which a court
+did or did not grant qualified immunity to a police officer that shot a dog, based on the evidence
+marshalled by the parties regarding the reasonability of the officer’s actions. See Grant v. City of
+Hous., 625 Fed.App’x 670, 674 (5th Cir. 2015) (“The evidence in the record indicates that
+Simpson was genuinely surprised by Buster's presence and aggression, and Grant has marshalled
+only a scintilla of evidence to dispute the expert and eyewitness testimony indicating that
+Simpson exhausted all non-lethal options prior to using lethal force against the dog.”); Brown v.
+Muhlenberg Twp., 269 F.3d 205, 211 (3d Cir. 2001) (If the facts asserted by the Browns are
+found to be true, we conclude that a reasonable officer in Officer Eberly's position could not
+have applied these well established principles to the situation before him and have concluded that
+he could lawfully destroy a pet who posed no imminent danger and whose owners were known,
+available, and desirous of assuming custody.”).
+ Each of these cases rests on the same core logic: that it is reasonableness that determines
+constitutionality, and that reasonableness itself is determined by an inquiry into the “totality of
+the circumstances.” Stephenson v. 632 F. App’x at 184 (5th Cir. 2015).
+2. Reasonability of Defendant Burmaster’s Actions
+In this case, whether or not Defendant Burmaster’s actions were reasonable is a question
+of fact for the jury—not this Court—to decide, because there are genuine issues as to a number
+of material facts in this case. Celotex, 477 U.S. at 322.As the Fifth Circuit has explained,
+Case 2:22-cv-00847-EEF-KWR     Document 162     Filed 03/29/23     Page 11 of 15
+12
+
+[R]easonableness under the Fourth Amendment should frequently remain a question for
+the jury. To put the matter more directly, since we lack a clearly defined rule for
+declaring when conduct is unreasonable in a specific context, we rely on the consensus
+required by a jury decision to help ensure that the ultimate legal judgment of
+“reasonableness” is itself reasonable and widely shared.
+
+Lytle v. Bexar Cty. Tex., 560 F.3d 404, 411 (5th Cir. 2009) (citing Abraham v. Raso, 183 F.3d
+279, 290 (3d Cir. 1999)). In the context of claims of Fourth Amendment violations arising out of
+pet shootings, summary judgment is inappropriate when issues of material fact must be resolved
+to determine if an officer’s actions were reasonable. Jones, 689 Fed. Appx. at 338 (“We find
+genuine issues of material fact regarding the events at the plaintiffs’ residence, making the
+applicability of qualified immunity unresolvable at this juncture.”); Kincheloe v. Caudle, No. A-
+09-CA-010 LY, 2009 U.S. Dist. LEXIS 96371, at *24 (W.D. Tex. Oct. 16, 2009) (“[T]he Court
+finds that material fact issues exist as to the reasonableness of Chief Caudle's shooting and
+killing of the Kincheloes' pet dog which precludes summary judgment on this issue.”)
+As in Jones and Kincheloe, this is a clear instance in which the consensus of a jury
+decision is necessary to determine whether or not the Defendant’s choice to use lethal force on
+Plaintiffs’ dog was reasonable. The parties claim that the available evidence proves different and
+often conflicting facts. For instance, both Plaintiffs and Defendants state that the evidence shows
+different facts regarding even the “kissing noises” that Defendant Burmaster made before he
+entered the Plaintiffs’ property: Burmaster argues that he made them outside of the Plaintiffs’
+fence, while Plaintiffs contend that he in fact made them at the neighbor’s house, before he
+reached their home. As a result, Plaintiffs argue, their dogs could not have been expected to hear
+the noises or be drawn out by them. Similarly, Plaintiffs allege that Burmaster’s BWC footage
+shows that Apollo “never barked, growled, vocalized, jumped, lunged, or bared his teeth at
+Burmaster,” R. Doc. 111 at 15, and that his tail was wagging, while Defendant Burmaster
+Case 2:22-cv-00847-EEF-KWR     Document 162     Filed 03/29/23     Page 12 of 15
+13
+
+testified in his deposition that Apollo “was coming at me, aggressive, barking” and approaching
+“in a manner that made me think that he was going to bite . . . my leg . . . bite me somewhere
+else.” R. Doc. 105-1 at 4.
+ Burmaster argues that the evidence from Burmaster’s and Roussel’s BWCs provide
+“undisputed and clear” evidence that the Defendant’s version of events is true. R. Doc. 105-1 at
+17. He cites Tucker v. City of Shreveport for the proposition that it is appropriate to “view [ ] the
+facts in the light depicted by the videotape.” Tucker v. City of Shreveport, 998 F.3d 165, 170 (5th
+Cir. 2021) (citing Scott v. Harris, 550 U.S. 372, 381 (2007)). But Defendant Burmaster, City
+Defendants, and Plaintiffs all cite to the same two body camera videos to support different facts
+and different interpretations of the same event. To the City Defendants, Burmaster’s body
+camera footage shows that “Officer Burmaster saw a large dog rush down the stairs and
+aggressively pursue his partner.” R. Doc. 131 at 7. From the same exact video, Plaintiffs
+conclude that “Apollo’s tail was clearly and visibly wagging as he approached Burmaster.” R.
+Doc. 111-1 at 6.
+ The Court has reviewed the BWC footage of both Burmaster and his partner, Officer
+Roussel, and finds that the videos do not fall within the territory described in Scott v. Harris, in
+which a video clearly establishes or contradicts either party’s version of events. The footage is
+grainy, brief, and could be taken to support a number of the factual allegations made by both
+sides. If this Court is to “review the facts drawing all inferences most favorable to the party
+opposing the motion[s],” Reid, 784 F.2d at 578, neither party can prevail on a motion for
+summary judgment on the qualified immunity issue.
+ In summary, both the Plaintiffs and Defendant Burmaster seek summary judgment.
+Plaintiff argues that Burmaster’s killing of Apollo was unreasonable and a violation of the Fourth
+Case 2:22-cv-00847-EEF-KWR     Document 162     Filed 03/29/23     Page 13 of 15
+14
+
+Amendment. Defendant, on the other hand, argues that the shooting was reasonable and that
+Burmaster is entitled to qualified immunity. Each cite evidence supporting their respective
+positions regarding the reasonableness of Burmaster’ actions. Even so, the result depends on the
+weight given to the specific evidence each party cites. That is the providence of a jury and not a
+court. When a matter is so laden with competing facts, summary judgment is inappropriate. It is,
+rather, appropriate for jurors to consider the body camera footage, in combination with the
+testimony of the two officers involved, the reports issued by the NOPD, NOPD policies known
+to Burmaster before the shooting, and other available evidence to determine whether or not
+Burmaster acted reasonably when he shot Apollo rather than choosing a non-lethal course of
+action
+B. Plaintiffs’ State Law Claims
+Plaintiffs also ask for summary judgment on their state law claims of conversion,
+negligence, negligent infliction of emotional distress, vicarious liability, and indemnity. R. Doc.
+111-1 at 25. The Plaintiffs argue that summary judgment may be granted on these claims based
+on the “same evidence” that supports summary judgment on the issues of § 1983 and qualified
+immunity. Id. Given the Court’s determination above that the evidence available in the record
+creates a factual dispute appropriate for the jury to decide, it would be inappropriate to grant
+summary judgment on these claims.
+C. Punitive Damages
+To prevail on punitive damages, Plaintiffs must show that “the official conduct [was]
+‘motivated by evil intent’ or demonstrate[d] ‘reckless or callous indifference’ to a person’s
+constitutional rights.” Moore v. LaSalle Mgmt. Co., 41 F.4th 493, 513 (5th Cir. 2022). The Court
+finds that, like the reasonableness analysis, the question of whether or not Defendant Burmaster
+Case 2:22-cv-00847-EEF-KWR     Document 162     Filed 03/29/23     Page 14 of 15
+15
+showed “reckless or callous indifference” to the Plaintiffs’ constitutional rights is a factual
+question that must be decided by the jury. Although the Court recognizes that this is a higher
+hurdle than the reasonability determination required in qualified immunity analysis, it remains a
+question of fact.
+V. J
+UDGMENT
+Plaintiffs’ Motion for Partial Summary Judgment, at R. Doc. 110, is DENIED.
+Defendant Derrick Burmaster’s Motion for Summary Judgment, at R. Doc. 105, DENIED.
+N
+ew Orleans, Louisiana, this 29th day of March, 2023.
+_____________________________________
+
+THE HONORABLE ELDON E. FALLON
+UNITED STATES DISTRICT JUDGE
+Case 2:22-cv-00847-EEF-KWR     Document 162     Filed 03/29/23     Page 15 of 15
