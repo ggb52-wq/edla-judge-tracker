@@ -1,0 +1,382 @@
+1
+
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+PAUL HOTARD  CIVIL ACTION
+
+VERSUS  NO. 20-1877
+
+AVONDALE INDUSTRIES, INC. ET AL  SECTION "L" (1)
+
+ORDER AND REASONS
+Before the Court are three motions. Huntington Ingalls Incorporated (“Avondale”) filed a
+Motion for Partial Summary Judgment. R. Doc. 535. Hopeman Brothers, Inc. and Liberty Mutual
+Insurance Company (collectively “Hopeman Interests”) filed a Motion for Partial Summary
+Judgment. R. Doc. 551. Lastly, Exxon Mobil Corporation and SeaRiver Maritime, Inc.
+(collectively “SeaRiver”) filed a Cross-Motion for Partial Summary Judgment. R. Doc. 561. The
+parties have also filed various replies and oppositions to the foregoing motions. R. Docs. 563, 565,
+575, 582, 584, 595. On March 27, 2024, the Court held oral argument on the motions. Considering
+the briefing, applicable law, and oral argument, the Court now rules as follows.
+I. BACKGROUND
+The Court is familiar with the extensive factual history of this case and will not repeat it
+here. See R. Doc. 520 for a full history. For this motion, the relevant background is as follows.
+This litigation arises from Decedent Paul Hotard’s alleged exposure to injurious levels of
+asbestos and asbestos-containing products designed, manufactured, sold and/or supplied by several
+Defendant companies while employed by Avondale in the mid-1960s. R. Doc. 1-2 at 2. Mr. Hotard
+allegedly was diagnosed with mesothelioma on or around April 2020. R. Doc. 166-2 at 2; R. Doc.
+181-1 at 2. His alleged occupational exposure to asbestos-containing products at Avondale was a
+Case 2:20-cv-01877-EEF-JVM   Document 602   Filed 04/03/24   Page 1 of 14
+2
+
+result of a failure by the company and its executive officers “to provide a safe place in which to
+work free from the dangers of respirable asbestos-containing dust.” R. Doc. 166-2 at 5. Decedent,
+a citizen of Kentucky, brought Louisiana state law negligence and strict liability tort claims against
+the defendants in Orleans Parish Civil District Court. R. Doc. 1-2.
+Avondale removed the case to this court on the basis of diversity jurisdiction. The matter
+was originally assigned to Chief Judge Brown. On or about September 21, 2021, Paul Hotard, the
+decedent, died allegedly because of malignant mesothelioma. R. Doc. 233. His widow, Patricia
+Hotard, filed an amended complaint as the independent administratrix of decedent’s estate. Id.
+On April 8, 2021, Hopeman Interests entered a settlement with Plaintiff. R. Doc. 191. On
+January 26, 2022, Chief Judge Brown granted Avondale’s motion for summary judgment, holding
+that “the ‘date of disease manifestation’ theory of accrual governs Plaintiff’s claim, rendering the
+post-1972 version of the [Longshore and Harbor Workers’ Compensation Act (“LHWCA”), 33
+U.S.C. § 901, et seq. ] applicable to this case. The Court also found that the LHWCA preempts
+Plaintiff’s state law tort claims.” R. Doc. 271 at 35 . Accordingly, the Court dismiss ed with
+prejudice Plaintiff’s state law tort claims against Avondale. Id. at 36. On February 15, 2022, Chief
+Judge Brown recused herself and the matter was reallotted to this Section. R. Docs. 304-06.
+On January 6, 2023, trial dates for the matter were continued pending the Fifth Circuit’s
+opinion in Barrosse v. Huntington Ingalls, Inc., 70 F.4th 315 (5th Cir. 2023), which was decided
+on June 12, 2023.1 The Court then issued an order that defendants file or amend any third-party
+
+1 On November 22, 2021, Judge Vitter held—in a similar line of cases —that state -law negligence claims against
+Avondale were preempted by the LHWCA “because they directly conflicted with and frustrated the purposes of the
+Act.” Id. at 317. Thus, the Court granted Avondale’s motion for summary judgment in favor of Avondale. Barrosse
+v. Huntington Ingalls, Inc., 20-2042, 2021 WL 5447447 at *3 (E.D. La. Nov. 22, 2021). The plaintiff, Ronald Barrosse,
+who was diagnosed with mesothelioma, appealed this decision. On June 12, 2023, the Fifth Circuit reversed the district
+court’s decision and held that the plaintiff’s claims were not preempted by the LHWCA because his injury occurred
+prior to the Louisiana’s 1975 worker’s compensation statute thereby creating a “twilight zone of concurrent
+jurisdiction.” Barrosse, 70 F.4th at 324. Accordingly, and similar to the case at hand, Avondale once again became a
+defendant in the case.
+Case 2:20-cv-01877-EEF-JVM   Document 602   Filed 04/03/24   Page 2 of 14
+3
+
+complaint by July 28, 2023. R. Doc. 463. A month later, the Court issued a scheduling order, which
+included a new trial date, and reset trial to February 20, 2024. R. Doc. 480.
+Though the Court had previously denied SeaRiver’s Motion for Leave to File a Third-Party
+Demand because of its untimely nature, SeaRiver filed a Motion for Reconsideration of the Court’s
+decision on July 28, 2023. Because the Court had reset deadlines to file third-party complaints and
+trial dates, the Court granted the reconsideration motion. R. Docs. 469; 496. Accordingly, SeaRiver
+filed a third-party complaint against Avondale and Hopeman Interests, bringing the latter back into
+the suit.
+At a telephone status conference held on December 4, 2023, Mrs. Hotard indicated to the
+Court that she had reached a r esolution with all parties—leaving only contractual and indemnity
+claims between the defendants to be resolved. R. Doc. 528. At a late January 2024 telephone
+conference, the Court granted the Hopeman Interests’ motion and reset trial dates to August 12,
+2024. R. Doc. 546. Presently before the Court are three motions for partial summary judgment,
+which focus on SeaRiver’s indemnity claims against Avondale and Hopeman Interests. On March
+28, 2024, the Court heard oral argument on the motions.
+II. PRESENT MOTIONS
+a. Avondale’s Motion for Partial Summary Judgment
+In its motion for partial summary judgment, Avondale argues that it is entitled to dismissal
+of SeaRiver’s defense and indemnity claims that are based upon SeaRiver’s own negligence. R.
+Doc. 535. SeaRiver’s predecessor-in-interest, Humble Oil & Refining Company , and Avondale
+entered into a contract to build oil tankers on Avondale’s shipyard. This contract, known as the
+SeaRiver-Avondale Contract, governs SeaRiver’s indemnity claims against Avondale. Under
+
+Case 2:20-cv-01877-EEF-JVM   Document 602   Filed 04/03/24   Page 3 of 14
+4
+
+Louisiana law, Avondale explains that the applicable legal standard for contractual indemnity
+claims depends on whether it is based upon negligence or strict liability. Presently, Avondale seeks
+a ruling from the Court focusing on SeaRiver’s indemnity claims arising out of SeaRiver’s own
+negligence. It argues that indemnity contracts only cover the indemnitee’s own negligence when
+that intention is expressly and unequivocally stated in the contract. The relevant indemnity
+provision in the SeaRiver-Avondale Contract can be found in Article VII(3) and provides:
+3. [Avondale] shall indemnify [Humble Oil] against and hold it
+harmless from all claims and damages arising from injuries to any person
+or persons (except employees of [Humble Oil], unless said empl oyees are
+injured through carelessness or negligence of [Avondale]) or from damages
+to property in or about or connected with the fabrication, erection,
+construction, launching, equipment, and operation of the Vessel until
+delivery of the Vessel to [Humble Oil].
+
+R. Doc. 535-2 at 25-26.
+
+Avondale argues that the language used in this provision does not expressly and
+unequivocally state that Avondale is to indemnify SeaRiver for injuries arising out of SeaRiver’s
+own negligence. It further distinguishes this provision from those that Louisiana courts have
+previously held expressly state that an indemnitor is obligated to an indemnitee even in instances
+arising from the indemnitee’s own negligence. Thus, Avondale requests that the Court dismiss
+SeaRiver’s indemnity and defense claims against it arising out of SeaRiver’s own negligence.
+Instead of submitting a substantive opposition, SeaRiver directs the Court to consider the
+arguments it raises in its cross motion for partial summary judgment. R. Doc. 563.While those are
+detailed in a separate section below, the Court briefly discusses the contentions that serve as
+opposition to Avondale’s motion. For example, SeaRiver argues that the indemnity provision
+obligates Avondale to indemnify it for Plaintiff’s strict liability claims against SeaRiver. It further
+argues that it is entitled to recover 100% of its defense and settlement costs based on this
+Case 2:20-cv-01877-EEF-JVM   Document 602   Filed 04/03/24   Page 4 of 14
+5
+
+obligation. Thus, it argues that the Court need not address the issues in Avondale’s motion because
+SeaRiver can fully recover from Avondale through indemnity for the strict liability claims.
+In reply, Avondale first argues that SeaRiver has not contested any material facts  as
+asserted by Avondale  and thus, SeaRiver concedes the SeaRiver -Avondale contr act does not
+obligate Avondale to indemnify SeaRiver for SeaRiver’s own negligence. R. Doc. 582 at 1-3.
+Avondale next argues that SeaRiver’s contentions regarding 100% apportionment of settlement
+costs pursuant to SeaRiver’s indemnity claim for strict liability is defies logic and would lead to
+absurd consequences. Id. at 3. Avondale further argues that SeaRiver is not entitled to indemnity
+or defense costs for its vicarious liability from Avondale. Id. at 7.
+b. Hopeman Interests’ Motion for Partial Summary Judgment
+ For similar reasons that Avondale articulates, Hopeman Interests asks the Court to dismiss
+SeaRiver’s indemnity claims against them  that arise out of actions “wholly independent” of
+Hopeman Interests. R. Doc. 551. Here, SeaRiver’s claims for indemnity against Hopeman Interests
+stem from the Hopeman-Avondale contract, which was created to complete joiner work needed
+for the tankers. The relevant indemnity provision provides that:
+ Vendor [Hopeman] shall protect, defend, indemnity and save ASI 2
+and Humble Oil and Refining Company harmless against any and all claims,
+demands, and causes of actions of every kind and character arising in favor
+of any person on account of personal injury, death or damages to property
+occurring, growing out of incident to or resulting directly or indirectly from
+the performance by the Vendor hereunder, and to pay all judgments
+rendered against ASI and/or Humble Oil and Refining Company in
+connection therewith.
+
+R. Doc. 497-2 at 5.
+
+ Like Avondale, Hopeman Interests argues that the provision lacks clear and unambiguous
+language for them to indemnify SeaRiver for claims arising out of SeaRiver’s own negligence.
+
+2 ASI refers to Avondale Shipyards Inc.
+Case 2:20-cv-01877-EEF-JVM   Document 602   Filed 04/03/24   Page 5 of 14
+6
+
+Hopeman Interests further cites this Court’s earlier order which cabined SeaRiver’s indemnity
+claims against them to strictly those arising directly or indirectly from Hopeman Interests’ actions.
+Accordingly, they move the Court to dismiss any indemnity or defense claim from SeaRiver that
+are independent of Hopeman Interests’ own actions.
+ Once again, in opposition, SeaRiver directs the Court to consider the arguments it raises in
+its cross motion for summary judgment, which are discussed below. R. Doc. 565.
+ In reply, Hopeman Interests argues that SeaRiver failed to contest any material facts
+submitted by Hopeman Interests. R. Doc. 575. They reject SeaRiver’s contentions about the
+allocation of fault regarding its potential indemnity claims against Hopeman Interests. Lastly, they
+briefly reiterate arguments raised in their motion for partial summary judgment.
+c. SeaRiver’s Cross Motion for Partial Summary Judgment
+ As discussed, SeaRiver did not submit a substantive opposition to Avondale or Hopeman
+Interests’ motions but instead filed a cross motion for summary judgment. R. Docs. 561, 563, 565.
+SeaRiver argues that the indemnity provisions in the respective contract s obligate Avondale and
+Hopeman Interests to indemnify it for Plaintiff’s strict liability claims against SeaRiver. It further
+argues that it is entitled to recover 100% of its defense and settlement costs based on this
+obligation. Thus, it argues that the Court need not address the issues raised in the other motions
+because SeaRiver can fully recover from Avondale and Hopeman Interests under the strict liability
+claims asserted against it. Should the Court be unconvinced of this argument, it avers that
+Avondale and Hopeman Interests’ motions should be denied to the extent that SeaRiver is entitled
+to indemnity for any vicarious liability for Avondale and/or Hopeman Interests’ negligence.
+SeaRiver explains that courts use two different standards to determine whether an indemnity claim
+can be enforced: actual or potential liability. SeaRiver argues that for its indemnity claim to be
+Case 2:20-cv-01877-EEF-JVM   Document 602   Filed 04/03/24   Page 6 of 14
+7
+
+enforced, it only has the burden of proving that it was potentially liable to Plaintiff to recover from
+Avondale and Hopeman Interests because the indemnity provision is based on a written contract .
+Further, it argues that it meets that burden.
+ Both Hopeman Interests and Avondale filed oppositions. In their opposition, Hopeman
+Interests stresses the untimely nature of SeaRiver’s t hird party demand against them and argue s
+they should not have to indemnify SeaRiver for claims unrelated to their own actions. R. Doc. 587.
+They further argue that SeaRiver is not entitled to any indemnity from them because no settlement
+funds have been paid and there has been no judicial determination of fault. They aver that SeaRiver
+must demonstrate actual liability to Plaintiff before SeaRiver seeks indemnity from them and that
+the standard is only lowered to potential liability in one other circumstance, which is inapplicable
+here. Accordingly, they argue that SeaRiver fails to meet this burden. They further argue that the
+terms of the Hopeman-Avondale contract do not allow for reimbursement of attorneys fees. Lastly,
+they argue that SeaRiver’s claim f or indemnity against Hopeman Interests through vicarious
+liability is unfounded because Plaintiff did not articulate a vicarious liability claim against
+SeaRiver or Hopeman Interests.
+ In Avondale’s opposition, it argues that it may have a strict liability  indemnity obligation
+to SeaRiver —pending satisfaction of their burden of proof —but no obligation exists for
+SeaRiver’s own negligence. R. Doc. 584. Avondale further argues that its potential obligation does
+not include defense costs or attorneys fees and is limited to the amount of SeaRiver’s settlement
+with Plaintiffs that is attributable to the strict liability claims. Regarding the standard that SeaRiver
+must meet to have a successful indemnity claim, Avondale agrees with SeaRiver that its actions
+should be evaluated under a potential liability standard. However, Avondale argues that SeaRiver
+fails to meet that burden and its motion is nonetheless premature at this time because SeaRiver
+Case 2:20-cv-01877-EEF-JVM   Document 602   Filed 04/03/24   Page 7 of 14
+8
+
+provides no evidence that its settlement with Plaintiff was reasonab le and /or untainted by
+collusion. Lastly, Avondale argues that it has no duty to indemnify SeaRiver for vicarious liability.
+ In reply, SeaRiver argues that its motion is not premature and that it has provided enough
+evidence to support its burden of proof. R. Doc. 595. It reiterates that the standard to evaluate its
+indemnity claim is potential liability to Plaintiff and that it is entitled to indemnity for strict liability
+and the defense costs associated with it. Intriguingly, SeaRiver concedes that it has not met the
+“reasonableness of the settlement” prong of its indemnity claim. Yet, it still argues that it is entitled
+to summary judgment.
+III. LAW
+Summary judgment is proper when “there is no genuine dispute as to any material fact and
+the movant is entitled to judgment as a matter of law.”  Fed. R. Civ. P. 56(a). The court must view
+the evidence in the light most favorable to the nonmovant. Coleman v. Hous. Indep. Sch. Dist.,
+113 F.3d 528, 533 (5th Cir. 1997). Initially, the movant bears the burden of presenting the basis
+for the motion; that is, the absence of a genuine issue as to any material fact or facts. Celotex Corp.
+v. Catrett, 477 U.S. 317, 323 (1986). The burden then shift s to the nonmovant to come forward
+with specific facts showing there is a genuine dispute. See Fed. R. Civ. P. 56(c); Matsushita Elec.
+Indus. Co. v. Zenith Radio Corp., 475 U.S. 574, 586-87 (1986). “A dispute about a material fact is
+'genuine' if the evide nce is such that a reasonable jury could return a verdict for the nonmoving
+party.” Bodenheimer v. PPG Indus., Inc., 5 F.3d 955, 956 (5th Cir. 1993) (citation omitted).
+IV. ANALYSIS
+ The questions raised in the motions for partial summary judgment can be boile d down to
+two discrete issues. First, whether Avondale and/or Hopeman Interests are obligated to indemnify
+SeaRiver for actions arising out of SeaRiver’s own negligence. Second, whether SeaRiver is
+Case 2:20-cv-01877-EEF-JVM   Document 602   Filed 04/03/24   Page 8 of 14
+9
+
+entitled to indemnity from Avondale and/or Hopeman Interests for Plaintiff’s strict liability claims
+against it.
+1. Whether Avondale and/or Hopeman Interests A re Obligated to I ndemnify
+SeaRiver for Actions Arising Out of SeaRiver’s Own Negligence.
+
+ The parties do not dispute that Louisiana law governs the instant m atter. Under Louisiana
+law, the applicable standard for a contractual indemnity claim depends on whether it is based on
+negligence or strict liability. Courts use the rule articulated in Polozola v. Garlock, Inc. to evaluate
+such claims rooted in negligenc e. 343 So. 2d 1000 (La. 1977). The Polozola rule provides that
+contracts “whereby the indemnitee is indemnified against the consequences of his own negligence
+[are] strictly construed, and such a contract will not be construed to indemnify an indemnitee
+against losses resulting to him through his own negligent act, unless such an intention was
+expressed in unequivocal terms.” Id.  at 1003. Other sections of this court and the Fifth Circuit
+recognize that indemnity provisions requiring indemnity for an indemnitee’s own negligence need
+to be clearly and unequivocally expressed. Seal Offshore, Inc. v. Am . Standard, Inc., 736 F.2d
+1078, 1081 (5th Cir. 1984) (“Long- established general principles of interpreting indemnity
+agreements require that indemnification for an indemnitee’s own negligence be clearly and
+unequivocally expressed.”); see also Donahue v. Republic Nat’l Distrib. Co., LLC, 439 F. Supp.
+3d 455, 469 (E.D. La. 2020) (“In the absence of an express and unequivocal statement that a party
+is to be indemnified for that party’s own negligence, the contract of indemnification will not be
+construed to create such an obligation.”) (internal quotation omitted).
+There are many instances where courts have found the party is to indemnify the indemnitee
+for the indemnitee’s own negligence; however, that is not the case here. For example in Polozola,
+the Louisiana Supreme Court held that contractor was to indemnify the indemnitee, Dow, because
+the relevant provision stated “[c]ontractor assumes the entire responsibility and liability and will
+Case 2:20-cv-01877-EEF-JVM   Document 602   Filed 04/03/24   Page 9 of 14
+10
+
+protect, indemnify and hold harmless Dow . . . from and against [a]ny and all losses , expenses,
+demands and claims made against Dow. . . whether caused by Dow’s negligence or otherwise. . .”
+343 So. 2d at 1002; see also Miller v. La. Gas Services Co., No. 95-874 (La. App. 5th Cir. 6/25/96),
+680 So. 2d 52, reh’g denied (10/17/96) (holding that an indemnitor was responsible for an
+indemnitee’s own negligence because the contractual provision provided for indemnity “even if
+caused by or resulting from the acts or omissions of officers, employees or agents of
+[indemnitee]”). Unlike those provisions, the Court here finds that the provisions found in the
+SeaRiver-Avondale and Hopeman- Avondale contracts are silent on liability in the event of
+SeaRiver’s own negligence. R. Doc. 535-2 at 22-23; R. Doc. 497-2 at 5. The Fifth Circuit further
+holds that “[a]n indemnification of ‘any and all claims’ will not include the negligence of the
+indemnitee.” Seal Offshore, Inc ., 736 F.2d at 1081. Thus, the Court can quickly dispose of the
+argument that SeaRiver is owed indemnity because the SeaRiver -Avondale contract states that
+Avondale shall indemnify SeaRiver from “all claims and damages arising from injuries to any
+person. . .” or that the Hopeman-Avondale Contract provides that Hopeman shall indemnify
+SeaRiver “against any and all claims.” Because the indemn ity provisions lack any language to
+suggest SeaRiver is to be indemnified for its own negligent conduct, the Court is hesitant to find
+such an obligation exists.
+Moreover, SeaRiver offers no opposition to the standard that courts use to evaluate such
+provisions but instead argues that Avondale and Hopeman Interests’ motions should be denied
+because it is entitled to indemnification for any vicarious liability it may have for the acts of
+Hopeman Interests and Avondale. This argument is unpersuasive because any vicarious liability
+that SeaRiver may be responsible for Plaintiffs is due to the consequences of its own actions—not
+Hopeman Interests’ or Avondale’s.
+Case 2:20-cv-01877-EEF-JVM   Document 602   Filed 04/03/24   Page 10 of 14
+11
+
+This Court has previously addressed whether Plaintiff has a valid negligence claim —
+whether through vicarious or direct liability —against SeaRiver.3 R. Doc. 420. Of relevance, this
+Court explained that SeaRiver may be vicariously liable if SeaRiver (1) had operational control
+over Avondale or Hopeman Interests or (2) authorized unsafe work practices by Avondale or
+Hopeman Interests that caused the decedent’s workplace exposure to asbestos and resultant
+mesothelioma. This Court held that while SeaRiver did not have operational control over
+Avondale, factual questions still remain as to whether SeaRiver expressly or implicitly authorized
+unsafe work practices. Id. at 11, 15. Accordingly, if SeaRiver is found to be vicariously liable to
+the Plaintiffs, it will be because “the evidence suggests that [SeaRiver] nevertheless mandated
+asbestos-containing materials to be used” without warning Avondale or any other subcontractor
+involved with building the tankers, including Hopeman Interests . Id. at 15. Since the Court has
+already found that SeaRiver cannot be vicariously liable for Avondale or Hopeman’s actions, any
+negligence claim that Plaintiff has against SeaRiver cannot be rooted in that theory. It follows that
+it is unreasonable for this Court to find that Avondale or Hopeman Interests would be liable to
+SeaRiver for a claim that is not even being alleged against SeaRiver.
+Because the provisions in both contracts do not clearly and unequivocally express that
+SeaRiver is to be indemnified for its own negligence and there is no vicarious liability claim against
+SeaRiver that is derivative of Avondale or Hopeman Interests’ actions, the Court holds that
+Avondale and Hopeman Interests are not obligated to indemnify SeaRiver for SeaRiver’s own
+negligent actions.
+2. Whether SeaRiver I s Entitled to I ndemnity From Avondale and/or Hopeman
+Interests for Plaintiff’s Strict Liability Claims Against It
+
+3 The Court issued that order in response to SeaRiver’s motion for summary judgment in which SeaRiver sought
+dismissal of all of Plaintiff’s claims against it. R. Doc. 420.
+Case 2:20-cv-01877-EEF-JVM   Document 602   Filed 04/03/24   Page 11 of 14
+12
+
+ In its cross-motion for partial summary judgment, SeaRiver first argues that it is entitled to
+indemnity for the strict liability claims that Plaintiff has asserted against it. R. Doc. 561. To recover
+on this claim, SeaRiver argues that it need only show potential liability —instead of actual
+liability—to Plaintiff for her strict liability claim. In response, Avondale concedes that it may have
+to indemnify SeaRiver for the strict liability claim and that SeaRiver need only prove that it is
+potentially liable to succeed on that claim. However, it avers that SeaRiver fails to meet that burden
+at this time. Hopeman Interests, on the other hand, argues that SeaRiver needs to demonstrate
+actual liability to recover indemnity for this claim and that it fails to do so.
+ Long established law in this Circuit holds that when a party’s indemnity claim is based on
+a written provision in a contract, then that party need only show potential liability. In  Terra
+Resources, Inc. v. Lake Charles Dredging & Towing Inc., the Fifth Circuit notes the adoption of
+the Sixth Circuit rule that “[d]efendants need only show potential (rather than actual liability) to
+recover indemnity where either (1) defendants tender the defense of the action to the indemnitor,
+(2) the claim for indemnity is founded upon a judgment, or (3) the defendant’s claim is based on a
+written contract of. . . indemnification.” 695 F.2d 828, 832 (5th Cir. 1983). Though Hopeman
+Interests directs the Court to consider this case, it fails to consider, or even mention, the third
+exception to the actual liability rule. Because SeaRiver’s alleged indemnity recovery is based upon
+contractual provisions in the SeaRiver-Avondale contract and Hopeman -Avondale contract, the
+Court finds that the instant matter fits within the third exception to the rule. Thus, SeaRiver need
+only show potential liability to Plaintiff to recover indemnity for such claims.
+ To demonstrate potential liability, SeaRiver must establish four elements: “that the claim
+was not frivolous, that the settlement was reasonable, that it was untainted by fraud or collusion,
+and that the indemnitee settled under a reasonable apprehension of liability.” Chevron Oronite Co.,
+Case 2:20-cv-01877-EEF-JVM   Document 602   Filed 04/03/24   Page 12 of 14
+13
+
+L.L.C. v. Jacobs Field Servs. N. Am., Inc., 951 F.3d 219, 227 (5th Cir. 2020) (quoting Fontenot v.
+Mesa Petrol. Co., 791 F.2d 1207, 1218 (5th Cir. 1986)). Here, Avondale concedes two of the
+elements: Plaintiff’s claim against SeaRiver was non-frivolous and those two parties settled under
+a reasonable apprehension of liability. 4 However, Avondale argues that the motion should be
+denied because SeaRiver fails to present evidence that the settlement was untainted by fraud and/or
+collusion or that settlement was reasonable. Accordingly, Avondale avers that any ruling by the
+Court on the matter at this time would be premature. The Court agrees.
+ Regarding the reasonability of the settlement between SeaRiver and Plaintiff, SeaRiver
+states that it “did not address this element because SeaRiver concedes that discovery on this point
+remains to be conducted if this Court—as SeaRiver’s cross-motion urges—finds that indemnity is
+due to SeaRiver.” This statement perplexes the Court for it to find that indemnity is owed to
+SeaRiver, then it must find that all elements of the potential liability standard are met. However,
+SeaRiver requests that this Court grant it summary judgment and find that it was “entitled to
+indemnity” without providing any evidence to establish the last element. The Court will not do so.
+Because SeaRiver fails to provide sufficient evidence on the reasonability of its settlement with
+Plaintiff, the Court need not discuss the fraud element of the potential liability test.
+ Accordingly, the Court finds that at this time SeaRiver does not successfully demonstrate
+that it is entitled to indemnity from either party pursuant to its strict liability claim. Because this
+issue is not ripe for the Court’s consideration at this time, the Court declines to comment on
+whether SeaRiver is entitled to recover any—let alone all—of its defense and settlement costs from
+Avondale and Hopeman Interests pursuant to that claim.
+
+4 Because Hopeman Interests analyzed SeaRiver’s actions under the incorrect standard, the Court declines to further
+comment on their assertions.
+Case 2:20-cv-01877-EEF-JVM   Document 602   Filed 04/03/24   Page 13 of 14
+14
+
+V. CONCLUSION
+ For the foregoing reasons,
+ IT IS ORDERED that Avondale’s Motion for Partial Summary Judgment, R. Doc. 535,
+is GRANTED. IT IS FURTHER ORDERED that and Hopeman Interests’ Motion for Partial
+Summary Judgment, R. Doc. 551, is GRANTED, in part, and DENIED, in part. The Court finds
+that Hopeman Interests is not obligated to indemnify SeaRiver for actions arising out of SeaRiver’s
+own negligence. However, the Court will not issue a ruling regarding SeaRiver’s indemnity for
+claims “that grow out of actions wholly independent” of Hopeman Interests which extend past
+SeaRiver’s own negligence because such actions are not clearly defined.
+  IT IS FURTHER ORDERED that SeaRiver’s Cross -Motion for Partial Summary
+Judgment, R. Doc. 561, is DENIED. The parties reserve the right to re- urge any argument they
+have regarding the indemnity claims derivative of strict liability.
+New Orleans, Louisiana, this 3rd day of April, 2024.
+
+United States District Judge
+Case 2:20-cv-01877-EEF-JVM   Document 602   Filed 04/03/24   Page 14 of 14

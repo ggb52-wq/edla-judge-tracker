@@ -1,0 +1,283 @@
+1
+
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+IN RE:
+MAISON ROYALE, LLC
+DEBTOR
+ CASE NO. 23-5760
+
+  SECTION L (1)
+
+ORDER & REASONS
+Before th is Court is an appeal from the Bankruptcy Court for the Middle District of
+Louisiana1 brought by Appellant Rick Sutton (“Appellant” or “ Sutton”). Sutton timely filed an
+appellant brief. R. Doc. 8. Appellee Jack Adams (“Appellee” or “Adams”) timely filed an appellee
+brief. R. Doc. 11. Sutton filed a reply brief. R. Doc. 12. The Court heard oral argument from the
+parties on May 8, 2024. After a review of the briefing, record, and applicable law, the Court now
+rules as follows.
+I. BACKGROUND
+ This case is an appeal from the bankruptcy court relating to the bankruptcy petition of
+Debtor Maison Royale, LLC  (“Debtor” or “Maison Royale”) . R. Doc. 1.  Sutton appeals the
+bankruptcy court’s denial of his emergency motion to dismiss, which the bankruptcy court
+premised on principles of judicial estopp el. The underlying arguments on appeal require
+contextualization within the broader history of litigation among the parties and a brief background
+is in order.
+
+1 The Bankruptcy Court for the Eastern District of Louisiana referred this matter to the Middle District due to a
+conflict.
+Case 2:23-cv-05760-EEF-JVM   Document 15   Filed 05/24/24   Page 1 of 11
+2
+
+ In 2011, Sutton and Adams  attempted to form a  joint business venture by forming the
+Debtor Maison Royale LLC,  and it was contemplated that each would own 50% of the Debtor.
+Adams alleges that Sutton never contributed his financial obligations to earn him his originally
+contemplated 50% and therefore Sutton was classified an employee of the Debtor. Id. According
+to Adams, Sutton allegedly never received equity disbursements , a K -1, or other indicia of
+ownership. Sutton however disputes this and has largely maintained that he is a part owner. See R.
+Doc. 8 at 9-11. By 2014, their relationship had deteriorated, and Sutton was terminated from his
+employment whereafter he began filing lawsuits in state court against Adams, the Debtor, and
+various other entities. Many of these lawsuits to  some extent orbited the contested ownership of
+the Debtor, with Sutton alleging he was a 50% owner and Adams alleging Sutton was not an owner
+but instead was an employee. See Sutton v. Adams, 318 So. 3d. 776, 780-81 (La. App. 4 Cir. 2018);
+Appellee’s Brief, R. Doc. 11 at 7-8.
+ Relevant for this appeal, in 2015 Sutton and Adams entered into an agreement that would
+settle the various lawsuits Sutton filed against Adams  in state court and which also provided that
+Sutton would purchase the Debtor, in its entirety, from Adams for $2.8 million. R. Doc. 11 at 8;
+Bankr. No. 23 -10966, R. Doc. 55 -1 at 15 -20 (Louisiana Fourth Circuit Order, Oct. 18, 2016).
+However, Sutton refused to sign the c onsent judgment and he appealed two trial court rulings to
+the Louisiana Court of Appeal for the Fourth Circuit related to this failed agreement: (1) the trial
+court’s denial of his motion to set aside the consent judgment, and (2) the trial court’s holding him
+in contempt for refusing to sign it and ordering that he pay $1 million to Adams. Bankr. No. 23 -
+10966, R. Doc. 55 -1 at 15. The Fourth Circuit held that the consent judgment was null and void
+on two separate grounds: first, the failure of Adams to pro vide certain financial information
+regarding the Debtor, as required by the consent judgment, and  second, because the consent
+Case 2:23-cv-05760-EEF-JVM   Document 15   Filed 05/24/24   Page 2 of 11
+3
+
+judgment was not signed by Polly Point Imports Corporation (“Polly Point”), a company wholly
+owned by Adams and which has an interest in the Debtor. Id. at 17-18. The Polly Point holding is
+central to this appeal. Specifically, the court stated the following:
+This Court also notes that the consent judgment is an absolute nullity
+pursuant to La. C.C.P. art. 641 because Polly Point Imports Corporation (“Polly
+Point”) was not disclosed as a partial owner of Maison Royale until after the
+consent judgment was confec ted. Both the First and Third Circuits held that
+judgments, including consent judgments, regarding rights to immovable property
+were absolutely null where non -joined parties’ rights to the immovable property
+were affected by the judgment. See Stephenson v. Nations Credit Fin. Servs. Corp.,
+98-1688 (La. App. 1 Cir. 9/24/99), 754 So. 2d 1011; Wiley v. Wiley, 97-652 (La.
+App. 3 Cir. 12/10/97), 704 So. 2d 897. In the present matter, Polly Point was not
+included in the suit or in the consent judgment as a partial owner of Maison Royale.
+The closing documents prepared only contained a place for Mr. Adams’ signature
+as the owner of Maison Royale. Therefore, the documents would not have conveyed
+complete ownership of Maison Royale to Mr. Sutton because there was no
+signatory for Polly Point. Mr. Adams contends that this error was harmless because
+he is the 100% owner of Poly Point. However, Poly Point is a separate and distinct
+juridical entity. Polly Point’s interests in Maison Royale were impacted by the
+consent ju dgment. Without Polly Point, “complete relief cannot be accorded.”
+Therefore, we find that Polly Point was an indispensable party pursuant to La.
+C.C.P. art. 641. As such, we deem the consent judgment an absolute nullity and
+remand for further proceedings.
+
+Id. at 18. Thereafter, Sutton and Adams continued in litigation and Sutton eventually filed a suit
+against Adams and Polly Point, among others, alleging fraud and misrepresentation claims related
+to this failure to disclose Polly Point’s interest in the Debtor in the consent judgment , breach of
+fiduciary duty, and other claims. See Sutton, 318 So. 3d at 782-83. The Fourth Circuit affirmed the
+trial court’s dismissal of the fraud claim  because Sutton failed to show this omission was
+“intentional for the purpose of deceiving him,” and the court observed that “Adams’s tax returns
+dating back to 2011 – which were given to Mr. Sutton by November 19, 2014, before the parties
+entered into the proposed settlement agreement – clearly disclosed Polly Point’s one per cent
+interest.” Id. The court also affirmed the trial court’s dismissal of Sutton’s breach of fiduciary duty
+claim, stating as follows:
+Case 2:23-cv-05760-EEF-JVM   Document 15   Filed 05/24/24   Page 3 of 11
+4
+
+In the instant case, the trial court determined that the corporate documents
+that the defendants admitted into evidence, including the filings with the Louisiana
+Secretary of State and with the Internal Revenue Service, were the most clear and
+objective manner of determining Maison Royale's ownership.  These documents
+plainly showed that Mr. Sutton was not a member of Maison Royale and therefore
+he had no right of action for breach of fiduciary duty because he was claiming an
+alleged duty not owed to him but to Maison Royale and its members.
+
+Id. at 783. The Louisiana Supreme Court denied Sutton’s subsequent appeal of this ruling. Sutton
+v. Adams, 267 So. 3d 1112 (La. 2019).
+ On June 20, 2023, Adams put the Debtor into bankruptcy and days later, Sutton filed an
+emergency motion to dismiss the bankruptcy petition on the grounds that it was filed without
+authority. R. Doc. 8 at 12. The bankruptcy court ultimately denied Sutton’s motion to dismiss and
+denied his subsequent motion for reconsideration. Id. at 5. It is this denial that Sutton now appeals.
+II. THE APPEAL
+Sutton appeals the August 4, 2023  order of the bankruptcy court  denying his emergency
+motion to dismiss the bankruptcy filing. The bankruptcy court premised its denial on the grounds
+that Sutton was judicially estopped from “challenging the authority to file this bankruptcy case by
+asserting now that Polly Point Imports Corp. is not a member of Maison Royale, LLC.” R. Doc.
+1-3. As explained above, on June 20, 2023, Adams put the Debtor into bankruptcy. Just days later,
+Sutton filed an emergency motion to dismiss the case, which was set for a hea ring on August 3,
+2023 before the bankruptcy court. R. Doc. 8 at 12. Then, on July 28, Sutton filed an unopposed
+motion to continue the hearing on the emergency motion to dismiss and because he wanted more
+time to “prepare evidence in response to the judic ial estoppel argument raised by Adams.” Id.
+Sutton alleges that, on that same day, the court continued Sutton’s motion for relief from stay but
+did not move the hearing on his motion to dismiss. Id. Further, Sutton alleges that the court refused
+Case 2:23-cv-05760-EEF-JVM   Document 15   Filed 05/24/24   Page 4 of 11
+5
+
+to allow any testimony at that August 3 hearing but, for the purpose of the motion, assumed that
+Sutton did own 50% of the Debtor. Id. at 12-13.
+The court ruled orally during that hearing that Sutton was “ju dicially estopped from
+challenging the authority to file this bankruptcy case by asserting now that Polly Point Imports
+Corp. is not a member of Maison Royale, LLC.” Id. at 13. The two findings Sutton challenges are
+(1) Sutton is estopped from arguing that  Polly Point is not a member of the Debtor, and (2) the
+bankruptcy filing was authorized by a majority of the Debtor’s members, 2:1 (Adams and Polly
+Point against Sutton). Id. at 15.
+Sutton’s appeal is premised on his position that he owns 50% of the Debtor and that Adams
+owns 50% of the Debtor, so Adams could not unilaterally put the Debtor into bankruptcy.
+Complicating matters is that, at some point prior, Adams allegedly transferred 1% of his interest
+in the Debtor to Polly Point. Id. at 8-11. Thus, the Debtor’s ownership structure – according to
+Sutton – looks like this: 50% is owned by Sutton, 49% is owned by Adams, and 1% is owned by
+Polly Point (which Adams wholly owns).
+ Sutton argues that there was no written operating agreement governing the Debto r and
+therefore Louisiana’s default LLC rules govern. Id. at 15-16. These rules provide that voting rights
+in an LLC cannot be transferred absent unanimous consent in writing, which Sutton never
+provided. Id. Therefore, Sutton argues that any interest Polly Point owns in the Debtor is economic
+only and even if he is estopped from contesting Polly Point’s economic interest in the Debtor, this
+should not estop him from contesting Polly Point’s voting rights in the Debtor for the purpose of
+arguing that that the bankruptcy was filed without a majority of voting members. Id.
+Sutton additionally argues that the bankruptcy court misapplied the estoppel doctrine,
+which requires a finding of three factors: “(1) the party’s position is clearly inconsistent with the
+Case 2:23-cv-05760-EEF-JVM   Document 15   Filed 05/24/24   Page 5 of 11
+6
+
+previous one; (2) the court must have accepted the previous position; and (3) the non -disclosure
+must not have been inadvertent.” Id. at 16-17. Suttons says none of these three factors are satisfied.
+The inconsistency here is purportedly with a position Sutton took in the consent judgment
+litigation. Id. at 17-18. The position he took at that juncture was that Polly Point’s interest in the
+Debtor was not mentioned in the consent judgment  and he protest ed this absence because he,
+allegedly, was concerned that he would then not have 100% of the Debtor  if he signed an
+agreement which was not signed by Polly Point. Id. at 18-19. Sutton says this position is perfectly
+consistent with his position here, that Polly Point has no voting interest in the Debtor. Id. He argues
+that this context allows him to reconcile these two positions and that they do not implicate estoppel.
+Id. at 20. Sutton then argues that the second factor does not exist because the state court never
+found that Polly Point has voting rights, and therefore estoppel was erroneously applied here. Id.
+at 21-22. Last, Sutton argues that he was entitled to an e videntiary hearing on this matter, but the
+bankruptcy court denied this. Id. at 22-23.
+In response, Adams argues that Sutton waived this voting rights/economic rights
+distinction by not raising it at any point until this appeal, including  by failing to rai se it in his
+emergency motion to dismiss and his motion for reconsideration  before the bankruptcy court .
+Appellee’s Brief, R. Doc. 11.
+III. LAW & ANALYSIS
+The parties assert that this Court has jurisdiction pursuant to 28 U.S.C. § 158(a)(1), which
+grants district courts the jurisdiction over appeals from “final judgments, orders, and decrees” of
+bankruptcy courts. 28 U.S.C. § 158(a)(1). However, upon a closer review of the law of this circuit,
+the Court finds that the underlying order that Sutton appeals is in fact interlocutory.
+Case 2:23-cv-05760-EEF-JVM   Document 15   Filed 05/24/24   Page 6 of 11
+7
+
+In the Fifth Circuit, an  order denying a motion to dismiss is considered interlocutory and
+thus appealable only if leave of the court  is granted to appeal . Matter of Phillips , 844 F.2d 230,
+234-36 (5th Cir. 1988).  An order is considered final in the bankruptcy context if it constitutes
+“either a ‘final determination of the rights of the parties to secure the relief they seek,’ or a final
+disposition ‘of a discrete dispute within the larger bankruptcy case.’” In re Tullius, 500 F. App’x
+286, 288-89 (5th Cir. 2012) (quoting In re Bartee, 212 F.3d 277, 282 (5th Cir. 2000)). Nonfinal
+orders, or interlocutory orders, “typically fall within one of two categories: orders in which the
+merits of the discrete judicial unit are not determined, or orders that do reach the merits, but which
+do not constitute ‘the end of the road for the losing party.’” Id. at 289 n.7. “An example of the
+latter includes an order denying a motion to dismiss.” Id. (citing Matter of Phillips, 844 F.2d at
+235-36).
+In Matter of Phillips, the Fifth Circuit grappled with whether it, as a court of appeals, ha d
+jurisdiction over an appeal from a district court’s order in a bankruptcy case. 844 F.2d at 234-36.
+Matter of Phillips involved an appeal to the district court of a bankruptcy court’s order denying a
+motion to dismiss on the grounds that the debtor had not satisfied eligibility requirements. Id. The
+district court denied the motion, finding that the debtor had not abused the bankr uptcy process,
+and permitted the matter to proceed. Id. at 232. Then, one of the parties filed an appeal to the
+district court, which dismissed the appeal as moot because, as the underlying bankruptcy matter
+proceeded, the debtor had been granted an order of discharge. Id. at 232-33. A party then appealed
+that district court dismissal to the Fifth Circuit, which grappled with its own appellate jurisdiction
+in this case, but in doing so discussed whether a bankruptcy court’s denial of a motion to dismiss
+constitutes a final order. See id.  at 233 -36. Ultimately, the Fifth Circuit concluded that the
+bankruptcy court’s denial of the motion to dismiss is a nonfinal order because, “[l]ike an order that
+Case 2:23-cv-05760-EEF-JVM   Document 15   Filed 05/24/24   Page 7 of 11
+8
+
+determines that the bankruptcy court has jurisdiction, an order determining that a debtor is eligible
+allows the bankruptcy proceedings to continue. It is thus a ‘preliminary step in some phase of the
+bankruptcy proceeding,’ and does not ‘directly affect’ the disposition of the estate’s assets.” Id. at
+235-36.
+ Other circuits have found denials of motions to dismiss to be nonfinal as well. See, e.g., In
+re Donovan, 532 F.3d 1134, 1137 (7th Cir. 2008) (“Based essentially on this logic, the weight of
+circuit authority has concluded that orders denying a motion to dismiss for bad faith or abuse are
+not appealable. At least three other circuits have specifically held that an order denying a motion
+to dismiss a Chapter 11 bankruptcy case for abusive filing is not a final order. ”); Gebhardt v.
+Hardigan, 512 B.R. 385, 387 (S.D. Ga. 2014) (“Other circuits have found that a denial of a motion
+to dismiss a Chapter 7 case is generally interlocutory because the resu ltant effect is that the case
+merely proceeds in the bankruptcy court.”); In re 405 N. Bedford Dr. Corp., 778 F.2d 1374, 1379
+(9th Cir. 1985) (“When a creditor moves to dismiss for bad faith filing, he need make no showing
+of harm to his property interests from the continuance of the bankruptcy case. On the other hand,
+his request for relief from the automatic stay for lack of adequate protection is premised on a
+showing of imminent harm to his property interests. It follows that a denial of the creditor's petition
+for relief from the automatic stay will frequently cause him irreparable harm if he has to wait to
+the end of the bankruptcy case to appeal. ”). But see In re Brown , 916 F.2d 120, 123 -24 (3d Cir.
+1990) (holding that a denial of a motion to dismiss for bad faith is appealable).
+ The underlying order by the bankruptcy court that Sutton appeals here is an order denying
+his motion to dismiss , which had the functional result of permitting the bankruptcy case to
+continue, thus this was merely “a preliminary step in some phase of the bankruptcy proceeding”
+that did not “directly affect the disposition of the estate’s assets.” See Matter of Phillips, 844 F.2d
+Case 2:23-cv-05760-EEF-JVM   Document 15   Filed 05/24/24   Page 8 of 11
+9
+
+at 235 -36. In the Fifth Circuit, this  order is considered interlocutory and therefore  it is  not
+appealable by right under 28 U.S.C.§ 158(a). To appeal an interlocutory order, Sutton would need
+to seek leave of this Court. However, Sutton did not seek nor obtain leave of this Court to file this
+appeal.
+ However, some courts have found no “jurisdic tional defect” in a party’s failure to seek
+leave to appeal an interlocutory order. Central Illinois Savings & Loan Ass’n v. Rittenberg Co.
+Ltd., 85 B.R. 473, 479 (N.D. Ill. 1988) (“ Furthermore, Bankruptcy Rule 8003 provides that, as
+long as a notice of appeal is timely filed, the failure to request leave to appeal is not a jurisdictional
+defect; the district court may grant leave to appeal sua sponte at any time.”). The notice of appeal
+was timely filed in this case.
+ In any event, district courts reviewing bankruptcy appeals are cautioned against reviewing
+interlocutory orders unless in “exceptional circumstances.” In re CIS Corp. , 188 B.R. 873, 878
+(S.D.N.Y. 1995). Bankruptcy appellate courts and panels consider the same elements enumerated
+in 28 U.S.C. § 1292(b), which sets the standard for federal appellate courts reviewing district
+courts’ interlocutory orders. Figueroa v. Wells Fargo Bank N.A., 382 B.R. 814, 823-24 (S.D. Fla.
+2007); In re Traversa , 371 B.R. 1, 4 (D. Conn. 2007 ). Courts evaluating whether to review an
+interlocutory order on appeal from a bankruptcy court will consider whether the order or issue “(1)
+involves a controlling question of law, (2) as to which there is a substantial ground for difference
+of opinion, and (3) is such that an immediate appeal would advance the ultimate termination of the
+litigation.” Figueroa, 382 B.R. at 823 -24. “Leave must be denied if the party seeking leave to
+appeal fails to establish any one of the three elements” Id. at 824 (citing In re Celotex Corp., 187
+B.R. 746, 749 (M.D. Fla. 1995)).
+Case 2:23-cv-05760-EEF-JVM   Document 15   Filed 05/24/24   Page 9 of 11
+10
+
+ The first element is satisfied if the  controlling question “deals with a question of ‘pure’
+law, or matters that can be decided quickly and cleanly without having to study the record.”  Id.
+The third element is deemed satisfied “if resolution of the controlling question of law substantially
+reduces the amount of litigation left in the case.” Id. at 825 -26. Whether there is “substantial
+ground for difference of opinion” is shown if “at least two courts interpret the relevant legal
+principle differently.” Id. at 824.
+ In this case, the Court cannot conclud e that Sutton has proven all three elements. The
+appeal he brings involves principles of judicial estoppel related to positions Sutton has taken in
+past litigation in state court. There is simply no way to characterize such a record-driven and fact-
+intensive inquiry as a question of pure law. Further, a resolution of this question – whether Sutton
+is estopped from contesting Polly Point’s interest in the Debtor (or the nature of its interest in the
+Debtor) – will not reduce the amount of litigation left in this case. First, the bankruptcy court
+assumed for the purpose of his motion that Sutton is a part owner of the Debtor, but this is a fact
+highly in dispute. If this Court were to decide the estoppel question either way, for Sutton or against
+him, the bankruptcy case will continue and Sutton’s ownership will remain in dispute between the
+parties as they pursue parallel state court litigation as well. Further, should this Court agr ee with
+Sutton and find that the bankruptcy court misapplied the judicial estoppel principle in the context
+of Sutton’s motion to dismiss, this does not automatically require the bankruptcy court to dismiss
+the case – it merely opens another line of argument, the Polly Point argument, for Sutton to pursue
+in urging the bankruptcy court to dismiss the case. This is hardly a situation in which resolving the
+question will reduce future litigation and streamline the case.
+Case 2:23-cv-05760-EEF-JVM   Document 15   Filed 05/24/24   Page 10 of 11
+11
+
+ Accordingly, the Court denies leave to  appeal this interlocutory order by the bankruptcy
+court denying Sutton’s motion to dismiss the bankruptcy case due to bad faith filing. F or the
+foregoing reasons, this appeal from the bankruptcy court is DISMISSED.
+
+New Orleans, Louisiana, this 23rd day of May, 2024.
+United States District Judge
+Case 2:23-cv-05760-EEF-JVM   Document 15   Filed 05/24/24   Page 11 of 11

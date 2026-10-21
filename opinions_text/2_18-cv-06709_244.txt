@@ -1,0 +1,1852 @@
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+ORDER & REASONS
+Before the Court are four motions for partial summary judgment  filed by plaintiffs Iris
+Calogero and Margie Nell Randolph (together, “Plaintiffs”) , with each motion addressing one of
+the four claims asserted.1  Additionally, before the Court is a motion for summary judgment filed
+by defendants Shows, Cali & Walsh, LLP  (“SCW”), Mary Catherine Cali, and John C. Walsh
+(collectively, “Defendants”), which addresses all of Plaintiffs’ claims.2  Also before the Court are
+Plaintiffs’ motion to strike3 and motion for class certification.4  The parties respond in opposition
+and submit various replies in support of their respective motions.5  Having considered the parties’
+memoranda, the record, and the applicable law, the Court issues this Order & Reasons.
+I. BACKGROUND
+ This case arises from alleged violation s of the Fair Debt Collection Practices Act
+(“FDCPA”) stemming from Defendants’ attempt to collect repayment of grant funds P laintiffs
+received from the Louisiana Road Home program following Hurricanes Katrina and Rita. 6  In
+
+1 R. Docs. 162; 174; 214; 215.
+2 R. Doc. 212.  The parties’ arguments concerning Defendants’ motion for summary judgment are set out in
+footnotes in this Order & Reasons.
+3 R. Doc. 220.   As described below, the Court did not rely upon the materials and statements that are the
+object of Plaintiffs’ motion to strike.  Therefore, the motion is denied as moot.
+4 R. Doc. 127.
+5 R. Docs. 146; 154; 199; 208; 200; 210; 218; 223; 225; 231.
+6 R. Doc. 147-1 at 1.
+IRIS CALOGERO
+
+VERSUS
+
+SHOWS, CALI & WALSH, LLP, et al.
+
+CIVIL ACTION
+
+NO. 18-6709
+
+SECTION M (3)
+
+Case 2:18-cv-06709-BWA-EJD   Document 244   Filed 07/12/22   Page 1 of 62
+2
+
+response to the devastation these hurricanes caused, the federal government appropriated disaster-
+relief funds to affecte d areas, including Louisiana , through the U.S. Department of Housing and
+Urban Development’s (“HUD”) Community Development Block Grant (“CDBG”). 7  HUD
+authorized the state of Louisiana to distribute the federal funds to its constituents.8  The state tasked
+the Louisiana Office of Community Development ( the “OCD”) and the Louisiana Recovery
+Authority ( the “LRA”) with administer ing the Road Home program, which distributed CDBG
+funds through grants to Louisiana homeowners  who sustained unreimbursed hurricane- related
+damage.9  One such grant was the homeowners’ compensation grant, which both Plaintiffs
+received.  Its purpose was to compensate for damages incurred and to mitigate against future
+damages from hurricanes and s imilar natural disasters. 10  As part of the Road Home application
+process, applicants like Plaintiffs were required to disclose any funds they received from either the
+Federal Emergency Management Agency (“FEMA”) or from a private insurer for hurricane -
+related damage to their homes.11  The grant was based on a formula: the OCD would calculate the
+damage it believed the storm had caused to applicants’ homes, less any FEMA or insurance
+payments applicants had received  for the same damage. 12  The OCD subtracted FEMA and
+insurance payments to avoid awarding “duplicate benefits.” 13  Plaintiff Iris Calogero contracted
+with the OCD for a homeowners ’ compensation grant on May 11, 2007, and received $33,393. 14
+Plaintiff Margie Nell Randolph contracted with the OCD for the same kind of grant on June 30,
+2007, and received $28,793.15  When Plaintiffs signed their grant agreements, they acknowledged
+
+7 R. Doc. 80 at 5.
+8 Id. at 6.
+9 R. Docs. 80 at 6; 147-1 at 13-14 (citing Groby v. Davis, 575 F. Supp. 2d 762 (E.D. La. 2008)).
+10 R. Docs. 80 at 7; 162-7 at 5.
+11 R. Doc. 162-7 at 5.
+12 Id. at 5-6.
+13 Id. at 6.
+14 Id.
+15 R. Docs. 80 at 7; 162-7 at 6.
+Case 2:18-cv-06709-BWA-EJD   Document 244   Filed 07/12/22   Page 2 of 62
+3
+
+their obligation to report duplicate payments, past or future, and acknowledged that they could be
+sued for the failure to do so.16
+ In the ensuing years, the OCD discovered numerous errors in the distribution of the grants:
+thousands of recipients had received overpayments. 17  For example, during the grant application
+process, Plaintiffs allegedly failed to report payments received from their insurers and FEMA and
+so, because the monies were not deducted in calculating their grants, the grants received were
+greater than they should have been.18  Accordingly, the state hired Defendants to assist with efforts
+to recover the amount of unreported funds that  resulted in grant overpayments .19  On August 3,
+2017, Defendants sent Randolph a collection letter seeking to recover $2,500 in allegedly overpaid
+grant funds.20  On February 9, 2018, Defendants sent a similar letter to Calogero seeking to recover
+$4,598.89.21  Both letters charged Plaintiffs with breach of their Road Home grant obligations and
+advised that:
+[I]f you do not take any action to resolve this matter within ninety days after your
+receipt of this letter, Road Home may proceed with further action against you,
+including legal action, in connection with the full Grant repayment balance owed
+as outlined above.  You may also be responsible for legal interest from judicial
+demand, court costs, and attorney fees if it is necessary to bring legal action against
+you.22
+
+Plaintiffs allege that Defendant s’ communications were intimidating  and caused  them fear,
+anxiety, and emotional distress.23
+
+16 R. Doc. 174-1 at 3.
+17 R. Doc. 80 at 9.
+18 R. Docs. 174-3 at 6; 212-1 at 16.
+19 R. Docs. 80 at 10; 147-1 at 10.
+20 R. Doc. 80 at 10.
+21 Id.
+22 R. Doc. 174-2 at 103, 105.
+23 R. Doc. 80 at 14.
+Case 2:18-cv-06709-BWA-EJD   Document 244   Filed 07/12/22   Page 3 of 62
+4
+
+ Randolph alleges that she did not understand the collection letter. 24  She was purportedly
+“terrified by Defendants’ letter because she did not have the money demanded, and she feared she
+would be sued and lose her home.” 25  Randolph contacted the OCD and  entered into a payment
+plan of $25 a month and, on October 24, 2017, executed a promissory note on this  repayment
+obligation.26  The promissory note provided in part:
+Margie N. Randolph (“Maker”) acknowledges that she received funds pursuant to
+the Louisiana Road Home compensation grant program for a residence affected
+during the 2005 hurricane season .  MAKER, Margie N. Randolph, further
+acknowledges that the Grant Funds received in the amount of $2,500.00 are subject
+to repayment to State of Louisiana, Office of Community Development, Disaster
+Recovery Unit (“OCD-DRU”) because of a duplication of homeowner’s insurance
+proceeds benefits received and not reported to Road Home prior to the closing on
+her Road Home grant agreement.27
+
+Calogero says she, too, w as scared when she received the collection letter .28  She was
+“upset” and “intimidated” by it, and worried about her credit score and “what would happen to her
+friends and neighbors who received similar letters from Defendants.”29  Following the instructions
+provided in the letter, 30 she disputed the repayment claim. 31  In response, Defendants provided
+Calogero a “verification of the Road Home Grant Funds owed to [their] client” 32 that included a
+narrative-form and an itemized -list b reakdown of Calogero’s debt  calculation.33  Defendants
+
+24 R. Doc. 174-3 at 7.
+25 Id.
+26 R. Docs. 80 at 11-12; 80-1 at 31; 147-1 at 6.
+27 R. Doc. 215-3 at 113.
+28 R. Doc. 174-3 at 7.
+29 Id.
+30 Randolph’s letter also contained instructions on how to dispute the claim.  R. Doc. 162-3 at 1.
+31 R. Docs. 80-1 at 32 (letter from Defendants addressed to Calogero’s lawyer: “[P]lease be advised we have
+noted your representation of Iris Calogero and her dispute of the repayment claim.”); 127 -2 at 2.
+32 R. Doc. 80-1 at 32-33.
+33 Id.  The letter also enclosed copies of (1) an eGrants calculation sheet along with the compensation grant
+calculation; (2) compensation grant closing documents, including: (a) a First American Title Insurance Co. of
+Louisiana final disbursement statement, (b) the Road Home declaration of covenants running with the land, (c) owner
+information and an immovable property description, (d) the Road Home program grant agreement, (e) the Road Home
+limited subrogation/assignment agreement, (f) the Road Home grant recipient affidavit, (g) receipt of instructions for
+filing an appeal , (h) a file balance sheet and disbursement summary , and (i) a wire transfer order ; and (3) a FEMA
+application overview.  Id. at 32.
+Case 2:18-cv-06709-BWA-EJD   Document 244   Filed 07/12/22   Page 4 of 62
+5
+
+explained that Calogero’s misrepresentations of the benefits she received from both FEMA and
+her homeowners’ insurance carrier prior to the execution of the Road Home grant affected its
+calculation.34  Defendants calculated the grant amount Calogero should have been awarded based
+on the total amount of benefits  she received (reported and unreported) and  then subtracted that
+amount from the amount she was awarded, resulting in a $4,598.89 overpayment due back to the
+OCD.35
+Plaintiffs allege that Defendants’ efforts to seek repayment of the grant funds violated
+multiple provisions of the  FDCPA, specifically, 15 U.S.C. §§ 1692e and 1962f,  because
+Defendants: (1) misrepresented the amount, character, and nature of the debt by failing to itemize
+the debts ; (2) improperly attempted to collect a time -barred debt; (3) improperly attempted to
+collect attorney’s fees; and (4) improperly required persons to sign a promissory note.36
+II. LAW & ANALYSIS
+A. Summary Judgment Standard
+Summary judgment is proper “if the pleadings, depositions, answers to interrogatories, and
+admissions on file, together with the affidavits, if any, show that there is no genui ne issue as to
+any material fact and that the moving party is entitled to a judgment as a matter of law.”  Celotex
+Corp. v. Catrett, 477 U.S. 317, 322 (1986) (quoting Fed. R. Civ. P. 56(c)).  “Rule 56(c) mandates
+the entry of summary judgment, after adequate time for discovery and upon motion, against a party
+who fails to make a showing sufficient to establish the existence of an element essential to that
+party’s case, and on which that party will bear the burden of proof at trial.”  Id .  A party moving
+for summary judgment bears the initial burden of demonstrating the basis for summary judgment
+
+34 Id. at 33.
+35 Id.
+36 R. Docs. 80; 147-1 at 1.
+Case 2:18-cv-06709-BWA-EJD   Document 244   Filed 07/12/22   Page 5 of 62
+6
+
+and identifying those portions of the re cord, discovery, and any affidavits supporting the
+conclusion that there is no genuine issue of material fact.  Id. at 323.  If the moving party meets
+that burden, then the nonmoving party must use evidence cognizable under Rule 56 to demonstrate
+the existence of a genuine issue of material fact.  Id. at 324.
+A genuine issue of material fact exists if a reasonable jury could return a verdict for the
+nonmoving party.  See Anderson v. Liberty Lobby, Inc., 477 U.S. 242, 248 (1986).  The substantive
+law identifies which facts are material.  Id .  Material facts are not genuinely disputed when a
+rational trier of fact could not find for the nonmoving party upon a review of the record taken as a
+whole.  See Matsushita Elec. Indus. Co. v. Zenith Radio Corp., 475 U.S. 574, 587 (1986); EEOC
+v. Simbaki, Ltd., 767 F.3d 475, 481 (5th Cir. 2014).  Unsubstantiated assertions, conclusory
+allegations, and merely colorable factual bases are insufficient to defeat a motion for summary
+judgment.  See Anderson, 477 U.S. at 249-50; Little v. Liquid Air Corp., 37 F.3d 1069, 1075 (5th
+Cir. 1994); Hopper v. Frank , 16 F.3d 92, 97 (5th Cir. 1994).  In ruling on a summary- judgment
+motion, a court may not resolve credibility issues or weigh evidence.  See Delta & Pine Land Co.
+v. Nationwide Agribusiness Ins. Co., 530 F.3d 395, 398-99 (5th Cir. 2008).  Furthermore, a court
+must assess the evidence, review the facts, and draw any appropriate inferences based on the
+evidence in the light most favorable to the party opposing summary judgment.  See Tolan v. Cotton,
+572 U.S. 650, 656-57 (2014); Daniels v. City of Arlington, 246 F.3d 500, 502 (5th Cir. 2001).  Yet,
+a court only draws reasonable inferences in favor of the nonmovant “when there is an actual
+controversy, that is, when both parties have submitted evidence of contradictory facts.”  Little, 37
+F.3d at 1075 (citing Lujan v. Nat’l Wildlife Fed’n, 497 U.S. 871, 888 (1990)).
+After the movant demonstrates the absence of a genuine issue of material fact, the
+nonmovant must articulate specif ic facts showing a genuine issue and point to supporting,
+Case 2:18-cv-06709-BWA-EJD   Document 244   Filed 07/12/22   Page 6 of 62
+7
+
+competent evidence that may be presented in a form admissible at trial.  See Lynch Props., Inc. v.
+Potomac Ins. Co., 140 F.3d 622, 625 (5th Cir. 1998); Fed. R. Civ. P. 56(c)(1)(A) , (c)(2).  Such
+facts must create more than “some metaphysical doubt as to the material facts.”  Matsushita, 475
+U.S. at 586.  When the nonmovant will bear the burden of proof at trial on the dispositive issue,
+the moving party may simply point to insufficient admissible evidence to establish an essential
+element of the nonmovant’s claim in order to satisfy its summary-judgment burden.  See Celotex,
+477 U.S. at 322-25; Fed. R. Civ. P. 56(c)(1)(B).  Unless there is a genuine issue for trial that could
+support a judgment in favor of the nonmovant, summary judgment must be granted.  See Little, 37
+F.3d at 1075-76.
+B. The FDCPA
+“Congress enacted the FDCPA ‘ to eliminate abusive debt collection practices by debt
+collectors, to insure that those debt collectors who refrain from using abusive debt collection
+practices are not competitively disadvantaged, and to promote consistent State action to protect
+consumers against debt collection abuses. ’ [15 U.S.C.] § 1692(e).  The FDCPA pursues these
+stated purposes by imposing affirmative requirements on debt collectors and prohibiting a range
+of debt-collection practices. §§ 1692b- 1692j.”  Rotkiske v. Klemm , 140 S. Ct. 355, 358 (2019).
+The FDCPA “bars debt collectors from deceiving or misleading consumers; it does not protect
+consumers from fearing the actual consequences of their debts.”  Sheriff v. Gillie , 578 U.S. 317,
+329 (2016).
+To establish a claim under the FDCPA, a plaintiff must establish “(1) that she was the
+object of collection activity arising from a consumer debt; (2) that [the d]efendant is a debt
+collector as defined by the FDCPA; and (3) that [the d]efendant engaged in an act or omission
+prohibited by the FDCPA.”  Weiser v. Castille, 2021 WL 4168414, at *4 (E.D. La. Sept. 14, 2021))
+Case 2:18-cv-06709-BWA-EJD   Document 244   Filed 07/12/22   Page 7 of 62
+8
+
+(quotation and alteration omitted).  Only the third element is disputed in this case.  The provisions
+of the FDCPA upon which Plaintiffs rely are 15 U.S.C. §§ 1692e and 1692f.  Under these sections,
+“[a] debt collector may not use any false, deceptive, or misleading representation or means in
+connection with the collection of any debt,” 15 U.S.C. § 1692e, or “use unfair or unconscionable
+means to collect or attempt to collect any debt.”  Id . § 1692f.  “‘[T]here is a growing consensus ’
+that a claim under § 1692f is a ‘backstop’ to catch conduct outside that barred by § 1692e and other
+provisions [of the FDCPA].”  Manuel v. Merchants & Pro. Bure au, Inc., 956 F.3d 822, 825 (5th
+Cir. 2020).
+“‘When evaluating whether a collection letter violates § 1692e or § 1692f, a court must
+view the letter from the perspective of an “unsophisticated or least sophisticated consumer.”’”
+Manuel, 956 F.3d at 826 (quoting Daugherty v. Convergent Outsourcing, Inc., 836 F.3d 507, 511
+(5th Cir. 2016)).  This is an objective standard.  McKenzie v. E.A. Uffman & Assocs., Inc., 119
+F.3d 358, 362 (5th Cir. 1997).  Courts “must ‘assume that the plaintiff-debtor is neither shrewd
+nor experienced in dealing with creditors.’”  Gonzalez v. Kay , 577 F.3d 600, 603 (5th Cir. 2009)
+(quoting Goswami v. Am. Collections Enter., Inc., 377 F.3d 488, 495 (5th Cir. 2004)).  “‘At the
+same time [courts] do not consider the debtor as tied to the very last rung on the intelligence or
+sophistication ladder.’”  Salinas v. R.A. Rogers, Inc., 952 F.3d 680, 683 (5th Cir. 2020) (quoting
+Goswami, 377 F.3d at 495).  “‘This standard serves the dual purpose of prote cting all consumers,
+including the inexperienced, the untrained and the credulous, from deceptive debt collection
+practices and protecting debt collectors against liability for bizarre or idiosyncratic consumer
+interpretations of collection materials.’”  Gonzalez, 577 F.3d at 603 (quoting Taylor  v. Perrin,
+Landry, deLaunay & Durand, 103 F.3d 1232, 1236 (5th Cir. 1997)).
+Case 2:18-cv-06709-BWA-EJD   Document 244   Filed 07/12/22   Page 8 of 62
+9
+
+Plaintiffs claim that Defendants violated the following proscribed practices: (1) the false
+representation of “the character, amount, or legal status of any debt”; (2) “the use of any false
+representation or deceptive means to collect or attempt to collect any debt or to obtain information
+concerning a consumer”; and (3) the “use [of] unfair or unconscionable means to collect or attempt
+to collect any debt.” 15 U.S.C. §§ 1692e(2)(A), (10), 1692f.  The Fifth Circuit has not explicitly
+defined the terms “deceptive” and “misleading” as used in the context of the FDCPA, but
+“[b]ecause Congress ‘intended the FDCPA to have a broad remedial scope,’ the FDCPA should
+‘be construed broadly and in favor of the consumer.’”  Salinas, 952 F.3d at  683-84 (quoting
+Daugherty, 836 F.3d at  511); see also  Manuel, 956 F.3d at  826.  When assessing whether a
+defendant’s actions are false, deceptive, or misleading under § 1692e, courts impose a “materiality
+standard.”  Gomez v. Niemann & Heyer, L.L.P., 2016 WL 3562148, at *4 (W.D. Tex. June 24,
+2016).  “A false, deceptive, or misleading statement is ‘material’ when it has ‘the ability to
+influence a consumer’s decision.’”  Id. (quoting O’Rourke v. Palisades Acquisition XVI, LLC, 635
+F.3d 938, 942 (7th Cir. 2011)); see also Powell v. Palisades Acquisition XVI, LLC, 782 F.3d 119,
+126 (4th Cir. 2014) (observing that a demand letter that misstates interest as principal but
+accurately states the total amount owed  is a technical, not material error ).  The materiality
+requirement “advances the purpose of the FDCPA, which is to ‘provide information that helps
+consumers to choose intelligently, and by definition immaterial information neither contributes to
+that objective nor undermines it.’”  Gomez, 2016 WL 3562148, at *4 (quoting Hahn v. Triumph
+P’ships LLC, 557 F.3d 755, 757-58 (7th Cir. 2009), and citing Jensen v. Pressler & Pressler, 791
+F.3d 413, 421 (3d Cir. 2015) (“[T]he FDCPA was designed to give debtors reliable information so
+that they can make informed decisions about how to address debts.”)) (alterations omitted).
+Case 2:18-cv-06709-BWA-EJD   Document 244   Filed 07/12/22   Page 9 of 62
+10
+
+“The ultimate question in each [ FDCPA case] is whether the unsophisticated or least
+sophisticated consumer would have been led by the debt collection letter into believing something
+untrue that would have influenced their decision-making.”  Id. at *5 (collecting cases).37  Although
+the Fifth C ircuit has not specifically decided whether the application of the unsophisticated-
+consumer standard is a question of law or question of fact, it “generally treat[s] the issue as a
+question of law.”  Salinas, 952 F.3d at 683 n.2; see also Manuel, 956 F.3d at 826.
+C.  P laintiffs’ first claim for relief – that Defendants violated the FDCPA by failing to
+itemize alleged debts – fails.
+
+ 1.  The parties’ contentions
+
+In their motion for partial summary judgment on their first claim for relief, Plaintiffs argue
+that Defendants’ failure to itemize Plaintiffs’ alleged debts constitutes (1) a false, deceptive, or
+misleading representation, in violation of § 1692e; and (2) an unfair means to collect or attempt to
+collect a debt, in violation of § 1692f. 38  Plaintiffs contend that Defendants’ collection letters
+“lacked any itemization of which provision(s) of the Road Home Agreement Plaintiffs purportedly
+breached, or the breakdown of alleged duplicate benefits, and further lacked any basis of the
+calculation made by their client, OCD.”39  Defendants’ failure to itemize Plaintiffs’ debts hid the
+debts’ true character, say Plaintiffs, thereby impairing their ability to assess the debts’ validity and
+intelligently respond.40  Further, Plaintiffs argue tha t each of the three defendants – SCW, Cali,
+and Walsh – is a debt collector and, therefore, each is liable for the alleged FDCPA violations
+committed.41
+
+37 To this end, t he Second Circuit has stated that a debt collection letter is deceptive “when it can be
+reasonably read to have two or more different meanings, one of which is inaccurate.”  Russell v. Equifax A.R.S. , 74
+F.3d 30, 35 (2d Cir. 1996).  This definition is “widely accepted.”  Gomez, 2016 WL 3562148, at *5 (collecting cases).
+38 R. Doc. 174-3 at 25.
+39 Id.
+40 Id. at 9.
+41 Id. at 23-24.  Plaintiffs assert this argument i n each of their motions  for partial summary judgment .  The
+Court need not address this argument, though, given its disposition of Plaintiffs’ claims.
+Case 2:18-cv-06709-BWA-EJD   Document 244   Filed 07/12/22   Page 10 of 62
+11
+
+In opposition, Defendants argue that Plaintiffs’ failure-to-itemize claim is untimely under
+the one-year FDCPA statute of limitations because if the Court decides that a Louisiana ten -year
+prescriptive period applies to Plaintiffs’ claims (i.e., if the time-barred-debt claim falls), then there
+is no “original claim” to which Plaintiffs’ recently asserted failure- to-itemize claim can relate
+back.42  Defendants then contend that no FDCPA violation occurred because (1) they were not
+required by law to itemize Plaintiffs’ debts; (2) there were no “add-on” fees included; and (3) each
+collection letter included a statement that the debtor could dispute the validity of the debt and
+request verification of the claim.43  Finally, Defendants argue that Cali and Walsh cannot be held
+personally responsible for any FDCPA violation because the purposes of the act “would not be
+furthered by holding the individual attorneys liable for a communication sent by a law firm, even
+if the individual attorneys meet the definition of a ‘debt collector.’”44
+In reply, Plaintiffs maintain that Defendants’ collection letters caused unfair confusion and
+lacked the requisite clarity mandated by the FDCPA.45  Plaintiffs contend that Defendants cannot
+
+42 R. Doc. 200 at 5.  The Court has already decided this issue.  See  R. Doc. 95.  All of the claims Plaintiffs
+raise in their amended complaints arise out of the same conduct, transaction, or occurrence as the ir “original” claim
+that the debt was time -barred (i.e., Plaintiffs’ second claim for relief).  Id . at 9.  Accordingly, the failure -to-itemize
+claim stands on its own, regardless of the Court’s disposition of the time-barred-debt claim.
+43 R. Doc. 200 at 6-7, 9.  Moreover, in their motion for summary judgment, Defendants argue that the failure-
+to-itemize claim “fails to state a cause of action, since the letters clearly state the total amount owed by the plaintiffs
+as the ‘total grant repayment amount due’ (Calogero), and ‘Amount due: $2,800.00 – Road Home Compensation
+Grant ... funds[’] (Randolph).”  R. Doc. 212-1 at 25.  Defendants reiterate that there “are no attorney’s fees, costs, or
+other items added to or included in that [total] amount, and thus there is nothing to itemize.”  Id.  “Since the defendants
+were not required to itemize or describe exactly how OCD formulated the grant overpayment owed by the plaintiffs,”
+say Defendants, “the plaintiffs’ protestations concerning exactly how the debt was incurred or formulated are of no
+moment.”  Id.  at 27.  Defendants argue that because they were  “simply not required” to itemize, Plaintiffs’ claim
+should be dismissed.  Id.
+44 R. Doc. 200 at 9-10.  Again, because the Court dismisses all claims against Defendants, it is unnecessary
+to address separately the liability of the individual Defendants.
+45 R. Doc. 210 at 2- 4.  In their opposition to Defendants’ motion for summary judgment, Plaintiffs reiterate
+that “Defendants’ letters so poorly described the nature of the debt as to be misleading or  deceptive,” and “their
+deficient presentation further constitutes an unfair means to collect or attempt to collect a debt” in violation of the
+FDCPA.  R. Doc. 225 at 15.
+Case 2:18-cv-06709-BWA-EJD   Document 244   Filed 07/12/22   Page 11 of 62
+12
+
+avoid liability by relying on the letters’ offer for Plaintiffs to seek further information because “the
+debtor is under no obligation to reach out to his tormentor.”46
+2. Analysis of Defendants’ alleged failure to itemize
+As the Plaintiffs note, the Fifth Circuit has yet to address whether the failure to itemize a
+debt in a debt-collection letter is a violation of the FDCPA. 47  Both parties acknowledge, and the
+Court agrees, that the FDCPA does not affirmatively require itemization of a debt in a debt
+collector’s dunning letter.48  And so, while the FDCPA does not require itemization, the question
+is whether, by failing to itemize, Defendants misleadingly conveyed the amount owed or unfairly
+sought to collect a debt in violation of the FDCPA.  Gomez , 2016 WL 3562148, at *8.  This is a
+“context-specific inquiry.”  Id.   And in this context, this Court holds that Defendants’ failure to
+itemize did not violate the FDCPA.
+a.  The present situation is not one that requires itemization.
+While itemization is not required in every debt collection letter,  the failure to itemize is
+materially misleading in some instances.  See id. at *6.  One such instance is when a collection
+letter lumps charges for additional collection costs and fees into the amount said to be owed.  For
+example, in Fields v. Wilber Law Firm, P.C. , the Seventh Circuit found that, at the motion- to-
+dismiss stage, the plaintiff had made allegations sufficient to state a claim under § 1692e and
+§ 1692f for failure to itemize where “the demand for payment include [d] add-on expenses like
+attorneys’ fees or collection costs.”  383 F.3d 562, 565-66 (7th Cir. 2004).  There, plaintiff Fields
+owed a debt of $122.06 to a veterinary hospital.  Id. at 563.  Fields later received a dunning letter
+stating that her account balance was $388.54.  The account  balance reflected the original debt of
+
+46 R. Doc. 210 at 4.
+47 R. Doc. 174-3 at 12.
+48 R. Docs. 174-3 at 8; 200 at 6.
+Case 2:18-cv-06709-BWA-EJD   Document 244   Filed 07/12/22   Page 12 of 62
+13
+
+$122.06, plus interest and service charges assessed pursuant to the contract signed by Fields, along
+with $250 in attorney’ s fees for the collection of the debt by the defendant debt  collector.  The
+letter “did not itemize the expenses or explain the amount of the debt in any way.”  Id. at 564.  The
+court reasoned that even assuming Fields had saved the original contract specifying that she could
+be charged for attorney’s fees , an unsophisticated consumer in those circumstances could
+reasonably wonder why her bill had increased so drastically.  Id. at 566.
+In addition, the court in Fields concluded that an unsophisticated debtor who may have lost
+the bill and forgotten the amount of the debt completely, or the debtor’s spouse, or someone else
+paying the debtor’s bills , “might logically assume that [Fields] simply incurred nearly $400 in
+charges,” as opposed to the  $122.06 she originally incurred.  Id.  “By leaving the door open for
+this assumption to be made, [the defendant debt collector’s] letter was misleading because it gave
+a false impression of the character of the debt ,” thereby impairing the debtor’s ability “to
+knowledgeably assess the validity of the debt.”   Id. at 566.  Accordingly, the court proposed that
+“[o]ne simple way to comply with  § 1692e and  § 1692f in this regard would be to itemize the
+various charges that comprise the total amount of the debt ,” including add-on expenses like
+attorney’s fees and collection costs.  Id.  So, where the total debt includes collection- related add-
+on fees or expenses, and those  fees or costs are not itemized, there may be a violation of the
+FDCPA.  See also Vogel v. McCarthy Bur gess & Wolff, Inc., 2020 WL 6134987, at *9 (N.D. Ill.
+Oct. 19, 2020)  (“Collection fees and attorneys’ fees related to debt collection have a different
+‘character’ from debts incurred for goods and services, and must be itemized separately in any
+debt collection notices.”) (citing Fields, 383 F.3d at 565-66); Meyer v. Fay Servicing, LLC, 385 F.
+Supp. 3d 1235, 1245 (M.D. Fla. 2019) (finding it plausible that a “corporate advances” line item
+could be misleading under § 1692e and § 1692f when the collection  letter did not include
+Case 2:18-cv-06709-BWA-EJD   Document 244   Filed 07/12/22   Page 13 of 62
+14
+
+itemization of attorney’s fees, late charges, or other fees associated with the debt , which were
+contemplated by the line item); Bradley v. Franklin Collection Serv., Inc., 2011 WL 13134961, at
+*11 (N.D. Ala. Mar. 24, 2011) (finding that plaintiff stated a plausible claim for relief where total
+amount demanded in collection letter combined collection costs with the principal debt).
+In other instances, however, the  failure to itemize  in a collection letter  may not be
+misleading, such as when a debt collector fails to distinguish the principal amount owed from
+interest and non-collection-related fees.  For example, in Hahn v. Triumph Partnerships LLC, the
+Seventh Circuit concluded that no violation of § 1692e occurred where the debt collector failed to
+itemize the principal debt and interest due.  557 F.3d at 756- 57.  There, plaintiff Hahn received a
+letter which stated that he owed $1,134.55 in overdue credit card debts: $1,051.91 of this amount
+was an “amount due,” and the remaining $82.64 was  an “interest due” that accrued after the
+defendants purchased the debt from the original creditor.  Id. at 756.  Hahn conceded that the total
+amount due was accurate, but argued that the labels for the two sums comprising the total amount
+of debt were technically incorrect: the $82.64 labeled “interest” included only post -assignment
+interest, whereas the $1,051.91 labeled “amount due” included pre -assignment interest and
+principal.  The court rejected Hahn’s argument , holding, in part, that  a debt collector need not
+break out principal and interest.  Id. at 756-57.  “[I]t is enough to tell the debtor the bottom line”
+without separating principal from interest, the court observed, because “[a]n ‘amount’ that is due
+can include principal, interest, penalties, attorneys’ fees, and other components.”  Id.  This means
+that the debt collector “could have sent Hahn a letter demanding payment of $1,134.55 without
+saying where this figure came from,” but, “[b]y providing some extra detail[ , the debt collector]
+may have helped consumers understand the situation.”  Id. at 757.
+Case 2:18-cv-06709-BWA-EJD   Document 244   Filed 07/12/22   Page 14 of 62
+15
+
+Similarly, in Goodrick v. Cavalry Portfolio Serv ices, LLC, the court held there was no
+violation of § 1692e where a debt collector failed to distinguish principal from interest and non-
+collection-related fees.  2013 WL 4419321, at *4 (D. Ariz. Aug. 19, 2013) .  The court reasoned
+that “[w]hile Defendant’s letters could have included additional clarifying language to itemize the
+principal and the interest portions of the debt or to reiterate the interest rate, the Court does not
+believe that the lack of those details can be considered false, deceptive, or misleading.”  Id.   The
+court concluded that while the lack of specificity as to what portion of the plaintiff’s total debt was
+principal and what portion was interest and other fees might be technically misleading, it was not
+materially misleading where the total debt was otherwise accurate.  Id.   Ultimately, because the
+plaintiff could still intelligently choose how to respond to the collection letters – by either (1)
+challenging the debt, or (2) settling the debt by paying in full  – the court found that no FDCPA
+violation had occurred.  Id. at *4 (citing Donohue v. Quick Collect, Inc., 592 F.3d 1027, 1034 (9th
+Cir. 2010)  (concluding that  plaintiff’s ability to intelligently choose her response when debt
+collector mislabeled “interest” on the collection letter had not been i mpaired because her only
+options, irrespective of the falsehood, were to pay the total debt or attempt to challenge the
+accuracy of the debt)).
+Generally, then, the caselaw indicates that collection-related expenses should be itemized
+in collection letters, but that principal and interest need not be.  Compare Fields, 383 F.3d at 564-
+66 (holding that add-on expenses like attorney’s fees and collection costs should be itemized), with
+Hahn, 557 F.3d at 756- 58 (holding that a debt collector need not itemize principal and interest),
+and Singer v. Pierce & Assocs., P.C., 383 F.3d 596, 598 (7th Cir. 2004) (concluding that no §
+1692e or § 1692f violation occurred where debt collector segregated attorney’s fees from the
+underlying debt in an itemized list of expenses).  But cases like Fields  (upon which Plaintiffs
+Case 2:18-cv-06709-BWA-EJD   Document 244   Filed 07/12/22   Page 15 of 62
+16
+
+heavily rely) and Hahn are inapposite here where there is no dispute that the total debt recited is
+accurate and did not include any collection- related fees or interest.  Where the total debt is clear
+and accurate, a precise, itemized breakdown of the component parts of the debt is not necessary.
+See, e.g., Vogel, 2020 WL 6134987, at *11 (“[Plaintiff] points to no case – within the Seventh
+Circuit or otherwise – holding that a debt collector must itemize ordinary charges that a consumer
+has rung up for goods and services with a particular creditor.  If anything, the current of Seventh
+Circuit case law flows in the other direction .”); Taubenfliegel v. EGS Fin. Care, Inc., 2018 WL
+3079697, at *4 (E.D.N.Y. June 21, 2018) (observing that the Second Circuit “expressly rejected a
+requirement of exhaustive disclosure ” for purposes of complying with § 1692e); Wilson v. Trott
+L., P.C., 118 F. Supp. 3d 953, 963 (E.D. Mich. 2015) (“[T]here is no language in the FDCPA that
+requires a debt collector to provide a complete breakdown of the debt owed.”); Moran v. Greene
+& Cooper Att ’ys LLP,  43 F. Supp. 3d 907, 914 (S.D. Ind. 2014) (“A debt collector need not
+‘itemize’ the debt, so long as its statement of the total is clear and accurate.”).
+What follows from these cases, and the rule that principal and interest need not be itemized,
+is that the principal debt itself need not be itemized.  In fact, the Second Circuit has confirmed that
+the FDCPA does not require debt collectors to itemize the component parts of the principal debt.
+See Kolbasyuk v. Cap. Mgmt. Servs., LP , 918 F.3d 236, 239- 42 (2d Cir. 2019) ; see also Vogel ,
+2020 WL 6134987, at *11 (characterizing Kolbasyuk in the same way).  In Kolbasyuk , the court
+concluded that where a debt collector provides the debtor with the “total, present quantity” of the
+debt and informs the debtor that this amount could increase due to additional fees and interest, the
+debt collector’s failure to provide detailed disclosures of a precise breakdown of the debt “does
+Case 2:18-cv-06709-BWA-EJD   Document 244   Filed 07/12/22   Page 16 of 62
+17
+
+not transform [the debt collector’s] otherwise -straightforward letter into a ‘false, deceptive, or
+misleading’ one” in violation of § 1692e.  Kolbasyuk, 918 F.3d at 240-42.49
+In like manner, the court in Vogel held that an initial collection letter , which stated the
+amount of debt in one lump sum, but failed to break down the debt into its component parts, did
+not violate the FDCPA.  Vogel, 2020 WL 6134987, at *13.  After failing to pay Payless Car Rental
+the approximately three thousand dollars  she owed, plaintiff Vogel received the debt collector’s
+initial collection later, which just reported the bottom -line number.  Id.  at *3.  There were no
+collection-related fees.  Id. at *8.  Vogel disputed the amount of the debt and the debt collector, in
+turn, sent  Vogel a debt -verification notice with an invoice from Payless, which itemized the
+charges, including “miscellaneous charges” of $789, a “late fee” of $385, and “optional services”
+of $582.75.  Id. at *4.  Because Vogel believed these were improper add-on charges that “inflated”
+her bill, she filed suit, arguing that the debt collector violated the FDCPA by failing to separately
+itemize these charges in the initial collection letter.
+The Vogel court concluded that the complained-of charges arose from the Payless car rental
+(i.e., the principal debt), not from the defendant’s debt -collection efforts (which might have
+warranted itemization).  Id. at *9.  Although Vogel believed that an itemized letter from the debt
+collector would have helped her assess the validity of the debt, the court observed that “[a] dunning
+letter can comply with the FDCPA without answering all possible questions about the past.”  Id.
+at *12.  The court granted summary judgment in favor of the defendant, reasoning that “[u] nder
+
+49 Interestingly, the Second Circuit also concluded there was no violation of 15 U.S.C. § 1692g, which
+mandates that, within five days of  sending the initial dunning letter , a debt collector must send the debtor a written
+notice regarding the amount of debt, the name of the current creditor to whom the debt is owed, and a statement
+regarding the validity of the debt, verification of the debt, the original creditor’s identity, if not contained in the initial
+communication.  Kolbasyuk, 918 F.3d at 239-40.  Even the more detailed § 1692g letter that follows the initial dunning
+letter need not “inform [the debtor] of the constituent components of that debt or the precise rates by which it might
+later increase,” the court concluded.  Id. at 240.  A fortiori, the initial collection letter need not include a detailed
+breakdown of the component parts of the original debt.
+Case 2:18-cv-06709-BWA-EJD   Document 244   Filed 07/12/22   Page 17 of 62
+18
+
+the [FDCPA], it makes no difference whether a debt collector breaks out the principal into separate
+line items, or reports the principal as a lump sum owed by the debtor.  ‘ A dollar due is a dollar
+due.’”  Id. (quoting Hahn, 557 F.3d at 757).  Additionally, the court explained that under either
+the text of the statute or the caselaw, “[t] here was nothing ‘false, deceptive, or misleading’ about
+telling Vogel the total amount owed, without breaking [it] down,” considering there were no added
+debt-collection charges.  Id. at *8, *10.  Because “[t]he creditor told [Vogel] that she owed
+$3,036.83, and the debt collector told [ her] that she owed $3,036.83,” the court held that the
+collection letter “wasn’t false, deceptive, or misleading” and, therefore, did not violate the FDCPA.
+Id. at *13.  Accordingly, there was no need for the defendant to break down the principal amount
+of debt owed.
+Against this jurisprudential backdrop, the collection letters sent to Plaintiffs did not require
+itemization.  The reference line of Calogero’s letter stated in part, “Total Grant Funds Repayment
+Amount Due: $4,598.89.”50  The letter further explained the alleged debt as follows:
+The amount due to Road Home [ i.e., the OCD] for repayment is described above
+[in the reference line].  Our client’s records indicate that you received more in total
+insurance proceeds than the amount used to calculate your Grant award.  Since you
+have not repaid those additional insurance funds to Road Home in accordance with
+your Road Home Grant Agreement, you have breached your Grant obligations.
+Those obligations are clearly outlined in your Road Home Grant Agreement.51
+
+Plaintiffs maintain that Defendants’ letter to Calogero required itemiz ation because (1) it
+“misrepresented the source of the duplicate payment as ‘insurance proceeds,’ when, in fact, the
+bulk of the alleged overpayment came from FEMA”;52 (2) it “cavalierly faulted Mrs. Calogero for
+failing to report payments made after the Grant closing,” when, in fact, “the payments at issue had
+
+50 R. Doc. 174-2 at 105.
+51 Id.
+52 R. Doc. 174-3 at 18 (emphasis in original).
+Case 2:18-cv-06709-BWA-EJD   Document 244   Filed 07/12/22   Page 18 of 62
+19
+
+been made long before the closing”; 53 and (3) “the expression of the alleged debt in a lump sum
+of $4,598.89 made it impossible for any  reader, much less the unsophisticated consumer, to
+understand the basis of the alleged debt or to check the numbers.” 54  These alleged deficiencies
+purportedly “hamstrung” and “misdirected” Calogero’s efforts to investigate the debt an d
+“deprived her of any ability to make an intelligent choice about how to respond to the letter  –
+except to do as she did, and retain counsel.”55
+The reference line of Randolph’s letter stated  in part, “Total Grant Funds Repayment
+Amount Due: $2500.00.”56  The letter further explained the alleged debt as follows:
+The amount due to Road Home [ i.e., the OCD] for repayment is described above
+[in the reference line].  Our client’s records indicate that you have breached your
+Road Home Grant obligations.  Those obligations are outlined in your Road Home
+Grant Agreement.57
+
+Defendants’ letter to Randolph required itemization, argue Plaintiffs, because the letter did not
+explain “why” Randolph owed such an amount or “how” she breached her obligations.58  And so,
+“even assuming Mrs. Randolph still had on hand the twelve pages of separate documents that
+comprised the Road Home agreements, she would have to study them and make her own
+assumptions about what she might have done wrong.” 59  This allege d deficiency purportedly
+caused “utter confusion about why [Randolph] owed thousands of dollars.”60
+But a debt collector need not itemize the constituent components of , or the basis for , the
+principal debt.  Plaintiffs do not contend that the total debt recited in the collection letters is
+inaccurate.  Nor do they contend that the amount of debt set out in the letters included any debt -
+
+53 Id. (emphasis in original).
+54 Id. at 19 (emphasis in original).
+55 Id. at 17-18.
+56 R. Doc. 174-2 at 103.
+57 Id.
+58 R. Doc. 174-3 at 21.
+59 Id.
+60 Id. at 23.
+Case 2:18-cv-06709-BWA-EJD   Document 244   Filed 07/12/22   Page 19 of 62
+20
+
+collection fees.  In these circumstances, Plaintiffs are wrong to suggest that Defendants’ statement
+of the accurate, current total debt was misleading because it was not readily apparent to Plaintiffs
+how or why they owed the debt to Road Home.  “[T] he text [of the FDCPA] does not require the
+debt collector to explain to the debtor how the creditor tallied the amount of the debt.  The
+affirmative duty to provide some information suggests that there is no comparable duty to provide
+other information, such as the back-up for the ‘amount’ of the debt.”  Vogel, 2020 WL 6134987,
+at *7 (emphasis in original).  “[W] hen prohibi ting misleading statements, the [statutory] text
+merely refers to ‘the ... amount’ of the debt as a whole, without slicing and dicing the amount into
+separate pieces.”  Id.  “The ‘amount’ of the debt does not mean the  basis for the debt.”  Id. at *8
+(emphasis in original).  The statutory term merely “refers to the size of the debt, not how the debt
+got there in the first place.  ‘ How much is the bill? ’ does not mean ‘ what’s the bill for?’”  Id.
+(emphasis in original).  And here, having accurate ly stated the amount owed, Defendants were
+under no obligation to expound upon the basis for the Road Home bills.  It is enough to give the
+debtor the bottom -line amount due, so long as it does not include undisclosed add- ons for
+collection fees.  See id. at *10; see also Hahn, 557 F.3d at 75; Allen v. Advanced Call Ctr. Techs.,
+L.L.C., 2019 WL 4887683, at *6 (E.D.N.Y. Sept. 30, 2019)  (concluding that collection le tters
+complied with the FDCPA where the total, present quantity of the debt due at the time the letters
+were sent was clearly identified) .  To conclude otherwise would put an unreasonable burden on
+the debt collector to identify each transaction the debtor made that aggregated into the total debt.
+See Vogel , 2020 WL 6134987, at *13 (“ Vogel’s interpretation  [of the FDCPA to require
+itemization of the principal debt] would impose enormous burdens on debt collectors (thus making
+debt more costly), by pressing them into service to explore the basis for a debt owed by a debtor.”).
+Case 2:18-cv-06709-BWA-EJD   Document 244   Filed 07/12/22   Page 20 of 62
+21
+
+As in Vogel , “[t]here was nothing ‘false, deceptive, or misleading’ about  [Defendants]
+telling [Plaintiffs] the total amount owed, without breaking [that amount] down,” or explaining the
+basis of the debt , where there were no added charges for debt collecti on.  Vogel , 2020 WL
+6134987, at *8, *10.  Nor does Defendants’ presentation of the debt i n the collection letters
+constitute an “unfair” attempt or means to collect a debt.  Defendants’ failure to itemize the basis
+for the original debt thus does not result in an FDCPA violation under either § 1692e or § 1692f.
+b.  The language of the collection letters was not materially misleading.
+Plaintiffs also argue that Defendants’ failure to itemize caused the language of the
+collection letters to be misleading in that it hid the true character of the debt.61  Defendants’ letter
+to Calogero was misleading, say Plaintiffs, because it “misrepresented the grant overpayment as
+resulting from insurance proceeds alone and misrepresented those payments as having been made
+after the grant was executed instead of before.”62  Plaintiffs argue that, because Calogero owed the
+OCD the undisclosed FEMA funds she received in addition to the undisclosed insurance payments,
+she “would have looked in the wrong places to analyze the alleged debt, which would have led to
+the wrong decision about any response.”63  Moreover, because the letter allegedly “faulted Mrs.
+Calogero for failing to report payments made after  the Grant closing,” 64 Plaintiffs argue that
+“Defendants misdirected  [her] investigation of the debt, this time to payments made after the
+
+61 R. Doc. 174-3 at 9.  Contrary to the idea advanced by Plaintiffs, t he “character” of the debt does  not turn
+on whether the debt was comprised of undisclosed FEMA or insurance benefits.  Instead, “[t]he ‘character’ of a debt
+concerns the ‘kind of obligation’ owed by the debtor: e.g., a secured or unsecured debt, a judgment debt, a subordinated
+debenture, etc.”  Vogel , 2020 WL 6134987, at *8 (citing Rhone v. Med. Bus. Bureau, LLC , 915 F.3d 438, 440 (7th
+Cir. 2019)).  As in Vogel, here there is no evidence that any part of the “total due” to  the OCD consisted of different
+kinds of obligations ( a secured or unsecured debt , a judgment debt,  a subordinated debt, etc.) .  Accordingly,
+Defendants’ description of the debt – that is, an amount due to the OCD for repayment – did not misrepresent its true
+character.
+62 R. Doc. 174-3 at 20.
+63 Id. at 18.
+64 Id. (emphasis in original).
+Case 2:18-cv-06709-BWA-EJD   Document 244   Filed 07/12/22   Page 21 of 62
+22
+
+closing, instead of before.” 65  Defendants’ letter to Randolph was misleading, too, say Plaintiffs,
+because “the only clue Defendants offered as to why Mrs. Randolph owed an alleged $2500 grant
+repayment was that ‘our client’s records indicate that you have breached your Road Home
+obligations.’”66  Accordingly, Defendants’ non- itemized letter to Randolph “suggested such a
+broad range of potential breaches of her Road Home obligations that it fundamentally
+misrepresented the character of the alleged debt ... ‘leaving the door open’ for the debtor to
+‘wonder’ or make ‘assumptions’ about the nature of the debt and its calculation.”67
+ Plaintiffs’ arguments are without merit.  First, there is nothing false or deceptive about the
+statements Plaintiffs identify in the collection le tters.  Again, Plaintiffs do not argue that the
+amounts the letters state as due are inaccurate.  More to Plaintiffs’ point, Calogero did indeed
+receive insurance payments she did not disclose in applying for her Road Home grant and she was
+indeed obligated to repay those amounts.  That she was also obligated to repay undisclosed FEMA
+payments did not make thi s statement any less true.  Similarly, Randolph did indeed breach her
+Road Home grant obligations by not disclosing all payments she had received.  That this statement
+did not explain the precise obligations breached or the precise basis of the debt owed did not make
+it less true.
+Second, the purportedly misleading statements are not material.  F or a representation in
+connection with debt collection to be false, deceptive, or misleading as would violate the FDCPA,
+it must be material.  See Peter v. GC Servs. L.P., 310 F.3d 344, 350 (5th Cir. 2002); Gomez, 2016
+WL 3562148, at *4-5 (discussing the materiality standard across the circuits).  “[F]alse but non-
+material representations are not likely to mislead the least sophisticated consumer and therefore
+
+65 Id.
+66 Id. at 21 (emphasis in original).
+67 R. Doc. 174-4 at 22.
+Case 2:18-cv-06709-BWA-EJD   Document 244   Filed 07/12/22   Page 22 of 62
+23
+
+are not actionable under §§ 1692e or 1692f.”  Donohue , 592 F.3d at 1033-34 (concluding that a
+debt collector’s mislabeling $32.89 as “interest” when the amount included both interest and pre-
+assignment finance charges  did not constitute a  materially false  misrepresentation under  the
+FDCPA); see also Powell, 782 F.3d at 126 (holding that technical error like misstating interest as
+principal is not material).
+The Ninth Circuit in Donohue explained that it was “not concerned with mere technical
+falsehoods that mislead no one, but instead with genuinely misleading statements that may
+frustrate a consumer’s ability to intelligently choose his or her response.”  592 F.3d at 1034; see
+also Wahl v. Midland Credit Mgmt., Inc., 556 F.3d 643, 645-46 (7th Cir. 2009) (rejecting plaintiff’s
+“hypertechnical” argument that collection letter was false and violated the FDCPA where letter
+misstated interest as principal but accurately stated the total amount owed).  Because the plaintiff
+in Donohue could still challenge the accuracy or legality of the total debt, the court could “conceive
+of no action [the plaintiff]  could have taken that was not already available to her on the basis of
+the information in the [collection communication at issue] – nor has [the plaintiff] articulated any
+different action she might have chosen.”   Id. at 1034.  Thus, the plaintiff’s ability to intelligently
+choose her response to the collection demand  had not been improperly influenced, t he court
+reasoned, where her only options, irrespective of the falsehood, were to pay the total debt or
+attempt to challenge the accuracy of the debt.  Id.  Said the court: “[I] mmaterial statements, by
+definition, do not affect a consumer’s ability to make intelligent decisions.”  Id. (citing Hahn, 557
+F.3d at 757- 58); see also Anselmi v. Shendell & Assocs., P.A., 2015 WL 11121357, at *7 (S.D.
+Fla. Jan. 7, 2015)  (finding that collection letter was not misleading or deceptive where plaintiff
+failed to assert that her decision -making regarding the debt would have been affected had the
+mislabeled fees been labeled differently).
+Case 2:18-cv-06709-BWA-EJD   Document 244   Filed 07/12/22   Page 23 of 62
+24
+
+Other courts agree.  In Hahn, in which the Seventh Circuit held that a collection letter need
+not itemize principal and interest, the court also held that the interest statement in question – which
+included only post-assignment interest in the portion of the debt labeled “interest,” but included
+both pre-assignment interest and principal in the portion labeled “amount due” – was immaterial
+because “the difference between principal and interest is no more important to the Fair Debt
+Collection Practices Act than the color of the paper that [a collector] used [for its collection letters].
+A dollar due is a dollar due.”  557 F.3d at 757.  The FDCPA “is designed to provide information
+that helps consumers to choose intelligently,” the court explained, “and by definition immaterial
+information neither contributes to that objective (if the statement is correct) nor undermines it (if
+the statement is incorrect).”  Id. at 757-58.  Therefore, the court concluded that a “statement cannot
+mislead unless it is material, so a false but non-material statement,” such as the interest statement
+at issue, “is not actionable.”  Id. at 758.
+And, as also discussed previously, the court in Goodrick held that a debt collector’s failure
+to distinguish principal from interest was not materially misleading where the total debt was
+otherwise accurate and the plaintiff could still intelligently choose how to respond to the collection
+letters.  2013 WL 4419321, at *4.  The court reasoned that “[e]ven if [it] were to find that the lack
+of specificity in this case could mislead a debtor as to what portion of his total debt was principal
+and what portion was interest and other fees, the Court d[id] not [believe] this would ‘frustrate a
+consumer’s ability to intelligently choose his or her response.’ ”  Id. (quoting Donohue, 592 F.3d
+at 1034).  After all, the lack of specificity did not hinder the plaintiff’s ability to intelligently choose
+to pay the debt or dispute it, her only options. Accordingly, the court found that no FDCPA
+violation existed.  Id.
+Case 2:18-cv-06709-BWA-EJD   Document 244   Filed 07/12/22   Page 24 of 62
+25
+
+Similarly, the court in Cortellessa v. Urden Law Offices P.C. held that a debt collector’s
+use of the term “Corporate Advance Balance” was not materially misleading under the FDCPA
+because the statement would not affect the least-sophisticated debtor’s decision-making.  2017 WL
+467348, at *2 (E.D. Pa. Feb. 3, 2017).  There, the plaintiffs complained that the term “Corporate
+Advance Balance” on their collection letter was subject to multiple interpretations, some false,
+and, therefore, was misleading.  Id.  at *2-3.  The co urt acknowledged that the term “Corporate
+Advance Balance” was ambiguous and subject to multiple interpretations, but reasoned that “there
+[was] no evidence that any of these interpretations could have reasonably impacted the least
+sophisticated debtor ’s a bility to make an intelligent decision about how to respond to the
+complaint.”  Id. at *3.
+At most, Defendants’ collection letters , like the letters in Hahn, Donohue, Goodrick, and
+Cortellessa, may contain immaterial omissions or ambiguity.  Thus, the statement in Calogero’s
+letter, that her duplicate benefits derived from insurance payments (rather than both insurance and
+FEMA payments), was technically incomplete; and the statement in Randolph’s letter , that she
+breached her Road Home obligations , may have been ambiguous in that it did not specify which
+of her multiple obligations she breached .  But neither representation is material as would have
+hindered Plaintiffs’ decision s about how to respond. 68  Regardless of these immaterial
+
+68 Plaintiffs rely on Tourgeman v. Collins Financial  Services, Inc., 755 F.3d 1109 (9th Cir. 2014), to argue
+the opposite.  R. Doc. 174 -3 at 16-17.  But that reliance  is unavailing.  In Tourgeman, the Ninth Circuit held that an
+initial collection letter was materially misleading in that it misidentified the debtor’s original creditor.  There, the debt
+collector falsely identified the plaintiff’s original creditor as American Investment Bank, N.A.,  when, in fact, it was
+CIT Online Bank.  755 F.3d at 1119- 20.  The court found the error material because a plaintiff “might engage in a
+fruitless attempt to investigate the facts of this non -existent debt,” and “contact American Investment Bank to obtain
+background information so that he can remember what had earlier transpired, or to obtain any records that the bank
+holds pertaining to his debt so that he can prove he already had paid it off, if he believes such is the case.”  Id. at 1121.
+“American Investment Bank would have no record of a loan agreement,” the court explained, “and the unknown
+account number certainly is of no help in getting to the bottom of things.”  Id.  The court concluded that “such
+‘confusion and delay in trying to contact the proper party concerning payment on the loan’ is precisely the kind of
+infringement of the consumer’s best interests that the FDCPA seeks to combat.”  Id.  at 1121-22 (quoting Wallace v.
+Wash. Mut. Bank, F.A. , 683 F.3d 323, 327 (6th Cir. 2012)) (alteration omitt ed).  Here, t he hypertechnical omission
+and ambiguity Plaintiffs identify in Defendants’ collection letters do not equate to the misidentification of the original
+Case 2:18-cv-06709-BWA-EJD   Document 244   Filed 07/12/22   Page 25 of 62
+26
+
+representations, Plaintiffs’ only two choices were clear: either dispute or pay the  amount of the
+stated debt.  See Donohue, 592 F.3d at 1034 (finding that the plaintiff’s only options, irrespective
+of any falsehood, were to pay the total debt or attempt to challenge the accuracy of the debt).  And
+this is exactly what occurred.  Calogero  challenged the accuracy of her Road Home debt, and
+Randolph entered into a payment plan to satisfy hers.
+Plaintiffs have not shown that these immaterial representations caused actual harm to the
+interests protected by the FDCPA.  T here is no evidence that Plaintiffs, for example, “took or
+forewent any action because of the allegedly misleading statements in the letters ” because
+“[s]tatements that induce no reliance,” like those at issue here, “do not impede a consumer’s ability
+to intelligently respond to a debt collector.”  Adams v. Skagit Bonded Collectors, LLC , 836 F.
+App’x 544, 546-47 (9th Cir. 2020)  (holding that plaintiff lacked standing to pursue an FDCPA
+claim where he merely made “a bare allegation of confusion” regarding a debt-collection letter as
+opposed to an allegation that he was induced to take or forego some action that harmed his
+interests).  Where Plaintiffs have presented no evidence that the omission or ambiguity frustrated
+their ability to intelligently respond to the collection letters, the Court cannot agree that the letters
+were materially misleading in violation of either § 1692e or § 1692f.  Thus, Plaintiffs’ first claim
+for relief fails on this basis as well.
+D. Plaintiffs’ second claim for relief – that Defendants violat ed the FDCPA by
+threatening to take legal action on time-barred debts – fails.
+
+ 1.  The parties’ contentions
+In their motion on their second claim, Plaintiffs argue that Defendants violated the FDCPA
+by threatening legal action on time-barred debts arising from alleged breaches of Plaintiffs’ Road
+
+creditor in Tourgeman.  Plaintiffs were fully able to  – and did in fact – contact their original creditor,  the OCD, to
+investigate the debt.
+Case 2:18-cv-06709-BWA-EJD   Document 244   Filed 07/12/22   Page 26 of 62
+27
+
+Home obligations. 69  Plaintiffs say that a federal six-year statute of limitations applies to the
+collection of funds under the Road Home agreements  and, because Defendants sent their letters
+outside of that six-year prescriptive period, the debts they sought to collect were time-barred.70  If
+state law supplies the limitations period for the alleged debts,  however, Plaintiffs argue that
+Louisiana Civil Code article 1564 applies, which provides a five-year prescriptive period for non-
+performance of conditions on an onerous donation. 71  Plaintiffs then argue that “[r]egardless of
+which time bar is found to apply here, the limitations period begins to run upon breach of an
+obligation under the Road Home Agreement.”72  And here, say Plaintiffs, “the alleged breaches of
+the Road Home Agreements occurred when each member of the class received duplicate benefits
+that were either undisclosed or unreturned to OCD” or, at the latest, when the OCD received notice
+of the payments through a data feed from FEMA and private insurers  in 2007.73  So, even if the
+Court applies a ten-year statute of limitations, argue Plaintiffs, prescription accrued on the OCD’s
+claim against Calogero and other members of the putative class ten years before Defendants sought
+to collect the debt. 74  From this, Plaintiffs conclude  that “Defendants’ threats of legal action in
+their form collection letters misrepresented the status of the deb t, threatened to take action that
+could not legally be taken, and used these misrepresentative, harassing, and deceptive means to
+unfairly attempt to collect a debt.”75
+In opposition, Defendants argue that, because Plaintiffs’ repayment obligations are not
+time-barred under the applicable state -law statute of limitations, they did not violate the FDCPA
+
+69 R. Doc. 214 at 1.
+70 R. Doc. 214-1 at 8-9.
+71 Id. at 10.
+72 Id. at 42.
+73 Id. at 42-43.
+74 Id. at 49.
+75 Id.
+Case 2:18-cv-06709-BWA-EJD   Document 244   Filed 07/12/22   Page 27 of 62
+28
+
+in seeking repayment of the grant funds. 76  Plaintiffs’ debt is not time -barred, say Defendants,
+because Plaintiffs entered into a contract with the state, not the federal government;77 therefore, a
+state statute of limitations applies ,78 not the federal six- year statute of limitations. 79  Defendants
+argue that the five-year state statute of limitations is not applicable because it attaches to actions
+dissolving a donation and, here, the grants were not donations.80  Accordingly, Defendants contend
+that the ten -year statute of limitations for breach of contract under Louisiana Civil Code article
+3499 applies.81  This ten-year prescriptive period had not run when the collection letters were sent,
+argue Defendants, because (1) block reporting of benefits paid to Louisiana residents is insufficient
+to start the running of prescription; (2) there is no evidence that  the OCD became aware of
+Plaintiffs’ alleged breaches more than ten years before the dunning letters were sent; and (3) both
+a three-year compliance period and legislative stay suspended the running of prescription.82
+In reply, Plaintiffs re-urge that the federal statute of limitations applies or, if Louisiana law
+governs, the state five-year statute of limitations applies.83  They argue that the compliance period
+and legislative sta y upon which Defendants rely are not related to the instant case; therefore,
+neither suspended the running of prescription. 84 Finally, Plaintiffs reiterate that, if the state ten -
+
+76 R. Doc. 223 at 3.
+77 Similarly, in their own motion for summary judgment, Defendants argue that the OCD (the entity with
+which Plaintiffs entered contracts) is a state, not federal, agency and that the Road Home program is a state, not federal,
+program.  R. Doc. 212-1 at 19.  Defendants contend that the OCD is not a federal agency because “HUD did not run,
+control or direct the day- to-day operations of the [Road Home] Program.”  Id. at 21.  Absent federal control of the
+day-to-day operations, say Defendants, the OCD acted as a state agency, the Road Home program was state run, and
+the OCD’s Road Home contracts with Plaintiffs are governed by state law.  Id.
+78 R. Doc. 223 at 17, 19.
+79 Id. at 16.  Further, in their motion for summary judgment, Defendants argue that Plaintiffs’ obligation to
+repay the Road Home grant overpayment s is not subject to the federal six -year statute of limitations because “[t]he
+Road Home Grant received by plaintiffs was not a federal grant, and their Road Home Grant Agreement was not a
+federal contract.”  R. Doc. 212-1 at 18 (emphasis omitted).
+80 R. Doc. 223 at 27-28.
+81 Id. at 17, 19.
+82 Id. at 28-31.  Moreover, in their motion for summary judgment, Defendants argue that a prescriptive period
+does not begin to run “until the party becomes aware of the breach, ” which did not occur until March 2008.   R. Doc.
+212-1 at 25 (citing New Orleans Jazz & Heritage v. Kirksey, 40 So. 3d 394, 408 (La. App. 2010)).
+83 R. Doc. 237 at 2-8.
+84 Id. at 14, 16.
+Case 2:18-cv-06709-BWA-EJD   Document 244   Filed 07/12/22   Page 28 of 62
+29
+
+year statute of limitations applies, prescription began to run when the information regarding
+Plaintiffs’ alleged duplicate payments “came into the database in 2007,” which is when the OCD
+allegedly had notice of the alleged breaches.85
+2. Analysis of the alleged time-barred debt
+As recounted, Plaintiffs charge Defendants with violating the FDCPA because, inter alia ,
+Defendants purportedly attempted to collect a time -barred debt, did not disclose the
+unenforceability of a time-barred debt, and threatened to sue on that debt.86  Collection of old debt
+“can be” violative of the FDCPA, but not always.  Manuel , 956 F.3d at  828.  A violation of the
+FDCPA depends on whether, read as a whole, the collection letter misrepresents the legal
+enforceability and character of a time-barred debt.  Id. at 830.  The Fifth Circuit has not yet decided
+“whether a letter seeking collection on time -barred debt is misleading as a matter of law by its
+mere silence as to the age and legal unenforceability”  of the debt.  Id .  Here, the Court finds no
+violation of the FDCPA for seeking collection on an alleged time-barred debt because the debts at
+issue were not time-barred.
+a.  A state statute of limitations applies.
+ P
+laintiffs aptly note that the resolution of their time -barred-debt claim turns on the
+determination of which time bar applies to the collection of funds under the Road Home
+agreements.87  Plaintiffs argue that if they owed a debt, it was time -barred from collection under
+the six -year federal statute of limitations, 28 U.S.C. § 2415, which governs the time for
+commencing actions brought by the United States .88  Multiple factors warrant the application of
+
+85 Id. at 10-11.  More specifically, in their opposition to Defendants’ motion for summary judgment, Plaintiffs
+explain that “[t]he applicable date on which the State had sufficient notice to excite attention and put it on guard or
+call for inquiry was the date on which FEMA and State Farm notified it of the alleged duplicate payments from grant
+recipients.”  R. Doc. 225 at 21.
+86 R. Docs. 147-1 at 1; 214-1 at 4, 45.
+87 R. Doc. 214-1 at 8.
+88 Id. at 10.
+Case 2:18-cv-06709-BWA-EJD   Document 244   Filed 07/12/22   Page 29 of 62
+30
+
+§ 2415’s six-year statute of limitations , say Plaintiffs, including: (1) preemption and Louisiana’s
+conflict-of-law rules; 89 (2) “the language of the statute ”; (3) “the close interaction  between the
+federal government and OCD in regards to the recapture of allegedly overpaid federal grant funds”;
+and (4) “the importance of uniformity in CDBG grant recoveries nation- wide, which should not
+be regulated by disparate s tate laws that would frustrate federal objectives.” 90  Defendants
+disagree, arguing that Plaintiffs entered into a contract with the state, not the federal government,
+so Plaintiffs’ obligation to repay the Road Home grant overpayments is subject to a stat e statute
+of limitations. 91  Consequently, Defendants say that because the federal six -year statute of
+limitations does not apply and they did not seek to recover a debt that was time-barred under state
+law, their actions did not violate the FDCPA.92
+When faced with this same question, another section of this court decided that a state – not
+federal – statute of limitations applied due to the character of the Road Home grant contracts .
+Napoleon v. Shows, Cali & Walsh, LLP , 2021 WL 5630895, at *6 (E.D. La. Dec. 1, 2021) .93  In
+Napoleon, the court found that the Road Home grant contracts were subject to a state statute of
+limitations because the OCD, the contracting entity, was a state, not federal, agency .  The OCD
+was a state agency, the court held, bec ause “day -to-day governance, development, and
+implementation of the Road Home grant program was performed by [the state, through the] LRA
+[and the OCD] not the federal government.”  Id.  The court reasoned that:
+plaintiff cannot show that HUD controlled the day -to-day operations of the Road
+Home Program.  Whereas HUD performed audits, provided technical assistance,
+and ensured that Louisiana’s interpretation of the statutory and regulatory
+requirements was consistent with [the Housing and Community Development Act
+
+89 Id. at 10-15.
+90 Id. at 16-17.
+91 R. Doc. 223 at 18-19.
+92 Id. at 16.
+93 Napoleon involved the Road Home program’s elevation grant in addition to its homeowners’ compensation
+grant, but this distinction does not affect the analysis of whether the program itself was administered by the state or
+the federal government.
+Case 2:18-cv-06709-BWA-EJD   Document 244   Filed 07/12/22   Page 30 of 62
+31
+
+of 1974], HUD did not participate in the day-to-day governance or implementation
+of the program.  Day-to-day governance, development, and implementation of the
+Road Home grant program was performed by the Louisiana Recovery Authority
+(LRA), which had its Action Plans approved by the Governor of Louisiana, and the
+Louisiana legislature.  The Road Home program’s only connection to the federal
+government is that the federal government provided funds to the State of Louisiana,
+which, through the OCD, used those funds for the Road Home Program.  Mere
+funding, as apparent here, is not enough to establish agency under [ United States
+v.] Orleans[, 425 U.S. 807 (1976)].
+
+Napoleon, 2021 WL 5630895, at *5 (internal citations omitted).  Accordingly, the Napoleon court
+held that a state, not federal, statute of l imitations applied to an FDCPA plaintiff’s obligations to
+repay his Road Home grant.  Id. at *6.
+Plaintiffs admit that “[i]n administering the Road Home Program, the OCD had
+considerable authority over the day -to-day management of the program.  This is undisputed.” 94
+But they suggest that this is not the real issue; instead, say Plaintiffs, the Court should examine
+“whether OCD’s discretion extended to the recovery of the allegedly overpaid grant awards,”
+which, they insist, it did not.95  Plaintiffs argue that “[t]he federal government kept a close eye on
+the money at all times, which retained its federal character and its dedication to federally -defined
+objectives.”96  But, while Plaintiffs review select statutory and regulatory provisions of the federal
+regime for grant funding, they provide no summary- judgment evidence to contravene the
+Napoleon court’s bottom-line conclusion that “day -to-day governance, development, and
+implementation of the Road Home grant program  was performed by the LRA not the  federal
+government.”  See Napoleon, 2021 WL 5630895, at *6.  This, again, is a point Plaintiffs do not
+dispute.97
+
+94 R. Doc. 214-1 at 17.
+95 Id.  Notably, Plaintiffs’ observation is contrary to state law, which provides that the OCD is  to recover
+monies that are alleged to have been improperly paid to or misspent by the recipients.  La. R.S. 49:633.1.
+96 R. Doc. 214-1 at 17.
+97 Plaintiffs move to strike an exhibit Defendants attach as support for the proposition that the Road Home
+program is administered by the state.  R. Doc. 220 at 1.  However, because the Court did not need to consider this
+exhibit in its legal determination that the state administered the program , the motion to strike is denied as moot.
+Case 2:18-cv-06709-BWA-EJD   Document 244   Filed 07/12/22   Page 31 of 62
+32
+
+The LRA and the OCD are state agencies as a matter of law.  Bernofsky v. Rd. Home Corp.,
+741 F. Supp. 2d 773, 777 (W.D. La. 2010).  The state created the LRA to oversee the disbursement
+of federal funds, La. R.S. 49:220.4-.5, and it created the OCD  as part of its division of
+administration98 to administer the Road Home p rogram.  See La. R.S. 40:600.62(2)  (“The
+[housing] project[s under the Road Home program] may be financed with funds provided in whole
+or in part from the United States Department of Housing and Urban Development ’s Community
+Development Block Grant Program, as administered by the Louisiana office of community
+development of the division of administration .”) (emphasis added) ; see also  Bernofsky, 741 F.
+Supp. 2d at  777 (finding that the OCD is a state agency  as a matter of law  because the state
+authorized it to administer the Road Home program); Blanchard v. Newton, 865 F. Supp. 2d 709,
+712 (M.D. La. 2012)  (“The state authorized the OCD within the Division  [of Administration] to
+administer The Road Home Program.” (citing La. R.S. 40:600.62(2))).  Thus, along with numerous
+other federal and state courts, this Court likewise concludes that the LRA and the OCD are state
+agencies authorized to administer the Road Home program on behalf of the state.  See, e.g.,
+Lumpkins v. Off. of Cmty. Dev., 621 F. App’x 264, 266 (5th Cir. 2015) (observing that plaintiff
+applied for disaster-relief aid administered by the OCD, a Louisiana state agency), aff’g 2014 WL
+4792188, at *3 (E.D. La. Sept. 24, 2014) (“The Office of Community Development/Louisiana
+Economic Development & Disaster Recovery Unit, and the Small Rental Property and Hazard
+Mitigation Program are departments and agencies of the State of Louisiana.”) ; Robinson v. ICF
+Emergency Mgmt. Servs., L.L.C., 453 F. App’x 528, 530 (5th Cir. 2011) (“The State of Louisiana,
+through the Office of Community Development (‘OCD’), hired defendant ICF to administer the
+Road Home program on behalf of the State.”); Napoleon v. Shows, Cali & Walsh, LLP, 2022 WL
+
+98 “‘Division of administration’ means the division of administration created within the office of the governor
+by Title 39 of the Louisiana Revised Statutes of 1950.”  La. R.S. 40:600.62(1).
+Case 2:18-cv-06709-BWA-EJD   Document 244   Filed 07/12/22   Page 32 of 62
+33
+
+721560, at *6 (E.D. La. Mar. 10, 2022) (“The LRA and the OCD are state agencies taxed with the
+administration of the road home grants funded by HUD’s Community Development Block Grant
+(‘CDBG’) Program ....”); Hall v. Forbes , 2017 WL 78493, at *1 (E.D. La. Jan. 9, 2017) (“‘The
+state authorized the OCD within th e Division [of Administration] to administer the Road Home
+Program.  There is no dispute that the OCD is a state agency.’”) (quoting Blanchard, 865 F. Supp.
+2d at 712); Pelicano v. State ex rel. Off. of Cmty. Dev., 2015 WL 6832052 (La. App. 2015) (“After
+Hurricane Katrina, the State of Louisiana, through the Office of Community Development (State),
+became the administrator of a federally-funded program known as The Road Home ....”); Guth v.
+State, 2010 WL 2802128, at *1 (La. App. 2010) (“[T]he Road Home Program [was] administered
+by the Louisiana Office of Community Development (OCD), an agency of the State of Louisiana,
+within the Division of Administration.”).  In addition, in the prior appeal of this case, the Fifth
+Circuit described the state, not federal, nature of the program.  Specifically, it noted that Calogero
+had a Road Home grant agreement with Louisiana.  It added that “Louisiana gave Calogero money
+to repair her home, and Calogero gave Louisiana her word that she would comply with the
+significant requirements set forth in the Road Home grant agreement.”  Calogero v. Shows, Cali
+& Walsh, L.L.P., 970 F.3d 576, 583-84 (5th Cir. 2020).
+In light of this long line of decisions and the Fifth Circuit’s previous observations in this
+case, the Road Home agreements are most appropriately viewed as state, not federal, in character.
+At closing, Plaintiffs each entered into a set of agreements with the OCD in conjunction with their
+receipt of the Road Home grants.99  In one of these contracts, Plaintiffs expressly agreed to repay
+the state, not the federal government, for any amounts received as a result of false, misleading, or
+incomplete statements in their applications.100  In another of these contracts, Plaintiffs  expressly
+
+99 R. Doc. 80 at 7.
+100 R. Doc. 80-1 at 9, 22.
+Case 2:18-cv-06709-BWA-EJD   Document 244   Filed 07/12/22   Page 33 of 62
+34
+
+agreed to assign to the state, not the federal government, any amount s they received from FEMA
+or private insurers that would have reduced the calculated amount of the grants.101  These contracts
+were part and parcel of the day-to-day administration of the Road Home program by state agencies,
+the LRA and the OCD, including use of the CDBG disaster-recovery grants to carry out the state-
+run program.  As such, the program and the Plaintiffs’ concomitant obligations are state, not
+federal, in character.
+Plaintiffs’ contention that the federal government minded the purse strings and program
+objectives, notwithstanding the state’s day-to-day governance, development, and implementation
+of the Road Home program, does not alter this conclusion.  Plaintiffs argue that the federal Stafford
+Act requirements that recipients of assistance not receive duplicate payments, 42 U.S.C. § 5155,
+and that the state’s obligation to certify its compliance with these requirements, 24 C.F.R. §
+570.485, .487-.491, along with the federal source of the CDBG monies, mean that the Road Home
+program was federal in character.  In rejecting a similar argument, the Napoleon court looked to
+the Supreme Court’s decision in United States v.  Orleans to observe: “Regulations aimed at
+assuring compliance with federal goals do not convert the acts of local entities into federal
+governmental acts,” 2021 WL 5630895 at *5 (citing Orleans, 425 U.S. at 815-16) , and “‘the
+question here is not whether the comm unity action agency receives federal money and must
+comply with federal standards and regulations, but whether its day- to-day operations are
+supervised by the Federal Government.’”  Id. (quoting Orleans, 425 U.S. at 815).  Compliance
+with such federal goals, standards, and regulations  undoubtedly extends to any repayment
+obligations, so under the Supreme Court’s guidance in Orleans , it is the state’s administration of
+the program, not any federal compliance requirements, that control s the question of whether a
+
+101 Id. at 10, 23.
+Case 2:18-cv-06709-BWA-EJD   Document 244   Filed 07/12/22   Page 34 of 62
+35
+
+program is essentially state or federal.   Further, Plaintiffs’ reliance on cases involving a federal
+bribery prosecution, federal insured banks, and the federal Medicare program is unavailing.102  In
+those cases, the state entities involved had assumed a federal role, essentially standing in the shoes
+of the federal government, thereby rendering application of the federal statute of limitations
+appropriate.  Here, the state agencies retained their own role in the development, administration,
+and implementation of the Road Home program distinct from the federal government, even if they
+received federal money and were required to comply with federal standards and regulations.
+In sum, then, the LRA and the OCD, as state agencies, provided grants to homeowners
+pursuant to state contracts.  Those state contracts were administered by the state as part of its day-
+to-day operations of the Road Home program.  Consequently, those state contracts, including any
+repayment obligations arising under the contracts, are subject to a state statute of limitations.
+ b .  The ten-year state statute of limitations applies.
+Having decided that state  law governs, the Court must now determine which particular
+state prescriptive period applies to Plaintiffs’ obligations.  Plaintiffs argue that if a state statute of
+limitations applies, the debt obligations under their Road Home grants prescribed under Louisiana
+Civil Code article 1564, which provides a five -year prescriptive period for non- performance of
+conditions on an onerous donation. 103  For this period to apply, Plaintiffs must establish  that the
+Road Home grants are donations.  Donative intent is clear, say Plaintiffs, because the Road Home
+compensation is “aid” and the purpose of the grants was to “provide compensation.”104  Moreover,
+Plaintiffs argue that HUD expressed its donative intent because it did not allocate a portion of its
+
+102 R. Doc. 214- 1 at 31 -35 (discussing Dixson v. United States , 465 U.S. 482 (1984), United States v.
+Thornburg, 82 F.3d 886 (9th Cir. 1996), and Manning v. Utils. Mut. Ins. Co. , 254 F.3d 387 (2d Cir. 2001)).  The
+Napoleon court distinguished Dixson as applying only in criminal matters, not civil matters, which  the court said are
+more appropriately analyzed under Orleans.  2021 WL 5630895, at *5-6.
+103 R. Doc. 214-1 at 37.
+104 Id. at 40-41.
+Case 2:18-cv-06709-BWA-EJD   Document 244   Filed 07/12/22   Page 35 of 62
+36
+
+funds until the OCD redesigned the program to provide for direct grant awards to homeowners.105
+Defendants disagree, arguing that the shorter five -year prescriptive period cannot apply because
+Plaintiffs present no evidence of  the OCD’s donative intent 106 and the Road Home documents
+“never mention any donation, but rather state that the funds are grants that are subject to
+enumerated obligations.”107  They argue that, tellingly, the grants cannot be simultaneously both
+donations and consumer debts under the FDCPA. 108  Accordingly, Defendants contend that
+Louisiana Civil Code article 3499 applies, which confers a ten-year prescriptive period for actions
+on a contract.109
+A donation must be established by proof that is “strong and convincing. ”  Schindler v.
+Biggs, 964 So. 2d 1049, 1053 (La. App. 2007).  “In order for the donation to be valid, there must
+be a divestment, accompanied by donative intent.”  Cerminaro v. Cerminaro, 207 So. 3d 633, 637
+(La. App. 2016).  The court in Napoleon found that there was no donative intent on the part of the
+state for its Road Home grants.  Napoleon, 2021 WL 5630895, at *7.  There, the plaintiff argued
+that donative intent was apparent because the word “grant” implied that the grant was a donation.
+The court held that this was insufficient to show donative intent by strong and convincing evidence
+and, thus, determined as a matter of law that the ten -year statute of limitations under article 3499
+applied to debts arising from a Road Home grant.  Id. at *6-7.
+The same analysis applies here.  Plaintiffs provide no evidence of the OCD’s donative
+intent, much less strong and convincing proof.  Their focus for examining donative intent was not
+
+105 Id. at 41.
+106 The parties analyze different entities for donative intent: Plaintiffs point to a federal entity (HUD), whereas
+Defendants point to a state entity ( the OCD).  While the federal government may have been the source of the funds
+for the Road Home program, the Court has already determined that the program was administered by the state.  Thus,
+the OCD, not HUD, is the appropriate entity to examine for donative intent.
+107 R. Doc. 223 at 28.
+108 Id. at 27.
+109 Id.
+Case 2:18-cv-06709-BWA-EJD   Document 244   Filed 07/12/22   Page 36 of 62
+37
+
+the OCD, as it should have been, but HUD, an entity that was not party to the grant agreements.
+And, as in Napoleon, it is a bridge too far to infer that the funds Plaintiffs received from the Road
+Home program were donations simply because they are denominated “grants” and were intended
+to “aid” or provide compensation for hurricane-related damage.110  After all, recipients of the grant
+monies were required to demonstrate eligibility for the Road Home grants and to enter into
+obligations concerning their receipt and use of the monies.  Hence, as the court in Napoleon held,
+the grants do not constitute donations but are contracts governed by the ten-year prescriptive period
+of article 3499.  See Napoleon, 2021 WL 5630895, at *8.
+c.  The debts are not time-barred.
+ Now that the Court has decided that the state ten-year statute of limitations applies, it must
+determine whether the ten -year prescriptive period has run, such that the debts are time -barred.
+Plaintiffs originally argued that prescription began to run when (1) Plaintiffs allegedly breached
+their Road Home agreements, which, they say, occurred at signing; or (2) the OCD had notice of
+the alleged breach, which, they say, occurred in 2007 when FEMA and private insurers provided
+information to a third -party database about payments that had been made  to grant recipients .111
+Plaintiffs, however, ultimately abandon their argument that prescription began to run at signing
+because they acknowledge  that they “have always assumed that the doctrine of contra non
+valentem would apply to suspend the running of prescription until the State knew or should have
+known about the alleged overpayments.”112  Defendants agree that prescription began to run when
+the state, through the OCD, had notice of the breaches, but they disagree with Plaintiffs about
+
+110 R. Doc. 214-1 at 40-41.
+111 R. Docs. 214-1 at 42-43; 237 at 11.
+112 R. Doc. 225 at 18.
+Case 2:18-cv-06709-BWA-EJD   Document 244   Filed 07/12/22   Page 37 of 62
+38
+
+when such notice occurred. 113  Defendants contend that prescription commenced  when the OCD
+learned of the breaches in March of 2008, not in 2007, as Plaintiffs suggest.114
+Contra non valentem is a Louisiana jurisprudential doctrine under which prescription is
+suspended when a person could not bring his or her suit.  Carter v. Haygood, 892 So. 2d 1261,
+1268 (La. 2005).  It is “an exception to the general rules of prescription.”  Wimberly v. Gatch, 635
+So. 2d 206, 211 (La. 1994).  The Louisiana supreme court recognizes four instances where contra
+non valentem is applied to prevent the running of prescription:
+(1) where there was some legal cause which prevented the courts or their officers
+from taking cognizance of or acting on the plaintiff ’s action; (2) where there was
+some condition coupled with the contract or connected with the proceedings which
+prevented the creditor from suing or acting; (3) where the debtor himself has done
+some act effectually to prevent the creditor from availing himself of his cause of
+action; and (4) where the cause of action is not known or reasonably knowable by
+the plaintiff, even though this ignorance is not induced by the defendant.
+
+Id.  These categories “allow the courts to weigh the equitable nature of the circumstances in each
+individual case to determine whether prescription will be tolled.”  Id. (quotation omitted).
+The parties agree that the fourth exception, regarding situations in which the cause of action
+is not known or reasonably knowable by a plaintiff, even though the plaintiff’s ignorance is not
+induced by the defendant, is at issue her e.115  This exception is known as the “discovery rule.”
+Meggs v. Davis Mortuary Serv., Inc., 301 So. 3d 1208, 1213 (La. App. 2020).  It applies only in
+“‘exceptional circumstances’ and is not available when the plaintiff ’s ignorance of his cause of
+action is attributable to his own willfulness or neglect. ”  Id. (citing Renfroe v. State ex rel. Dep ’t
+of Transp. & Dev., 809 So. 2d 947, 953 (La. 2002)).
+
+113 R. Docs. 212-1 at 25; 223 at 31.
+114 R. Docs. 212-1 at 25; 223 at 31.
+115 See R. Docs. 212-1 at 25; 223 at 31; 225 at 18.
+Case 2:18-cv-06709-BWA-EJD   Document 244   Filed 07/12/22   Page 38 of 62
+39
+
+“The law is clear that the prescriptive period begins to run once a party has ‘ constructive
+knowledge of the facts that would entitle him to bring a suit, ’ even if he does not have actual
+knowledge of those facts.”  Ellis v. Evonik Corp., 2022 WL 1719196, at *4 (E.D. La. May 27,
+2022) (quoting Campo v. Correa, 828 So. 2d 502, 510 (La. 2002) ) (alteration omitted) .
+“Constructive knowledge is whatever notice is enough to excite attention and put the injured party
+on guard and call for inquiry.”  Campo, 828 So. 2d at 510-11.  “[T]he ultimate issue in determining
+whether a plaintiff had constructive knowledge sufficient to commence a prescriptive period is the
+reasonableness of the plaintiff ’s action or inaction in light of his education, intelligence, and the
+nature of the defendant’s conduct.”  Marin v. Exxon Mobil Corp., 48 So. 3d 234, 246 (La. 2010)
+(citing Campo, 828 So. 2d at 511, and Griffin v. Kinberger , 507 So. 2d 821 (La.  1987)).  If, by
+exercising reasonable diligence, the plaintiff could have discovered the cause of action, this fourth
+exception will not prevent the running of prescription.  Meggs, 301 So. 3d at 1213; see also Miles
+v. MEMC Pasadena, Inc., 2009 WL 1323014, at *3 (E.D. La. May 8, 2009) (“The plaintiff m ust
+show that the cause of action for his injuries was not reasonably knowable.  This is a heavy
+burden.”).  “Information or knowledge ‘as ought to reasonably put the alleged victim on inquiry is
+sufficient to start the running of  prescription.’”  Ducote v. Touro Infirmary , 860 So. 2d 125, 129
+(La. App. 2003) (quoting Campo, 828 So. 2d at 511).  “Mere apprehension that something might
+be wrong, however, is insufficient to begin the running of  prescription unless ‘the plaintiff knew
+or should have known through the exercise of reasonable diligence ’ that the injury suffered may
+have been caused by certain acts.”  Id. (quoting Campo, 828 So. 2d at 511).
+Plaintiffs’ contention – that the OCD had constructive knowledge  of its claim for
+repayment when FEMA and private insurers sent to a third -party database information regarding
+amounts paid to Plaintiffs – is a stretch.  At some point unidentified to the Court, t he OCD (1)
+Case 2:18-cv-06709-BWA-EJD   Document 244   Filed 07/12/22   Page 39 of 62
+40
+
+established a third-party computer database system where by FEMA and private insurers could
+report all payments they had made to Road Home grant recipients;116 and (2) “obtained a software
+platform, the eGrants Plus program, into which all of this information could be uploaded for its
+own records and use in determining duplicate benefits owed to HUD under the Stafford Act.” 117
+Plaintiffs argue that prescription began to run against Calogero, for example, when her undisclosed
+FEMA and insurance payments were uploaded into this  database on July 3, 2007, and August 5,
+2007, respectively.118  Therefore, Plaintiffs argue that any claims for duplicate payment of these
+amounts were time-barred by July 4 and August 6, 2017, six months or more before Defendants
+sent Calogero the February 9, 2018 collection letter ,119 because “prescription began to run when
+the sought-after data began to flow in from multiple sources.”120
+But the fact that batches of data were sent to a third- party database – even one the OCD
+helped to establish and its contractors maintained 121 – is insufficient to “excite attention and put
+[the OCD] on guard and call for inquiry” concerning potential duplicate grant benefits to Plaintiffs,
+see Campo, 828 So. 2d at 510-11, whe re the OCD, relying on Plaintiffs’ declarations that they
+divulged all information regarding payments received from FEMA and private insurers when they
+applied for their grants, had no reason to know, and, in fact, did not know , that such data as to
+Plaintiffs existed.122  In deed, information regarding the dates on which payments were made to
+
+116 R. Docs. 214-1 at 44; 223 at 31.
+117 R. Doc. 214-1 at 44.
+118 Id. at 45.
+119 Id.
+120 R. Doc. 237 at 13.
+121 Plaintiffs argue  that “[f]or the same reasons that the State cann ot separate itself from the knowledge
+acquired by its contractor, ICF, Defendants cannot claim that [their] ignorance of facts known to [their] principal
+prevented prescription from running.”  R. Doc. 225 at 28.  Assuming that Plaintiffs are making an argument under an
+agency theory, the argument fails because Plaintiffs have not established that ICF and  GCR, entities that were
+contracted for database- related purposes, are agents of the state for the purpose of imputing to th e state their
+knowledge, if any, of Plaintiffs’ alleged breaches of their Road Home grants.
+122 Plaintiffs concede as much with respect to their original argument that prescription began to run from the
+date they executed their Road Home contracts.  See id. at 17 (“Defendants could fairly argue, however, that the State,
+having relied on Plaintiffs’ (possibly) erroneous declarations in their disclosures had no means of knowing on the date
+Case 2:18-cv-06709-BWA-EJD   Document 244   Filed 07/12/22   Page 40 of 62
+41
+
+Plaintiffs, by whom, and when, did not appear on the face of any physical records associated with
+the database.123  Instead, that information could only have been created and generated through a
+query made to the database.  What would excite attention and put the OCD on guard to call for
+such an inquiry about either Calogero or Randolph on the dates Plaintiffs say prescription began
+to run is not explained by them.  The mere fact that this info rmation existed somewhere in the
+ether does not itself excite the attention of anyone.  And so, that the OCD could have accessed that
+information “by a simple query”  at an early point in time,  as Plaintiffs allege, does not equate to
+constructive notice. 124  As Defendants observe, “[t]here is no evidence that OCD (and the
+defendants) learned of the duplicate payments before February 2008, and the fact that insurers
+(including the plaintiffs) may have sent information (concerning all payments made to all
+Louisiana residents) to a database owned and run by a third party, on a rolling basis over time, is
+not sufficient to start the running of prescription on the grant contracts.”125  The Court agrees.
+All parties admit that “[i]n March of 2008, OCD conducted a review of both Plaintiffs’
+grant files, and noted in their records that each Plaintiff had received duplicate benefits that had
+not been included in their grant calculations.”126  In the absence of evidence that any such review
+was conducted by the OCD on an earlier date, March of 2008 is the date when the OCD had
+knowledge of the overpayments to Plaintiffs.  This is when prescription began to run.
+ Although the Court cannot discern the exact day in March of 2008 when prescription began
+to run – because no specific information was provided to the Court about when the queries
+concerning Plaintiffs were made – the Court can easily determine  that Defendants’ collection
+
+of contract execution that there was a breach.”).  Plaintiffs do not make the same concession with respect to their
+alternative argument that prescription began to run from the date the payment information from FEMA and private
+insurers was uploaded into the database.
+123 R. Doc. 174-1 at 3-4.
+124 Id.
+125 R. Doc. 223 at 31 (emphasis omitted).
+126 R. Docs. 214-2 at 10; 223-1 at 2.
+Case 2:18-cv-06709-BWA-EJD   Document 244   Filed 07/12/22   Page 41 of 62
+42
+
+letters sent on August 3, 2017 (to Randolph) and February 9, 2018 (to Calogero) fell within a ten-
+year prescriptive window that began sometime in March of 2008 and ended sometime in March of
+2018.  Thus, the debts Defendants sought to collect were not time-barred, and Defendants, in this
+way, cannot be said to have misrepresented the enforceability of said debts or engaged in an unfair
+or unconscionable means to collect a debt .  Therefore, the Court finds no violation of either §
+1692e or § 1692f, and Plaintiffs’ second claim must be dismissed.127
+E.  Plaintiffs’ third claim for relief – that Defendants violated the FDCPA by threatening
+to assess attorney’s fees – fails.
+
+1.  The parties’ contentions
+
+In their motion, Plaintiffs charge Defendants with violating the FDCPA for allegedly
+threatening to seek unauthorized recovery of attorney’s fees.128  Each Road Home contract consists
+of a “suite of form documents,” explain Plaintiffs, and only one of these documents contains a
+relevant attorney’s fees provision: the Limited Subrogation/Assignment Agreement. 129  But the
+Limited Subrogation/Assignment Agreement restricts recovery of attorney’s fees to collection of
+duplicate benefits received after, not before, grant closing, say Plaintiffs,130 and here, the duplicate
+payments at issue were received before grant closing. 131  Accordingly, Plaintiffs argue that no
+
+127 Because the ten -year prescriptive period had not yet lapsed at the time Defendants sent Plaintiffs their
+respective collection letters, the Court need not decide whether a compliance period or statute suspended prescription.
+Defendants argue that Plaintif fs’ contracts provide for a three -year period “to bring themselves into compliance,”
+which suspended the running of the ten-year statute of limitations period “until at least 2010.”  R. Doc. 223 at 31; see
+also R. Doc. 212- 1 at 25.  In addition to that thr ee-year period, Defendants contend that La. R.S. 49:663.1, titled
+“Community Development Block Grant, ” suspended the running of prescription, although they do not state for how
+long.  R. Doc. 212-1 at 25.  Plaintiffs, on the other hand, argue that the thre e-year compliance period, which is found
+in a document titled “Declaration of Covenants Running with the Land,” had no relation to Plaintiffs’ obligation to
+report duplicate benefits and, therefore, the compliance period cannot apply to the overpayment recapture.  R. Doc.
+225 at 26- 27.  And La. R.S. 49:663.1 did not suspend prescription, either, say Plaintiffs, because “the State has not
+shown that any grant recapture procedures were in effect” on June 18, 2014.  R. Doc. 237 at 14.  In fact, Plaintiffs
+state that the state’s recapture efforts did not begin until 2016.  Id.   The Court need not and does not resolve these
+issues concerning suspension of the prescriptive period.
+128 R. Doc. 162-7 at 8.
+129 Id. at 11, 14.
+130 Id. at 14.
+131 Id. at 16.
+Case 2:18-cv-06709-BWA-EJD   Document 244   Filed 07/12/22   Page 42 of 62
+43
+
+attorney’s fees were authorized for a grantee’s breach of contract pertaining to any alleged
+duplication of benefits received prior to grant closing and, therefore, Defendants had no right to
+seek attorney’s fees for such collection efforts. 132  Conse quently, urge Plaintiffs, Defendants’
+collection letters stating, “[y]ou may ... be responsible for ... attorneys’ fees if it is necessary to
+bring legal action against you,” 133 mislead the unsophisticated consumer into believing that
+unauthorized attorney’s fees could be taxed against her when, in fact, that action cannot legally be
+taken.134
+In opposition, Defendants contend that they are contractually permitted to seek attorney’s
+fees.135  All of the form documents that make up the Road Home agreement, including the Limited
+Subrogation/Assignment Agreement, work in concert,136 say Defendants, so “when read together,
+attorney’s fees may be recovered in actions caused by the plaintiffs ’ violations of the suite of
+agreements they freely entered into.”137  Further, Defendants contend that for there to be a violation
+of the FDCPA, “there must exist no legal basis (contractual or otherwise) for the demand.” 138
+Defendants argue that, given the suite of documents Plaintiffs executed and the language found in
+the Limited Subrogation/Assignment Agreement, “the conditional language found in the
+defendants’ letters to the plaintiffs did not violate the FDCPA.”139  Finally, Defendants say that “it
+is interesting to note that the plaintiffs in this case have denied receiving the funds that caused the
+
+132 Id. at 17.
+133 R. Doc. 162 at 1.
+134 R. Doc. 162-7 at 18-19.
+135 R. Doc. 199 at 6.
+136 Id. at 6-7.
+137 Id. at 7.  In their motion for summary judgment, Defendants present these same arguments.  They reiterate
+that because the P laintiffs executed each of the contracts that make up the entire  Road Home agreement suite at the
+same time, the contracts should be read together.  R. Doc. 212-1 at 27-28.  Defendants contend that when read together,
+the contracts stand for the proposition that attorney’s fees may be recovered in actions resulting from  a homeowner’s
+breach of the Road Home contract suite.  Id.  at 28 .  Therefore, say Defendants, because the Limited
+Subrogation/Assignment Agreement allows for the recovery of attorney’s fees, there is no FDCPA violation.
+138 R. Doc. 199 at 7.
+139 Id.
+Case 2:18-cv-06709-BWA-EJD   Document 244   Filed 07/12/22   Page 43 of 62
+44
+
+alleged overpayments,” and, therefore, “have not admitted that the funds were received pre -
+closing” despite Plaintiffs’ claim that the Limited Subrogation/Assignment Agreement only
+applies to funds received by a plaintiff post-closing.140
+In reply, Plaintiffs argue that there is no support for the Limited Subrogation/Assignment
+Agreement to apply to all breaches of the entire Road Home contract suite.141  Each agreement is
+a separate contract, say Plaintiffs, and the attorney’s  fees provision in the Limi ted
+Subrogation/Assignment Agreement applies only to that specific agreement, not the others that
+make up the Road Home contract suite. 142  Plaintiffs  argue that  Defendants’ unsupported
+interpretation of the attorney’s fees provision would “do violence” to another contract in the Road
+Home contract suite, the Road Home Grant Agreement, which provides that the state or federal
+government may recover attorney’s fees where the homeowner initiates the legal action and suffers
+an adverse judgment, and would render it “utterly superfluous.” 143  Plaintiffs argue that
+“Defendants have left unanswered Plaintiffs’ showing that the [Limited Subrogation/Assignment]
+agreement authorizes the collection of attorney’s fees only for actions to recover benefits received
+or receivable after the grant closing” 144 and that Defendants are wrong to suggest that Plaintiffs
+cannot make such a claim without confessing the validity of the alleged debt.145  Further, Plaintiffs
+argue that Defendants wrongly fail to distinguish between the collectability of a debt and the legal
+
+140 Id. at 7-8.  Defendants also argue that Plaintiffs’ attorney’s -fees claim is untimely under the one -year
+FDCPA statute of limitations because, if the Court decides that a Louisiana ten -year prescriptive period applies to
+Plaintiffs’ claims (i.e., if the time-barred-debt claim falls), then there is no “original claim” to which Plaintiffs’ more
+recently asserted attorney’s-fees claim can relate back.  Id. at 6.  As previously indicated, see supra note 42, the Court
+has already decided this issue.  See R. Doc. 95.  All of the claims Plaintiffs raise in their amended complaints arise out
+of the same conduct, transaction, or occurrence as the “original” claim (i.e., Plaintiffs’ second claim for relief).  Id. at
+9.  Accordingly, like the failure-to-itemize claim, the attorney’s-fees claim stands on its own, regardless of the Court’s
+disposition of the time-barred-debt claim.
+141 R. Doc. 208 at 3.
+142 Id. at 4.
+143 Id.
+144 Id. at 5 (emphasis omitted).
+145 Id.
+Case 2:18-cv-06709-BWA-EJD   Document 244   Filed 07/12/22   Page 44 of 62
+45
+
+basis of a demand. 146  And finally, Plaintiffs contend that Defendants cannot escape an FDCPA
+claim by relying on conditional language, as the A ct prohibits implied threats as well as actual
+threats.147
+2.  Analysis of Defendants’ threat to collect attorney’s fees
+Whether Defendants had a legal basis to collect attorney’s fees is, at least in part, a matter
+of contract interpretation.  Four documents make up the suite of Road Home contracts.  The first
+document, titled “Road Home Program Grant Agreement  Homeowners Grant (‘Grant
+Agreement’),” has three sections. 148 The first section details the grant recipient’s contact and
+personal information.149  The second section details “grant information” including the purpose and
+source of grant funds, a synopsis of the homeowners’ covenants to run with the property for which
+the grant is awarded (which covenants are set out in another of the contracts in the suite) and  the
+homeowners’ agreement to occupy the property, and the state and federal government’s limitation
+of liability for their actions taken related to the grant.150  Importantly, the liability provision details
+that “[i]f Homeowner(s) attempt to u se legal action against Disbursement Agent, the State of
+Louisiana, United States or any other branch or agency of the state or federal government, such
+entity will have the right to recover from Homeowner(s) the attorneys’ fees and other expenses
+incurred in connection with such action in the event of adverse judgment against
+Homeowners(s).”151  Both sides agree that this attorney’s fees provision is inapplicable to the case
+at bar.152  The third section of the Grant Agreement is a fraud acknowledgment, which provides
+
+146 Id. at 6.
+147 Id.
+148 R. Doc. 162-3 at 19-20.
+149 Id. at 19.
+150 Id.
+151 Id.
+152 R. Docs. 162-7 at 12; 212-1 at 27 (Defendants’ motion for summary judgment: stating that the basis for
+the attorney’s fees statement in the collection letters is the provision in the Limited Subrogation/Assignment
+Agreement).
+Case 2:18-cv-06709-BWA-EJD   Document 244   Filed 07/12/22   Page 45 of 62
+46
+
+that the homeowner “asserts, certifies and reaffirms that all information on the application,
+documents provided and closing documents are true to the best of my/our knowledge and
+Homeowner(s) acknowledges that such have been relied on by OCD to provide disaster
+assistance,” including the homeowners’ affirmation, having acknowledged “the danger of fraud”
+and their being subject to prosecution for “false, misleading and/or incomplete statements,” that
+they have “disclosed to OCD all insurance proceeds and other funds received from governmental
+agencies as compensation for damages as a result of the declared disaster in the application
+process.”153
+The second document, titled “Declaration of Covenants Running with the Land,” sets out
+various obligations concerning, among other things, sale and use of the property, use of the grant
+proceeds, and insurance .154  If violated, the Declaration of Covenants Running with the Land
+provides that the state or federal government “may demand repayment of Grant proceeds or compel
+specific performance by the Owner or claim injunctive relief against the Owner.”155  The document
+contains no provision for attorney’s fees.156
+The third document, titled “Limited Subrogation/Assignment Agreement,” contains the
+attorney’s fees provision upon which Defendants rely. 157  The agreement begins by providing as
+follows:
+In consideration of  my/our receipt of funds under The Road Home program for
+Hurricane Katrina/Hurricane Rita victims (the “Program”) being administered by
+the Office of Community Development, Division of Administration, State of
+Louisiana, subject to the provisions below I/we hereby assign to the State of
+Louisiana, Division of Administration, Office of Community Development (the
+“State”), to the extent of the grant proceeds awarded or to be awarded to me under
+the Program, all of my/our claims and future rights to reimbursement and all
+
+153 R. Doc. 162-3 at 20.
+154 Id. at 14-16.
+155 Id. at 15.
+156 R. Docs. 162-3 at 14-16; 162-7 at 11.
+157 R. Doc. 212-1 at 27.
+Case 2:18-cv-06709-BWA-EJD   Document 244   Filed 07/12/22   Page 46 of 62
+47
+
+payments hereafter received or to be received by me/us (a) under any policy of
+casualty or property damage insurance or flood insurance on the residence,
+excluding contents (“Residence”) described in my/our application for
+Homeowner’s Assistance under the Program (“Policies”); (b) from FEMA, Small
+Business Administration, and any other federal agency, arising out of physical
+damage to the Residence caused by Hurricane Katrina and/or Hurricane Rita.  Such
+Policies include, but are not limited to, insurance policies characterized as
+homeowner’s, wind, flood or any other type of casualty or property damage or
+hazard insurance coverage under which I/we have or may assert any claim for
+physical damage to the Residence due to Hurricane Katrina or Hurricane Rita.158
+
+The Limited Subrogation/Assignment Agreement goes on to recite that it is “a limited subrogation
+and assignment, and is limited to an amount not to exceed the amount of the grant received by the
+undersigned ... to which the State has not been reimbursed from other sources.”159  The agreement
+provides further that if the grant recipient “hereafter receive[s]” any federal assistance or insurance
+payments that would have reduced the amount of the recipient’s grant if received prior to the
+receipt of the grant proceeds, then the recipient must pay that amount received to the state.160  The
+agreement contemplates other issues, such as settlement of the assigned claim, the state’s priority
+to receive payment, actions against the insurance company, and the state’s need for the grant
+recipients to do all that is required “to consummate and make effective the purposes of this
+Agreement.”161  The last sentence of the Limited Subrogation/Assignment Agreement states: “In
+any proceeding to enforce this Agreement, the S tate shall be entitled to recover all costs of
+enforcement, including actual attorney’s fees and court costs.”162
+The fourth and final document, titled “Grant Recipient Affidavit,” verifies the information
+provided by the grantee and the obligations undertaken. 163  In the affidavit , the grant recipient
+
+158 R. Doc. 162-3 at 21 (emphasis omitted).
+159 Id.
+160 Id.
+161 Id.
+162 Id. at 22.
+163 R. Doc. 162-7 at 13.
+Case 2:18-cv-06709-BWA-EJD   Document 244   Filed 07/12/22   Page 47 of 62
+48
+
+certifies and declares under oath and under penalt y of perjury that he or she, among other things:
+(1) is the owner of the subject property and understands that the Road Home program was being
+administered by the state; (2) executed the Grant Agreement and Declaration of Covenants
+Running with the Land; (3) agrees to comply with the terms and conditions therein; ( 4) has not,
+since the date of the application for the grant funds, received insurance benefits, grants, or other
+federal assistance payments for damage to his or her residence that were not disclosed in the
+application for grant funds; (5) understands that the Road Home program “may have released the
+funds prior to verification of payouts relating to damage caused by Hurricane Katrina or Hurricane
+Rita by FEMA and/or the insurance company or companies” so that the disbursement of funds
+could be expedited; (6) acknowledges that he or she could be prosecuted if he or she made or filed
+false, misleading, or incomplete statements or documents; and ( 7) agree s to repay the entire
+amount of the grant in the event he or she made or filed a false, misleading, or incomplete statement
+or document  in connection with the grant application. 164  Importantly, the Grant Recipient
+Affidavit provides:
+Under penalty of perjury and penalty of violation of Federal and State laws
+applicable to this Grant, I/we hereby certify that the insurance and FEMA
+information submitted to the Road Home Program is true and correct.
+• If the Insurer(s) has paid amounts in excess of the amount disclosed by
+me/us, I/we agree to repay the Grant, or portion thereof, which I/we received as a
+result of my/our providing the incorrect information.
+• If FEMA has paid amounts for damage to my property in excess of the
+amount disclosed by me/us, I/we agree to repay the Grant, or portion thereof, which
+I/we received as a result of my/our providing incorrect information.
+• If the overpayment is held by a Servicer or other third party, I/we
+irrevocably instruct the Servicer or other third party to release the amount of
+overpayment promptly to OCD.165
+
+164 R. Doc. 162-3 at 24.
+165 Id.
+Case 2:18-cv-06709-BWA-EJD   Document 244   Filed 07/12/22   Page 48 of 62
+49
+
+The Grant Affidavit does not contain a provision for attorney’s fees, but it does serve to tie together
+all of the grant recipients’ representations regarding the Road Home agreements.  Together, these
+four documents make up what the parties interchangeably call a “suite of documents” or a “suite
+of agreements.”166
+A contract is the law between the parties, and a court must give the contract its legal effect
+according to the parties’ common intent.  Sanders v. Ashland Oil, Inc., 696 So. 2d 1031, 1036 (La.
+App. 1997); see La. Civ. Code art. 2045 (“Interpretation of a contract is the determination of the
+common intent of the parties.”).  This intent is to be determined by the words of the contract when
+they are “clear and explicit and lead to no absurd consequences.”  La. Civ. Code art. 2046; Sanders,
+696 So. 2d at 1036.  “The rules of interpretation establish that, when a clause in a contract is clear
+and unambiguous, the letter of that clause should not be disregarded under the pretext of pursuing
+its spirit.”  Sanders, 696 So. 2d at 1036 (citing La. Civ. Code art. 2046 cmt. b; Cashio v. Shoriak,
+481 So. 2d 1013, 1015 (La. 1986)) (other citations omitted).  Accordingly, “[w]hen the words of a
+contract are clear and explicit and lead to no absurd consequences, no further interpretation may
+be made in search of the parties’ intent.”  La. Civ. Code art. 2046; see also Prejean v. Guillory, 38
+So. 3d 274, 279 (La. 2010) (“[W]hen a clause in a contract is clear and unambiguous, the letter of
+that clause should not be disregarded under the pretext of pursuing its spirit, as it is not the duty of
+the courts to bend the meaning of the words of a contract into harmony with a supposed reasonable
+intention of the parties.”).  “The determination of whether a contract is clear or ambiguous is a
+question of law.”  Sims v. Mulhearn Funeral Home, Inc., 956 So. 2d 583, 590 (La. 2007).
+“The words of a contract must be given their generally prevailing meaning.  Words of art
+and technical terms must be given their technical meaning when the contra ct involves a technical
+
+166 See, e.g., R. Docs. 162-7 at 15; 199 at 7.
+Case 2:18-cv-06709-BWA-EJD   Document 244   Filed 07/12/22   Page 49 of 62
+50
+
+matter.”  La. Civ. Code art. 2047.  “A provision susceptible of different meanings must be
+interpreted with a meaning that renders it effective and not with one that renders it ineffective.”
+Id. art. 2049.  “Each provision in a contract must be interpreted in light of the other provisions so
+that each is given the meaning suggested by the contract as a whole.”  Id.  art. 2050.  “A doubtful
+provision must be interpreted in light of the nature of the contract, equity, usages, the conduct of
+the parties before and after the formation of the contract, and of other contracts of a like nature
+between the same parties.”  Id. art. 2053.  “When the parties made no provision for a particular
+situation, it must be assumed that they intended to bind themselves not only to the express
+provisions of the contract, but also to whatever the law, equity, or usage regards as implied in a
+contract of that kind or necessary for the contract to achieve its purpose.”  Id. art. 2054.  “Equity,
+as intended in the preceding articles, is based on the principles that no one is allowed to take unfair
+advantage of another and that no one is allowed to enrich himself unjustly at the expense of
+another.  Usage ... is a practice regularly observed in affairs of a nature identical or similar to the
+object of a contract subject to interpretation.”  Id. art. 2055.
+If, after applying the foregoing principles of contract interpretation, the common intention
+of the parties remains ambiguous, the doubtful provision must be interpreted against the drafter of
+a standard-form contract or against the obligor of a particular obligation.  See Campbell v. Melton,
+817 So. 2d 69, 75 (La. 2002) (citing La. Civ Code art. 2056) (other citations omitted).  “Yet, if the
+doubt arises from lack of a necessary explanation that one party should have given, or from
+negligence or fault of one party, the contract must be interpreted in a manner favorable to the other
+party whether obligee or obligor.”  La. Civ. Code art. 2057.
+
+Case 2:18-cv-06709-BWA-EJD   Document 244   Filed 07/12/22   Page 50 of 62
+51
+
+a. Defendants may recover attorney’s fees as provided by contract.
+
+The parties agree that the Limited Subrogation/Assignment Agreement provides for
+attorney’s fees.  The parties disagree, however, as to whether the fee-shifting provision applies to
+(1) the entire suite of documents , as Defendants contend; 167 or (2) just the Limited
+Subrogation/Assignment Agreement itself, as Plaintiffs contend. 168  Defendants submit that “the
+most reasonable interpretation” of the suite of documents “is that, when read together, att orney’s
+fees may be recovered in actions caused by the plaintiffs’ violations of the suite of agreements
+they freely entered into”  and, therefore, provides a legal basis for their alleged “threat” of
+attorney’s-fees recovery contained in the collection letters.169  They argue that the documents “all
+work in concert to define and control the contractual obligations of the parties .”170  Defendants,
+however, cite no legal authority in support  of their argument .171  Plaintiffs argue against this
+position, reasoning that “ [e]ach agreement is separately titled, signed, dated, and witnessed,
+
+167 R. Doc. 212-1 at 28.
+168 R. Doc. 208 at 4.
+169 R. Doc. 212-1 at 28.
+170 R. Doc. 199 at 7.
+171 Nevertheless, such authority exists.  In Robinson v. Marks, the Louisiana supreme court observed:
+“Where several instruments, executed contemporaneously or at different times,
+pertain to the same transaction, they will be read together although they do not expressly
+refer to each other.
+“As a general rule, sometimes by reason of express statutory provision, where
+several instruments are made as part of one transaction, they will be read together, and each
+will be construed with reference to the other.  This is true, although the instruments do not
+in terms refer to each other.  ...”
+“Several instruments constituting part of the same transaction must be interpreted
+together.  ...  The general rule is  that in the absence of anything to indicate a contrary
+intention, instruments executed at the same time, by the same parties, for the same purpose,
+and in the course of the same transaction will be read and interpreted together, it being said
+that they are, in the eye of the law, one instrument.  Moreover, when two instruments are
+entered into between the same parties concerning the same subject matter, whether made
+simultaneously or on different days, they may, under some circumstances, be regarded as
+one contract and interpreted together. ...”
+30 So. 2d 200, 204 (La. 1947) (first quoting 17 C.J.S. Contracts § 298, at 714, then 12 AM. JUR. Contracts §
+246, at 781).  In Robinson, the court determined that two deeds, a land deed and a mineral deed, which were
+both executed pursuant to an escrow agreement, “constitute[d] one entire and indivisible contract or one
+transaction.”  Id. at 203.
+Case 2:18-cv-06709-BWA-EJD   Document 244   Filed 07/12/22   Page 51 of 62
+52
+
+suggesting that each is a separate contract.”172  Plaintiffs contend that the fee-shifting provision in
+the Limited Subrogation/Assignment Agreement does  not confer the right to recover attorney’s
+fees in the present situation because its language – including phrases like “hereafter received” and
+“future rights to reimbursement” – limits the right to recover fees to instances when duplicate
+benefits are received after the signing of the Road Home documents, not before. 173  So, continue
+Plaintiffs, where, as here, duplicate payments were received (but not disclosed) before signing the
+Road Home documents, the  attorney’s fees provision in the  Limited Subrogation/Assignment
+Agreement does not apply.174
+There is some force in Defendants’ contention that the “suite of documents” comprising
+the Road Home agreements should be read together to determine the common intent of the parties
+on the question of attorney’s fees.  Grant recipients like Calogero and Randolph each executed the
+documents as a package, on a single date. 175  The Grant Recipient Affidavit, by expressly
+referencing the Grant Agreement and the Declaration of Covenants and impliedly referencing the
+Limited Subrogation/Assignment Agreement, effectively ties the suite of contracts  together. 176
+The thrust of the agreements is that each grant recipient was limited to a grant amount not to exceed
+the measure of the recipient’s hurricane damage to property reduced by payments received from
+FEMA and insur ance in compensation for such damage – whether received before or after
+calculation of the grant amount.  Limiting the grant calculation in this way would maximize the
+availability of the disaster-relief funds to the widest swath of citizens  affected by the hurricanes.
+The two attorney’s fees provisions in the suite of agreements were designed to advance this
+
+172 R. Doc. 208 at 4.
+173 R. Docs. 162-7 at 14-15; 208 at 4.
+174 R. Doc. 162-7 at 14-17.
+175 Calogero on May 11, 2007, and Randolph on June 30, 2007.  See R. Doc. 162-3 at 14-33.
+176 Id. at 24.
+Case 2:18-cv-06709-BWA-EJD   Document 244   Filed 07/12/22   Page 52 of 62
+53
+
+purpose as well  by protecting against spending public monies dedicated to disaster relief on
+attorney’s fees: if sued by a grant recipient, the state as defendant could recover fees as set out in
+the liability provision of the Grant Agreement, and if forced to sue grant recipients to recoup
+FEMA and insurance payments undisclosed in the grant application or received after closing, the
+state as plaintiff could recover fees.  Understanding the design and structur e of these documents
+in this way, and reading them in concert, advances the parties’ respective interests and obligations:
+on the one hand, that the state  expeditiously funnel the C DBG funds into the hands of those in
+need without fearing the prospect  of drawing on these funds to pay recovery -related attorney’s
+fees; and, on the other hand, that grant recipients facilitate this process by making, at the outset, a
+full disclosure of all  information essential to calculating the grant a ward.  Especially g iven the
+homeowners’ express acknowledgement that the OCD, in an effort to expedite recovery, may have
+released grant funds prior to verifying information concerning the insurance and FEMA payments
+they received, it would contravene the parties’ intent as evidenced by the Road Home agreements
+to allow fee recovery in suits to recoup payment received after, but not before , closing.
+Nevertheless, the Court need not employ this rationale to resolve the Plaintiffs’ attorney’s-fees
+claim.
+Even restricting its reading of the Limited Subrogation/Assignment Agreement’s
+attorney’s fees provision as applying only to claims arising under th is one agreement, the Court
+rejects the Plaintiffs’ position that the agreement governs only post-grant duplicate payments and,
+therefore, does not provide a contractual basis for attorney’s fees where, as here, Plaintiffs received
+duplicate payments before grant closing. 177  Plaintiffs argue that “[t]he language of the
+Subrogation/Assignment Agreement expressly requires the grantee to subrogate or assign their
+
+177 See R. Doc. 162-7 at 15.
+Case 2:18-cv-06709-BWA-EJD   Document 244   Filed 07/12/22   Page 53 of 62
+54
+
+right to future  payments by FEMA or t he grantee’s insurer.” 178  In support of their argument,
+Plaintiffs point to the clause “[i]f I/we hereafter receive any ... payments”179 and the provision that
+“‘I/we agree to promptly pay such amount to the State if that amount would have reduced the
+amount of my Program grant had I/we received such Federal Assistance [or insurance payments]
+prior to the receipt of grant proceeds.’”180  Plaintiffs contend that subrogation/assignment
+agreements “can only assign ‘rights,’ not prior claims that have already been fully actualized,” and
+that “the grantees in this case could not assign to the State or subrogate the State to a right to
+payment they had already collected.”181  But they cite no legal authority for this proposition.
+The Court cannot espouse Plaintiffs’ interpretation of the Limited Subrogation/Assignment
+Agreement because it offers only half the loaf.  Under the express language of the agreement, the
+grant recipient assigns to the state (in particular, the OCD) “all of my ... claims and future rights
+to reimbursement and all payments hereafter received or to be received by me ” from an insurer
+and FEMA.182  In other words, through this agreement, Plaintiffs assign to the state their (1) claims
+to reimbursement; (2) future rights to reimbursement; and (3) all insurance and FEMA monies
+received after grant signing.  Importantly, the adjective “future” is not used to modify the term
+“claims,” so the claims  the grant recipient assigned to the s tate are not limited only to “future
+claims” or “ claims hereafter brought.”  The term “claims ,” used in the Limited
+Subrogation/Assignment Agreement, stands alone, with no modifier, and should not be confined
+to a future tense the contracting parties expressly avoided.183  That they did not modify the term
+
+178 Id. at 14 (quoting R. Doc. 162-3 at 21) (emphasis in original).
+179 Id. (quoting R. Doc. 162-3 at 21) (emphasis in original).
+180 Id. at 15 (quoting R. Doc. 162-3 at 21) (emphasis and alteration in original).
+181 Id. (emphasis in original).
+182 R. Doc. 162-3 at 21.
+183 If this straightforward reading of the clear and unambiguous language of the contract were not sufficient,
+the Court could look to other canons of contract interpretation.  Used in the interpretation of contracts, “[t]he Latin
+maxim expressio unius est exclusio alterius  proves instructive.”  Branson v. Greyhound Lines, Inc., Amalgamated
+Council Ret. & Disability Plan, 126 F.3d 747, 758 (5th Cir. 1997) (applying maxim to retirement and disability plan).
+Case 2:18-cv-06709-BWA-EJD   Document 244   Filed 07/12/22   Page 54 of 62
+55
+
+“claims” evidences that the assignment intended to be effected by the parties encompassed the
+whole of the grantee’s claim , without limitation.  Therefore, upon assignment, the state received
+(1) an immediate right to recover payments the grant recipient had already received from FEMA
+and insur ance (to the extent the recipient -homeowner failed to disclose them in the grant
+application process as would have allowed them to be accounted for in calculating the grant
+amount); and (2) the right to recover future payments, those yet to be received by the homeowner.
+In other words, the assignment  affords the state the right to receive attorney’s fees on claims for
+the repayment of all undisclosed FEMA and insurance payments , past or future.  That the term
+“claims” includes the right to FEMA and insurance payments already made to the grant recipients
+makes sense within the structure of the Road Home contracts because they otherwise provided that
+(1) such payments should have been disclosed and accounted for in calculating (i.e., reducing) the
+amount of the grant award, and (2) the contracts gave the OCD the right to recover from the grant
+recipients the amount of the undisclosed FEMA and insurance payments.  Interpreting this
+provision in light of the other provisions in the Road Home agreements allows each to be given
+the meaning suggested by the whole of the contracts, as Louisiana law requires.  See La. Civ. Code
+art. 2050.
+
+According to the maxim (also known as the negative-implication canon), “‘expressing one item of an associated group
+or series excludes another left unmentioned.’”  NLRB v. SW Gen., Inc., 137 S. Ct. 929, 940 (2017) (quoting Chevron
+U.S.A. Inc. v. Echazabal,  536 U.S. 73, 80 (2002)) (alteration omitted) ; ANTONIN SCALIA & BRYAN A. GARNER,
+READING LAW: THE INTERPRETATION OF LEGAL TEXTS 107-11 (2012) (“The expression of one thing implies the
+exclusion of others.”).  “The expressio unius canon applies only when ‘circumstances support a sensible inference that
+the term left out must have been meant to be excluded.’”  SW Gen., 137 S. Ct. at 940 (quoting Echazabal, 536 U.S. at
+81) (alteration omitted).  Here, because the Limited Subrogation/Assignment Agreement uses the adjective “future”
+to modify only “ rights to reimbursement and all [insurance and FEMA] payments hereafter received,” the expressio
+unius canon excludes the adjective from applying to the term “claims.”  Said another way, because “claims” was
+excluded from the phrase (encompassing the terms “rights” and “payments to be received”) modified by the adjective
+“future,” the negative implication is that the “claims” assigned are not restricted in time but encompass all claims for
+repayment, whether directed against the undisclosed payments made pre-closing or post-closing.
+Case 2:18-cv-06709-BWA-EJD   Document 244   Filed 07/12/22   Page 55 of 62
+56
+
+Because Plaintiffs assigned the state their respective “claim s” to FEMA and insurance
+payments, the state is entitled to seek attorney’s fees pursuant to the Limited
+Subrogation/Assignment Agreement on any action regarding such  claims, including an action to
+recoup the payments Plaintiffs failed to disclose  before closing.  Consequently, the fee-shifting
+provision in the Limited Subrogation/Assignment Agreement provides the basis for Defendants’
+“threat” of attorney’s fees  contained in the collection letters ,184 and this alleged “threat” did not
+violate the FDCPA as Plaintiffs claim.
+b.  Defendants may also recover attorney’s fees under a theory of fraud.
+“Louisiana courts have long held that attorney fees are not allowed except where authorized
+by statute or contract.”  Stutts v. Melton, 130 So. 3d 808, 814 (La. 2013).  The suite of agreements
+has been examined for a contractual basis for Defendant’s threat of attorney’s fees.  It should also
+be examined under Louisiana law for a statutory basis – in this case, the possibility Defendants
+could recover attorney’s fees in a claim for fraud concerning Plaintiffs’ omissions from their grant-
+application disclosures.
+Under Louisiana law, “[f]raud is a misrepresentation or a suppression of the truth made
+with the intention either to obtain an unjust advantage for one party or to cause a loss or
+inconvenience to the other.  Fraud may also result from silence or inaction.”  La. Civ. Code art.
+1953.  Fraud vitiates consent, id. art. 1948, and is, therefore, grounds for recission of a contract.
+Stutts, 130 So. 3d at 814 (citing La. Civ. Code art. 2031).  Notably, an action for fraud is expressly
+contemplated by the Road Home agreements.  In the Grant Agreement, the section titled “Fraud
+Acknowledgment” provides:
+
+184 Because there is a contractual (and , as developed below, a  statutory) basis for the alleged “threat” of
+attorney’s fees, the Court need not address Defendants’ argument regarding their use of conditional language  in the
+collection letters.
+Case 2:18-cv-06709-BWA-EJD   Document 244   Filed 07/12/22   Page 56 of 62
+57
+
+Homeowner(s) asserts, certifies and reaffirms that all information on the
+application, documents provided and closing documents are true to the best of
+my/our knowledge and Homeowner(s) acknowledges that such have been relied on
+by OCD to provide disaster assistance.  Homeowner(s) certifies that all damages
+claimed in connection with Homeowner(s) application for grant proceeds were a
+direct result of the declared disaster, and that Homeowner(s) have disclosed to OCD
+all insurance proceeds and other funds received from governmental agencies as
+compensation for damages as a result of the declared disaster in the application
+process.  Homeowner(s) acknowledge that Homeowner(s) may be prosecuted by
+Federal, State and/or local authorities in the event that Homeowner(s) make or file
+false, misleading and/or incomplete statements and/or documents.  Homeowner(s)
+agree to repay the Grant in the event Homeowner(s) make or file false, misleading
+and/or incomplete statements and/or documents.  Homeowner(s) acknowledges
+notice of the danger of fraud and scams perpetuated by unscrupulous individuals,
+contractors and businesses and that the State has provided an Office of Fraud to
+address such issues.185
+
+Grant recipients made an identical certification in the Grant Affidavits they executed,
+acknowledging the danger of fraud and their liability for any false, misleading, or incomplete
+statements in the application process – including any failure to disclose  insurance and FEMA
+payments they received before closing.
+An a ction for fraud  carries with it the right to recover attorney’s fees.  See Stutts, 130 So.
+3d at 814-15.  “ As vitiation of consent is grounds for rescission, [Louisiana Civil Code article]
+1958 provides that ‘ the party against whom rescission is granted because of fraud is liable for
+damages and attorney fees. ’”  Id . at 814 (quoting La. Civ. Code art. 1958) (al teration omitted).
+However, the victim of fraud need not seek the recission of the contract to be entitled to an award
+of attorney’s fees.  In Stutts v. Melton, the Louisiana supreme court found that, where a seller
+fraudulently failed to disclose defects in the roof of a home for sale, the purchaser-plaintiffs were
+entitled to attorney’s fees despite only seeking replacement value of the roof rather than recission
+of the contract of sale.  Id. at 815.  The court explained:
+Surely, the legislature did not intend the victim of fraud to go uncompensated for
+at
+torney fees, or for that matter, any damages at all, unless he seeks rescission of
+
+185 R. Doc. 162-3 at 20.
+Case 2:18-cv-06709-BWA-EJD   Document 244   Filed 07/12/22   Page 57 of 62
+58
+
+the entire contract.  And, if [article] 1958 is interpreted to mean that the plaintiff is
+only entitled to damages and not attorney fees, then the fraudulent defendant is
+essentially being treated as a good faith obligor, who is only liable for damages that
+were foreseeable at the time the contract was made.  This is contrary to law as “[i]t
+should be clear that in Louisiana the liability of an obligor who committed fraud in
+failing to perform his obligation, rather than just acting in bad faith, would, for
+greater reasons, be at least as extensive as the liability of an obligor in bad faith.”
+Further, in our view, the intent of the legislation providing attorney fees when the
+obligor has committed fraud is to punish the fraudulent conduct, regardless of
+whether the obligee seeks rescission of the contract.
+
+Id. at 814-15 (citations omitted).  Accordingly, the court reasoned that, “ to provide an equitable
+remedy, it is reasonable and just to assume the legislature intended at least the same type of
+damages for fraud where rescission of the entire sale is not sought ,” and held that plaintiffs were
+entitled to attorney’s fees.  Id. at 815.
+ Similarly, in Pan American Life Insurance Company v. Louisiana Acquisitions
+Corporation, another section of this court, relying on the Stutts decision, reached the same result.
+2020 WL 68612, at *5 (E.D. La. Jan. 7, 2020).  There, defendants asserted counterclaims for bad-
+faith breach of contract, breach of fiduciary duty, fraud in the inducement, negligent
+misrepresentation, and detrimental reliance.  Id. at *1.  The question before the court was whether
+the defendants were entitled to damages, specifically attorney’s fees , under statutory law.  Id. at
+*2.  Defendants did not seek rescission of their contract; instead, they sought recovery of all
+damages incurred as a result of plaintiff’s breach of contract, including attorney’s fees, under a
+theory of fraud.  Id. at *3.  The court found “that the defendants may recover damages, including
+attorneys’ fees, if they prove that [the plaintiff] engaged in fraud.”  Id.  at *5; see also Baudy v.
+Adame, 441 F. Supp. 3d 293, 304 (E.D. La. 2020)  (“[T]he Court finds that if the Plaintiffs can
+prove fraud in this case, they will be entitled to return of the price, damages, and attorney’s fees.”).
+The court in Pan American Life went on to analyze the defendants’ claim for fraud, found that “the
+evidence clearly support[ed] that [the plaintiff] engaged in fraud by willfully misrepresenting or
+Case 2:18-cv-06709-BWA-EJD   Document 244   Filed 07/12/22   Page 58 of 62
+59
+
+suppressing the truth of its intention not to abide by [an agreement between the parties],” and
+concluded that because the defendants proved fraud, they were entitled to damages, including
+attorney’s fees.  2020 WL 68612, at *6.
+ Here, if in seeking to recoup the undisclosed insurance and FEMA payments Defendants
+were to claim that Plaintiffs engaged in fraud by failing to disclose such payments in their grant
+application, Defendants could seek to recover attorney’s fees  under an express provision of
+Louisiana law.  Whether Plaintiffs did, in fact, engage in fraud is not before the Court.  Rather, at
+this juncture, the Court must determine whether there existed a legally enforceable basis to support
+Defendants’ alleged “threat” – that is to say, the possibility – that Plaintiffs may be responsible for
+attorney’s fees.  And there is: under a theory of fraud.  Because there is a reasonable basis in law
+for an attorney’s fees claim  under a theory of fraud, which  theory is contemplated by both
+Louisiana law and the parties ’ contracts, Plaintiffs’ contention that “Defendants have no right to
+recover any attorney’s fees incurred in collecting alleged overpayments from Road Home grantees
+when the duplicate benefit (e.g., FEMA and/or insurance payment) was made prior to grant
+signing”186 is without merit.  Thus, Plaintiffs’ third claim for relief fails and is dismissed.
+F. Plaintiffs’ fourth claim for relief – that Defendants violated the FDCPA by inducing
+debtors to make payment or take other action to revive time-barred debts – fails.
+
+Plaintiffs charge Defendants with “inducing debtors to make payment or sign promissory
+notes without disclosing that such action might revive the statute of limitations on their time-barred
+debts arising from alleged breaches of Plaintiffs’ Road Home obligations, and then actually
+negotiating such limitation-reviving acknowledgements of the debt after the limitation period has
+accrued.”187  But no such violation occurred because, as reviewed above, 188 neither Calogero’s
+
+186 R. Doc. 162-7 at 21.
+187 R. Doc. 215 at 1.
+188 See supra Section II(D).
+Case 2:18-cv-06709-BWA-EJD   Document 244   Filed 07/12/22   Page 59 of 62
+60
+
+debt nor Randolph’s debt was time -barred at the time Defendants sent their collection letters.
+Accordingly, Plaintiffs’ fourth claim must be dismissed.
+G.  Plaintiffs’ motion for class certification necessarily fails.
+
+In their motion for class certification, Plaintiffs move pursuant to Rule 23(a) and (b)(3) of
+the Federal Rules of Civil Procedure to certify Plaintiffs as representatives to bring claims for the
+following defined classes:
+UMBRELLA CLASS DEFINITION:  The class consists of all Louisiana residents
+who received a Road Home Homeowner’s Grant for personal, family or household
+purposes to whom Defendants sent a collection letter in the form of Exhibits 4
+and/or 5189 within the one year period prior to the filing of this lawsuit, and who
+also fall into one or more of the following subclasses.
+A.  The first subclass consists of: those to whom Defendants sent a
+collection letter in the form of Exhibits 4 and/or 5, which letter did not itemize the
+alleged debt by category including insurance or FEMA benefits which duplicated
+the grant payment and/or did not state the source of the alleged duplicate payment.
+B.  The second subclass consists of: those to whom Defendants sent a
+collection letter in the form of Exhibits 4 and/or 5 more than five years after the
+grant Agreement was signed which did not state that the alleged debt was not
+legally enforceable and that a payment would renew the debt.
+C.  The third subclass consists of: those to whom Defendants sent a
+collection letter in the form of Exhibits 4 and/or 5 which stated that “you may also
+be responsible for ... attorney fees.”
+D.  The fourth subclass consists of: those to whom Defendants sent a
+promissory note in the form of Exhibit 6 190 obligating them to repay alleged grant
+overpayments, without advising that signing the instrument would revive any
+statute of limitations that had run against legal action on the alleged debt.191
+
+Each subclass corresponds with one of Plaintiffs’ four claims that Defendants violated the
+FDCPA.192  The Court, however, has dismissed each claim.  And, where each of Plaintiffs’ claims
+fails, so too does the class.  See Napoleon v. Shows, Cali & Walsh, LLP, 2021 WL 5816009, at *4
+(E.D. La. Dec. 7, 2021) (denying motion for class certification where class representative did not
+
+189 R. Doc. 80-1 at 28-29.
+190 Id. at 30.
+191 R. Doc. 127 at 1-2.
+192 R. Doc. 127-1 at 3.
+Case 2:18-cv-06709-BWA-EJD   Document 244   Filed 07/12/22   Page 60 of 62

@@ -1,0 +1,795 @@
+1
+
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+HOSPITAL SERVICE DISTRICT NO. 1 OF
+TERREBONNE PARISH
+
+VERSUS
+
+HARTFORD FIRE INSURANCE
+COMPANY
+*
+
+*
+
+*
+*
+CIVIL ACTION
+
+NO. 22-689
+
+SECTION “P” (2)
+ORDER AND REASONS
+
+Before me are cross motions for summary judg ment in this insura nce coverage dispute
+filed by Hospital Service District No. 1 of Terre bonne Parish against Hartford Fire Insurance
+Company.  ECF Nos. 37, 39.  The parties timel y filed Opposition and Reply Memoranda.  ECF
+Nos. 39-2, 44, 48.  Both motions raise the same issue:  whether Hartford’s insurance policy issued
+to the Hospital covers loss of income1 resulting from the Louisiana Department of Health’s orders
+suspending non-emergency procedures during the initial months of the COVID-19 pandemic.
+In accordance with the parties’ unanimous consent, the Honorable Darrel Papillion referred
+both motions to the undersigned ma gistrate judge for resolution pur suant to 28 U.S.C. § 636(c).
+ECF No. 56.  After having considered the record, the submissions and arguments of counsel, and
+the applicable law, Plaintiff’s motion for partial summary judgment is DENIED and Defendant’s
+motion for summary judgment is GRANTED for the reasons stated herein.
+I. BACKGROUND
+A. Procedural Background
+Plaintiff Hospital Service Dist rict No. 1 of Terrebonne Parish (“the Hospital”) filed suit
+seeking contractual and extra-contractual damage s against its insurer Hartford Fire Insurance
+
+1 The Hospital disclaims any intent to seek recovery for losses related to clean up, removal, restoration or replacement
+of contaminated property.  ECF No. 39-2 at 7 n.23.
+Case 2:22-cv-00689-DJP-DPC   Document 58   Filed 02/22/24   Page 1 of 24
+2
+
+Company (“Hartford”).  ECF No. 1.  The Hospital alleges that certain L ouisiana Department of
+Health (“LDH”) COVID-19 orders prohibiting a ll Louisiana hospitals (and thus including the
+Hospital) from performing non-emergency pro cedures for several months triggered the
+Communicable Disease Contamination provision in its Additional Coverage Extension for
+Healthcare, thereby entitling the Hospital to recover for business interruption losses following the
+outbreak of COVID-19.  Id. ¶¶ 12-16.  Hartford admits that its property insurance policy contains
+a Communicable Disease Contamination provision but asserts that the claim is not covered and/or
+is barred.  ECF No. 9.
+The Honorable Jane Triche Milazzo 2 bifurcated the issues of  coverage and damages,
+deciding first whether the Hospit al is entitled to coverage for alleged COVID-19 business
+interruption losses under the policy and reservi ng the issues of damages and penalties for
+resolution after the coverage determination.  ECF No. 36.  Th ese cross motions  for summary
+judgment followed.
+B. The Undisputed Facts
+1. Louisiana’s COVID-19 History
+Louisiana’s first presumptively positive COVID-19 case occurred on March 9, 2020, and
+by March 11, 2020, the Governor issued a proclama tion declaring a public health emergency to
+mitigate the spread of COVID-19.  ECF No. 37-12 at 3.  This proclamation empowered the
+Secretary of the Department of Health and/or the State Health Officer to take all actions authorized
+under law to prevent the spread of COVID-19.  Id.; see also ECF Nos. 37-2 at 3 and 39-34 at 4,
+Nos. 10-12.  The LDH, through State Health Office r Dr. Jimmy Guidry, then issued a series of
+orders related to medical and surgical procedures that applied to all Louisiana hospitals, including
+
+2 On June 22, 2023, Chief Judge Brown reassigned this case to Judge Papillion.  ECF No. 38.
+Case 2:22-cv-00689-DJP-DPC   Document 58   Filed 02/22/24   Page 2 of 24
+3
+
+orders dated March 18, 2020, March 21, 2020, April 20, 2020, and June 4, 2020.  ECF Nos. 37-13
+– 37-16; Nos. 39-5 – 39-8; see also Nos. 37-2 at 3-4 and 39-34 at 4, No. 13.  Generally, the initial
+orders directed the postponement of non-emergent  medical or surgical procedures and later
+allowed the resumption of non-emergent services after implementation of certain safety measures
+and precautions to further mitigate the spread of COVID-19.3  The parties do not dispute that, due
+to these orders, the Hospital was unable to perform non-emergency medical and surgical
+procedures from March 18 until June 4, 2020.  ECF Nos. 39-34 at 2 and 44-1 at 4, Nos. 7, 8.
+2. The Hospital’s COVID-19 Experience
+The Hospital treated its first COVID-19 patient on March 11, 2020.  ECF No. 39-3 at 7-8.
+Each day, the Hospital (like all Louisiana hospita ls) reported to the LDH its daily census (i.e.,
+number of available beds and number of admitted COVID-19 patients).  Id. at 5-6, 12.  After that
+date and during the ensuing week s, the Hospital’s tested numerous people, many of those with
+positive results, and some, but not all,  were admitted to the Hospital.  Id. at 9-10.  The precise
+number of COVID-19 patients treated at the Hospital during the relevant time is unclear.4  While
+the Hospital treated numerous COVID-19 positive patients during March 2020, the Hospital’s Rule
+30(b)(6) witness confirmed that the Hospital had no hospital acquired COVID-19 cases during the
+March 2020 period.  ECF No. 37-19 at 9; see also ECF No. 37-42 at 10-11 (Hospital’s expert had
+
+3 See ECF No. 37-13 (LDH order directing 30-day postponement of all medical and surgical procedures that can be
+safely postponed); ECF No. 37-14 (postponing without date medical and surgical procedures except for emergency
+medical conditions or to avoid further harms from the underlying condition or disease); ECF No. 36-15 (specifying
+the limited instances in which medical, surgical, and dental procedures may be performed); ECF No. 37-16 (same).
+4 See ECF No. 37-19 at 13 (discussing discrepancies between COVID-19 tallies in two documents, one suggesting 45
+positive patients and the other suggesting 71 positive patients) .  The Hospital’s February 19, 2021 chart attached to
+counsel’s September 29, 2021 correspondence to Hartford indicates the Hospital’s COVID census ranged from 2 to
+41 patients between March 11 – 31, 2020; however, that census number reflects both confirmed and suspected
+COVID-19 cases.  ECF No. 37-35; ECF No. 37-18 at 51-57.  The Hospital’s infectious disease manager Charlotte
+Boudreaux maintained a daily log of COVID-19 positive results.  Her April 3, 2023 confidential Memorandum to
+counsel indicates that, in March 2020, the Hospital tested about 191 persons, 71 of whom tested positive for COVID-
+19 with 63 persons admitted to the Hospital, only 46 of wh om tested positive.  ECF No. 37-36; No. 39-4.  Between
+March 17 and April 2, 2020, eight employees tested positive,  three in the dietary department; four of those positive
+for COVID-19 were admitted to the Hospital.  ECF No. 37-36 at 6.  See also ECF No. 39-13.
+Case 2:22-cv-00689-DJP-DPC   Document 58   Filed 02/22/24   Page 3 of 24
+4
+
+not received any evidence indicating whether any of  the eight employees who tested positive for
+COVID-19 in March 2020 acquired COVID-19 at the Hospital).  Not until late 2021 or early 2022
+did the Hospital report any hospital-acquired COVID-19 cases.  ECF No. 37-19 at 19-20.
+As a result of the LDH Orders, the Hospital lost revenue from cancellation or postponement
+of elective surgeries and reduced ER visits.  ECF No. 37-23 at 6.  In addition, it implemented
+enhanced and more frequent cleaning/sanitizing procedures, purchased UV lights, modified some
+treatment spaces, and took other steps to reduce the spread of COVID-19.  See, e.g., ECF No. 39-
+3 at 18-21; No. 39-15 at 3; No. 44-9 at 8-9; No. 44-10 at 18-21.  Due to COVID-19, the Hospital
+also used significantly more supplies (e.g., gloves, masks).  See, e.g., ECF No. 44-9 at 10-11.
+3. The Relevant Policy Provisions
+The parties do not dispute that Hartford Fire Insurance Company issued Policy No. 46 UFJ
+ZX0065 with a term of April 1, 2019 through April 1, 2020 (the “Policy”).  ECF Nos. 37-2 at 1-2
+and 39-34 at 4, Nos. 2-6; see also ECF No. 37-5 at 2.  The Polic y contains an endorsement for
+Additional Coverage Extensions for Healthcare with a $500,000 limit in any one policy year.  ECF
+No. 37-5 at 16; see also ECF Nos. 37-2 at 3 and 39-34 at 4, No. 8.  The Additional Coverage
+Extension for Healthcare endorsement cont ains a Communicable Disease Contamination
+provision (“CD provision”), which provides, in relevant part:
+B. COMMUNICABLE DISEASE CONTAMINATION
+
+Coverage: When a governmental health au thority having jurisdiction over the
+"Insured Premises" has issued an orde r regarding an outbreak of a specific
+communicable disease at an "Insured Premises", we will pay for:
+
+1. The actual costs that you incur to clean up, remove , restore, or replace
+contaminated Covered Property when required by the order due to the presence
+of a specific communicable disease at an "Insured Premises"; and
+
+2. We also will pay for the actual loss of Business Income or Rental Income you
+sustain due to the actual impairment of  your operations from the requirements
+Case 2:22-cv-00689-DJP-DPC   Document 58   Filed 02/22/24   Page 4 of 24
+5
+
+of the order during the Peri od of Restoration at an "Insured Premises", if
+Business Income or Rental Income is covered under this policy.
+
+Coverage for Business Income or Rental Income will begin 24 hours following
+the date you begin to clean up, remove, restore or replace contaminated Covered
+Property and ends on the earlier of:
+a. The date you could restore your business operations, with reasonable speed,
+to the level which would generate the Business Income or Rental Income
+amount that would have existed if no loss occurred; or
+b. 180 days after this coverage for communicable disease contamination begins.
+
+3. We will not pay for the costs to test for or monitor for any communicable disease
+other than payment for testing or monito ring that is performed during the clean
+up or removal of the communicable disease.
+
+4. This Coverage does not apply if the presence of the communicable disease:
+a. Is caused by or results from a caus e of loss that is excluded under this
+coverage part;
+b. Existed prior to the effective date of this policy; or
+c. Is not reported to us in writing as soon as possible after you first become
+aware, or in the exercise of reasonable care, should have become aware, of
+the presence of the communicable disease.
+
+ECF No. 37-7 at 12.   The policy does not define the term “outbreak” or “regarding.”  ECF Nos.
+39-34 at 2-3 and ECF No. 44-1 at 11-12, Nos. 12, 14.
+Although Hartford issued subsequent policies to the Hospital, the Hospital makes no claim
+under Policy No. 83 UFJ AJ6U22 issued the following year (April 1, 2020 through April 1, 2021),
+and the policy issued the year after that did not include CD coverage.5
+4. Hartford Denies the Hospital’s Business Income Claim
+The Hospital’s first notice of loss to Hartford occurred via email on April 15, 2020, citing
+loss of revenue from elective surgeries and ER visits, extra expenses involving cleaning/sanitizing
+
+5 See ECF No. 1 ¶ 6 (referencing policy period of April 1, 2019 through April 1, 2020); see also ECF No. 37-1 at 21
+n.6 (stating that the second policy contained the same CD coverage); see also ECF No. 37-40 at 2-3 (Hartford letter
+indicating in later year, the Hospital’s coverage declaration indicated Healthcare Specialized Coverage provision was
+“not covered.”).  During the February 14, 2024 status conference, Hartford’s counsel advised that this letter contained
+a typographical error and should reflect that the April 1, 2021 through April 1, 2022 coverage declaration omitted the
+Healthcare Specialized Coverage provision, not the April 1, 2020 through April 1, 2021 policy.
+Case 2:22-cv-00689-DJP-DPC   Document 58   Filed 02/22/24   Page 5 of 24
+6
+
+rooms, and other issues related to FEMA’s March 24, 2020 Major Disaster Declaration.  ECF No.
+37-23 at 2, 6.  In a subsequent conversation, the Hospital attributed its revenue loss to the LDH’s
+March 19, 2020 mandate on elective and outpatient procedures.  ECF No. 37-24 at 3; see also ECF
+No. 39-16 at 13 (summarizing Hartford’s claim notes indicating that the Hospital’s representative
+advised that “the hospital has su stained a loss of income and has extra expenses related to the
+COVID-19 outbreak”).  Hartford denied the claim on May 20, 2020 (with a May 21 second letter
+correcting a mistaken policy number reference on the May 20 letter).  ECF No. 37-25 at 4-10; No.
+37-26 at 1.
+In its denial, Hartford wrote, in pertinent part:
+The order is not in response to an outbreak at a specific Insured Premises and
+instead pertains to all licensed healthcar e facilities in L ouisiana.  We also
+understand that you are incurring additional expenses for terminal cleaning and to
+retrofit a floor in the hospital in order to keep those with COVID-19 from coming
+in contact with other hospital patients.  We understand that the additional expenses
+you are incurring for terminal cleaning and retrofitting a floor in the hospital were
+not required by a health authority . . . .
+
+The policy that Hartford issued to yo u contains the PROPERTY CHOICE ELITE
+COVERAGE FORM (PCE 00 10 01 19) . . . .
+
+* * *
+
+Your policy also contains the following the PROPERTY CHOICE ELITE –
+COVERED CAUSES OF LOSS AND EXCLUSIONS FORM (PCE 10 10 01 19)
+. . . .
+
+* * *
+
+Your property policy protects your buildings and business personal property against
+direct physical loss or dama ge to property at your In sured Premises caused by a
+Covered Cause of Loss. Based upon our investigation into your claim, you have not
+identified any direct physical loss to any property at the Insured Premises.
+
+Your policy also includes the PR OPERTY CHOICE ELITE – BUSINESS
+INCOME COVERAGE FORM (PCE 00 21 01 19) . . .
+
+* * *
+Case 2:22-cv-00689-DJP-DPC   Document 58   Filed 02/22/24   Page 6 of 24
+7
+
+Your policy also includes the PROP ERTY CHOICE ELITE EXTRA EXPENSE
+COVERAGE FORM (PCE 00 24 01 19) . . .
+
+* * *
+
+Like the policy's property coverage, Business Income and the Extra Expense
+coverage requires direct physical loss or damage to property at the Insured Premises
+that causes an interruption of your business operations. Because there has been no
+physical loss or damage caused by or re sulting from a Covere d Cause of Loss to
+property at a Insured Premises, the Busi ness Income coverage does not provide
+coverage for your claimed loss of income.
+
+Your policy also includes an additional coverage for Civil Authority . . . .
+
+* * *
+
+We have no information to indicate that a civil authority issued an order as a direct
+result of a Covered Loss to property in the immediate area of your Insured Premises.
+A review of Louisiana Department of  Health order issued on March 18, 2020
+reflects that restrictions ha ve been put in place to sl ow the spread of COVID-19
+and to protect the residents of Louisiana.  The orders are not the direct result of a
+Covered Cause of Loss to property in the immediate area of your business.
+Accordingly, this additional coverage is  not available for your claimed loss of
+business income.  Further, to the extent the orders do not specifically prohibit access
+to your facilities, the coverage does not apply.
+
+Your policy also contains the following exclusion . . .
+
+* * *
+
+COVID-19 is understood to be an irritant or contaminant which threatens human
+health or welfare.  Further, the virus was not caused by a “Specified Cause of Loss”.
+Accordingly, the pollutant and contaminan t exclusion could fu rther bar coverage
+for the loss.
+
+We note that your policy also contains [an exclusion for “Delay, Loss of Use or
+Loss of Market”].
+
+ To the extent you are claiming physical loss or physical damage caused by loss of
+use or loss of market, coverage would be precluded based on the exclusion above.
+
+We have also reviewed other additiona l coverages in your policy and have
+determined that they do not apply to your  loss. Specifically, your policy contains
+the PROPERTY CHOICE ELITE ADDI TIONAL COVERAGE EXTENSIONS
+FOR HEALTHCARE (PCE2082 01-19) form . . . .
+Case 2:22-cv-00689-DJP-DPC   Document 58   Filed 02/22/24   Page 7 of 24
+8
+
+* * *
+
+Pursuant to the above, the Communicable Disease coverage requires that a health
+authority issue an order regarding an out break of a communicable disease at an
+Insured Premises. If that occurs, the covera ge pays for the actual costs incurred to
+clean up, remove, restore or replace contaminated Covered Property as required by
+that order, as well any resultant loss of Business Income you incur due to the
+requirements of that order. As we understand it, there has not been an outbreak of
+COVID-19 at your facilities that has resulted in a health authority issuing an order
+that requires you to clean up, remove, rest ore or replace contaminated Covered
+Property. For this reason, the Communicable Disease coverage does not apply.
+
+ECF No. 37-25 at 4-9.
+By letter dated June 18, 2020, the Hospital’s insurance broker requested reconsideration of
+Hartford’s denial decision, stating that the insure d has advised that it “DID have an outbreak at
+TGMC . . .  [and] was considered a hot spot for the outbreak in Region 3.”  ECF No. 37-27 at 6-7.
+In an August 4, 2020 email in follo w-up to that request, the Hosp ital’s broker advised that the
+Hospital “also supports the hot spot for the outbr eak as they have repo rted several COVID-19
+workers compensation claims.”  ECF No. 37-28 at 2; ECF No. 39-16 at 10-11.  Hartford reiterated
+its denial decision via email on August 10, 2020.  ECF No. 37-28.
+After receiving Hartford’s reiterated denial inquiring whether the Hospital received any
+formal order or directive instructing that it comply with certain procedures other than the general
+CDC guidelines, the Hospital had its consultant (Lane Sisung) contact LDH’s Executive Counsel
+Stephen Russo to request a specific letter from  LDH.  ECF No. 39-20 at 4-6.  By email dated
+October 19, 2020, LDH’s Russo sent a draft lett er to the Hospital regarding LDH’s COVID-19
+orders, the first sentence of which read:  “As a result of the global pandemic related to COVID-
+19, the Louisiana Department of Health (LDH) issued a series of Healthcare Facility Notices
+related to medical and surgical procedures.”  ECF No. 37-29.  In response to the draft, the
+Hospital’s consultant and/or attorney Harold Flan agan requested that Mr. Russo revise the first
+Case 2:22-cv-00689-DJP-DPC   Document 58   Filed 02/22/24   Page 8 of 24
+9
+
+line of the letter to read:  “As a result of the global pandemic related to COVID-19 and outbreaks
+at Louisiana hospitals, including Terrebonne General Medical Center, the Louisiana Department
+of Health (LDH) issued a series of Healthcare Facility Notices related to medical and surgical
+procedures.”  ECF No. 37-32 (emphasis added); see also ECF No. 37-30; No. 37-31.  Mr. Russo
+revised the letter as requested and in his depositi on confirmed that, in writing this letter, he was
+saying that the orders were writ ten because of outbreaks around th e state, not that the order was
+issued because of anything specific happening at  the Hospital as it would have been out of
+character for him to look into whether there was a specific outbreak at a particular facility.  ECF
+No. 37-22 at 26-32.
+The Hospital relied on LDH’s October 2020 letter to support its November 9, 2020, request
+for reconsideration as well as  its September 29, 2021 explanatio n for its business income loss
+claim.  ECF No. 37-34 at 1-2; No. 37-35 at 1-2.  By letter dated October 29, 2021, Hartford again
+denied the claim.  ECF No. 37-40.
+II. THE SUMMARY JUDGMENT MOTIONS
+Hartford seeks summary judgment on the basis that the Hospital’s losses suffered as a result
+of the LDH’s statewide orders are not covered losses for three reasons:  (1) The CD contamination
+provision only applies when the LDH issues a cessa tion order in response to an outbreak at the
+particular facility, not simply a statewide order with prophylactic restrictions that impacts an
+insured; (2) the Hospital had no cases of hospital-acquired COVID-19 before the LDH orders and,
+although two employees later tested positive, the LDH was not aware of their positive test results
+or any connection with the Hospital when issuin g the orders; and (3) no LDH order required the
+Hospital to clean-up, remove, restore or replac e any contaminated property and the Hospital
+employed the same cleaning procedures both before and after the LDH Orders.  ECF No. 37-1 at
+Case 2:22-cv-00689-DJP-DPC   Document 58   Filed 02/22/24   Page 9 of 24
+10
+
+9-11, 23-33.  Hartford argues that the Hospital’ s post-event evidence (i.e., LDH’s October 2020
+letter) created to help support its insurance clai m is both improper and insufficient to establish
+coverage.  Id. at 9-10.
+In contrast, the Hospital ar gues that the LDH’s orders tr iggered the policy’s business
+interruption coverage because (a) the Hospital was treating numerous COVID-19 patients and had
+more than two employees test positive, (b) LDH was aware that the Hospital (like all the hospitals
+in Louisiana) was treating COVID-19 patients in formulating its orders suspending non-emergency
+procedures and treatments, (c) the LDH orders suspending non-emergent care were specifically
+directed to all Louisiana hospitals, which necessa rily included the Hospital, and (d) the Hospital
+was in the middle of the COVID-19 outbreak.  EC F No. 39-2 at 3-6, 12-25.  The Hospital argues
+that the Policy does not require th e LDH to issue its order after an outbreak of COVID-19 at the
+Hospital, with actual knowledge of the details of the Hospital outbreak, in direct response to that
+outbreak and specifically declaring that an  outbreak had occurred at the Hospital.  Id. at 13.
+Contrary to Hartford’s position, it argues, transmission of COVID-19 at the facility is not a critical
+element of an outbreak nor does the definition of outbreak require the outbreak occur at a specific
+location.  Id. at 15-18.  The Hospital also argues that the Policy lacked the more stringent causation
+language found in decisions denying business interruption coverage for COVID-19, and business
+income coverage is independent of clean-up costs, so the absence of an order directing the hospital
+to clean-up, remove, restore or replace contaminated property is not required.  Id. at 20-22.
+In Reply, Hartford reiterates its prior argumen ts, stressing that the Policy is a property
+insurance policy that insures against risks occurring at a specific property, not global risks such as
+the COVID-19 pandemic.  ECF No. 44 at 2.  Hartford  argues that the Hospital asks the court to
+ignore the Policy’s language that  the government order must be “regarding an outbreak of a
+Case 2:22-cv-00689-DJP-DPC   Document 58   Filed 02/22/24   Page 10 of 24
+11
+
+specific communicable disease at an Insured Premises .”  Id. at 3.  It argues that the Hospital’s
+efforts to distinguish the numerous  cases cited in Hartford’s or iginal memorandum fail, and the
+Hospital has no authority for its position that the outbreak need not occur at the insured premises
+to trigger business income coverage under the Policy.  Id. at 4-8.  Hartford likewise argues that,
+without any clean-up activity, there can be no business income loss coverage.  Id. at 9-13.  Finally,
+it argues that outbreak requires two or more cases transmitted at the insured premises, not simply
+two or more people with the communicable disease who come to the insured premises for
+treatment.  Id. at 14-18.
+In its Reply, the  Hospital also reiterates its prior arguments (e.g., there was an outbreak of
+COVID-19 at the Hospital and LDH was aware of it when it issues its or ders, “regarding” does
+not require a subsequent or dir ect response, covered losses n eed not center around specified
+property, business income coverage applies regardless of clean-up or removal efforts) and asks the
+Court to reject Hartford’s argument that a ge nerally applicable orde r does not trigger policy
+coverage because it covers other facilities as well as the Hospital.  ECF No. 48 at 1-9.  The Hospital
+distinguishes the Ciena case heavily relied upon by Hartford on the basis that the order at issue in
+that case was the governor’s order much like Governor John Bel Edwards’ order that preceded the
+LDH orders at issue.  Id. at 5-7.
+III. APPLICABLE LAW AND ANALYSIS
+A. Summary Judgment Standard
+When a movant shows that there is no genuine dispute of material fact to be decided by the
+fact-finder and the movant is en titled to a judgment as a matte r of law, Rule 56 mandates that
+summary judgment be issued.6  Summary judgment is not precluded by disputes over facts that are
+
+6 FED. R. CIV. P. 56(a) (“The court shall grant summary judgment if the movant shows that there is no genuine dispute
+as to any material fact . . .”); see also Celotex Corp. v. Catrett, 477 U.S. 317, 322–23 (1986) (stating that summary
+Case 2:22-cv-00689-DJP-DPC   Document 58   Filed 02/22/24   Page 11 of 24
+12
+
+not “material”7 and disputes that are not “genuine.” 8  “When assessing whether a dispute to any
+material fact exists, [the Court] consider[s] all of the evidence in the record but refrain[s] from
+making credibility determinations or weighing the evidence.” 9  All reasonable inferences are
+drawn in favor of the nonmoving party, but “unsupported allegations or affidavits setting forth
+‘ultimate or conclusory facts and conclusions of law’ are insufficient to either support or defeat a
+motion for summary judgment.”10  Thus, the court must resolve f actual controversies in favor of
+the nonmoving party “only where th ere is an actual controversy, th at is, when both parties have
+submitted evidence of contradictory facts.”11
+When the moving party carries its initial burden, the burden then falls upon the nonmoving
+party to demonstrate the existence of a genuine issue of a material fact.  When, however, the non-
+movant bears the burden of proof at trial, the movant may merely point to an absence of evidence,
+thus shifting to non-movant the burden of demo nstrating by competent summary judgment proof
+
+judgment shall be issued “if the pleadings, depositions, an swers to interrogatories, and admissions on file, together
+with the affidavits, if any, show that there is no genuine issue as to any material fact and that the moving party is
+entitled to a judgment as a matter of law”) (citing F ED. R. CIV. P. 56(c) (amended 2010)); Little v. Liquid Air Corp.,
+37 F.3d 1069, 1075 (5th Cir. 1994) (en banc) (per curiam).
+7 “As to materiality, the substantive law will identify which f acts are material.  Only disputes over facts that might
+affect the outcome of the suit under the governing law will properly preclude the entry of summary judgment.”
+Anderson v. Liberty Lobby, Inc., 477 U.S. 242, 248 (1986); see also Sierra Club, Inc. v. Sandy Creek Energy Assocs.,
+L.P., 627 F.3d 134, 134 (5th Cir. 2010) (citation omitted) (“ An issue is material if its resolution could affect the
+outcome of the action.”).
+8 A genuine dispute of fact exists only “if the evidence is such that a reasonable jury could return a verdict for the
+nonmoving party.”  Anderson, 477 U.S. at 248; accord Westfall v. Luna, 903 F.3d 534, 546 (5th Cir. 2018) (citation
+omitted).
+9 Delta & Pine Land Co. v. Nationwide Agribusiness Ins. Co., 530 F.3d 395, 398–99 (5th Cir. 2008) (citing Reeves v.
+Sanderson Plumbing Prods., Inc., 530 U.S. 133, 150 (2000); Matsushita Elec. Indus. Co. v. Zenith Radio Corp., 475
+U.S. 574, 587 (1986)).
+10 Galindo v. Precision Am. Corp ., 754 F.2d 1212, 1216 (5th Cir. 1985) (quoting 10A C HARLES ALAN WRIGHT,
+ARTHUR R. MILLER, & MARY KAY KANE, FEDERAL PRACTICE AND PROCEDURE § 2738 (2d ed. 1983)); see also Little,
+37 F.3d at 1075.
+11 Antoine v. First Student, Inc., 713 F.3d 824, 830 (5th Cir. 2013) (internal quotation marks and citation omitted).
+Case 2:22-cv-00689-DJP-DPC   Document 58   Filed 02/22/24   Page 12 of 24
+13
+
+that there is an issue of ma terial fact warranting trial.12  Summary judgment is proper if the party
+opposing the motion fails to establish an essential element of their case.13
+Only evidence—not argument, not facts asse rted in the complaint—will satisfy the
+burden.14  Unsworn pleadings, memoranda or the like are not competen t summary judgment
+evidence.15  Further, a party’s version of events that is “blatantly contradicted by the record” is not
+entitled to the benefit of any favorable light. 16  Where the record taken as a whole could not lead
+a rational trier of fact to find for the nonmoving party, there is no genuine issue for trial.17  “If the
+evidence is merely colorable . . . or is not  significantly probative,”  summary judgment is
+appropriate.18
+B. Interpretation of Insurance Policy Provisions
+The parties do not dispute that Louisiana law govern the policy.  “An insurance policy is a
+contract between the parties and should be constr ued by using the general rules of interpretation
+of contracts set fort h in the Civil Code.” 19  Interpretation of an insura nce contract is generally a
+matter of law.20  The court must first consider the partie s’ intent by examining the words of the
+
+12 Celotex, 477 U.S. at 322–25; see also Moody v. Jefferson Par. Sch. Bd., 2 F.3d 604, 606 (5th Cir. 1993); Duplantis
+v. Shell Offshore, Inc., 948 F.2d 187, 190 (5th Cir. 1991).
+13 See Celotex, 477 U.S. at 322–23.
+14 Solo Serve Corp. v. Westowne Assoc., 929 F.2d 160, 164 (5th Cir. 1991).
+15 Larry v. White, 929 F.2d 206, 211 n. 12 (5th Cir. 1991).
+16 See Scott v. Harris , 550 U.S. 372, 376, 380 (2007) (holding plaintiff’s selective description of car chase as
+“controlled” was contradicted by dashcam footage of the high-speed chase); see also Chambers v. Sears Roebuck &
+Co., 428 F. App’x 400, 40s8 (5th Cir. 2011) (holding sel f-serving and unsupported statement in affidavit will not
+defeat summary judgment where record evidence is to the contrary) (citing In re Hinsley, 201 F.3d 638, 643 (5th Cir.
+2000)).
+17 See Bickerstaff v. Whitney Nat’l Bank, No. 96-30231, 1996 WL 595654, at *1 (5th Cir. Sept. 20, 1996); Roberson
+v. Alltel Info. Servs., 373 F.3d 647, 651 (5th Cir. 2004) (citations omitted); see also EEOC v. Simbaki, Ltd., 767 F.3d
+475, 481 (5th Cir. 2014) (“No genuine dispute of fact exists if the record taken as a whole could not lead a rational
+trier of fact to find for the nonmoving party.”) (citation omitted).
+18 Anderson, 477 U.S. at 249 (citations omitted).
+19 Mayo v. State Farm Mut. Auto. Ins. Co., 2003-1801 (La. 2/25/04), 869 So. 2d 96, 99 (citations omitted); Louisiana
+Ins. Guar. Ass'n v. Interstate Fire & Cas. Co., 93-0911 (La. 1/14/94), 630 So. 2d 759, 763 (citing Smith v. Matthews,
+611 So. 2d 1377, 1379 (La. 1993)); see also Q Clothier New Orleans, LLC v. Twin City Fire Ins. Co ., 29 F.4th 252,
+256-57 (5th Cir. 2022).
+20 Bonin v. Westport Ins. Corp., 2005-0886 (La. 5/17/06), 930 So. 2d 906, 910 (citation omitted).
+Case 2:22-cv-00689-DJP-DPC   Document 58   Filed 02/22/24   Page 13 of 24
+14
+
+policy, construing their meaning using their plain, ordinary a nd generally prevailing meaning
+unless the words have acquired a technical meani ng, in which case the words must be ascribed
+their technical meaning.21  The “parties’ intent as reflected by the words in the policy determine
+the extent of coverage.”22
+The question of whether an insurance contract is clear or ambiguous is a question of law.23
+When the words of the contract are clear and unambiguous, the court will discern the contract’s
+meaning and parties’ intent from the face of the document, without consideration of parol evidence,
+and no further interpretation may be made  in search of the parties’ intent. 24  In other words, an
+unambiguous contract’s meaning an d the intent must be sought w ithin the four corners of the
+document and without explanation or contradiction by extrinsic evidence.”25  If, after applying the
+general rules of construction, an ambiguity remains, the ambiguous provision is to be construed
+against the drafter, or in the context of an insurance contract, in favor of the insured.26
+An ambiguity exists when the policy provisi on or term in question can be reasonably
+construed in two different ways. 27  An insurance policy “should not be interpreted in an
+
+21 Q Clothier, 29 F.4th at 257 (citing Sims v. Mulhearn Funeral Home, Inc., 2007-0054 (La. 5/22/07); 956 So. 2d 583,
+588–89 (citing LA. CIV. CODE. ANN. art. 2047)); see also Peterson v. Schimek, 98-1712 (La. 3/2/99); 729 So. 2d 1024,
+1028 (“The role of the judiciary in interpreting an insurance contract is to ascertain the common intent of the insured
+and insurer as reflected by the words in the policy.”) (citing LA. CIV. CODE. ANN. art. 2045); Doerr v. Mobil Oil Corp.,
+2000-0947 (La. 12/19/00); 774 So. 2d 119, 124 (“the initial determination of the parties’ intent is found in the
+insurance policy itself”), opinion corrected on reh'g, 782 So. 2d 573 (La. 3/16/01).
+22 Louisiana Ins., 630 So. 2d at 763 (citing Trinity Indus., Inc. v. Ins. Co. of North America, 916 F.2d 267, 269 (5th
+Cir. 1990) (internal citation omitted)).
+23 Cadwallader v. Allstate Ins. Co., 2002-1637 (La. 6/27/03), 848 So. 2d 577, 580 (citation omitted).
+24 Q Clothier, 29 F.4th at 257; see also LA. CIV. CODE art. 2046; LA. CIV. CODE art. 1848; McCarroll v. McCarroll,
+96-2700 (La. 10/21/97), 701 So. 2d 1280, 1286 (noting that parol evidence is inadmissible to vary the terms of an
+unambiguous contract).
+25 Bordelon Marine, Inc. v. F/V KENNY BOY, 780 F. Supp. 2d 497, 502 (E.D. La. 2011) (Vance, J.) (citing Shocklee
+v. Mass. Mut. Life Ins. Co., 369 F.3d 437, 439–40 (5th Cir. 2004)).
+26 Louisiana Ins., 630 So. 2d at 764 (citing Smith, 611 So. 2d at 1379); see also LA. CIV. CODE art. 2056 (providing
+for adverse construction against the author of the text  and the party presenting a standard form contract); Peterson,
+729 So. 2d at 1028 (noting the purpose of insurance “is to afford the insured protection from damage,” and “[i]nsurance
+contracts, therefore, should be interpreted to effect, not deny, coverage.”) (citation omitted).
+27 Q Clothier, 29 F.4th at 257 (citations omitted); see also Capitol Anesthesia Grp., P.A. v. Watson, 2008-1159 (La.
+App. 3 Cir. 3/4/09), 7 So. 3d 51, 58 (citing McCarthy v. Berman, 95-1456 (La. 2/28/96), 668 So. 2d 721); see Carrier
+Case 2:22-cv-00689-DJP-DPC   Document 58   Filed 02/22/24   Page 14 of 24
+15
+
+unreasonable or strained manner under the guise of contractual interpretation to enlarge or restrict
+its provisions beyond what is reasonably contemplated by unambiguous terms or achieve an absurd
+conclusion.”28  Further, a court cannot ex ercise “inventive powers” to create an ambiguity where
+none exists or make a new contra ct when the terms express with sufficient clearness the parties’
+intent.29  Thus, clear and unambiguous policy wording that expresses the parties’ intent is enforced
+as written.30
+Ambiguous policy provisions, including “equi vocal provisions seeking to narrow an
+insurer's obligation,” are strict ly construed against the insure r and in favor of coverage. 31  The
+strict-construction principle, however, appl ies only if the ambiguou s policy provision is
+susceptible of more than one reasonable interpretation. 32  While the insured has the burden of
+proving that the circumstances cons titute a covered claim, the in surer has the burden of proving
+that any exclusions apply.33
+C. COVID-19 Coverage Cases
+When governmental authoritie s issued COVID-19-related or ders substantially reducing
+and/or closing businesses througho ut the country, numerous entiti es filed claims  with their
+insurers.  Both the Fifth Circuit and Louisian a Supreme Court have is sued opinions addressing
+insurance coverage for business losses relating to the COVID-19 pandemic.  For instance, in Q
+Clothier, making an Erie Guess, the Fifth Circuit concluded that financial losses caused by civil
+
+v. Reliance Ins. Co., 99-2573 (La. 4/11/2000); 759 So. 2d 37, 43 (ambiguous insurance provisions must be “susceptible
+to two or more reasonable interpretations.”).
+28 Cadwallader, 848 So. 2d at 580 (citing LA. CIV. CODE art. 20147).
+29 Cajun Conti LLC v. Certain Underwriters at Lloyd’s London, No. 22-1349 (La. 3/17/23), 359 So. 3d 922; see also
+Cadwallader, 848 So. 2d at 580.
+30 Cadwallader, 848 So. 2d at 580.
+31 Id.
+32 Id.
+33 Doerr, 774 So. 2d at 124; Mistich v. Weeks, 2012-150 (La. App. 3 Cir. 7/13/12), 107 So. 3d 1, 5; see also United
+Specialty Ins. Co. v. Sandhill Prod. Inc.,  526 F. Supp. 3d 189, 197 (W.D. La. 2021) ( citing Martco Ltd. P'ship v.
+Wellons, Inc., 588 F.3d 864, 872 (5th Cir. 2009) (internal citation omitted)).
+Case 2:22-cv-00689-DJP-DPC   Document 58   Filed 02/22/24   Page 15 of 24
+16
+
+authority orders closing nonessential businesses in response to the COVID-19 pandemic do not
+fall within the meaning of an insurance policy’s coverage for “direct physical loss or damage to
+the property.”34  The Louisiana Supreme Court reached the same conclusion when rejecting the
+argument that the phrase “direct physical loss” was ambiguous.35
+Not all policy economic loss endorsements, however, are triggered only by “direct physical
+loss or damage” (i.e., communicable disease coverage extensions).36  The Fifth Circuit addressed
+a business losses claim under a communica ble disease coverage provision in PS Business
+Management, stating:
+unlike the other relevant policy provisions, communicable disease coverage is not
+triggered by “direct physical loss or damage.” Rather, the existence of a
+“communicable disease event” under the policy is what unlocks coverage. . . .
+. . . [T]he policy defines a “communicable disease event” as “an event in
+which a public health authority has ordered that a location be evacuated,
+decontaminated, or disinfected due to th e outbreak of a communicable disease at
+such location.” We agree with the dist rict court that while “COVID-19 is
+undoubtedly a communicable disease within the meaning of the policy,” Plaintiffs
+have failed to allege the existence of a qualifying “communicable disease event.”
+Plaintiffs resist this conclusion. Wh ile they appear to acknowledge that
+there was not “an order specific to the insured[ ] location,” they stress that, because
+of the pandemic, various “[s]tate and local government authorities” imposed
+“restrictions on business operations” and restricted “access to their offices.”
+But that is not enough. Again, for there to be coverage under this provision,
+“a public health authority [must] order[ ] that a location be evacuated,
+decontaminated, or disinfected due to th e outbreak of a communicable disease at
+such location.” Plaintiffs have not alle ged that any public health order mandated
+that their premises “be evacuated, deconta minated, or disinfected,” let alone that
+such an order was issued due to an “outbreak” at any of their offices. Accordingly,
+Plaintiffs have failed to plausibly allege that they are entitled to communicable
+disease coverage under their policy. See Dakota Girls, LLC v. Philadelphia Indem.
+Ins. Co., 17 F.4th 645, 651–52 (6th Cir. 2021) (reaching same conclusion in case
+involving a similar communicable disease coverage provision).37
+
+34 29 F.4th at 257-62; see also PS Bus. Mgmt., LLC v. Fireman’s Fund Ins. Co ., No. 21-30723, 2022 WL 2462065
+(5th Cir. July 6, 2022).
+35 Cajun Conti,359 So. 3d at 922.
+36 PS Business Management , No. 21-30723, 2022 WL 2462065 at *3-*4 (5th Cir. July 6, 2022) (noting that
+communicable disease coverage extension is triggered by communicable disease event, not direct physical loss or
+damage).
+37 Id. at *4.
+Case 2:22-cv-00689-DJP-DPC   Document 58   Filed 02/22/24   Page 16 of 24
+17
+
+Most courts to address communicable disease coverage for statewide or citywide COVID-
+19 closure orders issued to stem the spread of COVID-19 have likewis e found no coverage for
+losses sustained as a result of those orders.  For instance, in Paradigm Care & Enrichment Center,
+LLC v. West Bend Mutual Insurance Co. , 33 F.4th 417, 422 (7th Cir. 2022), the Seventh Circuit
+affirmed a Rule 12(b)(6) dismissal of a cl aim involving a communicable disease coverage
+provision similar to that i nvolved in this case.  In Paradigm, the provision covered lost income
+and extra expense when a government entity shuts down or suspends business operations “due to
+an outbreak of a communicable diseas e . . . at the insured premises.” 38  In rejecting plaintiff’s
+argument that the order applicable to the entire state necessarily applied to their facility because it
+was in the state, the court stated:
+The policies do not define “due to,” and the parties dispute how strict of a
+causal nexus the phrase imposes. Cf. Mashallah, 20 F.4th at 320–21 (noting that
+Illinois generally “favors th e efficient-or-dominant-prox imate-cause rule in the
+absence of contrary language in the policy”). But the question of precise degree is
+irrelevant because “due to” clearly re quires some degree of causation between a
+shutdown order and a communicable disease outbreak “at the insured premises.”
+See, e.g., Levy v. Minn. Life Ins. Co., 517 F.3d 519, 523–26 (7th Cir. 2008). And in
+no sense were the executive orders at issue here caused by a COVID-19 outbreak
+at the Centers (or, for that matter, at any other specific location). Rather, the orders
+were general prophylactic measures taken to slow, suppress, and stop the spread of
+COVID-19. These same executive orders would have been promulgated verbatim
+even if the Centers had not existed. Thus , the orders were not issued “due to”
+conditions at the Centers' premises. See Dakota Girls, LLC v. Phila. Indem. Ins.
+Co., 17 F.4th 645, 651 (6th Cir. 2021) (noting “no allegation that Ohio's Director
+of Health had ever even heard of Dakota Girls or the other preschools in this
+case”).39
+
+Likewise, in Salon XL Color & Design Group, LLC v.  West Bend Mutual Insurance Co .,
+598 F. Supp. 3d 590, 595-96 (E.D. Mich. 2022), the court interpreted a similar communicable
+disease provision that provided coverage for “[t]he shutdown or suspension . . . due to an outbreak
+
+38 33 F.4th at 420.
+39 Id. at 423.
+Case 2:22-cv-00689-DJP-DPC   Document 58   Filed 02/22/24   Page 17 of 24
+18
+
+of a “communicable disease” . . . at the insured premises . . . .”  The court interpreted the phrase
+“due to” as ordinarily used to mean “as a result of” before finding that the executive order closing
+non-essential personal care servic es in the state to mitigate the spread of COVID-19 was not in
+response to an outbreak at plaintiff’s facility.  The court rejected plaintiff’s argument that the order
+was in response to COVID-19 at its facility because  its facility is within the state, finding that
+argument glossed over the policy language requiring the outbreak be at the insured premises:
+[W]hen the Communicable Disease coverage  provision is read  as a whole, it
+becomes evident that it covers losses arising from a communicable disease outbreak
+at the insured premises – not for an outbreak affecting the public at large.
+
+Id. at 596.  Even if plaintiff’s principal’s undiagnosed illness were COVID-19, the court reasoned,
+coverage would still be lacking because there wa s no evidence that the Governor had ever heard
+of plaintiff when she issued the closure order.  Id. at 597.40
+ Although the policy provision at is sue here is slightly different than that in the cited cases,
+the court in Ciena Healthcare Management, Inc. v. Hartford Fire Insurance Co., No. 22-438, 2023
+WL 3847286 (N.D. Ohio June 6, 2023), addressed the identical policy provision, with the parties
+making virtually identical argume nts to those raised here.  Ciena involved a heal thcare facility
+
+40 For additional cases rejecting insurance coverage for losses due to general closure orders, see Dakota Girls, LLC v.
+Philadelphia Indem. Ins. Co.,  17 F.4th 645 (6th Cir. 2021) (rejecting coverage based on state shutdown orders for
+communicable disease coverage when the government orders a shutdown of business operations “due directly to an
+outbreak of a communicable disease . . . that causes an  actual illness at the [insured] premises . . . .”); Wild Eggs
+Holdings, Inc. v. State Auto Prop. & Cas. Ins. Co.,  48 F.4th 645, 648-49 (6 th Cir. 2022) (rejecting loss of business
+income claim because alleged COVID-19  exposure did not both cause the i ssuance of statewide orders and the
+resulting suspension of operations, as  necessary under policy terms); Brandywine Valley Premier Hosp. Group v.
+Fireman’s Fund Ins. Co., No. 22-2221, 2023 WL 5044991 (E.D. Penn. Aug. 7, 2023) (finding no coverage under
+Communicable Disease provision because it “cannot reasonably be read to protect generally against a global pandemic
+rather than an outbreak localized particularly to [t he insured’s] immediate vicinity.”) (citation omitted); BSD-360,
+LLC v. Philadelphia Indem. Ins. Co.,  580 F. Supp. 3d 92, 102 (E.D. Penn. 2022) (rejecting coverage under
+communicable disease provis ion because phrase “outbreak at the insu red facility” was meant to protect against
+localized outbreaks, not a global pandemic); Theatre Box-San Diego, LLC v. Fireman’s Fund Ins. Co., No. 22-1001,
+2023 WL 2623254, at *5 (S.D. Cal. Mar. 22, 2023) (rejecting coverage because statewide orders were not issued due
+to outbreak at the insured location).  Cf. St. Tammany Par. Hosp. Serv. Dist. No. 2 v. Zurich Am. Ins. Co., 593 F. Supp.
+3d 399, 416-420 (E.D. La. 2022) (granting Rule 12(b)(6) dismissal of claim for coverage under Interruption by
+Communicable Disease provision because order did not prohibit plaintiff fr om accessing any part of its facilities as
+required by policy provision).
+Case 2:22-cv-00689-DJP-DPC   Document 58   Filed 02/22/24   Page 18 of 24
+19
+
+where hundreds of residents and em ployees became ill with COVID-19.  Id. at *5.  Like the
+Hospital, Ciena argued the communicable disease provision language was ambiguous and that the
+orders were issued as a result of outbreaks at its facility because it provided infection statistics to
+the government.  Id. at *4.  Although the court recognized that Ciena had established outbreaks at
+its facility, it denied coverage on the basis that plaintiff could not establish the necessary casual
+connection between the shutdown orders and the outbreak at the insured’s facility.  Id. at *5.  In
+rejecting the plaintiff’s interpretation, the court wrote:
+Plaintiffs’ interpretation effectively removes from the policy the requirement that
+the facility outbreak must  cause the government or der. Under Plaintiffs’
+formulation, the policy would always cover a government order issued in response
+to any statewide outbreak. Any infections anywhere—not necessarily including
+those at Plaintiffs’ facilities—could have factored into th e government order's
+calculus and contours. But the policy language  requires more. It requires that the
+order be issued “as the direct result of” or “regarding” an outbreak “at an ‘Insured
+Premises.’ ” (Doc. 19, ¶¶ 18–19). An order regarding a general outbreak occurring
+statewide is insufficient to trigger the policy.
+
+Id. at *6.
+ As reflected above, most courts to address communicable disease coverage provisions have
+found that general statewide or citywide orders limiting business operations for COVID-19 do not
+provide coverage.  Recently, however, the First Circuit reversed the Rule 12(b)(6) dismissal of a
+hospital’s claim under a di sease decontamination c overage provision in Lawrence General
+Hospital v. Continental Casualty Co., 90 F.4th 593 (1st Cir. 2024).  The relevant policy provision
+in that case read:
+“Disease Contamination Coverage.” This coverage is triggered by an “evacuation
+or decontamination order at a [covered] location by the National Center [sic] for
+Disease Control, authorized public heal th official or governmental authority
+because of the discovery or suspicion of a communicable disease or the threat of
+the spread of a communicable disease.” (Emphasis omitted.)
+
+Case 2:22-cv-00689-DJP-DPC   Document 58   Filed 02/22/24   Page 19 of 24
+20
+
+Id. at 596.  The First Circuit distinguished the Fifth Circuit’s decision in PS Business Management
+on the basis that, unlike its plaintiff, PS Busine ss Management failed to describe the specific
+evacuation or decontamination orde rs its property was subject to, instead referring generally to
+statewide executive orders and public health guidance.  Id. at 605.
+D. Analysis
+The Hartford Policy at issue is a Special Multi-Flex Business Insurance Policy on the
+Property Choice Elite Coverage Form  that generally covers direct  physical loss of or direct
+physical damage to specified Covered Property at the Insured Premises, with numerous additional
+endorsements including Additional Coverage Extens ions for Healthcare.  ECF No. 37-5 at 3-18,
+19; No. 37-7 at 12-14.  Pr esumably in light of Cajun Conti and Q Clothier, the Hospital relies
+solely on the CD contamination provision as its basis for coverage in this case, obviating the need
+to establish physical loss or damage to trigger coverage.
+The CD contamination provision (formally en titled Additional Cove rage Extension for
+Healthcare) is triggered “[w]hen a governmental health authority having jurisdiction over the
+‘Insured Premises’ has issued an order regarding an outbreak of a specific communicable disease
+at an ‘Insured Premises’ . . . .”  ECF No. 37-7 at 12.  The undisputed evidence reflects that (a) to
+stem the proliferation of COVID-19 throughout the state rather than in response to any particular
+condition at the Hospital, the LDH ordered all Loui siana healthcare facilities to cancel or delay
+non-emergent treatment; (b) no LDH order speci fically focused on C OVID-19 cases at the
+Hospital41; (c) LDH officials were not aware of any particular COVID-19 outbreak at the
+
+41 Although the Hospital relies heavily on the October 19, 2020 LDH letter to suggest that the LDH orders were
+specifically directed to the Hospital, Mr. Russo testified that , when he wrote that letter at the Hospital’s request, he
+did not know whether there was an actual outbreak or not at  the Hospital, much less when that outbreak occurred.
+ECF No. 37-22 at 32.
+Case 2:22-cv-00689-DJP-DPC   Document 58   Filed 02/22/24   Page 20 of 24
+21
+
+Hospital42; (d) given the prevalence of COVID- 19 in March 2020, LDH officials assumed
+COVID-19 was everywhere in the community incl uding the Hospital; and (e) all area hospitals
+(including the Hospital) were treating COVID-19 patients in March 2020.43
+While the parties dispute one another’s characterizations and interpretations of the policy
+terms and the LDH orders, they do not dispute th at the LDH is a governmental health authority
+having jurisdiction over the Hospital,44 the LDH orders were issued in response to the worldwide
+COVID-19 pandemic,45 which included the Hospital but was not issued in response to any reported
+outbreak of COVID-19 at the Hospital, and COVID-19 is a specific communicable disease.  ECF
+No. 37-21 at 37-38.  A lthough the parties disput e the meaning of the terms “outbreak” and
+“regarding,” these terms must be given their plain, ordinary a nd generally prevailing meaning. 46
+An “outbreak” means “[a] sudden increase in the incidence of a disease; an epidemic of infectious
+disease, esp[ecially] when relatively localized.”  Outbreak, Oxford English Dictionary (3d ed.
+2004).  The word “regarding” means “in reference or relation to; about; concerning.”  Regarding,
+Oxford English Dictionary (3d ed. 2004).
+The  Hospital has not presented any record evidence to establish that it experienced an
+outbreak of COVID-19 at the insured facility  in March 2020.  Rather, th e evidence reflects that
+persons who acquired COVID-19 in  the community presented to the Hospital for treatment in
+March 2020.  ECF No. 39-4 at 1-5.  Further, wh ile the Hospital cites to  evidence that certain
+employees tested positive for COVID-19 in March 2020 and its br oker advised that employees
+had filed worker’s compensation claims, the Hospital has provided no documentation to support
+
+42 ECF No. 39-10 at 8 (stating that, at the time the orders were issued, “we were defining outbreak, I think, as more
+than one case in a healthcare provider.  So I don't know whether there was an actual outbreak or not at -- at specifically
+Terrebonne.”).
+43 ECF No. 39-9 at 6, 15.
+44 ECF Nos. 39-34 at 2, 44-1 at 11, No. 11.
+45 ECF Nos. 37-2 at 4, 39-34 at 5, No. 15.
+46 Q Clothier, 29 F.4th at 257 (citations omitted).
+Case 2:22-cv-00689-DJP-DPC   Document 58   Filed 02/22/24   Page 21 of 24
+22
+
+the assertion that any employee acquired COVID-19 at the facility (or even worked at the facility
+during March 2020) or in any way linked any employee’s positive COVID-19 status to the facility
+rather than the community at large.  Indeed , the Hospital has not presented any workers’
+compensation claim documentati on reflecting a hospital-acquir ed COVID-19 claim during the
+March 2020 policy period.  Further, the Hospital’s Infectious Disease Control Manager Charlotte
+Boudreaux testified that she was not aware of a single case of hospital-acquired COVID in March
+2020, and it was not until end of 2021 or 2022 that  she reported a couple of cases of hospital-
+acquired COVID-19 cases, which dates are past the relevant policy period.  ECF No. 37-19 at 9,
+19-20.
+The Hospital’s contention that community-infected COVID-19 patients who appeared at
+the Hospital for treatment equates to an outb reak of COVID-19 at the facility improperly
+disconnects the phrase “outbreak of a specific communicable disease” from the rest of the sentence
+requiring that the outbreak of the disease occur “at the insured premises.”  When properly read
+together, the “outbreak” must o ccur at the insured premises, not  from people infected from an
+outbreak elsewhere who show up to the Hospital fo r medical treatment.  Suppose, for example,
+that numerous students at the same  school are infected with meas les from a cla ssmate while at
+school.  Assume further that severa l of those students happen to have the same pediatrician, and
+the sick students visit their doctor’s office.  As used in its plain, ordinary and generally prevailing
+sense, one would attribut e an “outbreak” of measles to the sc hool, not the pediatrician’s office.
+Thus, the fact that the Hospital is in Loui siana and people who acquired COVID-19 in the
+Louisiana community came to the Hospital for treatment in March 2020 simply does not constitute
+“an outbreak of COVID-19 at the Insured Premises.”
+Case 2:22-cv-00689-DJP-DPC   Document 58   Filed 02/22/24   Page 22 of 24
+23
+
+Further, there is no evidence that LDH issued any order regarding any outbreak of COVID-
+19 at the insured premises.  While the Hospital certainly falls within LDH’s orders because it is a
+Louisiana Hospital and thus within the state of Louisiana, the plain langu age of the LDH orders
+make clear that the orders were issued statewide to stem the proliferation of COVID-19 in response
+to the first reported positive case in Louisiana, not “in reference or relation to” or “concerning “any
+outbreak of COVID-19 at the Hospital .”  The Hospital’s status as a member of the community
+faced with a global pandemic does not constitute  “an outbreak” “at the insured premises,” as
+necessary to trigger coverage under the Policy.
+Moreover, because the LDH orders are unambiguous, the court need not look to extrinsic
+evidence (including Mr. Russo’s October 19, 20 20 letter) to determine their meaning.  Even if
+extrinsic evidence were considered, the October 19, 2020 letter, which includes Hospital-specific
+language added by the Hospital’s representatives, is  insufficient to create a genuine dispute of
+material fact regarding whether any LDH order was issued “regardi ng,” in reference or relation
+to” or “concerning” an outbreak at the Hospital because, as set forth above, the Hospital has not
+established an outbreak of COVID-19 at its facility in the relevant March 2020 period through any
+admissible evidence (e.g., workers’ compensation filings before the relevant policy period ended
+on April 1, 2020 or evidence that any COVID-19 positive employee worked during March 2020).
+Because I find that there has been neither an “outbreak” “at the facility” in March 2020 nor
+any order regarding or concerning that outbreak, it is unnecessary to address whether the Hospital
+must have undertaken any clean up, removal, restoration, and/or replacement efforts in response
+to same, as necessary to trigger coverage under the CD provision’s ¶ B(2).
+IV. CONCLUSION
+Accordingly, for the foregoing reasons,
+Case 2:22-cv-00689-DJP-DPC   Document 58   Filed 02/22/24   Page 23 of 24
+24
+
+IT IS ORDERED that the Hospital Service Di strict No. 1 of Terrebonne Parish’s Motion
+for Partial Summary Judgment (ECF No. 39) is DENIED;
+IT IS FURTHER ORDERED  that Hartford  Fire Insurance Company’s Motion for
+Summary Judgment (ECF No. 37) is GRANTED.
+New Orleans, Louisiana, this ______ day of February, 2024.
+
+___________________________________
+       DONNA PHILLIPS CURRAULT
+      UNITED STATES MAGISTRATE JUDGE
+22nd
+Case 2:22-cv-00689-DJP-DPC   Document 58   Filed 02/22/24   Page 24 of 24

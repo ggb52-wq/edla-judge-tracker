@@ -1,0 +1,856 @@
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+RAJA TALLURI ET AL. CIVIL ACTION
+
+VERSUS No. 23-377
+
+AIG PROPERTY CASUALTY SECTION I
+COMPANY
+
+ORDER &  REASONS
+ Three motions are before the Court. First is a motion 1 for summary judgment
+filed by defendant AIG Property Casualty Company (“defendant”). Plaintiffs Raja
+Talluri and Gayathri Talluri (“plaintiffs”) oppose 2 this motion. Defendant filed a
+reply.3 Second is plaintiffs’ motion 4 for partial summary judgment. Defendant
+opposes5 this motion, and plaintiffs filed a reply.6 Third is plaintiffs’ motion7 in limine
+to exclude certain evidence  at trial . Defendant also opposes 8 this motion , and
+plaintiffs filed a reply. 9 For the reasons that follow, t he Court grants in part and
+denies in part defendant’s motion for summary judgment, denies plaintiffs’ motion
+for summary judgment, and grants in part and defers in part plaintiffs’ motion in
+limine.
+
+1 R. Doc. No. 32.
+2 R. Doc. No. 41.
+3 R. Doc. No. 45.
+4 R. Doc. No. 34.
+5 R. Doc. No. 38.
+6 R. Doc. No. 46.
+7 R. Doc. No. 33.
+8 R. Doc. No. 42.
+9 R. Doc. No. 47.
+Case 2:23-cv-00377-LMA-EJD   Document 51   Filed 04/30/24   Page 1 of 32
+2
+I. BACKGROUND
+This case involves an insurance dispute arising from Hurricane Ida damage to
+plaintiffs’ property.10 Defendant issued an insurance policy covering the property
+during the relevant period.11 On September 1, 2021, plaintiffs reported Hurricane Ida
+damages to defendant.12 Defendant then retained Dennis White (“White”) of Alacrity
+Solutions, LLC to inspect the property on its behalf. 13 White inspected the property
+on September 24, 2021. 14 On September 26, 2021, White submitted a “First Report”
+to defendant.15 The report details the damage to the property and includes multiple
+photos.16 T he report  also states that “[a]t this time, an Engineer and Building
+Consultant is needed for assistance with the handling of this claim.” 17 Specifically,
+the report asserts  that “an engineer is needed to determine if the integrity of the
+exterior wall has been compromised[.]”18
+On September 27, 2021, plaintiffs’ counsel submitted an invoice for mitigation
+expenses to tarp plaintiffs’ roof in the amount of $86,404 and made a demand for an
+additional $2,251,861.19 to replace the roof  based on a bid from Precision
+
+10 R. Doc. No. 1, ¶¶ 6, 8.
+11 R. Doc. No. 32-5, ¶ 1 (defendant’s statement of uncontested material facts); R. Doc.
+No. 41-1, ¶ 1 (plaintiffs’ response to defendant’s statement of uncontested material
+facts).
+12 R. Doc. No. 32-5, ¶ 5; R. Doc. No. 41-1, ¶ 5.
+13 R. Doc. No. 32-5, ¶ 7; R. Doc. No. 41-1, ¶ 7.
+14 R. Doc. No. 32-5, ¶ 8; R. Doc. No. 41-1, ¶ 8.
+15 R. Doc. No. 34-10.
+16 See generally id.
+17 Id. at 2.
+18 Id.
+Case 2:23-cv-00377-LMA-EJD   Document 51   Filed 04/30/24   Page 2 of 32
+3
+Construction and Roofing (“Precision”).19 On September 30, 2021, the adjustment of
+the claim was reassigned to Leif Eklund (“Eklund”), defendant’s employee because
+the claim was too large for White. 20 On October 1, 2021, Eklund sent a letter to
+plaintiffs’ counsel.21 The letter “acknowledge[d] [plaintiffs’] demand for policy limits
+as well as [plaintiffs’] Proof of Loss for the roof only of $2,338.273.19.” 22 The letter
+stated that defendant “reject[ed] both in their entirety” because defendant was still
+in the process of investigating the claims and developing estimates. 23 However, the
+letter also stated that defendant accepted the emergency tarp costs of $86,404 and
+explained that defendant would “be issuing a $20,000 advance for immediate
+needs.”24 Also o n October 1, 2021, defendant issued a $106,404 payment to
+plaintiffs.25
+Additionally, on the same day, H&A Consulting International (“H&A”)
+received a request from Eklund “to perform an origin and cause investigation” of the
+property.26 “The scope of the investigation was to determine the origin and cause of
+the reported damage to the building, and whether the damage can be attributed to
+the impact of Hurricane Ida.” 27 On October 5, 2021, defendant conducted its second
+
+19 R. Doc. No. 32-3, ¶ 7.
+20 R. Doc. No. 32-5, ¶ 10; R. Doc. No. 41-1, ¶ 10.
+21 R. Doc. No. 32-5, ¶ 11; R. Doc. No. 41-1, ¶ 11; see also R. Doc. No. 32-3, at 12–13.
+22 R. Doc. No. 32-3, at 12.
+23 Id.
+24 Id.
+25 R. Doc. No. 32-1, at 5; R. Doc. No. 41, at 5.
+26 R. Doc. No. 32-3, at 21.
+27 Id.
+Case 2:23-cv-00377-LMA-EJD   Document 51   Filed 04/30/24   Page 3 of 32
+4
+inspection of the property. 28 Numerous individuals were present for this inspection,
+including Richard Harb of H&A and Jeffrey Chimento of J.S. Held, LLC (“JS Held”).29
+On October 13, 2021, Eklund sent plaintiffs’ counsel a reservation of rights letter
+based on the inspection. 30 The letter cited various policy exclusions and requested
+certain information from plaintiffs.31
+On October 18, 2021, H&A  submitted a “Forensic Engineering Report” to
+Eklund.32 This report concluded that much of the damage to the property was
+consistent with damage caused by Hurricane Ida, but that some of it was not
+consistent with damage caused by high winds.33 For example, the report explains that
+“cracks in the terrace and driveway tile and separation of the stair rails on the east
+side of the building are consistent with damage caused by differential foundation
+movement due to soil consolidation below the foundation and vehicle wheel load.”34
+On October 19, 2021, JS Held provided a $359,479.21 estimate for roof repairs,
+mailbox repairs, and other costs including dumpsters, a temporary toilet, and a
+temporary hand washing station.35 On October 26, 2021, through Eklund, defendant
+issued a $309,479.21 payment based on this estimate minus the $50,000 deductible.36
+
+28 Id. ¶ 9.
+29 Id.; see also R. Doc. No. 32-1, at 5; R. Doc. No. 41, at 6.
+30 R. Doc. No. 32-3, ¶ 11; see also id. at 15–19.
+31 See generally id. at 15–19.
+32 Id. at 20–39.
+33 See generally id.
+34 Id. at 27.
+35 Id. at 40–46. Although plaintiffs dispute “when the estimate was received by [ ]
+Eklund[,]” R. Doc. No. 41-1, ¶ 15, the date-stamp on the bottom of the document reads:
+“10/19/2021.” See R. Doc. No. 32-3, at 40–46.
+36 R. Doc. No. 32-3, ¶ 15.
+Case 2:23-cv-00377-LMA-EJD   Document 51   Filed 04/30/24   Page 4 of 32
+5
+Eklund rejected plaintiffs’  $2,338,273.19 roof demand “because the roof estimate
+provided by [plaintiffs’] counsel was not for a like kind and quality repair.”37 Eklund
+“provided the esti mate received from JS Held for a roof repair using roof tiles
+manufactured by the same manufacturer for the existing roof.” 38 Eklund also
+reiterated his request for the information he had requested from plaintiffs in his
+October 13, 2021 letter but had not yet received.39
+On November 11, 2021, Eklund received plaintiffs’ public adjuster estimate for
+$6,713,922.27.40 Eklund responded via email the same day and, because Eklund had
+not received the information he had requested in the October 13, 2021 letter from
+plaintiffs, he again requested  the information. 41 Also on November 11, 2021 ,
+plaintiffs’ counsel provided the requested information to Eklund via email. 42
+Additionally, plaintiffs’ counsel sent Eklund an engineering report from Patrick
+Snowden of Structural Alliance.43 Eklund provided the public adjuster’s estimate to
+JS Held and provided the engineering report to H&A.44
+On November 29, 2021, Eklund received a report from H&A disputing the
+engineering report. 45 On December 1, 2021, Eklund received an updated estimate
+from JS Held based on its review of the H&A causation report and the public
+
+37 Id. at 50.
+38 Id. ¶ 15; see also id. at 50–52.
+39 Id. ¶ 15; see also id. at 50–52.
+40 Id. ¶ 17; see also id. at 190–318.
+41 R. Doc. No. 41-6, at 1–4.
+42 Id. at 1.
+43 R. Doc. No. 32-3, ¶ 17.
+44 Id.
+45 Id. ¶ 18; see also id. at 321–23.
+Case 2:23-cv-00377-LMA-EJD   Document 51   Filed 04/30/24   Page 5 of 32
+6
+adjuster’s estimate. 46 Based on this estimate, defendant issued an additional
+payment of $445,304.44 on December 6, 2021. 47 Eklund also provided a detailed
+explanation of the payment and  defendant’s rejection of the public adjuster’s
+estimate.48
+Eklund sought contractor bids for an alternative roof replacement “[b]ecause
+of an ongoing dispute as to what was a like kind and quality roof replacement.”49 On
+December 8, 2021, Eklund received a $933,879.00 bid from Roofing Solutions, which
+was significantly higher than previous bids. 50 Eklund did not issue payment based
+on this bid and did not provide a copy of this bid to plaintiffs.51 During his deposition,
+Eklund testified that this was because Eklund “didn’t think it was a reasonable bid”
+and “it didn’t make any sense to [him].”52
+On December 9, 2021, Eklund sent the bids to JS Held. 53 On December 20,
+2021, Eklund received a revised estimate from JS Held based on the newly obtained
+roof bids.54 Accordingly, on December 29, 2021, Eklund sent a supplemental payment
+letter to plaintiffs’ counsel explaining the forthcoming supplemental paym ent.55 On
+January 4, 2022, Eklund issued a $366,710.78 additional payment.56
+
+46 Id. ¶ 19; see also id. at 324–85.
+47 Id. ¶ 20; see also id. at 386–87.
+48 Id.; see also id. at 388–401.
+49 Id. ¶ 21.
+50 R. Doc. No. 41-10; R. Doc. No. 46-7, at 18.
+51 R. Doc. No. 46-7, at 21.
+52 Id. at 20.
+53 R. Doc. No. 32-3, ¶ 21.
+54 Id. ¶ 22.
+55 Id. ¶ 23.
+56 Id. ¶ 24; id. at 463.
+Case 2:23-cv-00377-LMA-EJD   Document 51   Filed 04/30/24   Page 6 of 32
+7
+At this point, defendant had paid a total of $1,227,898.43 in undisputed
+damages.57 On February 16, 2022, Eklund invoked appraisal based on the remaining
+disputed damages of $5,4 36,023.84.58 On October 13, 2022,  an umpire issued an
+appraisal award in the amount of $16,126,268.59
+On November 9, 2022, defendant issued a $10, 449,185.30 supplemental
+payment pursuant to the appraisal award.60 The only portions of the appraisal award
+defendant did not pay were $1,288,378 for additional  living expenses (“ALE”) and
+$3,188,288 for guaranteed rebuilding cost (“GRC”) coverage. 61 Eklund’s declaration
+states that he “did not pay the ALE component because under the policy ALE is owed
+only on an incurred basis, and [plaintiffs] had not provided any documentation of any
+incurred ALE.”62 In his declaration, Eklund  further explained that he  “did not pay
+the GRC amount because under the policy, it is not owed unless repair or rebuilding
+starts, and [defendant was] not provided with any documentation that repair had
+started.”63
+Defendant’s counsel sent a letter to plaintiffs’ counsel explaining the payment
+and defendant’s refusal to pay the ALE and GRC amounts on November 2, 2022. 64
+
+57 Id. ¶ 25.
+58 Id. ¶ 26; id. at 464–66.
+59 Id. ¶ 27; id. at 467.
+60 Id. at 468–71. The Court notes that Eklund’s declaration states this payment was
+in the amount of $10,371,703. See id. ¶ 28. However, the checks attached to Eklund’s
+declaration indicate that defendant made two payments totaling $10,449,185.30 on
+November 9, 2022.
+61 Id. ¶ 28.
+62 Id.
+63 Id.
+64 Id. ¶ 29; id. at 472–74.
+Case 2:23-cv-00377-LMA-EJD   Document 51   Filed 04/30/24   Page 7 of 32
+8
+With respect to the ALE amount, the letter stated: “To the extent [plaintiffs] incur[]
+ALE in the future, [defendant] will pay such ALE as it is incurred and presented to
+[defendant].”65 With respect to the GRC amount, the letter stated: “Please keep us
+posted on the status of repairs so [defendant] can make any additional payment that
+may be owed.”66
+Plaintiffs filed the instant lawsuit on January 30, 2023. 67 On July 5, 2023,
+plaintiffs’ counsel sent an email “confirm[ing] that repairs to the roof [had]
+commenced[.]”68 On July 28, 2023, defendant issued an additional payment of
+$3,188,288.26 for the additional dwelling and other structures part of the award
+covered by the GRC provision. 69 According to Eklund, “the only portion of the
+appraisal award not paid is the ALE component, as [Eklund] ha[s] not been provided
+with any documentation that any ALE has been incurred[.]”70
+Defendant and plaintiffs then filed cross -motions for summary judgment and
+partial summary judgment. Defendant contends that the Court should grant
+summary judgment in its favor and dismiss all of plaintiffs’ claims because it timely
+issued each payment after receiving satisfactory proof of loss. 71 Plaintiffs respond
+that defendant’s payments were not timely. 72 Further, plaintiffs argue that the
+
+65 Id. at 473.
+66 Id.
+67 R. Doc. No. 1.
+68 R. Doc. No. 32-3, at 475.
+69 Id. at 8, ¶ 31; id. at 476.
+70 Id. at 8, ¶ 33.
+71 R. Doc. No. 32, 12–19.
+72 R. Doc. No. 41, at 8 (arguing that the October 26, 2021 payment was untimely); id.
+at 9–11 (arguing that the December 6, 2021 payment was untimely); id.  at 11–15
+Case 2:23-cv-00377-LMA-EJD   Document 51   Filed 04/30/24   Page 8 of 32
+9
+question of whether defendant’s refusals to pay were “arbitrary, capricious, or
+without probable cause” is a fact-intensive determination for the jury.73
+In their motion for partial summary judgment, plaintiffs argue that they are
+entitled to summary judgment because there is no genuine dispute that three of
+defendant’s payments —the October 26, 2021 payment, the December 6, 2021
+payment, and the January 4, 2022 payment —were untimely.74 Defendant responds
+that the initial inspections did not constitute satisfactory proof of loss triggering the
+relevant thirty- and sixty-day time periods.75 Rather, defendant asserts that it timely
+issued all payments within thirty days of receiving satisfactory proof of loss, including
+appropriately making timely supplemental payments based on new information once
+it received that new information.76
+Plaintiffs also filed a motion in lim ine seeking to exclude evidence of the cost
+to build the property and the existence of loans relating to the same because such
+evidence is irrelevant or, alternatively, because its probative value is substantially
+outweighed by the danger of unfair prejudice, confusion of the issues, or misleading
+the jury.77 While defendant does not oppose the motion with respect to the existence
+of the loans, defendant contends that evidence of the cost to build the property is
+
+(arguing that the January 4, 2022 payment was untimely); id. at 15–16 (arguing that
+the November 9, 2022 payment was untimely); id.  at 16 (arguing that the July 28,
+2023 payment was untimely).
+73 Id. at 18–20.
+74 See generally R. Doc. No. 34-1.
+75 R. Doc. No. 38, at 4–6.
+76 Id. at 6.
+77 R. Doc. No. 33.
+Case 2:23-cv-00377-LMA-EJD   Document 51   Filed 04/30/24   Page 9 of 32
+10
+relevant as it provides context for determining whether defendant’ s decision not to
+pay plaintiffs’ initial demand was arbitrary and capricious and that such evidence is
+also relevant to questions surrounding “like kind and quality” materials.78
+II.  THE PARTIES’ CROSS-MOTIONS FOR SUMMARY JUDGMENT
+a. Standards of Law
+i. Summary Judgment
+Summary judgme nt is proper when, after reviewing the materials in the
+record, a court determines that there is no genuine dispute of material fact and the
+movant is entitled to judgment as a matter of law. Fed. R. Civ. P. 56(a). “[A] party
+seeking summary judgment alway s bears the initial responsibility of informing the
+district court of the basis for its motion, and identifying those portions of [the record]
+which it believes demonstrate the absence of a genuine issue of material fact.” Celotex
+Corp. v. Catrett, 477 U.S. 317, 323 (1986). The party seeking summary judgment need
+not produce evidence negating the existence of a material fact; it need only point out
+the absence of evidence supporting the other party’s case. Id.; see also Fontenot v.
+Upjohn Co., 780 F.2d 1190, 1195–96 (5th Cir. 1986) (“There is no sound reason why
+conclusory allegations should suffice to require a trial when there is no evidence to
+support them even if the movant lacks contrary evidence.”).
+Once the party seeking summary judgment carries that burden, the
+nonmoving party must come forward with specific facts showing that there is a
+genuine dispute of material fact for trial. See Matsushita Elec. Indus. v. Zenith Radio
+
+78 See generally R. Doc. No. 42.
+Case 2:23-cv-00377-LMA-EJD   Document 51   Filed 04/30/24   Page 10 of 32
+11
+Corp., 475 U.S. 574, 587 (1986). The showing of a genuine dispute  is not satisfied by
+creating “‘some metaphysical doubt as to the material facts,’ by ‘conclusory
+allegations,’ by ‘unsubstantiated assertions,’ or by only a ‘scintilla’ of evidence.” Little
+v. Liquid Air Corp., 37 F.3d 1069, 1075 (5th Cir. 1994) (citations omitted). R ather, a
+genuine dispute of material fact exists when the “evidence is such that a reasonable
+jury could return a verdict for the nonmoving party.” Anderson v. Liberty Lobby, Inc.,
+477 U.S. 242, 248 (1986).  If the nonmovant fails to meet its burden of showing a
+genuine dispute for trial that could support a judgment in favor of the nonmovant,
+summary judgment must be granted. See Little, 37 F.3d at 1075–76.
+The party responding to the motion for summary judgment may not rest upon
+the pleading s but must identify specific facts that establish a genuine dispute .
+Anderson, 477 U.S. at 248. The nonmoving party’s evidence, however, “is to be
+believed, and all justifiable inferences are to be drawn in [the nonmoving party’s]
+favor.” Id. at 255.
+ii. Louisiana’s Bad Faith Statutes
+“In order to establish a cause of action for penalties and/or attorney fees and
+costs under [La. R.S. 22:1892, formerly] La. R.S. 22:658, a claimant must show that
+(1) an insurer has received satisfactory proof of loss, (2) th e insurer failed to tender
+payment within thirty days of receipt thereof, and (3) the insurer’s failure to pay is
+arbitrary, capricious or without probable cause.” 2715 Marietta, LLC v. Axis Surplus
+Ins. Co., No. 22 -3292, 2023 WL 877 3747, at *4 (E.D. La. D ec. 19, 2023) (Ashe, J.)
+(quoting Guillory v. Lee , 16 So. 3d 1104, 1126 (La. 2009))  (alteration in original) .
+Case 2:23-cv-00377-LMA-EJD   Document 51   Filed 04/30/24   Page 11 of 32
+12
+“Similarly, La. R.S. 22:1973 authorizes an award of penalties when an insurer’s
+failure to pay a claim within [sixty] days after the receipt of a satisfactory proof of
+loss is ‘arbitrary, capricious, or without probable cause.’” Id.  (quoting La. R.S.
+22:1973(B)(5)). “The prohibited conduct in each statute is virtually identical with the
+primary difference being a [thirty] - or [sixty]-day period for payment of claims.” Id.
+(citing Calogero v. Safeway Ins. Co., 753 So. 2d 170, 174 (La. 2000)).
+“It is well settled that a ‘satisfactory proof of loss’ is only that which is
+‘sufficient to fully apprise the insurer of the insured’s claims.’” La. Bag Co. v. Audubon
+Indem. Co., 999 So. 2d 1104, 1119 (La. 2008) (quoting McDill v. Utica Mut. Ins. Co. ,
+475 So. 2d 1085, 1089 (La. 1985)). “Satisfactory proof of loss must include ‘the extent
+of damages,’ and the plaintiff bears the ‘burden of proving the insurer received
+satisfactory proof of loss as a predicate to a showing that the insurer was arbitrary,
+capricious, or without probable cause.’” Korbel v. Lexington Ins. Co., 308 F. App’x 800,
+803 (5th Cir. 2009) (quoting Reed v. State Farm Mut. Auto. Ins. Co., 857 So. 2d 1012,
+1019 (La. 2003)).
+“In addition, with regard to the form of a proof of loss, [the Louisiana Supreme
+Court] has stated that proof of loss is a ‘flexible requirement to advise an insurer of
+the facts of the claim,’ and that it need not ‘be in any formal style.’” La. Bag Co. , 99
+So. 2d at 1119 (quoting Sevier v. U.S. Fid. & Guar. Co. , 497 So. 3d 1380, 1384 (La.
+1986)). “As long as the insurer receives sufficient information to act on the claim, the
+manner in which it obtains the information is immaterial.” Id. (cleaned up).
+Case 2:23-cv-00377-LMA-EJD   Document 51   Filed 04/30/24   Page 12 of 32
+13
+“The phrase ‘arbitrary, capricious, or without probable cause’ is synonymous
+with ‘vexatious,’ and a ‘vexatious refusal to pay’ means ‘unjustified, without
+reasonable or probable cause or excuse.’” La. Bag Co. , 999 So. 2d at 1114 (quoting
+Reed, 857 So. 2d at 1021). “[A]n insurer must pay any undisputed amount over which
+reasonable minds could not differ.” Marietta, 2023 WL 8773747, at *4 (quoting Dupree
+v. Lafayette Ins. Co. , 51 So. 3d 673, 698 (La. 2010)). “[W]hen there is a ‘reasonable
+and legitimate question to the extent and causation of a claim, bad faith should not
+be inferred from an insurer’s failure to pay within the statutory time limits when
+such reasonable doubts exist.’” Id. (quoting La. Bag, 999 So. 3d at 114 and Reed, 857
+So. 2d at 1021).
+b. Plaintiffs’ ALE Claims
+In its motion for summary judgment, defendant first argues that the Court
+should dismiss any of plaintiffs’ claims related to ALE because the policy provides
+coverage for ALE only on an incurred basis and plaintiffs have not incurred any
+ALE.79 Defendant argues both that the Court should dismiss plaintiff’s claims to
+recover allegedly outstanding ALE under the policy and that the Court should
+dismiss plaintiffs’ bad faith claims related to  alleged earlier  failures to pay owed
+ALE.80
+Plaintiffs admit that they have not  yet incurred ALE “for temporary housing
+for the restoration period.”81 However, plaintiffs contend that they incurred ALE “as
+
+79 R. Doc. No. 32-1, at 11.
+80 Id.
+81 R. Doc. No. 41, at 16.
+Case 2:23-cv-00377-LMA-EJD   Document 51   Filed 04/30/24   Page 13 of 32
+14
+it relates to [p]laintiffs’ cost of generators, totaling $64,568.25.”82 Plaintiffs state that
+they submitted proof of “incurred ALE for generators” to defendant on November 11,
+2021.83 Specifically, in their reply brief in support of their own motion for partial
+summary judgment , plaintiffs assert  that they submitted invoices  for generators,
+gate motors, tracks, mounting hardwire, electrical, push arms, keypads, and tennis
+court lights. 84 Plaintiffs argue that these items qualify as ALE because they were
+necessary to make the house livable and safe. 85 Plaintiffs also suggest t hat
+defendant’s $20,000 payment, issued on October 1, 2022 as an “advance for
+immediate needs,” was for ALE, though defendant claims this “advance” constituted
+“unallocated” funds. 86 Additionally, defendant “released unconditional tenders
+related to [ALE] in its November 9, 2022[] partial payment of the appraisal award.”87
+While plaintiffs contend that this payment was untimely and should be subject to bad
+faith penalties, they do not appear to contend that defendant actually owes any
+presently outstanding ALE.88
+In reply, defendant argues that Eklund legitimately disputed t hat t he
+generator costs were covered by the policy.89 Defendant also submits a supplemental
+declaration in which Eklund asserts that he rejected invoices submitted for the costs
+
+82 Id.
+83 Id. at 17.
+84 R. Doc. No. 46, at 6.
+85 Id.
+86 R. Doc. No. 41, at 16.
+87 Id.
+88 See id. at 16–17.
+89 R. Doc. No. 45, at 3.
+Case 2:23-cv-00377-LMA-EJD   Document 51   Filed 04/30/24   Page 14 of 32
+15
+of generators because “these costs represented an improvement” since plaintiffs did
+not have a generator before the storm.90 Nevertheless, “these disputed amounts were
+included as part of the appraisal award, and paid in the November 9, 2022
+payment.”91
+Pursuant to the policy, defendant agreed to “cover any reasonable increase in
+living expenses incurred by [plaintiffs] to maintain [plaintiffs’] household’s usual
+standard of living” if a “covered loss” made plaintiffs’ residence “uninhabitable.”92 As
+defendant points out, ALE are only owed on an incurred basis.93 As noted, plaintiffs
+agree that they have not yet incurred ALE for temporary housing during the
+restoration period.94 Further, plaintiffs do not appear to dispute that defendant paid
+for the generators and other items  in the November 9, 2022 payment following the
+appraisal award. 95 Accordingly, the Court finds no basis for plaintiffs to re cover
+additional ALE pursuant to the policy. To the extent that plaintiffs’ complaint asserts
+any claims seeking additional ALE, such claims will be dismissed.
+
+90 R. Doc. No. 45-1, ¶ 1.
+91 Id. The Court notes that the appraisal award submitted to the Court as an exhibit
+does not explain the umpire ’s reasoning with respect to the generators and other
+items. See R. Doc. No. 32-3, at 467.
+92 R. Doc. No. 32-4, at 9.
+93 R. Doc. No. 32-1, at 11; see also R. Doc. No. 32-4, at 9.
+94 R. Doc. No. 41, at 16 (“As it relates to funds for temporary housing for the
+restoration period[,] [d]efendant is correct in that funds for temporary housing for the
+restoration period have not yet been incurred, as specific repairs which would prohibit
+the same have not yet occurred.”).
+95 See id. at 17 (arguing that defendant’s ALE payment “was not paid [ ] until after
+the appraisal award was issued on November 9, 2022”).
+Case 2:23-cv-00377-LMA-EJD   Document 51   Filed 04/30/24   Page 15 of 32
+16
+However, plaintiffs’ bad faith claims with respect to ALE raise a different
+question. As explained, defendant initially refused to pay for generators based on
+Eklund’s finding that the generators represented “improvement[s] or upgrade[s]” and
+that the policy therefore did not cover them.96 There is no indication that defendant
+cited any policy provision when it refused to issue this payment, nor is there any
+indication that defendant suggested a less costly reasonable alternative to maintain
+plaintiffs’ usual standard of living at that time.
+Deciding whether plaintiffs are entitled to bad faith damages  with respect to
+the eventual ALE payment  requires determining whether Eklund’s explanation for
+denying plaintiffs’ claim based on the November 11, 2021 invoices was  arbitrary,
+capricious, or without probable cause. See Marietta, 2023 WL 8773747, at *4.
+Defendant’s motion  and exhibits  do not establish that Eklund’s determination
+regarding the  policy’s coverage of the generators was reasonably based on his
+interpretation of the policy such that there is no genuine dispute of material fact as
+to whether his refusal to pay for the generators was “vexatious.” To be clear, the Court
+is not holding that the purchase of a generator qualifies as ALE broadly.  Rather, the
+Court finds that—under the specific circumstances of this case and based on the scant
+ALE-related evidence submitted in support of defendant ’s motion —the jury must
+decide whether defendant legitimately disputed the generator s and other expenses
+
+96 R. Doc. No. 45 -1, ¶ 1. Eklund references no portion of the policy stating that
+defendant will not cover improvements or upgrades as part of an ALE payment.
+Case 2:23-cv-00377-LMA-EJD   Document 51   Filed 04/30/24   Page 16 of 32
+17
+as reasonable ALE or whether defendant’s conduct was “vexatious.” Accordingly, the
+Court will deny defendant’s motion for summary judgment on this issue.
+c. Plaintiffs’ Remaining Bad Faith Claims
+ Both defendant’s motion for summary judgment and plaintiffs’ motion for
+partial summary judgment address the question of bad faith  with respect to certain
+payments. Defendant argues that it is entitled to summary judgment dismissing
+plaintiffs’ claims pursuant to Louisiana’s bad faith statutes because all of its
+payments were timely.97 Plaintiffs contend that they are entitled to partial summary
+judgment on the issue of bad faith with respect to three specific payments which they
+argue were untimely. 98 Ultimately, the Court concludes neither party is entitled to
+summary judgment as to the timeliness of the October 26, 2021  payment, the
+December 6, 2021 payment, the January 4, 2022 payment, and a portion of t he
+November 9, 2022 payment. However, defendant is entitled to summary judgment as
+to the timeliness of the October 1, 2021 payment,  the remaining portion  of the
+November 9, 2022 payment, and the July 28, 2023 payment.
+i. October 1, 2021 Payment
+ On October 1, 2021, defendant issued a $106,404 payment to plaintiffs for
+shrink-wrapping the roof and for “immediate needs.” 99 Plaintiffs do not appear to
+dispute that this payment—which was issued four days after plaintiffs submitted an
+invoice for the roof  tarp and seven days after White’s initial inspection —was
+
+97 R. Doc. No. 32-1, at 12–19.
+98 R. Doc. No. 34-1, at 15.
+99 R. Doc. No. 32-1, at 5; R. Doc. No. 41, at 5; R. Doc. No. 32-3, at 12.
+Case 2:23-cv-00377-LMA-EJD   Document 51   Filed 04/30/24   Page 17 of 32
+18
+timely.100 Accordingly, the Court finds that there is no genuine disput e of material
+fact as to the timeliness of this payment and defendant is entitled to summary
+judgment on the question of bad faith with respect to this payment.
+ii. October 26, 2021 Payment
+ O n October 26, 2021, defendant issued a $309,479.21 payment to plaintiffs.101
+This payment pertained to the roof and mailbox .102 According to plaintiffs, this
+payment was untimely as a matter of law because defend ant received satisfactory
+proof of loss on September 24, 2021 when White inspected the property. 103 White’s
+September 26, 2021 report stated that an engineer was needed “to determine if the
+integrity of the exterior wall [had] been compromised[.]”104 Plaintiffs emphasize that
+White did not recommend or request an engineer as it relates to interior damage  or
+other structure damage.105 Further, plaintiffs state that White “testified that he did
+not observe pre-existing damage during his inspection and payment was ready to be
+tendered on all the damage he documented with the exception of the exterior wall as
+that required an engineer.”106 Plaintiffs therefore assert that defendant was obligated
+
+100 See R. Doc. No. 41, at 5 (discussing this payment without asserting that it was
+untimely).
+101 R. Doc. No. 32-3, ¶ 15; R. Doc. No. 34-7.
+102 R. Doc. No. 32-3, ¶ 15; R. Doc. No. 34-8 (transcript of Heath Blumberg’s deposition),
+at 75.
+103 R. Doc. No. 41, at 8.
+104 R. Doc. No. 34-10, at 2.
+105 R. Doc. No. 41, at 8.
+106 R. Doc. No. 34-1, at 5–6. Plaintiffs state that White’s deposition transcript was not
+completed at the time they filed their motion for partial summary judgment. Id. at 6
+n.10.
+Case 2:23-cv-00377-LMA-EJD   Document 51   Filed 04/30/24   Page 18 of 32
+19
+to issue the payment for the roof and mailbox within thirty days of White’s September
+24, 2021 inspection.107
+ According to defendant, the October 26, 2021 payment was timely as a matter
+of law because defendant did not receive satisfactory proof of loss until it received the
+JS Held estimates for the roof and building damage on October 19, 2021.108 Defendant
+issued payment based on the JS Held estimate for the roof seven days after this
+estimate was received.109
+ Although an adjuster’s inspection of the property may  sometimes constitute
+satisfactory proof of loss pursuant to Louisiana law, “this . . . does not mean that an
+insurer always receives satisfactory proof of loss as a result of its initial inspection of
+a damaged property.” Bainbridge, LLC v. Western World Ins. Co. , No. 22-3296, 2023
+WL 4528481, at *2  (E.D. La. July 13, 2023) (Milazzo, J.)  (emphasis in original) .
+Whether defendant received satisfactory proof of loss as to the roof or mailbox on the
+date of White’s initial inspection is a question of fact. See id.
+Plaintiffs cite no caselaw suggesting summary judgment in their favor is
+appropriate as to the alleged untime liness of the October 26 payment , as the  cases
+plaintiffs do cite are distinguishable.110 Specifically, in J.R.A. Inc. v. Essex Insurance
+Company, a case involving a total loss following Hurricane Katrina, the court merely
+noted that an inspection may constitute satisfactory proof of loss and determined that
+
+107 Id. at 4–6.
+108 R. Doc. No. 38, at 6–7.
+109 R. Doc. No. 32-3, ¶ 15; R. Doc. No. 34-7.
+110 See R. Doc. No. 34-1, at 13, n.43.
+Case 2:23-cv-00377-LMA-EJD   Document 51   Filed 04/30/24   Page 19 of 32
+20
+the district court’s factual finding that the original inspection constituted satisfactory
+proof of loss was neither  “manifestly erroneous” nor “clearly wrong.” 72 So. 3d 862,
+881 ( La. App. 4th Cir. 2011) . In Guillory v. Louisiana Farm Bureau Casualty
+Insurance Company, the court similarly held that a jury’s conclusion that an insurer’s
+original inspection qualified as satisfactory proof of loss was not manifestly erroneous
+in light of the specific facts of that case. 371 So. 3d 1202, 1211 (La. App. 3d Cir. 2023).
+In this case, a  reasonable jury could certain ly find that the initial inspection
+did not constitute satisfactory proof of loss because White was not qualified to provide
+an estimate111 or because defendant’s guidelines recommend “consider[ing] hiring a
+building consultant to prepare an estimate” for damages exceeding $200,000. 112
+Further, a  reasonable jury may find that defendant acted reasonably in promptly
+scheduling a second inspection with a qualified adjuster, a building consultant, and
+an engineer pursuant to its guidelines. See Korbel, 308 F. App ’x at 804 (explaining
+that, where a property is not a total loss, an insurance company’s adjusters
+presumably need time to complete their adjustments after inspecting). Indeed,
+particularly since defendant was obligated to issue payment for “like kind and quality
+materials,” a reasonable jury may even determine that defendant did not receive
+satisfactory proof of loss with respect to the October 26, 2021 payment until October
+19, 2021, when it received the JS Held roof estimate. In that case, defendant’s October
+
+111 R. Doc. No. 38-3; R. Doc. No. 38-4; R. Doc. No. 38, at 4–5.
+112 R. Doc. No. 38-4, at 2. The Court notes that defendant’s corporate representative
+testified that defendant  learned that the claim would exceed $200,000 through
+plaintiffs’ September 27, 2021 roof demand which exceeded $2 million. See id. at 3.
+Case 2:23-cv-00377-LMA-EJD   Document 51   Filed 04/30/24   Page 20 of 32
+21
+26, 2021 payment would have been timely , foreclosing bad faith damages .
+Accordingly, summary judgment for plaintiff with respect to this payment is
+inappropriate.
+At the same time , summary judgment for defendant on this issue is also
+inappropriate. A reasonable jury could find that White’s “First Report” constituted
+satisfactory proof of loss because it communicated to defendant “actual knowledge of
+the facts .” Bainbridge, 2023 WL 4528481, at *2. As noted, White’s “First Report”
+detailed damage to the property  and stated that an engineer was needed only to
+assess the integrity exterior wall. Further, according to plaintiffs, White “testified [in
+his deposition] that payment was ready to be tendered on all the damage he
+documented with the exception of the exterior wall[.]” 113 Defendant cites no caselaw
+suggesting that, as a matter of law, information learned during an initial inspection
+by an adjuster does not qualify as “satisfactory proof of loss.”114 Although the question
+
+113 R. Doc. No. 34-1, at 5–6.
+114 The cases defendant relies on are not to the contrary.  The Marietta court simply
+held that bad faith damages were unavailable as a matter of law where the insurance
+company’s denial of an insured’s claim was based on a legitimate dispute among
+experts as to the cause of the loss. 2023 WL 8773747, at *5. In that case, the insurance
+company “expeditiously sent an adjuster to inspect the property, and on the adjuster’s
+recommendation, hired an engineer to provide a second opinion” before denying a
+claim based on the experts’ findings and the policy exclusions. Id. Similarly, Treigle
+stands for the proposition that, where there is a legitimate dispute as to whether
+damages were caused by a covered loss, an insurance company does not act arbitrarily
+or capriciously in denying a claim. 2023 WL 3569828, at *5. By contrast, in the instant
+case, White—the insurance company’s initial adjuster—detailed various damages to
+the property and asserted that they were caused by Hurricane Ida, recommended
+hiring an engineer only with respect to an exterior wall, later testified that further
+experts and inspections were unnecessary, and also testified that payment was ready
+to be tendered on all the damage he documented except the exterior wall.
+Case 2:23-cv-00377-LMA-EJD   Document 51   Filed 04/30/24   Page 21 of 32
+22
+is close, the Court finds that these facts are sufficient to create a genuine dispute as
+to whether the original inspection constituted satisfactory proof of loss. Accordingly,
+the Court will de ny both plaintiffs’ and defendant’s motions for summary judgment
+as to this payment.
+iii. December 6, 2021 Payment
+On December 6, 2021, defendant issued a $445,304.44 payment to plaintiffs.115
+This payment was the first payment pertaining  to interior damages.116 Defendant
+contends that this payment was based on  an updated estimate from JS Held, which
+Eklund received on December 1, 2021.117 JS Held’s December 1 updated estimate was
+based on JS Held’s review of the October 18, 2021  H&A causation report and
+plaintiffs’ public adjuster estimate.118 Plaintiffs sent their public adjuster estimate to
+Eklund on November 11, 2021.119
+Plaintiffs contend that they are entitled to summary judgment on the question
+of bad faith with respect to this payment because  it was untimely  as a matter of
+law.120 According to plaintiffs, defendant received satisfactory proof of loss  as to
+interior damages as early as the September 24, 2021 inspection. 121 However, as the
+Court explained with respect to the ro of, there is a genuine dispute of material fact
+regarding whether this initial inspection constituted satisfactory proof of loss.
+
+115 R. Doc. No. 32-3, ¶ 20; see also id. at 386–87.
+116 R. Doc. No. 34-1, at 8.
+117 R. Doc. No. 32-3, ¶ 19.
+118 See id. ¶¶ 19, 12.
+119 Id. ¶ 17.
+120 R. Doc. No. 34-1, at 6–8.
+121 R. Doc. No. 41, at 10–11.
+Case 2:23-cv-00377-LMA-EJD   Document 51   Filed 04/30/24   Page 22 of 32
+23
+Plaintiffs also suggest that defendant received various other satisfactory proofs
+of loss as a matter of law. F irst, plaintiffs assert that the October 5, 2021 inspection
+constituted satisfactory proof of loss. 122 However, as with the September 24, 2021
+inspection, the Court finds there is a genuine dispute as to whether this inspection
+fully apprised defendant of the extent of th e damages, particularly in light of
+defendant’s obligation to identify “like kind and quality” materials.
+Next, plaintiffs assert that the receipt of the engineering and protocol reports
+on October 18, 2021 and October 19, 2021 constituted satisfactory pr oof of loss. 123
+Accordingly, plaintiffs suggest that they have established bad faith as a matter of law
+through the forty -three day delay between defendant’s receipt of its engineering
+report and its December 1, 2021 estimate.124 However, the Court finds that whether
+such a delay in generating expert reports qualifies as bad faith is a question for the
+jury, particularly since —as defendant points out —it took plaintiffs’ appraisal team
+more than 150 days to conduct its own investigation and issue its final val uation
+estimate.125 The jury must decide whether the parties were engaged in a legitimate
+dispute regarding the causation or extent of the damages. If so , plaintiffs are not
+entitled to bad faith damages as to this payment. See Marietta, 2023 WL 8773747, at
+*5 (explaining that an insurance company is not obligated to make a payment where
+
+122 See id. at 9–11.
+123 Id. at 10–11.
+124 Id. at 10.
+125 See R. Doc. No. 45, at 2–3.
+Case 2:23-cv-00377-LMA-EJD   Document 51   Filed 04/30/24   Page 23 of 32
+24
+there is a legitimate dispute among experts as to that payment ); Treigle, 2023 WL
+3569828, at *5 (same).
+Likewise, the  Court finds that defendant has failed to sa tisfy its burden of
+proving that the December 6, 2021 payment was timely based on the updated
+estimate. As previously explained, there is a genuine factual dispute with respect  to
+when defendant received satisfactory proof of loss as to the interior damages included
+in this payment. Accordingly, the Court will deny both motions for summary
+judgment on the question of bad faith with respect to this payment.
+iv. January 4, 2022 Payment
+ On January 4, 2022, defendant issued a supplemental payment of $366,710.78
+pertaining to the roof. 126 Plaintiffs and defendant each assert that they are entitled
+to summary judgment on the timeliness of this payment. 127 The Court has already
+explained that there is a genuine dispute of material fact regarding whether White’s
+September 24, 2021 inspection constituted satisfactory proof of loss as to the roof  or
+whether there was a legitimate dispute regarding what constituted a “like kind and
+quality” replacement roof. The timeliness of this supplemental roof payment is
+therefore also a question for the jury. Accordingly, the Court will deny both parties’
+motions for summary judgment with respect to this payment.
+v. November 9, 2022 Payment
+
+126 R. Doc. No. 32-3, ¶ 24; id. at 463.
+127 R. Doc. No. 32-1, at 7; R. Doc. No. 34-1, at 8–9.
+Case 2:23-cv-00377-LMA-EJD   Document 51   Filed 04/30/24   Page 24 of 32
+25
+On November 9, 2022, twenty-seven days after the umpire issued the appraisal
+award, defendant issued a $10,449,185.30 payment to plaintiffs.128 Defendant asserts
+that it is entitled to summary judgment on the timeliness of this payment. 129
+Defendant emphasizes that, once it invoked the appraisal process, “all claimed
+amounts [were] legitimately in dispute until after the appraisal award [was]
+rendered.”130 While plaintiff s do not argue that they are  entitled to summary
+judgment on the untimeliness of this payment,131 plaintiffs nevertheless contend that
+the payment was untimely as it relates to the difference between defendant’s final JS
+Held estimate totaling $1,188,462.81 and plaintiffs’ public adjuster estimate totaling
+$6,713,922.27.132 However, plaintiffs do not argue that the payment was untimely as
+it relates to the difference between p laintiffs’ public adjuster estimate and the
+ultimately higher appraisal award.
+The Court has already determined that , on the specific facts of this case —
+namely, that defendant’s initial report stated that an expert opinion was needed only
+as to an exterior wall—the question of when defendant received satisfactory proof of
+loss is a question for the jury. A reasonable jury may find that defendant received
+satisfactory proof of loss when it conducted the initial inspection  or when it received
+plaintiffs’ public adjuster estimate . If that is so, the jury could find that defendant
+
+128 R. Doc. No. 32-3, at 468–71.
+129 R. Doc. No. 32-1, at 7–9, 18–19.
+130 Id. at 18.
+131 See R. Doc. No. 34 -1, at 15 (arguing that plaintiffs are entitled to summary
+judgment on the issue of bad faith with respect to three payments, not including the
+November 9, 2022 payment).
+132 R. Doc. No. 41, at 15–16.
+Case 2:23-cv-00377-LMA-EJD   Document 51   Filed 04/30/24   Page 25 of 32
+26
+acted arbitrarily and capriciously by failing to issue the portion of the November 9,
+2022 payment pertaining to the difference between the JS Held estimate and the
+public adjuster estimate earlier or by failing to invoke appraisal until February 2022.
+See, e.g., Nguyen v. St. Paul Travelers Ins. Co., No. 06-4130, 2007 WL 1672504, at *4
+(E.D. La. June 6, 2007) (Vance, J.)  (explaining that insurer’s invocation of appraisal
+four months after receiving satisfactory proof of loss was untimely).
+On the other hand, a reasonable jury could find that defendant did not receive
+satisfactory proof of loss through the initial inspection or the public adjuster’s
+estimate since there was a legitimate dispute between plaintiffs’ experts and
+defendant’s experts as to the extent of the damages and th e appropriate payment.
+Accordingly, summary judgment for defendant on this question is inappropriate at
+this point.
+vi. July 28, 2023 Payment
+ The final payment at issue for purposes of the instant motion s is the
+$3,188,288.26 payment for GRC issued on July 28, 2023.133 Defendant contends that
+it is entitled to summary judgment on the question of the timeliness of this
+payment.134 According to defendant, this payment was timely because  the policy
+provides that GRC is not owed unless repair or rebuilding starts, and plaintiffs did
+not provide defendant with documentation that roof repairs had started until July 5,
+2023.135 Although plaintiffs do not suggest that they are entitled to summary
+
+133 R. Doc. No. 32-3, at 8, ¶ 31; id. at 476.
+134 R. Doc. No. 32-1, at 8–9.
+135 See R. Doc. No. 32-3, at 8, ¶ 28; R. Doc. No. 32-1, at 8–9.
+Case 2:23-cv-00377-LMA-EJD   Document 51   Filed 04/30/24   Page 26 of 32
+27
+judgment on the untimeline ss of this payment, 136 plaintiffs do argue that this
+payment was untimely. 137 According to plaintiffs, they provided defendant with
+documentation that roof repairs had started when they submitted the invoice for the
+roof wrap on September 27, 2021. 138 In reply, defendant asserts that the roof wrap
+was a mitigation cost and that such mitigation costs do not constitute the
+commencement of repairs pursuant to the policy language.139
+ The Court finds that defendant is entitled to summary judgment as to the
+timeliness of this payment. As defendant observes, the policy provides that defendant
+“will pay Guaranteed Rebuilding Cost” and states that this “means that for a covered
+loss [defendant] will pay the reconstruction cost of [plaintiffs’]  house or other
+permanent structures[.]”140 There is no indication that the roof wrap constituted a
+reconstruction cost. To the contrary, the appraisal estimate upon which the appraisal
+award was based attributed the roofing tarp invoice as “Mitigation[.]” 141 Further, on
+July 5, 2023, plaintiffs’ counsel sent an email stating : “This email will confirm that
+repairs to the roof have commenced in the above referenced claim.” 142 Indeed, the
+subject line of that email is “Notice That Roof Repairs Have Commenced[.]”143
+
+136 See R. Doc. No. 34 -1, at 15 (arguing that plaintiffs are entitled to summary
+judgment on the issue of bad faith with respect to three payments, not including the
+July 28, 2023 payment).
+137 R. Doc. No. 41, at 16.
+138 Id.
+139 R. Doc. No. 45, at 3–4.
+140 R. Doc. No. 32-4, at 7.
+141 R. Doc. No. 45-2, at 1.
+142 R. Doc. No. 32-3, at 475.
+143 Id.
+Case 2:23-cv-00377-LMA-EJD   Document 51   Filed 04/30/24   Page 27 of 32
+28
+Accordingly, the Court finds that there is no genuine dispute of material fact
+as to when defendant received satisfactory proof of loss with respect to the
+commencement of repair or rebuilding the roof. The evidence clearly indicates that
+plaintiffs advised defendant that repairs had started on July 5, 2023, and defendant
+timely issued payment less than thirty days later. The Court will therefore grant
+defendant’s motion for summary judgment as to the July 28, 2023 payment.
+IV.  PLAINTIFFS’ MOTION IN LIMINE
+As noted, plaintiffs also filed a motion in limine to exclude evidence of the cost
+to build the property and the existence of loans relating to the same. 144 Specifically,
+plaintiffs contend that this evidence  is irrelevant pursuant to Federal Rule of
+Evidence 401 because the cost to build the property ten years ago has no bearing on
+defendant’s obligation to pay Hurricane Ida damages, the cost of repair or
+replacement damages today, or the facts surrounding whether defendant timely and
+adequately paid on plaintiffs’ claim. 145 Even if the evidence is relevant, plaintiffs
+argue that it should be excluded pursuant to Rule 403 because “its probative value is
+substantially outweighed by the danger of unfair prejudice, confusion of the issues,
+or misleading the jury [.]”146 Specifically, plaintiffs contend that, because the cost to
+build the property ten years ago is less than the cost to build it today, allowing the
+
+144 R. Doc. No. 33.
+145 See generally R. Doc. No. 33-1.
+146 Id. at 4 (quoting Fed. R. Evid. 403).
+Case 2:23-cv-00377-LMA-EJD   Document 51   Filed 04/30/24   Page 28 of 32
+29
+jury to hear the cost to build the property ten years ago “would only prejudice
+[p]laintiffs and mislead the jury.”147
+Defendant does not oppose the motion to the extent it seeks to exclude evidence
+about the existence of loans related to the building of the property. 148 However,
+defendant contends that evidence of the cost to build the property is relevant  as it
+provides context for determining whether defendant’s decision not to pay plaintiffs’
+initial demand was arbitrary and capricious .149 Defendant a lso asserts that t he
+evidence is relevant to determining which “like kind and quality” materials should
+apply to the reconstruction or repair of any storm-related damage.150
+In reply, plaintiffs assert that defendant never stated its decision to trigger
+appraisal was based on its concerns about the costs claimed by plaintiffs’ when
+compared to the cost of building the property.151 Plaintiffs also argue that defendant
+has not established that the cost to build the property ten years ago has any bearing
+on the cost to fix the property today.152 Plaintiffs emphasize that reconstruction cost
+is assessed “at the time of the loss” such that the cost to build ten years earlier is
+irrelevant.153 Additionally, plaintiffs assert that the building cost does not establish
+what would c onstitute “like kind and quality” materials for individual damaged
+
+147 Id. at 5–6.
+148 R. Doc. No. 42, at 1–2.
+149 Id. at 2.
+150 Id. at 3.
+151 R. Doc. No. 47, at 1–2.
+152 Id. at 2–3.
+153 Id. at 3.
+Case 2:23-cv-00377-LMA-EJD   Document 51   Filed 04/30/24   Page 29 of 32
+30
+components of the property such as the roof, imported onyx and marble, contents, and
+crown molding hand painted by an artist.154
+Pursuant to Federal Rule of Evidence 401, evidence is relevan t if “it has any
+tendency to make a fact more or less probable than it would be without the evidence”
+and “the fact is of consequence in determining the action.” Rule 402 provides that
+“[i]rrelevant evidence is not admissible.” Additionally, pursuant to Federal Rule of
+Evidence 403, courts “may exclude relevant evidence if its probative value is
+substantially outweighed by the danger of . . . unfair prejudice, confusing the issues,
+misleading the jury, undue delay, wasting time, or needlessly presenting cumulative
+evidence.” “The grant or denial of a motion in limine  is considered discretionary[.]”
+Hesling v. CSX Transp., 396 F.3d 632, 643 (5th Cir. 2005) (italics added).
+Having considered the relevant standards and the parties’ arguments, the
+Court grants the motion in limine with respect to the existence of loans as unopposed.
+However, with respect to the question of evidence regarding the cost to construct the
+property ten years ago, the Court finds that references to the original costs of specific
+materials or even the costs of building certain portions of the property may be useful
+in determining whether the parties legitimately disputed the costs of replacement
+materials and which materials would qualify as “like kind and quality” materials. At
+this time, the Court lacks sufficient information to  make a finding pursuant to Rule
+403 regarding whether the prejudicial effect of such evidence  is substantially
+
+154 Id. at 3–4.
+Case 2:23-cv-00377-LMA-EJD   Document 51   Filed 04/30/24   Page 30 of 32
+31
+outweighed by the probative value of such evidence. Accordingly, the Court will defer
+its decision on this aspect of the motion in limine until trial.
+V. CONCLUSION
+ For the foregoing reasons,
+ IT IS ORDERED that defendant’s motion for summary judgment is
+GRANTED IN PART and DENIED IN PART.
+ IT IS FURTHER ORDERED that the motion is GRANTED to the extent it
+seeks dismissal of plaintiffs’ claims for ALE  that have not yet been incurred  and to
+the extent it seeks dismissal of plaintiffs’ bad  faith claims based on the October 1,
+2023 and July 28, 2023 payments.
+ IT IS FURTHER ORDERED that the motion is GRANTED to the extent it
+seeks dismissal of any bad  faith claims based on the November 9, 2022 payment
+except as it relates to the difference between defendant’s final JS Held estimate and
+plaintiffs’ public adjuster estimate.
+ IT IS FURTHER ORDERED  that the motion  is DENIED to the extent it
+seeks dismissal of plaintiffs’ other claims for bad faith damages.
+ IT IS FURTHER ORDERED  that plaintiffs’ claims for ALE  that have not
+yet been incurred and any claims for bad faith damages based on the October 1, 2023
+payment, the July 28, 2023 payment, and the November 9, 2022 payment—except as
+it relates to previously described difference between the parties’ estimates —are
+DISMISSED WITH PREJUDICE.
+Case 2:23-cv-00377-LMA-EJD   Document 51   Filed 04/30/24   Page 31 of 32
+32
+ IT IS FURTHER ORDERED  that plaintiffs ’ motion for partial summary
+judgment is DENIED.
+ IT IS FURTHER ORDERED that plaintiffs’ motion in limine is GRANTED
+IN PART and DEFERRED IN PART. The motion is  GRANTED to the extent it
+seeks to exclude evidence of loans related to the construction of the property. Th e
+motion is DEFERRED until trial to the extent it seeks to exclude references to costs
+at the time of construction. The Court will consider the admissibility of such evidence
+following any properly made objections during the trial.
+ New Orleans, Louisiana, April 30, 2024.
+
+_______________________________________
+            LANCE M. AFRICK
+      UNITED STATES DISTRICT JUDGE
+Case 2:23-cv-00377-LMA-EJD   Document 51   Filed 04/30/24   Page 32 of 32
