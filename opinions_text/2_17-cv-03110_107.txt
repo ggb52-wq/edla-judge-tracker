@@ -1,0 +1,712 @@
+1
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+JOSEPH BRUTON,
+           Plaintiff
+CIVIL ACTION
+
+VERSUS NO.  17-3110
+
+BP EXPLORATION & PRODUCTION
+INC., ET AL.,
+           Defendants
+SECTION: “E” (5)
+
+ORDER AND REASONS
+ Before the Court is a motion in limine to exclude the opinions of Joseph Bruton’s
+(“Plaintiff”) general causation expert, Dr. Jerald Cook (“Cook”), filed by BP Exploration
+& Production, BP America Production Company, and BP p.l.c. (collectively
+“Defendants”).1 Also before the Court is the Defendants’ motion for summary judgment.2
+Plaintiff has filed opposi tions to both motions, 3 and Defendants have filed replies. 4 The
+Court previously deferred ruling on the pending motion in limine and motion for
+summary judgment to afford Plaintiff an opportunity to develop his spoliation argument.5
+Plaintiff has since filed his spoliation motion, 6 which Defendants oppose. 7 Because the
+Court is now prepared to rule on the spolia tion motion, the Court also will rule on the
+motion in limine and motion for summary judgment herein.
+
+1 R. Doc. 58. Halliburton Energy Services, Inc., Transocean Holdings LLC, Transocean Deepwater, Inc., and
+Transocean Offshore Deepwater Drilling, Inc., additional Defendants, join in the motion in limine.
+2 R. Doc. 59. Halliburton Energy Services, Inc., Transocean Holdings LLC, Transocean Deepwater, Inc., and
+Transocean Offshore Deepwater Drilling, Inc., additi onal Defendants, join in the motion for summary
+judgment.
+3 R. Docs. 62, 63, 89, 90, and 103.
+4 R. Docs. 73, 75, 99, 100, and 106.
+5 R. Docs. 79 and 80.
+6 R. Doc. 91. IT IS ORDERED that Plaintiff’s spoliation motion, and related briefing, be UNSEALED.
+7 R. Doc. 94. Halliburton Energy Services, Inc., Transocean Holdings LLC, Transocean Deepwater, Inc., and
+Transocean Offshore Deepwater Drilling, Inc., additional Defendants, join in the opposition.
+
+Case 2:17-cv-03110-SM-MBN   Document 107   Filed 05/25/23   Page 1 of 21
+
+2
+BACKGROUND
+ The instant action is a “B3” case arising out of the 2010 Deepwater Horizon oil spill
+in the Gulf of Mexico. B3 cases involve “claims for personal injury and wrongful death due
+to exposure to oil and/or other chemicals used during the oil spill response (e.g.,
+dispersant).”8
+ Plaintiff alleges, in the aftermath of the Deepwater Horizon oil spill, he was a
+cleanup worker in Mobile, Alabama, where he cleaned and decontaminated vessels and
+equipment used in the spill response. As a result, Plaintiff was exposed to crude oil and
+chemical dispersants for approximately one month, 9 which allegedly caused him to
+develop various medical conditions, includ ing “[c]oughing, lethargy, forgetfulness,
+abdominal pain, diarrhea, dizziness, eye irritation, sinus pain, headache, nasal
+congestion, nausea, shortness of breath, thro at irritation, skin dryness and itching.” 10
+Plaintiff filed the instant civil action, seeking a jury trial with respect to his claims of
+negligence.11
+ Plaintiff relies on Cook to provide general causation testimony supporting
+Plaintiff’s claim that his exposure to oil and dispersants caused his health problems. 12 It
+is uncontested that Cook is a qualified expe rt. What is contested, however, is whether
+Cook’s testimony withstands a Daubert challenge. Defendants filed the instant motion in
+limine13 to exclude Cook’s general causation expe rt testimony and, they argue, if this
+testimony is excluded, the Court should grant their motion for summary judgment
+
+8 See In re Oil Spill by Oil Rig “Deepwater Horizon” in Gulf of Mexico , on Apr. 20, 2010, No. MDL 2179,
+2021 WL 6053613, at *10 (E.D. La. Apr. 1, 2021) (Barbier, J.).
+9 R. Doc. 62-2 at p. 1, ¶ 2.
+10 R. Doc. 1-1 at p. 5.
+11 R. Doc. 1.
+12 R. Doc. 63.
+13 R. Doc. 58.
+Case 2:17-cv-03110-SM-MBN   Document 107   Filed 05/25/23   Page 2 of 21
+
+3
+because Plaintiff will lack necessary expert testimony.14 Alternatively, if Cook’s testimony
+is not excluded, Defendants ask the Court to  grant summary judgment because Plaintiff
+has not produced expert testimony to establish specific causation. 15 Plaintiff opposes
+Defendants’ motions16 and has filed a motion seeking admission of Dr. Cook’s general
+causation testimony as a sanction for Defend ants’ failure to conduct biomonitoring and
+dermal monitoring, which Plaintiff alleges amounted to spoliation of evidence.17
+LEGAL STANDARDS
+I. Motion in Limine Standard
+ A district court has discretion to admi t or exclude expert testimony under the
+Federal Rules of Evidence.18 Indeed, the Supreme Court held Rule 702 requires a district
+court to act as a gatekeeper to ensure “any  and all scientific testimony or evidence
+admitted is not only relevant, but reliable.”19 Rule 702 governs the admissibility of expert
+testimony,20 providing:
+A witness who is qualified as an expert by knowledge, skill, experience,
+training, or education may testify in the form of an opinion or otherwise if:
+
+(a) the expert’s scientific, technical, or other specialized knowledge will help
+the trier of fact to understand the evidence or to determine a fact in
+issue;
+
+(b) the testimony is based on sufficient facts or data;
+
+(c) the testimony is the product of reliable principles and methods; and
+
+(d) the expert has reliably applied the principles and methods to the facts.
+
+ Daubert “provides the analytical framework for determining whether expert
+
+14 R. Doc. 59.
+15 Id.
+16 R. Docs. 62, 63, 89, and 90.
+17 R. Doc. 91.
+18 General Elec. Co. v. Joiner, 522 U.S. 136, 139 (1997).
+19 Daubert v. Merrell Dow Pharmaceuticals, 509 U.S. 579, 588 (1993)
+20 Id.; United States v. Hitt, 473 F.3d 146, 148 (5th Cir. 2006).
+Case 2:17-cv-03110-SM-MBN   Document 107   Filed 05/25/23   Page 3 of 21
+
+4
+testimony is admissible under Rule 702.” 21 The burden of proof rests with the party
+seeking to present the challenged expert testimony—namely, a preponderance of the
+evidence standard.22 Both scientific and nonscientific expert testimony is subject to the
+Daubert framework, which requires a trial court  to make a preliminary assessment “to
+determine whether the expert testimony is both reliable and relevant.”23
+ In terms of the reliability inquiry, a seri es of non-exhaustive factors are considered,
+including: (1) whether the technique has been tested, (2) whether the technique has been
+subjected to peer review and publication, (3 ) the technique’s potential error rate, (4) the
+existence and maintenance of standards cont rolling the technique’s operation, and (5)
+whether the technique is generally accepted  in the relevant scientific community. 24 The
+reliability inquiry must remain flexible, however, as “not every Daubert factor will be
+applicable in every situation; and a court has discretion to consider other factors it deems
+relevant.”25 “Both the determination of reliability itself and the factors taken into account
+are left to the discretion of the district court consistent with its gatekeeping function
+under [Rule] 702.”26
+ In terms of the relevancy inquiry, the pr oposed testimony must be relevant “not
+simply in the way all testimony must be rele vant [under Rules 401 and 402], but also in
+the sense that the expert’s proposed opinion would assist the trier of fact to understand
+or determine a fact in issue.” 27 The “helpfulness” prong is concerned with ensuring the
+
+21 Pipitone v. Biomatrix, Inc., 288 F.3d 239, 243 (5th Cir. 2002).
+22 Kennedy v. Magnolia Marine Transp. Co. , 189 F. Supp. 3d 610, 615 (E.D. La. 2016); see also Daubert,
+509 U.S. at 592 n.10.
+23 Burleson v. Tex. Dep’t of Criminal Justice , 393 F.3d 577, 584 (5th Cir. 2004); see Kumho Tire v.
+Carmichael, 526 U.S. 137, 147 (1999).
+24 Burleson, 393 F.3d at 584.
+25 Guy v. Crown Equip. Corp ., 394 F.3d 320, 325 (5th Cir. 2004); see Runnels v. Tex. Children’s Hosp.
+Select Plan, 167 F. App’x 377, 381 (5th Cir. 2006) (“[A] trial judge has ‘considerable leeway’ in determining
+‘how to test an expert’s reliability.’” (quoting Kumho Tire, 526 U.S. at 152)).
+26 Munoz v. Orr, 200 F.3d 291, 301 (5th Cir. 2000).
+27 Bocanegra v. Vicmar Servs., Inc., 320 F.3d 581, 584 (5th Cir. 2003).
+Case 2:17-cv-03110-SM-MBN   Document 107   Filed 05/25/23   Page 4 of 21
+
+5
+expert testimony is not only scientifically reliable but also “relevant to the task at hand.”28
+II. Spoliation Standard
+ The spoliation of evidence doctrine concerns the intentional destruction of
+evidence.29 If a party intentionally destroys evidence, the trial court may exercise its
+discretion to impose sanctions on the responsible party. 30 The sanctions may include an
+instruction to the jury to infer that “the evidence would have been unfavorable to the party
+responsible for its destruction.”31 This adverse inference rule “derives from the common
+sense notion that a party’s destruction of evidence which it has reason to believe may be
+used against it in litigation suggests that the evidence was harmful to the party responsible
+for its destruction.”32 Accordingly, to restore the prejudiced party, an adverse inference
+“plac[es] the risk of an erro neous judgment on the party that wrongfully created the
+risk.”33
+ Before a court may consider imposing sa nctions, however, “the party having
+control over the evidence must have had an ob ligation to preserve it at the time it was
+destroyed.”34 Such a duty “arises when the party has notice that the evidence is relevant
+to litigation.”35 Once a court concludes that a party was obliged to preserve the evidence,
+it must then consider whethe r the evidence was intentiona lly destroyed and the likely
+
+28 Daubert, 509 U.S. at 597.
+29 Menges v. Cliffs Drilling Co., 2000 WL 765082, at *1 (E.D. La. June 12, 2000) (citing Vodusek v. Bayliner
+Marine Corp., 71 F.3d 148, 156 (4th Cir. 1995); Schmid v. Milwaukee Elec. Tool Corp ., 13 F.3d 76, 78 (3d
+Cir.1994)).
+30 Id.
+31 Kronisch v. United States, 150 F.3d 112, 126 (2d Cir.1998); see, e.g., Vodusek, 71 F.3d at 155; Schmid, 13
+F.3d at 78; Glover v. BIC Corp., 6 F.3d 1318, 1329 (9th Cir. 1993); Nation–Wide Check Corp. v. Forest Hills
+Distribs., 692 F.2d 214, 217–18 (1st Cir. 1982); In re Hopson Marine Transp., Inc ., 168 F.R.D. 560, 567
+(E.D. La. 1996).
+32 Kronisch, 150 F.3d at 126.
+33 Id. (quoting Nation–Wide Check, 692 F.2d at 218).
+34 Menges, 2000 WL 765082, at *3.
+35 Id.
+Case 2:17-cv-03110-SM-MBN   Document 107   Filed 05/25/23   Page 5 of 21
+
+6
+contents of that evidence.36 The Fifth Circuit requires the party seeking sanctions to show
+that the party who allegedly spoiled the evidence acted in “bad faith.”37 Negligence is not
+enough to support the imposition of sanction s for spoliation, “for it does not sustain an
+inference of consciousness of a weak case.”38 Accordingly, a party seeking sanctions is not
+even entitled to an adverse inference—a form of  relief less drastic than of that sought by
+Plaintiff in the case at bar—unless that party can show that its adversary intentionally and
+in bad faith disposed of the evidence.
+III. Motion for Summary Judgment Standard
+ Summary judgment is appropriate only “if the movant shows that there is no
+genuine dispute as to any material fact and the movant is entitled to judgment as a matter
+of law.”39 “An issue is material if its resolution could affect the outcome of the action.” 40
+When assessing whether a material factual di spute exists, the Court considers “all of the
+evidence in the record but refrain[s] from making credibility determinations or weighing
+the evidence.”41 All reasonable inferences are draw n in favor of the non-moving party. 42
+There is no genuine issue of material fact if , even viewing the evidence in the light most
+favorable to the non-moving party, no reasonable trier of fact could find for the non-
+moving party, thus entitling the moving party to judgment as a matter of law.43
+
+36 Id.
+37 King v. Illinois Cent. R.R ., 337 F.3d 550, 556 (5th Cir. 2003); see also Anderson v. Prod. Mgmt. Corp .,
+No. 98–2234, 2000 WL 492095, at *3 (E.D. La. Apr. 25, 2000) (collecting authorities).
+38 Vick v. Texas Employment Comm’n, 514 F.2d 734, 737 (5th Cir. 1975).
+39 FED. R. CIV. P. 56; see also Celotex Corp. v. Catrett, 477 U.S. 317, 322–23 (1986).
+40 DIRECTV, Inc. v. Robson, 420 F.3d 532, 536 (5th Cir. 2005).
+41 Delta & Pine Land Co. v. Nati onwide Agribusiness Ins. Co., 530 F.3d 395, 398–99 (5th Cir. 2008); see
+also Reeves v. Sanderson Plumbing Prods., Inc., 530 U.S. 133, 150–51 (2000).
+42 Little v. Liquid Air Corp., 37 F.3d 1069, 1075 (5th Cir. 1994).
+43 Hibernia Nat. Bank v. Carner , 997 F.2d 94, 98 (5th Cir. 1993) (citing Amoco Prod. Co. v. Horwell
+Energy, Inc., 969 F.2d 146, 147–48 (5th Cir. 1992)).
+Case 2:17-cv-03110-SM-MBN   Document 107   Filed 05/25/23   Page 6 of 21
+
+7
+ “Although the substance or content of the evidence submitted to support or dispute
+a fact on summary judgment must be admissib le . . . the material fact may be presented
+in a form that would not, in itself, be admissible at trial.”44
+ “[A] party seeking summary judgment alwa ys bears the initial responsibility of
+informing the district court of the basis for its motion, and identify ing those portions of
+[the record] which it believes demonstrate the absence of a genuine issue of material
+fact.”45  To satisfy Rule 56’s burden of production, the moving party must do one of two
+things: “the moving party may submit affirm ative evidence that negates an essential
+element of the nonmoving party’s claim” or “the moving party may demonstrate to the
+Court that the nonmoving party’s evidence is insufficient to establish an essential element
+of the nonmoving party’s claim.” 46 If the moving party fails to carry this burden, the
+motion must be denied. If the moving party successfully carries this burden, the burden
+of production then shifts to the non-moving  party to direct the Court’s attention to
+something in the pleadings or other evidence  in the record setting forth specific facts
+sufficient to establish that a genuine issue of material fact does indeed exist.47
+If the dispositive issue is one on which the non-moving party will bear the burden
+of persuasion at trial, the moving party may satisfy its burden of production by either (1)
+submitting affirmative evidence that negate s an essential element of the non-movant’s
+claim, or (2) affirmatively demonstrating th at there is no evidence in the record to
+establish an essential element of the non-movant’s claim. 48 If the movant fails to
+affirmatively show the absence of evidence  in the record, its motion for summary
+
+44 Lee v. Offshore Logistical & Transp., L.L.C., 859 F.3d 353, 355 (5th Cir. 2017) (citations omitted).
+45 Celotex, 477 U.S. at 323.
+46 Id. at 331.
+47 Id. at 322–24.
+48 Id. at 331–32 (Brennan, J., dissenting).
+Case 2:17-cv-03110-SM-MBN   Document 107   Filed 05/25/23   Page 7 of 21
+
+8
+judgment must be denied. 49 Thus, the non-moving party may defeat a motion for
+summary judgment by “calling the Court’s attention to supporting evidence already in the
+record that was overlooked or ignored by the moving party.” 50 “[U]nsubstantiated
+assertions are not competent summary judgment evidence. The party opposing summary
+judgment is required to identify specific evidence in the record and to articulate the
+precise manner in which that evidence supports his or her claim. ‘Rule 56 does not impose
+upon the district court a duty to sift through the record in search of evidence to support a
+party’s opposition to summary judgment.’”51
+LAW AND ANALYSIS
+I. BP’s motion in limine  to exclude Cook’s ge neral causation expert
+testimony is granted.
+
+ “B3 plaintiffs must prove that the legal cause of the claimed injury or illness is
+exposure to oil or other chemicals used during the response.” 52 Once a plaintiff’s
+diagnoses have been confirmed, the plainti ff has the burden of establishing general
+causation and specific causation. “‘First, the district court must determine whether there
+is general causation. Second, if it concludes  . . . there is admissible general-causation
+evidence, the district court must determine whether there is admissible specific-causation
+evidence.’”53 “General causation is whether a substance is capable of causing a particular
+
+49 See id. at 332.
+50 Id. at 332–33. The burden would then shift back to the movant to demonstrate the inadequacy of the
+evidence relied upon by the non-movant. Once attacked, “the burden of production shifts to the nonmoving
+party, who must either (1) rehabilitate the evidence  attacked in the moving party’s papers, (2) produce
+additional evidence showing the existence of a genuine issue for trial as provided in Rule 56(e), or (3) submit
+an affidavit explaining why further discovery is necessary as provided in Rule 56(f).” Id. at 332–33, 333 n.3.
+51 Ragas v. Tenn. Gas Pipeline Co., 136 F.3d 455, 458 (5th Cir. 1998) (citing Celotex, 477 U.S. at 324; Forsyth
+v. Barr, 19 F.3d 1527, 1537 (5th Cir. 1994) and quoting Skotak v. Tenneco Resins, Inc., 953 F.2d 909, 915–
+16 & n.7 (5th Cir. 1992)).
+52 Medical Settlement Section VIII(G)(3)a); see also In re Oil Spill by Oil Rig “Deepwater Horizon” in Gulf
+of Mexico, on Apr. 20, 2010, No. MDL 2179, 2021 WL 6053613, at *10 (E.D. La. Apr. 1, 2021) (Barbier, J.);
+accord Perkins v. BP Expl. & Prod.., Inc., No. 17-4467, 2022 WL 972276, at *2 (E.D. La. March 31, 2022).
+53 Seaman v. Seacor Marine, L.L.C., 326 F. App’x 721, 722 (5th Cir. 2009) (quoting Knight v. Kirby Inland
+Marine, Inc., 482 F.3d 347, 351 (5th Cir. 2007)).
+Case 2:17-cv-03110-SM-MBN   Document 107   Filed 05/25/23   Page 8 of 21
+
+9
+injury or condition in the general populati on, while specific ca usation is whether a
+substance caused a particular individual’s injury.” 54 With respect to general causation,
+“[s]cientific knowledge of the harmful level of exposure to a chemical, plus knowledge
+that the plaintiff was exposed to such quanti ties, are minimal facts necessary to sustain
+the plaintiff’s burden in a toxic tort case.”55
+A. Cook fails to verify Bruton’s diagnoses.
+
+ Defendants move the court to exclude C ook’s expert report because he does not
+verify Plaintiff’s medical diagnoses of coughing, lethargy, forgetfulness, abdominal pain,
+diarrhea, dizziness, eye irritation, sinus pain, headache, nasal congestion, nausea,
+shortness of breath, throat irritation, skin  dryness and itching. The American Medical
+Association’s (AMA) Guide to the Evaluation of Disease and Injury Causation provides
+the expert’s threshold inquiry or “first step is to establish or verify the diagnosis . . . . This
+step is accomplished by careful review of the available medical records and/or
+examination of the patient. . . . Exposure be comes relevant only when the presence of
+disease or illness is established.” 56 This threshold inquiry is designed to “avoid wasting
+time, effort, and resources pursuing unreasonable hypotheses, while at the same time not
+missing the opportunity to find previously unrecognized hazards.” 57 The expert must
+verify the patient’s diagnoses before proceeding to general or specific causation.58
+ Cook “maintains a copy of this AMA pu blication and uses it as a reference.” 59
+
+54 Id.
+55 Allen v. Penn. Eng’g Corp., 102 F.3d 194, 199 (5th Cir. 1996).
+56 MELHORN, M.D., ET AL., AMA GUIDE TO THE EVALUATION OF DISEASE AND INJURY CAUSATION (2d ed.), at p.
+578.
+57 Id.
+58 Id.
+59 Novelozo v. BP Expl. & Prod., Inc., et al. , No. 13-1033, 2022 WL 1460103 *6 (E.D. La. May 9, 2022)
+(citing deposition transcript of Cook).
+Case 2:17-cv-03110-SM-MBN   Document 107   Filed 05/25/23   Page 9 of 21
+
+10
+Troublingly, though, Cook’s report includes no reference to Bruton or his diagnoses60 and
+there is no indication that Cook either interviewed or examined Bruton before forming
+his expert opinion. Furthermore, there is no  indication Cook reviewed Bruton’s medical
+records. Plaintiff’s opposition admits that Cook “does not base his opinion on a medical
+diagnosis specific to the plaintiff,” but assert s that “[a] diagnosis is not necessary in a
+transient symptom case” such as this one. 61 In support of that contention, Plaintiff cites
+cases like Guidry v. Dow Chemical Company 62 and Bell v. Foster Wheeler Energy
+Corporation.63
+ Guidry involved a class action suit for damages relating to harm caused by an
+unexpected release of ethyl acrylate from a tank at a Union Carbide facility in Taft,
+Louisiana.64 Before the court on a motion for summary judgment, the sole issue was
+whether general causation expert testimon y alone was sufficient to prove causation
+between complained-of transient symptoms and exposure when the injury was within the
+layperson’s common knowledge, or whether specific causation expert testimony also was
+required.65 The court held specific causation expe rt testimony was not required to prove
+the claim because the injuries were with in the common knowledge held by jurors. 66
+Similarly, in Bell, Judge Africk determined that, for asbestos exposure claims resulting in
+mesothelioma, as opposed to transient symp toms, general causation expert testimony
+could sustain a claim even in the absence of expert testimony on specific causation when
+there was specific evidence regarding the nature of the plaintiff’s exposure.67 In that case,
+
+60 Bruton’s name does not appear in Cook’s general causation expert report. See generally R. Doc. 47-3.
+61 R. Doc. 63 at p. 16.
+62 No. 19-12233, 2021 WL 4460505 (E.D. La. Sept. 29, 2021).
+63 No. 15-6394, 2017 WL 889083 (E.D. La. March 6, 2017).
+64 2021 WL 4460505 at *1.
+65 Id. at *2. This was not at issue in the motion for partial judgment on the pleadings. Id. at *3.
+66 Id. at *2.
+67 2017 WL 889083 at *3.
+Case 2:17-cv-03110-SM-MBN   Document 107   Filed 05/25/23   Page 10 of 21
+
+11
+the court found there may be sufficient evidence  to permit the jury to conclude that the
+defendant’s product was a substantial factor in causing the plaintiff’s injury.68
+ In sum, Guidry and Bell analyzed whether, inter alia, general causation expert
+testimony alone could sustain a toxic tort cl aim without additional expert testimony on
+specific causation either when the injury was within the layperson’s common knowledge
+or when there was specific evidence regard ing the nature of the plaintiff’s exposure.
+Critically, the courts in Guidry and Bell did not analyze whether, as a threshold matter, a
+general causation expert is required  to confirm a plaintiff’s diagnoses. 69 The issue now
+before this Court relates to Cook’s failure to perform the threshold task of confirming
+Plaintiff’s diagnoses—not whether there is a n eed for expert testimony to prove specific
+causation.
+ Novelozo v. BP Exploration & Production, Inc., et al., a similar B3 cleanup worker
+exposure case in which Cook provided a general causation expert report, is most
+analogous to the case at bar. In Novelozo, one ground upon which Judge Africk relied to
+exclude Cook’s expert testimony was Cook’s failure to verify the plaintiff’s diagnoses.70 In
+that case, there was evidence Cook examined  the plaintiff and reviewed the plaintiff’s
+medical records—but by Cook’s own admission he was “unable to perform step 1 [of the
+AMA Guide] to [his] satisfaction.” 71 In this case, Cook does not base his opinion on an
+examination of Bruton, Bruton’s medical records, or Bruton’s diagnoses. Cook did not
+even attempt to perform step 1 of the AMA Gu ide. There is an even greater justification
+
+68 Id.
+69 See generally Guidry, 2021 WL 4460505; Bell, 2017 WL 889083.
+70 Novelozo alleged he suffered from dizziness, light headiness, stomach proble ms, stress, skin rashes,
+respiratory problems, breathing problems, sleep problems, abdominal pain, bowel problems, nausea, vision
+problems, memory problems, bloody nose, and loss of libido as a result of his exposure. No. 13-1033, 2022
+WL 1460103 *1 n.9 (E.D. La. May 9, 2022).
+71 Id. at *5.
+Case 2:17-cv-03110-SM-MBN   Document 107   Filed 05/25/23   Page 11 of 21
+
+12
+for excluding Cook’s expert opinion as unreliable in this case than in Novelozo.
+ Expert testimony “must be reliable at  each and every step or else it is
+inadmissible.”72 The Court’s review of the relevant section of the AMA Guide—which
+Defendants included in the record—demonstr ates the AMA’s framework is a published
+technique with explicit standards controlling its operation. 73 Cook’s failure to perform
+step one of the AMA Guide’s framework is  concerning because “[e]xposure becomes
+relevant only when the presence of disease or illness is established.” 74 Cook’s failure to
+confirm as a threshold matter that Bruton ha d been diagnosed with coughing, lethargy,
+forgetfulness, abdominal pain, diarrhea, dizzin ess, eye irritation, sinus pain, headache,
+nasal congestion, nausea, shortness of breath, throat irritation, skin dryness, and itching
+reveals that Cook has not “reliably applied the principles and methods to the facts of this
+case.”75
+ This deficiency is particularly conc erning because “the fundamental question
+underlying [Cook’s] testimony,” as well as the Court’s ruling on Defendants’ motion in
+limine, is “whether the chemicals that [Bruton was] exposed to and the type of exposures
+[Bruton] experienced caused [Bruton’s illnesses].” 76 Without verifying Bruton’s
+diagnoses, Cook has not sufficiently explained how any particular study could provide “a
+reliable basis for the opinion that the types of chemicals [Bruton was] exposed to could
+cause [his] particular injury  in the general population.” 77 This lack of verification of
+
+72 Knight v. Kirby Inland Marine, Inc., 482 F.3d 347, 355 (5th Cir. 2007).
+73 Burleson v. Tex. Dep’t of Criminal Justice, 393 F.3d 577, 584 (5th Cir. 2004) (discussing the nonexclusive
+factors for the reliability inquiry).
+74 MELHORN, M.D., ET AL., AMA GUIDE TO THE EVALUATION OF DISEASE AND INJURY CAUSATION (2d ed.), at p.
+578.
+75 FED. R. EVID. 702(d).
+76 Knight, 482 F.3d at 352.
+77 Id. at 353.
+Case 2:17-cv-03110-SM-MBN   Document 107   Filed 05/25/23   Page 12 of 21
+
+13
+Plaintiff’s diagnoses weighs against admitting Cook’s opinions.78
+B. Cook does not identify the ha rmful level of exposure to a
+chemical required for complain ed-of symptoms to manifest, a
+minimum standard for general causation set by the Fifth Circuit.
+
+ Defendants also move the Court to exclude Cook’s testimony on general causation
+because of his “lack of any opinion as to the level of exposure known to cause the plaintiff’s
+conditions” in the general population, which the Fifth Circuit has described as one of the
+minimum requirements for an admissible general causation opinion in toxic tort cases.79
+ In recent cases before different sections of this court, nearly identical expert
+testimony from Cook on general causation has been excluded for various reasons relating
+to reliability, not the least of which is beca use “a causation expert must identify ‘the
+harmful level of a[n] exposure to a chemical.’”80 In fact, in Murray v. BP Exploration &
+Production, Inc., et al. , Judge Ashe examined the exact same Cook report 81 as the one
+
+78 In Murray v. BP Exploration & Production, Inc., et al., Judge Ashe did not decide whether Cook had to
+verify the plaintiff’s diagnoses before assessing general and specific causation because “[t]he necessity of
+this step may be questioned in light of Judge Barbie r’s determination” in similar B3 cases “that expert
+medical testimony on specific causation is not required for transient or temporary symptoms that are within
+the general understanding of laypersons.” No. 17-3582, 2022 WL 1811138 *4 n.52 (E.D. La. June 2, 2022).
+This Court concludes it is necessary for an expert to  verify a plaintiff’s sympto ms before expressing an
+opinion as to both general and specific causation beca use the verification is a threshold inquiry an expert
+must complete before conducting even a general causation analysis. MELHORN, M.D., ET AL., AMA GUIDE TO
+THE EVALUATION OF DISEASE AND INJURY CAUSATION (2d ed.), at p. 578. Said differently, verification of
+Plaintiff’s diagnoses should occur before a general causation analysis, which itself should occur before a
+specific causation analysis. Id.
+79 R. Doc. 58-1 at p. 17.
+80 Novelozo v. BP Expl. & Prod., Inc., et al. , No. 13-1033, 2022 WL 1460103 *8 (E.D. La. May 9, 2022)
+(citing Allen v. Penn. Eng’g Corp., 102 F.3d 194, 199 (5th Cir. 1996)); see also Murphy v. BP Expl. & Prod.,
+Inc., et al., No. 13-1031, 2022 WL 1460093 *8 (E.D. La. May 9, 2022); Johns v. BP Expl. & Prod. , No. 17-
+3304, 2022 WL 1811088 (E.D . La. June 2, 2022); Johnson v. BP Expl. & Prod ., No. 17-3308, 2022 WL
+1811090 (E.D. La. June 2, 2022); Macon v. BP Expl. & Prod., No. 17-3548, 2022 WL 1811135 (E.D. La. June
+2, 2022); Murray, 2022 WL 1811138; Street v. BP Expl. & Prod., No. 17-3619, 2022 WL 1811144 (E.D. La.
+June 2, 2022).
+81 The March 14, 2022 version of Cook’s report, to be specific, is at issue in the case at bar. See R. Doc. 35-4
+in 17-3582 (the March 14, 2022 version of the Cook report before Judge Ashe); see also R. Doc. 58-3 in 17-
+3110 (the March 14, 2022 version of the Cook report  before this Court). The March 14, 2022 report is
+“Version 2” of Cook’s report. Throughout this district’s B3 docket, Dr. Cook has produced four versions of
+a general causation report: Version 1 was issued in fall 2021, Version 2 was issued on March 14, 2022,
+Version 3 was issued on May 31, 2022, and Version 4 was issued on June 21, 2022. In more than 300 cases,
+ten judges of this district have reviewed either Version 1, 2, 3, or 4 of Dr. Cook’s report and excluded them
+under Daubert. See, e.g., Murphy v. BP Expl. & Prod ., No. 13-1031, 2022 WL 1460093 (E.D. La. May 9,
+2022) (excluding Version 1); Murray v. BP Exploration & Production, Inc., et al , No. 17-3582, 2022 WL
+Case 2:17-cv-03110-SM-MBN   Document 107   Filed 05/25/23   Page 13 of 21
+
+14
+provided in this case and excluded Cook’s testimony because Cook “fail[ed] to identify the
+dose of the toxic chemicals necessary to caus e any of the complained-of health effects”—
+which, again, is a minimum requirement set by the Fifth Circuit.82
+ In this case, Cook’s report and propos ed testimony also fail to satisfy that
+minimum requirement. In Cook’s report, he acknowledges the “toxicology maxim that the
+dose determines the poison” because most ch emicals can be toxic, thereby leaving the
+dose as the sole determinant of what is toxic. 83 Fatally, however, Cook’s expert report
+includes no identification of the necessary  d o s e  o f  e x p o s u r e  f o r  a n y  o f  P l a i n t i f f ’ s
+complained-of symptoms to manifest. Instead, Cook concludes it “can be very challenging
+to accurately measure or estimate” the necessary dose. 84 While Courts “do not require a
+mathematically precise table equating levels of  exposure with levels of harm, . . . there
+must be evidence from which a reasonable  person could conclude that a defendant’s
+emission has probably caused a particular plai ntiff the kind of harm of which he or she
+complains before there can be a recovery.”85
+ Plaintiff’s opposition asserts, with no cita tion to the Cook report, that Cook relies
+upon the expert testimony of Dr. Rachel Jones as it relates to the identification of the
+necessary dose of exposure. 86 However, Cook’s report, unlike the expert report in
+Novelozo and like the expert report in Murray, includes no reference to, or reference to
+reliance on, Dr. Jones’s expert report. In fact, the only time the name “Jones” appears in
+
+1811138 (E.D. La. June 2, 2022) (excluding Version 2); Miller v. BP Expl. & Prod ., No. 17-4444, 2022 WL
+4353573 (E.D. La. Sept. 15, 2022) (excluding Version 3); Fairley v. BP Exploration & Production, Inc., No.
+17-3988, 2022 WL 16731817 (E.D. La. 11/3/2022) (exclu ding Version 4). In light of those cases, the Court
+has reviewed all four versions and finds them all excludable under Daubert for the reasons stated in this
+Order and Reasons.
+82 Murray, 2022 WL 1811138 at *6.
+83 R. Doc. 50-5 at p. 32.
+84 Id. at p. 28.
+85 Wright v. Willamette Industries, Inc., 91 F.3d 1105, 1107 (8th Cir. 1996).
+86 R. Doc. 63 at p. 17.
+Case 2:17-cv-03110-SM-MBN   Document 107   Filed 05/25/23   Page 14 of 21
+
+15
+the expert report is in a citation to a source on cancer policy in the United States by a “D.
+Jones.”87 As a result, without deciding whether Dr .  R a c h e l  J o n e s ’  r e p o r t  d o e s  i n  f a c t
+quantify the level at which various substances are unsafe to humans, it is clear Cook does
+not rely on Dr. Jones in the first place.
+ Additionally, Plaintiff argues Cook could not identify the harmful level of exposure
+because, allegedly, Defendants prevented contemporaneous studies of oil cleanup
+workers by failing to conduct biomonitoring and dermal monitoring. 88 “General
+causation is whether a substance is capable of causing a particular injury or condition in
+the general population . . . .” 89 If a substance is capable of causing a particular injury or
+condition in the general population, an expe rt must then determine at what level of
+exposure the condition manifests.90 To determine that dosage, an expert may consult the
+universe of epidemiology and toxicology li terature studying the chemicals at issue. 91 As
+Judge Rodgers explained, there is a “massive quantity of high-quality environmental
+data” in the universe of literature associ ated with the Deepwater Horizon oil spill. 92
+Moreover, “a general causation opinion is not dependent upon data from the incident at
+issue,”93 meaning Cook’s failure to quantify the harmful level of exposure is not cured
+merely because of a claim that an insuffi cient amount of biomonitoring and dermal
+monitoring data exists from the Deepwater Horizon oil spill. As such, assuming
+arguendo Plaintiff’s allegation that Defendants prevented studies of oil cleanup workers
+
+87 R. Doc. 58-3 at p. 30.
+88 R. Doc. 63 at p. 2. This argument is the subject of Plaintiff’s spoliation motion, which the Court addresses
+separately.
+89 Seaman v. Seacor Marine, L.L.C., 326 F. App’x 721, 722 (5th Cir. 2009).
+90 Murray v. BP Exploration & Production, Inc., et al, No. 17-3582, 2022 WL 1811138 *6 (E.D. La. June 2,
+2022).
+91 In re Deepwater Horizon BELO cases, No. 19-963, 2020 WL 6689212 *4 (N.D. Fla. Nov. 4, 2020).
+92 Id.
+93 Fairley v. BP Exploration & Production, Inc., No. 17-3988, 2022 WL 16731817, *4 (E.D. La. 11/3/2022)
+(Ashe, J.).
+Case 2:17-cv-03110-SM-MBN   Document 107   Filed 05/25/23   Page 15 of 21
+
+16
+by not collecting data related to the Deepwater Horizon oil spill is true,94 Cook could have
+attempted to support an opinion as to the do se necessary to cause Plaintiff’s symptoms
+by relying on the universe of relevant epidemiology and toxicology literature or by relying
+on the work of Dr. Jones. He did neither.
+ In reaching its decision, the Court reject s Plaintiff’s efforts to defend Dr. Cook’s
+failure to identify a harmful level of exposure to a specific chemical. Plaintiff asserts that
+Dr. Cook’s analysis relies on peer-reviewed scientific literature that is the best, state of the
+art science on which to base causation opinions related to BP Oil Spill worker exposures.
+Plaintiff attempts to bolster this position with an affidavit by Dr. Linda Birnbaum, the
+former director of the National Institutes of  Environmental Health and Safety, in which
+Dr. Birnbaum argues it is not “plausible” to establish an oil-spill responder’s quantitative
+exposure to a particular chemical at a given level because of issues with data collection.
+As other sections of this court have noted,  Dr. Birnbaum’s affidavit “neither cures nor
+explains the deficiencies in [Dr. Cook’s] report.” 95 “The question of an individual oil
+responder’s exposure level is relevant to sp ecific causation, not general causation,” so
+“[t]he alleged impossibility of establishing BP Oil Spill responder’s quantitative exposure
+to a given chemical at a given level does not [foreclose] Dr. Cook’s ability to consult the
+relevant scientific and medical literature on  the harmful effects of oil to determine
+whether a relevant chemical has the capacity to cause the harm alleged by plaintiff in the
+general population.”96 Dr. Birnbaum’s representation about the difficulties scientists face
+quantifying individual responders’ exposures are thus “irrelevant to the issue of general
+causation in this case, which requires examination of the dose of exposure known to cause
+
+94 Defendants contend this is unfounded.
+95 Griffin v. BP Expl. & Prod. Inc., 2023 WL 183894, at *5 (E.D. La. 1/13/2023).
+96 Jenkins v. BP Expl. & Prod. Inc., 2023 WL 172044, at *2 (E.D. La. 1/12/2023) (internal quotation marks
+omitted).
+Case 2:17-cv-03110-SM-MBN   Document 107   Filed 05/25/23   Page 16 of 21
+
+17
+harm in the general population.”97
+ In sum, Cook did not identify the dose of  exposure necessary for each of Plaintiff’s
+symptoms to manifest. Cook’s failure to satisfy this minimum requirement “weighs
+heavily in favor of exclusion”98 of his testimony on general causation.
+ Accordingly, Defendants’ motion in limine  to exclude Cook’s general causation
+testimony must be granted because the te stimony is unreliable and, therefore,
+inadmissible.
+II. Plaintiff’s spoliation motion is denied.
+
+ Plaintiff argues Defendants’ “decision not to do biomonitoring and dermal
+monitoring of clean-up workers” either during or after the oil spill was spoliation of
+evidence.99 As a consequence of Defendants’ alleged spoliation of evidence, B3 “Plaintiffs
+[now] simply request that Dr. Cook’s opinio ns . . . be deemed reliable and admissible
+under Daubert.”100 Spoliation is the intentional destruction of evidence or failure to
+preserve evidence in one’s possession.101 A party seeking an adverse inference on account
+of spoliation generally must show
+(1) the party with control over the evidence had an obligation to preserve it
+at the time it was destroyed; (2) the evidence was destroyed with a culpable
+state of mind [(i.e., with bad faith)]; and (3) the destroyed evidence was
+“relevant” to the party’s claim or defense such that a reasonable trier of fact
+could find that it would support that claim or defense.102
+
+97 Id. Further, Dr. Birnbaum was not timely disclosed as an expert. Thus, her affidavit is procedurally
+improper. “This constitutes a separate and additional reason the affidavit should not make any difference.”
+See id. at *1 n.6.
+98 Novelozo v. BP Expl. & Prod., Inc., et al., No. 13-1033, 2022 WL 1460103 *9 (E.D. La. May 9, 2022).
+99 R. Doc. 91-1 at p. 2.
+100 Id.
+101 M e n g e s  v .  C l i f f s  D r i l l i n g  C o., 2000 WL 765082, at *1 (E.D. La. June 12, 2000) (citing Vodusek v.
+Bayliner Marine Corp., 71 F.3d 148, 156 (4th Cir. 1995); Schmid v. Milwaukee Elec. Tool Corp., 13 F.3d 76,
+78 (3d Cir. 1994)).
+102 Coastal Bridge Co., LLC v. Heatec, Inc ., 833 F. App'x 565, 574 (5th Cir. 2020) (citing Port of S. La. v.
+Tri-Parish Indus., 927 F. Supp. 2d 332, 346 (E.D. La. 2013); Herster v. Bd. of Supervisors of Louisiana
+State Univ., 887 F.3d 177, 190 (5th Cir. 2018)).
+Case 2:17-cv-03110-SM-MBN   Document 107   Filed 05/25/23   Page 17 of 21
+
+18
+ First, Plaintiff has failed to carry his bu rden of proving Defendants had a duty to
+preserve evidence. In Fairley v. BP Exploration & Production, Inc., et al. , Judge Barry
+Ashe was faced with the same spoliation mo tion by a cleanup worker, which he denied
+because, inter alia, the cleanup worker failed  to sustain his burden of demonstrating BP
+had a duty. 103 The cleanup worker in that case argued “the evidence of exposure was
+‘created’ and ‘existed’ when the future B3 plaintiffs were exposed to weathered oil and BP
+failed to ‘preserve’ it by conducting a monitoring program.” 104 Such an argument, the
+Fairley court reasoned, was “absurd[].”105 In substance, the cleanup worker’s spoliation
+claim in Fairley boiled down to an argument that “BP failed to develop evidence that
+might at some future day have aided potential plaintiffs in making claims against BP.”106
+The Fairley court found the evidence the plaintiff argued was “spoliated”—biomonitoring
+and dermal monitoring data—never existed in the first place.
+ The cleanup worker in the case before this Court, Bruton, makes the exact same
+argument for why Defendants had an obligation to preserve evidence. 107 This argument,
+however, fails as a matter of law. “Courts have held . . . ‘the duty to preserve evidence does
+not include the duty to create evidence . . . [because] the duty to preserve evidence implies
+a duty not to alter or destroy existing evidence.”108 In so holding, courts also have drawn
+a distinction between failing to preserve evidence, which constitutes spoliation, and
+failing to collect evidence, which does not. 109 The duty theory advanced by both Plaintiff
+
+103 Fairley v. BP Exploration & Production, Inc., et al. , No. 17-3988, 2022 WL 16731817, *2-4 (E.D. La.
+11/3/2022) (Ashe, J.); see also Bland v. BP Exploration & Production, Inc., et al. , No. 17-3049, 2022 WL
+17155686, *11-12 (E.D. La. 11/22/2022) (Vance, J.) (adopting Judge Ashe’s spoliation analysis).
+104 Fairley, No. 17-3988, 2022 WL 16731817, at *3 (internal quotations omitted).
+105 Id.
+106 Id.
+107 R. Doc. 91.
+108 Fairley, No. 17-3988, 2022 WL 16731817, at *3 (quoting De Los Santos v. Kroger Tex., LP , 2015 WL
+3504878, at *6 n.4 (N.D. Tex. June 3, 2015) (quoting Bertrand v. Fischer, 2011 WL 6254091, at *4 (W.D.
+La. Dec. 14, 2011))).
+109 Id. (quoting United States v. Greco, 734 F.3d 441, 447 (6th Cir. 2013)).
+Case 2:17-cv-03110-SM-MBN   Document 107   Filed 05/25/23   Page 18 of 21
+
+19
+in this case and the plaintiff in Fairley, if adopted, “would cause parties and courts to go
+down the bottomless hole of capturing the next untaken photograph, interviewing the
+next uninterviewed witness, or testing the next untested person, place[,] or thing, with no
+idea of where the proposed duty ends.”110
+ Buttressing this Court’s finding of no d uty is Plaintiff’s failure to point to any
+statute, regulation, case law, or government direction for his contention that Defendants
+had a duty to conduct a monitoring program to  create evidence in order to preserve it. 111
+Instead, like the plaintiff in Fairley, Plaintiff here makes “some noises about BP’s
+knowledge that such monitoring was useful and that it received recommendations for
+certain monitoring programs.”112 However, “[s]uggestions and proposals do not equate to
+an affirmative duty, especially where, as here, the federal government, not BP, was in
+charge of the spill response, and the federa l government decided against conducting or
+requiring monitoring.”113 Accordingly, Plaintiff has not carried his burden of establishing
+the first essential element of his spoliation argument: a duty.
+ Second, Plaintiff has failed to present ev idence establishing Defendants acted in
+bad faith. Other sections of the Eastern Di strict of Louisiana have already found no
+evidence of bad faith in identical B3 cases with the same record before them.114 The Court
+agrees with these analyses. Plaintiff’s bad fait h argument rests in large part on the fact
+that the National Institute of Occupational  Safety and Health (“NIOSH”) proposed a
+
+110 Id. (internal quote omitted)
+111 See generally R .  D o c .  9 1 - 1  ( f a i l i n g  t o  p o i n t  t o  a  s o u r c e  o f  l a w  t h a t  i m p o s e s  a  d u t y  o n  D e f e n d a n t s  t o
+implement a monitoring program).
+112 Fairley, No. 17-3988, 2022 WL 16731817, at *4.
+113 Id.
+114 See, e.g., id.; Bland v. BP Exploration & Production, Inc., et al., No. 17-3049, 2022 WL 17155686, *11-12
+(E.D. La. 11/22/2022) (Vance, J.); Backstrom v. BP Expl. & Prod. Inc., No. 17-3029, 2022 WL 2342390, at
+*4 (E.D. La. 6/29/2022) (Barbier, J.).
+Case 2:17-cv-03110-SM-MBN   Document 107   Filed 05/25/23   Page 19 of 21
+
+20
+monitoring program that never came to fruition. 115 But as courts in this district have
+noted, the uncontroverted evidence esta blishes NIOSH itself decided against
+implementation of the proposed monitoring program. 116 In that light, even considering
+the “scant circumstantial evidence from which [Plaintiff] draws [other] speculative
+conclusions,”117 Plaintiff has failed to present sufficient evidence to demonstrate “BP
+acted with a culpable state of mind to suppress the truth and deprive future parties of this
+data”—a required element for an adverse infe rence like the one Plaintiff seeks in this
+case.118
+ Third, even overlooking Plaintiff’s failure to sustain his burden of proof, Plaintiff’s
+“simpl[e] request that Dr. Cook’s opinions . . . be deemed reliable and admissible under
+Daubert” as a consequence of Defendants’ spoliation is wholly unwarranted.119 Plaintiff’s
+argument that Cook is unable to identify the harmful level of exposure required for
+complained-of symptoms to manifest because Defendants failed to conduct
+biomonitoring and dermal monitoring—and that this means Plaintiff is entitled to escape
+Daubert scrutiny—ignores reality. A general causation opinion is not dependent upon
+data from the incident at issue. This means Cook’s failure to quantify the harmful level of
+exposure is not cured merely because of a claim that an insufficient amount of
+biomonitoring and dermal monitoring data exists from the Deepwater Horizon oil spill.
+Moreover, Cook’s report is unreliable under Daubert for reasons unrelated to the
+biomonitoring and dermal monitoring issue: Cook failed to verify  Bruton’s diagnoses.
+
+115 See, e.g., R. Doc. 91-1 at p. 2.
+116 Backstrom, No. 17-3029, 2022 WL 2342390, at *4.
+117 Bland, No. 17-3049, 2022 WL 17155686, *11; see R. Doc. 91-1 at pp. 22-25.
+118 Backstrom, No. 17-3029, 2022 WL 2342390, at *5.
+119 R. Doc. 91-1 at p. 2.
+
+Case 2:17-cv-03110-SM-MBN   Document 107   Filed 05/25/23   Page 20 of 21
+
+21
+Accordingly, Plaintiff’s spoliation should be denied.
+III. Plaintiff has failed to present a ge nuine issue of material fact with
+respect to his claims that his injuri es were caused by exposure to oil
+and dispersants because Plaintiff lacks general causation expert
+testimony.
+
+ Because Cook’s general causation opinions  are excluded and Plaintiff’s spoliation
+motion is denied, Defendants are entitled to summary judgment on Plaintiff’s claims.120
+Plaintiff has no other medical ex pert to establish general causation, which is required in
+a toxic tort case. 121 Plaintiff has failed to present a genuine issue of material fact with
+respect to his claims that his injuries were caused by exposure to oil and dispersants.
+Accordingly, Defendants’ motion for summary judgment should be granted.
+CONCLUSION
+ IT IS ORDERED that the motion in limine122 is GRANTED.
+ IT IS FURTHER ORDERED that the spoliation motion123 is DENIED.
+ IT IS FURTHER ORDERED  that the motion for summary judgment 124 is
+GRANTED. Judgment is granted in favor of Defendants BP Exploration & Production,
+BP America Production Company, BP p.l.c., Halliburton Energy Services, Inc.,
+Transocean Holdings LLC, Transocean Deep water, Inc., and Transocean Offshore
+Deepwater Drilling, Inc., and against Plaintiff Joseph Bruton on all claims.
+New Orleans, Louisiana, this 25th day of May, 2023.
+________________________________
+SUSIE MORGAN
+UNITED STATES DISTRICT JUDGE
+
+120 Novelozo v. BP Expl. & Prod., Inc., et al., No. 13-1033, 2022 WL 1460103, at *8 (E.D. La. May 9, 2022);
+Murphy, 2022 WL 1460093 *8; Johns, 2022 WL 1811088; Johnson, 2022 WL 1811090; Macon, 2022 WL
+1811135; Murray, 2022 WL 1811138; Street, 2022 WL 1811144.
+121 Seaman, 326 F. App’x at 722; see also Stephens v. BP Expl. & Prod. , No. 17-4294, 2022, WL 1642136 *
+2-3 (E.D. La. June 24, 2022).
+122 R. Doc. 58.
+123 R. Doc. 91.
+124 R. Doc. 59.
+Case 2:17-cv-03110-SM-MBN   Document 107   Filed 05/25/23   Page 21 of 21
