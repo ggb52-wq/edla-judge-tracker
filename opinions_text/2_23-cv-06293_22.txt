@@ -1,0 +1,823 @@
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+TORRIANA CLARK CIVIL ACTION
+
+VERSUS No. 23-6293
+
+LANCE WALLACE ET AL. SECTION I
+
+ORDER & REASONS
+ Before the Court is a motion 1 for summary judgment filed by defendants
+Sergeant Lance Wallace (“Wallace”), Warden Travis Day, and the State of Louisiana
+though the Department of Public Safety and Corrections (collectively, “defendants”).
+Plaintiff Torriana Clark (“Clark”)2 opposes the motion.3 Defendants filed a reply.4 For
+the reasons set forth below, the Court grants the motion for summary judgment  in
+part and denies it in part.
+I.  BACKGROUND
+a.  Procedural History
+Clark is a Louisiana state prisoner presently incarcerated at the Rayburn
+Correctional Center (“RCC”) in Washington Parish, Louisiana .5 Clark initially filed
+the instant lawsuit in state court on September 5, 2023 .6 Clark’s petition asserts a
+federal § 1983 claim and various state -law tort claims  against defendants arising
+
+1 R. Doc. No. 18.
+2 The Court notes that Clark’s first name is spelled “Torriana” on the complaint, but
+“Torriano” on subsequent filings, including certain  exhibits and portions of Clark’s
+opposition.
+3 R. Doc. No. 20.
+4 R. Doc. No. 21.
+5 R. Doc. No. 2-1 (state-court petition), ¶ 3.
+6 See generally id.
+Case 2:23-cv-06293-LMA-JVM   Document 22   Filed 03/08/24   Page 1 of 28
+2
+
+from a July 29, 2021 incident at RCC.7 On October 18, 2023, defendants removed the
+action to this Court, invoking federal question jurisdiction pursuant to 28 U.S.C.
+§ 1331 and supplemental jurisdiction pursuant to 28 U.S.C. § 1367(a).8
+During a telephone status conference held on January 23, 2024, counsel for
+defendants indicated that he believed Clark’s claims were barred pursuant to Heck v.
+Humphrey, 512 U.S. 477 (1994). 9 The Court ordered Clark’s counsel to advise the
+Court whether s he agreed that Clark’s claims were Heck -barred after reviewing
+information related to Clark’s prison disciplinary hearing and consulting with
+Clark.10 Clark subsequently filed a motion for a briefing schedule and a stay during
+adjudication.11 In that motion, Clark requested a briefing schedule on the
+applicability of Heck  and also suggested that any forthcoming motion from
+defendants on relevant qualified immunity issues “should be heard as a preliminary
+matter.”12 The Court held a second telephone conference, this time on the issues
+raised in Clark’s motion. 13 During the conference, the Court granted Clark’s  motion
+to the extent it sought a briefing schedule on the applicability of Heck, but denied the
+motion in all other respects.14
+
+7 Id. ¶¶ 30–38; 4–5.
+8 R. Doc. No. 2, ¶¶ 2–3.
+9 See R. Doc. No. 15.
+10 Id. at 1.
+11 R. Doc. No. 16.
+12 Id. at 1.
+13 R. Doc. No. 17.
+14 Id. at 1. In his response to the motion for summary judgment, Clark objects to “the
+lack of immediate briefing on the issue of qualified immunity[.]” R. Doc. No. 20, at 2.
+Clark also suggests that, on page 9 of defendants’ motion, “[d]efendants agree that
+[Heck] is not jurisdictional and infer [sic] that this Court erred in failing to order
+Case 2:23-cv-06293-LMA-JVM   Document 22   Filed 03/08/24   Page 2 of 28
+3
+
+b.  Clark’s Petition
+Clark’s petition alleges that Clark was “working in the Sleet Yard when he
+began to feel very badly and became weak and reported . . . that he needed to see a
+
+briefing on qualified immunity.” Id. at 1 n.1. The Court finds nothing in defendants’
+memorandum suggesting that defendants believe the Court erred in declining to
+order briefing on qualified immunity at this stage of the litigation. The cases Clark
+relies on to support his position that this Court erred in declining to order immediate
+briefing on qualified immunity are inapposite.  See id.  at 22.  In Ramirez v.
+Guadarrama, the U.S. Court of Appeals for the Fifth Circuit explained the well -
+settled principle that “a denial of qualified immunity is immediately appealable and
+that a defendant’s entitlement to qualified immunity should be determined at the
+earliest possible stage of the litigation.” 3 F.4th 129, 133 (5th Cir. 2021).  However,
+Ramirez does not mandate that qualified immunity issues be considered before Heck
+issues; indeed, it does not even mention Heck. See generally id.  In Armstrong v.
+Ashley, the Fifth Circuit again explained that “[a] decision on qualified immunity can
+be an appealable final decision .” 918 F.3d 419, 422 (5th Cir. 2019). However, the
+Armstrong court ultimately dismissed the appeal for lack of appellate jurisdiction
+because the district court’s denial of defendants’ Rule 12(b)(6) motion to dismiss based
+on qualified immunity was made on procedural grounds rather than legal grounds
+and “nothing in the district court’s order bar[red] [the defendants] from asserting
+qualified immunity by appropriate, timel y procedural vehicle in the future.” Id. at
+423. In the instant case, as in Armstrong, nothing in the record prevents defendants
+from asserting qualified immunity by an appropriate, timely procedural vehicle in
+the future. In Autin v. Goings, the Fifth Circuit explained that the district court had
+declined to rule on qualified immunity when it was obligated to do so because the
+district court had denied a motion for summary judgment based on Heck and refused
+to consider qualified immunity as an alternative bar. No. 21 -30678, 2023 WL
+3004142, at *2 (5th Cir. Apr. 19, 2023). The Fifth Circuit  held that the district court
+had abused its discretion by holding that Autin’s claims were not Heck -barred, but
+stated: “because Heck plainly requires dismissal of Autin’s claims, we need not reach
+the question of qualified immunity.” Id. at *4. This case actually supports the Court’s
+view that, if it finds Clark’s claims to be Heck-barred, it need not reach the issue of
+qualified immunity. See also, e.g., Connors v. Graves, 538 F.3d 373, 378 (5th Cir. 2008)
+(affirming district court’s dismissal, which was based on qualified immunity, but
+determining that Heck barred the complaint such that the court did not need to
+address the issue of qualified immunity); McNeal v. LeBlanc, 90 F.4th 425, 430 –31
+(5th Cir. 2024) (addressing Heck before qualified immunity).
+Case 2:23-cv-06293-LMA-JVM   Document 22   Filed 03/08/24   Page 3 of 28
+4
+
+doctor.”15 An officer told Clark to wait until the officer was “freed up [from] his
+duties.”16 Clark tried to eat and drink “but felt even worse as though he was unsteady
+on his feet. He tried to approach his bunk to lie down and he developed a sever[e]
+headache.”17 Later, when an officer was making rounds, Clark “got out of his bed to
+seek help, but fell due to weakness, nausea, and dizziness.” 18 He again informed the
+officer that he needed to see a doctor.19
+According to the petition, Clark then “tried to sit down on a bed and [the]
+[o]fficer grabbed him and forced him against the wall.” 20 Clark was handcuffed, and
+he “tried to explain that he was sick, weak[,] and could not walk.” 21 Other officers
+then arrived to assist with escorting Clark out of the dormitory.22 One of those officers
+allegedly “threw him on a bed.” 23 “At that point, [  ] Wallace [ ] started twisting his
+ankle. [ ] Wallace began choking [Clark] who was in full restraints, had an injured
+ankle[,] and who was unable to defend himself.” 24 Clark claims that he “blacked out
+
+15 R. Doc. No. 2-1, ¶ 8. The Court notes that Clark’s Administrative Remedy Procedure
+claim states that, while outside, Clark picked up what he thought was a cigarette and
+“smoked the rest of it.” R. Doc. No. 18 -4, at 14. Clark asserts that this was not the
+same cigarette he had been smoking earlier, and he began to feel lightheaded soon
+after smoking it. Id.
+16 R. Doc. No. 2-1, ¶ 8.
+17 Id. ¶ 9.
+18 Id. ¶ 10.
+19 Id.
+20 Id. ¶ 11.
+21 Id.
+22 Id. ¶ 12.
+23 Id.
+24 Id.
+Case 2:23-cv-06293-LMA-JVM   Document 22   Filed 03/08/24   Page 4 of 28
+5
+
+briefly due to being choked” and was dragged out of the dormitory.25 Wallace allegedly
+pushed him, saying, “Walk faster, before I make you walk!”26
+The petition asserts that, because Clark was having difficulty walking due to
+his illness and ankle pain, Wallace forced him to the ground.27 When Clark regained
+consciousness, “there was blood on the ground and he could feel blood running down
+his face, which felt numb[.]”28 Clark was “not able to breathe from his nose.”29 Clark
+then “started crying and [  ] asking why,” but Wallace grabbed his arm and began
+jerking him up while using profanity to instruct Clark to “walk” before Wallace “[did]
+it again[.]”30 Clark was taken to the hospital that day .31 H e received four to five
+stitches in his forehead and it was determined that his ankle and nose were injured.32
+The petition alleges that, although Wallace “has a history of using excessive
+force on RCC inmates with multiple complaints being filed on him[,] nothing has been
+done to discipline him” because “he is protected and not held responsible for his
+actions due to family connections.” 33 The petition further alleges that “rampant
+nepotism and cronyism at RCC prevent any real order and discipline of the officers”
+and that the warden and Department of Corrections are “well aware” of this. 34 The
+
+25 Id. ¶ 13.
+26 Id.
+27 Id. ¶¶ 14–15.
+28 Id. ¶ 15.
+29 Id.
+30 Id. ¶ 16.
+31 Id. ¶ 18.
+32 Id. ¶ 20.
+33 Id. ¶¶ 17, 26.
+34 Id. ¶ 19.
+Case 2:23-cv-06293-LMA-JVM   Document 22   Filed 03/08/24   Page 5 of 28
+6
+
+petition also asserts that “Medical frequently fails to document and/or treat injuries
+to inmates caused by guards[.]”35 Additionally, according to the petition, the warden,
+Travis Day, “was negligent in his supervision and training of [ ] Wallace and the other
+correctional officers and instilled and allowed an atmosphere of violence between
+guards and inmates[,]” including by ignoring reports of assaults.36
+Based on these allegations, Clark asserts a § 1983 claim and several state-law
+tort claims against defenda nts, including battery, negligence, and intentional
+infliction of emotional distress.37
+c.  Clark’s Disciplinary Hearing and Defendants’ Versions of the July
+29, 2021 Incident
+
+Three disciplinary reports arose from this incident.38 The first is a disciplinary
+report signed by Wallace. 39 Wallace describes the July 29, 2021 incident from his
+perspective, including his use of force.40 Wallace asserts that he responded to a beeper
+activation and observed Clark “being combative [and] refusing to be restrained.” 41
+According to Wallace, he “began giving multiple orders to stop resisting.”42 Clark was
+then “directed to a [nearby] bed due to his resistance and combative behavior.” 43 At
+
+35 Id. ¶ 22.
+36 Id. ¶ 24.
+37 Id. ¶¶ 30–37.
+38 The Court notes that it may consider the disciplinary reports because they were
+submitted “to demonstrate that the disciplinary board found [Clark] guilty of various
+offenses, not to prove the truth of the matter, that is, that he actually had committed
+the offenses.” Santos v. White, 18 F.4th 472, 477 (5th Cir. 2021).
+39 R. Doc. No. 18-3, at 2–4.
+40 Id. at 2.
+41 Id.
+42 Id.
+43 Id.
+Case 2:23-cv-06293-LMA-JVM   Document 22   Filed 03/08/24   Page 6 of 28
+7
+
+this point, Wallace states that he “placed [his] right hand on [Clark’s] right shoulder
+applying downward pressure while giving multiple orders to stop resisting.” 44 While
+applying this downward pressure, Wallace “observed [Clark] start kicking his legs.”45
+“[T]o prevent [Clark] from harming himself and assaulting staff, [Wall ace
+states that he] stopped applying downward pressure to [Clark’s] right shoulder and
+redirected [his] positioning to [Clark’s] legs while giving multiple orders to stop
+resisting and kicking which [Clark] refused.”46 Because Clark was “continuing to
+kick,” Wallace “took control of his right ankle[,] applying an ankle lock while giving
+orders to stop kicking and resisting.” 47 Wallace asserts that Clark then “reluctantly
+began to comply with orders to stop resisting” and that “pressure was released on [  ]
+Clark’s ankle.”48
+According to th e report, “Act/Major” Darren Ball (“Ball”) advised the officers
+that Clark should be escorted out of the dormitory.49 Wallace “then released [ ] Clark’s
+ankle” and “Clark was then assisted to his feet.”50 Once Clark was helped to his feet,
+“he began jumping up and down while twisting his body being combative.”51 Wallace
+asserts that Clark “was given multiple orders to stop resisting[,]” but he refused. 52
+Wallace states that he “took control of [  ] Clark’s upper torso[,] directing him to a
+
+44 Id.
+45 Id.
+46 Id.
+47 Id.
+48 Id.
+49 Id.
+50 Id.
+51 Id.
+52 Id.
+Case 2:23-cv-06293-LMA-JVM   Document 22   Filed 03/08/24   Page 7 of 28
+8
+
+nearby bed” and that “Clark was then directed to the floor.” 53 “Once on the floor, [  ]
+Clark continued his combative behavior and resistance.” 54 According to Wallace, he
+“took control of [  ] Clark’s upper torso applying downward pressure while giving
+multiple orders to stop resisting.” 55 “Moments later, [  ] Clark reluctantly began to
+comply with orders to stop resisting” and “was assisted to his feet.”56
+The report states that Wallace and Ball placed Clark in “an off -balance escort
+position to escort him out of the dormitory while giving multiple orders to walk to no
+avail.”57 Upon entering the television room, Wallace asserts that “Clark was assisted
+to the floor to reestablish the escort position.” 58 Clark stated that he would walk. 59
+“Clark was then assisted to his feet and hands on escorted out of the dormitory. Once
+out of the dormitory, [ ] Clark stopped walking and began hollering, ‘Time for [y’all]
+to feel my pain I go through[.]’”60 According to Wallace, Clark was ordered to walk “to
+no avail.”61 Ball and Wallace then “directed Clark to the ground while giving multiple
+orders to stop resisting.” 62 “Once on the floor, [  ] Clark reluctantly began to comply
+with orders” and “stated that he would walk.”63 Wallace states that “Clark was then
+
+53 Id.
+54 Id.
+55 Id.
+56 Id.
+57 Id.
+58 Id.
+59 Id.
+60 Id.
+61 Id.
+62 Id.
+63 Id.
+Case 2:23-cv-06293-LMA-JVM   Document 22   Filed 03/08/24   Page 8 of 28
+9
+
+assisted to his feet and hands on escorted to the infirmary [without] any further
+incident. All use of force ceased.”64
+This first disciplinary report does not clearly indicate whether Clark pleaded
+guilty to the violations of Rule 3  (defiance) and Rule 5 (aggravated disobedience)
+described in the report or whether he was found guilty. 65 However, the disciplinary
+board sentenced Clark to a 30 -day disciplinary transfer for the Rule 3 violation and
+a 60-day disciplinary transfer for the Rule 5 violation.66
+The second disciplinary report is signed by Lieutenant  Brian Nichols
+(“Nichols”).67 Like Wallace, Nichols describes the July 29, 2021 incident from his
+perspective.68 Specifically, Nichols asserts that he responded to a beeper activation
+and observed Clark being combative with Cadet Christopher Kimball (“Kimball”).69
+Nichols states that he gave “loud, direct orders to stop resisting . . . to no avail.”70 He
+then applied handcuffs to Clark and “attempted to escort [him] out of the dorm when
+he continued to resist by [tensing] up his upper torso.”71 Nichols directed Clark to the
+bed and “continued to give orders to stop resisting.”72 “Shortly afterwards[,] [ ] Clark
+began to comply with orders and [Nichols] released [  ] Clark’s upper torso. At this
+
+64 Id.
+65 Id. (showing that numbers 18 —“plea by offender” —and 19—“rule/verdict”—were
+left blank).
+66 Id. at 3.
+67 Id. at 5–6.
+68 Id. at 5.
+69 Id.
+70 Id.
+71 Id.
+72 Id.
+Case 2:23-cv-06293-LMA-JVM   Document 22   Filed 03/08/24   Page 9 of 28
+10
+
+point, all use of force ceased.”73 This disciplinary report indicates that Clark pleaded
+guilty to violations of Rule 3 (defiance) and Rule 5 (aggravated disobedi ence).74
+Clark’s sentence was a loss of 60 days of good time credit for each violation. 75 The
+disciplinary board also imposed $24.00 in restitution for exams following the use of
+force.76
+The third disciplinary report is signed by Ball and it indicates tha t Clark
+pleaded guilty to a violation of Rule 14 (intoxication) .77 The parties appear to agree
+that this disciplinary report is not relevant to the Heck analysis that follows.78
+d. Video Recordings of the July 29, 2021 Incident
+Defendants submitted three v ideo recordings in support of their motion for
+summary judgment. 79 The first video is from a camera in  the prison dormitory. 80
+Kimball enters the room and stops to talk to Clark, the man sitting next to him, or
+possibly both of them.81 Kimball then leaves the men and continues walking through
+the dormitory. 82 As Kimball approaches the camera, Clark stands up, raises his
+
+73 Id.
+74 Id.
+75 Id.
+76 Id.
+77 Id. at 7–8.
+78 See R. Doc. No. 20, at 4 (stating that the disciplinary report for intoxication “has no
+relevance”); see generally  R. Doc. No. 18 -2 (arguing that Clark’s claims are Heck -
+barred based on the Nichols report for which Clark lost good- time credit, not based
+on the report concerning Clark’s intoxication).
+79 See R. Doc. No. 18 -5 (notice of manual attachment); R. Doc. No. 19 (notice that
+manual attachment is located in the Clerk’s Office).
+80 See generally Manual Attachment No. 1.
+81 Id. at 0:08–0:32.
+82 Id. at 0:32–1:01.
+Case 2:23-cv-06293-LMA-JVM   Document 22   Filed 03/08/24   Page 10 of 28
+11
+
+hands to his head,  and walks over to ward Kimball while jumping up and down. 83
+Clark falls to the ground and then stands up again. 84 He walks closer to Kimball ,
+moving his arms.85 When he arrives at the walkway between the rows of beds where
+Kimball is standing, he approaches Kimball, then takes a step back, places his hands
+behind his back , and speaks to Kimball. 86 Clark takes a few steps toward Kimball,
+places his back against a bunk bed, and begins jumping up and down again.87
+Kimball reaches for Clark’s left arm, but Clark pulls away and falls against
+another bunk bed.88 At this point, Kimball physically guides Clark between two bunk
+beds and toward the wall. 89 Clark appears to be resisting  and pulling away from
+Kimball.90 Another man who had been sitting on one of the adjacent bunk beds stands
+up and moves away. 91 A second officer enters the room. 92 She rushes over to Clark
+and Kimball and helps Kimball push Clark against the wall.93 A third officer, Nichols,
+enters and moves quickly  toward the two guards and Clark. 94 The three officers
+
+83 Id. at 1:00–1:07.
+84 Id. at 1:07–1:15.
+85 Id. at 1:15–1:20.
+86 Id. at 1:20–1:30.
+87 Id. at 1:30–1:36.
+88 Id. at 1:36–1:42.
+89 Id. at 1:42–2:07.
+90 Id.
+91 Id. at 1:48–1:52.
+92 Id. at 2:07.
+93 Id. at 2:07–2:14.
+94 Id. at 2:13–2:21.
+Case 2:23-cv-06293-LMA-JVM   Document 22   Filed 03/08/24   Page 11 of 28
+12
+
+attempt to handcuff Clark, and there appears to be a struggle. 95 A fourth and fifth
+officer arrive.96 The fifth officer, Wallace, helps the other officers handcuff Clark.97
+Once Clark is handcuffed, the officers move him away from the space between
+the two bunk beds and force him onto a different bed. 98 Nichols appears to place his
+knee on Clark’s back.99 Wallace is standing on the other side of the bed, near Clark’s
+head.100 Clark kicks his legs. 101 Wallace walks around the bed to position himself
+closer to Clark’s feet. 102 Wallace grabs Clark’s foot  and lifts it up .103 The man
+previously lying on the adjacent bed stands up and moves away.104 Nichols still seems
+to be kneeling on Clark’s back, and another officer standing to the left of Nichols and
+Wallace is pressing down on Clark.105
+Wallace twists Clark’s leg and presses it down toward the ground. 106 Wallace
+then sits on the adjacent bed, still holding one of Clark’s legs.107 The video also shows
+Kimball holding Clark’s other foot. 108 Another officer enters and appears to say
+
+95 Id. at 2:21–2:38.
+96 Id. at 2:24–2:42.
+97 Id. at 2:40–2:52.
+98 Id. at 2:50–2:57.
+99 Id. at 2:59–3:58.
+100 Id.
+101 Id. at 2:57–3:10.
+102 Id. at 3:10–3:14.
+103 Id. at 3:12–3:16.
+104 Id. at 3:13–3:26.
+105 Id. at 3:12–3:23.
+106 Id. at 3:13–3:34.
+107 Id. at 3:34–3:47.
+108 Id. at 3:25–4:05.
+Case 2:23-cv-06293-LMA-JVM   Document 22   Filed 03/08/24   Page 12 of 28
+13
+
+something to the group .109 The video shows Wallace leaning forward. 110 Since his
+back is to the camera, it is not entirely clear what he is doing when he leans forward,
+but he may be applying additional pressure to Clark’s leg. 111 The guard who most
+recently entered walks around the bed toward Clark’s head. 112 Shortly after this
+guard arrives, Nichols stops applying pressure and stands. 113 A few seconds later,
+Wallace drops Clark’s leg and Wallace stands.114 Several officers help Clark stand.115
+As soon as he is standing, Clark jumps, which seems to cause him and several officers
+to fall backward onto the adjacent bed.116 When they fall onto the bed, the video shows
+Wallace’s arm around Clark’s neck, with Clark on top of Wallace kicking his legs.117
+The other officers rush toward the bed and pull Clark off the bed and onto the floor.118
+A group of officers huddles around Clark, with some officers kneeling and others
+standing.119 Wallace appears to be on top of Clark  and near his head applying
+pressure.120 Two other officers arrive with leg shackles. 121 Once the leg shackles are
+
+109 Id. at 3:40–3:49.
+110 Id. at 3:38–4:03.
+111 See id.
+112 Id. at 3:45–3:57.
+113 Id. at 3:58.
+114 Id. at 4:01–4:03.
+115 Id. at 4:03–4:05.
+116 Id. at 4:04–4:09.
+117 Id. at 4:06–4:10.
+118 Id. at 4:07–4:21.
+119 Id. at 4:21–5:07.
+120 Id. at 4:18–5:05.
+121 Id. at 5:06–5:13.
+Case 2:23-cv-06293-LMA-JVM   Document 22   Filed 03/08/24   Page 13 of 28
+14
+
+applied, the officers again attempt to bring Clark to his feet.122 The officers pull Clark
+out of the dormitory with his feet dragging on the ground.123
+The second video shows the television room outside the dormitory area.124 The
+officers and Clark enter the room and stop near the entrance.125 The officers are still
+dragging Clark.126 The officers then appear to place Clark on the floor and reposition
+themselves.127 Several of the men sitting in the television room stand and watch. 128
+The officers and Clark then walk across the room toward the exit, with Clark walking
+rather than being dragged by the officers.129
+The third video shows officers escorting Clark to the infirmary.130 Clark is still
+walking in this video.131
+II. STANDARD OF LAW
+Summary judgment is proper when, after reviewing the materials in the
+record, a court determines that t here is no genuine dispute of material fact and the
+movant is entitled to judgment as a matter of law. Fed. R. Civ. P. 56(a). “[A] party
+seeking summary judgment always bears the initial responsibility of informing the
+district court of the basis for its motion, and identifying those portions of [the record]
+
+122 Id. at 5:13–6:26.
+123 Id. at 6:26–6:40.
+124 See generally Manual Attachment No. 2.
+125 Id. at 0:43–1:02.
+126 Id. at 0:43–0:47.
+127 Id. at 0:47–1:02.
+128 Id. at 0:57.
+129 Id. at 1:02–1:18.
+130 Manual Attachment No. 3, at 0:21–0:36.
+131 Id.
+Case 2:23-cv-06293-LMA-JVM   Document 22   Filed 03/08/24   Page 14 of 28
+15
+
+which it believes demonstrate the absence of a genuine issue of material fact.” Celotex
+Corp. v. Catrett, 477 U.S. 317, 323 (1986). The party seeking summary judgment need
+not produce evidence negating the existence of a material fact; it need only point out
+the absence of evidence supporting the other party’s case. Id. ; see also Fontenot v.
+Upjohn Co., 780 F.2d 1190, 1195–96 (5th Cir. 1986) (“There is no sound reason why
+conclusory allegations should su ffice to require a trial when there is no evidence to
+support them even if the movant lacks contrary evidence.”).
+Once the party seeking summary judgment carries that burden, the
+nonmoving party must come forward with specific facts showing that there is a
+genuine dispute of material fact for trial. Matsushita Elec. Indus. v. Zenith Radio
+Corp., 475 U.S. 574, 587 (1986). The showing of a genuine issue is not satisfied by
+creating “‘some metaphysical doubt as to the material facts,’ by ‘conclusory
+allegations,’ by ‘unsubstantiated assertions,’ or by only a ‘scintilla’ of evidence.” Little
+v. Liquid Air Corp., 37 F.3d 1069, 1075 (5th Cir. 1994) (citations omitted). Rather, a
+genuine issue of material fact exists when the “evidence is such that a reasonable
+jury could return a verdict for the nonmoving party.” Anderson v. Liberty Lobby, Inc.,
+477 U.S. 242, 248 (1986).
+If the movant’s story is “blatantly contradicted by the record” —including a
+videotape—such that “no reasonable jury could believe it,” the court should “view[]
+the facts in the light depicted by the videotape.” Scott v. Harris, 550 U.S. 372, 380 –
+81 (2007). If the nonmovant fails to meet its burden of showing a genuine issue for
+Case 2:23-cv-06293-LMA-JVM   Document 22   Filed 03/08/24   Page 15 of 28
+16
+
+trial that could support a judgment in favor of the nonmovant, summary  judgment
+must be granted. See Little, 37 F.3d at 1075–76.
+The party responding to the motion for summary judgment may not rest upon
+the pleadings but must identify specific facts that establish a genuine issue.
+Anderson, 477 U.S. at 248. The nonmoving party’s evidence, however, “is to be
+believed, and all justifiable inferences are to be drawn in [the nonmoving party’s]
+favor.” Id. at 255.
+III. ANALYSIS
+As noted, defendants argue that they are entitled to summary judgment
+because Clark’s federal § 1983 claim and his state-law claims are Heck-barred. Clark
+disagrees. For the reasons that follow, the Court concludes that Clark’s § 1983 claim
+is Heck-barred. The Court also declines to exercise supplemental jurisdiction over
+Clark’s state-law claims.
+a.  The Heck Standard
+In Heck, a state prisoner convicted of voluntary manslaughter filed a federal
+civil lawsuit against prosecutors and a police investigator pursuant to 42 U.S.C.
+§ 1983. 512 U.S. at 478–79. The complaint alleged that the defendants had engaged
+in an unlawful, unreaso nable, and arbitrary investigation leading to the plaintiff’s
+arrest, knowingly destroyed exculpatory evidence, and caused an illegal voice
+identification procedure to be used at the plaintiff’s trial. Id. at 479. Citing the
+“principle that civil tort acti ons are not appropriate vehicles for challenging the
+validity of outstanding criminal judgments[,]” the U.S. Supreme Court held that,
+Case 2:23-cv-06293-LMA-JVM   Document 22   Filed 03/08/24   Page 16 of 28
+17
+
+in order to recover damages for allegedly unconstitutional conviction or
+imprisonment, or for other harm caused by actions whose unlawfulness
+would render a conviction or sentence invalid, a § 1983 plaintiff must
+prove that the conviction or sentence has been reversed on direct appeal,
+expunged by executive order, declared invalid by a state tribunal
+authorized to make such determination, or called into question by a
+federal court's issuance of a writ of habeas corpus, 28 U.S.C. § 2254.
+
+Id. at 486–87.
+The Supreme Court further explained that “ when a state prisoner seeks
+damages in a §  1983 suit, the district court must con sider whether a judgment in
+favor of the plaintiff would necessarily imply the invalidity of his conviction or
+sentence[.]” Id. at 487. If so, “ the complaint must be dismissed unless the plaintiff
+can demonstrate that the conviction or sentence has already  been invalidated.” Id.
+Heck also prohibits § 1983 lawsuits if success on the § 1983 claim would necessarily
+imply that a prior disciplinary proceeding resulting  in a change to the prisoner’s
+sentence—including the loss of good time credit s—is invalid. Aucoin v. Cupil , 958
+F.3d 379, 382 (5th Cir. 2020).
+The Heck doctrine is motivated by the principle that  courts “do not allow the
+use of  § 1983 to collaterally attack a prior criminal  proceeding [or disciplinary
+proceeding resulting in the lo ss of good time credits] , out of concern for finality and
+consistency.” Id. at 380–81. Specifically, “courts are wary of duplicative litigation and
+the potential for conflicting judgments.” Id.  at 382. “[I]f an individual objects to the
+results of a prior proceeding, the proper avenue for relief is an authorized appeal in
+that proceeding—not an end-run through § 1983.” Id.
+Accordingly, a prisoner “cannot bring a § 1983 claim for excessive use of force
+by a prison guard,  if the inmate has already been found guilty for misconduct that
+Case 2:23-cv-06293-LMA-JVM   Document 22   Filed 03/08/24   Page 17 of 28
+18
+
+justified that use of force.” Aucoin, 958 F.3d at 381. “But Heck  does not bar a § 1983
+claim for a prison guard’ s excessive use of force after the inmate has submitted and
+ceased engaging in the alleged misconduct.” Id. (emphasis in original).
+Determining “whether an individual claim is barred by Heck  is . . . ‘analytical
+and fact-intensive.’” Gray v. White, 18 F.4th 463, 468 (5th Cir. 2021) (quoting Bush v.
+Strain, 513 F.3d 492, 497 (5th Cir. 2008)). “A court may bar only those claims whose
+success ‘require[] negation of an element of the criminal offense or proof of a fact that
+is inherently inconsistent with one underlying the criminal conviction.’” Id.  (quoting
+Bush, 513 F.3d at 497). One hallmark of a non- Heck-barred claim is “if the factual
+basis for the conviction is temporally and conceptually distinct” from the civil claim .
+Bush, 513 F.3d at 498.
+But the Heck bar extends further: even where the plaintiff’s “ factual
+allegations supporting the claim are necessarily inconsistent with the validity of the
+conviction,” Heck still bars the claim.  Aucoin, 958 F.3d at 383 (citing Bush, 513 F.3d
+at 497; DeLeon v. City of Corpus Christi, 488 F.3d 649, 656–57 (5th Cir. 2007)).  That
+is true regardless of a civil claim’s “theoretical compatibility” with the conviction.
+Daigre v. City of Waveland, 549 F. App’x 283, 286 (5th Cir. 2013) (quoting Bush, 513
+F.3d at 498 n.14); see also Thomas v. Pohlmann, 681 F. App’x 401, 407 (5th Cir. 2017)
+(citing with approval Daigre and DeLeon).
+To lift a Heck bar, the plaintiff bears the burden of proving that the proceedings
+terminated in his favor. See Hoog-Watson v. Guadalupe Cnty., 591 F.3d 431, 435 (5th
+Cir. 2009). Absent such a showing, a Heck -barred claim should be “dismissed with
+Case 2:23-cv-06293-LMA-JVM   Document 22   Filed 03/08/24   Page 18 of 28
+19
+
+prejudice to [its] being asserted again until the Heck conditions are met.” DeLeon, 488
+F.3d at 657 (quoting Johnson v. McElveen, 101 F.3d 423, 424 (5th Cir. 1996)).
+b.  Federal Claims
+Defendants argue that Clark’s § 1983 claim is Heck-barred because that claim
+requires Clark to assert facts contrary to those underlying his convictions for the Rule
+5 and Rule 14 violations.132 Defendants note that Clark’s claim “is not that the officers
+used excessive force after he stopped resisting or to stop his resistance; instead his
+claim is based on assertions that he was ill and was only trying to seek help from the
+officer on duty, while several other officers, in cluding [ ] Wallace, suddenly  began
+using excessive force without provocation.” 133 Defendants further contend that the
+Nichols report “squarely supports [Clark’s] conviction[s] [for defiance and aggravated
+disobedience] in that [Clark] disobeyed direct orders and offered resistance to officers
+attempting to gain compliance.” 134 Additionally, defendants argue that “the video
+footage plainly shows that [Clark’s] claims arise out of one continuous incident. There
+are no allegations in [Clark’s] civil claim that are temporally and/or conceptually
+distinct from the factual basis upon which his convictions were based.”135
+Clark responds that the Nichols report and Wallace reports must be considered
+separately.136 Since Clark only lost good time credit for the conduct described in the
+Nichols report, he asserts that Heck  does not apply to conduct not covered by that
+
+132 R. Doc. No. 18-2, at 10–15.
+133 Id. at 10.
+134 Id. at 12.
+135 Id.
+136 R. Doc. No. 20, at 2.
+Case 2:23-cv-06293-LMA-JVM   Document 22   Filed 03/08/24   Page 19 of 28
+20
+
+report, conduct that occurred after the conduct for which Clark lost good time, and
+conduct that occurred while Clark was no longer resisting.137 According to Clark, the
+Nichols report ends when Nichols released Clark and Clark was no longer
+resisting.138 Clark therefore argues that “the conduct for which Clark lost good time
+is limited to the struggle at the wall during hand-cuffing, a short struggle on the bed”
+because “there are no disciplinary charges by Nichols for any conduct that took place
+after Nichols released Clark, which is clearly visible on the video, or conduct by
+Wallace in nearly breaking Clark’s leg.”139
+Clark correctly asserts that the fact that these two reports are “intertwined” is
+insufficient to support a holding that conduct not described by the Nichols report is
+Heck-barred.140 See Gray, 18 F.4th at 468 (explaining that the Heck  inquiry is not
+simply whether claims of excessive force are “intertwined” with the findings of the
+disciplinary board revoking his good time credits, but rather whether the plaintiff’s
+claims are “strictly incompatible with the findings of the disciplinary board” that
+resulted in the loss of good time credits); Santos, 18 F.4th at 476–77 (“It is not
+sufficient to deem [the plaintiff’s] claims to be ‘intertwined’ with his loss of good-time
+credits. Rather, in applying Heck , a court must bar only those claims that are
+‘necessarily at odds with’ the disciplinary rulings, and only with those rulings that
+resulted in the loss of good time credits.”).
+
+137 Id.
+138 Id. at 6.
+139 Id.
+140 Id. at 2–3.
+Case 2:23-cv-06293-LMA-JVM   Document 22   Filed 03/08/24   Page 20 of 28
+21
+
+Additionally, as explained, “there is no Heck bar if the alleged violation occurs
+‘after’ the cessation of the plaintiff’s misconduct that gave rise to his prior conviction.”
+Aucoin, 958 F.3d at 382. The Nichols report states that “all use of force ceased” when
+Clark began to comply with the officers’ instructions and Nichols released Clark’s
+upper torso.141 Accordingly, Clark argues that his allegations regarding Wallace’s use
+of force through a chokehold and pushing him to the ground are not strictly
+inconsistent with the Nichols report for which Clark lost good time credit.142
+However, as defendants point out,143 they are not arguing that Clark’s claims
+are “intertwined” with his loss of good time credits. As explained, defendants note
+that Clark’s claim “is not that the officers used excessive force after he stopped
+resisting or to stop his resistance; instead his claim is based on assertions that he
+was ill and only trying to seek help from the officer on duty when several other
+officers, including [  ] Wallace, suddenly began using excessive force without
+provocation.”144 Indeed, Clark’s petition alleges that he “began to feel very badly” and
+that he was only asking an officer to see a doctor when that officer “grabbed him and
+forced him against the wall.”145 Clark also alleges that other officers arrived to assist
+in escorting Clark out of the dormitory, that one of those officers “threw him on a bed”
+and that Wallace twisted his ankle, choked him, pushed him, forced him to the ground
+
+141 R. Doc. No. 18-3, at 5.
+142 R. Doc. No. 20, at 4–8.
+143 R. Doc. No. 21, at 4–5.
+144 R. Doc. No. 18-2, at 10.
+145 R. Doc. No. 2-1, ¶¶ 8–11.
+Case 2:23-cv-06293-LMA-JVM   Document 22   Filed 03/08/24   Page 21 of 28
+22
+
+because Clark was having difficulty walking due to his illness and pain, and grabbed
+his arm to jerk him up while using profanity.146
+These allegations are inconsistent with the Nichols report, which states that
+Clark was being combative with Kimball, disregarded “loud, direct orders to  stop
+resisting[,]” and continued to resist after he was handcuffed .147 This prompted
+Nichols to direct Clark to the bed while giving additional orders to stop resisting. 148
+The Nichols report also states: “Shortly afterwards, [] Clark began to comply with
+orders and [Nichols] released [] Clark’s upper torso. At this point, all use of force
+ceased. All [o]fficers were examined by [a nurse] with no injuries to note.”149
+As noted, the Nichols report indicates that Clark pleaded guilty to violations
+of Rule 3 (defiance) and Rule 5 (aggravated disobedience), for which he lost good time
+credit.150 Defiance is “obstruct[ing], resist[ing], distract[ing], or attempt[ing] to elude
+staff in the performance of their duties.”151 Aggravated disobedience is failing to “obey
+direct verbal orders cooperatively and promptly ” and “debat[ing], argu[ing] or
+ignor[ing] orders before obeying.”152
+Like the plaintiff in Aucoin, Clark “has insisted . . . that he is wholly blameless
+for the use of force against him.” Aucoin , 958 F.3d at 383. “If the factual account of
+[Clark’s] complaint is taken as true, then he cannot be guilty of defiance [or]
+
+146 Id. ¶¶ 12–16.
+147 R. Doc. No. 18-3, at 5.
+148 Id.
+149 Id.
+150 Id.
+151 R. Doc. No. 18-6, at 22.
+152 Id.
+Case 2:23-cv-06293-LMA-JVM   Document 22   Filed 03/08/24   Page 22 of 28
+23
+
+aggravated disobedience.” Id.  “[W]hen a plaintiff’s claim ‘is  based solely on his
+assertions that he . . . did nothing wrong, and was attacked by the [ ] officers for no
+reason,’ that suit ‘squarely challenges the factual determination that underlies his
+conviction’ and is necessarily at odds with the conviction.” I d. (quoting Walker v.
+Munsell, 281 F. App’x 388, 390 (5th Cir. 2008) (per curiam)) ; see also McIntosh v.
+Goings, No. 21-1719, 2022 WL 1091278, at *6–8 (E.D. La. Apr. 12, 2022) (Africk, J.) ,
+(granting motion for summary judgment pursuant to Heck  where the plaintiff’s
+complaint turned on a single narrative inconsistent with the disciplinary board’s
+determination that he was attacked without provocation).
+The Fifth Circuit has previously explained that, where an excessive force claim
+“is presented as a single violent encounter throughout which [ a defendant ] used
+excessive force” and where the plaintiff asserts that he is innocent, contradicting an
+element of his previous conviction, the plaintiff’s excessive force claim is Heck-barred.
+DeLeon, 488 F.3d at  656–657. This is so even if the plaintiff argues that “his
+conviction would not be invalidated by his proving that excessive force was used well
+after the need for it had ceased.” Id. As discussed, Clark’s excessive force claim is
+presented as a single violent encounter throughout which Wallace used excessive
+force. See id.153 The video supports the assertion that the incident was a single violent
+
+153 Clark’s claim is therefore distinguishable from Bourne v. Gunnels  and Gray v.
+White. Bourne involved a prisoner who had jammed the food-tray slot in his cell with
+a sheet and towels  and refused to clea r it, requiring prison staff to use a chemical
+agent to regain control of the door. 921 F.3d 484, 487– 88 (5th Cir. 2019). In his civil
+case, t he prisoner alleged that, once the officers entered his cell and he was
+handcuffed and shackled on his cell’s floor, certain officers used excessive force by
+physically and sexually assaulting him. Id.  at 488. The prisoner was convicted of
+Case 2:23-cv-06293-LMA-JVM   Document 22   Filed 03/08/24   Page 23 of 28
+24
+
+encounter that occurred within the span of a few mi nutes. And t he assertions in
+Clark’s petition —that he was simply  ill and seeking medical assistance  when the
+officers began using force against him —belie his guilty pleas for defiance and
+aggravated disobedience. See i d. Those guilty pleas required him to accept
+responsibility for resisting staff in the performance of their duties and for failing to
+
+tampering with his cell door and creating a disturbance in connection with the use of
+force, resulting in a forfeiture of thirty days’ good -time credit. Id.  at 491. The Fifth
+Circuit held that the basis of the prisoner’s § 1983 excessive force claims was distinct
+from the basis of his disciplinary conviction because it was separate from his jamming
+the food-tray slot and requiring the use of force by prison officials. Id.  Specifically,
+“[a] finding of excessive force [after the officers had successfully entered the prisoner’s
+cell and the prisoner was handcuffed and on the ground] would not negate the prison’s
+finding that the prisoner violated its policies [by jamming the food-tray slot] and was
+subject to disciplinary action as a result.” Id. By contrast, Clark’s petition asserts that
+he was simply sick and seeking medical care when officers used force against him. As
+explained, that assertion is inconsistent with the guilty pleas for defiance and
+aggravated disobedience. In Gray, a prisoner alleged that certain officers attacked
+him in his cell, then took him to a shower and sprayed him in the face with a chemical
+agent despite his compliance with all orders . 18 F.4th at 466. The office rs instead
+claimed that they approached the prisoner’s cell for a targeted search because the
+prisoner was evidently intoxicated, and that they moved him to the shower area,
+where he refused direct verbal orders and assaulted them, forcing them to use the
+chemical agent  to gain compliance. Id.  The disciplinary board  found the prisoner
+guilty of one count of intoxication, two counts of defiance, four counts of aggravated
+disobedience, and one count of property destruction. Id. The board issued multiple
+disciplinary sanctions  without stating which of its findings were necessary to the
+prisoner’s convictions, and the district court had not yet performed a fact -specific
+analysis informed by the elements necessary to establish those violations. Id. at 466,
+467. Accordingly, the Fifth Circuit ultimately concluded that it could not determine
+which of the prisoner’s factual allegations might necessarily contradict his
+disciplinary convictions. Id. at 470. C onversely, Clark’s claims arise from a single
+encounter captured on video and defendants have provided the Louisiana
+Department of Public Safety and Corrections Disciplinary Rules and Procedures for
+Adult Offenders, which state the elements of defiance and aggravated disobedie nce.
+See R. Doc. No. 18-6, at 22.
+Case 2:23-cv-06293-LMA-JVM   Document 22   Filed 03/08/24   Page 24 of 28
+25
+
+obey direct verbal orders cooperatively and promptly. 154 Accordingly, Clark’s § 1983
+claim is barred pursuant to Heck.
+c.  State-Law Claims
+Because the Court has concluded that Clark’s § 1983 claim is barred, only his
+state-law claims remain.  A district court may decline to exercise supplemental
+jurisdiction over a state-law claim if “the district court has dismissed all other claims
+over whic h the district court has original jurisdiction[.]” 28 U.S.C. § 1367(c)(3). A
+district court has “wide discretion” when deciding whether it should retain
+jurisdiction over state -law claims once all federal claims have been eliminated.
+Guzzino v. Felterman, 191 F.3d 588, 595 (5th Cir. 1999). However, the general rule
+in the Fifth Circuit is “to dismiss state claims when the federal claims to which they
+are pendent are dismissed.” Parker & Parsley Petroleum Co. v. Dresser Indus. , 972
+F.2d 580, 585 (5th Cir. 1992).  In addition, the Fifth Circuit has instructed district
+courts to consider the common law factors of “judicial economy, convenience, fairness,
+and comity.” Mendoza v. Murphy, 532 F.3d 342, 346 (5th Cir. 2008). “These interests
+are to be considered on a case-by-case basis, and no single factor is dispositive.” Id.
+Upon review, the Court concludes that Clark’s state -law claims should be
+remanded to state court. The Court has “dismissed all claims over which it has
+original jurisdiction.” 28 U.S.C. § 1367(c)(3). Moreover, allowing Louisiana courts to
+rule on Louisiana law “encourages fairness between the parties by ‘procuring for them
+a surer-footed reading of applicable law.’” Bitte v. EMC Mortgage Corp., No. 07-9273,
+
+154 See R. Doc. No. 18-6, at 22.
+Case 2:23-cv-06293-LMA-JVM   Document 22   Filed 03/08/24   Page 25 of 28
+26
+
+2009 WL 1950911, at *2 (E.D. La. July 1, 2009) (Africk, J.) (citations omitted) (quoting
+United Mine Workers of Am. v. Gibbs, 383 U.S. 715, 726 (1966)). “[D]eference in this
+case with respect to the state law issue[s] promotes the important interest of comity
+to state courts.” Id. The Court therefore declines to exercise supplemental jurisdiction
+over the remaining state-law claims. Those claims will be remanded to state court.
+d. Leave to Amend
+Finally, Clark argues that, to the extent the petition “does not closely describe
+the conduct of Wallace shown in the video,” the Court should allow Clark an
+opportunity to amend his complaint. 155 According to Clark, “[i]t is obvious from the
+video that while Clark was face down on the bed with Nichols on his back, [Clark]
+could not clearly see who was doing what.” 156 Clark asserts that the video was
+recently produced and that an amendment would “cure any possible overlap between
+the disciplinary charges by Nichols and the attempts by Wallace to detach the leg at
+either the knee or the hip[.]” 157 Specifically, Clark argues that the moment he was
+“let up by Nichols is when Nichols says all resistance by Clark ended.”158
+ Federal Rule of Civil Procedure 15(a) provides that leave to amend pleadings
+“shall be freely given when justice so requires.” Fed. R. Civ.  P. 15(a). Although Rule
+15 “evinces a bias in favor of granting leave to amend, ” it is not automatic. Martin’s
+Herend Imps., Inc. v. Diamond & Gem Trading U.S.A. Co. , 195 F.3d 765, 770 (5th
+
+155 R. Doc. No. 20, at 9.
+156 Id.
+157 Id.
+158 Id.
+Case 2:23-cv-06293-LMA-JVM   Document 22   Filed 03/08/24   Page 26 of 28
+27
+
+Cir. 1999); United States ex rel. Lin v. Mayfield, 773 F. App’x 789, 790 (5th Cir. 2019)
+(quotations omitted). A decision to grant leave to amend is within the discretion of
+the trial court. Mayfield, 773 F. App’x at 790.
+ However, a “district court must possess a ‘substantial reason’ to deny a request
+for leave to amend.” Id. (quoting Smith v. EMC Corp. , 393 F.3d 590, 595 (5th Cir.
+2004)). The “futility of the amendment” is one such reason. Id.  “[A]n amended
+complaint is futile ‘if the complaint as amended would be subject to dismissal.’” Rohi
+v. Brewer (In re ABC Dentistry, P.A.) , 978 F.3d 323, 325 (5th Cir. 2020) (quoting
+Varela v. Gonzales, 773 F.3d 704, 707 (5th Cir. 2014)).  Futility is evaluated “under
+the same standards as a dismissal under Rule 12(b)(6).” Butler v. Denka Performance
+Elastomer, L.L.C., 16 F.4th 427, 437 (5th Cir. 2021) (citing Villarreal v. Wells Fargo
+Bank, N.A., 814 F.3d 763, 766 (5th Cir. 2016)).
+As discussed, the problem with Clark’s petition is th at he asserts he was
+merely seeking medical treatment when Kimball began to use force against him and
+that other officers arrived and also used force against him. The same is true of Clark’s
+Administrative Remedy Procedure claim, which states that Clark was sick and
+simply attempting to communicate his illness to the officers when they used force
+against him.159 Pursuant to Aucoin and DeLeon, the fact that Clark maintains he did
+nothing wrong indicates that his petition is  inconsistent with his guilty pleas for
+defiance and aggravated disobedience in connection with the Nichols report.
+
+159 R. Doc. No. 18-4, at 14–17.
+Case 2:23-cv-06293-LMA-JVM   Document 22   Filed 03/08/24   Page 27 of 28
+28
+
+Accordingly, the Court finds that permitting Clark to amend his petition to match the
+video more closely with respect to the sequence of events would be futile.
+VI. CONCLUSION
+ For the foregoing reasons,
+ IT IS ORDERED that defendants’ motion for summary judgment is
+GRANTED IN PART and  DENIED IN PART . The motion is GRANTED to the
+extent it seeks dismissal with prejudice of Clark’s § 1983 claim. The motion is
+DENIED to the extent it seeks dismissal with prejudice of Clark’s state-law claims.
+ IT IS FURTHER ORDERED that Clark’s federal claims against defendants
+are DISMISSED WITH PREJUDICE to their being asserted again until the Heck
+conditions are met.
+ IT IS FURTHER ORDERED that Clark’s state-law claims are REMANDED
+to the 22nd Judicial District Court in Washington Parish, Louisiana for further
+proceedings.
+New Orleans, Louisiana, March 8, 2024.
+
+_______________________________________
+            LANCE M. AFRICK
+      UNITED STATES DISTRICT JUDGE
+Case 2:23-cv-06293-LMA-JVM   Document 22   Filed 03/08/24   Page 28 of 28

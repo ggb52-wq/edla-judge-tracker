@@ -1,0 +1,237 @@
+1
+
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+LI ET AL.  CIVIL ACTION
+
+VERSUS  NO. 23-1117
+
+GEORGES MEDIA GROUP LLC  SECTION “L” (2)
+
+ORDER AND REASONS
+
+ Pending before the Court is a Motion to Dismiss for Failure to State a Claim by Defendant
+Georges Media Group, LLC (“Georges  Media”), R. Doc. 24. Plaintiff  Whitney Richard opposes
+the motion, R. Doc. 25, and Defendant’s filed a reply, R. Doc. 28. Having considered the briefing
+and the applicable law, the Court rules as follows.
+I. BACKGROUND
+This case arises from alleged disclosures of Plaintiffs’ personally identifiable information
+(“PII”) by Defendant. R. Doc. 3 at 1. Plaintiffs allege that they are subscribers to Defendant’s
+website, Nola.com, and that when they watched videos on Nola.com, Defendant shared Plaintiffs’
+PII with Meta (previously Facebook) without notifying Plaintiffs. Id.  Plaintiffs seek relief for
+themselves and also seek class action certification for similarly situated plaintiffs. Id.  at 8 -9.
+Though there were two named plaintiffs at the start of this litigation, Ms. Li and Ms. Richard, Ms.
+Li was not listed as a named party in the proceedings in the First Amended Complaint. R. Doc. 20.
+In the First Amended Complaint, the “subscriptions” that  Plaintiff Richard claims are at
+issue here are not newspaper subscriptions, but subscriptions to e-mail newsletters that individuals
+may sign up for on the Nola.com website. Id. at 3. Richard alleges that many subscribers are also
+users of Facebook, which assigns every individual user a Facebook ID —an “FID”—used to
+identify and view her profile. Id. at 3-4. Richard alleges that, for subscribers to Nola.com’s e-mail
+Case 2:23-cv-01117-EEF-DPC   Document 29   Filed 11/03/23   Page 1 of 9
+2
+
+newsletters who are also users of Facebook, clicking on and viewing a video causes the name of
+that video, along with their FID, to be transferred to Meta. Id.  at 4. This is so, Richard  alleges,
+because Nola.com and other Georges Media properties make use of the “Meta Pixel,” a “code
+analytics tool” that “tracks the actions of Website visitors (“subscribers,”) such as the pages a
+visitor accesses and the content they view.” Id.  As a result, Richard  alleges, when an individual
+who has a Facebook account watches a video on Nola.com, the URL and name of the video are
+transmitted to Meta along with the unique FID of the viewer. Id.  at 7. Richard  alleges that
+Defendant knowingly uses this tool to monetize the website by sending PII to Facebook/Meta. Id.
+Further, Richard alleges, Defendant did so without the consent of website users, who “are not
+given an opportunity to withdraw from or prohibit the disclosure of their PII or the video content
+they view.” Id.
+Richard brings suit under the Video Privacy Protection Act (VPPA), which provides that a
+“video tape service provider who knowingly discloses, to any person, personally identifiable
+information concerning any consumer of such provider shall be liable to the aggrieved person.” 18
+U.S.C. § 2710(b)(1). Richard alleges that “an entity that provides videos via streaming is a video
+tape service provider under the VPPA,” R. Doc. 20  at 8, and that because Defendant “is engaged
+in the business of delivering audio visual materials (e.g. videos) to the Plaintiff and Class in
+multiple states and across state borders,” Defendant qualifies as a “video tape provider” within the
+scope of the VPPA, id. at 13. Richard further alleges that the Defendant knowingly disclosed their
+FIDs, URL/name of video content, and PII to Meta via the Meta Pixel, without Richard’s consent.
+Id. at 13-14.
+Richard seeks class action certification is proper pursuant to Fed. R. Civ. Proc. 23, statutory
+damages, punitive damages, injunctive relief against the Defendant, attorneys’ fees, and a holding
+Case 2:23-cv-01117-EEF-DPC   Document 29   Filed 11/03/23   Page 2 of 9
+3
+
+in their favor. Id. at 14.
+Defendant filed the instant motion to dismiss on September 21, 2023. R. Doc. 24.
+II. PRESENT MOTION
+In its 12(b)(6) Motion for Failure to State a Claim, Defendant Georges Media argues that
+Plaintiff is not a “consumer” under the VPPA. Defendant argues that it did not “knowingly
+disclose” any PII to Meta via the Meta Pixel because the alleged PII is “created and maintained by
+Facebook” not Georges Media. Further, Defendant argues that it does not disclose Facebook
+account information to Meta  and that the alleged information disclose d is not PII. Lastly,
+Defendant seek to preserve its arbitration rights in the event that the Court determines dismissal is
+not appropriate.
+In opposition, Plaintiff Richard argues that she is a paid subscriber and accordingly, she is
+a consumer under the VPPA. R. Doc. 25 at 5. She further argues that Defendant’s disclosures were
+made knowingly because it “deliberately installed a piece of code into its website which would
+disclose its users’ viewing information to Facebook/Meta.” Id.  at 11. Richard  contends that the
+information disclosed by the Defendant i s “plainly PII” because other district courts have
+concluded that “a person’s FID paired with the title/description of a video present on a URL is PII
+under the VPPA.” Id. at 13. Regarding the enforceability of arbitration, Richard avers that Georges
+Media invoked the judicial process such that it has waived its right to arbitration. Id. at 2.
+In reply, Georges  Media re-emphasizes its earlier arguments and preserves its right to
+arbitration. R. Doc. 28.
+III. APPLICABLE LAW
+A. 12(b)(6)
+Case 2:23-cv-01117-EEF-DPC   Document 29   Filed 11/03/23   Page 3 of 9
+4
+
+Federal Rule of Civil Procedure 12(b)(6) provides that an action may be dismissed “ for
+failure to state a claim upon which relief can be granted. ” Fed. R. Civ. P. 12(b)(6). “To survive a
+motion to dismiss, a complaint must contain sufficient factual matter , accepted as true, to ‘state a
+claim for relief that is plausible on its face.’” Ashcroft v. Iqbal, 556 U.S. 662, 678 (2009) (quoting
+Bell Atl. Corp. v. Twombly , 550 U.S. 544, 570 (2008)). “ Factual allegations must be enough to
+raise a right to relief above the speculative level.” Twombly, 550 U.S. at 556. A claim is plausible
+on its face when the plaintiff has pled facts that allow the court to “draw a reasonable inference
+that the defendant is liable for the misconduct alleged.” Id. at 570. Although a court must liberally
+construe the complaint in light most favorable to the plaintiff, accept the plaintiff ’s allegations as
+true, and draw all reasonable inferences in favor of the plaintiff, Baker v. Putnal, 75 F.3d 190, 196
+(5th Cir.  1996), courts “ do not accept as true conclusory allegations, unwarranted factual
+inferences, or legal conclusions.” Arias-Benn v. State Farm Fire & Cas. Co., 495 F.3d 228, 230
+(5th Cir. 2007) (quoting Plotkin v. IP Axess Inc., 407 F.3d 690, 696 (5th Cir. 2005)).
+IV. DISCUSSION
+a. 12(b)(6) Motion
+Richard has stated a claim that is plausible on its face. Twombly, 550 U.S. at 570. First,
+Richard sufficiently alleges that she is a consumer under the VPPA.
+Enacted in 1988, t he VPPA provides that a “ video tape service provide r who knowingly
+discloses . . . personally identifiable information concerning any consumer of such provider shall
+be liable to the aggrieved person.” 18 U.S.C.A. § 2710(b)(1) (West). Under the statute, the term
+“consumer” means “ any renter, purchaser, or subscriber of goods or services  from a video tape
+service provider,” and the term “personally identifiable information” includes “information which
+Case 2:23-cv-01117-EEF-DPC   Document 29   Filed 11/03/23   Page 4 of 9
+5
+
+identifies a person as having requested or obtained specific video materials or services from a
+video tape service provider.” 18 U.S.C.A. § 2710(a)(1), (a)(3) (West).
+Many circuits have further refined their interpretation of the statute to keep up with modern
+technology. Passed in response to a Washington, D.C. newspaper obtaining and printing copies of
+a judge’s DVD rental history, the law today has been invoked to protect the PII of online video
+subscribers. Paul M. Schwartz, Free Speech vs. Information Privacy: Eugene Volokh's First
+Amendment Jurisprudence, 52 Stan. L. Rev. 1559, 1562 (2000). The Fifth Circuit has not opined
+on consumer status, knowing disclosure, and PII under the statute. Therefore, this Court must rely
+on persuasive authority from its sister circuits.
+One way to be a consumer under the VPPA is to be a “subscriber” of goods and services
+from a video service provider. 18 U.S.C.A. § 2710(a)(1) . However, the VPPA does not define
+“subscriber.” Id. The Eleventh Circuit has held that an individual who installed and used a free
+mobile application on her smartphone to view content was not a subscriber and thus not a consumer
+under the VPPA. Ellis v. Cartoon Network, Inc., 803 F.3d 1251, 1257 (11th Cir. 2015). Although
+payment is not by itself determinative, the court noted that a subscription requires some form of
+“commitment, relationship, or association (financial or otherwise) between a person and an entity.”
+Id. at 1256. The court reasoned that downloading a free app, which a user can easily delete at any
+time, does not rise to the level of relationship between entity and user that is required under the
+VPPA. Id. at 1257.
+However, the First Circuit went a different way on a similar set of facts. Yershov v. Gannett
+Satellite Info. Network, Inc., 820 F.3d 482, 489 (1st Cir. 2016) . In staving off a 12( b)(6) motion,
+the First Circuit held that a plaintiff who used a free mobile application that provided the defendant
+media company with the plaintiff’s GPS location, device identifier, and the titles of videos plaintiff
+Case 2:23-cv-01117-EEF-DPC   Document 29   Filed 11/03/23   Page 5 of 9
+6
+
+viewed in return for access to defendant’s content qualified the plaintiff as a subscriber. Id.  In
+Yershov, the plaintiff downloaded and used a free USA Today app to view newspaper articles, and
+the defendant then transmitted the plaintiff’s personal and article -viewing information to a third
+party. Id. at 484. The court reasoned that although the plaintiff did not pay money for defendant’s
+content, he still provided consideration in the form of access to his personal information, which
+created a subscriber relationship between plaintiff and defendant. Id. at 489.
+Here, Richard alleges that she is a paid subscriber of Defendant’s website, nola.com, which
+grants her exclusive access to content behind a paywall, including prerecorded video content. R.
+Doc. 1 at 1, 3. Moreover, she alleges that as a nola.com subscriber, Defendant collects and utilizes
+her personal data, including the content she accesses and her FID. Id. at 3-4. Because Richard
+contends that she pays Defendant for nola.com access including video content and Defendant is
+able to access her personal data, Richard has sufficiently plead that she is a subscriber and thus a
+consumer under the VPPA. See Ellis, 803 F.3d at 1257; Yershov, 820 F.3d at 489.
+Second, the Court finds that Richard  sufficiently alleges that Defendant knowingly
+disclosed her PII. The VPPA provides that a “video tape service provider who knowingly discloses
+. . . personally identifiable information concerning any consumer of such provider shall be liable
+to the aggrieved person.” 18 U.S.C.A. § 2710(b)(1) (West) (emphasis added). The statute does not
+define what knowledge requires. The U.S. District Court for the Northern District of Cali fornia
+held in In re Hulu Priv. Litig. that the term connotes actual knowledge. 86 F. Supp. 3d 1090, 1095
+(N.D. Cal. 2015). “‘[K]nowingly’ means consciousness of transmitting the private information. It
+does not merely mean transmitting the code.” Id.
+Many other district courts have simply found that where a complaint alleges knowing
+disclosure under the VPPA, a motion to dismiss will not succeed. See Sellers v. Bleacher Rep.,
+Case 2:23-cv-01117-EEF-DPC   Document 29   Filed 11/03/23   Page 6 of 9
+7
+
+Inc., No. 23-CV-00368-SI, 2023 WL 4850180, at *5 (N.D. Cal. July 28, 2023)  (“The complaint
+alleges that Bleacher Report deliberately installed the Facebook pixel on its website . . . to improve
+its targeted advertising and increase its revenue . . . These factual allegations are enough for the
+court to reasonably infer that defendant knowingly discloses personally identifying information”);
+Czarnionka v. Epoch Times Ass'n, Inc., No. 22 CIV. 6348 (AKH), 2022 WL 17069810, at *4
+(S.D.N.Y. Nov. 17, 2022) (holding plaintiff plausibl y alleged scienter requirement); Lebakken v.
+WebMD, LLC, 640 F. Supp. 3d 1335, 1343 (N.D. Ga. 2022) (“The Court finds that [Plaintiff] does
+plausibly allege [Defendant’s] conscious transmission of its consumers’ private information, and
+thus, [Defendant] is not entitled to dismissal . . . on that ground”).
+In her complaint, Richard contends that:
+• “Defendant . . . discloses to Meta the URL and video name that the viewer has
+accessed;”
+• “Defendant knew that URLs, video/names/descriptions, and FIDs are
+simultaneously disclosed;” and
+• “Defendant also knew that such c ombined data identifies Website users and the
+videos they watched.”
+R. Doc. 1 at 7. Therefore, taking the factual allegations in the complaint as true, Richard  has
+plausibly alleged that Defendant knowingly disclosed consumer data under the VPPA.
+Third, Richard has plausibly alleged that Defendant transmitted PII. The VPPA defines
+“personally identifiable information ,” PII, as “information which identifies a per son as having
+requested or obtained specific video materials or services from a video tape service provider.” 18
+U.S.C.A. § 2710(a)(1), (a)(3) (West). In Yershov, the First Circuit held that PII is not limited to
+information that explicitly names a person. 820 F.3d at 486. The court thereby found that GPS and
+Case 2:23-cv-01117-EEF-DPC   Document 29   Filed 11/03/23   Page 7 of 9
+8
+
+other user data that allowed Adobe to then “link” that information to certain individuals constituted
+PII under the VPPA. Id.  Moreover, many courts have specifically found that a n FID constitutes
+PII under the statute. See  Lebakken, 640 F. Supp. 3d at 1342 (“the Court finds that [Plaintiff]
+adequately alleged that [Defendant] disclosed her Facebook ID and email address in connection
+with her video viewing information to Facebook and that the disclosure of such information
+constituted a disclosure of PII”); Czarnionka, 2022 WL 17069810, at *3 (“Plaintiff has plausibly
+alleged that Defendant's disclosure [of users’ FIDs] constituted PII);  Robinson v. Disney Online ,
+152 F. Supp. 3d 176, 184 (S.D.N.Y. 2015)  (“A Facebook ID . . . is thus equivalent to a name —it
+stands in for a specific person, unlike a device identifier”).
+As Richard correctly noted in her briefings, many courts have found that FIDs constitute
+PII under the statute. R. Doc. 25 at 1; Lebakken, 640 F. Supp. 3d at 1342; Czarnionka, 2022 WL
+17069810, at *3; Robinson, 152 F. Supp. 3d at 184. At the very least, Meta can easily “link” the
+FID to a specific user. See Yershov, 820 F.3d at 486. Therefore, Richard has sufficiently plead that
+Defendant’s FID disclosure constitutes sharing of PII. Next, the Court turns to the enforceability
+of the arbitration clause between the parties.
+b. Arbitration
+“[W]aiver of arbitration is not a favored finding, and there is a presumption against it.”
+Steel Warehouse Co., Inc. v. Abalone Shipping Ltd. of Nicosai, 141 F.3d 234, 238 (5th Cir. 2008).
+“Waiver will be found when the party seeking arbitration substantially invokes the judicial process
+to the detriment or prejudice of the other party.” Walker v. J.C. Bradford & Co., 938 F.2d 575, 577
+(5th Cir. 1991). Invoking judicial process requires that “a party, at the very least, engage in some
+overt act in court that evinces a desire to resolve the arbitrable dispute through litigation rather
+than arbitration.” Id. Though the laws binding on this Court suggest that waiver is disfavored, the
+Case 2:23-cv-01117-EEF-DPC   Document 29   Filed 11/03/23   Page 8 of 9
+9
+
+question of waiver ultimately depends on the facts of each case. In re Mirant Corp., 613 F.3d 584,
+589 (5th Cir. 2010).
+Georges Media argues that Plaintiff’s use of its websites includes terms and conditions. R.
+Doc. 24-2 at 11. The terms and conditions expressly state that website users are bound to arbitration
+for disputes arising out of their use of t he websites. 1  Accordingly, the Court finds that an
+arbitration agreement governs this dispute.
+Further, the Court finds that Georges Media has not waived its right to arbitration. The only
+affirmative motion the defendant has filed is this motion to dismiss. R. Doc. 24. In it, Defendant
+asserted its right to arbitration. Id. at 11-12. Further, a trial date and pretrial deadlines have yet to
+be scheduled. Because this matter is in its early stages of litigation and as evidenced by Defendants
+actions, the Court holds that Defendant has not waived its right to arbitration.
+V. CONCLUSION
+Accordingly,
+IT IS HEREBY ORDERED  that Defendants’ Motion to Dismiss for Failure to State a
+Claim, R. Doc. 7, be DISMISSED as PREMATURE.
+ IT IS FURTHER ORDERED that the parties submit to arbitration pursuant to the
+arbitration clause. Thus, this matter is STAYED.
+New Orleans, Louisiana, this 2nd day of November, 2023.
+
+1 The Terms of Use on nola.com state: “By using this website, you agree to be bound by this Arbitration Agreement
+for any dispute or claims of any nature that arise from prior, current or future use of the  website.” nola.com, “Terms
+of Use”, https://www.nola.com/new_terms/.
+United States District Judge
+Case 2:23-cv-01117-EEF-DPC   Document 29   Filed 11/03/23   Page 9 of 9

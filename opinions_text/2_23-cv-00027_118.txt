@@ -1,0 +1,595 @@
+1
+
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+KG DONGBU USA, INC. ET AL  CIVIL ACTION
+
+VERSUS
+
+PANOBULK LOGISTICS, INC. ET AL
+ NO. 23-27 C/W 23-6912
+
+SECTION "L" (4)
+
+ORDER AND REASONS
+Before the Court are four motions for partial summary judgment. Cooper Consolidated,
+LLC is movant for two of the motions. R. Doc s. 39, 83. Coastal Cargo Company, LLC and
+Marquette Transportation Company, LLC also independently move for partial summary judgment.
+R. Docs. 49, 80. The parties have submitted various oppositions and reply briefs. R. Docs. 92, 93,
+94, 95, 96, 99, 103, 105, 108. The Court heard oral argument on these matter s on March 7, 2024.
+Considering the briefing, applicable law, and oral argument, the Court now rules as follows.
+I. BACKGROUND
+a. Factual Background
+This maritime case arises out of alleged damage to a cargo of steel coils. On or about
+October 31, 2021, KG Dongbu Steel Co., Ltd. shipped a cargo of 140 steel coils —consigned to
+Plaintiff KG Dongbu USA, Inc. (“KG Dongbu”)—from Korea to New Orleans. R. Doc. 1 at 2. SK
+Shipping Co., Ltd. (“SK Shipping”) was hired as the ocean carrier and pursuant to that contract, it
+was responsible for discharging the coils from the ship to one or more barges in New Orleans. Id.
+In another contract, KG Dongbu hired defendant Panobulk Logistics, Inc. (“Panobulk”) —as an
+intermediary forwarder—to transport the coils from New Orleans to Illinois and Ohio. Id.  at 3.
+Panobulk then hired defendant Cooper Consolidated, LLC (“Cooper”) via a Barge Transportation
+Case 2:23-cv-00027-EEF-KWR   Document 118   Filed 03/15/24   Page 1 of 21
+2
+
+Agreement (“BTA”) to transport the coils by barge from New Orleans to Lemont, Illinois. Id.; R.
+Doc. 39 at 2. Under the BTA, Cooper provided B arge LTD-237 to be loaded with the coils. R.
+Doc. 1 at 3; R. Doc. 39 at 2. That barge was supplied by Marquette Transporation LLC to Cooper
+under a separate agreement.1 Panobulk and SK Shipping hired defendant Coastal Cargo Company,
+LLC (“Coastal”) to offload the coils from the ocean vessel onto the barge. R. Doc. 1 at 3; R. Doc.
+39 at 2. On or about January 5, 2022, KG Dongbu alleges that the were in good order and condition.
+R. Doc. 1 at 3. KG Dongbu further alleges that Panobulk and Cooper agreed to deliver the coils in
+the same conditions as when they received it for carriage. Id.
+Upon its information and belief, KG Dongbu alleges that Coastal pierced  the hold of the
+barge while loading the coils, which allowed river water to enter the hold and damaged the coils.
+Id. As a result, they were rejected by the buyers. Id.
+Plaintiffs KG Dongbu and DB Insurance Co., LTD (“DB Insurance”) , as subrogee of KG
+Dongbu, filed suit against Defendants Panobulk, Cooper, and Coastal on January 4, 2023, for
+maritime tort. They also filed a claim for breach of maritime contract, warranty, and bailment
+against Panobulk. Id. at 1, 4. Plaintiffs seek damages of $2.8 million plus survey, inspection, and
+salvage expenses, court costs, interest, and attorneys’ fees. Id. at 5.
+b. Affirmative Defenses to Plaintiffs’ Claims
+All defendants claim a number of affirmative defenses to Plaintiffs’ claims. Coastal asserts
+defenses including (1) failure to state a claim upon which relief can be  granted, (2) failure to
+mitigate damages, and (3) comparative fault and contributory negligence. R. Doc. 8. Cooper
+asserts that Plaintiffs’ claims are barred due to the BTA between Cooper and Panobulk. R. Doc. 9.
+
+1 Cooper obtained the  barge from CGB Barge Department under a freight agreement, who obtained it from LMR
+Freight, LLC under another freight agreement. R. Doc. 49 at 2. In its motion for partial summary judgment, Marquette
+explains that it provides services to LMR for barges that LMR manages. In this instance, Marquette moved Barge
+LTD-237 from New Orleans to Illinois. Id.
+Case 2:23-cv-00027-EEF-KWR   Document 118   Filed 03/15/24   Page 2 of 21
+3
+
+Panobulk asserts defenses including (1) fa ilure to state a claim upon which relief can be granted,
+(2) failure to mitigate damages, and (3) comparative fault and contributory negligence. R. Doc. 16.
+Additionally, each defendant has asserted cross -, counter -, and/or third -party claims,
+which—along with the responses—are briefly discussed below.
+c. Cross-, Counter-, Third-Party Claims
+Cooper and Panobulk filed cross -claims against one another for contractual indemnity as
+well as tort-based contribution. R. Docs. 9, 16. Both defendants additionally filed the same cross-
+claims against Coastal. R. Docs. 9, 16. Coastal brought a separate action for contribution and
+indemnity against Cooper and Panobulk, which was then consolidated with this mater. R. Doc. 65.
+On September 12, 2023, this Court granted Coastal’s motion for leave to file a third-party
+complaint against Marquette. In response, Coastal filed its claims for contribution against
+Marquette, which then “tendered Marquette as a defendant to Plaintiffs’ Complaint” pursuant to
+Fed. R. Civ. P. 14(c). R. Doc. 49 at 3, R. Doc. 33. Coastal further alleged that Marquette was the
+owner/operator of Barge LTD-237, Cooper received the barge from Marquette, and that Marquette
+failed to provide a seaworthy barge. R. Doc. 33.
+Accordingly, Marquette filed cross- and counter-claims against Coastal and a cross-claim
+against Panobulk for contractual indemnity and tort -based contribution. R. Doc. 37. In reply,
+Panobulk also filed a cross -claim against Marquette alleging that Marquette is liable  for the
+damage due to its negligent operation of the barge . R. Doc. 70. Additionally, it claims that
+Marquette is liable to Panobulk for indemnity. Id.
+Presently, there are four motions for partial summary judgment pending before the court.
+All of these motions focus on the question of whether a package limitation clause found in the
+BTA is enforceable. The issue of liability or the lack thereof is not before the Court at this time.
+Case 2:23-cv-00027-EEF-KWR   Document 118   Filed 03/15/24   Page 3 of 21
+4
+
+II. PRESENT MOTIONS
+
+a. Cooper’s First Motion for Partial Summary Judgment
+In its motion, Cooper argues that if it is liable for the damaged coils, it is limited to no more
+than $500 per coil pursuant to the  package limitation provisions found in the  BTA it has with
+Panobulk. R. Doc. 39-1 at 4; see R. Doc. 39-2 at ¶¶ 24, 42. It argues that the provisions in the BTA
+are valid, enforceable, and not subject to the Harter Act, because it is a private contract of
+affreightment. R. Doc. 39-1 at 4-8. Cooper additionally argues that the limitation applies to both
+Panobulk’s and Plaintiffs’ claims against it pursuant to the Supreme Court’s decision in Norfolk
+Southern Railway Co. v. Kirby , 543 U.S. 14 (2014). Id.  at 8-11. Lastly, Cooper argues that the
+limitation is not avoided though some of the claims against it are in tort. Id. at 11.
+Both Plaintiffs and Panobulk oppose Cooper’s motion. Plaintiffs begin their opposition by
+detailing the barge damage and procedures taken by Cooper and others in response. R. Doc. 103
+at 1-16. They stress that they were untimely notified about the water damage. Id.  They argue that
+the BTA is not enforceable against them because it is an agreement between Cooper and Panobulk.
+Id. at 16 -20. To strengthen that claim, they aver that the Court’s decision in Kirby —that the
+limitation provisions are enforceable against ups tream parties—is only applicable in instances of
+common carriage. Id.  at 22-27. Here, they point out  that the contracts governing this matter are
+private; thus, Kirby is inapplicable. Id. Regardless of the BTA, Plaintiffs further argue that Cooper
+is liable to them in tort, due to its breach of warranty of seaworthiness. Id. at 27-33.
+In Panobulk’s opposition, it first argues that the BTA  is ambiguous and that ambiguities
+are to be interpreted against the drafter—Cooper. R. Doc. 92. It provides that there are two clauses
+in the BTA that discuss limitations of liability: Paragraph 24 and Paragraph 42, which state:
+24. Cargo Liability. Carrier’s liability for cargo loss or damage shall
+be limited to a maximum of $500.00 per ton on bulk cargo or $500 per unit
+Case 2:23-cv-00027-EEF-KWR   Document 118   Filed 03/15/24   Page 4 of 21
+5
+
+or package subjected to count.
+. . .
+42. Cargo Risk; Limitation of Liability. Carrier shall have no
+liability for loss or damage to car go, or for direct or indirect expenses or
+claims arising from or related to such loss or damage, until proper loading
+is complete, and the barge has been removed from loading facility by
+Carrier or its designated carrier. Thereafter, Carrier shall only be liable to
+Shipper for loss or damage to the cargo which occurs during the voyage. In
+no event shall Carrier be liable for loss or damage to the cargo caused, in
+whole or in part, by: shrinkage, expansion, deterioration, or other changes
+in condition due to temperature changes, atmospheric humidity, or other
+natural causes; or navigational delays; or any vice or defect in the cargo. In
+the event of such loss or damage for which Carrier is liable, Carrier shall
+pay for lost cargo based on actual value at time of loss, and damaged cargo
+based on actual loss in value measured at time such damage occurred, up to
+a maximum limit of $500.00 per ton on bulk cargo or $500 per unit or
+package subjected to count. . . .
+
+R. Doc. 39-2 at ¶¶ 24, 42.
+It argues that if Par agraph 24 were to apply to all  claims for loss and/or damage, then
+Paragraph 42 would not be necessary. Accordingly, it avers that “construed together, the only
+conclusion is that the intent was to delineate the causes of damage or loss for which Cooper would
+be able to limit its liability.” R. Doc. 92 at 14. Thus, it argues that the provision should be construed
+against Cooper to strictly limit the scope of the provision. Second, Panobulk argues that it did not
+have a “fair opportunity” to declare a cargo value in excess of $500 per package. Third, it argues
+that this contractual provision is unenforceable because Cooper “unreasonably deviated” from its
+obligations under the contract by failing to timely (1) inspect the damage to the barge, (2) notify
+Panobulk, and (3) repair the barge. Id. at 17. Fourth, it argues that Cooper breached its warranty
+of seaworthiness that it owed to Panobulk under general maritime law. Like Plaintiffs do in their
+opposition, it next argues that Kirby does not apply because this was a contract for private carriage.
+Lastly, Panobulk argues that Cooper’s actions after learning that the barge was damaged rose to
+the level of negligence, gross negligence and/or intentional misrepresentation, which cannot be
+Case 2:23-cv-00027-EEF-KWR   Document 118   Filed 03/15/24   Page 5 of 21
+6
+
+resolved at the summary judgment stage.
+In reply, Cooper raises five arguments to the oppositions against them. R. Doc. 108. First,
+Cooper argues that the package limitation provisions are unambiguous and apply to the losses
+described herein. Second, Cooper reiterates its earlier argument that the limitation provision is
+enforceable against the Plaintiffs under Kirby . Third, Cooper argues that that Panobulk was not
+entitled to an opportunity to declare a higher value in a private contract of affreightme nt because
+that is a condition of COGSA, which it argues is inapplicable to contracts for inland transport.
+Fourth, Cooper argues that there was no “unjustifiable deviation” on the part of Cooper such that
+the package limitation would be void. Id. Fifth, it argues that Plaintiffs and Panobulk’s claims of
+unseaworthiness and negligence on the part of Cooper are not relevant to the issue presently before
+the court—whether a contractual limitation of liability applies.
+b. Marquette’s Motion for Partial Summary Judgment
+In its motion, Marquette raises the same arguments as Cooper for enforcing the limitation
+provisions in the BTA with two exceptions. R. Doc. 80. First, it argues that P aragraph 26 of the
+BTA is a “Himalaya C lause” because it extends the BTA’s provis ions to downstream parties
+involved in executing the contract. Id. at 11. Paragraph 26 provides that the “Carrier Party” to the
+BTA includes Cooper and “its affiliates and its and their employees, vendors, vessels, contractors,
+subcontractors at any tier or agents.” Id. Accordingly, it argues that the BTA not only limited
+Cooper’s liability but also that of Marquette. Second, it argues that the limitation provision further
+limits the contribution and indemnity claims Coastal and Panobulk have asserted against it. In all
+other aspects, Marquette raises the same arguments as Cooper regarding the validity of the BTA,
+its enforceability against Plaintiffs’ subject to Kirby, and that tort claims against it are also subject
+to the BTA limitation provision.
+Case 2:23-cv-00027-EEF-KWR   Document 118   Filed 03/15/24   Page 6 of 21
+7
+
+Plaintiffs, Panobulk, and Coastal oppose Marquette’s motion. Because Plaintiffs  opposed
+both Cooper’s first motion and Marquette’s motion in the same brief , the same arguments apply.
+R. Doc. 103. Regarding Marquette specifically, Plaintiffs argue that it is not subject to the BTA’s
+limitation provision because that provision only limits the liability of the “Carrier” not the “Carrier
+Party.” It argues that while Marquette may fall under the “Carrier Party,” Cooper is the sole
+“Carrier.” Thus, it argues that the limitation provision does not extend to Marquette. Id. at 20-22.
+In Panobulk’s opposition, it also raises the argument about the discrepancy between
+“Carrier” and “Carrier Party” in the BTA’s limitation clause. R. Doc. 93 at 6 -7. It reiterates its
+arguments in its opposition to Cooper’s motion regarding contractual ambiguity, the
+inapplicability of Kirby, and the lack of contractual negotiations about the limitation provisions.
+Id. at 10. Lastly, it argues that Marquette’s actions rose to the level of negligence, gross negligence,
+and/or intentional conduct such that it is liable in tort. Id. at 12, 14-17.
+ In its opposition, Coastal argues that even if the limitation provision does apply to
+Marquette’s liability, the motion should be denied to the extent that it seeks to apply the limitation
+to Coastal’s contribution claims. R. Doc. 95 at 1. It additionally adopts the arguments that it makes
+in its opposition to Cooper’s second motion for partial summary judgment discussed below. Id.
+In reply, Marquette raises the same five arguments as Cooper, described above, and
+reiterates its earlier argument that the package limitation applies to it as well.2
+c. Cooper’s Second Motion for Partial Summary Judgment
+In its second motion for partial summary judgment, Cooper also seeks to apply the BTA’s
+limitation provision against Coastal’s claims for contribution and indemnity against it. R. Doc. 83-
+1 at 4. It argues that Coastal does not have any separate claims against Cooper except for its claims
+
+2 Cooper and Marquette filed a combined reply brief to the oppositions of Panobulk, Plaintiffs, and Coastal. R. Doc.
+108.
+Case 2:23-cv-00027-EEF-KWR   Document 118   Filed 03/15/24   Page 7 of 21
+8
+
+due to their alleged joint tortfeasor liability to Plaintiffs , which it avers is capped by the package
+limitation. Id. at 4-5. It argues that the contractual limitation provision is “essentially equivalent”
+to the COGSA pa ckage limitation; thus, it should afford the same protection because it had no
+independent contract with Coastal. Id. at 6.
+In opposition, Coastal argues that even if Cooper ’s first motion and Marquette’s motion
+are granted, that decision should not preclude Coastal from seeking contribution from Cooper and
+Marquette to the full extent of their proportionate fault. R. Doc. 95 at 2. Otherwise, Coastal argues
+that it will be liable for a disproportionate share of the damage to the coils. Id. at 2, 13-14. Coastal
+further argues that Cooper and Marquette cannot limit Coastal’s rights based on the BTA, because
+it was not a party to that contract. Lastly, it argues that the contractual limitations between a
+plaintiff and another defendant do not limit another codefendant’s contribution claims. Id. at 8.
+In reply, Cooper agrees that courts have found that certain procedural defenses cannot bar
+claims for contribution by another defendant. R. Doc. 108. However, they aver that courts
+distinguish between procedural and substantive defenses to a contribution claim. Here, they argue
+that the package limitation is a substantive defense, and should apply to the contribution claims to
+the same extent it applies to plaintiffs’ original claims. They further argue that allowing Coastal to
+circumvent the package limitation would also create an inequitable result as it would essentially
+void their contracted-for limitation of liability.
+d. Coastal’s Motion for Partial Summary Judgment
+In its motion, Coastal presents a novel legal issue and argues that should the Court grant
+Cooper’s first motion, then it should also apply the McDermott, Inc. v. AmClyde rule and reduce
+the claims against it by Cooper’s proportionate share of damages. 511 U.S. 202 (1994) ; R. Doc.
+49-1. It argues that in AmClyde, the Supreme Court discussed the issue of liability of non-settling
+Case 2:23-cv-00027-EEF-KWR   Document 118   Filed 03/15/24   Page 8 of 21
+9
+
+parties in a maritime matter where some  of the defendants settled and held that the plaintiff’s
+recovery from the non-settling defendants should be reduced by the settling defendants’ percentage
+of fault. Though AmClyde discussed the effects of a settlement agreement, Coastal argues that this
+court should apply the same reasoning here because the consequences of the limitation provision
+in the BTA between Cooper and Panobulk on Coastal would produce similar results as if Cooper
+and Panobulk were settling instead.
+Panobulk and the Plaintiffs  oppose Coastal’s motion. Panobulk argues that limitation
+provision in the BTA is invalid and unenforceable. R. Doc. 94 at 2. It further argues that AmClyde
+is inapplicable here because the issues involved here do not concern a settlement agreement and
+Panobulk received no benefit from having a limitations provision in the BTA. Id. at 2-4. Panobulk
+avers that even if AmClyde were to apply to this case, it would not obviate contribution claims as
+other claims would still be outstanding. Id. at 5-6. Additionally, it raises the same argument about
+the applicability of Kirby as it did in its opposition to Marquette’s motion. Id. at 5.
+In their opposition, Plaintiffs  argue that AmClyde is only applicable in the context of a
+settlement or where similar actions have been taken to extinguish the case. Plaintiffs argue that it
+has not taken either action with any of the defendants. R. Doc. 99. Further, they argue that the
+BTA’s provisions are not binding on them. Even if AmClyde was applicable, and Plaintiffs were
+bound by the BTA, they aver that they would still have tort claims against all defendants. Id. at 9.
+In response, Coastal highlights that its motion is moot if Cooper and Marquette’s liability
+is not limited. R. Doc. 105. Though no settlement discussions have begun with the parties, it argues
+AmClyde is still relevant because in that case, the Court reduced the share of fault assigned to a ll
+five defendants even though only three of them settled with the plaintiff. The fourth defendant had
+a contractual limitation provision with the plaintiff. Coastal argues that the Supreme Court
+Case 2:23-cv-00027-EEF-KWR   Document 118   Filed 03/15/24   Page 9 of 21
+10
+
+accordingly reduced the liability of the fifth defendant by all other defendants’ proportionate fault.
+Here, Coastal currently seeks this Court to apply the principles that the Supreme Court did with
+the fourth and fifth defendant in AmClyde to reduce Coastal’s proportionate fault if the Court finds
+that Cooper and Marquette’s liability is limited under the BTA’s provisions.
+III. APPLICABLE LAW
+
+Summary judgment is proper when “there is no genuine dispute as to any material fact and
+the movant is entitled to judgment as a matter of law.”  Fed. R. Civ. P. 56(a). The court must view
+the evidence in the light most favorable to the nonmovant. Coleman v. Hous. Indep. Sch. Dist.,
+113 F.3d 528, 533 (5th Cir. 1997). Initially, the movant bears the burden of presenting the basis
+for the motion; that is, the absence of a genuine issue as to any material fact or facts. Celotex Corp.
+v. Catrett, 477 U.S. 317, 323 (1986). The burden then shifts to the nonmovant to come forward
+with specific facts showing there is a genuine dispute for trial. See Fed. R. Civ. P. 56(c); Matsushita
+Elec. Indus. Co. v. Zenith Radio Corp., 475 U.S. 574, 586-87 (1986). “A dispute about a material
+fact is 'genuine' if the evidence is such that a reasonable jury could return a verdict for the
+nonmoving party.” Bodenheimer v. PPG Indus., Inc., 5 F.3d 955, 956 (5th Cir. 1993) (citation
+omitted).
+IV. ANALYSIS
+
+Because the fate of all four motions hinges on Cooper’s first motion, the Court begins its
+discussion on whether the package limitation provision in the BTA is enforceable.
+a. Whether Cooper C an Enforce the Package Limitation Provision Against
+Panobulk
+
+Cooper argues that the limitation provision is enforceable against Panobulk because
+Panobulk agreed to the  express terms of the BTA  and that neither COGSA nor  the Harter Act
+render the provision invalid. Id.
+Case 2:23-cv-00027-EEF-KWR   Document 118   Filed 03/15/24   Page 10 of 21
+11
+
+As stipulated by both Cooper and Panobulk in their briefings a nd at oral argument, the
+Court finds that the BTA is a contract for private carriage rather one of common carriage. Further,
+it governed the inland shipping of the coils. As such, the Court finds that the Carriage of Goods
+by Sea Act (“COGSA”) does not apply to the instant matter . See 46 U.S.C. §30701 (COGSA
+applies to “contract[s] for the carriage of goods by sea to or  from ports of the United States, in
+foreign trade.”). COGSA is a legal regime based on statutes, locality, and peculiar risks of the sea.
+To extend it to the particularities of this dispute would be a bridge too far . However, in this case,
+the $500 package limitation was included in the BTA between Cooper and Panobulk.
+Panobulk argues that the limitation provision is unenforceable because it was never given
+a fair opportunity to negotiate the value of the limitation provision. The Court rejects this argument
+because that opportunity arises from COGSA. The Court further notes that the evidence presented
+by the parties indicates that an identical  limitation provision was included in previous years’
+transportation agreements between Panobulk and Cooper. At the very least, this suggests that
+Panobulk was on notice of this provision when it entered into the BTA and could have addressed
+its concerns at that time. It failed to do so and voluntarily signed the BTA with Cooper containing
+the limitation clause.
+Additionally, given that the BTA lacked any provisions mentioning the Harter Ac t, the
+Court finds that the Harter Act does not apply to the instant matter. See Kerr-McGee Corp. v. L.,
+479 F.2d 61, 64 (4th Cir. 1973) (holding that the Harter Act only applies to common carriage
+unless specifically incorporated into the agreement).
+Next, Panobulk argues that the terms of the BTA were ambiguous such that it is inval id.
+Id. Determining whether the language of a contract is ambiguous is a question of law. The Court
+finds that general maritime law applies to the instant case.  Maritime agreements “must be
+Case 2:23-cv-00027-EEF-KWR   Document 118   Filed 03/15/24   Page 11 of 21
+12
+
+construed like any other contracts: by their terms and consistent wit h the intent of the parties .”
+Kirby, 543 U.S. at  31. “Where the words of a contract in writing are clear and unambiguous, its
+meaning is to be ascertained in accordance with its plainly expressed intent.’” M&G Polymers US,
+LLC v. Tackett, 574 U.S. 427, 435 (2015) (internal quotation omitted). While Panobulk argues that
+the inclusion of two provisions on the limitation of liability renders the agreement ambiguous, the
+Court disagrees. Paragraphs 24 and 42 both explain that in instances where Cooper may be liable
+for damage to cargo, Cooper’s liability is limited to $500 per unit. While Paragraph 24 states this
+limitation generally, Paragraph 42 provides context for when the limitation applies. Accordingly,
+the Court finds that the BTA is unambiguous.
+Panobulk additionally argues that Cooper’s actions “unreasonably deviated” from the BTA
+such that the provision is vo id. Id. It alleges that Cooper made several errors after it learned that
+water entered the barge, including its untimely notice to Panobulk regarding the water intrusion.
+Accordingly, Panobulk argues that this conduct was so egregious that it voided the BTA’s
+limitation provisions. The Court disagrees.
+At present, the Court is not tasked with deciding the issue of liability . Of note, however,
+this Court has previously held that “[i]t is established beyond dispute  that negligence in the
+performance of [the carrier’s] duties, and even  gross negligence and wanton and willful
+misconduct, although they may impose liability upon the carrier, do not constitute deviations, with
+the effect of voiding either a contractual or statutory limitation of liability.” Cera -Tech, S.A. v.
+ALLISON LYKES, No. 90-2093, 1991 WL 94178, at *10 (E.D. La. May 30, 1991). Further, as
+Cooper correctly indicates, the doctrine of deviation is only applicable in limited circumstances ,
+such as geographic deviation or unauthorized on- deck stowage of cargo. See Sedco, Inc. v. S.S.
+Strathewe, 800 F.2d 27 (2d Cir. 1986) (noting that the doctrine is limited to geographic deviation
+Case 2:23-cv-00027-EEF-KWR   Document 118   Filed 03/15/24   Page 12 of 21
+13
+
+or unauthorized storage of cargo). Finding that neither of those circumstances are of relevance to
+the instant matter, the Court declines to entertain this argument.
+Similarly, Panobulk raises arguments about the negligent acts of Cooper after it discovered
+water in the barge and whether Cooper breached its warranty of seaworthiness . Because these
+contentions concern liability and fault instead of enforcement of the liability provision, the Court
+need not address them at this time.
+Because the BTA contained a package limitation provision and that both parties expressly
+agreed to the terms in the BTA, the Court finds that Cooper is entitled to enforce the provision
+against Panobulk.
+b. Whether Cooper C an Enforce th e Package Limitation Provision Against
+Plaintiffs
+
+Cooper additionally seeks to enforce the BTA’s liability provision against Plaintiffs KG
+Dongbu and DB Insurance. Cooper’s entire argument rests on Kirby , where the  Supreme Court
+held that carriers can enforce limitation provisions found in a contract between a carrier and an
+intermediary forwarder, against both upstream and downstream parties. 543 U.S. 14. In opposition,
+Plaintiffs argue that Kirby is only applicable in contracts for common carriage.
+In Kirby, an Australian manufacturing company, James N. Kirby, Pty Ltd. (“Kirby”) sold
+10 containers of machinery to General Motors, to be delivered to Huntsville, Alabama. Kirby then
+hired freight forwarding company International Cargo Control (“ICC”) to arrange for the delivery
+of the containers. Id. at 18 -19. This was formalized in a bill of lading with the following
+designations: Sydney, Australia as the port of loading, Savannah, Georgia, as the port of discharge,
+and Huntsville as the destination of delivery. Id. at 19. The ICC  bill contained two provisions—
+sea and land—that limited the liability of ICC along the journey. Id. at 19-20. The sea limitation
+Case 2:23-cv-00027-EEF-KWR   Document 118   Filed 03/15/24   Page 13 of 21
+14
+
+provision was governed by COGSA’s default liability rule3 whereas for the land provision, the bill
+limited the liability to a slig htly higher amount. Id. The bill additionally contained a “Himalaya
+Clause” to benefit downstream parties.4 Id. at 20. ICC then hired German ocean shipping company
+Hamburg Süd5 to transport the containers, which was formalized in another bill of lading. Id. at
+21. The Hamburg Süd bill contained the same designations, adopted the COGSA limitation rule
+for sea transport , and a Himalaya Clause for its downstream parties. Id.  Additionally, that bill
+contained a clause restricting liability “beyond the tackles” so that the COGSA limitation applied
+to the land portions of transport as well. Hamburg Süd then hired Norfolk Southern Railway
+Company (“Norfolk”) to transport the machinery from Savannah to Huntsville. Id. The incident
+giving rise to the suit occurred when the Norfolk train carrying the machinery derailed during
+transport causing $1.5 million in alleged damages . Id. When Kirby sued Norfolk to recover its
+loss, Norfolk argued—among other things —that Kirby’s potential recovery from Norfolk was
+limited to the provisions set forth in the two bills of ladings. The Supreme Court agreed.6
+The Court first discussed the enforceability of the limitation provision in the ICC bill. Id.
+at 30. The Court focused on the expansive language of the bill’s Himalaya Clause and whether
+Norfolk would be an intended beneficiary of that clause. Because the Clause provided that “any
+servant, agent, or other person (including any independent contractor)” could benefit from the
+
+3 COGSA’s default package limitation provides that “neither the carrier nor the ship shall in any event be or become
+liable for any loss or damage to or in connection with the transportation of goods in an amount exceeding $500 per
+package lawful money of the United States. . . unless the nature and value of such goods have been declared by the
+shipper before shipment and inserted in the bill of lading.” 46 U.S.C. App. § 1304(5).
+4 The Himalaya Clause states “[t]hese conditions [for limitations on liability] apply whenever claims  relating to the
+performance of the contract evidenced  by this [bill of lading] are made again st any servant, agent, or other person
+(including any independent contractor) whose services have been used in order to perform the contract.” Id. at 20-21.
+5 The full name of this company is Hamburg S üdamerikanische Dampfschiffahrts-Gesellschaft Eggert & Amsinck.
+Id. at 21.
+6 This court notes that the Supreme Court in Kirby  also discussed whether federal law governed the interpretation of
+the ICC and Hamburg S üd bills. Because that is not of issue in the instant matter, this Court n eed not discuss that
+section of Kirby further.
+Case 2:23-cv-00027-EEF-KWR   Document 118   Filed 03/15/24   Page 14 of 21
+15
+
+limitation provision, the Court found Norfolk to be an intended beneficiary of the clause as ICC’s
+sub-subcontractor responsible for the land transport of the machinery. Id. at 30-32. The Court also
+took into consideration that the ICC bill contained a higher limitation amount for the land transport.
+Thus, it held that Norfolk’s liability was limited by terms of the ICC bill.
+Discussing the validity of the limitation in the Hamburg Süd bill presented a more difficult
+challenge for the Court as the liability of Norfolk would be lowered even further than that of the
+ICC bill. Id. at 32. This is because the Hamburg Süd bill extended the COGSA default rule to the
+land transport. To reach its decision, the Court cites its previously stated rule on common carriage,
+which provides “when an intermediary contracts with a carrier to transport goods, the cargo
+owner’s recovery against the carrier is limited by the liability limitation to which the intermediary
+and carrier agreed.” Id. at 33. The Court notes that this rule does not suggest that an intermediary
+is always a cargo owner’s agent; however, “when it comes to liability limitations for negligence
+resulting in damage, an intermediary can negotiate reliable and enforceable agreements with the
+carriers it engages.” Id.  Importantly, the Court stressed that while Norfolk is entitled to the
+protections of both bills, it “recognize[d] that our decision does no more than provide a legal
+backdrop against which future bills of lading will be negotiated.” Id. at 36.
+Here, while contractual relationships between the parties are similar, Cooper attempts to
+extend Kirby to private contracts . Kirby stands for the proposition that downstream parties can
+enforce upstream the package limitation provisions found in contracts for common carriage .
+However, the present BTA is a contract for private carriage.  This Court concludes that Kirby is
+limited to contracts of common carriage.7 Thus, under Kirby, Cooper is not entitled to extend the
+BTA’s liability provision against Plaintiffs.
+
+7 The Court stresses that in reaching this conclusion, it did not consider Section II of Kirby for reasons mentioned in
+n.6. Thus, this Court presently declines to take any position on the enforceability of Section II on private contracts.
+Case 2:23-cv-00027-EEF-KWR   Document 118   Filed 03/15/24   Page 15 of 21
+16
+
+This Court is not inclined to hold otherwise for public policy reasons as well. Unlike private
+carriers, common carriers are subject to several rules to regulate the industry. See Great Northern
+R. Co. v. O’Connor , 232 U.S. 508, 509  (1914); see also Interstate Commerce Comm’n v.
+Delaware, Lackawanna, & Western R. Co., 220 U.S. 235, 242-43 (1911). Such rules are absent in
+the private industry, which give carriers more ownership of the contract they choose to enter. F or
+example, the Supreme Court notes that it is routine for common carriers to not know if they are
+contracting with an intermediary or a cargo owner. Accordingly, “a rule prompting downstream
+carriers to distinguish between cargo owners and intermediary shippers might interfere with the
+statutory and decisional law promoting nondiscrimination in common carriage.” Kirby , 543 U.S.
+14, 35. Such an issue is irrelevant in instances of private carriage. Thus, the Court is unconvinced
+that it should permit Cooper to apply the limitation provision against Plaintiffs.
+ Because the Court declines to apply Kirby to private carriage contracts and Cooper
+provides no other basis to extend the  BTA’s limitation provision against Plaintiffs KG Dongbu
+and DB Insurance Co. Ltd., the Court finds that Cooper cannot enforce the provision against them.
+c. Whether Marquette C an Enforce the Package Limitation A gainst Panobulk
+or Plaintiffs
+
+Like Cooper, Marquette argues that it is entitled to enforce the limitation provision against
+Plaintiffs and Panobulk pursuant to Kirby. Because the Court holds  that Kirby is inapplicable to
+the current matter, Marquette must have some alternate justification for the Court to find that
+Marquette is entitled to the BTA limitation protection. Since it does not do so to support its claim
+against Plaintiffs, the Court finds that Marquette cannot enforce the limitation against Plaintiffs.
+Regarding its enforceability against Panobulk, Marquette alternatively argues that it should
+benefit from the provision because it stepped into the shoes of Cooper for purposes of fulfilling
+the BTA. Marquette cites Pure Oil Co. v. M/V Caribbean for support, in which the court held a
+Case 2:23-cv-00027-EEF-KWR   Document 118   Filed 03/15/24   Page 16 of 21
+17
+
+carrier’s subcontractor could enjoy the benefit of a limitation provision found in a contract between
+the carrier and the cargo owner . 235 F. Supp. 299 (W.D. La . 1964). In that case, a maritime
+collision occurred involving a Brent Towing Company (“Brent Towing”) tug pulling a barge and
+another tug owned by Caribbean Towing Company (“Caribbean”). The barge, owned by Silvey-
+Taylor Barge Company (“Silvey Taylor”), was carrying petroleum  owned by Pure Oil.
+Accordingly, Pure Oil filed suit against Caribbean for damages, which resulted in several
+impleader, libel, and cross -libel claims involving all of the parties. Of relevance, Brent Towing
+filed a cross -libel claim against Pure Oil seeking to enforce a liability provision found in the
+contract between Silvey-Taylor and Pure Oil as those two parties had originally contracted to move
+the cargo. Relevant parts of the limitation provision in that contract provide:
+ INSURANCE AND MARITIME PERILS:
+[Pure Oil] shall and it does hereby agree to hold [Silvey-Taylor], its
+tow, masters, crew, agents and employees harmless for claims for cargo
+loss, damage or contamination whether arising or resulting from an act of
+neglect or default in the navigation or management of the vessel, including
+but not limited to . . .peril, danger or accident of navigable waters or from
+any other cause whatsoever kind arising.
+
+Id. at 303.
+However, after Silvey-Taylor’s tug became inoperative, it contracted with Brent Towing,
+for a consideration of 65% of the revenue collected for the cargo transport, to provide a tug to
+finish the petroleum delivery. Id. Pure Oil consented to this substitution. Id.
+Accordingly, the court held that Brent Towing was entitled to limit its liability to Pure Oil
+because it fulfilled  Silvey-Taylor’s obligati ons to Pure Oil . It further noted that  under these
+circumstances “where the parties contract freely, at a fair rate which expressly  takes into
+consideration economic factors bearing upon the services performed , public policy does not
+require that the provision of this contract be stricken.” Id. at 305. The above findings paired with
+Case 2:23-cv-00027-EEF-KWR   Document 118   Filed 03/15/24   Page 17 of 21
+18
+
+the fact that Pure Oil agreed to the substitution lead the court to conclude that Brent Towing could
+enjoy the protection of the limitation provision found in the Pure Oil and Silvey-Taylor contract.
+Marquette’s reliance on Pure Oil misses the mark. First, the Court notes that the limitation
+provision in the Pure Oil contract to be much broader than the BTA’s limitation clause s. The
+expansive Pure Oil Clause provided that Pure Oil “shall and it does herby agree to hold [Silvey-
+Taylor], its tow, masters, crew, agents and employees harmless for claims for cargo loss. . .” Id. at
+303. Here, on the other hand, Paragraphs 24 and 42 expressly provide that that only the Carr ier’s
+liability is limited to $500 per package in the event of cargo damage for which the Carrier —not
+Carrier Party—could be found liable. Of note, the BTA expressly identifies “Carrier” in Paragraph
+1 as Cooper and defines “Carrier Party” in Paragraph 26:
+26. Carrier and Shipper Parties: Carrier and its affiliates and its and
+their employees, vendors, vessels, contractors, subcontractors at any tier or
+agents shall be referred to as a “Carrier Party” . . .
+
+R. Doc. 39-2 at ¶ 26.
+ Based on these definitions, the Court finds that Marquette would fall under “Carrier Party”
+as though affiliated, it is an entity distinct from Cooper. As such, the Court finds that if Cooper
+wished for Paragraphs 24 and 42 to extend to Carrier Parties, it could have expressly done so as it
+has in other paragraphs of the BTA. See R. Doc. 39-2 at ¶ 44 (“Indemnity: Shipper shall protect,
+defend, indemnify and hold Carrier Parties . . . harmless from and against all losses . . . arising
+from or related to (1) Shipper’s breach of this Agreement, and or (ii) the fault . . . of Shipper. . .”)
+(emphasis added). Without any statement in the BTA indicating that the limitation extends to a
+Carrier Party, this Court cannot grant Marquette’s wish to find that Paragraph 26 operates  as a
+Himalaya Clause.
+Next, Marquette argues that like Brent Towing, it substituted into Cooper’s place to furnish
+Case 2:23-cv-00027-EEF-KWR   Document 118   Filed 03/15/24   Page 18 of 21
+19
+
+Cooper’s obligations under the BTA and that Panobulk approved this substitution in Paragraph 30
+of the BTA. That paragraph provides:
+30. Transport of Barges: Carrier shall not be bound to transport a
+barge loaded with Shipper’s cargo by any part icular towboat or in time for
+a particular market.
+
+If due to operating conditions, it is necessary in the judgment of Carrier to
+delay movement while in transit, Carrier reserves the right to do so. . . .
+under no circumstances shall Carrier be liable for any loss, damage, or
+expense incurred by Shipper or others by reason of delay.
+
+R. Doc. 39-2 at ¶ 30.
+This argument also fails. First, the Court finds tenuous that the statement “Carrier shall not
+be bound to transport a barge loaded with Shipper’s cargo by any particular towboat” suggests that
+Panobulk approved any and all towboat substitutions. Further, unlike the substitution in  Pure Oil
+where Silvey-Taylor and Brent Towing contracted with consideration, there is no evidence of a
+substitution contract with consideration between Cooper and Marquette here. Thus, the Court
+cannot take into consideration the public policy factors tha t were present in Pure Oil. Even if the
+Court were to hold that Marquette furnished Cooper’s obligations to Panobulk under the BTA, this
+would not overcome the barrier that  the BTA’s express limitation provisions only apply to the
+Carrier and not Carrier Parties.
+Accordingly, the Court remains unconvinced that the BTA’s limitation provisions extend
+to Marquette. Thus, the Court finds that Marquette cannot enforce the BTA’s package limitation
+against either Panobulk or Plaintiffs.
+At this juncture, the Court has held that Cooper is entitled to enforce the package limitation
+against Panobulk pursuant to the BTA , but that Cooper is not entitled to enforce the provision
+against Plaintiffs. The Court has also held that Marquette cannot enforce the provision aga inst
+either Panobulk or Plaintiffs. Accordingly, the Court need not discuss Marquette’s request to
+Case 2:23-cv-00027-EEF-KWR   Document 118   Filed 03/15/24   Page 19 of 21
+20
+
+enforce the provision against Coastal’s claims for contribution for Panobulk’s and Plaintiffs’
+claims against Coastal because they are rendered moot. It foll ows that the Court need not discuss
+Cooper’s request to enforce the provision against Coastal claims for contribution for Plaintiffs’
+claims against Coastal. All that is left to discuss is Coastal’s motion for partial summary judgment
+against Cooper pursua nt to its contribution claims for its potential liability to Panobulk and
+Cooper’s request to enforce the package limitation against Coastal pursuant to those same claims.
+d. Whether McDermott, Inc. v. AmClyde, 511 U.S. 202 (1994) is Applicable to the
+Instant Matter
+
+Because the Court finds that Cooper can enforce the package limitation against Panobulk,
+Coastal argues that it is entitled to a pro rata reduction in its share of liability under AmClyde. The
+Court declines to comment on the applicability of AmClyde to the present case because the Court
+is not currently considering the issue of liability, rather  it presently focuses on the enforceability
+of a limitation  provision. It has yet to be determined who is liable for the damage to Plaintiffs’
+cargo and further, much of the Supreme Court’s discussion in AmClyde  centered around the
+enforcement of provisions found in a settlement agreement. Because the provision of moment is
+found in a private contract for affreightment and the liability of the parties remains unresolved, the
+Court finds that any opinion it may have on AmClyde would be premature.
+e. Whether Cooper C an Enforce the P ackage Limitation Against Coastal for
+Coastal’s Contribution Claim Against It
+
+In its second motion for partial summary judgment, Cooper argues that it should be entitled
+to enforce the  limitation provision against Coastal’s contribution claims for Coastal’s alleged
+liability to Panobulk. The Court finds this argument unavailing.
+The Court holds that  Cooper cannot enforce the package limitation provision against
+Coastal because Coastal was not a party to the BTA. Law binding on this court holds that “[u]nder
+Case 2:23-cv-00027-EEF-KWR   Document 118   Filed 03/15/24   Page 20 of 21
+21
+
+the general principles of contract law, it is axiomatic that courts cannot b ind a non- party to a
+contract because that party never agreed to the terms set forth therein.” Further,  Cooper does not
+provide evidence  that would support enforcing the limitation provision against Coastal.
+Accordingly, the Court declines to distort basic principles of contract law to find the BTA to be
+binding on a litigant that had no bargaining rights in and was not a party to the contract.8 Thus, the
+Court denies Cooper’s second motion for summary judgment.
+V. CONCLUSION
+
+For the foregoing reasons, Cooper’s Motion for Partial Summary Judgment, R. Doc. 39, is
+GRANTED, in part, and DENIED, in part. Cooper’s Motion for Partial Summary Judgment, R.
+Doc. 83, is DENIED. Marquette’s Motion for Partial Summary Judgment, R. Doc. 80, is
+DENIED. Coastal’s Motion for Partial Summary Judgment, R. Doc. 49, is DENIED AS
+PREMATURE. Should the issue of liability of the parties come before the Court, Coastal reserves
+the right to re-urge its motion for partial summary judgment.
+New Orleans, Louisiana this 15th day of March, 2024.
+
+8 If the parties disagree about the amount of damages each party is responsible for after the issue of liability has been
+resolved, the parties reserve the rights to re -urge these arguments for the Courts to settle  at that time. However, as
+stressed previously, the issue of liability is not before the Court at this time.
+United States District Judge
+Case 2:23-cv-00027-EEF-KWR   Document 118   Filed 03/15/24   Page 21 of 21
