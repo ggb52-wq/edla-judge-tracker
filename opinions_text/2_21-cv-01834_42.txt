@@ -1,0 +1,324 @@
+1
+
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+ANTHONY J. STEWART, ET AL.   CIVIL ACTION
+
+VERSUS       NO. 21-1834
+
+ENTERGY CORP., ET AL.    SECTION “L” (5)
+
+ORDER AND REASONS
+
+Before the Court is Plaintiffs’ Motion to Remand to State Court, R. Doc. 11. Defendants
+filed an opposition, R. Doc. 24, to which Plaintiffs filed a reply, R. Doc. 31. The Court heard oral
+argument on January 19, 2022. Having considered the briefing and the applicable law, the Court
+now rules as follows.
+I. BACKGROUND
+Plaintiffs filed a Class Action Petition for Damages in Civil District Court for the Parish
+of Orleans on September 18, 2021. R. Doc. 1-1. Plaintiffs name Entergy Corporation, Entergy
+New Orleans, LLC, and Entergy Louisiana, LLC (collectively, “Entergy”) as Defendants and
+claim damages due to power outages after Hurricane Ida, which Plaintiffs allege were caused by
+Entergy’s negligence. Id. at 1. Plaintiffs seek damages for emotional distress and mental anguish;
+loss of habitation and relocation costs; property damage; physical injuries; and the wrongful
+death of at least ten individuals. Id. at 15. Plaintiffs assert that they are all citizens of Louisiana,
+as are all three Defendants. Id. at 2-4.
+Defendants removed the case to this Court on October 6, 2021. R. Doc. 1. Defendants’
+Notice of Removal asserts that this Court has subject-matter jurisdiction, even though Plaintiffs
+only bring state law negligence claims, because the infrastructure and alleged actions in question
+Case 2:21-cv-01834-EEF-MBN   Document 42   Filed 03/07/22   Page 1 of 13
+2
+
+are subject to federal regulation. Id. at 3-4. Thus, Defendants argue, Plaintiffs’ negligence claims
+depend on questions of federal law because federal regulations establish the standard of care for
+the relevant activities. Id. at 6. Specifically, Defendants cite the Federal Power Act (“FPA”),
+which gives the Federal Energy Regulatory Commission (“FERC”) jurisdiction over all facilities
+for the transmission of electric energy in interstate commerce. Id. at 4. Defendants’ Notice of
+Removal also asserts that this Court has subject-matter jurisdiction under the Class Action
+Fairness Act (CAFA). Id. at 8-12. Defendants further claim that this Court has subject-matter
+jurisdiction because Plaintiffs’ claims implicate core proceedings under the Court’s bankruptcy
+jurisdiction based on Entergy’s 2007 bankruptcy. Id. at 12-14.
+In their Answer, Defendants generally deny Plaintiffs’ allegations and assert affirmative
+defenses including, among others, that Plaintiffs’ alleged damages were caused by acts of nature
+for which Defendants cannot be held liable; that Plaintiffs failed to mitigate their damages; that
+Plaintiffs’ claims are preempted by federal law, including the FPA and the North American
+Electric Reliability standards adopted by FERC; that Plaintiffs’ allegations do not satisfy the
+requirements under Louisiana or federal law for class certification; and that, to the extent that
+Plaintiffs’ claims are based on alleged actions by Defendants that occurred more than one year
+before the filing of this suit, the claims are prescribed. R. Doc. 15 at 1-3.
+II. PENDING MOTION
+Plaintiffs have filed a motion to remand this case to state court. R. Doc. 11. Plaintiffs argue
+(1) that Defendants have not met their burden to establish that this suit raises a federal question;
+(2) that Plaintiffs’ claims fit within exceptions to CAFA; and (3) that Entergy’s prior bankruptcy
+does not t rigger federal jurisdiction. Id. Plaintiffs also seek fees  for wrongful removal  and
+alternatively seek jurisdictional discovery. Id.
+Case 2:21-cv-01834-EEF-MBN   Document 42   Filed 03/07/22   Page 2 of 13
+3
+
+Defendants oppose the motion to remand, reiterating the arguments from their Notice of
+Removal. R. Doc. 24. Specifically, Defendants argue that federal subject-matter jurisdiction exists
+because (1) federal law defines the standard of care for Plaintiffs’ claims; (2) Plaintiffs have not
+proved that exceptions to CAFA apply; and (3) Plaintiffs’ Petition includes claims against Entergy
+that were discharged in bankruptcy proceedings in 2007, such that a federal court should determine
+which claims were previously discharged in bankruptcy to avoid relitigating them. Id.
+III. APPLICABLE LAW
+a. Federal Subject-Matter Jurisdiction
+Federal courts have jurisdiction over “all civil actions arising under the Constitution, laws,
+or treaties of the United States .” 28 U.S.C. § 1331. This subject-matter jurisdiction may serve as
+the basis for a defendant’s removal of a lawsuit from state court to federal court. 28 U.S.C. §
+1441(a). The removing party bears the burden of demonstrating that a federal court has subject -
+matter jurisdiction over the suit—that is, that federal law governs the issues involved. B., Inc. v.
+Miller Brewing Co., 663 F.2d 545, 549 (5th Cir. 1981) . Moreover, “[t]he removal statute [must]
+be strictly construed, and any doubt about the propriety of removal must be resolved in favor of
+remand.” Gasch v. Hartford Acc. & Indem. Co., 491 F.3d 278, 281–82 (5th Cir. 2007). “Only in a
+‘special and small category’ of cases will federal jurisdiction exist when state law creates the cause
+of action.” Bd. of Commissioners of Se. Louisiana Flood Prot. Auth.-E. v. Tennessee Gas Pipeline
+Co., L.L.C., 850 F.3d 714, 721 (5th Cir. 2017) (quoting Gunn v. Minton, 568 U.S. 251, 258 (2013)).
+Federal subject-matter jurisdiction exists only if a federal question is presented on the face
+of the plaintiff’s well-pleaded complaint. Caterpillar Inc. v. Williams , 482 U.S. 386, 392 (1987) .
+This “well-pleaded complaint” rule “makes the plaintiff the master of the claim ,” allowing the
+plaintiff to “ avoid federal jurisdiction by exclusive reliance on state law ”—even if the plaintiff
+Case 2:21-cv-01834-EEF-MBN   Document 42   Filed 03/07/22   Page 3 of 13
+4
+
+“has a choice between federal and state law claims.” Id. ; Henry J. Ellender Heirs, LLC v. Exxon
+Mobil Corp., 42 F. Supp. 3d 812, 820 (E.D. La. 2014). A suit may not be removed merely because
+an anticipated defense invokes federal law, including the defense of preemption. Caterpillar, 482
+U.S. at 393. The exception to this rule is when “an area of state law has been completely pre -
+empted,” in which case “any claim purportedly based on that pre-empted state law is considered,
+from its inception, a federal claim.” Id.
+Moreover, a  federal court may have subject -matter jurisdiction over a claim initially
+asserted under state law only if the claim raises a federal issue. Gunn, 568 U.S. at  258. There are
+four requirements for this to be true: “a federal issue is: (1) necessarily raised, (2) actually disputed,
+(3) substantial, and (4) capable of resolution in federal court without disrupting the federal -state
+balance approved by Congress.” Id. The meaning of “substantial” here is that the issue is
+“important[t] . . . to the federal system as a whole,” with “broader significance” to the relevant
+area of federal  law beyond the individual case. Id.  at 260. However, “t he fact that a substantial
+federal question is necessary to the resolution of a state-law claim is not sufficient to permit federal
+jurisdiction.” Singh v. Duane Morris LLP , 538 F.3d 334, 338 (5th Cir . 2008). Rather, all four
+requirements must be satisfied. Id.
+b. Consideration of Post-Removal Amendments
+Plaintiffs filed a Second Amended Complaint after removal while their  motion to remand
+was pending. However, in deciding the motion to remand, the Court must only consider the
+complaint (or in this case, petition for damages) as it appeared at the time of removal.  See Spear
+Mktg., Inc. v. BancorpSouth Bank , 791 F.3d 586, 593 (5th Cir. 2015)  (holding that “the relevant
+record” in deciding a motion to remand is only the plaintiff’s original petition because
+“[j]urisdictional facts are determined at the time of removal . . . ”); In re Carter, 618 F.2d 1093,
+Case 2:21-cv-01834-EEF-MBN   Document 42   Filed 03/07/22   Page 4 of 13
+5
+
+1101 (5th Cir. 1980) (“[i]t is a fundamental principle of law that whether subject matter jurisdiction
+exists is a question answered by looking to the complaint as it existed at the time the petition for
+removal was filed.”).
+c. Standard of Care for Electricity Transmission Infrastructure
+The parties dispute the standard of care that applies to claims of negligent operation of
+electricity transmission infrastructure. Defendants argue that federal regulations set the standard
+of care for the operation of electricity transmission facilities. Specifically, Defendants argue that
+FERC standards set the standard of care and preempt state tort law. However, the cases Defendants
+cite for this argument involve hydroelectric power, a distinct topic governed by specific sections
+of the FPA . In the area of hydroelectric power, c ourts have explicitly found that federal law
+preempts state tort law. See Simmons v. Sabine River Auth. Louisiana, 732 F.3d 469, 476 (5th Cir.
+2013) (holding that “ FERC, not state tort law, must set the appropriate duty of care for dam
+operators [emphasis added].”); Bonin v. Sabine River Auth. of Texas, No. 1:17-CV-134, 2018 WL
+1190236, at *1 (E.D. Tex. Feb. 8, 2018), report and recommendation adopted, No. 1:17-CV-134,
+2018 WL 1184454 (E.D. Tex. Mar. 7, 2018), aff ’d sub nom. Bonin v. Sabine River Auth. of
+Louisiana, 961 F.3d 381 (5th Cir. 2020) (involving a reservoir governed by FERC’s hydroelectric
+power provisions). Regarding the operation of electricity transmission facilities more generally,
+aside from hydroelectric power, it is not clear that federal law has established a specific  standard
+of care that preempts state tort law. In fact, savings clauses in the FPA specifically reserve states’
+authority to ensure  the adequacy and safety of electric facilities.  See 16 U.S.C. § 824o(i)(3 )
+(“Nothing in this section shall be construed to preempt any authority of any State to . . . ensure the
+safety, adequacy, and reliability of electric service within that State, as long as such action is not
+inconsistent with any reliability standard . . . .”). Moreover, courts have established that the FPA
+Case 2:21-cv-01834-EEF-MBN   Document 42   Filed 03/07/22   Page 5 of 13
+6
+
+does not completely preempt state law in the field of electricity regulation. See Ne. Rural Elec.
+Membership Corp. v. Wabash Valley Power Ass ’n, Inc., 707 F.3d 883, 894 (7th Cir. 2013)
+(collecting cases with this result).
+Plaintiffs argue that state tort law  and industry standards like the National Electric Safety
+Code (“NESC”) set the standard of care for electricity transmission infrastructure. Plaintiffs cite
+cases in which courts have applied Louisiana negligence standards and NESC standards to evaluate
+claims against electric  utilities alleging negligent operation of transmission facilities . See, e.g.,
+Ellender, 42 F. Supp. 3d at 821 (holding that Louisiana tort law governed plaintiff’s negligence
+claims, even though they “relat[ed] to the regulatory scheme created by the FERC,” because there
+were no “substantial federal questions” involved); Burley v. Louisiana Power & Light Co., 319
+So. 2d 334, 339 (La. 1975)  (holding that NESC standards were relevant to determining whether
+an electric utility had breached its duty in a negligence case).
+d. Class Action Fairness Act
+The Class Action Fairness Act  (“CAFA”) gives federal co urts jurisdiction over class
+actions in which (1) the amount in controversy is at least five million dollars; (2) there is minimal
+diversity, meaning “any member of a class of plaintiffs is a citizen of a State different from any
+defendant”; (3) the number of plaintiffs in the proposed class is at least one hundred; and (4) the
+primary defendants are not states, state officials, or other government entities . 28 U.S.C. §
+1332(d)(2), (5);  Hollinger v. Home State Mut. Ins. Co., 654 F.3d 564, 569 (5th Cir. 2011) .
+However, CAFA also provides exceptions in which it does not apply. These  exceptions include
+the “local controversy” exception and the “home state” exception.
+The “local controversy” exception precludes federal jurisdiction over class actions in which
+(1) “greater than two-thirds of the members of all proposed plaintiff classes in the aggregate are
+Case 2:21-cv-01834-EEF-MBN   Document 42   Filed 03/07/22   Page 6 of 13
+7
+
+citizens of the State in which the action was originally filed ”; (2) at least one defendant “ from
+whom significant relief is sought ” and “ whose alleged conduct forms a significant basis for the
+claims asserted by the proposed plaintiff class” is also a citizen of the state in which the action was
+originally filed; (3) “principal injuries resulting from the alleged conduct or any related conduct of
+each defendant were incurred in the State in which the action was originally filed”; and (4) “during
+the 3-year period preceding the filing of that class action, no other class action has been filed
+asserting the same or similar factual allegations against any of the defendants on behalf of the same
+or other persons .” 28 U.S.C. § 1332(d) (4)(A). The “home state” exception precludes federal
+jurisdiction over class actions in which “ two-thirds or more of the members of all proposed
+plaintiff classes in the aggregate, and the primary defendants, are citizens of the State in which the
+action was originally filed.” 28 U.S.C. § 1332(d)(4)(B).
+The purpose of these two exceptions is to exclude “a narrow category of truly localized
+controversies”; the exceptio ns allow district courts to “ ferret out the controversy that uniquely
+affects a particular locality to the exclusion of all others .” Preston v. Tenet Healthsystem Mem’l
+Med. Ctr., Inc., 485 F.3d 804, 823 (5th Cir. 2007) . District courts are permitted to make
+“reasonable assumption[s]” and “credible estimates ,” based on the evidence available,  about the
+citizenship of proposed class members in determining whether a class action fits  within CAFA’s
+exceptions. Id. at 817, 822. However, the applicability of an exception to CAFA must be shown
+with “reasonable certainty,” and a court faced with uncertainty should rule in favor of exercising
+jurisdiction. Arbuckle Mountain Ranch of Tex., Inc. v. Chesapeake Energy Corp., 810 F.3d 335,
+338 (5th Cir. 2016).
+e. Federal Jurisdiction Over Claims Related to Bankruptcy Proceedings
+Case 2:21-cv-01834-EEF-MBN   Document 42   Filed 03/07/22   Page 7 of 13
+8
+
+Federal district courts have “original and exclusive jurisdiction  of all cases under title 11
+[the United States Bankruptcy Code]” and all cases “related to cases under title 11.” 28 U.S.C. §
+1334(a). Federal jurisdiction may still apply after a bankruptcy proceeding is closed if necessary
+to enforce rights protected by the Bankruptcy Code . See In Matter of Galaz , 841 F.3d 316, 322
+(5th Cir. 2016)  (“[s]ubject matter jurisdiction remains in the bankruptcy court, even after a
+bankruptcy case is closed, ‘ to assure that the rights afforded to a debtor by the Bankruptcy Code
+are fully vindicated. ’”) (quoting Padilla v. Wells Fargo Home Mortg., Inc. (In re Padilla) , 379
+B.R. 643, 652 n.4 (Bankr. S.D. Tex. 2007) ). Thus, federal subject matter jurisdiction extends to
+cases that are related to past bankruptcy proceedings.
+Cases “related to” a bankruptcy proceeding include “those whose outcome could have any
+conceivable effect on the estate being administered in bankruptcy.” In re Morrison, 555 F.3d 473,
+479 (5th Cir. 2009) . In other words, “[f] or jurisdiction to attach, the anticipated outcome of the
+action must both (1) alter the rights, obligations, and choices of action of the debtor, and (2) have
+an effect on the administration of the estate.”  In re Bass, 171 F.3d 1016, 1022 (5th Cir. 1999).
+Moreover, “[t]he court to which [a bankruptcy-related case] is removed may remand such
+claim or cause of action on any equitable ground.” 28 U.S.C. § 1452(b). This discretionary ability
+to remand a case is known as “permissive abstention.” See Briese v. Conoco -Phillips Co., No.
+2:08-CV-1884, 2009 WL 256591, at *4 (W.D. La. Feb. 3, 2009) . Factors courts may consider in
+deciding whether a case warrants permissive abstention include (1)  forum non conveniens; (2) “a
+holding that, if the civil action has been bifurcated by removal, the entire action should be tried in
+the same court”; (3) “a holding that a state court is better able to respond to questions involving
+state law”; (4) “expertise of the particular court”; (5) “duplicative and uneconomic effort of judicial
+resources in two forums ”; (6) “ prejudice to the involuntarily removed parties ”; (7) “ comity
+Case 2:21-cv-01834-EEF-MBN   Document 42   Filed 03/07/22   Page 8 of 13
+9
+
+considerations”; and (8) “a lessened  possibility of an inconsistent result .” Browning v. Navarro,
+743 F.2d 1069, 1076 n.21 (5th Cir. 1984).
+IV. DISCUSSION
+a. Federal Question Jurisdiction Based on Federal Regulation of Electricity
+Infrastructure
+Plaintiffs argue that Defendants have not met their burden to prove the existence of federal
+question jurisdiction based on federal laws governing electricity infrastructure. R. Doc. 11-2 at 4.
+Plaintiffs assert that this case does not involve a federal agency’s interpretation of a statute;  that
+the existence of federal regulations is insufficient to confer federal jurisdiction without an express
+grant of federal jurisdiction by Congress ; and that federal law itself establishes that state law
+governs the tort liability of utility providers. Id.  at 5, 8. Defendants argue that federal question
+jurisdiction applies because federal law, specifically federal regulation of electricity infrastructure,
+defines the standard of care for Plaintiffs’ negligence claims. R. Doc. 24 at 4. Thus, Defendants
+argue, resolving a federal issue is necessary to resolving Plaintiffs’ claims; a federal issue is
+actually disputed here; the federal issue is substantial; and federal jurisdiction will not disturb the
+balance of federal and state judicial roles. Id. at 4, 19.
+The Court finds that there is not subject matter jurisdiction based on federal regulation of
+electricity infrastructure. While Defendants argue that FERC regulations  set the standard of care
+in this area and preempt state tort law, Defendants have not cited legislation or case law explicitly
+establishing that FERC’s regulations impose a standard of care that preempts state law.
+Meanwhile, Plaintiffs have cited cases in which courts, including this Court, have applied state tort
+law to negligence claims against electricity utilities, indicating that state law can provide a cause
+of action for such claims.
+Case 2:21-cv-01834-EEF-MBN   Document 42   Filed 03/07/22   Page 9 of 13
+10
+
+Moreover, under the well-pleaded complaint rule, the Court must give weight to Plaintiffs’
+choice to bring their claims under state law. Caterpillar Inc. v. Williams, 482 U.S. 386, 392 (1987).
+It is not apparent from the face of Plaintiffs’ Petition that their claims arise under federal law. Thus,
+the Court must analyze the four factors from Gunn—whether  “a federal issue is: (1) necessarily
+raised, (2) actually disputed, (3) substantial, and (4) capable of resolution in federal court without
+disrupting the federal-state balance approved by Congress.” 568 U.S. at 258. Because Defendants
+have not established that Plaintiffs’ claims necessarily implicate a  specific federal law, this
+analysis fails on the first two factors . It is not clear that a federal issue is necessarily raised or
+actually disputed, not to mention whether any such federal issue is substantial or capable of
+resolution without disrupting the federal-state balance of powers. Given that “any doubt about the
+propriety of removal must be resolved in favor of remand,” remand is appropriate under this theory
+of federal question jurisdiction. Gasch v. Hartford Acc. & Indem. Co., 491 F.3d 278, 281–82 (5th
+Cir. 2007).
+b. Class Action Fairness Act
+Plaintiffs argue that removal under CAFA is improper because exceptions to CAFA apply.
+R. Doc. 11-2 at 14-15. First, Plaintiffs argue that CAFA’s  “local controversy” exception applies
+because more than two-thirds of the proposed class members are Louisiana citizens, at least one
+Defendant is a Louisiana citizen, and the principal injuries alleged occurred in Louisiana. Id.  at
+17-19. Second, Plaintiffs argue that CAFA’s “home state” exception applies because two-thirds of
+the proposed class members and the primary Defendants are Louisiana citizens. Id.  at 19. 1
+
+1 Plaintiff’s also argue that CAFA’s “discretionary jurisdiction” exception applies because
+greater than one-third but less than two-thirds of proposed class members, along with the
+primary Defendants, are Louisiana citizens. However, this argument seems to contradict
+Plaintiffs’ arguments about the other two exceptions, which are premised on more than two-
+thirds of proposed class members being Louisiana citizens, and the Court finds it unconvincing.
+Case 2:21-cv-01834-EEF-MBN   Document 42   Filed 03/07/22   Page 10 of 13
+11
+
+Defendants argue that neither CAFA exception applies and that Plaintiffs have not met their burden
+to prove these exceptions with reasonable certainty. R. Doc. 24 at 23-24.
+The Court finds that both CAFA exceptions apply and that CAFA does not provide federal
+question jurisdiction. The Court is permitted to make “reasonable assumption[s]” and “credible
+estimates” in determining whether the criteria of the exceptions are satisfied. Preston v. Tenet
+Healthsystem Mem’l Med. Ctr., Inc., 485 F.3d 804, 817, 822 (5th Cir. 2007). Using this discretion,
+the exceptions appear satisfied on their face. The “local controversy” exception is satisfied because
+(1) greater than two-thirds of the proposed class  members are Louisiana citizens; (2) at least one
+defendant “from whom significant relief is sought” and “whose alleged conduct forms a significant
+basis for the claims asserted by the proposed plaintiff class ” is a Louisiana citizen ( here, all
+Defendants are Louisiana citizens); (3) “principal injuries resulting from the alleged conduct or
+any related conduct of each defendant” occurred in Louisiana; and (4) no similar class action on
+behalf of the same Plaintiffs has been filed in the last three years. 28 U.S.C. § 1332(d)(4)(A). The
+“home state” exception is also satisfied because at least two -thirds of the proposed Plaintiffs are
+Louisiana citizens, as are the primary Defendants. 28 U.S.C. § 1332(d)(4)(B).
+Both of these conclusions depend on the Court’s assumption that at least two-thirds of the
+proposed class members are Louisiana citizens. Given Plaintiffs’ insistence t hat they only intend
+to include Louisiana citizens in this lawsuit; the survey conducted by Plaintiffs’ counsel to verify
+the citizenship of the class members; and the fact that the alleged damages occurred in Louisiana
+and involve Plaintiffs who live and conduct business in Louisiana, the Court finds it reasonable to
+assume that at least two-thirds of the proposed class members will be Louisiana citizens.
+c. Federal Jurisdiction Over Claims Related to Bankruptcy Proceedings
+Case 2:21-cv-01834-EEF-MBN   Document 42   Filed 03/07/22   Page 11 of 13
+12
+
+Plaintiffs argue that their claims do not trigger federal jurisdiction based on bankruptcy law
+because their claims are not related to Entergy’s 2007 bankruptcy proceeding. R. Doc. 11-2 at 20.
+Plaintiffs further argue that remand is appropriate under  the doctrine of permissive abstention
+because a state court would be better able to resolve Plaintiffs’ state law claims and because the
+Court should give weight to Plaintiffs’ choice of forum. Id.  at 23 -24. Defendants argue that
+Plaintiffs’ Petition includes claims that were discharged in Entergy’s 2007 bankruptcy proceeding
+and that a federal court must determine which claims were discharged to prevent relitigation of
+those claims. R. Doc. 24 at 29. Defendants also argue that the Court should not exercise permissive
+abstention because Plaintiffs have not specified any prejudice that hearing this case in federal court
+would cause and litigating this suit in federal court would be as efficient as doing so in state court.
+Id. at 32-33.
+The Court finds that there is not federal jurisdiction based on Entergy’s prior ba nkruptcy
+proceeding. Defendants have not shown that  this lawsuit is sufficiently related to the 2007
+bankruptcy proceeding to “alter[] the rights, obligations, and choices of action of the debtor” or
+“have an effect on the administration of the estate.” In re Bass, 171 F.3d at 1022. Moreover,
+Plaintiffs’ arguments that a state court would be better able to resolve Plaintiffs’ state law claims
+and that forcing Plaintiffs to proceed in federal court against their wishes would be inequitable
+persuade the Court to exercise permissive abstention.  Therefore, the Court exercises permissive
+abstention to decline jurisdiction on this ground.
+V. CONCLUSION
+For the foregoing reasons,
+IT IS ORDERED that Plaintiffs’ Motion to Remand to State Court is GRANTED. However,
+Plaintiffs’ request for fees is DENIED.
+Case 2:21-cv-01834-EEF-MBN   Document 42   Filed 03/07/22   Page 12 of 13
+13
+
+New Orleans, Louisiana, this 7th day of March, 2022.
+
+________________________________
+UNITED STATES DISTRICT JUDGE
+Case 2:21-cv-01834-EEF-MBN   Document 42   Filed 03/07/22   Page 13 of 13

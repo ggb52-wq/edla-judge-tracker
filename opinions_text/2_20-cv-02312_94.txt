@@ -1,0 +1,2094 @@
+1
+
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+MEXICAN GULF
+FISHING COMPANY, ET AL.,
+           Plaintiffs
+
+CIVIL ACTION
+
+VERSUS NO.  20-2312
+
+U.S. DEPARTMENT OF
+COMMERCE, ET AL.,
+           Defendants
+
+SECTION: “E” (1)
+
+ORDER AND REASONS
+ Before the Court are cross motions for summary judgment. 1 Plaintiffs Billy Wells;
+Mexican Gulf Shipping Co.; Allen Walburn;  A&B Charters, Inc.; Kraig Dafcik; Joseph
+Dobin; Joey D. Charters; Frank Ventimigli a; Ventimiglia Charters; Jim Rinckey; and
+Fishing Charters of Naples (collectively,  “Plaintiffs”) filed a motion for summary
+judgment.2 Defendants the U.S. Department of  Commerce, the National Oceanic and
+Atmospheric Administration, the National Marine Fisheries Service, and their respective
+heads in their official capacities (collectiv ely, the “Government”) have filed a combined
+opposition and cross moti on for summary judgment. 3 Plaintiffs filed a combined
+opposition to the Government’s motion and reply in support of their own motion. 4 The
+Government filed a reply in support of their motion. 5 Having considered the briefs, the
+record, and the applicable law, the Court now issues its ruling.
+
+1 R. Docs. 73, 79.
+2 R. Doc. 73.
+3 R. Doc. 79.
+4 R. Doc. 86.
+5 R. Doc. 87.
+Case 2:20-cv-02312-SM-JVM   Document 94   Filed 02/28/22   Page 1 of 81
+2
+
+BACKGROUND
+Plaintiffs are a group of charter boat capt ains and owners who take clients fishing
+in the Gulf of Mexico.6 Defendants are various federal government agencies and officials,
+including the United States Department of Commerce (“USDOC”), the National Oceanic
+and Atmospheric Administration (“NOAA”), and the National Marine Fisheries Service
+(“NMFS”).7 USDOC is the primary agency responsi ble for domestic marine fisheries in
+federal waters and has delegate d this responsibility to NOAA. 8 NOAA has subdelegated
+those responsibilities to NMFS.9
+On July 21, 2020, the Government publishe d a Final Rule requiring Gulf for-hire
+vessel owners and operators to submit electron ic fishing reports “prior to removing any
+fish from the vessel” or “[i]f no fish were retained by any person on the vessel during a
+trip, . . . within 30 minutes of the completion of the trip” and to submit the fishing report
+“via NMFS approved hardware and software, as posted on the NMFS Southeast Region
+website.”10 These reports must contain “all fish harvested and discarded, and any other
+information requested.” 11 While the regulatory text does not define this “other
+information,” the preamble in the Final Rule  explains NMFS will require “information
+about the permit holder, vessel, location fished, fishing effort, discards, and socio-
+economic data,”  specifically including “five economic values per trip: The charter fee, the
+fuel price and estimated amount of fuel used, number of paying passengers, and the
+
+6 R. Doc. 54 at 2.
+7 R. Doc. 54 at ¶¶ 19-24. A lawsuit against the head of an agency in his or her official capacity is a suit against
+the agency. See 5. U.S.C. § 702; Simmat v. U.S. Bureau of Prisons, 413 F.3d 1225, 1231-33 (10th Cir. 2005).
+8 R. Doc. 54 at ¶¶ 21, 23.
+9 Id. at ¶ 25.
+10 50 C.F.R. § 622.26(b)(1)-(2) (2021) (or those with a charter vessel permit for Gulf reef fish); see also id.
+§ 622.374(b)(1)(i), (2) (same for those with a charter vessel permit for Gulf coastal migratory pelagic fish).
+11 Id. § 622.26(b)(1); see also id. § 622.374(b)(1)(i).
+Case 2:20-cv-02312-SM-JVM   Document 94   Filed 02/28/22   Page 2 of 81
+3
+
+number of crew for each trip.” 12 T h e  F i n a l  R u l e  a l s o  r e q u i r e s  a f f e c t e d  v e s s e l s  t o  h a v e
+“NMFS–approved hardware and software with  a minimum capability of archiving GPS
+locations” that “must be permanently affi xed to the vessel and have uninterrupted
+operation.”13 Affected vessels “must allow NMFS , the U.S. Coast Guard, and their
+authorized officers and designees a ccess to the vessel's position data.” 14 On August 20,
+2020, Plaintiffs filed this action for declaratory relief voiding the Final Rule and injunctive
+relief enjoining the Government from enforc ing the challenged portions of the Final
+Rule.15 Plaintiffs challenge the inclusion of “other information” unspecified in the
+regulatory text—including the five socio-ec onomic values—in the electronic reporting,
+which took effect on January 5, 2021. 16 Plaintiffs also challenge the mandatory tracking,
+whose effective date was delayed until March 1, 2022.17
+On June 2, 2021, the Court certified a class action for Gulf For-hire vessel charter
+boat owners and operators who are permitted to fish by the Fishery Management Councils
+of the Gulf of Mexico and South Atlantic and are harmed by the Final Rule.18 The parties
+have now filed cross motions for summary judgment on all claims.19
+LEGAL STANDARD
+When presented with a motion for summary judgment, a court normally considers
+whether the record, “’viewed in the light most favorable to the non-moving party,’ evinces
+
+12 Fisheries of the Caribbean, Gulf of Mexico, and South Atlantic; Electronic Reporting for Federally
+Permitted Charter Vessels and Headboats in Gulf of Mexico Fisheries, 85 Fed. Reg. 44,005, 44,005, 44,0011
+(July 21, 2020) (to be codified at 50 C.F.R. pt. 622).
+13 50 C.F.R. § 622.26(b)(5)(i); see also id. § 622.374(b)(5)(ii).
+14 Id. § 622.26(b)(5)(iii); see also id. § 622.374(b)(5)(v).
+15 R. Doc. 1 at ¶ 114.
+16 85 Fed.Reg. 44,005.
+17 Fisheries of the Caribbean, Gulf of Mexico, and South Atlantic; Electronic Reporting for Federally
+Permitted Charter Vessels and Headboats in Gulf of Mexico Fisheries, 86 Fed. Reg. 60,374, 60,374 (Nov.
+2, 2021).
+18 R. Doc. 48.
+19 R. Docs. 73, 79.
+Case 2:20-cv-02312-SM-JVM   Document 94   Filed 02/28/22   Page 3 of 81
+4
+
+a genuine issue of material fact,” and “[o] nly if the court answers the inquiry in the
+negative will the moving party be entitled to judgment as a matter of law.”20 This formula
+a d j u s t s ,  h o w e v e r ,  w h e n  i t  a r i s e s  i n  t h e  c o n t e x t  o f  j u d i c i a l  r e v i e w  o f  a n  a d m i n i s t r a t i v e
+agency's decision. 21 In such cases, the “motion for summary judgment stands in a
+somewhat unusual light, in that the admini strative record proves the complete factual
+predicate for the court's review.” 22 Therefore, the movant’s burden becomes “similar to
+his ultimate burden on the merits.”23
+Nevertheless, summary judgment “rem ains ‘an appropriate procedure for
+resolving a challenge to a federal agency's ad ministrative decision when review is based
+on the administrative record.’”24 When reviewing an administrative agency's decision on
+summary judgment, the district court must “determine whether as a matter of law,
+evidence in the administrative record permitte d the agency to make the decision it did,
+and summary judgment is an appropriate mech anism for deciding the legal question of
+whether an agency could reasonably have found the facts as it did.” 25 Under the
+Administrative Procedure Act (“APA”), a cou rt will set aside or otherwise disturb non-
+adjudicatory agency action if the party purs uing judicial review shows that the agency
+
+20 Town of Abita Springs v. U.S. Army Corps of Eng’rs, 153 F. Supp. 3d 894, 903 (E.D. La. 2015) (quoting
+Tex. Comm. on Nat. Res. v. Van Winkle , 197 F. Supp. 2d 586, 595 (N.D. Tex. 2002)); see also Fed. R. Civ.
+P. 56(c); Celotex Corp. v. Catrett , 477 U.S. 317, 322–24, (1986);  Hill v. London, Stetelman, & Kirkwood,
+Inc., 906 F.2d 204, 207 (5th Cir. 1990); Atchafalaya Basinkeeper v. Bostick, No. 14-649, 2015 WL 3824318,
+at *6 (E.D. La. June 19, 2015).
+21 Abita Springs, 153 F. Supp. 3d at 903; see also Atchafalaya Basinkeeper, 2015 WL 3824318, at *6.
+22 Abita Springs, 153 F. Supp. 3d at 903 (quoting Van Winkle, 197 F. Supp. 2d at 595); see also Atchafalaya
+Basinkeeper, 2015 WL 3824318, at *6; Piedmont Env’t Council v. U.S. Dep't of Transp., 159 F. Supp. 2d
+260, 268 (W.D. Va. 2001).
+23 Abita Springs, 153 F. Supp. 3d at 903 (quoting Van Winkle, 197 F. Supp. 2d at 595); see also Atchafalaya
+Basinkeeper, 2015 WL 3824318, at *6.
+24 Abita Springs, 153 F. Supp. 3d at 903 (quoting Fund for Animals v. Babbitt, 903 F. Supp. 96, 105 (D.D.C.
+1995)); see also Atchafalaya Basinkeeper, 2015 WL 3824318, at *6.
+25 Abita Springs, 153 F. Supp. 3d at 903 (quoting Sierra Club v. Dombeck, 161 F. Supp. 2d 1052, 1064 (D.
+Ariz. 2001)) (citing City of S.F. v. United States , 130 F.3d 873, 877 (9th Cir.1997)); see also Atchafalaya
+Basinkeeper, 2015 WL 3824318, at *6; Shell Offshore Inc. v. Babbitt , 238 F.3d 622, 627 (5th Cir. 2001)
+(applying the standard of the administrative procedure act in a motion for summary judgment).
+Case 2:20-cv-02312-SM-JVM   Document 94   Filed 02/28/22   Page 4 of 81
+5
+
+“action, findings, and conclusions” are “arbitrary, capricious, an abuse of discretion, or
+otherwise not in accordance with law;” “contrary to constitutional right, power, privilege,
+or immunity;” “in excess of statutory jurisdicti on, authority, or limitations, or short of
+statutory right;” or “without observance of  procedure required by law,” among other
+reasons not implicated in this case. 26 To find an agency action arbitrary, capricious, an
+abuse of discretion, or otherwise not in a ccordance with law, “the court must consider
+whether the decision was base d on a consideration of the relevant factors and whether
+there has been a clear error of judgment. Alth ough this inquiry into the facts is to be
+searching and careful, the ultimate standard of  review is a narrow one. The court is not
+empowered to substitute its judgment for that of the agency.” 27 “The burden of proving
+that an agency decision was arbitrary or capricious [or made without proper procedures]
+rests with the party seeking to overturn the agency decision.”28
+UNDISPUTED MATERIAL FACTS
+The facts of this case by and large come from the administrative record, which the
+Government has filed into the Court’s record in its entirety.29 The parties do not dispute
+the facts contained in the administrative record. Any other factual disputes are noted
+below.
+
+26 5 U.S.C. § 706(2); see also  Abita Springs , 153 F. Supp. 3d at 903-04 (stating only relevant factors);
+Atchafalaya Basinkeeper, 2015 WL 3824318, at *7 (same). The Magnuson-Stevens Fishery Conservation
+and Management Act, under which the current regulations were promulgated, limits judicial review to these
+areas. 16 U.S.C. § 1855(f)(B).
+27 Citizens to Preserve Overton Park, Inc. v. Volpe , 401 U.S. 402, 416 (1971) (citations omitted); see also
+Abita Springs, 153 F. Supp. 3d at 904 (quoting Citizens to Preserve Overton Park, 401 U.S. at 416) (citing
+Motor Vehicle Mfrs. Ass'n of U.S., Inc. v. State Farm Mut. Auto. Ins. Co. , 463 U.S. 29, 43 (1983));
+Atchafalaya Basinkeeper, 2015 WL 3824318, at *7.
+28 Abita Springs, 153 F. Supp. 3d at 904 (alter ation in original) (quoting Van Winkle, 197 F. Supp. 2d at
+596); see also Atchafalaya Basinkeeper, 2015 WL 3824318, at *7.
+29 R. Docs. 62, 63, 64, 65, 66, 67, 68, 69, 70.
+Case 2:20-cv-02312-SM-JVM   Document 94   Filed 02/28/22   Page 5 of 81
+6
+
+I. Statutory Background
+The Magnuson-Stevens Fishery Conservation and Management Act (“MSA”)
+establishes a national program for conservat ion and management of fishery resources
+with federal jurisdiction over such resource s within the exclusive economic zone, which
+extends from the seaward boundary of each coastal State out to 200 nautical miles.30  Key
+purposes of the MSA are to “conserve and manage the fishery resources found off the
+coasts of the United States” and “promote domestic commercial and recreational fishing
+under sound conservation and management principles.” 31 Congress has recognized that
+“[t]he collection of reliable data is essent ial to the effective conservation, management,
+and scientific understanding of the fishery resources of the United States.”32
+The NMFS, acting under authority delegate d from the Secretary of Commerce, is
+responsible for managing fisheries pursuant to the MSA. Regulation of fisheries is
+accomplished through fishery management plans and amendments to those plans
+(hereinafter, collectively referred to as “F MPs”) as well as impl ementing regulations. 33
+The MSA sets forth required provisions for FMPs, includin g that they must contain
+measures “necessary and appropriate for the conservation and management of the
+fishery, to prevent overfishing and rebuild overfished stocks, and to protect, restore, and
+promote the long-term health and stability of the fishery.”34 To address overfishing, FMPs
+must establish mechanisms for annual catch limits and accountability measures. 35 The
+
+30 16 U.S.C. §§ 1801(a)(6), 1802(11), 1811(a).
+31 Id. § 1801(b)(1), (3).
+32 Id. § 1801(a)(8).
+33 See N.C. Fisheries Ass’n v. Gutierrez , 550 F.3d 16, 17 (D.C. Cir. 2008) (noting that FMPs “do not
+themselves have any regulatory effect – implementing regulations must also be enacted in order to
+effectuate them”); Gulf Restoration Network, Inc. v. Nat’l Marine Fisheries, Serv. , 730 F. Supp. 2d 157,
+166, 173 (D.D.C. 2010) (same).
+34 16 U.S.C. § 1853(a)(1)(A).
+35 Id. § 1853(a)(15); see also 50 C.F.R. § 600.310(e)(2)(i)(B)-(C) (defining overfishing).
+Case 2:20-cv-02312-SM-JVM   Document 94   Filed 02/28/22   Page 6 of 81
+7
+
+MSA expressly authorizes any FMP to “require  the use of specified types and quantities
+of fishing gear, fishing vessels or equipment for such vessels, including devices which may
+be required to facilitate enforc ement provisions of this [Act].” 36 FMPs and their
+implementing regulations must be consistent with ten National Standards as well as any
+other applicable law. 37 National Standard 1 requires that “[c]onservation and
+management measures shall prevent overfishin g while achieving, on a continuing basis,
+the optimum yield from each fishery fo r the United States fishing industry.” 38 National
+Standard 2 requires that measures be ba sed on the “best scientific information
+available.”39 National Standard 8 requires that “[c]onservation and management
+measures shall, consistent with the conservation requirements of this [Act] (including the
+prevention of overfishing and rebuilding of  overfished stocks), take into account the
+importance of fishery resources to fishing co mmunities by utilizing economic and social
+data that meet the requirements of [National Standard 2], in order to (A) provide for the
+sustained participation of such communities, and (B) to the extent practicable, minimize
+adverse economic impacts on such communities.”40
+To assist in fishery management, the MSA established eight Regional Fishery
+Management Councils, each of which is granted authority over a specific geographic
+region within the exclusive economic zone  and is composed of members who represent
+the interests of the states included in that region. 41 Each Council is required to prepare
+
+36 16 U.S.C. § 1853(b)(4).
+37 Id. § 1851(a). Advisory guidelines for the National Standards are set forth at 50 C.F.R. §§ 600.305 et seq.
+These guidelines do not have the force and effect of law. 16 U.S.C. § 1851(b); see Tutein v. Daley, 43 F. Supp.
+2d 113, 121–125 (D. Mass. 1999).
+38 16 U.S.C. § 1851(a)(1).
+39 Id. § 1851(a)(2).
+40 Id. § 1851(a)(8).
+41 Id. § 1852(a); see C &W Fish Co. v. Fox, 931 F.2d 1556, 1557-58 (D.C. Cir. 1991).
+Case 2:20-cv-02312-SM-JVM   Document 94   Filed 02/28/22   Page 7 of 81
+8
+
+and submit to NMFS an FMP “for each fi shery under its authority that requires
+conservation and management”—and any amen dments thereto that become necessary
+over time— 42as well as proposed regulations th at the Council “deems necessary or
+appropriate” to implement the FMP. 43 Councils cannot promulgate regulations
+themselves, and they are not considered federal agencies for purposes of the APA.44 When
+a Council transmits an FMP to NMFS, NMFS pu blishes a notice of availability in the
+Federal Register announcing a 60-day comment period.45 Under a process outlined in the
+MSA, NMFS reviews the Council’s proposed regulations for consistency with the FMP and
+applicable law, and if they are consistent, th en publishes proposed rules, solicits public
+comment, and promulgates final rules.46
+II. Gulf Council FMP Amendment
+Between 2014 and 2017, the Gulf of Me xico Fishery Management Council (“Gulf
+Council”) prepared an amendment to the Fishery Management Plans for Reef Fish
+Resources of the Gulf of Mexi co and Coastal Migratory Pelagic Resources in the Gulf of
+Mexico and Atlantic Region. 47 The amendment modifies reporting requirements for
+vessels issued Gulf of Mexico charter vessel/headboat permits.48
+
+42 16 U.S.C. § 1852(h)(1). Councils develop FMPs through a public process that includes notice of meetings
+of Councils, scientific and statistical committees that provide ongoing scientific advice for fishery
+management decisions, and advisory panels; opportunity for interested persons to submit oral and written
+statements during those meetings; and public hearings. Id. § 1852(h)(3), (i)(2).
+43 Id. 1853(c).
+44 See, e.g., Gen. Category Scallop Fishermen v. Sec’y, U.S. Dep’t of Com., 635 F.3d 106, 112 n.15 (3d Cir.
+2011) (citing J.H. Miles & Co., Inc. v. Brown, 910 F. Supp. 1138, 1159 (E.D. Va. 1995)); Anglers Conservation
+Network v. Pritzker, 809 F.3d 664, 667 (D.C. Cir. 2016); Flaherty v. Ross, 373 F. Supp. 3d 97, 101 (D.D.C.
+2019).
+45 16 U.S.C. § 1854(a)(1)(B).
+46 Id. § 1854(b).
+47 R. Doc. 64-2 at 176 (Jan. 2016 draft amendment); R. Doc. 66-3 at 42 (May 2017 final amendment).
+48 See R. Doc. 66-3 at 42.
+Case 2:20-cv-02312-SM-JVM   Document 94   Filed 02/28/22   Page 8 of 81
+9
+
+The Gulf Council relied in part on reco mmendations from the Gulf Council Data
+Collection Technical Committee.49 The Committee supported a “for-hire census program
+with trip level reporting of catch and effort.”50 The Committee considered the fact that the
+recommended program would include trip notification and submission of catch
+information prior to returning to the dock.51 Under the amendment, location data is to be
+collected passively through a device ( e.g., GPS-enabled tablet or equivalent) with a ping
+frequency of approximately 30 minutes, wh ich the Committee believes will balance the
+need for spatial information with the privac y concerns of vessel operators as it will be
+sufficient to establish regions of fishing (a nd depths) but not exact fishing locations. 52
+Location data may be archived and transmitted later or enhanced with real-time location
+capability.53 The proposed program will be integrated  into existing dockside validation
+programs.54
+The Gulf Council found that “[a]ccurate  information about catch, effort, and
+discards is necessary to achieve [optimum yield] from federally managed fish stocks,” and
+recognized that improved data reporting for Gulf fisheries could “reduce the likelihood
+that annual catch limits are exceeded and accountability measures are triggered.” 55 The
+Gulf Council also found that the collection of  additional data elements using electronic
+reporting could “improve estimates of bycatch and discard mortality rates.” 56 The Gulf
+Council imposed three requirements to aid in  validation and compliance: reporting of
+
+49 See, e.g., id. at 173-84 (including a report from the Committee as an appendix in the amendment);
+compare id. at 76 (including a graph from a report by the Committee in the amendment), with R. Doc. 64-
+2 at 172 (the original graph in a Committee report).
+50 R. Doc. 64-2 at 175.
+51 Id.
+52 Id.
+53 Id.
+54 Id.
+55 R. Doc. 66-3 at 56-57.
+56 Id.
+Case 2:20-cv-02312-SM-JVM   Document 94   Filed 02/28/22   Page 9 of 81
+10
+
+logbook prior to offload of fish, vessel monitoring system (VMS) or archival GPS system
+permanently affixed to the vessel, and declaration (hail-out) with return time and location
+via approved software.57
+III. Notice of Proposed Rulemaking
+On May 23, 2017, the Gulf Council transmitted the amendment to NMFS for
+implementation according to the MSA’s procedures.58 On June 21, 2018, NMFS published
+a notice of availability in the Federal Regi ster describing the amendment and providing
+notice that NMFS would evaluate the amen dment for consistency with the FMPs, the
+MSA, and other applicable laws. 59 In the notice of availability, NMFS sought public
+comments on the amendment though August 20, 2018, which would be considered in the
+decision whether to approve the amendm ent and addressed in the Final Rule. 60 On
+September 19, 2018, NMFS notified the Gulf Council of the amendment’s approval.61
+On October 26, 2018, NMFS published a notice of proposed rulemaking
+implementing the amendment and proposing to collect information from “for-hire”
+charter boats and headboats in the Gulf of Mexico. 62 The proposed rule would have first
+required charter boats to “submit an electronic fishing report for each trip before
+offloading fish from the vessel, or within 30 minutes after the end of each trip if no fish
+were landed.”63 The fishing report must be sent electronically to the Science and Research
+
+57 R. Doc. 70-2 at 176.
+58 R. Doc. 66-3 at 40.
+59 Fisheries of the Caribbean, Gulf of Mexico, and South Atlantic; Electronic Reporting for Federally
+Permitted Charter Vessels and Headboats in Gulf of Mexico Fisheries, 83 Fed. Reg. 28,797 (proposed June
+21, 2018) (to be codified at 50 C.F.R. pt. 622).
+60 Id. at 28,800.
+61 R. Doc. 67-1 at 19.
+62 Fisheries of the Caribbean, Gulf of Mexico, and South Atlantic; Electronic Reporting for Federally
+Permitted Charter Vessels and Headboats in Gulf of Mexico Fisheries, 83 Fed. Reg. 54,069 (proposed Oct.
+26, 2008) (to be codified at 50 C.F.R. pt. 622).
+63 Id. at 54,071.
+Case 2:20-cv-02312-SM-JVM   Document 94   Filed 02/28/22   Page 10 of 81
+11
+
+Director (SRD) of NMFS’s Southeast Fisheries Sciences Center. 64 The proposed
+regulatory text stated that the report mu st contain information regarding “all fish
+harvested and discarded, and any other information requested by the SRD,” but did not
+specify what “other information” means.65 However, the notice of proposed rulemaking
+stated that fishing reports must include in formation regarding “any species that were
+caught or harvested, . . . as well as informat ion about the permit holder, vessel, location
+fished, fishing effort, discards, and socio-economic data.”66
+The proposed rule also would have re quired charter boats to “have NMFS-
+approved hardware and software with GPS capabilities that, at a minimum, archive vessel
+position data during a trip for subsequent  transmission to NMFS, which could include
+sending data through a cellular or satellite-based service”67  The vessel's location tracking
+device “would have to be permanently affi xed to the vessel” and “have uninterrupted
+power, unless the owner or operator applies for and is granted a power-down
+exemption.”68 Finally, the proposed rule also would have required “an owner or operator
+of a federally permitted charter vessel or headboat to submit a trip notification to NMFS
+before departing for any trip,” indicating “w hether the vessel is departing on a for-hire
+trip or another type of trip” and, if it was a for-hire trip, “the expe cted trip completion
+date, time, and landing location.”69
+The notice of proposed rulemaking contained initial regulatory flexibility analysis
+under the Regulatory Flexibility Act.70 The notice of proposed rulemaking provided for a
+
+64 Id. at 54,076-77.
+65 Id.
+66 Id. at 54,071.
+67 Id.
+68 Id.
+69 Id.
+70 Id. at 54,072-75.
+Case 2:20-cv-02312-SM-JVM   Document 94   Filed 02/28/22   Page 11 of 81
+12
+
+public-comment period through November 26 , 2018, which was extended to January 9,
+2019.71
+IV. Final Rule
+On July 21, 2020, NMFS published the Fi nal Rule, which adopted the electronic-
+fishing-report and tracking requirements as proposed. 72 Owners or operators of charter
+vessels are subject to the Final Rule only if they have a limited-access permit for Gulf reef
+fish or coastal migratory pelagic fish.73 The Final Rule contains three components. First,
+the final rule requires a Gulf for-hire vessel owner or operator to notify NMFS prior to
+departing for any trip and declare whether they  are departing on a for-hire trip or on
+another trip type. 74 Second, an owner or operator of  a vessel with a Federal charter
+vessel/headboat permit for Gulf reef fish or  Gulf coastal migratory pelagic species must
+submit an electronic fishing report (also referred to as a logbook), via NMFS-approved
+hardware and software, for each fishing trip before offloading fish from that fishing trip.75
+Third, the final rule requires that a Gulf for-hire vessel owner or operator use NMFS-
+approved hardware and software with global positioning system location capabilities that,
+at a minimum, archive vessel position data du ring a trip for subsequent transmission to
+NMFS.76
+
+71 Id. at 54,069; Fisheries of the Caribbean, Gulf of Me xico, and South Atlantic; Electronic Reporting for
+Federally Permitted Charter Vessels and Headboats in Gulf of Mexico Fisheries, 83 Fed. Reg. 58,522 (Nov.
+20, 2018).
+72 85 Fed. Reg. 44,005.
+73 Id. at 44,005. Limited-access permits allow the owners and operators of these vessels to take passengers
+for-hire fishing for federally managed reef fish and coastal migratory pelagic species in the Gulf of Mexico
+exclusive economic zone. 50 C.F.R. §§ 622.20(b), 622.370(b), 622.373.
+74 85 Fed. Reg. at 44,006.
+75 Id. at 44,005-06.
+76 Id. at 44,006-07.
+Case 2:20-cv-02312-SM-JVM   Document 94   Filed 02/28/22   Page 12 of 81
+13
+
+A. Hail-Out Requirement
+First, the Final Rule requires owners or  operators of a vessel for which a charter
+vessel/headboat permit for Gulf reef fish or coastal migratory pelagic fish has been issued
+to notify NMFS before it departs for a trip and declare whether the vessel will be operating
+as a charter vessel or headboat , or another type of trip. 77 The trip declaration aids port
+agents in knowing when and where a trip will end for sampling.78 NMFS expects the trip
+declaration requirement to make it easier to track landings in a timely manner and reduce
+uncertainty in the data.79
+B. Electronic Reporting Requirement
+Second, if the vessel is operating as a charter vessel or headboat, then an electronic
+fishing report must be submitted prior to removing any fish from the vessel, or, if no fish
+are landed, within 30 minutes of arriving at the dock.80 As in the proposed rule, the Final
+Rule stated the “electronic fishing report mu st include any species that were caught or
+harvested in or from any area . . . as well as  information about the permit holder, vessel,
+location fished, fishing effort, discards, an d socio-economic data”; however, the Final
+Rule further explained, in response to a comment, that “NMFS will require the reporting
+of five economic values per trip: The charter fee, the fuel price and estimated amount of
+fuel used, number of paying passengers, and the number of crew for each trip.”81
+Some commenters objected to “reporting of economic information” in electronic
+fishing reports.82 These commenters claimed that “[r]equiring operators to submit their
+
+77 Id. at 44,006.
+78 Id. at 44,009.
+79 Id. at 44,010.
+80 Id. at 44,006.
+81 Id. at 44,005, 44,011.
+82 Id. at 44,011.
+Case 2:20-cv-02312-SM-JVM   Document 94   Filed 02/28/22   Page 13 of 81
+14
+
+financial information leads to a lack of buy-in and trust among participants” and that
+commenters preferred “other methods to colle ct this information such as surveying
+websites, directly surveying permit holders, or simply asking the question on a random
+basis rather than for every trip.” 83 NMFS responded that the collection of economic
+information in the trip reports will “improve the best scientific information available for
+regulatory decision-making; will increase th e accuracy of economic impacts and value
+estimates specific to the for-hire industry; and will support further value-added research
+efforts and programs aimed at increasing net benefits to fishery stakeholders and the U.S.
+economy.”84 NMFS also found the information proposed for collection “will help generate
+estimates of lost revenue when a disaster occurs (e.g., hurricane, oil spill).”85 NMFS uses
+information on catch and fishing effort to conduct stock assessment.86 NMFS determined
+that collecting economic data directly fr om vessel owners and operators was both
+necessary to management and conservation of  the fishery and superior to other data
+sources.87
+C. Tracking Requirement
+Third, each permitted vessel must be equipped with NMFS-approved hardware
+and software with a minimum capabili ty of archiving GPS locations ( i.e., satellite or
+cellular VMS) once per hour, 24 ho urs a day, every day of the year. 88 Cellular-based
+systems collect and store data while a vessel is  not within range of a cellular signal and
+
+83 Id.
+84 Id.
+85 Id.
+86 See, e.g. , 85 Fed. Reg.  at 44,009-11; Stock Assessment Model Descriptions , NOAA Fisheries,
+https://www.fisheries.noaa.gov/ insight/stock-assessment-model-descriptions#stock-assessment-models
+(last visited February 28, 2022).
+87 85 Fed. Reg. at 44,011.
+88 Id. at 44,006-07.
+Case 2:20-cv-02312-SM-JVM   Document 94   Filed 02/28/22   Page 14 of 81
+15
+
+then transmit the data when the vessel is within cellular range.89 Satellite-based systems
+transmit data as they are collected. 90 Permit holders are responsible for purchasing the
+VMS units. 91 The NMFS Southeast Regional Office  posts all approved vessel location
+tracking hardware and software for the Gulf for-hire reporting program, including vessel
+monitoring system units approved by the NMFS Office of Law Enforcement, on the
+website for the Gulf for-hire reporting program. 92 The Final Rule has two exceptions for
+the GPS monitoring: (1) an in-port exemptio n that allows the location data to be
+transmitted every four hours when the vessel is docked; and (2) a power-down exemption
+that allows for location data transmission requirements to be suspended when the vessel
+is out of the water for more than 72 hours.93
+Several commenters objected to the GPS requirement, raising Fourth Amendment
+concerns:
+Providing all confidential transiting details is a violation of our 4th
+Amendment right to privacy and not necessary to manage the fishery. Such
+details are considered confidential by NOAA and utilized by other agencies
+not associated with management of the fishery. This is a dangerous
+precedent. Fish have tails, they mo ve and with the climatic shift and
+movement of our fish into new areas over the last several years utilizing such
+historical data for fishery management purposes is flawed and can be
+misused to deny us access to the fishery. Therefore, to require detailed GPS
+data for vessels utilized by the for hire community is not necessary for
+fishery management purposes, flawed if used for fishery management
+purposes due to the climatic shift of our stocks and is also a violation of our
+4th Amendment rights.94
+
+89 Id. at 44,007.
+90 Id.
+91 Id.
+92 Fisheries of the Caribbean, Gulf of Mexico, and South Atlantic; Electronic Reporting for Federally
+Permitted Charter Vessels and Headboats in Gulf of Mexico Fisheries, 86 Fed. Reg. 51,014, 51,015 (Sept. 14,
+2021); see also Approved Vessel Monitoring System (VMS) Units for Reporting in the Southeast For-Hire
+Integrated Electronic Reporting Program , NOAA Fisheries, https://www.fisheries.noaa.gov/southeast/
+rules-and-regulations/approved-vessel-monitoring-system-vms-units-reporting-southeast-hire-
+integrated (Nov. 12, 2021).
+93 85 Fed. Reg. at 44,020.
+94 R .  D o c .  6 7 - 4  a t  7 - 8 ;  see also R. Doc. 68-2 at 21-22 (same language); R. Doc. 70-3 at 27-28 (same
+language); R. Doc. 67-4 at 20-21 (substantially similar language).
+Case 2:20-cv-02312-SM-JVM   Document 94   Filed 02/28/22   Page 15 of 81
+16
+
+NMFS did not directly address the Fourth Amendment, but it did respond to the concern
+over “how NMFS will protect data that are being reported, and prevent misuse by staff or
+public distribution”:
+NMFS will protect these data in a ccordance with applicable law. For
+example, under section 402(b)(1) of the Magnuson-Stevens Act, the data
+submitted to NMFS under the Gulf For-hire Reporting Amendment shall be
+confidential and shall not be disc losed, except under the limited
+circumstances specified in the Magnuson-Stevens Act, such as to Council or
+Federal employees who are responsible for fishery management. As noted
+in 50 CFR 600.415(e), anyone “having access to these data are prohibited
+from unauthorized use or disclosure and are subject to the provisions of 18
+U.S.C. 1905, 16 U.S.C. 1857, and NOAA/NMFS internal procedures,
+including NAO 216-100.” Additionally, all data reported through the Gulf
+for-hire reporting program will be collected through software that meets
+standards set out by NMFS, including data confidentiality and protection of
+personal information online, and wi ll be treated as confidential in
+accordance with NOAA Administrative  Order 216-100, Protection of
+Confidential Fisheries Statistics. Th e release of data in aggregate or
+summary form that does not directly or indirectly disclose the identity or
+business of any person who submits the information is authorized under
+section 402(b)(3) of the Magnuson-Stevens Act.95
+
+ Other commenters expressed concerns that 24-hour GPS surveillance was
+unnecessary and unduly burdensome; 96 that it was unnecessary and inappropriate to
+subject charters boats to the same tracking requirements as commercial fishing vessels;97
+and that the financial cost of purchasing, installing, and operating GPS-tracking VMS
+
+95 85 Fed. Reg. at 44,010.
+96 R. Doc. 67-2 at 20 (“Putting gps and reporting restrictions on charter boat operators will not give usable
+information that cannot be gained from current reportin g); R. Doc. 67-4 at 10-11, 17, 19 (“We are strongly
+opposed to any type of GPS monitoring system which tracks a vessel each hour which only adds additional
+costs and safety concerns when operating.”); id. at 12 (“Tracking does not provide any additional data that
+would be provided by filling out a vessel trip report.”).
+97 R. Doc. 67-4 at 4 (“I can see how this works on commercial offshore vessels where their trips are usually
+3-5 days—however, we do mostly 4.5-hour trips.”); id. at 5-6 (same); id. at 11, 17, 19, 22 (“Common sense
+should be used here and not treat … charter boats similar to large commercial fishing vessels[.]”); R. Doc.
+68-1 at 1 (“Your proposal would treat [charter boats] like larger commercial fishing enterprises with greater
+compliance resources.”).
+Case 2:20-cv-02312-SM-JVM   Document 94   Filed 02/28/22   Page 16 of 81
+17
+
+devices was too high. 98 Regarding the necessity of the GPS requirement, NMFS
+responded:
+The Gulf for-hire reporting program is designed to both monitor for-hire
+landings to determine in-season closures and post-season quota
+adjustments, and to enhance data collection efforts to provide for better
+fisheries management, such as throug h more data-rich stock assessments.
+As such, collection of these data is not a research tool but a management
+tool for the reef fish and CMP fisherie s, and responsibility for the program
+is appropriately shared by NMFS an d the fishermen. The fishermen are
+required to have the necessary equipment and report in a timely manner as
+conditions of their Federal for-hire  permits because they possess the
+information that the Gulf Council and NMFS need to improve management.
+NMFS is responsible for performing quality control, validating the reports,
+and using the data, as appropriate, to help achieve various management
+objectives.
+
+. . . .
+
+The Gulf Council chose to require a trip declaration and vessel location
+tracking device to validate effort (f ishing trips). These requirements will
+allow NMFS to determine when a fishing trip was taken, and the length of
+that trip.
+
+. . . .
+
+[ R ] e q u i r i n g  e a c h  G u l f  f o r - h i r e  v e s s e l  b e  e q u i p p e d ,  a t  a  m i n i m u m ,  w i t h
+archivable vessel location tracking (cellular VMS) best balances the need to
+collect and report timely information with the need to minimize the cost and
+time burden to the industry. The vess el location tracking system is an
+additional mechanism that verifies vessel activity without a report having to
+be completed by the vessel operators. The vessel location tracking system
+will allow NMFS to independently determine whether the vessel leaves the
+dock. This will help validate effort and aid with enforcement of the reporting
+requirements.99
+
+NMFS also provided further information abo ut the cost of the tracking requirement,
+including reimbursements available from NMFS:
+
+98 R .  D o c .  6 8 - 1  a t  1  ( “ G P S  m o n i t o r i n g  s y s t e m s  w i l l  o n l y  a d d  a d d i t i o n a l  c o s t s  a n d  w o r k  b u r d e n s  t o
+charter/headboat operators with limi ted financial and personnel resources.”); R. Doc. 68-2 at 16 (“It’s
+extremely alarming that there is no mention of a price for the device (several thousand dollars) or monthly
+fee for the GPS tracking device that would be required to have my boat tracked on my dime”).
+99 85 Fed. Reg. at 44,009, 44,012.
+Case 2:20-cv-02312-SM-JVM   Document 94   Filed 02/28/22   Page 17 of 81
+18
+
+NMFS is currently testing six cellular- based units that range in purchase
+price from $150 to $800. The monthly service fee for these units range from
+$10 to $40 per month. The unit vend or determines these costs. The NMFS
+VMS re-imbursement program is available to fishermen for the purchase of
+approved satellite-based VMS unit s, and NMFS OLE is undergoing
+rulemaking that would also make reimbursement available for cellular-
+based VMS units. Satellite-based VMS that are currently approved for the
+commercial Gulf reef fish program cost approximately $3,000 per unit.
+Monthly service fees, which NMFS expects to range from approximately
+$40 to $75, will be the responsibility of the fisherman.
+
+. . . .
+
+NMFS understands there will be additional costs to vessel operators to pay
+for data collection. NMFS also ackn owledges that charter and headboat
+businesses may have substantial loan payments and other operating costs,
+such as insurance, overhead, maintenance, and trip costs (e.g., fuel, labor,
+supplies, etc.), that affect both their net income and cash flow. . . . According
+to the best scientific information av ailable, which includes a 2012 study
+published by the Center for Natural Resource Economics and Policy,
+Louisiana State University, average monthly cash outflows (fixed and
+variable costs) for charter and headboat businesses are estimated to be
+approximately $5,171 (2018 dollars) and $15,758, respectively. In
+comparison to existing costs, NMFS believes the ongoing monthly fee
+(estimated at $10 to $40 per month) would not materially alter cash flows,
+profits, or the solvency of for-hire businesses.100
+
+NMFS explained how it came to these cost estimates:
+
+[E]xamples of costs borne by the for-hire fleet may include the purchase and
+installation costs of the approved hardware units and associated service
+charges. In the proposed rule, NMFS  presented cost estimates to the for-
+hire industry for several general options including a tablet-based system, a
+handheld GPS, and a smartphone-based system, where the smartphone is
+hardwired to a vessel's GPS. These cos t estimates have been updated since
+the proposed rule published and are now based on vendor quotes for six
+different cellular-based location tracki ng devices selected for testing by
+NMFS. If a vessel does not already have an approved type of hardware (e.g.,
+an approved VMS unit), the estimated startup costs for each affected vessel
+will range from $150 to $800 in the year of implementation. At the top end
+of this range, these costs are equivalent to 1 percent of average annual
+headboat net income and 3.1 percent of average annual charter vessel net
+income. The recurring monthly cost per vessel to use the location tracking
+device is estimated to be $10 to $40. On an annual basis, these reoccurring
+
+100 Id. at 44,013. The rule extending the reimbursement program to cellular VMS units came into effect
+August 7, 2020. Vessel Monitoring Systems; Requirements for Type-Approval of Cellular Transceiver Units,
+85 Fed. Reg. 40,915 (July 8, 2020) (to be codified at 50 C.F.R. pt. 600).
+Case 2:20-cv-02312-SM-JVM   Document 94   Filed 02/28/22   Page 18 of 81
+19
+
+charges will be equivalent to up to 0.6 percent of average annual headboat
+net income and 1.8 percent of average annual charter vessel net income.
+Some of the cellular-based location tracking devices will allow users to enter
+and transmit electronic fishing reports in addition to recording and
+transmitting GPS coordinates. Other devices will only be capable of
+recording and transmitting GPS coordinates. Therefore, depending on the
+location tracking device selected for use, a separate mobile  device, such as
+a smartphone, and wireless service plan may be required to submit fishing
+reports. Some vessel owners and oper ators may be more or less affected
+than others by this final rule dependin g on their existing technology assets
+and data service plans at the time of implementation, the location tracking
+device that they select, and the availa bility of wireless service coverage at
+their port of landing. For the affected vessels that currently do not have any
+wireless carrier contract and who select a location tracking device that does
+not support fishing report submission, the estimated additional cost for an
+unlimited data plan will range from approximately $60 to $85 per month.
+This is an upper bound estimate based on advertised rates from four major
+wireless service providers in 2019 and cheaper plans may be available. A
+basic smartphone may be purchased for as low as $100 and some providers
+bundle free phones with their servic e plans. NMFS assumes that most
+owners or operators of for-hire vessels already have a basic smartphone and
+data plan in order to meet the needs of their businesses. NMFS also assumes
+that owners and operators of for-hire  vessels will choose a combination of
+technology that best satisfies their profit maximization strategies, while
+meeting the requirements of this final rule.101
+
+Finally, NMFS explained the alternatives considered before settling on the current
+tracking requirement, including the alternative of not requiring GPS tracking:
+The first alternative, the no-action al ternative, would not change current
+reporting requirements for for-hire vessels. Therefore, it would not be
+expected to result in any direct economic effects on any small entities. This
+alternative was not selected by the Gu lf Council because there is currently
+no reporting platform for charter vessels, and therefore, no means by which
+charter vessels would be able to submit electronic reports. Additionally, this
+alternative would not allow for the same level of trip validation, because it
+would not require GPS unit hardware to be permanently affixed to the
+vessel.
+
+The second alternative and two option s were selected as preferred and
+require charter vessel and headboat owners or operators to submit fishing
+reports via NMFS-approved hardware and software. Under this preferred
+alternative and options, a for-hire vessel owner or operator is also required
+to use NMFS-approved hardware and software with GPS location
+
+101 85 Fed. Reg. at 44,015.
+Case 2:20-cv-02312-SM-JVM   Document 94   Filed 02/28/22   Page 19 of 81
+20
+
+capabilities that, at a minimum, archiv e vessel position data during a trip.
+The cellular or satellite VMS needs to be permanently affixed to the vessel.
+
+The third alternative would require for- hire vessel owners or operators to
+submit fishing reports via NMFS-appr oved hardware and software with
+GPS location capabilities that, at a minimum, provide real-time vessel
+position data to NMFS. The cellular or satellite VMS would need to be
+permanently affixed to the vessel. The third alternative contained two
+options. The first and second options would require federally permitted
+charter vessels and headboats, respectively, to comply with the hardware
+and software requirements of the thir d alternative. The startup costs, as
+presented in the proposed rule, for each affected for-hire vessel under the
+third alternative and two options were estimated to be approximately $300
+in the year of implementation. The recurring annual service cost associated
+with the transmission of real-time location data in subsequent years was
+estimated to be approximately $200 pe r vessel. Since the proposed rule
+published, NMFS has received several vendor price quotes and has updated
+the technology cost estimates associated  with this final rule. Therefore,
+NMFS cannot make a direct comparison with the hypothetical cost
+estimates of this alternative. In the proposed rule, the recurring costs for
+this alternative were estimated to be higher than for the preferred
+alternative. If comparable cost estimates were available, NMFS assumes the
+third alternative, which would require real-time transmission of GPS
+location coordinates (satellite VMS), would still be more expensive than the
+archival GPS units (cellular VMS) allowed by this final rule. As discussed
+earlier, depending on the device that is used for location tracking, a separate
+mobile device, such as a smartpho ne, and wireless service plan would
+potentially be required to submit electronic fishing reports as well. This
+could result in an additional expense in the range of $60 to $85 per month.
+The third alternative was not selected by the Gulf Council because it was
+expected to result in higher costs to industry.
+
+The fourth alternative would require for-hire vessel owners or operators to
+submit fishing reports via NMFS-approved hardware and software that
+provide real-time vessel position data to NMFS via satellite VMS. The
+antenna and junction box would need to be permanently affixed to the
+vessel. The fourth alternative contain ed two options. The first and second
+options would require federally permi tted charter vessels and headboats,
+respectively, to comply with the hardware and software requirements of the
+fourth alternative. The estimated star tup costs for each affected vessel to
+purchase, install, and operate a satellite VMS unit would range from $2,500
+to $4,400 in the year of implementation. This would be equivalent to
+approximately 10 to 17 percent of average annual charter vessel net income
+and 3 to 6 percent of average annual headboat net income. The recurring
+annual cost associated with maintaining and operating satellite VMS
+hardware and software in subsequent years was estimated to be
+approximately $750 per vessel. The fourth alternative was not selected by
+Case 2:20-cv-02312-SM-JVM   Document 94   Filed 02/28/22   Page 20 of 81
+21
+
+the Council, because the estimated startup and recurring costs to the
+industry were much higher than those of the preferred alternative.102
+
+The Final Rule conducted a regulatory flex ibility analysis of the economic impact
+on charter boat operators, all of whom were recognized to be small businesses under the
+Regulatory Flexibility Act.103
+LAW AND ANALYSIS
+I. Challenges to the Electronic Reporting Requirement
+
+A. The Reporting of Five Specific So cio-economic Factors Is a Logical
+Outgrowth of the Proposed Rule.
+
+ Under the APA, an agency must publish notice of the legal authority for a proposed
+rule and of the rule's substa nce or subject matter, and the agency must also provide an
+opportunity for interested persons to participate in the rulemaking. 104 Notice suffices if
+the final rule “is a ‘logical outgrowth’ of the proposed rule, meaning the notice must
+‘adequately frame the subjects for discussion’ such that ‘the affected party “should have
+anticipated” the agency's final course in light of the initial notice.’”105 “If a party ‘should
+have anticipated’ that course, it ‘reasona bly should have filed [its] comments on the
+subject during the notice-and-comment period.’”106 “The objective is fair notice.”107
+ In this case, Plaintiffs complain they had no notice of NMFS’s intention to require
+reporting of the charter fee, the fuel price and estimated amount of fuel used, number of
+paying passengers, and the number of crew for each trip.108 The proposed regulatory text
+
+102 Id. at 44,016-17.
+103 Id. at 44,014-17.
+104 5 U.S.C. § 553(b)(2)-(3), (c); see also Huawei Techns. USA, Inc. v. FCC, 2 F.4th 421, 447 (5th Cir. 2021).
+105 Huawei Techns., 2 F.4th at 447 (quoting Nat'l Lifeline Ass'n v. FCC, 921 F.3d 1102, 1115 (D.C. Cir. 2019));
+see also Am. Coke & Coal Chems. Inst. v. EPA, 452 F.3d 930, 938 (D.C. Cir. 2006).
+106 Huawei Techns., 2 F.4th at 447  (alteration in original) (quoting Tex. Ass'n of Mfrs. v. U.S. Consumer
+Prod. Safety Comm'n, 989 F.3d 368, 381 (5th Cir. 2021)).
+107 Tex. Ass'n of Mfrs., 989 F.3d at 381.
+108 R. Doc. 73-1 at 32-34.
+Case 2:20-cv-02312-SM-JVM   Document 94   Filed 02/28/22   Page 21 of 81
+22
+
+in the notice of proposed rulemaking stated  that the report must contain information
+regarding “all fish harvested and discarded, and any other information requested by the
+SRD.”109 The proposed regulatory text did not specify what “other information” means.110
+However, the preamble in the notice of proposed rulemaking stated that fishing reports
+must include information regarding “any species that were caught or harvested, . . . as
+well as information about the permit holder , vessel, location fished, fishing effort,
+discards, and socio-economic data.” 111  The notice of proposed rulemaking did not
+specifically state what socio-economic data the report would request.112 In the Final Rule,
+the relevant regulatory text is identical to the proposed regulatory text, including “other
+information” in the reporting requirement but not specifying what that information
+would be. 113 Similarly, as in the notice of prop osed rulemaking, the preamble to the
+regulatory text in the Final Rule stated th e “electronic fishing report must include any
+species that were caught or harvested in or from any area . . . as well as information about
+the permit holder, vessel, location fished, fishing effort, discards, and socio-economic
+data”; however, the Final Rule further explained, in response to a comment, that “NMFS
+will require the reporting of five economic va lues per trip: The charter fee, the fuel price
+and estimated amount of fuel used, number of paying passengers, and the number of crew
+for each trip.”114
+ Plaintiffs argue the inclusion of these five economic values violates the APA’s
+notice and comment requirement because nothin g in the notice of proposed rulemaking
+
+109 83 Fed. Reg. at 54,076-77.
+110 See id.
+111 Id. at 54,071.
+112 See id.
+113 85 Fed. Reg. at 44,017, 44,019.
+114 Id. at 44,005, 44,011.
+Case 2:20-cv-02312-SM-JVM   Document 94   Filed 02/28/22   Page 22 of 81
+23
+
+provided notice that reporting of these values would be required.115  They argue these five
+economic values do not fit the definition of “socio-economic data” to qualify as a logical
+outgrowth of the proposed rule. 116 The Government argues the Final Rule maintains the
+same text as the notice of proposed rulemaki ng and merely adds additional details that
+Plaintiffs should have anticipated.117
+ “[N]otice need not specifically identify ‘every precise proposal which [the agency]
+may ultimately adopt as a rule.’”118 For example, in United Steelworkers of America, AFL-
+CIO-CLC v/ Schuylkill Metals Corp., the Fifth Circuit held that a final rule, which did not
+define the word “earnings,” could logically include “premium payments” for purposes of
+the APA’s notice and comment requirement, even though it was not specified in notice of
+proposed rulemaking. 119 In that case, the agency had promulgated a rule requiring
+employers to continue to pay certain benefits to employees either let go or transferred due
+to lead exposure.120 Specifically, the final rule provided “the employer shall maintain the
+earnings, seniority rights and other employment rights and benefits of an employee.”121
+After the final rule came into effect, the agency attempted to enforce the final rule against
+employers who were not providing transferred employees ”premium payments,” such as
+
+115 R. Doc. 73-1 at 32-34.
+116 Id. at 33-34; R. Doc. 86 at 39-40.
+117 R. Doc. 79-1 at 22-23; R. Doc. 87 at 12-13. The Government also argues the logical outgrowth test is not
+applicable because “[t]he final rule did not change the proposed requirement, but merely provided more
+detail about the five specific questions.” R. Doc. 79 -1 at 21-22. However, as the Government admits, the
+Final Rule contained new information in the form of th ese additional details. If there is a change between
+the notice of proposed rulemaking and the Final Rule, that change must be a logical outgrowth. See Huawei
+Techns., 2 F.4th at 447-48 (examining requirements that appeared for the first time in the final rule); Tex.
+Ass'n of Mfrs., 989 F.3d at 381-82 (applying the logical outgrowth test when the stated “justification” for a
+rule changed); Am. Coke & Coal Chems. Inst. , 452 F.3d at 938-39 (emphasis added) (noting the logical
+outgrowth test examines whether parties could anticipate “the change was possible”).
+118 United Steelworkers of Am., AFL-CIO-CLC v. Schuylkill Metals Corp., 828 F.2d 314, 318 (5th Cir. 1987)
+(second alteration in original); see also Chem. Mfrs, Ass’n v. EPA, 870 F.2d 177, 203 (5th Cir. 1989) (same).
+119 United Steelworkers, 828 F.2d at 317-18.
+120 Id. at 316-17.
+121 Id. at 316 (emphasis added) (quoting 29 C.F.R. § 1910.1025(k)(2)(ii) (1987))
+Case 2:20-cv-02312-SM-JVM   Document 94   Filed 02/28/22   Page 23 of 81
+24
+
+overtime pay, production bonuses, and shift differential.122 The agency maintained these
+premiums were covered under the term “earni ngs” in the final rule, but the employers
+argued there was no notice during the rule making that earnings could include premium
+payments.123 The notice of proposed rulemaking stated employers should pay benefits
+that “would maintain the rate of pay, seniority and other rights of an employee” and asked
+for comments on the exte nt of these benefits. 124 Although neither “earnings” nor a
+definition of “earnings” was included in the notice, the Fifth Circuit held that the notice’s
+“descriptions more than adequately sufficed to apprise fairly an interested party that there
+was an issue regarding the breadth of . . . benefits,” and the agency’s request for comments
+helped further put the parties on notice of the issue.125 “[I]t certainly was not necessary,”
+the court reasoned, “that the Secretary spell out with particularity the proposed meaning
+of . . . benefits or ‘earnings.’”126
+ The Fifth Circuit also noted that “the comments received reflected . . . an
+understanding” among interested parties that the scope of benefits was in dispute.127 The
+agency received one comment that  “precisely” addressed the issue,128 asking the agency
+to enumerate the exact forms of compensation “earnings” covered. 129 Other comments
+advocated more generally for a broad definition of “earnings.”130 The court reasoned these
+comments further showed “it was readily apparent to interested parties that the scope of
+
+122 Id. at 317.
+123 Id.
+124 Id. at 318 (quoting Exposure to Lead, 42 Fed. Reg. 46,547, 46548 (proposed Sept. 16, 1977) (to be codified
+at 29 C.F.R. pt. 1910)).
+125 Id.
+126 Id.
+127 Id.
+128 Id. (citing Occupational Exposure to Lead, 43 Fed. Reg. 54,354, 54,466 (Nov. 21, 1978) (to be codified at
+29 C.F.R. pt. 1910)).
+129 43 Fed. Reg. at 54,466.
+130 United Steelworkers, 828 F.2d at 318.
+Case 2:20-cv-02312-SM-JVM   Document 94   Filed 02/28/22   Page 24 of 81
+25
+
+. . . benefits was in dispute,” and the broad,  “comprehensive definition of ‘earnings’
+[included in the final rule] was a logical outgrowth of the rulemaking proceeding.”131
+ Courts have also found materials refere nced in notices of proposed rulemaking
+may provide further notice of details not specif ically laid out in the notice of proposed
+rulemaking itself.132 For example, in American Coke and Coal Chemicals Institute v. EPA,
+the D.C. Circuit held that information prov ided in the agency’s development document
+accompanying the notice of proposed rulemaki ng could help “put parties on notice” of
+changes the agency might make in the final rule.133 The final rule differed in two relevant
+ways from the notice of proposed rulemaking . First, the final rule changed the datasets
+the agency relied on to create a chemical limi t: specifically, the final rule added datasets
+ES01, ES02, and ISM54 and removed dataset ESE03.134 Regarding the dataset the agency
+ultimately removed, ESE03, the court noted that “the Proposed Development Document
+accompanying the [notice of proposed rulemaking] [stated] that the model facilities ‘had
+to demonstrate good operation of the treatment component.’”135 Therefore, “[a]lthough
+the preamble in the [notice of proposed rulemaking] did not state that [agency] intended
+to reconsider the use of data from episode ESE03, nor that the ESE03 site would be
+reviewed for compliance with the general crit eria of ‘good operation,’” the development
+document provided “notice that data deriving from any plants that failed to demonstrate
+‘good operation’ would not be considered sources of information.”136 This development
+
+131 Id.
+132 See, e.g., Am. Coke & Coal Chems. Inst., 452 F.3d at 939, 941; cf. United Steelworkers, 828 F.2d at 318
+(“Additionally, the evidence received and cited in  the rulemaking history demonstrates that a
+comprehensive definition of “earnings” was a logical outgrowth of the rulemaking proceedings.”).
+133 Am. Coke, 452 F.3d at 939, 941.
+134 Id. at 938.
+135 Id. at 939.
+136 Id.
+Case 2:20-cv-02312-SM-JVM   Document 94   Filed 02/28/22   Page 25 of 81
+26
+
+document was not included in the Federal Register with the notice of proposed
+rulemaking, but the notice referenced the development document several times. 137
+Similarly, regarding the additional datasets, ES01, ES02, and ISM54, the court noted the
+agency stated in the proposed development document that it “might reconsider the
+exclusion of the naphthalene sampling data  from sampling episode ESE01 and ESE02
+and self-monitoring episode ISM54.”138
+The second change the D.C. Circuit considered in American Coke was the use of a
+median flow rate to set standards in the noti ce of proposed rulemaking to the use a flow
+rate from the “best performing mills” in the final rule. 139 The court again looked to the
+proposed development document, noting that “the Proposed Development Document put
+parties on notice that EPA's flow rate woul d be based upon ‘better performing mills.’”140
+The development document thus “put commentators on notice that EPA was considering
+an alternative to the ‘industry median.’”141
+In this case, the notice of proposed rulemaking and the Final Rule consistently
+explained the rule would require the reporting of “socio-economic data.” 142 “Socio-
+economic” is defined by Merriam-Webster to be “of, relating to, or involving a
+combination of social and economic factors.”143 Similarly, the Oxford English Dictionary
+defines “socio-economic” as “[s]ocial and economic; that de rives from or is concerned
+
+137 See generally Effluent Limitations Guidelines, Pretreatme nt Standards, and New Source Performance
+Standards for the Iron and Steel Manufacturing Point Source Category, 65 Fed. Reg. 81,964 (proposed Dec.
+27, 2000) (to be codified at 40 C.F.R. pt. 420).
+138 Am. Coke, 452 F.3d at 939.
+139 Id. at 940.
+140 Id. at 941.
+141 Id.
+142 Compare 83 Fed. Reg. at 54,076-77, with 85 Fed. Reg. at 44,005.
+143 Socioeconomic, Merriam-Webster, https://www.merriam-web ster.com/dictionary/socio-economic
+(last visited Feb. 28, 2022).
+Case 2:20-cv-02312-SM-JVM   Document 94   Filed 02/28/22   Page 26 of 81
+27
+
+with the interaction of social and economic factors.” 144 By definition, “socio-economic”
+includes economic factors. Many examples of the word in the above dictionaries refer to
+a person’s socioeconomic background or status,145 which calls to mind a person’s income,
+occupation, and standard of living—a ll related to economic issues.
+Although Plaintiffs argue “socio-economic” is too broad a word to put anyone on
+notice of the required economic reporting, this case is similar to United Steelworkers,
+which concerned the definition of “earnings”—a word the Fifth Circuit described as more
+“a term of art that has no natural, immutable meaning.” 146 Although the notice of
+proposed rulemaking did not include the word “earnings” or attempt to define its scope,
+the Fifth Circuit held that the notice’s broad descriptions of “rate of pay” and “other
+rights” “more than adequately sufficed to apprise fairly an interested party that there was
+an issue regarding the breadth of . . . benefits.” 147 Although “socio-economic” may be
+broad, as the Fifth Circuit stated, “it certainly was not necessary that the [NMFS] spell out
+with particularity the proposed meaning of” the word.148
+Furthermore, as in United Steelworkers, the NMFS sought comments on the scope
+of the electronic reporting requirement, asking “whether this proposed collection of
+information is necessary for the proper performance of the functions of the agency,
+including whether the information will have practical utility.”149 The comments submitted
+to NMFS in response to the notice of propos ed rulemaking show that interested parties
+understood the potential scope of “socio-economic” data reporting and were able to have
+
+144 Socio-economic, Oxford English Dictionary, https://www .oed.com/view/Entry/183786?rskey=xLd96
+E&result=1&isAdvanced=false#eid (last visited Feb. 28, 2022).
+145 See, e.g., id.
+146 United Steelworkers, 828 F.2d at 320.
+147 Id. at 318.
+148 See id. at 318.
+149 83 Fed. Reg. at 54,076.
+Case 2:20-cv-02312-SM-JVM   Document 94   Filed 02/28/22   Page 27 of 81
+28
+
+their voices heard. Adam Miller commented, “I agree with Electronic Log Books, Just [sic]
+not all the information about expenses and profits.”150 Plaintiffs speculate that Mr. Miller
+only knew about the economic data reporting because he attended a meeting of the Gulf
+Council Data Collection Technical Committee di scussing the range of possible reporting
+requirements.151 H o w e v e r ,  e v e n  a s s u m i n g  t h a t  w e r e true, Mr. Miller was not the only
+commenter on these issues, and these other commenters do not appear on the Committee
+attendance records. The Ocean Conservancy co mmented that fishermen should be able
+to “retrieve information from their fishing trips such as . . . economic data.” 152 Marit
+Bruesing, in summarizing the electronic reporting requirement, noted that the reporting
+includes “how many passengers.”153 Other commenters had more generalized concerns
+that touched on the categories of economic data. 154 Comments also were submitted in
+response to the notice of availability published after NMFS first received the amendment
+from the Gulf Council. The notice of availability contained an identical explanation of the
+collection of “socio-economic data” as in  the notice of proposed rulemaking. 155 These
+comments to the notice of availability were  considered both in NMFS’s decision to
+approve the amendment and in crafting the Final Rule.156 Michael Irwin commented,
+The amount I charge someone to go fishing on my vessel has nothing to do
+with the fishery as a whole or how much I paid for fuel. Let us try and make
+a living without prying into our pe rsonal business. Stick with fish
+populations and do away with the economists.157
+
+150 R. Doc. 68-3 at 13.
+151 R. Doc. 73-1 at 33 (citing R. Doc. 66-2 at 176 (listing attendees at the Committee meeting)).
+152 R. Doc. 68-3 at 7.
+153 R. Doc. 67-2 at 20.
+154 See, e.g., id. at 30 (emphasis added) (“Do not interfere with . . . [my] customer.”); R. Doc. 67-4 at 14
+(emphasis added) (“I been [sic] working and keeping records of my fish catches for years,, [sic] dislike what
+[sic] NOAA wants to keep track Of [sic] my . . . business.”).
+155 83 Fed. Reg. at 28,799.
+156 Id. at 28,800.
+157 R. Doc. 66-4 at 120.
+Case 2:20-cv-02312-SM-JVM   Document 94   Filed 02/28/22   Page 28 of 81
+29
+
+The Ocean Conservancy filed a similar comment  to the one above during this comment
+period, again asking that fishermen be “able to retrieve information from their fishing
+trips such as . . . economic data.” 158 All of these comments were enough for NMFS to
+respond to them in the Final Rule. 159 NMFS summarized these concerns into Comment
+15:
+NMFS should not require reporting of  economic information. Requiring
+operators to submit their financial information leads to a lack of buy-in and
+trust among participants. There are other methods to collect this
+information such as surveying websites, directly surveying permit holders,
+or simply asking the question on a random basis rather than for every trip.
+
+ Notice was further provided through reference in the notice of proposed
+rulemaking to the Gulf Council’s amendment.  The summary of the notice of proposed
+rulemaking noted, “NMFS proposes to impl ement management measures described in
+the Gulf For-hire Electronic Reporting Amendment, as prepared and submitted by the
+Gulf of Mexico (Gulf) Fishery Management Council (Gulf Council).” 160 When providing
+an overview of the electronic reporting requ irement, the notice of proposed remaking
+specified it was considering implementing the reporting requirement as “described in the
+Gulf For-hire Reporting Amendment.” 161 The notice directed readers to copies of the
+amendment: “Electronic copies of the Gulf For-hire Reporting Amendment may be
+obtained from www.regulations.gov or th e Southeast Regional Office website at
+http://sero.nmfs.noaa.gov/sustainable_fisheries/gulf_fisheries/For-HireElectronicRep
+orting/index.html.”162 The amendment includes the Se ptember 2016 report from the
+Technical Data Committee, wh ich discusses “the recommended data elements that are
+
+158 Id. at 149.
+159 85 Fed. Reg. at 44,011.
+160 83 Fed. Reg. at 54,069.
+161 Id.
+162 Id.
+Case 2:20-cv-02312-SM-JVM   Document 94   Filed 02/28/22   Page 29 of 81
+30
+
+necessary to improve fisheries and socioeconom ic data in the Gulf of Mexico (Gulf) for-
+hire fishery.”163 The Committee report provides a table of all data elements considered,
+their potential uses, and whether or not the Committee recommended their collection.164
+All five economic values that appear in th e Final Rule are discussed in the Committee’s
+report.165
+ Accordingly, based on the information in the notice of proposed rulemaking, the
+comments received, and the data in the Gulf  Council’s amendment referenced in the
+notice, interested parties were or should have been on notice that NMFS was considering
+the extent of the data to be collected, includ ing socio-economic data such as charter fee,
+the fuel price and estimated amount of fuel us ed, number of paying passengers, and the
+number of crew for each trip.166
+B. The Inclusion of the Five Economic Values in the Data Collected Is
+Not Arbitrary or Capricious.
+
+An agency’s decision is invalid if it is arbitrary or capricious.167 “An agency rule is
+arbitrary and capricious ‘if the agency ha s relied on factors which Congress has not
+intended it to consider, entirely failed to consider an important aspect of the problem,
+offered an explanation for its decision that runs counter to the evidence before the agency,
+
+163 R. Doc. 66-3 at 173.
+164 Id. at 175-184.
+165 See id.
+166 To the extent the Plaintiffs complain of the noti ce provided for the reporting of any other data not
+specifically mentioned in the regulatory text— i.e., any data beyond “fish harvested or discarded”— see R.
+Doc. 73-1 at 17, 31-32, the preamble in the notice of  proposed rulemaking put in terested parties on notice
+that the information requested “would include any spec ies that were caught or harvested in or from any
+area . . . as well as information about the permit ho lder, vessel, location fished, fishing effort, [and]
+discards,” 83 Fed. Reg. at 54,071. Plaintiffs have identified no other information NMFS is requiring charter
+vessels to report. A challenge to the notice provided for collection of data the Government has not sought
+to collect is unripe for judicial review, as such a challenge would benefit from  more concrete facts and
+because it challenges a position the Government has not taken. See Walmart, Inc. v. U.S. Dep’t of Just., 21
+F.4th 300, 311-12 (5th Cir. 2021) (“Because it challenges a series of positions that the government does not
+quite take, [the plaintiff] fails to show the ‘actual controversy’ that is needed for a declaratory judgment to
+be fit for judicial decision.”).
+167 5 U.S.C. § 706(2)(A); see also Luminant Generation Co. v. EPA, 714 F.3d 841, 853 (5th Cir. 2013).
+Case 2:20-cv-02312-SM-JVM   Document 94   Filed 02/28/22   Page 30 of 81
+31
+
+or is so implausible that it could not be ascribed to a difference in view or the product of
+agency expertise.’”168 “If the agency's reasons and po licy choices conform to minimal
+standards of rationality, then its actions are reasonable and must be upheld.”169
+Plaintiffs argue the NMFS was arbitrary an d capricious in requiring the reporting
+of the five economic values because the Gulf Council’s Data Collection Technical
+Committee recommended against the inclusion of two of those values, charter fee and
+crew size. 170 The Government argues NMFS was not required to adopt the
+recommendations of the Committee and provided sufficient reasons for not doing so.171
+Concerning the crew size, Plaintiffs are incorrect when they assert the Committee
+recommended against collecting such data. The Committee recommended  reporting of
+the number of crew on the vessel , finding such information”[e]ssential” and already
+included in the current headboat survey. 172 The Committee recommended against
+collecting data on the number of crew fishing, which is a different dataset. 173 The Final
+Rule does not require the reporting of the number of crew fishing. NMFS was not arbitrary
+or capricious when it required the number of crew members on the vessel to be reported
+in the Final Rule, as the Committee recommended.
+Concerning the charter fee, the Committee did recommend against collecting such
+data in the electronic logbooks with the other data collected. 174 However, the Committee
+noted collection of charter fee data was “[c]ritical for ANY economic analysis/assessment”
+
+168 Luminant Generation, 714 F.3d at 853-54 (quoting Tex. Oil & Gas Ass’n v. EPA, 161 F.3d 923, 933 (5th
+Cir. 1998)).
+169 Id. at 854 (quoting Tex. Oil & Gas Ass’n, 161 F.3d at 934).
+170 R. Doc. 73-1 at 34.
+171 R. Doc. 79-1 at 23-24.
+172 R. Doc. 66-3 at 177.
+173 Id. at 183.
+174 Id. at 184.
+Case 2:20-cv-02312-SM-JVM   Document 94   Filed 02/28/22   Page 31 of 81
+32
+
+and “highly recommended for [a] Separate survey” or “online.”175 The Final Rule directly
+responded to the Committee’s charter fee reco mmendation, explaining why it chose to
+include reporting of the charter fee in th e electronic logbooks over other means of
+reporting:
+Economic information collected as part of the electronic logbooks will be
+superior, in terms of quality and usefulness, to information that can be
+obtained from websites or separate surveys. Data gathered from websites or
+separate surveys are frequently outd ated, often suffer from small sample
+size issues, and are not linked to tr ip characteristics. By capturing the
+variation in these economic data across trips, NMFS can extract
+information about the value of individual trip characteristics (e.g., the
+marginal value per fish for a given species).176
+
+The Final Rule also provided a rationale behind the reporting of economic information in
+general:
+The collection of economic informatio n will enhance the Gulf Council and
+NMFS' ability to monitor and assess the economic effects of fishing
+regulations and environmental factors. This information will improve the
+best scientific information available for regulatory decision-making; will
+increase the accuracy of economic im pacts and value estimates specific to
+the for-hire industry; and will support further value-added research efforts
+and programs aimed at increasing net benefits to fishery stakeholders and
+the U.S. economy. Also, this information will help generate estimates of lost
+revenue when a disaster occurs (e.g., hurricane, oil spill). For example,
+information collected by the Individual Fishing Quota programs was
+instrumental during the 2010 Deep water Horizon MC 252 oil spill to
+account for lost revenue.177
+
+ By addressing the Committee’s recomme ndation against collecting charter fee
+data, NMFS considered an important aspect of the problem and provided a reasoned
+response. NMFS’s reasons “conform to minimal standards of rationality” and must be
+upheld.178 The Committee recommended collecting data on the other economic factors
+
+175 Id.
+176 85 Fed. Reg. at 44,011.
+177 Id.
+178 See Luminant Generation, 714 F.3d at 854 (quoting Tex. Oil & Gas Ass’n, 161 F.3d at 934).
+Case 2:20-cv-02312-SM-JVM   Document 94   Filed 02/28/22   Page 32 of 81
+33
+
+listed in the Final Rule. 179 Accordingly, the NMFS was not arbitrary or capricious in
+requiring the reporting of five economic values, the charter fee, the fuel price and
+estimated amount of fuel used, number of pa ying passengers, and the number of crew
+members for each trip.
+II. Challenges to the Tracking Requirement
+A. The Tracking Requirement Is Not in Excess of Statutory Authority.
+
+1. The Magnuson-Stevens Fishery Conservation and Management
+Act (MSA) Authorizes the Requ ired Purchase and Use of
+Tracking Equipment.
+
+A court must set aside an agency action if it is in excess of the statutory authority
+granted to the agency by Congress.180 “A claim that agency action is ‘in excess of statutory
+jurisdiction, authority, or limi tations, or short of statutor y right,’ necessarily entails a
+firsthand judicial comparison of the claimed excessive action with the pertinent statutory
+authority.”181
+Plaintiffs argue that, while the MSA a uthorizes the collection of information
+needed to implement FMPs, it does not authorize the requirement that regulated
+fishermen purchase the equipment needed to collect that information. 182  Furthermore,
+Plaintiffs argue, the MSA’s limitation on the types of fees the Secretary may collect
+reinforce this interpretation, as the required  purchase of equipment would be similar to
+an unauthorized fee. 183 The Government argues the MSA specifically authorizes
+
+179 R. Doc. 66-3 at 177 (crew size); id. at 181 (fuel price and amount); id. at 182 (number of passengers).
+180 5 U.S.C. § 706(2)(C); see also FDA v. Brown & Williamson Tobacco Corp. , 529 U.S. 120, 161 (2000)
+(“[A]n administrative agency's power to regulate in the public interest must always be grounded in a valid
+grant of authority from Congress.”).
+181 W. Union Tel. Co. v. FCC, 541 F.2d 346, 354 (3d Cir. 1976) (quoting 5 U.S.C. § 706(2)(C)) (citing FPC v.
+Moss, 424 U.S. 494 (1976)); see also Citizens Comm. for the Hudson Valley v. Volpe, 425 F.2d 97, 102, 106
+(2d Cir. 1970).
+182 R. Doc. 73-1 at 30.
+183 Id.; see 16 U.S.C. § 1854(d).
+Case 2:20-cv-02312-SM-JVM   Document 94   Filed 02/28/22   Page 33 of 81
+34
+
+regulations requiring vessels to use equipm ent necessary for enforcement of the MSA,
+which necessarily includes placing some costs on the industry for the purchase of such
+equipment.184
+The MSA states “[a]ny fishery management plan which is prepared by any Council,
+or by the Secretary, with respect to any fishery, may . . . require the use of specified types
+and quantities of fishing gear, fishing vesse ls, or equipment for such vessels, including
+devices which may be required to facilitate  enforcement of the provisions of this
+chapter.”185 As the rationale behind the tracking requirement is validation of fishing
+effort,186 the Court must thus determine whethe r the required purchase and use of
+tracking equipment in fact facilitates enforcement of the MSA. Two of the stated purposes
+of the MSA are “to conserve and manage the fishery resources found off the coasts of the
+United States” and “to promote domestic commercial and recreational fishing under
+sound conservation and management principles.” 187 Furthermore, in implementing the
+MSA, Congress found “[t]he collection of reli able data is essential to the effective
+conservation, management, and scientific unde rstanding of the fishery resources of the
+United States.”188
+In furtherance of these purposes, the MSA requires FMPs to “specify the pertinent
+data which shall be submitted to the Secretary with respect to . . . charter fishing, . . .
+including, but not limited to . . . areas in which fishing was engaged in[ and] time of
+fishing.”189 The National Standards, with which all FMPs must be consistent, requires
+
+184 R. Doc. 79-1 at 18-21.
+185 16 U.S.C. § 1853(b)(4). “[T]his chapter” refers to the MSA.
+186 See 85 Fed. Reg. at 44,009, 44,011.
+187 16 U.S.C. § 1801(b)(1), (3).
+188 Id. § 1801(a)(8).
+189 Id. § 1853(a)(5).
+Case 2:20-cv-02312-SM-JVM   Document 94   Filed 02/28/22   Page 34 of 81
+35
+
+“[c]onservation and management measures [to] prevent overfishing while achieving, on
+a continuing basis, the optimum yield from ea ch fishery for the United States fishing
+industry.”190
+Most broadly, the MSA requires FMPs  to “contain the conservation and
+management measures . . . which are . . . necessary and appropriate for the conservation
+and management of the fishery, to prevent overfishing and rebuild overfished stocks, and
+to protect, restore, and promote the long-ter m health and stability of the fishery” and
+allows FMPs to “prescribe such other measures, requirements, or conditions and
+restrictions as are determined to be necessary and appropriate for the conservation and
+management of the fishery.”191 This “necessary and appropriate” phrasing is “empowering
+language [that] represents a delega tion of authority to the agency.”192 “[T]hese statutory
+provisions ‘vest[ ] broad authority in the Secretary to promulgate such regulations as are
+necessary to carry out the conservation an d management measures of an approved
+FMP.’”193
+Multiple courts have found the “necessary and appropriate” language allows NMFS
+to impose the costs of complying with certain FMP provisions on the industry. 194 Three
+recent cases concerned industry funding of at-sea monitors—personnel who occasionally
+accompany vessels to collect data on the trip and catch. In Goethel v. Pritzker, the court
+
+190 Id. § 1851(a)(1).
+191 Id. § 1853(a)(1)(A), (b)(14) (emphasis added).
+192 Coastal Conservation Auth. v. U.S. Dep’t of Com., No. 15-1300, 2016 WL 54911, at *4 (E.D. La. Jan. 5,
+2016), aff’d, 846 F.3d 99 (5th Cir. 2017).
+193 Loper Bright Enters., Inc. v. Raimondo, 544 F. Supp. 3d 82, 104 (D.D.C. 2021) (quoting Nat'l Fisheries
+Inst., Inc. v. Mosbacher, 732 F. Supp. 210, 216 (D.D.C. 1990)), appeal filed, No. 21-5166 (D.C. Cir. July 19,
+2021).
+194 See, e.g., Goethel v. Pritzker, No. 15–cv–497–JL, 2016 WL 4076831, at *4-5 (D.N.H. July 29, 2016), aff’d
+on other grounds sub nom. Goethel v. U.S. Dep’t of Com., 854 F.3d 106 (1st Cir. 2017); Loper Bright Enters.,
+544 F. Supp. 3d at 103-07; Relentless Inc. v. U.S. Dep’t of Com., __ F. Supp. 3d ___ (D.R.I. Sept. 20, 2021),
+No. 20-108 WES, 2021 WL 4256067, appeal filed, No. 21-1886 (1st Cir. Nov. 4, 2021).
+Case 2:20-cv-02312-SM-JVM   Document 94   Filed 02/28/22   Page 35 of 81
+36
+
+held that because “the MSA explicitly auth orizes at-sea monitors” and because “the
+Council permissibly found . . . [the] industry funding provision ‘necessary and appropriate
+for the conservation and management of the fishery’ . . . the MSA does authorize industry
+funding of monitors.”195 Similarly, in Loper Bright Enterprises, Inc. v. Raimondo , the
+court held that, “[g]iven that the MSA expre ssly authorizes FMPs to contain provisions
+requiring that vessels carry at-sea monitors , as well any ‘necessa ry and appropriate’
+conservation and management requirements,” the MSA authorizes industry funding of
+monitors.196 Finally, in Relentless Inc. v. U.S. Department of Commerce, the court, noting
+that “Congress gave the Secretary the power to take any measures that are ‘necessary and
+appropriate’ to achieve the MSA's conservatio n goals,” held “it was reasonable for the
+Secretary to conclude that industry-funded monitoring is permitted under the MSA.”197
+In this case, the Court finds the required  purchase and use of tracking equipment
+facilitates enforcement of the MSA and is accor dingly authorized as “equipment for . . .
+vessels . . . required to facilitate enforcement” of the MSA. 198 NMFS chose to implement
+the tracking requirement “to validate effort (fishing trips)” and “aid with enforcement of
+the reporting requirement.”199 Specifically, the tracking requirement “will allow NMFS to
+independently determine whether the vessel leaves the dock” and, in particular,  “when a
+fishing trip was taken, and the length of that trip.”200 The tracking requirement thus helps
+enforce the MSA’s requirement that FMPs sp ecify what data charter fishermen must
+submit, including “areas in which fishing was engaged in[] [and] time of fishing.” 201
+
+195 Goethel, 2016 WL 4076831, at *4.
+196 Loper Bright Enters., 544 F. Supp. 3d at 104.
+197 Relentless Inc., __ F. Supp. 3d ___, 2021 WL 4256067, at *7.
+198 16 U.S.C. § 1853(b)(4).
+199 85 Fed. Reg. at 44,009, 44,011.
+200 Id.
+201 16 U.S.C. § 1853(a)(5).
+Case 2:20-cv-02312-SM-JVM   Document 94   Filed 02/28/22   Page 36 of 81
+37
+
+Moreover, the MSA mandates the inclusion of measures to conserve and manage the
+fisheries,202 and NMFS intends to use the data fr om the tracking requirement to help
+manage the fisheries:
+The fishermen are required to have the necessary equipment . . . as
+conditions of their Federal for-hire  permits because they possess the
+information that the Gulf Council and NMFS need to improve management.
+NMFS is responsible for performing quality control, validating the reports,
+and using the data, as appropriate, to help achieve various management
+objectives.203
+As in Goethel, Loper Bright , and Relentless Inc. , the “necessary and appropriate”
+language in the MSA, combined with the expl icit authorization to require fishermen to
+use certain equipment, authorizes FMPs to require regulated fishermen to bear the costs
+of the tracking requirement. The costs of co mpliance are nearly always “necessary,” as
+“Government regulation typically imposes costs on the regulated industry.”204
+ The MSA’s restrictions on what fees the Secretary may charge, which the Plaintiffs
+argue reinforce their position that the MSA do es not authorize the purchase of tracking
+equipment, are distinguishable from the costs of compliance with regulations in this case.
+The MSA’s fee provisions concern scenarios in which the agency directly assesses
+payment against the industry.205 However, in the case of purchasing tracking equipment,
+fishermen would contract with third-party dealers for purchase and installation of such
+equipment.206 As the courts in Loper Bright and Relentless, Inc.  noted, “fee-based
+program[s]” under the fee provisions of the MSA are “distinguishable ‘from the industry-
+
+202 See id. §§ 1851(a)(1), 1853(a)(1)(A), (b)(14).
+203 85 Fed. Reg. at 44,009.
+204 Cf. Nat’l Fed’n of Indep. Bus. v. Sebelius, 567 U.S. 519, 652 (2012) (Scalia, J., Kennedy, J., Thomas, J.,
+and Alito, J., dissenting).
+205 See 16 U.S.C. § 1854(d); Loper Bright Enters., 544 F. Supp. 3d at 106.
+206 8 5  F e d .  R e g .  a t  4 4 , 0 0 7 ;  see Approved Vessel Monitoring System (VMS) Units for Reporting in the
+Southeast For-Hire Integrated Electronic Reporting Program, supra note 92.
+Case 2:20-cv-02312-SM-JVM   Document 94   Filed 02/28/22   Page 37 of 81
+38
+
+funded observer measures at issue here, in which the fishing vessels contract with and
+make payments directly to third-party . . . service providers.’”207 Furthermore, as the court
+in Goethel noted, the inclusion of an explicit fee provision in one part of the statute but
+not another, “does not ‘support[ ] a sensible inference’ that the MSA forbids an FMP under
+which industry must bear the cost of certain regulations.”208 Because the Secretary is not
+directly collecting fees from the fishermen, the MSA’s fee restrictions do not apply.
+ Accordingly, the required purchase of tracking equipment is authorized as a
+measure “necessary and appropriate for the conservation and management of the
+fishery,”209 namely the use of “equipment for . . . vessels . . . required to facilitate
+enforcement” of the MSA.210
+2. NMFS’s Authority to Require the Purchase and Use of Tracking
+Equipment Does Not Violate the Nondelegation Doctrine.
+
+Article I, Section 1, of the Constitution vests “[a]ll legislative Powers herein granted
+. . . in a Congress of the United States.” 211 “This text permits no delegation of those
+powers.”212 Therefore, “when Congress confers decisionmaking authority upon agencies
+Congress must ‘lay down by legislative act an intelligible principle to which the person or
+body authorized to [act] is directed to conform.’” 213 “Those standards . . . are not
+demanding.”214
+
+207 Relentless Inc., 2021 WL 4256067, at *5 (first alteration in original) (quoting Loper Bright Enters., 544
+F. Supp. 3d at 106); see also Loper Bright Enters., 544 F. Supp. 3d at 106.
+208 Goethel, 2016 WL 4076831, at *5-6 (alteration in original).
+209 16 U.S.C. § 1853(a)(1)(A), (b)(14).
+210 Id. § 1853(b)(4).
+211 U.S. Const. art. I, § 1.
+212 Whitman v. Am. Trucking Ass’ns, 531 U.S. 457, 472 (2001) (first citing Loving v. United States, 517 U.S.
+748, 771 (1996); and then citing id. at 776-77 (Scalia, J., concurring in part and concurring in judgment)).
+213 Id. (quoting J.W. Hampton, Jr., & Co. v. United States, 276 U.S. 394, 409 (1928)).
+214 Gundy v. United States, 139 S. Ct. 2116, 2129 (2019).
+Case 2:20-cv-02312-SM-JVM   Document 94   Filed 02/28/22   Page 38 of 81
+39
+
+ Plaintiffs argue any reliance on author ity from the “necessary and appropriate”
+language of the MSA violates the nondelegat ion doctrine because it is an open-ended
+grant of authority with no intelligible principle. 215 They argue the Court should read a
+cost-benefit analysis into authority con ferred under the MSA’s “necessary and
+appropriate” language.216 The Government argues Congress has laid down an intelligible
+principle in the statutory context of the “necessary and appropriate” language.217
+ Discussing the nondelegation doctrine, the Supreme Court has stated it has
+“almost never felt qualified to second-guess Congress regarding the permissible degree of
+policy judgment that can be left to those executing or applying the law.” 218 In fact, the
+Court has found the requisite “intelligible prin ciple” lacking in only two statutes, one of
+which provided literally no guidance for the exercise of discretion, and the other of which
+conferred authority to regulate the entire e conomy on the basis of no more precise a
+standard than stimulating the economy by assuring “fair competition.” 219 On the other
+hand, the Supreme Court has found an intelligible principle even in statutes authorizing
+regulations in the “public interest.”220
+
+215 R. Doc. 86 at 35-38. The MSA’s “necessary and appropriate” language was not the sole—or even main—
+statutory basis the Court found for the tracking requirement above. The main source of authority was the
+MSA’s authorization for FMPs to “require the use of specified types and quantities of fishing gear, fishing
+vessels, or equipment for such vessels, including device s which may be required to facilitate enforcement
+of the provisions of this chapter.” 16 U.S.C. § 1853(b)(4). Nevertheless, as the Court relied in part on the
+“necessary and appropriate” language, the Court finds it necessary to address the nondelegation argument.
+216 R. Doc. 86 at 35-38.
+217 R. Doc. 87 at 10-12. The Government also argues Plaintiffs’ nondelegation argument was raised in a reply
+brief and thus was waived. Id. at 10. However, Plaintiffs raised their nondelegation argument in a combined
+reply in support of their motion for summary judgment and opposition to the Government’s motion for
+summary judgment. The Court will thus address the nondelegation argument.
+218 Whitman, 531 U.S. at 47 4-75 (quoting Mistretta v. United States , 488 U.S. 361, 416 (1989) (Scalia, J.,
+dissenting)) (citing Mistretta, 488 U.S at 373).
+219 Whitman, 531 U.S. at 474 (first citing Panama Refining Co. v. Ryan , 293 U.S. 388 (1935); and then
+citing A.L.A. Schechter Poultry Corp. v. United States, 295 U.S. 495 (1935)).
+220 See, e.g., Nat’l Broad. Co. v. United States, 319 U.S. 190, 225–226 (1943); N.Y. Cent. Sec. Corp. v. United
+States, 287 U.S. 12, 24–25 (1932); see also Whitman, 531 U.S. at 474 (citing cases).
+Case 2:20-cv-02312-SM-JVM   Document 94   Filed 02/28/22   Page 39 of 81
+40
+
+The Court declines to read a cost-benefit analysis into the MSA’s “necessary and
+appropriate” language, as the statute already provides an intelligible principle. “[A]
+nondelegation inquiry always begins (a nd often almost ends) with statutory
+interpretation.”221 The MSA provides FMPs may impl ement measures “necessary and
+appropriate for the conservation and management of the fishery.”222 The MSA provides a
+detailed definition of “conservation and management:
+all of the rules, regulations, conditi ons, methods, and other measures (A)
+which are required to rebuild, restore, or maintain, and which are useful in
+rebuilding, restoring, or maintaining,  any fishery resource and the marine
+environment; and (B) which are designed to assure that--(i) a supply of food
+and other products may be taken, and that recreational benefits may be
+obtained, on a continuing basis; (ii) irreversible or long-term adverse effects
+on fishery resources and the marine environment are avoided; and
+(iii) there will be a multiplicity of options available with respect to future
+uses of these resources.223
+
+Furthermore, the ten National Standards apply to all FMPs. 224 Of particular note,
+National Standard 2 provides conservation management measures must be “based upon
+the best scientific information available”; National Standard 7 provides conservation
+management measures “shall, where practicable, minimize costs and avoid unnecessary
+duplication”; and National Standard 8 provides conservation and management measures
+shall “take into account the importance of fishery resources to fishing communities by
+utilizing economic and social data . . . , in order to (A) provide for the sustained
+participation of such communities, and (B) to  the extent practicable, minimize adverse
+economic impacts on such communities.” 225 Congress has thus provided a lengthy and
+
+221 Gundy, 139 S. Ct. at 2123.
+222 16 U.S.C. § 1853(a)(1)(A), (b)(14).
+223 Id. § 1802(5).
+224 Id. § 1851(a).
+225 Id. §§ 1851(a)(2), (7), (8). The remaining National Standards are:
+Case 2:20-cv-02312-SM-JVM   Document 94   Filed 02/28/22   Page 40 of 81
+41
+
+detailed intelligible principle that easi ly passes muster under the nondelegation
+doctrine.226
+3. The Tracking Requirement Does Not Exceed Congress’s
+Authority Under the Commerce Clause.
+
+It is axiomatic that Congress cannot confer upon an agency authority that Congress
+itself does not possess.227 Plaintiffs argue that Congress does not have the authority under
+the Commerce Clause to compel fisher men to purchase tracking equipment. 228 The
+Government argues the tracking requiremen t does not compel individuals to purchase
+
+(1) Conservation and management measures shall prevent overfishing while achieving, on
+a continuing basis, the optimum yield from each fishery for the United States fishing
+industry.
+. . . .
+(3) To the extent practicable, an individual stock of fish shall be managed as a unit
+throughout its range, and interrelated stocks of fish shall be managed as a unit or in close
+coordination.
+(4) Conservation and management measures shall not discriminate between residents of
+different States. If it becomes necessary to allocate or assign fishing privileges among
+various United States fishermen, such allocation shall be (A) fair and equitable to all such
+fishermen; (B) reasonably calculated to promote conservation; and (C) carried out in such
+manner that no particular individual, corporat ion, or other entity acquires an excessive
+share of such privileges.
+(5) Conservation and management measures sha ll, where practicable, consider efficiency
+in the utilization of fishery resources; except  that no such measure shall have economic
+allocation as its sole purpose.
+(6) Conservation and management measures shall take into account and allow for
+variations among, and contingencies in, fisheries, fishery resources, and catches.
+. . . .
+(9) Conservation and management measures shall, to the extent practicable, (A) minimize
+bycatch and (B) to the extent bycatch cannot be avoided, minimize the mortality of such
+bycatch.
+(10) Conservation and management measures shall, to the extent practicable, promote the
+safety of human life at sea.
+Id. § 1851(a).
+226 As part of their nondelegation argument, Plaintiffs argue the Final Rule offers no justification for the
+c o s t s  o f  t h e  t r a c k i n g  r e q u i r e m e n t .  R .  D o c .  8 6  a t  3 7-38. Without using the words, this argument is, in
+essence, that the Final Rule was arbitrary or capricio us in imposing the tracking requirement. Moreover,
+Plaintiffs recognize this argument is the same as that  in their “opening brief” regarding the arbitrary and
+capricious standard. Id. at 37. Accordingly, the Court will addr ess this argument in the arbitrary and
+capricious discussion infra Section II(B)(2).
+227 See Goethel, 2016 WL 4076831, at *7; Relentless Inc., __ F. Supp. 3d ___, 2021 WL 4256067, at *11; cf.
+Bowsher v. Synar, 478 U.S. 714, 726 (1986) (“Congress cannot grant to an officer under its control what it
+does not possess.”).
+228 R. Doc. 73-1 at 30-31.
+Case 2:20-cv-02312-SM-JVM   Document 94   Filed 02/28/22   Page 41 of 81
+42
+
+tracking equipment; rather if they choose to  participate in the permit program, that
+decision carries with it certain obligations.229
+Congress has the power “[t]o regulate Commerce with foreign Nations, and among
+the several States, and with the Indian Tribes.”230 “The power of Congress over interstate
+commerce is not confined to the regulation of commerce among the states,” but extends
+to activities that “have a substant ial effect on interstate commerce.” 231 However, in
+National Federation of Inde pendent Business v. Sebelius , a majority of the Supreme
+Court held the Affordable Care Act’s indi vidual mandate, which imposed a monetary
+penalty on any individual who failed to main tain health insurance, exceeded Congress’s
+authority under the Commerce Clause.232 Chief Justice Roberts noted that the individual
+mandate “does not regulate existing co mmercial activity” but “instead compels
+individuals to become active in commerce by purchasing a product.”233 Similarly, Justice
+Scalia, Justice Kennedy, Justice Thomas, and Justice Alito noted that under the
+Commerce Clause, “it must be activity affecting commerce that is regulated, and not
+merely the failure to engage in commerce.”234
+Plaintiffs argue the tracking requirement compels them to engage in commerce by
+requiring them to purchase and install trac king equipment. However, multiple courts
+have rejected similar arguments. In Relentless, Inc., the court held that industry funding
+of at-sea monitors did not compel them to participate in commerce, namely the at-sea
+monitor market, because they were voluntary participants in the industry, subject to
+
+229 R. Doc. 79-1 at 21.
+230 Const. art. I, § 8.
+231 United States v. Darby, 312 U.S. 100, 118–119 (1941).
+232 Nat’l Fed’n of Indep. Bus., 567 U.S. at 547-61 (Roberts, C.J.); id. at 650-60 (Scalia, J., Kennedy, J.,
+Thomas, J., and Alito, J., dissenting).
+233 Id. at 552 (Roberts, C.J.).
+234 Id. at 658 (Scalia, J., Kennedy, J., Thomas, J., and Alito, J., dissenting).
+Case 2:20-cv-02312-SM-JVM   Document 94   Filed 02/28/22   Page 42 of 81
+43
+
+regulation.235 Rather, “[t]he relevant market is not the monitoring market, but rather the
+commercial herring fishing market.” 236 “Unlike the involuntary insurance purchasers—
+who could not, short of leav ing the country, avoid the he alth insurance requirement—
+Plaintiffs are voluntary market participants.” 237 “If Plaintiffs do not want to pay for
+monitoring, they can decline to fish for herring, limit their herring catches to fifty metric
+tons per trip, leave the New England region, or  purchase fishing vessels that qualify for
+electronic monitoring.”238 The court in Goethel, faced with the same argument, came to a
+similar conclusion: “The underlying factual premise of this argument is flawed because
+nothing in the Magnuson–Stevens Act compe ls at-sea monitoring to begin with.
+Fisherman [sic] who do not participate in the sector system would not be required to have
+monitors, regardless of who is paying for them.”239 Moreover, even if the system were only
+“theoretically voluntary,” the agency was “not ‘regulat[ing] individuals because they are
+doing nothing.’”240 Rather, the regulation did not “ta x[], assess[] fees, or otherwise
+penalize[] [fishermen] for choosing a course of action . . . that does not require at-sea
+monitoring.”241 “Instead,” the court reasoned, “the costs of monitors are part of the
+permissible regulation of plaintiffs’ commercial fishing activities.”242
+As in Relentless, Inc. and Goethel, the tracking requirement does not compel the
+Plaintiffs to engage in commerce. Plaintiffs  are not being regulated for doing nothing;
+they are voluntary participants in the charte r vessel permit program. As participants in
+
+235 Relentless Inc., __ F. Supp. 3d ___, 2021 WL 4256067, at *11-12.
+236 Id. at *12.
+237 Id.
+238 Id.
+239 Goethel, 2016 WL 4076831, at *7.
+240 Id. (alteration in original) (quoting Nat’l Fed’n of Indep. Bus., 567 U.S. at 552).
+241 Id.
+242 Id.
+Case 2:20-cv-02312-SM-JVM   Document 94   Filed 02/28/22   Page 43 of 81
+44
+
+commerce, Congress has the power to regulate  them, even if such regulation imposes
+costs on regulated parties. 243 Unlike the uninsured in National Federation of
+Independent Business, who could not escape the requirements of the individual mandate,
+Plaintiffs may avoid the tracking requirement by declining to participate in the permit
+program.
+B. NMFS’s Responses to Comments Were Not Arbitrary or Capricious.
+
+A court may set aside an agency action if it is “arbitrary, capricious, an abuse of
+discretion, or otherwise not in accordance with law.” 244 This standard is “[h]ighly
+deferential” and  “presumes th e validity of agency action.” 245 “The requirement that
+agency action not be arbitrary or capricious includes a requirement that the agency . . .
+respond to ‘relevant’ and ‘significant’ public comments.”246 “Comments are ‘significant,’
+and thus require response, only if they raise points ‘which, if true . . . and which, if
+adopted, would require a change in an agency's proposed rule.’”247 “Moreover, comments
+which themselves are purely speculative and do not disclose the factual or policy basis on
+which they rest require no response. There mu st be some basis for thinking a position
+taken in opposition to the agency is true.” 248 The requirement to respond is not
+“particularly demanding.”249 “[T]he agency [is not required] to discuss every item of fact
+or opinion included in the submissions made to it in informal rulemaking”; rather, “the
+
+243 Cf. Nat’l Fed’n of Indep. Bus. , 567 U.S. at 652 (Scalia, J., Kennedy, J., Thomas, J., and Alito, J.,
+dissenting) (“Government regulation typically imposes costs on the regulated industry.”).
+244 5 U.S.C. § 706(2)(A).
+245 City of Portland v. EPA, 507 F.3d 706, 713 (D.C. Cir. 2007) (quoting Nat'l Ass'n of Clean Air Agencies
+v. EPA, 489 F.3d 1221, 1228 (D.C. Cir. 2007)).
+246 Id. (alteration in original) (quoting Public Citizen, Inc. v. FAA, 988 F.2d 186, 197 (D.C. Cir. 1993)); see
+also Huawei Techns., 2 F.4th at 449 (citing Carlson v. Postal Regul. Comm'n, 938 F.3d 337, 344 (D.C. Cir.
+2019)).
+247 Huawei Techns., 2 F.4th at 449 (alteration in original) (quoting City of Portland, 507 F.3d at 714-15).
+248 Home Box Office, Inc. v. FCC, 567 F.2d 9, 35 n.58 (D.C. Cir. 1977).
+249 Pub. Citizen, Inc. v. FAA, 988 F.2d 186, 197 (D.C. Cir. 1993).
+Case 2:20-cv-02312-SM-JVM   Document 94   Filed 02/28/22   Page 44 of 81
+45
+
+agency's response to public comments need on ly ‘enable [the Court] to see what major
+issues of policy were ventilated . . . and why the agency reacted to them as it did.’”250
+1. NMFS Considered Comments Concerning Privacy.
+
+Plaintiffs argue NMFS failed to resp ond to several comments raising Fourth
+Amendment concerns. 251 The Government argues, because these comments largely
+focused on the use of location data by other agencies, NMFS reasonably interpreted these
+comments to concern data use and thus sufficiently responded to them.252
+Four comments, quoted more fully above, 253 raised Fourth Amendment concerns
+using identical language: “Providing all confidential transiting details is a violation of our
+4th Amendment right to privacy and not necessa ry to manage the fishery. Such details
+are considered confidential by NOAA and utilize d by other agencies not associated with
+management of the fishery.” 254 NMFS addressed the “confidential transiting details”
+ aspect of these comments:
+NMFS will protect these data in a ccordance with applicable law. For
+example, under section 402(b)(1) of the Magnuson-Stevens Act, the data
+submitted to NMFS under the Gulf For-hire Reporting Amendment shall be
+confidential and shall not be disc losed, except under the limited
+circumstances specified in the Magnuson-Stevens Act, such as to Council or
+Federal employees who are responsible for fishery management. As noted
+in 50 CFR 600.415(e), anyone “having access to these data are prohibited
+from unauthorized use or disclosure and are subject to the provisions of 18
+U.S.C. 1905, 16 U.S.C. 1857, and NOAA/NMFS internal procedures,
+including NAO 216-100.” Additionally, all data reported through the Gulf
+for-hire reporting program will be collected through software that meets
+standards set out by NMFS, including data confidentiality and protection of
+personal information online, and wi ll be treated as confidential in
+accordance with NOAA Administrative  Order 216-100, Protection of
+Confidential Fisheries Statistics. Th e release of data in aggregate or
+
+250 Id. (second and fourth alterations in original) (quoting Auto. Parts & Accessories Ass'n v. Boyd , 407
+F.2d 330, 335, 338 (D.C. Cir. 1968)) (citing Simpson v. Young, 854 F.2d 1429, 1435 (D.C. Cir. 1988)).
+251 R. Doc. 73-1 at 35-36; R. Doc. 86 at 40-41.
+252 R. Doc. 79-1 at 25; R. Doc. 87 at 13.
+253 See supra text accompanying note 94.
+254 R. Doc. 67-4 at 7-8; R. Doc. 68-2 at 21-22; R. Doc. 70-3 at 27-28; R. Doc. 67-4 at 20-21.
+Case 2:20-cv-02312-SM-JVM   Document 94   Filed 02/28/22   Page 45 of 81
+46
+
+summary form that does not directly or indirectly disclose the identity or
+business of any person who submits the information is authorized under
+section 402(b)(3) of the Magnuson-Stevens Act.255
+
+NMFS’s interpretation of these four comments and its subsequent response was
+reasonable. It is incumbent upon the commenter  to “disclose the factual or policy basis
+on which [his or her comment] rest[s],” 256 and the agency “need not sift pleadings and
+documents to identify arguments that are not stated with clarity by a petitioner.”257 “Just
+as the opportunity to comment is meaningless unless the agency responds to significant
+points raised by the public, so too is the agency's oppo rtunity to respond to those
+comments meaningless unless the interested party clearly states its position.”258 The only
+basis for their privacy objections that the commenters raised was that their “transiting
+details” are “confidential” according to NOAA. NMFS addressed this concern and was not
+required to dig for another basis of generalized Fourth Amendment concerns.
+The Court finds Hussion v. Madigan 259 persuasive. In that case, the Eleventh
+Circuit held it was “unable to find . . . th e Agency’s limited acknowledgment of general
+due process concerns evince[d] an ‘entire[ ] fail[ure]’ to consider them” when it addressed
+specific due process concerns raised in several of these comments. 260 Hussion involved
+
+255 85 Fed. Reg. at 44,010.
+256 See Home Box Office, 567 F.2d at 35 n.58.
+257 Huawei Techns., 2 F.4th at 449.
+258 Am. Great lakes Ports Ass’n v. Zukunft, 296 F. Supp. 27, 53 (D.D.C. 2017) (quoting Northside Sanitary
+Landfill, Inc. v. Thomas, 849 F.2d 1516, 1520 (D.C. Cir. 1988)), aff’d sub nom. Am. Great lakes Ports Ass’n
+v. Schultz, 952 F.3d 510 (D.C. Cir. 2020); cf. Conf. of State Bank Supervisors v. Off. Of Thrift Supervision,
+792 F. Supp. 837, 846 n.8 (D.D.C. 1992) (citations omitted) (“Plaintiffs also state that [the agency] failed to
+respond adequately to ‘the transition period’ that was suggested by the American Bankers Association.
+When read in full, however, this comment does not specifically suggest that [the agency] adopt a transition
+period. Rather, this comment describes of a variety of proposals that were put before Congress when
+Congress was considering relaxing the statutory restrictions upon interstate branching by banks. . . . The
+court finds that this specific reference to a transition period does not amount to a material comment or
+issue that [the agency] must respond to in light of the way in which it was presented. [The agency] properly
+considered the larger material concern of many commenters that the proposed rule was contrary to the will
+of Congress because Congress considered and rejected proposals to allow branching by banks.”).
+259 Hussion v. Madigan, 950 F.2d 1546 (11th Cir. 1992).
+260 Id. at 1554 (third and fourth alterations in original).
+Case 2:20-cv-02312-SM-JVM   Document 94   Filed 02/28/22   Page 46 of 81
+47
+
+regulations meant to “streamline”  eviction  proceedings in a housing project funded by
+the agency.261 Several commenters complained that the regulations deprived them of their
+constitutional due process. 262 The agency responded to se veral specific concerns these
+commenters raised, addressing, for example, “self-help evictions” and “the rubber-
+stamping of unwarranted eviction decisions by state courts.”263 However, the agency did
+not specifically acknowledge more “general due process concerns.”264 The court held that
+the agency’s responses were sufficient, reasoning “[t]he APA does not require the Agency
+to respond to comments which, in essence, reflect a policy-based preference for the most
+exacting guarantees of due process over the interest shared by owners and other tenants
+in minimizing the cost and delay of good-cause evictions.” 265 Rather, the agency needed
+to only address the specific “significant ob jections raised,” which were “on the record,
+accounted for in the Agency's action.”266 As in Hussion, in this case, NMFS addressed the
+specific confidentiality objections, but was not required to acknowledge general privacy
+objections that failed to provide another basis for their concerns.
+To the extent the commenters’ genera l Fourth Amendment concerns raised
+important issues, the Court is satisfied that  NMFS and the Gulf Council considered the
+important aspects of the problem. 267 “The failure to respond to comments is significant
+only insofar as it demonstrates that th e agency's decision was not based on a
+consideration of the relevant factors.”268 Courts have looked to the rulemaking record to
+
+261 Id. at 1548-49.
+262 Id. at 1553-54.
+263 Id. at 1553.
+264 Id. at 1554.
+265 Id.
+266 Id.
+267 See Motor Vehicle Ass’n of U.S., 463 U.S. at 43.
+268 Covad Commc’ns Co. v. FCC, 450 F.3d 528, 550 (D.C. Cir. 2006) (quoting Thompson v. Clark, 741 F.2d
+401, 409 (D.C. Cir. 1984)).
+Case 2:20-cv-02312-SM-JVM   Document 94   Filed 02/28/22   Page 47 of 81
+48
+
+review the factors considered.269 For example, in Thompson v. Clark, the D.C. Circuit held
+that a final rule, which did not directly address any comments, was not arbitrary or
+capricious.270 Several comments objected to the prop osed increase in federal oil and gas
+rental fees on the grounds that “the increa ses would drive out small participants and
+concentrate leases in the hands of large corporations.” 271 The final rule stated only that
+“no substantive views [had been] presented” in the comments. 272 The court, however,
+noted that the agency in its “analysis support ing the rule (referred to and made publicly
+available in the [notice of proposed rulema king])” contained information and analysis
+that addressed this issue. 273 The court found this analysis  in the record to be enough,
+reasoning “nothing had been presented [in the comments] which required some
+explanation beyond that already contained within the rulemaking record to assure us that
+‘all relevant factors ha[d] been considered.’”274
+In this case, looking to the rulemaking record, the Gulf Council’s Data Collection
+Technical Committee recommended, “Location data would be collected passively through
+a device . . . with a ping frequency of approximately 30 minutes. This ping frequency
+would balance the need for spatial inform ation with the privacy concerns of vessel
+operators as it would be sufficient to establ ish regions of fishing (and depths) but not
+exact fishing locations.” 275 Similarly, the Gulf Council amendment notes the Council
+selected an “archived vessel position system,” as opposed to a “real-time” system, in order
+
+269 See, e.g., Thompson, 741 F.2d at 409; Appalachian Power Co. v. EPA , 249 F.3d 1032, 1063 (D.C. Cir.
+2001) (looking to “record documents” to see if the agency addressed relevant factors raised in comments).
+270 Thompson, 741 F.2d at 409.
+271 Id.
+272 Id. (alteration in original).
+273 Id.
+274 Id. (alteration in original) (quoting Home Box Office, 567 F.2d at 36).
+275 R. Doc. 64-2 at 175.
+Case 2:20-cv-02312-SM-JVM   Document 94   Filed 02/28/22   Page 48 of 81
+49
+
+to “balance the needs of collecting and reporting timely information while minimizing the
+. . . burden to the industry.” 276 The proposed regulatory text and final regulatory text
+actually took a more conservative approach than the Technical Committee, requiring a
+minimum ping frequency of once per hour. 277 The preamble in the Final Rule reiterated
+the finding that the archived position report ing was chosen to minimize the burden on
+the industry.278 The rulemaking record thus shows that concerns about privacy and the
+burden on the industry were considered throughout the rulemaking process and affected
+the ultimate provisions of the Final Rule.
+Moreover, in addressing concerns about th e tracking requirement, although not
+specifically addressing privacy concerns, the Final Rule repeatedly notes that tracking
+equipment has been required for vessels with  federal commercial permits for Gulf reef
+fish since 2006. 279 In Aeronautical Repair Stat ion Association v. FAA , the D.C. Circuit
+noted that the agency sufficiently responded to comments concerning privacy and Fourth
+Amendment concerns by stating, “albeit succinc tly: ‘[T]he issues regarding invasion of
+privacy were resolved more than 15 years ag o when the drug testing regulation carefully
+balanced the interests of individual privacy with the Federal government's duty to ensure
+aviation safety.’”280 S i m i l a r l y ,  i n  t h i s  c a s e  t h e  F i n a l  Rule’s discussion of the longtime
+tracking requirement for commercial fish ing vessels shows NMFS considered the
+regulatory norms for the fishing industry and types of burdens it ought to impose.
+Accordingly, to the extent the commenter s’ general Fourth Amendment concerns
+raised important issues, the Court is sati sfied “all relevant factors ha[ve] been
+
+276 R. Doc. 66-3 at 76.
+277 83 Fed. Reg. at 54,076, 54,078; 85 Fed. Reg. at 44,018, 44,020.
+278 85 Fed. Reg. at 44,012.
+279 85 Fed. Reg. at 44,007, 44,012-13.
+280 Aeronautical Repair Station Ass’n v. FAA, 494 F.3d 161, 173 (D.C. Cir. 2007) (alteration in original).
+Case 2:20-cv-02312-SM-JVM   Document 94   Filed 02/28/22   Page 49 of 81
+50
+
+considered.”281 The discussions in the rulemaking record and the issues addressed in the
+Final Rule show “the agency considered and rejected petitioners' arguments . . . . That is
+all the APA requires.”282
+2. NMFS Considered Comments Concerning the Tracking
+Requirement’s Necessity, Burden, and Cost.
+
+Plaintiffs argue NMFS failed to respon d to several comments concerned with the
+necessity, burden, and cost of the tracking requirement. 283 They argue NMFS’s reasons
+for imposing the tracking requirement on the charter fishing industry are conclusory and
+lack a cost-benefit analysis. 284 The Government argues the Fi nal Rule explains the need
+for the tracking requirement and NMFS care fully considered the costs of the tracking
+requirement compared to a charter vessel business’s income.  285 The Government also
+argues the APA does not require detailed citations and explanations.286
+Several commenters objected to the need for tracking requirement when similar
+location information is already provided i n  r e p o r t i n g .  F o r  e x a m p l e ,  W i l l y  H a t c h
+commented, “Tracking does not provide any addi tional data that would be provided by
+filling out a vessel trip report.” 287 Other commenters objected to the inclusion of the
+tracking requirement on small charter vessels  because of the burden it would impose,
+compared to larger commercial vessels who already use tracking equipment. For example,
+Chuck Pollard commented, “Your proposal would treat [charter boats] like larger
+
+281 Thompson, 741 F.2d at 409 (quoting Home Box Office, 567 F.2d at 36).
+282 See City of Waukesha v. EPA , 320 F.3d 228, 258 (D.C. Cir. 2003) (holding “general and generic”
+response to comments were sufficient).
+283 R. Doc. 73-1 at 36-38.
+284 Id.
+285 R. Doc. 79-1 at 25-26.
+286 R. Doc. 79-1 at 25-26.
+287 R. Doc. 67-4 at 12; see also R. Doc. 67-2 at 20 (“Putting gps and reporting restrictions on charter boat
+operators will not give usable information that cannot be gained from current reporting).
+Case 2:20-cv-02312-SM-JVM   Document 94   Filed 02/28/22   Page 50 of 81
+51
+
+commercial fishing enterprises with  greater compliance resources.” 288 Finally, other
+commenters objected to the cost of purchasi ng, installing, and maintaining tracking
+equipment on their vessels. For example, James Branca commented, “It’s extremely
+alarming that there is no mention of a price for the device(several [sic] thousand dollars)
+or monthly fee for the GPS tracking device that would be required to have my boat tracked
+on my dime.”289
+Responding to the comments that “a locati on tracking system is unnecessary to
+provide validation of a vessel trip,” the Final Rule states:
+The Gulf Council determined, and NMFS  agrees, that requiring each Gulf
+for-hire vessel be equipped, at a mini mum, with archivable vessel location
+tracking (cellular VMS) best balances the need to collect and report timely
+information with the need to minimize the cost and time burden to the
+industry. The vessel location tracking system is an additional mechanism
+that verifies vessel activity without a report having to be completed by the
+vessel operators. The vessel location tracking system will allow NMFS to
+independently determine whether the vessel leaves the dock. This will help
+validate effort and aid with enforcement of the reporting requirements.290
+
+The Final Rule later explains what unique validation the tracking requirement adds:
+“[C]urrent reporting requirements . . . would not allow for the same level of trip validation,
+because [they] would not require GPS unit ha rdware to be permanently affixed to the
+vessel.291 The Gulf Council adopted the requirem ent that the tracking equipment be
+
+288 R. Doc. 68-1 at 1; see also R. Doc. 67-4 at 4 (“I can see how this works on commercial offshore vessels
+where their trips are usually 3-5 days—how ever, we do mostly 4.5-hour trips.”); id. at 5-6 (same); id. at 11,
+17, 19, 22 (“Common sense should be used here and not treat . . . charter boats similar to large commercial
+fishing vessels.”).
+289 R. Doc. 68-2 at 16; see also R. Doc. 68-1 at 1 (“GPS monitoring systems will only add additional costs
+and work burdens to charter/headboat operators with limited financial and personnel resources.”).
+290 85 Fed. Reg. at 44,012.
+291 Id. at 44,016. Plaintiffs argue the need for such re gulation is unnecessary in part because the vast
+majority of fish are caught by commercial fishing vessels, not charter vessels. R. Doc. 73-1 at 37. However,
+the Government disputes the figure Plaintiffs cite for this proposition as based on  incomplete data and as
+beyond the APA scope of review because it is not contained in the administrative record. R. Doc. 79-2 at 12-
+13; see Camp v. Pitts , 411 U.S. 138, 142 (1973) (“[T]he focal point for judicial review should be the
+administrative record already in existence, not some new record made initially in the reviewing court.”).
+Accordingly, as this fact was not before NMFS in the administrative record, the Court will not consider it.
+Case 2:20-cv-02312-SM-JVM   Document 94   Filed 02/28/22   Page 51 of 81
+52
+
+permanently affixed to the vessel in order to  know the position reported is actually the
+vessel, as opposed to an unrelated po sition anyone could otherwise submit. 292 NMFS
+further elaborated in the Final Rule on th e balance between ease of enforcement and
+burden imposed:
+The Gulf for-hire reporting program is designed to both monitor for-hire
+landings to determine in-season closures and post-season quota
+adjustments, and to enhance data collection efforts to provide for better
+fisheries management . . . . [R]esponsibility for the program is appropriately
+shared by NMFS and the fishermen. The fishermen are required to have the
+necessary equipment and report in a timely manner as conditions of their
+Federal for-hire permits because they possess the information that the Gulf
+Council and NMFS need to improve management. NMFS is responsible for
+performing quality control, validating the reports, and using the data, as
+appropriate, to help achieve various management objectives.293
+
+NMFS further responded why the burden on  charter fishing vessels would not be
+more significant compared to commercial fishing vessels:
+NMFS does not expect that a continually operating VMS unit will drain the
+vessel's battery. VMS units have been  required for vessels with Federal
+commercial permits for Gulf reef fish since 2006. Some of those vessels are
+relatively small and have not reported any problems with batteries draining
+due to the VMS units being on all the time. The VMS units vary in amperage
+draw, but the units generally draw less than 1,000 milliamperes while
+active. NMFS may approve solar-powered cellular VMS units that can store
+power lasting for 1 to 2 weeks. Furthermore, some units may allow a Gulf
+for-hire vessel owner or operator to use a 4-hour position reporting option
+when in-port, which would further reduce battery usage.
+
+. . . .
+
+The results of pilot testing of VMS units on charter vessels as small as 30
+feet in length indicate that the units and antennae can be placed
+successfully. Also, VMS units have been required for vessels with Federal
+commercial permits for Gulf reef fish since 2006. Some of those Gulf reef
+
+292 R. Doc. 65-1 at 303-07; see Thompson, 741 F.2d at 409 (holding “[t]he failure to respond to comments
+is significant only insofar as it demonstrates that the agency's decision was not ‘based on a consideration of
+the relevant factors’” and looking to the background in the administrative record to see what factors were
+considered (quoting Citizens to Preserve Overton Park v. Volpe, 401 U.S. 402, 416 (1971)).
+293 85 Fed. Reg. at 44,009.
+Case 2:20-cv-02312-SM-JVM   Document 94   Filed 02/28/22   Page 52 of 81
+53
+
+fish vessels are relatively small and fishermen have not found the systems
+to be impractical or unfeasible.294
+
+Plaintiffs argue NMFS’s reasoning is con clusory because it lacks a proper cost-
+benefit analysis under National Standard 7. National Standard 7 provides that
+conservation management measures “shall, where practicable, minimize costs and avoid
+unnecessary duplication.”295 However, it is well-settled th at, under National Standard 7,
+“in making a decision on the practicability  of a fishery management amendment, the
+Secretary does not have to conduct a formal cost/benefit analysis of the measure.”296 The
+regulatory guidelines for National Standard  7 state, “Management measures should not
+impose unnecessary burdens on the economy,  on individuals, on private or public
+organizations, or on Federal, state, or lo cal governments. Factors such as fuel costs,
+enforcement costs, or the burdens of colle cting data may well suggest a preferred
+alternative.”297 However, “an evaluation of effects and costs, especially of differences
+among workable alternatives, includ ing the status quo, is adequate.” 298 Ultimately, a
+court’s job on review “is not to undertake [its] own economic study, but to determine
+whether the [agency] ‘has established in the record a reasonable basis for its decision.’”299
+NMFS examined the costs of the tracking requirement. This analysis, quoted in full
+above,300 found cellular-based units would cost between $150 and $800 plus monthly
+service fees of $40 to $75. 301 These estimates came from quotes from the vendors of
+
+294 Id. at 44,013.
+295 16 U.S.C. § 1851(a)(7).
+296 Alaska Factory Trawler Ass’n v. Balbridge, 831 F.2d 1456, 1460, 1465 (9th Cir. 1987); see also 50 C.F.R.
+§ 600.340(c); Sea Watch Int’l v. Mosbacher, 762 F. Supp. 370, 380 (D.D.C. 1991); Loper Bright Enters.,
+544 F. Supp. 3d at 111-12.
+297 50 C.F.R. § 600.340(b); see also Loper Bright Enters., 544 F. Supp. 3d at 110.
+298 50 C.F.R. § 600.340(c); see also Loper Bright Enters., 544 F. Supp. 3d at 110.
+299 See Huawei, 2 F.4th at 452 (second alteration in original) (quoting Chem. Mfrs. Ass'n, 870 F.2d at 251).
+300 See supra text accompanying notes 100-101.
+301 85 Fed. Reg. at 44,013.
+Case 2:20-cv-02312-SM-JVM   Document 94   Filed 02/28/22   Page 53 of 81
+54
+
+cellular equipment that NMFS was testing for eventual approval for use to comply with
+the tracking requirement. 302 Plaintiffs argue it is unreason able for NMFS to have relied
+on vendor quotes; however, an agency may re ly on “the evidence it ha[s]” and need not
+“conduct or commission [its] own empirical or statistical studies”303 Official quotes from
+the vendors on specific tracking equipment wa s reasonable data to consider in making a
+cost estimate.304 Moreover, it was reasonable for NMFS to use the prices for the cheaper
+cellular equipment, which meets the minimum archival transmission requirement, as
+opposed to more expensive satellite equipment,  which transmits data in real-time, since
+the minimum archival transmission is all that the Final Rule requires.
+Based on a study by Louisiana State University, NMFS found the average monthly
+cash outflows of charter businesses to be $5,171. 305 Compared to this data, the average
+startup costs for the tracking requirement amounted to 3.1% of annual charter vessel net
+income, and the recurring charges amounted  to 1.8% of annual charter vessel net
+income.306 Moreover, NMFS noted that it was in the process of making a reimbursement
+program, which was already available for the purchase of approved satellite tracking
+equipment, available to fishermen for the purchase of approved cellular tracking
+equipment as well. 307 As predicted, that reimbursement program for cellular tracking
+
+302 Id. at 44,015.
+303 See Huawei, 2 F.4th at 453-54 (quoting FCC v. Prometheus Radio Project, 141 S. Ct. 1150, 1160 (2021))
+(examining a cost-benefit analysis).
+304 Plaintiffs argue devices at these quoted prices do no t exist, but they point to no evidence in the record
+for this proposition. See R. Doc. 73-1 at 38-3 9. On  the other  hand, the Gov e r nmen t stat e s two of these
+devices NMFS was testing at the time of the Final Rule’s formulation have now been approved. R. Doc. 79-
+1 at 28 n.10; see Approved Vessel Monitoring System (VMS) Units for Reporting in the Southeast For-Hire
+Integrated Electronic Reporting Program, supra note 92 (listing the Faria FB eTerm-C and Woods Hole
+Group Nemo as approved).
+305 85 Fed. Reg. at 44,015.
+306 Id.
+307 Id. at 44,013.
+Case 2:20-cv-02312-SM-JVM   Document 94   Filed 02/28/22   Page 54 of 81
+55
+
+equipment is now in effect. 308 NMFS also reasonably acknowledged “[s]ome vessel
+owners and operators may be more or less a ffected than others by this final rule
+depending on their existing technology asse ts and data service plans at the time of
+implementation.”309 For example, some vessel owners may require an additional cellular
+device and data plan to submit electronic reports if they choose to purchase tracking
+equipment that lacks the capability to submit  reports, but in this day and age, NMFS
+reasonably “assume[d] that most owners or op erators of for-hire vessels already have a
+basic smartphone and data plan in order to meet the needs of their businesses.”310
+Finally, NMFS laid out a detailed comparison, quoted in full above, 311 of the costs
+and benefits of the selected requirement ju st discussed with those of the alternative
+proposals NMFS and the Gulf Council conside red. One of these alternatives was not
+requiring the installation of tracking equi pment and instead relying on the previous
+reporting requirements alone; however, as explained, this no-action option was not
+preferred as it did not provide the necessary validation of data that a device permanently
+affixed to the vessel would.312 The remaining two alternatives required the submission of
+real-time location data, as opposed to the ar chived location data required in the Final
+Rule.313 NMFS and the Gulf Council did not select these final two alternatives because of
+the significantly higher start up and recurri ng costs compared to the requirement they
+ultimately settled on.314
+
+308 85 Fed. Reg. 40,915.
+309 Id. at 44,015.
+310 Id.
+311 See supra text accompanying note 102.
+312 85 Fed. Reg. at 44,016.
+313 Id. at 44,016-17.
+314 Id.
+Case 2:20-cv-02312-SM-JVM   Document 94   Filed 02/28/22   Page 55 of 81
+56
+
+ NMFS appropriately responded to th e comments it received regarding the
+necessity, burden, and costs of the tracking requirement. It identified a unique benefit of
+the tracking requirement—accurate location data affixed to the vessel—which could not
+be obtained from current reporting. NM FS considered the burdens the tracking
+requirement would impose on smaller charter vessels and conducted a thorough analysis
+of the costs. It compared the costs and benefi ts of the selected equipment to that of
+alternatives. NMFS found the chosen tracking  requirement achieved a balance of costs
+and benefits, rejecting the no-action alternativ e that provided the least burden but little
+benefits as well as real-time tracking altern atives that would have provided the most
+benefits but also the most burden. Ultima tely, NMFS’s reasoned response was not
+arbitrary or capricious.
+C. The Final Rule Complied with the Regulatory Flexibility Act.
+
+Under the Regulatory Flexibility Act (“RFA”), when an agency promulgates a final
+rule after first being required to promulgate a notice of proposed rulemaking, the agency
+shall prepare a final regulatory flexibility analysis. 315 This analysis mu st include, among
+other requirements,
+a description of the steps the agency has taken to minimize the significant
+economic impact on small entities consi stent with the stated objectives of
+applicable statutes, including a statement of the factual, policy, and legal
+reasons for selecting the alternative adopted in the final rule and why each
+one of the other significant alternatives to the rule considered by the agency
+which affect the impact on small entities was rejected.316
+
+315 5 U.S.C. § 604(a).
+316 Id. § 604(a)(5).
+Case 2:20-cv-02312-SM-JVM   Document 94   Filed 02/28/22   Page 56 of 81
+57
+
+Compliance with the RFA is subject to judicial review. 317 However, the RFA is purely
+“procedural.”318 The RFA “does not command an agency to take specific substantive
+measures, but, rather, only to give explic it consideration to less onerous options.” 319
+Courts review “only to determine whether an agency has made a ‘reasonable, good-faith
+effort’ to carry out the mandate of the RFA.” 320 This review is “highly deferential,
+‘particularly . . . with regard to an agency's predictive judgments about the likely economic
+effects of a rule.’”321 “[T]here is no requirement under the RFA as to the ‘specific amount
+of detail’ with which an agency must discuss various alternatives.”322
+Plaintiffs argue the Final Rule’s final re gulatory flexibility analysis was neither
+reasonable nor in good faith because it did not consider an alterative to the tracking
+requirement that did not require purchasing tracking equipment. Plaintiffs also argue the
+analysis of costs was flawed because it was based on quotes from vendors of equipment
+NMFS was testing for eventual approval fo r use with the tracking requirement and
+because it assumed most fishermen would not require an additional cell phone and data
+plan.323 The Government argues the final regulatory flexibility analysis did consider a no-
+action alternative that would not require tracking equipment. 324 Moreover, the
+
+317 Id. § 611(a)(1); see also Alenco Commc’ns, Inc. v. FCC, 201 F.3d 608, 625 (5th Cir. 2000).
+318 See, e.g., Alenco, 201 F.3d at 625; Am. Health Care Ass’n v. Burwell, 217 F. Supp. 3d 921, 941 (N.D. Miss.
+2016); Relentless, Inc., __ F. Supp. 3d __, 2021 WL 4256067, at *11; Loper Bright Enters., 544 F. Supp. 3d
+at 124.
+319 Alenco, 201 F.3d at 625 n.20 (quoting Associated Fisheries of Me., Inc. v. Daley , 127 F.3d 104, 114 (1st
+Cir. 1997)).
+320 Id. at 625 (quoting Associated Fisheries, 127 F.3d at 114).
+321 Am. Health Care Ass’n, 217 F. Supp. 3d at 941 (alteration in original) (quoting Helicopter Ass'n Int'l, Inc.
+v. FAA, 722 F.3d 430, 432–33 (D.C. Cir. 2013)).
+322 Goethel, 2016 WL 4076831, at *8 (quoting Little Bay Lobster Co. v. Evans , 352 F.3d 462, 471 (1st Cir.
+2003)).
+323 R. Doc. 73-1 at 40-41.
+324 R. Doc. 79-1 at 26-29.
+Case 2:20-cv-02312-SM-JVM   Document 94   Filed 02/28/22   Page 57 of 81
+58
+
+Government argues, it conducted a reasonab le analysis of the respective costs of
+alternative proposals.325
+The Court finds the final regulatory flexibility analysis to be reasonable and in good
+faith. The NMFS considered a no-action alte rnative that would not have required the
+purchase and use of tracking equipment. 326 H o w e v e r ,  a s  e x p l a i n e d  i n  S e c t i o n  I I ( B ) ( 2 )
+above, NMFS rejected this alternative beca use it would not provide the same level of
+validation as equipmen t affixed to the vessel. 327 “[T]here is no requirement as to the
+amount of detail with which specific comments need to be discussed.” 328 NMFS
+considered the lower-cost no-action alternative, and that is all the RFA requires.
+Moreover, as explained in Section II(B)(2) above, it was not unreasonable for
+NMFS to rely on vendor quotes  for the costs of devices in it s analysis or to assume most
+fishermen nowadays have a cell phone. The RFA does not require complex “cost-benefit
+analysis or economic modeling.”329 It “mandates only that the agency describe the steps
+it took ‘to minimize the significant economic impact on small entities consistent with the
+stated objectives of applicable statutes.’” 330 The case Plaintiffs cite in support of their
+argument that NMFS failed to provide a factual basis for its cost estimates is unpersuasive
+as it involved an agency that excluded im portant costs by deferring their consideration
+until a later rulemaking.331 Instead, in this case, NMFS reasonably considered estimates
+based on the information before it whil e acknowledging “[s]ome vessel owners and
+
+325 Id.
+326 85 Fed. Reg. at 44,016.
+327 Id.
+328 Little Bay Lobster Co., 352 F.3d at 471.
+329 Alenco, 201 F.3d at 625.
+330 Id. (quoting 5 U.S.C. § 604(a)(5)).
+331 Nat’l Fed’n of Indep. Bus. v. Perez, No. 5:16-cv-00066-C, 2016 WL 3766121, at *38 (N.D. Tex. June 27,
+2016).
+Case 2:20-cv-02312-SM-JVM   Document 94   Filed 02/28/22   Page 58 of 81
+59
+
+operators may be more or less affected than ot hers by this final rule depending on their
+existing technology assets and data serv ice plans at the time of implementation.” 332
+Especially considering courts are highly defere ntial to an agency’s predictive judgments
+about the economic effects of a rule,333 the Court does not find the reliance on these quotes
+and estimates unreasonable or in bad faith.  Accordingly, the Court finds the Final Rule
+complied with the RFA.
+D. The Plaintiffs Have Abandoned Th eir Fifth Amendment Due Process
+Claim and Did Not Bring a Fifth Amendment Takings Claim in Their
+Complaints; the Court Will Not Allow Them to Amend Their Complaint
+at Such a Late Stage of the Case.
+
+In their motion for summary judgment, Plaintiffs argue they are entitled to
+summary judgment that the required placemen t of tracking equipment on their vessels
+constitutes a taking under the Fifth Amendment.334 The Government argues Plaintiffs did
+not make a takings claim in either their complaint or their amended complaint.335 Rule 8
+of the Federal Rules of Civil Procedure requir es pleadings to contain “a short and plain
+statement of the claim showing that the pleader is entitled to relief.” 336 The purpose of
+this requirement is to “to ‘give the defendant fair notice of what the . . . claim is and the
+grounds upon which it rests.’”337
+In both their complaint and amended compl aint, Plaintiffs make only one Fifth
+Amendment claim, which is based on a violation of due process:
+[I]f the data demanded is created by  a device bought and paid for by
+Plaintiffs it belongs to them and the seizure of such data without any cause
+
+332 85 Fed. Reg. at 44,015.
+333 Am. Health Care Ass’n, 217 F. Supp. 3d at 941.
+334 R. Doc. 73-1 at 27-29.
+335 R. Doc. 79-1 at 29-30.
+336 Fed. R. Civ. P. 8(a)(2).
+337 Bell Atl. Corp. v. Twombly, 550 U.S. 544, 555 (2007) (alteration in original) (quoting Conley v. Gibson,
+355 U.S. 41, 47 (1957)).
+Case 2:20-cv-02312-SM-JVM   Document 94   Filed 02/28/22   Page 59 of 81
+60
+
+at all, never mind probable, of that data by Defendants violates the due
+process clause of the Fifth Amendment to the U.S. Constitution.338
+
+A claim that deprivation of property with out cause violates due process invokes the
+principle under procedural due process that “some form of hearing is required before an
+individual is finally depriv ed of a property interest.” 339 Other references to the Fifth
+Amendment in the complaints also focus on  due process. Explaining Fifth Amendment
+protections, the complaints state, “The Fi fth Amendment protects life, liberty, and
+property from deprivation by the Government without due process of law.”340 The prayer
+for relief requests a declaratory judgment that the tracking requirement violates the Fifth
+Amendment’s “protection against deprivation of property without adequate due process
+of law.”341
+The parties intended for this “case to be decided via cross motions for Summary
+Judgment.”342 Plaintiffs do not argue their Fift h Amendment due process claim in their
+motion for summary judgment. 343 Nor do they assert a standalone due process claim in
+their opposition to the Government’s  cross-motion for summary judgment. 344 Instead,
+they mention due process under the Fifth Amendment only in their attempt to show they
+brought a takings claim in their complaints.345 As a result, the Government has moved for
+
+338 See R. Doc. 1 at ¶ 84; R. Doc. 54 at ¶ 82.
+339 See Matthews v. Eldridge, 424 U.S. 319, 333 (1976).
+340 R. Doc. 1 at ¶ 31; R. Doc. 54 at ¶ 29.
+341 R .  D o c .  1  a t  2 5 ;  R .  D o c .  5 4  a t  2 5 .  T h e  c l a i m ’ s  r e f e r e n c e  t o  p r o b a b l e  c a u s e  a l s o  i n v o k e s  t h e  F o u r t h
+Amendment’s general warrant requirement fo r unreasonable searches and seizures. See Missourie v.
+McNeely, 569 U.S. 141, 148 (2013) (“[A] warrantless search of the person is reasonable only if it falls within
+a recognized exception.”). This interpretation is re inforced by the restatement of the claim as a common
+question of law in the class allegations: “whether seizing data and proprietary information without warrant
+or even reasonable suspicion of wrongdoing violates the Due Process Clause of the Fifth Amendment of the
+Constitution.” See R. Doc. 1 at ¶ 112(i); R. Doc. 54 at ¶ 113(i).
+342 R. Doc. 49 at 2.
+343 See R. Doc. 73-1.
+344 See R. Doc. 86.
+345 See id.  at 30-31.
+Case 2:20-cv-02312-SM-JVM   Document 94   Filed 02/28/22   Page 60 of 81
