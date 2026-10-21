@@ -1,0 +1,847 @@
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+SECURITIES AND EXCHANGE
+COMMISSION                                                                              CIVIL ACTION
+
+VERSUS                                                                                          NO: 23-5650
+
+STEVEN JACOBSON, ET AL.                                                  SECTION: “H”
+
+ORDER AND REASONS
+                Before the Court is Defendant Steven Jacobson’s Motion in Limine to
+Exclude the Testimony and Opinions of Eugene P. Canjels, Ph.D. (Doc. 47);
+Plaintiff Security and Exchange Commission’s Motion in Limine to Exclude
+Export Reports and Opinions of Dr. David A. Lesmond (Doc. 48); and
+Defendant Steven Jacobson’s Motion for Summary Judgment (Doc. 49). Oral
+argument on the Motions were held on March 27, 2025.
+For the following reasons, Defendant’s Motion in Limine to Exclude the
+Testimony and Opinions of Eugene P. Canjels, Ph.D. is DENIED; Plaintiff
+Security and Exchange Commission’s Motion in Limine to Exclude Export
+Reports and Opinions of Dr. David A. Lesmond is GRANTED; and Defendant’s
+Motion for Summary Judgment is DENIED.
+BACKGROUND
+On September 29, 2023, the United States Securities and Exchange
+Commission (“SEC”) filed this civil suit, alleging various violations of the
+Securities Exchange Act of 1934  (“Exchange Act”) 1, Securities Act of 1933
+
+1 15 U.S.C. § 78j(b).
+Case 2:23-cv-05650-JTM-EJD     Document 76     Filed 04/07/25     Page 1 of 25
+2
+
+(“Securities Act”)2,  and Investment Advisers Act of 1940 (“Advisers Act”)3 by
+Defendants Steven Jacobson, his mother Marian Jacobson, and Adviser
+Resource Council (“ARC”). 4 ARC is a registered investment adviser where
+Jacobson was formerly employed as a  Louisiana-based investment adviser
+representative (“IAR”).
+In its Complaint, the SEC alleges that Defendant engaged in a cherry-
+picking scheme from July 31, 2020 to October 1, 2020  (the “Relevant Period”)
+in which he disproportionately allocated option trades with positive returns
+between the time of the trade and the time of the allocation (“first-day returns”)
+to his personal account, to an account in his mother’s name, and 3 other favored
+client accounts (collectively, the “Favored Accounts”), while disproportionately
+allocating option trades with negative first-day returns to other clients
+(collectively, the “Disfavored Accounts”), which sustained substantial first-day
+losses as a result.5 The SEC alleges that Defendant would place option trades
+in the firm’s block account at TD Ameritrade (“TDA”) and would wait to
+allocate them until after he had an opportunity to observe a trade’s intraday
+performance. The SEC alleges this scheme resulted in ill-gotten gains of
+approximately $207,902 across the Favored Accounts.
+Defendant Jacobson now moves this Court to exclude the testimony of
+Plaintiff SEC’s expert, Eugene P. Canjels, Ph.D. and grant summary judgment
+in his favor. Plaintiff opposes. 6 Additionally, Plaintiff moves this Court to
+
+2 15 U.S.C. § 77q(a)(1).
+3 15 U.S.C. § 80b-6(1), (2). .
+4 Marian Jacobson is named as a Relief Defendant in the Complaint. Doc. 1 at 4. On February
+16, 2024, the Court approved a consent judgment between Plaintiff and Defendant ARC,
+which resolved all civil claims against ARC in this case. Doc 17. As such, “Defe ndant”
+stands for Steven Jacobson throughout.
+5 Plaintiff alleges that during the Relevant Period, Defendant executed 256 option trades
+from which he made 850 allocations. Doc. 47-4 ¶ 30.
+6 Docs. 52, 53.
+Case 2:23-cv-05650-JTM-EJD     Document 76     Filed 04/07/25     Page 2 of 25
+3
+
+exclude the testimony of Defendant Jacobson’s expert, Dr. David A. Lesmond.
+Defendant opposes.7  The Court will consider these motions in turn.
+
+LEGAL STANDARD
+I. Summary Judgement
+Summary judgment is appropriate “if the pleadings, depositions,
+answers to interrogatories, and admissions on file, together with affidavits, if
+any, show that there is no genuine issue as to any material fact and that the
+moving party is entitled to a judgment as a matter of law.” 8  A genuine issue
+of fact exists only “if the evidence is such that a reasonable jury could return a
+verdict for the nonmoving party.”9
+           In determining whether the movant is entitled to summary judgment,
+the Court views facts in the light most favorable to the non-movant and draws
+all reasonable inferences in his favor.10   “If the moving party meets the initial
+burden of showing that there is no genuine issue of material fact, the burden
+shifts to the non-moving party to produce evidence or designate specific facts
+showing the existence of a genuine issue for trial.” 11  Summary judgment is
+appropriate if the non-movant “fails to make a showing sufficient to establish
+the existence of an element essential to that party’s case.” 12  “In response to a
+properly supported motion for summary judgment, the non-movant must
+identify specific evidence in the record and articulate the manner in which that
+evidence supports that party’s claim, and such evidence must be sufficient to
+sustain a finding in favor of the non-movant on all issues as to which the non-
+
+7 Doc. 54.
+8 FED. R. CIV. P. 56(c).
+9  Anderson v. Liberty Lobby, Inc., 477 U.S. 242, 248 (1986).
+10 Coleman v. Houston Indep. Sch. Dist., 113 F.3d 528 (5th Cir. 1997).
+11 Engstrom v. First Nat’l Bank of Eagle Lake, 47 F.3d 1459, 1462 (5th Cir. 1995).
+12 Celotex Corp. v. Catrett, 477 U.S. 317, 324 (1986).
+Case 2:23-cv-05650-JTM-EJD     Document 76     Filed 04/07/25     Page 3 of 25
+4
+
+movant would bear the burden of proof at trial.”13   “We do not . . . in the absence
+of any proof, assume that the nonmoving party could or would prove the
+necessary facts.” 14   Additionally, “[t]he mere argued existence of a factual
+dispute will not defeat an otherwise properly supported motion.”15
+II. Expert Testimony
+The admissibility of expert testimony is governed by Federal Rule of
+Evidence 702, which provides as follows:
+A witness who is qualified as an expert by knowledge, skill,
+experience, training, or education may testify in the form of an
+opinion or otherwise if the proponent demonstrates to the court
+that it is more likely than not that: (a) the expert’s scientific,
+technical, or other specialized knowledge will help the trier of fact
+to understand the evidence or to determine a fact in issue; (b)  the
+testimony is based on sufficient facts or data; (c) the testimony is
+the product of reliable principles and methods; and (d) the expert’s
+opinion reflects a reliable application of the principles and
+methods to the facts of the case.
+The current version of Rule 702 reflects the Supreme Court’s decisions in
+Daubert v. Merrell Dow Pharms., Inc., 16 and Kumho Tire Co. v. Carmichael 17
+as well as the 2023 amendments.18 The threshold inquiry is whether the expert
+possesses the requisite qualifications to render opinion on a particular subject
+
+13 John v. Deep E. Tex. Reg. Narcotics Trafficking Task Force, 379 F.3d 293, 301 (5th Cir.
+2004) (internal citations omitted).
+14 Badon v. R J R Nabisco, Inc., 224 F.3d 382, 394 (5th Cir. 2000) (quoting Little v. Liquid Air
+Corp., 37 F.3d 1069, 1075 (5th Cir. 1994)).
+15 Boudreaux v. Banctec, Inc., 366 F. Supp. 2d 425, 430 (E.D. La. 2005).
+16 509 U.S. 579 (1993).
+17 526 U.S. 137 (1999).
+18 “[T]he rule has been amended to clarify and emphasize that expert testimony may not be
+admitted unless the proponent demonstrates to the court that it is more likely than not
+that the proffered testimony meets the admissibility requirements set forth in the rule. See
+Rule 104(a).” FED. R. OF EVID. 702 advisory committee’s note to 2023 amendment.
+Case 2:23-cv-05650-JTM-EJD     Document 76     Filed 04/07/25     Page 4 of 25
+5
+
+matter.19  Having defined the permissible scope of the expert’s testimony, a
+court next inquires whether the opinions are reliable and relevant.20
+As the “gatekeeper” of expert testimony, the trial court enjoys broad
+discretion in determining admissibility. 21 Still, courts must give proper
+deference to the traditional adversary system and the role of the jury within
+that system.22  First, to assess reliability, a court considers whether the
+reasoning or methodology underlying the expert’s testimony is valid.23 The
+party offering the testimony bears the burden of establishing its reliability by
+a preponderance of the evidence.24 Courts should exclude testimony based
+merely on subjective belief or unsupported speculation. 25 “Vigorous cross-
+examination, presentation of contrary evidence, and careful instruction on the
+burden of proof are the traditional and appropriate means of attacking shaky
+but admissible evidence.” 26 After assessing reliability, a court evaluates
+relevance.27 In doing so, a court must determine whether the expert’s
+reasoning or methodology “fits” the facts of the case, is reasonably applied to
+the facts of the case in such a way that ensures there is not “too great an
+
+19 Wagoner v. Exxon Mobil Corp., 813 F. Supp. 2d 771, 799 (E.D. La. 2011); see also Wilson v.
+Woods, 163 F.3d 935, 937 (5th Cir. 1999) (“A district court should refuse to allow an expert
+witness to testify if it finds that the witness is not qualified to testify in a particular field
+or on a given subject.”).
+20 See United States v. Valencia, 600 F.3d 389, 424 (5th Cir. 2010); see also Wellogix, Inc. v.
+Accenture, L.L.P., 716 F.3d 867, 881–82 (5th Cir. 2013).
+21 Wellogix, Inc.  at 881; but see  FED. R. EVID. 702 advisory committee’s note to 2023
+amendment (While “many courts have held that the critical questions of the sufficiency of
+an expert’s basis, and the application of the expert’s methodology, are questions of weight
+and not admissibility. . . [t]hese rulings are an incorrect application of Rules 702 and
+104(a).”)
+22 See Daubert, 509 U.S. at 596.
+23 See id. at 592–93.
+24 See Moore v. Ashland Chem. Inc., 151 F.3d 269, 276 (5th Cir. 1998).
+25 See Daubert, 509 U.S. at 590.
+26 Id. at 596.
+27 Burst v. Shell Oil Co., 120 F. Supp. 3d 547, 551 (E.D. La. June 9, 2015).
+Case 2:23-cv-05650-JTM-EJD     Document 76     Filed 04/07/25     Page 5 of 25
+6
+
+analytical gap between the data and opinion proffered,” 28 and will thereby
+assist the trier of fact in understanding the evidence.29
+Federal Rule of Evidence 703 further provides that an expert may offer
+opinions based on otherwise inadmissible facts or data, but only if (1) they are
+of the kind reasonably relied upon by experts in the particular field and (2) the
+testimony’s probative value substantially outweighs its prejudicial effect.30
+
+LAW AND ANALYSIS
+Plaintiff alleges that during the Relevant Period, Defendant carried out
+a fraudulent cherry-picking scheme, in violation of Section 10(b) of the
+Exchange Act, 15 U.S.C. § 78j(b); Rules 10b-5(a) and (c) thereunder, 17 C.F.R.
+§ 240.10b-5(a), (c); Section 17(a)(1) of the Securities Act, 15 U.S.C. § 77q(a)(1),
+(3); and Sections 206(1) and(2) of Advisers Act, 15 U.S.C. § 80b- 6(1), (2).
+Cherry-picking has been defined as:
+a practice by which an investment adviser purchases a security,
+waits to evaluate its performance, and then allocates it to [here,
+Favored Accounts] if it “pops,” or goes up quickly within a short
+period of time. To explain this another way, an investment adviser
+engaging in cherry picking buys securities in blocks without
+determining an intended recipient. Then, between trade day and
+settlement day, he watches the security’s performance. If the value
+increases significantly, he allocates the security to [Favored
+Accounts], thus picking the “cherry” for [these accounts]. However,
+if the value decreases prior to settlement, or if it stays the same,
+the investment adviser allocates the security to [Disfavored
+Accounts], thus leaving them the “pit.”31
+“[S]everal courts (and the SEC) have found that cherry -picking can be a
+violation of Section 10(b), Rule 10b-5, Section 17(a)(1), and Sections 206(1) and
+
+28 Gen. Elec. Co. v. Joiner, 522 U.S. 136, 146 (1997)
+29 See Burst at 551.
+30 FED. R. EVID. 703.
+31 Sec. & Exch. Comm’n v. Slocum, Gordon & Co., 334 F. Supp. 2d 144, 161-62 (D.R.I. 2004).
+Case 2:23-cv-05650-JTM-EJD     Document 76     Filed 04/07/25     Page 6 of 25
+7
+
+(2).”32 Failure to disclose cherry-picking amounts to material representations
+or omissions because it creates “a substantial likelihood that a reasonable
+investor would consider the information important in making a decision to
+invest.”33 “Because cherry-picking involves allocating more profitable trades to
+certain accounts, an adviser is ‘stealing from one customer to enrich himself,’
+and thus the practice implicates a conflict of interest.” 34 “To prevail at trial,
+[Plaintiff] must prove that a cherry -picking scheme existed” 35 and “need only
+establish cherry-picking by a preponderance of the evidence.”36
+In his Motion for Summary Judgment, Defendant argues that the three
+counts against him cannot be sustained without underlying evidence that
+cherry-picking occurred; Plaintiff does not oppose this supposition. All three
+counts are treated by the parties in their respective briefings for the instant
+Motion for Summary Judgment as if they “rise and fall together insofar as they
+are based on the factual contention that [Defendant] cherry-picked trades.”37
+Though it submitted deposition testimony from Defendant and other
+ARC professionals with knowledge of the Relevant Period and its goings on, as
+well as various other documents,38 Plaintiff relies heavily on reports and
+testimony of Dr. Canjels to carry its burden in proving that cherry-picking
+occurred. Further, the Court agrees with Plaintiff that the undisputed trading
+data before both Canjels and Lesmond is the “most probative contemporaneous
+
+32 Sec. & Exch. Comm’n v. World Tree Fin., L.L.C., 43 F.4th 448, 460–61 (5th Cir. 2022).
+33 ABC Arbitrage Plaintiffs Grp. v. Tchuruk, 291 F.3d 336, 359 (5th Cir. 2002) (internal
+quotations marks omitted).
+34 World Tree Fin., 43 F.4th at 461 (quoting Dratel Grp., Inc. & William M. Dratel for Rev. of
+Action Taken by Finra, Release No. 77396 (Mar. 17, 2016)).
+35 United States Sec. & Exch. Comm’n v. Paris, No. 21 -CV-3450, 2024 WL 4433614, at *7
+(N.D. Ill. Oct. 7, 2024) (quoting Slocum, Gordon & Co., 334 F. Supp. 2d at 176).
+36 Id. (quoting Slocum, Gordon & Co., 334 F. Supp. 2d at 146).
+37 Id.
+ 38 Docs. 53-4–53-16.
+Case 2:23-cv-05650-JTM-EJD     Document 76     Filed 04/07/25     Page 7 of 25
+8
+
+evidence in this case.”39 As such, the question of whether Dr. Canjels’ opinions
+and testimony are admissible is critical for this Court to answer prior to ruling
+on Defendant’s Motion for Summary Judgment.
+I. Defendant’s Motion in Limine to Exclude the Testimony and
+Opinions of Eugene P. Canjels, Ph.D.
+In his Motion in Limine, Defendant asks the Court to exclude the
+testimony and opinions of Plaintiff’s expert witness, Dr. Canjels. Particularly,
+Defendant asks that the Court exclude the report that Dr. Canjels produced on
+Plaintiff’s behalf, arguing that there are several shortcomings in its analysis
+that result in conclusions that may mislead a jury if allowed at trial.40
+Defendant’s Motion attacks Dr. Canjels’ report and its conclusions, inter alia,
+on the grounds that there is no mention of the pre-allocation evidence; there is
+no analysis of whether the trades followed these alleged pre-allocations; and
+provides no basis for concluding that cherry-picking occurred. Plaintiff opposes
+each of Defendant’s concerns and ultimately asserts that these issues go to the
+weight and credibility of Dr. Canjels’ testimony, not its admissibility.
+Statistical evidence “‘is a means to establish or defend against liability’
+and ‘[i]ts permissibility turns not on the form a proceeding takes—be it a class
+or individual action—but on the degree to which the evidence is reliable in
+proving or disproving the elements of the relevant cause of action.’” 41
+“Statistical evidence can be useful in securities cases, and its admission is no
+
+39 See Doc. 52 at 21.
+40 Dr. Canjels is as Assistant Director with the Office of Litigation Economics in the Division
+of Economic and Risk Analysis of the SEC. Doc. 47-4 at 3 ¶1. Importantly, while Defendant
+alludes to the fact that this is only the second case for which Dr. Canjels has been deposed
+regarding his expert opinion, he does not dispute that Dr. Canjels has the proper
+qualifications to render his opinion.
+41 World Tree Fin., 43 F.4th at 461–62 (quoting Tyson Foods, Inc. v. Bouaphakeo, 577 U.S.
+442, 454–55 (2016)).
+Case 2:23-cv-05650-JTM-EJD     Document 76     Filed 04/07/25     Page 8 of 25
+9
+
+novelty.”42 “Of course, a statistical analysis is only as reliable as the
+assumptions beneath it.” 43 “Because cherry-picking is ‘difficult to detect,’
+determining whether it has occurred ‘often requires drawing inferences from a
+pattern of behavior, irregularities, and trading data.’”44
+            In his report, Dr. Canjels was asked by Plaintiff to analyze the trading
+data from the Relevant Period to determine if Defendant’s trading was
+consistent with cherry picking. Dr. Canjels based his analysis on TDA trading
+records, account statements, and publicly available data. He summarized his
+opinions and the bases on which they were formed in an opening report
+submitted to opposing counsel on November 8, 2024, and a rebuttal report sent
+on December 26, 2024. 45 In his report, Dr. Canjels ultimately concluded that
+Defendant did engage in cherry-picking during the Relevant Period.46
+           Dr. Canjels begins his report by describing the scope of his assignment—
+namely, to review trading activities in accounts managed by Defendant and if
+cherry-picking was found, determine which accounts were favored —and the
+data he used to form his subsequent opinions, including the Complaint, trading
+records provided by TDA and publicly available information. 47 As to the data
+he considered, Dr. Canjels states in his report that he considered trade and
+allocation information for trades in ARC’s block account for the time between
+May 17, 2019 and July 30, 2021 and direct trades.48 Dr. Canjels states that he
+limited his analysis to allocations in which an option position was opened
+because, according to the data before him, Defendant opened option positions
+
+42 Id. at 462.
+43 Id. at 462-463.
+44 Id. at 462.
+45 Docs. 47-4, 48-6.
+46 Id. at 6-7.
+47 Id. at Appendix B.
+48 Id. at 7. Direct trades are those that were “made directly on behalf of specific accounts and
+therefore do not provide an opportunity for” cherry-picking. Doc. 47-4 at 8.
+Case 2:23-cv-05650-JTM-EJD     Document 76     Filed 04/07/25     Page 9 of 25
+10
+
+in his account and his clients’ accounts primarily through trading in the block
+account but did not often use the block account to close the option positions
+except when he was day trading. 49 Dr. Canjels looked at the timing of trades,
+allocations, and closing out of the allocated trades before assessing if
+Defendant based his allocation decisions on the return of the option between
+the time it was traded in the block account and the time it was allocated. 50
+            Dr. Canjels reached several conclusions based on his analysis and the
+differences he observed in first-day returns.  He found that Defendant
+“disproportionately allocated option opening trades with positive first-day
+profits to his personal account and [th e Favored Accounts], while
+disproportionately allocating option opening trades with negative first-day
+profits to [the Disfavored Accounts].” 51 Dr. Canjels also found that “[t]he
+observed difference in first-day returns are indicative of cherry-picking based
+on three sets of analyses” that show: statistically significant first- day returns
+and win rates between the Favored and Disfavored Accounts; the differences
+in performance between these groups of accounts cannot be explained by
+differences in trading strategy; and when Defendant did not have an
+opportunity to cherry-pick trades, the systemic differences in first-day returns
+between the groups of accounts was nonexistent.52
+            Defendant makes a variety of arguments in his Motion as to why Dr.
+Canjels’ testimony and opinions should be excluded 53 but has two main
+
+49 Id. at 8.
+50 Id. at 13.
+51 Id. at 6-7.
+52 Id. at 7.
+53 Defendant states that Dr. Canjels did not follow any SEC methodology or protocol when
+preparing report, implying that a failure to do in some way jeopardizes the credibility of its
+conclusions. The Court finds that because Dr. Canjels testified that he based his report on
+“training, expertise, and experience,” the lack of using some predetermined model for his
+analysis does not undermine his report or its conclusions. Doc. 47 -3 at 18. Defendant
+implies that Dr. Canjel’s comment that Defendant’s motivations are outside of the scope of
+Case 2:23-cv-05650-JTM-EJD     Document 76     Filed 04/07/25     Page 10 of 25
+11
+
+arguments which he emphasized in his Motion and at oral argument .
+Defendant argues that Dr. Canjels’ report fails under Daubert because he is
+circular in his reasoning and Dr. Canjels relies on a univariate, as opposed to
+multivariate approach, to the data before him.54
+According to Defendant, Dr. Canjels created a “self-fulfilling analytical
+framework” by using the same performance data both to identify Favored
+Accounts and to prove that cherry-picking occurred. 55 He claimed at oral
+argument that in a “black box” process, Dr. Canjels selected the groups on
+Plaintiff’s behalf in the first place, making his testing of those groups’
+performance suspect. Plaintiff responds that Dr. Canjels was conservative in
+his consideration of non-favored accounts as Disfavored Accounts, with the
+latter group including all client accounts under Defendant’s control that
+received allocated options. 56 According to Plaintiff, this shows not that Dr.
+Canjels’ report was outcome-driven, but rather cautious. Also, Plaintiff asserts
+that the null hypothesis57 from which Dr. Canjels ran his tests was that there
+was no cherry-picking, and that Defendant did not know how they would
+perform when he made allocations decisions.
+
+his report undermines its results. Doc. 47 -1 at 9. While scienter is an element of a
+successful cherry-picking claim, the Court notes that other circumstantial evidence can be
+introduced by Plaintiffs to prove it to a factfinder. World Tree Fin., 43 F.4th at (quoting Sec
+& Exch. Comm’n v. Fox, 855 F.2d 247, 253 (5th Cir. 1988) (“[I]t is well settled that ‘scienter
+may be established by circumstantial evidence.’”)). Defendant also argues that the data set
+from which Dr. Canjels drew his conclusion is too small to be representative, but the Court
+cannot find fault with Dr. Canjels’ report because the Relevant Period in question was only
+two months long.
+54 Doc. 47-1 at 10.
+55 Id. at 9.
+56 Doc. 52 at 7.
+57 A null hypothesis is defined as “or example, a hypothesis that there is no difference between
+two groups from which samples are drawn.” National Academies of Sciences, Engineering,
+and Medicine. 2011. Reference Manual on Scientific Evidence: Third Edition. Washington,
+DC: The National Academies Press. https://doi.org/10.17226/13163.
+Case 2:23-cv-05650-JTM-EJD     Document 76     Filed 04/07/25     Page 11 of 25
+12
+
+Defendant further asserts that Dr. Canjels’ report is unreliable because
+its univariate approach does not account for such variables as trading strategy
+linked to Defendant’s alleged prowess as an investor to explain why there are
+such differences in the Favored and Unfavored Accounts, stating that it
+“ignore[es] the vast array of legitimate trading practices that could explain the
+observed return patterns.” 58 As a result, Defendant asserts that Dr. Canjels’
+statistical testing creates an artificial binary choice between random chance
+and fraud. 59 Plaintiff disagrees, noting that Defendant’s own expert did not
+account for Jacobson’s “strategies” either, and that Dr. Canjels “performed a
+series of statistical tests to examine whether there could be any explanation
+other than cherry- picking for the difference in performance between the
+Favored and Disfavored Accounts.”60 He found that there was no other logical
+explanation for the outcome of his tests 61; “[e]ach methodology demonstrated
+that it is highly unlikely that the actual performance of the accounts was the
+mere product of chance.”62
+The arguments made by Defendant here mirror some of those made by
+the defendant in the Fifth Circuit opinion in Securities and Exchange
+Commission v. World Tree Financial, L.L.C .63 In that case, as here, the
+defendants challenged the lower court’s admission of the SEC’s expert’s
+testimony and opinion in a bench trial, arguing that the expert there  “used
+‘unrealized ‘first day results,’ which show only unrealized gains and losses’; she
+did not use a ‘comparator’; she disregarded differences between Favored and
+Disfavored accounts; she employed a result-driven approach; and she did not
+
+58 Doc. 47-1 at 16.
+59 Id. at 16.
+  60 Doc. 52 at 25.
+61 Doc. 47-4 at 21.
+62 Doc. 52 at 11.
+63 43 F.4th 448 (5th Cir. 2022).
+Case 2:23-cv-05650-JTM-EJD     Document 76     Filed 04/07/25     Page 12 of 25
+13
+
+use all available information . . .”64 Also, like the expert’s conclusions in World
+Tree Financial, Dr. Canjels’ analysis led to his opinion that there was “less
+than a one in one million chance” that the patterns in Defendant’s trading
+could have occurred if the allocations were made without cherry-picking.65 The
+Fifth Circuit affirmed the lower court’s admission of the SEC’s expert based on
+an analysis very similar to the one at issue here, and several other courts have
+found similar expert reports reliable and the accompanying expert’s testimony
+admissible.66
+The Court finds that Defendant’s arguments concerning the reliability of
+Dr. Canjels’ “statistical analysis do not render his opinions inadmissible [;
+i]nstead, they raise questions that must be resolved by a factfinder at trial.” 67
+As such, Defendant’s challenges to Dr. Canjel’s analysis and opinions raise
+credibility questions for the jury to answer. 68 Considering its own
+understanding of the tests performed by Dr. Canjels to reach his conclusions
+and the Fifth Circuit’s affirmation of the lower court’s admission of the
+comparable expert testimony and report in World Tree Financial, the Court
+finds that the reasoning and methodology used by Dr. Canjels is reliable69 and
+that it fits the facts at issue here is such a way that will aid the factfinder. 70
+
+  64 Id. at 462-63.
+65 Doc. 47-4 at 19.
+66 See Sec. & Exch. Comm’n v. Werthe, No. 23CV0815, 2025 WL 790970, at *1 (S.D. Cal. Mar.
+12, 2025) (finding that an SEC expert’s testimony was admissible where she concluded that
+the investor’s disproportionate returns were due to cherry picking and not investment
+strategy by analyzing the investor’s direct trades); see also Sec. & Exch. Comm’n v. Susoeff,
+No. 2:23-CV-173, 2024 WL 3938488, at *1 (D. Nev. Aug. 23, 2024) (finding that an SEC
+expert’s testimony was admissible where he “employed several tests and analyzed all the
+data available” before concluding the investor was engaging in cherry-picking pursuant to
+Federal Rule of Evidence 702’s mandate to filter out “unreliable nonsense opinions, not to
+exclude opinions merely because they are impeachable.”) Id. at *7– 8 (quoting City of
+Pomona v. SQMN. Am. Corp., 750 F.3d 1036, 1044) (9th Cir. 2014)).
+67 Paris, 2024 WL 4433614, at *11.
+68 See id.
+69 See Daubert, 509 U.S. at 592-93.
+70 See Burst, 120 F. Supp. 3d at 551 (E.D. La. June 9, 2015).
+Case 2:23-cv-05650-JTM-EJD     Document 76     Filed 04/07/25     Page 13 of 25
+14
+
+Accordingly, Dr. Canjels’ report, opinions and testimony concerning his
+statistical analysis of trading data are admissible.71
+II. Defendant’s Motion for Summary Judgment
+            In his Motion for Summary Judgment, Defendant relies on the Court’s
+exclusion of Dr. Canjels’ report and opinion, as well as his own production of
+what he believes is clear evidence of pre-allocation, to rule in his favor. Plaintiff
+opposes, arguing that the pre-allocation documentation that Defendants relies
+on to make his argument is uncontroverted, and therefore, not a sound basis
+upon which this Court can grant summary judgment.
+            Defendant’s Motion is dedicated in large part to detailing his process of
+creating, storing, and ultimately locating (some of) the pre-allocation sheets
+that he allegedly prepared as a part of his regular practice. According to
+Defendant, while “[m]ost brokers who buy securities in a block account use
+software that allocates the trades as part of the order entry process,” the TD
+system Defendant was using did not have this feature.72 Brokers at ARC used
+another piece of software, Thinkstream, to pre-allocate trades, but Defendant
+states that because “[l]earning to use that software would have required
+training . . . at a time when Covid stay-at -home orders and concerns were
+prevalent” he did not use it. 73 Rather, Defendant alleges that he would record
+his pre-allocation decisions on written worksheets that he would keep in his
+office at ARC. Defendant alleges that he would use a timestamp machine on
+the sheets to mark the time when the trades he was making on the TDA
+platform were allocated.
+The Court will briefly summarize the series of events that occurred after
+Defendant was first suspected of cherry-picking. On October 1, 2020, TDA
+
+71 See FED. R. EVID. 702.
+72 Doc. 49-1 at 11.
+73 Id.
+Case 2:23-cv-05650-JTM-EJD     Document 76     Filed 04/07/25     Page 14 of 25
+15
+
+notified ARC’s Chief Compliance Officer (“CCO”), Sarah Pais, that Defendant
+was under investigation for trades made on the platform during the Relevant
+Period. Two weeks later, TDA terminated Defendant’s access to its platform.
+Defendant remained employed at ARC until his termination in January 2021.
+According to Defendant, upon his termination, he was barred from accessing
+the ARC offices and therefore could not gain access to his pre-allocation
+worksheets. In his Motion, Defendant relies on deposition testimony from a
+former ARC office manager to assert that it is possible that his worksheets
+were moved or missing in the time after his termination.74
+On February 15, 2022, the staff of the SEC served an investigative
+subpoena on Defendant requesting the production of documents by March 1,
+2022.75 Defendant did not produce any pre-allocation worksheets during this
+part of Plaintiff’s investigative process or as a part of his submissions to the
+Wells Notice that Plaintiff sent to Defendant in June 2023. 76 Plaintiff asserts
+that it was not until Defendant’s deposition of ARC’s CCO on October 3, 2024
+when Defendant produced fourteen pre-allocation worksheets for her
+consideration.77 In his deposition and Motion, Defendant claims that he
+recovered the worksheets at his mother’s house. He maintains that “ the
+remaining original block sheets would likely have remained at his office” and
+that these show that Defendant did not engage in cherry-picking.78
+As Dr. Canjels stated in his deposition, cherry- picking does not occur
+where trades are pre-allocated. 79 The Court finds that the production of even
+these fourteen time -stamped handwritten pre-allocation documents raise the
+
+74 Id. at 14-15.
+75 Doc. 53-12.
+76 Doc. 53-3 ¶¶9-10.
+77 Doc. 53 at 11.
+78 Doc. 49-1 at 16.
+79 Doc. 47-3, 202:23-25 –203:1-13.
+Case 2:23-cv-05650-JTM-EJD     Document 76     Filed 04/07/25     Page 15 of 25
+16
+
+question of whether Defendant did in fact pre-allocate his option trades.
+Plaintiff attacks the authenticity of the sheets, asserting that these are not
+originals, but rather copies, and that Defendant’s failure to produce, let alone
+mention them sooner, is suspect. As such, whether Defendant pre-allocated his
+options trades during the Relevant Period is arguably the most material fact
+before the Court in this matter. The Court agrees that evaluating the
+authenticity of the documents and answering the question of whether cherry-
+picking occurred here is best left to the jury.80
+Further, Dr. Canjels’ report and testimony—which directly contradicts
+Defendant’s assertion that there was no cherry-picking —has been deemed
+admissible by this Court. As such, the Court finds that Defendant has not met
+his burden of “pointing out to the [Court] that there is an absence of evidence
+to support the nonmoving party’s case.” 81 Consequently, Defendant’s Motion
+for Summary Judgment must be denied.
+III. Plaintiff’s Motion in Limine to Exclude Export Reports and
+Opinions of Dr. David A. Lesmond
+Plaintiff moves to exclude the reports and opinions of Defendant’s expert
+witness, Dr. Lesmond, on both procedural and substantive ground s. Plaintiff
+argues that the second report Dr. Lesmond prepared was late and distinct from
+the first report he submitted, and that the first report Dr. Lesmond submitted
+was flawed by even his own admission.  Defendant opposes, arguing that the
+differences between the first and second report are minimal and there is good
+reason for the delayed submission of the second report.
+Pursuant to Federal Rule of Civil Procedure 16(b), this Court entered a
+Scheduling Order which provides that
+
+80 See FED. R. EVID. 1008.
+81 Celotex Corp., 477 U.S. at 325.
+Case 2:23-cv-05650-JTM-EJD     Document 76     Filed 04/07/25     Page 16 of 25
+17
+
+Written reports of experts, as defined by the Federal Rules of Civil
+Procedure 26(a)(2)(B), who may be witnesses for Plaintiffs, shall
+be obtained and delivered to counsel for Defendant as soon as
+possible, but in no event later than NOVEMBER 11, 2024. This
+deadline shall also apply to all expert disclosures, as defined by the
+Federal Rules of Civil Procedure 26(a)(2)(C).
+
+Written reports of experts, as defined by the Federal Rules of Civil
+Procedure 26(a)(2)(B), who may be witnesses for Defendants, shall
+be obtained and delivered to counsel for Plaintiff as soon as
+possible, but in no event later than DECEMBER 11, 2024. This
+deadline shall also apply to all expert disclosures, as defined by the
+Federal Rules of Civil Procedure 26(a)(2)(C)...
+
+Written rebuttal reports of experts, as defined by the Federal
+Rules of Civil Procedure 26(a)(2)(B), who may be witnesses for
+Plaintiffs, shall be obtained and delivered to counsel for Defendant
+no later than DECEMBER 26, 2024. Plaintiff is cautioned that
+rebuttal reports should be strictly limited to opinions in response
+to the Defendant's expert reports.
+
+The Court will not permit any witness, expert or fact, to testify or
+any exhibits to be used unless there has been compliance with thi
+Order as it pertains to the witness and/or exhibits, without an
+order to do so issued on motion for good cause shown.
+
+Depositions for trial use shall be taken and all discovery shall be
+completed no later than JANUARY 10, 2025. This case does not
+involve extensive documentary evidence, depositions or other
+discovery. No special discovery limitations beyond those
+established in the Federal Rules, Local Rules of this Court, or the
+Plan are established.82
+
+Pursuant to this Order, Dr. Lesmond timely submitted a written report to
+Plaintiff on December 11, 2024 (the “First Lesmond Report”).83
+
+82 Doc. 22.
+83 Doc. 48-5.
+Case 2:23-cv-05650-JTM-EJD     Document 76     Filed 04/07/25     Page 17 of 25
+18
+
+On December 31, 20 24, Plaintiff filed an ex parte Motion to Amend the
+Scheduling Order wherein they asked the Court to extend the deposition
+deadline of January 10, 2025 to February 10, 2025. 84 Plaintiff stated that its
+request was predicated on an unexpected family emergency that required its
+expert, Dr. Canjels, to leave the country, making him unavailable to be deposed
+or aid Plaintiff in its deposition of Dr. Lesmond before the January 10
+deadline.85 The Court granted Plaintiff’s Motion, and extended the deposition
+deadline to February 10, 2025.86
+In its instant Motion in Limine and an accompanying declaration by
+Plaintiff’s counsel conducting the deposition, Plaintiff states that during its
+deposition with Dr. Lesmond  on February 4, 2025 , it became aware that Dr.
+Lesmond was in the process of preparing another report (the “Second Lesmond
+Report”) in response to Dr. Canjels’ rebuttal to the First Lesmond Report and
+his own changed opinions. Defendant’s counsel emailed Plaintiff’s counsel the
+evening of February 10, 2025 with the supplement that they had requested in
+Dr. Lesmond’s deposition upon this revelation.87 Plaintiff’s counsel objected to
+this “new report” in a response email sent the next day.88 Plaintiff followed up
+in another email, stating that a file it assumed contained the dataset contained
+no data when opened, and that when the program sent alongside the data was
+run, it did not “produce the same results shown in Dr. Lesmond’s new report.”89
+As such, Plaintiff requested the dataset and program used to produce the
+
+84 Doc. 43. In this Motion, Plaintiff also requested to change subsequent deadlines and the
+dates for the trial and pretrial conference.
+85 Doc. 43-1 at 3.
+86 Doc. 44. Deadlines for other motions, the pre-trial conference, and trial itself were extended
+accordingly.
+87 Doc. 48-9.
+88 Doc. 48-11.
+89 Doc. 48-12.
+Case 2:23-cv-05650-JTM-EJD     Document 76     Filed 04/07/25     Page 18 of 25
+19
+
+tables in the Second Lesmond Report. 90   Defendant’s counsel responded that
+the source files were lost “and that [Dr. Lesmond] was unable to recover them
+despite significant effort to do so.” 91 Defendant’s counsel reassured Plaintiff
+that, “A lthough the results are not exact, [Dr. Lesmond] submits that the
+substantive findings and results are the same and that they do not change the
+basic opinions underlying his original report.”92
+The Court will now consider the admissibility of both reports, starting
+with the Second Lesmond Report, as it appears that it is the one upon which
+both Defendant and Dr. Lesmond would rely on at trial.
+A. Second Lesmond Report
+In its Motion in Limine, Plaintiff argues that the Second Lesmond Report
+is not admissible because it was not timely filed, and it is based on lost data.
+Defendant opposes, asserting that the Second Lesmond Report is a supplement
+of the First Lesmond Report, and even if it is not, it was filed before the close
+of discovery.
+Under Federal Rule of Civil Procedure 26(a)(2), “[a]  party must disclose
+‘all opinions the witness will express and the basis and reasons for them’ as
+well as “the facts and data considered by the witness in forming their
+opinions.”93 “Expert reports under Rule 26 must be ‘detailed and complete,’ not
+‘sketchy and vague.’ ”94 These disclosures “must be made ‘at the times and in
+the sequence the court orders.’” 95 In the Fifth Circuit, “[t]he purpose of
+supplementary disclosures is just that —to supplement. Such disclosures are
+
+90 Doc. 48-12.
+91 Doc. 48-14.
+92 Id.
+93 Bertuccelli v. Universal City Studios LLC, No. 19-1304, 2021 WL 1521273 at *1 (E.D. La.
+Feb 26, 2021) (quoting Fed. R. Civ. P. 26(a)(2)(B)).
+94 Harmon v. Ga. Gulf Lake Charles, L.L.C., 476 F. App’x 31, 36 (5th Cir. 2012) (citing Sierra
+Club, Lone Star Chapter v. Cedar Point Oil Co. Inc., 73 F.3d 546, 571 (5th Cir. 1996)).
+95 Id. (quoting Fed. R. Civ. P. 26(a)(2)(D)).
+Case 2:23-cv-05650-JTM-EJD     Document 76     Filed 04/07/25     Page 19 of 25
+20
+
+not intended to provide an extension of the expert designation and report
+production deadline.”96 “The Fifth Circuit is also clear that supplements that
+include material additions to an opinion are not permitted.” 97 “[I]f the
+information relied upon by an expert was available to the plaintiff at the time
+[that] the expert’s initial report was prepared, a second report should not have
+been necessary, and [the] information contained in the second report should
+have been included in its expert’s initial report.” 98 “Courts have routinely
+rejected untimely ‘ supplemental’ expert testimony where the opinions are
+based on information available prior to the missed deadline for [expert
+disclosures].”99
+In his deposition, Dr. Lesmond admits to several differences between the
+First Lesmond Report and the Second Lesmond Report, referring to the latter
+as a “new report.” 100 Dr. Lesmond admits that: he is using new data ,101
+different prices,102 an updated sample;103 he is no longer eliminated outliers104
+and has included new variables.105 Defendant asserts that the findings of the
+two reports before the Court do not differ despite these changes that Dr.
+Lesmond states were only made to facilitate comparison of the opposing
+
+96 Metro Ford Truck Sales, Inc. v. Ford Motor Co., 145 F.3d 320, 324 (5th Cir.1998).
+97 Stubblefield v. Suzuki Motor Corp., No. 3:15-CV-18-HTW-LRA, 2018 WL 11008929, at *1
+(S.D. Miss. Mar. 22, 2018).
+98 Melton Properties, LLC v. Illinois Cent. R.R. Co., No. 4:18-CV-79, 2024 WL 3626691, at *9
+(N.D. Miss. Aug. 1, 2024).
+99 Buxton v. Lil’ Drug Store Prods., Inc., No. 2:02CV178KS -MTP, 2007 WL 2254492, at *5
+(S.D. Miss. Aug. 1, 2007), aff'd, 294 F. App'x 92 (5th Cir. 2008) (citing Sierra Club, 73 F.3d
+at 571 (5th Cir. 1996)).
+100 Doc. 48-7 at 40.
+101 Id. at 9-10.
+102 Id. at 18.
+103 Id. at 21.
+104 Id. at 26.
+105 Id. at 30.
+Case 2:23-cv-05650-JTM-EJD     Document 76     Filed 04/07/25     Page 20 of 25
+21
+
+parties’ experts.106 Further, Defendant cannot provide Plaintiff with the that
+data he used to create the Second Lesmond Report because it is lost.107
+The Court finds that the Second Lesmond Report varies significantly
+from the First Lesmond Report and is therefore an entirely new report, rather
+than a supplement. As such, because it was sent to Plaintiff’s counsel on
+February 10, 2025 —nearly two months after the Court’s deadline for
+submission of Defendant’s expert report of December 11, 202 4—the Second
+Lesmond Report it was untimely.
+ Having concluded that the Second Lesmond Report does not comply with
+Rule 26 and that the First Lesmond Report does not pass muster under
+Daubert, the remaining question is the appropriate remedy. The presumptive
+sanction under Rule 37(c)(1) for the failure to disclose is exclusion. 108
+Nonetheless, this Court has considerable discretion to fashion an appropriate
+remedy.109
+ “To decide if a failure to disclose is ‘substantially justified or harmless,’
+[the Court must] weigh four factors: “(1) the explanation for the failure . . . ; (2)
+the importance of the testimony; (3) potential prejudice . . . ; and (4) the
+availability of a continuance.” 110 “[T]he party who is alleged to have failed to
+comply with Rules 16 and 26 bears the burden to show that its actions were
+substantially justified or harmless.”111 Here, Defendant asserts that the failure
+
+106 Doc. 54 at 5-6.
+107 See Doc. 48-14.
+108 See FED. R. CIV. P. 37(c)(1);  see also  Honey-Love v. United States,  664 F. App ’x 358,
+362 (5th Cir. 2016) (per curiam) (“[U]nder Rule 37(c), the presumptive sanction for failing
+to disclose a testifying expert or supply a required expert report or summary disclosures is
+to exclude or limit the expert ’s testimony unless the failure was substantially justified or
+harmless.”).
+109 Sierra Club, 73 F.3d at 571 (5th Cir. 1996).
+110 Indian Harbor Ins. Co. v. Covington Flooring Co., Inc., No. 24-30243, 2025 WL 416992, at
+*3 (5th Cir. Feb. 6, 2025).
+111 Avance v. Kerr-McGee Chem. LLC, No. 5:04CV209, 2006 WL 3484246, at *6 (E.D. Tex.
+Nov. 30, 2006).
+Case 2:23-cv-05650-JTM-EJD     Document 76     Filed 04/07/25     Page 21 of 25
+22
+
+to comply with the Court’s Scheduling Order was the result of “Dr. Lesmond’s
+limited availability due to his teaching schedule and . . . that the undersigned
+did not understand the extent of the revisions that Dr. Lesmond was
+undertaking. . .”112 He also stresses that Dr. Lesmond’s testimony is critical to
+Defendant’s argument that he did not engage in cherry-picking and that to
+exclude such evidence would leave the court with nothing. Additionally, in his
+Response to Plaintiff’s Motion, Defendant asks the Court to grant it a
+continuance to allow Plaintiff time to depose Dr. Lesmond about the Second
+Lemond Report.
+ The Court finds Defendant’s reasons for delay to be insufficient. While
+Defendant’s counsel might not have known about the extent of Dr. Lesmond’s
+revisions, he was aware of the Scheduling Order, and should have had clear
+communications about what those d ates meant for Dr. Lesmond and any
+reports he undertook. Both parties agree that the statistical analysis
+undertaken by the experts here is critical to this case, but “the importance [sic.]
+of such proposed testimony cannot singularly override the enforcement of local
+rules and scheduling orders.”113 Also, as Plaintiff points out, without access to
+the lost data undermining Dr. Lesmond’s report and a corresponding
+continuance of other important dates articulated in the Scheduling Order, a
+continuance would likely be futile and would delay this matter substantially
+while also likely prejudicing Plaintiff in the time it would have after a
+deposition to prepare for an imminent trial.114 As such, the Court will not grant
+a continuance.
+
+112 Doc. 54 at 10-11.
+113 Geiserman v. MacDonald, 893 F.2d 787, 792 (5th Cir. 1990).
+114 See Stewart v. Gruber, No. 23 -30129, 2023 WL 8643633, at *6 (5th Cir. Dec. 14, 2023)
+(quoting Geiserman, 893 F.2d at 791).
+Case 2:23-cv-05650-JTM-EJD     Document 76     Filed 04/07/25     Page 22 of 25
+23
+
+B. First Lesmond Report
+Plaintiff argues in its Motion in Limine that the First Lesmond Report
+must be excluded because it applied an unreliable methodology to  faulty and
+selective data, which Dr. Lesmond admitted at his deposition and were the
+target of correction in the Second Lesmond Report. In response, Defendant
+asserts that while Dr. Lesmond did concede certain shortcomings in his first
+report, there is good cause for allowing him to testify, particularly about the
+different conclusions he reached from Dr. Canjels by employing a multivariate,
+as opposed to univariate, approac h to the data and incorporating Defendant’s
+pre-allocations sheets and alleged prowess as an investor into his analysis.
+“The party offering the testimony bears the burden of establishing its
+reliability by a preponderance of the evidence.” 115 Dr. Lesmond admitted that
+in the preparation of the First Lesmond Report, he did not rely on the TDA
+data, but rather data that was manipulated by actors he could not identify. 116
+Throughout his deposition, Dr. Lesmond concedes to multiple errors in the
+methodology he used when testing this data in preparing the First Lesmond
+Report, prompting him to create the Second Lesmond Report.117
+Further, in his opposition to Plaintiff’s Motion, Defendant states that the
+First Lesmond Report “accurately captured the forest, but failed to fully
+account for the trees.” 118  Further, Defendant conceded at oral argument that
+the First Lesmond Report did not pas s muster. At one point, Dr. Lesmond
+testified that he found Defendant and his mother’s accounts were treated
+favorably and doubled down when counsel sought to clarify this stance that
+
+115 McGhee v. Pride Offshore, Inc., No. CIV.A. 07-476, 2008 WL 2597925, at *2 (E.D. La. Apr.
+3, 2008).
+116 Doc. 48-7 at 62.
+117 See Doc. 48-7.
+118 Doc. 54 at 9.
+Case 2:23-cv-05650-JTM-EJD     Document 76     Filed 04/07/25     Page 23 of 25
+24
+
+was at odds his conclusions. 119 As such, Defendant has not established by a
+preponderance of the evidence that Dr. Lesmond’s testimony is sufficiently
+reliable.
+ “Even if the proponents meet their burden of establishing that an
+expert’s testimony qualifies as [reliable], the court must still exclude the
+evidence if it does not ‘fit’ the matters at issue in the case.”120 Critically, in the
+First Lesmond Report, Dr. Lesmond removed outliers on the basis that they
+had the highest gains or losses, but that is exactly what is at issue in a
+determination of whether cherry-picking occurred. 121 As such, the Court finds
+that the his reasoning does not fit the facts of the case such that it will assist
+the trier of fact to understand the evidence before it.122
+Taken together, these errors and resulting inconsistencies are confusing
+for the Court and will likely prove confusing and unhelpful to a jury.
+Accordingly, the Court finds that the First Lesmond Report is not admissible
+under Federal Rule of Evidence 702. Critically, “neither expert report provides
+the SEC with a detailed and complete disclosure of Dr. Lesmond’s expert
+opinions.”123
+   Defendant asked in his opposition and at oral argument whether it
+would be possible to have Dr. Lesmond testify untethered from his reports to
+offer opinions about Dr. Canjels’ report and Defendant’s trading prowess.
+Plaintiff opposes, arguing that it would be impossible for Dr. Lesmond to testify
+in some summary format without espousing opinions that he formulated in the
+preparation of his two inadmissible reports. The Court agrees with Plaintiff.
+
+119 Doc. 48-1 at 9 (citing Doc. 48-7, Lesmond Deposition at 93:18-94:18).
+120 Hall v. Baxter, 947 F.Supp. 1387, 1397 (D. Or. 1996) (citing Daubert, 509 U.S. at 591
+(1993)).
+121 See supra p. 6.
+122 See Badeaux v. Eymard Bros. Towing Co., Inc., No. CV 19-13427, 2021 WL 4860300, at *2
+(E.D. La. Oct. 19, 2021).
+123 Doc. 48-1 at 15.
+Case 2:23-cv-05650-JTM-EJD     Document 76     Filed 04/07/25     Page 24 of 25
+25
+
+Because of the questionable data on which Dr. Lesmond based his reports and
+formed his opinions about the case, it would not be appropriate for him to
+testify at all.124
+ Accordingly, the Court grants Defendant’s motion to exclude expert
+testimony of Dr. Lesmond. The Court excludes both the First and Second
+Lesmond Reports in their entirety. Finding no admissible opinions to be offered
+by Dr. Lesmond, the Court orders that Dr. Lesmond may not testify at trial.
+
+CONCLUSION
+For the foregoing reasons, Defendant’s Motion in Limine to Exclude the
+Testimony and Opinions of Eugene P. Canjels, Ph.D. is DENIED; Plaintiff
+Security and Exchange Commission’s Motion in Limine to Exclude Export
+Reports and Opinions of Dr. David A. Lesmond is GRANTED; and Defendant’s
+Motion for Summary Judgment is DENIED.
+
+ New Orleans, Louisiana, on this 7th day of April 2025.
+
+      ______________________________________
+JANE TRICHE MILAZZO
+UNITED STATES DISTRICT JUDGE
+
+124 See Allen v. Penn. Eng’g Corp., 102. F.3d 194, 199 (5th Cir.1996) (“[I]f the foundational
+data underlying opinion testimony are unreliable, an expert will not be permitted to base
+an opinion on that data because any opinion from that data is likewise unreliable.”).
+Case 2:23-cv-05650-JTM-EJD     Document 76     Filed 04/07/25     Page 25 of 25

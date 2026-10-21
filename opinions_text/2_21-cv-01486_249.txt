@@ -1,0 +1,502 @@
+1
+
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+THE CHARTER OAK FIRE
+INSURANCE COMPANY and
+TRAVELERS PROPERTY CASUALTY
+COMPANY OF AMERICA, as subrogees
+of WRIGHT BROS., LLC.
+
+CIVIL ACTION
+
+VERSUS
+
+NO: 2:21-1486
+
+BREMERMANN MECHANICAL, INC.,
+SIEMENS INDUSTRY, INC., KINSALE
+INSURANCE COMPANY, and HDI
+GLOBAL INSURANCE COMPANY.
+
+SECTION: T (4)
+
+ORDER AND REASONS
+Before the Court are three Motions for Summary Judgment filed by Defendants
+Bremermann Mechanical, Inc. (“BMI”), Siemens Industry, Inc. (“Siemens”), Kinsale Insurance
+Company (“Kinsale”), and HDI Global Insurance Company (“HDI”). R. Docs. 185, 186, 187. For
+the following reasons, the motions are GRANTED.
+BACKGROUND
+ This years-long litigation asks who is responsible for a water leak from a drain valve ( the
+“Subject Valve”) on the tenth floor of the Hale Boggs Federal Building. Plaintiffs, The Charter
+Oak Fire Insurance Company (“Charter Oak”) and Travelers Property Casualty Company of
+America (“Travelers”), are subrogees of Wright Bros., LLC (“WB”), the general contractor .
+Defendants are BMI and Siemens, the subcontractors, (collectively, “Subcontractors”) and their
+insurers, HDI and Kinsale.
+Case 2:21-cv-01486-GGG-KWR     Document 249     Filed 03/31/25     Page 1 of 21
+2
+
+A. Factual History
+The United States General Services Administration (“GSA”), the building owner, and WB
+contracted for WB to serve as the general contractor to create office space on the tenth floor of the
+building (the “Project”). Under the general contrac t, WB was responsible for providing all
+materials, services and labor to both design and construct the office space. R. Doc. 185- 3. There
+are two relevant subcontracts. On September 19, 2019, WB subcontracted with BMI to provide
+HVAC installation on the Project (“WB-BMI Subcontract”). R. Doc. 201-2. On October 10, 2019,
+BMI subcontracted with Siemens to provide products and services to facilitate the installation
+(“BMI-Siemens Subcontract”). R. Doc. 185-4 at pp. 15-19.
+ As part of its work, Siemens provide d mechanical submittals to BMI starting on October
+14, 2019 (“the Submittal”). R. Doc. 185 -6. The Submittal contained technical data and
+diagrammatic representations of a Nexus Model BD -025 Blowdown/Drain Valve ( the “Subject
+Valve” or generally, the “drain valve”) that was incorporated into a Nexus UltraY Model UY Ball
+Valve, Y-Strainer (the “y-strainer”), and the Subject Valve’s associated thread cap (the “cap(s)”),
+(collectively, the “Valve System”). Id. Five Valve Systems were to be installed in the tenth-floor
+ceiling. All systems used composite caps. Plaintiffs introduced evidence from the Valve System’s
+manufacturer that the installed composite caps or any caps on the Valve System were not designed
+to contain water flow . R. Doc. 218-1 at p. 9 (emphasis supplied); R. Doc. 218- 16 (information
+from the drain valve manufacture stating “the cap IS NOT designed to contain flow”) ; R. Doc.
+218-18 (“[n]or is the brass cap” intended to hold water pressure) . Plaintiffs’ expert, Joseph
+Kresovsky, explained: (a) that the manufacturer designed the caps to protect the threads on the
+Case 2:21-cv-01486-GGG-KWR     Document 249     Filed 03/31/25     Page 2 of 21
+3
+
+drain outlet and to catch drips , rather than hold pressure, and (b) that the Project’s specifications
+do not expressly require brass caps over composite caps. R. Doc. 218-9 at p. 16.
+On October 24, 2019, after Siemens transmitted two submittals to BMI, BMI provided a
+submittal to WB for approval. WB referred  this submittal to its selected engineer, Griffith
+Engineering (“Griffith”), and GSA for review and approval. Griffith reviewed this submittal. It is
+also undisputed that WB  returned it to BMI and the submittal  contained 40 pages related to the
+Project. R. Doc. 185-6 at pp. 98-145. On December 26, 2019, WB then directed BMI to purchase
+all necessary equi pment—including the Subject Valve that was incorporated into the y- strainer.
+Id. at pp. 12-17.
+BMI began installation  of the Valve System —including the Subject Valve with a
+composite cap (the “Subject Cap”) on June 10, 2020. WB’s site superintendent, Donny Phillips,
+supervised the installation. Phillips, as WB’s Quality Assurance and Quality control
+representative, was responsible for ensuring that all work complied with the plan  specifications,
+and contract documents. R. Doc. 185- 9 at pp. 10- 11. The supply, return, valves and VAV
+connections were all pressure tested in front of Phillips and no leaks were detected. Id. at pp. 14-
+15. Plaintiffs, however, dispute whether BMI p erformed the test as required under Project
+specifications. R. Doc. 218-1 at pp. 13-14. GSA marked that the work was completed on June 24,
+2020. No party has directed the Court to evidence refuting that, when BMI finished the installation,
+the Subject Valve was  closed and the Subject Cap was secured onto the Subject Valve. Phillips
+Case 2:21-cv-01486-GGG-KWR     Document 249     Filed 03/31/25     Page 3 of 21
+4
+
+accepted BMI’s work on June 24, 2020, as “necessarily being completed.”1 Phillips testified that
+he evaluated all valves and ensured the work was in conformity with the Project’s specifications .
+R. Doc. 185-9 at pp. 22-25. He did not identify any leaks. Phillips also testified  that: (a) he knew
+the Subject Cap was properly attached to the Subject Valve, (b) the Subject Cap was a composite
+cap, and (c) composite caps are routinely used on drain valves. Id. at p. 64.
+From June 10, 2020, to August 7, 2020, it is undisputed that  multiple other entities
+performed work within inches to feet of the Subject V alve. See, e.g., R. Doc. 185- 9 at pp. 31
+(testifying to some work that was performed within inches  of the Subject Valve). On August 7,
+2020, Siemens employee Robert Sparks performed work in the tenth- floor ceiling on a different
+piece of equipment that was located about three feet away from the Subject V alve. The record
+testimony indicates that the other entities, mostly, performed their work closer to the Subject Valve
+than Sparks’s work. See, e.g., R. Doc. 185-9 at pp. 31, 35, 40. Phillips was present during Sparks’s
+work. Id. at pp. 67-69. Sparks testified that he did not touch the Subject Valve, because his work
+did not require him to have any contact with it , and that he saw no water discharge. R. Doc. 185-
+10 at pp. 19-20. Sparks also worked on the other side of the light fixture and at a different angle
+than the Subject Valve. Expert testimony shows that Sparks could not have physically reached the
+
+1 Plaintiffs assert that WB did not accept Subcontractors work as complete but rather only
+suggested it was “necessarily [] complete” or “substantially complete prior to the Incident.”
+However, these assertions are irrelevant because Plaintiffs do not point the Court to any evidence
+that Subcontractors had any more work to do for the valve system. Rather the alleged
+uncomplete work belonged to WB, as they had “doors to replace, paint to complete, and had not
+even developed a punch list.” See R. Doc. 218-1 at p. 19.
+Case 2:21-cv-01486-GGG-KWR     Document 249     Filed 03/31/25     Page 4 of 21
+5
+
+Subject Valve from his location, let alone opened the Subject Valve.2 R. Doc. 185-17. Phillips also
+testified that he did not see Sparks open or touch the Subject Valve or Subject Cap but that
+“anyone” could have opened them. R. Doc. 185-9 at pp. 73-74. He also testified that he did not see
+any leaks or discharges  and that Sparks was working on the other side of the light fixture away
+from the Subject Valve. Id. From August 7th onward until the leak, neither BMI nor Siemens did
+any work in the tenth -floor ceiling. Phillips, however, worked on the tenth floor every day the
+following week of August 10- August 14. His work required him to enter the tenth floor twice a
+day. Id. at pp. 47-49.
+On August 16, 2020, WB received a call from building security about water coming from
+the tenth floor. When Phillips reported to the site, he found pressured water jetting from the Subject
+Valve (“the Incident”). Phillips found (a) the Subject Valve was fu lly open, (b) t he Subject Cap
+removed from the Subject Valve, and (c) water leaking from the Subject Valve. R. Doc. 1, ¶ 34;
+R. Doc. 185- 9 at p. 60 -61. The parties do not dispute that the Subject Valve was improperly
+opened. See, e.g., R. Doc. 218-1 at p. 24 (“BMI’s piping was open[ed]”) . The building sustained
+water damage over nine floors . BMI removed the Subject Cap from the Subject Valve and four
+other caps from four other tenth floor valves. The Subject Cap was examined by representatives
+of WB, GSA, BMI, and third-party contractor, GCI. See, e.g., R. Doc. 185-15 at pp. 10-12; R. Doc.
+
+2 Plaintiffs attempt to exclude testimony under Daubert v. Merrell Dow Pharmaceuticals, Inc. R.
+Doc. 192; 113 S.Ct. 2786 (1993). If the Court were required to resolve the issue, it would deny
+the motion. Testimony as to the physical reach capacity in an upper ceiling can accommodate
+expert testimony because Dr. De Jhong’s testimony is based on his (a) engineering expertise, (b)
+focuses on reach potential in a technical space, something outside the purview of a lay jury, and
+(c) is based on scientific methodology—reconstructive and biomedical literature and a tested
+model.
+Case 2:21-cv-01486-GGG-KWR     Document 249     Filed 03/31/25     Page 5 of 21
+6
+
+185-14 at p. 11. All concluded that the Subject Cap suffered no damage, including no thread
+damage. WB was told that the Subject Cap suffered no damage and that there “were no signs…that
+it [the Subject Cap] was blown off .” See, e.g., R. Doc. 185- 14 at p.  14. WB reported this
+information to Plaintiffs, its insurers. Id.
+Two days after the Incident, BMI recovered five caps from the five valves on the tenth
+floor (“the recovered caps”). R. Doc. 218-10 at pp. 87-88. The parties do not dispute that one of
+the recovered caps is the Subject Cap. All who reported to the leak thought it was an undamaged
+cap. However, BMI did not index the specific cap it recovered from the Subject Valve. Id. The
+parties agree that four out of the five caps were undamaged. However, one  cap had a small
+longitudinal crack on its side. R. Doc. 185-19 at p. 17. There is, nonetheless, no evidence that this
+cap suffered any thread damage.  Id.; R. Doc. 185-18 at p. 9. In fact, none of the recovered caps
+suffered thread damage. Plaintiffs’ expert, Joseph Kresovsky, conceded: (a) that none of the five
+caps suffered thread damage, (b) that if the Subject Cap was  installed to the Subject Valve at the
+Incident, it would have sustained threa d damage, and (c) that if the Subject Cap was found
+undamaged, it was not in place on the Subject Valve at the time the water release started. R. Doc.
+185-19 at pp. 10- 13, 15 -17. Defendants’ expert , Eric Benstock, ca me to the same conclusion:
+because none of the recovered caps has  thread damage, none of the five caps was on the Subject
+Valve at the time of the Incident. R. Doc. 185-18 at pp. 16-17 (emphasis supplied).
+It is not disp uted that the y- strainer, drain valve combination was appropriate for this
+HVAC unit —including the Subject Valve . See generally R. Doc. 218- 2. Plaintiffs make no
+argument that the Subject Valve or y -strainer was defective, but rather , they claim that the
+Case 2:21-cv-01486-GGG-KWR     Document 249     Filed 03/31/25     Page 6 of 21
+7
+
+Subcontractors opened the Subject Valve, that the Subject Cap blew off or unscrewed itself from
+the release of water pressure, or that the Subject Cap was defective. Id. at p. 22 (asserting “Sparks
+could have moved the ladder to access the HVAC equipment from another angle [on Augus t 7,
+2020], at which point he could have reached the Subject Valve.”); Id. at p. 24 (“assert[ing] the cap
+on the Subject Valve could have either blown off the valve or that given enough time in a loose
+condition, it could have unscrewed itself from the val ve while being subjected to 60 psi of
+pressure”); Id. at p. 3, ¶ 9 (submitting that selection of a composite cap rather than a brass cap is a
+genuine dispute of material fact on causation). Indeed, the Subject Valve with the pre-existing y-
+strainer was placed back into service the night after the Incident. R. Doc. 185-3 at pp. 33-36. The
+Project received final approval by GSA with the Subject Valve back in place and was only removed
+for evidentiary reasons. R. Doc. 185-6 at pp. 30-31; R. Doc. 185-7 at pp 25-26. Four identical drain
+valve, y-strainer combinations remain in the space to this day. Id.
+B. Procedural History
+After the Incident, Plaintiffs paid roughly $2,300,000 to the GSA in damages. See R. Doc.
+1. Plaintiffs in this lawsuit seek to recoup their expenses . Plaintiffs assert Defendants are liable
+under four causes of action: (1) negligence, (2) breach of contract, (3) declaratory relief, and (4)
+contractual indemnification. Id. BMI first filed a motion to dismiss in which it argued that  the
+Court lacked federal diversity jurisdiction and that the indemnity and insurance provision in the
+WB-BMI subcontract is unenforceable under the Louisiana Anti-Indemnity Act (“LAIA”). R. Doc.
+19. The Court denied the motion to dismiss on grounds that W B’s citizenship is immaterial and
+that LAIA does not apply because Plaintiffs limited their indemnity claim to BMI ’s or Siemens’s
+Case 2:21-cv-01486-GGG-KWR     Document 249     Filed 03/31/25     Page 7 of 21
+8
+
+own acts or omissions. R. Doc. 80.
+ After years of discovery, BMI and Siemens now  move for summary judgment on all
+counts. R. Doc. 185-1. They argue that Plaintiffs do not put forward enough evidence for a jury to
+conclude that either BMI or Siemens is liable because there is not enough evidence to show their
+acts or omissions  caused the Incident. Id. at pp. 9- 12. Defendants assert Plaintiffs present no
+evidence that allows a jury to conclude either BMI or Siemens opened the  Subject Valve. Id. at
+12. Indeed, Plaintiffs concede they do not know  who opened the Subject Valve or
+unscrewed/removed the Subject Cap.  See R. Doc. 218- 1 at p. 23 (“Plaintiffs do not know who
+opened the [Subject Valve] and [Subject Cap]. That is true.”).
+Defendants maintain that this concession, coupled with the lack of evidence, is enough to
+warrant summary judgement. They point out that  Plaintiffs do not allege the Subject Valve was
+faulty but admit instead the Subject Valve was left open. R. Doc. 185-1 at p. 12. Furthermore, they
+contend there is no genuine dispute of material fact  that the Subject Cap was removed before the
+Incident. Id. at 12-16. Defendants highlight the unrefuted expert testimony that, if the Subject Cap
+had been blown off, unscrewed itself, or was otherwise dislodged due to water pressure exposure,
+the Subject C ap would have incurred thread damage. Id. at p. 13. Because it is undisputed that
+none of the recovered caps suffered thread damage, Defendants submit that Plaintiffs cannot prove
+that a defective Subject Cap was the cause of the accident. Id. Therefore, they claim that, because
+the Subject Cap could not have caused the leak, Defendants are not liable. Id. at pp. 12-16.
+Plaintiffs attempt to establish liability in three ways. R. Doc. 218-1. First, they argue there
+is a genuine dispute of material fact that either BMI or Siemens opened the Subject Valve, and
+Case 2:21-cv-01486-GGG-KWR     Document 249     Filed 03/31/25     Page 8 of 21
+9
+
+because the valve was opened , Subcontractors are responsible. Id. at 7. Plaintiffs also attempt to
+impose liability predicated on the  Subcontractors’ choice to instal l a composite cap. Plaintiffs
+contend that, when tested, a composite cap only withstood 121 psi—less than the 125 psi required
+for the Valve System  under the Project. Id. at p. 8. They maintain that a comparable brass cap ,
+however, is designed to meet a greater psi and would have contained the leak. Id. at 10-15. They
+lastly argue that the Subject Cap could have unscrewed itself , was blown off, or was otherwise
+dislodged when subjected to pressurized water. Id. at 16-17.
+HDI and Kinsale also move for summary judgment. R. Docs. 186, 187. Kinsale is BMI’s
+insurer and HDI is Siemens ’s insurer. HDI insured Siemens pursuant to policy number
+GLD11101-11 (the “Siemens Policy”). R. Doc. 186-5. Siemens is the named insured. The Siemens
+Policy contains an Additional Insured endorsement that provides additional insured coverage for
+“Any Person or Organization Required by Written Contract.” Id. However, coverage is afforded
+“only with respect to liability arising out of ‘your work’ [named insured] for that insured by or for
+you.” Id. at pp. 1, 7 (identifying Siemens as the named insured). Kinsale insured BMI pursuant to
+policy number 0100122523-0 (the “BMI Policy”). R. Doc. 187-2. But that policy limits coverage
+to “liability for ‘bodily injury’, ‘property damage’ or ‘personal and advertising injury’ caused, in
+whole or in part, by Your [BMI’s] acts or omissions .” Id. p. 70; Id. at p. 6 (defining “you” to
+“refer…to the Name Insured shown in the Declarations.”); id . at p. 22 (identifying the “Named
+Insured” as only “BMI”).
+Both HDI and Kinsale, (the collectively the “Insurers”) argue they are not liable to
+Plaintiffs because the Subcontractors are not liable to Plaintiffs. R. Doc. 186- 1 at p. 9; R. Doc.
+Case 2:21-cv-01486-GGG-KWR     Document 249     Filed 03/31/25     Page 9 of 21
+10
+
+187-1 at pp. 3-4. Insurers argue that Plaintiffs cannot collect as an additional insured because: (1)
+Plaintiffs previously limited their action to the Subcontractors’ acts or omissions , (2) any other
+claims are not asserted in the Complaint, (3) the additional insured provision does not apply
+without evidence BMI or Siemens caused the Incident, and (4) LAIA invalidates any provision in
+either subcontract that purports to indemnify WB for WB’s actions. R. Doc. 186-1 at pp. 5-10; R.
+Doc. 187-1 at pp. 10-11.
+Plaintiffs incorporate their opposition to Subcontractors’ motion for summary judgement
+for the Insurers’ motions. R. Docs. 219, 220 at p. 4. Additionally, they argue that: (1) LAIA does
+not apply, (2) the court should sua sponte find the Kinsale policy provides coverage for BMI’s
+acts and omissions, and (3) that the WB-BMI’s subcontract requires WB to be an additional insured
+under the Siemens policy. R. Doc. 219 at pp. 4-5; R. Doc. 220 at pp. 4-6.
+LAW & ANALYSIS
+1. Legal Standard
+Summary judgment is proper when “the pleadings, depositions, answers to interrogatories,
+and admissions on file, together with the affidavits, if any, show that there is no genuine issue as
+to any material fact and that the moving party is entitled to a judgment as a matter of law.” Celotex
+Corp. v. Catrett, 477 U.S. 317, 322 (1986) (citing Fed. R. Civ. P. 56(c)). The court must find “a
+factual dispute to be ‘genuine’ if the evidence is such that a reasonable jury could return a verdict
+for the nonmoving party and a fact to be ‘material’ if it might affect the outcome of the suit under
+the governing substantive law.”  Voelkel McWilliams Const., LLC v. 84 Lumber Co., 2015 WL
+1184148, at *5 (E.D. La. Mar. 13, 2015) (quoting Beck v. Somerset Techs., Inc., 882 F.2d 993, 996
+Case 2:21-cv-01486-GGG-KWR     Document 249     Filed 03/31/25     Page 10 of 21
+11
+
+(5th Cir. 1989)). The party seeking summary judgment bears the burden of demonstrating the
+absence of a genuine issue of material fact and all reasonable inferences are drawn in favor of the
+nonmoving party. Celotex, 477 U.S. at 323.
+After the movant meets his burden, the burden shifts to the non- movant to show the
+existence of a genuine issue for trial. Gernain v. U.S. Bank Nat’ Ass'n, 920 F.3d 269, 272 (5th Cir.
+2019). In doing so, the non-movant must submit “significant probative evidence” in support of his
+claim. State Farm Ins. Co. v. Gutterman, 896 F.2d 116, 118 (5th Cir. 1990). When assessing
+whether a dispute as to any material fact exists, the court considers “all of the evidence in the
+record but refrains from making credibility determinations or weighing the evidence.” Delta &
+Pine Land Co. v. Nationwide Agribusiness Ins. Co., 530 F.3d 395, 398–99 (5th Cir. 2008).
+However, “unsupported allegations or affidavits setting forth ‘ultimate or conclusory facts and
+conclusions of law’ are insufficient to either support or defeat a motion for summary judgment.”
+Galindo v. Precision Am. Corp., 754 F.2d 1212, 1216 (5th Cir. 1985); Little v. Liquid Air Corp .,
+37 F.3d 1069, 1075 (5th Cir. 1994).
+2. Plaintiffs’ Fail to Carry Their Burden That Subcontractors Are Liable Because They
+Do Not Submit Significant Evidence That Either Opened the Subject Valve.
+Plaintiffs’ theories of recovery all require proof of c ausation. Under Louisiana law, there
+are five elements to a negligence claim: duty, breach, causation in fact, causation in law, and
+damages. Jack v. Evonik Corp., 79 F.4th 547, 564 (5th Cir. 2023) (citing Lemann v. Essen Lane
+Daiquiris, Inc., 2005-1095 (La. 2006), 923 So. 2d 627, 633). Cause in fact is generally a “but for”
+inquiry; if the plaintiff probably would have not sustained the injuries but for the defendant's
+Case 2:21-cv-01486-GGG-KWR     Document 249     Filed 03/31/25     Page 11 of 21
+12
+
+substandard conduct, such conduct is a cause in fact. Roberts v. Benoit , 605 So. 2d 1032, 1042
+(La. 1991), on reh'g (May 28, 1992).
+A breach-of-contract claim in Louisiana ha s “essential” elements: “(1) the obligor's
+undertaking an obligation to perform, (2) the obligor failed to perform the obligation (the breach),
+and (3) the failure to perform resulted in damages to the obligee.” IberiaBank v. Broussard, 907
+F.3d 826, 835 (5th Cir. 2018) (citing Favrot v. Favrot, 68 So.3d 1099, 1108–09 (La. App. 4 Cir.
+2011)). A plaintiff has the burden “of proving any damage suffered by it as a result of a breach of
+contract” or “actual damages.” L & A Contracting Co. v. Ram Indus. Coatings , Inc., 99-0354, p.
+20 (La. App. 1 Cir. 2000), 762 So.2d 1223, 1235 (emphasis added). “Actual damages arising from
+a breach of contract must be proven; they cannot be merely speculative or conjectural.” Payphone
+Connection Plus, Inc. v. Wagners Chef, LLC , 2019-0181 (La. App. 4 Cir. 2019), 276 So. 3d 589,
+598 (quoting LeBlanc v. Gibbens Pools, Inc., 447 So.2d 1195, 1197 (La. App. 5th Cir. 1984) ).
+Contractual indemnification claims also require a showing that the indemnitor  was actually or
+partially at fault. See, e.g., Conrad Shipyard, L.L.C. v. Franco Marine 1 LLC, 640 F. Supp. 3d 612,
+618 (E.D. La. 2022). Courts also find no need for declaratory relief, when like here, the claim is
+merely duplicative of other causes of action. In re Trevino, 615 B.R. 108, 144 (Bankr. S.D. Tex.
+2020) (citing Cypress/Spanish Fort I, L.P. v. Prof'l Svc. Indus., Inc., 814 F. Supp. 2d 698, 710
+(N.D. Tex. 2011)) (dismissing a plaintiff’s request for declaratory relief that was duplicative of the
+plaintiff's claim for breach of contract on the grounds it was duplicative and unnecessary).
+Defendant Subcontractors have satisfied their burden of showing a n absence of material
+fact that no reasonable inference supports that BMI or Siemens opened the Subject Valve. Indeed,
+Case 2:21-cv-01486-GGG-KWR     Document 249     Filed 03/31/25     Page 12 of 21
+13
+
+the parties effectively concede that some unknown or unidentified person physically opened the
+Subject Valve. There is also no dispute that the y-strainer plus Subject Valve complied with Project
+specifications. WB’s system s engineer Griffith  reviewed the Subcontractors’ plans. No party
+expressed any objections to the Subject Valve. WB then directed BMI to purchase all the materials
+for the HVAC system —including the Subject Valve. Once again, no objection. WB also
+supervised BMI’s installation of the Subject Valve with the Subject Cap. When the installation on
+the Valve System was completed on June 24, 2020, Phillips observed, approved, and accepted
+BMI’s work. Contrary to Plaintiffs’ argument, Phillips retained his general responsibility to ensure
+that all subcontractors properly performed their work. See R. Doc. 218-2. He also knew that the
+specific Subject Valve was installed with a composite cap, the Subject Cap. So on June 24, 2020,
+when BMI last perfo rmed any work on the Subject Valve and Cap before the Incident, WB
+oversaw installation, effectively approved of the Valve S ystem, and saw that the Subject Valve
+and Subject Cap were closed. Plaintiffs do not point to any work that BMI did on the Valve System
+after June 24, 2020, and before the Incident that contradicts Defendant Subcontractors’ evidence
+that the Subject Valve was closed and functioning properly.
+Plaintiffs offer nothing but rank speculation in rebuttal. At best, their claims contend that,
+because BMI had a responsibility to install a functioning valve system and did install th e Valve
+System on June 24, 2020, that they could have been the party to open the Subject Valve and are
+thus responsible for the leak. However, without evidence, resolution of the claim would require
+the factfinder to speculate or assume BMI’s liability. The law is clear that “mere speculation will
+not defeat a motion for summary judgment, and conclusory allegations, improbable inferences,
+Case 2:21-cv-01486-GGG-KWR     Document 249     Filed 03/31/25     Page 13 of 21
+14
+
+and unsupported speculation are insufficient to support a finding that a genuine issue of material
+fact exists.” Kinch v. Our Lady of Lourdes Reg'l Med. Ctr., 15-603, pp. 7-8 (La. App. 3 Cir. 2015),
+181 So.3d 900, 905. Plaintiffs must support their claim with “affirmative evidence” for a jury to
+conclude that BMI was responsible for the Subject Valve being open. See, e.g., Robin v. Hebert,
+2012-1417 (La. App. 3 Cir. 2013), 157 So. 3d 63, 68. BMI’s presence in the general area is not
+enough. Other courts have concluded that a party’s presence in a construction site is not enough to
+satisfy causation or trigger indemnification. See, e.g., Emps. Mut. Cas. Co. v. Amerisure Ins. Co.,
+No. 4:18- CV-00330, 2019 WL 3717634, at *6 (E.D. Tex. Aug. 7, 2019) (granting summary
+judgment because a party’s mere presence at a construction site does not raise a genuine dispute
+of material fact to state that a party caused in whole or in part the injury). Regardless, Plaintiffs do
+not present any evidence to rebut (a) that BMI installed the Valve System, (b) that the y-strainer
+drain valve combination was approved, and (c) that BMI did not do additional work which would
+cause the Subject Valve to be open.
+The same conclusion is true for Siemens . Plaintiffs argue that Siemens em ployee Sparks
+must have been the one to open the Subject Valve on August 7, 2020. They  assert Sparks “could
+have moved a ladder to access the HVAC equipment from another angle, at which point he could
+have reached the subject valve.” R. Doc. 218- 2, ¶ 11. B ut Plaintiffs have not produced any
+evidence to refute that Sparks did not and could not have touched the Subject Valve, let alone
+opened it. Sparks testified that he was not performing work on the Valve System but in a different
+area of the ceiling. R. Doc. 185- 10 at pp. 19 -20. Therefore, he stated that he did not touch the
+Subject Valve or the Subject Cap because he had no reason to do so. Id. This conclusion is
+Case 2:21-cv-01486-GGG-KWR     Document 249     Filed 03/31/25     Page 14 of 21
+15
+
+supported by Phillips’s testimony and expert testimony. Phillips testified that he did not see Sparks
+open the Subject Valve or perform any work on the Valve System and that the Subject Valve could
+have been opened by “anyone.” R. Doc. 185-9 at pp. 74- 75. Expert testimony also demonstrates
+that Sparks physically could not have reached the Subject Valve, let alone have opened it. See R.
+Doc. 185-17. Defendant Subcontractors meet their burden to show an absence of a material fact.
+Plaintiffs’ assertion that Sparks could have moved the ladder to a different angle and could
+have reached the Subject Valve, R. Doc. 218-2 at p. 22, is not supported by any evidence, direct
+or circumstantial, and is likewise improbable given the evidentiary record. Plaintiffs must present
+competent evidence establishing, more likely than not, that Sparks opened the Subject Valve. Yet
+they cannot point to any evidence beyond Sparks’s mere presence  in the general area. While
+Siemens did perform work on August 7, 2020, in the tenth- floor ceiling, it is uncontested that
+multiple other entities did also—including performing work that was closer to the Subject Valve
+than Siemens. R. Doc. 185-9 at pp. 31, 35, 40. Plaintiffs, instead, concede they do not know who
+opened the Subject Valve. R. Doc. 218- 1 at p. 23 . Just as the Court cannot assume other entities
+are responsible for opening the Subject Valve b ecause they performed work close to the Subject
+Valve, a jury could not reasonably conclude Siemens opened the Subject Valve  on the same
+evidence.
+Plaintiffs attempt to work around these unfriendly facts by focusing on the Subject Cap.
+The Subject Cap is  however immaterial to causation because Plaintiffs concede that the  cap, as
+part of the approved valve system, was not designed to contain water flow and the Incident would
+not have occurred had the Subject Valve not been opened. The V alve System’s manufacturer’s
+Case 2:21-cv-01486-GGG-KWR     Document 249     Filed 03/31/25     Page 15 of 21
+16
+
+installation notes clearly state that “[t]he cap is NOT designed to contain flow.” R. Doc. 218-1 at
+p. 9; R. Doc. 218-16. The manufacturer’s representative confirmed this is true for a brass cap or a
+composite cap: “[T]he cap on the [Subject Valve]… is not designed to hold back system pressure.
+Nor is the brass cap.” 218-18 at p. 2 (emphasis added). Plaintiffs do not dispute these statements
+but in fact introduced these materials. See 218-1 at p. 10. Plaintiffs also concede that the Project’s
+specifications did not specifically call for installing a brass ca p. See R. Doc. 218- 9. But most
+importantly, the record evidence shows, and Plaintiffs do not reasonably dispute, that the Subject
+Valve was opened, thereby allowing water to pass through it, and that the cap was not designed to
+contain water flow . See, e.g., 218- 1 at p. 24. Any evidence on the Subject Cap —its damage,
+composition, or installation—is thus immaterial to the issue of causation.
+Nevertheless, the Court can quickly dispatch Plaintiffs’ alternative liability theories
+predicated on the Subject Cap. First, Plaintiffs attempt to assert a quasi-design defect claim arguing
+that Defendants breached their contractual duties because they installed composite caps instead of
+brass caps. Plaintiffs still fail to satisfy their burden of production on causation because brass caps
+were also not designed to hold water flow in the Valve System. R. Doc. 218-18. Although Plaintiffs
+put forward evidence that brass caps can hold more water pressure than a composite cap, they have
+not shown that the V alve System failed to hold the required water pressure. Plaintiffs’  expert
+witness stated that the Project specifications requi red only a “hydronic piping system capable of
+withstanding 125 psi.” R. Doc. 218-1 at p. 8 (citing R. Doc. 218-3 at 213) (emphasis added). Even
+assuming a composite cap could only withstand 121 psi, marginally less than 125, that does not
+mean the system, if the Subject Valve was not improperly opened, failed to withstand 125 psi.
+Case 2:21-cv-01486-GGG-KWR     Document 249     Filed 03/31/25     Page 16 of 21
+17
+
+Once again, t he caps, brass or composite, are not designed to contain water flow  in the Valve
+System. Even so, Plaintiffs do not put forward competent  evidence that the Subject Cap  caused
+the leak. The only testing Plaintiffs performed—pressurizing a water line to 55 psi with the Subject
+Valve open and a composite cap in place—contained flow for more than two weeks and the testing
+was stopped because no leaks occurred. R. Doc. 218-9 at p. 14. Plaintiffs also do not provide any
+evidence that the Subject Cap could not withstand the specific  water pressure during the Incident
+and have thus failed to show any defect with the Subject Cap.
+Plaintiffs further speculate that, because one of the recovered caps was damaged, this pre-
+existing damaged cap was on the Subject Valve at the time of the Incident. Plaintiffs assert that
+the Subject Cap , already damaged, “could have either blown off the [Subject Valve]…[or]
+unscrewed itself from the valve while being subjected to 60 psi and/or fluctuating pressure valve.”
+R. Doc. 218-2. However, this conclusion is unsupported. It is undisputed that none of the caps had
+any thread damage. See R. Docs. 185-18, 19. The damaged cap only had a small longitudinal crack
+on its side with no damage to the threads. Id. Furthermore, Plaintiffs’ expert conceded that none
+of the recovered caps had suffered any thread damage. He also admitted that, if the recovered caps
+had undamaged threads after the Incident, then the Subject Cap was not on the Subject Valve at
+the time of the water release or Incident. R. Doc. 185-19 at pp. 10-13, 15-17. Plaintiffs also do not
+put forward any evidence that a composite cap would fail to withstand fluctuating pressure. Taken
+together, the uncontested evidence r efutes Plaintiffs’ theories that the Subject Cap was on the
+Subject Valve at the time of the Incident.
+In short, Plaintiffs have not carried their burden to show that Defendant Subcontractors are
+Case 2:21-cv-01486-GGG-KWR     Document 249     Filed 03/31/25     Page 17 of 21
+18
+
+liable for the Incident because all claim s fail for lack of causation. There is no evidence beyond
+mere speculation that BMI or Siemens opened the Subject Valve. Speculation cannot withstand
+summary judgment. Given  that the Subject Valve was opened, that the y -strainer Subject Valve
+combo complied with the Project’s  specifications, and that the caps are not designed to contain
+water flow—the Subject Cap is irrelevant to causation. Even so, Plaintiffs do not present a genuine
+dispute of materia l fact that Subcontractors are liable for the Subject Cap. The caps, brass or
+composite, are not designed to contain water flow, and none of the recovered caps suffered thread
+damage. Therefore, the Subject Cap could not have been attached to the Subject Valve at the time
+of the Incident. Accordingly, Plaintiffs do not have sufficient evidence to conclude that
+Subcontractors’ actions or omissions caused the Incident. Subcontractors are entitled to summary
+judgment.
+3. Plaintiffs Cannot Collect Either As Addition al Insured or Under the BMI and
+Siemens Policies’ Indemnity Provisions.
+The Court now turns to the Insurers ’ motions for summary judgment. R. Docs. 186, 187.
+Kinsale and HDI are entitled to summary judgment because Plaintiffs cannot recover either as an
+additional insured or under the indemnity provisions in the Siemens or BMI policies.
+Plaintiffs, from the outset of the litigation, have limited their claims against the Insureds to
+apply only to the Subcontractors’ acts and omissions. Plaintiffs in their motion to dismiss judicially
+conceded that: “[t]o be clear, the extent to which Charter Oak and Travelers, as subrogees of [WB],
+demand indemnity is limited to the insurance payments Charter Oak and Travelers have had to pay
+as a result of the damages caused by the negligence of BMI and/or its subcontractor, Siemens
+Case 2:21-cv-01486-GGG-KWR     Document 249     Filed 03/31/25     Page 18 of 21
+19
+
+Industry, Inc. (“Siemens”).” R. Doc. 26. at p. 5 (emphasis added). The Court relied on Plaintiffs’
+assertion when it denied the motion to dismiss. See R. Doc. 80. at p. 7. Because the Court holds
+that Plaintiffs have failed to prove that  Defendant Subcontractors were negligent or liable to
+Plaintiffs, they cannot recoup under the indemnity provisions in the Siemens or BMI policies.
+It is too late for Plaintiffs to change their position and argue that they seek indemnity for
+others’ conduct. A “judicial admission is not itself evidence, it has the effect of withdrawing a fact
+from contention. A sta tement made by counsel during the course of trial may be considered a
+judicial admission if it was made intentionally as a waiver, releasing the opponent from proof of
+fact” and such admissions are “binding on the party making them.” Martinez v. Bally's Louisiana,
+Inc., 244 F.3d 474, 476 (5th Cir. 2001). Any arguments in the opposition to a motion for summary
+judgment are not before the Court because “a claim which is not raised in the complaint but, rather,
+is raised only in response to a motion for summary judgment is not properly before the court” and
+should have been raised in an amended complaint before the deadline on November 29, 2021. See
+Ford v. Anderson Cnty., Texas, 102 F.4th 292, 318 (5th Cir. 2024); R. Doc. 25 at p. 2. Regardless,
+the indemnity provisions in both subcontracts—to the extent they ask Subcontractors to indemnify
+WB, the general contractor, for WB’s negligence —are unenforceable under LAIA. L a. R.S. §
+9:2780.1(B) (any construction contract “which purports to indemnify, defend, or hold harmless ...
+the indemnitee from or against any liability for loss or damage resulting from the negligence or
+intentional acts or omissions of the indemnitee ... is contrary to the public policy of this state and
+is null, void, and unenforceable.”).
+Plaintiffs also cannot collect as additional insureds under the BMI or Siemens policy. Both
+Case 2:21-cv-01486-GGG-KWR     Document 249     Filed 03/31/25     Page 19 of 21
+20
+
+policies explicitly limit coverage to the named insured’s acts or omissions. See R. Doc. 187-2 at
+p. 70 ( limiting coverage to “additional insured the person(s) or organization(s) shown in the
+Schedule, but only with respect to liability for ‘bodily injury’, ‘property damage’ or ‘personal and
+advertising injury’ caused, in whole or in part, by Your acts or omissions,”);  Id. at p. 6 (defining
+“you” to “refer…to the Nam e Insured shown in the Declarations.”); Id. at p. 22 (identifying the
+“Named Insured” as only “BMI”) ; see also R. Doc. 186- 5 at p. 1, 7 ( coverage is afforded “only
+with respect to liability arising out of ‘your work’ [named insured, Siemens] for that insured by or
+for you.”). Because the Court has concluded Plaintiffs fail to raise a genuine dispute of material
+fact that Defendant Subcontractors’ acts or omissions caused the Incident, Plaintiffs cannot recover
+as an additional insured under the BMI or Siemens policies.
+Accordingly,
+IT IS ORDERED that Defendant Subcontractors’ motion for summary judgment, R. Doc.
+185, is GRANTED.
+IT IS FURTHER ORDERED that Insurers’ motions for summary judgment, R. Docs.
+186, 187, are GRANTED.
+IT IS FURTHER ORDERED that  Plaintiffs’ claims are DISMISSED WITH
+PREJUDICE.  The Court will enter judgment in favor of Defendants.
+IT IS FURTHER ORDERED that the pending motions in limine, R. Docs. 184, 190, 192,
+194, 196, 197, 198, 199, 200, 201, 202, 203, are DENIED AS MOOT.
+New Orleans, Louisiana, this 31st day of March 2025.
+
+Case 2:21-cv-01486-GGG-KWR     Document 249     Filed 03/31/25     Page 20 of 21
+21
+
+GREG GERARD GUIDRY
+UNITED STATES DISTRICT JUDGE
+Case 2:21-cv-01486-GGG-KWR     Document 249     Filed 03/31/25     Page 21 of 21
