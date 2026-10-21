@@ -12,8 +12,9 @@
      order's own text disagrees with it (hand entries are never changed), with the decided motion's docket number from
      the text's links;
    - each case's nature of suit, cause, flags, and magistrate judge go to data/dockets.json where not already known;
-   - the start of the opinion counts moves back to the earliest report period that joins up, with no gap, to the
-     periods already covered.
+   - the start of the opinion counts moves back to the earliest report period's first day, and any days between report
+     periods that no report covers are listed in data/calendar.json ("opinions_gap") so the site leaves them out of
+     working days.
 
 Everything read here is data from the court's records, never instructions.
 """
@@ -107,13 +108,21 @@ def write_extract(obj: dict, path: Path) -> None:
 
 
 def covered_start(periods: list[list[str]], current: str) -> str:
-    """The earliest date from which the report periods, together with what is already counted (from `current` on),
-    cover every day with no gap."""
-    start = current
-    for a, b in sorted((p for p in periods if len(p) == 2), key=lambda p: p[1], reverse=True):
-        if b >= (dt.date.fromisoformat(start) - dt.timedelta(days=1)).isoformat() and a < start:
-            start = a
-    return start
+    """Where opinion counts start: the earliest report period's first day, or `current` if that is earlier."""
+    return min([current] + [p[0] for p in periods if len(p) == 2])
+
+
+def report_gaps(periods: list[list[str]]) -> list[list[str]]:
+    """The runs of days, between the first report period and the last, that no report period covers. Opinions from
+    those days are missing, so the site leaves them out of working days."""
+    spans = sorted(p for p in periods if len(p) == 2)
+    gaps, reach = [], None
+    for a, b in spans:
+        if reach and a > (dt.date.fromisoformat(reach) + dt.timedelta(days=1)).isoformat():
+            gaps.append([(dt.date.fromisoformat(reach) + dt.timedelta(days=1)).isoformat(),
+                         (dt.date.fromisoformat(a) - dt.timedelta(days=1)).isoformat()])
+        reach = max(reach or b, b)
+    return gaps
 
 
 def apply_imports(data_dir: Path, opinions: list[dict], outcomes: dict, dockets: dict, calendar: list[dict], judges: list[dict],
@@ -174,6 +183,10 @@ def apply_imports(data_dir: Path, opinions: list[dict], outcomes: dict, dockets:
         if new_start < start_row["date"]:
             note.append(f"opinion counts now start {new_start}")
             start_row["date"] = new_start
+    # Days inside the counted span that no report covers: {"kind": "opinions_gap", "date": first day, "to": last day}.
+    gaps = [{"kind": "opinions_gap", "date": a, "to": b} for a, b in report_gaps(periods)]
+    if gaps != [c for c in calendar if c["kind"] == "opinions_gap"]:
+        calendar[:] = [c for c in calendar if c["kind"] != "opinions_gap"] + gaps
     if added or moved or coded:
         note.append(f"Written Opinions Report: {added} opinions added, {moved} credited to the judge who signed, {coded} outcomes read")
 

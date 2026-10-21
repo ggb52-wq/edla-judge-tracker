@@ -105,6 +105,8 @@
     const bench = Object.fromEntries(D.judges.map((j) => [j.code, j.bench_start]));
 
     const opStart = later(pick('opinions_start'), floor);
+    // Days between Written Opinions Report periods that no report covers: their opinions are missing, so they are not working days for opinion rates.
+    const gapDays = new Set(); D.calendar.filter((r) => r.kind === 'opinions_gap').forEach((r) => { for (let d = r.date; d <= r.to; d = addDays(d, 1)) gapDays.add(d); });
     const orStart = later(pick('orders_start'), floor);
     // Dates on which an order set a hearing, by case, for "was a hearing set before the ruling".
     const hearingDays = {};
@@ -138,7 +140,7 @@
       const ch = R.filter((o) => !Number(o.rr));
       const mer = ch.filter((o) => Number(o.merits));
       const ds = [...new Set(R.map((o) => o.date))].sort();
-      const wd = workdays(s, through).length;
+      const wd = workdays(s, through).filter((d) => !gapDays.has(d)).length;
       const row = { name: j.name, code: j.code, start: s, working_days: wd, total: R.length, rr: R.length - ch.length, district: ch.length,
         cases: new Set(R.map((o) => o.case)).size, days_with: ds.length, per_week: wd ? ch.length / (wd / 5) : 0, merits: mer.length,
         merits_month: wd ? mer.length / (wd / 21) : 0, r12: mer.filter((o) => Number(o.r12)).length, r56: mer.filter((o) => Number(o.r56)).length, mix,
@@ -160,7 +162,7 @@
 
     const months = [];
     for (let d = utc(opStart.slice(0, 7) + '-01'); iso(d) <= through; d.setUTCMonth(d.getUTCMonth() + 1)) months.push(iso(d).slice(0, 7));
-    const monthly = months.map((month) => ({ month, dt: utc(month + '-01'), all: zeroCats(), by: {} }));
+    const monthly = months.map((month) => ({ month, dt: utc(month + '-01'), all: zeroCats(), by: {}, gap: [...gapDays].filter((d) => d.startsWith(month) && isWorkday(d, H)).length }));
     const mIndex = Object.fromEntries(months.map((m, i) => [m, monthly[i]]));
     opRows.forEach((o) => {
       const row = mIndex[o.date.slice(0, 7)]; if (!row) return;
@@ -250,7 +252,7 @@
     const sum = (rows, k) => d3.sum(rows, (r) => r[k]);
     const medOf = (vals, min = 1) => { const v = vals.filter((x) => x != null); return v.length >= min ? median(v) : null; };
     return {
-      through, names, opinions, orders, weekly, recent, allOpinions, monthly, hours, pooled, dowCourt, since: { orders: orStart, opinions: opStart }, workingDays: allDays.length,
+      through, names, opinions, orders, weekly, recent, allOpinions, monthly, gapDays, hours, pooled, dowCourt, since: { orders: orStart, opinions: opStart }, workingDays: allDays.length,
       motions, allMotions, motionsSince, motionsByJudge: byJudge,
       totals: {
         orders: sum(orders, 'orders'), perDay: allDays.length ? sum(orders, 'orders') / allDays.length : 0,
@@ -496,7 +498,7 @@
         acc += v;
       });
       const hitRect = svg.append('rect').attr('x', x(r.month) - x.step() * x.paddingInner() / 2).attr('width', x.step()).attr('y', m.t).attr('height', H - m.t - m.b).attr('fill', 'transparent')
-        .on('pointermove', (e) => tipShow([fmtMonth(r.month) + ': ' + plural(total(r), 'opinion'), ...keys.map((k) => ({ color: k.color, value: fmt.int(get(r, k.k)), label: k.label }))].concat(href ? ['Click to list these opinions'] : []), e.clientX, e.clientY))
+        .on('pointermove', (e) => tipShow([fmtMonth(r.month) + ': ' + plural(total(r), 'opinion'), ...keys.map((k) => ({ color: k.color, value: fmt.int(get(r, k.k)), label: k.label }))].concat(r.gap ? [plural(r.gap, 'working day') + ' not covered by a Written Opinions Report on file'] : [], href ? ['Click to list these opinions'] : []), e.clientX, e.clientY))
         .on('pointerleave', tipHide);
       if (href) hitRect.style('cursor', 'pointer').on('click', () => { location.hash = href(r); });
     });
@@ -836,12 +838,19 @@
   const filedYear = (id, dk) => { const f = dk && /^\d{4}/.test(dk.filed || '') ? +dk.filed.slice(0, 4) : 0; if (f) return f; const m = String(id).match(/:(\d\d)-/); if (!m) return 0; const y = 2000 + +m[1]; return y > +state.stats.through.slice(0, 4) ? y - 100 : y; };
 
   // Written opinions by day: one cell per weekday, a column per week, shaded by count.
-  function calHeat(box, { start, end, counts, label, href }) {
+  // Holidays are outlined; days no Written Opinions Report on file covers are outlined with a dashed line.
+  const heatCellStyle = (r, n, hol, gap) => {
+    if (hol || gap) r.attr('fill', 'none').style('stroke', 'var(--line-2)').attr('stroke-width', 1).attr('stroke-dasharray', gap && !hol ? '2 2' : null);
+    else r.style('fill', shade(dayLevel(n)));
+  };
+  const heatTip = (n, hol, gap) => (hol ? 'Court holiday' + (n ? ' · ' + plural(n, 'written opinion') : '')
+    : gap ? 'No Written Opinions Report on file for this day' + (n ? ' · ' + plural(n, 'written opinion') + ' from other sources' : '') : plural(n, 'written opinion'));
+  function calHeat(box, { start, end, counts, label, href, gaps = new Set() }) {
     const H = holidays();
     const weeks = []; for (let w = mondayOf(start); w <= end; w = addDays(w, 7)) weeks.push(w);
     const ml = 30; const mt = 16;
     const W0 = Math.max(220, Math.floor(box.clientWidth || 300));
-    if ((W0 - ml) / Math.max(1, weeks.length) < 10) { calHeatByMonth(box, { start, end, counts, label, href, W0, H }); return; }
+    if ((W0 - ml) / Math.max(1, weeks.length) < 10) { calHeatByMonth(box, { start, end, counts, label, href, W0, H, gaps }); return; }
     const step = Math.max(6, Math.min(17, Math.floor((W0 - ml) / Math.max(1, weeks.length))));
     const cell = step - 2; const Hh = mt + step * 5;
     const { svg } = frame(box, Hh, label);
@@ -857,16 +866,15 @@
         const d = addDays(w, k); if (d < start || d > end) return;
         const y = mt + k * step; const n = counts.get(d) || 0; const hol = H.has(d);
         const r = svg.append('rect').attr('x', x).attr('y', y).attr('width', cell).attr('height', cell).attr('rx', 1.5);
-        if (hol) r.attr('fill', 'none').style('stroke', 'var(--line-2)').attr('stroke-width', 1);
-        else r.style('fill', shade(dayLevel(n)));
-        r.on('pointermove', (e) => tipShow([d3.utcFormat('%a, %b %-d, %Y')(utc(d)), hol ? 'Court holiday' + (n ? ' · ' + plural(n, 'written opinion') : '') : plural(n, 'written opinion')].concat(n && href ? ['Click to list the month\'s opinions'] : []), e.clientX, e.clientY)).on('pointerleave', tipHide);
+        heatCellStyle(r, n, hol, gaps.has(d));
+        r.on('pointermove', (e) => tipShow([d3.utcFormat('%a, %b %-d, %Y')(utc(d)), heatTip(n, hol, gaps.has(d))].concat(n && href ? ['Click to list the month\'s opinions'] : []), e.clientX, e.clientY)).on('pointerleave', tipHide);
         if (n && href) r.style('cursor', 'pointer').on('click', () => { location.hash = href(d); });
       });
     });
   }
 
   // The same cells at phone width: one row per month, one cell per working day in order.
-  function calHeatByMonth(box, { start, end, counts, label, href, W0, H }) {
+  function calHeatByMonth(box, { start, end, counts, label, href, W0, H, gaps }) {
     const months = []; for (let m = start.slice(0, 7); m <= end.slice(0, 7); m = addDays(m + '-01', 32).slice(0, 7)) months.push(m);
     const days = (m) => { const out = []; for (let d = m + '-01'; d.startsWith(m); d = addDays(d, 1)) { const w = utc(d).getUTCDay(); if (w > 0 && w < 6 && d >= start && d <= end) out.push(d); } return out; };
     const ml = 34; const step = Math.max(6, Math.min(16, Math.floor((W0 - ml) / 23))); const cell = step - 2;
@@ -878,8 +886,8 @@
       days(m).forEach((d, i) => {
         const n = counts.get(d) || 0; const hol = H.has(d);
         const r = svg.append('rect').attr('x', ml + i * step).attr('y', y).attr('width', cell).attr('height', cell).attr('rx', 1.5);
-        if (hol) r.attr('fill', 'none').style('stroke', 'var(--line-2)').attr('stroke-width', 1); else r.style('fill', shade(dayLevel(n)));
-        r.on('pointermove', (e) => tipShow([d3.utcFormat('%a, %b %-d, %Y')(utc(d)), hol ? 'Court holiday' + (n ? ' · ' + plural(n, 'written opinion') : '') : plural(n, 'written opinion')], e.clientX, e.clientY)).on('pointerleave', tipHide);
+        heatCellStyle(r, n, hol, gaps.has(d));
+        r.on('pointermove', (e) => tipShow([d3.utcFormat('%a, %b %-d, %Y')(utc(d)), heatTip(n, hol, gaps.has(d))], e.clientX, e.clientY)).on('pointerleave', tipHide);
         if (n && href) r.style('cursor', 'pointer').on('click', () => { location.hash = href(d); });
       });
     });
@@ -1132,9 +1140,13 @@
     // Written opinions by day.
     const R = S.recent.filter((o) => o.judge === code);
     const counts = d3.rollup(R, (v) => v.length, (o) => o.date);
-    const weekend = R.filter((o) => { const w = utc(o.date).getUTCDay(); return w === 0 || w === 6; }).length;
-    calHeat($('c-j-days'), { start: op.start, end: S.through, counts, label: 'Written opinions by day, Judge ' + name, href: (d) => findHref({ judge: code, month: d.slice(0, 7) }) });
-    $('j-days-key').replaceChildren(shadeKey([[0, '0'], ...DAY_CLASSES.map(([, l], i) => [i + 1, l])]), el('span', { className: 'dim wrap', textContent: 'Outlined: court holiday' + (weekend ? ' · ' + plural(weekend, 'opinion') + ' dated on a weekend not shown' : '') }));
+    // At most the last 12 months, so a day stays one readable cell; the monthly chart above covers the whole span.
+    const dayStart = later(op.start, addDays(S.through, -364));
+    const weekend = R.filter((o) => { const w = utc(o.date).getUTCDay(); return o.date >= dayStart && (w === 0 || w === 6); }).length;
+    $('j-days-h').textContent = 'Written opinions by day' + (dayStart > op.start ? ', last 12 months' : '');
+    calHeat($('c-j-days'), { start: dayStart, end: S.through, counts, gaps: S.gapDays, label: 'Written opinions by day, Judge ' + name, href: (d) => findHref({ judge: code, month: d.slice(0, 7) }) });
+    const gapShown = [...S.gapDays].some((d) => d >= dayStart && d <= S.through);
+    $('j-days-key').replaceChildren(shadeKey([[0, '0'], ...DAY_CLASSES.map(([, l], i) => [i + 1, l])]), el('span', { className: 'dim wrap', textContent: 'Outlined: court holiday' + (gapShown ? ' · dashed: no Written Opinions Report on file' : '') + (weekend ? ' · ' + plural(weekend, 'opinion') + ' dated on a weekend not shown' : '') }));
 
     // Orders by weekday and hour.
     const timed = ords.filter((o) => /^\d\d:\d\d/.test(o.time || ''));

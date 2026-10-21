@@ -78,8 +78,11 @@ class ReportTest(unittest.TestCase):
         self.assertEqual(update.opinion_flags("Order on Motion to Compel, Order on Motion to Strike")["merits"], 0)
 
     def test_covered_start(self):
-        self.assertEqual(iw.covered_start([["2025-01-01", "2025-12-21"], ["2026-01-01", "2026-10-20"]], "2026-01-10"), "2026-01-01")  # a gap stops it
-        self.assertEqual(iw.covered_start([["2025-01-01", "2025-12-21"], ["2025-12-21", "2025-12-31"], ["2026-01-01", "2026-10-20"]], "2026-01-10"), "2025-01-01")
+        self.assertEqual(iw.covered_start([["2025-01-01", "2025-12-21"], ["2026-01-01", "2026-10-20"]], "2026-01-10"), "2025-01-01")
+        self.assertEqual(iw.covered_start([["2026-02-01", "2026-10-20"]], "2026-01-10"), "2026-01-10")
+        self.assertEqual(iw.report_gaps([["2026-01-01", "2026-10-20"], ["2025-01-01", "2025-12-21"], ["2024-01-01", "2024-12-31"]]),
+                         [["2025-12-22", "2025-12-31"]])
+        self.assertEqual(iw.report_gaps([["2025-01-01", "2025-12-21"], ["2025-12-21", "2025-12-31"], ["2026-01-01", "2026-10-20"]]), [])
 
 
 class ImportTest(unittest.TestCase):
