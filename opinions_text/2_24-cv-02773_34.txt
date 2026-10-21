@@ -1,0 +1,1073 @@
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+ORDER & REASONS
+Before the Court are motions to dismiss for lack of personal jurisdiction pursuant to Federal
+Rule of Civil Procedure 12(b)(2), improper venue pursuant to Rule 12(b)(3), and failure to state a
+claim pursuant to Rule 12(b)(6) filed by each of defendants Cliff Roe,1 Bohr Energy, LLC (“Bohr
+Energy”),2 and Kevin Pavlov3 (collectively, “Defendants”).  Plaintiffs Apollo Holding Company,
+LLC (“Apollo”) and GAPS Technology, LLC  (“GAPS”) (together, “Plaintiffs”)  respond in
+opposition to each,4 and Defendants reply in further support of their motions.5  Having considered
+the parties’ memoranda, the record, and the applicable law, the Court issues this Order & Reasons.
+I. BACKGROUND
+This case involves claims of fraudulent inducement, breach  of contract, and unfair trade
+practices.  Apollo is a Delaware LLC authorized to conduct business in Louisiana and its members
+are Louisiana citizens.6  GAPS is a Louisiana LLC wholly owned by Apollo.7  Roe and Pavlov are
+Michigan residents and the members of Bohr Energy, a Florida LLC  with its principal place of
+business in Michigan.8
+
+1 R. Doc. 15.
+2 R. Doc. 16.
+3 R. Doc. 17.
+4 R. Docs. 21 (opposing Roe’s motion); 22 (opposing Pavlov’s motion); 23 (opposing Bohr Energy’s motion).
+5 R. Docs. 31 (Roe’s reply); 32 (Bohr Energy’s reply); 33 (Pavlov’s reply).
+6 R. Doc. 2-1 at 1.
+7 Id. at 1, 3.
+8 R. Docs. 2-1 at 1; 16-1 at 7; 16-3 at 1.
+APOLLO HOLDING COMPANY, LLC, et al.
+
+VERSUS
+
+CLIFF ROE, et al.
+
+CIVIL ACTION
+
+NO. 24-2773
+
+SECTION M (3)
+Case 2:24-cv-02773-ASJ-EJD     Document 34     Filed 05/22/25     Page 1 of 36
+2
+
+Roe was hired by Apollo’s predecessor-in-interest, Apollo Petroleum Solutions, LLC
+(“APS”) in 2016. 9  On January 29, 2016, Roe executed an employment agreement (the
+“Employment Agreement”)  with APS  in Covington, Louisiana .10  As part of the Employment
+Agreement, Roe agreed to
+sell[] all of [his] equipment, demo units, devices, applications, intellectual property,
+patents pending and other property whether related to the Advanced Separation Gas
+Infusion System, which [Roe] developed , or otherwise. This conveyance
+specifically include s all of  [Roe’s] property  and systems [then] currently  in
+development and developed in the future, whether the Gas Infusion System or any
+other related or unrelated technology.  This conveyance also includes any use [then]
+currently known or unknown for the intellectual property conveyed.11
+
+In 2017, Roe relocated from Michigan to Slidell, Louisiana , to work in APS’s laboratory in
+Picayune, Mississippi.12  Thereafter, APS underwent a corporate restructuring  to form Apollo ,
+which assumed all of APS’s obligations to Roe under the Employment Agreement ,13 including
+paying for Roe’s living expenses in Louisiana.14  As part of its restructuring,  APS conveyed to
+GAPS all rights, titles, and interests it acquired from Roe under the Employment Agreement, and
+GAPS licensed all of its intellectual property to Apollo.15  Plaintiffs also allege that “Roe executed
+further assignments over the  years that assigned provisional patents and applications to GAPS,
+which was, in turn, subject to the licensing arrangement between GAPS and Apollo.”16
+ In 2023, AlumaPower Corporation (“AlumaPower”) became interested in Apollo’s
+technology.  AlumaPower sent Pavlov to meet with Roe at Apollo’s Mississippi laboratory on
+April 18, 2023, to discuss a possible business relationship with Apollo .17  On January 18, 2023,
+
+9 R Doc. 2-1 at 2.
+10 Id.; R. Docs. 15-1 at 7; 21 at 8; 21-1 at 1.  See infra note 74.
+11 R. Doc. 15-4 at 2.
+12 R. Docs. 21 at 3; 21-1 at 1.
+13 R. Doc. 2-1 at 3.
+14 R. Docs. 15-4 at 1; 21-1 at 2.
+15 R. Doc. 2-1 at 3.
+16 Id.
+17 Id.; R. Doc. 15-1 at 12.
+Case 2:24-cv-02773-ASJ-EJD     Document 34     Filed 05/22/25     Page 2 of 36
+3
+
+before meeting with Roe, Pavlov had signed a nondisclosure agreement  (the “First NDA”) with
+Apollo.18  On April 17, 2023, the day before Roe and Pavlov’s meeting, AlumaPower, through its
+CEO, signed another NDA with Apollo (the “Second NDA”).19  No business arrangement between
+Apollo and AlumaPower resulted from Roe and Pavlov’s April 18, 2023 meeting.20
+Roe voluntarily ended his employment with Apollo  on July 31, 2023 .21  Plaintiffs allege
+that Roe told them he was retiring due to his poor health.22  Roe and Plaintiffs executed a voluntary
+separation agreement (the “Separation Agreement”) on March 29, 2024. 23  Plaintiffs allege that
+their agreement to the terms of the Separation Agreement was induced by Roe’s representation
+that he would be retiring from the oil and gas industry. 24  However, on May 13, 2024, Roe and
+Pavlov formed Bohr Energy.25  In September of 2024, Roe and Plaintiffs amended the Separation
+Agreement to modify Plaintiffs ’ payment obligations to Roe  (the “Amendment”) .26  Plaintiffs
+allege that “Roe continued to maintain that he was staying out of the oil and gas treatment industry”
+and they relied on that representation when agreeing to the Amendment.27
+ On November 1, 2024, Plaintiffs brought this action in the 22nd Judicial District Court of
+St. Tammany Parish, Louisiana, asserting a fraudulent-inducement claim against Roe, breach-of-
+contract claims against Roe and Pavlov, and claims under the Louisiana Unfair Trade Practices
+
+18 R. Docs. 2-1 at 4; 17-10.  The First NDA included a forum-selection clause stating that:
+The [p]arties hereby irrevocably and unconditionally submit to the exclusive jurisdiction of the state
+and federal district courts which  govern the Parish of St. Tammany, State of Louisiana, and waive
+any objection to forum or venue and agree to accept service of process by mail in any action arising
+out of this Agreement.
+R. Doc. 17-10 at 7.
+19 R. Doc. 17-11.  The Second NDA has a Delaware forum-selection clause.  Id. at 5.
+20 R. Doc. 15-1 at 12.
+21 R. Doc. 2-1 at 4.
+22 Id.
+23 R. Doc. 15-7.
+24 R. Doc. 2-1 at 6.
+25 R. Doc. 15-1 at 13.
+26 R. Docs. 2-1 at 4; 15-8.
+27 R. Doc. 2-1 at 5.
+Case 2:24-cv-02773-ASJ-EJD     Document 34     Filed 05/22/25     Page 3 of 36
+4
+
+Act, La. R.S. 51:1401-1430 (“LUTPA”), against all three Defendants.28  Plaintiffs allege that Roe
+falsely represented “that he was retiring when, in fact, he was actively competing against [Plaintiffs
+and] intended for this misrepresentation to induce [them] to agree to” the Separation Agreement
+and the Amendment;29 that Roe breached the Employment Agreement , as well as the Separation
+Agreement and Amendment (assuming they are not rescinded due to fraudulent inducement ), by
+using the intellectual property that he transferred to Plaintiffs without their authorization ;30 that
+Pavlov breached the First NDA by “ using the disclosed, proprietary information and intellectual
+property to compete against Apollo” through Bohr Energy; 31 and that Roe and Pavlov “ actively
+engaged in fraudulent conduct  to … receive benefits from [Plaintiffs and] misuse proprietary
+information that [Plaintiffs] ha[ve] exclusive ownership interests in,” with Bohr Energy benefitting
+from, and participating in, this “misuse” of Plaintiffs’ proprietary information, all in violation of
+LUTPA.32  Defendants removed this case to this Court on November 27, 2024 ,33 and now move
+to dismiss all of Plaintiffs’ claims against them.
+II. LAW & ANALYSIS
+A. Legal Standards
+1. Rule 12(b)(2) Standard
+“As a general rule, when the court is confronted by a motion raising a combination of Rule
+12(b) defenses, it will address the jurisdictional issues before considering whether a claim was
+stated by the complaint, although there is no requirement that jurisdictional issues be considered
+in a particular order.”  5B CHARLES ALAN WRIGHT, ARTHUR R. MILLER & A. BENJAMIN SPENCER,
+
+28 Id. at 5-8.
+29 Id. at 5-6 (quotes at 6).
+30 Id. at 6-7.
+31 Id. at 7.
+32 Id.
+33 R. Doc. 2.
+Case 2:24-cv-02773-ASJ-EJD     Document 34     Filed 05/22/25     Page 4 of 36
+5
+
+FEDERAL PRACTICE AND PROCEDURE § 1351, at 244-46 (4th ed. 2024).  Therefore, the Court will
+first consider whether it has personal jurisdiction over Defendants.
+Federal Rule of Civil Procedure 12(b)(2) confers a right to dismissal of claims against a
+defendant where personal jurisdiction is lacking.  Personal jurisdiction is “an essential element of
+the jurisdiction of a district court, without which the court is powerless to proceed to an
+adjudication.”  Ruhrgas AG v. Marathon Oil Co ., 526 U.S. 574, 584 (1999) (quotation and
+alteration omitted).  When a nonresident defendant moves the court to dismiss for lack of personal
+jurisdiction under Rule 12(b)(2), the plai ntiff bears the burden to show that personal jurisdiction
+exists.  Stuart v. Spademan, 772 F.2d 1185, 1192 (5th Cir. 1985).  The allegations of the complaint,
+except as controverted by opposing affidavits, must be taken as true, and all conflicts must be
+resolved in favor of the plaintiff.  Thompson v. Chrysler Motors Corp., 755 F.2d 1162, 1165 (5th
+Cir. 1985).
+A federal court may exercise personal jurisdiction over a nonresident defendant if (1) the
+forum state’s long-arm statute confers personal jurisdiction over the defendant, and (2) the exercise
+of personal jurisdiction comports with due process under the United States Constitution.  Carmona
+v. Leo Ship Mgmt., Inc., 924 F.3d 190, 193 (5th Cir. 2019).  Because Louisiana’s long-arm statute
+extends to the limits of due process, the two inquiries collapse into the single inquiry whether the
+exercise of personal j urisdiction comports with due process .  Jackson v. Tanfoglio Giuseppe,
+S.R.L., 615 F.3d 579, 584 (5th Cir. 2010).
+An individual’s liberty interest is protected by federal due process through the requirement
+“that individuals have ‘fair warning that a particular activity may subject them to the jurisdiction
+of a foreign sovereign.’”  Burger King Corp. v. Rudzewicz , 471 U.S. 462, 472 (1985) (alteration
+omitted) (quoting Shaffer v. Heitner , 433 U.S. 186, 218 (1977) (Stevens, J., concurring)).  For
+Case 2:24-cv-02773-ASJ-EJD     Document 34     Filed 05/22/25     Page 5 of 36
+6
+
+purposes of personal jurisdiction, the due -process inquiry looks at  whether the defendant has
+purposefully availed itself of the benefits and protections of the forum state through “minimum
+contacts” with the forum, and whether the exercise of jurisdiction over the defendant “does not
+offend traditional notions of fair play and substantial justice.”  Int’l Shoe Co. v. Washington, 326
+U.S. 310, 316 (1945).  The inquiry thus focuses “on the nature and extent of the defendant’s
+relationship to the forum State.”  Ford Motor Co. v. Mont. Eighth Jud. Dist. Ct., 592 U.S. 351, 358
+(2021) (quotation omitted).
+“There are two kinds of personal jurisdiction: ‘general or all -purpose jurisdiction’ and
+‘specific or case-linked jurisdiction.’”  Daughtry v. Silver Fern Chem., Inc. , 2025 WL 1364806,
+at *3 (5th Cir. May 12, 2025)) (quoting Walden v. Fiore, 571 U.S. 277, 283 n.6 (2014)); see also
+Goodyear Dunlop Tires Operations, S.A. v. Brown , 564 U.S. 915, 919 (2011).   For a court to
+exercise general jurisdiction, the defendant’s contacts with the forum must be “so continuous and
+systematic” as to render the defendant “at home” in the forum state.  Daimler AG v. Bauman, 571
+U.S. 117, 127 (2014) (citing Goodyear, 564 U.S. at 919).  “‘For an individual, the paradigm forum
+for the exercise of general jurisdiction  is an individual ’s domicile ; for a corporation, it is an
+equivalent place, one in which the corporation is fairly regarded as at home. ’”  Bristol-Myers
+Squibb Co. v. Super . Ct. of Cal ., S.F. Cnty., 582 U.S. 255, 262 (2017) (quoting Goodyear, 564
+U.S. at 924).  Neither of the individual defendants is domiciled in Louisiana or has continuous and
+systematic contact with the state.  Bohr Energy, an LLC, has no members who are Louisiana
+citizens, nor does it maintain its principal place of business in Louisiana.  Plaintiff s have not
+presented any arguments, or evidence, to the contrary.  Thus, this Court lacks general jurisdiction
+over Defendants.
+Case 2:24-cv-02773-ASJ-EJD     Document 34     Filed 05/22/25     Page 6 of 36
+7
+
+Specific jurisdiction exists when a defendant’s contacts with the forum state arise from, or
+are directly related to, the plaintiff’s cause of action.  Admar Int’l, Inc. v. Eastrock, L.L.C., 18 F.4th
+783, 786 (5th Cir. 2021).  In analyzing specific jurisdiction, courts employ a three-prong test to
+determine (1) whether the defendant purposefully directed its activities at the forum and availed
+itself of the privilege of doing business there , (2) whether the claim arises out of or results from
+the defendant’s forum-related contacts, and (3) whether the exercise of personal jurisdiction is
+reasonable and fair.  Seville v. Maersk Line, Ltd., 53 F.4th 890, 895-96 (5th Cir. 2022).  After the
+plaintiff establishes the first two factors, which correspond with the “minimum contacts” prong of
+International Shoe, the burden shifts to the defendant to demonstrate that an exercise of personal
+jurisdiction would be unfair or unreasonable.  Burger King Corp., 471 U.S. at 477 (citing World-
+Wide Volkswagen Corp. v. Woodson, 444 U.S. 286, 292 (1980)).  In determining reasonableness,
+a court considers “the burden on the defendant, the interests of the forum State, and the plaintiff’s
+interest in obtaining relief,” Asahi Metal Indus. Co. v. Super. Ct.  of Cal., Solano Cnty., 480 U.S.
+102, 113 (1987), as well as “the interstate judicial system’s interest in obtaining the most efficient
+resolution of controversies; and the shared interest of the several States in furthering fundamental
+substantive social policies.”  World-Wide Volkswagen, 444 U.S. at 292.  Specific jurisdiction is a
+claim-specific inquiry, and a court must analyze each defendant’s forum -related contacts on a
+claim-by-claim basis.  Savoie v. Pritchard , 122 F.4th 185, 194 (5th Cir. 2024); Danziger & De
+Llano, L.L.P. v. Morgan Verkamp, L.L.C. , 24 F.4th 491, 495 -96, 500 (5th Cir. 2022) (separately
+analyzing personal jurisdiction for intentional tort claims and breach-of-contract claims); see also
+Ecigrusa LLC v. Silver State Trading LLC, 2022 WL 1321573, at *4 (N.D. Tex. May 3, 2022).
+2. Rule 12(b)(3) Standard
+Rule 12(b)(3) permits a party to move the district court to dismiss for “improper venue.”
+Case 2:24-cv-02773-ASJ-EJD     Document 34     Filed 05/22/25     Page 7 of 36
+8
+
+Fed. R. Civ. P. 12(b)(3).  Generally, venue must be established for each cause of action and each
+defendant.  See Holliday v. Goodell , 2025 WL 721307, at *3 (E.D. La. Mar. 6, 2025)  (citing
+Asevedo v. NBCUniversal Media, LLC , 921 F. Supp. 2d 573, 589 (E.D. La. 2013) ).  When
+considering a motion to dismiss for improper venue, “the court must accept as true all allegations
+in the complaint and resolve all conflicts in favor of the plaintiff.”  Damon J. Baldone, APLC v.
+Moore, 2024 WL 4436635, at *2 (E.D. La. O ct. 7, 2024)  (quotation omitted).  Further, “Rule
+12(b)(3) permits the court to look at all evidence in the record ‘beyond simply those facts alleged
+in the complaint and its proper attachments. ’”  Id. (quoting Lighthouse MGA, L.L.C. v. First
+Premium Ins. Grp., Inc., 448 F. App’x 512, 514 (5th Cir. 2011)).
+“When venue is challenged, the court must determine whether the case falls within one of
+the three categories set out in § 1391(b),” Atl. Marine Constr. Co. v. U.S. Dist. Ct. for W. Dist. of
+Tex., 571 U.S. 49, 56 (2013), includ ing “(1) a judicial district in which any defendant resides, if
+all defendants are residents of the State in which the district is located ; (2) a judicial district in
+which a substantial part of the events or omissions giving rise to the claim occurred, or a substantial
+part of property that is the subject of the action is situated; or (3) if there is no district in which an
+action may otherwise be brought as provided in this section, any judicial district in which any
+defendant is subject to the court ’s personal jurisdiction with respect to such action .”  28 U.S.C.
+§ 1391(b).  Here, Defendants are residents of Michigan, so venue is not proper in this district under
+§ 1391(b)(1).  And Plaintiffs do not invoke the third basis for venue as set out in § 1391(b)(3).
+Instead, Plaintiffs argue that a substantial part of the events giving rise to each of their claims
+occurred in this district, and that venue is therefore proper under § 1391(b)(2).34
+
+34 See R. Docs. 21 at 12-14; 22 at 9-12; 23 at 8-9.
+Case 2:24-cv-02773-ASJ-EJD     Document 34     Filed 05/22/25     Page 8 of 36
+9
+
+3. Rule 12(b)(6) Standard
+The Federal Rules of Civil Procedure require a complaint to contain “a short and plain
+statement of the claim showing that the pleader is entitled to relief.”  Fed. R. Civ. P. 8(a)(2).    Rule
+8 “does not require ‘detailed factual allegations,’ but it demands more than an unadorned, the -
+defendant-unlawfully-harmed-me accusation.”  Ashcroft v. Iqbal , 556 U.S. 662, 678 (2009)
+(quoting Bell Atl. Corp. v. Twombly, 550 U.S. 544, 555 (2007)).  The statement of the claim must
+“‘give the defendant fair notice of wh at the ... claim is and the grounds upon which it rests.’”
+Twombly, 550 U.S. at 555 (quoting Conley v. Gibson, 355 U.S. 41, 47 (1957)).  A pleading does
+not comply with Rule 8 if it offers “labels and conclusions,” “a formulaic recitation of the elements
+of a cause of action,” or “‘naked assertions’ devoid of ‘further factual enhancement.’”  Iqbal, 556
+U.S. at 678 (alteration omitted) (quoting Twombly, 550 U.S. at 555, 557).
+Rule 12(b)(6) of the Federal Rules of Civil Procedure permits a party to move to dismiss
+for “failure to state a claim upon which relief can be granted.”  Fed. R. Civ. P. 12(b)(6).  “To
+survive a motion to dismiss, a complaint must contain sufficient factu al matter, accepted as true,
+to ‘state a claim to relief that is plausible on its face.’”  Iqbal, 556 U.S. at 678 (quoting Twombly,
+550 U.S. at 570).  A claim is plausible on the face of the complaint “when the plaintiff pleads
+factual content that allows the court to draw the reasonable inference that the defendant is liable
+for the misconduct alleged.”  Id. (citing Twombly, 550 U.S. at 556).  Plausibility does not equate
+to probability, but rather “it asks for more than a sheer possibility that a defendant has acted
+unlawfully.”  Id. (citing Twombly, 550 U.S. at 556).  “Where a complaint pleads facts that are
+‘merely consistent with’ a defendant’s liability, it ‘stops short of the line between possibility and
+plausibility of “entitlement to relief.”’”  Id. (quoting Twombly, 550 U.S. at 557).  Thus, if the facts
+pleaded in the complaint “do not permit the court to infer more than the mere possibility of
+Case 2:24-cv-02773-ASJ-EJD     Document 34     Filed 05/22/25     Page 9 of 36
+10
+
+misconduct, the complaint has alleged – but it has not ‘shown’ – ‘that the pleader is entitled to
+relief.’”  Id. at 679 (alteration omitted) (quoting Fed. R. Civ. P. 8(a)(2)).
+In considering a Rule 12(b)(6) motion to dismiss for failure to state a claim, a court employs
+the two-pronged approach utilized in Twombly.  The court “can choose to begin by identifying
+pleadings that, because they are no more than conclusions [unsupported by factual allegations],
+are not entitled to the assumption of truth.”  Iqbal, 556 U.S. at 679.  However, “[w]hen there are
+well-pleaded factual allegations, a court should assume their veracity and then determine whether
+they plausibly give rise to an entitlement to relief.”  Id.  “‘[The] task, then, is to determine whether
+the plaintiff has stated a legally cognizable claim that is plausible, not to evaluate the plaintiff’s
+likelihood of success.’”  Body by Cook, Inc. v. State Farm Mut. Auto. Ins., 869 F.3d 381, 385 (5th
+Cir. 2017) (quoting Doe ex rel. Magee v. Covington Cnty. Sch. Dist., 675 F.3d 849, 854 (5th Cir.
+2012)).
+ A court’s review of a Rule 12(b)(6) motion to dismiss “is limited to the complaint, any
+documents attached to the complaint, and any documents attached to the motion to dismiss that
+are central to the claim and referenced by the complaint.”  Lone Star Fund V (U.S.), L.P. v.
+Barclays Bank PLC , 594 F.3d 383, 387 (5th Cir. 2010) (citing Collins v. Morgan Stanley Dean
+Witter, 224 F.3d 496, 498 -99 (5th Cir. 2000)).  A court may also take judicial notice of certain
+matters, including public records and government websites.  Dorsey v. Portfolio Equities, Inc., 540
+F.3d 333, 338 (5th Cir. 2008); see also Kitty Hawk Aircargo, Inc. v. Chao, 418 F.3d 453, 457 (5th
+Cir. 2005).  Thus, in weighing a Rule 12(b)(6) motion, district courts primarily look to the
+allegations found in the complaint, but courts may also consider “documents incorporated into the
+complaint by reference or integral to th e claim, items subject to judicial notice, matters of public
+record, orders, items appearing in the record of the case, and exhibi ts attached to the complaint
+Case 2:24-cv-02773-ASJ-EJD     Document 34     Filed 05/22/25     Page 10 of 36
+11
+
+whose authenticity is unquestioned.”  Meyers v. Textron, Inc. , 540 F. App’x 408, 409 (5th Cir.
+2013) (citing Tellabs, Inc. v. Makor Issues & Rights, Ltd., 551 U.S. 308, 322 (2007)).
+B. Fraudulent-Inducement Claim
+1. The Court has personal jurisdiction over the fraudulent-inducement claim against
+Roe.
+
+Roe contends that this Court lacks personal jurisdiction over Plaintiffs’ fraudulent-
+inducement claim against him for the same reasons he says it lacks jurisdiction over their breach-
+of-contract claim against him, as both “claims arise from the … Separation Agreement and the
+Amendment.”35  He argues that neither the Separation Agreement nor the Amendment was
+executed in Louisiana or required Roe to render performance in Louisiana, and that no “part of the
+actions giving rise to these claims involved the state of  Louisiana.”36  He further argues that he
+was no longer working for Plaintiffs when the Separation Agreement and Amendment were
+executed, and “[m] erely contracting with a resident of a forum state is not enough to create the
+minimum contacts necessary to confer personal jurisdiction.”37  While the fraudulent-inducement
+claim relates to the formation of the Separation Agreement and Amendment, it is not subject to
+the same personal-jurisdiction analysis as Plaintiffs’ breach -of-contract claim pertaining to those
+agreements.  As Plaintiffs point out, 38 “the considerations for personal jurisdiction over fraud
+claims are different from those [courts] apply in a straight contract claim .”  Trois v. Apple Tree
+Auction Ctr., Inc., 882 F.3d 485, 492 (5th Cir. 2018).  Plaintiffs therefore argue that the test applied
+by the Fifth Circuit in Trois applies to their fraudulent-inducement claim, and that under that test,
+they have established personal jurisdiction over Roe.39  The Court agrees.
+
+35 R. Doc. 15-1 at 18-19.
+36 Id. at 19.
+37 Id. (citing Special Indus., Inc. v. Zamil Grp. Holding Co., 578 F. App’x 325, 329 (5th Cir. 2014)).
+38 R. Doc. 21 at 8.
+39 Id. at 8-9.
+Case 2:24-cv-02773-ASJ-EJD     Document 34     Filed 05/22/25     Page 11 of 36
+12
+
+One of the defendants in Trois made misrepresentations about his auction business during
+a conference call that he joined from Ohio and the plaintiff joined from Texas.  Relying on those
+misrepresentations, the plaintiff contracted with the defendant to sell some collectibles through the
+defendant’s business in Ohio.  Id. at 487-88.  The Fifth Circuit upheld the Texas district court’s
+exercise of personal jurisdiction over the fraud claim against the defendant, even though it also
+affirmed the district court’s determination that it lacked personal jurisdiction over the breach-of-
+contract claim against him that arose from the same transaction.  In its minimum-contacts analysis
+of the fraud claim, the court explained that the defendant
+was not a passive participant on the call.  Instead, he was the key negotiating party
+who made representations regarding his business in a call to Texas.   It [was] that
+intentional conduct on the part of [the defendant] that led to this litigation.  So [he
+was] not being haled into Texas court “based on his random, fortuitous, or
+attenuated contacts.” … In other words, the defendants reached out to the forum,
+which led to this litigation, so we have focused on the correct relationship here, i.e.
+the defendants and the forum.
+
+Id. at 491-92 (internal quotation marks and alteration omitted) (quoting Walden, 571 U.S. at 286).
+In his reply, Roe asserts that Trois is “ an exception to the general rule , in which that
+defendant expressly reached out to Texas for the purpose of developing business, and in the course
+of the call made allegedly false representations with the intent to induce that business to occur.”40
+To the contrary, Trois represents the appropriate “minimum-contacts test for personal jurisdiction
+in fraud” which, as the Fifth Circuit made clear , “differs from that in contract. ”  Id. at 490.  Roe
+further argues that “Trois is inapposite because (a) the parties here were not attempting to generate
+new business in Louisiana and (b) Plaintiffs failed to identify a single communication forming the
+basis for their claims.”41  Roe fails to explain why the objective of fraudulent conduct directed at
+a forum resident – whether it be to generate new business from the forum-state resident, as in Trois,
+
+40 R. Doc. 31 at 3.
+41 Id.
+Case 2:24-cv-02773-ASJ-EJD     Document 34     Filed 05/22/25     Page 12 of 36
+13
+
+or to induce the forum-state resident to accept contract terms more favorable to the defendant, as
+Plaintiffs allege here – should have any bearing on the Court’s application of the minimum-
+contacts test articulated in Trois.  And Roe’s argument that “Plaintiffs failed to identify a single
+communication forming the basis for their claims” goes to the sufficiency of the claim, which the
+Court will address in its analysis of his Rule 12(b)(6) motion.42
+Roe, like the defendant in Trois, is alleged to have reached out to Plaintiffs in Louisiana to
+negotiate the S eparation Agreement and, in the course of those negotiations, made
+misrepresentations with the intent to induce Plaintiffs to agree to more favorable terms.  Such
+intentional conduct, directed at a resident in the forum, establishes minimum contacts for
+intentional tort claims.  See id. at 491-92; Walden, 571 U.S. at 286 (“A forum State’s exercise of
+jurisdiction over an out-of-state intentional tortfeasor must be based on intentional conduct by the
+defendant that creates the necessary contacts with the forum.”) ; Wien Air Alaska, Inc. v. Brandt ,
+195 F.3d 208, 213 (5th Cir. 1999) (“When the actual content of communications with a forum
+gives rise to intentional tort causes of action, this alone constitutes powerful availment.”).
+Accordingly, Plaintiffs have shown that this Court has personal jurisdiction over their fraudulent-
+inducement claim against Roe by alleging that he  directed a misrepresentation to them  in
+Louisiana, and his motion to dismiss this claim for lack of personal jurisdiction is therefore denied.
+2. Venue is proper for the fraudulent-inducement claim.
+Roe argues that venue is improper for all of Plaintiffs claims because Defendants are all
+Michigan residents and the alleged conduct giving rise to Plaintiffs’ claims occurred outside of
+
+42 See infra § II(B)(3). “‘A dismissal for failure to plead fraud with particularity under Rule 9(b) is treated as
+a dismissal for failure to state a claim under Rule 12(b)(6). ’”  United States ex rel. Grubbs v. Kanneganti , 565 F.3d
+180, 185 n.8 (5th Cir. 2009) ( quoting United States ex rel. Thompson v. Columbia/HCA Healthcare Corp. , 125 F.3d
+899, 901 (5th Cir. 1997)).
+Case 2:24-cv-02773-ASJ-EJD     Document 34     Filed 05/22/25     Page 13 of 36
+14
+
+Louisiana.43  Plaintiffs, again relying on Trois, contend that venue is proper in this district for their
+fraudulent-inducement claim because  “Roe’s actions and communications with Plaintiffs in the
+district satisfies the substantial part of the events giving  rise to the  claim.”44  Indeed, the Fifth
+Circuit in Trois affirmed that “the direction of fraudulent misrepresentations alone can be enough
+to establish venue for a fraud claim where that claim derives from the communications.”  882 F.3d
+at 494.  There, “although a substantial part of the events giving rise to the breach-of-contract claim
+– contract execution and the defendants’ performance – took place in Ohio,” the Fifth Circuit held
+that venue was proper in Texas because “a substantial part of the events giving rise to the fraud
+claim – the misrepresentations – took place in a business call to Texas .”  Id. at 493 (emphasis in
+original).  Likewise, here, while the Separation Agreement and Amendment were not executed in
+Louisiana, a substantial part of the events giving rise to the claim that Plaintiffs were fraudulently
+induced to sign those agreements – Roe’s alleged misrepresentation that he was retiring – was
+directed to Plaintiffs in Louisiana.  Thus, venue is proper in L ouisiana for the fraudulent -
+inducement claim, and Roe’s motion to dismiss this claim for improper venue is denied.
+3. Plaintiffs’ fraudulent-inducement claim  fails to meet the heightened pleading
+requirements of Rule 9(b).
+
+Roe also argues that Plaintiffs’ fraudulent -inducement claim fails as a matter of law
+because it is predicated “on the alleged reliance on a pre -contractual representation ” and the
+Separation Agreement and Amendment each contain a merger or integration clause stating that
+they “‘supersede[] and replace [] all other oral and written negotiations,  agreements and
+understandings’” between the parties. 45  Plaintiffs respond that, because they allege that Roe’s
+“misrepresentation caused the [Separation Agreement] to be entered into fraudulently,” his “using
+
+43 R. Doc. 15-1 at 20.
+44 R. Doc. 21 at 12.
+45 R. Doc. 15-1 at 21 (quoting R. Docs. 15-7 at 2; 15-8 at 2).
+Case 2:24-cv-02773-ASJ-EJD     Document 34     Filed 05/22/25     Page 14 of 36
+15
+
+the fraudulently induced contract to show that the contract was not fraudulently entered into is …
+illogical.”46  In his reply, Roe maintains that “ Plaintiffs’ fraudulent inducement claim, as pled, is
+prohibited by law” because Plaintiffs failed to plead sufficient facts to support a fraud claim, “fraud
+cannot be predicated on statements that are promissory in nature or relating to future events,” and
+Plaintiffs disclaimed any claim of reliance on the alleged misrepresentation by assenting to the
+broad integration clauses contained in the Separation Agreement and Amendment.47
+The elements of a fraudulent -inducement claim under Louisiana law 48 are “(1) a
+misrepresentation, suppression, or omission of true information; (2) the intent to obtain an unjust
+advantage or to cause damage or inconvenience to another; and (3) the error induced by a
+fraudulent act must relate to a circumstance substantially in fluencing the victim’s consent to the
+contract.”  Env’t, Safety & Health Consulting Servs. v. Crest Energy Partners, L.P ., 2015 WL
+2452458, at *4 (E.D. La. May 21, 2015) (citing Shelton, 798 So. 2d at 64; La. Civ. Code art. 1953).
+Here, Plaintiffs have alleged in their complaint that Roe misrepresented his reason for terminating
+his employment, specifically, by “represent[ing] that he was retiring when, in fact, he was actively
+competing against [Plaintiffs],” which he intended would “induce [them] to agree to enter not only
+the Voluntary Separation Agreement but  also the Amendment ,” and that they “ would not have
+agreed to enter either the Voluntary Separation [Agreement] or the Amendment thereto if they had
+
+46 R. Doc. 21 at 16.
+47 R. Doc. 31 at 7-8.
+48 Neither the Separation Agreement nor the Amendment contains a choice-of-law clause.  See R. Docs. 15-
+7; 15-8.  Roe does not argue that the law of another state should apply and cites to Louisiana caselaw in support of his
+arguments against Plaintiffs’ breach -of-contract claims.  See R. Doc. 15 -1 at 21 (citing French Quarter Realty v.
+Gambel, 921 So. 2d 1025, 1029 (La. App. 2005)); 31 at 7-8 (citing Shelton v. Standard/700 Assocs., 798 So. 2d 60,
+64 (La. 2001); Taylor v. Dowling Gosslee & Assoc s., Inc., 22 So.  3d 246, 255  (La. App. 2009); Koerner v. CMR
+Constr. & Roofing, L.L.C., 910 F.3d 221, 230 (5th Cir. 2018) (applying Louisiana law)).  Therefore, the Court assumes,
+without deciding, for purposes of this motion that Louisiana law applies to the Separation Agreement and Amendment.
+Case 2:24-cv-02773-ASJ-EJD     Document 34     Filed 05/22/25     Page 15 of 36
+16
+
+known that the representation was false.”49  In this way, Plaintiffs have only generally pleaded the
+legal elements of a claim for fraudulent inducement.
+However, Federal Rule of Civil Procedure 9(b) imposes a heightened pleading standard on
+allegations of fraud: “In alleging fraud or mistake, a party must state with particularity the
+circumstances constituting fraud or mistake.  Malice, intent, knowledge, and other conditions of a
+person’s mind may be alleged generally.”  Fed. R. Civ. P. 9(b).  “[A]rticulating the elements of
+fraud with particularity requires a plaintiff to specify the statements contended to be fraudulent,
+identify the speaker, state when and where the statements were made, and explain why the
+statements were fraudulent.”  Williams v. WMX Techs., Inc., 112 F.3d 175, 177-78 (5th Cir. 1997).
+Put simply, complying with Rule 9(b) requires a plaintiff to “set forth the ‘who, what, when, where,
+and how’ of the alleged fraud.”  United States ex rel. Williams v. Bell Helicopter Textron Inc., 417
+F.3d 450, 453 (5th Cir. 2005) (quotation omitted).  Thus, a plaintiff alleging fraud “cannot rely on
+speculation or conclusional allegations.”  United States ex rel. Rafizadeh v. Cont’l Common, Inc.,
+553 F.3d 869, 873 (5th Cir. 2008).
+Here, Plaintiffs’ fraudulent-inducement claim  does not meet Rule 9(b)’s heightened
+standard.  Plaintiffs only identify the general content of Roe’s alleged misrepresentation – “that he
+was voluntarily ending his employment because of his poor health and desire to retire ”50 – and
+vaguely allege that he made this representation when he terminated his employment in July 2023,51
+and again “when he started  negotiations for the Voluntary Separation Agreement and th e
+Amendment,”52 which could have been as early as July 2023 or as late as September 2024.  Aside
+from asserting in their opposition to Roe’s motion that the misrepresentation was made “ to the
+
+49 R. Doc. 2-1 at 5-6 (quotes at 6).
+50 Id. at 4.
+51 Id.
+52 Id. at 5.
+Case 2:24-cv-02773-ASJ-EJD     Document 34     Filed 05/22/25     Page 16 of 36
+17
+
+Louisiana-based executive team of Plaintiffs,”53 they do not specify to whom these representations
+were made and when.  Neither do Plaintiffs specify how the alleged  misrepresentations were
+communicated.  Thus, because Plaintiffs have failed to “set forth the ‘who, what, when, where,
+and how’ of the alleged fraud,” Bell Helicopter Textron, 417 F.3d at 453 (quotation omitted), the
+Court grants Roe’s motion to dismiss this claim under Rule 12(b)(6) , but without prejudice to
+Plaintiffs’ amending their complaint to plead their fraudulent-inducement claim with sufficient
+particularity.
+The Court rejects Roe’s arguments that Plaintiffs’ fraudulent -inducement claim fails as a
+matter of law and that amendment is therefore futile.54  As to his argument that the integration
+clauses act as non -reliance clauses, thereby precluding Plaintiffs’ allegation that they relied on
+Roe’s representation that he was retiring, Roe concedes that “Louisiana courts have not issued a
+published opinion on the issue of whether a non-reliance clause precludes a claim for fraud in the
+inducement when the alleged misrepresentation is outside the four corners of the agreement .”55
+The Louisiana supreme court  has ruled, however, that “[f]raud in the inducement of a contract
+cannot be waived.”  Shelton, 798 So. 2d  at 64.  Even if waiver of fraudulent -inducement claims
+were permitted under Louisiana law, Roe’s argument that “[t]he integration clauses [here] are
+broader than a traditional integration clause, which would merely confirm that the agreement
+‘constitutes the entire agreement’” because they “provide that they ‘supersede and replace all other
+oral and written negotiations, agreements, and understandings between [the parties]’”56 is dubious.
+A court in this district, applying Louisiana law, held that an integration clause specifically
+disclaiming any “inducement” not expressed in the agreement, did no t bar the plaintiff from
+
+53 R. Doc. 21 at 9.
+54 R. Doc. 31 at 7-10.
+55 Id. at 8.
+56 Id.
+Case 2:24-cv-02773-ASJ-EJD     Document 34     Filed 05/22/25     Page 17 of 36
+18
+
+“bring[ing] a claim based on a fraudulent inducement not expressed within the terms of the
+[a]greements.”  Fisk Elec. Co. v. DQSI, L.L.C., 2015 WL 6696751, at *4 (E.D. La. Nov. 3, 2015).57
+The Court also rejects Roe’s argument that Plaintiffs’ fraudulent-inducement claim must
+fail under the rule  “preclud[ing] fraudulent inducement claims based  on alleged promissory or
+future statements” because his alleged misrepresentation here is “that he would retire in the near
+future, not a statement of present fact or circumstance .”58  Roe mischaracterizes Plaintiffs’
+allegations about this claimed misrepresentation.  Plaintiffs allege that “Roe misrepresented his
+intention and certain material facts” by “ represent[ing] that he was retiring when, in fact, he was
+actively competing against [Plaintiffs] .”59  Thus, Plaintiffs do not merely allege , as Roe asserts,
+“that Roe did  not follow through with the alleged promise to retire ,”60 but that he intentionally
+misrepresented his present intention to retire  from the oil and gas industry  to induce Plaintiffs to
+sign the Separation Agreement and Amendment.  Louisiana courts have clarified that “ the legal
+standard for showing fraud is the intention not to perform at the time the promise is made because
+it constitutes a  misrepresentation of a present rather than a future fact .”  Roberson v. Williams ,
+2024 WL 534957, at *4 (W.D. La. Feb. 9, 2024)  (citing Automatic Coin Enters ., Inc. v. Vend -
+Tronics, Inc., 433 So. 2d 766, 767 (La. App.  1983)); see also Tex. Ins. Co. v. Talisman Specialty
+Underwriters, Inc., 2025 WL 592775, at *7 (E.D. La. Feb. 24, 2025)  (denying motion to dismiss
+fraud claim based on allegation that defendant had no intention of honoring representations at the
+time they were made) .  Plaintiffs have adequately alleged that they relied on Roe’s
+
+57 The integration clause at issue in Fisk Electric Company stated, in relevant part:
+This Settlement Agreement contains the entire agreement between the Parties …. The Parties agree
+that no promise, inducement or agreement not expressed herein has been made to any of the Parties
+and further agree that this Settlement Agreement contains the entire agreement between the Parties.
+Fisk Elec. Co., 2015 WL 6696751, at *4 n.4 (emphasis added).
+58 R. Doc. 31 at 9.
+59 R. Doc. 2-1 at 5-6 (emphasis added).
+60 R. Doc. 31 at 9.
+Case 2:24-cv-02773-ASJ-EJD     Document 34     Filed 05/22/25     Page 18 of 36
+19
+
+misrepresentation that he was retiring when , in fact, he was actively competing against them  – a
+present fact.  Thus, at th is pleadings stage, their fraudulent -inducement claim does not fail as a
+matter of law because, as pleaded, it is not “based on alleged promissory or future statements.”61
+C. Breach-of-Contract Claim Against Roe
+Personal jurisdiction for Plaintiffs’ breach-of-contract claim against Roe depends on
+the success of their fraudulent-inducement claim.
+
+Roe presumes that Plaintiffs’ breach -of-contract claim against him “arise[s] from the …
+Separation Agreement and the Amendment ,”62 because “the Separation Agreement  … was
+executed after the [E]mployment [A]greement’s termination and discharged all obligations under
+the prior agreement.”63  He argues that the Court lacks jurisdiction over him for this claim because
+the Separation Agreement and the Amendment were not executed in Louisiana, neither required
+Roe to render performance in Louisiana, no “ part of the actions giving rise to [the breach-of-
+contract] claim[] involved the state of  Louisiana,” and he was no longer working for Plaintiffs
+when he executed the Separation Agreement and Amendment.64
+Plaintiffs, on the other hand, focus on Roe’s contacts with Louisiana arising out of the
+Employment Agreement, because they argue that the Separation Agreement and Amendment are
+rescinded due to fraudulent inducement .65  They contend that the Employment Agreement “ was
+negotiated, drafted, and executed in Louisiana .”66  They also assert that Roe was aware that
+Plaintiffs’ principal place of business was in Louisiana as he “often came to Apollo’s offices within
+Louisiana”67 and “Roe submitted reimbursement requests to Apollo for his  travel to Louisiana to
+
+61 Id.
+62 R. Doc. 15-1 at 18-19.
+63 R. Doc. 31 at 3.
+64 R. Doc. 15-1 at 19.
+65 See R. Doc. 2-1 at 8.
+66 R. Doc. 21 at 9.
+67 Id. at 8.
+Case 2:24-cv-02773-ASJ-EJD     Document 34     Filed 05/22/25     Page 19 of 36
+20
+
+sign the agreement, as well as living expenses while he lived in Slidell, Louisiana, and worked for
+Apollo from July 2017 to July 2023. ”68  Plaintiffs assert that Roe breached the Employment
+Agreement by using the intellectual property conveyed to Plaintiffs under that agreement without
+their permission.69  As to their alternative claim that Roe breached the Separation Agreement and
+Amendment, Plaintiffs argue that he “[s]imilarly … directed harm to Louisiana when he breached
+the … Separation Agreement and Amendment by continuing to use ” that intellectual property.70
+Plaintiffs also  contend that “ Apollo negotiated and executed the [Separation A] greement and
+[A]mendment in Louisiana ” after “ Roe reached into Louisiana to initiate the contract
+negotiations.”71
+In arguing that Roe’s alleged breach “ directed harm to Louisiana ,” Plaintiffs improperly
+apply the minimum -contacts test for intentional torts such as fraud, which differs from the test
+applied to a contract claim.  See Trois, 882 F.3d at 492 (“As we have said, the considerations for
+personal jurisdiction over fraud claims are different from those we apply in a straight contract
+claim.”).  When evaluating personal jurisdiction for breach-of-contract claims, courts consider
+“only those acts which relate to the formation of the contract and the subsequent breach,” Religious
+Tech. Ctr. v. Liebreich, 339 F.3d 369, 375 (5th Cir. 2003), including the parties’ “prior negotiations
+and contemplated future consequences, along with the terms of the contract and the parties’ actual
+course of dealing.”   Burger King  Corp., 471 U.S. at 479.  Courts may consider, for example,
+whether the agreement “was signed or negotiated in Louisiana, was breached through acts
+occurring in Louisiana, called for material performance in Louisiana, or was otherwise ‘centered’
+
+68 Id.
+69 Id. at 10.
+70 Id. The Separation Agreement acknowledges that “ Roe did sell and assign to [APS] all of Roe ’s rights,
+title and interest in” the property identified in § 6(a) of the Employment Agreement.  R. Doc. 15-7 at 1.
+71 R. Doc. 21 at 10.
+Case 2:24-cv-02773-ASJ-EJD     Document 34     Filed 05/22/25     Page 20 of 36
+21
+
+in Louisiana.”  Talisman Specialty Underwriters, 2025 WL 958220, at *3.  Thus, the Court agrees
+with Roe that it lacks personal jurisdiction over the breach-of-contract claim against him arising
+from the Separation Agreement and Amendment because neither was executed in Louisiana, the
+only performance required in Louisiana was Plaintiffs’ payments to Roe, 72 and the alleged
+breaches occurred outside of Louisiana.  That “Roe reached in to Louisiana to initiate the
+negotiations” over the Separation Agreement and Amendment  and “ Apollo negotiated and
+executed” them from Louisiana73 resulted from “nothing but ‘the mere fortuity that [ Plaintiffs]
+happen[] to be … resident[s] of the forum.’”  Holt Oil & Gas Corp. v. Harvey, 801 F.2d 773, 778
+(5th Cir. 1986) (quoting Patterson v. Dietze, Inc., 764 F.2d 1145, 1147 (5th Cir. 1985)).
+The Court would , however, have personal jurisdiction over a breach -of-contract claim
+against Roe arising out of the Employment Agreement because it was executed by both parties in
+Louisiana74 and created “ a carefully structured … relationship that envisioned continuing and
+wide-reaching contacts” between Roe and Plaintiffs in Louisiana.  Burger King Corp., 471 U.S. at
+480.  The Employment Agreement stated that “ [Roe]’s place of employment shall be Apollo’s
+principal place of business in Louisiana, unless [Roe] and Apollo mutually agree otherwise”;75 it
+provided for Apollo’s payment of “ a housing stipend of up to $3,000.00  per month for [Roe]’s
+
+72 Neither the Separation Agreement nor the Amendment imposed any affirmative obligation on Roe.  See R.
+Docs. 15-7; 15-8.  A forum plaintiff’s performance of contractual obligations in the forum state, alone, cannot establish
+personal jurisdiction over a nonresident defendant.  See Trois, 882 F.3d at 489 n.2.
+73 R. Doc. 21 at 10 (emphasis added).
+74 Roe states in his declaration that “[o] n January 29, 2016, while located in Michigan , [he] executed an
+employment agreement to work for [APS] and later Apollo.”  R. Doc. 15 -5 at 1 (emphasis added).  Plaintiffs assert
+that Roe signed the Employment Agreement on the same date in Covington, Louisiana , R. Doc. 21 at 8, 10 (citing R.
+Doc. 21-1 at 1), and attached with their opposition “ Roe’s reimbursement requests for travel and living expenses,
+including his 2016 travel expenses to sign the Employment Agreement” in Louisiana.  R. Doc. 21-1 at 3-4.  Because
+Roe does not controvert Plaintiffs’ assertion that he signed the employment agreement in Louisiana, and “all [factual]
+conflicts must be resolved in favor of the plaintiff,” Thompson, 755 F.2d at 1165, for purposes of this motion to
+dismiss, the Court accepts Plaintiffs’ assertion that Roe signed the Employment Agreement in Louisiana.
+75 R. Doc. 15-4 at 1 (emphasis added).
+Case 2:24-cv-02773-ASJ-EJD     Document 34     Filed 05/22/25     Page 21 of 36
+22
+
+reasonable housing expenses in Louisiana”;76 it included a noncompetition clause prohibiting Roe
+from “carry[ing] on or engag[ing] in a business similar to Apollo’s business” in several Louisiana
+parishes for two years following his employment at Apollo;77 it directed communications to APS’s
+offices in New Orleans;78 and it included a Louisiana choice-of-law provision.79
+However, Plaintiffs only have a  claim for breach of the Employment Agreement if the
+Separation Agreement and Amendment  are rescinded  due to fraudulent inducement , as the se
+subsequent agreements between Roe and Plaintiffs  each include a merger clause indicating the
+parties’ intent that these agreements supersede their prior agreements, including the Employment
+Agreement.80  Because it is unclear at this juncture which agreement is the operative contract (due
+to the open question of whether the Separation Agreement and Amendment are rescinded)  and,
+therefore, whether the Court has personal jurisdiction over the breach-of-contract claim against
+Roe, consideration of Roe’s motion to dismiss this claim would be premature.  See Fisk Elec. Co.,
+2015 WL 6696751, at *9 (declining to consider the defendant’s argument that a merger clause in
+an agreement between the parties precluded the plaintiff’s fraud claim where plaintiffs were
+granted leave to amend an undeveloped fraudulent-inducement claim which, if successful, would
+have negated that agreement).  Therefore, Roe’s motion to dismiss the breach -of-contract claim
+
+76 Id. (emphasis added).  Roe does not deny that he lived in Louisiana for five years while working for Apollo,
+or that Apollo reimbursed his living expenses during those five years.
+77 Id. at 3.
+78 Id.  Cf. Burger King Corp., 471 U.S. at 480 (“[The defendant] most certainly knew that he was affiliating
+himself with an enterprise based primarily in Florida.  The contract documents themselves emphasize that [the
+plaintiff]’s operations are conducted and supervised from the [plaintiff’s] Miami headquarters, that all relevant notices
+and payments must be sent there, and that the agreements were made in and enforced from Miami. ”)
+79 R. Doc. 15-4 at 4.  Cf. Burger King Corp., 471 U.S. at 482 (“Although [a Florida choice-of-law] provision
+standing alone would be insufficient to confer jurisdiction, we believe that, when combined with the 20 -year
+interdependent relationship [the defendant]  established with [the plaintiff]’ s Miami headquarters, it reinforced his
+deliberate affiliation with the forum State [i.e., Florida] and the reasonable foreseeability of possible litigation there.”).
+80 R. Doc. 15-7 at 2 (“This Separation Agreement constitutes the entire agreement between the [p]arties and
+supersedes and replaces all other oral and written negotiations, agreements and understandings between  them.”).
+Case 2:24-cv-02773-ASJ-EJD     Document 34     Filed 05/22/25     Page 22 of 36
+23
+
+against him is denied without prejudice to his re -urging these arguments once the viability of
+Plaintiffs’ fraudulent-inducement claim has been determined.
+D. Breach-of-Contract Claim Against Pavlov
+1. Pavlov consented to this Court’s jurisdiction by signing the First NDA.
+
+In his motion to dismiss, Pavlov argues that Plaintiffs cannot establish personal jurisdiction
+over their breach-of-contract claim against him because he did not sign the First NDA in Louisiana,
+it did not require him to undertake any obligations in Louisiana, none of the alleged breaches took
+place in Louisiana, and “the Petition contains no allegations that Pavlov visited Louisiana or
+directed any contacts to Louisiana .”81  He further argues that he did not consent to  this Court’s
+jurisdiction by signing the First NDA (which contains a Louisiana forum-selection clause) because
+he did not sign the First NDA in his individual capacity but instead as AlumaPower’s agent, and
+because the Second NDA (which has a Delaware forum-selection clause), signed by AlumaPower,
+“contains an integration clause indicating that the Second NDA supersedes all prior agreements as
+to the same subject matter.”82
+In opposition to Pavlov’s motion, Plaintiffs argue that “Pavlov reasonably expected to be
+haled to Louisiana – and, in fact, consented to the ‘jurisdiction’ of courts in Louisiana” by signing
+the First NDA. 83  Plaintiffs assert that  Pavlov’s argument that the First NDA “ was somehow
+superseded by [the Second NDA]  that Plaintiffs  also required AlumaPower to sign  … is
+nonsensical” because Plaintiffs wanted separate nondisclosure agreements from each of Pavlov
+and AlumaPower and “ Pavlov is not a party to the [Second NDA]  between Plaintiffs and
+
+81 R. Doc. 17-1 at 19.
+82 Id. at 20.
+83 R. Doc. 22 at 7.
+Case 2:24-cv-02773-ASJ-EJD     Document 34     Filed 05/22/25     Page 23 of 36
+24
+
+AlumaPower and that separate  agreement has no bearing on his personal contractual obligations
+to Plaintiffs.”84
+“Under Fifth Circuit precedent, parties to a contract may consent to personal jurisdiction
+and venue via a forum selection clause.”  Citadel Recovery Servs., LLC v. T.J. Sutton Enters., LLC,
+2019 WL 5725055, at *6 (E.D. La. Nov. 5, 2019)  (citing Kevlin Servs., Inc. v. Lexington State
+Bank, 46 F.3d 13, 15 (5th Cir. 1995)).  “‘A forum selection provision in a written contract is prima
+facie valid and enforceable unless the opposing party shows that enforcement would be
+unreasonable.’”  Id. (quoting Kevlin Servs., Inc., 46 F.3d at 15).  The Court agrees with Plaintiffs
+that Pavlov consented to personal jurisdiction in Louisiana by signing the First NDA, which
+contains a forum-selection clause stating that the parties “irrevocably and unconditionally submit
+to the exclusive jurisdiction of the state and federal district courts which govern the Parish of St.
+Tammany, State of Louisiana, and waive any objection to forum or venue … in any action arising
+out of this [a]greement.”85  Pavlov does not contend that the forum -selection clause is
+unreasonable, but instead argues that the First NDA is void in its entirety.
+Though Pavlov repeatedly asserts that he “ was indisputably acting at the  direction of and
+as an agent of Aluma[P]ower” when he signed the First NDA,86 Pavlov’s purported agency status
+is not apparent, much less indisputable, from the language of the First NDA.  Nothing in the First
+NDA indicates that Pavlov signed it as a representative of AlumaPower or that AlumaPower was
+a party to it. 87  AlumaPower is not named anywhere in the First NDA.  The parties to the First
+
+84 Id. at 13 (responding to the same argument, i.e., that the First NDA is superseded by the Second NDA,
+advanced by Pavlov to attack the sufficiency of Plaintiffs’ breach-of-contract claim).
+85 R. Doc. 17-10 at 7.
+86 R. Doc. 33 at 4 (emphasis omitted).
+87 While the First NDA includes “representatives” of the signatory parties within the term “Party,” whatever
+relationship Pavlov had to AlumaPower – which has not been made clear to the Court , see infra note 91 – would not
+render AlumaPower his “representative” as defined in the First NDA.  R. Doc. 17 -10 at 1 (“ The Parties shall be
+responsible for any breaches of this Agreement by any of their  affiliates, directors, officers, employees, agents,
+subsidiaries, partners, shareholders/members, attorneys, accountants, consultants and advisors (‘Representatives’) and
+Case 2:24-cv-02773-ASJ-EJD     Document 34     Filed 05/22/25     Page 24 of 36
+25
+
+NDA are identified as “Apollo and Kevin J[.] Pavlov” in the preamble88 and again on the signature
+page.89  The only indication that Pavlov signed the First NDA in a representative capacity is the
+inclusion of the designation “CEO” after his signature,90 but nothing in the agreement identifies
+what entity he supposedly served in that capacity, and there is no evidence in the record now before
+the Court that Pavlov was ever CEO of AlumaPower.91  Moreover, the mailing address provided
+by Pavlov to be used for notices in the First NDA is the same Michigan address as Bohr Energy’s
+principal and mailing address and, therefore, likely Pavlov’s personal address.92
+  Pavlov argues that it is obvious that he signed the First NDA on behalf of AlumaPower
+because “Plaintiff[s] believed that [they were]  dealing with Pavlov acting on behalf of
+AlumaPower,”93 and “both NDAs identify a specific purpose, i.e., to consider a possible business
+relationship with the other party.”94  However, “the Court will not look outside the contract when
+the terms are unambiguous.”  Bernard v. Grefer , 2015 WL 1781674, at *8 (E.D. La. Apr. 20,
+2015).  Pavlov has identified no ambiguous language regarding the parties to the First NDA, and
+the Second NDA (which contains the merger clause and Delaware forum-selection clause on which
+
+all Representatives shall be included within the term Parties for the purposes of this Agreement. ” (emphasis added)).
+AlumaPower (a corporation) would not be Pavlov’s “affiliate,” see Affiliate, BLACK’S LAW DICTIONARY (12th ed.
+2024) (“A corporation that is related to another corporation by shareholdings or other means of control; a subsidiary,
+parent, or sibling corporation.”) , or “agent,” see Agent, BLACK’S LAW DICTIONARY (12th ed. 2024) (“Someone who
+is authorized to act for or in place of another; a representative .”).  And it is obvious that none of the other descriptors
+of “representatives” (“directors, officers, employees, … subsidiaries, partners, shareholders/members, attorneys,
+accountants, consultants and advisors”) would apply to AlumaPower.
+88 R. Doc. 17-10 at 1 (“This Mutual Confidentiality and Non-Disclosure Agreement … is made and entered
+into … by and between Apollo Holding Company, LLC ( ‘Apollo’) and Kevin Pavlov (‘Kevin’).  Apollo and Kevin
+J[.] Pavlov may be referred to individually ‘party/Party’ or together as ‘parties/Parties’.”).
+89 Id. at 9.
+90 Id.
+91 The Second NDA was signed by a Rob Alexander, who is clearly identified as AlumaPower’s CEO.  See
+R. Doc. 17-11 at 7.  Pavlov does not explain his role at AlumaPower, only  referring to himself as its “agent.” See R.
+Docs. 17-1 at 10; 33 at 2, 4, 7 -8.  In his motion to dismiss, Roe states that Pavlov was “ working as an independent
+consultant for AlumaPower Corporation” when he “learned of Roe’s [Advanced Separation Gas Infusion System] and
+approached Apollo about whether this system could be used to generate energy.”  R. Doc. 15-1 at 9.
+92 Compare R. Doc. 17-10 at 10, with R. Doc. 17-3 at 1.  Bohr Energy was not formed until May 13, 2024,
+after the First NDA was executed.  See R. Doc. 17-3 at 1.
+93 R. Doc. 17-1 at 10 (first citing R. Doc. 2-1 at 3-4, then citing R. Doc. 17-9).
+94 R. Doc. 33 at 8.
+Case 2:24-cv-02773-ASJ-EJD     Document 34     Filed 05/22/25     Page 25 of 36
+26
+
+Pavlov relies) makes it equally clear that the only parties to it are AlumaPower and Apollo.95  And
+the fact that both of the nondisclosure agreements have a stated purpose of facilitating the exchange
+of information to explore a potential business relationship between their respective parties does
+not transform the identities of those parties, which are clearly stated in each agreement.96
+In sum, because AlumaPower was not a party to the First NDA and Pavlov is not a party
+to the Second NDA, the Second NDA’s merger clause stating that it “supersedes all prior and
+contemporaneous negotiations, understandings, representations and warranties and agreements
+between the Parties ”97 (Apollo and AlumaPower) has no bearing on  the First NDA  (between
+Apollo and Pavlov) .  Thus, the First NDA  is controlling here as to Pa vlov, and b ecause Pavlov
+agreed to “irrevocably and unconditionally submit to the exclusive jurisdiction of the state and
+federal district courts which govern the Parish of St. Tammany ,” he consented to personal
+jurisdiction in this district, and his motion to dismiss the breach-of-contract claim against him for
+lack of personal jurisdiction is therefore denied.
+
+95 R. Doc. 17 -11 at 1 (“ This Confidentiality Agreement … is entered into by and between AlumaPower
+Corporation … and Apollo Holding Company L LC … (together the ‘Parties’, and each a ‘Party’).”). While Pavlov
+may be a representative of AlumaPower  in some capacity, the Second NDA, unlike the First NDA, does not include
+the signatory parties’ representatives within the term “Party.” Compare R. Doc. 17-10 at 1 (“all Representatives shall
+be included within the term Parties for the purposes of this Agreement”), with R. Doc. 17-11 at 2 (“‘Representatives’
+means, as to any Person [defined elsewhere as ‘any individual, partnership (whether general, limited or limited
+liability), corporation, association, trust or other entity’], such Person’s affiliates, and its and their respective directors,
+officers, employees, general partners, agents and consultants (including lawyers, financial advisors and
+accountants).”). Thus, Pavlov cannot argue that he was a party to the Second NDA.
+96 Pavlov argues that, if Plaintiffs’ “secret intention” was to explore a business relationship with Pavlov
+individually as well as with AlumaPower, “Plaintiffs would have been secretly concocting a scheme for Pavlov to go
+to Mississippi and meet Roe as Aluma[P]ower’s agent and also in direct competition with Aluma[P]ower.  Under such
+a scenario, La. [Civ. Code] art[.] 2030 would render the First NDA as void ab initio as Plaintiffs would be intentionally
+fostering violations of Pavlov’s fiduciary duties, LUPTA, and other related laws.”  R. Doc. 33 at 8 -9 (discussing La.
+Civ. Code art. 2030 (“A contract is absolutely null when it violates a rule of public order, as when the object of a
+contract is illicit or immoral.”)).  Even assuming such a scheme could be inferred from the purpose clause of the First
+NDA, Pavlov cites no authority for his suggestion that, by merely executing nondisclosure agreements as a preliminary
+step in exploring a potential business relationship with each of Pavlov and AlumaP ower, “Plaintiffs would be
+intentionally fostering violations of Pavlov’s fiduciary duties, LUPTA, and other related laws,” such that the First
+NDA would be nullified by article 2030.  And given that the Court has no information about Pavlov’s relationship to
+AlumaPower, see supra note 91, it is impossible to determine whether he owed AlumaPower any fiduciary duties, or
+whether LUTPA or “other related laws” would be implicated in this scenario.
+97 R. Doc. 17-11 at 6 (emphasis added).
+Case 2:24-cv-02773-ASJ-EJD     Document 34     Filed 05/22/25     Page 26 of 36
+27
+
+2. Pavlov consented to this forum and waived his right to object to venue here.
+
+Pavlov objects to venue in this district for all of Plaintiffs’ claims on the same grounds as
+Roe – namely, because “all of the Defendants are Michigan residents” and the “wrongdoing
+alleged to have occurred all happened outside of Louisiana.”98  Plaintiffs argue that venue is proper
+in this district for their breach-of-contract claim against Pavlov because he consented to venue by
+signing the First NDA and because “the facts surrounding the execution and performance” of the
+First NDA occurred in Louisiana. 99  In his reply, Pavlov again argues that “the First NDA was
+superseded and replaced by the Second NDA,” which “requires litigation in Delaware.”100
+To determine whether venue is proper  under § 1391(b)(2) for a breach-of-contract claim,
+“courts tend to focus on where the contract was negotiated or executed, where the contract was to
+be performed, and where the contract was allegedly breached.”  14D CHARLES ALAN WRIGHT,
+ARTHUR R. MILLER & A. BENJAMIN SPENCER, FEDERAL PRACTICE AND PROCEDURE § 3806, at 171-
+173 (4th ed. 2025); see also Ross v. Digioia, 2012 WL 72703, at *4 (E.D. La. Jan. 10, 2012).  None
+of those events with respect to the First NDA occurred in Louisiana.  Plaintiffs assert that “[t]he
+confection[,] … drafting and signing of the [First NDA] occurred in Louisiana, and performance
+was owed within Louisiana.”101  But Plaintiffs do not indicate whether Pavlov was involved in the
+drafting of the First NDA and do not specify which parties  signed the First NDA in Louisiana .
+Pavlov, however, has provided a declaration stating that he was “located in the state of Michigan”
+
+98 R. Doc. 17-1 at 21.
+99 R. Doc. 22 at 10-11 (quote at 11).
+100 R. Doc. 33 at 6.
+101 R. Doc. 22 at 11 .  Plaintiffs rely on Ross v. Digioia , which they say held that  venue was proper in
+Louisiana, even though the performance and alleged breach of the contract at issue occurred in Florida, because “the
+contract was ‘confected’ in Louisiana” and “because there were contract negotiations, financing, and harm felt by the
+plaintiffs in the district .”  Id. at 10 (discussing 2012 WL 72703, at *4 ).  However, the court, noting that venue as to
+Digioia was a “ close[] question,” explained that “ plaintiffs assert that the agreement was ‘confected’ when Digioia
+was in Louisiana  [and] that the parties negotiated the specifics of the agreement during Digioia ’s visits to New
+Orleans.”  Digioia, 2012 WL 72703, at *4.  Here, Plaintiffs have made no assertion that Pavlov ever visited Louisiana
+in connection with the negotiation or signing of the First NDA.
+Case 2:24-cv-02773-ASJ-EJD     Document 34     Filed 05/22/25     Page 27 of 36
+28
+
+when he executed the First NDA. 102  No breach is alleged to have occurred in Louisiana, and,
+while Pavlov may have “owed” performance to Plaintiffs in Louisiana, he was not obligated to
+render any performance in Louisiana.  Thus, because venue is not proper under § 1391(b)(2), the
+Court must consider whether the forum -selection clause of the First NDA, which states that the
+parties “irrevocably and unconditionally submit to the exclusive jurisdiction of the state and federal
+district courts which  govern the Parish of St. Tammany, State of Louisiana, and waive any
+objection to forum or venue … in any action arising out of this [a]greement,”103 can defeat Pavlov’s
+Rule 12(b)(3) motion.
+In Atlantic Marine, the Supreme Court explained that “the court must determine whether
+the case falls within one of the three categories set out in § 1391(b)” when considering a Rule
+12(b)(3) challenge to venue and “a forum-selection clause has no bearing on whether a case falls
+into one of the categories of cases listed in § 1391(b) .”104 571 U.S. at 5 6.  However, Atlantic
+Marine “concern[ed] the procedure that is available for a defendant in a civil case who seeks to
+enforce a forum -selection clause.”  Id. at 52 (emphasis added).  Here, Pavlov does not seek to
+enforce the forum-selection clause through dismissal under Rule 12(b)(3).  Instead, Plaintiffs, who
+brought this claim in the forum contemplated by the forum -selection clause at issue, invoke the
+forum-selection clause in opposition to Pavlov’s motion to dismiss under Rule 12(b)(3).  Neither
+the Supreme Court nor the Fifth Circuit has considered such a scenario in light of Atlantic Marine.
+But several district courts in this circuit have, and held that the forum-selection clause relied upon
+
+102 R. Doc. 17-9 at 1.
+103 R. Doc. 17-10 at 7 (emphasis added).
+104 The Atlantic Marine Court explained that “a case filed in a district that falls within § 1391 may not be
+dismissed under … Rule 12(b)(3)”  due to a forum -selection clause specifying another forum  because the Rule
+“authorize[s] dismissal only when venue is ‘wrong’ or ‘improper’ in the forum in which it was brought.”  571 U.S. at
+56.  Instead, the Court held that 28 U.S.C. § 1404(a) is the proper mechanism to enforce a forum -selection clause, as
+it “does not condition transfer on the initial forum’s being ‘wrong.’”  Id. at 59.  The Court then went on to observe
+that, in the context of § 1404(a) motions, “a valid forum-selection clause should be given controlling weight in all but
+the most exceptional cases.”  Id. at 63 (quotation and alteration omitted).
+Case 2:24-cv-02773-ASJ-EJD     Document 34     Filed 05/22/25     Page 28 of 36
+29
+
+by the plaintiff s in those cases  defeated the defendants’  Rule 12(b)(3) motions to dismiss.  See
+Huawei Techs. Co. v. Yiren Huang , 2018 WL 1964180, at *8 (E.D. Tex. Apr. 25, 2018)
+(distinguishing Atlantic Marine); Matheson Tri-Gas, Inc. v. FlexTM, Inc. , 2018 WL 2363958, at
+*5 (S.D. Tex. May 24, 2018)  (denying Rule 12(b)(3) motion upon concluding that the defendant
+“waived its right to challenge the propriety of venue in the Southern District of Texas” by signing
+a forum-selection clause specifying that forum); J.D. Fields & Co. v. Shoring Eng’rs, 391 F. Supp.
+3d 698, 706 (S.D. Tex. 2019) (holding that “the court need not conduct trad itional jurisdiction or
+venue analyses when the parties have consented to litigation in a given forum”  and denying Rule
+12(b)(3) motion); Citadel Recovery Servs., LLC, 2019 WL 5725055, at *7 (denying Rule 12(b)(3)
+motion where the plaintiff brought suit in the parties’ chosen forum because “[a] permissive forum
+selection clause ‘is only a contractual waiver of personal jurisdiction and venue objections if
+litigation is commenced in the specified forum ’” (quoting Weber v. PACT XPP Techs., AG , 811
+F.3d 758, 768 (5th Cir. 2016) ));  Weatherford Int’l, LLC v. Binstock , 452 F. Supp. 3d 561, 572
+(S.D. Tex. 2020) (denying Rule 12(b)(3) motion “[b]ecause the court conclude[d] that [d]efendants
+are all bound by the NDA’s forum-selection clause for Houston, Texas”) (citing Atlantic Marine,
+571 U.S. at 59); B & T Rentals Inc. v. True Performance Directional Drilling LLC , 2021 WL
+3660980, at *4 (W.D. La. Mar. 4, 2021) (agreeing with Huawei and denying Rule 12(b)(3) motion
+“[i]n light of … cases [enforcing forum-selection clauses after Atlantic Marine] and in the absence
+of Fifth Circuit precedent invalidating forum selection clauses that provide for venues outside of
+§ 1391’s categories”).105
+
+105 More recent cases out of circuit are to like effect.  See, e.g., LMMC, LLC v. Solberg, 2025 WL 1364199,
+at *4 (D. Neb. May 12, 2025); Barresi v. Lynx Restoration Grp., Inc. , 2025 WL 1356808, at *4 (E.D. Va. Apr. 9,
+2025), adopted, 2025 WL 1384273 (E.D. Va. May 13, 2025); United Natural Foods, Inc. v. Maciel , 2025 WL
+1047519, at *5-6 (D. Minn. Apr. 7, 2025).
+Case 2:24-cv-02773-ASJ-EJD     Document 34     Filed 05/22/25     Page 29 of 36
+30
+
+The Huawei court persuasively reasoned that “ Atlantic Marine is inapposite” in cases
+where the “[p]laintiffs filed suit in the venue mandated by the forum-selection clause.”  2018 WL
+1964180, at *7.   The court observed that the factual scenario presented in Atlantic Marine raised
+the “concern[] that enforcing a forum -selection clause could flout congressional intent … ‘that
+venue should always lie in some federal court whenever federal courts have personal jurisdiction
+over the defendant,’” id. at *6 (quoting Atlantic Marine, 571 U.S. at 56) (emphasis in original),
+whereas cases like Huawei and the instant case, where the forum-selection clause is not invoked
+in support of dismissal, “do[] not present the same risk of running afoul [of] Congress’ intent to
+have venue lie in at least one federal court.”  Id. at *7.  The Huawei court further reasoned that
+“[t]his set of facts actually promotes the strong federal policy in favor of enforcing forum-selection
+clauses” and avoiding venue gaps, id. (citing  Calix-Chacon v. Global Int’l Marine, Inc., 493 F.3d
+507, 513 (5th Cir. 2007); Atlantic Marine , 571 U.S. at 66), observing that, “even if a forum -
+selection clause does not make venue ‘proper’ [under § 1391(b)], dismissal based on improper
+venue would be inappropriate because ‘the venue statute merely accords to the defendant a
+personal privilege respecting the venue, or place of suit, which he may assert, or may waive, at his
+election.’” Id. at *8 (internal quotation and alteration omitted).  Finally, the court noted that
+denying the defendant’s Rule 12(b)(3) motion “ma[de] practical sense in terms of judicial
+efficiency” because after a case is  dismissed from the forum specified by the  parties’ forum-
+selection clause under Rule 12(b)(3) and re-filed in a statutorily “proper” venue, the plaintiff could
+in turn move to transfer the case under § 1404(a), “likely” resulting in transfer back to the original
+forum under Atlantic Marine’s prescribed analysis for transfers based on forum-selection clauses.
+Id. at *9.
+Case 2:24-cv-02773-ASJ-EJD     Document 34     Filed 05/22/25     Page 30 of 36
+31
+
+For the same reasons articulated by the Huawei court, and because the consensus among
+courts in this circuit is that dismissal under Rule 12(b)(3) is inappropriate where a case has been
+brought in the forum specified by the parties’ forum-selection clause, the Court declines to dismiss
+this claim under Rule 12(b)(3) given the First NDA’s forum-selection clause.
+3. Plaintiffs have sufficiently alleged a breach-of-contract claim against Pavlov.
+Pavlov argues that Plaintiffs’ breach -of-contract claim based on the First NDA must be
+dismissed under Rule 12(b)(6) for the same reasons he contends the Court lacks personal
+jurisdiction over that claim – because, he says, he was not a party to the First NDA and, in any
+event, the First NDA was voided by the merger clause in the Second NDA.106  In their opposition,
+Plaintiffs contend that they have adequately stated a claim for breach of contract and that “Pavlov
+is not a party to the agreement between Plaintiffs and AlumaPower [i.e., the Second NDA] and
+that separate agreement has no bearing on his personal contractual obligations to Plaintiffs.”107
+To succeed on a breach -of-contract claim, a plaintiff must show “(1) the obligor’s
+undertaking an obligation to perform, (2) the obligor failed to perform the obligation (the breach),
+and (3) the failure to perform resulted in damages to the obligee.”  Favrot v. Favrot , 68 So. 3d
+1099, 1108-09 (La. App. 2011).  Here, Plaintiffs argue that Pavlov undertook an obligation not to
+use confidential information disclosed to him under the First NDA except as permitted to explore
+a possible business relationship wit h Apollo, that Pavlov breached that obligation by using
+information protected by the First NDA “to compete against Apollo,” and that Plaintiffs suffered
+damages as a result of that breach.108  Pavlov does not argue that Plaintiffs have failed to plead the
+elements of a breach-of-contract claim, and instead contends that this claim against him must fail
+
+106 R. Docs. 17-1 at 21; 33 at 7-9.
+107 R. Doc. 22 at 13.
+108 R. Doc. 2-1 at 7.
+Case 2:24-cv-02773-ASJ-EJD     Document 34     Filed 05/22/25     Page 31 of 36
+32
+
+because the First NDA is superseded by the Second NDA .  The Court has already rejected this
+argument in determining that it has personal jurisdiction over this claim. 109  Thus, b ecause
+Plaintiffs have alleged the elements of a claim for breach of contract, Pavlov’s motion to dismiss
+this claim under Rule 12(b)(6) is denied.
+E. LUTPA Claims
+Plaintiffs have not alleged sufficient facts for the Court to determine whether it has
+personal jurisdiction over their LUTPA claims against any of the Defendants.
+
+Defendants contend that this Court lacks personal jurisdiction over Plaintiffs’ LUTPA
+claims against each of them because “none of the alleged conduct giving rise to the[se] claim[s] is
+averred to have occurred in Louisiana, much less having been intended to occur in  Louisiana as
+required for tort claims. ”110  Bohr Energy further argues that “Plaintiffs offer no facts and make
+no allegations that Bohr Energy itself  purposefully availed itself of the forum ,” and “fail to cite
+any legal basis for imputing [Roe and Pavlov’s] contacts to Bohr Energy for jurisdictional
+purposes,”111 and, even if Roe and Pavlov’s contacts could be imputed to Bohr Energy, “Plaintiffs
+fail[] to offer any evidence in the record of [the] type of purposeful and direct contact” required to
+establish minimum contacts,112 aside from vague and conclusory allegations. 113  Defendants also
+argue that Plaintiffs have failed  to plead their LUTPA claim s with particularity, as required by
+Rule 9(b), and “fail to identify any ‘proprietary information’ being fraudulently misused, how it is
+being misused, and how they have been hurt by it.”114
+
+109 See supra § II(D)(1).
+110 R. Docs. 15-1 at 20; 17-1 at 19-20; 20 at 18-19.
+111 R. Doc. 32 at 3.
+112 Id. at 4.
+113 Id. at 5.
+114 R. Docs. 15-1 at 22; 17-1 at 22; 20 at 20.
+Case 2:24-cv-02773-ASJ-EJD     Document 34     Filed 05/22/25     Page 32 of 36
+33
+
+Plaintiffs respond that they have established sufficient minimum contacts between each of
+Defendants and the forum relating to their LUTPA claims.  They argue that “Roe directed harm to
+Louisiana when he engaged in unfair business practice by using protected proprietary information
+to establish a direct competitor with  Plaintiffs and sought to entice clients and investors from
+Plaintiffs.”115  With respect to Pavlov, Plaintiffs argue that he directed harm to Louisiana by
+deceptively “making it appear that he was exploring a business relationship with [Plaintiffs] when,
+in reality, he was planning to launch a  competitive venture  … and misappropriat[ing] these
+Louisiana companies’ intellectual property with  full knowledge that the Louisiana companies
+would be harmed within Louisiana.”116  And Plaintiffs contend that Bohr Energy, through Roe and
+Pavlov, “directed harm to Louisiana when it engaged in unfair trade practices by misappropriating
+Plaintiffs’ intellectual property to compete with Plaintiffs and sought to entice clients and investors
+from Plaintiffs.”117  Plaintiffs also argue that they have stated a claim for relief under LUTPA
+because Defendants’ alleged “ misuse of  Plaintiffs’ intellectual property to unfairly compete
+against Plaintiffs is a hornbook example of a scheme that violates LUTPA.”118
+LUTPA prohibits “[u]nfair methods of competition and unfair or deceptive acts or practices
+in the conduct of any trade or commerce .”  La. R.S. 51:1405.  “A LUTPA claim must show (1)
+‘the plaintiff suffered an ascertainable loss; and (2) the loss must have resulted from another’s use
+of unfair methods of competition and unfair or deceptive acts or practices.’”  Dong Phuong Bakery,
+Inc. v. Gemini Soc ’y, LLC, 2022 WL 1488130, at *5 (E.D. La. May 11, 2022)  (quoting Express
+Lien, Inc. v. Nationwide Notice, Inc. , 2016 WL 7097382 , at * 7 (E.D. La. Dec. 5, 2016) ).  To
+recover under LUTPA,  “the plaintiff must prove some element of fraud, misrepresentation,
+
+115 R. Doc. 21 at 10.
+116 R. Doc. 22 at 8.
+117 R. Doc. 23 at 7.
+118 R. Doc. 22 at 13; see also R. Docs. 21 at 17; 23 at 10.
+Case 2:24-cv-02773-ASJ-EJD     Document 34     Filed 05/22/25     Page 33 of 36
+34
+
+deception or other unethical conduct.”  IberiaBank v. Broussard, 907 F.3d 826, 839 (5th Cir. 2018)
+(quotation omitted) .  “‘Collective pleading, where allegations are levied against multiple
+defendants without differentiation, does not pass muster.’”  Dong Phuong Bakery, Inc., 2022 WL
+1488130, at *5 (quoting Jackson v. Gautreaux, 2022 WL 717079, at *3 (M.D. La. Mar. 9, 2022)).
+Courts apply the same minimum-contacts analysis to LUTPA claims as to intentional-tort
+claims.  See, e.g., House of Raeford Farms of La. L.L.C. v. Poole, 2021 WL 3673901, at *4 (W.D.
+La. Mar. 18, 2021) (“Here, the torts alleged against the [d]efendants are fraud, LUTPA, conspiracy
+to commit these and other torts, negligence, and unjust enrichment.  Perpetrating fraud on a
+plaintiff in a forum state, whether through misrepresentation or omission, satisfies minimum
+contacts, even if the defendant was not phys ically within the forum state when the fraud was
+committed.”).  Here, Plaintiffs have not alleged their LUTPA claims with sufficient detail for the
+Court to begin to evaluate the Defendants’ minimum contacts under that test.  Plaintiffs generally
+allege that Roe and Pavlov “actively engaged in fraudulent conduct to … receive benefits from”
+and misuse the “proprietary information” of Plaintiffs.119  As to Bohr Energy, they vaguely allege
+that it is a “direct beneficiary of” and “active participant ” in Roe and Pavlov’s unspecified
+“fraudulent conduct.”120  Without any description of the alleged “fraudulent conduct” giving rise
+to these claims,  the Court cannot evaluate whether that conduct was directed at Plaintiffs in
+Louisiana.  Thus, the Court grants Defendants’ motion to dismiss Plaintiffs’ LUTPA claims under
+Rule 12(b)(2), but without prejudice to Plaintiffs’ amending their petition to plead additional facts
+showing each Defendants’ contacts with the forum related to those claims.  Though the Court does
+not reach the Defendants’  challenges to the LUTPA claims under Rule  12(b)(6), it notes that,
+because Plaintiffs have not sufficiently alleged their LUTPA claims with sufficient particularity to
+
+119 R. Doc. 2-1 at 7.
+120 Id.
+Case 2:24-cv-02773-ASJ-EJD     Document 34     Filed 05/22/25     Page 34 of 36
+35
+
+apply the minimum -contacts analysis for intentional torts,  their LUTPA allegations necessarily
+also fail to meet Rule 9(b)’s pleading requirements, which apply to LUTPA claims that “raise the
+issue of fraud.”  Rahman v. Allstate Ins. Co., 644 F. Supp. 3d 231, 241 (E.D. La. 2022).
+III. CONCLUSION
+Accordingly, for the foregoing reasons,
+IT IS ORDERED that Roe’s motion to dismiss (R. Doc. 15) is GRANTED in part and
+DENIED in part.  As to Plaintiffs’ fraudulent -inducement claim  against Roe, his  motion is
+GRANTED for failure to state a claim pursuant to Rule 12(b)(6) , and that claim is DISMISSED
+WITHOUT PREJUDICE  to filing an amended complaint pleading the claim with sufficient
+particularity.  As to Plaintiffs’ breach -of-contract claim against Roe, his motion is DENIED
+without prejudice to refiling once the viability of Plaintiffs’ fraudulent-inducement claim has been
+determined.  As to Plaintiffs’ LUTPA claim against Roe, his motion is GRANTED  for lack of
+personal jurisdiction pursuant to Rule 12(b)(2) , and that claim is DISMISSED WITHOUT
+PREJUDICE.
+IT IS FURTHER ORDERED that Pavlov’s motion to dismiss (R. Doc. 17) is GRANTED
+in part and DENIED in part.  As to Plaintiffs’ breach-of-contract claim against Pavlov, his motion
+is DENIED.  As to Plaintiffs’ LUTPA claim against Pavlov, his motion is GRANTED for lack of
+personal jurisdiction pursuant to Rule 12(b)(2) , and that claim is DISMISSED WITHOUT
+PREJUDICE.
+IT IS FURTHER ORDERED that Bohr Energy’s motion to dismiss Plaintiffs’ LUTPA
+claim against it (R. Doc . 16 ) is GRANTED for lack of personal jurisdiction pursuant to Rule
+12(b)(2), and that claim is DISMISSED WITHOUT PREJUDICE.
+Case 2:24-cv-02773-ASJ-EJD     Document 34     Filed 05/22/25     Page 35 of 36
+36
+
+IT IS FURTHER ORDERED that Plaintiffs are granted leave to file an amended complaint
+alleging additional facts to meet Rule 9(b)’s heightened pleading requirements for fraud so as to
+state a claim for fraudulent inducement, and, as to their LUTPA claim, to establish personal
+jurisdiction.  Any amended complaint shall be filed within fourteen (14) days from the date this
+Order is issued, and failure to timely file an amended complaint curing the noted deficiencies will
+lead to dismissal with prejudice.
+New Orleans, Louisiana, this 22nd day of May, 2025.
+
+________________________________
+      BARRY W. ASHE
+      UNITED STATES DISTRICT JUDGE
+Case 2:24-cv-02773-ASJ-EJD     Document 34     Filed 05/22/25     Page 36 of 36
