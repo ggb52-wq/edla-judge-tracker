@@ -1,0 +1,1610 @@
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+STATE OF LOUISIANA, ET AL. CIVIL ACTION
+
+VERSUS NO. 23-1839
+
+DEPARTMENT OF HOMELAND
+SECURITY, ET AL.
+SECTION: “P” (1)
+
+ORDER AND REASONS
+
+  Before the Court are Defendants’ Motion to Dismiss Plaintiffs’ Complaint (R.
+Doc. 47) and Plaintiffs’ Motion for Preliminary Injunction (R. Doc. 14).  Both motions are
+opposed and have been fully briefed by the parties.  For the reasons that follow, the Court
+finds that Defendants’ Motion to Dismiss Plaintiffs’ Complaint (R. Doc. 47) should be
+GRANTED IN PART and DENIED IN PART, and Plaintiffs’ Motion for Preliminary
+Injunction (R. Doc. 14) in advance of trial on the merits should be DENIED.
+I. BACKGROUND
+This case arises out of the Federal Emergency Management Agency’s (“FEMA”)
+changes to the methodology it uses to calculate premiums for flood insurance provided
+through the National Flood Insurance Program (“NFIP”).  Plaintiffs allege FEMA’s new
+methodology, known as “Risk Rating 2.0— Equity in Action,” exceeds FEMA’s statutory
+authority, is not in accordance with law, is contrary to a constitutional right, and was
+implemented without observance of the procedures required by law. 1
+
+1 R. Doc. 1 ¶¶ 548–659.
+Case 2:23-cv-01839-DJP-JVM   Document 100   Filed 03/28/24   Page 1 of 56
+2
+
+The NFIP is a federal flood insurance program created by Congress for the purpose
+of making flood insurance available on a nationwide basis. 2  Before the NFIP, most
+Americans lacked access to flood insurance and had to rely primarily on federal disaster
+relief after floods, as most private insurers could not profitably underwrite flood insurance
+policies with reasonable terms and therefore did not do so. 3  To remedy this problem and
+to reduce fiscal pressure on federal relief efforts after recurring flood disasters, Congress
+created the NFIP though the National Flood Insurance Act of 1968 (“NFIA”). 4
+Congress tasked FEMA with administering the NFIP. 5  FEMA offers flood
+insurance through the NFIP to all property owners who live in communities that choose to
+adopt minimum floodplain management standards. 6  Under the NFIA, FEMA has the
+authority to estimate and set premium rates for NFIP policies.7
+ In April 2021, FEMA announced it was updating the NFIP’s pricing methodology
+for the first time in 50 years.8  According to FEMA’s announcement, the new methodology,
+Risk Rating 2.0—Equity in Action, “allows FEMA to equitably distribute premiums across
+
+2 R. Doc. 1 ¶ 16 (citing 42 U.S.C. § 4001(a)).
+3 R. Doc. 1 ¶¶ 111–12; see also 42 U.S.C. § 4001(a)–(b).
+4 R. Doc. 1 ¶ 113; see also 42 U.S.C. § 4001(a)–(b).
+5 R. Doc. 1 ¶ 16 (citing 42 U.S.C. § 4011(a)).
+6 R. Doc. 1 ¶ 133 (citing 42 U.S.C. § 4022(a)(1) ). According to Plaintiffs, “[k]ey conditions of the NFIP
+minimum standards include requiring permits for developments in certain areas; requiring elevation of the
+lowest floor of all new residential buildings in certain areas; restricting development in the regulatory
+floodway to prevent increasing the risk of flooding; and requiring certain construction materials and
+methods that minimize future flood damage.” Id.
+7 R. Doc. 1 ¶ 558 (citing 42 U.S.C. §§ 4014, 4015).
+8 R. Doc. 1 ¶ 172 (citing FEMA Updates Its Flood Insurance Rating Methodology to Deliver More
+Equitable Pricing, FEMA (Apr. 1, 2021), https://perma.cc/QF9V- V6MR [hereinafter FEMA
+Announcement]). Throughout this paragraph, for purposes of providing relevant background information,
+the Court includes statements made by FEMA in the cited announcement. The Court takes no position on
+the truth of the matters asserted by FEMA; rather, the Court merely takes judicial notice that FEMA made
+these statements in its announcement. See FED. R. EVID. 201.
+Case 2:23-cv-01839-DJP-JVM   Document 100   Filed 03/28/24   Page 2 of 56
+3
+
+all policyholders based on the value of their home and the unique flood risk of their
+property.”9  FEMA further explained that under the former rating system (hereinafter, the
+“Legacy Rating System” or “Legacy”), “many policyholders with lower value homes
+[were] paying more than they should and policyholders with higher-value homes [were]
+paying less than they should.”10  But with Risk Rating 2.0, “FEMA now has the capability
+and tools to address rating disparities by incorporating more flood risk variables.  These
+include flood frequency, multiple flood types—river overflow, storm surge, coastal erosion
+and heavy rainfall—distance to water source and property characteristics such as elevation
+and cost to rebuild.” 11  According to FEMA, “[t]he cost to rebuild is key to an equitable
+distribution of premiums across all policyholders because it is based on the value of their
+home and the unique flood risk of their property[,]” which “has been an industry standard
+for years.”12
+FEMA then announced it would be taking a phased approach to rolling out the new
+rates.13  In Phase 1, Risk Rating 2.0 premium rates were applied to new policyholders with
+policies effective on or after October 1, 2021.  For policyholders with policy effective dates
+between October 1, 2021 and March 31, 2022, Legacy premium rates were applied upon
+renewal of the policy, with policyholders given the option of instead renewing using Risk
+
+9 FEMA Announcement, supra note 8.
+10 FEMA Announcement, supra note 8.
+11 FEMA Announcement, supra note 8.
+12 FEMA Announcement, supra note 8.
+13 FEMA Announcement, supra note 8.
+Case 2:23-cv-01839-DJP-JVM   Document 100   Filed 03/28/24   Page 3 of 56
+4
+
+Rating 2.0 pricing.  In Phase 2, Risk Rating 2.0 premium rates were applied to all remaining
+policyholders at their time of renewal on or after April 1, 2022.14
+Plaintiffs filed this lawsuit on June 1, 2023, challenging the constitutional, statutory,
+and procedural validity of Risk Rating 2.0.15  Plaintiffs are the State of Louisiana and nine
+other states; 16 more than sixty Louisiana municipal entities, including parishes,
+municipalities, and levee and drainage districts; and one Louisiana non-profit organization.
+According to Plaintiffs, Risk Rating 2.0 fundamentally changes how FEMA calculates
+rates for federal flood insurance  and is producing alarming results .  In the nine-count
+Complaint, Plaintiffs assert Risk Rating 2.0 is (1) contrary to law in four different ways;
+(2) arbitrary and capricious for failing to account for important aspects of the problem and
+considering other inappropriate factors; (3) arbitrary and capricious for failure to consider
+reliance interests; (4) arbitrary and capricious for departing from prior policy without
+sufficient justification; (5) arbitrary and capricious because it rests on pretextual bases; (6)
+in violation of the APA’s notice-and-comment requirement; (7) in excess of FEMA’s
+statutory authority; (8) contrary to a constitutional right; and (9) in violation of the National
+Environmental Policy Act (“NEPA”).  Plaintiffs ask this Court to declare and hold that
+Risk Rating 2.0 is unlawful and to preliminarily and permanently enjoin Defendants from
+imposing Risk Rating 2.0.  Defendants are the Department of Homeland Security (“DHS”);
+Alejandro Mayorkas, in his official capacity as Secretary of DHS; FEMA; Deanne
+
+14 See R. Doc. 1 ¶ 173; see also FEMA Announcement, supra note 8.
+15 See generally R. Doc. 1.
+16 These are Florida, Idaho, Kentucky, Mississippi, Montana, North Dakota, South Carolina, Texas, and
+Virginia.  R. Doc. 1 ¶¶ 32–41.
+Case 2:23-cv-01839-DJP-JVM   Document 100   Filed 03/28/24   Page 4 of 56
+5
+
+Criswell, in her official capacity as Administrator of FEMA; and the Federal Insurance and
+Mitigation Administration.
+Shortly after Plaintiffs instituted this lawsuit, they filed a motion for preliminary
+injunction, and Defendants filed a motion to dismiss for lack of subject matter jurisdiction
+pursuant to Federal Rule of Civil Procedure 12(b)(1).  Both motions are opposed.  Because
+the Court cannot issue a preliminary injunction unless it has subject matter jurisdiction over
+Plaintiffs’ claims, the Court must first address Defendants’ motion to dismiss.
+II. MOTION TO DISMISS
+Defendants move the Court to dismiss Plaintiffs’ Complaint in its entirety for lack
+of subject matter jurisdiction because Plaintiffs lack Article III standing to bring any of the
+claims they raise.  Defendants alternatively ask the Court to dismiss Count IX of Plaintiffs’
+Complaint on the basis that Plaintiffs lack statutory standing to assert their NEPA claim.
+A. ARTICLE III STANDING
+1. Legal Standard
+ Article III of the United States Constitution limits the jurisdiction of federal courts
+to “Cases” and “Controversies.” 17  “[T]he case-or-controversy limitation is crucial in
+maintaining the ‘tripartite allocation of power’ set forth in the Constitution.” 18  The
+doctrine of standing is one of several doctrines that “provides definition to this
+constitutional limit by ‘identify[ing] those disputes which are appropriately resolved
+
+17 U.S. CONST. art. III, § 2.
+18 DaimlerChrysler Corp. v. Cuno, 547 U.S. 332, 341 (2006) (citing Valley Forge Christian Coll. v. Ams.
+United for Separation of Church and State, Inc., 454 U.S. 464, 474 (1982)).
+Case 2:23-cv-01839-DJP-JVM   Document 100   Filed 03/28/24   Page 5 of 56
+6
+
+through the judicial process.’” 19  Plaintiffs, as the parties invoking jurisdiction, bear the
+burden of satisfying the Article III requirement by demonstrating that they have standing
+to adjudicate their claims in federal court.20
+The constitutional minimum of standing, i.e., “Article III standing,” contains three
+elements.21  “First, the plaintiff must have suffered an ‘injury in fact’ —an invasion of a
+legally protected interest which is (a) concrete and particularized and (b) actual or
+imminent, not conjectural or hypothetical.” 22  “Although imminence is concededly a
+somewhat elastic concept, it cannot be stretched beyond its purpose, which is to ensure that
+the alleged injury is not too speculative for Article III purposes.”23  Thus, courts “have
+repeatedly reiterated that ‘threatened injury must be certainly impending to constitute
+injury in fact,’ and that ‘[a]llegations of possible future injury’ are not sufficient.” 24
+“Second, there must be a causal connection between the injury and the conduct complained
+of—the injury has to be ‘fairly traceable to the challenged action of the defendant, and not
+the result of the independent action of some third party not before the court.’”25  “Third, it
+must be ‘likely,’ as opposed to merely ‘speculative,’ that the injury will be ‘redressed by a
+favorable decision.’”26
+
+19 Crane v. Johnson, 783 F.3d 244, 251 (5th Cir. 2015) (citing Lujan v. Defs. of Wildlife, 504 U.S. 555, 560
+(1992)).
+20 Ramming v. United States, 281 F.3d 158, 161 (5th Cir. 2001).
+21 See Lujan, 504 U.S. at 560; Clapper v. Amnesty Int’l USA, 568 U.S. 398, 409 (2013).
+22 Lujan, 504 U.S. at 560 (citations omitted).
+23 Clapper, 568 U.S. at 409 (citing Lujan, 504 U.S. at 565 n.2).
+24 Id. (quoting Whitmore v. Arkansas, 495 U.S. 149, 158 (1990) (emphasis added)).
+25 Lujan, 504 U.S. at 560 (cleaned up) (quoting Simon v. E. Ky. Welfare Rights Org., 426 U.S. 26, 41–42
+(1976)).
+26 Id. at 561 (quoting Simon, 426 U.S. at 38, 43).
+Case 2:23-cv-01839-DJP-JVM   Document 100   Filed 03/28/24   Page 6 of 56
+7
+
+Questions regarding constitutional standing implicate the court’s subject matter
+jurisdiction; thus, challenges to constitutional standing are evaluated as a Rule
+12(b)(1) motion to dismiss for lack of subject matter jurisdiction.27  In determining whether
+the court has subject matter jurisdiction at the motion to dismiss stage, the court must accept
+as true the allegations set forth in the complaint.28  The court is not limited to the complaint,
+however, as the court is also “empowered to consider matters of fact which may be in
+dispute.”29  The court may dismiss for lack of subject matter jurisdiction based on “(1) the
+complaint alone; (2) the complaint supplemented by undisputed facts evidenced in the
+record; or (3) the complaint supplemented by undisputed facts plus the court's resolution
+of disputed facts.”30
+2. Law and Analysis
+ Plaintiffs collectively assert four types of injuries allegedly caused by Risk Rating
+2.0: (1) injuries to the Plaintiff States’ sovereign interests; (2) injuries to the Plaintiff States’
+quasi-sovereign interests; (3) various injuries to all Plaintiffs’ proprietary interests; and (4)
+deprivation of all Plaintiffs’ procedural rights under the APA.31  Defendants argue none of
+these claimed injuries give rise to standing because they fail to satisfy one or more of the
+
+27 See FED. R. CIV. P. 12(b)(1).
+28 Crane, 783 F.3d at 250–51 (citing Choice Inc. of Tex. v. Greenstein, 691 F.3d 710, 714 (5th Cir. 2012)).
+29 Id. at 251 (citing Ramming, 281 F.3d at 161).
+30 Id. (citing Wolcott v. Sebelius, 635 F.3d 757, 762 (5th Cir. 2011)).
+31 All parties appear to agree that a procedural injury without some other concrete injury is an insufficient
+basis for Article III standing. See Louisiana v. Biden, 64 F.4th 674, 683 (5th Cir. 2023). In other words, a
+procedural injury alone will not confer standing; instead, Plaintiffs must show some other legally protected
+interest, e.g.,  a sovereign, qua si-sovereign, or proprietary  interest, harmed by Defendants’  actions.
+Accordingly, for purposes of this analysis, the Court will consider Plaintiffs’ other , purported bases for
+standing and will not address Plaintiffs’ alleged, procedural injuries.
+Case 2:23-cv-01839-DJP-JVM   Document 100   Filed 03/28/24   Page 7 of 56
+8
+
+elements required: injury in fact, traceability, and/or redressability.  In response, Plaintiffs
+argue they have alleged several different theories of standing and have supported t hose
+theories with evidence filed in the record.  The Court addresses Plaintiffs’ theories in turn
+below.
+a. Plaintiff States’ Sovereign Interests
+“States have sovereign interests by virtue of their being co -sovereigns in our
+Nation’s federalism.” 32  The Supreme Court has identified two types of sovereign
+interests.33  “First, the exercise of sovereign power over individuals and entities within the
+relevant jurisdiction—this involves the power to create and enforce a legal code, both civil
+and criminal.”34  And “second, the demand for recognition from other sovereigns—most
+frequently this involves the maintenance and recognition of borders.”35  Only the first is at
+issue here.  Pursuant to States’ sovereign interest in the power to enforce and create a legal
+code,
+States may have standing based on (1) federal assertions of authority to
+regulate matters [the states] believe they control, (2) federal preemption of
+state law, or (3) federal interference with the enforcement of state law, at
+least where “the state statute at issue regulates behavior or provides for the
+administration of a state program” and does not “simply purport to immunize
+state citizens from federal law.”36
+
+In relevant part, Plaintiffs allege that Risk Rating 2.0: (1) harms the Plaintiff States’
+sovereign interests by eliminating the parallel role the States have traditionally played in
+
+32 Louisiana v. Nat’l Oceanic & Atmospheric Admin., 70 F.4th 872, 877 (5th Cir. 2023).
+33 Id. (citing Alfred L. Snapp & Son, Inc. v. Puerto Rico ex rel. Barez, 458 U.S. 592, 601 (1982)).
+34 Id. (citing Alfred L. Snapp & Son, Inc., 458 U.S. at 601).
+35 Id. (citing Alfred L. Snapp & Son, Inc., 458 U.S. at 601).
+36 Texas v. United States, 809 F.3d 134, 153 (5th Cir. 2015) (cleaned up) (footnotes omitted).
+Case 2:23-cv-01839-DJP-JVM   Document 100   Filed 03/28/24   Page 8 of 56
+9
+
+the flood insurance program; 37 (2) interferes with the States’ ability to manage flood
+mitigation and relief efforts by discouraging mitigation; 38 and (3) contradicts the goals of
+the States by discouraging flood mitigation projects and discouraging individuals and
+businesses from participating in the NFIP. 39  Defendants argue these allegations fail to
+plausibly allege an injury to the States’ sovereign interest because there is no allegation
+that Risk Rating 2.0 affects the Plaintiff States’ ability to create or enforce state laws.  The
+Court agrees, and Plaintiffs’ arguments and examples in their opposition memorandum fare
+no better in establishing that Plaintiffs have plausibly alleged an injury to the States’
+sovereign interest in enforcing their legal codes caused by Risk Rating 2.0.
+As mentioned above, to be eligible for flood insurance provided through the NFIP,
+the property being insured must be located in a community that has adopted FEMA’s
+minimum floodplain management standards.  The floodplain management regulations the
+community must adopt are based on a community’s flood insurance rate maps (“FIRMs”).
+Plaintiffs contend that prior to Risk Rating 2.0, FEMA used FIRMs to establish the
+floodplain management regulations necessary for participation in the NFIP , and FEMA
+also set premium rates based on a property’s location and elevation in a FIRM flood zone.
+Now, under Risk Rating 2.0, FEMA calculates rates using additio nal geographical and
+structural variables, but the floodplain management regulations NFIP communities are
+required to adopt are still based on a community’s FIRMs.  This is the change upon which
+
+37 R. Doc. 1 ¶ 279 (all Plaintiff States make same allegation).
+38 R. Doc. 1 ¶ 281 (all Plaintiff States make same allegation).
+39 R. Doc. 1 ¶ 283 (all Plaintiff States make same allegation).
+Case 2:23-cv-01839-DJP-JVM   Document 100   Filed 03/28/24   Page 9 of 56
+10
+
+Plaintiffs base their argument that Risk Rating 2.0 harms the  Plaintiff States’ sovereign
+interest in enforcing their legal codes.  Plaintiffs use Louisiana as an example.  They
+contend that after the federal government enacted the NFIA, the State of Louisiana enacted
+Louisiana Revised Statute § 38:84(A)–(B), which provides:
+A. In order to secure for the citizens of the state of Louisiana the flood
+insurance coverage provided for by the National Flood Insurance Act of
+1968, 42 USC 4001 et seq., all of the parishes and municipalities of the state
+may adopt such ordinances, rules, and regulations, including zoning and land
+use regulations, as are necessary to comply with the requirements of said Act
+and the regulations adopted pursuant thereto by the Federal Emergency
+Management Agency.
+B. The office of engineering shall cooperate with the Federal Insurance
+Administrator of the Federal Emergency Management Agency in the
+planning and carrying out of state participation in the National Flood
+Insurance Program and shall aid, advise, and cooperate with parishes and
+municipalities endeavoring to qualify for participation in said program.
+
+According to Plaintiffs, this statute is evidence of the S tates’ cooperative
+relationship with the federal government in establishing and maintaining a program to
+promote and encourage flood insurance.  And they argue the federal government has
+reinforced this cooperative relationship by working with state and local entities to develop
+floodplain management regulations but that this cooperation has been frustrated by Risk
+Rating 2.0.  More specifically, because FEMA’s own regulations articulate detailed criteria
+for developing floodplain management regulations based on a community’s FIRMs, but
+Risk Rating 2.0 no longer uses FIRMs to set rates, Plaintiffs contend state and federal law
+require compliance with something that is no longer relevant to the flood insurance
+program and that this (1) discourages participation in the program and (2) frustrates the
+very core of Louisiana’s law which is to “secure for the citizens of the state of Louisiana
+Case 2:23-cv-01839-DJP-JVM   Document 100   Filed 03/28/24   Page 10 of 56
+11
+
+the flood insurance coverage provided for by the NFIA.” 40  Even accepting Plaintiffs ’
+arguments as true, Plaintiffs still have not shown that Risk Rating 2.0 tangibly interferes
+with the Plaintiff States’ ability to create or enforce state law.41
+Moreover, Louisiana Revised Statute § 38:84(A), the state law provision upon
+which P laintiffs rely, merely authorizes the parishes and municipalities of the State  of
+Louisiana to adopt the floodplain management regulations required by FEMA to be eligible
+for the flood insurance coverage provided for by the NFIA.  Plaintiffs have neither alleged
+nor shown that Risk Rating 2.0 interferes in any way with Louisiana’s power to authorize
+its parishes and municipalities to adopt such regulations.  For all these reasons, the Court
+finds the Plaintiff States have failed to plausibly allege any injury to their sovereign
+interests caused by Risk Rating 2.0.
+b. Plaintiff States’ Quasi-Sovereign Interests
+Quasi-sovereign interests “consist of a set of interests that the State has in the well-
+being of its populace.”42  The Supreme Court has recognized two types of quasi-sovereign
+interests.  “First, a State has a quasi-sovereign interest in the health and well-being—both
+physical and economic—of its residents in general. Second, a State has a quasi-sovereign
+interest in not being discriminatorily denied its rightful status within the federal system.”43
+
+40 R. Doc. 75 at 22–23.
+41 See Harrison v. Jefferson Par. Sch. Bd., 78 F.4th 765, 770 (5th Cir. 2023) (cleaned up) (“Given that the
+roots of [sovereign] interests are found in federalism, for a sovereign interest to serve as a cognizable injury
+for federal standing, ‘the acts of the defendant must invade the [state’s] sovereign right, resulting in some
+tangible interference with its authority to regulate or to enforce its laws.’”).
+42 Louisiana v. Nat’l Oceanic & Atmospheric Admin., 70 F.4th 872, 877 (5th Cir. 2023) (quoting Alfred L.
+Snapp & Son, Inc. v. Puerto Rico ex rel. Barez, 458 U.S. 592, 602 (1982)).
+43 Id. at 877–78 (quoting Alfred L. Snapp & Son, Inc., 458 U.S. at 607).
+Case 2:23-cv-01839-DJP-JVM   Document 100   Filed 03/28/24   Page 11 of 56
+12
+
+Typically, when a State brings an action based on alleged injuries to its quasi-sovereign
+interests, the State is deemed to have brought the suit as parens patriae.44
+Defendants argue the Plaintiff States do not have standing as parens patriae to bring
+an action against the federal government.  According to Defendants, this established rule
+vitally protects the dual sovereignty undergirding federalism: Because the federal
+government has its own sovereign relationship with its citizens, States are precluded from
+asserting those citizens’ interest against the federal government. 45  In response, Plaintiffs
+argue that Defendants ignore the category of cases States are permitted to bring against the
+federal government under a quasi-sovereign theory of standing—that is, cases wherein the
+States are actually asserting some injury to their own interests separate and apart from their
+citizens’ interests.46  The Court need not determine whether Plaintiffs may sue Defendants
+based on an alleged injury to their quasi-sovereign interests, because even if they could,
+the Plaintiff States have failed to plausibly allege any injury in fact to their quasi-sovereign
+interests caused by Risk Rating 2.0.47
+In the Complaint, Plaintiffs conclusively allege Risk Rating 2.0 “harms [the States’]
+quasi-sovereign interests.” 48  In the paragraphs that follow, Plaintiffs allege that the
+Plaintiff States have “an interest in preserving [their] sovereign territory and [their]
+
+44 See, e.g., Alfred L. Snapp & Son, Inc., 458 U.S. at 602–08; Harrison, 78 F.4th at 772.
+45 R. Doc. 47-1 at 23 (first citing Massachusetts v. Mellon, 262 U.S. 447, 485 –86 (1923); and then citing
+Massachusetts v. EPA, 549 U.S. 497, 520 n.17 (2007)).
+46 R. Doc. 75 at 27 (first citing Georgia v. Tenn. Copper Co., 206 U.S. 230 (1907); and then citing Kentucky
+v. Biden, 23 F.4th 585, 596 (6th Cir. 2022)).
+47 See Harrison, 78 F.4th at 769 (“‘States are not normal litigants for the purposes of invoking federal
+jurisdiction.’ But they, too, are bound by Article III’s standing requirements.”).
+48 R. Doc. 1 ¶¶ 284 (Louisiana), 305 (Florida), 327 (Idaho), 348 (Kentucky), 368 (Mississippi), 388
+(Montana), 409 (North Dakota), 429 (South Carolina), 449 (Texas), 470 (Virginia).
+Case 2:23-cv-01839-DJP-JVM   Document 100   Filed 03/28/24   Page 12 of 56
+13
+
+habitability by ensuring adequate flood mitigation infrastructure is built and maintained to
+protect the land and property in [their] borders, and that compulsory , unaffordable flood
+insurance does not render the land and property uninhabitable.”49  The Plaintiff States also
+allege that they have an “interest in the ‘health, comfort, and welfare’ of [their] citizens”
+and that “[t]his interest is particularly pronounced when federal actions are threatening to
+make housing in [their respective states] entirely unaffordable.” 50 In their opposition
+memorandum, Plaintiffs slightly alter their position to support their theory of standing
+based on an injury to a quasi-sovereign interest that falls under the umbrella of cases that
+Plaintiffs believe are permissible, i.e., asserting an injury to their own interests separate
+and apart from their citizens’ interests.  There, Plaintiffs argue that Risk Rating 2.0
+“implicates [S]tates’ power to make and enforce policies and regulations related to the
+health and safety of its citizens ” and that “inherent in this power is [the Plaintiff States’]
+interest in promoting participation in the NFIP.”51
+Although it is difficult to discern precisely what quasi-sovereign interests the
+Plaintiff States believe are at stake in this litigation, the Court nevertheless construes the
+allegations in the light most favorable to Plaintiffs and finds that the Plaintiff States are
+attempting to allege an injury to their quasi-sovereign interests in preserving the land within
+their respective borders, i.e., their “sovereign territory.” 52  Indeed, relying on
+
+49 R. Doc. 1 ¶ ¶ 285 (Louisiana) , 306 (Florida), 328 (Idaho), 349 (Kentucky), 369 (Mississippi), 389
+(Montana), 410 (North Dakota), 430 (South Carolina), 450 (Texas), 471 (Virginia).
+50 R. Doc. 1 ¶ ¶ 286 (Louisiana) , 307 (Florida), 329 (Idaho), 350 (Kentucky), 370 (Mississippi), 390
+(Montana), 411 (North Dakota), 431 (South Carolina), 451 (Texas), 472 (Virginia).
+51 R. Doc. 75 at 27.
+52 See R. Doc. 1 ¶¶ 270, 271, 272, 274, 281, 283, 285, 286, 291. Presumably due to the confusion in the
+jurisprudence regarding the concept of quasi-sovereign interests, Plaintiffs’ opposition discusses the State
+Case 2:23-cv-01839-DJP-JVM   Document 100   Filed 03/28/24   Page 13 of 56
+14
+
+Massachusetts v. EPA 53 and Georgia v. Tenn essee Copper Co., 54 Plaintiffs argue that
+“much like the coastlines in Massachusetts and the air in Georgia,  the [Plaintiff States]
+ha[ve] an interest in maintaining mitigation efforts to reduce flooding on [their] land.” 55
+Plaintiffs further argue that because they have alleged that R isk Rating 2.0 no longer
+rewards mitigation efforts and that fewer people are undertaking mitigation projects
+because of Risk Rating 2.0’s increased cost of flood insurance, the Plaintiff States have
+shown that their interest “in all the earth and air within [their] domain” is harmed by Risk
+Rating 2.0.56
+In Georgia v. Tennessee Copper Co., the State of Georgia sought to enjoin copper
+companies in neighboring Tennessee from discharging pollutants that were inflicting “a
+wholesale destruction of forests, orchards and crops” in bordering Georgia counties. 57
+Recognizing Georgia’s standing to bring the action, the Supreme Court explained:
+The case has been argued largely as if it were one between two private
+parties; but it is not. The very elements that would be relied upon in a suit
+between fellow-citizens as a ground for equitable relief are wanting here. The
+state owns very little of the territory alleged to be affected, and the damage
+to it capable of estimate in money, possibly, at least, is small. This is a suit
+by a state for an injury to it in its capacity of quasi-sovereign. In that capacity
+the state has an interest independent of and behind the titles of its citizens, in
+all the earth and air within its domain. It has the last word as to whether its
+
+of Louisiana’s injury to its interest in “all the earth and air within its domain” in the section on injurie s to
+the States’ sovereign interests. See R. Doc. 75 at 24–25. The case law Plaintiffs cite, however, classifies
+this type of interest as a quasi- sovereign interest. See R. Doc. 75 at 24–25  (first citing Massachusetts v.
+EPA, 549 U.S. 497, 519 (2007); and then citing Georgia v. Tenn. Copper Co., 206 U.S. 203, 237 (1907));
+see also Alfred L. Snapp & Son, Inc., 458 U.S. at 604.  Thus, this Court has chosen to analyze Plaintiffs’
+allegations and arguments in this section of its Order and Reasons as opposed to the sovereign interest
+section.
+53 549 U.S. at 519.
+54 206 U.S. at 237.
+55 R. Doc. 75 at 24–25.
+56 R. Doc. 75 at 25.
+57 206 U.S. 230, 236 (1907).
+Case 2:23-cv-01839-DJP-JVM   Document 100   Filed 03/28/24   Page 14 of 56
+15
+
+mountains shall be stripped of their forests and its inhabitants shall breathe
+pure air.58
+In Massachusetts v. EPA, the State of Massachusetts and other states, local
+governments, and private parties challenged the EPA’s denial of a rulemaking petition
+asking the EPA to regulate greenhouse gas emissions that were allegedly contributing to
+global warming.59  The EPA contested the petitioners’ standing to challenge its denial, but
+the Supreme Court disagreed. 60  Relying on the above-quoted portion of their opinion in
+Tennessee Copper Co., the Supreme Court stated, “Just as Georgia’s independent interest
+‘in all the earth and air within its domain’ supported federal jurisdiction a century ago, so
+too does Massachusetts’ well-founded desire to preserve its sovereign territory today.” 61
+The Court further explained that the petitioners’ submissions as they pertained  to
+Massachusetts established that the “EPA’s steadfast refusal to regulate greenhouse gas
+emissions present[ed] a risk of harm to Massachusetts that [was] both ‘actual’ and
+‘imminent.’”62  In particular, the Court found that the petitioners’ affidavits established
+global sea levels had risen as a result of global warming, the rising seas “had already begun
+to swallow Massachusetts’ coastal land,” and that the severity of the land loss would only
+continue to increase over the next century.63
+
+58 Id. at 237 (emphasis added).
+59 549 U.S. 497, 504–05 (2007).
+60 Id. at 505, 516–26.
+61 Id. at 518–19.
+62 Id. at 521 (citing Lujan v. Defs. of Wildlife, 504 U.S. 555, 560 (1992)).
+63 Id. at 521–23.
+Case 2:23-cv-01839-DJP-JVM   Document 100   Filed 03/28/24   Page 15 of 56
+16
+
+Here, however, the Plaintiff States have not alleged any actual or imminent injury
+to the earth or air within their domain. 64  At most, they have alleged a speculative injury
+that is based on a highly attenuated chain of possibilities. 65  Piecing together the Plaintiff
+States’ allegations, their theory seems to be that because Risk Rating 2.0 does not provide
+mitigation discounts, mitigation efforts in their respective states will decrease —either
+because individual citizens will decline to take mitigation efforts or because citizens will
+choose to move out of the state due to the high costs of flood insurance, reducing the tax
+revenues of the political subdivisions responsible for flood mitigation—thereby raising the
+risk and increasing the probability of severe damage to the land and property within the
+state.66  Contrary to the Plaintiff States’ position, though, this theory is unlike the injury to
+the quasi-sovereign interests that supported standing in Georgia v. Tennessee Copper Co.
+or Massachusetts v. EPA.  In both of those cases, the Supreme Court’s majority found that
+actual and concrete harm had occurred and was continuing to occur.67  Here, the Plaintiff
+States have not alleged any actual harm to the earth or air within their respective borders.
+Instead, the Plaintiff States base their parens patriae standing on a threatened injury to the
+land and property within their borders.  And while a threatened injury can support standing
+
+64 Cf. Georgia v. Tenn. Copper Co., 206 U.S. 203, 238–39 (1907) (finding noxious gas emitted in Tennessee
+was causing considerable damage to the forests and vegetation in Georgia); Massachusetts, 549 U.S. at
+522–23 (finding that Massachusetts had lost and would continue to lose its coastal land due to global
+warming).
+65 See Louisiana v. Biden, 64 F.4th 674, 682 (5th Cir. 2023) (citing Clapper v. Amnesty Int’l USA, 568 U.S.
+398, 410 (2013)).
+66 See R. Doc. 1 ¶¶ 281, 283, 285.
+67 See Tenn. Copper Co., 206 U.S. at 238–39 (finding noxious gas emitted in Tennessee was causing
+considerable damage to the forests and vegetation in Georgia); Massachusetts, 549 U.S. at 522–23 (finding
+that Massachusetts had lost and would continue to lose its coastal land due to global warming).
+Case 2:23-cv-01839-DJP-JVM   Document 100   Filed 03/28/24   Page 16 of 56
+17
+
+if it is “certainly impending,”68 the Plaintiff States ask this Court to find standing based on
+an injury that is entirely speculative and that rests on a highly attenuated chain of
+possibilities. “Allegations of possible future  injury” are insufficient to support standing. 69
+Accordingly, the Plaintiff States have not plausibly alleged an injury to their quasi-
+sovereign interests sufficient to confer standing. 70  And as a result, even if the Plaintiff
+States could invoke parens patriae standing in an action against the federal government,
+they have failed to carry their burden to establish such standing here.
+c. Proprietary Interests
+Like private litigants, States and the other governmental entities also have
+proprietary interests which may serve as a basis for standing. 71  Here, Plaintiffs contend
+their proprietary interests have been harmed based on several forms of economic injury.
+The Court addresses each in turn below.
+i. Loss of Tax Revenues
+The Plaintiff States allege that the higher insurance premiums under Risk Rating 2.0
+will cause residents to leave the Plaintiff States, depress property values within their
+respective States, and discourage individuals from purchasing property in the Plaintiff
+States, thereby reducing their tax bases, and lowering their tax revenues, which will
+ultimately hinder their ability to invest in future mitigation projects. 72   Relying on this
+
+68 Clapper, 568 U.S. at 410 (“[T]hreatened injury must be certainly impending to constitute injury in fact.”).
+69 Louisiana v. Biden, 64 F.4th 674, 681 (5th Cir. 2023) (citing Clapper, 568 U.S. at 409).
+70 See, e.g., Clapper, 568 U.S. at 410 (“[R]espondents’ theory of standing, which relies on a highly
+attenuated chain of possibilities, does not satisfy the requirement that threatened injury must be certainly
+impending.”).
+71 Louisiana v. Nat’l Oceanic & Atmospheric Admin., 70 F.4th 872, 878 (5th Cir. 2023).
+72 See, e.g., R. Doc. 1 ¶ 272, 273, 276, 277.
+Case 2:23-cv-01839-DJP-JVM   Document 100   Filed 03/28/24   Page 17 of 56
+18
+
+same causal chain, the Plaintiff Parishes allege they “will suffer financial harm as a result
+of property values decreasing and a lower tax base to fund future mitigation efforts.”73  And
+the Plaintiff Municipalities, Levee Districts, and Drainage Districts all allege “fewer people
+and high flood insurance rates mean that property values will decrease, leaving the
+[respective Plaintiffs] with fewer resources to invest in future mitigation projects.”74
+Under Fifth Circuit precedent, a state or political subdivision’s “loss of general tax
+revenues as an indirect result of federal policy is not a cognizable injury in fact.”75  This is
+because “virtually all federal policies” “will inevitably have economic impact” on state and
+local governments. 76  Thus, to avoid “ unwarranted litigation against the federal
+government,” courts “require more than incidental economic impact to establish a
+cognizable injury.”77  The state or local government “must establish a ‘direct link between
+its status as a collector and recipient of revenues and the action being challenged,’ such as
+the loss of a specific tax revenue, to have standing.”78
+Defendants argue Plaintiffs’ purported tax base injuries are precisely the type the
+Fifth Circuit has determined are insufficient for purposes of standing—that is, a loss of
+general tax revenue as an indirect result of federal policy.  In response, Plaintiffs contend
+they have alleged “a loss of specific tax revenues” sufficient to confer standing.  The
+Plaintiff Parishes, Municipalities, Levee Districts, and Drainage Districts all rely on the
+
+73 R. Doc. 1 ¶¶ 479–521.
+74 R. Doc. 1 ¶¶ 522–537.
+75 El Paso Cnty. v. Trump, 982 F.3d 332, 339 (5th Cir. 2020).
+76 Id. at 339–40.
+77 Id. at 340.
+78 Id. at 341.
+Case 2:23-cv-01839-DJP-JVM   Document 100   Filed 03/28/24   Page 18 of 56
+19
+
+same argument which differs from the arguments made by the Plaintiff States.  The Court
+considers these arguments in turn below.
+(1) Plain tiff Parishes, Municipalities, Levee Districts, and Drainage
+Districts
+The Plaintiff Parishes, Municipalities, Levee Districts, and Drainage Districts all
+contend they have alleged a loss of specific tax revenue because the Louisiana Constitution
+provides these Plaintiffs with the authority to levy ad valorem taxes, the collection of which
+will be reduced due to decreased property values caused by Risk Rating 2.0, and therefore
+the Plaintiffs will have fewer resources to mitigate against flood risks. 79  Plaintiffs
+analogize the loss of the ad valorem tax revenue to the loss of the severance tax revenue
+that the Supreme Court found sufficient to confer standing in Wyoming v. Oklahoma. 80
+Defendants contend that, despite having a technical name, ad valorem taxes  are simply
+general property taxes, broadly levied across all taxable Louisiana homeowners.  Thus,
+Defendants analogize these ad valorem taxes to the general income and sales taxes that the
+Fifth Circuit in El Paso County v. Trump held could not serve as a basis for Article III
+standing.81  Defendants further argue that the alleged loss of ad valorem tax revenue comes
+at the end of a highly attenuated chain of causation, such that even if the ad valorem taxes
+are “specific,” the alleged loss is still insufficient to confer standing because it is an indirect
+result of the challenged conduct.
+
+79 R. Doc. 75 at 18–19, 21.
+80 502 U.S. 437 (1992).
+81 982 F.3d at 359 (Dennis, J., dissenting) (characterizing the county’s sale and use tax revenue as “specific
+tax revenue,” despite the majority’s finding that the county had only alleged a loss of general tax revenue).
+Case 2:23-cv-01839-DJP-JVM   Document 100   Filed 03/28/24   Page 19 of 56
+20
+
+In Wyoming v. Oklahoma, the case upon which Plaintiffs rely, Wyoming challenged
+an Oklahoma state law that required Oklahoma utility companies to burn at least 10%
+Oklahoma-mined coal.82  Prior to the law’s enactment, the Oklahoma utilities purchased
+virtually all of their coal from Wyoming sources, and Wyoming collected severance tax on
+all coal extracted from the state.83  The Oklahoma law, therefore, caused Wyoming a direct
+injury in the form of hundreds of thousands of dollars of severance tax revenue on
+Wyoming-mined coal.84
+ Wyoming is distinguishable from the instant case.  Unlike the Oklahoma law’s direct
+impact on Wyoming’s severance tax collections, the chain of causation between Risk
+Rating 2.0 and any reduced ad valorem taxes is highly attenuated.  As the Fifth Circuit
+explained in El Paso, “incidental and attenuated harm is insufficient to grant a state or
+[local government] standing.” 85 Moreover, t his Court finds the Plaintiff Parishes,
+Municipalities, Levee Districts, and Drainage Districts’ tax base theory of standing is akin
+to the State of Florida’s theory in Florida v. Mellon, which the Supreme Court found was
+insufficient to invoke the jurisdiction of the court. 86  There, Florida sought to enjoin the
+federal government from collecting an inheritance tax in the state, arguing that it would
+cause Florida residents to remove property from the state, thereby “diminishing the subjects
+upon which the state power of taxation may operate.”87  The Supreme Court found the
+
+82 502 U.S. at 440.
+83 Id. at 442, 445.
+84 Id. at 450.
+85 982 F.3d at 341.
+86 273 U.S. 12 (1927).
+87 Id. at 17–18.
+Case 2:23-cv-01839-DJP-JVM   Document 100   Filed 03/28/24   Page 20 of 56
+21
+
+claimed injury to be “purely speculative, and, at most, only remote and indirect.” 88
+Explaining further, the Court stated, “Plainly, there is no substance  in the contention that
+the state has sustained, or is immediately in danger of sustaining, any direct injury as the
+result of the enforcement of the act in question.” 89  So too, here, Plaintiffs’ claimed
+economic injuries in the form of a reduction in their ad valorem tax collections are, at most,
+a remote and indirect consequence of Risk Rating 2.0.  Accordingly, the Plaintiff Parishes,
+Municipalities, Levee Districts, and Drainage Districts cannot establish standing based on
+this theory.
+(2) Plaintiff States
+The Plaintiff States also argue they have alleged an economic injury in the form of
+a loss of specific tax revenues.90  They rely on two separate arguments, both of which relate
+only to Louisiana and neither of which show that Louisiana has plausibly alleged an injury
+to their tax revenues sufficient to confer standing.
+First, Louisiana makes the following argument as to how it has alleged  a loss of
+specific tax revenue:
+Louisiana spends significant public funds in response to major flood events.
+Because of [Risk Rating 2.0], fewer people are undertaking mitigation
+projects, which leaves many areas more vulnerable to major flood events.
+The loss of funds directly harms the State’s ability to respond to these
+disasters. The State of Louisiana sets aside special funds to offset any
+unexpected expenses, and it has previously had to access those funds in
+response to extreme flooding. See La. Rev. Stat. § 39:94.91
+
+88 Id. at 18.
+89 Id.
+90 R. Doc. 75 at 29.
+91 R. Doc. 75 at 29 (citations omitted).
+Case 2:23-cv-01839-DJP-JVM   Document 100   Filed 03/28/24   Page 21 of 56
+22
+
+ As an initial matter, the Court notes that nowhere in this argument is the contention
+that Risk Rating 2.0 reduces the State’s collection of any tax revenue, general or specific.
+Instead, Louisiana seems to make the novel argument that it will sustain a loss of specific
+tax revenue based on the State’s increased spending on disaster recovery, the money for
+which will come from a “special fund” the State maintains using excess funds the State
+receives through tax revenues and other sources.92  The Court finds this argument misses
+the mark for several reasons. First, and critically, spending tax revenues and collecting tax
+revenues are not the same thing.  Despite its argument here, the State seems to recognize
+this point, given that one of the other forms of economic injur y the Plaintiff States allege
+they will suffer is increased spending on flood recovery. 93  Second, that the money spent
+comes from a “special fund,” as opposed to some general fund, is of no moment.  It is,
+
+92 See LA. REV. STAT. § 39:94(A)(1)–(5).
+A. There is hereby created in the state treasury a special fund to be designated as the Budget
+Stabilization Fund, hereafter referred to in this Section as the “fund”, which shall consist
+of all money deposited into the fund in accordance with Article VII, Section 10.3 of the
+Constitution of Louisiana. Money shall be deposited in the fund as follows:
+(1) All money available for appropriation from the state general fund and dedicated funds
+in excess of  the expenditure limit, except funds allocated by Article VII, Section 4,
+Paragraphs (D) and (E) of the Constitution of Louisiana, shall be deposited in the fund.
+(2)(a) All revenues received in each fiscal year by the state in excess of nine hundred fifty
+million dollars, hereinafter referred to as the “base,” as a result of the production of or
+exploration for minerals . . .
+(3) The greater of twenty -five million dollars from any source, or twenty- five percent of
+any money designated in the official forec ast as nonrecurring as provided in  Article VII,
+Section 10(D)(2) of the Constitution of Louisiana , shall annually be deposited in and
+credited to the fund.
+(4) Any money appropriated to the fund by the legislature including any appropriation to
+the fund from money designated in the official forecast as provided in Article VII, Section
+10(D)(2) of the Constitution of Louisiana shall be deposited in the fund.
+(5) An amount equivalent to the money received by the state from the federal government
+for the reimbursement of costs associated with a federally declared disaster, not to exceed
+the amount of costs appropriated out of the fund for the same disaster pursuant to Paragraph
+(C)(3) of this Section.
+Id.
+93 See discussion infra Section II.A.2.c.iii.
+Case 2:23-cv-01839-DJP-JVM   Document 100   Filed 03/28/24   Page 22 of 56
+23
+
+indeed, still money spent and not a decrease in revenues collected.  The above-quoted
+language does not provide any basis for this Court to find that Louisiana has plausibly
+alleged it will suffer an economic injury in the form of a loss of specific tax revenue as a
+result of Risk Rating 2.0.
+ Louisiana next argues that it has alleged a loss of specific tax revenue because,
+“given the sizeable presence of oil and gas production in the  State, the harm to those
+industries will reduce the severance tax levied on those lands. See La. Const. art. 7, § 4.”94
+Notwithstanding the fact that the Complaint contains no such allegation, this purported
+injury is far too attenuated from Risk Rating 2.0 to satisfy the Article III standing
+requirements.95  Indeed, Louisiana’s theory requires accepting that because of the increased
+NFIP premiums under Risk Rating 2.0, residents and businesses will leave the State and
+potential workers and businesses will choose not to come to the State, and that this
+population deficit will be significant enough to cause oil and gas production activities to
+decrease, ultimately resulting in a decrease in the  State’s collection of severance taxes
+levied on lands where such operations occur.  This is precisely the sort of incidental and
+attenuated effect on tax revenue that courts have found fails to satisfy the Article III
+standing requirements.96
+
+94 R. Doc. 75 at 29. The Court notes that the first mentioning of this severance tax, much less Risk Rating
+2.0’s impacts on the State’s severance tax revenues, came in Plaintiffs’ memorandum in opposition to
+Defendants’ motion to dismiss. Because it could be argued that the State’s more general allegations about
+its proprietary harm encompass these more specific allegations, the Court considers the argument here. The
+Court finds such consideration harmless given that Louisiana cannot establish standing based on such injury
+even if it had been alleged.
+95 Cf. Wyoming v. Oklahoma, 502 U.S. 437, 448 (1992) (conferring standing where the challenged action,
+i.e., Oklahoma’s law, had a direct impact on Wyoming’s collection of severance taxes).
+96 See El Paso Cnty. v. Trump, 982 F.3d 332, 341 (5th Cir. 2020); Florida v. Mellon, 273 U.S. 12, 18 (1927).
+Case 2:23-cv-01839-DJP-JVM   Document 100   Filed 03/28/24   Page 23 of 56
+24
+
+In summary, the Court finds the Plaintiff States have not plausibly alleged any loss
+of tax revenue that is a direct result of Risk Rating 2.0.  The allegations in the Complaint
+instead establish that there is a lengthy chain of causation between Risk Rating 2.0 and any
+possible loss of tax revenue, general or specific.  Louisiana’s arguments do not show
+otherwise.  Accordingly, this theory of standing fails.
+ii. Past Spending on Mitigation Efforts
+All Plaintiffs allege that they have previously spent public funds on mitigation
+efforts.
+ And while the Plaintiffs do not explicitly articulate this as a basis for standing for
+any of the Plaintiff groups in their opposition to Defendants’ motion to dismiss, the Plaintiff
+States raised it in their motion for preliminary injunction as irreparable harm they will
+suffer because of Risk Rating 2.0.  The Court therefore considers the argument here as a
+basis for standing.
+Plaintiffs allege that prior to Risk Rating 2.0, they spent public funds on mitigation
+projects that under the old rating methodology resulted in lower premiums for their
+residents.  Plaintiffs further allege that under Risk Rating 2.0, mitigation efforts are no
+longer rewarded, resulting in higher premiums for their residents.  Thus, Plaintiffs argue,
+Risk Rating 2.0 “imposes a substantial financial injury” on them because it “devalues” the
+mitigation efforts they were previously encouraged to undertake.97  Plaintiffs say very little
+else about this “financial injury” except that “the States have used significant public funds
+to support mitigation efforts.”98  Plaintiffs fail to explain how funds they voluntarily spent
+
+97 R. Doc. 14-2 at 41.
+98 R. Doc. 14-2 at 41.
+Case 2:23-cv-01839-DJP-JVM   Document 100   Filed 03/28/24   Page 24 of 56
+25
+
+in the past to  protect their residents from flood damage constitute an injury in fact that is
+fairly traceable to Risk Rating 2.0 or redressable by a favorable judicial decision.  And
+while the Court can see how the purported “devaluing” could make up part of the chain of
+causation that ultimately leads to some other economic injury, 99 the Plaintiffs have failed
+to show how the devaluing alone constitutes an injury in fact  to Plaintiffs.  For these
+reasons, Plaintiffs have failed to carry their burden to establish  standing based on this
+purported injury.
+iii. Increased Costs to Plaintiff States
+The Plaintiff States allege that Risk Rating 2.0 will cause them direct, proprietary
+harm in two related but distinct ways.  Both theories involve increased costs to the Plaintiff
+States as a result of Risk Rating 2.0 based on Plaintiffs’ allegations that higher premiums
+under Risk Rating 2.0 will cause fewer of their residents to carry flood insurance.
+First, the Plaintiff States allege that “State funds support rebuilding efforts after a
+flooding event”100 and that “increased premiums [under Risk Rating 2.0] will lead to fewer
+policies in force and less coverage, creating greater risk exposure.”101  Thus, they contend,
+they are financially harmed by Risk Rating 2.0 because it will cause them to spend more
+
+99 For example, Plaintiffs’ tax base theories all begin with the allegation that mitigation efforts are no longer
+rewarded under Risk Rating 2.0, which Plaintiffs contend leads to higher premiums for policyholders,
+resulting in lower property values, residents leaving the states , or choosing not to move to the states,
+ultimately lowering Plaintiffs’ tax revenues in one form or another. Of course, the Court found these injuries
+to be too indirect to support standing; they nevertheless provide an example of how devaluing could, in
+theory, lead to some other form of economic injury.
+100 R. Doc. 1 ¶¶ 265 (Louisiana), 312 (Florida), 334 (Idaho), 355 (Kentucky), 375 (Mississippi), 395
+(Montana), 416 (North Dakota), 436 (South Carolina), 456 (Texas), 477 (Virginia).
+101 R. Doc. 1 ¶ 240.
+Case 2:23-cv-01839-DJP-JVM   Document 100   Filed 03/28/24   Page 25 of 56
+26
+
+money rebuilding after future flood events.  The Court will refer to this as Plaintiffs’
+rebuilding cost theory.
+Second, the Plaintiff States allege that although Risk Rating 2.0 does not alter the
+mechanics of the grant programs mentioned below, the new methodology is nevertheless
+causing harm related to these programs.102  Plaintiffs contend that, through grant programs
+such as the Flood Mitigation Assistance Program and the Hazard Mitigation Grant
+Program, FEMA provides funding for projects aimed at mitigating flood risks, like the
+elevation of individual homes. 103  One of the conditions of receiving these grant funds is
+that the homeowner obtain and maintain flood insurance for the life of the structure,
+regardless of transfer of ownership.104  Plaintiffs further contend that FEMA relies on state
+and local governments to administer the mitigation projects funded through the grant
+programs,105 and “if a homeowner who is the recipient of such funds fails to obtain or
+maintain flood insurance as required, the State is required to pay back to FEMA the amount
+of funding that the non-compliant homeowner received.”106  The Plaintiff States thus argue
+they are harmed by Risk Rating 2.0 because the higher premiums will push people to drop
+their mandatory flood insurance, which will in turn increase the States’ liability to FEMA
+for the reimbursement of the funds received by the non-compliant homeowners. 107  The
+Court will refer to this as Plaintiffs’ reimbursement cost theory.  The Plaintiff States
+
+102 R. Doc. 1 ¶ 211.
+103 R. Doc. 1 ¶ 141; R. Doc. 1-1 ¶ 36.
+104 R. Doc. 1 ¶ 142; R. Doc. 1-1 ¶ 36.
+105 R. Doc. 1 ¶ 143; R. Doc. 1-1 ¶ 38.
+106 R. Doc. 1 ¶ 144; R. Doc. 1-1 ¶ 41.
+107 R. Doc. 1 ¶ 213.
+Case 2:23-cv-01839-DJP-JVM   Document 100   Filed 03/28/24   Page 26 of 56
+27
+
+acknowledge that they may seek to recover these funds but aver that doing so involves
+significant further costs to the State and often proves unsuccessful.108
+For the reasons explained below, and despite Defendants’ arguments to the contrary,
+the Court finds that the Plaintiff States have plausibly alleged the facts necessary to confer
+standing based on these increased costs theories.  As previously discussed, for a plaintiff’s
+injury to satisfy the Article III injury-in-fact requirement, it must be “concrete,
+particularized, and actual or imminent.”109  There seems to be no disagreement that these
+alleged costs constitute a concrete and particularized injury.  However, because these costs
+constitute future injuries, the Court must consider whether the Plaintiff States have
+plausibly alleged they are “certainly impending.”110  Defendants argue Plaintiffs failed to
+do so because they have not plausibly alleged any mass NFIP or population exodus and,
+thus, Plaintiffs’ injuries are speculative at best.  While the Court agrees Plaintiffs have not
+plausibly alleged any mass population exodus due to Risk Rating 2.0, neither of these
+injuries rely on a mass population exodus; they  depend on decreased NFIP participation.
+The relevant question, then, is whether Plaintiffs have plausibly alleged that increased rates
+under Risk Rating 2.0 will cause NFIP policyholders to drop their flood insurance
+coverage.  The Court finds they have.  Throughout the Complaint Plaintiffs allege that Risk
+Rating 2.0 results in higher premiums for a majority of policyholders and that these higher
+rates will cause people to drop their policies.111
+
+108 R. Doc. 1 ¶ 213; R. Doc. 1-1 ¶ 42.
+109 Dep’t of Com. v. New York, 139 S. Ct. 2551, 2555 (2019).
+110 Clapper v. Amnesty Int’l USA , 568 U.S. 398, 410 (2013) (“[T]hreatened injury must be certainly
+impending to constitute injury in fact.”).
+111 See, e.g., R. Doc. 1 ¶¶ 230–36, 240–42, 246.
+Case 2:23-cv-01839-DJP-JVM   Document 100   Filed 03/28/24   Page 27 of 56
+28
+
+To the extent Plaintiffs’ allegation that the increased premiums will lead to fewer
+policies in force is conclusory, the Court also finds that Plaintiffs have plausibly
+substantiated this allegation in a manner sufficient to carry their burden at the motion to
+dismiss stage.  Indeed, Plaintiffs allege that NFIP participation has already fallen since
+Risk Rating 2.0 was implemented and that FEMA has admitted it expects one million or
+more NFIP policyholders to drop their NFIP coverage by the end of the decade as a result
+of Risk Rating 2.0. 112 Thus, at least as to the Plaintiff States’ rebuilding costs theory, the
+Court finds they have plausibly alleged an injury in fact.
+The Court will address a separate argument made by the Defendants with respect to
+the Plaintiff States’ reimbursement cost theory.  According to Defendants, this theory is
+even more conjectural than the rebuilding cost theory because it depends on NFIP
+policyholders who have received federal grant funds to violate federal law by failing to
+maintain NFIP coverage, and Defendants assert that policyholders violating the law is
+“hardly a predictable third-party result of Risk Rating 2.0.”  In so arguing, Defendants
+essentially ask this Court to require Plaintiffs to have specifically alleged every fact and
+piece of evidence they may later present at a trial on the merits of their claims to show
+injury.113  The Court rejects Defendants’ invitation to do so.  At the motion to dismiss stage,
+
+112 R. Doc. 1 ¶ 240.
+113 Take, Department of Commerce v. New York, for example.  139 S. Ct. 2551 (2019).  There, the Supreme
+Court considered whether the States had standing to challenge the federal government’s reinstatement of a
+citizenship question on the census questionnaire.  Id. at 2565.  The States argued the reinstatement of the
+citizenship question would depress the census response rate, thereby undercounting the States’ populations,
+resulting in a number of injuries, including loss of federal funds that are distributed on the basis of
+population.  Id.  The Government challenged the States ’ standing, in part, on the basis that their injuries
+were not fairly traceable to the challenged action because they were dependent upon the independent action
+of third parties choosing to violate their legal duty to respond to the census.  Id. at 2565–66.  But, based on
+Case 2:23-cv-01839-DJP-JVM   Document 100   Filed 03/28/24   Page 28 of 56
+29
+
+courts “presume that general allegations embrace those specific facts that are necessary to
+support the claim.”114  And as previously discussed, the Court has found that Plaintiffs have
+plausibly alleged that higher premiums under Risk Rating 2.0 will result in policyholders
+choosing to drop their NFIP coverage.  This allegation is sufficient to support the Plaintiff
+States’ reimbursement cost theory at this stage.
+The Court likewise finds that the Plaintiff States have plausibly alleged that their
+economic injuries are “fairly traceable” to Risk Rating 2.0. While the fairly traceable
+requirement cannot be satisfied “if the injury complained of is the result of the independent
+action of some third party not before the court,” courts have found traceability where the
+alleged injury relies “on the predictable effect of Government action on the decisions of
+third parties.”115 Here, the Plaintiff States have alleged: (1) that fewer of their residents will
+choose to renew their NFIP policies as a result of the increased premiums under Risk
+Rating 2.0; (2) that FEMA itself admitted that it expects NFIP participation to decrease
+over the next decade as a result of Risk Rating 2.0; and (3) that, as a result, the Plaintiff
+States will suffer economic injury in the form of increased costs to rebuild after a flood
+event and increased liability to FEMA for the reimbursement of grant funds.  In other
+words, the Plaintiff States have plausibly alleged that Risk Rating 2.0 will have a
+
+the evidence presented at trial, the Supreme Court found that the States satisfied their burden in showing
+that the third parties will likely react in predictable ways to the citizenship question.  Id. at 2566.  Thus,
+traceability was satisfied.  Id.  Under the argument made by Defendants, here, Department of Commerce v.
+New York would have never made it past the motion to dismiss stage.
+114 Lujan v. Defs. of Wildlife, 504 U.S. 555, 561 (1992).
+115 See e.g., Bennett v. Spear, 520 U.S. 154, 169 (1997) (cleaned up) (citations omitted); New York, 139 S.
+Ct. at 2566 (finding the traceability requirement satisfied where the states’ theory of standing “relie[d] . . .
+on the predictable effect of Government action on the decisions of third parties”).
+Case 2:23-cv-01839-DJP-JVM   Document 100   Filed 03/28/24   Page 29 of 56
+30
+
+determinative effect on their citizens and that as a result the Plaintiff States will suffer
+economic injury.  Traceability is therefore satisfied.116
+iv. Increased Premium Rates for NFIP Policyholders
+Throughout their briefing, Plainti ffs reiterate that Risk Rating 2.0 causes financial
+injury in the form of increased premium rates on policyholders.  The only Plaintiffs that
+could possibly establish standing based on this injury, however, are those who are
+policyholders themselves.117  Upon review of the allegations in Plaintiffs’ Complaint, the
+only Plaintiffs to allege being NFIP policyholders are St. Tammany Parish, Livingston
+Parish, and Washington Parish (collectively referred to herein as “Plaintiff
+Policyholders”).118  Of the three, St. Tammany Parish provides the most detail with respect
+to the rate increases it faces under Risk Rating 2.0, alleging that  “the Parish itself has seen
+increases to its own policies, costing the Parish an additional $2,877 as a result of Risk
+Rating 2.0.”119  Livingston Parish and Washington Parish each merely allege  that “the
+Parish itself has to procure flood insurance on its parish-owned buildings, which are subject
+to [Risk Rating 2.0’s] rate increases.”120
+
+116 Defendants also challenge the redressability of the Plaintiff States’ injuries.  The  Court will consider
+Defendants’ challenge after the Court has analyzed all individual Plaintiffs’ standing arguments, as the
+redressability challenge applies equally to all Plaintiffs that the Court ultimately finds have satisfied the
+first two standing requirements.
+117 See generally Spokeo, Inc. v. Robins, 578 U.S. 330, 229 (2016) (cleaned up) (“To establish injury in fact,
+a plaintiff must show that he or she suffered an invasion of a legally protected interest that is concrete and
+particularized and actual or imminent, not conjectural or hypothetical. . . . For an injury to be
+‘particularized,’ it “must affect the plaintiff in a personal and individual way.”).
+118 R. Doc. 1 ¶¶ 500 (Livingston Parish), 511 (St. Tammany Parish), 517 (Washington Parish).
+119 R. Doc. 1 ¶ 511.
+120 R. Doc 1. ¶¶ 500, 517.
+Case 2:23-cv-01839-DJP-JVM   Document 100   Filed 03/28/24   Page 30 of 56
+31
+
+Defendants contend that these Plaintiff Policyholders have not plausibly alleged a
+concrete injury based on rate increases under Risk Rating 2.0 for three reasons.  First, only
+St. Tammany Parish provides any specific and concrete information about Risk Rating 2.0
+rate increases it will experience.  Second, the additional $2,877 St. Tammany Parish will
+have to spend represents a de minimis cost to the Parish, unlike for a resident policyholder.
+And third, any minimal financial impact on St. Tammany Parish’s individual policies is
+likely to be outweighed or at least counterbalanced by the collective financial benefits that
+Risk Rating 2.0 confers on it based on the net effect Risk Rating 2.0 has on its residents’
+premiums, which Defendants contend will result in many of its residents experiencing
+decreases in policy premiums or avoiding indefinite year-to-year premium increases.
+As to Defendants’ first argument, the Court reiterates that the burden at the motion
+to dismiss stage is low , and the allegations of Livingston and Washington Parish, while
+bare, establish that under Risk Rating 2.0,  these Parishes have seen an increase in flood
+insurance rates and that the flood insurance policies they must procure to insure parish-
+owned buildings are subject to Risk Rating 2.0’s rate increases.  The Court finds these
+allegations sufficiently allege an economic injury to the respective parishes in the form of
+increased policy premiums under Risk Rating 2.0.
+The Court likewise finds no merit in Defend ants’ second argument.  Defendants
+argue that the fiscal cost to St. Tammany Parish is a far cry from the “several million dollar”
+loss that the Fifth Circuit found sufficient to confer standing on Texas in the State’s suit
+over the federal Deferred Action for Parents of American’s and Lawful Permanent
+Case 2:23-cv-01839-DJP-JVM   Document 100   Filed 03/28/24   Page 31 of 56
+32
+
+Residents (“DAPA”) program in Texas v. United States. 121  Unlike the State’s injury in
+Texas, however, the Parishes here allege Risk Rating 2.0  imposes direct economic injury
+on them in their proprietary capacity as policyholders, unrelated to any impact Risk Rating
+2.0 has on their residents or the downstream effects of such impact on the Parishes. 122
+Thus, to the extent the significance of the financial harm had any bearing on the State’s
+standing to sue in Texas, it is irrelevant here. 123  Moreover, the Court is unaware of any
+support for Defendants’ argument, which is essentially that because of a parish’s status as
+a governmental entity, i.e., regardless of the capacity in which it is injured, the parish
+policyholders must allege significant economic harm to have standing to challenge Risk
+Rating 2.0.  Under Defendants’ theory, St. Tammany Parish does not have standing to
+challenge Risk Rating 2.0 because the $2,877 increase in rates is a de minimis cost to the
+Parish, but a multi -million-dollar corporation that carries an NFIP policy on its property
+and that experienced the same $2,877 rate increase would have standing to challenge Risk
+Rating 2.0.  The Court finds no support for this outcome in Texas or any other case law.
+Lastly, Defendants ask this Court to engage in an accounting exercise to find that
+any financial impact Risk Rating 2.0 has on St. Tammany Parish’s individual policies will
+likely be outweighed by the net effect Risk Rating 2.0 will have on its residents’ premiums.
+More specifically, Defendants contend that as a result of Risk Rating 2.0, many of St.
+
+121 809 F.3d 134, 155 (5th Cir. 2015).
+122 Cf. id. (finding Texas had standing to challenge DAPA because DAPA would enable at least 500,000
+illegal aliens in Texas to qualify for driver’s licenses under Texas law and that Texas would incur significant
+costs in issuing driver’s licenses to DAPA beneficiaries because it subsidizes its licenses and would lose a
+minimum of $130.89 on each license issued to a DAPA beneficiary).
+123 Cf. OCA-Greater Houston v. Texas, 867 F.3d 604, 612 (5th Cir. 2017) (“[T]he injury alle ged as an
+Article III injury-in-fact need not be substantial.”).
+Case 2:23-cv-01839-DJP-JVM   Document 100   Filed 03/28/24   Page 32 of 56
+33
+
+Tammany Parish’s residents will experience decreases in policy premiums or avoid
+indefinite year-to-year premium increases, and thus, based on  Plaintiffs’ own theory of
+economic impact, Risk Rating 2.0 would strengthen the Parish’s tax base.  To the extent it
+is appropriate to consider such an argument at the motion to dismiss stage,  for the same
+reasons the Court found the Plaintiff Parishes’ tax base theory too conjectural, Defendants’
+argument, which relies on the same chain of possibilities, likewise fails.124
+ In summary, the Court finds  that the Plaintiff Policyholders have all alleged an
+economic injury that is fairly traceable to Risk Rating 2.0.
+v. Redressability of Plaintiffs’ Economic Injuries
+For the reasons explained herein, the Court has found that the Plaintiff States have
+plausibly
+ alleged an economic injury that is fairly traceable to Risk Rating 2.0 in the form
+of rebuilding costs and reimbursement costs, and the Plaintiff Policyholders have likewise
+satisfied the first two elements of standing based on the alleged increase in premium rates
+they have paid or will have to pay as a result of Risk Rating 2.0.  The third and final element
+of constitutional standing is that “it must be likely” that the plaintiff’s injury “will be
+redressed by a favorable decision.”125  Because the Defendants’ challenges to the
+
+124 See Texas, 809 F.3d at 155–56 (rejecting a similar argument made by the federal government on the
+basis that none of the benefits identified by the government were sufficiently connected to the costs to be
+incurred by Texas to qualify as an offset and even the ones that were conceivably relevant were based on
+the independent decisions of DAPA beneficiaries and not a direct result of the issuance of the licenses) (“In
+the instant case, the states have alleged an injury, and the government predicts that later decisions of DAPA
+beneficiaries would produce offsetting benefits. Weighing those costs and benefits is precisely the type of
+‘accounting exercise’ in which we cannot engage. Texas has shown injury.”) (citations omitted).
+125 Lujan v. Defs. of Wildlife, 504 U.S. 555, 561 (1992) (cleaned up) (quoting Simon v. E. Ky. Welfare Rights
+Org., 426 U.S. 26, 38, 43 (1976)).
+Case 2:23-cv-01839-DJP-JVM   Document 100   Filed 03/28/24   Page 33 of 56
+34
+
+redressability of Plaintiffs’ injuries apply equally to the Plaintiff States and Plaintiff
+Policyholders, the Court considers the arguments below as to both groups.
+Plaintiffs seek various forms of declaratory and injunctive relief. 126 Particularly
+relevant here, Plaintiffs ask the Court to hold that Risk Rating 2.0 is unlawful and to
+preliminarily and permanently enjoin Defendants from imposing Risk Rating 2.0.
+Defendants argue that Plaintiffs have not shown that granting their requests for declaratory
+or injunctive relief will redress their injuries, and Defendants further argue that Plaintiffs
+cannot make such showing because, according to Defendants, rates would increase even if
+Defendants were enjoined from using Risk Rating 2.0.  The Court will first address
+Defendants’ latter argument that Plaintiffs could not possibly establish redressability.
+Because the Court ultimately rejects this argument, finding that it is possible for Plaintiffs
+to establish redressability, the Court will then consider Defendants’ first argument that
+Plaintiffs have not plausibly alleged redressability.
+In support of their latter argument, Defendants contend that, “[b]y statute, FEMA
+must set NFIP rates on an actuarial basis with the goal of collecting enough premiums to
+cover the total expected annual loss each year” and that “FEMA has, for more than a
+decade, run the NFIP at a deficit because it has not collected sufficient premiums to cover
+risk.”127  The catastrophe models FEMA  used to evaluate its risk indicated FEMA’s
+aggregate premium collections were not sufficient to cover its total losses.  As a result,
+FEMA had to raise its total average annual loss (“AAL”) target, which, in turn, required
+
+126 R. Doc. 1 at 142–43.
+127 R. Doc. 47-1 at 40.
+Case 2:23-cv-01839-DJP-JVM   Document 100   Filed 03/28/24   Page 34 of 56
+35
+
+an increase in the amount of premiums FEMA must collect across all policyholders.128  For
+these reasons, regardless of which rating methodology is used—Risk Rating 2.0 or the
+Legacy Rating System—FEMA will have to raise rates.129  Defendants go on to argue that
+Risk Rating 2.0 allows FEMA to  raise rates “based on an individualized assessment of a
+property’s particular flood risks” and that if they are enjoined from using Risk Rating 2.0,
+then “FEMA will have to raise premiums indefinitely across wide segments of
+policyholders whose properties share a limited set of very basic characteristics.”130  And
+because neither the Plaintiff Policyholders nor the Plaintiff States have shown that they or
+their residents, respectively, would be “exempt from these wide-sweeping rate increases
+absent Risk Rating 2.0,” Defendants contend they cannot establish redressability.
+Breaking Defendants’ argument down to its foundation, the entire argument relies
+on the use of catastrophe modeling to set the AAL target.  But Defendants completely
+ignore that one aspect of Risk Rating 2.0 challenged by Plaintiffs is the use of catastrophe
+modeling to set rates.  Indeed, Plaintiffs allege Risk Rating 2.0 is arbitrary and capricious,
+in part, because of its use of catastrophe modeling.131  Moreover, Plaintiffs ask this Court
+to declare Risk Rating 2.0 arbitrary and capricious and to enjoin Defendants from imposing
+Risk Rating 2.0—this necessarily includes FEMA’s use of catastrophe modeling to set the
+AAL target.  It remains to be determined whether Plaintiffs will be successful on their
+claims challenging Risk Rating 2.0’s use of catastrophe modeling; however, there is no
+
+128 R. Doc. 81 at 6.
+129 R. Doc. 47-1 at 40; R. Doc. 81 at 6.
+130 R. Doc. 47-1 at 40.
+131 See R. Doc. 1 ¶¶ 587–88; 603–05.
+Case 2:23-cv-01839-DJP-JVM   Document 100   Filed 03/28/24   Page 35 of 56
+36
+
+question that a favorable decision on those claims would preclude Defendants’ use of
+catastrophe modeling.  Thus, based on Defendants’ own purported chain of events, if an
+injunction is issued restraining FEMA’s use of catastrophe modeling (or if Risk Rating 2.0
+is declared unlawful based on such use), the Plaintiff Policyholders and the Plaintiff States’
+residents would not be subject to the “wide-sweeping rate increases” Defendants contend
+preclude Plaintiffs from establishing redressability.  Accordingly, the Court rejects
+Defendants’ argument that Plaintiffs could not possibly establish redressability. 132
+The Court will now consider whether Plaintiffs have plausibly alleged that it is
+likely that their injuries will be redressed by a favorable decision.  The injuries of the
+Plaintiff States and the Plaintiff Policyholders, though different, ultimately result from the
+increase in premiums under Risk Rating 2.0.  Defendants contend Plaintiffs have not
+established redressability because Plaintiffs have not shown that policyholders
+experiencing rate increases under Risk Rating 2.0 would not experience such rate increases
+under the Legacy Rating System.  The Court recognizes that this argument has similar
+undertones to Defendants’ argument discussed directly above. To generalize Defendants’
+
+132 Defendants relied on facts and information outside of the Complaint to support this argument. More
+specifically, Defendants relied on the declaration signed by David Maurstad (“Maurstad Declaration”) that
+was attached to their motion to dismiss.  See R. Doc. 47-3.  Defendants insisted that although the Maurstad
+Declaration was prepared for the purpose of Defendants’ preliminary injunction opposition brief, the Court
+can and should consider the portions of the Maurstad Declaration cited by Defendants in their motion to
+dismiss briefing because it contains information relevant to whether Plaintiffs have plausibly asserted a
+concrete, redressable injury in fact for standing.  R. Doc. 47-1 at 6 n.2.  Plaintiffs challenged whether it was
+appropriate for the Court to consider even the limited, cited paragraphs of the Maurstad Dec laration
+because, according to Plaintiffs, “many of the paragraphs go well beyond providing mere facts and instead
+serve as additional argument extolling the virtues of [Risk Rating 2.0].”  R. Doc. 75 at 12.  Because
+Defendants’ legal argument itself fails even assuming the factual assertions used to support it are true, the
+factual assertions themselves are irrelevant to the outcome of the motion to dismiss. Accordingly, the Court
+need not and has not considered the Maurstad Declaration and pretermits any analysis as to the
+appropriateness of such action.
+Case 2:23-cv-01839-DJP-JVM   Document 100   Filed 03/28/24   Page 36 of 56
+37
+
+instant argument for purposes of distinguishing it from the prior one, the Court understands
+the present argument to be that, given the allegations in the Complaint and what Defendants
+contend are “undisputed facts,” Plaintiffs have not shown that the rates they complain of
+are any different from the rates they or their residents previously experienced under Legacy
+or that FEMA could impose if it reverted to the Legacy Rating System, and, therefore,
+Plaintiffs have not shown their injuries are redressable by a favorable decision enjoining
+the Defendants’ use of Risk Rating 2.0 to set rates.
+In support of this argument, Defendants point specifically to the fact that “Plaintiffs
+themselves admit that prior to Risk Rating 2.0, policies were subject to ‘incremental’
+increases each year.” 133  Indeed, Plaintiffs alleged that “premiums increased at a
+predictable  and incremental pace each year before [Risk Rating 2.0].” 134  In the next
+paragraph, however, Plaintiffs provide an example of a policyholder experiencing “a full-
+risk premium dramatically higher than she expected” under Risk Rating 2.0.135  In addition,
+Plaintiffs devote an entire section of their Complaint to the “demonstrably higher
+premiums” policyholders face under Risk Rating 2.0.136  The Court finds that, considering
+the allegations in the Complaint as a whole, and especially the allegations specifically
+referencing increased rates, it is reasonable to infer that the increases Plaintiffs complain
+of under Risk Rating 2.0 are more significant than the increases they or their residents
+experienced under the Legacy Rating System.  Defendants have not provided any facts to
+
+133 R. Doc. 47-1 at 39 (citing R. Doc. 1 ¶ 25).
+134 R. Doc. 1 ¶ 25.
+135 R. Doc. 1 ¶ 26.
+136 See R. Doc. 1 ¶¶ 230–239.
+Case 2:23-cv-01839-DJP-JVM   Document 100   Filed 03/28/24   Page 37 of 56
+38
+
+sufficiently contradict the allegations that, under Risk Rating 2.0, the Plaintiff
+Policyholders and Plaintiff States’ residents are experiencing rate increases greater than
+what they experienced under the Legacy Rating System.137  At this stage, the Court accepts
+Plaintiffs’ allegations that these increases are a result of Risk Rating 2.0.  Accordingly, the
+Court finds that the Plaintiff States and Plaintiff Policyholders have alleged concrete
+injuries caused by Risk Rating 2.0 that are redressable by a favorable decision.
+d. Standing of Association of Levee Boards of Louisiana
+There remains one Plaintiff whose standing has yet to be addressed—the
+Associatio
+n of Levee Boards of Louisiana (“ALBL”).  In a lengthy footnote in the
+memorandum in support of Defendants’ motion to dismiss, Defendants argue that ALBL,
+the sole non-government Plaintiff, lacks both associational and organizational standing to
+challenge Risk Rating 2.0.  Plaintiffs did not respond to this argument.  The Court will
+nevertheless consider the merits of Defendants’ arguments to resolve for itself the issue of
+whether ALBL has standing.
+“An association or organization can establish an injury-in-fact through either of two
+theories, appropriately called ‘associational standing’ and ‘organizational standing.’
+‘Associational standing’ is derivative of the standing of the association’s members.” 138
+“By contrast, ‘organizational standing’ does not depend on the standing of the
+
+137 Of course, the Court recognizes that not all residents of the Plaintiff States have experienced increases
+under Risk Rating 2.0. Nevertheless, it is undisputed that Risk Rating 2.0 raised rates for a majority of their
+residents.
+138 OCA-Greater Hous. v. Texas, 867 F.3d 604, 610 (5th Cir. 2017) (citations omitted).
+Case 2:23-cv-01839-DJP-JVM   Document 100   Filed 03/28/24   Page 38 of 56
+39
+
+organization’s members. The organization can establish standing in its own name if it
+‘meets the same standing test that applies to individuals.’”139
+Turning first to associational standing, ALBL must satisfy three elements: “(1) the
+association’s members would independently meet the Article III standing requirements; (2)
+the interests the association seeks to protect are germane to the purpose of the organization;
+and (3) neither the claim asserted nor the relief requested requires participation of
+individual members.”140  ALBL’s associational standing theory fails at the first element.
+Indeed, ALBL has not shown that its members would independently meet the Article III
+standing requirements.  At most, ALBL, conclusively alleges its “members are harmed by
+[Risk Rating 2.0].”141  And while ALBL does also allege that “[m]any of its members are
+plaintiffs in this litigation,” 142 the Court has already found that those members, which
+consist of the Plaintiff Levee and Drainage Districts, have failed to satisfy the Article III
+standing requirements.  Thus, to the extent ALBL seeks to satisfy the first element based
+on the allegations of its members, this approach also fails.  Neither the allegations of ALBL
+nor the allegations of its members are sufficient to establish ALBL’s members would
+independently meet the Article III standing requirements.  Consequently, ALBL has not
+established that it has associational standing.
+Turning next to organizational standing, ALBL alleges it is harmed by [Risk Rating
+2.0’s] lack of transparency because “[i]t has had to divert its resources trying to get
+
+139 Id. (citations omitted).
+140 Tex. Democratic Party v. Benkiser, 459 F.3d 582, 587 (5th Cir. 2006) (citing Hunt v. Wash. State Apple
+Adver. Comm’n, 432 U.S. 333, 343 (1977)).
+141 R. Doc. 1 ¶ 538.
+142 R. Doc. 1 ¶ 538.
+Case 2:23-cv-01839-DJP-JVM   Document 100   Filed 03/28/24   Page 39 of 56
+40
+
+information from FEMA about the new methodology.” 143  Indeed, “[t]he Supreme Court
+has recognized that when an organization’s ability to pursue its mission is ‘perceptibly
+impaired’ because it has ‘diverted significant resources to counteract the defendant's
+conduct,’ it has suffered an injury under Article III.” 144  Here, however, ALBL’s bare
+allegation is insufficient to establish that the organization itself has suffered such an injury,
+and ALBL’s “support” for this allegation is not support at all.
+ALBL cites to two paragraphs from its declaration that was attached to the
+Complaint.  These paragraphs explain that various members of the ALBL have met with
+FEMA, FEMA stated it did not have adequate information about the majority of the
+members’ levees to properly consider them under Risk Rating 2.0, and FEMA suggested
+that the members provide FEMA with the necessary information.145  That various members
+of the ALBL met with FEMA to discuss how the levees within the respective members’
+territory would impact rates under Risk Rating 2.0 does not show that ALBL itself diverted
+any resources, and certainly not “significant resources,” such that the ALBL’s ability to
+pursue its mission has been “perceptibly impaired.”
+3. Article III S tanding Conclusion
+The Plaintiff States and Plaintiff Policyholders have plausibly alleged they have
+experienced, or will experience, direct harm as a result of  Risk Rating 2.0  and that such
+harm is redressable by a favorable judicial decision.  The Court therefore finds that, at this
+
+143 R. Doc. 1 ¶ 538.
+144 Tenth St. Residential Ass’n v. City of Dallas, 968 F.3d 492, 500 (5th Cir. 2020) (citing Havens Realty
+Corp. v. Coleman, 455 U.S. 363, 379 (1982)).
+145 R. Doc. 1-41 ¶¶ 26–27.
+Case 2:23-cv-01839-DJP-JVM   Document 100   Filed 03/28/24   Page 40 of 56
+41
+
+stage, these Plaintiffs have satisfied the Article III requirements necessary to pursue this
+case in federal court.
+The remaining Plaintiffs—that is, the Plaintiff Parishes (except St. Tammany Parish,
+Livingston Parish, and Washington Parish),  Plaintiff Municipalities, Plaintiff Levee
+Districts, Plaintiff Drainage Districts, and Plaintiff Association (ALBL)—have failed to
+establish standing for the reasons articulated herein.  Accordingly, their claims must be
+dismissed without prejudice.
+To the extent the Court has not specifically addressed any of the parties’ remaining
+arguments regarding Article III standing, it has considered them and determined that they
+would not alter the result.
+B. STATUTORY STANDING: ZONE-OF-INTERESTS TEST
+The Court now turns to Defendants’ additional argument that, for the Plaintiffs that
+have established  Article III standing and therefore have not been dismissed, the Court
+should nevertheless dismiss their NEPA claims (Count IX) for lack of statutory standing.
+In Count IX of their Complaint, which is brought pursuant to the APA, Plaintiffs claim that
+Risk Rating 2.0 is contrary to law because, under NEPA, FEMA was required to conduct
+an environmental assessment to determine the effects Risk Rating 2.0 may have on the
+environment, and FEMA failed to do so.146  Defendants contend that Plaintiffs’ interests at
+issue in this litigation do not fall within the “zone of interests” protected by NEPA and
+therefore Plaintiffs’ NEPA claims (Count IX) must be dismissed.
+
+146 R. Doc. 1 ¶¶ 652–56.
+Case 2:23-cv-01839-DJP-JVM   Document 100   Filed 03/28/24   Page 41 of 56
+42
+
+1. Legal Standard
+Defendants move this Court to dismiss Plaintiffs’ NEPA claims for lack of statutory
+standing pursuant to Federal Rule of Civil Procedure 12(b)(1).  The Fifth Circuit has
+explained, however, that “unlike a dismissal for lack of constitutional standing, which
+should be granted under Rule 12(b)(1), a dismissal for lack of . . . statutory standing is
+properly granted under Rule 12(b)(6).”147  The Court will therefore apply the Rule 12(b)(6)
+standard to determine whether Plaintiffs’ NEPA claims should be dismissed.
+To survive a Rule 12(b)(6) motion to dismiss, a plaintiff must plead enough facts
+that, if accepted as true and viewed in the light most favorable to the plaintiff, “state a claim
+for relief that is plausible on its face.”148  A claim is “plausible on its face” when the pleaded
+facts allow the court to “draw the reasonable inference that the defendant is liable for the
+misconduct alleged.” 149  If it is apparent from the face of the complaint that an
+insurmountable bar to relief exists, the court must dismiss the claim.150
+2. Law and Analysis
+Because “NEPA does not provide a private right of action,” “challenges to NEPA-
+mandated decisionmaking are pursued through the APA.” 151  To establish standing to sue
+under the APA, a plaintiff must show that the challenged agency action caused plaintiff to
+
+147 Ecosystem Inv. Partners v. Crosby Dredging, L.L.C., 729 F. App’x 287, 291 n.1 (5th Cir. 2018) (citing
+Harold H. Huggins Realty, Inc. v. FNC, Inc., 634 F.3d 787, 795 n.2 (5th Cir. 2011)).
+148 Ashcroft v. Iqbal , 556 U.S. 662, 678 (2009) (quoting Bell Atl. Corp. v. Twombly , 550 U.S. 544, 547
+(2007)).
+149 Id.
+150 Lormand v. U.S. Unwired, Inc., 565 F. 3d 228, 255–57 (5th Cir. 2009).
+151 Highland Vill. Parents Grp. v. U.S. Fed. Highway Admin., 562 F. Supp. 2d 857, 860 (E.D. Tex. 2008)
+(citing Gulf Restoration Network v. U.S. Dep’t of Transp., 452 F.3d 362, 367 (5th Cir. 2006)).
+Case 2:23-cv-01839-DJP-JVM   Document 100   Filed 03/28/24   Page 42 of 56
+43
+
+be “adversely affected or aggrieved . . . within the meaning of a relevant statute.” 152
+Specifically, “the plaintiff must establish that the injury he complains of (his aggrievement,
+or the adverse effect upon him) falls within the ‘zone of interests’ sought to be protected
+by the statutory provision whose violation forms the legal basis for his complaint.” 153
+Although Plaintiffs peppered the Court with theories of injuries upon which they
+could bring their claims, the Court, for the reasons articulated above,  determined that the
+only alleged injuries that satisfy the Article III injury-in-fact requirement are the economic
+injuries of the Plaintiff States and Plaintiff Policyholders.  Thus, the Court’s zone-of-
+interests analysis is limited to whether these plausibly alleged economic injuries fall within
+the “zone of interests” NEPA was created to protect.154
+According to the Fifth Circuit, “ Congress’s purpose in enacting NEPA was to
+‘declare a national policy which will encourage productive and enjoyable harmony
+between man and his environment; . . . promote efforts which will prevent or eliminate
+damage to the environment and biosphere . . . ; [and] enrich the understanding of the
+ecological systems and natural resources important to the Nation.”155  “Naturally, NEPA’s
+zone of interests covers environmental injuries and not purely economic ones. ”156  That
+said, courts have found that a “plaintiff with both economic and environmental injuries
+
+152 Lujan v. Nat’l Wildlife Fed’n, 497 U.S. 871, 883 (1990) (citing 5 U.S.C. § 702).
+153 Id. (citing Clarke v. Secs. Indus. Ass’n, 479 U.S. 388, 396–97 (1987)).
+154 See Sierra Club v. Morton, 405 U.S. 727, 733 (1972) (requiring a link between the Article III injury in
+fact and the interest asserted under the zone-of-interests test).
+155 Ecosystem Inv. Partners v. Crosby Dredging, L.L.C., 729 F. App’x 287, 294 (5th Cir. 2018) (citing 42
+U.S.C. § 4321).
+156 Id. at 294 –95 (citing Nev. Land Action Ass’n v. U.S. Forest Serv., 8 F.3d 713, 716 ( 9th Cir.
+1993) (collecting cases from the Fourth, Eighth, Ninth, and D.C. Circuits)).
+Case 2:23-cv-01839-DJP-JVM   Document 100   Filed 03/28/24   Page 43 of 56
+44
+
+falls within the NEPA’s zone of interests even if the plaintiff’s economic interests are the
+real ‘impetus’ for its lawsuit.’” 157  Economic injuries alone, however, cannot establish
+statutory standing under NEPA.158
+Plaintiffs’ injuries here are purely economic.  As such, they fall outside of NEPA’s
+zone of interests, and Plaintiffs lack statutory standing to assert their NEPA claims.
+3. S tatutory Standing Conclusion
+Because the Plaintiff States and Plaintiff Policyholders lack statutory standing under
+the APA, their NEPA claims (Count IX) must be dismissed without prejudice.  The NEPA
+claims of the other Plaintiffs will necessarily be dismissed without prejudice because, as
+previously discussed, those Plaintiffs lack Article III standing.
+III. MOTION  FOR PRELIMINARY INJUNCTION
+Having resolved all issues raised in Defendants’ motion to dismiss, the Court now
+turns to Plaintiffs’ motion for preliminary injunction.
+A. Legal Standard
+A preliminary injunction is an “extraordinary and drastic remedy” that may only be
+awarded upon a clear showing that the plaintiff is entitled to such relief. 159  A plaintiff
+seeking a preliminary injunction must establish: “(1) a substantial likelihood that plaintiff
+will prevail on the merits, (2) a substantial threat that plaintiff will suffer irreparable injury
+if the injunction is not granted, (3) that the threatened injury to plaintiff outweighs the
+
+157 Id. at 294 n.6 (citing Realty Income Tr. v. Eckerd, 564 F.2d 447, 452 (D.C. Cir. 1977)).
+158 See id. at 296 (concluding that the party’s injuries were not within NEPA’s zone of interests where the
+party alleged an economic injury but no environmental injury).
+159 Munaf v. Geren, 553 U.S. 674, 689 (2008).
+Case 2:23-cv-01839-DJP-JVM   Document 100   Filed 03/28/24   Page 44 of 56
+45
+
+threatened harm the injunction may do to the defendant, and (4) that granting the
+preliminary injunction will not disserve the public interest.”160
+The decision to grant or deny a preliminary injunction is discretionary with the
+district court. 161  Nevertheless, because a preliminary injunction is an extraordinary
+remedy, it “should not be granted unless the party seeking it has clearly carried the burden
+of persuasion on all four requirements.”162  Consequently, the decision to grant a
+preliminary injunction “is the exception rather than the rule.”163
+B. Law and Analysis
+1. Requested Injunction
+Plaintiffs ask the Court to issue an injunction “restraining Defendants from
+implementing and enforcing Risk Rating 2.0.”164  Defendants began using Risk Rating 2.0
+to set policy premiums for certain policies as early as October 2021 and for all other
+policies at their time of renewal beginning on or after April 1, 2022.  Risk Rating 2.0 was
+fully implemented as of April 1, 2023.  Plaintiffs did not file the instant motion for
+preliminary injunction until June 2023.
+Practically speaking, then, because Risk Rating 2.0 was fully implemented by the
+time Plaintiffs filed their motion, any injunction the Court issues cannot restrain defendants
+from implementing Risk Rating 2.0 and, thus, can only restrain defendants from enforcing
+Risk Rating 2.0.  But without the ability to enforce the currently implemented rating
+
+160 Canal Auth. of Fla. v. Callaway, 489 F.2d 567, 572 (5th Cir. 1974).
+161 Miss. Power & Light Co. v. United Gas Pipe Line Co., 760 F.2d 618, 621 (5th Cir. 1985).
+162 Planned Parenthood Ass’n of Hidalgo Cnty. Tex., Inc. v. Suehs, 692 F.3d 343, 348 (5th Cir. 2012).
+163 Miss. Power & Light Co., 760 F.2d at 621.
+164 R. Doc. 14 at 2.
+Case 2:23-cv-01839-DJP-JVM   Document 100   Filed 03/28/24   Page 45 of 56
+46
+
+methodology, there would be no method for FEMA to enforce the payment of premiums
+for all currently issued NFIP policies—essentially leaving millions of properties insured at
+the federal government’s expense and at no cost to the policyholders.  Presumably
+recognizing this problem, Plaintiffs merely assume that upon the issuance of an injunction
+restraining Defendants’ enforcement of Risk Rating 2.0, Defendants will revert to using
+the Legacy Rating System. 165  There are two issues with this.  First, Plaintiffs have not
+asked the Court to order Defendants to reinstate the Legacy Rating System as part of the
+Court’s injunction.  Thus, the Court is not certain that such reinstatement would be the
+result of a prohibitory injunction restraining the enforcement of Risk Rating 2.0 —though,
+in all fairness to Plaintiffs, it does seem like the likely result.  Second, even if Plaintiffs had
+requested such relief, or if the Court had the ability to order such relief despite Plaintiffs’
+failure to request it, Defendants have shown that reinstating the Legacy Rating System is
+not nearly as simple or harmless as Plaintiffs describe.  For all these reasons, and those
+discussed more specifically below, the Court finds that Plaintiffs have failed to show they
+are entitled to a preliminary injunction restraining Defendants from enforcing Risk
+Rating 2.0.
+2. Preliminary Injunction Factors
+ To be entitled to a preliminary injunction, in addition to showing a likelihood of
+success on the merits, Plaintiffs must demonstrate they are likely to suffer irreparable injury
+in the absence of an injunction, that the irreparable injury Plaintiffs will suffer without an
+
+165 See R. Doc. 14-2 at 45–46 (contending “the only harm to Defendants from an injunction would be to
+reinstate the flood insurance system they had in place for decades,” i.e., the Legacy Rating System).
+Case 2:23-cv-01839-DJP-JVM   Document 100   Filed 03/28/24   Page 46 of 56
+47
+
+injunction would be greater than the injuries an injunction would impose on the
+Defendants, and that an injunction would not disserve the public’s interest.166  Because the
+only remaining Plaintiffs are the Plaintiff States and Plaintiff Policyholders, the Court will
+not consider the arguments made by the other, now-dismissed Plaintiffs.
+After careful review of each of the elements Plaintiffs must establish and the
+evidence and argument presented by the parties, the Court finds that Washington Parish
+has failed to show that it is likely to suffer irreparable injury between now and a trial on
+the merits, and the Plaintiff States, St. Tammany Parish, and Livingston Parish have each
+failed to show that any irreparable injury they are likely to suffer outweighs the harm
+Defendants and the public would suffer if an injunction was granted at this stage.
+Accordingly, because Plaintiffs are not entitled to the extraordinary relief of a preliminary
+injunction regardless of whether they will ultimately succeed at a trial on the merits of their
+claims, the Court pretermits any analysis of Plaintiffs’ likelihood of success on the merits.
+a. Irreparable Harm
+To establish irreparable harm, the Plaintiff States and Plaintiff Policyholders rely on
+many o
+f the same injuries that they asserted as bases for standing in their opposition to
+Defendants’ motion to dismiss.167  For the same reasons those injuries failed to satisfy the
+Article III standing requirements, they likewise fail to constitute “irreparable harm” that
+warrant the issuance of a preliminary injunction.168  The only remaining injuries, then, are
+
+166 Canal Auth. of Fla. v. Callaway, 489 F.2d 567, 572 (5th Cir. 1974).
+167 R. Doc. 14-2 at 38–43.
+168 See discussion supra Section II.A.2.
+Case 2:23-cv-01839-DJP-JVM   Document 100   Filed 03/28/24   Page 47 of 56
+48
+
+the Plaintiff States’ rebuilding and reimbursement costs and the Plaintiff Policyholders’
+increased premiums.  Although financial injuries such as increased costs are not generally
+considered irreparable, the Fifth Circuit has found costs to be irreparable where the
+government-defendant enjoys sovereign immunity from monetary damages, as is the case
+here.169  Nevertheless, the mere fact that these injuries are irreparable does not alone satisfy
+the requirement.  To be entitled to a preliminary injunction, Plaintiffs must show they are
+likely to suffer an irreparable injury in the absence of such interlocutory relief, i.e., before
+a decision on the merits can be rendered.170  The Court will therefore consider whether the
+Plaintiff States and Plaintiff Policyholders have satisfied this requirement.
+i. Plaintiff States
+The Plaintiff States’ purported injuries— increased reim bursement costs and
+rebuilding costs —rely on their theory that fewer of their residents will carry flood
+insurance because of the increased premiums under Risk Rating 2.0.  Indeed, the Plaintiff
+States claim that NFIP premiums have increased drastically under Risk Rating 2.0, causing
+policyholders to cancel their insurance coverage.  The record contains declarations from a
+handful of homeowners in Louisiana who have NFIP policies and have experienced rate
+increases under Risk Rating 2.0, wherein they declare that the premiums under Risk Rating
+
+169 See Wages & White Lion Invs., LLC, 16 F.4th 1130, 1142 (5th Cir. 2021).
+170 Winter v. Nat. Res. Def. Council, Inc., 555 U.S. 7, 22 (2008) (“Our frequently reiterated standard requires
+plaintiffs seeking preliminary relief to demonstrate that irreparable injury is  likely in the absence of an
+injunction.”); see also 11A Charles Alan Wright, Arthur R. Miller & Mary Kay Kane, Federal Practice
+and Procedure § 2948.1 (3d ed. 2013) (“Perhaps the single most important prerequisite for the issuance of
+a preliminary injunction is a demonstration that if it is not granted the applicant is likely to suffer irreparable
+harm before a decision on the merits can be ren dered. Only when the threatened harm would impair the
+court's ability to grant an effective remedy is there really a need for preliminary relief. Therefore, if a trial
+on the merits can be conducted before the injury would occur there is no need for interlocutory relief.”).
+Case 2:23-cv-01839-DJP-JVM   Document 100   Filed 03/28/24   Page 48 of 56
+49
+
+2.0 are unaffordable.  Generally, though, the rates these policyholders claim to be
+unaffordable are the “full-risk” premiums assessed under Risk Rating 2.0.  And the Court
+cannot ignore that, subject to a few exceptions, FEMA can only increase rates by 18% per
+year.171  Thus, even if a property has been assessed a full-risk premium, say, 122% greater
+than what the policyholders were previously paying under the Legacy Rating System, 172
+the actual rate the policyholder is being charged every year upon renewal can only be 18%
+greater than the year before.  Accordingly, and important for purposes of the Plaintiff
+States’ “irreparable harm,” it will take years before these policyholders are actually charged
+the drastic, unaffordable rates of which they complain, which thus counsels against a
+preliminary injunction in advance of a hearing on the merits.173  To be sure, FEMA’s data
+shows that once all policyholders transitioned to Risk Rating 2.0, 19% of policyholders
+experienced premium decreases, 70% of policyholders experienced premium increases of
+$0–$10 per month, 8% experienced premium increases of $10– $20 per month, and 3%
+experienced premium increases of greater than $20 per month.174
+Additionally, the Court notes that although Plaintiffs alleged the NFIP “already”
+reported a loss of 346,778 policies in force from December 31, 2021 to June 30, 2022, 175
+
+171 42 U.S.C. § 4015(e)(1).
+172 See R. Doc. 1 ¶ 233 (alleging the projected average full -risk premium for a single -family home in
+Louisiana will increase 122% under Risk Rating 2.0).
+173 See Canal Auth. of Fla. v. Callaway , 489 F.2d 567, 573 (5th Cir. 1974) (“ [O]nly those injuries that
+cannot be redressed by the application of a judicial remedy after a hearing on the merits can properly justify
+a preliminary injunction.”).
+174 R. Doc. 56-1 ¶ 47.
+175 See R. Doc. 1 ¶ 241 (citing An Evaluation of Risk Rating 2.0 Impacts on National Flood Insurance
+Program Affordability, Coalition for Sustainable Flood Insurance, 2 (Sept. 2022), https://perma.cc/9UYK-
+ASJK [hereinafter NFIP Affordability]).
+Case 2:23-cv-01839-DJP-JVM   Document 100   Filed 03/28/24   Page 49 of 56
+50
+
+the source they cite, in fact, indicated that NFIP participation was in decline prior
+to 2022.176  Thus, there is no basis for the Court to find that all, or even a meaningful share,
+of this lost participation was due to Risk Rating 2.0.  This is especially true considering
+FEMA’s phased approach to rolling out the new rates under Risk Rating 2.0, such that the
+only policyholders that would have been subject to Risk Rating 2.0’s rates during the period
+cited by Plaintiffs are those who intentionally chose to opt into the new rating methodology
+or those whose policies were subject to  renewal in the short time span between April 1,
+2022 and June 30, 2022.177  And lastly, FEMA’s alleged admission that it predicts 20% of
+policyholders will “drop their NFIP coverage  by the end of the decade as a result of Risk
+Rating 2.0” only further supports the Court’s finding that, to the extent there will be a mass
+NFIP exodus, there is no substantial threat it will occur before a trial on the merits. 178
+Of course, the Court recognizes there are exceptions to the general sentiment that it
+will take years before premiums under Risk Rating 2.0 are considered “unaffordable” by
+policyholders.  The record contains a declaration from a Louisiana homeowner who falls
+into the 3% of policyholders who experienced increases of greater than $20 per month
+under Risk Rating 2.0. 179  Indeed, for low-income policyholders whose premiums cost
+
+176 See NFIP Affordability, supra note 175, at 2 (“The decline in NFIP policies in force has continued in
+2022, with NFIP experiencing a loss of 346,778 policies in force from December 31, 2021, through June
+30, 2022.”) (emphasis added).
+177 See R. Doc. 56-1 ¶ 40 (“In Phase 1, Risk Rating 2.0 premium rates were applied to new policyholders
+with policies effective on or after October 1, 2021.  For policyholders with policy effective dates between
+October 1, 2021 and March 31, 2022, Legacy premium rates were applied upon renewal of the policy, with
+policyholders given the option of instead renewing using Risk Rating 2.0 pricing.  In Phase 2, Risk Rating
+2.0 premium rates were applied to all remaining policyholders at their time of renewal on or after April 1,
+2022.”).
+178 R. Doc. 1 ¶ 240 (emphasis added).
+179 See R. Doc. 1-54.
+Case 2:23-cv-01839-DJP-JVM   Document 100   Filed 03/28/24   Page 50 of 56
+51
+
+thousands of dollars prior to Risk Rating 2.0  and whose full-risk premiums under Risk
+Rating 2.0 are even higher, an 18% cap (or 25%, in certain instances) does little to suppress
+the effects. 180  Moreover, any new policyholders do not get the benefit of the gradual
+increase.  Thus, for anyone considering purchasing an NFIP policy, they would be required
+to pay the full-risk premium assessed under Risk Rating 2.0.  It is because of these
+exceptions that the Court finds the Plaintiff States have shown it is likely that at least some
+of their residents will either choose not to renew or not to obtain flood insurance during the
+pendency of this litigation due to increased rates under R isk Rating 2.0.  They have thus
+shown that there is a substantial threat that they will incur increased reimbursement costs
+or rebuilding costs absent the issuance of an injunction.181
+Though this evidence satisfies the irreparable harm requirement, it fails to show that
+the irreparable harm the Plaintiff States are likely to suffer in the absence of an injunction
+outweighs the significant harm the Defendants have shown they will suffer if an injunction
+is issued.  Instead, it merely shows there is a likelihood that, before a decision on the merits
+can be rendered, a small portion of the Plaintiff States’ residents will choose not to renew
+or obtain flood insurance and that, as a result, the Plaintiff States are likely to incur some
+unknown amount in increased costs that they would not have otherwise had to pay.
+
+180 See R. Doc. 1-54.
+181 As to the reimbursement costs, Plaintiffs submitted a declaration signed by the Director of the Louisiana
+Governor’s Office of Homeland Security and Emergency Preparedness (“GOHSEP”), wherein he explains
+that GOHSEP administers the FEMA grant programs for the State and that GOHSEP has seen an increase
+in homeowners that have not maintained flood insurance through closeout in existing mitigation projects .
+See R. Doc. 1-1 ¶ 44.  As of May 2023, GOHSEP had been able to work with homeowners to ensure they
+purchase a policy prior to submission to FEMA, but the Director stated it was growing more challenging to
+do so since Risk Rating 2.0.  R. Doc. 1-1 ¶ 44.  As to the rebuilding costs, Defendants admit that at least
+four of the Plaintiff States have high risk of hurricane and coastal flooding. See R. Doc. 56-1 ¶ 59.
+Case 2:23-cv-01839-DJP-JVM   Document 100   Filed 03/28/24   Page 51 of 56
+52
+
+ii. Plaintiff Policyholders
+The Plaintiff Policyholders have presented varying degrees of evidence to support
+their respect
+ive, alleged injuries of increased premiums under Risk Rating 2.0.  The Court
+begins with St. Tammany Parish.  In addition to the allegations in the Complaint, the record
+also includes a declaration signed by the St. Tammany Parish President, which states that
+the Parish has 18 NFIP policies, 12 of which had come up for renewal for the 2023–2024
+policy period at the time the declaration was prepared. 182  Of those 12 policies, premium
+rates decreased for 3 policies and increased for the 9 others, resulting in a total premium
+increase of $2,877 compared to what the Parish paid for those same 12 policies for the
+2022–2023 policy period.183  The Parish contends it is concerned that FEMA will continue
+to raise premiums each year but that the lack of information about how FEMA calculates
+these premiums makes it nearly impossible to predict how much these premiums may
+change again for the 2024–2025 renewal period. 184  The Court finds St. Tammany Parish
+has shown it is likely to suffer irreparable harm prior to a trial on the merits due to the
+increased rates that it will pay over the course of this litigation.
+Turning now to Livingston and Washington Parish, both of which allege that they
+must “procure flood insurance on [their] parish-owned buildings, which are subject to [Risk
+Rating 2.0’s] rate increases.”185  Both Parishes also cite to declarations signed by their
+parish presidents that were attached to the Complaint.186  Nevertheless, upon review of the
+
+182 R. Doc. 1-28 ¶ 37.
+183 R. Doc. 1-28 ¶ 38.
+184 R. Doc. 1-28 ¶ 40.
+185 R. Doc. 1 ¶¶ 500, 517.
+186 R. Doc. 1 ¶¶ 500, 517.
+Case 2:23-cv-01839-DJP-JVM   Document 100   Filed 03/28/24   Page 52 of 56
+53
+
+declarations, the Court finds that the Livingston Parish declaration contains support for its
+allegation,187 but the Washington Parish declaration lacks any statement that the Parish
+itself carries any NFIP policies, much less that its policies are subject to rate increases
+under Risk Rating 2.0.188  As such, Washington Parish has failed to establish that it is likely
+to suffer any irreparable harm.  But because the Livingston Parish President declared that
+the Parish’s policies are subject to rate increases under Risk Rating 2.0, the Court finds
+Livingston Parish has shown it is likely to suffer irreparable harm prior to a trial on the
+merits due to the increased rates that it will pay over the course of this litigation.
+b. Balancing Hardship to the Parties and the Public Interest
+The award of preliminary relief is never “strictly a matter of right, even though
+irreparable injury may otherwise result to the plaintiff,” but is rather “a matter of sound
+judicial discretion” and careful balancing of the interests of—and possible injuries to—the
+respective parties.189  Thus, Plaintiffs must show that they would suffer more harm without
+the injunction than would Defendants if it were granted.190  Plaintiffs must also show that,
+if granted, a preliminary injunction would not be adverse to public interest. 191  For the
+reasons explained below, the Court finds Plaintiffs have failed to do so.
+As an initial matter, St. Tammany Parish is the only Plaintiff to provide any
+information regarding the extent of the irreparable harm it will suffer prior to a trial on the
+merits.  Indeed, although the information presented by the Plaintiff States and Livingston
+
+187 R. Doc. 1-19 ¶ 44.
+188 See R. Doc. 1-32.
+189 Yakus v. United States, 321 U.S. 414, 440 (1944).
+190 Canal Auth. of Fla. v. Callaway, 489 F.2d 567, 572 (5th Cir. 1974).
+191 Star Satellite, Inc. v. Biloxi, 779 F.2d 1074, 1079 (5th Cir. 1986).
+Case 2:23-cv-01839-DJP-JVM   Document 100   Filed 03/28/24   Page 53 of 56
+54
+
+Parish was sufficient to satisfy the irreparable harm requirement, it does little to show the
+extent of such irreparable harm. Turning first to Livingston Parish, the evidence merely
+indicates the Parish’s NFIP policies are subject to rate increases under Risk Rating 2.0, but
+there is no indication as to how much the rates have increased or the significance of those
+increases on the Parish’s fisc.  Similarly, the Plaintiff States have only shown that some
+small percentage of their residents are likely to choose not to carry flood insurance during
+the pendency of this litigation, due to the increased rates under Risk Rating 2.0.  They have
+provided no evidence, or even argument, as to what the resulting costs to the Plaintiff States
+might be.  Nevertheless, in addition to the harms the Plaintiffs contend they will
+individually suffer, they insist “the entire Country will feel the harms imposed by [Risk
+Rating 2.0]” and that “[t]he harm to the public is as widespread as it is severe.”192  Plaintiffs
+further argue that the public is served when the law is followed. Plaintiffs submit that these
+harms outweigh the “only” harm to Defendants to reinstate the Legacy Rating System.193
+Defendants, on the other hand, contend that an injunction would quite clearly harm
+the federal government and its operation of the NFIP, upset the status quo, and injure
+FEMA, policyholders, and taxpayers.  According to Defendants, Risk Rating 2.0 has been
+a five-year effort that has cost FEMA over $80 million, and to undo it would require much
+more than Plaintiffs describe. In particular,
+Enjoining Risk Rating 2.0 would not, as Plaintiffs suggest, simply “reinstate”
+legacy rating with the flick of a switch. FEMA would have to reimplement
+old NFIP systems, infrastructure, guidance, and training; figure out how to
+reimpose an elevation certification requirement on existing policyholders
+
+192 R. Doc. 14-2 at 45.
+193 R. Doc. 14-2 at 45–46.
+Case 2:23-cv-01839-DJP-JVM   Document 100   Filed 03/28/24   Page 54 of 56
+55
+
+that Risk Rating 2.0 had eliminated; and rewrite and re-underwrite the nearly
+5 million policies in the program—all of which would take multiple years[]
+and leave policyholders and the NFIP’s operations in flux in the meantime.194
+In addition to the time it would take to reinstate the Legacy Rating System and the state of
+uncertainty the NFIP would be in during this period, Defendants estimate it would cost
+FEMA “tens of millions of additional dollars” to fully revert back to the old system.195
+Defendants also assert that most NFIP policies are sold and serviced by “Write Your Own”
+(“WYO”) companies, and just as with the NFIP’s own sales and service contractor, the
+WYO companies similarly spent years and nearly $200 million to implement Risk Rating
+2.0 and that they too would have to spend substantially more even to temporarily pause
+it.196
+Considering the arguments and evidence put forth by the parties, the Court finds the
+injuries Defendants would suffer upon the issuance of an injunction substantially outweigh
+the harm the Plaintiff States, St. Tammany Parish, or Livingston Parish will suffer without
+an injunction.  The Court also finds that, in light of the particular claims in this case and to
+the extent Plaintiffs are likely to succeed on any of them, any interest the public has in the
+need for federal agencies to follow the law is outweighed by the public’s interest in the
+stability of the administration of the National Flood Insurance Program, which would be
+greatly disrupted if this Court were to issue a preliminary injunction restraining Defendants
+from enforcing the rating methodology that was fully implemented prior to Plaintiffs’ filing
+of this lawsuit.
+
+194 R. Doc. 56 at 44 (citing R. Doc. 56-1 ¶¶ 260–73).
+195 R. Doc. 56 at 45 (citing R. Doc. 56-1 ¶¶ 260–73).
+196 R. Doc. 56 at 45 (citing R. Doc. 56-1 ¶¶ 282–322).
+Case 2:23-cv-01839-DJP-JVM   Document 100   Filed 03/28/24   Page 55 of 56
+56
+
+The Plaintiff States and Plaintiff Policyholders have failed to establish they are
+entitled to preliminary injunctive relief.  Accordingly, their motion for preliminary
+injunction must be denied.
+IV. CONCLUSION
+For all the foregoing reasons,
+IT IS ORDERED that Defendants’ Motion to Dismiss Plaintiffs’ Complaint (R.
+Doc. 47) is GRANTED IN PART and DENIED IN PART.  All claims brought by the
+Plaintiff Parishes (except St. Tammany Parish, Livingston Parish, and Washington Parish),
+Plaintiff Municipalities, Plaintiff Levee Districts, Plaintiff Drainage Districts, and Plaintiff
+Association are DISMISSED WITHOUT PREJUDICE.  Plaintiffs’ NEPA claim (Count
+IX) is DISMISSED WITHOUT PREJUDICE.  The only claims that remain are Counts
+I–VIII brought by the Plaintiff States and Plaintiff Policyholders ( St. Tammany Parish,
+Livingston Parish, and Washington Parish).
+ IT IS FURTHER ORDERED that Plaintiffs’ Motion for Preliminary Injunction
+(R. Doc. 14) is DENIED.
+ New Orleans, Louisiana, this 28th day of March 2024.
+
+______________________________________
+DARREL JAMES PAPILLION
+UNITED STATES DISTRICT JUDGE
+
+Case 2:23-cv-01839-DJP-JVM   Document 100   Filed 03/28/24   Page 56 of 56
