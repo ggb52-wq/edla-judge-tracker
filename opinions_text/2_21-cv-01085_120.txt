@@ -1,0 +1,547 @@
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+ROXANE SMITH CIVIL ACTION
+
+VERSUS NO. 21-1085
+
+DEPUY SYNTHES INC., ET AL. SECTION: “P” (3)
+
+ORDER AND REASONS
+
+Before the Court is a Motion for Summary Judgment filed on behalf of Defendants DePuy
+Synthes, Inc., DePuy Synthes Sales, Inc., Synthes USA, LLC, Medical Device Business Services,
+Inc., Johnson & Johnson, Synthes USA Products LLC, and DePuy Synthes Products, Inc.
+(collectively, “DePuy”).1 Plaintiff Roxane Smith has filed an opposition, 2 and DePuy has filed a
+reply.3 For all the reasons that follow, DePuy’s motion is GRANTED.
+I. BACKGROUND
+This is a product liability action involving a DePuy medical device called the DePuy
+Synthes LCP® Periarticular Plating System 4.5 mm LCP® Proximal Tibia Plate (“ the DePuy
+plate”). On November 9, 2019, Plaintiff fell while climbing up the steps of a camper trailer 4 and
+broke her left tibia and fibula. Plaintiff, who suffered a closed, comminuted proximal tibial fracture
+that extended from just below her tibial plateau to roughly the first third of her tibial shaft as well
+as a proximal fibula fracture,5 sought medical treatment at Ochsner Clinic  and eventually came
+under the care of  Dr. James Mautner , a board certified orthopedic surgeon. 6 On November 11,
+2019, Dr. Mautner performed a preliminary surgery and used an external fixator to stabilize
+
+1 R. Doc. 97.
+2 R. Doc. 106.
+3 R. Doc. 109.
+4 R. Doc. 97-10 at 5.
+5 R. Doc. 38 at 2, ¶ 3; R. Doc. 106-3 at 14–15.
+6 R. Doc. 106-3 at 11.
+Case 2:21-cv-01085-DJP-EJD     Document 120     Filed 07/29/25     Page 1 of 18
+2
+
+Plaintiff’s tibia.7 Dr. Mautner performed a more definitive surgery on November 14, 2019, and
+after remov ing t he external fixator, he  used the  DePuy plate with  4.5mm screws  to realign
+Plaintiff’s tibia.8 Because Plaintiff had very little intact bone between the surface of her knee joint
+and the fracture,9 Dr. Mautner believed this plate would achieve good alignment of the bone and
+would give Plaintiff the best outcome.10 The plate is designed with a number of screw holes on its
+shaft to give the surgeon multiple screw placement options based  on the patient’s  anatomy and
+injury.11
+Plaintiff’s implant surgery itself was unremarkable, and Dr. Mautner instructed Plaintiff ,
+who admitted that she smoked just under a pack of cigarettes each day, 12 to stop smoking and to
+forego weightbearing activity.13 When a patient suffers a fracture, there is always a risk the broken
+bone will not heal.14 Certain medical conditions and activities can cause delayed bone healing or
+delayed union.15 If a patient’s bone does not heal, the patient’s plate can eventually break, 16 and
+Dr. Mautner was aware of this fact when he selected this DePuy plate for Plaintiff.17 Plaintiff was
+warned to stop smoking because smoking can impair  wound healing and can increase the risk of
+nonunion or delayed union by 30% ,18 and can also increase the risk of infection. 19 Plaintiff,
+however, continued to smoke throughout the material time period.20
+
+7 Id. at 14–15.
+8 Id. at 33.
+9 Id. at 17.
+10 R. Doc. 106-3 at 17–18.
+11 Id. at 37, 71–73.
+12 R. Doc. 97-7 at 3–4.
+13 Id. at 8.
+14 R. Doc. 106-3 at 22.
+15 R. Doc. 97-4 at 7.
+16 R. Doc. 106-3 at 106.
+17 Id.
+18 Id. at 23.
+19 Id. at 23–24.
+20 R. Doc. 97-10 at 3–4.
+Case 2:21-cv-01085-DJP-EJD     Document 120     Filed 07/29/25     Page 2 of 18
+3
+
+While Plaintiff’s course of treatment was initially unremarkable, she  developed an
+infection at her proximal tibia implant site, 21 and she underwent  a left knee arthroscopy and
+debridement surgery on January 27, 2020.22 Dr. Mautner placed Plaintiff on IV antibiotics to help
+fight infection so her bone would have a better chance of healing.23
+After Plaintiff , who was experiencing severe pain in May of 2020, sought medical
+treatment for her increased pain, a May 18, 2020 x-ray showed her plate had broken.24 The plate
+broke due to fatigue,25 which Plaintiff’s metallurgical expert described as a progressive failure that
+is caused by repeated or cyclic stress.26 Although the DePuy plate broke, it remained intact long
+enough for the bone closest to Plaintiff’s knee joint to heal.27 On June 29, 2020, Dr. Mautner again
+performed surgery on Plaintiff, removing the broken plate and replacing it with a Synthes
+intramedullary tibular nail and interlocking screws to repair some still unhealed bone on the lower
+part of Plaintiff’s tibia. 28  On October 12, 2021, after she suffered another infection, Plaintiff’s
+hardware was removed,29 but by then her bones had healed, and by August of 2022, x-rays revealed
+a well-healed fracture.30
+On May 12, 2021, Plaintiff filed suit agains t DePuy in Louisiana’s 24th Judicial District
+Court in Jefferson Parish, alleging that the DePuy plate was defective under the Louisiana Products
+Liability Act (“LPLA”)31 as well as Louisiana’s law of redhibition  and that DePuy breached an
+implied warranty of fitness. DePuy removed this action , based on federal diversity jurisdiction,
+
+21 R. Doc. 97-7 at 3.
+22 R. Doc. 106-3 at 49–51.
+23 Id. at 50–56.
+24 Id. at 69–70.
+25 R. Doc. 97-4 at 7.
+26 R. Doc. 97-15 at 8.
+27 R. Doc. 106-3 at 72–73.
+28 R. Doc. 97-4 at 3.
+29 Id.
+30 R. Doc. 106-3 at 82–85.
+31 LA. REV. STAT. §§ 9:2800.51–.60.
+Case 2:21-cv-01085-DJP-EJD     Document 120     Filed 07/29/25     Page 3 of 18
+4
+
+under 28 U.S.C. § 1332, 32 and t he case, having  progressed through discover y, is r ipe for
+adjudication.
+II. THE PRESENT MOTION
+DePuy has moved for  summary judgment  under Federal Rule of Civil Procedure  56,
+arguing: (1) Plaintiff lacks evidence to support her design and manufacturing defect claims under
+the LPLA; (2) Plaintiff’s warning claims should be dismissed because DePuy adequately warned
+of the risks  associated with its  plate; Plaintiff’s surgeon understood the risks, and a different
+warning would have made no difference ; (3) Plaintiff’s express warranty and redhibition claims
+are unsupported by the evidence; and (4) Plaintiff’s claim for breach of an implied warranty is not
+cognizable under Louisiana law.
+In opposition, Plaintiff argues there are several material issues of fact fatal to summary
+judgment. Plaintiff argues DePuy’s plate was defective in design  because it contained too many
+screw holes along the shaft  of the plate , and if DePuy had designed the plate with an  insert or
+“fillers” for the unused screw holes, this would have “reduce[d] stress at the cross sections” and
+would have lengthened the useful life of the plate.33 Plaintiff also argues DePuy failed to supply
+physicians with important information regarding fatigue-related failures in its plates. According to
+Plaintiff, DePuy failed to warn physicians where the weakest section of the plate was located. 34
+Plaintiff also contends a material issue of fact exists regarding the sterilization process for DePuy’s
+screws, and that DePuy’s sterilization process could have caused Plaintiff’s initial infection, which
+may have ultimately led to her delayed healing .  Plaintiff also contends a complaint report that
+DePuy sent to the United States Food and Drug Administration (“ FDA”) creates a material issue
+
+32 R. Doc. 1.
+33 R. Doc. 106 at 12.
+34 Id. at 5.
+Case 2:21-cv-01085-DJP-EJD     Document 120     Filed 07/29/25     Page 4 of 18
+5
+
+of fact fatal to summary judgment because the complaint report is an admission by DePuy that its
+plate may have caused or contributed to Plaintiff’s injury.35
+III.   LAW AND ANALYSIS
+ Summary judgment is proper when there is no genuine issue  as to any material fact , and
+the movant is entitled to judgment as a matter of law. 36 The court must view the evidence in the
+light most favorable to the nonmovant. 37 Initially, the movant bears the burden of showing the
+absence of a genuine issue as to any material fact,38 but the burden then shifts to the nonmovant to
+come forward with specific facts showing there is a genuine dispute for trial. 39 A dispute about a
+material fact is one upon which a reasonable jury could return a verdict for the nonmoving party
+based upon the jury’s resolution of the particular factual issue. 40 “When assessing whether a
+dispute to any material fact exists, [the Court] consider[s] all of the evidence in the record but
+refrain[s] from making credibility determinations or weighing the evidence.”41
+ The bulk of Plaintiff’s claims in this case arise under the LP LA, which provides the
+exclusive theories of liability for manufacturers for damage caused by their products.42 The LPLA
+states “[t]he manufacturer of a product shall be liable to a claimant for damage proximately caused
+by a characteristic of the product that renders the product unreasonably dangerous when such
+damage arose from a reasonably anticipated use of the product by the claimant or any other person
+
+35 Id. at 14–16.
+36 FED. R. CIV. P. 56(a); see also Celotex Corp. v. Catrett, 477 U.S. 317, 322–23 (1986); Little v. Liquid Air Corp., 37
+F.3d 1069, 1075 (5th Cir. 1994) (en banc) (per curiam).
+37 Coleman v. Hous. Indep. Sch. Dist., 113 F.3d 528, 533 (5th Cir. 1997).
+38 Celotex, 477 U.S. at 323.
+39 See FED. R. CIV. P. 56(c); Matsushita Elec. Indus. Co. v. Zenith Radio Corp., 475 U.S. 574, 586-87 (1986).
+40 Bodenheimer v. PPG Indus., Inc., 5 F.3d 955, 956 (5th Cir. 1993).
+41 Delta & Pine Land Co. v. Nationwide Agribusiness Ins ., 530 F.3d 395, 398–99 (5th Cir. 2008) (first citing Reeves
+v. Sanderson Plumbing Prods., Inc ., 530 U.S. 133, 150 (2000); and then citing Matsushita Elec. Indus. Co. v. Zenith
+Radio Corp., 475 U.S. 574, 587 (1986)).
+42 LA. REV. STAT. § 9:2800.52.
+Case 2:21-cv-01085-DJP-EJD     Document 120     Filed 07/29/25     Page 5 of 18
+6
+
+or entity.”43 And the LPLA provides four exclusive theories under which a product can be deemed
+unreasonably dangerous—construction or composition, design, inadequate warning, and failure to
+conform to express warranties.44 Plaintiff asserts all four of these theories , and she also contends
+DePuy is liable to her because the DePuy plate contained redhibitory vices under Louisiana law ,
+and because the plate did not conform to an implied warranty of fitness. Plaintiff also contends
+DePuy admitted its product caused her damages.
+A. Plaintiff’s Design Defect Claim
+ D ePuy seeks summary judgment on Plaintiff’s design defect claim because DePuy argues
+Plaintiff has no evidence of a safer  alternative design. Under the LPLA, “[a]  product is
+unreasonably dangerous in design if, at the time the product left its manufacturer’s control: (1)
+[t]here existed an alternative design for the product that was capable of preventing the claimant’s
+damage; and (2) [t]he likelihood that the product’s design would cause the claimant’s damage and
+the gravity of that damage outweighed the burden on the manufacturer of adopting the alternative
+design.”45 An alternative design must also be reasonably specific and not based on mere
+speculation because “[v]ague alternative concepts and suggestions —lacking in specific detail —
+do not provide a jury with enough information to determine whether a suggested alternative meets
+the statute’s requirements.” 46 Because alternative design cases  generally present scientific or
+technical issues, design defect cases almost always require expert testimony.47
+DePuy designed its plate with multiple  screw holes along the shaft of  the plate, so  the
+implanting surgeon would have the option of choosing from different holes when affixing the plate
+
+43 LA. REV. STAT. § 9:2800.54(A).
+44 LA. REV. STAT. § 9:2800.54(B)(1)–(4).
+45 LA. REV. STAT. § 9:2800.56.
+46 Vallee v. Crown Equip. Corp., No. 22-30053, 2023 WL 2964407, at *2 (5th Cir. Apr. 14, 2023).
+47 See, e.g., Stewart v. Cap. Safety USA, 867 F.3d 517, 521 (5th Cir. 2017) (collecting cases).
+Case 2:21-cv-01085-DJP-EJD     Document 120     Filed 07/29/25     Page 6 of 18
+7
+
+to the tibia,  but Plaintiff argues the placement of these screw holes makes the plate weaker  and
+creates a design defect. Plaintiff argues it would have been safer for DePuy to reduce the number
+of holes along the shaft of the plate or to provide the surgeon with fillers to reduce the stress at the
+cross sections. 48 Plaintiff contends that while other manufacturers  provide these fillers, DePuy
+chose not to adopt an alternative design  because it would “ hurt [its] bottom line .”49 Plaintiff,
+however, failed to identify any such manufacturer. Plaintiff also contends that Dr. Mautner
+testified these other companies provide surgeons with fillers to reduce stress at the cross sections.50
+Plaintiff maintains Dr. Mautner admitted the DePuy plate is “inherently defective because of the
+screw hole or the number of screw holes,” 51 and that Mautner advanced alternative design ideas
+that would reduce stress on the plates and increase their function.52
+ Plaintiff retained Dawn DiMarco, a metallurgical expert, to examine her implant after it
+was removed.  Plaintiff’s expert metallurgist admitted the plate failed as a result of fatigue,53 and
+that she could offer no opinions as to a safer alternative design for the tibia plate. 54 Moreover,
+while Plaintiff argues that Dr. Mautner opined that the DePuy plate is inherently defective because
+of the extra screw holes, Dr. Mautner admitted there is no tibial plate on the market that eliminates
+the risk of nonunion or of fatigue fractures,55 and he also admitted he was unaware of, and he never
+used a plate that filled in  unused screw holes to strengthen the device. 56  Contrary to Plaintiff’s
+arguments, Dr. Mautner admitted the screw holes are a “necessary design feature” that allow for
+
+48 R. Doc. 106 at 12.
+49 Id.
+50 Id.
+51 Id. at 11.
+52 Id. at 12.
+53 R. Doc. 106-4 at 4.
+54 R. Doc. 97-12 at 5.
+55 R. Doc. 97-6 at 30.
+56 Id. at 32.
+Case 2:21-cv-01085-DJP-EJD     Document 120     Filed 07/29/25     Page 7 of 18
+8
+
+alignment of the plate with the bone ,57 and his testimony fails to suggest an alternative design
+capable of preventing Plaintiff’s damages in this case. In fact, Dr. Mautner’s testimony directly
+contradicts Plaintiff’s arguments because Dr. Mautner admitted that any tibial plate that used fillers
+in the screw holes was experimental,58 and he does not know of any studies showing whether fillers
+actually worked, and he admitted that even if a plate contained some sort of filler in the extra screw
+holes, it would be impossible to entirely eliminate the risk of stress factors. 59 Dr. Mautner
+described the DePuy tibial plates as “good plates,” and he continues to use them regularly.60
+Because n either Ms. DiMarco nor Dr. Mautner, the only liability experts disclosed by
+Plaintiff,61 identified an alternative design shown to prevent plate breakage, and because Plaintiff
+has brought forth nothing more than a vague alternative concept for which she fails to offer
+scientific support, she cannot meet her burden of proof under the LPLA, and her design defect
+claim must be dismissed.
+B. Plaintiff’s Failure-to-Warn Claim
+ Plaintiff alleges the DePuy plate was unreasonably dangerous when it left DePuy’s control
+because DePuy failed to provide an adequate warning of its product’s defect.  DePuy, on the other
+hand, contends it is entitled to summary judgment, because: (a) it warned of the risk that the plate
+could break; (b) Plaintiff has no evidence a different warning would have made a difference; and
+(c) a different warning would have made no difference in this case because Dr. Mautner did not
+recall reading DePuy’s package inserts for the plate.
+
+57 R. Doc. 106-3 at 93.
+58 R. Doc. 97-3 at 32.
+59 R. Doc. 97-6 at 31-32.
+60 R. Doc. 106-3 at 94.
+61 See R. Doc. 82.
+Case 2:21-cv-01085-DJP-EJD     Document 120     Filed 07/29/25     Page 8 of 18
+9
+
+ Under the LPLA, a product is unreasonably dangerous because an adequate warning about
+the product has not been provided if, at the time the product left its manufacturer’s control, the
+product possessed a characteristic that may cause damage and the manufacturer failed to u se
+reasonable care to provide an adequate warning of the potentially dangerous characteristic to users
+and handlers of the product. 62 Louisiana applies the learned intermediary doctrine to failure -to-
+warn claim s involving medical devices .63 Under the learned intermediary doctrine , a
+manufacturer’s obligation to warn consumers is fulfilled when the  patient’s treating physician is
+informed of potential risks of using the device, so the physician can intelligently decide whether
+to use or recommend use of the product and can also provide proper medical advice to the patient.64
+Thus, when the learned intermediary doctrine applies, the issue becomes whether the manufacturer
+adequately warned the treating physician.65
+ The Fifth Circuit has acknowledged that the following  two-prong test governs failure -to-
+warn (or inadequate warning) claims under the LPLA when the learned intermediary doctrine is
+applicable.66 First, the plaintiff must show  that the defendant either provided no warning or
+provided an inadequate warning to the physician of the product’s risk that was otherwise unknown
+to the physician.67 Second, the plaintiff must show that this failure to warn the physician was both
+a factual and proximate cause of the plaintiff’s injury.68
+ Here, the Court finds Plaintiff’s failure -to-warn claim fails  for multiple reasons. For
+starters, DePuy’s package insert warned multiple times of potential breakage of the plate, the risk
+
+62 LA. REV. STAT. § 2800.57(A).
+63Celina v. Biotronik, Inc., 536 F. Supp. 3d 89, 108 (E.D. La. 2021) (citing Willett v. Baxter Int’l, Inc., 929 F.2d 1094,
+1098–99 (5th Cir. 1991)).
+64 Id. (quoting Stahl v. Novartis Pharms. Corp., 283 F.3d 254, 267 (5th Cir. 2002)).
+65 See Stahl, 283 F.3d. at 268.
+66 Id. at 265–66.
+67 Id. (citing Willett, 929 F.2d at 1098).
+68 Id. at 266 (citing Willett, 929 F.2d at 1098).
+Case 2:21-cv-01085-DJP-EJD     Document 120     Filed 07/29/25     Page 9 of 18
+10
+
+ultimately suffered by Plaintiff.69 In its first paragraph, the package insert states the implant can
+“eventually break due to metal  fatigue.” 70 One of the “Possible Adverse Effects” identified by
+DePuy is “nonunion or delayed union which can lead to breakage of the implant.” 71 DePuy’s
+package insert also makes clear that its implants can break at any time if they are subjected to
+sufficient stresses.72 DePuy’s package insert also warns that its devices “can break when subjected
+to the increased loading associated with delayed union or nonunion.” 73 Not only did DePuy warn
+of the risk of breakage, Plaintiff’s treating physician  described these warnings as “common
+knowledge.”74 In fact, Dr. Mautner  admitted he had known of this potential risk for  a very long
+time,75 and that when he chose this  particular tibial plate for Plaintiff, he had all the information
+necessary to make a proper risk-benefit decision for his patient.76  When asked whether the stresses
+from Plaintiff’s delayed bone healing contributed to the plate’s fatigue failure in this case, he
+testified it could,77 explaining that it is common knowledge that a delayed union or nonunion can
+cause the implant to break due to fatigue failure.78
+ Turning specifically to the issue of DePuy’s  alleged failure to warn physicians regarding
+cross section weakness, even assuming DePuy’s package inserts did not provide an adequate
+warning of this alleged defect—something DePuy in no way concedes and for which Plaintiff has
+not offered proof—in this particular case, the operating surgeon, who was aware of this specific
+
+69 R. Doc. 97-5.
+70 Id. at 2.
+71 Id. at 4.
+72 Id. at 2.
+73 Id. at 3.
+74 R. Doc. 97-6 at 12–13.
+75 Id.
+76 Id. at 33.
+77 Id. at 30.
+78 Id. at 13.
+Case 2:21-cv-01085-DJP-EJD     Document 120     Filed 07/29/25     Page 10 of 18
+11
+
+risk, needed no such warning because he admitted that “[w]hen plates break down, they break
+through the screw hole” because “[i]t’s just a weaker part of the plate.”79
+ In addition, Dr. Mautner could not recall reading the plate’s package insert. While DePuy
+warned of the risk of hardware failure in the package inserts, and Dr. Mautner admitted  he was
+aware of the risk of hardware failure when he selected the DePuy  plate, he could not recall ever
+reading the package insert containing DePuy’s warnings. 80  When a treating physician “does not
+recall ever reading the label at issue, the learned intermediary doctrine requires summary judgment
+for the manufacturer.”81  For all these reasons, the Court must grant summary judgment for DePuy
+on Plaintiff’s failure-to-warn claim.
+C. Plaintiff’s Manufacturing Defect Claim
+ A product is unreasonably dangerous in construction or composition if “at the time the
+product left its manufacturer’s control, the product deviated in a material way from the
+manufacturer’s specifications or performance standards for the product or from otherwise identical
+products manufactured by the same manufacturer.”82 To prevail on a manufacturing defect claim,
+a plaintiff must demonstrate not only what a manufacturer's specifications or performance
+standards are for a particular product, but how the product materially deviated from those standards
+so as to render it unreasonably dangerous.83
+ In this case, Plaintiff’s metallurgist Dawn Dimarco admitted she did not review any
+manufacturing specifications for the plate, 84 did not review any testing of the plate, 85 did not
+
+79 R. Doc. 106-3 at 93.
+80 R. Doc. 97-6 at 11.
+81 In re Taxotere (Docetaxel) Prods. Liab. Litig., No.16-17061, 2022 WL 245605, at *3 (E.D. La. Jan. 11, 2022) (citing
+Pustejovsky v. Pliva, Inc., 623 F.3d 271, 277 (5th Cir. 2010)).
+82 LA. REV. STAT. § 9:2800.55.
+83 Cadet v. American Honda Motor Co., No. 24 -1320, 2025 WL 1179462, at *2 (E.D. La. May 23, 2025) ( quoting
+Welch v. Technotrim, Inc., 778 So.2d 728, 733 (La. App. 2 Cir. 2001)).
+84 R. Doc. 97-12 at 3.
+85 Id.
+Case 2:21-cv-01085-DJP-EJD     Document 120     Filed 07/29/25     Page 11 of 18
+12
+
+review any of the engineering drawings of the plate, 86 and did not review any design documents
+related to the plate. 87 Ms. Dimarco, therefore, can offer no opinion at trial regarding what the
+specifications and performance standards were for this plate, or how DePuy may have deviated
+from those standards when the plate was manufactured. 88   Federal courts in Louisiana routinely
+grant summary judgment in LPLA cases involving alleged manufacturing defects when no expert
+has offered an opinion regarding how a product deviated from the manufacturer’s specifications.89
+ While Plaintiff has offered no evidence the DePuy plate deviated from DePuy’s
+specifications or performance standards  in its construction or composition, Plaintiff nonetheless
+argues there is a genuine issue of material fact regarding the sterilization of the screws that were
+used during her November 14, 2019 surgery. She argues there may have been a problem with their
+sterilization, and that this may have been the cause of her initial infection, and summary judgment
+on her manufacturing claim should be denied.90 DePuy argues it is undisputed the box containing
+the screws and instruments used in Plaintiff’s surgery were not designated by DePuy as sterilized,91
+that Plaintiff has no evidence to the contrary, and that DePuy’s uncontroverted summary judgment
+evidence shows Plaintiff’s screws were not designated as sterile in DePuy’s sale documents. 92
+
+86 Id.
+87 Id.
+88 Id. at 5.
+89 See, e.g., Toups v. Synthes, Inc ., No. 14 -2544, 2015 WL 6738541, at *5– 6 (E.D. La. Nov. 4, 2015) ( plaintiff’s
+manufacturing defect claim dismissed for lack of an expert opinion regarding how the internal fixation device in that
+case deviated from the manufacturer’s specifications ); see also Power v. Louisville Ladder Inc., No. 19-14627, 2020
+WL 3971278, at *3 (E.D. La. July 14, 2020) (granting summary judgment on the plaintiff’s composition defect claim
+when the plaintiff failed to meet his burden of showing the manufacturer’s specifications or performance standards or
+how the product materially deviated from those standards).
+90 R. Doc. 106 at 6.
+91 R. Doc. 109 at 2. DePuy relies on the testimony of René Haag, its corporate representative, to show that the screws
+in this case were sold as unsterilized. Id . (citing R. Doc. 109-1 at 57). But Haag, at one point, admitted he could not
+say whether the subject screws were sterilized by DePuy or not. See R. Doc. 106-6 at 59.  To the extent these potentially
+inconsistent statements create a dispute of fact,  the dispute is not a material one because DePuy  does, in fact,  offer
+both sterilized and non-sterilized screws, and it is undisputed in this summary judgment record that the hospital would
+be responsible for sterilizing any unsterilized screws, and Plaintiff has failed to offer any evidence regarding  the
+sterilization process in her case and has offered no evidence tending to prove a sterilization problem, involving either
+sterilized or unsterilized screws, caused her infection or that this caused the breakage of her plate.
+92 R. Doc. 109 at 2–4.
+Case 2:21-cv-01085-DJP-EJD     Document 120     Filed 07/29/25     Page 12 of 18
+13
+
+DePuy offers both sterilized and non- sterilized products for sale to its customers ,93 and it argues
+because the hospital purchased non-sterilized screws from DePuy,94 the hospital would have been
+responsible for sterilizing the screws before they were used in Plaintiff’s procedure.95
+ The Court finds Plaintiff has failed to raise an issue sufficient to defeat summary judgment
+on her manufacturing defect claim.  The sale of non-sterilized screws does not amount to a defect
+in the manufacturing process when non- sterilized screws are also an intentional product offering
+by DePuy.  While  Plaintiff has  raised the specter of a potential issue of fact regarding t he
+sterilization of her surgical screws, she has failed to  produce any evidence regarding the
+sterilization process that was used in her case,96 and she has also failed to offer any evidence that
+her infection was caused by a sterilization failure. Indeed, even if Plaintiff’s infection was caused
+by a sterilization problem, she has failed to offer any proof the infection arose from any fault on
+the part of DePuy or that her January 2020 infection is what caused her to experience nonunion of
+her fracture, and, critically, she fails to offer any proof that connects the sterilization issue to the
+breakage of her plate. Because Plaintiff has no actual summary judgment evidence that a defect in
+any DePuy product used in her case deviated from DePuy’s specifications or performance
+standards in manufacturing (or in packaging or sterilization), and that such a failure caused her to
+suffer damages, Plaintiff’s manufacturing defect claim cannot survive summary judgment.
+
+93 R. Doc. 109-1 at 2.
+94 R. Doc. 109 at 2.
+95 The unrebutted testimony of René Haag, DePuy’s  corporate representative, demonstrates that nonsterile products
+require sterilization by the hospital prior to use, and once a sterile product is removed from its packaging, the hospital
+is responsible for ensuring the sterile transfer of the product to the sterile field in the operating room. See R. Doc. 109-
+1 at 5–6,16.
+96 Plaintiff failed to engage in any discovery of Ochsner Medical Center , did not attempt to obtain any information
+regarding the hospital’s sterilization practices, and  has failed to produce  any testimony regarding sterilization of the
+medical devices used in her procedure.  In addition, Dr. Mautner never opined that the source of Plaintiff’s infection
+was due to improper sterilization of the medical devices used in the surgery, and Plaintiff failed to designate any other
+experts to opine on the origins of the infection.
+Case 2:21-cv-01085-DJP-EJD     Document 120     Filed 07/29/25     Page 13 of 18
+14
+
+D. Plaintiff’s Express Warranty Claim
+ Under the LPLA, a  manufacturer can be held liable and its product can be deemed
+unreasonably dangerous if the product “does not conform to an express warranty made at any time
+by the manufacturer,” and the warranty “induced the claimant or another person or entity to use
+the product and the claimant's damage was proximately caused because the express warranty was
+untrue.”97 If there is nothing in the record to indicate the existence of an express warranty,
+summary judgment dismissing the claim based upon the failure to conform to an express warranty
+is appropriate.98
+ In this case,  Plaintiff’s express warranty claim must fail because Plaintiff points to no
+express warranty DePuy made that induced her treating surgeon to use the DePuy plate. To survive
+summary judgment on an LPLA express warranty claim, a plaintiff must offer evidence that : (1)
+the manufacturer made an express warranty about the product; (2) the plaintiff was induced to use
+the product because of that express warranty ; (3) the product failed to conform to that express
+warranty; and (4) the plaintiff’s damages were proximately caused because the express warranty
+was untrue. 99 Here, Plaintiff does not describe what “express warranty” or promise DePuy
+allegedly made regarding  the subject plate.  Plaintiff’s Amended Complaint merely alleges , in
+conclusory terms, the breach of an  “express warranty,”100 and Plaintiff has offered no summary
+judgment evidence describing this purported warranty. The LPLA requires a specific, stated
+warranty to hold a manufacturer liable under this prong of the Act .101 When the plaintiff cannot
+specify the express warranty made by the defendant , and makes only general allegation s that a
+
+97 LA. REV. STAT. § 9:2800.57(A).
+98 Clay v. Int’l Harvester Co., 674 So.2d 398, 412 (La. App. 3 Cir. 5/8/96).
+99 Couturier v. Bard Peripheral Vascular, Inc., 548 F. Supp. 3d 596, 611 (E.D. La. 2021) (citing Broussard v. Procter
+& Gamble Co., 463 F. Supp. 2d 596 (W.D. La. 2006)).
+100 R. Doc. 38 at ¶ 30.
+101 Reynolds v. Bordelon, 172 So. 3d 607, 615 (La. 2015)  (“The LPLA makes it very clear that in order for the
+manufacturer to be liable, there must be a specified stated warranty, i.e, express .”).
+Case 2:21-cv-01085-DJP-EJD     Document 120     Filed 07/29/25     Page 14 of 18
+15
+
+product failed to conform to an express warranty, the defendant is entitled to summary
+judgment.102
+ Not only did DePuy not make an express warranty, it actually provided a warning in its
+package insert that expressly warned its users of the potential risk of breakage.103 While summary
+judgment is appropriate in this case because Plaintiff has failed to show DePuy  made an express
+warranty, Plaintiff’s express warranty claim also fails because she cannot prove that a warranty
+from DePuy induced her physician to select th is DePuy plate. Indeed, Dr. Mautner specifically
+denied relying on any express warranty from DePuy when he selected  the DePuy plate for her
+surgery.104 Based upon all the foregoing, Plaintiff’s express warranty claim cannot survive
+summary judgment.
+E. Plaintiff’s Implied Warranty Claim
+ Plaintiff has also alleged a so -called implied warranty claim. While the LPLA , which
+establishes “the exclusive theories of liability for manufacturers for damage caused by their
+products,”105 provides a remedy for breach of an express warranty,106 it does not recognize a cause
+of action against a manufacturer for  breach of an implied warranty. Because a claimant may not
+recover from a manufacturer for damage caused by a product on the basis of any theory not set
+forth in the LPLA,107 and because there is no cause of action for failure to conform to an implied
+warranty under the LPLA,108 Plaintiff’s implied warranty claim is not cognizable under Louisiana
+law. DePuy is, therefore, entitled to summary judgment on Plaintiff’s implied warranty claim.
+
+102 Summers v. FCA US LLC, No. 23-1777, 2024 WL 3925169, at *6 (E.D. La. Aug. 23, 2024).
+103 R. Doc. 97-5 at 3.
+104 R. Doc. 106-3 at 101.
+105 LA. REV. STAT. § 9:2800.52.
+106 LA. REV. STAT. § 9:2800.58.
+107 Scianneaux v. St. Jude Med. S.C., Inc., 961 F. Supp. 2d 808, 811–12 (E.D. La. 2013).
+108 See, e.g., Jefferson v. Lead Indus. Ass’n, Inc., 106 F.3d 1245, 1251 (5th Cir. 1997); Summers, 2024 WL 3925169,
+at *5 (granting summary judgment on breach of implied warranty claim due to the LPLA’ s exclusivity provision);
+Case 2:21-cv-01085-DJP-EJD     Document 120     Filed 07/29/25     Page 15 of 18
+16
+
+F. Plaintiff’s Redhibition Claim
+ Notwithstanding the exclusivity provision of the LPLA , t he Act  preserves a claim in
+redhibition “only to the extent the claimant seeks to recover the value of the product or other
+economic loss.”109 To prevail, a plaintiff must prove: (1) the thing sold is absolutely useless for its
+intended purpose, or its use is so inconvenient that it must be supposed it would not have been
+purchased had the purchaser  known of the defect; (2) the defect existed at the time of purchase ,
+but was neither known or apparent to the purchaser ; and (3) the seller was given the opportunity
+to repair the defect.110
+ As a threshold matter , Plaintiff cannot prove the plate was “absolutely useless” for its
+intended purpose of promoting bone healing because plaintiff’s plate remained intact long enough
+to allow the uppermost part of her tibia to heal.111 When Dr. Mautner removed the plate, Plaintiff’s
+tibia had healed enough for him to use an  intramedullary nail to repair the remaining unhealed
+bone on the lower part on the tibia,112 and Dr. Mautner admitted the plate worked well for Plaintiff
+because the plate enabled her bone to heal the part of her tibia closest to the knee joint .113 While
+proof that the plate was not useless for its intended purpose  should end the inquiry on whether
+Plaintiff has a claim under Louisiana r edhibition law  ( because she cannot meet  even the first
+element of the claim), Plaintiff is also  unable to meet any of the other required elements of a
+redhibition claim because, for all the reasons set forth above in the LPLA analysis, t he evidence
+
+Rhodes v. Covidien LP, No. 18-10667, 2019 WL 2162845, at *2 (E.D. La. May 17, 2019)  (dismissing with prejudice
+breach of implied warranty claim as precluded by the LPLA).
+109 Pipitone v. Biomatrix, Inc., 288 F.3d 239, 251 (5th Cir. 2002).
+110 Alston v. Fleetwood Motor Homes of Ind. Inc. , 480 F.3d 695, 699 (5th Cir. 2007) . While it is undisputed DePuy
+was not given an opportunity to repair any alleged defect , R. Doc. 106- 1 at 7, the Court need  not address the
+applicability of this prong of the r edhibition analysis in the instant case because, as shown herein, Plaintiff cannot
+meet any of the other necessary elements of a Louisiana redhibition claim.
+111 R. Doc. 97-6 at 25–26.
+112 Id.
+113 Id.
+Case 2:21-cv-01085-DJP-EJD     Document 120     Filed 07/29/25     Page 16 of 18
+17
+
+simply does not support a claim that t he plate contain ed a hidden design defect or was mis -
+manufactured or contained an inadequate warning when Dr. Mautner admitted he was well-aware
+of the risk of plate breakage, and he knew that the screw holes were the weakest parts of the plate.
+Because Plaintiff cannot prove her plate was so useless that it would not have been purchased, and
+because she cannot  even prove it was defective in the first place ,114 Plaintiff, therefore, cannot
+prove essential elements for a claim under Louisiana’s law of redhibition, requiring the Court to
+grant summary judgment in DePuy’s favor on this claim as well.
+G. Plaintiff’s FDA Complaint Argument
+Plaintiff also contends a Complaint Report DePuy sent to the FDA creates a material issue
+of fact fatal to summary judgment because the report is an admission by DePuy that its product
+may have caused or contributed to Plaintiff’s injury. 115 This contention is without merit. While
+medical device manufacturers are required by law to report all adverse events involving their
+devices to the FDA, 116 satisfying this reporting requirement does not amount to an admission by
+DePuy that its product caused or contributed to the reportable event .117 The Court has found no
+authority (and Plaintiff supplies none) to suggest that a manufacturer’s compliance with regulatory
+reporting requirements in this context constitutes an admission of causation of a plaintiff’s
+damages, and this Court declines Plaintiff’s invitation to embark on that course in this case.
+
+114 See Phillips v. Med. Device  Bus. Servs., Inc., No. 21-30296, 2022 WL 1117687, at *4 (5th Cir. Apr. 12, 2022 )
+(citing Grenier v. Medical Engineering Corp., 243 F.3d 200, 203 (5th Cir. 2001)).
+115 R. Doc. 106 at 14–16.
+116 21 C.F.R. § 803.50.
+117 21 C.F.R. § 803.16; see also Pinsonneault v. St. Jude Med., Inc., 953  F. Supp. 2d 1006, 1015 (D. Minn. 2013)
+(finding that the submission of a medical device report “is not necessarily an admission that the device . . . caused or
+contributed to the reportable event”).
+Case 2:21-cv-01085-DJP-EJD     Document 120     Filed 07/29/25     Page 17 of 18
+18
+
+IV.   CONCLUSION
+For all the foregoing reasons, DePuy’s Motion for Summary Judgment 118 is GRANTED,
+and all of Plaintiff’s claims are DISMISSED WITH PREJUDICE.
+New Orleans, Louisiana, this 29th day of July 2025.
+
+______________________________________
+DARREL JAMES PAPILLION
+UNITED STATES DISTRICT JUDGE
+
+118 R. Doc. 97.
+Case 2:21-cv-01085-DJP-EJD     Document 120     Filed 07/29/25     Page 18 of 18

@@ -1,0 +1,870 @@
+1
+
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+JULIUS CERDES, JR. AND   * CIVIL ACTION NO. 24-2866
+MELISSA CERDES     * c/w NO. 25-142
+       *
+VERSUS      * JUDGE ELDON E. FALLON
+       *
+UNITED STATES OF AMERICA   * MAGISTRATE JUDGE
+* KAREN WELLS ROBY
+* * * * * * * *
+
+ORDER & REASONS
+            Before the Court are two motions to dismiss pursuant to Federal Rule of Civil Procedure
+12(b)(6), one by Heath Martin and the other by the City of Hammond. 1  R. Docs. 30, 31. Plaintiffs
+Julius and Melissa Cerdes oppose the motions. R. Docs. 38, 39. Heath Martin replied. R. Doc. 40.
+The Court permitted Plaintiffs to file a sur-reply to address arguments raised for the first time in
+Martin’s reply brief. R. Docs. 41, 45. Considering the record, briefing, and applicable law, the
+Court now rules as follows.
+I. BACKGROUND
+ This case ari ses out of alleged misconduct by corrupt former DEA agent Chad Scott
+(“Scott”). Case No. 24-2866, R. Doc. 1 at 1. Plaintiff Julius Cerdes (“Cerdes”) avers that Scott and
+his associate, Heath Martin (“Martin”), framed Cerdes for crimes he did not commit. Id. Scott then
+orchestrated the prosecution of Cerdes on false federal charges and eventually coerced him into
+pleading guilty to those  charges (“Case No. 06-115”) .2 Id. The Fifth Circuit has now vacated
+Cerdes’s guilty plea, and the Government has voluntarily dismissed the I ndictment against h im.
+
+1  Both motions to dismiss relate to Plaintiffs’ First Amended Complaint filed in Case No. 25 -142, which has
+since been consolidated under this lead docket number. This Order & Reasons will refer to this First Amended
+Complaint by “Complaint” for simplicity.
+2  Cerdes was charged with a three- count indictment on April 13, 2006, in the Eastern District of Louisiana
+under criminal docket number 06- 115. The indictment charged him with marijuana conspiracy, possession of
+marijuana with intent to distribute, and possession of a firearm in relation to a drug trafficking crime.
+Case 2:24-cv-02866-EEF-KWR     Document 47     Filed 08/25/25     Page 1 of 31
+2
+
+Id. at 11. Scott, who was convicted in 2021 of crimes arising from official misconduct in his role
+as a federal officer, is currently serving a 13-year prison sentence. Id. at 10. Cerdes now brings a
+suit against the United States under the Federal Tort Claims Act  and against Martin and the City
+of Hammond (the “City”) under 42 U.S.C. § 1983 and state law tort theories, alleging that Cerdes
+was maliciously prosecuted in Case No. 06-115. Id. at 12; Case No. 25-142, R. Doc. 4 at 12.
+ The incidents underlying this case began nearly twenty years ago. Case No. 25-142, R.
+Doc. 4 at 3. Cerdes alleges that on November 14, 2005, he took his boat out for a shrimping trip
+with his deckhand “Bud” Tilley (“Tilley”). Id. That evening, Cerdes and Tilley returned to
+Cerdes’s house in Ponchatoula , Louisiana where they discovered that a Drug Enforcement
+Administration (“DEA”) taskforce had “taken over Cerdes’s house and was conducting a search
+of it.” Id. at 3. He avers that Scott, as well as “[s] everal now-disgraced members of Scott’s DEA
+taskforce” were on the scene. Id. These other officers included Karl Newman, a Tangipahoa Parish
+Sheriff Deputy, and Defendant Heath Martin, a City of Hammond police officer, both assigned to
+Scott’s DEA taskforce. Id. at 3-4.
+ Cerdes alleges that when he arrived, the taskforce already had in custody his wife, Melissa
+Cerdes, his acquaintance, Raymond Quintanilla, and Quintanilla’s wife. Id. at 3. Cerdes and Tilley
+were also placed under arrest. Id. at 4. Cerdes told agents that he had a firearm located in his back
+pocket, which he regularly carried on shrimping trips. Id.  Members of the task force seized the
+firearm. Id. A drug dog then searched Cerdes’s vehicle but found no drugs. Id. Cerdes and Tilley
+were then separated, and Tilley began talking with Defendant Martin, as they were friends . Id.
+Martin offered Tilley, “ [i]f there is anything I can do to help you, just let me know.” Id. Tilley
+replied that there was a bag of marijuana in his boot, and he would “surely appreciate” if Martin
+could “get rid of that.” Id. At that point, Martin brought the marijuana to Scott. Id.
+Case 2:24-cv-02866-EEF-KWR     Document 47     Filed 08/25/25     Page 2 of 31
+3
+
+ Cerdes alleges that Scott “ knew the law” regarding 18 U.S.C. § 924(c) —possession of a
+firearm in furtherance  of drug trafficking—which carries a mandatory minimum five -year
+sentence. Id. at 5. “Presented with the opportunity,” he decided to frame Cerdes for this crime. 3
+Id. Cerdes alleges that Scott and Martin  conspired together to plant the bag of marijuana in
+Cerdes’s truck, which they later pretended to find where they placed it. Id. Scott then told Cerdes,
+“Now I have you with the gun protecting the drugs and you will do more time than the Mexican
+in your shop with the dope.”4 Id. At the conclusion of the raid, “Scott and/or Martin” then caused
+Cerdes to be arrested on false state charges of possession with intent to distribute. Id.
+ Afterwards, Cerdes alleges that “Scott lied, manipulated, and worked behind the scenes to
+rig the scales against Cerdes at every stage of the ensuing criminal proceedings, starting with state
+court.” Id. at 6. First, Scott caused the seizure of Cerdes’s assets, including three boats and $74,000,
+and initiated forfeiture proceedings despite knowing the assets were not connected to a crime. Id.
+at 5. He also caused Cerdes’ s bond to be set at one million dollars to give himself leverage  and
+eventually offered to get the bond lowered if Cerdes agreed to “debrief” with him. Id. at 6. Cerdes
+agreed and received a bond reduction. Id. After Cerdes paid the lowered bond amount and was
+released from jail, he spoke with Bud Tilley, who relayed that he gave the marijuana in his boot to
+Martin. Id. Cerdes told Tilley’s story to his attorneys  in confidence. Id. Unbeknownst to Cerdes,
+
+3  Cerdes alleges that Scott had significant “personal animosity” toward him. Case No. 25-142, R. Doc. 4 at 3-
+4. He represents that he knew Scott “from the Ponchatoula, Louisiana area since before Scott was a DEA agent or
+even a police officer, going back to when Scott was a bartender at local clubs.” Id.  According to Cerdes, “Scott had
+always disliked [him] to the point of active animosity, probably based on interactions they had while Scott was a
+bartender and Scott’s personal relationship with Cerdes’[s] ex- wife.” Id. Cerdes alleges that “because of his personal
+animosity towards Cerdes, and because he wanted to try to coerce Cerdes into making incriminating statements about
+other people Scott was targeting in Tangipahoa Parish, Scott had decided to orchestrate a campaign to maliciously
+prosecute Cerdes for crimes he did not commit.” Id. at 4-5.
+4  It is the Court’s understanding that the “Mexican in [Cerdes’s] shop with the dope” refers to Mr. Quintanilla,
+who has sold marijuana to Cerdes in the past, but only for Cerdes’s “personal consumption. ” Case No. 25 -142, R.
+Doc. 4 at 3. Cerdes asserts throughout the Complaint that he never conspired with Quintanilla to distribute marijuana,
+nor ever possessed marijuana with the intent to distribute it. Id.
+Case 2:24-cv-02866-EEF-KWR     Document 47     Filed 08/25/25     Page 3 of 31
+4
+
+his attorneys were allegedly associates of Scott, and Cerdes claims that Scott got them to disclose
+confidential information to him. Id. at 6-7.
+ Cerdes, now out on bond, agreed to meet with Scott at the Tangipahoa Sheriff’s office—at
+Scott’s suggestion and without his attorneys present—so that Cerdes could “winterize” his seized
+boats. Id. at 7. During the meeting, Scott explained that he wanted Cerdes to “cooperate with him”
+to frame other people. Id. Scott had “two targets in mind”—small time cocaine users with whom
+Cerdes was acquainted. Id. Scott wanted Cerdes to lie and say he sold cocaine to  one of the
+individuals. Id. Scott also wanted Cerdes t o lie and “admit”  that he was involved with his
+acquaintance Quintanilla (to whom Scott referred to as the “Mexican in [Cerdes’s ] shop with the
+dope”) in a scheme to sell marijuana.  Id. at 5, 7. Scott threatened Cerdes with filing the federal
+§ 924(c) charge against him and “dangled the possibility that he would not proceed with forfeiting
+the boats if Cerdes would tell Scott what he wanted to hear.” Id.  at 6. Cerdes “reluctantly agreed
+to Scott’s demands because he feared the possibility of federal charges with a mandatory minimum
+five-year sentence.” Id.
+ Cerdes then met with Scott and his attorneys and “stuck with the script Scott had fed him,”
+stating that he had been involved in distributing marijuana and cocaine. Id.  at 8. Despite his
+promises, Scott nevertheless moved forward with forfeiting Cerdes’s boats. Id. Feeling angry and
+tricked, Cerdes objected to the forfeiture and indicated that he would fight the false criminal
+charges. Id. At that point, Scott arranged for Cerdes to be  arrested and charged with the false
+marijuana and cocaine offenses in state court.  Id. Scott and Martin then went to the jail where
+Cerdes was being held. Id. Scott “gloated about how he had caused Cerdes to be arrested on another
+trumped-up charge” and again demanded that Cerdes cooperate with him or face the false § 924(c)
+charge. Id. Scott threatened, “who do you think they are going to believe, me or you?” Id. Cerdes,
+Case 2:24-cv-02866-EEF-KWR     Document 47     Filed 08/25/25     Page 4 of 31
+5
+
+however, “told Scott and Martin he was rejecting their demands.” Id.
+ Once Cerdes made bai l on the “bogus” cocaine charge , he filed a formal complaint with
+the DEA about Scott’s behavior. Id. at 9. Shortly thereafter, “Scott carried through with his threat
+of having Cerdes falsely charged in federal court.” Id. On April 13, 2006, a three-count indictment
+was filed in the Eastern District of Louisiana in Case No. 06-115, charging Cerdes with a marijuana
+conspiracy, possession of marijuana with intent to distribute, and a § 924(c) charge . Id. Cerdes
+alleges that “Scott procured this indictment despite his knowledge that he had framed Cerdes (with
+the help of Martin) [sic]  and that the charges were malicious and lacked probable cause.” Id.
+Cerdes was ordered detained.5 Id.
+ Cerdes avers that “[b]e aten down by Scott’s power to lie, cheat, and manipulate the
+criminal justice system with impunity, and fearing conviction on a § 924(c) charge with a
+mandatory five-year sentence, [he] ultimately agreed to a plea agreement requiring him to plead
+guilty to the marijuana  conspiracy in exchange for dismissal of the § 924(c) charge and the
+possession-with-intent charge.” Id. at 10. He was eventually  sentenced to 18 months’
+imprisonment. Id. He also alleges that “[a]s part of the plea agreement, the U.S. government took
+the highly unusual step of  requiring Cerdes to withdraw his complaint to the DEA about Scott .”
+Id. Additionally, Cerdes was required to consent to forfeiture of the boats and money Scott  had
+seized. Id.
+ As a result of this alleged wrongful conviction, Cerdes served his entire 18-month sentence
+as well as two years of supervised release.  Id. He also became a “ prohibited person” unable to
+
+5  Cerdes avers that while he was being held on the federal charges, Scott caused him to be transferred to a
+different dorm that also housed an individual named Calvin Jenkins, who was “acting as an informant for Scott.” Id.
+When Cerdes was eventually released on bond, the Government moved to revoke him less than a week later, alleging
+that “while Cerdes had been housed in the dorm with Jenkins, Cerdes had offered Jenkins $20,000 to kill Scott.” Id.
+at 9-10. Cerdes maintains that “t his allegation was a complete fabrication on the part of Scott and  Jenkins[,] [b]ut
+Scott’s ploy worked, and Cerdes was again ordered detained.” Id. at 10.
+Case 2:24-cv-02866-EEF-KWR     Document 47     Filed 08/25/25     Page 5 of 31
+6
+
+possess firearms within the meaning of 18 U.S.C. § 922. Id. Because of this, Cerdes was charged
+several years later with possession of ammunition by a prohibited person. Id. He ultimately pleaded
+guilty to that charge and was sentenced to probation. Id.
+ Cerdes alleges that  in early 2016, Louisiana State Police arrested  one of Scott’s
+subordinates on the Tangipahoa Parish Drug Taskforce for a variety of drug crimes. Id. at 11. He
+avers that “the resulting investigation led to an exhaustive federal investigation of Scott’s activities
+over the years he had been a DEA agent.” Id. Eventually, Scott was charged with and convicted of
+a variety of federal crimes. Id. He was sentenced to 160 months’ imprisonment for his misconduct.
+Id.
+ During this investigation, the Government allegedly discovered Cerdes’s complaint to the
+DEA about Scott. Id. Thereafter, Cerdes represents that  “the federal government performed a
+thorough investigation of Cerdes’s allegations, and on information and belief came to believe he
+was telling the truth about how Scott, with the help of Martin, had framed Cerdes and forced him
+to plead guilty to crimes he did not commit. ” Id. The Government therefore asked  him to be a
+witness during Scott’s sentencing. Id.  Cerdes avers that the Government “ sponsored Cerdes’s
+testimony during that hearing, in which he testified that he was in fact innocent of the charges from
+[Case No. 06-115] and that Scott, with the assistance of Defendant Martin, had framed him, planted
+evidence, and forced him to plead guilty to crimes he did not commit.” Id.
+ Around the same time, Cerdes filed a “petition for a writ of coram nobis” in Case No. 06-
+115, “contending that his conviction should be vacated because of Scott’s misconduct.” Id.
+Although the district court initially denied the petition as untimely, the Fifth Circuit reversed that
+decision,6 holding that Cerdes’s delay in filing the coram nobis petition was reasonable based on
+
+6  United States v. Cerdes, No. 23-30141, 2023 WL 8725914 (5th Cir. Dec. 19, 2023).
+Case 2:24-cv-02866-EEF-KWR     Document 47     Filed 08/25/25     Page 6 of 31
+7
+
+the continuing threat Scott posed by virtue of his role as a government agent. Id. The Circuit found
+that the threat remained until Scott was criminally charged, after which Cerdes timely filed. Id.
+ On remand, the Government withdrew its opposition to Cerdes’s coram nobis petition, and
+the district court vacated Cerdes’s conviction. Id. at 12. Citing “the interest of justice,” the
+Government then moved to dismiss the Indictment against Cerdes, which the district court granted
+on January 31, 2024. Id.
+ Cerdes has now filed two cases because of Scott and Martin’s alleged wrongdoings, which
+have since been consolidated before this Court . He first brought a claim for “ malicious
+prosecution” against the United States pursuant to the Federal Tort Claims Act (“FTCA”), 28
+U.S.C. § 2671 et seq.  Case No. 24-2866, R. Doc. 1 at 12. He avers that he suffered wrongful
+conviction and incarceration, “ with all the mental, emotional, financial, and reputational harms
+that such a malicious prosecution and wrongful conviction and imprisonment engender.” Id. at 11-
+12. Cerdes also seeks damages for the “adverse collateral consequences of a felony conviction,
+including the loss of his Second Amendment  rights.” Id. at 12. Moreover, he asks for “financial
+damages through the unlawful seizure of his  property, namely, the boats and money wrongfully
+forfeited as part of the criminal proceedings.” Id. Melissa Cerdes separately brings a claim for “the
+loss of her husband’s love, companionship, affection, and financial support during his period of
+incarceration, as well as the extreme mental anguish and distress caused by watching a loved one
+be maliciously prosecuted by a federal agent on false and baseless charges.” Id.
+ Plaintiffs later brought a separate suit against Heath Martin and his employer, the City of
+Hammond. See Case No. 25-142, R. Doc. 4. Cerdes asserts § 1983 claims against Martin based on
+constitutional violations to his Fourteenth Amendment due process rights and Fourth Amendment
+rights to be free from both unreasonable seizure and malicious prosecution. Id. at 13-14. He also
+Case 2:24-cv-02866-EEF-KWR     Document 47     Filed 08/25/25     Page 7 of 31
+8
+
+brings a state-law malicious prosecution claim against Martin and  against the City of Hammond
+under a respondeat superior theory. Id. at 15. The Complaint alleges that at all relevant times, and
+to the extent that Martin was not considered an employee of the Government while he was assigned
+to Scott’s federal task force, Martin was an employee of the City of Hammond.7  Id.
+II. PRESENT MOTIONS
+ Heath Martin and the City of Hammond each move to dismiss Plaintiffs’ suit for failure to
+state a claim pursuant to Federal Rule of Civil Procedure 12(b)(6). R. Docs. 30, 31. Both Martin
+and the City assert that Plaintiffs are time -barred from bringing their § 1983 claims. See R. Doc.
+30-1 at 3-4; R. Doc. 31-1 at 10-11. They also each argue that Plaintiffs have failed to adequately
+plead elements of their state law malicious prosecution claim.  8 See R. Doc. 30-1 at 5-8; R. Doc.
+31-1 at 6, 8-9. The City individually asserts that Plaintiffs failed to state a § 1983 Monell liability
+claim against it. R. Doc. 31-1 at 11. The City also asks this Court to take judicial notice of certain
+public records for both evidentiary and liability-limiting purposes. Id. at 5-10.
+ Plaintiffs oppose each motion. R. Docs. 38, 39. Overall, they argue that their § 1983 claims
+are timely  and that the Complaint adequately pleads all six  state law malicious prosecution
+elements. 9 R. Doc. 38 at 9-15; R. Doc. 39 at 12-14. As to Martin’s motion, Plaintiffs ask this
+Court to retain supplemental jurisdiction over their state law claims should the § 1983 claims be
+dismissed as untimely. R. Doc. 38 at 12. And as to the City’s motion, Plaintiffs posit that the Court
+should not take judicial notice of the City’s  public records exhibits because the documents are
+highly contested. R. Doc. 39 at 10. Plaintiffs further assert that they have adequately pled a
+
+7  Alternatively, Cerdes pleads that the United States and the City could be jointly liable for the torts committed
+by Martin in the course and scope of his employment. Id.
+8  Martin individually requests the Court decline to exercise supplemental jurisdiction over Plaintiffs’ state law
+claims if their federal claims are deemed to be prescribed. R. Doc. 30-1 at 4-5.
+9  Plaintiffs, however, request leave to amend their Complaint if the Court perceives any deficiencies. R. Doc.
+38 at 16; R. Doc. 39 at 14.
+Case 2:24-cv-02866-EEF-KWR     Document 47     Filed 08/25/25     Page 8 of 31
+9
+
+respondeat superior theory of liability against the City  and concede that they are not presently
+bringing a Monell claim. Id. at 11-13.
+ Martin replied, largely reiterating his original arguments but raising for the first time that
+he should be entitled to qualified immunity on Cerdes’s § 1983 Fourth Amendment claim for
+malicious prosecution. R. Doc. 40 at 5-6. Plaintiffs filed a sur-reply after requesting leave of court
+to address Martin’s qualified immunity argument. R. Doc. 46.
+III. LEGAL STANDARD
+ Federal Rule of Civil Procedure 12(b)(6) provides that an action may be dismissed “for failure
+to state a claim upon which relief can be granted.” Fed. R. Civ. P. 12(b)(6). “To survive a motion to
+dismiss, a complaint must contain sufficient factual matter, accepted as true, to ‘state a claim for relief
+that is plausible on its face.’” Ashcroft v. Iqbal, 556 U.S. 662, 678 (2009) (quoting Bell Atl. Corp. v.
+Twombly, 550 U.S. 544, 570 (2008)). “Factual allegations must be enough to raise a right to relief
+above the speculative level.” Twombly, 550 U.S. at 556. A claim is plausible on its face when the
+plaintiff has pled facts that allow the court to “draw a reasonable inference that the defendant is liable
+for the misconduct alleged.” Id. at 570. A court must liberally construe the complaint in light most
+favorable to the plaintiff, accept the plaintiff’s allegations as true, and draw all reasonable inferences
+in favor of the plaintiff. Baker v. Putnal, 75 F.3d 190, 196 (5th Cir. 1996). However, courts “do not
+accept as true conclusory allegations, unwarranted factual inferences, or legal conclusions.” Arias-
+Benn v. State Farm Fire & Cas. Co., 495 F.3d 228, 230 (5th Cir. 2007) (quoting Plotkin v. IP Axess
+Inc., 407 F.3d 690, 696 (5th Cir. 2005)).
+IV. DISCUSSION
+ The parties largely dispute (1) whether Plaintiffs’ federal and state law claims are time -
+barred and (2) the pleading adequacy of Plaintiffs’ state law malicious prosecution claim. The City
+Case 2:24-cv-02866-EEF-KWR     Document 47     Filed 08/25/25     Page 9 of 31
+10
+
+further disputes its liability for Martin’s actions.  Martin additionally argues that he is entitled to
+qualified immunity on Cerdes’s § 1983 malicious prosecution claim. The Court first addresses the
+City’s request for it to take judicial notice of certain evidence and documents in deciding the instant
+motion. The Court then takes each remaining issue in turn.
+A. The Court Will Decline to Consider the Documents Cited by the City of Hammond.
+ A court generally may not look beyond the plaintiff’s complaint when deciding whether to
+grant a Rule 12(b)(6) motion. Scanlan v. Tex. A&M Univ., 343 F.3d 533, 536 (5th Cir. 2003);
+Williamson v. Tucker, 645 F.2d 404, 412- 13 (5th Cir. 1981). There is, however, an exception to
+the standard rule. The Fifth Circuit in Collins v. Morgan Stanley Dean Witter  held that a district
+court may rely on evidence outside the complaint without converting the Rule 12(b)(6) motion
+into a summary judgment motion when the evidence is: (1) attached to the motion, (2) referred to
+in the complaint, and (3) central to the plaintiff’s claim or is subject to judicial notice. 224 F.3d
+496, 498-99 (5th Cir. 2000); George v. SI Group, Inc., 36 F.4th 611, 619 (5th Cir. 2022). The
+Circuit explained that “[i]n so attaching, the defendant merely assists the plaintiff in establishing
+the basis of the suit, and the court in making the elementary determination of whether a claim has
+been stated.” Collins, 224 F.3d at 499.
+ Certain facts are subject to judicial notice under Federal Rule of Evidence 201. “The court
+may judicially notice a fact that is not subject to reasonable dispute  because it: (1) is generally
+known within the trial court’s territorial jurisdiction; or (2) can be accurately and readily
+determined from sources whose accuracy cannot reasonably be questioned.” Fed. R. Evid. 201(b)
+(emphasis added). “Rule 201 authorizes the court to take notice only of ’ ‘adjudicative facts,’ not
+legal determinations.” Taylor v. Charter Med. Corp., 162 F.3d 827, 831 (5th Cir. 1998) (quoting
+Fed. R. Evid. 201). Further, the notice “is limited to the existence of the document, ‘not to prove
+the truth of the documents’ contents.’” Ambler v. Williamson Cnty., Tex., No. 20-1068, 2021 WL
+Case 2:24-cv-02866-EEF-KWR     Document 47     Filed 08/25/25     Page 10 of 31
+11
+
+769667, at *3 (W.D. Tex. Feb. 25, 2021) (quoting Lovelace v. Software Spectrum Inc., 78 F.3d
+1015, 1018 (5th Cir. 1996)).
+ Here, the City requests this Court take judicial notice of four different documents attached
+to its motion. See R. Doc. 31. The Court declines to take notice of any of the attachments. First,
+the Court will not consider Cerdes’s state court criminal records and minutes because these
+documents are irrelevant to whether Cerdes adequately plead his causes of action. Collins, 224
+F.3d at 499. Plaintiffs’ malicious prosecution claim is based only on Cerdes’s federal charges, not
+either of his state court criminal prosecutions. See R. Doc. 38 at 12. The Court does not need to
+observe any alleged probable cause contained in the state court criminal records —the only
+probable cause relevant here is the probable cause, or lack thereof, in Cerdes’s federal case, Case
+No. 06-115. Similarly, Martin’s payrol l records are irrelevant because there is no dispute that
+Martin was employed by the City from 2005-2006, when the Complaint alleges Martin’s unlawful
+conduct occurred.10 See Case No. 25-142, R. Doc. 4 at 3-9 (explaining that Cerdes’s arrest occurred
+in November 2005 and describing the actions of Scott and Martin as occurring between then and
+April 13, 2006).
+ Next, the Court declines to take these attachments into consideration because the City
+wishes for the Court to observe their contents as true rather than merely observe the documents for
+their existence. Ambler, 2021 WL 769667, at *3.  The Court can only take judicial notice of the
+facts contained in the public records if they are “not subject to reasonable dispute.” Fed. R. Evid.
+201(b). As Plaintiffs point out here,  the state criminal records contain “DEA reports and other
+
+10  Similarly, further fact- finding is necessary to determine whether Martin acted as a City employee or
+otherwise when taking the alleged wrongful actions, making an evaluation of the state court criminal records for the
+presence and/or absence of the City and its police department inappropriate in the 12(b)(6) context. See R. Doc. 39 at
+11 (Plaintiffs arguing that it may agree with the City after further fact- finding that the United States was Martin’s
+employer at all times relevant to the Complaint).
+Case 2:24-cv-02866-EEF-KWR     Document 47     Filed 08/25/25     Page 11 of 31
+12
+
+documents that are highly contested” because “this whole case is about how Scott, with the
+assistance of Martin, lied and manipulated the reports and events in this case to frame Mr. Cerdes.”
+R. Doc. 39 at 10. Examining such documents and accepting their contents as true could put the
+Court in a position of refuting Plaintiffs’ well-pled allegations, which is inappropriate at the motion
+to dismiss stage. Instead, the Court will analyze whether the allegations in the Complaint, taken as
+true, are sufficient to sustain Plaintiffs’ claims. Iqbal, 556 U.S. at 678.
+ With this in mind, the Court will now determine the merits of the City’s and Martin’s
+motions to dismiss without consideration of any exhibits.
+B. Plaintiffs’ Claims Are Not Time Barred.
+ Both Martin and the City argue that Plaintiffs claims should be dismissed as untimely.
+Martin argues that Plaintiffs’ § 1983 claims are time- barred, and the City argues that Plaintiffs’
+state law claims have prescribed. R. Doc. 30-1 at 3-4; R. Doc. 31-1 at 8-11. These arguments fail.
+Cerdes’s federal and state law claims are timely for the following reasons.
+a. Plaintiffs’ § 1983 Claims Are Timely.
+ There is no federal statute of limitations for actions brought under § 1983, so federal courts
+borrow the forum state’s limitations period. Owens v. Okure , 488 U.S. 235, 239, 250- 51 (1989).
+In Louisiana, that period is one year for injurious acts that occurred before July 1, 2024. Brown v.
+Pouncy, 93 F.4th 331, 332 (5th Cir. 2024); compare  La. Civ. Code art. 3492 (repealed 2024)
+(“Delictual actions are subject to a liberative prescription of one year. ”) with La. Civ. Code art.
+3493.1 (eff. July 1, 2024) (“Delictual actions are subject to a liberative prescription of two years.”).
+There is no dispute that Louisiana’s one-year statute of limitations will apply to all four of Cerdes’s
+theories of constitutional injury.
+ Though state law controls how long a plaintiff has to file suit after experiencing an alleged
+Case 2:24-cv-02866-EEF-KWR     Document 47     Filed 08/25/25     Page 12 of 31
+13
+
+injury, federal law controls in determining the date upon which the statute of limitations period
+begins to run. Piotrowski v. City of Hous., 237 F.3d 567, 576 (5th Cir. 2001). This analysis is not
+always as simple as a claim accruing within one year of the alleged injurious actions. See
+McDonough v. Smith, 588 U.S. 109, 115-16 (2019). For example, the Supreme Court in Heck v.
+Humphrey altered the claim accrual  timeframe for  previously convicted criminal defendants
+bringing suits under § 1983. The “Heck bar” provides that these previously convicted criminal
+defendants—now § 1983 plaintiffs—will be barred from seeking damages in a § 1983 suit if “a
+judgment in favor of the plaintiff would necessarily imply the invalidity of his conviction or
+sentence.” Heck v. Humphrey, 512 U.S. 477, 487 (1994). The Heck bar will be lifted for criminal
+defendants, allowing them to file suits for damages , when their underlying criminal proceedings
+terminate in their favor.  Id. Therefore, Heck operates as an interceding force in the statute of
+limitations analysis for some constitutional injury theories under § 1983, causing the claim accrual
+period to begin to run on the date that the underlying criminal proceedings terminated in the prior-
+defendant/now-plaintiff’s favor.
+ Because “[a]n accrual analysis begins with identifying ‘the specific constitutional right’
+alleged to have been infringed,” the Court will take each of Cerdes’s alleged constitutional injuries
+in turn to see if the Heck bar applies. McDonough, 588 U.S. at 115 (quoting Manuel v. Joliet, 580
+U.S. 357, 370 (2017)). Cerdes brings claims for ( 1) violations of his Fourth Amendment right to
+be free from malicious prosecution, (2) violations of his Fourth Amendment right to be free from
+unreasonable seizure, (3) violations of his Fourteenth Amendment procedural due process rights
+based on fabrication of evidence, and (4) violations of his Fourteenth Amendment substantive due
+process rights based on actions committed by defendants that shock the conscience. E.g., R. Doc.
+38 at 9. All parties here agree that the underlying federal criminal proceedings in Case No. 06-115,
+Case 2:24-cv-02866-EEF-KWR     Document 47     Filed 08/25/25     Page 13 of 31
+14
+
+upon which all Cerdes’s claims rest, terminated in his favor on January 31, 2024. Cerdes filed his
+Complaint in Civil Action No. 25-142 against Martin and the City on January 20, 2025—less than
+one year after favorable termination  of his criminal conviction . Therefore, if each of Cerdes’s
+constitutional theories rely on Heck’s favorable termination requirement, his claims are timely .
+The Court finds that each of his four claims are timely for the reasons explained below.
+ First, Cerdes’s Fourth Amendment malicious prosecution claim is timely because the
+Supreme Court has explicitly held that Heck’s favorable termination requirement applies. 11
+Thompson v. Clark, 596 U.S. 36, 39 (2022) . Second, Cerdes’s Fourth Amendment unreasonable
+seizure claim is timely because this theory closely resembles malicious prosecution, and those
+claims are bound by the favorable termination requirement. Winfrey v. Rogers, 901 F.3d 483, 492
+(5th Cir. 2020) (explaining the difference in claim accrual dates based on whether the Fourth
+Amendment claim more closely resembles false imprisonment or malicious prosecution); see also
+Morgan v. Chapman, 629 F. Supp. 3d 616, 624 (S.D. Tex. 2022) (quoting Winfrey, 901 F.3d at
+493) (“An unlawful detention under legal process, as opposed to ‘detention with no legal process,’
+is most analogous to malicious prosecution.”). Third, Cerdes’s Fourteenth Amendment procedural
+due process claim based on fabrication of evidence is timely  because the Supreme Court has also
+explicitly held that the Heck bar applies there, too. McDonough, 558 U.S. at 114-15.
+ Cerdes’s final constitutional theory, the Fourteenth Amendment substantive due process
+claim based on actions that shock the conscience,  however, requires further analysis because
+neither the Supreme Court nor the Fifth Circuit have definitively stated whether Heck applies and
+alters the accrual timeframe. Instead, in McDonough v. Smith, the Supreme Court explicitly
+declined to “consider the proper [claim accrual rule] of a fabricated-evidence claim founded on an
+
+11  While this claim would be timely based on Supreme Court precedent, as the Court will explain later, Cerdes
+is barred from pursuing this theory.
+Case 2:24-cv-02866-EEF-KWR     Document 47     Filed 08/25/25     Page 14 of 31
+15
+
+allegation that the use of fabricated evidence was so egregious as to s hock the conscience.” 588
+U.S. at 115 n.2. Therefore, the Court must determine if the Heck doctrine applies in its own right,
+as that case commands that “a district court must consider  whether a judgment in favor of the
+plaintiff would necessarily imply the validity of his conviction or sentence.” 512 U.S. at 487
+(emphasis added). To determine if a judgment in plaintiff’s favor would do so, the Court will look
+to the elements of a substantive due process /fabrication of evidence  claim and assess whether a
+civil judgment in a § 1983 claimant’s favor would call into question a valid criminal judgment.
+ The Fifth Circuit recognizes  a “substantive due process right to ‘not have police
+deliberately fabricate evidence and use it to frame and bring false charges against a person.’”
+Traylor v. Yorka, No. 22-10783, 2024 WL 209444, at *4, *4 n.3 (5th Cir. Jan. 19, 2024) (quoting
+Cole v. Carson, 802 F.3d 752, 771 (5th Cir. 2015), vacated sub nom. Hunter v. Cole, 580 U.S. 994
+(2016), opinion reinstated in relevant part, 935 F.3d 444 (5th Cir. 2019) (en banc)); see also Cole,
+802 F.3d at 773 (“Where police intentionally fabricate evidence . . . and the Fourth Amendment is
+unavailing, there may be a [substantive] due process violation.”). District courts in this circuit have
+found that a plaintiff must show three things to succeed on a  Fourteenth Amendment substantive
+due process/ conscience-shocking fabrication-of-evidence claim: (1) that the officers fabricated
+evidence (2) for the purpose of falsely obtaining a charge and (3) that the evidence influenced the
+decision to charge. See Cole v. Hunter, 497 F. Supp. 3d 172, 190 (N.D. Tex. Oct. 29, 2020); Welsh
+v. Williams , No. 22 -183, 2023 WL 11990749, at *14 (N.D. Tex. June 30, 2023). Further, the
+plaintiff “may prevail on his [s ubstantive] due process claim only if  he is able to show that the
+defendants intentionally or knowingly presented false evidence or fabricated evidence, and that
+their actions shock the conscience.” Rogers v. Lee Cnty., Miss., 684 F. App’x 380, 390 (5th Cir.
+2017) (internal references omitted) (emphasis added).
+Case 2:24-cv-02866-EEF-KWR     Document 47     Filed 08/25/25     Page 15 of 31
+16
+
+ The Court finds that, if Cerdes’s criminal conviction was still standing,  the validity of his
+conviction would be undermined if he secured a civil judgment in his favor on this substantive due
+process claim. See Heck, 512 U.S. at 487. To prevail on the substantive due process/conscience-
+shocking fabrication-of-evidence elements, Cerdes would need to prove at trial that Martin and
+Scott knowingly fabricated evidence, that they did so to falsely obtain the indictment in Case No.
+06-115, and that the fabricated evidence was a causal factor in the decision to indict. Id. This Court
+sees no doubt that such a determination would call into question a standing criminal conviction.
+The alleged planting of marijuana in Cerdes’s truck and later coercion  by Scott and/or Martin of
+Cerdes to falsely admit to  possessing and distributing marijuana goes to the heart of Cerdes’s
+federal conviction in Case No. 06-115—namely, Cerdes’s guilty plea to one charge for conspiracy
+to distribute marijuana. If Cerdes’s federal charge  for conspiracy to distribute marijuana  had not
+yet terminated in his favor, and a civil judgment in Cerdes’s favor relied on a finding that Martin
+and Scott knowingly planted marijuana in Cerdes’s truck, the civil judgment would clearly threaten
+a standing criminal conviction because it rests on that alleged unlawful investigatory behavior. See
+id. at 484-86.
+ The determination that the Heck bar applies here is bolstered by the Tenth Circuit’s
+enumeration of its elements of a substantive due process/fabrication of evidence claim. There, a
+plaintiff is required to establish four elements: “‘(1) the defendant knowingly fabricated evidence,
+(2) the fabricated evidence was used against the plaintiff, (3) the use of the fabricated evidence
+deprived the plaintiff of liberty, and (4) if the alleged unlawfulness would render a conviction or
+sentence invalid, the defendant's conviction or sentence has been invalidated or called into doubt.’”
+Scott v. City of Tulsa, Ok., 775 F. Supp. 3d 1190, 1209 (N.D. Ok. 2025) (quoting Truman v. Orem
+City, 1 F.4th 1227, 1236 (10th Cir. 2021) ) (emphasis added). Thus, the Tenth Circuit recognizes
+Case 2:24-cv-02866-EEF-KWR     Document 47     Filed 08/25/25     Page 16 of 31
+17
+
+the inherent applicability of Heck to substantive due process claims, baking into its fourth element
+the possibility that there may be a case where a ruling in favor of a plaintiff would not  call into
+question the validity of their underlying criminal conviction. See id.
+ Moreover, as a practical matter, Cerdes ’s claim that Martin fabricated evidence in a way
+that shocks the conscience is not materially dissimilar to his other constitutional injury theories to
+which Heck applies. Cerdes must still prove that Martin fabricated evidence to prove his procedural
+due process claim, and the Supreme Court has determined that those fabricated evidence claims
+are most analogous to the common law tort of malicious prosecution, which has a favorable -
+termination element. McDonough, 588 U.S. 118-20. It is true that “some claims do fall outside of
+Heck’s ambit when a conviction is merely ‘anticipated.’”12 McDonough, 588 U.S. at 119 (quoting
+and discussing Wallace v. Kato, 549 U.S. 384, 393 (2007)). But “[t]here is not a ‘complete and
+present cause of action’ to bring a fabricated- evidence challenge to criminal proceedings while
+those criminal proceedings are ongoing.” Id.  (quoting Wallace, 549 U.S. at 388). The Court sees
+no reason to apply different reasoning here just because Cerdes has an additional burden to prove
+that Martin’s conduct shocks the conscience.
+ Therefore, the Court finds that the Heck bar applies in its own right to Cerdes’s substantive
+due process claim based on fabrication of evidence  that shocks the cons cience. His claim could
+not have accrued until the underlying criminal proceedings terminated favorably, lest his criminal
+
+12  Contrast the Supreme Court’s reasoning in Wallace v. Kato with the case at hand. There, the Court held that
+the statute of limitations in a § 1983 Fourth Amendment claim for false arrest/imprisonment  begins to run at the time
+the claimant becomes detained pursuant to the legal process because, in part, a false imprisonment  claim is based on
+detention without legal process. 549 U.S. 384, 388- 89 (2007). Malicious prosecution, however, is relevant to claims
+of detention pursuant to legal process. Id.  “[A] false imprisonment ends once the victim becomes held pursuant to
+such [legal] process—when, for example, he is bound over by a magistrate or arraigned on charges.” Id.  at 389-90.
+As a policy matter, the Court found that “[i]n an action for false arrest [a contrary rule] would require the plaintiff . . .
+to speculate about whether a prosecution will be brought, whether it will result in a conviction, and whether the
+pending civil action will impugn the verdict.” Id. at 393. The case at hand is more analogous to malicious prosecution
+than false arrest. Therefore, the Court will not apply Wallace’s reasoning to the instant matter.
+Case 2:24-cv-02866-EEF-KWR     Document 47     Filed 08/25/25     Page 17 of 31
+18
+
+conviction be subject to collateral attack by a civil ruling in Cerdes’s favor . Cerdes’s substantive
+due process claim accrued on January 31, 2024. Because Cerdes filed suit within one year of that
+date, his substantive due process claim is timely.
+b. Plaintiffs’ State Law Claims Are Timely.
+ The Court will now turn to whether Cerdes’s state law claims are timely brought.
+“Malicious prosecution is a delictual claim, and is therefore subject to a one -year prescriptive
+period pursuant to Louisiana Civil Code article 3292.” Atkins v. Se. Cmty. Health Sys., No. 11-47,
+2015 WL 9307269, at *4 (M.D. La. Dec. 21, 2015) ; see also Murray v. Town of Mansura, 2006-
+355, p. 7 (La. App. 3 Cir. 9/27/06), 940 So. 2d 832, 838 (“The liberative prescriptive period of
+Plaintiffs’ malicious prosecution claim did not begin to run until the underlying prosecution was
+dismissed.”). As the City concedes, the prescriptive period began to run on Cerdes’s state law
+claims when the federal case terminated in his favor on January 31, 2024. R. Doc. 31- 1 at 10-11.
+Cerdes filed the subject Complaint on January 20, 2025, eleven days before prescription. See Case
+No. 25-142, R. Doc. 1. Therefore, Cerdes’s malicious prosecution claim is timely.
+ The Court notes that Cerdes amended his  Complaint against Martin and an incorrectly
+named defendant, Tangipahoa Parish Sheriff Gerald Stickler, on February 19, 2025, to replace the
+incorrectly named defendant with the City of Hammond. Case No. 25-142, R. Doc. 4. Though not
+argued by the parties, the court notes that Fed. R. Civ. P. 15(c) allows the relation- back of an
+amendment to a pleading when:
+the amendment changes the party or the naming of the party against whom a claim
+is asserted, if . . . the party to be brought in by amendment: (i) received such notice
+of the action that it will not be prejudiced in defending on the merits; and (ii) knew
+or should have known that the action would have been brought against it, but for a
+mistake concerning the proper party’s identity.
+
+Fed. R. Civ. P. 15(c)(1)(C)(i)-(ii). The City does not address Rule 15 with respect to the timeliness
+Case 2:24-cv-02866-EEF-KWR     Document 47     Filed 08/25/25     Page 18 of 31
+19
+
+of Cerdes’s Complaint. Instead, it simply states that “[t]he City was not served with the amended
+complaint until March 3, 2025.” R. Doc. 31- 1 at 11. The federal rules do not require defendants
+be served with complaints before the statute of limitations has run. Therefore, the City’s argument
+is unavailing. In applying Rule 15, this Court finds that Plaintiffs’ amendment sufficiently relates
+back to its original Complaint.13 Therefore relation-back is allowed, and Cerdes’s state law claims
+are timely.
+C. Plaintiffs Have Adequately Alleged a State Law Malicious Prosecution Claim.
+ Next, the Court will address whether Cerdes adequately pled his state law claims. Cerdes
+brings malicious prosecution claims against Martin under both § 1983 and Louisiana law.14 Case
+No. 25-142, R. Docs. 1, 4. H e also seeks  to hold the City liable for Martin’s unlawful conduct
+under a theory respondeat superior . Id. T o bring a malicious prosecution claim, Cerdes must
+adequately plead six elements:
+(1) the commencement or continuance of an original criminal proceeding; (2) its
+legal causation by the present defendant against plaintiff who was defendant in the
+original proceeding; (3) its bona fide termination in favor of the present plaintiff;
+(4) the absence of probable cause for such proceeding; (5) malice; and (6) damages.
+
+Id. Defendants aver that Cerdes failed to articulate three of the six state law elements. R. Doc. 30-
+1 at 5-8; R. Doc. 31-1 at 8-9. Martin argues that the allegations fail as to causation and malice. R.
+Doc. 30-1 at 5-8. The City believes the allegations fail as to a lack of probable cause. R. Doc. 31-
+9. The Court addresses each argument in turn.
+i. Causation as to Martin
+
+13  First, the amendment changed the name of Martin’s employer from Terrebonne Parish Sheriff’s Office to the
+City of Hammond. Next, the Court cannot find, any reason for the City to be prejudiced in defending on the merits by
+allowing relation-back. Finally, the City, as Martin’s employer, knew or should have known that this action would be
+brought against it since Cerdes sought to hold Martin’s employer liable in his original, timely Complaint.
+14  To succeed on his federal claim, Cerdes must prove a threshold element of an unlawful Fourth Amendment
+seizure and all state law malicious prosecution elements. Armstrong v. Ashley , 60 F.4th 262, 279 (5th Cir. 2023).
+Case 2:24-cv-02866-EEF-KWR     Document 47     Filed 08/25/25     Page 19 of 31
+20
+
+ Legal causation is satisfied if the defendant caused the prosecution.15 See LeBlanc v. Pynes,
+46,393, p. 10 (La. App. 2 Cir. 7/13/11), 69 So. 3d 1273, 1281. Federal courts have found that this
+element is “satisfied against police officers if ‘they have lied to or misled the prosecutor’ or ‘failed
+to disclose exculpatory evidence to the prosecutor.’” Soto v. Monge, 735 F. Supp. 3d 792, 804
+(W.D. Tex. 2024) (quoting Reyes v. Greer , 686 F. Supp. 3d 524, 534 (W.D. Tex. 2023))
+(discussing the Texas elements, which are nearly identical to the Louisiana elements, of state law
+malicious prosecution).
+ Martin argues that Cerdes has not adequately alleged that Martin was the legal cause of the
+initiation and continuation of Cerdes’s criminal charges  because Chad Scott, not Martin, was the
+clear antagonist of Cerdes’s Complaint. R. Doc. 30-1 at 5-7. To counter this point, Cerdes argues
+that his Complaint establishes the causation element by stating that:
+Martin participated with Scott in planting the marijuana in Cerdes’s truck and knew
+that Scott was actively attempting to frame Cerdes for crimes Cerdes did not
+commit. Despite this knowledge . . . Martin conspired and cooperated with Scott
+throughout Scott’s unlawful campaign to frame Cerdes and force him to plead
+guilty to crimes he did not commit.
+
+R. Doc. 38 at 13 (quoting R. Doc. 4 at 12). Plaintiffs agree that the main antagonist of their
+Complaint is Scott, but “that does not exonerate Defendant Martin for the part that he played in
+the underlying misconduct.” Id. Martin replied by arguing that Cerdes’s allegations are conclusory
+and that no particularized facts  plausibly suggest that Martin was the legal cause of Cerdes’s
+prosecution, and that this Court should find that Chad Scott was the legal cause of Cerdes’s federal
+prosecution. R. Doc. 40 at 3-4.
+ The Court agrees with Plaintiffs. Martin does not cite  nor could the Court find any case
+
+15  This element is often defined  in Louisiana in the context of a citizen reporting an incident to police and an
+officer’s subsequent actions  to investigate. See Lemoine v. Wolfe , 575 F. App’x 449, 456 (5th Cir. 2014) , certified
+question accepted, 14-1546 (La. 10/31/14), 151 So.  3d 611, certified question answered, 14-1546 (La. 3/17/15), 168
+So. 3d 362.
+Case 2:24-cv-02866-EEF-KWR     Document 47     Filed 08/25/25     Page 20 of 31
+21
+
+commanding that only one person m ust be the legal cause of a prosecution . Cf. Winn v. City of
+Alexandria, 960492, p. 5 (La. App. 3 Cir. 11/20/96), 658 So. 2d 281, 284 (discussing the elements
+of malicious prosecution as applied to multiple Alexandria Police Officers , finding “no question
+as to the presence of” legal causation). Additionally, the Complaint alleges that Martin took a bag
+of marijuana from his friend’s boot, brought it to Scott, and together, they placed the marijuana in
+Cerdes’s truck. R. Doc. 4 at 4-5. It also asserts that “ Scott and/or Martin” caused Cerdes’s arrest
+after the planted marijuana was “triumphantly . . . located.” Id.  at 5  (emphasis added) . The
+Complaint also contends that Martin concealed exculpatory information, i.e. that the marijuana
+was planted, during Cerdes’s prosecution. Id.  at 13. Construing these allegations in a light most
+favorable to Cerdes, the Court finds that Cerdes’s Complaint sufficiently alleges that Martin could
+have been a legal cause of the malicious prosecution. Baker, 75 F.3d at 196.
+ii. Probable Cause
+ Probable cause can be intertwined with malice because a lack of probable cause gives rise
+to an inference of malice. E.g., Miller, 511 So. 2d at 453 (“[m]alice may be inferred from the lack
+of probable cause”). But courts must analyze it separately, with “[t]he crucial determination in
+regard to the absence of probable cause [being] whether the defendants had an honest and
+reasonable belief in the allegations they made.” Rivera-Colon v. Par. of St. Bernard, 516 F. Supp.
+3d 583, 590 (E.D. La. 2021) (quoting Kelly v. W. Cash & Carry Bldg. Materials Store , 99-102
+(La. App. 4 Cir. 10/20/99), 745 So. 2d 743, 761). “Probable cause does not depend upon the actual
+state of the case in point of fact, but on the honest and reasonable belief of the party prosecuting.”
+Gentry v. Spillers, 2020-1077, p. 10 (La. App. 1 Cir. 5/10/21), 325 So. 3d 398, 406. Even if an
+accusation has a malicious motive, there will be no liability imparted on the defendant if there was
+probable cause. Way-Jo, LLC v. Anthony, 2020-0361, p. 13 (La. App. 1 Cir. 12/30/20), 319 So. 3d
+Case 2:24-cv-02866-EEF-KWR     Document 47     Filed 08/25/25     Page 21 of 31
+22
+
+341, 350.
+ The City argues that the state court criminal records contain “[i]ncontrovertable facts”
+giving rise to an inference of probable cause, including two affidavits of probable cause. R. Doc.
+31-1 at 9. But as previously discussed, at the motion to dismiss st age, it is inappropriate for this
+Court to take notice of any affidavits of probable cause. Doing so would not “assist[] the plaintiff
+in establishing the basis of the suit.” Collins, 224 F.3d at 499. Further, these facts are “subject to
+a reasonable dispute” and thus not able to be considered by the Court pursuant to the Federal Rule
+of Evidence 201. See Fed. R. Evid. 201. The City advances no other arguments as to probable
+cause.
+ The Complaint alleges sufficient facts to support a finding that Martin did not have an
+“honest” belief that Cerdes was guilty of the crimes charged in Case No. 06-115. The Complaint
+plainly asserts that Martin knowingly planted someone else’s marijuana in Cerdes’s truck. Case
+No. 25-142, R. Doc. 4 at 4- 5. The Complaint also alleges that Martin continued conspiring with
+Scott until and potentially beyond Cerdes’s federal indictment, including Martin and Scott visiting
+Cerdes in jail, wherein Scott “gloated about how he had caused Cerdes to be arrested in another
+trumped-up charge.” Id. at 8. Martin’s continued participation in the framing of Cerdes further
+undermines any argument that Martin had an “honest belief” in Cerdes’s guilt.
+iii. Malice as to Martin
+ The element of malice “does not submit readily to definition” and “means something more
+than the fictitious ‘malice in law’ . . . . There must be malice in fact.” Miller v. E. Baton Rouge
+Par. Sheriff’s Dep’t, 511 So. 2d 446, 453 (La. 1987). While ill will towards the plaintiff can amount
+to malice, “it is not essential to prove such ill will.” Id. Malice can also be inferred from a defendant
+using a malicious prosecution for personal gain , as well as “from the lack of probable cause or
+Case 2:24-cv-02866-EEF-KWR     Document 47     Filed 08/25/25     Page 22 of 31
+23
+
+inferred from a finding that the defendant acted in reckless disregard of the other person’s rights.”
+Id. Louisiana law therefore provides multiple avenues for a plaintiff to assert malice.
+ Martin argues that Plaintiffs have failed to prove that he acted with malice because the
+Complaint does not demonstrate that Martin had any personal animosity towards Cerdes. R. Doc.
+30-1 at 7 -8. Cerdes argues that there are many other ways to establish Martin’s malice under
+Louisiana law than by simply showing personal animosity. R. Doc. 38 at 14-15. The Court agrees.
+As explained above, Louisiana law provides many avenues for a Plaintiff to plead malice —
+Plaintiffs do not have  to show personal animosity. For example,  they can allege Martin acted in
+reckless disregard of Cerdes’s rights and/or used the malicious prosecution for personal gain. See
+Miller, 511 So. 2d at 453.
+ As Plaintiffs argue, the Complaint shows that Martin recklessly disregarded Cerdes’s rights
+by participating in the fabrication of evidence and eventual arrest. Id.  Moreover, a ccepting
+Plaintiffs’ allegations as true, Martin took the marijuana from someone else’s boot and conspired
+with Scott to plant it in Cerdes’s truck. Case No. 25- 142, R. Doc. 4 at 4 -5. This also goes to
+Martin’s reckless disregard for Cerdes’s rights.  Further, the Complaint asserts that Scott was
+Martin’s “field trainer for the DEA” a t the time the marijuana was planted. Case No. 25 -142, R.
+Doc. 4 at 4. This fact, taken as true, could give rise to the inference that Martin planted the
+marijuana to further his own career for personal gain. Id. Considering all of this, the Court finds
+that Cerdes’s Complaint contains adequate allegations of Martin’s malice.
+ Overall, the Court finds that the Complaint adequately alleges a state law malicious
+prosecution claim.
+D. The City May Be Liable Under a Theory of Respondeat Superior.
+ The Court now turns to questions of the City’s liability. The City argues that Plaintiffs have
+Case 2:24-cv-02866-EEF-KWR     Document 47     Filed 08/25/25     Page 23 of 31
+24
+
+failed to state a viable Monell liability theory against the City. R. Doc. 31- 1 at 11. Plaintiffs
+represent that their Complaint does not attempt to state a theory of  direct municipal liability.
+R. Doc. 39 at 13. However, P laintiffs clarify that they may assert this theory later if discovery
+shows it to be appropriate. Id. at n.2. The Court will therefore only address whether the Complaint
+adequately pleads a state law liability theory of respondeat superior against the City.
+ Louisiana Civil Code art. 2320 provides that “[m]asters and employers are answerable for
+the damage occasioned by their servants and overseers, in the exercise of the functions in which
+they are employed.” La. Civ. Code  art. 2320. Further, Civil Code art. 2317 states, in part, that
+“[w]e are responsible, not only for the damage occasioned by our own act, but for that which is
+caused by the act of persons for whom we are answerable.” La. Civ. Code art. 2317. To hold an
+employer vicariously liable under the doctrine of respondeat superior , “three elements must be
+present: 1) ‘ an employer/employee relationship; 2) a negligent or tortious act on the part of an
+employee; and 3) the act complained of must be committed in the course and scope of
+employment.’” Jones v. Md. Cas. Co., 2018- 0552, p. 10 (La. App. 4 Cir. 5/11/22), 339 So. 3d
+1243, 1249 (quoting Alphonse v. Omni Hotels Mgmt. Corp., 94- 0157, p. 5 (La. App. 4 Cir.
+9/29/94), 643 So. 2d 836, 840).
+ The City argues that Cerdes has failed to plead respondeat superior against it because all
+of Martin’s alleged acts occurred outside of the jurisdiction and supervision of the City’s police
+department, as shown by the public records. R. Doc. 31- 1 at 7 -8. As previously mentioned, the
+Court will not assess the public records as the City wishes. Notably, i f the Court accepted the
+City’s argument and evaluated the public records for the truth of the City’s argument, it would be
+construing documents against  Plaintiffs. The role of courts at the motion to dismiss stage  is to
+assess whether plaintiffs have stated plausible claims for relief. Twombly, 550 U.S. at 556. Courts
+Case 2:24-cv-02866-EEF-KWR     Document 47     Filed 08/25/25     Page 24 of 31
+25
+
+are called to liberally construe the allegations in complaints in a light most favorable to plaintiffs.
+Baker, 75 F.3d at 196. The City’s argument rests on asking the Court to do a function inapposite
+to what it is called to do at the motion to dismiss stage.
+ The Complaint contains sufficient allegations of all three elements of respondeat superior
+under Louisiana law. It asserts that Martin was an employee of the City at the time of his alleged
+wrongdoing, that Martin committed negligent or tortious acts against Cerdes, and that Martin
+committed these acts in the course and scope of his employment with the City. Case No. 25-142,
+R. Doc. 4 at 4, 13, 15. Plaintiffs specifically plead that Martin was employed by the City as a police
+officer and that he was assigned to be a part of Scott’s DEA task force as a part of his employment
+with the City. Id. at 15. This plausibly asserts that the City may be liable for Martin’s actions under
+a theory of respondeat superior.
+ Notably, malicious prosecution is an intentional tort. Generally, “employers can be
+vicariously liable for . . . the intentional acts of its employees” when “those acts . . . are within the
+course and scope of the tortfeasor’s employment, as compared with conduct instituted by purely
+personal considerations entirely extraneous to the employer’s interest.” Carnes v. Wilson, 48,127
+(La. App. 2 Cir. 7/3/13), 118 So. 3d 1275, 1277. Plaintiffs are undoubtedly aware of their burden
+to demonstrate that Martin was in the course and scope of his employment  in order for them  to
+hold an employer liable  for Martin’s actions . As they represent in their brief , Plaintiffs may
+“eventually be in a position to agree with the City’s  . . . [that the] United States should substitute
+itself as the proper defendant-employer for the Plaintiffs’ claims against Martin.” R. Doc. 39 at 11.
+But as Plaintiffs note, “this type of fact -based argument is inappropriate for a Rule 12(b)(6)
+motion.” Id. Presently, then, Cerdes’s claims against the City survive.
+
+Case 2:24-cv-02866-EEF-KWR     Document 47     Filed 08/25/25     Page 25 of 31
+26
+
+E. Qualified Immunity as to Martin its Impact on Supplemental Jurisdiction.
+ Martin argues that he is entitled to qualified immunity on Cerdes’s Fourth Amendment
+malicious prosecution claim. R. Doc. 40. As discussed below, the Court is dismissing the federal
+malicious prosecution claim against Martin because there was no clearly established law
+recognizing the constitutional tort of malicious prosecution at the time of Martin’s alleged
+wrongful acts. Because of this, the Court must assess whether it is appropriate to exercise
+supplemental jurisdiction over Cerdes’s adequately pled state law claims because his analogous
+federal claim is being dismissed.16 The Court finds that the state malicious prosecution claims arise
+out of the same case or controversy as Cerdes’s remaining federal claims despite Martin’s
+entitlement to qualified immunity, and that no other equitable considerations caution against the
+exercise of supplemental jurisdiction.
+a. Martin Is Entitled to Qualified Immunity
+ The Supreme Court in 2022 announced its recognition of the § 1983 constitutional tort of
+malicious prosecution. Thompson, 596 U.S. at 39; Armstrong v. Ashley, 60 F.4th 262, 278 (5th Cir.
+2023) (“litigants may bring a Fourth Amendment malicious prosecution claim under § 1983”).
+This ruling overturned a line of cases in the Fifth Circuit which had judicially extinguished claims
+for this constitutional injury from 2003 to 2021. Espinal v. City of Hous., 96 F.4th 741, 748 (5th
+Cir. 2024) (discussing the evolution of the constitutional tort of malicious prosecution in the Fifth
+Circuit). During that time, claims against a defendant whose “bad actions . . . happen[ed]  to
+correspond to the tort of malicious prosecution[, but]  result[ed] in an unreasonable search or
+
+16  A federal malicious prosecution claim is even more than “analogous” with a state law malicious prosecution
+claim—in the Fifth Circuit, a claimant proves their federal malicious prosecution claim by using the forum state’s
+state-law elements, with the add ed threshold element of demonstrating an unlawful Fourth Amendment seizure.
+Armstrong v. Ashley , 60 F.4th 262, 279 (5th Cir. 2023). Thus, federal and state law malicious prosecution claims
+would inherently “form part of the same case or controversy.” 28 U.S.C. § 1367(a).
+Case 2:24-cv-02866-EEF-KWR     Document 47     Filed 08/25/25     Page 26 of 31
+27
+
+seizure” had to assert those claims under § 1983 as violations of the Fourth Amendment  right to
+be free from unreasonable seizure.  Morgan v. Chapman, 969 F.3d 238, 245- 46 (5th Cir. 2020),
+abrogated by Thompson, 596 U.S. at 42- 43 (2022); see also  Espinal, 96 F.4th at 749 (granting
+qualified immunity to officers at the motion to dismiss stage because the defendant was arrested
+and indicted in 2020). During that time, then , there was no constitutional right under the Fourth
+Amendment to be free from a malicious prosecution that did not result in an unreasonable seizure.
+See Morgan, 969 F.3d at 245-46.
+ Under the doctrine of qualified immunity, courts look to “whether defendants violated the
+law that was clearly established at the time of their actions . Subsequent legal developments are
+immaterial.” Id. at 749 (citation omitted). Therefore, in the Fifth Circuit, the constitutional tort of
+malicious prosecution was not clearly established from, and will not apply to conduct that occurred
+between, 2003-2021. Martin, relying on Espinal, raises for the first time in his reply brief that he
+should be entitled to qualified immunity on Plaintiffs’ § 1983 malicious prosecution claim because
+of this. R. Doc. 40 at 5-6.
+ Plaintiffs concede that, under this precedent, “qualified immunity would apply to the
+Fourth Amendment malicious prosecution claim.” R. Doc. 46 at 1. They also clarify, however, that
+the Complaint asserts as its “Third Cause of Action” a claim of “Unreasonable Seizure and
+Malicious Prosecution in Violation of the Fourth and Fourteenth Amendments and § 1983.” Case
+No. 25-142, R. Doc. 4 at 14 (emphasis added). While Martin is therefore entitled to qualified
+immunity on Cerdes’s Fourth Amendment malicious prosecution claim, Cerdes may proceed on
+his Fourth Amendment unreasonable seizure claim.
+ Plaintiffs’ sur-reply raises an additional argument which they make simply to “preserve
+their right to appeal the issue.” R. Doc. 46 at 1. Plaintiffs assert that “qualified immunity should
+Case 2:24-cv-02866-EEF-KWR     Document 47     Filed 08/25/25     Page 27 of 31
+28
+
+be denied because new scholarship has shown that the doctrine of qualified immunity is contrary
+to the original text of § 1983.” R. Doc. 46 at 4-7. Plaintiffs point to a law review article highlighted
+by Judge Willett in a concurring opinion. Rogers v. Jarrett , 63 F.4th 971, 979-81 (5th Cir. 2023)
+(Willett, J., concurring). 17 Judge Willett, in concurrence to a majority opinion he authored,
+addressed the article and carefully explained that the majority’s “decision upholding qualified
+immunity is compelled by our controlling precedent” and that he “wr[ote] separately only to
+highlight newly published scholarship.” Id. at 979. While noting that the piece may contain “game-
+changing arguments,” Judge Willett explained that only the Supreme Court could “definitively
+grapple with § 1983’s enacted text” and overrule the Court’s longstanding qualified immunity
+precedent.18 Id. at 981. Therefore, this Court will decline to address Plaintiffs’ arguments on the
+merits and notes their arguments for appeal purposes.
+b. The Court Has Supplemental Jurisdiction Over the State Law Claims
+ The Court now turns to assess whether it can exercise supplemental jurisdiction over the
+state law claims despite its dismissal of Cerdes’s federal malicious prosecution claim. The City of
+Hammond is presently in this suit only as a result of Cerdes’s state law claims, not any federal
+claims. Therefore, for the City to remain in this suit, the Court must find that it has supplemental
+jurisdiction over Cerdes’s state law claims. There is no question that the Court has federal question
+jurisdiction over Cerdes’s § 1983 claims for unreasonable seizure under the Fourth Amendment
+
+17  In that article, professor and scholar Alexander Reinert argues that the Civil Rights Act of 1871 explicitly
+abrogated common law immunities through a clause he coins the “Notwithstanding Clause,” and that this clause “was
+never included in the codified version of Section 1983.” Alexander A. Reinert, Qualified Immunity’s Flawed
+Foundation, 111 C AL. L. REV. 201, 235 (2023). The  article therefore argues that the qualified immunity doctrine
+should have never developed. See generally id.
+18  The Supreme Court had the opportunity to address Judge Willett’s thoughts directly. Rogers petitioned for
+certiorari on “the question [of] whether the qualified-immunity doctrine is irreconcilable with the text of Section 1983
+as Congress originally enacted it in 1871.” Brief for Petitioner at (i), Rogers v. Jarrett, 144 S. Ct. 193 (2023) (No. 23-
+93), 2023 WL 4933666, at *0 (referencing Judge Willett’s concurrence). The Supreme Court denied certiorari. Rogers
+v. Jarrett, 144 S. Ct. 193 (2023). This Court therefore notes Plaintiff’s arguments and their desire to “preserve it for
+appeal.” R. Doc. 46 at 4.
+Case 2:24-cv-02866-EEF-KWR     Document 47     Filed 08/25/25     Page 28 of 31
+29
+
+and for procedural and substantive due process violations under the Fourteenth Amendment. See
+28 U.S.C. § 1331. Supplemental jurisdiction will extend to state law claims that “are so related to
+claims in the action within such original jurisdiction that they form part of the same case or
+controversy.” 28 U.S.C. § 1367(a).
+ Dismissal of the federal malicious prosecution claim is not dispositive as to the survival of
+the state law claims. If the state law malicious prosecution claim relies on the same operative facts
+as any—or all—of Cerdes’s § 1983 constitutional claims, then “the two claims . . . make up but
+one constitutional case.’” Royal Canin U.S.A., Inc. v. Wullschleger , 604 U.S. 22, 27 (2025)
+(quoting United Mine Workers v. Gibbs , 383 U.S. 715, 725 (1966)) (internal quotation omitted).
+This “ derivative jurisdiction, though, is to some extent discretionary;  § 1367 spells out
+circumstances, again derived from [United Mine Workers v.] Gibbs, in which a federal court may
+decline to hear a state claim falling within the statute ’s bounds.” Id. Thus, the Court will look to
+both (1) whether the constitutional and state law claims arise from the same set of operative facts,
+and (2) whether the Court should decline to exercise supplemental jurisdiction for any of the
+reasons enumerated in 28 U.S.C. § 1367(c).
+ First, the federal and state law claims arise from the same set of operative facts.  All of
+Cerdes’s federal claims, as well as the state claims, revolve around the same alleged actions of
+Martin and Scott. Facially, the claims themselves are similar and sound in tort, so there is no
+theoretical separation of claims such as a federal claim sounding in tort and a state claim sounding
+in breach of contract. Moreover, this is not a case where the Complaint alleges that certain acts at
+certain times apply to the federal claims and other  acts apply to the state claims. The Complaint
+does not plead scattered, isolated, unrelated events that are unrelated but-for occurring temporally.
+Rather, i t pleads that all of Martin’s actions cumulatively amount to violations of Cerdes’s
+Case 2:24-cv-02866-EEF-KWR     Document 47     Filed 08/25/25     Page 29 of 31
+30
+
+constitutional rights, as well as a state-law right to recover damages if he can prove he suffered a
+malicious prosecution at Martin’s hands. And because Martin’s employer can be held vicariously
+liable for intentional torts committed in the course and scope of his employment, and Cerdes has
+adequately pled a respondeat superior theory of liability for the City, it is proper for this Court to
+exercise supplemental jurisdiction over both of Cerdes’s state law claims.
+ In addition, the noted interconnectedness of these Fourth Amendment theories  shines a
+light on how the same operative facts can underpin both malicious prosecution and unreasonable
+seizure claims. As the Fifth Circuit explains in Espinal, for over two decades, the Circuit rule was
+that claimants could not bring a § 1983 claim based on a constitutional malicious -prosecution
+theory. 96 F.4th at 748. Instead, claims based on a defendant’s bad actions that corresponded to
+the tort of malicious prosecution could only be brought under the Fourth Amendment —notably,
+only when a plaintiff suffered an unreasonable seizure as a result of those bad actions. Id. Here,
+Cerdes alleges that Martin’s unlawful act of, inter alia , planting evidence caused him to be
+unreasonably seized in violation of the Fourth Amendment. Therefore, Cerdes’s facts, as pled in
+the Complaint, do describe alleged “bad actions []that happen to correspond to the tort of malicious
+prosecution” which resulted in an unreasonable seizure, as described in Espinal. Id. at 748 (quoting
+Morgan, 969 F.3d at 245-46) (cleaned up). Martin’s actions that form the basis of Cerdes’s Fourth
+Amendment unreasonable seizure claim therefore clearly forms the basis of Cerdes’s state law
+malicious prosecution claim against Martin. 19
+  Second, the § 1367(c) factors do not call for this Court to decline its ability to exercise
+supplemental jurisdiction. Cerdes’s malicious prosecution claim does not raise a novel or complex
+
+19  The Court utilizes Cerdes’s Fourth Amendment unreasonable seizure claim as a single example. But, looking
+at the Complaint holistically, the Court finds that the same nucleus of operative facts connects  all of Cerdes’s
+constitutional injury theories to his state law malicious prosecution claims.
+Case 2:24-cv-02866-EEF-KWR     Document 47     Filed 08/25/25     Page 30 of 31
+31
+
+issue of s tate law —at least not at the motion to dismiss stage. The state law claim does not
+substantially predominate over the claims in which this Court has original jurisdiction, either,
+because the factual bases for all of the claims are the same. While the Court is dismissing Cerdes’s
+Fourth Amendment malicious prosecution claim because Martin is entitled to qualified immunity,
+Cerdes’s remaining federal claims survive, so this Court is retaining three claims over which it has
+original jurisdiction. Finally, the Court cannot find any exceptional circumstances or otherwise
+compelling reasons for declining jurisdiction over the state law malicious prosecution claim.
+Instead, “[r]equiring Plaintiff to litigate his claim in state court would ‘necessarily require
+consideration by two distinct courts of the same operative fact[s]’ and the ‘same legal issues.’”
+Lumpkin v. Kaufman Cnty. Sheriff’s Off., No. 21-1842, 2023 WL 3046354, at *11 (quoting McKee
+v. Texas Star Salon, LLC, No. 06-879, 2007 WL 2381246, at *4 (N.D. Tex. Aug. 21, 2007)). Thus,
+it is proper for this Court to exercise supplemental jurisdiction over Cerdes’s state law claims
+against both Martin and the City.
+V. CONCLUSION
+For the foregoing reasons,
+ IT IS ORDERED that the City’s Motion to Dismiss, R. Doc. 31, is DENIED.
+ IT IS FURTHER ORDERED that Martin’s Motion to Dismiss, R. Doc. 30, is
+GRANTED IN PART and DENIED IN PART. The motion is denied as to all arguments except
+to enter qualified immunity as to Cerdes’s Fourth Amendment malicious prosecution claim.
+New Orleans, Louisiana, this 25th day of August, 2025.
+
+      THE HONORABLE ELDON E. FALLON
+Case 2:24-cv-02866-EEF-KWR     Document 47     Filed 08/25/25     Page 31 of 31
