@@ -1,0 +1,771 @@
+1
+
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+TORSH, INC.
+
+VERSUS
+
+AUDIO ENHANCEMENT, INC.
+
+*
+
+*
+
+*
+
+CIVIL ACTION
+
+NO. 22-2862
+
+SECTION “P” (2)
+ORDER AND REASONS
+
+Pending before me is Defendant Audio Enhancement, Inc.’s Motion to Compel.  ECF No.
+40.  Plaintiff Torsh, Inc. timely filed an Opposition Memorandum.  ECF No. 44.  Defendant sought
+leave and filed a Reply Memorandum.  ECF No. 49.  No party requested oral argument  in
+accordance with Local Rule 78.1, and the court agrees that oral argument is unnecessary.
+Having considered the record, the  submissions and arguments of counsel, and the
+applicable law, Defendant’s  Motion to Compel is GRANTED IN PART AND DENIED IN PART
+as stated herein.
+I. BACKGROUND
+This is a breach of contract and misappropriation of trade secrets case.  Plaintiff Torsh, Inc.
+(“Torsh”) is a software development company whose primary product is “TORSH Talent, a cloud-
+based learning platform.”  ECF No. 1 ¶¶ 9-10.  Defendant Audio Enhancement, Inc. (“AE”) is an
+education technology company that provides classroom audio and camera systems.  Id. ¶ 16.
+On February 22, 2019, the parties entered into a Business Services and Software Resale
+Agreement, which contained an initial three-year term and renewal provisions.  ECF No. 1-1 ¶ 6.
+Plaintiff alleges that, during the initial three -year term, AE approached Torsh about acquiring it
+but after unproductive negotiations, AE be gan to “reverse engineer” Torsh’s technology and
+proprietary information to develop a competing software platform and suite of services.  Id. ¶¶ 42-
+47.  It further contends that AE avoided finalizing pricing for the renewal term, and one day before
+Case 2:22-cv-02862-DJP-DPC   Document 52   Filed 11/15/23   Page 1 of 23
+2
+
+the automatic renewal date, AE purported to terminate the Agreement, citing the lack of finalized
+pricing and a guaranteed minimum purchase amount as evidence that there was no enforceable
+contract between the parties.  Id. ¶¶ 53-57.
+II. THE PENDING MOTION TO COMPEL
+Through this motion to compel, Defendant AE seeks to strike Torsh’s “boilerplate
+objections” and to compel Torsh (1) to provide a reasonably particularized identification of each
+trade secret, and confidential proprietary item, and software that AE  allegedly misappropriated,
+including the exact identity, scope, constitutive elements, and content of each alleged trade secret
+(Interrogatory Nos. 1-2, 5); (2) to identify each alleged infringing or derivative component of any
+AE products ( Interrogatory Nos. 3-4); (3) to specify the date(s) of each disclosure and name of
+each discloser of any allegedly misappropriated secret (Interrogatory Nos. 6-7); (4) to identify the
+date of disclosure and identity of each person to whom Torsh disclosed the trade sec ret(s)
+(Interrogatory No. 8); (5) to identify the author(s) or inventor(s) of each allegedly misappropriated
+trade secret (Interrogatory No. 9); (6) to quantity its damages (Interrogatory Nos. 11 -12);  and
+(7) to provide financial statements and tax returns for 2016 through August 24, 2022 (RFP Nos.
+31-32).  ECF No. 40.  In addition, AE asks that boilerplate objections be stricken from, and non -
+privilege documents be produced in response to, RFP Nos. 3, 4, 5, 6, 7, 10, 11, 12, 14, 15, 16, 17,
+18, 20, 21, 23, 26, 29, 30, 34, 36, and 38.  Id .  AE argues that Torsh has not identified its alleged
+trade secrets with the specificity required to enable AE to defend itself in this litigation, and indeed
+cannot discern whether Torsh contends it misappropriated source code, particular design elements,
+strategies, API components, or something else.  ECF No. 40-11 at 4-11.
+In Opposition, Torsh argues that, having lost its motion to dismiss, AE is attempting to use
+discovery to test the merits of Torsh’s trade se crets claim via a premature summary judgment
+Case 2:22-cv-02862-DJP-DPC   Document 52   Filed 11/15/23   Page 2 of 23
+3
+
+motion.  ECF No. 44 at 3- 4.  Torsh argues that it has sufficiently identified its trade secrets,
+including in its supplemental responses, by identifying four trade secrets 1 and, pursuant to Rule
+33(d), providing relevant business records.  Id. at 5-6.  Torsh disputes AE’s fundamental premise
+that API cannot qualify as a trade secret and argues that it has specifically identified the relevant
+code used in those APIs.  Id . at 7 -8.  Torsh argues that it has not yet  conducted discovery and
+contends it is unfair to limit its presentation when AE is the only party who knows the full extent
+of its misappropriation.  Id. at 8.  Torsh also asserts that it has fully responded to the discovery
+requests and it cannot provide more detail regarding damages because it needs to determine AE’s
+profits.  Id. at 9-15.
+In Reply, AE argues that the four trade secrets identified by Torsh are simply categories ,
+not specific descriptions of the trade secrets, as required in this sophisticated misappropriation
+case.  ECF No. 49 at 1- 3.  AE argues that the disclosure date of and disclosing person of each
+alleged trade secrets is necessary to determine whether Torsh had access to same.  Id . at 3-4.  It
+argues that the identity of recipients of the alleged trade secrets is necessary to determine whether
+Torsh took reasonable measures to maintain the secrecy of its information, and identity of the
+author is necessary to determine whether Torsh in fact developed the trade secret and narrow the
+focus of fact depositions.  Id . at 4-5.  AE argues that Torsh’s financial information is relevant to
+its consequential damages claim for breach of contract, and that Torsh evidently concedes the
+impropriety of its boilerplate objections.  Id. at 5-6.
+III. APPLICABLE LAW
+A. The Scope of Discovery
+Under Rule 26, “[p]arties may obtain discovery regarding any nonprivileged matter that is
+
+1 Torsh summarizes its four trade secrets as its Mobile API, Torsh Talent API, unique specifications embodied in those
+APIs, and the ability and technology to transmit large video files through Torsh Talent.  ECF No. 44 at 6.
+Case 2:22-cv-02862-DJP-DPC   Document 52   Filed 11/15/23   Page 3 of 23
+4
+
+relevant to any party’s claim or defense and proportional to the needs of the case, considering the
+importance of the issues at stake, the amount in controversy, the parties’ relative access to relevant
+information, the parties’ resources, the importance of the discovery in resolving the issues, and
+whether the burden or expense of the proposed discovery outweighs its likely benefit.  Information
+within this scope of discovery need not be admissible in evidence to be discoverable.”  FED. R.
+CIV. P. 26(b)(1).
+The threshold for relevance at the discovery stage is lower than the threshold for relevance
+of admissibility of evidence at the trial stage. 2  At the discovery stage, relevance includes “[a]ny
+matter that bears on, or that reasonably could lead to other matter that could bear on, any issue that
+is or may be in the case.”3  Disc overy should be allowed unless the party opposing discovery
+establishes that the information sought “can have no possible bearing on the claim or defense of
+the party seeking discovery.”4  If relevance is in doubt, a court should allow discovery.5
+Rule 26’s advisory committee comments make clear that the parties and the court have a
+collective responsibility to ensure that discovery is proportional.  The party claiming it would
+suffer an undue burden or expense is typically in the best position to explain why, while the party
+claiming the information is important to resolve the issues in the case should be able “to explain
+the ways in which the underlying information bears on the issues as that party understands them.”
+FED. R. CIV. P. advisory committee notes to 2015 amendment.  Thus, it bears the burden of making
+a specific objection and coming forward with specific information to address the importance of
+the issues at stake in the action, the amount in controversy, the parties’ relative access to relevant
+
+2 Rangel v. Gonzalez Mascorro, 274 F.R.D. 585, 590 (S.D. Tex. 2011) (citations omitted).
+3 Id. (citations omitted).
+4 Dotson v. Edmonson, No. 16 -15371, 2017 WL 11535244, at *3 (E.D. La. Nov. 21, 2017) (citing Merrill v. Waffle
+House, Inc., 227 F.R.D. 467, 470 (N.D. Tex. 2005)).
+5 E.E.O.C. v. Simply Storage M gmt., L.L.C., 270 F.R.D. 430, 433 (S.D. Ind. 2010) (quoting Truswal Sys . Corp. v.
+Hydro–Air Eng’r, Inc., 813 F.2d 1207, 1212 (Fed. Cir. 1987) (internal quotations omitted)).
+Case 2:22-cv-02862-DJP-DPC   Document 52   Filed 11/15/23   Page 4 of 23
+5
+
+information, the parties’ resources, the importance of the discovery in resolving the issues, and
+whether the burden or expense of the proposed discovery outweighs its likely benefit.6
+“The court's responsibility, using all the information provided by the parties, is to consider
+these and all the other factors in reaching a case-specific determination of the appropriate scope of
+discovery.”  FED. R. CIV. P. advisory committee’s notes to 2015 amendment.  Rule 26(b)(2)(C)(i)–
+(iii) directs the Court to limit the frequency or extent of discovery otherwise allowed, if it
+determines: (1) the discovery sought is unreasonably cumulative or duplicative, or can be obtained
+from some other source that is more convenient, less burdensome, or less expensive; (2) the party
+seeking discovery had ample opportunity to obtain the information; or (3) the proposed discovery
+is outside the scope of Rule 26(b)(1).
+B. Duties in Responding to Discovery
+1. Full and Complete Responses
+“Discovery by interrogatory requires candor in responding. . . .  The candor required is a
+candid statement of the information sought or of the fact that objection is made to furnishing the
+information.  A partial answer by a party reserving an undisclosed objection to answering fully is
+not candid. It is evasive.”7  The fact that an interrogatory calls for a thorough response —one that
+will take time and effort to answer—does not make it improper.8  A party is not required to make
+an extensive investigation in responding to an interrogatory, but it must review all sources of
+responsive information reasonably available and provide the responsive, relevant facts reasonably
+available.9  Where an interrogatory answer ‘‘‘as a whole disclose[s] a conscientious endeavor to
+
+6 Mir v. L–3 Commc’ns Integrated Sys., L.P., 319 F.R.D. 220, 226 (N.D. Tex. 2016).
+7 Dollar v. Long Mfg., N.C., Inc., 561 F.2d 613, 616–17 (5th Cir. 1977).
+8 Areizaga v. ADW Corp., 314 F.R.D. 428, 437 (N.D. Tex. 2016) (citing Burns v. Thiokol Chem. Corp., 483 F.2d 300,
+307–08 (5th Cir. 1973)).
+9 Id. (citing 8B WRIGHT, MILLER & MARCUS, FED. PRAC. & PROC. § 2174 (3d ed. 2013)).
+Case 2:22-cv-02862-DJP-DPC   Document 52   Filed 11/15/23   Page 5 of 23
+6
+
+understand the question[] and to answer fully [that question],' a party's obligation under Rule 33 is
+satisfied.”10
+2. Objections Must be Stated with Specificity
+A party served with written discovery must fully answer each request to the full extent that
+it is not objectionable and affirmatively explain what portion of an interrogatory or document
+request is objectionable and why, affirmatively explain what portion of the interrogatory or
+document request is not objectionable and the subject of the answer or response, and explain
+whether any responsive information or documents have been withheld.11  The party objecting must
+state how the objection “relates to the particular request being opposed, and not merely that it is
+‘overly broad and burdensome’ or ‘oppressive’ or ‘vexatious’ or ‘not reasonably calculated to lead
+to the discovery of admissible evidence.’”12  Any objection must clearly state how the information
+sought is not relevant to any claim or defense , or how the request is overbroad, burdensome or
+oppressive.13
+When a party objects to a request for production, the “objection must state whether any
+responsive materials are being withheld on the basis of that objection. An objection to part of a
+request must specify the part and permit inspection of the rest.”14  Objections interposed without
+also indicating whether any document or information is being withheld are improper.15  Responses
+
+10 Id. (citing Meltzer/Austin Rest. Corp. v. Benihana Nat'l. Corp., No. 11 –542, 2013 WL 2607589, at *3 (W.D.  Tex.
+June 10, 2013) (quoting 8B WRIGHT, MILLER & MARCUS, FED. PRAC. & PROC. § 2177 (3d ed. 2010))).
+11 Lopez v. Don Herring Ltd., 327 F.R.D. 567, 580 (N.D. Tex. 2018) (citation omitted).
+12 Cheshire v. Air Methods Corp, No. 15-933, 2015 WL 7736649, at *2 (W.D. La. Nov. 30, 2015) (quotations omitted).
+13 Chevron Midstream Pipelines v. Settoon Towing, LLC , Nos. 13-2809, 13-3197, 2015 WL 269051 at *3 (E.D. La.
+Jan. 20, 2015) (noting objections are boilerplate and insufficient if they merely state “the legal grounds for the
+objection without: (1) specifying how the discovery request is deficient and (2) specifying how the objecting party
+would be harmed if it were forced to respond.”) (citation omitted).
+14 F ED. R. C IV. P. 34(b)(2)(C); Orchestrate HR, Inc. v. Trombetta , 178 F. Supp. 3d 476, 507 (N.D. Tex. 2016),
+objections overruled, No. 13-2110, 2016 WL 5942223 (N.D. Tex. Oct. 13, 2016).
+15 See Chevron, 2015 WL 269051 at *4 (holding that objections fall woefully short of objecting party’s burden when
+party objected to documents and information protected by privilege but did not describe whether any documents were
+withheld or the nature of withheld documents).
+Case 2:22-cv-02862-DJP-DPC   Document 52   Filed 11/15/23   Page 6 of 23
+7
+
+must also clearly state whether any responsive materials are being withheld and the specific basis
+for objecting and not producing same.16
+The Federal Rules of Civil Procedure take a “demanding attitude toward objections,”17 and
+courts have long interpreted the rules to prohibit general, boilerplate objections. 18  Boilerplate
+objections use standardized, ready-made or all-purpose language without regard to the particular
+discovery request.19  G eneral objections refer to objections that a party responding to discovery
+asserts as applicable to multiple individual requests set forth in a given set of discovery requests.20
+A general objection untethered to specific requests (and is thus also a boilerplate objection) is
+improper.21  Merely copying and pasting an objection by itself , however, does not render  an
+objection a boilerplate objection.22  Likewise, in some instances, general objections may serve as
+an efficient response whereby the  court may consider and rule upon general objections raised
+against sets of interrogatories or requests for production. 23  To serve this purpose  and to comply
+with the Federal Rules of Civil Procedure, however, t he general objections must raise specific
+
+16 Id. (citation omitted) (“Objections that fail to provide an appropriate basis make it difficult for the parties to even
+informally discuss any alleged defects in a discovery request or response in hope of  fixing the defects.”).
+17 8B CHARLES WRIGHT & ARTHUR MILLER, FEDERAL PRACTICE AND PROCEDURE: CIVIL § 2173 (3d ed. 2021).
+18 See, e.g., Chevron, 2015 WL 269051, at *3 (noting that an objection is boilerplate and insufficient “when it merely
+states the legal grounds for the objection without: (1) specifying how the discovery request is deficient and (2)
+specifying how the objecting party would be harmed if it were forced to respond to the request.”) (citation omitted);
+see also McLeod, Alexander, Powel & Apffel, P.C. v. Quarles, 894 F.2d 1482, 1485– 86 (5th Cir. 1990) (simply
+objecting to requests as “overly broad, burdensome, oppressive and irrelevant,” without showing “specifically how
+each [request] is not relevant or how each question is overly broad, burdensome or oppressive” is inadequate to “voice
+a successful objection.”) (citations omitted).
+19 See Tim Long Plumbing, Inc. v. Kinsale Ins. Co., No. 2 0-42, 2020 WL 6559869, at *3 (E.D. Tex. Nov. 9, 2020)
+(citation omitted) (providing examples for boiler plate language, such as “Defendant objects to this Request, as it is
+overly broad and vague” and “Defendant objects to this Request to the extent it seeks discovery of information that is
+irrelevant and not proportional to the needs of the case.”).  Objections are deemed “boilerplate” when they are identical
+and not tailored to the specific discovery request.  Amazing Ins., Inc. v. DiManno, No. 19 -1349, 2020 WL 5440050,
+at *5 (E.D. Cal. Sept. 10, 2020) (citation omitted).
+20 Grider v. Keystone Health Plan Cent., Inc., 580 F.3d 119, 134 n.16 (3d Cir. 2009).
+21 See DL v. Dist . of Columbia, 251 F.R.D. 38, 43 (D.D.C. 2008)  (citation omitted)  (“When faced with general
+objections, the applicability of which to specific document requests is not explained further, this Court will not raise
+objections for the responding party, but instead will overrule the responding party's objections on those grounds.”
+(internal quotations omitted)).
+22 Tim Long Plumbing, 2020 WL 6559869, at *4.
+23 Pulsecard, Inc. v. Discover Card Servs., Inc., 168 F.R.D. 295, 304 (D. Kan. 1996)  (citations omitted).
+Case 2:22-cv-02862-DJP-DPC   Document 52   Filed 11/15/23   Page 7 of 23
+8
+
+objections and correspond to specific discovery requests.24  Where a general objection is connected
+both to the facts of the case and specific discovery requests, they are proper; when they are
+disconnected from either the facts or the discovery requests, they are not proper.
+C. Trade Secret Discovery
+Unlike patent, trademark or copyright cases where the intellectual property at issue is on
+file with the United States Patent and Trademark Office or otherwise publicly available, trade
+secret are held by the plaintiff and, by definition, are not publicly available.  While trade secrets
+need not be pled with extreme specificity in a complaint, 25 even a complaint must disclose
+sufficient facts to put the defendant on notice as to what is alleged to have been misappropriated
+and describe the subject matter of the trade secret with sufficient particularity to separate it from
+matters of general knowledge in the trade or within the special knowledge of those persons skilled
+in the trade.26
+After the motion to dismiss stage, in order for the court to manage discovery and for the
+parties to prepare for trial, a more particularized identification of trad e secrets than that required
+
+24 Dickey v. Apache Indus. Servs ., Inc., No. 18 -572, 2019 WL 4261117, at *3 (M.D. La. Sept. 9, 2019) (collecting
+cases); see Hall v. Louisiana, No. 12 -657, 2014 WL 2560579, at *1 (M.D. La. June 6, 2014) (“Defendants initially
+gave general objections applicable to all of Plaintiff's discovery requests.   But critically, after providing their general
+objections, Defendants addressed each and every discovery request individually, making specific objections before
+providing detailed and informative responses, notwithstanding those objections.”).
+25 C&M Oilfield Rentals, LLC v. Location Illuminator Techs., LLC, No. 18 -00039, 2020 WL 5745833, at *6 (W.D.
+Tex. Aug. 3, 2020)  (citing Wellogix, Inc. v. Accenture, L.L.P ., 716 F.3d 867, 874 (5th Cir. 2013) (stating that “the
+undersigned finds . . . the Fifth Circuit has never held that trade sec rets must be pled with extreme specificity” and
+finding the identification of design, manufacturing process, and method of installation of a lighting system sufficient),
+R.& R. adopted by No. 18-039, 2020 WL 7012008 (W.D. Tex. Sept. 30, 2020).
+26 Source Prod. & Equip Co., Inc. v. Schehr, No. 16-17528, 2019 WL 4752058, at *5 (quoting Mfg. Auto. & Software
+Sys., Inc. v. Hughes, No. 16-8962, 2018 WL 3197696, at *14) (C.D. Cal. June 25, 2018) (internal quotation omitted));
+AlterG, Inc. v. Boost Treadmills LLC , 388 F. Supp. 3d 1133, 1144 (N.D. Cal. 2019); Next Commc’ns, Inc. v. Viber
+Media, Inc., 758 F. App’x 46, 49 (2d Cir. 2018) (party opposing summary judgment in trade secret case must be able
+to identify the alleged trade secret with sufficient specificity to make the moving party aware of what information it
+has allegedly misappropriated.”); see also Ecimos, LLC v. Carrier Corp., 971 F.3d 616, 643 (6th Cir. 2020) (defining
+trade secrets to exclude publicly disclosed or easily acquired information or matters  of general knowledge in the
+industry, or ideas that are well known or easily ascertainable) (citations omitted).
+Case 2:22-cv-02862-DJP-DPC   Document 52   Filed 11/15/23   Page 8 of 23
+9
+
+in a complaint is necessary.27  No longer is identifying the allegedly misappropriated trade secret
+as “source code,” API, or by some other category name sufficient.28  Plaintiff must provide specific
+notice of what the defendants is alleged to have misappropriated.29
+Although many jurisdictions do not have an express requirement for pre -discovery of
+identification of trade secrets, 30 courts have increasingly adopted local rules or practices to issu e
+orders at the outset of litigation as an aid to case management and discovery in trade secret cases.31
+
+27 Mfg. Auto. & Software Sys. , 2018 WL 3197696, at *15; InteliC lear, LLC v. ETC Glob . Hldgs. Inc., 978 F.3d 653,
+658 (9th Cir. 2020); StoneEagle Servs., Inc. v. Valentine , No. 12-1687, 2013 WL 9554563, at *3 (N.D. Tex. June 5,
+2013) (requiring reasonable particularity of alleged trade secrets at issue so both defendants and courts will have no
+difficulty evaluating the relevance of discovery requests and propriety of objections) (citation omitted); Source Prod.
+& Equip. Co., 2019 WL 4752058, at *6 (stating trade secret identification with particularity avoids trial by ambush).
+28 See, e.g., Agency Solutions.com, LLC v. TriZetto Group, Inc. , 819 F. Supp. 2d 1001, 1016– 17 (E.D. Ca. 2011)
+(discussing what can qualify as a trade secret and what cannot in the context of software programs);. Integrated Cash
+Mgmt. Servs, Inc. v. Digital Transactions, Inc., 920 F.2d 171, 174 (2d Cir. 1990); Broker Genius, Inc. v. Zalta, 280 F.
+Supp. 3d 495, 511 (S.D.N.Y. 2017) (noting that defendant breached confidentiality agreement when disclosing
+plaintiff’s non-public program and user interface); Medidata Sol., Inc. v. Veeva  Sys., Inc. , No. 17 -589, 2021 WL
+467110, at *4 (S.D.N.Y. Feb. 9, 2021); see also InteliClear, LLC, 78 F.3d at 658 (finding triable fact issue on whether
+trade secret was identified with sufficient particularity  and noting that plaintiff must refer to tangi ble trade secret
+material rather than a system that potentially qualified for trade secret protection); Irth Solns., LLC v. Apex Data Solns.
+Servs., LLC, No. 18-6884, 2019 WL 283831, at *6–8 (W.D.N.Y. Jan. 22, 2019) (recognizing these things may qualify
+as trade secrets, but finding plaintiff failed to describe its program sufficiently to enable the court to find it merited
+trade secret protection); Modus LLC v. Encore Legal Sols., Inc., No. 12-00699,  2013 WL 6628125, at *8 (D. Az. Dec.
+17, 2013) (finding that only pleading the existence of “library programming scripts” that were developed to facilitate
+user interface and general statement as to how they were protected sufficient to overcome Rule 12(b)(6)).
+29 Imax Corp. v. Cinema Techs., Inc. , 152 F.3d 1161, 1164 (9th Cir. 1998 ); see also Next Comm c’ns, Inc. v. Viber
+Media, Inc. , 758 F. App’x 48, 49   (2d Cir. 2018)  (stating that plaintiff must identify trade secret with sufficient
+specificity to make the moving party aware of what information it has allegedly misappropriated ).
+30 Compare Polydyne Software, Inc. v. Celestica Int'l, Inc.,  No. 14-797, 2014 WL 12479201, at *2 (W.D. Tex. Dec.
+31, 2014) (noting that neither Texas nor Fifth Circuit law requires pre -discovery identification of trade secrets ) with
+CAL. CIV. PROC. § 2019.210 (requiring party alleging misappropriation to identify trade secrets with reasonable
+particularity before commencing discovery).
+31 This trend is discussed in detail in The Sedona Conference’s Commentary on the Proper Identification of Asserted
+Trade Secrets in Misappropriation Cases, 22 SEDONA CONF. J. 223 (2021).  See Source Prod. & Equip. Co. v. Schehr,
+No. 16-17528 (E.D. La. Feb. 8, 2019) (ECF No. 132); see also InteliClear, LLC, 978 F.3d at 653;  Zenimax Media,
+Inc. v. Oculus VR, LLC , 166 F. Supp. 3d 697, 703 (N.D. Tex. 2015) (court issued Identification Order in
+misappropriation of intellectual property case involving virtual- reality headset); StoneEagle Servs., Inc., 2013 WL
+9554563, at *5 (court issued Identification Order in misappropriation case involving medical billing platform).  For
+additional cases requiring plaintiffs bringing claims of trade secret misappropriation to identify, with reasonable
+particularity, the alleg ed trade secrets at issue, see  Arconic, Inc. v. Novelis, Inc ., 17-1434, 2020 WL 7247112, at *1
+(W.D. Pa. Dec. 9, 2020); AgroFresh Inc. v. Essentiv LLC, No. 16-662, 2019 WL 563900, at *1 (D. Del. Feb. 4, 2019),
+opinion adopted, No. 16- 662, 2019 WL 9514501 (D. Del. Apr. 23, 2019); United Servs. Auto. Ass'n v. Mitek Sys.,
+Inc., 289 F.R.D. 244 (W.D. Tex. 2013), aff'd, 2013 WL 1867417 (W.D. Tex. Apr. 24, 2013); Switch Commc'ns Group
+v. Ballard, No. 11–00285, 2012 WL 2342929 (D. Nev. June 19, 2012); Powerweb Energy v. Hubbell Lighting, Inc .,
+No. 12–220, 2012 WL 3113162 (D. Conn. July 31, 2012); Ikon Office Sols., Inc. v. Konica Minolta Bus. Sols., U.S.A.,
+Inc., No. 08 –539, 2009 WL 4429156 (W.D.N.C. Nov.  25, 2009); DeRubeis v. Witten Techs., Inc., 244 F.R.D. 676
+(N.D. Ga. 2007); AutoMed Techs., Inc. v. Eller, 160 F. Supp. 2d 915 (N.D. Ill. 2001).
+Case 2:22-cv-02862-DJP-DPC   Document 52   Filed 11/15/23   Page 9 of 23
+10
+
+Such orders require that plaintiff identify, with reasonable particularity, the matter which it claims
+constitutes trade secret(s), including as much detail as possible in that disclosure (i.e., a specific
+description of each alleged trade secret specifying, on an individual basis for each such alleged
+trade secret, the exact identity, scope, boundaries, constitutive elements, and content of each
+alleged trade secret, including any asserted combinations).
+In fact, the Eastern District of Louisiana recently adopted an amendment to its Local Rules
+adding a new Local Rule 26.3. 32  This new rule, effective January 1, 2024, requires a party
+asserting a claim that trade secrets have been misappropriated to include with the Rule 26(a) initial
+disclosures a Trade Secret Identification Statement  that contemplates a greater degree of
+particularity than Rule 8 .33  The identification requires more than a description of the categories
+within which the trade secret information may fall, such as that set forth in the publicly available
+complaint, and more than simple generalized descriptions, such as formulas, plans, or drawings.34
+The requirement of reasonable particularity serves to limit the permissible scope of discovery by
+distinguishing the trade secrets from matters of general knowledge in the trade or of special
+knowledge of those persons skilled in the trade.35
+
+32 https://www.laed.uscourts.gov/news/second-notice-amendments-local-rules-75-781-56-and-263.
+33 Id.
+34 See DeRubeis, 244 F.R.D. at 679 (stating that generally listing software, data processing algorithms, and processes
+that a plaintiff developed, owned, or licensed is insufficient as such disclosures only reveal the end results of, or
+functions performed by, the claimed trade secrets); Switch , 2012 WL 2342929 at *5 (identifying various concepts,
+elements, or components that make up designs insufficient without specific description of what particular combination
+of components renders each of its designs novel or unique, how the components are combined, and how they operate
+in unique combination ); Ikon, 2009 WL 4429156, at *3 n.3 (holding that lengthy, descriptive, but non- specific,
+paragraphs are insufficient).
+35 Cf. IDX Sys. Corp. v. Epic Sys. Corp ., 285 F.3d 581, 583- 84 (7th Cir. 2002) (noting that 43- page description of
+software package insufficient because it failed to separate the trade secrets from the other information that goes into
+the software package that i s known to the trade) ; Yeiser Research & Dev. LLC v. Teknor Apex Co., 281 F. Supp. 3d
+1021, 1044 (S.D. Cal. 2017)  (quotation omitted).  For additional cases requiring plaintiffs bringing claims of trade
+secret misappropriation to identify, with reasonable particularity, the alleged trade secrets at issue,  see Arconic, Inc.
+v. Novelis, Inc., No. 17-1434, 2020 WL 7247112, at *1 (W.D. Pa. Dec. 9, 2020); AgroFresh, 2019 WL 563900, at *1;
+Mitek, 289 F.R.D. at 244; Switch Commc'ns Group v. Ballard, No. 11 –00285, 2012 WL 2342929 (D. Nev. June 19,
+2012); Powerweb Energy v. Hubbell Lighting, Inc ., No. 12–220, 2012 WL 3113162 (D. Conn. July 31, 2012); Ikon
+Office Sols., Inc. v. Konica Mi nolta Bus. Sols., U.S.A., Inc., No. 3:08– 539, 2009 WL 4429156 (W.D.N.C. Nov.  25,
+2009); DeRubeis, 244 F.R.D. at 676; AutoMed Techs, 160 F. Supp. 2d at 915.
+Case 2:22-cv-02862-DJP-DPC   Document 52   Filed 11/15/23   Page 10 of 23
+11
+
+To identify a trade secret with reasonable particularity, the plaintiff must provide concrete
+information that “clearly refer[s] to tangible trade secret material.” 36  Plaintiff cannot rely on
+“catchall phrases” or simply identify general categories of trade secrets.37  The details provided in
+the identification must be more than vague labels, high level concepts, and rudimentary graphics.38
+Further, the attachment of thousands of pages of documents, while voluminous, does not equate to
+detail necessary to allow the court and defendant to understand exactly what Plaintiff is alleging.39
+A court should not be asked to wade through thousands of pages of documents in an effort to ferret
+out a trade secret like a hidden acorn.40
+Courts have been descriptive about what fails the “reasonable particularity” requirement:
+a laundry list of general categories of alleged “trade secret” information  or lengthy, descriptive,
+but non- specific, paragraphs, 41 generally listing software, data processing algorithms, and
+processes that a plaintiff developed, owned, or licensed or disclosures that only reveal the end
+results of, or functions performed by, the claimed trade secrets,42 and various concepts, elements,
+or components that make up designs .43  In contrast, a plaintiff identifies its trade secrets with
+reasonable particularity when it separately lists out each of the individual alleged trade secrets and
+identifies each claim so that the reader understands how each claim differs from public domain
+
+36 InteliClear, 978 F.3d at 658; IDX Sys. Corp., 285 F.3d at 583 (“[P]laintiff must do more than just identify a kind of
+technology and then invite the court to hunt through the details in search of items meeting the statutory definition.”).
+37 InteliClear, 978 F.3d at 658.
+38 Next Comm’cns Inc. v. Viber Media, Inc., 758 F. App’x 46, 49 (2nd Cir. 2018).
+39 InteliClear, 978 F.3d at 658 (“ It is inadequate for plaintiffs to ‘cite an d incorporate by reference hundreds of
+documents that purportedly reference or reflect the trade secret information. ’”) (citation omitted); IDX Sys., 165 F.
+Supp. 2d at 819  (“Long lists of general areas of information containing unidentified trade secrets are not substitutes
+for particularized and concrete trade secrets. ”); VIA Techs., Inc. v. Asus Computer Int’l , No. 14- 3586, 2016 WL
+5930280, *3 (N.D. Ca. Oct. 12, 2016) (noting that a trade secret plaintiff may not use broad, catch- all language as a
+tactic to preserve an unrestricted, unilateral right to subsequent amend its trade secret statement) .
+40 VIA Techs., 2016 WL 5930280 at *3 (noting that a trade secret plaintiff may not hide its trade secret in plain sight
+by including voluminous attachments to its trade secret statement).
+41 See Ikon, 2009 WL 4429156 at *3 & n.3.
+42See DeRubeis, 244 F.R.D. at 679.
+43 See Switch, 2012 WL 2342929 at *5.
+Case 2:22-cv-02862-DJP-DPC   Document 52   Filed 11/15/23   Page 11 of 23
+12
+
+filings44 or provides a specific description of what particular combination of components renders
+each of its designs novel or unique, how the components are combined, and how they operate in
+unique combination.45
+Essentially, plaintiff must do more than identify a technology or document containing a
+potential trade secret “and then invite the court to hunt through the details in search of items
+meeting the statutory definition [of a trade secret].”46  This is especially true in cases where the
+trade-secret claim involves sophisticated, highly technical issues that the district court or jury, on
+its own, is unlikely to have the expertise required to discern exactly what constitutes a trade
+secret.47  Where the alleged trade secret consists of incremental variations or advances in the state
+of art in a highly specialized field, a more exacting level of particularity may be required to
+distinguish the alleged trade secret from matters already known to persons skilled in the field.48
+Vague and overly inclusive descriptions that essentially assert that all information about software
+constitutes trade secrets are not plausible.49
+For instance, if the allegedly misappropriate trade secret is executable object code, plaintiff
+must name the executable files and identify what about their functionality is alleged to be a trade
+secret.  If plaintiff alleges misappropriation of source code, it must identify the specific lines of
+code or programs claimed to be a trade secret by, for example, printing out the code on paper with
+numbered lines and identifying the allegedly misappropriated lines by page and line number or by
+highlighting the code alleged to be secret, avoiding the improper inclusion of non-secret auto-
+generated code, open source material, or basic code mandated by the programming language or
+
+44 See Mitek, 289 F.R.D. 244, 249 (W.D. Tex. 2013).
+45 See Switch Commc’ns, 2012 WL 2342929 at *5.
+46 IDX Sys., 285 F.3d at 583–84; see also Source Prod., 2019 WL 4752058, at *7.
+47 Source Prod., 2019 WL 4752058, at *7 (citing Imax, 152 F.3d at 1167).
+48 Calendar Rsch. LLC v. StubHub, Inc. , No. 17- 04062, 2020 WL 4390391 (C.D. Cal. May 13, 2020) (citations
+omitted).
+49 IDX Sys., 285 F.3d at  583–84; see also Source Prod.,  2019 WL 4752058, at *7.
+Case 2:22-cv-02862-DJP-DPC   Document 52   Filed 11/15/23   Page 12 of 23
+13
+
+type of program within its trade secret identification.  If plaintiff contends that algorithms or
+formulas existing within code are trade secrets, it must identify the mathematical information and
+the precise combination of functions that comprise the algorithms at issue. If plaintiff contends
+that higher-level architecture of the software is a trade secret, it must detail the combination of the
+specific algorithms employed.  If plaintiff alleges trade secret data structures, the nature of those
+structures must be defined with particularity.50
+IV. ANALYSIS OF OBJECTIONS AND SPECIFIC RESPONSES
+A. General Objections
+Torsh’s general objections on pages 1- 3 of its responses and amended responses to AE’s
+First Set of Interrogatories (ECF Nos. 40- 5 and 40-10) are improper and lack the specificity
+required by Rule 33.  Objections must be specifically identified in response to a particular
+interrogatory and indicate how the particular interrogatory is improper or objectionable.
+Accordingly, the General Objections are stricken.
+B. Specific Objections
+Throughout its interrogatory responses, Torsh objects on the basis that the information
+sought is equally available to AE.  That objection is overruled.  While AE may have certain
+information from Torsh, AE cannot know what information Torsh contends constitutes its trade
+secret that was allegedly misappropriated.  Torsh is obliged to specifically identify what particular
+information it provided to AE that it contends constitutes trade secret information uniquely within
+Torsh’s possession.51
+
+50 See Charles Tait Graves & Brian D. Range, Identification of Trade Secret Claims in Litigation: Solutions for a
+Ubiquitous Dispute, 5 NW. J. TECH. & INTELL. PROP. 68, 94-95 (2006).
+51 V5 Techs . v. Switch, Ltd.,  334 F.R.D. 297, 305 n.12 (D. Nev. 2019)  (rejecting defendant's argument that “its
+supplemental responses are appropriate on the basis that Plaintiff is equally able to discern which trade secrets and
+intellectual property it is that Defendant contends were stolen”); InteliClear, 978 F.3d at 658 (stating that the plaintiff
+“must identify the trade secrets” and that “[i]dentifying trade secrets with sufficient particularity is important because
+defendants need ‘concrete identification’ to prepare a rebuttal”).
+Case 2:22-cv-02862-DJP-DPC   Document 52   Filed 11/15/23   Page 13 of 23
+14
+
+Similarly, the prematurity objection is overruled.  Torsh is obliged to provide  a thorough
+response, even one that will take time and effort to answer, within Rule 33’s thirty day deadline.52
+While Rule 26(e) imposes an obligation to supplement responses,53 that obligation does not equate
+to an automatic “extension of the deadline by which a party must deliver” its information.54
+Torsh cites Rule 33(d) in response to various interrogatories.  Rule 33(d), however, is only
+available when the answer to the interrogatory may be determined by a review of the documents.
+If the requesting party is unable to discern which portion of the referenced business records
+constitutes the alleged trade secret, reliance on Rule 33(d) is improper.55  For that reason, Torsh’s
+reference to Rule 33(d) to identify its trade secrets is insufficient.  AE has no basis to discern which
+portions of Torsh’s business information Torsh contends constitute trade secrets versus public
+information or information within the general knowledge of those skilled in the industry.
+C. Interrogatory Nos. 1, 2, 3, 4 and 5
+With regard to Interrogatory No. 1, Torsh’s amended responses specify in greater detail the
+categories of the four alleged trade secrets at issue.  ECF No. 40- 10 at 4- 5.  With regard to the
+mobile and Talent API, Torsh has not, however, identified the specific portions of that information,
+
+52 Areizaga v. ADW Corp., 314 F.R.D. 428, 437 (N.D. Tex. 2016) (citing Burns v. Thiokol Chem. Corp., 483 F.2d 300,
+307–08 (5th Cir. 1973)).
+53 Berenson v. Adm'r s of Tulane Univ. Educ. Fund, No. 17 -329, 2017 WL 6372831, at *3 (E.D. La. Dec. 13, 2017);
+see also Moore v. BASF Corp., No. 11-1001, 2012 WL 12990571, at *2 (E.D. La. May 2, 2012).
+54 See Sierra Club, Lone Star Chapter v. Cedar Point Oil Co., 73 F.3d 546, 571 (5th Cir. 1996); see also Van Baelen
+v. Sabine Transp. Co., No. 00 -2155, 2001 WL 474273, at *2 (E.D. La. May 2, 2001) (Clement, J. ) (noting that Rule
+26(e)’s duty to supplement does not enable a party to circumvent Rule 26(a)’s deadlines or a court’s scheduling order);
+see also Reed v. Iowa Marine & Repair Corp., 16 F.3d 82, 85 (5th Cir. 1994) (indicating that the purpose of obligation
+to supplement is to prevent prejudice and surprise).
+55 See Moog Inc. v. Skyryse, Inc., No. 22-187, 2022 WL 16852364, at *3 (W.D.N.Y. July 22, 2022) (requiring narrative
+response to interrogatory seeking identification of trade secrets rather than reliance on Rule 33(d)); KLX Energy Servs.
+LLC v. Magnesium Mach., LLC, No. 20-1129, 2022 WL 1785493, at *1 (W.D. Okla. June 1, 2022) (rejecting Rule
+33(d) in trade secret case and noting that the defendant “could look at every one of the previously-produced documents
+and not know, with any certainty, which ones [plaintiff] relies on as containing, describing or identifying a particular
+trade secret . . . .”).
+
+Case 2:22-cv-02862-DJP-DPC   Document 52   Filed 11/15/23   Page 14 of 23
+15
+
+including which executable files, lines of code, protocols, data structure, definitions or other
+information, contained in Torsh 525- 536, 744-788 and 813- 14 constitutes a trade secret.  Torsh
+must specify, within the identified documents, thos e portions it contends constitute trade secrets
+versus non- secret auto -generated code, open source material, or basic code mandated by the
+programming language or type of program within the identified documents.
+With regard to the item numbered 3 of the amended response to Interrogatory No. 1, Torsh
+identifies categories of items (programming techniques, functional methods, procedures,
+algorithms, etc.)  rather than  specifically identify ing the trade secret information within those
+categories as necessary to distinguish same from publicly available information.  Using technical
+terms such as “programming techniques,” algorithms, or “data coding” is not a free pass that
+relieves a plaintiff o f identifying, with reasonable particularity, the specific programming
+technique, algorithm, or data coding that it contends qualifies as a trade secret.  Torsh must identify
+which portions of the identified documents it contends reflect trade secret material versus generally
+available information.
+Torsh must supplement its respons es to Interrogatory Nos. 1, 3, 4 and 5 to specifically
+identify, in narrative form and with citation to particular portions of technology, that which it
+contends constitutes its trade secrets.  With regard to Interrogatory No. 2, however, Torsh has
+sufficiently responded to that inquiry by asserting that it treats as confidential and proprietary all
+information provided to AE.  Whether all of that information has been maintained as confidential
+and proprietary or qualifies as trade secrets are different issues.  Torsh has fully responded.
+Case 2:22-cv-02862-DJP-DPC   Document 52   Filed 11/15/23   Page 15 of 23
+16
+
+D. Interrogatory Nos. 6, 7, 8 and 9
+Torsh’s objection that the interrogatory assumes facts not in evidence is improper 56 and
+lacks the specificity required by Rule 33(b)(4).  Further, the proviso that the responses are “subject
+to” the objections and general objections is improper and obfuscates the responses and fails to
+make clear whether any information is being withheld based on the objections.57
+While matters of public or general knowledge cannot qualify as trade secrets, “ a
+compilation of the public information which incorporates the information in a unique way is,
+nonetheless, protectable as a trade secret.”58  Thus, “a trade secret can exist in a combination of
+characteristics and components each of which, by itself, is in the public domain, but the unified
+process, design and operation of which in unique combination, affords a competitive advantage
+and is a protectible secret.”59  As a result, a unique combination of items that by themselves do not
+constitute trade secrets, can be a trade secret.60
+
+56 Petconnect Rescue, Inc. v. Salinas, No. 20 -00527, 2022 WL 448416, at *7 (S.D. Cal. Feb. 14, 2022)  (noting that
+the objection to “assuming facts not in evidence ” is not a proper objection in the course of discovery) ( citing Garcia
+v. Clark, No. 10-447, 2012 WL 1232315, at *2 (E.D.  Cal. Apr.12, 2012) ((“Assuming facts not in evidence may be
+the basis for an objection during trial or some other evidentiary hearing,” but not during the course of discovery)) ;
+Two Rivers Pipeline & Constr. Co., Inc. v. Cimarex Energy Co., No.19-49, 2020 WL 6379302, at *4 (W.D. Tex. Sept.
+14, 2020) (overruling “assumes facts not in evidence’ objection in discovery context ); Roesberg v. Johns –Manville
+Corp., 85 F.R.D. 290, 298 (D.C. Pa.1980) (“That an interrogatory may contain an element of conclusion is not
+objectionable on this ground alone.”); Hamilton v. Kerik, No. 01-6934, 2002 WL 31834428, at *1 n.2 (S.D.N.Y. Dec.
+17, 2002) (“Since the dispute arises out of a discovery request, defendant's objection that the request ‘assumes facts
+not established’ is frivolous since the purpose of discovery is to learn facts.”) .
+57 “The practice of responding to discovery requests ‘subject to’ and/or ‘without waiving’ objections is manifestly
+confusing (at best) and misleading (at worst), and has no basis at all in the Federal Rules of Civil Procedure.”  Heller
+v. City of Dallas , 303 F.R.D. 466, 486– 87 (N.D. Tex. 2014)  (citations omitted) .  Such an objection paired with a
+response “preserves nothing and serves only to waste the time and resources of both the Parties and the Court.”  Id. at
+487.  To the extent any response or production is done “subject to” or “without waiving” objections other than privilege
+or work product, such objections are waived.  Id.
+58 Centurum Info. Tech. Inc. v. Geocent, LLC, No. 21-0082, 2021 WL 533707, at *13 (E.D. La. Feb. 12, 2021) (quoting
+Geo Grp., Inc. v. Cmty. First Servs., Inc., No. 11-1711, 2012 WL 1077846 (E.D.N.Y. Mar. 30, 2012)).
+59 Tewari De-Ox Systems, Inc.  v. Mountain States/Rosen, L.L.C. , 637 F.3d at 613 (quoting Imperial Chem., Ltd. v.
+Nat'l Distillers & Chem. Corp., 342 F.2d 737, 742 (2d Cir. 1965)); see also Metallurgical Indus. V. Fourtek, Inc., 790
+F.2d 1195, 1202 (5th Cir. 1986)  (rejecting contention that a combination of disclosed technologies cannot itself
+constitute a trade secret).
+60 See Complete Logistical Servs., LLC v. Rulh, 350 F. Supp.3d 512, 518 (E.D. La. 2018); Ultraflor Corp. v. Pelican
+Tank Parts, Inc., 926 F. Supp. 2d 935, 959 (S.D. Tex. 2013); Centurum, 2021 U.S. Dist. LEXIS 27661, at *40.
+Case 2:22-cv-02862-DJP-DPC   Document 52   Filed 11/15/23   Page 16 of 23
+17
+
+Although Torsh initially responded to Interrogatory No. 6 by indicating that AE came into
+possession of its trade secrets on or after February 22, 2019, Torsh amended that response to
+identify specific phone calls and emails in which it contends its trade secrets were disclosed.  AE
+may obtain further details regarding those specific disclosures through additional discovery,
+including depositions.  Torsh need not further supplement its response to Interrogatory No. 6.
+With regard to Interrogatory Nos. 7 and 8, however, AE is entitled to know (a) what Torsh’s
+trade secrets are; (b) who disclosed the trade secret; and (c) the identity and date of each trade
+secret disclosure to AE.  The purpose of the disclosure in any greater detail than in connection
+with performance of its contractual obligations, however, may be obtained through additional
+discovery, including deposition.  If Torsh’s trade secret results from a combination of items that
+themselves do not constitute trade secrets, AE is entitled to know that.  Likewise, if the trade secret
+is newly developed by Torsh, AE is entitled to know who created or authored the trade secret and
+when.  Indeed, courts have required disclosure of such information in trade secret litigation, except
+when that information has little relevance to the trade secret claim.61
+As the objecting party, Torsh must established that the author and date could have no
+possible bearing on any claim or defense in the litigation, which it has not done.  In this case, Torsh
+contends that it has fully responded by identifying the three individuals who authored or created
+the trade secret.  ECF No. 44 at 11.  If, during discovery, Torsh’s interrogatory response is found
+to be inadequate or incomplete and that prejudices AE, then AE may seek appropriate relief.  At
+this point, however, Torsh has asserted that it has provided the requested identities and as such,
+
+61 Compare Symbria, Inc. v. Callen, No. 20-4084, 2022 WL 20508639, at *2 (N.D. Ill. Apr. 4, 2022) (granting motion
+to compel response to interrogatory seeking (a) identity of the individual who authored or otherwise created the trade
+secret, (b) the date or date range of creation, and (c) all sources used, consulted, and/or relied upon to create or author
+the trade secret); with Symbria, Inc. v. Callen, No. 20 -4084, 2022 WL 20508638, at *2 (N.D. Ill. Apr. 11, 2022)
+(denying motion to compel author and date of trade secret creation as having little relevance to the trade secret claim).
+Case 2:22-cv-02862-DJP-DPC   Document 52   Filed 11/15/23   Page 17 of 23
+18
+
+the court cannot compel any further  response as the authors of the trade secrets  have been
+identified.  There is no indication of when, however, these people created the trade secrets at issue.
+Torsh must supplement its response to identify when these identified people created or invented
+the specified trade secrets.
+E. Interrogatory Nos. 11-12
+Interrogatories 11 and 12 seek descriptions of Torsh’s damages sustained from breach of
+contract and trade secret misappropriation.  Torsh’s objection on the grounds of compound nature
+(absent interrogatories in excess of the 25-interrogatory limit) and prematurity are overruled.  Its
+objection based on attorney- client privilege and work product  are insufficient as Torsh fails to
+provide the information required by Rule 26(b)(5)(A),62 which is required to properly invoke these
+protections.  Further, the attorney-client privilege “only protects disclosure of communications; it
+does not protect disclosure of the underlying facts by those who communicated with the
+attorney.”63  Likewise, the work product doctrine protect s documents and tangible things and
+intangible mental impressions, conclusions, opinions or legal theories of counsel, not facts , even
+if those facts were learned from work product documents that are not themselves discoverable. 64
+An interrogatory seeking a description of damages, therefore, would appear to call for facts, not
+any attorney-client communication or work product.
+Moreover, pursuant to Rule 26(a)(1)(A)(iii), unless exempted or otherwise stipulated or
+ordered by the court, a party is obligated to disclose “a computation of each category of damages
+claimed by the disclosing party” and to supplement the initial disclosures.  F ED. R. CIV. P.
+26(a)(1)(A)(iii); 26(e).  Even when a party will rely on an expert to calculate damages, it cannot
+
+62 Heller, 303 F.R.D. at 486.
+63 Upjohn Co. v. United States, 449 U.S. 383, 395 (1981)(emphasis added).
+64 8 C. Wright, A. Miller & R. Marcus, F EDERAL PRACTICE AND PROCEDURE § 2024, at 337–38 (citing FED. R. CIV.
+P. 26(b)(3); Hickman v. Taylor, 329 U.S. 495 (1947)).
+Case 2:22-cv-02862-DJP-DPC   Document 52   Filed 11/15/23   Page 18 of 23
+19
+
+refuse to answer an interrogatory regarding damages before expert disclosures are due. 65  Given
+Rule 26’s goal of accelerating the exchange of basic information needed in most cases to prep are
+for trial or make an informed decision about settlement ,66 “computation” generally requires
+disclosure of a specific dollar figure.67  Simply reciting a dollar figure, however, is not enough.68
+Torsh must supplement its answer to Interrogatory Nos. 11 and 12 based on the information
+available at the time of its response.  Torsh’s interrogatory responses may of course be supplement
+by its experts’ reports, in accordance with the Scheduling Order.
+F. Financial Statements and Tax Returns
+While tax returns are neither privileged nor undiscoverable, 69 the Fifth Circuit has
+recognized the special nature of income tax returns in finding that the district court abused its sua
+sponte power in sanctioning an attorney by requiring the disclosure of his income tax returns, in
+part, because income tax returns are “highly sensitive documents.” 70  Citing SEC v. Cymaticolor,
+106 F.R.D. 545, 547 (S.D.N.Y. 1985), the court indicated that disclosure of tax returns for purposes
+of discovery is appropriate when the requesting party demonstrates that the returns are (1) relevant
+
+65 In & Out Welders, Inc. v. H & E Equip. Servs., Inc., No. 16-86, 2018 WL 1370600, at *6 (M.D. La. Mar. 16, 2018);
+see Broussard v. Go -Devil Mfg. Co. of La.,  No. 08-124, 2009 WL 10669961, at *1 n.2 (M.D. La. Aug. 13, 2009)
+(“Under the federal rules of civil procedure, however, [defendant] is not required to wait until the expert report
+deadlines to obtain [plaintiff's] damage computations and is permitted to obtain that information through initial
+disclosures and discovery requests preceding the production of expert reports.”).
+66 FED. R. CIV. P. 26(a) 1993 advisory committee note.
+67 See Borroum v. RJM Acquisition LLC , No. 07–613, 2008 WL 11415899, at *3 (W.D. Tex. Mar. 28, 2008) (citing
+Bullard v. Roadway Exp.,  3 F. App ’x 418, 420 (6th Cir. 2001) (affirming district court's sanctions where
+“[a]stonishingly” plaintiff failed to make any reference to a dollar figure); Synergetics, Inc. v. Lumpkin, No. 04-1650,
+2005 WL 2179648, at *1(E.D. Mo. Sep. 9, 2005) (granting motion to compel where disclosure failed to set out
+“specific amounts” of damages)).
+68 Id. (citing Doggett v. Perez, No. 02-282, 2004 WL 2939600, at *5 (E.D. Wash. Mar. 4, 2004) (plaintiff must provide
+more than lump sum statement of damages sustained); Sanchez v. Hendrick’s Hallowell Chevrolet, No. 05-0746, 2006
+WL 2884778, at *1(E.D. Cal. Oct. 10, 2006) (same); McKinney v. Reassure Am . Life Ins. Co., No. 06-271, 2006 WL
+3228791, at *1 (E.D. Okla. Nov. 2, 2006) (same); City & County of San Francisco v. Tutor–Saliba Corp., 218 F.R.D.
+219, 221 (N.D. Cal. 2003) (same); First Nat ’l Bank of Chicago v. Ackerley Commc ’ns, Inc., No. 94-7539, 2001 WL
+15693, at *6 n.6 (S.D.N.Y. Jan. 8, 2001) (“calculation of damages requires more than merely setting forth the figure
+demanded”))).
+69 F.D.I.C. v. Legrand, 43 F.3d 163, 172 (5th Cir. 1995).
+70 Nat. Gas Pipeline Co. of Am. v. Energy Gathering, Inc., 2 F.3d 1397, 1411 (5th Cir. 1993).
+Case 2:22-cv-02862-DJP-DPC   Document 52   Filed 11/15/23   Page 19 of 23
+20
+
+to the subject matter of the action; and (2) there is a compelling need for the returns because the
+information contained therein is not otherwise readily obtainable.71
+Courts in the Fifth Circuit have not differentiated between personal and business tax returns
+in applying this two-part test72 or distinguished their cases from the unique facts of Natural Gas
+Pipeline Co. of America73 in applying this two-part test to motions to compel tax returns.74  Once
+the moving party has shown relevance, “the burden shifts to the party opposing production to show
+that other sources exist from which the information contained in the income tax returns may be
+readily obtained.”75
+
+71 SEC, 106 F.R.D. at 547 (citing Smith v. Bader, 83 F.R.D. 437, 438 (S.D. N.Y. Aug. 31, 1979)).
+72 See Levelland/Hockley Cty. Ethanol, LLC v. Layne Christensen Co. , No. 08-112, 2009 WL 10678213, at *4 (N.D.
+Tex. June 11, 2009) (differentiating between the personal tax returns of shareholders, board members, or the like and
+tax returns of the corporation and ruling the personal tax returns are “sensitive documents” according to Natural Gas
+Pipeline Co. of Am. that should not be produced, while the corporate tax returns are plainly relevant to damages and
+must be produced); see also Mohnot v. Bhansali , No. 14 -00912, 2001 WL 515242, at *2 (E.D. La. May 14, 2011)
+(responding to the argument that because the corporate defendant voluntarily turned over tax records, the plaintiff
+should produce his by saying “The Court does not find that Bhansali’s voluntary production of corporate tax returns
+merits an order that the plaintiffs produce their personal income tax returns” (emphasis in original)).
+73 See Ferguson v. Tex. Farm Bureau Bus. Corp., No. 17-00111, 2019 WL 12469794, at *2 (W.D. Tex. Apr. 26, 2019)
+(citations omitted) (stating “ Natural Gas was a unique situation: a district court sua sponte ordered an attorney to
+produce unrequested tax returns as a sanction for bad faith conduct based solely on its inherent powers. The Fifth
+Circuit, noting the ‘ novelty’ of that situation, concluded traditional sanctions ‘ would have accomplished the court's
+purpose more properly’ and therefore reversed an order compelling release of tax returns.  In more analogous
+situations—where tax returns are sought as part of relevant  discovery—courts in the Fifth Circuit consistently hold
+they are discoverable upon a relevance showing before the burden shifts to the party resisting discovery.” ); Lewis v.
+Shafer Prof. Res., Inc., No. 19-353, 2021 WL 2216626, at *1 n.2 (S.D. Tex. Jan. 22, 2021).
+74 See, e.g., Butler Asset Funding Grp. LLC v. Adams & Reese, LLP , No. 07-386, 2008 WL 4059867, at *9 (E.D. La.
+Apr. 4, 2008) (in ruling on personal tax returns stating “[a] number of courts, including the Fifth Circuit Court of
+Appeals, have held  that, because tax returns are ‘highly sensitive documents,’ their discovery requires that the
+requesting party demonstrate both: (1) that the requested tax information is ‘relevant’ to the subject matter of the
+action; and (2) that there is a ‘compelling need’ for the information because the information contained in the tax returns
+is not ‘otherwise readily obtainable’ through alternative forms of discovery . . . .”) (citing Nat’l Gas Pipeline Co. of
+Am., 2 F.3d at 1411); Marine Power Holding, LLC v. Malibu Boat, LLC, No. 14-0912, 2016 WL 366729, at *9 (E.D.
+La. Jan. 29, 2016) (Roby, M.J.) (applying the two part test to business tax returns and determining not relevant to the
+case); Asset Funding Grp., LLC v. Adams & Reese, LLP , No. 07 -02965, 2008 WL 927937, at *9 (E.D. La. Apr. 4,
+2008) (holding that the requesting party has failed to demonstrate a compelling need as they may obtain the
+information through alternative discovery inquiries and that other documents produced provide the same if not more
+relevant information); U.S. ex rel. Univ. Loft Co. v. AGS Enter., Inc. No. 14-528, 2016 WL 9462335, at *9 (W.D. Tex.
+June 29, 2016)  (holding that tax returns should be produced as they were relevant to the issue of damages and an
+expert reviewing the claim for damages based on lost profits would rely on the income tax returns as well as other
+statements).
+75 F.D.I.C., 43 F.3d at 172.
+Case 2:22-cv-02862-DJP-DPC   Document 52   Filed 11/15/23   Page 20 of 23
+21
+
+In this case, Torsh argues that the information is not relevant to damages under the DTSA
+because those damages are based on the benefits derived by defendant.  ECF No. 44 at 12.  The
+damages sought in this case, however, are not limited to benefits derived by defenda nt due to
+alleged misappropriation of trade secrets.  Rather, Torsh seeks damages for breach of contract as
+well as its actual losses sustained as a result of the alleged misappropriation, including lost profits,
+consequential damages, cash flow and other items of damage.  As such, its income and financial
+condition as reflected on its tax return and financial statements are relevant to the litigation.
+Having established relevance, it becomes Torsh’s burden to establish that other sources
+exist from which t he information contained in the income tax returns may be readily obtained.
+Torsh cites to its billing records and licenses  as an alternate source.  Torsh does not, however,
+establish that billing records and license sales reflect the substantial equivalent of the information
+contained in their tax returns and financial statements.   Accordingly, Torsh must produce its tax
+returns and financial statements.
+The time period at issue, however, is improper.  Torsh and AE entered into their contract
+in 2019.  This case involves Torsh’s losses from a breach of that contract and its current damages
+from AE’s alleged misappropriation of trade secrets.  As such, Torsh’s income and earnings for
+the three years before 2019 are not relevant to the damages it sustained as a result of AE’s alleged
+breach of the 2019 contract or misappropriation.  Accordingly, the time period will be restricted
+to the period beginning in 2019.
+G. The Requests for Production
+Initially, the General Objections set forth on pages 1-3 of Torsh’s responses are overruled
+for lack of specificity.  Likewise, its repeated “overly broad, unduly burdensome and as seeking
+information that is neither relevant to any claim or defense in this lawsuit nor proportional to the
+Case 2:22-cv-02862-DJP-DPC   Document 52   Filed 11/15/23   Page 21 of 23
+22
+
+needs of the case” without any specific application of those contentions to the particular request
+are overruled for lack of specificity.  Finally, the “[s]ubject to and without waiving these
+objections” proviso is stricken as such language serves no purpose other than to confuse the
+requesting party as to whether any document has been withheld based on the asserted objection.
+AE contends that Torsh’s boilerplate objections and promised “rolling production” are
+improper, and it cannot discern whether Torsh has withheld any documents based on its objection.
+ECF No. 40-11 at 17.  The Court has already addressed the general or boilerplate objections, and
+Torsh indicates that it has already agreed to produce nonprivileged res ponsive documents
+identified in through its reasonably diligent search.  ECF No. 44 at 15.  In light of Torsh’s
+affirmative representation that it will produce all nonprivileged responsive documents identified
+through its reasonably diligent search, the Court need not compel any further response.76
+While Torsh has agreed to produce nonprivileged responsive documents, however, it has
+simply indicated it would proceed on a “rolling production” basis.  A responding party is obliged
+to either produce the requested documents or ESI “no later than the time for inspection specified
+in the request or another reasonable time specified in the response.” FED. R. CIV. P. 34(b)(2)(B).
+The Advisory Committee Notes clarify that
+production must be completed either by the time for inspection specified in the
+request or by another reasonable time specifically identified in the response. When
+it is necessary to make the production in stages the response should specify the
+beginning and end dates of the production.77
+
+76 The Court notes, however, that proper substantiation of a privilege objection imposes an evidentiary burden under
+Rule 26(b)(5).  U nited States v. Newell, 315 F.3d 510, 525 (5th Cir. 2002)  (citation omitted) (recognizing that t he
+party asserting privilege bears the burden of proof sufficient to substantiate its claims); In re Santa Fe Int’l Corp., 272
+F.3d 705, 710 (5th Cir. 2001); Hodges, Grant & Kaufman v. United States , 768 F.2d 719, 721 (5th Cir. 1985).   The
+party asserting the objection must prove that each document it has withheld is privileged, and it cannot rely merely on
+a blanket assertion of privilege.  Jordan v. Aries Marine Corp ., No. 14-377, 2015 WL 151336, at *3 (E.D. La. Jan.
+12, 2015) (citing In re Equal Emp't Opportunity Comm'n, 207 F. App'x 426, 431 (5th Cir. 2006); Woodard v. Andrus,
+No. 03–2098, 2008 WL 2540600, at *3 (W.D. La. June 20, 2008) (citing High Tech Commc'ns, Inc. v. Panasonic Co.,
+No. 94–1447, 1995 WL 45847, at * 1 (E.D.  La. Feb. 2, 1995) (citing Hodges , 768 F.2d at 721; In re Shell Oil Ref.,
+812 F. Supp. 658, 661 (E.D. La. 1993))).
+77 FED. R. CIV. P. 34(b)(2)(B), advisory committee notes, 2015 amendments.
+Case 2:22-cv-02862-DJP-DPC   Document 52   Filed 11/15/23   Page 22 of 23
+23
+
+AE is entitled to a date certain by which Torsh’s rolling production will be completed as Rule 34
+plainly requires the responding party to specify an end date within a reasonable period of time ,
+which no doubt will depend on the extent and complexity of the search and production at issue.
+V. CONCLUSION
+Accordingly, for the foregoing reasons,
+IT IS ORDERED that Defendant’s Motion to Compel (ECF No. 40) is GRANTED IN
+PART AND DENIED IN PART as stated herein.
+IT IS FURTHER ORDERED that Plaintiff supplement its Interrogatory Responses as
+outlined herein within 30 days.
+IT IS FURTHER ORDERED that Plaintiff, within 7 days, specify a reasonable end date
+for its document production.
+ New Orleans, Louisiana, this ________ day of November, 2023.
+
+___________________________________
+DONNA PHILLIPS CURRAULT
+UNITED STATES MAGISTRATE JUDGE
+
+15th
+Case 2:22-cv-02862-DJP-DPC   Document 52   Filed 11/15/23   Page 23 of 23

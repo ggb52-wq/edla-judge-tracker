@@ -1,0 +1,776 @@
+1
+
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+ACADEMY OF ALLERGY &
+ASTHMA IN PRIMARY CARE, ET
+AL.
+
+VERSUS
+
+LOUISIANA HEALTH SERVICE
+AND INDEMNITY COMPANY, ET
+AL.
+CIVIL ACTION
+NO. 18-399
+SECTION: “J”(2)
+
+ORDER AND REASONS
+ Before the Court are three motions for summary judgment on Plaintiffs’
+Sherman Act Section 1 Claim filed by  Defendants, Humana, Inc. (“Humana”) (Rec.
+Doc. 443), Blue Cross and Blue Shield of Kansas, Inc (BCBSKS) (Rec. Doc. 449) ,
+Louisiana Health Service & Indemnity Company d/b/a Blue Cross and Blue Shield of
+Louisiana (BCBSLA), and AllMed Healthcare Management, Inc (“AllMed”) (Rec.
+Doc. 447) (collectively, “Defendants”); a consolidated opposition to all three motions
+(Rec. Doc. 464) filed by Plaintiffs, Academy of Allergy & Asthma in Primary Care
+(“AAAPC”) and United Biologics, LLC d/b/a United Allergy Services (“UAS”)
+(collectively, “Plaintiffs”); and Defendants’ replies thereto (Rec. Doc. 475, 472, 468).
+Having considered the motion and legal memoranda, the record, and the applicable
+law, the Court finds that the motions should be GRANTED.
+FACTS AND PROCEDURAL BACKGROUND
+ This case arises out of an alleged con spiracy among health insurance
+companies to restrict competition  in a multi -state market for allergy testing and
+allergen immunotherapy. Plaintiff Academy of Allergy & Asthma in Primary Care
+Case 2:18-cv-00399-CJB-DPC   Document 481   Filed 11/27/23   Page 1 of 30
+2
+
+(“AAAPC”) is a 503(C)(6) non-profit organization, composed of member primary care
+physicians (“PCPs”) who provide allergy and asthma treatments to patients. Plaintiff
+United Biologics, LLC, d/b/a United Allergy Services (“UAS”) provides technician s
+and equipment along with allergy testing and immunotherapy support services for
+primary care physicians (PCPs). UAS, which is not a licensed medical provider, has
+a business model to contract directly with PCP practices. UAS technicians, who are
+not required to have medical training, perform allergy tests in the physicians’ offices
+and prepare up to 300 units of a ntigens that patients administer at home for
+subcutaneous allergy immunotherapy over the course of a year. The PCP is not
+necessarily in the room where UAS technicians work with patients, and most UAS
+patients perform their immunotherapy at home. UAS would  prepare the bill for the
+physicians to submit to the insurance company, but UAS does not contract directly
+with health insurance companies. Instead, physicians submit the claims to health
+insurers for the allergy testing or immunotherapy services and then pay some amount
+back to UAS. UAS would not appear on the claims that PCPs submit to health
+insurers.
+ Starting in 2010, Defendants each began looking into UAS’s business practices.
+Humana’s Special Investigations Unit (SIU) discovered a billing spike ass ociated
+with allergy testing and immunotherapy from several PCPs. Humana’s investigation
+raised several concerns about UAS including that Humana’s coverage policy excluded
+at-home administration of allergy shots, that UAS billed for services they rendered
+under the PCP’s name, that UAS operated as a revenue generator for physicians, and
+Case 2:18-cv-00399-CJB-DPC   Document 481   Filed 11/27/23   Page 2 of 30
+3
+
+that a Humana member had an extreme reaction to a UAS allergy test. In April 2010,
+a Humana SIU Investigator created a post on the National Health Care Anti -Fraud
+Association (“NHCAA”) database where insurance companies share information
+about potentially fraudulent schemes. The post described the UAS business model
+and was viewed hundreds of times by other insurance companies. Eventually,
+Humana referred its concerns to the FBI and the Fraud Unit of the Texas Department
+of Insurance and began denying claims from PCPs working with UAS on pass -
+through billing grounds (that the PCP was not actually rendering the service).
+ In May 2013, a BCBSKS SIU employee attended a BCBS Association training
+academy where she learned about UAS from a BCBS Texas employee in a case-
+sharing session. BCBSKS also began investigating UAS’s services and billing
+practices in 2013 and 2014 and stopped paying claims from PCPs working with UAS
+based on medical necessity. BCBSLA also investigated whether the allergy services
+offered by PCPs contracting with UAS were medically necessary after the May 2013
+BCBS Association case sharing session. BCBSLA contracted with Defendant AllMed,
+an independent review organization, to review its medical necessity policy as well as
+its denials based on medical necessity. BCBSLA began denying claims submitted by
+PCPs relying on the UAS protocol in December 2013.
+ Plaintiffs allege that, because Defendants interfered with U AS-contracting
+PCPs, UAS was forced to leave several states, including Louisiana and Kansas, so
+patients’ access to allergy testing and immunotherapy has been reduced and
+Defendants now pay less in reimbursements for allergy care. In their Second
+Case 2:18-cv-00399-CJB-DPC   Document 481   Filed 11/27/23   Page 3 of 30
+4
+
+Amended C omplaint, Plaintiffs brought five claims against the health insurance
+companies named defendants here. (Rec. Doc. 145). Four of the claims have been
+litigated at the motion to dismiss or summary judgment stage:
+1. Count One: Sherman Act § 1 Violation (Contract, Combination, or Conspiracy
+in Restraint of Trade in Violation of Sherman Act, Section 1). On July 17, 2020,
+the Court granted Defendants’ motion to dismiss UAS’s claim under Section 1
+of the Sherman Act. (Rec. Doc. 195). However, on May 14, 2021, on Pla intiffs’
+motion for reconsideration, the Court found that Plaintiffs sufficiently alleged
+antitrust standing and reinstated the claim. (Rec. Doc. 217).
+2. Count Two: Sherman Act § 2 Violation against BCBSKS and BCBSLA (Willful
+Acquisition and Maintenance of a Monopoly in the Relevant Market for Private
+Health Insurance and Conspiracy to Monopolize the Relevant Market in
+Violation of the Sherman Act, Section 2). The Court granted Defendants’
+motion to dismiss this claim, finding that Plaintiffs did not allege any facts
+regarding the number of competitors and barriers to entry in the commercial
+health insurance market nor the number of claims for allergy testing and
+immunotherapy claims paid for by the insurers. (Rec. Doc. 195).
+3. Count Three: Tortious Interferen ce with Existing and Prospective Contracts
+and Business Relations, Civil Conspiracy and Aiding and Abetting against All
+Defendants. After Defendants filed motions for summary judgment on Count
+Three, Plaintiffs moved to voluntarily dismiss this claim. The Court dismissed
+the claim on July 14, 2023 in open court. (Rec. Doc. 407)
+Case 2:18-cv-00399-CJB-DPC   Document 481   Filed 11/27/23   Page 4 of 30
+5
+
+4. Count Four: Fraud, Civil Conspiracy to Commit Fraud, and Aiding and
+Abetting against BCBSLA and AllMed. The Court initially denied Defendants’
+motion to dismiss this claim, finding t hat Plaintiffs adequately alleged that
+BCBSLA and AllMed misrepresented that the review process was
+independent. (Rec. Doc. 195). However, the Court granted Defendants’ motion
+for partial summary judgment as to Count Four, finding that the claims had
+prescribed. (Rec. Doc. 303).
+5. Count Six 1: Declaratory Relief against All Defendants. Plaintiffs seek a
+declaration that Defendants’ efforts to exclude Plaintiffs violate federal law,
+specifically Medicare and Medicaid implementing regulations and federal laws
+(the Affordable Care Act) that prohi bits “discrimination against primary care
+physicians for providing services within the scope of their licensures and
+certifications.” (Rec. Doc. 145, at 67).
+ The instant motions concern Count One of Plaintiffs’ Second Amended
+Complaint, which alleges defendants violated § 1 of the Sherman Act. (Rec. Doc. 145).
+Specifically, Plaintiffs claim that Defendants combined and conspired amongst
+themselves and other competitors and third parties to restrict competition for allergy
+testing and immunotherapy services in certain local areas where patients travel for
+health care services, known as Core Based Statistical Areas (“CBSAs”), including
+CBSAs in Louisiana, Kansas, and other states. Id. at 56-57. Plaintiffs allege that, in
+furtherance of their conspiracy, Defendants engaged in a coordinated campaign to
+
+1 The fifth claim is labelled “Count Six,” for reasons that have not been revealed to the Court.
+Case 2:18-cv-00399-CJB-DPC   Document 481   Filed 11/27/23   Page 5 of 30
+6
+
+boycott UAS and drive it from the market by jointly refusing to pay for allergy skin
+testing or immunotherapy services in which UAS or UAS- contracting PCPs are
+involved by deciding that those services are not med ically necessary or constitute
+pass through billing. Id. at 57. Plaintiffs also claim that Defendants attempted to
+intimidate physicians not to do business with UAS and attempted to push
+governmental investigators into false investigations of UAS. Id. Plaintiffs allege that
+Defendants’ actions are an illegal boycott and price fixing scheme that eliminated and
+restricted Plaintiffs’ ability to market and provide allergy testing and
+immunotherapy services. Id. at 57-58.
+ On July 17, 2020, the Court granted D efendants’ motion to dismiss UAS’s
+claim under Section 1 of the Sherman Act. (Rec. Doc. 195). However, on May 14, 2021,
+on Plaintiffs’ motion for reconsideration, the Court found that Plaintiffs sufficiently
+pled antitrust standing and reinstated the Section 1 claim. (Rec. Doc. 217).
+ Defendants now seek summary judgment on Plaintiffs’ claims in Count 1,
+arguing that Plaintiffs lack evidence of a conspiracy between them. 2 In response,
+Plaintiffs argue that substantial evidence demonstrates each Defendant knowingly
+joined the conspiracy, that Defendants misstate binding precedent, and that
+Defendants’ explanations do not justify their conspiratorial conduct. (Rec. Doc. 464,
+at 8-9). In reply, Humana notes that Plaintiffs only provided evidence that could be
+consistent with both an alleged conspiracy and independent conduct, which is not
+enough to sustain an inference of conspiracy. (Rec. Doc. 475, at 4). BCBSKS notes
+
+2 Defendants have also moved for summary judgment on Count 1 arguing that UAS and AAAPC each
+lacks standing. (Rec. Docs. 444, 450).
+Case 2:18-cv-00399-CJB-DPC   Document 481   Filed 11/27/23   Page 6 of 30
+7
+
+that Plaintiffs were unable to point to any evidence at all that BCBSKS agreed with
+the other Defendants to boycott UAS. (Rec. Doc. 472, at 4). BCBSLA and Allmed reply
+that the communications on which Plaintiffs base their entire case are among anti -
+fraud professionals discussing suspected fraud, which is consistent with each insurer
+acting independently and does not support an inference of an unlawful boycott. (Rec.
+Doc. 468, at 1-2). They also reassert that state immunity statutes expressly authorize
+insurance companies to discuss suspected fraud with other insurance companies. Id.
+at 3-4.
+ The parties initially filed their motions, memoranda, and exhibits under seal.
+(Rec. Doc. 361). The Court then ordered they re -file public versions of the sealed
+documents with redactions of patient information. (Rec. Doc. 434). The Court held
+oral argument on the motions on September 21, 2023. (Rec. Docs. 437, 438).
+LEGAL STANDARD
+Summary judgment is appropriate when “the pleadings, the discovery and
+disclosure materials on file, and any affidavits show that there is no genuine issue as
+to any material fact and that the movant is entitled to judgment as a matter of law.”
+Celotex Corp. v. Catrett, 477 U.S. 317, 322 (1986) (citing FED. R. CIV. P. 56); see Little
+v. Liquid Air Corp. , 37 F.3d 1069, 1075 (5th Cir. 1994). When assessing whether a
+dispute as to any material fact exists, a court considers “all of the evidence in the
+record but refrains from making credibility determinations or weighing the evidence.”
+Delta & Pine Land Co. v. Nationwide Agribusiness Ins. Co.,  530 F.3d 395, 398 (5th
+Cir. 2008). All reasonable inferences are drawn in favor of the nonmoving party, but
+Case 2:18-cv-00399-CJB-DPC   Document 481   Filed 11/27/23   Page 7 of 30
+8
+
+a party can not defeat summary judgment with conclusory allegations or
+unsubstantiated assertions. Little , 37 F.3d at 1075. A court ultimately must be
+satisfied that “a reasonable jury could not return a verdict for the nonmoving party.”
+Delta, 530 F.3d at 399.
+ If the dispositive issue is one on which the moving party will bear the burden
+of proof at trial, the moving party “must come forward with evidence which would
+‘entitle it to a directed verdict if the evidence went uncontroverted at trial.’” Int’l
+Shortstop, Inc. v. Rally’s, Inc., 939 F.2d 1257, 1264-65 (5th Cir. 1991). The nonmoving
+party can then defeat the motion by either countering with sufficient evidence of its
+own, or “showing that the moving party’s evidence is so sheer that it may not
+persuade the reasonable fact-finder to return a verdict in favor of the moving party.”
+Id. at 1265.
+ If the dispositive issue is one on which the nonmoving party will bear the
+burden of proof at trial, the moving party may satisfy its burden by merely pointing
+out that the evidence in the record is insufficient with respect to an essential element
+of the nonmoving party’s claim. See Celotex, 477 U.S. at 325. The burden then shifts
+to the nonmoving party, who must, by submitting or referring to evidence, set out
+specific facts showing that a genuine issue exists. See id. at 324. The nonmovant may
+not rest upon the pleadings but must identify specific facts that establish a genuine
+issue for trial. See id. at 325; Little, 37 F.3d at 1075.
+
+Case 2:18-cv-00399-CJB-DPC   Document 481   Filed 11/27/23   Page 8 of 30
+9
+
+DISCUSSION
+ In general, summary judgment requires inferences to be drawn from the
+underlying facts to be viewed in the light most favorable to the nonmovant. However,
+to survive summary judgment in an antitrust case, “a plaintiff seeking damages for
+a violation of § 1 must present evidence that ‘tends to exclude the possibility’ that the
+alleged conspirators acted independently.” Matsushita Elec. Indus. Co. v.  Zenith
+Radio Corp. , 475 U.S. 574, 588 (1986) (quoting Monsanto Co. v. Spray -Rite Serv.
+Corp., 465 U.S. 752, 768 (1984)).  The Supreme Court has “emphasized that courts
+should not permit factfinders to infer conspiracies when such inferences are
+implausible, because the effect of such practices is often to deter procompetitive
+conduct,” such as cutting prices to increase business. Matsushita, 475 U.S. at 593-
+594. Courts should also avoid drawing inferences to “support a claim that makes no
+economic sense,” because “[r]ational economic actors do not ordinarily conspire to
+injure themselves.” Spectators’ Communs. Network Inc. v. Colonial Country Club, 253
+F.3d 215, 219-20 (5th Cir. 2001) (citing Matsushita, 475 U.S. at 587).
+ Section 1 of the Sherman Antitrust Act states: “Every contract, combination in
+the form of trust or otherwise, or conspiracy, in restraint of trade or commerce among
+the several states, or with foreign nations, is declared to be illegal.” 15 U.S.C. § 1.  A
+claim under Section 1 of the Sherman Act requires proof of three elements: (1) that
+the defendant “engaged in a conspiracy (2) th at restrained trade (3) in a particular
+market.” Id. at 220. “It is well-established that only unreasonable restraints on trade
+actually violate the Sherman Act.” MM Steel, L.P. v. JSW Steel (USA) Inc., 806 F.3d
+Case 2:18-cv-00399-CJB-DPC   Document 481   Filed 11/27/23   Page 9 of 30
+10
+
+835, 848 (5th Cir. 2015) (citing NYNEX Corp. v. Discon, Inc., 525 U.S. 128, 133, 119
+S.Ct. 493, 142 L.Ed.2d 510 (1998).3
+ The instant motions contend that Plaintiffs cannot meet their burden on the
+first element of their claim: that Defendants engaged in a conspiracy. A conspiracy
+requires “direct or circumstantial evidence that reasonably tends to prove” that the
+conspirators had a “conscious commitment to a common scheme designed to achieve
+an unlawful objective.” Monsanto, 465 U.S. at 768. For the conspiracy element, “ the
+crucial question is whether the challenged anticompetitive conduct stems from
+independent decision or from an agreement , tacit or express .” Bell Atlantic Corp. v.
+Twombly, 550 U.S. 544,  553 (2007) (internal quotations omitted).  Mere exchange of
+information, or even consciously parallel action, is insufficient to establish a
+conspiracy under § 1. Consol. Metal Prods., Inc. v. Am. Petroleum Inst., 846 F.2d 284,
+294 n. 30 (5th Cir.  1988). “The mere showing of relationships between alleged
+conspirators” is also insufficient to imply a conspiracy. Id. Thus, a plaintiff “must
+show that there was a s ingle plan, the essential nature and general scope of which
+
+3 To determine whether a restraint is unreasonable, courts use either the “rule of reason” or the “per
+se rule.” MM Steel, 806 F. 3d at 848. Most agreements are analyzed under the rule of reason, which
+takes into account a variety of factors including information about the business , its condition before
+and after restraint was imposed, and the restraint’s history, nature, and effect. Id. Other agreements,
+such as group boycotts involving a horizontal conspiracy to foreclose a market participant, have a
+pernicious effect on competition and lack any redeeming value, so they are “conclusively presumed to
+be unreasonable and therefore illegal without elaborate inquiry as to the precise harm they have
+caused or the business excuse for their use. Id.  (citing United States v. Gen. Motors Co rp., 384 U.S.
+127, 146 (1966)).
+
+Plaintiffs have filed a motion for summary judgment requesting that the Court use a per se rule
+because they argue Defendants conduct meets the definition of a group boycott that is per se illegal.
+(Rec. Doc. 452). Because Plaintiffs’ motion is predicated on the assumption that a conspiracy will be
+proven, the Court must resolve the instant motions (whether a conspiracy existed) before determining
+which rule is appropriate to analyze the alleged conspiracy.
+Case 2:18-cv-00399-CJB-DPC   Document 481   Filed 11/27/23   Page 10 of 30
+11
+
+was known to those responsible for its implementation.” Id. (internal citation
+omitted). A plaintiff can satisfy this element using either direct or circumstantial
+evidence. Golden Bridge Tech., Inc. v. Motorola Inc., 547 F.3d 266, 271 (5th Cir. 2008).
+I. Plaintiffs’ Purported Direct Evidence
+ In this case, Plaintiffs argue that they have presented direct evidence of a
+conspiracy between the Defendants; (Rec. Doc. 464, at 33); and Defendants c ontend
+that none of the evidence Plaintiffs cite is direct evidence of a conspiracy; (Rec. Docs.
+475, at 6; 472, at 4; 468, at 5).  “Direct evidence explicitly refers to an understanding
+between the alleged conspirators, while circumstantial evidence requir es additional
+inferences in order to support a conspiracy claim.”  Golden Bridge Tech., F.3d at 271
+(internal citation omitted). “Independent parallel conduct, or even conduct among
+competitors that is consciously parallel, does not alone establish the cont ract,
+combination, or conspiracy required by § 1. ” Id. Instead, direct evidence of a
+conspiracy “explicitly refer[s] to an understanding” between the alleged conspirators.
+Viazis v. Am. Ass'n of Orthodontists, 314 F.3d 758, 762 (5th Cir. 2002) (citing
+Southway Theatres, Inc. v. Ga. Theatre Co. , 672 F.2d 485, 493 n. 8 (5th Cir.1982).
+Direct evidence cannot be ambiguous and is “tantamount to an acknowledgment of
+guilt.” In re Pool Prod. , 158 F. Supp. 3d at  551 (quoting Hyland v. HomeServices of
+Am., Inc., 771 F.3d 310, 318 (6th Cir. 2014)).
+ Plaintiffs claim that Defendants formed a conspiracy after a May 22, 2013
+meeting in Michigan where BCBS Texas investigators communicated to the other
+“Blues,” including BCBSKS and BCBSLA, their suggestion to deny all c laims
+Case 2:18-cv-00399-CJB-DPC   Document 481   Filed 11/27/23   Page 11 of 30
+12
+
+associated with UAS. (Rec. Doc. 464, at 28). Plaintiffs allege that the following
+contemporaneous communications and actions are references to an understanding
+between the parties, and are thus direct evidence of Defendants’ alleged conspiracy:
+1. Notes from a July 25, 2014 phone call  between a Humana representative ,
+Christa Jewsbury,  and a  BCBSLA representative, Latisha Mire. The notes
+state that Ms. Mire said that BCBSLA was “denying everything” related to
+UAS and that BCBSLA “confirmed that all the o ther private plans she has
+talked to (all the big ones) confirmed they are denying for mostly pass through
+billing / services not rendered – only some med nec.” (Rec. Doc. 464-123, at 4).
+2. A July 25, 2014 email from Ms. Mire  to representatives from Humana  and
+other insurers, including BCBSKS, where Ms. Mire asked if other insurance
+companies were denying claims of physicians working with UAS.  (Rec. Doc.
+464-115). The email states that, the following week, BCBSLA would attend a
+meeting with UAS and state regu lators because UAS had asserted that
+BCBSLA was the only plan not paying for UAS’s allergy services, so Ms. Mire
+was trying to determine the accuracy of this statement. Id. Five insurers later
+responded, confirming that they had stopped or reduced payments for UAS’s
+services. (Rec. Doc. 464, at 37).
+3. Instances of BCBSKS representatives reaching out to other insurers to discuss
+UAS-related claims. A January 27, 2014, an email between two BCBSKS
+employees states that one employee visited with another insurance company
+regarding UAS, Coventry, and Coventry’s representative “expressed concerns
+Case 2:18-cv-00399-CJB-DPC   Document 481   Filed 11/27/23   Page 12 of 30
+13
+
+about non specialists providing ‘specialty’ care.” (Rec. Doc. 262-92, at 1). In an
+April 9, 2014 email, a BCBSKS employee requested permission to discuss UAS
+during an in-person meeting with other insurers regarding health care fraud.
+(Rec. Doc. 464-111). In an October 8, 2015 email, a BCBSKS employee reached
+out to BCBS Kansas City to ask if they were familiar with UAS and noting
+that BCBSKS was watching the UAS billing codes that a Kansas City provider
+was entering. (Rec. Doc. 464 -124). The BCBS Kansas City representative
+responded that she would take a fresh look at the billing. Id.  BCBSKS later
+stated in an e mail to a provider that it would not contract with UAS due to
+fraud, waste, and abuse issues in other states (Rec. Doc. 464-137).
+4. The post Humana shared within the confines of a closed National Health Care
+Anti-Fraud Association (“NHCAA”) forum, which was viewed by hundreds of
+representatives from other insurance companies. (Rec. Doc. 464-61). The post
+states that “providers in several states have been identified by a billing spike”
+associated with physicians contracting with UAS. Id. at 2. The post notes that
+Humana’s coverage policy excludes injections administered by the patient at
+home. Id.  Several insurers then contacted Humana after viewing this post to
+learn how Humana was handling UAS -related claims. (Rec. Doc. 464 , at 36).
+Plaintiffs state, without citation, that “(1) the NHCAA itself disputes that this
+communication was “routine and legitimate”; (2) these conspiratorial actions
+would not have been taken unless they were for the Insurer Defendants’ “own
+Case 2:18-cv-00399-CJB-DPC   Document 481   Filed 11/27/23   Page 13 of 30
+14
+
+interests”; and (3) government actors were not present and their presence does
+not immunize conspiratorial actions anyway.” Id. at 37.
+5. Internal documents from a non- party (Highmark BCBS) stating that, “If one
+of the goals is to ‘shut -down’ UAS, how will that most efficiently be done?
+Partnering with other Blue Plans? What is their strategy?” (Rec. Doc. 464-80,
+at 3). Highmark also created an internal spreadsheet listing the reasons other
+insurance plans, including Defendants, were providing for refusing UAS
+claims. The spreadsheet states that BCBSLA was denying on medical
+necessity, BCBSKS was denying pass through billing, and Humana was not
+paying in any state. (Rec. Doc. 464-81).
+ Plaintiffs argue that the evidence listed above constitutes direct evidence,
+rather than circumstantial evidence,  and that Defendants misconstrue the legal
+standard for direct evidence as “an express written agreement.” (Rec. Doc. 464, at 34).
+Plaintiffs cite to the Fifth Circuit’s reversal of summary judgment in Tunica Web
+Advertising v. Tunica Casino Operators Asso ciation because the district court failed
+to credit references to a “gentleman’s agreement,” which was “direct evidence” of an
+agreement. 496 F.3d 403, 410 -411 (5th Cir. 2007) .  However, the Tunica court also
+based that reversal on other emails demonstrating meetings among the conspirators,
+such as a meeting where the conspirators “reaffirmed their boycott” and “again
+decided to refuse to advertise on” the plaintiff’s website. Id. Plaintiffs argue that the
+holding in Tunica demonstrates that emails reaffirming a previous refusal to deal
+Case 2:18-cv-00399-CJB-DPC   Document 481   Filed 11/27/23   Page 14 of 30
+15
+
+with a segment of the market are direct evidence of an agreement in this case. (Rec.
+Doc. 464, at 35).
+ Plaintiffs also cite to Monsanto Co. v. Spray -Rite Service Corp. , in which the
+Supreme Court held that direct evidence of an agreement included “communications
+among conspirators to refuse to deal followed by that very refusal, and did not include
+any express admission of an agreement.” 465 U.S. at 756- 66. In Monsanto , direct
+evidence of an antitrust conspiracy included testimony that Monsanto approached its
+distributors and advised that they should maintain Monsanto’s suggested price, or
+else the distributors would not receive adequate supplies of Monsanto’s herbicide. Id.
+at 765. When a distributor did not assent, this info rmation was referred to the
+Monsanto regional office, which complained to the distributor’s parent company, and
+the parent company would instruct its subsidiary to comply. Id. The subsidiary
+distributor then informed Monsanto it would charge the price Mons anto suggested,
+and the Court found that “evidence of this kind plainly is relevant and persuasive as
+to a meeting of minds.” Id. Another example of direct evidence of a conspiracy in that
+case was a newsletter from a distributor to his customers after a m eeting with
+Monsanto officials, discussing Monsanto’s efforts to “get the market place in order,”
+“every effort will be made to maintain a minimum market price level,” and that
+“harmony can only come from following the rules of the game and that in case of
+dispute, the decision of the umpire is final.” Id. at 765-766. The Court found that this
+newsletter referred to an agreement or understanding or “rules of the game:” that
+distributors and retailers would maintain prices, Monsanto would not undercut those
+Case 2:18-cv-00399-CJB-DPC   Document 481   Filed 11/27/23   Page 15 of 30
+16
+
+prices at retail, and Monsanto would terminate competitors who sold at lower prices.
+Id. at 766.
+ Unlike the evidence in Monsanto and Tunica, which implicitly reference an
+agreement between the alleged conspirators, none of the evidence Plaintiffs cite to
+here refers, implicitly or explicitly, to an agreement between Defendants. Instead, the
+evidence shows that Defendants researched and investigated potential fraud by
+inquiring as to other companies’ policies as to UAS. None of the insurance companies
+recommended that any other company follow a specific policy, and none of the
+evidence shows Defendants referencing an effort to align the companies’ policies with
+each other.
+ Plaintiffs also note that, in another case involving the same plaintiffs, the
+Western District of Texas found that the defendants in that case had an unduly
+narrow view of what constitutes direct evidence, because the defendants argued that
+the evidence did not reference an express agreement to institute a policy. Acad. of
+Allergy & Asthma in Primary Care, 2022 WL 18076843 at *15. In that case, the court
+stated that evidence can “directly support an antitrust conspiracy even if it does not
+precisely lay out all the details of the agreement.” Id. (citing Tunica, 496. F.3d at
+410). However, the Fifth Circuit requires that direct evi dence of an antitrust
+conspiracy must “explicitly refer to an understanding between the alleged
+conspirators;” Golden Bridge Tech. , F.3d at 271; not simply “directly support an
+antitrust conspiracy;” Allergy & Asthma in Primary Care, 2022 WL 18076843 at *15.
+Considering that the evidence in this case neither references an agreement nor lays
+Case 2:18-cv-00399-CJB-DPC   Document 481   Filed 11/27/23   Page 16 of 30
+17
+
+out the details of an agreement, the Court finds that none of the evidence in this case
+rises to the level of evidence that directly supports an antitrust conspiracy, wi thout
+requiring additional inferences. Again, direct evidence cannot be ambiguous, and
+even conduct among competitors that is consciously parallel does not establish the
+conspiracy required for a § 1 claim. Golden Bridge Tech., F.3d at 271.
+ None of the evidence in this case unambiguously or explicitly refers to an
+understanding between Defendants, nor is it tantamount to an acknowledgment of
+guilt. First, the emails between BCBSLA and BCBSKS do not reference any
+agreement between the companies, and instead state that BCBSLA was contacting
+the other defendant in advance of its meeting with the Louisiana Commissioner of
+Insurance and UAS to verify the truthfulness of UAS’s representation to the
+Commissioner that BCBSLA was the only health insurer not paying  UAS claims.
+(Rec. Doc. 464-115). This email and subsequent notes from a phone call between the
+parties do not demonstrate that the companies agreed to boycott UAS. 4 Plaintiffs
+attempt to frame the emails as verifying a pre -existing agreement, but this framing
+is contrary to the language in the email itself and to the stated purpose for the email.
+If this stated purpose was pretextual, the inferences required would take this
+evidence out of the scope of the definition of direct evidence.
+
+4 BCBSKS also argues that Plaintiffs lack evidence that a person who had authority to bind BCBSKS
+communicated with any alleged co-conspirator at any time about UAS. (Rec. Doc. 449-1, at 18-19 n. 3)
+(citing Pan-Islamic Trade Corp. v. Exxon Corp. , 632 F.2d 539, 561 (5th C ir. 1980); In re Baby Food
+Antitrust Litig., 166 F.3d 112, 125 (3d Cir. 1999)). “[I]t is appropriate to require that, before the acts
+of [a party’s] employees . . . subject them to the possibility of antitrust treble damages, those acts be
+authorized by the corporation.” Pan-Islamic Trade Corp., 632 F.2d at 561. The communications here
+are not between employees with authority to bind Defendants, and Plaintiffs failed to respond to this
+argument.
+Case 2:18-cv-00399-CJB-DPC   Document 481   Filed 11/27/23   Page 17 of 30
+18
+
+ Next, Plaintiffs argue that direct evidence of a conspiracy exists because
+BCBSKS reached out to other insurance companies (Coventry and BCBS Kansas
+City) to discuss why UAS claims “should be denied, without prompting.” (Rec. Doc.
+464, at 36). Again, Plaintiffs have misrep resented the text of the emails in their
+memorandum. Instead, the emails show that BCBSKS employees spoke with
+employees at other insurance companies about what procedures those companies
+were following for UAS claims. BCBSKS employees did not ask why UAS claims
+should be denied. These emails do not reference an understanding explicitly or
+implicitly and are not direct evidence of an agreement.
+ Plaintiffs also argue that Humana’s 2010 post to the NHCAA  forum is direct
+evidence that Defendants participated in the alleged conspiracy, because the post was
+“dissemination of misinformation. . . targeting, identifying, and denying UAS-related
+claims.” (Rec. Doc. 464, at 36). Plaintiffs argue that this post an d the subsequent
+actions of other insurance companies to contact Humana require no further inference
+to show a conspiracy. Id.  Plaintiffs state, without citation to the record, that the
+NHCAA disputes that this post was routine and legitimate. Id. at 37. To Plaintiffs,
+“it is difficult to understand how a communication to other insurers (including
+Humana’s competitors) about UAS, which prompted said insurers to contact Humana
+about its denial of UAS- related claims, amounts to ‘acting independently.’” Id.
+However, to the Court, it is not difficult to understand that this post to a closed
+healthcare fraud forum was a unilateral act on Humana’s part, and other insurers’
+decisions to respond to the post were also independent acts. Humana also posted this
+Case 2:18-cv-00399-CJB-DPC   Document 481   Filed 11/27/23   Page 18 of 30
+19
+
+message three years before the alleged conspiracy began in 2013, and there is no
+evidence to support UAS’s conclusory statements that the post was “misinformation”
+or not otherwise legitimate. Furthermore, the post does not reference an agreement
+or support an an titrust conspiracy without additional inferences. Therefore, the
+Court concludes that Humana’s 2010 post to the NHCAA forum is not direct evidence
+of an antitrust conspiracy.
+ Finally, the internal spreadsheet document from non-party Highmark does not
+contain direct evidence of the alleged conspiracy. The document itself does not
+reference any agreement, and the author of these documents , Susan Collare,  was
+clear in her deposition that Highmark never entered into an agreement with Humana
+(or anyone else) related to UAS. (Collare Deposition; Rec. Doc. 469-42, at 10-11) (“The
+only thing that we do with the other plans is we talk about the billing patterns we’re
+seeing, and that’s it. But we – we would never partner with another plan as far as
+addressing an issue that we found. Highmark does its own independent investigation,
+and any recommendations that we make are based on our findings, our findings only.
+. . We would not have been partnering with other plans to create policy.”).
+ In sum, none of the evidence  on which Plaintiffs rely directly establishes,
+without additional inferences, that Defendants agreed to or engaged in a conspiracy
+to boycott UAS. Accordingly, the Court considers the foregoing evidence among the
+totality of the circumstantial evidence Plaintiffs present.
+
+Case 2:18-cv-00399-CJB-DPC   Document 481   Filed 11/27/23   Page 19 of 30
+20
+
+II. Circumstantial Evidence and Plus Factors
+  Without direct evidence of an unlawful conspiracy, the Court must consider
+Plaintiffs’ claim under the stricter standard required for Section 1 claims based on
+circumstantial evidence: whether the evidence in the record tends to exclude the
+possibility that Defendants acted independently. See Matsushita, 475 U.S. at 587–88.
+ An antitrust plaintiff relying on circumstantial evidence of a conspiracy must
+present evidence that “tend[s] to rule out the possibility that the defendants were
+acting independently.” Twombly, 550 U.S. at 554; Matsushita, 475 U.S. at 587– 88.
+Such circumstantial evidence must be strong, however, because “antitrust law limits
+the range of permissible inferences from ambiguous evidence in a § 1 case.”
+Matsushita, 475 U.S. at 588. Indeed, although the agreement need not be proved
+directly, the plaintiff must show that there was
+a single plan, the essential nature and general scope of which is known
+to each person who is to be held responsible for its consequences.
+Repetitive or parallel transactions may establish the existence of such a
+joint venture, but isolated instances, explicable without reference to a
+continuing or broader program, may not.
+
+H & B Equip. Co. v. Int'l Harvester Co. , 577 F.2d 239, 245 (5th Cir. 1978)  (quoting
+Hoffman-La Roche, Inc. v. Greenberg, 447 F.2d 872, 875 (7th Cir. 1971)). The evidence
+must warrant a finding that the alleged co-conspirators had a “meeting of the minds
+in an unlawful arrangement.” Id. (citing American Tobacco Co. v. United States, 328
+U.S. 781, 810 (1946)).
+ As the Court explained previously, “ independent parallel conduct, or even
+conduct among competitors that is consciously parallel, does not alone establish  the
+Case 2:18-cv-00399-CJB-DPC   Document 481   Filed 11/27/23   Page 20 of 30
+21
+
+contract, combination, or conspiracy required by § 1.” Golden Bridge, 547 F.3d at 271.
+“Neither will conduct that is consistent with other, equal ly plausible explanations
+give rise to an inference of conspiracy.” In re Pool Prod. Distribution Mkt. Antitrust
+Litig., 158 F. Supp. 3d 544, 551 (E.D. La. 2016)  (J. Vance) (quoting Stewart Glass &
+Mirror, Inc. v. U.S. Auto Glass Disc. Centers, Inc., 200 F .3d 307, 315 (5th Cir.2000) )
+(internal quotation marks omitted); see also Southway Theatres, Inc. v. Ga. Theatre
+Co., 672 F.2d 485, 494 (5th Cir.  1982) (“[T]he inference of a conspiracy is always
+unreasonable when it is based solely on parallel behavior th at can be explained as
+the result of the [defendants’] independent business judgment ....”).
+ So, if an antitrust plaintiff relies solely on circumstantial evidence of an alleged
+conspiracy, the plaintiff must establish both conduct among competitors that is
+consciously parallel and certain “plus factors .” In re Pool Prod. , 158 F. Supp. 3d at
+551 (citing Royal Drug Co., Inc. v. Grp. Life & Health Ins. Co. , 737 F.2d 1433, 1437
+(5th Cir. 1984)). The “plus factors” ensure that courts punish concerted action a nd
+actual agreements rather than unilateral, independent conduct of competitors. Id.
+(citing In re Flat Glass Antitrust Litig. , 385 F.3d 350, 360 (3d Cir.  2004)). “There is
+no exhaustive list of “plus factors” in the Fifth Circuit, but courts have consider ed
+factors including
+(1) actions that would be against the defendants' self- interest if the
+defendants were acting independently, but consistent with their self -
+interest if they were acting in concert; (2) a motive to conspire; (3)
+opportunities to conspire; (4) market concentration and structure
+conducive to collusion; (5) pretextual explanations for anticompetitive
+conduct; (6) sharing of pricing information; (7) signaling among
+competitors; (8) and other traditional facts suggestive of conspiracy.
+
+Case 2:18-cv-00399-CJB-DPC   Document 481   Filed 11/27/23   Page 21 of 30
+22
+
+Acad. of Allergy & Asthma in Primary Care et al. v. Superior Healthplan, Inc., et al.,
+No. SA-17-CA-1122-FB, 2022 WL 18076843, at *13 (W.D. Tex. July 14, 2022), report
+and recommendation adopted sub nom. Acad. of Allergy & Asthma in Prim ary Care
+v. Superior Healthplan, Inc., No. CVSA17CA1122FBHJB, 2022 WL 18034365 (W.D.
+Tex. Oct. 18, 2022) (citing JSW Steel (USA) Inc. v. Nucor Corp. , No. 4:21-CV-01842,
+2022 WL 489321, at *7 (S.D. Tex. Feb. 17, 2022) ); ABA SECTION OF ANTITRUST
+LAW, Proof of Conspiracy Under Federal Antitrust Laws 69 –91 (2010)). In sum, an
+antitrust plaintiff will survive summary judgment only if “the inference of conspiracy
+is reasonable in light of competing inferences of independent action or collusive action
+that could n ot have harmed the plaintiff.” Tunica , 496 F.3d at 409 (quoting
+Matsushita, 475 U.S. at 588).
+ Without any direct evidence of an unlawful conspiracy, the Court must
+examine the circumstantial evidence in the vast record in this case to determine
+whether Defendants engaged in consciously parallel conduct and whether any plus
+factors suggest a group boycott among Defendants. Defendants argue that Plaintiffs
+have no such evidence. (Rec. Docs. 443-1, at 16; 449-1, at 19; 447-1, at 20). Plaintiffs
+state that “this is not a case where Defendants merely engaged in parallel conduct.
+There is direct evidence that the co -conspirators spread misinformation to convince
+other insurers to target UAS and deny UAS- related claims.” (Rec. Doc. 464, at 47).
+Plaintiffs go on: “Across the board, the Insurer Defendants and their co-conspirators
+did not begin to identify UAS -contracting physicians or implement a ‘policy’ to deny
+Case 2:18-cv-00399-CJB-DPC   Document 481   Filed 11/27/23   Page 22 of 30
+23
+
+UAS-related claims until they were solicited by a fellow conspirator.” Id.  (emphasis
+in original).
+ The Court reiterates that there is no direct evidence that Defendants engaged
+in a conspiracy or unlawful, anticompetitive agreement in this case. Plaintiffs
+contend that Defendants’ exchange of information, which Plaintiffs call
+“misinformation to shut down U AS,” is circumstantial evidence of their conspiracy.
+(Rec. Doc. 464, at 44). That evidence includes the same May 2014 internal document
+from non-party Highmark, which Plaintiffs argue shows a goal to shut down UAS in
+the context of partnering with other in surers that it talked to, and those
+communications implicate each Defendant. Id. at 31. That document, which appears
+to be an internal memo or notes, states, in relevant part, “If one of the goals is to shut
+down UAS, how will that most efficiently be done?” (Rec. Doc. 464-80, at 3) (emphasis
+added). Whether or not shutting down UAS was Highmark’s goal is posed as a
+question, and Highmark’s record of this question does not tend to prove that
+Defendants (remember, Highmark is not a defendant) had a conscious  commitment
+to a common scheme designed to achieve an unlawful objective. Again, the author of
+this document testified that no agreement existed, and she never discussed shutting
+down UAS with Defendants. Further, if Highmark was a part of the alleged
+conspiracy, it is not clear to the Court why Plaintiffs did not include them as a
+defendant in the instant matter.
+ Next, as to the communications between Defendants, Plaintiffs seem to argue
+that Defendants’ exchange of information is circumstantial evidence  of a conspiracy
+Case 2:18-cv-00399-CJB-DPC   Document 481   Filed 11/27/23   Page 23 of 30
+24
+
+to boycott UAS. Plaintiffs state that “longstanding caselaw is clear that when
+competitors directly communicate about refusals to deal and then themselves directly
+take action consistent with those communications, the communications are sufficient
+evidence of an agreement to do so.” (Rec. Doc. 464, at 44). However, longstanding
+caselaw does not establish this rule; instead, both gathering information and an
+agreement are required. In 1925, the Supreme Court noted that “i t was not the
+purpose or the intent of the Sherman Anti -Trust Law to inhibit the intelligent
+conduct of business operations.” Maple Flooring Mfrs. Ass'n v. United States, 268 U.S.
+563, 583 (1925). In fact, when information is gathered and disseminated among
+members of a trade or business as “the basis of an agreement or concerted action to
+lessen production arbitrarily or to raise prices beyond the. . . price which would
+prevail if no such agreement or concerted action ensued,” that “concerted action
+constitutes a restraint of  commerce and is illegal.” Id. at 585-86. More recently, the
+Fifth Circuit has clarified that mere showing of relationships between alleged
+conspirators and consciously parallel action is insufficient to establish a conspiracy.
+Consol. Metal Prods. , 846 F.2d at  294 n. 30 . Instead, the evidence must show that
+there was an actual agreement. Id.
+ Plaintiffs’ evidence demonstrates a relationship between Defendants and
+conduct that is somewhat parallel: researching UAS and developing policies for UAS
+claims. However, even viewing the evidence in the light most favorable to Plaintiffs,
+the evidence that Defendants independently created policies for dealing with UAS
+and shared information about those policies does not reasonably tend to prove that
+Case 2:18-cv-00399-CJB-DPC   Document 481   Filed 11/27/23   Page 24 of 30
+25
+
+Defendants had an agreement to boycott UAS. Plaintiffs frame the timeline of the
+conspiracy as starting in 2010, when  Humana and BCBS Texas 5 made complaints
+about UAS to “any government agency they could find;” however, Plaintiffs only cite
+to emails by BCBS Texas reporting UAS to the Texas Department of Insurance (Rec.
+Doc. 464, at 12). Then, after Humana’s NHCAA post i n May 2013, BCBS Texas
+contacted Humana to “learn more about how Humana was treating UAS -related
+claims.” Id. at 13.
+ Also in  May 2013, the BCBS Association hosted an investigator training
+session, and Plaintiffs allege that, there, BCBS Texas “encourage[d] the other
+insurance investigators to investigate UAS and target its PCP customers.” Id.  As
+evidence that BCBS “encouraged” this behavior, Plain tiffs cite an email exchange
+between BCBSKS employees recounting the case sharing portion of the training
+session, stating that “investigators from Texas started telling us about this entity
+called United Allergy.” (Rec. Doc. 464-28). The email goes on to explain the UAS
+business model (always billing for 300 units and the 95165 code even when the
+physician is not involved in the actual preparation of the antigens) and states that
+“there are questions about the mixing of antigens and whether they are diluted, safe
+or effective. Most of the 175 patient interviews done by Texas revealed the patients
+never completed their year of injections…” Id.  Despite Plaintiffs’ representation of
+this evidence, this email exchange does not show that the BCBS Texas investigator
+
+5 BCBS Texas, like Highmark, was not made a party to this case, despite Plaintiffs’ claims that it
+also participated in the instant anticompetitive conspiracy.
+Case 2:18-cv-00399-CJB-DPC   Document 481   Filed 11/27/23   Page 25 of 30
+26
+
+“encouraged” other companies to investigate UAS. The Court finds that it is not
+circumstantial evidence of any type of agreement.
+ Next, Plaintiffs state that, at a July 2013 meeting between BCBSLA
+representatives and BCBS Texas representatives, BCBS Texas informed BCBSLA
+how to identify UAS- contracting PCPs, that BCBS Texas previously used
+administrative denial of claims but was now capping the number of units at 100, and
+that Humana was denying UAS claims based on pass through billing. (Rec. Doc. 464,
+at 14 -15). After the meeting, Plaintiffs assert that BCBSLA “changed its
+reimbursement policy to copy BCBS Texas’ restrictions, while internally seeking
+alternative paths to eliminate reimbursements altogether. ” Id. at 15. Plaintiffs cite
+to an internal BCBSLA email stating that, after visiting BCBS Texas, BCBSLA’s
+Medical Director believes that “100 units is too many” and that “our goal should be
+to deny all claims from [UAS].” (Rec. Doc. 464 -47, at 2). Again, this email exchange
+does not tend to prove that Defendants committed to a single plan. Instead, even
+viewing this email in the light most favorable to Plaintiffs, this email exchange
+demonstrates that BCBSLA employed a different, independent course of action from
+BCBS Texas: denying all claims, rather than capping the number of units.
+ Plaintiffs also state that BCBSLA “repeatedly contacted other payors to
+coordinate efforts relating t o UAS.” (Rec. Doc. 464, at 15). They cite to an
+investigation log where a BCBSLA investigator documented speaking with
+representatives from BCBS Texas, who informed her that the FBI and US Attorney’s
+Office was working on this case. (Rec. Doc. 464-50). The investigator also spoke to an
+Case 2:18-cv-00399-CJB-DPC   Document 481   Filed 11/27/23   Page 26 of 30
+27
+
+investigator at BCBSKS who “verified that they are rejecting [UAS] claims as no pass
+through.” Id. Plaintiffs also cite to an internal email between BCBSLA employees,
+with meeting minutes attached. (Rec. Doc. 464-51). The meeting minutes do not refer
+to UAS, but Plaintiffs state that they “contain[] numerous strongly suggestive
+references.” (Rec. Doc. 464, at 15 n. 6). The Court disagrees. None of this evidence
+suggests or references that there was a single plan or agreement between Defendants
+or that BCBSLA tried to “coordinate” efforts. Instead, at most, this evidence simply
+shows that BCBSLA exchanged information, which, without more, is insufficient to
+establish a § 1 conspiracy.
+ Plaintiffs also point to Humana’s NHCAA po st, stating that “the NHCAA
+concedes this post likely violated its antitrust and information -sharing guidelines,”
+citing to deposition testimony (Rec. Doc. 464, at 16). The cited deposition testimony
+from NHCAA representative Louis Saccoccio states:
+A: Yeah, I mean, obviously -- well, to the extent that they're talking
+about whether to deny claims or not, that would probably be something
+that we would not on one of our conference calls want them to talk about.
+Q: And the -- the reason being is because you have certain guidelines as
+an association that you follow?
+A: Yes.
+
+(Saccoccio Dep., Rec. Doc. 464 -60, at 22). Although this testimony indicates that
+insurance companies discussing whether to deny claims “would probably” violate the
+NHCAA’s guidelines, Saccoccio’s testimony does not actually state that Humana’s
+post violated the NHCAA’s antitrust and information -sharing guidelines. More
+importantly, the testimony also does not show that there was a plan to boycott UAS.
+Case 2:18-cv-00399-CJB-DPC   Document 481   Filed 11/27/23   Page 27 of 30
+28
+
+ Plaintiffs emphasize other similar communications, including BCBSLA’s vice-
+president’s presentation to a group of insurers on various schemes during a private
+Healthcare Fraud Prevention Partnership committee meeting. (Rec. Doc. 464, at 17).
+That presentation included UAS-related claims and stated the insurance companies’
+total exposure and potential recovery. Id.  Plaintiffs also note other occasions when
+Humana discussed UAS at a Midwest Anti-Fraud Insurance Association meeting for
+the purpose of receiving “input from other carriers if they are running into the same
+issue and how they might be handling.” Id. at 18.  Again, merely exchanging
+information is insufficient to establish a conspiracy, and none of this evidence
+demonstrates that the co-conspirators agreed to a plan to boycott UAS.
+ Plaintiffs also note that Defendants each began denying UAS -related claims
+and told PCPs that they would no longer be reimbursed for allergy care. Id. at 19-21.
+Although these denials occurred around the same years in 2013 and 2014, none of the
+evidence Plaintiffs provide regarding these companies’ decisions to deny claims
+reasonably tends to prove that Defendants formed an agreement to boycott UAS.
+Instead, the evidence provided demonstrates that each Defendant’s conduct stemmed
+from independent decisions based on extensive investigation and research, rather
+than a tacit agreement between Defendants. Furthermore, the evidence indicates
+that Defendants’ investigations spanned different periods, included different
+concerns, and re sulted in different policies unique to each insurance company.
+Plaintiffs present no evidence that there was a single plan, the essential nature and
+scope of which was known to each Defendant in this case. Instead, Plaintiffs present
+Case 2:18-cv-00399-CJB-DPC   Document 481   Filed 11/27/23   Page 28 of 30
+29
+
+isolated business decisions that are explicable without reference to a broader program
+aimed at eliminating UAS from business. Accordingly, the Court finds that the
+evidence that Plaintiffs characterize as circumstantial evidence does not warrant a
+finding that Defendants had a  meeting of the minds in an unlawful anticompetitive
+arrangement. See H & B Equip. Co., 577 F.2d at 245.
+ Even if there was circumstantial evidence of consciously parallel conduct, none
+of the “plus factors” that may be relevant in this case weigh in favor of a finding that
+Defendants engaged in a conspiracy. First, none of Defendants’ actions would be
+against their self-interests if they were acting independently. Investigating unusual
+billing patterns, seeking to keep costs low, investigating potential fraud, and denying
+claims are all within health insurance companies’ business interests. Second, there
+is no indication that Defendants had a motive to conspire with other health insurance
+companies to deny UAS- related claims; each company employs investigat ors to
+research potential fraud and denies claims not covered under their contracts. Third,
+even construing the evidence in the light most favorable to Plaintiffs, none of the
+evidence supports a finding that Defendants’ investigations and denials of UAS-
+related claims were pretextual. The record in this case shows that Defendants and
+other government actors were concerned about fraud, waste, abuse, pass -through
+billing, and medically unnecessary services. Plaintiffs offer no evidence that these
+concerns were pretextual explanations for anticompetitive conduct.
+ Therefore, viewing the record as a whole, the Court finds that the evidence
+presented is insufficient to raise a genuine issue of material fact as to the existence
+Case 2:18-cv-00399-CJB-DPC   Document 481   Filed 11/27/23   Page 29 of 30
+30
+
+of a conspiracy to boycott UAS among the Defendants in this case. Specifically, the
+evidence in this case does not reasonably tend to prove that Defendants engaged in a
+conspiracy, the first element of a claim under Section 1 of the Sherman Act.
+CONCLUSION
+ Accordingly,
+ IT IS HEREBY ORDERED that  Defendants’ three motions for summary
+judgment on Plaintiffs’ Sherman Act Section 1 Claim filed by  Defendants, Humana,
+Inc. (“Humana”)  (Rec. Docs. 443, 449, 447)  are GRANTED. Plaintiffs’ antitrust
+claim based on Section 1 of the Sherman Act is DISMISSED WITH PREJUDICE.
+ New Orleans, Louisiana, this 27th day of November, 2023.
+
+       ____________________________________
+       CARL J. BARBIER
+       UNITED STATES DISTRICT JUDGE
+
+Case 2:18-cv-00399-CJB-DPC   Document 481   Filed 11/27/23   Page 30 of 30
