@@ -1,0 +1,615 @@
+1
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+JAMES McINTOSH CIVIL ACTION
+
+VERSUS No. 21-1719
+
+ROBERT GOINGS, ET AL. SECTION I
+
+ORDER & REASONS
+ The plaintiff, James McIntosh  (“McIntosh”), an inmate at Rayburn
+Correctional Center (“RCC”) in Angie, Louisiana , filed a complaint 1 for damages,
+alleging constitutional violations pursuant to  42 U.S.C. § 1983, as well as state law
+tort claims.  The defendants have  filed a motion 2 for summary judgment, arguing
+that Heck v. Humphrey, 512 U.S. 477 (1994), bars McIntosh’s claims.3  Alternatively,
+they argue that the defendants are entitled to qualified immunity. 4  The Court
+concludes that Heck bars McIntosh’s claims for the reasons stated below.
+I.  BACKGROUND
+ “ This case involves an all-too-common set of facts: [plaintiff] (a prisoner) claims
+that [defendants] (prison officers) spontaneously and unlawfully abused him.
+[Defendants], on the othe r hand, insist they used lawful force to control [plaintiff’s]
+misbehavior.”  Santos v. White, 18 F.4th 472, 477 (5th Cir. 2021) (Willett, J.,
+concurring).  McIntosh asserts that the defendants harmed him during two incidents
+
+1 R. Doc. No. 19 (“Amended Complaint for Damages/Use of Force”).
+2 R. Doc. No. 43.
+3 R. Doc. No. 43-1, at 17.
+4 Id. at 23.
+Case 2:21-cv-01719-LMA-MBN   Document 66   Filed 04/12/22   Page 1 of 22
+2
+at RCC in 2020. The defendants are RCC officers, namely: Robert Goings (“Goings”),
+Jonathan Stringer (“Stringer”) , Jacob Waskom (“Waskom”), and Mickey Dillon
+(“Dillon”).5
+A. McIntosh’s Version of Events
+ 1. The Wind Unit Incident
+ According to McIntosh, he regularly would steal and then sell extra food from
+the RCC kitchen.6  McIntosh claims that Goings and Stringer pressured McIntosh to
+
+5 R. Doc. No. 19, at 2–3.  McIntosh asserts his § 1983 claim against Goings, Stringer,
+Waskom, and Dillon.  Id. at 9.  McIntosh also named the State of Louisiana, through
+the Louisiana Department of Public Safety and Corrections, as a defendant.  Id. at 3.
+McIntosh alleges liability under a state law negligence theor y and respondeat
+superior with respect to the State of Louisiana.  Id. at 9 ¶¶ 46–48.
+6 In accordance with Local Rule 56.2, McIntosh filed a statement of facts in opposition
+to defendants’ motion for summary judgment.  See R. Doc. No. 54.  However, McIntosh
+largely denies defendants’ assertions of fact without referencing specific evidence to
+support his denials.  Id. at 1–3.  In his memorandum opposing  summary judgment,
+McIntosh cites repeatedly to “Ex 1 and Petition,” in support of his version of events.
+See, e.g., R. Doc. No. 49, at 9 (“Furthermore, McIntosh stated that Goings was
+involved in some illegal activities at RCC and he was being retaliated against for not
+falling in line.  Ex 1 and Petition, ¶¶ 8 -21.”).  McIntosh’s Exhibit 1, see R. Doc. No.
+49-1, contains on the first page a declaration asserting that “the facts found in my
+ARP, Petition, Appeal from the Disciplinary Board to the Secretary of the
+Department of Corrections and Appeal filed in the 19 th JDC East Baton Rouge are
+true and correct under penalty of perjury.”  Id. at 1.
+
+Although McIntosh is presently incarcerated, he  has retained counsel to represent
+him.  See, e.g., R. Doc. No. 49, at 20.  Therefore, the Court will not liberally construe
+McIntosh’s pleadings as it would do so for a pro se plaintiff.  See , e.g., Erickson v.
+Pardus, 551 U.S. 89, 94 (2007) (“ A document filed pro se is to be liberally construed,
+and a pro se complaint, however inartfully pleaded, must be held to less stringent
+standards than formal pleadings drafted by lawyers [.]”) (internal quotation marks
+and citations omitted).  Nevertheless, the Court interprets “ Ex 1 and Petition, ¶¶ 8-
+21” as an indication that McIntosh has verified his “Amended Complaint for
+Damages/Use of Force,” see R. Doc. No. 19, as this is the most recent version of his
+“petition” in the record. Cf . R. Doc. No. 1 -1 (“Petition for Damages/Use of Force,”
+which the defendants removed from state court).
+Case 2:21-cv-01719-LMA-MBN   Document 66   Filed 04/12/22   Page 2 of 22
+3
+become a prison informant in exchange for avoiding discipline for  stealing food, but
+McIntosh denied knowing any useful information.7  McIntosh also alleges that Goings
+and Stringer intended to harm McIntosh as retaliation for trouble that resulted from
+other officers discovering that McIntosh was selling stolen food.8
+ Regarding the events on October 19, 2020, McIntosh recounts that around 7:00
+A.M., Stringer ordered McIntosh to exit the Wind Unit facility and to proceed to  the
+Wind Unit breezeway. 9  McIntosh claims that officers assault inmates on the
+breezeways because there are no video cameras in that area. 10  Goings and Stringer
+approached McIntosh, and Stringer ordered McIntosh to turn around to be
+restrained.11  McIntosh asked, “[a]re y’all going to F#@! me over?” and Stringer
+responded, “yes.”12
+ McIntosh dropped his cup of coffee, and he tried to run into an area in view of
+a video camera.13  Stringer grabbed McIntosh, causing him to fall to the concrete floor
+where he struck his head and became  dazed.14  Goings and Stringer then punched
+McIntosh and slammed him to the floor.15  McIntosh sustained two blows to the back
+of his head and two blows to the left side of his face. 16  Stringer, Going —and then
+
+7 R. Doc. No. 19, at 3–4 ¶¶ 9–11.
+8 Id. at 4–6 ¶¶ 12–22.
+9 Id. at 6, ¶ 23.
+10 Id. at 6 ¶¶ 24–25.
+11 Id. at 6 ¶ 26.
+12 Id.
+13 Id. at 6 ¶ 27.
+14 Id. at 6–7 ¶¶ 27–28.
+15 Id. at 6–7 ¶¶ 28–29.
+16 Id. at 7 ¶ 29.
+Case 2:21-cv-01719-LMA-MBN   Document 66   Filed 04/12/22   Page 3 of 22
+4
+Waskom—struck McIntosh with their knees and punched him in his face.17  McIntosh
+was then placed in full restraints.18
+ 2. The Sun Unit Incident
+ While in restraints, Waskom and Dillon then escorted McIntosh to the Sun
+Unit.19  Waskom and Dillon proceeded to beat McIntosh, and they slammed
+McIntosh’s head into a Sun Unit door three to four times. 20  Wasko m also struck
+McIntosh with his knee , and he punched McIntosh.21  According to McIntosh, he
+suffered a lost tooth, a split tongue, a concussion, and his back, neck, knee, and ankles
+were cut and/or bruised.22
+B. Defendants’ Version of Events
+1. Wind Unit Incident
+ According to defendants, on October 19, 2020 , a t approximately 7:05 A.M.,
+Stringer was making unannounced rounds in Wind 1 dormitory. 23  While Stringer
+was making his rounds, McIntosh looked at Stringer and said, “[w]hat the [f]uck are
+you looking at?”24  Stringer verbally ordered McIntosh to stop cursing, and McIntosh
+
+17 Id.  McIntosh does not state when Waskom arrived at the scene.  Id.
+18 Id. at 7 ¶ 30.
+19 Id. at 7 ¶ 31.
+20 Id. at 7 ¶ 32–33.
+21 Id. at 7 ¶ 32.
+22 Id. at 7 ¶ 34.
+23 R. Doc. No. 43-8, at 2; see also R. Doc. No. 43-2, at 1–3; R. Doc. No. 43-4, at 1–3.
+24 R. Doc. No. 43-8, at 2.
+Case 2:21-cv-01719-LMA-MBN   Document 66   Filed 04/12/22   Page 4 of 22
+5
+complied.25  McIntosh then continued to aggressively question Stringer, and Stringer
+ordered McIntosh to exit the dormitory.26
+ McIntosh exited the dormitory onto the breezeway, and Stringer ordered
+McIntosh to stop. 27  McIntosh complied, but stated, “[w] hat the [f]uck you want? ”28
+Stringer ordered McIntosh to place his cup of coffee on the ground, turn around, and
+place his hands behind his back.29 McIntosh refused and stated, “[you’re] not fucking
+touching me.”30  Stringer again ordered McIntosh to turn around and place his hands
+behind his back.31  McIntosh again refused and stated, “[y]ou better not fucking touch
+me.”32
+ Stringer then placed his right hand on McIntosh’s right wrist, and McIntosh
+jerked his hand from Stringer’s grasp. 33  McIntosh then threw his coffee towards
+Goings, striking Goings in the chest and face.34  McIntosh then attempted to run past
+Stringer, and Stringer tried to “secure [McIntosh’s] upper torso.” 35  Meanwhile,
+Goings called via radio for assistance.36  McIntosh then began to strike Stringer and
+Goings in the head with his closed fists.37
+
+25 Id.
+26 Id.
+27 Id.
+28 Id.
+29 Id.
+30 Id.
+31 Id.
+32 Id.
+33 Id.
+34 Id.  Stringer does not state when Goings arrived on the scene.  Id.
+35 Id.
+36 Id.
+37 Id.
+Case 2:21-cv-01719-LMA-MBN   Document 66   Filed 04/12/22   Page 5 of 22
+6
+ Waskom heard Going’s radio call, and Waskom arrived to witness Stringer and
+Goings trying to “direct” McIntosh to the ground, while verbally ordering McIntosh
+to stop resist ing.38  McIntosh refused, and Waskom approached and grasped
+McIntosh’s upper torso. 39  Stringer, Goings, and Waskom succeeded in bringing
+McIntosh to the ground, and McIntosh continued to aggressively kick his legs. 40
+Waskom began pulling McIntosh’s left arm from under McIntosh’s body, and Going
+assisted by grabbing McIntosh’s left wrist.41
+ McIntosh next began biting Goings’ left arm, and Waskom “delivered a palm
+heel strike to [McIntosh’s] right brachial nerve motor point,” while commanding
+McIntosh to stop biting Goings. 42  Goings succeeded in removing his arm from
+McIntosh’s mouth, and Stringer and Waskom were able to place McIntosh’s hands
+behind his back.43  Waskom applied handcuffs while another officer applied shackles
+to McIntosh’s feet.44  Once defendants placed the restraints on McIntosh, they ceased
+using any force.45
+ 2. Sun Unit Incident
+ Once McIntosh was restrained in the Wind Unit, Waskom and Dillon escorted
+McIntosh to the Sun Unit area of RCC. 46  At Sun Walk, McIntosh began cursing the
+
+38 Id.  See also id. at 5.
+39 Id. at 5.
+40 Id. at 2.
+41 Id.  See also id. at 5.
+42 Id. at 5.
+43 Id. at 5.
+44 Id. at 2.
+45 Id.
+46 Id. at 5.  See also R. Doc. No. 43-3, at 2–4; R. Doc. No. 43-5, at 1–2.
+Case 2:21-cv-01719-LMA-MBN   Document 66   Filed 04/12/22   Page 6 of 22
+7
+officers.47  McIntosh also began to drag his feet.48  Waskom commanded McIntosh to
+stop talking and walk.49  McIntosh then walked a short distance before dragging his
+feet again.50
+ When the group approached the front door of Sun Unit, McIntosh attempted
+to kneel and raise his feet off the ground.51  Waskom loudly ordered McIntosh to stand
+up, and McIntosh refused, stating “ [m]an[,] [f]uck [y]ou.”52  Waskom again ordered
+McIntosh to stand, and McIntosh complied, placing his feet back on the ground.53
+ The group entered Sun Unit and approached the Sun Key door. 54  Waskom
+ordered McIntosh to kneel, and McIntosh responded, “[f]uck that.  I’m standing now
+bitch.”55  Waskom ordered McIntosh several times to kneel, and McIntosh refused to
+comply.56  Waskom then “delivered a knee strike to [McIntosh’s] left common peroneal
+nerve,” and again ordered McIntosh to kneel. 57  McIntosh reluctantly complied. 58
+Once McIntosh was on his knees, Waskom “released control of him and all use of force
+ceased.”59
+
+47 R. Doc. No. 43-8, at 5.
+48 Id.
+49 Id.
+50 Id.
+51 Id.
+52 Id.
+53 Id.
+54 Id.
+55 Id.
+56 Id.
+57 Id.
+58 Id.
+59 Id.
+Case 2:21-cv-01719-LMA-MBN   Document 66   Filed 04/12/22   Page 7 of 22
+8
+C. The RCC Disciplinary Hearings
+ Following these incidents, the RCC Disciplinary Board (“the Board”) held
+hearings on October 21 and October 28, 2020. 60  The Board documented t hese
+hearings in two disciplinary report forms.61
+The first report form includes a signed narrative written by Stringer, detailing
+his version of the events that occurred in the Wind Unit.62  The Board noted that
+McIntosh pleaded not guilty to allegations that he violated RCC Rule 3 (“defiance”)63
+and Rule 5 (“aggravated disobedience ”),64 but that the Board  found him guilty. 65
+Under the section labeled “reasons for disposition,” the B oard marked that the
+officer’s report is clear and precise, the officer’s version is determined to be more
+credible than the inmate’s version, and that the only defense was a denial of the
+
+60 Id. at 2, 5.
+61 Id.
+62 Id. at 2.
+63 Under the Louisiana Department of Public Safety and Corrections’ Disciplinary
+Rules, Rule 3 provides that “[n]o offender shall commit or threaten physically or
+verbally to commit bodily harm upon another person.”  R. Doc. No. 43-8, at 26.  Also,
+“[n]o offender shall curse, insult or threaten another person in any manner. […]
+Further, no offender shall obstruct, resist, distract or attempt to elude staff in the
+performance of their duties.  Nor shall an offender intimidate or attempt to intimidate
+staff to manipulate staff’s actions.”  Id.
+64 Rule 5 provides that “[o]ffenders must obey direct verbal orders cooperatively and
+promptly and not debate, argue or ignore orders before obeying.  The last order
+received must be obeyed when orders conflict.  Even orders the offender believes
+improper must be obeyed; grievances must be pursued through proper channels.”  Id.
+65 Id. at 2.
+Case 2:21-cv-01719-LMA-MBN   Document 66   Filed 04/12/22   Page 8 of 22
+9
+contents of the report. 66  The form further states that with respect to the Rule 5
+violation, the Board imposed a loss of 60 days good time credit.67
+The second report  form includes a signed narrative written by Waskom,
+detailing his version of the events that occurred in the Wind Unit and the Sun Unit.68
+The form indicates that McIntosh pleaded not guilty to allegations that he violated
+RCC Rules 3 and 5 for defiance and aggravated disobedience, but that the  B oard
+found him guilty.  Under the section labeled “reasons for disposition,” the Board again
+marked that the officer’s report is clear and precise, the officer’s version is determined
+to be more credible than the inmate’s version, and that the only defense was a denial
+of the contents of the report.69  The form further states that with respect to the Rule
+3 violation, the Board imposed a loss of 60 days good time credit and a loss of 15 days
+good time credit with respect to the Rule 5 violation.70
+McIntosh filed a petition for judicial review in the Nineteenth Judicial District
+Court for the Parish of East Baton Rouge to contest his disciplinary decisions. 71
+McIntosh did not point to evidence  that the disciplinary de cisions have been
+overturned or otherwise terminated in his favor.72
+
+66 R. Doc. No. 43-8, at 2.
+67 Id. at 3; R. Doc. No. 54, at 2 (admitting that the Board imposed a loss of 60 days of
+good time credit for the Rule 5 violation).
+68 R. Doc. No. 43-8. at 5.
+69 R. Doc. No. 43-8, at 2.
+70 Id. at 3; R. Doc. No. 49, at 11 (noting that the second report indicates a loss of 15
+days good time for the Rule 5 violation).
+71 R. Doc. Nos. 43-10, 43-11, & 54, at 2 ¶ 6 (“Plaintiff appealed all of the disciplinary
+violations”).
+72 R. Doc. No. 49, at 12.
+Case 2:21-cv-01719-LMA-MBN   Document 66   Filed 04/12/22   Page 9 of 22
+10
+II. SUMMARY JUDGMENT STANDARD
+Summary judgment is proper when, after reviewing the pleadings, the
+discovery and disclosure materials on file, and any affidavits, a court determines that
+there is no genuine dispute of material fact and the movant is entitled to judgment
+as a matter of law.  Fed. R. Civ. P. 56(a).  “[A] party seeking summary judgment
+always bears the initial responsibility of informing the district court of the basis for
+its motion, and identifying those portions of [the record] which it believes
+demonstrate the absence of a genuine issue of material fact.”  Celotex Corp. v. Catrett,
+477 U.S. 317, 323 (1986).  The party seeking summary judgment need not produce
+evidence negating the existence of a material fact; it need only point out the absence
+of evidence supporting the other party’s case.  Id. ; see also Font enot v. Upjohn Co. ,
+780 F.2d 1190, 1195 –96 (5th Cir. 1986) (“There is no sound reason why conclusory
+allegations should suffice to require a trial when there is no evidence to support them
+even if the movant lacks contrary evidence.”).
+ Once the party seek ing summary judgment carries that burden, the
+nonmoving party must come forward with specific facts showing that there is a
+genuine dispute of material fact for trial.  See Matsushita Elec. Indus. v. Zenith Radio
+Corp., 475 U.S. 574, 587 (1986).   The show ing of a genuine issue is not satisfied by
+creating “‘some metaphysical doubt as to the material facts,’ by ‘conclusory
+allegations,’ by ‘unsubstantiated assertions,’ or by only a ‘scintilla’ of evidence.”  Little
+v. Liquid Air Corp., 37 F.3d 1069, 1075 (5th Cir. 1994) (citations omitted).  Rather, a
+genuine issue of material fact exists when the “evidence is such that a reasonable
+Case 2:21-cv-01719-LMA-MBN   Document 66   Filed 04/12/22   Page 10 of 22
+11
+jury could return a verdict for the nonmoving party.”  Anderson v. Liberty Lobby, Inc.,
+477 U.S. 242, 248 (1986).
+“Although the substance or content of the evidence submitted to support or
+dispute a fact on summary judgment must be admissible . . . the material may be
+presented in a form that would not, in itself, be admissible at trial.”  Lee v. Offshore
+Logistical & Transp., L.L .C., 859 F.3d 353, 355 (5th Cir. 2017) (citations omitted).
+The party responding to the motion for summary judgment may not rest upon the
+pleadings but must identify specific facts that establish a genuine issue.  See
+Anderson, 477 U.S. at 248.  The nonmo ving party’s evidence, however, “is to be
+believed, and all justifiable inferences are to be drawn in [the nonmoving party’s]
+favor.”  Id. at 255.
+III. LAW & ANALYSIS
+A. McIntosh’s § 1983 Claim
+The defendants first argue that  they are entitled to summary j udgment
+pursuant to Heck.73  Heck bars the litigation of a § 1983 claim if success on that claim
+“would necessarily imply that a prior conviction or sentence is invalid.”  Aucoin v.
+Cupil, 958 F.3d 379, 382 (5th Cir. 2020) (citing Heck , 512 U.S. at 486– 87).  The
+rationale is that “civil t ort actions are not appropriate vehicles for challenging the
+validity of outstanding criminal judgments [.]”  Heck, 512 U.S. at 485 –86.  “[C]ourts
+are wary of duplicative litigation and the potential for conflicting judgments.”
+Aucoin, 958 F.3d at 382.
+
+73 R. Doc. No. 32-3, at 9–23.
+Case 2:21-cv-01719-LMA-MBN   Document 66   Filed 04/12/22   Page 11 of 22
+12
+However, where the “‘plaintiff’s action, even if successful, will not demonstrate
+the invalidity of any outstanding criminal judgment against the plaintiff,’ the claim
+implicates none of these concerns and may therefore proceed.”  Id. (quoting Heck, 512
+U.S. at 487).  “ Determining whether the § 1983 claim challenges the conviction is
+‘fact-intensive.’”  Id. (quoting Bush v. Strain, 513 F.3d 492, 497 (5th Cir. 2008)) .  A
+hallmark of a non -Heck-barred claim is “if the factual basis for the conviction is
+temporally and conceptually distinct” from the civil claim.  Bush, 513 F.3d at 498.
+But the Heck bar extends further: even where the plaintiff’s “ factual
+allegations supporting the claim are necessarily inconsistent with the validity of the
+conviction,” Heck still bars the claim.  Aucoin, 958 F.3d at 383 (citing Bush, 513 F.3d
+at 497; DeLeon v. City of Corpus Christi, 488 F.3d 649, 656–57 (5th Cir. 2007)).  That
+is tr ue regardless of a civil claim’s “theoretical compatibility” with the criminal
+conviction.  Daigre v. City of Waveland, 549 F. App’x 283, 286 (5th Cir. 2013) (quoting
+Bush, 513 F.3d at 498 n.14); see also Thomas v. Pohlmann, 681 F. App’x 401, 407 (5th
+Cir. 2017) (citing with approval Daigre and DeLeon).
+To overcome the Heck bar, the plaintiff must show that the prior criminal
+proceeding terminated in his favor—i.e. , “reversed on direct appeal, expunged by
+executive order, declared invalid by a state tribunal authorized to make such
+determination, or called into question by a federal court’s issuance of a writ of habeas
+corpus.”  Heck , 512 U.S. at 487.  The plaintiff  has the burden to prove that the
+criminal proceedings terminated in his favor.  Hoog-Watson v. Guadalupe Cnty., 591
+F.3d 431, 435 (5th Cir. 2009).  Absent such a showing, a Heck-barred claim should be
+Case 2:21-cv-01719-LMA-MBN   Document 66   Filed 04/12/22   Page 12 of 22
+13
+“dismissed with prejudice to [its] being asserted agai n until the Heck conditions are
+met.”  DeLeon, 488 F.3d at 657 (quoting Johnson v. McElveen, 101 F.3d 423, 424 (5th
+Cir.1996)).
+1. Proper Evidence to Consider on Summary Judgment
+ McIntosh puts forward several arguments  in opposing summary judgment .
+First, as a threshold issue, he disputes which evidence the Court may  consider to
+decide the  defendants’ motion .  McIntosh maintains that the Court should not
+consider the Board’s disciplinary reports because those reports are  inadmissible
+“hearsay and inherent ly unreliable .”74  The defendants reply that they offer the
+Board’s reports not “as truth for the matters asserted therein, but rather, as the basis
+for which Plaintiff was found guilty of disciplinary violations which resulted in a loss
+of good time credits.”75
+A statement is hearsay if it is not made while testifying and a party “offer[s it]
+in evidence to prove the truth of the matter asserted in the statement.  Fed. R. Evid.
+801(c).  “The reports submitted by the defendants were offered to demonstr ate that
+the disciplinary board had found [McIntosh]  guilty of various offenses, not to prove
+the truth of the matter, that is, that he actually had committed the offenses.”  Santos
+v. White, 18 F.4th 472, 477 (5th Cir. 2021).   “As with criminal convictions, the Heck
+bar does not, in theory, assume that the prison disciplinary board’ s determinations
+were true, but only that they cannot be challenged through § 1983.”   Id .  See also
+
+74 R. Doc. No. 49, at 18.
+75 R. Doc. No. 577, at 2.
+Case 2:21-cv-01719-LMA-MBN   Document 66   Filed 04/12/22   Page 13 of 22
+14
+Aucoin v. Cupil , 958 F.3d 379, 381 (5th Cir. 2020) (holding that courts “may also
+examine the prison disciplinary reports to understand the basis of the underlying
+conviction.”).  The Court may therefore consider the Board’s disciplinary  decisions
+when it considers whether McIntosh’s claims are Heck-barred.76
+2. Heck Applies to McIntosh’s RCC Disciplinary Proceedings
+ Next, McIntosh argues that Heck does not apply to prison disciplinary
+proceedings.77  “ Contrary to  [McIntosh’s] repeated protestations, because Heck
+applies to both the validity and the duration of the confinement, ‘Heck’s principle
+extends to [prison] disciplinary convictions’ in addition to criminal convictions.” Gray
+v. White, 18 F.4th 463, 467 (5th Cir. 2021) (quoting Bourne v. Gunnels, 921 F.3d 484,
+490 (5th Cir. 2019)). “[F]or purposes of Heck,” a “‘conviction’ ... includes a ruling in a
+prison disciplinary proceeding that results in a change to the prisoner’ s sentence,
+
+76 McIntosh has also filed a motion for an adverse inference based on a claim that
+RCC video footage was spoliated.  See R. Doc. No. 36.   McIntosh references this
+argument to oppose summary judgment, but he does not specifically state that it has
+any bearing on whether his claims are Heck -barred.  See R. Doc. No. 49, at 8 –9.
+Overall, this argument is unavailing.  Even if the Court were to grant the spoliation
+motion, the remedy that McIntosh seeks is an adverse inference.  See R. Doc. No. 36-
+3, at 14.  Such an inference would not help McIntosh withstand summary judgment.
+
+First, even with such an inference, the  Court’s resolution of the Heck bar issue,
+discussed below,  would not be altered since McIntosh’s “factual allegations
+supporting [his] claim are necessarily inconsistent with the validity of [his]
+conviction[s].”  Aucoin, 958 F.3d at 383.  Second,  even wit h an adverse inference,
+McIntosh has still not “produced evidence that the alleged excessive force occurred
+after [he] stopped resisting[.]”  Bush , 513 F.3d  at 500.  See also Likens v. Hartford
+Life & Accident Ins. Co. , 688 F.3d 197, 202 (5th Cir. 2012) (“Although all justifiabl e
+inference[s] must be drawn in favor of the non -movant, the non-movant still cannot
+defeat summary judgment with speculation, improbable inferences, or
+unsubstantiated assertions.” (citations omitted)).
+77 R. Doc. No. 49, at 13–20.
+Case 2:21-cv-01719-LMA-MBN   Document 66   Filed 04/12/22   Page 14 of 22
+15
+including the loss of good-time credits.” Clarke v. Stalder, 154 F.3d 186, 189 (5th Cir.
+1998) (en banc). Therefore, Heck precludes § 1983 litigation in the prison-disciplinary-
+proceeding context where it would “negate [the prisoner’s] disciplinary conviction” if
+negating that conviction would “affect[ ] the duration of his sentence by restoring his
+good time credits.” Bourne, 921 F.3d at 491.  Whether the plaintiff in fact seeks the
+restoration of good time credits, rather than another remedy such as damages, is
+immaterial.  Aucoin v. Cupil, 958 F.3d 379, 383 (5th Cir. 2020).
+ The RCC disciplinary records demonstrate that McIntosh lost good time credit
+as a result of the incidents in the Wind Unit and the Sun Unit. 78  And McIntosh has
+not met his burden to demonstrate that these disciplinary decisions have been
+overturned or terminated in his favor.79  Therefore, the Board’s adverse disciplinary
+decisions affect the duration of McIntosh’s sentence by reducing his good time credit,
+and Heck applies.
+3. Heck Bars McIntosh’s § 1983 Claim
+In opposition to summary judgment , with respect to the first incident  in the
+Wind Unit  concerning Stringer and Goings, McIntosh maintains  that the officers
+used force against him wh ich was unprompted. 80  According to McIntosh, Stringer
+
+78 R. Doc. No. 54, at 2 (McIntosh’s response statement of facts) (admitting that the
+Board “imposed a sentence of loss of 60 days of good time for the Rule 5 violation”
+concerning the Wind Unit).  R. Doc. No. 43-8, at 6 (noting a “[l]oss of 60 days GT” for
+the Rule 3 violation and a loss of 15 days good time for the Rule 5 violation).
+79 R. Doc. No. 49, at 12.
+80 R. Doc. No. 19, at 6 ¶ 23–24 (stating that McIntosh was merely walking with a cup
+of coffee when Stringer ordered McIntosh outside and that McIntosh was “fearful but
+obeyed the order”).
+Case 2:21-cv-01719-LMA-MBN   Document 66   Filed 04/12/22   Page 15 of 22
+16
+informed him that the officers were going to beat him, and then the officers punched
+McIntosh and slammed his head into the concrete floor. 81  McIntosh’s factual
+assertions essentially allege that he did nothing wrong.   In other words, McIntosh
+maintains “his innocence in the events that led up to his disciplinary conviction[s].”
+Aucoin, 958 F.3d at 383.  He insists “ that he is wholly blameless for the use of force
+against him [in the Wind Unit].”  Id.  But if true, McIntosh “cannot be guilty of [the
+offenses for which he lost good -time credit]—in direct conflict with his disciplinary
+conviction[s].”  Id.  This is especially the case when the B oard expressly found that
+Stringer’s account was “clear and precise” and “more credible than [McIntosh’s].” 82
+Therefore, McIntosh’s § 1983 claim concerning the incidents in the Wind  Unit is
+barred by Heck.
+With respect to the second incident with Waskom and Dillon, McIntosh insists
+that he was “in full restraints while being escorted/dragged to the [Sun Unit]” 83 and
+during that time “everyone agrees he was not resisting .”84  “Put simply, there is no
+Heck bar if the alleged violation occurs ‘after’ the cessation of the plaintiff’s
+misconduct that gave rise to his prior conviction.”  Aucoin, 958 F.3d at 382.  See also
+Bourne, 921 F.3d at 491 (reversing a grant of summary judgment when “the § 1983
+excessive-force claims arise from the specific force defendants used after [the
+
+81 Id. at 6–7, ¶¶ 25–29.
+82 R. Doc. No. 43-8, at 2.
+83 R. Doc. No. 49, at 10.
+84 Id. at 6; see also id. at 10 (citing to McIntosh’s “Petition,” at ¶¶ 28–33).
+Case 2:21-cv-01719-LMA-MBN   Document 66   Filed 04/12/22   Page 16 of 22
+17
+plaintiff] was restrained on his cell floor.”).  However, McIntosh’s argument
+misrepresents two key points in the record.
+First, McIntosh cites to his complaint in support of the contention that he was
+“in full restraints and not resisting.” 85  But McIntosh’s complaint is silent with
+respect to his own behavior once he was placed in restraints. 86  The complaint does
+not affirmatively state that McIntosh was compliant or cooperative.87  And McIntosh
+points to no evidence in support of the contention that he was not resisting.88
+“Rule 56 does not impose upon the district court a duty to sift through the
+record in search of evidence to support a party ’s opposition to summary judgment.”
+Malacara v. Garber, 353 F.3d  393, 405 (5th Cir. 2003); see also United States v. Del
+Carpio Frescas, 932 F.3d 324, 331 (5th Cir. 2019) (“Judges are not like pigs, hunting
+for truffles buried in the record.”); Forsyth v. Barr, 19 F.3d 1527, 1537 (5th Cir. 1994)
+(“[A]lthough [the non-movants] submitted two volumes of evidentiary material  [in
+
+85 R. Doc. No. 49, at 10 (referencing “Petition, ¶¶ 28-33”).
+86 R. Doc. No. 19, at 7–9 ¶¶ 30–44.
+87 Again, the Court’s analysis regards McIntosh’s complaint as verified, and thus
+competent summary judgment evidence.  Falcon v. Holly, 480 F. App’x. 325, 326 (5th
+Cir. 2012) (per curiam) (“[A] verified complaint and other verified pleadings serve as
+competent summary judgment evidence.”); Hart  v. Haiston, 343 F.3d  762, 765 (5th
+Cir. 2003)  (“On summary judgment, factual allegations set forth in a verified
+complaint may be treated the same as when they are contained in an affidavit.”) .
+Nevertheless, his complaint does not specifically allege that he was not resisting, and
+McIntosh—represented by counsel —offers no other ci tation to any support for this
+contention.  See R. Doc. No. 49, at 6, 10.
+88 R. Doc. No. 49, at 9– 12; R. Doc.  No. 10 (scheduling order), at 5 (instructing the
+parties, that to support or oppose summary judgment, “[c]itations to record evidence
+shall indicate, whenever applicable, an exhibit reference, page reference, and record
+document number reference. Record evidence not specifically referred to by the
+parties may not be considered by the Court.”).
+Case 2:21-cv-01719-LMA-MBN   Document 66   Filed 04/12/22   Page 17 of 22
+18
+opposition to summary judgment], they did not identify the specific portions of such
+evidence (if any) that supported their [claim].”).  McIntosh has not “produced evidence
+that the alleged excessive force occurred after [he] stopped resisting [.]”  Bush , 513
+F.3d at 500 (emphasis added).
+Second, McIntosh contends that “[t]here is nothing in [d] isciplinary [r]eports
+about any resistance by McIntosh after he was placed in restraints.”89  But McIntosh
+ignores the record.  Waskom’s narrative , incorporated in the Board’s second report,
+recounts that once McIntosh was on “Sun Walk,” McIntosh “began cursing [Waskom]
+and other officers and began to drag his feet.” 90  Waskom gave McIntosh several
+orders, and McIntosh complied “momentarily” before dragging his feet again after a
+short distance.91  Once McIntosh reached the front door of the Sun Un it, McIntosh
+“attempted to kneel down and pick[ ] his feet up off the walk.” 92  McIntosh refused
+orders to stand up, swearing at the officers. 93  Once inside the Sun Unit, McIntosh
+was ordered to kneel down, and McIntosh replied, “Fuck that.  I’m standing now
+bitch.”94  And only after Waskom gave McIntosh several more orders to kneel,
+Waskom delivered “a knee strike” to McIntosh’s “left common peroneal nerve,” and
+McIntosh “reluctantly complied.”95
+
+89 R. Doc. No. 49, at 11.
+90 R. Doc. No. 43-8, at 5.
+91 Id.
+92 Id.
+93 Id.
+94 Id.
+95 Id.
+Case 2:21-cv-01719-LMA-MBN   Document 66   Filed 04/12/22   Page 18 of 22
+19
+Again, the Board found Waskom’s report to be “clear and precise,” and “more
+credible than [McIntosh’s version of events].” 96  This factual basis therefore shows
+that McIntosh had “been resisting throughout  the encounter.”  Aucoin , 958 F.3d at
+384 n.1 (emphasis in original);  id. at 381 (“Aucoin was found guilty  of defiance,
+aggravated disobedience, and property destruction for misconduct in his cell.  But his
+misconduct ceased while he was in his cell .”) (emphasis added); cf. Santos, 18 F.4th
+at 478 (“Moreover, the disciplinary board imposed no sanctions at all on Santos for
+actions after the administration of the chemical agent in the shower, and it noted
+that he ‘ complied with orders ’ after that point. Thus, Heck  does not bar Santos ’s
+claims from that point onward.”).
+“Here, the disciplinary reports round out [the Court’s]  understanding of the
+events leading up to [McIntosh’s]  disciplinary infraction [s]—and provide a fuller
+account of what transpired[.]”  Aucoin , 958 F.3d at 381.   Overall, McIntosh’s
+complaint turns on a single  narrative: that he was attacked without provocation.
+This theory is fundamentally inconsistent with the Board’s crediting the officers’
+narratives, and his claim therefore “challenges the factual determination that
+underlies his conviction[s].”  Id. at 384.  McIntosh’s § 1983 claim is therefore barred
+by Heck, and the Court must grant summary judgment in favor of defendants with
+respect to this claim. 97
+
+96 Id.
+97 McIntosh also argues that this Court must hold an evidentiary hearing to
+determine “the exact conduct covered by the disciplinary complaint and the evidence
+offered for the findings by the disciplinary hearing officer.”  R. Doc. No. 49, at 9
+(referencing Gray v. White, 18 F.4th 463 (5th Cir. 2021), and Santos v. White, 18 F.4th
+Case 2:21-cv-01719-LMA-MBN   Document 66   Filed 04/12/22   Page 19 of 22
+20
+B.  McIntosh’s State Law Claims
+The Court has concluded that McIntosh’s § 1983 claim is barred, so only his
+state law claims remain.  A district court has “wide discretion” when deciding
+whether it should retain jurisdiction over state law claims once all federal claims have
+been eliminated.  Guzzino v. Felterman, 191 F.3d 588, 595 (5th Cir. 1999).  However,
+the general rule in the Fifth Circuit is “to dismiss state claims when the federal claims
+to which they are pendent are dismissed.”  Parker & Parsley Petroleum Co. v. Dresser
+Indus., 972 F.2d 580, 585 (5th Cir. 1992).
+A district court may decline to exercise supplemental jurisdiction over a state
+law claim if:
+(1)  the claim raises a novel or complex issue of State law,
+(2)  the claim substantially predominates over the claim or claims over
+which the district court has original jurisdiction,
+(3)  the district court has dismissed all claims over which it has original
+jurisdiction, or
+(4)  in exceptional circumstances, there are other compelling reasons for
+declining jurisdiction.
+
+472 (5th Cir. 2021)).  He similarly insists that summary judgment is inap propriate
+because no audio recordings have been produced of the hearings, which would further
+clarify the Board’s findings.  R. Doc. No. 49, at 11 –12.  First, McIntosh’s argument
+overlooks that neither Gray  nor Santos mandated an evidentiary hearing; inste ad,
+both cases noted that the Fifth Circuit did not “suggest how the [district] court should
+rule on which claims are precluded by Heck ,” on remand.  18 F.4th at 470; 18 F.4th
+477.  Second, McIntosh’s contention that he is wholly blameless means that the Court
+“need not dwell on the component elements” of McIntosh’s disciplinary convictions to
+determine that “his claims are incompatible with the disciplinary board’s findings.”
+Santos, 18 F.4th at 478 (Willett, J., concurring).  “Could the record have more
+information?  Absolutely.  [Does the Court] need more?  No.”  Id. at 447 (emphasis in
+original).
+Case 2:21-cv-01719-LMA-MBN   Document 66   Filed 04/12/22   Page 20 of 22
+21
+28 U.S.C. § 1367(c).  In addition to these factors, the Fifth Circuit has instructed
+district courts to consider the common law factors of “judicial economy, convenience,
+fairness, and comity.”  Mendoza v. Murphy, 532 F.3d 342, 346 (5th Cir. 2008).  “These
+interests are to be considered on a case- by-case basis, and no single factor is
+dispositive.”  Id.
+These factors weigh in favor of dismissing McIntosh’s state law claims without
+prejudice so that he may assert those claims in state court.  The Court has “dismissed
+all claims over which it has original jurisdiction.”  28 U.S.C. § 1367(c)(3).  Moreover,
+allowing Louisiana courts to rule on Louisiana law “encourages fairness between the
+parties by ‘procuring for them a surer-footed reading of applicable law.’”  Bitte v. EMC
+Mortgage Corp., No. 07-9273, 2009 WL 1950911, at *2 (E.D. La. July 1, 2009) (Africk,
+J.) (citations omitted) (quoting United Mine Workers of Am. v. Gibbs, 383 U.S. 715,
+726 (1966)).  “[D]eference in this case with respect to the state law issue[s] promotes
+the important interest of comity to state courts.”  Id.
+Therefore, the Court declines to exercise supplemental jurisdiction over the
+remaining state law claims.  Those claims are dismissed without prejudice, as ordered
+below.
+IV. CONCLUSION
+For the foregoing reasons,
+ IT IS ORDERED that the motion98 for summary judgment is GRANTED IN
+PART as set forth below.
+
+98 R. Doc. No. 43.
+Case 2:21-cv-01719-LMA-MBN   Document 66   Filed 04/12/22   Page 21 of 22
+22
+IT IS FURTHER ORDERED that summary judgment is GRANTED to the
+extent that McIntosh’s § 1983 claim against Goings, Stringer, Waskom, and Dillon is
+barred by Heck, and McIntosh’s § 1983 claim is DISMISSED WITH PREJUDICE
+to its being asserted again until the Heck conditions are met.
+IT IS FURTHER ORDERED that McIntosh’s state law claims  asserting
+negligence and respondeat superior are DISMISSED WITHOUT PREJUDICE to
+their being timely asserted in state court.
+New Orleans, Louisiana, April 11, 2022.
+
+_______________________________________
+            LANCE M. AFRICK
+      UNITED STATES DISTRICT JUDGE
+
+Case 2:21-cv-01719-LMA-MBN   Document 66   Filed 04/12/22   Page 22 of 22
