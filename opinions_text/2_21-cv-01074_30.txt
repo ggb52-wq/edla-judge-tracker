@@ -1,0 +1,968 @@
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+U.S. ALLIANCE GROUP, INC.
+
+ CIVIL ACTION
+VERSUS
+
+ NO. 21-1074
+CARDTRONICS USA, INC.
+
+ SECTION “R” (2)
+
+ORDER AND REASONS
+
+ Before the Court is defendant, Cardtronics USA, Inc.’s (“Cardtronics”)
+motion to dismiss  under Federal Rule of Civil Procedure 12(b)(6) .1
+Cardtronics also moves in the alternative under Rule 12(e) for a more definite
+statement.2  Plaintiff, U.S. Alliance Group, Inc. (“USAG”) opposes the
+motion.3  For the following reasons, the Court grants in part and denies in
+part defendant’s motion to dismiss.  The Court  also denies defendant’s
+motion for a more definite statement.
+
+I. BACKGROUND
+
+This dispute arises out of an agreement in which defendant
+Cardtronics agreed to provide certain services to plaintiff USAG’s customers.
+
+1  R. Doc. 15.
+2  Id. at 2.
+3  R. Doc. 16.
+Case 2:21-cv-01074-SSV-DPC   Document 30   Filed 01/28/22   Page 1 of 37
+2
+
+On September 30, 2008, USAG, a California corporation, 4 entered into an
+“Agreement for Proce ssing Services ” (the “Agreement”) 5 with defendant
+Cardtronics’s predecessor -in-interest, Columbus Data Services, LLC
+(“CDS”), a Louisiana LLC.6  Cardtronics is a Delaware corporation, registered
+to do business in Louisiana, with its princip al place of business in Texas. 7
+USAG provides “electronic payment processing solutions to merchants,”
+such as providing physical ATMs and services related to  facilitating the
+processing of ATM transactions.8  Under the Agreement, USAG would refer
+merchants to Cardtronics for ATM processing services.9  The combination of
+USAG’s and Cardtronics’s services  allowed the parties to provide for “an
+ATM machine to dispense cash, retriev e the funds from the cardholder’s
+bank, pay the ATM owner [merchant] a percentage of the fees, and thereby
+complete a full [ATM] transaction.”10
+More specifically, Cardtronics wou ld provide the merchants with
+“frontend processing services ,” which included th e software necessary to
+
+4  R. Doc. 1 ¶ 1.
+5  Id. ¶ 6.
+6  R. Doc. 15-1 at 2 & n.2.
+7  R. Doc. 1 ¶ 2.
+8  R. Doc. 16 at 2.
+9  R. Doc. 1 ¶ 6.
+10  R. Doc. 16 at 2.
+Case 2:21-cv-01074-SSV-DPC   Document 30   Filed 01/28/22   Page 2 of 37
+3
+
+settle an end customer’s ATM transaction. 11  USAG would provide the
+merchant with the “backend processing services,” by processing transactions
+between t he ATM machine and the bank, and then providing  the
+merchant/ATM owner a statement reflecting the transaction. 12  The
+Agreement in practice functioned by having USAG refer a  merchant ATM
+location to Cardtronics , at which point Cardtronics would “assign the
+respective ‘TID’ or ‘Keys’ for that location or ATM to USAG.” 13  These keys
+enabled Cardtronics to process the frontend transactions between the ATM
+machine and the cardholder.14  USAG would then take the keys and program
+them into the ATM, which would “allow the ATM to go live and fully process
+transactions.”15  USAG used its “confidential login information” to enter
+information related to the transaction into Cardtronics ’s customer
+relationship management software (“CRM”). 16  Cardtronics would charge
+USAG a transaction fee for each transaction conducted on the ATM.17
+
+11  R. Doc. 1 ¶ 6.
+12  Id.
+13  Id. ¶ 7.
+14  Id.
+15  Id.
+16  Id. ¶ 9.
+17  Id. ¶ 8.
+Case 2:21-cv-01074-SSV-DPC   Document 30   Filed 01/28/22   Page 3 of 37
+4
+
+In July 2017, USAG entered into an agreement to provide electronic
+payment processing services to a new merchant group, LibertyX. 18  The
+contract required LibertyX to use USAG as its exclusiv e processor.19  That
+same month, USAG began referring LibertyX ’s merchants to Cardtronics.20
+USAG asserts that Cardtronics “had actual knowledge that those referrals
+were related to LibertyX ,” and that Cardtronics was or should have been
+aware that USAG had multiple exclusivity agreements with LibertyX. 21  As
+was customary under the Agreement, for eac h new account that LibertyX
+submitted, Cardtronics would assign USAG the Keys/TIDs for the account,
+and USAG would enter that information in Cardtronics’s system , and then
+activate and manage the accounts.22
+On March 15, 2021, USAG “[s]uddenly” stopped rec eiving reporting
+from Cardtronics on all 28,484 of LibertyX’s TIDs/keys.23  Upon realizing it
+no longer had access to online reporting on LibertyX’s accounts, USAG
+contacted Cardtronics’s customer -service employee, Christina Paolo, who
+informed plaintiff t hat it would have to “contact LibertyX directly.” 24  Two
+
+18  Id. ¶ 11.
+19  Id.
+20  Id. ¶ 15.
+21  Id. ¶¶ 13, 15.
+22  Id. ¶¶ 15-16.
+23  Id. ¶ 17.
+24  Id. ¶ 18.
+Case 2:21-cv-01074-SSV-DPC   Document 30   Filed 01/28/22   Page 4 of 37
+5
+
+days later, on March 17, USAG received a notice from LibertyX terminating
+some of its processing agreements.25  Also on March 17, USAG discovered six
+new LibertyX accounts on Cardtronics’s platform.26  USAG asserts that only
+Cardtronics or LibertyX could have created these new accounts.27
+On June 6, 2021, USAG filed suit against Cardtronics.  Its complaint
+alleges that, in early 2021, Cardtronics and LibertyX “began conspiring to cut
+USAG out of the relationship and for LibertyX to process direct with
+Cardtronics.”28  The complaint further alleges that this scheme “culminated
+with the instant porting of all 28,484 merchants from USAG’s portfolio and
+into a direct relationship with LibertyX and Cardtronics.”29  To carry out this
+scheme, USAG alleges that Cardtronics provided “LibertyX with access to all
+of USAG’s Confidential Information specifically for the purpose of allowing
+LibertyX to process direct with Cardtronics or to move all of USAG’s
+customers to a third party.” 30  Based on these allegations, plaintiff brought
+several causes of action against defendant , seeking to remedy the alleged
+injuries it sustained during its contractual relationship with Cardtr onics.
+
+25  Id. ¶ 17.
+26  Id. ¶ 19.
+27  Id.
+28  Id. ¶ 20.
+29  Id.
+30  Id. ¶ 22.
+Case 2:21-cv-01074-SSV-DPC   Document 30   Filed 01/28/22   Page 5 of 37
+6
+
+Specifically, plaintiff alleges six claims: (1) breach of contract , (2) breach of
+the implied covenant of good faith and fair dealing , (3) intentional
+interference with prospective economic advantage, (4) unfair trade practices
+and unfair business practices under California’s Business and Professions
+Code, (5) unjust enrichment, and (6) promissory fraud under California Civil
+Code § 3294(C)(3).  Plaintiff contends that, although Louisiana law applies
+to its contractual claims, California law governs its non-contractual claims.31
+Cardtronics now moves to dismiss, asserting that plaintiff’s contractual
+claims lack sufficient factual specificity to state a claim for relief. 32
+Defendant also contends that plaintiff’s non-contractual claims fail because
+Louisiana law applies to the dispute, barring the claims brought under
+California law.33  Defendant further argues that, even if California law does
+apply, plaintiff’s claims sh ould still be dismissed because it has not alleged
+conduct sufficient to state a cause of action under the applicable California
+provisions.34  Alternatively, defendant moves for a more definite statement
+under Federal Rule of Civil Procedure 12(e).35
+
+31  Id. ¶ 5; see also R. Doc. 16 at 6.
+32  R. Doc. 15-1 at 1.
+33  Id.
+34  Id. at 1-2.
+35  Id.
+Case 2:21-cv-01074-SSV-DPC   Document 30   Filed 01/28/22   Page 6 of 37
+7
+
+II. LEGAL STANDARD
+
+To survive a Rule 12(b)(6) motion to dismiss, a plaintiff must plead
+enough facts to “state a claim to relief that is plausible on its face.”  Ashcroft
+v. Iqbal, 556 U.S. 662, 678 (2009) (quoting Bell Atlantic Corp. v. Twombly,
+550 U.S. 544, 54 7 (2007)).  A claim is facially plausible “when the plaintiff
+pleads factual content that allows the court to draw the reasonable inference
+that the defendant is liable for the misconduct alleged.”  Id. at 678.  The Court
+must accept all well -pleaded facts  as true and must draw all reasonable
+inferences in favor of the plaintiff.  Lormand v. U.S. Unwired, Inc., 565 F.3d
+228, 239, 244 (5th Cir. 2009).  But the Court is not bound to accept as true
+legal conclusions couched as factual allegations.  Iqbal, 556 U.S. at 678.
+On a Rule 12(b)(6) motion, the Court must limit its review to the
+contents of the pleadings, including attachments.  Brand Coupon Network,
+L.L.C. v. Catalina Mktg. Corp., 748 F.3d 631, 635 (5th Cir. 2014).  The Court
+may also consider document s attached to a motion to dismiss or an
+opposition to that motion when the documents are referred to in the
+pleadings and are central to a plaintiff’s claims.  Id.  “In addition to facts
+alleged in the pleadings, however, the district court ‘may also consi der
+matters of which [it] may take judicial notice.’”  Hall v. Hodgkins , 305 F.
+App’x 224, 227 (5th Cir. 2008) (citing Lovelace v. Software Spectrum, Inc.,
+Case 2:21-cv-01074-SSV-DPC   Document 30   Filed 01/28/22   Page 7 of 37
+8
+
+78 F.3d 1015, 1017 -18 (5th Cir. 1996)).   Here, Cardtronics attaches the
+relevant Agreement between the two parties to its motion to dismiss. 36  The
+Court may consider this agreement  for the purposes of this motion,  as it is
+referenced in and essential to the complaint.  Brand Coupon Network, 748
+F.3d at 635.
+
+III. DISCUSSION
+A. Contractual Claims
+Plaintiff contends that Cardtronics breached several provisions of the
+Agreement and violated its implied covenant of good faith and fair dealing.37
+The Court must  first decide which law to apply to  plaintiff’s breach -of-
+contract claims.
+1. Choice-of-Law
+The Agreement between the parties contains a choice of law provision,
+which states:
+This Agreement shall be governed by the laws of the State of
+Louisiana applicable to contracts made and to be performed
+wholly within such state, without regard to principles of conflicts
+of law.  Customer [USAG] hereby irrevocably and
+unconditionally consents and submits to the in personam
+jurisdiction of any courts in Orleans Parish, State of Louisiana
+having jurisdiction over matters relating to this Agreement, and
+such courts shall be the exclusive forum for the resolution of any
+
+36  R. Doc. 15-2.
+37  R. Doc. 1 ¶¶ 27, 32.
+Case 2:21-cv-01074-SSV-DPC   Document 30   Filed 01/28/22   Page 8 of 37
+9
+
+and all disputes brought by Customer [USAG], unless otherwise
+agreed in writing.38
+Federal courts sitting in diversity apply the choice-of-law rules of the forum
+state.  Klaxon Co. v. Stentor Elec.  Mfg. Co., 313 U.S. 487, 498 -97 (1941).
+Under Louisiana law, contractual choice -of-law provisions are presumed
+valid, unless the chosen law “contravenes the public policy” of the state
+whose law would otherwise apply.  See La. Civ. Code art. 3540 ; see als o
+Barnett v. Am. Const. Hoist, Inc. , 91 So. 3d 345, 349 (La. App. 1 Cir. 2012)
+(“A choice of law provision in a contract is presumed valid until it is proved
+invalid.”).  Here, both parties agree that the choice-of-law provision is valid,
+and that Louisiana law applies to plaintiff’s contractual claims.39
+Under Louisiana law, “[t]he essential elements of a breach of contract
+claim are [that] (1) the obligor [] undert[ook] . . . an obligation to perform,
+(2) the obligor failed to perform the obligation (the  breach), and (3) the
+failure to perform resulted in damages to the oblige.”  Favrot v. Favrot , 68
+So. 3d 1099, 1108-09 (La. App. 4 Cir. 2011).
+USAG points to nine provisions in  the Agreement that it asserts
+Cardtronics breached by suspending the agreed -upon services and giving
+
+38  R. Doc. 15-2 § 11.6.
+39  R. Doc. 15-1 at 9-13; R. Doc. 16 at 6.
+Case 2:21-cv-01074-SSV-DPC   Document 30   Filed 01/28/22   Page 9 of 37
+10
+
+plaintiff’s confidential information to a third party, LibertyX.40  As a result
+of these breaches, USAG represents that it suffered damages, specifically that
+it was cut out of its processing relationships with defendant and LibertyX ,
+and that Cardtronics effectively stole USAG’s customer.41  In its motion to
+dismiss, Cardtronics  does not dispute that it agreed to undertake certain
+obligations in the parties’ Agreement. 42  Defendant instead asserts that
+plaintiff’s contractual claims should be dismissed because they are not
+supported “by a single factual allegation in the Complaint .”43  The Court
+addresses each of plaintiff’s alleged contract violations in turn.
+2. Failure to Provide Services: Sections 2.1, 2.3 & 3.344
+First, plaintiff asserts that Cardtronics violated the Agreement by
+suspending services that it was contractually obligated to provide to plaintiff
+under sections 2.1, 2.3, and 3.3.  The services that defendant agreed to
+provide are detailed in section 2.1 of the Agreement, which states:
+
+40  Id. ¶ 27.
+41  Id. ¶¶ 20-21, 57.
+42  R. Doc. 15-1 at 14.
+43  Id.
+44  Plaintiff’s complaint states that defendant’s failure to provide services
+violated “the Agreement §§ 2.1 and 3.3.”  R. Doc. 1 ¶ 27 (emphasis
+added).  Th e Court is unable to discern that obligation section 3.3
+imposes on defendant.  Plaintiff’s opposition to defendant’s motion to
+dismiss clarifies that defendant “breached the Agreement by failing to
+provide the services agreed to under Sections 2.1 and 2.3.”  R. Doc. 16
+at 8 (emphasis added).
+Case 2:21-cv-01074-SSV-DPC   Document 30   Filed 01/28/22   Page 10 of 37
+11
+
+2.1 Services.  Subject to the terms and conditions of this
+Agreement, and provided that Customer [USAG] fulfills all of its
+obligations hereunder, CDS shall provide Services as requested
+by Customer [USAG] to drive the Terminals located at the Sites,
+to link such Terminals with one or more networks, to transmit
+Transactions initiated at such Terminals through a Network, to
+transmit electronic messages to such Terminals and to provide
+to Customers periodic electronic reports of Transactions
+generated at such Terminals.45
+In section 2.3, defendant agreed to provide those “Services on a 24-hour per
+day basis, seven days a week,” except for “down time” under the following
+circumstances: “(a) for maintenance or equipment installation, (b) facility or
+system modifications or upgrades, or (c) resulting from Network
+unavailability, power failures or other events beyond the control of CDS.” 46
+Section 3.3 of the Agreement provides that “CDS shall not be required to
+provide Services with respect to a Terminal, until the following prerequisites
+were met:” (1) USAG “obtained a Sponsoring Bank providing Network access
+for such Terminal,” (2) USAG “completed and delivered to CDS a Terminal
+Set-up Form and an ACH Authorization for the applicable account,” and (3)
+CDS received “notice to Customer or commencement of Services to such
+Terminal, accepted such Terminal Set-up Form and ACH Authorization.”47
+
+45  R. Doc. 15-2 § 2.1 (emphasis added).
+46  Id. § 2.3.
+47  Id. § 3.3.
+Case 2:21-cv-01074-SSV-DPC   Document 30   Filed 01/28/22   Page 11 of 37
+12
+
+Plaintiff asserts that , although it fulfilled the conditions laid out in
+section 3.3, Cardtronics breached its duty to provide plaintiff with “periodic
+electronic reports”48 of transactions, as required by sections 2.1 and 2.3.  In
+its complaint, USAG represents that , on March 15, 2021, two days before it
+received LiberyX’s notice of termination, it “suddenly stopped receiving
+reporting from Cardtronics on all of LibertyX’s 28,484 ATM accounts.”49  In
+addition to no longer receiving reports, plaintiff also alleges that Cardtronics
+stopped providing it with online access to LibertyX’s reports.50  Given these
+factual allegations, t he Court finds that plaintiff has adequately stated a
+breach-of-contract claim as to Cardtronics ’s failure to provide reporting to
+USAG on LibertyX’s transactions, as required under section s 2.1 and 2.3 of
+the Agreement.
+Defendant does not dispute that it stopped providing these reports  to
+USAG, nor does it assert that plaintiff had not fulfilled its obligations under
+the Agreement, which might excuse its non-performance.  Rather, defendant
+asserts the affirmative defense that its compliance with section 2.6 of the
+
+48  R. Doc. 15 -2 § 2.1.  Neither party has explained how frequently
+“periodic” required Cardtronics to provide reports to plaintiff.  At this
+stage o f the litigation, the Court cannot conclude that Cardtronics
+failure to provide electronic reports on March 15, 2021 met the
+“periodic reporting” requirement as required by section 2.1.
+49  R. Doc. 1 ¶ 17; R. Doc. 20 at 4.
+50  R. Doc. 1 ¶ 17; R. Doc. 20 at 4, 8.
+Case 2:21-cv-01074-SSV-DPC   Document 30   Filed 01/28/22   Page 12 of 37
+13
+
+Agreement defeats plaintiff’s breach -of-contract claim as to the failure to
+provide services.  Specifically, defendant contends that, under section 2.6 of
+the Agreement, it  is permitted to “modify the Services provided ,” and that
+plaintiff’s remedy for such a material change is “limit[ed] . . . to cancellation
+of the Contract without penalty.”51  Section 2.6 provides that:
+2.6 Changes to Services.  CDS reserves the right to modify the
+Services provided during the term of this Agreement.  If any such
+modification constitutes a material change, Customer may
+cancel the modified Service, without penalty, by delivering the
+CDS written notice  of termination within 30 days after
+Customer’s [USAG] receipt of updated documentation
+describing the changes, such termination to be effective 30 days
+after receipt by CDS of timely written notice of termination from
+Customer.  Such termination shall not  affect the parties’ rights
+and obligations under this Agreement with respect to any other
+Services.52
+Although section 2.6 permits defendant  to modify the services it
+provides to USAG, it lacks—contrary to defendant’s assertion—any language
+providing that USAG’s remedy in such a situation is limited to cancellation
+of the Agreement without penalty.   Further, in order to modify the services
+defendant provides, section 2.6 requires it to provide USAG with “updated
+documentation describing the changes.”  Defendant fails to address whether
+it met th is procedural requirement by providing  plaintiff with updated
+
+51  R. Doc. 15-1 at 14.
+52  R. Doc. 15-2 § 2.6.
+Case 2:21-cv-01074-SSV-DPC   Document 30   Filed 01/28/22   Page 13 of 37
+14
+
+documents.  To the contrary, plaintiff alleges that it never received
+“documentation describing the changes,” and instead represents that when
+it “learn ed that it no longer had access to online reporting on the 28,484
+TIDs,” it contacted  a Cardtronics customer -service employee ,” who told
+USAG “to contact LibertyX directly.” 53  Accordingly, because plaintiff has
+adequately alleged that defendant did not co mply with section 2.6’s
+requirements, it may not invoke that provision as a defense for its failure to
+provide the services required elsewhere in the Agreement.   See Clark v.
+Amoco Production Co. , 794 F.2d 967, 971 (5th Cir. 1986) (reversing the
+district court’s grant of defendants’ motion to dismiss based on defendants’
+affirmative defense where defendants had not established each element of
+their defense in the pleadings).
+Because the Court finds that USAG has stated a plausible claim for
+breach of contract as to defendant’s failure to provide the services required
+under sections 2.1 and 2.354 of the Agreement, the Court denies defendant’s
+motion to dismiss as to this claim.
+
+53  R. Doc. 1 ¶ 18.
+54  To the extent that plaintiff alleges defendant violated section 3.3 as
+well, the Court dismisses this claim.  See supra note 44.
+Case 2:21-cv-01074-SSV-DPC   Document 30   Filed 01/28/22   Page 14 of 37
+15
+
+3. Failure to Honor Terminal Setup Instructions and Allowing
+a Third-Party Access to those Systems and Reporting:
+Section 2.5
+
+Next, plaintiff contends that Cardtronics breached section 2.5 of the
+Agreement by failing to honor terminal setup instructions, and by allowing a
+third party, LibertyX, access to those systems and reports. 55  In full, section
+2.5, titled “Acceptance of Terminal Set -up Forms ,” states that “CDS may
+accept or reject any Terminal Set -up Form for any reason in its sole
+discretion.”56
+The Court finds that plaintiff fails to allege the elements for a breach of
+contract claim as to section 2.5.   Notably, it fails  to properly allege that
+Cardtronics violated any obligation related to terminal setup instructions or
+third-party access that section 2.5 allegedly imposed on defendant.  There is
+nothing in section 2.5 that requires defendant to follow particular “terminal
+setup instructions,” or that prohibits defendant from permitting a third party
+to access terminal set -up forms.  On the contrary, the provision gives
+defendant unfettered discretion to accept or reject terminal set -up forms.
+The Court therefore dismisses plaintiff’s breach -of-contract claim as to
+section 2.5.  See 2002 JBO Trust No. 1 v. Royal Bank of Canada, No. 12 -
+
+55  R. Doc. 1 ¶ 27.
+56  R. Doc. 15-2 § 2.5.
+Case 2:21-cv-01074-SSV-DPC   Document 30   Filed 01/28/22   Page 15 of 37
+16
+
+1344, 2013 WL 871537, at *9 (E.D. La. Mar. 8, 2013) (holding that pl aintiffs
+had not set forth a facially plausible claim for breach of contract because they
+failed to “provide any facts that would allow the Court to assess the
+obligations imposed on defendants by the contract [or] to determine whether
+plaintiffs have successfu lly pleaded facts demonstrating that defendants
+breached the contract terms”).
+
+4. Suspending Services Without Valid Justification: Section 2.4
+
+Plaintiff further argues that defendant violated section 2.4 of the
+Agreement when it suspended services without a valid justification. 57  As
+previously discussed, plaintiff represents that defendant suspended the
+services it had agreed to provide under section 2.1 of the Agreement when it
+stopped providing USAG with reporting on LibertyX’s 28,484 TIDs.  Section
+2.4 permits Cardtronics to “at any time suspend its Services with respect to
+any one or more of the Terminals” without liability to plaintiff , if any of the
+following situations occurs:
+(a) Customer has violated any Network Rule or has breached any
+covenant or obligation under this Agreement, (b) the Terminal
+has not been property maintained, is defective, does not dispense
+cash correctly or does not meet the requirements of any Network
+Rules, (c) any debit or credit initiated by CDS for Settlement, the
+payment of Fees or any Adjustment is rejected for any reason,
+(d) the Sponsoring Bank withdraws or terminates the
+
+57  R. Doc. 1 ¶ 27.
+Case 2:21-cv-01074-SSV-DPC   Document 30   Filed 01/28/22   Page 16 of 37
+17
+
+sponsorship of Customer, (e) the Terminal is not audited on a
+regular basis by Customer, or (f) the Terminal is moved from the
+Site set forth on the applicable approval Terminal Set-up Form.58
+ In response, defendant does not assert that it stopped providing
+services because of a condition specified in section 2.4.  Instead, defendant
+simply contends that “there are no factual allegations supporting [plaintiff’s]
+claim.”59  Plaintiff  has sufficiently alleged that defendant violated the
+Agreement by suspending services absent a valid justification in section 2.4.
+The Court therefore denies defendant’s motion to dismiss as to this claim.
+
+5. Refusing to Honor Cancellation of Services: Section 2.6
+
+Next, plaintiff alleges that Cardtronics failed to honor its “cancellation
+of services ” after it provided “notice  to Cardtronics under § 2.6.” 60  As
+previously discussed, section 2.6 gives Cardtronics the right to modify the
+services it provides to plaintiff, and that if such a modification is a material
+change, plaintiff is permitted to  terminate the Agreement without penal ty
+“by delivering to CDS written notice of termination within 30 days after
+[plaintiff’s] receipt of updated documentation describing the changes.” 61
+
+58  R. Doc. 15-2 § 2.4.
+59  R. Doc. 15-1 at 14.
+60  R. Doc. 1 ¶ 27.
+61  R. Doc. 15-2 § 2.6.
+Case 2:21-cv-01074-SSV-DPC   Document 30   Filed 01/28/22   Page 17 of 37
+18
+
+Plaintiff’s termination would become effective 30 days after defendant
+received its written notice of termination, and would “not affect the parties’
+rights and obligations under th[e] Agreement with respect to any other
+Services.”62  But plaintiff never addresses whether  it requested the
+cancellation of services, or whether it provided Cardtronics with wr itten
+notice of its request as required by section 2.6.  Plaintiff simply states that it
+“notified Cardtronics about its breaches and interferences on or around
+March 17, 2021.”63  Moreover, plaintiff never specifies in what ways
+Cardtronics refused to honor plaintiff’s alleged cancellation.  B ecause
+plaintiff has not pl ed sufficient factual content to support an inference that
+defendant is liable for not honoring plaintiff’s alleged termination of services
+under section 2.6, see Iqbal, 556 U.S. at 678, the Court dismisses this breach-
+of-contract claim.
+
+6. Terminating the Agreement Without Notice: Section 6.2
+As part of its breach-of-contract claim,  plaintiff also asserts that
+Cardtronics terminated “portions of the Agreement” without providing
+USAG with the requisite notice  under section 6.2. 64  Section 6.2, titled
+
+62  Id.
+63  R. Doc. 1 ¶ 23.
+64  Id. ¶ 27.
+Case 2:21-cv-01074-SSV-DPC   Document 30   Filed 01/28/22   Page 18 of 37
+19
+
+“Termination Prior to the End of Term, ” provides that the Agreement may
+be terminated early “only” in the following situations:
+(a) Either party may terminate this Agreement immediately by
+written notice to the other party following the occurrence of a
+material breach or default by the other party . . . .
+(b) Either part y may terminate this Agreement immediately,
+without liability, upon written notice to the other (i) if the other
+party (A) makes a general assignment for the benefit of creditors,
+(B) applies for the appointment of a trustee, liquidator or
+receiver for its  business or property, or one is assigned
+involuntarily, (C) is subject to a proceeding for bankruptcy,
+receivership, insolvency or liquidation, or (D) is adjudicated
+insolvent or bankrupt[]. . . .
+(c) CDS may terminate this Agreement or curtail or restri ct the
+provision of Services hereunder at any time or times, without
+liability, upon written notice to Customer following the issuance
+of any order, rule or regulation, the enactment of any law or
+decision of any court of component jurisdiction over CDS that
+prohibits CDS from providing the Services or restricts the
+provisions of such Services . . . .
+(d) Customer may terminate this Agreement with respect to the
+affected Services in accordance with Section 2.6 and Section 5.2
+of this Agreement.65
+The Court finds that plaintiff has not adequately alleged that defendant
+violated section 6.2 by terminating “portions of the Agreement without
+notice.”  Section 6.2 requires Cardtronics to provide written notice to
+plaintiff for early termination in certain scenarios.  But plaintiff never states
+which scenario is applicable here and thereby triggered defendant’s duty to
+
+65  R. Doc. 15-2 § 6.2.
+Case 2:21-cv-01074-SSV-DPC   Document 30   Filed 01/28/22   Page 19 of 37
+20
+
+provide written notice.  Although plaintiff elsewhere in its complaint alleges
+that defendant materially breached the Agreement, suggesting the
+applicability of section 6.2 (a), there is no requirement in subpart (a) that
+defendant provide notice.  Instead, section 6.2(a) permits plaintiff to
+terminate the Agreement because of defendant’s material breach if plaintiff
+provides notice to defendant.  A bsent plaintiff’s identification of a scenario
+in section 6.2 that trigger s defendant’s obligation to provide notice to
+plaintiff, defendant does not have a standalone duty to provide such notice.
+Because USAG has failed to identify the source of defendan t’s obligation, it
+falls short of alleging the essential elements of a breach -of-contract claim.
+The Court thus dismisses USAG’s breach of-contract-claim as to section 6.2.
+
+7. Failing to Honor its Continuing Obligations: Section 6.3
+Plaintiff also alleges t hat Cardtronics failed to honor its continuing
+obligations in violation of section 6.3 of the Agreement.66  Section 6.3, titled
+“Continuing Obligations,” states:
+Termination of expiration of this Agreement shall not relieve
+either party from any obligations accrued through the date of
+termination.  In addition, the terms and conditions set forth in
+this Agreement that by their terms or nature would continue
+beyond termination or expiration hereof (including, by way of
+illustration only and not in limitation, the provisions hereof
+
+66  R. Doc. 1 ¶ 27.
+Case 2:21-cv-01074-SSV-DPC   Document 30   Filed 01/28/22   Page 20 of 37
+21
+
+relating to confidentiality, the maintenance of Accounts and
+amounts therein as set forth in Section 3.5, and the payment of
+amounts due u nder Section 6.4) shall survive termination or
+expiration of this Agreement.67
+Section 6.3 provides a broad range of “continuing obligations” that may be
+applicable following the termination of the Agreement.  Plaintiff’s complaint
+does not  identify which  of these broadly defined  “continuing obligations”
+defendant breached  following the termination or expiration of the
+Agreement.  Because plaintiff has not pointed to any specific continuing
+obligation defendant was contractually obligated to provide, its breach -of-
+contract claim as to section 6.3 must be dismissed.  See 2002 JBO Trust No.
+1, 2013 WL 871537, at *10 (dismissing plaintiff s’ breach-of-contract claim
+because of plaintiffs’ failure to identify the “contractual duties owed by
+defendants”).
+8. Failing to U se Ordinary Care and Failing to Correct its
+Errors: Section 9.1
+
+USAG next alleges that defendant failed to use “ordinary care ,” and
+failed to correct its errors , in violation of  section 9.1 of the Agreement. 68
+Under Section 9.1,
+CDS warrants that it will use ordinary care in providing the
+Services and will, at CDS’s expense, correct any errors that are
+due solely to CDS personnel or the computer programs
+
+67  R. Doc. 15-2 § 6.3.
+68  R. Doc. 1 ¶ 27.
+Case 2:21-cv-01074-SSV-DPC   Document 30   Filed 01/28/22   Page 21 of 37
+22
+
+developed and implemented by CDS.  CDS’s sole liability to
+Customer for breach of this warranty shall be, without additional
+charge to Customer, to make such corrections as may be
+necessary to keep the Services in operating order in accordance
+with CDS’s specification, and Customer agrees to accept the
+correction of errors by CDS as its sole and exclusive remedy.69
+In response, defendant asserts that USAG’s complaint provides no specific
+allegations about how it failed to exercise ordinary care , or what the
+applicable standard of care is.70
+Plaintiff’s complaint is notably lacking  in specific facts and plausible
+allegations as to the ways  in which defendant fell below the standard of
+ordinary care in providing services .  More critically, plaintiff never asserts
+that any alleged “errors” were “due solely to CDS personnel or the computer
+programs developed and implemented by CDS.”  Because plaintiff has failed
+to plead factual allegations that would support its breach-of-contract claim
+under section 9.1, the Court grants defendant’s motion to dismiss as to this
+claim.
+
+9. Violations of Confidentiality: Section 7.1
+Finally, USAG asserts that Cardtronics breached the Agreement’s
+confidentiality provision  by providing LibertyX with access to plaintiff’s
+
+69  R. Doc. 15-2 § 9.1.
+70  R. Doc. 15-1 at 15.
+Case 2:21-cv-01074-SSV-DPC   Document 30   Filed 01/28/22   Page 22 of 37
+23
+
+confidential information “for the purpose of allowing LibertyX to process
+direct with Cardtronics or to move all of USAG’s customers to a third party.”71
+USAG alleges that Cardtronics shared the following  “confidential
+information”: (1) TIDs/Keys, (2) USAG’s confidential login information and
+aggregated account information, and (3) USAG’s pricing information. 72  In
+response, Cardtronics contends that the Agreement’s confidentiality
+provision does not extend to the information that plaintiff alleges defendant
+shared with LibertyX in violation of section 7.1.73
+The confidentiality provision in section 7.1  defines confidential
+information as “a party’s proprietary or confidential information designated
+in writing as such or that by nature of the circumstances s urrounding the
+disclosure ought to, in good faith, be treated as proprietary or confidential,
+including the Services and any trade secrets contained therein.”74  Section 7.1
+further states that the confidentiality restrictions shall not apply to
+information that:
+(i) is or becomes publicly known through no wrongful act of the
+party receiving the Confidential Information; or (ii) becomes
+known to a party without confidential or proprietary restrictions
+from a source other than the disclosing party; or (iii) a party can
+
+71  R. Doc. 1 ¶¶ 22, 27.
+72  R. Doc. 1 ¶ 21.
+73  R. Doc. 15-2 § 7.1.
+74  R. Doc. 15-2 § 7.1.
+Case 2:21-cv-01074-SSV-DPC   Document 30   Filed 01/28/22   Page 23 of 37
+24
+
+show by written records [that were] in its possession prior to
+disclosure by the other party.75
+USAG does not assert that any of its allegedly “confidential
+information” was labeled or designated in writing as confidential or
+proprietary.  USAG also does  not allege that this information should have
+been treated as confidential given the circumstances under which plaintiff
+disclosed the information to Cardtronics.  Instead, plaintiff admits in its
+complaint that it was Cardtronics who provided USAG with bo th the
+TID/Keys and USAG’s login information/account information. 76  As to
+plaintiff’s allegation that defendant shared its pricing information with
+LibertyX, the Court notes that pricing information can  be treated as
+confidential information.  But plaintiff here fails to plausibly allege specific
+facts concerning defendant’s access to and disclosure of any specific type of
+pricing information to LibertyX.  Moreover, given that LibertyX is plaintiff’s
+former customer, it would have had access to at least some of plaintiff’s
+pricing information.
+Accordingly, because plaintiff has failed to plausibly  allege that its
+confidential information is covered by section 7.1,  or that defendant shared
+
+75  Id.
+76  R. Doc. 1 ¶¶ 7, 9.
+Case 2:21-cv-01074-SSV-DPC   Document 30   Filed 01/28/22   Page 24 of 37
+25
+
+such information with LibertyX,  its claim for breach of the confidentiality
+provision must be dismissed.
+
+10. Breach of Implied Covenant of Good Faith and Fair Dealing
+
+In plaintiff’s second cause of action, USAG alleges that Cardtronics
+willfully breached an implied coven ant of good faith and fair dealing by
+“undercut[ting] USAG to work directly with LibertyX after USAG had
+expended substantial effort and financial resources to facilitate the
+relationship between Cardtronics, USAG, and LibertyX.”77  USAG represents
+that it has shown that Cardtronics acted with a sinister motive by using
+USAG’s proprietary information to “conspire” with USAG’s customer,
+Liberty, to cut USAG out of the Agreement, and then refusing to inform
+plaintiff about its suspension of services. 78  Defen dant asserts that USAG
+presents only “legal conclusions ,” and makes no reference to fraud, ill will,
+or sinister motivation in pleading its second cause of action, and that
+therefore, its claim for breach of implied covenant of good faith and fair
+dealing must be dismissed.79
+
+77  R. Doc. 1 ¶ 32.
+78  R. Doc. 16 at 12.
+79  R. Doc. 15-1 at 18.
+Case 2:21-cv-01074-SSV-DPC   Document 30   Filed 01/28/22   Page 25 of 37
+26
+
+Under Louisiana law, good faith performance is considered an
+“implied requirement of every contract.”  Grisaffi v. Dillard Dep’t Stores,
+Inc., 43 F.3d 982, 983 (5th Cir. 1995) (citing La. Civ. Code art. 1983).   T o
+state a cause of action for breach of the duty of good faith and fair dealing,
+plaintiff must allege that the defendant’s actions were prompted by fraud, ill
+will, or sinister motivation.   Com. Nat’l Bank v. Audubon Meadow P’Ship ,
+566 So. 2d 1136, 1139 (La. App. Ct. 1990).  “Bad faith” is defined as
+[t]he opposite of “good faith,” generally implying or involving
+actual or constructive fraud, or a design to mislead or deceive
+another, or a neglect or refusal to fulfill some duty or some
+contractual obligation, not prompted by an honest mistake as to
+one’s rights or duties but by some interested or sinister motive.
+Industrias Magromer Cueros y Pieles S.A. v. La. Bayou Furs Inc., 293 F.3d
+912, 922 (5th Cir. 2002).
+ Here, plaintiff alleged facts that Cardtronics purposefully refused to
+fulfill terms of the Agreement in order to prevent plaintiff from receiving “the
+fruits of the Agreement.”80  The Court finds that after drawing all reasonable
+inference in favor of plaintiff, these allegations amount to  a plausible claim
+that Cardtronics’s nonperformance was in bad faith, and not  an honest
+mistake.  See, e.g., Occidential Chem. Corp. v. La. Pub. Serv. Com’n, 494 F.
+Supp. 2d 401, 416 (M.D. La.  2007) (finding that plaintiffs stated a cause of
+
+80  R. Doc. 1 ¶ 32.
+Case 2:21-cv-01074-SSV-DPC   Document 30   Filed 01/28/22   Page 26 of 37
+27
+
+action for br each of the duty of good faith and fair dealing by alleging that
+defendants sought to deprive them “of the benefits of their bargain” when
+defendants “unilaterally” modified the terms of the parties’ agreement).  The
+Court thus finds that plaintiff has sufficiently stated a claim for breach of the
+duty of good faith and fair dealing , so as to survive defendant’s motion to
+dismiss.  Defendant’s motion to dismiss is denied as to this claim.
+
+11. Motion for More Definite Statement
+Cardtronics also brings a motion for a more definite statement under
+Federal Rule of Civil Procedure 12(e) on plaintiff’s breach- of-contract
+claims.81  Cardtronics’s Rule 12(e) motion is brought in the alternative to its
+Rule 12(b)(6) motion.82  Having found that three of plaintiff’s contract claims
+survive the 12(b)(6) inquiry , the Court denies the Rule 12(e) motion as to
+those claims.83  Having granted defendant’s motion to dismiss under Rule
+12(b)(6) as to the remainder of plaintiff’s contractual claims ,84 the Court
+
+81  R. Doc. 15-1 at 13, 17.
+82  Id.
+83  (1) Failure to provide the services agreed upon under the Agreement,
+sections 2.1, and 2.3, (2) suspension of services without valid
+justification, section 2.4, and (3) breach an implied covenant of good
+faith and fair dealing.
+84  Plaintiff’s breach-of-contract claims under sections 2.5, 2.6, 3.3, 6.2,
+6.3, 7.1, and 9.1.
+Case 2:21-cv-01074-SSV-DPC   Document 30   Filed 01/28/22   Page 27 of 37
+28
+
+finds that th e Rule 12(e) motion is moot.  Accordingly, the Court denies
+defendant’s motion under Rule 12(e).
+
+B. Non-Contractual Claims
+In addition to its contractual claims, USAG also brings multiple tort
+claims against defendant, including intentional interference with
+prospective economic advantage, unfair trade and business practices  under
+the California Business and Professions Code, unjust enrichment , and
+promissory fraud under the California Civil Code .85  The Court must first
+determine which state’s law applies to plaintiff’s tort claims.
+1. Choice-of-Law
+Defendant seeks dismissal of plaintiff’s tort claims brought under
+California law, on the grounds that Louisiana law, not California law, applies.
+As noted, the parties’ Agreement contains a choice -of-law provision
+which states that the “Agreement shall be governed by the laws of the State
+of Louisiana applicable to contracts made and to be performed wholly within
+such state, without regard to principles of conflicts of law. ”86  Although the
+parties agree that Louisiana law applies to plaintiff’s breach -of-contract
+
+85  R. Doc. 1 ¶¶ 34-57.
+86  R. Doc. 15-2 § 11.6.
+Case 2:21-cv-01074-SSV-DPC   Document 30   Filed 01/28/22   Page 28 of 37
+29
+
+claims, they dispute whether the choice-of-law provision governs plaintiff’s
+non-contractual claims.  Plaintiff asserts that its non-contractual claims are
+governed by California law.87  In response, defendant contends that, because
+all of plaintiff’s claims “relate to the alleged performance or non -
+performance of the Contract,” they are all governed by the choice -of-law
+provision.88  Defendant also argues that , under Louisiana choice -of-law
+rules, Louisiana law controls because plaintiff has not shown that California
+law would be otherwise applicable, or that the application of Louisiana law
+would violate a public policy of California.89
+As an initial matter, the Court must determine which jurisdiction’s law
+governs the scope of the Agreement’s choice -of-law provision.  As noted by
+the Second Circuit Court of Appeals, “determining which jurisdiction’s law
+governs the scope of a valid choice-of-law clause is not a simple matter.”  Fin.
+One Pub. Co. v. Lehman Bros. Special Fin. , Inc., 414 F.3d 325, 332 -33 (2d
+Cir. 2005).  Jurisdictions are split on this matter.  Some jurisdictions have
+concluded that the scope of a choice-of-law provision is a matter of contract
+interpretation subject to the law chosen by that provision.  Id. at 333.  Other
+jurisdictions determine a provision’s scope under the same law that governs
+
+87  R. Doc. 1 ¶ 5; R. Doc. 16 at 6.
+88  R. Doc. 20 at 1.
+89  R. Doc. 15-1 at 12.
+Case 2:21-cv-01074-SSV-DPC   Document 30   Filed 01/28/22   Page 29 of 37
+30
+
+the provision’s enforceability, i.e., the law of the forum state.  Id. at 332.
+Here, t he Court need not enter this conflict.  Under either ap proach,
+Louisiana law governs the scope of the choice-of-law provision, because it is
+both the contractually chosen law and the forum state.
+Under Louisiana law, choice -of-law provisions that refer narrowly to
+the contract govern only matters of contract interpretation and enforcement,
+and do not extend to tort claims.  See, e.g., Dorsey v. N. Life Ins. Co., No. 04-
+342, 2005 WL 2036738, at *6 (E.D. La. Aug. 15, 2005) (“Because the choice
+of law provision applies only to ‘[t]his Agreement,’ the cla use does not
+encompass plaintiffs’ tort and statutory claims . . . .”); Foshee v. Torch
+Operating Co., 763 So. 2d 82, 88 -90 (La. App. 3 Cir. 2000) (holding that a
+choice-of-law clause that stated “This agreement shall be governed by and
+construed . . . in accordance with the law of the state of Louisiana” did not
+govern the determination of whether an employee was an independent
+contractor); see also El Pollo Loco, S.A. de C.V. v. El Pollo Loco, Inc., 344 F.
+Supp. 2d 986, 989 (S.D. Tex. 2004) ( “[The] Fifth Circuit has narrowly
+construed choice of law clause s so as only to apply to contract claims, and
+not tort claims arising out of the contractual dispute.”).
+Here, the parties’ Agreement contains a narrow choice -of-law
+provision that merely says: “This “Agreement shall be governed by the laws
+Case 2:21-cv-01074-SSV-DPC   Document 30   Filed 01/28/22   Page 30 of 37
+31
+
+of the State of Louisiana applicable to contracts made and to be performed
+wholly within such state . . . .” 90 The provision governs only the Agreement,
+and does not purport to cover all disputes that may emerge betwee n the
+parties.  Thus, Louisiana law dictates that the Agreement’s choice -of-law
+clause does not apply to plaintiff’s tort claims against defendant.
+Defendant’s first argument for dismissal of plaintiff’s tort claims therefore
+fails.91
+Because the choice -of-law clause does not dictate choice of law as to
+plaintiff’s tort claims, the Court must apply the choice -of-law methodology
+contained in Louisiana’s Civil Code.  See Klaxon, 313 U.S. at 498-97 (holding
+that a federal court sitting in diversity applies th e choice-of-law rules of the
+forum state).  Louisiana Civil Code article 3542 provides  that “an issue of
+delictual or quasi -delictual obligations is governed by the law of the state
+whose policies would be most seriously impaired if its law were not applie d
+to that issue.”  La. Civ. Code art. 3542.   To make this determination, courts
+consider “the pertinent contacts of each state to the parties and the events
+giving rise to the dispute, including the place of conduct and injury, the
+domicile, habitual residence, or place of business of the parties, and the state
+
+90  R. Doc. 15-2 § 11.6.
+91  R. Doc. 20 at 5.
+Case 2:21-cv-01074-SSV-DPC   Document 30   Filed 01/28/22   Page 31 of 37
+32
+
+in which the relationship, if any, between the parties was centered,” as well
+as “the policies of deterring wrongful conduct and of repairing the
+consequences of injurious acts.”  Id.  In addition, courts consider “the
+policies referred to in Article 3515,” id., which include “the policies and needs
+of the interstate and international systems , including the policies of
+upholding the justified expectations of the parties and of minimizing the
+adverse consequences that might follow from subjecting a party to the law of
+more than one state.”  La. Civ. Code art. 3515.
+“Choice-of-law decisions can be resolved at the motion to dismiss stage
+when factual development is not necessary to resolve the inquiry.”  Energy
+Coal v. CITGO Petroleum Corp. , 836 F.3d 457, 459 (5th Cir. 2016) ( citing
+Fortune v. Taylor Fortune Grp., LLC , 620 F. App’x 246, 247 -48 (5th Cir.
+2015) (per curiam)).  But, if at the motion -to-dismiss stage the Court has
+“been provided insufficient information to properly analyze” the conflict-of-
+law factors, then “it is premature [for the Court] to determine the governing
+law at th[at] stage.”  Mack Energy Co. v. Red Stick Energy, LLC , No. 16 -
+1696, 2019 WL 4887410, at *9 (W.D. La. Oct. 2, 2019); see also Floyd v. CIBC
+World Markets, Inc. , 426 B.R. 622, 64 0-41 (S.D. Tex. 2 009) (declining to
+decide choice of law on a motion to dismiss after finding that the parties’
+choice-of-law provision did not cover plaintiff’s tort claims ).  In Mack
+Case 2:21-cv-01074-SSV-DPC   Document 30   Filed 01/28/22   Page 32 of 37
+33
+
+Energy Company v. Red Stick Energy, LLC , the court denied defendant’s
+motion to dismiss after neither party “briefed the relationship of the alleged
+agreement to the forum state; . . . [or] how [the] application of one state’s law
+over another’s is compatible with the policies and needs of the interstate and
+international systems.”  2019 WL 4887410, at *9.  Similarly, in Wright’s Well
+Control Services, LLC v. Oceaneering International, Inc., this Court denied
+defendants’ motion to dismiss plaintiff’s tort claims, noting that “[a]lthough
+the choice of law determination is critical to their motion to dismiss,
+defendants have failed to demonstrate which law applies or to establish a
+factual foundation upon which the Court can rely to apply the relevant choice
+of law factors.”  No. 15-1720, 2015 WL 7281618, at *13 (E.D. La. Nov. 16,
+2015).
+As in Ma ck Energy and Wright’s Well, neither party here has
+adequately briefed the Court on the parties’ relationships with the candidate
+states absent the choice-of-law provision.  Plaintiff alleges in its complaint
+that “[s]ubstantial  pertinent acts . . . occurred in California and USAG
+suffered harm in California.” 92  USAG does not elaborate on what these
+“pertinent acts” are, let alone address several of the other factors laid out in
+article 3542.  Cardtronics’s briefing  is similarly inadequate.  Its motion to
+
+ 92  R. Doc. 1 ¶ 5.
+Case 2:21-cv-01074-SSV-DPC   Document 30   Filed 01/28/22   Page 33 of 37
+34
+
+dismiss focuses solely on the argument that under Louisiana Civil Code
+article 3540, the parties’ contractual selection is binding as to plaintiff’s tort
+claims absent a showing that the selected law contravenes the public policy
+of the state whose law would otherwise be applicable, and that plaintiff ha s
+not made this showing.93  But as noted above, the Court finds that the parties’
+contractual choice-of-law provision does not govern plaintiff’s tort claims ,
+and therefore, article 3540 does not apply.  And although defendant asserts
+that plaintiff has failed to plead a sufficient basis for California law to apply,94
+Cardtronics itself does not provide the Court with any information that
+would allow it to properly analyze article 3542’s factors.
+Notably, neither party lays out the pertinent contacts of each state to
+the parties nor the events giving rise to the dispute, such as the place of
+conduct, or the state in which the parties’ relationship was centered.  Further,
+the parties have not addressed how the application of one law over the other
+would impact the needs and policies of the interstate and international
+system, or their own expectations.  Without such briefing, the Court is unable
+to address the factors under article 3542 that are necessary to the choice-of-
+law analysis.  Accordingly, the Court denies defendant’s motion to dismiss as
+
+93  R. Doc. 15-1 at 11.
+94  Id. at 12.
+Case 2:21-cv-01074-SSV-DPC   Document 30   Filed 01/28/22   Page 34 of 37
+35
+
+to plaintiff’s t hree causes of action that are pleaded specifically under
+California law : (1) intentional interference with prospective e conomic
+advantage,95 (2) unfair trade and business practices , and (3) promissory
+fraud.
+2. Unjust Enrichment
+As for plaintiff’s generally pleaded tort claim—unjust enrichment—the
+Court finds that both Louisiana and California recognize this cause of action
+and that under either state’s substantive law , plaintiff has failed to state a
+claim upon which relief can be granted.  See Schneider Nat. Transport v.
+Ford Motor Co., 280 F.3d 532, 536 (5th Cir. 2002) (“If the laws of the states
+do not conflict, then no choice -of-law analysis is necessary.” (quoting W.R.
+Grace & Co. v. Cont’l Cas. Co., 896 F.2d 865, 874 (5th Cir. 1990))).  Neither
+
+95  Although the complaint does not explicitly label this claim as arising
+under a California statute, Louisiana law does not recognize a cause of
+action for intentional interference with prospective economic activity.
+See Petrohawk Properties, L.P. v. Chesapeake La., L.P., 689 F.3d 380,
+394-95 (5th Cir. 2012) (noting that the Supreme Court of Louisiana has
+“expressly refused to ad opt the broad common law doctrine of
+interference with a contract,” and instead has recognized an “extremely
+limited” cause of action for intentional interference with a contract, but
+only as applied to “a corporate officer’s duty to refrain from intentional
+and unjustified interference with the contractual relationship between
+his employer and a third person” (quoting 9 to 5 Fashions, Inc. v.
+Spurney, 538 So. 2d 228, 232 -34 (La. 1989))).  Moreover, plaintiff’s
+opposition explicitly states that it brings th is claim under California
+law.  R. Doc. 16 at 13.
+Case 2:21-cv-01074-SSV-DPC   Document 30   Filed 01/28/22   Page 35 of 37
+36
+
+Louisiana nor California law permit an unjust -enrichment claim to be pled
+in the alternative when the parties entered in to an express contract.  See
+Durell v. Sharp Healthcare , 183 Cal. App. 4th 1350, 1370 (2010) ( “As a
+matter of law, an unjust enrichment claim does not lie where the parties have
+an enforceable express contract.”); Peterson v. AWJ Glob. Sustainable Fund,
+LP, No. 15-650, 2015 WL 5921225, at *5 (N.D. Cal. Oct. 11, 2015) (noting that
+California law does not “provide an unjust enrichment remedy if the unjust
+enrichment claim arises from an actual contract”); Wilkins v. Hogan Drilling
+Co., 471 So. 2d 863, 867 (La . App. 2 Cir. 1985) (“One cannot recover in
+quantum meruit where there is an agreed contract between the parties.”) ;
+Harney v. Select Portfolio Servicing, Inc. , No. 16-1998, 2018 WL 1182407,
+at *10 (E.D. La. Mar. 7, 2018) (applying Louisiana law) (“Because Plaintiffs
+have alleged causes of action for breach of contract and in tort, Plaintiff
+cannot establish the fifth element [of Louisiana’s unjust enrichment claim],
+a lack of another remedy at law.”).
+Here, plaintiff’s unjust- enrichment claim cannot succee d under
+California or Louisiana law.  Plaintiff’s complaint states a cause of action for,
+among other things, breach of contract.  B ecause plaintiff has alleged the
+existence of a contractual remedy, it is precluded from maintaining a cause
+Case 2:21-cv-01074-SSV-DPC   Document 30   Filed 01/28/22   Page 36 of 37
+37
+
+of action for u njust enrichment.  The Court grants defendant’s motion to
+dismiss on plaintiff’s unjust-enrichment claim.
+
+IV. CONCLUSION
+
+For the foregoing reasons, the Court GRANTS IN PART and DENIES
+IN PART defendant’s motion to dismiss.  The Court DISMISSES plaintiff’s
+breach-of-contract claims under sections 2.5, 2.6, 3.3, 6.2, 6.3, 7.1, and 9.1 ,
+with leave to amend.  The Court DISMISSES  WITH PREJUDICE plaintiff’s
+unjust-enrichment claim.  As to the remainder of plaintiff’s claims, the Court
+DENIES defendant’s motion to dismiss.  Additionally, Cardtronics’s motion
+for a more definite statement is DENIED.  Plaintiff must file any amended
+complaint by Friday, February 11, 2022.
+
+New Orleans, Louisiana, this _____ day of January, 2022.
+
+_____________________
+SARAH S. VANCE
+UNITED STATES DISTRICT JUDGE
+28th
+Case 2:21-cv-01074-SSV-DPC   Document 30   Filed 01/28/22   Page 37 of 37
