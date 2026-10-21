@@ -1,0 +1,1842 @@
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+ORDER & REASONS
+Before the Court are six motions for summary judgment.  Individual co-defendants Thomas
+Skinner, John Harman, Carlton “Trey” Jones, III, and Larry Hollier (collectively, the “individual
+Defendants”) each filed his own motion for summary judgment against both plaintiffs, Katherine
+Muslow and Meredith Cunningham (together , “Plaintiffs”).1  Board of Supervisors of Louisiana
+State University and Agricultural and Mechanical College (“LSU,” and together with the
+individual Defendants, “Defendants”) filed two motions for summary judgment, one against each
+plaintiff.2  Plaintiffs respond to each motion in opposition.3  Defendants reply in further support
+of their motions.4  Having considered the parties’ memoranda, the record, and the applicable law,
+the Court grants each motion for the reasons set forth below.5
+
+1 R. Docs. 345; 347; 353; 372.
+2 R. Docs. 363; 365.
+3 R. Docs. 387; 388; 391; 396; 400; 402.
+4 R. Docs. 408; 410; 425; 427; 429; 432.
+5 Given the Court’s disposition of the motions for summary judgment, it need not consider the remaining
+pending motions, including LSU’s and Hollier’s motions in limine to exclude testimony of Leslie Schiff; LSU’s and
+Hollier’s motion s in limine  to exclude testimony of Elizabeth Martina; LSU’s and Hollier’s motion s in limine  to
+exclude testimony of Caren Goldberg; and Plaintiffs’ motion to strike exhibit from Jones’s reply in support of
+summary judgment.  R. Docs. 350; 351; 352; 373; 374; 375; 440.
+KATHERINE MUSLOW, et al.
+
+VERSUS
+
+BOARD OF SUPERVISORS OF
+LOUISIANA STATE UNIVERSITY
+AND AGRICULTURAL AND
+MECHANICAL COLLEGE, et al.
+
+CIVIL ACTION
+
+NO. 19-11793
+
+SECTION M (2)
+Case 2:19-cv-11793-BWA-DPC     Document 451     Filed 05/24/22     Page 1 of 84
+2
+
+I.  BACKGROUND
+ This case arises out of an employment dispute.  The LSU Health Sciences Center New
+Orleans (“LSUHSC-NO”) employed both Muslow, who served as full-time general counsel from
+2002-2019,6 and Cunningham, who served as a part -time staff attorney fr om 2014-2019.7  Each
+worked at LSU’s New Orleans location  pursuant to at -will employment contracts 8 until the
+summer of 2019, when LSU retired Plaintiffs’ respective positions in an effort to consolidate the
+university-wide legal team.9  Plaintiffs were on notice of the consolidation plan as early as August
+of 2018.10
+ This consolidation process began with L SU’s December 10, 2018 revision of Permanent
+Memorandum-72 (“PM -72”), which concerned “Obtaining Legal Services and the Office of
+General Counsel.”11  “University employees with legal degrees, but working outside of the Office
+of General Counsel, are not authorized to provide legal advice to or on behalf of the University,”
+the memorandum provided. 12  Accordingly, the revision mandated that only attorneys employed
+in or through the Office of General Counsel (“OGC”) could represent LSU on legal matters.13  To
+consolidate all legal services under  the OGC,14 LSU planned to (1) retire the two LSUHSC -NO
+pre-consolidation attorney positions, namely, Muslow’s position as general counsel and
+Cunningham’s position as staff attorney, on June 30, 2019; and (2) hire for two new OGC-attorney
+
+6 R. Doc. 365-1 at 2, 9.
+7 R. Doc. 363-1 at 2, 8.
+8 R. Docs. 363-1 at 2; 365-1 at 9.
+9 See R. Doc. 365-5 at 3 (email from Skinner to Muslow: “I understand that Chancellor Hollier met with you
+and let you know that in conjunction with the revision of PM 72, all LSU legal resources are being consolidated under
+one organization.”).
+10 R. Doc. 372-4 at 101.
+11 R. Doc. 365-6 at 1.
+12 Id.
+13 Id.
+14 R. Docs. 372-1 at 7; 372-4 at 110.
+Case 2:19-cv-11793-BWA-DPC     Document 451     Filed 05/24/22     Page 2 of 84
+3
+
+positions, which would be st ationed at LSUHSC-NO.15  LSU intended to transition Plaintiffs to
+the two new OGC positions.16
+On December 19, 2018, Thomas Skinner, Vice President of Legal Affairs and General
+Counsel at the OGC, emailed Muslow stating that all LSU legal resources were being consolidated
+under one organization, the OGC, and that LSU would “transition [Muslow] to OGC
+administratively sometime after January 1, with a new title of Chief Counsel of [LSU]HSC -NO,
+at the same compensation level.” 17  Weeks later, o n January 8, 2019, both Plaintiffs met with
+Skinner and Carlton “Trey” Jones, OGC Deputy General Counsel, to discuss consolidation and
+their transfer to the OGC.18  Before that meeting, Plaintiffs each received an email from the OGC’s
+business manager, Donna Dewailly, advising them of steps to facilitate their transfer from
+LSUHSC-NO to the OGC, which included “completing the online application information and
+attaching [their] resume[s]” so that Plaintiffs would  be “set up” in LSU’s Human Resources
+system.19  Later, Muslow received (1) the online application link referenced in Dewailly’s previous
+email; and (2) a proposed OGC employment contract for the rank of Chief Counsel in the OGC,
+with a starting salary of $227,520, and an effective date of February 1, 2019. 20  The new chief
+counsel salary matched her then -current salary as LSUHSC -NO general counsel, 21 despite the
+Baton Rouge Human Resources Management (“ HRM”) recommending a salary range between
+$156,000 and $188,000 for the new position. 22  Similarly, Cunningham received (1) the online
+application link referenced in Dewailly’s previous email ; and (2) a proposed OGC employment
+
+15 R. Doc. 365-5 at 24.
+16 R. Docs. 363-1 at 4; 365-1 at 4.
+17 R. Doc. 365-5 at 3.
+18 R. Docs. 363-1 at 4; 363-4 at 2, 37; 365-1 at 4.
+19 R. Docs. 363-1 at 4; 363-4 at 38-39; 365-1 at 30; 365-5 at 6.
+20 R. Docs. 365-1 at 30; 365-5 at 7-11.
+21 R. Doc. 365-10 at 31-32.
+22 R. Docs. 365-1 at 6; 365-6 at 8.
+Case 2:19-cv-11793-BWA-DPC     Document 451     Filed 05/24/22     Page 3 of 84
+4
+
+contract for the rank of Staff Attorney in the OGC, with a starting salary of $76,500 for part -time
+employment at 60% effort , and an effective date of February 1, 2019. 23  The new OGC  staff-
+attorney position matched Cunningham’s then -current salary and effort a s LSUHSC -NO staff
+attorney.24  Both proposed contracts included the following acceptance clause:
+Employee Acceptance of Approved Offer
+I hereby accept the offer and the conditions of employment as stated above.  I
+acknowledge that any  representations or conditions not stated above or
+incorporated by reference are not binding on the University and do not form part of
+this employment contract.25
+
+As evidenced by two January 30, 2019 emails, Plaintiffs completed the online application, but did
+not execute the employment contract s.26  Accordingly, Dewailly sent  Plaintiffs a reminder email
+requesting execution of the proposed employment contracts.27  Still, Plaintiffs did not execute their
+respective contracts.  Days later, Dewailly emailed Cunningham requesting that she sign and return
+the proposed employment contract as soon as possible because LSU i s “trying to time the
+termination and hire transactions so there is not a lapse in pay or benefits.”28  Again, Cunningham
+did not execute the contract.  On February 15, 2019, Muslow emailed Skinner, with Cunningham
+carbon copied, requesting that Plaintiffs’ salaries be revisited before they executed the proposed
+employment contracts.29  She suggested that, based on the findings of LSUHSC-NO’s Unclassified
+Employee Market Study (the “2017 Market Study” or “the study”), their salaries should be
+increased.30
+
+23 R. Docs. 363-1 at 4; 363-4 at 40-42.
+24 R. Docs. 363-4 at 15; 363-7 at 106.
+25 R. Docs. 363-4 at 42; 365-5 at 10.
+26 R. Docs. 363-1 at 5; 363-4 at 44; 365-1 at 5; 365-5 at 12; 365-10 at 24.
+27 R. Docs. 363-1 at 5; 363-4 at 45; 365-1 at 30; 365-5 at 13.
+28 R. Docs. 363-1 at 5; 363-4 at 45.  Cunningham then forwarded Dewailly’s email to Muslow, stating that
+“[t]his is her second request to me.”  R. Doc. 363-4 at 48.
+29 R. Doc. 363-5 at 1-2.
+30 Id. at 1.
+Case 2:19-cv-11793-BWA-DPC     Document 451     Filed 05/24/22     Page 4 of 84
+5
+
+LSUHSC-NO conducted  the 2017 Market Study to “update the current pay structure,
+calculate the cost of the pay structure, and implement and evaluat e the new pay structure” for
+unclassified positions, including Muslow and Cunningham’s then-existing positions.31  The study
+surveyed, analyzed, and compared salaries based on various databa ses that included nation-wide
+university and professional data.32  A “critical” component of the study was the creation of “a job
+worth hierarchy that identifie [d] and assign[ed] a relative position within the LSUHSC -NO pay
+grade structure.”33  Accordingly, HRM created “job families” and a pay-grade system to organize
+the data.
+“Job families” were “groupings of related jobs” created to help organize unclassified
+positions, like general counsel and staff attorney.34  Job families included, inter alia, “Leadership,”
+“Clinical Professional,” “Student Services,” “Human Resources,” and “Accounting/Financial.” 35
+The 2017 Market Study noted that “[j]obs within a job family have many similarities,” namely,
+they (1) “[r]equire similar knowledge, skills and abilities (competencies)”; (2) “[h]ave a continuum
+of knowledge, skills and abilities that represent a career path from the lowest to the highest level
+job”; (3) “[p]ossess associated and related key behaviors”; and (4) “[h]ave similar market
+competitive pay characteristics and conditions.”36  LSUHSC -NO HRM ’s pay-grade system
+consisted of 30 steps, where a pay grade is “a step within a pay grid [that] defines the amount of
+pay an employee will receive” and corresponds with a specific salary range for each position.37
+
+31 R. Doc. 365-4 at 37.
+32 Id. at 38.
+33 Id.
+34 Id. at 39.
+35 Id.
+36 Id.
+37 Id. at 38-39.
+Case 2:19-cv-11793-BWA-DPC     Document 451     Filed 05/24/22     Page 5 of 84
+6
+
+The study slated Cunningham’s position, staff attorney, in the “Administrative Professional
+Non-Clinical” job family and the N37 pay grade,38 which correlated with a salary range of
+$119,736 (minimum), $162,242 (midpoint), and $204,748 (maximum).39  At the time of the study,
+Cunningham’s annualized salary was $127,500,40 which exceeded the N37 pay grade minimum.41
+Muslow’s position, general counsel, was slated in the “Leadership” job family and the N43
+pay grade, which correlated with a salary range of $227,520 (minimum), $315,116 (midpoint), and
+$402,711 (maximum).42  At the time of the 2017 Market Study, Muslow earned $182,475, which
+fell below the minimum salary range for her pay grade.43  Accordingly, on or about July 31, 2017,
+upon the recommendation of defendant Hollier, Muslow’s base pay increased to $212,475,
+effective July 1, 2017. 44  This increase, however, was still below the N43 pay grade minimum .45
+Muslow then met with Hollier and argued that she should receive a greater increase to at least the
+pay grade’s minimum salary amount.46  Thereafter, Muslow’s base pay was increased to $227,520,
+the N43 pay grade minimum, effective July 1, 2017.47
+So, in light of the 2017 Market Study and the new positions offered at OGC, Muslow, in
+her February 15, 2019 email to Skinner, requested a review of the salaries offered for the new
+
+38 R. Doc. 363-5 at 23, 28.
+39 R. Docs. 363-1 at 3; 363-5 at 28.
+40 R. Doc. 363-7 at 106.
+41 R. Docs. 363-1 at 3; 363-5 at 28.  Cunningham was hired as a part-time employee.  At the time of the study,
+Cunningham was working at 60% effort with an annual salary of $76,500.  Her annualized salary at 100% effort was
+$127,500.
+42 R. Docs. 365-1 at 4; 365-4 at 44, 49.  Only one other person was slotted in the N43 pay grade with Muslow
+– Wendy Simoneaux.  R. Docs. 365-10 at 71 (deposition of Muslow: Q: “I believe you testified you were graded N43,
+and the other person [in that category] was Wendy Simoneaux, who was making more than you; is that correct?”  A:
+“Yes.”); 429 at 4.
+43 R. Docs. 365-1 at 4; 365-4 at 35.
+44 R. Docs. 365-1 at 1, 4; 372-1 at 4; 372-4 at 99; 387 at 6.
+45 Hollier says that he did not recommend a raise to the N43 pay-grade minimum at first because such a raise
+would have resulted in more than a 20% increase of Muslow’s salary, and LSU President F. King Alexander requested
+that LSU implement such a high salary increase in stages.  R. Doc. 372- 1 at 5.  He further explained that he “did not
+attempt to initially recommend the entire increase to the minimum of Muslow’s paygrade in July 2017 because of
+Muslow’s unsatisfactory job performance.”  Id.
+46 R. Doc. 365-1 at 4.
+47 R. Docs. 365-1 at 4; 365-5 at 2.
+Case 2:19-cv-11793-BWA-DPC     Document 451     Filed 05/24/22     Page 6 of 84
+7
+
+OGC positions.48  Muslow suggested that, for her position, a salary adjustment from the offered
+$227,520 to $375,000 was “equitable and necessary” because (1) the 2017 Market Study “call[ed]
+for a minimum salary of $227,520 (<5 yr. experience), a midpoint of $315,116 (10- 15 yr.
+experience) and a maximum of $402,711 (>15 yr. experience) at the N43 grade”; (2) she had “more
+than thirty years of legal experience”; and (3) she had “more than twenty years highly relevant
+professional experience representing the [LSU]HSC[-NO] in private practice and as an employee
+with institutional knowledge.” 49  In addition, Muslow suggested that Cunningham’s salary be
+adjusted from $76,500 at 60% effort to $204,748 at 80% effort because Cunningham’s “litigation
+experience alone justifie[d] a salary at the maximum level determined by the [2017 Market
+S]tudy,” and her N37 pay grade corresponded with “a minimum salary of $119,736 (<5 yr.
+experience), a midpoint of $162,242 (10- 15 yr. experience), and a maximum of $204,748 (> 15
+yr. experience).” 50  Three d ays after Muslow sent her email, LSU rescinded both of Plaintiffs’
+offers “pending further review,” for the stated reason that  the employment contract s were not
+executed or returned before or by the effective appointment date of February 1, 2019.51
+On March 1, 2019, over a week after Plaintiffs’ offers were rescinded, Muslow emailed
+Skinner and Larry Hollier, the LSUHSC -NO Chancellor, and carbon copied Cunningham ,
+requesting a status update regarding their transfer to the OGC.52  In an email to Hollier and other
+university administrators, Skinner (1) recapped the OGC’s plan to hire two OGC attorney positions
+that would be stationed at LSUHSC-NO with established salary ranges; (2) stated that “[t]he plan
+is for the existing HSC counsel positions to be retired on June 30, 2019, and for new positions to
+
+48 R. Doc. 363-5 at 1.
+49 R. Doc. 363-5 at 1.  Notably, the $375,000 salary Muslow requested would be greater tha n the salaries of
+her supervisors at the OGC.  For example, Jones’s salary  was $255,000 and Skinner’s salary was $339,000.  R. Doc.
+372-1 at 10.
+50 R. Doc. 365-5 at 1-2.
+51 R. Docs. 363-1 at 5-6; 363-5 at 3-4; 365-1 at 6-7; 365-5 at 18-19.
+52 R. Docs. 365-1 at 7; 365-5 at 20.
+Case 2:19-cv-11793-BWA-DPC     Document 451     Filed 05/24/22     Page 7 of 84
+8
+
+be created in OGC”; (3) detailed the OGC’s communications with Muslow and Cunningham
+regarding the proposed employment contract; (4) advised that (a) the OGC was ready to advertise
+and fill the two new OGC attorney positions, and (b)  if Plaintiffs decided to apply, they would
+receive the same consideration as any other applicant; and (5) requested confirmation that
+LSUHSC-NO’s pre-consolidation positions would be retired by June 30, 2019. 53  Later that day,
+Hollier responded, copying Plaintiffs, and confirmed that, “[i]n accordance with revised PM -72,
+LSUHSC-NO will retire [its] existing legal positions by June 30, 2019.”54
+Muslow replied on March 6, 2019, explaining that “[a]fter taking the time to compile new
+CVs, complete online applications, and obtain law -school and undergrad transcripts, [she and
+Cunningham] asked only that the salaries for [their] positions be reviewed before signing
+employment agreements with LSU. ... That [she] requested that [their] salaries be reviewed does
+not render [their] response to the employment agreements nonresponsive or a rejection of the
+offers.”55  Muslow continued: “The [salary-review] request was a reasonable one, and [they were]
+taken aback that the official response has been to eliminate the very positions [they] were assured
+would be unaffected by the consolidation.”56
+Weeks later, o n March 25, 2019, Hollier notified Muslow and Cunningham that their
+respective positions as LSUHSC-NO general counsel and staff attorney would be retired and their
+LSUHSC-NO employment terminated on June 30, 2019.57  Hollier advised both that new positions
+located within the OGC  in Baton Rouge (but on permanent assignment to LSUHSC -NO) would
+be advertised and filled through HRM, and that Plaintiffs were “invited to apply.”58  The next day,
+
+53 R. Docs. 365-1 at 7; 365-5 at 21-22.
+54 R. Doc. 365-5 at 23-24.
+55 Id. at 23.
+56 Id.
+57 R. Docs. 363-1 at 6; 363-5 at 11; 365-1 at 7; 365-6 at 1.
+58 R. Docs. 363-5 at 11; 365-6 at 1.
+Case 2:19-cv-11793-BWA-DPC     Document 451     Filed 05/24/22     Page 8 of 84
+9
+
+on March 26, 2019, M uslow filed a complaint with the United States Equal Employment
+Opportunity Commission (“EEOC”) against LSUHSC -NO, stating: “I believe I have been
+discriminat[ed] against based on my sex/female/w ages, age/59 years and threatened with
+termination in retaliation for complaining about protected activity.” 59  In the complaint, Muslow
+recited the particulars of her charge as follows:
+In December 2018, I was advised that I was being transferred to LSU OGC’s office.
+I agreed to the transfer and requested a salary  review to bring my salary in
+compliance with the data in the salary market analysis.  I was then advised that the
+offer of transfer was being rescinded.  On March 1, 2019, management advised that
+my position was being eliminated effective June 30, 2019. ... No reason was given
+for the actions taken against me.60
+
+Cunningham was neither a party to nor mentioned in the complaint  itself,61 but she indicated in a
+supplemental letter to the EEOC that Muslow’s submission was a charge brought on her behalf as
+well.62  Enclosed with that supplemental letter were “relevant documents,” including
+communications with Muslow’s employer, and a jump drive containing the results of the 2017
+Market Study. 63  Plaintiffs removed, retained, and released these nonpublic, confidential, and
+privileged documents  from LSU’s files  without its knowledge, informed consent, or conflict
+waiver.64
+On April 4, 2019, Dewailly notified Muslow and Cunningham that the OGC chief counsel
+and staff attorney positions were posted online and that applications would be accepted through
+April 28, 2019.65  She provided them both with the link to the application form for their respective
+
+59 R. Doc. 365-8 at 11-12.
+60 Id. at 11.
+61 Id. at 11-15.
+62 Id. at 17.
+63 Id.
+64 R. Doc. 365-1 at 38-40.
+65 R. Docs. 363-1 at 7; 363-5 at 12; 365-1 at 7-8; 365-6 at 2.
+Case 2:19-cv-11793-BWA-DPC     Document 451     Filed 05/24/22     Page 9 of 84
+10
+
+positions.66  Neither plaintiff responded. 67  On May 2, 2019, after the timeline to apply for the
+OGC positions expired, Jones reached out to Muslow and Cunningham in separate emails, stating:
+“I noticed that you are not in the online applicant pool.  Did you intend to apply?  Please let me
+know by close of business May 3, 2019 if you would like to be considered.” 68  Cunningham did
+not reply.69  Instead, on May 3, 2019, Muslow responded:
+[Cunningham] and I completed all the steps to get us set up in the HR system, which
+included an online application, resumes, and law-school/undergrad transcripts, last
+January.  As far as we knew, our positions had already “transferred” to OGC with
+our principal establishment remaining the [LSU]HSC[-NO].  It was only after we
+raised concerns about gendered wage disparities at the HSC  and requested salary
+reviews that our unexecuted employment contracts were purportedly rescinded.
+We stand by our request for salary reviews and to be paid fairly as compared to our
+male peers and consistent with the HSC’s 2017 market study.
+In asking if we intend to “apply” for our jobs, are you indicating that salary reviews
+will, indeed, take place and that we will be compensated equitably and in line with
+the HSC’s market study?70
+In response, Jones copied Cunningham and explained that he “was simply trying to determine if
+[Muslow] was still interested once [he] discovered [Muslow’s] name was not in the online
+applicant pool.”71  He noted that “the existing positions at [LSU]HSC[-]NO are scheduled to end
+by June 30, 2019 in favor of the new positions under the LSU Office of General Counsel” and that
+he would “forward [her] resume to the committee to be included in the applicant pool for the Chief
+Counsel position.”72  In response, Muslow stated that “[u]nless [her] position [were] going to be
+compensated as dictated by the [2017] market study done at the HSC, which is the ‘establishment’
+
+66 R. Docs. 363-1 at 7; 363-5 at 12; 365-1 at 7-8; 365-6 at 2.
+67 R. Docs. 363-1 at 7; 365-1 at 8.
+68 R. Docs. 363-5 at 13; 365-6 at 4-5.
+69 R. Doc. 363-1 at 7.
+70 R. Doc. 365-6 at 4.
+71 Id. at 3.
+72 Id.
+Case 2:19-cv-11793-BWA-DPC     Document 451     Filed 05/24/22     Page 10 of 84
+11
+
+for [her] position, [Jones] do[es] not have [her] permission to treat [her] as an ‘applicant’ for a
+position [she] ha[s] held going on eighteen years now.  [Cunningham] concurs.”73
+“The new Chief Counsel position is different with a different reporting structure, more
+focus on assisting administration and less focus on litigation,” responded Jones. 74  “ [LSU]
+advertised the new Chief Counsel position and several applications were received,” he continued,
+adding that (1) Muslow’s “participation in the process [was] welcome but certainly not presumed”;
+(2) he had previously forwarded her resume to the committee reviewing applications; and (3) if he
+did not receive a response by May 15, 2019, at 5:00 p.m., confirming that her application should
+be considered, he would take her May 13, 2019 email as direction not to include her application in
+the process.75  Muslow did not respond.  And Jones removed her and Cunningham’s application s
+from consideration.76
+On June 18, 2019, Hollier distributed a memo to Muslow and Cunningham noting that their
+legal positions at LSUHSC-NO were ending on June 30, 2019, and describing steps to “begin the
+transition of legal efforts for LSUHSC -NO to the Office of General Counsel.” 77  Cunningham’s
+at-will employment ended  on June 30, 2019. 78  Muslow’s did not.  On June 25, 2019, Hollier
+emailed Muslow that he would extend her end date until July 15, 2019, to provide more time to
+complete the transitional assignments and to ensure that there would be no financial impact to her
+retirement resulting from an earlier end date.79  The next week, Muslow replied that she wanted to
+“make clear that [she] strongly disagree[d] with ... [Jones’s] apparent suggestion that [she] ha[d]
+
+73 R. Docs. 363-5 at 14; 365-6 at 3.
+74 R. Doc. 365-6 at 7.
+75 Id.
+76 R. Docs. 363-1 at 7; 365-1 at 9; see also  R. Doc. 365-6 at 11 (email from Donna D ewailly: “On May 8,
+2019, we submitted the resume of Kathy Muslow to the candidate pool for the new Chief Counsel position.  Ms.
+Muslow has since indicated that she does not want to be part of the pool so her name will be removed.”).
+77 R. Doc. 365-6 at 13.
+78 R. Docs. 363-1 at 8; 363-4 at 2.
+79 R. Docs. 365-1 at 9; 365-6 at 14.
+Case 2:19-cv-11793-BWA-DPC     Document 451     Filed 05/24/22     Page 11 of 84
+12
+
+ever had any intention of ‘retiring’ from [her] position.”80  She advised that she would be available
+until July 15, 2019, and that all future communications be made through her legal counsel. 81  On
+July 15, 2019, Muslow’s at-will employment ended.82  Following Muslow’s termination, the OGC
+hired Louis Colletta to fill the Chief Counsel position for LSUHSC at an annual salary of $182,500,
+approximately $45,000 less than the $227,520 salary offered to Muslow for that same position.83
+OGC never filled the staff attorney position.84
+After extensive motion practice, the following claims remain: (1) gender discrimination in
+violation of Title VII against LSU; (2) retaliation in violation of Title VII against LSU; (3) gender
+discrimination in violation of the Equal Pay Act (“EPA”) against LSU, Hollier, Harman, and
+Skinner; (4) retaliation in violation of the EPA against LSU, Hollier, Skinner, and Jones; and
+(5) gender discrimination in violation of § 1983 against Harman and Hollier.85
+III.  LAW & ANALYSIS
+
+A. Summary Judgment Standard
+Summary judgment is proper “if the pleadings, depositions, answers to interrogatories, and
+admissions on file, together with the affidavits, if any, show that there is no genuine issue as to
+any material fact and that the moving party is entitled to a judgment as a matter of law.”  Celotex
+Corp. v. Catrett, 477 U.S. 317, 322 (1986) (quoting Fed. R. Civ. P. 56(c)).  “Rule 56(c) mandates
+
+80 R. Doc. 365-6 at 15.
+81 R. Doc. 365-6 at 15.
+82 R. Docs. 365-1 at 9; 365-4 at 2.
+83 R. Doc. 372-1 at 12.
+84 R. Doc. 345-1 at 9.
+85 R. Doc. 99 at 12-16.  The Court notes that while Plaintiffs refer to their discrimination claims as “gender
+discrimination” rather than disparate treatment, disparate treatment is the form of unlawful employment discrimination
+at issue.  Saketkoo v. Adm’rs of Tulane Educ. Fund, 31 F.4th 990, 995 n.1 (5th Cir. 2022) (citing Int’l Bhd. of Teamsters
+v. United States , 431 U.S. 324, 335 n.15  (1977) (“‘Disparate treatment’ ... is the most easily understood type of
+discrimination.  The employer simply treats some people less favorably than others because of their race, color,
+religion, sex, or national origin ... Claims of disparate treatment may be distinguished from claims that stress ‘disparate
+impact.’  The latter involve employment practices that are facially neutral in their treatment of different groups but
+that in fact fall more harshly on one group than another and cannot be justified by business necessity.”)).
+Case 2:19-cv-11793-BWA-DPC     Document 451     Filed 05/24/22     Page 12 of 84
+13
+
+the entry of summary judgment, after adequate time for discovery and upon motion, against a party
+who fails to make a showing sufficient to establish the existence of an element essential to that
+party’s case, and on which that party will bear the burden of proof at trial.”  Id.  A party moving
+for summary judgment bears the initial burden of demonstrating the basis for summary judgment
+and identifying those portions of the record, discovery, and any affidavits supporting the
+conclusion that there is no genuine issue of material fact.  Id. at 323.  If the moving party meets
+that burden, then the nonmoving party must use evidence cognizable under Rule 56 to demonstrate
+the existence of a genuine issue of material fact.  Id. at 324.
+A genuine issue of materia l fact exists if a reasonable jury could return a verdict for the
+nonmoving party.  See Anderson v. Liberty Lobby, Inc., 477 U.S. 242, 248 (1986).  The substantive
+law identifies which facts are material.  Id .  Material facts are not genuinely disputed whe n a
+rational trier of fact could not find for the nonmoving party upon a review of the record taken as a
+whole.  See Matsushita Elec. Indus. Co. v. Zenith Radio Corp., 475 U.S. 574, 587 (1986); EEOC
+v. Simbaki, Ltd., 767 F.3d 475, 481 (5th Cir. 2014).  Uns ubstantiated assertions, conclusory
+allegations, and merely colorable factual bases are insufficient to defeat a motion for summary
+judgment.  See Anderson, 477 U.S. at 249-50; Little v. Liquid Air Corp., 37 F.3d 1069, 1075 (5th
+Cir. 1994); Hopper v. Frank , 16 F.3d 92, 97 (5th Cir. 1994).  In ruling on a summary- judgment
+motion, a court may not resolve credibility issues or weigh evidence.  See Delta & Pine Land Co.
+v. Nationwide Agribusiness Ins. Co., 530 F.3d 395, 398- 99 (5th Cir. 2008).  Furthermore, a court
+must assess the evidence, review the facts, and draw any appropriate inferences based on the
+evidence in the light most favorable to the party opposing summary judgment.  See Tolan v. Cotton,
+572 U.S. 650, 656-57 (2014); Daniels v. City of Arlington, 246 F.3d 500, 502 (5th Cir. 2001).  Yet,
+a court only draws reasonable inferences in favor of the nonmovant “when there is an actual
+Case 2:19-cv-11793-BWA-DPC     Document 451     Filed 05/24/22     Page 13 of 84
+14
+
+controversy, that is, when both parties have submitted evidence of contradictory facts.”  Little, 37
+F.3d at 1075 (citing Lujan v. Nat’l Wildlife Fed’n, 497 U.S. 871, 888 (1990)).
+After the movant demonstrates the absence of a genuine issue of material fact, the
+nonmovant must articulate specific facts showing a genuine issue and point to supporting,
+competent evidence that may be presented in a form admissible at trial.  See Lynch Props., Inc. v.
+Potomac Ins. Co., 140 F.3d 622, 625 (5th Cir. 1998); Fed. R. Civ. P. 56(c)(1)(A) & (c)(2).  Such
+facts must create more than “some metaphysical doubt as to the material facts.”  Matsushita, 475
+U.S. at 586.  When the nonmovant will bear the burden of proof at trial on the dispositive issue,
+the moving party may simply point to insufficient admissible evidence to establish an essential
+element of the nonmovant’s claim in order to satisfy its summary-judgment burden.  See Celotex,
+477 U.S. at 322-25; Fed. R. Civ. P. 56(c)(1)(B).  Unless there is a genuine issue for trial that could
+support a judgment in favor of the nonmovant, summary judgment must be granted.  See Little, 37
+F.3d at 1075-76.
+B.  Title VII and Section 1983 Gender-discrimination Claims
+Plaintiffs assert a Title VII gender-discrimination (disparate treatment) claim against LSU,
+arguing that “LSU has intentionally discriminated against Plaintiffs on the basis of their gender in
+violation of Title VII by, among other things, (a) compensating them at rates lower than similarly
+situated male co-workers; and (b) terminating their employment.”86  Plaintiffs also allege a similar
+§ 1983 gender-discrimination claim against Har man and Hollier, arguing that they “caused
+Plaintiffs to be deprived of their rights and privileges to be free of gender discrimination in
+violation of the Fourteenth Amendment to the U.S. Constitution” – in other words, an equal -
+
+86 R. Docs. 50 at 36; 99 at 12.
+Case 2:19-cv-11793-BWA-DPC     Document 451     Filed 05/24/22     Page 14 of 84
+15
+
+protection claim.87  LSU contends that Plaintiffs’ claim fails because Plaintiffs cannot establish a
+prima facie case.88  Harman and Hollier agree.89  So, too, does the Court.  Despite giving an overly
+generous reading of Plaintiffs’ papers and setting aside Plaintiffs’ unsupported, conclusory
+assertions, the Court finds that Plaintiffs’  Title VII and § 1983 gender -discrimination claims fail
+for two reasons: (1) Plaintiffs have no direct or circumstantial evidence of discrimination and
+cannot establish a prima facie  case in the absence of a proper  comparator; and (2) even if they
+could establish a prima facie case, Plaintiffs cannot establish pretext.
+Title VII prohibits employers from intentionally discriminating against any individual with
+respect to compensation, terms, conditions, or privileges of employment based on the individual’s
+gender or other protected class.  42 U.S.C. § 2000e –2(a)(1); Roberson v. Alltel Info. Servs. , 373
+F.3d 647, 651 (5th Cir. 2004).  “ A plaintiff can prove intentional discrimination through either
+
+87 R. Doc. 99 at 15.  “Section 1983 and [T]itle VII are ‘parallel causes of action.’”  Lauderdale v. Tex. Dep’t
+of Crim. Just., Institutional Div. , 512 F.3d 157, 166 (5th Cir. 2007) (quoting Cervantez v. Bexar Cnty. Civil Serv.
+Comm’n, 99 F.3d 730, 734 (5th Cir.1996)).  “When a § 1983 [equal -protection] claim is used as a parallel to a Ti tle
+VII claim under a given set of facts, the elements required to be established for each claim are deemed the same under
+both statutes.”  Merwine v. Bd. of Trs. for State Insts. of Higher Learning, 754 F.2d 631, 635 n.3 (5th Cir. 1985); see
+also Lee v. Conecuh C nty. Bd. of Educ. , 634 F.2d 959, 961- 62 (5th Cir. 1981) ; Mitchell v. Mills, 895 F.3d 365, 370
+(5th Cir. 2018) (observing that when a plaintiff brings an equal -protection wage-discrimination claim under § 1983,
+her “claim should be analyzed under the doctrinal framework applicable to wage -discrimination cases brought under
+Title VII”).  Accordingly, where, as here, the same set of facts support both the Title VII and § 1983 claim, the claims
+will be analyzed under the Title VII evidentiary framework.  See Lawrence v. Univ. of Tex. Med. Branch , 163 F.3d
+309, 311 (5th Cir. 1999).
+88 R. Doc. 365-1 at 25-29.
+89 In his motion for summary judgment, Harman contends that Plaintiffs’ § 1983 claim against him fails
+because “the plaintiffs simply cannot establish that [he]  intentionally conducted his duties as Vice Chancellor in a
+manner that intended to/and proximately caused the Constitutional injuries which they complained of.”  R. Doc. 347-
+1 at 11.  Further, Harman argues that if Plaintiffs could support their § 1983 claim, he enjoys qualified immunity, as
+all of his actions were “squarely ministerial.”  Id.
+Similarly, in his motion for summary judgment, Hollier argues that Plaintiffs’ § 1983 claim against him fails
+as a matter of law because Plaintiffs cannot establish that they were treated less favorably than other employees outside
+of their protected group under nearly identical circumstances – i.e., comparators.  R. Docs. 372- 1 at 41; 432 at 4 -5.
+Hollier argues that if a proper comparator exists, Plaintiffs’ claim still fails because their “conclusory allegations”
+cannot establish that Hollier had discriminatory intent.  R. Doc. 372-1 at 41-42, 45.  Further, Hollier argues that even
+if Plaintiffs were able meet their prima facie burden, he is entitled to qualified immunity.  Id. at 45-46.
+In their oppositions, Plaintiffs rely upon  unsupported conclusions regarding genuine issues of material fact,
+intentional discrimination, and qualified immunity.  See, e.g., R. Docs. 387 at 23 ; 391 at 3, 5.  Harman and Hollier
+respond to these conclusions , R. Docs. 410 at 1; 432 at 9, but there is no need to analyze these additional arguments
+because dismissal of the § 1983 claims is warranted for Plaintiffs’ failure to identify comparators and pretext.
+Case 2:19-cv-11793-BWA-DPC     Document 451     Filed 05/24/22     Page 15 of 84
+16
+
+direct or circumstantial evidence.”  Wallace v. Methodist Hosp. Sys., 271 F.3d 212, 219 (5th Cir.
+2001).  Plaintiffs have not identified any direct evidence of discrimination. 90  When a plaintiff’s
+Title VII discrimination claim relies entirely on circumstantial evidence, as here, it is subject to
+the burden- shifting framework outlined in McDonnell Douglas Corp. v. Green, 411 U.S. 792
+(1973).  Under the McDonnell Douglas framework, the initial burden rests with the plaintiff to
+establish a prima facie case by showing that “she (1) belongs to a protected group, (2) was qualified
+for the position, (3) suffered an adverse employment action, and (4) either (i) was replaced by
+someone outside of the protected group, or (ii) was treated less favorably than a similarly situated
+employee (disparate treatment).”  Walker v. Smith , 801 F. App’ x 265, 269 (5th Cir. 2020) .  If a
+plaintiff establishes a prim a facie case of discrimination, the burden then shifts to the defendant
+employer to articulate a legitimate, nondiscriminatory reason for its actions.  Raggs v. Miss. Power
+& Light Co., 278 F.3d 463, 468 (5th Cir. 2002).  Thereafter, the burden shifts back to the plaintiff
+to establish that the employer’s asserted reason is pretextual.  Id.   The “ultimate burden” of
+persuasion remains with the plaintiff at “all times.”   Id.; see also Turner v. Kan. City S. Ry., 675
+F.3d 887, 900 (5th Cir. 2012) ( “The plaintiff’s ‘ultimate burden’ is to ‘persuade the trier of fact
+that the defendant intentionally discriminated against the plaintiff.’”) (quoting Tex. Dep’t of Cmty.
+Affairs v. Burdine, 450 U.S. 248, 253 (1981)) (alteration omitted).
+
+90 Of the thousands of pages of evidence in the record, Plaintiffs do not identify any direct evidence of
+discrimination.  “‘In the context of Title VII, direct evidence includes any statement or written document showing a
+discriminatory motive on its face.’”  Herster v. Bd. of Supervisors of La. State Univ., 887 F.3d 177, 185 (5th Cir. 2018)
+(quoting Portis v. First Nat’l Bank of New Albany , 34 F.3d 325, 329 (5th Cir. 1994)).   “A statement or document
+which shows ‘on its face that an improper criterion serve d as a basis – not necessarily the sole basis, but a basis – for
+the adverse employment action is direct evidence of discrimination.’”  Id.  (quoting Jones v. Robinson Prop. Grp.,
+L.P., 427 F.3d 987, 993 (5th Cir. 2005)) (alteration omitted ).  Absent direct  evidence, the Court relies on the
+McDonnell Douglas framework.
+Case 2:19-cv-11793-BWA-DPC     Document 451     Filed 05/24/22     Page 16 of 84
+17
+
+1.  Plaintiffs cannot establish a prima facie case.
+Defendants do not contest the first three elements of a prima facie case: namely, that each
+of the P laintiffs (1) belonged  to a protected group; (2) w as qualified for the position; and
+(3) suffered an adverse employment action.  See Walker, 801 F. App’x at 269.  The final element,
+however, remains in dispute – that is, whether Plaintiffs were treated less favorably than a similarly
+situated employee outside of their protected class .  See i d.; Okoye v. Univ. of Tex. Hous. Health
+Sci. Ctr., 245 F.3d 507, 513 (5th Cir. 2001) .  Based on the summary- judgment record before the
+Court, Plaintiffs have not shown that they were treated less favorably than a similarly situated male
+employee.
+“The ‘similarly situated ’ prong requires a Title VII claimant to identify at least one
+coworker outside of his protected class who was treated more favorably ‘ under nearly identical
+circumstances.’”  Alkhawaldeh v. Dow Chem. Co., 851 F.3d 422, 426 (5th Cir. 2017) (quoting Lee
+v. Kan. City S. Ry., 574 F.3d 253, 259 (5th Cir. 2009)).  “This coworker, known as a comparator,
+must hold the ‘same job’ or hold the same job responsibilities as the Title VII claimant; must ‘share
+the same supervisor or’ have his ‘employment status determined by the same person’ as the Title
+VII claimant; and must have a history of ‘violations’ or ‘infringements’ similar to that of the Title
+VII claimant.”91  Id.  (alteration omitted).  “‘ By properly showing a significant difference in job
+responsibilities, [a defendant] can negate one of the crucial elements in [the plaintiff’s] prima facie
+case’ of discrimination.”  Herster, 887 F.3d at 185 (quoting Pittman v. Hattiesburg Mun. Separate
+Sch. Dist., 644 F.2d 1071, 1074 (5th Cir. 1981)); see also Fields v. Stephen F. Austin State Univ.,
+611 F. App’x 830, 832 n.2 (5th Cir. 2015) (“[A] plaintiff who intermittently performed the same
+
+91 No party provided information regarding the violation histories of Plaintiffs or their proffered comparators.
+Accordingly, the Court will only examine the first two p arts of the comparator analysis, namely, that the comparator
+must (1) hold the same job or job responsibilities as Plaintiffs; and (2) share the same supervisor or have his
+employment status determined by the same person.  See Alkhawaldeh, 851 F.3d at 426.
+Case 2:19-cv-11793-BWA-DPC     Document 451     Filed 05/24/22     Page 17 of 84
+18
+
+duties as a comparator was not sufficient to rebut the differences in responsibility made clear from
+the summary judgment record.”) (quotation and alteration in original omitted).  “A failure to
+identify a potential comparator ( i.e., a similarly situated individual outside the protected class)
+‘alone justifies dismissal of a plaintiff’s Title VII claim.’”  Saketkoo v. Tulane Univ. Sch. of Med.,
+510 F. Supp. 3d 376, 386 (E.D. La. 2020) (quoting Alkhawaldeh, 851 F.3d at 427 (alteration
+omitted)), aff’d, 31 F.4th at 995, 1004.  Therefore,  “[i]f no such comparator exists, the plaintiff
+cannot establish a prima facie case.”  Id. (citing Alkhawaldeh, 851 F.3d at 427).
+a.  Muslow cannot identify a proper comparator as a matter of law.
+Muslow proffers many comparators.  But none is proper as a matter of law.  Muslow argues
+that there are ten male employees who were allegedly “performing work requiring substantially
+less responsibility and/or equal skill than Muslow who were paid relatively equivalent or higher
+salaries than Muslow” – namely, Ben Lousteau, Executive Director of Fiscal Oper ations for the
+School of Medicine; Brent Herold, Executive Director of Supply Chain and Auxiliary Operations;
+John Ball, Associate Vice Chancellor of Property and Facilities; Matt Altier, Assistant Vice
+Chancellor of Business Development; Edwin Murray, Vice Chancellor of Government and
+Multicultural Affairs; Richard Buhler, Senior Contracts A dministration Officer; Jimmy Cairo,
+Dean of the School of Allied Health; Demetrius Porche,  Dean of the School of Nursing;  Louis
+Colletta, former OGC Chief Counsel and L SUHSC-NO Chief of Staff;  and Timothy Fair , Vice
+Chancellor for Diversity and Inclusion. 92  These are the only alleged comparators Muslow
+identifies by name.93  In addition, Muslow argues that (1) the deans, vice chancellors, and assistant
+
+92 R. Docs. 365-1 at 13; 365-2 at 25-26.
+93 The Court notes that, in a supplemental response to LSU’s interrogatory regarding the identities of
+Muslow’s proffered comparators, Plaintiffs wrote: “See also, Expert Reports of Elizabeth Martina, produced April 12,
+2021.” R. Doc. 365- 6 at 22.   Plaintiffs’ reference to Martina’s expert report to identify Muslow’s comparators  is
+unavailing since the report does not include any individual names of possible comparators.  R. Docs. 365-1 at 13; 365-
+6 at 24 -28.  A s noted by LSU, R. Doc. 365- 1 at 13 n.5, it is  simply unclear who Martina assumes is a comparator
+because there are no names listed, just a general reference to the 2017 Market Study.  R. Doc. 365-6 at 24-28.
+Case 2:19-cv-11793-BWA-DPC     Document 451     Filed 05/24/22     Page 18 of 84
+19
+
+vice chancellors are similarly situated comparators ;94 and (2)  the 2017 Market Study created
+comparators on its face – i.e., those in the same “N” classification.95
+ Of the ten male employees specifically identified, those who were paid less than Muslow
+are inappropriate comparators.  Wiley v. Am. Elec. Power Serv. Corp., 287 F. App’x 335, 341 (5th
+Cir. 2008) (observing that, to establish a prima facie  case of pay discrimination, a plaintiff must
+show that she was “ paid less than the employee of the opposite sex providing the basis of
+comparison”); see also Spears v. Louisiana, 767 F. Supp. 2d 629, 643 (M.D. La. 2011) ( holding
+that plaintiff failed to establish prima facie case of pay discrimination where she received a higher
+salary than her comparator); cf. Chance v. Rice Univ., 984 F.2d 151, 153 (5th Cir. 1993) (holding
+that plaintiff failed to establish prima facie  case under the EPA where male compa rators did not
+receive higher compensation tha n plaintiff).  For example, where Muslow earned $227,520,
+proffered comparators Ben Lousteau, the executive director of fiscal operations for the school of
+medicine, earned $183,467.02; Brent Herold, the executive director of supply chain and auxiliary
+operations, earned $185,000.04; John Ball, the associate vice chancellor of property and facilities,
+earned $186,221.04; Matt Altier, the assistant vice chancellor of business development, earned
+$215,000.04; Richard Buhler, the senior contracts administration officer, earned $152,889.08; and
+Louis Colletta, the former OGC chief counsel at LSUHSC-NO,96 earned $182,500. 97  Because
+
+94 R. Docs. 365-1 at 13; 365-10 at 69-71.
+95 R. Doc. 396 at 23.
+96 LSU also notes that Colletta’s position  changed from OGC chief counsel at LSUHSC -NO to LSUHSC -
+NO chief of staff, where he earned $249,000.  R. Doc s. 365-1 at 15; 365 -7 at 31-35.  Yet P laintiffs claim that soon
+after Colletta was hired, his salary was raised to $264,000, citing no evidence in support.  In opposition to LSU’s
+argument that Colletta as chief of staff is not a proper comparator, Plaintiffs state that his salary “was two quadrants
+more than where he should have been with regards to experience within LSU’s pay scale.  By this logic if Mr.
+Colletta’s $264,000 pay was warranted then Ms. Muslow should have been making approximately $402,000 during
+her employment.”  R. Doc. 396 at 21.  This two -sentence “argument” is not adequate  (1) to refute LSU’s fully
+supported argument that Co lletta is not a proper comparator; or (2) to establish that Muslow and Colletta’s
+circumstances were nearly identical.  See Foster v. Ferrellgas, Inc., 834 F. App’x 88, 91 (5th Cir. 2020).  Accordingly,
+Colletta, in his chief-of-staff position, is not a proper comparator.
+97 R. Doc. 365-1 at 13-22.
+Case 2:19-cv-11793-BWA-DPC     Document 451     Filed 05/24/22     Page 19 of 84
+20
+
+these proffered comparators make less than Muslow, they are insufficient to establish a prima facie
+case of pay discrimination.98  See Durham v. AMIKids, Inc., 2019 WL 12290115, at *6 (M.D. La.
+Jan. 11, 2019) (“[Plaintiff] cannot rely on Jones or Atterbury as comparators because, by her own
+admission, neither earned more than she did.”).
+ Of the ten male employees identified, only four were paid more than Muslow, specifically,
+Edwin Murray, Jimmy Cairo, Demetrius Porche,99 and Timothy Fair.  These employees, however,
+are inappropriate comparators because they are not  similarly situated in that their circumstances
+were not nearly identical with those of Muslow.  Muslow’s position, general counsel, was slotted
+in the “Leadership” job family and the N43 pay grade, which correlated with a salary range of
+$227,520 (minimum), $315,118 (midpoint), and $402,711 (maximum). 100  Muslow earned
+$227,520.101  She reported to Hollier. 102  H er position mandated that she hold a juris doctorate
+(“J.D.”) degree and a Louisiana bar license.103  Her “[d]uties and responsibilities included strategic
+support and legal guidance, including advis[ing] on legal matters, perform[ing] administrative
+filings, conduct[ing] legal research and analysis, and insur[ing] compliance with federal, state, and
+local laws and regulations.”104  Muslow was also tasked with reviewing, analyzing, and compiling
+
+98 It is unclear whether Muslow, when analyzing alleged salary discrepancies, intends to utilize her $227,520
+salary or the lower salaries she earned before her salary wa s raised to the 2017 Market Study minimum level.  As
+discussed, Muslow previously earned $182,457, then, after a pay raise, $212,475.  Regardless , these individuals are
+not proper comparators as a matter of law.  Buhler earned less than the lowest salary Muslow earned; therefore, he is
+not a proper comparator.  Further, while Lousteau, Herold, Ball, and Altier earned more than Muslow’s lowest salary,
+Plaintiffs effectively concede that they are not comparators because they fail to rebut Defendants’ arguments regarding
+their non-comparator status.  Finally, while Colletta as chief counsel at LSUHSC -NO earned three dollars more than
+Muslow’s lowest salary, he, in that position, is not a proper comparator either because Plaintiffs present no evidence
+that Muslow’s and Colletta’s circumstances are nearly identical.
+99 Defendants contend that Porche is not a comparator, and Porche is not addressed in Plaintiffs’ oppositions.
+See R. Docs. 396; 402.  Accordingly, because Plaintiffs fail to rebut Defendants’ argument that Porche is not a proper
+comparator, they effectively concede the point.  See Kellam v.  Metrocare Servs., 2013 WL 12093753, at *3 (N.D.
+Tex. May 31, 2013) (observing that a failure to respond to or adequately brief an argument results in waiver or
+concession of the argument) (collecting cases).
+100 R. Docs. 365-1 at 4; 365-4 at 44, 49.
+101 R. Docs. 365-1 at 4; 365-5 at 2.
+102 R. Doc. 365-4 at 44.
+103 R. Docs. 365-1 at 13; 365-6 at 30-31.
+104 R. Docs. 365-1 at 13; 365-6 at 29.
+Case 2:19-cv-11793-BWA-DPC     Document 451     Filed 05/24/22     Page 20 of 84
+21
+
+data to determine the legality, liability, and advisability of certain action s; preparing legal
+documents; advis ing, participa ting in, or direct ing the l egal defense strategies ; reviewing
+legislation and legal documents; and deposing faculty and staff to obtain information and provide
+legal analysis .105  As set forth below, Muslow’s job duties, responsibilities, and required
+credentials are readily distinguishable from those of her proffered comparators.
+Edwin Murray: Muslow argues that Edwin Murray, vice chancellor of government and
+multicultural affairs,106 is a comparator.  Murray earned $243,750 a year.107  He was assigned to
+the N41 pay grade108 and the Leadership job family.109  He, like Muslow, reported to Hollier. 110
+Murray’s position required (1) a master’s degree in either business administration, public
+administration, health administration, law, public health, or a related field; (2) eight to ten years of
+experience in an academic or governmental affairs setting; and (3) three to five years of experience
+in a senior level administrator position. 111  His duties and responsibilities included
+“(i) advocat[ing] and develop[ing] multicultural affairs programs and initiatives; (ii) serv[ing] as
+university Risk Management and Security Officer; (iii) interfac[ing] with internal and external
+relations to support community affairs and contacts; and (iv) sit[ting] on Faculty Oversight
+committee, and oversee[ing] and monitor[ing] all system contracts involving LSU personnel.”112
+In addition, he (1) oversaw the (a) management of the LSU Health Police staff to ensure a safe and
+secure campus, and (b) support, tracking and management of malpractice insurance matters; and
+
+105 R. Doc. 365-6 at 29-30.
+106 R. Doc. 365-4 at 45.
+107 R. Docs. 365-1 at 18; 365-4 at 50.
+108 R. Doc. 365-4 at 50.
+109 Id. at 45.
+110 R. Doc. 365-1 at 18.
+111 R. Doc. 372-11 at 11.
+112 R. Docs. 365-1 at 18-19; 365-7 at 5-6; 372-11 at 10.
+Case 2:19-cv-11793-BWA-DPC     Document 451     Filed 05/24/22     Page 21 of 84
+22
+
+(2) interfaced directly with the Louisiana attorney general’s office regarding malpractice coverage,
+legal representation, and case-management issues.113
+Murray is not a proper comparator.  None of Murray’s duties, responsibilities, or required
+credentials as vice chancellor of government and multicultural affairs is nearly identical to those
+Muslow had as general counsel.  Muslow was never tasked with, inter alia , developing
+multicultural affairs programs and initiatives or managing the LSU Health Police staff, which takes
+up approximately 60% of Murray’s time.114  And similarly, Murray – a non-lawyer – could never
+be tasked with conducting legal research, giving legal advice, or defending lawsuits, which takes
+up more than 65% of Muslow’s time.115  Moreover, Muslow had to have a J.D. degree to perform
+her job, whereas Murray does not.  Instead, his job requires eight to ten years of experience in an
+academic or governmental affairs setting, which Muslow’s job did not require and Muslow does
+not have.  These significant differences, among others, demonstrate that Murray and Muslow did
+not operate under nearly identical circumstances, and, hence, are not similarly situated.
+Plaintiffs essentially concede that Muslow and Murray are not comparators  as they fail to
+argue that Muslow and Murray performed comparable work.  In their two -sentence response to
+Defendants’ argument that Murray is not a proper comparator, Plaintiffs simply say that
+“[Murray’s] pay is 2 quadrants over from the experience he possessed.  If this pay was appropriate,
+then Ms. Muslow should have been paid approximately $400,000.” 116  This “argument” does not
+
+113 R. Doc. 372-1 at 25 (citing R. Doc. 372-11 at 10).
+114 R. Doc. 372-11 at 10.
+115 R. Doc. 365-6 at 29-30.
+116 R. Doc. 396 at 22.  Plaintiffs proclaim that the lower salaries of Muslow’s proffered comparators (as with
+Murray’s here) show how much Muslow “should have been making,” but  they offer no explanation, reasoning, or
+formula in support.  For example, Plaintiffs conclude that because “Buhler was paid $152,889.08, an amount for only
+those with 15 years or more experience within his pay grade ,” and he “was hired [on] 10/16/2007,” Muslow “should
+have been making approximately $400,000.”  Id.  at 21.  The Court should not be expected to intuit how Plaintiffs
+came to this concl usion when no explanation is given.  Regardless,  this conclusory assertion – repeatedly made in
+support of comparator status – is insufficient to show that Buhler , Murray, or any other proffered comparator is
+appropriate as a matter of law.
+Case 2:19-cv-11793-BWA-DPC     Document 451     Filed 05/24/22     Page 22 of 84
+23
+
+begin to establish that Murray and Muslow functioned in “nearly identical” circumstances.  See
+Foster, 834 F. App’x at 91 (affirming grant of summary judgment where plaintiff “provided
+virtually no evidence concerning [the proffered comparators’] relevant qualifications, nor did she
+establish that they performed comparable work”).  Obvious and significant differen ces in job
+responsibilities (viz., legal representation as opposed to government and multicultural affairs)
+between the two exist and Plaintiffs fail to argue anything to the contrary.  Therefore, Murray is
+not a proper comparator.
+ Jimmy Cairo: Similarly, Jimmy Cairo, the dean of the school of allied health, is not a
+suitable comparator.  Cairo earned $260,706. 117  He  was assigned to the N41 pay grade, the
+Leadership job family, and, like Muslow, reported to Hollier .118  His position required a Ph.D .
+degree in a health-related profession and five years’ experience as an allied health practitioner.119
+His duties included: “(i) overall direction and management of School of Allied Health; (ii) fiscal
+planning and management for the school; (iii) improv[ing] interdisciplinary learning and research
+activities of school; (iv) recruit[ing] funding opportunities for school; and (v) establish[ing]
+partnerships with community leaders, alumni, etc.”120
+Importantly, none of these re sponsibilities mirrors Muslow’s responsibilities as general
+counsel.  And, as Hollier argues, “[i]t is incredulous to purport that a legal position requires equal,
+skill, effort, and responsibility and such duties are under similar working conditions as a Dean of
+a graduate school.”121  Muslow, tasked with providing legal support and strategic legal -related
+guidance, was never responsible for managing the School of Allied Health or recruiting funding
+
+117 R. Doc. 365-1 at 21.
+118 R. Docs. 365-1 at 21; 365-7 at 17.
+119 R. Docs. 365-1 at 21; 365-7 at 18.
+120 R. Docs. 365-1 at 21; 365-7 at 17.
+121 R. Doc. 372-1 at 25.
+Case 2:19-cv-11793-BWA-DPC     Document 451     Filed 05/24/22     Page 23 of 84
+24
+
+opportunities for the school, which took up approximately 80% of Cairo’s time, 122 nor was she
+required to have a Ph.D. degree in a health-related profession or five years’ experience as an allied
+health practitioner.  Further, Cairo was never task ed with giving legal advice, making legal and
+administrative filings, drafting legal documents, and deposing witnesses, which took up at least
+75% of Muslow’s time. 123  Therefore, it cannot be said that Muslow and Cairo had the same job
+and job responsibilities as would make them similarly situated.
+Again, Plaintiffs effectively concede this.  In their one-sentence argument in favor of Cairo
+as a comparator (“Jimmy Cairo: If pay is appropriate then Muslow should be making
+approximately $365,000.”), Plaintiffs fail to show (1) that Muslow and Cairo are similarly situated
+and operated in “nearly identical” circumstances ; and (2) the lack of  a significant difference in
+their job responsibilities.  See Foster, 834 F. App’x at 91.  And so, Cairo is not a proper comparator.
+ Timothy Fair: Timothy Fair, vice chancellor for diversity and inclusion, is not a proper
+comparator, either.  He was assigned to the N39 pay grade.124  He earned a salary of $240,000.125
+He, unlike Muslow, reported to Steve Nelson.126  Unlike Muslow’s general counsel position, Fair’s
+position required a doctorate, ten years’ professional experience with at least five years in a senior
+leadership capacity in a university or academic medical center setting, and experience with
+diversity programs.127  Fair’s responsibilities included “(i) oversee[ing] all LSUHSC-NO schools
+to build and support more inclusive and diverse campus, including development and management
+of Diversity Strategic Plan; (ii) leadership to campus police department; (iii) promot[in g] Office
+of Diversity and Inclusion; (iv) serv[ing] as chair or facilitator for committees that address
+
+122 R. Doc. 365-7 at 17.
+123 See R. Doc. 365-6 at 29-30.
+124 R. Doc. 365-7 at 42.
+125 R. Doc. 365-1 at 20.
+126 R. Doc. 365-7 at 43.
+127 Id. at 40.
+Case 2:19-cv-11793-BWA-DPC     Document 451     Filed 05/24/22     Page 24 of 84
+25
+
+inclusion, diversity and equity issues; (v) develop[ing] a framework and evaluation system for
+monitoring diversity for all LSUHSC -NO units; and (vi) actively support [ing the] LSU System
+Supplier Diversity Program.”128  Fair’s job description details that “[p]rior experience working in
+an academic medical center, health system or teaching hospital is highly preferred, with a high
+degree of cultural intelligence and technical mastery of diversity and inclusion strategies in
+academic medicine.”129
+Fair is not a proper comparator because he neither holds the same job or responsibilities as
+Muslow, nor has the same supervisor.  First, Fair’s work does not require “substantially the same
+responsibility” as Muslow’s work as general counsel.  See Taylor v. United Parcel Serv., Inc., 554
+F.3d 510, 522 (5th Cir. 2008).  For example, Muslow’s position required a different degree and
+had no connection to diversity initiatives  or work history in an academic medical center setting .
+Further, Fair ’s position has no connection to defending lawsuits or offering legal advice, a s
+Muslow’s did.  Second, that Fair and Muslow reported to different supervisors necessarily rebuts
+his comparator status.  See Alkhawaldeh, 851 F.3d at  426 (describing that the comparator must
+(1) hold the same job or have the same responsibilities as the plaintiff; (2) share the same
+supervisor or have his employment status determined by the same person as the plaintiff; and (3)
+have a history of violations or infringements similar to that of the plaintiff).  Moreover, there is no
+evidence that Muslow and Fair had their employment statuses determined by the same person.
+Plaintiffs effectively concede that Fair is not a comparator because they fail to show that
+there is not a significant difference between Muslow ’s and Fair’s job responsibilities.  In
+opposition, Plaintiffs devote two sentences to show that Fair is a comparator: “Timothy Fair made
+above his pay grade.  If he was paid appropriately, then Muslow should have made approximately
+
+128 R. Docs. 365-1 at 20; 365-7 at 41-42; 372-11 at 25-29.
+129 R. Doc. 365-7 at 41.
+Case 2:19-cv-11793-BWA-DPC     Document 451     Filed 05/24/22     Page 25 of 84
+26
+
+$400,000.”130  Again, this “argument”  – Plaintiffs’ familiar refrain – fails to es tablish that
+Muslow’s responsibilities as g eneral counsel and Fair’s responsibilities as vice chancellor for
+diversity and i nclusion were even remotely the same.  See Foster, 834 F. App’x at 91.  Thus ,
+because Muslow and Fair had different supervisors as well as significant differences in their job
+responsibilities, Fair is not a proper comparator.
+ Unidentified deans: In addition to the proffered comparators Muslow identifies by name
+in her submissions, Muslow testified that the deans, vice chancellors, and assistant vice chancellors
+of LSU were her comparators, too .131  While s he does not identify these additional deans, vice
+chancellors, or assistant vice chancellors by name, LSU and Hollier identify and brief each of these
+individuals.  But Plaintiffs fail to rebut Defendants’ arguments.  For example, Plaintiffs fail to
+refute that Joe Moerschbaecher, Vice Chancellor of Academic Affairs ; John Harman, Vice
+Chancellor of Administration and Finance; Jack Christian Winters, Vice Chancellor f or Clinical
+Affairs; Patrick Gorman, Director of Financial Aid ; and Robert Leaman, Director of Continuing
+Dental Education, are not appropriate comparators.  Because “‘failure to brief an argument in the
+district court waives that argument in that court ,’” Slaughter v. Torres, 2022 WL 861409, at *12
+(M.D. La. Mar. 22, 2022) (quoting JMCB, LLC v. Bd. of Com. & Indus., 336 F. Supp. 3d 620, 634
+(M.D. La. 2018)), the Court finds that Moerschbae cher, Harman, Winters, Gorman, and Leaman
+are not proper comparators.  See also Kellam, 2013 WL 12093753, at *3 (observing that a failure
+to respond to or adequately brief an argument results in waiver or concession of the argument) .
+Accordingly, the Court only addresses thos e proffered  comparators that Plaintiffs attempt to
+rehabilitate in their opposition.
+
+130 R. Doc. 396 at 23.
+131 R. Doc. 365-1 at 13.
+Case 2:19-cv-11793-BWA-DPC     Document 451     Filed 05/24/22     Page 26 of 84
+27
+
+ Keith Schroth:   Keith Schroth is the  former Associate Vice Chancellor  for Business
+Development and Associate Dean of Fiscal Affairs .132  He is not a  proper comparator.  Schroth
+was assigned to the N44 pay grade and the Leadership job family.133  He earned $307,703.34, and,
+like Muslow, reported to Hollier. 134  Schroth’s position required (1) a bachelor’s degree in
+business, finance, accounting, marketing, public administration, health administration, or a related
+field; and (2) eight years of progressive experience. 135  His duties and responsibilities included
+“(i) oversee[ing] mission-based budgeting for LSUHSC-NO’s six professional schools, including
+development and coordination of annual comprehensive department budgets; (ii) coordinat [ing]
+and enhanc[ing] contractual relations for each LSUHSC -NO school; (iii) creat[ing]  and
+negotiat[ing] ot her business opportunities to support the LSUHSC -NO’s mission; and
+(iv) devis[ing] effective methods to communicate with internal and external LSUHSC -NO
+constituencies.”136
+Muslow and Schroth are not similarly situated in their jobs  such that they operate  under
+nearly identical circumstances. Schroth’s  requirements and responsibilities as associate vice
+chancellor for business development a nd associate dean of fiscal affairs  vary significantly from
+those of Muslow as general counsel.  For example, unlike Muslow’s position, Schroth’s does  not
+require him to have  a J.D. degree or give legal advice.   Conversely, unlike Schroth’s position,
+Muslow’s did not require her to (1) have  a bachelor’s degree in business, finance, accounting,
+marketing, public administration, health administration , or a related field and eight years of
+
+132 R. Docs. 365-1 at 18; 365-4 at 45; 365-7 at 50.
+133 R. Doc. 365-4 at 45, 50.
+134 R. Doc. 365-1 at 18.
+135 R. Docs. 365-1 at 18; 365-7 at 51.
+136 R. Docs. 365-1 at 18; 365-7 at 50-51.
+Case 2:19-cv-11793-BWA-DPC     Document 451     Filed 05/24/22     Page 27 of 84
+28
+
+progressive experience; or (2) budget or create business opportunities in support of LSU’s mission.
+These differences cannot support a finding that Schroth and Muslow are true comparators.
+Absent from Plaintiffs’ papers is any attempt to marshal evidence to the contrary or
+establish that Schroth and Muslow’s duties are “substantially the same.”  Instead, in their one -
+sentence retort, they state: “If Mr. Schroth’s pay was appropriate and within the structure, then
+Muslow should have been paid approximately $400,000.” 137  By itself and unexplained, t his is
+insufficient to show that Musl ow and Schroth were “nearly identical”  in circumstances  and,
+consequently, similarly situated.  Therefore, Schroth is not a proper comparator.  See Foster, 834
+F. App’x at 91.
+ Steve Nelson:  Steve Nelson, the D ean of the S chool of M edicine, is not a proper
+comparator, either.  Nelson earned $311,739.96 and was assigned to the N47 pay grade and the
+Leadership job family.138  He, like Muslow, reported to Hollier.139  His position required a medical
+degree or Ph.D. degree, a minimum of ten  years of teaching and research experience, previous
+administrative experience in a medical  school environment, current Louisiana medical licensure,
+and privileges at all relevant  clinical practice sites. 140  His duties and responsibilities included
+“(i) [being] responsible for development and accreditation of undergraduate and graduate medical
+programs; (ii) foster[ing] basic, clinical, and translational research and enhancing research
+excellence; (iii) coordinat[ing] and evaluat[ing] clinical and public service programs;
+(iv) support[ing] and promot[ing] missions of School of Medicine, LSUHSC-NO and LSU system;
+(v) [being] responsible for School of Medicine budget; and (vi) coordinat[ing] clinical services.”141
+
+137 R. Doc. 396 at 22.
+138 R. Doc. 365-4 at 44, 49.
+139 R. Doc. 365-1 at 20.
+140 R. Docs. 365-1 at 20; 365-7 at 69.
+141 R. Docs. 365-1 at 20-21; 365-7 at 68; 372-12 at 17-18.
+Case 2:19-cv-11793-BWA-DPC     Document 451     Filed 05/24/22     Page 28 of 84
+29
+
+Further, the position tasked Nelson with the responsibility “for all of the teaching, research, and
+clinical and public service programs” of the medical school.142
+Nelson’s work as the dean of the medical school is quite different from, much less requiring
+substantially the same responsibilit ies as, Muslow’s work as general counsel.  For example,
+Nelson’s position does not require a J .D. degree, nor does it have any relation to providing legal
+services and  advice concerning litigation strategy.  Similarly, Muslow’s position as general
+counsel did not involve, inter alia , the accreditation of undergraduate and graduate medical
+programs, the medical school’s budget, or coordinating clinical and public service programs.  Nor
+was Muslow responsible for all of the teaching and research programs at the medical school.
+Plaintiffs do not attempt to argue anything to the contrary.  Instead, Plaintiffs repeat the
+same two-sentence response to Muslow’s other putative comparators : “Steve Nelson: Paid well
+beyond the parameters of his classification scale.  If appropriate then Muslow should be making
+more than $400,000.”143  But, again, on its face, s uch a statement fails to show that Nelson and
+Muslow performed job responsibilities that were nearly identical.  See Foster, 834 F. App’x at 91.
+Therefore, with virtually no evidence or argument to contradict that significant difference s in job
+responsibilities exist, this Court finds that Nelson is not a proper comparator.
+Henry Gremillion: Henry Gremillion, the Dean of the School of Dentistry, is not a proper
+comparator, either.  Gremillion earned $280,000. 144  He was assigned to the N44 pay grade and
+the Leadership job family. 145  He , like Muslow, reported to Hollier .146  His position required a
+D.D.S. or D.M.D. degree, ten years of administrative, teaching, and/or research experience, and
+
+142 R. Doc. 365-7 at 68.
+143 R. Doc. 396 at 23.
+144 R. Doc. 365-4 at 45.
+145 Id. at 45, 50.
+146 Id. at 45.
+Case 2:19-cv-11793-BWA-DPC     Document 451     Filed 05/24/22     Page 29 of 84
+30
+
+five or more years of managerial or administrative experience in a dental school environment.147
+His duties and responsibilities included “(i) [providing] leadership and oversight of all educational,
+research and service programs of Dentistry School; (ii) [being the] chief executive officer for
+research, service, and dental practice programs; (iii) [being] responsible for administration of
+Dentistry School; (iv) lead[ing] strategic planning and policy development activities;
+(v) approv[ing] all Dental School faculty promotions and appointments; (vi) assur[ing] compliance
+with La. Board of Regents, LSU System, HSCNO, State Board of Dentistry and all accreditation
+regulations, standards, policies and practices; and (vii) promot[ing] [the] Dental School
+mission.”148  The dean of the dental school is “responsible for the vision, strategic planning, policy,
+development, academic, fiscal and other business activities of the School,” and “serves as t he
+official Dental School representative in the community and to external constituencies.” 149
+None of Gremillion’s duties, responsibilities, or required credentials as dean of the dental
+school is nearly identical to those Muslow had as general counsel.  Gremillion’s job did not require
+a J.D. degree and Muslow’s job did not require a D .D.S. or D.M.D. degree.  Muslow was never
+tasked with , inter alia , approving all dental school faculty promotions and appointments ,
+promoting the dental school’s mission, or being the chief executive officer for research, service,
+and dental practice programs.  Nor , conversely, was Gremillion charged with  conducting
+depositions, legal research, or litigation defense strategy.  Muslow and Gremillion, therefore, are
+not similarly situated such that they operate under nearly identical circumstances.
+Plaintiffs submit nothing to contradict this conclusion.  Instead, Plaintiffs’ entire argument
+is their oft-repeated mantra: “Henry Gremillion: If pay is appropriate then it appears that Muslow
+
+147 R. Doc. 365-1 at 21.
+148 R. Docs. 365-1 at 21; 365-7 at 48; 372-12 at 20.
+149 R. Doc. 365-7 at 48.
+Case 2:19-cv-11793-BWA-DPC     Document 451     Filed 05/24/22     Page 30 of 84
+31
+
+should be making more than $400,000.”150  This does not establish that Gremillion’s and Muslow’s
+positions require substantially the same duties, responsibilities, and credentials such that their job
+circumstances are “nearly identical.”  See Foster, 834 F. App’x at  91.  Accordingly, absent
+evidence to the contrary, Gremillion is not a proper comparator.
+Dean Smith: Dean Smith, the Dean of the School of Public Health,151 is also not a proper
+comparator.  He was assigned to the N44  pay grade and the Leadership job family.152  He earned
+$324,999.96 and, like Muslow, reported to Hollier.153  Smith’s position required a doctoral degree
+in public health or a related field, ten  years of progressing administrative and professional
+experience, and experience in higher education in a leadership role. 154  His duties and
+responsibilities included “(i) articulat[ing] strategic vision for  [the] School [of Public Health] ,
+develop[ing] long and short term plans for all School activities, including educational programs,
+research activities, faculty matters, and staffing and space matters; (ii) develop[ing] partners hip
+with national, state and local agencies that advance public health in [the] state of Louisiana;
+(iii) develop[ing] and advanc[ing] an innovative, high impact research program; (iv)
+recommend[ing] appointments, promotions and tenure of faculty members and program chairs; (v)
+direct[ing] efforts to recruit and retain exceptional academic and research faculty; and (vi)
+lead[ing] faculty and staff in development, expansion, advancement and delivery of innovative,
+high quality research and service programs.”155  The dean of the school of public health is  “the
+academic and administrative leader” of the school.156
+
+150 R. Doc. 396 at 23.
+151 R. Doc. 365-1 at 22.
+152 R. Doc. 365-4 at 45, 50.
+153 R. Docs. 365-1 at 22; 365-4 at 45.
+154 R. Docs. 365-1 at 22; 365-7 at 71.
+155 R. Docs. 365-1 at 22; 365-7 at 70-71; 372-12 at 22-23.
+156 R. Doc. 365-7 at 70.
+Case 2:19-cv-11793-BWA-DPC     Document 451     Filed 05/24/22     Page 31 of 84
+32
+
+Smith, too, is not a proper comparator because he does not have the same job or same job
+duties, responsibilities, and required credentials  that Muslow had in her role as general counsel.
+First, Smith, who is not required to have a J.D. degree or bar license, cannot hold the same job as
+Muslow, who had to hold these criteria to perform her job.  Similarly, Muslow, who does not hold
+a doctoral degree in public health or a related field, cannot have the same job or responsibilities as
+Smith, who is required to have such a degree.  Second, Smith’s duties and responsibilities have no
+relation to leg al services and Muslow’s duties and responsibilities d id not include, inter alia ,
+advancing the mission of the school of public health or developing partnerships with agencies that
+advance public health in Louisiana.
+Plaintiffs do not establish Smith as a proper comparator.  Instead, they merely state that
+Smith “[a]ppears to be getting paid one quadrant more than he should be; using him Muslow should
+be making $400,000 plus.”157  This isolated assertion does not speak to the question whether Smith
+and Muslow are so similarly situated in their employment circumstances to conclude that their
+positions were nearly identical.  See Foster, 834 F. App’x at 91.  Therefore, with virtually no
+evidence or argument to contradict the significant differences in job responsibilities shown to exist,
+this Court finds as a matter of law that Smith is not a proper comparator.
+ The 2017 Market Study:  In addition to the proffered  comparators Plaintiffs specifically
+name and their general reference to all deans, chancellors, and vice chancellors, Plaintiffs argue
+that “when Defendant LSU created the 2017 Market Study and established pay grades [at]
+LSUHSC-NO, it created comparators on its face, ” because “[t]he Market Study gro uped
+employees with similar skill, experience, education, duties, etc. together by ‘N[’] numbers .”158
+But the only other individual in Muslow’s same “N” category, N43, was another woman who
+
+157 R. Doc. 396 at 23.
+158 Id. at 20.
+Case 2:19-cv-11793-BWA-DPC     Document 451     Filed 05/24/22     Page 32 of 84
+33
+
+received higher pay: Wendy Simoneaux. 159  S imoneaux, given her gender, is not a proper
+comparator.  See Herster, 887 F.3d at 184 (“One of the requirements under the McDonnell Douglas
+framework for [a] gender discrimination in pay claim is that [the plaintiff] must show that she was
+paid less than a proffered comparator, not in her protected class , for work requiring substantially
+the same responsibility.”) (emphasis added).  Even if Plaintiffs’ argument that LSU’s 2017 Market
+Study created comparators by categorizing certain employees in “N” groups had merit, Plaintiffs
+would still have the burden to show that Muslow’s circumstances are nearly identical to those of
+a better -paid male employee whose work requires substantially the same responsibilit ies as
+Muslow’s.  The assertion that an unidentified employee is a “comparator” simply because they are
+categorized together on a pay scale is insufficient.
+ In addition, Plaintiffs’ bare -bones briefing seems to suggest that salaries are dependent
+upon ascending “N” pay-grade levels.  For example, Plaintiffs assert that they “have been able to
+show employees with lower ‘N’ number classifications with less experience making more money
+than Ms. Muslow.”160  But Plaintiffs  have not submitted any summary- judgment evidence
+establishing that the “N” groups represent an ascending pay scale.  In fact, the evidence shows that
+the “N” levels are not designed to be an ascending pay scale.  For example, if they were, Nelson,
+who earns $311,739.96 and is assigned to the N47 pay grade, should not be making less than
+Smith, who earns $324,999.96 and is assigned to a lower pay grade, N44.161  And, similarly, Fair,
+who earns $240,000 and is assigned to the N39 pay grade, should not be making more than Porche,
+who earns $237,915 and is assigned to a higher pay grade, N42.162  Thus, to suggest that Muslow
+
+159 R. Docs. 429; 365-10 at 72 (deposition of Muslow: “Q: I believe you testified you were graded N43, and
+the other person [in that category] was Wendy Simoneaux, who was making more than you; is that correct?  A: Yes.”),
+86.  Simoneaux was the Associate Vice Chancellor of Administration and Finance.  She earned $280,000.08.  R. Doc.
+365-4 at 46.
+160 R. Doc. 396 at 20.
+161 R. Doc. 365-4 at 44-45, 49-50.
+162 R. Docs. 365-1 at 20; 365-4 at 45, 50; 365-7 at 42.
+Case 2:19-cv-11793-BWA-DPC     Document 451     Filed 05/24/22     Page 33 of 84
+34
+
+is the only employee making more or less than a proffered comparator based on only her “N” pay
+grade level is insufficient on the basis of the information Plaintiffs provide.  Indeed, the evidence
+reflects that many male employees in  higher N levels are paid less than other male employees in
+lower N levels.
+ Muslow has not identified a proper comparator that performs nearly identical work.  Absent
+a comparator, Muslow cannot make out her prima facie case for pay discrimination.  Accordingly,
+Muslow’s Title VII disparate treatment claim against LSU and her § 1983 claims against Harman
+and Hollier must be dismissed.
+b.  Cunningham cannot identify a proper comparator as a matter of law.
+Like Muslow, Cunningham proffers many comparators.  But none is proper as a matter of
+law.  Cunningham argues that there are “several males who were performing work requiring
+substantially less responsibility and/or equal skill than [she] who were paid relatively highe r
+salaries than [she],” including Richard Buhler, Senior C ontracts Administration Officer; Frank
+Wasser, Compliance Officer; Roy Clay, Fiscal Compliance Officer; Matthew Gedge III, Project
+Manager; Wade Schomaker,  A ssistant Director of Information Technology D atabase
+Administration and Support Services; Robert Fahey, Executive Director of Environmental Health
+and S afety; Robert Parker Jr.,  D irector of P urchasing; Michael Barrilleaux, M anager of
+Information Technology S ecurity; William Jen nings, M anager of Information Technology
+Financial; Steven T. Zimmerman, Director of Facility Services; and Gary Canzoneri, Director of
+Information Technology, E nterprise Infrastructure Support.163  In addition to these named
+comparators, Cunningham argues generally that the 2017 Market Study created comparators on its
+face and is “dispositive on this issue.”164
+
+163 R. Doc. 363-5 at 151, 156, 158-162.
+164 R. Doc. 402 at 18-20.
+Case 2:19-cv-11793-BWA-DPC     Document 451     Filed 05/24/22     Page 34 of 84
+35
+
+Defendants brief each proffered comparator, arguing that none is “nearly identical.”165  But
+Cunningham fails to refute each of Defendants’ arguments.  Instead, she only addresses two of the
+eleven comparators in her opposition: Richard Buhler and Frank Wasser.166  Her failure to address
+the remaining nine comparators constitutes  her concession that they are, as LSU and Hollier
+contend, not proper comparators.  See Slaughter, 2022 WL 861409, at *12 (“[F]ailure to brief an
+argument in the district court waives that argument in that court.”) .  The Court examines  the
+evidence concerning Buhler, Wasser, and the 2017 Market Study and finds that Plaintiffs have not
+established that Cunningham has a proper comparator as a matter of law.
+Cunningham worked as a staff attorney.  She earned an annualized salary of $127,500 and
+worked at 60% effort. 167  She was assigned to the N37 pay grade and the Administrative
+Professional Non-Clinical job family .168  She reported to Muslow. 169   Cunningham’s position
+required a J.D. degree and Louisiana bar membership.170  Her “duties and responsibilities included
+responding to legal issues; review [ing] and approv[ing] contracts and other agreements;
+conducting legal research and analysis; assisting with review and drafting LSUHSC -NO policies
+and procedures; representing LSUHSC-NO in litigation; and assisting in staff, faculty and student
+training on legal matters.”171  As set forth below, Cunningham’s job responsibilities and required
+credentials are readily distinguishable from those of her proffered comparators.
+Richard Buhler: Cunningham identifies Richard Buhler as her “closest” comparator. 172
+Buhler, senior contracts administration officer , was assigned to the N35 pay grade and the
+
+165 R. Docs. 363-1 at 12-16; 372-1 at 31-32.
+166 R. Doc. 402 at 20, 25.
+167 R. Docs. 363-7 at 105-06; 363-1 at 12; 363-5 at 23.
+168 R. Docs. 363-1 at 12; 363-5 at 23, 28.
+169 R. Docs. 363-1 at 12; 363-5 at 23; 363-6 at 2.
+170 R. Doc. 363-6 at 2.
+171 R. Docs. 363-1 at 12; 363-6 at 2.
+172 R. Docs. 363-1 at 12; 363-7 at 145.
+Case 2:19-cv-11793-BWA-DPC     Document 451     Filed 05/24/22     Page 35 of 84
+36
+
+External/Internal Relations job family. 173  He earned $152,889.08 a year. 174  He reported to the
+Associate Vice Chancellor of Business Development – not Muslow.175  His position required either
+a J.D. or a master’s degree with eight years of experience.176  Buhler’s “[d]uties and responsibilities
+include (i) manag[ing] internal information collection to support financial terms of contract, FMV
+analysis, funds  distribution, budgetary items, and scope of services; (ii) develop[ing] and
+assist[ing] with renewal or  amendment of professional services, subcontracts, and directorship
+contracts; (iii) work[ing] with Contract Management Team to develop new, renewal and amended
+resident supervision and affiliation contracts and to facilitate contracting process from start to
+finish; (iv) review[ing] final contracts for accuracy in financial terms and services; (v) resolv[ing]
+contracting and legal issues with contracting entities; (vi) develop[ing] physicians’ professional
+service agreements; (vii) ensur[ing] LSUHSC-NO contracts capture fair market value and support
+School missions; (viii) maintain [ing] contract management database; (ix) prepar [ing] biannual
+contract summary; and (x) provid[ing] notary services.” 177  Importantly, the contracts
+administration officer is to “seek advice from LSUHSC legal counsel as appropriate and necessary
+so there will be no violation of state, or LSUHSC policy or procedure.”178
+While Buhler’s position does have some connection to the law in that it deals with
+contracts, he is not a proper comparator .  First, as Hollier notes, Buhler ’s and Cunningham’s
+“positions are not similar in skill, effort, or responsibility.” 179  For example, a s LSU correctly
+argues, Cunningham’s part -time position required a J .D. degree and a Louisiana bar license ,180
+
+173 R. Docs. 363-1 at 12; 363-5 at 45, 67.
+174 R. Docs. 363-1 at 12; 363-5 at 133.
+175 R. Doc. 363-6 at 21.
+176 Id. at 23.
+177 R. Docs. 363-1 at 12; 363-6 at 21-23.
+178 R. Doc. 363-6 at 22.
+179 R. Doc. 372-1 at 32.
+180 R. Doc. 363-6 at 2.
+Case 2:19-cv-11793-BWA-DPC     Document 451     Filed 05/24/22     Page 36 of 84
+37
+
+whereas Buhler’s full -time position required either a J.D.  degree – with no bar license – or a
+master’s degree with eight years of related, progressively responsible professional experience. 181
+And, whereas 80% of the duties and responsibilities for Cunningham’s position include responding
+to legal issues, conducting legal research, preparing and providing written and oral legal opinions,
+reviewing policies and procedures, participating in litigation, and developing training materials,182
+Buhler’s position does not encompass any such duties or responsibilities. 183  Instead, they are
+limited to preparing, monitoring, processing, and ensuring compliance with contracts.  There is no
+litigation component, which encompasse d most of Cunningham’s work.184  Buhler’s job
+description mandates that he “seek” legal advice from LSU -HSC legal counsel; 185 it does not
+permit him to provide any such advice or t o represent HSC and its officials in litigation, as
+Cunningham’s position required.186  And, while there is some crossover with respect to contra ct
+review and preparation, Buhler’s position charges him with “manag[ing] independently the
+preparation, monitoring, processing, and compliance with all Federal and State regulations of all
+contractual agreements for all Schools within LSU Health Sciences Center,”187 whereas
+Cunningham’s position charged her with “providing or assisting in the provision of legal counsel
+to specified organizational units of the [Health Sciences Center]” – a different scope of
+responsibility.188  Thus, Buhler and Cunningham did not hold the same job or job responsibilities.
+Second, Buhler cannot be a proper comparator because the two did not share the same supervisor:
+Cunningham reported to Muslow  and Buhler reported to the Associate Vice Chancellor for
+
+181 Id. at 23.
+182 Id. at 2.
+183 See id. at 21-23.
+184 Compare R. Doc. 363-6 at 2, with R. Doc. 363-6 at 21-23.
+185 R. Doc. 363-6 at 22.
+186 R. Doc. 363-3 at 2.
+187 R. Doc. 363-6 at 21.
+188 Id. at 2.
+Case 2:19-cv-11793-BWA-DPC     Document 451     Filed 05/24/22     Page 37 of 84
+38
+
+Business Development .189  Moreover, there is no  evidence that Cunningham and Buhler’s
+employment statuses were determined by the same person.  Th erefore, Cunningham and Buhler
+are not similarly situated.
+And Plaintiffs fail to establish otherwise.  In their briefing, Plaintiffs allege that the 2017
+Market Study placed Buhler’s position in the N35 pay grade and that the study and its pay grade
+assignments “is the method by which LSU compares ‘similarly situated employees.’”190  But even
+if this statement were enough to show that individuals were nearly identical, which it is not ,
+Cunningham’s position was assigned to a different pay  grade than Buhler : N37 .191  Then,
+presumably in an attempt to show similar job responsibilities and circumstances, Plaintiffs state
+that (1) Buhler’s contract responsibilities included completing “boiler plate templates”; (2) Hollier
+“bore final responsibility on Buhler’s pay”; and (3) Hollier testified that he did not know Buhler.192
+Yet these statements, on their own, fail to contradict Buhler’s non-comparator status when all the
+evidence is examined.  Therefore, Buhler is not a proper comparator.
+Frank Wasser: Frank Wasser, the fiscal compliance officer, is not a proper comparator,
+either.  Wasser earned $150,000 a year .193  He  was sl otted in  the N37 pay grade194 and the
+Leadership job family.195  Unlike Cunningham, he reported to Hollier.196  His position required a
+J.D. degree, any state bar license, and a minimum of eight years of professional -level experience
+at a top law firm, in-house legal department, or university with a primary focus on compliance and
+privacy.197  His “[d]uties and responsibilities include (i) develop[ing] and implement[ing]
+
+189 Id. at 21.
+190 R. Doc. 402 at 25.
+191 R. Docs. 363-1 at 12; 402 at 21.
+192 R. Doc. 402 at 21-25.
+193 R. Doc. 363-6 at 19; but see R. Doc. 363-6 at 18 (stating that the incumbent’s salary is $172,791).
+194 R. Doc. 363-6 at 18.
+195 R. Doc. 363-1 at 14.
+196 R. Docs. 363-2 at 26; 363-6 at 18.
+197 R. Doc. 363-6 at 14.
+Case 2:19-cv-11793-BWA-DPC     Document 451     Filed 05/24/22     Page 38 of 84
+39
+
+compliance plan; (ii) serv[ing] as employee resource on compliance matters; (iii) assist[ing]
+Privacy Officer to ensure policies and procedures are in accordance with state and federal privacy
+requirements; (iv) serv[ing] as university’s liaison to LSU Internal Audit, Legislative Auditor and
+other oversight entities; (v) develop[ing] education and training programs on compliance;
+(vi) review[ing] and investigat[ing] allegations and complaints of non- compliant activity;
+(vii) develop[ing] policies to support compliance initiatives; and (viii) provid[ing] compliance
+reports.”198  The “primary function” of Wasser’s position is “ to prevent, detect and resolve
+instances of conduct that do not conform to federal and state law,  federal and state privacy payer
+health care program requirements, technical and professional billing and research requirements, as
+well as policies of the LSU Health Sciences Center.”199
+Cunningham and W asser are not similarly situated in their employment circumstances.
+First, as Hollier observes, 200 Cunningham was not tasked with any of Wasser’s duties or
+responsibilities as would justify finding they held the same job or had the same job responsibilities.
+For example, there was no requirement for Cunningham to handle compliance matters or serve as
+the university’s liaison for auditing purposes, among other things.  And there is no requirement for
+Wasser to respond to legal issues, conduct legal research, prepare and provide written and oral
+legal opinions, review policies and procedures, participate in litigation, and develop training
+materials, as there was for Cunningham. 201  Second, Wasser and Cunningham did  not share the
+same supervisor, and there is no evidence that the two had their employment statuses determined
+by the same person.  Specifically, Wasser reported to Hollier, whereas Cunningham reported to
+Muslow.
+
+198 R. Docs. 363-1 at 14; 363-6 at 15-16.
+199 R. Doc. 363-6 at 14.
+200 R. Doc. 372-1 at 33.
+201 R. Doc. 363-6 at 2.
+Case 2:19-cv-11793-BWA-DPC     Document 451     Filed 05/24/22     Page 39 of 84
+40
+
+Plaintiffs effectively concede that Wasser is not a proper comparator.  Instead of rebutting
+Defendants’ arguments, Plaintiffs offer irrelevant facts that fail to lend  any support to Wasser’s
+comparator status.  For example, Plaintiffs observe that (1) on his initial application, Wasser
+indicated that he did not have a Louisiana bar license and that he later resubmitted the application
+to state that he did have a bar license; 202 (2) Colletta requested that the fiscal compliance officer
+position requirements be revised to accept any bar licensure;203 and (3) “[o]ne female applicant for
+this position was well-qualified” but “was not given the same consideration Wasser was.”204  The
+relevance of Plaintiffs’ observations and any related “argument” is lost on the Court.  In any event,
+these statements are insufficient to establish that Wasser is a proper comparator.  Plaintiffs  make
+no attempt to establish that Cunningham and Wasser held the same job or responsibilities, that
+they reported to the same supervisor, or that the same person determined their employment
+statuses.  See Foster, 834 F. App’x at 91; Ernst v. Methodist Hosp. Sys., 1 F.4th 333, 340 (5th Cir.
+2021) (upholding summary judgment for defendant where plaintiff failed to establish that co-
+employee “was a similarly situated comparator” since their “positions entailed different
+responsibilities” and they did not share the same supervisor, among other things).  Accordingly,
+because Plaintiffs point to no evidence to controvert Defendants’ amply supported position, the
+Court finds that Wasser is not a proper comparator as a matter of law.
+The 2017 Market Study: Plaintiffs make the same argument about the 2017 Market Study
+with respect to Cunningham  as they did with respect to Muslow, urging that “ it created
+comparators on its face ,” because “[t]he Market Study grouped employees with similar skill,
+experience, education, duties, etc. together by ‘N[’] numbers .”205  This argument fares no better
+
+202 R. Doc. 402 at 26.
+203 Id.
+204 Id.
+205 Id. at 18.
+Case 2:19-cv-11793-BWA-DPC     Document 451     Filed 05/24/22     Page 40 of 84
+41
+
+for Cunningham, however, and fails for the same reasons.206  Even assuming Plaintiffs’ argument
+were colorable, they would still have the burden to show that Cunningham ’s circumstances were
+nearly identical to those of a better -paid male employee whose work requires substantially the
+same responsibilities as did Cunningham ’s.  A statement that an unidentified employee is a
+“comparator” is insufficient.
+Plaintiffs have not presented summary- j udgment evidence to refute Defendants’ showing
+that there is a significant difference between  Cunningham and her proffered comparators’  job
+responsibilities, required credentials, and supervisors.  LSU maintains that “[t]he facts show the
+alleged male comparators are in different job families, perform different duties and responsibilities
+under different working conditions; report to different supervisors in different departments; several
+comparators oversee numerous direct and/or indirect reports (unlike [Cunningham]); and several
+comparators have a different  seniority with LSU that is several years greater  than
+[Cunningham].”207  The Court agrees.  Thus , Plaintiffs ha ve not identified a comparator that
+performs nearly identical work as Cunningham.  Absent a comparator, Cunningham cannot make
+out a prima facie  case of disparate treatment.  Therefore, Cunningham’s Title VII and § 1983
+claims for gender discrimination must be dismissed.208
+2.  Defendants offer nondiscriminatory reasons for their employment actions.
+Because Plaintiffs have not identified appropriate comparators, they cannot carry their
+initial burden of establishing a prima facie  case, and their Title VII and § 1983 gender -
+discrimination claims must be dismissed.  Even had they identified a proper comparator, however,
+dismissal is still warranted because Defendants off er nondiscriminatory reasons for their
+
+206 See supra at Section III(B)(1)(a).
+207 R. Doc. 363-1 at 17 (emphasis in original).
+208 Because the Court dismisses Plaintiffs’ Title VII and § 1983 claims for failure to identify a proper
+comparator, it need not discuss LSU’s alternative argument regarding statutes of limitations.
+Case 2:19-cv-11793-BWA-DPC     Document 451     Filed 05/24/22     Page 41 of 84
+42
+
+employment actions (i.e., the alleged pay disparity and termination) and Plaintiffs cannot establish
+pretext.
+Once a  plaintiff  establishes a prima facie case of discrimination, the burden shifts to the
+defendant “to proffer a legitimate, nondiscriminatory reason for his action.”  Watkins v. Tregre ,
+997 F.3d 275, 281- 82 (5th Cir. 2021)  (citing Outley v. Luke & Assocs., Inc. , 840 F.3d 212, 216
+(5th Cir. 2016)).  The defendant’s burden is one of production, not persuasion.  Id. at 282; see also
+Reeves v. Sanderson Plumbing Prods., Inc., 530 U.S. 133, 142 (2000).  To meet its burden of
+production, the defendant “ ‘must articulate a nondiscriminatory reason with sufficient clarity to
+afford [the plaintiff] a realistic opportunity to show that the reason is pretextual.’”  Watkins, 997
+F.3d at 282 (quoting Burton v. Freescale Semiconductor, Inc., 798 F.3d 222, 231 (5th Cir. 2015)).
+“The defendant’s burden during this second step is satisfied by producing evidence, which, ‘taken
+as true, would permit the conclusion that there was a nondiscriminatory reason for the adverse
+action.’”  Price v. Fed. Exp ress Corp., 283 F.3d 715, 720 (5th Cir. 2002) (quoting St. Mary’s
+Honor Ctr. v. Hicks, 509 U.S. 502, 509 (1993)) (emphasis in original).
+Here, D efendants satisfy this burden.  They offer multiple nondiscriminatory reasons for
+both the pay disparities Plaintiffs claim and their termination.  First, LSU argues that Plaintiffs
+were not eligible for a pay adjustment because (1) the pay raise provided to “certain key personnel”
+at LSUHSC-NO in October 2018 was for deans, vice chancellors, and associate vice chancellors
+only, and neither Muslow’s position as general counsel nor Cunningham’s position as staff
+attorney was equivalent to a dean, vice chancellor, or associate vice chancell or;209 and (2) the
+LSUHSC-NO Unclassified Staff Pay Adjustments Policy only applied to those who were working
+at full-time capacity, which Cunningham was not.210  Second, LSU contends that Muslow was not
+
+209 R. Doc. 365-1 at 26.
+210 R. Doc. 363-1 at 20-21.
+Case 2:19-cv-11793-BWA-DPC     Document 451     Filed 05/24/22     Page 42 of 84
+43
+
+eligible for a car allowance because only deans and vice chancellors received a car allowance and
+Muslow was neither a dean nor a vice chancellor.211  Third, LSU contends that Plaintiffs’ positions
+were retired “in favor of new legal positions in the OGC to be assigned to LSUHSC -NO.”212
+Fourth, LSU and Hollier argue that Plaintiffs failed to execute their  proposed OGC employment
+contracts despite their knowledge that their LSUHSC-NO positions would be terminated as a result
+of the consolidation.213  Fifth, LSU argues that Muslow did not apply for the position of the OGC
+chief counsel, although invited to do so on March 1, March 25, April 4,  May 2, and May 15,
+2019;214 and, similarly, Cunningham did not apply for the OGC staff attorney position, although
+invited to do so on March 1, March, 25, April 4, and May 2, 2019.215  Sixth, LSU argues that that
+Muslow advised in a May 13, 2019 email to Jones that he did not have permission to treat either
+plaintiff as an applicant  for their respective OGC positions, 216 and Cunningham concurred. 217
+Seventh, Hollier argues that pay ranges were based on many factors other than sex, including the
+gender-blind 2017 Market Study, different job and skill levels, previous training and experience,
+and business -related exigent circumstances. 218  And finally, Hollier argues that Plaintiffs’
+decisions not to execute their contracts or apply for the new OGC positions were made of their
+own volition.219  These proffered reasons are sufficient to satisfy Defendants’ burden of production
+at this second step.
+
+211 R. Doc. 365-1 at 27.
+212 R. Docs. 363-1 at 21-22; 365-1 at 28.
+213 R. Docs. 363-1 at 22; 365-1 at 28; 372-1 at 38.
+214 R. Doc. 365-1 at 28.
+215 R. Doc. 363-1 at 22.
+216 R. Doc. 365-1 at 28-29.
+217 R. Doc. 363-1 at 23.
+218 R. Doc. 372-1 at 33.
+219 Id. at 38.
+Case 2:19-cv-11793-BWA-DPC     Document 451     Filed 05/24/22     Page 43 of 84
+44
+
+3.  Plaintiffs cannot establish pretext.
+When the defendant meets its burden of production, as here, the burden shifts to the
+plaintiff to “substantiate his claim of pretext through evidence demonstrating that discrimination
+lay at the heart of the employer’s decision.”  Price, 283 F.3d at 720.  Although a plaintiff need not
+prove pretext at the summary -judgment stage , a plaintiff must raise a genuine issue of fact
+regarding pretext.  Guthrie v. Tifco Indus., 941 F.2d 374, 378 (5th Cir. 1991) .  A plaintiff “‘may
+establish pretext either through evidence of disparate treatment or by showing that [ the
+defendant’s] proffered explanation is false or “unworthy of credence.”’”  Watkins, 997 F.3d at 283
+(quoting Laxton v. Gap Inc., 333 F.3d 572, 578 (5th Cir. 2003)) .   Even when such a showing is
+made, however, it is not always enough to prevent summary judgment if “‘ no rational factfinder
+could conclude that the action was discriminatory.’”  Lockhart v. Republic Servs., Inc., 2021 WL
+4955241, at *3 (5th Cir. Oct. 25, 2021) (quoting Price, 283 F.3d at 720).
+“[The Fifth Circuit] has held that a plaintiff ’s summary judgment proof must consist of
+more than ‘a mere refutation of the employer ’s legitimate nondiscriminatory reason. ’”  Jones v.
+Gulf Coast Rest. Grp., Inc., 8 F.4th 363, 369 (5th Cir. 2021)  (quoting Moore v. Eli Lilly & Co. ,
+990 F.2d 812, 815 (5th Cir. 1993)).  A subjective disbelief of the employer’s reason is not enough,
+as the ultimate fact issue is whether the defendant intentionally discriminated against the plaintiff.
+St. Mary’s Honor Ctr., 509 U.S. at 519; see also Reeves , 530 U.S. 133 at  153 (“The ultimate
+question in every employment discrimination case involving a claim of disparate t reatment is
+whether the plaintiff was the victim of intentional discrimination. ”).  “ Thus, the plaintiff is not
+relieved of her burden to present evidence that will permit a rational factfinder to infer intentional
+discrimination.”  Douglas v. St. John Baptist Par. Libr. Bd. of Control , 2022 WL 898746, at *12
+(E.D. La. Mar. 28, 2022)  (citing Harville v. City of Hous ., 945 F.3d 870, 877 (5th Cir. 2019) ).
+Case 2:19-cv-11793-BWA-DPC     Document 451     Filed 05/24/22     Page 44 of 84
+45
+
+“Even in the face of sufficient evidence for a reasonable factfinder to find pretext and reject the
+nondiscriminatory reason, if no rational factfinder could conclude that the action was
+discriminatory, such as when the record conclusively reveals some other, nondiscriminatory reason
+for the decision, or if the plaintiff creates only a weak issue of fact  as to whether the employer ’s
+reason was untrue and there is abundant and uncontroverted independent evidence that no
+discrimination occurred, summary judgment will be proper.”  Id. (citing Harville, 945 F.3d at 876-
+77).
+“If the employer offers more than one [nondiscriminatory] reason, the plaintiff ‘must put
+forward evidence rebutting each of the nondiscriminatory reasons the employer articulates.’”
+Jones, 8 F.4th at 368-69 (quoting Wallace, 271 F.3d at 220) (emphasis in original).  “Because the
+plaintiff bears the ultimate burden of proving that intentional discrimination was a motivating
+factor by a preponderance of the evidence, she ‘ must produce  substantial evidence  that the
+defendant’s nondiscriminatory reason is mere ly a pretext for impermissible discrimination. ’”
+Pippins v. Tangipahoa Par. Council, 2004 WL 1575410, at *7 (E.D. La. July 13, 2004)  (quoting
+Read v. BT Alex Brown Inc. , 72 F. App’ x 112, 115 (5th Cir. 2003) ) (emphasis in original) .
+“‘Evidence is substantial if it is of such quality and weight that reasonable and fair-minded men in
+the exercise of impartial judgment might reach different conclusions.’”   Riley v. Sch. Bd. Union
+Par., 379 F. App’x 335, 339 (5th Cir. 2010)  (quoting Laxton v. Gap Inc., 333 F.3d 572, 579 (5th
+Cir.2003)).  “‘ Where the plaintiff fails to produce substantial evidence of pretext, or produces
+evidence permitting only an indisputably tenuous inference of pretext, summary judgment in favor
+of the defendant is appropriate.’” Pippins, 2004 WL 1575410, at *7 ( quoting Read, 72 F. App’x
+at 115)).  “‘ Whether summary judgment is appropriate depends on numerous factors, including
+“the strength of the plaintiff’s prima facie case, the probative value of the proof that the employer’s
+Case 2:19-cv-11793-BWA-DPC     Document 451     Filed 05/24/22     Page 45 of 84
+46
+
+explanation is false, and any other evidence that supports the employer ’s case and that properly
+may be considered.”’”  Riley, 379 F. App’x at 339-40 (quoting Price, 283 F.3d at 720).
+Plaintiffs cannot carry their summary -judgment burden.  First, Plaintiffs fail to address
+each of Defendants’  nondiscriminatory reasons for the claimed pay disparities and their
+termination.  See Jones, 8 F.4th at 368-69.  In response to the various nondiscriminatory reasons,
+Muslow argues that there is a “general issue of material fact as to who was the employer of Ms.
+Muslow and who terminated her.”220  Similarly, Cunningham argues that there is “a general issue
+of material fact as to who was the employer of Ms. Cunningham and who terminated her.”221  It is
+unclear which nondiscriminatory reason this argument is meant to refute.  In any event, this
+indisputably tenuous inference of pretext is insufficient to rebut each of the nondiscriminatory
+reasons Defendants articulate.  See Jones, 8 F.4th at 368-69.  “Where, as here, the employee fails
+to adduce evidence refuting a rational, non- discriminatory reason articulated by the employer,
+pretext cannot be established by the subjective belief that the illegitimate criterion gender
+motivated the employer’s decision.”  Pippins , 2004 WL 1575410, at *9 (citing Armendariz v.
+Pinkerton Tobacco Co., 58 F.3d 144, 153 (5th Cir. 1995) ).  Hence, summary judgment on this
+basis alone is appropriate.
+Second, Plaintiffs have not established pretext because they fail to present evidence of
+(1) disparate treatment; or (2) facts that cast doubt on the credence of Defendants’  stated
+justifications for the employment actions .  “[T] o establish disparate treatment, a plaintiff mus t
+show that the employer gave preferential treatment to another employee under ‘ nearly identical’
+circumstances.”  Moore v. Reeves Cnty., 360 F. App’x 546, 548 (5th Cir. 2010)  (citing Bryant v.
+Compass Group USA Inc., 413 F.3d 471, 478 (5th Cir.2005) ).  The Court has already found that
+
+220 R. Doc. 396 at 26.
+221 R. Doc. 402 at 32.
+Case 2:19-cv-11793-BWA-DPC     Document 451     Filed 05/24/22     Page 46 of 84
+47
+
+Plaintiffs did not produce sufficient evidence that similarly situated employees were treated more
+favorably in nearly identical circumstances .  See supra Section III(B)(1).  Nor have Plaintiffs
+identified any other employee who was hired despite refusal to sign an employment contract or to
+be included in the applicant pool.  Therefore, Plaintiffs have not established discrimination through
+disparate treatment.
+Furthermore, Plaintiffs h ave not shown that Defendants’ stated nondiscriminatory reasons
+are false or unworthy of credence.  “‘[A]n explanation is false or unworthy of credence if it is not
+the real reason for the adverse employment action.’”   Moore , 360 F. App’x at 548-49 (quoting
+Laxton, 333 F.3d at 578).  Plaintiffs have not introduced material evidence as to  whether
+Defendants’ reasons were pretextual ; instead, they simply make conclusory and unsupported
+assertions as to disputes concerning the identify of their employers and who fired them.222  This is
+insufficient to contradict Defendants’  stated reasons for  the pay disparities and termination .
+“Absent countervailing evidence, the trier of fact must accept the defendant ’s explanation as the
+real reason for the discharge. ”  Guthrie, 941 F.2d at  378 (citing Elliott v. Grp. Med. & Surgical
+Serv., 714 F.2d 556, 566 (5th Cir. 1983) ).  Because Plaintiffs point to no genuine fact issue
+concerning whether Defendants’ stated reasons for their alleged pay disparities and termination
+were pretextual, they are entitled to judgment as a matter of law.  Accordingly, Plaintiffs’ Title VII
+disparate treatment claim against LSU  and their § 1983 gender- discrimination claims against
+Harman and Hollier must be dismissed for this reason as well.
+C.  Title VII Retaliation Claim
+Plaintiffs assert a Title  VII retaliation claim against LSU, arguing that they “have been
+retaliated against in response to their participation in proceedings under Title VII as well as to their
+
+222 R. Docs. 396 at 26; 402 at 32.
+Case 2:19-cv-11793-BWA-DPC     Document 451     Filed 05/24/22     Page 47 of 84
+48
+
+opposition of Defendants’ practices, which violate Title VII or which Plaintiffs reasonably
+believed violated Title VII.”223  LSU, however, contends that “the facts and substantive law do not
+support Plaintiff[s’] prima facie burden; the facts show non- discriminatory reasons for the
+termination of Plaintiff[s’] employment; the facts do not show substantial evidence of pretext; and
+the facts show breaches of ethical duties that are unprotected under Title VII.”224  The Court finds
+that the retaliation claim fails because, even if Plaintiffs could establish a prima facie case, which
+is suspect given doubt as to whether they engaged in a protected activity, Plaintiffs cannot show
+that Defendants’ stated nonretaliatory reasons are pretextual.
+“Title VII protects an employee  only from retaliation for complaining about the types of
+discrimination it prohibits.”  Brackens v. Stericycle, Inc. , 829 F. App’x 17, 21 (5th Cir. 2020)
+(quotation and citation omitted).  When a Title VII retaliation claim is based on circumstantial
+evidence, as here, a court analyzes it under the McDonnell Douglas  burden-shifting framework.
+Saketkoo, 31 F.4th at 1000.  Under the McDonnell Douglas framework, the plaintiff-employee has
+the initial burden of establishing a prima facie case of retaliation by showing (1) that she engaged
+in activity protected by Title VII, (2) that an adverse employment action occurred, and (3) that a
+causal link existed between the protected activity and the adverse employment action.  Id.  “If the
+plaintiff successfully establishes a prima facie case, the burden then shifts to the employer to
+introduce evidence of a legitimate, nonretaliatory reason for the adverse employment action.”  Id.
+(quoting Long v. Eastfield Coll., 88 F.3d 300, 304-05) (5th Cir. 1996)).  If the defendant-employer
+meets its burden, the “‘plaintiff then bears the ultimate burden of proving that the employer’s
+proffered reason is not true but instead is a pretext for the real retaliatory purpose.’”  Id.  (quoting
+McCoy v. City of Shreveport, 492 F.3d 551, 557 (5th Cir. 2007)) (alteration omitted).
+
+223 R. Doc. 50 at 37; see also R. Doc. 99 at 12.
+224 R. Docs. 363-1 at 24; 365-1 at 30 (emphasis omitted).
+Case 2:19-cv-11793-BWA-DPC     Document 451     Filed 05/24/22     Page 48 of 84
+49
+
+1.  Plaintiffs’ prima facie case is suspect.
+ For Plaintiffs to establish their prima facie  case of retaliation, they must first show that
+they participated in an activity protected by Title VII.  “‘Protected activity is defined as opposition
+to any practice rendered unlawful by Title VII, including making a charge, testifying, assisting, or
+participating in any investigation, proceeding, or hearing under Title VII.’”  Williams v. Recovery
+Sch. Dist., 859 F. Supp. 2d 824, 830-31 (E.D. La. 2012) (quoting Ackel v. Nat’l Commc’ns, Inc. ,
+339 F.3d 376, 385 (5th Cir.2003)).  Thus, Title VII’s antiretaliation provision outlines two distinct
+types of protected activity: (1) opposition to any practice rendered unlawful by Title VII (the
+“opposition clause”); and (2) making a charge, testifying, assisting, or participating in any
+investigation, proceeding, or hearing under Title VII (the “participation clause”).  Crawford v.
+Metro. Gov’t of Nashville & Davidson Cnty., 555 U.S. 271, 274 (2009).
+ In their briefing, Plaintiffs do not clearly identify the “protected activity” they claim is at
+issue.  For example, Plaintiffs contend that LSU’s alleged retaliation began when Plaintiffs “filed
+an EEOC complain[t] against LSU and the LSUHSC -NO after [Plaintiffs] attempted to discuss a
+salary review” with Skinner, Jones, and Hollier. 225  Later, however, Plaintiffs contend that “but
+for” Plaintiffs’ request for a salary review and the EEOC complaint, they would not have been
+fired, which seems to indicate that the request for a salary review is also protected activity Plaintiffs
+intend to rely upon to support their retaliation claim.226  The Court will address both as claimed
+protected activities: (1) the February 15, 2019 request for a salary review; and (2) the March 26,
+2019 EEOC charge.
+To the extent  Plaintiffs intend to argue that their request for a salary review is protected
+activity, such a request likely falls under the opposition clause.  “[T]he opposition clause does not
+
+225 R. Docs. 396 at 28; 402 at 33.
+226 R. Docs. 396 at 28; 402 at 34.
+Case 2:19-cv-11793-BWA-DPC     Document 451     Filed 05/24/22     Page 49 of 84
+50
+
+require opposition alone; it requires opposition of a practice made unlawful by Title VII.”  EEOC
+v. Rite Way Serv., Inc., 819 F.3d 235, 240 (5th Cir. 2016) (emphasis omitted).  Thus, an employee
+“cannot simply complain that she received unfair or undesirable treatment ,” Carter v. Target
+Corp., 541 F. App’x 413, 417 (5th Cir. 2013) , she must refer “to conduct that could plausibly be
+considered discriminatory in intent or effect, thereby alerting the employer of its alleged
+discriminatory practices.”  Allen v. Envirogreen Landscape Pros., Inc., 721 F. App’x 322, 326 (5th
+Cir. 2017) .  B ut this  standard does not require a plaintiff to prove that  the complained-of
+employment practice was unlawful; rather, the plaintiff need only reasonably believe that the
+complained-of employment practice was unlawful.  Rite Way , 819 F.3d at  240 (citing P ayne v.
+McLemore’s Wholesale & Retail Stores , 654 F.2d 1130, 1137-40 (5th Cir. 1981)). 227  “[T]he
+reasonable belief standard recognizes there is some zone of conduct that falls short of an actual
+violation but could be reasonably perceived to violate Title VII.”  Id. at 242.  A plaintiff’s belief
+must be objectively reasonable.  Armstrong v. K  & B La. Corp., 488 F. App’x 779, 782 (5th Cir.
+2012) (“For [plaintiff’s] actions to satisfy the opposition clause, [plaintiff] must have had an
+objectively reasonable belief that [defendant] was engaged in employment practices barred by
+Title VII.”); see also Ellis v. Compass Grp. USA, Inc., 426 F. App’x 292, 296 (5th Cir. 2011).  A
+plaintiff’s “subjective belief the incidents were retaliatory, without more, is not sufficient to
+survive summary judgment.”  Peace v. Harvey, 207 F. App’x 366, 369 (5th Cir. 2006) (citing
+Byers v. Dall. Morning News, Inc., 209 F.3d 419, 427 (5th Cir. 2000)).
+
+227 “The Fifth Circuit has repeatedly held that the opposition clause does not actually require the opposed
+conduct to, in fact, violate Title VII. ”  Saketkoo , 510 F. Supp. 3d at  393.  “Instead, it is ‘ enough that the  plaintiff
+reasonably believed the employment practice to be unlawful. ’”  Id. ( quoting Rite Way, 819 F.3d at  240) (alteration
+omitted).  Ultimately, “[w]hile the reasonable belief standard is ‘in tension with the plain text’ of the statute, it ‘remains
+good law.’”  Id. (citing Royal v. CCC & R Tres Arboles, L.L.C., 736 F.3d 396, 401 n.2 (5th Cir. 2013), and Rite Way,
+819 F.3d at 240).  “The Supreme Court has not taken a position on the reasonable belief standard.”  Rite Way , 819
+F.3d at 240.
+Case 2:19-cv-11793-BWA-DPC     Document 451     Filed 05/24/22     Page 50 of 84
+51
+
+The Court assumes, but does not decide, that Plaintiffs’ belief about gender -pay disparity
+was objectively reasonable, although there is certainly evidence that may call that into question.228
+Plaintiffs contend that “Skinner fully appreciated Plaintiffs’ email [requesting a salary review] to
+mean there was ‘potentially a pay disparity  between males and females at [LSU]HSC ,” and then
+purport to quote from Skinner’s deposition, as follows: “‘Did I read the letter as indicating that she
+had a problem with gender disparity in pay at Health Science Center New Orleans?  Yes, that’s
+what I took from that letter.  But, I mean, that’s all I took from the letter.’” 229  This te stimony
+would seem to corroborate that Plaintiffs’ belief was objectively reasonable.  However, Plaintiffs
+fail to attach the quoted excerpt to their briefing or reference it in their statements of fact – and the
+Court, despite its best efforts, cannot find the quoted excerpt in the thousands of pages of evidence
+submitted for purposes of these motions.  For this reason, then, Plaintiffs’ position is unsupported
+and, thus, suspect.  Nevertheless, the Court will assume that Plaintiffs’ salary review request was
+objectively reasonable such that it constitutes protected activity.  The Court need not definitively
+conclude as much, however, because Plaintiffs’ claims fail at the pretext stage of the analysis.
+
+228 In Byers v. Dallas Morning News, Inc. , the Fifth Circuit considered whether it was “objectively
+reasonable” that the conduct plaintiff Byers opposed was discriminatory, such that he would have a viable claim under
+the opposition clause.  Byers, 209 F.3d at 428.  There, Byers, a white male, believed that his employer was
+discriminating on the basis of race in violation of Title VII and opposed the alleged acts of racial discrimination on
+several occasions.  Id.  Byers’s complaints were not objectively reasonable, the Court held, because Byers failed to
+(1) present evidence that other non-white employees were treated differently; and (2) counter his employer’s evidence
+that allegedly justified its actions.  Id. ; see also Carpenter v. Haaland, 2021 WL 1198261, at *5 (E.D. La. Mar. 30,
+2021) (discussing the Byers holding).
+Here, as in Byers, Plaintiffs’ subjective belief that LSU violated Title VII could be viewed as not objectively
+reasonable because Plaintiffs cannot show that employees outside of their protected class were treated differently.  In
+their February 15, 2019 email to Skinner requesting that their salaries be revisited, Plaintiffs voiced that they did not
+believe they were being compensated equitably compared to their male colleagues in violation of Title VII.  R. Doc.
+365-5 at 17.  But, as reviewed above, Plaintiffs fail to identify a male comparator who received a higher salary.  That
+Plaintiffs cannot present evidence that other similarly situated male employees were treated differently  likely strips
+their “opposition” (by means of seeking pay increases) of objective reasonableness.  And while it is true that Plaintiffs
+subjectively believed they were being discriminated against based on their gender, that belief on its own is insufficient.
+See Byers, 209 F.3d at  428.  Therefore, it is possible to conclude that Plaintiffs’ salary request was not a protected
+activity.  Id. at 428-29; see also Armstrong, 488 F. App’x at 782 (affirming summary judgment when plaintiff offered
+no objective evidence of belief that defendant was engaged in employment practices barred by Title VII and instead
+offered “only conclusional allegations to support his prima facie case”).
+229 R. Doc. 400 at 29.
+Case 2:19-cv-11793-BWA-DPC     Document 451     Filed 05/24/22     Page 51 of 84
+52
+
+ Second, if Plaintiffs are attempting to argue that filing the EEOC complaint is “protected
+activity,” such activity likely falls under Title VII’s participation clause.  Plaintiffs argue that the
+retaliation against them began after Muslow filed the EEOC complaint on March 26, 2019.230  But
+weeks before Muslow filed the EEOC complaint, Plaintiffs were on notice that their positions
+would be terminated.  O n March 1, 2019, Hollier emailed Plaintiffs to confirm that, “[i]n
+accordance with revised PM-72, LSUHSC-NO will retire [its] existing legal positions by June 30,
+2019,”231 and, on March 25, 2019, Hollier sent Muslow and Cunningham letters detailing that their
+positions would be eliminated and employment terminated effective close of business on June 30,
+2019.232  Thus, when LSU gave notice that Plaintiffs would be fired, Plaintiffs had not yet made a
+charge, testified, assisted, or participated in any manner in an investigation, proceeding, or hearing
+under Title VII.  That participation did not begin until March 26, 2019 – after Plaintiffs had notice
+that their employment would terminate.  Therefore , as LSU observes ,233 t hat this alleged
+“retaliation” occurred before Plaintiffs filed the EEOC charge makes  the participation clause
+irrelevant.  See Ellis , 426 F. App’x at  297 (finding that plaintiff did not satisfy the participation
+clause when the alleged retaliation occurred before her EEOC charge was filed) ; see also Byers,
+209 F.3d at 428 (“In the instant case, the ‘participation clause’ is irrelevant because Byers ’s did
+not file a charge with the EEOC until  after the alleged retaliatory discharge took place. ”)
+(emphasis in original).234
+
+230 R. Doc. 402 at 33.
+231 R. Doc. 365-5 at 23-24.
+232 R. Docs. 363-5 at 11; 365-6 at 1.
+233 R. Doc. 365-1 at 31 (citing O’Daniel v. Indus. Serv. Sols., 2018 WL 265585, at *6 (M.D. La. Jan. 2, 2018)
+(“There is no dispute that there can be no causal connection between Plaintiff’ s filing of a formal EEOC charge after
+her termination, and any alleged retaliation by the Defendants.”)).
+234 LSU also argues that Plaintiffs’ conduct “while employed as legal counsel for LSU was not reasonable
+and, thus, [Plaintiffs are] not entitled to protection under Title VII.”  R. Docs. 363-1 at 27; 365-1 at 33.  In particular,
+LSU observes that Plaintiffs qua LSU’s lawyers took an adverse and conflicting position against their client , without
+its informed consent or a conflict waiver , when they (1) initiated an EEOC charge; and (2)  removed, retained, and
+used LSU’s confidential documents without permission.  R. Docs. 363-1 at 27-31; 365-1 at 32-37.  Because dismissal
+Case 2:19-cv-11793-BWA-DPC     Document 451     Filed 05/24/22     Page 52 of 84
+53
+
+Absent a protected activity, Plaintiffs’ prima facie  case and retaliation claim would  fail.
+Therefore, if the Court were to decide that the lack of evidence in support of the Plaintiffs’ salary
+review request destroyed the “objective reasonableness” component of the opposition clause ,
+Plaintiffs’ retaliation claim must be  dismissed.  But, as noted, the Court will assume that the
+Plaintiffs’ salary review request constitutes protected activity.   Even assuming Plaintiffs ha ve
+established all three elements necessary to make a prima facie case of retaliation, 235 dismissal is
+still warranted because Plaintiffs fail to establish pretext.
+
+is warranted on other grounds, the Court does not need to address whether this conduct resulted in Plaintiffs’ forfeiture
+of Title VII protection.
+235 Although, here, the protected-activity prong of the prima facie case analysis is the one most suspect, the
+Court assumes it for purposes of these motions.  With that, it is likely Plaintiffs can satisfy the other two elements
+necessary to establish a prima facie case of retaliation under Title VII.
+Once a plaintiff establishes that she has engaged in a protected activity, she must then show that she suffered
+an adverse employment action.  “[W]hen determining whether an allegedly retaliatory action is materially adverse,
+courts ‘look to indicia such as whether the action affected job title, grade, hours, salary, or benefits or caused a
+diminution in prestige or change in standing among coworkers.’”  Welsh v. Fort Bend Indep. Sch. Dist., 941 F.3d 818,
+827 (5th Cir. 2019) (quoting Paul v. Elayn Hunt Corr. Ctr., 666 F. App’x 342, 346 (5th Cir. 2016)) (alteration omitted).
+Plaintiffs contend that they suffered a material adverse employment action because their salary requests were ignored,
+their contracts were withdrawn, and they were fired.  R. Docs. 396 at 27-28; 402 at 33.  LSU does not deny that
+Plaintiffs suffered an adverse employment action.  Thus, Plaintiffs satisfy this prong.
+After a plaintiff establishes that she has engaged in a protected activity and suffered an adverse employment
+action, she must then show that a causal link existed between the protected activity and the adverse employment action.
+At the prima facie stage, the causation standard is much less stringent than it is at the final, pretext stage.  See Williams
+v. B R F H H Shreveport, L.L.C., 801 F. App’x 921, 925-26 (5th Cir. 2020).  At the prima facie stage, a plaintiff need
+only show that “‘the protected activity and the adverse employment action are not completely unrelated.’”  Besser v.
+Tex. Gen. Land Off., 834 F. App’x 876, 882 (5th Cir. 2020) (quoting Mauder v. Metro. Transit Auth. , 446 F.3d 574,
+583 (5th Cir. 2006)).  The Fifth Circuit “look[s] to three factors when considering the causal link prong [at the prima
+facie stage]: ‘(1) the employee’s past disciplinary record, (2) whether the employer followed its typical policy and
+procedures in terminati ng the employee, and (3) the temporal proximity between the employee’s conduct and
+termination.’”  Valderaz v. Lubbock Cnty. Hosp. Dist ., 611 F. App’x 816, 823 (5th Cir. 2015) (quoting DeHart v.
+Baker Hughes Oilfield Operations, Inc. , 214 F. App’x 437, 442 (5th Cir. 2007)).  Although they did not expressly
+brief the causation element, Plaintiffs seem to imply that temporal proximity establishes the causal- link prong.  See
+R. Docs. 396 at 28 (“It was after the filing of the request for a salary review based on LSUHSC -NO’s own Market
+Study and termination letter that Ms. Muslow was fired by the Defendant.”); 402 at 33 (“It was after the filing of the
+request for a salary review based on LSUHSC-NO’s own Market Study and termination letter that [Cunningham] was
+fired by the Defendant.”).  “While suspicious timing alone is rarely sufficient to establish the requisite causal
+connection, this Court allows for a prima facie case to be made on temporal proximity alone if it is ‘very close.’”
+Valderaz, 611 F. App’x at  823 (quoting Washburn v. Harvey , 504 F.3d 505, 511 (5th Cir.2007)) (internal citation
+omitted).  For example, “a period of two- and-a-half months, a period of two months, and a period of six- and-a-half
+weeks are close enough to show a causal connection.”  Brown v. Wal-Mart Stores E., L.P., 969 F.3d 571, 578 (5th Cir.
+2020) (internal citation s omitted).  Even “‘a time lapse of up to four months has been found sufficient to satisfy the
+causal connection for summary judgment purposes.’”  Hypolite v. City of Hous., 493 F. App’x 597, 606 (5th Cir. 2012)
+(citing Evans v. City of Hous., 246 F.3d 344, 354 (5th Cir. 2001)).
+At this juncture , the Court assumes, but does not decide, that the temporal proximity between Plaintiffs’
+protected activity (the February 15, 2019 salary-review request) and notice of termination (March 1, 2019, and March
+Case 2:19-cv-11793-BWA-DPC     Document 451     Filed 05/24/22     Page 53 of 84
+54
+
+2.  Defendants offer nonretaliatory reasons for its employment action.
+After a plaintiff establishes a prima facie case of retaliation, “the burden then shifts to the
+employer to articulate a legitimate , ... nonretaliatory reason for its employment action.”  McCoy,
+492 F.3d at  557 (citing Gee v. Principi , 289 F.3d 342, 345 (5th Cir. 2002)).  “The employer’s
+burden is only one of production, not persuasion, and involves no credibility assessment.”  Id.
+(citing Russell v. McKinney Hosp. Venture, 235 F.3d 219, 222 (5th Cir. 2000)).
+ Here, LSU satisfies its burden.  It provides four nonretaliatory reasons for Plaintiffs’
+termination.  First, LSU argues that the LSUHSC-NO general counsel and staff attorney positions
+were retired in favor of new legal positions under the OGC.236  Second, LSU contends that neither
+Muslow nor Cunningham executed the proposed OGC employment contracts before the effective
+appointment date of February 1, 2019. 237  Third, LSU argues that Muslow did not apply to the
+OGC chief counsel online applicant pool, although invited to do so on March 1, March 25, April
+4, and May 2, 10 and 15, 2019; 238 and, similarly, Cunningham did not apply to the s taff attorney
+applicant pool, although invited to do so on March 1, March 25, April 4, and May 2, 2019. 239
+Finally, LSU argues that Muslow advised in a May 13, 2019 email that Jones did not have
+permission to treat her or Cunningham as applicants for the OGC positions, 240 and Cunningham
+concurred.241  These reasons are sufficient to satisfy LSU’s burden of production.
+
+25, 2019) leading to their ultimate termination (June 30, 2019, for Cunningham and July 15, 2019, for Muslow) falls
+within the time -periods sufficient to establish the  causal-link prong of the prima facie  case, at least for purposes of
+summary judgment.  Consequently, the Court assumes that Plaintiffs can establish a prima facie  case of retaliation
+under Title VII.
+236 R. Docs. 363-1 at 25; 365-1 at 31.
+237 R. Docs. 363-1 at 25; 365-1 at 31.
+238 R. Doc. 365-1 at 31.
+239 R. Doc. 363-1 at 25.
+240 R. Doc. 365-1 at 32.
+241 Id. at 25.
+Case 2:19-cv-11793-BWA-DPC     Document 451     Filed 05/24/22     Page 54 of 84
+55
+
+3.  Plaintiffs cannot establish pretext.
+When the employer meets its burden of production, “the burden shifts back to the plaintiff
+to prove that the proffered reason is pretext for the discriminatory or retaliatory purpose.”  Newbury
+v. City of Windcrest, 991 F.3d 672, 678 (5th Cir. 2021) (citing McCoy, 492 F.3d at 557).  In other
+words, “[i]t is [the plaintiff’s] burden ‘to prove that a retaliatory motive was the but -for cause of,
+not merely a motivating factor behind, the decision to terminate him.’”  Valderaz, 611 F. App’x at
+823 (quoting Etienne v. Spanish Lake Truck & Casino Plaza, L.L.C., 547 F. App’x 484, 490 (5th
+Cir. 2013)) (alteration omitted) ; see also Nassar, 570 U.S. at  360 (“Title VII retaliation claims
+must be proved according to traditional principles of but-for causation ....  This requires proof that
+the unlawful retaliation would not have occurred in the absence of the alleged wrongful action or
+actions of the employer.”).  “‘A plaintiff may show pretext either through evidence of disparate
+treatment or by showing that the employer’s proffered explanation is false or unworthy of
+credence.’”  Caldwell v. KHOU-TV, 850 F.3d 237, 242 (5th Cir. 2017) (quoting Jackson v. Cal -
+W. Packaging Corp., 602 F.3d 374, 378-79 (5th Cir. 2010)).
+To survive summary judgment at the pretext stage, a plaintiff “must do more than just
+dispute the underlying facts and argue that [the employer] made the wrong decision.”  LeMaire v.
+La. Dep’t of Transp. & Dev., 480 F.3d 383, 391 (5th Cir. 2007).  Instead, “a plaintiff must show
+‘a conflict in substantial evidence’ on the question of whether the employer would not have taken
+the adverse employment action but for the protected activity.”  Brown, 969 F.3d at 577 (quoting
+Musser v. Paul Quinn Coll., 944 F.3d 557, 561 (5th Cir. 2019)).  “‘Evidence is substantial if it is
+of such quality and weight that reasonable and fair-minded men in the exercise of impartial
+judgment might reach different conclusions.’”  Id. (quoting Musser, 944 F.3d at 561-62).  “Even
+if a plaintiff’s protected conduct is a substantial element in a defendant’s adverse employment
+Case 2:19-cv-11793-BWA-DPC     Document 451     Filed 05/24/22     Page 55 of 84
+56
+
+action, no liability for unlawful retaliation arises if the employee would have faced that discipline
+even without the protected conduct.”  Wantou v. Wal-Mart Stores Tex., L.L.C., 23 F.4th 422, 437
+(5th Cir. 2022) .  Importantly, to carry her summary- judgment burden, “the plaintiff must rebut
+each nondiscriminatory or nonretaliatory reason articulated by the employer.”  McCoy, 492 F.3d
+at 557.
+Plaintiffs do not meet their summary-judgment burden.  First, Plaintiffs fail to address any
+of LSU’s nonretaliatory reasons for their termination. 242  Not one.  Yet to survive summary
+judgment, a plaintiff must present facts to rebut each and every legitimate, nonretaliatory  reason
+advanced by defendant.  Accordingly, summary judgment on this basis alone is appropriate.  Cf.
+Paulin v. U.S. Dep’t of Homeland Sec., 2022 WL 952262, at *16 (E.D. La. Mar. 30, 2022)
+(granting summary judgment when plaintiff failed to address each of defendant’s
+nondiscriminatory reasons), appeal docketed, No. 22-30285 (5th Cir. May 11, 2022).
+Second, Plaintiffs have not established pretext because they fail to present evidence of
+(1) disparate treatment; or (2) facts that cast doubt on the credence of LSU’s proffered
+justifications for their termination.  “Typically, ‘a plaintiff who proffers the [disparate] treatment
+of a fellow employee must show that the plaintiff’s termination was taken “under nearly identical
+circumstances” as those faced by the comparator.’”  Brown, 969 F.3d at 580 (quoting Garcia, 938
+F.3d at 244).  But, for the reasons explained in Section III(B)(1), Plaintiffs have not identified a
+comparator and, therefore, cannot show evidence of disparate treatment.  See Paulin, 2022 WL
+952262, at *14-15 (finding plaintiff failed to establish pretext though disparate treatment where
+plaintiff’s alleged comparator  was not a “nearly identical, similarly situated individual”).
+Furthermore, Plaintiffs have not shown – or even tried to show  – that LSU’s proffered
+
+242 See R. Docs. 396 at 28; 402 at 34.
+Case 2:19-cv-11793-BWA-DPC     Document 451     Filed 05/24/22     Page 56 of 84
+57
+
+nonretaliatory explanations are false or unworthy of credence.  Plaintiffs seem to imply that
+temporal proximity alone establishes pretext.243  While temporal proximity may suffice to establish
+causation in the prima facie analysis, it is insufficient alone to demonstrate that a proffered reason
+is pretextual.  Brown , 969 F.3d at  579 (citing Strong v. Univ. Healthcare Sys., L.L.C., 482 F.3d
+802, 808 (5th Cir. 2007)).  Absent any other evidence, which Plaintiffs do not cite and the Court
+has not identified, Plaintiffs cannot show pretext.
+Third, Plaintiffs have not established that “but for” their salary request, their termination
+would not have occurred.  See Garcia , 938 F.3d at 243.  In December of 2018, months before
+Plaintiffs’ salary request, LSU had in place a plan to terminate their LSUHSC -NO positions in
+favor of new positions under the OGC.244  Defendants then met with Plaintiffs in January of 2019
+– again, weeks before the salary request – to discuss the transfer of their positions to OGC in light
+of PM-72, which provided that only attorneys employed in or through the OGC could represent
+LSU on legal matters.245  Termination of the LSUHSC-NO positions was inevitable under PM-72.
+Plaintiffs’ failure to execute the tendered employment contracts with OGC or to apply for the new
+OGC positions – despite being prompted and invited to do so multiple times – cemented their
+termination.  Thus, while there may be several “but for” reasons for Plaintiffs’ termination, none
+of those reasons is their alleged protected activity.
+Put differently, even if Plaintiffs’  subsequent request for a salary review played a part in
+their termination  (which cannot be said on this summary- judgment record), “ no liability for
+unlawful retaliation arises if the employee would have faced that disciplin e even without the
+
+243 See R. Docs. 396 at 28 (“It was after the filing of the request for a salary review based on LSUHSC-NO’s
+own Market Study and termination letter that Ms. Muslow was fired by the Defendant.”); 402 at 33 (“It was after the
+filing of the request for a salary review based on LSUHSC -NO’s own Market Study and termination l etter that
+[Cunningham] was fired by the Defendant.”).
+244 See R. Doc. 365-5 at 3.
+245 See R. Docs. 363-1 at 4; 363-4 at 2, 37; 365-1 at 4.
+Case 2:19-cv-11793-BWA-DPC     Document 451     Filed 05/24/22     Page 57 of 84
+58
+
+protected conduct.”  Wantou, 23 F.4th at 437.  LSU had floated its plan to retire Plaintiffs’ positions
+as early as August 2018, and started the process in December 2018, so that all legal resources could
+be consolidated under the OGC. 246  Thus, Plaintiffs’ termination from their LSUHSC -NO
+positions was inevitable even without the protected conduct.  And Plaintiffs removed themselves
+from consideration as applicants for the  new positions.  Therefore,  because Plaintiffs cannot
+establish pretext as to LSU’s nonretaliatory reasons for their termination, their Title VII retaliation
+claims must be dismissed.
+D.  EPA Gender-discrimination Claims
+Plaintiffs assert an EPA gender -discrimination claim against LSU, Hollier, Harman, and
+Skinner, arguing that (1) they “paid Plaintiffs, or directed that Plaintiffs be paid, less than similarly-
+situated male employees performing equal work on jobs the performance of which r equire equal
+skill, effort and responsibility and which are performed under similar working conditions”; and
+(2) “[t]he differential in pay between Plaintiffs and similarly -situated male employees was and is
+not due to any bona fide seniority, merit or incentive system or any other factor other than
+gender.”247  Plaintiffs’ claims fail, say Defendants, because (1) none of the individual Defendants
+is an “employer” as a matter of law; and (2) Plaintiffs cannot identify a comparator – a male
+employee working in a position requiring equal skill, effort, and responsibility under similar
+working conditions.  The Court agrees.  Plaintiffs  fail to establish a prima facie case because no
+individual Defendant is subject to the EPA and there are no proper comparators.  The claims also
+fail because Plaintiffs have not shown pretext as to LSU’s stated nondiscriminatory reasons for the
+differential in pay.
+
+246 R. Docs. 365-6 at 1; 377-4 at 101.
+247 R. Docs. 50 at 37; 99 at 13.
+Case 2:19-cv-11793-BWA-DPC     Document 451     Filed 05/24/22     Page 58 of 84
+59
+
+Employment discrimination on the basis of sex is prohibited by the EPA, which provides
+in pertinent part:
+No employer having [covered] employees ... shall discriminate ... between
+employees on the basis of sex by paying wages to employees in [ a covered
+establishment] at a rate less than the rate at which he pays wages to employees of
+the opposite sex in such establishment for equal work on jobs the performance of
+which requires equal skill, effort, and responsibility, and which are performed
+under similar working conditions, except where such payment is made pursuant to
+(i) a seniority system; (ii) a merit system; (iii) a system which measures earnings
+by quantity or quality of production; or (iv) a differential based on any other factor
+other than sex ....
+
+29 U.S.C. § 206(d)(1).  The McDonnell Douglas burden-shifting framework governs claims under
+the EPA.  Lindsley v. TRT Holdings, Inc., 984 F.3d 460, 466 (5th Cir. 2021).  To establish a prima
+facie case under the EPA, a plaintiff must show that (1) her employer is subject to the EPA; (2) she
+performed work in a position requiring equal skill, effort, and responsibility under similar working
+conditions; and (3) she was paid less than the employee of the opposite sex providing the basis of
+comparison.  Badgerow v. REJ Props., Inc., 974 F.3d 610, 617 (5th Cir. 2020).
+“‘Once a plaintiff has made her prima facie case by showing that an employer compensates
+employees differently for equal work, the burde n shifts to the defendant to’  show by a
+preponderance of the evidence that the differential in pay was made pursuant to one of the four
+enumerated exceptions.”  King v. Univ. Healthcare Sys., L.C., 645 F.3d 713, 723 (5th Cir. 2011)
+(quoting Siler-Khodr v. Univ. of Tex. Health Sci. Ctr. San Antonio, 261 F.3d 542, 546 (5th
+Cir.2001)).  “Disparities in salary are allowed where payment is made pursuant to ‘(1) a seniority
+system; (2) a merit system; (3) a system which measures earnings by quantity or quality of
+production; or (4) a differential based on any other factor other than sex.’”  Reznick v. Associated
+Orthopedics & Sports Med., P.A., 104 F. App ’x 387, 390 n.4 (5th Cir. 2004) (quoting Plemer v.
+Parsons-Gilbane, 713 F.2d 1127, 1136 (5th Cir.1983)).  “The exceptions are affirmative defenses
+Case 2:19-cv-11793-BWA-DPC     Document 451     Filed 05/24/22     Page 59 of 84
+60
+
+on which the employer has the burden both of production and of persuasion.”   Jones v. Flagship
+Int’l, 793 F.2d 714, 722 (5th Cir. 1986).  “ If an employer responds with legitimate, non-
+discriminatory reasons for an alleged pay disparity, the plaintiff must then show that the purported
+reason is a pretext for discrimination. ”  Browning v. Sw. Rsch. Inst., 288 F. App’ x 170, 174 (5th
+Cir. 2008).
+1.  The individual Defendants are not Plaintiffs’ “employers.”
+ Plaintiffs assert an  EPA gender -discrimination claim against each  of the individual
+Defendants, except Jones.  But their claims against the individual Defendants fail because none is
+subject to the A ct.  “To establish a prima facie case under the Equal Pay Act, [a plaintiff] must
+show [among other things] that ‘her employer is subject to the Act.’”  Badgerow, 974 F.3d at 617
+(quoting Chance, 984 F.2d at  153).  The Equal Pay Act, 29 U.S.C. § 206(d), was add ed as an
+amendment to the Fair Labor Standards Act (the “FLSA”) to uphold “the principle of equal pay
+for equal work regardless of sex.”  Corning Glass Works v. Brennan, 417 U.S. 188, 190 (1974).
+Under the FLSA, an employer is “any person acting directly or indirectly in the interest of an
+employer in relation to an employee and includes a public agency.”  29 U.S.C. § 203(d).  The
+ultimate determination of whether an individual is an employer is a question of law.  Castillo v.
+Givens, 704 F.2d 181, 187 n.12 (5th Cir. 1983), overruled on other grounds by McLaughlin v.
+Richland Shoe Co., 486 U.S. 128 (1988); Slabisak v. Univ. of Tex. Health Sci. Ctr., 2018 WL
+4762121, at *2 n.1 (E.D. Tex. Oct. 2, 2018).  “However, this legal question is dependent upon
+factual determinations as to each factor of the ‘economic realities/common law control test.’”
+Slabisak, 2018 WL 4762121, at *2 n.1.
+To identify an employer, the Fifth Circuit uses  an “economic realities” test to consider
+“who has operating control over the empl oyees, and … ‘whether the alleged employer:
+Case 2:19-cv-11793-BWA-DPC     Document 451     Filed 05/24/22     Page 60 of 84
