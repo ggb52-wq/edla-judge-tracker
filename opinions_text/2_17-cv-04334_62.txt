@@ -1,0 +1,947 @@
+1
+
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+MARCUS GRANT
+
+ CIVIL ACTION
+VERSUS
+
+ NO. 17-4334
+BP EXPLORATION &
+PRODUCTION, INC., ET AL.
+
+ SECTION “R” (4)
+
+ORDER AND REASONS
+
+Before the Court is BP Exploration & Production, Inc., BP American
+Production Company, and BP p.l.c.’s (collectively the “BP parties”) motion to
+exclude the testimony of plaintiff’s general causation expert, Dr. Jerald
+Cook.1  Plaintiff Marcus Grant opposes the motion.2  Also before the Court is
+the BP parties’ motion for summary judgment. 3  Plaintiff also opposes this
+motion.4
+ For the following reasons, the Court grants defendants’ motion to
+exclude the testimony of Dr. Cook.  Without Dr. Cook’s expert report,
+
+1  R. Doc. 4 4.  The remaining defendants, Halliburton Energy Services,
+Inc., Transocean Deepwater, Inc., Transocean Holdings, LLC, and
+Transocean Offshore Deepwater Drilling, Inc. join the BP parties’
+motion to exclude the testimony of Dr. Cook.  R. Doc. 44-1 at 1 n.1.
+2  R. Doc. 49.
+3  R. Doc. 45.  The remaining defendants also join the BP parties’ motion
+for summary judgment.  R. Doc. 45-1 at 1 n.1.
+4  R. Doc. 47.
+Case 2:17-cv-04334-SSV-KWR   Document 62   Filed 07/06/22   Page 1 of 37
+2
+
+plaintiff cannot establish the general causation element of his claim at trial.
+Accordingly, defendants’ motion for summary judgment is also granted.
+
+I. BACKGROUND
+
+This case arises from plaintiff Marcus Grant’s alleged exposure to toxic
+chemicals following the Deepwater Horizon oil spill in the Gulf of Mexico.
+Plaintiff alleges that he worked as a “[r]ecovery tech[nician]” on the beaches
+of Pascagoula, Jackson, and Horn Island, Mississippi from September 1, 2011
+through December 31, 2011. 5  Grant  asserts that he “cleaned oil and oil -
+covered debris from sand and coastal areas,” and as a result, was exposed to
+both oil and dispersants. 6  Plaintiff also represents that this exposure has
+resulted in the following conditions  that “persist today :” breathing
+difficulties, bronchitis, “SOB,” throat irritation, congestion, headaches,
+anxiety, impetigo, convulsions, seizures, eye b urning, eye irritation, skin
+itchiness, lesions, boils, cellulitis of lower ext remit[ies], dermatitis tinea
+corpus, and decreased sense of smell.7
+
+5  R. Doc. 44-2 at 3-4.
+6  Id. at 3, 5.
+7  R. Doc. 44-3 at 1.
+Case 2:17-cv-04334-SSV-KWR   Document 62   Filed 07/06/22   Page 2 of 37
+3
+
+Grant’s case was originally part of the multidistrict litigation (“MDL”)
+pending before Judge Carl J. Barbier.  His  case was severed from the MDL
+as one of the “B3” cases for plaintiffs who either opted out of, or were
+excluded from, the Deepwater Horizon Medical Benef its Class Action
+Settlement Agreement.8  Grant is a plaintiff who opted out of the settlement.9
+After plaintiff’s case was severed, it was reallocated to this Court.  Plaintiff
+asserts claims for general maritime negligence, negligence per se, and gross
+negligence against the defendants as a result of the oil spill and its cleanup.10
+To demonstrate that exposure to crude oil , weathered oil,  and
+dispersants can cause the symptoms Grant alleges in his complaint, he offers
+the testimony of Dr. Jerald Cook, an occupational and environmental
+physician.11  Dr. Cook is plaintiff’s sole expert offering an opinion on general
+causation.12  In his report, Dr. Cook utilizes a “general causation approach to
+determine if a reported health complaint can be from the result of exposures
+
+8  In re Oil Spill by Oil Rig “Deepwater Horizon” in the Gulf of Mex., on
+Apr. 20, 2010, No. MDL 2179, 2021 WL 6053613, at *2, 12 & n.12 (E.D.
+La. Apr. 1, 2021).
+9  R. Doc. 1-1 at 2.
+10  R. Doc. 29 ¶¶ 19-49.
+11  R. Doc. 44-4 at 5 (Cook Report).
+12  Plaintiff has also retained Dr. Rachel Jones, a certified industrial
+hygienist, to provide a report describing “the common, or shared,
+occupational exposures among worker[s]” who participated in the
+Deepwater Horizon response and cleanup.  R. Doc. 49 -16 at 4 (Jones
+Report).
+Case 2:17-cv-04334-SSV-KWR   Document 62   Filed 07/06/22   Page 3 of 37
+4
+
+sustained in performing [oil spill] cleanup work.”13  Dr. Cook concludes that
+“general causation analysis indicates” that the following conditions “can
+occur in individuals exposed to crude oil, inc luding weathered crude oil:”
+chronic rhinitis, chronic sinusitis, allergic rhinitis, chronic obstructive
+pulmonary disease (“COPD”), bronchitis, asthma, reactive airway disease,
+dermatitis, skin irritation, skin rash, skin itching, acute conjunctivitis,
+chronic conjunctivitis, and dry eye disease.14
+The BP parties now move to exclude Dr. Cook’s expert opinion, arguing
+that it is  unreliable and unhelpful. 15  Defendants also move for summary
+judgment, asserting that if Dr. Cook’s general causation opinion is excluded,
+plaintiff is unable to carry his burden on causation.16  Plaintiff opposes both
+motions.17  The Court considers the parties’ arguments below.
+
+13  R. Doc. 44-4 at 14 (Cook Report).
+14  Id. at 86-87, 92, 99.
+15  R. Doc. 44.
+16  R. Doc. 45-1 at 10 (“Once [defendants’ Daubert] motion is granted, the
+plaintiff will be left without an admissible opinion on general causation
+. . . [which] would justify summary judgment.”).
+17  R. Docs. 47 & 49.
+Case 2:17-cv-04334-SSV-KWR   Document 62   Filed 07/06/22   Page 4 of 37
+5
+
+II. MOTION TO EXCLUDE DR. COOK’S TESTIMONY
+
+A. Legal Standard
+
+The district court has consid erable discretion to admit or exclude
+expert testimony under Federal Rule of Evidence 702.  See Gen. Elec. Co. v.
+Joiner, 522 U.S. 136, 138-39 (1997); Seatrax, Inc. v. Sonbeck Int’l, Inc., 200
+F.3d 358, 371 (5th Cir. 2000).  Rule 702 provides that an exper t witness
+“qualified . . . by knowledge, skill, experience, training, or education may
+testify” if:
+(a) the expert’s scientific, technical, or other specialized
+knowledge will help the trier of fact to understand the
+evidence or determine a fact in issue;
+(b) the testimony is based on sufficient facts or data;
+(c) the testimony is the product of reliable principles and
+methods; and
+(d) the expert has reliably applied the principles and
+methods to the facts of the case.
+Fed. R. Evid. 702.
+In Daubert v. Merrell Dow Pharmaceuticals, Inc. , 509 U.S. 579
+(1993), the Supreme Court held that Rule 702 “requires the district court to
+act as a gatekeeper to ensure that ‘any and all scientific testimony or evidence
+admitted is not only relevant, but reliable.’” Met rejean v. REC Marine
+Logistics, LLC, No. 08 -5049, 2009 WL 3062622, at *1 (E.D. La. Sept. 21,
+2009) (quoting Daubert, 509 U.S. at 589).  This gatekeeping function applies
+Case 2:17-cv-04334-SSV-KWR   Document 62   Filed 07/06/22   Page 5 of 37
+6
+
+to all forms of expert testimony.  See Kumho Tire Co. v. Carmichael, 526 U.S.
+137, 147 (1999).
+The Court’s gatekeeping function consists of a two -part inquiry into
+reliability and relevance.  First, the Court must determine whether the
+proffered expert testimony is reliable.  The party offering the testimony bears
+the burden of establishing its reliability by a preponderance of the evidence.
+See Moore v. Ashland Chem. Inc. , 151 F.3d 269, 276 (5th Cir. 1998). The
+reliability inquiry requires the Court to assess whether the expert’s reasoning
+and methodology underlying the testimony are valid.  See Daubert, 509 U.S.
+at 593.  The aim is to exclude expert testimony based merely on subjective
+belief or unsupported speculation.  See id.  at 590. “[F]undamentally
+unsupported” opinions “offer[] no expert assistance to the [trier of fact]” and
+should be excluded.  Guile v. United States , 422 F.3d 221, 227 (5th Cir.
+2005).  The Court may consider several nonexclusive factors in determining
+reliability, including: (1) whether the technique has been tested, (2) whether
+the technique has been subject to pee r review and publication, (3) the
+technique’s potential error rate, (4) the existence and maintenance of
+standards controlling the technique’s operation, and (5) whether the
+technique is generally accepted in the relevant scientific community.
+Burleson v. Tex. Dep’t of Crim. Just., 393 F.3d 577, 584 (5th Cir. 2004).  The
+Case 2:17-cv-04334-SSV-KWR   Document 62   Filed 07/06/22   Page 6 of 37
+7
+
+Supreme Court has emphasized that these factors “do not constitute a
+‘definitive checklist or test.’”  Kumho, 526 U.S. at 150 (quoting Daubert, 509
+U.S. at 593).  Rather, courts “have considerable leeway in deciding in a
+particular case how to go about determining whether particular expert
+testimony is reliable.”  Id. at 152.
+“The reliability analysis applies to all aspects of an expert’s testim ony:
+the methodology, the facts underlying the expert’s opinion, the link between
+the facts and the conclusion, et alia.”  Knight v. Kirby Inland Marine Inc. ,
+482 F.3d 347, 355 (5th Cir. 2007)  (internal quotation marks omitted).
+“Where the expert’s opinion is based on insufficient information, the analysis
+is unreliable.”  Paz v. Brush Engineered Materials, Inc. , 555 F.3d 383, 388
+(5th Cir. 2009).  Further, the Supreme Court has explained that “nothing in
+either Daubert or the Federal Rules of Evidence req uires a district court to
+admit opinion evidence that is connected to existing data only by the ipse
+dixit of the expert.”  Joiner, 522 U.S. at 146.  Rather, “[a] court may conclude
+that there is simply too great an analytical gap between the data and the
+opinion proffered.”  Id.
+Second, the Court must determine whether the expert’s reasoning or
+methodology “fits” the facts of the case, and whether it will thereby assist the
+trier of fact to understand the evidence.  In other words, it must determine
+Case 2:17-cv-04334-SSV-KWR   Document 62   Filed 07/06/22   Page 7 of 37
+8
+
+whether it is relevant.  See Daubert , 509 U.S. at 591.  “Expert testimony
+which does not relate to any issue in the case is not relevant and, ergo, non -
+helpful.”  Id. (quoting 3 J. Weinstein & M. Berger, Weinstein’s Evidence ¶
+702[02] (1988)).
+A district cour t’s gatekeeper function does not replace the traditional
+adversary system or the role of the jury within this system.  See id. at 596.  As
+noted in Daubert , “[v]igorous  cross-examination, presentation of contrary
+evidence, and careful instruction on the bu rden of proof are the traditional
+and appropriate means of attacking shaky but admissible evidence.”  Id.
+Thus, in determining the admissibility of expert testimony, the district court
+must accord the proper deference to “the jury’s role as the proper arbiter of
+disputes between conflicting opinions.”  United States v. 14.38 Acres of
+Land, More or Less Situated in Leflore Cnty., Miss., 80 F.3d 1074, 1077 (5th
+Cir. 1996).
+
+B. Discussion
+Grant has the burden of “prov[ing] that the legal cause of [his] claimed
+injury or illness is exposure to oil or other chemicals used during the
+response.”  In re Oil Spill by Oil Rig “Deepwater Horizon” in Gulf of Mex.,
+on Apr. 20, 2010, No. MDL 2179, 2021 WL 6053613, at *11 (E.D. La. Apr. 1,
+Case 2:17-cv-04334-SSV-KWR   Document 62   Filed 07/06/22   Page 8 of 37
+9
+
+2021) (noting that B3 plaintiffs, such as Grant, must prove that their alleged
+personal injuries were “due to exposure to oil or other chemicals used during
+the oil spill response”).  The Fifth Circuit has developed a “two -step process
+in examining the admissibility of causation evidence in toxic tort cases.”
+Knight, 482 F.3d at 351.  First, plaintiff must show general causation, which
+means that he must show that “a substance is capable of causing a particular
+injury or condition in the general population.”  Id.  Second, if the Court
+concludes that plaintiff has produced admissible evidence on general
+causation, it must then determine whether plaintiff has shown specific
+causation, in other words,  that “a substance caused [that] particular
+[plaintiff’s] injury.”  Id.  If the Court finds that there is no admissible general
+causation evidence, there is “no need to consider” specific causation.  Id.
+(citing Miller v. Pfizer, Inc., 356 F.3d 1326, 1329 (10th Cir. 2004)).
+At issue here is whether plaintiff has produced admis sible general
+causation evidence.  To prove that exposure to the chemicals in oil and
+dispersants can cause the medical conditions Grant alleges, plaintiff offers
+the testimony of an environmental toxicologist, Dr. Cook.  Dr. Cook asserts
+that his report is “based on the scientific methods used in the field of
+environmental toxicology.”18  More specifically, he states that his “causation
+
+18  R. Doc. 44-4 at 5 (Cook Report).
+Case 2:17-cv-04334-SSV-KWR   Document 62   Filed 07/06/22   Page 9 of 37
+10
+
+analysis regarding health effects of oil spill exposures draw[s] on the process
+of evaluating epidemiology studies and th e work from established expert
+groups similar to the Surgeon General’s Advisory Committee to make a more
+likely than not conclusion.”19
+The Fifth Circuit has held that epidemiology provides the best evidence
+of causation in a toxic tort case.  See Brock, 874 F.2d at 311; Norris v. Baxter
+Healthcare Corp. , 397 F.3d 878, 882 (10th Cir. 2005) (noting “that
+epidemiology is the best evidence of general causation in a toxic tort case”).
+That is not to say that epidemiologic evidence “is a necessary element in all
+toxic tort cases,” but “it is certainly a very important element.”  Brock, 874
+F.2d at 313.  As explained by the Fifth Circuit:
+Epidemiology attempts to define a relationship between a
+disease and a factor suspected of causing it . . . . To define that
+relationship, the epidemiologist examines the general
+population, comparing the incidence of the disease among those
+people exposed to the factor in question to those not exposed.
+The epidemiologist then uses statistical methods and reasoning
+to allow her to draw a biological inference between the factor
+being studied and the disease’s etiology.
+Id. at 311.
+ When, as here, a review of epidemiological studies forms the basis of
+an expert opinion, the essential first step requires the expert to identify an
+
+19  Id. at 16.
+Case 2:17-cv-04334-SSV-KWR   Document 62   Filed 07/06/22   Page 10 of 37
+11
+
+association.  An association occurs when “two events (e.g. , exposure to a
+chemical agent and development of disease) . . . occur more frequently
+together than one would expect by chance.”  Fed. Judicial Ctr., Reference
+Manual on Scientific Evidence 552 n.7 (3d ed. 2011) [hereinafter Reference
+Manual].20  An association, by itself, is not equivalent to a finding of
+causation.  Id. at 552.  Unlike an association, “[c]ausation is used to describe
+the association between two events when one event is a necessary  link in a
+chain of events that results in the effect.”  Id. at 552 n.7.  The Reference
+Manual indicates that “[a]ssessing whether an association is causal requires
+an understanding of the strengths and weaknesses of a study’s design and
+implementation, as well as a judgment about how the study’s findings fit with
+other scientific knowledge.”  Id. at 553.  Because “all studies have ‘flaws’ in
+the sense of limitations that add uncertainty about the proper interpretation
+of results,” the key questions in evaluating epidemiologic evidence “are the
+extent to which a study’s limitations compromise its findings and permit
+inferences about causation.”  Id. at 553.
+ Once an association is found, “researchers consider whether the
+association reflects a true cause -effect relationship ,” that is, whether “an
+
+20  Dr. Cook testified in his deposition that he has reviewed the AMA
+Guide’s “sections on causation,” and has used it “for purposes of [his]
+work.”  R. Doc. 44-7 (Dr. Cook Deposition at 60:21-61:3).
+Case 2:17-cv-04334-SSV-KWR   Document 62   Filed 07/06/22   Page 11 of 37
+12
+
+increase in the incidence of disease among the exposed subjects would not
+have occurred had they not been exposed to the agent.”  Id. at 597 -98.
+Alternative explanations, “such as bias or confounding factors,” sho uld first
+be considered.  Id. at 598.  If alternative explanations are not present,
+researchers apply the Bradford Hill criteria to evaluate whether an agent can
+be a cause of a disease.  Id. at 597; Wagoner v. Exxon Mobil Corp. , 813 F.
+Supp. 2d 771, 803 (E.D. La. 2011) (“[T]he set of criteria known as the
+Bradford Hill criteria has been widely acknowledged as providing an
+appropriate framework for assessing whether a causal relationship underlies
+a statistically significant association between an agent and a disease.”).  The
+Bradford Hill factors include: (1) temporal relationship; (2) strength of the
+association; (3) dose-response relationship; (4) replication of findings; (5)
+biological plausibility; (6) consideration of alternative explanations; (7)
+cessation of exposure; (8) specificity of the association; and (9) consistency
+with other knowledge.  Reference Manual  at 600.  These factors are not
+rigidly applied in a general causation analysis, but instead provide guidance
+for an expert “[d]rawing causal inferences after finding an association.”  Id.
+ Under Daubert, “courts must carefully analyze the studies on which
+experts rely for their opinions before admitting their testimony.”  Knight ,
+482 F.3d at 355; Wagoner, 813 F. Supp. 2d at 799 (“Whether epidemiological
+Case 2:17-cv-04334-SSV-KWR   Document 62   Filed 07/06/22   Page 12 of 37
+13
+
+studies support an expert’s opinion on the question of general causation in a
+toxic tort case is critical to determining the reliability of the opinion.”).
+Courts “may exclude expert testimony based on epidemiological studies
+where the studies are insufficient, whether considered individually or
+collectively, to support the expert’s causation opinion.”   Baker v. Chevron
+USA, Inc., 680 F. Supp. 2d 865, 875 (S.D. Ohio 2010) (citing Joiner, 522 U.S.
+at 156 -57).  But a court cannot exclude expert testimony just because it
+disagrees with the expert’s conclusions, although the Supreme Court has
+recognized that “conclusions and methodology are not entirely distinct from
+one another.”  Joiner, 522 U.S. at 146.
+With the above standards in mind, the Court examines Dr. Cook’s
+general causation report.  As noted by another section of this Court, “Cook
+issued an omnibus, non-case specific general causation expert report that
+has been used by many B3 plaintiffs.” Street v. BP Expl. & Prod. Inc., No. 17-
+3619, 2022 WL 1811144, at *2 (E.D. La. June 2, 2022).  Dr. Cook’s report is
+divided into five chapters.  The first chapter outlines Dr. Cook’s
+qualifications, which are not challenged in this case.21  The second chapter
+provides an overview of the Deepwater Horizon oil spill.22  The third chapter
+
+21  R. Doc. 44-4 at 5 (Cook Report).
+22  Id. at 7-13.
+Case 2:17-cv-04334-SSV-KWR   Document 62   Filed 07/06/22   Page 13 of 37
+14
+
+describes Dr. Cook’s methodology, the first step of which involved his
+“review and analys[is]” of the  “available scientific literature to determine the
+strength of an associatio n between environmental exposure and a health
+effect.”23  After reviewing the literature, Dr. Cook asserts that he selected the
+epidemiological studies cited in his causation analysis “based on the quality
+of the study and study design.” 24  Finally, Dr. Co ok considered the  studies
+that found an association between a toxic agent and a disease in light of the
+Bradford Hill criteria “to determine whether or not a cause -and-effect
+relationship exists or not.”25
+Chapter four of Dr. Cook’s report details prior  studies on the health
+effects associated with oil spills.26  This section first provides “summaries of
+studies that evaluate health effects that may be associated with exposures
+from oil spill response and cleanup work” in past oil spills.27  It then discusses
+the findings and shortcomings of three studies on the Deepwater Horizon
+oil spill: (1) the National Institute for Occupational Safety and Health’s
+(“NIOSH”) Health Hazard Evaluations (“HHEs”), (2) the Deepwater
+Horizon oil spill Coast Guard cohort  study, and (3) the Gulf Long -Term
+
+23  Id. at 17.
+24  Id. at 19.
+25  Id. at 24.
+26  Id. at 32-64.
+27  Id. at 33.
+Case 2:17-cv-04334-SSV-KWR   Document 62   Filed 07/06/22   Page 14 of 37
+15
+
+Follow-Up study (“GuLF STUDY”). 28  Chapter five presents Dr. Cook’s
+conclusions on general causation for four categories of health conditions: (1)
+respiratory conditions, (2) dermal conditions, (3) ocular conditions, and (4)
+cancers.29  Specifically, he reaches the following conclusions:
+• Oil response and cleanup workers have reported acute
+symptoms of coughing; shortness of breath; wheezing;
+tightness in chest; and burning in nose, throat, and lungs.
+Some individuals have prolonged effects from these
+exposures, and can develop chronic respiratory conditions
+. . . . These conditions include chronic rhinitis, chronic
+sinusitis, allergic rhinitis, chronic obstructive pulmonary
+disease (COPD), bronchitis, asthma or reactive airway
+disease . . . . General causation analysis indicates that
+these acute and chronic respiratory conditions can occur
+in individuals exposed to crude oil, including weathered
+crude oil, during oil spill response and cleanup work.30
+• Chemical irritation would be the most common problem
+with workers, particularly for acute symptoms that occur
+during or shortly after exposure.  These can be described as
+skin irritation, skin rash, or skin itching.  Dermatitis may
+also occur following exposure to chemicals, such as crude
+oil, weathered crude oil, or dispersants.  General causation
+analysis indicates that these acute and chronic ocular
+conditions can occur in individuals exposed to crude oil,
+including weathered crude oil, during oil spill response
+and cleanup work.31
+• Chemical irritation would be the most common problem
+with workers, particularly for acute symptoms . . . . These
+can be described as acute eye burning, acute eye irritation,
+
+28  Id. at 35-64.
+29  Id. at 70.
+30  Id. at 86-87 (emphasis added).
+31  Id. at 92 (emphasis added).
+Case 2:17-cv-04334-SSV-KWR   Document 62   Filed 07/06/22   Page 15 of 37
+16
+
+and acute conjunctivitis.  Chronic conditions following
+exposure can occur in a smaller subset of individuals who
+experience chronic inflammation affecting their eyes.  The
+evidence available at this time does indicate that exposure
+to crude oil, including weathered crude oil, can result in
+acute and chronic eye symptoms.  The medical problems
+most likely from these exposures are acute conjunctiv itis,
+chronic conjunctivitis, and dry eye disease.  General
+causation analysis indicates that these acute and chronic
+ocular conditions can occur in individuals exposed to
+crude oil, including weathered crude oil, during oil spill
+response and cleanup work.32
+Based on Dr. Cook’s report, d efendants argue that Grant  is unable to
+prove general causation with relevant and reliable expert testimony.  The y
+contend that Dr. Cook’s general causation report is unreliable because he
+failed to: (1) verify Grant’s diagnoses; (2) follow the accepted methodology
+for analyzing epidemiology and adequately evaluate the scientific literature;
+and (3) identify the harmful level of exposure to any chemical that can cause
+any of plaintiff’s alleged medical conditions.33  Defendants further argue that
+even if Dr. Cook’s report w ere reliable, it is unhelpful because it addresses
+“few if any” of Grant ’s medical complaints, and fails to specify what
+particular toxins can cause which particular conditions. 34  Defendants also
+
+32  Id. at 106 (emphasis added).
+33  R. Doc. 44-1 at 9-17.
+34  Id. at 12, 17-18.
+Case 2:17-cv-04334-SSV-KWR   Document 62   Filed 07/06/22   Page 16 of 37
+17
+
+note that two other sections of this Court have excluded Dr. Cook’s report for
+similar reasons.35
+The Court first addresses defendants’ contention that Dr. Cook’s report
+is unreliable and cannot  establish general causation because  it does not
+identify a harmful level of exposure to a specific chemical. 36  The Court
+begins with this objection because “[s]cientific knowledge of the harmful
+level of exposure to a chemical” is considered “a minimum fact[] necessary
+to sustain the plaintiff’s burden in a toxic tort case.”  Allen v. Pa. Eng’g Corp.,
+102 F.3d 194, 199 (5th Cir. 1996).  Accordingly, if the Court finds that plaintiff
+
+35  Judge Lance Africk  excluded an earlier version of Dr. Cook’s report.
+See Novelozo v. BP Expl. & Prod. , No. 13-1033, 2022 WL 1460103, at
+*7 (E.D. La. May 9, 2022) and Murphy v. BP Expl. & Prod. , No. 13 -
+1031, 2022 WL 1460093 at *7 (E.D. La. May 9, 2022).  And Judge Barry
+Ashe excluded the same version of Dr. Cook’s report involved in this
+case on the grounds that he failed “to identify the dose of the toxic
+chemicals necessary to cause any of the complained-of health effects.”
+Street, 2022 WL 1811144, at *6; see also Johns v. BP Expl. & Prod., No.
+17-3304, 2022 WL 1811088 (E.D. La. June 2, 2022); Johnson v. BP
+Expl. & Prod. Inc. , No. 17 -3308, 2022 WL 1811090 (E.D. La. June 2,
+2022); Macon v. BP Expl. & Prod. Inc., No. 17-3548, 2022 WL 1811135
+(E.D. La. June 2, 2022); Murray v. BP Expl. & Prod. Inc., No. 17-3582,
+2022 WL 1811138 (E.D. La. June 2, 2022).
+  This Court also notes that it has excluded the same version of Dr.
+Cook’s report in two other cases on the grounds that his opinion w as
+unreliable and unhelpful.  See Dawkins v. BP Expl. & Prod., Inc. , No.
+17-3533, 2022 WL 2315846, at *8-9 (E.D. La. June 28, 2022); Coleman
+v. BP Expl. & Prod., Inc., No. 17-4158, 2022 WL 2314400, at *8-9 (E.D.
+La. June 28, 2022).
+36  R. Doc. 44-1 at 15-17.
+Case 2:17-cv-04334-SSV-KWR   Document 62   Filed 07/06/22   Page 17 of 37
+18
+
+cannot “prove, at [a] minimum, that exposure to a certain level of a certain
+substance for a certain period of time can cause a particular condition in the
+general population,” then the Court’s inquiry into general causation is
+complete.  Williams v. BP Expl. & Prod., Inc., No. 18 -9753, 2019 WL
+6615504, at *8 (E.D. La. Dec. 5, 2019) (citing Knight, 482 F.3d at 351); Lee
+v. BP Expl. & Prod., Inc. , No. 18-10381, 2020 WL 6106889, at *4 (E.D. La.
+Sept. 29, 2020) (“[D]istrict courts within the Fifth Circuit have likewise
+required toxic tort plaintiffs to define ‘the level of exposure necessary to
+produce effects’ in order to estab lish general causation.”); see also Seaman
+v. Seacor Marine L.L.C. , 326 F. App’x 721, 726 -27 (5th Cir. 2009) (per
+curiam) (holding that “[w]ithout any facts that would establish the allegedly
+harmful level of exposure . . . Dr. Prellop’s opinion regarding diesel exhaust
+does not establish general causation”).
+Here, the Court finds  that Dr. Cook’s failure to identify the level of
+exposure to a relevant chemical that can cause the  conditions asserted in
+plaintiff’s complaint renders his opinion unreliable, unhelpful, and incapable
+of establishing general causation.
+Turning first to relia bility, Dr. Cook makes clear in his report that a
+foundation of toxicology is that “dose determines the poison.” 37  Because of
+
+37  R. Doc. 44-4 at 27 (Cook Report).
+Case 2:17-cv-04334-SSV-KWR   Document 62   Filed 07/06/22   Page 18 of 37
+19
+
+this maxim, Dr. Cook explains that “[t]oxicologists study chemicals for the
+lowest levels that can cause adverse health effects  . . . [which] requires
+sophisticated studies that can control the low dose while accurately
+measuring the effect of interest.”38  Further , in his deposition, Dr. Cook
+agreed that “without some quantitative understanding of the magnitude of
+an individual’s exposure and the duration of time over which the exposure
+occurred, it’s difficult to reach . . . meaningful conclusions about health
+risks.”39
+Dr. Cook also testified that he regularly consults the American Medical
+Association’s (“AMA ”) Guide to the Evaluation of Disease and Injury
+Causation (“AMA Guide”). 40  The AMA Guide, attached to defendants’
+motion, also emphasizes the importance of determining the dose -response
+relationship.  Specifically, the AMA Guide states that “the most critical phase
+of the hazard evaluation process” is to “determine whether the estimated
+dose was sufficient to explain observed clinical effects known to be associated
+with the agent in question.”41  It additionally cautions that “[i]f exposure -
+response and dose -response considerations are disregarded, then
+
+38  Id.
+39  R. Doc. 44-7 (Cook Deposition at 124:16-22).
+40  Id. (Cook Deposition at 59:22-60:13).
+41  R. Doc. 44-6 at 6-7.
+Case 2:17-cv-04334-SSV-KWR   Document 62   Filed 07/06/22   Page 19 of 37
+20
+
+misinterpretations, misunderstandings, erroneous judgments, and
+inappropriate actions occur.”42
+Despite the acknowledged importance of determining the dose -
+response relationship, Dr. Cook’s report fails to ide ntify what level of
+exposure is necessary to be capable of produc ing the adverse health effects
+that he analyzes.  In his deposition, Dr. Cook testified as follows:
+Q. If the legal test for general causation is that a review of
+scientific and medical literature demonstrates that exposure to a
+harmful level of a substance can cause a particular disease, have
+you given us that opinion?
+. . .
+A. I did not quantify that, no.
+. . .
+Q. . . . [D]oes your report give a level of exposure to any substance
+necessary to produce chronic rhinosinusitis?
+A. No, it does not.
+Q. Same question for chronic conjunctivitis?
+A. No.
+Q. For chronic rhinitis?
+A. No.
+Q. For chronic dry eye syndrome?
+A. No.43
+
+42  Id. at 7.
+43  R. Doc. 44-7 (Cook Deposition at 146:16-22, 148:8-21).
+Case 2:17-cv-04334-SSV-KWR   Document 62   Filed 07/06/22   Page 20 of 37
+21
+
+The closest Dr. Cook’s report comes to identifying a harmful level of exposure
+is his consideration of the Bradford Hill factor of “dose-response.”   But even
+in the sections of his report that are dedicated to the dose -response
+relationship and exposure, Dr. Cook still fails to identify a harmful dose of
+any chemical to which Grant was allegedly exposed.  Further, he fails to even
+specify what constituent chemicals within “crude oil” and “weathered oil” he
+is purportedly analyzing for a dose -response relationship.  Instead, in the
+“dose-response relationship” sections of his rep ort, Dr. Cook simply cites
+studies from both the Deepwater Horizon oil spill, as well as previous oil
+spills, which generally found a positive association between respondents who
+reported higher levels of exposure to crude oil and the prevalence of various
+medical conditions.44
+For example, Dr. Cook’s  “dose-response relationship” analysis  on
+rhinosinusitis states in full:
+Kim et al. (2013) showed a dose-response by assigning residents
+to zones based on their distance from the oil spill.  The
+researchers found a dose -response effect in all reported health
+effects, including rhinitis.  R usiecki et al. (2022) also found a
+dose-response by statistical analysis, with the responders who
+had higher reported exposures having a higher incidence of
+chronic sinusitis.45
+
+44  R. Doc. 44-4 at 74, 81-82, 89-90, 94 (Cook Report).
+45  Id. at 74.
+Case 2:17-cv-04334-SSV-KWR   Document 62   Filed 07/06/22   Page 21 of 37
+22
+
+Notably, neither  Dr. Cook, nor the two studies, specify  a base level of
+exposure that is necessary to cause rhinosinusitis.  I n the Kim, et al., study,
+the respondents were  “residents living in the Taean coastal area . . . [that]
+had potential exposures to the oil spill from the Hebei Spirit tanker.”46  Given
+the ambiguity in whether residents were even exposed to oil, the study does
+not specify what level of exposure it concludes is associated with
+rhinosinusitis.  And in the Rusiecki 2022 study, whether a participant was a
+responder to the oil spill or not was used as a proxy for exposure, and “[o]ther
+exposure assessments were not used to classify the responders as exposed.”47
+Again, any assessment of actual exposure, let alone the level of exposure to a
+particular chemical, was not available.   These studies, both of which are
+“silent on the level of exposure  . . . that would be significant,” do not assist
+Dr. Cook in “meeting [ Grant]’s ‘minimal burden of establishing by
+‘[s]cientific knowledge . . . the harmful level of exposure to a chemical.’”
+Seaman, 326 F. App’x at 727 (quoting Allen, 102 F.3d at 199).
+ Dr. Cook’s report does acknowledge that one of the limitations of the
+studies he relies on is the “[l]imited availability of quantitative exposure
+measures,” because of the “[l]ikely low [level of] individual exposures.”48  For
+
+46  Id. at 35 (emphasis added).
+47  Id. at 47.
+48  Id. at 57.
+Case 2:17-cv-04334-SSV-KWR   Document 62   Filed 07/06/22   Page 22 of 37
+23
+
+example, he notes that the GuLF STUDY researchers represented that it was
+“difficult to obtain accurate and comprehensive exposure information on
+participants . . . because many of the assessments would have been made
+months after the workers were exposed ,” and “many workers will have had
+multiple exposures during the oil spill, . . . such that single exposure
+measurements may not be sufficient to fully assess total exposure.”49  The
+report also mentions that the  health hazard evaluations conducted by the
+National Institute of Occupational Safety and Health  “ utilized primarily
+qualitative assessment techniques rather than the traditional industrial
+hygiene exposure assessment and quantitative measurement methods.”50
+Although Dr. Cook notes these limitations, he provides no explanation about
+the “extent to which [these] limitations compromise [his] findings . . . about
+causation.” Reference Manual at 553.  Instead, Dr. Cook’s report appears to
+conclude that there is some unspecified dose-response relationship for each
+of the medical conditions that he analyzed for general causation.
+ In light of Dr. Cook’s failure to determine the relevant harmful level of
+exposure, the Court finds that he lacks sufficient facts on  both the
+composition of the substances at issue and their toxicity to provide a reliable
+
+49  Id. at 57-58.
+50  Id. at 36.
+Case 2:17-cv-04334-SSV-KWR   Document 62   Filed 07/06/22   Page 23 of 37
+24
+
+opinion on general causation.  See McGill v. BP Expl. & Produc., Inc., 830 F.
+App’x 430, 433 (5th Cir. 2020)  (per curiam) (upholding the exclusion of an
+expert’s opinion that was “not based on sufficient facts” and relied on studies
+that failed to “provide conclusive findings on what exposure level of Corexit
+is hazardous to humans”); Moore , 151 F.3d at 277-78 (holding that the
+“district court was entitled to conclude” that an expert’s opinion was
+“inadequate under Daubert” when the expert “had no information on the
+level of exposure necessary for a person to sustain the [relevant] injuries”).
+The Court further notes that Dr. Cook’s lack of even an estimate of what level
+of exposure is enough to be able to cause plaintiff’s alleged symptoms means
+that he “lack[s] the scientific knowledge necessary to engage in the accepted
+methodology employed by toxicologists to establish causation in a toxic tort
+case.”  Zellars v. NexTech Ne., LLC, 895 F. Supp. 2d 734, 741 (E.D. Va. 2012),
+aff’d 533 F. App’x 192 (2013 ); see also McClain v. Metabolife Intern., Inc. ,
+401 F.3d 1233, 1241-42 (11th Cir. 2005) (noting that an expert who could not
+provide an opinion on “the dose or level of exposure at which [the chemical]
+causes harm” did “not follow the basic methodology that scientists use to
+determine causation—the dose-response relationship”).
+ In sum, because Dr. Cook has not identified the  harmful level of
+exposure to the chemicals that Grant was allegedly exposed to that can cause
+Case 2:17-cv-04334-SSV-KWR   Document 62   Filed 07/06/22   Page 24 of 37
+25
+
+the conditions he alleges , Dr. Cook’s  report is unreliable , lacks sufficient
+factual support, and cannot establish general causation.  See Seaman, 326 F.
+App’x at 727 (“Without any facts that would establish the allegedly harmful
+level of exposure, . . .  Dr. Prellop’s opinion regarding diesel exhaust does not
+establish general causation.”); Becnel v. BP Expl. & Prod., Inc., No. 17-1758,
+2021 WL 4444723, *2 -3 (M.D. La. Sept. 28, 2021) (“The Court finds that
+without dose data, conclusions  and opinions on causation are speculative
+and unreliable.”).
+In addition to finding Dr. Cook’s general causation analysis unreliable,
+the Court also finds that Dr. Cook’s report is unhelpful to the factfinder  for
+many of the same reasons.  Rule 702 requires that an expert’s opinion must
+“help the trier of fact to understand the evidence or to determine a fact in
+issue.”  Fed. R. Evid. 702(a).  “ To be ‘helpful’ under Rule 702, the evidence
+must possess validity when applied to the pertinent factual inquiry.”  United
+States v. Posado , 57 F.3d 428, 433 (5th Cir. 1995).  Courts should thus
+exclude testimony that “fail[s] to provide a ‘relevant’ link with the facts at
+issue.”  Knight, 482 F.3d at 355.
+Here, the Cour t finds that Dr. Cook’s  opinion is unhelpful because of
+his inability to link any specific chemical that Grant was allegedly exposed
+to, at the level to which he was exposed, to the conditions that he alleges in
+Case 2:17-cv-04334-SSV-KWR   Document 62   Filed 07/06/22   Page 25 of 37
+26
+
+his complaint.  Specifically, Dr. Cook’s conclusion that there is a cause-and-
+effect relationship between the respiratory, ocular, and dermal conditions he
+analyzed—only some of which are applicable to plaintiff 51—and “expos[ure]
+to crude oil, including weathered crude oil,” is unhelpful without identifying
+the specific chemicals and exposure levels  capable of causing specific
+conditions.52  As emphasized  by another section of this Court, “ Cook[’s
+report] does not even identify any specific chemical or chemicals at issue ”
+and instead “ refers generally to oil, dispersants, and volatile organic
+compounds.”  Street, 2022 WL 1811144, at *5.   And as noted by plaintiff, he
+retained Dr. Cook to provide a general causation report that “identifies the
+medical conditions generally recognized in the l iterature on BP Oil Spill
+responders,” not the specific conditions alleged by Grant.53
+This lack of specificity is concerning given that Dr. Cook testified that
+there are “thousands of chemicals” in crude oil, and acknowledged that the
+
+51  For example, although Dr. Cook found causation between exposure to
+crude oil and  chronic rhinitis, chronic sinusitis, allergic rhinitis,
+chronic obstructive pulmonary disease, and asthma, plaintiff does not
+purport to suffer from any of these conditions.  See R. Doc. 56 at 8.
+Moreover, many of plaintiff’s alleged conditions are not discussed in
+Dr. Cook’s report.  See, e.g., id. (noting the failure of Dr. Cook’s report
+to address general causation as to the following symptoms alleged by
+Grant: headaches, anxiety, impertigo, convulsions, seizu res, and
+cellulitis of lower extremity).
+52  R. Doc. 44-4 at 87 (Cook Report).
+53  R. Doc. 49 at 3.
+Case 2:17-cv-04334-SSV-KWR   Document 62   Filed 07/06/22   Page 26 of 37
+27
+
+different constituent chemicals in crude oil vary depending on location and
+the impact of the “weathering process.” 54  In his testimony , Dr. Cook also
+compared the study of health effects related to oil  spills to previous studies
+on lung cancer and cigarette smoke.  He testified that like cigarette smoke,
+there are “a lot of chemicals” in oil, and explained that  although there are
+“actually 6,000 known chemicals within tobacco smoke, . . . only a small
+handful of those are recognized carcinogens.” 55  Although Dr. Cook admit s
+that there are thousands of chemicals  in crude oil , and that the chemical
+composition of weathered oil is  highly variable, he makes no attempt to
+identify what chemicals within crude oil Grant was allegedly exposed to, or
+what amounts of these chemicals can cause harm  to humans.  Indeed, the
+majority of the studies he cites similarly  do not identify what  chemicals
+respondents were exposed to, and one study noted a concern about
+confounding variables, stating that some respondents likely had unknown
+“petrochemical and other exposures not due to their oil spill cleanup
+activities.”56  See Wagoner, 813 F. Supp. 2d at 802 (“It is true that in Joiner,
+the Supreme Court indicated that an expert opinion on general causation
+
+54  R. Doc. 44-7 (Cook Deposition 63:17-22, 104:21-105:1).
+55  Id. (Cook Deposition at 63:1-17).
+56  R. Doc. 44-4 at 57 (Cook Report).
+Case 2:17-cv-04334-SSV-KWR   Document 62   Filed 07/06/22   Page 27 of 37
+28
+
+should rely on studies that examine the specific agent that is at issue.” (citing
+Joiner, 522 U.S. at 145-46)).
+In providing a general causation determination, Dr. Cook had to assess
+whether “the types of chemicals [that Grant] w[as] exposed to can cause [his]
+particular injuries in the general population.”  Knight , 482 F.3d at 355.
+Given that Dr. Cook’s report does not identify what specific chemicals Grant
+was exposed to, nor does it address many of the injuries Grant  alleges, the
+Court finds his report is unhelpful to the factfinder.  See Knight, 482 F.3d at
+355 (upholding the district court’s exclusion of an expert because the expert
+relied on evidence that lacked “a ‘relevant’ link with the facts at issue”).
+In reaching its decision, the Court rejects plaintiff’s efforts to defend
+Dr. Cook’s failure to identify a harmful level of exposure  to a specific
+chemical.  First, plaintiff asserts that Dr. Cook was unable to include data on
+a harmful level of exposure because “BP consciously, or in the most favorable
+light negligently, avoided recording data which would show the exposure
+doses of spill response workers.”57  Regardless of the veracity 58 of this
+
+57  R. Doc. 49 at 9.
+58  Notably, other Courts addressing the scope of data collected as part of
+the Deepwater Horizon oil spill have cast doubt on the assertion that
+there is a lack of monitoring data associated with the spill.  See, e.g., In
+re Deepwater Horizon Belo Cases , No. 19-963, 2020 WL 6689212, at
+*4 (N.D. Fla. Nov. 4, 2020), aff’d sub nom. In re Deepwater Horizon
+BELO Cases, No. 20-14544, 2022 WL 104243 (11th Cir. Jan. 11, 2022)
+Case 2:17-cv-04334-SSV-KWR   Document 62   Filed 07/06/22   Page 28 of 37
+29
+
+assertion, Dr. Cook was not prevented from consulting the relevant scientific
+and medical literature on the harmful effects of oil to determine whether a
+relevant chemical has the capacity to cause the harm alleged by plaintiff in
+the general population.  Dr. Cook was not limited to data from the Deepwater
+Horizon oil spill, and in fact did rely on studies from previous oil spills.59
+Plaintiff additionally asserts that Dr. Cook’s reliance on studies that
+used an “ever/never” binary exposure model  in which respondents  were
+asked whether they had ever been expos ed to crude oil,  was an adequate
+alternative to the traditional quantitative estimates of a dose -response
+relationship.60  Specifically, plaintiff represent s that because BP allegedly
+“squandered the opportunity to preserve evidence of dose,” the scientifi c
+community publishing “peer reviewed science for the BP Oil Spill worker
+population,” has turned to qualitative measures, such as the “ever/never”
+
+(finding that following the Deepwater Horizon oil spill Unified Area
+Command (“UAC”), which w as composed of several federal and state
+agencies, “engaged in extensive and coordinated data collection and
+environmental monitoring efforts, in what has been characterized as
+‘the largest environmental investigation of an oil spill ever
+undertaken’”); Harrison v. BP Expl. &  Prod. Inc., No. 17-4346, 2022
+WL 2390733, at *7 (E.D. La. July 1, 2022) (noting that Dr. Cook “could
+have attempted to support an opinion as to the dose necessary to cause
+plaintiff’s symptoms by relying on the universe of relevant
+epidemiology and toxicology literature studying the spill or by relying
+on the work of Dr. Jones”).
+59  R. Doc. 44-4 at 33-35 (Cook Report).
+60  R. Doc. 49 at 9.
+Case 2:17-cv-04334-SSV-KWR   Document 62   Filed 07/06/22   Page 29 of 37
+30
+
+model, instead of the “traditional Bradford Hill dose -response
+relationship.”61  Plaintiff thus asserts that because Dr. Cook is “simply using
+the same methodology as the relevant scientific community” studying the BP
+oil spill worker population, his general causation opinion should not be
+excluded based on his failure to identify a particular chemical or dose.62
+Although the question of whether a study has been subjected to peer
+review and publication is relevant, it is “not dispositive” or the “sine qua non
+of admissibility.”  Daubert, 509 U.S. at 592.  And even if the ever/never
+exposure model is used in some literature on the Deepwater Horizon oil
+spill, Dr. Cook  agreed at his deposition that “without some quantitative
+understanding of the magnitude of an individual’s exposure and the duration
+of time over which the exposure occurred, it’s difficult to reach . . .
+meaningful conclusions about health risks.” 63  More critically, Dr. Cook
+states in his report that researchers associated with the Deepwater Horizon
+oil spill studies that he relie s on also exp ressed concerns about the
+“accur[acy] and comprehensive[ness]” of respondents’ qualitive exposure
+responses.64  For example, the report notes that NIOSH investigators
+
+61  Id.
+62  Id. at 13.
+63  R. Doc. 44-8 (Cook Deposition at 124:16-22).
+64  R. Doc. 4 4-4 at 57 (Cook Report) (noting that “GuLF STUDY
+researchers also noted that it would be difficult to obtain accurate and
+Case 2:17-cv-04334-SSV-KWR   Document 62   Filed 07/06/22   Page 30 of 37
+31
+
+“disregarded the self -reports of the workers, determining that the workers’
+self-reported exposures had not been likely.” 65  Moreover, as noted above,
+Dr. Cook was not limited to studies on the Deepwater Horizon oil spill in
+developing his general causation opinion.
+Given the concerns about the accuracy of this model from both
+plaintiff’s expert as well as the investigators themselves, the Court does not
+find that, in this context, Dr. Cook’s conclusions were reliable, or that he is
+otherwise excused from determining a harmful level of exposure .
+Furthermore, consideration of the studies  that Dr. Cook relies on does
+nothing to cure the lack of “fit” between his report and the facts of this case ,
+specifically his failure to identify any chemical that is capable of causing any
+of the conditions that Grant alleges in his complaint.
+In sum, plaintiff, as the party offering the testimony of Dr. Cook, has
+failed to meet his burden of establishing the reliability and relevance of Dr.
+Cook’s report.  Moore, 151 F.3d at 276.   Given that Dr. Cook’s report is
+unreliable and fails to provide the “minimal facts necessary” to establish
+general causation in this case, see Allen, 102 F.3d at 199, the Court grants
+defendants’ motion to exclude Dr. Cook’s testimony.  See Seaman , 326 F.
+
+comprehensive exposure information on participants in the GuLF
+STUDY”).
+65  Id. at 42.
+Case 2:17-cv-04334-SSV-KWR   Document 62   Filed 07/06/22   Page 31 of 37
+32
+
+App’x at 728 (upholding the district court’s exclusion of an exp ert’s
+testimony that did “not come close to establishing either general or specific
+causation” and “provide[d] no clue regarding what would be a harmful level
+of Ferox exposure”).
+
+III. MOTION FOR SUMMARY JUDGMENT
+
+A. Legal Standard
+Summary judgment is warranted when “the movant shows that there
+is no genuine dispute as to any material fact and the movant is entitled to
+judgment as a matter of law.”  Fed. R. Civ. P. 56(a); see also Celotex Corp. v.
+Catrett, 477 U.S. 317, 322-23 (1986); Little v. Liquid Air Corp., 37 F.3d 1069,
+1075 (5th Cir. 1994) (en banc) (per curiam).  “When assessing whether a
+dispute to any material fact exists, [the Court] consider[s] all of the evidence
+in the record but refrain[s] from making credibility determinations or
+weighing the evidence.”  Delta & Pine Land Co. v. Nationwide Agribusiness
+Ins., 530 F.3d 395, 398 -99 (5th Cir. 2008).  All reasonable inferences are
+drawn in favor of the nonmoving party, but “unsupported allegations or
+affidavits setting forth ‘ultimate or conclusory facts and conclusions of law’
+are insufficient to either support or defeat a motion for summary judgment.”
+Galindo v. Precision Am. Corp., 754 F.2d 1212, 1216 (5th Cir. 1985) (quoting
+Case 2:17-cv-04334-SSV-KWR   Document 62   Filed 07/06/22   Page 32 of 37
+33
+
+10A Charles Alan Wright & Arthur R. Miller, Federal Practice and Procedure
+§ 2738 (2d ed. 1983)); see also  Little, 37 F.3d at 1075.  “No genuine dispute
+of fact exists if the record taken as a whole could not lead a rational trier of
+fact to find for the nonmoving party.”  EEOC v. Simbaki, Ltd., 767 F.3d 475,
+481 (5th Cir. 2014).
+If the dispositive issue is one on which the moving party will bear the
+burden of proof at trial, the moving party “must come forward with evidence
+which would ‘entitle it to a directed verdict if the evidence went
+uncontroverted at trial.’”  Int’l Shortstop, Inc. v. Rally’s, Inc., 939 F.2d 1257,
+1264-65 (5th Cir. 1991) (quoting Golden Rule Ins. v. Lease, 755 F. Supp. 948,
+951 (D. Colo. 1991)).  “[T]he nonmoving party can defeat the motion” by
+either countering with evidence sufficient to demonstrate the “existence of a
+genuine dispute of material fact,” or by “showing that the moving party’s
+evidence is so sheer that it may not persuade the reasonable fact-finder to
+return a verdict in favor of the moving party.”  Id. at 1265.
+If the dispositive issue is one on which the nonmoving party will bear
+the burden of proof at trial, the moving party may satisfy its burden by
+pointing out that the evidence in the record is insufficient with respect to an
+essential element of the nonmoving party’s claim.  See  Celotex, 477 U.S. at
+325.  The burden then shifts to the nonmoving party, who must, by
+Case 2:17-cv-04334-SSV-KWR   Document 62   Filed 07/06/22   Page 33 of 37
+34
+
+submitting or referring to evidence, set out specific facts showing that a
+genuine issue exists.  See id. at 324.  The nonmovant may not rest upon  the
+pleadings, but must identify specific facts that establish a genuine issue for
+resolution.  See, e.g., id.; Little, 37 F.3d at 1075 (“Rule 56 ‘mandates the entry
+of summary judgment, after adequate time for discovery and upon motion,
+against a party who fails to make a showing sufficient to establish the
+existence of an element essential to that party’s case, and on which that party
+will bear the burden of proof at trial.’”  (quoting Celotex, 477 U.S. at 322)).
+
+B. Discussion
+In their motion for summary j udgment, defendants contend that they
+are entitled to summary judgment “on two independent bas [es]” because
+plaintiff has cannot establish either general or specific causation.66  Although
+the parties dispute whether plaintiff is required to present admissible expert
+testimony to establish specific causation, neither party contests that expert
+testimony is necessary to establish general causation. 67  Here, the Court has
+
+66  R. Doc. 45-1 at 2.
+67  See R. Doc. 49 at 3 (asserting that “it is not legally necessary to provide
+specific causation expert testimony on temporary pain and suffering . .
+. [and] [a]t most, a general causation opinion is needed”); R. Doc. 45-1
+at 9 (“Even though the plaintiff is advocating that he does not need
+expert evidence of specific causation, he recognizes that expert
+evidence of general causation is a necessity.”).
+Case 2:17-cv-04334-SSV-KWR   Document 62   Filed 07/06/22   Page 34 of 37
+35
+
+excluded tes timony from plaintiff’s only expert offering an opinion on
+general causation.  Although plaintiff has also retained Dr. Rachel Jones as
+an “exposure assessment expert,”68 she does not provide a general causation
+opinion, and notably does not provide the in formation or analysis that Dr.
+Cook’s report lacks.   Specifically, she does not identify a harmful level of
+exposure to the chemicals that Grant was allegedly exposed to that can cause
+the conditions he alleges.   Although Dr. Jones summarizes reports that
+measured the levels of a variety of toxic chemicals at different cleanup sites,69
+she does not address the issue of causation.  In other words, Dr. Jones’s
+report does not identify the level of those toxins that is harmful and that can
+be associated with  t he symptoms at issue here .  And despite plaintiff’s
+assertion that Dr. Cook’s “general causation opinion relies on” Dr. Jones’s
+report, Dr. Cook’s report neither discusses Dr. Jones’s report nor cites it as a
+reference.70
+Because the Court excludes Dr. Coo k’s opinion on general causation,
+and plaintiff has produced no other admissible general causation evidence in
+this case, the Court need not reach the question of specific causation.  See
+Knight, 482 F.3d at 352 (noting that if “the district court properly
+
+68  R. Doc. 49 at 3.
+69  R. Doc. 49-16 (Jones Report).
+70  See R. Doc. 44-4 (Cook Report).
+Case 2:17-cv-04334-SSV-KWR   Document 62   Filed 07/06/22   Page 35 of 37
+36
+
+determined that [an expert’s] testimony regarding general causation was
+inadmissible, . . . then there would be no need to consider . . . specific
+causation”).  Given that Grant cannot prove a necessary element of his claims
+against defendants, his claims must be dismissed.  See Williams , 2019 WL
+6615504, at *11 (“When a plaintiff has no expert testimony to prove his
+medical diagnosis or causation at trial, the plaintiff’s suit may be dismissed
+at the summary judgment stage.”); see also McGill , 830 F. App’x at 434
+(upholding the district court’s grant of summary judgment given that the
+plaintiff did “not put forward any non-speculative evidence that Corexit and
+oil exposure cause the types of illnesses he suffer [ed] from”).  Accordingly,
+the Court grants defendants’ motion for summary judgment.
+
+Case 2:17-cv-04334-SSV-KWR   Document 62   Filed 07/06/22   Page 36 of 37
+37
+
+IV. CONCLUSION
+
+For the foregoing reasons, the BP parties’ motion to exclude the
+testimony of Dr. Cook is GRANTED.  The Court also GRANTS the BP parties’
+motion for summary judgment.  Plaintiff’s claims are DISMISSED WITH
+PREJUDICE.
+
+New Orleans, Louisiana, this _____ day of July, 2022.
+
+_____________________
+SARAH S. VANCE
+UNITED STATES DISTRICT JUDGE
+6th
+Case 2:17-cv-04334-SSV-KWR   Document 62   Filed 07/06/22   Page 37 of 37
