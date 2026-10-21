@@ -8,8 +8,9 @@
    - an opinion not on file is added (src "pacer_wo"), credited to the district judge who signed it, or for a
      magistrate judge's report or a consent case, to the case's judge as the case number shows;
    - an opinion on file credited to a different district judge than the one who signed it is corrected;
-   - an outcome is read from the docket text where none is on file or an automatic read found none (hand entries are
-     never changed), with the decided motion's docket number from the text's links;
+   - an outcome is read from the docket text where none is on file, an automatic read found none, or a reading of the
+     order's own text disagrees with it (hand entries are never changed), with the decided motion's docket number from
+     the text's links;
    - each case's nature of suit, cause, flags, and magistrate judge go to data/dockets.json where not already known;
    - the start of the opinion counts moves back to the earliest report period that joins up, with no gap, to the
      periods already covered.
@@ -27,6 +28,10 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import written_opinions_report as report  # noqa: E402
+from outcome_text import FAMILY  # noqa: E402
+
+# Outcomes the updater read from an order's text (a GovInfo PDF or CourtListener's copy), which the docket text outranks.
+READ_FROM_ORDER = ("govinfo_text", "opinion_text")
 
 MAGISTRATES = {"DPC": "Donna Phillips Currault", "KWR": "Karen Wells Roby", "EJD": "Eva J. Dossier", "JVM": "Janis van Meerveld",
                "MBN": "Michael B. North", "DMD": "Dana M. Douglas"}
@@ -143,11 +148,16 @@ def apply_imports(data_dir: Path, opinions: list[dict], outcomes: dict, dockets:
                 moved += 1
             k = f"{r['case']}|{r['doc']}"
             old = outcomes.get(k)
-            if rules_on_motion(o) and (old is None or (old.get("src") != "manual" and old.get("outcome") == "unclear")):
+            if rules_on_motion(o) and (old is None or old.get("src") in READ_FROM_ORDER or (old.get("src") != "manual" and old.get("outcome") == "unclear")):
                 value = classify(r["text"], o.get("event", ""), o.get("r12", 0), o.get("r56", 0), "docket")
-                if value:
-                    outcomes[k] = {"case": r["case"], "doc": r["doc"], "outcome": value, "src": "docket_text", "at": today,
-                                   **({"motion_doc": r["motions"][0]["doc"]} if len(r.get("motions", [])) == 1 else {})}
+                # The clerk's docket text states the ruling; a reading of the order's own text that disagrees with it gives way.
+                # A reading that agrees (the same family) stays, with any detail it adds ("granted, leave to amend").
+                if value and (old is None or old.get("outcome") == "unclear" or FAMILY.get(value, value) != FAMILY.get(old["outcome"], old["outcome"])):
+                    new = {"case": r["case"], "doc": r["doc"], "outcome": value, "src": "docket_text", "at": today,
+                           **({"motion_doc": r["motions"][0]["doc"]} if len(r.get("motions", [])) == 1 else {})}
+                    if old and new.get("motion_doc") and old.get("motion_doc") == new["motion_doc"] and "motion_filed" in old:
+                        new["motion_filed"] = old["motion_filed"]
+                    outcomes[k] = new
                     coded += 1
             d = dockets.setdefault(r["case"], {"case": r["case"]})
             for field, value in (("nos", r.get("nos")), ("cause", r.get("cause"))):

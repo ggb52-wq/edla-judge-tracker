@@ -125,6 +125,24 @@ class ImportTest(unittest.TestCase):
         self.run_import(opinions, outcomes, dockets, calendar)                   # applying again changes nothing
         self.assertEqual(len(opinions), n)
 
+    def test_docket_text_outranks_order_reading(self):
+        # Doc 30's docket text: "22 Partial Motion to Dismiss ... is GRANTED". A reading of the PDF that disagrees gives way,
+        # with the motion number from the text's link; one that agrees, and adds detail, stays.
+        wrong = {"case": "2:25-cv-01999", "doc": "30", "outcome": "denied", "src": "govinfo_text", "at": "2026-10-19",
+                 "motion_doc": "30", "motion_filed": "2025-05-14"}
+        outcomes = {"2:25-cv-01999|30": dict(wrong)}
+        self.run_import([], outcomes, {}, [])
+        self.assertEqual({k: outcomes["2:25-cv-01999|30"].get(k) for k in ("outcome", "src", "motion_doc", "motion_filed")},
+                         {"outcome": "granted", "src": "docket_text", "motion_doc": "22", "motion_filed": None})
+        agrees = {**wrong, "outcome": "granted_leave"}
+        outcomes = {"2:25-cv-01999|30": dict(agrees)}
+        self.run_import([], outcomes, {}, [])
+        self.assertEqual(outcomes["2:25-cv-01999|30"], agrees)
+        hand = {**wrong, "src": "manual"}
+        outcomes = {"2:25-cv-01999|30": dict(hand)}
+        self.run_import([], outcomes, {}, [])
+        self.assertEqual(outcomes["2:25-cv-01999|30"], hand)                     # a hand entry is never changed
+
 
 if __name__ == "__main__":
     unittest.main()
