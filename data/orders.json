@@ -1910,9 +1910,20 @@
 {"date":"2026-10-20","time":"15:58","judge":"CJB","case":"2:25-cv-02452","doc":"18","title":"Bradley v. Bayou Automotive Group, L.L.C.","event":"Order Dismissing Case","src":"rss"},
 {"date":"2026-10-20","time":"16:01","judge":"CJB","case":"2:26-cv-01538","doc":"9","title":"Lucineo v. GPS Hospitality Partners, IV, LLC","event":"Order Dismissing Case","src":"courtlistener"},
 {"date":"2026-10-20","time":"16:01","judge":"WJC","case":"2:26-cv-01920","doc":"19","title":"Montelongo v. PBF Holding Company LLC","event":"Order on Motion for Leave to File","src":"courtlistener"},
+{"date":"2026-10-20","time":"16:22","judge":"BSL","case":"2:24-cv-00688","doc":"185","title":"Angers v. Franco","event":"Order on Motion to Continue","src":"courtlistener"},
 {"date":"2026-10-20","time":"16:22","judge":"JTM","case":"2:26-cv-00962","doc":"20","title":"Joseph v. American General Life Insurance Company","event":"Order","src":"rss"},
+{"date":"2026-10-20","time":"16:33","judge":"BSL","case":"2:24-cv-01584","doc":"25","title":"Haynes v. Renovation Pro's, LLC","event":"Order Adopting Report and Recommendations","src":"courtlistener"},
 {"date":"2026-10-20","time":"16:36","judge":"BSL","case":"2:24-cv-01584","doc":"26","title":"Haynes v. Renovation Pro's, LLC et al","event":"Judgment","src":"rss"},
+{"date":"2026-10-20","time":"16:39","judge":"EEF","case":"2:23-cv-04241","doc":"176","title":"Evans v. Taylor Seidenbach, Inc.","event":"Order on Motion to Dismiss Party","src":"courtlistener"},
+{"date":"2026-10-20","time":"16:40","judge":"WBV","case":"2:24-cv-01933","doc":"380","title":"Tran v. Gulf Coast Bank & Trust Company","event":"Order on Motion for Miscellaneous Relief AND Status Conference","src":"courtlistener"},
+{"date":"2026-10-20","time":"16:44","judge":"EEF","case":"2:26-cv-00197","doc":"41","title":"Ward v. Premier Offshore Catering, LLC","event":"Order on Motion to Enroll as Counsel of Record","src":"courtlistener"},
 {"date":"2026-10-20","time":"16:47","judge":"EEF","case":"2:26-cv-02157","doc":"8","title":"Berniard v. Long Haul LLC et al","event":"Order","src":"rss"},
+{"date":"2026-10-20","time":"16:53","judge":"","case":"2:26-cv-02399","doc":"7","title":"Hills v. PAC Housing Group, LLC","event":"Order Transferring Case","src":"courtlistener"},
 {"date":"2026-10-20","time":"16:54","judge":"LMA","case":"2:26-cv-00289","doc":"49","title":"Jones v. W&T Offshore Inc et al","event":"Set Hearings","src":"rss"},
-{"date":"2026-10-20","time":"16:56","judge":"EEF","case":"2:26-cv-00390","doc":"19","title":"Cox v. Belle Chasse Marine Transportation, LLC et al","event":"Set Hearings","src":"rss"}
+{"date":"2026-10-20","time":"16:56","judge":"EEF","case":"2:26-cv-00390","doc":"19","title":"Cox v. Belle Chasse Marine Transportation, LLC et al","event":"Set Hearings","src":"rss"},
+{"date":"2026-10-20","time":"16:58","judge":"ASJ","case":"2:26-cv-01123","doc":"14","title":"Kennedy v. Volkswagen Group of America, Inc.","event":"Order Dismissing Case","src":"courtlistener"},
+{"date":"2026-10-20","time":"17:02","judge":"WBV","case":"2:26-cv-00325","doc":"96","title":"Mouton v. Taylor-Seidenbach, Inc.","event":"Order on Motion to Dismiss Case","src":"courtlistener"},
+{"date":"2026-10-20","time":"17:19","judge":"ILRL","case":"2:25-cv-02561","doc":"38","title":"Goodwin v. Rogers","event":"Order to Show Cause AND ~Util - Set/Reset Deadlines","src":"courtlistener"},
+{"date":"2026-10-20","time":"17:24","judge":"SM","case":"2:26-cv-02357","doc":"9","title":"Cooney v. Social Security Administration","event":"Order on Motion to Appear Pro Hac Vice","src":"courtlistener"},
+{"date":"2026-10-20","time":"17:29","judge":"BSL","case":"2:25-cv-02238","doc":"53","title":"Gly-Tech Services, Inc. v. BH Energy Services, LLC","event":"Order on Motion for Protective Order","src":"courtlistener"}
 ]
