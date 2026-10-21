@@ -1,0 +1,715 @@
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+ENTERGY NEW ORLEANS, LLC
+
+ CIVIL ACTION
+VERSUS
+
+ NO. 22-5285
+MAGNOLIA FLEET, LLC, ET AL.  SECTION “R” (5)
+
+ORDER AND REASONS
+
+ Before the Court is defendants’ motion for summary judgment 1 and
+motion in limine to exclude the expert testimony of Randy Bullard.2  Plaintiff
+opposes the motions. 3  For the following reasons, the Court denies the
+motion for summary judgment, and grants  in part and deni es in part the
+motion in limine.
+
+I. BACKGROUND
+
+This case arises from a maritime  allision in the Inner Harbor
+Navigation Canal (“Inner Harbor”).  On December 15, 2021, the tugboat
+vessel “The M/V Lucille Brooks,” owned by defendant Magnolia Midstream,
+LLC and operated by defendant Magnol ia Fleet, LLC, struck a sign and two
+concrete-filled steel pilings owned by  plaintiff Entergy New Orleans, LLC
+
+1  R. Doc. 26.
+2  R. Doc. 32.
+3  R. Docs. 27 & 38.
+Case 2:22-cv-05285-SSV-MBN   Document 45   Filed 09/01/23   Page 1 of 30
+2
+
+(“Entergy”).4  At the time of the allisi on, the vessel was pushing a tow
+consisting of five empty barges through the locks in the Inner Harbor.5  The
+vessel’s engine allegedly failed, causing winds to push the tow into Entergy’s
+pilings located on the eastside bank of the canal.6  The damaged pilings were
+36 inches in diameter and used to mark the location of two 16-inch gas main
+pipeline pilings that cross under the Inner Harbor.7  There were four pilings
+in total, two of which were undamaged by the allision.
+Entergy filed this action against Magnolia Midstream, LLC, Magnolia
+Fleet, LLC, and Magnolia Tugs, LLC (co llectively, “Magnolia”), seeking
+reimbursement for all repair costs necessitated by the allision.8  The dispute
+centers on the amount of damages Magnolia owes to Entergy.  In Magnolia’s
+motion for summary judgment, it contends that damages must be based on
+the market value of the two pilings at the time of the destruction less the
+salvage value. 9  Entergy contends that the proper measure of damages is
+repair or replacement cost less depreciation.10
+
+4  R. Doc. 26-4 ¶¶ 1, 5; R. Doc. 27-3 ¶¶ 1, 5.
+5  R. Doc. 26-4 ¶ 1; R. Doc. 27-3 ¶ 1.
+6  R. Doc. 26-4 ¶¶ 4-5; R. Doc. 27-3 ¶¶ 4-5.
+7  R. Doc. 26-4 ¶ 5; R. Doc.27-3 ¶ 5.
+8  R. Docs. 1 & 15.
+9  R. Doc. 26-1.
+10  R. Doc. 27.
+Case 2:22-cv-05285-SSV-MBN   Document 45   Filed 09/01/23   Page 2 of 30
+3
+
+Magnolia also moves to exclude the testimony and report of Entergy’s
+maritime expert surveyor, Randy Bullard.11  Magnolia asserts that the report
+is unreliable because it contains un supported assumptions, extends beyond
+Bullard’s expertise, and lacks credible sources. 12  Entergy asserts that
+Bullard’s report is admissible, and that Magnolia’s objections concerning the
+weight of Bullard’s opinions are more properly addressed at trial.13
+The Court considers the motions below.
+
+II. MOTION FOR SUMMARY JUDGMENT
+
+A. Legal Standard
+Summary judgment is warranted when  “the movant shows that there
+is no genuine dispute as to  any material fact and the movant is entitled to
+judgment as a matter of law.”  Fed. R. Civ. P. 56(a); see also Celotex Corp. v.
+Catrett, 477 U.S. 317, 322-23 (1986); Little v. Liquid Air Corp., 37 F.3d 1069,
+1075 (5th Cir. 1994) (en banc) (per curiam).  “When assessing whether a
+dispute to any material fact exists, [the Court] consider[s] all of the evidence
+in the record but refrain[s] from ma king credibility determinations or
+weighing the evidence.”  Delta & Pine Land Co. v. Nationwide Agribusiness
+
+11  R. Doc. 32.
+12  R. Doc. 32-1.
+13  R. Doc. 38.
+Case 2:22-cv-05285-SSV-MBN   Document 45   Filed 09/01/23   Page 3 of 30
+4
+
+Ins., 530 F.3d 395, 398-99 (5th Cir. 2008) (first citing Reeves v. Sanderson
+Plumbing Prods., Inc., 530 U.S. 133, 150 (2000); and then citing Matsushita
+Elec. Indus. Co. v. Zenith Radio Corp. , 475 U.S. 574, 587 (1986)).  All
+reasonable inferences are drawn in favor of the nonmoving party, but
+“unsupported allegations or affidavits setting forth ‘ultimate or conclusory
+facts and conclusions of law’ are insuffi cient to either support or defeat a
+motion for summary judgment.”  Galindo v. Precision Am. Corp. , 754 F.2d
+1212, 1216 (5th Cir. 1985) (quoting 10 A Charles Alan Wright & Arthur R.
+Miller, Federal Practice and Procedure § 2738 (2d ed. 1983)); see also Little,
+37 F.3d at 1075 (noting that the moving party’s “burden is not satisfied with
+‘some metaphysical doubt as to th e material facts,’ by ‘conclusory
+allegations,’ by ‘unsubstantiated asse rtions,’ or by only a ‘scintilla’ of
+evidence” (citations omitted)).  “No genuine dispute of fact exists if the
+record taken as a whole could not lead a rational trier of fa ct to find for the
+nonmoving party.”  EEOC v. Simbaki, Ltd., 767 F.3d 475, 481 (5th Cir. 2014).
+ If the dispositive issue is one on which the moving party will bear the
+burden of proof at trial, the moving party must put forth evidence that would
+“entitle it to a directed verdict if the evidence went uncontroverted at trial.”
+Int’l Shortstop, Inc. v. Rally’s, Inc., 939 F.2d 1257, 1264-65 (5th Cir. 1991)
+(quoting Golden Rule Ins. v. Lease , 755 F. Supp. 948, 951 (D. Colo. 1991)
+Case 2:22-cv-05285-SSV-MBN   Document 45   Filed 09/01/23   Page 4 of 30
+5
+
+(internal quotation marks omitted)).  “[T]he nonmoving party can defeat the
+motion” by either countering with ev idence sufficient to demonstrate the
+“existence of a genuine dispute of mate rial fact,” or by “showing that the
+moving party’s evidence is so sheer that it may not persuade the reasonable
+fact-finder to return a verdict in favor of the moving party.”  Id. at 1265.
+ If the dispositive issue is one on  which the nonmoving party will bear
+the burden of proof at trial, the moving party may satisfy its burden by
+pointing out that the evidence in the record is insufficient with respect to an
+essential element of the nonmoving party’s claim.  See Celotex, 477 U.S. at
+325.  The burden then shifts to the nonmoving party, who must, by
+submitting or referring to evidence, set out specific facts showing that a
+genuine issue exists.  See id. at 324.  The nonmovan t may not rest upon the
+pleadings but must identify specific fa cts that establish a genuine issue for
+resolution.  See, e.g., id.; Little, 37 F.3d at 1075 (“Rule 56 ‘mandates the entry
+of summary judgment, after adequate time for discovery and upon motion,
+against a party who fails to make a showing sufficient to establish the
+existence of an element essential to that party’s case, and on which that party
+will bear the burden of proof at trial.’” (quoting Celotex, 477 U.S. at 322)).
+
+Case 2:22-cv-05285-SSV-MBN   Document 45   Filed 09/01/23   Page 5 of 30
+6
+
+B. Discussion
+As this matter falls within th e Court’s admiralty jurisdiction,
+substantive maritime law, which inco rporates common law tort principles,
+applies.  See McCormick v. United States , 680 F.2d 345, 347-48 (5th Cir.
+1982) (allision between vessel and pili ng in navigable waters came within
+admiralty jurisdiction); see also Great Lakes Bus. Tr. v. M/T Orange Sun ,
+855 F. Supp. 2d 131, 148 (S.D.N .Y. 2012) (“Federal maritime law
+incorporates common law negligence principles generally.” (quoting Becker
+v. Poling Transp. Corp., 356 F.3d 381, 388 (2d Cir. 2004)).  In this context,
+an award of damages serves a compensatory purpose.  See Pizani v. M/V
+Cotton Blossom , 669 F.2d 1084, 1088 (5th Cir.  1982).  “The purpose of
+compensatory damages . . . is to place the injured person as nearly as possible
+in the condition he would have occupied if the wrong had not occurred.”  Id.
+(quoting Freeport Sulphur Co. v. S/S Hermosa, 526 F.2d 300, 304 (5th Cir.
+1976) (internal quotation marks omitted)); see also Gaines Towing &
+Transp., Inc. v. Atlantia Tanker Corp. , 191 F.3d 633, 635 (5th Cir. 1999)
+(“The proper measure of damages in a tort action ‘is to place the injured
+person as nearly as possible in the cond ition he would have occupied if the
+wrong had not occurred.’” (quoting Pizani, 669 F.2d at 1088)); Pillsbury Co.
+v. Midland Enters., Inc. , 715 F. Supp. 738, 763 (E.D. La. 1989) (“Under
+Case 2:22-cv-05285-SSV-MBN   Document 45   Filed 09/01/23   Page 6 of 30
+7
+
+general maritime law, ‘where property is destroyed by wrongful act, the
+owner is entitled to its money equivalent, and thereby to be put in as good a
+position pecuniarily as if his proper ty had not been destroyed.’” (quoting
+Standard Oil Co. v. S. Pac. Co. , 268 U.S. 146, 155 (1925))).  Defendants
+“cannot be held liable for damages that [they have] not been shown to have
+caused, or for the cost of repairs th at enhance the value of the damaged
+property compared with its pretort condition.”  Gaines Towing, 191 F.3d at
+635 (citing Pizani, 669 F.2d at 1088).  Plaintiff must prove both the amount
+and the fact of damages.  See Pizani, 669 F.2d at 1088; Gaines Towing, 191
+F.3d at 635.
+Property damaged in an allision is  considered a “constructive total
+loss” when the repair cost exceeds the precasualty value of the property, or
+an “actual total loss” when damaged beyond physical repair.  Pillsbury Co.,
+715 F. Supp. at 763 (citations omitte d).  “In either case, the measure of
+damages is generally the market value of the property just before the loss
+(less the value of any salved equipmen t or materials) and does not include
+loss of use or other consequential damages.”  Id. (citations omitted).
+But when there is no establishe d market value “by recent and
+comparable sales,” courts rely upon “o ther evidence such as replacement
+cost, depreciation, expert opinion, and the amount of insurance” to
+Case 2:22-cv-05285-SSV-MBN   Document 45   Filed 09/01/23   Page 7 of 30
+8
+
+determine the value of damaged property.  Carl Sawyer, Inc. v. Poor , 180
+F.2d 962, 963 (5th Cir. 1950) (holding that “other evidence is admissible
+touching value” when market value is not established); Pillsbury Co., 715 F.
+Supp. at 763 (quoting King Fisher Marine Serv., Inc. v. NP Sunbonnet, 724
+F.2d 1181, 1185 (5th Cir. 1984) (internal quotation marks omitted)); see also
+Freeport Sulphur Co. , 526 F.2d at 304 (“When there is a tortious injury to
+property and the market value of that property is unknown, the amount of
+damages must be determined by the co st of repairs to the property.”);
+Orange Beach Water, Sewer, & Fire Prot. Auth. v. M/V Alva, 680 F.2d 1374,
+1384 (11th Cir. 1982) (“Where no market value has been established by recent
+comparable sales, ‘other evidence is admissible touching value such as the
+opinion of marine surveyors, engin eers, the cost of reproduction, less
+depreciation, the condition of repair which the (structure) was in, . . . and the
+like.” (alteration in original) (quoting Carl Sawyer, Inc., 180 F.2d at 963 (5th
+Cir. 1950))).  For instance, when the property was used for a special purpose,
+or “there otherwise may be no true market, replacement costs may be the
+most accurate basis for determinin g damages, which are recoverable
+whether or not the property is  repaired or replaced.”  Pillsbury Co., 715 F.
+Supp. at 763 (citing King Fisher, 724 F.2d at 1185-87; Bunge Corp. v. Am.
+Com. Barge Line Co. , 630 F.2d 1236, 1242 (7th Cir. 1980); and United
+Case 2:22-cv-05285-SSV-MBN   Document 45   Filed 09/01/23   Page 8 of 30
+9
+
+Overseas Export Lines, Inc. v.  Medluck Compania Maviera, S.A. , 785 F.2d
+1320, 1327 (5th Cir. 1986)).
+In these “new for the old” cases, the “party suffering injury is entitled
+to recover only that which is necessar y to restore his damaged property to
+the same condition as existed imme diately prior to the delict.”  City of New
+Orleans ex rel. Sewerage & Water Bd. of New Orleans v. Am. Com. Lines,
+Inc., 662 F.2d 1121, 1124 (5th Cir. 1981).   In other words, when “repair or
+replacement costs form the basis of  the damage award, the Court must
+determine whether the repair or replac ement adds new value to or extends
+the useful life of the property.”  Pillsbury Co., 715 F. Supp. at 763 (citations
+omitted).  If it does, then the Court  must make “an ap propriate reduction
+from the full repair or replacement costs.”  Id. (citations omitted).  The
+purpose of this rule is to “avoid giving the injured person a windfall by
+furnishing something entirely new ‘for that which was old and depreciated
+and would in the normal course of things have to be replaced in any event.’”
+Sewerage & Water Bd. of New Orleans , 662 F.2d at 1124 (quoting State
+Highway Comm’n v. Tug Go-Getter, 468 F.2d 1270, 1273 (9th Cir. 1972)).
+Here, the issue is whether the fair market value of the damaged pilings
+immediately before the loss can be discer ned.  If so, the market value at the
+time of the loss is the proper basis for determining damages.  See Carl
+Case 2:22-cv-05285-SSV-MBN   Document 45   Filed 09/01/23   Page 9 of 30
+10
+
+Sawyer, 180 F.2d at 963 (“[T]he us ual and customary method in
+determining damages in cases of maritime collision is the market value of the
+[property] in the case of loss.”).  If not, replacement cost is the more suitable
+basis.  See Pillsbury Co., 715 F. Supp. at 763.
+The property at issue is two concrete-filled steel pilings partially
+submerged in water that were installed between 39 and 42 years before the
+allision.14  Entergy asserts that there is no  resale or general trading market
+for property of this nature.15  This position comports with a number of cases
+that have either used the replacemen t-cost approach to calculate damages
+for marine structures such as pili ngs, docks, mooring cells, and mooring
+dolphins, or held that no general, trading market exists for these structures.
+See Pizani, 669 F.2d at 1086 (using replac ement cost of dock pilings, less
+noncompensable improvements, to determine damages in maritime allision
+case); Freeport Sulphur Co., 526 F.2d at 306 (calculating damages for dock
+as the cost of repairs less “the percentage of the repair expenses representing
+the cost of the useful life extension”); Pillsbury Co., 715 F. Supp. at 763-65
+(holding that replacement costs “are th e best indicia of ‘market value’” of
+mooring cell and mooring dolphin damaged in allision because “no general,
+
+14  See R. Doc. 26-4 ¶ 30; R. Doc. 27-3 ¶ 30.
+15  R. Doc. 27 at 10.
+Case 2:22-cv-05285-SSV-MBN   Document 45   Filed 09/01/23   Page 10 of 30
+11
+
+trading market exists” for these structures); Allied Chem. Corp. v.
+Edmundson Towing Co. , 320 F. Supp. 448, 449 (E.D. La. 1970) (using the
+replacement cost of damaged piling clusters, less reasonable depreciation, to
+calculate damages); Gen. Am. Transp. Corp. v. The Patricia Chotin , 120 F.
+Supp. 246, (E.D. La. 1954) (using replac ement cost of piling clusters, less
+depreciation, to calculate damages); see also Bunge Corp. v. Am. Comm.
+Barge Line Co., 630 F.2d 1236, 1240-42 (7th Cir. 1980) (using replacement
+cost, less depreciation, to calculate damages to conveyor structure and
+dolphin); Orange Beach, 680 F.2d at 1379-80, 1383-84 (using replacement
+cost, less depreciation, to calculate damages to pipeline beneath waterway).
+While Magnolia argues that the mark et-value standard must be used
+to calculate damages for the pilings, it  neither cites authority applying this
+standard to comparable structur es, nor offers evidence for the
+counterintuitive proposition that ther e is a resale or trading market for
+decades-old steel pilings filled with concrete.  Accordingly, the Court finds
+that replacement cost, less depreciation and noncompensable
+improvements, may be used as the more  appropriate measur e of damages.
+Because Magnolia has failed to demonstra te that the damages in this case
+must be determined using the market-v alue standard, the Court denies its
+motion for summary judgment.
+Case 2:22-cv-05285-SSV-MBN   Document 45   Filed 09/01/23   Page 11 of 30
+12
+
+Magnolia also argues that Entergy has no evidence of the pretort
+condition of the pilings.16  In response, Entergy has cited witness testimony
+and satellite imaging on the pilings’ condition before the allision, including
+testimony from Magnolia’s deckhand, Brandan Winkel.17  Magnolia contests
+the credibility of Entergy’s evidence, but credibility determinations have no
+place in summary judgment.  See Reeves v. Sanderson Plumbing Prods.,
+Inc., 530 U.S. 133, 150 (2000) (holding that on summary judgment a court
+“may not make credibility determinatio ns or weight the evidence”).  The
+Court finds that there are issues of mate rial fact as to the pretort condition
+of the pilings precluding summary judgment.
+
+III. MAGNOLIA’S MOTION IN LIMINE
+
+A. Legal Standard
+The district court has considerable  discretion to admit or exclude
+expert testimony under Federal Rule of Evidence 702.  See Gen. Elec. Co. v.
+Joiner, 522 U.S. 136, 138-39 (1997); Seatrax, Inc. v. Sonbeck Int’l, Inc., 200
+F.3d 358, 371 (5th Cir. 2000).  Rule 702 provides that an expert witness
+
+16  R. Doc. 26-1 at 2, 5-6.
+17  R. Doc. 27 at 4.
+Case 2:22-cv-05285-SSV-MBN   Document 45   Filed 09/01/23   Page 12 of 30
+13
+
+“qualified . . . by knowledge, skill, experience, training, or education may
+testify” if:
+(a) the expert’s scientific, technical, or other specialized
+knowledge will help the trier of fa ct to understand the evidence
+or determine a fact in issue;
+(b) the testimony is based on sufficient facts or data;
+(c) the testimony is the produc t of reliable principles and
+methods; and
+(d) the expert has reliably applied the principles and methods to
+the facts of the case.
+
+Fed. R. Evid. 702.
+In Daubert v. Merrell Dow Pharms., Inc. , 509 U.S. 57 9 (1993), the
+Supreme Court held that Rule 702 “requi res the district court to act as a
+gatekeeper to ensure that ‘any and all scientific testimony or evidence
+admitted is not only relevant, but reliable.’”  Metrejean v. REC Marine
+Logistics, LLC , No. 08-5049, 2009 WL 3062622, at *1 (E.D. La. Sept. 21,
+2009) (quoting Daubert, 509 U.S. at 589).  This gatekeeping function applies
+to all forms of expert testimony.  See Kumho Tire Co. v. Carmichael, 526 U.S.
+137, 147 (1999).
+The Court’s gatekeeping function consists of a two-part inquiry into
+reliability and relevance.  First, the Court must determine whether the
+proffered expert testimony is reliable.  The party offering the testimony bears
+the burden of establishing its reliability by a preponderance of the evidence.
+See Moore v. Ashland Chem. Inc. , 151 F.3d 269, 276 (5th Cir. 1998).  The
+Case 2:22-cv-05285-SSV-MBN   Document 45   Filed 09/01/23   Page 13 of 30
+14
+
+reliability inquiry requires the Court to assess whether the expert’s reasoning
+and methodology underlying the testimony are valid.  See Daubert, 509 U.S.
+at 593.  The aim is to exclude exper t testimony based merely on subjective
+belief or unsupported speculation.  See id.  a t  5 9 0 .   “ [ F ] u n d a m e n t a l l y
+unsupported” opinions “offer[ ] no expert assistance to the [trier of fact]” and
+should be excluded.  Guile v. United States , 422 F.3d 221, 227 (5th Cir.
+2005).  The Court may consider several nonexclusive factors in determining
+reliability, including: (1) whether the technique has been tested, (2) whether
+the technique has been subject to p eer review and publication, (3) the
+technique’s potential error rate, (4) the existence and maintenance of
+standards controlling the technique’s operation, and (5) whether the
+technique is generally accepted in th e relevant scientific community.
+Burleson v. Tex. Dep’t of Crim. Just., 393 F.3d 577, 584 (5th Cir. 2004).  The
+Supreme Court has emphasized that these factors “do not constitute a
+‘definitive checklist or test.’” Kumho, 526 U.S. at 150 (quoting Daubert, 509
+U.S. at 593).  Rather, courts “have considerable leeway in deciding in a
+p a r t i c u l a r  c a s e  h o w  t o  g o  a b o u t  d etermining whether particular expert
+testimony is reliable.”  Id. at 152.
+Expert testimony “must be reliable at each and every step or else it is
+inadmissible.”  Knight v. Kirby Inland Marine Inc. , 482 F.3d 347, 355 (5th
+Case 2:22-cv-05285-SSV-MBN   Document 45   Filed 09/01/23   Page 14 of 30
+15
+
+Cir. 2007).  “The reliability analysis  applies to all aspects of an expert’s
+testimony: the methodology, the facts underlying the expert’s opinion, the
+link between the facts and the conclusion, et alia.”  Id. (quoting Heller v.
+Shaw Indus., Inc., 167 F.3d 146, 155 (3d Cir. 1999) (internal quotation marks
+omitted)).  “Where the expert’s opinion is based on insufficient information,
+the analysis is unreliable.”  Paz v. Brush Engineered Materials, Inc. , 555
+F.3d 383, 388 (5th Cir. 2009).  Further, the Supreme Court has explained
+that “nothing in either Daubert or the Federal Rules of Evidence requires a
+district court to admit opinion evidence  that is connected to existing data
+only by the ipse dixit of the expert.”  Joiner, 522 U.S. at 146.  Rather, “[a]
+court may conclude that there is simp ly too great an analytical gap between
+the data and the opinion proffered.”  Id.
+Second, the Court must determine whether the expert’s reasoning or
+methodology “fits” the facts of the case, and whether it will thereby assist the
+trier of fact to understand the evidence .  In other words, it must determine
+whether it is relevant.  See Daubert , 509 U.S. at 591.  “Expert testimony
+which does not relate to any issue in the case is not relevant and, ergo, non-
+helpful.”  Id. (quoting 3 J. Weinstein & M. Berger, Weinstein’s Evidence
+¶ 702[02] (1988)).
+Case 2:22-cv-05285-SSV-MBN   Document 45   Filed 09/01/23   Page 15 of 30
+16
+
+The Court also considers this motion recognizing that the case involves
+a non-jury trial.  In Daubert, the Supreme Court’s overriding concern was
+the problem of exposing the jury to  confusing and unreliable expert
+testimony.  Id. at 595-97.  Following Daubert, several courts have recognized
+that in the context of a bench trial the Daubert gatekeeping obligation is less
+pressing.  See, e.g., Gibbs v. Gibbs, 210 F.3d 491, 500 (5th Cir. 2000) (“Most
+of the safeguards provided for in Daubert are not as essential in a case such
+as this where a district judge sits as the trier of fact in place of a jury.”);
+Seaboard Lumber Co. v. United States , 308 F.3d 1283, 1301-02 (Fed. Cir.
+2002) (explaining that in a bench trial the Daubert standard must still be
+applied but the concerns about expert ev idence misleading a jury “are of
+lesser import”).  Nevertheless, Daubert still applies in bench trials, and this
+Court must ensure that the pro ffered testimony is reliable.  See Gibbs, 210
+F.3d at 500.
+
+B. Discussion
+Magnolia’s motion in limine addresses the admissi bility of Entergy’s
+maritime survey expert, Randy Bullard.18  Bullard presents an expert report
+in which he opines that the remaining usable life of the damaged pilings was
+
+18  R. Docs. 32 & 32-1.
+Case 2:22-cv-05285-SSV-MBN   Document 45   Filed 09/01/23   Page 16 of 30
+17
+
+60 to 70 years at the time of the allision,19 and the total replacement cost for
+the pilings is $151,083.64. 20  He based the usable life calculation on several
+opinions expressed in the report, includ ing that: (1) the apparent original
+thickness of the pilings was 1/2 inch ba sed on industry standard practices,
+the existing wall thickness,  and remaining coatings; 21 (2) the damaged
+pilings were in position and undamaged before the allision based on Google
+Earth imagery recorded in November 20 21 and a report fi led by the Lucille
+Brooks’ captain, James Raybon; 22 (3) the average thickness of the pilings
+after the allision was 3/8 inch based on readings ob tained from ultrasonic
+thickness readings;23 (4) the pilings were 39.5 to 42.5 years old at the time of
+the allision based on pile permit documents; (5) there was a loss of 1/8 inch
+or 20% over the lifespan of the pilings; and (6) the estimated total usable
+lifespan of the pilings was 100 to 110 years based on studies of steel pipe piles
+in freshwater environments.24
+Magnolia now moves to exclude Bulla rd’s testimony on the grounds
+that it lacks foundation, relies on irrelevant sources, asserts opinions beyond
+
+19  R. Doc. 32-2 at 9-10.
+20  Id. at 9.
+21  Id. at 2, 6.
+22  Id. at 5, 81.
+23  Id. at 6.
+24  Id. at 6-7.
+Case 2:22-cv-05285-SSV-MBN   Document 45   Filed 09/01/23   Page 17 of 30
+18
+
+Bullard’s expertise, and lacks credible sources detailing the pretort condition
+of the pilings.25  The Court addresses each of Magnolia’s Daubert objections
+in turn.
+
+1. Not Based upon Sufficient Facts and Data
+Magnolia first contests the reliabilit y of Bullard’s report because it
+contains unsupported assumptions ab out the original thickness of the
+pilings, which Bullard uses to calculate the rate of deterioration.  Magnolia
+specifically asserts that the report utilizes the “assessment of industry
+standard practices” to determine the 1/2-inch thickness, but Bullard does not
+cite to any source supporting this conclusion.26
+Bullard recognizes in his report that the installation drawings attached
+to the permit for the four concrete-fi lled steel pilings did not identify the
+pilings’ original thickness.27  He was thus required to infer their original
+thickness.28  Bullard’s inferential determination was based on “industry
+standard practices,” without elaboration.
+
+25  R. Doc. 32-1.
+26  Id. at 6-7.
+27  R. Doc 32-2 at 6, 83, 93-94.
+28  Id. at 2, 6.
+Case 2:22-cv-05285-SSV-MBN   Document 45   Filed 09/01/23   Page 18 of 30
+19
+
+Bullard has more than eighteen years of experience working as a
+marine surveyor and salvage master and is the Principal of a marine
+surveying company.29  He was certified by the Association of Certified Marine
+Surveyors in 2010 and is accepted as a marine survey expert in this Court
+and the Southern District of Alabama.30  And Bullard states in his report that
+he based his findings in part on hi s extensive experience “as a certified
+marine surveyor conducting inspection s, investigations, surveys, and root
+cause analyses as related to marine incidents.” 31  The Court finds that
+Bullard’s reliance upon his training  and experience to testify about the
+industry standard for piling thickness does not render his opinion unreliable
+or inadmissible.  See, e.g., Williams v. Manitowoc Cranes, L.L.C. , 898 F.3d
+607, 625 (5th Cir. 2018) (holding that  expert with lengthy career working
+with cranes and crane controls unders tands industry standards for safety
+warnings and district court did not err in qualifying him as a warnings
+expert); United States v. Empire Bulkers, Ltd. , No. 21-126, 2022 WL
+1811158, at *4 (E.D. La. June 2, 2022) (allowing defendant’s maritime expert
+to testify, “to the extent that he can within his expertise, as to relevant
+industry standards and expectations”).
+
+29  Id. at 4; R. Doc. 32-3.
+30  R. Doc. 32-3.
+31  R. Doc 32-2 at 4.
+Case 2:22-cv-05285-SSV-MBN   Document 45   Filed 09/01/23   Page 19 of 30
+20
+
+Magnolia may challenge any of Bulla rd’s inferences and assumptions
+about the piling-wall thickness at trial on cross-examination and with
+countervailing expert testimony.  See Williams, 898 F.3d at 625 (“[T]his
+battle should be fought with the conventional weapons of cross-examination
+and competing testimony — not the nucl ear option of exclusion.” (citing
+Daubert, 509 U.S. at 596)); United States v. 14.38 Acres of Land, More or
+Less Situated in Leflore Cnty., State of Miss. , 80 F.3d 1074, 1077 (5th Cir.
+1996) (“As a general rule, questions rela ting to the bases and sources of an
+expert’s opinion affect the weight to be assigned that opinion rather than its
+admissibility and should be left fo r the jury’s consideration.” (quoting
+Viterbo v. Dow Chem. Co. , 826 F.2d 420, 422 (5th Cir. 1987) (internal
+quotation marks omitted))).
+
+2. Reliance on Irrelevant Sources and Assertion of Opinions
+Beyond Expertise
+Magnolia also argues that Bullard’s  reliance on two documents in
+determining the expected useful life of the pilings in the Inner Harbor
+renders his opinion unreliable.32  Bullard first cites to a guidance note by the
+Steel Piling Group from November 2020  in support of his conclusion that
+
+32  R. Doc. 32-1 at 7-8.
+Case 2:22-cv-05285-SSV-MBN   Document 45   Filed 09/01/23   Page 20 of 30
+21
+
+“steel pipe piles in freshwater envi ronments can regularly achieve useable
+lifespans in excess of 125 years.”33  The guidance note specifically states that,
+“[f]or situations where limited deteri oration rate is applicable and/or
+economic protective measures can be employed, design lives [of steel piles]
+in excess of 125 years can regularly be achieved.”34  This guidance note bases
+the information it provides on steel pile design guidance found in the United
+Kingdom, and on durability informat ion provided within the United
+Kingdom National Annex for different environmental conditions.35
+Bullard also cites to a 2020 study entitled “Environmental Impact on
+Corrosion Rates of Steel Pipes Employed in Marine Environment.” 36  This
+study examined corrosion rates based on two environmental variables:
+(1) water temperature, for which th e researchers examined the monthly
+average maximum and minimum water te mperatures in Cork, Ireland; and
+(2) the availability of dissolved inor ganic nitrogen (“DIN”) in the water,
+based on a threshold value used by the Environmental Protection Agency of
+Ireland.37  Based on these environmental fa ctors, the researchers concluded
+that the capacity of a steel piling to resist buckling will reduce by about 41%
+
+33  R. Doc. 32-2 at 6, 132-134.
+34  Id. at 132.
+35  Id. at 132.
+36  Id. at 6, 135-141.
+37  Id. at 138-139, 141.
+Case 2:22-cv-05285-SSV-MBN   Document 45   Filed 09/01/23   Page 21 of 30
+22
+
+after 81 years of exposure. 38  Bullard utilizes this study to extrapolate a
+matching 40% deterioration loss at an effective lifespan of 79 years for
+Entergy’s two damaged pilings.39
+Magnolia contends that these reports are geographically limited to the
+United Kingdom and Ireland, and they cannot be applied to the pilings in the
+different conditions of the Inner Harbor in New Orleans, Louisiana. 40
+Magnolia specifically argues that the Inner Harbor “has an entirely different
+mud bottom, geology, underwater currents, and temperatures” than the
+conditions relied upon in the studies.41  It also argues that Bullard, who is not
+a geologist or metallurgist, “lacks the requisite expertise” to determine that
+Entergy’s pilings would deteriorate at the same rate as steel pilings of
+unknown composition in vastly different environments.42  Thus, without any
+data likening the conditions of the Un ited Kingdom and Ireland to those in
+the Inner Harbor, Magnolia concludes that Bullard’s findings are
+unreliable.43  Entergy contends that the documents are more broadly
+
+38  Id. at 140.
+39  Id. at 6.
+40  R. Doc. 32-1 at 7-8.
+41  Id.
+42  Id.
+43  Id.
+Case 2:22-cv-05285-SSV-MBN   Document 45   Filed 09/01/23   Page 22 of 30
+23
+
+applicable and “pertain to coastal and marine environments around the
+world.”44
+To the extent that Magnolia challe nges Bullard’s qualifications to
+render an opinion about the condition and useful life of the pilings, the Court
+finds no merit in this objection.  See Cashman Equip. Corp. v. Rozel
+Operating Co., No. 08-363, 2012 WL 2519970, at *5-6 (E.D. La. June 28,
+2012) (finding expert’s testimony reli able and relevant when based on
+experience as marine surveyor even  when he had no experience as a
+metallurgist).  Although Bullard may not be a metallurgist or geologist, he is
+“not strictly confined to his area or practice” and ma y properly testify
+“regarding related applications.”  Id. at *6.  And Bullard’s “lack of
+specialization does not affect the admi ssibility of the opinion, but only its
+weight.”  Id. (quoting Wright v. John Deere Co. , 935 F.2d 1090, 1100 (10th
+Cir. 1991) (internal quotation marks omitted)).
+Nevertheless, the Court finds that Bullard’s opinions founded upon the
+two cited documents are unreliable, and any portion of his report based on
+these documents is inadmissible.  Firs t, the Steel Piling Group document
+does not even purport to be a “study ,” but rather is a “guidance note.”45  It
+
+44  R. Doc. 38 at 8-9.
+45  R. Doc. 32-2 at 132-34.
+Case 2:22-cv-05285-SSV-MBN   Document 45   Filed 09/01/23   Page 23 of 30
+24
+
+contains no data or information ab out the methods used to make the
+statement about the potential useable li f e  o f  s t e e l  p i l i n g s  i n  t h e  U n i t e d
+Kingdom.  Nor does the guidance note include the professional qualifications
+of its authors.  Moreover, the document is based upon U.K. standards and is
+clearly aimed towards the U.K. steel-piling industry.  It does not even purport
+to suggest that these standards or the information it provides apply generally
+outside of the United Kingdom, and Bu llard does not attempt to reconcile
+geographic disparities with New Orleans.  Without any evidence that the
+potential useable life statement in the Steel Piling Group document is reliably
+derived and applicable to the facts an d conditions of this case, Bullard’s
+opinion about the useable life of Enterg y’s pilings is unreliable and must be
+excluded.  See Brock v. Merrell Dow Pharms., Inc. , 874 F.2d 307, 309-10
+(5th Cir. 1989) (“[C]ourts must critically evaluate the reasoning process by
+which experts connect data to their conclusions in order for courts to
+consistently and rationally resolve the disputes before them.”); Joiner, 522
+U.S. at 146 (holding that a court may exclude an expert’s analysis “if there is
+simply too great an analytical gap between the data and the opinion
+offered”).
+The 2020 “Environmental Impact” study likewise is an unreliable basis
+for Bullard’s opinions.  This study indisputably utilizes data from Ireland to
+Case 2:22-cv-05285-SSV-MBN   Document 45   Filed 09/01/23   Page 24 of 30
+25
+
+calculate the rate of corrosion for steel piles in marine environments. 46  For
+instance, the study utilizes the averag e water temperatures in Cork, which
+was recorded as 12.56 degrees Celsius (54.61 degrees Fahrenheit) in 2019. 47
+The study also bases its calculations on DIN levels found in Ireland. 48
+Bullard fails to explain how Irelan d’s environmental conditions are
+comparable to those in New Orleans’ Inner Harbor, which is significant since
+these regions are more than 4,000 mile s apart in geographically distinct
+locations.  Indeed, the study itself acknowledges that the water temperature
+and DIN levels of a particular enviro nment have large effects on corrosion
+rates.49  Bullard also fails to explain how the study’s finding of a 41%
+reduction in buckling resistance supp orts, or in any way relates to, his
+opinion on the deterioration of Entergy’s pilings.  The study predicts future
+rates of section loss due to corrosion and loss in buckling resistance projected
+to occur between 2019 and 2100 based on the anticipated increases in sea
+water temperature caused by climate change. 50  Bullard leaves unexplained
+how the study’s predicted rates over the next 80 years is of any relevance to
+
+46  Id. at 138-39.
+47  Id. at 138.
+48  Id. at 139.
+49  Id. at 136, 140.
+50  Id. at 135, 138.
+Case 2:22-cv-05285-SSV-MBN   Document 45   Filed 09/01/23   Page 25 of 30
+26
+
+the deterioration rate of pilings that were installed sometime between 1979
+and 1982 in the Inner Harbor of New Orleans.
+Accordingly, Bullard’s opinions based on these two documents—
+including the expected usable life of Entergy’s pilings and the matching
+deterioration rate—are excluded.  See Allen v. Pa. Eng’g Corp., 102. F.3d 194,
+199 (5th Cir. 1996) (“[I]f the foundational data underlying opinion testimony
+are unreliable, an expert will not be permitted to base an opinion on that data
+because any opinion from that data is likewise unreliable.”).
+
+3. Lack of Credible Sources on Pretort Condition
+Magnolia objects to Bullard’s reli ance on Google Earth satellite
+imagery, the statements of an Entergy contractor about the condition of one
+of the removed pilings, and Bullard’s own physical survey of one of the
+damaged pilings.  The Court finds that Magnolia’s critique of the evidence
+Bullard relies on to establish the pret ort condition of the pilings does not
+render his report lacking in a reliable foundation.
+It is undisputed that the Google Earth image is of Entergy’s pilings and
+dated from the month before the allision, and it appears to show the pilings
+in an upright position.  And Bullard relied only in part on the Google Earth
+image to form his opinion about the pre- tort condition of the pilings.  In
+Case 2:22-cv-05285-SSV-MBN   Document 45   Filed 09/01/23   Page 26 of 30
+27
+
+addition to the Google Earth image, Bu llard relied on a re port filed by the
+captain of the Lucille Brooks, James Ra ybon, in which he states that the
+pilings are “leaning at an angle now,”51 without any indication that they were
+leaning before the allision. 52  Bullard also relied on a physical inspection of
+one of the damaged pilings and his experience in other monopile failure cases
+to determine where the failure occurred. 53  His physical survey of the piling
+revealed “an absence of pre-existing damage to the pile in way of the point of
+failure as evidenced by a lack of areas of wastage, or excessively thin wall.”54
+Magnolia’s critique that Bullard’s physical survey was conducted after the
+allision does not negate his observatio ns about the point of failure and the
+lack of pre-existing damage in the form  of wastage or excessively thinned
+walls.  The Court does not find that the physical survey provided an
+unreliable basis for Bullard’s opinion of the absence of pre-existing damage
+to the piling at issue.
+Magnolia also objects to Bullard’s reliance on the observations of Mike
+Vogt regarding the northernmost pile, which Bullard was unable to inspect
+at the time of the survey.  Vogt is th e contractor hired by Entergy to replace
+
+51  R. Doc. 26-2 at 2.
+52  R. Doc. 32-2 at 4-5.
+53  Id. at 7.
+54  Id. at 7.
+Case 2:22-cv-05285-SSV-MBN   Document 45   Filed 09/01/23   Page 27 of 30
+28
+
+the pilings and who was allegedly present when both pilings were removed.55
+Bullard specifically refers to Vogt’s observations that the noted point of
+separation of this piling was about six feet sub bottom, that there were no
+other visible locations of damage or areas of wastage, and that there was
+intermittent weathered and aged coati ngs and scattered areas of advanced
+corrosion blistering.  Based on the simi larities between Vogt’s observations
+and the piling Bullard actually observe d, as well as the similar time of
+installation and environment, Bullard concluded that “the two piles would
+be similar in condition and degree of loss.”56  According to Magnolia, Vogt’s
+observations constitute “uncorrobora ted hearsay,” and Bullard’s reliance
+upon them makes his report unreliable. 57  But that Bullard relied on Vogt’s
+statements in forming his expert opinio n does not render his testimony or
+report unreliable.  “[A]n expert is permitted wide latitude to offer opinions,
+including those that are not based on firsthand knowledge or observation.”
+Daubert, 509 U.S. at 592.  This includes hearsay if “experts in the particular
+field would reasonably rely on those kind s of facts or data in forming an
+opinion on the subject.”  Fed. R. Evid. 703; see also Soden v. Freightliner
+Corp., 714 F.2d 498, 502 (5th Cir. 1983) (“[U]nder Rule 703 an expert can
+
+55  R. Doc. 38 at 3.
+56  R. Doc. 32-2 at 7-8.
+57  R. Doc. 32-1 at 3, 9.
+Case 2:22-cv-05285-SSV-MBN   Document 45   Filed 09/01/23   Page 28 of 30
+29
+
+discuss as the basis for an opinion facts or data which are otherwise
+inadmissible hearsay, ‘if of a type reas onably relied upon by experts in the
+particular field in forming opinions or inferences upon the subject.’” (quoting
+Fed. R. Evid. 703)).  Here, Magnolia “has not demonstrated that the hearsay
+relied upon by [Bullard] would not be reasonably relied upon by other
+experts in the field.”  Trevelyn Enters., L.L.C. v. SeaBrook Marine, L.L.C. ,
+No. 18-11375, 2021 WL 65689, at *2 (E .D. La. Jan. 7, 2021).  The Court also
+notes that both parties have listed Vogt as a witness at trial, which further
+undermines Magnolia’s hearsay objection.58
+In summary, the Court finds that Ma gnolia’s objections to Bullard’s
+reliance on the Google Earth imagery, his survey of the piling, or Vogt’s
+observations, do not demonstrate that the basis for Bullard’s opinion was
+unreliable.  Magnolia may explore this critique more fully on cross-
+examination or with countervailing expert testimony.  See Williams , 898
+F.3d at 625.
+
+58  R. Docs. 23 & 41.
+Case 2:22-cv-05285-SSV-MBN   Document 45   Filed 09/01/23   Page 29 of 30
+30
+IV. CONCLUSION
+For the foregoing reasons, the Court denies Magnolia’s motion fo r
+summ
+ary judgment, and grants in part and denies in part Magnolia’s motion
+in limine.
+New Orleans, Louisiana, this _____ day of September, 2023.
+_____________________
+SARAH S. VANCE
+UNITED STATES DISTRICT JUDGE
+1st
+Case 2:22-cv-05285-SSV-MBN   Document 45   Filed 09/01/23   Page 30 of 30

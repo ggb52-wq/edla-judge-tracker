@@ -1,0 +1,847 @@
+1
+
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+CARLOS TORRES-LUGO      CIVIL ACTION
+
+VERSUS        NUMBER:  20-210
+
+BP EXPLORATION & PRODUCTION, INC., ET AL.  SECTION “A” (5)
+
+ORDER AND REASONS
+
+ Before the Court is Plaintiff’s Motion for Sanctions, based upon various alleged
+violations of Federal Rule of Civil Procedure 30(b)(6).  (Rec. doc. 101).  Defendants (referred
+to hereinafter as “BP”) filed an opposition to the motion (rec. doc. 115) and Plaintiff filed a
+reply memorandum.  (Rec. doc. 122).  Contrary to my usual practice, I permitted BP to file a
+sur-reply memorandum.  (Rec. doc. 127).  I subsequently granted leave for Plaintiff to file a
+supplemental reply memorandum.  (Rec. doc. 128).1
+ I held a hearing on the motion, which failed to allay my  frustration or resolve the
+issues raised in the motion.  Accordingly, I ordered additional briefing by BP.  (Rec. doc. 131).
+As promised, I then held a second hearing.  (Rec. doc. 133).
+ Based upon this unusually fulsome briefing and multiple hearings, the Court finds
+that Plaintiff’s motion is well-taken for the following reasons.
+
+1  I almost never allow the filing of sur -replies.  In this case, not only did I grant leave for BP to file such a
+pleading, I thereafter allowed Plaintiff to file yet another reply and then called for more briefing from BP, all for
+a fairly straightforward  discovery dispute.  To be clear, I understand that these issues permeate a docket of
+similar cases that numbers in the hundreds.  I cannot stress enough that the parties in this single-plaintiff case
+ought to take these ruling to heart across the docket.  As a humble Magistrate Judge, I can do no more than
+strongly urge these parties to behave appropriately in cases to which I am not assigned – but I am very clearly
+doing that here.
+Case 2:20-cv-00210-JCZ-MBN   Document 136   Filed 07/18/22   Page 1 of 25
+2
+
+I. THE RELEVANT PROCEDURAL HISTORY
+A. The First Corporate Deposition and Motion to Compel
+This dispute started with Plaintiff’s effort to convene a Rule 30(b)(6) deposition on a
+wide range of issues.  After a period of some negotiation, that deposition took place on
+February 27, 2022.  To say the least, there were issues.
+Those issues were brough t to my attention via Plaintiff’s “Motion to Compel Rule
+30(b)(6) Deposition of BP Defendants.”  (Rec. doc. 66).  That motion was based on the idea
+that BP’s sole designated representative was prevented by BP’s counsel from testifying about
+certain “Areas of Inquiry” (hereinafter referred to as “Topics”) as a corporate representative.
+The deponent was Dave Dutton, Ph.D.  Dr. Dutton (“Dutton”) is a former employee of
+BP and served as the Industrial Hygiene Lead for the Deepwater Horizon (“DWH”) response
+under the Unified Command.  (Rec. doc. 115) .  At the February 2022 corporate deposition,
+Dr. Dutton  apparently testified satisfactorily to 18 of Plaintiff ’s 24 topics of  inquiry.  The
+motion to compel arose from BP’s position that its designee should not have to testify about
+the other six.  The areas of inquiry that concern the Court in this motion number only two
+and I will limit the analysis in this opinion to those topics .2  Here they are, along with BP’s
+written responses, provided just before the deposition:
+Area of Inquiry No. 15:
+Knowledge of the interface between epidemiology studies and
+the field of toxicology concerning any and all chemicals to which
+BP Oil Spill response workers were actually or  potentially
+exposed to oil or dispersants. This knowledge should include,
+but not be limited to, the following:
+a) The effects of oil and dispersants and all of their
+chemical components on human beings and human health;
+
+2  Others were at issue in the original motion but are not germane to the present motion.
+Case 2:20-cv-00210-JCZ-MBN   Document 136   Filed 07/18/22   Page 2 of 25
+3
+
+b) Study of the effect of all the oil and dispersants on
+workers performing spill response  work, such as the
+plaintiff herein;
+c) The health hazards associated with or caused by people
+being exposed to crude and/or weathered oil; and
+d) The health hazards associated with or caused by people
+being exposed to dispersants.
+(Rec. doc. 77-3 at 19).
+
+Here was BP’s written objection to that area of Inquiry:
+
+Defendants object to this request because it is vague, ambiguous
+and fails to describe with reasonable particularity the subject
+matter on which Plaintiff seeks testimony.  Absent further
+clarification, Defendants cannot identify or designate a witness
+or witnesses to testify in response to this request.  Defendants
+further object to this request as overbroad, unduly burdensome,
+not relevant to any claim or defense in this case, not
+proportional to the needs of the case, and not reasonably
+calculated to lead to the discovery of admissible evidence
+relevant to any issue  that may be litigated at trial pursuant to
+Section VIII.G.3 of the MSA.  Defendants specifically object to this
+request insofar as information regarding BP’s “[k]knowledge of
+the interface between epidemiology studies  and the field of
+toxicology” and the potential human health effects of exposure
+to oil and/or dispersants is not relevant to any issue that may
+be litigated at trial pursuant to Section VIII.G.3 of the MSA and is
+beyond the scope of discovery permissible under Section
+VIII.G.5 of the MSA.  Testimony and information regarding the
+interface between epidemiology and the field of toxicology and
+the potential human health  effects of exposure to oil and/or
+dispersants necessarily involve complex scientific issues that
+will be addressed  by Defendants’ experts and disclosed in
+compliance with the Court’s Case Management Order deadlines.
+(Id.)(emphasis added).
+
+The other relevant topic:
+
+Area of Inquiry No. 16:
+Knowledge of any epidemiological studies that BP, or anyone
+acting on BP’s behalf, has done on its own or in conjunction with
+any oil company group or other oil company concerning  the
+potential health hazards for wo rkers that have done oil spill
+response clean-up work, including but not limited to, BP Oil Spill
+response workers.
+(Id.).
+Case 2:20-cv-00210-JCZ-MBN   Document 136   Filed 07/18/22   Page 3 of 25
+4
+
+And BP’s response:
+Defendants object to this request because it is vague, ambiguous
+and fails to describe with reasonable particularity the subject
+matter on which Plaintiff seeks testimony.  Absent further
+clarification, Defendants cannot identify or designate a witness
+or witnesses to testify in response to this request.  Defendants
+further object to this request as overbroad, unduly burdensome,
+not relevant to any claim or defense in this case, not
+proportional to the needs of the case, and not reasonably
+calculated to lea d to the discovery of admissible evidence
+relevant to any issue that may be litigated at trial pursuant to
+Section VIII.G.3 of the MSA.  Defendants specifically object to this
+request insofar as  information regarding epidemiological
+studies that BP “has done on its own or in conjunction with any
+oil company group or other oil company” is not relevant to any
+issue that may be litigated at trial pursuant to Section VIII.G.3 of
+the MSA and is beyond the scope of discovery permissible under
+Section VIII.G.5 of the MSA.
+(Id.)(emphasis added).
+
+BP claimed in brief that these were proper and appropriate objections that validated
+its decision not to designate a witness pursuant to the deposition notice.  For two reasons, I
+disagreed.
+First, note the underlined passages in BP’s responses.  These are commonly known as
+boilerplate objections and are uniformly and categorically improper.  As this Court has
+previously stated:
+The Federal Rules of Civil Procedure take a “demanding attitude
+toward objections.”  8 C. Wright & A. Miller, Federal Practice and
+Procedure: Civil § 2173 (2014).  Courts throughout the country
+have long interpreted the rules to prohibit general, boilerplate
+objections.  See, e.g., McLeod, Alexander, Powel & Apffel, P.C. v.
+Quarles, 894 F.2d 1482, 148 5-86 (5th Cir. 1990)  (simply
+objecting to requests as "overly broad, burdensome, oppressive
+and irrelevant," without showing "specifically how each
+[request] is not relevant or how each question is overly broad,
+burdensome or oppressive” is inadequate to "voice a successful
+objection."); see also Alexander v. FBI , 192 F.R.D. 50, 53 (D.D.C.
+2000)(in order to satisfy its burden, the objecting party must
+Case 2:20-cv-00210-JCZ-MBN   Document 136   Filed 07/18/22   Page 4 of 25
+5
+
+make a specific, detailed showing of how an interrogatory is
+burdensome); St. Paul Reinsurance Co., Ltd. v.  Commercial
+Financial Corp., 198 F.R.D. 508, 511-12 (N.D. Iowa 2000)(a mere
+statement by a party that an interrogatory is “overly broad,
+burdensome, oppressive and irrelevant” is not adequate to
+voice a successful objection); Wurlitzer Co. (Holly Springs
+Division) v. U.S. E.E.O.C., 50 F.R.D. 421, 424 (N.D. Miss.
+1970)(objections to discovery requests must be specific, and
+general objections that the information sought is irrelevant,
+immaterial, oppressive, conclusory or already in possession of
+the requesting party are insufficient).  An objection to a
+discovery request is boilerplate when it merely states the legal
+grounds for the objection without: (1) specifying how the
+discovery request is deficient and (2) specifying how the
+objecting party would be harmed if it were forced to respond to
+the request.  St. Paul Reinsurance Co., 198 F.R.D. at 512.
+
+Chevron Midstream Pipelines LLC v. Settoon Towing , L.L.C., Civ. A. No. 13- 2809,  2015 WL
+269051 (E.D. La. Jan. 21, 2015).
+As noted, the underlined objections are classic boilerplate.  A statement that a request
+is “overbroad,” without explaining why it is so, is boilerplate.  A statement that a request is
+"unduly burdensome,” without explaining why, is boilerplate.  A statement that a request is
+“not proportional to the needs of the case, ” without explaining why, is boilerplate.  And a
+statement that a request is “not reasonably calculated to lead to the discovery of admissible
+evidence” is not only boilerplate but archaic, given that the cited language was excised from
+the Federal Rules seven years ago.
+Not only are these objections improper boilerplate, they are arguably impermissible
+general objections.  While they are not set forth in an old -school introductory section
+denominated “General Objections,” they are instead simply included verbatim as objections
+to virtually every request in the deposition notice.
+The second malady in BP’s approach is that, despite its apparent objections to every
+topic in the notice, BP failed to seek any sort of protec tive order prior to the deposition.  It
+Case 2:20-cv-00210-JCZ-MBN   Document 136   Filed 07/18/22   Page 5 of 25
+6
+
+was only when the deposition actually convened that BP’s  counsel made the altogether
+bizarre announcement on the record that BP was retroactively designating  the prior,
+unspecified deposition testimony of its paid litigation experts as its own corporate testimony
+for purposes of the soon -to-be-taken Rule 30(b)(6) deposition.  (Rec. doc. 66 -7).3  Despite
+this, and for reasons as yet unexplained, BP nonetheless allowed Dutton to answer questions
+on Topics 15 and 16 in his personal capacity.  (Id.).
+Sometime after the deposition concluded, in an email to Plaintiff’s counsel, BP’s
+counsel explained that it was BP’s position that “it goes far beyond the scope and purpose of
+a 30(b)(6) to require a corporate fact witness  to render expert opinions. ”  (Rec. doc. 66 -8).
+Despite this position, BP explained to the Court in a subsequent opposition memorandum
+that its counsel had directed Dutton at the deposition “to answer in his personal capacity if
+able, not on behalf of the company.”   (Rec. doc. 77 at 5)  (emphasis added).  This disclosure
+was important for two reasons:  First, it undermines BP’s insistence that these topics called
+for expert testimony in the first place.  Why, after all, should a BP witness be allowed to testify
+“in his personal capacity” in the expert arena, but not be so permitted as a 30(b)(6) designee?
+Second, it indicates that, as of the date of the first 30(b)(6) deposition, BP’s counsel didn’t
+
+3  This is not how a litigant objects to providing testimony pursuant to a properly issued Rule 30(b)(6)
+deposition notice.  Serving an avalanche of boilerplate objections and allowing the deposition to proceed
+without taking interim steps is not proper practice.  And it is not enough to “signal” a position in advance of the
+deposition, which is as much as BP concedes it did before the deposition started.  (Rec. doc. 115 at 2  n.3).
+
+What is not proper practice is to refuse to comply with the notice, put the
+burden on the party noticing the deposition to file a motion to compel, and
+then seek to justify non-compliance in opposition to the motion to compel.
+Put simply and clearly, absent agreement, a party who for one reason or
+another does not wish to comply with a notice of deposition must seek a
+protective order.
+
+New England Carpenters Health Benefits Fund v. First DataBank, Inc. , 242 F.R.D. 164, 166 (D. Mass. 2007).  That
+is what happened in this case with this deposition, and it precipitated an unnecessary motion to compel.
+Case 2:20-cv-00210-JCZ-MBN   Document 136   Filed 07/18/22   Page 6 of 25
+7
+
+even know whether Dutton was “able” to testify about the designated topics in his personal
+capacity.  This leads the Court to conclude now that, as of the first deposition, Dutton had not
+been prepared – by counsel at least – to testify as a 30(b)(6) designee on these topics and, at
+least in counsel’s view, may not have been “able” to provide any meaningful testimony at all.
+This will become important in the Court’s analysis of the present motion.
+In ruling on the motion to compel, I found that the topics at issue categorically did not
+require BP to designate a representative to render exper t opinions, as they all sought
+testimony about BP’s knowledge of certain topics (as opposed to its opinion(s) about them).
+These topics included dermal and bio monitoring and the decision- making processes at BP
+around conducting such testing during the cl eanup operations.  I agreed with Plaintiff’s
+argument that BP’s suggestion that it need not designate a witness to testify on worker
+exposure, monitoring, and health impacts when, at the time of the spill response, BP was
+actually making decisions on worker exposure, monitoring, and health impacts, was absurd.
+It was clear to me that, for reasons passing understanding, BP and its lawyers had
+decided it simply did not have to designate anyone to testify in these areas, despite the clear
+requirements of Rule 30(b)(6), and despite not seeking a protective order in advance of the
+deposition.  In what should have been a predictable outcome, I dismissed BP’s arguments,
+explaining to BP’s counsel that (1) the subject topics did not call for expert testimony and (2)
+the paid-for testimony of litigation experts cannot in any event be substituted for corporate
+testimony about corporate knowledge of relevant topics under 30(b)(6).  I therefore ordered
+another deposition to go forward and ordered BP to designate an appropriate witness to
+testify to topics 15, 16, 19, 20, and 22.  (Rec. doc. 87).
+Case 2:20-cv-00210-JCZ-MBN   Document 136   Filed 07/18/22   Page 7 of 25
+8
+
+Notably, as it concerns the issue of dermal and bio -testing, I explicitly stated that
+these topics were covered by the deposition notice:
+THE COURT:  Is Mr. Falcon going to argu e that BP should have
+done a dermal and bioassay monitoring on the front- end?  Do
+you anticipate that that will be one of his arguments?
+
+MR. WILMORE:  I would anticipate he did.  And we offered
+testimony specifically, unobjected to testimony in this corporate
+deposition about those very things, and Mr. Falcon cross -
+examined BP's experts at length on those very things.
+
+THE COURT:  Put the experts to the side.  We're talking about
+whether one party has the right under the federal rules to
+question the compa ny under Rule 30(b)(6) about those same
+topics, that's what we're talking about.  And as I appreciate it, he
+is going to argue that BP made that decision and they shouldn't
+have made that decision.  And now there's evidence that the
+very workers that he says BP  exposed to these substances
+without the proper monitoring were, in fact, injured, at least
+partially because BP did not monitor them  while they were
+exposed to those substances.  That’s what he wants  to ask the
+company about. I think that’s fair game.
+            Rec. Doc. 134 at 17.
+
+ The second 30(b)(6) deposition went forward on May 19, 2022.  The present Motion
+for Sanctions quickly followed.
+B. The Second Corporate Deposition and Motion for Sanctions
+As noted, the second deposition took place May 19, 2022.  Surprisingly (to the Court
+at least), BP chose to designate Dutton yet again, despite its counsel apparently being unsure
+during the first deposition whether Dutton was even able to answer questions  on these
+topics in his personal capacity.  (Rec. doc. 77 at 5).4
+
+4 In explaining that BP would only allow Dutton to answer questions on the subject topics in his personal
+capacity, BP’s counsel stated at the beginning of the deposition:  “Yeah, we're not instructing him not to answer.·
+To the extent that he has an idea, he can tell you. ”  (Rec. doc. 66 -7 at 9).  This, coupled with the “if he’s able”
+qualifier from BP’s later brief, hardly fosters confidence in this individual’s level of competence or preparation
+to respond to this Court’s Order of March 30, 2022.
+Case 2:20-cv-00210-JCZ-MBN   Document 136   Filed 07/18/22   Page 8 of 25
+9
+
+Following the completion of that deposition, Plaintiff filed the subject motion for
+sanctions.  In it, he claims that Dutton was unprepared to testify as a Rule 30(b)(6) corporate
+designee because he failed to do the work necessary to prepare himself for that role.
+Plaintiff’s complaints about Dutton as corporate deponent are numerous.  First, Plaintiff
+argues that, if Dutton’s testimony is correct, it establishes “the total and complete absence of
+record keeping by BP regarding one of the most significant decisions that BP made regarding
+worker safety and health  during the oil spill response, i.e. , its decision to not do worker
+biomonitoring or dermal monitoring.”  (Rec. doc. 122).  He claims that Dutton could identify
+no documentation (1) memorializing BP’s decision to do no biological or dermal monitoring
+of the workers, (2) memorializing BP’s analysis or its decision-making process in coming to
+its decision to do no biological or dermal monitoring, (3) memorializing BP’s consideration
+or analysis of NIOSH’s 5 recommendations to  undertake biomonitoring and dermal
+monitoring of the workers, or (4) memorializing BP’s toxicological analysis of the weathered
+crude oil to which the workers were  exposed.  Plaintiff suggests that the idea that  there
+would be “ no documentation of such critical decisions and information within a major
+corporation would seem amazing and unbelievable, but the proposition would have to be
+accepted as true if it were based on the testimony of a representative with the knowledge,
+who had done the research and preparation required of a Rule 30(b)(6) deponent. ”  (Rec.
+doc. 119- 1 at 2).  Here, Plaintiff claims, BP and Dutton failed in their collective duty  to
+prepare.
+
+5  NIOSH is an acronym for the National Institute of Occupational Safety and Health, which was working, along
+with many other agencies, on worker -safety issues associated with the cleanup, including consideration of
+various types of monitoring.
+Case 2:20-cv-00210-JCZ-MBN   Document 136   Filed 07/18/22   Page 9 of 25
+10
+
+Plaintiff argues strenuously that evidence provided by BP – including Dutton’s own
+emails – proves that he did not adequately prepare himself and suggests that this is part of
+an intentional strategy by BP.  Worse than putting forwa rd a 30(b)(6) witness who says “I
+don’t know” a lot, Plaintiff complains that Dutton made affirmative statements as the
+company, reinforced by a patina of authority as the proper corporate designee, that are
+undermined, if not contradicted, by BP’s and Dutton’s own documents (at least one of which
+wasn’t produced in unredacted form until after the second deposition).
+In response, calling the present motion a “trumped-up discovery dispute,” BP begins
+with a layout of the topics  that the Court ordered it to  respond to, along with some fancy
+graphics setting out its own gloss on what the Court must have meant when it ordered it to
+sit for a second 30(b)(6) deposition.  (Rec. doc. 115 at 3-5).  Rather unbelievably, given the
+statements I made on the record at the previous hearing making it clear that issues of dermal
+testing and bio monitoring were “fair game” in the court- ordered second corporate
+deposition, BP argued that “biomonitoring” and “dermal exposure measurements” were not
+included in the five topics the Court ordered BP to respond to.  (Id. at 5).
+Then, in a rather incongruent segue, BP goes on to insist that Dutton was fully
+prepared to testify to these topics  anyway, even though they were apparently outside the
+scope of the deposition notice.   Dozens of  footnotes, along with a 38-page declaration of
+Dutton himself, set out what he did to prepare for this second deposition.
+But this motion and the Court’s consideration of it doesn’t turn  on what the witness
+says he affirmatively considered – the resolution of this motion turns on whether the Plaintiff
+is right about what Dutton did not do.  The outcome here turns on whether Dutton, as BP’s
+designee, did the minimum necessary to pass muster under Rule 30(b)(6).
+Case 2:20-cv-00210-JCZ-MBN   Document 136   Filed 07/18/22   Page 10 of 25
+11
+
+I’ve determined that he did not do nearly enough.
+II. LAW AND ANALYSIS
+At the outset, it is important to recall that this is one of many hundreds of similar
+cases pending in this district.  One such case is Mickles v. BP Exploration & Production, Inc. ,
+No. 17-3566 (E.D. La.).  In that case, I ordered BP to produce, no later than April 18, 2022,
+some 11,600 emails of Dutton’s, which had been identified as responsive in that case by BP.
+(Id. at rec. doc. 74).
+In a March 22, 2022 hearing in that case about Dutton’s own emails, BP’s counsel
+represented to the Court that BP had already – by March 22, 2002 – identified 11,600 of
+Dutton’s emails responsive to Plaintiff’s discovery requests.  ( Id. at rec. doc. 67).  I ordered
+those documents to be produced no later than April 18, 2022.  (Id. at rec. doc. 74).
+This mention of the Mickles  production is relevant because core documents upon
+which Plaintiff relies in support of the present motion for sanctions were produced in the
+Mickles case, some before and at least one only after Dutton appeared as the 30(b)(6)
+deponent for a second time in this case.
+These documents are also important because (1) Dutton didn’t review the vast
+majority of them prior to the second deposition and (2) some of them  undermine certain
+aspects of Dutton’s testimony as BP , strongly (if not dispositively) establishing that he was
+not suited for designation as a 30(b)(6) deponent on the subject topics.
+In this vein, it is important to understand Dutton’s own testimony about what he did
+and did not do to prepare for the second Rule 30(b)(6) deposition.  That “preparation” is
+adequately summed up in the following passage from that deposition.  It is lengthy, but
+Case 2:20-cv-00210-JCZ-MBN   Document 136   Filed 07/18/22   Page 11 of 25
+12
+
+helpful in understanding the deficiencies in the witness’s preparation.  I have underlined the
+more important questions and answers for emphasis.
+
+EXAMINATION BY MR. FALCON:
+Q. So since you're the one, and – and Mr. Tremmel were ones
+that decided not to do the biomonitoring, and what
+investigation and what background do you have in order for you
+to make the determination that BP did not have to do
+biomonitoring?
+
+MR. SEILER:
+Objection.
+
+THE WITNESS:
+So it wasn't -- This decision was  just down to Fred and I. This
+was the industrial hygiene team, which included  folks from
+other groups as well as BP. The decision was never made to go
+out and do  biomonitoring because people felt that the
+conclusions wouldn't be helpful.
+
+EXAMINATION BY MR. FALCON:
+Q. People concluding doesn't help me, and it's not BP's position.
+Before you talk about anybody else -- Coast Guard, OSHA or
+anyone else, I want BP's position on, what did BP do itself, as the
+responsibility upon party for this spill, to as -- to make sure, to s
+-- to as -- assure itself that biomonitoring that had been
+recommended, that NIOSH  said they should do, what did BP
+actually do to investigate and study this question?
+
+MR. SEILER:
+Objection. He's answered that repeatedly.
+
+MR. FALCON:
+No, I have not gotten BP's answers yet. He's just telling me some
+other people are doing that.
+
+EXAMINATION BY MR. FALCON:
+Q. What did BP do?
+
+MR. SEILER:
+Objection. Object to the characterization of his prior responses.
+
+THE WITNESS:
+Case 2:20-cv-00210-JCZ-MBN   Document 136   Filed 07/18/22   Page 12 of 25
+13
+
+BP had regular phone calls. We hi [sic] experts in -- in industrial
+hygiene, certified industrial hygienists in other  words. We
+interacted with people from other  organizations, including
+OSHA, on monitoring in general. And the kind of monitoring we
+were doing, the kind of monitoring, the results we were having.
+We're sharing that with OSHA and Coast Guard and NIOSH and
+other folks. And this topic of, "You need to go  out and do
+biomonitoring never came up other than when NIOSH said they
+were thinking about doing it but never followed through.
+
+EXAMINATION BY MR. FALCON:
+Q.  S -- Still. So did B -- The -- Besides that, did BP do its own
+internal investigation with people that had expertise in
+biomonitoring to determine whether or not it needed to be
+done?
+
+A. We brought experts to the table and had --
+
+Q. The --
+
+A. -- discussions about -- Let's -- Let me  finish -- all forms of
+industrial hygiene monitoring. And we continued to add certain
+sampling -- procedures, and -- and at times  wou [sic]-- you
+know, stopped other procedures. But where we did all kinds of
+different industrial hygiene monitoring. It's a free form. So ...
+
+Q. Who did you -- Who did you bring to the table?
+
+A. Well, we had daily calls with OSHA, and  we had Coast Guard
+folks and -- Let me finish. You want to know who's at the table.
+I'm going to tell you.
+
+Q. Names.
+
+A. Coast Guard and OSHA sat at the same table. We had these
+calls. We had folks from each of the different incident command
+posts. All participating on the calls and talking about -- exactly
+about what kinds of monitoring need to be done.
+
+Q. Okay. So I still need who were the people? What persons from
+OSHA or Coast Guard were ac – So name the people that were on
+these calls that BP relied upon.
+
+A. And 12 years after the fact, I don't have a list of everyb ody
+that OSHA put out – out on the table. I remember Cindy Coe was
+leader of more the -- more or less of OSHA with regard to the
+Case 2:20-cv-00210-JCZ-MBN   Document 136   Filed 07/18/22   Page 13 of 25
+14
+
+response. But there were -- I -- There's just too many to re -- to
+remember, an -- And it's too much time to -- to -- has passe d
+since I -- we've had those discussions.
+So, I mean, we had daily discussions on scheduled phone calls,
+to talk about our monitoring needs and talk about the
+monitoring results as well.
+
+Q. What documents exist to memorialize B -- BP's decision to not
+do dermal or bioassay monitoring?
+
+MR. SEILER:
+Objection.
+
+THE WITNESS:
+I'm not aware of any documents that would memorialize that.
+That was  probably the -- That was the results of  ongoing
+discussions that we had. We didn't necessary -- We did not
+record every conversation that we had.
+
+EXAMINATION BY MR. FALCON:
+Q. Did you go and look for any documents that would
+memorialize BP's decision not to do the dermal sampling?
+
+MR. SEILER:
+Objection.
+
+THE WITNESS:
+I personally didn't go and – and look for that. But I know from
+my experience and having worked the response that we didn't
+do it.
+
+EXAMINATION BY MR. FALCON:
+Q. All right.
+
+A. And what I mean by that, we didn't do biomonitoring.
+
+Q. And you didn't do dermal sampling either?
+
+A. You've asked that question many times --
+
+Q. Right.
+
+A. -- and the answer is still the same, yes. We did not do dermal
+monitoring. We had a  different program in place to prevent
+exposure. We  basically tested the materials they would work
+with. We understood what the hazards were. The hazards were
+Case 2:20-cv-00210-JCZ-MBN   Document 136   Filed 07/18/22   Page 14 of 25
+15
+
+generally very mild with regard to weathered oil, and we pro --
+provided adequate personal protective equipment to -- to
+protect against any exposures that might occur.
+
+Q. And -- But you did not send E-mails or prepare a document or
+do anything to put into the record after this extensive discussion
+from NIOSH about biomonitoring?  You as the person
+responsible for determining whether BP should do it, did
+nothing to memorialize your decision not to do it; correct?
+
+MR. SEILER:
+Objection.
+
+THE WITNESS:
+I don't recall specifically. I know that we produced all of my E -
+mails. You have access to those. I have not had a chance to
+review all of them.
+
+EXAMINATION BY MR. FALCON:
+Q. How many of the 11,600 E -mails did you review before your
+deposition today?
+
+A. I didn't count. I just basically opened up files and -- and -- and
+somewhat randomly opened up E -mails throughout that
+document. But I don't know how many. I didn't count.
+
+Q. Ten?
+
+A. It was more than ten. I don't remember.
+
+Q. Less than a hundred?
+
+A. I don't know. I don't know.
+
+Q. Well, I -- I need to know. 'Cause you -- You have a duty to
+prepare for your deposition today, and the duty means you have
+to go and look at documents, you have to search for documents,
+and you have find people in BP that have answers if you don't
+have answers.
+So I need to know, what did you do to fulfill your duty?
+
+MR. SEILER:
+Objection. He's answered your questions many times.
+
+MR. FALCON:
+Fine.
+Case 2:20-cv-00210-JCZ-MBN   Document 136   Filed 07/18/22   Page 15 of 25
+16
+
+THE WITNESS:
+Well, I have answers, and my answ ers are based on my own
+personal experience, and I don't remin – remember si -- sitting
+here today writing an E -- E-mail about not doing biomonitoring.
+I know we made a decision not to do that. We didn't do it. I know
+that NIOSH talked about doing it, and they decided not to do it.
+
+EXAMINATION BY MR. FALCON:
+Q. Did you look at less than a hundred E-mails?
+
+A. I don't recall how many E-mails I looked at. Maybe it was less
+than a hundred, but I realized I couldn't get through 11,000 or
+so E-mails between then and now.
+
+Q. Did you ask for more time so that you could prepare yourself
+properly for today?
+
+A. I think I prepared myself more than adequately for today.
+
+Q. Did you talk to anybody at BP, any of these -- Let me show a
+organizational chart. Well, just talk about the ones that are on
+these E -mails. The BP personnel on the E -mails we've talked
+about so far today, have you discussed any of these issues with
+-- with any of those personnel from BP?
+
+A. I have not contacted anybody from BP. I didn' t feel I needed
+to. Based on my memory and recollection of working the
+response, I understand what was and wasn't done with regard
+to biomonitoring.
+(Rec. doc. 101 -11 183-
+92)(emphasis added).
+
+ To summarize this testimony, BP decided not to do biomonitoring because “ people
+felt that the conclusions wouldn't be helpful,” but Dutton could not name any of those people.
+BP “brought in” people from the Coast Guard, OSHA, NIOSH , and “other folks” to discuss
+biomonitoring, they had meetings and “daily discussions on scheduled phone calls,” but
+Dutton could not remember a single name of any of those people, save one.  Why?  Because
+there were too many names to remember and too much time has passed.  Despite there being
+Case 2:20-cv-00210-JCZ-MBN   Document 136   Filed 07/18/22   Page 16 of 25
+17
+
+too many people to remember 12 years after the fact, Dutton did not go back in preparation
+for this deposition to look for any documents or emails memorializing BP’s decision not to
+do dermal or biomonitoring, relying instead on his “experience and having worked the
+response.”  (Rec. doc. 101-11).
+ Indeed, Dutton failed even to review his own  emails on the subject, randomly
+selecting a fraction to review , despite the fact that BP’s counsel had segregated 11,600 of
+them as far back as March 2022.  He claimed he didn’t have enough time to review them
+before the deposition, but neither he nor his counsel requested more time.  And, finally,
+despite not reviewing more than a handful of his own emails, he did not attempt to reach out
+to or speak with a single other BP employee or former employee involved in the cleanup
+operations, including the BP employees emailing back and forth with NIOSH about the very
+topic of this deposition – biomonitoring and dermal testing.
+ This summary pretty much covers the waterfront in terms of what Dutton did not do
+to prepare for the s econd 30(b)(6) deposition.  Based on everything listed above, which
+notably comes from the witness’s own testimony, the Court easily finds that the witness was
+not adequately prepared for the deposition and that sanctions are warranted.  This is not
+quite the end of the story, however.
+ As noted above, Plaintiff also complains about the late production of two documents
+that his counsel says he should have had for use during the deposition.  One is an email train
+included in the record as Exhibit 9 to the mo tion for sanctions.  The email train had been
+previously produced, but with a section redacted.  (Rec. doc. 101 -10).  Days after the
+deposition, BP produced an unredacted copy.  ( Id.).  Plaintiff’s counsel complains that he
+Case 2:20-cv-00210-JCZ-MBN   Document 136   Filed 07/18/22   Page 17 of 25
+18
+
+should have had the unredacted language before the deposition with which to cross examine
+the company.
+ The email train begins with a July 16, 2010 email, in which Max Kiefer, NIOSH Director
+for its Western States Offices emails  Fred Tremmel of BP  advising of NIOSH’s
+“disengagement from overseeing the exposure database analysis.” (Rec. doc. 101-13).  There
+is no reason stated for NIOSH’s decision to end its involvement with the exposure database.
+However, Kiefer attaches to the email an exposure study proposal from the National
+Research Council’s Division on Earth and Life Studies,6 which is called the “NRC proposal”.
+ Kiefer advises Tremmel that the “NRC proposal was suggested to me as an option for
+you to pursue statistical analysis of BP exposure data.”  ( Id.).  Notably, the NRC prop osal
+states that “Study topics will include. . . . Biomonitoring , health surveillance, and sentinel
+illness reports. . . .”  (Id. at 3) (emphasis added).
+The next day, July 17, 2010, Tremmel forwards Kiefer’s email to various BP personnel
+and contractors with a “High” Importance designation.  (Id.).  Dutton is among the recipients.
+The entirety of Tremmel’s message to these individuals was redacted in the version
+originally produced to Plaintiff.  (Id. at 2).  The now unredacted version provided to counsel
+days after the second Dutton deposition states in relevant part, “What do we want to do with
+the NRC proposal?  Any other thoughts about what else we might do?” (Id.).
+This would appear to be BP asking itself what, if anything, it should do about a second
+scientific agency suggesting biomonitoring be undertaken.
+Notwithstanding that the very existence of this email undermines Dutton’s testimony
+that there are no documents memorializing BP’s decision- making around biomonitoring,
+
+6  The National Research Council is part of the National Academy of Sciences.  (Rec. doc. 101 -10 at n.5).
+Case 2:20-cv-00210-JCZ-MBN   Document 136   Filed 07/18/22   Page 18 of 25
+19
+
+because “we did not record every conversation that we had ,” (rec. doc. 101 -11 at 188), it
+certainly should have been produced to Plaintiff prior to the deposition so that counsel could
+question the company on the response to these two queries.
+The second email turns out to have been part of an 88,000-page production made by
+BP five weeks prior to the second Dutton deposition.  (Rec. docs. 115 at 19, 119 -1 at 10).
+Plaintiff’s counsel originally argued that it was produced late but corrected the record to
+indicate that they “missed” the document, apparently owing to the size of the production.
+(Rec. doc. 119-1 at 10).  While the timing of the production of the document is no longer an
+issue, its substance nonetheless sheds some light on the preparation issue.
+The document in question is a July 31, 2010 BP internal email thread with the subject
+“Pulling the IH Monitoring Plug .”7  (Rec. doc. 101 -12).  Dr. Dutton is copied on the entire
+thread.  ( Id.).  The monitoring  that BP is considering discontinuing  is its air monitoring
+program which , it is undisputed, was finding no worker exposure to airborne toxic
+chemicals.  (Id.).
+In this email, BP’s John Fink observes  to a group including Dutton, “ Although we are
+documenting zero exposures in most monitoring efforts, the monitoring itself adds value in
+the eyes of public perception, and zeros  add value in defending potential future litigation.”
+(Id.).
+Plaintiff’s counsel observes that, in the  deposition itself, Dutton testified that, at the
+same time this email was circulated, the industrial hygiene team – comprised of some or all
+of the recipients of this email – wasn’t concerning itself with litigation:  “I'm not aware of any
+litigation at that point in time.  These people were industrial hygienists. They were part of
+
+7  The Court believes “IH” stands for Industrial Hygiene.
+Case 2:20-cv-00210-JCZ-MBN   Document 136   Filed 07/18/22   Page 19 of 25
+20
+
+the industrial hygiene program, and they're pa -- involved in the collection of the data….”
+(Rec. doc. 101 -10 (citing rec. doc. 101 -11 at 91:2 -13)).  This document, at the very least,
+undermines that assessment.  The Court doubts Dutton would have provided such self -
+serving testimony if he had been aware – by reviewing his own emails – of this discussion
+about optics and litigation defense among his own industrial hygiene team.
+Rule 30(b)(6) streamlines the disc overy process.  It places the
+burden of identifying responsive witnesses for a corporation on
+the corporation.  Obviously, this presents a potential for abuse
+which is not extant where the party noticing the deposition
+specifies the deponent.  When a corporation or association
+designates a person to testify on its behalf, the corporation
+appears vicariously through that agent.  If that agent is not
+knowledgeable about relevant facts, and the principal has failed
+to designate an available, knowledgeable, and readily
+identifiable witness, then the appearance is, for all practical
+purposes, no appearance at all.
+
+Resolution Trust Corp. v. Southern Union Co., Inc. , 985 F.2d 196, 197 (5th Cir.
+1993).
+
+ The Court is not certain whether Dutton could  have been a pro per designee for the
+subject topics because his lack of preparation makes answering that question impossible.
+The Court is convinced, however, that his lack of preparation for deposition specifically
+ordered by the Court disqualifies him as a Rule 30(b)(6) witness on these topics going
+forward.
+ BP is now– and for years has been –in possession of documents that readily identify
+other witnesses qualified to testify as corporate deponents on these topics.  Perhaps th e
+appropriate person is Dr. Richard Heron, who, according to Plaintiff, was BP’s
+Health/Medical Lead for the BP spill response and BP’s top medical professional responsible
+for Oil Spill response worker-health and safety matters. (Rec. doc. 101-10).  Documents long
+in BP’s possession indicate that Dr. Heron was directly involved in communicating with
+Case 2:20-cv-00210-JCZ-MBN   Document 136   Filed 07/18/22   Page 20 of 25
+21
+
+NIOSH on its recommendations regarding biomonitoring, including a July 2, 2010, email from
+Margaret Kitt of NIOSH to Heron, which reads in part:
+Hi Richard:
+I just wanted to update you on NIOSH's plan to extend response
+worker exposure characterization and quantification by
+incorporating a feasibility study on biomonitoring as a part of
+the expanded HHE efforts BP has asked NIOSH to do.  In light of
+air sampling yielding undetectable levels of toxins, or levels far
+below established limits, we are concerned about making sure
+the dermal route of exposure is well-characterized.
+Also, as we heard from the IOM workshop last week, the topic of
+biomonitoring needs to be addressed .  We have a group within
+our NIOSH Division of Applied Research and Technology that
+have expertise in biomonitoring.  There is also another group at
+CDC/NCEH with expertise in this area.   Both groups have been
+working with Dr. Bruce Bernard to develop a scientifically
+sound protocol to use as a path forward. In fact, NIOSH would
+like to have the IOM review this protocol and provide input.  We
+certainly will share the protocol with you once the draft is
+completed.8
+(Rec. doc. 101 -
+14)(emphasis added).
+
+Or perhaps the proper designee is Dr. David Flower, listed on BP’s organizational chart as an
+occupational medicine doctor within BP,9 to whom Heron forwarded Kitt’s email, asking for
+comments.  (Id.).
+ Whether the proper designee is Heron and/or Flower, or even someone else, it is clear
+from these documents that they are more suitable designees on the topic of dermal and bio-
+monitoring than Dutton, particularly when Dutton failed to look for their emails or speak to
+them in preparing for his deposition.
+
+8  This email reinforces the Court’s conclusion that Dutton’s failure to even attempt to speak with Heron in
+advance of the second Rule 30(b)(6) deposition was inexcusable.
+9  See rec. doc. 135 at 5.
+Case 2:20-cv-00210-JCZ-MBN   Document 136   Filed 07/18/22   Page 21 of 25
+22
+
+ In similar circ umstances, the Fifth Circuit has held that when a corporate deponent
+such as BP is in possession of documents that clearly identify an individual as having
+personal knowledge of the subject of a deposition notice and fails to designate that person
+as the deponent, such a failure may be sanctionable.  Resolution Trust, 985 F.2d at 197.  And
+as to the deponent’s duty to prepare its designee, the Fifth Circuit has made clear  in
+subsequent decisions that
+the deponent “must make a conscientious good -faith endeavor
+to designate the persons having knowledge of the matters
+sought by [the party noticing the deposition] and to prepare
+those persons in order that they can answer fully, completely,
+unevasively, the questions posed... as to the relevant subject
+matters.” “[T]he duty to present and prepare a Rule 30(b)(6)
+designee goes beyond matters personally known to that
+designee or to matters in which that designee was personally
+involved.” The deponent must prepare the designee to the
+extent matters are reasonably available, whether from
+documents, past employees, or other sources.
+
+Brazos River Auth. v. GE Ionics, Inc. , 469 F.3d 416, 433 (5th Cir. 2006) (quoting Bank of New
+York v. Meridien BIAO Bank Tanzania Ltd. , 171 F.R.D. 135, 151 (S.D.N.Y. 1997) and United
+States v. Taylor, 166 F.R.D. 356, 361 (M.D.N.C. 1996)).   Indeed, this duty extends to
+preparation of issues that, “although not within the [designee's] personal knowledge, [are]
+within the corporate knowledge of the organization.”  Id.
+ When the corporate  designee is not knowledgeable about relevant facts, and the
+deponent has failed to designate an available, knowledgeable, and readily identifiable
+witness, then the appearance is, for all practical purposes, no appearance at all.   Resolution
+Trust, 985 F.2d at 197.  The Court may treat such a failure as a failure to appear for the
+deposition as to the topic(s) at issue, which is sanctionable under Rule 37 of the Federal
+Rules.  Omega Hosp., LLC v. Cmty. Ins. Co., 310 F.R.D. 319, 321 (E.D. La. 2015).
+Case 2:20-cv-00210-JCZ-MBN   Document 136   Filed 07/18/22   Page 22 of 25
+23
+
+ BP predictably argues that the well -established obligations set forth above are
+“tempered by a rule of reason, [in that] Rule 30(b)(6) does not require designees to have
+complete knowledge of all matters about which they are questioned.”  (Rec. doc. 115 at 6).  BP
+cites a plethora of cases in support of this non -controversial proposition.  (Id. at 7 n.6).  But the
+present situation in not one in which an overly aggressive deposition-taker complains that he or
+she can’t get an answer to one or two specific questions from an otherwise knowledgeable and
+prepared witness.  Rather, as detailed above, this witness was unable to knowledgably testify
+about the entire topic of dermal testing and biomonitoring because he relied almost entirely on
+his memory and undertook no meaningful efforts to further prepare himself for the d eposition
+this Court ordered to take place.
+ When Dutton appeared for the first deposition, he was allowed to testify about these
+testing regimes in his personal capacity to the extent he was “able” to do so, according to BP’s
+counsel.  In the time between that deposition and this Court’s order requiring a second
+deposition, Dutton did not adequately and meaningfully prepare himself as a corporate designee.
+His declaration lists all kinds of literature and litigation-related documents that he reviewed, but
+the Court views much of that as deflection.
+The outcome of this motion turns on what Dutton did not  do.  First, he failed to review
+even his own emails – emails that the Court had to order BP to produce to Plaintiff’s counsel.  The
+Court is troubled by the fact that, due to the timing of the production of Dutton’s emails in Mickles,
+Plaintiff’s counsel was made to attempt to quickly review 11,000 of those emails when Dutton
+himself couldn’t be troubled to do anymore than look at a “random” sampling of them.  Having
+failed to reacquaint himself with his own emails, he sought shelter in the safe harbor of “that was
+along time ago and I can’t possibly remember” trope.
+Case 2:20-cv-00210-JCZ-MBN   Document 136   Filed 07/18/22   Page 23 of 25
+24
+
+Second, he failed to even try to speak with individuals like Drs. Heron and Flower, despite
+the unavoidable fact that he and BP kn ew that he would be asked questions about their
+interactions with NIOSH.
+These failures lead the Co urt to conclude that sanctions are appropriate under Federal
+Rules 30, 37 and Fifth Circuit precedent interpreting those rules.
+Plaintiff prays for extraordinary relief – docket-wide sanctions that would impact BP’s
+defenses in hundreds of cases pending in  this district.  For what should be obvious reasons, I
+cannot impose (or even recommend) such sanctions whe n this motion was filed in this single
+case.
+Rather, after full consideration of the facts and events set forth above, along with the law
+and arguments of counsel, the Court has determined that the following sanctions are appropriate
+and will impose them herein.
+First, Plaintiff’s counsel is entitled  to recover reasonable costs and fees associated with
+the (partially) failed second 30(b)(6) deposition in which Dutton appeared unprepared to
+respond to testing questions.  Plaintiff’s counsel will submit to the Court documentation to
+support an award of reasonable fees and costs for the preparation and taking of that deposition.
+The Court will determine what percentage of those fees and costs are recoverable.
+Second, BP is ordered to present the appropriate witness or witnesses to sit for yet
+another 30(b)(6) deposition on Areas of Inquiry 15 and 16.  That witness will not be Dr. Dutton.
+Rather than suggest who that person or persons should be, the Court simply directs BP and its
+counsel to its earlier observations about the current and former BP emplo yees who actually
+interacted with NIOSH and other relevant agencies in determining BP’s course of action vis-à-vis
+testing.  Plaintiff’s counsel shall be entitled to recover  their reasonable fees and costs in taking
+that deposition, including travel expenses.
+Case 2:20-cv-00210-JCZ-MBN   Document 136   Filed 07/18/22   Page 24 of 25
+25
+
+To the extent  that Plaintiff believes further relief may  be appropriate once this last
+attempt at a Rule 30(b)(6) deposition is completed, he is free to bring a motion seeking  such
+relief.
+ New Orleans, Louisiana, this   day of     , 2022.
+
+            MICHAEL B. NORTH
+          UNITED STATES MAGISTRATE JUDGE
+
+18th
+July
+Case 2:20-cv-00210-JCZ-MBN   Document 136   Filed 07/18/22   Page 25 of 25

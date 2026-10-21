@@ -1,0 +1,802 @@
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+LOUISIANA CHILDREN’S MEDICAL CENTER CIVIL ACTION
+
+VERSUS No. 23-1305
+ c/w 23-1311
+ c/w 23-1890
+ REF: 23-1890
+
+ATTORNEY GENERAL OF SECTION I
+THE UNITED STATES ET AL.
+
+OR DER  & REASONS
+Pending before the Court are three motions. First is a motion 1 for summary
+judgment filed by petitioner, the Federal Trade Commission (the “FTC”) .
+Respondents, Louisiana Children’s Medical Center, d/b/a LCMC Health (“LCMC”)
+and HCA Healthcare, Inc. (“HCA”) (collectively, the “Hospitals”), and intervenor, the
+State of Louisiana (the “State”), oppose this motion.2 Second is a motion3 for summary
+judgment filed by the Hospitals. The FTC opposes this motion.4 Third is a motion5 for
+judgment on the pleadings or alternatively summary judgment filed by the State. The
+FTC opposes this motion as well.6
+
+1 R. Doc. No. 71.
+2 R. Doc. No. 78; R. Doc. No. 79.
+3 R. Doc. No. 75.
+4 R. Doc. No. 77.
+5 R. Doc. No. 74. The State seeks the same outcome as the Hospitals in this case ;
+accordingly, the Court addresses the State’s arguments and the FTC’s responses to
+those arguments only to the extent necessary to resolve the dispositive questions in
+this case.
+6 R. Doc. No. 76.
+Case 2:23-cv-01890-LMA-MBN   Document 58   Filed 09/27/23   Page 1 of 29
+2
+
+For the reasons that follow, the Court grants the Hospitals’ motion for
+summary judgment, denies the FTC’s motion for summary judgment, g rants the
+State’s motion for summary judgment, and  dismisses as moot the State’s motion  for
+judgment on the pleadings.
+I. BACKGROUND
+This case concerns LCMC’s acquisition of three hospitals from HCA pursuant
+to a Certificate of Public Advantage (“COPA”) issued by Louisiana’s Department of
+Justice. The parties do not dispute that the Hospitals did not comply with Section 7A
+of the Clayton Antitrust Act, enacted by the Hart -Scott-Rodino Antitrust
+Improvements Act  (“HSR Act”), which requires parties to transactions that meet
+certain statutory thresholds to notify federal antitrust authorities of their intended
+transaction and observe a 30-day waiting period.7 Rather, the parties disagree about
+whether the Supreme Court’s “state action doctrine” exempts the acquisition from the
+federal antitrust laws, including Section 7A , given the issuance of the COPA.
+Whether Section 7A reaches private parties’ conduct qualifying  as “state action”
+pursuant to that doctrine is a question of first impression.
+The basic facts of this case are not in dispute. LCMC is a non-profit corporation
+and health system based in New Orleans, Louisiana.8 HCA is a for-profit corporation
+that operates 182 hospitals nationwide and previously operated three hospitals in
+Louisiana through a joint venture with Tulane University.9 On October 10, 2022,
+
+7 See R. Doc. No. 71-2 (FTC’s statement of uncontested material facts), ¶¶ 8–9.
+8 Id. ¶ 1; R. Doc. No. 75-2 (Hospitals’ statement of uncontested material facts), ¶ 15.
+9 R. Doc. No. 71-2, ¶ 3–4; R. Doc. No. 75-2, ¶ 16.
+Case 2:23-cv-01890-LMA-MBN   Document 58   Filed 09/27/23   Page 2 of 29
+3
+
+LCMC and HCA applied 10 for a COPA pursuant to a Louisiana statut e known as a
+“COPA statute.” See La. Stat. Ann. § 40:2254.1 et seq. As the COPA application 11
+explained, LCMC sought to acquire from HCA three hospitals in the greater New
+Orleans area: Tulane Medical Center, Tulane Lakeside, and Lakeview Regional
+Medical Center.12
+Louisiana’s COPA statute provides Louisiana’s Department of Justice ( the
+“LADOJ”) with “direct supervision and control over the implementation of
+cooperative agreements, mergers, joint ventures, and consolidations among health
+care facilities for which certificates of public advantage are granted.” La. Stat. Ann.
+§ 40:2254.1. The statute states that “[i]t is the intent of the legislature that
+supervision and control over [such transactions] . . . have the effect of granting the
+parties to [such transactions] state action immunity for actions that might otherwise
+be considered to be in violation of state antitrust laws, federal antitrust laws, or both.”
+Id. The Hospitals supplemented their application multiple times before the LADOJ
+deemed it complete on November 18, 2022.13
+Once the application was complete, Louisia na’s COPA statute required the
+LADOJ to provide notice to the public, request public comment, hold a public hearing,
+and decide the application within a maximum of 180 days. Id. §§ 40:2254.4(B–C).
+
+10 R. Doc. No. 74-2, ¶ 10 (State’s statement of uncontested material facts); R. Doc. No.
+75-2, ¶ 13.
+11 R. Doc. No. 75-4.
+12 R. Doc. No. 75-2, ¶ 17.
+13 R. Doc. No. 74-2, ¶ 16; R. Doc. No. 75-2, ¶ 21.
+Case 2:23-cv-01890-LMA-MBN   Document 58   Filed 09/27/23   Page 3 of 29
+4
+
+After “extensive[] review[],”14 the LADOJ held a notice and comment period, received
+and reviewed numerous comments from the public, and held a public hearing on
+December 8, 2022.15
+On December 28, 2022, the LADOJ approved the acquisition and granted a
+COPA.16 The COPA’s “Terms and Conditions” provide for ongoing supervision.17 The
+COPA states that the LADOJ may “revoke the COPA” if it is “not satisfied with any
+submitted corrective action plan,” if LCMC “fails to comply with the [COPA’s] terms
+and conditions,” “fails to comply with any Corrective Action Plan, or if  the [LADOJ]
+otherwise determines that the transaction is not resulting in lower health care costs
+or greater access to or quality of health care[.]” 18 Following this authorization, the
+Hospitals closed the transaction on January 1, 2023, and publicly announced it on
+January 3, 2023.19
+As stated, p ursuant to Section 7A of the Clayton Antitrust Act , parties to
+transactions over certain thresholds must  file a pre -merger notification and report
+form (an “HSR Filing”) and wait 30 days before consummating their transaction.  15
+U.S.C. §§ 18a(a), 18(b)(1), 18(d)(1). In 2022 and early 2023, firms engaging in mergers
+or acquisitions had to file premerger notification reports of transactions between $101
+million and $403.9 million, provided that the entities involved in the transactions met
+
+14 R. Doc. No. 74-2, ¶ 17.
+15 Id. ¶ 19; R. Doc. No. 75-2, ¶ 24–26.
+16 R. Doc. No. 74-2, ¶ 20; R. Doc. No. 75-2, ¶ 29.
+17 R. Doc. No. 74-2, ¶¶ 21–25; R. Doc. No. 75-2, ¶¶ 30–34.
+18 R. Doc. No. 75-17, at 3.
+19 R. Doc. No. 71-2, ¶¶ 5–6; R. Doc. No. 74-2, ¶ 26; R. Doc. No. 75-2, ¶ 35.
+Case 2:23-cv-01890-LMA-MBN   Document 58   Filed 09/27/23   Page 4 of 29
+5
+
+the “size of person” test. 20 In January 2023, these thresholds were $20.2 million for
+the smaller entity and $202 million for the larger entity based on total assets or net
+sales.21 Parties who consummate mergers without observing the waiting period are
+currently subject to daily penalties exceeding $50,000.22
+On April 19, 2023, LCMC and HCA filed23 two separate lawsuits in the Eastern
+District of Louisiana  based on Louisi ana’s COPA statute. E ach action sought a
+declaratory judgment that the ir transaction was  not subject to Section 7A’s
+requirements and therefore not subject to penalties for consummating the acquisition
+without complying with Section 7A. The State of Louisiana, by and through its
+Attorney General, moved to intervene in both cases, and this Court  granted those
+motions on May 1, 2023.24 On May 9, 2023, this Court consolidated the Hospitals’ two
+lawsuits.25
+On April 20, 2023, the FTC filed a lawsuit in the District Court for the District
+of Columbia seeking an order enjoining the hospitals from further consummating the
+acquisition “until an appropriate time after LCMC has substantially complied with
+the premerger notification requirements set forth in Section 7A of the Clayton Act.”26
+The FTC sought this relief pursuant to Section 7A(g)(2) of the Clayton Act and Section
+
+20 R. Doc. No. 71-2, ¶ 7.
+21 Id.
+22 R. Doc. No. 75-2, ¶ 44.
+23 Louisiana Children’s Medical Center v. Attorney General of the United States et al.,
+E.D. La. Case No. 23 -1305; HCA Healthcare Inc. v. Attorney General of the United
+States et al., E.D. La. Case No. 23-1311.
+24 R. Doc. No. 17; E.D. La. Case No. 23-1311, R. Doc. No. 21.
+25 R. Doc. No. 28.
+26 R. Doc. No. 59, at 1.
+Case 2:23-cv-01890-LMA-MBN   Document 58   Filed 09/27/23   Page 5 of 29
+6
+
+13(b) of the Federal Trade Commission Act. 27 The Hospitals informed the D.C.
+District Court that they opposed the FTC’s motion for injunctive relief and planned
+to move to transfer the case to the Eastern District of Louisiana.28
+On April 21, 2023, i n light of a stipulation between the parties, the D.C.
+District Court ordered LCMC to take certain steps to preserve the status quo,
+including: (1) not closing or otherwise undermining the viability, competitiveness,
+and marketability of the three Tulane hospitals; (2) maintaining all clinical service
+lines available; (3) not selling or transferring or taking any action to encumber or
+otherwise impair the assets used by the Tulane hospitals and preventing the
+destruction, wasting , or deterioration of the Tu lane hospitals and not taking any
+action that might create a material change in the operations of the Tulane hospitals;
+(4) using best efforts to keep the Tulane hospitals staffed with sufficient employees
+to maintain the viability and competitiveness of t he Tulane hospitals; and (5) not
+renegotiating, terminating, or causing termination of any contract between any
+health insurance carrier and the Tulane hospitals.29 The Order provided that it would
+“expire and cease to bind any party upon the earlier of (1) an order granting the
+forthcoming motion to transfer this action to the United States District Court for the
+Eastern District of Louisiana; or (2) an order on plaintiff’s request for a preliminary
+injunction[.]”30
+
+27 Id.
+28 D.D.C. Case No. 23-1103, R. Doc. No. 31, at 6.
+29 D.D.C. Case No. 23-1103, R. Doc. No. 12, at 1–2.
+30 Id. at 3.
+Case 2:23-cv-01890-LMA-MBN   Document 58   Filed 09/27/23   Page 6 of 29
+7
+
+On May 23, 2023, the D.C. District Court  granted the H ospitals’ motion and
+transferred this case to the Eastern District of Louisiana. 31 In so doing, Judge Amy
+Berman Jackson reasoned that “[g]iven  the posture of the case, the state action
+question must be resolved first.” 32 Judge Jackson’s explained that “[t]he
+determination of the effect of the COPA on subsequent federal action will involve the
+interpretation and application of [Louisiana] state law[,]” so this Court’s “familiarity
+with that law point[ed] toward transfer.” 33 The Hospitals subsequently moved  to
+consolidate the District of Columbia  case with the Eastern District of Louisiana
+case,34 and this Court granted that motion without opposition on June 22, 2023.35
+On June 20, 2023, the FTC moved to dismiss the Hospitals’ lawsuits seeking a
+declaratory judgment for lack of subject matter jurisdiction, or, in the alternative, to
+hold in abeyance all proceedings.36 Pursuant to the discussion at a status conference
+on July 6, 2023, this Court stayed and administratively closed the cases seeking a
+declaratory judgment, granted the State’s motion to intervene in the FTC’s lawsuit,
+and set a briefing schedule for any motions for summary judgment and/or judgment
+on the pleadings in the FTC’s lawsuit. 37 The parties subsequently filed the above-
+mentioned motions.
+
+31 E.D. La Case No. 23-1890, R. Doc. No. 31 (order transferring case).
+32 Id. at 22.
+33 Id. at 22–23.
+34 E.D. La. Case No. 23-1890, R. Doc. No. 43.
+35 R. Doc. No. 58.
+36 R. Doc. No. 55.
+37 R. Doc. No. 67.
+Case 2:23-cv-01890-LMA-MBN   Document 58   Filed 09/27/23   Page 7 of 29
+8
+
+II. STANDARD OF LAW38
+Summary judgment is proper when, after reviewing the pleadings, the
+discovery and disclosure materials on file, and any affidavits, a court determines that
+there is no genuine dispute of material fact and the movant is entitled to judgment
+as a matter of law. Fed. R. Civ. P. 56(a). “[A] party seeking summary judgment always
+bears the initial responsibility of informing the district court of the basis for its
+motion, and identifying those portions of [the record] which it believes demonstrate
+the absence of a genuine issue of material fact.” Celotex Corp. v. Catrett, 477 U.S. 317,
+323 (1986). The party seeking summary judgment need not produce evidence
+negating the existence of a material fact; it need only point out the absence of evidence
+supporting the other party’s case. Id.; see also Fontenot v. Upjohn Co., 780 F.2d 1190,
+1195–96 (5th Cir. 1986) (“There is no sound reason why conclusory allegations should
+suffice to require a trial when there is no evidence to support them even if the movant
+lacks contrary evidence.”).
+ Once the party seeking summary judgment carries tha t burden, the
+nonmoving party must come forward with specific facts showing that there is a
+genuine dispute of material fact for trial. See Matsushita Elec. Indus. v. Zenith Radio
+Corp., 475 U.S. 574, 587 (1986). The showing of a genuine issue is not satis fied by
+creating “‘some metaphysical doubt as to the material facts,’ by ‘conclusory
+
+38 Because the Court decides the case based on the motions for summary judgment,
+it need not consider the State’s motion for judgment on the pleadings —which it
+dismisses as moot—and therefore does not lay out the legal standard for judgment on
+the pleadings pursuant to Federal Rule of Civil Procedure 12(c).
+Case 2:23-cv-01890-LMA-MBN   Document 58   Filed 09/27/23   Page 8 of 29
+9
+
+allegations,’ by ‘unsubstantiated assertions,’ or by only a ‘scintilla’ of evidence.” Little
+v. Liquid Air Corp., 37 F.3d 1069, 1075 (5th Cir. 1994) (citations omitted). R ather, a
+genuine issue of material fact exists when the “evidence is such that a reasonable
+jury could return a verdict for the nonmoving party.” Anderson v. Liberty Lobby, Inc.,
+477 U.S. 242, 248 (1986).  If the nonmovant fails to meet their burden of show ing a
+genuine issue for trial that could support a judgment in favor of the nonmovant,
+summary judgment must be granted. See Little, 37 F.3d at 1075–76.
+“Although the substance or content of the evidence submitted to support or
+dispute a fact on summary judgment must be admissible . . . the material may be
+presented in a form that would not, in itself, be admissible at trial.” Lee v. Offshore
+Logistical & Transp., L.L.C., 859 F.3d 353, 355 (5th Cir. 2017) (citations omitted).
+The party responding to the motion for summary judgment may not rest upon the
+pleadings but must identify specific facts that establish a genuine issue. See
+Anderson, 477 U.S. at 248. The nonmoving party’s evidence, however, “is to be
+believed, and all justifiable inferences are to be drawn in [the nonmoving party’s]
+favor.” Id. at 255.
+III. ANALYSIS
+The parties disagree about  the starting point for the Court’s  analysis.
+According to the Ho spitals, the Court should begin its analysis by determining
+whether the Hospitals’ transaction is  exempt from Section 7A’s requirements
+pursuant to the state action doctrine .39 The FTC responds  that this “puts the cart
+
+39 R. Doc. No. 75-1, at 7.
+Case 2:23-cv-01890-LMA-MBN   Document 58   Filed 09/27/23   Page 9 of 29
+10
+
+before the horse.”40 In the FTC’s view, the state action question “is not relevant to the
+question of whether the Hospitals were obligated to file under the HSR Act.” 41
+Instead, the FTC contends that the Court should begin its analysis by interpreting
+the text of Section 7A.42
+As mentioned, t his case was transferred to this Court from the D.C. District
+Court in part  because Judge Amy Berman Jackson found that “the state action
+question[,]” which requires analysis of Louisiana law, “must be resolved first .”43 As
+Judge Jackson pointed out, if the Court determines that the COPA does not exempt
+the Hospitals from Section 7A, the FTC would be entitled to equitable relief given the
+violation of the statute.44 But if the Court determines that the COPA does exempt the
+transaction from the federal antitrust laws, including Section 7A , then HSR review
+“would arguably be an empty exercise[.]”45 Indeed, if the transaction is exempt from
+Section 7, then subjecting it to Section 7A’s requirements at this stage simply to allow
+the FTC to deter mine whether it is in fact exempt would be pointless. See Surgical
+Care Ctr. of Hammond, L.C. v. Hosp. Serv. Dist. No. 1 of Tangipahoa Par. , 171 F.3d
+231, 234 (5th Cir. 1999) (citation omitted)  (noting that state action questions “can
+often be resolved at an early stage of the litigation”). And if the transaction is exempt
+from Section 7A itself, then the Hospitals could not have violated Section 7A.
+
+40 R. Doc. No. 77, at 17.
+41 Id.
+42 See generally R. Doc. No. 71.
+43 E.D. La. Case No. 23-1890, R. Doc. No. 31, at 22 (order transferring case).
+44 Id.
+45 Id.
+Case 2:23-cv-01890-LMA-MBN   Document 58   Filed 09/27/23   Page 10 of 29
+11
+
+Given the posture of this case, which was filed months after the Hospitals
+completed their transaction and in which the FTC seeks equitable relief based on the
+Hospitals’ failure to comply with Section 7A, the Court agrees with the Hospitals and
+the D.C. District Court  that it must first determine  whether the COPA issued
+pursuant to Louisiana’s COPA statute exempts the transaction from federal antitrust
+enforcement. Because the Court finds that it does, the Court must also determine
+whether—as parties to a transaction exempt from the federal antitrust laws pursuant
+to the state action doctrine—the Hospitals were bound by the requirements of Section
+7A. They were not.
+a. The State Action Doctrine
+Pursuant to the state action doctrine, the Supreme Court has consistently
+presumed that Congress does “not intend to compromise the States’ ability to regulate
+their domestic commerce” absent a clear statement to the contrary. S. Motor Carriers
+Rate Conf., Inc. v. United States, 471 U.S. 48, 56 (1985) . The doctrine, which is
+grounded in “principles of federalism and state sovereignty,” provides that federal
+antitrust laws do “not apply to anticompetitive restraints imposed by the States as
+an act of government.” City of Columbia v. Omni Outdoor Advert., 499 U.S. 365, 370
+(1991) (quotations omitted). It recognizes that “federal antitrust laws are subject to
+supersession by state regulatory programs.” F.T.C. v. Ticor Title Ins. Co., 504 U.S.
+621, 632 (1992).46
+
+46 The FTC argues that the state action doctrine “is disfavored.” R. Doc. No. 71 -1, at
+7 (citing FTC. v. Phoebe Putney Health Sys., Inc. , 568 U.S. 216, 225 (2013) (quoting
+Ticor, 504 U.S. at 636)).  In Ticor, however, the Supreme Court noted that “state-
+Case 2:23-cv-01890-LMA-MBN   Document 58   Filed 09/27/23   Page 11 of 29
+12
+
+The state  action doctrine stems from Parker v. Brown , a Supreme Court
+decision that interpreted Sections 1 and 2 of the Sherman Antitrust Act of 1890. 317
+U.S. 341 (1943). Section 1 of the Sherman Act provides: “Every contract, combination
+in the form of trust or otherwise, or conspiracy, in restraint of trade or commerce
+among the several States,  or with foreign nations, is declared to be illegal. Every
+person who shall make any contract or engage in any combination or conspiracy
+hereby declared to be illegal shall be deemed guilty of a felony . . .” 15 U.S.C. § 1.
+Section 2 provides: “Every person who shall monopolize, or attempt to monopolize, or
+combine or conspire with any other person or persons, to monopolize any part of the
+trade or commerce among the several States, or with foreign nations, shall be deemed
+guilt of a felony . . .” Id. § 2.
+Confronted with the question of whether a California program designed to
+restrict competition among raisin growers violated the Sherman Act, the Supreme
+Court held that “nothing in the language of the Sherman Act or in its history . . .
+suggest[ed] that i ts purpose was to restrain a state or its officers or agents from
+activities directed by its legislature.” Parker, 317 U.S. at 350 –51. Although the
+Sherman Act by its terms applied to “[e]very person,” the Supreme Court found that
+the State of California d id not qualify as a “person”  absent a clear statement of
+
+action immunity is disfavored” to avoid instances where that doctrine “will impede
+[states’] freedom of action, not advance it.” 504 U.S. at 635– 36. That rationale does
+not apply to this case, where the state statute in question expresses “the intent of the
+legislature . . . that this regulation have the effect of granting [certain parties] state
+action immunity for actions that might otherwise be considered in violation of state
+antitrust laws, federal antitrust laws, or both[,]” as discussed more fully in the next
+section. La. Stat. Ann. § 40:2254.1.
+Case 2:23-cv-01890-LMA-MBN   Document 58   Filed 09/27/23   Page 12 of 29
+13
+
+Congress’s intent to reach states . See id. California was therefore exempt from the
+Act. Id.
+As the Supreme Court has explained, “immunity from the federal antitrust
+laws may extend to nonstate actor s carrying out the State’s regulatory program.”
+Phoebe Putney , 568 U.S. at  224–25. The state action doctrine applies to the
+anticompetitive acts of private parties only where “the challenged restraint” is
+“clearly articulated and affirmatively expressed as state policy” and where that policy
+is “actively supervised by the State.” California Retail Liquor Dealers Ass’n v. Midcal
+Aluminum, Inc., 445 U.S. 97, 105 (1980) (internal quotation marks omitted).
+States and those carrying out a state’s regulatory program are also considered
+exempt from Section 7 of the Clayton Act, which provides that “[n]o person .  . . shall
+acquire . . . stock or other share capital” where “the effect of such acquisition may be
+substantially to lessen competition, or to tend to create a monopoly.” 15 U.S.C.  § 18;
+see, e.g. , Phoebe Putney , 568 U.S. at 222, 227–29 (determining that state -action
+immunity did not exempt the defendant from liability under the antitrust laws,
+including Section 7, because the state’s authorization of certain acquisitions did not
+meet Midcal’s clear- articulation test); Commonwealth v. Susquehanna Area Reg’l
+Airport Auth., 423 F. Supp. 2d 472, 472 (M.D. Pa. 2006) (granting the defendant’s
+motion to dismiss a complaint alleging antitrust violations under Section 7 of the
+Clayton Act and Section 2  of the Sherman Act “[b]ased upon clear application of
+Parker immunity”); Hunnicutt v. Tafoya-Lucero, No. 21-867, 2022 WL 832566, at *4
+(D.N.M. Mar. 21, 2022) (explaining that “[t]he state action exemption articulated in
+Case 2:23-cv-01890-LMA-MBN   Document 58   Filed 09/27/23   Page 13 of 29
+14
+
+Parker has been expanded to apply to all of the federal antitrust laws, including the
+Clayton Act”).
+In the FTC’s view, the Hospitals “ overread” the Supreme Court’s  decisions
+regarding the state action doctrine. 47 The FTC conceives of the state action doctrine
+as a defense which does not confer “immunity” on private actors.48 For support, the
+FTC points to Acoustic Sys., Inc. v. Wenger Corp., 207 F.3d 287 (5th Cir. 2000). That
+case is not entirely on point . There, the Fifth Circuit rejected a private party’s
+argument that he was immune from the lawsuit itself pursuant to the state action
+doctrine. Acoustic Sys. , 207 F.3d at 291– 92 (noting that the private party sought
+“immunity from antitrust suit” as well as immunity from liability (emphasis added)).
+The Hospitals have not asserted that they are immune from an  antitrust lawsuit or
+that they can assert immunity akin to Eleventh Amendment immunity . They have
+merely argued that, since their transaction is “exempt” from the federal antitrust
+laws pursuant to the state action doctrine, they were not required to comply with
+Section 7A.
+ Ultimately, the Court finds that the state action doctrine is neither an
+immunity from litigation, nor an ordinary defense. Rather, as the State argues,49 the
+doctrine reflects “a recognition of the limited reach of the Sherman Act” and other
+federal antitrust laws. E.g., Acoustic Sys., 207 F.3d at 292 n.3 (citation omitted); La.
+Real Est . Appraisers Bd. v . FTC, 976 F.3d 597, 602 n.5 (5th Cir. 2020) (citation
+
+47 R. Doc. No. 88, at 7.
+48 R. Doc. No. 71-1, at 15–19.
+49 R. Doc. No. 74-1, at 21.
+Case 2:23-cv-01890-LMA-MBN   Document 58   Filed 09/27/23   Page 14 of 29
+15
+
+omitted). Where it applies, that doctrine places certain  parties outside the reach of
+the federal antitrust laws; in other words, it exempts them from those laws.
+b. The Acquisition Pursuant to Louisiana’s COPA Statute Is
+“Exempt” from “the Federal Antitrust Laws”
+Despite the D.C. District Court’s framing of the issue, the FTC chose not to
+brief the question of whether the Hospitals’ transaction pursuant to Louisiana’s
+COPA statute is in fact exempt from the federal antitrust laws. Rather, based on its
+view that Section 7A is not among “the federal antitrust laws” from which private
+parties acting pursuant to the state action doctrine are exempt, the FTC argues that
+this question is “premature .”50 According to the  FTC, the state action  question is
+“fact-intensive” and cannot be decide d on the “ redacted” record before the Court
+without the type of unredacted materials typically included in HSR Filings.51
+However, as the Fifth Circuit has previously found, state action questions “can
+often be resolved at an early stage of the litigation” because “[s]tate authorization is
+generally interpreted by an objective test that looks at the language of the statute[.]”
+Surgical Care Ctr. of Hammond, 171 F.3d at  234 (citation omitted).  And w hile the
+question of active supervision will inherently require a court to look at facts, the FTC
+has not adequately explained why it believes the Court cannot evaluate active
+supervision on the record before it. As discussed below, the record provides ample
+evidence of active supervision.  Moreover, the relief the FTC seeks  would be futile if
+the transaction were exempt from federal antitrust laws in the first place. It therefore
+
+50 R. Doc. No. 77, at 19.
+51 Id. at 19–22.
+Case 2:23-cv-01890-LMA-MBN   Document 58   Filed 09/27/23   Page 15 of 29
+16
+
+makes sense to determine at the outset whether the Hospitals were exempt from the
+statute pursuant to the state action doctrine.
+The D.C. District Court advised the parties that the state action question
+“must be resolved first.”52 The FTC chose not to listen. The FTC cannot now rely on
+its own litigation strategy —specifically, its choice not  to brief this issue fully  or
+pursue discovery—to prevent the Court from reaching the state action question.
+i. Louisiana’s COPA Statute Satisfies MidCal’s Test
+For the state action doctrine  to apply to private parties’ transactions , the
+challenged restraint must be (1) “clearly articulated and affirmatively expressed as
+state policy[,]” and (2) “actively supervised” by the state. Midcal, 445 U.S. at 105.
+A. C learly Articulated State Policy
+To satisfy the clear articulation requirement, the State must have “clearly
+articulated and affirmatively expressed” the anticompetitive conduct “as state
+policy.” Phoebe Putney , 568 U.S. at 225. The State also “must have foreseen and
+implicitly endorsed the anticompetitive effects.” N.C. State Bd. Of Dental Exam’rs v.
+FTC, 574 U.S. 494, 507 (2015).
+Louisiana’s COPA statute easily satisfies this requirement. The statute states:
+“[i]t is the intent of the legislature that supervision and control over the
+implementation of these agreements, mergers, joint ventures, and consolidations
+substitute state regulation of facilities for competition between facilities and that this
+regulation have the effect of granting the parties to the agreements, mergers, joint
+
+52 E.D. La Case No. 23-1890, R. Doc. No. 31, at 22 (order transferring case).
+Case 2:23-cv-01890-LMA-MBN   Document 58   Filed 09/27/23   Page 16 of 29
+17
+
+ventures, or consolidations state action immunity for actions that might otherwise be
+considered to be in violation of state antitrust laws, federal antitrust laws, or both.”
+La. Stat. Ann. § 40:2254.1. This language plainly indicates the state’s policy in favor
+of COPA -approved mergers regardless of their anticompetitive effects. See, e.g. ,
+Jackson, Tenn. Hosp. Co., LLC v. W. Tenn. Healthcare, Inc. , 414 F.3d 608, 612 (6th
+Cir. 2005) (finding that clear articulation was satisfied where the statute in question
+provided that hospital authorities could exercise certain powers “ regardless of the
+competitive consequences thereof”) (emphasis in original) ; DFW Metro Line Servs. v.
+Sw. Bell Tel. Corp., 988 F.2d 601, 605 (5th Cir. 1993) (affirming previous holding that
+a Texas statute specifying that “regulation shall operate as a substitute for . . .
+competition” satisfied the clear articulation prong).
+B. A ctive State Supervision
+In order t o evaluate active supervision, the Court must  first identify the
+“particular anticompetitive acts” requiring supervision. Dental Exam’rs, 574 U.S. at
+507, 515. As the Hospitals note,53 the challenged conduct in this case is the closing of
+LCMC’s acquisition of three hospitals from HCA on January 1, 2023. Specifically, the
+FTC argues that the Hospitals violated Section 7A by failing to notify the FTC and
+abide by the statute’s waiting period before closing the transaction.54
+To satisfy Midcal ’s active supervision requirement, the state must exercise
+ultimate control over the challenged anticompetitive conduct. Patrick v. Burget , 486
+
+53 R. Doc. No. 75-1, at 11.
+54 R. Doc. No. 71, at 1.
+Case 2:23-cv-01890-LMA-MBN   Document 58   Filed 09/27/23   Page 17 of 29
+18
+
+U.S. 94, 101 (1988). “The mere presence of some state involvement or monitoring does
+not suffice.” Id. “The active supervision prong of the Midcal  test requires that state
+officials have and exercise power to review particular anticompetitive acts of private
+parties and disapprove those that fail to accord with state policy.” Id.
+Louisiana’s COPA statute makes clear that its purpose is to “provide the state,
+through the department, with direct supervision and control over the implementation
+of cooperative agreements, mergers, joint ventures, and consolidations among health
+care facilities for which certificates of public advantage are granted. ” La. Stat. Ann.
+§ 40:2254.1. Pursuant to this statute, the LADOJ had the “power to veto or modify”
+the acquisition, as required for the state action doctrine to apply. Dental Exam’rs, 574
+U.S. at 515. In fact, “[t]he [LADOJ] may not issue a certificate unless the [LADOJ]
+finds that the agreement is likely to result in lower health care costs or is likely to
+result in improved access to health care or higher quality health care without any
+undue increase in health care costs.” La. Stat. Ann. § 40:2254.4(B).
+The LADOJ also “review[ed] the substance” of the a cquisition, as required for
+application of the state action doctrine. Dental Exam’rs, 574 U.S. at 515. The
+Hospitals’ application extensively detailed the substance of the acquisition and its
+likely effects on health care and competition .55 According to the affidavit of  the
+
+55 R. Doc. No. 75- 2, ¶ 18. In its response to the Hospitals’ Statement of Undisputed
+Material Facts, the FTC stated that Paragraph 18 was “undisputed as to the general
+claims in the Hospitals’ COPA application (to the extent they are not redacted).” R.
+Doc. No. 77-1, ¶ 18. As discussed more fully on the following page, t he Court is not
+persuaded that the redactions can serve as a basis for denying the Hospitals’ motion
+for summary judgment.
+Case 2:23-cv-01890-LMA-MBN   Document 58   Filed 09/27/23   Page 18 of 29
+19
+
+Director of the Civil Division for the Louisiana Department of Justice,  the LADOJ
+considered the application and, “after extensive analysis by LADOJ attorneys and
+staff regarding the transaction, the facilities, and the likely effects on health care and
+competition in the state, which also included input from expert consultants who
+reviewed the COPA application, the LADOJ determined that the application
+materials satisfied the statutory requirements and that a COPA should be issued.”56
+Again, the FTC argues that the Court should not perform this analysis  at all
+because the active supervision test in particular is “fact-specific” and the
+determination cannot be made until the Hospitals m ake an HSR Filing.57 However,
+as discussed, if the Hospitals are exempt from the antitrust laws as they argue, there
+is no reason for them to make an HSR Filing at all. Accordingly, the Court must make
+this determination on the record before it.
+The FTC makes much of the fact that the COPA application in the record is
+redacted, but —as the Hospitals note —the FTC has not sought to obtain an
+unredacted copy of the COPA application, nor has it explained how the redacted
+information, which the Hospitals characterize as “largely concern[ing] the Hospitals’
+finances and details of planned investments [,]” would bear on the analysis of active
+supervision.58 Further, the FTC states that “[t]he granting of a COPA does not, in
+itself, show active supervision[,]” 59 but does not engage with the Hospitals’ other
+
+56 R. Doc. No. 75-14, ¶ 28; R. Doc. No. 75-2, ¶¶ 28–29.
+57 R. Doc. No. 77, at 19–22.
+58 R. Doc. No. 89, at 3.
+59 R. Doc. No. 77, at 20.
+Case 2:23-cv-01890-LMA-MBN   Document 58   Filed 09/27/23   Page 19 of 29
+20
+
+evidence, including the declaration of Angelique Freel, Director of the Civil Division
+for the LADOJ , detailing the State’s supervision of the transaction to date and the
+“terms and conditions empower[ing] the LADOJ  to ‘actively supervise’ both the
+transaction itself and the new health system on an ongoing basis.” 60 This is not
+enough to raise a genuine dispute of material fact pursuant to Rule 56.
+c. The Parties to This Transaction Exempt from the Federal
+Antitrust Laws Need Not Comply with Section 7A
+
+i. The Text of the Statute
+As stated, Section 7A, enacted as part of the HSR Act, provides that, “[e]xcept
+as exempted pursuant to subsection (c), no person shall acquire, directly or indirectly,
+any voting securities or assets of any other person, unless both persons . . . file
+notification [with the FTC and the United States Department of Justice] . . . and [a
+30-day] waiting period . . . has expired.” 15 U.S.C. § 18a et seq.  The question,
+therefore, is whether private parties to a  transaction consummated pursuant to a
+COPA issued by the LADOJ in accordance with Louisiana’s COPA statute qualify as
+“persons” within the meaning of this statute.
+The FTC contends that the HSR Act is clear on this question, emphasizing that
+Section 7A enumerates certain transactions that are exempted from its requirements
+and states: “Except as exempted pursuant to subsection (c) , no person shall [acquire
+assets without complying with notification and waiting period requirements].” 61
+Based on this, the FTC urges that any transactions not explicitly appearing on the
+
+60 R. Doc. No. 75-14, ¶¶ 12–14, 30–37.
+61 R. Doc. No. 71-1, at 8–15 (quoting 15 U.S.C. § 18a(a)) (emphasis added).
+Case 2:23-cv-01890-LMA-MBN   Document 58   Filed 09/27/23   Page 20 of 29
+21
+
+list of exemptions should not be exempted, and that the Court should not “invent an
+implied exemption by extending the state action doctrine to the procedural
+requirements of the HSR Act.”62
+The Hospitals disagree, correctly noting that the state action doctrine has been
+applied to Section 7, “which, like Section 7A, contains its own set of enumerated
+exceptions and does not specifically refer to the state action doctrine.”63 In its reply
+brief, the FTC takes issue with the Hospitals’ reliance on Phoebe Putney  for this
+proposition and contends that “nowhere did the Supreme Court in Phoebe Putney
+even mention a ‘clear statement’ rule or evaluate the term ‘person.’” 64 That is
+technically correct since, in Phoebe Putney, the Supreme Court found the state action
+doctrine did not exempt the defendant from liability under the antitrust laws,
+including Section 7. 568 U.S. at 224. The Court ruled that way not because it found
+
+62 Id. at 12. With respect to the question of whether the Hospitals’ transaction fits
+within the enumerated exemptions of Section 7A, the Court finds the FTC has the
+better argument. The Hospitals first strain to fit their transaction within the
+exemption listed in Section 7A(c)(5) as a “transaction[] specifically exempted from the
+antitrust laws by Federal statute[.]” R. Doc. No. 75-1, at 18. The FTC rightly counters
+that the state action defense is not a statutory exemption  and that transactions
+“specifically exempted” by statute do not include transactions implicitly exempted by
+a judicial doctrine like the state action doctrine. Next, the Hospitals suggest their
+transaction is exempt pursuant to Section 7A(c)(4) on the theory that their
+transaction is a “transfer[] to or from a Federal agency or a State or political
+subdivision thereof.” R. Doc. No. 75-1, at 18. This also misses the mark. As the FTC
+points out, the Hospitals are neither a state nor a political subdivision of a state and
+therefore do not qualify for this exemption. R. Doc. No. 71 -1, at 9– 11. Ultimately,
+however, as discussed throughout this section, the Court decides the legal  question
+before it based on ambiguities in the term “person,” not based on these enumerated
+exemptions.
+63 R. Doc. No. 78, at 15 (citing Phoebe Putney, 568 U.S. at 224–27).
+64 R. Doc. No. 88, at 3.
+Case 2:23-cv-01890-LMA-MBN   Document 58   Filed 09/27/23   Page 21 of 29
+22
+
+the word “person” reached private entities acting pursuant to a state program, but
+because the state’s authorization of certain acquisitions did not meet Midcal ’s clear-
+articulation test. Id. at 236.
+However, the Phoebe Putney  Court suggested —and other courts have since
+reaffirmed—that Section 7 does not apply to private entities acting pursuant to a
+state “restraint . .  . clearly articulated and affirmatively expressed as state policy”
+with active supervision by the state.  See id.; Commonwealth v. Susquehanna Area
+Reg’l Airport Auth. , 423 F. Supp. 2d 472, 472 (M.D. Pa. 2006) . The FTC does not
+contest that “person” in the context of Section 7 does not reach private entities covered
+by the state action doctrine. Yet it inexplicably argues that the exemptions in Section
+7A preclude such a reading of “person” without adequately explaining why the
+exemptions in Section 7 do not preclude that same reading of “person.” Additionally,
+as the Hospitals note,65 the FTC’s inference that the textual exemptions preclude the
+state action doctrine is an implicit inference, which cannot serve as a clear statement
+of Congress’s intent to upset the balance between federal power and states’ power to
+regulate domestic commerce . See Landgraf v. USI Film Prods. , 511 U.S. 244, 288
+(1994) (Scalia, J., concurring in judgment) (finding a negative inference —the
+argument that a statute’s specification of prospective-only application for two sections
+implied that its other provisions were retroactive—was “no substitute for clear
+statement”).
+
+65 Id.
+Case 2:23-cv-01890-LMA-MBN   Document 58   Filed 09/27/23   Page 22 of 29
+23
+
+The FTC also argues that “Congress empowered the FTC and DOJ to define
+the terms used in the HSR Act” and that, through regulations, those agencies defined
+the term “person” to mean “an ultimate parent entity and all entities which it controls
+directly or indirectly[.]”66 The regulations also specify that “the term entity shall not
+include . . . the United States or any of the States thereof, or any political subdivision
+or agency of either (other than a corporation or unincorporated entity engaged in
+commerce).” 16 C.F.R. § 801.1(a)(2). Although the Hospitals in this case acted
+pursuant to state approval and supervision, the FTC is correct that both LCMC and
+HCA are corporations engaged in commerce and neither states nor political
+subdivisions of states.
+However, as the Hospitals rightly observe,  the FTC’s regulations only define
+“person” to exclude states and include private parties.67 Neither the statute nor the
+regulation addresses the question actually at issue in this case: whether a transaction
+is exempt from Section 7A if that transaction was consummated pursuant to a COPA
+statute that exempts private parties from the federal antitrust laws under the state
+action doctrine.  Additionally, t he Hospitals contend that the FTC’s regulations
+cannot supply the requisite clear statement regarding the state action doctrine
+because Congress—not an agency —must be the one to speak clearly on  major
+questions of federalism.68
+
+66 R. Doc. No. 77, at 7 (citing 15 U.S.C. § 18a(d)(2)(A) and 16 C.F.R. § 801(a)(1)).
+67 R. Doc. No. 78, at 11–12.
+68 R. Doc. No. 89, at 4–5 (citations omitted).
+Case 2:23-cv-01890-LMA-MBN   Document 58   Filed 09/27/23   Page 23 of 29
+24
+
+The Hospitals primarily argue that, with respect to the question of whether
+state action by a private party pursuant to Midcal  is exempt from  the federal
+antitrust laws, “Congress used the operative word ‘person’ the same way in Section
+7A, Section 7, and the Sherman Act.” 69 Interpreting t he word “person” in the
+Sherman Act,70 the Supreme Court in Parker determined that it did not encompass
+states. Parker, 317 U.S. at 350– 51. As explained, the Supreme Court later clarified
+that the state action doctrine applies also to nonstate actors carry ing out the state’s
+regulatory program where “the challenged restraint” is “clearly articulated and
+affirmatively expressed as state policy” and where that policy is actively supervised
+by the state.” Midcal, 445 U.S. at 105. States and those acting pursuant to state policy
+also do not qualify as “person[s]” within the meaning Section 7 of the Clayton Act. 71
+See, e.g., Phoebe Putney, 568 U.S. at 222, 227–29 (determining that the state action
+doctrine did not exempt the defendant from liability under the antitrust laws,
+including Section 7, because the state’s authorization of certain acquisitions did not
+meet Midcal’s clear- articulation test); Commonwealth v. Susquehanna Area Reg’l
+
+69 R. Doc. No. 78, at 11.
+70 Section 1 of the Sherman Act provides: “Every contract, combination in the form of
+trust or otherwise, or conspiracy, in restraint of trade or commerce among the several
+States, or with foreign nations, is declared to be illegal. Every person who shall make
+any contract or engage in any combination or conspiracy hereby declared to be illegal
+shall be deemed guilty of a felony . . .” 15 U.S.C. § 1. Section 2 provides: “Every person
+who shall monopolize, or attempt to monopolize, or combine or conspire with any
+other person or persons, to monopolize any part of the trade or commerce among the
+several States, or with foreign nations, shall be deemed guilt of a felony . . .” Id. § 2.
+71 Section 7 of the Clayton Act provides that “[n]o person . . . shall acquire . . . stock
+or other share capital” where “the effect of such acquisition may be substantially to
+lessen competition, or to tend to create a monopoly.” 15 U.S.C. § 18.
+Case 2:23-cv-01890-LMA-MBN   Document 58   Filed 09/27/23   Page 24 of 29
+25
+
+Airport Auth., 423 F. Supp. 2d 472, 472 (M.D. Pa. 2006) (granting the defe ndant’s
+motion to dismiss a complaint alleging antitrust violations under Section 7 of the
+Clayton Act and Section 2  of the Sherman Act “[b]ased upon clear application of
+Parker immunity”).
+In response, t he FTC points out certain important differences bet ween the
+Sherman Act and Section 7 of the Clayton Act, on the one hand, and Section 7A on
+the other.72 For example, the Sherman Act, as analyzed in Parker, “makes no mention
+of the state as such, and gives no hint that it was intended to restrain state action or
+official action directed by a state.” Parker, 317 U.S. at 351.  The Clayton Act defines
+“person” to “include corporations and associations” and says nothing about whether
+“person” encompasses states. See 15 U.S.C. § 12(a). By contrast, the HSR A ct does
+mention states by exempting “transfers to or from a Federal agency or a State or
+political subdivision thereof.” 15 U.S.C. 18a(c)(4). Ultimately, however, this reference
+to states does not speak to the question of whether parties acting pursuant to a state’s
+regulatory program like Louisiana’s COPA statute are exempt from Section 7A.
+What this discussion demonstrates is that —contrary to the FTC’s position —
+the HSR Act is not clear about whether the term “person” in Section 7A encompasses
+private parties who consummate their transaction pursuant to a state COPA statute
+exempting them from the federal antitrust laws . The Court finds that the statute is
+silent as to Section 7A’s application to transactions exempt from the federal antitrust
+laws pursuant to Midcal.
+
+72 R. Doc. No. 77, at 8–9.
+Case 2:23-cv-01890-LMA-MBN   Document 58   Filed 09/27/23   Page 25 of 29
+26
+
+ii. Clear Statement Rule
+As discussed, t he state action doctrine is motivated by “respect for ongoing
+regulation by the State.” Ticor, 504 U.S. at  633. Concerns about federalism have
+prompted the Supreme Court to apply “the well -established principle that it is
+incumbent upon the federal courts to be certain of Congress’ intent before finding that
+federal law overrides the usual constitutional balance of  federal and state powers.”
+Bond v. United States, 572 U.S. 844, 858 (2014) (internal quotation marks omitted).
+Absent a clear statement of Congress’s intent to displace a state’s ability to regulate
+its own commerce, courts in the antitrust context presume that Congress did not so
+intend. See Motor Carriers, 471 U.S. at 56 (explaining that the Parker Court “refused
+to find in the Sherman Act ‘an unexpressed purpose to nullify a state’s control over
+its own officers and agents . . . .’” and explaining that Parker “was premised on the
+assumption that Congress, in enacting the Sherman Act, did not intend to
+compromise the States’ ability to regulate their domestic commerce”).
+The FTC argues that the Court should not require such a clear statement in
+this case because the Hospitals and the State have not demonstrated that the statute
+is ambiguous and they have not demonst rated that there is a conflict between the
+HSR Act and Louisiana’s COPA law.73 As discussed in the previous section, the Court
+finds that Section 7A is ambiguous with respect to its application  to private parties’
+transactions which are exempt from the federal antitrust laws pursuant to the state
+action doctrine and Midcal.
+
+73 R. Doc. No. 77, at 10.
+Case 2:23-cv-01890-LMA-MBN   Document 58   Filed 09/27/23   Page 26 of 29
+27
+
+ Additionally, the Court finds that there is a conflict between the HSR Act and
+Louisiana’s COPA law sufficient to implicate the federalism concerns motivating the
+clear statement rule. Louisiana’s COPA statute expresses the state legislature’s
+policy to “substitute state regulation . . . for competition” among health care facilities.
+La. Stat. Ann. § 40:2254.1. As the Hospitals point out, Louisiana’s COPA statute and
+the FTC’s premerger review pursuant to Section 7A operate on different and
+conflicting timelines.74 By granting the COPA, the State authorized the Hospitals to
+close their transaction  immediately, subject to the execution of certain documents,
+submission of annual reports, and full compliance with the COPA’s terms and
+conditions.75 Section 7A, if it applied,  would have required the Hospitals to wait at
+least 30 days to close the transa ction, and the FTC in its discretion could have
+extended that waiting period significantly by  requesting further information and
+documentation. 15 U.S.C §§ 18a(b)(1), (e)(2). COPA approval may be contingent on
+terms and conditions that may only be possible through immediate integration76 and,
+generally, timing is crucial in the context of such transactions. Further, as the State
+points out, the allegations of the FTC’s petition indicate that the purpose of this
+lawsuit is to subject the Hospitals’ transaction to the precise “antitrust scrutiny” that
+
+74 R. Doc. No. 89, at 6–7.
+75 R. Doc. No. 75-16, at 3–4.
+76 For example, as part of the COPA application in this transaction, LCMC committed
+to making $220 million in capital investments to modernize facilities, offer new
+medical services, and add new specialty care units. R. Doc. No. 75-2, ¶ 20.
+Case 2:23-cv-01890-LMA-MBN   Document 58   Filed 09/27/23   Page 27 of 29
+28
+
+the Attorney General intended to avoid by issuing the COPA. 77 The Court therefore
+concludes that applying Section 7A to mergers exempt from the antitrust laws
+through a COPA would “ frustrate” the state’s regulatory program . See Motor
+Carriers, 471 U.S. at 56–57.78
+IV. CONCLUSION
+Based on the analysis above, the Court holds that the Hospitals’ transaction is
+exempt from the  federal antitrust laws  and need not comply with Section 7A’s
+requirements. The Court finds no reason to subject a merger exempt from Section 7
+to a waiting period and filing requirements  designed to allow the FTC to determine
+whether that merger may violate Section 7.  As discussed throughout, there is no
+genuine dispute of material fact  in this case , and the Hospitals are entitled to
+judgment as a matter of law. Fed. R. Civ. P. 56(a).
+
+77 R. Doc. No. 74-1, at 19–20 (citing Phoebe Putney, 568 U.S. at 225–26; Patrick, 486
+U.S. at 98, 105–06; Fisher v. City of Berkeley, 475 U.S. 260, 265 (1986); Hallie v. City
+of Eau Claire, 471 U.S. 34, 44 (1985)).
+78 The FTC cites several cases holding that defenses to liability, including the state
+action doctrine, cannot be used to quash a subpoena issued pursuant to the FTC Act.
+R. Doc. No. 71 -1, at 17– 19. According to the FTC, like the FTC Act’s provisions
+regarding subpoena power, Section 7A “do[es] not impose antitrust liability, but
+merely facilitate [s] investigation.” Id. at 19. However, Section 7A, which prevents
+parties from merging before notification and a waiting period, requires a filing fee,
+and imposes monetary penalties for any failure to comply, does more than “facilitate
+investigation.” The FTC also argues that the state action doctrine does not apply to
+Section 7A because its requirements are “procedural.” Id. at 16–18. But the FTC cites
+no cases distinguishing between “procedural” antitrust laws and “substantive” ones
+in the context of the state action doctrine. Regardless,  as explained, based on the
+statute’s ambiguity, the Court does not find a clear statement of Congress’s intent to
+displace the State’s power to regulate commerce in the language of Section 7A or the
+HSR Act. The statute’s text simply does not address whether it applies to transactions
+consummated pursuant to the state action doctrine that satisfy Midcal ’s two-part
+test. That is the dispositive question.
+Case 2:23-cv-01890-LMA-MBN   Document 58   Filed 09/27/23   Page 28 of 29
+29
+
+Although the Court appreciates that this holding may make enforcement more
+difficult for the FTC in the narrow context of transactions that close pursuant to state
+COPAs, parties to such transactions are already incentivized to ensure that their
+transactions satisfy Midcal’s demands. If they are wrong about Midcal’s application,
+those parties face equitable measures and steep daily fines. Accordingly,
+IT IS ORDERED that  the Hospitals’ motion for summary judgment is
+GRANTED and the FTC’s claims against the Hospitals are DISMISSED WITH
+PREJUDICE.
+IT IS FURTHER ORDERED that the State’s motion for summary judgment
+is GRANTED, and the State’s motion for judgment on the pleadings is DISMISSED
+AS MOOT.
+IT IS FURTHER ORDERED that the FTC’s motion for summary judgment
+is DENIED.
+ New Orleans, Louisiana, September 27, 2023.
+
+_______________________________________
+         LANCE M. AFRICK
+                     UNITED STATES DISTRICT JUDGE
+
+Case 2:23-cv-01890-LMA-MBN   Document 58   Filed 09/27/23   Page 29 of 29
