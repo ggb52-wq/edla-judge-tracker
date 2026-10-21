@@ -1,0 +1,793 @@
+1
+
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+FREDERICK E. ADDISON, SR., ET AL.,
+Plaintiffs
+CIVIL DOCKET
+
+VERSUS
+
+NO.  19-11133
+          c/w 19-14512
+
+LOUISIANA REGIONAL LANDFILL
+COMPANY, ET AL.,
+Defendants
+SECTION: “E” (5)
+
+Applies to: Both Cases
+
+ORDER AND REASONS
+ Before the Court is Plaintiffs’ Motion in Limine to exclude testimony of the
+Defendants’ witness Matthew Stutz, P.E., a purported expert in landfill design,
+engineering, management, and operations.1 The Defendants filed a joint memorandum in
+opposition.2 Plaintiffs filed a reply.3
+BACKGROUND
+This case concerns the operation of the Jefferson Parish Landfill in Waggaman,
+Louisiana (the “JPLF”), and the resulting od ors emitted from the JPLF between July 1,
+2017, and December 31, 2019 (the “relevant time period”). Plaintiffs, who are Jefferson
+Parish residents, filed several individual lawsuits that were consolidated into a mass
+
+1 R. Doc. 558.
+2 R. Doc. 590. As an exhibit to their opposition, the Defendants attached an affidavit of Mr. Stutz, which
+“supplements his April 4, 2024 report and does not offer any new opinions.” Id. at p. 5 (citing R. Doc. 590-
+1). The Court declines to decide whether Mr. Stutz’s affidavit is a permissible supplement to his expert
+report under Rule 26(e), as even if so, it would not change the result.
+3 R. Doc. 618.
+Case 2:19-cv-11133-SM-MBN   Document 703   Filed 07/31/24   Page 1 of 24
+2
+action, Addison v. Louisiana Regional Landfill Co. , which contains over 500 individual
+Plaintiffs.4 In their Second Amended Complaint, Plaintiffs assert negligence and nuisance
+claims under Louisiana state law5 against Defendants: Jefferson Parish, which owns and
+contracts with others to operate the JPLF ; Aptim Corporation, which managed the gas
+and leachate collection systems of the JPLF  from July 2017 to May 2019; and three
+entities that operated the JPLF from May 2013 to December 2020: Louisiana Regional
+Landfill Company; 6 Waste Connections Bayou, Inc.; 7 and Waste Connections US, Inc.
+(collectively, the “Defendants”).8
+On November 5, 2019, the Court issued the first Case Management Order, which
+established a bifurcated litigation schedule under which the issue of general causation
+would be resolved first. 9 The Court held a trial on general causation in early 2022. 10 On
+November 29, 2022, the Court issued its Findings of Fact and Conclusions of Law as to
+General Causation (the “General Causation Order”), 11 determining that: (1) odors and
+gases were emitted by the JPLF; 12 (2) the emissions of gases and odors from the JPLF
+occurred during the relevant time period; 13 and (3) exposure to the odors and gases
+emitted by the JPLF at a level of five parts per billion for thirty mi nutes “is sufficient by
+itself for individuals generally to be able to  smell hydrogen sulfide and for the exposure
+
+4 See generally S e c o n d  A m e n d e d  C o m p l a i n t ,  R .  D o c .  4 3 1 .  J efferson Parish resident s also filed several
+related class actions, which were consolidated into one case, Ictech-Bendeck v. Waste Connections Bayou,
+Inc. See R. Doc. 48 (18-7889).
+5 See Second Amended Complaint, R. Doc. 431 at p. 64.
+6 Louisiana Regional Landfill Company is formerly known as IESI LA Landfill Corporation.
+7 Waste Connections Bayou, Inc. is formerly known as Progressive Waste Solutions of LA, Inc.
+8 Second Amended Complaint, R. Doc. 431 at pp. 52-53.
+9 R. Doc. 80 at pp. 1-2.
+10 R. Docs. 274-278, 286-289.
+11 R. Doc. 323.
+12 Id. at p. 5.
+13 Id. at p. 26.
+Case 2:19-cv-11133-SM-MBN   Document 703   Filed 07/31/24   Page 2 of 24
+3
+to cause a reaction.” 14 Having found that Plaintiffs established general causation for
+certain Allowed Injuries, the Court ordered that a trial be conducted with a select number
+of Addison Plaintiffs (the “Trial Plaintiffs”).15 The first Addison trial was set to begin on
+September 5, 2023,16 and has since been continued to begin on August 12, 2024 (the “first
+Addison Trial”).17
+Relevant to the instant Motion in Li mine, the Defendants assert several
+“alternative source arguments,” 18 including that: (1) Plaintiffs’ alleged damages were
+sustained in whole or in part as a result of  intervening or supers eding causes, including
+noxious odors originating from sources other than the JPLF; and (2) Plaintiffs’ claims are
+barred or diminished to the extent their inju ries were caused by their own comparative
+fault or the comparative fault of third parties or sources of odors for which the Defendants
+are not responsible.19 The Defendants engaged Matthew Stutz, P.E.—represented to be an
+expert in “landfill design, engineering, management, and operations”—to offer opinions
+about modeled emissions and emission rates of landfill gas and hydrogen sulfide (“H2S”)
+from the JPLF and two neighboring landfills , the River Birch Landfill (the “RBLF”) and
+the Highway 90 construction and demolition (“C&D”) Landfill (the “Hwy 90 Landfill” or
+
+14 Id. at p. 27.
+15 Id. at pp. 44, 46. See also R. Doc. 642 (defining the Allowed Injuries).
+16 R. Doc. 340.
+17 R. Doc. 495.
+18 See R. Doc. 671 at p. 10 (denying Plaintiffs’ motion to exclude evidence related to Defendants’ “alternative
+source arguments” and ruling that “evidence related to Defendants’ alternative source arguments is relevant
+under Rule 401, as ‘any potential alternative theories of causation go directly toward a key underlying issue’
+in this case”).
+19 Waste Connections Defendants’ Affirmative Defenses and Answer to Plaintiffs’ Second Amended
+Complaint, R. Doc. 502 at p. 2; Jefferson Parish’s Answer to Plaintiffs’ Second Amended Complaint, R. Doc.
+504 at pp. 20-21; Aptim’s Answer and Affirmative Defenses to Plaintiffs’ First Amended Complaint, R. Doc.
+111 at pp. 14-15. Aptim’s Answer and Affirmative Defenses to Plaintiffs’ Second Amended Complaint
+incorporated by reference the affirmative defenses asserted in Aptim’s Answer and Affirmative Defenses to
+Plaintiffs’ First Amended Complaint. R. Doc. 447 at p. 1.
+Case 2:19-cv-11133-SM-MBN   Document 703   Filed 07/31/24   Page 3 of 24
+4
+“Hwy 90”).20 Mr. Stutz is also offered as a reb uttal expert to rebut the opinions of
+Plaintiffs’ experts, specifically regarding: (1) the generation and emissions of landfill gas
+and hydrogen sulfide; (2) the design, operation, and maintenance of the JPLF, including
+its cover, leachate, landfill gas, and odor control systems; and (3) the acceptance of non-
+hazardous industrial waste at the JPLF. 21 Mr. Stutz expressed several opinions in his
+expert report (the “Stutz Report”) relate d to modeled gas generation and emissions
+estimates for the JPLF, the RBLF, and the Hwy 90 Landfill, as well as opinions that rebut
+those expressed by Plaintiffs’ expert Jose Sananes.22
+Plaintiffs timely filed their Motion in Li mine seeking to preclude Mr. Stutz from
+offering testimony related to certain opinio ns expressed in the Stutz Report under the
+law-of-the-case doctrine and Federal Rule of Evidence Rule 702.23
+LEGAL STANDARD
+Rule 702 of the Federal Rules of Eviden ce governs the admissibility of expert
+witness testimony:
+A witness who is qualified as an expert by knowledge, skill, experience,
+training, or education may testify in the form of an opinion or otherwise if:
+(a) the expert’s scientific, technical, or other specialized knowledge will help
+the trier of fact to understand the evidence or to determine a fact in issue;
+(b) the testimony is based on sufficient facts or data; (c) the testimony is the
+product of reliable principles and meth ods; and (d) the expert has reliably
+applied the principles and methods to the facts of the case.24
+
+20 Waste Connections Defendants’ List of Experts, R. Doc. 418 at p. 3; Defendant Jefferson Parish’s List of
+Experts, R. Doc. 419 at p. 3; Defendant Aptim Corporation’s List of Experts, R. Doc. 420 at p. 2.
+21 Waste Connections Defendants’ List of Experts, R. Doc. 418 at p. 3; Defendant Jefferson Parish’s List of
+Experts, R. Doc. 419 at p. 3; Defendant Aptim Corporation’s List of Experts, R. Doc. 420 at p. 2.
+22 Stutz Rep., R. Doc. 558-2 at p. 5.
+23 See R. Doc. 558-1.
+24 FED. R. EVID. 702.
+Case 2:19-cv-11133-SM-MBN   Document 703   Filed 07/31/24   Page 4 of 24
+5
+“A district court has considerable discretion to admit or exclude expert testimony under
+Rule 702.”25 Testimony from a qualified expert is admissible only if it is both relevant and
+reliable.26 Thus, the threshold inquiry is whet her the expert witn ess possesses the
+requisite qualifications to render an opinion on particular subject matter.27 The trial court
+“must be assured that the proffered witness is qualified to testify by virtue of his
+‘knowledge, skill, experience, training, or education.’”28
+If the expert’s qualifications are found to be sufficient, the court must then examine
+whether the expert’s opinions  are reliable and relevant. 29 The United States Supreme
+Court’s decision in Daubert v. Merrell Dow Pharmaceuticals, Inc. ,30 provides the
+analytical framework for determining whether expert testimony is admissible under Rule
+702. “Under Daubert, Rule 702 charges trial courts to act as ‘gate-keepers,’ making a
+‘preliminary assessment of whether the reasoning or methodology underlying the
+testimony is scientifically valid,’”31 and of whether that reasoning or methodology “can be
+reliably applied to the facts of the case.” 32 The proponent of expert testimony “need not
+prove to the judge that the expert’s test imony is correct, but [] must prove by a
+preponderance of the evidence that the testimony is [relevant and] reliable.”33
+
+25 In re Pool Products Distribution Market Antitrust Litig., 166 F. Supp. 3d 654, 661 (E.D. La. 2016) (citing
+Gen. Elec. Co. v. Joiner, 522 U.S. 136, 138-39 (1997)).
+26 Pipitone v. Biomatrix, Inc., 288 F.3d 239, 244 (5th Cir. 2002).
+27 Wagoner v. Exxon Mobil Corp., 813 F. Supp. 2d 771, 798 (E.D. La. 2011). See also Wilson v. Woods, 163
+F.3d 935, 937 (5th Cir. 1999) (“A district court should refuse to allow an expert to testify if it finds that the
+witness is not qualified to testify in a particular field or a given subject.”).
+28 Wilson, 163 F.3d at 937 (quoting FED. R. EVID. 702).
+29 United States v. Valencia, 600 F.3d 389, 424 (5th Cir. 2010).
+30 509 U.S. 579 (1993).
+31 See Pipitone, 288 F.3d at 243–44 (quoting Daubert, 509 U.S. at 592–93).
+32 Valencia, 600 F.3d at 423–24; Knight v. Kirby Inland Marine Inc. , 482 F.3d 347, 352 (5th Cir. 2007).
+See also Burleson v. Texas Dep’t of Criminal Justice , 393 F.3d 577, 584 (5th Cir. 2004); Bocanegra v.
+Vicmar Servs., Inc., 320 F.3d 581, 584–85 (5th Cir. 2003).
+33 Moore v. Ashland Chemical Inc., 151 F.3d 269, 276 (5th Cir. 1998); Mathis v. Exxon Corp., 302 F.3d 448,
+459–60 (5th Cir. 2002).
+Case 2:19-cv-11133-SM-MBN   Document 703   Filed 07/31/24   Page 5 of 24
+6
+ “[E]xpert testimony proffered” must be “s ufficiently tied to the facts of the case
+that it will aid the jury in resolving a factual dispute.” 34 This is essentially a relevance
+requirement—relevant evidence, including rele vant expert testimony, is that which has
+“any tendency to make the existence of any fact that is of consequence to the
+determination of the action more probable or  less probable than it would be without the
+evidence.”35 With respect to the proper scope of expert testimony, Rule 704 provides that
+“testimony in the form of an opinion or  inference otherwise admissible is not
+objectionable because it embraces an ultimate  issue to be decided by the trier of fact.” 36
+Nevertheless, “[i]f the expert’s testimony brings no more to the finder of fact than the
+lawyers can offer in argument, the expe rt’s opinions should be excluded.”37 “[A]n expert
+may never render conclusions of law,” 38 as that “would constitute an invasion of ‘the
+province of the court to determine the applicab le law and to instruct the jury as to that
+law.’”39 Moreover, “expert testimony on matters which a jury is capable of understanding
+and deciding without an expert’s help should be excluded,”40 because expert testimony is
+appropriate only when it will assist the trier of fact.41
+As part of its “gatekeeping function,” “the trial court must probe the
+reliability . . . of expert testimony any ti me ‘such testimony’s factual basis, data,
+
+34 Denley v. Hartford Ins. Co. of Midwest, 07-4015, 2008 WL 2951926, at *3 (E.D. La. July 29, 2008) (citing
+Daubert, 509 U.S. at 591).
+35 Cunningham v. Bienfang, 2002 WL 31553976 (N.D. Tex. Nov. 15, 2002).
+36 FED. R. EVID. 704.
+37 Sudo Properties, Inc. v. Terrebone Parish Consol. Gov’t, 04-2559, 2008 WL 2623000, at *8 (E.D. La.
+July 2, 2008).
+38 Goodman v. Harris Cnty., 571 F.3d 388, 399 (5th Cir. 2009).
+39 Willette v. Finn, 778 F. Supp. 10, 11 (E.D. La. 1991) (quoting United States v. Scop, 846 F.2d 135, 139 (2d
+Cir. 1988)); Snap-Drape, Inc. v. Comm'r, 98 F.3d 194, 198 (5th Cir. 1996); Goodman, 571 F.3d at 399.
+40 Jarrow v. Cupit, 99-3539, 2000 WL 1537989, at *2 (E.D. La. Oct. 17, 2000) (“[I]t is the Court’s role, not
+that of one party’s expert witness, to instruct the ju ry on the law of this case. The law ‘requires only one
+spokesperson . . . who of course is the judge.” (quoting Specht v. Jensen , 853 F.2d 805, 807 (10th Cir.
+1988))).
+41 Id. Rule 702 requires the expert’s knowledge must “help the trier of fact to understand the evidence or to
+determine a fact in issue.” FED. R. EVID. 702(a).
+Case 2:19-cv-11133-SM-MBN   Document 703   Filed 07/31/24   Page 6 of 24
+7
+principles, methods, or their applicatio n are sufficiently called into question.’”42 “While
+‘principles’ refers to the theories an expert employs to explain obse rved facts, ‘methods’
+refers to how the expert collects data and derives theories or opinions from them.”43 “The
+reliability inquiry requires the Court to assess whether the reasoning or methodology
+underlying the expert's testimony is valid.” 44 Expert testimony offering “an inference or
+assertion” on scientific matters is reliable only if the expert’s data and theories are
+“derived by the scientific method” and “rest[] on a reliable foundation.”45 In Daubert, the
+Supreme Court enumerated several non-exclusive factors that courts may consider in
+evaluating the reliability of expert testimony.46 “These factors are (1) whether the expert’s
+theory can or has been tested, (2) whether the theory has been subject to peer review and
+publication, (3) the known or potential rate of error of a technique or theory when applied,
+(4) the existence and maintenance of standards and controls, and (5) the degree to which
+the technique or theory has been generally  accepted in the scientific community.” 47 The
+Supreme Court has cautioned the reliabilit y analysis must remain flexible—the Daubert
+factors “may or may not be pertinent in assessing reliability, depending on the nature of
+the issue, the expert’s particular expert ise, and the subject of his testimony.” 48 “[N]ot
+every Daubert factor will be applicable in every situation,” thus district courts are offered
+broad latitude in making expert testimony determinations and may “consider other
+factors it deems relevant.”49
+
+42 EEOC v. Freeman, 778 F.3d 463, 472 (4th Cir. 2015) (quoting Kumho Tire Co., Ltd. v. Carmichael, 526
+U.S. 137, 149 (1999)).
+43 29 FED. PRAC. & PROC. EVID. § 6268.1 (2d ed.) (2024).
+44 In re Pool Products, 166 F. Supp. 3d at 661 (citing Daubert, 509 U.S. at 592-93).
+45 Daubert, 509 U.S. at 590, 597.
+46 Daubert, 509 U.S. at 592–96.
+47 Bocanegra, 320 F.3d at 584–85 (citing Daubert, 509 U.S. at 593–94).
+48 Kumho Tire, 526 U.S. at 150.
+49 Guy v. Crown Equip. Corp., 394 F.3d 320, 326 (5th Cir. 2004); Kumho Tire, 526 U.S. at 151–53.
+Case 2:19-cv-11133-SM-MBN   Document 703   Filed 07/31/24   Page 7 of 24
+8
+ The trial court is offered “broad latitude” in deciding whether to admit or exclude
+expert testimony and in deciding “ how to determine reliability . . . in respect to its
+ultimate reliability determination.” 50 While “[t]rained experts commonly extrapolate
+from existing data,” expert opinions that represent an unfounded extrapolation from the
+underlying data should be excluded. 51 Indeed, “[t]he reliability prong mandates that
+expert opinion ‘be grounded in the methods and procedures of science and . . . be more
+than unsupported speculation or subjective belief.’” 52 Trial courts routinely exclude
+expert testimony as unreliable under Rule 702 when opinions offered: fail to “adequately
+account[] for obvious alternative explanations”;53 are “speculative or conjectural”;54 or are
+based on “unrealistic and contradictory” assumptions 55 or “vague allusions to [the
+expert’s] ‘experience.’”56 In cases requiring scientific expertise, the Fifth Circuit has
+advised: “To make precise estimates, precise data are required.”57
+ “A district court's gatekeeper function does not replace the traditional adversary
+system or the role of the jury within this system.”58 “Although the jury ultimately decides
+
+50 Kumho Tire, 526 U.S. at 142.
+51 “Several post- Daubert cases have cautioned about leaping from an accepted scientific premise to an
+unsupported one. To support a conclusion based on such  reasoning, the extrapolation or leap . . . must be
+reasonable and scientifically valid.” Moore, 151 F.3d at 279 (citations omitted). See also Joiner, 522 U.S. at
+146 (“Trained experts commonly extrapolate fr om existing data. But nothing in either Daubert or the
+Federal Rules of Evidence requires a district court to admit opinion evidence that is connected to existing
+data only by the ipse dixit of the expert. A court may conclude that there is simply too great an analytical
+gap between the data and the opinion proffered.”).
+52 Johnson v. Arkema, Inc., 685 F.3d 452, 459 (5th Cir. 2012).
+53 In re Pool Products, 166 F. Supp. 3d at 662 (citing Daubert, 509 U.S. at 596).
+54 See Boucher v. U.S. Suzuki Motor Corp., 73 F.3d 18, 21 (2d Cir. 1996).
+55 Id.
+56 See, e.g., Ramos v. Banner Health, 1 F.4th 769, 780 (10th Cir. 2021) (affirming trial court order excluding
+expert testimony on damages for breach of fiduciary duty as unreliable under Rule 702 when the expert
+could only invoke vague allusions to his experience when pressed on how he extrapolated from factors on
+which he relied to reach conclusions regarding damages).
+57 Gulf South Insulation v. U.S. Consumer Product Safety Com’n, 701 F.2d 1137, 1147 (5th Cir. 1983); Paz
+v. Brush Engineered Materials, Inc. , 555 F.3d 383, 388 (5th Cir. 2009)  (“Where the expert’s opinion is
+based on insufficient information, the analysis is unreliable.”).
+58 In re Pool Products, 166 F. Supp. 3d at 661 (citations omitted).
+Case 2:19-cv-11133-SM-MBN   Document 703   Filed 07/31/24   Page 8 of 24
+9
+the ‘weight’ of the evidence, the judge ensures there is suffi cient probative value . . . to
+justify submitting the issue in the first instance.”59 Rule 403 also allows the trial court to
+“exclude relevant evidence if its probative va lue is substantially outweighed by a danger
+of one or more of the following: unfair prej udice, confusing the issues, misleading the
+jury, undue delay, wasting time, or needlessly presenting cumulative evidence.”60 “‘Unfair
+prejudice’ . . . means an undue tendency to  suggest decision on an improper basis,
+commonly, though not necessarily, an emotional one.” 61 Because “Rule 403 is meant to
+relax the iron rule of relevance, to permit the trial judge to preserve the fairness of the
+proceedings by exclusion despite its relevanc e,” “the application of Rule 403 must be
+cautious and sparing.”62 Indeed, as the Fifth Circuit has proclaimed, the “major function”
+of Rule 403 “is limited to excluding matter of scant or cumulative probative force, dragged
+in by the heels for the sake of its prejudicial effect.”63
+ “Vigorous cross-examination, presentation of contrary evidence, and careful
+instruction on the burden of proof are the traditional and appropriate means of attacking
+shaky but admissible evidence.”64 “As a general rule, questions relating to the bases and
+sources of an expert’s opinion affect the weight to be assigned that opinion rather than its
+admissibility and should be left for the [factfinder’s] consideration.”65 It is “the role of the
+adversarial system, not the court, to highlight weak evidence.”66 “Courts break from this
+general rule in exceptional circumstances, such  as when an expert’s testimony relies on
+
+59 Daniel D. Blinka, Expert Testimony and the Relevancy Rule in the Age of Daubert, 90 MARQ. L. REV. 173,
+191 (2006).
+60 FED. R. EVID. 403.
+61 Old Chief v. United States, 519 U.S. 172, 180 (1997).
+62 United States v. Thevis, 665 F.2d 616, 633 (5th Cir. 1982).
+63 United States v. McRae, 593 F.2d 700, 707 (5th Cir. 1979).
+64 Daubert, 509 U.S. at 596; see also 14.68 Acres of Land , 80 F.3d at 1078 (quoting Daubert, 509 U.S. at
+596).
+65 United States v. 14.38 Acres of Land, 80 F.3d 1074, 1077 (5th Cir. 1996).
+66 Primrose Operating Co. v. Nat'l Am. Ins. Co., 382 F.3d 546, 563 (5th Cir. 2004).
+Case 2:19-cv-11133-SM-MBN   Document 703   Filed 07/31/24   Page 9 of 24
+10
+‘completely unsubstantiated factual assertions.’”67
+LAW AND ANALYSIS
+The Defendants offer Matthew Stutz, P.E ., as an expert in “landfill design,
+engineering, management, and operations.” 68 After preparing landfill gas generation
+models and emissions estimates for the JPLF, the RBLF, and the Hwy 90 Landfill, using
+mathematical analysis and relevant source material, Mr. Stutz expressed several opinions
+in his Report. 69 The Plaintiffs seek to exclude Mr. Stutz’s testimony on the following 16
+opinions expressed therein (the “contested opinions”):
+Opinion No. 1: Generally accepted methods by the landfill industry and
+regulatory agencies supply appropriate factors to be used in modeling the
+generation and emissions of landfill gas.
+
+Opinion No. 1A: Appropriate k and LO factors for use in modeling of H2S
+generation at JPLF, RBLF, and Hwy 90 are available based on generally
+accepted methods, publicly available data, and reasonable assumptions.
+
+Opinion No. 1B: Appropriate H2S concentrations for modeling of emissions
+from JPLF, RBLF, and Hwy 90 are available for each landfill and are
+available based on generally accepted methods, publicly available data, and
+reasonable assumptions.
+
+Opinion No. 1C: Appropriate waste acceptance volumes for each landfill are
+available based on generally accepted methods, publicly available data, and
+reasonable assumptions.
+
+Opinion No. 1D: Soil oxidation within landfill cover soils is widely accepted
+in the industry but initially ignored and then discounted to zero by the
+Plaintiffs’ experts. However, soil oxidation was proven at JPLF by outside
+engineering firms as well as the Plai ntiffs’ own study of the site, which
+showed that soil oxidation did actually occur.
+
+67 McCrary v. John W. Stone Oil Distrib., L.L.C. , 14-880, 2016 WL 760744, at *3 (E.D. La. Feb. 26, 2016)
+(citing Hathaway v. Bazany, 507 F.3d 312, 319 n.4 (5th Cir. 2007)).
+68 Waste Connections Defendants’ List of Experts, R. Doc. 418 at p. 3; Defendant Jefferson Parish’s List of
+Experts, R. Doc. 419 at p. 3; Defendant Aptim Corporation’s List of Experts, R. Doc. 420 at p. 2.
+69 Stutz Rep., R. Doc. 558-2 at p. 5. Mr. Stutz repr esented that his model used the same assumptions or
+modeling inputs used by the Plaintiffs’ experts where possible and consistent with applicable methods. Id.
+Case 2:19-cv-11133-SM-MBN   Document 703   Filed 07/31/24   Page 10 of 24
+11
+Opinion No. 1E: Appropriate collection efficiency factors are available for
+each landfill based on generally accept ed methods, publicly available data,
+and reasonable assumptions.
+
+Opinion No. 2A: Generally accepted industry standards and methods are
+readily available to determine the H2S emissions from JPLF and each of the
+nearby landfills. Using these accepted industry practices and methodologies
+results in a more accurate, representa tive, and reliable, estimate of H2S
+emissions. The Plaintiffs’ experts disregard industry standards and
+scientific research. They created methodologies that had never been used
+before and chose to use the highest unvalidated numbers which made their
+H2S emission estimates inflated, unreli able, and not representative of the
+site.
+
+Opinion No. 2B: For the years 2017-2019, the Hwy 90 Landfill was the
+largest and most significant source of  H2S emissions of the three landfills.
+Although the H2S emissions from River Birch were slightly less than JPLF,
+they were within the same general range.
+
+Opinion No. 2C: Generally accepted industry standards and methods are
+readily available to determine the H2 S emissions from JPLF Phase IVA.
+Using these accepted industry practices and methodologies results in a
+more representative estimate of H2S emissions. The Plaintiffs’ experts
+disregarded industry standards an d scientific research, created
+methodologies that had never been used before, and chose to use the highest
+unvalidated numbers which made thei r H2S emission estimates inflated,
+unreliable, and not representative of  the site. JPLF the emissions plume
+could be confused with JPLF.
+
+Opinion 4A: The Plaintiffs’ expert con tinues to use a one-size-fits-all,
+unsupported simple assumption for radii of influence (ROI) as the basis for
+his estimate of landfill gas emissions. This method of determining a ROI for
+use in estimating actual emissions is  not supported by the industry or
+regulatory agencies and is not realistic.
+
+Opinion 4B: The Plaintiffs’ expert continues to claim the landfill is flooded,
+which leads to a gas generation rate (i .e., k value) that is not supported by
+the facts or the data and leads to an invalid and unrepresentative emission
+estimate for the site.
+
+Opinion 4D: The presence of oxygen and elevated vacuum pressures in
+landfill gas wells are not violations, do not indicate poor GCCS operations,
+and do not support the Plaintiffs’ experts’ claim of excess landfill gas
+emissions.
+
+Case 2:19-cv-11133-SM-MBN   Document 703   Filed 07/31/24   Page 11 of 24
+12
+Opinion 4E: Despite localized cover issues, the landfill covers at JPLF were
+in place and did reduce H2S emissions as documented by the data collected
+by the Plaintiffs and others.
+
+Opinion 4F: The municipal solid waste (MSW) contribution of H2S in Phase
+IVA was double counted by the Plaintiffs’ experts.
+
+Opinion 4G: The Plaintiff’s experts contradicted themselves when they
+claimed that readings could not be taken in Phase IVA due to H2S
+concentrations. They in fact collected many samples in Phase IVA.
+
+Opinion 4H: The JPLF was a conventional landfill and was supported,
+designed, and monitored by several qu alified outside consultants who had
+first-hand knowledge of the site.70
+
+The Plaintiffs do not challenge Mr. Stutz’s  qualifications or the relevance of his
+testimony.71 Instead, the Plaintiffs seek to excl ude Mr. Stutz’s testimony under Rule 702
+and the law-of-the-case doctrine, insofar as th e Stutz Report is unreliable and expresses
+opinions on issues adjudicated in the Court’s General Causation Order.72
+I. Mr. Stutz’s testimony related to the Hwy 90 Landfill will be excluded
+under Rule 702.
+
+Plaintiffs seek to exclude the portion of Opinion No. 2B in which Mr. Stutz opines
+“the Hwy 90 Landfill was the largest and most significant source of H2S emissions of the
+three landfills” during the relevant time period.73 The Stutz Report represents “[a] main
+component[] used in gas generation modeling is the concentration of the specific gas
+being modeled,” which in this case is H2S.74 Mr. Stutz acknowledges that a reliable H2S
+emissions model must be based on “a reasonable and representative H2S concentration”75
+and, in Opinion No. 1B, concludes “[a]ppropriate H2S concentrations for modeling of
+
+70 Id. at pp. 6-7.
+71 See R. Doc. 558-1.
+72 See id. at pp. 1, 13.
+73 Stutz Rep., R. Doc. 558-2 at p. 6.
+74 Id. at p. 16.
+75 Id.
+Case 2:19-cv-11133-SM-MBN   Document 703   Filed 07/31/24   Page 12 of 24
+13
+emissions from [Hwy 90] . . . are available based on generally accepted methods, publicly
+available data, and reasonable assumptions.” 76 Mr. Stutz represents  the “reliable and
+representative H2S concentration” at the Hw y 90 Landfill is 2,900 parts per million
+(“ppm”).77 As explained in Opinion No. 1B, Mr. Stutz derived this H2S concentration by
+calculating the simple average of the highest and lowest H2S concentrations—3,800 ppm
+and 2,000 ppm, respectively—observed at Hwy 90 during a one-day study on February
+26, 2008 (the “February 2008 Study”). 78 With this figure, Mr. Stutz ran his H2S
+Generation Model for Hwy 90 (the “Hwy 90 Model”), which as presented in Table 12,
+results in estimated H2S emission rates from the landfill of: 30,519 cubic meters per year
+(“m3/yr”) for 2017; 34,489 m3/yr for 2018; and 34,443 m3/yr for 2019.79 After comparing
+the modeled H2S emission rates for the Hwy 90 Landfill, the RBLF, and the JPLF, as
+provided in Table 13 of the Stutz Report , Mr. Stutz concluded “the majority of H2S
+emissions during [the relevant time period] came from Hwy 90,” which he expresses in
+Opinion No. 2B.80
+Plaintiffs argue the modeled emission rates for Hwy 90 “do not have any indicia of
+reliability required by Rule 702”81 because Mr. Stutz improperly “extrapolates [the] exact
+same 2008 H2S concentration” at the landfill “every year from 2008 [through] 2020,”82
+“when actual facts indicate[] that could not possibly be so.” 83 Plaintiffs point to the fact
+
+76 Id. at p. 6.
+77 See id. at p. 18.
+78 Id. at p. 19.
+79 Id. at p. 27.
+80 Id. at p. 28.
+81 R. Doc. 558-1 at p. 11
+82 Id. at p. 9.
+83 Id. at p. 7 (citing Dep. Tr. of Stutz, R. Doc. 558-3 at 228-31). In the alternative, Plaintiffs contend the
+methodology underlying Opinion No. 2B is unreliab le because Mr. Stutz used the EPA’s LandGEM model
+to estimate the quantity of landfill gas generated at Hwy 90, which “was not created for use at C&D
+landfills.” Id. a t   p .  7  ( c i t i n g  t h e  E P A ’ s  L a n d G E M  U s e r  G u i d e ,  R .  D o c .  5 5 8 - 1 2  a t  p p .  1 - 3  ( p r o v i d i n g  t h e
+LandGEM Model “estimates air pollutants and other gases from [MSW] landfills”)). However, because Mr.
+Case 2:19-cv-11133-SM-MBN   Document 703   Filed 07/31/24   Page 13 of 24
+14
+that, after Hurricane Katrina in late 2005, the Hwy 90 Landfill was declared an
+“Emergency Debris Site” by the Louisiana Department of Environmental Quality (the
+“LDEQ”) and in accordance with that declar ation, both gypsum-containing C&D debris
+and vegetative debris were disposed at the landfill.84 Plaintiffs represent that, by 2008 the
+burial of organic vegetative debris combi ned with Katrina-related gypsum sheetrock
+caused the Hwy 90 Landfill to experience issues resulting from elevated H2S
+concentrations.85 Plaintiffs cite Hwy 90 records, publicly available through the LDEQ’s
+Electronic Document Management  System (the “LDEQ EDMS”), 86 which they claim
+demonstrate: (1) since 2012, the Hwy 90 Landfill has received “zero (0) tons of vegetative
+waste”; (2) in 2008, the Hwy 90 Landfill appl ied for an LDEQ minor source air permit
+and proposed the installation of passive flares to burn off H2S “resulting from the disposal
+of hurricane-related material,” to control fugitive emissions; and (3) in December 2010,
+the Hwy 90 Landfill requested the LDEQ rescind its permit, after concluding “not enough
+gas was being generated inside the [Hwy 90  Landfill] to keep the flares burning.” 87 In
+sum, Plaintiffs argue the de minimis quantity of organic vegetative debris received by Hwy
+
+Stutz’s emissions estimate for the Hwy 90 Landfill will be excluded on other grounds, the Court will not
+address Plaintiffs’ alternative argument.
+84 Id. at pp. 3-4. Plaintiffs represent Hwy 90 received the following quantities of organic vegetative waste
+post-Katrina: 88,109 tons in 2006; 64,528 tons in 2007; 11,911 tons in 2008; 37,885 tons in 2009; 257 tons
+in 2010; 248 tons in 2011; and 0 tons in 2012 and every subsequent year. Id. Plaintiffs represent Hwy 90
+received the following quantities of mixed C&D waste post-Katrina: 1,434,737 tons in 2006; 730,870 tons
+in 2007; 257,012 tons in 2008; 221,9 08 tons in 2009; 197,916 tons in  2010; 195,872 to ns in 2011; and
+185,102 tons in 2012. Id.
+85 Id. at pp. 2-3 (“As demonstrated by the facts of this case, the co-disposal of gypsum [with] organic waste
+is likely to generate hydrogen sulfide gas. [Thus,] [o]rdinarily, C&D landfills do not accept organic or
+vegetative waste.”).
+86 L A. DEP’T OF ENV. QUALITY, ELECTRONIC DOCUMENT MGMT. SYS. [hereinafter LDEQ EDMS],
+https://www.deq.louisiana.gov/page/edms [https: //perma.cc/JE6C-K9QL]. The Court may examine
+“documents incorporated into the [motion] by reference, and matters of which a court may take judicial
+notice.” Funk v. Stryker Corp., 631 F.3d 777, 783 (5th Cir. 2011). “The court may judicially notice a fact that
+is not subject to reasonable dispute because it: (1) is  generally known within the trial court's territorial
+jurisdiction; or (2) can be accura tely and readily determined from sources whose accuracy cannot
+reasonably be questioned.” FED. R. EVID. 201(b).
+87 R. Doc. 558-1 at pp. 3-6.
+Case 2:19-cv-11133-SM-MBN   Document 703   Filed 07/31/24   Page 14 of 24
+15
+90 beginning in 2010 and the remedial meas ures the landfill undertook to reduce H2S
+emissions between 2008 and 2010 demonstrate “the odor issue” at Hwy 90 “no longer
+existed” by the time the landfill filed a re quest with LDEQ to rescind its permit in
+December 2010.88
+Notwithstanding the operational changes and reduction of H2S and landfill gas
+emissions from Hwy 90, which may be inferre d from the landfill’s operational history,
+Plaintiffs point out that “Mr. Stutz based his emissions calculations for [the relevant time
+period] entirely upon [H2S] measurements taken inside the waste mass at Hwy 90 on
+February 26, 2008,” during the time in wh ich Hwy 90 was known to be experiencing
+issues related to elevated H2S concentrations. 89 Plaintiffs argue the Stutz Report’s
+omission of Hwy 90’s relevant operational history “raise[s] a serious question” about his
+assumption that the landfill would generate H2S at the same rate during the relevant time
+period as it did in February 2008.90 Accordingly, Plaintiffs contend the basis of Mr. Stutz’s
+Opinion No. 2B, that “the H2S concentration remain[ed] constant” from February 2008
+through the relevant time period, “is manifestly unreliable.”91
+In opposition, the Defendants argue “[t]he issues raised in Plaintiffs’ motion are
+appropriate topics for cross-examination, but they fall far short of upsetting the reliability
+and relevance of Mr. Stutz’s proposed testimony,” as “Plaintiffs’ argument[s] go[] to the
+weight of Mr. Stutz’s opinions but not their reliability under Rule 702.”92 The Defendants
+contend Plaintiffs’ challenge does not contest “the accuracy of the 2008 data” that is the
+
+88 Plaintiffs represent “[t]his meant, of course, th at the odor issue that had prompted the permit
+modification two years earlier no longer existed. In  other words, the H2S generation from the Katrina-
+related [] waste had run its course.” Id. at p. 6.
+89 Id. at pp. 4-5.
+90 Id. at pp. 6-7.
+91 Id. at p. 9.
+92 R. Doc. 590 at p. 3.
+Case 2:19-cv-11133-SM-MBN   Document 703   Filed 07/31/24   Page 15 of 24
+16
+basis of Opinion No. 2B, but offer only speculative argument “that circumstantial factors
+may have affected the H2S concentration in Hwy 90’s landfill gas after 2008.” 93 The
+Defendants further claim Plaintiffs ignore several relevant facts, including that: (1) “C&D
+landfills regularly generate H2S under normal conditions”; (2) “the addition of vegetative
+debris after Hurricane Katrina [did] not increase the concentration of H2S . . . , but [did]
+increase the total volume of gas, and would likely increase the amount of methane in the
+gas” generated at Hwy 90; (3) any elevated H2S concentrations at Hwy 90 were “driven
+solely by the proportion of drywall (aka sheetrock) in the waste”; and (4) the operational
+history of Hwy 90 does not indicate H2S con centrations decreased after the landfill’s
+initial permit application in 2008, “nor that H2S concentrations had been necessary for
+the flare[s] to work in the first place.” 94 Accordingly, the Defendants assert Plaintiffs
+assumption that Hurricane Katrina-related waste caused H2S concentrations at Hwy 90
+to be higher in 2008 than during the relevant time period is without merit.95
+In their reply memorandum, Plaintiffs contend the “Defendants forget that
+methane is odorless” and “is a proxy for landfill gas in general—when methane is present,
+so is every other gas generated by the de composition of waste, including [H2S].”96 Thus,
+Plaintiffs argue, “[w]hen not enough methane gas was generated to keep the flares lit,
+then a reduction is rationally and scientifically expected in all of the landfill gases for
+which methane is a proxy, including [H2S].”97
+Plaintiffs raise a major issue concerning th e validity of the Hw y 90 Model, which
+is entirely unaddressed in the Stutz Report. A review of publicly available documents on
+
+93 Id. at p. 13.
+94 Id. at pp. 5-7.
+95 Id. at p. 8.
+96 R. Doc. 618 at p. 2.
+97 Id.
+Case 2:19-cv-11133-SM-MBN   Document 703   Filed 07/31/24   Page 16 of 24
+17
+LDEQ EDMS clearly shows, contrary to th e Defendants’ mischaracterization of the
+landfill’s operational history, Hwy 90 sought a permit from the LDEQ to mitigate H2S-
+related landfill odors in early 2008 that like ly resulted from the influx of Hurricane
+Katrina-related organic vegetative and gypsum sheetrock debris buried at the landfill
+under the LDEQ’s Emergency Debris Site declaration.98 Subsequently, Hwy 90 sought a
+rescission of that permit in December 2010 after remedial measures presumably
+facilitated a decrease in H2S concentrations, as evident by Hwy 90’s representation to the
+LDEQ, observing “the reduced flow rate [of] hydrogen sulfide emissions” at the landfill.99
+Mr. Stutz assumes the H2S concentration at Hwy 90 during the relevant time period was
+identical to the concentration observed on e decade earlier in the February 2008
+study100—mere months before Hwy 90 admitte d “ambient H2S odors [were] an
+increasing concern at the faci lity as well as surrounding areas,” and sought the LDEQ’s
+permission to use “passive flares [to] assist in odor reduction.”101
+The Court finds the scant and uncharacteristic H2S concentration data from
+February 2008 on which Mr. Stutz bases the Hwy 90 Model for the relevant time period
+renders Opinion No. 2B unreliable. Generally , when an “expert’s opinion is based on
+insufficient information, the analysis is unreliable.”102 In this case, Mr. Stutz relies on two
+data points collected on a single day nearly one decade before the relevant time period to
+derive the H2S concentration that info rms his Hwy 90 Model. Hwy 90 records
+demonstrate the landfill experienced elevated  H2S concentrations in 2008, which likely
+
+98 See Hwy 90 Operator’s Request for Pilot Study, R. Doc. 588-6 (LDEQ EDMS, Doc. No. 3467899 (Apr. 23,
+2008)).
+99 See Hwy 90’s Air Permit Rescission Request, LDEQ EDMS, Doc. No. 7775053 (Dec. 23, 2010).
+100 Stutz Rep., R. Doc. 558-2 at pp. 19, 476-78.
+101 See Hwy 90 Operator’s Request for Pilot Study, R. Doc. 588-6 (LDEQ EDMS, Doc. No. 3467899).
+102 Paz, 555 F.3d at 388.
+Case 2:19-cv-11133-SM-MBN   Document 703   Filed 07/31/24   Page 17 of 24
+18
+resulted from the burial of organic vegeta tive and gypsum sheetrock debris when the
+LDEQ designated the landfill an Emergency Debris Site post-Hurricane Katrina. Mr.
+Stutz offers no explanation as to the validi ty or general acceptance in the scientific
+community of his methodology for deriving an H2S concentration based on such scant
+and uncharacteristic data.103 Because Mr. Stutz fails to adequately account for the obvious
+flaw in his assumption, 104 as raised in Plaintiffs’ Motion in Limine, the Court finds that
+Mr. Stutz’s reliance on a singular data point from February 2008 as the basis for his Hwy
+90 Model, as well as his omission of any discussion concerning Hwy 90’s post-Katrina
+operational history, renders the Hwy 90 Model speculative and unreliable.105 Because the
+H2S emission rates estimated by the Hwy 90 Model are unreliable, so too is Opinion No.
+2B, which expresses Mr. Stutz’s conclusion based on those unreliable emission rates.
+Accordingly, the Court will exclude Mr. S tutz’s testimony related to the Hwy 90
+Landfill as unreliable under Rule 702. 106 The Court also finds th e probative value of Mr.
+Stutz’s testimony on the Hwy 90 Landfill is substantially outweighed by the risk of
+misleading the jury. Thus, the Court will also exclude Mr. Stutz’s testimony related to the
+Hwy 90 Landfill under Rule 403.
+
+103 Mr. Stutz represents 2,900 ppm is a “reasonable and representative H2S concentration” for the Hwy 90
+Landfill, but derived that figure by calculating th e simple average of the highest and lowest H2S
+concentrations observed at Hwy 90 during the February 2008 Study. Stutz Rep., R. Doc. 558-2 at p. 16.
+Data from the February 2008 Study on which Mr. Stutz relies is limited—the document is one page and
+summarily provides “[t]he concentrations [of H2S] observed ranged from 2,000 ppm to 3,800 ppm.” See
+id. at p. 478. Even if the operational history of Hwy 90 did not raise issues concerning the reliability of the
+H2S value used in Mr. Stutz’s Hwy 90 Model, the methodology employed by Mr. Stutz in deriving the value
+based on this limited evidence makes it unreliable. Mr. Stutz offers no support for the proposition that the
+derivation of an H2S concentration on such scant data  is “generally accepted in the scientific community”
+or otherwise “rests on a reliable foundation.” See Daubert, 509 U.S. at 590, 597; Bocanegra, 320 F.3d at
+584–85 (citing Daubert, 509 U.S. at 593–94). Without support, Mr. Stutz’s unfounded and speculative
+extrapolation of the limited data is unreliable under Rule 702.
+104 In re Pool Products, 166 F. Supp. 3d at 662 (citing Daubert, 509 U.S. at 596).
+105 FED. R. EVID. 702.
+106 Mr. Stutz may not testify as to the portion of Opinion No. 2B that expresses emission rates for the Hwy
+90 Landfill, nor may he testify as to the portions of his other opinions that express findings related to the
+Hwy 90 Landfill.
+Case 2:19-cv-11133-SM-MBN   Document 703   Filed 07/31/24   Page 18 of 24
+19
+II. Mr. Stutz may offer testimony on the JPLF and the RBLF.
+
+A. Mr. Stutz’s testimony on the JPLF and RBLF will not be excluded
+under Rule 702.
+
+Plaintiffs also seek to exclude the port ion of Opinion No. 2B  in which Mr. Stutz
+expresses findings related to the JPLF and the RBLF under Rule 702. 107 Plaintiffs argue
+Mr. Stutz improperly neglects to calculate the total H2S that may be generated from
+material at the landfills, which renders his modeled H2S emissions fr om those facilities
+“nothing more than a wild guess.”108 Specifically, Plaintiffs claim Mr. Stutz’s modeled H2S
+emissions from the JPLF are not the product of reliable principles or methods because his
+model does not account for “the forty-six million [] pounds of spent lime buried in [Phase
+IVA].”109 Plaintiffs also contend Mr. Stutz’s fi ndings on the JPLF and the RBLF, as
+expressed in Opinion No. 2B, “ignore[] site-spe cific data like the robust gas collections
+system and synthetic liner at [the RBLF], which the JPLF did not have, and the serious
+leachate collection problems and landfill cover issues that [the] JPLF did have.”110
+In opposition, the Defendants argue Mr. Stutz’s modeled H2S emission rates from
+the JPLF and RBLF are reliable because he “used modeling factors and methods that are
+well established within the solid waste industry and accepted by regulatory authorities.”111
+With respect to the RBLF, the Defendants contend Mr. Stutz derived H2S concentrations
+from “site-specific data based on measur ed gas generation rates and information
+reported” by the RBLF to the LDEQ. 112 With respect to the JPLF, the Defendants claim
+Mr. Stutz based H2S concentrations on “actual[] measure[ments] at the JPLF,” on which
+
+107 R. Doc. 558-1 at pp. 13-14.
+108 Id. at p. 13.
+109 Id. at pp. 14-15.
+110 Id. at pp. 13-14.
+111 R. Doc. 590 at p. 11.
+112 Id.
+Case 2:19-cv-11133-SM-MBN   Document 703   Filed 07/31/24   Page 19 of 24
+20
+the Plaintiffs’ H2S emissions models also rely. 113 The Defendants further contend any
+elevated H2S concentration attributable to the spent lime at the JPLF is reflected in those
+actual measurements.114
+The Court has reviewed the bases of the po rtions of Opinion No. 2B related to the
+JPLF and the RBLF. Unlike the H2S concentration used in his Hwy 90 Model, a review of
+Opinion Nos. 1B and 2B reveals the H2S concentrations Mr. Stutz used in the H2S
+Generation Models for the JPLF and the RBLF (the “JPLF Model” and “RBLF Model,”
+respectively) are more “grounded in the methods and procedures of science” 115 than in
+Mr. Stutz’s unsupported speculative or subjective belief. With respect to the JPLF Model,
+Mr. Stutz represents he “uses the same av erage H2S concentrations as the Plaintiffs’
+experts,”116 and Plaintiffs do not challenge this assertion. With respect to the RBLF Model,
+although Mr. Stutz’s H2S concentration is based on limited data, the H2S concentration
+is based on a study from June 2018, during the relevant time period. 117 Further, unlike
+Hwy 90, Plaintiffs do not raise any facts concerning changes in the RBLF’s operations to
+challenge Mr. Stutz’s assumption that the H2S concentration at RBLF would be constant
+during the relevant time period. To the extent Plaintiffs challenge Mr. Stutz’s omission of
+site-specific data, including his failure to calculate the total H2S generated at the landfills,
+the Court finds these concerns go to the weight  of Mr. Stutz’s opinions rather than their
+reliability and should be left fo r the factfinder’s consideration. 118 The Plaintiffs may
+
+113 R. Doc. 590 at p. 11, 16.
+114 Id. at p. 11.
+115 Johnson, 685 F.3d at 459.
+116 Stutz Rep., R. Doc. 558-2 at p. 19.
+117 Id. (citing River Birch’s June 2018 Part 70 (Title V) Operating Permit Application, id. at p. 475).
+118 United States v. 14.38 Acres of Land, 80 F.3d at 1077.
+Case 2:19-cv-11133-SM-MBN   Document 703   Filed 07/31/24   Page 20 of 24
+21
+express these concerns at trial through “[v]igorous cross-examination [and] presentation
+of contrary evidence.”119
+Accordingly, Mr. Stutz’s testimony related to the RBLF and the JPLF will not be
+excluded under Rule 702.
+B. Mr. Stutz’s testimony on the JPLF will not be excluded under the
+law-of-the-case doctrine.
+
+Plaintiffs seek to exclude the remaining contested opinions—Opinion Nos. 1, 1D,
+2A, 2C, 4A, 4B, 4D, 4E, 4F, 4G, and 4H, and po rtions of Opinion Nos. 1A, 1B, 1C, and 1E
+related to the JPLF—on the basis that the opin ions relate to issues adjudicated in the
+general causation phase and should be excluded under the law-of-the-case doctrine.120 In
+opposition, the Defendants claim the Court’s General Causation Order “did not find any
+specific emission rate of H2S” from the JPLF or otherwise “adopt any expert’s emissions
+modeling, so there is no expert modeling that could be now binding on Mr. Stutz.”121 Thus,
+the Defendants contend, Mr. Stutz’s opinions on the JPLF were provided in a timely
+manner and should not be excluded under the law-of-the-case doctrine.122
+As affirmed in the Court’s Order and Reasons issued on July 3, 2024, “the issue of
+general causation was ‘actually decided’ by the Court’s General Causation Order”123 and
+“findings of fact and conclusions of law expressed therein” will not be revisited. 124 The
+Court found that, “at times during the releva nt time period odors and gases, including
+hydrogen sulfide, were being emitted by the Je fferson Parish Landfill in levels of at least
+
+119 Daubert, 509 U.S. at 596; see also 14.68 Acres of Land , 80 F.3d at 1078 (quoting Daubert, 509 U.S. at
+596).
+120 R. Doc. 558-1 at p. 13.
+121 R. Doc. 590 at p. 15.
+122 Id.
+123 See General Causation Order, R. Doc. 323.
+124 R. Doc. 642 at p. 9 (quoting Alpha/Omega Ins. Servs. v. Prudential Ins. Co. of Am. , 272 F.3d 276, 279
+(5th Cir. 2001)).
+
+Case 2:19-cv-11133-SM-MBN   Document 703   Filed 07/31/24   Page 21 of 24
+22
+5 ppb of hydrogen sulfide over thirty minutes.”125 However, the General Causation Order
+did not determine particular H2S emission ra tes for the JPLF during the relevant time
+period. Thus, with respect to the H2S emi ssions models, the General Causation Order
+only established that at times the H2S concent ration at the surface of the landfill was at
+least 5 ppb over thirty minutes during the relevant time period. Although Plaintiffs
+contend the contested opinions are “[an] ob vious attempt to redo what was already
+done—and should have already been done during General Ca usation,” they do not cite
+any portion of the General Causation Orde r in which the Court established an H2S
+emission rate.126
+The Court has reviewed the Stutz Report and finds Plaintiffs’ argument is without
+merit. Table 4 of the Stutz Report provides  a comparison of 2019 H2S concentrations at
+the JPLF, which identifies an average H2S con centration at the JP LF Phase IVA of: (1)
+3,633 ppm (i.e., 3,633,000 ppb) collected inside the landfill; (2) 0.43 ppm (i.e., 430 ppb)
+at the landfill surface; and (3) 1.126 ppm (i.e., 1,126 ppb) collected from ambient readings
+at approximately three feet from the landfill surface. 127 To the extent the Plaintiffs
+challenge Mr. Stutz’s opinions under the la w-of-the-case doctrine, Mr. Stutz input the
+H2S concentration of 3,633 ppm into his JPLF  Model for Phase IVA, which is the same
+figure relied upon by Plai ntiffs’ H2S emissions model.128 This figure is several orders of
+magnitude greater than the 5 ppb H2S concent ration the Court found the JPLF emitted
+“at times during the relevant time period.” 129 Because Mr. Stutz’s JPLF Model does not
+
+125 General Causation Order, R. Doc. 323 at p. 44.
+126 See R. Doc. 558-1 at p. 13.
+127 Stutz Rep., R. Doc. 558-2 at p. 16.
+128 Tables 17 and 18 in the Stutz Report indicate the JPLF models of both Plaintiffs’ experts and Mr. Stutz
+use a concentration of 3,633 ppm for the JPLF Phase IVA. See id. at p. 30.
+129 See General Causation Order, R. Doc. 323 at p. 44.
+Case 2:19-cv-11133-SM-MBN   Document 703   Filed 07/31/24   Page 22 of 24
+23
+contravene the law-of-the-case with respect to the H2S emissions decided by the Court’s
+General Causation Order, Mr. Stutz’s testimony related to modeled H2S emission rates
+from the JPLF will not be excluded based on the law-of-the-case doctrine.
+Having reviewed the Stutz Report, the Court also finds several assertions
+purported to be opinions therein actually express methodology underlying substantive
+opinions or rebuttal of Plaintiffs’ experts’ opinions. The entirety of Opinion Nos. 1, 1A, 1B,
+1C, and 1E, 130 and a portion of Opinion No. 1D, 131 express Mr. Stutz’s methodology
+underlying his substantive expert opinions. The entirety of Opinion Nos. 4A, 4B, 4D, 4E,
+4F, 4G, and 4H,132 and portions of Opinion Nos. 1D,133 2A,134 and 2C,135 contain Mr. Stutz’s
+rebuttal of Plaintiffs’ experts’ opinions. To the extent the portion of Mr. Stutz’s Report
+explaining his methodologies is necessary to establish the foundation of his testimony on
+the JPLF and/or the RBLF, the opinions are not excluded. Mr. Stutz’s rebuttal of
+Plaintiffs’ experts’ opinions on the JPLF an d/or RBLF is likewise not excluded to the
+extent Plaintiffs’ experts testify to those opinions.
+Accordingly;
+
+130 Stutz Rep., R. Doc. 558-2 at p. 6.
+131 The portion of Opinion No. 1D expressing method ology underlying Mr. Stutz’s opinions is: “Soil
+oxidation within landfill cover soils is widely accepted in the industry.” Id.
+132 Id. at p. 7.
+133 The portion of Opinion No. 1D expressing Mr. Stutz’s rebuttal opinion is: “However, soil oxidation was
+proven at JPLF by outside engineering firms as well as  the Plaintiffs’ own study of the site, which showed
+that soil oxidation did actually occur.” Id. at p. 6.
+134 The portion of Opinion No. 2A expressing Mr. St utz’s rebuttal opinion is: “The Plaintiffs’ experts
+disregard industry standards and scientific research. They created methodologies that had never been used
+before and chose to use the highest unvalidated numbers which made their H2S emission estimates inflated,
+unreliable, and not representative of the site.” Id.
+135 The portion of Opinion No. 2C expressing Mr. St utz’s rebuttal opinion is: “The Plaintiffs’ experts
+disregarded industry standards and scientific resear ch, created methodologies that had never been used
+before, and chose to use the highest unvalidated numbers which made their H2S emission estimates
+inflated, unreliable, and not representative of the site.” Id.
+Case 2:19-cv-11133-SM-MBN   Document 703   Filed 07/31/24   Page 23 of 24
+24
+CONCLUSION
+IT IS ORDERED that the Plaintiffs’ motion to exclude expert testimony of
+Matthew Stutz is GRANTED IN PART AND DENIED IN PART.136 Mr. Stutz may not
+offer testimony related to the Hwy 90 Landfi ll. Mr. Stutz may offer testimony related to
+the JPLF and the RBLF. Mr. Stutz may offer his rebuttal of Plaintiffs’ experts’ opinions on
+the JPLF and RBLF, as necessary, but may not offer rebuttal opinion related to the Hwy
+90 Landfill.
+New Orleans, Louisiana, this 31st day of July, 2024.
+
+________________________________
+SUSIE MORGAN
+UNITED STATES DISTRICT JUDGE
+
+136 R. Doc. 558.
+Case 2:19-cv-11133-SM-MBN   Document 703   Filed 07/31/24   Page 24 of 24

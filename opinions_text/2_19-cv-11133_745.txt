@@ -1,0 +1,732 @@
+1
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+FREDERICK E. ADDISON, SR., ET AL.,
+Plaintiffs
+CIVIL DOCKET
+
+VERSUS
+
+NO.  19-11133
+          c/w 19-14512
+
+LOUISIANA REGIONAL LANDFILL
+COMPANY, ET AL.,
+Defendants
+SECTION: “E” (5)
+
+Applies to: Both Cases
+
+ORDER AND REASONS
+ Before the Court is a contested Motion in Limine 1 filed by Defendants seeking to
+exclude testimony of Dr. Susan Schiffman, a purported expert in malodors and their
+impact on humans.2 The Plaintiffs filed a memorandum in opposition. 3 The Defendants
+filed a reply in support of their Motion in Limine.4
+BACKGROUND
+This case concerns the operation of the Jefferson Parish Landfill in Waggaman,
+Louisiana (“JPLF” or the “Landfill”), and the resulting odors emitted from the Landfill
+between July 1, 2017, and December 31, 2019 (the “relevant time period”). Plaintiffs, who
+are Jefferson Parish residents, filed several individual lawsuits that were consolidated
+into a mass action, Addison v. Louisiana Regional Landfill Co., which contains over 500
+
+1 R. Doc. 563.
+2 See R. Doc. 416, pp. 3-4.
+3 R. Doc. 595.
+4 R. Doc. 626.
+Case 2:19-cv-11133-SM-MBN   Document 745   Filed 08/10/24   Page 1 of 23
+2
+individual Plaintiffs.5 Plaintiffs assert negligence an d nuisance claims under Louisiana
+state law6 against Defendants: Jefferson Parish, which owns and contracts with others to
+operate the Landfill; Aptim Corporation, wh ich managed the gas and leachate collection
+systems of the Landfill from July 2017 to May 2019; and the Waste Connections
+Defendants, which operated the Landfill from May 2013 to December 2020.7
+On November 5, 2019, the Court issued the first Case Management Order (“CMO”),
+which established a bifurcated litigation sc hedule under which the issue of general
+causation would be resolved first. 8 The Court held a trial on general causation in early
+2022.9 On November 29, 2022, the Court issued its Findings of Fact and Conclusions of
+Law as to General Causation (the “General Causation Order”),10 determining that, during
+the relevant time period: (1) odors an d gases were emitted by the Landfill; 11 (2) the
+emissions of gases and odors from the Landfill occurred during the relevant time period;12
+and (3) exposure to the odors and gases emitted by the Landfill at a level of five parts per
+billion for thirty minutes “is sufficient by itself for individuals generally to be able to smell
+hydrogen sulfide and for the exposure to cause a reaction.”13 Having found that Plaintiffs
+established general causation for certain Allo wed Injuries, the Court ordered that a trial
+be conducted with a select number of Addison Plaintiffs (the “Trial Plaintiffs”).14 The first
+
+5 See generally S e c o n d  A m e n d e d  C o m p l a i n t ,  R .  D o c .  4 3 1 .  J e f f e r s o n  P a r i s h  r e s i d e n t s  a l s o  f i l e d  s e v e r a l
+related class actions, which were consolidated into one case, Ictech-Bendeck v. Waste Connections Bayou,
+Inc. See R. Doc. 48 (18-7889).
+6 See Second Amended Complaint, R. Doc. 431 at p. 64.
+7 Id. at pp. 52-53.
+8 R. Doc. 80 at pp. 1-2.
+9 R. Docs. 274-278, 286-289.
+10 R. Doc. 323.
+11 Id. at p. 5.
+12 Id. at p. 26.
+13 Id. at p. 27.
+14 Id. at pp. 44, 46. See also R. Doc. 642 (defining the Allowed Injuries).
+Case 2:19-cv-11133-SM-MBN   Document 745   Filed 08/10/24   Page 2 of 23
+3
+Addison trial was set to begin on September 5, 2023, 15 and has since been continued to
+begin on August 12, 2024 (the “first Addison Trial”).16
+At the first Addison trial, Plaintiffs intend for Dr. Susan Schiffman to testify
+“regarding the injuries, severity, and effect s of malodors emanating from the Jefferson
+Parish Landfill on the specific Addison Trial Plaintiffs.”17
+In February 2024, the Court issued th e Thirteenth CMO, which required the
+parties to file all motions in limine regarding expert testimony in the first Addison trial
+by June 6, 2024.18 The Defendants timely filed their Motion in Limine seeking to preclude
+Dr. Schiffman from offering testimony related to certain opinions expressed in her Report
+under Federal Rule of Evidence 702.19
+LEGAL STANDARD
+I. Federal Rule of Evidence 702 Standard
+Rule 702 of the Federal Rules of Eviden ce governs the admissibility of expert
+witness testimony:
+A witness who is qualified as an expert by knowledge, skill, experience,
+training, or education may testify in the form of an opinion or otherwise if:
+(a) the expert’s scientific, technical, or other specialized knowledge will help
+the trier of fact to understand the evidence or to determine a fact in issue;
+(b) the testimony is based on sufficient facts or data; (c) the testimony is the
+product of reliable principles and meth ods; and (d) the expert has reliably
+applied the principles and methods to the facts of the case.20
+
+15 R. Doc. 340.
+16 R. Doc. 495.
+17 R. Doc. 416 at pp. 3-4.
+18 R. Doc. 498 at p. 6.
+19 R. Doc. 563-1; FED. R. EVID. 702.
+20 FED. R. EVID. 702.
+Case 2:19-cv-11133-SM-MBN   Document 745   Filed 08/10/24   Page 3 of 23
+4
+Testimony from a qualified expert is admissible only if it is both relevant and reliable. 21
+Thus, the threshold inquiry is whether th e expert witness possesses the requisite
+qualifications to render an opinion on particular subject matter.22
+If the expert’s qualifications are found to be sufficient, the court must then examine
+whether the expert’s opinions are reliable and relevant. 23 The United States Supreme
+Court’s decision in Daubert v. Merrell Dow Pharmaceuticals, Inc. ,24 provides the
+analytical framework for determining whether expert testimony is admissible under Rule
+702. “Under Daubert, Rule 702 charges trial courts to act as ‘gate-keepers,’ making a
+‘preliminary assessment of whether the reasoning or methodology underlying the
+testimony is scientifically valid,’”25 and of whether that reasoning or methodology “can be
+reliably applied to the facts of the case.”26 The party offering the expert opinion must show
+by a preponderance of the evidence that the expert’s testimony is reliable and relevant.27
+ “[E]xpert testimony proffered” must be “s ufficiently tied to the facts of the case
+that it will aid the jury in resolving a factual dispute.” 28 This is essentially a relevance
+requirement—relevant evidence, including rele vant expert testimony, is that which has
+“any tendency to make the existence of any fact that is of consequence to the
+determination of the action more probable or  less probable than it would be without the
+
+21 Pipitone v. Biomatrix, Inc., 288 F.3d 239, 244 (5th Cir. 2002).
+22 Wagoner v. Exxon Mobil Corp., 813 F. Supp. 2d 771, 798 (E.D. La. 2011). See also Wilson v. Woods, 163
+F.3d 935, 937 (5th Cir. 1999) (“A district court should refuse to allow an expert to testify if it finds that the
+witness is not qualified to testify in a particular field or a given subject.”).
+23 United States v. Valencia, 600 F.3d 389, 424 (5th Cir. 2010).
+24 509 U.S. 579 (1993).
+25 See Pipitone, 288 F.3d at 243–44 (quoting Daubert, 509 U.S. at 592–93).
+26 Valencia, 600 F.3d at 423–24; Knight v. Kirby Inland Marine Inc. , 482 F.3d 347, 352 (5th Cir. 2007).
+See also Burleson v. Texas Dep’t of Crim. Just., 393 F.3d 577, 584 (5th Cir. 2004); Bocanegra v. Vicmar
+Servs., Inc., 320 F.3d 581, 584–85 (5th Cir. 2003).
+27 Mathis v. Exxon Corp., 302 F.3d 448, 459–60 (5th Cir. 2002).
+28 Denley v. Hartford Ins. Co. of Midwest, 07-4015, 2008 WL 2951926, at *3 (E.D. La. July 29, 2008) (citing
+Daubert, 509 U.S. at 591).
+Case 2:19-cv-11133-SM-MBN   Document 745   Filed 08/10/24   Page 4 of 23
+5
+evidence.”29 With respect to the proper scope of expert testimony, Rule 704 provides that
+“testimony in the form of an opinion or  inference otherwise admissible is not
+objectionable because it embraces an ultimate  issue to be decided by the trier of fact.” 30
+Nevertheless, “[i]f the expert’s testimony brings no more to the finder of fact than the
+lawyers can offer in argument, the expert’s opinions should be excluded.”31
+“[A]n expert may never render conclusions of law,”32 as that “would constitute an
+invasion of ‘the province of the court to determine the applicable law and to instruct the
+jury as to that law.’”33 Allowing such expert testimony in a jury trial is both unhelpful and
+harmful because
+the jury would be very susceptible to adopting the expert's conclusion rather
+making its own decision. There is a certain mystique about the word ‘expert’
+and once the jury hears of the [expert]’s experience and expertise, it might
+think the witness even more reliable th an the judge. If an expert witness
+were allowed to testify to legal questi ons, each party would find an expert
+who would state the law in the light most favorable to its position. Such
+differing opinions as to what the law is would only confuse the jury.34
+
+Accordingly, expert testimony that o ffers a legal opinion is inadmissible. 35
+Moreover, “expert testimony on matters whic h a jury is capable of understanding and
+
+29 Cunningham v. Bienfang, 2002 WL 31553976 (N.D. Tex. Nov. 15, 2002).
+30 FED. R. EVID. 704.
+31 Sudo Props., Inc. v. Terr ebone Par. Consol. Gov’t, 04-2559, 2008 WL 2623000, at *8 (E.D. La. July 2,
+2008).
+32 Goodman v. Harris Cnty., 571 F.3d 388, 399 (5th Cir. 2009).
+33 Willette v. Finn, 778 F. Supp. 10, 11 (E.D. La. 1991) (quoting United States v. Scop, 846 F.2d 135, 139 (2d
+Cir. 1988)); Snap-Drape, Inc. v. Comm'r, 98 F.3d 194, 198 (5th Cir. 1996); Goodman, 571 F.3d at 399.
+34 Cefalu v. Edwards , 2013 WL 5592947, at *1 (quoting Askanase v. Fatjo , 130 F.3d 657, 673 (5th Cir.
+1997)); see also Jarrow v. Cupit , 99-3539, 2000 WL 1537989, at *2 (E.D. La. Oct. 17, 2000) (“[I]t is the
+Court’s role, not that of one party’s expert witness, to  instruct the jury on the law of this case. The law
+‘requires only one spokesperson . . . who of course is the judge.” (quoting Specht v. Jensen, 853 F.2d 805,
+807 (10th Cir. 1988))).
+35 Estate of Sowell v. United States of America, 198 F.3d 169 (5th Cir. 1999); Askanase, 130 F.3d at 669.
+Case 2:19-cv-11133-SM-MBN   Document 745   Filed 08/10/24   Page 5 of 23
+6
+deciding without an expert’s help should be excluded,” 36 because expert testimony is
+appropriate only when it will assist the trier of fact.37
+ “A district court's gatekeeper function does not replace the traditional adversary
+system or the role of the jury within this system.”38 “Although the jury ultimately decides
+the ‘weight’ of the evidence, the judge ensures there is suffi cient probative value . . . to
+justify submitting the issue in the first instance.”39 Rule 403 also allows the trial court to
+“exclude relevant evidence if its probative va lue is substantially outweighed by a danger
+of one or more of the following: unfair prej udice, confusing the issues, misleading the
+jury, undue delay, wasting time, or needlessly presenting cumulative evidence.”40 “‘Unfair
+prejudice’ . . . means an undue tendency to  suggest decision on an improper basis,
+commonly, though not necessarily, an emotional one.” 41 Because “Rule 403 is meant to
+relax the iron rule of relevance, to permit the trial judge to preserve the fairness of the
+proceedings by exclusion despite its relevanc e,” “the application of Rule 403 must be
+cautious and sparing.”42 Indeed, as the Fifth Circuit has proclaimed, the “major function”
+of Rule 403 “is limited to excluding matter of scant or cumulative probative force, dragged
+in by the heels for the sake of its prejudicial effect.”43
+ “Vigorous cross-examination, presentation of contrary evidence, and careful
+instruction on the burden of proof are the traditional and appropriate means of attacking
+
+36 Jarrow, 2000 WL 1537989, at *2.
+37 Id. Rule 702 requires the expert’s knowledge must “help the trier of fact to understand the evidence or to
+determine a fact in issue.” FED. R. EVID. 702(a).
+38 In re Pool Products, 166 F. Supp. 3d at 661 (citations omitted).
+39 Daniel D. Blinka, Expert Testimony and the Relevancy Rule in the Age of Daubert, 90 MARQ. L. REV. 173,
+191 (2006).
+40 FED. R. EVID. 403.
+41 Old Chief v. United States, 519 U.S. 172, 180 (1997).
+42 United States v. Thevis, 665 F.2d 616, 633 (5th Cir. 1982).
+43 United States v. McRae, 593 F.2d 700, 707 (5th Cir. 1979).
+Case 2:19-cv-11133-SM-MBN   Document 745   Filed 08/10/24   Page 6 of 23
+7
+shaky but admissible evidence.”44 “As a general rule, questions relating to the bases and
+sources of an expert’s opinion affect the weight to be assigned that opinion rather than its
+admissibility and should be left for the [factfinder’s] consideration.”45 It is “the role of the
+adversarial system, not the court, to highlight weak evidence.”46 “Courts break from this
+general rule in exceptional circumstances, such  as when an expert’s testimony relies on
+‘completely unsubstantiated factual assertions.’”47
+LAW AND ANALYSIS
+Dr. Schiffman expressed 5 major opinions in her report:48
+Opinion 1: Malodor perception and psyc hological effects. The salient odor
+quality of the emissions reported by the trial plaintiffs was “rotten eggs” and
+“sulfur” that are characteristic descriptions of the aversive odor of H2S.
+Qualities of “trash/garbage/waste” an d “sewage” that contain H2S were
+salient as well.  The trial plaintiffs’ descriptions of the odors are consistent
+with the reports by other non-trial residents of the affected areas.  Aversive
+and noxious odors caused negative emotions including anxiety and worry.
+
+Opinion 2: Malodor FIDO and Daily Activities. The exposure to the aversive
+odors from the JPLF was frequent, temporally unpredictable, and
+uncontrollable. It significantly interfered with the tria l plaintiffs’ daily
+activity, quality of life, and as well as use and enjoyment of their property.
+
+Opinion 3: Malodor source – the JPLF. The maximum 30-minute and
+hourly averages of H2S emitted to the Addison plaintiffs’ locations from the
+JPLF as modeled by CALPUFF exceed the hourly average of H2S measured
+by LDEQ in that vicinity.  Although LDEQ clearly documented elevated
+levels of H2S in these communities, their measurements over short discrete
+intervals significantly underestimated the magnitude of H2S emissions
+during the years 2017-2019. Volatile  organic compounds (VOCs) detected
+in the community where the plainti ffs reside are consistent with the
+fingerprint of VOCs emitted by the JPLF (P=2.28E−15).  The fingerprint of
+VOCs along with additional documents and evidence indicate that JPLF was
+the source of the malodors experienced by the trial plaintiffs.
+
+44 Daubert, 509 U.S. at 596; see also United States v. 14.38 Acres of Land , 80 F.3d 1074, 1078 (5th Cir.
+1996) (quoting Daubert, 509 U.S. at 596).
+45 14.38 Acres of Land, 80 F.3d at 1077.
+46 Primrose Operating Co. v. Nat'l Am. Ins. Co., 382 F.3d 546, 563 (5th Cir. 2004).
+47 McCrary v. John W. Stone Oil Distrib., L.L.C. , 14-880, 2016 WL 760744, at *3 (E.D. La. Feb. 26, 2016)
+(citing Hathaway v. Bazany, 507 F.3d 312, 319 n.4 (5th Cir. 2007)).
+48 R. Doc. 563-4, pp. 9-35.
+Case 2:19-cv-11133-SM-MBN   Document 745   Filed 08/10/24   Page 7 of 23
+8
+
+Opinion 4: Malodor health effects. The malodorous emissions from the
+JPLF are the major contributor to the health complaints reported by the
+trial plaintiffs.
+
+Opinion 5: Malodor lasting impact. Learned odor aversions likely resulted
+from pairing of adverse biological effects with noxious emissions and odor;
+these conditioned odor aversions will li kely persist for the plaintiffs over
+time.
+
+The Defendants seek to exclude Dr. Schi ffman’s testimony on the following four
+grounds: (1) Dr. Schiffman lacks expertise to opine on whether hydrogen sulfide (“H2S”)
+lingered inside the Trial Plaintiffs’ homes; (2) Dr. Schiffman lacks expertise to testify as
+to Defendants’ best management practices for waste disposal; (3) Dr. Schiffman lacks
+sufficient evidence that the Trial Plaintiffs were actually exposed to VOCs, which should
+preclude her from offering testimony on the subject, and her opinion is unreliable; and
+(4) Dr. Schiffman generally fails to provide a specific causation analysis in her expert
+report because she has failed to properly eval uate the Trial Plaintiffs by ruling out other
+causes of their injuries. 49 Defendants seek to exclude Dr. Schiffman’s testimony under
+Rule 702, insofar as the opinions expressed in her report improperly opine beyond the
+scope of Dr. Schiffman’s expertise, are based on speculative, unreliable methodology, and
+do not meet Fifth Circuit requirements for specific causation.50
+Because the first Addison Trial is a jury trial, Defendants emphasize the need for
+the Court to apply the more rigorous Daubert standard to Dr. Schiffman’s testimony in
+comparison to the Court’s determinations during the general causation trial.51 The Court
+will apply the more rigorous Daubert standard to the determination of this motion.
+
+49 R. Doc. 563-1, pp. 2-4.
+50 See generally id.
+51 Id. at pp. 5-6.
+Case 2:19-cv-11133-SM-MBN   Document 745   Filed 08/10/24   Page 8 of 23
+9
+Dr. Schiffman will be allowed to test ify on her Opinion 1 with respect to
+malodor perception, psychological effects, and negative emotions caused by
+noxious odors.
+
+In her first opinion, Dr. Schiffman concl udes that based on her comparison of
+complaints made by the Trial Plaintiffs to th e scientific literature on odor exposure and
+its effects, it is likely that “the malodors from the JPLF experienced by neighbors over the
+period of 2017-2019 impaired their mood and overall health.”52 Dr. Schiffman opines that
+noxious odors cause negative emotions incl uding anxiety and worry. In her opinion,
+genetic and biological effects of malodors  have an anatomical basis because brain
+structures and neural circuity that mediate odor overlap with those involved in emotions.
+Dr. Schiffman describes the scientific process for determining how hydrogen
+sulfide odors are perceived by individuals,  and she discusses the scientific studies
+assessing the effects of odor exposure on individuals. 53 Dr. Schiffman reviews the Trial
+Plaintiffs’ depositions, ascertains their descriptions of the odor they experienced and their
+“characterization of odor characteristics,” and explains how these characteristics of the
+odor were consistent with analyses perf ormed by the Louisiana Department of
+Environmental Quality (“LDEQ”) and hydrogen sulfide odors examined in other
+studies.54 For example, Dr. Schiffman describes a study from Heaney, et al. assessing
+individuals who resided near landfills emitting  hydrogen sulfide; when hydrogen sulfide
+emissions were high, study participants re ported higher rates of negative mood. 55 Dr.
+Schiffman also opines that these odors prod uce negative feelings like “anxiety, worry,
+[and] stress.”56 Upon reviewing scientific studies of the psychological effects of odors on
+
+52 R. Doc. 563-4, p. 14.
+53 Id. at pp. 9-15.
+54 Id. at p. 11.
+55 Id. at p. 14.
+56 Id. at p. 12.
+Case 2:19-cv-11133-SM-MBN   Document 745   Filed 08/10/24   Page 9 of 23
+10
+communities, Dr. Schiffman concludes that “th e malodors from the JPLF . . . impaired
+[the Trial Plaintiffs’] mood . . . [as] [m ]alodor is an environmental stressor with
+psychological, biological, and social consequences.”57
+The Defendants do not challenge this opinion in Dr. Schiffman’s expert report. The
+Court finds Dr. Schiffman employs a sufficien tly reliable methodology in Opinion 1 to
+withstand Daubert scrutiny, and she will be permitted to testify to these opinions at
+trial.58
+Dr. Schiffman will be allowed to testify on her Opinion 2 with respect to the
+impact hydrogen sulfide odors are capable of producing on daily lives,
+including quality of life and use and enjoyment of property. Dr. Schiffman
+will be allowed to testify as to the ling ering effect of hydrogen sulfide in the
+air and the ability of hydrogen sulfid e to accumulate and concentrate in
+homes and low-lying areas. Dr. Schiffm an will not be allowed to testify
+regarding the number of times the Tr ial Plaintiffs experienced malodors
+during the relevant time period because this testimony is more appropriately
+given during Mr. Lape’s discussion of his dispersion modelling.
+
+In her second opinion, Dr. Schiffman opines that exposure to the odors was
+“frequent, temporally unpredictable, and uncontrollable,” which significantly interfered
+with the Trial Plaintiffs’ day-to-day acti vities and enjoyment of their property. 59 Dr.
+Schiffman reviews Plaintiff’s expert James Lape’s CALPUFF dispersion model, in which
+he relied upon emission rates calculated by Plaintiffs’ experts Dr. Jaana Pietari and Jose
+Sananes, to “estimate the average exposure s at the homes of the trial plaintiffs.” 60 After
+reviewing the odor incidents at each Plaint iffs’ home, Dr. Schiffman opines as to the
+frequency and duration of odor exposure for each Trial Plaintiff. 61 Dr. Schiffman also
+
+57 Id. at pp. 14-15.
+58 Dr. Schiffman will not be allowed to base her opinions on the reports of non-party residents of Jefferson
+Parish except with respect to the Facebook page created during this time period.
+59 Id. at p. 15.
+60 Id.
+61 See id. at p. 18.
+Case 2:19-cv-11133-SM-MBN   Document 745   Filed 08/10/24   Page 10 of 23
+11
+attributes “differences” between the modeling and other information with regards to the
+Trial Plaintiffs’ odor exposure to be “explained by the lingering of [hydrogen sulfide] in
+the air after dispersion.” 62 Dr. Schiffman then connects the odor emissions to the
+“alterations in daily life reported by the trial plaintiffs in response to the malodors”63 and
+opines that the Trial Plaintiffs’ frequent exposure to odors “substantially altered the daily
+activity of the trial plaintiffs,” such as through contributing to uncontrollable,
+unpredictable stress, increased isolation, and a decreased quality of life.64
+In her deposition, Dr. Schiffman reiterated her opinion on the capacity for
+hydrogen sulfide to “linger” inside homes and “collect in low places.”65 She described how
+hydrogen sulfide collects “under the stairs, [and] in . . . basements” based on her review
+of government agency data, 66 and she opined that because hydrogen sulfide is heavier
+than air, it accumulates “under” plac es like the kitchen sink and stairs. 67 Though Dr.
+Schiffman confirmed she never personally examined the individual Trial Plaintiffs’ homes
+in reaching her opinions,68 she described her experience conducting studies and “finding
+[hydrogen sulfide levels] higher inside than outside” because it was “building up and . . .
+not degrading as fast.”69
+Defendants challenge Dr. Schiffman’s qualifications with respect to the portion of
+Opinion 2 which opines on how hydrogen sulfide “lingers” in areas of Plaintiffs’ homes
+because her expertise is in “odor percepti on and its psychological effects,” not air
+
+62 Id. at p. 19.
+63 Id. at pp. 20-21.
+64 Id. at pp. 22-23.
+65 R. Doc. 563-5, p. 25.
+66 Id.
+67 R. Doc. 563-6, p. 5.
+68 R. Doc. 563-4, p. 27.
+69 R. Doc. 563-6, pp. 6-7.
+Case 2:19-cv-11133-SM-MBN   Document 745   Filed 08/10/24   Page 11 of 23
+12
+dispersion.70 Further, Defendants briefly argu e Dr. Schiffman has not followed any
+reliable or peer-reviewed method ology in support of her opinion. 71 Though Plaintiffs
+argue Defendants’ first challenge to Dr. Schi ffman’s qualifications is improper because
+the Court has previously adjudicated the issu e at the general causation trial, the Court
+disagrees. This Court has not ruled whether hydrogen sulfide odors lingered inside these
+particular Trial Plaintiffs’ homes in this matter.72
+In her report, Dr. Schiffman asserts she has worked in the field of odor assessment
+and effects for over fifty year s, and she has served as a pr ofessor of medical psychology,
+biomedical engineering, and biological and agricultural engineering.73 Dr. Schiffman has
+performed research for over thirty years on malodors in outdoor air, ambient odors from
+swine operations, wastewater treatment facilities, and landfills.74 She has investigated the
+“psychological [and] molecular investigatio ns of malodourous emissions, as well as
+instrumentation for measuring signals from odorous compounds at confined swine
+facilities and landfills.” 75 She has published extensively on the malodorous emissions,
+including hydrogen sulfide and ammonia, and has worked in researching and evaluating
+alternative technologies for odor remediation.76
+Relevant to Defendants’ arguments, in her report, Dr. Schiffman opines as to how
+the odorous emissions negatively affected the Plaintiffs’ daily lives and interfered with the
+use and enjoyment of their property. 77 Dr. Schiffman reviews the models from Mr. Lape
+
+70 R. Doc. 563-1, p. 2.
+71 Id. at p. 9.
+72 See R. Doc. 323.
+73 R. Doc. 563-4, p. 6.
+74 Id.
+75 Id.
+76 Id. at pp. 6-7.
+77 Id. at p. 15.
+Case 2:19-cv-11133-SM-MBN   Document 745   Filed 08/10/24   Page 12 of 23
+13
+and LDEQ’s data to explain how, given th e data of the emissions in Plaintiffs’
+communities, the Plaintiffs consistently experi enced the odors, which “adversely altered
+their daily lives.”78 She explains that in her opinion, due to the frequent odor emissions
+demonstrated by the models, the Plaintiffs “bec[a]me conditioned to expect and to be
+affected by, the odor whether it was a renewed assault or lingering odor,” as the malodors
+would have “permeated their homes, their furniture and their clothes.” 79 She further
+explains the psychological effects of the odor emissions on the Plaintiffs, citing specific
+studies to opine how the odors caused “deg radation in quality of life” and altered
+Plaintiffs’ daily activities.80 Plaintiffs highlight in their opposition that in her rebuttal
+report, Dr. Schiffman further explained the science behind how odors accumulate inside
+homes.81
+A witness qualified as an expert “is not strictly confined to his area or practice but
+may testify regarding related applications; a lack of specialization goes to the weight, not
+admissibility of the opinion.”82 If there is some “reasonable indication of qualifications,”
+the expert’s qualifications become an issue for the trier of fact. 83 With respect to
+Defendants’ challenge to Dr. Schiffman’s ability to testify to the concentration of hydrogen
+sulfide inside particular Trial Plaintiffs’ homes, the Court finds Dr. Schiffman is qualified
+to testify as to the capacity for hydrogen sulfide to linger in homes and low-lying areas.84
+Having studied odors and emissions for decades, conducted studies on the effects of odors
+
+78 Id. at pp. 15-20.
+79 Id. at p. 21.
+80 Id. at p. 22.
+81 R. Doc. 595, p. 6.
+82 Cedar Lodge Plantation, L.L.C. v. CSHV Fairway View I, L.L.C., 753 F. App'x 191, 195-96 (5th Cir. 2018).
+83 Prest v. BP Expl. & Prod. Inc., 640 F. Supp. 3d 542, 550 (E.D. La. 2022), aff'd, No. 22-30779, 2023 WL
+6518116 (5th Cir. Oct. 5, 2023).
+84 Dr. Schiffman may not testify as to any property dama ge or the like as a result of the odors lingering
+inside homes, pursuant to this Court’s prior orders clarifying that the Trial Plaintiffs are not seeking
+physical property damages. See R. Doc. 155, p. 2.
+Case 2:19-cv-11133-SM-MBN   Document 745   Filed 08/10/24   Page 13 of 23
+14
+and the impact of odors on communities, partic ularly with respect to hydrogen sulfide,
+Dr. Schiffman is qualified to testify as to the mechanisms of how the hydrogen sulfide
+odors impact the Trial Plaintiffs’ communities  in this matter, including inside their
+homes.85
+Dr. Schiffman will not be allowed to testify regarding the number of times the Trial
+Plaintiffs experienced malodors during the re levant time period relying on LDEQ’s and
+Mr. Lape’s dispersion modelling. This testimony is better given by the experts who did
+the work and produced the reports.
+Defendants may cross-examine Dr. Schiffman on the specifics of her opinion to the
+extent they challenge her qualifications or her opinions as to hydrogen sulfide
+accumulation.86
+Dr. Schiffman will not be allowed to testify as to the following portion of her
+Opinion 3:
+
+Malodor source – the JPLF. The maximum 30-minute and hourly averages
+of H2S emitted to the Addison plaint iffs’ locations from the JPLF as
+modeled by CALPUFF exceed the hourly average of H2S measured by LDEQ
+in that vicinity.  Although LDEQ clearly documented elevated levels of H2S
+in these communities, their measuremen ts over short discrete intervals
+significantly underestimated the magn itude of H2S emissions during the
+years 2017-2019.
+
+Dr. Schiffman opines that the CALPUFF models of hydrogen sulfide emissions
+exceed those measured by LDEQ because LDEQ’s measures were underestimated.87 Dr.
+Schiffman analyzes the MAML grab canister data of hydrogen sulfide estimates and
+
+85 This Court previously found Dr. Schiffman qualified to testify as an expert on the effect of malodorous
+emissions on humans, including the psychological e ffects of exposure to odors on humans and the
+physiological bases of the Allowed Injuries suffered by Plaintiffs. This Court prohibited Dr. Schiffman from
+testifying about any Non-Allowed Injuries.
+86 See, e.g., In re Vioxx Prod. Liab. Litig., 401 F. Supp. 2d 565, 582 (E.D. La. 2005) (instructing a party to
+challenge an expert’s qualifications on cross-examination).
+87 R. Doc. 563-4, p. 23.
+Case 2:19-cv-11133-SM-MBN   Document 745   Filed 08/10/24   Page 14 of 23
+15
+compares these values to those from th e CALPUFF models run by James Lape. 88 The
+Court is not convinced that this testimony is within Dr. Schiffman’s expertise, that it is
+reliable, or that it is relevant to Dr. Schiffman’s opinions. This testimony will be excluded.
+Dr. Schiffman will be allowed to testify as to the following portion of her
+Opinion 3:
+
+Volatile organic compounds (VOCs) detected in the community where the
+plaintiffs reside are consistent with the fingerprint of VOCs emitted by the
+JPLF (P=2.28E −15).  The fingerprint of VOCs along with additional
+documents and evidence indicate that JPLF was the source of the malodors
+experienced by the trial plaintiffs.
+
+In her third opinion, Dr. Schiffman opines  that the findings from both LDEQ and
+Mr. Lape regarding the consistency of VOCs present at the Landfill and in the
+communities where the Plaintiffs reside demonstrate that the Jefferson Parish Landfill is
+more likely than not a major contributi ng cause of the Plaintiffs’ injuries.89 In Opinion
+3.4, Dr. Schiffman reviews the individual VO Cs within the MAML grab canisters in the
+Trial Plaintiffs’ neighborhoods and opines that 29 of the 35 VOCs present in the
+neighborhood canisters were also present in the samples obtained from the landfill. 90
+Based on this analysis, Dr. Schiffman opines  that the Landfill’s emissions were a major
+contributing source of the harms suffered by the Trial Plaintiffs.91
+With respect to VOCs, in her deposition, Dr. Schiffman affirmed that while she did
+not personally take samples of the VOCs in th e Plaintiffs’ residences, she explained that
+what is important to her analysis is the “mixture of all the VOCs” rather than “identify[ing]
+them by individual.”92
+
+88 Id. at pp. 23-27.
+89 Id. at p. 31.
+90 Id. at pp. 27-28.
+91 Id. at p. 31. In her third opinion, Dr. Schiffman also includes discussion of the Defendants’ roles in the
+landfill operation. The Court will not permit this testimony.
+92 R. Doc. 563-5, p. 33.
+Case 2:19-cv-11133-SM-MBN   Document 745   Filed 08/10/24   Page 15 of 23
+16
+Beyond challenging Dr. Schiffman’s qualifications to opine on VOCs, Defendants
+also argue that Dr. Schiffman should not be permitted to testify as to VOCs because she
+has no evidence that “any Trial Plaintiff was exposed to VOCs, much less the type of VOC
+or the duration and concentration of the exposure.” 93 Defendants argue Dr. Schiffman’s
+lack of evidence of VOC exposure and concentration mandates that her opinion be
+considered unreliable, as the Fifth Circuit requires “the type of chemical or the level, and
+duration of exposure” for specific causation testimony.94
+The Court rejects Defendants’ arguments. Dr. Schiffman may testify as to her third
+opinion concerning VOCs, to the extent the VOC concentrations tend to show that the
+emissions of hydrogen sulfide causing the Trial Plaintiffs’ damages came from the
+Jefferson Parish Landfill. 95 In relying on LDEQ and CALPUFF models, Dr. Schiffman
+points to concrete data to support her conclusion that “the consistency between the
+compounds that were measured by LDEQ in communities adjacent to the JPLF . . .
+indicate that the JPLF is more likely than not, at the very least, the major contributing
+cause of the harms suffered by the trial plaintiffs.”96
+Further, Dr. Schiffman references numerous studies she has conducted
+demonstrating the interaction of hydrogen sulfide and airborne VOCs, which increases
+symptom-reporting in subjects. 97 Dr. Schiffman does not, and will not be allowed to,
+opine that the VOCs by themselves actually caused any of the Trial Plaintiffs’ damages;
+Plaintiffs did not establish at the general causation trial that VOCs were independently
+
+93 R. Doc. 563-1, pp. 11-12.
+94 Id. at p. 13 (citing Knight v. Kirby Inland Marine, Inc., 482 F.3d 347, 351 (5th Cir. 2007)).
+95 R. Doc. 563-4, p. 31.
+96 Id.
+97 Id. at pp. 31-24.
+Case 2:19-cv-11133-SM-MBN   Document 745   Filed 08/10/24   Page 16 of 23
+17
+capable of causing Plaintiffs’ injuries,98 and the Court did not make that finding.99 Rather,
+in Dr. Schiffman’s report, she presents evidence of the similarity of the VOCs present in
+the Trial Plaintiffs’ communities to those at  the Landfill to show that the malodors
+experienced by the particular Trial Plaintiffs were likely caused by the hydrogen sulfide
+emissions from the landfill. 100 Dr. Schiffman also references scientific studies of the
+impact of VOCs on enhancing a Plaintiff’s damages through intensifying “interrelated
+health effects that can occur from activation of sensory nerves by airborne chemicals.”101
+The Court finds Dr. Schiffman employs suff iciently reliable methodology in her
+reliance on the emissions values from variou s experts, examination of tables, and value
+comparisons to reach her third opinion, whic h ultimately is about the source of the
+hydrogen sulfide emissions and the unique impact of the combination of hydrogen sulfide
+and VOCs on Plaintiffs.102 Because “a trial court must take care not to transform a Daubert
+hearing into a trial on the merits . . . [as] the fact-finder is entitled to hear . . . testimony
+and decide whether it should acce pt or reject that testimony,” 103 the Court finds Dr.
+Schiffman’s testimony as to VOCs is admi ssible. Defendants may cross-examine Dr.
+Schiffman with respect to any insufficiency in the data or other questions as to the
+reliability of Dr. Schiffman’s conclusions.
+Dr. Schiffman will be allowed to testify that volatile organic compounds (VOCs)
+detected in the community where the plaintiffs reside are consistent with the fingerprint
+of VOCs emitted by the Jefferson Parish Land fill. Dr. Schiffman will not be allowed to
+
+98 See Knight v. Kirby Inland Marine Inc. , 482 F.3d 347, 351 (5th Cir. 2007) (noting that a party must
+establish general causation before seeking to offer specific causation evidence).
+99 See generally R. Doc. 323.
+100 R. Doc. 563-4 at pp. 27-31.
+101 Id. at p. 31.
+102 Id. at p. 31, 35.
+103 Pipitone v. Biomatrix, Inc., 288 F.3d 239, 250 (5th Cir. 2002).
+Case 2:19-cv-11133-SM-MBN   Document 745   Filed 08/10/24   Page 17 of 23
+18
+testify that VOCs directly caused any of the Tr ial Plaintiffs’ injuries as there has been no
+finding of general causation with respect to VOCs.
+Dr. Schiffman will be allowed to testify as to her Opinion 4 but only to the
+extent that she may testify that malodo rous emissions have the capacity to
+cause the Allowed Injuries. Dr. Schiffma n will not be allowed to testify that
+the Trial Plaintiffs have established specific causation as to each Plaintiff.
+
+In her fourth opinion, Dr. Schiffman expl ains that the health complaints of the
+Plaintiffs are characteristic of symptoms th at typically occur from repeated exposures to
+air pollution of the type generated by municipal solid waste landfills. She opines that the
+malodors emitted from the Jefferson Parish Landfill “are a major contributor to the health
+complaints reported by the trial plaintiffs.” 104 Dr. Schiffman reviewed the injuries 105
+reported by Plaintiffs in their depositi ons and opines that these symptoms are
+“characteristic of symptoms that typically o ccur from repeated exposure to malodorous
+air pollution” typically generated by landfills.106 Dr. Schiffman highlights specific studies
+she has conducted that demonstrate how hydrogen sulfide in combination with airborne
+VOCs “increase[] the prevalence” of th e Trial Plaintiffs’ reported symptoms. 107 Dr.
+Schiffman concludes that “to the extent that airborne chemicals from other sources were
+mixed with the H2S and VOCs from the JPLF, the health symptoms suffered by the trial
+plaintiffs were the consequence of activation  of sensory nerves by the combination of
+those sources.”108 Dr. Schiffman will be allowed to testify that the malodors generated by
+
+104 R. Doc. 563-4, p. 31.
+105 See R. Doc. 642, pp. 3-5 (describing Plaintiffs’ allowed injuries).
+106 R. Doc. 563-4, p. 31.
+107 See id. at pp. 32-34 (“[S]ubjects were 7.8 times more likely to report nausea when they were exposed to
+24 ppb H2S (along with very low concentrations of  VOCs) compared with clean air during a one-hour
+exposure in an environmental chamber.”).
+108 Id. at p. 35.
+Case 2:19-cv-11133-SM-MBN   Document 745   Filed 08/10/24   Page 18 of 23
+19
+the Jefferson Parish Landfill have the capaci ty to cause the Allowe d Injuries and that
+VOCs may enhance or exacerbate the injuries.
+Defendants argue Dr. Schiffman should be precluded from testifying as to specific
+causation because she did not conduct a proper specific causation analysis of each Trial
+Plaintiff.109 Defendants argue she “has not examined the Trial Plaintiffs, has not reviewed
+their medical records or otherwise conside red their medical history, [and] has not
+considered other potential causes of their alleged injuries” such that her testimony is not
+reliable.110 Defendants cite McNabney v. Laboratory Corporation of America in support
+of this argument.111 Defendants highlight portions of Dr. Schiffman’s deposition when, in
+response to Defendants’ question regarding her assessment of the injuries suffered by the
+thirteen Trial Plaintiffs, she stated: “those were  decisions that were made by others . . .
+I’m just saying what the mechanism would be given that those are complaints.”112
+Dr. Schiffman will not be allowed to testif y that exposure to the malodors caused
+each particular Trial Plaintiff’s injuries (specific causation). Other, more qualified medical
+experts will provide opinions on this topic.
+The Court will not allow Dr. Schiffman to te stify as to specific causation for each
+Trial Plaintiff.
+Dr. Schiffman will be allowed to testify as to her Opinion 5 to the extent she
+discusses malodor’s lasting impacts on health within the relevant time
+period of July 1, 2017, to December 31, 2019. Dr. Schiffman may not testify to
+chronic injuries occurring beyond the relevant time period.
+
+In her fifth opinion, Dr. Schiffman opin es that exposure to odors can cause
+“conditioned odor aversions” and “subsequent exposure to the landfill odor alone in the
+
+109 R. Doc. 563-1, pp. 3-4.
+110 Id.
+111 153 F. App'x 293 (5th Cir. 2005).
+112 R. Doc. 563-1, p. 17.
+Case 2:19-cv-11133-SM-MBN   Document 745   Filed 08/10/24   Page 19 of 23
+20
+absence of the adverse health effects will be perceived as a threat signal or potential
+danger that [Plaintiffs] must avoid for their safety and survival.”113 Dr. Schiffman further
+opines that “aversive odor conditioning indu ces long-term alterations in the piriform
+cortex and the amygdala,” all to explain that “[t]he exposures from JPL experienced by
+the plaintiffs may have long-term consequences.” 114 The Court determined general
+causation existed only for injuries suffered during the relevant time period of July 1, 2017
+until December 31, 2019.115 As a result, Dr. Schiffman may testify to the substance of this
+opinion only to the extent she is speaking of damages suffered by the Trial Plaintiffs, such
+as the effects of repeated exposure to odors, between July 1, 2017 and December 31, 2019.
+Dr. Schiffman may not testify to long-term effects of odor-exposure beyond December 31,
+2019.
+Dr. Schiffman will not be allowed to te stify on best practices in the waste
+management industry. the contractual relationship amongst the Defendants,
+or any testimony about Defendants’ responsibilities in managing the landfill.
+
+Defendants challenge Dr. Schiffman’s qual ifications to testify as to “landfill
+operations and contracts” and “best management practices,” and “maintenance issues”
+because the subject is outs ide her scope of expertise. 116  Defendants challenge Dr.
+Schiffman’s qualifications to discuss contrac tual responsibilities because she is not an
+
+113 R. Doc. 563-4, p. 35.
+114 Id.
+115 As stated in the Court’s July 3, 2024 Order and Reasons, “The undisputed fact that the Addison Plaintiffs
+only seek damages incurred within the relevant time pe riod is further supported by the representations of
+Plaintiffs’ counsel Eric Rowe to the Court, as recorded in the transcript of the general causation trial:
+The Court: [W]hat [is] the time period [] that they’re asking for damages[?]
+[Eric] Rowe: . . . If they had asked us the question, are you asking for damages into 2020,
+we would have said no. We’ve only modeled the years 2017, 2018, and 2019.
+The Court: Okay. That was my understanding, too. So that is – you’re correct on that.
+They’re only asking for damages through 2019.”
+See R. Doc. 642 (quoting Gen. Causation Tr., R. Doc. 229 at 756:6-22).
+116 R. Doc. 563-1, p. 11.
+Case 2:19-cv-11133-SM-MBN   Document 745   Filed 08/10/24   Page 20 of 23
+21
+expert in contracts. 117 Plaintiffs respond by arguing that  Dr. Schiffman, as an expert in
+odors, is qualified to testify on the “foreseeability of hydrogen sulfide generation at MSW
+landfills” and “odor issues” resulting from waste disposal at landfills.118
+In the overview to her report, Dr. Schi ffman discusses “breaches in the waste
+treatment system, all of which were known, or should have been known, to the Defendants
+at times when preventive action cou ld, and should, have been taken.” 119 She also states
+she is “familiar with the st andards and best practices for odor control in the waste
+management and disposal industry.” 120 In opinion 3.5, Dr. Schiffman opines as to the
+causation of the odors emitted from the land fill and elaborates that “the malfunctioning
+leachate and gas collection systems . . . [wer e] the responsibility of Waste Connections
+and Aptim.”121 Nevertheless, in her deposition, Dr. Schiffman clarified that she is not
+offering opinions as to contractual responsi bilities but was “[j]ust looking at who was
+being sued.”122
+Dr. Schiffman may not testify regarding the standard of care applicable to
+Defendants’ operation of the landfill, her inte rpretation of the contractual relationship
+amongst the Defendants, or any testimony about Defendants’ responsibilities in
+managing the landfill, such as the opinion that certain Defendants “should have” taken
+“preventative action.”123 Dr. Schiffman also may not opine as to which specific Defendant
+was responsible for various operations at the Jefferson Parish Landfill.
+
+117 Id. at pp. 10-11.
+118 R. Doc. 595, p. 7.
+119 R. Doc. 563-4, p. 5.
+120 Id. at p. 6.
+121 Id. at p. 31.
+122 R. Doc. 563-5, p. 36.
+123 Id. at p. 5.
+Case 2:19-cv-11133-SM-MBN   Document 745   Filed 08/10/24   Page 21 of 23
+22
+Dr. Schiffman will not be allowed to te stify with respect to statements by
+Jefferson Parish officials, media sour ces, and other non-party residents,
+except for evidence about the Facebook page created around this time.
+
+In Opinion 3.5 to her Third Major Opinion,  Dr. Schiffman states that “[f]urther
+evidence that JPLF is the main source and cause of the malodors . . . is supported by
+statements from Parish President Mike Ye nni and others, interviews and articles
+associated with WGNO and WWLTV, [and] reports by [experts] . . . .” 124 Dr. Schiffman
+further describes what occurred during Jeffer son Parish Press Conferences and in an
+investigative media series, and she concludes  the data from these sources corroborates
+her opinion that the odors came from the Jefferson Parish Landfill.125
+Dr. Schiffman may not testify as to statements made by any third parties, 126 such
+as nonparty Jefferson Parish residents (except for evidence regarding the Facebook page
+created around this time) or television repo rters, to bolster her opinions. Dr. Schiffman
+may also not testify as to any statements made by Defendants’ representatives,  agents or
+employees to bolster her opinions.
+ Accordingly;
+CONCLUSION
+ “Vigorous cross-examination, presentation of contrary evidence, and careful
+instruction on the burden of proof are the traditional and appropriate means of attacking
+shaky but admissible evidence.”127 “As a general rule, questions relating to the bases and
+sources of an expert’s opinion affect the weight to be assigned that opinion rather than its
+
+124 R. Doc. 563-4, p. 30.
+125 Id.
+126 See R. Doc. 702 (Rulings on Motions in Limine). This Court already has excluded evidence from non-
+party Jefferson Parish residents with two exceptions.
+127 Daubert v. Merrell Dow Pharmaceuticals, Inc., 509 U.S. 579, 596 (1993); see also United States v. 14.38
+Acres of Land, 80 F.3d 1074, 1078 (5th Cir. 1996) (quoting Daubert, 509 U.S. at 596).
+Case 2:19-cv-11133-SM-MBN   Document 745   Filed 08/10/24   Page 22 of 23
+23
+admissibility and should be left for the [factfinder’s] consideration.”128 It is “the role of
+the adversarial system, not the cou rt, to highlight weak evidence.”129 “Courts break from
+this general rule in exceptional circumstances, such as when an expert’s testimony relies
+on ‘completely unsubstantiated factual assertions.’”130 The Defendants may raise their
+concerns regarding Dr. Schiffman’s testimony at trial.
+For the foregoing reasons, IT IS ORDERED that Defendants’ Motion in Limine
+is GRANTED IN PART AND DENIED IN PART.131
+New Orleans, Louisiana, this 10th day of August, 2024.
+
+________________________________
+SUSIE MORGAN
+UNITED STATES DISTRICT JUDGE
+
+128 14.38 Acres of Land, 80 F.3d at 1077.
+129 Primrose Operating Co. v. Nat'l Am. Ins. Co., 382 F.3d 546, 563 (5th Cir. 2004).
+130 McCrary v. John W. Stone Oil Distrib., L.L.C., 14-880, 2016 WL 760744, at *3 (E.D. La. Feb. 26, 2016)
+(citing Hathaway v. Bazany, 507 F.3d 312, 319 n.4 (5th Cir. 2007)).
+131 R. Doc. 563.
+Case 2:19-cv-11133-SM-MBN   Document 745   Filed 08/10/24   Page 23 of 23

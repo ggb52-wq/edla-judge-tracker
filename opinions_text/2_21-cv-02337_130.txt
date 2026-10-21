@@ -1,0 +1,553 @@
+1
+
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+SOUTHERN OIL OF LOUISIANA, LLC
+
+VERSUS
+
+ALLIANCE OFFSHORE, L.L.C., ET AL.
+*
+
+*
+
+*
+
+CIVIL ACTION
+
+NO. 21-2337 c/w 23-131
+
+MAG. JUDGE CURRAULT
+ORDER AND REASONS
+
+Pending before me is Sabik Oy ’s motion for summary judgment seeking dismissal of all
+claims against it.  ECF No. 108.  Southern O il of Louisiana, LLC timely filed an Opposition
+Memorandum.  ECF No. 115.  Alliance Offshore LLC, the M/V MR CADE, and Seatran Marine,
+LLC initially filed an Opposition Memorandum but later withdrew it and repudiated the arguments
+raised therein.  ECF Nos. 113, 128, 129.  Sabik Oy timely filed a Reply Memorandum.  ECF No.
+116.  No party requested oral argument.  See E.D. La. Local Rule 78.1.
+In accordance with the parties’ unanimous c onsent, the Honorable Lance Africk referred
+this matter to the undersigned magistrate judge for resolution pursuant to 28 U.S.C. § 636(c).  ECF
+Nos. 39, 58 in 21-2337 and ECF No. 16 in 23-131.  After having considered the record, the
+submissions and arguments of c ounsel, and the applicab le law, Sabik Oy’s motion for summary
+judgment is DENIED for the reasons stated herein.
+I. BACKGROUND
+A. Procedural Background
+Invoking FED. R. CIV. P. 9(h), Southern Oil of Louisiana,  LLC filed this admiralty and
+maritime claim against Alliance Offshore, LLC, SeaTran Marine, LLC, Iberia Crewboat & Marine
+Case 2:21-cv-02337-DPC     Document 130     Filed 06/18/24     Page 1 of 18
+2
+
+Services, LLC,1 Mr. Cade, LLC,  and the M/V MR CADE 2 to recover for damages sustained on
+December 2, 2022, when the M/V MR CADE allided with Southern Oil’s offshore oil platform
+located in Main Pass Block 45 (the “Corvus platform”).  ECF No. 10 ¶¶ 1-10.  Alliance, SeaTran
+and Mr. Cade, LLC answered and filed a counterc laim alleging that Southern Oil’s platform was
+not properly lighted and lacked a foghorn to alert vessels of its presence, which they allege caused
+the allision and consequent da mage.  ECF No. 13 ¶¶ 8-10.  By Third Amended Complaint,
+Southern Oil added Sabik Oy as  a defendant, alleging that Sa bik Oy designed, manufactured,
+marketed, and sold a defective Carmanah-brand ed lantern, which Southern Oil placed on its
+platform.  ECF No. 50 ¶¶ 2, 7, 10-28.3
+On January 10, 2023, Alliance and the M/V MR CADE filed a proceeding for exoneration
+or limitation, which was docketed as No. 23 -131.  ECF No. 1 in No. 21-2337.  The court
+established a February 13, 2023 bar date for any person seeking to file a claim.  ECF No. 5 in No.
+23-131, at 2.  Southern Oil and Je remy Turner answered and file d claims, and Turner filed an
+Amended Claim and Complaint.  ECF Nos. 6, 7 in No. 23-131 and ECF No. 83 in No. 21-2337. 4
+The limitation proceedings was consolidated with the earlier-filed action.  ECF No. 19 in No. 21-
+2337.
+The discovery deadline expired on March 15, 2024, and a bench trial on liability is set to
+begin on July 22, 2024, with the damages porti on beginning on September 23, 2024.  ECF Nos.
+105, 127.
+
+1 Plaintiff voluntarily dismissed its claims against Iberia Crewboat & Marine Services, LLC.  ECF No. 11.
+2 Plaintiff voluntarily dismissed its claims against the M/V MR CADE.  ECF No. 26.
+3 By Second Amended Complaint, Southern Oil added Carmanah Technologies Corp. as a defendant, asserting that it
+purchased lanterns for its platform from Carmanah, but the lanterns were defective and inoperable on the night of the
+allision; it later voluntarily dismissed those claims without prejudice.  ECF No. 44 ¶¶ 10-28; No. 46.
+4 The Court granted Turner’s motion to bifurcate and ordered that trial of the matter be bifurcated into two phases:
+(1) liability, including exoneration or limitation of liability and apportionment of fault, and (2) damages.  ECF No. 77.
+Case 2:21-cv-02337-DPC     Document 130     Filed 06/18/24     Page 2 of 18
+3
+
+B. Factual Background
+The M/V MR CADE allided with Southern Oil’s fixed, charted, unmanned Corvus
+platform located offshore in Main Pass Block 45.  ECF Nos. 108-14, 113-6, 115-7 ¶ 1.  The
+platform had two U.S. Coast Guard approved M650H lanterns, one on the northwest side and one
+on the southeast side.  Id. ¶¶ 2, 4.  At the time of the allision, Christopher Tyndall was in command
+of the M/V MR CADE, and he testified that the lantern on one side of the platform was unlit.5  The
+parties dispute whether Southern Oil properly performed inspections or maintenance on the lantern
+after installation.6
+According to the M650H User Manual, the lantern is “a self-contained, high performance,
+low-maintenance, and easy to install solar-powered light source . . . suitable for a range of marine
+and obstruction applications. . . . visible from up to approximately 4 nautical miles . . . [and o]ffers
+dusk-to-dawn operation . . . .” 7  With regard to solar chargi ng, the “easiest way to charge the
+Battery Pack is to put the M650H in a sunny location. The M650H charges automatically whenever
+it is exposed to sufficiently intense light. The M650H’s charging system continuously monitors
+solar conditions, and uses a sophisticated Max imum Point Power trackin g (MPPT) algorithm to
+automatically adjust charging parameters to most efficiently charge the Battery Pack. The M650H
+charging system avoids overcharging th e Battery Pack, maximizing its life.” 8  The user manual
+indicated an expected battery life of five y ears, depending on various fa ctors, and the lantern
+included a diagnostic system for the battery.9
+
+5 ECF No 108-2 at 9, 15, 27-29 (Deposition of Tyndall, at pp. 91, 165, 329-330, 354); see also ECF No. 108-3.
+6 ECF No. 108-14 & ECF No. 115-7 ¶¶ 11-12; see also ECF No. 108-7 at 5-6 (Schexnider Deposition at pp. 34-35)
+(testifying that, whenever they were making their rounds, they would clean the lights and cover them to make sure
+they were blinking).  Although Southern Oil cites to its Rule 30(b)(6) deposition at p. 93 (ECF No. 115 at 17 n.56), it
+failed to attached page 93 to Exhibit 6, attaching only pages 60 and 117 from that deposition.  Other parties likewise
+attached excerpts from the Rule 30(b)(6) deposition (ECF No. 108-13, No. 113-1), but none included page 93.
+7 ECF No. 108-12 at 5.
+8 Id. at 21.
+9 Id. at 21-23.
+Case 2:21-cv-02337-DPC     Document 130     Filed 06/18/24     Page 3 of 18
+4
+
+Essi Corporation purchased two M650H lanterns, which bore serial numbers 1560059508
+and 1560059732, from Flash Technology on July 25, 2019,  and sold them to United Control
+Services on November 18, 2019.  ECF No. 108-14 ¶ 5; ECF No. 108-9 at 4-6.  Although no one
+disputes that the lantern was installed on Southern Oil’s Corvus platform, Sabik Oy contends that
+Southern Oil cannot establish that it purchased the fixture because neither Southern Oil nor United
+Control Systems has documentation reflecting the sale, while Southern O il asserts that United
+Control System purchased the lantern as an agent for Southern Oil.10
+Bryan Miller, an experienced marine electrician employed by United Control Services who
+had serviced the Corvus well for 20 years, in stalled the lantern at issue on March 8, 2021. 11  He
+obtained the lantern from the top of a 55-gallon drum on Breton Sound 51A platform or on top of
+a tool shed on the Breton Sound 51B platform. 12  Shane Schexnider (lead operator for Inland
+Marine on contract to Southern Oil) assisted Mr. Miller with the installation on March 8, 2021.
+He testified that the lanterns were not brand ne w when installed; they had come off of another
+facility and had been stored at Breton Sound 51.13  No party provided any evidence regarding when
+the lantern was installed at the earlier facility, which earlier facility was involved, why the lantern
+was removed from that earlier facility, or when the lantern was removed from that earlier facility.
+Miller testified that the lantern he instal led appeared to be in good condition, clean and
+fairly new, without visible damage or fading on its lens, and he installed the lantern without issue,
+checking to see if it started flashing which indicates that it worked.14  Miller was unaware that he
+
+10 ECF No. 108-14 ¶ 8; No. 115-7 ¶ 8.
+11 Although the undisputed facts indicate that Mr. Miller installed the two lanterns on March 8, 2021, Mr. Miller
+testified that he installed one lantern on March 8, 2021.  Compare ECF Nos. 108-14, 113-6, 115-7 ¶ 6 with ECF No.
+113-1 at 10 (Southern Oil Rule 30(b)(6) Deposition via excerpts through designated representative Brian Miller, at p.
+16:4-9).
+12 ECF Nos. 108-14, 113-6, 115-7  ¶¶ 4, 9; see also ECF No. 113-1 at 10 (Southern Oil Rule 30(b)(6) Deposition).
+13 ECF No. 108-7 at 4 (Schexnider Deposition, p. 30:1-15).
+14 ECF No. 113-1 at 13-16 (Miller Deposition, pp. 32-36).
+Case 2:21-cv-02337-DPC     Document 130     Filed 06/18/24     Page 4 of 18
+5
+
+could open the bottom of the lantern to check the battery. 15  Miller did not recall whether he
+obtained a copy of the M650H User Manual, and i ndicated that, when he needed a lantern, they
+were usually not in a box and were just given to him for installation. 16  The lantern’s box would
+have included (1) the lantern, (2) one bird deterrent, and (3) an illustrated quick start guide.17   The
+user manual is separate and available for download from the carmanah.com website.18
+Southern Oil’s expert George Mahl removed the lanterns on June 6, 2022, and the parties
+conducted a joint inspection of the lanterns on October 17, 2023.  ECF No. 108-14 ¶¶ 15, 16.
+II. THE SUMMARY JUDGMENT MOTION
+Southern Oil and Alliance asserted claims of  (1) maritime products  liability alleging
+defective design and construction of the lantern; (2) Rule 14(c) tender of the Alliance defendants’
+counterclaim asserting admiralty negligence; (3) redhibition; (4 ) negligent misrepresentation;
+(5) breach of express warranty, (6) negligent design and construction; and (7) unfair trade
+practices.  ECF No. 50 ¶¶ 29-103, at 6-17.  By sti pulation, Southern Oil withdrew its unfair trade
+practices claim, its request for punitive damages, and agreed that maritime law applies.  ECF No.
+108-11 at 1.  Although Alliance initially opposed Sabik Oy’s summary judgment motion, it later
+withdrew that opposition and adopted Sabik Oy’s position.  ECF Nos. 113, 128, 129.
+A.  Sabik Oy Seeks Dismissal of All Remaining Claims Against It
+Sabik Oy argues that Southern Oil cannot es tablish a maritime pr oducts liability claim
+because it has no evidence that (1) the lantern was constructed improperly, (2) any safer alternative
+design existed, or (3) that the design was unreas onably dangerous.  ECF No. 108-1 at 14-16.
+Rather, Sabik Oy argues, Southern Oil’s failure to properly install and maintain the lantern and/or
+
+15 Id. at 13, 17 (Miller Deposition, p. 32:8-25; p. 46:10-17).
+16 Id. at 11-12 (Miller Deposition, p. 26:19 – p. 27 line 18).
+17 ECF No. 113-2 at 8.
+18 Id.
+Case 2:21-cv-02337-DPC     Document 130     Filed 06/18/24     Page 5 of 18
+6
+
+decision to install a lantern with a known batte ry malfunction supersedes any alleged products
+liability or negligence of Sabik Oy.  Id. at 16-17.  Sabik also argues that the redhibition claim must
+be dismissed to maintain uniformity of federal maritime law, and even if Louisiana law could
+apply, Southern Oil cannot prevail because it has no evidence that it was the buyer, and the lantern
+passed the QA/QC inspection at the time of sale to ESSI.  Id. at 17-19.  Sabik Oy argues that the
+negligent misrepresentation and express warranty claims fail because Southern Oil has no evidence
+of any communication with Sabik O y, that it purchased the lantern, or that it has ever seen the
+warranty.  Id. at 20-21.
+B. The Opposition Memoranda
+Southern Oil argues that Sabik Oy’s moti on for summary judgment should be denied
+without prejudice or continued to allow them time to complete di scovery.  ECF No. 115 at 7.  It
+concedes that discovery has been extensive to  date but asserts that discovery is ongoing,
+specifically the depositions of Sabik Oy’s non-retained expert’s deposition Mark Lane is scheduled
+for April 5, 2024 and Southern Oil’s own expert George Mahl is scheduled for April 15, 2024.
+ECF No. 115 at 7-8.  Southern Oil argues that these depositions wi ll lead to the discovery of
+additional disputed facts, but it fails to specifically identify the particular disputed facts it contends
+will be obtained through these depositions.  Id. at 8.
+Citing its expert George Mahl’s  report, Southern Oil argues that material fact disputes
+regarding whether the light was defective in de sign or construction (primarily the use of an
+ineffective bird deterrent and premature power depletion of the battery), which caused the failure
+of the light.  Id. at 9-12.  Southern Oil also argues that Sabik Oy’s chain of custody argument and
+reliance on data indicating a September 2020 batter y failure are unavailing, particularly because
+the battery failure data was not available to Sout hern Oil and the failure was not readily apparent
+Case 2:21-cv-02337-DPC     Document 130     Filed 06/18/24     Page 6 of 18
+7
+
+upon visual inspection of the lantern.  Id. at 13-14.  Further, Southern Oil argues that it installed
+the one bird deterrent shipped with the lantern and recommended for use in the user manual, and
+despite Sabik Oy’s argument that additional bird deterrents could be installed, Sabik Oy does not
+sell additional deterrents on its website.  Id. at 15-17.  Southern Oil further argues that, in
+accordance with the M650H user manual’s instructions, it cleaned the lantern top weekly and when
+the light was dirty with bird excrement.  Id. at 17-18.
+Southern Oil argues that the evidence estab lishes that Miller purchased the lantern from
+ESSI on behalf of Southern Oil,  that Miller’s failure to proper ly invoice Southe rn Oil does not
+alter that fact, and redhibition does not preclude an agent from purchasing a product on behalf of
+a principal.  Id. at 18-19.  It argues that misrepresenta tions regarding operation and performance
+of the lantern were made in the user manual, co ast guard certification, and marketing materials,
+and Southern Oil relied on these marketplace misrepresentations in purchasing the lantern.  Id. at
+19-22.  Southern Oil also argues that the light ’s circuit board malfunction on September 2, 2020,
+after the November 18, 2019, purchase establishes its claim for breach of express warranty.  Id. at
+22-23.
+C. Movant’s Reply
+Sabik Oy argues that Southern has not come forward with specific facts showing there is a
+genuine dispute of material fact for trial.  EC F No. 116 at 2.  Rather, Sabik Oy argues that the
+undisputed facts demonstrate that the subject lantern failed to function on September 2, 2020 due
+to an external source (e .g., lightning strike damage) and should  not have thereafter been used by
+Southern Oil.  Id.  It argues no additional discovery is needed, particularly of Southern Oil’s own
+expert George Mahl.  Id. at 3.  It further argues that Lane’s designation on February 7 was
+extremely detailed and Southern Oil has not identified any particul ar facts on which it needs to
+Case 2:21-cv-02337-DPC     Document 130     Filed 06/18/24     Page 7 of 18
+8
+
+question Lane or provide any data or  evidence to contradict Lane.  Id. at 3-4.  Sabik Oy further
+cites to Alliance’s expert report , which faults Southern Oil.  Id.  Sabik Oy also responds to
+Alliance’s now withdraw n opposition, repeats its arguments previously articulated in the
+supporting memorandum, and counters Southern Oil’ s assertions that additional bird deterrents
+could not be found via the internet.  Id. at 4-10.
+III. APPLICABLE LAW AND ANALYSIS
+A. Summary Judgment Standard
+When a movant shows that there is no genuine dispute of material fact to be decided by the
+fact-finder and the movant is en titled to a judgment as a matte r of law, Rule 56 mandates that
+summary judgment be issued. 19  Summary judgment is not precl uded by disputes over facts that
+are not “material”20 and disputes that are not “genuine.”21  “When assessing whether a dispute to
+any material fact exists, [the Court] consider[s] all of the evidence in the record but refrain[s] from
+making credibility determinations or weighing the evidence.” 22  All reasonable inferences are
+drawn in favor of the nonmoving party, but “unsupported allegations or affidavits setting forth
+‘ultimate or conclusory facts and conclusions of law’ are insufficient to either support or defeat a
+
+19 FED. R. CIV. P. 56(a) (“The court shall grant summary judgment if the movant shows that there is no genuine dispute
+as to any material fact . . .”); see also Celotex Corp. v. Catrett, 477 U.S. 317, 322–23 (1986) (stating that summary
+judgment shall be issued “if the pleadings, depositions, an swers to interrogatories, and admissions on file, together
+with the affidavits, if any, show that there is no genuine issue as to any material fact and that the moving party is
+entitled to a judgment as a matter of law”) (citing F ED. R. CIV. P. 56(c) (amended 2010)); Little v. Liquid Air Corp.,
+37 F.3d 1069, 1075 (5th Cir. 1994) (en banc) (per curiam).
+20 “As to materiality, the substantive law will identify which facts are material.  Only disputes over facts that might
+affect the outcome of the suit under the governing law will properly preclude the entry of summary judgment.”
+Anderson v. Liberty Lobby, Inc., 477 U.S. 242, 248 (1986); see also Sierra Club, Inc. v. Sandy Creek Energy Assocs.,
+L.P., 627 F.3d 134, 134 (5th Cir. 2010) (citation omitted) (“ An issue is material if its resolution could affect the
+outcome of the action.”).
+21 A genuine dispute of fact exists only “if the evidence is such that a reasonable jury could return a verdict for the
+nonmoving party.”  Anderson, 477 U.S. at 248; accord Westfall v. Luna, 903 F.3d 534, 546 (5th Cir. 2018) (citation
+omitted).
+22 Delta & Pine Land Co. v. Nationwide Agribusiness Ins . Co., 530 F.3d 395, 398–99 (5th Cir. 2008) (citing Reeves
+v. Sanderson Plumbing Prods., Inc.,  530 U.S. 133, 150 (2000); Matsushita Elec. Indus. Co . v. Zenith Radio Corp.,
+475 U.S. 574, 587 (1986)).
+Case 2:21-cv-02337-DPC     Document 130     Filed 06/18/24     Page 8 of 18
+9
+
+motion for summary judgment.”23  Thus, the court must resolve f actual controversies in favor of
+the nonmoving party “only where th ere is an actual controversy, th at is, when both parties have
+submitted evidence of contradictory facts.”24
+When the moving party carries its initial burden, the burden then falls upon the nonmoving
+party to demonstrate the existence of a genuine issue of a material fact.  When, however, the non-
+movant bears the burden of proof at trial, the movant may merely point to an absence of evidence,
+thus shifting to non-movant the burden of demo nstrating by competent summary judgment proof
+that there is an issue of ma terial fact warranting trial.25  Summary judgment is proper if the party
+opposing the motion fails to establish an essential element of their case.26
+Only evidence—not argument, not facts asse rted in the complaint—will satisfy the
+burden.27  Unsworn pleadings, memoranda or the like are not competen t summary judgment
+evidence.28  Further, a party’s version of events that is “blatantly contradicted by the record” is not
+entitled to the benefit of any favorable light. 29  Where the record taken as a whole could not lead
+a rational trier of fact to find for the nonmoving party, there is no genuine issue for trial.30  “If the
+
+23 Galindo v. Precision Am. Corp ., 754 F.2d 1212, 1216 (5th Cir. 1985) (quoting 10A C HARLES ALAN WRIGHT,
+ARTHUR R. MILLER, & MARY KAY KANE, FEDERAL PRACTICE AND PROCEDURE § 2738 (2d ed. 1983)); see also Little,
+37 F.3d at 1075.
+24 Antoine v. First Student, Inc., 713 F.3d 824, 830 (5th Cir. 2013) (internal quotation marks and citation omitted).
+25 Celotex, 477 U.S. at 322–25; see also Moody v. Jefferson Par. Sch. Bd., 2 F.3d 604, 606 (5th Cir. 1993); Duplantis
+v. Shell Offshore, Inc., 948 F.2d 187, 190 (5th Cir. 1991).
+26 See Celotex, 477 U.S. at 322–23.
+27 Solo Serve Corp. v. Westowne Assoc., 929 F.2d 160, 164 (5th Cir. 1991).
+28 Larry v. White, 929 F.2d 206, 211 n. 12 (5th Cir. 1991).
+29 See Scott v. Harris , 550 U.S. 372, 376, 380 (2007) (holding plaintiff’s selective description of car chase as
+“controlled” was contradicted by dashcam footage of the high-speed chase); see also Chambers v. Sears Roebuck &
+Co., 428 F. App’x 400, 40s8 (5th Cir. 2011) (holding sel f-serving and unsupported statement in affidavit will not
+defeat summary judgment where record evidence is to the contrary) (citing In re Hinsley, 201 F.3d 638, 643 (5th Cir.
+2000)).
+30 See Bickerstaff v. Whitney Nat’l Bank, No. 96-30231, 1996 WL 595654, at *1 (5th Cir. Sept. 20, 1996) (per curiam);
+Roberson v. Alltel Info. Servs., 373 F.3d 647, 651 (5th Cir. 2004) (citations omitted); see also EEOC v. Simbaki, Ltd.,
+767 F.3d 475, 481 (5th Cir. 2014) (“No genuine dispute of fact exists if the record taken as a whole could not lead a
+rational trier of fact to find for the nonmoving party.”) (citation omitted).
+Case 2:21-cv-02337-DPC     Document 130     Filed 06/18/24     Page 9 of 18
+10
+
+evidence is merely colorable . . . or is not  significantly probative,”  summary judgment is
+appropriate.31
+B. Continuance or Denial Due to Need for Additional Discovery
+If a nonmovant shows by affidavi t or declaration that, for specified reasons, it cannot
+present facts essential to justify its opposition, the court may:
+(1) defer considering the motion or deny it;
+(2) allow time to obtain affidavits or declarations or to take discovery; or
+(3) issue any other appropriate order. 32
+
+Likewise, if a party fails to prope rly address another party’s fact assertion, Rule 56(e) authorizes
+the court to issue any appropria te order, including giving the party the opportunity to properly
+support or address the fact at issue.  Fed. R. Civ. P. 56(e).  A motion for a continuance under Rule
+56(d) is “broadly favored and should be liberally granted.”33
+A party cannot evade summary judgment, howev er, simply by arguing that additional
+discovery is needed nor may a party simply rely on vague assertions that additional discovery will
+produce needed, but unspecified, facts.34  Rather, Rule 56(d) imposes a burden on the non-movant
+to “set forth a plausible basis fo r believing that specified facts, susceptible of collection within a
+reasonable time frame, probably ex ist and indicate how the emerge nt facts, if adduced, will
+influence the outcome of the pending summary j udgment motion.”35  The crucial question is
+“whether the evidence requested would affect the outcome of a summary judgment motion.”36
+
+31 Anderson, 477 U.S. at 249 (citations omitted).
+32 FED. R. CIV. P. 56(d); see also January v. City of Huntsville, 74 F.4th 646, 651 (5th Cir. 2023); Skiba v. Jacobs Ent.,
+Inc., 587 F. App’x 136, 138 (5th Cir. 2014).
+33 Culwell v. City of Fort Worth , 468 F.3d 868, 871 (5th Cir. 2006) (citing Int’l Shortstop, Inc. v. Rally’s Inc., 939
+F.2d 1257, 1267 (5th Cir. 1991)).
+34 Adams v. Travelers Indem. Co. of Connecticut, 465 F.3d 156, 162 (5th Cir. 2006) (citations and quotations omitted).
+35 Smith v. Regional Transit Auth., 827 F.3d 412, 423 (5th Cir. 2016) (internal quotation marks and citation omitted).
+36 Santee v. Oceaneering Int’l Inc., 95 F.4th 917, 934 (5th Cir. 2024) (citing Smith, 827 F.3d at 423).
+Case 2:21-cv-02337-DPC     Document 130     Filed 06/18/24     Page 10 of 18
+11
+
+The requested continuance may be denied where the motion fails to identify specific facts
+that would alter the court's analysis or in any way demonstrate how the additional discovery would
+likely create a genuine dispute of material fact.37  Further, the movant must have diligently pursued
+discovery.38
+C. Products Liability Under General Maritime Law
+The Supreme Court recognized products liability, including strict liability, as part of the
+general maritime law in East River S.S. Corp v. Transamerica Delaval, Inc ., 476 U.S. 858, 865
+(1986).  In formulating federal maritime law, the federal courts may examine, among other sources,
+judicial opinions, legislation, treatises, and scholarly writings.39  Although the Fifth Circuit has not
+explicitly addressed whether the Louisiana Products Liability Act can supplement the law
+governing products liability under general maritime law, several judges in this court have held that
+state law supplements general maritime law when : (1)  there is no applicable admiralty rule;
+(2) local and state interests predominate; and (3) the uniformity principle is not crucial.40
+Since East River, numerous courts have embraced § 402A of the RESTATEMENT  (SECOND)
+OF TORTS as the best expression of the law of products liability under the general maritime law.41
+Section 402A of the Restatement (Second) of Torts provides:
+
+37 MDK Sociedad De Responsabilidad Limitada v. Proplant Inc., 25 F.4th 360, 367 (5th Cir. 2022) (citation omitted).
+38 Jacked Up, L.L.C. v. Sara Lee Corp., 854 F.3d 797, 816 (5th Cir. 2017) (quotations and citation omitted).
+39 Air and Liquid Systems Corp. v. DeVries, 586 U.S. 446, 452 (2019) (citations omitted).
+40 See Parekh v. Argonautica Shipping Invs. B.V., No. 16-13731, 2017 WL 3456300, at *2 (E.D. La. Aug. 11, 2017)
+(Morgan, J.);  Matter of Am. River Transp., Co., LLC, No. 18-2186, 2019 WL 2847702, at *3 (E.D. La. July 2, 2019)
+(Lemmon, J.); Island Ventures, LLC v. K-Mar Supply II, LLC, No. 20-2263, 2020 WL 6269136, at *7 (E.D. La. Oct.
+26, 2020) (Brown, C.J.); see also Transco Syndicate No. 1, Ltd. v. Bollinger Shipyards, Inc ., 1 F. Supp. 2d 608, 614
+(E.D. La. 1998) (Vance, J.) (indicating the LPLA can apply to a maritime pro ducts claim when consistent with §
+402A).
+41 Authement v. Ingram Barge Co ., 977 F. Supp. 2d 606, 610 (E.D. La. 2013); Transco Syndicate, 1 F. Supp. 2d at
+614; Vickers v. Chiles Drilling Co ., 822 F.2d 535, 538 (5th Cir. 1987); see also  1 T HOMAS J. SCHOENBAUM,
+ADMIRALTY AND MARITIME LAW § 5–7 (5th ed. 2012) (“The applicable substantive law of products liability in
+admiralty is Section 402A of the Restatement (Second) of Torts.”).
+Case 2:21-cv-02337-DPC     Document 130     Filed 06/18/24     Page 11 of 18
+12
+
+(1) One who sells any product in a defective condition unreasonably dangerous to the user
+or consumer or to his property is subject to  liability for physical harm thereby caused to
+the ultimate user or consumer, or to his property if
+(a)  the seller is engaged in the business of selling such a product, and
+(b)  it is expected to and does reach the user or consumer without substantial change in
+the condition on which it is sold.
+(2) The rule stated in Subsection (1) applies although
+(a)  the seller has exercised all possible care in the preparation and sale of his product,
+and
+(b)  the user or consumer has not bought  the product from or entered into any
+contractional relation with the seller.
+RESTATEMENT (SECOND) OF TORTS § 402A.  Thus, to recover on a products liability claim under
+general maritime law, a plaintiff must establis h: (1) the defendant so ld or manufactured the
+product; (2)  the product was unreasonably da ngerous for its normal use (which includes
+foreseeable misuse) or defective when it left th e defendant's control; and (3) the defect caused
+plaintiff's injury.42  The threshold inquiry under § 402A is whether the defendant  is a seller or
+manufacturer of the allegedly defective product.43
+A product can be considered unreasonably danger ous for defect in design or manufacture
+or because of inadequate instructions or warnings. 44  Thus, a products liability claim may be
+premised on (1) defective design; (2) defective manufacture; and/or (3) lack of adequate warning.45
+Sabik Oy argues that summa ry judgment is proper in this ca se because no expert  has identified
+any design or construction defect nor has any expert identified an alternative design for the product,
+
+42 Vickers, 822 F.2d at 538; Authement, 977 F. Supp. 2d at 614–15 (citing Daigle v. L & : Marine Trans. Co., 322 F.
+Supp. 2d 717, 727 (E.D. La. 2004); 1 T HOMAS J. SCHOENBAUM, ADMIRALTY AND MARITIME LAW § 5–7 (5th ed.
+2012)); see also Molett v. Penrod Drilling Co ., 826 F.2d 1419, 1424 (5th Cir. 1987), abrogated on other grounds by
+Jerome B. Grubart, Inc. v. Great Lakes Dredge & Dock Co., 513 U.S. 527 (1995) (citations omitted)).
+43 SCHOENBAUM, ADMIRALTY AND MARITIME LAW § 5–7 (5th ed. 2012); Daigle, 322 F. Supp.2d at 727.  Although
+§ 402A uses the term “seller,” manufacturers fall within its ambit.  Reyes v. Wyeth Labs., 498 F.3d 1264, 1272 n.10
+(5th Cir.1974); RESTATEMENT (SECOND) OF TORTS § 402A cmt. f.
+44 See Pavlides v. Galveston Yacht Basin, Inc. , 727 F.2d 330, 337–39 (5th Cir. 1984); In re M/V DANIELLE
+BOUCHARD, 164 F. Supp. 2d 794, 798 (E.D. La. 2001).
+45 Edwards v. Sears, Roebuck & Co., 512 F.2d 276, 288 (5th Cir. 1975).
+Case 2:21-cv-02337-DPC     Document 130     Filed 06/18/24     Page 12 of 18
+13
+
+citing Sullivan v. Rowan Companies, Inc.46  ECF No. 108-1 at 14-16; No. 116 at 5, 7.  In addition,
+it argues that no party has asserted a defect based on inadequate instructions or warnings  ECF No.
+116 at 4-5.
+Southern Oil has not raised a failure to wa rn claim, leaving only defective design or
+manufacture as potential avenues for recovery.  For a defective manufacture claim, the plaintiff
+must establish that (1) the defendant sold or manufactured a product; (2) the product was
+unreasonably dangerous or defective when it left the defendant's control; and (3) the defect caused
+the plaintiff's injury.47
+The rule stated in [§ 402A] applies only where the product is, at the time it leaves
+the seller's hands, in a condition not contemplated by the ultimate consumer, which
+will be unreasonably dangerous to him. The seller is not liable when he delivers the
+product in a safe condition, and subsequent mishandling or other causes make it
+harmful by the time it is consumed. The bur den of proof that the product was in a
+defective condition at the time that it left the hands of the particular seller is upon
+the injured plaintiff; and unless eviden ce can be produced which will support the
+conclusion that it was then defective, the burden is not sustained.48
+To decide whether a product is defectivel y designed and unreasonably dangerous, courts
+may consider how easily the ma nufacturer could have designed a safer alternative product.49  To
+prove a defect in design, there must be evidence that there was a safer alternative design available
+at the time and that this alternative design would have prevented the risk of harm. Further, this
+alternative design must be both eco nomically and technically feasible at the time the product left
+the control of the manufacturer.50  Whether expert testimony is required in a products liability case
+
+46 952 F.2d 141, 146–49 (5th Cir. 1992) (noting that general maritime law requires expert testimony to support a claim
+of defective design, materials, manufacturing, or warnings).
+47 Penn Maritime, Inc. v. Rhodes Electronic Servs., Inc ., 41 F. Supp. 3d 507, 524 (E.D. La. Aug. 19, 2014) (citing
+Authement, 977  F. Supp. 2d at 614; see also Transco Synd. No. 1, Ltd. v. Bollinger Shipyards, Inc., 1 F. Supp. 2d 608,
+613–14 (E.D. La. 1998) (noting that these provisions extend to manufacturers).
+48 Restatement (Second) of Torts § 402A, cmt. g (Am. Law Inst. 1975).
+49 Vickers v. Chiles Drilling Co ., 822 F.2d 535, 539 (5th Cir. 1987) (c iting Louisiana and Texas cases considering
+alternative designs).
+50 Id.
+Case 2:21-cv-02337-DPC     Document 130     Filed 06/18/24     Page 13 of 18
+14
+
+depends on whether the alleged defect and the injury is beyond a jury’s common understanding.51
+“Lay testimony is adequate to prove causation in  those cases in which general experience and
+common sense will enable a layman to determin e, with reasonable probability, the causal
+relationship between the event and the condition.”52
+D. Redhibition
+Sabik Oy argues that Southern Oil’s redhibition claim fails for four reasons: (1) the Civil
+Code redhibition remedy is inconsistent with ge neral maritime law; (2) redhibition remains an
+available remedy only for damage to the product itself or consequent economic loss, with any other
+damage falling within the excl usivity provisions of Louisiana’ s Products Liability Act; (3) the
+product was not defective; and (4) Southern Oil cannot establish that it is a buyer.  ECF No. 108-
+1 at 17-20.
+In Louisiana, a “seller warrants the buyer against redhibitory defects, or vices, in the thing
+sold.”  LA. CIV. CODE art. 2520. A claim in redhibition is akin  to a claim for breach of implied
+warranty.53  Privity of contract, however, is not a prerequisite to a redhibitory action. 54  Thus, a
+buyer may bring a redhibition claim ag ainst “all sellers in the chain of sales back to the primary
+manufacturer” regardless of the buyer's privity with an upstream party.55  In addition, agency law,
+
+51 See, e.g., Martinez v. Med. Depot, Inc ., 434 F. Supp. 3d 537, 556 (S.D. Tex. 2020) (addressing Texas law in the
+durable medical device context); Goodner v. Hyundai Motor Co ., 650 F.3d 1034, 1045 (5th Cir. 2011) (noting that,
+under Texas law, an expert is “is generally required, not always required, to prove causation”) (citing BIC Pen Corp.
+v. Carter, 346 S.W.3d 533 (Tex. 2011)); see also Sims v. Kia Motors of Am., Inc., 839 F.3d 393, 409 (5th Cir. 2016)
+(noting that expert testimony is “generally encouraged if not required” to establish a products liability claim in Texas)
+(citation omitted).
+52 Emery v. Medtronic, Inc., 793 F. App'x 293, 295–96 (5th Cir. 2019) (quoting Morgan v. Compugraphic Corp., 675
+S.W.2d 729, 733 (Tex. 1984) (citing Lenger v. Physician's Gen. Hosp., Inc., 455 S.W. 2d 703, 706 (Tex. 1970))).
+53 Boat Serv. of Galveston, Inc. v. NRE Power Sys., Inc., 429 F. Supp. 3d 261, 278 (E.D. La. 2019) (citing Coleman v.
+Sears Home Improvement Prods., Inc., No. 16-2537, 2017 WL 1089580 *7 (E.D. La. Mar. 2017)).
+54 Datamatic, Inc. v. Int'l Bus. Machines Corp. , 795 F.2d 458, 462 (5th Cir. 1986) (citing Media Prod. Consultants,
+Inc. v. Mercedes-Benz of North Am., 262 La. 80, 262 So. 2d 377 (La. 1972)).
+55 Deloach Spray Foam Insulation, LLC v. Briggs & Stratton, Corp ., 645 F. Supp. 3d 563, 574–75 (W.D. La. 2022)
+(citing Lovell v. Blazer Boats Inc ., 2011-1666, p. 4 (La. App. 1 Cir. 10/24/12), 104 So. 3d 549, 553, n.3 (citing L A.
+CIV. CODE art. 2545, cmt. (d))).
+Case 2:21-cv-02337-DPC     Document 130     Filed 06/18/24     Page 14 of 18
+15
+
+or mandate, allows an owner to sue in redhibitio n, even when the owner is not a purchaser of the
+product.56
+The application of general maritime law does not necessarily preclude application of state
+law.  General maritime law may be supplemented with state law when: “(1) it does not conflict
+with an applicable act of Congress; (2) it does not  work material prejudice to a characteristic
+feature of general maritime law; or (3) it does not interfere with the proper harmony and uniformity
+of the general maritime law in its international and interstate relations.”57
+The only reported decision addressing redhibiti on in the context of a claim subject to
+general maritime law held that the redhibition provisions serve to  supplement general maritime
+law.58  In the products liability context, although the Fifth Circuit has undoubtedly recognized that
+Section 402A applies to maritime products liability cases, some sections of this court continue to
+apply the Louisiana Products Liability Act to th e extent same does not conflict with the
+Restatement.59  One section, however, has found that the LPLA does not apply to general maritime
+products liability case because of the application of Section 402A, finding it unnecessary to apply
+the LPLA to “fill a gap” in general maritime law.60
+
+56 425 Notre Dame, LLC v. Kolbe & Kolbe Mill Work Co., No. 15-454, 2016 WL 1110232, at *6 (E.D. La. Mar. 22,
+2016) (citation omitted).
+57 Cole v. Oceaneering Int'l, Inc., No. 21-1348, 2023 WL 5411307, at *9 (E.D. La. Aug. 22, 2023) (citing In re Antill
+Pipeline Const. Co., Inc., 866 F. Supp. 2d 563, 567 (E.D. La. 2011)).
+58 See Tucker v. Petroleum Helicopters, Inc ., 2008-1019 (La. App. 4 Cir. 3/23/09), 9 So. 3d 966, 972, writ denied,
+2009-0901 (La. 6/19/09), 10 So. 3d 736.
+59 Transco Syndicate, 1 F. Supp. at 614.
+60 See Parekh, 2017 WL 3456300, at *2 (striking LPLA defenses and holding that the LPLA does not supplement
+general maritime law because the Suprem e Court has embraced § 402A  and thus there is no “g ap” to fill with state
+law); Matter of Am. River Transp., Co., LLC , 2019 WL 2847702, at *3 (“[W]hile there is some authority that the
+LPLA may be applied to maritime actions when its provisions  do not conflict with Section 402A of the Restatement
+(Second) of Torts, a recent case from th is district analyzed the question, and determined that there is no basis to
+supplement the general maritime law of products liability with the LPLA.”) (citations omitted).
+Case 2:21-cv-02337-DPC     Document 130     Filed 06/18/24     Page 15 of 18
+16
+
+E. Negligent Misrepresentation and Express Warranty
+The Fifth Circuit has held that a negligen t misrepresentation claim is cognizable under
+general maritime law, approvingly citing Section 552 of the Restatement (Second) of Torts for the
+controlling standard.61  To state a claim for negligent misrepresentation under general maritime
+law, a plaintiff must allege:
+(1) the defendant, in the course of its profession, supplied false information for its guidance
+in a business transaction;
+(2) the defendant failed to exercise reasonable care in gathering the information;
+(3) the plaintiff justifiably relied on the false information in a transaction that the defendant
+intended to influence; and
+(4) the plaintiff thereby suffered pecuniary loss.62
+A breach of express warranty claim is a r ecognized cause of action under the Louisiana
+Products Liability Act.  LA. REV. STAT. § 9:2800.58; LA. REV. STAT. § 9:2800.53(6).  Neither party
+addresses whether a general maritime products liability claim under Restatement § 402A likewise
+encompasses an express warranty claim or whethe r same is otherwise available under general
+maritime law.  The parties appear to agree, however, that Plaintiff’s express warrant claim requires
+it to prove (1) a statement or promise about a produc t or its characteristics,  apart from a general
+opinion; (2) the express warranty induced the plaintiff to use the product; and (3) plaintiff suffered
+damage because the express warranty was untrue.  ECF No. 108-1 at 21; No. 115 at 22-23.
+
+61 Otto Candies, L.L.C. v. Nippon Kaiji Kyokai Corp., 346 F.3d 530, 534–35 (5th Cir. 2003).
+62 Cargill, Inc. v. Degesch Am., Inc., 875 F. Supp. 2d 667, 674 (E.D. La. 2012) (citing Otto Candies, 346 F.3d at 535).
+Case 2:21-cv-02337-DPC     Document 130     Filed 06/18/24     Page 16 of 18
+17
+
+IV. ANALYSIS
+Initially, Southern Oil fails to recognize that the discovery deadline expired on March 15,
+2024.  ECF No. 105.  Notably, it has not filed a mo tion to extend the discovery deadline setting
+forth the good cause required by Rule 16.  Even if  the discovery deadline were not expired,
+Southern Oil fails to satisfy the requirements of  Rule 56(d).  Moreover, since the filing of the
+summary judgment motion, the sche duled discovery should have concluded and Southern Oil
+failed to seek to supplement its earlier filings.  In short, Southern Oil fails to identify any specified
+facts that probably exist and in dicate how the emergent fact s would influence the pending
+summary judgment motion, much less in an affidavit or declaration as required by Rule 56.
+Additionally, although these ostensibly necessary depositions were scheduled to occur months ago,
+Southern Oil has not sought to supplement its Opposition with any evidence discovered from those
+scheduled depositions.
+Existing caselaw suggests that Louisiana’s redhibition provisions may supplement general
+maritime law in a maritime produc ts liability case governed by Section 402A.  In this case,
+Southern Oil has presented evidence from its expe rt George Mahl, who opi nes that the northern
+lantern contained an internal construction fault that results in higher output draw on the battery
+that causes premature battery depletion that puts the battery into a deep cycle discharge condition.
+ECF No. 115-1 at 2-3.  He also id entified the absence of sturdy bird  spikes as a defect, which he
+opines allowed an accumulation of bird droppings on the lantern which blocked sunlight from the
+solar cells.  Id.
+Southern Oil has produced evidence to create a genuine dispute of material fact regarding
+a product defect related to a higher output draw  on the battery that causes premature battery
+depletion as well as whether it is a buyer for purposes of redhibition.  This evidence as well as the
+Case 2:21-cv-02337-DPC     Document 130     Filed 06/18/24     Page 17 of 18
+18
+
+conflicting evidence regarding Sout hern Oil’s status as a buyer, what representations or express
+warranties were provided, and whether the lantern was defective, in either manufacture or design,
+preclude summary judgment.
+V. CONCLUSION
+Accordingly, for the foregoing reasons, summary judgment is not appropriate in this case.
+IT IS ORDERED that the Sabik Oy’s Moti on for Summary Judgment (ECF No. 108) is
+DENIED.
+New Orleans, Louisiana, this 18th day of June, 2024.
+
+___________________________________
+       DONNA PHILLIPS CURRAULT
+      UNITED STATES MAGISTRATE JUDGE
+Case 2:21-cv-02337-DPC     Document 130     Filed 06/18/24     Page 18 of 18

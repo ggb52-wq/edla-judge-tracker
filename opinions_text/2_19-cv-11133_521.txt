@@ -1,0 +1,600 @@
+1
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+ELIAS JORGE “GEORGE”
+ICTECH-BENDECK,
+           Plaintiff
+CIVIL ACTION
+VERSUS NO.  18-7889
+          c/w 18-8071,
+18-8218, 18-9312
+WASTE CONNECTIONS
+BAYOU, INC., ET AL.,
+           Defendants
+Related Case:
+SECTION: “E” (5)
+FREDERICK ADDISON, ET AL.,
+           Plaintiffs
+CIVIL ACTION
+VERSUS NO.  19-11133
+         c/w 19-14512
+LOUISIANA REGIONAL
+LANDFILL COMPANY, ET AL.,
+           Defendants
+SECTION: “E” (5)
+Applies to: All Cases
+ORDER AND REASONS
+Before the Court are two contested discovery motions: Plaintiffs’ Motion to Compel
+Discovery Against the Waste Connections Defendants (hereinafter “Motion to Compel”)1
+and a Motion to Quash the Addison Plaintiffs’ Subpoena to SCS Engineers (hereinafter
+“Motion to Quash”) filed by Defendants  Waste Connections Bayou, Inc., Waste
+Connections US, Inc., and Louisiana Regional Landfill Company (collectively the “Waste
+1 R. Doc. 326 (18-7889); R. Doc. 380 (19-11133). Defendants opposed. R. Doc. 329 (18-7889); R. Doc. 383
+(19-11133). Plaintiffs replied. R. Doc. 389 (19-11133). Plaintiffs filed a supplemental memorandum. R. Doc.
+393 (19-11133). Defendants filed a supplemental reply. R. Doc. 394 (19-11133).
+Case 2:19-cv-11133-SM-MBN   Document 521   Filed 04/08/24   Page 1 of 18
+2
+Connections Defendants” or “Defendants”).2 Presently, the only outstanding issues in
+these contested motions relate to documents involving Stearns, Conrad & Schmidt,
+Consulting Engineers, Inc. (“SCS Engineers”), 3 which are categorized into nine
+“Categories of Work” as identified in Atta chment A to the Court’s Order and Reasons
+issued on January 12, 2024.4 This Order and Reasons concerns certain documents related
+to Category #5, two onsite landfill su rface pollutant concentration reports 5 and
+accompanying memorandum,6 and Category #8, the Hydrogen Sulfide (H2S) Sampling
+in the Jefferson Parish Region (N ovember 4 through 8, 2019) Report 7 (collectively, the
+“Data Reports”).
+BACKGROUND
+This case concerns the operation of the Jefferson Parish Landfill (the “Landfill”)
+and the resulting odors emitted from the Landfill between July 1, 2017, and December 31,
+2019. The Court’s Order and Reasons issued on January 2, 2024 (“the January 2 Order”)
+presents background relevant to the discovery motions.8
+2 R. Doc. 368 (19-11133). Plaintiffs filed a Motion to Enforce Subpoena, which the Court construes as an
+opposition to the Motion to Quash. R. Doc. 381 (19-11133). Defendants file d a Reply Memorandum in
+Support of Their Motion to Quash. R. Doc. 388 (19-11133). See also Subpoena to Produce Documents Issued
+to SCS Engineers, R. Doc. 381-5 (19-11133).
+3 See Requests for Production 58-66, Addison Plaintiffs’ Second Set of Requests for Production of
+Documents to the Waste Connections Defendants, R. Doc. 329-2 at pp. 4-7 (18-7889).
+4 See R. Doc. 406-1 (18-7889); R. Doc. 483-1 (19-11133). Attachment A is based on Attachment A to the
+Letter from Megan R. Brillault, Counsel for the Waste Connections Defendants, to the Court (Dec. 1, 2023).
+The “Chart Showing Status of Production” attached to  the December 1, 2023 Letter contained comments
+from both the Waste Connections Defendants and Plaintiffs. The Court assigned numbers to the Categories
+of Work for ease of reference.
+5 The two onsite landfill surface pollutant concen tration reports are titled: (1) “Surface Pollutant
+Concentration Measurements at the Jefferson Parish Landfill – Data Report, May 31, 2019” (Bates:
+WC_JPLF_00210878); and (2) “Surface Pollutant Conc entration Measurements at the Jefferson Parish
+Landfill – Supplemental Data Report, July 10, 2019” (Bates: WC_JPLF_00210732).
+6 The memorandum that accompanies the two surface pollutant concentration reports is titled
+“Memorandum – Surface Pollutant Concentration Measurements at the Jefferson Parish Landfill, April 23,
+2021” (Bates: WC_JPLF_00403662).
+7 Bates: WC_JPLF_00203231.
+8 R. Doc. 397 (18-7889); R. Doc. 468 (19-11133).
+Case 2:19-cv-11133-SM-MBN   Document 521   Filed 04/08/24   Page 2 of 18
+3
+LEGAL STANDARD
+Parties may obtain discovery regarding an y nonprivileged matter that is relevant
+to any party’s claim or defense and proportional to the needs of the case.”9 “Information
+within the scope of discovery need not be admissible in evidence to be discovered.”10 At
+the discovery stage, relevant evidence incl udes “[a]ny matter that bears on, or that
+reasonably could lead to other matters that cou ld bear on, any issue that is or may be in
+that case.”11 “[T]he threshold for relevance at the discovery stage [under Rule 26(b) of the
+Federal Rules of Civil Procedure ] is lower than at the trial stage” under Federal Rule of
+Evidence 401. 12 Discovery should be allowed unless the party opposing discovery
+establishes that the information sought “can have no possible bearing on the claim or
+defense of the party seeking discovery.” 13 I f  r e l e v a n c e  i s  i n  d o u b t ,  t h e  c o u r t  s h o u l d  be
+permissive in allowing discovery. 14 This broad scope is necessary given the nature of
+litigation, where determinations of discoverability are made well in advance of trial. 15
+Likewise, “broad discretion is afforded to the district court when deciding discovery
+matters,”16 and the Court must determine the scope of discovery “in light of the relevant
+facts of the particular case.”17
+9 FED. R. CIV. PRO. 26(b); see also Miller v. Sam Houston Univ., 986 F.3d 880, 891 (5th Cir. 2021).
+10 FED. R. CIV. PRO. 26(b).
+11 Stevenson v. Benjamin, 2022 WL 12309062, *1 (5th Cir. 10/21/2022) (quoting Coughlin v. Lee, 946 F.2d
+1152, 1159 (5th Cir. 1991));  Oppenheimer Fund, Inc. v. Sanders , 437 U.S. 340, 350-51 (1978); Rangel v.
+Gonzalez Mascorro, 274 F.R.D. 585, 590 (S.D. Tex. 4/11/2011).
+12 Rangel, 274 F.R.D. at 590.
+13 Dotson v. Edmonson , 2017 WL 11535244, at *2 (E.D. La. 11/21/2017) (citing Merrill v. Waffle House,
+Inc., 227 F.R.D. 467, 470 (N.D. Tex. 2/4/2005)).
+14 E.E.O.C. v. Simply Storage Mgmt., L.L.C., 270 F.R.D. 430, 433 (S.D. Ind. 5/11/2010) (quoting Truswal
+Sys. Corp. v. Hydro–Air Eng'g, Inc., 813 F.2d 1207, 1212 (Fed. Cir. 1987)).
+15 Rangel, 274 F.R.D. at 590 n.5.
+16 Miller, 986 F.3d at 891 (citing Crosby v. la. Health Serv. & Indemnity Co. , 647 F.3d 258, 261 (5th Cir.
+2011)).
+17 See Conboy v. Edward D. Jones & Co., 140 F. App’x 510, 517 (5th Cir. 2005).
+Case 2:19-cv-11133-SM-MBN   Document 521   Filed 04/08/24   Page 3 of 18
+4
+While the discovery rules are accorded broad and liberal treatment to achieve their
+purpose of adequately informing litigants in civil trials, 18 discovery does have “‘ultimate
+and necessary boundaries.’” 19 Rule 26(b)(2)(C) mandates that the Court limit the
+frequency or extent of discovery otherwise a llowed, if it determin es: “(i) the discovery
+sought is unreasonably cumulative or duplicative, or can be obtained from some other
+source that is more convenient, less burdensome, or less expensive; (ii) the party seeking
+discovery has had ample opportunity to obtain the information by discovery in the action;
+or (iii) the proposed discovery is outside the scope of Rule 26(b)(1).”20 Further, Rule 26(b)
+“has never been a license to engage in an unwieldy, burdensome, and speculative fishing
+expedition.”21 While relevancy in the discovery context is broader than in the trial context,
+that legal tenet should not be misapplied to allow fishing expeditions in discovery.22
+“The party filing the motion to compel bears the burden of showing that the
+materials and information sought are relevant to the action or will lead to the discovery
+of admissible evidence.” 23 “Once the moving party establishes that the materials
+requested are within the scope of permissible discovery, the burden shifts to the party
+resisting discovery to show why the discover y is irrelevant, overly broad or unduly
+burdensome or oppressive, and thus should not be permitted.”24 “[T]he party asserting a
+privilege exemption from discovery . . . bears the burden of demonstrating the
+18 Herbert v. Lando, 441 U.S. 153, 176 (1979) (citations omitted).
+19 Oppenheimer Fund, Inc. v. Sanders, 437 U.S. 340, 351 (1978) (quoting Hickman v. Taylor, 329 U.S. 495,
+507 (1947)).
+20 FED. R. CIV. PRO. 26(b)(2)(C)(i)–(iii).
+21 Crosby v. La. Health Serv. & Indem. Co., 647 F.3d 258, 264 (5th Cir. 2011).
+22 Trident Mgmt. Grp., LLC v. GLF Constr. Corp ., No. 16-17277, 2017 WL 3011144, at *4 (E.D. La.
+7/14/2017) (citations omitted); see also Crosby, 647 F.3d at 264; Ganpat v. E. Pac. Shipping, PTE, Ltd .,
+No. 18-13556, 2020 WL 1046336, at *3 (E.D. La. 3/4/2020) (Morgan, J.).
+23 Summers v. Louisiana, 2021 WL 4392309, *3 (M.D. La. 9/24/20 21) (internal quotations and citations
+omitted).
+24 Id.
+Case 2:19-cv-11133-SM-MBN   Document 521   Filed 04/08/24   Page 4 of 18
+5
+applicability of that privilege.”25 “Blanket assertions of privilege” are insufficient to carry
+a party’s burden.26
+LAW AND ANALYSIS
+In their motion, Plaintiffs seek to com pel discovery of hundreds of documents. 27
+After discussions with the parties, the Cour t categorized documents pertaining to the
+outstanding discovery requests into nine ca tegories. This Order and Reasons addresses
+discovery issues involving documents related to the Category #5 and Category #8 Data
+Reports. Plaintiffs’ discovery requests related to the Data Reports seek correspondence
+between the Waste Connections Defendants and SCS Engineers, field reports and other
+records of measurements taken at the Landfill and/or in the areas surrounding the
+Landfill, and drafts of the reports.28 Defendants claim the relevant documents, which are
+described in the privilege logs provided to the Court on November 13, 2023 and December
+4, 2023 (respectively, the “November 13 Privilege Log” and the “December 4 Privilege
+Log”), are properly withheld under the work product doctrine, consulting expert work
+product protection, and/or the attorney-client privilege. 29 Several orders and reasons
+issued by the Court in early 2024 resolved issues concerning certain Category #5 30 and
+25 Zahid Hotel Group, L.L.C. v. AmGUARD Insurance Co., 22-2792, 2023 WL 4353132, at *2 (E.D. La. July
+5, 2023).
+26 United States v. Davis, 636 F.2d 1028, 1044 n.20 (5th Cir. 1981).
+27 R. Doc. 326 (18-7889); R. Doc. 380 (19-11133).
+28 P l a i n t i f f s ’  p r o d u c t i o n  r e q u e s t s  N o s .  6 0  t h r o u g h  6 2  i n  t h e i r  S e c o n d  S e t  o f  R e q u e s t s  f o r  P r o d u c t i o n  o f
+Documents seek discovery of documents related to the Categories #5 and #8 Data Reports from the Waste
+Connections Defendants. R. Doc. 329-2, at pp. 5-6 (18-7889). Plaintiffs’ production requests Nos. 5 through
+7 in the Subpoena to Produce Documents seek discovery of documents related to the Categories #5 and #8
+Data Reports from SCS Engineers. R. Doc. 381-5, pp. 9-10 (19-11133).
+29 R. Doc. 386 (18-7889); R. Doc. 438 (19-11133).
+30 In the January 2 Order, the Court ordered the Waste Connections Defendants to produce in full, without
+redactions Entry 0528 in the November 13 Privilege Log and Entries 0288, 0290, and 0425 in the December
+4 Privilege Log. R. Doc. 397 (18-7889); R. Doc.  468 (19-11133). Defendants moved the Court for
+reconsideration of that order and the Court granted in part, determining Defendants did not need to
+produce document 0288 (email only) and 0290, and a llowed Defendants to redact portions of document
+0288_001. R. Doc. 398 (18-7889); R. Doc. 470 (19- 11133). In the Order and Reasons dated January 30,
+2024, the Court resolved discovery issues related to Entries 0287, 0289, 0296, 0297, 0300, 0355, and 0386
+in the December 4 Privilege Log, which are also associated with Category #7. R. Doc. 414 (18-7889); R. Doc.
+494 (19-11133). In the Order and Reasons dated March 6, 2024, the Court resolved discovery issues related
+Case 2:19-cv-11133-SM-MBN   Document 521   Filed 04/08/24   Page 5 of 18
+6
+Category #831 documents. Accordingly, this Order and Reasons considers only documents
+related to Category #532 and Category #833  that have not yet been resolved by the Court.
+I. The Work Product Doctrine and Co nsulting Expert Work Product
+Privilege
+“Federal law governs . . . parties’ assertions that certain information is protected
+from disclosure by the work product doctrine.” 34 “The work product doctrine is not an
+umbrella that shades all materials prepared by a lawyer. The work product doctrine
+focuses only on materials assembled and brought into being in anticipation of
+litigation.”35 The work product doctrine applies to  “documents and tangible things that
+are prepared in anticipation of litigation or for trial by or for another party or its
+representative.”36 “Excluded from the work-product doctrine are materials assembled in
+to Entries 0354, 0593, 0603, and 0610 in the December 4 Privilege Log, which are also associated with two
+groups of work—Group #1, “consultation with SCS as consulting expert for use in providing legal advice,”
+and Group #2, “off-site survey of area odor sources” performed by SCS Engineers in July and August 2019.
+R. Doc. 421 (
+18-7889); R. Doc. 505 (19-11133). In the Order and Reasons dated March 13, 20 24, the Court
+r
+esolved discovery issues related to Entries 0468, 0469, 0475, 0476, 0491, 0492, and 0599 in the December
+4 Privilege Log, which are also associated with Category #6. R. Doc. 422 (18-7889); R. Doc. 506 (19-11133).
+31 In the Order and Reasons dated March 6, 2024, the Court resolved discovery issues related to Entry 0583
+in the November 13 Privilege Log and Entries 0651, 0652, 0684, 0703, 0711, 0712, 0715, 0719 through 0721,
+0724, 0726, 0728 through 0735, 0743, 0750, 0751, 0759, 0763, 0766, 0796, 0878 through 0893, and 0934
+in the December 4 Privilege Log, which are also associated with two gr oups of work—Group #1,
+“co
+nsultation with SCS as consulting expert for use in providing legal advice,” and Group #3, “Novem ber
+2019 off-si
+te odor samples” performed by SCS Engineers. R. Doc. 421 (18-7889); R. Doc. 505 (19-11133).
+32 Defendants argue the following documents related to Category #5, which have not yet been resolved  by
+the Court, are privileg
+ed based on the work product doctrine, consulting expert work product privilege,
+and/or the attorney-client privilege: 0518, 0519, 05 22, 0523, 0527, 0529, 0530, 0538, 0541, 0552, 0554,
+0555, 0556, and 0558 through 0561 in the November 13 Privilege Log; and 0291, 0295, 0298, 0299, 0301,
+0302, 0306 through 0338, 0340, 0342 through 0345, 0377, 0378, 0381 through 0383, 0388 through 0403,
+0405 through 0410, 0412 through 0422, 0424, 0426, 0431 through 0446, 0449, 0450, 0461, 0465, 0481,
+0489, 0490, 0498 through 0500, 0503, 0514, 0520 through 0543, 0547 through 0564, 0569 through 0592,
+0595, 0596, 0600, 0602, 0606, 0607, 0611, 0612, 06 17 through 0619, 0629, 0771 through 0773, 0775,
+0846, 0918 through 0932, 0935, 0936, 0945, and 0948  in the December 4 Privilege Log.
+33 Defendants argue the following documents related to Category #8, which have not yet been resolved by
+the Court, are privileged based on the work product doctrine, consulting expert work product privilege,
+and/or the attorney-client privilege: 0570 and 0574 th rough 0581 in the November 13 Privilege Log; and
+0404, 0631 through 0648, 0650, 0653, 0654, 0656, 0657, 0662, 0678 through 0683, 0686, 0687, 0689
+through 0702, 0704 through 0707, 0709, 0713, 0714, 0716 through 0718, 0723, 0727, 0737 through 0742,
+074
+4 through 0749, 0752, 0753, 0755 through 0758, 0760, 0762, 0764, 0767, 0768, 0770, 0776 through
+0789, 0814, 0894 through 0917, and 0933 in the December 4 Privilege Log.
+34 Southern Scrap Material Co. v. Fleming , 2003 WL 21474516, at *5 (E .D. La. June 18, 2003) (citing
+Naquin v. Unocal Corp., 2002 WL 1837838, at *2 (E.D. La. 2002)).
+35 United States v. El Paso Co., 682 F.2d 530, 542 (5th Cir. 1982).
+36 FED. R. CIV. P. 26(b)(3)(A).
+Case 2:19-cv-11133-SM-MBN   Document 521   Filed 04/08/24   Page 6 of 18
+7
+the ordinary course of business.”37 The doctrine does not place work product outside the
+scope of discovery, but instead “creates a form of qualified immunity from discovery” for
+materials prepared in anticipation of litigation. 38 “Rule 26(b)(3) protects documents
+prepared by a party’s agent from discovery, as long as they were prepared in anticipation
+of litigation.”39
+The level of protection depends on whether the materials prepared in anticipation
+of litigation constitute “opinion” work product or non-opinion, “fact” work product.40 The
+“mental impressions, conclusions, opinions or legal theories of an attorney” are opinion
+work product subject to a higher showing for production. 41 “Fact work product, on the
+other hand, is any material ‘prepared in antici pation of litigation or for trial by or for
+another party or its representative’ under Rule 26(b)(3)(A) but ‘not the “mental
+impressions, conclusions, opinions or legal th eories of an attorney”’ under subsection
+(b)(3)(B).”42 A party seeking discovery of ordina ry fact work product must make a
+showing of “substantial need and the inability to obtain the substantial equivalent
+elsewhere.”43 “However, absent a showing of compelling need and the inability to discover
+the substantial equivalent by other means, work product evidencing mental impressions
+of counsel, conclusions, opinions and legal theories of an attorney are not discoverable.”44
+Under Rule 26(b)(4)(D), a party may discover “facts known or opinions held” by a
+non-testifying expert retained “in anticipation  of litigation . . . only upon a showing of
+37 Treece v. Perrier Condominium Owners Ass’n, Inc., 2019 WL 12289568, at *4 (E.D. La. Jun 20, 2019);
+see also Hill Tower, Inc. v. Dep’t of Navy, 718 F. Supp. 562, 565 (N.D. Tex. 1988) (“The mere fact this report
+deals with facts, opinions, and recommendations that later may be the focus of litigation does not establish
+that there was the expectation of litigation when this document was drafted.”).
+38 Chiasson v. Zapata Gulf Marine Corp., 988 F.2d 513, 514 n.2 (5th Cir. 1993).
+39 Southern Scrap Material, 2003 WL 21474516, at *6.
+40 Id. at *7.
+41 In re Int’l Sys. & Controls Corp. Sec. Lit., 693 F.2d 1235, 1240 (5th Cir. 1982).
+42 See Doe 1 v. Baylor Univ., 335 F.R.D. 476, 487 (W.D. Tex. 2020).
+43 Southern Scrap Material, 2003 WL 21474516, at *7, 13.
+44 Id. at *7.
+Case 2:19-cv-11133-SM-MBN   Document 521   Filed 04/08/24   Page 7 of 18
+8
+exceptional circumstances under which it is impracticable for the party seeking discovery
+to obtain facts or opinions on the same subject by other means.”45 The rule “creates a safe
+harbor whereby facts and opinions of nontestifying, consulting experts are shielded from
+discovery, except upon a showing of exceptional circumstances.”46
+Defendants argue “SCS prepared the [Data] [R]eports . . . in its capacity as a non-
+testifying consulting expert for Waste Connections.” 47 Defendants contend all “drafts of
+these reports, communications among and be tween SCS and Waste Connections and its
+lawyers related to the reports, field no tes and measurements taken by SCS, and
+assessments and drafts of assessments made by SCS” are protected by Rule 26(b)(4)(D)
+and the work product doctrine. 48 Further, Defendants argue “[t]he data disclosed in the
+SCS reports produced during discovery is available for Plaintiffs to use however they deem
+appropriate.”49
+Plaintiffs argue the documents at issu e fall within the exception to Rule
+26(b)(4)(D), which renders the privileged work product of consulting experts
+discoverable when it is impracticable for a pa rty to obtain facts or opinions on the same
+subject by other means. 50 Plaintiffs contend the data underlying the Data Reports
+constitutes “condition[s] observed by the expert [that are] no longer observable” because
+the conditions of the Landfill have since changed.51
+In opposition, Defendants argue they “produced to Plaintiffs the data and resulting
+reports, which describe in detail the me thodology, equipment used, and field notes
+45 FED. R. CIV. PRO. 26(b)(4)(D).
+46 Will Uptown, LLC v. B&P Restaurant Group, LLC, 15-51, 2016 WL 4620200, at *5 (M.D. La. Sept. 6,
+2016).
+47 R. Doc. 368-1 at p. 23 (19-11133).
+48 R. Doc. 368-1 at p. 23 (19-11133).
+49 R. Doc. 368-1 at p. 17 (19-11133).
+50 R. Doc. 381-1 at pp. 23-24 (19-11133).
+51 R. Doc. 381-1 at p. 24 (19-11133).
+Case 2:19-cv-11133-SM-MBN   Document 521   Filed 04/08/24   Page 8 of 18
+9
+related to the [Data Reports].”52 Thus, Defendants attest, “Plaintiffs have all information
+relevant to understanding or using the disc losed reports and have not identified any
+exceptional circumstance that would warrant” disclosure.53
+Having conducted in camera review, the Court finds certain documents related to
+Categories #5 and #8 constitute “fact” wo rk product, which contain no “mental
+impressions, conclusions, opinions or  legal theories of an attorney.” 54 Plaintiffs have
+demonstrated the requisite “substantial need” and “inability to obtain the substantial
+equivalent elsewhere,”55 and “exceptional circumstances” that hinder their ability to
+obtain facts on the same subject matter by other means to render these documents
+discoverable.56 Further, to the extent these documents contain opinion work product,
+Plaintiffs demonstrate the requisite “compelli ng need and the inability to discover the
+substantial equivalent by other means.” 57 Accordingly, the Court denies Defendants’
+claims of privilege based on work product and consulting expert work product protection
+with respect to the following documents related to the Data Reports:
+ Entry 0541 in the November 13 Privilege Log; and
+ Entries 0291_001, 0306_001, 0319_001 , 0404, 0405, 0438_001, 0439_001,
+0439_002, 0441_002, 0441_005, 0441 _007, 0442_001, 0445, 0445_001,
+0445_002, 0445_003, 0445_004, 0445_005, 0445_006, 0445_007, 0446_001,
+0446_002, 0481_002, 0489, 0489_002, 0490_001, 0490_002, 0498_001,
+0524, 0525, 0526, 0527, 0528, 0529, 0530_001, 0535, 0557_001, 0557_002,
+0557_003, 0557_004, 0561_001, 0570, 0571, 0572, 0573_001, 0576, 0582, 0591,
+0592_001, 0596_001, 0600, 0611, 0633_001, 0656_001, 0727, 0741, 0744, 0747,
+0748, 0749, 0752, 0753, 0755, 0756, 07 57_001, 0758, 0768, 0782, 0783, 0784,
+0785, 0786, 0787, 0814, 0846, 0894, 0895, 0896, 0897, 0898, 0899, 0900, 0901,
+0902, 0903, 0904, 0905, 0906, 0907, 0908, 0909, 0910, 0911, 0912, 0913, 0914,
+52 R. Doc. 386 at p. 11 (18-7889).
+53 R. Doc. 388 at p. 12 (19-11133).
+54 See In re Int’l Sys. & Controls Corp. Sec. Lit., 693 F.2d at 1240.
+55 See Southern Scrap Material, 2003 WL 21474516, at *7, 13.
+56 FED. R. CIV. PRO. 26(b)(4)(D).
+57 See Southern Scrap Material, 2003 WL 21474516, at *7.
+Case 2:19-cv-11133-SM-MBN   Document 521   Filed 04/08/24   Page 9 of 18
+10
+0915, 0916, 0917, 0918, 0919, 0920, 0921 , 0922, 0923, 0924, 0925, 0926, 0927,
+0928, 0929, 0931, 0932, 0945, and 0948 in the December 4 Privilege Log.58
+II. The Attorney-Client Privilege
+The work-product doctrine is distinct fr om and broader than the attorney-client
+privilege.59 “[T]he work product privilege [exists] . . . to promote the adversary system by
+safeguarding the fruits of an attorney’s trial preparations from the discovery attempts of
+an opponent,” whereas “[t]he attorney-clien t privilege exists to protect confidential
+communications and to protect the attorney-client relationship.” 60
+“The attorney-client privilege protects two related, but different communications:
+(1) confidential communications made by a cl i e n t  t o  h i s  l a w y e r  for the purpose of
+obtaining legal advice; and (2) any communicati on from an attorney to his client when
+made in the course of giving legal advice, whether or not that advice is based on privileged
+communications from the client.” 61 “The purpose of the attorney-client privilege is to
+‘encourage full and frank communication between attorneys and their clients and thereby
+promote broader public interests in the observance of law and administration of
+justice.”62 “For a communication to be protected under the privilege, the proponent ‘must
+prove: (1) that . . . a confidential communication [was made]; (2) to a lawyer or his
+subordinate, (3) for the primary purpose of securing either a legal opinion or legal
+services, or assistance in some legal proceeding.’”63 “Communications by the lawyer to the
+client are protected ‘if they would tend  to disclose the client’s confidential
+58 Of these documents, the Waste Connections Defendan ts also argue the following are properly withheld
+under the attorney-client privilege: Entries 0291, 0306, 0441, 0442, 0446, 0481, 0490, 0530, 0557, 0561,
+0572, 0573, 0592, 0596, 0633, 0656, and 0757 in the December 4 Privilege Log.
+59 See United States v. Nobles, 422 U.S. 225, 238 (1975).
+60 Shields v. Sturm, Ruger, & Co., 864 F.2d 379, 382 (5th Cir. 1989).
+61 Earl v. Boeing Co., 17-10153, 2021 WL 963405, at *2 (E.D. Tex. Mar. 15, 2021) (quoting United States v.
+Mobil Corp., No. 4:19-cv-507, 149 F.R.D. 533, 536 (N.D. Tex. 1993)), vacated in part, on other grounds, by
+In re Boeing Co., 21-40190, 2021 WL 3233504 (5th Cir. July 29, 2021).
+62 Id. (quoting Upjohn Co. v. United States, 449 U.S. 383, 389 (1981)).
+63 Id. (quoting EEOC v. BDO USA, L.L.P., 876 F.3d 690, 695 (5th Cir. 2017)).
+Case 2:19-cv-11133-SM-MBN   Document 521   Filed 04/08/24   Page 10 of 18
+11
+communications.’”64 “Because the attorney-client privilege ‘has the effect of withholding
+relevant information from the fact-finder,’ it is interpreted narrowly so as to ‘apply only
+where necessary to achieve its purpose.’”65 “Further, ‘the privilege only protects disclosure
+of communications; it does not protect disclo sure of the underlying facts by those who
+communicated with the attorney.’”66
+“Application of the attorney-client privilege is a ‘question of fact, to be determined
+in the light of the purpose of the privil ege and guided by judicial precedents.’” 67
+“Determining the applicability of the privilege is a 'highly fact-specific’ inquiry, and the
+party asserting the privilege bears the burden of proof.’” 68 “‘Attorney-client privilege is
+not presumed’69 . . . and ‘ambiguities as to whether the elements of a privilege claim have
+been met are construed against the proponent.’”70
+When a corporate setting is involved, cou rts have recognized the attorney-client
+privilege analysis “presents unique challenges.” 71 In Stoffels v. SBC Communications,
+Inc., the United States District Court for the Western District of Texas stated:
+The attorney-client privilege applies in a corporate setting. However,
+because in-house counsel has an increased level of participation in the day-
+to-day operations of the corporation, it is more difficult to define the scope
+of the privilege when a communication is made to in-house counsel. Thus,
+in such a setting, the attorney-client privilege attaches only to
+communications made for the purpose of giving or obtaining legal advice or
+services, not business or technical ad vice or management decisions. The
+critical inquiry is, therefore, whether any particular communication
+facilitated the rendition of predominantly legal advice or services to the
+client.72
+64 Id. (quoting O’Malley v. Pub. Belt R.R. Comm’n for City of New Orleans, 17-4812, 2018 WL 814190, at
+*2 (E.D. La. Feb. 9, 2018)).
+65 Id. (quoting BDO USA, 876 F.3d at 695).
+66 Id. (quoting Upjohn, 449 U.S. at 395).
+67 Id. at *3 (quoting In re Auclair, 961 F.3d 65, 68 (5th Cir. 1992)).
+68 Id. (quoting BDO USA, 986 F.3d at 695).
+69 Id. (quoting United States v. Tedder, 801 F.2d 1437, 1441 (4th Cir. 1986)).
+70 Id. (quoting BDO USA, 986 F.3d at 695).
+71 Id. at *4.
+72 Id. (quoting Stoffels v. SBC Comms., Inc., 263 F.R.D. 406, 411 (W.D. Tex. 2009)).
+Case 2:19-cv-11133-SM-MBN   Document 521   Filed 04/08/24   Page 11 of 18
+12
+“Even though this standard is ‘time-consuming’ and ‘requires a document-by-document
+analysis,’ it ‘ensures a balance between forbidding a company from trying to cloak non-
+privileged communications with protection by  unnecessarily sending them to attorneys
+and encouraging in-house counsel involvement early and often in corporate decision-
+making.’”73
+“Legal advice, as contrasted with business advice, ‘involves the interpretation and
+application of legal principles to guide future conduct or to assess past conduct.’” 74 “If
+advice offered by in-house counsel intertwines business and legal ad vice, attorney-client
+privilege protects the communication on ly if the legal advice predominates.” 75 “Simply
+labeling communications as ‘legal advice’ is conclusory and insufficient to satisfy the
+privilege-proponent’s burden.”76 Moreover, “[w]hen a corporation simultaneously sends
+communications to both lawyers and non-lawyers, . . . ‘it usually cannot claim that the
+primary purpose of the communication was for legal advice or assistance because the
+communication served both business and legal purposes.’”77
+Of the documents related to the Category  #5 and Category #8 Data Reports to
+which the Court determined work product d octrine and consulting expert work product
+privileges do not attach, the Waste Connections Defendants argue Entries 0291, 0306,
+0441, 0442, 0446, 0481, 0490, 0530, 0557, 0561, 0572, 0573, 0592, 0596, 0633, 0656,
+and 0757 in the December 4 Privilege Log are privileged attorney-client communications.
+“[T]he attorney-client privilege does not apply to every communication involving
+counsel,” but only those “communications made in confidence between a client and his
+73 Id. at *3 n.3 (quoting Corporate Attorney-Client Privilege in the Digital Age: War on Two Fronts? , 16
+STAN. J. L. BUS. & FIN. 288, 307 (2011)).
+74 Id. (quoting BDO USA, 856 F.3d at 365).
+75 Id. (quoting Neuder v. Battelle Pac. Nw. Lab., 194 F.R.D. 289, 292 (D.D.C. 2000)).
+76 Id. (citing Coltec Indus., Inc. v. Am. Motorists Ins. Co., 197 F.R.D. 368, 373 (N.D. Ill. 2000)).
+77 Slocum v. Int’l Paper Co., 549 F. Supp. 3d 519, 524 (E.D. La. 2021) (quoting In re Vioxx Prod. Liability
+Lit., 501 F. Supp. 2d 789, 805 (E.D. La. 2007)).
+Case 2:19-cv-11133-SM-MBN   Document 521   Filed 04/08/24   Page 12 of 18
+13
+lawyer for the purpose of obtaining legal advice.” 78 The Court finds the emails logged as
+Entries 0291, 0306, 0441, 0442, 0446, 0481, 0490, 0530, 0557, 0561, 0573, 0592, 0596,
+0633, 0656, and 0757 are protected by the attorney-client privilege. Defendants, however,
+fail to satisfy the burden of demonstrating that the primary purpose of certain documents
+attached to the email communications was to ob tain advice on specified legal issues as
+required for the attorney-client privilege to attach. 79 Further, the Court finds that, with
+respect to the following documents, Plainti ffs are unable to “obtain the substantial
+equivalent” elsewhere and are entitled to their production:80
+ Entries 0291_001, 0306_001, 0441_002, 0441_005, 0441_007, 0442_001,
+0446_001, 0446_002, 0481_002, 0490_001, 0490_002, 0530_001, 0557_001,
+0557_002, 0557_003, 0557_004, 0561_001, 0572, 0573_001, 0592_001,
+0596_001, 0633_001, 0656_001, and 0757_001 in the December 4 Privilege Log.
+Defendants’ assertions of work product, consulting expert work product, and
+attorney-client privileges on the remaining documents related to Categories #5 and #8
+are proper.
+III. Subject Matter Waiver
+The Court next considers whether Defendan ts’ production of the Data Reports to
+Plaintiffs in discovery constitutes a subject matter waiver of the privileges that the Court
+determined Defendants properly asserted over certain documents related to Categories
+#5 and #8. Subject matter waiver of the atto rney-client privilege and the work product
+privilege in federal proceedings is governed  by Rule 502(a) of the Federal Rules of
+Evidence, which applies to intentional disclo sures of information otherwise covered by
+the privileges.81 Rule 502(a) states:
+78 Tonti Management Co., Inc. v. Soggy Doggie, LLC, 19-13134, 2020 WL 9172077, at *9 (E.D. La. June 25,
+2020).
+79 See id.
+80 Southern Scrap Material, 2003 WL 21474516, at *5 (quoting FED. R. CIV. P. 26(b)(3)).
+81 “In diversity cases, the Court must apply the state law of attorney-client privilege.” Gulf Coast Facilities
+Management, L.L.C. v. BG LNG Servs., L.L.C., 09-3822, 2010 WL 11707290, at *2 (E.D. La. Mar. 24, 2010)
+Case 2:19-cv-11133-SM-MBN   Document 521   Filed 04/08/24   Page 13 of 18
+14
+When the disclosure is made in a federal proceeding or to a federal office or
+agency and waives the attorney-client privilege or work-product protection,
+the waiver extends to an undisclosed communication or information in a
+federal or state proceeding only if:
+(1) the waiver is intentional;
+(2) the disclosed and undisclosed communications or information
+concern the same subject matter; and
+(3) they ought in fairness to be considered together.82
+“There is no subject matter waiver un less all three elements are satisfied.” 83 A subject
+matter waiver “entitles [a proponent] to discover documents and information reflecting
+counsel’s advice as to the subjects of the waiver even though [the objecting party] may
+assert they ultimately did not rely on that advice.”84
+The Advisory Committee notes to Rule 502 explain the “animating principle” of
+“fairness [] is taken from Rule 106.”85 Rule 106 of the Federal Rules of Evidence governs
+the admissibility of the remainder of or related writings or recorded statements:
+If a party introduces all or part of a statement, an adverse party may require
+the introduction, at that time, of any other part--or any other statement--
+that in fairness ought to be considered at the same time. The adverse party
+may do so over a hearsay objection.86
+“Rule 106 requires the introduction of a wr iting or recorded statement only when the
+omitted portion is ‘necessary to qualify, explain, or place into context the portion already
+introduced[.]’”87 Under Rule 106, a party may “correct an incomplete and misleading
+impression created by the introduction of part of a writing or recorded statement,” but
+the rule “does not permit a party to intr oduce writings or recorded statements to
+(citing FED. R. EVID. 501). Notwithstanding Rule 501, however, Rule 502(f) clarifies that Rule 502 applies
+to the issue of waiver even if state law provides the rule of decision. FED. R. EVID. 502(f).
+82 FED. R. EVID. 502(a).
+83 Gulf Coast Facilities Management, 2010 WL 11707290, at *2.
+84 U.S. Securities and Exchange Comm’n v. Commonwealth Advisors, Inc., 2015 WL 5725778, at *2 (M.D.
+La. Sept. 29, 2015).
+85 FED. R. EVID. 502 advisory committee’s explanatory note (revised Nov. 28, 2007).
+86 FED. R. EVID. 106.
+87 U.S. v. Herman, 997 F.3d 251, 264 (5th Cir. 2021).
+Case 2:19-cv-11133-SM-MBN   Document 521   Filed 04/08/24   Page 14 of 18
+15
+affirmatively advance their own, alternative theory of the case.”88 The 2023 amendment
+to Rule 106 allows for the admission of evidence to complete a statement over the
+objection of a party when “necessary to correct [a] misimpression” or “to provide context
+for the initially proffered statement.”89
+Thus, “[u]nder both Rules, a party that makes a selective, misleading presentation
+that is unfair to the adversary opens it self to a more complete and accurate
+presentation.”90 “Courts have provided additional clarification, finding that subject
+matter waiver under [Rule] 502(a) ‘is limited to situations in which a party intentionally
+puts protected information into the litigati on in a selective, misleading and unfair
+manner.’”91
+Plaintiffs argue the Waste Connections Defendants waived any privilege as to the
+documents related to the Data Reports becaus e their production of the Data Reports to
+Plaintiffs in discovery constituted a subject matter waiver.92 Plaintiffs assert that “[e]ven
+if the[] documents were prepared to assist the lawyers[,] . . . when a party agrees to share
+the report of its consulting expert, it cannot at  the same time contend that the report is
+88 Id.
+89 FED. R. EVID. 106 advisory committee’s explanatory note to 2023 amendments. The Advisory Committee
+Comments further provide:
+[T]he amendment provides that if the existing fairness standard requires completion, then
+that completing statement is admissible over a hearsay objection. . . . The Committee has
+determined that the rule of completeness, grou nded in fairness, cannot fulfill its function
+if the party that creates a misimpression about the meaning of a proffered statement can
+then object on hearsay grounds and exclude the statement that would correct the
+misimpression. . . . A party that presents a distortion can fairly be said to have forfeited its
+rights to object on hearsay grounds to a statement that would be necessary to correct the
+misimpression.”
+See also U.S. v. Crowell, CR23-8, 2023 WL 8642213, at *1 (S.D. Ohio D ec. 14, 2023) (“[T]he
+amended rule still requires the creation of a misimpression before an out-of-court statement will
+be admitted for completeness.”).
+90 FED. R. EVID. 502 advisory committee’s explanatory note (revised Nov. 28, 2007).
+91 Williams v. Nationstar Mortgage LLC , 19-663, 2022 WL 391494, at *2 (M.D . La.  Feb. 8, 2022)
+(quoting RLIS, Inc. v. Cerner Corp., 12-209, 2014 WL 12599509, at *1 (S.D. Tex. Dec. 24, 2014));  see
+also Mills v. Iowa, 285 F.R.D. 411, 416 (S.D. Iowa 2012); Schnatter v. 247 Group, LLC , 20-3, 2021 WL
+5018741, at *11 (W.D. Ky. Oct. 28, 2021).
+92 R. Doc. 381-1 at pp. 18-19.
+Case 2:19-cv-11133-SM-MBN   Document 521   Filed 04/08/24   Page 15 of 18
+16
+protected.”93 Defendants argue “[v]oluntary disclosure of work product ‘generally results
+in a waiver only of the communication or information disclosed.’” 94 With respect to
+Categories #5 and #8, Defendants contend the reports are “entirely pure data reports,
+and the parties are on equal footing to use or ignore that data as they deem appropriate.”95
+Accordingly, Defendants argue, the voluntary disclosure of the Data Reports to Plaintiffs
+was not “selective, misleading and unfair, as  required for a subject matter waiver under
+Rule 502(a).”96 The Court addresses each element of Rule 502(a) to construe whether the
+Waste Connections Defendants’ waived privilege with respect to the Data Reports.
+First, the Waste Connections Defendants intentionally waived the attorney-client
+and work product privileges with respect to  the Data Reports by disclosing them to
+Plaintiffs. Second, having conducted in ca mera review of the documents related to
+Categories #5 and #8 for which Defendants  assert privilege, the Court finds the
+undisclosed documents and communications concern the same subject matter as the
+disclosed Data Reports. The inquiry thus turns on the third element—fairness.
+To analyze the third prong of Rule 502( a), the Advisory Committee points to the
+fairness standard presented in Rule 106. 97 Courts generally limit the subject matter
+waiver under Rule 502(a) “‘to situations in which a party intentionally puts protected
+information into the litigation in a selective, misleading and unfair manner.’”98 Indeed,
+the Advisory Committee notes to Rule 502 inte rpret “fairness” similarly and advise that
+93 R. Doc. 381-1 at p. 19.
+94 R. Doc. 388 at p. 8 (citing F ED. R. EVID. 502 advisory committee’s explanatory note (revised Nov. 28,
+2007)).
+95 R. Doc. 388 at p. 9.
+96 R. Doc. 388 at p. 9 (citations omitted).
+97 See FED. R. EVID. 502 advisory committee’s explanatory note (revised Nov. 28, 2007).
+98 Williams v. Nationstar Mortgage LLC, 19-663, 2022 WL 391494, at *2 (M.D. La. Feb. 8, 2022) (quoting
+RLIS, Inc. v. Cerner Corp. , 12-209, 2014 WL 12599509, at *1 (S.D. Tex. Dec. 24, 2014)); see also Mills v.
+Iowa, 285 F.R.D. 411, 416 (S.D. Iowa 2012); Schnatter v. 247 Group, LLC, 20-3, 2021 WL 5018741, at *11
+(W.D. Ky. Oct. 28, 2021).
+Case 2:19-cv-11133-SM-MBN   Document 521   Filed 04/08/24   Page 16 of 18
+17
+the waiver be reserved for exceptional circumstances in which failure to recognize the
+waiver would unfairly disadvantage a party.99 More specifically, the notes explain:
+[A] subject matter waiver (of either privilege or work product) is reserved
+for those unusual situations in which fairness requires a further disclosure
+of related, protected information, in order to prevent a selective and
+misleading presentation of evidence to the disadvantage of the adversary …
+Thus, subject matter waiver is limited to situations in which a party
+intentionally puts protected information into the litigation in a selective,
+misleading and unfair manner.100
+Adopting the fairness standards expresse d in the Ad
+visory Committee notes to
+Rule 502, the Court finds that Defendants did not waive privilege as to the subject matter
+of the disclosed Data Reports.101 Accordingly, Defendants are not required to produce to
+Plaintiffs the documents related to Categories #5 and #8 to which the Court determined
+work product, consulting expert work product, and attorney-client privileges attach.
+CONCLUSION
+For the foregoing re asons, it is ORDERED that Plaintiffs’ Motion to Compel is
+GRANTED IN PART and DENIED IN PART 102 as stated herein.
+IT IS FURTHER ORDERED that Defendants’ Motion to Quash is DENIED IN
+PART and GRANTED IN PART.103
+IT IS FURTHER ORDERED that the Waste Connections Defendants produce
+the following documents in full, without redactions, by April 15, 2024:
+ Entry 0541 in the November 13 Privilege Log; and
+ Entries 0291_001, 0306_001, 0319_001 , 0404, 0405, 0438_001, 0439_001,
+0439_002, 0441_002, 0441_005, 0441 _007, 0442_001, 0445, 0445_001,
+0445_002, 0445_003, 0445_004, 0445_005, 0445_006, 0445_007, 0446_001,
+99 See FED. R. EVID. 502 advisory committee’s explanatory note (revised Nov. 28, 2007).
+100 FED. R. EVID. 502 advisory committee’s explanatory note (revised Nov. 28, 2007).
+101 See FED. R. EVID. 502(a).
+102 R. Doc. 326 (18-7889); R. Doc. 380 (19-11133). This order resolves all issues related to Plaintiffs’ Motion
+to Compel.
+103 R. Doc. 368 (19-11133). This Order resolves all issues related to Defendants’ Motion to Quash. This Order
+further resolves all issues related to Defendants’ Moti on for Protective Order. R. Doc. 333 (18-7889); R.
+Doc. 390 (19-11133).
+Case 2:19-cv-11133-SM-MBN   Document 521   Filed 04/08/24   Page 17 of 18
+18
+0446_002, 0481_002, 0489, 0489_002, 0490_001, 0490_002, 0498_001,
+0524, 0525, 0526, 0527, 0528, 0529, 0530_001, 0535, 0557_001, 0557_002,
+0557_003, 0557_004, 0561_001, 0570, 0571, 0572, 0573_001, 0576, 0582, 0591,
+0592_001, 0596_001, 0600, 0611, 0633_001, 0656_001, 0727, 0741, 0744, 0747,
+0748, 0749, 0752, 0753, 0755, 0756, 07 57_001, 0758, 0768, 0782, 0783, 0784,
+0785, 0786, 0787, 0814, 0846, 0894, 0895, 0896, 0897, 0898, 0899, 0900, 0901,
+0902, 0903, 0904, 0905, 0906, 0907, 0908, 0909, 0910, 0911, 0912, 0913, 0914,
+0915, 0916, 0917, 0918, 0919, 0920, 0921 , 0922, 0923, 0924, 0925, 0926, 0927,
+0928, 0929, 0931, 0932, 0945, and 0948 in the December 4 Privilege Log.
+New Orleans, Louisiana, this 8th day of April, 2024.
+______________________________
+SUSIE MORGAN
+UNITED STATES DISTRICT JUDGE
+Case 2:19-cv-11133-SM-MBN   Document 521   Filed 04/08/24   Page 18 of 18

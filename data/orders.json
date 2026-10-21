@@ -1926,5 +1926,7 @@
 {"date":"2026-10-20","time":"17:19","judge":"ILRL","case":"2:25-cv-02561","doc":"38","title":"Goodwin v. Rogers","event":"Order to Show Cause AND ~Util - Set/Reset Deadlines","src":"courtlistener"},
 {"date":"2026-10-20","time":"17:24","judge":"SM","case":"2:26-cv-02357","doc":"9","title":"Cooney v. Social Security Administration","event":"Order on Motion to Appear Pro Hac Vice","src":"courtlistener"},
 {"date":"2026-10-20","time":"17:29","judge":"BSL","case":"2:25-cv-02238","doc":"53","title":"Gly-Tech Services, Inc. v. BH Energy Services, LLC","event":"Order on Motion for Protective Order","src":"courtlistener"},
-{"date":"2026-10-21","time":"10:15","judge":"JTM","case":"2:26-cv-00729","doc":"17","title":"Fike v. Morrow, et al","event":"Scheduling Order","src":"rss"}
+{"date":"2026-10-21","time":"10:15","judge":"JTM","case":"2:26-cv-00729","doc":"17","title":"Fike v. Morrow, et al","event":"Scheduling Order","src":"rss"},
+{"date":"2026-10-21","time":"10:41","judge":"KWR","case":"2:25-cv-02047","doc":"52","title":"Rainey v. Marathon Petroleum Company LP","event":"Judgment","src":"rss"},
+{"date":"2026-10-21","time":"11:11","judge":"JTM","case":"2:25-cv-01447","doc":"55","title":"Seals et al v. GulfMark Americas, Inc. et al","event":"Order","src":"rss"}
 ]

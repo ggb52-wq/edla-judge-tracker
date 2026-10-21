@@ -1,0 +1,619 @@
+1
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+FREDERICK E. ADDISON, SR., ET AL.,
+Plaintiffs
+CIVIL DOCKET
+
+VERSUS
+
+NO.  19-11133
+          c/w 19-14512
+
+LOUISIANA REGIONAL LANDFILL
+COMPANY, ET AL.,
+Defendants
+SECTION: “E” (5)
+
+Applies to: Both Cases
+
+ORDER AND REASONS
+ Before the Court are two contested Mo tions in Limine filed by Plaintiffs 1 and
+Defendant Jefferson Parish 2 (collectively, the “Movants ”), both seeking to exclude
+testimony of Barry Kline, P.E., a purported expert on landfill gas collection and control,
+retained by Defendant Aptim Corporatio n (“Aptim”). Aptim filed memoranda in
+opposition.3 The Movants filed reply memoranda in support of their respective Motions
+in Limine.4
+BACKGROUND
+This case concerns the operation of the Jefferson Parish Landfill in Waggaman,
+Louisiana (the “Landfill”), and the resulting odors emitted from the Landfill between July
+1, 2017, and December 31, 2019 (the “relevant time period”). Plaintiffs, who are Jefferson
+Parish residents, filed several individual lawsuits that were consolidated into a mass
+action, Addison v. Louisiana Regional Landfill Co. , which contains over 500 individual
+
+1 R. Doc. 551.
+2 R. Doc. 543.
+3 R. Doc. 576 (opposing Plaintiffs’ motion); R. Doc. 577 (opposing Jefferson Parish’s motion).
+4 R. Doc. 613 (Plaintiffs’ reply); R. Doc. 631 (Jefferson Parish’s reply).
+Case 2:19-cv-11133-SM-MBN   Document 655   Filed 07/11/24   Page 1 of 18
+2
+Plaintiffs.5 Plaintiffs assert negligence and nuis ance claims under Louisiana state law 6
+against Defendants: Jefferson Parish, which ow ns and contracts with others to operate
+the Landfill; Aptim Corporation, which managed the gas and leachate collection systems
+of the Landfill from July 2017 to May 2019; and three entities that operated the Landfill
+from May 2013 to December 2020: Louisiana Regional Landfill Company; 7 Waste
+Connections Bayou, Inc.;8 and Waste Connections US, Inc.9
+On November 5, 2019, the Court issued the first Case Management Order (“CMO”),
+which established a bifurcated litigation sc hedule under which the issue of general
+causation would be resolved first. 10 The Court held a trial on general causation in early
+2022.11 On November 29, 2022, the Court issued its Findings of Fact and Conclusions of
+Law as to General Causation (the “General Causation Order”),12 determining that, during
+the relevant time period: (1) odors an d gases were emitted by the Landfill; 13 (2) the
+emissions of gases and odors from the Landfill occurred during the relevant time period;14
+and (3) exposure to the odors and gases emitted by the Landfill at a level of five parts per
+billion for thirty minutes “is sufficient by itself for individuals generally to be able to smell
+hydrogen sulfide and for the exposure to cause a reaction.”15 Having found that Plaintiffs
+established general causation for certain Allo wed Injuries, the Court ordered that a trial
+
+5 See generally S e c o n d  A m e n d e d  C o m p l a i n t ,  R .  D o c .  4 3 1 .  J e f f e r s o n  P a r i s h  r e s i d e n t s  a l s o  f i l e d  s e v e r a l
+related class actions, which were consolidated into one case, Ictech-Bendeck v. Waste Connections Bayou,
+Inc. See R. Doc. 48 (18-7889).
+6 See Second Amended Complaint, R. Doc. 431 at p. 64.
+7 Louisiana Regional Landfill Company is formerly known as IESI LA Landfill Corporation.
+8 Waste Connections Bayou, Inc. is formerly known as Progressive Waste Solutions of LA, Inc.
+9 Second Amended Complaint, R. Doc. 431 at pp. 52-53.
+10 R. Doc. 80 at pp. 1-2.
+11 R. Docs. 274-278, 286-289.
+12 R. Doc. 323.
+13 Id. at p. 5.
+14 Id. at p. 26.
+15 Id. at p. 27.
+Case 2:19-cv-11133-SM-MBN   Document 655   Filed 07/11/24   Page 2 of 18
+3
+be conducted with a select number of Addison Plaintiffs (the “Trial Plaintiffs”).16 The first
+Addison trial was set to begin on September 5, 2023, 17 and has since been continued to
+begin on August 12, 2024 (the “first Addison Trial”).18
+Relevant to the instant Motions in Limine, on December 28, 2015, Jefferson Parish
+contracted with Aptim to provide operatio n and maintenance services (the “2015
+Contract”) for the Landfill’s gas collection and control system (“GCCS”).19 Aptim operated
+and maintained the GCCS from January 1, 2017 until May 17, 2019, under the 2015
+Contract.20 Aptim engaged expert Barry Kline, P.E., represented to be an expert on landfill
+gas collection and control, 21 to “testify regarding the incomplete [GCCS] [Aptim] was
+provided to operate,” as well as to Aptim’s duties and responsibilities under the 2015
+Contract.22 Mr. Kline expressed nine opinions in hi s expert report (the “Kline Report”)
+related to Aptim’s “performance as the operator” of the Landfill’s GCCS “to support the
+opinion that Aptim performed competently and professionally at [the Landfill] relative to
+the limitations place[d] on it.”23
+
+16 Id. at pp. 44, 46. See also R. Doc. 642 (defining the Allowed Injuries).
+17 R. Doc. 340.
+18 R. Doc. 495.
+19 2015 Contract, R. Doc. 543-1.
+20 Mem. in Supp. of Jefferson Parish’s Mot. in Lim., R. Doc. 543-6 at pp. 1-2.
+21 Aptim’s Opp’n to Pls.’ Mot. in Lim., R. Doc. 576 at p. 1; Aptim’s Opp’n to Jefferson Parish’s Mot. in Lim.,
+R. Doc. 577 at p. 1.
+22 Aptim’s Expert Witness List for the first Addison Trial identifies the scope of Mr. Kline’s testimony:
+Considering that Aptim was a contractor hired to operate the [GCCS] as it existed at the []
+Landfill, Mr. Kline will testify regarding the incomplete [GCCS] it was provided to operate,
+that Aptim was not responsible for the receipt of waste materials, that Aptim was not
+responsible for the design of the [GCCS], that Aptim had no control over the timing of the
+installation of the [GCCS] components, that Aptim was faced with circumstances beyond
+its control regarding [GCCS] op erations and maintenance, that Aptim was limited in its
+ability to operate and maintain the [GCCS] by its contract with Jefferson Parish, that Aptim
+had no control over leachate levels in Phase IIIB or Phase IVA, that Aptim had no control
+over the timing of installation of in-well pumps in Phase IVA landfill gas wells, that Aptim
+had no control over the selection or installation of landfill cover materials and that
+monitoring for onsite or offsite odors was ou tside of the scope of Aptim’s contract with
+Jefferson Parish. R. Doc. 420 at pp. 3-4.
+23 Kline Rep., R. Doc. 551-2 at pp. 5-6.
+Case 2:19-cv-11133-SM-MBN   Document 655   Filed 07/11/24   Page 3 of 18
+4
+In February 2024, the Court issued th e Thirteenth CMO, which required the
+parties to file all motions in limine regarding expert testimony in the first Addison trial
+by June 6, 2024. 24 The Movants timely filed their Moti ons in Limine seeking to exclude
+Mr. Kline’s Report and testimony under Federal Rules of Evidence 702 and 704.25
+LEGAL STANDARD
+I. Motion in Limine Standard
+“It is well settled that motion s in limine are disfavored.” 26 “[T]he purpose of a
+motion in limine is to prohibit opposing  counsel ‘from mentioning the existence of,
+alluding to, or offering evidence on matters so highly prejudicial to the moving party that
+a timely motion to strike or an instructio n by the court to the jury to disregard the
+offending matter cannot overcome its prejudicial influence on the jurors’ mind.’” 27
+“Evidence is relevant” if “it has any tendency to make a fact . . . of consequence in
+determining the action” “more or less probable than it would be without the evidence.”28
+“Evidence which is not relevant is not admissible.”29 Under Federal Rule of Evidence 403,
+the Court may exclude even relevant evidence  “if its probative value is substantially
+outweighed by a danger of . . . unfair prejudice.”30 “‘Unfair prejudice’ . . . means an undue
+tendency to suggest decision on an improper basis, commonly, though not necessarily, an
+emotional one.”31
+“An order in limine excludes only clearly inadmissible evidence; therefore evidence
+
+24 R. Doc. 498 at p. 6.
+25 Jefferson Parish’s Mot. in Lim., R. Doc. 543; Pls.’ Mot. in Lim., R. Doc. 551.
+26 Auenson v. Lewis, 94-2734, 1996 WL 457258, at *1 (E.D. La. Aug. 12, 1996) (citing Hawthorne Partners
+v. AT & T Technologies, Inc., 831 F. Supp. 1398, 1400 (N.D. Ill. 1993)).
+27 MGMTL, LLC v. Strategic Tech., 20-2138, 2022 WL 594894, at *2 (E.D. La. Feb. 28, 2022).
+28 FED. R. EVID. 401 (emphasis added).
+29 FED. R. EVID. 402.
+30 FED. R. EVID. 403.
+31 Old Chief v. United States, 519 U.S. 172, 180 (1997).
+Case 2:19-cv-11133-SM-MBN   Document 655   Filed 07/11/24   Page 4 of 18
+5
+should not be excluded before trial unless it is clearly inadmissible on all potential
+grounds.”32 Instead, courts should reserve evidentiary rulings until trial so that questions
+as to the evidence “may be resolved in the proper context.”33 “When ruling on motions in
+limine, the Court ‘maintains great discretion [as to] evidentiary determinations.’”34 If the
+evidence is not clearly inadmissible on all grou nds, it is better for the court to decline to
+rule in advance of trial so that it will have the opportunity to resolve issues in context.
+II. Federal Rule of Evidence 702 Standard
+Rule 702 of the Federal Rules of Eviden ce governs the admissibility of expert
+witness testimony:
+A witness who is qualified as an expert by knowledge, skill, experience,
+training, or education may testify in the form of an opinion or otherwise if:
+(a) the expert’s scientific, technical, or other specialized knowledge will help
+the trier of fact to understand the evidence or to determine a fact in issue;
+(b) the testimony is based on sufficient facts or data; (c) the testimony is the
+product of reliable principles and meth ods; and (d) the expert has reliably
+applied the principles and methods to the facts of the case.35
+Testimony from a qualified expert is admissible only if it is both relevant and reliable. 36
+Thus, the threshold inquiry is whether th e expert witness possesses the requisite
+qualifications to render an opinion on particular subject matter.37
+If the expert’s qualifications are found to be sufficient, the court must then examine
+whether the expert’s opinions are reliable and relevant. 38 The United States Supreme
+
+32 Rivera v. Robinson, 464 F. Supp. 3d 847, 853 (E.D. La. 2020) (quoting Auenson, 1996 WL 457258, at
+*1)).
+33 Auenson, 1996 WL 457258, at *1.
+34 Jackson v. State Farm Fire & Cas. Co., 656 F. Supp. 3d 676 (W.D. La. 2023) (quoting Parker v. John W.
+Stone Oil Distributors, L.L.C., 18-3666, 2019 WL 5212285, at *2 (E.D. La. Oct. 16, 2019)).
+35 FED. R. EVID. 702.
+36 Pipitone v. Biomatrix, Inc., 288 F.3d 239, 244 (5th Cir. 2002).
+37 Wagoner v. Exxon Mobil Corp., 813 F. Supp. 2d 771, 798 (E.D. La. 2011). See also Wilson v. Woods, 163
+F.3d 935, 937 (5th Cir. 1999) (“A district court should refuse to allow an expert to testify if it finds that the
+witness is not qualified to testify in a particular field or a given subject.”).
+38 United States v. Valencia, 600 F.3d 389, 424 (5th Cir. 2010).
+Case 2:19-cv-11133-SM-MBN   Document 655   Filed 07/11/24   Page 5 of 18
+6
+Court’s decision in Daubert v. Merrell Dow Pharmaceuticals, Inc. ,39 provides the
+analytical framework for determining whether expert testimony is admissible under Rule
+702. “Under Daubert, Rule 702 charges trial courts to act as ‘gate-keepers,’ making a
+‘preliminary assessment of whether the reasoning or methodology underlying the
+testimony is scientifically valid,’”40 and of whether that reasoning or methodology “can be
+reliably applied to the facts of the case.”41 The party offering the expert opinion must show
+by a preponderance of the evidence that the expert’s testimony is reliable and relevant.42
+ “[E]xpert testimony proffered” must be “s ufficiently tied to the facts of the case
+that it will aid the jury in resolving a factual dispute.” 43 This is essentially a relevance
+requirement—relevant evidence, including rele vant expert testimony, is that which has
+“any tendency to make the existence of any fact that is of consequence to the
+determination of the action more probable or  less probable than it would be without the
+evidence.”44 With respect to the proper scope of expert testimony, Rule 704 provides that
+“testimony in the form of an opinion or  inference otherwise admissible is not
+objectionable because it embraces an ultimate  issue to be decided by the trier of fact.” 45
+Nevertheless, “[i]f the expert’s testimony brings no more to the finder of fact than the
+lawyers can offer in argument, the expert’s opinions should be excluded.”46
+
+39 509 U.S. 579 (1993).
+40 See Pipitone, 288 F.3d at 243–44 (quoting Daubert, 509 U.S. at 592–93).
+41 Valencia, 600 F.3d at 423–24; Knight v. Kirby Inland Marine Inc. , 482 F.3d 347, 352 (5th Cir. 2007).
+See also Burleson v. Texas Dep’t of Criminal Justice , 393 F.3d 577, 584 (5th Cir. 2004); Bocanegra v.
+Vicmar Servs., Inc., 320 F.3d 581, 584–85 (5th Cir. 2003).
+42 Mathis v. Exxon Corp., 302 F.3d 448, 459–60 (5th Cir. 2002).
+43 Denley v. Hartford Ins. Co. of Midwest, 07-4015, 2008 WL 2951926, at *3 (E.D. La. July 29, 2008) (citing
+Daubert, 509 U.S. at 591).
+44 Cunningham v. Bienfang, 2002 WL 31553976 (N.D. Tex. Nov. 15, 2002).
+45 FED. R. EVID. 704.
+46 Sudo Properties, Inc. v. Te rrebone Parish Consol. Gov’t, 04-2559, 2008 WL 2623000, at *8 (E.D. La.
+July 2, 2008).
+Case 2:19-cv-11133-SM-MBN   Document 655   Filed 07/11/24   Page 6 of 18
+7
+“[A]n expert may never render conclusions of law,”47 as that “would constitute an
+invasion of ‘the province of the court to determine the applicable law and to instruct the
+jury as to that law.’”48 Allowing such expert testimony in a jury trial is both unhelpful and
+harmful because
+the jury would be very susceptible to adopting the expert's conclusion rather
+making its own decision. There is a certain mystique about the word ‘expert’
+and once the jury hears of the [expert]’s experience and expertise, it might
+think the witness even more reliable th an the judge. If an expert witness
+were allowed to testify to legal questi ons, each party would find an expert
+who would state the law in the light most favorable to its position. Such
+differing opinions as to what the law is would only confuse the jury.49
+
+Accordingly, expert testimony that offers a legal opinion is inadmissible. 50 Moreover,
+“expert testimony on matters which a jury is capable of understanding and deciding
+without an expert’s help should be excluded,”51 because expert testimony is appropriate
+only when it will assist the trier of fact.52
+LAW AND ANALYSIS
+Defendant Aptim offers Barry Kline, P.E., a principal remediation engineer, as its
+“landfill gas collection and control expert.”53 According to his Report, Mr. Kline currently
+operates or oversees the operation of land fill gas collection and treatment systems and
+leachate pumping systems and has experience  designing, operating, and maintaining
+
+47 Goodman v. Harris Cnty., 571 F.3d 388, 399 (5th Cir. 2009).
+48 Willette v. Finn, 778 F. Supp. 10, 11 (E.D. La. 1991) (quoting United States v. Scop, 846 F.2d 135, 139 (2d
+Cir. 1988)); Snap-Drape, Inc. v. Comm'r, 98 F.3d 194, 198 (5th Cir. 1996); Goodman, 571 F.3d at 399.
+49 Cefalu v. Edwards , 2013 WL 5592947, at *1 (quoting Askanase v. Fatjo , 130 F.3d 657, 673 (5th Cir.
+1997)); see also Jarrow v. Cupit , 99-3539, 2000 WL 1537989, at *2 (E.D. La. Oct. 17, 2000) (“[I]t is the
+Court’s role, not that of one party’s expert witness, to  instruct the jury on the law of this case. The law
+‘requires only one spokesperson . . . who of course is the judge.” (quoting Specht v. Jensen, 853 F.2d 805,
+807 (10th Cir. 1988))).
+50 Estate of Sowell v. United States of America, 198 F.3d 169 (5th Cir. 1999); Askanase, 130 F.3d at 669.
+51 Jarrow, 2000 WL 1537989, at *2.
+52 Id. Rule 702 requires the expert’s knowledge must “help the trier of fact to understand the evidence or to
+determine a fact in issue.” FED. R. EVID. 702(a).
+53 R. Doc. 576 at p. 2; R. Doc. 577 at p. 1.
+Case 2:19-cv-11133-SM-MBN   Document 655   Filed 07/11/24   Page 7 of 18
+8
+mechanical remediation systems.54 Aptim engaged Mr. Kline to evaluate its performance
+as operator of the Landfill’s GCCS during the relevant time period.55 Mr. Kline ultimately
+expressed nine opinions in his Report:
+Opinion No 1: APTIM was only provided with a partially-installed GCCS to
+operate in Phase IVA and the timing of  its installation and expansion was
+outside of APTIM’s control.
+
+Opinion No. 2: APTIM was not responsible for the receipt of waste
+materials, waste placement, waste processing, or waste solidification,
+including the deposition or use of materi als, such as spent lime or fly ash,
+that may have led to the increased concentrations of hydrogen sulfide (H2S)
+within the landfill gas being generated.
+
+Opinion No. 3: APTIM did not have contr ol over the design of the GCCS in
+Phase IVA nor did APTIM have control over the timing of installation of
+various GCCS components, such as gas extraction wells and collection
+system piping. Additionally, APTIM could only operate the partially-
+installed GCCS in the condition and configuration provided to it by
+Jefferson Parish.
+
+Opinion No. 4: APTIM did not have control over various limitations placed
+on the GCCS operation by others, es pecially when circumstances beyond
+APTIM’s control, such as limited vacuum and vacuum interruptions to the
+wellfield, further impeded GCCS operation. Such restrictions limited
+optimization of the GCCS operation and its ability to capture the landfill gas
+being produced within the landfill by the breakdown of waste materials.
+
+Opinion No. 5: APTIM’s work at JPLF was limited by Contract/Agreement
+provisions and language to specific tasks. Additionally, the
+Contract/Agreement further limited APTIM’s efforts by placing restrictions
+on the amount of time/effort O&M personnel could spend working on the
+GCCS, including being subject to Jefferson Parish’s approval for all non-
+routine GCCS work and limits on spen ding relative to expenses necessary
+for the Operation and Maintenance tasks.
+
+Opinion No. 6: APTIM did not have control over the leachate levels in Phase
+IVA that allegedly impaired the operation of the GCCS.
+
+Opinion No. 7: APTIM did not have control over the timing of the purchase
+and installation of the in-well leachate/condensate pumps in Phase IVA gas
+
+54 Kline Rep., R. Doc. 551-2 at p. 5.
+55 Id.
+Case 2:19-cv-11133-SM-MBN   Document 655   Filed 07/11/24   Page 8 of 18
+9
+wells, or in other phases. APTIM did operate and maintain pneumatic
+pumps, once installed, in gas wells throughout the landfill.
+
+Opinion No. 8: APTIM did not have control over the specification,
+procurement, inspection, or placement of landfill cover materials. APTIM
+was not contracted to maintain any cover materials in any of the Phases of
+the landfill. APTIM only inspected la ndfill cover materials in conjunction
+with performing NSPS-required Su rface Emissions Monitoring on a
+quarterly basis.
+
+Opinion No. 9: Ambient and environmental monitoring for odors onsite and
+offsite was outside the scope of APTI M’s contract with Jefferson Parish.
+Instead, IESI/Waste Connections’ Agreement with Jefferson Parish
+required it to monitor for and control odors.56
+
+The Movants do not challenge Mr. Kline’s qualifications, the reliability of his
+methods, or the relevance of his testimony. 57 Instead, the Movants seek to exclude Mr.
+Kline’s Report and testimony under Rules 702 and 704, insofar as it improperly includes
+legal conclusions based on Mr. Kline’s interpretation of the 2015 Contract and embraces
+factual issues to which “Aptim’s own employees could testify,” and which will not
+otherwise assist the trier of fact.58
+I. Mr. Kline may not offer legal conc lusions on the scope of Aptim’s
+contractual duties based on his interpretation of the 2015 Contract.
+
+The Movants argue the Kline Report expresses inadmissible legal conclusions that
+“attempt to negate fault on the part of Aptim . . . based on [Mr. Kline’s] interpretation of
+[the 2015 Contract].”59 Specifically, the Movants claim Mr. Kline’s opinions that Aptim
+
+56 Id. at pp. 6-7.
+57 See Mem. in Supp. of Jefferson Parish’s Mot. in Lim., R. Doc. 543-6; Mem. in Supp. of Pls.’ Mot. in Lim.,
+R. Doc. 551-1.
+58 See Mem. in Supp. of Jefferson Parish’s Mot. in Lim., R. Doc. 543-6 (arguing Mr. Kline’s opinions are
+legal conclusions that attempt to tell “the jury the result to reach as it pertains to the ultimate issue in this
+c a s e ” ) ;  M e m .  i n  S u p p .  o f  P l s . ’  M o t .  i n  L i m . ,  R .  D o c .  5 5 1 - 1  ( a r g u i n g  O p i n i o n  N o s .  1 ,  2 ,  3 ,  4 ,  6 ,  7 ,  a n d  8
+“implicate factual issues to which Aptim’s own employees could testify . . . [and] state [] legal
+conclusion[s]”; arguing Opinion Nos. 5 and 8 “purport  to analyze the [2015 Contract] and to explain its
+meaning”).
+59 Mem. in Supp. of Jefferson Parish’s Mot. in Lim., R. Doc. 543-6 at p. 6, 9-12; Reply in Supp. of Jefferson
+Parish’s Mot. in Lim., R. Doc. 631 at pp. 3-4; Mem. in Supp. of Pls.’ Mot. in Lim., R. Doc. 551-1 at pp. 3-5.
+Case 2:19-cv-11133-SM-MBN   Document 655   Filed 07/11/24   Page 9 of 18
+10
+“did not have control” or was “limited by [the 2015 Contract]” constitute legal conclusions
+that attempt to instruct the jury how to apportion fault in this case. 60 The Movants
+contend Mr. Kline’s testimony is unnecessary because “the words of the contract are able
+to be understood by the jurors, and further  will be testified to by fact witnesses.” 61 In
+opposition, Aptim argues Opinion Nos. 1, 2, 3, 4, 6, 7, and 8 offer admissible “expert
+analysis of the specific, underlying components of the operations at the [Landfill],” which
+will assist the jury in determining the s cope of Aptim’s contractual duty and whether
+Aptim maintained operational control of th e GCCS during the relevant time period. 62
+Aptim further argues that Opinion No. 5 is “an expert opinion on the effect of the subject
+contract on Aptim’s ability to perform its scope of work” at the Landfill, which “‘shed[s]
+light’ on contractual terms by citing to customs and usage in the industry.” 63 Aptim
+concedes that the second sentence of Opinio n No. 9 “is an admissible legal conclusion”
+and makes no argument as to the admissibility of the first sentence. 64
+“Interpretation of a contract is the determination of the common intent of the
+parties.”65 “When the words of a contract are clear and explicit and lead to no absurd
+consequences, no further interpretation may be  made in search of the parties’ intent.”66
+“The words of a contract must be given their generally prevailing meaning. Words of art
+and technical terms must be given their tech nical meaning when the contract involves a
+
+60 Mem. in Supp. of Jefferson Parish’s Mot. in Lim., R. Doc. 543-6 at p. 2, 6.
+61 M e m .  i n  S u p p .  o f  J e f f e r s o n  P a r i s h ’ s  M o t .  i n  L i m . ,  R .  D o c .  5 4 3 - 6  a t  p .  1 2 .  See also  Reply in Supp. of
+Jefferson Parish’s Mot. in Lim., R. Doc. 631 at p. 6.
+62 R. Doc. 576 at pp. 5-8 (arguing expert testimony concerning “the degree of completion of the GCCS” is
+relevant because the condition of the GCCS affected “Aptim’s ability to perform its contract scope of work”);
+R. Doc. 577 at pp. 3-6.
+63 R. Doc 576 at p. 7 (citing Greenup Indus. LLC v. Five S Group, LLC , 22-2203, 2023 WL 7335235, at *4
+(E.D. La. Nov. 7, 2023).
+64 R .  D o c .  5 7 6  a t  p .  8 ;  R .  D o c .  5 7 7  a t  p p .  6 - 7  ( c o n c e d i n g  t h e  s e c o n d  s e n t e n c e  o f  O p i n i o n  N o .  9  i s  a n
+inadmissible legal conclusion).
+65 LA. CIV. CODE art. 2045.
+66 LA. CIV. CODE art. 2046.
+Case 2:19-cv-11133-SM-MBN   Document 655   Filed 07/11/24   Page 10 of 18
+11
+technical matter.”67 “A provision susceptible of different meanings must be interpreted
+with a meaning that renders it effective and not with one that renders it ineffective.”68 “A
+doubtful provision must be interpreted in light of the contract, equity, usages, the conduct
+of the parties before and after the formation of the contract, and of other contracts of a
+like nature between the same parties.”69
+Under Louisiana law, “[i]nterpretation of an unambiguous contract is a question
+of law, while interpretation of an ambiguous contract is a question of fact.”70 “[A]n expert
+may never render conclusions of law,”71 and accordingly, may not offer legal conclusions
+based on the interpretation of an unambiguous contract. 72 Expert testimony is
+appropriate, however, when “a phrase in a contract is ambiguous and a court seeks to
+determine ‘whether there is a received usage in the trade which would shed light on its
+meaning.’”73 Courts in the Fifth Circuit often re ly on “individuals experienced in a
+particular field for the purposes of obtain ing explanation of the technical meaning of
+terms used in the industry.” 74 Indeed, “[i]n construing a specific contractual term, [the
+court] must give consideration to the meaning attributed to that term in the industry.”75
+Thus, expert testimony may be admissible to “provide context on an industry practice and
+interpret contractual provisions specific to such an industry,” at the district court’s
+
+67 LA. CIV. CODE art. 2047.
+68 LA. CIV. CODE art. 2049.
+69 LA. CIV. CODE art. 2053.
+70 RSUI Indem. Co. v. American States Inc. Co., 127 F. Supp. 3d 649, 658 (E.D. La. 2015).
+71 Goodman, 571 F.3d at 399.
+72 See RSUI Indem. Co., 127 F. Supp. 3d at 658.
+73 Temple v. McCall, 720 F.3d 301, 305 (5th Cir. 2013) (quoting Jefferson Disposal Co. v. Jefferson Parish,
+459 So. 2d 639, 642 (La. Ct. App. 1984)).
+74 Kona Tech. Corp. v. So. Pac. Transp. Co., 225 F.3d 595, 611 (5th Cir. 2000).
+75 Personal Preference Video, Inc. v. HBO, 986 F.2d 110, 114 (5th Cir. 1993).
+Case 2:19-cv-11133-SM-MBN   Document 655   Filed 07/11/24   Page 11 of 18
+12
+discretion, but only when the explanation will assist the jury in “more accurately
+comprehend[ing] the meaning of technical terms used within that industry or trade.”76
+For example, in Greenup Industries LLC v. Five S Group, LLC, a recent case arising
+out of a construction contract dispute between a contractor and subcontractor, Judge
+Eldon E. Fallon considered a motion to exclude the expert testimony of a civil and
+environmental engineer, which the movant  claimed included inadmissible expert
+opinions that “sp[oke] to factual questions of contractual interpretation.”77 The relevant
+opinions expressed by the expert in that case were: (1) that a subcontract at issue
+incorporated the defendant’s bid proposal and that the defendant was entitled to standby
+time compensation; and (2) that “the primary reason for low productivity and schedule
+slippage was [the Plaintiff’s] inability to provide the required amount of trucks on a
+consistent basis.”78 Acknowledging the expert was qualified to testify to issues that would
+help the jury resolve factual questions in th e civil and environmental engineering fields,
+the Greenup court found the expert “stepped outside his area of expertise to opine on the
+contractual responsibilities of the parties.” 79 The court reasoned th at, although expert
+testimony “is appropriate when the expert can ‘shed light’ on contractual terms by citing
+customs and usage in the indust ry,” the expert’s report did not “explain how industry
+customs support any of his [opinions] regard ing the contractual responsibilities of the
+parties,” and ultimately the court precluded the engineer expert from offering “any legal
+conclusions on the contractual responsibilities of the parties.”80
+
+76 Dickson v. Sklarco L.L.C., 11-352, 2014 WL 4443423, at *3 (citing Phillips Oil Co. v. OKC Corp., 812 F.2d
+265, 281 (5th Cir. 1987)).
+77 2023 WL 7335235, at *2.
+78 Id. at *3.
+79 Id. at *4.
+80 Id. at *4-5.
+Case 2:19-cv-11133-SM-MBN   Document 655   Filed 07/11/24   Page 12 of 18
+13
+In this case, although Aptim contends the 2015 Contract contains “specialized
+language,” neither party to the 2015 Contract suggests it is ambiguous and Aptim fails to
+call attention to any particular term that warrants expert testimony to properly
+contextualize.81 A review of the Kline Report reveals instead that each of Mr. Kline’s nine
+opinions purports to interp ret the scope of Aptim’s duty  under the 2015 Contract.
+Specifically, Opinion Nos. 1, 2, 3, 4, 6, 7,  and 8 express Kline’s opinion that Aptim “did
+not have control over” or “was not responsibl e for”: the timing of the installation and
+expansion of the Landfill’s GCCS;82 the receipt of waste materials, waste placement, waste
+processing, or waste solidification; 83 the design of the GCCS in  Phase IVA or the timing
+of installation of various GCCS components; 84 various limitations placed on the GCCS
+operation by others;85 the leachate levels in Phase IVA; 86 the timing of the purchase and
+installation of the in-well leachate/condensate pumps in Phase IVA gas wells or in other
+phases;87 and the specification, procurement, inspection, placement, or maintenance of
+landfill cover materials in any phases of the Landfill.88 Further, Opinion Nos. 5, 8, and 9
+explicitly express legal conclusions based on  Mr. Kline’s interpretation of the 2015
+Contract, including in relevant part: “Aptim’s work at [the Landfill] was limited by
+Contract/Agreement provisions and language to specific tasks”; 89 “Aptim was not
+contracted to maintain any cover materials”; 90 and “[a]mbient and environmental
+
+81 See Aptim’s Opp’n to Jefferson Parish’s Mot. in Lim., R. Doc. 577; Mem. in Supp. of Jefferson Parish’s
+Mot. in Lim., R. Doc. 543-6.
+82 Kline Rep., R. Doc. 551-2 at p. 6 (Opinion No. 1).
+83 Id. (Opinion No. 2).
+84 Id. (Opinion No. 3).
+85 Id. (Opinion No. 4).
+86 Id. at p. 7 (Opinion No. 6).
+87 Id. (Opinion No. 7).
+88 Id. (Opinion No. 8).
+89 Id. at p. 5 (Opinion No. 5).
+90 Id. at pp. 6-7 (Opinion No. 8).
+Case 2:19-cv-11133-SM-MBN   Document 655   Filed 07/11/24   Page 13 of 18
+14
+monitoring for odors onsite and offsite was outside the scope of APTIM’s contract with
+Jefferson Parish” and the 2015 Contract “required [Jefferson Parish] to monitor for and
+control odors.”91
+The Court finds the scope of Aptim’s duty  under the 2015 Contract and whether
+Aptim’s performance complied with the 2015  Contract are issues about which fact
+witnesses will testify and lawyers will argue rather than matters suitable for expert
+testimony. Accordingly, Mr. Kline’s testim ony providing legal conclusions on the
+contractual responsibilities of the parties to  the 2015 Contract, including the scope of
+Aptim’s duties and whether Aptim complied with its obligations, as expressed in Opinion
+Nos. 2, 5, 6, and 9 and portions of Opinion Nos. 1, 3, 4, 7, and 8, will be excluded.92
+II. Mr. Kline may not parrot the testimony of fact witnesses. Mr. Kline
+will be allowed to offe r the portion of Opinion No. 4, in which he
+opines limited vacuum and vacuum interruptions to the wellfield
+“impeded” or “limited optimization” of the GCCS operation.
+
+As discussed, portions of Opinion Nos. 1, 3, 4, 7, and 8 will be excluded because
+they are legal conclusions based on Mr. Klin e’s interpretations of the 2015 Contract.
+
+91 Id. at p. 7 (Opinion No. 9).
+92 On these grounds, the Court exclud es Opinion Nos. 2, 5, 6, and 9 in toto, and those certain portions of
+Opinion Nos. 1, 3, 4, 7, and 8, as set out below:
+Opinion No. 1: “[T]he timing of its installation and expansion was outside of APTIM’s
+control.”
+Opinion No. 3:  “APTIM did not have control over the design of the GCCS in Phase IVA nor
+did APTIM have control over the timing of installation of various GCCS
+components, such as gas extraction wells and collection system piping.”
+Opinion No. 4:  “APTIM did not have control over various limitations placed on the GCCS
+operation by others, especially when circumstances beyond APTIM’s
+control . . . .”
+Opinion No. 7: “APTIM did not have control over the timing of the purchase and
+installation of the in-well leachate/condensate pumps in Phase IVA gas
+wells, or in other phases.”
+Opinion No. 8: “APTIM did not have contro l over the specification, procurement,
+inspection, or placement of landfill cover materials. APTIM was not
+contracted to maintain any cover materials in any of the Phases of the
+landfill.”
+See id. at pp. 6-7. The Court will analyze the admissibility of the remaining portions of Opinion Nos. 1, 3, 4,
+7, and 8 in Part II.
+Case 2:19-cv-11133-SM-MBN   Document 655   Filed 07/11/24   Page 14 of 18
+15
+However, “evidence should not be excluded be fore trial unless it is clearly inadmissible
+on all potential grounds.”93 Accordingly, the Court will anal yze the admissibility of the
+remaining portions of those opinions.
+The Movants argue portions of Opinion Nos. 1, 3, 4, 7, and 8 “implicate factual
+issues to which Aptim’s own employees could testify,” and which are otherwise
+inadmissible under Rule 702 because they do no t “assist the trier of fact to understand
+the evidence or to determine a fact in issue.” 94 In opposition, Aptim concedes the Kline
+Report “partially asserts [] factual concl usion[s] drawn from information in the
+possession of lay witnesses,” but claims Mr. Kline’s testimony is admissible under Rule
+703 to contextualize “the overly technical issues” of the case, which are “well outside the
+understanding of a lay juror.”95 Aptim contends Mr. Kline’s opinions are “essential for the
+jury to understand and appreciate the complex  workings of [the GCCS]” and “will assist
+the jury in determining Aptim’s fault.”96
+A review of the Kline Report reveals the port ions of Opinion Nos. 1, 3, 4, 7, and 8
+that do not contain inadmissible legal conc lusions merely parrot testimony by fact
+witnesses.97 While “testimony in the form of an opinion or inference otherwise admissible
+
+93 Rivera, 464 F. Supp. 3d at 853 (quoting Auenson, 1996 WL 457258, at *1)).
+94 Mem. in Supp. of Pls.’ Mot. in Lim., R. Doc. 551-1 at p. 3, 6 (claiming portions of those opinions should
+be excluded because they “merely state facts” and that experts “may not be employed simply to present the
+client’s version of the facts”).
+95 R. Doc. 576 at pp. 3-4.
+96 Id. at p. 5-6.
+97 Federal Rule of Evidence 1006 allows a proponen t to “use a summary . . . to prove the content of
+voluminous writings, recordings, or photographs that  cannot be conveniently examined in court.” FED. R.
+EVID. 1006; see also United States v. Bishop , 364 F.3d 535, 547 (5th Cir. 2001) (“Rule 1006 allows
+admission of summaries when (1) the evidence previous ly admitted is voluminous, and (2) review by the
+jury would be inconvenient.”). The Fifth Circuit “expressly allows summary witnesses to summarize
+voluminous records in complex cases” under Rule 1006. United States v. Baker, 923 F.3d 390, 397 (5th Cir.
+2019) (citing United States v. Armstrong, 619 F.3d 380 (5th Cir. 2010). A summary witness is permitted to
+“read[] the contents of exhibits and sort[] through the evidence to show how the documents relate[] to each
+other,” but may not offer “expert-type testimony.” Baker, 923 F.3d at 398; United States v. Nicholson, 961
+F.3d 328, 336 (5th Cir. 2020). Mr. Kline was disclosed as an expert witness, not a summary witness under
+Rule 1006. He cannot merely summarize the testimony offered by fact witnesses.
+Case 2:19-cv-11133-SM-MBN   Document 655   Filed 07/11/24   Page 15 of 18
+16
+is not objectionable because it embraces an ul timate issue to be decided by the trier of
+fact,”98 “[e]xpert testimony that does nothing more than ‘mirror’ testimony offered by fact
+witnesses should [] be excluded.”99 When determining whether an expert may opine on
+technical issues, courts evaluate “the com mon sense inquiry whether the untrained
+layman would be qualified to determine intelligently and to the best degree the particular
+issue without enlightenment from those having a specialized understanding of the subject
+involved in the dispute.”100
+The Court finds the portions of Opinion Nos. 1, 3, 7, and 8 mirroring fact testimony
+“embrace an ultimate issue to be decided by the trier of fact” that “the untrained layman
+would be qualified to determine intelli gently” without Mr. Kline’s testimony. 101  Those
+opinions merely repeat certain fact testimony related to Aptim’s operation at the Landfill
+during the relevant time period. Specifically , Opinion Nos. 1, 3, 7, and 8 express that
+Aptim: “was only provided with a partially -installed GCCS to operate in Phase IVA”; 102
+“could only operate the partially-installed GCCS in the condition  and configuration
+provided to it by Jefferson Parish”;103 operated and maintained pneumatic pumps in gas
+wells throughout the Landfill; 104 and “inspected landfill cover  materials in conjunction
+with performing . . . Surface Emissions Monito ring on a quarterly basis,” as required by
+federal regulation.105 These portions of Mr. Kline’s opinions do nothing more than mirror
+
+98 FED. R. EVID. 704.
+99 In re Tasch, Inc., 97-15901, 1999 WL 596261, at *2 (E.D. La. Aug. 5, 1999). See also Sudo Properties, Inc.,
+2008 WL 2623000, at *8 (“If the expert’s testimony brings no more to the finder of fact than the lawyers
+can offer in argument, the expert’s opinions should be excluded.”).
+100 Vogler v. Blackmore, 352 F.3d 150, 156 n.5 (5th Cir. 2003) (citing FED. R. EVID. 702, Advisory Committee
+Note).
+101 See id.; FED. R. EVID. 704.
+102 Kline Rep., R. Doc. 551-2 at p. 6 (Opinion No. 1).
+103 Id. (Opinion No. 3).
+104 Id. at p. 7 (Opinion No. 7).
+105 Id. (Opinion No. 8). See also  4 0  C . F . R .  §  6 0  et seq.  (governing standards of performance for new
+stationary sources).
+Case 2:19-cv-11133-SM-MBN   Document 655   Filed 07/11/24   Page 16 of 18
+17
+testimony offered by Aptim’s fact witne sses and are “well within the common sense
+understanding of jurors.” 106 Accordingly, Mr. Kline’s test imony, as expressed in the
+remainder of Opinion Nos. 1, 3, 7, and 8, will be excluded.
+While the portion of Opinion No. 4 expres sing the fact that limited vacuum and
+vacuum interruptions to the wellfield im peded the GCCS operation “embrace[s] an
+ultimate issue to be decided by the trier of fact,” the Court finds the opinion implicates
+issues that are beyond “the common sense”  and general knowledge of an “untrained
+layman.”107 In relevant part, Opinion No. 4 states that certain “circumstances beyond
+APTIM’s control, such as limited vacuum an d vacuum interruptions to the wellfield, []
+impeded GCCS operation[,] [and] [s]uch rest rictions limited optimization of the GCCS
+operation and its ability to capture the landfi ll gas being produced within the landfill by
+the breakdown of waste materials.”108 The opinion expressed in Opinion No. 4 is unlike
+those expressed in Opinion Nos. 1, 3, 7, and 8, as the jury may have difficulty “adeptly
+assess[ing] [the] situation using only their common experience and knowledge.” 109 The
+Court finds that Mr. Kline’s “specialized  understanding of the subject [matter]” 110
+underlying Opinion No. 4 is likely to “help the trier of fact to understand the evidence or
+determine a fact in issue.”111
+As discussed, Mr. Kline may not testify as to the legal conclusion that certain
+“circumstances [were] beyond APTIM’s control.”112 However, the Court will allow Mr.
+Kline to offer limited testimony related to  Opinion No. 4—that limited vacuum and
+
+106 Vogler, 352 F.3d at 155; see also In re Tasch, 1999 WL 596261, at *2.
+107 FED. R. EVID. 704; In re Tasch, 1999 WL 596261, at *2.
+108 Kline Rep., R. Doc. 551-2 at p. 6.
+109 Greenup Indus., 2023 WL 7335235, at *3.
+110 Vogler, 352 F.3d at 156 n.5.
+111 FED. R. EVID. 702(a).
+112 See supra Law and Analysis, Part I.
+Case 2:19-cv-11133-SM-MBN   Document 655   Filed 07/11/24   Page 17 of 18
+18
+vacuum interruptions to the wellfield “imped ed” or “limited optimization” of the GCCS
+operation.113
+Accordingly;
+CONCLUSION
+IT IS ORDERED that Plaintiffs’ Motion in Limine is GRANTED IN PART
+AND DENIED IN PART as stated herein.114
+IT IS FURTHER ORDERED  that Jefferson Parish’s Motion in Limine is
+GRANTED IN PART AND DENIED IN PART.115
+Mr. Kline may not offer testimony on Opinion Nos. 1, 2, 3, 4, 5, 6, 7, 8, and 9, which
+express legal conclusions on the scope of Aptim’s contractual duties based on his
+interpretation of the 2015 contract and/or mere ly parrot facts that will be testified to by
+fact witnesses. Mr. Kline may offer limited testimony related to Opinion No. 4, insofar as
+he expresses his opinion that limited vacuum  and vacuum interruptions to the wellfield
+impeded or limited optimization of the GCCS operation.
+New Orleans, Louisiana, this 10th day of July, 2024.
+
+________________________________
+SUSIE MORGAN
+UNITED STATES DISTRICT JUDGE
+
+113 Kline Rep., R. Doc. 551-2 at p. 6 (Opinion No. 4).
+114 R. Doc. 551.
+115 R. Doc. 543.
+Case 2:19-cv-11133-SM-MBN   Document 655   Filed 07/11/24   Page 18 of 18
