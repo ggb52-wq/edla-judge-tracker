@@ -1,0 +1,592 @@
+1
+
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+CANTIUM, LLC  CIVIL ACTION
+
+VERSUS  NO. 23-78
+
+FDF ENERGY SERVICES, LLC  SECTION “L” (2)
+
+ORDER & REASONS
+Before the Court are cross motions for summary judgment, one from Cantium and one
+from FDF. R. Docs. 60, 62. Both parties have filed oppositions to the other’s motion. R. Docs. 66,
+67. After a review of the briefing, record, applicable law, and oral argume nt, the Court now rules
+as follows.
+I. BACKGROUND:
+ This case arises out of a contractual dispute between Cantium and FDF. Cantium is a
+Louisiana oil and gas company that is engaged in the exploration, development, and sale of oil and
+natural gas in the Gulf of Mexico. R. Doc. 1 at 3. Cantium owns and operates offshore oil and gas
+platforms located in state waters of Louisiana and others affixed to the  Outer Continental Shelf
+(“OCS”) adjacent to Louisiana in the Gulf of Mexico . Id. FDF is a Louisiana company that
+provides drilling/completion fluids and rig and vessel cleaning services. Id. at 4. Cantium retained
+FDF to provide rig and vessel cleaning services for its drilling operations  and the parties entered
+into a Master Services Agreement (“FDF MSA”). Id.
+ Cantium was also under contract  with Enterprise Offshore Drilling, LLC (“ Enterprise”).
+Enterprise would provide various offshore drilling services to Cantium . Id. at 3-4. Enterprise is a
+Houston-based offshore drilling company that provides oil and gas drilling services in the Gulf of
+Case 2:23-cv-00078-EEF-DPC   Document 73   Filed 04/02/24   Page 1 of 21
+2
+
+Mexico. Id. To perform those services, Enterprise utilizes a fleet of vessels that it owns and/or
+operates, including, but not limited to, the ENTERPRISE 205, a movable jack-up rig. Id.
+ William Jones, an employee of FDF, claims that he was injured by being struck by a crane
+stinger on or about April 25, 2021  while performing services for Cantium pursuant to the FDF
+MSA. Id. at 4-5. At the time of that incident, Jones and the crane which struck him were both
+aboard the ENTERPRISE 205 , which was jacked -up on the OCS  off the coast of Louisiana . Id.
+Jones filed suit in state court seeking damages for his injuries and asserting claims of negligence
+and unseaworthiness against Enterprise and  seeking to hold Enterprise vicariously liable for the
+alleged negligence of its employees, Sean Keith and Curtis Thornton, leading to the accident. Id.
+ Enterprise tendered its defense and indemnity regarding the claims of William Jones to
+Cantium pursuant to the parties’ defense and indemnity obligations set forth in the drilling services
+contract between those parties (“Enterprise MSA”). Id. at 5 -6. Cantium in turn tendered
+Enterprise’s defense and indemnity to FDF pursuant to the terms of the FDF MSA, which Cantium
+alleges obligates FDF to defend and indemnify Cantium and all members of Cantium’s “Company
+Group,” which includes Cantium’s subcontractors such as Enterprise. Id.
+ FDF’s insurer, The Hartford Fire Insurance Company (“The Hartford”), denied Cantium’s
+tender to FDF to indemnify it against Jones’ s claims, taking the position that FDF’s contractual
+obligations to defend and indemnify Cantium and its contractors are void pursuant to the Louisiana
+Oilfield Indemnity Act (“LOIA”). Id. at 7-8.
+ Cantium then brought this action against FDF, seeking declaratory judgment that FDF must
+indemnify it/its contractor Enterprise against Jones’ s claims, as well as damages for breach of
+contract. Id. at 8-12. Cantium argues that the FDF MSA is governed by general maritime law, and
+thus the indemnity provisions are valid and it is entitled to contractual defense and indemnity. Id.
+Case 2:23-cv-00078-EEF-DPC   Document 73   Filed 04/02/24   Page 2 of 21
+3
+
+Cantium also asserts that the FDF MSA required FDF to add Cantium as an additional named
+insured under its policy with The Hartford. Id. at 10-11. The breach of contract claim Cantium
+brings is premised on FDF allegedly breaching the additional named insured requirement under
+the FDF MSA. Id. at 11-12. FDF, on the other hand, asserts that the FDF MSA is governed by
+Louisiana law and generally denies Cantium’s claim, and asserts several affirmative defenses,
+including comparative negligence, failure to mitigate damages, and that the contractual indemnity
+provisions are void pursuant to LOIA. R. Doc. 11 at 1-13. FDF also asserts a counterclaim against
+Cantium, seeking declaratory judgment that FDF is not obligated to defend or indemnify Cantium
+under the FDF MSA nor is it obligated to provide Cantium’s attorney’s fees and expenses related
+to Jones’s claims. Id. at 14-19.
+ In January 2024, Cantium amended its complaint to add that it is seeking FDF’s
+indemnification as to not only the claim against Enterprise but also the claims Jones brought
+against two Enterprise employees, Keith and Thornton. R. Doc. 43. FDF answered this amended
+complaint again generally denying the allegations and asserting several affirmative defenses. R.
+Doc. 53.
+II. PRESENT MOTIONS
+Cantium’s motion for summary judgment urges the Court to find that the FDF MSA is a
+maritime contract and thus subject to general maritime law, not Louisiana state law. R. Doc. 60.
+Cantium argues that the jack-up rig where the injury occurred, the ENTERPRISE 205, is a vessel
+under Fifth Circuit jurisprudence and that this satisfies the Doiron test for determining whether a
+contract is a maritime contract. R. Doc. 60-1 at 2. Accordingly, it urges this Court to apply general
+maritime law and enforce the indemnity provision contained in the FDF MSA such that FDF must
+accept Cantium’s tender and indemnif y it in the underlying state court suit involving Jones and
+Case 2:23-cv-00078-EEF-DPC   Document 73   Filed 04/02/24   Page 3 of 21
+4
+
+Enterprise. Id. at 10-22. Cantium additionally seeks re imbursement of attorney’s fees and costs
+associated with its pursuit of indemnity under the FDF MSA. Id. at 22-23.
+FDF’s motion for summary judgment urges the Court to apply Louisiana law, not general
+maritime law . R. Doc. 62. FDF  argues that, applying sta te law, the Louisiana Oilfield Anti -
+Indemnity Act (“LOIA”) renders the indemnity provisions in the FDF MSA void and Cantium’s
+claim against it for indemnity should thus be dismissed. R. Doc. 62-1 at 11-13. FDF makes several
+arguments against considering the FDF MSA a maritime contract: (1) that its expectation was that
+there would be no substantial vessel involvement in the completion of its contract with Cantium;
+(2) that FDF’s work was not crucial to a vessel’s navigation; and (3) that the jack -up rig, as
+temporarily affixed to the Outer Continental Shelf, does not constitute a vessel, and even if it does,
+that does not automatically make the contract a maritime contract. Id. at 13-21. FDF argues that it
+believed that the  ENTERPRISE 205, while in the jacked -up position, was not  a vessel when it
+entered into the FDF MSA with Cantium and therefore its expectations were that there would be
+no substantial vessel involvement while working on the ENTERPRISE 205. R. Doc. 62-1 at 5.
+Both parties filed opposition briefs largely reasserting their arguments from their respective
+motions, though FDF raised a new issue in its opposition. See R. Docs. 66, 67. FDF argued that
+Cantium does not have standing to recover fees and costs because its insurer, JH Blades, is the one
+incurring the expenses associated with the state court lawsuit between William Jones and
+Enterprise. R. Doc. 67 at 11. The Court allowed the parties to file supplemental briefing on the
+standing issue and the parties timely did so. R. Docs. 71, 72.
+III. APPLICABLE LAW
+Summary judgment is proper when “there is no genuine dispute as to any material fact and
+the movant is entitled to judgment as a matter of law.”  Fed. R. Civ. P. 56(a). The court must view
+Case 2:23-cv-00078-EEF-DPC   Document 73   Filed 04/02/24   Page 4 of 21
+5
+
+the evidence in the light most favorable to the nonmovant. Coleman v. Hous. Indep. Sch. Dist. ,
+113 F.3d 528, 533 (5th Cir. 1997). Initially, the movant bears the burden of presenting the basis
+for the motion; that is, the absence of a genuine issue as to any material fact or facts. Celotex Corp.
+v. Catrett, 477 U.S. 317, 323 (1986). The burden then shifts to the nonmovant to come forward
+with specific facts showing there is a genuine dispute for trial. See Fed. R. Civ. P. 56(c); Matsushita
+Elec. Indus. Co. v. Zenith Radio Corp., 475 U.S. 574, 586-87 (1986). “A dispute about a material
+fact is 'genuine' if the evidence is such that a reasonable jury could return a verdict for the
+nonmoving party.”  Bodenheimer v. PPG Indus., Inc. , 5 F.3d 955, 956 (5th Cir. 1993) (citation
+omitted).
+A. Louisiana Oilfield Anti-Indemnity Act
+In Louisiana, state law renders certain indemnity provisions invalid in oil and gas contracts.
+The Louisiana Oilfield Anti-Indemnity Act provides:
+It is the intent of the legislature by this Section to declare null and void and against
+public policy of the state of Louisiana any provision in any agreement which
+requires defense and/or indemnification, for death or bodily injury to persons,
+where there is negligence or fault (strict liability) on the part of the indemnitee, or
+an agent or employee of the indemnitee, or an independent contractor who is
+directly responsible to the indemnitee.
+
+La. R.S. § 9:2780(A). The statute applies to contracts, writte n or oral, that concern “operations
+related to the exploration, development, production, or transportation of oil, gas, or water, or
+drilling for minerals.” Id. at § 9:2780(C). However, reciprocal indemnity provisions,  sometimes
+called “knock -for-knock” provisions, are relatively common in maritime contracts. See 1
+Admiralty & Mar. Law § 5:16 (6th ed.) (2023); William E. O'Neil, Insuring Contractual Indemnity
+Agreements Under CGL, MGL, and P & I Policies, 21 Tul. Mar. L .J. 359, 375-76 (1997). If the
+contract between Cantium and FDF is a maritime contract, these indemnity provisions are
+enforceable under general maritime law. But if the contract is non -maritime, these provisions are
+Case 2:23-cv-00078-EEF-DPC   Document 73   Filed 04/02/24   Page 5 of 21
+6
+
+voidable under Louisiana law by LOIA. It is therefore necessary to determine which law applies
+to a given dispute  when indemnity is at play , Louisiana law or the general maritime law . See
+Theriot v. Bay Drilling Corp., 783 F.2d 527, 538-40 (5th Cir. 1986).
+Courts recognize an exception to LOIA’s nullification of indemnity provisions. Relying on
+Marcel v. Placid Oil Co., courts applying Louisiana law will enforce indemnity agreements when
+“the principal pays for or obligates itself to pay for the cost of the indemnitor obtaining the
+insurance coverage.” Borman v. Shamrock Energy Solutions, LLC, 421 F. Supp. 3d 382, 386 (E.D.
+La. 2019) (citing Marcel v. Placid Oil Co., 11 F.3d 563, 569-70 (5th Cir. 1994)). This is referred
+to as a “ Marcel premium” and some cont racts contemplate such an arrangement. In the instant
+case, both the FDF MSA and Enterprise MSA contain provisions allowing for a Marcel premium,
+and FDF alleges that Enterprise paid Cantium ’s insurer  a Marcel premium pursuant to the
+Enterprise MSA, however Cantium did not pay a Marcel premium to FDF ’s insurer, allegedly
+because it considered its contract a maritime contract. See R. Doc. 62-1 at 12.
+B. Maritime Contracts and the Outer Continental Shelf Lands Act
+The Outer Continental Shelf Lands Act (“OCSLA”) extends state law as a surrogate for
+federal law (1) when the controversy arises “on a situs covered by OCSLA (i.e. the subsoil, seabed,
+or artificial structures permanently or temporarily attached thereto),” (2)  when federal maritime
+law does not apply of its own force, and (3) when state law is not inconsistent with federal law.
+Union Texas Petrol. Corp. v. PLT Engineering, Inc. , 895 F.2d 1043, 1047 (5th Cir. 1990) (citing
+Rodrigue v. Aetna Casualty and Surety Co., 395 U.S. 352, 359 (1969)). The Fifth Circuit has found
+LOIA consistent with federal law in the context of this test. See Grand Isle Shipyard, Inc. v. Seacor
+Marine, LLC, 589 F.3d 778, 789 (5th Cir. 2009)  (“As to the third condition, as the district court
+noted, ‘[t]he Fifth Circuit has specifically held that ‘nothing in the LOIA is inconsistent wi th
+Case 2:23-cv-00078-EEF-DPC   Document 73   Filed 04/02/24   Page 6 of 21
+7
+
+federal law.’ We agree with these conclusions.”). The parties here dispute only the second prong,
+whether maritime law applies of its own force.
+Maritime law applies to contractual indemnity provisions when the contract is a maritime
+contract. In re Larry Doiron, Inc., 879 F.3d 568, 571 (5th Cir. 2018) (en banc). “If Louisiana law
+applies, the indemnity agreement is void as against public policy. If, on the other hand, the contract
+is maritime and state law does not apply, then the indemnity obligation is enforceable.”  Id. The
+Fifth Circuit set forth a two-prong test to determine whether a contract is maritime and thus subject
+to federal maritime law:
+First, is the contract one to provide services to facilitate the drilling or production
+of oil and gas on navigable waters? . . . Second, if the answer to the above question
+is ‘yes,’ does the contract provide or do the parties expect that a vessel will play a
+substantial role in the completion of the contract?
+
+Id. at 576  (rejecting an earlier six -factor test and instead adopting this streamlined two -part
+inquiry). As the Fifth Circuit explained, this “places the focus on the contract and the expectations
+of the parties.” Id. When these focal points are unclear, courts may look to other factors, such as
+the work actually performed and the extent of the vessel’s actual involvement. Id. at 577.
+When determining whether a contract is maritime, courts examine “whether the principa l
+objective of a contract is maritime commerce.” Id. at 574 (quoting Norfolk Southern Railway Co.
+v. Kirby, 543 U.S. 14, 25 (2004)); see also Earnest v. Palfinger Marine USA, Inc. , 90 F.4th 804,
+809 (5th Cir. 2024) (“In doing so, we recognized Kirby’s emphasis that ‘the fundamental interest
+giving rise to maritime jurisdiction is the protection of maritime commerce.”) (quoting Kirby, 543
+U.S. at 25 and discussing the Doiron test). This requires a “conceptual, as opposed to spatial,
+approach,” and lower cour ts must look beyond geography and instead to the substance of the
+contract. Earnest, 90 F.4th at 813; Doiron, 879 F.3d at 575 (discussing Kirby).
+Case 2:23-cv-00078-EEF-DPC   Document 73   Filed 04/02/24   Page 7 of 21
+8
+
+In In re Larry Doiron , the en banc court reversed the earlier panel’s and district court’s
+findings that the contract at issue was maritime, holding instead that the role of the vessel was
+insubstantial and therefore the contract was not a maritime contract. Id. at 577. In that case, Apache
+and Specialty Rental Tools & Supply entered into a master services contract where Specialty
+would provide services to Apache’s gas well , which was accessible from Apache’s platform. Id.
+Apache issued an “oral work order,” as was customary pu rsuant to their contract, and Specialty
+sent crew members to perform the work. See id. Once the crew began the job, they encountered
+unexpected difficulties which required the use of a crane, so the parties contracted with Larry
+Doiron, Inc. to provide cra ne services by vessel. Id. at 570. The crane is what caused the injury
+that led to that litigation, and the suit centered around the applicability of the contract’s indemnity
+provisions. Id.
+The Doiron court noted that the contract consisted of the master  services contract along
+with the oral work order, and that they “must be read together.” Id. at 573. Applying its clarified
+two-part test to the facts in that case, the court found the parties did not expect a vessel to play a
+role in completing the contr act because the vessel only became necessary upon the unexpected
+problem the crew encountered. Id. at 577. Therefore, the vessel’s and crane’s function s were
+insubstantial and the contract was not a maritime contract. Id.
+In a recent case, Earnest v. Palfinger Marine USA , the Fifth Circuit reversed the district
+court’s finding and held that the contract was in fact a maritime contract. 90 F.4th at 813-14. That
+case involved a contract for servicing and maintaining lifeboats aboard a fixed platform in the Gulf
+of Mexico. Id. at 806-08. The district court had found that the lifeboats were not used in the course
+of Palfinger’s inspections and therefore the use of vessels was not a substantial part of the contract.
+Id. at 812. Specifically, the district  court looked to “where the work was conducted, i.e., on the
+Case 2:23-cv-00078-EEF-DPC   Document 73   Filed 04/02/24   Page 8 of 21
+9
+
+Auger Platform or on the lifeboats themselves,” concluded that “the vessels were only incidental”
+to the contract, and that Palfinger did not “use” the lifeboats. Id. at 813.
+In reversing, the Circuit explained that the district court improperly focused on the word
+“use” as opposed to considering “whether a vessel will play a substantial role in the completion of
+the contract.” Id. at 813-14. Because the lifeboats were a regulatory requirement for the platform
+to operate, the court reasoned, they satisfied the first Doiron prong and enabled the platform to
+conduct its drilling operations. Id. at 812. Then, observing that maintenance and repair of vessels
+are “traditional maritime activities,” the court easily concluded that the lifeboats (which are
+vessels) played a substantial role in the performance of the contract. Id. at 812-13 (“[T]he ‘nature
+and character’ of the contract is for the repai r and maintenance of vessels necessary to support
+offshore drilling and production of oil and gas, i.e., maritime commerce.”).
+Courts applying the Doiron test must occasionally grapple with whether a vessel is even
+involved. This is particularly true in cases involving jack -up drilling rigs, which are floating rigs
+used for drilling or exploration and which can temporarily affix themselves to the seabed. The
+jack-up rig at issue in this case, the ENTERPRISE 205, is described by the parties as follows:
+The ENTERPRISE 205 floats and is towed to its location by other vessels. Upon
+arrival at its drilling location, the ENTERPRISE 205 lowers its mat to the sea floor
+using the three legs in the corners of the triangular barge. Once the mat contacts the
+sea floor, the barge is raised above the water using the three elevating legs until the
+vessel has reached its operational height. The rig’s drilling package is then
+cantilevered out horizontally from the barge over the water, where it then can raise
+and lowe drill pipe into the seafloor. Once operations are complete, the
+ENTERPRISE 205 is lowered back into the water where it floats to its next work
+location.
+
+Cantium’s Memorandum, R. Doc. 60-1 at 4.
+The Enterprise 205 is a jack-up rig which is not self-propelled and must be jacked
+down into the water and towed with tow boats to move to a new location. To affix
+the Enterprise 205 to the seabed floor, a mat and poles are jacked down to the
+seabed floor, then the platform and the drilling p ackage is jacked up out of the
+Case 2:23-cv-00078-EEF-DPC   Document 73   Filed 04/02/24   Page 9 of 21
+10
+
+water. The drilling package is then cantilevered out over and attached to the
+platform that is provided by the owner/operator of the well (in this case, Cantium).
+
+FDF’s Memorandum, R. Doc. 62-1 at 5.
+The Fifth Circuit has established “beyond dispute” that “special-purpose movable drilling
+rigs, including jack-up rigs, are vessels within the meaning of admiralty law. ” Demette v. Falcon
+Drilling Co., Inc., 280 F.3d 492, 498 n.18 (5th Cir. 2002), abrogated on other grounds by Grand
+Isle Shipyard, 589 F.3d at 787; see also Offshore Co. v. Robison, 266 F.2d 769, 776 (5th Cir. 1959)
+(“In other words, under the Jones Act a vessel may mean something more than a means of transport
+on water.”). The Circuit has also rejected a reclassification of a vessel based upon whether or not
+it is actively navigating on water. American Eastern Devel opment Corp. v. Everglades Marina,
+Inc., 608 F.2d 123, 124-25 (5th Cir. 1979) (discussing dry storage and wharfing); Delome v. Union
+Barge Line Co., 444 F.2d 225, 228 (5th Cir. 1971) (discussing a ship undergoing repairs); see also
+Demette, 280 F.3d at 498 n.18 (“Further, the dissent’s definition of vessel, which requires that the
+object ‘float on water,’ would also exclude submersible rigs and submarines (when submerged),
+and boats employing hydrofoils (which displace less water than their mass).”).
+C. Corbitt’s Applicability
+Even if the Court finds that the FDF MSA is a maritime contract and that LOIA is
+inapplicable, FDF suggests that Corbitt v. Diamond M. Drilling Co.  demonstrates that the
+indemnity provision at issue here does not cover Cantium’s contractual liability stemming from
+the Enterprise MSA’s indemnification provision. See 654 F.2d 329 (5th Cir. 1981).
+In Corbitt, the Fifth Circuit held that an indemnity provision did not cover the indemnitee’s
+contractual liability under a separate contract. In that case, Shell contracted with Diamond M. Co.
+to obtain drilling services and materials and in a separate contract, Shell contracted with Sladco to
+obtain casings services. Id. at 330-31. Both contracts contained indemnification provisions: Shell
+Case 2:23-cv-00078-EEF-DPC   Document 73   Filed 04/02/24   Page 10 of 21
+11
+
+agreed to indemnify Diamond M. under their contract, and Sladco agreed to indemnify Shell under
+their contract. Id. Corbitt was an employee of Sladco who was injured while aboard the rig owned
+by Diamond M. in connection with each entities’ contracts with Shell.  Id. Corbitt sued Diamond
+M. for negligence, and Diamond M. tendered Shell who accepted pursuant to its agreement to
+indemnify Diamond M. Id. Shell then sought indemnification from Sladco pursuant to their
+contract and Sladco refused.  In this posture, Shell is analogous to Cantium, Diamond M. is
+analogous to Enterprise, and Sladco is analogous to FDF.
+The district court found that the indemnity provision in the Shell -Sladco contract did not
+require Sladco to indemnify Shell for Shell’s contractual liabilities  (such as Shell’s agreement to
+indemnity Diamond M. in that separate contract)  because parties agreeing to such far reaching
+coverage would need to expressly state as much in the provision.  Id. at 333. The Fifth Circuit
+affirmed this interpretation of the indemnity provision, reasoning that “an indemnitor is entitled to
+express notice that under his agreement, and through no fault of his own, he may be called upon
+to pay damages caused solely by  the negligence of his indemnitee. For the same reasons express
+notice is required where a party seeks to shift his contractual liability to indemnify a third party.”
+Id. In so holding, the court relied heavily on the  indemnity provision’s language itself, which it
+found too narrow to have contemplated “such an unusual and surprising obligation.” Id.
+Cases since Corbitt however have confined its holding to its facts and have distinguished
+various indemnity provisions from the provision at issue there. For e xample, in Sumrall v. Ensco
+Offshore Co., the Fifth Circuit found a duty to indemnify existed because the indemnity provision
+was “broader than was the scope of employer Sladco’s duty to indemnify Shell Oil in Corbitt.”
+291 F.3d 316, 320 (5th Cir. 2002). Specifically, the Circuit emphasized that the provision  in
+Sumrall required indemnity not only of the company Santa Fe, but also Santa Fe’s contractors and
+Case 2:23-cv-00078-EEF-DPC   Document 73   Filed 04/02/24   Page 11 of 21
+12
+
+subcontractors, thereby vitiating the applicability of Corbitt. Id. Similarly, in Campbell v. Sonat
+Offshore Drilling, Inc. , the Fifth Circuit rejected Corbitt’s applicability because the indemnity
+provision at issue there contemplated indemnity for both the company and its contractors. 27 F.3d
+185, 187-88 (5th Cir. 1994). This was also the case in Lirette v. Popich Bros. Water Transport,
+Inc., where the Fifth Circuit explained that an indemnity provision which contemplates
+indemnifying not only one company but also its contractors is not inconsistent with the holding in
+Corbitt. 699 F.2d 725, 728 (5th Cir. 1983). There, the court explained:
+In Candies’ claim over, Popich was not, as in Corbitt, being subjected to a liability
+arising from and imposed by a completely separate contract between two outsiders.
+Rather, it was called upon to make good its contractual obligation to hold Candies
+(and Exxon) harmless from claims, suits or damages “arising out of, or in any way
+connected [with] the operation of the vessel under this charter.”
+
+Id. Accordingly, the specific language of the indemnity provision bears significance.
+While Corbitt contains a similar fact pattern to the situation here, the language in the FDF
+MSA indemnity provision between Cantium and FDF is broader than the Corbitt language. The
+provision here states:
+Contractor shall defend, protect, indemnify and hold harmless Company Group
+from and against any and all claims brought by any person, party or entity for
+personal or bodily injury to, sickness, disease or death of any member of Contractor
+Group, and for damage to or loss or destruction of property owned, leased, rented
+or hired by any member of Contractor Group, arising out of or in connection with
+the performance or non -performance of the services under this agreement or any
+service order.
+
+R. Doc. 62 -5 at 19, § 29.1 (emphasis added). Company Group is defined to include “Company
+[Cantium], Company’s Affiliates, Joint Interest Owners, and their Affiliates, and their contractors
+and subcontractors (excluding any Person of Contractor Group), and the directors, officers,
+Case 2:23-cv-00078-EEF-DPC   Document 73   Filed 04/02/24   Page 12 of 21
+13
+
+employees, agents and invitees of all of them.” Id. at 3, §1.1(J).1 In this case, FDF expressly agreed
+to indemnify Cantium’s contractors such as Enterprise in exactly this circumstance, and the
+narrower indemnity agreement in Corbitt simply does not apply.
+D. Attorney’s Fees & Standing
+Courts typically read indemnity provisions to include the cost of attorney’s fees relating to
+the underlying suit’s defense.  Lirette, 699 F.2d 728 (“The duty to indemnify and hold harmless
+includes the payment of costs and attorney’s fees.”); id. at 728 n.11 (“The duty to indemnify by
+paying attorney’s fees incurred in defending an action has been found in clauses using broad
+language calling for ind emnification and hold harmless without the inclusion of the magical
+language ‘defend.’”). The Fifth Circuit has frequently found that when indemnity provisions apply,
+they include costs and attorney’s fees. Olsen v. Shell Oil Co., 595 F.2d 1099, 1103 (5th Cir. 1979)
+(“A contract to indemnify and hold harmless, if applicable, includes payment of costs and
+attorney’s fees incurred by the indemnitee [].”); Lirette, 699 F.2d at 728; Signal Oil & Gas Co. v.
+Barge W-701, 654 F.2d 1164, 1177 -78 (5th Cir. 1981) (no ting that “this court and others have
+found attorneys’ fees properly recoverable in reliance on language in indemnity agreements no
+more specific than that present here”).
+In Signal Oil & Gas Co. v. Barge W-701, the contract’s language required indemnification
+for “any and all loss, cost, damage, expense, claims, actions and liability of account of any and all
+damage to and loss of or destruction of any property belonging to” the indemnitee. 654 F.2d at
+1177. The circuit found this provision was worded such that attorney’s fees for the underlying suit
+were covered, even though the district court thought the enumerated list (“loss, cost, damage,
+
+1 The Court reads the parenthetical to modify the term “subcontractors” because to define Company Group as including
+contractors and then in the next breath exclude them would render the definition  meaningless. The Court  reads the
+various provisions of this contract, including these various definitions, such that together they are not inconsistent.
+Case 2:23-cv-00078-EEF-DPC   Document 73   Filed 04/02/24   Page 13 of 21
+14
+
+expense, claims, actions and liability”) did not specifically list attorney’s fees. Id. However, the
+circuit reasoned that fees associated with establishing the right to indemnity were not recoverable
+because it “decline[d] to hold it within the contemplation of the contracting parties that the
+indemnitor would have to be taken to court to insure satisfaction of his agreed upon payment.” Id.
+at 1178-79 (collecting cases).
+IV. DISCUSSION
+ The Court will first address the question of whether the FDF MSA is a maritime contract
+and whether the indemnity provisions are valid and enforceable. Then, the Court will turn to the
+issue of standing and entitlement to attorney’s fees. 2 Lastly, the Court will address the  breach of
+contract claim.
+ To recap, the Doiron test is as follows:
+First, is the contract one to provide services to facilitate the drilling or production
+of oil and gas on navigable waters? . . . Second, if the answer to the above question
+is ‘yes,’ does the contract provide or do the parties expect that a vessel will pl ay a
+substantial role in the completion of the contract?
+
+Doiron, 879 F.3d at 576. There are two threshold questions that impact the Doiron analysis: (1)
+which contract must the Court analyze under this test, and (2) whether the ENTERPRISE 205 is a
+vessel. FDF’s arguments all relate to its ( incorrect) understanding that the jack -up rig was not a
+vessel when it was jacked up because it was not “in navigation.” FDF therefore claims that it never
+“expected” a vessel would play a substantial role in its services because the jack-up right was not
+a vessel.
+ To begin, the parties disagree as to which contract applies – the FDF MSA, the Work Order,
+or a combination of the two. See R. Doc. 62 -1 at 10-12 (discussing the relevance of the Work
+
+2 The issue of the amount of attorney’s fees has been bifurcated. Entitlement to attorney’s fees will be determined
+here.
+Case 2:23-cv-00078-EEF-DPC   Document 73   Filed 04/02/24   Page 14 of 21
+15
+
+Order). FDF urges the Court to look to the Work Order because it highlights FDF’s understanding
+that it would be performing non -maritime work, that is, “by cleaning the tanks [located on the
+ENTERPRISE 205] used for drilling purposes,” and that  FDF did not expect a vessel to play a
+substantial role in this task. Id. at 10-12. In the present case, the purpose of the Work Order was
+the cleaning of the ENTERPRISE 205 tanks. The ENTERPRISE 205 is a vessel. Thus, the
+objective of the Work Order was the cleaning of a vessel’s tanks. This is clearly a maritime contract
+just as it was in Earnest. The fact that FDF incorrectly or mistakenly concluded that the
+ENTERPRISE 205, while jacked -up, ceased to be a vessel cannot affect the vessel status of the
+ENTERPRISE 205. In fact, in the present case the injured employee alleging he was a member of
+the crew of the ENTERPRISE 205 filed a Jones Act claim alleging negligence and that this vessel,
+the ENTERPRISE 205,  was unseaworthy.  Thus, a vessel played a substantial role in the
+performance of the contract. This is true whether the contract at issue is the FDF MSA or the Work
+Order or both since the Work Order specifically addressed tank cleaning on the ENTERPRISE
+205. In this case, the Court finds that the contract is the FDF MSA and that the Work Order may
+be looked at in conjunction, but the Work Order itself is not a standalone contract. 3 In any event,
+a vessel (the ENTERPRISE 205) plays a substantial role in the completion of the contract, as will
+be explained.
+ As mentioned above, t he Court concludes that the FDF MSA is a maritime contract . A
+Doiron analysis supports this conclusion. The first Doiron prong is clearly satisfied: the contract
+is one that facilitates drilling services on navigable waters, as without the tanks cleaned, the drilling
+
+3 At oral argument on these motions, the parties explored this question and the Court took note that the Work Order
+itself expressly states that the FDF MSA governs it and that the FDF MSA controls should any conflicts and between
+it and the Work Order arise. Work Order, R. Doc. 60-3 at 1 (“This Master Service/Purchase Order is …  governed by
+the Master Service Agreement [“Contract”] … The terms and conditions of the Contract are hereby incorporated by
+reference into this Master Service/Purchase Order. … The  Contract shall prevail in the event of any conflict between
+the terms of the Contract and the terms of this Master Service/Purchase Order.”).
+Case 2:23-cv-00078-EEF-DPC   Document 73   Filed 04/02/24   Page 15 of 21
+16
+
+operations are not possible. The tasks William Jones was assigned to perform  were “to clean the
+tanks on the rig as the drilling operation was going from an oil-based mud into drill-in fluid as the
+next step in the drilling process” an d to “clean the shakers which would take in the mud mixed
+with cuttings from where the wells were being drilled, and separate the cuttings from the mud so
+the mud could pass again through the drilling bit for lubrication purposes.” R. Doc. 62 -1 at 10.
+This easily satisfies Doiron’s first prong, and the parties do not argue this point.
+ The second Doiron prong asks whether the contract provides or whether the parties expect
+a vessel to play a substantial role in the performance of the contract. There is no dispute that both
+parties expected the ENTERPRISE 205 to play a substantial role in the contract, as the FDF MSA’s
+objective was “rig and vessel cleaning services and drilling fluids” and William Jones’s task on
+the date of injury was to clean the tanks on the ENTERPRISE 205. The crux of FDF’s argument,
+however, is that Doiron’s second prong fails because it expected that the ENTERPRISE 205 ceased
+to be a vessel once it became jacked-up.
+ This presents a unique twist on Doiron because, in essence, the Court is asked to find that
+a party’s incorrect belief about what the law is transforms the contract. The Fifth Circuit’s
+established jurisprudence in this field has long found jack -up rigs to be vessels, regardless of
+whether they are actively moving or not. The question here is whether a party ’s belief or
+expectation that is contrary to established law ought negate the existence of a maritime contract .
+The Court concludes that it should not.
+ Further, although it could have done so, FDF did not have an attorney review the contract
+or engage in negotiations as to various terms. Alex Dore, FDF’s corporate representative, testified
+by deposition on this subject as follows:
+ Q: And were you able to find any [communications regarding the contract
+negotiations]?
+Case 2:23-cv-00078-EEF-DPC   Document 73   Filed 04/02/24   Page 16 of 21
+17
+
+A: I was able to find some concerning, hey, here’s the copy of the contract, can you
+sign it, it’s in the back. That was - -
+A: Okay.
+A: -- the extent of that conversation.
+Q: I got it. So, in other words, it - - there was not like redlining of the contract going
+back and forth in drafts or anything like that?
+A: Typically, if we do reline something, it’s payment terms only. So I mean - -
+Q: I got it. Did you-all use an outside - - and when I say “you-all,” I mean obviously
+FDF.
+A: Yes.
+Q: Did FDF use an outside or an in -house attorney in the contracting process with
+Cantium?
+A: We did not.
+
+Id. at 14:6-14:23. In this context especially, FDF’s expectations that this jack -up rig was not a
+vessel in its jacked-up position should not be given sufficient weight such that the second Doiron
+prong fails.
+ The Court observes that, while not argued, the  second Doiron prong reads “ does the
+contract provide or do the parties expect that a vessel will play a substantial role in the completion
+of the contract?” Because the contract provides that a vessel, the ENTERPRISE 205, will play a
+substantial role in the completion of the contract, the Court could find the contract satisfies Doiron
+without examining the parties’ expectations at all. However, the Court finds the expectations of
+the parties was that the ENTERPRISE 205 would play a substantial role and therefore the contract
+satisfies Doiron, as explained above.
+ The contract here is a maritime contract. Accordingly, LOIA is inapplicable and the
+indemnity provisions are valid and enforceable. This is true even though FDF argues that Corbitt
+forecloses their enforcement.
+ As the Court finds this a maritime contract and that the indemnity provisions are valid and
+enforceable, the question of entitlement to attorney’s fees follows naturally. Courts have held that
+indemnity provisions requiring a party to indemnify and hold harmless, even absent the word
+Case 2:23-cv-00078-EEF-DPC   Document 73   Filed 04/02/24   Page 17 of 21
+18
+
+“defend,” necessarily includes attorney’s fees and costs. Accordingly, because the Court finds FDF
+must indemnify Cantium and Enterprise, as members of the Company Group under the FDF MSA,
+in the suit brought by William Jones, the Court must find that Cantium is entitled to all fees, costs,
+and expenses incurred in that defense.
+ Cantium is also entitled to the fees incurred in this litigation (Cantium’s attempt to enforce
+its indemnification rights) . While some courts have held that it would be beyond the parties’
+contemplation to have to bring the other to court to enforce its indemnity rights, that is not so here.
+In this FDF MSA, costs related to enforcement of indemnity rights is expressly contemplated and
+the Court has no trouble concluding that Cantium is entitled to these costs as well. Section 29.5 of
+the FDF MSA states in relevant part
+Contractor shall defend, protect, indemnify and hold harmless the company group
+against all liens, claims and demands (including without limitation expenses, costs
+or attorney’s fees incurred for any company group’s defense or for enforcement of
+its indemnification rights) arising out of or in connection with the performance or
+non-performance of services or materials supplied by contract under this
+agreement….
+
+Id. at 20, § 29.5 (emphasis added). In this instance, because the parties contracted to provide for
+such indemnification, the Court finds Cantium entitled to the attorney’s fees and costs associated
+with its suit to enforce its indemnification rights as well as the underlying suit.
+ FDF however argues that this subsection addresses only claims (and liens and demands)
+relating to FDF’s “performance or non -performance of services or materials,” not claims arising
+out of bodily injury, and therefore this language is irrelevant to the case at hand. See R. Doc. 72 at
+10-11. Since this language is not in § 29.1, the subsection dealing with bodily injury claims, FDF
+urges the Court to limit this language’s reading to only claims involving services or materials. The
+Court understands FDF’s position but cannot escape that this language is still included within the
+broader indemnity section of the FDF MSA, Section 29. The Court therefore finds that
+Case 2:23-cv-00078-EEF-DPC   Document 73   Filed 04/02/24   Page 18 of 21
+19
+
+enforcement of indemnity rights was contemplated by the parties as a recoverab le expense under
+the contract.
+ Additionally, FDF has argued that, even if the FDF MSA provides for attorney’s fees and
+costs in some contexts, that in this case Cantium has not proven its entitlement to these expenses
+because its insurer, JH Blades, is the entity paying for the defense in the William Jones suit.4 FDF
+has stretched this argument further by arguing that Cantium does not have a right to pursue
+indemnity either because of this alleged lack of standing. FDF asserts that it should be JH Blades
+bringing this suit for recovery, not Cantium. In response, Cantium notes that the FDF MSA
+expressly permits Cantium to recover th ese costs , pointing to the various provisions already
+discussed, and that the contract’s language says nothing about a n insurer being the required  or
+proper party to pursue indemnification and/or reimbursement of fees and costs. Cantium argues
+that the collateral source rule would also work against FDF’s position and, further, that JH Blades
+is entitled to subrogation under the policy. See R. Doc. 71 at 7 (citing relevant portions of the
+insurance policy and noting that the policy requires the insured , Cant ium, to either assign JH
+Blades the right to pursue loss under the policy or to pursue that loss itself by bringing its own
+suit).
+ Cantium alleges that to accept FDF’s contention that only JH Blades has standing in this
+case yields absurd consequences. As Cantium describes,
+FDF’s arguments are akin to taking the position that an injured plaintiff does not
+have standing to recover the cost of any outstanding incident -related medical bills
+as only the provider itself would have “actually incurred” such expenses. However,
+no defendant can seriously argue that a plaintiff lacks standing to recover medical
+expenses paid by his or her insurer.
+
+4 Cantium obtained an insurance policy with JH Blades pursuant to its Enterprise MSA. R. Doc. 71 at 6 (“The fact
+that Cantium independently procured a policy of insurance to cover its potential liability under its MODSA [Enterprise
+MSA] with Enterprise – a completely separate contract, between different parties, and relating to different services –
+is irrelevant to the enforcement of the clear terms of the [FDF] MSA.”).
+Case 2:23-cv-00078-EEF-DPC   Document 73   Filed 04/02/24   Page 19 of 21
+20
+
+Id. at 6-7. Although FDF cites to Duval v. Northern Assurance Co. of America  for support, this
+case expressly states that an insurer bringing a third -party complaint for recovery of fees and
+indemnification is not the proper party to do so, the contract’s signatory is. 722 F.3d 300, 303 -04
+(5th Cir. 2013). In Duval, BHP and Deep Marine entered into an MSA with reciprocal indemnity
+provisions, and when an employee of another BHP contractor was injured, he sued Deep Marine
+who then tendered BHP and BHP accepted. Id. at 302-03. Deep Marine however then declared
+bankruptcy and, as a re sult, the bankruptcy court ordered the injured employee, Duval, to only
+proceed against Deep Marine’s insurer, not Deep Marine itself. Id. That insurer then brought a
+third-party complaint against BHP, “seeking to be ‘fully protected, defended, indemnified , held
+harmless and provided insurance coverage’ by BHP in accordance with the MSA.” Id. The Fifth
+Circuit affirmed the district court and found that BHP had no indemnity obligation to the insurer
+for Duval’s claim. BHP’s only obligation to indemnify under the MSA ran to Deep Marine. Id. at
+303-05.
+ FDF points to Duval to show that JH Blades has no right to recover fees from FDF that
+were incurred in the William Jones suit.  But this suit was not brought by JH Blades; Cantium is
+the Plaintiff. Cantium has the right to recover fees incurred in the William Jones suit. As mentioned
+earlier, the question of the amount of fees has been bifurcated. On the question of entitlement to
+these fees, however, the Court finds that Cantium has this right under the FDF MSA’s clear
+language. Whether they have incurred any expenses or paid any attorney ’s fees and if so the
+amount thereof will be determined in the bifurcated action.
+ The Court turns now to the breach of contract claim. Cantium asserted this claim in relation
+to FDF’s failure to list Cantium as an additional insured and/or obtain the requisite coverage under
+the FDF MSA in favor of Cantium. R. Doc. 1 at 11 -13. At oral argument,  FDF argued that this
+Case 2:23-cv-00078-EEF-DPC   Document 73   Filed 04/02/24   Page 20 of 21
+21
+
+claim must fail because of Corbitt. But, as the Court has already discussed, Corbitt is inapplicable
+to the instant case. FDF also argued that the FDF MSA did not expressly require them to name
+Cantium as an additional insured, and only mentioned this requirement in a parenthetical in one
+paragraph of the insurance section, § 18(K). However, the Court fin ds § 18(K) clear and
+unambiguous. It states in relevant part that “Contractor shall release, protect, defend, indemnify,
+and hold harmless the Company Group from any loss Company Group may suffer due to
+Contractor’s failure to comply with all of the above insurance requirements (including obtaining
+waivers of subrogation, adding Company Group as additional insured, and being primary).” There
+is no qualifying language or ambiguity in this provision. The Court finds § 18(K) required FDF to
+add the Company Group, which includes Cantium and Enterprise, as additional insureds and to the
+extent that it has not complied with this requirement, § 18(L) requires it to perform its obligations
+as self-insured. R. Doc. 62-5 at 15.
+ Accordingly, for the foregoing reasons,  FDF’s Motion for Summary Judgment, R. Doc.
+62, is DENIED and Cantium’s Motion for Summary Judgment, R. Doc. 60 is GRANTED. As
+mentioned earlier, the Court bifurcated the question of the amount of attorney’s fees. Upon motion,
+the Court will entertain briefing and/or a hearing on this question.
+
+New Orleans, Louisiana, this 1st day of April, 2024.
+United States District Judge
+Case 2:23-cv-00078-EEF-DPC   Document 73   Filed 04/02/24   Page 21 of 21

@@ -1,0 +1,478 @@
+1
+
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+RIVER PARISH CONTRACTORS, INC.
+
+VERSUS
+
+BLACK DIAMOND CAPITAL
+MANAGEMENT L.L.C.
+
+*
+*
+*
+*
+*
+*
+*
+*
+CIVIL ACTION NO. 22-723
+
+SECTION: “A”(3)
+
+JUDGE JAY C. ZAINEY
+
+MAGISTRATE JUDGE EVA J. DOSSIER
+
+*
+ORDER AND REASONS
+
+The following motion is before the Court: Motion for Summary Judgment (Rec. Doc.
+7) filed by Defendant, Black Diamond Capital Management L.L.C. (“Black Diamond”). River
+Parish Contractors, Inc. (“RPC”) opposes the motion. The motion, submitted for consideration
+on May 8, 2024, is before the Court on the briefs without oral argument. For the reasons that
+follow, Black Diamond’s Motion for Summary Judgment is DENIED.
+I. Background
+This suit arises out of a series of oral representations, following which RPC provided
+services to a steel mill for which it allegedly remains unpaid. BD LaPlace, LLC (“Bayou Steel”)
+operated a steel mill with related facilities in LaPlace, Louisiana. (Complaint, Rec. Doc. 1, ¶ 8).
+The facility provided various steel services, including melting and alloying scrap steel, and
+transforming it into rebar beams and finished steel plates. (Id.). These products were then
+shipped from the LaPlace facility. (Id.). Black Diamond is an investment advisory firm that
+provides support and management to its portfolio companies. (Id. ¶ 4). At all relevant times,
+Bayou Steel was owned by Bayou Steel BD Holdings II, L.L.C., which was owned by Black
+Diamond Opportunity Fund IV, L.P. (Id.). Black Diamond was a general partner with a 2.5%
+Case 2:22-cv-00723-JCZ-EJD   Document 87   Filed 06/20/24   Page 1 of 16
+2
+
+stake in Opportunity Fund IV. (Deposition of Gregory Schunk, Rec. Doc. 73-3, at 12:16-18;
+Deposition of Stephen Deckoff, Rec. Doc. 73-4, at 22:21-25).1
+RPC asserts that Black Diamond, despite only having a 2.5% stake in Opportunity Fund
+IV, exercised complete control over Bayou Steel, including selecting multiple board members,
+one of whom served as chairman, and hiring all of Bayou Steel’s executive management. (Rec.
+Doc. 73, at 3). Additionally, Black Diamond-affiliated board members allegedly dismissed
+Bayou Steel’s CEO, following which the position was left vacant for an extended period.
+(Deposition of Alton Davis, Rec. Doc. 73-7, at 100:3-6). Alton Davis, President and COO of
+Bayou Steel, referred to one Black Diamond executive, Phil Raygorodetsky, as the de facto CEO
+of Bayou Steel. (Rec. Doc. 73-8, at 60:15-61:7).
+In early 2019, Bayou Steel approached RPC to request turnaround services, a process that
+involves refurbishing and updating equipment so that it operates safely and efficiently. (Rec.
+Doc. 73, at 6). Such a capital-intensive undertaking required Black Diamond’s approval before
+action could be taken. (Deposition of Alton Davis, Rec. Doc. 73-8, at 95:11-17). Black Diamond
+initially proved difficult to convince. (Id. at 61:11-24). However, ultimately, Bayou Steel insisted
+that the turnaround service occur for the safety and efficiency of the plant. (Id. at 61:25-62:4).
+Meanwhile, RPC, aware of Bayou Steel’s financial difficulties, allegedly refused to perform
+without a commitment from Black Diamond that it would provide the funds necessary to cover
+the turnaround services. (Deposition of Shelley Rome, Rec. Doc. 73-14, at 48:21-49:4). Shelley
+Rome, Bayou Steel’s purchasing manager, advised Davis of RPC’s request. (Deposition of Bud
+Guidry, Rec. Doc. 73-15, at 49:5-13). Davis, in turn, presented the request to Sam Farahnak and
+Phil Raygorodetsky, the Black Diamond-affiliated board members of Bayou Steel. (Deposition
+
+1 Throughout this Order, all deposition cites refer to the page numbers of the deposition transcripts, not the
+page numbers in the CM/ECF headers.
+Case 2:22-cv-00723-JCZ-EJD   Document 87   Filed 06/20/24   Page 2 of 16
+3
+
+of Shelley Rome, Rec. Doc. 71-7, at 48:16-21). After speaking with the Black Diamond-
+appointed board members, Davis returned to Rome, conveying to her that Black Diamond had
+committed to funding Bayou Steel, which Rome then conveyed in some form to RPC.2
+In July of 2019, RPC requested a meeting with Rome, Davis, and other management to
+discuss the outstanding balance on its account; no Black Diamond employees attended the
+meeting. (Rec. Doc. 73, at 8; see Deposition of Shelley Rome, Rec. Doc. 71-7, at 62:7-15 (not
+listing any Black Diamond affiliates as meeting attendees)). At that time, RPC allegedly was
+owed $1.1 million in outstanding charges. (Email from Shelley Rome to Michael Williams,
+Alton Davis, and Kevin Kirkland, Rec. Doc. 73-17, at 1). During the meeting, Davis reconfirmed
+Black Diamond’s promise to provide funds. (Deposition of Alton Davis, Rec. Doc. 71-3, at
+107:22-108:1 (“[T]he statement was kind of like it had been all along with suppliers was that we
+were still expecting to be funded by Black Diamond and would be able to pay them.”)). RPC
+continued its work at the LaPlace Facility until Bayou Steel declared bankruptcy on October 1,
+2019. (Rec. Doc. 73, at 8). At the time of the bankruptcy, RPC was owed $785,560.61. (Id.).
+Accordingly, RPC filed this suit, asserting that Black Diamond’s oral representation, which
+ultimately was conveyed in some fashion to RPC, qualified as an unconditional promise to pay,
+and, in the alternative, that Black Diamond conveyed a promise upon which RPC detrimentally
+relied.
+Black Diamond has moved for summary judgment on both counts. It asserts that the oral
+representation was not an unconditional promise to pay but, rather, created a suretyship
+agreement, and that it was legally inoperative because such agreements must be written. In the
+
+2 The Court notes that there is a disparity between the original promise and that conveyed to RPC . Some
+fact witnesses claim that the assurance was to continue to fund Bayou Steel generally; others maintain that
+it was to cover RPC’s specific invoices.
+Case 2:22-cv-00723-JCZ-EJD   Document 87   Filed 06/20/24   Page 3 of 16
+4
+
+alternative, it argues that, in the event the promise is interpreted as an unconditional promise to
+pay, Black Diamond never directly made such a promise to RPC, that any evidence of the
+manifestation is inadmissible hearsay, and Bayou Steel’s employees lacked the agency or
+authority to bind Bayou Steel in such a manner. Finally, it claims that detrimental reliance is
+inappropriate for various reasons, including that no promise was ever made from Black Diamond
+to RPC and that RPC was patently unreasonable in relying on the statement. RPC opposes the
+motion. The Court considers these arguments below.
+II. Legal Standard
+Summary judgment is proper where there is “no genuine dispute of material fact” and “the
+movant is entitled to judgment as a matter of law.” FED. R. CIV. P. 56(a). That is, it is appropriate
+where “the pleadings, depositions, answers to interrogatories, and admissions on file, together with
+the affidavits, if any,” when viewed in the light most favorable to the non-movant, “show that there
+is no genuine issue as to any material fact.” TIG Ins. Co. v. Sedgwick James , 276 F.3d 754, 759
+(5th Cir. 2002) (citing Anderson v. Liberty Lobby, Inc. , 477 U.S. 242, 249 -50 (1986)). A dispute
+about a material fact i s “genuine” if the evidence is such that a reasonable jury could return a
+verdict for the non-moving party. Id. (citing Anderson, 477 U.S. at 248). The court must draw all
+justifiable inferences in favor of the non -moving party. Id. (citing Anderson, 477 U .S. at 255).
+Once the moving party has initially shown “that there is an absence of evidence to support the non-
+moving party’s cause,” Celotex Corp. v. Catrett, 477 U.S. 317, 325 (1986), the non-movant must
+come forward with “specific facts” showing a genu ine factual issue for trial. Id. (citing Fed. R.
+Civ. P. 56(e); Matsushita Elec. Indus. Co. v. Zenith Radio , 475 U.S. 574, 587 (1986)).
+Conclusional allegations and denials, speculation, improbable inferences, unsubstantiated
+Case 2:22-cv-00723-JCZ-EJD   Document 87   Filed 06/20/24   Page 4 of 16
+5
+
+assertions, and legalistic arg umentation do not adequately substitute for specific facts showing a
+genuine issue for trial. Id. (citing SEC v. Recile, 10 F.3d 1093, 1097 (5th Cir. 1993)).
+When faced with a well -supported motion for summary judgment, Rule 56 places the
+burden on the non-movant to designate the specific facts in the record that create genuine issues
+precluding summary judgment. Jones v. Sheehan, Young, & Culp, P.C. , 82 F.3d 1334, 1338 (5th
+Cir. 1996). The district court has no duty to survey the entire record in search of evidence to support
+a non-movant's position. Id. (citing Forsyth v. Barr, 19 F.3d 1527, 1537 (5th Cir. 1992); Nissho-
+Iwai Am. Corp. v. Kline, 845 F.2d 1300, 1307 (5th Cir. 1988)).
+III. Discussion
+1. Unconditional Promise to Pay
+Black Diamond first argues that this promise was one of suretyship, under which it would
+pay RPC’s invoices in the event that Bayou Steel could not. Louisiana law dictates that a
+suretyship contract “is an accessory contract by which a person binds himself to a creditor to
+fulfill the obligation of another upon the failure of the latter to do so.” LA. CIV. CODE art. 3035.
+Suretyship contracts are subject to strict procedural requirements, including that they “must be
+express and in writing.” Id. art. 3038. A corollary to the strict writing requirement is that “[p]arol
+evidence is inadmissible to establish either a promise to pay the debt of a third person or a
+promise to pay a debt extinguished by prescription.” Id. art. 1847. Therefore, to the extent that
+this obligation was a suretyship agreement—that is, a promise to pay RPC in the event Bayou
+Steel failed to do so—the claim must fail because there was no writing. (Deposition of Shelley
+Rome, Rec. Doc. 73-14, at 51:2-7; Deposition of Alton Davis, Rec. Doc. 71-3, at 47:19-25
+(noting that Black Diamond only made verbal agreements to fund Bayou Steel)).
+Case 2:22-cv-00723-JCZ-EJD   Document 87   Filed 06/20/24   Page 5 of 16
+6
+
+However, this Court does not find this promise to be one of suretyship. Black Diamond’s
+arguments and evidence suggest that the agreement was to continue funding Bayou Steel
+generally to help it operate—not to specifically cover RPC’s invoices or Bayou Steel’s expenses
+in the event of financial difficulties. (See Statement of Contested/Uncontested Facts, Rec. Doc.
+73-1, at 7 (admitting that Alton Davis testified that the commitment was to fund Bayou Steel,
+“which [would] keep [it] in business and allow [it] to pay,” a different commitment from a
+suretyship)). Article 1847’s Revision Comment (d) suggests that “a writing is not required to
+prove a promise to pay the debt of a third person when the promisor had a material interest in
+making the promise and has received something in return therefor.” LA. CIV. CODE art. 1847 rev.
+cmt. (d). This exception is known as the unconditional promise to pay.
+Louisiana’s jurisprudence for unconditional promises to pay suggests that the form of the
+obligation is different from that of a suretyship. The Louisiana Second Circuit has described it as
+follows:
+[I]f the promisor has bound himself as principal with the person to whom credit is
+extended, the rule [against parol evidence] is different. The obligation then is
+independent and primary. The fact that both parties are responsible for the debt does
+not alter the situation so far as primary responsibility to the creditor is concerned.
+
+Hornsby v. Rives, 2 So. 2d 532, 534 (La. Ct. App. 2 Cir. 1941). When such a promise exists,
+there is no suretyship, and parol evidence may be admitted. See Schloegel v. New Orleans
+Disposal Serv., 261 So. 2d 108, 109 (La. Ct. App. 4 Cir. 1972); LA. CIV. CODE art. 1847 rev.
+cmt. (d). Of course, inherent in an unconditional promise to pay in which an individual or entity
+becomes the principal obligor is a promise from the obligor to the obligee.3 That is, for a promise
+
+3 Bayou Steel understood that it was the contracting party that engaged RPC. (Deposition of Alton Davis,
+Rec. Doc. 71-3, at 56:25-57:12 (noting that Bayou Steel was the direct contracting party and Black Diamond
+was never the contracting party); id. at 57:24 -58:20 (Black Diamond did not direc tly receive RPC
+invoices)). Nevertheless, RPC argues that Black Diamond’s assurances to fund Bayou Steel converted it to
+the principal debtor of the transaction.
+Case 2:22-cv-00723-JCZ-EJD   Document 87   Filed 06/20/24   Page 6 of 16
+7
+
+to be construed as an unconditional promise to pay, that obligation must have been expressed
+from Black Diamond to RPC, whether expressly or through an agent. For the reasons described
+below, this Court finds that an issue of material fact exists as to the existence of apparent
+authority in conveying the promise.
+As an initial matter, it is uncontested that no direct or payroll employee of Black
+Diamond ever directly made a promise to RPC. (Statement of Contested/Uncontested Facts, Rec.
+Doc. 73-1, at 7). No Black Diamond representative was present when Bayou Steel employees
+initially indicated that Black Diamond would cover the RPC invoices, nor was a representative
+present when Bayou Steel reconfirmed the promise to RPC. (Id. at 8; see Deposition of Shelley
+Rome, Rec. Doc. 73-14, at 51:8-18). Further, no promise was made in writing from Black
+Diamond to RPC. (Deposition of Shelley Rome, Rec. Doc. 73-14, at 51:2-7). However, RPC
+maintains that Bayou Steel extended the promise on Black Diamond’s behalf. For this promise to
+have legal significance, Bayou Steel must have been acting with authority to bind Black
+Diamond when it extended the promise.
+Louisiana allows for both express4 and apparent agency, as well as apparent authority. To
+establish that apparent authority exists, two elements must be met: “1) the principal must first act
+to manifest the alleged agent’s authority to an innocent third party; [and] 2) the third party must
+reasonably rely on the manifested authority of the agent.” Paratech, L.L.C. v. Nola Motor Club,
+L.L.C., 2018 WL 1937274, at *3 (La. App. 5 Cir. 4/25/18) (citing Jefferson Par. Hosp. Serv.
+Dist. No. 2 v. K&W Diners, L.L.C., 65 So. 3d 662 (La. App. 5 Cir. 4/12/11)). Agency is a
+question of fact in Louisiana. Legros v. Great Am. Ins. Co. of N.Y., 865 So. 2d 792, 795 (La.
+App. 3 Cir. 11/12/03) (citing Venable v. U.S. Fire Ins. Co., 829 So. 2d 1179 (La. App. 3 Cir.
+
+4 RPC does not argue that express agency existed, and no facts support that Black Diamond expressly stated
+that Bayou Steel was its agent.
+Case 2:22-cv-00723-JCZ-EJD   Document 87   Filed 06/20/24   Page 7 of 16
+8
+
+10/30/02)). On that basis, Louisiana courts often refuse summary judgment where the existence
+of an agency relationship is at issue. See, e.g., id.; McManus v. S. United Fire Ins., 801 So. 2d
+392, 396 (La. App. 3 Cir 3/21/01); Kidd v. Indep. Fire Ins. Co., 668 So. 2d 406, 409-10 (La.
+App. 4 Cir. 1/19/96).
+Black Diamond argues that RPC was unreasonable as a matter of law in relying on
+Shelley Rome’s apparent authority because Louisiana law dictates that third parties “seeking to
+benefit from the doctrine of apparent authority may not blindly rely upon the assertions of an
+agent” and that they have “a duty to inquire into the nature and extent of the agent’s power.”
+Boulos v. Morrison, 503 So. 2d 1, 3 (La. 1987) (citing Buckley v. Woodlawn Dev. Corp., 98 So.
+2d 92 (1957)). Buckley, the case upon which Boulos relied in declaring that third parties have
+such a duty to inquire, noted that the ignorance of the third party could not be excused because
+“the attendant facts and circumstances show[ed] that he was aware of the fact that [the purported
+agent] required express and special authority” to commit the principal. Buckley, 98 So. 2d at 98.
+It is true that RPC never inquired into the nature or extent of Rome’s power to bind Black
+Diamond. (Deposition of Chad Bourgeois, Rec. Doc. 71-9, at 58:16-59:8 (stating that no one at
+RPC verified Black Diamond’s commitment with Black Diamond or verified the accuracy of
+Rome’s statement)). However, Buckley and Boulos are distinguishable. Boulos involved the
+failure of sophisticated business persons to verify the statements of an individual who claimed
+that he would obtain certain merchandise for them on behalf of a retail store; he confirmed his
+promise only with an undated receipt signed “M.” Boulos, 503 So. 2d at 4. He also assured them
+that he would deliver the merchandise to the hotel at which they were staying. Id. Despite their
+industry experience, the plaintiffs failed to verify the statements of this individual, who was
+lingering in the front of the store and who expected cash payment. See id. at 2. Therefore, they
+Case 2:22-cv-00723-JCZ-EJD   Document 87   Filed 06/20/24   Page 8 of 16
+9
+
+could not show that they acted reasonably when they relied upon his statements that he was
+acting on behalf of the store. Id. at 4. In Buckley, the third party also acted unreasonably. See
+Buckley, 98 So. 2d at 98. There, the third party, armed with the knowledge that it was necessary
+that the particular agent have express authority to enter into an agreement on his principal’s
+behalf, relied blindly on the agent’s assurances that he had such authority. Id. The court noted
+that a person dealing with a corporation “is generally bound to know whether or not the person
+who assumes to represent the corporation and to act in its name is authorized to do so.” Id.
+Different circumstances exist here. The question is not one of express agency, but one of
+apparent authority. RPC had a significant course of dealing with Bayou Steel, including previous
+dealings with and reliance on Shelley Rome. (Deposition of Chad Bourgeois, Rec. Doc. 71-9, at
+58:1-21). According to the Louisiana Supreme Court, apparent authority is, in its truest sense, a
+form of estoppel rather than agency. See Broadway v. All-Star Ins. Corp., 285 So. 2d 536, 538
+(La. 1973) (“Apparent authority is a principal of estoppel, which operates in favor of third
+persons seeking to bind a principal to an unauthorized act of an agent. In this context, it is both
+fair and equitable to govern mutual rights and liabilities by the apparent scope of an agent’s
+authority, because third persons, who are not privy to the actual terms of the agency agreement,
+must rely entirely upon the indicia of authority with which the agency is vested.” (emphasis
+added)). That is, implicit in the concept of apparent authority—whereby a third party relies upon
+the “apparent scope” of the agent—is a factual determination of whether the surrounding
+circumstances could cause a third party to reasonably believe that the agent could bind the
+principal, even if the agent actually had no such authority.
+The Louisiana Supreme Court has found certain manifestations to be relevant in
+determining whether apparent authority exists, including considerations of prior dealings
+Case 2:22-cv-00723-JCZ-EJD   Document 87   Filed 06/20/24   Page 9 of 16
+10
+
+between the parties, activity permitted by the principal, ratification by the principal, failure of the
+principal to stop the agent from acting, and belief by the agent that it could act on the principal’s
+behalf. See Tedesco v. Gentry Dev., Inc., 540 So. 2d 960, 962 n.5 (La. 1989). Some of these
+circumstances exist here. For instance, Alton Davis believed that Black Diamond was the 100%
+owner of Bayou Steel, suggesting that actions taken by Bayou Steel may have been taken on
+behalf of Black Diamond, or may otherwise have been authorized by Black Diamond due to its
+extensive control of Bayou Steel activity. (See Deposition of Alton Davis, Rec. Doc. 73-8, at
+89:25-90:2). He also testified that he believed Rome to be honest and reliable. (Id. at 93:13-24).
+Members of RPC similarly testified to their longstanding relationship with Rome, as well as her
+trustworthiness. (Deposition of Chad Bourgeois, Rec. Doc. 71-9, at 58:1-21 (twice noting a
+“longstanding relationship with Shelley” and that he “[did not] believe she would lie to
+[RPC]”)). Moreover, third parties were aware of Bayou Steel’s financial difficulties and the role
+that Black Diamond played in its operational structure. (Deposition of Alton Davis, Rec. Doc.
+73-8, at 96:4-11). In fact, Bayou Steel required Black Diamond money to fund large-scale capital
+expenditures (Deposition of Kevin Kirkland, Rec. Doc. 73-25, at 41:5-10), with Black Diamond
+“expected to fund the long-term issues.” (Id. at 41:22-24). Taking these facts together, it cannot
+be said as a matter of law that RPC’s belief that authority existed was patently unreasonable;
+rather, a reasonable jury could find that these manifestations were sufficient to cause a
+reasonable person to believe that an agency relationship existed. Therefore, summary judgment
+is not appropriate at this stage.5
+
+5 The Court notes that there is a disparity between the promise given by Black Diamond to Bayou Steel,
+and that which was ultimately passed to RPC by Bayou Steel. Some testimony states that the initial promise
+was to fund Bayou Steel as an entity—not to specifically fund the projects performed by RPC or to act as
+the principal debtor in any service agreement. Alton Davis’s deposition testimony clearly suggests such an
+understanding. (Deposition of Alton Davis, Rec. Doc. 71 -3, at 73:4-13 (describing his understanding that
+“Black Diamond was going to continue to fund [Bayou Steel]” )). He answered that no one from Black
+Case 2:22-cv-00723-JCZ-EJD   Document 87   Filed 06/20/24   Page 10 of 16
+11
+
+2. Detrimental Reliance
+In the alternative, RPC claims that it detrimentally relied upon Black Diamond’s promise
+that it would continue funding Bayou Steel in choosing to provide services to Bayou Steel.
+Detrimental reliance requires the satisfaction of five elements: “(1) the defendant (promisor)
+made a promise to the plaintiff (promisee); (2) the defendant knew or should have known that the
+promise would induce the plaintiff to rely on it to his detriment; (3) the plaintiff relied on the
+promise to his detriment; (4) the plaintiff was reasonable in relying on the promise; and (5) the
+plaintiff suffered damages as a result of the reliance.” Masita v. Maumoulides, 341 So. 3d 11, 25
+
+Diamond ever told him that Black Diamond would pay suppliers in the event that Bayou Steel could not.
+(Id.). He also testified that he never informed RPC that Black Diamond would cover the RPC invoices in
+the event Bayou Steel could not; instead, he said that Bayou Steel was told that it would be funded and
+therefore be able to cover costs. ( Id. at 73:14-20). When asked again about the promise,  he repeated that
+the promise was that Black Diamond would fund Bayou Steel whenever it needed money; indeed, he would
+not commit to a statement that Black Diamond would specifically pay for the work performed by RPC. (Id.
+at 111:1 -112:13). Phil Raygorodet sky, a Black Diamond -placed member of Bayou Steel’s board of
+directors, noted that support payments were never expressly granted. (Deposition of Philip Raygorodetsky,
+Rec. Doc. 71-6, at 300:11-301:11 (stating that he has no recollection of Alton Davis, Shelley Rome, or any
+other Bayou Steel employee asking Black Diamond to commit to paying RPC invoices in the event Bayou
+Steel lacked sufficient funds to pay RPC); id. at 301:12-19 (stating that he was unaware of Black Diamond
+ever committing to backstop payments to any vendor of a portfolio company, including Bayou Steel)).
+ However, other evidence proves that the promise conveyed from Bayou Steel to RPC was “that
+Black Diamond [had] agreed to fund the project that was happening during the shutdown.” (Deposition of
+Shelley Rome, Rec. Doc. 71-7, at 47:7-9). This promise—one which suggests that Black Diamond would
+act as the principal debtor by specifically funding this project —is different from a promise to generally
+fund Bayou Steel. Shelley Rome, however, did not believe that what she conveyed was any different from
+what Alton Davis had conveyed to her. When asked if her promise was “different from telling River Parish
+that Black Diamond’s going to pay their invoices,” she said that it was not. (Id. at 47:10-15). In fact, when
+questioned further about the promise and the difference between funding the plant and paying specific
+invoices, she stated that she considered such a difference “mincing words” and that “the intent was that
+Black Diamond was going to supp ort the turnaround and assure that the funds would be available for the
+invoices to be paid.” ( Id. at 47:24-48:2). Rome went on to say that the reassurance provided to RPC was
+that “Black Diamond was committed to making sure that [RPC] got paid based on the original guarantee.”
+(Deposition of Shelley Rome, Rec. Doc. 73 -14, at 63:10 -11). One RPC representative, Chad Bourgeois,
+noted that at a follow-up meeting, RPC sought reassurance that Black Diamond’s “original agreement was
+still in place,” which he described as “the promise to pay.” (Deposition of Chad Bourgeois, Rec. Doc. 71-
+9, at 91:15-18). He testified that Alton Davis assured RPC that the promise remained in place. (Id.).
+ At this time, the Court does not decide whether the promise that was ultimatel y conveyed to RPC
+qualifies as an unconditional promise to pay  or make any determination regarding  the legal effect of the
+disparity of the promises, except to note the potential effect on the reasonableness of RPC’s reliance.
+
+Case 2:22-cv-00723-JCZ-EJD   Document 87   Filed 06/20/24   Page 11 of 16
+12
+
+(La. App. 1 Cir. 11/15/21); accord Wooley v. Lucksinger, 961 So. 2d 1228, 1238 (La. App. 1 Cir.
+5/4/07) (citing references in note 11).6
+The only way RPC’s detrimental reliance claim may succeed is if Black Diamond made a
+promise to RPC. As discussed at length above, the promise assured that Black Diamond would
+fund Bayou Steel in such a manner that RPC would be paid; that promise was passed from Black
+
+6 The Court notes that this definition is not uniform across  Louisiana courts. Other cases suggest that a
+direct promise from the defendant promisor to the plaintiff promisee is not necessary: “[T]o successfully
+assert a claim for detrimental reliance, a plaintiff must establish: ‘(1) a representation by conduct or word;
+(2) justifiable reliance; and (3) a change in position to one’s detriment because of the reliance.’” Patriot
+Constr. & Equip., LLC v. Rage Logistics, LLC, 215 So. 3d 844, 852 (La. App. 3 Cir. 4/6/16)  (emphasis
+added) (quoting Luther v. IOM Co. LLC, 130 So. 3d 817, 825 (La. 10/15/13)); accord Belin v. Dugdale, 43
+So. 3d 272, 282 (La. App. 2 Cir. 6/30/10) (citing Miller v. Miller, 817 So. 2d 1166 (La. App. 2 Cir. 5/8/02)).
+Nevertheless, for the reasons that follow, this Court believes that Louisiana’s detrimental reliance statute
+requires that the promise be made from the defendant promisor to the plaintiff promisee.
+ The Louisiana Supreme Court has hinted that such a requirement is necessary to prevail under
+detrimental reliance. In Barrie v. V.P. Exterminators, Inc., the Louisiana Court of Appeals for the Fourth
+Circuit found that where a termite inspection report was relied upon by a third -party purchaser of real
+property, claims of negligent misrepresentation (tortious) and detrimental reliance (contractual) both must
+fail due to a lack of privity between the parties. 614 So. 2d 295, 296-97 (La App. 4 Cir. 1993). In reversing
+the judgment, the Louisiana Supreme Court only discussed the negligent misrepresentation holding, noting
+that such privity was not necessary in actions  founded in tort. Barrie v. V.P. Exterminators, Inc., 625 So.
+2d 1007, 1015-16, 1018 (La. 1993). Although courts have long battled as to whether detrimental reliance
+is contractual or tortious in nature, it is settled that detrimental reliance in Louisiana is a contractually borne
+issue. Murphy Cormier Gen. Contractor, Inc. v. State, Dep’t of Health & Hosps., 114 So. 3d 567, 598 n.11
+(La. App. 3 Cir. 5/22/13) (“La. Civ. Code art. 1967 is under that portion of the Louisiana Civil Code that
+pertains to contracts. Scholarly interpretation of La. Civ. Code art. 1967 buttresses the argument that
+detrimental reliance sounds in contracts . . . .”).
+The language of the detrimental reliance article in the Civil Code bolsters this interpretation. Civil
+Code article 1967 reads as follows: “A party may be obligated by a promise when he knew or should have
+known that the promise would induce the other party to rely on it to his detriment and the other party was
+reasonable in so relying.” LA. CIV. CODE art. 1967. Although the language is not explicit ly clear, the use
+of “other party” in the contractual obligations section of the Civil Code suggests that the claim is not meant
+to create unfettered liability in promissory estoppel claims by extending to third parties. Instead, the cause
+of action is intended to reach only those parties bound by privity of contract. See Suire v. Lafayette City -
+Par. Consol. Gov’t, 907 So. 2d 37, 59 (La. 4/12/05) (“[T]he basis of detrimental reliance is ‘the idea that a
+person should not harm another person by making promises that he will not keep.’  Thus, the focus of
+analysis of a detrimental reliance claim is . . . whether a representation was made in such a manner that the
+promisor should have  expected the promisee to rely on it . . . . ” (emphasis added) (quoting Morris v.
+People’s Bank & Tr. Co., 580 So. 2d 1029, 1036 (La. App. 3 Cir. 1991))) . Such a result is also supported
+by some state courts of appeals. See, e.g., Magic Moments Pizza, Inc. v. La. Rest. Ass’n, 819 So. 2d 1146,
+1149 (La. App. 5 Cir. 5/29/02) (“Furthermore, contractual cause of actions [ sic] based upon detrimental
+reliance apply only to contracting parties, and not to third parties.”). Therefore, this Court is satisfied that
+the promise must have run from Black Diamond to RPC, whether expressly or through an agent.
+Case 2:22-cv-00723-JCZ-EJD   Document 87   Filed 06/20/24   Page 12 of 16
+13
+
+Diamond’s membership of Bayou Steel’s board to Alton Davis, to Shelley Rome, to RPC. As
+with RPC’s first claim, an issue of material fact exists as to whether Rome had apparent
+authority to bind Black Diamond in expressing a promise to RPC that it would fund the
+turnaround project. Therefore, summary judgment may only be granted as to the detrimental
+reliance claim if it fails as a matter of law as to one of the other elements. Black Diamond’s only
+other challenge in this motion asserts that RPC was unreasonable as a matter of law in relying
+upon the promise.
+Black Diamond argues that RPC’s reliance was unreasonable as a matter of law because
+RPC had a ready and convenient means of determining the facts concerning the representations
+made but failed to do so. In support of this statement, it cites Fucich Contracting, Inc. v. Shread-
+Kuyrkendall & Assocs., Inc. for the proposition that detrimental reliance claims cannot lie “[i]f
+the evidence reveals that the asserting party had actual knowledge, or a ready and convenient
+means of determining the facts concerning representations made.” No. 18-2885, 2019 WL
+6877646, at *9 (E.D. La. Dec. 17, 2019) (citations omitted). The Court has reviewed the legal
+basis for this statement and is not convinced that such a finding precludes a claim for detrimental
+reliance as a matter of law. Indeed, cases discussing this requirement relate to equitable estoppel,
+not detrimental reliance. See, e.g., Knippers v. Lambard, 620 So. 2d 1368, 1375 (La. App. 2 Cir.
+1993); KPW Assocs. v. S.S. Kresge Co., 535 So. 2d 1173, 1180 (La. App. 2 Cir. 1988); Twillie v.
+H.B. Zachry Co., 380 So. 2d 747, 751 (La. App. 4 Cir. 1980). Further, the case in which this
+requirement originated noted that equitable estoppel requires an “affirmative showing that the
+party pleading it was misled by the acts of the other party and forced to act to his prejudice,” and
+that the only diligence necessary is that “as would reasonably be expected under the prevailing
+Case 2:22-cv-00723-JCZ-EJD   Document 87   Filed 06/20/24   Page 13 of 16
+14
+
+circumstances to avoid mistake or misunderstanding.” Twillie, 380 So. 2d at 750 (emphasis
+added).
+As an initial matter, equitable estoppel is judicially created, see Wilkinson v. Wilkinson,
+323 So. 2d 120, 126 (La. 1975), whereas detrimental reliance is founded in the Civil Code.
+Further, the requirements of the causes of action are distinguishable: equitable estoppel requires
+a bad-faith-type showing not necessary in detrimental reliance. Finally, even if such diligence
+were also required in detrimental reliance cases to survive a motion for summary judgment, RPC
+does not appear to have acted so patently unreasonably as a matter of law that it warrants the
+grant of summary judgment in this instance, especially given its previous course of business with
+Bayou Steel.
+Still, to survive summary judgment, RPC’s reliance must not have been unreasonable as a
+matter of law in some other way. Whether a party’s reliance on a representation is reasonable is a
+question of fact in Louisiana. See Babkow v. Morris Bart, P.L.C., 726 So. 2d 423, 428 (La. App.
+4 Cir. 12/16/98); see also Drs. Bethea, Moustoukas & Weaver v. St. Paul Guardian Ins. Co., 376
+F.3d 399, 403 (5th Cir. 2004).7 However, Louisiana law recognizes specific situations in which a
+plaintiff’s reliance is unreasonable as a matter of law. St. Paul Guardian Ins. Co., 376 F.3d at
+403. For instance, “it is unreasonable as a matter of law to rely on an offer of at-will
+employment, just as it is patently unreasonable to rely on the permanency of at-will employment
+once it begins.” May v. Harris Mgmt. Corp., 928 So. 2d 140, 148 (La. App. 1 Cir. 12/22/05).
+Additionally, “a plaintiff’s reliance on an oral, gratuitous promise to transfer land was held
+unreasonable as a matter of law because Louisiana law provides that ‘reliance on a gratuitous
+
+7 Although Babkow noted that reasonableness is a question of fact, it noted that business acumen may be
+considered in making such a determination. Babkow, 726 So. 2d at 428 (“[A] promisee’s business acumen
+is properly considered when determining reasonableness of the claimed reliance .” (quoting Acad. Mortg.
+Co., L.L.P. v. Barker, Boudreaux, Lamy & Foley, 673 So. 2d 1209, 1212 (La. App. 4 Cir. 4/24/96))).
+Case 2:22-cv-00723-JCZ-EJD   Document 87   Filed 06/20/24   Page 14 of 16
+15
+
+promise made without required formalities is not reasonable.’” St. Paul Guardian Ins. Co., 376
+F.3d at 403 n.14 (quoting Gray v. McCormick, 663 So. 2d 480, 486 (La. App. 3 Cir. 1995)).
+Interpretation of a fully integrated contract is a question of law. Wilson v. Cost+ Plus of Vivian,
+Inc., 375 So. 2d 683, 685 (La. App. 2 Cir. 1979). Therefore, when a plaintiff relies on promises
+made outside of an unambiguous, fully integrated agreement, such reliance is unreasonable as a
+matter of law. Omnitech Intern., Inc. v. Clorox Co., 11 F.3d 1316, 1330 (5th Cir. 1994).
+RPC’s reliance on this manifestation does not mirror any of the examples listed above.
+The evidence demonstrates that Black Diamond had extensive control over Bayou Steel,
+including over its day-to-day decision-making (Deposition of Kevin Kirkland, Rec. Doc. 73-25,
+at 33:7-23 (referring to the Black Diamond executives’ participation in management as “extreme
+micromanaging”)); over its expenditures and capital management (Id. at 40:4-42:21; Deposition
+of Alton Davis, Rec. Doc. 71-3, at 43:21-24); over its personnel decision-making (Deposition of
+Alton Davis, Rec. Doc. 73-8, at 103:22-104:17); and over handling various plant issues, such as
+discipline for poor performance by ground-level employees (Email from Sam Farahnak to Alton
+Davis, Philip Raygorodetsky, James Hogarth, and Greg Schunk, Rec. Doc. 73-30, at 3 (asking
+whether “we do anything from a disciplinary standpoint to hold the operator who made the
+mistake accountable”)). On the other hand, the fact that RPC and Black Diamond are
+sophisticated business entities and possess financial acumen and an understanding of corporate
+structures and protocol may also be considered. The Court does not highlight these particular
+facts to demonstrate that there was or was not reasonable reliance on the promise or on any
+purported agency; instead, these facts merely demonstrate that a reasonable jury could find that
+RPC was reasonable in relying on the promise made by Bayou Steel, especially given their
+course of dealing with Bayou Steel and Black Diamond and the way in which the entities
+Case 2:22-cv-00723-JCZ-EJD   Document 87   Filed 06/20/24   Page 15 of 16
+16
+
+operate. Because both agency and the reasonableness of RPC’s reliance are issues of material
+fact, this Court cannot grant summary judgment as to the detrimental reliance claim.
+Accordingly;
+IT IS ORDERED that the Motion for Summary Judgment (Rec. Doc. 71), filed by
+Defendant, Black Diamond Capital Management L.L.C., is DENIED.
+June 18, 2024
+      _____________________________________
+      JAY C. ZAINEY
+      UNITED STATES DISTRICT JUDGE
+Case 2:22-cv-00723-JCZ-EJD   Document 87   Filed 06/20/24   Page 16 of 16
