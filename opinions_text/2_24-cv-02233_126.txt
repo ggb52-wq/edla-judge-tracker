@@ -1,0 +1,984 @@
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+MADDEN GULF COAST LLC CIVIL ACTION
+
+VERSUS No. 24-2233
+
+HILARK INDUSTRIES, INC., ET AL. SECTION I
+
+ORDER AND REASONS
+Before the Court are two motions for summary judgment filed by the
+defendants in this case. The first is a motion1 for partial summary judgment filed by
+defendants Hilark Industries, Inc.; Hilbilt Sales Corp.; Hill G3 Industries, Inc.; and
+Grayling V. Hill (collectively, the “Hilb ilt defendants”). Defendants Hilbilt -Lufkin
+Distribution, LLC and Hilark -Lufkin Heavy Haul Trucks & Trailers, LLC
+(collectively, “the Lufkin defendants”) joined 2 in the Hil bilt defendants’ motion.
+Plaintiff Madden Gulf Coast, LLC (“Madden”) filed a response in opposition,3 and the
+Hilbilt defendants filed a reply.4
+The second motion is the Lufkin defendants’ motion 5 for summary judgment.
+Madden filed a response6 in opposition, and the Lufkin defendants filed a reply.7 For
+
+1 R. Doc. No. 67.
+2 R. Doc. No. 100.
+3 R. Doc. No. 79.
+4 R. Doc. No. 92.
+5 R. Doc. No. 41.
+6 R. Doc. No. 78.
+7 R. Doc. No. 102.
+Case 2:24-cv-02233-LMA-JVM     Document 126     Filed 05/23/25     Page 1 of 37
+2
+
+the reasons that follow, the Court grants both motions in part and denies them in
+part.
+I. BACKGROUND
+This action arises from the alleged wrongful conduct of the Hilbilt and Lufkin
+defendants (collectively, “defendants”)  “in connection with the engineering, design,
+research, testing, manufacture, production, inspection, installation, sale, distribution
+and/or warranty of six 19-foot steel dump bodies that [d]efendants manufactured and
+installed on six new 2023 Western Star 47X vocational quad axle dump trucks” (“quad
+trucks”).8 The Hilbilt defendants are the original sellers and manufacturers of the
+dump bodies at issue. The Lufkin defendants have since purchased the assets of the
+Hilbilt defendants, leading to a dispute between the parties regarding who is the
+proper defendant for each of Madden’s causes of action. Grayling V. Hill (“Mr. Hill”)
+was allegedly the owner and president of the Hilbilt entities and became the
+president of the Lufkin defendants after the asset purchase.9
+ Madden’s amended complaint states that, in November 2021, Madden  leased
+19 new trucks, including 6 quad trucks from Daimler Truck through an agreement
+with Daimler Truck and/or Lonestar Freightliner Group, LLC (“Lonestar”).10 Madden
+“specified that the six Quad trucks were to be equipped with Hilbilt steel dump
+
+8 R. Doc. No. 106, ¶ 1.
+9 Id. ¶ 15.
+10 Id. ¶ 20.
+Case 2:24-cv-02233-LMA-JVM     Document 126     Filed 05/23/25     Page 2 of 37
+3
+
+bodies,” and “Lonestar made arrangements with Defendant Hilbilt Sales to purchase
+six Hilbilt dump bodies for the six new Quad trucks Madden was to lease.”11
+ After the six quad trucks were delivered to Madden, Madden began to operate
+them.12 On September 12, 2023, the amended complaint states that one of the q uad
+trucks turned over while offloading asphalt. 13 And on September 17, 2023, another
+quad truck turned over while dumping milling material. 14 Madden states that the
+two quad trucks that turned over were severely damaged, and an employee who was
+driving one of the trucks when it turned over was injured. 15 Madden decided to take
+the other four q uad trucks out of service following the accidents  to determine what
+had occurred.16
+ Complicating the question of wh ich party  may be liable for the rollover
+incidents, the amended complaint states that on September 11, 2023, the day before
+the first rollover incident, the Hilbilt defendants and the Lufkin d efendants’ parent
+company, Saddlebrook Heavy Haul Manufacturing, LLC , entered into an asset
+purchase agreement (“APA”). 17 The Lufkin defendants  later became parties to the
+agreement, became “the operating companies of the purchased Hilark and Hilbilt
+
+11 Id. ¶¶ 22–23.
+12 Id. ¶¶ 34, 36.
+13 Id. ¶ 40.
+14 Id. ¶ 43.
+15 Id. ¶¶ 50, 53.
+16 Id. ¶ 49.
+17 Id. ¶ 61.
+Case 2:24-cv-02233-LMA-JVM     Document 126     Filed 05/23/25     Page 3 of 37
+4
+
+businesses respectively,” and assumed liabilities owned by the Hilbilt defendants .18
+The closing date for the APA was on November 3, 2023.19
+ Regarding Mr. Hill, the amended complaint alleges that the APA placed Mr.
+Hill in multiple roles and conflicting positions that “affected his conduct and
+candor.”20 Madden argues that Mr. Hill had a duty to disclose to Madden the fact that
+he had sold his businesses to the Lufkin defendants.21 However, Madden alleges that
+Mr. Hill did not disclose to Madden that he had sold the businesses “in order to obtain
+an unjust advantage for himself.”22
+ On December 1, 2023—a fter the rollover incidents —Mr. Hill allegedly
+inspected the six q uad trucks at Madden’s facility .23 Madden states that Mr. Hill
+asked it to send the four undamaged q uad trucks to the Lufkin defendants’ facility
+where Mr. Hill could perform a better inspection and fix the problems with the dump
+bodies.24 Madden delivered the quad trucks to the Lufkin defendants’ facility.25
+Yet the amended complaint alleges  that Mr. Hill waited until  late January
+2024 to notify Madden that he would not be fixing the dump beds , stating that his
+insurance company told him to do nothing  because it could amount to an admission
+of fault.26 Madden then told Mr. Hill that it would fix the issues with the dump beds
+
+18 Id. ¶¶ 62–64.
+19 Id. ¶ 66.
+20 Id. ¶ 76.
+21 Id. ¶ 81.
+22 Id. ¶ 82.
+23 Id. ¶ 78.
+24 Id. ¶ 83.
+25 Id. ¶ 84.
+26 Id. ¶¶ 87, 89.
+Case 2:24-cv-02233-LMA-JVM     Document 126     Filed 05/23/25     Page 4 of 37
+5
+
+itself, but it alleges that Mr. Hill asked that he be allowed to keep the dump beds for
+a few more weeks to reconsider whether he would fix the dump beds.27 On February
+16, 2024, the amended complaint states that Mr. Hill asked Madden  to pick up the
+four undamaged quad trucks because he was in the middle of selling his business and
+did not want to do anything to impact the sale.28 Madden alleges that this statement
+was false because Mr. Hill had already sold his business at that point.29
+ Madden then picked up the four undamaged q uad trucks and brought them
+back to its own sho p, where Madden repaired and modified the dump beds on those
+trucks.30 Madden describes how , during this process , it allegedly learned that
+defendants had modified the hydraulic dump cylinder mounting arm design on the
+dump bodies without making  Madden aware of the changes. 31 Madden maintains
+that many of the welds on the dump bodies were either defective or inadequate.32
+Having found these alleged defects, Madden  states that it contacted Mr. Hill
+regarding its claims to ask that he repair or replace the trucks and dump bodies of
+the trucks involved in the rollover incidents.33 Madden contends , however,  that
+defendants have continued to refuse to act on its claims regarding the two trucks and
+dump bodies damaged in the rollover incidents .34 This refusal, Madden alleges, has
+
+27 Id. ¶ 88.
+28 Id. ¶ 89.
+29 Id.
+30 Id. ¶ 98.
+31 Id. ¶¶ 100–01.
+32 Id. ¶¶ 104–05.
+33 Id. ¶¶ 108–09.
+34 Id. ¶ 112.
+Case 2:24-cv-02233-LMA-JVM     Document 126     Filed 05/23/25     Page 5 of 37
+6
+
+been “in part due to concerns regarding a potential admission of liability with respect
+to the possible claims by the driver of the Quad truck involved in the September 12,
+2023 rollover accident.”35
+ Because of the alleged “defective dump bodies, the resulting September 12 and
+September 17, 2023 Accidents ” and defendants’ failure to either fix or replace the
+dump bodies, Madden maintains that that it has sustained multiple categories of
+damages.36 Relevant for the present motions, Madden brings claims for violations of
+the Louisiana Products Liability Act (“LPLA”), negligence, breach of warranty for
+fitness of use, breach of express warranty, and  redhibition.37 Madden also brings
+personal claims against Mr. Hill and claims for negligence and vicarious liability
+against the Lufkin defendants based on Mr. Hill’s actions as an employee.38
+ The Hilbilt defendants and the Lufkin defendants then filed th eir respective
+motions for summary judgment .39 After defendants filed their motion s, the Court
+granted Madden leave to amend its complaint. 40 Nonetheless, the Court addresses
+defendants’ arguments as applied to Madden’s amended complaint.
+ Both the Hilbilt defendants and the Lufkin defendants argue that Madden’s
+claims for negligence should be dismissed because those claims do not arise under the
+LPLA, and the LPLA provides the exclusive theory of liability for damages
+
+35 Id. ¶ 112.
+36 Id. ¶ 129.
+37 Id. at 26, 31, 33–35, 41.
+38 Id. at 43, 45.
+39 R. Doc. No. 67 (Hilbilt defendants’ motion for summary judgment); R. Doc. No. 41
+(Lufkin defendants’ motion for summary judgment).
+40 R. Doc. No. 105.
+Case 2:24-cv-02233-LMA-JVM     Document 126     Filed 05/23/25     Page 6 of 37
+7
+
+proximately caused by a product. 41 Defendants also argue that Madden’s  claims for
+property damage should be dismissed because Madden  does not own the trucks or
+dump bodies.42 They maintain that Madden’s claims for damages related to workers’
+compensation payments should be dismissed because Madden has not directly paid
+any of the workers’ compensation payments.43 Lastly, defendants jointly argue that
+all claims against Mr. Hill should be dismissed because he is not a manufacturer
+pursuant to the LPLA and because he cannot be held liable individually for his
+actions taken related to his duties as president of the companies involved.44
+The Lufkin defendants individually  argue that they are not manufacturer s
+pursuant to the LPLA and therefore cannot be held liable for products liability. 45
+Additionally, the Lufkin defendants argue that they did  not assume the Hilbilt
+defendants’ liabilities or warranty obligations with respect to Madden through the
+APA.46
+II. STANDARD OF LAW
+ Summary judgment is proper when, after reviewing the materials in the
+record, a court determines that there is “no genuine dispute as to any material fact
+and the movant is entitled to judgment as a matter of law.” Fed. R. Civ. P. 56(a). “[A]
+party seeking summary judgment always bears the initial responsibility of informing
+the district court of the basis for its motion, and identifying those portions of [the
+
+41 R. Doc. No. 67-1, at 4; R. Doc. No. 41-1, at 4.
+42 R. Doc. No. 67-1, at 11.
+43 Id. at 15.
+44 Id. at 7, 9.
+45 R. Doc. No. 41, at 2.
+46 Id.
+Case 2:24-cv-02233-LMA-JVM     Document 126     Filed 05/23/25     Page 7 of 37
+8
+
+record] which it believes demonstrate the absence of a genuine issue of material fact.”
+Celotex Corp. v. Catrett , 477 U.S. 317, 323 (1986). The party seeking summary
+judgment need not produce evidence negating the existence of a material fact; it need
+only point out the absence of evidence supporting the other party’s case. Id. ; see also
+Fontenot v. Upjohn Co., 780 F.2d 1190, 1195– 96 (5th Cir. 1986) (“There is no sound
+reason why conclusory allegations should suffice to require a trial when there is no
+evidence to support them even if the movant lacks contrary evidence.”).
+ Once the party seeking summary judgment carries that burden, the
+nonmoving party must come forward with specific facts showing that there is a
+genuine dispute of material fact for trial. See Matsushita Elec. Indus. v. Zenith Radio
+Corp., 475 U.S. 574, 587 (1986). The showing of a genuine dispute is not satisfied by
+creating “‘some metaphysical doubt as to the material facts,’ by ‘conclusory
+allegations,’ by ‘unsubstantiated assertions,’ or by only a ‘scintilla’ of evidence.” Little
+v. Liquid Air Corp., 37 F.3d 1069, 1075 (5th Cir. 1994) (citations omitted). Rather, a
+genuine dispute of material fact exists when the “evidence is such that a reasonable
+jury could return a verdict for the nonmoving party.” Anderson v. Liberty Lobby, Inc.,
+477 U.S. 242, 248 (1986). If the nonmovant fails to meet its burden of showing a
+genuine issue for trial that could support a judgment in favor of the nonmovant,
+summary judgment must be granted. See Little, 37 F.3d at 1075–76.
+ The party responding to the motion for summary judgment may not rest upon
+the pleadings but must identify specific facts that establish a genuine issue.
+Anderson, 477 U.S. at 248. The nonmoving party’s evidence, however, “is to be
+Case 2:24-cv-02233-LMA-JVM     Document 126     Filed 05/23/25     Page 8 of 37
+9
+
+believed, and all justifiable inferences are to be drawn in [the nonmoving party’s]
+favor.” Id. at 255. “Although the substance or content of the evidence submitted to
+support or dispute a fact on summary judgment must be admissible . . . the material
+may be presented in a form that would not, in itself, be admissible at trial.” JW Dev.,
+LLC v. Indep. Specialty Ins. Co. , Civ. A. No.  22-390, 2022 WL 3139133, at *1 (E.D.
+La. Aug. 5, 2022) (Africk, J.) (quoting Lee v. Offshore Logistical & Transp., LLC, 859
+F.3d 353, 355 (5th Cir. 2017)).
+III. ANALYSIS
+a. Hilbilt and Lufkin Defendants’ Joint Arguments
+i. Non-LPLA Claims
+The Hilbilt and Lufkin defendants each argue in their motions that all non -
+LPLA claims must be dismissed because the LPLA provides the exclusive theories of
+liabilities for damages proximately caused by a product. 47 In particular, the Hilb ilt
+defendants argue that “the LPLA does not authorize claims for negligence” and that
+“those claims should be dismissed as a matter of law.”48
+Madden agrees that the LPLA and r edhibition49 law govern its claims for
+property damage and personal injuries. 50 However, it argues that other causes of
+
+47 R. Doc. No. 67-1, at 4; R. Doc. No. 41-1, at 6–8.
+48 R. Doc. No. 67-1, at 4.
+49 In Louisiana, redhibition is “the avoidance of a sale on account of some vice or defect
+in the thing sold which renders the thing either absolutely useless or its use so
+inconvenient and imperfect that it must be supposed that the buyer would not have
+purchased it had he known of the vice.” Vitter v. Blaize, 376 So. 3d 193, 196 (La. Ct.
+App., 2023); see also La. C.C. art. 2520.
+50 R. Doc. No. 79, at 7.
+Case 2:24-cv-02233-LMA-JVM     Document 126     Filed 05/23/25     Page 9 of 37
+10
+
+action are available for defendants’ post-rollover conduct.51 Madden argues that the
+Hilbilt defendants’ warranty obligated them “to repair and replace issues with dump
+bodies or replace them.”52 The Lufkin defendants, Madden argues, assumed warranty
+obligations either by the terms of the APA or by the Lufkin defendants’ independent
+actions in accepting the trucks for repairs and holding them for several months
+without communicating to Madden that its warranty claim was being rejected.53
+Madden further alleges that Mr. Hill is liable for his actions in leading Madden
+to believe that the four remaining quad trucks would be fixed. 54 Madden states that
+Mr. Hill “was authorized to receive, accept, administer, and approve warranty claims”
+without any formal procedures and that he took possession of the trucks from
+December to February without doing any work to repair the trucks. 55 Madden
+maintains that it relied on representations that the trucks would be repaired and
+that it never received any communications that its warranty claim was being
+rejected.56 Madden thereby states that its claims regarding this conduct are  not
+barred by the LPLA.57
+The LPLA “establishes the exclusive theories of liability” pursuant to
+Louisiana law against manufacturers for damage caused by their products. Pramann
+v. Janssen Pharms., Inc., Civ. A. No. 16-12413, 2017 WL 58469, at *2 (E.D. La. Jan.
+
+51 Id. at 8–10; R. Doc. No. 78, at 9, 12–15.
+52 R. Doc. No. 79, at 9.
+53 R. Doc. No. 78, at 9–15.
+54 R. Doc. No. 79, at 9.
+55 Id. at 9–10.
+56 Id. at 10.
+57 Id.
+Case 2:24-cv-02233-LMA-JVM     Document 126     Filed 05/23/25     Page 10 of 37
+11
+
+5, 2017) (Africk, J.) (quoting La. Stat. § 9:2800.52 and citing Jefferson v. Lead Indus.
+Ass’n, 106 F.3d 1245, 1248 (5th Cir. 1997)). To succeed on a claim pursuant to  the
+LPLA, a plaintiff must prove four elements:
+(1) that the defendant is a manufacturer of the product; (2) that the [plaintiff’s]
+damage was proximately caused by a characteristic of the product; (3) that this
+characteristic made the product “unreasonably dangerous”; and (4) that the
+[plaintiff’s] damage arose from a reasonably anticipated use of the product by
+the [plaintiff] or someone else.
+Stahl v. Novartis Pharms. Corp., 283 F.3d 254, 260–61 (5th Cir. 2002) (citing La. Stat.
+§ 9:2800.54(A)).
+ A product is unreasonably dangerous pursuant to the LPLA “if and only if” the
+product is “unreasonably dangerous either (1) in construction or composition, (2) in
+design, (3) because of inadequate warning, or (4) because of nonconformity to an
+express warranty.” Rhodes v. Covidien LP, Civ. A. No. 18-10667, 2019 WL 2162845,
+at *2 (E.D. La. May 17, 2019) (Vance, J.) (internal citation omitted). “Thus, the LPLA
+limits the plaintiff to four theories of recovery: construction or composition defect,
+design defect, inadequate warning, and breach of express warranty.” Id. “[F]or causes
+of action arising after the effective date of the LPLA, negligence, strict liability, and
+breach of express warranty are not available as theories of recovery against a
+manufacturer, independent from the LPLA.” Stahl, 283 F.3d at 261.
+However, the LPLA only limits the theories of liability for manufacturers with
+respect to “damage caused by their products.” La. R.S. § 9:2800.52. The LPLA defines
+damage as follows:
+Damage means all damage caused by a product, including survival and
+wrongful death damages, for which Civil Code Articles 2315, 2315.1 and 2315.2
+allow recovery. “Damage” includes damage to the product itself and economic
+Case 2:24-cv-02233-LMA-JVM     Document 126     Filed 05/23/25     Page 11 of 37
+12
+
+loss arising from a deficiency in or loss of use of the product only to the extent
+that Chapter 9 of Title VII of Book III of the Civil Code, entitled “Redhibition,”
+does not allow recovery for such damage or economic loss. Attorney ’s fees are
+not recoverable under this Chapter.
+
+La. R.S. § 9:2800.53(5).
+ “While the LPLA governs products liability in  tort, it does not preclude
+recovery for economic loss arising from breach of warranty or breach of
+contract.” McAuslin v. Grinnell Corp., Civ. A. No. 97-775, 2001 WL 8584, at *2 (E.D.
+La. Jan. 3, 2001) (Vance, J.). Explicitly not covered by the LPLA, the articles
+appearing in Chapter 9 of Title VII of Book III of the Louisiana Civil Code—although
+entitled redhibition —cover not only redhibition but a lso the seller’s obligation to
+deliver a thing reasonably fit f or its ordinary use,  La. C.C. art. 2524 , and actions
+for breach of contract because the thing delivered is not of the kind or quality
+specified in the contract.  La. C.C. art. 2529.  “[D]amages for breach of contract,
+including but not limited to redhibition, are recoverable from a product manufacturer
+under these articles of the Civil Code.” C-Innovation, LLC v. Norddeutsche
+Seekabelewerke GMBH, Civ. A. No. 10-4441, 2013 WL 990026, at *4 (E.D. La. Mar.
+13, 2013) (Morgan, J.).  Madden may therefore maintain its claims for breach of
+warranty independently from the LPLA to the exten t that it relies on a breach -of-
+contract theory.
+Likewise, Madden’s claims for breach of warranty for fitness of use are not
+covered by the LPLA, and Madden  may pursue these claims under a breach -of-
+contract theory. See La. C.C. art. 2524 (stating that, if an item is not fit for its ordinary
+use pursuant to the statute, “the buyers rights are governed by the general rules of
+Case 2:24-cv-02233-LMA-JVM     Document 126     Filed 05/23/25     Page 12 of 37
+13
+
+conventional obligations”); see also Cunard Line Ltd. Co. v. Datrex, Inc. , 926 So.  2d
+109, 113 (La. Ct. App. 2006) (stating that when a buyer files a claim pursuant La.
+C.C. art. 2524, that claim “is one for breach of contract and not the action arising from
+the warranty against redhibitory defects” (internal citation and quotations omitted)).
+Madden’s claims for negligence are not provided for in the LPLA and must be
+dismissed to the extent that they sound in tort. However, part of Madden’s amended
+complaint alleging negligence states that defendants’ acts in taking possession of the
+four quad trucks under representations that they would be repaired, replaced, or
+modified and holding the trucks for two months without taking any action was
+negligent.58 This portion of Madden’s complaint appears to allege a negligence theory
+sounding in contract. “In the case of negligent breach of a contractual obligation,
+causes of action lie for both the breach of contract and the negligence.” Robertson v.
+Sun Life Fin., 187 So. 3d 473, 479 (La. Ct. App. 2013). Madden may therefore pursue
+its claims for negligence to the extent that they rest on a negligent breach-of-contract
+theory.
+ii. Property Damage Claims
+Defendants next argue that Madden cannot bring a claim for property damage
+because Madden is the lessee and not the owner of the equipment.59 Defendants also
+argue that, pursuant to the lease agreement, the dump bodies that were added to the
+leased trucks are owned by the lessors of the equipment because the improvements
+
+58 R. Doc. No. 106, ¶ 162.
+59 R. Doc. No. 67-1, at 11–14.
+Case 2:24-cv-02233-LMA-JVM     Document 126     Filed 05/23/25     Page 13 of 37
+14
+
+“cannot be readily removed without causing damage to the equipment.” 60
+Accordingly, defendants argue that Madden  also cannot bring a property damage
+claim for the dump bodies because it does not own them.61
+ However, as Madden points out in its response,62 Louisiana law provides that
+a lessee is permitted to file an action “to protect the lessee’s possession against a
+disturbance caused by a person who does not claim a right in the leased thing .” La.
+C.C. art 2702. The Louisiana Supreme Court has clarified that article 2702 (formerly
+numbered 2703) affords “the lessee . . . a right of action for damages sustained against
+the person occasioning the disturbance.” Potter v. First Fed. Sav. & Loan Ass’n of
+Scotlandville, 615 So.  2d 318, 323– 24 (La. 1993). Defendants, as nonparties to the
+lease, do not argue that they “claim a right in the leased thing.” See La. C.C. art 2702.
+Accordingly, Madden’s status as a lessee does not prevent Madden from maintaining
+claims for property damage against defendants.
+iii. Claims for Workers’ Compensation Obligations
+Defendants next ask that this Court dismiss Madden’s claims “for damages
+related to the recovery of payments made by Boulder Insurance, LTD related to [the
+injured driver’s] workers’ compensation claim.” 63 Defendants argue that all of the
+driver’s workers’ compensation claims have been paid by Boulder Insurance, LTD
+(“Boulder Insurance”), who is not party to this litigation. 64 Though defendants state
+
+60 Id. at 14.
+61 Id.
+62 See R. Doc. No. 79, at 19.
+63 R. Doc. No. 67-1, at 15.
+64 Id.
+Case 2:24-cv-02233-LMA-JVM     Document 126     Filed 05/23/25     Page 14 of 37
+15
+
+that Madden has claimed that it has been assigned the right to collect on the workers’
+compensation payments made by Boulder Insurance, defendants argue that Madden
+has offered no “additional explanation or evidence regarding this alleged right to
+assignment.”65
+In its response, Madden argues that the Louisiana Workers’ Compensation
+Law ( “LWCL”) allows anyone who has paid or becomes obligated to pay workers’
+compensation to file a lawsuit against a third -party tortfeasor. 66 Because it is
+undisputed that Madden was obligated as the injured driver’s  employer to pay for
+injuries allegedly sustained in the rollover incident, Madden argues that it is
+immaterial whether it actually paid the workers’ compensation or whether its insurer
+was the one to pay the claim. 67 Further, though Madden contends that such
+assignment is irrelevant, Madden  produces a letter from Gallagher Bassett, its
+insurance provider’s workers’ compensation claim administrator, memorializing that
+Madden has been assigned the right to pursue this claim. 68 Defendants dispute the
+letter, stating that there is no evidence that Gallagher Bassett has authority to assign
+the right because Boulder Insurance was the one to pay the claim.69
+
+65 Id. at 15–16.
+66 R. Doc. No. 79, at 20–21 (citing La. R.S. 23:1101(B)).
+67 Id. at 21.
+68 Id. at 21–22.
+69 R. Doc. No. 92, at 5. Defendants’ reply also argues that Madden ’s letter should be
+stricken because it was not produced in discovery and is dated after discovery in this
+case ended. Id. Because all deadlines are being extended in this matter following
+Madden’s amended complaint, s ee R. Doc. No. 113 , the Court declines to strike
+Madden’s letter.
+Case 2:24-cv-02233-LMA-JVM     Document 126     Filed 05/23/25     Page 15 of 37
+16
+
+As provided for in  Louisiana’s workers’ compensation scheme, the award of
+compensation to an injured employee “shall not affect the claim or right of action of
+the said employee .  . . against [third persons legally liable to pay damages to the
+employee].” L a. R.S. 23:1101(A).  To prevent double recovery by an employee,
+employers and insurers are entitled to credit for any amounts paid by the third-party
+tortfeasor. Following any compromise of the claim between the employee and the
+third-party tortfeasor, insurers and employers are entitled to “dollar for dollar credit
+against the full amount paid in compromise, less attorney fees and costs paid by the
+employee in prosecution of the third party claim.” La. R.S. 23:1102(B).  In the event
+that an employee recovers damages from the third -party tortfeasor in court, “ such
+damages shall be so apportioned in the judgment tha t the claim of the employer for
+the compensation actually paid shall take precedence over that of the injured
+employee or his dependent.” La. R.S. 23:1103(A).
+Employers and workers’ compensation insurers likewise have their own right
+of action to recover benefits that they have paid to an injured employee from a third-
+party tortfeasor who is responsible for the damage . Houston General Ins.  Co. v.
+Commercial Union Ins. Co., 649 So. 2d at 781 (La. Ct. App. 1994). In pertinent part,
+La. R.S. 23:1101(B) provides:
+Any person having paid or having become obligated to pay compensation under
+the provisions of this Chapter may bring suit against such third person to
+recover any amount which he has paid or becomes obligated to pay as
+compensation to such employee or his dependents.
+
+For purposes of the LWCL, insurers are explicitly “ subrogated to all rights and
+actions which the employer is entitled ,” La. R.S. 23:1162(D) , providing the insurer
+Case 2:24-cv-02233-LMA-JVM     Document 126     Filed 05/23/25     Page 16 of 37
+17
+
+with these same statutory rights to reimbursement against legally liable third
+persons. When an insurer recovers compensation paid on the employer’s behalf from
+a third-party tortfeasor, “an insurer shall grant its insured a dollar -for-dollar credit
+for any amount on any claim paid . . . on the employer’s behalf.” La. R.S. 23:1103(D).
+However, compensation insurers are not subrogated to the employee’s rights. Dodson
+v. Old Republic Ins. Co. , Civ. A. No. 98-3041, 1999 WL 329701, at *3 (E.D. La.  May
+21, 1999) (Clement, J.).
+In order to promote timely intervention and to protect the parties from losing
+their rights under the statutory scheme, s ee Haynes v. United Parcel Service, 933
+So.2d 765 , 768  (La., 2006) , Louisiana Revised Statute 23:1102 sets forth the
+obligation of giving notice by an injured employee or the employer or insurer in the
+event that one of them files suit against a third-party tortfeasor as authorized by La.
+R.S. 23:1101. The statute requires that if the employee, the employer, or the insurer
+sues the tortfeasor, he must notify the other parties so that they may intervene as a
+party plaintiff in the suit. La. R.S. 23:1102(A)(1).
+Failure of an employee to notify his employer or the insurer of the third-party
+lawsuit may result in the employee forfeiting his right to future compensation,
+including medical benefits. La. R.S. 23:1102( B). Similarly, after proper notice is
+received, the f ailure of an employer or insurer to intervene bars the employer or
+insurer from bringing a separate suit against a third -party tortfeasor. Rolls ex rel.
+A.R. v. Packaging Corp. of Am., Civ. A. No. 18-188, 2019 WL 13221922, at *2  (W.D.
+La. Sept. 24, 2019).
+Case 2:24-cv-02233-LMA-JVM     Document 126     Filed 05/23/25     Page 17 of 37
+18
+
+The LWCL therefore sets out a detailed scheme outlining the rights of
+employees, employers, and compensation insurers in suits against third -party
+tortfeasors. However, the statute does not address whether an employer has a right
+to recover compensation benefits p aid by its insurer . The statute likewise  does not
+address any reimbursement rights an insurer may have if its insured —acting on its
+insurer’s behalf—recovers compensation benefits paid by the insurer.  The Court is
+aware of no case addressing the is sue. Nor do defendants cite to any authority in
+support of their argument that no such right exists.
+The Court notes that, generally, a subrogated insurer that “has paid an entire
+loss suffered by the insured, it is the only real party in interest and must sue in its
+own name. ” United States  v. Aetna Cas. & Sur. Co. , 338 U.S. 366, 390 (1949).
+Louisiana law has provided no statutory exception to this general rule. Accordingly,
+the Court concludes that a better reading of R.S. 23:1101(B) does not permit an
+employer to sue to recover compensation that has been or will be paid by its insurer.
+Although the case did not concern whether an employer could recover pursuant
+to the LWCL for compensation benefits paid by its insurer, the court in Johnson v.
+Qualawash Holdings, L.L.C. considered a compensation insurer’s argument that it
+must be permitted to join a lawsuit brought pursuant to the LWCL  against a third
+party “because, if it were not so permitted, it would be barred from ever recovering
+directly from a third-party tortfeasor or the plaintiff.” 990 F. Supp. 2d 629, 638 (W.D.
+La. 2014). The court there noted that the insured employer’s inclusion in the lawsuit
+was not sufficient to protect the insurer’s interests unless the contract between the
+Case 2:24-cv-02233-LMA-JVM     Document 126     Filed 05/23/25     Page 18 of 37
+19
+
+parties had a reimbursement clause. Id. at 639. Because the insurer only had rights
+to subrogation and not to reimbursement pursuant to the insurance policy, and
+because Louisiana law did not provide the insurer with a right to recover
+compensation paid unless it intervened, the court concluded that the insurer was a
+required party to the litigation pursuant to Federal Rule of Civil Procedure 19. Id. at
+640.
+The interests in recovery contemplated by R.S. 23:1101(B) belong to the person
+who has paid or will pay compensation. The Court is therefore persuaded that an
+employer has no statutory right to sue third parties to recover LWCL compensation
+which has been paid by its insurer. Here, Madden has not claimed that  it has paid
+any LWCL compensation or that it will pay such compensation. Accordingly, Madden
+may not bring claims to recover payments made by Boulder Insurance  absent some
+other assignment of rights.
+Madden, however, has provided the Court with a letter from Boulder
+Insurance’s claims administrator, memorializing that Madden has been assigned the
+right to pursue this claim.70 This is proper summary judgment evidence in support of
+its contention that it been assigned Boulder Insurance’s rights to sue to recover
+compensation payments made to Madden’s employee. See In re TK Boat Rentals, LLC,
+411 F. Supp. 3d 351, 374, 376–77 (E.D. La., 2019) (Ashe, J.) (concluding that an email
+exchange between counsel purporting to show an assignment of rights to an insurer
+
+70 See R. Doc. No. 79-22.
+Case 2:24-cv-02233-LMA-JVM     Document 126     Filed 05/23/25     Page 19 of 37
+20
+
+was competent summary judgment evidence in support of its argument that it had
+been assigned rights to pursue the claims at issue).
+Although defendants dispute that there is no evidence that the claims
+administrator has authority to assign the right to sue,71 this argument was raised in
+a reply brief. The Court therefore declines to grant summary judgment based on this
+argument. See Davenport v. Manor, Civ. A. No. 21-224, 2025 WL 542434, at *4 (M.D.
+La. Jan. 28, 2025) (citing cases for the proposition that courts need not consider
+arguments raised for the first time in a summary judgment reply brief). However, if
+Madden cannot produce evidence that the claims administrator had the requisite
+authority or that it was otherwise properly assigned Boulder Insurance’s rights ,
+defendants may reraise their argument at a later date.
+iv. Claims Against Grayling V. Hill
+As the last of the joint arguments,  defendants argue that Mr.  Hill cannot be
+held liable pursuant to the LPLA because he is not a manufacturer. 72 Instead, they
+argue, he is merely “acting as President of companies who manufacture and sell
+products.”73 Defendants further argue that “there are no circumstances permitting
+the piercing of the corporate veil to hold Mr. Hill personally liable in this matter.”74
+Madden responds that there are genuine issues of fact regarding whether Mr.
+Hill can be held personally responsible because he allegedly designed the dump
+
+71 R. Doc. No. 92, at 5.
+72 R. Doc. No. 67-1, at 7.
+73 Id. at 8.
+74 Id.
+Case 2:24-cv-02233-LMA-JVM     Document 126     Filed 05/23/25     Page 20 of 37
+21
+
+bodies and committed fraud. 75 Madden states that Mr. Hill “personally made the
+defective engineering or design changes to the dump bodies in question and reviewed
+and approved the drawings of his modifications” while having “no certifications in
+welding or any other field” and while having no engineers on staff or assisting as
+consultants.76 The amended complaint  details various ways in which Mr. Hill was
+allegedly personally negligent in designing and directing the building of the dump
+bodies.77 Madden also argues that there is a basis to pierce the corporate veil and
+hold Mr. Hill personally liable in this case because he allegedly committed fraud
+against Madden and was on both sides of the transaction when negotiating the APA,
+attempting to avoid liabilities through the sale.78
+The LPLA defines a manufacturer generally as “a person or entity who is in
+the business of manufacturing a product for placement into trade or commerce.” La.
+R.S. 9:2800.53(1). “‘Manufacturing a product’ means producing, making, fabricating,
+constructing, designing, remanufacturing, reconditioning or refurbishing a product.”
+Id.
+LPLA case law has established that whether a person or entity qualifies under
+the general definition of a  manufacturer involves a two -pronged inquiry. First, a
+manufacturer must be “in the business” of “ producing, making, fabricating,
+constructing, designing, remanufacturing, reconditioning or refurbishing a product.”
+
+75 R. Doc. No. 79, at 10–11.
+76 Id. at 11.
+77 Id. at 12–13.
+78 Id. at 15–16.
+Case 2:24-cv-02233-LMA-JVM     Document 126     Filed 05/23/25     Page 21 of 37
+22
+
+La. R.S. 9:2800.53(1). Second, that individual or entity must place the product “into
+trade or commerce.” Id.; see also Singletary v. Crown Zellerbach, 607 So. 2d 804, 809
+(La. Ct. App. 1992).  For example, in Adelmann-Chester v. Kent, the court concluded
+that a doctor who was one of the designers of the product at issue did not place the
+product into trade or commerce and could not be considered a manufacturer because
+he acted as a consultant, and he never “had control over the fabrication, construction,
+and marketing” of the product. 33 So. 3d 187, 199–201 (La. Ct. App., 2009).
+Defendants do not cite to any law suggesting that a person who otherwise acts
+as a manufacturer within the meaning of the LPLA is shielded from liability when
+they act as an employee.  However, the Fifth Circuit in Reeves v. AcroMed Corp. ,
+suggested that the capacity in which an individual acts matters with respect to
+whether an individual meets the trade or commerce requirement. 103 F.3d 442 (5th
+Cir. 1997). In that case, the Fifth Circuit applying Louisiana law reversed the district
+court judgment holding Dr. Steffee liable as a manufacturer pursuant to the LPLA.
+Id. at 449. Although Dr. Steffee invented the product and acted in a leadership
+position as chairman of the board for the ma nufacturing company, the Fifth Circuit
+concluded that “he, in his capacity of an individual person, did not place the medical
+device on the market, introduce it into the stream of commerce, or act as a
+professional vendor of the product.” Id. (emphasis added).
+The same reasoning applies to Mr. Hill. Although Madden alleges that Mr. Hill
+designed the dump bodies and that Mr. Hill had a level of control as president of the
+Hilbilt defendants , Mr. Hill did not place the dump bodies into the stream of
+Case 2:24-cv-02233-LMA-JVM     Document 126     Filed 05/23/25     Page 22 of 37
+23
+
+commerce in his individual capacity. Instead, he did so in his capacity as president of
+the Hilbilt defendants. Mr. Hill is therefore not a manufacturer within the meaning
+of the LPLA.
+However, Madden alleges that there is a basis for piercing the corporate veil
+and holding Mr. Hill individually liable for the defendant compan ies’ actions.
+Madden’s amended complaint alleges that Mr. Hill is liable for “the intentionally
+fraudulent misrepresentations he made to Madden, which were designed to mislead
+or deceive Madden in order to obtain an unjust advantage ,” such as by failing to
+disclose his status as president of the Lufkin defendants.79 Madden accuses Mr. Hill
+of an “intentional and deceitful failure to handle Madden’s warranty claims in a
+professional or businesslike manner.” 80 Madden also alleges that Mr. Hill “ had full
+authority and autonomy . . . to accept or deny warranty claims on behalf of
+[d]efendants.”81
+Madden’s response to the Hil bilt defendants’ motion for summary judgment
+further states that Mr. Hill knew about the rollover incident and was on both sides
+of the transaction for the APA, in which he went forward with an asset purchase with
+provisions “attempting to exclude liabilities . . . while transferring all assets to the
+Lufkin [d]efendants” and preventing the Hilbilt defendants from operating or using
+their name.82 Madden states that this asset purchase left the Hilbilt defendants as
+
+79 R. Doc. No. 106, ¶¶ 221–25.
+80 Id. ¶ 229.
+81 Id. ¶¶ 96–97.
+82 R. Doc. No. 79, at 15–16.
+Case 2:24-cv-02233-LMA-JVM     Document 126     Filed 05/23/25     Page 23 of 37
+24
+
+shell companies and shifted liability to the “shell” Hilbilt defendants.83 All the while,
+Madden states that Mr. Hill misrepresented the status of the sale and of insurance
+claims while Madden was awaiting repair of the trucks.84  Madden alleges that these
+falsehoods were an attempt to escape liability.85
+In Louisiana , “a corporation is a distinct legal entity, separate from the
+individuals who compose it, thus insulating the shareholders from personal liability.”
+Brennan’s Inc. v. Colbert , 85 So.  3d 787, 791 (La. Ct. App., 2012). In limited
+circumstances, however, “the court may ignore the corporate fiction and find the
+shareholders personally liable for the debts of a corporation.” Id. Traditional veil-
+piercing doctrines are generally limited to cases where the separate existence of the
+corporation has been abused . . . .” In re Gulf Fleet Holdings, Inc., 491 B.R. 747, 785
+(Bankr. W.D. La. 2013).
+One such exception to the corporate fiction is “where the shareholders
+disregard the corporate formalities to the extent that the corporation and the
+shareholders are no longer distinct entities.” Brennan’s Inc., 85 So. 3d at 791. Another
+is where “the corporation is found to be the ‘alter ego’ of the shareholder,” usually
+including a practice of fraud and deceit by shareholders. Id. In applying the alter ego
+doctrine, courts consider factors such as “(1) commingling of corporate or shareholder
+funds; (2) failure to follow statutory formalities for incorporating and transacting
+corporate affairs; (3) undercapitalization; (4) failure to provide separate bank
+
+83 Id. at 16.
+84 Id.
+85 Id.
+Case 2:24-cv-02233-LMA-JVM     Document 126     Filed 05/23/25     Page 24 of 37
+25
+
+accounts and bookkeeping records; and (5) failure to hold regular shareholder and
+director meetings.” Hill Int’l, Inc. v. JTS Realty Corp., 370 So. 3d 16, 20 (La. Ct. App.,
+2022).
+As the Hilbilt defendants point out,86 Madden’s allegations of fraud by Mr. Hill
+do not appear in the original complaint . Instead, they  appear in the amended
+complaint, which was filed after defendants filed this motion for summary
+judgment.87 Accordingly, there are now factual disputes regarding whether there is
+a basis to hold Mr. Hill liable in his individual capacity for the actions of the
+defendant companies . The parties have not briefed whether these new factual
+allegations are legally sufficient to pierce the corporate veil, instead pointing only to
+a lack of evidence. Because the Court has recently extended the discovery deadlines
+in this case to allow time for the parties to address Madden’s new claims, including
+its claims of fraud against Mr. Hill, the Court concludes that it is premature to
+dismiss Madden’s claims against Mr. Hill.
+b. Lufkin Defendants’ Arguments
+i. APA-Assumed Liabilities
+The Lufkin defendants argue that because the Hil bilt defendants are the
+designers, manufacturers, and sellers of the dump bodies, Madden’s redhibition
+claims and claims pursuant to the LPLA exist  only against the Hilbilt defendants.88
+The Lufkin defendants point to a Texas choice -of-law provision in the APA and
+
+86 See R. Doc. No. 92, at 3–4.
+87 R. Doc. No. 106.
+88 R. Doc. No. 41-1, at 8–9.
+Case 2:24-cv-02233-LMA-JVM     Document 126     Filed 05/23/25     Page 25 of 37
+26
+
+contend that Texas law does not allow a buyer to assume a seller’s liabilities unless
+the buyer does so expressly.89 Because there is no provision in the APA under which
+the Lufkin defendants explicitly assume the Hilbilt defendants’ liabilities, the Lufkin
+defendants argue that they cannot be liable pursuant to the LPLA or for redhibition.90
+Regarding Madden’s warranty claims, the Lufkin defendants assert that those
+claims lie against the Hilb ilt defendants and that the Lufkin defendants have only
+agreed to assume warranty obligations for products that were sold before closing but
+where the claims were  presented after closing —conditions that do not apply to
+Madden.91 Further, even if the timing of Madden’s warranty claims were not excluded
+from the Lufkin defendants’ assumed liabilities, they argue that other limitations in
+the original warranty nonetheless exclude Madden’s claims.92
+Madden’s response argues that Texas law does not apply to claims made by a
+third party who is not subject to the terms of the APA and that Louisiana law applies
+to its claims.93 Furthermore, Madden argues that there are issues of fact regarding
+whether, regardless of the terms of the APA, Madden can prevail against the Lufkin
+defendants as apparent manufacturers  pursuant to the LPLA. 94 Madden likewise
+argues that the Lufkin defendants can be held liable under a theory of successor
+liability, citing to Louisiana law in support.95
+
+89 Id. at 10.
+90 Id. at 12–13.
+91 Id. at 14.
+92 Id. at 15–16.
+93 R. Doc. No. 78, at 5, 9.
+94 Id. at 19.
+95 Id. at 21–22.
+Case 2:24-cv-02233-LMA-JVM     Document 126     Filed 05/23/25     Page 26 of 37
+27
+
+Regarding the argument that the Lufkin defendants did not assume warranty
+obligations that were asserted prior to the closing date, Madden asserts that this
+argument is unsupported by the text of the APA and that in assuming “warranty
+obligations incurred . . . prior to the Closing Date,” the L ufkin defendants have
+assumed warranty obligations for Madden because the products at issue were sold
+prior to closing.96 Moreover, even if the assumed warranties in the APA do not apply
+to Madden’s claims, Madden argues that either the Lufkin defendants “assumed
+Madden’s warranty claims by the superseding acts of their P resident,” Mr. Hill  or
+they created a new contractual obligation through those same actions.97
+Pursuant to Louisiana law, contractual choice-of-law provisions are presumed
+valid, unless the chosen law “contravenes the public policy” of the state whose law
+would otherwise apply. See La. C.C. art. 3540; see also Barnett v. Am. Const. Hoist,
+Inc., 91 So. 3d 345, 349 (La. Ct. App. 2012) (“A choice of law provision in a contract is
+presumed valid until it is proved invalid.”). Here, Madden does not argue that the
+Texas choice-of-law provision is invalid. Instead, Madden argues that the choice -of-
+law provision is inapplicable to Madden because it is not a party to the contract. The
+Lufkin defendants concede that the choice-of-law provision does not apply to Madden
+to the extent that Madden  makes claims concerning the Lufkin defendants’ direct
+liabilities.98 However, the Lufkin defendants maintain that the extent to which they
+
+96 Id. at 11–12.
+97 Id. at 12, 15.
+98 R. Doc. No. 102, at 1–2.
+Case 2:24-cv-02233-LMA-JVM     Document 126     Filed 05/23/25     Page 27 of 37
+28
+
+contractually assumed the liabilities of the Hilb ilt defendants is determined by the
+APA.99
+The Court agrees. Though the APA has no bearing on the Lufkin defendants’
+independent liabilities, the APA determines the extent to which the Lufkin
+defendants have assumed the Hil bilt defendants’ liabilities . Courts routinely apply
+the parties’ choice  of law to determine the extent to which such liabilities are
+contractually assumed or created. See, e.g., Urda v. Valmont Indus. Inc., 561 F. Supp.
+3d 640, 652–53 (M.D. La. 2021) (interpreting an indemnity agreement in accordance
+with the laws of Washington when the agreement contained a Washington choice-of-
+law provision).
+With the applicable choice  of law established, the Court now turns to the
+question of successor liability. Madden argues that the Lufkin defendants can be held
+liable as the Hilb ilt defendants’ successors because there are issues of fact with
+respect to whether the Lufkin defendants are a mere continuation of the Hilbilt
+defendants and whether the APA was entered into fraudulently to escape liability.100
+Some jurisdictions , including Louisiana,  allow for successor liability where the
+purchaser is merely a continuation of the selling corporation or where the transaction
+is an attempt to escape liability.  See Golden State Bottling Co. v. N.L.R.B. , 414 U.S.
+168, 182 n.5 (1973)  (setting out the general rule of corporate successor liability);
+Monroe v. McDaniel , 207 So.  3d 1172, 1180 (La. Ct. App. 2016)  (stating that the
+
+99 Id. at 2.
+100 R. Doc. No. 78, at 21–23.
+Case 2:24-cv-02233-LMA-JVM     Document 126     Filed 05/23/25     Page 28 of 37
+29
+
+Golden State Bottling Co.  “principle of successor liability has been followed by
+Louisiana Courts”). This Court, however, has established that Texas law governs the
+extent to which the Lufkin defendants assumed liabilities through the APA.
+“Texas law does not generally recognize successor liability for subsequent
+purchases of corporate assets”  unless the successor corporation expressly assumes
+the liabilities of the predecessor corporation. UST-Mamiya, Inc. v. True Sports, Inc.,
+441 F. Supp. 3d 382 (N.D. Tex. 2020) (quoting Renfro v. HCR Pool III Funding Corp.,
+Civ. A. No. 05-2231, 2006 WL 8437652, at *1 (N.D. Tex. Aug. 28, 2006)). Indeed, Texas
+law has rejected all but the express assumption exception through statute,
+establishing that “[e] xcept as otherwise expressly provided by another statute,  a
+person acquiring property described by this section may not be held responsible or
+liable for a liability or obligation of the transferring domestic entity that is not
+expressly assumed by the person.” Tex. Bus. Orgs. Code § 10.254(b).
+Through the language of this statute, Texas courts have reasoned that mere
+continuation and fraudulent transfer in attempt to escape liability are not grounds
+for successor liability. See, e.g. , Shapolsky v. Brewton, 56 S.W.3d 120, 137 –39 (Tex.
+Ct. App. 2001) . “Thus, only express assumption is grounds for successor liability
+under Texas law.” In re 1701 Com., LLC, 511 B.R. 812, 824 (Bankr. N.D. Tex. 2014).
+Accordingly, the Lufkin defendants are not successors in liability for the Hilbilt
+defendants except to the extent that they expressly assumed those liabilities.
+Case 2:24-cv-02233-LMA-JVM     Document 126     Filed 05/23/25     Page 29 of 37
+30
+
+Section 2.04 of the APA, provides that the purchaser agreed to assume certain
+listed liabilities.101 These include liabilities arising under assigned contracts and jobs
+in progress as well as amounts payable for inventory that had been ordered by the
+seller.102 Most relevant here, the Lufkin defendants agreed pursuant to subsection b
+to assume the “warranty obligations incurred in the Ordinary Course of Business
+pursuant to Sellers’ standard terms relating to goods sold or leased, or services
+performed, by Sellers prior to the Closing Date . . . .”103 While the Lufkin defendants
+also agreed to assume “those liabilities and obligations of Sellers relating to the
+Purchased Assets or the Business and set forth in Section 2.04(d) of the Disclosure
+Schedules,”104 that section states only “None.”105
+Accordingly, the only liabilities related to this case that the Lufkin defendants
+may have arguably assumed from  the Hilbilt defendants through the APA are its
+warranty obligations. With respect to these potential warranty claims, the Lufkin
+defendants argue that the language of the APA establishes that they agreed only to
+assume “warranty obligations for products sold before the Closing for product -
+warranty claims asserted after the Closing date.” 106 Because the rollover events
+occurred in September 2023 and Madden’s claims were presented to the Hilbilt
+
+101 R. Doc. No. 41-4, at 5.
+102 Id. at 5–6.
+103 Id.
+104 Id. at 6.
+105 Id. at 82.
+106 R. Doc. No. 41-1, at 14.
+Case 2:24-cv-02233-LMA-JVM     Document 126     Filed 05/23/25     Page 30 of 37
+31
+
+defendants before the November 3, 2023 closing date, the Lufkin defendants argue
+that it did not assume liabilities for Madden’s claims.107
+Madden disputes the Lufkin defendants’ reading requiring that a claim be
+asserted before the closing date for the Lufkin defendants to have assumed warranty
+obligations.108 In particular, it argues that the language of the APA includes no
+language regarding when a claim or obligation must be asserted.109 Instead, Madden
+argues that the Lufkin defendants assumed all warranty obligations pursuant to
+goods that were sold or leased prior to the closing date, regardless of when the claim
+was presented.110
+In interpreting the APA, Texas contract interpretation law dictates that “[i]f
+[a contract] is worded so that it can be given a definite or certain legal meaning, it is
+not ambiguous and [the court will] construe it as a matter of law.” Am. Mfrs. Mut.
+Ins. Co. v. Schaefer, 124 S.W.3d 154, 157 (Tex. 2003). “Whether a contract is
+ambiguous is itself a question of law.” Id.  The fact that the parties offer different
+contract interpretations does not create an ambiguity. See id.  “An ambiguity exists
+only if the contract language is susc eptible to two or more reasonable
+interpretations.” Tex. Indus., Inc. v. Factory Mut. Ins. Co., 486 F.3d 844, 846 (5th Cir.
+2007).
+
+107 Id.
+108 R. Doc. No. 78, at 1–12.
+109 Id.
+110 Id.
+Case 2:24-cv-02233-LMA-JVM     Document 126     Filed 05/23/25     Page 31 of 37
+32
+
+The Court concludes that Madden’s reading of section 2.04 of the APA is the
+correct reading . Th e section of the APA regarding the assumption of warranty
+obligations contains no language concerning when a claim is asserted. Instead, it only
+contains language concerning obligations “incurred” prior to the closing date.
+Importantly, warranty obligations are created when the warranty is made, not when
+a claim is asserted. See, e.g., Ford Motor Co. v. Miles, 967 S.W.2d 377, 381 (Tex. 1998)
+(describing a sales co ntract as “creat[ing]  warranty obligations ”). Accordingly, the
+Court cannot conclude that the Lufkin defendants’ reading is a reasonable one.
+However, the Lufkin defendants also argue that even if it assumed warranty
+obligations for claims presented before the closing date, it nonetheless has no
+warranty obligations with respect to Madden.111 In particular, the Lufkin defendants
+argue that Madden’s claims do not qualify for the Hil bilt defendants’ limited
+warranty because that warranty only extends to original owners. 112 In response,
+Madden argues that the term “original owner” in the warranty was intended to apply
+to the end user of the product, which it argues applies to Madden.113 Madden further
+argues that even if the express warranty does not apply to its claims, the behavior of
+the parties sufficiently superseded the limits of the express warranty rules such that
+the defendants may be held liable for warranty obligations.114
+
+111 R. Doc. No. 41-1, at 15.
+112 Id. at 15–16.
+113 R. Doc. No. 78, at 10–11.
+114 Id. at 13.
+Case 2:24-cv-02233-LMA-JVM     Document 126     Filed 05/23/25     Page 32 of 37
+33
+
+While the parties make substantial arguments regarding the interpretation of
+the Hilark manufacturer warranty, the Lufkin defendants have not provided briefing
+with respect to the choice of law that applies to the manufacturer warranty. Instead,
+the Lufkin defendants seem to assume that Texas law also applies because the
+manufacturer’s warranty appears as an attachment to the APA. However, the Court
+notes that this document appears  in the APA’s disclosure schedule as a separate
+agreement between the original manufacturer and its customers. The Court therefore
+has no basis to conclude that the Texas choice-of-law provision necessarily applies to
+the manufacturer’s warranty.
+Without a determination regarding  what choice of  law applies to the
+manufacturer’s warranty, the Court cannot apply the proper rules of contractual
+interpretation. Nor can the Court assess any arguments regarding when warranty
+obligations may be properly waived or whether the behavior of the parties can
+supersede limits on an express warranty. The Lufkin defendants have therefore failed
+to establish, at this time, that they are entitled to summary judgment with respect to
+Madden’s breach-of-warranty claims.
+ii. Independent Liability
+Notwithstanding the Court’s determination that the Lufkin defendants did not
+assume the Hilbilt defendants’ LPLA and redhibition liabilities  through the APA ,
+that determination  does not end the inquiry regarding whether the Lufkin
+defendants can be held liable for Madden’s claims. In particular, Madden argues that
+Case 2:24-cv-02233-LMA-JVM     Document 126     Filed 05/23/25     Page 33 of 37
+34
+
+the Lufkin defendants can be held liable pursuant to the LPLA and for redhibition as
+apparent manufacturers.115
+The LPLA’s definition of manufacturer is not limited to those who actually
+manufacture a product. Instead, a manufacturer includes one “who labels a product
+as his own or who otherwise holds himself out to be the manufacturer of the product.”
+La. R.S. § 9:2800.53(1)(a). Known as the apparent manufacturer doctrine, the LPLA’s
+broad definition of manufacturer “allows a plaintiff to hold a seller or distributor
+liable for injuries caused by a product defect, when the seller leads a reasonable
+consumer to believe that it is the manufacturer of the product.” Martin v. Pham Le
+Brothers, LLC, 330 So.3d 346, 352 (La. Ct. App. 2021). Claims for redhibition can
+likewise be brought against apparent manufacturers, Vita v. Rooms to Go La. Corp.,
+No. CIV. A. 13-6208, 2014 WL 6835913, at *5 (E.D. La. Dec. 3, 2014) (Barbier, J.), as
+well as “all sellers in the chain of sales back to the primary manufacturer.” Lovell v.
+Blazer Boats Inc., 104 So.3d 549, 553 & n.3 (La. Ct. App. 2012).
+Whether an individual or entity has held themselves out as the manufacturer
+of a product is determined “by considering the viewpoint of the purchasing public and
+in light of the circumstances as of the time of purchase.” Id. “Ultimately, the rationale
+behind the apparent manufacturer doctrine ‘ considers the perspective of the
+purchaser and his reliance placed upon the labeler of the product in many situations
+where the identity of the product ’s manufacturer is unclear in the sale of the
+product.’” Pablovich v. Rooms to Go La. Corp., Civ. A. No. 20-617, 2021 WL 1401759
+
+115 Id. at 19–21.
+Case 2:24-cv-02233-LMA-JVM     Document 126     Filed 05/23/25     Page 34 of 37
+35
+
+(E.D. La. Apr. 14, 2021) (Fallon, J.) (quoting Allstate Ins. Co. v. Fred’s, Inc., 33 So.3d
+976, 985 (La. Ct. App. 2010)). Applying this rationale in Martin v. Pham Le Brothers,
+LLC, the court concluded that a wholesaler was not an apparent manufacturer where
+it placed its initials on a photo of the product appearing in a catalog that it provided
+to customers. Martin, 330 So.3d at 352–53. In particular, the Court noted that there
+was no evidence that the plaintiff saw the catalog before purchasing the product. Id.
+at 353.
+Madden argues that the apparent manufacturer doctrine applies to the Lufkin
+defendants because they allegedly  “stepped into the businesses of the Hilbilt
+Defendants” and “continued to make and sell the same products, employ the same
+workers, were located in the same facilities, manufactured, installed and sold Hilbilt
+Dump bodies in the same way, used the same logos, and had the same distributors.”116
+Madden points to Pellecer v. Werner Co. , No. 2023-CA-0694, 2024 WL 4500968 (La.
+Ct. App.  Oct. 16, 2024) , a case  in which the defendant company  that purchased
+certain assets of a ladder manufacturer through bankruptcy proceedings was held
+liable as an apparent manufacturer. The court there concluded that the defendant
+could still be liable as an apparent manufacturer despite the fact that the purchasing
+company did not exist when the ladder at issue was manufactured . Id. at *9–10. In
+that case,  the purchasing company held the ladder out as its own through, for
+example, continuing to use the brand and logo of the manufacturing company. Id.
+
+116 R. Doc. No. 106, ¶ 217.
+Case 2:24-cv-02233-LMA-JVM     Document 126     Filed 05/23/25     Page 35 of 37
+36
+
+However, the holding of Pellecer relies on the fact that the plaintiff in that case
+continually argued that the ladder could have been purchased after June 2007—when
+the purchasing company acquired the assets of the manufacturing company in
+bankruptcy. Id. at *10. Based on the evidence, the court concluded that the apparent
+manufacturer doctrine applied because “the jury determined that by a preponderance
+of the evidence the [purchasing company] labeled the ladder as its own or held the
+ladder out as its ow n at the time [the plaintiff’s husband] bought the ladder. ” Id. at
+*20 (emphasis added) (internal quotations omitted).
+Here, all of Madden’s arguments for why the apparent manufacturer doctrine
+applies to the Lufkin defendants concern actions allegedly taken after executing the
+APA in 2023. Madden states in its amended complaint that it entered its agreement
+to lease the trucks in this case in 2021.117 Madden therefore does not allege that the
+Lufkin defendants held themselves out as manufacturers of the dump bodies at the
+time that the dump bodies were purchased. Accordingly, Madden’s claims against the
+Lufkin defendants for violations of the LPLA and for redhibition must be dismissed.
+IV. CONCLUSION
+ For the foregoing reasons,
+ IT IS ORDERED that the Hilbilt defendants’ motion for summary judgment
+is GRANTED IN PART AND DENIED IN PART. The motion is GRANTED to the
+extent that Madden’s claims for negligence sounding  in tort law are DISMISSED
+
+117 Id. ¶ 20.
+Case 2:24-cv-02233-LMA-JVM     Document 126     Filed 05/23/25     Page 36 of 37
+37
+
+WITH PREJUDICE against all defendants . The motion is DENIED in all other
+respects.
+ IT IS FURTHER ORDERED  that the Lufkin defendants’ motion for
+summary judgment is GRANTED IN PART AND DENIED IN PART. The motion
+is GRANTED to the extent that Madden’s claims against the Lufkin defendants for
+negligence sounding in tort, violations of the LPLA, and redhibition are DISMISSED
+WITH PREJUDICE. The motion is DENIED with respect to Madden’s claims based
+in warranty and breach of contract.
+ New Orleans, Louisiana, May 23, 2025.
+
+_______________________________________
+         LANCE M. AFRICK
+                     UNITED STATES DISTRICT JUDGE
+
+Case 2:24-cv-02233-LMA-JVM     Document 126     Filed 05/23/25     Page 37 of 37

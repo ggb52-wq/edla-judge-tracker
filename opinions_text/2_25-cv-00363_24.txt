@@ -1,0 +1,1308 @@
+1
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+N
+EW ORLEANS NAVY
+HOUSING, LLC, ET AL. CIVIL ACTION
+VER
+SUS No. 25-363
+UNI
+TED STATES
+DEPARTMENT OF NAVY SECTION I
+ORDER AND REASONS
+T his case arises out of a Freedom of Information Act, 5 U.S.C. § 552, et seq .
+(“FOIA”) request made by plaintiffs New Orleans Navy Housing, LLC (“NONH”) and
+Louisiana Navy Family Housing, LLC (“LNFH”) (collectively, “plaintiffs”).1 Plaintiffs
+challenge defendant United States Department of Navy ’s (the “Navy” or “DON”)
+withholding of certain records responsive to their FOIA request.2
+Before the Court is the Navy’s motion3 for summary judgment, which asks the
+Court to determine as a matter of law that the documents withheld are protected
+from disclosure pursuant to certain exemptions to FOIA, see 5 U.S.C. § 552(b).
+Plaintiffs filed a response4 in opposition. The Navy filed a reply.5
+1 See generally R. Doc. No. 1.
+2 See id.
+3 R. Doc. No. 20.
+4 R. Doc. No. 21.
+5 R. Doc. No. 23.
+Case 2:25-cv-00363-LMA-DPC     Document 24     Filed 09/08/25     Page 1 of 46
+2
+
+I. BACKGROUND
+a. Military Housing Privatization Initiative
+To understand plaintiffs’ FOIA request, it is necessary  to understand the
+parties’ relationship and responsibilities to one another.  I n 2001, the Navy and
+LNFH formed  a limited liability company , plaintiff NONH , as a public -private
+venture (“PPV”) pursuant to the Military Housing Privatization Initiative (“MHPI”).6
+The purpose of NONH was “ to design, finance, construct, renovate, own , manage,
+acquire, lease, operate and maintain ” a Navy housing project  (the “project”).7 The
+respective roles and responsibilities of LNFH, as managing member, and the Navy,
+as non -managing member , are memorialized in the Real Estate Ground/Facilities
+Lease and the Operating Agreement  (“OA”) that formed NONH.8 In general, LNFH
+is tasked with operations and management of the project while  the Navy maintains
+the “right to provide oversight on recapitalization plans, financial operations, and
+Project performance.”9
+
+6 See R. Doc. No. 20 -3, at 1; R. Doc. No. 21 -1, at 6.  Congress enacted the MHPI  to
+address military family housing inadequacies by providing the military branches
+with “alternative authorities” to engage private sector financing, expertise and
+innovation. See generally 10 U.S.C. § 2871– 2885; see also Military Housing
+Privatization Initiative: A Guidance Document for Wading Through the Legal Morass,
+53 A.F. L. Rev. 1, 9 (2002) (“These [MHPI granted] authorities provide flexibility in
+structuring agreements with private developers to provide acceptable housing for
+service members.”).
+7 R. Doc. No. 23-3, at 13.
+8 R. Doc. No. 20 -3, at 3; R. Doc. No. 21 -1, at 10. The Court notes that the record
+includes a copy of the operative operating agreement, see R. Doc. No. 21-3 (Amended
+and Restated Operating Agreement), but not the Real Estate Ground/Facilities
+Lease. References made to the “operating agreement” refer to the operative version
+of the operating agreement, R. Doc. No. 21-3.
+9 R. Doc. No. 21-1, at ¶ 34.
+Case 2:25-cv-00363-LMA-DPC     Document 24     Filed 09/08/25     Page 2 of 46
+3
+
+Pursuant to the  OA, the Navy maintains  approval rights over fund
+disbursements made to LNFH from the project’s Project Recapitalization Fund
+(“PRF”) and Member Operating Reserve Account (“MORA”).10 The OA also requires
+that LNFH receive written consent from the Navy before paying the project manager,
+Patrician Management, LLC,11 its annual Property Management Incentive Fee.12 In
+addition, the OA gives the Navy the right to inspect the books and records of NONH,
+which were maintained at LNFH’s principal office, at any reasonable time.13
+Along with the OA , the Navy’s role in the project is  periodically shaped by
+Congress. F or example, Congress has repeatedly passed legislation that requires
+increased military branch oversight of MHPI projects.14 See also ANDREW TILGHMAN,
+
+10 R. Doc. No. 21-3, at 25.
+11 R. Doc. No. 21-2, at 1.
+12 See R. Doc. No. 21-3, at 26 (“The Company shall pay to the Manager, on an annual
+basis, an incentive fee (the ‘Property Management Incentive Fee’) . . . .”); see also id.
+at 23 (“[LNFH] shall obtain the written Consent of the [Navy] concerning any of the
+following [NONH] matters: . . . Determining the annual incentive fee payment that
+Manager is eligible to  receive . . . . The Incentive Fee request and supporting
+documentation/data to substantiate the Incentive Fee Criteria is due to the Member
+on or before 10 January. As long as the Incentive Fee request is received no later than
+20 January and there is no ongoing discussion/dispute, the Incentive Fee  will be
+considered approved, subject to adjustment based on Annual Audit, once the Annual
+Audit from the Company is received by Member, if the Member has failed to approve
+the Incentive Fee by that time.”).
+13 See id. at 32; see also R. Doc. No. 21-1, at ¶ 22.
+14 James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Pub. L.
+No. 117- 263, §§ 2821 –2825, 136 Stat. 2395, 2999 –3001 (2022);  National Defense
+Authorization Act for Fiscal Year 2020, Pub. L. No. 116- 92, §3016, 133 Stat. 1198,
+1927–28 (2019);  John S. McCain National Defense Authorization Act for Fiscal Year
+2019, Pub. L. No. 115 -232, § 606, 132 Stat. 1636, 1795- 96 (2018); see also 10 U.S.C.
+§ 2884(c) (requiring the Secretary of Defense to report semiannually information
+about financial health and performance of the project and the backlog of maintenance
+and repair).
+Case 2:25-cv-00363-LMA-DPC     Document 24     Filed 09/08/25     Page 3 of 46
+4
+
+CONG. RSCH. SERV., R48137, PRIVATIZED MILITARY HOUSING: COSTS AND BUDGETARY
+ISSUES FOR CONGRESS 3 (2024) (“The military departments (i.e., the Departments of
+the Army, Navy, and Air Force) have responsibility to administer privatized housing
+projects, including conducting financial management and monitoring their portfolio
+of projects.” (citing 10 U.S.C. §  2851a)). As is relevant to one portion of plaintiffs’
+FOIA request, Congress has authorized additional annual payments to be made to
+MHPI projects to offset revenue diminished by reductions to the Basic Allowance for
+Housing for servicemembers. 15 See, e.g., National Defense Authorization Act, 2018,
+PL 115 -91, December 12, 2017, 131 Stat 1283. The parties d o not dispute that
+Congress plays a role in sculpting the Navy’s obligations to the project.16
+The Navy’s oversight responsibilities are carried out by the Naval Facilities
+Engineering Systems Command  (“NAVFAC”) Business Agreement Manager
+(“BAM”).17 At all relevant times, Tom McKelvey was the BAM providing oversight to
+the NONH project.18
+
+15  For background see Appendix A to ANDREW TILGHMAN, CONG. RSCH. SERV., R47728,
+MILITARY HOUSING 25 (2023).
+16 See R. Doc. No. 21-1, at ¶¶ 37–42.
+17 R. Doc. No. 20-3, at 2 (“NAVFAC is responsible for the execution and oversight of
+the housing partnerships (LLCs), ensuring that private partners meet performance
+standards.”); id. at 3 (“DON’s oversight responsibilities are carried out by NAVFAC’s
+Business Agreement Manager (BAM) and his staff of project managers, and financial
+analysts responsible for reviewing major account expenditures, annual budgets, fee
+proposals and monitoring the performance and fiscal health of the Project LLC.”).
+18 R. Doc. No. 21-1, at ¶ 36.
+Case 2:25-cv-00363-LMA-DPC     Document 24     Filed 09/08/25     Page 4 of 46
+5
+
+From time to time, the Navy will hire consultants to assist and advise it with
+respect to the Navy’s oversight of the project. 19 These consultants typically supply
+subject matter expertise, input, and recommendations, but, the parties agree that the
+Navy “retains full discretion over whether and how to use the consultant’s input. ”20
+The Concourse Group (“TCG”) was the Navy’s consultant on MHPI -related matters,
+including all matters concerning NONH with respect to plaintiffs’ FOIA request.21
+b. Plaintiffs’ FOIA Request and Administrative Procedural
+History
+In 2020 and 2021, the housing project suffered hurricane damage. 22 To cover
+needed repairs, the Navy authorized LNFH to withdraw $3,253,243 million from the
+PRF in 2021. 23  The Navy characterizes this disbursement as a loan, 24 but LNFH
+“disputes that any such repayment agreement existed.”25
+Shortly after, faced with additional hurricane -related repairs and increased
+insurance premiums, LNFH sought the Navy’s approval for an additional $4 million
+disbursement, this time to be drawn from  the MORA. 26 The Navy denied the
+
+19 Id. at ¶¶ 22, 44; see also R. Doc. No. 20-3, at 4–5 (“For each project, [the consultants]
+participate in the following: (1) assist in project development and financial proposal
+analysis; (2) budget and audit reviews; (3) reviews of project cash flow distribution,
+financial and bank statements; (3) data analysis; (4) streamlining and reporting; (4)
+communication support with private partners; (5) help develop standardized housing
+business processes; (6) provide support with data system and calibration; and (7) in
+drafting white papers/studies needed pursuant to the needs of each project.”).
+20 R. Doc. No. 21-1, at ¶ 50.
+21 Id. at ¶¶ 51–52.
+22 See R. Doc. No. 20-3, at 5; see also id. at 13.
+23 R. Doc. No. 20-3, at 9.
+24 See, e.g., id. at 17.
+25 R. Doc. No. 21, at 5.
+26 See R. Doc. No. 20-3, at 5, 7; see also R. Doc. No. 21, at 5.
+Case 2:25-cv-00363-LMA-DPC     Document 24     Filed 09/08/25     Page 5 of 46
+6
+
+request,27 and, in response, plaintiffs filed their FOIA request on September 7, 2023
+with NAVFAC.28 Plaintiffs requested the following nine categories of records  (the
+“FOIA request”):
+1. All documents generated since February 1, 2023 between or among
+Navy personnel and the Concourse Group that relate to discussions or
+negotiations between and among NONH, LNFH, Patrician and the Navy
+with respect to the cost of or funding for insurance premiums for the
+Project.
+
+2. All documents generated since February 1, 2023 that discuss the
+development of the Navy letter dated May 30, 2023 and the
+transmission of that letter to LNFH dated May 30, 2023 which the Navy
+labelled as a “Letter of Dissatisfaction”.
+
+3. All documents generated since February 1, 2023 that discuss the
+reasons for Navy’s decision to travel to Louisiana to review books and
+records of NONH in July and August 2023.
+
+4. All documents generated since February 1, 2023 to or from Concourse
+Group that discuss or relate to the Navy’s review of books and records
+of NONH in July and August 2023.
+
+5. All documents that discuss or relate to the results or findings of the
+Navy review books and records of NONH in in July and August 2023.
+
+6. All documents generated by the Concourse Group since February 1,
+2023 that suggest, recommend, reference in any manner or comment on
+
+27 See R. Doc. No. 20 -3, at 12–13. According to a letter sent by NAVFAC BAM Tom
+McKelvey, it is the Navy’s position that, pursuant to the OA, “payment of insurance
+premiums are the responsibility of” LNFH. See id. at 13. The Navy also states in that
+letter that “[o]ne of the primary reasons for [denying the MORA disbursement] is that
+[LNFH] never executed the legal documents needed to provide for the repayment of
+PRF disbursements made in 2021 in the amount of $3,253,243.00.” Id. The letter also
+states: “In light of the aforementioned unexecuted PRF repayment agreement, the
+propensity for severe storms in the Project’s geographical area, and the relatively low
+balance of the funds available in the PRF and MORA, the DON is concerned with the
+short and long-term sustainment and recapitalization of the Project and thus, has
+taken a conservative approach intended to preserve PRF and MORA funds for future
+Project needs.” Id.
+28 R. Doc. No. 20-2, at 1.
+Case 2:25-cv-00363-LMA-DPC     Document 24     Filed 09/08/25     Page 6 of 46
+7
+
+whether or not or under what terms to release funds from the Project
+Member Operating Reserve Account (“MORA”) to cover insurance
+premium costs.
+
+7. All documents that discuss the subsidy implemented through the
+National Defense Authorization Act (“NDAA”) for 2018, pursuant to
+which the Navy provided certain funds to purportedly counteract the
+reductions to the Basic Allowance for Housing that were implemented
+through the NDAA for 2015, and specifically, all documents that discuss
+and determine that the subsidy, in whole or part, shall be deposited into
+the Project’s MORA.
+
+8. All documents that discuss the 2021 Property Management Incentive
+Fee request submitted by NONH on or about February 10, 2023,
+including but not limited to documents used by the Navy in the
+evaluation of that request and documents between the Concourse Group
+and the Navy that refer to or relate in any way to that request or the
+evaluation of that request.
+
+9. All documents that discuss or refer to the release in 2021 of
+approximately $3,253,243 of funds from the Project Recapitalization
+Fund (“PRF”) to NONH, including but not limited to any documents that
+relate or refer to any written terms that govern how those
+disbursements were to be handled or any future replenishment or
+repayment of any portion or all of those disbursements, which the Navy
+has claimed were “loans” and required a “loan repayment agreement”
+within 90 days”.29
+
+The request was forwarded to NAVFAC Southeast (“NAVFAC  SE”).30 The Navy’s
+FOIA Coordinator, Atina Hall, then evaluated the request to determine “which offices
+or records systems within the [Navy] may be reasonably expected to contain the
+records requested.” 31 Having determined that the PPV Department was the
+
+29 Id. at 9–10. For ease of reference, hereinafter each request will be referred to by
+number. For example, the first category of documents requested in plaintiffs’ FOIA
+request will be referred to as “FOIA Request 1.”
+30 Id. at 1.
+31 Id. at 3.
+Case 2:25-cv-00363-LMA-DPC     Document 24     Filed 09/08/25     Page 7 of 46
+8
+
+custodian of the responsive records, Hall forwarded the request to NAVFAC BAM
+and PPV Department Director Tom McKelvey.32
+McKelvey conducted a search and provided 188 documents to Hall for review.33
+Hall and NAVFAC SE counsel met to determine “ which documents were responsive
+to specific items in the request and which  documents or portions thereof were to be
+protected from release under the FO IA exemptions.”34 On April 10, 2024, NAVFAC
+SE issued its response to plaintiffs’ FOIA request.35 With its response, it released 93
+documents in full.36 It also withheld 12 documents in part and 83 documents in full,
+citing multiple FOIA exemptions to justify its withholdings.37
+On April 18, 2024, plaintiffs filed an administrative appeal to the Office of the
+General Counsel of the Department of the Navy (“OGC”).38 Without deciding whether
+the documents were properly withheld pursuant to the Navy’s cited FOIA
+exemptions, the Deputy General Counsel of the Department of the Navy (“DGC”)
+remanded the appeal to  the Navy with direction to reconsider plaintiffs’  FOIA
+request.39 On June 12, 2024, the Navy issued a revised response that further
+explained its  reasons for withholding the records  and identified which FOIA
+
+32 Id.
+33 R. Doc. No. 20-2, at 1, 3–4.
+34 Id.
+35 See id. at 11–13.
+36 Id. at 4, 44.
+37 See id. at 4, 12.
+38 See id. at 15.
+39 See R. Doc. No. 20-2, at 41.
+Case 2:25-cv-00363-LMA-DPC     Document 24     Filed 09/08/25     Page 8 of 46
+9
+
+exemption it was invoking with respect  to each  withheld record.40 No additional
+documents were released.41
+Plaintiffs again appealed to the OGC. 42 The Navy included a more detailed
+index of the withheld records  in its response to plaintiffs’ second appeal, which
+detailed which of plaintiffs’ nine categories of requests each document related to, the
+FOIA exemptions invoked with respect  to each document, and a brief description of
+the document.43 After considering plaintiffs’ second appeal and the Navy’s additional
+responses, the DGC issued a final determination denying plaintiffs’ appeal and
+upholding the Navy’s decision to withhold the documents based on FOIA Exemptions
+4, 5, and 6.44
+Plaintiffs filed the present suit in this Court on February 21, 2025, seeking
+immediate release of the withheld records. 45 Shortly thereafter, the Navy filed the
+motion46 for summary judgment now before the Court, asking this Court to determine
+as a matter of law that the documents were properly withheld pursuant to  FOIA
+Exemptions 4, 5, and 6. Plaintiffs filed a response 47 in opposition, arguing that the
+records the Navy has withheld fall outside of the exemptions it has invoked and,
+further, that the Navy has not met its burden of establishing FOIA’s additional
+
+40 See id. at 43–50.
+41 See id. at 44.
+42 See id. at 51.
+43 See id. at 106–25.
+44 See R. Doc. No. 20-2, at 131–37.
+45 See generally R. Doc. No. 1.
+46 See generally R. Doc. No. 20.
+47 R. Doc. No. 21.
+Case 2:25-cv-00363-LMA-DPC     Document 24     Filed 09/08/25     Page 9 of 46
+10
+
+“foreseeable harm” standard.48 The Navy filed a reply,49 maintaining that it has met
+its burden as to both the applicability of the FOIA exemptions and FOIA’s foreseeable
+harm requirement and, therefore, that it is entitled to judgment as a matter of law.
+II. LEGAL STANDARDS
+a. FOIA
+“The FOIA was enacted to ‘pierce the veil of administrative secrecy and to open
+agency action to the light of public scrutiny.’” Batton v. Evers, 598 F.3d 169, 175 (5th
+Cir. 2010). Upon request, “FOIA mandates the disclosure of documents held by a
+federal agency unless the documents fall within one of nine enumerated exemptions.”
+United States Fish & Wildlife Serv. v. Sierra Club, Inc. , 592 U.S. 261, 267 (2021)
+(citing 5 U.S.C. § 552(b)); see also Texas Pub. Pol’y Found. v. Dep’t of State, 136 F.4th
+554, 559 (5th Cir. 2025). Relevant to the parties’ dispute, FOIA exempts the following
+records from disclosure:
+(4) trade secrets and commercial or financial information obtained from a
+person and privileged or confidential;
+
+(5) inter-agency or intra -agency memorandums or letters that would not be
+available by law to a party other than an agency in litigation with the
+agency, provided that the deliberative process privilege shall not apply to
+records created 25 years or more before the date on which the records were
+requested;
+
+(6) personnel and medical files and similar files the disclosure of which would
+constitute a clearly unwarranted invasion of personal privacy;
+
+5 U.S.C. § 552 (b)(4)–(6).
+
+48 See id. at 8–10.
+49 R. Doc. No. 23.
+Case 2:25-cv-00363-LMA-DPC     Document 24     Filed 09/08/25     Page 10 of 46
+11
+
+Because the purpose of FOIA is disclosure, not secrecy, the exemptions are
+narrowly construed. Dep’t of Interior v. Klamath Water Users Protective Ass’ n, 532
+U.S. 1, 8  (2001); Batton, 598 F.3d at 175. Still, “FOIA expressly recognizes that
+important interests are served by its exemptions, and those exemptions are as much
+a part of FOIA’s purposes and policies as the statute's disclosure requirement.” Jobe
+v. Nat’l Transportation Safety Bd., 1 F.4th 396, 402 (5th Cir. 2021).
+ In addition to establishing that an exemption applies, an agency may withhold
+records from disclosure only if “the agency reasonably foresees that disclosure would
+harm an interest protected by an exemption.” 5 U.S.C. § 552(a)(8)(A)(i)(I); see Ctr. for
+Investigative Reporting v. U.S. Customs & Border Prot ., 436 F. Supp. 3d 90, 104
+(D.D.C. 2019)  (summarizing the history of the “foreseeable harm standard”) ; Juul
+Labs, Inc. v. Food & Drug Admin., 731 F. Supp. 3d 46, 70 (D.D.C. 2024) (“Establishing
+that the deliberative process privilege applies does not end the inquiry. To withhold
+records pursuant to Exemption 5, an agency must also demonstrate that it
+‘reasonably foresees that disclosure would harm an interest protected by [the]
+exemption’ to justify nondisclosure under the FOIA. ” (quoting 5 U.S.C.
+§ 552(a)(8)(A)(i)(I))). This means t hat FOIA requires that an agency  “release a
+record—even if it falls within a FOIA exemption —if releasing the record would not
+reasonably harm an exemption -protected interest.” Ctr. for Investigative Reporting ,
+436 F. Supp. 3d at 106.
+FOIA also requires a government  agency to release “[a]ny reasonably
+segregable portion of a record . . . after deletion of the portions which are exempt .”
+Case 2:25-cv-00363-LMA-DPC     Document 24     Filed 09/08/25     Page 11 of 46
+12
+
+5 U.S.C. § 552(b). “Accordingly, once an agency identifies a document that it believes
+qualifies for a FOIA exemption, it must undertake a segregability analysis, in which
+it separates the exempt from the non-exempt portions of the document, and produces
+the relevant non -exempt information.” Gahagan v. United States Citizenship &
+Immigr. Servs. , 147 F. Supp. 3d 613, 630 (E.D. La. 2015) (Vance, J.) (citation
+modified).
+Should a requester believe that the agency improperly withheld records, the
+requester may seek relief in federal district court “to enjoin the agency from
+withholding [the] records” and may ask the court “to order the production of any
+agency records improperly withheld.” 5 U.S.C. § 552 (a)(4)(B).
+b. Summary Judgment
+Summary judgment “is appropriate only if there is no genuine issue of material
+fact and the moving party is entitled to judgment as a matter of law.” Batton , 598
+F.3d at 175 (quoting Fed. R. Civ. P. 56(c)). However, t hat standard is “modified” in
+the FOIA context, because “the threshold question in any FOIA suit is whether the
+requester can even see the documents the character of which determines whether
+they can be released.” Id.
+The FOIA statute provides that “when the Government withholds information
+from disclosure, the agency has the burden to prove de novo that the information is
+exempt from disclosure.” Id. (citing 5 U.S.C. § 552 (a)(4)(B)); see also Berk v. Exec. Off.
+of United States Att ’ys, No. 21 -10693, 2022 WL 17337821, at *1 (5th Cir. Nov. 30,
+2022) (“In a FOIA case, the agency has the burden of justifying nondisclosure. ”).
+Case 2:25-cv-00363-LMA-DPC     Document 24     Filed 09/08/25     Page 12 of 46
+13
+
+Accordingly, “because the burden to establish an exemption remains with the agency,
+the district court should not grant summary judgment based on a ‘conclusory and
+generalized’ assertion, even if the FOIA requester has not controverted that
+assertion.” Batton, 598 F.3d at 175; see also Texas Pub. Pol’y Found., 136 F.4th at 559
+(“The agency relying on the exemption to prevent disclosure of information bears the
+burden of establishing that application of the exemption is appropriate.”).
+The government may satisfy its summary judgment burden of proof in a FOIA
+case “through the submission of affidavits that identify the documents at issue and
+explain why they fall under the claimed exemption.” Atchafalaya Basinkeeper, Inc. v.
+U.S. Army Corps of Eng ’rs, No. 21 -317, 2022 WL 219050, at *3 (E.D. La. Jan. 25,
+2022) (Zainey, J.) ; Batton, 598 F.3d at 175.  These affidavits are entitled to a
+“‘presumption of legitimacy ’ unless there is evidence of bad faith in handling the
+FOIA request.” Batton, 598 F.3d at 176. Even so, that presumption “does not relieve
+the withholding agency of its burden of proving that the factual information sought
+falls within the statutory exemption asserted.” Id.
+A “ Vaughn index” is a “routine device through which the defendant agency
+describes the responsive documents withheld or redacted and indicates why the
+exemptions claimed apply to the withheld material.” Id. at 174; see generally Vaughn
+v. Rosen, 484 F.2d 820 (D.C. Cir. 1973).  “An adequate Vaughn index must provide a
+‘detailed justification’ for each of the agency ’s claimed exemptions to disclosure. ”
+Gahagan, 147 F. Supp. 3d at 627 (citing Stephenson v. I.R.S. , 629 F.2d 1140, 1145
+(5th Cir. 1980)). Sufficiently detailed affidavits, declarations, or Vaughn indices can
+Case 2:25-cv-00363-LMA-DPC     Document 24     Filed 09/08/25     Page 13 of 46
+14
+
+sustain the government’s summary judgment burden in the context of FOIA. See Am.
+Immigr. Council v. U.S. Dep ’t of Homeland Sec., 905 F. Supp. 2d 206, 212 (D.D.C.
+2012) ( “In a FOIA case, the Court may grant summary judgment based solely  on
+information provided in an agency’s affidavits or declarations when they ‘describe the
+justifications for nondisclosure with reasonably specific detail, demonstrate that the
+information withheld logically falls within the claimed exemption, and are not
+controverted by either contrary evidence in the record nor by evidence of agency bad
+faith.’”) (emphasis added); Watkins L. & Advoc., PLLC v. United States Dep’t of Just.,
+78 F.4th 436, 451 (D.C. Cir. 2023) (“An agency can carry [its] burden by submitting a
+Vaughn index that adequately explains the decision to withhold certain documents.”).
+The Court may also, in its discretion, review the withheld documents in
+camera. Batton, 598 F.3d at 175; see also Rollins v. U.S. Dep’t of Just., 8 F.3d 21 (5th
+Cir. 1993) (“The district court may conduct an in camera review of the challenged
+documents but is not required to do so.”). As the Fifth Circuit has noted, “[m]ost FOIA
+cases are resolved at summary judgment.” Rutila v. United States Dep’ t of
+Transportation, 72 F.4th 692, 694 (5th Cir. 2023).
+III. ANALYSIS
+Although the Navy invoke d FOIA exemptions 4, 5, and 6 in its responses to
+plaintiffs’ administrative appeals and in the Vaughn index50 produced for this case,
+
+50 See R. Doc. No. 20 -2, at 138– 170 (Exhibit 10 to the Declaration of Atina Hall)
+(hereinafter, the “Vaughn index”).
+Case 2:25-cv-00363-LMA-DPC     Document 24     Filed 09/08/25     Page 14 of 46
+15
+
+it focuses almost exclusively  on Exemption 5 in its briefing before this Court. 51 In
+fact, the Navy makes clear that its argument is primarily that Exemption 5 protects
+all of the withheld documents from FOIA disclosure. 52 The Navy seems to urge the
+Court to decide the issue on Exemption 5 alone. 53 For this reason, and because the
+Navy need only meet its burden as to one FOIA exemption, the Court ’s analysis
+begins with Exemption 5.
+a. Exemption 5
+Recall that FOIA Exemption 5 protects from disclosure “inter-agency or intra-
+agency memorandums or letters that would not be available by law to a party other
+than an agency in litigation with an agency.” Jobe, 1 F.4th at 403. This exemption
+“embodies two conditions .” Id. (citing Klamath, 532 U.S. at 8 ). First, the
+communication must be “inter -agency or intra -agency.” Klamath, 532 U.S. at 9.
+Second, “it must fall within the ambit of a privilege against discovery under judicial
+standards that would govern litigation against the agency that holds it.” Id.
+With respect to the first condition, covered documents “are not limited to those
+between or among an agency’s employees.” Id. at 404. The exemption also embraces
+“records of communications between an agency and outside consultants  . . . if they
+
+51 See R. Doc. No. 20 -1, at 11– 17; see generally R. Doc. No. 23 (discussing only
+Exemption 5).
+52 R. Doc. No. 20-1, at 17 (“[A]ll redactions by the Navy, whether in whole or in part,
+were rooted exclusively in FOIA Exemption 5. Still, FOIA Exemptions 4 and 6 could
+also apply to some of the withheld material. These secondary exemptions were made
+to preserve the exemptions.” (emphasis in original)).
+53 See id. (“[T]he Court must deny Exemption 5 withholdings prior to the analysis of
+either FOIA Exemption 4 or 6. In other words, if the Court agrees the Navy properly
+withheld material under FOIA Exemption 5, that is the end of the analysis.”).
+Case 2:25-cv-00363-LMA-DPC     Document 24     Filed 09/08/25     Page 15 of 46
+16
+
+have been created for the purpose of aiding the agency’s deliberative process.” Id. The
+so-called “consultant corollary” protects deliberative communications “ with some
+non-agency experts whose input the agency has solicited .” Id. at 399. While the
+consultant corollary does not extend to every actor supplying information to an
+agency for the purposes of aiding its decision, 54 the parties do not meaningfully
+dispute that the consultant corollary extends to TCG.55 The Court likewise finds that
+TCG is a consultant for purposes of satisfying this first condition, and therefore, finds
+that the consultant corollary applies to the withheld documents and communications
+by TCG.56 But the inquiry does not end there; the Navy must still satisfy Exemption
+5’s second condition. Jobe, 1 F.4th at 408 (“Of course, determining whether documents
+are intra-agency is only the first step in applying Exemption 5.”).
+As to this second condition, Exemption 5 “incorporates the privileges available
+to Government agencies in civil litigation, such as the deliberative process privilege,
+attorney-client privilege, and attorney work-product privilege.” Sierra Club, 592 U.S.
+
+54 See generally Dep’t of Interior v. Klamath Water Users Protective Ass’n, 532 U.S. 1,
+(2001); see also Jobe, 1 F.4th at 407 (noting that “self -interest of some kind may
+prevent outside experts from being deemed consultants”); see also Jobe , 1 F.4th  at
+406 (suggesting that a decreased “degree of agency control over [the] non -agency
+part[y]” may weigh against a finding that the non- agency party was acting as a
+consultant).
+55 For instance, the parties do not dispute that “[t]he Navy’s consultants on MHPI act
+in a capacity functionally equivalent to that of an agency employee, with no
+independent interest in the outcome of the deliberation and the consultant’s role is
+solely advisory.” R. Doc. No. 21-1, at 14. They also agree that the “Navy’s consultants
+on MHPI operate under the direction and control of agency staff.” Id. at 15. Plaintiffs
+further concede that the Fifth Circuit has adopted the consultant corollary, although
+they preserve their right of appellate review on the issue. See R. Doc. No. 21, at 11.
+56 See, e.g., R. Doc. No. 20-2, at 138 (Docs. 1 & 2).
+Case 2:25-cv-00363-LMA-DPC     Document 24     Filed 09/08/25     Page 16 of 46
+17
+
+at 263. The Supreme Court of the United States has construed this exemption to
+include “those documents, and only those documents, normally privileged in the civil
+discovery context.” N. L. R. B. v. Sears, Roebuck & Co. , 421 U.S. 132, 149 (1975) .
+Consequently, the ability in the civil discovery context for a “ private litigant to
+override a privilege claim set up by the Government ” by a showing of their “need in
+the context of . . . [their] particular case; or on the nature of the case” is irrelevant for
+purposes of determining whether the document is exempt pursuant to Exemption 5.
+See id. at n. 16 (“ [I]t is not sensible to construe the Act to require disclosure of any
+document which would be disclosed in the hypothetical litigation in which the private
+party’s claim is the most compelling. Indeed, the House Report says that Exemption
+5 was intended to permit disclosure of those intra -agency memoranda which would
+‘routinely be disclosed’ in private litigation, and we accept this as the law. ” (internal
+citations omitted)).
+The Navy invokes the deliberative process privilege for each document in its
+Vaughn index.57 The Navy additionally invokes the attorney -client privilege  and
+attorney work product privilege for a handful of documents,58 but, as plaintiffs point
+out, it makes no attempt to support its assertion of these additional privileges in its
+briefing.59 More importantly, the Navy’s description with respect to these documents
+is conclusory and cannot carry its summary judgment burden of demonstrating that
+
+57 See generally Vaughn index.
+58 See Vaughn index, Docs. 7, 13, 40–41, 76 and 1P.
+59 See generally R. Doc. Nos. 20, 23.
+Case 2:25-cv-00363-LMA-DPC     Document 24     Filed 09/08/25     Page 17 of 46
+18
+
+the attorney -client privilege or attorney work product privilege applies. 60
+Consequently, the Navy’s success in invoking Exemption 5 rises and falls with its
+ability to establish that the deliberative process privilege applies to each withheld
+document.
+i. Deliberative Process Privilege
+The deliberative process privilege protects from  disclosure “ documents
+reflecting advisory opinions, recommendations and deliberations comprising part of
+a process by which governmental decisions and policies are formulated.” Sierra Club,
+592 U.S. at 267. The purpose of the privilege is “[t]o protect agencies from being forced
+to operate in a fishbowl” when making decisions. Id. (internal quotations omitted).
+“The privilege is rooted in ‘the obvious realization that officials will not communicate
+candidly among themselves if each remark is a potential item of discovery and front
+page news.’” Id. (quoting Klamath, 532 U.S. at 8–9); see also Skelton v. U.S. Postal
+Serv., 678 F.2d 35, 38 (5th Cir. 1982) (“The purpose of the privilege is to protect the
+decision-making process from the inhibiting effect that disclosure of predecisional
+
+60 See, e.g. , Doc. 13 (“[N]otes, input and the opinion of Tom McKelvey of what
+transpired during a meeting with LNFH officers and their attorney . It also provides
+DON’s steps moving forward. . . . This document is also protected under Attorney -
+Client Privilege since Agency Counsel was requested to provide an assessment of
+potential risks due to potential lawsuit against the DON as Member of NONH LLC”)
+(emphasis added); see also Gahagan, 147 F. Supp. 3d at 629 (“In the context of a FOIA
+request, the agency is the ‘client’ and the agency’s lawyers are the ‘attorneys’ for the
+purposes of attorney-client privilege. To invoke the privilege, the agency ‘must show
+that the withheld document (1) involves confidential communications between an
+attorney and the agency and (2) relates to a legal matter for which the agency has
+sought professional advice.’” (citation modified)).
+
+Case 2:25-cv-00363-LMA-DPC     Document 24     Filed 09/08/25     Page 18 of 46
+19
+
+advisory opinions and recommendations might have on the frank discussion of legal
+or policy matters in writing.”  (internal quotations omitted) ). Consistent with its
+purpose, the privilege often covers documents that “reflect the personal opinions of
+the writer rather than the policy of the agency.” Batton, 598 F.3d at 183.
+The deliberative process privilege does not protect “ documents that embody a
+final decision, because once a decision has been made, the deliberations are done. ”
+Sierra Club , 592 U.S. at 268; see also id.  (“The privilege therefore distinguishes
+between predecisional, deliberative documents, which are exempt from disclosure,
+and documents reflecting a final agency decision and the reasons supporting it, which
+are not.”). Similarly, the privilege does not protect purely “factual material that does
+not reveal t he deliberative process.” Batton , 598 F.3d at 183 (internal alternations
+omitted); see Skelton, 678 F.2d at 39 (“While the deleted material contained some
+assertions of fact, the deleted material was an evaluation of the facts based on . . . the
+writer’s own values. And therefore was exempt from disclosure.” (citation modified));
+Jud. Watch, Inc. v. U.S. Postal Serv., 297 F. Supp. 2d 252, 262 (D.D.C. 2004) (holding
+that the privilege protects “ documents in which an agency has winnowed a mass of
+information into a small set of facts which, if revealed, would unveil the agency ’s
+reasoning by showing what it considered relevant (and irrelevant).”  (citation
+modified)).
+To be exempt from disclosure under the deliberative process privilege, the
+documents must be both “predecisional” and “deliberative.” Sierra Club , 592 U.S. at
+268; Gahagan, 147 F. Supp. 3d at 629. “Documents are ‘predecisional’ if they were
+Case 2:25-cv-00363-LMA-DPC     Document 24     Filed 09/08/25     Page 19 of 46
+20
+
+generated before the agency’s final decision on the matter, and they are ‘deliberative’
+if they were prepared to help the agency formulate its position.” Sierra Club, 592 U.S.
+at 268; see also Jobe , 1 F.4th at 408 (“ Predecisional documents include those
+‘generated before the adoption of an agency policy.’ Deliberative ones ‘reflect the give-
+and-take of the consultative process.’ ” (internal citations omitted) ) (quoting Jud.
+Watch, Inc. v. Food & Drug Admin., 449 F.3d 141 (D.C. Cir. 2006)).
+Because the deliberative process privilege’s “ultimate aim is to prevent injury
+to the quality of agency decisions,” t he key inquiry in determining whether to apply
+the exemption to a given record is “whether disclosure would tend to diminish candor
+within an agency.” Petroleum Info. Corp. v. U.S. Dep’ t of Interior , 976 F.2d 1429,
+1433–34, 1435 (D.C. Cir. 1992);  see also Gahagan , 147 F. Supp. 3d at 629–30 (“In
+other words, the document must be such that public disclosure ‘ would expose an
+agency’s decisionmaking process in such a way as to discourage candid discussion
+within the agency and thereby undermine the agency ’s ability to perform its
+functions.’”).
+ The parties disagree with respect to whether the documents withheld by the
+Navy fall within the scope of the privilege. Plaintiffs argue they do not, because the
+“decisions” being made by the Navy do not “bear on the formulation or exercise of
+agency policy-oriented judgment.”61 Rather, plaintiffs argue, the decisions merely
+relate to “matters of contract administration,” because all the withheld documents
+
+61 R. Doc. No. 21, at 12 (emphasis added) (quoting Petroleum Info. Corp., 976 F.2d at
+1435).
+Case 2:25-cv-00363-LMA-DPC     Document 24     Filed 09/08/25     Page 20 of 46
+21
+
+“relate to the Navy’s and Plaintiffs’ rights, duties, and conduct under the agreements
+governing” NONH.62 And, according to plaintiffs, matters of contract administration
+fall outside of the deliberative process privilege. 63 In support of this contention,
+plaintiffs cite to a number of instances that courts in the civil discovery context have
+“reject[ed] deliberative process privilege claims regarding materials prepared in the
+course of contract administration.” 64 Plaintiffs argue that these cases show that
+Exemption 5 does not apply to these types of documents, because they are “exactly
+the documents that routinely would ‘be available by law’ in contract litigation related
+to the Project.”65
+The Navy, on the other hand, seems to take a broader view with respect to the
+range of agency decisions that the deliberative process privilege protects. 66 At the
+very least, the Navy asserts that the documents at issue fall within the privilege
+because they “were part of the agency’s internal deliberative process, intended to
+assist decision-makers . . . in reaching” decisions related to:
+(1) the short and long -term sustainment and recapitalization of the
+Project; (2) LNFH’s refusal to replenish the Project’s Recapitalization
+Fund (PRF) in the amount of $3,253,243.00 after disbursements were
+made in 2021; (3) LNFH’s request for a Member Operating Reserve
+Account (MORA) disbursement in the amount of $4M to cover the tota l
+sum owed by LNFH for the Project’s 2023 insurance premiums; (4)
+LNFH’s request to prioritize the distribution of the Property Manager
+Incentive Fee and the Asset Manager Fee to the replenishment of the
+Project’s accounts; and (5) [] the Navy [] taking precautionary measures
+
+62 Id. at 16.
+63 Id. at 15.
+64 Id. at 14.
+65 Id. at 17.
+66 See R. Doc. No. 20-1, at 13 (“Exemption 5 applies so long as a document is generated
+as part of, and contributes to, a continuing process of agency decision making.”).
+Case 2:25-cv-00363-LMA-DPC     Document 24     Filed 09/08/25     Page 21 of 46
+22
+
+in its oversight role and a conservative approach on the Project’s
+financials to preserve PRF and MORA funds for future Project needs.67
+
+Furthermore, the Navy argues that plaintiffs’ reliance on civil contract dispute cases
+is “misplaced.”68 The Navy reminds plaintiffs that “[w]hile in civil discovery, qualified
+privileges may be overcome by a showing of relevance or need by an opposing party,
+in the FOIA context, courts do not take into account a party’s need for the documents
+in ruling on a privilege’s applicability.”69 Therefore, the Navy urges, “it is paramount
+to rely on prior FOIA cases” and not civil contract case law.70
+ As a threshold matter, the Court agrees that the civil contract cases cited by
+plaintiffs have limited influence on the FOIA issue before this Court. The fact that a
+document was discoverable in a prior litigation does not mean that all like documents
+“must be disclosed to anyone under the FOIA.” F.T.C. v. Grolier Inc., 462 U.S. 19, 28
+(1983) (holding that this argument was “rejected” because “[i] t is not difficult to
+imagine litigation in which one party ’s need for otherwise privileged documents
+would be sufficient to override the privilege but that does not remove the documents
+from the category of the normally privileged ”). However, the Court will consider
+plaintiffs’ cases to the extent that plaintiffs cite to them to demonstrate that decisions
+related to contract administration are not the type of deliberative processes covered
+by Exemption 5.
+
+67 Id. at 14.
+68 R. Doc. No. 23, at 4.
+69 Id.
+70 See id. at 7.
+Case 2:25-cv-00363-LMA-DPC     Document 24     Filed 09/08/25     Page 22 of 46
+23
+
+1. Which Deliberative Processes Does the Privilege
+Protect?
+ Plaintiffs’ argument rests on the idea that “[n]ot every decision made within
+an agency will entail the kind of ‘consultative process’ the deliberative process
+privilege is designed to protect.” Nat. Res. Def. Council v. United States Env ’t Prot.
+Agency, 19 F.4th 177, 184 (2d Cir. 2021). As the D.C. Circuit stated in Petroleum
+Information Corporation v. U.S. Department of Interior: “ [t]he deliberative process
+privilege . . . is centrally concerned with protecting the process by which policy  is
+formulated.” 976 F.2d 1429, 1435 (D.C. Cir. 1992) (emphasis added).
+In Petroleum Info. Corp. , the D.C. Circuit held that an unfinished draft of a
+public lands data bank was not protected by the deliberative process privilege ,
+because it did not “bear on the formulation or exercise of agency policy -oriented
+judgment.” See id. at 1435. Although the agency’s task “to organize public records in
+a more manageable form,  [the data bank,]  and to correct any errors it finds in the
+process” inevitably involved deliberation  in some capacity, the draft was not
+privileged because it lacked any “association with a significant policy decision.” Id. at
+1438 (“The objective, in sum, is not so much to select and edit as to reorganize and
+repackage a mass of dispersed public information. ”). In this way, the court was
+attempting to distinguish an agency’s “t echnical, record -keeping” tasks with its
+“exercises of discretion and judgment calls.” Id. at 1438–39; see also id. at 1436 (“The
+release of materials that do not embody agency judgments —for example, materials
+relating to standard or routine computations or measurements over which the agency
+Case 2:25-cv-00363-LMA-DPC     Document 24     Filed 09/08/25     Page 23 of 46
+24
+
+has no significant discretion —is unlikely to diminish officials’ candor or otherwise
+injure the quality of agency decisions.”).
+The Petroleum Info. Corp.  court found that delineat ing tasks along a
+policy-oriented line reflected the privilege’s purpose. See id. at 1435 (“Inquiring
+whether the requested materials can reasonably be said to embody an agency ’s
+policy-informed or -informing judgmental process therefore helps us answer the ‘key
+question’ in these cases: whether disclosure would tend to diminish candor within an
+agency.”); see also id. at 1436 n. 8 (“Even the most mundane material could be said to
+reflect the exercise of agency discretion in some sense, for example, by indicating the
+typeface an official favors. To be protected under Exemption 5, the kind and scope of
+discretion involved must be of such significance that disclosure genuinely could be
+thought likely to diminish the candor of agency deliberations in the future.” (internal
+citations omitted) ). This distinction  also helped determine  when a document
+containing the collection of factual material was covered by the privilege and when it
+fell outside the privilege. I d. at 1435 (“[D]ecisions, which caution against reflexive
+fact/opinion characterization as the way to decide the full range of Exemption 5 cases,
+sound a common theme: To fall within the deliberative process privilege, materials
+must bear on the formulation o r exercise of agency policy -oriented judgment.”
+(emphasis in original)).
+Courts adopting Petroleum Info. Corp. have taken this principle to mean that
+“the privilege does not protect a document which is merely peripheral to actual policy
+formation.” Moye, O’Brien, O’Rourke, Hogan, & Pickert v. Nat’l R.R. Passenger Corp.,
+Case 2:25-cv-00363-LMA-DPC     Document 24     Filed 09/08/25     Page 24 of 46
+25
+
+376 F.3d 1270, 1277–78 (11th Cir. 2004); Nat. Res. Def. Council, 19 F.4th at 191; see
+also Legal & Safety Emp. Rsch., Inc. v. U.S. Dep’t of the Army, No. S001748, 2001 WL
+34098652, at *6 (E.D. Cal. May 4, 2001) (“ However, even if these evaluations are
+characterized as predecisional, the decision they would precede is not a ‘ policy
+decision,’ as required by Exemption 5. Defendant does not cite, and the court cannot
+find any authority to support a finding that the decision to award a government
+procurement contract is the type of policy decision contemplated by Exemption 5.”);
+BuzzFeed, Inc. v. U.S. Dep’t of Just., 419 F. Supp. 3d 69, 77 (D.D.C. 2019) (“[I]t is not
+clear that the . . . [documents] had anything to do with the ‘ give-and-take of the
+consultative process’ that leads to policy.”).
+Plaintiffs essentially contend that matters of contract administration
+categorically fall outside of the deliberative process privilege because they typically
+address “mundane, technical, fact-intensive” decisions and are therefore not “policy-
+oriented judgments .”71 However, the Court does not agree that the civil decisions
+cited by plaintiffs stretch as far as plaintiffs claim; namely, that these decisions “doom
+the Navy’s deliberative process privilege claims” because “[t]he documents at issue
+all relate to the Navy’s and Plaintiffs’ rights, duties, and conduct under the
+
+71 R. Doc. No. 21, at 15 (“Consistent with the limitation of the deliberative process
+privilege to materials bearing on the formulation or exercise of agency policy-oriented
+judgment, government-contract tribunals regularly hold that documents related to
+matters of contract administration fall outside of the privilege because they do not
+involve protected advisory opinions or legal or policy recommendations’ and instead
+typically address ‘factual matters.” (citation modified)).
+Case 2:25-cv-00363-LMA-DPC     Document 24     Filed 09/08/25     Page 25 of 46
+26
+
+agreements governing the Project.”72 Plaintiffs seem to forget that it is “the character
+of [the documents] which determines whether they can be released.” Batton, 598 F.3d
+at 175.
+In all the cases cited by plaintiffs, the documents at issue were evaluative,
+investigative documents of the type that are generated in the ordinary course of
+government contracting business.  See 4k Glob.-Acc Joint Venture, LLC,  Appellant,
+22-1 B.C.A. (CCH) ¶ 38032 (Feb. 10, 2021); Walsky Const. Co. v. United States, 20 Cl.
+Ct. 317, 321 (1990) (document withheld was a factual “investigation ” that was
+“informational in nature” and merely “supplie[d] the raw data upon which decisions
+can be made”); Unisys Corp., GSBCA No. 12823 -COM, 95-2 B.C.A. (CCH) ¶ 27903
+(Aug. 10, 1995) (distinguishing evaluative reports) (“Evaluation reports that provide
+information or raw data are not themselves part of the decisional process. Thus,
+investigations conducted to evaluate agency performance are not necessarily
+privileged.”); Lapidus L. Firm, PLLC v. Washington Metro. Area Transit Auth. , No.
+CV 20-161 (JDB), 2021 WL 6845004, at *4 (D.D.C. Feb. 25, 2021) (holding that an
+evaluative cost estimate was likely not deliberative).
+These documents were often devoid of recommendations or proposed solutions
+for a specific decision or policy. See, e.g., Walsky Const. Co., 20 Cl. Ct. at 322 (“Thus,
+the Unit Effectiveness Investigation report does not contain the advice, opinions, and
+
+72 Id. at 16; see also id. at 17 (“The case law refusing to apply the deliberative process
+privilege to matters of routine contract administration should obviate any need for a
+detailed review of the Exemption 5 claims in the Navy’s Vaughn index and supporting
+declarations.”).
+Case 2:25-cv-00363-LMA-DPC     Document 24     Filed 09/08/25     Page 26 of 46
+27
+
+recommendations typically protected by executive privilege.”); Unisys Corp., GSBCA
+No. 12823-COM, 95-2 B.C.A. (CCH) ¶ 27903 (Aug. 10, 1995) (“[T]h e notes describe
+past occurrences, chiefly factual matters, rather than policy recommendations for
+future conduct. While the notes may have been used as supporting information for
+the recommendations . . ., they are not themselves policy discussions or
+recommendations.”). And w hile the documents at issue  sometimes contained  an
+individual’s opinions in the literal sense, they were opinions given to the contracting
+officer as they were performing the evaluative, information-gathering task. See, e.g.,
+In Re Brero Const., Inc., LBCA No. 1997-BCA-4, 1999 WL 624138 (June 18, 1999) (“A
+general assertion that the disclosure would cause a chilling effect upon the process
+whereby subordinates disclose facts and make recommendations to the CO in the
+ordinary course of contract administration is hardly persuasive. In this case, the
+subordinate involved may be largely responsible for, and may be principal witnesses
+to, the day -to-day implementation of the contract, and they may have interacted
+personally, not only with the CO, but with the contractor.”).
+Consequently, the Court finds that plaintiffs’ argument goes too far. The Court
+will not categorically exclude all the documents the Navy withheld from deliberative
+process privilege protection merely because the Navy’s decisions were made in the
+context of a contractual relationship with LNFH. Rather, these cases are consis tent
+with Petroleum Info. Corp.  in that they stand for the idea that the privilege treats
+differently those documents reflecting an agency’s “technical, record- keeping” tasks
+Case 2:25-cv-00363-LMA-DPC     Document 24     Filed 09/08/25     Page 27 of 46
+28
+
+and those embodying “exercises of discretion and judgment calls .” Petroleum Info.
+Corp., 976 F.2d at 1438.
+Moreover, the decisions that these documents pertain to are ones in which the
+Navy exercise s considerable discretion ,73 and that arise in part  from Congress’
+mandate that the Navy oversee the financial health of its MHPI projects. See, e.g., 10
+U.S.C. § 2885 (discussing the military branches’ “oversight and accountability”
+responsibilities, including responsibilities related to “financial health” of the project);
+§ 2884(c) (requiring the Secretary of Defense to report semiannually information
+about the financial health of the project). Disclosure of
+ these records may well inhibit the candor in which Navy personnel discuss
+future decisions regarding NONH or any of its other MHPI projects. The deliberative
+processes at play in this case are not merely peripheral to policy such that they are
+categorically outside the scope of the privilege. 74 Cf. Am. Mgmt. Servs., LLC v. Dep’t
+
+73 See, e.g. , R. Doc. No. 21 -3, at 32 (“The books and records of [NONH] shall be
+maintained at the [LNFH’s] principal office and shall be open to inspection by the
+[Navy] at all reasonable times during any business day.”);  id. at 25 (“[LNFH] may
+withdraw funds on deposit in the PRF only upon the written approval of the [Navy]”);
+id. (“The Managing Member may withdraw funds on deposit in the MORA to pay to
+the Company up to $250 per unit for unpaid damages above normal change of
+occupancy costs in units formerly occupied by military tenants. Any other withdrawal
+of funds from the MORA may only occur upon the written approval and direction of
+the Member.”).
+74 The Court notes that the Fifth Circuit has neither adopted nor rejected the policy-
+oriented prerequisite articulated in Petroleum Info. Corp.  Nevertheless, the Court
+makes this finding regarding the Navy’s claims under the policy -oriented standard
+because the standard narrows the scope of the privilege rather than expands it.  See
+Batton, 598 F.3d at 175 (stating the exemptions should be construed narrowly).
+Review of Fifth Circuit cases applying the deliberative process privilege further
+supports the Court’s finding that the deliberative processes at issue fall within the
+privilege, because the deliberative processes at issue in those cases are far less policy-
+Case 2:25-cv-00363-LMA-DPC     Document 24     Filed 09/08/25     Page 28 of 46
+29
+
+of the Army, No. 11-442, 2012 WL 13194719, at *1 (E.D. Va. Jan. 30, 2012), aff’d, 703
+F.3d 724 (4th Cir. 2013) (finding the Army’s determinations regarding its property
+manager in the context of an MHPI housing project were policy oriented)  (“These
+communications are (i) deliberative, because they reveal Army personnel’s
+evaluations of proposed policies rather than final determinations, and (ii)
+predecisional, because they relate to policy decisions that Army personnel were
+contemplating, su ch as when and how to transfer prope rty management
+responsibilities away from Pinnacle, how to manage public reaction to Pinnacle ’s
+termination, and whether to continue to fund the litigation against Pinnacle in
+Georgia state court.”).
+Having rejected plaintiffs’ categorical argument that the deliberative process
+privilege does not apply to documents generated in the course of  the Navy’s NONH-
+related decisions, the Court must now assess the sufficiency of the Navy’s justification
+for applying the deliberative process privilege to each of the withheld documents. See
+Ctr. for Biological Diversity v. U.S. Env’t Prot. Agency, 369 F. Supp. 3d 1, 23 (D.D.C.
+2019).
+
+oriented than the decisions made by the Navy. See May v. Dep’t of Air Force, 777 F.2d
+1012, 1014 (5th Cir. 1985) (finding predecisional and deliberative documents that
+contained individual opinions and recommendations on whether to promote a
+lieutenant); Skelton, 678 F.2d at 38 (finding predecisional and deliberative an
+employee’s written “view” of the circumstances of a particular incident which led to
+the agency’s determination not to take disciplinary action against another employee);
+Batton, 598 F.3d at 183 (finding predecisional and deliberative IRS audit file deciding
+whether to pursue further action with respect to an individual taxpayer).
+Case 2:25-cv-00363-LMA-DPC     Document 24     Filed 09/08/25     Page 29 of 46
+30
+
+2. The Navy’s Vaughn Index
+Recall that the Navy bears the burden of establishing that the exemption
+applies, and that it can sustain that burden with sufficiently detailed affidavits or a
+Vaughn index. The affidavits and index must “contain enough information to permit
+the Court to determine whether [the] privilege applies.” Gahagan, 147 F. Supp. 3d at
+629; see also Watkins , 78 F.4th at 451 (stating that the supporting material must
+“demonstrate that the information withheld logically falls within the claimed
+exemption”). The evidence must “identify the documents at issue, including the
+relevant information contained in each document, and explain why the asserted
+exemptions justify withholding.” Batton , 598 F.3d at 176. In the context of the
+deliberative process privilege, the Navy must “establish what deliberative process is
+involved, and the role played by the documents in issue in the course of that process.”
+Gahagan, 147 F. Supp. 3d at 630 (citation modified). “Conclusory assertions that
+merely parrot the legal test do not suffice.” Id.
+ Plaintiffs argue that the Navy has failed to meet its burden.75 They assert four
+main arguments with respect to a subset of the documents listed in the Vaughn
+index:76 (1) the Navy takes a “conclusory approach to invoking the deliberative
+process privilege;” (2) the withheld documents reflecting the “notes” and “opinion” of
+Navy official Tom McKelvey describe only factual information and do not explain
+
+75 See R. Doc. No. 21, at 17–20.
+76 See id. at 20 ( “The above discussion of particular documents highlights repeated
+examples of numerous deficiencies in the Navy’s Vaughn  index; it does not attempt
+to catalog those deficiencies comprehensively.”).
+Case 2:25-cv-00363-LMA-DPC     Document 24     Filed 09/08/25     Page 30 of 46
+31
+
+what decision they might pertain to; (3) a number of the documents withheld address
+“technical, fact -intensive matters that generally fall outside of the deliberative
+process privilege;” and (4) a number of the documents reflect “mundane matters” such
+as “[r]esponding to a request for agency counsel’s contact information . . . that fall far
+outside of the deliberative process privilege’s scope. ”77 As to the remaining
+documents, plaintiffs argue that they “nonetheless fall outside of the  deliberative
+process privilege (or, alternatively, do not satisfy § 552(a)(8)(A)(i)(I)’s foreseeable
+harm standard) because, among other reasons, they all relate to fact -intensive
+matters of contract  administration,” or at the very least, “contain segregable,
+nonexempt factual information that the Navy must disclose.”78
+ In its reply, the Navy urges the Court to consider its entire submission when
+evaluating whether it is entitled to summary judgment, and not just the Vaughn
+index.79 It maintains that its submission —which includes the entire administrative
+record, affidavits, and its  Vaughn index—taken as a whole , is sufficient to meet its
+burden.80 The Court finds no reason to ignore the entire record when making its
+summary judgment determination. See Batton, 598 F.3d at 177–78 (considering the
+entire summary judgment record to determine whether the agency had met its
+burden of proving the exemption applied).
+
+77 Id. at 18–20.
+78 Id. at 20.
+79 R. Doc. No. 23, at 3.
+80 Id. at 3–4.
+Case 2:25-cv-00363-LMA-DPC     Document 24     Filed 09/08/25     Page 31 of 46
+32
+
+When the Navy’s Vaughn index sufficiently describes the withheld record, the
+Court need not look further. However, where other evidence in the record provides
+additional context or description for a given document, the Court will take that
+evidence into consideration. For example, the Navy provided a Vaughn index of sorts
+in its response to plaintiffs’ second administrative appeal81 which, at times, provides
+information that is not contained in the primary Vaughn index. The Navy’s response
+to plaintiffs’ second appeal also includes a “foreseeable harm reasoning” section that,
+in part, provides additional information about the documents that were withheld with
+respect to each of plaintiffs’ FOIA Requests.82  The Navy’s Vaughn index also explains
+which of plaintiffs’ nine requests the document is responsive to, 83 which may help
+explain how a document is “predecisional ,” because it points to a decision to which
+the document pertains.  The Court will first addres s the four groups of documents
+explicitly challenged by plaintiffs, and then it will address the remaining documents.
+Documents 1, 3, 11, 16, 21, 31–32, 37–39, 50, 56, 76, 2P, 3P(b)–(c), 5P: Plaintiffs’
+challenge with respect to these Vaughn index entries is that they “contain little more
+than a conclusory assertion that they relate  to a deliberative process.” 84 The Court
+agrees with respect to Documents 11, 16, 31–32 , 38–39, 50, and 76, but disagrees as
+to Documents 1, 3, 21, 37, 56, 2P, 3P(b)–(c), and 5P.
+
+81 See R. Doc. No. 20-2, at 106–25.
+82 See id. at 127–29.
+83 See, e.g., id. at 138 (including a column named “FOIA Related Request”).
+84 R. Doc. No. 21, at 17.
+Case 2:25-cv-00363-LMA-DPC     Document 24     Filed 09/08/25     Page 32 of 46
+33
+
+For example, plaintiffs argue that Document 1 is conclusory because it states
+that the document addresses “‘open and active issues’ between the Navy and LNFH,
+as well as the Navy’s potential responses .”85 This description, plaintiffs argue, lacks
+the detail necessary to establish  that the deliberative process privilege applies. But
+the Court disagrees.
+The Vaughn index describes Document 1 as an “[e]mail from [TCG] to Tom
+McKelvey (NAVFAC SE, Business Agreements Manager) providing an attachment
+with a summary of the open and active issues between the DON ( ‘Member’) and
+LNFH (‘Managing Member’) of the Project and potential DON responses to LNFH.”86
+It further explains the attachment as “TCG’s work product analyzing the open and
+active issues between [the Navy and LNFH] in connection to the privatized housing
+Project.”87 Like all of the Navy’s Vaughn index entries, the Document 1 entry explains
+which FOIA request the entry relates to .88 I n this instance,  the index indicates
+Document 1  is responsive  to plaintiffs’ FOIA Request 1, which sought documents
+related to LNFH’s request for funding to cover the increased insurance premiums. 89
+Furthermore, the Navy’s response to plaintiffs’ second administrative appeal
+explains that “LNFH’s request [was] for  [a] $4M loan out of the MORA account to
+cover the 2023 insurance premiums of the Project,” an account  on which “[t]he DON
+
+85 Id. at 18.
+86 R. Doc. No. 20-2, at 138.
+87 Id. (emphasis added).
+88 See id.
+89 Id.
+Case 2:25-cv-00363-LMA-DPC     Document 24     Filed 09/08/25     Page 33 of 46
+34
+
+has discretion [] how [it] is used.”90 The Court finds that the Navy’s description of the
+document and context demonstrates that the document was logically withheld under
+the deliberative process privilege.
+Accordingly, as stated, the Court finds the Navy’s description s are sufficient
+with respect to Documents 1, 3, 21, 37, 56, 2P, 3P(b)–(c), and 5P, but not Documents
+11, 16, 31– 32, 38 –39, 50, and 76. Although not flagged by plaintiffs as being
+conclusory, the Court also finds the Navy’s descriptions of Documents 42–44, 46–49,
+and 8P deficient, because it finds they lack sufficient information to demonstrate that
+the privilege applies.
+Documents 4–5, 7, 9, 13–14, 22– 23: Plaintiffs’ issue with these Vaughn index
+entries is that they all similarly describe the document as containing the “notes and
+opinion of Navy BAM Tom McKelvey regarding ‘what transpired during a meeting’ .
+. . and . . . the Navy’s ‘steps moving forward.’” 91 Plaintiffs find three flaws with this
+description. First, that it is not clear from this description to “what decision-making
+process the documents contributed.” 92 Second, in part because McKelvey is the
+“relevant decisionmaker ,” the documents “appear to describe decisions  already
+made.”93 Third, that “‘what transpired during a meeting’ is factual and thus falls
+outside of the deliberative process privilege.”94
+
+90 See id. at 127.
+91 R. Doc. No. 21, at 18.
+92 Id. at 19.
+93 Id.
+94 Id.
+Case 2:25-cv-00363-LMA-DPC     Document 24     Filed 09/08/25     Page 34 of 46
+35
+
+While the first error is cured by considering the column that indicates which
+of plaintiffs’ FOIA requests the document is responsive to, the Court agrees that the
+other two issues render the Navy’s withholding of these documents questionable. 95
+As such, the Court finds these Vaughn index entries insufficient to carry the Navy’s
+burden of demonstrating that the deliberative process privilege applies.
+Documents 8, 10, 19, 25, 33–36, 40 –41, 59, 68- 70, 75, 3P(a) : Plaintiffs claim
+that these entries describe documents that “address mundane, technical, fact -
+intensive matters that generally fall outside of the deliberative process privilege.” 96
+The Court disagrees with respect to Documents 19, 33–35, 59, 68–70, and 75. While
+these documents may include technical, financial matters, their descriptions make
+clear that they reflect opinions, based on these factual matters, regarding how to
+handle different decisions that had to be made by the Navy, and therefore , are
+deliberative rather than evaluative or purely factual. Skelton, 678 F.2d at 38 (“[T]his
+court and others have recognized that analysis and evaluation of facts are as much a
+part of the deliberative process as analysis and evaluation of law.”).
+Take, for example, Document 19, which is described as “email
+communications” containing “opinions of NAVFAC SE and NAVFAC LANT
+personnel regarding the financial sustainability of the Project and how it will be
+affected by future project costs.” 97 This, alone, could describe purely factual,
+
+95 For one thing, how is the Court to determine whether the “Navy’s steps moving
+forward” are forward-looking recommendations rather than, say,  a recitation of the
+“steps moving forward” that had already been decided at the meeting.
+96 R. Doc. No. 21, at 19.
+97 R. Doc. No. 20-2, at 144.
+Case 2:25-cv-00363-LMA-DPC     Document 24     Filed 09/08/25     Page 35 of 46
+36
+
+evaluative matters. However, the Vaughn index also indicates that these
+communications “discuss[] next steps” and were responsive to plaintiffs ’ FOIA
+Requests 1, 2, and 3, which involve the Navy’s process to determine whether and how
+to fund the cost of the project’s increased insurance premiums, whether to send the
+Letter of Dissatisfaction, and whether to exercise its right to review the project ’s
+books and records. 98 The Vaughn index also indicates that the Navy has already
+released the segregable portions to LNFH.99 Taken together, the Court finds the Navy
+has met its burden of demonstrating that it withheld only information that is covered
+by the deliberative process privilege.
+Other examples include Documents 33 –35, which plaintiffs describe as a
+“review of the ‘Project’s financials.’” 100 All three documents are described as “email
+communications” between “NAVFAC and NAVFAC LANT’s personnel regarding
+[the] Project’s financial review. The Project’s financials and ledgers were
+subsequently evaluated, in person, at the Project’s offices.” 101 The Navy attests that
+all three documents are responsive to plaintiffs’ request for documents that “discuss
+the reasons for the Navy’s decision to . . . review books and records of NONH.”102 Read
+together, the Court finds this sufficiently describes documents that contain privileged
+deliberative process information and not technical or factual matters.
+
+98 Id.
+99 Id.
+100 R. Doc. No. 21, at 19.
+101 R. Doc. No. 20-2, at 149.
+102 Id. (emphasis added).
+Case 2:25-cv-00363-LMA-DPC     Document 24     Filed 09/08/25     Page 36 of 46
+37
+
+The Court therefore finds  the Navy’s description with respect to Documents
+19, 33–35, 59, 68–70, and 75 is sufficient. However, the Court agrees with plaintiffs
+that Documents 8, 10, 25, 36, 40– 41, and 3P(a) have not been described sufficiently
+for the Court to conclude they fall within the deliberative process privilege.
+Documents 45, 6P-7P, 10P–11P: In short, plaintiffs argue that the decisions to
+which these documents relate are too “mundane” to constitute the type of decisions
+covered by the deliberative process privilege. 103 For example, Document 45 is
+described in the Vaughn index as being “email communications” that contain the
+“opinion and comments of NAVFAC SE personnel re: LNFH’s request to contact [the
+Navy’s] counsel.” 104 Plaintiffs argue that “[r]esponding to a request for agency
+counsel’s contact information” is not the type of matter the deliberative process is
+meant to protect. Another example, Document 10P , is described as email
+communications that “reflect the agency’s deliberation on LNFH’s request of
+information on [the Operating Agreement] and Indenture revisions.”105 Even
+considered in the context of the FOIA request each of these documents is responsive
+to, the Court finds that these document descriptions do not sufficiently establish that
+they “would expose an agency’s decisionmaking process in such a way as to discourage
+candid discussion within the agency and thereby undermine the agency ’s ability to
+perform its functions .” Gahagan, 147 F. Supp. 3d at 629 –30, B ased on these
+
+103 R. Doc. No. 21, at 20.
+104 Id. at 152.
+105 R. Doc. No. 20-2, at 169.
+Case 2:25-cv-00363-LMA-DPC     Document 24     Filed 09/08/25     Page 37 of 46
+38
+
+descriptions alone, the Court cannot determine whether the Navy properly withheld
+these documents pursuant to the deliberative process privilege.
+ Remaining Documents 2, 6, 12, 15, 17–18, 20, 24, 26–30, 51– 55, 57–58, 60–67,
+71– 74, 77–83, 1P, 4P, 9P, and 12P: The only challenge plaintiffs articulate as to these
+remaining documents is the same policy -oriented argument that the Court has
+already rejected.106 Having reviewed the Vaughn index entries for these remaining
+documents, the Court finds the Navy’s descriptions as to all but two of the remaining
+documents (Documents 65 and 80) are sufficient to demonstrate that the deliberative
+process privilege applies. With respect to Documents 65 and 80 , it is unclear to the
+Court whether these documents precede the decision to which they purportedly
+pertain. Jobe, 1 F.4th at 408 (“Predecisional documents include those  generated
+before the adoption of an agency policy. ”) (citation modified); see also Ctr. for
+Investigative Reporting, 436 F. Supp. 3d at 103 (finding that the agency failed to meet
+its burden of establishing that the deliberative process privilege applied because the
+agency “failed to establish that the documents predated those final decisions”).
+ The Court therefore orders the Navy to supplement its Vaughn index with
+respect to those documents that the Court has identified as insufficiently described.
+3. Foreseeable Harm
+Demonstrating that the exemption applies is only the first part of the inquiry;
+the Navy must also satisfy FOIA’s additional “foreseeable harm” requirement. See 5
+
+106 See R. Doc. No. 21, at 20 (“Documents not specifically addressed above nonetheless
+fall outside of the deliberative process privilege . . . because, among other reasons,
+they all relate to fact-intensive matters of contract administration.”).
+Case 2:25-cv-00363-LMA-DPC     Document 24     Filed 09/08/25     Page 38 of 46
+39
+
+U.S.C. § 552(a)(8)(A)(I) (“An agency shall . . . withhold information under this section
+only if . . . the agency reasonably foresees that disclosure would harm an interest
+protected by an exemption described in subsection (b)[.]”  (emphasis added)); see also
+Reps. Comm. for Freedom of the Press v. Fed. Bureau of Investigation,  3 F.4th 350,
+369 (D.C. Cir. 2021) (“Finding the deliberative process privilege applicable to some of
+the withheld materials does not end the matter.” ); Jarkesy v. Sec. & Exch. Comm ’n,
+No. 22-405, 2024 WL 4101811, at *9 (S.D. Tex. July 3, 2024) (applying the additional
+foreseeable harm requirement  after determining whether the asserted FOIA
+exemptions were applicable). The requirement applies with “ special force ” in the
+deliberative process privilege context. See Juul Labs, Inc. , 731 F. Supp. 3d at 59
+(“[T]he withholding agency must also satisfy the foreseeable -harm requirement,
+which applies with special force to deliberative process withholdings under
+Exemption 5, given the particular risks of overuse of that privilege.”  (citation
+modified)).
+To satisfy the foreseeable harm requirement, the withholding agency must
+“articulate both the nature of the harm and the link between the specified harm and
+specific information contained in the material withheld.” Ctr. for Investigative
+Reporting, 436 F. Supp. 3d at 106 (quoting H.R. Rep. No. 114- 391, at 9 (2016)). The
+agency must provide “context or insight into the specific decision -making processes
+or deliberations at issue, and how they in particular would be harmed by disclosure”
+to satisfy its burden . Id. at 107; see also Freedom of the Press , 3 F.4th 350, 370
+(holding that the agency must demonstrate why disclosure of the withheld material
+Case 2:25-cv-00363-LMA-DPC     Document 24     Filed 09/08/25     Page 39 of 46
+40
+
+“in the specific context of the agency action at issue,  actually impede[s] those same
+agency deliberations going forward ”). “Agencies cannot rely on mere speculative or
+abstract fears, or fear of embarrassment to withhold information.” Freedom of the
+Press, 3 F.4th at 369 (internal quotations omitted); Emuwa v. United States Dep’t of
+Homeland Sec., 113 F.4th 1009, 1015 (D.C. Cir. 2024) (“[The government] must show
+that disclosure of the requested information ‘ would’ chill future internal agency
+deliberations, not simply that it ‘could’ do so.”).
+Withholding agencies “ may sometimes satisfy [the foreseeable harm]  burden
+on a category-by-category basis rather than a document-by-document basis.” Freedom
+of the Press, 3 F.4th at 369 ( “[A]gencies may sometimes satisfy that burden on a
+category-by-category basis rather than a document -by-document basis —that is,
+group together like records and explain the harm that would result from release of
+each group . . .”). However, “the basis and l ikelihood of that harm must be
+independently demonstrated for each ca tegory,” id., meaning the agency “ must
+provide more than nearly identical boilerplate statements and generic and nebulous
+articulations of harm ” with respect to each category of documents , Ctr. for
+Investigative Reporting, 436 F. Supp. 3d at 106; see also Jud. Watch, Inc. v. U.S. Dep’t
+of Com., 375 F. Supp. 3d 93, 100 (D.D.C. 2019) (“[T]he government at least need[s] to
+do more than perfunctorily state that disclosure of all the withheld information
+. . . would jeopardize the free exchange of information. ” (internal quotations
+omitted)).
+Case 2:25-cv-00363-LMA-DPC     Document 24     Filed 09/08/25     Page 40 of 46
+41
+
+ Plaintiffs accuse the Navy of “not meaningfully attempt[ing] ’
+ to show the required foreseeable harm. 107 It argues that the Navy has merely
+“mouth[ed] the generic rationale for the asserted exemption, which does not satisfy
+§ 552(a)(8)(A)(i)(I).”108 In reply, the Navy accuses plaintiffs of “pick[ing] and
+choos[ing] parts of the administrative record to convince the Court the Navy did not
+evaluate its withholdings under the foreseeable harm standard.”109 Instead of relying
+on the Vaughn index or “limited language in the declarations” alone, the Navy argues
+the Court must consider “the entire administrative record . . . as a whole .”110
+Specifically, t he Navy points the Court to  its response in plaintiffs’ second
+administrative appeal,111 in which the Navy explains its foreseeable harm reasoning
+categorically, grouping the documents by FOIA Request to which they are
+responsive.112
+While true that the Navy’s response to plaintiffs’ second administrative appeal
+provides additional explanation for  the documents it withheld, the specific
+paragraphs addressing foreseeable harm are lacking. Consider, for example, the
+Navy’s explanation with respect to FOIA Request 1:
+Revealing the DON ’s and its Consultant ’s internal deliberation
+process for evaluating this MORA loan request ( discretionary decision)
+will disrupt the decision -making process and cause a  chilling effect on
+
+107 R. Doc. No. 21, at 9 –10 (“The Navy’s memorandum supporting its summary -
+judgment motion does not even acknowledge the foreseeable harm requirement,
+much less demonstrate that the Navy has satisfied that requirement.”).
+108 Id. at 10.
+109 R. Doc. No. 23, at 2.
+110 Id. at 3.
+111 See R. Doc. No. 20-2, at 105 (Exhibit 8 to the Declaration of Atina Hall).
+112 See id. at 127–29.
+Case 2:25-cv-00363-LMA-DPC     Document 24     Filed 09/08/25     Page 41 of 46
+42
+
+open and candid discussion among DON ’s personnel, its consultants,
+and attorneys, especially when litigation is forthcoming.
+
+The opinions of each of DON ’s employees, consultant and
+attorneys should not be made public.113
+
+Its foreseeable harm explanation with respect to FOIA Requests 2 and 8 are similarly
+bare:
+Request 2 - . . . If disclosure is required this will cause a
+foreseeable harm to the agency and will disrupt the decision -making
+process and cause a chilling effect on open and candid discussion among
+the DON employees, its consultants, and attorneys. The opinions of each
+of DON employee, its Consultant and attorneys should not be made
+public.114
+. . .
+
+Request 8- . . . If disclosure of this deliberative process is required,
+this will cause a foreseeable harm to the agency and will disrupt the
+decision-making process.115
+
+  These explanations are nothing more than perfunctory, speculative assertions
+that disclosure would harm the processes the privilege is meant to protect.  Compare
+Jud. Watch, Inc., 375 F. Supp. 3d at 100 (finding the agency’s “general explanations
+of the possibility of a ‘ chilling effect’ f[e]ll short of articulating” the required “link
+between the specified harm and specific information contained in the material
+withheld”) and Reps. Comm. for Freedom of the Press v. United States Customs &
+Border Prot. , 567 F. Supp. 3d 97, 123 (D.D.C. 2021) (finding perfunctory and
+insufficient to demonstrate foreseeable harm the agency’s statement that
+“[d]isclosing th[e] information would undermine the deliberative process privilege
+
+113 R. Doc. No. 20-2, at 127.
+114 Id. at 128.
+115 Id.
+Case 2:25-cv-00363-LMA-DPC     Document 24     Filed 09/08/25     Page 42 of 46
+43
+
+and the attorney-client privilege, and would have a chilling effect on communication
+between agency employees who regularly process FOIA requests”), with Amiri v. Nat’l
+Sci. Found., 664 F. Supp. 3d 1, 15 (D.D.C. 2021), aff’d, No. 21-5241, 2022 WL 1279740
+(D.C. Cir. Apr. 28, 2022)  (finding sufficiently precise the agency’s description of the
+documents as “analyses and recommendations” that “represent ‘just two sets of
+information considered’ when [the agency] makes grant decisions,”  a process in which
+the a gency decision -makers “rely on full candor to continue [the agency’s]  ‘gold
+standard’ for vetting grant proposals ”) and Energy Pol ’y Advocs. v. Sec. & Exch.
+Comm’n, 699 F. Supp. 3d 56, 65 (D.D.C. 2023) (“According to the declaration, [agency]
+staff would be ‘reluctant to record their views and engage in open discussion during
+the rule drafting process’ if they knew that FOIA requests might expose these off-the-
+cuff conversations. . . . [A]s the declaration  explains, avoiding any chilling effect is
+particularly important when deliberations involve ‘controversial proposals and
+sensitive topics’ that benefit from open and expansive discussion on ‘all aspects of the
+proposal’ including any ‘differing viewpoints.’”).
+ While at times the “very context and purpose” of the withheld records may
+make “the foreseeability of harm manifest ,” the record before the Court shows “no
+obvious reason why disclosing these records would create [the] foreseeable harm” that
+the deliberative process privilege is aimed to prevent. Freedom of the Press, 3 F.4th
+at 372; cf. id. ( “With respect to the [then -FBI Director] Comey emails, the record
+establishes the unique sensitivity of discussions among Director Comey and high -
+ranking FBI officials about how to respond to an ongoing crisis that threatened
+Case 2:25-cv-00363-LMA-DPC     Document 24     Filed 09/08/25     Page 43 of 46
+44
+
+existing covert Bureau operational tactics. The very context and purpose of those
+communications bearing on sensitive undercover operations in the midst of a policy
+crisis make the foreseeability of harm manifest.”); Rudometkin v. United States, 140
+F.4th 480, 493 (D.C. Cir. 2025) (“In this case, the records relate to discussions and
+deliberations concerning a particularly sensitive personnel decision – the selection of
+a Chief Trial Judge by the Secretary of Defense with input from subordinates – which
+makes the foreseeability of harm from disclosure manifest.”)  (citation modified);
+Energy Pol’y Advocs., 699 F. Supp. 3d at 66 (“The ‘context and purpose’ of the withheld
+messages strongly supports a finding of foreseeable harm. Text messages containing
+internal informal discussions about proposed rulemaking arguably ‘ lie at the core of
+the deliberative -process privilege. ’”); Ctr. for Immigr. Stud. v. U.S. Citizenship &
+Immigr. Servs., 766 F. Supp. 3d 1, 12 (D.D.C. 2025) (“A public spotlight on highly
+politicized and delicate foreign policy questions would cast a pallor over deliberations.
+It may tempt bureaucrats to issue politically expedient advice rather than provide
+honest consultation.”).
+ As just one example, Document 2 purports to contain “discussions between
+NAVFAC SE, NAVFAC LANT PPV employees and TCG regarding possible scenarios
+under which a loan from [Navy] controlled Accounts could be granted to [LNFH] to
+cover the cost of insurance premiums.”116 Document 2 also contains “TCG’s draft of a
+proposed answer to be  evaluated by NAVFAC PPV personnel. ”117 The document is
+
+116 R. Doc. No. 20-2, at 138.
+117 Id.
+Case 2:25-cv-00363-LMA-DPC     Document 24     Filed 09/08/25     Page 44 of 46
+45
+
+responsive to Request 1.118 Absent from the record is any explanation of the role these
+“possible scenarios” play in the Navy’s process for deciding whether to release MORA
+funds and whether they represent opinions of possible scenarios that require candor
+or represent more benign , objective opinions as to what possibilities are available .
+While the Court found this description sufficient to establish the deliberative process
+privilege applies to this document, 119 this description coupled with the boilerplate
+foreseeable harm explanation is not enough to establish that its disclosure will
+foreseeably chill agency deliberations. FOIA’s foreseeable harm requirement
+demands more of the Navy. See Jud. Watch, Inc., 375 F. Supp. 3d at 101 (“If the mere
+possibility that disclosure discourages a frank and open dialogue was enough for the
+exemption to apply, then Exemption 5 would apply whenever the deliberative process
+privilege was invoked regardless of whether disclosure of the information would harm
+an interest protected by the exemption.”).
+Although the Court finds that the Navy has not satisfied its  summary
+judgment burden , the Court will not, as plaintiffs request, 120 grant summary
+judgment to plaintiffs on this record. Instead, the  Court will allow the Navy the
+
+118 Id.
+119 See supra p. 37–38.
+120 R. Doc. No. 21, at 3 (“If, however, the Court agrees with Plaintiffs that the Navy
+has not met its burden under FOIA, the Court can, and should, grant summary
+judgment to Plaintiffs under Federal Rule of Civil Procedure 56(f)(1) (after providing
+the Navy with notice and reasonable time to respond).”).
+Case 2:25-cv-00363-LMA-DPC     Document 24     Filed 09/08/25     Page 45 of 46
+46
+opportunity to supplement the record with respect to the foreseeable harm
+component.121
+IV. CONCLUSION
+For the foregoing reasons,
+IT IS ORDERED that defendant’s motion for summary judgment is HELD
+IN ABEYANCE.
+IT IS FURTHER ORDERED that the defendant shall supplement its
+Vaughn index with respect to Documents 4–5, 7–11, 13–14, 16, 22–23, 25, 31–32, 36,
+38–50, 65, 76, 80, 3P(a), 6P–8P, and 10P–11P by September 22, 2025.
+IT IS FURTHER ORDERED that the defendant shall supplement the record
+with respect to foreseeable harm by September 22, 2025.
+IT IS FURTHER ORDERED  that plaintiffs shall respond to the
+supplemental materials by September 29, 2025.
+New Orleans, Louisiana, September 8, 2025.
+_______________________________________
+ L ANCE M. AFRICK
+     UNITED STATES DISTRICT JUDGE
+121 The Court notes that the Navy makes no attempt to argue that it has met its
+burden with respect to foreseeable harm for either Exemption 4 or 6. See generally
+R. Doc. Nos. 20, 23.
+Case 2:25-cv-00363-LMA-DPC     Document 24     Filed 09/08/25     Page 46 of 46

@@ -1,0 +1,1161 @@
+1
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+DOUGLAS A. LEE, ET AL.,
+           Plaintiffs
+CIVIL ACTION
+
+VERSUS NO.  24-836
+
+R&R HOME CARE, INC., ET AL.,
+           Defendants
+SECTION: “E” (1)
+
+ORDER AND REASONS
+
+ Before the Court is a motion to dismiss pursuant to Federal Rule of Civil Procedure
+12(b)(1) and Rule 12(b)(6) filed by Defendants Medical Brokers Management, Inc.
+(“Medical”), R&R Home Care, Inc. (“R&R”), and Jay Weil, III (collectively,
+“Defendants”).1 Defendants seek dismissal of Plaintiffs’ claims against Medical, R&R, and
+Mr. Weil for (1) violations of the Employee Retirement Income Security Act of 1974
+(“ERISA”); and (2) Louisiana state law claims  for breach of fiduciary duty, breach of
+contract, and detrimental reliance. 2 Plaintiffs Douglas Lee, II,  individually as an ERISA
+beneficiary and as administrator of the su ccession of Karen Lee, and Ashlynn Estay,
+individually as an ERISA beneficiary, (collectively, “Plaintiffs”), filed an opposition to the
+motion to dismiss.3
+
+1 R. Doc. 23; FED R. CIV. P. 12(b)(1); FED. R. CIV. P. 12(b)(6).
+2 See R. Doc. 23.
+3 R .  D o c .  2 5 ;  R .  D o c .  3 6  ( s u b s t i t u t i n g  p l e a d i n g  a t  R. Doc. 33-2). Defendants also filed a response to
+arguments raised in Plaintiffs’ counsel’s pre-hearing brief concerning Rule 11 sanctions against him. See R.
+Doc. 38; R. Doc. 30. In that response, Defendants’ counsel argued that Plaint iffs’ counsel improperly
+addressed the merits of the case while attempting to explain why sanctions were unwarranted. R. Doc. 38,
+at pp. 1-2. In its order sanctioning Mr. Pellegrin, the Court made no find ing on the accuracy of Plaintiffs’
+counsel’s legal arguments and did not consider those arguments while deciding the present motion. R. Doc.
+39 at p. 7, n. 42.
+Case 2:24-cv-00836-SM-JVM     Document 42     Filed 10/16/25     Page 1 of 38
+2
+Factual Background
+On April 3, 2024, Plaintiffs initia ted this suit against Defendants. 4 In Plaintiffs’
+first amended complaint, they allege that “[b]efore her death on September 18, 2022,
+Karen Lee was an employee of Medical.”5 Plaintiffs allege that R&R and Medical are alter-
+egos of one  another, and that Medical has registered the trade name “R&R Care
+Solutions” with the Louisiana Secretary of State. 6 Plaintiffs allege that “R&R and/or
+Medical secured insurance for Karen Lee th rough United of Omaha Life Insurance
+Company with a policy (“the Plan”) issued to R&R Care Solutions, a trade name of
+Medical.”7 Plaintiffs allege that the “group insurance coverage was terminated by United
+of Omaha [on] March 1, 2022, because the po licyholder company no longer met United
+of Omaha’s underwriting guidelines.”8
+Plaintiffs further allege that Mr. Weil “received notice of this termination and
+notice that group members had the option to port their group coverage into an individual
+policy.”9 Plaintiffs allege that, nevertheless, Defendants failed to notify “Karen Lee of the
+termination or the option to port her coverage to an individual policy.”10 Plaintiffs allege
+that despite this termination, Defendants “continued to deduct life insurance premiums
+from Karen Lee’s paycheck until the time of her death, leading her to believe she still had
+coverage.”11 Plaintiffs allege that the failure to no tify Karen Lee of the termination of her
+coverage “deprived her of the opportunity to  port the coverage and continue with the
+
+4 R. Doc. 1.
+5 R. Doc. 22 at ¶ 8, p. 3.
+6 Id. at ¶ 2, pp. 1-2.
+7 Id. at ¶ 9, p. 3.
+8 Id.
+9 Id.
+10 Id.
+11 Id.
+Case 2:24-cv-00836-SM-JVM     Document 42     Filed 10/16/25     Page 2 of 38
+3
+coverage in place” and also “deprived her of the opportunity to make other arrangements
+for her heirs.”12
+Plaintiffs allege that “Defendants prov ided correspondence addressed to [Mr.]
+Weil from United of Omaha stating that cove rage would be cancelled due to a change in
+underwriting guidelines. Attached to th is correspondence was a sample letter to
+employees notifying employees of the te rmination and explaining options for
+portability.”13 Nevertheless, Plaintiffs allege that “[n]o Defendant provided Karen Lee any
+notice about life coverage termination or op tions for portability into an individual
+policy.”14 Finally, Plaintiffs allege “Defendants failed to provide Karen Lee with an
+accurate summary plan description as required by ERISA.”15
+Procedural Background
+On July 18, 2024, Defendants filed their fi rst motion to dismiss pursuant to Rule
+12(b)(6) for failure to state a claim. 16 Defendants argued that Plaintiffs’ complaint failed
+to plausibly allege Defendants acted as ERIS A fiduciaries and that Plaintiffs’ state law
+breach of fiduciary duty claim had prescribed.17 In response, Plaintiffs requested leave to
+amend their complaint.18 On February 13, 2025, the Court granted Plaintiffs leave to file
+an amended complaint and ordered that it be filed by February 27, 2025.19 Plaintiffs failed
+to meet this deadline but, on February 28 , 2025, requested leave to file their amended
+complaint one day late, citing technical difficulties.20 On March 5, 2025, the Court granted
+
+12 Id. at ¶ 10, p. 3.
+13 Id. at ¶ 16, p. 5.
+14 Id.
+15 Id. at ¶ 14, p. 4.
+16 R. Doc. 13.
+17 See generally id.
+18 R. Doc. 15 at p. 11.
+19 R. Doc. 19.
+20 R. Doc. 20.
+Case 2:24-cv-00836-SM-JVM     Document 42     Filed 10/16/25     Page 3 of 38
+4
+Plaintiffs’ request, and the amended complaint was filed the same day.21 As a result, the
+Court denied Defendants’ first moti on to dismiss without prejudice. 22 Defendants
+subsequently filed the motion to dismiss pursuant to Rules 12(b)(1) and 12(b)(6) now
+before the Court.23
+LEGAL STANDARD
+I. Rule 12(b)(1) standard
+“Federal courts are courts of limited jurisdiction; without jurisdiction conferred by
+statute, they lack the power to adjudicate claims.”24 Under 28 U.S.C. § 1367, “in any civil
+action of which the district courts have original jurisdiction, the district courts shall have
+supplemental jurisdiction over all other claims that are so related to claims in the action
+within such original jurisdiction that they form part of the same case or controversy under
+Article III of the United States Constitution.” 25 This statute allows district courts to
+exercise jurisdiction over state law claims that are sufficiently related to federal claims to
+form part of the same case or controversy.
+A motion to dismiss under Federal Rules of Civil Procedure 12(b)(1) challenges a
+federal court’s subject-matter jurisdiction.26 Under Rule 12(b)(1), “[a] case is properly
+dismissed for lack of subject matter jurisdic tion when the court lacks the statutory or
+constitutional power to adjudicate the case.”27 The party asserting jurisdiction bears the
+burden of establishing that  the district court possesse s subject-matter jurisdiction. 28
+
+21 R. Doc. 21; R. Doc. 22.
+22 R. Doc. 21.
+23 R. Doc. 23.
+24 In re FEMA Trailer Formaldehyde Prods.  Liab. Litig. (Mississippi Plaintiffs) , 668 F.3d 281, 286 (5th
+Cir. 2012).
+25 28 U.S.C. § 1367(a).
+26 See FED. R. CIV. P. 12(b)(1).
+27 Home Builders Ass’n of Miss., Inc. v. City of Madison, Miss., 143 F.3d 1006, 1010 (5th Cir. 1998) (internal
+quotation marks and citation omitted).
+28 Ramming v. United States, 281 F.3d 158, 161 (5th Cir. 2001).
+Case 2:24-cv-00836-SM-JVM     Document 42     Filed 10/16/25     Page 4 of 38
+5
+“Moreover, courts, including this Court, ha ve an independent obligation to determine
+whether subject matter jurisdiction exists.” 29 “[W]hen a federal court concludes that it
+lacks subject matter jurisdiction, the court must dismiss the complaint in its entirety.”30
+II. Rule 12(b)(6) standard
+Pursuant to Federal Rule of Civil Procedu re 12(b)(6), a district court may dismiss
+a complaint for failure to state a claim upon which relief may be granted if the plaintiff
+has not set forth factual allegations in suppo rt of his claim that would entitle him to
+relief.31 “To survive a motion to dismiss, a complaint must contain sufficient factual
+matter, accepted as true, to ‘state a claim to relief that is plausible on its face.’”32 “A claim
+has facial plausibility when th e plaintiff pleads factual content that allows the court to
+draw the reasonable inference that the defend ant is liable for the misconduct alleged.”33
+The Court, however, does not accept as true legal conclusions or mere conclusory
+statements, and “conclusory allegations or legal conclusions masquerading as factual
+conclusions will not suffice to prevent a motion to dismiss.”34 Indeed, “threadbare recitals
+of elements of a cause of action, supported by mere conclusory statements” or “naked
+assertion[s] devoid of further factual enhancement” are not sufficient. 35 However, in
+assessing the complaint, the Court must accept all well-pleaded factual allegations as true
+
+29 Arbaugh v. Y & H Corp. , 546 U.S. 500, 514 (2006) (citing Ruhgras AG v. Marathon Oil Co. , 526 U.S.
+574, 583 (1999)).
+30 Id.
+31 Bell Atl. Corp. v. Twombly , 550 U.S. 544, 555 (2007); Cuvillier v. Taylor , 503 F.3d 397, 401 (5th Cir.
+2007).
+32 Ashcroft v. Iqbal, 556 U.S. 662, 678 (2009) (quoting Twombly, 550 U.S. at 570).
+33 Id.
+34 S. Christian Leadership Conf. v. Sup. Ct. of the State of La. , 252 F.3d 781, 786 (5th Cir. 2001) (citing
+Fernandez-Montes v. Allied Pilots Ass’n, 987 F.2d 278, 284 (5th Cir. 1993)).
+35 Iqbal, 556 U.S. at 678 (citations omitted).
+Case 2:24-cv-00836-SM-JVM     Document 42     Filed 10/16/25     Page 5 of 38
+6
+and must liberally construe all such allega tions in the light most favorable to the
+plaintiff.36
+“[W]here the well-pleaded facts do not permit the court to infer more than the
+mere possibility of misconduct, the complaint has alleged—but it has not ‘show[n]’—‘that
+the pleader is entitled to relief.’”37 However, “legal conclusions can provide the framework
+of a complaint, [if] they [are] su pported by factual allegations.”38 “Determining whether
+a complaint states a plausible claim for relief [i s] . . . a context-specific task that requires
+the reviewing court to draw on its judicial experience and common sense.” 39 “Although
+detailed factual allegations are not requir ed,” “[d]ismissal is appropriate when the
+complaint ‘on its face show[s] a bar to relief.’”40 However, “[m]otions to dismiss under
+Rule 12(b)(6) ‘are viewed with disfavor and are rarely granted.’”41 Whether a plaintiff “will
+be able to offer sufficient proof to support [his  or her] claims is more appropriate in the
+context of a motion for summary judgment or a trial on the merits” rather than in a
+motion to dismiss. 42 “[I]ntensive disputes of material fact . . . are usually more
+appropriate for summary judgment . . . .”43
+When considering a Rule 12(b)(6) motion to dismiss, the Court is generally limited
+to reviewing (1) the facts set forth in th e complaint, (2) documents attached to the
+compliant, and (3) matters of which judicial notice may be taken under Federal Rule of
+
+36 Spivey v. Robertson, 197 F.3d 772, 774 (5th Cir. 1999).
+37 Iqbal, 556 U.S. at 679 (quoting FED. R. CIV. P. 8(a)(2)).
+38 Id. “Factual allegations must be enough to raise a right to relief above the speculative level.”  Twombly,
+550 U.S. at 555.
+39 Iqbal, 556 U.S. at 679.
+40 Cutrer v. McMillan, 308 Fed.Appx. 819, 820 (5th Cir. 2009) (per curiam) (citations omitted).
+41 Lormand v. U.S. Unwired, Inc. , 565 F.3d 228, 232 (5th Cir. 2009) (quoting Test Masters Educ. Servs.,
+Inc. v. Singh, 428 F.3d 559, 570 (5th Cir. 2005)).
+42 Smith v. GE Healthcare, Inc., No. 3:19-CV-00492, 2019 WL 4565246, at *7 (W.D. La. Sept. 4, 2019).
+43 Dong Phuong Bakery, Inc. v. Gemini Soc'y, LLC, No. CV 21-1109, 2022 WL 898750, at *5 (E.D. La. Mar.
+28, 2022).
+Case 2:24-cv-00836-SM-JVM     Document 42     Filed 10/16/25     Page 6 of 38
+7
+Evidence 201.44 However, “[w]hen a defendant attaches documents to its motion that are
+referred to in the complaint and are central to  the plaintiff's claims, the court may also
+properly consider those documents.”45 “In so attaching, the defendant merely assists the
+plaintiff in establishing the basis of the su it, and the court in making the elementary
+determination of whether a claim has been stated.”46
+LAW AND ANALYSIS
+I. Count One: The motion to dismiss Plaintiffs’ claims for breach of
+fiduciary duty agains t Medical seeking surcharge and accounting
+under 29 U.S.C. § 1132(a)(3) will be granted in part and denied in part.
+
+Pl ain tiffs  al l ege th at M edical , in  its  cap acit y  as  p l an  adm in is trator, breach e d its
+fiduciary duties to Ms. Lee and seek, on be half of the Succession and individually as
+beneficiaries, equitable remedies of su rcharge and accounting under 29 U.S.C. §
+1132(a)(3).47
+Congress enacted ERISA to protect partic ipants and beneficiaries of employee
+benefit plans and to ensure them appropri ate remedies and access to federal courts. 48
+ERISA accomplishes this purpose in part by imposing fiduciary duties on certain plan
+administrators and on those who exercise discretionary authority over a plan. 49 A
+fiduciary “who breaches any of the responsibilities, obligati ons, or duties imposed upon
+fiduciaries by [ERISA] . . . shall be subject to such other equitable or remedial relief as the
+court may deem appropriate.” 50 Under 29 U.S.C. § 1132(a)(3), participants and
+
+44 Innova Hosp. San Antonio, Ltd. P’ship v. Blue Cross & Blue Shield of Georgia, Inc. , 892 F.3d 719, 726
+(5th Cir. 2018).
+45 Walker v. Beaumont Indep. Sch. Dist., 938 F.3d 724, 735 (5th Cir. 2019).
+46 Collins v. Morgan Stanley Dean Witter, 224 F.3d 496, 499 (5th Cir. 2000).
+47 R. Doc. 22 at ¶¶ 1-30, pp. 1-9.
+48 Aetna Health Inc. v. Davila, 542 U.S. 200, 208 (2004).
+49 Langbecker v. Elec. Data Sys. Corp., 476 F.3d 299, 307 (5th Cir. 2007).
+50 29 U.S.C. § 1109(a).
+Case 2:24-cv-00836-SM-JVM     Document 42     Filed 10/16/25     Page 7 of 38
+8
+beneficiaries are provided equitable remedies in the case of a breach of fiduciary duty “(A)
+to enjoin any act or practice which violates any provision of this subchapter or the terms
+of the plan, 51 or (B) to obtain other appropriate equitable relief (i) to redress such
+violations.”52 Plaintiffs seek the equitable remedies of (1) “surcharge in the amount lost
+due [to] the breaches claimed,”53  and (2) “a formal accounting of all premiums collected
+and accepted.”54
+Traditionally, courts limited equitable relief under ERISA to the “kinds of remedies
+typically available at equity, such as injunctions, mandamus, or restitution.” 55 Until
+recently, “make-whole” monetary damages like surcharge and accounting were not
+considered appropriate equitable relief under ERISA. 56 However, in CIGNA Corp. v.
+Amara, the Supreme Court held that surcharge—a form of monetary compensation to
+redress losses from a breach of fiduciary duty —is available as equitable relief in ERISA
+actions charging breach of fiduciary duty.57 Consistent with this expansion, in Gearlds v.
+Entergy Services, Inc. , the Fifth Circuit expressly recog nized surcharge as an available
+equitable remedy in ERISA breach of fiduciary duty claims.58 Additionally, in Great-West
+Life & Annuity Ins. Co. v. Knudson , the Supreme Court noted that an “accounting for
+
+51 The Plaintiffs do not seek injunctive relief.
+52 29 U.S.C. §1132; ERISA § 502(a)(3).
+53 R. Doc. 22 at ¶ 29, p. 9.
+54 Id. Plaintiffs seek “ERISA estoppel” under Counts One and Three, which are nominally brought pursuant
+to § 502(a)(3). The Fifth Circuit has recognized ERISA estoppel as an independent cause of action pursuant
+to its authority to develop federal common law un der ERISA. Because Plaintiffs pleaded their ERISA
+estoppel claims under counts asserted pursuant to §5 02(a)(3), a provision that also authorizes equitable
+relief, it is unclear which form of estoppel Plaintiffs  are pursuing. The Court assumes, based on Plaintiffs’
+reference to “ERISA estoppel” and the arguments in th eir opposition, they are asserting a separate claim
+under the common law doctrine of ERISA estoppel rather than under § 502(a)(3). If Plaintiffs intended
+otherwise, they may clarify by requesting leave to amend their complaint. See Section II for the Courts
+analysis of Plaintiffs’ ERISA estoppel claim against Medical.
+55 Gearlds v. Entergy Services, Inc., 709 F.3d 448, 450 (5th Cir. 2013).
+56 Id.
+57 CIGNA Corp. v. Amara, 563 U.S. 421, 442 (2011).
+58 Gearlds,, 709 F.3d 448, 452 (5th Cir. 2013).
+Case 2:24-cv-00836-SM-JVM     Document 42     Filed 10/16/25     Page 8 of 38
+9
+profits” is a form of equitable re stitution also available under ERISA. 59 Accordingly,
+Plaintiffs seek appropriate equitable relief under 29 U.S.C. § 1132(a)(3).
+Because Plaintiffs seek the appropriat e equitable remedies of surcharge and
+accounting on the basis of an alleged breach of fiduciary duty, “the threshold question is
+not whether the actions of some person em ployed to provide se rvices under a plan
+adversely affected a plan beneficiary's intere st, but whether that person was acting as a
+fiduciary (that is, was performing a fiduciary function) when taking the action subject to
+complaint.”60 The Court must therefore first determ ine whether Medical was acting as a
+fiduciary with respect to the alleged conduct.
+Under ERISA, an entity is a fiduciary if it is expressly named or designated as a
+fiduciary “in the plan instrument.”  61  I f  a n  e n t i t y  i s  n o t  e x p r e s s l y  n a m e d ,  i t  w i l l  b e
+considered a fiduciary only if it actually ex ercises discretionary authority or control
+respecting management of a plan or discre tionary authority or responsibility in the
+administration of a plan as set forth in 29 U.S.C. § 1002(21)(A):
+[An entity] is a fiduciary with respect to a plan to the extent (i) [it] exercises any
+discretionary authority or discretionary control respecting management of such
+plan or exercises any authority or control respecting management or disposition of
+its assets, (ii) [it] renders investment advice for a fee or other compensation, direct
+or indirect, with respect to any moneys or  other property of such plan, or has any
+authority or responsibility to do so, or ( iii) [it] has any discretionary authority or
+discretionary responsibility in the administration of such plan.62
+
+When determining whether an entity acted as  a fiduciary by exercising discretionary
+control and authority in the administration of  a plan, it is instructive to consult the
+
+59 Great-West Life & Annuity Inc. Co. v. Knudson, 534 U.S. 204, 214, n. 2 (2002).
+60 Pegram v. Herdrich, 530 U.S. 211, 226 (2000).
+61 29 U.S.C. § 1102(a).
+62 29 U.S.C. § 1002(21)(A). Courts have treated “discretionary authority or discretionary control respecting
+management” and “discretionary authority or discretionary responsibility in the administration of such a
+plan” as synonymous. See, e.g., Varity Corp. v. Howe, 516 U.S. 489, 502-03 (1996).
+Case 2:24-cv-00836-SM-JVM     Document 42     Filed 10/16/25     Page 9 of 38
+10
+Department of Labor’s (“DOL”) regulation ti tled “Questions and answers relating to
+fiduciary responsibility under [ERISA].” 63 The DOL regulation explains that “a person
+who performs purely ministerial functions . . . for an employee benefit plan within a
+framework of policies, interpretations, rule s, practices and procedures made by other
+persons is not a fiduciary.” 64 Examples of ministerial, no n-fiduciary functions provided
+by the DOL regulation include:
+(1) Application of rules determining eligibility for participation or benefits; (2)
+Calculation of services and compensation credits for benefits; (3) Preparation of
+employee communications material; (4) Maintenance of participants' service and
+employment records; (5) Preparation of reports required by government agencies;
+(6) Calculation of benefits; (7) Orientat ion of new participants and advising
+participants of their rights and options under the plan; (8) Collection of
+contributions and application of contributions as provided in the plan; (9)
+Preparation of reports concerning participants' benefits; (10) Processing of claims;
+and (11) Making recommendations to othe rs for decisions with respect to plan
+administration.65
+
+If an entity is provided no discretion and merely performs ministerial functions
+under the plan, similar to the examples provided by the DOL regulation, the entity is not
+considered a fiduciary. 66 However, if a plan grants discre tion to the administrator, or if
+the administrator exercises discretion in performing administrative services, the
+administrator acts as a fiduciary and must discharge its duties in accordance with the
+fiduciary obligations of loyalty, care, diversification of plan assets, and adherence to plan
+documents.67
+At the motion to dismiss stage, a plaintiff’s claim for equitable relief under ERISA
+survives if the plaintiff plausibly alleges th at (1) the defendant is a fiduciary, (2) the
+
+63 29 C.F.R. § 2509.75-8.
+64 Id.
+65 Id.
+66 Id.
+67 29 U.S.C. § 1104(a)(1).
+Case 2:24-cv-00836-SM-JVM     Document 42     Filed 10/16/25     Page 10 of 38
+11
+defendant breached its fiduciary duties under ERISA, (3) the breach caused the plaintiff’s
+injury, and (4) the equitable re lief sought is appropriate. 68 The Court begins by
+determining whether the Plaintiffs sufficientl y alleged that Medical acted as a fiduciary
+under ERISA.
+A. Plaintiffs allege that Medical acted as a fiduciary and breached its
+fiduciary duty under 29 U.S.C. § 1132(a)(3).
+
+Plaintiffs allege that Medical is a fiduciary. 69 Plaintiffs allege that “Medical is a
+default plan sponsor under 26 CFR § 1.414(g)-1(b)(1), as it was Karen Lee’s employer at
+the time she was provided life insurance coverage,” and that “[f]urther, Medical is a
+fiduciary under ERISA because it had the responsibility to provide an accurate summary
+plan description to employees for whom they  deducted life insurance premiums from
+paychecks.”70 Plaintiffs further allege that “Medic al exercised fiduciary responsibility
+under the plan because it exercised control over ERISA plan assets including collected
+premiums,” and “by affirmatively representing to Karen Lee that she had life insurance
+coverage and by assuming responsibility for obtaining the actual life insurance coverage
+through an insurance company.” 71 Plaintiffs allege that “[t]he 2021 plan document
+designates R&R Care Solutions (in fact Me dical) as the benefits [administrator]
+responsible for helping insureds to submit claims, which is a discretionary fiduciary
+function.”72
+
+68 Avila v. Metropolitan Life Ins. Co., No. 1:24-cv-0242-DAE, 2025 WL 1663104 at *3 (W.D. Tex. June 12,
+2025).
+69 R. Doc. 22 at ¶¶ 19-22, pp. 6-7.
+70 Id. at ¶ 19, p. 6.
+71 Id.
+72 R. Doc. 22 at ¶ 21, p. 6. Plaintiffs allege that R&R and Medical are alter egos of each other, and that
+Medical has registered the trade name “R&R Care Solutions” with the Louisiana Secretary of State. R. Doc.
+22, at ¶ 2, p. 1-2. Because this matter is before the Court on a motion to dismiss, the Court accepts the factual
+allegations in the complaint as true. Ashcroft v. Iqbal , 556 U.S. 662, 678 (20 09). Defendants have not
+contested the accuracy of Plaintiffs’ allegations regarding the trade name. Accordingly, for purposes of this
+order, the Court treats R&R Care Solutions and Medical as the same entity. For clarity, however, the Court
+Case 2:24-cv-00836-SM-JVM     Document 42     Filed 10/16/25     Page 11 of 38
+12
+Plaintiffs allege that Medical breached it s fiduciary duties due to: “a) failure to
+notify Karen Lee her life insurance had been terminated; b) failure to institute systems to
+prevent the collections of premiums for whic h coverage no longer exists; c) collecting
+premiums from Karen Lee’s paychecks until the time of her death even though the
+coverage had been terminated (without notifyin g her of the termination); d) failing to
+provide Karen Lee with an accurate summary  plan description gi ving her options for
+coverage portability; e) failing to attempt to  attain new life coverage for Karen Lee after
+the United of Omaha coverage was terminated; f) failing to obtain life coverage that
+actually covered 2021 employees of Medical like Karen Lee; and g) failing to notify Karen
+Lee of portability options when the coverage was terminated.”73
+The Court’s analysis of Plaintiffs’ ERISA claims against Medical under 29 U.S.C. §
+1132(a)(3) will proceed as follows. First, the Court will consider whether Plaintiffs
+sufficiently alleged that Medical acted as a fiduciary and breached a fiduciary duty by
+failing to implement systems to prevent th e improper collection of premiums post-
+termination and by failing to provide notice of termination and portability options. The
+Court will then turn to Plaintiffs’ remaining allegations that Medical breached its fiduciary
+obligations by failing to provide a summary plan description and failing to obtain new
+coverage or secure coverage for its employees post-termination.
+
+will address each Defendant—Medical, R&R, and Mr. Weil—separately. The Court also notes that Plaintiffs’
+alter ego allegations, if accepted as true, are sufficien t at this stage to support treating Medical, R&R, and
+Mr. Weil as alter egos.
+73 R. Doc. 22, at ¶ 17, p. 5.
+Case 2:24-cv-00836-SM-JVM     Document 42     Filed 10/16/25     Page 12 of 38
+13
+1. Plaintiffs allege that Medi cal acted as a fiduciary and
+breached its fiduciary duty.
+
+ Under ERISA, an entity is a fiduciary only if it is named or designated as a fiduciary
+“in the plan instrument,” 74 or if it exercises discretion while administering the plan.75 The
+Plan, attached to Defendants’ motion to dismiss,76 was issued to R&R Care Solutions as
+the policyholder.77 Medical is not a party on the face of the Plan; however, Plaintiffs allege
+that R&R Care Solutions is a trade name of Medical. 78 Louisiana courts have held that a
+trade name has no separate existence apart from the entity doing business through that
+trade name.79 Accepting Plaintiffs’ allegation that R&R Care Solutions is the trade name
+of Medical as true, 80 the Court analyzes Medical’s duty as the policyholder. 81 The Court
+will now consider the Plan, attached to Defendants’ motion to dismiss, and the manner in
+which it allocates responsibility and confers discretion.
+Under the Plan, R&R Care Solutions—and, for purposes of this analysis, Medical—
+is responsible only for the “legal and tax st atus” of the Plan and for its “reporting and
+employment-based design.”82 The Plan expressly reserves to United of Omaha, as the Plan
+provider, all authority and discretion to construe and interpret the Plan. 83 On its face,
+then, the Plan appears to foreclose fiduciar y liability for Defendants by reserving all
+
+74 29 U.S.C. § 1102(a)(2).
+75 29 U.S.C. § 1002(21)(A).
+76 R. Doc. 23-2; R. Doc. 23-3. The Court may consider the Plan in deciding the motion to dismiss because
+it is referenced in the complaint and central to Plaintiffs’ claims. See Walker v. Beaumont Indep. Sch.
+Dist., 938 F.3d 724, 735 (5th Cir. 2019).
+77 R. Doc. 23-2 at p. 1; R. Doc. 23-3 at p. 1.
+78 R. Doc. 22 at ¶ 9, p. 3, ¶ 12, p. 4, and ¶ 21, p. 6.
+79 Trombley v. Allstate Ins. Co., 640 So.2d 815, 817 (La. App. 3 Cir. 1994); Robinson v. Heard, 809 So.2d
+943, 946 (La. 2002).
+80 Defendants do not dispute this fact. R. Doc. 23-1 at p. 9, n. 39.
+81 R. Doc. 22 at ¶ 21, p. 6.
+82 R. Doc. 23-2 at pp. 24-25; R. Doc. 23-3 at pp. 29-30.
+83 Id.
+Case 2:24-cv-00836-SM-JVM     Document 42     Filed 10/16/25     Page 13 of 38
+14
+discretionary authority and control to United of Omaha.84 Nevertheless, “fiduciary status
+is to be determined by looking at the actual authority or power demonstrated, as well as
+the formal title and duties of the parties at issue.”85 Accordingly, the Court considers not
+only the roles the Plan formally conferred on  Medical but also whether the allegations
+plausibly show that Medical in fact exercised discretionary authority in administering the
+Plan.
+Although the Plan does not explicitly designate a plan administrator, it identifies
+R&R Care Solutions (and, for this analysis , Medical) as “Benefits Administrator.” 86
+Plaintiffs argue that, under 29 U.S.C. § 1002 (16)(A)(ii), the Plan’s failure to designate a
+plan administrator makes the plan sp onsor the default plan administrator. 87 Plaintiffs
+argue that Medical qualifies as the default pl an sponsor under 29 U.S.C. § 1002(16)(B),
+because, when a plan is esta blished and maintained by a si ngle employer, that employer
+is deemed the default plan sponsor and, by  operation of § 1002(16)(A)(ii), the plan
+administrator.88 Plaintiffs allege that “Medical is a default plan sponsor under 26 CFR §
+1.414(g)-1(b)(1), as it was Karen Lee’s empl oyer at the time she was provided life
+insurance coverage.”89 Accepting these allegations as true  for purposes of this motion to
+dismiss, Medical is a default plan sponsor and, therefore, the plan administrator.
+However, a finding that an employer qualifies as a plan administrator does not end
+the inquiry. When an employer  serves as the plan sponsor and plan administrator, “an
+employer’s fiduciary duties under ERISA are im plicated only when it  acts in the latter
+
+84 Id.
+85 Landry v. Air Line Pilots Ass’n Inter. AFL-CIO, 901 F.2d 404, 418 (5th Cir. 1990).
+86 R. Doc. 23-2 at p. 24; R. Doc. 23-3 at p. 29.
+87 Id.; 29 U.S.C. § 1002(16)(A)(ii).
+88 29 U.S.C. § 1002(16)(B).
+89 R. Doc. 22 at ¶ 19, p. 6.
+Case 2:24-cv-00836-SM-JVM     Document 42     Filed 10/16/25     Page 14 of 38
+15
+capacity.”90 Even then, fiduciary duties arise only to the extent that the plan administrator
+exercises discretion in administering the plan.91 Accordingly, Medical may be held liable
+as a fiduciary only if the alleged conduct constitutes discretionar y fiduciary functions
+under ERISA and the Plan.92
+To determine whether the challenged conduct constitutes the exercise of
+discretionary functions, the Court considers the Plaintiffs’ allegations against Medical for
+breach of fiduciary duty, including: (1) failing to notify Ms. Lee that her life insurance had
+been terminated; (2) failing to implement systems to prevent the collection of premiums
+for a terminated plan; (3) continuing to deduct premiums from Ms. Lee’s paychecks until
+her death despite the plan having been terminated, without providing notice of
+termination; (4) failing to attempt to secure new life insurance coverage for Ms. Lee after
+United of Omaha terminated the prior policy ; (5) failing to obtain life coverage that
+actually covered Medical’s employees, including Ms. Lee; and (6) failing to notify Ms. Lee
+of portability options upon termination of coverage.
+a. Plaintiffs plausibly allege that Medical breached a
+fiduciary duty by failing to implement systems to
+prevent the improper collection of premiums.
+
+The Court begins by determining whether Medical’s alleged failure to implement
+systems to prevent the improper collection of premiums was a discretionary function
+under ERISA. Medical argues that it was not acting as a fiduciary, characterizing its
+conduct as similar to tasks identified by the DOL regulations as ministerial. 93 These
+regulations provide that “a person who perfor ms purely ministerial functions . . . for an
+
+90 Beck v. PACE Intern. Union, 551 U.S. 96, 101 (2007).
+91 29 U.S.C. § 1002(21)(A).
+92 Beck, 551 U.S. at 101.
+93 R. Doc. 23-1 at pp. 10-11.
+Case 2:24-cv-00836-SM-JVM     Document 42     Filed 10/16/25     Page 15 of 38
+16
+employee benefit plan within a framework of policies, interpretations, rules, practices and
+procedures made by other persons is not a fiduciary.” 94 In support, Defendants cite the
+unpublished Fourth Circuit Court of Appeals decision Moon v. BWX Technologies, Inc.,95
+in which an employer’s failure to notify an employee of benefit ineligibility, while
+continuing to deduct premiums, was held to  be ministerial rather than fiduciary
+conduct.96 The Fourth Circuit reasoned that this conduct resembled the ministerial
+functions listed in the DOL regulations,  such as: “[p]reparation of employee
+communications material,” “[o]rientation of new participants and advising participants
+of their rights and options under the plan,” and “[c]ollection of contributions and
+application of contributions as provided in the plan.”97
+Plaintiffs respond that Moon is distinguishable because Defendants were assigned
+responsibility in the Plan as the Benefits Administrator and that, as the default plan
+administrator under § 1002(16)(A)(ii), Defe ndants failed to implement systems to
+prevent the improper collection of premiums post-termination, thereby exercising
+discretion and affirmatively misrepresenting to Ms. Lee that she was covered.98 The Court
+agrees.99 Unlike in Moon, in which the plan conferred no discretionary authority to the
+Defendant, the Plan before this Court does expressly provide the employer some authority
+as Benefits Administrator and default pl an administrator. Under ERISA, a plan
+
+94 Id.
+95 577 Fed.Appx. 224 (4th Cir. 2014).
+96 577 Fed.Appx. 224, 231 (4th Cir. 2014).
+97 29 C.F.R. § 2509.75-8.
+98 R. Doc. 25 at p. 7.
+99 In addition, the Court notes that Moon is an unpublished decision from the Fourth Circuit, and, therefore,
+is not binding on this Court, but is merely persuasive.
+Case 2:24-cv-00836-SM-JVM     Document 42     Filed 10/16/25     Page 16 of 38
+17
+administrator acts as a fiduciary when it ex ercises discretionary authority or control in
+plan management.100
+The Court finds that failing to implem ent systems to prev ent the improper
+collection of premiums is not merely a clerical task such as processing forms or collecting
+contributions according to predetermined rule s. Rather, the alleged conduct involves
+establishing policies and procedures for plan administration, in effect plan management,
+not merely carrying out instructions or policies set by others. Accordingly, Plaintiffs have
+plausibly alleged that Medical exercised di scretion when, acting as the Benefits
+Administrator and default plan administrator, it implemented inadequate systems for
+ensuring proper premium collection. Construi ng the allegations in Plaintiffs’ favor and
+considering the Plan’s terms, the Court concludes that Plaintiffs have sufficiently alleged
+Medical acted as a fiduciary under ERISA when  it failed to implement adequate systems
+to prevent the improper collection of premiums.
+Furthermore, Plaintiffs have sufficien tly alleged that Medical breached its
+fiduciary duty of care by failing to implem ent a system that would prevent the improper
+collection of premiums post-termination of the Plan. Plaintiffs allege that Medical’s
+failure to establish safeguards against improper premium collection constituted a breach
+of its discretionary duty to administer the Plan with care. These allegations, taken as true
+and viewed in the light most favorable to the Plaintiff, plausibly allege a breach of
+fiduciary duty. Moreover, the collection of premiums, without providing any coverage
+plainly harmed Plaintiffs. Finally, the fact-i ntensive nature of fiduciary status cautions
+against dismissal. At the motion to dismiss stage, when the Plan and ERISA appear to
+
+100 29 U.S.C. § 1002(21)(A).
+Case 2:24-cv-00836-SM-JVM     Document 42     Filed 10/16/25     Page 17 of 38
+18
+assign administrative authority to the empl oyer and Plaintiffs plausibly allege that
+Defendants performed fiduciary functions pursuant to that discretion, the Court hesitates
+to foreclose fiduciary status at the motion to dismiss stage.
+The Court concludes that Plaintiffs have plausibly alleged fiduciary status, breach
+of a fiduciary duty, and injury, and this claim will not be dismissed.
+b. Plaintiffs plausibly allege that Medical breached its
+fiduciary duty by failing to notify Ms. Lee of the
+termination of the Plan or of her portability options.
+
+ Plaintiffs allege Medical acted with di scretion as a fiduciary and breached its
+fiduciary duty by failing to notify Ms. Lee of  the Plan’s termination or of her portability
+options. As plan administrator and employer, Medical’s fiduciary duties arise only to the
+extent that it exercises discretion in administering the plan. 101 In Martinez v.
+Schlumberger, Ltd, the Fifth Circuit explained that wh en an employer serves as a plan
+administrator, it assumes the fiduciary duty  to disclose material facts affecting a
+beneficiary’s interests, particularly when the administrator knows the beneficiary is
+unaware of those facts but needs them for her protection.102 Plaintiffs allege that Medical,
+in its role as plan administrator, received notice of both the Plan’s termination and the
+availability of portability options, yet fail ed to communicate this information to Ms.
+Lee.103 The duty to disclose material facts affecting a participant’s interest goes beyond a
+ministerial act and falls within the discretionar y obligations of a fiduciary, as it directly
+concerns a participant’s ability to make informed decisions about coverage.
+Accepting these allegations as true, Plaintiffs have sufficiently alleged that Medical
+acted as a fiduciary and breached its fiduciary duty by failing to notify Ms. Lee of the Plan’s
+
+101 29 U.S.C. § 1002(21)(A).
+102 Martinez v. Schlumberger, Ltd., 338 F.3d 407, 412 (5th Cir. 2003).
+103 R. Doc. 22 at ¶ 9, p. 3.
+Case 2:24-cv-00836-SM-JVM     Document 42     Filed 10/16/25     Page 18 of 38
+19
+termination and of her portability options, th ereby injuring her and depriving her of the
+opportunity to port her coverage. 104 Accordingly, Plaintiffs have sufficiently alleged
+fiduciary status, breach of a fiduciary d uty, and injury, and th is claim will not be
+dismissed.
+c. Plaintiffs plausibly allege that Medical breached its
+fiduciary duty by failing to provide an accurate
+summary plan description.
+
+The Court now considers whether Plaintiffs  have sufficiently alleged that Medical
+acted as a fiduciary and breached its duty by failing to provide an accurate summary plan
+description, even though there had been no request. Defendants argue this claim is barred
+because ERISA provides a specific statutory enforcement scheme governing the failure to
+provide summary plan descriptions.105 According to Defendants, Plaintiffs sued under the
+wrong provision, asserting that the correct provision is 29 U.S.C. § 1024(b)(4), which
+requires plan administrators to provide a summary plan description upon a written
+request, and that any such claim by Plaintiffs would be prescribed. 106 In response,
+Plaintiffs explain they are bringing their breach of fiduciary duty claim under 29 U.S.C. §
+1022(a) and § 1024(b)(1) for failure to provide an accurate summary plan description, as
+opposed to a claim for penalties for failur e to provide plan documents upon written
+request.”107
+Under 29 U.S.C. § 1022(a), “[a] summary plan description of any employee benefit
+plan shall be furnished to participants and beneficiaries as provided in section 1024(b) of
+this title.”108 Section 1024(b)(1) requires that “[t]he administrator shall furnish to each
+
+104 Id.
+105 R. Doc. 23-1 at pp. 11-13.
+106 Id.
+107 29 U.S.C. § 1022(a); 29 U.S.C. § 1132(c)(1); R. Doc. 25 at pp. 7-8.
+108 29 U.S.C. § 1022(a).
+Case 2:24-cv-00836-SM-JVM     Document 42     Filed 10/16/25     Page 19 of 38
+20
+participant, and each beneficiary . . . a copy of the summary plan description” by the later
+of “90 days after he becomes a participant, or (in the case of a beneficiary) within 90 days
+after he first receives benefits, or . . . 120 days after the plan becomes subject to
+[ERISA]”109 This obligation is automa tic and does not depend on  a request. By contrast,
+under § 1024(b)(4), a plaintiff may sue for failure to provide a copy of the summary plan
+description only after making a written request to the administrator.110
+29 U.S.C. § 1132(a)(1)(A) provides a cause of action for violations of § 1024(b)(4).111
+Plaintiffs allege that, although they reques ted plan documentation before filing suit,
+M e d i c a l  p r o v i d e d  o n l y  a  2 0 2 1  p l a n  d o c u m e n t  a n d  n o  s e p a r a t e  s u m m a r y  p l a n
+description.112 Even though Plaintiffs allege they actually made a request, they maintain
+their ERISA claim is not pleaded under § 1024(b)(4) for Medical’s failure to produce a
+summary plan description in response to that request. 113 Instead, Plaintiffs bring this
+claim under § 1024(b)(1), alleging that Medica l breached its fiduciary duty by failing to
+provide Ms. Lee with a summary plan description at the outset of her coverage, and they
+seek to enforce this claim through the mechanism provided in § 1132(a)(3).114
+The Supreme Court has recognized that eq uitable relief under § 1132(a)(3) is
+available when deficiencies in a summary plan description cause injury. In CIGNA Corp.
+v. Amara, the Court held that an employee misled by his employer’s failure to provide a
+
+109 29 U.S.C. § 1024(b)(1).
+110 29 U.S.C. § 1024(b)(4) provides that “[t]he administrator shall, upon written request of any participant
+or beneficiary, furnish a copy of the latest updated summary plan description.” Id.
+111 29 U.S.C. § 1132(a)(1)(A). This section provides a cause of action for “the relief provided for in subsection
+(c) of this section.” Id. Subsection (c)(1) provides that any admini strator “who fails or refuses to comply
+with a request for any information which such administra tor is required by this subchapter to furnish to a
+participant or beneficiary . . . may in the court’s disc retion be personally liable to such participant or
+beneficiary.” Id. a t  ( c ) ( 1 ) .  B e c a u s e  §  1 0 2 4 ( b ) ( 4 )  i s  i n  t h e  s a m e  s u b c h a p t e r  a s  §  1 1 3 2 ,  v i o l a t i o n s  o f  §
+1024(b)(4) may be enforced through the cause of action provided in § 1132(a)(1)(A).
+112 R. Doc. 22 at ¶ 16, p. 5.
+113 Id. at ¶ 16-24, pp. 5-7; R. Doc. 25 at p. 8.
+114 Id. at ¶¶ 17-24, pp. 5-7; R. Doc. 25 at p. 8.
+Case 2:24-cv-00836-SM-JVM     Document 42     Filed 10/16/25     Page 20 of 38
+21
+proper summary plan description could obtain equitable remedies under § 1132(a)(3). 115
+Consistent with that princi ple, the Fifth Circuit in Manuel v. Turner Industries Group,
+L.L.C., confirmed that injuries stemming from failures to provide proper summary plan
+descriptions are cognizable under § 1132(a)(3).116 Plaintiffs allege that Medical, acting as
+a fiduciary, breached its duty by failing to provide a summary plan description to Ms. Lee
+at the outset of her coverage. 117 Plaintiffs allege this failur e injured Ms. Lee by depriving
+her of material information regarding her benefits, portability options, and conditions for
+termination of coverage.118 Accepting these allegations as true, Plaintiffs plausibly allege
+that this omission was a breach of Medical’s fiduciary duty, and caused injury.
+Accordingly, because Plaintiffs plausibly allege that Medical breached its fiduciary
+duties and caused injury, and because the re quested equitable remedies are appropriate
+under ERISA,119 the Court finds that Plaintiffs have sufficiently stated claims for breach
+of fiduciary duty based on the alleged failur e to provide a summary plan description to
+Ms. Lee at the outset of her coverage, and this claim will not be dismissed.
+2. Plaintiffs claim that Medical breached its fiduciary duty by
+failing to obtain new coverage post-termination and by
+failing to secure coverage for Medical employees will be
+dismissed.
+
+a. Plaintiffs have failed to state a cause of action for
+Medical’s breach of a fiduciary duty by failing to
+obtain new life coverage post-termination.
+
+Plaintiffs allege that Medical breached it s fiduciary duty by failing to attempt to
+obtain new life coverage for Ms. Lee after the United of Omaha policy was terminated.  As
+
+115 CIGNA Corp. v. Amara, 563 U.S. 421, 443-44 (2011).
+116 Manuel v. Turner Industries Group, L.L.C., 905 F.3d 859, 865-66 (5th Cir. 2018).
+117 R. Doc. 22 at ¶¶ 17-24, pp. 5-7.
+118 Id. at ¶¶ 13-23, pp. 4-7.
+119 See supra Section I, supra, at pp. 8-9,  for the Court’s discussion of whether the requested equitable
+remedies are appropriate under ERISA.
+Case 2:24-cv-00836-SM-JVM     Document 42     Filed 10/16/25     Page 21 of 38
+22
+the Supreme Court has recognized, “[n]othing in ERISA requires employers to establish
+employee benefits plans.” 120 Moreover, the plain language of ERISA provides that an
+entity acts as a fiduciary only “with respect to a plan.” 121 Read together, these principles
+establish that because employers have no duty under ERISA to create a plan, and fiduciary
+duties exist only while a plan is in effect, Medical could not have been acting in a fiduciary
+capacity by failing to secure coverage af ter the Plan was terminated. Accordingly,
+Plaintiffs fail to state a cognizable ERISA claim based on this conduct, and this claim will
+be dismissed with prejudice.
+b. Plaintiffs have failed to state a cause of action for
+Medical’s breach of a fiduciary duty by failing to
+secure coverage for Medical’s employees.
+
+Plaintiffs further allege that Medical breached a fiduciary duty by failing to secure
+life coverage for its employees, including Ms. L ee. This argument appears to rest on the
+fact that the Plan was issued to R&R Care Solutions. That theory is contradicted by
+Plaintiffs’ own allegations, which acknowledge that Ms. Lee was in fact covered under the
+Plan issued to R&R Care Soluti ons, the trade name of Medical. 122 As noted above,
+Louisiana courts have held that a trade name  has no separate existence apart from the
+entity doing business through that trade name. 123 Because the Plan was issued to R&R
+Care Solutions—a trade name of Medical—th e Plan was in fact issued to Medical.
+Plaintiffs’ allegation therefore amounts to an admission that Ms. Lee was covered under
+her employer’s Plan, even if the Plan listed the employer’s  trade name rather than its
+
+120 Lockheed Corp. v. Spink, 517 U.S. 882, 887 (1996).
+121 29 U.S.C. § 1002(21)(A).
+122 R. Doc. 22 at ¶ 9, p. 3; R. Doc. 25 at p. 2.
+123 Trombley v. Allstate Ins. Co., 640 So.2d 815, 817 (La. App. 3 Cir. 1994); Robinson v. Heard, 809 So.2d
+943, 946 (La. 2002).
+Case 2:24-cv-00836-SM-JVM     Document 42     Filed 10/16/25     Page 22 of 38
+23
+corporate name. Plaintiffs’ admission that Ms. Lee was covered is inconsistent with their
+claim that Medical failed to secure coverage, and the claim cannot stand.
+In any event, the claim also fails as a matter of law. As explained,124 employers have
+no duty to establish employee benefit plans. Accordingly, a claim for failure to provide life
+insurance coverage is not a cognizable cause of action under ERISA. For these reasons,
+this claim will be dismissed with prejudice.
+II. Count One: Plaintiffs’ claims against Medical for ERISA estoppel under
+common law will not be dismissed.
+
+The Fifth Circuit has recognized ERISA estoppel as an independent cause of action
+pursuant to its authority to develop federal common law under ERISA. 125 Plaintiffs seek
+ERISA estoppel, asking the Court to prohibit Defendants from “stating no coverage was
+in place and Lee and her beneficiaries are not eligible for any life insurance proceeds.”126
+Plaintiffs allege that Ms. Lee reasonably relied on Medical’s representations and the
+continued deduction of premiums from her pa ychecks to support her belief that life
+insurance coverage existed.127 Plaintiffs allege that Ms. Lee relied on these assurances to
+her detriment and suffered harm when the Plan was terminated, and that Medical should
+therefore be estopped from denying coverage and from asserting that Ms. Lee and her
+beneficiaries are ineligible for life insurance proceeds.128
+“To establish an ERISA-estoppel claim, a pl aintiff must establish: (1) a material
+misrepresentation; (2) reasonable and detrimental reliance upon the misrepresentation;
+
+124 See supra Section I.A.2.a.
+125 Mello v. Sara Lee Corp., 431 F.3d 440, (5th Cir. 2005).
+126 R. Doc. 22 at ¶ 24, p. 7. The Court need not determine Medical’s fiduciary status with respect to Plaintiffs’
+ERISA estoppel claim, as fiduciary status is required  only for claims brought under §502(a)(3) for breach
+of fiduciary duty.
+127 R. Doc. 22 at ¶ 24, p. 7.
+128 Id.
+Case 2:24-cv-00836-SM-JVM     Document 42     Filed 10/16/25     Page 23 of 38
+24
+and (3) extraordinary circumstances.”129 A misrepresentation is material where there is a
+substantial likelihood that it would misl ead a reasonable employee in making an
+adequately informed decision. 130 Material misrepresentations can be made through
+informal documents—that is, documents other than the plan itself. 131
+Plaintiffs allege that Medical materially  misrepresented the existence of coverage
+by continuing to deduct premiums from Ms. Lee’s paychecks post-termination, with those
+representations reflected in her pay stubs. 132 In an action strikingly similar to this one,
+Talasek v. National Oilwell Varco, L.P., the Fifth Circuit held that an employer materially
+misrepresented the existence of coverage when it continued deducting premiums from an
+employee’s paycheck.133 The Court finds that Plaintiffs have sufficiently alleged that, by
+providing Ms. Lee with pay stubs showing premium deductions, Medical materially
+misrepresented the existence of coverage post-termination.
+Next, the Court considers whether Plaintiffs have sufficiently alleged that Ms. Lee
+reasonably and detrimentally relied on the mi srepresentation. In the Fifth Circuit, an
+employee cannot reasonably rely on informal documents when the terms of the plan are
+unambiguous.134 However, accepting the allegations as true, Ms. Lee was never provided
+a copy of the Plan or a summary plan descri ption, so she did not have the benefit of
+examining the Plan herself. She was never notified that the Plan had been cancelled or of
+her right to port coverage. The Court finds Plaintiffs have adequately alleged detrimental
+reliance, as Plaintiffs allege that Ms. Lee’s reliance on the misrepresentation deprived her
+
+129 Mello, 431 F.3d at 444-45.
+130 Talasek v. National Oilwell Varco, L.P., 16 F.4th 164, 168 (5th Cir. 2021).
+131 Mello, 431 F.3d at 445.
+132 R. Doc. 22, ¶ 24 at p. 7.
+133 Talasek, 16 F.4th at 168.
+134 Talasek, 16 F.4th at 169.
+Case 2:24-cv-00836-SM-JVM     Document 42     Filed 10/16/25     Page 24 of 38
+25
+of any opportunity to port coverage and resulted  in the loss of her life insurance. Having
+plausibly alleged both a material misrepresentation and reasonable, detrimental reliance,
+the Court turns to whether Plaintiffs plausibly alleged extraordinary circumstances exist.
+Extraordinary circumstances may exist wh en there is “bad faith, fraud, or
+concealment, as well as possibly when a plaintiff repeatedly and diligently inquired about
+benefits and was repeatedly misled or wh en misrepresentations were made to an
+especially vulnerable plaintiff.”135 Plaintiffs allege that Medical failed to provide Ms. Lee
+with a summary plan description, that Medica l received notice of the Plan’s termination
+but failed to notify Ms. Lee of that termination, and that Medical continued deducting
+premiums from her paychecks until her death.
+Accepting these allegations as true and construing them in Plaintiffs’ favor, the
+Court concludes that the sequence of events—an employee knowingly left unaware of her
+rights and benefits under the Plan, or of it s termination, while Mr. Weil, as owner of
+Medical (which does business under the trade name R&R Ca re Solutions, the entity
+named in the Plan) and R&R, received notice and a sample letter to send to employees—
+reasonably supports an inference of bad faith and concealment by Medical. Plaintiffs have
+plausibly alleged that Ms. Lee was rendered especially vulnerable, through no fault of her
+own, to the loss of her life insurance, rising  to the level of extraordinary circumstances.
+Accordingly, the Court finds th at Plaintiffs have sufficien tly alleged an ERISA estoppel
+claim against Medical and will deny the motion to dismiss as to this claim.
+
+135 Cell Sci. Sys. Corp. v. La. Health Serv., 804 Fed.App’x 260, 266 (5th Cir. 2020).
+Case 2:24-cv-00836-SM-JVM     Document 42     Filed 10/16/25     Page 25 of 38
+26
+III. Count Two: Plaintiffs’ claims for breach of fiduciary duty against R&R
+seeking surcharge and accounting un der 29 U.S.C. § 1132(a)(3) based
+on failure to notify of terminatio n and portability options and failure
+to provide an accurate summary plan description will not be
+dismissed.
+
+Plaintiffs also assert breach of fiduciary duty claims against R&R, in its capacity as
+a separate corporation and as an alter ego of Medical and Mr. Weil, alleging violations
+identical to two of those brought against Medical but seeking only the equitable remedies
+of accounting and surcharge.136
+To begin, the Court addresses the sufficiency  of Plaintiffs’ allegations that R&R is
+the alter ego of Medical and Mr. Weil. When  corporations constitute a single business
+enterprise, a court may “disregard the conce pt of corporate separateness and extend
+liability to each of the affiliated corporations.”137 A single business enterprise exists when
+a corporation is found to be the alter ego of another corporation. 138 Plaintiffs allege that
+“R&R and Medical are alter-egos of each other, as they are engaged in a similar business,
+have common ownership, and employees an d insurance coverage were transferred
+between the two entities.”139 Plaintiffs allege that Mr. Weil “failed to observe the proper
+corporate formalities and failed to operate R&R and Medical as separate entities.”140
+Plaintiffs allege that “[t]he imposition  of alter-ego and personal liability is
+appropriate in this case based on the unique fa cts of this case and based on the fact that
+to limit liability to one corporation in this case would frustrate the purposes of ERISA.”141
+On a motion to dismiss, these allegations are sufficient to plausibly support the conclusion
+
+136 R. Doc. 22 at ¶ 25, p. 7.
+137 Brown v. Auto. Cas. Ins. Co., 644 So.2d 723, 727 (La. App. 1st Cir. 1994)
+138 Dishon v. M. Ponthie, 918 So.2d 1132, 1135 (La. App. 3d Cir. 2005).
+139 R. Doc. 22 at ¶ 2, pp. 1-2.
+140 Id. at ¶ 11, pp. 3-4.
+141 Id. at ¶ 12, p. 4.
+Case 2:24-cv-00836-SM-JVM     Document 42     Filed 10/16/25     Page 26 of 38
+27
+that R&R acted not only in its own right, but also as the alter ego of Medical and Mr. Weil.
+Accordingly, the Court treats R&R as the alte r ego of Medical and Mr. Weil for purposes
+of this analysis.
+Plaintiffs seek the same equitable remedies against R&R as they do against Medical
+based on the same conduct. The conduct challenged here—failure to notify of termination
+and portability options and failure to provid e an accurate summary plan description—is
+identical to conduct Plaintiffs alleged agai nst Medical. Because the allegations against
+R&R’s alter ego Medical have been found to be sufficient to survive a motion to dismiss
+based on claims that it acted as a fiduciary and breached its fiduciary duties, the same is
+true of R&R.
+Accordingly, Plaintiffs claims against R&R for breach of fiduciary duty based on
+failure to notify of termination and portability and failure to provide an accurate summary
+plan description will not be dismissed.
+IV. Count Two: Plaintiffs’ claims for breach of fiduciary duty against R&R
+seeking surcharge and accounting un der 29 U.S.C. § 1132(a)(3) based
+on collection of premiums post-termination will be dismissed with
+prejudice.
+
+Plaintiffs allege that R&R breached its fiduciary duty by failing to attempt to obtain
+new life coverage for Ms. Lee after the United  of Omaha policy was terminated.  As the
+Supreme Court has recognized, “[n]othing in  ERISA requires employers to establish
+employee benefits plans.” 142 Moreover, the plain language of ERISA provides that an
+entity acts as a fiduciary only “with respect to a plan.” 143 Read together, these principles
+establish that because employers have no duty under ERISA to create a plan, and fiduciary
+
+142 Lockheed Corp. v. Spink, 517 U.S. 882, 887 (1996).
+143 29 U.S.C. § 1002(21)(A).
+Case 2:24-cv-00836-SM-JVM     Document 42     Filed 10/16/25     Page 27 of 38
+28
+duties exist only while a plan is in effect, R&R could not have been acting in a fiduciary
+capacity by failing to secure coverage af ter the Plan was terminated. Accordingly,
+Plaintiffs fail to state a cognizable ERISA claim based on this conduct, and this claim will
+be dismissed with prejudice.
+V. Count Three: Plaintiffs’ claims for breach of fiduciary duty against Mr.
+Weil seeking surcharge and accounting under 29 U.S.C. § 1132(a)(3) for
+failing to notify Ms. Lee of the termination, representing to Ms. Lee
+that she had life insurance coverage, and failing to notify Ms. Lee of her
+portability options will not be dismissed.
+
+Plaintiffs assert breach of fiduciary duty claims against Mr. Weil, in his individual
+capacity, under a corporate veil piercing theory, and as the alter ego of R&R and Medical.
+Plaintiffs assert that Mr. Weil breached his fiduciary duties by: “a) failure to notify Karen
+Lee her life insurance under the R&R policy  had been terminated  even though the
+termination letter was addressed to him; b) re presenting to Karen Lee that she had life
+insurance coverage, c) choosing to provide Karen Lee coverage through a policy issued to
+R&R Care Solutions even though Karen Lee was a Medical employee in at least the years
+2021 and 2022; and d) failing to notify Karen Lee of portability options when the United
+of Omaha Life Insurance Company was terminated in 2022.”144
+The Court already  has found the allegati ons concerning alter ego liability to be
+sufficient.145 However, the Court will briefly addre ss the corporate veil piercing theory
+before analyzing the sufficiency of the breach of fiduciary duty claims against Mr. Weil.
+“Corporations function as distinct legal entities, separate from the individuals who
+own them, and their shareholders are not generally liable for the debts of the
+
+144 R. Doc. 22 at ¶ 27, p. 8. Plaintiffs allege that Mr. Weil breached his fiduciary duty by providing Ms. Lee
+with coverage through R&R Care Solutions.
+145 See supra Section III.
+Case 2:24-cv-00836-SM-JVM     Document 42     Filed 10/16/25     Page 28 of 38
+29
+corporation.”146 “Louisiana courts are reluctant to hold a shareholder, officer, or director
+of a corporation personally liable for corporate obligations, in the absence of fraud,
+malfeasance, or criminal wrongdoing.” 147 Courts consider several factors when
+determining whether to pierce the corporate veil, including but not limited to: “1)
+commingling of corporate and shareholder funds; 2) failure to follow statutory formalities
+for incorporating and transacting corporate affa irs; 3) undercapitalization; 4) failure to
+provide separate bank accounts and bookkeepin g records; and 5) failure to hold regular
+shareholder and director meetings.”148 “When a party seeks to pierce the corporate veil,
+the totality of the circumstances is determinative.”149
+Plaintiffs allege that Mr. Weil’s “actions  and inactions in this case justify the
+imposition of personal liability under ERIS A and through the piercing of the corporate
+veil.”150 Plaintiffs allege that Mr. Weil “should be  held personally liable for the fiduciary
+breaches and other actions of R&R and Medica l because he failed to observe corporate
+formalities, failed to keep the two companies  separate, and failed to keep his family’s
+personal affairs separate from these businesses.” 151 The Court finds these allegations
+sufficient, at the motion to dismiss stage, to warrant allowing the veil piercing theory to
+proceed. This is particularly appropriate give n the unavailability of the facts regarding
+this issue at this stage of the proceeding.
+Turning to Mr. Weil’s individual breach  of fiduciary obliga tions allegations,
+Plaintiffs allege that Mr. Weil “is a fi duciary under ERISA” because “[h]e had the
+
+146 Hollowell v. Orleans Regional Hosp. LLC , 217 F.3d 379, 385 (5th Cir. 2000) (citing Riggins v. Dixie
+Shoring Co., Inc., 590 So.2d 1164, 1167 (La. 1991)).
+147 Riggins v. Dixie Shoring Co.,  590 So.2d 1164, 1168 (La. 1991).
+148 Id.
+149 Id. at 1169.
+150 R. Doc. 22 at ¶ 11, pp. 3-4.
+151 Id. at ¶ 14, p. 4.
+Case 2:24-cv-00836-SM-JVM     Document 42     Filed 10/16/25     Page 29 of 38
+30
+obligation to provide plan participants no tice of termination and portability rights
+because United of Omaha’s letter explaini ng termination and portability rights was
+addressed to him.”152 Plaintiffs allege that Mr. Weil “exercised fiduciary responsibility by
+affirmatively representing to Karen Lee th at she had life insurance coverage and by
+assuming responsibility for obtaining the actual life insurance coverage through an
+insurance company.”153 Plaintiffs allege that Mr. Weil “also exercised discretion in how
+life insurance would be obtained for employ ees of R&R and Medical, both companies he
+owned.”154
+The Court finds that Plaintiffs plausibly allege fiduciary status and breach with
+respect to Mr. Weil’s failure to notify Ms. Lee of termination and portability options and
+his representations regarding her coverage. 155 Plaintiffs allege that Mr. Weil received
+direct notice of the Plan’s termination ye t failed to inform Ms. Lee, and that he
+affirmatively represented she remained insured. 156 Under Martinez v. Schlumberger,
+Ltd., such nondisclosure and misrepresentatio n of material facts plausibly constitute
+discretionary fiduciary conduct. Accepting th e allegations as true, Plaintiffs have
+adequately pleaded fiduciary status, breach, and resulting injury against Mr. Weil. This
+claim will not be dismissed.
+
+152 Id. at ¶ 28, p. 8.
+153 R. Doc. 22 at ¶ 28, p. 8.
+154 Id.
+155 Id.
+156 Id.
+Case 2:24-cv-00836-SM-JVM     Document 42     Filed 10/16/25     Page 30 of 38
+31
+VI. Count Three: Plaintiffs’ claims for breach of fiduciary duty against Mr.
+Weil seeking surcharge and accounting under 29 U.S.C. § 1132(a)(3) for
+failing to provide coverage in the name of Medical will be dismissed
+with prejudice.
+
+Plaintiffs’ allegation that Medical brea ched its fiduciary duty by choosing to
+provide coverage to Ms. Lee through a policy issued by United of Omaha to R&R Care
+Solutions, even though she was an employee of Medical in at least the years 2021 and
+2022, is similar to her claim against Medical th at it failed to secure life coverage for its
+employees because the policy was issued to R&R Care Solutions. This argument appears
+to rest on the fact that the Plan was issued to R&R Care Solutions rather than Medical.
+That theory is contradicted by Plaintiffs’ own allegations, which acknowledge that Ms. Lee
+was in fact covered under the Plan issued to R&R Care Solutions, the trade name of
+Medical.157
+As noted above, Louisiana courts have he ld that a trade name has no separate
+existence apart from the entity doing business through that trade name. 158 Because the
+Plan was issued to R&R Care Solutions—a tr ade name of Medical—the Plan was in fact
+issued to Medical. Plaintiffs’ allegation therefore amounts to an admission that Ms. Lee
+was covered under her employer’s Plan, even if the Plan listed the employer’s trade name
+rather than its corporate name. Plaintiffs’ admission that Ms. Lee was covered is
+inconsistent with their claim that Mr. Weil breached a fiduciary duty by placing the
+coverage in the trade name of R&R Care Sol utions. Moreover, the Court reiterates that
+ERISA imposes fiduciary duties only with respect to an existing plan, and because
+employers have no duty to create or maintain a plan, this allegation does not state a claim
+
+157 Id. at ¶ 9, p. 3; R. Doc. 25 at p. 2.
+158 Trombley v. Allstate Ins. Co., 640 So.2d 815, 817 (La. App. 3 Cir. 1994); Robinson v. Heard, 809 So.2d
+943, 946 (La. 2002).
+Case 2:24-cv-00836-SM-JVM     Document 42     Filed 10/16/25     Page 31 of 38
+32
+for breach of fiduciary duty. Accordingly, Pl aintiffs’ claim that Mr. Weil breached his
+fiduciary duty by failing to secure cover age through Medical will be dismissed with
+prejudice.
+VII. Count Three: Plaintiffs’ claims ag ainst Mr. Weil for ERISA estoppel
+under common law will not be dismissed.
+
+As with Medical, Plaintiffs also assert  an ERISA estoppel claim against Mr. Weil,
+alleging that he materially misrepresent ed the existence of coverage by deducting
+premiums, assuring Ms. Lee she remained in sured, and by failing to notify her of
+termination or portability options despite receiving direct notice. 159 Plaintiffs further
+allege that Ms. Lee reasonably relied on these representations to her detriment, losing the
+opportunity to port her coverage. 160 For the reasons stated above in Section II, and
+construing the allegations in Plaintiffs’ favor,  the Court concludes that Plaintiffs have
+plausibly alleged material misrepresentation,  reasonable and detrimental reliance, and
+extraordinary circumstances. Accordingly, Pl aintiffs’ ERISA-estoppel claim against Mr.
+Weil survives the motion to dismiss.
+VIII. The motion to dismiss Plaintiffs’ claims under Louisiana law for breach
+of fiduciary duty, breach of contract, and detrimental reliance will be
+granted, but without prejudice.
+
+Defendants seek dismissal of Plaintiffs’ Louisiana state law claims for breach of
+fiduciary duty, breach of contract, and detrimental reliance arguing the fiduciary duty
+claim is prescribed and the contract claim fa ils because no contract existed between Ms.
+
+159 R. Doc. 22 at ¶ 30, p. 9.
+160 Id.
+Case 2:24-cv-00836-SM-JVM     Document 42     Filed 10/16/25     Page 32 of 38
+33
+Lee and Defendants. 161 The Court need not reach those arguments, as the claims are
+preempted by ERISA and must be dismissed on that basis.162
+Preemption under ERISA occurs in two ways—complete and conflict. 163 Complete
+preemption operates as an exception to th e well-pleaded complaint rule, providing an
+avenue for removal to federal court even when the petition does not affirmatively allege a
+federal cause of action.164 ERISA is afforded this extraordinary preemptive effect because
+Congress enacted a comprehensive enforcement mechanism under 29 U.S.C. § 1132(a),
+essential to accomplishing ERISA’s purpose of comprehensively regulating employee
+benefit plans.165 Therefore, complete preemption functio ns to confer federal jurisdiction
+over state-law claims that are, in reality, ERISA claims. 166 Complete preemption itself is
+not a grounds for dismissal, rather it is jurisdictional in nature. 167 Accordingly, “[w]here
+a state law claim merely duplicates the remedies provided in § 502(a), the state law claim
+is completely preempted and will be recharacterized as a federal claim under § 502(a).”168
+
+161 R .  D o c .  2 3 - 1 ,  a t  p p .  1 4 - 1 8 .  D e f e n d a n t s  d o  n o t  p r e s e n t  a n y  a r g u m e n t  s p e c i f i c a l l y  a d d r e s s i n g  w h e t h e r
+Plaintiffs’ detrimental reliance claim should be dismissed. However, Defendants do argue that all state law
+claims should be dismissed if the Court dismisses Pl aintiffs’ federal claims for lack of subject matter
+jurisdiction. That argument fails as a ma tter of law because, as explained in infra Section IX, the Court
+retains discretion to exercise supplemental jurisdiction over state law claims even if all federal claims are
+dismissed.
+162 Defendants argue that the state law breach of fiduci ary duty claim is “at its core no different than the
+ERISA breach of fiduciary duty claim.” R. Doc. 23-1, at p. 15.
+163 Giles v. NYLCare Health Plans, Inc., 172 F.3d 332, 336 (5th Cir. 1999). The Court does not reach conflict
+preemption because it finds that Plaintiffs’ state law claims are completely pree mpted. Moreover, unlike
+complete preemption, which is jurisdictional in natu re, conflict preemption operates as an affirmative
+defense that Defendants must plead and prove. Simmons v. Sabine River Auth. Louisiana, 732 F.3d 469,
+473 (5th Cir. 2013).
+164 Ford v. Freemen, 388 F.Supp.3d 692, 699 (N.D. Tex. 2019).
+165 Aetna Health Inc. v. Davila, 542 U.S. 200, 208-09 (2004).
+166 Woods v. Texas Aggregates, L.L.C., 459 F.3d 600, 603 (5th Cir. 2006).
+167 Mid-Town Surgical Ctr., L.L.P. v. Humana Health Plan of Tex., Inc., 16 F.Supp.3d. 767, 780 (S.D. Tex.
+2014) (citing Loffredo v. Daimler AG, 500 Fed.Appx. 491, 501 (6th Cir. 2012)).
+168 Woods, 459 F.3d at 603.
+Case 2:24-cv-00836-SM-JVM     Document 42     Filed 10/16/25     Page 33 of 38
+34
+When determining whether claims are completely preempted, courts first ask
+whether the plaintiff could have originally brought the state-law claim under ERISA.169 If
+so, complete preemption applies when the caus e of action did not arise independently
+from a separate legal duty but instead derives solely from duties established by ERISA.170
+First, the Court will determine whether Plaintiffs’ breach of fiduciary duty claim is
+completely preempted. Plaintiffs allege that Defendants acted as fiduciaries by deducting
+premiums but failing to remit them to th e insurance company, thereby fraudulently
+converting Ms. Lee’s assets.171 The first prong of the analysis is satisfied because Plaintiffs
+did, in fact, bring breach of fiduciary duty claims under ERISA based on the same
+conduct.172 The second prong of the analysis is li kewise satisfied because the cause of
+action would not have arisen absent Ms. L ee’s status as a participant of an ERISA
+governed plan; the legal duty is implicated solely by the legal relationships established
+under the Plan. Accordingly, Plaintiffs’ state law claim for breach of fiduciary duty is
+completely preempted.
+Because Plaintiffs originally brought thei r state law claims in federal court, the
+Court must address how to treat the Louisiana breach of fiduciary duty claim once it is
+recharacterized as an ERISA claim. The Fi fth Circuit has not di rectly ruled on “the
+appropriate course of action for claims foun d to be completely preempted,” although it
+did discuss the approaches that  district courts have taken. 173 “Most hold that complete
+preemption results in dismissal of the state-la w claim, even though they typically allow
+
+169 Ford, 388 F.Supp.3d at 699-700.
+170 Id.
+171 R. Doc. 22 at ¶ 32, pp. 9-10.
+172 Id. at ¶¶ 17-30, pp. 5-9.
+173 Spear Mktg., Inc. v. BancorpSouth Bank, 791 F.3d 586, 598 n.62 (5th Cir. 2015).
+Case 2:24-cv-00836-SM-JVM     Document 42     Filed 10/16/25     Page 34 of 38
+35
+plaintiffs to replead and assert the dism issed state law claims as federal claims.” 174 The
+Fifth Circuit did observe that one of its previous decisions “appears to provide support for
+the dismissal approach.”175 The Court finds additional support for dismissal of the state
+law claim because Plaintiffs have pending ERISA breach of fiduciary duty claims. Treating
+this claim as an additional ERISA breach of fiduciary duty claim would be duplicative and
+unnecessary.176 As a result, the Court dismisses the state law breach of fiduciary duty
+claim without prejudice. Plaintiffs are grante d leave to replead this claim as a federal
+claim.177
+The Court next considers whether Plaintiffs’ Louisiana breach of contract claim is
+completely preempted. Plaintiffs allege that Defendants entered into a contract with
+Karen Lee whereby premiums were deducted from her paycheck in exchange for life
+insurance coverage. 178 Plaintiffs allege that Karen Lee performed her contractual
+obligations by paying the agreed-upon premiums, but Defendants breached the contract
+by failing to obtain coverage for Ms. Lee.179
+The first prong of the complete preemption test is satisfied because Plaintiffs could
+have brought this claim under ERISA. At it s core, the claim challenges the failure to
+provide life insurance benefits, a cause of acti on that falls squarely within ERISA’s civil
+enforcement provision.180 The second prong is also satisfie d, as the claim does not arise
+
+174 Id. The Fifth Circuit noted that one district court adopted a different approach, treating the claim as a
+properly asserted federal claim and adjudicating it on the merits. Id.
+175 Id. (citing GlobeRanger Corp. v. Software AG, 691 F.3d 702, 706 (5th Cir. 2012).
+176 For the Court’s analysis on Plaintiffs’ breach of fiduciary duty claims see supra Section I to Section VI.
+177 The Court notes, however, that it appears duplicative of the ERISA breach of fiduciary duty claims already
+brought. If Plaintiffs intended to assert a distinct ERISA breach of fiduciary duty claim, they may clarify
+that in their amended complaint.
+178 R. Doc. 22 at ¶ 33, p. 10.
+179 Id.
+180 § 502(a)(1) provides that a civil enforcement action may be brought by a participant “to recover benefits
+due to him under the terms of his plan, to enforce his rights under the terms of the plan, or to clarify his
+rights to future benefits under the terms of the plan.”
+Case 2:24-cv-00836-SM-JVM     Document 42     Filed 10/16/25     Page 35 of 38
+36
+independently from any separate legal duty . Rather, the obligation to provide life
+insurance coverage exists solely because of  the ERISA-governed employee benefit plan.
+Without the plan, no duty to  provide coverage would exist.  Accordingly, the Court finds
+that Plaintiffs’ breach of contract claim also is completely preempted by ERISA.
+Therefore, Plaintiffs’ breach of contract clai m, properly recharacterized as a denial of
+benefits claim, is dismissed without prejudice. Plaintiffs are granted leave to amend their
+complaint to replead their claim under ERISA.181
+The Court now considers whether Plaintiffs ’ Louisiana detrimental reliance claim
+is completely preempted. Plaintiffs allege that  Ms. Lee reasonably relied on Defendants’
+representations that she was being provided life insurance coverage, and on the fact that
+premiums were deducted from her paycheck to her detriment, as she did not make any
+other arrangements for life insurance coverage.182
+For the same reasons set forth in the Cour t’s analysis of the breach of contract
+claim, the Court finds that Plaintiffs’ detr imental reliance claim also is completely
+preempted by ERISA. The claim, like the breach of contract claim, seeks recovery for the
+alleged failure to provide life insurance bene fits and depends entirely on duties arising
+from the ERISA-governed plan. Accordingly, the claim is dismissed without prejudice,
+and Plaintiffs are granted leave to amend their complaint to replead the claim under
+ERISA.183
+
+181 If Plaintiffs choose to amend, the Court cautions them to be wary: as they may not pursue claims under
+§ 502(a)(1)(B) and § 502(a)(3) simultaneously unless each claim is based on a distinct injury. Manuel v.
+Turner Indus. Grp., L.L.C. , 705 F.3d 859, 865 (5th Cir. 2018).  Generally, bringing a claim under §
+502(a)(1)(B) forecloses relief under § 502(a)(3), because (a)(3) is unavailable when another ERISA
+provision provides “an adequate mechanism for redress.” Innova Hosp. San Antonio, Ltd. P'ship v. Blue
+Cross & Blue Shield of Ga., Inc., 892 F.3d 719, 733-34 (5th Cir. 2018).
+182 R. Doc. 22 at ¶ 34, p. 10.
+183 See infra n. 182.
+Case 2:24-cv-00836-SM-JVM     Document 42     Filed 10/16/25     Page 36 of 38
+37
+IX. There are no state law claims over  which the Court could exercise
+supplemental jurisdiction.
+
+Finally, Defendants argue that, if the Court dismisses all of Plaintiffs’ federal
+claims, “the Court lacks subject matter ju risdiction and must dismiss the case.” 184 The
+Court first notes that argument is incorrect. Under 28 U.S.C. § 1367(c), “[t]he district
+courts may decline to exercise supplemental jurisdic tion over a claim . . . if the district
+court has dismissed all claims over which it has original jurisdiction.” 185 The Supreme
+Court has made clear that this statute confers  discretion: “Even if only state-law claims
+remained after resolution of the federal question, the District Court would have discretion
+. . . to retain jurisdiction.” 186 Additionally, the Supreme Court has noted that an order
+declining supplemental jurisdiction “is not based on a lack of subject-matter
+jurisdiction.”187
+In any event, the Court has dismissed Plaintiffs’ state law claims without prejudice
+and granted Plaintiffs leave to amend their com plaint if they wish to replead their state
+law claims as federal claims. Accordingly, th ere are no state law claims over which the
+Court could exercise supplemental jurisdiction.
+CONCLUSION
+IT IS ORDERED  that the motion to dismiss is GRANTED IN PART and
+DENIED IN PART.
+IT IS FURTHER ORDERED  that the motion to dismiss Plaintiffs’ claims in
+Count One for failure to obtain new insuranc e coverage post-termination and for failure
+
+184 R. Doc. 23-1 at p. 14.
+185 28 U.S.C. § 1367(c) (emphasis added).
+186 Arbaugh v. Y&H Corp., 546 U.S. 500, 514 (2006).
+187 Carlsbad Technology, Inc. v. HIF Bio, Inc., 556 U.S. 635, 641 (2009).
+
+Case 2:24-cv-00836-SM-JVM     Document 42     Filed 10/16/25     Page 37 of 38
+38
+to secure insurance coverage is GRANTED, and those claims are DISMISSED WITH
+PREJUDICE.
+IT IS FURTHER ORDERED that the motion to dismiss the remainder of
+Plaintiffs’ claims in Count One is DENIED.
+IT IS FURTHER ORDERED that the motion to dismiss Plaintiffs’ claims in
+Count Two based on failure to notify of termination and portability and failure to provide
+an accurate summary plan description is DENIED.
+IT IS FURTHER ORDERED that the motion to dismiss Plaintiffs’ claims in
+Count Two based on the collection of premiums post-termination is GRANTED, and that
+claim is DISMISSED WITH PREJUDICE.
+IT IS FURTHER ORDERED  that the motion to dismiss Plaintiffs’ claims in
+Count Three for providing the insurance cover age in the name of R&R Care Solutions
+rather than Medical is GRANTED, and that claim will be  DISMISSED WITH
+PREJUDICE.
+IT IS FURTHER ORDERED that the motion to dismiss the remainder of
+Plaintiffs’ claims in Count Three is DENIED.
+IT IS FURTHER ORDERED that Plaintiffs’ state law claims are DISMISSED
+WITHOUT PREJUDICE.
+IT IS FURTHER ORDERED that Plaintiffs are GRANTED LEAVE to replead
+their state law claims as federal claims on or before October, 18, 2025.
+ New Orleans, Louisiana this 16th day of October, 2025.
+
+________________________________
+SUSIE MORGAN
+UNITED STATES DISTRICT JUDGE
+Case 2:24-cv-00836-SM-JVM     Document 42     Filed 10/16/25     Page 38 of 38

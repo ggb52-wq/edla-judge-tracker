@@ -1,0 +1,639 @@
+1
+
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+SHAWN RUIZ
+
+CIVIL ACTION
+
+VERSUS
+
+NO: 23-05428
+
+WEEKS MARINE, INC.
+
+SECTION: T (2)
+
+ ORDER AND REASONS
+Before the Court are three Motions for  Partial Summary Judgment covering issues of
+contractual indemnity, unseaworthiness, and certain non-pecuniary damages . The Court has
+reviewed the briefs, the record, and the applicable law . For the following reasons, Defendant and
+Third-Party Plaintiff Weeks Marine, Inc. ’s (“Weeks Marine”) Motion for Partial Summary
+Judgment on Contractual Indemnity, R. Doc. 64, is GRANTED, Third- Party Defendant E&E
+Machine Shop & Services, L.L.C.’s (“E&E Machine”) Motion for Partial Summary Judgment, R.
+Doc. 66, is DENIED, and Defendant Weeks Marine’s Motion for Partial Summary Judgment on
+Unseaworthiness and Certain Non-Pecuniary Damages, R. Doc. 68, is GRANTED.
+I. BACKGROUND
+This is an action for negligence under the Jones Act, 46 U.S.C. § 30104, et seq., and for
+unseaworthiness under the general maritime law of the United States. R. Doc. 1. Plaintiff Shawn
+Ruiz was employed by Defendant  Weeks Marine as a licensed boat captain at the time of the
+incident at issue. R. Doc. 1, p. 2. In July 2020, Plaintiff’s vessel, the CR McCASKILL, was placed
+Case 2:23-cv-05428-GGG-DPC     Document 82     Filed 10/14/25     Page 1 of 26
+2
+
+in drydock, and he was a ssigned to work as a relief Captain at Defendan t’s ship yard facility in
+Houma, Louisiana. Id. Plaintiff alleges that, on September 26, 2020, he was struck by a dredge
+pipe in a workplace accident that caused “serious and permanently disabling injuries including a
+permanent brain injury (TBI).” Id.
+On the date of Plaintiff’s alleged injury, multiple employees of Third-Party Defendant E&E
+Machine were on site at Weeks Marine’s Houma facility. R. Doc. 64 -2, p. 5. “Weeks Marine
+regularly contracts with E&E Machine to provide dredge pipe welding services at Weeks Marine’s
+Houma yard.” R. Doc. 64-1, p. 3. In this case, Weeks Marine had issued Purchase Order No. 46608
+(“Purchase Order”) to E&E Machine on June 23, 2020. Id.  E&E Machine performed the work
+requested in the Purchase Order between September 21, 2020, and September 27, 2020. R. Doc.
+64-1, p. 4. On September 30, E&E Machine referenced the Purchase Order in its invoice to Weeks
+Marine for the work performed. Id.
+The Purchase Order included in bold text on its front page:
+By accepting this PO and performing the work described herein, you accept the
+Terms & Conditions that follow. To the extent the parties are governed by a current,
+fully executed Master Agreement, the terms and conditions contained therein shall
+apply.
+R. Doc. 64-4, p. 3.
+Section 8 of the Terms and Conditions that followed on the pages after this disclaimer
+included the following indemnification provision:
+8. INDEMNIFICATION: [E&E Machine] hereby releases and shall indemnify,
+defend and hold harmless Weeks Marine, and its subsidiaries and affiliates and the
+Case 2:23-cv-05428-GGG-DPC     Document 82     Filed 10/14/25     Page 2 of 26
+3
+
+officers, agents, employees, successors and assigns and authorized representatives
+of all the foregoing from and against any and all suits, actions, legal or
+administrative proceedings, claims, demands, damages, liabilities, interest,
+attorney’s fees, cost s, expenses, and losses of whatsoever kind or nature in
+connection with or incidental to the performance of this Purchase Order, whether
+arising before or after completion of the work hereunder and in any manner directly
+or indirectly caused, occasioned, or contributed to in whole or in part, or claimed
+to be caused, occasioned or contributed to in whole or in part, by reason of any act,
+omission, fault or negligence whether active or passive of [E&E Machine], its
+lower-tier suppliers, subcontractors or of anyone acting under its direction or
+control or on its behalf. The foregoing shall include, but is not limited to, indemnity
+for: (1) property damage and injury to or death of any person, including employees
+of Weeks Marine, Owner, or [E&E Machine]; and (2) the breach by [E&E
+Machine] of any representation warranty, covenant, or performance obligation of
+this Purchase Order. [E&E Machine’s] aforesaid release, indemnity and hold
+harmless obligations, or portions or applications thereof, shall apply even in t he
+event of the fault or negligence, whether active or passive, or strict liability of the
+parties released, indemnified or held harmless to the fullest extent permitted by law,
+but in no event shall they apply to liability caused by the willful misconduct or sole
+negligence of the party released, indemnified or held harmless. [E&E Machine]
+specifically waives any immunity provided against this indemnity by an industrial
+insurance or workers’ compensation statute.
+R. Doc. 64-1, pp. 3-4 (alterations in original); R. Doc. 66-8, pp. 3-4.
+Under the Terms and Conditions , the Purchase Order also  contained a choice of law
+provision in Section 12:
+12. GOVERNING LAW AND JURISDICTION: This Purchase Order shall be
+governed by and construed and enforced in accordance with the laws of the State
+of New Jersey as well as the Uniform Commercial Code. All actions arising out of
+this Purchase Order shall be b rought in the Superior Court of New Jersey, Union
+County vicinage. The parties hereby waive their right to a jury trial.
+Case 2:23-cv-05428-GGG-DPC     Document 82     Filed 10/14/25     Page 3 of 26
+4
+
+R. Doc. 66-8, p. 4.
+At the time of the alleged incident on September 26, 2020, the crew staging dredge pipe to
+be welded together consisted of Plaintiff, other employees of Weeks Marine, and employees of
+E&E Machine, including Garrett John, the E&E Machine supervisor. R. Doc. 64- 1, p. 5. Weeks
+Marine alleges that “[w]hen E&E Machine and its employees need dredge pipe moved from one
+area to another, an E&E Machine employee/the job supervisor request[s] assistance from Weeks
+Marine . . .. E&E Machine and its employees then instruct Weeks Marine personnel when to place
+pipe and where to position the pipe, so that E&E Machine can then weld the pipe together.” R.
+Doc. 64-1, p. 6. Mr. John, who Weeks Marine claims was “supervising the dredge pipe welding
+operation,” was standing on top of a piece of dredge pipe and instructing others, including Weeks
+Marine employees, where to place the dredge pipe and when to chock the pipe to keep it from
+rolling. R. Doc. 64-1, pp. 6-7. After the crew had moved one of the dredge pipes, Mr. John signaled
+to a Weeks Marine employee, Kevin Barton, to place a chock. R. Doc. 64- 1, p. 7. Mr. Barton
+followed this instruction, after which Mr. Barton instructed Plaintiff to enter a pinch point and
+place another chock. Id. Soon thereafter, a piece of the dredge pipe rolled and struck Plaintiff,
+resulting in his alleged head injury. Id.
+Since the date of the alleged incident, Plaintiff has continued to be treated for the “serious
+and debilitating injuries sustained in the accident,” including a permanent brain injury (TBI). R.
+Doc. 1, pp. 2-3. Specifically, Plaintiff claims that the injuries to the back of his neck, his head, and
+other parts of his body have caused mental disabilities and/or changes, excruciating pain and
+Case 2:23-cv-05428-GGG-DPC     Document 82     Filed 10/14/25     Page 4 of 26
+5
+
+suffering, and changes in emotional and social behaviors, rendering him disabled and requiring
+extensive medical care and treatment. R. Doc. 1, p. 4. Plaintiff “has incurred medical and
+pharmaceutical expenses for the treatment of his injuries” and anticipates additional expenses for
+future treatment for the rest of his life. R. Doc. 1, p. 5. Plaintiff characterizes his conditions as
+being “permanently disabled from returning to work as a seaman.” Id.
+II. PROCEDURAL HISTORY
+Plaintiff filed the instant suit against Defendant  Weeks Marine in 2023, asserting a
+negligence claim under the Jones Act, 46 U.S.C. § 30104, et seq., and an unseaworthiness claim
+under general maritime law.1 R. Doc. 1. In the Complaint, Plaintiff seeks:
+A. General damages, including past, present and future physical and mental pain,
+suffering and discomfort, mental anguish, permanent disability, and loss of
+enjoyment of life;
+B. Past, present and future cure/medical and pharmaceutical expenses;
+C. Past present and future maintenance;
+D. Past, present and future loss of income and loss of earning capacity;
+E. Penalties, attorney’s fees and costs for the arbitrary termination of maintenance
+and cure;
+F. Past, present and future disabilities and/or residual and permanent physical
+impairments.
+R. Doc. 1, pp. 5 -6. Defendant subsequently filed a Third- Party Complaint against E&E Machine
+pursuant to Rule 14(c) of the Federal Rules of Civil Procedure. R. Doc. 17. In the Third- Party
+Complaint, Defendant “tender[ed] E&E Machine to Plaintiff under Rule 14(c) for all claim s that
+
+1 The complaint erroneously cited the Jones Act as 46 U.S.C. § 688, which is now repealed. R. Doc. 1, p. 1.
+Case 2:23-cv-05428-GGG-DPC     Document 82     Filed 10/14/25     Page 5 of 26
+6
+
+Plaintiff may have against E&E Machine and for any liability, in whole or in part, that E&E
+Machine has to the Plaintiff, whether in tort, contract, or otherwise.” R. Doc. 17, p. 25.
+Defendant Weeks Marine has filed a Motion for Partial Summary Judgment on Contractual
+Indemnity against E&E Machine, pursuant to Federal Rule of Civil Procedure 56. R. Doc. 64. E&E
+Machine has filed its opposition in response to the Motion, R. Doc. 69, and Weeks Marine  has
+filed its reply, R. Doc. 74. E&E Machine  has also filed a Cross -Motion for Partial Summary
+Judgment. R. Doc. 66. Weeks Marine  has filed its opposition in response to the motion, R. Doc.
+71, and E&E Machine has filed its reply, R. Doc. 73. Weeks Marine has also filed a Motion for
+Leave to Supplement the Record, offering Exhibit 6, demonstrating email delivery of the Purchase
+Order from Weeks Marine Employee Adam Broussard to multiple E&E Machine employees. R.
+Doc. 76; R. Doc. 76-2, pp. 1-5. Weeks Marine’s Motion and E&E Machine’s Cross-Motion both
+concern the issue of contractual indemnity. Specifically, Weeks Marine asserts that “E&E Machine
+must defend and indemnify Weeks Marine against the claims asserted by Plaintiff, Shawn Ruiz[,]
+pursuant to [the Purchase Order] contract between Weeks Marine and E&E Machine.” R. Doc. 64,
+p. 1. E&E Machine, on the other hand, asserts that the indemnity provision in the Purchase Order
+“is null, void, and unenforceable as a matter of Louisiana public policy or, in the alternative, that
+the indemnity provision contained in the contract is ambiguous and, therefore, unenforceable.” R.
+Doc. 71, p. 1. E&E Machine’s Memorandum in Opposition to Weeks Marine’s Motion also
+includes a Motion to Strike statements based on the “beliefs,” rather than firsthand knowledge, of
+Teresa Olivo, as well as “all legal conclusions set forth in the Declaration and report of Martin
+Case 2:23-cv-05428-GGG-DPC     Document 82     Filed 10/14/25     Page 6 of 26
+7
+
+Twomey.” R. Doc. 69, pp. 17-18.
+Defendant Weeks Marine has filed a separate Motion for Partial Summary Judgment on
+Unseaworthiness and Certain Non- Pecuniary Damages, pursuant to Federal Rule of Civil
+Procedure 56. R. Doc. 68. Ruiz has filed an opposition in response to the Motion, R. Doc. 70, and
+Weeks Marine has filed a reply, R. Doc. 72. Weeks Marine’s motion concerns two issues. First,
+Weeks Marine asks the  Court to dismiss Ruiz’s unseaworthiness claim, stating that Plaintiff is
+unable to establish that any of Defendant’s vessels, incl uding the CR McCASKILL, were
+unseaworthy or that such unseaworthiness was a proximate cause of his alleged injuries. R. Doc.
+68, p. 1. This specific issue is unopposed by Plaintiff. R. Doc. 70, p. 1. Second, Weeks Marine
+asks the Court to dismiss certain claims for non-pecuniary damages that are not available to Jones
+Act seamen. R. Doc. 68, p. 1. “While Plaintiff concedes that precedent dictates that a Jones Act
+seaman may not recover non-pecuniary damages,” he opposes this portion of the Motion, arguing
+that Weeks Marine’s “definition of non-pecuniary damages is overbroad.” R. Doc. 70, pp. 1-2.
+III. LAW and ANALYSIS
+A. Summary Judgment Standard
+Summary judgment is proper if “the pleadings, depositions, answers to interrogatories, and
+admissions on file, together with the affidavits, if any, show that there is no genuine issue as to
+any material fact and that the moving party is entitled to a judgment as a matter of law.” Celotex
+Corp. v. Catrett, 477 U.S. 317, 322 (1986) (citing Fed. R. Civ. P. 56(c)). A court must hold “a
+factual dispute to be ‘genuine’ if the evidence is such that a reasonable jury could return a verdict
+Case 2:23-cv-05428-GGG-DPC     Document 82     Filed 10/14/25     Page 7 of 26
+8
+
+for the nonmoving party and a fact to be ‘material’ if it might affect the outcome of the suit under
+the governing substantive law.” Voelkel McWilliams Const., LLC v. 84 Lumber Co., 2015 WL
+1184148, at *5 (E.D. La. Mar. 13, 2015) (quoting Beck v. Somerset Techs., Inc., 882 F.2d 993, 996
+(5th Cir. 1989)). When assessing whether a genuine dispute as to any material fact exists, courts
+“consider all of the evidence in the record but refrain from making credibility determinations or
+weighing the evidence.” Delt a & Pine Land Co. v. Nationwide Agribusiness Ins. Co., 530 F.3d
+395, 398–99 (5th Cir. 2008) (citing Reeves v. Sanderson Plumbing Prods., Inc., 530 U.S. 133, 150
+(2000)). Accordingly, at the summary judgment stage, courts must view the facts in the light most
+favorable to the nonmoving party and draw all justifiable inferences in its favor. See, e.g., Darden
+v. City of Fort Worth, Texas , 880 F.3d 722, 727 (5th Cir. 2018) (quoting City & Cnty. of San
+Francisco, Calif. v. Sheehan, 575 U.S. 600, 603 (2015); Anderson v. Liberty Lobby, Inc., 477 U.S.
+242, 255 (1986)).
+Of course, “unsupported allegations or affidavits setting forth ultimate or conclusory facts
+and conclusions of law are insufficient to either support or defeat a motion for summary judgment.”
+Galindo v. Precision Am. Corp., 754 F.2d 1212, 1216 (5th Cir. 1985) (internal quotation and
+citation removed). Although the movant bears the initial burden of demonstrating the absence of a
+genuine issue of material fact, if it can carry that burden, the nonmoving party must “go beyond
+the pleadings and . . . designate specific facts showing that there is a genuine issue for trial.”
+Celotex, 477 U.S. at 323-24. This burden is not satisfied by “metaphysical doubt as to the material
+facts” or only a “scintilla” of evidence. Little v. Liqu id Air Corp., 37 F.3d 1069, 1075 (5th Cir.
+Case 2:23-cv-05428-GGG-DPC     Document 82     Filed 10/14/25     Page 8 of 26
+9
+
+1994) (quoting Matsushita Elec. Indus. Co. v. Zenith Radio Corp., 475 U.S. 574, 586 (1986); Davis
+v. Chevron U.S.A., Inc., 14 F.3d 1082, 1086 (5th Cir. 1994)). Summary judgment must thus be
+entered “against a party who fails to make a showing sufficient to establish the existence of an
+element essential to that party's case, and on which that party will bear the burden of proof at trial.”
+Celotex, 477 U.S. at 322. As the United States Supreme Court has explained, “[i]n such a situation,
+there can be ‘no genuine issue as to any material fact,’ since a complete failure of proof concerning
+an essential element of the nonmoving party's case necessarily renders all other facts immaterial.”
+Id. at 322–23. Courts “do not . . . in the absence of any proof, assume that the nonmoving party
+could or would prove the necessary facts.” Little, 37 F.3d at 1075 (citing Lujan v. National Wildlife
+Federation, 497 U.S. 871, 888 (1990)) (emphasis  in original). Thus, “summary judgment is
+appropriate in any case ‘where critical ev idence is so weak or tenuous on an essential fact that it
+could not support a judgment in favor of the nonmovant.’” Id. (quoting Armstrong v. City of Dallas,
+997 F.2d 62 (5th Cir. 1993)) (emphasis in original).
+B. The Choice of Law Provision
+In their respective motions, Weeks Marine and E&E Machine each contend that the
+interpretation of the Purchase Order and the Terms and Conditions therein are subject to a different
+set of laws: Weeks Marine insists that, per the listed Terms and Conditions, New Jersey law should
+apply, R. Doc. 64-1, pp. 13-14, whereas E&E Machine suggests multiple reasons why Louisiana
+law must be applied, R. Doc. 69, pp. 2- 6. In the alternative, E&E argues that, even if New Jersey
+law were applied, Weeks has failed to meet  its burden to overcome the presumption against
+Case 2:23-cv-05428-GGG-DPC     Document 82     Filed 10/14/25     Page 9 of 26
+10
+
+indemnity. R. Doc. 69, pp. 6-10.
+A federal court in diversity jurisdiction shall apply the choice of law principles of the state
+in which it sits. See Klaxon Co. v. Stentor Elec. Mfg. Co., 313 U.S. 487, 496 (1941) (“The conflict
+of laws rules to be applied by the federal court in [a given state] must conform to those prevailing
+in [the forum state’s] state courts. Otherwise the accident of diversity of citizenship would
+constantly disturb equal administration of justice in coordinate state and federal courts sitting side
+by side.”). Thus, the Court must apply Louisiana’s choice  of law principles to determine which
+state’s substantive law applies to the Purchase Order.
+ Louisiana law provides that an issue of conventional obligations, such as the Purchase
+Order in question, “is governed by the law of the state whose policies would be most seriously
+impaired if its law were not applied to that issue.” La. Civ. Code art. 3537. Courts are to consider
+such policies in light of the following factors: (1) the pertinent contacts of each state to the parties
+and the transaction, including the place of negotiation, formation, and performance of the contract;
+(2) the nature, type, and purpose of the contract; and (3) the policies of promoting commercial
+intercourse. Id. Choice of law provisions in a contract are generally presumed valid, unless the
+chosen law “contravenes the public policy” of the state whose law would otherwise apply. La. Civ.
+Code art. 3540. As explained by the Fifth Circuit Court of Appeals:
+In simplest terms, we must first determine which state’s law would be otherwise
+applicable in the absence of the choice of law provision. We then determine whether
+application of the chosen law would contravene the otherwise applicable state’s
+public policy. Our overall objective is to determine the state whose policies would
+be most seriously impaired if its law was not applied, and this is done by comparing
+Case 2:23-cv-05428-GGG-DPC     Document 82     Filed 10/14/25     Page 10 of 26
+11
+
+the strength and pertinence of the competing states’ policies in light of the various
+factors set forth in Article 3537.
+Roberts v. Energy Dev. Corp., 235 F.3d 935, 939 (5th Cir. 2000). Accordingly, the Court must first
+determine which law would apply in the absence of the choice of law provision.
+In this case, the Article 3537 factors strongly support E&E Machine’s argument: E&E
+Machine is a domiciliary of Louisiana, R. Doc. 34, p. 2; though never formally signed, the Purchase
+Order was accepted by performance in Louisiana, see R. Doc. 64 -1, p. 4 (citing Exhibit 2- B,
+Declaration of Teresa Olivo, at p. 2, ¶ 6;  E&E Machine’s Invoice No. 0026599) ; the work
+contemplated by the contract took place at Weeks Marine’s ship yard in Houma, Louisiana , R.
+Doc. 64-1, p. 4; and although Weeks Marine’s principal place of business is in New Jersey, R. Doc.
+69-3, p. 1, the Purchase Order lists an address in Covington, Louisiana, R. Doc. 66-8, p. 1, and the
+business has registered a Baton Rouge, Louisiana office as its registered office in Louisiana with
+the Louisiana Secretary of State, R. Doc. 69-3, p. 1. Thus, Louisiana state law would be otherwise
+applicable in the absence of the Purchase Order’s choice of law provision.
+Next, the Court must consider whether application of the chosen law (i.e., New Jersey state
+law) would contravene the public policy of the otherwise applicable state (i.e., Louisiana). E&E
+Machine argues that this choice of law provision is invalid under both La. R.S. §§ 9:2779 and
+9:27780.1. R. Doc. 69, pp. 2-5.
+The Court will first consider La. R.S. § 9:2779, which E&E argues  precludes application
+Case 2:23-cv-05428-GGG-DPC     Document 82     Filed 10/14/25     Page 11 of 26
+12
+
+of New Jersey law under the circumstances.2 This statute, enacted by the Louisiana state legislature
+in 1991, states that for “construction contracts, subcontracts, and purchase orders  for public and
+private work projects, [where] one of the parties is domiciled in Louisiana, and the work to be
+done and the equipment and materials to be supplied involve construction projects in this state,”
+any provision that “[r]equires interpretation of the agreement according to the laws of another
+jurisdiction” is “null and void and unenforceable as against public policy.” La. R.S. § 9:2779
+(emphasis added).
+Here, the Purchase Order meets the criteria for La. R.S. § 9:2779 to apply: the contract is
+a purchase order for a private work project, the fabrication of dredge pipe, R. Doc. 66-1, p. 9; one
+of the parties, E&E Machine, is a Louisiana domiciliary, R. Doc. 34, p. 2; the work contemplated
+and the equipment/materials involve construction projects in the state of Louisiana , as evidenced
+by the work which took place in the Houma ship yard, R. Doc. 66 -1, p. 9; and Section 12 of the
+contract contains a provision that “[r]equires interpretation of the agreement according to the laws
+of another jurisdiction,” the state of New Jersey, R. Doc. 64-9, p. 5.
+Accordingly, the specific provision in Section 12 of the Purchase Order’s Terms and
+Conditions mandating that New Jersey law must apply is “null and void and unenforceable” under
+La. R.S. § 9:2779, and Louisiana law controls the interpretation of the Purchase Order.
+
+2 The applicability of La. R.S. § 9:2780.1, commonly referred to as the Louisiana Anti -Indemnity Act, is considered
+in the following section.
+Case 2:23-cv-05428-GGG-DPC     Document 82     Filed 10/14/25     Page 12 of 26
+13
+
+C. The Indemnity Clause & Applicability of the LAIA
+Next, E&E Machine contends that  La. R.S. 9:2780.1, more commonly known as the
+Louisiana Anti-Indemnity Act (“LAIA”),3 invalidates the indemnity clause of the Purchase Order.
+Under the LAIA, any provision in a construction contract “which purports to indemnify, defend,
+or hold harmless . . . the indemnitee from or against any liability for loss or damage resulting from
+the negligence or intentional acts or omissions of the indemnitee, its employees or agents, or the
+acts or omissions of a third party over whom the indemnitor has no control is contrary to the public
+policy of [Louisiana] and is null, void, and unenforceable.” La. R.S. § 9:2780.1(B).  However, an
+additional insured provision is allowed if “there is evidence that the indemnitor recovered the cost
+of the required insurance in the contract price.” La. R.S. § 9:2780.1(I)(1).
+For purposes of the LAIA, the term “construction contract” refers to  “any agreement for
+the design, construction, alteration, renovation, repair, or maintenance of a building, structure,
+highway, road, bridge, water line, sewer line, oil line, gas line, appurtenance, or other improvement
+to real property, or repair or maintenance of a highway, road, or bridge, including any moving,
+demolition, or excavation, except that no deed, lease, easement, license, or other instrument
+granting an interest in or the right to possess property will be deemed to be a construction contract
+even if the instrument includes the right to design, construct, alter, renovate, repair, or maintain
+improvements on such real property.” La. R.S. § 9:2780.1(A)(2)(a). However, the term “shall not
+
+3 The LAIA is sometimes referred to as the Louisiana Construction Anti-Indemnity Act (“LCAIA”) as a means of
+distinguishing it from the Louisiana Oilfield Anti-Indemnity Act (“LOAIA”), La. R.S. § 9:2780.
+Case 2:23-cv-05428-GGG-DPC     Document 82     Filed 10/14/25     Page 13 of 26
+14
+
+include any design, construction, alteration, renovation, repair, or maintenance of . . . [a]ny dirt or
+gravel road used to access oil and gas wells and associated facilities [nor] [o]il flow lines or gas
+gathering lines used in association with the transportation of production from oil and gas wells
+from the point that oil and gas becomes co-mingled for transportation to oil storage facilities or
+gas transmission lines.” La. R.S. § 9:2780.1(A)(2)(b).
+E&E Machine contends that the work it performed for Weeks Marine falls within the scope
+of the LAIA and therefore renders the indemnity clause of the Purchase Order’s Terms and
+Conditions “null, void, and unenforceable under Louisiana law.” R. Doc. 66-1, p. 10 (citing La.
+R.S. § 9:2780.1). Weeks Marine disagrees. R. Doc. 64- 1, p. 14, n. 45; R. Doc 71, pp. 1- 2. The
+parties’ respective arguments for and against application of LAIA in this scenario primarily hinge
+upon the meaning of the term “construction contract” in the context of the statute. See R. Doc. 66-
+1, pp. 10-11; R. Doc. 77, pp. 1-3.
+Specifically, E&E Machine argues that the work it provided pursuant to the purchase
+order—“welding and fitting services to assist with building lengths of 720- ft dredge pipe by
+welding, fitting, and combining smaller lengths of pipe” —falls within the meaning of a
+“construction contract”  when supplemented with Black’s Law Dictionary’s definitions for
+“construction” and “structure.” R. Doc. 66-1, pp. 10-11. Weeks Marine contends instead that the
+statutory definition only contemplates immovable property  and that welding together pieces of
+movable property for use in dredging operations does not qualify as a “construction contract.” R.
+Doc. 71, pp. 1-3. When interpreting Louisiana laws, “[t]he words of a law must be given their
+Case 2:23-cv-05428-GGG-DPC     Document 82     Filed 10/14/25     Page 14 of 26
+15
+
+generally prevailing meaning.” La. Civ. Code art. 11. Weeks Marine notes that the use of the
+phrase “real property” in the statutory definition of “construction contract” suggests that the LAIA
+only applies to immovable property. R. Doc. 71, p. 3.
+The Court need not determine whether the Purchase Order qualifies as a “construction
+contract” within the meaning of the LAIA because, even if it were, the plain language of the
+indemnity clause would not violate the statute. While the LAIA prevents an indemnitor from
+indemnifying an indemnitee for “any liability for loss or damage resulting from the negligence or
+intentional acts or omissions of the indemnitee, an agent or employee of the indemnitee, or a third
+party over which the indemnitor has no control ,” it does not prevent an indemnitor from
+indemnifying an indemnitee for the indemnitor’s own negligence or intentional acts or omissions
+(or those of an agent or employee of the indemnitor or a third party over which the indemnitor has
+control). La. R.S. § 9:2780.1(B) (emphasis added); see also 535 Iberville, LLC v. F.H. Myers
+Construction Corp., No. 2:24-CV-56, 2025 WL 522701, at *4 (E.D. La. Feb. 18, 2025) (“However,
+the LAIA applies only to provisions that demand the indemnitor hold harmless the indemnitee for
+actions of the indemnitee.”); Charter Oak Fire Ins. Co. v. Bremermann Mechanical, Inc., No. CV
+2:21-1486, 2025 WL 958215 at *8 (E.D. La. Mar. 31, 2025) (applying the LAIA to nullify
+indemnity provisions in subcontracts only to the extent it asked subcontractors to indemnify
+general contractor for general contractor’s negligence); Ladner v. Ochsner Baptist Medical Center,
+L.L.C., 414 So.3d 572, 591 (La. App. 4th Cir. 2024) (declaring indemnity provision enforceable
+“only to the extent caused by the negligent acts or omissions of” the indemnitor).
+Case 2:23-cv-05428-GGG-DPC     Document 82     Filed 10/14/25     Page 15 of 26
+16
+
+Per the definitions provided in the LAIA,4 Weeks Marine is the indemnitee of the Purchase
+Order’s indemnification clause, and E&E Machine is the indemnitor.  The Louisiana Civil Code
+provides that “[t]he words of a contract must be given their generally prevailing meaning.” La.
+Civ. Code art. 2047. Additionally, “[e]ach provision in a contract must be interpreted in light of
+the other provisions so that each is given the meaning suggested by the contract as a whole.” La.
+Civ. Code art. 2050. A plain reading of the indemnification clause demonstrates that the provision
+in no way violates the LAIA:
+8. INDEMNIFICATION: [Indemnitor] hereby releases and shall indemnify, defend
+and hold harmless [indemnitee], and its subsidiaries and affiliates and the officers,
+agents, employees, successors and assigns and authorized representatives of all the
+foregoing from and against any and all suits, actions, legal or administrative
+proceedings, claims, demands, damages, liabilities, interest, attorney’s fees, costs,
+expenses, and losses of whatsoever kind or nature in connection with or incidental
+to the performance of this Purchase Order, whether arising before or after
+completion of the work hereunder and in any manner directly or indirectly caused,
+occasioned, or contributed to in whole or in part, or claimed to be caused,
+occasioned or contributed to in whole or in part, by reason of any act, omission,
+fault or negligence whether active or passive of [indemnitor], its lower -tier
+suppliers, subcontractors or of anyone acting under its direction or control or on its
+behalf. The foregoing shall include, but is not limited to, indemnity for: (1) property
+damage and injury to or death of any person, including employees of [indemnitee],
+Owner, or [indemnitor]; and (2) the breach by [indemnitor] of any representation
+warranty, covenant, or performance obligation of this Purchase Order.
+[Indemnitor’s] aforesaid release, indemnity and hold harmless obligations, or
+portions or applications thereof, shall apply even in the event of the fault or
+negligence, whether active or passive, or strict liability of the parties released,
+indemnified or held harmless to the fullest extent permitted by law, but in no event
+shall they apply to liability caused by the willful misconduct or sole negligence of
+the party released, indemnified or held harmless. [Indemnitor] specifically waives
+
+4 “‘Indemnitee’ means any named party in the contract to whom indemnification is owed pursuant to the terms of the
+contract.” La. R.S. § 9:2780.1(A)(3). “‘Indemnitor’ means any party to the contract who obligates himself to provide
+indemnification pursuant to the terms of the contract.” La. R.S. § 9:2780.1(A)(4).
+Case 2:23-cv-05428-GGG-DPC     Document 82     Filed 10/14/25     Page 16 of 26
+17
+
+any immunity provided against this indemnity by an industrial insurance or
+workers’ compensation statute.
+R. Doc. 64-4, pp. 5-6 (emphasis added).
+The plain language of the indemnification clause does not require the indemnitor to hold
+harmless the indemnitee for actions of the indemnitee. Stated otherwise, it clearly does not provide
+for defense and indemnity for Weeks Marine’s own negligence. Rathe r, it demands that E&E
+Machine indemnify Weeks Marine for E&E Machine’s own negligence or intentional acts or
+omissions. Accordingly, the indemnification clause is valid  and enforceable, and it does require
+E&E Machine to provide indemnity for its own negligence, whether whole or in part. For these
+reasons, Weeks Marine’s Motion for Partial Summary Judgment on Contractual Indemnity against
+E&E Machine, R. Doc. 64, is GRANTED insofar as it asks the  Court to find that E&E Machine
+owes contractual indemnity to Weeks Marine for Plaintiff’s alleged accident and injuries . E&E
+Machine’s Cross-Motion for Partial Summary Judgment, R. Doc. 66, is DENIED insofar as it asks
+the Court to find that Weeks Marine’s contractual indemnity and defense claims are precluded.
+D. Determination of Fault
+As correctly noted by E&E Machine, “the majority of . . . the evidence which Weeks
+[Marine] claims is ‘undisputed’ and upon which [the movant] relies in support of its argument that
+E&E [Machine] is concurrently at fault is disputed by E&E.” R. Doc. 69, p. 12 (emphasis  in
+original). While Weeks Marine contends that E&E Machine employees were “directing and
+controlling” the movement of dredge pipe at the time of the alleged incident, R. Doc. 65, p. 2, E&E
+Case 2:23-cv-05428-GGG-DPC     Document 82     Filed 10/14/25     Page 17 of 26
+18
+
+Machine maintains that “all such processes and procedures for constructing Weeks [Marine]’s
+dredge pipe were established by Weeks [Marine], not E&E [Machine],” R. Doc. 69, p. 14; R. Doc.
+66-1, pp. 2- 6. While Weeks Marine states that “an E&E Machine employee was directing and
+controlling the movement of pipe at the time of the alleged incident,” R. Doc. 64, p. 2, both E&E
+Machine and Plaintiff state that Benjamin “BB” Collins, who they refer to as a Weeks Marine
+supervisor, initiated the signal/instructions that allegedly resulted in Plaintiff’s injury, R. Doc. 69,
+p. 13; R. Doc. 70-1, p. 2.
+The Court finds on the current record that there are genuine issues of material fact that
+preclude a finding as to the allocation of fault for Plaintiff’s alleged injuries. Accordingly, the
+Court is unable to grant summary judgment on the issue, and the determination of fault for
+Plaintiff’s alleged injuries must be reserved  for trial. For these reasons, Weeks Marine’s Motion
+for Partial Summary Judgment on Contractual Indemnity, R. Doc. 64, is DENIED insofar as it asks
+the Court to recognize that “concurrent fault undoubtedly exists.”
+E. E&E Machine’s Requests to Strike
+In its Memorandum in Opposition to Weeks Marine’s Motion for Summary Judgment,
+E&E Machine requests that the Court strike from the Record “the identified, or to- be-identified,
+parts of the Declarations of Teresa B. Olivo and of Martin Twomey, ” which it characterizes as
+beliefs and legal conclusions rather than based on firsthand knowledge. R. Doc. 69, pp. 17-19. As
+noted by Weeks Marine in its Reply Brief, E&E Machine’s request is procedurally improper. R.
+Doc. 74, pp. 8-10. Under the Federal Rules of Civil Procedure, “A request for a court order must
+Case 2:23-cv-05428-GGG-DPC     Document 82     Filed 10/14/25     Page 18 of 26
+19
+
+be made by motion. The motion must: (A) be in writing unless made during a hearing or trial; (B)
+state with particularity the grounds for seeking the order; and (C) state the relief sought.” Fed. R.
+Civ. P. 7(b)(1). “It is axiomatic that a memorandum in opposition does not equate to a motion.”
+Lazard v. East Baton Rouge Par. Sch. Bd., No. CIV.A. 3:12-00552, 2013 WL 3772286 (M.D. La.
+July 16, 2013) (denying party’s request to amend complaint in her memorandum in opposition)
+(emphasis in original); see also C otton Exch. Inv. V. Xcel Air Conditioning, No. CV 16- 17543,
+2019 WL 3006401 (E.D. La. July 10, 2019) (denying consideration of request to reconsider prior
+ruling improperly raised in opposition); In re Taxotere (Docetaxel) Prod. Liab. Litig., No. 20-
+3087, 2022 WL 17980209 (E.D. La. Dec. 27, 2022) (declining to “consider the argument raised in
+Plaintiff’s memorandum in opposition seeking relief”).  As a result, the Court will not consider the
+arguments E&E Machine raises in its opposition asking the Court to strike the statements from the
+Record.
+F. The Unseaworthiness Claim
+Next, the Court turns to the unseaworthiness portion of Weeks Marine’s Motion for Partial
+Summary Judgment , in which Defendant asks the Court to dismiss Plaintiff Ruiz’s claim  for
+unseaworthiness. R. Doc. 68, p. 1.
+Under the general maritime law, a vessel owner owes a duty  to the seamen assigned to a
+particular vessel to provide a seaworthy vessel. See Usner v. Luckenbach Overseas Corp ., 400
+U.S. 494, 498-500 (1971); Smith v. Harbor Towing & Fleeting, Inc., 910 F.2d 312, 313 (5th Cir.
+1990). To prevail on an unseaworthiness claim, a plaintiff must first demonstrate that the vessel
+Case 2:23-cv-05428-GGG-DPC     Document 82     Filed 10/14/25     Page 19 of 26
+20
+
+was unseaworthy. An unseaworthy condition may arise from several circumstances, including
+defective gear, appurtenances in disrepair, an unfit crew, an improper method of loading cargo, or
+an insufficient number of workers assigned to a particular task. Usner, 400 U.S. at 499. Once the
+plaintiff demonstrates the vessel’s unseaworthiness, he must also prove that the “unseaworthy
+condition played a substantial part in bringing about or actually causing the injury and that the
+injury was either a direct result or a reasonably probable consequence of the unseaworthiness.”
+Johnson v. Offshore Express, Inc., 845 F.2d 1347, 1354 (5th Cir. 1988).
+In its motion, Defendant points to the lack of evidence available for Plaintiff to establish
+that the CR McCASKILL, or any other vessel owned or operated by Weeks Marine was
+unseaworthy and that any alleged unseaworthiness was a proximate cause of his alleged injuries.
+R. Doc. 68, p. 1; R. Doc. 68-1, p. 4. First, Plaintiff’s alleged injury occurred on land,5 R. Doc. 68-
+1, p. 6. Second, Plaintiff testified that the vessel did not have anything to do with the incident, R.
+Doc. 68- 1, p. 2. Plaintiff “does not oppose granting of summary judgment on the claims of
+unseaworthiness of a vessel.” R. Doc. 70, p. 1. For these reasons, Weeks Marine’s Motion for
+Partial Summary Judgment on Unseaworthiness and Certain Non- Pecuniary Damages is
+GRANTED insofar as it asks the Court to dismiss Plaintiff’s unseaworthiness claim.
+
+5 As noted by Defendant, “the doctrine of unseaworthiness has been extended to permit a seaman . . . to recover
+from a ship owner for injuries sustained wholly on land, so long as those injuries were caused by defects in the ship
+or its gear.” Exec. Jet Aviation, Inc. v. City of Cleveland, 409 U.S. 249, 260 (1972) (citing Gutierrez v. Waterman
+S.S. Corp., 373 U.S. 206, 214-15 (1963)) (emphasis added). Both parties agree that is not the case here. See R. Doc.
+68-1, p. 6; R. Doc. 70-1, pp. 2-3.
+Case 2:23-cv-05428-GGG-DPC     Document 82     Filed 10/14/25     Page 20 of 26
+21
+
+G. Certain Non-Pecuniary Damages
+Finally, Defendant has asked the Court to dismiss “certain claims for non- pecuniary
+damages” that are not available to Jones Act seamen.6 R. Doc. 68, p. 1. While Weeks Marine “does
+not dispute that seaman can recover damages for their own pain and suffering in connection with
+a personal injury under the Jones Act and the [g] eneral [m]aritime [l]aw,” it “seeks dismissal of
+those categories of non-pecuniary damages that [it asserts] are unrecoverable as a matter of law,
+including mental anguish, emotional distress, scarring/disfigurement, and loss of enjoyment of
+life.” R. Doc. 68-1, p. 2. Defendant cites the maritime law precedent set by the Supreme Court of
+the United States and the United States Court of Appeals for the Fifth Circuit in Miles v. Apex
+Marine Corp., 498 U.S. 19 (1990); Scarborough v. Clemco Indus., 391 F.3d 660 (5th Cir. 2004);
+and McBride v. Estis Well Serv., L.L.C., 768 F.3d 382 (5th Cir. 2014) (en banc).
+It is undisputed here that Plaintiff is a Jones Act seaman and brings the present action under
+the Jones Act and general maritime law. R. Doc. 1, p. 1; R. Doc. 68, p. 1. In Miles v. Apex Marine
+Corp., the Supreme Court declined to create from the bench “a remedy . . . that goes well beyond
+the limits of Congress’ ordered system for recovery for seamen’s injury and death,” holding that
+because the estate of a deceased Jones Act seamen cannot recover lost future income under the
+Jones Act, “it cannot do so under general maritime law.” Miles, 498 U.S. at 36. Citing Miles, the
+Fifth Circuit in McBride v. Estis Well Service, L.L.C.  affirmed that a seaman may only recover
+
+6 Pecuniary damages are those “designed to compensate the plaintiff for an actual loss.”  McBride , 768, F.3d at 390
+(citing Miles v. Apex Marine Corp., 498 U.S. 19, 32 (1990); Gulf, Colorado & Santa Fe Railway v. McGinnis, 228
+U.S. 173, 175 (1913)).
+Case 2:23-cv-05428-GGG-DPC     Document 82     Filed 10/14/25     Page 21 of 26
+22
+
+pecuniary losses under the Jones Act and under general maritime law. McBride, 768 F.3d at 391.
+Plaintiff concedes that Jones Act seamen may not recover non -pecuniary damages under
+either scheme but asserts that “[Weeks Marine]’s definition of non -pecuniary damages is
+overbroad.” R. Doc. 70, pp. 1- 2. Specifically, Plaintiff states that Defendant does not cite any
+authority for the proposition that seamen are unable to recover damages for emotional damages ,
+mental anguish, physical discomfort, loss of enjoyment of life, permanent disability, and
+disfigurement as part of his pain and suffering damages. R. Doc. 70, pp. 2-3.
+Plaintiff cites multiple cases from the Fifth Circuit and its district courts to support his
+assertion. R. Doc. 70, p. 2. He notes that Defendant does not cite any authority for the proposition
+that seamen are unable to recover emotional damages from employers or third parties. Id.
+First, Plaintiff cites the Fifth Circuit case Naquin v. Elevating Boats, L.L.C . to support his
+proposition that “seamen may recover damages for emotional damages.” Id. In Naquin, a seaman
+sustained physical injuries in the scope of work at his employer’s shipyard. 744 F.3d 927, 930-31
+(5th Cir. 2014). In a Jones Act suit alleging the employer’s negligence, the jury found the employer
+liable and awarded damages for past and future physical pain and suffering, past and future mental
+pain and suffering, and future lost wages. Id. at 931. Differing from the instant case, a relative of
+the Naquin plaintiff perished in the same incident, and “much of [his] claim for his emotional
+damages focused on his relative’s death.” Id. at 938. On appeal, the Fifth Circuit determined that
+jurisprudence limits damages for emotional harm to “the emotional harm suffered from being
+physically injured or the emotional harm suffered from almost being physically injured.” Id. at 939
+Case 2:23-cv-05428-GGG-DPC     Document 82     Filed 10/14/25     Page 22 of 26
+23
+
+(citing Consolidated Rail Corp. v. Gottshall, 512 U.S. 532, 555-56 (1994)) (emphasis in original).
+Accordingly, the Court held emotional damages resulting from the death of the plaintiff’s relative
+“are not compensable under the Jones Act and the evidence regarding those damages should have
+been excluded from the trial.” Id. at 940. Because the Court was unable to discern what amount of
+the emotional damages award was attributable to the non-compensable harm, it retained the jury’s
+liability finding but ordered a new trial on damages. Id.  at 940-41. Because the Court overruled
+the award for emotional damages resulting from the death of another person but allowed an award
+for emotional damages in general, it clearly supports the proposition that seamen may recover
+emotional damages under the Jones Act.
+Second, Plaintiff refers to Blaauw v. Superior Offshore International, LLC , in which a
+commercial diver and Jones Act seaman was injured during a saturation dive. No. CIV. 06- 1380,
+2008 WL 4224808, at *1 (W.D. La. Sept. 10, 2008). After finding the employer negligent under
+the Jones Act and general maritime law, the court noted that under both legal schemes, “an injured
+seaman is entitled to monetary recovery for past, present and future loss of earning capacity and
+wages, medical expenses and pain and suffering resulting from an injury.” Id. at *14 (citing Nichols
+v. Weeks Marine, Inc., 513 F. Supp. 2d 627, 637 (E.D. La. 2007)). The court stated in its opinion
+that “[a] n award for pain and suffering may include a sum for mental anguish and physical
+discomfort, and for the mental and physical effects of the injury on the plaintiff’s ability to engage
+in those activities which normally contribute to the enjoyment of life.” Id. at *15. Calculation of
+such an award “depends on the facts of the particular case.” Id. Finding that the limitations caused
+Case 2:23-cv-05428-GGG-DPC     Document 82     Filed 10/14/25     Page 23 of 26
+24
+
+by the accident “will have a significant effect on [the plaintiff’s] future lifestyle,” the court awarded
+$450,000.00 in damages for pain and suffering.7 Id. at *20. This amount included “his past present
+and future inability to engage in those activities which previously contributed to the enjoyment of
+his life.” Id. Accordingly, Blaauw supports Plaintiff’s assertion that “damages for loss of
+enjoyment of life as well as mental and emotional anguish” should not be barred “as part of pain
+and suffering damages.” R. Doc. 70, p. 2.
+Third, Plaintiff cites Michel v. Total Transportation, Inc., in which the Fifth Circuit
+affirmed awards for “pain, suffering, and disability from date of accident” as well as “future pain,
+suffering, and disability.” Id. (citing Michel v. Total Transportation, Inc., 957 F.2d 186, 188 n.1
+(1992)). Plaintiff alleges this  decision supports the conclusion that while they are not always
+viewed as separate categories of damages, “impairment, permanent disability, and disfigurement
+are certainly relevant to a seaman’s damages for pain and suffering.” Id.  However, Plaintiff’s
+reliance on this decision is misplaced. While the pain, suffering, and disability damages referenced
+were not reversed, they were not under review in Michel. Rather, the Michel court was faced with
+questions regarding whether the plaintiff was a seaman, whether damages were available for loss
+of consortium, and whether the district court’s award of $250,000 for loss of future earnings and
+earning capacity was clearly erroneous. Michel, 957 F.2d at 188-89, 191-92.
+The jurisprudence presented by Plaintiff clearly supports that seamen may recover damages
+
+7 Specifically, the court noted that after losing much of the vision in his right eye, he became severely limited in his
+daily activities and could no longer engage in hobbies such as diving and other outdoor activities. Id. at *20.
+Case 2:23-cv-05428-GGG-DPC     Document 82     Filed 10/14/25     Page 24 of 26
+25
+
+for emotional damages and loss of enjoyment of life. Both parties agree that pecuniary damages
+for pain and suffering “can include the mental impact a physical injury has caused to a Jones Act
+seaman.” R. Doc. 72, p. 3 (citing Knight v. Kirby Offshore Marine Pac., L.L.C., 983 F.3d 172, 180
+(5th Cir. 2020); Bell v. Foster Wheeler Energy Corp., No. CV 15-6394, 2017 WL 889074 (E.D.
+La. Mar. 6, 2017)). The dispute between  the parties concerns whether these damages should be
+carved out as separate categories of non -pecuniary damages or considered as a single award for
+past, present, and future pain and suffering. Id. ; R. Doc. 70, pp. 2- 3. Defendant refers to a large
+body of jurisprudence from other sections of this C ourt dismissing separate claims for damages
+beyond pain and suffering, including loss of enjoyment of life, mental anguish, emotional distress,
+bodily impairment, and disfigurement. R. Doc. 2, p. 2 (citing Comeaux v. Atos Origin It Servs.,
+Inc., No. CV 17-11273, 2018 WL 6331810, at *5 (E.D. La. Dec. 3, 2018); In re Offshore Transp.
+Servs., L.L.C., 409 F. Supp. 2d 753, 754 n.1, 757 (E.D. La. July 14, 2005); Wilson v. Marquette
+Transp. Co., LLC, No. CV 22-3765, 2024 WL 3202344, at *2 (E.D. La. June 27, 2024); Sanders
+v. Weeks Marine, Inc. , No. CV 23- 7317, 2024 WL 4346515, at *2- 3 (E.D. La. Sept. 30, 2024)).
+Conformity with the standard practice of this Court mandates the dismissal of Plaintiff’s additional
+claims for non-pecuniary damages, thus maintaining a single claim for past, present, and future
+pain and suffering. Considering the cases cited by Plaintiff in his motion, the Court further finds
+that such a decision would not be unduly prejudi cial to Plaintiff because  factors such as mental
+and emotional anguish and loss of enjoyment of life may still be considered when assessing
+damages for pain and suffering. For these reasons, Weeks Marine’s Motion for Partial Summary
+Case 2:23-cv-05428-GGG-DPC     Document 82     Filed 10/14/25     Page 25 of 26
+26
+
+Judgment on Unseaworthiness and Certain Non- Pecuniary Damages is GRANTED insofar as it
+asks the Court to dismiss Plaintiff’s claims for damages other than past, present, and future pain
+and suffering.
+
+Accordingly,
+IT IS ORDERED that  Defendant and Third- Party Plaintiff Weeks Marine’s Motion for
+Partial Summary Judgment on Contractual Indemnity, R. Doc. 64, is GRANTED, Third-Party
+Defendant E&E Machine’s Cross-Motion for Partial Summary Judgment, R. Doc. 66, is DENIED,
+and Defendant Weeks Marine’s Motion for Partial Summary Judgment on Unseaworthiness and
+Certain Non-Pecuniary Damages, R. Doc. 68, is GRANTED.
+
+New Orleans, Louisiana, this ___ day of October 2025.
+
+   GREG GERARD GUIDRY
+           UNITED STATES DISTRICT JUDGE
+
+Case 2:23-cv-05428-GGG-DPC     Document 82     Filed 10/14/25     Page 26 of 26

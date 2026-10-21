@@ -1,0 +1,1261 @@
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF LOUISIANA
+
+ORDER & REASONS
+Before the Court is a motion in limine filed by defendants LCMC  Healthcare Partners,
+LLC, Louisiana Children’s Medical Center, Children’s Hospital, and LCMC Health Holdings, Inc.
+(collectively, “Defendants”), seeking to exclude Arno Bommer’s expert opinions and testimony
+and to bar any other expert testimony and opinions offered on plaintiffs’ behalf.1  Plaintiffs Tomas
+Rey, Melisa Rey, Robert Denny, Victoria Emmer ling, and Nicole Willia mson (collectively,
+“Plaintiffs”) respond in opposition, 2 and both sides reply in furthe r support of their respective
+positions.3  Also before the Court is Defe ndants’ motion for summary judgment, 4 to which
+Plaintiffs respond in opposition, 5 and both sides reply in furthe r support of their respective
+positions.6  Having considered the parties’ memoranda , the record, and the applicable law, the
+Court issues this Order & Reasons.
+I. BACKGROUND
+ This matter concerns complaints of noise caused by the operation of a patient-transport
+helicopter to and from a helist op at Children’s Hospital in uptown New Orleans.  Children’s
+
+1 R. Doc. 105.
+2 R. Doc. 120.
+3 R. Docs. 124; 138; 139.
+4 R. Doc. 106.
+5 R. Doc. 123.
+6 R. Docs. 125; 134; 136.
+TOMAS REY, et al.
+
+VERSUS
+
+LCMC HEALTHCARE PARTNERS,
+LLC, et al.
+CIVIL ACTION
+
+NO. 21-1188
+
+SECTION M (1)
+Case 2:21-cv-01188-BWA-JVM     Document 143     Filed 11/03/25     Page 1 of 43
+2
+
+Hospital is a non-profit pediatric medical center that, since 1955, has operated as the Gulf South’s
+only freestanding, comprehensiv e hospital for children. 7  The hospital maintains a helicopter,
+known as “Abby,” that transports critically ill and injured children from across the state and region
+to the facility to receive life-saving care that cannot be provided elsewhere. 8  Prior to May 18,
+2020, Abby was operated from a helipad atop a one-story surgery building on the river side of the
+hospital complex and next to one of the hospital’s towers.9  In December 2018, John Nickens, the
+president and CEO of Children’s Hospital, decided to relocate the helipad to the top of the newly-
+built “Infill Tower.”10  The Infill Tower is six stories high and “in the middle of [the hospital’s]
+campus.”11  The City of New Orleans, the Louisiana Department of Transportation, and the Federal
+Aviation Administration (“FAA”) granted the required approvals.12  The FAA “certified the new
+helipad’s location, coordinates, dimensions, obstruction clearance and approved flight paths to and
+from the new helipad.”13  On May 18, 2020, Defendants opened the new helipad and the old one
+atop the surgery center was decommissioned.14
+Plaintiffs, five residents who live near Childre n’s Hospital, filed this action in state court
+as a putative class action alleging that Abby’ s new helipad and flight path afflict them with
+unacceptable levels of noise and vibration.15  They allege that the helicopter’s flights directly over
+their homes and its takeoffs and landings from  the heliport adjacent to the neighborhood “at all
+hours of the day and night … emit deafening sounds  and vibrations significant enough to cause
+
+7 R. Doc. 106-1 at 2.
+8 Id. at 1.
+9 Id. at 3-5, 7.
+10 Id. at 7.  The parties dispute how and why the decision was made to move the helipad.  See R. Docs. 106;
+123.  That dispute is immaterial to the resolution of the pending motions.
+11 R. Doc. 106-1 at 5.
+12 Id. at 7, 8 n.5.
+13 Id. at 7.
+14 Id.
+15 R. Doc. 1-1 at 5.
+Case 2:21-cv-01188-BWA-JVM     Document 143     Filed 11/03/25     Page 2 of 43
+3
+
+physical and mental discomfort , property damage, and annoyan ce,” and thus constitute a
+nuisance.16  Plaintiffs seek an injunction requiring Defendants to move the heliport back to its old
+location or to another area that wi ll not continue to damage and interfere with the enjoyment of
+their property.17  Alternatively, they seek an injunction requiring Defendants to abate the helicopter
+noise and vibrations.18  Plaintiffs also seek damages for personal injury and property damage under
+Louisiana Civil Code articles 667, 668, and 669 (nuisance) and articles 2315 and 2317
+(negligence).19  Specifically, Plaintiffs contend that th ey have sustained the following items of
+damages: (1) hearing loss; (2) sl eep disturbance; (3) mental h ealth issues; (4) diminution of
+property value; (5) property damage; (6) loss of us e of their property; (7) cost to remediate their
+property; (8) physical and mental  suffering; (9) inconvenience; ( 10) past, present, and future
+medical expenses; and (11) past, present, and future physical and mental pain and suffering.20
+ Defendants removed the action from state cour t to this Court asserting federal-question
+subject-matter jurisdiction on the premise that Pl aintiffs’ claim for injunctive relief, which seeks
+to compel the relocation of the heliport, is preempted by federal law, specifically, the Federal
+Aviation Act (“FAA”), 49 U.S.C. §§ 40101 et seq.21  In their notice of removal, Defendants also
+invoked diversity subject-matter jurisdiction under the Class Acti on Fairness Act (“CAFA”), 28
+U.S.C. § 1332(d).22
+ Plaintiffs moved to remand. 23  The Court denied the motion, holding that CAFA provided
+diversity jurisdiction over this action under 28 U.S.C. § 1332, and thus, it was unnecessary for the
+
+16 Id.
+17 Id. at 9.
+18 Id.
+19 Id. at 9-10.
+20 Id. at 10.
+21 R. Doc. 1 at 1, 3-7.
+22 Id. at 2, 7-12.
+23 R. Doc. 11.
+Case 2:21-cv-01188-BWA-JVM     Document 143     Filed 11/03/25     Page 3 of 43
+4
+
+Court to analyze whether it also had federal-question jurisdiction under 28 U.S.C. § 1331. 24
+Plaintiffs then asked the Fifth Circuit for leav e to appeal, which the appellate court denied. 25
+ Thereafter, Plaintiffs amende d their complaint to remove the class-action allegations and
+moved this Court to decline supplemental jurisdiction under 28 U.S.C. § 1332 since the basis for
+jurisdiction under CAFA no longer existed.26  The Court denied the motion, holding that Plaintiffs’
+dismissal of the class-action allegations plainly amounted to forum shopping and that jurisdiction
+was appropriately exercised under § 1367.27
+ Defendants then moved for partial judgment on the pleadings, arguing that the Plaintiffs’
+request for a permanent injunction was preempted by the FAA. 28  The Court denied the motion
+without prejudice, permitting Defe ndants to reassert the argumen ts in an appr opriate motion
+following discovery.29
+Next, Defendants moved to dismiss all claims of this lawsuit pursuant to Rule 12(c) of the
+Federal Rules of Civil Procedure,  arguing that the noise and vibra tion resulting from helicopter
+operations at their helistop do not constitute actionable nuisance because the noise level complies
+with local ordinances.30  Plaintiffs countered with a motion to strike Defendants’ motion to dismiss
+as untimely pursuant to Rule 12(g) of the Federal Rules of Civil Procedure. 31  The Court denied
+both motions, finding that Plaintiffs’ claims we re not ripe for resolution on the face of the
+pleadings.32
+
+24 R. Doc. 30.
+25 R. Doc. 39.
+26 R. Docs. 42; 62.
+27 R. Doc. 62 at 5.
+28 R. Doc. 52.
+29 R. Doc. 62 at 7.
+30 R. Doc. 67.
+31 R. Doc. 74.
+32 R. Doc. 82.
+Case 2:21-cv-01188-BWA-JVM     Document 143     Filed 11/03/25     Page 4 of 43
+5
+
+Now that discovery has been conducted, Defendants file the instant motion in limine and
+motion for summary judgment. 33  In the motion in limine , Defendants argue that Bommer,
+Plaintiffs’ sound expert, should be preclude d from testifying becaus e his opinions and
+methodology do not satisfy Daubert.34  Defendants also argue that Plaintiffs should be precluded
+from offering expert opinions from any other witness because they failed to produce expert reports
+or summaries in compliance with Rule 26 of the Federal Rules of Civil Procedure. 35  Defendants
+also move for summary judgment, contending that Plaintiffs’ cl aim for injuncti ve relief is
+preempted by the FAA and they cannot prevail on the nuisance and negligence claims for
+damages.36
+II. LAW & ANALYSIS
+A. Defendants’ Motion In Limine
+1. Arno Bommer
+Plaintiffs retained Arno Bommer, a cons ultant with Collaboration in Science and
+Technology Inc., to serve as an acoustics expert. 37  In 1982, Bommer recei ved a bachelor’s of
+science degree in architectural design from the Massachusetts Institute of Technology and has
+worked as an acoustical consultant ever since. 38  He is a member of the Acoustic Society of
+America and is board certified by the In stitute of Noise Control Engineering. 39  Bommer has
+“designed walls and ceilings to improve noise is olation and/or speech privacy” for various types
+
+33 R. Docs. 105; 106.
+34 R. Doc. 105-1 at 4-13.
+35 Id. at 13-14.
+36 R. Doc. 106-1 at 11-24.
+37 R. Doc. 105-2.
+38 Id. at 4, 22.
+39 Id.
+Case 2:21-cv-01188-BWA-JVM     Document 143     Filed 11/03/25     Page 5 of 43
+6
+
+of buildings, including residences. 40  He has contributed to numerous publications and has
+previously testified as an expert witness.41
+In this case, Bommer attempted to measure the impact of the noise from Defendants’
+helicopter using what he refers to as “a common method” that compares “the level of the intruding
+sounds with the ambient sound level.”42  He explains that “[a]n increase of 10 dBA [(A-weighted
+decibels)] is typically perceive d as being about twice as loud and is used by some regulatory
+agencies to define a significant increase.”43  Bommer cites six ordinances or guidelines that were
+not promulgated in Louisiana and do not relate to aviation that “define a noise impact as 10 dBA
+above ambient.”44  Using this method, Bommer took sound readings at several locations at various
+times in the summer of 2021 and purports to show that the noise level increased significantly when
+Defendants’ helicopter was in operation.45  Bommer explains that numerous factors contribute to
+the noise level at the various locations, such as the distance from the helipad and obstructions that
+block the noise.46  Ultimately, Bommer opines that:
+Noise from hospital helicopter operations is loud and pervasive throughout the
+neighborhood north of the hospital within about 1300 ft of the helipad.  The levels
+of sound are much greater than ambient sound levels and exceed common
+guidelines.  They are sufficiently loud to cause annoyance and aggravation, to
+interfere with the use of property outside residences, and to interfere with sleep
+within residences.  This can reduce propert y values and adversely affect learning
+and health.  It is my judgment that s ound levels from [the helicopter] are more
+probable than not to constitute a nuisance to people of normal sensitivities.  To
+prevent this, significant reduction of sound levels must  be achieved either by
+relocating the helipad and flight path s and/or by significantly modifying the
+residences for improved sound isolation.47
+
+40 Id. at 22.
+41 Id. at 23-24.  Defendants do not generally contest that Bommer is qualified to testify as an acoustics expert.
+See R. Doc. 105-1.
+42 R. Doc. 105-2 at 6.
+43 Id.
+44 Id. at 6-7.
+45 Id. at 9-17, 19-20.
+46 Id.
+47 Id. at 21.
+Case 2:21-cv-01188-BWA-JVM     Document 143     Filed 11/03/25     Page 6 of 43
+7
+
+Bommer offers the following suggestions for noise control: use quieter helicopters, move the
+helipad oriented away from the residences, refuel the helicopter at the helipad to reduce flights,
+use different flight paths away from the neighborhood, and modify the residences for better sound
+isolation with certain types of windows, walls, doors, vents, and roofs.48
+ Defendants seek to preclude Bommer from te stifying at trial because, say Defendants, he
+failed to use a proper methodology and ensure that his noise-imp act opinions were supported by
+the facts.49  Defendants first argue that Bommer failed to establish that the noise from the helicopter
+is excessive in light of local ordinances, sp ecifically, the New Orleans Comprehensive Zoning
+Ordinance and New Orleans Noise Ordinance (the “city noise ordinance”)50 that does not use a 10
+dBA standard and from which emergency vehicles  are exempt, and FAA noise regulations that
+employ the day-night average sound level (DNL) to measure sound, which is a different measure
+than the one used by Bommer. 51  Defendants further argue th at the “common method” Bommer
+used, isolating the single-event noise (supposedly Defendants’ helicopter) from ambient sound, “is
+what the on-point FAA standard is designed to avoid.”52  Next, Defendants contend that Bommer
+
+48 Id. at 17-19.
+49 R. Doc. 105-1 at 1, 5-11.
+50 The city noise ordinance provides that the sound level limit for a residential area is between 60 L 10 dBA
+and 70 Lmax dBA from 7:00 a.m. to 10:00 p.m., and between 55 L 10 dBA and 60 L max dBA from 10:00 p.m. to 7:00
+a.m.  CODE OF THE CITY OF NEW ORLEANS § 66-202 (2025).  “L10 means the A-weighted sound pressure level which
+is exceeded ten percent of the time period during which the measurement is made.”  Id. § 66-136.  “Lmax means the A-
+weighted sound level allowed.”  Id.  “Noises resulting from any authorized emergency vehicles when responding to
+an emergency” are exempt from the sound level limits.  Id. § 66-138(2).  “Emergency vehicles” are defined as
+“authorized publicly or privately owned ambulances, or motor vehicles belonging to a fire or police department, or to
+any federal, state, parish or municipal agency provided such vehicles are in use as emergency vehicles by one
+authorized to use such vehicles for that purpose.”  Id. § 66-136.  “ Emergency means any occurrence or set of
+circumstances involving actual or eminent [ sic] physical trauma or property damage which demands immediate
+attention.”  Id. (emphasis in original).
+51 R. Doc. 105-1 at 5-10.  DNL “means the 24-hour average sound level, in decibels, for the period from
+midnight to midnight, obtained after the addition of ten decibels to sound levels for the periods between midnight and
+7 a.m., and between 10 p.m., and midnight, local time.”  14 C.F.R. § 150.7.  Aircraft noise at a level below 65 DNL
+is considered compatible with all land uses.  See id. § A150.101 & Table 1.  “The DNL is the standard form of noise
+measurement employed by the FAA, the United States Department of Housing and Urban Development, the
+Department of Defense, and other federal agencies.”  Zbitnoff v. James, 2016 WL 4251047, at *5 (D. Vt. Aug. 10,
+2016), aff’d, 708 F. App’x 25 (2d Cir. 2017).
+52 R. Doc. 105-1 at 8.
+Case 2:21-cv-01188-BWA-JVM     Document 143     Filed 11/03/25     Page 7 of 43
+8
+
+failed to ensure that sound spikes were emanating from the Defendants’ helicopter, and Plaintiffs’
+attorneys, not Bommer, chose residences at which sound was measured, meaning that Bommer
+cannot say that his measuremen ts were representative of every single residence in the
+neighborhood.53  Finally, Defendants urge that Bommer cannot offer opinions in “areas on which
+he is not an expert or failed to conduct any expert analysis, such as health and medical conditions,
+property values, home remedi ation and aviation safety.” 54  At his deposition, say Defendants,
+Bommer admitted that: (1) he is not a real estate expert and has not determined whether Plaintiffs
+experienced a reduction in their property values; (2) he is not a medical doctor or an expert on
+whether the noise caused any specific medical condition in any Plaintiff; (3) he has not inspected
+Plaintiffs’ residences to determine what noise-reduction modifications would be appropriate or the
+cost of such work; and (4) he is not an aviation expert and cannot opine on the feasibility of moving
+the helipad back to its old location, changing flight  paths, or using the helipad only for specific
+purposes.55
+ Plaintiffs respond in opposition, arguing th at Bommer’s use of the “common method” to
+quantify noise was appropriate be cause it captured the effects of the “short, high-intensity
+helicopter noise events,” which the DNL does not accurately measure in terms of noise impact.56
+Plaintiffs explain how Bommer c onducted his test and advocate that the test was appropriate to
+measure “ambient conditions without helicopters and during helicopter takeoffs and landings” at
+different locations to determine the effe ct the sudden noise has on the residents. 57  Plaintiffs also
+
+53 Id. at 10-11.
+54 Id. at 1, 11-13 (quote at 1).
+55 Id. at 11-13.
+56 R. Doc. 120 at 3-4, 6-7 (quote at 3).  Plaintiffs spend a lot of time discussing the testimony of Defendants’
+corporate representative, Evan Bertucci, and Defendants’ sound expert, Eugene M. Reindel.  Id. at 3-7.  Because the
+testimony of Bertucci and Reindel is not relevant to determining whether Bommer may testify as an expert, the Court
+need not discuss it.
+57 Id. at 8-9 (quote at 8).
+Case 2:21-cv-01188-BWA-JVM     Document 143     Filed 11/03/25     Page 8 of 43
+9
+
+contend that the FAA regulations do not apply to the private heliport at issue.58  Plaintiffs say that
+the “question of the reliability  of the application of the me thodologies is dependent upon the
+credibility of the results, which is a weight issue.” 59  Further, Plaintiffs argue that Bommer is
+qualified to testify as to ways to remediate the noise, which, in his opinion, ultimately involves
+moving the helipad back to its old location.60  Finally, Plaintiffs urge that Bommer did not need to
+consider the New Orleans noise or dinance because injunctive relief is available when excessive
+noise amounts to an abuse of property rights.61
+ In reply, Defendants contend that Plaintiffs failed to “establish by a preponderance of the
+evidence that Mr. Bommer’s methodology and opinions are reliable and supported by the facts.”62
+Defendants again emphasize that Louisiana law requires the suppr ession of noise only if it is
+excessive under local ordinances or customs, and Bommer failed to consider those ordinances in
+rendering his opinions, particularly  that the New Orleans Departme nt of Health “has rejected
+application of the [city noise] ordinance to [Defendants’] helicopter operations.”63  Defendants
+continue to assert that the DNL standard employed by the FAA is the correct measure of aviation
+noise and that Bommer cited “five obscure state or regulat[ory] provisions governing noise other
+than aviation no[i]se” and failed to explain how they apply here. 64  Moreover, say Defendants,
+Plaintiffs failed to show that  Bommer’s opinions are reliable and supported by the facts because
+he testified that he did not verify whether the noise spikes he measured  came from Defendants’
+
+58 Id. at 4-5.
+59 Id. at 10.
+60 Id. at 9-10.
+61 Id. at 10-13.
+62 R. Doc. 124 at 1.  Defendants point out that Plai ntiffs “spend the majority of their opposition” critiquing
+Reindel and the FAA’s noise-impact methodology, neither of which, say Defendants, make Bommer’s opinions
+reliable.  Id.
+63 Id. at 2-3 (quote at 3).
+64 Id. at 3-5 (quote at 5).
+Case 2:21-cv-01188-BWA-JVM     Document 143     Filed 11/03/25     Page 9 of 43
+10
+
+helicopter.65  Further, Defendants urge that, under Rule 702, “the sufficiency of an expert’s basis
+and the application of the expert’s methodology” go to the admissibility of the testimony, not just
+its weight.66  Defendants also maintain that Plaintiffs did not “establish that Mr. Bommer can offer
+opinions on areas on which he is not an expert or failed to conduct any expert analysis,” such as
+property values, health effects, sleep disturbances, residential sound modifications, or aviation
+related topics.67
+ In their surreply, Plaintiffs reurge that Bommer’s method and the DNL are both appropriate
+measures of noise, but that Bommer’s way is superior for the issue at hand.68  Plaintiffs also state
+that Bommer did not need to calculate whether the helicopter violated the city noise ordinance.69
+ In a sur-surreply, Defendant s again argue that Bommer’s  methodology is unreliable
+because he did not establish that the helicopter noise is excessive under the city noise ordinance, a
+custom, or standard practice. 70  Defendants assert that Bommer’s “common method” is not
+“custom and standard practice,” but instead re lies on “five obscure regulations dealing with
+construction, wind farms, and other non-aviation noise to justify its use.”71  And again, Defendants
+contend that the DNL is the customary method for measuring aviation noise.72  Finally, Defendants
+note that “Plaintiffs do not address in their sur-reply why Mr. Bommer’s expert opinion on matters
+on which he is not an expert or did not conduct any expert analysis should be excluded.”73
+ A district court has discretion to admit or exclude expert testimony under the Federal Rules
+of Evidence.  Gen. Elec. Co. v. Joiner , 522 U.S. 136, 139 (1997).  In Daubert v. Merrell Dow
+
+65 Id. at 5-6.
+66 Id. at 2.
+67 Id. at 1-2, 6-7 (quote at 2).
+68 R. Doc. 138 at 1-2, 4.
+69 Id. at 3.
+70 R. Doc. 139 at 2.
+71 Id.
+72 Id.
+73 Id. at 4 n.3.
+Case 2:21-cv-01188-BWA-JVM     Document 143     Filed 11/03/25     Page 10 of 43
+11
+
+Pharmaceuticals, Inc., 509 U.S. 579, 589 (1993), the Supreme Court held that Rule 702 of the
+Federal Rules of Evidence requires a district court to act as a gatekeeper to  ensure that “any and
+all scientific testimony or evidence admitted is not only relevant, but reliable.”  Rule 702 provides:
+A witness who is qualified as an expert  by knowledge, skill, experience, training,
+or education may testify in the form of an opinion or  otherwise if the proponent
+demonstrates to the court that it is more likely than not that:
+
+(a) the expert’s scientific, technical, or other speciali zed knowledge will help the
+trier of fact to understand the evidence or to determine a fact in issue;
+
+(b) the testimony is based on sufficient facts or data;
+
+(c) the testimony is the product of reliable principles and methods; and
+
+(d) the expert’s opinion reflects a reliable application of the principles and methods
+to the facts of the case.
+
+ The reliability inquiry requires a court to assess whether the reas oning or methodology
+underlying the expert’s testimony is valid.  See Daubert, 509 U.S. at 592-93.  In Daubert, the
+Supreme Court listed several non-exclusive factors for a court to consider in assessing reliability:
+(1) whether the theory has been te sted; (2) whether the theory has been subjected to peer review
+and publication; (3) the known or po tential rate of erro r; and (4) the general acceptance of the
+methodology in the sc ientific community.  Id. at 593-95.  However, a court’s evaluation of the
+reliability of expert testimony is flexible because “[t]he factors identified in Daubert may or may
+not be pertinent in assessing reliability, depending on the nature of the issue, the expert’s particular
+expertise, and the subject of his testimony.”  Kumho Tire Co. v. Carmichael , 526 U.S. 137, 150
+(1999) (quotations omitted).  In sum, the district court must ensure “that an expert, whether basing
+testimony upon professional studies or personal experiences, employs in the courtroom the same
+level of intellectual rigor that characterizes the practice of an expert in the relevant field.”  Id. at
+Case 2:21-cv-01188-BWA-JVM     Document 143     Filed 11/03/25     Page 11 of 43
+12
+
+152.  The party offering the testimony must establ ish its reliability by a preponderance of the
+evidence.  See Moore v. Ashland Chem. Inc., 151 F.3d 269, 276 (5th Cir. 1998).
+  Next, the district court must determine whether the expert’s r easoning or methodology
+“fits” the facts of the case and whether it will assist th e trier of fact to understand the evidence,
+i.e., whether it is relevant.  Daubert, 509 U.S. at 591.  An expert’s testimony is not relevant and
+may be excluded if it is directed to an issue th at is “well within the common sense understanding
+of jurors and requires no expert testimony.”  Vogler v. Blackmore , 352 F.3d 150, 155 (5th Cir.
+2003).  Further, an expert cannot make “legal conclusions reserv ed for the court,” credit or
+discredit witness testimony, or “otherwise make[] factual determinations reserved for the trier of
+fact.”  Highland Cap. Mgmt., L.P. v. Bank of Am., N.A., 574 F. App’x 486, 491 (5th Cir. 2014).
+ Rule 702 also requires that an expert be pr operly qualified.  Generally, if there is some
+reasonable indication of qualifica tions, the district court may admit the expert’s testimony, and
+then the expert’s qualifications become an issue for the trier of fact.  Rushing v. Kan. City S. Ry.
+Co., 185 F.3d 496, 507 (5th Cir. 1999), superseded in part by statute on other grounds as noted in
+Lester v. Wells Fargo Bank, N.A., 805 F. App’x 288, 291 (5th Cir. 2020).  A witness qualified as
+an expert is not strictly confined to his ar ea of practice but may te stify regarding related
+applications; a lack of specialization goes to the weight, not the admissibility of the opinion.  Cedar
+Lodge Plantation, L.L.C. v. CSHV Fairway View I, L.L.C. , 753 F. App’x 191, 195-96 (5th Cir.
+2018).
+The facts, data, and sources used in an expe rt’s opinion are generally considered by the
+jury in weighing the evidence, but “in some cases ‘the sour ce upon which an expert’s opinion
+relies is of such little weight that the jury should not be permitted to receive that opinion.’”  Jacked
+Up, L.L.C. v. Sara Lee Corp. , 807 F. App’x 344, 348 (5th Cir. 2020) (quoting Viterbo v. Dow
+Case 2:21-cv-01188-BWA-JVM     Document 143     Filed 11/03/25     Page 12 of 43
+13
+
+Chem. Co., 826 F.2d 420, 422 (5th Cir. 1987)).  As the gate keeper, a district judge must “extract
+evidence tainted by farce or fiction.  Expert evidence based on a ficti tious set of facts is just as
+unreliable as evidence based upon no research at all.”  Guillory v. Domtar Indus. Inc. , 95 F.3d
+1320, 1331 (5th Cir. 1996).  “Genera lly, the fact-finder is entitled to hear an expert’s testimony
+and decide whether the predicate facts on which the expert relied are accurate.  At the same time,
+however, expert testimony that relies on comple tely unsubstantiated fa ctual assertions is
+inadmissible.”  Moore v. Int’l Paint, L.L.C. , 547 F. App’x 513, 515 (5th Cir. 2013) (internal
+quotation marks, alterations, and citations omitted).  Ultimately, the expert must “‘bring to the jury
+more than the lawyers can offer in argument.’”  Salas v. Carpenter, 980 F.2d 299, 305 (5th Cir.
+1992) (quoting In re Air Crash Disaster at New Orleans, 795 F.2d 1230, 1233 (5th Cir. 1986)).
+ Here, Bommer is qualified to  testify as an expert in aco ustics.  While his methodology
+differs from that employed by Defendants’ expert and the FAA, the Court cannot say that it was
+an improper means to measure the effects of the helicopter noise on the surrounding neighborhood.
+That the FAA standard (DNL) has been applied by other courts, see Seattle Cmty. Council Fed’n
+v. FAA, 961 F.2d 829, 833 (9th Cir. 1992); Hausrath v. U.S. Dep’t of the Air Force, 491 F. Supp.
+3d 770, 788 (D. Idaho 2020); Friends of the E. Hampton Airport, Inc. v. Town of E. Hampton, 152
+F. Supp. 3d 90, 110-11 (E.D.N.Y. 2015), and “‘cour ts have consistently upheld the [FAA’s]
+discretion to choose its cumulative noise impact methodology [DNL] instead of single-event noise
+analysis’” when the agency evaluates the noise impact of aircraft, Citizens of the Ebey’s Rsrv. for
+a Healthy, Safe & Peaceful Env’t v. U.S. Dep’t of the Navy, 122 F. Supp. 3d 1068, 1079-80 (W.D.
+Wash. 2015) (quoting City of Bridgeton v. FAA, 212 F.3d 448, 460 (8th Cir. 2000)), does not mean
+that the DNL is the only way to measure the imp act of aviation noise for purposes of a state-law
+nuisance claim.  Defendants do not cite, and th e Court is not aware of , any cases applying the
+Case 2:21-cv-01188-BWA-JVM     Document 143     Filed 11/03/25     Page 13 of 43
+14
+
+FAA’s DNL to such claims.  Moreover, Bommer’s failure to calculate whether the noise complied
+with the city noise ordinance is not fatal to th e admissibility of his testimony.  As discussed later
+in this opinion, the city noise ordinance is but one factor that is considered in determining whether
+the helicopter is a nuisance under state law, so Defendants’ compliance or noncompliance with it
+is not determinative.  Defendants can addre ss the differences between  Bommer’s methodology,
+and the methodology and measure used by their expe rt, the FAA, and the city noise ordinance,
+through vigorous cross-examination and the presentation of countervailing expert testimony.
+More concerning is Bommer’s failure to verify that the sound spikes he measured emanated
+from Defendants’ helicopter.  Bommer admitted in his deposition that he did not use the flight logs
+provided by Defendants to verify whether the supposed helicopter noise recorded during his study
+was actually produced by a helicopter at al l, much less Defendants’ helicopter.74  This lapse may
+reduce the reliability of Bomme r’s testimony, but it does not unde rmine it completely.  Again,
+Defendants can employ vigorous cross-examination and countervailing expert testimony to expose
+this hole in Bommer’s opinions.
+Lastly, the Court does hold that  Bommer cannot offer opinions on topics for which he is
+not an expert or failed to conduct any expert analysis.  In his deposition, Bommer admitted that he
+did not conduct any analysis concerning what noise-remediation modifications could be made on
+the Plaintiffs’ homes and he is not giving an opinion on that topic. 75  He also admitted that he is
+not a real estate expert and has not analyzed whether the Plaintiffs’ property values decreased as a
+result of Defendants’ relocation of the helipad.76  Further, Bommer testified that he is not a medical
+doctor or expert on whether the helicopter noise caused any specific medical condition in any
+
+74 R. Doc. 105-3 at 5.
+75 Id. at 25.
+76 Id. at 26.
+Case 2:21-cv-01188-BWA-JVM     Document 143     Filed 11/03/25     Page 14 of 43
+15
+
+plaintiff.77  And, finally, Bommer has no expertise in aviation.78   Accordingly, because Bommer
+lacks expertise or did not perfor m any expert analysis in these areas, he cannot o ffer any expert
+testimony in the areas of property valuation as a function of the helicopter noise, health effects of
+the helicopter noise, sleep disturbances cau sed by the helicopter no ise, residential sound
+modifications to abate the helicopter noise, or aviation-related topics, such as the feasibility of
+moving the helipad back to its old location, changing flight paths,  or using the helipad only for
+specific purposes.
+2. Other Experts
+ Defendants move to exclude any expert opinions and testimony from individuals not
+properly disclosed by Plaintiffs pursuant to Rule 26.79  Defendants indicate that, save for Bommer,
+Plaintiffs did not disclose or produce under Rule 26(a)(2)(B) reports for any retained experts, nor
+did Plaintiffs provide proper disclosures fo r any non-retained experts pursuant to Rule
+26(a)(2)(C).80  However, say Defendants, Plaintiffs’ w itness list “discloses several individuals
+whose description of testimony could be expe rt opinions although the cr yptic summaries make
+that unclear.”81  Specifically, the witness list says th at: Dr. Mario Sicassa, Helen Cappo, Malies
+Harold Counseling, and Debbie Granier will testify for plaintiff Melisa Rey about “[m]ental health
+issues associated with helicopter noise”; Dr. Michael Darrin will testify about a “[s]leep study to
+help Melisa Rey find ways to manage her sleep”;  architect Gregory J. Hackenberg will testify
+about “[a]coustic recommendations”; and Brien Rau of Rau Builds, LLC will testify about
+“[e]stimates for acoustic recommendation work” and “the remediation work performed on the
+
+77 Id. at 27.
+78 Id. at 22.
+79 R. Doc. 105-1 at 13-14.
+80 Id. at 13.
+81 Id.
+Case 2:21-cv-01188-BWA-JVM     Document 143     Filed 11/03/25     Page 15 of 43
+16
+
+[Reys’] house, including sound proofing.” 82  Defendants argue that, to the extent any of the
+healthcare providers or therapists are being ca lled to offer medical causation opinions, their
+testimony should be excluded because Plaintiffs did not provide the disclosures required by Rule
+26(a)(2)(C).83  Similarly, Defendants contend that, “to the extent [Hackenberg and Rau] are being
+called to offer acoustic analysis and recommenda tions and whether they could be applied to
+Plaintiffs’ residence[s] or other residences,” those witnesses should be excluded because Plaintiffs
+did not provide Rule 26(a)(2)(B) repo rts or Rule 26(a)(2)(C) disclosures. 84  Finally, Defendants
+assert that Plaintiffs cannot elicit expert opinions from Bill Da vis, the president of Heliport
+Systems, Inc. (“Heliport Systems”), because Plaintiffs did not produce a Rule 26(a)(2)(B) expert
+report for Davis or disclose him as a non -retained expert under Rule 26(a)(2)(C). 85  Defendants
+are concerned that Plaintiffs seek to use Davis as an expert because Plaintiffs state in their witness
+list that Davis will testify about topics that Defendants say “clearly require expert opinions,” such
+as “moving the helistop to its original location and reducing flights,” as well as “the FAA’s
+involvement with the no ise associated with landings and take offs.” 86  Defendants represent that
+their concern stems from Plaintiffs’ prior request for an extension of time to obtain an expert report
+from Davis, which idea Plaintiffs abandoned in favor of Davis being a fact witness when
+Defendants objected to the requested extension.87  Defendants further explain that Davis testified
+as Heliport Systems’ corporate representative in a deposition taken pursuant  to Rule 30(b)(6) of
+
+82 R. Doc. 99 at 8-9.  All the healthcare providers and therapists are said to have treated plaintiff Melisa Rey.
+R. Doc. 120 at 16-17.
+83 R. Doc. 105-1 at 13.
+84 Id.
+85 Id. at 14.
+86 Id. (quoting R. Doc. 99 at 5).
+87 Id.
+Case 2:21-cv-01188-BWA-JVM     Document 143     Filed 11/03/25     Page 16 of 43
+17
+
+the Federal Rules of Civil Procedure, and as such, say Defendants, any attempt by Plaintiffs to use
+that deposition as the basis for expert testimony would be improper.88
+ Plaintiffs oppose the motion, arguing that Melis a Rey “disclosed all medical providers who
+treated her for sleep disturbances and stress and anxiety from the helicopter noise in her initial
+response to discovery in April of 2022 and in a second set of discovery sent by [Defendants].”89
+Plaintiffs state that Defendants obtained Dr. Rebekah A. Byrne’s90 and Harold’s records for their
+treatment of Melisa Rey, which contain their resp ective opinions that Defendants’ helicopter is a
+cause of her anxiety and sleep issues. 91  Plaintiffs also say that “Melissa [ sic] Rey provided a
+detailed explanation of her medi cal treatment in her responses to  discovery and deposition” and
+that “[h]er medical records note he r history, diagnosis and treatment.” 92  As to Hackenberg and
+Rau, Plaintiffs contend that they met their discovery obligations by sending Defendants’ counsel
+“all of the architecture plans, estimate a nd work performed, including the acoustical work.” 93
+Further, with respect to Davis, Plaintiffs assert that they “notified [Defendants’ counsel] by email
+that Bill Davis would be called as an expert witness, attach ing his Rule 26 testimony list and
+curriculum vitae” and that “Davis further disclosed all of his opinions in his deposition.”94
+ In reply, Defendants reurge that  Plaintiffs did not properly disclose Melisa Rey’s healthcare
+providers and therapists or Hackenberg and Rau as retained or non-retained experts, and as such,
+none of them can offer expert testimony. 95  Defendants explain that production of the medical
+records and construction contract documents in discovery is insufficient to satisfy the mandates of
+
+88 Id. at n.6.
+89 R. Doc. 120 at 16 (citing R. Doc. 120-9).
+90 Dr. Byrne is not named on Plaintiffs’ witness list.  See R. Doc. 99.
+91 R. Doc. 120 at 16-17 (citing R. Docs. 120-10; 120-11).
+92 Id. at 17.
+93 Id.
+94 Id. at 13.
+95 R. Doc. 124 at 8-9.
+Case 2:21-cv-01188-BWA-JVM     Document 143     Filed 11/03/25     Page 17 of 43
+18
+
+Rules 26(a)(2)(B) or (C).96  As to Davis, Defendants reassert that Plaintiffs’ counsel asked for an
+extension of the expert report deadline on the due date to obtain a report from Davis, but abandoned
+the idea when Defendants’ coun sel objected to the extension. 97  Defendants also reiterate that
+Davis was deposed as Heliport Sy stems’ corporate representative under Rule 30(b)(6), not as an
+individual.98  In sum, Defendants contend that Davi s can offer no expert  opinions because
+Plaintiffs did not properly disclose him as a retained or non-retained expert.99
+ Plaintiffs again claim in thei r surreply that production of Melisa Rey’s medical records and
+“the completed remediation specifications for the renovation” are sufficient to prevent prejudice
+to Defendants.100  Plaintiffs also argue that they should be able to use Davis as an expert witness,
+even without a report, because Defendants were going to use him as an expert and relied on him
+“for every facet of its original and new helistop.” 101  Plaintiffs further assert that they referred to
+Davis’s deposition because he “could not be for ced to provide a report” and his opinions were
+previously disclosed to Defendants.102
+ In their sur-surreply, Defendants reassert that  Davis was not properly disclosed as an expert
+under either Rule 26(a)(2)(B) or (C), and that Plaintiffs’ reference to Helistop Systems’ corporate
+deposition does not suffice to make Davis an expert. 103  Defendants also say that their own
+consulting relationship with Davis does not “render him an expert” witness.104  Further, Defendants
+reurge that production of Melisa Rey’s medical records is insufficient under Rule 26 to put them
+“on notice that the medical providers would be experts” because they “should not have to guess as
+
+96 Id.
+97 Id. at 7.
+98 Id.
+99 Id.
+100 R. Doc. 138 at 5-6.
+101 Id. at 4-5.
+102 Id.
+103 R. Doc. 139 at 4.
+104 Id.
+Case 2:21-cv-01188-BWA-JVM     Document 143     Filed 11/03/25     Page 18 of 43
+19
+
+to who Plaintiffs may call as non -retained experts or what opini ons they may or may not offer
+many of which, such as causation, may not be stated in the medical records.”105  Defendants state
+that the same logic applies to Hackenberg and Rau. 106  In sum, Defendant s contend that they
+“should not be required to depose multiple medical providers and contractors to determine what
+their opinions are and guess whether they will provide  expert rather than fact testimony at trial,”
+because “Rule 26 and this Court’s Scheduling Order require more.”107
+Rule 26(a)(2) of the Federal Rules of Civil Procedure govern s the disclosure of expert
+testimony.  The rule provides a distinction between the type of report required of a retained expert
+– someone with no prior knowledge of the case who is enlisted to provide expert testimony – and
+a non-retained expert – a witness whose te stimony arises from his or her “ground-level
+involvement in the events givi ng rise to the litigation.”  AX Wireless LLC v. Dell Inc. , 2024 WL
+1495784, at *1 (E.D. Tex. Apr. 5, 2024) (quotation omitted).  The party sponsoring the testimony
+must demonstrate whether its experts are retained or not.  Id.
+A retained expert is required to prepare a nd sign an expert report pursuant to Rule
+26(a)(2)(B).  The report must cont ain: “a complete statement of all opinions the witness will
+express and the basis and reasons for them”; “the facts or data  considered by the witness in
+formatting them”; “any exhibits that will be used to summarize or support them”; “the witness’s
+qualifications, including a list of all publications au thored in the previous 10 years”; “a list of all
+other cases in which, during the previous 4 years, th e witness testified as an expert at trial or by
+deposition”; and “a statement of the compensation to be paid for the st udy and testimony in the
+case.”  Fed. R. Civ. P. 26(a)(2)(B)(i)-(vi).
+
+105 Id. at 5.
+106 Id.
+107 Id.
+Case 2:21-cv-01188-BWA-JVM     Document 143     Filed 11/03/25     Page 19 of 43
+20
+
+Prior to 2010, non-retained experts were exempt from Rule 26’ s expert reporting
+requirements.  See Tucker v. United States, 2019 WL 4198254, at *2 (E.D. La. Sept. 4, 2019).  In
+2010, Rule 26(a)(2)(C) was added, wh ich provides a modified disclo sure requirement applicable
+to non-retained experts, su ch as treating physicians.  Id.  Rule 26(a)(2)(C) re quires that a party,
+with respect to a non-retained expert, provide a written disclosure, in lieu of a report, stating: “(i)
+the subject matter on which the w itness is expected to present evidence under Federal Rule of
+Evidence 702, 703, or 705; and (ii)  a summary of the facts and opi nions to which the witness is
+expected to testify.”
+A Rule 26(a)(2)(C) disclosure “need not be extensive,” but must include “an abstract,
+abridgement, or compendium of the opinion and facts supporting the opinion.”  Causey v. State
+Farm Mut. Auto. Ins. Co., 2018 WL 2234749, at *2 (E.D. La. May 16, 2018) (quotation omitted;
+emphasis in original); see AX Wireless, 2024 WL 1495784, at *1  (stating that “when a party fails
+to provide a meaningful summary of the facts a nd opinions forming the ba sis of a non-retained
+expert’s testimony, the disclosure  is insufficient” (quotation, internal quotation marks, and
+alteration omitted)).  Although “the  rule does not requir e overly comprehensiv e disclosure … it
+does require disclosure in at least some form” in order “to provide opposing parties the opportunity
+to prepare for effective cross-examination and to  arrange for testimony from other experts, if
+necessary.”  Causey, 2018 WL 2234749, at *2  (emphasis in original); see also Collett v.
+Weyerhaeuser Co., 512 F. Supp. 3d 665, 672 (E.D. La. 2021) (“ In lieu of a report, the treating
+physician’s records, summaries of the treatment, or a letter or summary report is produced
+containing information sufficien t to allow opposing counsel to understand the scope of the
+expected testimony and supplement the information with a pretrial deposition.”), aff’d, 2022 WL
+2387352 (5th Cir. July 1, 2022).
+Case 2:21-cv-01188-BWA-JVM     Document 143     Filed 11/03/25     Page 20 of 43
+21
+
+Rule 37(c)(1) states that, “[i]f a party fails to provide information or identify a witness as
+required by Rule 26(a) …, the party is not allowed to use that info rmation or witness to supply
+evidence on a motion, at a hearing, or  at a trial, unless the failure wa s substantially justified or is
+harmless.”  Further, this Court’ s scheduling order states that “[ t]he Court will not permit any
+witness, expert or fact, to testify or any exhibits to be used unless there has been compliance with
+this Order as it pertains to the witness and/or exhibits, without an order to do so issued on motion
+for good cause shown.” 108  The Fifth Circuit has outlined a four-factor standard to determine
+whether the failure to meet Rule 26 disclosure requirements was substant ially justified or is
+harmless.  Williams v. Louisiana, 2015 WL 5438596, at *5 (M.D. La. Sept. 11, 2015) (citing Sierra
+Club, Lone Star Chapter v. Cedar Point Oil Co. , 73 F.3d 546, 572 (5th Cir. 1996)).  “To avoid
+abusing their discretion, courts must: (1) examin e the importance of the witness’s testimony; (2)
+consider the prejudice, if any, to  the opposing party of allowing the witness to testify; (3) decide
+whether there is a possibility of curing such prejudice by granting a continuance; and (4) consider
+the explanation, if any, for the party’s failure to comply with  the discovery requirements.”  Id.
+(citing Sierra Club, 73 F.3d at 572).
+Plaintiffs utterly failed to comply with Rules 26(a)(2)(B) and (C) with respect to disclosing
+Davis, Hackenberg, Rau, and Melisa Rey’s healthcare providers and therapists, whether as retained
+or non-retained experts.  With respect to Davis, Plaintiffs do not deny that they did not obtain an
+expert report from Davis, but rather baldly state that sending Davis’s curriculum vitae and “Rule
+26 testimony list” to defense counsel constitu tes a sufficient disclosure because Davis was
+deposed.109  The lack of a Rule 26(a)(2)(B) expert report is fatal to Plaintiffs’ misguided attempt
+to use Davis as a retained expert.  Moreover, Davis cannot testify as a non-retained expert because
+
+108 R. Doc. 93 at 3.
+109 R. Docs. 120 at 13; 138 at 4-5.
+Case 2:21-cv-01188-BWA-JVM     Document 143     Filed 11/03/25     Page 21 of 43
+22
+
+Plaintiffs provided no meaningful summary of the facts and opinions forming the basis of Davis’s
+testimony as would satisfy Rule 26(a)(2)(C), “[a] nd referral to depositions is not an adequate
+substitute for the summary required by Rule 26.”  AX Wireless, 2024 WL 1495784, at *1 (quotation
+omitted).  Plaintiffs offer no explanation for their failure and the Court sees no good cause to
+excuse them from complying with Rule 26.  Thus , although Davis may testify as a fact witness,
+Plaintiffs may not attempt to elicit expert opinions from him.
+Plaintiffs also failed to provide Rule 26(a)(2)(C) summaries of the expected testimony from
+Melisa Rey’s healthcare providers and therapists.  Instead, Plaintiffs insist that providing the
+records from these witnesses is sufficient “to pr ovide notice of the natu re and extent of the
+testimony that is goi ng to be offered.” 110  It is not.  “Providing medical records and expecting
+defendants to search for the op inions that may be contained therein does not satisfy Rule
+26(a)(2)(C).”  Matthews v. Amtrust Grp., Ins. , 2020 WL 206186, at *2 (E .D. La. Jan. 14, 2020).
+To allow such a practice places the onus on Defendants to search the medical records for any
+causation opinions and the supporting facts, which opinions, say Defendants, are not present in the
+medical records.111  Again, Plaintiffs offer no explanation for their failure and the Court sees no
+good cause to excuse them  from complying with Rule 26.  Accordingly, none of Melisa Rey’s
+healthcare providers or therapists can offer cau sation opinions as an expert, although they can
+testify about any causation determination necessary to and made during the course of Melisa Rey’s
+treatment, if contained in the medical records. 112  See Rea v. Wis. Coach Lines, Inc. , 2014 WL
+4981803, at *5-6 (E.D. La. Oct. 3, 2014) (excluding treating physician’s causation opinions that
+
+110 R. Docs. 120 at 16-18 (quote at 17-18); 139 at 6-7.
+111 R. Doc. 105-1 at 13.
+112 Because she was not included on the witne ss list, Dr. Byrne may not testify at all.  See R. Doc. 99; see
+also R. Doc. 93 at 3 (the scheduling order required witness and exhibit lists to be filed by August 20, 2025, and states
+that “[t]he Court will not permit any witness, expert or fact, to testify or any exhibits to be used unless there has been
+compliance with this Order as it pertains to the witness and/or exhibits, without an order to do so issued on motion for
+good cause shown”).
+Case 2:21-cv-01188-BWA-JVM     Document 143     Filed 11/03/25     Page 22 of 43
+23
+
+were not established by the medical records when plaintiff failed to comply with the disclosure
+requirements of Rule 26(a)(2)(C)).
+Lastly, it is unclear from the cryptic entries on the witness list whether Hackenberg and the
+contractor Rau are being offered by Plaintiffs as retained or non-retained experts.  Regardless, they
+cannot testify as either type of expert because Plaintiffs failed to provide a Rule 26(a)(2)(B) report
+or a Rule 26(a)(2)(C) disclosure with respect to these witnesses.   And, again, Plaintiffs offer no
+explanation for such failure and the Court sees no good cause to excuse them from complying with
+Rule 26.  As with the other improperly disclosed purported experts, the ar chitect and contractor
+can testify as fact witnesses, if appropriate, but Plaintiffs cannot elicit a ny expert opinions from
+them.113
+B. Defendants’ Motion for Summary Judgment
+1. Summary Judgment Standard
+Summary judgment is proper if the pleadings, depositions, answers to interrogatories, and
+admissions on file, together  with the affidav its, if any, show that there is no genuine issue as to
+any material fact and that the moving party is  entitled to a judgment as a matter of law.  Celotex
+Corp. v. Catrett, 477 U.S. 317, 322 (1986); Fed. R. Civ. P. 56.  “Rule 56(c) mandates the entry of
+summary judgment, after adequate time for discovery and upon motion, against a party who fails
+to make a showing sufficient to establish the existence of an element essential to that party’s case,
+and on which that party will bear the burden of proof at trial.”  Celotex, 477 U.S. at 322.  A party
+moving for summary judgment bears the initial bur den of demonstrating the basis for summary
+judgment and identifying those portions of the record, discovery, and any affidavits supporting the
+conclusion that there is no genui ne issue of material fact.  Id. at 323.  If the moving party meets
+
+113 The Court will not attempt to rule in a vacuum as to what these witnesses can or cannot say, but instead
+will rule on contemporaneous objections lodged at trial.
+Case 2:21-cv-01188-BWA-JVM     Document 143     Filed 11/03/25     Page 23 of 43
+24
+
+that burden, then the nonmoving party must use evidence cognizable under Rule 56 to demonstrate
+the existence of a genuine issue of material fact.  Id. at 324.
+A genuine issue of material fact exists if a reasonable jury could return a verdict for the
+nonmoving party.  See Anderson v. Liberty Lobby, Inc., 477 U.S. 242, 248 (1986).  The substantive
+law identifies which facts are material.  Id.  Material facts are not genuinely disputed when a
+rational trier of fact could not find for the nonmoving party upon a review of the record taken as a
+whole.  See Matsushita Elec. Indus. Co. v. Zenith Radio Corp., 475 U.S. 574, 587 (1986); EEOC
+v. Simbaki, Ltd ., 767 F.3d 475, 481 (5th Cir. 2014).  Uns ubstantiated assertions, conclusory
+allegations, and merely colorable factual bases ar e insufficient to defeat a motion for summary
+judgment.  See Anderson, 477 U.S. at 249-50; Little v. Liquid Air Corp., 37 F.3d 1069, 1075 (5th
+Cir. 1994); Hopper v. Frank, 16 F.3d 92, 97 (5th Cir. 1994).  In ruling on a su mmary-judgment
+motion, a court may not resolve credibility issues or weigh evidence.  See Delta & Pine Land Co.
+v. Nationwide Agribusiness Ins. Co., 530 F.3d 395, 398-99 (5th Cir. 200 8).  Furthermore, a court
+must assess the evidence, review the facts, an d draw any appropriate inferences based on the
+evidence in the light most favorable to the party opposing summary judgment.  See Tolan v. Cotton,
+572 U.S. 650, 656-57 (2014); Daniels v. City of Arlington, 246 F.3d 500, 502 (5th Cir. 2001).  Yet,
+a court only draws reasonable infe rences in favor of the nonmova nt “when there is an actual
+controversy, that is, when both parties have submitted evidence of contradictory facts.”  Little, 37
+F.3d at 1075 (citing Lujan v. Nat’l Wildlife Fed’n, 497 U.S. 871, 888 (1990)).
+After the movant demonstrates the absence of a genuine issue of  material fact, the
+nonmovant must articulat e specific facts showing a genuine  issue and point  to supporting,
+competent evidence that may be presented in a form admissible at trial.  See Lynch Props., Inc. v.
+Potomac Ins. Co. , 140 F.3d 622, 625 (5th Cir. 1998); Fed. R.  Civ. P. 56(c)(1)(A), (c)(2).  Such
+Case 2:21-cv-01188-BWA-JVM     Document 143     Filed 11/03/25     Page 24 of 43
+25
+
+facts must create more than “some metaphysical doubt as to the material facts.”  Matsushita, 475
+U.S. at 586.  When the nonmovant will bear the bur den of proof at trial on the dispositive issue,
+the moving party may simply point to insufficient admissible evidence to establish an essential
+element of the nonmovant’s claim in order to satisfy its summary-judgment burden.  See Celotex,
+477 U.S. at 322-25; Fed. R. Civ. P. 56(c)(1)(B).  Unless there is a genuine issue for trial that could
+support a judgment in favor of the nonmovant, summary judgment must be granted.  See Little, 37
+F.3d at 1075-76.
+2. FAA preemption
+ Defendants move for summary judgment on Plaintiffs’ request for a preliminary injunction
+requiring them to relocate the helipad and change the flight paths to abate the noise, arguing that
+such a remedy is preempted by the FAA, because both moving the helipad and changing flight
+paths affect federally controlled airspace. 114  Defendants point to the testimony of Bertucci and
+Heliport Systems and the report of Keith Cian frani, their aviation expert, to support their
+argument.115  Bertucci, say Defendants, testified th at “the FAA determined the primary and
+secondary routes to an d from the helipad based on historical wind patterns, obstructions, and
+helipad orientation.”116  And Helipad Systems, which “designed, constructed and installed the new
+helipad at [Children’s Hospital] testified about the FAA approval process for the relocated
+helipad,” involving the FAA’s “evaluat[ion] whether the proposed flight paths conflict with flight
+paths from other airports or helipads and … confir m[ation] that there are no obstructions that the
+helicopter can hit using those flight paths.”117  Then the FAA issues a letter of determination. 118
+
+114 R. Doc. 106-1 at 11-15.
+115 Id. at 13-14.
+116 Id. at 13.
+117 Id.
+118 Id.
+Case 2:21-cv-01188-BWA-JVM     Document 143     Filed 11/03/25     Page 25 of 43
+26
+
+Defendants observe that aviation ex pert Cianfrani, in his report, e xplains that, before the helipad
+could be moved back to its old location, the FAA would have to conduct a new airspace study, and
+approval is not guaranteed, because the old helipad has been decommissioned for five years during
+which time circumstances could have changed.119
+ In their opposition, Plaintiffs argue that their request for an  injunction arises from their
+state-law nuisance claim, which they say is not preempted by the FAA. 120  Plaintiffs contend that
+their request for injunctive relief is not preempted because they “do not seek to control flight paths,
+altitudes, or airspace management,” but “[r]ather, they challenge a discretionary land-use decision:
+[Defendants’] choice to relocate [their] helipad from a buffered site to the rooftop of a tower
+adjacent to homes,” which, say Plaintiffs, make “[t]he resulting noise and nuisance … questions
+of state property law, not federal preemption.” 121  While Plaintiffs acknowledge that FAA
+regulations preempt state laws affecting airspace, they assert that the case law recognizes that state
+and local authorities have control over land use for airports and heliports and allows for state-law
+nuisance claims related to noise.122  Plaintiffs cite testimony from Bertucci, Heliport Systems, and
+Cianfrani, which they claim supports their theory that the FAA does not regulate helipad noise or
+site selection. 123  Plaintiffs further admit that they “are not seeking to eliminate helicopter
+operations or impede patient care,”  but instead, “[t]hey seek only to  require that the helipad be
+located in a place that balances hospital needs with community welfare” in accord with local land-
+use regulations and state nuisance law.124
+
+119 Id. at 13-14.  Defendants also argue that Plainti ffs cannot meet their burden to secure a mandatory
+permanent injunction.  Id. at 14-15.  The Court need not discuss this because the Court finds that Plaintiffs’ request
+for an injunction is preempted by the FAA.
+120 R. Doc. 123 at 10-16.
+121 Id. at 10.
+122 Id. at 10-11.
+123 Id. at 12-14.
+124 Id. at 16.
+Case 2:21-cv-01188-BWA-JVM     Document 143     Filed 11/03/25     Page 26 of 43
+27
+
+ In reply, Defendants reurge that Plaintiffs’ request for a mandatory injunction is
+preempted.125  Defendants explain that their “motion does not argue that the FAA regulations
+preempt state law nuisance and negligence claims or local land use regulation, such as zoning and
+permitting.”126  But “[r]ather, [Defendants] argue[] only that FAA regulations preempt Plaintiffs’
+request for a mandatory injunction that [Defendants] be ordered to ‘relocate [their] heliport’ and
+otherwise abate noise from helicopters by re locating the helipad, wh ich would necessarily
+implicate FAA airspace and require FAA approval.”127  Defendants also point out that Plaintiffs’
+injunction request is preempted by the FAA because: “(1) Plaintiffs testified that the flight paths
+were an issue; and (2) the relocation of the helipad necessarily involves the FAA approving flight
+paths to and from the helipad.” 128  Again, Defendants contend that moving the helipad would
+“require the FAA to conduct an aeronautical study to determine if the flight paths to the old pad
+conflict with existing flight paths or obstructions in the area, some of which could have been put
+in place during the previous five years.”129
+ Plaintiffs file a surreply reasserting that they only challenge Defendants’ land-use decision
+on relocating the helipad and do not seek to control flight paths, altitudes, or airspace.130  Plaintiffs
+acknowledge, however, that an injunction requiring a change in f light paths to abate noise is one
+component of their claim. 131  Additionally, Plaintiffs admit that “the FAA may be involved in
+reviewing flight paths” for a helipad but, say Plaintiffs, that  involvement does not warrant
+preemption of their request for an injunction b ecause “the process is straightforward” for
+Defendants to “simply resubmit its proposed flight paths, and the FAA would either object or not
+
+125 R. Doc. 125 at 2-6.
+126 Id. at 2.
+127 Id. at 2-3.
+128 Id. at 3.
+129 Id. at 5.
+130 R. Doc. 134 at 2.
+131 Id. at 2-3.
+Case 2:21-cv-01188-BWA-JVM     Document 143     Filed 11/03/25     Page 27 of 43
+28
+
+object.”132  Plaintiffs further maintain that the siting of helipads is a matter of local concern that is
+not preempted by the FAA.133
+ In their sur-surreply, Defenda nts argue that, although “Plaintiffs admit that the FAA would
+be involved in reviewing flight paths to and from the relocated helipa d,” they downplay this
+involvement without disputing “that the relocated helipad would not be allowed to operate unless
+and until the flight paths were not objected to (approved) by the FAA.”134  Defendants again cite
+evidence – namely, Heliport System s’ testimony – of the necessity of the FAA’s involvement in
+approving the location of the helipad.135
+ The analysis must begin with a discussi on of preemption.  The Supreme Court has
+explained:
+ The Supremacy Clause provi des that “the Laws of the United States” (as well
+as treaties and the Constitution itself) “shall be the supreme Law of the Land ... any
+Thing in the Constitution or Laws of any state to the Contrary notwithstanding.”
+Congress may consequently pre-empt, i.e., invalidate, a state law through federal
+legislation.  It may do so through express language in a statute.  But even where …
+a statute does not refer expressly to pre-emption, Congress may implicitly pre-empt
+a state law, rule, or other state action.
+
+ It may do so either through “field” pre- emption or “conflict” pre-emption.  As
+to the former, Congress may have intended “to foreclose any state regulation in the
+area,” irrespective of whether state law is consistent or inconsistent with “federal
+standards.”  In such situa tions, Congress has forbidden th e State to take action in
+the field that the federal statute pre-empts.
+
+ By contrast, conflict pr e-emption exists where “compliance with both state and
+federal law is impossible,” or where “the state law ‘stands as an obstacle to the
+accomplishment and execution of the full pur poses and objectives of Congress.’”
+In either situation, federal law must prevail.
+
+132 Id. at 3.
+133 Id. at 4-5.
+134 R. Doc. 136 at 2.
+135 Id. at 2-3.
+Case 2:21-cv-01188-BWA-JVM     Document 143     Filed 11/03/25     Page 28 of 43
+29
+
+Oneok, Inc. v. Learjet, Inc., 575 U.S. 373, 376-77 (2015) (internal citations omitted; emphasis in
+original).  Defendants here advocate for the application of “field preemption.”
+ Field preemption of “areas that have been tr aditionally occupied by the States” occurs only
+where “congressional intent to supersede state laws [is] clear and manifest.”  English v. Gen. Elec.
+Co., 496 U.S. 72, 79 (1990) ( quotations omitted); see also City of Burbank v. Lockheed Air
+Terminal Inc. , 411 U.S. 624, 643 (1973) (Rehnquist, J., di ssenting) (recognizing that “noise
+regulation has traditionally been an area of local, not national, concern”).  Courts do not “infer pre-
+emption from the comprehensiv eness of regulations” becaus e “agencies normally address
+problems in a detailed manner and … we can expect that they will make their intentions clear if
+they intend for their regulations to be exclusive.”  Hillsborough Cnty. v. Automated Med. Lab’ys,
+Inc., 471 U.S. 707, 717-18 (1985).  Absent clear field preemption, state and local authorities may
+identify additional needs or impose further requirements in a federally regulated field.  Id. at 717.
+However, once a court determines that field pree mption applies, it must then determine whether
+the state law at issue falls with in the scope of the preemption.  Goodspeed Airport LLC v. E.
+Haddam Inland Wetlands & Watercourses Comm’n, 634 F.3d 206, 211 (2d Cir. 2011).  “The key
+question is thus at what point th e state [law] sufficiently interferes with federal regulation that it
+should be deemed pre-empted.”  Gade v. Nat’l Solid Wastes Mgmt. Ass’n, 505 U.S. 88, 107 (1992).
+ As noted in Lewis v. Bell Helicopter Textron, Inc. , “[c]ases addressing preemption in the
+context of suits [related to air transportation]  or airports commonly i nvolve a state or local
+government that, using its police powers, passes a law or ordinance regulating the operation of an
+airport or air carrier.”  2015 WL 3542887, at *4 (Tex. App. June 4, 2015).  This case, like Lewis,
+instead “involves a different scenario” whereby Plaintiffs seek to use state “nuisance laws that do
+Case 2:21-cv-01188-BWA-JVM     Document 143     Filed 11/03/25     Page 29 of 43
+30
+
+not expressly mention or address aviation to regulate” the location of a heliport and the helicopter
+flight paths.  Id.
+ Defendants do not contend that Plaintiffs’ nui sance claim is entirely preempted by the
+FAA.  Indeed, Plaintiffs’ nuisance claim for damages is not.  See, e.g., id., at *8-9 (refusing to hold
+that the FAA preempted plaintiffs’ state-law nuisance claim for damages caused by helicopter
+noise); Wood v. City of Huntsville , 384 So. 2d 1081, 1084-85 (Ala. 1980) (holding that a private
+nuisance action related to helicop ter noise was not preempted by the FAA).  Rather, Defendants
+argue that Plaintiffs’ requested injunctive relief is preempted.  The question presented, then, is: if
+Plaintiffs prove that the helic opter is a nuisance under Louisiana law, can this Court issue an
+injunction requiring Defendants to relocate their helipad and reroute their helicopter flights to abate
+noise?  The answer is resoundingly no.
+ The FAA states that “[t]he United States Government has exclusive sovereignty of airspace
+of the United States.”  49 U.S. C. § 40103(a)(1).  The administrator of the FAA is charged with
+“develop[ing] plans and policies for the use of navigable airspace and assign[ing] by regulation or
+order the use of the airspace necessary  to ensure the safety of aircraft 136 and the efficient use of
+airspace.”  Id. § 40103(b)(1).  That duty includes “prescrib[ing] air traffic regulations on the flight
+of aircraft (including regulations on safe altitudes) for (A) navigating, protecting, and identifying
+aircraft; (B) protecting individua ls and property on the ground; (C ) using the navi gable airspace
+efficiently; and (D) preventing co llision between aircraft, between  aircraft and land or water
+vehicles, and between aircraft and airborne objects.”  Id. § 40103(b)(2).
+
+136 “Aircraft” is defined as “any contrivance invented, used, or designed to navigate, or fly in, the air.”  49
+U.S.C. § 40102(a)(6).  “[T]he term ‘aircraft’ includes helicopters which are designed and used to fly in the air.”  United
+States v. Greene, 2013 WL 5488653, at *15 (E.D. Tenn. Sept. 30, 2013).
+Case 2:21-cv-01188-BWA-JVM     Document 143     Filed 11/03/25     Page 30 of 43
+31
+
+ These statutes clearly “indicat e that the federal government has exclusive sovereignty over
+assigning the use of the United States airspace in order to efficiently use the airspace and to protect
+individuals and property on the ground.”  Lewis, 2015 WL 3542887, at * 6 (citing City of Burbank,
+411 U.S. at 633-34).  As such, du e to field preemption, this C ourt certainly cannot issue an
+injunction requiring Defendants to change their he licopter flight paths to abate noise under the
+auspice that the noise is a nuisance under Louisiana law.
+ The murkier question is whether this Court can  issue an injunction requiring Defendants to
+move the helipad if it is determined to be a nu isance.  Courts have held that state and local
+authorities are empowered to enac t ordinances regulati ng the location of airp orts and helipads.
+Hoagland v. Town of Clear Lake, 415 F.3d 693, 697 (7th Cir. 2005) ( holding that “[t]he siting of
+an airfield – so long as it does not interfere with  existing [air] traffic patt erns, etc. – remains an
+issue for local control” because the court was not “convinced that Congress meant to take the siting
+of air fields out of the hands of local officials”);  Gustafson v. City of Lake Angelus, 76 F.3d 778,
+783 (6th Cir. 1996) (distinguishing between “the  United States’ sovere ign regulation of the
+airspace over the United States and the regulation of aircraft in fl ight” and “the regulation of the
+designation of plane landing sites, which involves local control of land … use”); Thul v. State, 657
+N.W.2d 611, 619 (Minn. App. 2003) (holding that the ordinance at issue wa s not preempted by
+the FAA “because regulating the location of helipor ts has been determined to be within the
+province of local governments”); City of Cleveland v. City of Brook Park , 893 F. Supp. 742, 751
+(N.D. Ohio 1995) (stating that the FAA has the “authority to regulate the use of airspace, but this
+does not of necessity lead to the conclusion that localities are no longer free to regulate the use of
+land within their borders, even where land use re gulations may have some tangential impact on
+the use of airspace”); Condor Corp. v. City of St. Paul, 912 F.2d 215, 219 (8th Cir. 1990) (stating
+Case 2:21-cv-01188-BWA-JVM     Document 143     Filed 11/03/25     Page 31 of 43
+32
+
+that the court saw “no conflict between a city’s regulatory power over land use, and the federal
+regulation of airspace, and ha[d] found no case recognizing a conflict”).  However, this case does
+not involve a state or local ordinance regardi ng the siting or location of a helipad.  Instead,
+Plaintiffs rely on a private action under Louisiana nuisance law to attempt to force Defendants to
+move the helipad.  In Wood v. City of Huntsville , the court upheld the issuance of an injunction
+prohibiting the defendant from operating a helicopter from his home because it was determined to
+be a nuisance.  384 So. 2d at 1082-85.  Thus, it appears that this Court could, under state nuisance
+law, enjoin Defendants from operati ng a helipad on their prop erty if the equities favor Plaintiffs.
+See Badke v. USA Speedway, LLC , 139 So. 3d 1117 (La. App. 2014)  (upholding an injunction
+prohibiting the operation of a racetrack as a nuisance); see also Par. of E. Feliciana ex rel. E.
+Feliciana Par. Police Jury v. Guidry, 923 So. 2d 45, 51 (La. App. 2005) (upholding an injunction
+prohibiting the operation of a motocross track as a nuisance).  But Plaintiffs  expressly state that
+they “are not seeking to eliminate helicopter operations or impede patient care.”137  And the parties
+have not cited, nor is the Court aware of, any case in which a court has issued an injunction under
+state nuisance law requiring a helipad, particularly a hospital helipad, to be moved.
+ So what we are left with is the determina tion that the FAA preempts any state or local law
+that would affect airspace, but it does not preempt any state or local laws regulating land use.  Here,
+the requested injunction – to move the helipad – would affect airspace.   Although the relocated
+helipad would still be on Defendants’ property, it would be in a different location and the flight
+paths would necessarily be different, even if only slightly.  As explai ned by Bertucci, Heliport
+Systems, and Cianfrani, the FAA is involved in approving the location of a helipad by conducting
+an aeronautical airspace study to examine whether the proposed flight paths interfere with existing
+
+137 R. Doc. 123 at 16.
+Case 2:21-cv-01188-BWA-JVM     Document 143     Filed 11/03/25     Page 32 of 43
+33
+
+air traffic patterns. 138  Depending on the results of that study,  the FAA then issues a letter of
+determination, either objecting or not objecting to the location of the helipad.139  Cianfrani further
+states in his report that approval is not guarant eed, even for the Defendants’ old helipad, because
+it has been decommissioned for five years and flig ht paths, airspace use, and obstructions in the
+area could have changed in the interim. 140  Plaintiffs have offered no countervailing evidence.
+Plaintiffs try to downplay the FAA’s involvement in the approval of helipad locations by labeling
+the application and approval process as “straightforward,” but they admit that the FAA is involved
+in reviewing flight paths.141  Plaintiffs position seems to be that the Court should be able to issue
+the requested injunction because FAA will likely allo w a helipad relocation to the former site as,
+in their view, that would involve  minimal change to the flight paths.  However, the amount of
+change to the flight paths – especially from a lay vantage point – is immaterial.  The FAA would
+still need to be involved in dete rmining that the flight paths to  and from the relocated helipad do
+not conflict with other airspace use.  And it is  this impingement on airspace that is fatal to
+Plaintiffs’ injunction request.  See Lewis, 2015 WL 3542887, at *7 (holding that a court cannot
+compel a new flight path as a remedy for nuisance through the application of state law because the
+federal government occupies the field of flight path regulation).  Accordingly, Defendants’ motion
+for summary judgment is granted as to Plaintiffs’ request for injunctive reli ef, and that claim is
+DISMISSED WITH PREJUDICE.
+
+138 R. Docs. 106-2 at 11-12 (Bertucci deposition); 106-5 at 7-8, 12-13 (Heliport Systems deposition); 106-6
+at 10-11 (Cianfrani report).
+139 R. Doc. 106-5 at 7.
+140 R. Doc. 106-6 at 10-11.
+141 R. Doc. 134 at 2.
+Case 2:21-cv-01188-BWA-JVM     Document 143     Filed 11/03/25     Page 33 of 43
+34
+
+3. Nuisance claim for damages
+a. Viability of the claim
+Defendants argue that Plaintiffs’ nuisance claim fails as a matter of law.142  Defendants say
+that they cannot be liable for nuisance because Louisiana Civil Code article 669 “only allows
+suppression of certain inc onveniences if they are excessive under local ordinances or customs,”
+and their helicopter, as an emergency vehicle, is  exempt from the city noise ordinance, meaning
+that Plaintiffs cannot prove that the helicopter  noise is excessive under a local ordinance or
+custom.143  Defendants also point out that Plaintiffs’ sound expert, Bommer, did not calculate the
+noise from the Defendants’ helicopter operations in light of the city noise ordinance, and that the
+New Orleans Department of Health has opined that  the helicopter is exem pt from the ordinance
+when it is responding to an emergency. 144  Defendants further contend that “[t]he FAA regulates
+permissible levels of noise from general aviation operations, and it is undisputed that the noise
+emanating from [their] heliport and helicopter is well within the levels permitted by the FAA.”145
+Defendants support that argument by citing to the opinions of their sound expert, Reindel, and the
+testimony of Heliport Systems, which was the company involved in designing the heliport. 146  In
+summary, Defendants conclude that “Plaintiffs’ nuisance claim must be dismissed as a matter of
+law,” because, “[a]t most, the alleged noise emanating from the helicopter is nothing more than an
+inconvenience permissible under [article] 669.”147
+Plaintiffs respond in opposition, arguing that the FAA regulations do not establish a
+permissible noise threshold for hospital helicopter operations and, in their view, Bommer’s method
+
+142 R. Doc. 106-1 at 15-20.
+143 Id. at 16, 18-19 (emphasis in original).
+144 Id. at 18-19.
+145 Id. at 17.
+146 Id. at 17-18.
+147 Id. at 20.
+Case 2:21-cv-01188-BWA-JVM     Document 143     Filed 11/03/25     Page 34 of 43
+35
+
+appropriately measured the impact of the helicopter noise on the neighborhood.148  Plaintiffs also
+argue that Defendants’ helicopter  is exempt from the city noi se ordinance only when it is
+responding to emergencies, and Defe ndants have not identified “which specific flights were true
+emergency responses and which were not,” meaning that, in Plaintiffs’ view, “Defendants cannot
+establish as a matter of law that the [city] [n]oise [o]rdinance is inapplicable.”149  Plaintiffs further
+contend that Defendants’ “compliance with zoning or noise regulations does not immunize their
+operations from nuisance liability,” and “[w]hether the helicopter operations at issue rise to [the]
+level [of nuisance] requ ires a fact-intensive inquiry,” which precludes summary judgment. 150
+Additionally, Plaintiffs a ssert that there are disputed issues of material fact concerning whether
+Defendants knew or should have known that reloca ting the helipad to its current location would
+cause Plaintiffs real damages or excessive inconvenience.151
+ In their reply, Defendants reassert that Plain tiffs’ nuisance claim fails as a matter of law
+because Defendants have “firmly established that any noise is not excessive under local ordinances
+and customs” and Plaintiffs have not presented any evidence to show that it is.152  Defendants also
+reurge that courts have adopt ed the FAA’s method for calculat ing noise, as have Reindel and
+Heliport Systems.153  Further, Defendants point out that Plai ntiffs have not “cite[d] to any record
+evidence to describe or measure the noise [about] which Plaintiffs complain.”154
+ In their surreply, Plaintiffs contest Defendants’  assertion that courts, Reindel, and Heliport
+Systems have accepted the FAA’s method for calcul ating noise but insist, nonetheless, that any
+
+148 R. Doc. 123 at 17-19.  Most of Plaintiffs nuisance arguments relate to the availability of injunctive relief.
+Id. at 14-20.
+149 Id. at 19.
+150 Id. at 19-20.
+151 Id. at 21-22.
+152 R. Doc. 125 at 6-9 (quote at 7).
+153 Id. at 7-8.
+154 Id. at 7.
+Case 2:21-cv-01188-BWA-JVM     Document 143     Filed 11/03/25     Page 35 of 43
+36
+
+such acceptance by a court does not apply to pr eclude “state-law nuisance claims against a
+privately owned helipad.”155
+ In their sur-surreply, Defendants once again sa y that Plaintiffs’ nuisance claim fails as a
+matter of law because they do not “present any reliable and valid evidence that the aviation noise
+they complain of is excessive under local ordinance or custom as required by Louisiana nuisance
+law.”156  They also reurge that the DNL is the pr oper standard for measuring aviation noise, as
+attested by Reindel and Heliport Systems.157
+ Claims for nuisance are governed by the vici nage articles 667 through 669 of the Louisiana
+Civil Code.  Article 667 states in pertinent part:
+Although a proprietor may do with his estate  whatever he pleases, still he cannot
+make any work on it, which may deprive his neighbor of the liberty of enjoying his
+own, or which may be the cause of any dama ge to him.  However, if the work he
+makes on his estate deprives his neighbor of  enjoyment or causes damage to him,
+he is answerable for damages only upon a showing that he knew or, in the exercise
+of reasonable care, should have known that his works would cause damage, that the
+damage could have been prevented by the exercise of reasonable care, and that he
+failed to exercise such reasonable care.
+
+La. Civ. Code art. 667.  Article 668, however, app ears to place a limit on the conduct actionable
+under article 667, as it implies that mere inconvenience is noncognizable: “Although one be not at
+liberty to make any work by which his neighbor’s buildings may be damaged, yet every one has
+the liberty of doing on his own ground whatsoever  he pleases, although it should occasion some
+inconvenience to his neighbor.” Id. art. 668.  Finally, notwithstan ding article 668’s seeming
+tolerance of inconveniences, article 669 states:
+If the works or materials for any manuf actory or other operation, cause an
+inconvenience to those in the same or in the ne ighboring houses, by diffusing
+smoke or nauseous smell, and there be no servitude established by which they are
+
+155 R. Doc. 134 at 5-6 (quote at 6).
+156 R. Doc. 136 at 3.
+157 Id. at 3-4.
+Case 2:21-cv-01188-BWA-JVM     Document 143     Filed 11/03/25     Page 36 of 43
+37
+
+regulated, their sufferance mu st be determined by the rules of the police, or the
+customs of the place.
+
+Id. art. 669.
+Louisiana’s vicinage articles thus “‘em body a balancing of rights and obligations
+associated with the ownership of immovables.’”  Ellis v. Evonik Corp., 604 F. Supp. 3d 356, 374
+(E.D. La. 2022) (quoting Badke, 139 So. 3d at 1126).  While a landowner has wide latitude to
+“‘exercise his rights of ownership in any manner he sees fit’” and may subsequently cause some
+inconvenience to neighbors, activities cannot cause “‘real damage to his neighbor.’”  Id. (quoting
+Badke, 139 So. 3d at 1126).  Article 667 “prohibits uses which cau se damage to neighbors or
+deprive them of the enjoyment of their property, while [article ] 668 permits uses which merely
+cause neighbors some inconvenience.  [Article] 669 allows suppression of certain inconveniences
+if excessive under local ordinances or customs, and requires tolerance of lesser inconveniences.”
+Barrett v. T.L. James & Co., 671 So. 2d 1186, 1190 (La. App. 1996).  “A finding of liability under
+[a]rticle 667 requires either proof of personal injury or physical damage to property or proof of the
+presence of some type of excessive or abusive conduct.”  Myers v. Union Carbide Corp. , 2022
+WL 17092121, at *4 (E.D. La. Nov. 21, 2022) (quotation and alteration omitted).
+“With the exception of the ‘ultrahazardous’ activ ities of pile drivi ng and blasting with
+explosives – neither of which is at issue here – a claim under any or all of these three Code articles
+requires a showing of negligence.”  Id.  Thus, to prevail on a nuisance claim under any or all of
+these articles, a plaintiff must pr ove that “a defendant is: (1) a proprietor who (2) negligently (3)
+conducts ‘work’ on his property (4) that  causes damage to his neighbor.”  Ictech-Bendeck v.
+Progressive Waste Sols. of LA, Inc., 2019 WL 4111681, at *2 (E.D. La. Aug. 29, 2019).
+In analyzing whether conduct is excessive or abusive, i.e., more than an inconvenience, a
+court must determine the reasona bleness of the conduct in light of the circumst ances including
+Case 2:21-cv-01188-BWA-JVM     Document 143     Filed 11/03/25     Page 37 of 43
+38
+
+“the character of the neighborhood, the degree of the intrusion and the effect of the activity on the
+health and safety of the neighbors.”  Rodrigue v. Copeland , 475 So. 2d 1071, 1077 (La. 1985).
+“[W]hether an inconvenience is excessive or not is to be determined in the light of local ordinances
+and customs.”  Barrett, 671 So. 2d at 1191.  But “local nuisance ordinances must be construed in
+reference to the applicable civil code provisions.”  Par. of E. Feliciana , 923 So. 2d at 51.
+Moreover, for noise to constitute a nuisance that is subject to an action for damages, the noise must
+be “excessive, unreasonable in degree, and of such character as to produce actual physical
+discomfort and annoyance to a person of ordinary sensibilities.”  King v. W. Club, Inc., 587 So. 2d
+122, 124 (La. App. 1991).  “When the actions or work cease to be  inconveniences and become
+damaging is a question of fact.” Badke, 139 So. 3d at 1126.
+Defendants hinge their argument that Plaintiffs’ nuisance claim fails as a matter of law on
+the premise that Plaintiffs must , and cannot, prove that Defendants  violated a local ordinance or
+custom.158  This is not what Louisiana nuisance law requires.  Nowhere does Louisiana law provide
+that compliance with a noise ordi nance provides an escape hatch to a nuisance claim.  However,
+while a city ordinance or  permit cannot validate a nuisance or , conversely, invalidate a nuisance
+claim, Meyer v. Kemper Ice Co., 158 So. 378, 381 (La. 1934), a court “must consider” the zoning
+and planning standards as one of several releva nt factors in determin ing whether an alleged
+nuisance exists.  Jones v. Capitol Enters., 89 So. 3d 474, 508 (La. App. 2012) (stating that among
+the relevant factors are “[t]he place where the activity occurs,” which includes “consider[ing] the
+neighborhood, zoning and planning standards, envi ronmental goals”).  Indeed, under Louisiana
+law, whether an inconvenience is so excessive as to rise to the le vel of a nuisance is evaluated in
+light of numerous factors that include not only local ordinances and customs, but also the character
+
+158 R. Doc. 106-1 at 15-20.
+Case 2:21-cv-01188-BWA-JVM     Document 143     Filed 11/03/25     Page 38 of 43
+39
+
+of the neighborhood, the degree of in trusion, the effect of the activ ity on the health and safety of
+the neighbors, and whether it causes actual physic al discomfort and annoyance to a person of
+ordinary sensibilities.  See Barrett, 671 So. 2d at 1191;  Rodrigue, 475 So. 2d at 1077; King, 587
+So. 2d at 124.  In short, the Defendants’ compliance (or not) with the city noise ordinance is one
+factor that will be considered by the factfinder in determining whether their helicopter is a
+nuisance.  The same is true of the FAA aviation noise standard.  Defendants have not shown that
+this standard applies in such a way as to ne gate a state-law nuisance claim arising from the
+operation of a private helicopter.159  Thus, Defendants’ compliance with the FAA standard, as with
+the city noise ordinance, is a factor to be ev aluated in determining whether their helicopter
+operations constitute a nuisance.  At this juncture, viewing the evidence in the light most favorable
+to Plaintiffs, they have identified suffici ent disputed issues of material fact ( e.g., their own
+experiences with the noise) to defeat Defendants’ motion for summary judgment on their nuisance
+claim for damages.
+b. Damages
+Defendants argue that Plaintiffs cannot rec over damages for persona l injuries, including
+(1) hearing loss, (2) sleep disturbance, (3) mental health issues, (4) physical and mental suffering,
+(5) past, present, and future medical expenses, an d (6) past, present, and future mental pain and
+suffering, because “Plaintiffs have failed to identify or disclose any retained or non-retained
+experts to offer expert general or specific causation testimony for their alleged medical injuries.”160
+Defendants also contend that Plaintiffs cannot recover for diminution of property value and
+
+159 Defendants cite Seattle Cmty. Council Fed’n, 961 F.2d at 834-35, for the proposition that “courts have
+consistently upheld this FAA standard [ i.e., the DNL] to measure noise impacts fr om aviation operations.”  R. Doc.
+125 at 7-8.  While the DNL standard is one way to measure noise, Defendants have not cited, nor is the Court aware
+of, any case establishing that the DNL is the only way to measure aviation noise, particularly in the context of a state-
+law nuisance claim.
+160 R. Doc. 106-1 at 22-23 (quote at 23).
+Case 2:21-cv-01188-BWA-JVM     Document 143     Filed 11/03/25     Page 39 of 43
+40
+
+property damage because they “did not disclose a real estate expert and have no evidence to
+establish the diminution of value to [their] residences.”161  Lastly, Defendants argue that Plaintiffs
+cannot recover damages for the cost to remediate their properties because they “have no expert
+who can opine on what sound remediation is needed for each of the three homes, the costs, and the
+success of such remediation.”162  To that end, Defendants observe that Plaintiffs listed an architect
+(Hackenberg) and contractor (Rau) on their witness list, but failed to properly designate them as
+retained or non-retained experts,  and “there has been no disclosu re on how much if any [of] the
+cost [Plaintiffs incurred] was for sound remedi ation as opposed to other construction work,
+including adding on a bedroom, bathroom, and replacing the electrical and plumbing.”163
+Plaintiffs did not addres s these arguments in thei r summary-judgment response. 164 They
+thus concede that they cannot prevail on these items of damages.  See  Magee v. Life Ins. Co. of N.
+Am., 261 F. Supp. 2d 738, 748 n.10 (S.D. Tex. 2003) (stating that “failure to brief an argument in
+the district court waives that argument in that court”); see also  Kellam v. Metrocare Servs., 2013
+WL 12093753, at *3 (N.D. Tex. May 31, 2013) (“Genera lly, the failure to respond to arguments
+constitutes abandonment or waiver of  the issue.” (quotation omitted)), aff’d, 560 F. App’x 360
+(5th Cir. 2014).  Moreover, in ruling on Defendants’ motion in limine this Court held that Plaintiffs
+failed to properly disclose retained or non-retained experts to address these issues.  Accordingly,
+Plaintiffs’ claims for damages related to: (A) personal injuries, including (1) hearing loss, (2) sleep
+disturbance, (3) mental health issues, (4) physical and mental suffering, (5) past, present, and future
+medical expenses, and (6) past, present, and futu re mental pain and suffering; (B) diminution of
+
+161 Id. at 23-24 (quote at 24).
+162 Id. at 24.
+163 Id.
+164 See R. Doc. 123.
+Case 2:21-cv-01188-BWA-JVM     Document 143     Filed 11/03/25     Page 40 of 43
+41
+
+property value; (C) property damage; and (D) th e cost to remediate their properties, are
+DISMISSED WITH PREJUDICE.165
+4. Negligence
+Defendants assert that Plaintiffs’ negligence claim must be dismissed because it is not an
+independent general negligence claim, but rather a nuisance-negligence claim that is subsumed by
+Plaintiffs’ claim under the vicinage articles.166  In response, Plaintiffs affirm that they “have not
+asserted a stand-alone negligence claim under article 2315, but rather a nuisance claim under Civil
+Code articles 667-669, which incorporates negligence as a component.”167
+Under Louisiana law, “[i]t is well establishe d [that] any negligence action based on the
+vicinage articles is governed by the same duties a nd considerations as a direct action under those
+Code [a]rticles.  In other words, whether it is called a negligence action or an action under 667-
+669, the same legal standards apply.”  Yokum v. Pat O’Brien’s Bar, Inc, 2023 WL 11893172, at
+*5 (La. Dist. Ct. May 24, 2023).  And while “there is a distinction between a general negligence
+claim under article 2315 and the distinct neglig ence requirements for a nuisance claim under the
+vicinage articles,” id. (citing LeBouef v. Evonik Corp., 620 F. Supp. 3d 463, 474 (E.D. La. 2022)),
+because Plaintiffs admit that they allege onl y a nuisance-negligence action under the vicinage
+articles, any negligence cla im purportedly stated in the complaint is DISMISSED WITH
+PREJUDICE.
+
+165 What remains to be tried is Plaintiffs’ nuisance claim for damages related to loss of use of their property
+and inconvenience. See R. Doc. 1-1 at 10.
+166 R. Doc. 106-1 at 20-22.
+167 R. Doc. 123 at 20.  Defendants acknowledge Plaintif fs’ admission in their reply but argue that the claim
+should also be dismissed because Plaintiffs cannot prevail on a nuisance claim.  R. Doc. 125 at 9.
+Case 2:21-cv-01188-BWA-JVM     Document 143     Filed 11/03/25     Page 41 of 43
+42
+
+III. CONCLUSION
+Accordingly, for the foregoing reasons,
+IT IS ORDERED that Defendants’ motion in limine to exclude Bommer’s opinions and
+testimony from trial (R. Doc.  105) is GRANTED as to ex cluding Bommer’s testimony and
+opinions regarding property valuation, health e ffects and sleep disturba nces caused by noise,
+residential sound modifications, and aviation-related topics, such as the feasibility of moving the
+helipad back to its old location, changing flight paths, or using the he lipad only for specific
+purposes.  The motion is otherwise DENIED.
+IT IS FURTHER ORDERED that Defendants’ motion in limine  to exclude any other
+retained or non-retained experts from offering opinions for Plainti ffs at trial (R . Doc. 105) is
+GRANTED.  However, these witnesses ( i.e., Melisa Rey’s healthcare pr oviders and therapists,
+Hackenberg, and Rau) may testify as fact witnesses, if appropriate.
+IT IS FURTHER ORDERED that Defendants’  motion for summary judgment (R. Doc.
+106) is GRANTED as to dismissi ng Plaintiffs’ claim for injunctive relief, which is DISMISSED
+WITH PREJUDICE.
+IT IS FURTHER ORDERED that Defendant’s  motion for summary judgment (R. Doc.
+106) is DENIED as to dismissing Plaintiffs’ nuisance claim for damages, generally.
+IT IS FURTHER ORDERED that Defendant’s  motion for summary judgment (R. Doc.
+106) is GRANTED as to dismissing  Plaintiffs’ stand-alone negligen ce claim, and that claim is
+DISMISSED WITH PREJUDICE.
+IT IS FURTHER ORDERED that Defendants’  motion for summary judgment (R. Doc.
+106) is GRANTED as to dismissing Plaintiffs’ claims for damages related to: (A) personal injuries,
+including (1) hearing loss, (2) sleep disturbance, (3) mental health issues, (4) physical and mental
+Case 2:21-cv-01188-BWA-JVM     Document 143     Filed 11/03/25     Page 42 of 43
+43
+
+suffering, (5) past, present, and future medical e xpenses, and (6) past, pres ent, and future mental
+pain and suffering; (B) diminution of property va lue; (C) property damage; and (D) the cost to
+remediate their properties, and those claims are DISMISSED WITH PREJUDICE.
+New Orleans, Louisiana, this 3rd day of November, 2025.
+
+________________________________
+      BARRY W. ASHE
+      UNITED STATES DISTRICT JUDGE
+
+Case 2:21-cv-01188-BWA-JVM     Document 143     Filed 11/03/25     Page 43 of 43
