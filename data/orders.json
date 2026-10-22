@@ -2039,5 +2039,7 @@
 {"date":"2026-10-21","time":"17:39","judge":"ILRL","case":"2:18-cv-05252","doc":"70","title":"Jefferson Parish v. Canlan Oil Company","event":"Order of Recusal","src":"courtlistener"},
 {"date":"2026-10-21","time":"17:41","judge":"ILRL","case":"2:18-cv-05260","doc":"70","title":"Plaquemines Parish v. Helis Oil & Gas Company, LLC","event":"Order of Recusal","src":"courtlistener"},
 {"date":"2026-10-22","time":"08:34","judge":"EEF","case":"2:26-cv-00726","doc":"24","title":"Walker v. Amerigas Propane, LP","event":"Set Hearings","src":"rss"},
-{"date":"2026-10-22","time":"08:54","judge":"JTM","case":"2:24-cv-02540","doc":"55","title":"Bosley et al v. Atalco Gramercy LLC","event":"Set Hearings","src":"rss"}
+{"date":"2026-10-22","time":"08:54","judge":"JTM","case":"2:24-cv-02540","doc":"55","title":"Bosley et al v. Atalco Gramercy LLC","event":"Set Hearings","src":"rss"},
+{"date":"2026-10-22","time":"09:42","judge":"SSV","case":"2:26-cv-01298","doc":"19","title":"Davis v. Kirkpatrick et al","event":"Set Hearings","src":"rss"},
+{"date":"2026-10-22","time":"10:11","judge":"JTM","case":"2:26-cv-01790","doc":"8","title":"Battistella v. NTR HUSIA MA AT","event":"Scheduling Order","src":"rss"}
 ]
