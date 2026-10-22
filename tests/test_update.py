@@ -218,7 +218,8 @@ class UpdateTest(unittest.TestCase):
         before = next(r for r in json.loads((self.tmp / "data/calendar.json").read_text()) if r["kind"] == "through")["date"]
         run, through = self.run_with_clock(lambda url, now: update.RUN_SECONDS if "search" in url else 0)
         self.assertIn("window kept", run["note"])
-        self.assertEqual(through, before)
+        # The opinion check ran first and finished, so the last full working day is counted; today is not.
+        self.assertEqual(through, max(before, update_prev_workday()))
 
     def test_hand_entry_kept(self):
         (self.tmp / "data/outcomes.json").write_text(json.dumps(
