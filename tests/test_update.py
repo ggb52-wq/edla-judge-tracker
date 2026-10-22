@@ -279,14 +279,14 @@ class UpdateTest(unittest.TestCase):
         self.assertTrue(run["searched"])
 
     def test_opinion_check_looks_back_from_last_check(self):
-        # The last complete opinion check was two hours ago: this one asks for opinions marked from a day before it.
+        # The last complete opinion check was four hours ago: this one asks for opinions marked from a day before it.
         now = update.dt.datetime.now(update.CENTRAL)
-        two_hours = (now - update.dt.timedelta(hours=2)).isoformat(timespec="minutes")
+        four_hours = (now - update.dt.timedelta(hours=4)).isoformat(timespec="minutes")
         OPINION_QUERIES.clear()
-        self.run_rate_limited([{"at": two_hours, "cl_calls": 3, "op_checked": True, "note": ""}],
+        self.run_rate_limited([{"at": four_hours, "cl_calls": 3, "op_checked": True, "note": ""}],
                               {"COURTLISTENER_PER_MINUTE": "1000", "COURTLISTENER_PER_HOUR": "5000", "COURTLISTENER_PER_DAY": "5000"})
         since = update.dt.datetime.fromisoformat(OPINION_QUERIES[0]["date_modified__gte"][0])
-        self.assertAlmostEqual((now - since).total_seconds() / 3600, 26, delta=0.1)
+        self.assertAlmostEqual((now - since).total_seconds() / 3600, 28, delta=0.1)
         # Checked ten minutes ago: no opinion query this pass.
         OPINION_QUERIES.clear()
         ten = (now - update.dt.timedelta(minutes=10)).isoformat(timespec="minutes")
@@ -351,6 +351,56 @@ class UpdateTest(unittest.TestCase):
         self.assertGreater(run["cl_calls"], 0)                              # lookups still ran
         through = next(r for r in json.loads((self.tmp / "data/calendar.json").read_text()) if r["kind"] == "through")["date"]
         self.assertEqual(through, max(before, update_prev_workday()))      # never today: the order search has not read it
+
+    def test_unfinished_search_waits_for_the_interval(self):
+        # A search cut short keeps its window but is not restarted on the next pass: the default interval (12 hours)
+        # runs from the attempt, so a stuck search cannot spend the day's calls 20 at a time.
+        now = update.dt.datetime.now(update.CENTRAL)
+        env = {"COURTLISTENER_PER_MINUTE": "1000", "COURTLISTENER_PER_HOUR": "5000", "COURTLISTENER_PER_DAY": "5000"}
+        tried = (now - update.dt.timedelta(minutes=30)).isoformat(timespec="minutes")
+        run = self.run_rate_limited([{"at": tried, "cl_calls": 20, "searched": False, "search_tried": True, "note": ""}], env)
+        self.assertIn("Next CourtListener search after", run["note"])
+        self.assertFalse(run["search_tried"])
+        self.assertFalse(run["searched"])
+        # Twelve hours on, it tries again.
+        old = (now - update.dt.timedelta(hours=13)).isoformat(timespec="minutes")
+        run = self.run_rate_limited([{"at": old, "cl_calls": 20, "searched": False, "search_tried": True, "note": ""}], env)
+        self.assertTrue(run["search_tried"])
+
+    def test_order_search_starts_at_the_last_complete_search(self):
+        # The last complete search was on Oct. 20: this one asks for entries filed from that day, not the whole window again.
+        asked = []
+
+        def spy(url, headers=None, timeout=45):
+            q = urllib.parse.parse_qs(urllib.parse.urlparse(url).query)
+            if q.get("type") == ["r"] and "entry_date_filed_after" in q:
+                asked.append(q["entry_date_filed_after"][0])
+            return fake_get(url, headers, timeout)
+        now = update.dt.datetime.now(update.CENTRAL)
+        last = now - update.dt.timedelta(days=1, hours=1)
+        (self.tmp / "data/runs.json").write_text(json.dumps([{"at": last.isoformat(timespec="minutes"), "cl_calls": 20, "searched": True, "note": ""}]))
+        with mock.patch.object(update, "DATA", self.tmp / "data"), mock.patch.object(update, "http_get", spy), \
+             mock.patch.object(update.time, "sleep", lambda s: None), mock.patch.dict("os.environ", ENV):
+            update.main()
+        self.assertEqual(asked[0], last.date().isoformat())
+
+    def test_search_stops_at_its_own_cap(self):
+        # A search that would run past SEARCH_MAX_CALLS stops there and leaves the rest of the allowance for lookups.
+        pages = {"n": 0}
+
+        def endless(url, headers=None, timeout=45):
+            q = urllib.parse.parse_qs(urllib.parse.urlparse(url).query)
+            if q.get("type") == ["r"] and "entry_date_filed_after" in q or "page=" in url and "type=r" in url:
+                pages["n"] += 1
+                return json.dumps({"next": "https://www.courtlistener.com/api/rest/v4/search/?type=r&page=%d" % pages["n"], "results": []}).encode()
+            return fake_get(url, headers, timeout)
+        with mock.patch.object(update, "DATA", self.tmp / "data"), mock.patch.object(update, "http_get", endless), \
+             mock.patch.object(update, "SEARCH_MAX_CALLS", 7), \
+             mock.patch.object(update.time, "sleep", lambda s: None), mock.patch.dict("os.environ", ENV):
+            update.main()
+        self.assertEqual(pages["n"], 7)
+        run = json.loads((self.tmp / "data/runs.json").read_text())[-1]
+        self.assertIn("Search used every call it had", run["note"])
 
     def test_lookups_leave_a_search(self):
         # Free account, 110 of 125 daily calls used, no search due: lookups get 3 and leave 12 for the next search.
