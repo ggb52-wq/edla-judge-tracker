@@ -45,6 +45,7 @@ CENTRAL = ZoneInfo("America/Chicago")
 RSS_URL = "https://ecf.laed.uscourts.gov/cgi-bin/rss_outside.pl"
 FEED_DAYS = 14          # how far back data/feed.json keeps the RSS feed
 FEED_MAX = 6000         # and at most this many entries
+ACTIVE_DAYS = 60        # data/case_activity.json keeps each civil case's latest docket entry over this many days
 CL_BASE = "https://www.courtlistener.com/api/rest/v4/"
 USER_AGENT = "edla-judge-tracker (github.com/ggb52-wq/edla-judge-tracker)"
 CL_SITE = "https://www.courtlistener.com"
@@ -368,6 +369,45 @@ def update_feed(feed: list[dict], items: list[dict], case_judge: dict, now: dt.d
             r["judge"] = case_judge[r["case"]]
     feed.sort(key=lambda r: (r["at"], r["case"], int(r["doc"]) if r["doc"].isdigit() else 0), reverse=True)
     return feed[:FEED_MAX]
+
+
+def update_case_activity(old: dict, feed: list[dict], rows: list[dict], case_judge: dict, now: dt.datetime) -> dict:
+    """data/case_activity.json for the home page's active-case counts: every civil case with a docket entry in the last
+    ACTIVE_DAYS days, with the date of its latest entry and its judge. data/feed.json keeps only FEED_DAYS days, so this
+    file carries the feed's dates across the whole window; the orders, opinions, and motions on file fill in what the
+    feed never showed. `feed_since` is the first day the feed was kept, so the site can say when the window is only
+    partly covered."""
+    today = now.date().isoformat()
+    floor = (now.date() - dt.timedelta(days=ACTIVE_DAYS - 1)).isoformat()
+    cases = {r[0]: [r[1], r[2]] for r in old.get("cases", []) if len(r) == 3}
+    for case, judge, date in ([r["case"], r.get("judge", ""), r["at"][:10]] for r in feed):
+        if date < floor or not case:
+            continue
+        hit = cases.setdefault(case, [judge, date])
+        hit[0] = hit[0] or judge
+        if date >= hit[1]:
+            hit[1] = date
+    for r in rows:
+        case, date = r.get("case", ""), r.get("date", "")
+        if not case or not date or date < floor or date > today:
+            continue
+        hit = cases.setdefault(case, [r.get("judge", ""), date])
+        hit[0] = hit[0] or r.get("judge", "")
+        if date >= hit[1]:
+            hit[1] = date
+    for case, hit in cases.items():  # the latest judge known for the case (a reassigned case counts for its new judge)
+        hit[0] = case_judge.get(case) or hit[0]
+    feed_days = [r["at"][:10] for r in feed if r.get("at")]
+    since = min([d for d in (old.get("feed_since", ""), *feed_days[-1:]) if d] or [today])
+    return {"days": ACTIVE_DAYS, "feed_since": since, "through": today,
+            "cases": sorted([c, j, d] for c, (j, d) in cases.items() if d >= floor)}
+
+
+def save_case_activity(obj: dict) -> None:
+    """One case per line, so the daily diff shows only the cases that changed."""
+    head = json.dumps({k: v for k, v in obj.items() if k != "cases"}, separators=(",", ":"))[:-1]
+    lines = [json.dumps(r, separators=(",", ":")) for r in obj["cases"]]
+    (DATA / "case_activity.json").write_text(head + ',"cases":[\n' + ",\n".join(lines) + "\n]}\n")
 
 
 def update_hearings(old: list[dict], cl_entries: dict, case_judge: dict, judges: list[dict], rows: list[dict],
@@ -996,7 +1036,10 @@ def main() -> int:
     save("outcomes", sorted(outcomes.values(), key=lambda r: (r["case"], int(r["doc"]) if r["doc"].isdigit() else 0)))
     motions.sort(key=lambda m: (m["date"], m["case"], int(m["doc"]) if m["doc"].isdigit() else 0))
     save("motions", motions)
-    save("feed", update_feed(load("feed") if (DATA / "feed.json").exists() else [], rss_civil, case_judge, now))
+    feed = update_feed(load("feed") if (DATA / "feed.json").exists() else [], rss_civil, case_judge, now)
+    save("feed", feed)
+    save_case_activity(update_case_activity(court_info.load_json(DATA / "case_activity.json", {}), feed,
+                                            orders + opinions + motions, case_judge, now))
     save("hearings", hearing_rows)
     texts.write_index()
     court_info.save_json(DATA / "dockets.json", sorted(dockets.values(), key=lambda r: r["case"]))

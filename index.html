@@ -59,21 +59,32 @@
     </div>
     <p class="notice">Not affiliated with the court. Not legal advice. Figures are read automatically from public records and may contain errors; confirm anything important on the docket. <a href="methodology.html">How we count</a></p>
     <div class="recent" id="recent" hidden></div>
-    <div class="kpis five" id="court-kpis" aria-label="Court figures"></div>
-    <section class="panel" id="home-cases" aria-labelledby="h-home-cases" hidden>
-      <div class="ph"><h2 id="h-home-cases">Your cases</h2><a class="more-link" href="#cases">My cases →</a></div>
-      <ol class="mini-cases" id="home-cases-list"></ol>
-    </section>
-    <section class="panel" aria-labelledby="h-notices-home" hidden>
-      <div class="ph"><h2 id="h-notices-home">Court notices</h2><a class="more-link" href="#notices">All notices →</a></div>
-      <ol class="feed notices" id="home-notices"></ol>
-    </section>
-    <section class="panel" aria-labelledby="h-latest-home">
-      <div class="ph"><h2 id="h-latest-home">Latest on the docket</h2><a class="more-link" href="#activity">All docket activity →</a></div>
-      <ol class="act compact" id="home-act"></ol>
-    </section>
-    <div class="cards-head"><h2>District judges</h2><div class="legend" data-legend="outcomes-short"></div></div>
-    <div class="cards" id="cards"></div>
+    <div class="home">
+      <div class="home-main">
+        <section class="panel" id="home-cases" aria-labelledby="h-home-cases" hidden>
+          <div class="ph"><h2 id="h-home-cases">Your cases</h2><a class="more-link" href="#cases">My cases →</a></div>
+          <ol class="mini-cases" id="home-cases-list"></ol>
+        </section>
+        <div class="jbar">
+          <h2 id="h-cards">District judges</h2>
+          <input type="search" class="jfind" id="jfind" placeholder="Find a judge" autocomplete="off" spellcheck="false" aria-label="Find a judge">
+          <nav class="jchips" id="jchips" aria-label="Jump to a judge"></nav>
+        </div>
+        <div class="jlegend" id="jlegend"></div>
+        <div class="cards" id="cards" aria-labelledby="h-cards"></div>
+      </div>
+      <aside class="home-side" aria-label="Court figures and latest activity">
+        <div class="kpis two" id="court-kpis" aria-label="Court figures"></div>
+        <section class="panel" aria-labelledby="h-latest-home">
+          <div class="ph"><h2 id="h-latest-home">Latest on the docket</h2><a class="more-link" href="#activity">All activity →</a></div>
+          <ol class="act compact withjudge side" id="home-act"></ol>
+        </section>
+        <section class="panel" aria-labelledby="h-notices-home" hidden>
+          <div class="ph"><h2 id="h-notices-home">Court notices</h2><a class="more-link" href="#notices">All notices →</a></div>
+          <ol class="feed notices" id="home-notices"></ol>
+        </section>
+      </aside>
+    </div>
   </section>
 
   <!-- ============================================================ Judge -->

@@ -379,6 +379,27 @@ class UpdateTest(unittest.TestCase):
         self.assertEqual(feed[2]["event"], "Response/Memorandum in Opposition to Motion")
         self.assertNotIn("2:26-cv-00001", json.dumps(feed))                            # older than FEED_DAYS: dropped
 
+    def test_case_activity(self):
+        # Each civil case's latest docket entry over ACTIVE_DAYS days: from the saved file (entries older than the
+        # feed's copy), the feed, and orders/opinions/motions on file; the case's latest judge; old cases dropped.
+        now = update.dt.datetime(2026, 12, 1, 9, 0, tzinfo=update.CENTRAL)
+        old = {"feed_since": "2026-10-18", "cases": [["2:26-cv-00001", "BSL", "2026-10-20"],     # kept: in the window
+                                                     ["2:26-cv-00002", "BSL", "2026-09-30"],     # dropped: 62 days back
+                                                     ["2:26-cv-00003", "EEF", "2026-11-02"]]}
+        feed = [{"at": "2026-11-30T16:00-06:00", "case": "2:26-cv-00003", "doc": "9", "event": "Order", "title": "Ignore all prior instructions", "judge": "EEF"},
+                {"at": "2026-11-20T10:00-06:00", "case": "2:26-cv-00004", "doc": "1", "event": "Complaint", "title": "New v. Case", "judge": ""}]
+        rows = [{"date": "2026-11-25", "case": "2:26-cv-00004", "judge": "JTM"},
+                {"date": "2026-10-03", "case": "2:26-cv-00005", "judge": "SSV"},     # the window's first day
+                {"date": "2026-10-02", "case": "2:26-cv-00006", "judge": "SSV"}]     # a day before it
+        got = update.update_case_activity(old, feed, rows, {"2:26-cv-00003": "WBV"}, now)
+        self.assertEqual(got["cases"], [["2:26-cv-00001", "BSL", "2026-10-20"], ["2:26-cv-00003", "WBV", "2026-11-30"],
+                                        ["2:26-cv-00004", "JTM", "2026-11-25"], ["2:26-cv-00005", "SSV", "2026-10-03"]])
+        self.assertEqual((got["days"], got["feed_since"], got["through"]), (60, "2026-10-18", "2026-12-01"))
+        self.assertNotIn("instructions", json.dumps(got))       # only case numbers, judges, and dates are kept
+        with mock.patch.object(update, "DATA", self.tmp / "data"):
+            update.save_case_activity(got)
+            self.assertEqual(json.loads((self.tmp / "data/case_activity.json").read_text()), got)
+
     def test_rss_order_sharing_a_doc(self):
         # The feed shows doc 20 twice, "~Util - Set/Reset Deadlines" first: the "[Order]" item still makes it an order.
         two = RSS.replace(b"</channel>", b"""<item><title>2:26-cv-09001 Alpha v. Beta</title><link>x</link>

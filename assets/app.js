@@ -593,35 +593,100 @@
   const medFoot = ['Median judge', (c, all) => (c.med === false || !c.f || c.render ? '' : c.f(median(all.map((r) => r[c.k]))))];
 
   // ------------------------------------------------------------ page: judges (home)
+  const ACTIVE_DAYS = 60;  // a case is active when it has a docket entry in this many days (data/case_activity.json)
   function renderJudges() {
     const S = state.stats; const T = S.totals;
     document.title = 'EDLA Analyzer · Judges of the Eastern District of Louisiana';
     $('court-kpis').replaceChildren(
-      kpi({ label: 'Written opinions', value: fmt.int(T.opinions), sub: 'since ' + fmtDate(S.since.opinions) + ' · ' + fmt.int(T.pdf) + ' with a PDF', href: findHref({}) }),
-      kpi({ label: 'Merits rulings', value: fmt.int(T.merits), sub: 'Rule 12, Rule 56, and trial rulings', href: findHref({ type: 'merits' }) }),
-      kpi({ label: 'Motion outcomes coded', value: fmt.int(T.known), unit: 'of ' + fmt.int(T.motions), sub: 'motion rulings', href: hashFor('court', { view: 'outcomes' }) }),
-      kpi({ label: 'Civil orders', value: fmt.int(T.orders), sub: fmt.d1(T.perDay) + ' per working day since ' + fmtShort(S.since.orders), href: hashFor('court', { view: 'orders' }) }),
+      kpi({ label: 'Written opinions', value: fmt.int(T.opinions), sub: 'since ' + fmtDate(S.since.opinions), href: findHref({}) }),
+      kpi({ label: 'Merits rulings', value: fmt.int(T.merits), sub: 'Rule 12, Rule 56, and trial', href: findHref({ type: 'merits' }) }),
+      kpi({ label: 'Civil orders', value: fmt.int(T.orders), sub: 'since ' + fmtDate(S.since.orders), href: hashFor('court', { view: 'orders' }) }),
       kpi({ label: 'Data through', value: fmtShort(S.through), sub: lastRunText(), href: '#log' }),
     );
     drawHomeCases(); drawHomeNotices();
-    $('home-act').classList.add('withjudge');
-    $('home-act').replaceChildren(...actItems(activity().rows.slice(0, 8), { judge: true }));
+    $('home-act').replaceChildren(...actItems(activity().rows.slice(0, 10), { judge: true }));
     const recent = recentJudges().filter((c) => S.names[c]);
     $('recent').hidden = !recent.length;
     $('recent').replaceChildren(...(recent.length ? [el('span', { textContent: 'Recently viewed' }), ...recent.map((c) => el('a', { href: judgeHref(c), textContent: S.names[c] }))] : []));
-    $('cards').replaceChildren(...judgesAlpha().map((j) => {
-      const op = S.opinions.find((r) => r.code === j.code); const or = S.orders.find((r) => r.code === j.code);
-      const stat = (label, v, tip) => el('div', { title: tip }, el('span', { textContent: label }), el('b', { textContent: v }));
-      return el('a', { className: 'jcard', href: judgeHref(j.code) },
-        el('div', { className: 'jc-head' }, el('span', { className: 'jc-name', textContent: j.name }),
-          el('span', { className: 'chips' }, sectionOf(j.code) ? el('span', { className: 'code', textContent: 'Sec. ' + sectionOf(j.code), title: 'Section ' + sectionOf(j.code) }) : null, el('span', { className: 'code', textContent: j.code }))),
+    drawJudgeCards();
+  }
+  // One card per judge: name and section, written opinions by month for the last 12 months (merits rulings and the
+  // rest), three figures, and the latest opinion. Every chart shares one scale, so a bar's height means the same count
+  // on every card.
+  function drawJudgeCards() {
+    const S = state.stats; const today = ctToday(); const judges = judgesAlpha();
+    const months = d3.range(11, -1, -1).map((i) => { const d = utc(today.slice(0, 8) + '01'); d.setUTCMonth(d.getUTCMonth() - i); return iso(d).slice(0, 7); });
+    const ops = state.data.opinions.filter((o) => !Number(o.rr));
+    const byMonth = d3.rollup(ops.filter((o) => o.date.slice(0, 7) >= months[0]), (v) => ({ n: v.length, merits: v.filter((o) => category(o) !== 'other').length }), (o) => o.judge, (o) => o.date.slice(0, 7));
+    const top = d3.max([...byMonth.values()].flatMap((m) => [...m.values()].map((x) => x.n))) || 1;
+    const latest = d3.rollup(ops, (v) => v.reduce((a, o) => (o.date > a.date ? o : a)), (o) => o.judge);
+    const A = state.data.case_activity || {}; const floor = addDays(today, -(ACTIVE_DAYS - 1));
+    const caseJudge = new Map(state.cases.map((c) => [c.case, c.judge]));
+    const active = d3.rollup((A.cases || []).filter((r) => r[2] >= floor), (v) => v.length, (r) => r[1] || caseJudge.get(r[0]) || '');
+    const fullName = (code) => ((state.pages[code] || {}).title || '').replace(/^The Honorable\s+/i, '').replace(/,\s*Chief Judge$/i, '');
+    const monthEnd = (m) => { const d = utc(m + '-01'); d.setUTCMonth(d.getUTCMonth() + 1); return addDays(iso(d), -1); };
+
+    const chart = (j) => {
+      const W = 220; const H = 92; const bw = W / 12; const y = (v) => (v / top) * H; const m = byMonth.get(j.code) || new Map();
+      const svg = d3.create('svg').attr('class', 'jc-chart').attr('viewBox', `0 0 ${W} ${H + 16}`).attr('aria-hidden', 'true');
+      svg.append('line').attr('class', 'base').attr('x1', 0).attr('x2', W).attr('y1', H + 0.5).attr('y2', H + 0.5);
+      months.forEach((mo, i) => {
+        const c = m.get(mo) || { n: 0, merits: 0 }; const x = i * bw + 1.5; const w = bw - 3;
+        const before = (j.bench_start || '') > monthEnd(mo);
+        const hm = y(c.merits); const ho = y(c.n - c.merits);
+        if (before) svg.append('rect').attr('class', 'off').attr('x', x).attr('width', w).attr('y', H - 2).attr('height', 2);
+        if (c.merits) svg.append('rect').attr('class', 'mer').attr('x', x).attr('width', w).attr('y', H - hm).attr('height', hm);
+        if (c.n - c.merits) svg.append('rect').attr('class', 'oth').attr('x', x).attr('width', w).attr('y', H - hm - ho).attr('height', Math.max(0, ho - 1));
+        svg.append('rect').attr('class', 'hit').attr('x', i * bw).attr('width', bw).attr('y', 0).attr('height', H + 16)
+          .attr('data-tip', before ? fmtMonth(mo) + '\nBefore taking the bench'
+            : [fmtMonth(mo) + (mo === today.slice(0, 7) ? ' (to date)' : ''), plural(c.n, 'written opinion'), fmt.int(c.merits) + ' merits rulings · ' + fmt.int(c.n - c.merits) + ' other'].join('\n'));
+        svg.append('text').attr('class', mo.slice(5) === '01' ? 'yr' : null).attr('x', x + w / 2).attr('y', H + 12).attr('text-anchor', 'middle').text(d3.utcFormat('%b')(utc(mo + '-01'))[0]);
+      });
+      return svg.node();
+    };
+    const stat = (label, value, tip) => { const n = el('div', { className: 'jc-stat' }, el('span', { textContent: label }),
+      value == null ? el('b', { className: 'few', textContent: 'Too few' }) : el('b', { textContent: value })); n.dataset.tip = tip; return n; };
+
+    const cards = judges.map((j) => {
+      const op = S.opinions.find((r) => r.code === j.code); const sec = sectionOf(j.code); const lo = latest.get(j.code);
+      const total = d3.sum([...(byMonth.get(j.code) || new Map()).values()], (x) => x.n);
+      const card = el('a', { className: 'jcard', href: judgeHref(j.code), id: 'card-' + j.code },
+        el('div', { className: 'jc-head' },
+          el('div', { className: 'jc-who' }, el('span', { className: 'jc-name', textContent: j.name }), el('span', { className: 'jc-full', textContent: fullName(j.code) || 'Judge ' + j.name })),
+          sec ? el('div', { className: 'jc-sec', title: 'Section ' + sec }, el('span', { textContent: 'Section' }), el('b', { textContent: sec })) : null),
+        el('div', { className: 'jc-cap' }, el('span', { textContent: 'Written opinions, last 12 months' }), el('b', { textContent: fmt.int(total) })),
+        chart(j),
         el('div', { className: 'jc-stats' },
-          stat('Opinions', fmt.int(op.total), 'Written opinions in the period'),
-          stat('Merits / mo', fmt.d1(op.merits_month), 'Rule 12, Rule 56, and trial rulings per 21 working days'),
-          stat('Orders / day', fmt.d1(or.per_day), 'Civil orders per working day since ' + fmtShort(or.start))),
-        el('div', { className: 'jc-oc' }, el('span', { className: 'l', textContent: 'Motion outcomes, coded' }), ocBar(op.motions, { who: j.name }), el('span', { className: 'n', textContent: 'n=' + fmt.int(op.motions.known) })),
-        el('div', { className: 'jc-foot' }, el('span', { textContent: op.last ? 'Latest opinion ' + fmtShort(op.last) : 'No opinions in period' }), el('span', { textContent: fmt.int(op.cats.r12.n) + ' Rule 12 · ' + fmt.int(op.cats.r56.n) + ' Rule 56' })));
-    }));
+          stat('Days to rule', op.motions.nDays >= FEW ? fmt.med(op.motions.medDays) : null, 'Median days from a motion\'s filing to the written opinion deciding it (' + plural(op.motions.nDays, 'ruling') + ' with a filing date)'),
+          stat('Active cases', fmt.int(active.get(j.code) || 0), 'Civil cases with a docket entry in the last ' + ACTIVE_DAYS + ' days'),
+          stat('Opinion pages', op.n_pages >= FEW ? fmt.med(op.med_pages) : null, 'Median pages per written opinion with a PDF on file (' + plural(op.n_pages, 'PDF') + ')')),
+        el('div', { className: 'jc-latest' }, el('span', { textContent: 'Latest opinion' }),
+          lo ? [el('b', { textContent: fmtShort(lo.date) }), el('em', { textContent: lo.title })] : el('em', { textContent: 'None on file' })));
+      card.dataset.code = j.code; card.dataset.find = (j.name + ' ' + fullName(j.code)).toLowerCase();
+      return card;
+    });
+    $('cards').replaceChildren(...cards);
+    $('jchips').replaceChildren(...judges.map((j) => { const a = el('a', { href: '#card-' + j.code, textContent: j.name }); a.dataset.code = j.code; return a; }));
+    const partial = A.feed_since && A.feed_since > floor;
+    $('jlegend').replaceChildren(legendItem('var(--judge)', 'Merits rulings (Rule 12, Rule 56, trial)'), legendItem('var(--judge-2)', 'Other written opinions'),
+      el('p', { textContent: 'Days to rule and opinion pages are medians. Active cases: civil cases with a docket entry in the last ' + ACTIVE_DAYS + ' days'
+        + (partial ? `; until ${fmtShort(addDays(A.feed_since, ACTIVE_DAYS))}, entries before ${fmtShort(A.feed_since)} count only orders, opinions, and motions.` : '.') }));
+    findJudges();
+    if (spot.code) spotlight($('card-' + spot.code));
+  }
+  // "Find a judge" fades the cards that do not match; a chip scrolls to its card and marks it for a moment.
+  function findJudges() {
+    const q = $('jfind').value.trim().toLowerCase();
+    $('cards').querySelectorAll('.jcard').forEach((c) => c.classList.toggle('miss', !!q && !c.dataset.find.includes(q)));
+    $('jchips').querySelectorAll('a').forEach((a) => a.classList.toggle('miss', !!q && $('card-' + a.dataset.code).classList.contains('miss')));
+  }
+  // The card under the pointer stays lit until the pointer reaches another card or leaves the grid, so crossing the
+  // gaps between cards never flashes the whole grid back to full brightness.
+  const spot = { code: '' };
+  function spotlight(card) {
+    const grid = $('cards'); grid.querySelectorAll('.jcard.lit').forEach((c) => { if (c !== card) c.classList.remove('lit'); });
+    if (card) card.classList.add('lit');
+    grid.classList.toggle('spot', !!card); spot.code = card ? card.dataset.code : '';
   }
   const recentJudges = () => { try { return JSON.parse(store.get('edla-recent') || '[]'); } catch (e) { return []; } };
   const rememberJudge = (code) => store.set('edla-recent', JSON.stringify([code, ...recentJudges().filter((c) => c !== code)].slice(0, 5)));
@@ -2401,8 +2466,8 @@
   }
 
   async function load() {
-    const names = ['opinions', 'orders', 'judges', 'calendar', 'runs', 'outcomes', 'motions', 'judge_pages', 'feed', 'hearings', 'status', 'dockets', 'notices', 'submission_dates', 'appeals'];
-    const OPTIONAL = { outcomes: [], motions: [], feed: [], hearings: [], dockets: [], judge_pages: { judges: [] }, status: {}, notices: {}, submission_dates: {}, appeals: {} };
+    const names = ['opinions', 'orders', 'judges', 'calendar', 'runs', 'outcomes', 'motions', 'judge_pages', 'feed', 'hearings', 'status', 'dockets', 'notices', 'submission_dates', 'appeals', 'case_activity'];
+    const OPTIONAL = { outcomes: [], motions: [], feed: [], hearings: [], dockets: [], judge_pages: { judges: [] }, status: {}, notices: {}, submission_dates: {}, appeals: {}, case_activity: {} };
     $('status').textContent = 'Loading the docket data…';
     try {
       const files = await Promise.all(names.map((n) => fetch('data/' + n + '.json', { cache: 'no-cache' })
@@ -2422,9 +2487,22 @@
 
   // ------------------------------------------------------------ wiring
   document.querySelectorAll('[data-legend="outcomes"]').forEach((n) => n.replaceChildren(...OC_SEGS.map(([k, l]) => legendItem(`var(${ocVar(k)})`, l)), legendItem('transparent', 'Under ' + FEW + ' coded', 'few'), legendItem('var(--o-granted)', 'All judges', 'thin')));
-  document.querySelectorAll('[data-legend="outcomes-short"]').forEach((n) => n.replaceChildren(el('span', { textContent: 'Motion outcome bars:' }), ...OC_SEGS.map(([k, l]) => legendItem(`var(${ocVar(k)})`, l)), legendItem('transparent', 'Under ' + FEW + ' coded', 'few')));
   document.querySelectorAll('[data-legend="types"]').forEach((n) => n.replaceChildren(legendItem('var(--judge)', 'Merits rulings'), legendItem('var(--court)', 'Other opinions and R&Rs')));
   omnibox($('omni-top')); omnibox($('omni-hero'));
+  $('jfind').addEventListener('input', findJudges);
+  $('jfind').addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') { e.target.value = ''; findJudges(); }
+    if (e.key === 'Enter') { const c = $('cards').querySelector('.jcard:not(.miss)'); if (c) location.hash = c.getAttribute('href'); }
+  });
+  $('jchips').addEventListener('click', (e) => {
+    const a = e.target.closest('a'); if (!a) return;
+    e.preventDefault(); const card = $('card-' + a.dataset.code);
+    card.scrollIntoView({ block: 'center', behavior: 'smooth' }); card.classList.remove('flash'); void card.offsetWidth; card.classList.add('flash');
+  });
+  $('cards').addEventListener('pointerover', (e) => { const c = e.target.closest('.jcard'); if (c && e.pointerType === 'mouse') spotlight(c); });
+  $('cards').addEventListener('pointerleave', () => spotlight(null));
+  $('cards').addEventListener('focusin', (e) => spotlight(e.target.closest('.jcard')));
+  $('cards').addEventListener('focusout', (e) => { if (!$('cards').contains(e.relatedTarget)) spotlight(null); });
   Object.keys(TABLES).forEach(wireTable);
   document.querySelectorAll('.period button').forEach((b) => b.addEventListener('click', () => { state.period = b.dataset.period; update(); }));
   $('theme').addEventListener('click', () => {
@@ -2468,7 +2546,7 @@
   // minutes behind at most), because GitHub Pages can take 15 minutes or more to publish a data commit; if that address
   // fails, the site's own copy is used.
   const RAW = /\.github\.io$/.test(location.hostname) ? 'https://raw.githubusercontent.com/ggb52-wq/edla-judge-tracker/main/data/' : '';
-  const LIVE_FILES = ['opinions', 'orders', 'calendar', 'outcomes', 'motions', 'feed', 'hearings', 'dockets', 'notices', 'submission_dates', 'appeals'];
+  const LIVE_FILES = ['opinions', 'orders', 'calendar', 'outcomes', 'motions', 'feed', 'hearings', 'dockets', 'notices', 'submission_dates', 'appeals', 'case_activity'];
   // v, the check time, makes each read after a new check a fresh address, so no cached copy from before it is served.
   const getJson = (base, n, v) => fetch(base + n + '.json' + (v ? '?v=' + encodeURIComponent(v) : ''), { cache: 'no-cache' })
     .then((r) => (r.ok ? r.json() : null)).catch(() => null);
@@ -2488,7 +2566,7 @@
       const fresh = runs && latestRun(runs) > latestRun(state.data.runs);
       if (fresh) {
         const files = await Promise.all(LIVE_FILES.map((n) => getJson(base, n, st.checked)));
-        if (files.some((f, i) => !f && !['dockets', 'notices', 'submission_dates', 'appeals'].includes(LIVE_FILES[i]))) return;  // a partial read could mix two updates; try again next time
+        if (files.some((f, i) => !f && !['dockets', 'notices', 'submission_dates', 'appeals', 'case_activity'].includes(LIVE_FILES[i]))) return;  // a partial read could mix two updates; try again next time
         LIVE_FILES.forEach((n, i) => { if (files[i]) state.data[n] = files[i]; });
         state.data.runs = runs;
         state.cases = buildCases(state.data);
