@@ -18,7 +18,7 @@
   <div class="top-in">
     <a class="brand" href="#judges" aria-label="EDLA Analyzer home"><svg class="brand-mark" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M12 2 22.5 8h-21Z"/><rect x="1.5" y="20.5" width="21" height="2" rx=".4"/><g class="bars"><rect x="3.5" y="14" width="3.2" height="6" rx=".4"/><rect x="8.1" y="10" width="3.2" height="10" rx=".4"/><rect x="12.7" y="12.5" width="3.2" height="7.5" rx=".4"/><rect x="17.3" y="11" width="3.2" height="9" rx=".4"/></g></svg><span class="brand-name">EDLA <span>Analyzer</span></span></a>
     <nav class="nav" aria-label="Sections">
-      <a href="#judges" data-nav="judges">Judges</a>
+      <a href="#judges" data-nav="judges">Home</a>
       <a href="#cases" data-nav="cases">My cases</a>
       <a href="#activity" data-nav="activity">Activity</a>
       <a href="#calendar" data-nav="calendar">Calendar</a>
@@ -44,21 +44,7 @@
   <p class="status" id="status" role="status"></p>
 
   <!-- ============================================================ Judges (home) -->
-  <section class="page" id="page-judges" aria-labelledby="h-judges">
-    <div class="hero">
-      <div>
-        <p class="eyebrow">U.S. District Court · Eastern District of Louisiana · Civil docket</p>
-        <h1 id="h-judges" class="display">Judges</h1>
-        <p class="sub">Motion outcomes, time to ruling, and written opinions for each district judge, from the public docket.</p>
-      </div>
-      <div class="omni big" id="omni-hero">
-        <svg class="omni-icon" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m10.4 10.4 3.6 3.6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
-        <input type="search" placeholder="Judge name or case number" autocomplete="off" spellcheck="false" aria-label="Search judges, cases, and opinions">
-        <kbd aria-hidden="true">/</kbd>
-      </div>
-    </div>
-    <p class="notice">Not affiliated with the court. Not legal advice. Figures are read automatically from public records and may contain errors; confirm anything important on the docket. <a href="methodology.html">How we count</a></p>
-    <div class="recent" id="recent" hidden></div>
+  <section class="page" id="page-judges" aria-labelledby="h-cards">
     <div class="home">
       <div class="home-main">
         <section class="panel" id="home-cases" aria-labelledby="h-home-cases" hidden>
@@ -66,9 +52,8 @@
           <ol class="mini-cases" id="home-cases-list"></ol>
         </section>
         <div class="jbar">
-          <h2 id="h-cards">District judges</h2>
+          <h1 id="h-cards">District judges</h1>
           <input type="search" class="jfind" id="jfind" placeholder="Find a judge" autocomplete="off" spellcheck="false" aria-label="Find a judge">
-          <nav class="jchips" id="jchips" aria-label="Jump to a judge"></nav>
         </div>
         <div class="jlegend" id="jlegend"></div>
         <div class="cards" id="cards" aria-labelledby="h-cards"></div>
@@ -91,7 +76,7 @@
   <section class="page" id="page-judge" aria-labelledby="j-name" hidden>
     <div class="jhead">
       <div>
-        <p class="eyebrow"><a href="#judges">Judges</a> <span aria-hidden="true">/</span> <span id="j-crumb"></span></p>
+        <p class="eyebrow"><a href="#judges">Home</a> <span aria-hidden="true">/</span> <span id="j-crumb"></span></p>
         <div class="jtitle"><h1 id="j-name">Judge</h1><span class="code" id="j-section" hidden></span><span class="code" id="j-code"></span></div>
         <p class="fullname" id="j-full"></p>
         <p class="meta" id="j-meta"></p>
@@ -329,7 +314,7 @@
   <section class="page" id="page-compare" aria-labelledby="h-compare" hidden>
     <div class="jhead">
       <div>
-        <p class="eyebrow"><a href="#judges">Judges</a> <span aria-hidden="true">/</span> Compare</p>
+        <p class="eyebrow"><a href="#judges">Home</a> <span aria-hidden="true">/</span> Compare</p>
         <h1 id="h-compare">Compare judges</h1>
         <p class="sub">Up to four judges side by side.</p>
       </div>

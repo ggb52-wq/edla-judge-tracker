@@ -88,7 +88,6 @@ p { margin: 0; }
 .nav a:hover { color: var(--ink); }
 .nav a[aria-current="page"] { color: var(--ink); box-shadow: inset 0 -2px 0 var(--amber); }
 .omni { position: relative; flex: 1 1 300px; max-width: 440px; margin-left: auto; color: var(--ink-3); }
-body[data-page="judges"] .top .omni { visibility: hidden; }
 .omni input[type="search"] { width: 100%; height: 32px; padding: 0 30px 0 32px; background: var(--raise); border: 1px solid var(--line-2); border-radius: var(--r); color: var(--ink); font: 13px var(--font); transition: border-color var(--ease), background var(--ease); }
 .omni input::placeholder { color: var(--ink-3); }
 .omni input:hover { border-color: var(--ink-3); }
@@ -131,7 +130,6 @@ h1.display { font-size: clamp(30px, 4vw, 44px); letter-spacing: -.03em; }
 .meta { color: var(--ink-3); margin-top: 6px; font-size: 13px; }
 .notice { font-size: 12.5px; color: var(--ink-2); border-left: 2px solid var(--amber); padding: 1px 0 1px 12px; max-width: 110ch; }
 .notice a { color: var(--ink-2); }
-.hero { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 520px); gap: 18px 32px; align-items: end; padding-top: 10px; }
 .jhead { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 14px 24px; }
 .jtitle { display: flex; align-items: center; gap: 12px; }
 .actions { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
@@ -217,26 +215,21 @@ a.kpi:hover { background: var(--raise); }
 .jtitle .code { font-size: 12px; padding: 4px 6px 3px; }
 
 /* ---------------------------------------------------------------- judge cards */
-.recent { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; font: 500 10.5px var(--mono); text-transform: uppercase; letter-spacing: .08em; color: var(--ink-3); }
-.recent a { font: 500 12.5px var(--font); text-transform: none; letter-spacing: 0; color: var(--ink); text-decoration: none; border: 1px solid var(--line-2); border-radius: 999px; padding: 4px 11px; background: var(--panel); }
-.recent a:hover { border-color: var(--ink-3); }
 .home { display: grid; grid-template-columns: minmax(0, 1fr) 340px; gap: 18px; align-items: start; }
 .home-main, .home-side { display: flex; flex-direction: column; gap: 12px; min-width: 0; }
 .kpis.two { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .home-side .kpi .v { font-size: 20px; }
 .jbar { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; }
-.jbar h2 { margin: 0; font: 600 20px/1.2 var(--font); letter-spacing: -.01em; }
+.jbar { justify-content: space-between; padding-top: 8px; }
+.jbar h1 { margin: 0; font: 600 22px/1.2 var(--font); letter-spacing: -.015em; }
 .jfind { height: 30px; width: 190px; padding: 0 10px; background: var(--raise); border: 1px solid var(--line-2); border-radius: var(--r); color: var(--ink); font: 13px var(--font); }
 .jfind::placeholder { color: var(--ink-3); }
 .jfind:focus { outline: none; border-color: var(--amber); background: var(--panel); }
-.jchips { flex-basis: 100%; display: flex; flex-wrap: wrap; gap: 5px; }
-.jchips a { font: 500 12px/1.4 var(--font); color: var(--ink-2); text-decoration: none; padding: 2px 8px; border: 1px solid var(--line-2); border-radius: 999px; background: var(--panel); transition: color var(--ease), border-color var(--ease), opacity var(--ease); }
-.jchips a:hover { color: var(--ink); border-color: var(--judge); }
-.jchips a.miss { opacity: .3; }
 .jlegend { display: flex; flex-wrap: wrap; align-items: center; gap: 2px 14px; font-size: 12px; color: var(--ink-2); }
 .jlegend span { display: inline-flex; align-items: center; gap: 6px; }
 .jlegend i { width: 10px; height: 10px; border-radius: 2px; display: inline-block; }
-.jlegend p { flex-basis: 100%; margin: 0; font-size: 11.5px; color: var(--ink-3); }
+.jlegend a { color: var(--ink-3); }
+.jlegend a:hover { color: var(--link); }
 /* Judge cards: a fine gradient edge, brighter at the top-left corner. The card under the pointer is lit and the rest
    fall back (spotlight() in app.js), with transitions long enough that sweeping across the grid reads as one motion. */
 .cards { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; }
@@ -253,8 +246,6 @@ a.kpi:hover { background: var(--raise); }
 .jcard.lit .jc-name { color: #fff; }
 :root[data-theme="light"] .jcard.lit .jc-name { color: var(--ink); }
 .cards .jcard.miss { opacity: .18; filter: saturate(.3); }
-.jcard.flash { animation: jflash 1.4s ease; }
-@keyframes jflash { 0%, 40% { box-shadow: 0 0 0 2px var(--amber); } 100% { box-shadow: 0 0 0 2px transparent; } }
 .jcard:focus-visible { outline-offset: 3px; }
 .jc-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 10px; }
 .jc-who { min-width: 0; }
@@ -675,10 +666,8 @@ a.tag:hover { border-color: var(--link); }
   .nav::-webkit-scrollbar { display: none; }
   .nav a { padding: 8px 10px; }
   .omni { order: 5; flex: 1 1 100%; max-width: none; }
-  body[data-page="judges"] .top .omni { display: none; }
   .period { order: 4; margin-left: auto; }
   .live { margin-left: auto; }
-  .hero { grid-template-columns: minmax(0, 1fr); }
   .kpis.five { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .kpis.five .kpi:nth-child(4) { grid-column: span 2; }
   .trio { grid-template-columns: minmax(0, 1fr); }
@@ -715,7 +704,6 @@ a.tag:hover { border-color: var(--link); }
   .stepper { flex: 1; }
   .stepper select { flex: 1; min-width: 0; }
   .cards { grid-template-columns: minmax(0, 1fr); }
-  .jchips { display: none; }
   .filters label { flex: 1 1 45%; }
   .filters label select { width: 100%; }
   .filters label.grow { flex-basis: 100%; max-width: none; }
@@ -758,7 +746,7 @@ a.tag:hover { border-color: var(--link); }
   }
   body { background: #fff; font-size: 11px; }
   * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
-  .top, .actions, .filters, .feed-more, .more-link, .btn, .keys, .foot nav, .skip, .tip, .recent, .omni, #c-cmp-kinds { display: none !important; }
+  .top, .actions, .filters, .feed-more, .more-link, .btn, .keys, .foot nav, .skip, .tip, .omni, #c-cmp-kinds { display: none !important; }
   .page { padding-top: 0; }
   .kpis, .facts, .fact, .trio, .duo > div, .pb, .t tr, .feed li { break-inside: avoid; }
   .duo { grid-template-columns: repeat(2, minmax(0, 1fr)); }

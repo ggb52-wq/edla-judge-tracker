@@ -605,9 +605,6 @@
     );
     drawHomeCases(); drawHomeNotices();
     $('home-act').replaceChildren(...actItems(activity().rows.slice(0, 10), { judge: true }));
-    const recent = recentJudges().filter((c) => S.names[c]);
-    $('recent').hidden = !recent.length;
-    $('recent').replaceChildren(...(recent.length ? [el('span', { textContent: 'Recently viewed' }), ...recent.map((c) => el('a', { href: judgeHref(c), textContent: S.names[c] }))] : []));
     drawJudgeCards();
   }
   // One card per judge: name and section, written opinions by month for the last 12 months (merits rulings and the
@@ -644,6 +641,8 @@
       });
       return svg.node();
     };
+    const partial = A.feed_since && A.feed_since > floor
+      ? `\nUntil ${fmtShort(addDays(A.feed_since, ACTIVE_DAYS))}, entries before ${fmtShort(A.feed_since)} count only orders, opinions, and motions` : '';
     const stat = (label, value, tip) => { const n = el('div', { className: 'jc-stat' }, el('span', { textContent: label }),
       value == null ? el('b', { className: 'few', textContent: 'Too few' }) : el('b', { textContent: value })); n.dataset.tip = tip; return n; };
 
@@ -658,7 +657,7 @@
         chart(j),
         el('div', { className: 'jc-stats' },
           stat('Days to rule', op.motions.nDays >= FEW ? fmt.med(op.motions.medDays) : null, 'Median days from a motion\'s filing to the written opinion deciding it (' + plural(op.motions.nDays, 'ruling') + ' with a filing date)'),
-          stat('Active cases', fmt.int(active.get(j.code) || 0), 'Civil cases with a docket entry in the last ' + ACTIVE_DAYS + ' days'),
+          stat('Active cases', fmt.int(active.get(j.code) || 0), 'Civil cases with a docket entry in the last ' + ACTIVE_DAYS + ' days' + partial),
           stat('Opinion pages', op.n_pages >= FEW ? fmt.med(op.med_pages) : null, 'Median pages per written opinion with a PDF on file (' + plural(op.n_pages, 'PDF') + ')')),
         el('div', { className: 'jc-latest' }, el('span', { textContent: 'Latest opinion' }),
           lo ? [el('b', { textContent: fmtShort(lo.date) }), el('em', { textContent: lo.title })] : el('em', { textContent: 'None on file' })));
@@ -666,19 +665,14 @@
       return card;
     });
     $('cards').replaceChildren(...cards);
-    $('jchips').replaceChildren(...judges.map((j) => { const a = el('a', { href: '#card-' + j.code, textContent: j.name }); a.dataset.code = j.code; return a; }));
-    const partial = A.feed_since && A.feed_since > floor;
-    $('jlegend').replaceChildren(legendItem('var(--judge)', 'Merits rulings (Rule 12, Rule 56, trial)'), legendItem('var(--judge-2)', 'Other written opinions'),
-      el('p', { textContent: 'Days to rule and opinion pages are medians. Active cases: civil cases with a docket entry in the last ' + ACTIVE_DAYS + ' days'
-        + (partial ? `; until ${fmtShort(addDays(A.feed_since, ACTIVE_DAYS))}, entries before ${fmtShort(A.feed_since)} count only orders, opinions, and motions.` : '.') }));
+    $('jlegend').replaceChildren(legendItem('var(--judge)', 'Merits rulings'), legendItem('var(--judge-2)', 'Other written opinions'), el('a', { href: 'methodology.html#home', textContent: 'How we count' }));
     findJudges();
     if (spot.code) spotlight($('card-' + spot.code));
   }
-  // "Find a judge" fades the cards that do not match; a chip scrolls to its card and marks it for a moment.
+  // "Find a judge" fades the cards that do not match.
   function findJudges() {
     const q = $('jfind').value.trim().toLowerCase();
     $('cards').querySelectorAll('.jcard').forEach((c) => c.classList.toggle('miss', !!q && !c.dataset.find.includes(q)));
-    $('jchips').querySelectorAll('a').forEach((a) => a.classList.toggle('miss', !!q && $('card-' + a.dataset.code).classList.contains('miss')));
   }
   // The card under the pointer stays lit until the pointer reaches another card or leaves the grid, so crossing the
   // gaps between cards never flashes the whole grid back to full brightness.
@@ -688,8 +682,6 @@
     if (card) card.classList.add('lit');
     grid.classList.toggle('spot', !!card); spot.code = card ? card.dataset.code : '';
   }
-  const recentJudges = () => { try { return JSON.parse(store.get('edla-recent') || '[]'); } catch (e) { return []; } };
-  const rememberJudge = (code) => store.set('edla-recent', JSON.stringify([code, ...recentJudges().filter((c) => c !== code)].slice(0, 5)));
   // When the updater last read the court's feed: data/status.json, rewritten on every check (every 15 minutes), or
   // failing that the latest run in the log. Times are Central, as written by the updater.
   const STALE_MINUTES = 45;
@@ -722,7 +714,6 @@
     const name = S.names[code];
     const or = S.orders.find((r) => r.code === code); const op = S.opinions.find((r) => r.code === code);
     if (state.jf.judge !== code) state.jf = { q: '', type: '', judge: code };
-    rememberJudge(code);
     document.title = 'Judge ' + name + ' · EDLA Analyzer';
     $('j-name').textContent = 'Judge ' + name; $('j-crumb').textContent = name; $('j-code').textContent = code;
     const P = state.pages[code]; const sec = P && P.contact && P.contact.section;
@@ -2488,16 +2479,11 @@
   // ------------------------------------------------------------ wiring
   document.querySelectorAll('[data-legend="outcomes"]').forEach((n) => n.replaceChildren(...OC_SEGS.map(([k, l]) => legendItem(`var(${ocVar(k)})`, l)), legendItem('transparent', 'Under ' + FEW + ' coded', 'few'), legendItem('var(--o-granted)', 'All judges', 'thin')));
   document.querySelectorAll('[data-legend="types"]').forEach((n) => n.replaceChildren(legendItem('var(--judge)', 'Merits rulings'), legendItem('var(--court)', 'Other opinions and R&Rs')));
-  omnibox($('omni-top')); omnibox($('omni-hero'));
+  omnibox($('omni-top'));
   $('jfind').addEventListener('input', findJudges);
   $('jfind').addEventListener('keydown', (e) => {
     if (e.key === 'Escape') { e.target.value = ''; findJudges(); }
     if (e.key === 'Enter') { const c = $('cards').querySelector('.jcard:not(.miss)'); if (c) location.hash = c.getAttribute('href'); }
-  });
-  $('jchips').addEventListener('click', (e) => {
-    const a = e.target.closest('a'); if (!a) return;
-    e.preventDefault(); const card = $('card-' + a.dataset.code);
-    card.scrollIntoView({ block: 'center', behavior: 'smooth' }); card.classList.remove('flash'); void card.offsetWidth; card.classList.add('flash');
   });
   $('cards').addEventListener('pointerover', (e) => { const c = e.target.closest('.jcard'); if (c && e.pointerType === 'mouse') spotlight(c); });
   $('cards').addEventListener('pointerleave', () => spotlight(null));
