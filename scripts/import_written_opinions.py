@@ -152,9 +152,15 @@ def apply_imports(data_dir: Path, opinions: list[dict], outcomes: dict, dockets:
                 opinions.append(o)
                 by_key[key] = o
                 added += 1
-            elif signer in bench and o.get("judge") != signer and r["date"] >= bench[signer]:
-                o["judge"] = signer  # signed by a district judge other than the one the case is now assigned to
-                moved += 1
+            else:
+                if o.get("src") == "govinfo":
+                    # Found on GovInfo first, with an event read from the order's opening lines: the clerk's docket text
+                    # names the motions decided more reliably.
+                    event = event_for(r)
+                    o.update({"event": event[:160], **opinion_flags(event), "src": "pacer_wo"})
+                if signer in bench and o.get("judge") != signer and r["date"] >= bench[signer]:
+                    o["judge"] = signer  # signed by a district judge other than the one the case is now assigned to
+                    moved += 1
             k = f"{r['case']}|{r['doc']}"
             old = outcomes.get(k)
             if rules_on_motion(o) and (old is None or old.get("src") in READ_FROM_ORDER or (old.get("src") != "manual" and old.get("outcome") == "unclear")):

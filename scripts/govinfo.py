@@ -1,4 +1,5 @@
-"""Opinion PDFs and text from GovInfo's United States Courts collection (USCOURTS), for opinions already in the data.
+"""Written opinions from GovInfo's United States Courts collection (USCOURTS): new ones the data lacks, and PDFs,
+page counts, and text for opinions already in it.
 
 GovInfo publishes the documents a court flags as written opinions, one package per case
 (USCOURTS-laed-2_23-cv-00931) and one granule per document (...-0, -1, ... in filing order). Its granules are
@@ -29,6 +30,20 @@ API_BUDGET = 100        # api.data.gov calls per run; the key allows 1,000 an ho
 PDF_BUDGET = 200        # PDF downloads per run
 PDF_PAUSE = 0.3         # seconds between downloads, to be polite to GovInfo
 RECHECK_DAYS = 3        # re-list a package after this long, for opinions GovInfo had not posted yet
+DISCOVER_API = 40       # of the run's calls, at most this many go to finding new opinions; the backfill gets the rest
+DISCOVER_PDFS = 60      # and at most this many downloads
+DISCOVER_DAYS = 60      # new opinions are added only when filed within this many days
+DISCOVER_OVERLAP = dt.timedelta(hours=2)   # each listing starts this long before the last complete one
+CASE_STAMP_RE = re.compile(r"Case\s*(\d:\d\d-cv-\d{5})-([A-Z]{2,4})\b")
+# The title an order carries under the caption, first match in the opening text.
+HEADING_RE = re.compile(
+    r"(?m)^\s*(REPORT\s+AND\s+RECOMMENDATIONS?|FINDINGS\s+OF\s+FACT\b[^\n]*|ORDER\s+(?:AND|&)\s+REASONS|"
+    r"MEMORANDUM\s+(?:OPINION\s+)?(?:AND|&)\s+ORDER|ORDER\s+AND\s+OPINION|MEMORANDUM\s+(?:OPINION|RULING)|"
+    r"ORDER\s+AND\s+JUDGMENT|JUDGMENT|ORDER|OPINION)\b")
+# A motion's name as orders write it, in title case: "Motion to Dismiss for Failure to State a Claim". Lowercase words
+# other than short connectors end it ("... filed by", "... is GRANTED").
+_WORD = r"[A-Z][\w'/&-]*"
+MOTION_NAME_RE = re.compile(rf"\bMotion\s+(?:to|for|in)\s+(?:(?:{_WORD}|of|the|and|or|to|for|in|on|a|an|as|with|from|under)\s+)*{_WORD}")
 
 
 def package_id(case: str) -> str:
@@ -51,6 +66,30 @@ def read_stamp(text: str) -> tuple[str, str]:
         return doc, dt.date(y, mo, d).isoformat()
     except ValueError:
         return doc, ""
+
+
+def case_stamp(text: str) -> tuple[str, str]:
+    """(case number, presiding judge's initials) from the CM/ECF stamp, or ("", "")."""
+    m = CASE_STAMP_RE.search(text or "")
+    return (m.group(1), m.group(2)) if m else ("", "")
+
+
+def describe(text: str) -> dict:
+    """The order's title and the motions its opening paragraph names, read from the PDF text as plain data:
+    {"text": "ORDER AND REASONS", "motions": [{"name": "Motion to Dismiss"}]}, the shape event_for() reads."""
+    head = HEADING_RE.search((text or "")[:6000])
+    title = re.sub(r"\s+", " ", head.group(1)).upper() if head else ""
+    body = re.sub(r"\s+", " ", (text or "")[head.end() if head else 0:][:1500])
+    names: list[str] = []
+    for m in MOTION_NAME_RE.finditer(body):
+        name = m.group(0).strip()
+        low = name.lower()
+        # "Motion to Dismiss" after "Motion to Dismiss for Failure to State a Claim" is the same motion, named short.
+        if not any(n.lower().startswith(low) or low.startswith(n.lower()) for n in names):
+            names.append(name)
+        if len(names) == 3:
+            break
+    return {"text": title, "motions": [{"name": n} for n in names]}
 
 
 def pdf_text(data: bytes) -> tuple[str, int]:
@@ -107,6 +146,36 @@ class GovInfo:
             url = nxt if nxt.startswith(API) else ""
         return sorted(set(ids), key=lambda g: int(GRANULE_RE.match(g).group(2)))
 
+    def modified_packages(self, since: dt.datetime) -> list[dict] | None:
+        """This court's civil packages changed since `since` (a new opinion changes its case's package), as
+        [{"id", "modified", "title"}]; None when GovInfo cannot say."""
+        stamp = since.astimezone(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+        url = f"{API}collections/USCOURTS/{stamp}?offsetMark=*&pageSize=100&courtCode={COURT}"
+        out: list[dict] = []
+        for _ in range(10):
+            if self._out() or self.api_calls >= DISCOVER_API:
+                self.stopped = self.stopped or "call budget"
+                return None
+            self.api_calls += 1
+            try:
+                data = json.loads(self.http_get(url, {"X-Api-Key": self.key, "Accept": "application/json"}))
+            except urllib.error.HTTPError as e:
+                self.errors.append(f"GovInfo HTTP {e.code}")
+                if e.code in (401, 403, 429):
+                    self.stopped = f"HTTP {e.code}"
+                return None
+            except Exception as e:
+                self.errors.append(f"GovInfo {type(e).__name__}")
+                return None
+            out += [{"id": p["packageId"], "modified": str(p.get("lastModified") or ""), "title": str(p.get("title") or "")}
+                    for p in data.get("packages", []) if PKG_RE.match(str(p.get("packageId") or ""))]
+            nxt = data.get("nextPage") or ""
+            if not nxt.startswith(API):
+                return out
+            url = nxt
+        self.errors.append("GovInfo listing past the page limit not read")
+        return None
+
     def pdf(self, granule: str) -> bytes | None:
         link = pdf_link(granule)
         if not link or self._out() or self.pdfs >= PDF_BUDGET:
@@ -157,7 +226,7 @@ def backfill(gi: GovInfo, opinions: list[dict], needs, cache: dict, apply, today
                 if gi.stopped:
                     break
                 continue
-            pc = packages[pkg] = {"checked": today, "granules": ids}
+            pc = packages[pkg] = {**(pc or {}), "checked": today, "granules": ids}
         stats["cases"] += 1
         oldest = min(o["date"] for o in rows.values())
         for g in sorted(pc["granules"], key=lambda g: int(GRANULE_RE.match(g).group(2)), reverse=True):
@@ -180,6 +249,80 @@ def backfill(gi: GovInfo, opinions: list[dict], needs, cache: dict, apply, today
                 stats["matched"] += 1
             elif filed and filed < oldest:
                 break
+    return stats
+
+
+def discover(gi: GovInfo, cache: dict, known: set, add, now: dt.datetime) -> dict:
+    """Find written opinions GovInfo has posted that are not in the data and hand each to
+    `add(case, doc, filed, text, pages, pdf_url, title)`.
+
+    Lists the court's packages changed since the last complete listing, newest first. In each, granules not read
+    before are read newest first, stopping at the first one already on file or filed more than DISCOVER_DAYS ago,
+    so a case with a long history costs one or two downloads. A package is marked done (its `modified` time kept)
+    only when read to that point, and the listing time advances only when every package is done.
+    """
+    packages = cache.setdefault("packages", {})
+    granules = cache.setdefault("granules", {})
+    last = cache.get("discovered", "")
+    since = (dt.datetime.fromisoformat(last) - DISCOVER_OVERLAP) if last else now - dt.timedelta(days=7)
+    stats = {"packages": 0, "read": 0, "added": 0, "complete": False}
+    listed = gi.modified_packages(since)
+    if listed is None:
+        return stats
+    cutoff = (now.date() - dt.timedelta(days=DISCOVER_DAYS)).isoformat()
+    today = now.date().isoformat()
+    complete = True
+    for p in sorted(listed, key=lambda p: p["modified"], reverse=True):
+        pkg, pc = p["id"], packages.get(p["id"]) or {}
+        if pc.get("modified", "") >= p["modified"] and pc.get("modified"):
+            continue
+        if gi._out() or gi.api_calls >= DISCOVER_API or gi.pdfs >= DISCOVER_PDFS:
+            complete = False
+            break
+        ids = gi.granules(pkg)
+        if ids is None:
+            complete = False
+            if gi.stopped:
+                break
+            continue
+        stats["packages"] += 1
+        case = pkg.replace(f"USCOURTS-{COURT}-", "").replace("_", ":")
+        done = True
+        for g in sorted(ids, key=lambda g: int(GRANULE_RE.match(g).group(2)), reverse=True):
+            seen = granules.get(g)
+            if seen:
+                if (case, seen.get("doc")) in known or (seen.get("date") or "9999") < cutoff:
+                    break
+                continue
+            if gi.pdfs >= DISCOVER_PDFS:
+                done = False
+                break
+            data = gi.pdf(g)
+            if data is None:
+                done = False
+                break
+            text, pages = pdf_text(data)
+            doc, filed = read_stamp(text)
+            granules[g] = {"doc": doc, "date": filed, "pages": pages}
+            stats["read"] += 1
+            if not doc or (case, doc) in known:
+                if doc:
+                    break
+                continue
+            if filed and filed < cutoff:
+                break
+            if case_stamp(text)[0] in ("", case) and filed:
+                add(case, doc, filed, text, pages, pdf_link(g), p["title"])
+                known.add((case, doc))
+                stats["added"] += 1
+        if done:
+            packages[pkg] = {**pc, "checked": today, "granules": ids, "modified": p["modified"]}
+        else:
+            complete = False
+            break
+    if complete:
+        cache["discovered"] = now.astimezone(dt.timezone.utc).isoformat(timespec="seconds")
+    stats["complete"] = complete
     return stats
 
 

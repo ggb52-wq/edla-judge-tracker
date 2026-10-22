@@ -68,7 +68,7 @@
         <li><strong>Calendar:</strong> the court's seven-day calendar, docket text that sets proceedings, and minute entries (see <a href="#calendar">Calendar</a>).</li>
         <li><strong>Docket activity:</strong> every civil entry in the court's RSS feed, kept for 14 days (see <a href="#activity">Docket activity</a>).</li>
         <li><strong>Judges' requirements and chambers contact:</strong> each judge's page on the court's website, read daily (see <a href="#requirements">Judges' requirements</a>).</li>
-        <li><strong>Since Oct. 17, 2026:</strong> the court's public CM/ECF RSS feed, checked every 15 minutes around the clock, matched against <a href="https://www.courtlistener.com/">CourtListener</a> (Free Law Project), which builds docket records from the same feed and adds the assigned judge and full event type. Documents CourtListener marks as free on PACER are the entries on PACER's Written Opinions Report.</li>
+        <li><strong>Since Oct. 17, 2026:</strong> the court's public CM/ECF RSS feed, checked every 15 minutes around the clock, matched against <a href="https://www.courtlistener.com/">CourtListener</a> (Free Law Project), which builds docket records from the same feed and adds the assigned judge and full event type. Documents CourtListener marks as free on PACER are the entries on PACER's Written Opinions Report; the site asks CourtListener for newly marked ones every two hours. New written opinions also come from GovInfo, which posts the same documents, usually within a few days: each PDF's CM/ECF stamp gives the case, document number, filing date, and judge, and its title and opening paragraph give the motions decided. When the docket text arrives later (from CourtListener or a Written Opinions Report), it replaces what was read from the PDF.</li>
       </ul>
 
       <h2 id="definitions">Definitions</h2>
@@ -205,7 +205,7 @@
 
       <h2 id="data">Data and code</h2>
       <p>The data files and the update script are public at <a href="https://github.com/ggb52-wq/edla-judge-tracker">github.com/ggb52-wq/edla-judge-tracker</a>. Corrections are welcome through that repository.</p>
-      <p>The time at the top of every page ("Checked 10:46 AM") is the updater's last read of the court's feed, in Central time. Checks run every 15 minutes, around the clock, whether or not the feed has anything new; the mark turns amber when 45 minutes pass without one. An open page picks up new data on its own within about five minutes of a check. Order and opinion counts run through the "Data through" date, the last day CourtListener's search was read in full; between those searches, and while CourtListener's rate limits pause it, new entries still appear on the Activity page as soon as a check finds them.</p>
+      <p>The time at the top of every page ("Checked 10:46 AM") is the updater's last read of the court's feed, in Central time. Checks run every 15 minutes, around the clock, whether or not the feed has anything new; the mark turns amber when 45 minutes pass without one. An open page picks up new data on its own within about five minutes of a check. Order and opinion counts run through the "Data through" date: today once CourtListener's order search has read the day in full, otherwise the last working day before today once a CourtListener check for written opinions has finished. New entries appear on the Activity page as soon as a check finds them.</p>
     </article>
   </div>
 </main>

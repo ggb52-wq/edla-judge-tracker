@@ -52,6 +52,11 @@ CL_CALL_BUDGET = 360    # absolute ceiling per run; the real budget comes from C
 SEARCH_RESERVE = 12     # calls a search for new entries needs; a run that cannot afford one saves its calls for the next
 LINK_RECHECK_DAYS = 7
 OPINION_LOOKBACK_DAYS = 5   # written opinions are marked free on PACER a day or more after they are filed
+OPINION_CHECK_MINUTES = 120 # how often to ask CourtListener for newly marked written opinions (it marks them each morning)
+OPINION_RESERVE = 4         # calls a written-opinion check needs (the query and a docket lookup or two)
+OPINION_OVERLAP_HOURS = 24  # each check looks back this far before the last complete one
+OPINION_MAX_DAYS = 14       # and never further back than this
+ORDER_WINDOW_DAYS = 3       # the order search reads at most this many days back; the RSS feed covers the rest
 RUN_SECONDS = 11 * 60   # CourtListener calls stop after this, so the run saves well inside the workflow's 20-minute timeout
 MAX_FAILURES = 5        # consecutive failed lookups before a run gives up on CourtListener for the rest of the run
 RETRY_AFTER_MAX = 60    # longest wait honored on an HTTP 429
@@ -227,6 +232,10 @@ def last_search(runs: list[dict]) -> dt.datetime | None:
     return max((run_time(r) for r in runs if r.get("searched") and run_time(r)), default=None)
 
 
+def last_opinion_check(runs: list[dict]) -> dt.datetime | None:
+    return max((run_time(r) for r in runs if r.get("op_checked") and run_time(r)), default=None)
+
+
 class CourtListener:
     def __init__(self, token: str | None, budget: int = CL_CALL_BUDGET, interval: float = 12.0):
         self.token = token
@@ -239,8 +248,9 @@ class CourtListener:
         self.throttled = False       # CourtListener asked for a wait longer than a run can afford; no more calls this run
         self.failed = False          # a call this run wanted went unanswered: no token, refused, or failed
         self.paused_until: dt.datetime | None = None
+        self.truncated = False       # a paged read stopped at its page limit
 
-    def get(self, path_or_url: str, params: dict | None = None) -> dict | None:
+    def get(self, path_or_url: str, params: dict | None = None, timeout: int = 45) -> dict | None:
         if not self.token:
             self.failed = True
             return None
@@ -256,7 +266,7 @@ class CourtListener:
         for attempt in range(3):
             self.calls += 1
             try:
-                return json.loads(http_get(url, {"Authorization": f"Token {self.token}"}))
+                return json.loads(http_get(url, {"Authorization": f"Token {self.token}"}, timeout))
             except urllib.error.HTTPError as e:
                 if e.code == 429:
                     try:
@@ -290,8 +300,8 @@ class CourtListener:
                 time.sleep(self.interval)
         return None
 
-    def paged(self, path: str, params: dict, limit_pages: int = 10):
-        data = self.get(path, params)
+    def paged(self, path: str, params: dict, limit_pages: int = 10, timeout: int = 45):
+        data = self.get(path, params, timeout)
         pages = 0
         while data:
             yield from data.get("results", [])
@@ -301,11 +311,12 @@ class CourtListener:
                 break
             if pages >= limit_pages:
                 self.errors.append("CourtListener results past the page limit not read")
+                self.truncated = True
                 break
             if not str(nxt).startswith(CL_BASE):  # the token goes only to CourtListener's own API
                 self.failed = True
                 break
-            data = self.get(nxt)
+            data = self.get(nxt, timeout=timeout)
 
 
 # ---------------------------------------------------------------- sources
@@ -618,13 +629,15 @@ def main() -> int:
     if not search_due:
         # Lookups between searches leave a search's worth of the day's calls, or they use it all and searches wait for hours.
         allowance = max(0, min(allowance, lim["day"] - day_used - SEARCH_RESERVE))
+    op_last = last_opinion_check(runs)
+    op_due = op_last is None or now - op_last >= dt.timedelta(minutes=OPINION_CHECK_MINUTES)
+    do_opinions = op_due and allowance >= OPINION_RESERVE
     cl = CourtListener(os.environ.get("COURTLISTENER_TOKEN"), allowance, 60 / max(1, lim["minute"]))
     if not cl.token:
         note.append("No CourtListener token; RSS only")
-    log(f"CourtListener budget {cl.budget}; search {'yes' if do_search else 'no'}")
+    log(f"CourtListener budget {cl.budget}; opinion check {'yes' if do_opinions else 'no'}; search {'yes' if do_search else 'no'}")
 
     # --- CourtListener dockets with order-type entries
-    log("searching CourtListener for new entries" if do_search else "skipping the CourtListener search this run")
     docket_info: dict[int, dict] = {}
     cl_entries: dict[tuple[str, str], dict] = {}
     dockets = {r["case"]: r for r in court_info.load_json(DATA / "dockets.json", [])}
@@ -632,10 +645,52 @@ def main() -> int:
     import_written_opinions.apply_imports(DATA, opinions, outcomes, dockets, calendar, judges, today, note,
                                           classify, opinion_flags, judge_code, rules_on_motion)
     opinion_keys = {(o["case"], o["doc"]) for o in opinions}
+    # --- Written opinions (free on PACER), checked first and on their own schedule, so a long order search or a spent
+    # budget never crowds them out. CourtListener records an entry when the RSS feed shows it (date_created) but marks it
+    # free on PACER only when it reads the court's Written Opinions Report, usually the next morning (date_modified). So
+    # the query goes by date_modified, from a day before the last complete check; opinions already on file are skipped.
+    docs: list[dict] = []
+    op_ok = False
+    if do_opinions:
+        floor = now - dt.timedelta(days=OPINION_MAX_DAYS)
+        start = (op_last - dt.timedelta(hours=OPINION_OVERLAP_HOURS)) if op_last else \
+            dt.datetime.combine(dt.date.fromisoformat(window_from) - dt.timedelta(days=OPINION_LOOKBACK_DAYS), dt.time(), CENTRAL)
+        start = max(start, floor)
+        log(f"checking CourtListener for written opinions marked since {start:%m/%d %H:%M}")
+        docs = list(cl.paged("recap-documents/", {
+            "is_free_on_pacer": "true", "docket_entry__docket__court": "laed",
+            "date_modified__gte": start.isoformat(timespec="seconds"), "order_by": "date_modified",
+            "fields": "id,description,document_number,absolute_url,filepath_local,is_available,page_count,date_created"}, timeout=90))
+        missing = set()
+        for r in docs:
+            m = re.search(r"/docket/(\d+)/", r.get("absolute_url", ""))
+            if m and int(m.group(1)) not in docket_info:
+                missing.add(int(m.group(1)))
+        if missing:
+            ids = sorted(missing)
+            for start_i in range(0, len(ids), 40):
+                chunk = ids[start_i:start_i + 40]
+                for d in cl.paged("search/", {"type": "r", "court": "laed",
+                                               "q": "docket_id:(" + " OR ".join(map(str, chunk)) + ")"}, limit_pages=2):
+                    case, kind = base_case(d.get("docketNumber", ""))
+                    court_info.note_docket(dockets, case, judge_code(d.get("assignedTo")), d, today)
+                    docket_info[d.get("docket_id")] = {"case": case, "kind": kind,
+                                                       "judge": judge_code(d.get("assignedTo")),
+                                                       "title": (d.get("caseName") or "")[:70]}
+        # A call refused for want of budget returns nothing without failing, so a spent budget also leaves the check open.
+        op_ok = not (cl.failed or cl.out_of_time or cl.throttled or cl.truncated or cl.calls >= cl.budget)
+        if not op_ok:
+            note.append("Written-opinion check cut short; the next one looks back to the last complete check")
+        cl.failed = cl.truncated = False   # the order search below is judged on its own calls
+    elif op_due and cl.token:
+        note.append("Too few CourtListener calls for the written-opinion check")
+
+    log("searching CourtListener for new entries" if do_search else "skipping the CourtListener search this run")
     q = ("short_description:order OR short_description:judgment OR short_description:hearing OR "
          "short_description:hearings OR short_description:transferred OR short_description:recommendations")
+    order_from = max(window_from, (now.date() - dt.timedelta(days=ORDER_WINDOW_DAYS)).isoformat())
     for d in (cl.paged("search/", {"type": "r", "court": "laed", "q": q,
-                                    "entry_date_filed_after": window_from, "entry_date_filed_before": today}) if do_search else []):
+                                    "entry_date_filed_after": order_from, "entry_date_filed_before": today}) if do_search else []):
         case, kind = base_case(d.get("docketNumber", ""))
         info = {"case": case, "kind": kind, "judge": judge_code(d.get("assignedTo")),
                 "title": (d.get("caseName") or "")[:70]}
@@ -695,7 +750,7 @@ def main() -> int:
     # Submission dates and motions the feed missed, from CourtListener's docket text (one or two calls per search).
     if do_search:
         for r in cl.paged("search/", {"type": "rd", "court": "laed", "q": 'short_description:motion OR description:"submitted on"',
-                                       "entry_date_filed_after": window_from, "entry_date_filed_before": today}, limit_pages=3):
+                                       "entry_date_filed_after": order_from, "entry_date_filed_before": today}, limit_pages=3):
             case, kind = base_case(r.get("docketNumber", ""))
             doc = str(r.get("document_number") or r.get("entry_number") or "")
             event = (r.get("short_description") or "").strip()
@@ -744,33 +799,10 @@ def main() -> int:
             new_pending.append({"case": i["case"], "doc": i["doc"], "bracket": i["event"], "title": i["title"],
                                 "when": i["when"].isoformat() if i["when"] else "", "date": date})
 
-    # --- Written opinions (free on PACER)
-    # CourtListener records an entry when the RSS feed shows it (date_created) but marks it free on PACER only when
-    # it reads the court's Written Opinions Report, usually the next morning (date_modified). So the query goes by
-    # date_modified and looks back OPINION_LOOKBACK_DAYS before the window; opinions already on file are skipped.
+    # --- Rows for the written opinions the check above found (dates and docket text from the order search where it read them)
     added_opinions = []
     order_dates = {(o["case"], o["doc"]): o["date"] for o in orders + added_orders}
-    op_since = (dt.date.fromisoformat(window_from) - dt.timedelta(days=OPINION_LOOKBACK_DAYS)).isoformat()
-    docs = list(cl.paged("recap-documents/", {
-        "is_free_on_pacer": "true", "docket_entry__docket__court": "laed",
-        "date_modified__gte": f"{op_since}T00:00:00-05:00", "order_by": "date_modified",
-        "fields": "id,description,document_number,absolute_url,filepath_local,is_available,page_count,date_created"})) if do_search else []
-    missing = set()
-    for r in docs:
-        m = re.search(r"/docket/(\d+)/", r.get("absolute_url", ""))
-        if m and int(m.group(1)) not in docket_info:
-            missing.add(int(m.group(1)))
-    if missing:
-        ids = sorted(missing)
-        for start in range(0, len(ids), 40):
-            chunk = ids[start:start + 40]
-            for d in cl.paged("search/", {"type": "r", "court": "laed",
-                                           "q": "docket_id:(" + " OR ".join(map(str, chunk)) + ")"}, limit_pages=2):
-                case, kind = base_case(d.get("docketNumber", ""))
-                court_info.note_docket(dockets, case, judge_code(d.get("assignedTo")), d, today)
-                docket_info[d.get("docket_id")] = {"case": case, "kind": kind,
-                                                   "judge": judge_code(d.get("assignedTo")),
-                                                   "title": (d.get("caseName") or "")[:70]}
+    from_govinfo = {(o["case"], o["doc"]): o for o in opinions if o.get("src") == "govinfo"}
     for r in docs:
         m = re.search(r"/docket/(\d+)/", r.get("absolute_url", ""))
         info = docket_info.get(int(m.group(1))) if m else None
@@ -778,6 +810,10 @@ def main() -> int:
             continue
         doc = str(r.get("document_number") or "")
         key = (info["case"], doc)
+        desc = (r.get("description") or "").strip()
+        if key in from_govinfo and desc:
+            # Found on GovInfo first; CourtListener's docket event names the motions decided more reliably.
+            from_govinfo.pop(key).update({"event": desc[:160], **opinion_flags(desc), "src": "courtlistener_wo"})
         if not doc or key in opinion_keys:
             continue
         ent = cl_entries.get(key)
@@ -786,7 +822,6 @@ def main() -> int:
         judge = info["judge"] or case_judge.get(info["case"], "")
         if judge and not allowed(judge, date):
             continue
-        desc = (r.get("description") or "").strip()
         row = {"date": date, "judge": judge, "case": info["case"], "doc": doc,
                "title": info["title"], "event": desc[:160], **opinion_flags(desc),
                "src": "courtlistener_wo", **doc_links(r)}
@@ -847,7 +882,29 @@ def main() -> int:
                             "govinfo_text", today)
                 gi_read += 1
 
+        def gi_add(case: str, doc: str, filed: str, text: str, pages: int, link: str, title: str) -> None:
+            """A written opinion found on GovInfo that no other source has supplied yet."""
+            initials = govinfo.case_stamp(text)[1]
+            judge = initials if initials in bench else (case_judge.get(case) or initials)
+            if judge and not allowed(judge, filed):
+                return
+            event = import_written_opinions.event_for(govinfo.describe(text))
+            row = {"date": filed, "judge": judge, "case": case, "doc": doc,
+                   "title": (title or (dockets.get(case) or {}).get("title") or "")[:70], "event": event[:160],
+                   **opinion_flags(event), "src": "govinfo", "pdf": link, **({"pages": pages} if pages else {})}
+            added_opinions.append(row)
+            opinion_keys.add((case, doc))
+            if text:
+                texts.save(case, doc, text, pages, "govinfo", today)
+            if rules_on_motion(row):
+                set_outcome(outcomes, row, classify(text, event, row["r12"], row["r56"], "order") or "unclear", "govinfo_text", today)
+
         gi = govinfo.GovInfo(gi_key, http_get, min(cl.deadline, time.monotonic() + 6 * 60), log)
+        log("looking for new opinions on GovInfo")
+        found = govinfo.discover(gi, gi_cache, opinion_keys, gi_add, now)
+        log(f"GovInfo: {found['packages']} changed cases read, {found['read']} PDFs, {found['added']} new opinions")
+        if found["added"]:
+            note.append(f"{found['added']} new opinions from GovInfo")
         log("reading opinions from GovInfo")
         stats = govinfo.backfill(gi, opinions, gi_needs, gi_cache, gi_apply, today)
         govinfo.save_cache(gi_cache_path, gi_cache)
@@ -870,7 +927,9 @@ def main() -> int:
     except ImportError:
         note.append("Opinion text skipped: pypdf not installed")
 
-    # --- CourtListener addresses for opinions already in the data
+    # --- CourtListener addresses for opinions already in the data. These lookups leave a search's and an opinion
+    # check's worth of the day's calls, or they spend the day down and the opinion checks wait for hours.
+    cl.budget = min(cl.budget, cl.calls + max(0, lim["day"] - day_used - cl.calls - SEARCH_RESERVE - OPINION_RESERVE))
     linked, read = link_opinions(cl, opinions, link_checks, outcomes, today, texts) if cl.token else (0, 0)
     if linked:
         note.append(f"{linked} opinion links added")
@@ -896,6 +955,14 @@ def main() -> int:
     opinions.sort(key=lambda o: (o["date"], o["case"], o["doc"]))
     if complete and now.weekday() < 5 and today not in holidays:
         through_row["date"] = today
+    elif op_ok:
+        # Orders come from the feed on every pass and written opinions from a check that just finished (CourtListener marks
+        # them the morning after filing), so the last working day before today is counted even while the order search is
+        # behind or paused. GovInfo posts days later, so its listing does not move the date.
+        d = now.date() - dt.timedelta(days=1)
+        while d.weekday() >= 5 or d.isoformat() in holidays:
+            d -= dt.timedelta(days=1)
+        through_row["date"] = max(through_row["date"], d.isoformat())
     # Court pages beyond the docket: each section's submission dates (daily), court notices (every six hours), and
     # Fifth Circuit decisions in cases from this court (every pass). Read before the run log is written, so their notes are in it.
     jp = court_info.load_json(DATA / "judge_pages.json", {})
@@ -915,7 +982,7 @@ def main() -> int:
     runs.append({"at": now.isoformat(timespec="minutes"), "from": window_from, "to": today,
                  "orders_added": len(added_orders), "opinions_added": len(added_opinions),
                  "pending": len(new_pending), "ok": not cl.errors and bool(rss or cl.calls),
-                 "cl_calls": cl.calls, "searched": complete,
+                 "cl_calls": cl.calls, "searched": complete, "op_checked": op_ok,
                  **({"cl_paused_until": cl.paused_until.isoformat(timespec="minutes")} if cl.paused_until else {}),
                  "note": "; ".join(note), "pending_items": new_pending})
     runs = runs[-500:]
