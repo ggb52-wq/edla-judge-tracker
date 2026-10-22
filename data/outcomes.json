@@ -5251,6 +5251,7 @@
 {"case":"2:26-cv-00123","doc":"12","outcome":"granted_leave","src":"govinfo_text","at":"2026-10-19"},
 {"case":"2:26-cv-00132","doc":"39","outcome":"granted","src":"docket_text","at":"2026-10-20"},
 {"case":"2:26-cv-00137","doc":"7","outcome":"denied_wop","src":"govinfo_text","at":"2026-10-19"},
+{"case":"2:26-cv-00138","doc":"18","outcome":"moot","src":"govinfo_text","at":"2026-10-22"},
 {"case":"2:26-cv-00147","doc":"27","outcome":"granted","src":"govinfo_text","at":"2026-10-19"},
 {"case":"2:26-cv-00148","doc":"10","outcome":"granted","src":"govinfo_text","at":"2026-10-19"},
 {"case":"2:26-cv-00148","doc":"20","outcome":"granted","src":"govinfo_text","at":"2026-10-19","motion_doc":""},
