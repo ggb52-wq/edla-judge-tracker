@@ -321,11 +321,13 @@ class UpdateTest(unittest.TestCase):
         return json.loads((self.tmp / "data/runs.json").read_text())[-1]
 
     def test_daily_budget_from_run_log(self):
-        # 120 of a free account's 125 daily calls were used 90 minutes ago: 5 remain, too few for a search, so none are spent.
+        # 110 of a free account's 125 daily calls were used 90 minutes ago: 15 remain, 8 of them held back as a margin,
+        # and the 7 left are too few for a search, so none are spent.
         now = update.dt.datetime.now(update.CENTRAL)
         earlier = (now - update.dt.timedelta(minutes=90)).isoformat(timespec="minutes")
-        run = self.run_rate_limited([{"at": earlier, "cl_calls": 120, "note": ""}])
-        self.assertIn("calls left 5 (hour 0/50, day 120/125)", run["note"])
+        run = self.run_rate_limited([{"at": earlier, "cl_calls": 110, "note": ""}])
+        self.assertIn("calls left 7 (hour 0/50, day 110/125)", run["note"])
+        self.assertEqual(update.LIMIT_MARGIN, 8)
         self.assertIn("Saving CourtListener calls", run["note"])
         self.assertEqual(run["cl_calls"], 0)
         self.assertFalse(run["searched"])

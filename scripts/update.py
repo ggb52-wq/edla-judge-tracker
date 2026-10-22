@@ -59,6 +59,8 @@ OPINION_OVERLAP_HOURS = 24  # each check looks back this far before the last com
 OPINION_MAX_DAYS = 14       # and never further back than this
 ORDER_WINDOW_DAYS = 3       # the order search reads at most this many days back; the RSS feed covers the rest
 SEARCH_MAX_CALLS = 40       # one order search never spends more than this, so a bad day cannot eat the whole allowance
+LIMIT_MARGIN = 8            # calls kept back from the hourly and daily limits: CourtListener counts calls this log does not (timeouts, other use),
+                            # and one refused call at the limit locked the account out for 13.8 hours on Oct. 22, 2026
 RUN_SECONDS = 11 * 60   # CourtListener calls stop after this, so the run saves well inside the workflow's 20-minute timeout
 MAX_FAILURES = 5        # consecutive failed lookups before a run gives up on CourtListener for the rest of the run
 RETRY_AFTER_MAX = 60    # longest wait honored on an HTTP 429
@@ -659,7 +661,7 @@ def main() -> int:
     # --- CourtListener budget for this run, from its rate limits and the run log
     lim = limits()
     hour_used, day_used = calls_since(runs, now, 60), calls_since(runs, now, 24 * 60)
-    allowance = max(0, min(lim["hour"] - hour_used, lim["day"] - day_used))
+    allowance = max(0, min(lim["hour"] - hour_used, lim["day"] - day_used) - LIMIT_MARGIN)
     paused = next((run_time({"at": r["cl_paused_until"]}) for r in reversed(runs) if r.get("cl_paused_until")), None)
     if paused and paused > now:
         allowance = 0
