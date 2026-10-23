@@ -184,7 +184,9 @@ class UpdateTest(unittest.TestCase):
         self.assertNotIn("date_created__gte", q)
         self.assertEqual(q["order_by"], ["date_modified"])
         window = next(r for r in json.loads((ROOT / "data/calendar.json").read_text()) if r["kind"] == "through")["date"]
-        self.assertEqual(q["date_modified__gte"][0][:10], (update.dt.date.fromisoformat(window) - update.dt.timedelta(days=update.OPINION_LOOKBACK_DAYS)).isoformat())
+        first = update.dt.date.fromisoformat(window) - update.dt.timedelta(days=update.OPINION_LOOKBACK_DAYS)
+        floor = (update.dt.datetime.now(update.CENTRAL) - update.dt.timedelta(days=update.OPINION_MAX_DAYS)).date()
+        self.assertEqual(q["date_modified__gte"][0][:10], max(first, floor).isoformat())   # never wider than OPINION_MAX_DAYS
         status = json.loads((self.tmp / "data/status.json").read_text())       # the check time the site shows
         self.assertEqual(status["checked"], runs[-1]["at"])
         self.assertEqual((status["rss_items"], status["searched"]), (RSS.count(b"<item>"), runs[-1]["at"]))
@@ -522,6 +524,26 @@ class UpdateTest(unittest.TestCase):
         self.assertIn("No GovInfo key", json.loads((self.tmp / "data/runs.json").read_text())[-1]["note"])
 
 
+    def test_through_moves_on_govinfo_when_courtlistener_opinions_time_out(self):
+        # CourtListener's opinion query times out on every pass: a finished GovInfo listing still moves the date,
+        # two working days back, so opinions found since are not left out of the counts.
+        def gi_get(url, headers=None, timeout=45):
+            if url.startswith("https://api.govinfo.gov/collections/"):
+                return json.dumps({"count": 0, "nextPage": None, "packages": []}).encode()
+            if "is_free_on_pacer" in url or "/search/" in url:   # the order search does not finish either
+                raise TimeoutError("timed out")
+            return fake_get(url, headers, timeout)
+        before = next(r for r in json.loads((self.tmp / "data/calendar.json").read_text()) if r["kind"] == "through")["date"]
+        env = {**ENV, "GOVINFO_API_KEY": "gov-key"}
+        with mock.patch.object(update, "DATA", self.tmp / "data"), mock.patch.object(update, "http_get", gi_get), \
+             mock.patch.object(update.time, "sleep", lambda s: None), mock.patch.dict("os.environ", env):
+            update.main()
+        run = json.loads((self.tmp / "data/runs.json").read_text())[-1]
+        self.assertFalse(run["op_checked"])
+        self.assertIn("opinion check", run["note"])
+        through = next(r for r in json.loads((self.tmp / "data/calendar.json").read_text()) if r["kind"] == "through")["date"]
+        self.assertEqual(through, max(before, update_workday_back(2)))
+
     def test_govinfo_discovery(self):
         # GovInfo lists a changed package with an opinion no other source has: it is added, with judge, type, and outcome.
         today = update.dt.date.today()
@@ -577,6 +599,18 @@ class UpdateTest(unittest.TestCase):
              mock.patch.object(update.time, "sleep", lambda s: None), mock.patch.dict("os.environ", env):
             update.main()
         self.assertEqual(json.loads((self.tmp / "data/runs.json").read_text())[-1]["opinions_added"], 0)
+
+
+def update_workday_back(n):
+    """The working day n back from today (1 = the last one before today), as the updater counts it."""
+    cal = json.loads((ROOT / "data/calendar.json").read_text())
+    holidays = {r["date"] for r in cal if r["kind"] == "holiday"}
+    d = update.dt.datetime.now(update.CENTRAL).date()
+    while n:
+        d -= update.dt.timedelta(days=1)
+        if d.weekday() < 5 and d.isoformat() not in holidays:
+            n -= 1
+    return d.isoformat()
 
 
 def update_prev_workday():

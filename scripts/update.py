@@ -56,7 +56,7 @@ OPINION_LOOKBACK_DAYS = 5   # written opinions are marked free on PACER a day or
 OPINION_CHECK_MINUTES = 180 # how often to ask CourtListener for newly marked written opinions (it marks them each morning)
 OPINION_RESERVE = 4         # calls a written-opinion check needs (the query and a docket lookup or two)
 OPINION_OVERLAP_HOURS = 24  # each check looks back this far before the last complete one
-OPINION_MAX_DAYS = 14       # and never further back than this
+OPINION_MAX_DAYS = 3        # and never further back than this: a wider query timed out on every pass (Oct. 22, 2026), and GovInfo covers a longer gap
 ORDER_WINDOW_DAYS = 3       # the order search reads at most this many days back; the RSS feed covers the rest
 SEARCH_MAX_CALLS = 40       # one order search never spends more than this, so a bad day cannot eat the whole allowance
 LIMIT_MARGIN = 8            # calls kept back from the hourly and daily limits: CourtListener counts calls this log does not (timeouts, other use),
@@ -707,6 +707,7 @@ def main() -> int:
             dt.datetime.combine(dt.date.fromisoformat(window_from) - dt.timedelta(days=OPINION_LOOKBACK_DAYS), dt.time(), CENTRAL)
         start = max(start, floor)
         log(f"checking CourtListener for written opinions marked since {start:%m/%d %H:%M}")
+        t_op = time.monotonic()
         docs = list(cl.paged("recap-documents/", {
             "is_free_on_pacer": "true", "docket_entry__docket__court": "laed",
             "date_modified__gte": start.isoformat(timespec="seconds"), "order_by": "date_modified",
@@ -729,6 +730,7 @@ def main() -> int:
                                                        "title": (d.get("caseName") or "")[:70]}
         # A call refused for want of budget returns nothing without failing, so a spent budget also leaves the check open.
         op_ok = not (cl.failed or cl.out_of_time or cl.throttled or cl.truncated or cl.calls >= cl.budget)
+        note.append(f"opinion check {time.monotonic() - t_op:.0f}s, {len(docs)} documents")
         if not op_ok:
             note.append("Written-opinion check cut short; the next one looks back to the last complete check")
         cl.failed = cl.truncated = False   # the order search below is judged on its own calls
@@ -906,6 +908,7 @@ def main() -> int:
     texts = opinion_text.Store(DATA.parent / "opinions_text")
     gi_key = os.environ.get("GOVINFO_API_KEY")
     gi_pdf = gi_read = 0
+    gi_done = False
     if gi_key:
         try:
             import pypdf  # noqa: F401
@@ -958,6 +961,7 @@ def main() -> int:
         gi = govinfo.GovInfo(gi_key, http_get, min(cl.deadline, time.monotonic() + 6 * 60), log)
         log("looking for new opinions on GovInfo")
         found = govinfo.discover(gi, gi_cache, opinion_keys, gi_add, now)
+        gi_done = found["complete"]
         log(f"GovInfo: {found['packages']} changed cases read, {found['read']} PDFs, {found['added']} new opinions")
         if found["added"]:
             note.append(f"{found['added']} new opinions from GovInfo")
@@ -1011,13 +1015,17 @@ def main() -> int:
     opinions.sort(key=lambda o: (o["date"], o["case"], o["doc"]))
     if complete and now.weekday() < 5 and today not in holidays:
         through_row["date"] = today
-    elif op_ok:
-        # Orders come from the feed on every pass and written opinions from a check that just finished (CourtListener marks
-        # them the morning after filing), so the last working day before today is counted even while the order search is
-        # behind or paused. GovInfo posts days later, so its listing does not move the date.
-        d = now.date() - dt.timedelta(days=1)
-        while d.weekday() >= 5 or d.isoformat() in holidays:
+    elif op_ok or gi_done:
+        # Orders come from the feed on every pass. Written opinions come from a CourtListener check that just finished (it
+        # marks them the morning after filing), which counts the last working day before today, or else from GovInfo, which
+        # posts about a day later, so a finished GovInfo listing counts through two working days back. Without this the date
+        # froze at Oct. 20 while the CourtListener check timed out, and the site left out the opinions found after it.
+        back = 1 if op_ok else 2
+        d = now.date()
+        while back:
             d -= dt.timedelta(days=1)
+            if d.weekday() < 5 and d.isoformat() not in holidays:
+                back -= 1
         through_row["date"] = max(through_row["date"], d.isoformat())
     # Court pages beyond the docket: each section's submission dates (daily), court notices (every six hours), and
     # Fifth Circuit decisions in cases from this court (every pass). Read before the run log is written, so their notes are in it.
