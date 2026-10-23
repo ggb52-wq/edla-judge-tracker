@@ -1026,7 +1026,12 @@ def main() -> int:
             d -= dt.timedelta(days=1)
             if d.weekday() < 5 and d.isoformat() not in holidays:
                 back -= 1
-        through_row["date"] = max(through_row["date"], d.isoformat())
+        counted = d.isoformat()
+        if not op_ok:
+            # An opinion GovInfo has posted shows its day is at least partly in, and hiding found opinions is worse than a
+            # light last day: count through the newest day GovInfo has supplied (before today).
+            counted = max([counted] + [o["date"] for o in opinions if o.get("src") == "govinfo" and o["date"] < today])
+        through_row["date"] = max(through_row["date"], counted)
     # Court pages beyond the docket: each section's submission dates (daily), court notices (every six hours), and
     # Fifth Circuit decisions in cases from this court (every pass). Read before the run log is written, so their notes are in it.
     jp = court_info.load_json(DATA / "judge_pages.json", {})
