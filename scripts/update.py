@@ -246,6 +246,12 @@ def last_opinion_check(runs: list[dict]) -> dt.datetime | None:
     return max((run_time(r) for r in runs if r.get("op_checked") and run_time(r)), default=None)
 
 
+def last_opinion_try(runs: list[dict]) -> dt.datetime | None:
+    """The last opinion check started, finished or not: one that times out is not asked again on the next pass, or it spends a
+    call and 100 seconds every 15 minutes (it did, Oct. 19 to 22, 2026)."""
+    return max((run_time(r) for r in runs if r.get("op_tried") and run_time(r)), default=None)
+
+
 class CourtListener:
     def __init__(self, token: str | None, budget: int = CL_CALL_BUDGET, interval: float = 12.0):
         self.token = token
@@ -680,7 +686,8 @@ def main() -> int:
         # Lookups between searches leave a search's worth of the day's calls, or they use it all and searches wait for hours.
         allowance = max(0, min(allowance, lim["day"] - day_used - SEARCH_RESERVE))
     op_last = last_opinion_check(runs)
-    op_due = op_last is None or now - op_last >= dt.timedelta(minutes=OPINION_CHECK_MINUTES)
+    op_gate = max((t for t in (op_last, last_opinion_try(runs)) if t), default=None)
+    op_due = op_gate is None or now - op_gate >= dt.timedelta(minutes=OPINION_CHECK_MINUTES)
     do_opinions = op_due and allowance >= OPINION_RESERVE
     cl = CourtListener(os.environ.get("COURTLISTENER_TOKEN"), allowance, 60 / max(1, lim["minute"]))
     if not cl.token:
@@ -1051,7 +1058,7 @@ def main() -> int:
     runs.append({"at": now.isoformat(timespec="minutes"), "from": window_from, "to": today,
                  "orders_added": len(added_orders), "opinions_added": len(added_opinions),
                  "pending": len(new_pending), "ok": not cl.errors and bool(rss or cl.calls),
-                 "cl_calls": cl.calls, "searched": complete, "search_tried": do_search, "op_checked": op_ok,
+                 "cl_calls": cl.calls, "searched": complete, "search_tried": do_search, "op_tried": do_opinions, "op_checked": op_ok,
                  **({"cl_paused_until": cl.paused_until.isoformat(timespec="minutes")} if cl.paused_until else {}),
                  "note": "; ".join(note), "pending_items": new_pending})
     runs = runs[-500:]

@@ -281,6 +281,20 @@ class UpdateTest(unittest.TestCase):
         self.assertEqual(run["opinions_added"], 0)
         self.assertTrue(run["searched"])
 
+    def test_failed_opinion_check_waits_for_the_interval(self):
+        # An opinion check that timed out half an hour ago is not asked again until the interval passes.
+        now = update.dt.datetime.now(update.CENTRAL)
+        env = {"COURTLISTENER_PER_MINUTE": "1000", "COURTLISTENER_PER_HOUR": "5000", "COURTLISTENER_PER_DAY": "5000"}
+        OPINION_QUERIES.clear()
+        tried = (now - update.dt.timedelta(minutes=30)).isoformat(timespec="minutes")
+        run = self.run_rate_limited([{"at": tried, "cl_calls": 1, "op_tried": True, "op_checked": False, "note": ""}], env)
+        self.assertEqual(OPINION_QUERIES, [])
+        self.assertFalse(run["op_tried"])
+        old = (now - update.dt.timedelta(hours=4)).isoformat(timespec="minutes")
+        run = self.run_rate_limited([{"at": old, "cl_calls": 1, "op_tried": True, "op_checked": False, "note": ""}], env)
+        self.assertTrue(run["op_tried"])
+        self.assertTrue(OPINION_QUERIES)
+
     def test_opinion_check_looks_back_from_last_check(self):
         # The last complete opinion check was four hours ago: this one asks for opinions marked from a day before it.
         now = update.dt.datetime.now(update.CENTRAL)
