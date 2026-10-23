@@ -72,6 +72,6 @@
 {"kind":"holiday","date":"2027-12-24"},
 {"kind":"opinions_start","date":"2022-01-01"},
 {"kind":"orders_start","date":"2026-09-17"},
-{"kind":"through","date":"2026-10-21"},
+{"kind":"through","date":"2026-10-22"},
 {"kind":"opinions_gap","date":"2025-12-22","to":"2025-12-31"}
 ]
