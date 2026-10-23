@@ -2128,5 +2128,8 @@
 {"date":"2026-10-23","time":"15:20","judge":"ILRL","case":"2:65-cv-15556","doc":"2022","title":"Moore et al v. Tangipahoa Parish School Board et al","event":"Order","src":"rss"},
 {"date":"2026-10-23","time":"15:30","judge":"JCZ","case":"2:24-cv-01607","doc":"159","title":"Gentile v. New Orleans City Park Improvement Association et al","event":"Order","src":"rss"},
 {"date":"2026-10-23","time":"15:32","judge":"GGG","case":"2:25-cv-00331","doc":"51","title":"Marquardt v. New Orleans City et al","event":"Set Hearings","src":"rss"},
-{"date":"2026-10-23","time":"15:38","judge":"GGG","case":"2:25-cv-00725","doc":"53","title":"Bordelon et al v. Jefferson Parish Sheriff's Office et al","event":"Set Hearings","src":"rss"}
+{"date":"2026-10-23","time":"15:38","judge":"GGG","case":"2:25-cv-00725","doc":"53","title":"Bordelon et al v. Jefferson Parish Sheriff's Office et al","event":"Set Hearings","src":"rss"},
+{"date":"2026-10-23","time":"16:30","judge":"BWA","case":"2:26-cv-01824","doc":"8","title":"Pavlov v. General Motors LLC","event":"Order","src":"rss"},
+{"date":"2026-10-23","time":"16:32","judge":"BWA","case":"2:26-cv-02007","doc":"11","title":"Jamhour v. Stonebridge Hospitality Associates, LLC et al","event":"Order","src":"rss"},
+{"date":"2026-10-23","time":"16:33","judge":"BWA","case":"2:26-cv-01821","doc":"12","title":"Moore v. State Farm Mutual Automobile Insurance Company","event":"Order","src":"rss"}
 ]
