@@ -5060,7 +5060,7 @@
 {"case":"2:25-cv-01821","doc":"12","outcome":"denied_wop","src":"docket_text","at":"2026-10-20"},
 {"case":"2:25-cv-01821","doc":"26","outcome":"denied_wop","src":"govinfo_text","at":"2026-10-19"},
 {"case":"2:25-cv-01821","doc":"37","outcome":"denied","src":"govinfo_text","at":"2026-10-19","motion_doc":"32","motion_filed":"2026-09-03"},
-{"case":"2:25-cv-01825","doc":"37","outcome":"denied","src":"govinfo_text","at":"2026-10-19"},
+{"case":"2:25-cv-01825","doc":"37","outcome":"denied","src":"govinfo_text","at":"2026-10-19","motion_doc":"29"},
 {"case":"2:25-cv-01826","doc":"25","outcome":"partial","src":"docket_text","at":"2026-10-20"},
 {"case":"2:25-cv-01845","doc":"13","outcome":"granted","src":"govinfo_text","at":"2026-10-19"},
 {"case":"2:25-cv-01849","doc":"14","outcome":"granted","src":"govinfo_text","at":"2026-10-19"},
