@@ -13,7 +13,7 @@ from unittest import mock
 ROOT = Path(__file__).resolve().parent.parent
 # Generous limits so the recorded-response tests exercise the whole run; the rate-limit tests set their own.
 ENV = {"COURTLISTENER_TOKEN": "x", "COURTLISTENER_PER_MINUTE": "1000", "COURTLISTENER_PER_HOUR": "5000",
-       "COURTLISTENER_PER_DAY": "5000", "COURTLISTENER_SEARCH_MINUTES": "0"}
+       "COURTLISTENER_PER_DAY": "5000", "COURTLISTENER_SEARCH_MINUTES": "0", "COURTLISTENER_OPINION_CHECK": "1"}
 sys.path.insert(0, str(ROOT / "scripts"))
 import update  # noqa: E402
 
@@ -281,6 +281,21 @@ class UpdateTest(unittest.TestCase):
         self.assertEqual(run["opinions_added"], 0)
         self.assertTrue(run["searched"])
 
+    def test_opinion_check_is_off_by_default(self):
+        # The CourtListener written-opinion query timed out on every attempt, so it runs only when a variable turns it on.
+        OPINION_QUERIES.clear()
+        env = {k: v for k, v in ENV.items() if k != "COURTLISTENER_OPINION_CHECK"}
+        with mock.patch.object(update, "DATA", self.tmp / "data"), mock.patch.object(update, "http_get", fake_get), \
+             mock.patch.object(update.time, "sleep", lambda s: None), mock.patch.dict("os.environ", env):
+            os_env = __import__("os").environ
+            os_env.pop("COURTLISTENER_OPINION_CHECK", None)
+            update.main()
+        run = json.loads((self.tmp / "data/runs.json").read_text())[-1]
+        self.assertEqual(OPINION_QUERIES, [])
+        self.assertFalse(run["op_tried"])
+        self.assertFalse(run["op_checked"])
+        self.assertTrue(run["searched"])                                     # the order search is unaffected
+
     def test_failed_opinion_check_waits_for_the_interval(self):
         # An opinion check that timed out half an hour ago is not asked again until the interval passes.
         now = update.dt.datetime.now(update.CENTRAL)
@@ -328,7 +343,7 @@ class UpdateTest(unittest.TestCase):
         (self.tmp / "data/runs.json").write_text(json.dumps(runs))
         with mock.patch.object(update, "DATA", self.tmp / "data"), mock.patch.object(update, "http_get", fake_get), \
              mock.patch.object(update.time, "sleep", lambda s: None), \
-             mock.patch.dict("os.environ", {"COURTLISTENER_TOKEN": "x", **(env or {})}, clear=False):
+             mock.patch.dict("os.environ", {"COURTLISTENER_TOKEN": "x", "COURTLISTENER_OPINION_CHECK": "1", **(env or {})}, clear=False):
             for k in ("COURTLISTENER_PER_MINUTE", "COURTLISTENER_PER_HOUR", "COURTLISTENER_PER_DAY", "COURTLISTENER_SEARCH_MINUTES"):
                 if not (env or {}).get(k):
                     import os

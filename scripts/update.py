@@ -205,7 +205,9 @@ def limits() -> dict:
     125 a day); a membership raises them, and the workflow passes the new numbers as repository variables."""
     env = lambda k, d: int(os.environ.get(k) or d)  # noqa: E731
     return {"minute": env("COURTLISTENER_PER_MINUTE", 5), "hour": env("COURTLISTENER_PER_HOUR", 50),
-            "day": env("COURTLISTENER_PER_DAY", 125), "search_minutes": env("COURTLISTENER_SEARCH_MINUTES", 720)}
+            "day": env("COURTLISTENER_PER_DAY", 125), "search_minutes": env("COURTLISTENER_SEARCH_MINUTES", 720),
+            # Off unless a repository variable turns it on: the query timed out on every attempt (CLAUDE.md, scripts/update.py: written-opinion check).
+            "opinion_check": os.environ.get("COURTLISTENER_OPINION_CHECK", "").lower() in ("1", "true", "yes", "on")}
 
 
 def run_time(r: dict) -> dt.datetime | None:
@@ -688,7 +690,7 @@ def main() -> int:
     op_last = last_opinion_check(runs)
     op_gate = max((t for t in (op_last, last_opinion_try(runs)) if t), default=None)
     op_due = op_gate is None or now - op_gate >= dt.timedelta(minutes=OPINION_CHECK_MINUTES)
-    do_opinions = op_due and allowance >= OPINION_RESERVE
+    do_opinions = lim["opinion_check"] and op_due and allowance >= OPINION_RESERVE
     cl = CourtListener(os.environ.get("COURTLISTENER_TOKEN"), allowance, 60 / max(1, lim["minute"]))
     if not cl.token:
         note.append("No CourtListener token; RSS only")
@@ -741,7 +743,7 @@ def main() -> int:
         if not op_ok:
             note.append("Written-opinion check cut short; the next one looks back to the last complete check")
         cl.failed = cl.truncated = False   # the order search below is judged on its own calls
-    elif op_due and cl.token:
+    elif lim["opinion_check"] and op_due and cl.token:
         note.append("Too few CourtListener calls for the written-opinion check")
 
     log("searching CourtListener for new entries" if do_search else "skipping the CourtListener search this run")
