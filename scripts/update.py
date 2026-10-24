@@ -685,8 +685,9 @@ def main() -> int:
     elif not search_due and tried:
         note.append(f"Next CourtListener search after {tried + dt.timedelta(minutes=lim['search_minutes']):%H:%M}")
     if not search_due:
-        # Lookups between searches leave a search's worth of the day's calls, or they use it all and searches wait for hours.
-        allowance = max(0, min(allowance, lim["day"] - day_used - SEARCH_RESERVE))
+        # Lookups between searches leave a search's worth of the day's calls above the margin, or they use it all and searches
+        # wait for hours (reserved against the bare limit, they left 109 of 125 used and no search for 12 hours, Oct. 24, 2026).
+        allowance = max(0, min(allowance, lim["day"] - day_used - LIMIT_MARGIN - SEARCH_RESERVE))
     op_last = last_opinion_check(runs)
     op_gate = max((t for t in (op_last, last_opinion_try(runs)) if t), default=None)
     op_due = op_gate is None or now - op_gate >= dt.timedelta(minutes=OPINION_CHECK_MINUTES)
@@ -998,7 +999,7 @@ def main() -> int:
 
     # --- CourtListener addresses for opinions already in the data. These lookups leave a search's and an opinion
     # check's worth of the day's calls, or they spend the day down and the opinion checks wait for hours.
-    cl.budget = min(cl.budget, cl.calls + max(0, lim["day"] - day_used - cl.calls - SEARCH_RESERVE - OPINION_RESERVE))
+    cl.budget = min(cl.budget, cl.calls + max(0, lim["day"] - day_used - cl.calls - LIMIT_MARGIN - SEARCH_RESERVE - OPINION_RESERVE))
     linked, read = link_opinions(cl, opinions, link_checks, outcomes, today, texts) if cl.token else (0, 0)
     if linked:
         note.append(f"{linked} opinion links added")

@@ -437,12 +437,13 @@ class UpdateTest(unittest.TestCase):
         self.assertIn("Search used every call it had", run["note"])
 
     def test_lookups_leave_a_search(self):
-        # Free account, 110 of 125 daily calls used, no search due: lookups get 3 and leave 12 for the next search.
+        # Free account, 100 of 125 daily calls used, no search due: lookups leave the next search its 12 calls above the
+        # LIMIT_MARGIN. Reserving the 12 against the bare limit left 109 used and no search for 12 hours (Oct. 24, 2026).
         now = update.dt.datetime.now(update.CENTRAL)
-        run = self.run_rate_limited([{"at": (now - update.dt.timedelta(minutes=70)).isoformat(timespec="minutes"), "cl_calls": 110,
+        run = self.run_rate_limited([{"at": (now - update.dt.timedelta(minutes=70)).isoformat(timespec="minutes"), "cl_calls": 100,
                                       "searched": True, "note": ""}], {"COURTLISTENER_SEARCH_MINUTES": "180"})
         self.assertFalse(run["searched"])
-        self.assertLessEqual(run["cl_calls"], 125 - 110 - update.SEARCH_RESERVE)
+        self.assertLessEqual(run["cl_calls"], 125 - 100 - update.LIMIT_MARGIN - update.SEARCH_RESERVE)
 
     def test_feed(self):
         # Every civil RSS entry is kept for the Activity page, newest first, once each, for FEED_DAYS days.

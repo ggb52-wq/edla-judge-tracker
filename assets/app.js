@@ -2090,7 +2090,7 @@
       parties.length ? el('div', { className: 'cn-group' }, el('b', { textContent: 'Parties' }), el('span', { textContent: parties.join(' · ') })) : null,
       att.length ? el('div', { className: 'cn-group' }, el('b', { textContent: 'Attorneys' }), el('span', { textContent: att.join(' · ') })) : null,
       firms.length ? el('div', { className: 'cn-group' }, el('b', { textContent: 'Firms' }), el('span', { textContent: firms.join(' · ') })) : null,
-      el('p', { className: 'foot-note', textContent: 'From CourtListener' + (K.seen ? ', ' + fmtDate(K.seen) : '') + '. Attorneys are not matched to parties.' })]
+      el('p', { className: 'foot-note', textContent: 'From CourtListener' + (K.seen ? ', ' + fmtDate(K.seen) : '') + '. Attorneys are not matched to parties.' })].filter(Boolean)
       : [el('p', { className: 'dim', textContent: K.case ? 'CourtListener lists no counsel for this case.' : 'Not read from CourtListener yet.' })]));
     $('c-cl2').href = K.docket_id ? CL + 'docket/' + K.docket_id + '/' : clCase(id); $('c-cl2').textContent = 'CourtListener ↗';
     const ap = appealsOf(id);
