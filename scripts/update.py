@@ -37,6 +37,7 @@ import court_info
 import hearings
 import import_written_opinions
 import opinion_text
+import trade_secrets
 from outcome_text import classify, motion_doc
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -814,12 +815,15 @@ def main() -> int:
         motion_keys.add(key)
         added_motions += 1
     # Submission dates and motions the feed missed, from CourtListener's docket text (one or two calls per search).
+    docket_texts: list[dict] = []  # docket text read this pass, for the trade secret and noncompete finder
     if do_search:
         for r in cl.paged("search/", {"type": "rd", "court": "laed", "q": 'short_description:motion OR description:"submitted on"',
                                        "entry_date_filed_after": order_from, "entry_date_filed_before": today}, limit_pages=3):
             case, kind = base_case(r.get("docketNumber", ""))
             doc = str(r.get("document_number") or r.get("entry_number") or "")
             event = (r.get("short_description") or "").strip()
+            if kind == "cv" and doc:
+                docket_texts.append({"case": case, "doc": doc, "date": r.get("entry_date_filed") or "", "text": r.get("description") or ""})
             if kind != "cv" or not doc or not is_motion_event(event):
                 continue
             judge = judge_code(r.get("assignedTo")) or case_judge.get(case, "")
@@ -836,6 +840,14 @@ def main() -> int:
                 m["submit"] = submission_date(r.get("description") or "")
     capped = do_search and cl.calls >= cl.budget and cl.budget == search_cap
     cl.budget = pre_search_budget
+    # Trade secret and noncompete claims named in docket text or the nature of suit, in cases filed in the last few months
+    # (one or two calls, with each order search).
+    ts_results: list[dict] = []
+    if do_search:
+        ts_results = list(cl.paged("search/", trade_secrets.query_params(now.date()), limit_pages=2))
+        for d in ts_results:
+            case, kind = base_case(d.get("docketNumber", ""))
+            court_info.note_docket(dockets, case, judge_code(d.get("assignedTo")), d, today)
     for m in motions:  # judges learned since the motion was seen
         if not m.get("judge") and case_judge.get(m["case"]):
             m["judge"] = case_judge[m["case"]]
@@ -1056,6 +1068,23 @@ def main() -> int:
     # The calendar too, before the run log is written, so its notes ("court calendar N proceedings ...") are in it.
     hearing_rows = update_hearings(load("hearings") if (DATA / "hearings.json").exists() else [], cl_entries, case_judge,
                                    judges, orders + opinions + motions, now, note)
+    # Trade secret and noncompete cases, from the docket details, docket text, motions, and opinion text on file.
+    feed_rows = [{"case": i["case"], "doc": i["doc"], "event": i["event"], "title": i["title"],
+                  "date": i["when"].date().isoformat() if i["when"] else today} for i in rss_civil + saved_feed if i.get("case")]
+    ts_store = trade_secrets.Store(court_info.load_json(DATA / "trade_secrets.json", {}), today)
+    ts_found = trade_secrets.read_results(ts_store, ts_results, base_case)
+    titles = {r["case"]: r.get("title", "") for r in orders + opinions + motions + feed_rows if r.get("title")}
+    trade_secrets.update(ts_store, dockets=dockets, case_judge=case_judge, titles=titles, now=now,
+                         entries=[{"case": e["case"], "doc": e["doc"], "date": e["date"], "text": " ".join(e["events"]) + " " + (e.get("text") or "")}
+                                  for e in cl_entries.values() if e["kind"] == "cv"] + docket_texts,
+                         events=[{"case": r["case"], "doc": r["doc"], "date": r.get("date", ""), "event": r["event"]}
+                                 for r in motions + feed_rows + orders],
+                         text_index=texts.index, text_dir=texts.root,
+                         opinion_dates={f"{o['case']}|{o['doc']}": o["date"] for o in opinions})
+    if do_search:
+        note.append(f"Trade secret search {len(ts_results)} cases, {ts_found} with new signals")
+    if ts_store.added and not ts_store.initial:
+        note.append(f"{ts_store.added} trade secret or noncompete cases added")
     note.append(f"RSS {len(rss)} items ({len(rss_civil)} civil); CourtListener {cl.calls} calls")
     note.extend(sorted(set(cl.errors)))
     runs.append({"at": now.isoformat(timespec="minutes"), "from": window_from, "to": today,
@@ -1082,6 +1111,7 @@ def main() -> int:
     save("hearings", hearing_rows)
     texts.write_index()
     court_info.save_json(DATA / "dockets.json", sorted(dockets.values(), key=lambda r: r["case"]))
+    trade_secrets.save(DATA, ts_store, now)
     (DATA / "link_checks.json").write_text(json.dumps(dict(sorted(link_checks.items())), indent=0) + "\n")
     # Rewritten on every pass, so the site can show when the feed was last checked even when nothing new came in.
     paused_until = cl.paused_until or (paused if paused and paused > now else None)

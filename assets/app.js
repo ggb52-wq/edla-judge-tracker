@@ -80,15 +80,15 @@
   const recordLink = (o) => REPO + '/issues/new?template=outcome.yml&title=' + encodeURIComponent('Outcome: ' + o.case + ' doc ' + o.doc)
     + '&case=' + encodeURIComponent(o.case) + '&doc=' + encodeURIComponent(o.doc);
 
-  const PAGES = ['judges', 'judge', 'compare', 'cases', 'case', 'notices', 'activity', 'calendar', 'opinions', 'motions', 'rules', 'court', 'log'];
-  const NAV = { judges: 'judges', judge: 'judges', compare: 'judges', cases: 'cases', case: 'cases', notices: '', activity: 'activity', calendar: 'calendar', opinions: 'opinions', motions: 'motions', rules: 'rules', court: 'court', log: '' };
+  const PAGES = ['judges', 'judge', 'compare', 'cases', 'case', 'notices', 'activity', 'calendar', 'opinions', 'motions', 'rules', 'tradesecrets', 'court', 'log'];
+  const NAV = { judges: 'judges', judge: 'judges', compare: 'judges', cases: 'cases', case: 'cases', notices: '', activity: 'activity', calendar: 'calendar', opinions: 'opinions', motions: 'motions', rules: 'rules', tradesecrets: 'tradesecrets', court: 'court', log: '' };
   const VIEWS = [['orders', 'Civil orders'], ['opinions', 'Written opinions'], ['outcomes', 'Motion outcomes'], ['weekdays', 'Weekdays'], ['hours', 'Time of day']];
   // Addresses from the earlier, tabbed layout still open the matching page.
   const LEGACY = { overview: ['judges'], orders: ['court', 'orders'], outcomes: ['court', 'outcomes'], finder: ['opinions'] };
   const emptyFinder = () => ({ q: '', judge: '', type: '', oc: '', pdf: false, month: '' });
   const state = { page: 'judges', judge: '', cmp: [], vs: [], view: 'orders', period: '', f: emptyFinder(), limit: 100,
     mt: { view: 'past', q: '', judge: '', limit: 100 }, jf: { q: '', type: '', judge: '' }, ocGroup: 'r12', hoursJudge: '', sorts: {},
-    rtab: '', rq: '', act: { q: '', judge: '', kind: '', days: '7', limit: 300 }, cal: { week: '', judge: '', view: '', subs: false }, editor: false, data: null, stats: null, cases: [], pages: {} };
+    rtab: '', rq: '', act: { q: '', judge: '', kind: '', days: '7', limit: 300 }, cal: { week: '', judge: '', view: '', subs: false }, ts: { q: '', judge: '', level: '' }, editor: false, data: null, stats: null, cases: [], pages: {} };
   const editorParam = new URLSearchParams(location.search).get('editor');
   if (editorParam === '1' || editorParam === '0') store.set('edla-editor', editorParam);
   state.editor = store.get('edla-editor') === '1';
@@ -319,6 +319,7 @@
       f.oc = p.get('oc') || ''; f.pdf = p.get('pdf') === '1'; f.month = /^\d{4}-\d{2}$/.test(p.get('month') || '') ? p.get('month') : '';
       state.f = f;
     }
+    if (page === 'tradesecrets') state.ts = { q: p.get('q') || '', judge: judgeCode(p.get('judge')), level: p.get('show') === 'likely' ? 'likely' : '' };
     if (page === 'motions') { state.mt.judge = judgeCode(p.get('judge')); state.mt.view = ['past', 'pending', 'all'].includes(p.get('view')) ? p.get('view') : 'past'; }
   }
   function hashFor(page, o = {}) {
@@ -331,11 +332,12 @@
     if (page === 'compare' && o.cmp && o.cmp.length) path += '/' + o.cmp.join(',');
     if (page === 'court') path += '/' + (o.view || 'orders');
     if (page === 'opinions' && o.f) { const f = o.f; if (f.q) p.set('q', f.q); if (f.judge) p.set('judge', f.judge); if (f.type) p.set('type', f.type); if (f.oc) p.set('oc', f.oc); if (f.pdf) p.set('pdf', '1'); if (f.month) p.set('month', f.month); }
+    if (page === 'tradesecrets' && o.ts) { if (o.ts.q) p.set('q', o.ts.q); if (o.ts.judge) p.set('judge', o.ts.judge); if (o.ts.level) p.set('show', o.ts.level); }
     if (page === 'motions' && o.mt) { if (o.mt.judge) p.set('judge', o.mt.judge); if (o.mt.view && o.mt.view !== 'past') p.set('view', o.mt.view); }
     if (state.period) p.set('period', state.period);
     return '#' + path + (p.toString() ? '?' + p : '');
   }
-  const currentHash = () => hashFor(state.page, { caseId: state.caseId, judge: state.judge, cmp: state.cmp, view: state.view, f: state.f, mt: state.mt, q: state.rq, act: state.act, cal: state.cal,
+  const currentHash = () => hashFor(state.page, { caseId: state.caseId, judge: state.judge, cmp: state.cmp, view: state.view, f: state.f, mt: state.mt, q: state.rq, act: state.act, cal: state.cal, ts: state.ts,
     tab: state.page === 'judge' && (state.pages[state.judge] || { sections: [] }).sections.some((x) => slug(x.title) === state.rtab) ? state.rtab : '' });
   const slug = (t) => String(t).toLowerCase().replace(/&/g, 'and').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
   const judgeHref = (code) => hashFor('judge', { judge: code });
@@ -1384,6 +1386,37 @@
     if (S.motions.length) drawTable('mj-table');
   }
 
+  // ------------------------------------------------------------ page: trade secrets and noncompetes
+  // data/trade_secrets.json, written by the updater (scripts/trade_secrets.py): civil cases with a trade-secret or
+  // noncompete signal. Each case is listed with what flagged it; nothing here is totaled by judge.
+  const tsCases = () => ((state.data.trade_secrets || {}).cases || []);
+  const tsSignal = (s) => s.what + (s.doc ? ' (doc ' + s.doc + ')' : '') + (s.date ? ', ' + (s.date.slice(0, 4) === todayIso().slice(0, 4) ? fmtShort : fmtDate)(s.date) : '');
+  // New: first seen within a week, and not one of the cases found when the finder first read the data on file.
+  const tsNew = (r) => !r.initial && r.first_seen >= addDays(todayIso(), -7);
+  function tsRows() {
+    const T = state.ts; const q = T.q.trim().toLowerCase(); const S = state.stats;
+    return tsCases().filter((r) => (!T.judge || r.judge === T.judge) && (!T.level || r.level === T.level)
+      && (!q || [r.case, r.title, r.nos, r.cause, S.names[r.judge], ...r.signals.map((x) => x.what)].join(' ').toLowerCase().includes(q)));
+  }
+  function renderTradeSecrets() {
+    document.title = 'Trade secrets and noncompetes · EDLA Analyzer';
+    const T = state.ts; const S = state.stats;
+    const js = $('ts-judge'); if (js.options.length < 2) js.append(new Option('All judges', ''), ...judgesAlpha().map((j) => new Option(j.name, j.code)));
+    js.value = T.judge; $('ts-level').value = T.level; if ($('ts-q').value !== T.q) $('ts-q').value = T.q;
+    const rows = tsRows();
+    const head = el('thead', {}, el('tr', {}, ...['Case', 'Name', 'Judge', 'Filed', 'Found by'].map((h) => el('th', { textContent: h }))));
+    const body = el('tbody', {}, ...(rows.length ? rows.map((r) => el('tr', {},
+      el('td', { className: 'txt' }, caseNumLink(r.case, '', 'case'), tsNew(r) ? el('span', { className: 'badge', textContent: 'New' }) : null),
+      el('td', { className: 'ev' }, r.title || '', r.level === 'possible' ? el('span', { className: 'dim', textContent: ' · possible' }) : null),
+      el('td', { className: 'txt' }, S.names[r.judge] || r.judge || '—'),
+      el('td', { className: 'txt', textContent: r.filed ? fmtDate(r.filed) : '—' }),
+      el('td', { className: 'wrap' }, ...r.signals.map((x) => el('div', { textContent: tsSignal(x) })))))
+      : [el('tr', {}, el('td', { className: 'txt dim', colSpan: 5, textContent: tsCases().length ? 'No matches.' : 'None found yet. The updater reads the data on file on its next pass.' }))]));
+    const table = el('table', { className: 't', id: 'ts-table' }, head, body);
+    $('ts-table').replaceWith(table);
+    $('ts-count').textContent = plural(rows.length, 'case');
+  }
+
   // ------------------------------------------------------------ page: court
   const finderCount = (preset) => (r) => findHref({ judge: r.code, ...preset });
   TABLES['t-orders'] = { rows: () => state.stats.orders, sort: { k: 'name', dir: 1 }, foot: [sumFoot, medFoot], cols: [
@@ -2082,6 +2115,10 @@
       K.jury ? 'Jury demand: ' + K.jury : '', K.filed ? 'Filed ' + fmtDate(K.filed) : '', K.terminated ? 'Terminated ' + fmtDate(K.terminated) : ''].filter(Boolean);
     $('c-facts').textContent = facts.join(' · ');
     $('c-facts').hidden = !facts.length;
+    const tsr = tsCases().find((r) => r.case === id);
+    $('c-ts').hidden = !tsr;
+    $('c-ts').replaceChildren(...(tsr ? [el('a', { href: hashFor('tradesecrets', { ts: { q: id, judge: '', level: '' } }), textContent: (tsr.level === 'possible' ? 'Possible trade secret or noncompete case' : 'Trade secret or noncompete case') }),
+      ': ' + tsr.signals.map(tsSignal).join(' · ')] : []));
     const moved = (K.reassigned || []).filter((x) => S.names[x.from] || S.names[x.to]);
     $('c-reassigned').hidden = !moved.length;
     $('c-reassigned').textContent = moved.map((x) => 'Reassigned from Judge ' + (S.names[x.from] || x.from) + ' to Judge ' + (S.names[x.to] || x.to) + ' (seen ' + fmtDate(x.date) + ')').join(' · ');
@@ -2349,6 +2386,10 @@
       return [['Date', 'Time', 'Type', 'Event', 'Case', 'Doc', 'Case name', 'Judge'],
         ...actFilter(activity()).filter((r) => !state.act.kind || r.kind === state.act.kind).map((r) => [r.date, r.time, ACT_LABEL[r.kind], cleanEvent(r.event), r.case, r.doc, r.title, S.names[r.judge] || r.judge])];
     }
+    if (which === 'ts') {
+      return [['Case', 'Case name', 'Judge', 'Filed', 'First seen', 'Level', 'Nature of suit', 'Signals'],
+        ...tsRows().map((r) => [r.case, r.title || '', S.names[r.judge] || r.judge || '', r.filed || '', r.first_seen, r.level, r.nos || '', r.signals.map(tsSignal).join('; ')])];
+    }
     if (which === 'mt') {
       return [['Judge', 'Case', 'Doc', 'Motion', 'Filed', 'Submission date', 'Days past submission', 'Ruling found', 'Case name'],
         ...motionRows().map((m) => [S.names[m.judge] || '', m.case, m.doc, m.event, m.date, m.submit, m.daysPast == null ? '' : m.daysPast, m.ruled, m.title])];
@@ -2362,7 +2403,7 @@
     // Case names and docket text come from whoever files: a value a spreadsheet would read as a formula is kept as text.
     const cell = (v) => { let s = v == null ? '' : String(v); if (typeof v === 'string' && /^[=+\-@\t\r]/.test(s)) s = "'" + s; return /[",\n\r]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s; };
     const text = csvRows(which).map((row) => row.map(cell).join(',')).join('\n');
-    const name = which === 'op' ? 'opinions' : which === 'cal' ? 'calendar' : which === 'act' ? 'activity' : which === 'mt' ? 'motions' : which === 'mj' ? 'motions-by-judge' : 'court-' + state.view;
+    const name = which === 'op' ? 'opinions' : which === 'cal' ? 'calendar' : which === 'act' ? 'activity' : which === 'mt' ? 'motions' : which === 'ts' ? 'trade-secrets' : which === 'mj' ? 'motions-by-judge' : 'court-' + state.view;
     const a = el('a', { href: URL.createObjectURL(new Blob([text + '\n'], { type: 'text/csv' })), download: `edla-${name}-${state.stats.through}.csv` });
     document.body.append(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 1000);
   }
@@ -2430,7 +2471,7 @@
   }
 
   // ------------------------------------------------------------ render
-  const RENDER = { judges: renderJudges, judge: renderJudge, compare: renderCompare, cases: renderCases, case: renderCase, notices: renderNotices, activity: renderActivity, calendar: renderCalendar, opinions: renderOpinions, motions: renderMotions, rules: renderRules, court: renderCourt, log: renderLog };
+  const RENDER = { judges: renderJudges, judge: renderJudge, compare: renderCompare, cases: renderCases, case: renderCase, notices: renderNotices, activity: renderActivity, calendar: renderCalendar, opinions: renderOpinions, motions: renderMotions, rules: renderRules, tradesecrets: renderTradeSecrets, court: renderCourt, log: renderLog };
   function render() {
     const S = state.stats;
     if (state.page === 'judge' && !S.names[state.judge]) state.page = 'judges';
@@ -2457,8 +2498,8 @@
   }
 
   async function load() {
-    const names = ['opinions', 'orders', 'judges', 'calendar', 'runs', 'outcomes', 'motions', 'judge_pages', 'feed', 'hearings', 'status', 'dockets', 'notices', 'submission_dates', 'appeals', 'case_activity'];
-    const OPTIONAL = { outcomes: [], motions: [], feed: [], hearings: [], dockets: [], judge_pages: { judges: [] }, status: {}, notices: {}, submission_dates: {}, appeals: {}, case_activity: {} };
+    const names = ['opinions', 'orders', 'judges', 'calendar', 'runs', 'outcomes', 'motions', 'judge_pages', 'feed', 'hearings', 'status', 'dockets', 'notices', 'submission_dates', 'appeals', 'case_activity', 'trade_secrets'];
+    const OPTIONAL = { outcomes: [], motions: [], feed: [], hearings: [], dockets: [], judge_pages: { judges: [] }, status: {}, notices: {}, submission_dates: {}, appeals: {}, case_activity: {}, trade_secrets: { cases: [] } };
     $('status').textContent = 'Loading the docket data…';
     try {
       const files = await Promise.all(names.map((n) => fetch('data/' + n + '.json', { cache: 'no-cache' })
@@ -2511,6 +2552,10 @@
   $('op-outcome').addEventListener('change', (e) => refind({ oc: e.target.value }));
   $('op-pdf').addEventListener('change', (e) => refind({ pdf: e.target.checked }));
   $('op-more').addEventListener('click', () => { state.limit += 200; renderOpinions(); });
+  const rets = (patch) => { Object.assign(state.ts, patch); if (state.stats) { renderTradeSecrets(); writeHash(); } };
+  $('ts-level').addEventListener('change', (e) => rets({ level: e.target.value }));
+  $('ts-judge').addEventListener('change', (e) => rets({ judge: e.target.value }));
+  $('ts-q').addEventListener('input', (e) => rets({ q: e.target.value }));
   const remotion = (patch) => { Object.assign(state.mt, patch, { limit: 100 }); if (state.stats) { renderMotions(); writeHash(); } };
   $('mt-view').addEventListener('change', (e) => remotion({ view: e.target.value }));
   $('mt-judge').addEventListener('change', (e) => remotion({ judge: e.target.value }));
@@ -2532,7 +2577,7 @@
   // minutes behind at most), because GitHub Pages can take 15 minutes or more to publish a data commit; if that address
   // fails, the site's own copy is used.
   const RAW = /\.github\.io$/.test(location.hostname) ? 'https://raw.githubusercontent.com/ggb52-wq/edla-judge-tracker/main/data/' : '';
-  const LIVE_FILES = ['opinions', 'orders', 'calendar', 'outcomes', 'motions', 'feed', 'hearings', 'dockets', 'notices', 'submission_dates', 'appeals', 'case_activity'];
+  const LIVE_FILES = ['opinions', 'orders', 'calendar', 'outcomes', 'motions', 'feed', 'hearings', 'dockets', 'notices', 'submission_dates', 'appeals', 'case_activity', 'trade_secrets'];
   // v, the check time, makes each read after a new check a fresh address, so no cached copy from before it is served.
   const getJson = (base, n, v) => fetch(base + n + '.json' + (v ? '?v=' + encodeURIComponent(v) : ''), { cache: 'no-cache' })
     .then((r) => (r.ok ? r.json() : null)).catch(() => null);
@@ -2552,7 +2597,7 @@
       const fresh = runs && latestRun(runs) > latestRun(state.data.runs);
       if (fresh) {
         const files = await Promise.all(LIVE_FILES.map((n) => getJson(base, n, st.checked)));
-        if (files.some((f, i) => !f && !['dockets', 'notices', 'submission_dates', 'appeals', 'case_activity'].includes(LIVE_FILES[i]))) return;  // a partial read could mix two updates; try again next time
+        if (files.some((f, i) => !f && !['dockets', 'notices', 'submission_dates', 'appeals', 'case_activity', 'trade_secrets'].includes(LIVE_FILES[i]))) return;  // a partial read could mix two updates; try again next time
         LIVE_FILES.forEach((n, i) => { if (files[i]) state.data[n] = files[i]; });
         state.data.runs = runs;
         state.cases = buildCases(state.data);

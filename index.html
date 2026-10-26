@@ -25,6 +25,7 @@
       <a href="#opinions" data-nav="opinions">Opinions</a>
       <a href="#motions" data-nav="motions">Motions</a>
       <a href="#rules" data-nav="rules">Requirements</a>
+      <a href="#tradesecrets" data-nav="tradesecrets">Trade secrets</a>
       <a href="#court" data-nav="court">Court</a>
     </nav>
     <div class="omni" id="omni-top">
@@ -258,6 +259,7 @@
         <div class="jtitle"><h1 id="c-title">Case</h1><span class="code" id="c-num"></span></div>
         <p class="fullname" id="c-judge"></p>
         <p class="meta" id="c-facts" hidden></p>
+        <p class="meta" id="c-ts" hidden></p>
         <p class="meta" id="c-reassigned" hidden></p>
       </div>
       <div class="actions">
@@ -411,6 +413,29 @@
   </section>
 
   <!-- ============================================================ Motions -->
+  <section class="page" id="page-tradesecrets" aria-labelledby="h-ts" hidden>
+    <div class="jhead">
+      <div>
+        <h1 id="h-ts">Trade secrets and noncompetes</h1>
+        <p class="sub">Civil cases whose nature of suit, docket text, or written opinions name a trade-secret or noncompete claim, newest first. <a href="methodology.html#trade-secrets">How we find them</a></p>
+      </div>
+      <div class="actions"><a class="btn" id="ts-feed" href="data/trade_secrets.xml" title="Subscribe in a feed reader or Outlook to hear of new cases">Feed</a><button type="button" class="btn" data-csv="ts">Export CSV</button></div>
+    </div>
+    <div class="filters">
+      <label>Show<select id="ts-level"><option value="">Likely and possible</option><option value="likely">Likely only</option></select></label>
+      <label>Judge<select id="ts-judge"></select></label>
+      <label class="grow">Search<input id="ts-q" type="search" placeholder="Party, case number, or claim" autocomplete="off"></label>
+    </div>
+    <section class="panel">
+      <div class="ph"><h2>Cases</h2><span class="count" id="ts-count"></span></div>
+      <div class="scroll tall"><table class="t" id="ts-table"></table></div>
+    </section>
+    <details class="explain">
+      <summary>Likely and possible</summary>
+      <p>Likely: the nature of suit or cause is the Defend Trade Secrets Act, or docket text or a written opinion names a trade-secret statute, La. R.S. 23:921, or a noncompete or non-solicitation agreement. Possible: a motion for a TRO, preliminary injunction, or expedited discovery in a contract case, or in a case with no nature of suit on file that names no government party. The court's feed shows these motions within minutes of filing; the complaint's claims are not in any free source. <a href="methodology.html#trade-secrets">How we find them</a></p>
+    </details>
+  </section>
+
   <section class="page" id="page-motions" aria-labelledby="h-motions" hidden>
     <div class="jhead">
       <div>
