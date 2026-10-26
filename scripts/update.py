@@ -1035,9 +1035,8 @@ def main() -> int:
     # --- save
     orders.sort(key=lambda o: (o["date"], o.get("time", ""), o["case"], o["doc"]))
     opinions.sort(key=lambda o: (o["date"], o["case"], o["doc"]))
-    if complete and now.weekday() < 5 and today not in holidays:
-        through_row["date"] = today
-    elif op_ok or gi_done:
+    counted = ""
+    if op_ok or gi_done:
         # Orders come from the feed on every pass. Written opinions come from a CourtListener check that just finished (it
         # marks them the morning after filing), which counts the last working day before today, or else from GovInfo, which
         # posts about a day later, so a finished GovInfo listing counts through two working days back. Without this the date
@@ -1053,7 +1052,18 @@ def main() -> int:
             # An opinion GovInfo has posted shows its day is at least partly in, and hiding found opinions is worse than a
             # light last day: count through the newest day GovInfo has supplied (before today).
             counted = max([counted] + [o["date"] for o in opinions if o.get("src") == "govinfo" and o["date"] < today])
+    if complete and now.weekday() < 5 and today not in holidays:
+        through_row["date"] = today
+    elif counted:
         through_row["date"] = max(through_row["date"], counted)
+    # Written opinions arrive a day or more after orders (GovInfo posts them about a day and a half late), so they carry
+    # their own date: the site counts opinions and opinion working days only through it. With one date for both, a finished
+    # order search moved it to today and every judge's opinion rate counted days whose opinions were not in yet (Oct. 26, 2026).
+    if counted:
+        op_row = next((r for r in calendar if r["kind"] == "opinions_through"), None)
+        if op_row is None:
+            calendar.append(op_row := {"kind": "opinions_through", "date": counted})
+        op_row["date"] = max(op_row["date"], counted)
     # Court pages beyond the docket: each section's submission dates (daily), court notices (every six hours), and
     # Fifth Circuit decisions in cases from this court (every pass). Read before the run log is written, so their notes are in it.
     jp = court_info.load_json(DATA / "judge_pages.json", {})

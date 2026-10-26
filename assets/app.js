@@ -98,13 +98,16 @@
     const H = new Set(D.calendar.filter((r) => r.kind === 'holiday').map((r) => r.date));
     const pick = (k) => (D.calendar.find((r) => r.kind === k) || {}).date;
     const through = pick('through');
+    // Written opinions arrive a day or more after orders, so they are counted only through their own date (never past the orders').
+    const opThrough = [through, pick('opinions_through')].filter(Boolean).sort()[0];
     const floor = period ? addDays(through, 1 - Number(period)) : '';
+    const opFloor = period ? addDays(opThrough, 1 - Number(period)) : '';
     const workdays = (a, b) => { const out = []; for (let d = utc(a); d <= utc(b); d.setUTCDate(d.getUTCDate() + 1)) { const w = d.getUTCDay(); if (w > 0 && w < 6 && !H.has(iso(d))) out.push(iso(d)); } return out; };
     const OC = new Map((D.outcomes || []).map((r) => [r.case + '|' + r.doc, r]));
     const names = Object.fromEntries(D.judges.map((j) => [j.code, j.name]));
     const bench = Object.fromEntries(D.judges.map((j) => [j.code, j.bench_start]));
 
-    const opStart = later(pick('opinions_start'), floor);
+    const opStart = later(pick('opinions_start'), opFloor);
     // Days between Written Opinions Report periods that no report covers: their opinions are missing, so they are not working days for opinion rates.
     const gapDays = new Set(); D.calendar.filter((r) => r.kind === 'opinions_gap').forEach((r) => { for (let d = r.date; d <= r.to; d = addDays(d, 1)) gapDays.add(d); });
     const orStart = later(pick('orders_start'), floor);
@@ -134,13 +137,13 @@
     const opRows = [];
     const opinions = D.judges.map((j) => {
       const s = later(j.bench_start, opStart);
-      const R = D.opinions.filter((o) => o.judge === j.code && o.date >= s && o.date <= through).map(enrich);
+      const R = D.opinions.filter((o) => o.judge === j.code && o.date >= s && o.date <= opThrough).map(enrich);
       opRows.push(...R);
       const mix = zeroCats(); R.forEach((o) => { mix[o.cat] += 1; });
       const ch = R.filter((o) => !Number(o.rr));
       const mer = ch.filter((o) => Number(o.merits));
       const ds = [...new Set(R.map((o) => o.date))].sort();
-      const wd = workdays(s, through).filter((d) => !gapDays.has(d)).length;
+      const wd = workdays(s, opThrough).filter((d) => !gapDays.has(d)).length;
       const row = { name: j.name, code: j.code, start: s, working_days: wd, total: R.length, rr: R.length - ch.length, district: ch.length,
         cases: new Set(R.map((o) => o.case)).size, days_with: ds.length, per_week: wd ? ch.length / (wd / 5) : 0, merits: mer.length,
         merits_month: wd ? mer.length / (wd / 21) : 0, r12: mer.filter((o) => Number(o.r12)).length, r56: mer.filter((o) => Number(o.r56)).length, mix,
@@ -161,7 +164,7 @@
     Object.keys(GROUPS).forEach((g) => { pooled['g_' + g] = pool((r) => ({ n: r[g + '_n'], known: r[g + '_known'], granted: r[g + '_granted'], partial: r[g + '_partial'], denied: r[g + '_denied'], rest: r[g + '_rest'], nDays: 0 })); });
 
     const months = [];
-    for (let d = utc(opStart.slice(0, 7) + '-01'); iso(d) <= through; d.setUTCMonth(d.getUTCMonth() + 1)) months.push(iso(d).slice(0, 7));
+    for (let d = utc(opStart.slice(0, 7) + '-01'); iso(d) <= opThrough; d.setUTCMonth(d.getUTCMonth() + 1)) months.push(iso(d).slice(0, 7));
     const monthly = months.map((month) => ({ month, dt: utc(month + '-01'), all: zeroCats(), by: {}, gap: [...gapDays].filter((d) => d.startsWith(month) && isWorkday(d, H)).length }));
     const mIndex = Object.fromEntries(months.map((m, i) => [m, monthly[i]]));
     opRows.forEach((o) => {
@@ -252,7 +255,7 @@
     const sum = (rows, k) => d3.sum(rows, (r) => r[k]);
     const medOf = (vals, min = 1) => { const v = vals.filter((x) => x != null); return v.length >= min ? median(v) : null; };
     return {
-      through, names, opinions, orders, weekly, recent, allOpinions, monthly, gapDays, hours, pooled, dowCourt, since: { orders: orStart, opinions: opStart }, workingDays: allDays.length,
+      through, opThrough, names, opinions, orders, weekly, recent, allOpinions, monthly, gapDays, hours, pooled, dowCourt, since: { orders: orStart, opinions: opStart }, workingDays: allDays.length,
       motions, allMotions, motionsSince, motionsByJudge: byJudge,
       totals: {
         orders: sum(orders, 'orders'), perDay: allDays.length ? sum(orders, 'orders') / allDays.length : 0,
@@ -603,7 +606,7 @@
       kpi({ label: 'Written opinions', value: fmt.int(T.opinions), sub: 'since ' + fmtDate(S.since.opinions), href: findHref({}) }),
       kpi({ label: 'Merits rulings', value: fmt.int(T.merits), sub: 'Rule 12, Rule 56, and trial', href: findHref({ type: 'merits' }) }),
       kpi({ label: 'Civil orders', value: fmt.int(T.orders), sub: 'since ' + fmtDate(S.since.orders), href: hashFor('court', { view: 'orders' }) }),
-      kpi({ label: 'Data through', value: fmtShort(S.through), sub: lastRunText(), href: '#log' }),
+      kpi({ label: 'Data through', value: fmtShort(S.through), sub: (S.opThrough < S.through ? 'opinions ' + fmtShort(S.opThrough) + ' · ' : '') + lastRunText(), href: '#log' }),
     );
     drawHomeCases(); drawHomeNotices();
     $('home-act').replaceChildren(...actItems(activity().rows.slice(0, 10), { judge: true }));
@@ -707,7 +710,7 @@
     $('live').classList.toggle('stale', !!(c && c.stale));
     $('live-text').textContent = c ? (c.stale ? 'Last check ' : 'Checked ') + c.stamp : 'Through ' + fmtShort(S.through);
     $('live').title = (c ? `Feed ${c.stale ? 'last ' : ''}checked ${c.stamp} CT`
-      + (c.stale ? '; next check overdue. ' : '. ') : '') + 'Counts through ' + fmtDate(S.through) + '.';
+      + (c.stale ? '; next check overdue. ' : '. ') : '') + 'Counts through ' + fmtDate(S.through) + (S.opThrough < S.through ? '; written opinions through ' + fmtDate(S.opThrough) : '') + '.';
   }
 
   // ------------------------------------------------------------ page: one judge
@@ -721,7 +724,7 @@
     const P = state.pages[code]; const sec = P && P.contact && P.contact.section;
     $('j-section').hidden = !sec; $('j-section').textContent = sec ? 'Section ' + sec : '';
     $('j-full').textContent = P && P.title ? P.title : '';
-    $('j-meta').textContent = (state.period ? 'Last ' + state.period + ' days. ' : '') + 'Written opinions counted from ' + fmtDate(op.start) + '; civil orders from ' + fmtDate(or.start) + '. Data through ' + fmtDate(S.through) + '.';
+    $('j-meta').textContent = (state.period ? 'Last ' + state.period + ' days. ' : '') + 'Written opinions counted from ' + fmtDate(op.start) + '; civil orders from ' + fmtDate(or.start) + '. Data through ' + fmtDate(S.through) + (S.opThrough < S.through ? '; written opinions through ' + fmtDate(S.opThrough) : '') + '.';
     const list = judgesAlpha(); const i = list.findIndex((j) => j.code === code);
     $('j-prev').href = judgeHref(list[(i - 1 + list.length) % list.length].code); $('j-next').href = judgeHref(list[(i + 1) % list.length].code);
     const pick = $('j-pick'); if (!pick.options.length) pick.append(...list.map((j) => new Option('Judge ' + j.name, j.code))); pick.value = code;
@@ -1199,11 +1202,11 @@
     const R = S.recent.filter((o) => o.judge === code);
     const counts = d3.rollup(R, (v) => v.length, (o) => o.date);
     // At most the last 12 months, so a day stays one readable cell; the monthly chart above covers the whole span.
-    const dayStart = later(op.start, addDays(S.through, -364));
+    const dayStart = later(op.start, addDays(S.opThrough, -364));
     const weekend = R.filter((o) => { const w = utc(o.date).getUTCDay(); return o.date >= dayStart && (w === 0 || w === 6); }).length;
     $('j-days-h').textContent = 'Written opinions by day' + (dayStart > op.start ? ', last 12 months' : '');
-    calHeat($('c-j-days'), { start: dayStart, end: S.through, counts, gaps: S.gapDays, label: 'Written opinions by day, Judge ' + name, href: (d) => findHref({ judge: code, month: d.slice(0, 7) }) });
-    const gapShown = [...S.gapDays].some((d) => d >= dayStart && d <= S.through);
+    calHeat($('c-j-days'), { start: dayStart, end: S.opThrough, counts, gaps: S.gapDays, label: 'Written opinions by day, Judge ' + name, href: (d) => findHref({ judge: code, month: d.slice(0, 7) }) });
+    const gapShown = [...S.gapDays].some((d) => d >= dayStart && d <= S.opThrough);
     $('j-days-key').replaceChildren(shadeKey([[0, '0'], ...DAY_CLASSES.map(([, l], i) => [i + 1, l])]), el('span', { className: 'dim wrap', textContent: 'Outlined: court holiday' + (gapShown ? ' · dashed: no Written Opinions Report on file' : '') + (weekend ? ' · ' + plural(weekend, 'opinion') + ' dated on a weekend not shown' : '') }));
 
     // Orders by weekday and hour.
@@ -1524,7 +1527,7 @@
     const c = lastCheck();
     $('log-status').textContent = (c ? (c.stale ? `Last feed check ${c.stamp} CT (overdue). ` : `Feed checked ${c.stamp} CT`
       + (c.rss ? ` (${plural(c.rss, 'item', 'items')})` : '') + '. ') : '')
-      + `Counts through ${fmtDate(state.stats.through)}`
+      + `Counts through ${fmtDate(state.stats.through)}` + (state.stats.opThrough < state.stats.through ? `; written opinions through ${fmtDate(state.stats.opThrough)}` : '')
       + (c && c.paused && c.paused > c.at ? `; CourtListener lookups paused until ${ctStamp(c.paused)} CT.` : '.');
     $('t-log').replaceChildren(el('thead', {}, el('tr', {}, ...['Run (Central)', 'Orders added', 'Opinions added', 'Note'].map((c, i) => el('th', { textContent: c, className: i === 1 || i === 2 ? 'r' : '' })))),
       el('tbody', {}, ...runs.map((r) => el('tr', {}, el('td', { className: 'mono', textContent: String(r.at).slice(0, 16).replace('T', ' ') }), el('td', { className: 'num', textContent: fmt.int(+r.orders_added || 0) }),

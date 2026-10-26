@@ -73,5 +73,6 @@
 {"kind":"opinions_start","date":"2022-01-01"},
 {"kind":"orders_start","date":"2026-09-17"},
 {"kind":"through","date":"2026-10-26"},
+{"kind":"opinions_through","date":"2026-10-23"},
 {"kind":"opinions_gap","date":"2025-12-22","to":"2025-12-31"}
 ]

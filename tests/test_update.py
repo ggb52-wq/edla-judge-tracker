@@ -115,6 +115,25 @@ class UpdateTest(unittest.TestCase):
     def tearDown(self):
         shutil.rmtree(self.tmp)
 
+    def test_opinions_through(self):
+        # A finished order search moves the data-through date to today; written opinions keep their own, earlier date
+        # (the last working day before today after a finished opinion check), which the order search never moves.
+        (self.tmp / "data/calendar.json").write_text(json.dumps(
+            [r for r in json.loads((self.tmp / "data/calendar.json").read_text()) if r["kind"] != "opinions_through"]))
+        with mock.patch.object(update, "DATA", self.tmp / "data"), mock.patch.object(update, "http_get", fake_get), \
+             mock.patch.object(update.time, "sleep", lambda s: None), mock.patch.dict("os.environ", ENV):
+            update.main()
+        cal = json.loads((self.tmp / "data/calendar.json").read_text())
+        pick = {r["kind"]: r["date"] for r in cal if r["kind"] in ("through", "opinions_through")}
+        holidays = {r["date"] for r in cal if r["kind"] == "holiday"}
+        d = update.dt.datetime.now(update.CENTRAL).date() - update.dt.timedelta(days=1)
+        while d.weekday() > 4 or d.isoformat() in holidays:
+            d -= update.dt.timedelta(days=1)
+        self.assertEqual(pick["opinions_through"], d.isoformat())
+        today = update.dt.datetime.now(update.CENTRAL).date()
+        if today.weekday() < 5 and today.isoformat() not in holidays:   # the order search moves the other date to today
+            self.assertLess(pick["opinions_through"], pick["through"])
+
     def test_run(self):
         with mock.patch.object(update, "DATA", self.tmp / "data"), mock.patch.object(update, "http_get", fake_get), \
              mock.patch.object(update.time, "sleep", lambda s: None), mock.patch.dict("os.environ", ENV):
