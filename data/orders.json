@@ -2168,5 +2168,7 @@
 {"date":"2026-10-23","time":"16:30","judge":"BWA","case":"2:26-cv-01824","doc":"8","title":"Pavlov v. General Motors LLC","event":"Order","src":"rss"},
 {"date":"2026-10-23","time":"16:32","judge":"BWA","case":"2:26-cv-02007","doc":"11","title":"Jamhour v. Stonebridge Hospitality Associates, LLC et al","event":"Order","src":"rss"},
 {"date":"2026-10-23","time":"16:33","judge":"BWA","case":"2:26-cv-01821","doc":"12","title":"Moore v. State Farm Mutual Automobile Insurance Company","event":"Order","src":"rss"},
-{"date":"2026-10-23","time":"16:43","judge":"GGG","case":"2:26-cv-00291","doc":"14","title":"Campbell v. Howard","event":"Order to Show Cause","src":"courtlistener"}
+{"date":"2026-10-23","time":"16:43","judge":"GGG","case":"2:26-cv-00291","doc":"14","title":"Campbell v. Howard","event":"Order to Show Cause","src":"courtlistener"},
+{"date":"2026-10-26","time":"08:30","judge":"GGG","case":"2:26-cv-00317","doc":"40","title":"Guidry v. Walmart, Inc.","event":"Set Hearings","src":"rss"},
+{"date":"2026-10-26","time":"08:50","judge":"GGG","case":"2:26-cv-01335","doc":"12","title":"Richardson v. United States of America","event":"Set Hearings","src":"rss"}
 ]
