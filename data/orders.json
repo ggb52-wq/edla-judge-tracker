@@ -2265,5 +2265,7 @@
 {"date":"2026-10-26","time":"17:25","judge":"WBV","case":"2:24-cv-02446","doc":"124","title":"LAD Services of Louisiana, LLC v. Dragados/Hawaiian Dredging//Orion Jo","event":"Order on Motion for Reconsideration","src":"courtlistener"},
 {"date":"2026-10-26","time":"17:30","judge":"WBV","case":"2:26-cv-02383","doc":"9","title":"Harris v. Penn Entertainment, Inc.","event":"Order on Motion for Leave to File","src":"courtlistener"},
 {"date":"2026-10-27","time":"08:35","judge":"BWA","case":"2:25-cv-01327","doc":"42","title":"Young v. Orleans Parish Sheriff's Office et al","event":"Set Hearings","src":"rss"},
-{"date":"2026-10-27","time":"10:32","judge":"WJC","case":"2:19-cv-11803","doc":"210","title":"Gomez v. New Orleans City et al","event":"Set Hearings","src":"rss"}
+{"date":"2026-10-27","time":"10:32","judge":"WJC","case":"2:19-cv-11803","doc":"210","title":"Gomez v. New Orleans City et al","event":"Set Hearings","src":"rss"},
+{"date":"2026-10-27","time":"11:39","judge":"SSV","case":"2:26-cv-01656","doc":"10","title":"Mitchell v Brandsafway LLC","event":"Order","src":"rss"},
+{"date":"2026-10-27","time":"11:55","judge":"EEF","case":"2:26-cv-01554","doc":"12","title":"Thomas v. JY Foods, LLC et al","event":"Scheduling Order","src":"rss"}
 ]
