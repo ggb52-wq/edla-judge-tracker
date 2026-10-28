@@ -2342,5 +2342,9 @@
 {"date":"2026-10-27","time":"16:49","judge":"LMA","case":"2:26-cv-01526","doc":"14","title":"Coleman v. Fortunato et al","event":"Set Hearings","src":"rss"},
 {"date":"2026-10-27","time":"16:59","judge":"NJB","case":"2:25-cv-00683","doc":"45","title":"Diplomat Inc v. Hilcorp Energy Company","event":"Order on Motion to Dismiss","src":"courtlistener"},
 {"date":"2026-10-27","time":"16:59","judge":"BWA","case":"2:26-cv-02129","doc":"19","title":"Hambrick v. Walgreen Co.","event":"Order on Motion for Extension of Time to Answer","src":"courtlistener"},
-{"date":"2026-10-27","time":"17:07","judge":"WBV","case":"2:26-cv-01931","doc":"11","title":"Sealy v. IDscan.net, Inc.","event":"Order AND ~Util - Create Case Association AND ~Util - Set/Clear Flags","src":"courtlistener"}
+{"date":"2026-10-27","time":"17:07","judge":"WBV","case":"2:26-cv-01931","doc":"11","title":"Sealy v. IDscan.net, Inc.","event":"Order AND ~Util - Create Case Association AND ~Util - Set/Clear Flags","src":"courtlistener"},
+{"date":"2026-10-28","time":"10:33","judge":"WBV","case":"2:26-cv-01380","doc":"21","title":"McGrath v. Smith et al","event":"Order","src":"rss"},
+{"date":"2026-10-28","time":"10:58","judge":"NJB","case":"2:26-cv-00344","doc":"35","title":"McElroy v. Cox Operating, LLC et al","event":"Scheduling Order","src":"rss"},
+{"date":"2026-10-28","time":"11:00","judge":"NJB","case":"2:26-cv-00444","doc":"41","title":"Labat et al v. Anco Insulations, Inc. et al","event":"Scheduling Order","src":"rss"},
+{"date":"2026-10-28","time":"11:12","judge":"EEF","case":"2:26-cv-01427","doc":"18","title":"Fultz v. Brafman","event":"Set Hearings","src":"rss"}
 ]
