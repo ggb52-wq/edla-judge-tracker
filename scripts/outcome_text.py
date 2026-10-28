@@ -31,6 +31,15 @@ _WOP = re.compile(r"\bwithout\s+prejudice\b", re.I)
 _LEAVE_YES = re.compile(r"\b(?:with\s+leave\s+to\s+amend|leave\s+to\s+amend\s+is\s+granted|granted\s+leave\s+to\s+amend|"
                         r"may\s+(?:file\s+an?\s+)?amend|shall\s+have\s+\w+\s+days\s+to\s+(?:file\s+an?\s+)?amend)", re.I)
 _LEAVE_NO = re.compile(r"\b(?:without\s+leave\s+to\s+amend|leave\s+to\s+amend\s+is\s+denied|with\s+prejudice)\b", re.I)
+# One motion decided both ways in one sentence: "GRANTED as to the Title VII claim and DENIED in all other respects",
+# "DENIED insofar as ... and GRANTED otherwise". The second verb must follow a limiting phrase after the first, or be
+# followed by "in all other respects" and the like, with no other motion or request named between the two.
+_LIMIT = r"\s*,?\s*(?:only\s+)?(?:as\s+to|insofar\s+as|to\s+the\s+extent|with\s+respect\s+to|as\s+it\s+(?:relates|pertains)\s+to)\b"
+_BETWEEN = r"(?:(?!\bmotions?\b|\brequests?\b|\bIT\s+IS\b)[^;])*?"
+_OTHER_VERB = r"\b(grant(?:ed|s)|den(?:ied|ies))\b"
+_REST = r"\s*,?\s*(?:in\s+all\s+(?:other|remaining)\s+(?:respects|regards|aspects)|in\s+every\s+other\s+respect|as\s+to\s+all\s+(?:other|remaining)|otherwise)\b"
+_SPLIT_RULING = re.compile(_LIMIT + _BETWEEN + r"\band\s+(?:is\s+)?" + _OTHER_VERB, re.I)
+_REST_DENIED = re.compile(_BETWEEN + r"\band\s+(?:is\s+)?" + _OTHER_VERB + _REST, re.I)
 _MOTION = re.compile(r"\bmotions?\b", re.I)
 _DECRETAL = re.compile(r"\bIT\s+IS\s+(?:FURTHER\s+|HEREBY\s+|SO\s+|ALSO\s+)*ORDERED\b", re.I)
 _CONCLUSION = re.compile(r"\b(?:accordingly|for\s+(?:the\s+)?(?:foregoing|above|these|those|stated)\s+reasons)\b", re.I)
@@ -73,6 +82,9 @@ def _verdict(segment: str) -> str:
     if "moot" in tail:
         return "moot"
     after = segment[m.end():]
+    split = _SPLIT_RULING.match(after) or _REST_DENIED.match(after)
+    if split and split.group(1)[0].lower() != m.group(1)[0].lower():
+        return "partial"
     if m.group(1).lower().startswith("grant"):
         return "granted_leave" if _LEAVE_YES.search(after) and not _LEAVE_NO.search(after) else "granted"
     return "denied_wop" if _WOP.search(after[:80]) else "denied"

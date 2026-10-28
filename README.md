@@ -4,14 +4,14 @@ A static website that counts civil orders and written opinions by judge in the U
 
 ## How it updates
 
-`.github/workflows/update.yml` runs `scripts/update.py` every 15 minutes on weekdays (7 AM to 9 PM Central) and every 3 hours on weekends. The script:
+`.github/workflows/update.yml` checks the feed about every 15 minutes around the clock (each run makes four passes about 15 minutes apart, then starts the next run). Each pass:
 
 1. reads the court's public CM/ECF RSS feed;
-2. queries the CourtListener API for new order-type docket entries (assigned judge, event type) and for documents flagged free on PACER (the Written Opinions Report);
-3. classifies, de-duplicates, and appends new civil rows to `data/orders.json` and `data/opinions.json`;
-4. commits only when one of those two files changed. GitHub Pages then republishes the site.
+2. lists new written opinions on GovInfo (USCOURTS collection) and, about twice a day, searches the CourtListener API for new order-type docket entries;
+3. classifies, de-duplicates, and appends new civil rows to `data/orders.json`, `data/opinions.json`, and the other data files;
+4. commits the data when it changed, or else only `data/status.json`. The site re-reads the data on its own, so new rows appear within minutes.
 
-The workflow needs one repository secret, `COURTLISTENER_TOKEN`, holding a free CourtListener API key.
+The workflow needs the repository secrets `COURTLISTENER_TOKEN` (a CourtListener API key) and `GOVINFO_API_KEY` (an api.data.gov key). `CLAUDE.md` describes every source and file in detail.
 
 ## Data files
 
@@ -23,7 +23,7 @@ The workflow needs one repository secret, `COURTLISTENER_TOKEN`, holding a free 
 | `data/calendar.json` | court holidays, start dates of each log, and the "through" date |
 | `data/runs.json` | one row per update that added data |
 
-Baseline: PACER Written Opinions Report (1/10–10/16/2026) and PACER Docket Activity Report, civil orders (9/17–10/16/2026).
+Baseline: PACER Written Opinions Reports (Jan. 1, 2022, to Oct. 20, 2026, less Dec. 22 to 31, 2025) and PACER Docket Activity Report, civil orders (9/17–10/16/2026).
 
 ## Local work
 

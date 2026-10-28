@@ -738,6 +738,17 @@ class OutcomeTextTest(unittest.TestCase):
                            "Order on Motion to Compel"), "denied_wop")
         self.assertEqual(c("ORDER denying without prejudice 30 Motion to Compel.", "Order on Motion to Compel", source="docket"), "denied_wop")
         self.assertEqual(c("The case is remanded.", "Order on Motion to Remand"), "")
+        # One motion decided both ways in one sentence (2:24-cv-00942 doc 22; 2:21-cv-01438 doc 24).
+        self.assertEqual(c("IT IS ORDERED that the Motion to Dismiss (Rec. Doc. 12) filed by the defendant is GRANTED as to the "
+                           "Title VII claim for discrimination in pay and DENIED in all other respects.", "Order on Motion to Dismiss", 1, 0), "partial")
+        self.assertEqual(c("IT IS ORDERED that 10 Motion to Dismiss is Granted as set forth in document and Denied in all other respects.",
+                           "Order on Motion to Dismiss", 1, 0, "docket"), "partial")
+        self.assertEqual(c("IT IS ORDERED that the Motion to Dismiss is DENIED insofar as it seeks dismissal of Count II and GRANTED otherwise.",
+                           "Order on Motion to Dismiss", 1, 0), "partial")
+        self.assertEqual(c("IT IS ORDERED that the Motion to Dismiss is GRANTED, and the request for oral argument is DENIED.",
+                           "Order on Motion to Dismiss", 1, 0), "granted")                # another request, not the motion
+        self.assertEqual(c("IT IS ORDERED that the Motion to Dismiss is GRANTED and the Motion to Strike is DENIED.",
+                           "Order on Motion to Dismiss", 1, 0), "granted")
         from outcome_text import motion_doc as m
         self.assertEqual(m("ORDER granting 12 Motion to Dismiss; denying 20 Motion for Leave.", "Order on Motion to Dismiss", 1, 0, "docket"), "12")
         self.assertEqual(m("IT IS ORDERED that the Motion to Dismiss (R. Doc. 4) is GRANTED. IT IS FURTHER ORDERED that the Motion "
