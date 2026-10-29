@@ -1,5 +1,5 @@
 {
-"checked":"2026-10-28T06:31-05:00",
+"checked":"2026-10-29T02:32-05:00",
 "judges":{
 "ASJ":{
 "section":"N",
@@ -36,7 +36,7 @@
 ],
 "day":"Wednesdays",
 "time":"9:30 AM",
-"updated":"28-Oct-26, 12:01 AM"
+"updated":"29-Oct-26, 12:01 AM"
 },
 "BSL":{
 "section":"O",
@@ -71,13 +71,12 @@
 ],
 "day":"Wednesdays",
 "time":"10:00 AM",
-"updated":"28-Oct-26, 12:01 AM"
+"updated":"29-Oct-26, 12:01 AM"
 },
 "BWA":{
 "section":"M",
 "url":"https://www.laed.uscourts.gov/sites/default/files/motion-dates/MoHear_M.htm",
 "dates":[
-"2026-11-12",
 "2026-12-10",
 "2026-12-24",
 "2027-01-07",
@@ -108,7 +107,7 @@
 ],
 "day":"Thursdays",
 "time":"10:00 AM",
-"updated":"28-Oct-26, 12:01 AM"
+"updated":"29-Oct-26, 12:01 AM"
 },
 "CJB":{
 "section":"J",
@@ -146,7 +145,7 @@
 ],
 "day":"Wednesdays",
 "time":"9:30 AM",
-"updated":"28-Oct-26, 12:01 AM"
+"updated":"29-Oct-26, 12:01 AM"
 },
 "DJP":{
 "section":"P",
@@ -213,7 +212,7 @@
 ],
 "day":"Wednesdays",
 "time":"10:00 AM",
-"updated":"28-Oct-26, 12:01 AM"
+"updated":"29-Oct-26, 12:01 AM"
 },
 "EEF":{
 "section":"L",
@@ -251,7 +250,7 @@
 ],
 "day":"Wednesdays",
 "time":"9:00 AM",
-"updated":"28-Oct-26, 12:01 AM"
+"updated":"29-Oct-26, 12:01 AM"
 },
 "GGG":{
 "section":"T",
@@ -289,7 +288,7 @@
 ],
 "day":"",
 "time":"",
-"updated":"28-Oct-26, 12:01 AM"
+"updated":"29-Oct-26, 12:01 AM"
 },
 "ILRL":{
 "section":"B",
@@ -327,7 +326,7 @@
 ],
 "day":"",
 "time":"",
-"updated":"28-Oct-26, 12:01 AM"
+"updated":"29-Oct-26, 12:01 AM"
 },
 "JCZ":{
 "section":"A",
@@ -363,7 +362,7 @@
 ],
 "day":"Wednesdays",
 "time":"10:30 AM",
-"updated":"28-Oct-26, 12:01 AM"
+"updated":"29-Oct-26, 12:01 AM"
 },
 "JTM":{
 "section":"H",
@@ -401,7 +400,7 @@
 ],
 "day":"",
 "time":"",
-"updated":"28-Oct-26, 12:01 AM"
+"updated":"29-Oct-26, 12:01 AM"
 },
 "LMA":{
 "section":"I",
@@ -438,7 +437,7 @@
 ],
 "day":"",
 "time":"",
-"updated":"28-Oct-26, 12:01 AM"
+"updated":"29-Oct-26, 12:01 AM"
 },
 "NJB":{
 "section":"G",
@@ -475,7 +474,7 @@
 ],
 "day":"Wednesdays",
 "time":"10:00 AM",
-"updated":"28-Oct-26, 12:01 AM"
+"updated":"29-Oct-26, 12:01 AM"
 },
 "SM":{
 "section":"E",
@@ -514,7 +513,7 @@
 ],
 "day":"",
 "time":"",
-"updated":"28-Oct-26, 12:01 AM"
+"updated":"29-Oct-26, 12:01 AM"
 },
 "SSV":{
 "section":"R",
@@ -552,7 +551,7 @@
 ],
 "day":"",
 "time":"",
-"updated":"28-Oct-26, 12:01 AM"
+"updated":"29-Oct-26, 12:01 AM"
 },
 "WBV":{
 "section":"D",
@@ -590,7 +589,7 @@
 ],
 "day":"Tuesdays",
 "time":"9:30 AM",
-"updated":"28-Oct-26, 12:01 AM"
+"updated":"29-Oct-26, 12:01 AM"
 },
 "WJC":{
 "section":"C",
@@ -628,7 +627,7 @@
 ],
 "day":"Wednesdays",
 "time":"9:00 AM",
-"updated":"28-Oct-26, 12:01 AM"
+"updated":"29-Oct-26, 12:01 AM"
 }
 }
 }
