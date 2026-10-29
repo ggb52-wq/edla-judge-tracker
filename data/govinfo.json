@@ -1,5 +1,5 @@
 {
-"discovered":"2026-10-29T20:51:56+00:00",
+"discovered":"2026-10-29T21:06:56+00:00",
 "granules":{
 "USCOURTS-laed-2_00-cv-02854-0":{
 "date":"2024-09-27",
@@ -69145,12 +69145,12 @@
 ]
 },
 "USCOURTS-laed-2_24-cv-02439":{
-"checked":"2026-10-28",
+"checked":"2026-10-29",
 "granules":[
 "USCOURTS-laed-2_24-cv-02439-0",
 "USCOURTS-laed-2_24-cv-02439-1"
 ],
-"modified":"2026-10-28T20:32:53Z"
+"modified":"2026-10-29T20:54:14Z"
 },
 "USCOURTS-laed-2_24-cv-02446":{
 "checked":"2026-10-29",
@@ -74599,11 +74599,11 @@
 ]
 },
 "USCOURTS-laed-2_26-cv-00188":{
-"checked":"2026-10-28",
+"checked":"2026-10-29",
 "granules":[
 "USCOURTS-laed-2_26-cv-00188-0"
 ],
-"modified":"2026-10-28T20:32:50Z"
+"modified":"2026-10-29T20:51:36Z"
 },
 "USCOURTS-laed-2_26-cv-00190":{
 "checked":"2026-10-19",
