@@ -5183,7 +5183,7 @@
 {"case":"2:25-cv-02256","doc":"7","outcome":"denied","src":"govinfo_text","at":"2026-10-19"},
 {"case":"2:25-cv-02270","doc":"9","outcome":"granted","src":"govinfo_text","at":"2026-10-19"},
 {"case":"2:25-cv-02271","doc":"22","outcome":"partial","src":"govinfo_text","at":"2026-10-19","motion_doc":"11","motion_filed":"2026-04-21"},
-{"case":"2:25-cv-02273","doc":"34","outcome":"denied","src":"govinfo_text","at":"2026-10-19"},
+{"case":"2:25-cv-02273","doc":"34","outcome":"denied","src":"govinfo_text","at":"2026-10-19","motion_doc":""},
 {"case":"2:25-cv-02273","doc":"37","outcome":"granted","src":"govinfo_text","at":"2026-10-19","motion_doc":"22","motion_filed":"2026-03-10"},
 {"case":"2:25-cv-02273","doc":"42","outcome":"granted","src":"govinfo_text","at":"2026-10-19","motion_doc":"40","motion_filed":"2026-05-21"},
 {"case":"2:25-cv-02273","doc":"44","outcome":"granted_leave","src":"govinfo_text","at":"2026-10-19","motion_doc":""},
