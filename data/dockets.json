@@ -10970,7 +10970,7 @@
 ],
 "docket_id":59705472,
 "judge":"JCZ",
-"seen":"2026-10-23"
+"seen":"2026-10-29"
 },
 {
 "case":"2:21-cv-00469",
@@ -42068,7 +42068,7 @@
 ],
 "docket_id":69826097,
 "judge":"GGG",
-"seen":"2026-10-24"
+"seen":"2026-10-29"
 },
 {
 "case":"2:25-cv-00631",
@@ -53372,6 +53372,18 @@
 "seen":"2026-10-29"
 },
 {
+"case":"2:26-cv-01861",
+"referred":"Karen Wells Roby",
+"filed":"2026-08-24",
+"parties":[
+"Interior Exterior Building Supply LP",
+"Jackson"
+],
+"docket_id":74692436,
+"judge":"SSV",
+"seen":"2026-10-29"
+},
+{
 "case":"2:26-cv-01862",
 "referred":"Michael B. North",
 "filed":"2026-08-19",
@@ -54108,7 +54120,7 @@
 ],
 "docket_id":74786188,
 "judge":"EEF",
-"seen":"2026-10-27"
+"seen":"2026-10-29"
 },
 {
 "case":"2:26-cv-02051",
