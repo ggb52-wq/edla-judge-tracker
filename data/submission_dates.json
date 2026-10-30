@@ -1,5 +1,5 @@
 {
-"checked":"2026-10-29T02:32-05:00",
+"checked":"2026-10-29T22:32-05:00",
 "judges":{
 "ASJ":{
 "section":"N",
@@ -36,7 +36,7 @@
 ],
 "day":"Wednesdays",
 "time":"9:30 AM",
-"updated":"29-Oct-26, 12:01 AM"
+"updated":"29-Oct-26, 12:22 PM"
 },
 "BSL":{
 "section":"O",
@@ -71,7 +71,7 @@
 ],
 "day":"Wednesdays",
 "time":"10:00 AM",
-"updated":"29-Oct-26, 12:01 AM"
+"updated":"29-Oct-26, 12:22 PM"
 },
 "BWA":{
 "section":"M",
@@ -107,7 +107,7 @@
 ],
 "day":"Thursdays",
 "time":"10:00 AM",
-"updated":"29-Oct-26, 12:01 AM"
+"updated":"29-Oct-26, 12:22 PM"
 },
 "CJB":{
 "section":"J",
@@ -145,7 +145,7 @@
 ],
 "day":"Wednesdays",
 "time":"9:30 AM",
-"updated":"29-Oct-26, 12:01 AM"
+"updated":"29-Oct-26, 12:22 PM"
 },
 "DJP":{
 "section":"P",
@@ -212,7 +212,7 @@
 ],
 "day":"Wednesdays",
 "time":"10:00 AM",
-"updated":"29-Oct-26, 12:01 AM"
+"updated":"29-Oct-26, 12:22 PM"
 },
 "EEF":{
 "section":"L",
@@ -250,7 +250,7 @@
 ],
 "day":"Wednesdays",
 "time":"9:00 AM",
-"updated":"29-Oct-26, 12:01 AM"
+"updated":"29-Oct-26, 12:22 PM"
 },
 "GGG":{
 "section":"T",
@@ -288,7 +288,7 @@
 ],
 "day":"",
 "time":"",
-"updated":"29-Oct-26, 12:01 AM"
+"updated":"29-Oct-26, 12:22 PM"
 },
 "ILRL":{
 "section":"B",
@@ -326,7 +326,7 @@
 ],
 "day":"",
 "time":"",
-"updated":"29-Oct-26, 12:01 AM"
+"updated":"29-Oct-26, 12:22 PM"
 },
 "JCZ":{
 "section":"A",
@@ -362,7 +362,7 @@
 ],
 "day":"Wednesdays",
 "time":"10:30 AM",
-"updated":"29-Oct-26, 12:01 AM"
+"updated":"29-Oct-26, 12:22 PM"
 },
 "JTM":{
 "section":"H",
@@ -400,7 +400,7 @@
 ],
 "day":"",
 "time":"",
-"updated":"29-Oct-26, 12:01 AM"
+"updated":"29-Oct-26, 12:22 PM"
 },
 "LMA":{
 "section":"I",
@@ -437,7 +437,7 @@
 ],
 "day":"",
 "time":"",
-"updated":"29-Oct-26, 12:01 AM"
+"updated":"29-Oct-26, 12:22 PM"
 },
 "NJB":{
 "section":"G",
@@ -474,7 +474,7 @@
 ],
 "day":"Wednesdays",
 "time":"10:00 AM",
-"updated":"29-Oct-26, 12:01 AM"
+"updated":"29-Oct-26, 12:22 PM"
 },
 "SM":{
 "section":"E",
@@ -513,7 +513,7 @@
 ],
 "day":"",
 "time":"",
-"updated":"29-Oct-26, 12:01 AM"
+"updated":"29-Oct-26, 12:22 PM"
 },
 "SSV":{
 "section":"R",
@@ -551,7 +551,7 @@
 ],
 "day":"",
 "time":"",
-"updated":"29-Oct-26, 12:01 AM"
+"updated":"29-Oct-26, 12:22 PM"
 },
 "WBV":{
 "section":"D",
@@ -589,7 +589,7 @@
 ],
 "day":"Tuesdays",
 "time":"9:30 AM",
-"updated":"29-Oct-26, 12:01 AM"
+"updated":"29-Oct-26, 12:22 PM"
 },
 "WJC":{
 "section":"C",
@@ -627,7 +627,7 @@
 ],
 "day":"Wednesdays",
 "time":"9:00 AM",
-"updated":"29-Oct-26, 12:01 AM"
+"updated":"29-Oct-26, 12:22 PM"
 }
 }
 }
