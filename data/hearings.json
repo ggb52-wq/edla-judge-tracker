@@ -33,5 +33,7 @@
 {"date":"2026-11-05","time":"09:00","judge":"DJP","case_short":"22-1271","what":"Jury Trial","room":"C551","text":"22-1271 Jury Trial · 9:00AM, Room C551","src":"court_calendar","case":"2:22-cv-01271","seen":"2026-10-31"},
 {"date":"2026-11-05","time":"10:00","judge":"NJB","case_short":"","what":"Criminal Matters","room":"C227","text":"10:00 a.m. Criminal Matters · Courtroom C227","src":"court_calendar","case":"","seen":"2026-10-31"},
 {"date":"2026-11-05","time":"13:00","judge":"BWA","case_short":"","what":"Naturalization","room":"351","text":"Section M, Courtroom 351 · Naturalization Ceremony, 1:00 p.m.","src":"court_calendar","case":"","seen":"2026-10-31"},
-{"date":"2026-11-05","time":"","judge":"EEF","case_short":"21-105","what":"Hearing","room":"C468","text":"Courtroom C468 · Criminal hearing: 21-105 Young---Revocation hearing","src":"court_calendar","case":"","seen":"2026-10-31"}
+{"date":"2026-11-05","time":"","judge":"EEF","case_short":"21-105","what":"Hearing","room":"C468","text":"Courtroom C468 · Criminal hearing: 21-105 Young---Revocation hearing","src":"court_calendar","case":"","seen":"2026-10-31"},
+{"date":"2026-11-06","time":"09:00","judge":"DJP","case_short":"26-211","what":"Hearing","room":"C551","text":"26-211 Criminal Hearing · 9:00AM, Room C551","src":"court_calendar","case":"","seen":"2026-10-31"},
+{"date":"2026-11-06","time":"10:00","judge":"ASJ","case_short":"21-1027","what":"Oral Argument","room":"","text":"10:00 a.m. Oral Argument · 21-1027 O'Reilly et al v. U.S. Army Corps of Engineers et al","src":"court_calendar","case":"2:21-cv-01027","seen":"2026-10-31"}
 ]
