@@ -4724,6 +4724,7 @@
 {"case":"2:25-cv-00424","doc":"35","outcome":"denied","src":"docket_text","at":"2026-10-20","motion_doc":"25"},
 {"case":"2:25-cv-00425","doc":"34","outcome":"granted","src":"govinfo_text","at":"2026-10-19","motion_doc":"25","motion_filed":"2025-12-23"},
 {"case":"2:25-cv-00426","doc":"49","outcome":"partial","src":"docket_text","at":"2026-10-20","motion_doc":"31"},
+{"case":"2:25-cv-00426","doc":"110","outcome":"granted","src":"govinfo_text","at":"2026-10-31"},
 {"case":"2:25-cv-00429","doc":"66","outcome":"denied","src":"govinfo_text","at":"2026-10-31"},
 {"case":"2:25-cv-00436","doc":"6","outcome":"denied","src":"docket_text","at":"2026-10-20","motion_doc":"4"},
 {"case":"2:25-cv-00450","doc":"37","outcome":"granted","src":"docket_text","at":"2026-10-20","motion_doc":"22"},
