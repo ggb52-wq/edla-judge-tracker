@@ -50,6 +50,7 @@
 "https://www.ca5.uscourts.gov/opinions/unpub/25/25-30426.0.pdf":"2026-10-19",
 "https://www.ca5.uscourts.gov/opinions/unpub/25/25-30550.0.pdf":"2026-10-19",
 "https://www.ca5.uscourts.gov/opinions/unpub/25/25-30558.0.pdf":"2026-10-19",
+"https://www.ca5.uscourts.gov/opinions/unpub/25/25-30623.0.pdf":"2026-11-02",
 "https://www.ca5.uscourts.gov/opinions/unpub/25/25-30674.0.pdf":"2026-10-21",
 "https://www.ca5.uscourts.gov/opinions/unpub/25/25-40300.0.pdf":"2026-10-20",
 "https://www.ca5.uscourts.gov/opinions/unpub/25/25-40402.0.pdf":"2026-10-20",
@@ -109,6 +110,7 @@
 "https://www.ca5.uscourts.gov/opinions/unpub/26/26-30100.0.pdf":"2026-10-19",
 "https://www.ca5.uscourts.gov/opinions/unpub/26/26-30155.0.pdf":"2026-10-19",
 "https://www.ca5.uscourts.gov/opinions/unpub/26/26-30168.0.pdf":"2026-10-19",
+"https://www.ca5.uscourts.gov/opinions/unpub/26/26-30227.0.pdf":"2026-11-02",
 "https://www.ca5.uscourts.gov/opinions/unpub/26/26-40006.0.pdf":"2026-10-28",
 "https://www.ca5.uscourts.gov/opinions/unpub/26/26-40103.0.pdf":"2026-10-23",
 "https://www.ca5.uscourts.gov/opinions/unpub/26/26-40118.0.pdf":"2026-10-27",
@@ -145,6 +147,19 @@
 "https://www.ca5.uscourts.gov/opinions/unpub/26/26-60298.0.pdf":"2026-10-30"
 },
 "appeals":[
+{
+"ca5":"26-30227",
+"caption":"Tiller v. Capital One",
+"pdf":"https://www.ca5.uscourts.gov/opinions/unpub/26/26-30227.0.pdf",
+"kind":"Unpublished Opinion",
+"date":"2026-11-02",
+"district":"Eastern District of Louisiana",
+"usdc":"2:25-cv-01658",
+"disposition":"Dismissed",
+"pages":3,
+"case":"2:25-cv-01658",
+"seen":"2026-11-02"
+},
 {
 "ca5":"25-30524",
 "caption":"Bodin v. New Orleans",
