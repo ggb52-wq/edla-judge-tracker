@@ -482,7 +482,13 @@
 {"date":"2026-11-01","time":"17:52","judge":"EEF","case":"2:25-cv-02234","doc":"23","title":"Volter v. James Marine Hahnville, LLC et al","event":"Compel","submit":"","src":"rss"},
 {"date":"2026-11-01","time":"17:54","judge":"EEF","case":"2:25-cv-02234","doc":"24","title":"Volter v. James Marine Hahnville, LLC et al","event":"Expedite","submit":"","src":"rss"},
 {"date":"2026-11-02","time":"08:11","judge":"DJP","case":"2:21-cv-01855","doc":"170","title":"Nevarez v. Coleman et al","event":"Expedite","submit":"","src":"rss"},
+{"date":"2026-11-02","time":"09:39","judge":"EEF","case":"2:23-cv-04241","doc":"179","title":"Evans v. Taylor Seidenbach, Inc. et al","event":"Dismiss Party","submit":"","src":"rss"},
 {"date":"2026-11-02","time":"08:14","judge":"NJB","case":"2:24-cv-00871","doc":"706","title":"Constanza et al v. Sparta Insurance Company et al","event":"Dismiss Party","submit":"","src":"rss"},
+{"date":"2026-11-02","time":"09:39","judge":"WBV","case":"2:25-cv-00447","doc":"79","title":"Jones v. Savage Refinery Services, LLC et al","event":"Appoint Counsel","submit":"","src":"rss"},
+{"date":"2026-11-02","time":"09:41","judge":"JTM","case":"2:25-cv-02005","doc":"52","title":"Allen v. W&T Offshore Inc et al","event":"Leave to File Document","submit":"","src":"rss"},
 {"date":"2026-11-02","time":"08:58","judge":"SM","case":"2:25-cv-02444","doc":"28","title":"Russell et al v. Knight McHenry et al","event":"Leave to File Document","submit":"","src":"rss"},
-{"date":"2026-11-02","time":"09:14","judge":"WBV","case":"2:26-cv-01929","doc":"34","title":"Bunch v. IDscan.net, Inc.","event":"Extension of Time to Answer","submit":"","src":"rss"}
+{"date":"2026-11-02","time":"09:18","judge":"","case":"2:26-cv-00599","doc":"6","title":"LaPorte, A Professional Accounting Corporation v. Inflo Group Limited","event":"Dismiss Case","submit":"","src":"rss"},
+{"date":"2026-11-02","time":"09:25","judge":"WJC","case":"2:26-cv-01400","doc":"20","title":"Fosselman v. Sazerac Company Inc","event":"Leave to File Document","submit":"","src":"rss"},
+{"date":"2026-11-02","time":"09:14","judge":"WBV","case":"2:26-cv-01929","doc":"34","title":"Bunch v. IDscan.net, Inc.","event":"Extension of Time to Answer","submit":"","src":"rss"},
+{"date":"2026-11-02","time":"09:38","judge":"WBV","case":"2:26-cv-01929","doc":"35","title":"Bunch v. IDscan.net, Inc.","event":"Appear Pro Hac Vice","submit":"","src":"rss"}
 ]
