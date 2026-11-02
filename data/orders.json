@@ -2585,5 +2585,8 @@
 {"date":"2026-10-31","time":"20:23","judge":"DJP","case":"2:22-cv-01271","doc":"296","title":"Hutchinson-Harper, et al v. Jefferson Parish School Board, et al","event":"Order","src":"rss"},
 {"date":"2026-11-01","time":"11:27","judge":"DJP","case":"2:22-cv-01271","doc":"298","title":"Hutchinson-Harper, et al v. Jefferson Parish School Board, et al","event":"Order","src":"rss"},
 {"date":"2026-11-01","time":"18:55","judge":"DJP","case":"2:22-cv-01271","doc":"299","title":"Hutchinson-Harper v. Jefferson Parish School Board","event":"Order","src":"courtlistener"},
-{"date":"2026-11-02","time":"09:01","judge":"JCZ","case":"2:25-cv-01013","doc":"50","title":"Sears v. LHC Group, Inc.","event":"Order","src":"rss"}
+{"date":"2026-11-02","time":"09:01","judge":"JCZ","case":"2:25-cv-01013","doc":"50","title":"Sears v. LHC Group, Inc.","event":"Order","src":"rss"},
+{"date":"2026-11-02","time":"10:42","judge":"DPC","case":"2:26-cv-00808","doc":"19","title":"McKillop v. Social Security Administration","event":"Judgment","src":"rss"},
+{"date":"2026-11-02","time":"11:09","judge":"ASJ","case":"2:26-cv-01496","doc":"11","title":"Boatman v. General Motors LLC","event":"Order Dismissing Case","src":"rss"},
+{"date":"2026-11-02","time":"11:15","judge":"EEF","case":"2:25-cv-02420","doc":"25","title":"Wells Fargo Bank, N.A. v. Commonwealth Land Title Insurance Company","event":"Order","src":"rss"}
 ]
