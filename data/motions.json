@@ -530,6 +530,7 @@
 {"date":"2026-11-02","time":"15:39","judge":"WBV","case":"2:26-cv-01929","doc":"39","title":"Bunch v. IDscan.net, Inc.","event":"Appear Pro Hac Vice","submit":"","src":"rss"},
 {"date":"2026-11-02","time":"17:32","judge":"WBV","case":"2:26-cv-01929","doc":"40","title":"Bunch v. IDscan.net, Inc.","event":"Appear Pro Hac Vice","submit":"","src":"rss"},
 {"date":"2026-11-02","time":"10:20","judge":"BWA","case":"2:26-cv-02129","doc":"20","title":"Hambrick v. Walgreen Co.","event":"Leave to File Document","submit":"","src":"rss"},
+{"date":"2026-11-02","time":"17:21","judge":"EEF","case":"2:26-cv-02176","doc":"24","title":"Hutchins v. GMB Management LLC","event":"Leave to File Document","submit":"","src":"rss"},
 {"date":"2026-11-02","time":"15:42","judge":"ASJ","case":"2:26-cv-02238","doc":"31","title":"Doss et al v. Pate et al","event":"Substitute Attorney","submit":"","src":"rss"},
 {"date":"2026-11-02","time":"15:47","judge":"ASJ","case":"2:26-cv-02238","doc":"32","title":"Doss et al v. Pate et al","event":"Extension of Time to Answer","submit":"","src":"rss"},
 {"date":"2026-11-02","time":"14:31","judge":"ILRL","case":"2:26-cv-02352","doc":"7","title":"Warner et al v. Cabrera et al","event":"Remand to State Court","submit":"","src":"rss"},
@@ -539,6 +540,11 @@
 {"date":"2026-11-02","time":"12:19","judge":"","case":"2:26-cv-02508","doc":"2","title":"Monroe v. Vannoy et al","event":"Proceed In Forma Pauperis","submit":"","src":"rss"},
 {"date":"2026-11-02","time":"15:28","judge":"EEF","case":"2:26-cv-02510","doc":"2","title":"Patterson v. Dominic-Chenier et al","event":"Proceed In Forma Pauperis","submit":"","src":"rss"},
 {"date":"2026-11-03","time":"08:49","judge":"EEF","case":"2:18-cv-05215","doc":"87","title":"Plaquemines Parish v. Exchange Oil & Gas Corporation et al","event":"Enroll as Counsel of Record","submit":"","src":"rss"},
+{"date":"2026-11-03","time":"09:27","judge":"GGG","case":"2:24-cv-02435","doc":"253","title":"Roderick v. Taylor-Seidenbach, Inc. et al","event":"Dismiss Party","submit":"","src":"rss"},
+{"date":"2026-11-03","time":"09:41","judge":"CJB","case":"2:25-cv-01376","doc":"52","title":"Connick et al v. Western Concrete Pumping, Inc. et al","event":"Continue","submit":"","src":"rss"},
 {"date":"2026-11-03","time":"07:43","judge":"","case":"2:25-cv-01759","doc":"19","title":"Executive Marine Service LLC v. Fourchon Launch Services, LLC","event":"Extension of Deadlines","submit":"","src":"rss"},
-{"date":"2026-11-03","time":"08:06","judge":"JTM","case":"2:25-cv-02031","doc":"54","title":"Kelley v. Rogow et al","event":"Leave to File Document","submit":"","src":"rss"}
+{"date":"2026-11-03","time":"08:06","judge":"JTM","case":"2:25-cv-02031","doc":"54","title":"Kelley v. Rogow et al","event":"Leave to File Document","submit":"","src":"rss"},
+{"date":"2026-11-03","time":"10:11","judge":"JCZ","case":"2:26-cv-00039","doc":"39","title":"Golden v. Ford","event":"Reopen Case","submit":"","src":"rss"},
+{"date":"2026-11-03","time":"09:25","judge":"GGG","case":"2:26-cv-01519","doc":"11","title":"Ton v. J Sercovich LLC et al","event":"Continue","submit":"","src":"rss"},
+{"date":"2026-11-03","time":"09:36","judge":"","case":"2:26-cv-02519","doc":"2","title":"Urena v. Social Security Administration","event":"Proceed In Forma Pauperis","submit":"","src":"rss"}
 ]
