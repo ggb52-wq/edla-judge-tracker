@@ -2672,5 +2672,6 @@
 {"date":"2026-11-02","time":"17:00","judge":"EEF","case":"2:26-cv-02510","doc":"4","title":"Patterson v. Dominic-Chenier","event":"Order AND ~Util - Set/Clear Flags","src":"courtlistener"},
 {"date":"2026-11-02","time":"17:02","judge":"EEF","case":"2:26-cv-02510","doc":"5","title":"Patterson v. Dominic-Chenier","event":"Order","src":"courtlistener"},
 {"date":"2026-11-02","time":"17:03","judge":"","case":"2:26-cv-01845","doc":"7","title":"Ultimar DMCC v. American River Transportation Co. LLC","event":"Order AND ~Util - Create Case Association AND ~Util - Set/Clear Flags","src":"courtlistener"},
-{"date":"2026-11-02","time":"17:07","judge":"EEF","case":"2:26-cv-00175","doc":"20","title":"Bulker Bee 30 Shipping B.V. v. American River Transportation Co., LLC","event":"Order on Motion to Consolidate Cases","src":"courtlistener"}
+{"date":"2026-11-02","time":"17:07","judge":"EEF","case":"2:26-cv-00175","doc":"20","title":"Bulker Bee 30 Shipping B.V. v. American River Transportation Co., LLC","event":"Order on Motion to Consolidate Cases","src":"courtlistener"},
+{"date":"2026-11-03","time":"08:36","judge":"EJD","case":"2:25-cv-01718","doc":"85","title":"Varnado v. Lynd Management Group  et al","event":"Order Dismissing Case","src":"rss"}
 ]
