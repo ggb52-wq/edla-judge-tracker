@@ -2919,13 +2919,5 @@
 {"at":"2026-10-20T12:10-05:00","case":"2:24-cv-01933","doc":"379","event":"~Util - Terminate Motions","title":"Tran v. Gulf Coast Bank & Trust Company et al","judge":"WBV"},
 {"at":"2026-10-20T12:10-05:00","case":"2:24-cv-01933","doc":"379","event":"Jury Trial - Begun","title":"Tran v. Gulf Coast Bank & Trust Company et al","judge":"WBV"},
 {"at":"2026-10-20T11:56-05:00","case":"2:23-cv-04241","doc":"174","event":"Dismiss","title":"Evans v. Taylor Seidenbach, Inc. et al","judge":"EEF"},
-{"at":"2026-10-20T11:56-05:00","case":"2:23-cv-04241","doc":"174","event":"Dismiss Party","title":"Evans v. Taylor Seidenbach, Inc. et al","judge":"EEF"},
-{"at":"2026-10-20T11:49-05:00","case":"2:25-cv-01418","doc":"40","event":"Order","title":"Youngblood v. Turner et al","judge":"BWA"},
-{"at":"2026-10-20T11:48-05:00","case":"2:26-cv-01912","doc":"12","event":"Order on Motion for Leave to File","title":"Louisiana State v. Express Scripts, Inc. et al","judge":"LMA"},
-{"at":"2026-10-20T11:47-05:00","case":"2:24-cv-01398","doc":"27","event":"Certificate of Appealability Denied by USDC","title":"Vince v. Hooper et al","judge":"BSL"},
-{"at":"2026-10-20T11:45-05:00","case":"2:26-cv-01727","doc":"8","event":"Order on Motion for Extension of Time to Answer","title":"Dillin v. United States of America","judge":""},
-{"at":"2026-10-20T11:45-05:00","case":"2:25-cv-02463","doc":"82","event":"Response/Memorandum in Opposition to Motion","title":"Smith v. Jefferson Parish et al","judge":"WBV"},
-{"at":"2026-10-20T11:45-05:00","case":"2:25-cv-02297","doc":"12","event":"Exhibit List","title":"Beevers v. Wal-Mart Louisiana, LLC","judge":""},
-{"at":"2026-10-20T11:45-05:00","case":"2:25-cv-02297","doc":"11","event":"Witness List","title":"Beevers v. Wal-Mart Louisiana, LLC","judge":""},
-{"at":"2026-10-20T11:43-05:00","case":"2:24-cv-02312","doc":"89","event":"Appeal Transcript Request","title":"Moore v. Turn Services, LLC","judge":"GGG"}
+{"at":"2026-10-20T11:56-05:00","case":"2:23-cv-04241","doc":"174","event":"Dismiss Party","title":"Evans v. Taylor Seidenbach, Inc. et al","judge":"EEF"}
 ]
