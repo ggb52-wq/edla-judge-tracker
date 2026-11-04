@@ -204,7 +204,7 @@
 {"at":"2026-11-03T13:01-06:00","case":"2:26-cv-01298","doc":"20","event":"Response/Memorandum in Opposition to Motion","title":"Davis v. Kirkpatrick et al","judge":"SSV"},
 {"at":"2026-11-03T13:01-06:00","case":"2:25-cv-02025","doc":"44","event":"Seizure Warrant Returned Executed","title":"Siemens Financial Services, Inc. v. Pontchartrain Partners, LLC","judge":""},
 {"at":"2026-11-03T13:00-06:00","case":"2:26-cv-02521","doc":"1","event":"Complaint","title":"Skinner v. Tiktok Inc","judge":""},
-{"at":"2026-11-03T13:00-06:00","case":"2:19-cv-12113","doc":"58","event":"Order on Motion to Dismiss Case","title":"Ruiz v. BP Exploration & Production, Inc. et al","judge":""},
+{"at":"2026-11-03T13:00-06:00","case":"2:19-cv-12113","doc":"58","event":"Order on Motion to Dismiss Case","title":"Ruiz v. BP Exploration & Production, Inc. et al","judge":"WBV"},
 {"at":"2026-11-03T12:58-06:00","case":"2:25-cv-02025","doc":"43","event":"Seizure Warrant Returned Executed","title":"Siemens Financial Services, Inc. v. Pontchartrain Partners, LLC","judge":""},
 {"at":"2026-11-03T12:56-06:00","case":"2:26-cv-02525","doc":"3","event":"Statement of Corporate Disclosure","title":"Gourrier et al v. Progressive Paloverde Insurance Company","judge":""},
 {"at":"2026-11-03T12:55-06:00","case":"2:26-cv-00662","doc":"28","event":"Amended Complaint","title":"Eugene et al v. Talos Energy Offshore LLC et al","judge":"SSV"},
@@ -2958,6 +2958,5 @@
 {"at":"2026-10-21T08:31-05:00","case":"2:26-cv-01638","doc":"37","event":"Statement of Corporate Disclosure","title":"Pontious v. Taylor-Seidenbach Inc. et al","judge":""},
 {"at":"2026-10-21T08:30-05:00","case":"2:26-cv-01638","doc":"36","event":"Answer to Complaint","title":"Pontious v. Taylor-Seidenbach Inc. et al","judge":""},
 {"at":"2026-10-21T08:08-05:00","case":"2:26-cv-00434","doc":"","event":"Correction of Docket Entry by Clerk","title":"Lightfoot et al v. Progressive Direct Insurance Company et al","judge":"SM"},
-{"at":"2026-10-21T08:02-05:00","case":"2:26-cv-00695","doc":"107","event":"Answer to Amended Complaint","title":"Coleman v. Taylor-Seidenbach, Inc. et al","judge":"SSV"},
-{"at":"2026-10-21T07:55-05:00","case":"2:26-cv-02416","doc":"","event":"Initial Case Assignment","title":"Fabre et al v. Extex Operating Company et al","judge":""}
+{"at":"2026-10-21T08:02-05:00","case":"2:26-cv-00695","doc":"107","event":"Answer to Amended Complaint","title":"Coleman v. Taylor-Seidenbach, Inc. et al","judge":"SSV"}
 ]

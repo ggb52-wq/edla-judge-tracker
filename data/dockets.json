@@ -6382,7 +6382,7 @@
 ],
 "docket_id":6874206,
 "judge":"EEF",
-"seen":"2026-11-03",
+"seen":"2026-11-04",
 "flags":[
 "APPEAL",
 "CLOSED",
@@ -7183,7 +7183,7 @@
 ],
 "docket_id":6882139,
 "judge":"CJB",
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:18-cv-05242",
@@ -8628,6 +8628,50 @@
 "referred":"Michael B. North"
 },
 {
+"case":"2:19-cv-12113",
+"referred":"Janis Van Meerveld",
+"nos":"360 Other personal liability",
+"cause":"28:1333 Personal Injury",
+"jury":"None",
+"jurisdiction":"Diversity",
+"filed":"2019-08-09",
+"terminated":"2020-06-29",
+"parties":[
+"Alfredo Ruiz",
+"BP America Production Company, Inc.",
+"BP Exploration & Production, Inc."
+],
+"attorneys":[
+"Alfredo Ruiz",
+"Brady C. McMillin",
+"Brady McNeil Hadden",
+"Catherine Pyune McEldowney",
+"Charles B. Wilmore",
+"Devin C. Reid",
+"Don Keller Haycraft",
+"Elizabeth S. Wheeler",
+"Frank Jacob D'Amico , Jr.",
+"Georgia Lee Lucier",
+"Jonathan J Fox",
+"Kevin Michael Hodges",
+"Randy James Marse",
+"Russell Keith Jarrett",
+"Sara Grace Sirera",
+"Scott C. Seiler"
+],
+"firms":[
+"Alfredo Ruiz",
+"Frank J. D'Amico, JR., Aplc",
+"Liskow & Lewis",
+"Maron Marvel Bradley and Anderson LLC",
+"Nixon Peabody LLP",
+"Williams & Connolly"
+],
+"docket_id":16037755,
+"judge":"WBV",
+"seen":"2026-11-04"
+},
+{
 "case":"2:19-cv-12212",
 "nos":"Prisoner: Civil Rights",
 "cause":"42:1983 Prisoner Civil Rights",
@@ -9645,7 +9689,7 @@
 ],
 "docket_id":17295077,
 "judge":"SM",
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:20-cv-01843",
@@ -13868,7 +13912,7 @@
 ],
 "docket_id":60640187,
 "judge":"DJP",
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:21-cv-01858",
@@ -14577,7 +14621,7 @@
 ],
 "docket_id":61562549,
 "judge":"ILRL",
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:21-cv-02154",
@@ -18448,7 +18492,7 @@
 ],
 "docket_id":63332695,
 "judge":"DJP",
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:22-cv-01462",
@@ -21559,7 +21603,7 @@
 ],
 "docket_id":65377300,
 "judge":"LMA",
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:22-cv-03491",
@@ -33257,7 +33301,7 @@
 ],
 "docket_id":68008560,
 "judge":"SM",
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:23-cv-06834",
@@ -35628,7 +35672,7 @@
 ],
 "docket_id":68340463,
 "judge":"EEF",
-"seen":"2026-11-03",
+"seen":"2026-11-04",
 "flags":[
 "PROTO",
 "REOPEN"
@@ -36041,7 +36085,7 @@
 ],
 "docket_id":68413527,
 "judge":"NJB",
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:24-cv-00872",
@@ -38292,7 +38336,7 @@
 ],
 "docket_id":69011200,
 "judge":"WBV",
-"seen":"2026-11-03",
+"seen":"2026-11-04",
 "flags":[
 "PROTO"
 ]
@@ -38541,7 +38585,7 @@
 ],
 "docket_id":69057353,
 "judge":"ILRL",
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:24-cv-02027",
@@ -39717,7 +39761,7 @@
 ],
 "docket_id":69239402,
 "judge":"GGG",
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:24-cv-02439",
@@ -40586,7 +40630,7 @@
 ],
 "docket_id":69410620,
 "judge":"SM",
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:24-cv-02748",
@@ -41121,7 +41165,7 @@
 ],
 "docket_id":69462138,
 "judge":"EEF",
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:24-cv-02867",
@@ -42543,7 +42587,7 @@
 ],
 "docket_id":69692526,
 "judge":"WJC",
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:25-cv-00425",
@@ -42665,7 +42709,9 @@
 ],
 "docket_id":69714112,
 "judge":"WBV",
-"seen":"2026-11-03"
+"seen":"2026-11-04",
+"nos":"Civil Rights: Jobs",
+"cause":"42:2000e Job Discrimination (Employment)"
 },
 {
 "case":"2:25-cv-00450",
@@ -42829,7 +42875,7 @@
 ],
 "docket_id":69739005,
 "judge":"SM",
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:25-cv-00504",
@@ -43813,7 +43859,7 @@
 ],
 "docket_id":69908076,
 "judge":"CJB",
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:25-cv-00764",
@@ -43841,7 +43887,7 @@
 ],
 "docket_id":69918220,
 "judge":"CJB",
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:25-cv-00775",
@@ -44098,7 +44144,7 @@
 ],
 "docket_id":69939706,
 "judge":"SM",
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:25-cv-00805",
@@ -45325,7 +45371,7 @@
 ],
 "docket_id":70516963,
 "judge":"JCZ",
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:25-cv-01196",
@@ -46198,7 +46244,7 @@
 "Venture Global LNG, Inc."
 ],
 "docket_id":70726424,
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:25-cv-01395",
@@ -46815,7 +46861,7 @@
 ],
 "docket_id":70896435,
 "judge":"SM",
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:25-cv-01520",
@@ -47249,7 +47295,7 @@
 ],
 "docket_id":71101686,
 "judge":"CJB",
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:25-cv-01672",
@@ -47367,6 +47413,18 @@
 "referred":"Michael B. North"
 },
 {
+"case":"2:25-cv-01714",
+"referred":"Donna Phillips Currault",
+"filed":"2025-08-20",
+"parties":[
+"Crown Medical Management Group, LLC",
+"Ridgeway"
+],
+"docket_id":71158256,
+"judge":"SM",
+"seen":"2026-11-04"
+},
+{
 "case":"2:25-cv-01716",
 "nos":"Social Security: SSID Tit. XVI",
 "cause":"42:405 Review of HHS Decision (SSID)",
@@ -47392,7 +47450,7 @@
 ],
 "docket_id":71167959,
 "judge":"EEF",
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:25-cv-01721",
@@ -47698,7 +47756,7 @@
 ],
 "docket_id":71213606,
 "judge":"JTM",
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:25-cv-01762",
@@ -49191,7 +49249,7 @@
 ],
 "docket_id":71818139,
 "judge":"WJC",
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:25-cv-02213",
@@ -49223,7 +49281,9 @@
 ],
 "docket_id":71802933,
 "judge":"EEF",
-"seen":"2026-11-03"
+"seen":"2026-11-04",
+"nos":"Contract: Other",
+"cause":"15:1681 Fair Credit Reporting Act"
 },
 {
 "case":"2:25-cv-02221",
@@ -49281,7 +49341,7 @@
 ],
 "docket_id":71840346,
 "judge":"EEF",
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:25-cv-02237",
@@ -49318,7 +49378,7 @@
 ],
 "docket_id":71843255,
 "judge":"DJP",
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:25-cv-02240",
@@ -50093,7 +50153,7 @@
 ],
 "docket_id":72001892,
 "judge":"SM",
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:25-cv-02445",
@@ -50893,7 +50953,7 @@
 ],
 "docket_id":72172773,
 "judge":"SM",
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-00147",
@@ -51465,7 +51525,7 @@
 ],
 "docket_id":72279467,
 "judge":"JCZ",
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-00339",
@@ -51532,7 +51592,7 @@
 ],
 "docket_id":72280067,
 "judge":"NJB",
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-00347",
@@ -51762,7 +51822,7 @@
 ],
 "docket_id":72343746,
 "judge":"NJB",
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-00437",
@@ -51984,7 +52044,7 @@
 ],
 "docket_id":72415092,
 "judge":"WJC",
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-00537",
@@ -52094,7 +52154,7 @@
 ],
 "docket_id":72518468,
 "judge":"CJB",
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-00604",
@@ -52213,7 +52273,7 @@
 ],
 "docket_id":73103628,
 "judge":"SSV",
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-00664",
@@ -52377,7 +52437,7 @@
 "Redman"
 ],
 "docket_id":73136363,
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-00710",
@@ -52448,7 +52508,7 @@
 ],
 "docket_id":73158757,
 "judge":"EEF",
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-00727",
@@ -52989,7 +53049,7 @@
 ],
 "docket_id":73291416,
 "judge":"BWA",
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-00946",
@@ -53005,7 +53065,7 @@
 "National Railroad Passenger Corporation (Amtrak)"
 ],
 "docket_id":73292289,
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-00948",
@@ -53146,7 +53206,7 @@
 ],
 "docket_id":73324149,
 "judge":"SM",
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-01002",
@@ -53240,7 +53300,7 @@
 ],
 "docket_id":73336652,
 "judge":"SSV",
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-01024",
@@ -53452,7 +53512,7 @@
 ],
 "docket_id":73350004,
 "judge":"CJB",
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-01050",
@@ -53465,7 +53525,7 @@
 "Petroleum Fuel and Terminal Company"
 ],
 "docket_id":73350725,
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-01052",
@@ -53546,7 +53606,7 @@
 ],
 "docket_id":73365486,
 "judge":"NJB",
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-01087",
@@ -54040,7 +54100,7 @@
 ],
 "docket_id":73469122,
 "judge":"EEF",
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-01259",
@@ -54107,7 +54167,7 @@
 ],
 "docket_id":73480127,
 "judge":"SM",
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-01272",
@@ -54133,7 +54193,7 @@
 ],
 "docket_id":73484203,
 "judge":"ILRL",
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-01282",
@@ -54165,7 +54225,7 @@
 "Chetta-Faulkner"
 ],
 "docket_id":73491619,
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-01294",
@@ -54474,7 +54534,7 @@
 ],
 "docket_id":73553430,
 "judge":"BSL",
-"seen":"2026-10-31"
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-01413",
@@ -54582,7 +54642,7 @@
 "Young Audiences Charter Association"
 ],
 "docket_id":73576164,
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-01439",
@@ -54749,7 +54809,7 @@
 "Hoist & Crane Service Group, Inc."
 ],
 "docket_id":73601709,
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-01519",
@@ -54774,7 +54834,7 @@
 ],
 "docket_id":73601706,
 "judge":"GGG",
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-01526",
@@ -54926,7 +54986,7 @@
 ],
 "docket_id":73627080,
 "judge":"SSV",
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-01568",
@@ -55078,7 +55138,7 @@
 ],
 "docket_id":73657965,
 "judge":"BWA",
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-01604",
@@ -55237,7 +55297,7 @@
 "Mitchell"
 ],
 "docket_id":73684782,
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-01662",
@@ -55302,7 +55362,7 @@
 "United States"
 ],
 "docket_id":73696597,
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-01671",
@@ -55375,7 +55435,7 @@
 "Rogers"
 ],
 "docket_id":73708410,
-"seen":"2026-11-03",
+"seen":"2026-11-04",
 "nos":"Civil Rights: Jobs",
 "cause":"42:2000e Job Discrimination (Employment)"
 },
@@ -55413,7 +55473,7 @@
 ],
 "docket_id":73719251,
 "judge":"SSV",
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-01707",
@@ -55477,7 +55537,7 @@
 ],
 "docket_id":73720629,
 "judge":"EEF",
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-01720",
@@ -55489,7 +55549,7 @@
 ],
 "docket_id":73724106,
 "judge":"JTM",
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-01726",
@@ -55501,7 +55561,7 @@
 ],
 "docket_id":73731610,
 "judge":"LMA",
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-01727",
@@ -55558,7 +55618,7 @@
 ],
 "docket_id":73734732,
 "judge":"WBV",
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-01747",
@@ -55686,7 +55746,7 @@
 ],
 "docket_id":74647074,
 "judge":"GGG",
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-01790",
@@ -55712,7 +55772,7 @@
 ],
 "docket_id":74652161,
 "judge":"AJ",
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-01794",
@@ -56084,7 +56144,7 @@
 ],
 "docket_id":74699592,
 "judge":"JTM",
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-01880",
@@ -56245,7 +56305,7 @@
 ],
 "docket_id":74742547,
 "judge":"WBV",
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-01930",
@@ -56779,7 +56839,7 @@
 "Most & Associates"
 ],
 "docket_id":74782830,
-"seen":"2026-11-03",
+"seen":"2026-11-04",
 "referred":"Janis Van Meerveld",
 "judge":"EEF"
 },
@@ -56825,7 +56885,7 @@
 ],
 "docket_id":74786188,
 "judge":"EEF",
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-02051",
@@ -57080,7 +57140,7 @@
 ],
 "docket_id":74834407,
 "judge":"LMA",
-"seen":"2026-11-03",
+"seen":"2026-11-04",
 "nos":"Insurance",
 "cause":"28:1332 Diversity-Insurance Contract"
 },
@@ -57201,7 +57261,7 @@
 ],
 "docket_id":74860921,
 "judge":"GGG",
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-02168",
@@ -57338,7 +57398,7 @@
 ],
 "docket_id":74885827,
 "judge":"BSL",
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-02226",
@@ -57394,7 +57454,7 @@
 "Pate"
 ],
 "docket_id":74911739,
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-02259",
@@ -57406,7 +57466,7 @@
 ],
 "docket_id":74927084,
 "judge":"JCZ",
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-02284",
@@ -57967,7 +58027,7 @@
 "case":"2:26-cv-02504",
 "filed":"2026-10-30",
 "docket_id":75050358,
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-02505",
@@ -57990,7 +58050,7 @@
 ],
 "docket_id":75051054,
 "judge":"SM",
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-02510",
@@ -58012,7 +58072,7 @@
 "ElementUS Minerals LLC"
 ],
 "docket_id":75060158,
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-02525",
@@ -58022,7 +58082,7 @@
 "Progressive Paloverde Insurance Company"
 ],
 "docket_id":75064267,
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:65-cv-15556",
