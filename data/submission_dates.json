@@ -1,5 +1,5 @@
 {
-"checked":"2026-11-03T21:52-06:00",
+"checked":"2026-11-04T17:55-06:00",
 "judges":{
 "ASJ":{
 "section":"N",
@@ -36,7 +36,7 @@
 ],
 "day":"Wednesdays",
 "time":"9:30 AM",
-"updated":"03-Nov-26, 12:01 AM"
+"updated":"04-Nov-26, 12:01 AM"
 },
 "BSL":{
 "section":"O",
@@ -71,7 +71,7 @@
 ],
 "day":"Wednesdays",
 "time":"10:00 AM",
-"updated":"03-Nov-26, 12:01 AM"
+"updated":"04-Nov-26, 12:01 AM"
 },
 "BWA":{
 "section":"M",
@@ -107,7 +107,7 @@
 ],
 "day":"Thursdays",
 "time":"10:00 AM",
-"updated":"03-Nov-26, 12:01 AM"
+"updated":"04-Nov-26, 12:01 AM"
 },
 "CJB":{
 "section":"J",
@@ -145,13 +145,12 @@
 ],
 "day":"Wednesdays",
 "time":"9:30 AM",
-"updated":"03-Nov-26, 12:01 AM"
+"updated":"04-Nov-26, 12:01 AM"
 },
 "DJP":{
 "section":"P",
 "url":"https://www.laed.uscourts.gov/sites/default/files/motion-dates/MoHear_P.htm",
 "dates":[
-"2026-11-18",
 "2026-11-25",
 "2026-12-02",
 "2026-12-09",
@@ -212,13 +211,12 @@
 ],
 "day":"Wednesdays",
 "time":"10:00 AM",
-"updated":"03-Nov-26, 12:01 AM"
+"updated":"04-Nov-26, 12:01 AM"
 },
 "EEF":{
 "section":"L",
 "url":"https://www.laed.uscourts.gov/sites/default/files/motion-dates/MoHear_L.htm",
 "dates":[
-"2026-11-18",
 "2026-12-02",
 "2026-12-16",
 "2027-01-06",
@@ -250,13 +248,12 @@
 ],
 "day":"Wednesdays",
 "time":"9:00 AM",
-"updated":"03-Nov-26, 12:01 AM"
+"updated":"04-Nov-26, 12:01 AM"
 },
 "GGG":{
 "section":"T",
 "url":"https://www.laed.uscourts.gov/sites/default/files/motion-dates/MoHear_T.htm",
 "dates":[
-"2026-11-18",
 "2026-12-02",
 "2026-12-16",
 "2026-12-30",
@@ -288,13 +285,12 @@
 ],
 "day":"",
 "time":"",
-"updated":"03-Nov-26, 12:01 AM"
+"updated":"04-Nov-26, 12:01 AM"
 },
 "ILRL":{
 "section":"B",
 "url":"https://www.laed.uscourts.gov/sites/default/files/motion-dates/MoHear_B.htm",
 "dates":[
-"2026-11-18",
 "2026-12-02",
 "2026-12-16",
 "2027-01-06",
@@ -326,7 +322,7 @@
 ],
 "day":"",
 "time":"",
-"updated":"03-Nov-26, 12:01 AM"
+"updated":"04-Nov-26, 12:01 AM"
 },
 "JCZ":{
 "section":"A",
@@ -362,13 +358,12 @@
 ],
 "day":"Wednesdays",
 "time":"10:30 AM",
-"updated":"03-Nov-26, 12:01 AM"
+"updated":"04-Nov-26, 12:01 AM"
 },
 "JTM":{
 "section":"H",
 "url":"https://www.laed.uscourts.gov/sites/default/files/motion-dates/MoHear_H.htm",
 "dates":[
-"2026-11-18",
 "2026-12-02",
 "2026-12-16",
 "2027-01-13",
@@ -400,13 +395,12 @@
 ],
 "day":"",
 "time":"",
-"updated":"03-Nov-26, 12:01 AM"
+"updated":"04-Nov-26, 12:01 AM"
 },
 "LMA":{
 "section":"I",
 "url":"https://www.laed.uscourts.gov/sites/default/files/motion-dates/MoHear_I.htm",
 "dates":[
-"2026-11-18",
 "2026-12-02",
 "2026-12-16",
 "2027-01-06",
@@ -437,7 +431,7 @@
 ],
 "day":"",
 "time":"",
-"updated":"03-Nov-26, 12:01 AM"
+"updated":"04-Nov-26, 12:01 AM"
 },
 "NJB":{
 "section":"G",
@@ -474,13 +468,12 @@
 ],
 "day":"Wednesdays",
 "time":"10:00 AM",
-"updated":"03-Nov-26, 12:01 AM"
+"updated":"04-Nov-26, 12:01 AM"
 },
 "SM":{
 "section":"E",
 "url":"https://www.laed.uscourts.gov/sites/default/files/motion-dates/MoHear_E.htm",
 "dates":[
-"2026-11-18",
 "2026-12-02",
 "2026-12-16",
 "2026-12-30",
@@ -513,7 +506,7 @@
 ],
 "day":"",
 "time":"",
-"updated":"03-Nov-26, 12:01 AM"
+"updated":"04-Nov-26, 12:01 AM"
 },
 "SSV":{
 "section":"R",
@@ -551,7 +544,7 @@
 ],
 "day":"",
 "time":"",
-"updated":"03-Nov-26, 12:01 AM"
+"updated":"04-Nov-26, 12:01 AM"
 },
 "WBV":{
 "section":"D",
@@ -589,13 +582,12 @@
 ],
 "day":"Tuesdays",
 "time":"9:30 AM",
-"updated":"03-Nov-26, 12:01 AM"
+"updated":"04-Nov-26, 12:01 AM"
 },
 "WJC":{
 "section":"C",
 "url":"https://www.laed.uscourts.gov/sites/default/files/motion-dates/MoHear_C.htm",
 "dates":[
-"2026-11-18",
 "2026-12-09",
 "2026-12-23",
 "2027-01-06",
@@ -627,7 +619,7 @@
 ],
 "day":"Wednesdays",
 "time":"9:00 AM",
-"updated":"03-Nov-26, 12:01 AM"
+"updated":"04-Nov-26, 12:01 AM"
 }
 }
 }
