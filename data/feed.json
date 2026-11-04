@@ -2922,11 +2922,5 @@
 {"at":"2026-10-21T16:41-05:00","case":"2:25-cv-01241","doc":"52","event":"Compel","title":"Magee v. Amazon Corporation LLC et al","judge":"DPC"},
 {"at":"2026-10-21T16:41-05:00","case":"2:25-cv-00725","doc":"51","event":"Terminate Hearings","title":"Bordelon et al v. Jefferson Parish Sheriff's Office et al","judge":"GGG"},
 {"at":"2026-10-21T16:41-05:00","case":"2:25-cv-00725","doc":"51","event":"~Util - Terminate Motions","title":"Bordelon et al v. Jefferson Parish Sheriff's Office et al","judge":"GGG"},
-{"at":"2026-10-21T16:41-05:00","case":"2:25-cv-00725","doc":"51","event":"Order","title":"Bordelon et al v. Jefferson Parish Sheriff's Office et al","judge":"GGG"},
-{"at":"2026-10-21T16:39-05:00","case":"2:26-cv-02424","doc":"","event":"Initial Case Assignment","title":"Henry v. Napoleon Room, Inc","judge":""},
-{"at":"2026-10-21T16:38-05:00","case":"2:26-cv-00253","doc":"59","event":"Response/Reply","title":"Warner v. LSU Health Sciences Center of New Orleans et al","judge":"WBV"},
-{"at":"2026-10-21T16:38-05:00","case":"2:24-cv-00269","doc":"77","event":"Set Hearings","title":"Stennis et al v. The Moorings of Oak Harbor Property Owners' Association LLC et al","judge":"SM"},
-{"at":"2026-10-21T16:38-05:00","case":"2:24-cv-00269","doc":"77","event":"Order","title":"Stennis et al v. The Moorings of Oak Harbor Property Owners' Association LLC et al","judge":"SM"},
-{"at":"2026-10-21T16:37-05:00","case":"2:26-cv-01355","doc":"79","event":"Order on Motion to Substitute Attorney","title":"Adair v. Shell Oil Company et al","judge":"GGG"},
-{"at":"2026-10-21T16:28-05:00","case":"2:26-cv-02397","doc":"28","event":"Order on Motion for Miscellaneous Relief","title":"Delos Navigation Corp. v. STK Line SA, et al","judge":"DJP"}
+{"at":"2026-10-21T16:41-05:00","case":"2:25-cv-00725","doc":"51","event":"Order","title":"Bordelon et al v. Jefferson Parish Sheriff's Office et al","judge":"GGG"}
 ]
