@@ -1,4 +1,6 @@
 [
+{"at":"2026-11-04T19:05-06:00","case":"2:26-cv-01401","doc":"12","event":"Leave to File Document","title":"Luckett v. Johnson et al","judge":"BWA"},
+{"at":"2026-11-04T18:31-06:00","case":"2:26-cv-02077","doc":"6","event":"Summons Returned Executed","title":"Robinson v. Ports America Louisiana, L.L.C. et al","judge":"BSL"},
 {"at":"2026-11-04T18:11-06:00","case":"2:24-cv-01693","doc":"65","event":"Memorandum","title":"Petroclint Baclawsen Services LTD et al v. Clear Water Marine, LLC et al","judge":"DJP"},
 {"at":"2026-11-04T18:07-06:00","case":"2:19-cv-11680","doc":"155","event":"Miscellaneous Relief","title":"Nemzoff v. Louisiana Children's Medical Center, Inc. et al","judge":"DJP"},
 {"at":"2026-11-04T18:06-06:00","case":"2:24-cv-01693","doc":"64","event":"Statement of Corporate Disclosure","title":"Petroclint Baclawsen Services LTD et al v. Clear Water Marine, LLC et al","judge":"DJP"},
@@ -2942,6 +2944,5 @@
 {"at":"2026-10-21T21:16-05:00","case":"2:19-cv-11793","doc":"685","event":"Response to Motion","title":"Muslow et al v. Louisiana State University and Agricultural and Mechanical College et al","judge":"BWA"},
 {"at":"2026-10-21T20:59-05:00","case":"2:26-cv-00894","doc":"50","event":"Response/Memorandum in Opposition to Motion","title":"Lajaunie et al v. American Honda Motor Co., Inc. et al","judge":"BWA"},
 {"at":"2026-10-21T20:36-05:00","case":"2:25-cv-01241","doc":"53","event":"Notice (Other)","title":"Magee v. Amazon Corporation LLC et al","judge":"DPC"},
-{"at":"2026-10-21T19:40-05:00","case":"2:25-cv-00615","doc":"179","event":"Response/Memorandum in Opposition to Motion","title":"LeBlanc v. Huntington Ingalls, Incorporated, et al","judge":"BWA"},
-{"at":"2026-10-21T19:12-05:00","case":"2:26-cv-01654","doc":"10","event":"Extension of Time to File Response/Reply","title":"Robinson v. Vannoy et al","judge":"NJB"}
+{"at":"2026-10-21T19:40-05:00","case":"2:25-cv-00615","doc":"179","event":"Response/Memorandum in Opposition to Motion","title":"LeBlanc v. Huntington Ingalls, Incorporated, et al","judge":"BWA"}
 ]
