@@ -2952,14 +2952,5 @@
 {"at":"2026-10-22T14:01-05:00","case":"2:26-cv-02054","doc":"30","event":"~Util - Set/Clear Flags","title":"IAP Design-Build LLC et al v. Palomar Casualty and Surety Company","judge":"BSL"},
 {"at":"2026-10-22T14:01-05:00","case":"2:26-cv-02054","doc":"30","event":"~Util - Create Case Association","title":"IAP Design-Build LLC et al v. Palomar Casualty and Surety Company","judge":"BSL"},
 {"at":"2026-10-22T14:01-05:00","case":"2:26-cv-02054","doc":"30","event":"Order","title":"IAP Design-Build LLC et al v. Palomar Casualty and Surety Company","judge":"BSL"},
-{"at":"2026-10-22T14:01-05:00","case":"2:18-cv-04234","doc":"159","event":"Order on Motion to Compel","title":"Proctor v. Wound Care Management, LLC et al","judge":"CJB"},
-{"at":"2026-10-22T13:52-05:00","case":"2:25-cv-01521","doc":"29","event":"Notice (Other)","title":"BMO Bank N.A. v. Legacy Load Runners LLC, et al","judge":"WBV"},
-{"at":"2026-10-22T13:51-05:00","case":"2:23-cv-05740","doc":"295","event":"Continue","title":"Hills v. PAC Housing Group, LLC et al","judge":"BWA"},
-{"at":"2026-10-22T13:50-05:00","case":"2:25-cv-01521","doc":"28","event":"Notice of Appearance","title":"BMO Bank N.A. v. Legacy Load Runners LLC, et al","judge":"WBV"},
-{"at":"2026-10-22T13:49-05:00","case":"2:23-cv-04241","doc":"178","event":"Order on Motion to Dismiss Party","title":"Evans v. Taylor Seidenbach, Inc. et al","judge":"EEF"},
-{"at":"2026-10-22T13:43-05:00","case":"2:26-cv-01118","doc":"15","event":"~Util - Set/Reset Deadlines","title":"Jordan v. Westbank Fishing, LLC","judge":""},
-{"at":"2026-10-22T13:43-05:00","case":"2:26-cv-01118","doc":"15","event":"~Util - Terminate Motions","title":"Jordan v. Westbank Fishing, LLC","judge":""},
-{"at":"2026-10-22T13:43-05:00","case":"2:26-cv-01118","doc":"15","event":"Terminate Deadlines and Hearings","title":"Jordan v. Westbank Fishing, LLC","judge":""},
-{"at":"2026-10-22T13:43-05:00","case":"2:26-cv-01118","doc":"15","event":"Order","title":"Jordan v. Westbank Fishing, LLC","judge":""},
-{"at":"2026-10-22T13:42-05:00","case":"2:26-cv-02394","doc":"7","event":"Notice of Removal","title":"Fernandez et al v. State Farm Fire and Casualty Company","judge":"WBV"}
+{"at":"2026-10-22T14:01-05:00","case":"2:18-cv-04234","doc":"159","event":"Order on Motion to Compel","title":"Proctor v. Wound Care Management, LLC et al","judge":"CJB"}
 ]
