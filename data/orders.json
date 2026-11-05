@@ -2861,5 +2861,12 @@
 {"date":"2026-11-04","time":"17:05","judge":"EEF","case":"2:26-cv-00733","doc":"19","title":"Gremillion v. Depuy Synthes Sales, Inc.","event":"Order AND Terminate Hearings AND ~Util - Set/Reset Hearings","src":"courtlistener"},
 {"date":"2026-11-05","time":"09:56","judge":"SM","case":"2:25-cv-02460","doc":"21","title":"Paulin v. Department of Homeland Security","event":"Scheduling Order","src":"rss"},
 {"date":"2026-11-05","time":"09:59","judge":"JCZ","case":"2:26-cv-02345","doc":"8","title":"K&S Hotel, LLC v. State Farm Fire and Casualty Insurance","event":"Set Hearings","src":"rss"},
-{"date":"2026-11-05","time":"10:20","judge":"LMA","case":"2:26-cv-02063","doc":"11","title":"Eason v. Alexander et al","event":"Scheduling Order","src":"rss"}
+{"date":"2026-11-05","time":"10:20","judge":"LMA","case":"2:26-cv-02063","doc":"11","title":"Eason v. Alexander et al","event":"Scheduling Order","src":"rss"},
+{"date":"2026-11-05","time":"10:23","judge":"SM","case":"2:26-cv-01434","doc":"12","title":"Meyn v. Doan","event":"Scheduling Order","src":"rss"},
+{"date":"2026-11-05","time":"10:26","judge":"CJB","case":"2:19-cv-14186","doc":"32","title":"Helou v. Life Insurance Company of North America et al","event":"Judgment","src":"rss"},
+{"date":"2026-11-05","time":"10:43","judge":"SM","case":"2:26-cv-01226","doc":"13","title":"Pineda v. Geaux Chiro LLC et al","event":"Scheduling Order","src":"rss"},
+{"date":"2026-11-05","time":"10:47","judge":"GGG","case":"2:25-cv-00331","doc":"52","title":"Marquardt v. New Orleans City et al","event":"Scheduling Order","src":"rss"},
+{"date":"2026-11-05","time":"10:51","judge":"LMA","case":"2:26-cv-01726","doc":"20","title":"Coleman v. American Sugar Refining, Inc.","event":"Scheduling Order","src":"rss"},
+{"date":"2026-11-05","time":"11:03","judge":"LMA","case":"2:26-cv-01909","doc":"13","title":"Roberts v. Maintenance Dredging I, LLC","event":"Scheduling Order","src":"rss"},
+{"date":"2026-11-05","time":"11:04","judge":"SM","case":"2:24-cv-00269","doc":"81","title":"Stennis et al v. The Moorings of Oak Harbor Property Owners' Associati","event":"Set Hearings","src":"rss"}
 ]
