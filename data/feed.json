@@ -2945,19 +2945,5 @@
 {"at":"2026-10-22T15:55-05:00","case":"2:26-cv-00390","doc":"20","event":"Order","title":"Cox v. Belle Chasse Marine Transportation, LLC et al","judge":"EEF"},
 {"at":"2026-10-22T15:47-05:00","case":"2:25-cv-01406","doc":"243","event":"Notice (Other)","title":"Adams v. Taylor-Seidenbach, Inc. et al","judge":"EEF"},
 {"at":"2026-10-22T15:42-05:00","case":"2:26-cv-00696","doc":"111","event":"Order on Motion to Dismiss Party","title":"Bossier v. Taylor-Seidenbach, Inc. et al","judge":"CJB"},
-{"at":"2026-10-22T15:39-05:00","case":"2:26-cv-00760","doc":"28","event":"Objection to Report and Recommendations","title":"Broussard v. Waste Pro USA, Inc. et al","judge":"CJB"},
-{"at":"2026-10-22T15:38-05:00","case":"2:26-cv-00479","doc":"20","event":"~Util - Set/Reset Deadlines","title":"Banquer v. Trader Joe's East Inc.","judge":"SM"},
-{"at":"2026-10-22T15:38-05:00","case":"2:26-cv-00479","doc":"20","event":"Order","title":"Banquer v. Trader Joe's East Inc.","judge":"SM"},
-{"at":"2026-10-22T15:38-05:00","case":"2:26-cv-00479","doc":"20","event":"~Util - Terminate Motions","title":"Banquer v. Trader Joe's East Inc.","judge":"SM"},
-{"at":"2026-10-22T15:38-05:00","case":"2:26-cv-00479","doc":"20","event":"Terminate Hearings","title":"Banquer v. Trader Joe's East Inc.","judge":"SM"},
-{"at":"2026-10-22T15:36-05:00","case":"2:26-cv-02430","doc":"","event":"Initial Case Assignment","title":"Benjamin v. Vyndiuk et al","judge":"JTM"},
-{"at":"2026-10-22T15:35-05:00","case":"2:26-cv-01709","doc":"23","event":"Response/Memorandum in Support of Motion","title":"O'Donley et al v. LAMNC LLC et al","judge":"WBV"},
-{"at":"2026-10-22T15:33-05:00","case":"2:26-cv-01479","doc":"11","event":"Extension of Time to Answer","title":"Green v. Louisiana Department of Safety and Corrections et al","judge":"GGG"},
-{"at":"2026-10-22T15:32-05:00","case":"2:26-cv-02357","doc":"10","event":"Social Security Response Order","title":"Cooney v. Social Security Administration","judge":"SM"},
-{"at":"2026-10-22T15:32-05:00","case":"2:26-cv-01633","doc":"15","event":"~Util - Terminate Motions","title":"Mohare v. Catholic Charities Archdiocese of New Orleans","judge":"BSL"},
-{"at":"2026-10-22T15:32-05:00","case":"2:26-cv-01633","doc":"15","event":"~Util - Set/Reset Motion and R&R Deadlines/Hearings","title":"Mohare v. Catholic Charities Archdiocese of New Orleans","judge":"BSL"},
-{"at":"2026-10-22T15:32-05:00","case":"2:26-cv-01633","doc":"15","event":"Order","title":"Mohare v. Catholic Charities Archdiocese of New Orleans","judge":"BSL"},
-{"at":"2026-10-22T15:29-05:00","case":"2:25-cv-02366","doc":"19","event":"Protective Order","title":"In The Matter of the Complaint of Tres Marine Corporation","judge":"GGG"},
-{"at":"2026-10-22T15:26-05:00","case":"2:26-cv-02046","doc":"10","event":"Set Hearings","title":"Dunn v. French et al","judge":"JCZ"},
-{"at":"2026-10-22T15:26-05:00","case":"2:26-cv-02046","doc":"10","event":"Order","title":"Dunn v. French et al","judge":"JCZ"}
+{"at":"2026-10-22T15:39-05:00","case":"2:26-cv-00760","doc":"28","event":"Objection to Report and Recommendations","title":"Broussard v. Waste Pro USA, Inc. et al","judge":"CJB"}
 ]
