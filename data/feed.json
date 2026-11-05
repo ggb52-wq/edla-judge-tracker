@@ -2940,17 +2940,5 @@
 {"at":"2026-10-22T14:14-05:00","case":"2:26-cv-01850","doc":"24","event":"Order on Motion for Miscellaneous Relief","title":"Kavanaugh v. Pool Warehouse, LLC","judge":"LMA"},
 {"at":"2026-10-22T14:14-05:00","case":"2:25-cv-01762","doc":"19","event":"Set Hearings","title":"Murry et al v. Gomez et al","judge":"BWA"},
 {"at":"2026-10-22T14:14-05:00","case":"2:25-cv-01762","doc":"19","event":"Order","title":"Murry et al v. Gomez et al","judge":"BWA"},
-{"at":"2026-10-22T14:12-05:00","case":"2:25-cv-02233","doc":"122","event":"Notice (Other)","title":"Schneider v. Taylor Seidenbach et al","judge":"DJP"},
-{"at":"2026-10-22T14:09-05:00","case":"2:26-cv-01404","doc":"28","event":"~Util - Terminate Motions","title":"Gray Insurance Company v. Donald E. Garlikov et al","judge":"BSL"},
-{"at":"2026-10-22T14:09-05:00","case":"2:26-cv-01404","doc":"28","event":"~Util - Set/Clear Flags","title":"Gray Insurance Company v. Donald E. Garlikov et al","judge":"BSL"},
-{"at":"2026-10-22T14:09-05:00","case":"2:26-cv-01404","doc":"28","event":"Order","title":"Gray Insurance Company v. Donald E. Garlikov et al","judge":"BSL"},
-{"at":"2026-10-22T14:08-05:00","case":"2:26-cv-00175","doc":"18","event":"Set Hearings","title":"Bulker Bee 30 Shipping B.V. v. American River Transportation Co., LLC et al","judge":"EEF"},
-{"at":"2026-10-22T14:08-05:00","case":"2:26-cv-00175","doc":"18","event":"Status Conference","title":"Bulker Bee 30 Shipping B.V. v. American River Transportation Co., LLC et al","judge":"EEF"},
-{"at":"2026-10-22T14:06-05:00","case":"2:25-cv-01409","doc":"58","event":"Notice (Other)","title":"Wagner v. Amazon.com, Inc.","judge":"NJB"},
-{"at":"2026-10-22T14:04-05:00","case":"2:25-cv-02341","doc":"32","event":"~Util - Set/Reset Hearings","title":"Horton v. Seatrax Services, Inc. et al","judge":"EEF"},
-{"at":"2026-10-22T14:04-05:00","case":"2:25-cv-02341","doc":"32","event":"Order","title":"Horton v. Seatrax Services, Inc. et al","judge":"EEF"},
-{"at":"2026-10-22T14:01-05:00","case":"2:26-cv-02054","doc":"30","event":"~Util - Set/Clear Flags","title":"IAP Design-Build LLC et al v. Palomar Casualty and Surety Company","judge":"BSL"},
-{"at":"2026-10-22T14:01-05:00","case":"2:26-cv-02054","doc":"30","event":"~Util - Create Case Association","title":"IAP Design-Build LLC et al v. Palomar Casualty and Surety Company","judge":"BSL"},
-{"at":"2026-10-22T14:01-05:00","case":"2:26-cv-02054","doc":"30","event":"Order","title":"IAP Design-Build LLC et al v. Palomar Casualty and Surety Company","judge":"BSL"},
-{"at":"2026-10-22T14:01-05:00","case":"2:18-cv-04234","doc":"159","event":"Order on Motion to Compel","title":"Proctor v. Wound Care Management, LLC et al","judge":"CJB"}
+{"at":"2026-10-22T14:12-05:00","case":"2:25-cv-02233","doc":"122","event":"Notice (Other)","title":"Schneider v. Taylor Seidenbach et al","judge":"DJP"}
 ]
