@@ -45,6 +45,20 @@
 "referred":"Karen Wells Roby"
 },
 {
+"case":"2:06-cv-10751",
+"nos":"Civil Rights: Accommodations",
+"cause":"42:3601 Fair Housing Act",
+"jurisdiction":"Federal question",
+"filed":"2006-12-04",
+"terminated":"2007-07-11",
+"parties":[
+"Corner",
+"Housing Authority of New Orleans"
+],
+"docket_id":5219523,
+"seen":"2026-11-04"
+},
+{
 "case":"2:07-cv-04057",
 "nos":"Real Property: Other",
 "cause":"28:1332 Diversity-Other Contract",
@@ -6476,7 +6490,7 @@
 ],
 "docket_id":6874101,
 "judge":"ILRL",
-"seen":"2026-10-27",
+"seen":"2026-11-04",
 "flags":[
 "REOPEN"
 ]
@@ -6865,7 +6879,7 @@
 ],
 "docket_id":6876963,
 "judge":"EEF",
-"seen":"2026-11-03",
+"seen":"2026-11-04",
 "flags":[
 "APPEAL",
 "CLOSED",
@@ -7303,7 +7317,7 @@
 ],
 "docket_id":6879665,
 "judge":"EEF",
-"seen":"2026-11-03",
+"seen":"2026-11-04",
 "flags":[
 "APPEAL",
 "CLOSED",
@@ -7634,7 +7648,7 @@
 ],
 "docket_id":6883863,
 "judge":"SM",
-"seen":"2026-10-23",
+"seen":"2026-11-04",
 "flags":[
 "APPEAL",
 "CLOSED",
@@ -8930,6 +8944,21 @@
 "CLOSED"
 ],
 "referred":"Karen Wells Roby"
+},
+{
+"case":"2:19-cv-14186",
+"referred":"Dana Marie Douglas",
+"nos":"791 Employee Retirement Income Security Act",
+"jurisdiction":"Federal question",
+"filed":"2019-12-06",
+"terminated":"2021-03-01",
+"parties":[
+"Helou",
+"Life Insurance Company of North America"
+],
+"docket_id":16558446,
+"judge":"CJB",
+"seen":"2026-11-04"
 },
 {
 "case":"2:19-cv-14536",
@@ -19197,7 +19226,7 @@
 ],
 "docket_id":63405206,
 "judge":"BSL",
-"seen":"2026-10-29"
+"seen":"2026-11-04"
 },
 {
 "case":"2:22-cv-01919",
@@ -25079,7 +25108,7 @@
 ],
 "docket_id":66793237,
 "judge":"CJB",
-"seen":"2026-10-31"
+"seen":"2026-11-04"
 },
 {
 "case":"2:23-cv-00471",
@@ -26194,7 +26223,156 @@
 "ASBEST",
 "STAYED"
 ],
-"referred":"Michael B. North"
+"referred":"Michael B. North",
+"jury":"Both",
+"jurisdiction":"Federal Question",
+"filed":"2023-03-31",
+"parties":[
+"Allied Shipyard Inc",
+"Amy Oubre Billiot",
+"Bayer CropScience, Inc.",
+"Berkshire Hathaway Specialty Insurance Company",
+"Bollinger Shipyards, LLC",
+"Brandon Oubre",
+"Certain Underwriters at Lloyd's, London",
+"Cheryl Becnel",
+"Chevron Oronite Company LLC",
+"Darwin Kraemer",
+"Eagle Inc.",
+"First State Insurance Company",
+"Foster Wheeler LLC",
+"Freeport-McMoran Inc.",
+"General Electric Company",
+"Hopeman Brothers Inc",
+"Huntington Ingalls Incorporated",
+"International Paper Company",
+"Kenneth Pierron",
+"Liberty Mutual Insurance Company",
+"Manville Personal Injury Trust",
+"McDermott, Inc.",
+"Michael Kraemer",
+"Mosaic Global Holdings, Inc.",
+"Paramount Global",
+"Paramount Gobal",
+"Pennsylvania General Insurance Company",
+"Pennsylvania Insurance Company",
+"Petrin, LLC",
+"Roseanne Pierron",
+"Taylor Seidenbach, Inc.",
+"Tempcon Inc,",
+"Travelers Indemnity Company",
+"Travelers Insurance Company",
+"Uniroyal Inc.",
+"Wendy Vonlienen",
+"Zurich American Insurance Company"
+],
+"attorneys":[
+"Alec Nelson Andrade",
+"Alexander R Saunders",
+"Alison A. Spindler",
+"Amber Barlow Garcia",
+"Angela M. Bowlin",
+"Autumn Smith",
+"Blaine Augusta Moore",
+"Brady McNeil Hadden",
+"Brittney Bullock Ankersen",
+"Camala E. Capodice",
+"Chandler Agee",
+"Charles B. Wilmore",
+"Chelsea Gaudin Favret",
+"Christopher Kelly Lightfoot",
+"Connor Peth",
+"Daniel J. Caruso",
+"Daniel S Roberts",
+"David F. Bienvenu",
+"David Michael Melancon",
+"Dayal S. Reddy",
+"Desiree Weilbaecher Adams",
+"Devin C. Reid",
+"Donna M. Young",
+"Douglas Kinler",
+"Douglas Watson Redfearn",
+"Edward J. Lassus , Jr.",
+"Edward T. Hayes",
+"Edward Winter Trapolin",
+"Elizabeth Riddell Penn",
+"Erin Casey Hangartner",
+"Forrest Ren Wilkes",
+"Francis Xavier deBlanc , III",
+"Gina Talluto Cursain",
+"Gustave A. Fritchie , III",
+"H. Minor Pipes , III",
+"Haley Zhu-Butler",
+"James R Logan , IV",
+"James R. Guidry",
+"Jamie L. Berger",
+"Jared A. Davidson",
+"Jason K. Elam",
+"Jeffrey Matthew Burg",
+"Jennifer E. Adams",
+"John Joseph Hainkel , III",
+"Jonathan B. Womack",
+"Jonathan Villien",
+"Joseph Jacob Lowenthal , Jr.",
+"Judy Y. Barrasso",
+"Katherine Seegers Roth",
+"Kaye N. Courington",
+"Kelli Murphy Miller",
+"Kelly L. Long",
+"Kelsey Eagan",
+"Kristopher T. Wilson",
+"Kyle W. Siegel",
+"Lawrence Pugh , III",
+"Lee Anthony Callais",
+"Lindsay Rabalais Coussan",
+"Madeleine Fischer",
+"Magali Ann Puente-Martin"
+],
+"firms":[
+"Barrasso Usdin Kupperman Freeman & Sarver",
+"Chandler Agee",
+"Cosmich Simmons & Brown, PLLC (New Orleans)",
+"Courington, Kiefer, Sommers, Marullo & Matherne",
+"Deutsch Kerrigan, LLP",
+"Deutsch Kerrigan, LLP, Deutsch Kerrigan, LLP",
+"Deutsch Kerrigan, Louisiana",
+"Deutsch, Kerrigan & Stiles, LLP (New Orleans)",
+"Forman Watkins & Krutz, LLP",
+"Forman, Watkins & Krutz LLP (New Orleans)",
+"Frilot LLC",
+"Gay Jones & Kuhn",
+"Hailey, McNamara, Hall, Larmann & Papale",
+"Heidelberg Patterson Welch Wright",
+"Husch Blackwell LLP",
+"Husch Blackwell LLP, Louisiana",
+"Irwin Fritchie Urquhart & Moore LLC",
+"Irwin Fritchie Urquhart & Moore LLP",
+"Irwin Fritchie Urquhart & Moore, LLC (New Orleans)",
+"Irwin Fritchie Urquhart Moore & Daniels",
+"Irwin Fritchie Urquhart Moore & Daniels LLC",
+"LLC",
+"Larzelere Picou",
+"Law Offices of James A. Stapp",
+"Liskow & Lewis",
+"Logan Law Offices, LLC",
+"Louisiana",
+"Lugenbuhl Wheaton Peck Rankin & Hubbard",
+"Lugenbuhl, Wheaton, Peck, Rankin & Hubbard (New Orleans)",
+"Morgan Lewis & Bockius LLP",
+"Philip C. Hoffman, LLC",
+"Pipes Miles Beckman, LLC",
+"Pugh Accardo",
+"Pugh Accardo Haas Radecker & Carey",
+"Pugh, Accardo, Haas, Radecker & Carey (New Orleans)",
+"Pugh, Accardo, LLC (New Orleans)",
+"Taylor, Wellons, Politz & Duhe APLC",
+"Taylor, Wellons, Politz & Duhe, APLC (New Orleans)",
+"Taylor, Wellons, Politz & Duhe, LLC",
+"Wanek Kirsch Davies Law Firm"
+],
+"docket_id":67115000,
+"judge":"DJP",
+"seen":"2026-11-04"
 },
 {
 "case":"2:23-cv-01130",
@@ -32037,7 +32215,7 @@
 ],
 "docket_id":67851628,
 "judge":"BWA",
-"seen":"2026-10-23"
+"seen":"2026-11-04"
 },
 {
 "case":"2:23-cv-05751",
@@ -35731,7 +35909,7 @@
 ],
 "docket_id":68356122,
 "judge":"BSL",
-"seen":"2026-10-28"
+"seen":"2026-11-04"
 },
 {
 "case":"2:24-cv-00702",
@@ -37660,7 +37838,7 @@
 ],
 "docket_id":68916281,
 "judge":"DJP",
-"seen":"2026-10-23"
+"seen":"2026-11-04"
 },
 {
 "case":"2:24-cv-01695",
@@ -37914,12 +38092,52 @@
 },
 {
 "case":"2:24-cv-01768",
-"nos":"Civil Rights: Other",
+"nos":"440 Civil Rights: Other",
 "cause":"42:1983 Civil Rights Act",
 "flags":[
 "REOPEN"
 ],
-"referred":"Karen Wells Roby"
+"referred":"Karen Wells Roby",
+"jury":"Plaintiff",
+"jurisdiction":"Federal Question",
+"filed":"2024-07-15",
+"terminated":"2025-10-08",
+"parties":[
+"Allison Monahan",
+"City of New Orleans",
+"Glynn Alexander",
+"James Anderson",
+"Jason R Williams",
+"John Ronquillo",
+"Larry Moses",
+"Patrick Jones",
+"Sergeant Anderson",
+"The Succession of John Ronquillo",
+"The Succession of Patrick Jones",
+"Wayne Rumore"
+],
+"attorneys":[
+"Caroline Gabriel",
+"Corwin St. Raymond",
+"David B Owens",
+"Donesia D. Turner Morrison",
+"Inga Catherine Petrovich",
+"Matthew J. Paul",
+"W. Raley Alford , III",
+"William Brock Most"
+],
+"firms":[
+"City Attorney's Office",
+"City of New Orleans",
+"Hailey, McNamara",
+"Loevy & Loevy",
+"Most & Associates",
+"Stanley Reuter Alford Owen Munson & Paul, LLC",
+"Stanley, Reuter, Ross, Thornton & Alford, LLC"
+],
+"docket_id":68945975,
+"judge":"BWA",
+"seen":"2026-11-04"
 },
 {
 "case":"2:24-cv-01773",
@@ -38481,7 +38699,7 @@
 ],
 "docket_id":69036222,
 "judge":"SSV",
-"seen":"2026-10-21"
+"seen":"2026-11-04"
 },
 {
 "case":"2:24-cv-01982",
@@ -41014,6 +41232,18 @@
 "referred":"Eva J. Dossier"
 },
 {
+"case":"2:24-cv-02816",
+"referred":"Eva J. Dossier",
+"filed":"2024-12-06",
+"parties":[
+"Baywater Drilling, LLC",
+"Joseph"
+],
+"docket_id":69443709,
+"judge":"JTM",
+"seen":"2026-11-04"
+},
+{
 "case":"2:24-cv-02818",
 "referred":"Donna Phillips Currault",
 "filed":"2024-12-06",
@@ -41719,7 +41949,7 @@
 ],
 "docket_id":69578209,
 "judge":"GGG",
-"seen":"2026-10-24"
+"seen":"2026-11-04"
 },
 {
 "case":"2:25-cv-00178",
@@ -42003,9 +42233,38 @@
 },
 {
 "case":"2:25-cv-00279",
-"nos":"Prisoner: Civil Rights",
+"nos":"550 Prisoner: Civil Rights",
 "cause":"42:1983 Prisoner Civil Rights",
-"referred":"Michael B. North"
+"referred":"Michael B. North",
+"jury":"Both",
+"jurisdiction":"Federal Question",
+"filed":"2025-02-07",
+"parties":[
+"Brooke Thomas",
+"Doug Brooks",
+"James Colvin",
+"Juan Martinez",
+"Jules Hebert",
+"Jules Herbert",
+"Kevin Luper",
+"Lesley Wheat",
+"Leslie Wheat",
+"Travis Day"
+],
+"attorneys":[
+"Bruce Warfield Hamilton",
+"Guice Anthony Giambrone , III",
+"Hailey Elise Lyonnais",
+"Jacob Kenneth Best"
+],
+"firms":[
+"Blue Williams",
+"Blue Williams, LLP (Metairie)",
+"Warfield Hamilton Law, LLC, Legal"
+],
+"docket_id":69623340,
+"judge":"DJP",
+"seen":"2026-11-04"
 },
 {
 "case":"2:25-cv-00283",
@@ -43275,7 +43534,7 @@
 ],
 "docket_id":69826097,
 "judge":"GGG",
-"seen":"2026-10-31"
+"seen":"2026-11-04"
 },
 {
 "case":"2:25-cv-00631",
@@ -43488,7 +43747,15 @@
 "case":"2:25-cv-00679",
 "nos":"Civil Rights: Americans with Disabilities - Employment",
 "cause":"42:12117 Americans with Disabilities Act",
-"referred":"Michael B. North"
+"referred":"Michael B. North",
+"filed":"2025-04-08",
+"parties":[
+"Hawkins",
+"Westbank ARC"
+],
+"docket_id":69860396,
+"judge":"BSL",
+"seen":"2026-11-04"
 },
 {
 "case":"2:25-cv-00682",
@@ -43731,7 +43998,7 @@
 ],
 "docket_id":69904611,
 "judge":"GGG",
-"seen":"2026-10-24"
+"seen":"2026-11-04"
 },
 {
 "case":"2:25-cv-00729",
@@ -44817,6 +45084,28 @@
 "TRANSFER"
 ],
 "referred":"Michael B. North"
+},
+{
+"case":"2:25-cv-01021",
+"referred":"Karen Wells Roby",
+"nos":"340 Marine",
+"cause":"46:30104 Marine Personal Injury",
+"jury":"Plaintiff",
+"jurisdiction":"Federal Question",
+"filed":"2025-05-22",
+"parties":[
+"Edison Chouest Offshore",
+"Oscar Huamanchumo"
+],
+"attorneys":[
+"George P Vourvoulias , III"
+],
+"firms":[
+"Harmon, Smith & Vourvoulias, LLC"
+],
+"docket_id":70343329,
+"judge":"SSV",
+"seen":"2026-11-04"
 },
 {
 "case":"2:25-cv-01023",
@@ -46117,7 +46406,7 @@
 ],
 "docket_id":70684900,
 "judge":"BSL",
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:25-cv-01362",
@@ -46168,7 +46457,14 @@
 "flags":[
 "CLOSED"
 ],
-"referred":"Karen Wells Roby"
+"referred":"Karen Wells Roby",
+"filed":"2025-07-03",
+"parties":[
+"Connick",
+"Western Concrete Pumping, Inc."
+],
+"docket_id":70701328,
+"seen":"2026-11-04"
 },
 {
 "case":"2:25-cv-01377",
@@ -46653,7 +46949,7 @@
 ],
 "docket_id":70806707,
 "judge":"JTM",
-"seen":"2026-10-29"
+"seen":"2026-11-04"
 },
 {
 "case":"2:25-cv-01448",
@@ -47067,7 +47363,7 @@
 "Ultimate Services Nationwide Inc."
 ],
 "docket_id":70984469,
-"seen":"2026-10-23"
+"seen":"2026-11-04"
 },
 {
 "case":"2:25-cv-01591",
@@ -47470,7 +47766,7 @@
 ],
 "docket_id":71169366,
 "judge":"EEF",
-"seen":"2026-10-23"
+"seen":"2026-11-04"
 },
 {
 "case":"2:25-cv-01730",
@@ -47679,7 +47975,7 @@
 ],
 "docket_id":71206142,
 "judge":"BSL",
-"seen":"2026-10-21"
+"seen":"2026-11-04"
 },
 {
 "case":"2:25-cv-01751",
@@ -47817,6 +48113,18 @@
 "referred":"Michael B. North"
 },
 {
+"case":"2:25-cv-01792",
+"referred":"Donna Phillips Currault",
+"filed":"2025-09-02",
+"parties":[
+"Bland",
+"Grand Isle Town"
+],
+"docket_id":71253678,
+"judge":"JCZ",
+"seen":"2026-11-04"
+},
+{
 "case":"2:25-cv-01803",
 "nos":"Racketeer/Corrupt Organization",
 "cause":"28:1331 Fed. Question",
@@ -47879,12 +48187,62 @@
 },
 {
 "case":"2:25-cv-01812",
-"nos":"P.I.: Other",
+"nos":"360 P.I.: Other",
 "cause":"28:1331 Fed. Question: Personal Injury",
 "flags":[
 "PROTO"
 ],
-"referred":"Donna Phillips Currault"
+"referred":"Donna Phillips Currault",
+"jury":"Both",
+"jurisdiction":"Federal Question",
+"filed":"2025-09-04",
+"parties":[
+"Choice Hotels International Services Corp.",
+"Choice Hotels International, Inc.",
+"Jane Doe",
+"TAMS of Kenner, Inc."
+],
+"attorneys":[
+"Annie McAdams",
+"Bryan O. Blevins , Jr.",
+"Christopher C Dahl",
+"Christopher H. Irwin",
+"David E. Harris",
+"Eduardo Bruera",
+"Edward Winter Trapolin",
+"Emily Olivier Kesler",
+"Gretchen F. Richards",
+"Gustave A. Fritchie , III",
+"Jessica Pauline Butkera",
+"John A Rego",
+"Joseph Anthony Vercillo",
+"Joshua Wolberg",
+"Matthew Scott Parmet",
+"Meagan Hassan",
+"Patrick M. Bollman",
+"Robert Keith Jenner",
+"Sara Marie Turner"
+],
+"firms":[
+"Annie McAdams PC",
+"Baker Donelson",
+"Baker Donelson Bearman Caldwell & Berkowitz (New Orleans)",
+"Christopher C Dahl",
+"Cipriani & Werner",
+"Cipriani & Werner, P.C.",
+"Irwin Fritchie Urquhart & Moore LLC",
+"Irwin Fritchie Urquhart & Moore, LLC (New Orleans)",
+"Irwin Fritchie Urquhart Moore & Daniels LLC",
+"Janet Jenner & Suggs, LLC (Baltimore)",
+"Jenner Law, P.C.",
+"Parmet Law PC",
+"Provost & Umphrey",
+"Sico Hoelscher Harris LLP",
+"TAMS of Kenner, Inc."
+],
+"docket_id":71268888,
+"judge":"AJ",
+"seen":"2026-11-04"
 },
 {
 "case":"2:25-cv-01820",
@@ -48481,7 +48839,7 @@
 ],
 "docket_id":71453177,
 "judge":"BWA",
-"seen":"2026-11-03"
+"seen":"2026-11-04"
 },
 {
 "case":"2:25-cv-02000",
@@ -48516,9 +48874,26 @@
 },
 {
 "case":"2:25-cv-02005",
-"nos":"Marine",
+"nos":"340 Marine",
 "cause":"33:0901 Longshoremen Harbor Workers Compensation Act",
-"referred":"Donna Phillips Currault"
+"referred":"Donna Phillips Currault",
+"jury":"Plaintiff",
+"jurisdiction":"Federal Question",
+"filed":"2025-09-25",
+"parties":[
+"Adrian J Allen",
+"Quality Process Services L.L.C",
+"W&T Offshore Inc"
+],
+"attorneys":[
+"Laura Beatriz De La Cruz"
+],
+"firms":[
+"Schechter Shaffer & Harris, LLP"
+],
+"docket_id":71457854,
+"judge":"JTM",
+"seen":"2026-11-04"
 },
 {
 "case":"2:25-cv-02006",
@@ -49092,7 +49467,7 @@
 ],
 "docket_id":71721077,
 "judge":"ILRL",
-"seen":"2026-10-31"
+"seen":"2026-11-04"
 },
 {
 "case":"2:25-cv-02178",
@@ -49582,7 +49957,14 @@
 "case":"2:25-cv-02280",
 "nos":"Civil Rights: Other",
 "cause":"28:1331 Fed. Question: Violation 5th & 8th Amendment",
-"referred":"Donna Phillips Currault"
+"referred":"Donna Phillips Currault",
+"filed":"2025-11-07",
+"parties":[
+"Davis",
+"Soignet"
+],
+"docket_id":71887646,
+"seen":"2026-11-04"
 },
 {
 "case":"2:25-cv-02286",
@@ -49777,6 +50159,35 @@
 "CLOSED"
 ],
 "referred":"Eva J. Dossier"
+},
+{
+"case":"2:25-cv-02332",
+"referred":"Eva J. Dossier",
+"nos":"840 Trademark",
+"cause":"28:1331 Fed. Question: Trademark",
+"jury":"Both",
+"jurisdiction":"Federal Question",
+"filed":"2025-11-17",
+"parties":[
+"Ghost City Tours of Georgia, LLC",
+"Lance Zaal",
+"US Ghost Adventures, LLC"
+],
+"attorneys":[
+"Adam Vincent Vickers",
+"Andrew Walker",
+"Juan Luis Vega",
+"Stephen M. Kepper"
+],
+"firms":[
+"Intellectual Property Consulting, LLC",
+"Jones Fussell",
+"Juan Luis Vega",
+"Kean Miller LLP"
+],
+"docket_id":71921269,
+"judge":"SSV",
+"seen":"2026-11-04"
 },
 {
 "case":"2:25-cv-02333",
@@ -50010,7 +50421,7 @@
 "USAA General Indemnity Company"
 ],
 "docket_id":71961653,
-"seen":"2026-10-31"
+"seen":"2026-11-04"
 },
 {
 "case":"2:25-cv-02398",
@@ -50022,7 +50433,7 @@
 ],
 "docket_id":71961908,
 "judge":"JTM",
-"seen":"2026-10-24"
+"seen":"2026-11-04"
 },
 {
 "case":"2:25-cv-02400",
@@ -50944,6 +51355,18 @@
 "seen":"2026-10-21"
 },
 {
+"case":"2:26-cv-00143",
+"referred":"Janis Van Meerveld",
+"filed":"2026-01-21",
+"parties":[
+"Mojarro",
+"Walmart Inc."
+],
+"docket_id":72171449,
+"judge":"WBV",
+"seen":"2026-11-04"
+},
+{
 "case":"2:26-cv-00146",
 "referred":"Karen Wells Roby",
 "filed":"2026-01-21",
@@ -51006,7 +51429,7 @@
 "Gulf States Insurance Company"
 ],
 "docket_id":72189163,
-"seen":"2026-10-31"
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-00172",
@@ -51309,6 +51732,18 @@
 "docket_id":72240228,
 "judge":"WJC",
 "seen":"2026-11-03"
+},
+{
+"case":"2:26-cv-00274",
+"referred":"Donna Phillips Currault",
+"filed":"2026-02-03",
+"parties":[
+"Lilly",
+"United States Department of the Treasury"
+],
+"docket_id":72251118,
+"judge":"BSL",
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-00275",
@@ -52047,6 +52482,16 @@
 "seen":"2026-11-04"
 },
 {
+"case":"2:26-cv-00527",
+"filed":"2026-03-12",
+"parties":[
+"Hall",
+"United States"
+],
+"docket_id":72451503,
+"seen":"2026-11-04"
+},
+{
 "case":"2:26-cv-00537",
 "nos":"Contract: Other",
 "cause":"28:1332 Diversity-Injunctive & Declaratory Relief",
@@ -52457,7 +52902,15 @@
 "FR/R",
 "REFER"
 ],
-"referred":"Donna Phillips Currault"
+"referred":"Donna Phillips Currault",
+"filed":"2026-04-03",
+"parties":[
+"Louisiana State",
+"Mitchell"
+],
+"docket_id":73156204,
+"judge":"JTM",
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-00713",
@@ -52533,6 +52986,18 @@
 "docket_id":73161036,
 "judge":"JTM",
 "seen":"2026-10-23"
+},
+{
+"case":"2:26-cv-00733",
+"referred":"Janis Van Meerveld",
+"filed":"2026-04-08",
+"parties":[
+"Depuy Synthes Sales, Inc.",
+"Gremillion"
+],
+"docket_id":73163020,
+"judge":"EEF",
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-00746",
@@ -52865,6 +53330,16 @@
 "seen":"2026-10-20"
 },
 {
+"case":"2:26-cv-00882",
+"filed":"2026-04-24",
+"parties":[
+"Henry",
+"RBC Capital Encore 3411 Carrollton, LLC"
+],
+"docket_id":73243310,
+"seen":"2026-11-04"
+},
+{
 "case":"2:26-cv-00894",
 "nos":"Motor Vehicle",
 "cause":"15:2301 Magnuson-Moss Warranty Act",
@@ -53091,7 +53566,7 @@
 ],
 "docket_id":73292583,
 "judge":"WBV",
-"seen":"2026-10-31"
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-00954",
@@ -53137,7 +53612,7 @@
 ],
 "docket_id":73303196,
 "judge":"JTM",
-"seen":"2026-10-31"
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-00973",
@@ -53181,7 +53656,7 @@
 ],
 "docket_id":73313365,
 "judge":"WBV",
-"seen":"2026-10-31"
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-00999",
@@ -53259,6 +53734,18 @@
 "seen":"2026-10-28"
 },
 {
+"case":"2:26-cv-01013",
+"referred":"Eva J. Dossier",
+"filed":"2026-05-12",
+"parties":[
+"Langlois",
+"Social Security Administration"
+],
+"docket_id":73328572,
+"judge":"ILRL",
+"seen":"2026-11-04"
+},
+{
 "case":"2:26-cv-01014",
 "referred":"Janis Van Meerveld",
 "nos":"446 Civil Rights: Americans with Disabilities - Other",
@@ -53306,7 +53793,15 @@
 "case":"2:26-cv-01024",
 "nos":"Contract: Other",
 "cause":"28:1332 Diversity-Breach of Contract",
-"referred":"Eva J. Dossier"
+"referred":"Eva J. Dossier",
+"filed":"2026-05-13",
+"parties":[
+"Extex Operating Company",
+"Pioneer Production Services, Inc"
+],
+"docket_id":73337232,
+"judge":"EEF",
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-01031",
@@ -53343,6 +53838,16 @@
 "docket_id":73343103,
 "judge":"EEF",
 "seen":"2026-11-03"
+},
+{
+"case":"2:26-cv-01035",
+"filed":"2026-05-14",
+"parties":[
+"Southern Tire Mart, LLC",
+"Verret"
+],
+"docket_id":73343869,
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-01037",
@@ -53546,6 +54051,16 @@
 ],
 "docket_id":73352265,
 "seen":"2026-10-20"
+},
+{
+"case":"2:26-cv-01056",
+"filed":"2026-05-15",
+"parties":[
+"Fasterling",
+"Hilcorp Energy Company"
+],
+"docket_id":73352421,
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-01070",
@@ -53969,7 +54484,7 @@
 "Delacroix Corporation"
 ],
 "docket_id":73445579,
-"seen":"2026-10-28"
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-01206",
@@ -54072,7 +54587,7 @@
 ],
 "docket_id":73467215,
 "judge":"WJC",
-"seen":"2026-10-31"
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-01239",
@@ -54295,7 +54810,7 @@
 "Smith"
 ],
 "docket_id":73506474,
-"seen":"2026-10-20"
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-01320",
@@ -54447,6 +54962,34 @@
 "seen":"2026-11-03"
 },
 {
+"case":"2:26-cv-01367",
+"referred":"Janis Van Meerveld",
+"nos":"555 Prisoner Petitions (Prison Condition)",
+"cause":"42:1983 Prisoner Civil Rights",
+"jury":"None",
+"jurisdiction":"Federal Question",
+"filed":"2026-06-24",
+"parties":[
+"Aaron Harrell",
+"Doctor Homboure",
+"Jefferson Parish Correctional Center",
+"Nurse Avary",
+"Nurse Diana",
+"Nurse Hannah",
+"Nurse Reed",
+"Unidentified Parties"
+],
+"attorneys":[
+"Aaron Harrell"
+],
+"firms":[
+"Aaron Harrell"
+],
+"docket_id":73540228,
+"judge":"EEF",
+"seen":"2026-11-04"
+},
+{
 "case":"2:26-cv-01372",
 "referred":"Donna Phillips Currault",
 "filed":"2026-06-26",
@@ -54501,6 +55044,16 @@
 ],
 "docket_id":73544368,
 "seen":"2026-10-27"
+},
+{
+"case":"2:26-cv-01389",
+"filed":"2026-06-28",
+"parties":[
+"Bozeman",
+"FCA US LLC"
+],
+"docket_id":73544404,
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-01395",
@@ -55075,7 +55628,7 @@
 ],
 "docket_id":73645756,
 "judge":"JCZ",
-"seen":"2026-10-31"
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-01593",
@@ -55086,6 +55639,18 @@
 ],
 "docket_id":73643154,
 "seen":"2026-11-03"
+},
+{
+"case":"2:26-cv-01598",
+"referred":"Karen Wells Roby",
+"filed":"2026-07-21",
+"parties":[
+"Gretna Village Investments, LLC",
+"Lucineo"
+],
+"docket_id":73646835,
+"judge":"NJB",
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-01599",
@@ -55244,6 +55809,18 @@
 "seen":"2026-10-23"
 },
 {
+"case":"2:26-cv-01638",
+"referred":"Janis Van Meerveld",
+"filed":"2026-07-24",
+"parties":[
+"Pontious",
+"Taylor-Seidenbach Inc."
+],
+"docket_id":73669864,
+"judge":"NJB",
+"seen":"2026-11-04"
+},
+{
 "case":"2:26-cv-01639",
 "referred":"Janis Van Meerveld",
 "filed":"2026-07-24",
@@ -55297,6 +55874,18 @@
 "Mitchell"
 ],
 "docket_id":73684782,
+"seen":"2026-11-04"
+},
+{
+"case":"2:26-cv-01660",
+"referred":"Donna Phillips Currault",
+"filed":"2026-07-29",
+"parties":[
+"Hardserve Computer & Communication, Inc.",
+"Lucineo"
+],
+"docket_id":73689028,
+"judge":"NJB",
 "seen":"2026-11-04"
 },
 {
@@ -55387,6 +55976,18 @@
 "seen":"2026-10-20"
 },
 {
+"case":"2:26-cv-01679",
+"referred":"Michael B. North",
+"filed":"2026-07-31",
+"parties":[
+"Cortez",
+"Huntington Ingalls Incorporated"
+],
+"docket_id":73702409,
+"judge":"JCZ",
+"seen":"2026-11-04"
+},
+{
 "case":"2:26-cv-01685",
 "referred":"Donna Phillips Currault",
 "nos":"360 P.I.: Other",
@@ -55449,7 +56050,7 @@
 ],
 "docket_id":73716236,
 "judge":"GGG",
-"seen":"2026-10-27"
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-01704",
@@ -55525,7 +56126,7 @@
 ],
 "docket_id":73719329,
 "judge":"WBV",
-"seen":"2026-10-23"
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-01712",
@@ -55693,6 +56294,18 @@
 "seen":"2026-10-29"
 },
 {
+"case":"2:26-cv-01772",
+"referred":"Janis Van Meerveld",
+"filed":"2026-08-12",
+"parties":[
+"Experian Information Solutions, Inc.",
+"Spaulding"
+],
+"docket_id":74641906,
+"judge":"CJB",
+"seen":"2026-11-04"
+},
+{
 "case":"2:26-cv-01779",
 "referred":"Karen Wells Roby",
 "filed":"2026-08-13",
@@ -55713,6 +56326,16 @@
 ],
 "docket_id":74646328,
 "seen":"2026-10-31"
+},
+{
+"case":"2:26-cv-01783",
+"filed":"2026-08-13",
+"parties":[
+"Roy",
+"State Farm Fire and Casualty Company"
+],
+"docket_id":74646370,
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-01784",
@@ -55746,6 +56369,18 @@
 ],
 "docket_id":74647074,
 "judge":"GGG",
+"seen":"2026-11-04"
+},
+{
+"case":"2:26-cv-01787",
+"referred":"Janis Van Meerveld",
+"filed":"2026-08-13",
+"parties":[
+"Bickham",
+"Ross"
+],
+"docket_id":74652558,
+"judge":"MVL",
 "seen":"2026-11-04"
 },
 {
@@ -55853,7 +56488,7 @@
 ],
 "docket_id":74669471,
 "judge":"BWA",
-"seen":"2026-10-24"
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-01823",
@@ -55887,7 +56522,7 @@
 ],
 "docket_id":74670196,
 "judge":"BWA",
-"seen":"2026-10-24"
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-01826",
@@ -56747,7 +57382,7 @@
 "Stonebridge Hospitality Associates, LLC"
 ],
 "docket_id":74768884,
-"seen":"2026-10-29"
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-02011",
@@ -56816,6 +57451,16 @@
 "docket_id":74780201,
 "judge":"GGG",
 "seen":"2026-10-27"
+},
+{
+"case":"2:26-cv-02036",
+"filed":"2026-09-11",
+"parties":[
+"Jackson",
+"Watts"
+],
+"docket_id":74782009,
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-02038",
@@ -56915,7 +57560,7 @@
 "Randell"
 ],
 "docket_id":74786187,
-"seen":"2026-10-27"
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-02054",
@@ -57377,6 +58022,18 @@
 "seen":"2026-10-29"
 },
 {
+"case":"2:26-cv-02197",
+"referred":"Janis Van Meerveld",
+"filed":"2026-09-28",
+"parties":[
+"Bridges",
+"Lewis"
+],
+"docket_id":74868520,
+"judge":"SSV",
+"seen":"2026-11-04"
+},
+{
 "case":"2:26-cv-02206",
 "referred":"Janis Van Meerveld",
 "filed":"2026-09-28",
@@ -57457,6 +58114,18 @@
 "seen":"2026-11-04"
 },
 {
+"case":"2:26-cv-02256",
+"referred":"Janis Van Meerveld",
+"filed":"2026-10-01",
+"parties":[
+"Parr",
+"Woodfork"
+],
+"docket_id":74925779,
+"judge":"NJB",
+"seen":"2026-11-04"
+},
+{
 "case":"2:26-cv-02259",
 "referred":"Eva J. Dossier",
 "filed":"2026-10-02",
@@ -57487,6 +58156,18 @@
 ],
 "docket_id":74930176,
 "seen":"2026-10-29"
+},
+{
+"case":"2:26-cv-02316",
+"referred":"Donna Phillips Currault",
+"filed":"2026-10-05",
+"parties":[
+"McKnight",
+"Westcott"
+],
+"docket_id":74935952,
+"judge":"BSL",
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-02336",
@@ -57811,7 +58492,7 @@
 ],
 "docket_id":75007646,
 "judge":"JTM",
-"seen":"2026-10-24"
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-02432",
@@ -57943,7 +58624,7 @@
 "Worth Capital Holdings 99 LLC"
 ],
 "docket_id":75025903,
-"seen":"2026-10-29"
+"seen":"2026-11-04"
 },
 {
 "case":"2:26-cv-02476",
@@ -58004,6 +58685,16 @@
 "seen":"2026-11-03"
 },
 {
+"case":"2:26-cv-02499",
+"filed":"2026-10-29",
+"parties":[
+"Collins",
+"IDscan.net, Inc."
+],
+"docket_id":75043208,
+"seen":"2026-11-04"
+},
+{
 "case":"2:26-cv-02500",
 "referred":"Eva J. Dossier",
 "filed":"2026-10-29",
@@ -58053,6 +58744,18 @@
 "seen":"2026-11-04"
 },
 {
+"case":"2:26-cv-02508",
+"referred":"Michael B. North",
+"filed":"2026-10-28",
+"parties":[
+"Monroe",
+"Vannoy"
+],
+"docket_id":75057767,
+"judge":"EEF",
+"seen":"2026-11-04"
+},
+{
 "case":"2:26-cv-02510",
 "referred":"Eva J. Dossier",
 "filed":"2026-10-30",
@@ -58075,6 +58778,18 @@
 "seen":"2026-11-04"
 },
 {
+"case":"2:26-cv-02521",
+"referred":"Michael B. North",
+"filed":"2026-11-02",
+"parties":[
+"Skinner",
+"Tiktok Inc"
+],
+"docket_id":75065053,
+"judge":"CJB",
+"seen":"2026-11-04"
+},
+{
 "case":"2:26-cv-02525",
 "filed":"2026-11-03",
 "parties":[
@@ -58082,6 +58797,40 @@
 "Progressive Paloverde Insurance Company"
 ],
 "docket_id":75064267,
+"seen":"2026-11-04"
+},
+{
+"case":"2:26-cv-02526",
+"referred":"Donna Phillips Currault",
+"filed":"2026-11-03",
+"parties":[
+"Dvir",
+"New Orleans Police Department"
+],
+"docket_id":75064472,
+"judge":"JTM",
+"seen":"2026-11-04"
+},
+{
+"case":"2:26-cv-02529",
+"referred":"Donna Phillips Currault",
+"filed":"2026-11-03",
+"parties":[
+"Koch",
+"Social Security Administration"
+],
+"docket_id":75065711,
+"judge":"SSV",
+"seen":"2026-11-04"
+},
+{
+"case":"2:26-cv-02532",
+"filed":"2026-11-03",
+"parties":[
+"Bladimir-Jimenez Rivera",
+"Dobrescu"
+],
+"docket_id":75067295,
 "seen":"2026-11-04"
 },
 {
