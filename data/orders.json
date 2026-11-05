@@ -2858,5 +2858,8 @@
 {"date":"2026-11-04","time":"16:49","judge":"WJC","case":"2:26-cv-01238","doc":"17","title":"Brown v. Bricolage Academy et al","event":"Terminate Hearings","src":"rss"},
 {"date":"2026-11-04","time":"16:51","judge":"WBV","case":"2:26-cv-01929","doc":"43","title":"Bunch v. IDscan.net, Inc.","event":"Order on Motion for Extension of Time to Answer AND Status Conference","src":"courtlistener"},
 {"date":"2026-11-04","time":"16:52","judge":"EEF","case":"2:26-cv-02038","doc":"10","title":"Couvillion v. Smith","event":"Order on Motion for Leave to File","src":"courtlistener"},
-{"date":"2026-11-04","time":"17:05","judge":"EEF","case":"2:26-cv-00733","doc":"19","title":"Gremillion v. Depuy Synthes Sales, Inc.","event":"Order AND Terminate Hearings AND ~Util - Set/Reset Hearings","src":"courtlistener"}
+{"date":"2026-11-04","time":"17:05","judge":"EEF","case":"2:26-cv-00733","doc":"19","title":"Gremillion v. Depuy Synthes Sales, Inc.","event":"Order AND Terminate Hearings AND ~Util - Set/Reset Hearings","src":"courtlistener"},
+{"date":"2026-11-05","time":"09:56","judge":"SM","case":"2:25-cv-02460","doc":"21","title":"Paulin v. Department of Homeland Security","event":"Scheduling Order","src":"rss"},
+{"date":"2026-11-05","time":"09:59","judge":"JCZ","case":"2:26-cv-02345","doc":"8","title":"K&S Hotel, LLC v. State Farm Fire and Casualty Insurance","event":"Set Hearings","src":"rss"},
+{"date":"2026-11-05","time":"10:20","judge":"LMA","case":"2:26-cv-02063","doc":"11","title":"Eason v. Alexander et al","event":"Scheduling Order","src":"rss"}
 ]
