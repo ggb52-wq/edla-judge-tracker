@@ -695,6 +695,7 @@
 {"date":"2026-11-06","time":"12:26","judge":"WBV","case":"2:25-cv-00429","doc":"67","title":"Curry  et al v. Chemtrans Taurus M/V et al","event":"In Limine","submit":"","src":"rss"},
 {"date":"2026-11-06","time":"16:00","judge":"WBV","case":"2:25-cv-00429","doc":"68","title":"Curry  et al v. Chemtrans Taurus M/V et al","event":"In Limine","submit":"","src":"rss"},
 {"date":"2026-11-06","time":"16:02","judge":"SM","case":"2:25-cv-00501","doc":"57","title":"Clanton v. Wright Medical Technology, Inc.","event":"Continue","submit":"","src":"rss"},
+{"date":"2026-11-06","time":"16:33","judge":"","case":"2:25-cv-00789","doc":"13","title":"Gaynor v. HRB Tax Group, Inc.","event":"Stay","submit":"","src":"rss"},
 {"date":"2026-11-06","time":"16:16","judge":"JCZ","case":"2:25-cv-01013","doc":"52","title":"Sears v. LHC Group, Inc.","event":"Stay","submit":"","src":"rss"},
 {"date":"2026-11-06","time":"12:44","judge":"AJ","case":"2:25-cv-01062","doc":"60","title":"Jynes v. Orleans Parish Sheriff's Office et al","event":"Substitute Party","submit":"","src":"rss"},
 {"date":"2026-11-06","time":"09:54","judge":"BSL","case":"2:25-cv-01355","doc":"255","title":"Landix v. Taylor Seidenbach, Inc. et al","event":"Dismiss","submit":"","src":"rss"},
@@ -707,7 +708,10 @@
 {"date":"2026-11-06","time":"11:14","judge":"JCZ","case":"2:25-cv-02333","doc":"43","title":"Gibbs v. Byron Energy LLC et al","event":"Summary Judgment","submit":"","src":"rss"},
 {"date":"2026-11-06","time":"10:49","judge":"BWA","case":"2:25-cv-02377","doc":"184","title":"Beckley v. Taylor-Seidenbach, Inc. et al","event":"Dismiss Party","submit":"","src":"rss"},
 {"date":"2026-11-06","time":"11:49","judge":"ASJ","case":"2:25-cv-02423","doc":"51","title":"M.P. v. Lake Forest Elementary Charter School Corporation","event":"Continue","submit":"","src":"rss"},
+{"date":"2026-11-06","time":"16:34","judge":"WJC","case":"2:25-cv-02550","doc":"43","title":"Sears v. Slidell City et al","event":"Extension of Time to File Document","submit":"","src":"rss"},
+{"date":"2026-11-06","time":"16:46","judge":"WJC","case":"2:25-cv-02550","doc":"44","title":"Sears v. Slidell City et al","event":"Extension of Time to File Document","submit":"","src":"rss"},
 {"date":"2026-11-06","time":"11:27","judge":"EEF","case":"2:26-cv-00175","doc":"21","title":"Bulker Bee 30 Shipping B.V. v. American River Transportation Co., LLC ","event":"Continue","submit":"","src":"rss"},
+{"date":"2026-11-06","time":"16:57","judge":"SSV","case":"2:26-cv-00286","doc":"26","title":"Hyers et al v. Landry et al","event":"Miscellaneous Relief","submit":"","src":"rss"},
 {"date":"2026-11-06","time":"10:28","judge":"","case":"2:26-cv-00675","doc":"22","title":"Green  v. Father Flanagan's Boys' Home","event":"Leave to File Document","submit":"","src":"rss"},
 {"date":"2026-11-06","time":"12:21","judge":"CJB","case":"2:26-cv-00696","doc":"114","title":"Bossier v. Taylor-Seidenbach, Inc. et al","event":"Enroll as Counsel of Record","submit":"","src":"rss"},
 {"date":"2026-11-06","time":"11:40","judge":"ASJ","case":"2:26-cv-01008","doc":"21","title":"300 Spruce Drive 2020, LLC v. Newrez LLC et al","event":"Substitute Attorney","submit":"","src":"rss"},
@@ -717,6 +721,7 @@
 {"date":"2026-11-06","time":"14:34","judge":"JTM","case":"2:26-cv-01497","doc":"7","title":"CBJL, LLC v. Puckett","event":"Miscellaneous Relief","submit":"","src":"rss"},
 {"date":"2026-11-06","time":"13:34","judge":"","case":"2:26-cv-01513","doc":"8","title":"Schottel, Inc. v. Hornbeck Offshore Operators, LLC","event":"Extension of Time to Answer","submit":"","src":"rss"},
 {"date":"2026-11-06","time":"12:47","judge":"LMA","case":"2:26-cv-01526","doc":"17","title":"Coleman v. Fortunato et al","event":"Appear Pro Hac Vice","submit":"","src":"rss"},
+{"date":"2026-11-06","time":"16:34","judge":"SSV","case":"2:26-cv-01706","doc":"22","title":"Glenn v. Westcott et al","event":"Summary Judgment","submit":"","src":"rss"},
 {"date":"2026-11-06","time":"15:37","judge":"CJB","case":"2:26-cv-01772","doc":"18","title":"Spaulding v. Experian Information Solutions, Inc. et al","event":"Dismiss/Failure to State a Claim/FRCP12(b)(6)","submit":"","src":"rss"},
 {"date":"2026-11-06","time":"15:54","judge":"WJC","case":"2:26-cv-01836","doc":"39","title":"Miller et al v. Smitty's Supply, Inc. et al","event":"Dismiss","submit":"","src":"rss"},
 {"date":"2026-11-06","time":"10:09","judge":"WBV","case":"2:26-cv-01929","doc":"45","title":"Bunch v. IDscan.net, Inc.","event":"Appear Pro Hac Vice","submit":"","src":"rss"},
@@ -734,5 +739,6 @@
 {"date":"2026-11-06","time":"15:10","judge":"","case":"2:26-cv-02482","doc":"9","title":"QCX LLC v. Murrill et al","event":"Appear Pro Hac Vice","submit":"","src":"rss"},
 {"date":"2026-11-06","time":"15:13","judge":"","case":"2:26-cv-02482","doc":"10","title":"QCX LLC v. Murrill et al","event":"Appear Pro Hac Vice","submit":"","src":"rss"},
 {"date":"2026-11-06","time":"15:15","judge":"","case":"2:26-cv-02482","doc":"11","title":"QCX LLC v. Murrill et al","event":"Appear Pro Hac Vice","submit":"","src":"rss"},
-{"date":"2026-11-06","time":"15:18","judge":"","case":"2:26-cv-02482","doc":"12","title":"QCX LLC v. Murrill et al","event":"Appear Pro Hac Vice","submit":"","src":"rss"}
+{"date":"2026-11-06","time":"15:18","judge":"","case":"2:26-cv-02482","doc":"12","title":"QCX LLC v. Murrill et al","event":"Appear Pro Hac Vice","submit":"","src":"rss"},
+{"date":"2026-11-06","time":"16:59","judge":"EEF","case":"2:26-cv-02510","doc":"7","title":"Patterson v. Dominic-Chenier et al","event":"Appoint Counsel","submit":"","src":"rss"}
 ]
