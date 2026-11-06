@@ -2955,15 +2955,5 @@
 {"at":"2026-10-23T15:19-05:00","case":"2:22-cv-01271","doc":"236","event":"Order on Motion to Seal Document","title":"Hutchinson-Harper, et al v. Jefferson Parish School Board, et al","judge":"DJP"},
 {"at":"2026-10-23T15:18-05:00","case":"2:22-cv-03490","doc":"138","event":"Dismiss Case","title":"Upper Room Bible Church, Inc. v. Sedgwick Delegated Authority et al","judge":"LMA"},
 {"at":"2026-10-23T15:12-05:00","case":"2:24-cv-01872","doc":"85","event":"Extension of Deadlines","title":"Taylor v. Ochsner Clinic Foundation et al","judge":"ASJ"},
-{"at":"2026-10-23T15:11-05:00","case":"2:25-cv-00890","doc":"96","event":"Order on Motion for Joinder","title":"Main Pass Oil Gathering Company, LLC v. Subsea 7 Marine (US) Inc.","judge":"ILRL"},
-{"at":"2026-10-23T15:08-05:00","case":"2:26-cv-02445","doc":"1","event":"Notice of Removal","title":"Cureaux v. Target Corporation of Minnesota","judge":""},
-{"at":"2026-10-23T15:08-05:00","case":"2:26-cv-02441","doc":"","event":"Initial Case Assignment","title":"Williams v. Federal Express Corporation","judge":""},
-{"at":"2026-10-23T15:08-05:00","case":"2:25-cv-01355","doc":"198","event":"Dismiss Party","title":"Landix v. Taylor Seidenbach, Inc. et al","judge":"BSL"},
-{"at":"2026-10-23T15:07-05:00","case":"2:22-cv-04417","doc":"34","event":"Order on Motion for Miscellaneous Relief","title":"National Furniture Outlet, Inc.  v. Westchester Surplus Lines Insurance Company","judge":"ILRL"},
-{"at":"2026-10-23T15:06-05:00","case":"2:22-cv-03490","doc":"137","event":"Stay","title":"Upper Room Bible Church, Inc. v. Sedgwick Delegated Authority et al","judge":"LMA"},
-{"at":"2026-10-23T15:06-05:00","case":"2:22-cv-03490","doc":"137","event":"Vacate","title":"Upper Room Bible Church, Inc. v. Sedgwick Delegated Authority et al","judge":"LMA"},
-{"at":"2026-10-23T15:04-05:00","case":"2:22-cv-01271","doc":"235","event":"Order on Motion to Seal Document","title":"Hutchinson-Harper, et al v. Jefferson Parish School Board, et al","judge":"DJP"},
-{"at":"2026-10-23T15:03-05:00","case":"2:25-cv-01504","doc":"27","event":"Summary Judgment","title":"Purvis, et al v. Nationstar Mortgage LLC","judge":""},
-{"at":"2026-10-23T15:03-05:00","case":"2:25-cv-01504","doc":"27","event":"Dismiss/Lack of Jurisdiction","title":"Purvis, et al v. Nationstar Mortgage LLC","judge":""},
-{"at":"2026-10-23T15:03-05:00","case":"2:25-cv-01504","doc":"27","event":"Dismiss/Failure to State a Claim/FRCP12(b)(6)","title":"Purvis, et al v. Nationstar Mortgage LLC","judge":""}
+{"at":"2026-10-23T15:11-05:00","case":"2:25-cv-00890","doc":"96","event":"Order on Motion for Joinder","title":"Main Pass Oil Gathering Company, LLC v. Subsea 7 Marine (US) Inc.","judge":"ILRL"}
 ]
