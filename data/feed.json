@@ -1,4 +1,10 @@
 [
+{"at":"2026-11-05T18:41-06:00","case":"2:26-cv-01383","doc":"20","event":"Leave to File Document","title":"Dubey v. New Orleans Regional Transit Authority et al","judge":"NJB"},
+{"at":"2026-11-05T18:29-06:00","case":"2:26-cv-00756","doc":"15","event":"Response/Memorandum in Support of Motion","title":"Denham v. Bheema Hospitality LLC d/b/a Hampton Inn, Metairie","judge":""},
+{"at":"2026-11-05T18:27-06:00","case":"2:25-cv-01355","doc":"251","event":"Witness and Exhibit List","title":"Landix v. Taylor Seidenbach, Inc. et al","judge":"BSL"},
+{"at":"2026-11-05T18:26-06:00","case":"2:25-cv-01355","doc":"250","event":"Witness and Exhibit List","title":"Landix v. Taylor Seidenbach, Inc. et al","judge":"BSL"},
+{"at":"2026-11-05T18:25-06:00","case":"2:25-cv-01355","doc":"249","event":"Witness and Exhibit List","title":"Landix v. Taylor Seidenbach, Inc. et al","judge":"BSL"},
+{"at":"2026-11-05T18:24-06:00","case":"2:25-cv-01355","doc":"248","event":"Witness and Exhibit List","title":"Landix v. Taylor Seidenbach, Inc. et al","judge":"BSL"},
 {"at":"2026-11-05T18:15-06:00","case":"2:26-cv-01772","doc":"17","event":"Answer to Amended Complaint","title":"Spaulding v. Experian Information Solutions, Inc. et al","judge":"CJB"},
 {"at":"2026-11-05T17:38-06:00","case":"2:25-cv-02136","doc":"52","event":"Reply to Response to Motion","title":"Scott Dillion v. Dow Chemical Company et al","judge":"WJC"},
 {"at":"2026-11-05T17:13-06:00","case":"2:26-cv-01413","doc":"17","event":"Enroll as Counsel of Record","title":"Williams v. Chevron U.S.A. Inc. et al","judge":"NJB"},
@@ -2977,6 +2983,5 @@
 {"at":"2026-10-22T22:02-05:00","case":"2:24-cv-00871","doc":"677","event":"Objections","title":"Constanza et al v. Sparta Insurance Company et al","judge":"NJB"},
 {"at":"2026-10-22T21:11-05:00","case":"2:24-cv-00871","doc":"676","event":"Pretrial Memorandum","title":"Constanza et al v. Sparta Insurance Company et al","judge":"NJB"},
 {"at":"2026-10-22T20:33-05:00","case":"2:16-cv-10920","doc":"44","event":"Reopen Case","title":"Williams v. Vannoy et al","judge":"NJB"},
-{"at":"2026-10-22T19:38-05:00","case":"2:26-cv-01176","doc":"18","event":"Dismiss Case","title":"Clark v. Torrado et al","judge":"EEF"},
-{"at":"2026-10-22T19:14-05:00","case":"2:25-cv-00501","doc":"42","event":"Appear Pro Hac Vice","title":"Clanton v. Wright Medical Technology, Inc.","judge":"SM"}
+{"at":"2026-10-22T19:38-05:00","case":"2:26-cv-01176","doc":"18","event":"Dismiss Case","title":"Clark v. Torrado et al","judge":"EEF"}
 ]
