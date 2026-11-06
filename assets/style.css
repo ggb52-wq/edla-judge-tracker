@@ -767,3 +767,9 @@ a.tag:hover { border-color: var(--link); }
   .trio > div { border-top: 0; border-left: 1px solid var(--line); }
   .foot { margin-top: 12px; }
 }
+
+/* Trials page: docket entries and the sentence behind each witness name open in place */
+.t details summary { cursor: pointer; color: var(--ink-2); }
+.t details summary:hover { color: var(--ink); }
+.t details[open] summary { margin-bottom: 4px; }
+.t details p, .t details div { margin: 2px 0; font-size: 12px; line-height: 1.45; white-space: normal; }

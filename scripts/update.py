@@ -38,6 +38,7 @@ import hearings
 import import_written_opinions
 import opinion_text
 import trade_secrets
+import trials
 from outcome_text import classify, motion_doc
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -1095,6 +1096,15 @@ def main() -> int:
                                  for r in motions + feed_rows + orders],
                          text_index=texts.index, text_dir=texts.root,
                          opinion_dates={f"{o['case']}|{o['doc']}": o["date"] for o in opinions})
+    # Trials: the court calendar's trial days, trial settings, the feed's trial entries, and bench-trial decisions with the
+    # witnesses each names (no extra calls).
+    old_trials = court_info.load_json(DATA / "trials.json", {})
+    new_trials = trials.build(old_trials, hearings=hearing_rows, opinions=opinions, titles=titles, case_judge=case_judge,
+                              entries=[{"case": r["case"], "doc": r["doc"], "date": r.get("date", ""), "event": r["event"]}
+                                       for r in feed_rows + orders if r.get("case")],
+                              text_dir=texts.root, today=today)
+    if new_trials != {k: old_trials.get(k) for k in new_trials}:
+        court_info.save_json(DATA / "trials.json", new_trials)
     if do_search:
         note.append(f"Trade secret search {len(ts_results)} cases, {ts_found} with new signals")
     if ts_store.added and not ts_store.initial:

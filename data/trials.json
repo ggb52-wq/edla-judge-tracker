@@ -1,0 +1,1643 @@
+{
+"trials":[
+{
+"case":"2:22-cv-01271",
+"title":"Hutchinson-Harper, et al v. Jefferson Parish School Board, et al",
+"judge":"DJP",
+"kind":"jury",
+"days":[
+"2026-11-02",
+"2026-11-03",
+"2026-11-04",
+"2026-11-05",
+"2026-11-09",
+"2026-11-10",
+"2026-11-12"
+],
+"room":"C551",
+"events":[
+{
+"date":"2026-10-22",
+"doc":"227",
+"event":"Order on Motion in Limine AND Order on Motion in Limine AND Order on Motion in Limine AND Order on Motion in Limine AND Order on Motion in Limine AND Pretrial C"
+},
+{
+"date":"2026-10-27",
+"doc":"246",
+"event":"Proposed Pretrial Order"
+},
+{
+"date":"2026-10-27",
+"doc":"248",
+"event":"Proposed Jury Instructions"
+},
+{
+"date":"2026-10-27",
+"doc":"249",
+"event":"Proposed Jury Verdict Form"
+},
+{
+"date":"2026-10-27",
+"doc":"250",
+"event":"Pretrial Memorandum"
+},
+{
+"date":"2026-10-29",
+"doc":"256",
+"event":"Witness List"
+},
+{
+"date":"2026-10-29",
+"doc":"257",
+"event":"Witness List"
+},
+{
+"date":"2026-10-29",
+"doc":"258",
+"event":"Witness List"
+},
+{
+"date":"2026-10-29",
+"doc":"259",
+"event":"Pretrial Memorandum"
+},
+{
+"date":"2026-10-29",
+"doc":"286",
+"event":"Pretrial Memorandum"
+},
+{
+"date":"2026-10-29",
+"doc":"287",
+"event":"Trial Brief"
+},
+{
+"date":"2026-10-30",
+"doc":"289",
+"event":"Trial Brief"
+},
+{
+"date":"2026-10-30",
+"doc":"290",
+"event":"Trial Brief"
+},
+{
+"date":"2026-11-03",
+"doc":"301",
+"event":"Jury Trial - Begun"
+},
+{
+"date":"2026-11-04",
+"doc":"303",
+"event":"Jury Trial - Held"
+},
+{
+"date":"2026-11-05",
+"doc":"304",
+"event":"Jury Trial - Held"
+}
+],
+"held":true,
+"first_seen":"2026-11-06"
+},
+{
+"case":"2:24-cv-00871",
+"title":"Constanza et al v. Sparta Insurance Company et al",
+"judge":"NJB",
+"kind":"jury",
+"days":[
+"2026-11-02"
+],
+"room":"C227",
+"events":[
+{
+"date":"2026-10-27",
+"doc":"683",
+"event":"Trial Brief"
+}
+],
+"held":false,
+"first_seen":"2026-11-06"
+},
+{
+"case":"2:24-cv-01768",
+"title":"Moses v. City of New Orleans et al",
+"judge":"BWA",
+"kind":"jury",
+"days":[],
+"set_for":[
+{
+"date":"2027-09-13",
+"time":"09:00",
+"what":"Jury Trial"
+}
+],
+"events":[],
+"held":false,
+"first_seen":"2026-11-06"
+},
+{
+"case":"2:24-cv-01933",
+"title":"Tran v. Gulf Coast Bank & Trust Company et al",
+"judge":"WBV",
+"kind":"jury",
+"days":[
+"2026-10-19",
+"2026-10-20",
+"2026-10-21",
+"2026-10-22"
+],
+"room":"C-352",
+"events":[
+{
+"date":"2026-10-27",
+"doc":"388",
+"event":"Jury Trial - Completed"
+},
+{
+"date":"2026-10-27",
+"doc":"389",
+"event":"Jury Verdict Form"
+},
+{
+"date":"2026-10-27",
+"doc":"390",
+"event":"Trial Exhibit List"
+},
+{
+"date":"2026-10-27",
+"doc":"391",
+"event":"Judgment"
+},
+{
+"date":"2026-10-27",
+"doc":"392",
+"event":"Judgment"
+},
+{
+"date":"2026-11-03",
+"doc":"395",
+"event":"Judgment"
+}
+],
+"held":true,
+"first_seen":"2026-11-06"
+}
+],
+"decisions":[
+{
+"case":"2:16-cv-12563",
+"doc":"509",
+"date":"2022-01-03",
+"judge":"EEF",
+"title":"Slocum et al v. International Paper Company et al",
+"pages":35,
+"pdf":"https://www.govinfo.gov/content/pkg/USCOURTS-laed-2_16-cv-12563/pdf/USCOURTS-laed-2_16-cv-12563-7.pdf",
+"text":true,
+"tried":"October 25, 2021",
+"witnesses":[
+{
+"name":"David Villarrubia",
+"expert":false,
+"quote":"To begin, the Court heard testimony from David Villarrubia, who had primary responsibility for the Evaporator at the time of the incident and had decades of experience at the plant."
+},
+{
+"name":"Michael Lang",
+"expert":false,
+"quote":"Also, an IP employee, Michael Lang, testified that the entire process to remove the sight glass and install a steel blank in its place could be completed within 15-20 minutes when two mechanics work together."
+},
+{
+"name":"Michael Klein",
+"expert":true,
+"quote":"First was the testimony of   Michael Klein, an expert in the field of systems engineering and maintenance."
+},
+{
+"name":"Dr. Shelton",
+"expert":true,
+"quote":"For example, Dr. Shelton testified about the mica shield, a component placed between the gasket and the sight glass that is designed to protect the sight glass from corrosion caused by exposure to chemicals."
+}
+]
+},
+{
+"case":"2:16-cv-12567",
+"doc":"432",
+"date":"2022-01-03",
+"judge":"EEF",
+"title":"Sanders et al v. International Paper Company et al",
+"pages":35,
+"pdf":"https://www.govinfo.gov/content/pkg/USCOURTS-laed-2_16-cv-12567/pdf/USCOURTS-laed-2_16-cv-12567-6.pdf",
+"text":true,
+"tried":"October 25, 2021",
+"witnesses":[
+{
+"name":"David Villarrubia",
+"expert":false,
+"quote":"To begin, the Court heard testimony from David Villarrubia, who had primary responsibility for the Evaporator at the time of the incident and had decades of experience at the plant."
+},
+{
+"name":"Michael Lang",
+"expert":false,
+"quote":"Also, an IP employee, Michael Lang, testified that the entire process to remove the sight glass and install a steel blank in its place could be completed within 15-20 minutes when two mechanics work together."
+},
+{
+"name":"Michael Klein",
+"expert":true,
+"quote":"First was the testimony of   Michael Klein, an expert in the field of systems engineering and maintenance."
+},
+{
+"name":"Dr. Shelton",
+"expert":true,
+"quote":"For example, Dr. Shelton testified about the mica shield, a component placed between the gasket and the sight glass that is designed to protect the sight glass from corrosion caused by exposure to chemicals."
+}
+]
+},
+{
+"case":"2:16-cv-13793",
+"doc":"443",
+"date":"2022-01-03",
+"judge":"EEF",
+"title":"Jarrell et al v. International Paper Company et al",
+"pages":35,
+"pdf":"https://www.govinfo.gov/content/pkg/USCOURTS-laed-2_16-cv-13793/pdf/USCOURTS-laed-2_16-cv-13793-6.pdf",
+"text":true,
+"tried":"October 25, 2021",
+"witnesses":[
+{
+"name":"David Villarrubia",
+"expert":false,
+"quote":"To begin, the Court heard testimony from David Villarrubia, who had primary responsibility for the Evaporator at the time of the incident and had decades of experience at the plant."
+},
+{
+"name":"Michael Lang",
+"expert":false,
+"quote":"Also, an IP employee, Michael Lang, testified that the entire process to remove the sight glass and install a steel blank in its place could be completed within 15-20 minutes when two mechanics work together."
+},
+{
+"name":"Michael Klein",
+"expert":true,
+"quote":"First was the testimony of   Michael Klein, an expert in the field of systems engineering and maintenance."
+},
+{
+"name":"Dr. Shelton",
+"expert":true,
+"quote":"For example, Dr. Shelton testified about the mica shield, a component placed between the gasket and the sight glass that is designed to protect the sight glass from corrosion caused by exposure to chemicals."
+}
+]
+},
+{
+"case":"2:19-cv-14757",
+"doc":"112",
+"date":"2022-04-13",
+"judge":"JTM",
+"title":"In Re: Plimsoll Marine, Inc.",
+"pages":10,
+"pdf":"https://www.govinfo.gov/content/pkg/USCOURTS-laed-2_19-cv-14757/pdf/USCOURTS-laed-2_19-cv-14757-1.pdf",
+"text":true,
+"tried":"March 9 through 11, 2022",
+"witnesses":[
+{
+"name":"Robert Bartlett",
+"expert":true,
+"quote":"This Court found the expert testimony of Robert Bartlett, an expert in engineering and material science in the field of maritime, credible and compelling."
+}
+]
+},
+{
+"case":"2:21-cv-00552",
+"doc":"88",
+"date":"2022-04-29",
+"judge":"WBV",
+"title":"Fandal v. Quinlan",
+"pages":20,
+"pdf":"https://www.govinfo.gov/content/pkg/USCOURTS-laed-2_21-cv-00552/pdf/USCOURTS-laed-2_21-cv-00552-0.pdf",
+"text":true,
+"witnesses":[
+{
+"name":"Sherry Holden",
+"expert":false,
+"quote":"The Court has considere d Sherry Holden’s January 5, 2022 deposition testimony, which was introduced into evidence without objection. 40."
+},
+{
+"name":"Pamela Quinlan",
+"expert":false,
+"quote":"The Court also finds the testimony of Pamela Quinlan credible. 55."
+}
+]
+},
+{
+"case":"2:19-cv-10628",
+"doc":"159",
+"date":"2022-05-03",
+"judge":"BWA",
+"title":"Meaux v. Cooper Consolidated, LLC et al",
+"pages":21,
+"pdf":"https://www.govinfo.gov/content/pkg/USCOURTS-laed-2_19-cv-10628/pdf/USCOURTS-laed-2_19-cv-10628-6.pdf",
+"text":true,
+"witnesses":[
+{
+"name":"Robert Boswell",
+"expert":false,
+"quote":"…re vessels that navigated and worked in the Mississippi River.27 23 Id. 24 R. Doc. 148 at 21, 50-51 (trial testimony of Robert Boswell, Cooper’s director of stevedoring operations). 25 Id. at 21. 26 Id. at 21-22, 40. 27 R. Doc. 144 at 17.   15.…"
+},
+{
+"name":"Jonathon R. Meaux",
+"expert":false,
+"quote":"…arges because the flaggers th at work for Cooper are “interchangeable,” 40 Cooper’s 35 Id. 36 Id. 37 Id.; Trial Exh. 2 (Meaux’s deposition testimony) at 98-99. 38 R. Doc. 144 at 13. 39 R. Doc. 148 at 26-26, 44-45, 68-70. 40 Id. at 26-27.   employment/assignmen…"
+}
+]
+},
+{
+"case":"2:19-cv-02799",
+"doc":"89",
+"date":"2022-05-17",
+"judge":"NJB",
+"title":"Kenai Ironclad Corp. v. CP Marine Services, LLC, et al",
+"pages":20,
+"pdf":"https://www.govinfo.gov/content/pkg/USCOURTS-laed-2_19-cv-02799/pdf/USCOURTS-laed-2_19-cv-02799-0.pdf",
+"text":true,
+"tried":"February 14, 2022",
+"witnesses":[
+{
+"name":"Robert Galbraith",
+"expert":true,
+"quote":"Plaintiff’s expert Robert Galbraith of the Stabbert Marine shipyard in Seattle, testified that approximately 5% to 10% of the old paint and rust is left on the hull in a commercial blast."
+},
+{
+"name":"Levi Adler",
+"expert":false,
+"quote":"The Court finds that Plaintiff requested that CP Marine perform a “commercial blast.” Levi Adler testified that Plaintiff requested a rate sheet from CP Marine."
+},
+{
+"name":"Joseph Dardar",
+"expert":false,
+"quote":"…019, and February 27, 2019.50 These invoices reflect that the total cost to blast prime and paint the hull was $32,370. Joseph Dardar testified that a near white blast would have cost at least $120,000 for the size of the vessel.…"
+},
+{
+"name":"Austin Adler",
+"expert":false,
+"quote":"…in Naknek, Alaska, by June 25, 2019.81 After the vessel left CP Marine, it was transported to Tom’s Marine and Salvage. Austin Adler testified that Plaintiff’s timeline for getting to Alaska was “still on track” when the Iron Don left CP Marine’s shipyard.…"
+},
+{
+"name":"Tom Dinh",
+"expert":false,
+"quote":"…its own bank confirmed that the check had cleared, and the funds had been removed from Plaintiff’s account.72 Further, Dinh testified that he received several payments from Plaintiff by check and that a ll the checks cleared without issue and Plaintiff never…"
+}
+]
+},
+{
+"case":"2:21-cv-01470",
+"doc":"25",
+"date":"2022-07-11",
+"judge":"BWA",
+"title":"Schmill v. Metropolitan Life Insurance Company",
+"pages":14,
+"pdf":"https://www.govinfo.gov/content/pkg/USCOURTS-laed-2_21-cv-01470/pdf/USCOURTS-laed-2_21-cv-01470-0.pdf",
+"text":true,
+"witnesses":[]
+},
+{
+"case":"2:19-cv-11962",
+"doc":"106",
+"date":"2022-08-08",
+"judge":"LMA",
+"title":"Boudreaux v. Louisiana State Bar Association et al",
+"pages":33,
+"pdf":"https://www.govinfo.gov/content/pkg/USCOURTS-laed-2_19-cv-11962/pdf/USCOURTS-laed-2_19-cv-11962-1.pdf",
+"text":true,
+"tried":"June 21, 2022",
+"witnesses":[]
+},
+{
+"case":"2:21-cv-00949",
+"doc":"99",
+"date":"2022-08-30",
+"judge":"EEF",
+"title":"Shallow Water Equipment L.L.C. et al v. Pontchartrain Partners, L.L.C.",
+"pages":31,
+"pdf":"https://www.govinfo.gov/content/pkg/USCOURTS-laed-2_21-cv-00949/pdf/USCOURTS-laed-2_21-cv-00949-2.pdf",
+"text":true,
+"tried":"August 22, 2022",
+"witnesses":[
+{
+"name":"Keith Kraemer",
+"expert":false,
+"quote":"Moreover, Keith Kraemer testified at trial that the terms of the written contract and oral agreement were the same. 1 The burden of establishing a course of dealing rests upon the party seeking to benefit from it."
+},
+{
+"name":"Todd Kirkpatrick",
+"expert":false,
+"quote":"…safety on the barge, and they also distribute the weight of equipment on the barge, ensuring the barge is not damaged. Todd Kirkpatrick, a member of TK Boat, testified at trial that mats are always used on a spud barge when an excavator is working on the vess…"
+},
+{
+"name":"James Stansbury",
+"expert":false,
+"quote":"…Ukraine, the day rate to charter a spud barge like the GRANT but in good condition is between $1,000 to $1,200 per day. James Stansbury, a marine surveyor hired by Ponchartrain, testified that the present charter hire rate was substantially lower, putting it a…"
+}
+]
+},
+{
+"case":"2:18-cv-02885",
+"doc":"675",
+"date":"2022-10-31",
+"judge":"BWA",
+"title":"Fucich Contracting, Inc. v. Shread-Kuyrkendall and Associates, Incorpo",
+"pages":75,
+"pdf":"https://www.govinfo.gov/content/pkg/USCOURTS-laed-2_18-cv-02885/pdf/USCOURTS-laed-2_18-cv-02885-17.pdf",
+"text":true,
+"tried":"June 27-29, 2022",
+"witnesses":[
+{
+"name":"Clayton Fucich",
+"expert":false,
+"quote":"Appendix 1 for the Project showed the rotation of the existing gearbox.35 Clayton Fucich testified that he did not review Appendix 1 in its entirety prior to submitting FCI’s bid.36 25."
+},
+{
+"name":"Mark Marino",
+"expert":false,
+"quote":"On October 1, 2018, Travelers filed a U CC Financing Statem ent (the “UCC-1”) pursuant to the GAI.164 Mark Marino, Travelers’ assistant vice president for construction services claims and Ziv-Goldstein’s superv isor, testified that Travelers vi ewed this litig…"
+}
+]
+},
+{
+"case":"2:21-cv-02222",
+"doc":"62",
+"date":"2022-11-09",
+"judge":"SM",
+"title":"Fahimipour et al v. United Property & Casualty Insurance Company",
+"pages":14,
+"pdf":"https://www.govinfo.gov/content/pkg/USCOURTS-laed-2_21-cv-02222/pdf/USCOURTS-laed-2_21-cv-02222-0.pdf",
+"text":true,
+"tried":"October 13-14, 2022",
+"witnesses":[
+{
+"name":"Behnaz Fahimipour",
+"expert":false,
+"quote":"…his matter was tried before the Court, si tting without a jury, on October 13-14, 2022.5 The Court heard testimony from Behnaz Fahimipour, Mohamad Fahimipour, and UPC agent Jeff Lacombe, who was accepted by the Court as a qualified expert in the field of prope…"
+},
+{
+"name":"Mohamad Fahimipour",
+"expert":false,
+"quote":"…d before the Court, si tting without a jury, on October 13-14, 2022.5 The Court heard testimony from Behnaz Fahimipour, Mohamad Fahimipour, and UPC agent Jeff Lacombe, who was accepted by the Court as a qualified expert in the field of property insurance claim…"
+},
+{
+"name":"Mohammad Fahimipour",
+"expert":false,
+"quote":"…re signing and submitting the couple’s 20 Plaintiffs testified to this fact at trial.   insurance application to UPC.21 Mohammad Fahimipour testified he read the Comments and looked at the photographs22 but did not read the Report Summary.…"
+},
+{
+"name":"Jeff Lacombe",
+"expert":false,
+"quote":"UPC’s Jeff Lacombe testified (1) UPC has no records of such a phone call, (2) UPC’s representatives are not permitted to advise applicants to that effect, and (3) the UPC underwriting file has no entry for this communication, which would exist had the conversation occurred."
+}
+]
+},
+{
+"case":"2:18-cv-07889",
+"doc":"285",
+"date":"2022-11-29",
+"judge":"SM",
+"title":"Ictech-Bendeck v. Waste Connections Bayou, Inc., et al.",
+"pages":46,
+"pdf":"https://www.govinfo.gov/content/pkg/USCOURTS-laed-2_18-cv-07889/pdf/USCOURTS-laed-2_18-cv-07889-4.pdf",
+"text":true,
+"tried":"February 22-25, 2022",
+"witnesses":[
+{
+"name":"Joseph Buller, Jr.",
+"expert":false,
+"quote":"…hich took place on January 31, February 1-4, and February 22-25, 2022. 12 At trial, the Court heard live testimony from Joseph Buller, Jr.; Brian DeJean; Jose Sananes; Dr. Jaana Pietari; James Lape; Dr. Susan Schiffman; Dr. Pamela Dalton; Dr. John Kind; Dr. Pa…"
+},
+{
+"name":"Dr. Susan Schiffman",
+"expert":true,
+"quote":"l e ffects due to her lack of qualifications. 8 The Defendants listed as witnesses several expe rts—Dr. Karen Vetrano, Dr. John Kind, and Dr. Pamela Dalton—who were offered to reb ut the testimony of Dr. Schiffman."
+},
+{
+"name":"Dr. Karen Vetrano",
+"expert":false,
+"quote":"…eant to rebut Dr. Schiffman on areas on which she was precluded from testifying. 9 The Court also excluded testimony by Dr. Vetrano, Dr. Kind, and Dr. Dalton to the extent it is cumulative. 10 The Court denied the remaining Daubert motions, which largely attac…"
+},
+{
+"name":"Dr. John Kind",
+"expert":false,
+"quote":"…Dr. Schiffman on areas on which she was precluded from testifying. 9 The Court also excluded testimony by Dr. Vetrano, Dr. Kind, and Dr. Dalton to the extent it is cumulative. 10 The Court denied the remaining Daubert motions, which largely attacked the exper…"
+},
+{
+"name":"Dr. Pamela Dalton",
+"expert":true,
+"quote":"…on areas on which she was precluded from testifying. 9 The Court also excluded testimony by Dr. Vetrano, Dr. Kind, and Dr. Dalton to the extent it is cumulative. 10 The Court denied the remaining Daubert motions, which largely attacked the experts’ methodolog…"
+},
+{
+"name":"Brian Dejean",
+"expert":false,
+"quote":"…61; Exhibit 544 at Bates No. 3492-93.   4A each measured 2,000 ppm, the maximum possible measurement. 62 In comparison, Mr. Dejean testified that 100 ppm is the ex pected level of hydrogen sulfide in a gas collection well at the River Birch Landfill.63 In May…"
+}
+]
+},
+{
+"case":"2:19-cv-11133",
+"doc":"323",
+"date":"2022-11-29",
+"judge":"SM",
+"title":"Addison, et al. v. Louisiana Regional Landfill Company, et al",
+"pages":46,
+"pdf":"https://www.govinfo.gov/content/pkg/USCOURTS-laed-2_19-cv-11133/pdf/USCOURTS-laed-2_19-cv-11133-2.pdf",
+"text":true,
+"tried":"February 22-25, 2022",
+"witnesses":[
+{
+"name":"Joseph Buller, Jr.",
+"expert":false,
+"quote":"…hich took place on January 31, February 1-4, and February 22-25, 2022. 12 At trial, the Court heard live testimony from Joseph Buller, Jr.; Brian DeJean; Jose Sananes; Dr. Jaana Pietari; James Lape; Dr. Susan Schiffman; Dr. Pamela Dalton; Dr. John Kind; Dr. Pa…"
+},
+{
+"name":"Dr. Susan Schiffman",
+"expert":true,
+"quote":"l e ffects due to her lack of qualifications. 8 The Defendants listed as witnesses several expe rts—Dr. Karen Vetrano, Dr. John Kind, and Dr. Pamela Dalton—who were offered to reb ut the testimony of Dr. Schiffman."
+},
+{
+"name":"Dr. Karen Vetrano",
+"expert":false,
+"quote":"…eant to rebut Dr. Schiffman on areas on which she was precluded from testifying. 9 The Court also excluded testimony by Dr. Vetrano, Dr. Kind, and Dr. Dalton to the extent it is cumulative. 10 The Court denied the remaining Daubert motions, which largely attac…"
+},
+{
+"name":"Dr. John Kind",
+"expert":false,
+"quote":"…Dr. Schiffman on areas on which she was precluded from testifying. 9 The Court also excluded testimony by Dr. Vetrano, Dr. Kind, and Dr. Dalton to the extent it is cumulative. 10 The Court denied the remaining Daubert motions, which largely attacked the exper…"
+},
+{
+"name":"Dr. Pamela Dalton",
+"expert":true,
+"quote":"…on areas on which she was precluded from testifying. 9 The Court also excluded testimony by Dr. Vetrano, Dr. Kind, and Dr. Dalton to the extent it is cumulative. 10 The Court denied the remaining Daubert motions, which largely attacked the experts’ methodolog…"
+},
+{
+"name":"Brian Dejean",
+"expert":false,
+"quote":"…61; Exhibit 544 at Bates No. 3492-93.   4A each measured 2,000 ppm, the maximum possible measurement. 62 In comparison, Mr. Dejean testified that 100 ppm is the ex pected level of hydrogen sulfide in a gas collection well at the River Birch Landfill.63 In May…"
+}
+]
+},
+{
+"case":"2:20-cv-03012",
+"doc":"64",
+"date":"2023-01-13",
+"judge":"WBV",
+"title":"Turn Services, L.L.C. v. Gulf South Marine Transportation, Inc.",
+"pages":22,
+"pdf":"https://www.govinfo.gov/content/pkg/USCOURTS-laed-2_20-cv-03012/pdf/USCOURTS-laed-2_20-cv-03012-0.pdf",
+"text":true,
+"tried":"December 12 and 13, 2022",
+"witnesses":[
+{
+"name":"Captain Jason Segura",
+"expert":false,
+"quote":"ZIGGY, Captain Jason Segura, testified that he was not advised to keep his engines running on the day of the collision. 43 Captain Segura’s testimony in other respects is supported by documentary and other evidence, including MRTIS and AIS—maritime information…"
+},
+{
+"name":"Capt. Marc Fazioli",
+"expert":true,
+"quote":"Gulf South’s expert, Capt. Marc Fazioli testified that to be “ immediately operational” means to have “the capability of turning this [the vessel] on.” 44 Capt. Fazioli further opined that such an understanding of immediately operational is consistent with ind…"
+},
+{
+"name":"Captain Michael Marshall",
+"expert":true,
+"quote":"When asked, “When a boat, a tugboat, is made up to barges, are those barges considered under that tow?, ” Capt. Marshall, the expert for Turn Services , testified, “That statement plain would be maybe or not necessarily."
+}
+]
+},
+{
+"case":"2:19-cv-10864",
+"doc":"154",
+"date":"2023-02-02",
+"judge":"CJB",
+"title":"Conrad Shipyard, LLC v. Franco Marine 1, LLC et al",
+"pages":15,
+"pdf":"https://www.govinfo.gov/content/pkg/USCOURTS-laed-2_19-cv-10864/pdf/USCOURTS-laed-2_19-cv-10864-2.pdf",
+"text":true,
+"tried":"December 12, 2022",
+"witnesses":[]
+},
+{
+"case":"2:21-cv-00394",
+"doc":"56",
+"date":"2023-03-30",
+"judge":"GGG",
+"title":"Starr Indemnity & Liability Company v. American River Transportation C",
+"pages":19,
+"pdf":"https://www.govinfo.gov/content/pkg/USCOURTS-laed-2_21-cv-00394/pdf/USCOURTS-laed-2_21-cv-00394-0.pdf",
+"text":true,
+"tried":"August 3, 2022",
+"witnesses":[
+{
+"name":"Captain Marcus Matheny",
+"expert":false,
+"quote":"At trial, Captain Matheny testified that he performed the top around in order to get closer to the left descending bank and prevent the damaged barge from sinking in the main channel."
+},
+{
+"name":"Captain Dewey",
+"expert":true,
+"quote":"At trial, Captain Dewey testified that Captain Matheny’s maneuver was justified due to the risk of a damaged barge sinking in the main channel ."
+},
+{
+"name":"Captain Samuel Schropp",
+"expert":true,
+"quote":"When asked whether performing the “top around” was an incorrect decision, Captain Schropp testified it was not."
+},
+{
+"name":"Captain Brian Hamilton",
+"expert":false,
+"quote":"He has traver sed the Mississippi River “hundreds” of times. Captain Hamilton testified that the River was “extremely high” and risky to navigate on February 24, 2020."
+},
+{
+"name":"Captain Cancienne",
+"expert":false,
+"quote":"Additionally, as Captain Dewey noted, Captain Cancienne testified that he originally planned on stopping the CRIMSON GEM at the Jimmy Hawkens Light and holding up next to the DODD before the MACMILLAN called him to help wrangle barges. 22."
+}
+]
+},
+{
+"case":"2:20-cv-02337",
+"doc":"164",
+"date":"2023-03-31",
+"judge":"GGG",
+"title":"Jones v. AT&T, Inc. et al",
+"pages":7,
+"pdf":"https://www.govinfo.gov/content/pkg/USCOURTS-laed-2_20-cv-02337/pdf/USCOURTS-laed-2_20-cv-02337-2.pdf",
+"text":true,
+"tried":"September 12, 2022",
+"witnesses":[
+{
+"name":"Jeremy Siegel",
+"expert":false,
+"quote":"…imony explaining Defendants’ processes and procedures for responding to document requests, like the one from Plaintiff. Siegel also testified specifically about the Document Production in 10 R. Doc. 1. 11 Trial Ex. 152. 12 Trial Ex. 3.   response to the Plan D…"
+}
+]
+},
+{
+"case":"2:22-cv-01169",
+"doc":"48",
+"date":"2023-06-07",
+"judge":"CJB",
+"title":"Superior Shipyard and Fabrication, Inc. v. Cecile A. Fitch M/V, et al",
+"pages":11,
+"pdf":"https://www.govinfo.gov/content/pkg/USCOURTS-laed-2_22-cv-01169/pdf/USCOURTS-laed-2_22-cv-01169-1.pdf",
+"text":true,
+"tried":"June 5 and 6, 2023",
+"witnesses":[
+{
+"name":"Ranny Fitch",
+"expert":false,
+"quote":"The Court finds that Ranny Fitch’s testimony is credible as an eyewitness to his uncle, Larry Fitch, signing the Work Order."
+},
+{
+"name":"Larry Fitch",
+"expert":false,
+"quote":"( 11) The Court is not persuaded that there was a purported oral agreement regarding payment for the repair work . Larry Fitch testified that the parties entered into an oral arrangement where Chester J. Marine would make a 20% down payment on the estimated co…"
+},
+{
+"name":"Brent Duet",
+"expert":false,
+"quote":"Furthermore, it is contradicted by the testimony of Mr. Duet, Mr. Leonard and Ranny Fitch to the effect that no such arrangement was ever suggested or agreed to."
+},
+{
+"name":"Brent Leonard",
+"expert":false,
+"quote":"Furthermore, it is contradicted by the testimony of Mr. Duet, Mr. Leonard and Ranny Fitch to the effect that no such arrangement was ever suggested or agreed to."
+}
+]
+},
+{
+"case":"2:22-cv-00237",
+"doc":"129",
+"date":"2023-07-11",
+"judge":"GGG",
+"title":"Tisdale v. Marquette Transportation Company, LLC et al",
+"pages":11,
+"pdf":"https://www.govinfo.gov/content/pkg/USCOURTS-laed-2_22-cv-00237/pdf/USCOURTS-laed-2_22-cv-00237-0.pdf",
+"text":true,
+"tried":"February 27, 2023",
+"witnesses":[
+{
+"name":"Dr. Donald Dietze",
+"expert":false,
+"quote":"At trial, Dr. Dietze testified that, in his medical opinion, the aggravation of Tisdale’s spine at the L5-S1 level was caused by the accident.16 15."
+}
+]
+},
+{
+"case":"2:22-cv-01948",
+"doc":"59",
+"date":"2023-07-31",
+"judge":"JTM",
+"title":"24/7 Restoration Specialists, LLC v. Young",
+"pages":16,
+"pdf":"https://www.govinfo.gov/content/pkg/USCOURTS-laed-2_22-cv-01948/pdf/USCOURTS-laed-2_22-cv-01948-3.pdf",
+"text":true,
+"tried":"July 10, 2023",
+"witnesses":[
+{
+"name":"Michael McClure",
+"expert":false,
+"quote":"The Authorization also contained no articulate scope of work, and based on the testimony of Michael McClure, David Daniels, Jon Fagala, and Young, there was no agreement or understanding of the scope of work covered by the Authorization, or any mechanism by wh…"
+},
+{
+"name":"David Daniels",
+"expert":false,
+"quote":"The Authorization also contained no articulate scope of work, and based on the testimony of Michael McClure, David Daniels, Jon Fagala, and Young, there was no agreement or understanding of the scope of work covered by the Authorization, or any mechanism by wh…"
+},
+{
+"name":"Jon Fagala",
+"expert":false,
+"quote":"…Authorization also contained no articulate scope of work, and based on the testimony of Michael McClure, David Daniels, Jon Fagala, and Young, there was no agreement or understanding of the scope of work covered by the Authorization, or any mechanism by which…"
+},
+{
+"name":"William Leahy, III",
+"expert":false,
+"quote":"Thus, the Court must measure compensation owed by the extent Young benefitted from the work done at the Property. 29. William Leahy, III testified as an expert in Insurance Adjusting."
+},
+{
+"name":"Zachary Young",
+"expert":false,
+"quote":"…perform dewatering services and testified it was unable to provide any cost estimate to Young prior to beginning work. Young testified he wanted the Property dried out and cleaned, and believed it would cost $15,000-$20,000. 9 CAM Logistics, L.L.C. v. Pratt I…"
+}
+]
+},
+{
+"case":"2:20-cv-03086",
+"doc":"89",
+"date":"2023-09-01",
+"judge":"JCZ",
+"title":"Benson v Williams et al",
+"pages":9,
+"pdf":"https://www.govinfo.gov/content/pkg/USCOURTS-laed-2_20-cv-03086/pdf/USCOURTS-laed-2_20-cv-03086-0.pdf",
+"text":true,
+"tried":"August 7, 2023",
+"witnesses":[
+{
+"name":"David G. Klegin",
+"expert":false,
+"quote":"Having considered the testimony and evidence at trial, the deposition testimony of David G. Klegin, the arguments of counsel, and the applicable law, the Court now enters the following Findings of Fact and Conclusions of Law in accordance with Federal Rule of…"
+},
+{
+"name":"Sade P. Benson",
+"expert":false,
+"quote":"The procedure was performed by Dr. Domenick Grieshaber, a pain management specialist, using a 5 inch 22 gauge spinal   needle. Benson testified that the injections were painful and did not provide total relief."
+}
+]
+},
+{
+"case":"2:22-cv-02128",
+"doc":"88",
+"date":"2023-11-09",
+"judge":"BWA",
+"title":"Skansi Marine LLC v. Offshore Aviation, LLC",
+"pages":26,
+"pdf":"https://www.govinfo.gov/content/pkg/USCOURTS-laed-2_22-cv-02128/pdf/USCOURTS-laed-2_22-cv-02128-1.pdf",
+"text":true,
+"witnesses":[
+{
+"name":"Andy Naquin",
+"expert":false,
+"quote":"Alario and Naquin testified as to the market for chartering vessels similar to the Meg, and potential offers to charter the Meg, in the summer of 2022."
+},
+{
+"name":"David Skansi",
+"expert":false,
+"quote":"Skansi Marine also seeks $15,000 for insp ections but cites only Skansi’s trial testimony in support."
+}
+]
+},
+{
+"case":"2:17-cv-00585",
+"doc":"348",
+"date":"2023-11-17",
+"judge":"JTM",
+"title":"Barrios et al v. Centaur, LLC et al",
+"pages":12,
+"pdf":"https://www.govinfo.gov/content/pkg/USCOURTS-laed-2_17-cv-00585/pdf/USCOURTS-laed-2_17-cv-00585-3.pdf",
+"text":true,
+"tried":"November 7, 2023",
+"witnesses":[
+{
+"name":"Jose Guerrero",
+"expert":true,
+"quote":"On this point, River Ventures and XL Specialty presented the testimony of Jose Guerrero, an expert in marine claims handling, marine claims management, and coverage issues."
+},
+{
+"name":"Kenneth Domilise",
+"expert":false,
+"quote":"…in marine insurance brokering and the underwriting process, Kenneth Domilise, to   be the most credible on this issue. Mr. Domilise testified that standard forms, such as the P&I SP-23 (Revised 1/56) for m, can be modified.…"
+}
+]
+},
+{
+"case":"2:22-cv-03046",
+"doc":"117",
+"date":"2023-11-22",
+"judge":"EEF",
+"title":"Bordelon Marine, Inc. v. Laship, LLC, et al",
+"pages":12,
+"pdf":"https://www.govinfo.gov/content/pkg/USCOURTS-laed-2_22-cv-03046/pdf/USCOURTS-laed-2_22-cv-03046-3.pdf",
+"text":true,
+"tried":"October 30, 2023",
+"witnesses":[
+{
+"name":"William Thomassie",
+"expert":true,
+"quote":"Initially a question was raised about the angle of the mooring lines. Thomassie testified as follows: “It's a trade-off."
+}
+]
+},
+{
+"case":"2:22-cv-05410",
+"doc":"187",
+"date":"2024-01-26",
+"judge":"EEF",
+"title":"AIG Specialty Insurance Company v. Agee et al",
+"pages":19,
+"pdf":"https://www.govinfo.gov/content/pkg/USCOURTS-laed-2_22-cv-05410/pdf/USCOURTS-laed-2_22-cv-05410-5.pdf",
+"text":true,
+"witnesses":[
+{
+"name":"Tarun Jolly",
+"expert":false,
+"quote":"When asked about his various email exchanges with Agee, Jolly testified as follows: Q: Okay."
+}
+]
+},
+{
+"case":"2:22-cv-00154",
+"doc":"77",
+"date":"2024-02-07",
+"judge":"EEF",
+"title":"Gulf Island Shipyards, LLC et al v. LaShip, LLC et al",
+"pages":21,
+"pdf":"https://www.govinfo.gov/content/pkg/USCOURTS-laed-2_22-cv-00154/pdf/USCOURTS-laed-2_22-cv-00154-1.pdf",
+"text":true,
+"tried":"December 11, 2023",
+"witnesses":[
+{
+"name":"William John Thomassie",
+"expert":true,
+"quote":"With regard to the northernmost tier, William John Thomassie, LaShip’s expert engineer, testified that “the bow of the northern most tiered vessels did not have any moorings or bulkhead beyond its bow, so it couldn't throw a line forward. ..."
+},
+{
+"name":"Dalton Cooper",
+"expert":false,
+"quote":"In fact, Dalton Cooper, the Master of the Eland, testified that the farthest drifting LaShip vessel only reached approximately halfway across the Canal, nowhere close the docked Gulf Island vessels."
+},
+{
+"name":"Wally Naquin",
+"expert":false,
+"quote":"The Court acknowledges the testimony of Wally Naquin, who when questioned about repositioning the tiers along the Canal, explained that one never knows where the wind will come from in hurricane conditions and had LaShip repositioned vessels and the wind had a…"
+}
+]
+},
+{
+"case":"2:23-cv-02793",
+"doc":"99",
+"date":"2024-02-21",
+"judge":"LMA",
+"title":"Columbia Gulf Transmission, LLC v. Land, et al",
+"pages":11,
+"pdf":"https://www.govinfo.gov/content/pkg/USCOURTS-laed-2_23-cv-02793/pdf/USCOURTS-laed-2_23-cv-02793-1.pdf",
+"text":true,
+"witnesses":[
+{
+"name":"Elle Light",
+"expert":false,
+"quote":"Before the C lerk may enter the 20 The Court notes that, during the hearing and trial on January 30, 2024, Elle Light, a project manager and abstractor for Columbia, testified that Columbia would offer the remaining defendants “over $3000.00” if Columbia were able to locate them."
+},
+{
+"name":"Rebecca A. Rothschild",
+"expert":false,
+"quote":"…state Appraisal, L.L.C. was tendered and accepted by the Court as an expert in real estate appraisal without objection. Rothschild testified regarding her appraisal of the 14. 226 acres.26 Rothschild explained that she applied the sales comparison approach to…"
+}
+]
+},
+{
+"case":"2:19-cv-11803",
+"doc":"153",
+"date":"2024-03-01",
+"judge":"BWA",
+"title":"Gomez v. New Orleans City et al",
+"pages":27,
+"pdf":"https://www.govinfo.gov/content/pkg/USCOURTS-laed-2_19-cv-11803/pdf/USCOURTS-laed-2_19-cv-11803-5.pdf",
+"text":true,
+"tried":"September 11-15, 2023",
+"witnesses":[]
+},
+{
+"case":"2:22-cv-00504",
+"doc":"622",
+"date":"2024-03-25",
+"judge":"EEF",
+"title":"In Re: In the Matter of Magnolia Fleet, LLC and River Tug LLC",
+"pages":21,
+"pdf":"https://www.govinfo.gov/content/pkg/USCOURTS-laed-2_22-cv-00504/pdf/USCOURTS-laed-2_22-cv-00504-10.pdf",
+"text":true,
+"tried":"February 15, 2024",
+"witnesses":[
+{
+"name":"Scott Stewart",
+"expert":false,
+"quote":"Trial Ex. 32. Scott Stewart of Stewart Construction testified at trial regarding the estimate provided to Entergy and no credible evidence was offered to refute the necessity of these anticipated repairs nor the reasonableness of their cost."
+},
+{
+"name":"Bill Thomassie",
+"expert":true,
+"quote":"Engineering expert Bill Thomassie testified at trial and opined in his expert report that the catwalks   themselves were approximately 10% through their expected lifespan and that the catwalk support structures were likely 20-25% through their expected lifespan."
+},
+{
+"name":"Jason Fernandes",
+"expert":false,
+"quote":"At best, Fernandes's testimony is sufficient to prove that it is “possible” that the damage to the Entergy Fuel Dock was caused by an allision with the Kirby 17225 ."
+},
+{
+"name":"Captain Gary Bueltel",
+"expert":false,
+"quote":"Bueltel Depo., R. Doc. 614-1. Bueltel testified by deposition that he was aboard the Matagorda on August 29, 2021 when Hurricane Ida struck the area and that all of 127 Fleet’s vessels broke away during the storm."
+},
+{
+"name":"Craig Lucia",
+"expert":false,
+"quote":"…e work along the Mississippi River is unpredictable and highly dependent on weather and other environmental conditions. Lucia testified to this fact as follows: Q: What is your experience typically with an estimate, about whether it’s on target, low, or it’s u…"
+}
+]
+},
+{
+"case":"2:20-cv-01476",
+"doc":"168",
+"date":"2024-04-15",
+"judge":"CJB",
+"title":"Fleming et al v. Bayou Steel BD Holdings II LLC et al",
+"pages":9,
+"pdf":"https://www.govinfo.gov/content/pkg/USCOURTS-laed-2_20-cv-01476/pdf/USCOURTS-laed-2_20-cv-01476-5.pdf",
+"text":true,
+"tried":"April 1, 2024",
+"witnesses":[
+{
+"name":"Robert Archambault",
+"expert":false,
+"quote":"The only direct evidence before the Court about the decision to terminate the employees was the testimony of Robert Archambault, one of the three independent directors."
+}
+]
+},
+{
+"case":"2:23-cv-00241",
+"doc":"44",
+"date":"2024-04-22",
+"judge":"JTM",
+"title":"Turner et al v. United States of America",
+"pages":12,
+"pdf":"https://www.govinfo.gov/content/pkg/USCOURTS-laed-2_23-cv-00241/pdf/USCOURTS-laed-2_23-cv-00241-1.pdf",
+"text":true,
+"tried":"March 25, 2024",
+"witnesses":[
+{
+"name":"Tybryson Miller",
+"expert":false,
+"quote":"This Court did not find Ms. Miller’s testimony —that she stopped at the stop sign and then her foot slipped off the brake and she rolled into the roadway—to be credible."
+},
+{
+"name":"Lindsey Turner",
+"expert":false,
+"quote":"The Court found Ms. Turner’s testimony to be very credible. 16."
+},
+{
+"name":"Dr. Katz",
+"expert":false,
+"quote":"…e accident aggravated Plaintiff’s shoulder complaints and caused a new injury to her posterior neck and inner scapular. Dr. Katz testified that prior to the accident Ms. Turner did not have any significant pain in the neck itself.…"
+}
+]
+},
+{
+"case":"2:23-cv-00595",
+"doc":"140",
+"date":"2024-04-25",
+"judge":"EEF",
+"title":"Three Fifty Markets Ltd. v. Argos M M/V",
+"pages":20,
+"pdf":"https://www.govinfo.gov/content/pkg/USCOURTS-laed-2_23-cv-00595/pdf/USCOURTS-laed-2_23-cv-00595-3.pdf",
+"text":true,
+"tried":"February 26, 2024",
+"witnesses":[
+{
+"name":"Aaron Loveman",
+"expert":false,
+"quote":"In fact, Three Fifty’s president Aaron Loveman testified that he did not see the charter party prior to the transaction."
+},
+{
+"name":"Dean Tennant",
+"expert":false,
+"quote":"Additionally, BunkerEx broker Dean Tennant testified that prior to this sale (1) he had extensive dealings with AUM , (2) it was his   understanding that AUM and Shimsupa were related and (3) AUM had full authority from Shimsupa to purchase fuel bunkers on its behalf."
+},
+{
+"name":"Nikos Kekridis",
+"expert":false,
+"quote":"For instance, Kekridis testified that (1) he knew of the working relationship between Shimsupa and AUM, (2) he was aware that AUM guaranteed the obligations of Shimsupa, (3) Pontos Marine received the Order Confirmation for the transaction before delivery of t…"
+},
+{
+"name":"Alan Swimmer",
+"expert":false,
+"quote":"Additionally, Swimmer testified that charges that are higher than the GSA rate were due to factors outside of his control."
+}
+]
+},
+{
+"case":"2:24-cv-00749",
+"doc":"19",
+"date":"2024-04-29",
+"judge":"JTM",
+"title":"Equilon Enterprises LLC, et al v. Brothers Lapalco LLC et al",
+"pages":5,
+"pdf":"https://www.govinfo.gov/content/pkg/USCOURTS-laed-2_24-cv-00749/pdf/USCOURTS-laed-2_24-cv-00749-0.pdf",
+"text":true,
+"witnesses":[
+{
+"name":"David Newman",
+"expert":false,
+"quote":"The Court found the testimony of David Newman, owner of Newman Transport, to be credible."
+},
+{
+"name":"Anwar Nagi",
+"expert":false,
+"quote":"The operator of the Fuel Stations, Anwar Nagi, testified that he purchases only Shell fuel from Hamdan Petroleum for the Fuel Stations. 14."
+}
+]
+},
+{
+"case":"2:23-cv-02542",
+"doc":"43",
+"date":"2024-06-14",
+"judge":"WBV",
+"title":"Currault et al v. American River Transportation Company, LLC",
+"pages":53,
+"pdf":"https://www.govinfo.gov/content/pkg/USCOURTS-laed-2_23-cv-02542/pdf/USCOURTS-laed-2_23-cv-02542-1.pdf",
+"text":true,
+"tried":"April 22, 2024",
+"witnesses":[
+{
+"name":"Andrew Minster",
+"expert":true,
+"quote":"See, Trial Testimony of Joseph Meerman; Trial Exhibit 35 -0005. Andrew Minster, an expert in the field of marine surveying and appraisal, also testified that he could not locate “ART 44194” in ARTCO’s extensive database, but said that he was able to locate “AR…"
+},
+{
+"name":"Troy Currault",
+"expert":false,
+"quote":"…nd testified that he has worked with his father, Troy, and brother, Nicholas, at Lower River for about two years.25 11. Troy Currault testified that he has been working on the Mississippi River since 1982.26 19 R. Doc. 36 at ¶ 6. 20 R. Doc. 24 at p. 15 (Uncont…"
+},
+{
+"name":"Capt. Nicholas Currault",
+"expert":false,
+"quote":"The trial testimony of Capt. Nicholas Currault, Troy Currault, and Capt. Sidney Freeman is corroborated by ARTCO’s contract employees, Captains Kenny Billiot, Sr. and Kenny Billiot , Jr., who both testified that they saw at least one ARTCO breakaway barge and…"
+},
+{
+"name":"Capt. Sidney Freeman",
+"expert":false,
+"quote":"The trial testimony of Capt. Nicholas Currault, Troy Currault, and Capt. Sidney Freeman is corroborated by ARTCO’s contract employees, Captains Kenny Billiot, Sr. and Kenny Billiot , Jr., who both testified that they saw at least one ARTCO breakaway barge and…"
+},
+{
+"name":"Captain Kenny Billiot, Sr.",
+"expert":false,
+"quote":"…ourt bases this finding in great part on the testimony of Capt. Nicholas Currault, Troy Currault, Capt. Sidney Freeman, Captain Kenny Billiot, Sr., Captain Kenny Billiot, Jr., and Capt. Willhoft, and the Court’s determination that the ir testimony was both cre…"
+},
+{
+"name":"Joseph Meerman",
+"expert":false,
+"quote":"…M/V SHELL FUELER when it was first struck by one of ARTCO’s breakaway barges.96 Additionally, ARTCO’s representative , Joseph Meerman, testified that he was made aware by a call from Capt. Kenny Billiot, Sr. on the evening of August 29th that at least one of…"
+},
+{
+"name":"Capt. Willhoft",
+"expert":false,
+"quote":"…s competitors for several years, but that they have gotten to know each other and have become friends over the years.62 Capt. Willhoft further testified that when Hurricane Ida hit, he and his crew secured their fleet and intended to ride out the stor m until…"
+},
+{
+"name":"Captain Michael Berry",
+"expert":true,
+"quote":"…to push those barges onto the bank when others refused to venture out into the weather conditions, as “phenomenal.” 145 Capt. Berry further testified that he agreed with Capt. Kenny Billiot, Jr. that it is harder to catch a barge and push it without a line, as…"
+}
+]
+},
+{
+"case":"2:21-cv-02337",
+"doc":"172",
+"date":"2024-08-20",
+"judge":"DPC",
+"title":"Southern Oil of Louisiana LLC v. Alliance Offshore, L.L.C. et al",
+"pages":43,
+"pdf":"https://www.govinfo.gov/content/pkg/USCOURTS-laed-2_21-cv-02337/pdf/USCOURTS-laed-2_21-cv-02337-3.pdf",
+"text":true,
+"witnesses":[
+{
+"name":"Shane Schexnider",
+"expert":false,
+"quote":"Although electrician Bryan Miller and crew member Shane Schexnider testified they also checked the lights using the spotting scope when they woke up before sunrise, that testimony occurred only after other witnesses testified that they used the spotting scope…"
+},
+{
+"name":"Dale Carter",
+"expert":false,
+"quote":"To the contrary, with regard to the efficacy of bird deterrents, Southern Oil’s witness Dale Carter testified that “[n]one of them work . . ."
+},
+{
+"name":"Capt. Chris Tyndall",
+"expert":false,
+"quote":"Although Capt. Tyndall testified that he began “veering towards the original voyage plan,” after passing the trawler, the record reflects that he maintained a course parallel to the charted course for roughly six nautical miles before alliding with the Well."
+},
+{
+"name":"Bryan Miller",
+"expert":false,
+"quote":"Although a Southern Oil employee ( Carter) testified that Miller checked the lantern using the IR remote, Miller testified that he never used an IR remote to check the battery’s health for any platform and does not recall whether he knew that the IR remote cou…"
+}
+]
+},
+{
+"case":"2:21-cv-01509",
+"doc":"111",
+"date":"2024-09-17",
+"judge":"SM",
+"title":"Talley et al v. United States of America et al",
+"pages":13,
+"pdf":"https://www.govinfo.gov/content/pkg/USCOURTS-laed-2_21-cv-01509/pdf/USCOURTS-laed-2_21-cv-01509-0.pdf",
+"text":true,
+"witnesses":[
+{
+"name":"Adam Talley",
+"expert":false,
+"quote":"…jurisdiction conferred by the Federal Tort Claims Act,5 without a jury, over four days.6 The Court heard testimony from Adam Talley, Floyd Talley, Dr. Cuong Bui, Dr. Donald Dietze, Jr., Lieutenant Colonel Sean P. 1 The United States Department of the Navy and…"
+},
+{
+"name":"Floyd Talley",
+"expert":false,
+"quote":"…conferred by the Federal Tort Claims Act,5 without a jury, over four days.6 The Court heard testimony from Adam Talley, Floyd Talley, Dr. Cuong Bui, Dr. Donald Dietze, Jr., Lieutenant Colonel Sean P. 1 The United States Department of the Navy and the United St…"
+},
+{
+"name":"Dr. Cuong Bui",
+"expert":false,
+"quote":"…he Federal Tort Claims Act,5 without a jury, over four days.6 The Court heard testimony from Adam Talley, Floyd Talley, Dr. Cuong Bui, Dr. Donald Dietze, Jr., Lieutenant Colonel Sean P. 1 The United States Department of the Navy and the United States Coast Gua…"
+},
+{
+"name":"Dr. Donald Dietze, Jr.",
+"expert":false,
+"quote":"…Claims Act,5 without a jury, over four days.6 The Court heard testimony from Adam Talley, Floyd Talley, Dr. Cuong Bui, Dr. Donald Dietze, Jr., Lieutenant Colonel Sean P. 1 The United States Department of the Navy and the United States Coast Guard were dismiss…"
+},
+{
+"name":"Lt. Col. Sean Dillon",
+"expert":false,
+"quote":"…ircle. 12 Testimony of Plaintiffs; Ex. 4, BATES No. Talley-002207 shows the jobsite. 13 Ex. 74. 14 Ex. 74; testimony of Lt. Col. Dillon, Maj. Ashbolt, and Gy.…"
+},
+{
+"name":"Allen Ashbolt",
+"expert":false,
+"quote":"…ny of Plaintiffs; Ex. 4, BATES No. Talley-002207 shows the jobsite. 13 Ex. 74. 14 Ex. 74; testimony of Lt. Col. Dillon, Maj. Ashbolt, and Gy.…"
+},
+{
+"name":"Lee Orloff",
+"expert":false,
+"quote":"Based on Dr. Orloff’s testimony and the Adam Talley photograph of the Talley jobsite, the winds at West Jeff were coming from the north between 7 and 14 miles per hour on the afternoon of December 4, 2019.25 V. The Marine Corps helicopter approached the West J…"
+}
+]
+},
+{
+"case":"2:22-cv-04987",
+"doc":"123",
+"date":"2024-09-30",
+"judge":"DJP",
+"title":"In re: In the Matter of La Carriers, LLC",
+"pages":21,
+"pdf":"https://www.govinfo.gov/content/pkg/USCOURTS-laed-2_22-cv-04987/pdf/USCOURTS-laed-2_22-cv-04987-2.pdf",
+"text":true,
+"witnesses":[
+{
+"name":"Shane Acosta",
+"expert":false,
+"quote":"Rigid’s superintendent Shane Acosta testified Rigid had no plans to have the AMBITION drydocked after these repairs were performed. 19 Testimony of Jeff Mizzi; Testimony of Shane Acosta. 20 Testimony of Kyle Smith."
+},
+{
+"name":"Kyle Smith",
+"expert":false,
+"quote":"The Court does not find Acosta’s testimony persuasive, but, on the contrary, credits the testimony of Kyle Smith who explained a permanent repair could not be accomplished with the barge in the water and drydocking was necessary to crop out and renew the damaged steel.   19."
+},
+{
+"name":"Chester Murphy",
+"expert":false,
+"quote":"The Court finds credible the testimony of Captain Murphy and relief Captain Williams that when the crew of the KAREN KOBY came to understand the barge was listing, there was very little, if anything, that could be done to prevent the barge from capsizing. 55."
+},
+{
+"name":"Robert Bartlett",
+"expert":true,
+"quote":"…Carriers has met its burden in this case, and the cause of the casualty was the unseaworthiness of the AMBITION.   15. Bartlett testified this hole in the hull of the AMBITION was emblematic of corrosion wastage because the edges of the hole were feathered, a…"
+}
+]
+},
+{
+"case":"2:21-cv-02337",
+"doc":"208",
+"date":"2025-03-26",
+"judge":"DPC",
+"title":"Southern Oil of Louisiana LLC v. Alliance Offshore, L.L.C. et al",
+"pages":21,
+"pdf":"https://www.govinfo.gov/content/pkg/USCOURTS-laed-2_21-cv-02337/pdf/USCOURTS-laed-2_21-cv-02337-4.pdf",
+"text":true,
+"tried":"July 22-23, 2024",
+"witnesses":[
+{
+"name":"Ryan Landry",
+"expert":false,
+"quote":"The Court heard expert testimony from two witnesses, Whitney Belanger Jr. (Southern Oil’s expert) and Donald Olson (Alliance’s expert), and additional testimony from Ryan Landry (via deposition) and Harvey Kelley. 7."
+},
+{
+"name":"Louis Belanger",
+"expert":true,
+"quote":"SO-26. 17. Mr. Belanger testified that, after the 104 -day COVID shut -in, the well experienced increased “flush” production and then returned to its pre-event oil forecasts within about four months."
+},
+{
+"name":"Donald Olson",
+"expert":true,
+"quote":"…plots and Well expectations, his projections of GOR and gas production, and the foundation of his economic analysis.   Mr. Olson testified that his review of the data does not reflect the 9.24% lower production set point beginning in December 2022, asserting…"
+},
+{
+"name":"Harvey Kelley",
+"expert":false,
+"quote":"Southern Oil called its president, Harvey Kelley, in rebuttal. Mr. Kelley testified that he has worked on the Well since 2006, and it is not a super-critical reservoir, which he has never seen in Louisiana."
+}
+]
+},
+{
+"case":"2:22-cv-05358",
+"doc":"96",
+"date":"2025-05-09",
+"judge":"NJB",
+"title":"Trailer Bridge, Inc. v. Louisiana International Marine LLC",
+"pages":21,
+"pdf":"https://www.govinfo.gov/content/pkg/USCOURTS-laed-2_22-cv-05358/pdf/USCOURTS-laed-2_22-cv-05358-1.pdf",
+"text":true,
+"tried":"December 16, 2024",
+"witnesses":[
+{
+"name":"Anthony Roberts",
+"expert":false,
+"quote":"Anthony Roberts was not aware of the no-lien clause.60 15. Anthony Roberts testified that Christopher Raley sent over a copy of the Work Cat/Trailer Bridge charter agreement because Christopher Raley was unhappy with having to pay Trailer Bridge in advance, an…"
+}
+]
+},
+{
+"case":"2:22-cv-05132",
+"doc":"211",
+"date":"2025-06-17",
+"judge":"BWA",
+"title":"Smothered Covered, LLC v. WH Capital, LLC",
+"pages":62,
+"pdf":"https://www.govinfo.gov/content/pkg/USCOURTS-laed-2_22-cv-05132/pdf/USCOURTS-laed-2_22-cv-05132-4.pdf",
+"text":true,
+"witnesses":[
+{
+"name":"Jeffrey Wright",
+"expert":false,
+"quote":"Despite instructing Taylor to send the lists to Jacobson, Wright testified that he did not mean to intimate to Federated that Waffle House intended to convey with the sale the listed items ( viz., the backbar, seating package, and globe lights) that were later…"
+},
+{
+"name":"Robbie M. Poche",
+"expert":true,
+"quote":"The Court credits Poche’s testimony, finding that his model (which wa s based on Xactimate pricing esti mates or, for items not within the Xactimate database, his res earch of comparables) and his assumptions (which were built on photographs and plans of the W…"
+}
+]
+},
+{
+"case":"2:25-cv-00974",
+"doc":"105",
+"date":"2025-08-08",
+"judge":"JTM",
+"title":"Atlantic Oceanic LLC v. HF Offshore Services Mexico SAPI de CV et al",
+"pages":12,
+"pdf":"https://www.govinfo.gov/content/pkg/USCOURTS-laed-2_25-cv-00974/pdf/USCOURTS-laed-2_25-cv-00974-3.pdf",
+"text":true,
+"witnesses":[
+{
+"name":"Heiko Felderhoff",
+"expert":false,
+"quote":"Finding Mr. Felderhoff’s testimony at the June 18 and July 29 Hearings credib le, the Court concludes that a delay in updating the relevant   databases was the reasonable result of HF Mexico’s working through the intermediary Hudson Marine. 50."
+}
+]
+},
+{
+"case":"2:22-cv-01261",
+"doc":"79",
+"date":"2025-09-09",
+"judge":"BSL",
+"title":"Spinks et al v. United States of America",
+"pages":13,
+"pdf":"https://www.govinfo.gov/content/pkg/USCOURTS-laed-2_22-cv-01261/pdf/USCOURTS-laed-2_22-cv-01261-1.pdf",
+"text":true,
+"witnesses":[
+{
+"name":"Jessica Williams",
+"expert":false,
+"quote":"Deposition of Sergeant Jawun Giovanni at 43. 15 Testimony of Jessica Williams. Williams testified that she loaned Spinks the truck to travel back and forth to work."
+},
+{
+"name":"Sergeant Jawun Giovanni",
+"expert":false,
+"quote":"…eant Jawun Giovanni at 52–53. 19 Testimony of Sergeant Paul Broussard; Deposition of Sergeant Jawun Giovanni at 38, 42. Giovanni testified that Spinks was driving “a little fast, a little erratically, and . . . swerving a little bit.…"
+},
+{
+"name":"Sergeant Paul Broussard",
+"expert":false,
+"quote":"Deposition of Sergeant Jawun Giovanni at 49. Broussard testified that Spinks was not driving dangerously or carelessly, but changed lanes rather aggressively."
+},
+{
+"name":"Louis Spinks",
+"expert":false,
+"quote":"Moreover, Spinks testified that another vehicle was between the sawhorse truck and his own truck when he entered the right lane."
+},
+{
+"name":"Adam Grill",
+"expert":true,
+"quote":"Looking closely at Grill’s testimony, Broussard’s conduct was largely consistent with Grill’s characterization of a driver acting reasonably."
+}
+]
+},
+{
+"case":"2:22-cv-03015",
+"doc":"99",
+"date":"2025-09-22",
+"judge":"JTM",
+"title":"In Re: Whitney Oil & Gas LLC",
+"pages":12,
+"pdf":"https://www.govinfo.gov/content/pkg/USCOURTS-laed-2_22-cv-03015/pdf/USCOURTS-laed-2_22-cv-03015-1.pdf",
+"text":true,
+"witnesses":[
+{
+"name":"Kyle Domangue",
+"expert":false,
+"quote":"The Court accepts the testimony of Kyle Domangue, QPS’s corporate representative, who testified that when it entered into the MSA with Whitney Oil, QPS expected that the production operators it supplied would be operating vessels and working in an area that co…"
+},
+{
+"name":"Kyle Bordelon",
+"expert":false,
+"quote":"The Court accepts the testimony of Kyle Bordelon, Whitney Oil’s corporate representative, who testified that the QPS production operators utilized vessels as transportation to get from one well or platform in the oil field to another."
+},
+{
+"name":"Clayton Holmes",
+"expert":false,
+"quote":"The Court found the testimony of Clayton Holmes, a field foreman with Whitney Oil and the person- in-charge at the facility, regarding the duties of the production operators to be most credible. 24."
+}
+]
+},
+{
+"case":"2:21-cv-00958",
+"doc":"503",
+"date":"2025-10-24",
+"judge":"BWA",
+"title":"Sentilles v. Huntington Ingalls Incorporated et al",
+"pages":14,
+"pdf":"https://www.govinfo.gov/content/pkg/USCOURTS-laed-2_21-cv-00958/pdf/USCOURTS-laed-2_21-cv-00958-16.pdf",
+"text":true,
+"witnesses":[]
+},
+{
+"case":"2:24-cv-01875",
+"doc":"91",
+"date":"2026-02-09",
+"judge":"EEF",
+"title":"R&R Boats, Inc. v. Gulf Offshore Logistics, LLC",
+"pages":13,
+"pdf":"https://www.govinfo.gov/content/pkg/USCOURTS-laed-2_24-cv-01875/pdf/USCOURTS-laed-2_24-cv-01875-2.pdf",
+"text":true,
+"tried":"January 13 and 14, 2026",
+"witnesses":[]
+},
+{
+"case":"2:23-cv-00931",
+"doc":"112",
+"date":"2026-03-30",
+"judge":"BSL",
+"title":"BlueTeam Roofing, LLC v. Vincent Piazza, Jr. and Sons Seafood, Inc.",
+"pages":28,
+"pdf":"https://www.govinfo.gov/content/pkg/USCOURTS-laed-2_23-cv-00931/pdf/USCOURTS-laed-2_23-cv-00931-2.pdf",
+"text":true,
+"witnesses":[
+{
+"name":"Barbara Hirsch",
+"expert":false,
+"quote":"Rather, the appraiser, Mr. Demeritt, informed BlueTeam about the final award of $1,229,598.96.46 31. Barbara Hirsch testified that after she received the check from Minuteman for $967,482.39, BlueTeam pressured her to turn over the entire check to BlueTeam.47 32."
+},
+{
+"name":"Vaughn Scott",
+"expert":false,
+"quote":"Sendero rejected the inclusion of this provision. Mr. Scott testified that 30% of Piazza’s future insurance settlement would not cover the cost of the repairs Sendero would need to perform to repair Piazza’s roof and building.14 The provision ultimately was no…"
+},
+{
+"name":"Vincent Piazza",
+"expert":false,
+"quote":"Ms. Hirsch and Mr. Piazza testified that they were not ready for BlueTeam to repair the roof because they had additional questions and concerns ."
+},
+{
+"name":"Mr. Pizza",
+"expert":false,
+"quote":"The representative attempted to have them schedule the repair work and told them that BlueTeam had ordered supplies for the project.56 38. Mr. Pizza testified that after that meeting, he began reaching out to other roofing companies."
+}
+]
+},
+{
+"case":"2:22-cv-03835",
+"doc":"255",
+"date":"2026-03-31",
+"judge":"DJP",
+"title":"Magee v. Florida Marine, LLC et al",
+"pages":52,
+"pdf":"https://www.govinfo.gov/content/pkg/USCOURTS-laed-2_22-cv-03835/pdf/USCOURTS-laed-2_22-cv-03835-6.pdf",
+"text":true,
+"tried":"July 29, 2024",
+"witnesses":[
+{
+"name":"Timmy Callais",
+"expert":false,
+"quote":"Florida Marine’s corporate representative, Timmy Callais, testified that it is Florida Marine policy to pay overtime to any crewmember who works over 12 hours in a day. 41 Florida Marine payroll documents show that in the pay period from March 14 to March 27,…"
+},
+{
+"name":"Dr. Susan Kahn",
+"expert":true,
+"quote":"…ed alternative treatment options like future viscosupplementation injections or platelet-rich plasma injections.103 89. Dr. Susan Kahn, who was tendered as an expert in venous thrombosis and post-thrombotic syndrome, testified at trial regarding Mr. Magee’s in…"
+},
+{
+"name":"Bryceton Scott",
+"expert":false,
+"quote":"…ng over water and that he did not consider that gap to be “open water.”117 And lastly, the Court notes the testimony of Bryceton Scott, who was off watch when Mr. Magee was injured , but was woken up after the fact and was required to unload the few remaining…"
+},
+{
+"name":"Nicholas Magee",
+"expert":false,
+"quote":"Mr. Magee was assigned to work the “call watch.” Mr. Magee testified that, as he understood his watch assignment, he was required to work from 6:00 a.m. to 6:00 p.m., as well as any other time outside of his watch period when a deckhand was needed, which inclu…"
+},
+{
+"name":"David Spencer",
+"expert":false,
+"quote":"…hat to the side, through the gap.21 Thus, the gap had to be at least as wide as Mr. Magee is from shoulder to shoulder. Captain Spencer testified that he noticed the fuel barge was gapped out “pretty wide.”22 23.…"
+},
+{
+"name":"Curtis Howe",
+"expert":false,
+"quote":"Captain Spencer testified that he noticed the fuel barge was gapped out “pretty wide.”22 23. Mr. Howe, the Vessel’s pilot, testified that he knew the fuel barge at Mid America Fuels had a tendency to gap out further from the dock when a vessel moored to the fu…"
+},
+{
+"name":"Willis Rushing",
+"expert":false,
+"quote":"The testimony of the other two deckhands, Mr. Rushing and Mr. Scott, supports Mr. Magee’s claim that he was overworked. Mr. Rushing testified that he observed Mr. Magee having to work in excess of 15 hours."
+},
+{
+"name":"Mr. Kuzel",
+"expert":true,
+"quote":"Comparing the methodologies of the two experts, the Court finds Mr. Kuzel’s testimony on this issue to be more persuasive."
+},
+{
+"name":"Dr. Charles Czeisler",
+"expert":true,
+"quote":"…and sleep science, sleep disorders, fatigue risk management , and the impact of sleep deficiency on human performance. Dr. Czeisler testified that based upon the hours Mr. Magee had been working as reflected in the 96- Hour Work/Rest History Worksheet, Mr. Ma…"
+},
+{
+"name":"Captain Berry",
+"expert":true,
+"quote":"Next, Captain Berry opined that the fuel barge moved. Captain Berry’s testimony on this point was cumulative of Captain Cunningham’s and not persuasive considering the more reliable methodology applied by Mr. Kuzel."
+},
+{
+"name":"Dr. Van Deventer",
+"expert":false,
+"quote":"The Court finds that what these records actually reflect, which was confirmed by Dr. van Deventer’s testimony at trial, is that Mr. Magee’s functionality was not steadily progressing, nor could Dr. van Deventer accurately predict when Mr. Magee would return to full functionality."
+},
+{
+"name":"Dr. Kristen Sanfilippo",
+"expert":false,
+"quote":"…her, Dr. Sanfilippo found there “was no evidence” Magee’s thrombotic events were chronic at the time of presentation.96 Dr. Sanfilippo testified regarding the basis of these opinions at trial, and the Court found her opinions to be credible.97 94 Plaintiff’s E…"
+},
+{
+"name":"Dr. Bostick",
+"expert":false,
+"quote":"He was wearing compression socks for the continued swelling in his leg. Dr. Bostick testified that he wanted to minimize ongoing cortisone injections to prevent cartilage deterioration, so he and Mr. Magee discussed alternative treatment options like future vi…"
+},
+{
+"name":"Dr. John Macgregor",
+"expert":false,
+"quote":"The Court likewise finds that through the trial testimony of Dr. Macgregor, Mr. Magee established it is more probable than not that he suffers from PTSD, major depressive disorder, and somatic symptom disorder with predominant pain as a result of the March 6, 2022 work incident."
+},
+{
+"name":"Chad Hidalgo",
+"expert":false,
+"quote":"…s more general requirement that JSAs are required for “jobs with a higher potential for injury.”122 Mr. Magee relies on Mr. Hidalgo’s testimony identifying the hazards that were present at Mid America Fuels on the night of the incident in an effort to support…"
+},
+{
+"name":"Nancy Favaloro",
+"expert":false,
+"quote":"Second, with respect to Mr. Magee’s vocational outlook prior to the accident, Ms. Favaloro testified that, given Mr. Magee’s background, the licenses he already possessed, and his father and grandfather’s work as captains, it is her opinion that it is reasonab…"
+},
+{
+"name":"Dr. Aaron Wolfson",
+"expert":false,
+"quote":"During Dr. Wolfson’s testimony, the cost tables contained in his report were displayed, and he described the recommendations from each of the doctors."
+}
+]
+},
+{
+"case":"2:23-cv-02085",
+"doc":"101",
+"date":"2026-03-31",
+"judge":"BSL",
+"title":"Stewart Development, LLC v. 111 Veterans Boulevard, LLC",
+"pages":78,
+"pdf":"https://www.govinfo.gov/content/pkg/USCOURTS-laed-2_23-cv-02085/pdf/USCOURTS-laed-2_23-cv-02085-3.pdf",
+"text":true,
+"witnesses":[
+{
+"name":"Colette Wharton",
+"expert":false,
+"quote":"…and smoke and such other casualties as are presently included in the so-called Extended Coverage 15 ECF No. 73 at 7(4). Colette Wharton testified that the Feil Organization is “a $7 billion real estate group that owns and manages a large portfolio in New York,…"
+},
+{
+"name":"Timothy Gold",
+"expert":true,
+"quote":"Timothy Gold, 111 Veterans’ Insurance Brokerage Expert 58. Timothy Gold, an experienced New Orleans insurance professional, testified as a defense expert in the placement of insurance coverage on commercial 73 Id. Anderson Baker agreed that the primary driver…"
+},
+{
+"name":"Frank Hale Stewart Jr.",
+"expert":true,
+"quote":"…tewart Jr. acknowledged that he was aware of no legal obligation for Frank Stewart to fund the captive cell policy. 119 Frank Hale Stewart Jr. further testified that, if Frank Stewart were unwilling or unable to fund the policy, Frank Hale Stewart Jr. would no…"
+},
+{
+"name":"Arthur Sterbcow",
+"expert":false,
+"quote":"…rs to solicit tenants from competing buildings given the lack of demand for office space in the New Orleans market. 135 Arthur Sterbcow, Stewart’s commercial real estate expert, testified that it was “perfectly all right” to lure tenants from a competitor buil…"
+},
+{
+"name":"Eric Lowenstein",
+"expert":false,
+"quote":"The issue was also raised throughout the 206 ECF No. 73 at 26. 207 ECF No. 45 at 20. 208 ECF No. 80 at 21–22.   trial, including in testimony of Eric Lowenstein on Day 1, and Stewart never objected to questions bearing on AOP coverage. 62."
+},
+{
+"name":"Anderson Baker",
+"expert":false,
+"quote":"…er used by Baker, had been unwilling to offer a policy for all perils with total loss limits of $93,256,694 in 2022. 46 Baker testified that he did not remember shopping around for another underwriter who might be willing to provide additional coverage, nor di…"
+},
+{
+"name":"Andrew Schutzman",
+"expert":false,
+"quote":"While Hurricane Ida caused a sharp in crease in the cost of wind coverage in southeast Louisiana, Schutzman testified that Ida did not have significant effect on the cost of AOP coverage because the storm did not change the carriers’ AOP 70 Id. 71 Id. 72 Testi…"
+},
+{
+"name":"Evan Stone",
+"expert":false,
+"quote":"Stone placed Heritage Plaza on the market in December 2022.160 Stone testified that Heritage Plaza marketing materials were sent to almost 4,700 potential investors."
+},
+{
+"name":"Bruce Sossaman",
+"expert":false,
+"quote":"…il properties in Metairie, sought to downplay the significance of receiving Heritage Plaza’s rent roll in May 2022. 176 Sossaman testified that he keeps an extensive personal database tracking propos als he has made to tenants of non-Feil buildings, including…"
+},
+{
+"name":"Mohamad Motahari",
+"expert":false,
+"quote":"…r the terms of the 10-year lease that Audubon signed with Stewart, Stewart agreed to a $1.00 per squa re foot discount; Motahari testified that this discount was necessary for Stewart “to be competitive” and prevent Audubon from moving to a Feil building.185 1…"
+}
+]
+},
+{
+"case":"2:24-cv-01680",
+"doc":"71",
+"date":"2026-05-27",
+"judge":"BWA",
+"title":"Williams v. United States of America",
+"pages":13,
+"pdf":"https://www.govinfo.gov/content/pkg/USCOURTS-laed-2_24-cv-01680/pdf/USCOURTS-laed-2_24-cv-01680-1.pdf",
+"text":true,
+"witnesses":[
+{
+"name":"Warren Daniels",
+"expert":false,
+"quote":"Here, Daniels testified that he made the right-hand turn at the instance and direction of a police officer that was direc ting traffic."
+}
+]
+},
+{
+"case":"2:23-cv-05992",
+"doc":"77",
+"date":"2026-08-25",
+"judge":"JCZ",
+"title":"Collins v. United States of America et al",
+"pages":11,
+"pdf":"https://www.govinfo.gov/content/pkg/USCOURTS-laed-2_23-cv-05992/pdf/USCOURTS-laed-2_23-cv-05992-0.pdf",
+"text":true,
+"tried":"April 27-29, 2026",
+"witnesses":[
+{
+"name":"Candis Guillot",
+"expert":false,
+"quote":"Harmansky assumed that the Suburban would pull over to avoid hitting him since he was driving in the Suburban’s lane in order to avoid making contact with the disabled truck. Candis Guillot was called as a witness by the defense."
+},
+{
+"name":"Dr. Aaron Wolfson",
+"expert":false,
+"quote":"Lifecare planner Dr. Aaron Wolfson testified on behalf of Collins."
+}
+]
+}
+]
+}

@@ -24,6 +24,7 @@
       <a href="#calendar" data-nav="calendar">Calendar</a>
       <a href="#opinions" data-nav="opinions">Opinions</a>
       <a href="#motions" data-nav="motions">Motions</a>
+      <a href="#trials" data-nav="trials">Trials</a>
       <a href="#rules" data-nav="rules">Requirements</a>
       <a href="#tradesecrets" data-nav="tradesecrets">Trade secrets</a>
       <a href="#court" data-nav="court">Court</a>
@@ -260,6 +261,7 @@
         <p class="fullname" id="c-judge"></p>
         <p class="meta" id="c-facts" hidden></p>
         <p class="meta" id="c-ts" hidden></p>
+        <p class="meta" id="c-trial" hidden></p>
         <p class="meta" id="c-reassigned" hidden></p>
       </div>
       <div class="actions">
@@ -433,6 +435,32 @@
     <details class="explain">
       <summary>Likely and possible</summary>
       <p>Likely: the nature of suit or cause is the Defend Trade Secrets Act, or docket text or a written opinion names a trade-secret statute, La. R.S. 23:921, or a noncompete or non-solicitation agreement. Possible: a motion for a TRO, preliminary injunction, or expedited discovery in a contract case, or in a case with no nature of suit on file that names no government party. The court's feed shows these motions within minutes of filing; the complaint's claims are not in any free source. <a href="methodology.html#trade-secrets">How we find them</a></p>
+    </details>
+  </section>
+
+  <section class="page" id="page-trials" aria-labelledby="h-trials" hidden>
+    <div class="jhead">
+      <div>
+        <h1 id="h-trials">Trials</h1>
+        <p class="sub">Civil trials on the court's calendar and in its docket feed since Oct. 2026, and bench-trial decisions since 2022 with the witnesses each one names. <a href="methodology.html#trials">How we find them</a></p>
+      </div>
+      <div class="actions"><button type="button" class="btn" data-csv="tr">Export CSV</button></div>
+    </div>
+    <div class="filters">
+      <label>Judge<select id="tr-judge"></select></label>
+      <label class="grow">Search<input id="tr-q" type="search" placeholder="Party, case number, witness, or law firm" autocomplete="off"></label>
+    </div>
+    <section class="panel">
+      <div class="ph"><h2>Trials</h2><span class="count" id="tr-count"></span></div>
+      <div class="scroll"><table class="t" id="tr-table"></table></div>
+    </section>
+    <section class="panel">
+      <div class="ph"><h2>Bench-trial decisions</h2><span class="count" id="trd-count"></span></div>
+      <div class="scroll tall"><table class="t" id="trd-table"></table></div>
+    </section>
+    <details class="explain">
+      <summary>What is and is not here</summary>
+      <p>Trial days come from the court's seven-day calendar, and trial entries ("Jury Trial - Held", "Jury Verdict Form") from its RSS feed, both read every 15 minutes since Oct. 2026. Witnesses come from the text of findings of fact and conclusions of law after a bench trial, read automatically, so a name can be missed or misread; each name shows the sentence it came from. Jury-trial witnesses, minute entries, and verdicts are PACER documents and are not shown. Counsel appears where CourtListener lists it. <a href="methodology.html#trials">How we find them</a></p>
     </details>
   </section>
 
