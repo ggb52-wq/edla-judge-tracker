@@ -56,6 +56,7 @@ DOCKET_LOOKUP = {"next": None, "results": [
 
 
 OPINION_QUERIES = []   # the written-opinion queries the updater sent
+MOTION_QUERIES = []    # the docket-text (type rd) queries the updater sent
 
 
 def fake_get(url, headers=None, timeout=45):
@@ -81,6 +82,7 @@ def fake_get(url, headers=None, timeout=45):
     if "docket_id" in url:
         return json.dumps(DOCKET_LOOKUP).encode()
     if "type=rd" in url:                                         # motions with docket text
+        MOTION_QUERIES.append(urllib.parse.parse_qs(urllib.parse.urlparse(url).query))
         return json.dumps({"next": None, "results": [
             {"docketNumber": "2:26-cv-09001", "caseName": "Alpha v. Beta", "assignedTo": "Brandon S. Long", "document_number": 15,
              "entry_date_filed": "2026-10-19", "short_description": "Motion to Dismiss for Failure to State a Claim",
@@ -183,6 +185,12 @@ class UpdateTest(unittest.TestCase):
         self.assertNotIn(("2:26-cv-09001", "16"), motions)                              # a response is not a motion
         self.assertEqual(motions[("2:26-cv-09003", "31")]["submit"], "2026-10-28")   # CourtListener only
         self.assertEqual(motions[("2:26-cv-09003", "31")]["judge"], "ASJ")
+        # Only entries whose docket text names a submission date: this court's entries on CourtListener carry no text,
+        # and "short_description:motion" filled the read's page limit with responses and replies (Nov. 2026).
+        self.assertTrue(MOTION_QUERIES)
+        for q in MOTION_QUERIES:
+            self.assertNotIn("short_description", q["q"][0])
+            self.assertIn('description:"submitted on"', q["q"][0])
         self.assertTrue(update.is_motion_event("Ex Parte/Consent Motion for Extension of Deadlines"))
         self.assertFalse(update.is_motion_event("Order on Motion to Dismiss"))
         self.assertFalse(update.is_motion_event("Reply to Response to Motion"))

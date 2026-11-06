@@ -151,6 +151,7 @@ RELIEF_RE = re.compile(
 # "Motion for Leave to File Reply", "Motion to Quash Notice of Deposition"). Same rule as isMotionEvent in assets/app.js.
 NOT_MOTION_RE = re.compile(r"order|judgment entered|^(?:response|reply|opposition|notice|memorand)", re.I)
 # EDLA docket text: "Motion(s) will be submitted on 11/4/2026" or "set for submission on 11/4/2026".
+MOTION_TEXT_QUERY = 'description:"submitted on" OR description:"set for submission"'
 SUBMISSION_RE = re.compile(r"submi(?:tted|ssion)\s+(?:on\s+)?(\d{1,2})/(\d{1,2})/(\d{2,4})", re.I)
 
 
@@ -815,9 +816,12 @@ def main() -> int:
         motion_keys.add(key)
         added_motions += 1
     # Submission dates and motions the feed missed, from CourtListener's docket text (one or two calls per search).
+    # Only entries whose text names a submission date: CourtListener keeps this court's entries as the RSS feed shows them,
+    # the bracketed event and no docket text, so "short_description:motion" filled the three pages with responses and
+    # replies to motions, set no submission date on any of 684 motions (Oct. 18 to Nov. 6, 2026), and cut the read short.
     docket_texts: list[dict] = []  # docket text read this pass, for the trade secret and noncompete finder
     if do_search:
-        for r in cl.paged("search/", {"type": "rd", "court": "laed", "q": 'short_description:motion OR description:"submitted on"',
+        for r in cl.paged("search/", {"type": "rd", "court": "laed", "q": MOTION_TEXT_QUERY,
                                        "entry_date_filed_after": order_from, "entry_date_filed_before": today}, limit_pages=3):
             case, kind = base_case(r.get("docketNumber", ""))
             doc = str(r.get("document_number") or r.get("entry_number") or "")

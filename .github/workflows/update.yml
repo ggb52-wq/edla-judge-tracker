@@ -116,11 +116,25 @@ jobs:
       - name: Start the next run
         # Also after a failed pass, so one bad pass does not stop the checks; not after a run is cancelled by hand.
         if: (success() || failure()) && steps.gate.outputs.skip != 'true'
+        # GitHub's API fails now and then (HTTP 500 on the dispatch, Nov. 5, 2026, left the checks to the hourly backstop
+        # for half an hour), so each call is tried up to four times, 2, 4, and 8 seconds apart.
         run: |
-          waiting=$(gh run list -R "$GITHUB_REPOSITORY" --workflow update.yml --limit 30 --json databaseId,status \
-                    --jq "[.[] | select(.status != \"completed\" and .databaseId != $GITHUB_RUN_ID)] | length")
-          if [ "$waiting" = "0" ]; then
-            gh workflow run update.yml -R "$GITHUB_REPOSITORY" --ref main && echo "Started the next run."
-          else
+          for wait in 2 4 8 0; do
+            waiting=$(gh run list -R "$GITHUB_REPOSITORY" --workflow update.yml --limit 30 --json databaseId,status \
+                      --jq "[.[] | select(.status != \"completed\" and .databaseId != $GITHUB_RUN_ID)] | length") && break
+            waiting=""
+            [ "$wait" -gt 0 ] && sleep "$wait"
+          done
+          if [ -n "$waiting" ] && [ "$waiting" != "0" ]; then
             echo "A run is already waiting; it continues the checks."
+            exit 0
           fi
+          for wait in 2 4 8 0; do
+            if gh workflow run update.yml -R "$GITHUB_REPOSITORY" --ref main; then
+              echo "Started the next run."
+              exit 0
+            fi
+            [ "$wait" -gt 0 ] && sleep "$wait"
+          done
+          echo "::error::Could not start the next run; the hourly schedule picks the checks up"
+          exit 1
