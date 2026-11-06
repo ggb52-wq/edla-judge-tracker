@@ -1072,7 +1072,7 @@ def main() -> int:
     # Fifth Circuit decisions in cases from this court (every pass). Read before the run log is written, so their notes are in it.
     jp = court_info.load_json(DATA / "judge_pages.json", {})
     sections = {j["code"]: (j.get("contact") or {}).get("section", "") for j in jp.get("judges", []) if j.get("code") in bench}
-    for name, fn in (("submission_dates", lambda old: court_info.update_submission_dates(old, http_get, sections, now, note)),
+    for name, fn in (("submission_dates", lambda old: court_info.update_submission_dates(old, http_get, sections, now, note, holidays)),
                      ("notices", lambda old: court_info.update_notices(old, http_get, now, note)),
                      ("appeals", lambda old: court_info.update_appeals(old, http_get, now, note))):
         old = court_info.load_json(DATA / f"{name}.json", {})

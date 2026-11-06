@@ -81,6 +81,33 @@ class SubmissionDatesTest(unittest.TestCase):
         self.assertEqual(out["judges"]["JCZ"]["dates"][0], "2026-11-11")
         self.assertIs(court_info.update_submission_dates(out, get, {"JCZ": "A"}, now + dt.timedelta(hours=3), note), out)  # not again today
 
+    def test_past_dates_kept_and_inferred(self):
+        # The page lists only dates still open to a new motion; a date that drops off it is kept.
+        self.assertEqual(court_info.merge_dates(["2026-11-11", "2026-11-25", "2026-12-09"], ["2026-11-25", "2026-12-23"]),
+                         ["2026-11-11", "2026-11-25", "2026-12-23"])          # Dec. 9 removed by the court, Nov. 11 kept
+        # Earlier dates stepped back at the usual interval, skipping court holidays.
+        dates = ["2026-11-25", "2026-12-09", "2027-01-06", "2027-01-20", "2027-02-03"]
+        self.assertEqual(court_info.infer_past(dates, {"2026-11-11"}), ["2026-10-14", "2026-10-28"])
+        self.assertEqual(court_info.infer_past(["2026-11-24", "2026-12-01", "2026-12-08"], set()),
+                         ["2026-10-06", "2026-10-13", "2026-10-20", "2026-10-27", "2026-11-03", "2026-11-10", "2026-11-17"])
+        self.assertEqual(court_info.infer_past(["2026-11-25"], set()), [])
+        # Read Nov. 6: the list showed every date from Nov. 21 on, so Nov. 25 is not inferred when Dec. 9 comes first.
+        self.assertEqual(court_info.infer_past(["2026-12-09", "2026-12-23", "2027-01-06"], set(), "2026-11-21"),
+                         ["2026-10-14", "2026-10-28", "2026-11-11"])
+        # A copy written before inferred dates existed gets them without a new read.
+        now = dt.datetime(2026, 11, 6, 7, 0, tzinfo=dt.timezone(dt.timedelta(hours=-6)))
+        old = {"checked": now.isoformat(timespec="minutes"), "judges": {"BSL": {"section": "O", "dates": dates}}}
+        out = court_info.update_submission_dates(old, lambda *a: self.fail("read again"), {"BSL": "O"}, now, [], {"2026-11-11"})
+        self.assertEqual(out["judges"]["BSL"]["inferred"], ["2026-10-14", "2026-10-28"])
+        # A daily read keeps the dates already past.
+        later = now + dt.timedelta(days=12)
+        out2 = court_info.update_submission_dates(out, lambda *a: MOHEAR.encode(), {"BSL": "A"}, later, [], set())
+        self.assertNotIn("2026-12-09", out2["judges"]["BSL"]["dates"])            # another section: old dates dropped
+        # Same section, read again later: past dates and the inferred list are kept as they were.
+        out3 = court_info.update_submission_dates(out, lambda *a: MOHEAR.replace("November 11, 2026", "December 23, 2026").encode(), {"BSL": "O"}, later, [], {"2026-11-11"})
+        self.assertIn("2026-11-25", out3["judges"]["BSL"]["dates"])
+        self.assertEqual(out3["judges"]["BSL"]["inferred"], ["2026-10-14", "2026-10-28"])
+
 
 class NoticesTest(unittest.TestCase):
     def test_orders(self):

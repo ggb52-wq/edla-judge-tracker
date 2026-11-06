@@ -94,6 +94,29 @@
   state.editor = store.get('edla-editor') === '1';
 
   // ------------------------------------------------------------ calculations
+  // Estimated submission date (Local Rule 7.2): a motion noticed for submission is filed at least 15 days before the date
+  // it is noticed for, so the estimate is the first of the judge's civil submission dates 15 or more days after filing.
+  // Only motions argued on a submission date: consent, ex parte, scheduling, and counsel motions get no estimate.
+  // Dates come from the court's posted lists (data/submission_dates.json `dates`) and, before Nov. 6, 2026, from each
+  // section's interval stepped back (`inferred`).
+  const NOTICED_RE = /^(?:dismiss(?!\s+(?:party|case)\b)|(?:partial )?summary judgment|judgment on the pleadings|compel|protective order|quash|strike|in limine|exclude|sanctions|stay|reconsideration|remand|vacate|set aside|reopen|transfer|consolidate|intervene|attorney fees|default judgment|new trial|certify class|sever|bifurcate|recuse|substitute party)\b/i;
+  const SUBMIT_LEAD_DAYS = 15;
+  function subCalendars(D) {
+    return Object.fromEntries(Object.entries((D.submission_dates || {}).judges || {}).map(([code, r]) => {
+      const inferred = new Set(r.inferred || []);
+      return [code, { all: [...new Set([...(r.dates || []), ...inferred])].sort(), inferred }];
+    }));
+  }
+  const isNoticed = (event) => splitEvents(event).some((e) => NOTICED_RE.test(e.replace(/^.*?\bmotion\s+(?:to|for)\s+/i, '')));
+  function estSubmit(m, cals) {
+    const c = m.judge && cals[m.judge];
+    if (!c || !c.all.length || !isNoticed(m.event)) return null;
+    const target = addDays(m.date, SUBMIT_LEAD_DAYS);
+    if (target < c.all[0]) return null;   // earlier dates not known
+    const date = c.all.find((d) => d >= target);
+    return date ? { date, inferred: c.inferred.has(date) } : null;
+  }
+
   function compute(D, period) {
     const H = new Set(D.calendar.filter((r) => r.kind === 'holiday').map((r) => r.date));
     const pick = (k) => (D.calendar.find((r) => r.kind === k) || {}).date;
@@ -230,7 +253,11 @@
     const citedDate = Object.fromEntries((D.outcomes || []).filter((r) => r.motion_doc).map((r) => [r.case + '|' + r.motion_doc, (D.opinions.find((o) => o.case === r.case && o.doc === r.doc) || {}).date || '']));
     const citedBy = Object.fromEntries((D.outcomes || []).filter((r) => r.motion_doc).map((r) => [r.case + '|' + r.motion_doc, r.doc]));
     // Every motion on file (the case pages use them all); the Motions page and judge pages use those in the period.
-    const allMotions = (D.motions || []).map((m) => {
+    const cals = subCalendars(D);
+    const allMotions = (D.motions || []).map((m0) => {
+      // `submit` is the docket text's date when read, else the estimate; `subEst` marks an estimate.
+      const est = m0.submit ? null : estSubmit(m0, cals);
+      const m = { ...m0, submit: m0.submit || (est ? est.date : ''), subEst: !!est, subInferred: !!(est && est.inferred) };
       const keys = reliefKeys(m.event);
       let ruled = ''; let ruling = null;
       if (cited.has(m.case + '|' + m.doc)) { ruled = citedDate[m.case + '|' + m.doc] || m.date; ruling = (byCase[m.case] || []).find((r) => r.doc === citedBy[m.case + '|' + m.doc]) || null; }
@@ -1356,7 +1383,8 @@
         el('td', { className: 'txt' }, caseNumLink(m.case, m.doc)),
         el('td', { className: 'ev', textContent: m.event }),
         el('td', { className: 'mono', textContent: fmtMDY(m.date) }),
-        el('td', { className: 'mono' + (m.submit ? '' : ' dim'), textContent: m.submit ? fmtMDY(m.submit) : 'not read yet' }),
+        el('td', { className: 'mono' + (m.submit && !m.subEst ? '' : ' dim'), textContent: m.submit ? fmtMDY(m.submit) + (m.subEst ? ' est.' : '') : 'not known',
+          title: m.subEst ? 'Estimated: the judge\'s first civil submission date 15 or more days after filing' + (m.subInferred ? ' (date inferred from the section\'s schedule)' : '') : '' }),
         el('td', { className: 'num' + (m.daysPast == null ? ' dim' : ''), textContent: m.daysPast == null ? '—' : fmt.int(m.daysPast) }),
         el('td', { className: 'txt' }, m.ruled ? el('span', { className: 'pill' }, (() => { const i = el('i'); i.style.background = css('--o-partial'); return i; })(), 'Ruling found ' + fmtShort(m.ruled))
           : m.past ? el('span', { className: 'pill warn' }, el('i'), 'Past submission') : el('span', { className: 'pill none', textContent: m.submit ? 'Not yet submitted' : 'Awaiting' })),
@@ -1376,9 +1404,10 @@
     const past = all.filter((m) => m.past);
     $('mt-kpis').replaceChildren(
       kpi({ label: 'Motions recorded', value: fmt.int(all.length), sub: S.motionsSince ? 'since ' + fmtShort(S.motionsSince) : 'none yet' }),
-      kpi({ label: 'With a submission date', value: fmt.int(all.filter((m) => m.submit).length), sub: 'from the docket text' }),
+      kpi({ label: 'With a submission date', value: fmt.int(all.filter((m) => m.submit).length),
+        sub: fmt.int(all.filter((m) => m.submit && !m.subEst).length) + ' from the docket text · ' + fmt.int(all.filter((m) => m.subEst).length) + ' estimated' }),
       kpi({ label: 'Ruling found', value: fmt.int(all.filter((m) => m.ruled).length), sub: 'matched to a later order' }),
-      kpi({ label: 'Past submission', value: fmt.int(past.length), sub: past.length ? 'no ruling found · median ' + fmt.med(median(past.map((m) => m.daysPast))) + ' days past' : 'none right now' }),
+      kpi({ label: 'Past submission', value: fmt.int(past.length), sub: past.length ? (() => { const v = median(past.map((m) => m.daysPast)); return 'no ruling found · median ' + fmt.med(v) + (v === 1 ? ' day' : ' days') + ' past'; })() : 'none right now' }),
     );
     const rows = motionRows(); const shown = rows.slice(0, M.limit);
     const table = shown.length ? motionTable(shown, true) : el('table', { className: 't' }, el('tbody', {}, el('tr', {}, el('td', { className: 'txt dim', textContent: S.motions.length ? 'No matches.' : 'None yet.' }))));
@@ -1468,10 +1497,10 @@
   TABLES['t-dow'] = { rows: () => state.stats.orders, sort: { k: 'name', dir: 1 },
     foot: [['All judges', (c, all) => (c.k === 'orders' ? fmt.int(d3.sum(all, (r) => r.orders)) : c.k in state.stats.dowCourt ? fmt.pct0(state.stats.dowCourt[c.k]) : '')]],
     cols: [{ k: 'name', label: 'Judge' }, ...dayCols.map(([k, label]) => ({ k, label, r: true, render: (r) => heatCell(r[k]) })), { k: 'orders', label: 'Orders', f: fmt.int, num: true }] };
-  TABLES['mj-table'] = { rows: () => state.stats.motionsByJudge, sort: { k: 'past', dir: -1 }, foot: [sumFoot], cols: [
+  TABLES['mj-table'] = { rows: () => state.stats.motionsByJudge, sort: { k: 'name', dir: 1 }, foot: [sumFoot], cols: [
     { k: 'name', label: 'Judge' },
     { k: 'seen', label: 'Motions recorded', f: fmt.int, num: true, sum: true, title: 'Civil motions recorded from the feed' },
-    { k: 'dated', label: 'With date', f: fmt.int, num: true, sum: true, title: 'Motions whose submission date has been read from the docket text' },
+    { k: 'dated', label: 'With date', f: fmt.int, num: true, sum: true, title: 'Motions with a submission date, read from the docket text or estimated' },
     { k: 'ruled', label: 'Ruling found', f: fmt.int, num: true, sum: true, title: 'Motions matched to a later order or opinion in the same case' },
     { k: 'awaiting', label: 'Awaiting', f: fmt.int, num: true, sum: true, title: 'Motions with no ruling found yet, whether or not past submission' },
     { k: 'past', label: 'Past submission', f: fmt.int, num: true, sum: true, title: 'Past the submission date with no ruling found' },
@@ -1717,9 +1746,9 @@
       }
       if (SETTING_RE.test(r.event || '') && !docketDocs.has(r.case + '|' + r.doc)) pending.push(r);
     });
-    const subs = d3.groups((D.motions || []).filter((m) => m.submit && m.judge), (m) => m.judge + '|' + m.submit).map(([k, list]) => {
-      const [judge, date] = k.split('|');
-      return { date, time: '', judge, case: '', short: '', title: '', what: plural(list.length, 'motion') + ' set for submission', room: '', text: list.map((m) => m.case + ' · ' + m.event).join('\n'), src: 'subs', n: list.length };
+    const subs = d3.groups((state.stats.allMotions || []).filter((m) => m.submit && m.judge), (m) => m.judge + '|' + m.submit + '|' + (m.subEst ? 'est' : '')).map(([k, list]) => {
+      const [judge, date, est] = k.split('|');
+      return { date, time: '', judge, case: '', short: '', title: '', what: plural(list.length, 'motion') + (est ? ' likely set for submission (estimated)' : ' set for submission'), room: '', text: list.map((m) => m.case + ' · ' + m.event).join('\n'), src: 'subs', n: list.length };
     });
     const subdays = Object.entries((D.submission_dates || {}).judges || {}).flatMap(([judge, r]) => (r.dates || []).map((date) => ({
       date, time: (r.time || '').match(/^(\d{1,2}):(\d\d)\s*([AP])M$/i) ? to24(r.time) : '', judge, case: '', short: '', title: '', what: 'Civil submission day', room: '',
@@ -2025,8 +2054,9 @@
       el('span', { className: 'mc-doc', textContent: m.doc ? 'doc ' + m.doc : '' }),
       el('span', { className: 'mc-when', textContent: 'filed ' + fmtShort(m.date) + (m.time ? ' ' + fmtTime(m.time) : '') }));
     const facts = [];
-    if (m.submit) facts.push(m.submit >= today ? 'Submission date ' + fmtDate(m.submit) + (m.submit === today ? ' (today)' : ' (in ' + dayWord(daysBetween(today, m.submit)) + ')')
-      : 'Submitted ' + fmtDate(m.submit) + ' (' + dayWord(daysBetween(m.submit, today)) + ' ago)');
+    const when = m.submit === today ? 'today' : m.submit > today ? 'in ' + dayWord(daysBetween(today, m.submit)) : dayWord(daysBetween(m.submit, today)) + ' ago';
+    if (m.subEst) facts.push('Estimated submission date ' + fmtDate(m.submit) + ' (' + when + ')');
+    else if (m.submit) facts.push((m.submit > today ? 'Submission date ' : 'Submitted ') + fmtDate(m.submit) + ' (' + when + ')');
     else facts.push('Submission date not known yet');
     const card = el('li', { className: 'mc' }, head, el('p', { className: 'mc-facts', textContent: facts.join(' · ') }));
     if (m.ruled) {
@@ -2394,8 +2424,8 @@
         ...tsRows().map((r) => [r.case, r.title || '', S.names[r.judge] || r.judge || '', r.filed || '', r.first_seen, r.level, r.nos || '', r.signals.map(tsSignal).join('; ')])];
     }
     if (which === 'mt') {
-      return [['Judge', 'Case', 'Doc', 'Motion', 'Filed', 'Submission date', 'Days past submission', 'Ruling found', 'Case name'],
-        ...motionRows().map((m) => [S.names[m.judge] || '', m.case, m.doc, m.event, m.date, m.submit, m.daysPast == null ? '' : m.daysPast, m.ruled, m.title])];
+      return [['Judge', 'Case', 'Doc', 'Motion', 'Filed', 'Submission date', 'Submission date estimated', 'Days past submission', 'Ruling found', 'Case name'],
+        ...motionRows().map((m) => [S.names[m.judge] || '', m.case, m.doc, m.event, m.date, m.submit, m.subEst ? 'yes' : '', m.daysPast == null ? '' : m.daysPast, m.ruled, m.title])];
     }
     const id = which === 'mj' ? 'mj-table' : { orders: 't-orders', opinions: 't-opinions', outcomes: 't-outcomes', weekdays: 't-dow', hours: 't-dow' }[state.view];
     const cfg = TABLES[id]; const all = cfg.rows(); const cols = cfg.cols.filter((c) => !c.nosort && !(c.hide && c.hide(all)));

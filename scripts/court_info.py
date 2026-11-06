@@ -73,11 +73,51 @@ def parse_submission_dates(page: str) -> dict:
             "updated": stamp.group(1).strip() if stamp else ""}
 
 
-def update_submission_dates(old: dict, http_get, sections: dict, now: dt.datetime, note: list) -> dict:
-    """sections maps judge code to section letter. Read once a day; a section that fails keeps its last copy."""
+INFER_FROM = "2026-10-01"  # motions are on file from Oct. 18, 2026; their submission dates fall after this
+
+
+def merge_dates(old: list[str], new: list[str]) -> list[str]:
+    """The court's page lists only the dates still open for a new motion (about 15 days out and later), so a date drops
+    off the page while motions noticed for it are still pending. Dates before the page's first one are kept from the
+    last copy; from that one on, the page as read now controls (the court can change a date)."""
+    if not new:
+        return sorted(old)
+    return sorted({d for d in old if d < new[0]} | set(new))
+
+
+def infer_past(dates: list[str], holidays, before: str = "9999-12-31", since: str = INFER_FROM) -> list[str]:
+    """Submission dates before the first one ever read, back to `since`, stepped back from it at the section's usual
+    interval (7 or 14 days), skipping court holidays as the court's own lists do (Thanksgiving 2027, Section M).
+    `before` is 15 days after the read: the court's list then showed every date from there on, so a date it did not
+    show there did not exist (Section C listed Dec. 9, not Nov. 25, on Nov. 6, 2026). Worked out once per section and
+    kept. An estimate: the site marks dates from this list as inferred."""
+    ds = [dt.date.fromisoformat(d) for d in sorted(dates)]
+    if len(ds) < 2:
+        return []
+    gaps = [(b - a).days for a, b in zip(ds, ds[1:])][:12]
+    step = max(set(gaps), key=gaps.count)
+    if step not in (7, 14):
+        return []
+    out, d = [], ds[0] - dt.timedelta(days=step)
+    while d.isoformat() >= since:
+        if d.isoformat() not in holidays and d.isoformat() < before:
+            out.append(d.isoformat())
+        d -= dt.timedelta(days=step)
+    return sorted(out)
+
+
+def update_submission_dates(old: dict, http_get, sections: dict, now: dt.datetime, note: list, holidays=()) -> dict:
+    """sections maps judge code to section letter. Read once a day; a section that fails keeps its last copy.
+    Past dates are kept (merge_dates) and earlier ones inferred (infer_past) for the site's estimated submission dates."""
+    holidays = set(holidays)
     last = old.get("checked", "")
     if last and now - dt.datetime.fromisoformat(last) < dt.timedelta(hours=SUBMISSION_HOURS):
-        return old
+        judges = old.get("judges", {})
+        if all("inferred" in r for r in judges.values()):
+            return old
+        before = (dt.date.fromisoformat(last[:10]) + dt.timedelta(days=15)).isoformat()
+        return {**old, "judges": {k: {**r, "inferred": r.get("inferred", infer_past(r.get("dates", []), holidays, before))}
+                                  for k, r in judges.items()}}
     out = {"checked": now.isoformat(timespec="minutes"), "judges": dict(old.get("judges", {}))}
     read = 0
     for code, letter in sorted(sections.items()):
@@ -90,7 +130,13 @@ def update_submission_dates(old: dict, http_get, sections: dict, now: dt.datetim
             note.append(f"submission dates {letter} unavailable ({type(e).__name__})")
             continue
         if got["dates"]:
-            out["judges"][code] = {"section": letter, "url": url, **got}
+            prev = out["judges"].get(code) or {}
+            if prev.get("section") != letter:
+                prev = {}
+            dates = merge_dates(prev.get("dates", []), got["dates"])
+            inferred = [d for d in prev["inferred"] if d < dates[0]] if "inferred" in prev else \
+                infer_past(dates, holidays, (now.date() + dt.timedelta(days=15)).isoformat())
+            out["judges"][code] = {"section": letter, "url": url, **got, "dates": dates, "inferred": inferred}
             read += 1
     note.append(f"submission dates read for {read} sections")
     return out
