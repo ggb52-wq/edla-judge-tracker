@@ -203,7 +203,7 @@ def atom(obj: dict, now: dt.datetime) -> str:
     stamp = now.astimezone(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     out = ['<?xml version="1.0" encoding="utf-8"?>', '<feed xmlns="http://www.w3.org/2005/Atom">',
            "<title>EDLA Analyzer: trade secret and noncompete cases</title>",
-           f'<link rel="alternate" href="{SITE}#tradesecrets"/>', f"<id>{SITE}#tradesecrets</id>", f"<updated>{stamp}</updated>"]
+           f'<link rel="alternate" href="{SITE}"/>', f"<id>{SITE}#tradesecrets</id>", f"<updated>{stamp}</updated>"]
     for r in rows[:FEED_MAX]:
         last = max((s["seen"] for s in r["signals"]), default=r["first_seen"])
         head = ("Possible: " if r.get("level") == "possible" else "") + r["case"] + (" " + r["title"] if r.get("title") else "")

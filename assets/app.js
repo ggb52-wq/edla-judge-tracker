@@ -80,15 +80,16 @@
   const recordLink = (o) => REPO + '/issues/new?template=outcome.yml&title=' + encodeURIComponent('Outcome: ' + o.case + ' doc ' + o.doc)
     + '&case=' + encodeURIComponent(o.case) + '&doc=' + encodeURIComponent(o.doc);
 
-  const PAGES = ['judges', 'judge', 'compare', 'cases', 'case', 'notices', 'activity', 'calendar', 'opinions', 'motions', 'rules', 'tradesecrets', 'trials', 'court', 'log'];
-  const NAV = { judges: 'judges', judge: 'judges', compare: 'judges', cases: 'cases', case: 'cases', notices: '', activity: 'activity', calendar: 'calendar', opinions: 'opinions', motions: 'motions', rules: 'rules', tradesecrets: 'tradesecrets', trials: 'trials', court: 'court', log: '' };
+  const PAGES = ['judges', 'judge', 'compare', 'cases', 'case', 'notices', 'activity', 'calendar', 'opinions', 'motions', 'trials', 'court', 'log'];
+  const NAV = { judges: 'judges', judge: 'judges', compare: 'judges', cases: 'cases', case: 'cases', notices: '', activity: 'activity', calendar: 'calendar', opinions: 'opinions', motions: 'motions', trials: 'trials', court: 'court', log: '' };
   const VIEWS = [['orders', 'Civil orders'], ['opinions', 'Written opinions'], ['outcomes', 'Motion outcomes'], ['weekdays', 'Weekdays'], ['hours', 'Time of day']];
   // Addresses from the earlier, tabbed layout still open the matching page.
-  const LEGACY = { overview: ['judges'], orders: ['court', 'orders'], outcomes: ['court', 'outcomes'], finder: ['opinions'] };
+  // The Requirements and Trade secrets pages were removed Nov. 6, 2026; their addresses open Home.
+  const LEGACY = { overview: ['judges'], rules: ['judges'], tradesecrets: ['judges'], orders: ['court', 'orders'], outcomes: ['court', 'outcomes'], finder: ['opinions'] };
   const emptyFinder = () => ({ q: '', judge: '', type: '', oc: '', pdf: false, month: '' });
   const state = { page: 'judges', judge: '', cmp: [], vs: [], view: 'orders', period: '', f: emptyFinder(), limit: 100,
     mt: { view: 'past', q: '', judge: '', limit: 100 }, jf: { q: '', type: '', judge: '' }, ocGroup: 'r12', hoursJudge: '', sorts: {},
-    rtab: '', rq: '', act: { q: '', judge: '', kind: '', days: '7', limit: 300 }, cal: { week: '', judge: '', view: '', subs: false }, ts: { q: '', judge: '', level: '' }, tr: { q: '', judge: '' }, editor: false, data: null, stats: null, cases: [], pages: {} };
+    rtab: '', act: { q: '', judge: '', kind: '', days: '7', limit: 300 }, cal: { week: '', judge: '', view: '', subs: false }, tr: { q: '', judge: '' }, editor: false, data: null, stats: null, cases: [], pages: {} };
   const editorParam = new URLSearchParams(location.search).get('editor');
   if (editorParam === '1' || editorParam === '0') store.set('edla-editor', editorParam);
   state.editor = store.get('edla-editor') === '1';
@@ -331,7 +332,6 @@
     if (p.has('period')) state.period = ['30', '90'].includes(p.get('period')) ? p.get('period') : '';
     state.page = page;
     if (page === 'judge') { state.judge = judgeCode(parts[1] || p.get('judge')); if (p.has('tab')) state.rtab = p.get('tab'); }
-    if (page === 'rules') state.rq = p.get('q') || '';
     if (page === 'case') { const id = normCase(parts[1]); if (id) state.caseId = id; else page = state.page = 'cases'; }
     if (page === 'cases' && p.get('w') && state.data) {
       const n = importWatch(p.get('w').split(','));
@@ -349,7 +349,6 @@
       f.oc = p.get('oc') || ''; f.pdf = p.get('pdf') === '1'; f.month = /^\d{4}-\d{2}$/.test(p.get('month') || '') ? p.get('month') : '';
       state.f = f;
     }
-    if (page === 'tradesecrets') state.ts = { q: p.get('q') || '', judge: judgeCode(p.get('judge')), level: p.get('show') === 'likely' ? 'likely' : '' };
     if (page === 'trials') state.tr = { q: p.get('q') || '', judge: judgeCode(p.get('judge')) };
     if (page === 'motions') { state.mt.judge = judgeCode(p.get('judge')); state.mt.view = ['past', 'pending', 'all'].includes(p.get('view')) ? p.get('view') : 'past'; }
   }
@@ -357,19 +356,17 @@
     const p = new URLSearchParams(); let path = page;
     if (page === 'judge') { path += '/' + o.judge; if (o.tab) p.set('tab', o.tab); }
     if (page === 'case') path += '/' + o.caseId;
-    if (page === 'rules' && o.q) p.set('q', o.q);
     if (page === 'calendar' && o.cal) { const c = o.cal; if (c.week) p.set('week', c.week); if (c.judge) p.set('judge', c.judge); if (c.view) p.set('view', c.view); if (c.subs) p.set('subs', '1'); }
     if (page === 'activity' && o.act) { const a = o.act; if (a.q) p.set('q', a.q); if (a.judge) p.set('judge', a.judge); if (a.kind) p.set('kind', a.kind); if (a.days && a.days !== '7') p.set('days', a.days); }
     if (page === 'compare' && o.cmp && o.cmp.length) path += '/' + o.cmp.join(',');
     if (page === 'court') path += '/' + (o.view || 'orders');
     if (page === 'opinions' && o.f) { const f = o.f; if (f.q) p.set('q', f.q); if (f.judge) p.set('judge', f.judge); if (f.type) p.set('type', f.type); if (f.oc) p.set('oc', f.oc); if (f.pdf) p.set('pdf', '1'); if (f.month) p.set('month', f.month); }
     if (page === 'trials' && o.tr) { if (o.tr.q) p.set('q', o.tr.q); if (o.tr.judge) p.set('judge', o.tr.judge); }
-    if (page === 'tradesecrets' && o.ts) { if (o.ts.q) p.set('q', o.ts.q); if (o.ts.judge) p.set('judge', o.ts.judge); if (o.ts.level) p.set('show', o.ts.level); }
     if (page === 'motions' && o.mt) { if (o.mt.judge) p.set('judge', o.mt.judge); if (o.mt.view && o.mt.view !== 'past') p.set('view', o.mt.view); }
     if (state.period) p.set('period', state.period);
     return '#' + path + (p.toString() ? '?' + p : '');
   }
-  const currentHash = () => hashFor(state.page, { caseId: state.caseId, judge: state.judge, cmp: state.cmp, view: state.view, f: state.f, mt: state.mt, q: state.rq, act: state.act, cal: state.cal, ts: state.ts, tr: state.tr,
+  const currentHash = () => hashFor(state.page, { caseId: state.caseId, judge: state.judge, cmp: state.cmp, view: state.view, f: state.f, mt: state.mt, act: state.act, cal: state.cal, tr: state.tr,
     tab: state.page === 'judge' && (state.pages[state.judge] || { sections: [] }).sections.some((x) => slug(x.title) === state.rtab) ? state.rtab : '' });
   const slug = (t) => String(t).toLowerCase().replace(/&/g, 'and').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
   const judgeHref = (code) => hashFor('judge', { judge: code });
@@ -1420,36 +1417,11 @@
     if (S.motions.length) drawTable('mj-table');
   }
 
-  // ------------------------------------------------------------ page: trade secrets and noncompetes
+  // ------------------------------------------------------------ trade secrets and noncompetes (case page line only)
   // data/trade_secrets.json, written by the updater (scripts/trade_secrets.py): civil cases with a trade-secret or
-  // noncompete signal. Each case is listed with what flagged it; nothing here is totaled by judge.
+  // noncompete signal, noted on the case's page. The Trade secrets page was removed Nov. 6, 2026.
   const tsCases = () => ((state.data.trade_secrets || {}).cases || []);
   const tsSignal = (s) => s.what + (s.doc ? ' (doc ' + s.doc + ')' : '') + (s.date ? ', ' + (s.date.slice(0, 4) === todayIso().slice(0, 4) ? fmtShort : fmtDate)(s.date) : '');
-  // New: first seen within a week, and not one of the cases found when the finder first read the data on file.
-  const tsNew = (r) => !r.initial && r.first_seen >= addDays(todayIso(), -7);
-  function tsRows() {
-    const T = state.ts; const q = T.q.trim().toLowerCase(); const S = state.stats;
-    return tsCases().filter((r) => (!T.judge || r.judge === T.judge) && (!T.level || r.level === T.level)
-      && (!q || [r.case, r.title, r.nos, r.cause, S.names[r.judge], ...r.signals.map((x) => x.what)].join(' ').toLowerCase().includes(q)));
-  }
-  function renderTradeSecrets() {
-    document.title = 'Trade secrets and noncompetes · EDLA Analyzer';
-    const T = state.ts; const S = state.stats;
-    const js = $('ts-judge'); if (js.options.length < 2) js.append(new Option('All judges', ''), ...judgesAlpha().map((j) => new Option(j.name, j.code)));
-    js.value = T.judge; $('ts-level').value = T.level; if ($('ts-q').value !== T.q) $('ts-q').value = T.q;
-    const rows = tsRows();
-    const head = el('thead', {}, el('tr', {}, ...['Case', 'Name', 'Judge', 'Filed', 'Found by'].map((h) => el('th', { textContent: h }))));
-    const body = el('tbody', {}, ...(rows.length ? rows.map((r) => el('tr', {},
-      el('td', { className: 'txt' }, caseNumLink(r.case, '', 'case'), tsNew(r) ? el('span', { className: 'badge', textContent: 'New' }) : null),
-      el('td', { className: 'ev' }, r.title || '', r.level === 'possible' ? el('span', { className: 'dim', textContent: ' · possible' }) : null),
-      el('td', { className: 'txt' }, S.names[r.judge] || r.judge || '—'),
-      el('td', { className: 'txt', textContent: r.filed ? fmtDate(r.filed) : '—' }),
-      el('td', { className: 'wrap' }, ...r.signals.map((x) => el('div', { textContent: tsSignal(x) })))))
-      : [el('tr', {}, el('td', { className: 'txt dim', colSpan: 5, textContent: tsCases().length ? 'No matches.' : 'None found yet. The updater reads the data on file on its next pass.' }))]));
-    const table = el('table', { className: 't', id: 'ts-table' }, head, body);
-    $('ts-table').replaceWith(table);
-    $('ts-count').textContent = plural(rows.length, 'case');
-  }
 
   // ------------------------------------------------------------ page: trials
   // data/trials.json, written by the updater (scripts/trials.py): civil trials from the court's seven-day calendar and its
@@ -2008,51 +1980,6 @@
     $('j-rules-note').textContent = `From the court's website, checked ${fmtDate(P.checked)}${P.changed ? '; last changed ' + fmtDate(P.changed) : ''}. The court's page controls.`;
   }
 
-  // Blocks on every judge's page that contain all the words of a search.
-  function ruleHits(q) {
-    const W = words(q).map((w) => new RegExp(wordPattern(w), 'i')); if (!W.length) return [];
-    return judgesAlpha().map((j) => {
-      const P = state.pages[j.code]; if (!P) return null;
-      const hits = [];
-      (P.sections || []).forEach((x) => x.blocks.forEach((b) => { const t = segText(b.s); if (W.every((re) => re.test(t))) hits.push({ section: x.title, block: b }); }));
-      (P.docs || []).forEach((d) => { const t = d.title + ' ' + decodeURIComponent(d.url); if (W.every((re) => re.test(t))) hits.push({ section: 'Posted documents', block: { k: 'p', d: 0, s: [[d.title, d.url]] } }); });
-      return hits.length ? { judge: j, hits } : null;
-    }).filter(Boolean);
-  }
-  const QUICK = ['Courtesy copies', 'Oral argument', 'Continuance', 'Proposed order', 'Page limit', 'Settlement', 'Pretrial', 'Exhibits', 'Jury instructions', 'Email', 'Telephone', 'Sealed'];
-  function renderRules() {
-    document.title = 'Judges\' requirements · EDLA Analyzer';
-    const q = state.rq; const data = state.data.judge_pages || {};
-    if ($('rq').value !== q) $('rq').value = q;
-    $('rq-quick').replaceChildren(...QUICK.map((t) => { const b = el('button', { type: 'button', className: 'quick', textContent: t }); b.setAttribute('aria-pressed', String(q.toLowerCase() === t.toLowerCase())); b.addEventListener('click', () => { state.rq = t; renderRules(); writeHash(); }); return b; }));
-    const box = $('rq-results');
-    if (!Object.keys(state.pages).length) { box.replaceChildren(el('p', { className: 'empty pad', textContent: 'Not read yet.' })); $('rq-count').textContent = ''; }
-    else if (!words(q).length) { box.replaceChildren(el('p', { className: 'cap pad', textContent: 'Search for a word or phrase.' })); $('rq-count').textContent = ''; }
-    else {
-      const W = words(q); const re = new RegExp(W.map(wordPattern).join('|'), 'gi');
-      const res = ruleHits(q);
-      $('rq-count').textContent = res.length ? plural(res.length, 'judge') + ' · ' + plural(d3.sum(res, (r) => r.hits.length), 'passage') : '';
-      box.replaceChildren(...(res.length ? res.map(({ judge, hits }) => el('div', { className: 'rq-judge' },
-        el('div', { className: 'rq-head' }, el('a', { className: 'judge', href: judgeHref(judge.code), textContent: 'Judge ' + judge.name }), sectionOf(judge.code) ? el('span', { textContent: 'Section ' + sectionOf(judge.code) }) : null, el('span', { textContent: plural(hits.length, 'passage') })),
-        ...hits.slice(0, 8).map((h) => { const n = el('div', { className: 'rq-hit' }, el('small', {}, el('a', { href: hashFor('judge', { judge: judge.code, tab: h.section === 'Posted documents' ? '' : slug(h.section) }), textContent: h.section })), blockEl(h.block, re)); return n; }),
-        hits.length > 8 ? el('p', { className: 'foot-note' }, el('a', { href: judgeHref(judge.code), textContent: (hits.length - 8) + ' more on Judge ' + judge.name + '\'s page →' })) : null))
-        : [el('p', { className: 'empty pad', textContent: 'No matches for ' + W.join(', ') + '.' })]));
-    }
-    $('rq-checked').textContent = data.checked ? 'Checked ' + fmtDate(data.checked) : '';
-    const head = el('thead', {}, el('tr', {}, ...['Judge', 'Section', 'Requirement tabs on the page', 'Documents', 'Last change found', 'Court page'].map((c, i) => el('th', { textContent: c, className: i === 3 ? 'r' : '' }))));
-    const body = el('tbody', {}, ...judgesAlpha().map((j) => {
-      const P = state.pages[j.code];
-      const tr = el('tr', { className: 'go' }); tr.dataset.href = judgeHref(j.code);
-      tr.append(el('td', {}, el('a', { className: 'judge', href: judgeHref(j.code), textContent: j.name })),
-        el('td', { className: 'mono', textContent: sectionOf(j.code) || '—' }),
-        el('td', { className: 'wrap' }, ...(P ? (P.sections.length ? P.sections.flatMap((x, i) => [i ? ' · ' : '', el('a', { href: hashFor('judge', { judge: j.code, tab: slug(x.title) }), textContent: x.title })]) : [el('span', { className: 'dim', textContent: 'none posted' })]) : [el('span', { className: 'dim', textContent: 'not read yet' })])),
-        el('td', { className: 'num', textContent: P ? fmt.int((P.docs || []).length) : '—' }),
-        el('td', { className: 'mono', textContent: P && P.changed ? fmtShort(P.changed) : '—' }),
-        el('td', { className: 'txt' }, P && SAFE_URL.test(P.url) ? el('a', { href: P.url, target: '_blank', rel: 'noopener noreferrer', textContent: 'Open ↗' }) : ''));
-      return tr;
-    }));
-    $('t-rules').replaceChildren(head, body);
-  }
 
   // ------------------------------------------------------------ my cases: a page per case, and a watchlist
   // A case page gathers what the site has on one civil case: its judge and the judge's posted requirements, its motions
@@ -2253,7 +2180,7 @@
     $('c-facts').hidden = !facts.length;
     const tsr = tsCases().find((r) => r.case === id);
     $('c-ts').hidden = !tsr;
-    $('c-ts').replaceChildren(...(tsr ? [el('a', { href: hashFor('tradesecrets', { ts: { q: id, judge: '', level: '' } }), textContent: (tsr.level === 'possible' ? 'Possible trade secret or noncompete case' : 'Trade secret or noncompete case') }),
+    $('c-ts').replaceChildren(...(tsr ? [(tsr.level === 'possible' ? 'Possible trade secret or noncompete case' : 'Trade secret or noncompete case'),
       ': ' + tsr.signals.map(tsSignal).join(' · ')] : []));
     const trial = trData().trials.find((r) => r.case === id); const decs = trData().decisions.filter((r) => r.case === id);
     const trialBits = [];
@@ -2530,10 +2457,6 @@
       return [['Date', 'Time', 'Type', 'Event', 'Case', 'Doc', 'Case name', 'Judge'],
         ...actFilter(activity()).filter((r) => !state.act.kind || r.kind === state.act.kind).map((r) => [r.date, r.time, ACT_LABEL[r.kind], cleanEvent(r.event), r.case, r.doc, r.title, S.names[r.judge] || r.judge])];
     }
-    if (which === 'ts') {
-      return [['Case', 'Case name', 'Judge', 'Filed', 'First seen', 'Level', 'Nature of suit', 'Signals'],
-        ...tsRows().map((r) => [r.case, r.title || '', S.names[r.judge] || r.judge || '', r.filed || '', r.first_seen, r.level, r.nos || '', r.signals.map(tsSignal).join('; ')])];
-    }
     if (which === 'tr') {
       const today = todayIso(); const T = trRows();
       return [['Type', 'Case', 'Doc', 'Case name', 'Judge', 'Trial', 'Trial days or setting', 'Status', 'Courtroom', 'Decision date', 'Witnesses named in the decision', 'Law firms', 'Attorneys', 'Opinion PDF'],
@@ -2555,7 +2478,7 @@
     // Case names and docket text come from whoever files: a value a spreadsheet would read as a formula is kept as text.
     const cell = (v) => { let s = v == null ? '' : String(v); if (typeof v === 'string' && /^[=+\-@\t\r]/.test(s)) s = "'" + s; return /[",\n\r]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s; };
     const text = csvRows(which).map((row) => row.map(cell).join(',')).join('\n');
-    const name = which === 'op' ? 'opinions' : which === 'cal' ? 'calendar' : which === 'act' ? 'activity' : which === 'mt' ? 'motions' : which === 'ts' ? 'trade-secrets' : which === 'tr' ? 'trials' : which === 'mj' ? 'motions-by-judge' : 'court-' + state.view;
+    const name = which === 'op' ? 'opinions' : which === 'cal' ? 'calendar' : which === 'act' ? 'activity' : which === 'mt' ? 'motions' : which === 'tr' ? 'trials' : which === 'mj' ? 'motions-by-judge' : 'court-' + state.view;
     const a = el('a', { href: URL.createObjectURL(new Blob([text + '\n'], { type: 'text/csv' })), download: `edla-${name}-${state.stats.through}.csv` });
     document.body.append(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 1000);
   }
@@ -2586,10 +2509,6 @@
       sub: (c.judge ? 'Judge ' + S.names[c.judge] : 'Judge not yet known') + ' · ' + (c.title || 'case name not on file'), href: caseHref(c.case) }));
     const typed = normCase(q);
     if (typed && /\D/.test(q.replace(/\s/g, '')) && !cases.some((c) => c.case === typed)) out.push({ kind: 'Case', label: el('code', { textContent: typed }), sub: 'Nothing on file', href: caseHref(typed) });
-    if (!cq && !sq && lc.length >= 4) {
-      const n = ruleHits(q).length;
-      if (n) out.push({ kind: 'Rules', label: 'Judges\' requirements mentioning “' + q + '”', sub: plural(n, 'judge') + '\'s page' + (n === 1 ? '' : 's') + ' on the court\'s website', href: hashFor('rules', { q }) });
-    }
     out.push({ kind: 'Search', label: 'Opinions matching “' + q + '”', sub: 'Search written opinions', href: findHref({ q }) });
     return out;
   }
@@ -2623,7 +2542,7 @@
   }
 
   // ------------------------------------------------------------ render
-  const RENDER = { judges: renderJudges, judge: renderJudge, compare: renderCompare, cases: renderCases, case: renderCase, notices: renderNotices, activity: renderActivity, calendar: renderCalendar, opinions: renderOpinions, motions: renderMotions, rules: renderRules, tradesecrets: renderTradeSecrets, trials: renderTrials, court: renderCourt, log: renderLog };
+  const RENDER = { judges: renderJudges, judge: renderJudge, compare: renderCompare, cases: renderCases, case: renderCase, notices: renderNotices, activity: renderActivity, calendar: renderCalendar, opinions: renderOpinions, motions: renderMotions, trials: renderTrials, court: renderCourt, log: renderLog };
   function render() {
     const S = state.stats;
     if (state.page === 'judge' && !S.names[state.judge]) state.page = 'judges';
@@ -2704,10 +2623,6 @@
   $('op-outcome').addEventListener('change', (e) => refind({ oc: e.target.value }));
   $('op-pdf').addEventListener('change', (e) => refind({ pdf: e.target.checked }));
   $('op-more').addEventListener('click', () => { state.limit += 200; renderOpinions(); });
-  const rets = (patch) => { Object.assign(state.ts, patch); if (state.stats) { renderTradeSecrets(); writeHash(); } };
-  $('ts-level').addEventListener('change', (e) => rets({ level: e.target.value }));
-  $('ts-judge').addEventListener('change', (e) => rets({ judge: e.target.value }));
-  $('ts-q').addEventListener('input', (e) => rets({ q: e.target.value }));
   const retrials = (patch) => { Object.assign(state.tr, patch); if (state.stats) { renderTrials(); writeHash(); } };
   $('tr-judge').addEventListener('change', (e) => retrials({ judge: e.target.value }));
   $('tr-q').addEventListener('input', (e) => retrials({ q: e.target.value }));
@@ -2787,8 +2702,6 @@
   });
   $('c-print').addEventListener('click', () => window.print());
   $('c-more').addEventListener('click', () => { state.caseAll = true; renderCase(); });
-  $('t-rules').addEventListener('click', (e) => { const tr = e.target.closest('tbody tr.go'); if (tr && !e.target.closest('a,button')) location.hash = tr.dataset.href; });
-  $('rq').addEventListener('input', (e) => { state.rq = e.target.value; if (state.stats) { renderRules(); writeHash(); } });
   $('hours-judge').addEventListener('change', (e) => { state.hoursJudge = e.target.value; drawHours(); });
   document.querySelectorAll('[data-csv]').forEach((b) => b.addEventListener('click', () => downloadCsv(b.dataset.csv)));
   $('court-csv').addEventListener('click', () => downloadCsv('court'));

@@ -25,8 +25,6 @@
       <a href="#opinions" data-nav="opinions">Opinions</a>
       <a href="#motions" data-nav="motions">Motions</a>
       <a href="#trials" data-nav="trials">Trials</a>
-      <a href="#rules" data-nav="rules">Requirements</a>
-      <a href="#tradesecrets" data-nav="tradesecrets">Trade secrets</a>
       <a href="#court" data-nav="court">Court</a>
     </nav>
     <div class="omni" id="omni-top">
@@ -415,29 +413,6 @@
   </section>
 
   <!-- ============================================================ Motions -->
-  <section class="page" id="page-tradesecrets" aria-labelledby="h-ts" hidden>
-    <div class="jhead">
-      <div>
-        <h1 id="h-ts">Trade secrets and noncompetes</h1>
-        <p class="sub">Civil cases whose nature of suit, docket text, or written opinions name a trade-secret or noncompete claim, newest first. <a href="methodology.html#trade-secrets">How we find them</a></p>
-      </div>
-      <div class="actions"><a class="btn" id="ts-feed" href="data/trade_secrets.xml" title="Subscribe in a feed reader or Outlook to hear of new cases">Feed</a><button type="button" class="btn" data-csv="ts">Export CSV</button></div>
-    </div>
-    <div class="filters">
-      <label>Show<select id="ts-level"><option value="">Likely and possible</option><option value="likely">Likely only</option></select></label>
-      <label>Judge<select id="ts-judge"></select></label>
-      <label class="grow">Search<input id="ts-q" type="search" placeholder="Party, case number, or claim" autocomplete="off"></label>
-    </div>
-    <section class="panel">
-      <div class="ph"><h2>Cases</h2><span class="count" id="ts-count"></span></div>
-      <div class="scroll tall"><table class="t" id="ts-table"></table></div>
-    </section>
-    <details class="explain">
-      <summary>Likely and possible</summary>
-      <p>Likely: the nature of suit or cause is the Defend Trade Secrets Act, or docket text or a written opinion names a trade-secret statute, La. R.S. 23:921, or a noncompete or non-solicitation agreement. Possible: a motion for a TRO, preliminary injunction, or expedited discovery in a contract case, or in a case with no nature of suit on file that names no government party. The court's feed shows these motions within minutes of filing; the complaint's claims are not in any free source. <a href="methodology.html#trade-secrets">How we find them</a></p>
-    </details>
-  </section>
-
   <section class="page" id="page-trials" aria-labelledby="h-trials" hidden>
     <div class="jhead">
       <div>
@@ -494,38 +469,6 @@
   </section>
 
   <!-- ============================================================ Requirements -->
-  <section class="page" id="page-rules" aria-labelledby="h-rules-page" hidden>
-    <div class="jhead">
-      <div>
-        <h1 id="h-rules-page">Judges' requirements</h1>
-        <p class="sub">Each judge's posted requirements, standing orders, and forms, copied from the court's website.</p>
-      </div>
-    </div>
-      <div class="filters">
-        <label class="grow">Search all judges<input id="rq" type="search" placeholder="e.g. courtesy copies, oral argument, continuance" autocomplete="off"></label>
-        <span class="chip-row" id="rq-quick" aria-label="Common searches"></span>
-      </div>
-      <section class="panel">
-        <div class="ph"><h2>Matches</h2><span class="count" id="rq-count"></span></div>
-        <div id="rq-results"></div>
-      </section>
-      <section class="panel">
-        <div class="ph"><h2>Each judge's page</h2><span class="count" id="rq-checked"></span></div>
-        <div class="scroll"><table class="t" id="t-rules"></table></div>
-      </section>
-      <section class="panel">
-        <div class="ph"><h2>Court-wide rules</h2></div>
-        <div class="pb links">
-          <a href="https://www.laed.uscourts.gov/localrules/localrules.htm" target="_blank" rel="noopener noreferrer">Local Rules and General Orders ↗</a>
-          <a href="https://www.laed.uscourts.gov/cases/motions/MoHear.htm" target="_blank" rel="noopener noreferrer">Motion submission and oral argument dates ↗</a>
-          <a href="https://www.laed.uscourts.gov/forms/all-forms" target="_blank" rel="noopener noreferrer">Local forms ↗</a>
-          <a href="https://www.laed.uscourts.gov/judges-information/district-judges" target="_blank" rel="noopener noreferrer">District judges on the court's website ↗</a>
-        </div>
-      </section>
-      <p class="foot-note">Copied verbatim from the court's website, which controls. <a href="methodology.html#requirements">Details</a></p>
-  </section>
-
-  <!-- ============================================================ Court -->
   <section class="page" id="page-court" aria-labelledby="h-court" hidden>
     <div class="jhead">
       <div>
