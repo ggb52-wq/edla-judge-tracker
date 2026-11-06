@@ -445,7 +445,7 @@
 {"at":"2026-11-05T09:17-06:00","case":"2:26-cv-00443","doc":"","event":"Correction of Docket Entry by Clerk","title":"Ball v. Social Security Administration","judge":"DJP"},
 {"at":"2026-11-05T09:17-06:00","case":"2:25-cv-02505","doc":"30","event":"Partial Summary Judgment","title":"Coleman v. Pre-Gunite Solutions, L.L.C. et al","judge":"DJP"},
 {"at":"2026-11-05T09:16-06:00","case":"2:26-cv-01335","doc":"16","event":"Order on Motion to Enroll as Counsel of Record","title":"Richardson v. United States of America","judge":"GGG"},
-{"at":"2026-11-05T09:09-06:00","case":"2:26-cv-01773","doc":"14","event":"Order on Motion to Dismiss","title":"Berger OH, LLC v. Robert M Dominy","judge":""},
+{"at":"2026-11-05T09:09-06:00","case":"2:26-cv-01773","doc":"14","event":"Order on Motion to Dismiss","title":"Berger OH, LLC v. Robert M Dominy","judge":"JTM"},
 {"at":"2026-11-05T09:02-06:00","case":"2:26-cv-00643","doc":"","event":"Correction of Docket Entry by Clerk","title":"Johnson et al v. Fidelity & Guaranty Life Insurance Company","judge":"GGG"},
 {"at":"2026-11-05T08:53-06:00","case":"2:26-cv-01929","doc":"44","event":"Appear Pro Hac Vice","title":"Bunch v. IDscan.net, Inc.","judge":"WBV"},
 {"at":"2026-11-05T08:43-06:00","case":"2:25-cv-02178","doc":"48","event":"Protective Order","title":"Pierce  v. Golden Meadow Town et al","judge":"WJC"},
@@ -2965,12 +2965,5 @@
 {"at":"2026-10-23T15:04-05:00","case":"2:22-cv-01271","doc":"235","event":"Order on Motion to Seal Document","title":"Hutchinson-Harper, et al v. Jefferson Parish School Board, et al","judge":"DJP"},
 {"at":"2026-10-23T15:03-05:00","case":"2:25-cv-01504","doc":"27","event":"Summary Judgment","title":"Purvis, et al v. Nationstar Mortgage LLC","judge":""},
 {"at":"2026-10-23T15:03-05:00","case":"2:25-cv-01504","doc":"27","event":"Dismiss/Lack of Jurisdiction","title":"Purvis, et al v. Nationstar Mortgage LLC","judge":""},
-{"at":"2026-10-23T15:03-05:00","case":"2:25-cv-01504","doc":"27","event":"Dismiss/Failure to State a Claim/FRCP12(b)(6)","title":"Purvis, et al v. Nationstar Mortgage LLC","judge":""},
-{"at":"2026-10-23T14:51-05:00","case":"2:26-cv-02440","doc":"","event":"Initial Case Assignment","title":"Sparks v. Federal Express Corporation","judge":""},
-{"at":"2026-10-23T14:51-05:00","case":"2:26-cv-00459","doc":"64","event":"Response/Memorandum in Support of Motion","title":"Sanders v. Smith et al","judge":"ASJ"},
-{"at":"2026-10-23T14:48-05:00","case":"2:26-cv-01131","doc":"16","event":"Scheduling Order","title":"Hardy v. HCMC Properties LLC","judge":"EEF"},
-{"at":"2026-10-23T14:48-05:00","case":"2:22-cv-01271","doc":"234","event":"Order on Motion to Substitute","title":"Hutchinson-Harper, et al v. Jefferson Parish School Board, et al","judge":"DJP"},
-{"at":"2026-10-23T14:48-05:00","case":"2:22-cv-01271","doc":"234","event":"Order on Motion to Seal Document","title":"Hutchinson-Harper, et al v. Jefferson Parish School Board, et al","judge":"DJP"},
-{"at":"2026-10-23T14:45-05:00","case":"2:24-cv-01347","doc":"87","event":"Order on Motion to Stay","title":"Thompson v. Westinghouse Electric Company LLC","judge":"GGG"},
-{"at":"2026-10-23T14:44-05:00","case":"2:24-cv-00871","doc":"679","event":"Stipulation","title":"Constanza et al v. Sparta Insurance Company et al","judge":"NJB"}
+{"at":"2026-10-23T15:03-05:00","case":"2:25-cv-01504","doc":"27","event":"Dismiss/Failure to State a Claim/FRCP12(b)(6)","title":"Purvis, et al v. Nationstar Mortgage LLC","judge":""}
 ]
