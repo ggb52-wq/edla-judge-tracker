@@ -2929,5 +2929,8 @@
 {"date":"2026-11-06","time":"09:21","judge":"ASJ","case":"2:26-cv-00459","doc":"68","title":"Sanders v. Smith et al","event":"Terminate Hearings","src":"rss"},
 {"date":"2026-11-06","time":"09:55","judge":"JCZ","case":"2:21-cv-01027","doc":"160","title":"O'Reilly et al v. U.S. Army Corps of Engineers et al","event":"Order","src":"rss"},
 {"date":"2026-11-06","time":"10:02","judge":"BSL","case":"2:23-cv-07142","doc":"95","title":"JES, Inc. et al v. Scottsdale Insurance Company","event":"Terminate Hearings","src":"rss"},
-{"date":"2026-11-06","time":"10:13","judge":"LMA","case":"2:26-cv-02469","doc":"9","title":"Collins v. American Security Insurance Company","event":"Set Hearings","src":"rss"}
+{"date":"2026-11-06","time":"10:13","judge":"LMA","case":"2:26-cv-02469","doc":"9","title":"Collins v. American Security Insurance Company","event":"Set Hearings","src":"rss"},
+{"date":"2026-11-06","time":"10:31","judge":"BSL","case":"2:26-cv-02316","doc":"6","title":"McKnight v. Westcott et al","event":"Order","src":"rss"},
+{"date":"2026-11-06","time":"10:53","judge":"BSL","case":"2:25-cv-01355","doc":"257","title":"Landix v. Taylor Seidenbach, Inc. et al","event":"Order","src":"rss"},
+{"date":"2026-11-06","time":"11:17","judge":"EEF","case":"2:24-cv-01577","doc":"42","title":"Tillman et al v. Edwards et al","event":"Scheduling Order","src":"rss"}
 ]
