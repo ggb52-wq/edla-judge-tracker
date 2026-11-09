@@ -2952,18 +2952,5 @@
 {"at":"2026-10-26T16:17-05:00","case":"2:26-cv-00081","doc":"35","event":"~Util - Terminate Motions","title":"D.R. Horton, Inc. - Gulf Coast et al v. Bass","judge":"BSL"},
 {"at":"2026-10-26T16:17-05:00","case":"2:26-cv-00081","doc":"35","event":"Order","title":"D.R. Horton, Inc. - Gulf Coast et al v. Bass","judge":"BSL"},
 {"at":"2026-10-26T16:17-05:00","case":"2:24-cv-02118","doc":"41","event":"Order","title":"Jones v. Airbnb Payments, Inc. et al","judge":"WJC"},
-{"at":"2026-10-26T16:16-05:00","case":"2:25-cv-02078","doc":"54","event":"Order on Motion to Substitute Attorney","title":"Rouyer v. Jones, et al","judge":"BWA"},
-{"at":"2026-10-26T16:14-05:00","case":"2:25-cv-02276","doc":"31","event":"~Util - Set Deadlines/Hearings","title":"Bacot v. Julien et al","judge":"WJC"},
-{"at":"2026-10-26T16:14-05:00","case":"2:25-cv-02276","doc":"31","event":"Order to Show Cause","title":"Bacot v. Julien et al","judge":"WJC"},
-{"at":"2026-10-26T16:12-05:00","case":"2:26-cv-00900","doc":"10","event":"Entry of Default","title":"In the Matter of War Admiral LLC, et al","judge":"GGG"},
-{"at":"2026-10-26T16:11-05:00","case":"2:25-cv-00615","doc":"180","event":"Reply to Response to Motion","title":"LeBlanc v. Huntington Ingalls, Incorporated, et al","judge":"BWA"},
-{"at":"2026-10-26T16:10-05:00","case":"2:26-cv-01930","doc":"13","event":"~Util - Terminate Motions","title":"Greenbaum v. IDscan.net, Inc.","judge":"WBV"},
-{"at":"2026-10-26T16:10-05:00","case":"2:26-cv-01930","doc":"13","event":"~Util - Set/Reset Hearings","title":"Greenbaum v. IDscan.net, Inc.","judge":"WBV"},
-{"at":"2026-10-26T16:10-05:00","case":"2:26-cv-01930","doc":"13","event":"Order","title":"Greenbaum v. IDscan.net, Inc.","judge":"WBV"},
-{"at":"2026-10-26T16:05-05:00","case":"2:26-cv-02464","doc":"1","event":"Complaint","title":"Walker v. McDonald's Corporation","judge":""},
-{"at":"2026-10-26T16:05-05:00","case":"2:26-cv-01362","doc":"12","event":"Dismiss","title":"Lucineo v. KFC Corporation","judge":"NJB"},
-{"at":"2026-10-26T16:05-05:00","case":"2:26-cv-01362","doc":"12","event":"Dismiss Case","title":"Lucineo v. KFC Corporation","judge":"NJB"},
-{"at":"2026-10-26T16:05-05:00","case":"2:25-cv-02425","doc":"15","event":"Order on Motion to Withdraw as Attorney","title":"Marshall v. Bourbon Orleans Hotel et al","judge":"WBV"},
-{"at":"2026-10-26T16:01-05:00","case":"2:26-cv-01941","doc":"32","event":"Order on Motion to Continue","title":"LeBlanc v. Anadarko Petroleum Corporation et al","judge":"WJC"},
-{"at":"2026-10-26T16:00-05:00","case":"2:24-cv-01577","doc":"41","event":"Order on Motion to Dismiss/Failure to State a Claim","title":"Tillman et al v. Edwards et al","judge":"EEF"}
+{"at":"2026-10-26T16:16-05:00","case":"2:25-cv-02078","doc":"54","event":"Order on Motion to Substitute Attorney","title":"Rouyer v. Jones, et al","judge":"BWA"}
 ]
