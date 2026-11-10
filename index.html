@@ -177,6 +177,10 @@
           <div class="ph"><h2 id="h-jm">Submitted motions</h2><a class="more-link" id="j-motions-all" href="#motions">All submitted motions →</a></div>
           <div class="pb" id="j-motions"></div>
         </section>
+        <section class="panel" aria-labelledby="h-jcjra">
+          <div class="ph"><h2 id="h-jcjra">Pending more than six months, as reported</h2><span class="count" id="j-cjra-n"></span><a class="more-link" id="j-cjra-src" target="_blank" rel="noopener noreferrer">Report ↗</a></div>
+          <div class="pb" id="j-cjra"></div>
+        </section>
       </div>
 
       <aside class="stack">
@@ -266,6 +270,7 @@
         <p class="meta" id="c-ts" hidden></p>
         <p class="meta" id="c-trial" hidden></p>
         <p class="meta" id="c-conf" hidden></p>
+        <p class="meta" id="c-cjra" hidden></p>
         <p class="meta" id="c-reassigned" hidden></p>
       </div>
       <div class="actions">
@@ -474,6 +479,21 @@
       </section>
     </div>
 
+    <div class="vgrid" id="tr-ao" hidden>
+      <section class="panel" aria-labelledby="h-tr-ao1">
+        <div class="ph"><h2 id="h-tr-ao1">Trials and evidentiary hearings, this court among the districts</h2><span class="count" id="tr-ao-period"></span></div>
+        <div class="pb"><div class="facts two" id="tr-ao-rank"></div></div>
+      </section>
+      <section class="panel" aria-labelledby="h-tr-ao2">
+        <div class="ph"><h2 id="h-tr-ao2">Median months from filing to civil trial</h2><span class="count" id="tr-ao-n"></span></div>
+        <div class="pb"><div id="tr-ao-wait"></div></div>
+      </section>
+      <section class="panel" aria-labelledby="h-tr-ao3">
+        <div class="ph"><h2 id="h-tr-ao3">Civil trial length in days, share of trials</h2><div class="jlegend" id="tr-ao-legend"></div></div>
+        <div class="pb"><div class="chart" id="tr-ao-length"></div></div>
+      </section>
+    </div>
+
     <section class="panel" id="tr-lists" aria-labelledby="h-tr-lists">
       <div class="ph"><h2 id="h-tr-lists">Cases</h2><span class="count" id="tr-count"></span>
         <button type="button" class="btn sm" id="tr-csv">Export CSV</button></div>
@@ -657,6 +677,13 @@
           <div class="legend" data-legend="outcomes"></div></div>
         <div class="pb tight"><p class="cap" id="oc-cap"></p></div>
         <div class="scroll"><table class="t oc" id="t-outcomes"></table></div>
+      </section>
+    </div>
+
+    <div class="cview" data-view="pending">
+      <section class="panel">
+        <div class="ph"><h2>Pending matters each judge reported</h2><span class="count" id="cjra-asof"></span><a class="more-link" href="methodology.html#cjra">Method</a></div>
+        <div class="scroll"><table class="t" id="t-cjra"></table></div>
       </section>
     </div>
 

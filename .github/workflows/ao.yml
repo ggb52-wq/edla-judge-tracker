@@ -1,0 +1,50 @@
+name: Read the Administrative Office tables
+
+on:
+  schedule:
+    # Tuesdays, 4:17 AM Central in daylight time. The Civil Justice Reform Act report comes out twice a year and the
+    # trial tables about quarterly; most runs find nothing new and download nothing large.
+    - cron: "17 9 * * 2"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ao-tables
+  cancel-in-progress: false
+
+jobs:
+  read:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install the PDF reader
+        run: pip install --quiet pypdf==5.4.0
+
+      - name: Read the trial tables and the Civil Justice Reform Act report when a new edition is out
+        run: python -u scripts/ao_tables.py
+
+      - name: Commit when a file changed
+        run: |
+          if [ -z "$(git status --porcelain -- data/cjra.json data/ao_trials.json)" ]; then
+            echo "No change."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/cjra.json data/ao_trials.json
+          git commit -m "Administrative Office tables $(date -u +%Y-%m-%d)"
+          # main may have moved during the run (the data update commits every 15 minutes); rebase onto it.
+          for i in 1 2 3 4; do
+            git pull --rebase origin main && git push && exit 0
+            sleep $((i * 5))
+          done
+          echo "Could not push after 4 tries" >&2
+          exit 1

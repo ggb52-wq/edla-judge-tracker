@@ -82,7 +82,7 @@
 
   const PAGES = ['judges', 'judge', 'compare', 'cases', 'case', 'notices', 'activity', 'calendar', 'opinions', 'motions', 'trials', 'magistrates', 'magistrate', 'court', 'log'];
   const NAV = { judges: 'judges', judge: 'judges', compare: 'judges', cases: 'cases', case: 'cases', notices: '', activity: 'activity', calendar: 'calendar', opinions: 'opinions', motions: 'motions', trials: 'trials', magistrates: 'magistrates', magistrate: 'magistrates', court: 'court', log: '' };
-  const VIEWS = [['orders', 'Civil orders'], ['opinions', 'Written opinions'], ['outcomes', 'Motion outcomes'], ['weekdays', 'Weekdays'], ['hours', 'Time of day']];
+  const VIEWS = [['orders', 'Civil orders'], ['opinions', 'Written opinions'], ['outcomes', 'Motion outcomes'], ['pending', 'Pending matters'], ['weekdays', 'Weekdays'], ['hours', 'Time of day']];
   // Addresses from the earlier, tabbed layout still open the matching page.
   // The Requirements and Trade secrets pages were removed Nov. 6, 2026; their addresses open Home.
   const LEGACY = { overview: ['judges'], rules: ['judges'], tradesecrets: ['judges'], orders: ['court', 'orders'], outcomes: ['court', 'outcomes'], finder: ['opinions'] };
@@ -424,13 +424,13 @@
     return bar;
   }
   // Where one judge's figure falls among all judges: a tick per judge, the median, and this judge as a dot.
-  function strip(values, mine, format, label) {
+  function strip(values, mine, format, label, who = ['This judge', 'median judge', 'judges']) {
     const v = values.filter((x) => x != null && Number.isFinite(x));
     if (v.length < 3 || mine == null) return null;
     const hi = d3.max(v) || 1; const pos = (x) => (x / hi) * 100;
     const med = median(v);
     const box = el('div', { className: 'strip' });
-    box.dataset.tip = [label, 'This judge ' + format(mine) + ' · median judge ' + format(med), 'All ' + v.length + ' judges: ' + format(d3.min(v)) + ' to ' + format(hi)].join('\n');
+    box.dataset.tip = [label, who[0] + ' ' + format(mine) + ' · ' + who[1] + ' ' + format(med), 'All ' + v.length + ' ' + who[2] + ': ' + format(d3.min(v)) + ' to ' + format(hi)].join('\n');
     box.append(el('span', { className: 'base' }), ...v.map((x) => { const i = el('i'); i.style.left = pos(x) + '%'; return i; }));
     const m = el('b'); m.style.left = pos(med) + '%'; const me = el('em'); me.style.left = pos(mine) + '%';
     box.append(m, me);
@@ -789,6 +789,7 @@
     drawJudgeMotions(code);
     drawJudgeCal(code, name);
     drawJudgeTrials(code, name);
+    drawJudgeCjra(code, name);
     drawJudgeProfile(code, name, or, op);
     $('j-act').replaceChildren(...actItems(activity().rows.filter((r) => r.judge === code).slice(0, 12), { empty: 'Nothing in the last ' + ACT_DAYS + ' days.' }));
     $('j-act-all').href = hashFor('activity', { act: { judge: code, days: '14' } });
@@ -1081,7 +1082,7 @@
   }
 
   // Columns of the judge's share in each ordered bin, with the all-judges share as a gray tick across the bin.
-  function binColumns(box, { bins, mine, court, label, unit, H = 150 }) {
+  function binColumns(box, { bins, mine, court, label, unit, H = 150, who = ['this judge', 'all judges'] }) {
     const tm = d3.sum(mine); const tc = d3.sum(court);
     if (!tm) { emptyChart(box, H, 'Nothing on file in this period'); return; }
     const sm = mine.map((v) => v / tm); const sc = court.map((v) => (tc ? v / tc : 0));
@@ -1098,7 +1099,7 @@
       if (h > 0) svg.append('path').style('fill', 'var(--judge)').attr('d', `M${x0},${y(0)}V${y(sm[i]) + Math.min(2, h)}q0,-2 2,-2H${x0 + bw - 2}q2,0 2,2V${y(0)}Z`);
       if (sc[i]) svg.append('line').attr('x1', x0 - 3).attr('x2', x0 + bw + 3).attr('y1', y(sc[i])).attr('y2', y(sc[i])).style('stroke', 'var(--court)').attr('stroke-width', 2).attr('stroke-linecap', 'round');
       svg.append('rect').attr('x', x(b) - x.step() * x.paddingInner() / 2).attr('width', x.step()).attr('y', m.t).attr('height', H - m.t - m.b).attr('fill', 'transparent')
-        .on('pointermove', (e) => tipShow([b + ' ' + unit, { color: 'var(--judge)', value: fmt.pct0(sm[i]), label: 'this judge (' + fmt.int(mine[i]) + ')' }, { color: 'var(--court)', value: fmt.pct0(sc[i]), label: 'all judges (' + fmt.int(court[i]) + ')' }], e.clientX, e.clientY)).on('pointerleave', tipHide);
+        .on('pointermove', (e) => tipShow([b + ' ' + unit, { color: 'var(--judge)', value: fmt.pct0(sm[i]), label: who[0] + ' (' + fmt.int(mine[i]) + ')' }, { color: 'var(--court)', value: fmt.pct0(sc[i]), label: who[1] + ' (' + fmt.int(court[i]) + ')' }], e.clientX, e.clientY)).on('pointerleave', tipHide);
     });
   }
 
@@ -1742,9 +1743,67 @@
       el('div', { className: 'jtr-bars' }, jury.length ? judgmentRow('Jury trials', jury) : null, bench.length ? judgmentRow('Bench trials', bench) : null, judgmentLegend())]
       : [el('p', { className: 'empty', textContent: 'No trials on file for Judge ' + name + ' in cases closed since 2020.' })]));
   }
+  // ---- Civil Justice Reform Act report (data/cjra.json): what each judge reported to the Administrative Office as pending
+  // on the report date. Counts are the report's own totals; the rows are the report's rows for this court.
+  const cjraData = () => ({ judges: [], cases: [], motions: [], bench: [], ...(state.data.cjra || {}) });
+  const cjraJudge = (code) => cjraData().judges.find((j) => j.code === code) || null;
+  const cjraTitle = (r) => { const c = state.cases.find((x) => x.case === r.case); return (c && c.title) || r.title || ''; };
+  const cjraMotion = (t) => String(t || '').replace(/\bMOTION\b/g, 'Motion');
+  TABLES['t-cjra'] = { rows: () => judgesAlpha().map((j) => { const r = cjraJudge(j.code) || {}; return { code: j.code, name: j.name, motions: r.motions || 0, cases: r.cases || 0, bench: r.bench || 0 }; }),
+    sort: { k: 'name', dir: 1 }, foot: [sumFoot], cols: [
+      { k: 'name', label: 'Judge' },
+      { k: 'motions', label: 'Motions pending over six months', f: fmt.int, num: true, sum: true, bar: true, title: 'Table 8 of the report' },
+      { k: 'cases', label: 'Civil cases pending over three years', f: fmt.int, num: true, sum: true, title: 'Table 7 of the report; multidistrict litigation member cases are counted one by one' },
+      { k: 'bench', label: 'Bench trials submitted over six months', f: fmt.int, num: true, sum: true, title: 'Table 9 of the report' },
+    ] };
+  function drawJudgeCjra(code, name) {
+    const C = cjraData(); const J = cjraJudge(code); const box = $('j-cjra');
+    $('j-cjra-src').href = 'https://www.uscourts.gov/data-news/reports/statistical-reports/civil-justice-reform-act-report';
+    $('j-cjra-n').textContent = C.period ? 'as of ' + fmtDate(C.period) : '';
+    if (!C.period || !J) { box.replaceChildren(el('p', { className: 'empty', textContent: C.period ? 'Judge ' + name + ' is not in the report.' : 'Not read yet.' })); return; }
+    const motions = C.motions.filter((r) => r.judge === code); const cases = C.cases.filter((r) => r.judge === code);
+    const th = (cols) => el('thead', {}, el('tr', {}, ...cols.map((h) => el('th', { textContent: h }))));
+    const listed = motions.filter((r) => !r.part).length;
+    const mt = motions.length ? el('div', { className: 'scroll tall', style: 'margin-top:12px' }, el('table', { className: 't' }, th(['Case', 'Name', 'Motion', 'Report deadline', 'Status reported']),
+      el('tbody', {}, ...motions.map((r) => el('tr', {}, el('td', { className: 'txt' }, caseNumLink(r.case, '', 'case')), el('td', { className: 'ev', textContent: cjraTitle(r) }),
+        el('td', { className: 'wrap' }, cjraMotion(r.motion), r.part ? el('span', { className: 'tag', textContent: 'SAME FILING', title: 'Filed with the motion above; the report counts them as one' }) : null),
+        el('td', { className: 'mono', textContent: r.deadline ? fmtMDY(r.deadline) : '—' }), el('td', { className: 'wrap', textContent: r.note || '' })))))) : null;
+    const lim = state.cjraAll === code ? cases.length : 12;
+    const ct = cases.length ? el('details', { className: 'explain', open: cases.length <= 12 }, el('summary', { textContent: plural(cases.length, 'civil case') + ' pending more than three years' }),
+      el('div', { className: 'scroll' }, el('table', { className: 't' }, th(['Case', 'Name', 'Report deadline', 'Status reported']),
+        el('tbody', {}, ...cases.slice(0, lim).map((r) => el('tr', {}, el('td', { className: 'txt' }, caseNumLink(r.case, '', 'case')), el('td', { className: 'ev', textContent: cjraTitle(r) }),
+          el('td', { className: 'mono', textContent: r.deadline ? fmtMDY(r.deadline) : '—' }), el('td', { className: 'wrap', textContent: r.note || '' })))))),
+      cases.length > lim ? el('button', { type: 'button', className: 'btn more', textContent: 'Show all ' + fmt.int(cases.length), onclick: () => { state.cjraAll = code; drawJudgeCjra(code, name); } }) : null) : null;
+    box.replaceChildren(el('div', { className: 'facts three' },
+      fact('Motions over six months', fmt.int(J.motions || 0), listed !== (J.motions || 0) ? fmt.int(listed) + ' listed below' : 'Table 8'),
+      fact('Civil cases over three years', fmt.int(J.cases || 0), 'Table 7'),
+      fact('Bench trials over six months', fmt.int(J.bench || 0), 'Table 9')), mt, ct);
+  }
+  // Administrative Office trial tables (data/ao_trials.json): this court beside the other districts. The AO counts
+  // every contested proceeding where evidence is taken, so its counts run above the trials listed on this page.
+  function drawAoTrials() {
+    const A = state.data.ao_trials || {}; const ok = !!(A.t1 && A.t1.court);
+    $('tr-ao').hidden = !ok; if (!ok) return;
+    const T = A.t1; const n = A.districts; const who = ['This court', 'median district', 'districts'];
+    $('tr-ao-period').textContent = '12 months to ' + fmtDate(A.period);
+    const item = (label, k) => { const f = fact(label, fmt.int(T.court[k]), 'rank ' + T.rank[k] + ' of ' + n + ' · median district ' + fmt.med(T.median[k]));
+      const st = T.values && T.values[k] ? strip(T.values[k], T.court[k], fmt.int, label + ', ' + n + ' districts', who) : null; if (st) f.append(st); return f; };
+    $('tr-ao-rank').replaceChildren(item('Civil, all', 'civil'), item('Civil jury', 'civil_jury'), item('Civil nonjury', 'civil_nonjury'), fact('Criminal, all', fmt.int(T.court.criminal), 'rank ' + T.rank.criminal + ' of ' + n + ' · median district ' + fmt.med(T.median.criminal)));
+    const W = A.t3 || {}; const rows = [['This court', W.court, 'var(--judge)'], ['Fifth Circuit', W.circuit, 'var(--court)'], ['All districts', W.national, 'var(--court)']].filter(([, r]) => r && r.months != null);
+    const max = d3.max(rows, ([, r]) => r.months) || 1;
+    $('tr-ao-n').textContent = W.court ? plural(W.court.trials, 'trial') + ' in this court' : '';
+    $('tr-ao-wait').replaceChildren(...(rows.length ? rows.map(([label, r, color]) => { const row = el('div', { className: 'hb-row' }, el('span', { className: 'sb-l', textContent: label }), el('span', { className: 'hb-track' }, (() => { const i = el('i'); i.style.width = (r.months / max) * 100 + '%'; i.style.background = color; return i; })()), el('span', { className: 'sb-v', textContent: fmt.d1(r.months) }));
+      row.dataset.tip = label + '\nMedian ' + fmt.d1(r.months) + ' months from filing to the start of trial\n' + plural(r.trials, 'civil trial') + (r.jury_months != null ? ' · jury trials ' + fmt.d1(r.jury_months) + ' months' : ''); return row; })
+      : [el('p', { className: 'empty', textContent: 'Fewer than 10 trials: no median published.' })]));
+    const L = A.t2 || {};
+    $('tr-ao-legend').replaceChildren(legendItem('var(--judge)', 'This court'), legendItem('var(--court)', 'All districts', 'line'));
+    if (L.court && L.national) binColumns($('tr-ao-length'), { bins: L.bins, mine: L.court.civil, court: L.national.civil, unit: 'days', H: 176, who: ['this court', 'all districts'],
+      label: 'Share of civil trials and evidentiary hearings by length in days, this court and all districts' });
+  }
   function renderTrials() {
     document.title = 'Trials · EDLA Analyzer';
     drawTrialCharts();
+    drawAoTrials();
     drawTrialLists();
   }
   function drawTrialLists() {
@@ -1875,6 +1934,10 @@
       const g = state.ocGroup; const pool = S.pooled['g_' + g];
       $('oc-cap').textContent = `${fmt.int(pool.known)} of ${fmt.int(pool.n)} ${GROUPS[g].toLowerCase()} rulings coded. Outlined: fewer than ${FEW}.`;
       drawTable('t-outcomes');
+    } else if (v === 'pending') {
+      const C = cjraData();
+      $('cjra-asof').textContent = C.period ? 'Civil Justice Reform Act report, as of ' + fmtDate(C.period) : 'Not read yet';
+      drawTable('t-cjra');
     } else if (v === 'weekdays') {
       $('dow-days').textContent = 'Rests on ' + plural(S.workingDays, 'working day') + ' since ' + fmtShort(S.since.orders);
       drawTable('t-dow');
@@ -2472,6 +2535,11 @@
       ': ' + (IDB_KIND[r.kind] || '').toLowerCase() + (idbDates(r) ? ', tried ' + idbDates(r) : '') + (IDB_FOR[r.judgment] && r.judgment !== 4 ? '; judgment for ' + IDB_FOR[r.judgment].toLowerCase() : '')
       + (r.amount ? '; clerk\'s entry ' + idbMoney(r.amount) : '') + '; closed ' + fmtDate(r.term)));
     if (awardsOf(id).length) trialBits.push((trialBits.length ? ' · ' : ''), 'Amounts stated in opinions: ', ...awardNodes(id).flatMap((n, i) => [i ? '; ' : '', ...n.childNodes]));
+    const cj = cjraData(); const cjm = cj.motions.filter((r) => r.case === id && !r.part); const cjc = cj.cases.filter((r) => r.case === id);
+    $('c-cjra').hidden = !(cjm.length || cjc.length);
+    $('c-cjra').replaceChildren(...(cjm.length || cjc.length ? [el('a', { href: 'methodology.html#cjra', textContent: 'Reported pending' }), ' as of ' + fmtDate(cj.period) + ': ',
+      [...cjm.map((r) => cjraMotion(r.motion) + ', over six months' + (r.deadline ? ', report deadline ' + fmtDate(r.deadline) : '') + (r.note ? ' (' + r.note + ')' : '')),
+        ...cjc.map((r) => 'case over three years' + (r.deadline ? ', report deadline ' + fmtDate(r.deadline) : '') + (r.note ? ' (' + r.note + ')' : ''))].join('; ')] : []));
     $('c-trial').hidden = !trialBits.length;
     $('c-trial').replaceChildren(...trialBits);
     const moved = (K.reassigned || []).filter((x) => S.names[x.from] || S.names[x.to]);
@@ -2771,7 +2839,7 @@
       return [['Judge', 'Case', 'Doc', 'Motion', 'Filed', 'Submission date', 'Submission date estimated', 'Days past submission', 'Ruling found', 'Case name'],
         ...motionRows().map((m) => [S.names[m.judge] || '', m.case, m.doc, m.event, m.date, m.submit, m.subEst ? 'yes' : '', m.daysPast == null ? '' : m.daysPast, m.ruled, m.title])];
     }
-    const id = which === 'mj' ? 'mj-table' : { orders: 't-orders', opinions: 't-opinions', outcomes: 't-outcomes', weekdays: 't-dow', hours: 't-dow' }[state.view];
+    const id = which === 'mj' ? 'mj-table' : { orders: 't-orders', opinions: 't-opinions', outcomes: 't-outcomes', pending: 't-cjra', weekdays: 't-dow', hours: 't-dow' }[state.view];
     const cfg = TABLES[id]; const all = cfg.rows(); const cols = cfg.cols.filter((c) => !c.nosort && !(c.hide && c.hide(all)));
     return [cols.map((c) => c.label), ...all.slice().sort((a, b) => a.name.localeCompare(b.name)).map((r) => cols.map((c) => (typeof r[c.k] === 'number' ? +r[c.k].toFixed(4) : r[c.k])))];
   }
@@ -3151,8 +3219,8 @@
   }
 
   async function load() {
-    const names = ['opinions', 'orders', 'judges', 'calendar', 'runs', 'outcomes', 'motions', 'judge_pages', 'feed', 'hearings', 'status', 'dockets', 'notices', 'submission_dates', 'appeals', 'case_activity', 'trade_secrets', 'trials', 'magistrates', 'magistrate_pages', 'idb_trials', 'trial_judges'];
-    const OPTIONAL = { trial_judges: { judges: {} }, idb_trials: { rows: [] }, magistrates: {}, magistrate_pages: { judges: [] }, trials: { trials: [], decisions: [] }, outcomes: [], motions: [], feed: [], hearings: [], dockets: [], judge_pages: { judges: [] }, status: {}, notices: {}, submission_dates: {}, appeals: {}, case_activity: {}, trade_secrets: { cases: [] } };
+    const names = ['opinions', 'orders', 'judges', 'calendar', 'runs', 'outcomes', 'motions', 'judge_pages', 'feed', 'hearings', 'status', 'dockets', 'notices', 'submission_dates', 'appeals', 'case_activity', 'trade_secrets', 'trials', 'magistrates', 'magistrate_pages', 'idb_trials', 'trial_judges', 'cjra', 'ao_trials'];
+    const OPTIONAL = { cjra: {}, ao_trials: {}, trial_judges: { judges: {} }, idb_trials: { rows: [] }, magistrates: {}, magistrate_pages: { judges: [] }, trials: { trials: [], decisions: [] }, outcomes: [], motions: [], feed: [], hearings: [], dockets: [], judge_pages: { judges: [] }, status: {}, notices: {}, submission_dates: {}, appeals: {}, case_activity: {}, trade_secrets: { cases: [] } };
     $('status').textContent = 'Loading the docket data…';
     try {
       const files = await Promise.all(names.map((n) => fetch('data/' + n + '.json', { cache: 'no-cache' })
