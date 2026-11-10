@@ -1,0 +1,46 @@
+name: Read the FJC civil database for trials
+
+on:
+  schedule:
+    # Mondays, 4:41 AM Central in daylight time. The FJC replaces the file about once a quarter; most runs find it unchanged.
+    - cron: "41 9 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: idb
+  cancel-in-progress: false
+
+jobs:
+  read:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Download the file when it has changed and keep this court's trial rows
+        run: python -u scripts/idb.py
+
+      - name: Commit when the rows changed
+        run: |
+          if [ -z "$(git status --porcelain -- data/idb_trials.json)" ]; then
+            echo "No change."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/idb_trials.json
+          git commit -m "FJC trial rows $(date -u +%Y-%m-%d)"
+          # main may have moved during the run (the data update commits every 15 minutes); rebase onto it.
+          for i in 1 2 3 4; do
+            git pull --rebase origin main && git push && exit 0
+            sleep $((i * 5))
+          done
+          echo "Could not push after 4 tries" >&2
+          exit 1

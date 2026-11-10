@@ -276,6 +276,8 @@ a.kpi:hover { background: var(--raise); }
 .mcards .jc-stat span { font-size: 8.5px; letter-spacing: .03em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .jc-chart.ychart { max-width: 520px; margin-top: 8px; }
 .jc-chart.ychart text { font-size: 10.5px; }
+.panel > .explain { padding: 10px 14px 12px; border-top: 1px solid var(--line); }
+.panel > .explain .scroll { margin: 10px -14px 0; }
 .btn.sm { height: 24px; padding: 0 8px; font-size: 11px; }
 .t td.wrap .pill { margin-right: 2px; }
 .t td.wrap .pill i { background: var(--judge); }

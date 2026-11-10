@@ -1479,6 +1479,57 @@
     const list = c.firms.length ? c.firms : c.attorneys;
     return el('td', { className: 'wrap', title: c.attorneys.length ? 'Attorneys: ' + c.attorneys.join(', ') : '' }, list.slice(0, 6).join('; ') + (list.length > 6 ? '; +' + (list.length - 6) + ' more' : ''));
   }
+  // Trials in terminated cases, from the Federal Judicial Center's Integrated Database (data/idb_trials.json): the clerk's
+  // closing codes for each case, listed per case and never totaled by judge. The public file has no judge; the judge
+  // comes from the site's own data by case number.
+  const idbData = () => ({ rows: [], ...(state.data.idb_trials || {}) });
+  const IDB_KIND = { jury: 'Jury verdict', bench: 'Bench trial', directed: 'Directed verdict' };
+  const IDB_FOR = { 1: 'Plaintiff', 2: 'Defendant', 3: 'Both', 4: 'Not recorded' };
+  const IDB_NOJ = { 0: 'No monetary award', 1: 'Monetary award', 2: 'Monetary award and other relief', 3: 'Injunction', 4: 'Forfeiture, foreclosure, or condemnation', 5: 'Costs only', 6: 'Costs and attorney fees' };
+  const IDB_JURY = { B: 'Both sides', P: 'Plaintiff', D: 'Defendant', N: 'None' };
+  const IDB_ORIGIN = { 2: 'Removed', 3: 'On remand', 4: 'Reopened', 5: 'Transferred in', 6: 'MDL', 8: 'Reopened', 9: 'Reopened', 10: 'Reopened', 11: 'Reopened', 12: 'Reopened', 13: 'MDL' };
+  const IDB_TOP = 9999;  // the IDB's ceiling: amounts are in thousands of dollars, and 9999 stands for $9,999,000 or more
+  const idbMoney = (k) => (k >= IDB_TOP ? '$9,999,000 or more' : '$' + fmt.int(k * 1000));
+  const idbAward = (r) => (r.amount ? idbMoney(r.amount) + (r.noj === 2 ? ' and other relief' : '') : r.noj != null ? IDB_NOJ[r.noj] || '—' : '—');
+  const idbDates = (r) => (r.began && r.ended && r.began !== r.ended ? fmtShort(r.began) + ' to ' + fmtDate(r.ended) : r.began || r.ended ? fmtDate(r.began || r.ended) : '');
+  let idbMemo = null;
+  function idbRows() {
+    const D = state.data;
+    if (!idbMemo || idbMemo.src !== D.idb_trials || idbMemo.cases !== state.cases || idbMemo.dk !== D.dockets) {
+      const info = new Map(state.cases.map((c) => [c.case, c])); const dk = new Map((D.dockets || []).map((k) => [k.case, k]));
+      idbMemo = { src: D.idb_trials, cases: state.cases, dk: D.dockets, rows: idbData().rows.map((r) => { const c = info.get(r.case) || {}; const k = dk.get(r.case) || {};
+        const judge = state.stats.names[c.judge] ? c.judge : state.stats.names[k.judge] ? k.judge : '';
+        return { ...r, judge, title: c.title || '', nosText: k.nos || (r.nos != null ? 'Nature of suit ' + r.nos : '') }; }) };
+    }
+    const T = state.tr; const q = T.q.trim().toLowerCase(); const S = state.stats;
+    return idbMemo.rows.filter((r) => (!T.judge || r.judge === T.judge) && (!q || [r.case, r.plt, r.def, r.title, S.names[r.judge] || '', r.nosText, IDB_KIND[r.kind]].join(' ').toLowerCase().includes(q)))
+      .sort((a, b) => b.term.localeCompare(a.term) || a.case.localeCompare(b.case));
+  }
+  function drawIdb() {
+    const D = idbData(); const S = state.stats; const rows = idbRows(); const tried = rows.filter((r) => r.trial); const other = rows.filter((r) => !r.trial);
+    const cols = ['Closed', 'Case', 'Parties', 'Judge', 'Disposition', 'Trial', 'Judgment for', 'Award', 'Nature of suit', 'Jury demand'];
+    const head = () => el('thead', {}, el('tr', {}, ...cols.map((h) => el('th', { textContent: h }))));
+    const tr = (r) => el('tr', {},
+      el('td', { className: 'mono', textContent: fmtMDY(r.term) }),
+      el('td', { className: 'txt' }, caseNumLink(r.case, '', 'case'), IDB_ORIGIN[r.origin] ? el('span', { className: 'tag', textContent: IDB_ORIGIN[r.origin].toUpperCase(), title: 'How the case came to the docket, per the clerk\'s code' }) : null),
+      el('td', { className: 'ev', textContent: (r.plt || '—') + ' v. ' + (r.def || '—') }),
+      el('td', { className: 'txt' }, S.names[r.judge] ? el('a', { className: 'judge', href: judgeHref(r.judge), textContent: S.names[r.judge] }) : el('span', { className: 'dim', textContent: 'Not on file' })),
+      el('td', { className: 'txt', textContent: IDB_KIND[r.kind] || '—' }),
+      el('td', { className: 'wrap', textContent: idbDates(r) || (r.trial ? 'Date not recorded' : 'None recorded') }),
+      el('td', { className: 'txt', textContent: IDB_FOR[r.judgment] || '—' }),
+      el('td', { className: 'wrap', textContent: idbAward(r) }),
+      el('td', { className: 'wrap', textContent: r.nosText || '—' }),
+      el('td', { className: 'txt', textContent: IDB_JURY[r.jury] || '—' }));
+    const none = (msg) => [el('tr', {}, el('td', { className: 'txt dim', colSpan: cols.length, textContent: msg }))];
+    $('trh-table').replaceWith(el('table', { className: 't', id: 'trh-table' }, head(), el('tbody', {}, ...(tried.length ? tried.map(tr) : none(D.rows.length ? 'No matches.' : 'Not read yet.')))));
+    $('trh-other').replaceWith(el('table', { className: 't', id: 'trh-other' }, head(), el('tbody', {}, ...other.map(tr))));
+    $('trh-other-wrap').hidden = !other.length;
+    $('trh-other-sum').textContent = plural(other.length, 'more case') + ' the clerk closed as a verdict or trial with no trial date or trial-stage code';
+    $('trh-count').textContent = plural(tried.length, 'case');
+    const last = D.rows.reduce((a, r) => (r.term > a ? r.term : a), '');
+    $('trh-cap').replaceChildren(D.rows.length ? `Civil cases closed from ${fmtDate(D.since)} to ${fmtDate(last)} that the clerk coded as ending in a jury verdict, a directed verdict, or a court trial, from the Federal Judicial Center's public database (read ${fmtDate(D.read)}; the FJC adds closed cases each quarter). Judgment and award are the clerk's closing entries, shown per case; amounts are recorded in thousands of dollars. `
+      : 'The Federal Judicial Center\'s database has not been read yet. ', el('a', { href: 'methodology.html#trials', textContent: 'Method' }));
+  }
   function renderTrials() {
     document.title = 'Trials · EDLA Analyzer';
     const T = state.tr; const S = state.stats; const today = todayIso(); const D = trData();
@@ -1524,6 +1575,7 @@
     $('trd-table').replaceWith(el('table', { className: 't', id: 'trd-table' }, thead(dcols), dbody));
     const nw = R.decisions.reduce((n, d) => n + (d.witnesses || []).length, 0);
     $('trd-count').textContent = plural(R.decisions.length, 'decision') + ' · ' + plural(nw, 'witness', 'witnesses') + ' named';
+    drawIdb();
   }
 
   // ------------------------------------------------------------ page: court
@@ -2196,6 +2248,9 @@
       ': ' + trialWhen(trial) + ' · ' + TR_STATUS[trialStatus(trial, todayIso())]);
     decs.forEach((d) => trialBits.push((trialBits.length ? ' · ' : ''), el('a', { href: hashFor('trials', { tr: { q: id, judge: '' } }), textContent: 'Bench-trial decision' }),
       ' ' + fmtDate(d.date) + ' (doc ' + d.doc + ')' + ((d.witnesses || []).length ? '; witnesses named: ' + d.witnesses.map((w) => w.name).join(', ') : '')));
+    idbData().rows.filter((r) => r.case === id).forEach((r) => trialBits.push((trialBits.length ? ' · ' : ''), el('a', { href: hashFor('trials', { tr: { q: id, judge: '' } }), textContent: 'Closing record' }),
+      ': ' + (IDB_KIND[r.kind] || '').toLowerCase() + (idbDates(r) ? ', tried ' + idbDates(r) : '') + (IDB_FOR[r.judgment] && r.judgment !== 4 ? '; judgment for ' + IDB_FOR[r.judgment].toLowerCase() : '')
+      + (r.amount ? '; ' + idbMoney(r.amount) : '') + '; closed ' + fmtDate(r.term)));
     $('c-trial').hidden = !trialBits.length;
     $('c-trial').replaceChildren(...trialBits);
     const moved = (K.reassigned || []).filter((x) => S.names[x.from] || S.names[x.to]);
@@ -2473,6 +2528,11 @@
         ...T.decisions.map((d) => ['bench-trial decision', d.case, d.doc, d.title || '', S.names[d.judge] || d.judge || '', 'Bench', d.tried || '', '', '', d.date,
           (d.witnesses || []).map((w) => w.name + (w.expert ? ' (expert)' : '')).join('; '), counselOf(d.case).firms.join('; '), counselOf(d.case).attorneys.join('; '), d.pdf || ''])];
     }
+    if (which === 'trh') {
+      return [['Closed', 'Case', 'Plaintiff', 'Defendant', 'Judge', 'Disposition', 'Trial date or trial-stage code', 'Trial began', 'Trial ended', 'Judgment for', 'Nature of judgment', 'Amount (thousands of dollars)', 'Demanded (thousands of dollars)', 'Nature of suit', 'Nature of suit code', 'Jury demand', 'Origin', 'Filed', 'Class action alleged'],
+        ...idbRows().map((r) => [r.term, r.case, r.plt, r.def, S.names[r.judge] || '', IDB_KIND[r.kind] || '', r.trial ? 'yes' : 'no', r.began || '', r.ended || '', IDB_FOR[r.judgment] || '', IDB_NOJ[r.noj] || '', r.amount == null ? '' : r.amount,
+          r.demanded == null ? '' : r.demanded, r.nosText, r.nos == null ? '' : r.nos, IDB_JURY[r.jury] || '', r.origin === 1 ? 'Original' : IDB_ORIGIN[r.origin] || '', r.filed || '', r.classact ? 'yes' : ''])];
+    }
     if (which === 'mg') {
       return [['Magistrate judge', 'Initials', 'Division', 'Settlement conference entries', 'Referred cases', 'Active referred cases', 'Consent cases', 'Written opinions', 'Reports and recommendations', 'Orders'],
         ...magRows().map((r) => [magOf(r.code).name, r.code, r.division, r.conf, r.referred, r.active, r.consent, r.opinions, r.rr, r.orders])];
@@ -2499,7 +2559,7 @@
     // Case names and docket text come from whoever files: a value a spreadsheet would read as a formula is kept as text.
     const cell = (v) => { let s = v == null ? '' : String(v); if (typeof v === 'string' && /^[=+\-@\t\r]/.test(s)) s = "'" + s; return /[",\n\r]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s; };
     const text = csvRows(which).map((row) => row.map(cell).join(',')).join('\n');
-    const name = which === 'op' ? 'opinions' : which === 'cal' ? 'calendar' : which === 'act' ? 'activity' : which === 'mt' ? 'motions' : which === 'tr' ? 'trials' : which === 'mg' ? 'magistrate-judges' : which === 'mgc' ? 'settlement-conferences' : which === 'mgo' ? 'magistrate-' + state.mag.toLowerCase() + '-opinions' : which === 'mj' ? 'motions-by-judge' : 'court-' + state.view;
+    const name = which === 'op' ? 'opinions' : which === 'cal' ? 'calendar' : which === 'act' ? 'activity' : which === 'mt' ? 'motions' : which === 'tr' ? 'trials' : which === 'trh' ? 'trials-closed-cases' : which === 'mg' ? 'magistrate-judges' : which === 'mgc' ? 'settlement-conferences' : which === 'mgo' ? 'magistrate-' + state.mag.toLowerCase() + '-opinions' : which === 'mj' ? 'motions-by-judge' : 'court-' + state.view;
     const a = el('a', { href: URL.createObjectURL(new Blob([text + '\n'], { type: 'text/csv' })), download: `edla-${name}-${state.stats.through}.csv` });
     document.body.append(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 1000);
   }
@@ -2870,8 +2930,8 @@
   }
 
   async function load() {
-    const names = ['opinions', 'orders', 'judges', 'calendar', 'runs', 'outcomes', 'motions', 'judge_pages', 'feed', 'hearings', 'status', 'dockets', 'notices', 'submission_dates', 'appeals', 'case_activity', 'trade_secrets', 'trials', 'magistrates', 'magistrate_pages'];
-    const OPTIONAL = { magistrates: {}, magistrate_pages: { judges: [] }, trials: { trials: [], decisions: [] }, outcomes: [], motions: [], feed: [], hearings: [], dockets: [], judge_pages: { judges: [] }, status: {}, notices: {}, submission_dates: {}, appeals: {}, case_activity: {}, trade_secrets: { cases: [] } };
+    const names = ['opinions', 'orders', 'judges', 'calendar', 'runs', 'outcomes', 'motions', 'judge_pages', 'feed', 'hearings', 'status', 'dockets', 'notices', 'submission_dates', 'appeals', 'case_activity', 'trade_secrets', 'trials', 'magistrates', 'magistrate_pages', 'idb_trials'];
+    const OPTIONAL = { idb_trials: { rows: [] }, magistrates: {}, magistrate_pages: { judges: [] }, trials: { trials: [], decisions: [] }, outcomes: [], motions: [], feed: [], hearings: [], dockets: [], judge_pages: { judges: [] }, status: {}, notices: {}, submission_dates: {}, appeals: {}, case_activity: {}, trade_secrets: { cases: [] } };
     $('status').textContent = 'Loading the docket data…';
     try {
       const files = await Promise.all(names.map((n) => fetch('data/' + n + '.json', { cache: 'no-cache' })

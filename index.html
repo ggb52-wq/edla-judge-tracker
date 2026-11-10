@@ -419,7 +419,7 @@
     <div class="jhead">
       <div>
         <h1 id="h-trials">Trials</h1>
-        <p class="sub">Civil trials on the court's calendar and in its docket feed since Oct. 2026, and bench-trial decisions since 2022 with the witnesses each one names. <a href="methodology.html#trials">How we find them</a></p>
+        <p class="sub">Civil trials on the court's calendar and in its docket feed since Oct. 2026, bench-trial decisions since 2022 with the witnesses each one names, and trials in cases closed since 2020 with the judgment and award the clerk recorded. <a href="methodology.html#trials">How we find them</a></p>
       </div>
       <div class="actions"><button type="button" class="btn" data-csv="tr">Export CSV</button></div>
     </div>
@@ -434,6 +434,16 @@
     <section class="panel">
       <div class="ph"><h2>Bench-trial decisions</h2><span class="count" id="trd-count"></span></div>
       <div class="scroll tall"><table class="t" id="trd-table"></table></div>
+    </section>
+    <section class="panel" aria-labelledby="h-trh">
+      <div class="ph"><h2 id="h-trh">Trials in closed cases since 2020</h2><span class="count" id="trh-count"></span>
+        <button type="button" class="btn sm" data-csv="trh">CSV</button></div>
+      <div class="pb tight"><p class="cap" id="trh-cap"></p></div>
+      <div class="scroll tall"><table class="t" id="trh-table"></table></div>
+      <details class="explain" id="trh-other-wrap">
+        <summary id="trh-other-sum"></summary>
+        <div class="scroll"><table class="t" id="trh-other"></table></div>
+      </details>
     </section>
     <details class="explain">
       <summary>What is and is not here</summary>
