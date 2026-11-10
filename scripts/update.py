@@ -36,6 +36,7 @@ import govinfo
 import court_info
 import hearings
 import import_written_opinions
+import magistrates
 import opinion_text
 import trade_secrets
 import trials
@@ -1105,6 +1106,18 @@ def main() -> int:
                               text_dir=texts.root, today=today)
     if new_trials != {k: old_trials.get(k) for k in new_trials}:
         court_info.save_json(DATA / "trials.json", new_trials)
+    # Magistrate judges: referred cases, the opinions each signed, and settlement conferences with what the docket showed
+    # afterward (no extra calls; the conference log is kept here after the feed drops its entries).
+    mag_path = DATA / "magistrates.json"
+    old_mag = court_info.load_json(mag_path, {})
+    new_mag = magistrates.build(old_mag, data_dir=DATA, dockets=dockets, opinions=opinions, titles=titles, case_judge=case_judge,
+                                entries=[{"case": r["case"], "doc": r["doc"], "date": r.get("date", ""), "event": r["event"]}
+                                         for r in feed_rows + orders if r.get("case")],
+                                judges=judges, text_index=texts.index, text_dir=texts.root,
+                                pages=court_info.load_json(DATA / "magistrate_pages.json", {}),
+                                feed_since=court_info.load_json(DATA / "case_activity.json", {}).get("feed_since", today), today=today)
+    if not magistrates.same(new_mag, old_mag):
+        magistrates.save(mag_path, new_mag)
     if do_search:
         note.append(f"Trade secret search {len(ts_results)} cases, {ts_found} with new signals")
     if ts_store.added and not ts_store.initial:

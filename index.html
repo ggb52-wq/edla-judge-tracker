@@ -25,6 +25,7 @@
       <a href="#opinions" data-nav="opinions">Opinions</a>
       <a href="#motions" data-nav="motions">Motions</a>
       <a href="#trials" data-nav="trials">Trials</a>
+      <a href="#magistrates" data-nav="magistrates">Magistrates</a>
       <a href="#court" data-nav="court">Court</a>
     </nav>
     <div class="omni" id="omni-top">
@@ -260,6 +261,7 @@
         <p class="meta" id="c-facts" hidden></p>
         <p class="meta" id="c-ts" hidden></p>
         <p class="meta" id="c-trial" hidden></p>
+        <p class="meta" id="c-conf" hidden></p>
         <p class="meta" id="c-reassigned" hidden></p>
       </div>
       <div class="actions">
@@ -437,6 +439,96 @@
       <summary>What is and is not here</summary>
       <p>Trial days come from the court's seven-day calendar, and trial entries ("Jury Trial - Held", "Jury Verdict Form") from its RSS feed, both read every 15 minutes since Oct. 2026. Witnesses come from the text of findings of fact and conclusions of law after a bench trial, read automatically, so a name can be missed or misread; each name shows the sentence it came from. Jury-trial witnesses, minute entries, and verdicts are PACER documents and are not shown. Counsel appears where CourtListener lists it. <a href="methodology.html#trials">How we find them</a></p>
     </details>
+  </section>
+
+  <!-- ============================================================ Magistrate judges -->
+  <section class="page" id="page-magistrates" aria-labelledby="h-mags" hidden>
+    <div class="jhead">
+      <div>
+        <h1 id="h-mags">Magistrate judges</h1>
+        <p class="sub">What each magistrate judge does on the civil docket: settlement conferences, referred cases, and written opinions. Counts and case lists only. <a href="methodology.html#magistrates">How we count</a></p>
+      </div>
+      <div class="actions"><button type="button" class="btn" data-csv="mg">Export CSV</button></div>
+    </div>
+    <div class="jlegend" id="mlegend"></div>
+    <div class="cards mcards" id="mcards" aria-labelledby="h-mags"></div>
+    <p class="foot-note" id="m-former"></p>
+    <section class="panel" aria-labelledby="h-m-court">
+      <div class="ph"><h2 id="h-m-court">Settlement conferences, all magistrate judges</h2><span class="count" id="m-conf-count"></span>
+        <button type="button" class="btn sm" data-csv="mgc">CSV</button></div>
+      <div class="pb">
+        <div class="kpis four" id="m-court-kpis" aria-label="Court-wide settlement conference figures"></div>
+        <p class="foot-note" id="m-court-cap"></p>
+      </div>
+      <div class="scroll"><table class="t" id="m-conf-table"></table></div>
+    </section>
+    <section class="panel" aria-labelledby="h-m-table">
+      <div class="ph"><h2 id="h-m-table">By magistrate judge</h2><a class="more-link" href="methodology.html#magistrates">Method</a></div>
+      <div class="scroll"><table class="t" id="t-mags"></table></div>
+      <p class="foot-note pad" id="m-table-note"></p>
+    </section>
+  </section>
+
+  <section class="page" id="page-magistrate" aria-labelledby="mg-name" hidden>
+    <div class="jhead">
+      <div>
+        <p class="eyebrow"><a href="#magistrates">Magistrates</a> <span aria-hidden="true">/</span> <span id="mg-crumb"></span></p>
+        <div class="jtitle"><h1 id="mg-name">Magistrate judge</h1><span class="code" id="mg-div" hidden></span><span class="code" id="mg-code"></span></div>
+        <p class="fullname" id="mg-full"></p>
+        <p class="meta" id="mg-meta"></p>
+      </div>
+      <div class="actions">
+        <select id="mg-pick" aria-label="Switch magistrate judge"></select>
+        <button type="button" class="btn" data-csv="mgo">Export CSV</button>
+      </div>
+    </div>
+    <div class="kpis five" id="mg-kpis" aria-label="Key figures"></div>
+    <div class="jgrid">
+      <div class="stack">
+        <section class="panel rules" id="mg-rules" aria-labelledby="h-mg-rules">
+          <div class="ph"><h2 id="h-mg-rules">Chambers and settlement-conference requirements</h2><a class="more-link" id="mg-rules-src" target="_blank" rel="noopener noreferrer">Court's page ↗</a></div>
+          <div class="contact" id="mg-contact"></div>
+          <div class="rtabs" id="mg-rtabs" role="tablist" aria-label="The magistrate judge's requirements"></div>
+          <div class="rbody" id="mg-rbody" role="tabpanel"></div>
+          <div class="docs" id="mg-docs"></div>
+          <p class="foot-note pad" id="mg-rules-note"></p>
+        </section>
+        <section class="panel" aria-labelledby="h-mg-conf">
+          <div class="ph"><h2 id="h-mg-conf">Settlement conferences</h2><span class="count" id="mg-conf-count"></span></div>
+          <div class="pb tight"><p class="cap" id="mg-conf-cap"></p></div>
+          <div class="scroll"><table class="t" id="mg-conf-table"></table></div>
+        </section>
+        <section class="panel" aria-labelledby="h-mg-ops">
+          <div class="ph"><h2 id="h-mg-ops">Latest written opinions</h2><span class="count" id="mg-ops-count"></span></div>
+          <div class="scroll"><table class="t" id="mg-ops-table"></table></div>
+          <button type="button" class="btn more" id="mg-ops-more" hidden>Show more</button>
+        </section>
+        <section class="panel" aria-labelledby="h-mg-active">
+          <div class="ph"><h2 id="h-mg-active">Active referred cases</h2><span class="count" id="mg-active-count"></span></div>
+          <div class="pb tight"><p class="cap" id="mg-active-cap"></p></div>
+          <div class="scroll"><table class="t" id="mg-active-table"></table></div>
+          <button type="button" class="btn more" id="mg-active-more" hidden>Show all</button>
+        </section>
+      </div>
+      <div class="stack">
+        <section class="panel" aria-labelledby="h-mg-years">
+          <div class="ph"><h2 id="h-mg-years">Written opinions by year</h2><a class="more-link" href="methodology.html#magistrates">Method</a></div>
+          <div class="pb"><div class="jlegend" id="mg-years-legend"></div><div id="mg-years"></div><p class="foot-note" id="mg-years-note"></p></div>
+        </section>
+        <section class="panel" aria-labelledby="h-mg-types">
+          <div class="ph"><h2 id="h-mg-types">Motion types decided by order</h2></div>
+          <div class="pb"><div id="mg-types"></div></div>
+        </section>
+        <section class="panel" aria-labelledby="h-mg-rr">
+          <div class="ph"><h2 id="h-mg-rr">Reports and recommendations, by subject</h2></div>
+          <div class="pb"><div id="mg-rr"></div></div>
+        </section>
+        <section class="panel" aria-labelledby="h-mg-dj">
+          <div class="ph"><h2 id="h-mg-dj">Referred cases, by district judge</h2></div>
+          <div class="pb"><p class="cap" id="mg-dj-cap"></p><div id="mg-dj"></div></div>
+        </section>
+      </div>
+    </div>
   </section>
 
   <section class="page" id="page-motions" aria-labelledby="h-motions" hidden>

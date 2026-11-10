@@ -6,7 +6,11 @@ Page text is copied as data, never interpreted or followed. Staff names are not 
 with the last copy: a section whose text changed gets a new "changed" date, and a document link not seen before gets
 a "first_seen" date, so the site can flag what is new.
 
-Run: python scripts/judge_pages.py [--print]   (--print writes the result to stdout instead of the data file)
+With --magistrates the same reader takes the magistrate judges' listing and pages (roster in scripts/magistrates.py)
+and writes data/magistrate_pages.json: the division, chambers contact, and each tab verbatim, "Settlement Conferences"
+among them, under the same rules. A judge the listing names who is not on the roster is listed under "unlisted".
+
+Run: python scripts/judge_pages.py [--magistrates] [--print]   (--print writes the result to stdout instead of the data file)
 Set JUDGE_PAGES_DEBUG=1 to log the listing's links and an outline of every page, for fitting the reader to a new layout.
 """
 from __future__ import annotations
@@ -26,6 +30,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 BASE = "https://www.laed.uscourts.gov"
 LISTING = BASE + "/judges-information/district-judges"
+MAG_LISTING = BASE + "/judges-information/magistrate-judges"
 JUDGE_PATH = "/judges-information/judge/"
 USER_AGENT = "edla-judge-tracker (github.com/ggb52-wq/edla-judge-tracker)"
 PAUSE = 1.0                 # seconds between page requests
@@ -251,7 +256,7 @@ def is_heading(n: Node) -> bool:
 
 
 # ------------------------------------------------------------------ one judge page
-def read_page(html: str, url: str) -> dict:
+def read_page(html: str, url: str, magistrate: bool = False) -> dict:
     root = parse(html)
     h1 = root.find(lambda n: n.tag == "h1" and n.attrs.get("id") == "page-title")
     title = clean(h1.text()) if h1 else ""
@@ -262,6 +267,9 @@ def read_page(html: str, url: str) -> dict:
     m = re.search(r"\bSection\s+([A-Z]{1,2})\b", info)
     if m:
         contact["section"] = m.group(1)
+    m = re.search(r"\bDivision\s+(\d{1,2})\b", info) if magistrate else None
+    if m:
+        contact["division"] = m.group(1)
     m = re.search(r"\(?\d{3}\)?[\s.-]*\d{3}[\s.-]\d{4}", info)
     if m:
         contact["phone"] = m.group(0)
@@ -340,11 +348,13 @@ def fetch(url: str) -> str:
         return r.read().decode("utf-8", "replace")
 
 
-def find_pages(listing_html: str, judges: list[dict]) -> dict:
+def find_pages(listing_html: str, judges: list[dict], code_of=None) -> dict:
     """Map judge code -> {"urls": addresses to try, "section": letter}. A link matches a judge when its address ends
     with the judge's name ("...honorable-nannette-jolivette-brown") or, failing that, when its text names the judge.
     The listing links each judge twice, once by section letter ("G") and once by name; the letter is kept. Its links
-    use /judge/<name>, which the court's site does not always serve, so /judges-information/judge/<name> is tried first."""
+    use /judge/<name>, which the court's site does not always serve, so /judges-information/judge/<name> is tried first.
+    code_of (the magistrate roster's name matcher) also matches a link whose text gives the name another way
+    ("Michael North"). The magistrate listing numbers its links by division ("2"), kept the same way as a section letter."""
     root = parse(listing_html)
     start = root.find(lambda n: n.attrs.get("id") in ("main-content", "page-title"))
     scope = start.parent if start is not None and start.parent is not None else root
@@ -353,22 +363,40 @@ def find_pages(listing_html: str, judges: list[dict]) -> dict:
         url = absolute(a.attrs.get("href", ""))
         if url.startswith(BASE) and not DOC_RE.search(url):
             links.append((url, clean(a.text())))
-    letters = {u: t for u, t in links if re.fullmatch(r"[A-Z]{1,2}", t)}
+    letters = {u: t for u, t in links if re.fullmatch(r"[A-Z]{1,2}|\d{1,2}", t)}
     out = {}
     for j in judges:
         s = slug(j["name"])
         by_url = sorted({u for u, _ in links if u.rstrip("/").split("/")[-1] == s or u.rstrip("/").endswith("-" + s)})
         by_text = sorted({u for u, t in links if re.search(r"(?<![\w.])" + re.escape(j["name"]) + r"(?![\w])", t, re.I)})
-        hit = (by_url or by_text)[:1]
+        by_alias = sorted({u for u, t in links if code_of and JUDGE_LINK_RE.search(u) and code_of(t) == j["code"]})
+        hit = (by_url or by_text or by_alias)[:1]
         if hit:
             last = hit[0].rstrip("/").split("/")[-1]
             urls = [BASE + JUDGE_PATH + last] + [u for u in hit if u != BASE + JUDGE_PATH + last]
             out[j["code"]] = {"urls": urls, "section": letters.get(hit[0], "")}
-    if len(out) < len(judges) or DEBUG:
+    if any(j["code"] not in out and not j.get("pending") for j in judges) or DEBUG:
         print(f"Matched {len(out)} of {len(judges)} judges on the listing. Links seen:", flush=True)
         for u, t in links[:120]:
             print(f"  {t[:60]!r} -> {u}", flush=True)
     return out
+
+
+JUDGE_LINK_RE = re.compile(r"/judge/[a-z0-9-]+/?$")
+
+
+def unlisted(listing_html: str, code_of) -> list[str]:
+    """Names the magistrate listing links to a judge page for that the roster does not have: a new judge. Kept as plain
+    text (letters, periods, spaces), for the site to show and the owner to add to the roster."""
+    root = parse(listing_html)
+    start = root.find(lambda n: n.attrs.get("id") in ("main-content", "page-title"))
+    scope = start.parent if start is not None and start.parent is not None else root
+    out = []
+    for a in scope.find_all(lambda n: n.tag == "a"):
+        text = clean(a.text())
+        if JUDGE_LINK_RE.search(absolute(a.attrs.get("href", ""))) and re.fullmatch(r"[A-Za-z][A-Za-z.'’ -]{3,60}", text) and not code_of(text) and text not in out:
+            out.append(text)
+    return out[:10]
 
 
 def digest(obj) -> str:
@@ -405,13 +433,22 @@ def today_iso() -> str:
 
 
 def main(argv: list[str]) -> int:
-    judges = json.loads((DATA / "judges.json").read_text())
-    path = DATA / "judge_pages.json"
+    mag = "--magistrates" in argv
+    code_of = None
+    if mag:
+        import magistrates
+        code_of = magistrates.code_of
+        judges = [{"code": j["code"], "name": j["name"], "pending": bool(j.get("pending"))} for j in magistrates.ROSTER if not j.get("former")]
+    else:
+        judges = json.loads((DATA / "judges.json").read_text())
+    path = DATA / ("magistrate_pages.json" if mag else "judge_pages.json")
+    listing = MAG_LISTING if mag else LISTING
     old = json.loads(path.read_text()) if path.exists() else {"judges": []}
     prev = {r["code"]: r for r in old.get("judges", [])}
     today = today_iso()
     try:
-        pages = find_pages(fetch(LISTING), judges)
+        listing_html = fetch(listing)
+        pages = find_pages(listing_html, judges, code_of)
     except Exception as e:  # noqa: BLE001 - keep the last copy when the court's site is down
         print(f"Could not read the judge listing: {e}", flush=True)
         return 0
@@ -421,7 +458,8 @@ def main(argv: list[str]) -> int:
         urls = found.get("urls") or [prev.get(j["code"], {}).get("url", "")]
         urls = [u for u in dict.fromkeys(urls + [prev.get(j["code"], {}).get("url", "")]) if u]
         if not urls:
-            print(f"{j['name']}: no page found on the listing", flush=True)
+            if not mag or j["code"] in prev:    # a magistrate judge selected but not yet on the listing is expected
+                print(f"{j['name']}: no page found on the listing", flush=True)
             if j["code"] in prev:
                 rows.append(prev[j["code"]])
             continue
@@ -438,16 +476,21 @@ def main(argv: list[str]) -> int:
             if j["code"] in prev:
                 rows.append({**prev[j["code"]], "error": errors[-1][:200]})
             continue
-        cur = read_page(html, url)
-        if found.get("section") and not cur["contact"].get("section"):
-            cur["contact"]["section"] = found["section"]
+        cur = read_page(html, url, mag)
+        key = "division" if mag else "section"
+        if found.get("section") and not cur["contact"].get(key):
+            cur["contact"][key] = found["section"]
         if DEBUG or not (cur["sections"] or cur["contact"]):   # nothing read at all: the page layout may have changed
             print(f"{j['name']}: {url}\n" + outline(html)[:6000 if DEBUG else 1500], flush=True)
         row = {"code": j["code"], **merge(prev.get(j["code"]), cur, today)}
         print(f"{j['name']}: {row['title']} · {len(row['sections'])} sections · {len(row['docs'])} documents"
               + (" · changed" if row["changed"] == today and j["code"] in prev else ""), flush=True)
         rows.append(row)
-    data = {"checked": today, "since": old.get("since") or today, "source": LISTING, "judges": rows}
+    data = {"checked": today, "since": old.get("since") or today, "source": listing, "judges": rows}
+    if mag:
+        data["unlisted"] = unlisted(listing_html, code_of)
+        for name in data["unlisted"]:
+            print(f"The listing names a judge who is not on the roster in scripts/magistrates.py: {name}", flush=True)
     if "--print" in argv:
         print(json.dumps(data, ensure_ascii=False, indent=1))
         return 0
@@ -456,7 +499,7 @@ def main(argv: list[str]) -> int:
     if rows and (stale or unchecked(old) != unchecked(data)):
         write(path, data)
     else:
-        print("No change on the judges' pages.", flush=True)
+        print("No change on the " + ("magistrate " if mag else "") + "judges' pages.", flush=True)
     return 0
 
 

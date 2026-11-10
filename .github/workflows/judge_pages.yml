@@ -27,16 +27,19 @@ jobs:
       - name: Read each district judge's page on the court's website
         run: python -u scripts/judge_pages.py
 
+      - name: Read each magistrate judge's page (data/magistrate_pages.json)
+        run: python -u scripts/judge_pages.py --magistrates
+
       - name: Commit when a page changed
         run: |
           # The script rewrites the file only when a judge's page changed, or once a week to refresh the checked dates.
-          if git diff --quiet -- data/judge_pages.json; then
+          if [ -z "$(git status --porcelain -- data/judge_pages.json data/magistrate_pages.json)" ]; then
             echo "No change."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/judge_pages.json
+          git add data/judge_pages.json data/magistrate_pages.json
           git commit -m "Judge pages $(date -u +%Y-%m-%d)"
           # main may have moved during the run (the data update commits every 15 minutes); rebase onto it.
           for i in 1 2 3 4; do
