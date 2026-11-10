@@ -419,35 +419,70 @@
     <div class="jhead">
       <div>
         <h1 id="h-trials">Trials</h1>
-        <p class="sub">Civil trials on the court's calendar and in its docket feed since Oct. 2026, bench-trial decisions since 2022 with the witnesses each one names, and trials in cases closed since 2020 with the judgment and award the clerk recorded. <a href="methodology.html#trials">How we find them</a></p>
+        <p class="sub">Civil trials in this court: what is on the calendar now, every trial in a case closed since 2020, and bench-trial decisions with the witnesses each names. Charts cover all judges together. <a href="methodology.html#trials">How we find them</a></p>
       </div>
-      <div class="actions"><button type="button" class="btn" data-csv="tr">Export CSV</button></div>
     </div>
-    <div class="filters">
-      <label>Judge<select id="tr-judge"></select></label>
-      <label class="grow">Search<input id="tr-q" type="search" placeholder="Party, case number, witness, or law firm" autocomplete="off"></label>
+    <div class="kpis five" id="tr-kpis" aria-label="Trial figures, all judges"></div>
+
+    <section class="panel" id="tr-now-wrap" aria-labelledby="h-tr-now">
+      <div class="ph"><h2 id="h-tr-now">Now and next</h2><span class="count" id="tr-now-count"></span></div>
+      <div class="tnow" id="tr-now"></div>
+    </section>
+
+    <section class="panel" aria-labelledby="h-tr-time">
+      <div class="ph"><h2 id="h-tr-time">Every trial since 2020</h2><div class="jlegend" id="tr-legend"></div></div>
+      <div class="pb"><div class="chart" id="tr-timeline"></div><p class="foot-note" id="tr-time-note"></p></div>
+    </section>
+
+    <div class="vgrid">
+      <section class="panel" aria-labelledby="h-tr-judgment">
+        <div class="ph"><h2 id="h-tr-judgment">Judgment for</h2></div>
+        <div class="pb"><div id="tr-judgment"></div><p class="foot-note" id="tr-judgment-note"></p></div>
+      </section>
+      <section class="panel" aria-labelledby="h-tr-wait">
+        <div class="ph"><h2 id="h-tr-wait">Months from filing to trial</h2></div>
+        <div class="pb"><div class="chart" id="tr-wait"></div><p class="foot-note" id="tr-wait-note"></p></div>
+      </section>
+      <section class="panel" aria-labelledby="h-tr-length">
+        <div class="ph"><h2 id="h-tr-length">Trial length</h2></div>
+        <div class="pb"><div class="chart" id="tr-length"></div><p class="foot-note" id="tr-length-note"></p></div>
+      </section>
+      <section class="panel" aria-labelledby="h-tr-nos">
+        <div class="ph"><h2 id="h-tr-nos">What was tried</h2></div>
+        <div class="pb"><div id="tr-nos"></div><p class="foot-note" id="tr-nos-note"></p></div>
+      </section>
+      <section class="panel" aria-labelledby="h-tr-awards">
+        <div class="ph"><h2 id="h-tr-awards">Monetary awards</h2></div>
+        <div class="pb"><div class="chart" id="tr-awards"></div><p class="foot-note" id="tr-awards-note"></p></div>
+      </section>
+      <section class="panel" aria-labelledby="h-tr-decyears">
+        <div class="ph"><h2 id="h-tr-decyears">Bench-trial decisions by year</h2></div>
+        <div class="pb"><div class="chart" id="tr-decyears"></div><p class="foot-note" id="tr-decyears-note"></p></div>
+      </section>
     </div>
-    <section class="panel">
-      <div class="ph"><h2>Trials</h2><span class="count" id="tr-count"></span></div>
-      <div class="scroll"><table class="t" id="tr-table"></table></div>
-    </section>
-    <section class="panel">
-      <div class="ph"><h2>Bench-trial decisions</h2><span class="count" id="trd-count"></span></div>
-      <div class="scroll tall"><table class="t" id="trd-table"></table></div>
-    </section>
-    <section class="panel" aria-labelledby="h-trh">
-      <div class="ph"><h2 id="h-trh">Trials in closed cases since 2020</h2><span class="count" id="trh-count"></span>
-        <button type="button" class="btn sm" data-csv="trh">CSV</button></div>
-      <div class="pb tight"><p class="cap" id="trh-cap"></p></div>
-      <div class="scroll tall"><table class="t" id="trh-table"></table></div>
-      <details class="explain" id="trh-other-wrap">
-        <summary id="trh-other-sum"></summary>
-        <div class="scroll"><table class="t" id="trh-other"></table></div>
-      </details>
+
+    <section class="panel" id="tr-lists" aria-labelledby="h-tr-lists">
+      <div class="ph"><h2 id="h-tr-lists">Cases</h2><span class="count" id="tr-count"></span>
+        <button type="button" class="btn sm" id="tr-csv">Export CSV</button></div>
+      <div class="rtabs" id="tr-tabs" role="tablist" aria-label="Lists of trials"></div>
+      <div class="filters pad">
+        <label>Judge<select id="tr-judge"></select></label>
+        <label class="grow">Search<input id="tr-q" type="search" placeholder="Party, case number, witness, or law firm" autocomplete="off"></label>
+      </div>
+      <p class="cap pad" id="tr-cap"></p>
+      <div id="trv-closed">
+        <div class="scroll tall"><table class="t" id="trh-table"></table></div>
+        <details class="explain" id="trh-other-wrap">
+          <summary id="trh-other-sum"></summary>
+          <div class="scroll"><table class="t" id="trh-other"></table></div>
+        </details>
+      </div>
+      <div id="trv-feed" hidden><div class="scroll tall"><table class="t" id="tr-table"></table></div></div>
+      <div id="trv-decisions" hidden><div class="scroll tall"><table class="t" id="trd-table"></table></div></div>
     </section>
     <details class="explain">
       <summary>What is and is not here</summary>
-      <p>Trial days come from the court's seven-day calendar, and trial entries ("Jury Trial - Held", "Jury Verdict Form") from its RSS feed, both read every 15 minutes since Oct. 2026. Witnesses come from the text of findings of fact and conclusions of law after a bench trial, read automatically, so a name can be missed or misread; each name shows the sentence it came from. Jury-trial witnesses, minute entries, and verdicts are PACER documents and are not shown. Counsel appears where CourtListener lists it. <a href="methodology.html#trials">How we find them</a></p>
+      <p>Trials in closed cases come from the Federal Judicial Center's public database, which the clerk's closing codes feed and which runs months behind. Trial days come from the court's seven-day calendar, and trial entries ("Jury Trial - Held", "Jury Verdict Form") from its RSS feed, both read every 15 minutes since Oct. 2026. Witnesses come from the text of findings of fact and conclusions of law after a bench trial, read automatically, so a name can be missed or misread; each name shows the sentence it came from. Jury-trial witnesses, minute entries, and verdicts are PACER documents and are not shown. Counsel appears where CourtListener lists it. <a href="methodology.html#trials">How we find them</a></p>
     </details>
   </section>
 

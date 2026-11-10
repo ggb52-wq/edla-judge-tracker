@@ -20,6 +20,7 @@
   /* Data: the judge on screen, the court for comparison, and motion outcomes (diverging: granted and denied at the
      poles, "granted in part" the neutral midpoint, "mixed, moot, other" a quieter neutral). */
   --judge: #3987e5;
+  --series-2: #199e70; /* a second identity beside the blue (Trials: bench trials); checked against the blue for color-blind separation */
   --judge-2: #3d4d63;  /* the judge's second series (home cards: opinions other than merits rulings) */
   --court: #5b6676;
   --tick: #3b4655;
@@ -51,6 +52,7 @@
   --live: #138a4c;
   --shadow: 0 16px 40px rgba(16, 24, 40, .14);
   --judge: #2a78d6;
+  --series-2: #1baf7a;
   --judge-2: #c5d0dd;
   --court: #a5adb8;
   --tick: #cbd1d9;
@@ -278,6 +280,34 @@ a.kpi:hover { background: var(--raise); }
 .jc-chart.ychart text { font-size: 10.5px; }
 .panel > .explain { padding: 10px 14px 12px; border-top: 1px solid var(--line); }
 .panel > .explain .scroll { margin: 10px -14px 0; }
+.vgrid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; align-items: stretch; }
+.vgrid .foot-note { margin-top: 8px; }
+.tnow { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 1px; background: var(--line); }
+.tcard { display: flex; flex-direction: column; gap: 4px; min-width: 0; padding: 12px 14px; background: var(--panel); color: var(--ink); text-decoration: none; font-size: 12.5px; }
+.tcard:hover { background: var(--hover); }
+.tcard b { font: 600 14px/1.3 var(--font); overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+.tc-top { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.tc-when { font: 12px var(--mono); color: var(--ink-2); }
+.tcard .dim { color: var(--ink-3); }
+.chart .unit { stroke: var(--panel); stroke-width: 0; }
+.chart .unit.open { fill: transparent; stroke-width: 1.5; }
+.chart a:hover .unit, .chart a:focus-visible .unit { filter: brightness(1.35); }
+.chart a:hover .unit.open { fill: var(--hover); }
+.chart .dot { stroke: var(--panel); stroke-width: 2; }
+.chart a:hover .dot { stroke: var(--ink); }
+.jb-row { display: grid; grid-template-columns: 96px minmax(0, 1fr); gap: 10px; align-items: center; margin-bottom: 10px; }
+.jb-l { font-size: 12.5px; }
+.jb-l small { display: block; font: 10.5px var(--mono); color: var(--ink-3); }
+.jb-bar { display: flex; gap: 2px; height: 22px; }
+.jb-bar span { min-width: 3px; display: flex; align-items: center; justify-content: center; font: 600 11px var(--mono); border-radius: 2px; }
+.hb-row { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr) 30px; gap: 10px; align-items: center; padding: 4px; font-size: 12.5px; }
+.hb-track { display: flex; gap: 2px; height: 10px; }
+.hb-track i { min-width: 2px; border-radius: 2px; }
+.rtabs .tabn { margin-left: 7px; font: 10.5px var(--mono); color: var(--ink-3); }
+.filters.pad { padding: 12px 14px 0; }
+#tr-cap { padding: 10px 14px 12px; max-width: 110ch; }
+@media (max-width: 1100px) { .vgrid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 720px) { .vgrid { grid-template-columns: minmax(0, 1fr); } .rtabs { overflow-x: auto; flex-wrap: nowrap; } }
 .btn.sm { height: 24px; padding: 0 8px; font-size: 11px; }
 .t td.wrap .pill { margin-right: 2px; }
 .t td.wrap .pill i { background: var(--judge); }
