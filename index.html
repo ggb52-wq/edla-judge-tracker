@@ -188,6 +188,10 @@
           <div class="ph"><h2 id="h-proc">Hearings and trials</h2><div class="legend"><span><i class="dot" style="background:var(--judge)"></i>Set</span><span><i class="dot" style="background:var(--court)"></i>Held</span></div></div>
           <div class="pb"><div class="chart" id="c-j-proc"></div><p class="foot-note" id="j-proc-note"></p></div>
         </section>
+        <section class="panel" aria-labelledby="h-jtr">
+          <div class="ph"><h2 id="h-jtr">Trials since 2020</h2><a class="more-link" id="j-trials-link">All trials →</a></div>
+          <div class="pb" id="j-trials"></div>
+        </section>
         <section class="panel" aria-labelledby="h-ca5">
           <div class="ph"><h2 id="h-ca5">Fifth Circuit decisions</h2></div>
           <p class="cap pad">Appeals from this judge's cases.</p>
@@ -419,8 +423,9 @@
     <div class="jhead">
       <div>
         <h1 id="h-trials">Trials</h1>
-        <p class="sub">Civil trials in this court: what is on the calendar now, every trial in a case closed since 2020, and bench-trial decisions with the witnesses each names. Charts cover all judges together. <a href="methodology.html#trials">How we find them</a></p>
+        <p class="sub">Civil trials in this court: what is on the calendar now, every trial in a case closed since 2020, and bench-trial decisions with the witnesses each names. Pick a judge to see that judge's trials. <a href="methodology.html#trials">How we find them</a></p>
       </div>
+      <div class="actions filters"><label>Judge<select id="tr-judge"></select></label></div>
     </div>
     <div class="kpis five" id="tr-kpis" aria-label="Trial figures, all judges"></div>
 
@@ -431,33 +436,41 @@
 
     <section class="panel" aria-labelledby="h-tr-time">
       <div class="ph"><h2 id="h-tr-time">Every trial since 2020</h2><div class="jlegend" id="tr-legend"></div></div>
-      <div class="pb"><div class="chart" id="tr-timeline"></div><p class="foot-note" id="tr-time-note"></p></div>
+      <div class="pb"><div class="chart" id="tr-timeline"></div></div>
     </section>
 
     <div class="vgrid">
+      <section class="panel span2" aria-labelledby="h-tr-byjudge">
+        <div class="ph"><h2 id="h-tr-byjudge">Trials by judge</h2><span class="count" id="tr-byjudge-n"></span></div>
+        <div class="pb"><div id="tr-byjudge"></div></div>
+      </section>
       <section class="panel" aria-labelledby="h-tr-judgment">
-        <div class="ph"><h2 id="h-tr-judgment">Judgment for</h2></div>
-        <div class="pb"><div id="tr-judgment"></div><p class="foot-note" id="tr-judgment-note"></p></div>
+        <div class="ph"><h2 id="h-tr-judgment">Judgment for, by trial type</h2></div>
+        <div class="pb"><div id="tr-judgment"></div></div>
       </section>
       <section class="panel" aria-labelledby="h-tr-wait">
-        <div class="ph"><h2 id="h-tr-wait">Months from filing to trial</h2></div>
-        <div class="pb"><div class="chart" id="tr-wait"></div><p class="foot-note" id="tr-wait-note"></p></div>
+        <div class="ph"><h2 id="h-tr-wait">Months from filing to trial</h2><span class="count" id="tr-wait-n"></span></div>
+        <div class="pb"><div class="chart" id="tr-wait"></div></div>
       </section>
       <section class="panel" aria-labelledby="h-tr-length">
-        <div class="ph"><h2 id="h-tr-length">Trial length</h2></div>
-        <div class="pb"><div class="chart" id="tr-length"></div><p class="foot-note" id="tr-length-note"></p></div>
+        <div class="ph"><h2 id="h-tr-length">Trial length in days</h2><span class="count" id="tr-length-n"></span></div>
+        <div class="pb"><div class="chart" id="tr-length"></div></div>
       </section>
       <section class="panel" aria-labelledby="h-tr-nos">
-        <div class="ph"><h2 id="h-tr-nos">What was tried</h2></div>
-        <div class="pb"><div id="tr-nos"></div><p class="foot-note" id="tr-nos-note"></p></div>
+        <div class="ph"><h2 id="h-tr-nos">Trials by type of case</h2></div>
+        <div class="pb"><div id="tr-nos"></div></div>
       </section>
       <section class="panel" aria-labelledby="h-tr-awards">
-        <div class="ph"><h2 id="h-tr-awards">Monetary awards</h2></div>
-        <div class="pb"><div class="chart" id="tr-awards"></div><p class="foot-note" id="tr-awards-note"></p></div>
+        <div class="ph"><h2 id="h-tr-awards">Award amounts</h2><span class="count" id="tr-awards-n"></span></div>
+        <div class="pb"><div class="chart" id="tr-awards"></div></div>
+      </section>
+      <section class="panel" aria-labelledby="h-tr-jnos">
+        <div class="ph"><h2 id="h-tr-jnos">Judgment for, by type of case</h2></div>
+        <div class="pb"><div id="tr-jnos"></div></div>
       </section>
       <section class="panel" aria-labelledby="h-tr-decyears">
         <div class="ph"><h2 id="h-tr-decyears">Bench-trial decisions by year</h2></div>
-        <div class="pb"><div class="chart" id="tr-decyears"></div><p class="foot-note" id="tr-decyears-note"></p></div>
+        <div class="pb"><div class="chart" id="tr-decyears"></div></div>
       </section>
     </div>
 
@@ -466,10 +479,9 @@
         <button type="button" class="btn sm" id="tr-csv">Export CSV</button></div>
       <div class="rtabs" id="tr-tabs" role="tablist" aria-label="Lists of trials"></div>
       <div class="filters pad">
-        <label>Judge<select id="tr-judge"></select></label>
         <label class="grow">Search<input id="tr-q" type="search" placeholder="Party, case number, witness, or law firm" autocomplete="off"></label>
       </div>
-      <p class="cap pad" id="tr-cap"></p>
+      <p class="cap pad" id="tr-cap" hidden></p>
       <div id="trv-closed">
         <div class="scroll tall"><table class="t" id="trh-table"></table></div>
         <details class="explain" id="trh-other-wrap">

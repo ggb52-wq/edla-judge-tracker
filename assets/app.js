@@ -788,6 +788,7 @@
     drawJudgeHabits(or, op, name);
     drawJudgeMotions(code);
     drawJudgeCal(code, name);
+    drawJudgeTrials(code, name);
     drawJudgeProfile(code, name, or, op);
     $('j-act').replaceChildren(...actItems(activity().rows.filter((r) => r.judge === code).slice(0, 12), { empty: 'Nothing in the last ' + ACT_DAYS + ' days.' }));
     $('j-act-all').href = hashFor('activity', { act: { judge: code, days: '14' } });
@@ -1521,16 +1522,23 @@
   const awardText = (id) => AWARD_ORDER.flatMap((k) => { const v = awardsOf(id).filter((a) => a.kind === k); return v.length ? [AWARD_KIND[k] + ' ' + v.map((a) => fmtMoney(a.amount)).join(', ')] : []; }).join('; ');
   const idbDates = (r) => (r.began && r.ended && r.began !== r.ended ? fmtShort(r.began) + ' to ' + fmtDate(r.ended) : r.began || r.ended ? fmtDate(r.began || r.ended) : '');
   let idbMemo = null;
-  function idbRows() {
+  function idbAll() {
     const D = state.data;
     if (!idbMemo || idbMemo.src !== D.idb_trials || idbMemo.cases !== state.cases || idbMemo.dk !== D.dockets) {
       const info = new Map(state.cases.map((c) => [c.case, c])); const dk = new Map((D.dockets || []).map((k) => [k.case, k]));
       idbMemo = { src: D.idb_trials, cases: state.cases, dk: D.dockets, rows: idbData().rows.map((r) => { const c = info.get(r.case) || {}; const k = dk.get(r.case) || {};
-        const judge = state.stats.names[c.judge] ? c.judge : state.stats.names[k.judge] ? k.judge : '';
-        return { ...r, judge, title: c.title || '', nosText: k.nos || (r.nos != null ? 'Nature of suit ' + r.nos : '') }; }) };
+        let judge = state.stats.names[c.judge] ? c.judge : state.stats.names[k.judge] ? k.judge : ''; let jname = ''; let jgroup = judge ? 'district' : '';
+        const looked = ((D.trial_judges || {}).judges || {})[r.case];   // CourtListener's assigned judge, looked up once for cases the site had no judge for
+        if (!judge && looked) { const dj = D.judges.find((j) => new RegExp('\\b' + j.name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '$', 'i').test(looked)); const mj = magData().judges.find((j) => j.name === looked);
+          if (dj) { judge = dj.code; jgroup = 'district'; } else if (mj) { jname = 'Magistrate Judge ' + mj.short; jgroup = 'magistrate'; } else { jname = 'Judge ' + looked.split(' ').slice(-1)[0]; jgroup = 'former'; } }
+        return { ...r, judge, jname, jgroup, title: c.title || '', nosText: k.nos || (r.nos != null ? 'Nature of suit ' + r.nos : '') }; }) };
     }
+    return idbMemo.rows;
+  }
+  function idbRows() {
+    idbAll();
     const T = state.tr; const q = T.q.trim().toLowerCase(); const S = state.stats;
-    return idbMemo.rows.filter((r) => (!T.judge || r.judge === T.judge) && (!q || [r.case, r.plt, r.def, r.title, S.names[r.judge] || '', r.nosText, IDB_KIND[r.kind]].join(' ').toLowerCase().includes(q)))
+    return idbMemo.rows.filter((r) => (!T.judge || r.judge === T.judge) && (!q || [r.case, r.plt, r.def, r.title, S.names[r.judge] || r.jname, r.nosText, IDB_KIND[r.kind]].join(' ').toLowerCase().includes(q)))
       .sort((a, b) => b.term.localeCompare(a.term) || a.case.localeCompare(b.case));
   }
   function drawIdb() {
@@ -1541,7 +1549,7 @@
       el('td', { className: 'mono', textContent: fmtMDY(r.term) }),
       el('td', { className: 'txt' }, caseNumLink(r.case, '', 'case'), IDB_ORIGIN[r.origin] ? el('span', { className: 'tag', textContent: IDB_ORIGIN[r.origin].toUpperCase(), title: 'How the case came to the docket, per the clerk\'s code' }) : null),
       el('td', { className: 'ev', textContent: (r.plt || '—') + ' v. ' + (r.def || '—') }),
-      el('td', { className: 'txt' }, S.names[r.judge] ? el('a', { className: 'judge', href: judgeHref(r.judge), textContent: S.names[r.judge] }) : el('span', { className: 'dim', textContent: 'Not on file' })),
+      el('td', { className: 'txt' }, S.names[r.judge] ? el('a', { className: 'judge', href: judgeHref(r.judge), textContent: S.names[r.judge] }) : el('span', { className: 'dim', textContent: r.jname || 'Not on file' })),
       el('td', { className: 'txt', textContent: IDB_KIND[r.kind] || '—' }),
       el('td', { className: 'wrap', textContent: idbDates(r) || (r.trial ? 'Date not recorded' : 'None recorded') }),
       el('td', { className: 'txt', textContent: IDB_FOR[r.judgment] || '—' }),
@@ -1626,32 +1634,54 @@
   const binCount = (values, edges) => edges.map(([lo, hi]) => values.filter((v) => v >= lo && v < hi).length);
   // Awards on a log scale, one dot per case, a lane for each kind of trial.
   function awardStrip(box, rows) {
-    const H = 132; if (!rows.length) { emptyChart(box, H, 'No monetary awards on file'); return; }
+    const H = 176; if (!rows.length) { emptyChart(box, H, 'No award amounts on file'); return; }
     const m = { l: 48, r: 16, t: 10, b: 24 }; const { svg, W } = frame(box, H, 'Monetary awards after trial, one dot per case, on a logarithmic dollar scale');
-    const x = d3.scaleLog([1, IDB_TOP], [m.l, W - m.r]).clamp(true); const lane = { jury: m.t + 26, bench: m.t + 72 };
+    const x = d3.scaleLog([1, IDB_TOP], [m.l, W - m.r]).clamp(true); const lane = { jury: m.t + 30, bench: m.t + 100 };
     [[1, '$1K'], [10, '$10K'], [100, '$100K'], [1000, '$1M'], [IDB_TOP, '$10M+']].forEach(([v, t]) => { svg.append('line').attr('x1', x(v)).attr('x2', x(v)).attr('y1', m.t).attr('y2', H - m.b).style('stroke', 'var(--line)');
       svg.append('text').attr('x', x(v)).attr('y', H - 8).attr('text-anchor', v === IDB_TOP ? 'end' : v === 1 ? 'start' : 'middle').text(t); });
     Object.entries(lane).forEach(([k, yy]) => { svg.append('line').attr('x1', m.l).attr('x2', W - m.r).attr('y1', yy).attr('y2', yy).style('stroke', 'var(--line-2)');
       svg.append('text').attr('class', 'lbl').attr('x', 0).attr('y', yy + 4).text(k === 'jury' ? 'Jury' : 'Bench'); });
-    ['jury', 'bench'].forEach((k) => { let lastX = -99; let flip = 0;
-      rows.filter((r) => seriesOf(r) === k).sort((a, b) => a.best.k - b.best.k).forEach((r) => { const cx = x(Math.max(1, r.best.k)); flip = cx - lastX < 11 ? (flip <= 0 ? 1 - flip : -flip) : 0; lastX = cx;
-        svg.append('a').attr('href', caseHref(r.case)).attr('aria-label', r.case + ', ' + idbMoney(r.best.k)).append('circle').attr('cx', cx).attr('cy', lane[k] + flip * 9).attr('r', 5).attr('class', 'dot')
+    // Dots that would overlap step to the nearest free row above or below the lane's line, never into the other lane.
+    ['jury', 'bench'].forEach((k) => { const placed = [];
+      rows.filter((r) => seriesOf(r) === k).sort((a, b) => a.best.k - b.best.k).forEach((r) => { const cx = x(Math.max(1, r.best.k));
+        const free = [0, -1, 1, -2, 2].find((l) => !placed.some((q) => q.l === l && Math.abs(q.x - cx) < 11)); const l = free === undefined ? 0 : free; placed.push({ x: cx, l });
+        svg.append('a').attr('href', caseHref(r.case)).attr('aria-label', r.case + ', ' + idbMoney(r.best.k)).append('circle').attr('cx', cx).attr('cy', lane[k] + l * 10).attr('r', 4.5).attr('class', 'dot')
           .style('fill', SERIES[k].color).attr('data-tip', idbTip(r) + '\nClick to open the case'); }); });
   }
+  const JSEGS = [[1, 'Plaintiff', 'var(--o-granted)'], [3, 'Both', 'var(--o-partial)'], [2, 'Defendant', 'var(--o-denied)'], [4, 'Not recorded', 'var(--o-other)']];
+  // One row: a label, its count, and a bar split by the side the judgment was for, with the count in each segment.
+  function judgmentRow(label, list) { const n = list.length; const c = (k) => list.filter((r) => (r.judgment || 4) === k).length;
+    return el('div', { className: 'jb-row' }, el('span', { className: 'jb-l' }, label, el('small', { textContent: plural(n, 'trial') })),
+      el('div', { className: 'jb-bar' }, ...JSEGS.filter(([k]) => c(k)).map(([k, name, color]) => { const sp = el('span', { textContent: c(k) / n >= 0.09 ? String(c(k)) : '' }); sp.style.flex = c(k) + ' 0 0'; sp.style.background = color; sp.style.color = inkOn(css(color.slice(4, -1)));
+        sp.dataset.tip = label + '\nJudgment for ' + name.toLowerCase() + ': ' + fmt.int(c(k)) + ' of ' + fmt.int(n) + ' (' + pctOf(c(k), n) + ')'; return sp; }))); }
+  const judgmentLegend = () => el('div', { className: 'jlegend' }, ...JSEGS.map(([, name, color]) => legendItem(color, name)));
+  const trialFigures = (T) => { const dated = T.filter((r) => r.began && r.ended && r.ended >= r.began); const waits = T.filter((r) => r.began && r.filed && (r.origin === 1 || r.origin === 2) && r.began >= r.filed);
+    return { dated, waits, lens: dated.map((r) => daysBetween(r.began, r.ended) + 1), wm: waits.map((r) => monthsBetween(r.filed, r.began)) }; };
   const legendSeries = () => [legendItem(SERIES.jury.color, SERIES.jury.label), legendItem(SERIES.bench.color, SERIES.bench.label)];
   function drawTrialCharts() {
-    const today = todayIso(); const D = trData(); const I = idbData(); const S = state.stats;
-    const T = I.rows.filter((r) => r.trial); const jury = T.filter((r) => seriesOf(r) === 'jury'); const bench = T.filter((r) => seriesOf(r) === 'bench');
+    const today = todayIso(); const D0 = trData(); const S = state.stats; const J = S.names[state.tr.judge] ? state.tr.judge : '';
+    const all = idbAll().filter((r) => r.trial); const T = J ? all.filter((r) => r.judge === J) : all;
+    const D = { trials: D0.trials.filter((t) => !J || t.judge === J), decisions: D0.decisions.filter((d) => !J || d.judge === J) };
+    const jury = T.filter((r) => seriesOf(r) === 'jury'); const bench = T.filter((r) => seriesOf(r) === 'bench');
     const closedCases = new Set(T.map((r) => r.case));
     const live = D.trials.map((t) => ({ t, st: trialStatus(t, today), first: (t.days || [])[0] || ((t.set_for || [])[0] || {}).date || '' })).filter((x) => x.first);
-    const dated = T.filter((r) => r.began && r.ended && r.ended >= r.began); const lens = dated.map((r) => daysBetween(r.began, r.ended) + 1);
-    const waits = T.filter((r) => r.began && r.filed && (r.origin === 1 || r.origin === 2) && r.began >= r.filed);
-    const wm = waits.map((r) => monthsBetween(r.filed, r.began));
+    const { dated, waits, lens, wm } = trialFigures(T);
+    $('h-trials').textContent = J ? 'Trials · Judge ' + S.names[J] : 'Trials';
+    // Trials by judge: every judge, alphabetically; a row picks that judge for the whole page.
+    const jrows = judgesAlpha().map((j) => { const v = all.filter((r) => r.judge === j.code); return { code: j.code, label: 'Judge ' + j.name, jury: v.filter((r) => seriesOf(r) === 'jury').length, bench: v.filter((r) => seriesOf(r) === 'bench').length }; })
+      .concat([['magistrate', 'Magistrate judges'], ['former', 'Former judges'], ['', 'Judge not on file']].map(([g, label]) => { const v = all.filter((r) => !r.judge && r.jgroup === g);
+        return { code: '', label, jury: v.filter((r) => seriesOf(r) === 'jury').length, bench: v.filter((r) => seriesOf(r) === 'bench').length }; }).filter((r) => r.jury + r.bench));
+    const jmax = d3.max(jrows, (r) => r.jury + r.bench) || 1;
+    $('tr-byjudge').replaceChildren(el('div', { className: 'jlegend' }, ...legendSeries()), ...jrows.map((g) => { const row = el(g.code ? 'a' : 'div', { className: 'hb-row' + (g.code && g.code === J ? ' on' : '') + (g.code ? '' : ' dim') },
+      el('span', { className: 'sb-l', textContent: g.label }), el('span', { className: 'hb-track' }, ...['jury', 'bench'].filter((k) => g[k]).map((k) => { const i = el('i'); i.style.width = (g[k] / jmax) * 100 + '%'; i.style.background = SERIES[k].color; return i; })),
+      el('span', { className: 'sb-v', textContent: fmt.int(g.jury + g.bench) }));
+      if (g.code) row.href = hashFor('trials', { tr: { ...state.tr, judge: g.code === J ? '' : g.code } });
+      row.dataset.tip = g.label + '\n' + fmt.int(g.jury) + ' jury trials · ' + fmt.int(g.bench) + ' bench trials' + (g.code ? '\n' + (g.code === J ? 'Click to show all judges' : 'Click to show this judge') : ''); return row; }));
+    $('tr-byjudge-n').textContent = plural(all.length, 'trial') + ', cases closed since 2020';
     const nowN = live.filter((x) => x.st === 'underway').length; const setN = live.filter((x) => x.st === 'set').length;
     const nw = D.decisions.reduce((n, d) => n + (d.witnesses || []).length, 0);
-    const lastClosed = I.rows.reduce((a, r) => (r.term > a ? r.term : a), '');
     $('tr-kpis').replaceChildren(
-      kpi({ label: 'Trials in cases closed since 2020', value: fmt.int(T.length), sub: fmt.int(jury.length) + ' jury · ' + fmt.int(bench.length) + ' bench', na: !T.length }),
+      kpi({ label: (J ? 'Judge ' + S.names[J] + ': trials' : 'Trials') + ' in cases closed since 2020', value: fmt.int(T.length), sub: fmt.int(jury.length) + ' jury · ' + fmt.int(bench.length) + ' bench', na: !T.length }),
       kpi({ label: 'Median filing to trial', value: wm.length ? fmt.d1(median(wm)) : '—', unit: wm.length ? ' months' : '', sub: plural(wm.length, 'trial') + ' in original and removed cases', na: !wm.length }),
       kpi({ label: 'Median trial length', value: lens.length ? fmt.med(median(lens)) : '—', unit: lens.length ? ' days' : '', sub: 'first to last trial day, ' + plural(lens.length, 'trial'), na: !lens.length }),
       kpi({ label: 'On the calendar', value: fmt.int(nowN + setN), sub: fmt.int(nowN) + ' under way · ' + fmt.int(setN) + ' set', na: !(nowN + setN) }),
@@ -1673,42 +1703,44 @@
     trialTimeline($('tr-timeline'), items, today);
     const openKey = legendItem('transparent', 'Case still open'); openKey.firstChild.style.boxShadow = 'inset 0 0 0 1.5px var(--judge)';
     $('tr-legend').replaceChildren(...legendSeries(), openKey);
-    const undated = T.filter((r) => !r.began && !r.ended).length;
-    $('tr-time-note').textContent = T.length ? `One square per trial, placed where the trial began. Filled squares are trials in cases closed through ${fmtDate(lastClosed)}, from the Federal Judicial Center's database`
-      + (undated ? `; ${fmt.int(undated)} with no trial date on file sit at the date the case closed` : '') + '. Open squares are trials on the court\'s calendar or feed since Oct. 2026 whose cases have not closed. Trials in cases closed after that date are missing until the next quarterly file, so recent months run light.' : '';
-    // Judgment for, by kind of trial
-    const segs = [[1, 'Plaintiff', 'var(--o-granted)'], [3, 'Both', 'var(--o-partial)'], [2, 'Defendant', 'var(--o-denied)'], [4, 'Not recorded', 'var(--o-other)']];
-    const jrow = (label, list) => { const n = list.length; const c = (k) => list.filter((r) => (r.judgment || 4) === k).length;
-      return el('div', { className: 'jb-row' }, el('span', { className: 'jb-l' }, label, el('small', { textContent: plural(n, 'trial') })),
-        el('div', { className: 'jb-bar' }, ...segs.filter(([k]) => c(k)).map(([k, name, color]) => { const sp = el('span', { textContent: c(k) / n >= 0.09 ? String(c(k)) : '' }); sp.style.flex = c(k) + ' 0 0'; sp.style.background = color; sp.style.color = inkOn(css(color.slice(4, -1)));
-          sp.dataset.tip = label + '\nJudgment for ' + name.toLowerCase() + ': ' + fmt.int(c(k)) + ' of ' + fmt.int(n) + ' (' + pctOf(c(k), n) + ')'; return sp; }))); };
-    $('tr-judgment').replaceChildren(...(T.length ? [jrow('Jury trials', jury), jrow('Bench trials', bench), el('div', { className: 'jlegend' }, ...segs.map(([, name, color]) => legendItem(color, name)))] : [el('p', { className: 'empty', textContent: 'Nothing on file yet.' })]));
-    $('tr-judgment-note').textContent = 'The side the clerk recorded the judgment for when the case closed, all judges together. A later ruling, appeal, or settlement can change the result.';
+    // Judgment for, by kind of trial and by type of case
+    $('tr-judgment').replaceChildren(...(T.length ? [jury.length ? judgmentRow('Jury trials', jury) : null, bench.length ? judgmentRow('Bench trials', bench) : null, judgmentLegend()] : [el('p', { className: 'empty', textContent: 'Nothing on file.' })]));
+    const byNos = d3.groups(T, (r) => nosGroup(r.nos)).sort((a, b) => (a[0] === 'Other') - (b[0] === 'Other') || b[1].length - a[1].length).slice(0, 8);
+    $('tr-jnos').replaceChildren(...(T.length ? [...byNos.map(([label, list]) => judgmentRow(label, list)), judgmentLegend()] : [el('p', { className: 'empty', textContent: 'Nothing on file.' })]));
     // Filing to trial, trial length
     const wEdges = [[0, 12], [12, 18], [18, 24], [24, 36], [36, 48], [48, 1e9]]; const wBins = ['Under 12', '12–18', '18–24', '24–36', '36–48', '48+'];
     const ws = (k) => binCount(waits.filter((r) => seriesOf(r) === k).map((r) => monthsBetween(r.filed, r.began)), wEdges);
+    $('tr-wait-n').textContent = plural(waits.length, 'trial'); $('tr-length-n').textContent = plural(dated.length, 'trial');
     stackCols($('tr-wait'), { bins: wBins, jury: ws('jury'), bench: ws('bench'), unit: 'months', label: 'Months from filing to the first day of trial' });
-    $('tr-wait-note').textContent = `From the filing date to the first day of trial, for ${plural(waits.length, 'trial')} in cases filed here or removed here. Reopened and transferred cases are left out, because the file dates them from the reopening.`;
     const lEdges = [[1, 2], [2, 3], [3, 4], [4, 5], [5, 6], [6, 11], [11, 1e9]]; const lBins = ['1', '2', '3', '4', '5', '6–10', '11+'];
     const ls = (k) => binCount(dated.filter((r) => seriesOf(r) === k).map((r) => daysBetween(r.began, r.ended) + 1), lEdges);
     stackCols($('tr-length'), { bins: lBins, jury: ls('jury'), bench: ls('bench'), unit: 'days', label: 'Calendar days from the first to the last trial day' });
-    $('tr-length-note').textContent = `Calendar days from the first trial day to the last, weekends and recesses included, for ${plural(dated.length, 'trial')} with both dates.`;
     // What was tried
     const groups = d3.rollups(T, (v) => ({ jury: v.filter((r) => seriesOf(r) === 'jury').length, bench: v.filter((r) => seriesOf(r) === 'bench').length }), (r) => nosGroup(r.nos))
       .map(([label, c]) => ({ label, ...c, n: c.jury + c.bench })).sort((a, b) => (a.label === 'Other') - (b.label === 'Other') || b.n - a.n);
     const gmax = d3.max(groups, (g) => g.n) || 1;
     $('tr-nos').replaceChildren(...(groups.length ? groups.map((g) => { const row = el('div', { className: 'hb-row' }, el('span', { className: 'sb-l', textContent: g.label }),
       el('span', { className: 'hb-track' }, ...['jury', 'bench'].filter((k) => g[k]).map((k) => { const i = el('i'); i.style.width = (g[k] / gmax) * 100 + '%'; i.style.background = SERIES[k].color; return i; })), el('span', { className: 'sb-v', textContent: fmt.int(g.n) }));
-      row.dataset.tip = g.label + '\n' + fmt.int(g.jury) + ' jury trials · ' + fmt.int(g.bench) + ' bench trials'; return row; }) : [el('p', { className: 'empty', textContent: 'Nothing on file yet.' })]));
-    $('tr-nos-note').textContent = 'Tried cases by nature of suit, grouped from the code on the civil cover sheet.';
+      row.dataset.tip = g.label + '\n' + fmt.int(g.jury) + ' jury trials · ' + fmt.int(g.bench) + ' bench trials'; return row; }) : [el('p', { className: 'empty', textContent: 'Nothing on file.' })]));
     // Awards, decisions by year
     const awards = T.map((r) => ({ ...r, best: bestAward(r) })).filter((r) => r.best);
-    const fromOps = awards.filter((r) => r.best.src === 'opinion').length;
     awardStrip($('tr-awards'), awards);
-    $('tr-awards-note').textContent = `One dot per case with an amount on file: ${fmt.int(awards.length)} of ${plural(T.length, 'trial')}. ${fmt.int(awards.length - fromOps)} come from the clerk's closing entry (in thousands, capped at $9,999,000) and ${fmt.int(fromOps)} from the largest verdict, award, or judgment a written opinion states. The rest have no amount in either source, which does not mean nothing was awarded.`;
+    $('tr-awards-n').textContent = fmt.int(awards.length) + ' of ' + plural(T.length, 'trial');
     const yrs = d3.range(2022, +today.slice(0, 4) + 1).map(String); const dy = d3.rollup(D.decisions, (v) => v.length, (d) => d.date.slice(0, 4));
     stackCols($('tr-decyears'), { bins: yrs, jury: yrs.map((y) => dy.get(y) || 0), single: 'var(--series-2)', label: 'Findings of fact and conclusions of law after a bench trial, by year decided' });
-    $('tr-decyears-note').textContent = `Written findings of fact and conclusions of law since 2022; ${today.slice(0, 4)} is to date. The decisions and the witnesses each names are listed below.`;
+  }
+  // A judge's page: the judge's trials in cases closed since 2020, with the same figures the Trials page shows.
+  function drawJudgeTrials(code, name) {
+    const T = idbAll().filter((r) => r.trial && r.judge === code); const jury = T.filter((r) => seriesOf(r) === 'jury'); const bench = T.filter((r) => seriesOf(r) === 'bench');
+    const { lens, wm } = trialFigures(T); const amounts = T.map((r) => bestAward(r)).filter(Boolean).map((b) => b.k);
+    $('j-trials-link').href = hashFor('trials', { tr: { q: '', judge: code, view: 'closed' } });
+    $('j-trials').replaceChildren(...(T.length ? [el('div', { className: 'facts two' },
+      fact('Trials', fmt.int(T.length), fmt.int(jury.length) + ' jury · ' + fmt.int(bench.length) + ' bench'),
+      fact('Median filing to trial', wm.length ? fmt.d1(median(wm)) + ' mo' : '—', plural(wm.length, 'trial')),
+      fact('Median trial length', lens.length ? fmt.med(median(lens)) + ' days' : '—', plural(lens.length, 'trial')),
+      fact('Largest award on file', amounts.length ? idbMoney(d3.max(amounts)) : '—', plural(amounts.length, 'trial') + ' with an amount')),
+      el('div', { className: 'jtr-bars' }, jury.length ? judgmentRow('Jury trials', jury) : null, bench.length ? judgmentRow('Bench trials', bench) : null, judgmentLegend())]
+      : [el('p', { className: 'empty', textContent: 'No trials on file for Judge ' + name + ' in cases closed since 2020.' })]));
   }
   function renderTrials() {
     document.title = 'Trials · EDLA Analyzer';
@@ -1763,12 +1795,7 @@
       b.setAttribute('role', 'tab'); b.setAttribute('aria-selected', String(k === view)); b.addEventListener('click', () => { state.tr.view = k; drawTrialLists(); writeHash(); }); return b; }));
     TR_VIEWS.forEach(([k]) => { $('trv-' + k).hidden = k !== view; });
     $('tr-count').textContent = view === 'closed' ? plural(X.tried.length, 'case') : view === 'feed' ? plural(R.trials.length, 'trial') : plural(R.decisions.length, 'decision') + ' · ' + plural(nw, 'witness', 'witnesses') + ' named';
-    const last = I.rows.reduce((a, r) => (r.term > a ? r.term : a), '');
-    $('tr-cap').replaceChildren(view === 'closed' ? (I.rows.length ? `Civil cases closed from ${fmtDate(I.since)} to ${fmtDate(last)} that the clerk coded as ending in a jury verdict, a directed verdict, or a court trial, from the Federal Judicial Center's public database (read ${fmtDate(I.read)}; the FJC adds closed cases each quarter). The Award column gives the amounts a written opinion states after trial, each linked to the opinion and showing its sentence on hover, and the clerk's closing entry, which usually carries no amount. `
-        : 'The Federal Judicial Center\'s database has not been read yet. ')
-      : view === 'feed' ? 'Civil trials seen on the court\'s seven-day calendar, in docket text that sets a trial date, or in the feed\'s trial entries since Oct. 2026, with counsel where CourtListener lists it. '
-        : 'Findings of fact and conclusions of law after a bench trial since 2022, with the trial date and the witnesses each opinion names, read automatically from its text. ',
-      el('a', { href: 'methodology.html#trials', textContent: 'Method' }));
+    $('tr-cap').hidden = !(view === 'closed' && !I.rows.length); $('tr-cap').textContent = 'The Federal Judicial Center\'s database has not been read yet.';
   }
 
   // ------------------------------------------------------------ page: court
@@ -2724,7 +2751,7 @@
     }
     if (which === 'trh') {
       return [['Closed', 'Case', 'Plaintiff', 'Defendant', 'Judge', 'Disposition', 'Trial date or trial-stage code', 'Trial began', 'Trial ended', 'Judgment for', 'Nature of judgment', 'Amount (thousands of dollars)', 'Demanded (thousands of dollars)', 'Nature of suit', 'Nature of suit code', 'Jury demand', 'Origin', 'Filed', 'Class action alleged', 'Amounts stated in opinions'],
-        ...idbRows().map((r) => [r.term, r.case, r.plt, r.def, S.names[r.judge] || '', IDB_KIND[r.kind] || '', r.trial ? 'yes' : 'no', r.began || '', r.ended || '', IDB_FOR[r.judgment] || '', IDB_NOJ[r.noj] || '', r.amount == null ? '' : r.amount,
+        ...idbRows().map((r) => [r.term, r.case, r.plt, r.def, S.names[r.judge] || r.jname || '', IDB_KIND[r.kind] || '', r.trial ? 'yes' : 'no', r.began || '', r.ended || '', IDB_FOR[r.judgment] || '', IDB_NOJ[r.noj] || '', r.amount == null ? '' : r.amount,
           r.demanded == null ? '' : r.demanded, r.nosText, r.nos == null ? '' : r.nos, IDB_JURY[r.jury] || '', r.origin === 1 ? 'Original' : IDB_ORIGIN[r.origin] || '', r.filed || '', r.classact ? 'yes' : '', awardText(r.case)])];
     }
     if (which === 'mg') {
@@ -3124,8 +3151,8 @@
   }
 
   async function load() {
-    const names = ['opinions', 'orders', 'judges', 'calendar', 'runs', 'outcomes', 'motions', 'judge_pages', 'feed', 'hearings', 'status', 'dockets', 'notices', 'submission_dates', 'appeals', 'case_activity', 'trade_secrets', 'trials', 'magistrates', 'magistrate_pages', 'idb_trials'];
-    const OPTIONAL = { idb_trials: { rows: [] }, magistrates: {}, magistrate_pages: { judges: [] }, trials: { trials: [], decisions: [] }, outcomes: [], motions: [], feed: [], hearings: [], dockets: [], judge_pages: { judges: [] }, status: {}, notices: {}, submission_dates: {}, appeals: {}, case_activity: {}, trade_secrets: { cases: [] } };
+    const names = ['opinions', 'orders', 'judges', 'calendar', 'runs', 'outcomes', 'motions', 'judge_pages', 'feed', 'hearings', 'status', 'dockets', 'notices', 'submission_dates', 'appeals', 'case_activity', 'trade_secrets', 'trials', 'magistrates', 'magistrate_pages', 'idb_trials', 'trial_judges'];
+    const OPTIONAL = { trial_judges: { judges: {} }, idb_trials: { rows: [] }, magistrates: {}, magistrate_pages: { judges: [] }, trials: { trials: [], decisions: [] }, outcomes: [], motions: [], feed: [], hearings: [], dockets: [], judge_pages: { judges: [] }, status: {}, notices: {}, submission_dates: {}, appeals: {}, case_activity: {}, trade_secrets: { cases: [] } };
     $('status').textContent = 'Loading the docket data…';
     try {
       const files = await Promise.all(names.map((n) => fetch('data/' + n + '.json', { cache: 'no-cache' })
@@ -3178,7 +3205,7 @@
   $('op-outcome').addEventListener('change', (e) => refind({ oc: e.target.value }));
   $('op-pdf').addEventListener('change', (e) => refind({ pdf: e.target.checked }));
   $('op-more').addEventListener('click', () => { state.limit += 200; renderOpinions(); });
-  const retrials = (patch) => { Object.assign(state.tr, patch); if (state.stats) { drawTrialLists(); writeHash(); } };
+  const retrials = (patch) => { Object.assign(state.tr, patch); if (state.stats) { if ('judge' in patch) renderTrials(); else drawTrialLists(); writeHash(); } };
   $('tr-csv').addEventListener('click', () => downloadCsv(state.tr.view === 'closed' ? 'trh' : 'tr'));
   $('tr-judge').addEventListener('change', (e) => retrials({ judge: e.target.value }));
   $('tr-q').addEventListener('input', (e) => retrials({ q: e.target.value }));

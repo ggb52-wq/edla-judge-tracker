@@ -303,6 +303,16 @@ a.kpi:hover { background: var(--raise); }
 .hb-row { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr) 30px; gap: 10px; align-items: center; padding: 4px; font-size: 12.5px; }
 .hb-track { display: flex; gap: 2px; height: 10px; }
 .hb-track i { min-width: 2px; border-radius: 2px; }
+.vgrid .span2 { grid-row: span 2; }
+a.hb-row { color: var(--ink); text-decoration: none; border-radius: 2px; }
+a.hb-row:hover { background: var(--hover); }
+.hb-row.on { background: var(--amber-soft); box-shadow: inset 2px 0 0 var(--amber); }
+.hb-row.dim .sb-l { color: var(--ink-3); }
+#tr-byjudge .jlegend { margin-bottom: 8px; }
+#tr-byjudge .hb-row { padding: 6px 4px; }
+.facts.two { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.jtr-bars { margin-top: 14px; }
+@media (max-width: 720px) { .vgrid .span2 { grid-row: auto; } }
 .rtabs .tabn { margin-left: 7px; font: 10.5px var(--mono); color: var(--ink-3); }
 .filters.pad { padding: 12px 14px 0; }
 #tr-cap { padding: 10px 14px 12px; max-width: 110ch; }
