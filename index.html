@@ -26,7 +26,6 @@
       <a href="#motions" data-nav="motions">Motions</a>
       <a href="#trials" data-nav="trials">Trials</a>
       <a href="#magistrates" data-nav="magistrates">Magistrates</a>
-      <a href="#court" data-nav="court">Court</a>
     </nav>
     <div class="omni" id="omni-top">
       <svg class="omni-icon" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m10.4 10.4 3.6 3.6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
@@ -46,6 +45,17 @@
 
   <!-- ============================================================ Judges (home) -->
   <section class="page" id="page-judges" aria-labelledby="h-cards">
+    <section class="panel hero" aria-labelledby="h-hero">
+      <div class="hero-head">
+        <div class="hero-title">
+          <h2 id="h-hero">Civil orders per working day</h2>
+          <p id="hero-sub"></p>
+        </div>
+        <div class="hero-fig"><b id="hero-num"></b><span id="hero-num-l"></span></div>
+        <div class="jlegend" id="hero-legend"></div>
+      </div>
+      <div class="chart" id="hero-chart"></div>
+    </section>
     <div class="home">
       <div class="home-main">
         <section class="panel" id="home-cases" aria-labelledby="h-home-cases" hidden>
@@ -71,6 +81,63 @@
         </section>
       </aside>
     </div>
+    <section class="allj" id="home-court" aria-labelledby="h-court">
+      <div class="jbar">
+        <h2 class="h1like" id="h-court">All judges</h2>
+        <button type="button" class="btn" id="court-csv">Export CSV</button>
+      </div>
+      <nav class="subnav" id="court-nav" aria-label="Tables for all judges"></nav>
+
+    <div class="cview" data-view="orders">
+      <section class="panel">
+        <div class="ph"><h2>Civil orders</h2><span class="count" data-since="orders"></span></div>
+        <div class="scroll"><table class="t" id="t-orders"></table></div>
+      </section>
+    </div>
+
+    <div class="cview" data-view="opinions">
+      <section class="panel">
+        <div class="ph"><h2>Written opinions</h2><span class="count" data-since="opinions"></span></div>
+        <div class="scroll"><table class="t" id="t-opinions"></table></div>
+      </section>
+      <section class="panel">
+        <div class="ph"><h2>Written opinions by month, all judges</h2><div class="legend" data-legend="types"></div></div>
+        <div class="pb"><div class="chart" id="c-court-monthly"></div></div>
+      </section>
+    </div>
+
+    <div class="cview" data-view="outcomes">
+      <section class="panel">
+        <div class="ph"><h2>Motion outcomes</h2>
+          <div class="seg" id="oc-seg" role="group" aria-label="Motion type"><button type="button" data-g="r12">Rule 12</button><button type="button" data-g="r56">Rule 56</button><button type="button" data-g="all">All motions</button></div>
+          <div class="legend" data-legend="outcomes"></div></div>
+        <div class="pb tight"><p class="cap" id="oc-cap"></p></div>
+        <div class="scroll"><table class="t oc" id="t-outcomes"></table></div>
+      </section>
+    </div>
+
+    <div class="cview" data-view="pending">
+      <section class="panel">
+        <div class="ph"><h2>Pending matters each judge reported</h2><span class="count" id="cjra-asof"></span><a class="more-link" href="methodology.html#cjra">Method</a></div>
+        <div class="scroll"><table class="t" id="t-cjra"></table></div>
+      </section>
+    </div>
+
+    <div class="cview" data-view="weekdays">
+      <section class="panel">
+        <div class="ph"><h2>Share of each judge's orders by weekday</h2><span class="count" id="dow-days"></span></div>
+        <div class="scroll"><table class="t" id="t-dow"></table></div>
+      </section>
+    </div>
+
+    <div class="cview" data-view="hours">
+      <section class="panel">
+        <div class="ph"><h2>Time of day orders are entered (Central)</h2>
+          <label class="inline">Compare with<select id="hours-judge" aria-label="Judge to compare"></select></label></div>
+        <div class="pb"><p class="cap" id="hours-cap"></p><div class="legend" id="hours-legend"></div><div class="chart" id="c-hours"></div></div>
+      </section>
+    </div>
+    </section>
   </section>
 
   <!-- ============================================================ Judge -->
@@ -638,70 +705,6 @@
   </section>
 
   <!-- ============================================================ Requirements -->
-  <section class="page" id="page-court" aria-labelledby="h-court" hidden>
-    <div class="jhead">
-      <div>
-        <h1 id="h-court">All judges</h1>
-        <p class="sub">Figures for all 16 judges.</p>
-      </div>
-      <div class="actions"><button type="button" class="btn" id="court-csv">Export CSV</button></div>
-    </div>
-    <nav class="subnav" id="court-nav" aria-label="Court views"></nav>
-
-    <div class="cview" data-view="orders">
-      <section class="panel">
-        <div class="ph"><h2>Civil orders</h2><span class="count" data-since="orders"></span></div>
-        <div class="scroll"><table class="t" id="t-orders"></table></div>
-      </section>
-      <section class="panel">
-        <div class="ph"><h2>Orders per working day, all judges, by week</h2></div>
-        <div class="pb"><div class="chart" id="c-court-weekly"></div></div>
-      </section>
-    </div>
-
-    <div class="cview" data-view="opinions">
-      <section class="panel">
-        <div class="ph"><h2>Written opinions</h2><span class="count" data-since="opinions"></span></div>
-        <div class="scroll"><table class="t" id="t-opinions"></table></div>
-      </section>
-      <section class="panel">
-        <div class="ph"><h2>Written opinions by month, all judges</h2><div class="legend" data-legend="types"></div></div>
-        <div class="pb"><div class="chart" id="c-court-monthly"></div></div>
-      </section>
-    </div>
-
-    <div class="cview" data-view="outcomes">
-      <section class="panel">
-        <div class="ph"><h2>Motion outcomes</h2>
-          <div class="seg" id="oc-seg" role="group" aria-label="Motion type"><button type="button" data-g="r12">Rule 12</button><button type="button" data-g="r56">Rule 56</button><button type="button" data-g="all">All motions</button></div>
-          <div class="legend" data-legend="outcomes"></div></div>
-        <div class="pb tight"><p class="cap" id="oc-cap"></p></div>
-        <div class="scroll"><table class="t oc" id="t-outcomes"></table></div>
-      </section>
-    </div>
-
-    <div class="cview" data-view="pending">
-      <section class="panel">
-        <div class="ph"><h2>Pending matters each judge reported</h2><span class="count" id="cjra-asof"></span><a class="more-link" href="methodology.html#cjra">Method</a></div>
-        <div class="scroll"><table class="t" id="t-cjra"></table></div>
-      </section>
-    </div>
-
-    <div class="cview" data-view="weekdays">
-      <section class="panel">
-        <div class="ph"><h2>Share of each judge's orders by weekday</h2><span class="count" id="dow-days"></span></div>
-        <div class="scroll"><table class="t" id="t-dow"></table></div>
-      </section>
-    </div>
-
-    <div class="cview" data-view="hours">
-      <section class="panel">
-        <div class="ph"><h2>Time of day orders are entered (Central)</h2>
-          <label class="inline">Compare with<select id="hours-judge" aria-label="Judge to compare"></select></label></div>
-        <div class="pb"><p class="cap" id="hours-cap"></p><div class="legend" id="hours-legend"></div><div class="chart" id="c-hours"></div></div>
-      </section>
-    </div>
-  </section>
 
   <!-- ============================================================ Log -->
   <section class="page" id="page-log" aria-labelledby="h-log" hidden>

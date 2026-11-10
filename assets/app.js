@@ -80,12 +80,13 @@
   const recordLink = (o) => REPO + '/issues/new?template=outcome.yml&title=' + encodeURIComponent('Outcome: ' + o.case + ' doc ' + o.doc)
     + '&case=' + encodeURIComponent(o.case) + '&doc=' + encodeURIComponent(o.doc);
 
-  const PAGES = ['judges', 'judge', 'compare', 'cases', 'case', 'notices', 'activity', 'calendar', 'opinions', 'motions', 'trials', 'magistrates', 'magistrate', 'court', 'log'];
-  const NAV = { judges: 'judges', judge: 'judges', compare: 'judges', cases: 'cases', case: 'cases', notices: '', activity: 'activity', calendar: 'calendar', opinions: 'opinions', motions: 'motions', trials: 'trials', magistrates: 'magistrates', magistrate: 'magistrates', court: 'court', log: '' };
+  const PAGES = ['judges', 'judge', 'compare', 'cases', 'case', 'notices', 'activity', 'calendar', 'opinions', 'motions', 'trials', 'magistrates', 'magistrate', 'log'];
+  const NAV = { judges: 'judges', judge: 'judges', compare: 'judges', cases: 'cases', case: 'cases', notices: '', activity: 'activity', calendar: 'calendar', opinions: 'opinions', motions: 'motions', trials: 'trials', magistrates: 'magistrates', magistrate: 'magistrates', log: '' };
   const VIEWS = [['orders', 'Civil orders'], ['opinions', 'Written opinions'], ['outcomes', 'Motion outcomes'], ['pending', 'Pending matters'], ['weekdays', 'Weekdays'], ['hours', 'Time of day']];
   // Addresses from the earlier, tabbed layout still open the matching page.
   // The Requirements and Trade secrets pages were removed Nov. 6, 2026; their addresses open Home.
-  const LEGACY = { overview: ['judges'], rules: ['judges'], tradesecrets: ['judges'], orders: ['court', 'orders'], outcomes: ['court', 'outcomes'], finder: ['opinions'] };
+  // The Court page's tables moved to the bottom of Home on Nov. 10, 2026: #court/outcomes opens Home at that table.
+  const LEGACY = { overview: ['judges'], rules: ['judges'], tradesecrets: ['judges'], court: ['judges', 'orders'], orders: ['judges', 'orders'], outcomes: ['judges', 'outcomes'], finder: ['opinions'] };
   const emptyFinder = () => ({ q: '', judge: '', type: '', oc: '', pdf: false, month: '' });
   const state = { page: 'judges', judge: '', cmp: [], vs: [], view: 'orders', period: '', f: emptyFinder(), limit: 100,
     mt: { view: 'past', q: '', judge: '', limit: 100 }, jf: { q: '', type: '', judge: '' }, ocGroup: 'r12', hoursJudge: '', sorts: {},
@@ -325,7 +326,7 @@
     const p = new URLSearchParams(query || '');
     let decoded = path || ''; try { decoded = decodeURIComponent(decoded); } catch (e) { /* a stray % in a typed address: read it as is */ }
     let parts = decoded.split('/').filter(Boolean);
-    if (Object.hasOwn(LEGACY, parts[0] || '')) parts = LEGACY[parts[0]].concat(parts.slice(1));
+    if (Object.hasOwn(LEGACY, parts[0] || '')) parts = parts[0] === 'court' && parts[1] ? ['judges', parts[1]] : LEGACY[parts[0]].concat(parts.slice(1));
     let page = PAGES.includes(parts[0]) ? parts[0] : 'judges';
     if (page === 'judges' && p.get('judge')) { page = 'judge'; parts = ['judge', p.get('judge')]; }
     if (p.has('vs')) state.vs = p.get('vs').split(',').map(judgeCode).filter(Boolean).slice(0, 3);
@@ -343,7 +344,7 @@
     if (page === 'activity') state.act = { q: p.get('q') || '', judge: judgeCode(p.get('judge')), kind: ACT_KINDS.some(([k]) => k === p.get('kind')) ? p.get('kind') : '',
       days: ['1', '3', '7', '14'].includes(p.get('days')) ? p.get('days') : '7', limit: 300 };
     if (page === 'compare') state.cmp = [...new Set((parts[1] || '').split(',').map(judgeCode).filter(Boolean))].slice(0, 4);
-    if (page === 'court') state.view = VIEWS.some(([k]) => k === parts[1]) ? parts[1] : 'orders';
+    if (page === 'judges' && VIEWS.some(([k]) => k === parts[1])) { state.view = parts[1]; state.homeJump = true; }   // an address that names a table opens Home at the tables
     if (page === 'opinions') {
       const f = emptyFinder(); f.q = p.get('q') || ''; f.judge = judgeCode(p.get('judge')); f.type = Object.hasOwn(typeLabel, p.get('type') || '') && p.get('type') !== '|' ? p.get('type') : '';
       f.oc = p.get('oc') || ''; f.pdf = p.get('pdf') === '1'; f.month = /^\d{4}-\d{2}$/.test(p.get('month') || '') ? p.get('month') : '';
@@ -361,14 +362,14 @@
     if (page === 'calendar' && o.cal) { const c = o.cal; if (c.week) p.set('week', c.week); if (c.judge) p.set('judge', c.judge); if (c.view) p.set('view', c.view); if (c.subs) p.set('subs', '1'); }
     if (page === 'activity' && o.act) { const a = o.act; if (a.q) p.set('q', a.q); if (a.judge) p.set('judge', a.judge); if (a.kind) p.set('kind', a.kind); if (a.days && a.days !== '7') p.set('days', a.days); }
     if (page === 'compare' && o.cmp && o.cmp.length) path += '/' + o.cmp.join(',');
-    if (page === 'court') path += '/' + (o.view || 'orders');
+    if (page === 'judges' && o.view) path += '/' + o.view;
     if (page === 'opinions' && o.f) { const f = o.f; if (f.q) p.set('q', f.q); if (f.judge) p.set('judge', f.judge); if (f.type) p.set('type', f.type); if (f.oc) p.set('oc', f.oc); if (f.pdf) p.set('pdf', '1'); if (f.month) p.set('month', f.month); }
     if (page === 'trials' && o.tr) { if (o.tr.q) p.set('q', o.tr.q); if (o.tr.judge) p.set('judge', o.tr.judge); if (o.tr.view && o.tr.view !== 'closed') p.set('view', o.tr.view); }
     if (page === 'motions' && o.mt) { if (o.mt.judge) p.set('judge', o.mt.judge); if (o.mt.view && o.mt.view !== 'past') p.set('view', o.mt.view); }
     if (state.period) p.set('period', state.period);
     return '#' + path + (p.toString() ? '?' + p : '');
   }
-  const currentHash = () => hashFor(state.page, { caseId: state.caseId, mag: state.mag, judge: state.judge, cmp: state.cmp, view: state.view, f: state.f, mt: state.mt, act: state.act, cal: state.cal, tr: state.tr,
+  const currentHash = () => hashFor(state.page, { caseId: state.caseId, mag: state.mag, judge: state.judge, cmp: state.cmp, view: state.view === 'orders' ? '' : state.view, f: state.f, mt: state.mt, act: state.act, cal: state.cal, tr: state.tr,
     tab: state.page === 'judge' && (state.pages[state.judge] || { sections: [] }).sections.some((x) => slug(x.title) === state.rtab) ? state.rtab : '' });
   const slug = (t) => String(t).toLowerCase().replace(/&/g, 'and').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
   const judgeHref = (code) => hashFor('judge', { judge: code });
@@ -633,12 +634,72 @@
     $('court-kpis').replaceChildren(
       kpi({ label: 'Written opinions', value: fmt.int(T.opinions), sub: 'since ' + fmtDate(S.since.opinions), href: findHref({}) }),
       kpi({ label: 'Merits rulings', value: fmt.int(T.merits), sub: 'Rule 12, Rule 56, and trial', href: findHref({ type: 'merits' }) }),
-      kpi({ label: 'Civil orders', value: fmt.int(T.orders), sub: 'since ' + fmtDate(S.since.orders), href: hashFor('court', { view: 'orders' }) }),
+      kpi({ label: 'Civil orders', value: fmt.int(T.orders), sub: 'since ' + fmtDate(S.since.orders), href: hashFor('judges', { view: 'orders' }) }),
       kpi({ label: 'Data through', value: fmtShort(S.through), sub: (S.opThrough < S.through ? 'opinions ' + fmtShort(S.opThrough) + ' · ' : '') + lastRunText(), href: '#log' }),
     );
     drawHomeCases(); drawHomeNotices();
     $('home-act').replaceChildren(...actItems(activity().rows.slice(0, 10), { judge: true }));
     drawJudgeCards();
+    drawHero();
+    drawCourt();
+  }
+  // The chart at the top of Home: civil orders per working day, a trailing five-working-day average. The bold line is
+  // the average judge; behind it, faintly, one line per judge. The judge nearest the pointer lights up and opens on click.
+  function drawHero() {
+    const S = state.stats; const D = state.data; const H = holidays(); const judges = judgesAlpha();
+    const days = []; for (let d = S.since.orders; d <= S.through; d = addDays(d, 1)) if (isWorkday(d, H)) days.push(d);
+    const win = Math.max(1, Math.min(5, Math.floor(days.length / 4)));
+    const bench = Object.fromEntries(D.judges.map((j) => [j.code, j.bench_start || '']));
+    const at = new Map(days.map((d, i) => [d, i])); const counts = Object.fromEntries(judges.map((j) => [j.code, new Array(days.length).fill(0)]));
+    D.orders.forEach((o) => { const i = at.get(o.date); if (i != null && counts[o.judge] && o.date >= bench[o.judge]) counts[o.judge][i] += 1; });
+    const roll = (a, code) => a.map((_, i) => { if (i < win - 1 || days[i - win + 1] < bench[code]) return null; let t = 0; for (let k = i - win + 1; k <= i; k += 1) t += a[k]; return t / win; });
+    const series = judges.map((j) => ({ code: j.code, name: j.name, v: roll(counts[j.code], j.code) }));
+    const avg = days.map((_, i) => { const v = series.map((q) => q.v[i]).filter((x) => x != null); return v.length ? d3.mean(v) : null; });
+    const mean = d3.mean(S.orders, (r) => r.per_day) || 0;
+    $('hero-num').textContent = fmt.d1(mean); $('hero-num-l').textContent = 'a day, average judge';
+    $('hero-sub').textContent = `${fmt.int(S.totals.orders)} orders by ${judges.length} judges since ${fmtDate(S.since.orders)} · ${win > 1 ? win + '-day average' : 'by day'}`;
+    $('hero-legend').replaceChildren(legendItem('var(--judge)', 'Average judge', 'line'), legendItem('var(--ink-3)', 'Each judge', 'line'));
+    const box = $('hero-chart'); const first = win - 1;
+    if (days.length - first < 3) { emptyChart(box, 200, 'Not enough working days in this period'); return; }
+    const W0 = Math.max(300, Math.floor(box.clientWidth || 900)); const Hh = W0 < 620 ? 220 : 320; const m = { t: 18, r: W0 < 620 ? 14 : 118, b: 28, l: 34 };
+    const { svg, W } = frame(box, Hh, 'Civil orders per working day since ' + fmtDate(S.since.orders) + ': the average judge and each of ' + judges.length + ' judges');
+    const x = d3.scaleLinear([first, days.length - 1], [m.l, W - m.r]);
+    const y = d3.scaleLinear([0, (d3.max(series, (q) => d3.max(q.v)) || 1) * 1.04], [Hh - m.b, m.t]).nice(5);
+    const grad = svg.append('defs').append('linearGradient').attr('id', 'hero-grad').attr('x1', 0).attr('x2', 0).attr('y1', 0).attr('y2', 1);
+    grad.append('stop').attr('offset', '0%').style('stop-color', 'var(--judge)').attr('stop-opacity', 0.32);
+    grad.append('stop').attr('offset', '100%').style('stop-color', 'var(--judge)').attr('stop-opacity', 0);
+    svg.append('g').attr('transform', `translate(${m.l},0)`).call(d3.axisLeft(y).ticks(5).tickSize(-(W - m.l - m.r)).tickPadding(8).tickFormat(d3.format('~g'))).call(axisStyle);
+    const mondays = days.map((d, i) => ({ d, i })).filter((q) => q.i >= first && (q.i === 0 || utc(q.d).getUTCDay() < utc(days[q.i - 1]).getUTCDay()));
+    const every = Math.max(1, Math.ceil(mondays.length / Math.max(2, Math.floor((W - m.l - m.r) / 84))));
+    mondays.filter((_, k) => k % every === 0).forEach((q) => { svg.append('text').attr('x', x(q.i)).attr('y', Hh - 8).attr('text-anchor', 'middle').text(fmtShort(q.d)); });
+    const line = d3.line().defined((v) => v != null).x((_, i) => x(i)).y((v) => y(v)).curve(d3.curveMonotoneX);
+    const area = d3.area().defined((v) => v != null).x((_, i) => x(i)).y0(y(0)).y1((v) => y(v)).curve(d3.curveMonotoneX);
+    svg.append('path').attr('class', 'hero-area').attr('d', area(avg)).attr('fill', 'url(#hero-grad)');
+    const jg = svg.append('g').attr('class', 'hero-judges');
+    const paths = new Map(series.map((q) => [q.code, jg.append('path').attr('class', 'hero-j').attr('d', line(q.v))]));
+    svg.append('path').attr('class', 'hero-avg').attr('d', line(avg));
+    const lastI = days.length - 1; const endY = y(avg[lastI]);
+    svg.append('circle').attr('class', 'hero-end').attr('cx', x(lastI)).attr('cy', endY).attr('r', 4.5);
+    const wide = m.r > 60;
+    if (wide) { svg.append('text').attr('class', 'hero-lbl').attr('x', x(lastI) + 12).attr('y', endY - 2).text('Average judge'); svg.append('text').attr('class', 'hero-val').attr('x', x(lastI) + 12).attr('y', endY + 13).text(fmt.d1(avg[lastI]) + ' a day'); }
+    const rule = svg.append('line').attr('class', 'hero-rule').attr('y1', m.t).attr('y2', Hh - m.b).attr('opacity', 0);
+    const dot = svg.append('circle').attr('class', 'hero-dot').attr('r', 4).attr('opacity', 0);
+    const tag = svg.append('text').attr('class', 'hero-tag').attr('opacity', 0);
+    let cur = '';
+    const clear = () => { cur = ''; jg.classed('has-on', false); paths.forEach((pth) => pth.classed('on', false)); rule.attr('opacity', 0); dot.attr('opacity', 0); tag.attr('opacity', 0); tipHide(); };
+    svg.append('rect').attr('x', m.l).attr('y', m.t).attr('width', W - m.l - m.r).attr('height', Hh - m.t - m.b).attr('fill', 'transparent').style('cursor', 'pointer')
+      .on('pointermove', (e) => {
+        const [px, py] = d3.pointer(e); const i = Math.max(first, Math.min(lastI, Math.round(x.invert(px))));
+        const near = series.filter((q) => q.v[i] != null).reduce((b, q) => (!b || Math.abs(y(q.v[i]) - py) < Math.abs(y(b.v[i]) - py) ? q : b), null);
+        if (!near) return;
+        if (near.code !== cur) { cur = near.code; jg.classed('has-on', true); paths.forEach((pth, code) => pth.classed('on', code === cur)); paths.get(cur).raise(); }
+        rule.attr('x1', x(i)).attr('x2', x(i)).attr('opacity', 1); dot.attr('cx', x(i)).attr('cy', y(near.v[i])).attr('opacity', 1);
+        const right = x(i) < W - m.r - 110;
+        tag.attr('x', x(i) + (right ? 9 : -9)).attr('y', y(near.v[i]) - 9).attr('text-anchor', right ? 'start' : 'end').attr('opacity', 1).text('Judge ' + near.name);
+        tipShow([(win > 1 ? win + ' working days to ' : '') + fmtDate(days[i]), { color: 'var(--judge)', value: fmt.d1(avg[i]), label: 'average judge' }, { color: 'var(--ink)', value: fmt.d1(near.v[i]), label: 'Judge ' + near.name }, 'Click to open Judge ' + near.name], e.clientX, e.clientY);
+      })
+      .on('pointerleave', clear)
+      .on('click', () => { if (cur) location.hash = judgeHref(cur); });
   }
   // One card per judge: name and section, written opinions by month for the last 12 months (merits rulings and the
   // rest), three figures, and the latest opinion. Every chart shares one scale, so a bar's height means the same count
@@ -768,7 +829,7 @@
         stripEl: strip(vals(S.opinions, (r) => r.per_week), op.per_week, fmt.d2, 'Written opinions per week, excluding magistrate R&Rs') }),
       kpi({ label: 'Merits rulings', value: fmt.int(op.merits), sub: [el('b', { textContent: fmt.d2(op.merits_month) }), ' a month · median judge ' + fmt.d2(T.medMerits)], href: findHref({ judge: code, type: 'merits' }),
         stripEl: strip(vals(S.opinions, (r) => r.merits_month), op.merits_month, fmt.d2, 'Rule 12, Rule 56, and trial rulings per 21 working days') }),
-      kpi({ label: 'Orders per working day', value: fmt.d1(or.per_day), sub: fmt.int(or.orders) + ' civil orders · median judge ' + fmt.d1(T.medPerDay), href: hashFor('court', { view: 'orders' }),
+      kpi({ label: 'Orders per working day', value: fmt.d1(or.per_day), sub: fmt.int(or.orders) + ' civil orders · median judge ' + fmt.d1(T.medPerDay), href: hashFor('judges', { view: 'orders' }),
         stripEl: strip(vals(S.orders, (r) => r.per_day), or.per_day, fmt.d1, 'Civil orders per working day') }),
       kpi({ label: 'Orders flagged as opinions', value: fmt.pct0(or.written_share), sub: 'of civil orders · median judge ' + fmt.pct0(T.medWrittenShare),
         stripEl: strip(vals(S.orders, (r) => r.written_share), or.written_share, fmt.pct0, 'Share of civil orders flagged for the Written Opinions Report') }),
@@ -1915,15 +1976,15 @@
     { k: 'med_past', label: 'Median days past', f: (v) => (v ? fmt.med(v) : '—'), num: true, title: 'Median days since the submission date, for motions past it' },
   ] };
 
-  function renderCourt() {
+  // The tables for all judges, at the bottom of Home (the Court page until Nov. 10, 2026).
+  function drawCourt() {
     const S = state.stats; const v = state.view;
-    document.title = 'All judges · EDLA Analyzer';
-    $('court-nav').replaceChildren(...VIEWS.map(([k, label]) => { const a = el('a', { href: hashFor('court', { view: k }), textContent: label }); if (k === v) a.setAttribute('aria-current', 'page'); return a; }));
+    $('court-nav').replaceChildren(...VIEWS.map(([k, label]) => { const a = el('a', { href: hashFor('judges', { view: k }), textContent: label }); if (k === v) a.setAttribute('aria-current', 'page');
+      a.addEventListener('click', (e) => { e.preventDefault(); state.view = k; drawCourt(); writeHash(); }); return a; }));
     document.querySelectorAll('.cview').forEach((n) => { n.hidden = n.dataset.view !== v; });
     const blue = 'var(--judge)'; const gray = 'var(--court)';
     if (v === 'orders') {
       drawTable('t-orders');
-      lineChart($('c-court-weekly'), { rows: S.weekly, fmtY: fmt.d1, H: 220, label: 'Civil orders per working day, all judges combined, by week', series: [{ label: 'All judges', color: blue, get: (r) => r.all }] });
     } else if (v === 'opinions') {
       drawTable('t-opinions');
       monthColumns($('c-court-monthly'), { rows: S.monthly, H: 220, label: 'Written opinions by month, all judges',
@@ -3191,7 +3252,7 @@
   }
 
   // ------------------------------------------------------------ render
-  const RENDER = { judges: renderJudges, judge: renderJudge, compare: renderCompare, cases: renderCases, case: renderCase, notices: renderNotices, activity: renderActivity, calendar: renderCalendar, opinions: renderOpinions, motions: renderMotions, trials: renderTrials, magistrates: renderMagistrates, magistrate: renderMagistrate, court: renderCourt, log: renderLog };
+  const RENDER = { judges: renderJudges, judge: renderJudge, compare: renderCompare, cases: renderCases, case: renderCase, notices: renderNotices, activity: renderActivity, calendar: renderCalendar, opinions: renderOpinions, motions: renderMotions, trials: renderTrials, magistrates: renderMagistrates, magistrate: renderMagistrate, log: renderLog };
   function render() {
     const S = state.stats;
     if (state.page === 'judge' && !S.names[state.judge]) state.page = 'judges';
@@ -3200,7 +3261,7 @@
     if (state.page !== 'case' || (state.caseSeen && state.caseSeen.id !== state.caseId)) { state.caseSeen = null; state.caseAll = false; state.caseAllDecided = false; }
     PAGES.forEach((p) => { $('page-' + p).hidden = p !== state.page; });
     document.querySelectorAll('[data-nav]').forEach((a) => {
-      const k = a.dataset.nav; a.href = hashFor(k, { f: emptyFinder(), mt: { view: 'past' }, view: 'orders' });
+      const k = a.dataset.nav; a.href = hashFor(k, { f: emptyFinder(), mt: { view: 'past' } });
       if (NAV[state.page] === k) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current');
     });
     document.querySelectorAll('.period button').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.period === state.period)));
@@ -3213,9 +3274,10 @@
   function update() {
     if (!state.data) return;
     if (state.period !== lastPeriod) { state.stats = compute(state.data, state.period); lastPeriod = state.period; }
-    const pageKey = state.page + '/' + state.judge + '/' + state.view + '/' + (state.page === 'case' ? state.caseId : state.page === 'magistrate' ? state.mag : '');
+    const pageKey = state.page + '/' + state.judge + '/' + (state.page === 'case' ? state.caseId : state.page === 'magistrate' ? state.mag : '');
     render();
     if (pageKey !== lastPage) { if (lastPage) window.scrollTo({ top: 0 }); lastPage = pageKey; }
+    if (state.homeJump) { state.homeJump = false; if (state.page === 'judges') $('home-court').scrollIntoView(); }
   }
 
   async function load() {
@@ -3282,7 +3344,7 @@
   $('mt-judge').addEventListener('change', (e) => remotion({ judge: e.target.value }));
   $('mt-q').addEventListener('input', (e) => remotion({ q: e.target.value }));
   $('mt-more').addEventListener('click', () => { state.mt.limit += 200; renderMotions(); });
-  document.querySelectorAll('#oc-seg button').forEach((b) => b.addEventListener('click', () => { state.ocGroup = b.dataset.g; renderCourt(); }));
+  document.querySelectorAll('#oc-seg button').forEach((b) => b.addEventListener('click', () => { state.ocGroup = b.dataset.g; drawCourt(); }));
   const recal = (patch) => { Object.assign(state.cal, patch); if (state.stats) { renderCalendar(); writeHash(); } };
   $('cal-judge').addEventListener('change', (e) => recal({ judge: e.target.value }));
   $('cal-subs').addEventListener('change', (e) => recal({ subs: e.target.checked }));

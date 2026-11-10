@@ -217,6 +217,31 @@ a.kpi:hover { background: var(--raise); }
 .jtitle .code { font-size: 12px; padding: 4px 6px 3px; }
 
 /* ---------------------------------------------------------------- judge cards */
+.hero { padding: 18px 20px 12px; border-radius: 10px; background: linear-gradient(180deg, color-mix(in srgb, var(--judge) 7%, var(--panel)), var(--panel) 62%); margin-bottom: 18px; }
+.hero-head { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 10px 28px; margin-bottom: 10px; }
+.hero-title { flex: 1 1 280px; min-width: 0; }
+.hero-title h2 { margin: 0; font: 600 22px/1.2 var(--font); letter-spacing: -.015em; }
+.hero-title p { margin-top: 5px; font-size: 13px; color: var(--ink-2); }
+.hero-fig { display: flex; align-items: baseline; gap: 8px; }
+.hero-fig b { font: 600 40px/1 var(--font); letter-spacing: -.03em; }
+.hero-fig span { font-size: 12.5px; color: var(--ink-2); }
+.hero .jlegend { padding-bottom: 6px; }
+.hero .hero-j { fill: none; stroke: var(--ink-3); stroke-width: 1.25; stroke-linejoin: round; opacity: .38; transition: opacity .12s ease; }
+.hero .hero-judges.has-on .hero-j { opacity: .16; }
+.hero .hero-judges .hero-j.on { stroke: var(--ink); stroke-width: 2; opacity: 1; }
+.hero .hero-avg { fill: none; stroke: var(--judge); stroke-width: 3; stroke-linejoin: round; stroke-linecap: round; }
+.hero .hero-end { fill: var(--judge); stroke: var(--panel); stroke-width: 2; }
+.hero .hero-dot { fill: var(--ink); stroke: var(--panel); stroke-width: 2; pointer-events: none; }
+.hero .hero-rule { stroke: var(--line-2); pointer-events: none; }
+.hero .chart text.hero-lbl { fill: var(--ink); font: 600 12px var(--font); }
+.hero .chart text.hero-val { fill: var(--ink-2); font: 11.5px var(--mono); }
+.hero .chart text.hero-tag { fill: var(--ink); font: 600 12px var(--font); paint-order: stroke; stroke: var(--panel); stroke-width: 4px; pointer-events: none; }
+.jlegend i.line { width: 16px; height: 3px; border-radius: 2px; }
+.allj { margin-top: 26px; display: flex; flex-direction: column; gap: 12px; }
+.allj .h1like { margin: 0; font: 600 22px/1.2 var(--font); letter-spacing: -.015em; }
+.allj .cview { display: flex; flex-direction: column; gap: 12px; }
+.allj .cview[hidden] { display: none; }
+@media (max-width: 720px) { .hero { padding: 14px 14px 8px; } .hero-fig b { font-size: 32px; } }
 .home { display: grid; grid-template-columns: minmax(0, 1fr) 340px; gap: 18px; align-items: start; }
 .home-main, .home-side { display: flex; flex-direction: column; gap: 12px; min-width: 0; }
 .kpis.two { grid-template-columns: repeat(2, minmax(0, 1fr)); }
