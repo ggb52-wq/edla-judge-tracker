@@ -1493,6 +1493,32 @@
   const IDB_TOP = 9999;  // the IDB's ceiling: amounts are in thousands of dollars, and 9999 stands for $9,999,000 or more
   const idbMoney = (k) => (k >= IDB_TOP ? '$9,999,000 or more' : '$' + fmt.int(k * 1000));
   const idbAward = (r) => (r.amount ? idbMoney(r.amount) + (r.noj === 2 ? ' and other relief' : '') : r.noj != null ? IDB_NOJ[r.noj] || '—' : '—');
+  // Amounts the court's own opinions state after trial (data/trials.json `awards`), read by pattern from the opinion text:
+  // the clerk's closing entry usually carries none. Each amount keeps the sentence it came from and links to the opinion.
+  const AWARD_KIND = { verdict: 'Jury awarded', judgment: 'Judgment', court: 'Court awarded', remitted: 'Remitted to', fees: 'Fees, costs, or interest' };
+  const AWARD_ORDER = ['verdict', 'court', 'judgment', 'remitted', 'fees'];
+  const fmtMoney = (n) => '$' + fmt.int(Math.round(n));
+  let awardMemo = null;
+  function awardsOf(id) {
+    const D = state.data; const src = (D.trials || {}).awards || [];
+    if (!awardMemo || awardMemo.src !== src || awardMemo.ops !== D.opinions) {
+      const pdf = new Map(D.opinions.map((o) => [o.case + '|' + o.doc, o]));
+      awardMemo = { src, ops: D.opinions, by: d3.group(src.map((a) => ({ ...a, op: pdf.get(a.case + '|' + a.doc) || null })), (a) => a.case) };
+    }
+    return awardMemo.by.get(id) || [];
+  }
+  // The amount a chart can place for a case: the clerk's entry, else the largest amount an opinion states as a verdict, a court award, or a judgment.
+  const bestAward = (r) => { if (r.amount) return { k: r.amount, src: 'clerk' };
+    const a = awardsOf(r.case).filter((x) => ['verdict', 'court', 'judgment'].includes(x.kind)); return a.length ? { k: d3.max(a, (x) => x.amount) / 1000, src: 'opinion' } : null; };
+  const awardLink = (a) => { const o = a.op; const href = o && linkKind(o) !== 'search' ? opinionLink(o, linkKind(o)) : caseHref(a.case);
+    const n = el('a', { href, textContent: fmtMoney(a.amount), title: '“' + a.quote + '”\nOpinion of ' + fmtDate(a.date) + ', doc ' + a.doc });
+    if (href !== caseHref(a.case)) { n.target = '_blank'; n.rel = 'noopener noreferrer'; } return n; };
+  function awardNodes(id) {
+    const A = awardsOf(id); if (!A.length) return [];
+    return AWARD_ORDER.filter((k) => A.some((a) => a.kind === k)).map((k) => el('div', { className: 'aw' }, el('span', { className: 'dim', textContent: AWARD_KIND[k] + ' ' }),
+      ...A.filter((a) => a.kind === k).flatMap((a, i) => [i ? ' · ' : '', awardLink(a)])));
+  }
+  const awardText = (id) => AWARD_ORDER.flatMap((k) => { const v = awardsOf(id).filter((a) => a.kind === k); return v.length ? [AWARD_KIND[k] + ' ' + v.map((a) => fmtMoney(a.amount)).join(', ')] : []; }).join('; ');
   const idbDates = (r) => (r.began && r.ended && r.began !== r.ended ? fmtShort(r.began) + ' to ' + fmtDate(r.ended) : r.began || r.ended ? fmtDate(r.began || r.ended) : '');
   let idbMemo = null;
   function idbRows() {
@@ -1519,7 +1545,10 @@
       el('td', { className: 'txt', textContent: IDB_KIND[r.kind] || '—' }),
       el('td', { className: 'wrap', textContent: idbDates(r) || (r.trial ? 'Date not recorded' : 'None recorded') }),
       el('td', { className: 'txt', textContent: IDB_FOR[r.judgment] || '—' }),
-      el('td', { className: 'wrap' + (!r.amount && !r.noj ? ' dim' : ''), textContent: idbAward(r), title: !r.amount && !r.noj ? 'The clerk\'s closing entry carries no amount. That does not mean nothing was awarded; see the judgment on PACER.' : '' }),
+      (() => { const fromOps = awardNodes(r.case); const blank = !r.amount && !r.noj;
+        return el('td', { className: 'wrap award' }, ...fromOps,
+          blank && fromOps.length ? null : el('div', { className: blank ? 'dim' : '', title: blank ? 'Neither the clerk\'s closing entry nor a written opinion on file states an amount. That does not mean nothing was awarded; see the judgment on PACER.' : 'The clerk\'s closing entry' },
+            fromOps.length ? el('span', { className: 'dim', textContent: 'Clerk\'s entry ' }) : null, blank && r.judgment === 2 ? '—' : idbAward(r))); })(),
       el('td', { className: 'wrap', textContent: r.nosText || '—' }),
       el('td', { className: 'txt', textContent: IDB_JURY[r.jury] || '—' }));
     const none = (msg) => [el('tr', {}, el('td', { className: 'txt dim', colSpan: cols.length, textContent: msg }))];
@@ -1542,7 +1571,8 @@
     ['Labor', (n) => n >= 710 && n <= 791], ['Intellectual property', (n) => n >= 820 && n <= 840]];
   const nosGroup = (n) => { const g = NOS_GROUPS.find(([, f]) => n != null && f(n)); return g ? g[0] : 'Other'; };
   const idbTip = (r) => [(r.plt || '—') + ' v. ' + (r.def || '—'), r.case + ' · ' + (IDB_KIND[r.kind] || ''), idbDates(r) ? 'Tried ' + idbDates(r) : 'Closed ' + fmtDate(r.term),
-    IDB_FOR[r.judgment] && r.judgment !== 4 ? 'Judgment for ' + IDB_FOR[r.judgment].toLowerCase() + ' · ' + idbAward(r).toLowerCase().replace('$', '$') : null].filter(Boolean).join('\n');
+    IDB_FOR[r.judgment] && r.judgment !== 4 ? 'Judgment for ' + IDB_FOR[r.judgment].toLowerCase() : null,
+    awardText(r.case) ? 'Opinion: ' + awardText(r.case) : null, r.amount || !awardText(r.case) ? 'Clerk\'s entry: ' + idbAward(r).toLowerCase() : null].filter(Boolean).join('\n');
 
   // One square per trial, stacked in the month (or quarter, on a narrow screen) the trial began. Open squares are trials
   // on the calendar or in the feed whose cases have not closed.
@@ -1598,14 +1628,14 @@
   function awardStrip(box, rows) {
     const H = 132; if (!rows.length) { emptyChart(box, H, 'No monetary awards on file'); return; }
     const m = { l: 48, r: 16, t: 10, b: 24 }; const { svg, W } = frame(box, H, 'Monetary awards after trial, one dot per case, on a logarithmic dollar scale');
-    const x = d3.scaleLog([10, IDB_TOP], [m.l, W - m.r]).clamp(true); const lane = { jury: m.t + 26, bench: m.t + 72 };
-    [[10, '$10K'], [100, '$100K'], [1000, '$1M'], [IDB_TOP, '$10M+']].forEach(([v, t]) => { svg.append('line').attr('x1', x(v)).attr('x2', x(v)).attr('y1', m.t).attr('y2', H - m.b).style('stroke', 'var(--line)');
-      svg.append('text').attr('x', x(v)).attr('y', H - 8).attr('text-anchor', v === IDB_TOP ? 'end' : v === 10 ? 'start' : 'middle').text(t); });
+    const x = d3.scaleLog([1, IDB_TOP], [m.l, W - m.r]).clamp(true); const lane = { jury: m.t + 26, bench: m.t + 72 };
+    [[1, '$1K'], [10, '$10K'], [100, '$100K'], [1000, '$1M'], [IDB_TOP, '$10M+']].forEach(([v, t]) => { svg.append('line').attr('x1', x(v)).attr('x2', x(v)).attr('y1', m.t).attr('y2', H - m.b).style('stroke', 'var(--line)');
+      svg.append('text').attr('x', x(v)).attr('y', H - 8).attr('text-anchor', v === IDB_TOP ? 'end' : v === 1 ? 'start' : 'middle').text(t); });
     Object.entries(lane).forEach(([k, yy]) => { svg.append('line').attr('x1', m.l).attr('x2', W - m.r).attr('y1', yy).attr('y2', yy).style('stroke', 'var(--line-2)');
       svg.append('text').attr('class', 'lbl').attr('x', 0).attr('y', yy + 4).text(k === 'jury' ? 'Jury' : 'Bench'); });
     ['jury', 'bench'].forEach((k) => { let lastX = -99; let flip = 0;
-      rows.filter((r) => seriesOf(r) === k).sort((a, b) => a.amount - b.amount).forEach((r) => { const cx = x(Math.max(10, r.amount)); flip = cx - lastX < 11 ? (flip <= 0 ? 1 - flip : -flip) : 0; lastX = cx;
-        svg.append('a').attr('href', caseHref(r.case)).attr('aria-label', r.case + ', ' + idbMoney(r.amount)).append('circle').attr('cx', cx).attr('cy', lane[k] + flip * 9).attr('r', 5).attr('class', 'dot')
+      rows.filter((r) => seriesOf(r) === k).sort((a, b) => a.best.k - b.best.k).forEach((r) => { const cx = x(Math.max(1, r.best.k)); flip = cx - lastX < 11 ? (flip <= 0 ? 1 - flip : -flip) : 0; lastX = cx;
+        svg.append('a').attr('href', caseHref(r.case)).attr('aria-label', r.case + ', ' + idbMoney(r.best.k)).append('circle').attr('cx', cx).attr('cy', lane[k] + flip * 9).attr('r', 5).attr('class', 'dot')
           .style('fill', SERIES[k].color).attr('data-tip', idbTip(r) + '\nClick to open the case'); }); });
   }
   const legendSeries = () => [legendItem(SERIES.jury.color, SERIES.jury.label), legendItem(SERIES.bench.color, SERIES.bench.label)];
@@ -1672,9 +1702,10 @@
       row.dataset.tip = g.label + '\n' + fmt.int(g.jury) + ' jury trials · ' + fmt.int(g.bench) + ' bench trials'; return row; }) : [el('p', { className: 'empty', textContent: 'Nothing on file yet.' })]));
     $('tr-nos-note').textContent = 'Tried cases by nature of suit, grouped from the code on the civil cover sheet.';
     // Awards, decisions by year
-    const awards = T.filter((r) => r.amount > 0);
+    const awards = T.map((r) => ({ ...r, best: bestAward(r) })).filter((r) => r.best);
+    const fromOps = awards.filter((r) => r.best.src === 'opinion').length;
     awardStrip($('tr-awards'), awards);
-    $('tr-awards-note').textContent = `${fmt.int(awards.length)} of ${plural(T.length, 'trial')} have an amount in the clerk's closing entry; the rest carry none, which does not mean nothing was awarded. One dot per case, as the clerk recorded the amount (in thousands, capped at $9,999,000); the judgment on PACER controls.`;
+    $('tr-awards-note').textContent = `One dot per case with an amount on file: ${fmt.int(awards.length)} of ${plural(T.length, 'trial')}. ${fmt.int(awards.length - fromOps)} come from the clerk's closing entry (in thousands, capped at $9,999,000) and ${fmt.int(fromOps)} from the largest verdict, award, or judgment a written opinion states. The rest have no amount in either source, which does not mean nothing was awarded.`;
     const yrs = d3.range(2022, +today.slice(0, 4) + 1).map(String); const dy = d3.rollup(D.decisions, (v) => v.length, (d) => d.date.slice(0, 4));
     stackCols($('tr-decyears'), { bins: yrs, jury: yrs.map((y) => dy.get(y) || 0), single: 'var(--series-2)', label: 'Findings of fact and conclusions of law after a bench trial, by year decided' });
     $('tr-decyears-note').textContent = `Written findings of fact and conclusions of law since 2022; ${today.slice(0, 4)} is to date. The decisions and the witnesses each names are listed below.`;
@@ -1733,7 +1764,7 @@
     TR_VIEWS.forEach(([k]) => { $('trv-' + k).hidden = k !== view; });
     $('tr-count').textContent = view === 'closed' ? plural(X.tried.length, 'case') : view === 'feed' ? plural(R.trials.length, 'trial') : plural(R.decisions.length, 'decision') + ' · ' + plural(nw, 'witness', 'witnesses') + ' named';
     const last = I.rows.reduce((a, r) => (r.term > a ? r.term : a), '');
-    $('tr-cap').replaceChildren(view === 'closed' ? (I.rows.length ? `Civil cases closed from ${fmtDate(I.since)} to ${fmtDate(last)} that the clerk coded as ending in a jury verdict, a directed verdict, or a court trial, from the Federal Judicial Center's public database (read ${fmtDate(I.read)}; the FJC adds closed cases each quarter). Judgment and award are the clerk's closing entries, shown per case; amounts are recorded in thousands of dollars, and most closing entries carry none, whatever the verdict. `
+    $('tr-cap').replaceChildren(view === 'closed' ? (I.rows.length ? `Civil cases closed from ${fmtDate(I.since)} to ${fmtDate(last)} that the clerk coded as ending in a jury verdict, a directed verdict, or a court trial, from the Federal Judicial Center's public database (read ${fmtDate(I.read)}; the FJC adds closed cases each quarter). The Award column gives the amounts a written opinion states after trial, each linked to the opinion and showing its sentence on hover, and the clerk's closing entry, which usually carries no amount. `
         : 'The Federal Judicial Center\'s database has not been read yet. ')
       : view === 'feed' ? 'Civil trials seen on the court\'s seven-day calendar, in docket text that sets a trial date, or in the feed\'s trial entries since Oct. 2026, with counsel where CourtListener lists it. '
         : 'Findings of fact and conclusions of law after a bench trial since 2022, with the trial date and the witnesses each opinion names, read automatically from its text. ',
@@ -2412,7 +2443,8 @@
       ' ' + fmtDate(d.date) + ' (doc ' + d.doc + ')' + ((d.witnesses || []).length ? '; witnesses named: ' + d.witnesses.map((w) => w.name).join(', ') : '')));
     idbData().rows.filter((r) => r.case === id).forEach((r) => trialBits.push((trialBits.length ? ' · ' : ''), el('a', { href: hashFor('trials', { tr: { q: id, judge: '' } }), textContent: 'Closing record' }),
       ': ' + (IDB_KIND[r.kind] || '').toLowerCase() + (idbDates(r) ? ', tried ' + idbDates(r) : '') + (IDB_FOR[r.judgment] && r.judgment !== 4 ? '; judgment for ' + IDB_FOR[r.judgment].toLowerCase() : '')
-      + (r.amount ? '; ' + idbMoney(r.amount) : '') + '; closed ' + fmtDate(r.term)));
+      + (r.amount ? '; clerk\'s entry ' + idbMoney(r.amount) : '') + '; closed ' + fmtDate(r.term)));
+    if (awardsOf(id).length) trialBits.push((trialBits.length ? ' · ' : ''), 'Amounts stated in opinions: ', ...awardNodes(id).flatMap((n, i) => [i ? '; ' : '', ...n.childNodes]));
     $('c-trial').hidden = !trialBits.length;
     $('c-trial').replaceChildren(...trialBits);
     const moved = (K.reassigned || []).filter((x) => S.names[x.from] || S.names[x.to]);
@@ -2691,9 +2723,9 @@
           (d.witnesses || []).map((w) => w.name + (w.expert ? ' (expert)' : '')).join('; '), counselOf(d.case).firms.join('; '), counselOf(d.case).attorneys.join('; '), d.pdf || ''])];
     }
     if (which === 'trh') {
-      return [['Closed', 'Case', 'Plaintiff', 'Defendant', 'Judge', 'Disposition', 'Trial date or trial-stage code', 'Trial began', 'Trial ended', 'Judgment for', 'Nature of judgment', 'Amount (thousands of dollars)', 'Demanded (thousands of dollars)', 'Nature of suit', 'Nature of suit code', 'Jury demand', 'Origin', 'Filed', 'Class action alleged'],
+      return [['Closed', 'Case', 'Plaintiff', 'Defendant', 'Judge', 'Disposition', 'Trial date or trial-stage code', 'Trial began', 'Trial ended', 'Judgment for', 'Nature of judgment', 'Amount (thousands of dollars)', 'Demanded (thousands of dollars)', 'Nature of suit', 'Nature of suit code', 'Jury demand', 'Origin', 'Filed', 'Class action alleged', 'Amounts stated in opinions'],
         ...idbRows().map((r) => [r.term, r.case, r.plt, r.def, S.names[r.judge] || '', IDB_KIND[r.kind] || '', r.trial ? 'yes' : 'no', r.began || '', r.ended || '', IDB_FOR[r.judgment] || '', IDB_NOJ[r.noj] || '', r.amount == null ? '' : r.amount,
-          r.demanded == null ? '' : r.demanded, r.nosText, r.nos == null ? '' : r.nos, IDB_JURY[r.jury] || '', r.origin === 1 ? 'Original' : IDB_ORIGIN[r.origin] || '', r.filed || '', r.classact ? 'yes' : ''])];
+          r.demanded == null ? '' : r.demanded, r.nosText, r.nos == null ? '' : r.nos, IDB_JURY[r.jury] || '', r.origin === 1 ? 'Original' : IDB_ORIGIN[r.origin] || '', r.filed || '', r.classact ? 'yes' : '', awardText(r.case)])];
     }
     if (which === 'mg') {
       return [['Magistrate judge', 'Initials', 'Division', 'Settlement conference entries', 'Referred cases', 'Active referred cases', 'Consent cases', 'Written opinions', 'Reports and recommendations', 'Orders'],

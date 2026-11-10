@@ -1694,5 +1694,375 @@
 }
 ]
 }
+],
+"awards":[
+{
+"case":"2:19-cv-12948",
+"doc":"413",
+"date":"2022-01-14",
+"kind":"verdict",
+"amount":598188.03,
+"quote":"…-day jury trial and several hours of deliberation, a jury returned a verdict in this case, awarding Louisiana Newpack $598,188.03 in damages against Ocean Feast Co., Ltd. (“Ocean Feast”) for breaching its fiduciary duties, awarding Louisiana Newpack $400,000.…"
+},
+{
+"case":"2:18-cv-07465",
+"doc":"476",
+"date":"2022-03-04",
+"kind":"verdict",
+"amount":10000.0,
+"quote":"…vember 15, 2021.28 After deliberating, the jury returned a verdict in favor of Plaintiffs. 29 The jury awarded Collins $10,000 in future medical expenses (special damages) and $50,000 in disability (general damages), and awarded Polk $4,000 in future medical e…"
+},
+{
+"case":"2:18-cv-07465",
+"doc":"476",
+"date":"2022-03-04",
+"kind":"judgment",
+"amount":40000.34,
+"quote":"…ants in the amount of $30,000, and the Court entered judgment in favor of Polk and against Defendants in the amount of $40,000.34 On December 7, 2021, Plaintiffs filed the instant motion. 35 Defendants filed their opposition on January 4, 2022.36 II.…"
+},
+{
+"case":"2:18-cv-13891",
+"doc":"253",
+"date":"2022-05-16",
+"kind":"verdict",
+"amount":222489.0,
+"quote":"…y, the jury found that Plaintiff was entitled to terminate tw enty-five of the twenty-six leases and awarded Plaintiff $222,489.00 in damages.9 As to Defendant’s counterclaim, the jury further found that Plaintiff did not wrongfully abandon the remaining lease…"
+},
+{
+"case":"2:19-cv-02799",
+"doc":"89",
+"date":"2022-05-17",
+"kind":"fees",
+"amount":17580.5,
+"quote":"Accordingly, the Court awards Plaintiff attorney’s fees, expert fees, expenses, court costs, as well as punitive damages in the amount of $17,580.50. 3."
+},
+{
+"case":"2:19-cv-02799",
+"doc":"116",
+"date":"2022-07-21",
+"kind":"judgment",
+"amount":17580.5,
+"quote":"…dgment after conducting a trial without a jury in this matter, issuing judgment in favor of Plaintiff in the amount of $17,580.50, plus, among other things, attorneys’ fees.…"
+},
+{
+"case":"2:17-cv-09703",
+"doc":"304",
+"date":"2022-09-28",
+"kind":"judgment",
+"amount":134157.0,
+"quote":"…but in favor of Defendant on all other claims ,15 the Court entered a judgment in favor of Plaintiff in the amount of $134,157.00 on July 15, 2022.16 Defendant has appealed the judgment to the Fifth Circuit17 and Plaintiff has cross-appealed.18 On July 19, 20…"
+},
+{
+"case":"2:17-cv-09703",
+"doc":"304",
+"date":"2022-09-28",
+"kind":"court",
+"amount":137396.88,
+"quote":"…hours expended on the case by the reasonable hourly rates for the participating lawyers.”172 In sum, the Court awards $137,396.88 for work performed by Mr. Pieksen (392.5625 hours at $350 per hour) and $56,750.00 for work performed by Mr. Bagneris (141.875 ho…"
+},
+{
+"case":"2:17-cv-09703",
+"doc":"304",
+"date":"2022-09-28",
+"kind":"fees",
+"amount":194146.88,
+"quote":"eksen (392.5625 hours at $350 per hour) and $56,750.00 for work performed by Mr. Bagneris (141.875 hours at $400 per hour).173 Accordingly, the Court awards Plaintiff a total attorney’s fee award of $194,146.88."
+},
+{
+"case":"2:21-cv-01136",
+"doc":"133",
+"date":"2022-09-29",
+"kind":"judgment",
+"amount":1396664.93,
+"quote":"…d prescribed.15 After a jury trial in this matter, the Court entered a judgment in favor of Plaintiff in the amount of $1,396,664.93. 16 On June 24, 2022, Plaintiff filed the instant “Rule 54(B) Motion for Revision of Interlocutory Judgment,” in which Plaintif…"
+},
+{
+"case":"2:18-cv-11057",
+"doc":"343",
+"date":"2022-12-07",
+"kind":"court",
+"amount":120000.0,
+"quote":"…uries and physical limitations resulting from the allision.297 The Court awards Presser additional past wage losses of $120,000.00 per year from the time of hiring the nurse practitioner, February 18, 2019, until the trial.298 In an unopposed Motion for New Tr…"
+},
+{
+"case":"2:21-cv-01136",
+"doc":"140",
+"date":"2022-12-21",
+"kind":"fees",
+"amount":144185.92,
+"quote":"Therefore, the Court awards Plaintiff a total attorneys’ fee award of $144,185.92.116 112 Prior federal courts have held the same in cases that involve breach of contract claims, foreclosure sales, and/or security rights with final judgments exceeding $1 million."
+},
+{
+"case":"2:20-cv-03012",
+"doc":"64",
+"date":"2023-01-13",
+"kind":"judgment",
+"amount":54319.93,
+"quote":"…ASTORIA HARMONY. 4 The parties further stipulated that the Intervenors will be entitled to a judgment in the amount of $54,319.93 against the party or parties found at fault in this litigation .5 In light of the Joint Stipulation, counsel for the Intervenors w…"
+},
+{
+"case":"2:19-cv-10864",
+"doc":"154",
+"date":"2023-02-02",
+"kind":"verdict",
+"amount":7494930.0,
+"quote":"The jury found in favor of Conrad and against HMS, awarding the full $7,494,930.00 sought for breach of contract based on two theories: first, that the 1 HMS dismissed their conversion claim at trial."
+},
+{
+"case":"2:21-cv-00542",
+"doc":"75",
+"date":"2023-05-22",
+"kind":"verdict",
+"amount":7500.0,
+"quote":"After a trial, a jury found Martynenko liable under the Stored Communications Act and Plaintiff’s privacy rights under Louisiana law and awarded Ackel $7,500 for economic loss, $1,500 for mental anguish, and $10,000 in punitive damages."
+},
+{
+"case":"2:19-cv-12749",
+"doc":"229",
+"date":"2023-06-08",
+"kind":"verdict",
+"amount":4200.0,
+"quote":"…the Louisiana state law tort of malicious prosecution against Holmes.3 The jury awarded Holmes compensatory damages of $4,200.00 for past medical expenses; $50,000.00 for past and future pain and suffering, mental anguish, loss of enjoyment of life, and 1 R. D…"
+},
+{
+"case":"2:19-cv-12749",
+"doc":"229",
+"date":"2023-06-08",
+"kind":"verdict",
+"amount":65000.0,
+"quote":"…his legal defense in the state criminal action filed against him for resisting arrest. 4 The jury also awarded Holmes $65,000.00 in punitive damages for Reddoch’s violation of Holmes’ Fourth Amendment right to be free from unreasonable arrest.5 Defendants fil…"
+},
+{
+"case":"2:19-cv-11175",
+"doc":"152",
+"date":"2023-07-12",
+"kind":"judgment",
+"amount":189250.0,
+"quote":"…on April 27, 2023, the Court entered an Amended Final Judgment into the record in favor of Weinhoffer in the amount of $189,250 .00 plus applicable pre- and post-judgment interest.12 Davie timely filed the instant Motion for New Trial on May 23, 2023, making t…"
+},
+{
+"case":"2:22-cv-01948",
+"doc":"59",
+"date":"2023-07-31",
+"kind":"judgment",
+"amount":35909.26,
+"quote":"Plaintiff is entitled to a judgment in the amount of $35,909.26 on its unjust enrichment claim."
+},
+{
+"case":"2:20-cv-03086",
+"doc":"89",
+"date":"2023-09-01",
+"kind":"court",
+"amount":125000.0,
+"quote":"The Court awards Benson $125,000.00 in compensatory damages as a result of the November 15, 2019 incident."
+},
+{
+"case":"2:22-cv-02128",
+"doc":"88",
+"date":"2023-11-09",
+"kind":"judgment",
+"amount":346784.93,
+"quote":"Accordingly, for the foregoing reasons, IT IS ORDERED that there be judgment in favor of plaintiff Skansi Marine and against defendant Offshore Aviation in the amount of $346,784.93."
+},
+{
+"case":"2:17-cv-00585",
+"doc":"348",
+"date":"2023-11-17",
+"kind":"judgment",
+"amount":3308094.0,
+"quote":"The Court awarded Devin and Megan Barrios a judgment against River Ventures in the amount of $3,308,094, plus prejudgment interest at a rate of 4% per annum on all past damages and post-judgment interest at a rate of 4% per annum on all future damages until paid. 11."
+},
+{
+"case":"2:17-cv-00585",
+"doc":"348",
+"date":"2023-11-17",
+"kind":"court",
+"amount":3308094.0,
+"quote":"The Court awarded Devin and Megan Barrios a judgment against River Ventures in the amount of $3,308,094, plus prejudgment interest at a rate of 4% per annum on all past damages and post-judgment interest at a rate of 4% per annum on all future damages until paid. 11."
+},
+{
+"case":"2:19-cv-02799",
+"doc":"137",
+"date":"2023-12-12",
+"kind":"court",
+"amount":17580.5,
+"quote":"…ed to punish the defendant and to deter future wrongdoing.”23 This Court awarded damages to Plaintiff in the amount of $17,580.50, plus expert fees, expenses, court costs, and reasonable attorney’s fees.24 The damages award was primarily intended to compensate…"
+},
+{
+"case":"2:19-cv-11803",
+"doc":"153",
+"date":"2024-03-01",
+"kind":"court",
+"amount":8490.0,
+"quote":"The Court awards Gomez civil penalties in the amount of $8,490.00 for the City’s failure to respond to the third and fourth LPRA requests with respect to the interviews, for the period from October 21, 2019 (when the City otherwise responded to the third reque…"
+},
+{
+"case":"2:21-cv-00542",
+"doc":"112",
+"date":"2024-03-22",
+"kind":"judgment",
+"amount":19000.0,
+"quote":"He alleges that following the jury trial, although judgment was entered against Martynenko in the amount of $19,000 (plus costs), to date she has paid nothing."
+},
+{
+"case":"2:23-cv-00595",
+"doc":"140",
+"date":"2024-04-25",
+"kind":"court",
+"amount":31530.73,
+"quote":"Accordingly, the Court finds that Three Fifty Markets is entitled to $31,530.73 in custodia legis expenses."
+},
+{
+"case":"2:23-cv-00595",
+"doc":"145",
+"date":"2024-05-29",
+"kind":"fees",
+"amount":722641.79,
+"quote":"The Court awarded Plaintiff its unpaid balance, interest, and custodia legis expenses for a total of $722,641.79."
+},
+{
+"case":"2:21-cv-00879",
+"doc":"155",
+"date":"2024-06-28",
+"kind":"judgment",
+"amount":1500.0,
+"quote":"…its own costs when the defendants prevailed on the § 1983 unlawful arrest claim, but plaintiff received a judgment for $1,500 on the pendent state law malicious prosecution claim.29 Other courts have elected to reduce the prevailing party’s costs award based o…"
+},
+{
+"case":"2:19-cv-12948",
+"doc":"510",
+"date":"2025-02-21",
+"kind":"verdict",
+"amount":49991.99,
+"quote":"…duced that amount by 67% to reflect the jury’s reduction in damages awarded on the open account claim, for a total of $49,991.99.88 Reviewing the Magistrate Judge’s finding de novo, the Court agrees that Longhai was successful on half of its claims.…"
+},
+{
+"case":"2:20-cv-02138",
+"doc":"373",
+"date":"2025-03-31",
+"kind":"verdict",
+"amount":30000.0,
+"quote":"…misappropriated SMART under the LUTSA, 26 and that STI misappropriated SMART under the DTSA.27 The jury awarded MGMTL $30,000 on its breach of the Distributor Agreement claim, but awarded no damages on the LUTSA and DTSA claims. 28 The Court issued an Order o…"
+},
+{
+"case":"2:22-cv-05358",
+"doc":"96",
+"date":"2025-05-09",
+"kind":"judgment",
+"amount":630402.1,
+"quote":"…nted at trial, 102 the Court finds that LIM is entitled to judgment in rem against the ATLANTA BRIDGE in the amount of $630,402.10, and against the MEMPHIS BRIDGE in the amount of $863,162.50 for towage services provided from January 16, 2021 through June 18,…"
+},
+{
+"case":"2:22-cv-05358",
+"doc":"96",
+"date":"2025-05-09",
+"kind":"judgment",
+"amount":863162.5,
+"quote":"…entered in favor of Defendant Louisiana International Marine and against the MEMPHIS BRIDGE, in rem, in the amount of $863,162.50, plus court costs and reasonable attorney’s fees.…"
+},
+{
+"case":"2:22-cv-05358",
+"doc":"96",
+"date":"2025-05-09",
+"kind":"court",
+"amount":630402.1,
+"quote":"…nted at trial, 102 the Court finds that LIM is entitled to judgment in rem against the ATLANTA BRIDGE in the amount of $630,402.10, and against the MEMPHIS BRIDGE in the amount of $863,162.50 for towage services provided from January 16, 2021 through June 18,…"
+},
+{
+"case":"2:24-cv-01068",
+"doc":"98",
+"date":"2025-07-01",
+"kind":"verdict",
+"amount":52500.0,
+"quote":"mages in past back pay .11 However, the jury also found that plaintiff’s damages for back pay should be reduced by $39,500 for plaintiff’s failure to mitigate.12 In total, the jury awarded plaintiff $52,500 in back pay."
+},
+{
+"case":"2:24-cv-01068",
+"doc":"102",
+"date":"2025-07-18",
+"kind":"verdict",
+"amount":4000.0,
+"quote":"…pay as it awarded plaintiff for back pay in connection with her FMLA claims.9 In addition, the jury awarded plaintiff $4,000 in general damages in connection with her state and federal claims for pregnancy discrimination.10 Finally, the jury awarded plaintiff…"
+},
+{
+"case":"2:24-cv-01068",
+"doc":"102",
+"date":"2025-07-18",
+"kind":"verdict",
+"amount":100000.0,
+"quote":"…es in connection with her state and federal claims for pregnancy discrimination.10 Finally, the jury awarded plaintiff $100,000 in punitive damages in connection with her Title VII claim for pregnancy discrimination.11 5 See R. Doc. Nos. 58–61. 6 R. Doc. No. 6…"
+},
+{
+"case":"2:22-cv-05132",
+"doc":"271",
+"date":"2025-10-07",
+"kind":"court",
+"amount":167295.31,
+"quote":"…xtent, albeit only in its existing condition.31 The Court awarded to Smothered Covered damages in the tota l amount of $167,295.31, consisti ng of $126,272.43 to replace the Subject Items at their current market price and $41,022.88 to repair the damage to the…"
+},
+{
+"case":"2:22-cv-03698",
+"doc":"105",
+"date":"2026-02-23",
+"kind":"verdict",
+"amount":795000.0,
+"quote":"Two years later, on October 9, 2024, the two actions were consolidated under Liner v. Terminix Pest Control , 2:22-cv-3698 (R. Doc. 37) , and the jury returned a verdict in favor of the P laintiffs for a combined total of $795,000."
+},
+{
+"case":"2:22-cv-03698",
+"doc":"105",
+"date":"2026-02-23",
+"kind":"judgment",
+"amount":125000.0,
+"quote":"Judge Milazzo denied a mistrial and enter ed judgment in favor of Louis Liner for $125,000 and Gregg Smith for $85,000, after setting aside punitive damages and reducing the compensatory damages award to the Title VII cap on compensatory damages of $50,000."
+},
+{
+"case":"2:24-cv-00780",
+"doc":"380",
+"date":"2026-05-26",
+"kind":"verdict",
+"amount":6625000.0,
+"quote":"The jury found Avondale negligent and awarded Plaintiffs $6,625,000 in general damages. 20 The jury also found in favor of the Third- Party Defendants and nonparties on Avondale’s negligence and strict-liability claims.21 The Court entered judgment in accordan…"
+},
+{
+"case":"2:24-cv-00780",
+"doc":"380",
+"date":"2026-05-26",
+"kind":"remitted",
+"amount":3900000.0,
+"quote":"The general damage aw ard is remitted to $3,900,000.00."
+},
+{
+"case":"2:23-cv-04129",
+"doc":"216",
+"date":"2026-08-10",
+"kind":"judgment",
+"amount":4567441.68,
+"quote":"…of La. R.S. 22:1973 to zero dollars ($0.00).15 The Court entered a final judgment against Defendant in the amount of $4,567,441.68— this total includes the additional amount Defendant never paid Plaintiff ($2,818,230.66), consequential damages under La. R.S.…"
+},
+{
+"case":"2:19-cv-11793",
+"doc":"669",
+"date":"2026-08-19",
+"kind":"verdict",
+"amount":750000.0,
+"quote":"…HSC-NO positions.28 The jury returned a unanimous verdict finding that LSU retaliated against Plaintiffs and awarding $750,000 to each of them for pain and suffering, inconvenience, mental anguish, and loss of enjoyment of life. 29 The Court entered judgment i…"
+},
+{
+"case":"2:19-cv-11793",
+"doc":"669",
+"date":"2026-08-19",
+"kind":"remitted",
+"amount":279579.81,
+"quote":"IT IS FURTHER ORDERED that LSU’s motion for remittitur (R. Doc. 656) is GRANTED, and Plaintiffs’ damages are remitted to $279,579.81 as to Katherine Muslow and $279,579.81 as to Meredith Cunningham."
+},
+{
+"case":"2:23-cv-00931",
+"doc":"125",
+"date":"2026-09-21",
+"kind":"judgment",
+"amount":566791.35,
+"quote":"I. Background On March 31, 2026, the Court entered final judgment in favor of Plaintiffs and against Piazza in the principal amount of $566,791.35 in liquidated damages."
+}
 ]
 }

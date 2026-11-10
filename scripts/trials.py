@@ -210,6 +210,106 @@ def tried(text: str) -> str:
     return ""
 
 
+# ---------------------------------------------------------------- award amounts stated in opinions
+# The clerk's closing entry in the FJC file usually carries no amount, and verdict forms and judgments are PACER documents.
+# A written opinion after trial often states the amount: "The jury found Avondale negligent and awarded Plaintiffs
+# $6,625,000 in general damages", "judgment in favor of Plaintiff in the amount of $1,396,664.93", "The general damage award
+# is remitted to $3,900,000.00". These readers find such sentences. A sentence can state one part of an award (one
+# plaintiff, one element of damages), and a later ruling can change it, so every amount is kept with its sentence.
+MONEY = r"\$\s?(\d{1,3}(?:,\d{3})+(?:\.\d{2})?|\d+(?:\.\d+)?\s*(?:million|billion)|\d{4,}(?:\.\d{2})?)"
+AWARD_PATTERNS = [
+    ("verdict", re.compile(r"\bjury\b[^.;$]{0,140}?\b(?:awarded|awarding|returned a verdict|verdict (?:of|for|in the amount of)|award of)\b[^.;$]{0,120}?" + MONEY, re.I)),
+    ("judgment", re.compile(r"(?<![-\w])judgment\b[^.;$]{0,160}?\b(?:in the (?:total |principal )?(?:amount|sum) of|for)\s+" + MONEY, re.I)),
+    # "the Court" with a capital is this court; "the court awarded $200,000" describes another court's case.
+    ("court", re.compile(r"\b(?:[Tt]he|[Tt]his) Court\s+(?:hereby\s+)?(?:awards|awarded|finds that [^.;$]{0,60}? is entitled to(?: recover)?)\b[^.;$]{0,140}?" + MONEY)),
+    ("remitted", re.compile(r"\bremit(?:ted|s)?\b[^.;$]{0,80}?\bto\s+" + MONEY, re.I)),
+]
+# A sentence about another case ("Id. at 148. The jury awarded $7,500,000 ...", "947 So. 2d 171") is not this case's award.
+CITATION_RE = re.compile(r"\b(?:Id\.|So\. ?[23]d|F\. ?(?:2d|3d|4th)|F\. ?Supp|F\. ?App|La\. App|Cir\. \d{4}|WL \d)")
+FEES_RE = re.compile(r"attorney|\bfees?\b|\bcosts\b|interest|sanction", re.I)
+# Not an award: what a jury could or should have awarded, what a party asked for, and hypotheticals.
+NOT_AWARD_RE = re.compile(r"\b(?:could|would|should|might|may|can|must|cannot)\b[^$]{0,40}\b(?:award|remit)|\b(?:asked|asks|request\w*|sought|seeks?|urged?|argu\w*|contend\w*|"
+                          r"if the jury|whether the jury|unless|bond|settle\w*)\b", re.I)
+VERDICT_ZONE = (0.30, 8000)   # a jury's award is stated in an opinion's background; later "the jury awarded" sentences mostly describe other cases
+MAX_AWARDS = 8      # amounts kept per case
+
+
+def money(text: str) -> float:
+    """"6,625,000" -> 6625000.0; "6.625 million" -> 6625000.0; 0 when the text is not an amount."""
+    m = re.fullmatch(r"([\d,]*\d(?:\.\d+)?)\s*(million|billion)?", (text or "").strip(), re.I)
+    if not m:
+        return 0.0
+    try:
+        n = float(m.group(1).replace(",", ""))
+    except ValueError:
+        return 0.0
+    return round(n * {"million": 1e6, "billion": 1e9}.get((m.group(2) or "").lower(), 1), 2)
+
+
+def awards(text: str) -> list[dict]:
+    """Amounts an opinion states as awarded: [{kind, amount, quote}], kind verdict (a jury's), judgment, court (the
+    court's own award), remitted, or fees (the sentence concerns fees, costs, interest, or sanctions). The first sentence
+    of each kind and amount is kept."""
+    t = clean_text(text)
+    out: list[dict] = []
+    seen = set()
+    zone = max(len(t) * VERDICT_ZONE[0], VERDICT_ZONE[1])
+    for kind, pat in AWARD_PATTERNS:
+        for m in pat.finditer(t):
+            if kind == "verdict" and m.start() > zone:
+                break
+            if (CITATION_RE.search(t[max(0, m.start() - 150):m.start()]) or CITATION_RE.search(t[m.start():m.end() + 60])
+                    or NOT_AWARD_RE.search(t[max(0, m.start() - 100):m.end()])):
+                continue
+            amount = money(m.group(1))
+            k = "fees" if FEES_RE.search(m.group(0)) else kind
+            if amount < 100 or (k, amount) in seen:
+                continue
+            seen.add((k, amount))
+            out.append({"kind": k, "amount": amount, "quote": _sentence(t, m.start(1))})
+    return out
+
+
+def find_awards(opinions: list[dict], starts: dict, text_dir: Path) -> list[dict]:
+    """starts: case -> the day its trial began (or its decision was filed). Reads each written opinion in those cases
+    filed on or after that day and returns [{case, doc, date, kind, amount, quote}], the earliest opinion for each
+    kind and amount, at most MAX_AWARDS a case."""
+    out: list[dict] = []
+    per: dict[str, set] = {}
+    for o in sorted(opinions, key=lambda r: (r.get("date", ""), r.get("case", ""), str(r.get("doc", "")))):
+        case = o.get("case", "")
+        if case not in starts or o.get("date", "") < starts[case]:
+            continue
+        path = Path(text_dir) / f"{case.replace(':', '_')}_{o['doc']}.txt"
+        if not path.exists():
+            continue
+        have = per.setdefault(case, set())
+        for a in awards(path.read_text(errors="replace")):
+            if (a["kind"], a["amount"]) in have or len(have) >= MAX_AWARDS:
+                continue
+            have.add((a["kind"], a["amount"]))
+            out.append({"case": case, "doc": str(o["doc"]), "date": o.get("date", ""), **a})
+    return out
+
+
+def trial_starts(trial_rows: list[dict], decisions: list[dict], closed: list[dict]) -> dict:
+    """The first day on file for each case's trial: from the FJC's closed-case rows, the calendar and feed, and decisions."""
+    starts: dict[str, str] = {}
+
+    def note(case: str, day: str) -> None:
+        if case and day and day < starts.get(case, "9999"):
+            starts[case] = day
+    for r in closed or []:
+        if r.get("trial"):
+            note(r.get("case", ""), r.get("began") or r.get("ended") or r.get("term", ""))
+    for t in trial_rows:
+        held = [e["date"] for e in t.get("events", []) if HELD_RE.search(e["event"]) or VERDICT_RE.search(e["event"])]
+        note(t["case"], min((t.get("days") or []) + held, default=""))
+    for d in decisions:
+        note(d["case"], d.get("date", ""))
+    return starts
+
+
 # ---------------------------------------------------------------- trials.json
 def _civil(case: str) -> bool:
     return "-cv-" in (case or "")
@@ -229,7 +329,7 @@ def kind_of(texts: list[str], decided: bool) -> str:
 
 
 def build(old: dict, *, hearings: list[dict], entries: list[dict], opinions: list[dict], titles: dict, case_judge: dict,
-          text_dir: Path, today: str) -> dict:
+          text_dir: Path, today: str, closed: list[dict] | None = None) -> dict:
     """entries: docket entries from the feed and the orders on file ({case, doc, date, event})."""
     cutoff = (dt.date.fromisoformat(today) - dt.timedelta(days=KEEP_CALENDAR_DAYS)).isoformat()
     prev = {r["case"]: r for r in (old or {}).get("trials", [])}
@@ -303,4 +403,5 @@ def build(old: dict, *, hearings: list[dict], entries: list[dict], opinions: lis
         if decision:
             row["decision"] = {"doc": decision[-1]["doc"], "date": decision[-1]["date"]}
         trials.append({k: v for k, v in row.items() if v not in ("", [], None) or k in ("days", "events")})
-    return {"trials": trials, "decisions": decisions}
+    return {"trials": trials, "decisions": decisions,
+            "awards": find_awards(opinions, trial_starts(trials, decisions, closed or []), Path(text_dir))}

@@ -1103,7 +1103,8 @@ def main() -> int:
     new_trials = trials.build(old_trials, hearings=hearing_rows, opinions=opinions, titles=titles, case_judge=case_judge,
                               entries=[{"case": r["case"], "doc": r["doc"], "date": r.get("date", ""), "event": r["event"]}
                                        for r in feed_rows + orders if r.get("case")],
-                              text_dir=texts.root, today=today)
+                              text_dir=texts.root, today=today,
+                              closed=court_info.load_json(DATA / "idb_trials.json", {}).get("rows", []))
     if new_trials != {k: old_trials.get(k) for k in new_trials}:
         court_info.save_json(DATA / "trials.json", new_trials)
     # Magistrate judges: referred cases, the opinions each signed, and settlement conferences with what the docket showed
