@@ -18,7 +18,8 @@
 {"case":"2:25-cv-01762","doc":"20","date":"2026-11-09","title":"Murry et al v. Gomez et al","judge":"BWA","mj":"JVM","reset":false},
 {"case":"2:25-cv-02172","doc":"49","date":"2026-11-09","title":"Bowlsbey et al v. Dover Bay Specialty Insurance Company","judge":"ILRL","mj":"EJD","reset":false},
 {"case":"2:25-cv-02332","doc":"32","date":"2026-11-09","title":"Ghost City Tours of Georgia, LLC v. US Ghost Adventures, LLC et al","judge":"SSV","mj":"EJD","reset":false},
-{"case":"2:26-cv-00215","doc":"36","date":"2026-11-10","title":"Domingues et al v. State Farm Fire and Casualty Company","judge":"JTM","mj":"","reset":false}
+{"case":"2:26-cv-00215","doc":"36","date":"2026-11-10","title":"Domingues et al v. State Farm Fire and Casualty Company","judge":"JTM","mj":"","reset":false},
+{"case":"2:26-cv-00479","doc":"22","date":"2026-11-10","title":"Banquer v. Trader Joe's East Inc.","judge":"SM","mj":"JVM","reset":false}
 ],
 "signs":[
 {"case":"2:25-cv-01755","doc":"34","date":"2026-10-19","event":"Order Dismissing Case","sign":"dismissal"},
