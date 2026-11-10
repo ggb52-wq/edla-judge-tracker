@@ -188,6 +188,50 @@
 ],
 "held":true,
 "first_seen":"2026-11-06"
+},
+{
+"case":"2:24-cv-02298",
+"title":"CMP, L.L.C. v Board of Commissioners for the Lafitte Area independent ",
+"judge":"WBV",
+"kind":"jury",
+"days":[
+"2026-11-16"
+],
+"room":"C-352",
+"events":[
+{
+"date":"2026-10-30",
+"doc":"126",
+"event":"Pretrial Conference"
+},
+{
+"date":"2026-10-30",
+"doc":"126",
+"event":"Pretrial Conference AND ~Util - Set/Reset Hearings AND ~Util - Terminate Motions"
+},
+{
+"date":"2026-11-06",
+"doc":"127",
+"event":"Witness List"
+},
+{
+"date":"2026-11-06",
+"doc":"128",
+"event":"Witness List"
+},
+{
+"date":"2026-11-06",
+"doc":"130",
+"event":"Proposed Jury Instructions"
+},
+{
+"date":"2026-11-06",
+"doc":"131",
+"event":"Proposed Jury Verdict Form"
+}
+],
+"held":false,
+"first_seen":"2026-11-10"
 }
 ],
 "decisions":[
