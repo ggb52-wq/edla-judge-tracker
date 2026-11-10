@@ -1485,7 +1485,9 @@
   const idbData = () => ({ rows: [], ...(state.data.idb_trials || {}) });
   const IDB_KIND = { jury: 'Jury verdict', bench: 'Bench trial', directed: 'Directed verdict' };
   const IDB_FOR = { 1: 'Plaintiff', 2: 'Defendant', 3: 'Both', 4: 'Not recorded' };
-  const IDB_NOJ = { 0: 'No monetary award', 1: 'Monetary award', 2: 'Monetary award and other relief', 3: 'Injunction', 4: 'Forfeiture, foreclosure, or condemnation', 5: 'Costs only', 6: 'Costs and attorney fees' };
+  // Code 0 is the file's "no monetary award", and also what a closing entry carries when the clerk enters no amount: 22 of the 36
+  // jury verdicts for a plaintiff in the first read carry it (Marcella v. Huntington Ingalls among them), so it is shown as unrecorded.
+  const IDB_NOJ = { 0: 'No amount recorded', 1: 'Monetary award', 2: 'Monetary award and other relief', 3: 'Injunction', 4: 'Forfeiture, foreclosure, or condemnation', 5: 'Costs only', 6: 'Costs and attorney fees' };
   const IDB_JURY = { B: 'Both sides', P: 'Plaintiff', D: 'Defendant', N: 'None' };
   const IDB_ORIGIN = { 2: 'Removed', 3: 'On remand', 4: 'Reopened', 5: 'Transferred in', 6: 'MDL', 8: 'Reopened', 9: 'Reopened', 10: 'Reopened', 11: 'Reopened', 12: 'Reopened', 13: 'MDL' };
   const IDB_TOP = 9999;  // the IDB's ceiling: amounts are in thousands of dollars, and 9999 stands for $9,999,000 or more
@@ -1517,7 +1519,7 @@
       el('td', { className: 'txt', textContent: IDB_KIND[r.kind] || '—' }),
       el('td', { className: 'wrap', textContent: idbDates(r) || (r.trial ? 'Date not recorded' : 'None recorded') }),
       el('td', { className: 'txt', textContent: IDB_FOR[r.judgment] || '—' }),
-      el('td', { className: 'wrap', textContent: idbAward(r) }),
+      el('td', { className: 'wrap' + (!r.amount && !r.noj ? ' dim' : ''), textContent: idbAward(r), title: !r.amount && !r.noj ? 'The clerk\'s closing entry carries no amount. That does not mean nothing was awarded; see the judgment on PACER.' : '' }),
       el('td', { className: 'wrap', textContent: r.nosText || '—' }),
       el('td', { className: 'txt', textContent: IDB_JURY[r.jury] || '—' }));
     const none = (msg) => [el('tr', {}, el('td', { className: 'txt dim', colSpan: cols.length, textContent: msg }))];
@@ -1672,7 +1674,7 @@
     // Awards, decisions by year
     const awards = T.filter((r) => r.amount > 0);
     awardStrip($('tr-awards'), awards);
-    $('tr-awards-note').textContent = `${fmt.int(awards.length)} of ${plural(T.length, 'trial')} closed with a monetary award on file. One dot per case, as the clerk recorded the amount (in thousands, capped at $9,999,000); the judgment on PACER controls.`;
+    $('tr-awards-note').textContent = `${fmt.int(awards.length)} of ${plural(T.length, 'trial')} have an amount in the clerk's closing entry; the rest carry none, which does not mean nothing was awarded. One dot per case, as the clerk recorded the amount (in thousands, capped at $9,999,000); the judgment on PACER controls.`;
     const yrs = d3.range(2022, +today.slice(0, 4) + 1).map(String); const dy = d3.rollup(D.decisions, (v) => v.length, (d) => d.date.slice(0, 4));
     stackCols($('tr-decyears'), { bins: yrs, jury: yrs.map((y) => dy.get(y) || 0), single: 'var(--series-2)', label: 'Findings of fact and conclusions of law after a bench trial, by year decided' });
     $('tr-decyears-note').textContent = `Written findings of fact and conclusions of law since 2022; ${today.slice(0, 4)} is to date. The decisions and the witnesses each names are listed below.`;
@@ -1731,7 +1733,7 @@
     TR_VIEWS.forEach(([k]) => { $('trv-' + k).hidden = k !== view; });
     $('tr-count').textContent = view === 'closed' ? plural(X.tried.length, 'case') : view === 'feed' ? plural(R.trials.length, 'trial') : plural(R.decisions.length, 'decision') + ' · ' + plural(nw, 'witness', 'witnesses') + ' named';
     const last = I.rows.reduce((a, r) => (r.term > a ? r.term : a), '');
-    $('tr-cap').replaceChildren(view === 'closed' ? (I.rows.length ? `Civil cases closed from ${fmtDate(I.since)} to ${fmtDate(last)} that the clerk coded as ending in a jury verdict, a directed verdict, or a court trial, from the Federal Judicial Center's public database (read ${fmtDate(I.read)}; the FJC adds closed cases each quarter). Judgment and award are the clerk's closing entries, shown per case; amounts are recorded in thousands of dollars. `
+    $('tr-cap').replaceChildren(view === 'closed' ? (I.rows.length ? `Civil cases closed from ${fmtDate(I.since)} to ${fmtDate(last)} that the clerk coded as ending in a jury verdict, a directed verdict, or a court trial, from the Federal Judicial Center's public database (read ${fmtDate(I.read)}; the FJC adds closed cases each quarter). Judgment and award are the clerk's closing entries, shown per case; amounts are recorded in thousands of dollars, and most closing entries carry none, whatever the verdict. `
         : 'The Federal Judicial Center\'s database has not been read yet. ')
       : view === 'feed' ? 'Civil trials seen on the court\'s seven-day calendar, in docket text that sets a trial date, or in the feed\'s trial entries since Oct. 2026, with counsel where CourtListener lists it. '
         : 'Findings of fact and conclusions of law after a bench trial since 2022, with the trial date and the witnesses each opinion names, read automatically from its text. ',
