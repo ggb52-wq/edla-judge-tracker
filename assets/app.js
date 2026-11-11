@@ -3692,8 +3692,8 @@
       sub: (c.judge ? 'Judge ' + S.names[c.judge] : 'Judge not yet known') + ' · ' + (c.title || 'case name not on file'), href: caseHref(c.case) }));
     const typed = normCase(q);
     if (typed && /\D/.test(q.replace(/\s/g, '')) && !cases.some((c) => c.case === typed)) out.push({ kind: 'Case', label: el('code', { textContent: typed }), sub: 'Nothing on file', href: caseHref(typed) });
+    if (ftWords(q).some((w) => w.length >= 2) && !cq) out.push({ kind: 'Full text', label: 'Opinions that say “' + q + '”', sub: 'Search the text of every written opinion', href: findHref({ text: q }) });
     out.push({ kind: 'Search', label: 'Opinions matching “' + q + '”', sub: 'Case names, case numbers, and motion names', href: findHref({ q }) });
-    if (ftWords(q).some((w) => w.length >= 2)) out.push({ kind: 'Full text', label: 'Opinions that say “' + q + '”', sub: 'Search the text of every written opinion', href: findHref({ text: q }) });
     return out;
   }
   const omnis = [];
@@ -3804,8 +3804,13 @@
   $('cmp-add').addEventListener('change', (e) => { if (e.target.value) location.hash = hashFor('compare', { cmp: [...state.cmp, e.target.value] }); });
   const refind = (patch) => { Object.assign(state.f, patch); state.limit = 100; if (state.stats) { renderOpinions(); writeHash(); } };
   $('op-q').addEventListener('input', (e) => refind({ q: e.target.value }));
-  let ftTimer; $('op-text').addEventListener('input', (e) => { clearTimeout(ftTimer); const v = e.target.value; ftTimer = setTimeout(() => refind({ text: v.trim() }), 350); });
-  $('op-text').addEventListener('keydown', (e) => { if (e.key === 'Enter') { clearTimeout(ftTimer); refind({ text: e.target.value.trim() }); } });
+  // The text box searches on a pause in typing, on Enter, and on its button; the line under it answers at once.
+  let ftTimer; const ftGo = () => { clearTimeout(ftTimer); refind({ text: $('op-text').value.trim() }); };
+  $('op-text').addEventListener('input', (e) => { clearTimeout(ftTimer); const v = e.target.value.trim();
+    if (v && v !== state.f.text) { $('op-ft-status').hidden = false; $('op-ft-status').textContent = 'Searching the text of the opinions…'; }
+    ftTimer = setTimeout(ftGo, 350); });
+  $('op-text').addEventListener('keydown', (e) => { if (e.key === 'Enter') ftGo(); });
+  $('op-text-go').addEventListener('click', ftGo);
   $('op-judge').addEventListener('change', (e) => refind({ judge: e.target.value }));
   $('op-type').addEventListener('change', (e) => refind({ type: e.target.value }));
   $('op-outcome').addEventListener('change', (e) => refind({ oc: e.target.value }));

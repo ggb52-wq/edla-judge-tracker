@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
-  <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="assets/style.css?v=2026-11-11c">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 24 24%27%3E%3Crect width=%2724%27 height=%2724%27 rx=%275%27 fill=%27%2310151c%27/%3E%3Cg transform=%27translate(2.4 2.4) scale(.8)%27%3E%3Cpath d=%27M12 2 22.5 8h-21Z M1.5 20.5h21v2h-21Z%27 fill=%27%23e6e9ee%27/%3E%3Cpath d=%27M3.5 14h3.2v6H3.5Z M8.1 10h3.2v10H8.1Z M12.7 12.5h3.2V20h-3.2Z M17.3 11h3.2v9h-3.2Z%27 fill=%27%233987e5%27/%3E%3C/g%3E%3C/svg%3E">
 </head>
 <body data-page="judges">
@@ -498,6 +498,7 @@
     </div>
     <div class="filters">
       <label class="grow">Opinion text<input id="op-text" type="search" placeholder='Words in the opinion, or "a phrase"' autocomplete="off" spellcheck="false"></label>
+      <button type="button" class="btn" id="op-text-go" title="Search the text of the opinions (or press Enter)">Search text</button>
       <label class="grow">Case or motion<input id="op-q" type="search" placeholder="Party, case number, or motion" autocomplete="off"></label>
       <label>Judge<select id="op-judge"></select></label>
       <label>Ruling<select id="op-type"></select></label>
@@ -765,6 +766,6 @@
 <div class="tip" id="tip" role="tooltip" hidden></div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 <script>window.d3 || document.write('<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"><\/script>'); /* cdnjs unreachable: same build from jsDelivr */</script>
-<script src="assets/app.js"></script>
+<script src="assets/app.js?v=2026-11-11c"></script>
 </body>
 </html>
