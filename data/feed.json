@@ -1,4 +1,6 @@
 [
+{"at":"2026-11-11T09:15-06:00","case":"2:25-cv-02354","doc":"194","event":"Dismiss Party","title":"Arceneaux v. Huntington Ingalls Incorporated et al","judge":"AJ"},
+{"at":"2026-11-11T09:03-06:00","case":"2:26-cv-01773","doc":"15","event":"Request for Summons Issued","title":"Berger OH, LLC v. Robert M Dominy","judge":"JTM"},
 {"at":"2026-11-10T23:52-06:00","case":"2:25-cv-01733","doc":"20","event":"In Limine","title":"Crier v. USAA Casualty Insurance  Company","judge":"JCZ"},
 {"at":"2026-11-10T23:07-06:00","case":"2:26-cv-01943","doc":"9","event":"Response/Memorandum in Opposition to Motion","title":"Sagona v. USA Today Co., Inc","judge":"JTM"},
 {"at":"2026-11-10T22:58-06:00","case":"2:26-cv-00434","doc":"141","event":"Response/Memorandum in Opposition to Motion","title":"Lightfoot et al v. Progressive Direct Insurance Company et al","judge":"NJB"},
@@ -2942,9 +2944,5 @@
 {"at":"2026-10-28T09:41-05:00","case":"2:26-cv-01838","doc":"6","event":"Order on Motion for Extension of Time to Answer","title":"Fultz v. Marrero Land & Improvement Association, Ltd.","judge":"ASJ"},
 {"at":"2026-10-28T09:38-05:00","case":"2:26-cv-02458","doc":"6","event":"Summons Issued","title":"Audubon Resources, LLC v. KEG Medical, LLC et al","judge":""},
 {"at":"2026-10-28T09:37-05:00","case":"2:25-cv-00792","doc":"68","event":"Response/Memorandum in Opposition to Motion","title":"Harold v. Joshlin et al","judge":"BWA"},
-{"at":"2026-10-28T09:32-05:00","case":"2:25-cv-01042","doc":"","event":"Correction of Docket Entry by Clerk","title":"McLemore v. Bogalusa City School District et al","judge":"ASJ"},
-{"at":"2026-10-28T09:24-05:00","case":"2:26-cv-02482","doc":"","event":"Initial Case Assignment","title":"QCX LLC, d/b/a Polymarket US v. Murrill et al","judge":"LMA"},
-{"at":"2026-10-28T09:24-05:00","case":"2:25-cv-02477","doc":"54","event":"Extension of Deadlines","title":"Jones v. Root Insurance Company","judge":"BWA"},
-{"at":"2026-10-28T09:23-05:00","case":"2:26-cv-02481","doc":"4","event":"Summons Issued","title":"Graffia v. Allstate Insurance Company","judge":"JTM"},
-{"at":"2026-10-28T09:15-05:00","case":"2:26-cv-02476","doc":"3","event":"Order","title":"Erhabor-Emokpae v. Cargill, Inc.","judge":""}
+{"at":"2026-10-28T09:32-05:00","case":"2:25-cv-01042","doc":"","event":"Correction of Docket Entry by Clerk","title":"McLemore v. Bogalusa City School District et al","judge":"ASJ"}
 ]
