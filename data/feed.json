@@ -1,4 +1,11 @@
 [
+{"at":"2026-11-11T11:05-06:00","case":"2:25-cv-02526","doc":"25","event":"Enroll as Counsel of Record","title":"Johnson et al v. Contract Freighters, Inc. et al","judge":""},
+{"at":"2026-11-11T11:00-06:00","case":"2:26-cv-01480","doc":"11","event":"Statement of Corporate Disclosure","title":"Lucineo v. Terry Parkway Limited Partnership","judge":"LMA"},
+{"at":"2026-11-11T10:56-06:00","case":"2:22-cv-00309","doc":"325","event":"Extension of Deadlines","title":"Ortiguerra et al v. Grand Isle Shipyard, LLC et al","judge":"CJB"},
+{"at":"2026-11-11T10:55-06:00","case":"2:25-cv-01406","doc":"256","event":"Statement of Corporate Disclosure","title":"Adams v. Taylor-Seidenbach, Inc. et al","judge":"EEF"},
+{"at":"2026-11-11T10:43-06:00","case":"2:26-cv-02221","doc":"6","event":"Waiver of Service Executed","title":"Serigny v. Waste Pro USA, Inc. et al","judge":"CJB"},
+{"at":"2026-11-11T10:39-06:00","case":"2:26-cv-02555","doc":"11","event":"Notice (Other)","title":"Island Oil Ltd. v. Hadeel MV","judge":""},
+{"at":"2026-11-11T10:19-06:00","case":"2:26-cv-00308","doc":"9","event":"Dismiss Case","title":"Cortie v. Sutton Specialty Insurance Company","judge":""},
 {"at":"2026-11-11T10:13-06:00","case":"2:26-cv-02053","doc":"12","event":"Declaration","title":"Randell v. Dollar Tree Stores, Inc.","judge":"SSV"},
 {"at":"2026-11-11T10:12-06:00","case":"2:26-cv-00289","doc":"57","event":"Supplemental Memorandum","title":"Jones v. W&T Offshore Inc et al","judge":"LMA"},
 {"at":"2026-11-11T10:02-06:00","case":"2:26-cv-01995","doc":"10","event":"Statement of Corporate Disclosure","title":"Lewis et al v. Mitsubishi Motors North America, Inc.","judge":"GGG"},
@@ -2904,15 +2911,5 @@
 {"at":"2026-10-28T11:33-05:00","case":"2:25-cv-01233","doc":"44","event":"~Util - Set/Reset Hearings","title":"Morrison et al v. Louisiana State Department of Children Family Services et al","judge":"JTM"},
 {"at":"2026-10-28T11:33-05:00","case":"2:25-cv-01233","doc":"44","event":"Order","title":"Morrison et al v. Louisiana State Department of Children Family Services et al","judge":"JTM"},
 {"at":"2026-10-28T11:30-05:00","case":"2:25-cv-00686","doc":"96","event":"Notice (Other)","title":"McIntyre v. Huntington Ingalls Incorporated et al","judge":"ILRL"},
-{"at":"2026-10-28T11:30-05:00","case":"2:24-cv-01376","doc":"49","event":"Order on Motion for Extension of Time to Amend","title":"Sullen v. Hutson et al","judge":"JTM"},
-{"at":"2026-10-28T11:24-05:00","case":"2:26-cv-01688","doc":"17","event":"Terminate Deadlines and Hearings","title":"Rogers v. Ochsner Clinic Foundation, et al","judge":"EEF"},
-{"at":"2026-10-28T11:24-05:00","case":"2:26-cv-01688","doc":"17","event":"Order","title":"Rogers v. Ochsner Clinic Foundation, et al","judge":"EEF"},
-{"at":"2026-10-28T11:24-05:00","case":"2:26-cv-00913","doc":"","event":"Text Order","title":"Lecompte v. Ro Boats, LLC et al","judge":"WBV"},
-{"at":"2026-10-28T11:21-05:00","case":"2:24-cv-02599","doc":"82","event":"Extension of Deadlines","title":"Garon v. Illinois Central Railroad Company","judge":"SM"},
-{"at":"2026-10-28T11:20-05:00","case":"2:24-cv-02298","doc":"","event":"Text Order","title":"CMP, L.L.C. v Board of Commissioners for the Lafitte Area independent Levee District","judge":"WBV"},
-{"at":"2026-10-28T11:17-05:00","case":"2:26-cv-02469","doc":"7","event":"Statement of Corporate Disclosure","title":"Collins v. American Security Insurance Company","judge":"LMA"},
-{"at":"2026-10-28T11:16-05:00","case":"2:25-cv-01446","doc":"59","event":"Dismiss Case","title":"Lambert v. Safeport Insurance Company et al","judge":"SM"},
-{"at":"2026-10-28T11:15-05:00","case":"2:26-cv-02469","doc":"6","event":"Notice of Compliance","title":"Collins v. American Security Insurance Company","judge":"LMA"},
-{"at":"2026-10-28T11:14-05:00","case":"2:26-cv-00224","doc":"10","event":"Dismiss","title":"Clark v. DVM Farms, LLC et al","judge":"SSV"},
-{"at":"2026-10-28T11:14-05:00","case":"2:26-cv-00224","doc":"10","event":"Dismiss Case","title":"Clark v. DVM Farms, LLC et al","judge":"SSV"}
+{"at":"2026-10-28T11:30-05:00","case":"2:24-cv-01376","doc":"49","event":"Order on Motion for Extension of Time to Amend","title":"Sullen v. Hutson et al","judge":"JTM"}
 ]
