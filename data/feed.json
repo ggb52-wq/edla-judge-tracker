@@ -1,4 +1,14 @@
 [
+{"at":"2026-11-11T14:14-06:00","case":"2:25-cv-01355","doc":"270","event":"Dismiss Party","title":"Landix v. Taylor Seidenbach, Inc. et al","judge":"BSL"},
+{"at":"2026-11-11T14:10-06:00","case":"2:26-cv-01679","doc":"54","event":"Leave to File Document","title":"Cortez et al v. Huntington Ingalls Incorporated et al","judge":"JCZ"},
+{"at":"2026-11-11T14:02-06:00","case":"2:26-cv-02399","doc":"19","event":"Extension of Time to Answer","title":"Hills et al v. PAC Housing Group, LLC et al","judge":""},
+{"at":"2026-11-11T13:59-06:00","case":"2:26-cv-02020","doc":"5","event":"Extension of Time to Answer","title":"Henry v. Armand's Food, LLC","judge":""},
+{"at":"2026-11-11T13:59-06:00","case":"2:25-cv-01355","doc":"269","event":"Dismiss Party","title":"Landix v. Taylor Seidenbach, Inc. et al","judge":"BSL"},
+{"at":"2026-11-11T13:56-06:00","case":"2:23-cv-06937","doc":"257","event":"Reopen Case","title":"Bracy v. ABB, Inc. et al","judge":"BSL"},
+{"at":"2026-11-11T13:51-06:00","case":"2:26-cv-01364","doc":"9","event":"Statement of Corporate Disclosure","title":"Pierce v. Smitty's Supply, Inc.","judge":"ASJ"},
+{"at":"2026-11-11T13:35-06:00","case":"2:25-cv-00447","doc":"84","event":"Appear Pro Hac Vice","title":"Jones v. Savage Refinery Services, LLC et al","judge":"WBV"},
+{"at":"2026-11-11T13:30-06:00","case":"2:26-cv-02476","doc":"10","event":"Continue","title":"Erhabor-Emokpae v. Cargill, Inc.","judge":""},
+{"at":"2026-11-11T13:25-06:00","case":"2:26-cv-02232","doc":"7","event":"Miscellaneous Relief","title":"Dudley v. Kotler et al","judge":"WJC"},
 {"at":"2026-11-11T13:03-06:00","case":"2:26-cv-02178","doc":"9","event":"Notice (Other)","title":"Johnson et al v. International Paper Company","judge":"ILRL"},
 {"at":"2026-11-11T12:58-06:00","case":"2:26-cv-01636","doc":"34","event":"Continue","title":"Moret  et al v. Bruno & Tervalon, LLP et al","judge":"SSV"},
 {"at":"2026-11-11T12:32-06:00","case":"2:26-cv-02018","doc":"7","event":"Summons Returned Executed","title":"Lioness Holdings Group LLC v. Color Gallery, Inc. et al","judge":""},
@@ -2852,15 +2862,5 @@
 {"at":"2026-10-28T14:33-05:00","case":"2:26-cv-01668","doc":"13","event":"Order on Motion to Dismiss Case","title":"BDR Consulting, LLC v. Carondelet Partners, LLC","judge":"BWA"},
 {"at":"2026-10-28T14:32-05:00","case":"2:25-cv-01281","doc":"25","event":"Order on Motion to Dismiss","title":"Zeller v. Arc of Greater New Orleans","judge":"SSV"},
 {"at":"2026-10-28T14:30-05:00","case":"2:26-cv-02358","doc":"7","event":"Waiver of Service Executed","title":"Jackson v. Tidewater, Inc. et al","judge":"SSV"},
-{"at":"2026-10-28T14:30-05:00","case":"2:25-cv-01062","doc":"56","event":"Miscellaneous Relief","title":"Jynes v. Orleans Parish Sheriff's Office et al","judge":"ASJ"},
-{"at":"2026-10-28T14:25-05:00","case":"2:26-cv-02307","doc":"7","event":"Scheduling Order","title":"Burton v. Rodriguez et al","judge":"BSL"},
-{"at":"2026-10-28T14:24-05:00","case":"2:26-cv-01600","doc":"19","event":"Order","title":"Roussell v. National Consumer Telecommunications and Utility Exchange, Inc et al","judge":"BWA"},
-{"at":"2026-10-28T14:20-05:00","case":"2:26-cv-02383","doc":"10","event":"Amended Complaint","title":"Harris vs. Penn Entertainment, Inc.","judge":"WBV"},
-{"at":"2026-10-28T14:19-05:00","case":"2:26-cv-01157","doc":"13","event":"Order on Motion to Enroll as Counsel of Record","title":"Progressive Paloverde Insurance Company v. Moffatt, et al","judge":"SSV"},
-{"at":"2026-10-28T14:15-05:00","case":"2:26-cv-02463","doc":"5","event":"Set Hearings","title":"Johnson v. Dollar Tree Stores, Inc.","judge":"SM"},
-{"at":"2026-10-28T14:15-05:00","case":"2:26-cv-02463","doc":"5","event":"Order","title":"Johnson v. Dollar Tree Stores, Inc.","judge":"SM"},
-{"at":"2026-10-28T14:15-05:00","case":"2:26-cv-02007","doc":"13","event":"Order on Motion to Appear Pro Hac Vice","title":"Jamhour v. Stonebridge Hospitality Associates, LLC et al","judge":"BWA"},
-{"at":"2026-10-28T14:12-05:00","case":"2:26-cv-02352","doc":"6","event":"Notice of Compliance","title":"Warner et al v. Cabrera et al","judge":"ILRL"},
-{"at":"2026-10-28T14:12-05:00","case":"2:26-cv-02193","doc":"9","event":"Set Hearings","title":"Matthews v. Kipp New Orleans Schools","judge":"SM"},
-{"at":"2026-10-28T14:12-05:00","case":"2:26-cv-02193","doc":"9","event":"Order","title":"Matthews v. Kipp New Orleans Schools","judge":"SM"}
+{"at":"2026-10-28T14:30-05:00","case":"2:25-cv-01062","doc":"56","event":"Miscellaneous Relief","title":"Jynes v. Orleans Parish Sheriff's Office et al","judge":"ASJ"}
 ]
