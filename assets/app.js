@@ -87,7 +87,7 @@
   // The Requirements and Trade secrets pages were removed Nov. 6, 2026; their addresses open Home.
   // The Court page's tables moved to the bottom of Home on Nov. 10, 2026: #court/outcomes opens Home at that table.
   const LEGACY = { overview: ['judges'], rules: ['judges'], tradesecrets: ['judges'], court: ['judges', 'orders'], orders: ['judges', 'orders'], outcomes: ['judges', 'outcomes'], finder: ['opinions'] };
-  const emptyFinder = () => ({ q: '', judge: '', type: '', oc: '', pdf: false, month: '' });
+  const emptyFinder = () => ({ q: '', judge: '', type: '', oc: '', pdf: false, month: '', text: '' });
   const state = { page: 'judges', judge: '', cmp: [], vs: [], view: 'orders', period: '', f: emptyFinder(), limit: 100,
     mt: { view: 'past', q: '', judge: '', limit: 100 }, jf: { q: '', type: '', judge: '' }, ocGroup: 'r12', hoursJudge: '', sorts: {},
     rtab: '', act: { q: '', judge: '', kind: '', days: '7', limit: 300 }, cal: { week: '', judge: '', view: '', subs: false }, tr: { q: '', judge: '', view: 'closed' }, mag: '', mtab: '', mgLimit: 25, mgAll: false, editor: false, data: null, stats: null, cases: [], pages: {} };
@@ -347,7 +347,7 @@
     if (page === 'judges' && VIEWS.some(([k]) => k === parts[1])) { state.view = parts[1]; state.homeJump = true; }   // an address that names a table opens Home at the tables
     if (page === 'opinions') {
       const f = emptyFinder(); f.q = p.get('q') || ''; f.judge = judgeCode(p.get('judge')); f.type = Object.hasOwn(typeLabel, p.get('type') || '') && p.get('type') !== '|' ? p.get('type') : '';
-      f.oc = p.get('oc') || ''; f.pdf = p.get('pdf') === '1'; f.month = /^\d{4}-\d{2}$/.test(p.get('month') || '') ? p.get('month') : '';
+      f.oc = p.get('oc') || ''; f.pdf = p.get('pdf') === '1'; f.month = /^\d{4}-\d{2}$/.test(p.get('month') || '') ? p.get('month') : ''; f.text = (p.get('text') || '').slice(0, 200);
       state.f = f;
     }
     if (page === 'trials') state.tr = { q: p.get('q') || '', judge: judgeCode(p.get('judge')), view: ['feed', 'decisions'].includes(p.get('view')) ? p.get('view') : 'closed' };
@@ -363,7 +363,7 @@
     if (page === 'activity' && o.act) { const a = o.act; if (a.q) p.set('q', a.q); if (a.judge) p.set('judge', a.judge); if (a.kind) p.set('kind', a.kind); if (a.days && a.days !== '7') p.set('days', a.days); }
     if (page === 'compare' && o.cmp && o.cmp.length) path += '/' + o.cmp.join(',');
     if (page === 'judges' && o.view) path += '/' + o.view;
-    if (page === 'opinions' && o.f) { const f = o.f; if (f.q) p.set('q', f.q); if (f.judge) p.set('judge', f.judge); if (f.type) p.set('type', f.type); if (f.oc) p.set('oc', f.oc); if (f.pdf) p.set('pdf', '1'); if (f.month) p.set('month', f.month); }
+    if (page === 'opinions' && o.f) { const f = o.f; if (f.q) p.set('q', f.q); if (f.judge) p.set('judge', f.judge); if (f.type) p.set('type', f.type); if (f.oc) p.set('oc', f.oc); if (f.pdf) p.set('pdf', '1'); if (f.month) p.set('month', f.month); if (f.text) p.set('text', f.text); }
     if (page === 'trials' && o.tr) { if (o.tr.q) p.set('q', o.tr.q); if (o.tr.judge) p.set('judge', o.tr.judge); if (o.tr.view && o.tr.view !== 'closed') p.set('view', o.tr.view); }
     if (page === 'motions' && o.mt) { if (o.mt.judge) p.set('judge', o.mt.judge); if (o.mt.view && o.mt.view !== 'past') p.set('view', o.mt.view); }
     if (state.period) p.set('period', state.period);
@@ -523,7 +523,7 @@
     const every = Math.ceil(rows.length / Math.max(2, Math.floor(W / 46)));
     svg.append('g').attr('transform', `translate(0,${H - m.b})`)
       .call(d3.axisBottom(x).tickValues(rows.map((r) => r.month).filter((_, i) => i % every === 0)).tickSize(0).tickPadding(8).tickFormat((k) => d3.utcFormat(k.endsWith('-01') ? '%b ’%y' : '%b')(utc(k + '-01')))).call(axisStyle);
-    svg.append('g').attr('transform', `translate(${m.l},0)`).call(d3.axisLeft(y).ticks(4).tickSize(-(W - m.l - m.r)).tickPadding(6).tickFormat(d3.format('~s'))).call(axisStyle);
+    svg.append('g').attr('transform', `translate(${m.l},0)`).call(d3.axisLeft(y).ticks(Math.min(4, y.domain()[1])).tickSize(-(W - m.l - m.r)).tickPadding(6).tickFormat(d3.format('~s'))).call(axisStyle);
     const bw = Math.min(24, x.bandwidth());
     rows.forEach((r) => {
       const x0 = x(r.month) + (x.bandwidth() - bw) / 2; let acc = 0;
@@ -584,7 +584,7 @@
     const every = Math.ceil(rows.length / Math.max(2, Math.floor((W - m.l - m.r) / 54)));
     svg.append('g').attr('transform', `translate(0,${H - m.b})`).call(d3.axisBottom(x).tickValues(rows.filter((_, i) => (rows.length - 1 - i) % every === 0).map((r) => r.date))
       .tickFormat((d) => d3.utcFormat(rows.length <= 7 ? '%a %-m/%-d' : '%b %-d')(utc(d))).tickSize(0).tickPadding(8)).call(axisStyle);
-    svg.append('g').attr('transform', `translate(${m.l},0)`).call(d3.axisLeft(y).ticks(4).tickSize(-(W - m.l - m.r)).tickPadding(6).tickFormat(d3.format('~s'))).call(axisStyle);
+    svg.append('g').attr('transform', `translate(${m.l},0)`).call(d3.axisLeft(y).ticks(Math.min(4, y.domain()[1])).tickSize(-(W - m.l - m.r)).tickPadding(6).tickFormat(d3.format('~s'))).call(axisStyle);
     const bw = Math.min(34, x.bandwidth());
     rows.forEach((r) => {
       const x0 = x(r.date) + (x.bandwidth() - bw) / 2; let acc = 0; const sum = total(r);
@@ -1520,11 +1520,150 @@
     $('cmp-legend').replaceChildren(legendItem('var(--judge)', 'The judge (by month: merits rulings)'), legendItem('var(--court)', 'Median judge, all judges (by month: other opinions)'));
   }
 
+  // ------------------------------------------------------------ full-text search of the written opinions
+  // The updater turns opinions_text/ into an index (data/search/, scripts/search_index.py): for every word, the
+  // opinions containing it, in a few sealed segments and one open one. The browser fetches only the files for the
+  // words typed. Phrases, and the sentence shown under a result, are checked against the opinion's own text file,
+  // fetched for the opinions on screen. Opinion text is court text: it is shown as text nodes, never as markup.
+  const FT_DIR = 'data/search/'; const TEXT_DIR = 'opinions_text/';
+  const FT_PHRASE_ROUND = 400;   // opinions whose text is fetched to check a phrase, per round
+  const ftNorm = (t) => String(t || '').normalize('NFKC').toLowerCase().replace(/[’']/g, '');
+  const ftWords = (t) => ftNorm(t).match(/[a-z0-9]+/g) || [];          // every word, for phrases
+  let ftStop = new Set();
+  const ftIndexed = (w) => w.length >= 2 && w.length <= 24 && !ftStop.has(w) && !(/^\d+$/.test(w) && w.length > 6);   // as tokenize() in scripts/search_index.py
+  const FT = { q: '', state: 'idle', cand: null, phrases: [], terms: [], ignored: [], checked: new Map(), busy: false, err: '', token: 0 };
+  let ftManifest = null; let ftManifestAt = 0; const ftDocs = new Map(); const ftShards = new Map(); const ftTexts = new Map();
+  const ftJson = (path, fresh) => fetch(path, fresh ? { cache: 'no-cache' } : {}).then((r) => { if (r.status === 404) return null; if (!r.ok) throw new Error(path + ' ' + r.status); return r.json(); });
+  async function ftLoadManifest() {
+    if (ftManifest && Date.now() - ftManifestAt < 10 * 60e3) return ftManifest;
+    const m = await ftJson(FT_DIR + 'manifest.json', true);
+    if (!m || !Array.isArray(m.segments)) throw new Error('The opinion text index has not been built yet.');
+    if (ftManifest) m.segments.forEach((s) => { const old = ftManifest.segments.find((x) => x.id === s.id); if (!old || old.sig !== s.sig) { ftDocs.delete(s.id); [...ftShards.keys()].filter((k) => k.startsWith(s.id + '/')).forEach((k) => ftShards.delete(k)); } });
+    ftManifest = m; ftManifestAt = Date.now(); ftStop = new Set(m.stop || []);
+    return m;
+  }
+  const ftSegDocs = (seg) => { if (!ftDocs.has(seg.id)) ftDocs.set(seg.id, ftJson(FT_DIR + seg.id + '/docs.json', !seg.sealed).then((d) => d || [])); return ftDocs.get(seg.id); };
+  const ftShard = (seg, prefix) => { const k = seg.id + '/' + prefix; if (!ftShards.has(k)) ftShards.set(k, ftJson(FT_DIR + seg.id + '/t/' + prefix + '.json', !seg.sealed).then((d) => d || {})); return ftShards.get(k); };
+  function ftDecode(blob) {
+    const bin = atob(blob); const ids = []; let prev = -1; let gap = 0; let shift = 0;
+    for (let i = 0; i < bin.length; i += 1) { const b = bin.charCodeAt(i); gap |= (b & 0x7f) << shift; if (b & 0x80) shift += 7; else { prev += gap; ids.push(prev); gap = 0; shift = 0; } }
+    return ids;
+  }
+  // The opinions containing one word (or, with prefix, any word that starts with it), across every segment.
+  async function ftLookup(m, term, prefix) {
+    const out = new Set();
+    await Promise.all(m.segments.filter((s) => s.docs).map(async (seg) => {
+      const [docs, shard] = await Promise.all([ftSegDocs(seg), ftShard(seg, term.slice(0, seg.width))]);
+      const blobs = prefix ? Object.keys(shard).filter((t) => t.startsWith(term)).map((t) => shard[t]) : Object.hasOwn(shard, term) ? [shard[term]] : [];
+      blobs.forEach((b) => ftDecode(b).forEach((i) => { if (docs[i]) out.add(docs[i]); }));
+    }));
+    return out;
+  }
+  // 'spoliation "adverse inference" sanction*' gives words, phrases (every word in order), and prefixes.
+  function ftParse(q) {
+    const phrases = []; const terms = []; const ignored = [];
+    const word = (w, star) => { if (star && w.length >= 3) terms.push({ t: w, prefix: true }); else if (ftIndexed(w)) terms.push({ t: w }); else ignored.push(w); };
+    const rest = String(q).replace(/["“”]([^"“”]+)["“”]/g, (_, p) => { const w = ftWords(p); if (w.length > 1) phrases.push(w); else if (w.length) word(w[0]); return ' '; });
+    rest.split(/\s+/).filter(Boolean).forEach((raw) => { const w = ftWords(raw); if (w.length > 1) phrases.push(w); else if (w.length) word(w[0], /\*$/.test(raw)); });   // "12(b)(6)" and "non-compete" are phrases
+    phrases.forEach((p) => p.filter(ftIndexed).forEach((w) => terms.push({ t: w, fromPhrase: true })));
+    return { phrases, terms, ignored };
+  }
+  async function ftSearch(q) {
+    const token = FT.token += 1;
+    Object.assign(FT, { q, state: 'loading', cand: null, phrases: [], terms: [], ignored: [], checked: new Map(), err: '' });
+    try {
+      const m = await ftLoadManifest();
+      const P = ftParse(q);
+      if (!P.terms.length) throw new Error(P.ignored.length ? 'Those words are too common to search for. Add another word.' : 'Type a word of two or more letters.');
+      const sets = await Promise.all(P.terms.map((x) => ftLookup(m, x.t, x.prefix)));
+      if (token !== FT.token) return;
+      sets.sort((a, b) => a.size - b.size);
+      const cand = new Set([...sets[0]].filter((k) => sets.every((s) => s.has(k))));
+      Object.assign(FT, { state: 'ready', cand, phrases: P.phrases, terms: P.terms, ignored: P.ignored });
+    } catch (e) { if (token !== FT.token) return; Object.assign(FT, { state: 'error', err: e.message || 'The opinion text index could not be read.' }); }
+    if (state.page === 'opinions' && state.f.text === q) renderOpinions();
+  }
+  const ftKey = (o) => o.case + '|' + o.doc;
+  // Whether an opinion passes the full-text box: in the index's answer, and, for a phrase, checked against its text.
+  const ftPass = (o, F) => !F.text || (FT.q === F.text && !!FT.cand && FT.cand.has(ftKey(o)) && (!FT.phrases.length || FT.checked.get(ftKey(o)) === true));
+  function ftText(key) {
+    if (!ftTexts.has(key)) {
+      if (ftTexts.size > 1500) ftTexts.delete(ftTexts.keys().next().value);
+      const [c, d] = key.split('|');
+      ftTexts.set(key, fetch(TEXT_DIR + c.replace(':', '_') + '_' + d + '.txt').then((r) => (r.ok ? r.text() : '')).catch(() => ''));
+    }
+    return ftTexts.get(key);
+  }
+  const ftHasPhrases = (text) => { const n = ' ' + ftWords(text).join(' ') + ' '; return FT.phrases.every((p) => n.includes(' ' + p.join(' ') + ' ')); };
+  // Run fn over items a few at a time.
+  async function ftPool(items, fn, n = 8) { let i = 0; await Promise.all(Array.from({ length: Math.min(n, items.length) }, async () => { while (i < items.length) { const x = items[i]; i += 1; await fn(x); } })); }
+  // Check the phrase in the newest unchecked opinions that pass every other filter; redraw as the answers come in.
+  async function ftCheckPhrases(pending) {
+    if (FT.busy || !pending.length) return;
+    FT.busy = true; const token = FT.token; const batch = pending.slice(0, FT_PHRASE_ROUND);
+    await ftPool(batch, async (o) => { const text = await ftText(ftKey(o)); if (token === FT.token) FT.checked.set(ftKey(o), ftHasPhrases(text)); });
+    FT.busy = false;
+    if (state.page === 'opinions') renderOpinions();   // also when the query changed meanwhile: its own check starts now
+  }
+  // A pattern that finds the query in the opinion's own text, for the sentence shown under a result.
+  const ftEsc = (w) => w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const ftWordRe = (w) => ftEsc(w).replace(/s$/, "['’]?s");
+  // No lookbehind (older Safari): the character before a match is captured and stepped over.
+  function ftPattern() {
+    const parts = [...FT.phrases.map((p) => p.map(ftWordRe).join('[^A-Za-z0-9]+')), ...FT.terms.filter((x) => !x.fromPhrase).map((x) => ftWordRe(x.t) + (x.prefix ? '[A-Za-z0-9]*' : ''))];
+    return parts.length ? new RegExp('(^|[^A-Za-z0-9])(' + parts.join('|') + ')(?![A-Za-z0-9])', 'gi') : null;
+  }
+  function ftMatches(str, re) {
+    const out = []; re.lastIndex = 0; let m;
+    while ((m = re.exec(str))) { if (!m[2]) { re.lastIndex += 1; continue; } out.push({ i: m.index + m[1].length, len: m[2].length }); re.lastIndex = m.index + m[1].length + m[2].length; }
+    return out;
+  }
+  // The passage around the first match, as text nodes with the matches marked, and the number of matches in the opinion.
+  function ftSnippet(text, re) {
+    if (!text || !re) return null;
+    const flat = text.replace(/\s+/g, ' ');
+    const all = ftMatches(flat, re); if (!all.length) return null;
+    const first = all[0];
+    let a = Math.max(0, first.i - 150); let b = Math.min(flat.length, first.i + first.len + 190);
+    if (a > 0) { const sp = flat.indexOf(' ', a); if (sp > 0 && sp < first.i) a = sp + 1; }
+    if (b < flat.length) { const sp = flat.lastIndexOf(' ', b); if (sp > first.i + first.len) b = sp; }
+    const nodes = [a > 0 ? '… ' : '']; let at = a;
+    all.filter((m) => m.i >= a && m.i + m.len <= b).forEach((m) => { if (m.i > at) nodes.push(flat.slice(at, m.i)); nodes.push(el('mark', { textContent: flat.slice(m.i, m.i + m.len) })); at = m.i + m.len; });
+    nodes.push(flat.slice(at, b) + (b < flat.length ? ' …' : ''));
+    return { nodes, n: all.length };
+  }
+  // Fill the passage rows of the table on screen, top to bottom.
+  async function ftFillSnippets(body) {
+    const token = FT.token; const re = ftPattern(); const cells = [...body.querySelectorAll('td[data-ft]')];
+    await ftPool(cells, async (td) => {
+      const text = await ftText(td.dataset.ft); if (token !== FT.token || !td.isConnected) return;
+      const s = ftSnippet(text, re);
+      td.firstChild.replaceChildren(...(s ? [el('span', { className: 'ft-n', textContent: plural(s.n, 'match', 'matches') }), el('span', { className: 'ft-s' }, ...s.nodes)] : [el('span', { className: 'dim', textContent: text ? 'The words are in this opinion but not close together; open the PDF to read it.' : 'The text of this opinion could not be loaded.' })]));
+    }, 6);
+  }
+  // The line under the filters: what was searched, how many opinions have the words, and how far the phrase check has run.
+  function ftStatus(F, pending) {
+    const box = $('op-ft-status'); box.hidden = !F.text; if (!F.text) return;
+    if (FT.q !== F.text || FT.state === 'loading') { box.replaceChildren('Searching the text of the opinions…'); return; }
+    if (FT.state === 'error') { box.replaceChildren(FT.err); return; }
+    const S = state.stats; const onSite = S.recent.filter((o) => FT.cand.has(ftKey(o))).length;
+    const bits = [FT.phrases.length ? plural(onSite, 'opinion') + ' contain every word' : plural(onSite, 'opinion') + (onSite === 1 ? ' contains' : ' contain') + ' ' + (FT.terms.length > 1 ? 'every word' : 'the word')];
+    if (FT.phrases.length) {
+      const site = S.recent.filter((o) => FT.cand.has(ftKey(o))); const done = site.filter((o) => FT.checked.has(ftKey(o))); const ok = done.filter((o) => FT.checked.get(ftKey(o))).length;
+      if (done.length) bits.push((FT.phrases.length > 1 ? 'the phrases are in ' : 'the phrase is in ') + fmt.int(ok) + (done.length < site.length ? ' of the ' + fmt.int(done.length) + ' checked so far' : ''));
+      if (pending.length) bits.push((FT.busy ? 'checking ' : 'not yet checked: ') + plural(pending.length, 'opinion') + ' under these filters' + (pending.length > FT_PHRASE_ROUND ? ', the newest ' + FT_PHRASE_ROUND + ' first' : ''));
+    }
+    if (FT.ignored.length) bits.push('not searched (too common or too short): ' + FT.ignored.join(', '));
+    box.replaceChildren(bits.join(' · ') + '. ', ...(FT.phrases.length && pending.length && !FT.busy ? [el('button', { type: 'button', className: 'linklike', textContent: 'Check the next ' + Math.min(FT_PHRASE_ROUND, pending.length), onclick: () => { ftCheckPhrases(pending); renderOpinions(); } })] : []),
+      el('a', { href: 'methodology.html#fulltext', textContent: 'How this search works' }));
+  }
+
   // ------------------------------------------------------------ page: opinion search
-  function finderRows(F = state.f) {
+  function finderRows(F = state.f, anyPhrase = false) {
     const S = state.stats; const q = F.q.trim().toLowerCase();
+    const inText = anyPhrase ? (o) => FT.q === F.text && !!FT.cand && FT.cand.has(ftKey(o)) : (o) => ftPass(o, F);
     return S.recent.filter((o) => (!F.judge || o.judge === F.judge) && typeMatch(o, F.type) && (!F.oc || ocMatch(o, F.oc))
-      && (!F.pdf || linkKind(o) === 'pdf') && (!F.month || o.date.slice(0, 7) === F.month) && textMatch(o, q));
+      && (!F.pdf || linkKind(o) === 'pdf') && (!F.month || o.date.slice(0, 7) === F.month) && textMatch(o, q) && (!F.text || inText(o)));
   }
   // The opinion search's summary of whatever the filters match: how many, how the motion rulings came out, how long
   // they took, how long the opinions run, by month, and by judge (by ruling type once one judge is picked).
@@ -1540,7 +1679,7 @@
       t.known ? ocBar(t, { labels: true, href: (k) => hashFor('opinions', { f: { ...F, oc: k } }) }) : null,
       el('small', { textContent: t.known ? pctOf(t.granted, t.known) + ' granted in full · ' + plural(t.known, 'coded ruling') : t.n ? 'outcomes not coded yet' : 'none in these results' }));
     $('op-facts').replaceChildren(
-      fact('Opinions', fmt.int(rows.length), plural(cases, 'case') + (rows.length < S.recent.length ? ' · ' + pctOf(rows.length, S.recent.length) + ' of all opinions' : '')),
+      fact('Opinions', fmt.int(rows.length), plural(cases, 'case') + (rows.length < S.recent.length ? ' · ' + (rows.length / S.recent.length < 0.005 ? 'under 1%' : pctOf(rows.length, S.recent.length)) + ' of all opinions' : '')),
       ocFact,
       fact('Median days to ruling', t.nDays ? fmt.med(t.medDays) : '—', t.nDays ? plural(t.nDays, 'ruling') + ' with a filing date' + (t.p25 != null ? ' · middle half ' + fmt.int(Math.round(t.p25)) + '–' + fmt.int(Math.round(t.p75)) : '') : 'no motion filing dates on file'),
       fact('Median length', pages.length ? fmt.med(median(pages)) + (median(pages) === 1 ? ' page' : ' pages') : '—', pages.length ? plural(pages.length, 'opinion') + ' with a page count · longest ' + fmt.int(d3.max(pages)) : 'no page counts on file'));
@@ -1567,15 +1706,22 @@
     const js = $('op-judge'); if (js.options.length < 2) js.append(new Option('All judges', ''), ...judgesAlpha().map((j) => new Option(j.name, j.code)));
     fillTypeSelect($('op-type'));
     if ($('op-q').value !== F.q) $('op-q').value = F.q;
+    if ($('op-text').value !== F.text) $('op-text').value = F.text;
+    // Full text: ask the index once per query; for a phrase, check the opinions the other filters keep, newest first.
+    if (F.text && FT.q !== F.text) ftSearch(F.text);
+    const ftPending = F.text && FT.q === F.text && FT.state === 'ready' && FT.phrases.length ? finderRows(F, true).filter((o) => !FT.checked.has(ftKey(o))) : [];
+    if (ftPending.length && (!FT.checked.size || ftPending.length <= FT_PHRASE_ROUND)) ftCheckPhrases(ftPending);
+    ftStatus(F, ftPending);
     js.value = F.judge; $('op-type').value = F.type; $('op-outcome').value = F.oc === 'rest' ? '' : F.oc; $('op-pdf').checked = F.pdf;
     const chips = [];
     if (F.month) chips.push(['Month: ' + fmtMonth(F.month), { month: '' }]);
     if (F.oc === 'rest') chips.push(['Outcome: mixed, moot, or other', { oc: '' }]);
-    if (F.q || F.judge || F.type || F.oc || F.pdf || F.month) chips.push(['Clear all', emptyFinder()]);
+    if (F.q || F.judge || F.type || F.oc || F.pdf || F.month || F.text) chips.push(['Clear all', emptyFinder()]);
     $('op-chips').replaceChildren(...chips.map(([label, patch]) => el('span', { className: 'fchip' }, label, el('a', { href: hashFor('opinions', { f: { ...F, ...patch } }), textContent: '×', title: 'Remove this filter', 'aria-label': 'Remove: ' + label }))));
     const rows = finderRows(); const shown = rows.slice(0, state.limit);
     drawOpGlance(rows);
     const hasDays = rows.some((o) => o.days != null); const hasPages = rows.some((o) => o.pages != null);
+    const ftOn = !!F.text && FT.q === F.text && FT.state === 'ready';
     const cols = ['Date', 'Judge', 'Case · doc', 'Ruling', 'Outcome'].concat(hasDays ? ['Days to ruling'] : [], hasPages ? ['Pages'] : [], ['Case name'], state.editor ? ['Record'] : []);
     const head = el('thead', {}, el('tr', {}, ...cols.map((c) => el('th', { textContent: c, className: /^(Days|Pages)/.test(c) ? 'r' : '' }))));
     const body = el('tbody', {}, ...(shown.length ? shown.map((o) => {
@@ -1586,9 +1732,12 @@
       if (hasPages) cells.push(el('td', { className: 'num' + (o.pages == null ? ' dim' : ''), textContent: o.pages == null ? '—' : fmt.int(o.pages) }));
       cells.push(el('td', { className: 'wrap', textContent: o.title }));
       if (state.editor) cells.push(el('td', { className: 'txt' }, el('a', { href: recordLink(o), target: '_blank', rel: 'noopener noreferrer', textContent: o.oc ? 'Correct' : 'Record' })));
-      return el('tr', {}, ...cells);
-    }) : [el('tr', {}, el('td', { className: 'txt dim', colSpan: cols.length, textContent: 'No matches.' }))]));
+      if (!ftOn) return el('tr', {}, ...cells);
+      const sn = el('td', { colSpan: cols.length, className: 'ft-cell' }, el('div', { className: 'ft-w' }, el('span', { className: 'dim', textContent: 'Reading the opinion…' }))); sn.dataset.ft = ftKey(o);
+      return [el('tr', { className: 'ft-top' }, ...cells), el('tr', { className: 'ft-row' }, sn)];
+    }).flat() : [el('tr', {}, el('td', { className: 'txt dim', colSpan: cols.length, textContent: F.text && (FT.q !== F.text || FT.state === 'loading' || FT.busy) ? 'Searching…' : 'No matches.' }))]));
     $('op-table').replaceChildren(head, body);
+    if (ftOn) ftFillSnippets(body);
     $('op-count').textContent = rows.length ? (shown.length < rows.length ? fmt.int(shown.length) + ' of ' : '') + plural(rows.length, 'opinion') : '';
     $('op-more').hidden = shown.length >= rows.length;
   }
@@ -3543,7 +3692,8 @@
       sub: (c.judge ? 'Judge ' + S.names[c.judge] : 'Judge not yet known') + ' · ' + (c.title || 'case name not on file'), href: caseHref(c.case) }));
     const typed = normCase(q);
     if (typed && /\D/.test(q.replace(/\s/g, '')) && !cases.some((c) => c.case === typed)) out.push({ kind: 'Case', label: el('code', { textContent: typed }), sub: 'Nothing on file', href: caseHref(typed) });
-    out.push({ kind: 'Search', label: 'Opinions matching “' + q + '”', sub: 'Search written opinions', href: findHref({ q }) });
+    out.push({ kind: 'Search', label: 'Opinions matching “' + q + '”', sub: 'Case names, case numbers, and motion names', href: findHref({ q }) });
+    if (ftWords(q).some((w) => w.length >= 2)) out.push({ kind: 'Full text', label: 'Opinions that say “' + q + '”', sub: 'Search the text of every written opinion', href: findHref({ text: q }) });
     return out;
   }
   const omnis = [];
@@ -3654,6 +3804,8 @@
   $('cmp-add').addEventListener('change', (e) => { if (e.target.value) location.hash = hashFor('compare', { cmp: [...state.cmp, e.target.value] }); });
   const refind = (patch) => { Object.assign(state.f, patch); state.limit = 100; if (state.stats) { renderOpinions(); writeHash(); } };
   $('op-q').addEventListener('input', (e) => refind({ q: e.target.value }));
+  let ftTimer; $('op-text').addEventListener('input', (e) => { clearTimeout(ftTimer); const v = e.target.value; ftTimer = setTimeout(() => refind({ text: v.trim() }), 350); });
+  $('op-text').addEventListener('keydown', (e) => { if (e.key === 'Enter') { clearTimeout(ftTimer); refind({ text: e.target.value.trim() }); } });
   $('op-judge').addEventListener('change', (e) => refind({ judge: e.target.value }));
   $('op-type').addEventListener('change', (e) => refind({ type: e.target.value }));
   $('op-outcome').addEventListener('change', (e) => refind({ oc: e.target.value }));

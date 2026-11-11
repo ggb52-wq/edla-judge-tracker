@@ -618,6 +618,17 @@ h3.mt { margin-top: 16px; }
 #mt-kinds .hb-row { grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr) 34px; }
 #tr-juris .hb-row { grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr) 30px; }
 #c-timeline circle { cursor: default; }
+/* Full-text opinion search: the passage row under each result. */
+.ft-status { margin-top: -4px; font-size: 12.5px; color: var(--ink-2); }
+.ft-status a { margin-left: 4px; }
+.ft-status .linklike { font-size: 12.5px; margin-right: 6px; }
+.t tr.ft-top td { border-bottom: 0; padding-bottom: 3px; }
+.t tr.ft-row td.ft-cell { position: static; text-align: left; white-space: normal; padding: 0 12px 10px 12px; font-size: 12.5px; line-height: 1.55; color: var(--ink-2); max-width: 0; }
+.ft-w { max-width: 150ch; }
+@media (max-width: 760px) { .ft-w { position: sticky; left: 9px; max-width: calc(100vw - 52px); } }
+.t tr.ft-row .ft-n { display: inline-block; margin-right: 10px; font: 11px var(--mono); color: var(--ink-3); white-space: nowrap; }
+.t tr.ft-row mark { background: var(--amber-soft); color: var(--ink); border-bottom: 1px solid var(--amber); border-radius: 1px; padding: 0 1px; }
+.t tbody tr.ft-top:hover td, .t tbody tr.ft-top:hover + tr.ft-row td { background: var(--hover); }
 @media (max-width: 980px) {
   .duo.lead { grid-template-columns: minmax(0, 1fr); }
   .cmp-grid { grid-template-columns: repeat(min(var(--n, 2), 2), minmax(0, 1fr)); }

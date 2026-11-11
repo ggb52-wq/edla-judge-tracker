@@ -497,13 +497,15 @@
       <div class="actions"><button type="button" class="btn" data-csv="op">Export CSV</button></div>
     </div>
     <div class="filters">
-      <label class="grow">Search<input id="op-q" type="search" placeholder="Party, case number, or motion" autocomplete="off"></label>
+      <label class="grow">Opinion text<input id="op-text" type="search" placeholder='Words in the opinion, or "a phrase"' autocomplete="off" spellcheck="false"></label>
+      <label class="grow">Case or motion<input id="op-q" type="search" placeholder="Party, case number, or motion" autocomplete="off"></label>
       <label>Judge<select id="op-judge"></select></label>
       <label>Ruling<select id="op-type"></select></label>
       <label>Outcome<select id="op-outcome"><option value="">Any</option><option value="granted">Granted</option><option value="granted_leave">Granted, leave to amend</option><option value="partial">Granted in part</option><option value="denied">Denied</option><option value="denied_wop">Denied without prejudice</option><option value="mixed">Mixed</option><option value="moot">Moot</option><option value="other">Other</option><option value="known">Any coded outcome</option><option value="none">Not coded yet</option></select></label>
       <label class="check"><input type="checkbox" id="op-pdf"> PDF on file</label>
       <span class="chip-row" id="op-chips"></span>
     </div>
+    <p class="foot-note ft-status" id="op-ft-status" role="status" aria-live="polite" hidden></p>
     <section class="panel" id="op-glance" aria-labelledby="h-op-glance" hidden>
       <div class="ph"><h2 id="h-op-glance">These results</h2><div class="legend" data-legend="types"></div></div>
       <div class="duo flush lead">
