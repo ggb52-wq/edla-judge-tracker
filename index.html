@@ -75,6 +75,10 @@
           <div class="ph"><h2 id="h-latest-home">Latest on the docket</h2><a class="more-link" href="#activity">All activity →</a></div>
           <ol class="act compact withjudge side" id="home-act"></ol>
         </section>
+        <section class="panel" aria-labelledby="h-trials-home" hidden>
+          <div class="ph"><h2 id="h-trials-home">Trials now and next</h2><a class="more-link" href="#trials">All trials →</a></div>
+          <ol class="feed notices" id="home-trials"></ol>
+        </section>
         <section class="panel" aria-labelledby="h-notices-home" hidden>
           <div class="ph"><h2 id="h-notices-home">Court notices</h2><a class="more-link" href="#notices">All notices →</a></div>
           <ol class="feed notices" id="home-notices"></ol>
@@ -224,7 +228,10 @@
             <div><h3>Opinion length, pages <span class="n" id="j-pages-n"></span></h3><div class="chart" id="c-j-pages"></div></div>
             <div><h3>Cases by year filed <span class="n" id="j-years-n"></span></h3><div class="chart" id="c-j-years"></div></div>
           </div>
-          <div class="pb bt"><h3>Nature of suit <span class="n" id="j-nos-n"></span></h3><div id="j-nos"></div></div>
+          <div class="duo">
+            <div><h3>Nature of suit <span class="n" id="j-nos-n"></span></h3><div id="j-nos"></div></div>
+            <div><h3>Referred magistrate judges <span class="n" id="j-ref-n"></span></h3><div id="j-ref"></div></div>
+          </div>
         </section>
 
         <section class="panel" aria-labelledby="h-habits">
@@ -233,20 +240,6 @@
             <p class="cap" id="j-habits-cap"></p>
             <div class="facts" id="j-habits"></div>
           </div>
-        </section>
-
-        <section class="panel" aria-labelledby="h-jact">
-          <div class="ph"><h2 id="h-jact">Recent docket activity</h2><a class="more-link" id="j-act-all" href="#activity">All activity →</a></div>
-          <ol class="act compact" id="j-act"></ol>
-        </section>
-
-        <section class="panel" aria-labelledby="h-jm">
-          <div class="ph"><h2 id="h-jm">Submitted motions</h2><a class="more-link" id="j-motions-all" href="#motions">All submitted motions →</a></div>
-          <div class="pb" id="j-motions"></div>
-        </section>
-        <section class="panel" aria-labelledby="h-jcjra">
-          <div class="ph"><h2 id="h-jcjra">Pending more than six months, as reported</h2><span class="count" id="j-cjra-n"></span><a class="more-link" id="j-cjra-src" target="_blank" rel="noopener noreferrer">Report ↗</a></div>
-          <div class="pb" id="j-cjra"></div>
         </section>
       </div>
 
@@ -281,6 +274,19 @@
         </section>
       </aside>
     </div>
+    <section class="panel" aria-labelledby="h-jact">
+      <div class="ph"><h2 id="h-jact">Recent docket activity</h2><a class="more-link" id="j-act-all" href="#activity">All activity →</a></div>
+      <ol class="act compact" id="j-act"></ol>
+    </section>
+
+    <section class="panel" aria-labelledby="h-jm">
+      <div class="ph"><h2 id="h-jm">Submitted motions</h2><a class="more-link" id="j-motions-all" href="#motions">All submitted motions →</a></div>
+      <div class="pb" id="j-motions"></div>
+    </section>
+    <section class="panel" aria-labelledby="h-jcjra">
+      <div class="ph"><h2 id="h-jcjra">Pending more than six months, as reported</h2><span class="count" id="j-cjra-n"></span><a class="more-link" id="j-cjra-src" target="_blank" rel="noopener noreferrer">Report ↗</a></div>
+      <div class="pb" id="j-cjra"></div>
+    </section>
   </section>
 
   <!-- ============================================================ My cases -->
@@ -317,7 +323,7 @@
     <div class="jgrid">
       <div class="stack">
         <section class="panel" aria-labelledby="h-nt-news"><div class="ph"><h2 id="h-nt-news">Court news</h2></div><ol class="feed notices" id="nt-news"></ol></section>
-        <section class="panel" aria-labelledby="h-nt-orders"><div class="ph"><h2 id="h-nt-orders">General orders</h2><a class="more-link" href="https://www.laed.uscourts.gov/attorney-information/rules-and-orders/general-orders" target="_blank" rel="noopener noreferrer">Court's page ↗</a></div><ol class="feed notices" id="nt-orders"></ol></section>
+        <section class="panel" aria-labelledby="h-nt-orders"><div class="ph"><h2 id="h-nt-orders">General orders</h2><a class="more-link" href="https://www.laed.uscourts.gov/attorney-information/rules-and-orders/general-orders" target="_blank" rel="noopener noreferrer">Court's page ↗</a></div><div class="pb"><h3>General Orders by year <span class="n" id="nt-years-n"></span></h3><div class="chart" id="c-nt-years"></div></div><ol class="feed notices" id="nt-orders"></ol></section>
       </div>
       <aside class="stack">
         <section class="panel" aria-labelledby="h-nt-ap"><div class="ph"><h2 id="h-nt-ap">Fifth Circuit decisions</h2><a class="more-link" href="https://www.ca5.uscourts.gov/opinions" target="_blank" rel="noopener noreferrer">Fifth Circuit ↗</a></div>
@@ -349,6 +355,10 @@
     </div>
     <p class="notice" id="c-empty" hidden></p>
     <div class="kpis five" id="c-kpis" aria-label="Case at a glance"></div>
+    <section class="panel" id="c-time-panel" aria-labelledby="h-ctime" hidden>
+      <div class="ph"><h2 id="h-ctime">Case timeline</h2><div class="legend" id="c-time-legend"></div></div>
+      <div class="pb"><div class="chart" id="c-timeline"></div></div>
+    </section>
     <div class="jgrid">
       <div class="stack">
         <section class="panel" id="c-motions" aria-labelledby="h-cm">
@@ -400,6 +410,10 @@
       </div>
       <div class="actions"><div class="chips" id="cmp-chips"></div><select id="cmp-add" aria-label="Add a judge"></select></div>
     </div>
+    <section class="panel" id="cmp-charts-panel" hidden>
+      <div class="ph"><h2>Side by side</h2><div class="legend" id="cmp-legend"></div></div>
+      <div class="cmp-grid" id="cmp-charts"></div>
+    </section>
     <section class="panel">
       <div class="scroll"><table class="t cmp" id="cmp-table"></table></div>
     </section>
@@ -421,6 +435,13 @@
       <label>Show<select id="act-days"><option value="1">Latest day</option><option value="3">Last 3 days</option><option value="7">Last 7 days</option><option value="14">Last 14 days</option></select></label>
     </div>
     <div class="chip-row kinds" id="act-kinds" role="group" aria-label="Entry type"></div>
+    <section class="panel" id="act-charts" hidden>
+      <div class="ph"><h2>These entries</h2><div class="legend" id="act-legend"></div></div>
+      <div class="duo flush">
+        <div><h3>By day</h3><div class="chart" id="c-act-days"></div></div>
+        <div><h3>By weekday and hour of entry <span class="n" id="act-hours-n"></span></h3><div class="chart" id="c-act-hours"></div></div>
+      </div>
+    </section>
     <section class="panel">
       <ol class="act" id="act-list"></ol>
       <button type="button" class="btn more" id="act-more" hidden>Show more</button>
@@ -483,6 +504,16 @@
       <label class="check"><input type="checkbox" id="op-pdf"> PDF on file</label>
       <span class="chip-row" id="op-chips"></span>
     </div>
+    <section class="panel" id="op-glance" aria-labelledby="h-op-glance" hidden>
+      <div class="ph"><h2 id="h-op-glance">These results</h2><div class="legend" data-legend="types"></div></div>
+      <div class="duo flush lead">
+        <div>
+          <div class="facts two" id="op-facts"></div>
+          <h3 class="mt">By month <span class="n" id="op-month-n"></span></h3><div class="chart" id="c-op-months"></div>
+        </div>
+        <div><h3 id="op-by-h">By judge</h3><div id="op-by"></div></div>
+      </div>
+    </section>
     <section class="panel">
       <div class="ph"><h2>Results</h2><span class="count" id="op-count"></span></div>
       <div class="scroll tall"><table class="t" id="op-table"></table></div>
@@ -534,7 +565,8 @@
       </section>
       <section class="panel" aria-labelledby="h-tr-awards">
         <div class="ph"><h2 id="h-tr-awards">Award amounts</h2><span class="count" id="tr-awards-n"></span></div>
-        <div class="pb"><div class="chart" id="tr-awards"></div></div>
+        <div class="pb"><div class="chart" id="tr-awards"></div>
+          <h3 class="mt">Basis of jurisdiction</h3><div id="tr-juris"></div><p class="foot-note" id="tr-juris-note"></p></div>
       </section>
       <section class="panel" aria-labelledby="h-tr-jnos">
         <div class="ph"><h2 id="h-tr-jnos">Judgment for, by type of case</h2></div>
@@ -684,6 +716,14 @@
       <div class="actions"><button type="button" class="btn" data-csv="mt">Export CSV</button></div>
     </div>
     <div class="kpis four" id="mt-kpis"></div>
+    <section class="panel" id="mt-charts" hidden>
+      <div class="ph"><h2>Motions since the feed was first read</h2><div class="legend" id="mt-legend"></div></div>
+      <div class="trio">
+        <div><h3>Filed by day <span class="n" id="mt-days-n"></span></h3><div class="chart" id="c-mt-days"></div></div>
+        <div><h3>By kind of motion</h3><div id="mt-kinds"></div></div>
+        <div><h3>Days from filing to ruling <span class="n" id="mt-wait-n"></span></h3><div class="chart" id="c-mt-wait"></div></div>
+      </div>
+    </section>
     <div class="filters">
       <label>Show<select id="mt-view"><option value="past">Past submission, no ruling found</option><option value="pending">All awaiting a ruling</option><option value="all">All motions on file</option></select></label>
       <label>Judge<select id="mt-judge"></select></label>

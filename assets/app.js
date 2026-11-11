@@ -284,7 +284,7 @@
     const sum = (rows, k) => d3.sum(rows, (r) => r[k]);
     const medOf = (vals, min = 1) => { const v = vals.filter((x) => x != null); return v.length >= min ? median(v) : null; };
     return {
-      through, opThrough, names, opinions, orders, weekly, recent, allOpinions, monthly, gapDays, hours, pooled, dowCourt, since: { orders: orStart, opinions: opStart }, workingDays: allDays.length,
+      through, opThrough, names, tally, opinions, orders, weekly, recent, allOpinions, monthly, gapDays, hours, pooled, dowCourt, since: { orders: orStart, opinions: opStart }, workingDays: allDays.length,
       motions, allMotions, motionsSince, motionsByJudge: byJudge,
       totals: {
         orders: sum(orders, 'orders'), perDay: allDays.length ? sum(orders, 'orders') / allDays.length : 0,
@@ -484,13 +484,15 @@
   const emptyChart = (box, H, text) => { const { svg, W } = frame(box, H, text); svg.append('text').attr('class', 'empty').attr('x', W / 2).attr('y', H / 2).attr('text-anchor', 'middle').text(text); };
 
   // Lines over weeks; a crosshair snaps to the nearest week and lists every series.
-  function lineChart(box, { rows, series, fmtY, H = 168, label, href }) {
+  function lineChart(box, { rows, series, fmtY, H = 168, label, href, yMax }) {
     if (rows.length < 2) { emptyChart(box, H, 'Not enough weeks in this period'); return; }
     const m = { t: 8, r: 12, b: 22, l: 30 };
     const { svg, W } = frame(box, H, label);
     const x = d3.scaleUtc(d3.extent(rows, (r) => r.dt), [m.l, W - m.r]);
-    const y = d3.scaleLinear([0, (d3.max(rows, (r) => d3.max(series, (s) => s.get(r))) || 1) * 1.08], [H - m.b, m.t]).nice(4);
-    svg.append('g').attr('transform', `translate(0,${H - m.b})`).call(d3.axisBottom(x).ticks(Math.max(2, Math.min(rows.length, Math.floor(W / 80)))).tickFormat(d3.utcFormat('%b %-d')).tickSize(0).tickPadding(8)).call(axisStyle);
+    const y = d3.scaleLinear([0, (yMax || d3.max(rows, (r) => d3.max(series, (s) => s.get(r))) || 1) * 1.08], [H - m.b, m.t]).nice(4);
+    // One label per drawn week, thinned to fit: d3's own time ticks fall back to every week and collide at phone width.
+    const step = Math.ceil(rows.length / Math.max(2, Math.floor((W - m.l - m.r) / 62)));
+    svg.append('g').attr('transform', `translate(0,${H - m.b})`).call(d3.axisBottom(x).tickValues(rows.filter((_, i) => (rows.length - 1 - i) % step === 0).map((r) => r.dt)).tickFormat(d3.utcFormat('%b %-d')).tickSize(0).tickPadding(8)).call(axisStyle);
     svg.append('g').attr('transform', `translate(${m.l},0)`).call(d3.axisLeft(y).ticks(4).tickSize(-(W - m.l - m.r)).tickPadding(6).tickFormat(d3.format('~g'))).call(axisStyle);
     const last = rows[rows.length - 1];
     series.slice().reverse().forEach((s) => {
@@ -511,13 +513,13 @@
   }
 
   // Stacked columns by month. keys: [{k, label, color}]; get(row, k) gives a count; href(row, k) opens those opinions.
-  function monthColumns(box, { rows, keys, get, H = 168, label, href }) {
+  function monthColumns(box, { rows, keys, get, H = 168, label, href, yMax, unit = 'opinion' }) {
     if (!rows.length) { emptyChart(box, H, 'No months in this period'); return; }
     const m = { t: 8, r: 4, b: 22, l: 30 };
     const { svg, W } = frame(box, H, label);
     const x = d3.scaleBand(rows.map((r) => r.month), [m.l, W - m.r]).paddingInner(0.3).paddingOuter(0.1);
     const total = (r) => d3.sum(keys, (k) => get(r, k.k));
-    const y = d3.scaleLinear([0, d3.max(rows, total) || 1], [H - m.b, m.t]).nice(4);
+    const y = d3.scaleLinear([0, yMax || d3.max(rows, total) || 1], [H - m.b, m.t]).nice(4);
     const every = Math.ceil(rows.length / Math.max(2, Math.floor(W / 46)));
     svg.append('g').attr('transform', `translate(0,${H - m.b})`)
       .call(d3.axisBottom(x).tickValues(rows.map((r) => r.month).filter((_, i) => i % every === 0)).tickSize(0).tickPadding(8).tickFormat((k) => d3.utcFormat(k.endsWith('-01') ? '%b ’%y' : '%b')(utc(k + '-01')))).call(axisStyle);
@@ -532,7 +534,7 @@
         acc += v;
       });
       const hitRect = svg.append('rect').attr('x', x(r.month) - x.step() * x.paddingInner() / 2).attr('width', x.step()).attr('y', m.t).attr('height', H - m.t - m.b).attr('fill', 'transparent')
-        .on('pointermove', (e) => tipShow([fmtMonth(r.month) + ': ' + plural(total(r), 'opinion'), ...keys.map((k) => ({ color: k.color, value: fmt.int(get(r, k.k)), label: k.label }))].concat(r.gap ? [plural(r.gap, 'working day') + ' not covered by a Written Opinions Report on file'] : [], href ? ['Click to list these opinions'] : []), e.clientX, e.clientY))
+        .on('pointermove', (e) => tipShow([fmtMonth(r.month) + ': ' + plural(total(r), unit), ...keys.map((k) => ({ color: k.color, value: fmt.int(get(r, k.k)), label: k.label }))].concat(r.gap ? [plural(r.gap, 'working day') + ' not covered by a Written Opinions Report on file'] : [], href ? ['Click to list these opinions'] : []), e.clientX, e.clientY))
         .on('pointerleave', tipHide);
       if (href) hitRect.style('cursor', 'pointer').on('click', () => { location.hash = href(r); });
     });
@@ -570,6 +572,54 @@
     svg.append('circle').attr('cx', x(values.length - 1)).attr('cy', y(values[values.length - 1])).attr('r', 2.5).style('fill', 'var(--judge)');
     return svg.node();
   }
+
+  // Stacked columns by day. rows: [{ date, v: { key: count } }]; keys: [{ k, label, color }], drawn bottom to top with a
+  // 2px gap. onPick(date) makes a column a control.
+  function dayColumns(box, { rows, keys, H = 160, label, unit = 'entry', units }) {
+    const total = (r) => d3.sum(keys, (k) => r.v[k.k] || 0);
+    if (!rows.length || !d3.sum(rows, total)) { emptyChart(box, H, 'Nothing in this range'); return; }
+    const m = { t: 16, r: 4, b: 22, l: 30 }; const { svg, W } = frame(box, H, label);
+    const x = d3.scaleBand(rows.map((r) => r.date), [m.l, W - m.r]).paddingInner(0.26).paddingOuter(0.1);
+    const y = d3.scaleLinear([0, d3.max(rows, total) || 1], [H - m.b, m.t]).nice(4);
+    const every = Math.ceil(rows.length / Math.max(2, Math.floor((W - m.l - m.r) / 54)));
+    svg.append('g').attr('transform', `translate(0,${H - m.b})`).call(d3.axisBottom(x).tickValues(rows.filter((_, i) => (rows.length - 1 - i) % every === 0).map((r) => r.date))
+      .tickFormat((d) => d3.utcFormat(rows.length <= 7 ? '%a %-m/%-d' : '%b %-d')(utc(d))).tickSize(0).tickPadding(8)).call(axisStyle);
+    svg.append('g').attr('transform', `translate(${m.l},0)`).call(d3.axisLeft(y).ticks(4).tickSize(-(W - m.l - m.r)).tickPadding(6).tickFormat(d3.format('~s'))).call(axisStyle);
+    const bw = Math.min(34, x.bandwidth());
+    rows.forEach((r) => {
+      const x0 = x(r.date) + (x.bandwidth() - bw) / 2; let acc = 0; const sum = total(r);
+      keys.forEach((k) => {
+        const v = r.v[k.k] || 0; if (!v) return;
+        const top = y(acc + v); const h = y(acc) - top - (acc > 0 ? 2 : 0); const last = acc + v === sum; const rr = last ? Math.min(3, Math.max(0, h)) : 0;
+        if (h > 0) svg.append('path').style('fill', k.color).attr('d', `M${x0},${top + h}V${top + rr}q0,${-rr} ${rr},${-rr}H${x0 + bw - rr}q${rr},0 ${rr},${rr}V${top + h}Z`);
+        acc += v;
+      });
+      if (sum && rows.length <= 16) svg.append('text').attr('class', 'lbl').attr('x', x0 + bw / 2).attr('y', y(sum) - 4).attr('text-anchor', 'middle').text(fmt.int(sum));
+      svg.append('rect').attr('x', x(r.date) - x.step() * x.paddingInner() / 2).attr('width', x.step()).attr('y', 0).attr('height', H - m.b).attr('fill', 'transparent')
+        .on('pointermove', (e) => tipShow([d3.utcFormat('%A, %b %-d')(utc(r.date)) + ': ' + plural(sum, unit, units), ...keys.map((k) => ({ color: k.color, value: fmt.int(r.v[k.k] || 0), label: k.label }))], e.clientX, e.clientY))
+        .on('pointerleave', tipHide);
+    });
+  }
+  // Horizontal bars split into segments, one row per item, on one scale. rows: [{ label, v: { key: count }, href, tip }].
+  function segBars(rows, segs) {
+    const total = (r) => d3.sum(segs, ([k]) => r.v[k] || 0); const max = d3.max(rows, total) || 1;
+    return el('div', { className: 'sbars' }, ...rows.map((r) => {
+      const track = el('span', { className: 'hb-track' }, ...segs.filter(([k]) => r.v[k]).map(([k, , color]) => { const i = el('i'); i.style.width = (r.v[k] / max) * 100 + '%'; i.style.background = color; return i; }));
+      const row = el(r.href ? 'a' : 'div', { className: 'hb-row' }, el('span', { className: 'sb-l', textContent: r.label }), track, el('span', { className: 'sb-v', textContent: fmt.int(total(r)) }));
+      if (r.href) row.href = r.href;
+      row.dataset.tip = [r.label + ': ' + fmt.int(total(r)), ...segs.map(([k, l]) => l + ' ' + fmt.int(r.v[k] || 0))].concat(r.tip || []).join('\n');
+      return row;
+    }));
+  }
+  // Civil cases with a docket entry in the last 60 days, by judge (data/case_activity.json), as on the home cards.
+  function activeByJudge() {
+    const A = state.data.case_activity || {}; const floor = addDays(todayIso(), -(ACTIVE_DAYS - 1));
+    const caseJudge = new Map(state.cases.map((c) => [c.case, c.judge]));
+    return d3.rollup((A.cases || []).filter((r) => r[2] >= floor), (v) => v.length, (r) => r[1] || caseJudge.get(r[0]) || '');
+  }
+  // Opinion length bins, shared by the judge page and the comparison.
+  const PAGE_BINS = [['1', 1, 1], ['2', 2, 2], ['3–4', 3, 4], ['5–7', 5, 7], ['8–11', 8, 11], ['12–19', 12, 19], ['20–29', 20, 29], ['30+', 30, Infinity]];
+  const pageCount = (rows) => { const c = PAGE_BINS.map(() => 0); rows.forEach((o) => { if (o.pages) c[PAGE_BINS.findIndex(([, a, b]) => o.pages >= a && o.pages <= b)] += 1; }); return c; };
 
   // ------------------------------------------------------------ sortable judge tables (court page, motions by judge)
   // cols: { k, label, title, f, num, bar, sum, href(row) for a link on the value, render(row) for a custom cell, gstart }
@@ -637,7 +687,7 @@
       kpi({ label: 'Civil orders', value: fmt.int(T.orders), sub: 'since ' + fmtDate(S.since.orders), href: hashFor('judges', { view: 'orders' }) }),
       kpi({ label: 'Data through', value: fmtShort(S.through), sub: (S.opThrough < S.through ? 'opinions ' + fmtShort(S.opThrough) + ' · ' : '') + lastRunText(), href: '#log' }),
     );
-    drawHomeCases(); drawHomeNotices();
+    drawHomeCases(); drawHomeNotices(); drawHomeTrials();
     $('home-act').replaceChildren(...actItems(activity().rows.slice(0, 10), { judge: true }));
     drawJudgeCards();
     drawHero();
@@ -1046,7 +1096,7 @@
   }
 
   // Civil orders by weekday and clock hour of entry, with the hour totals as a column row on top.
-  function hourHeat(box, { rows, courtShare, label }) {
+  function hourHeat(box, { rows, courtShare, label, noun = 'civil order', nouns, who = 'this judge', of = 'this judge\'s timed orders' }) {
     const used = rows.map((o) => +o.time.slice(0, 2));
     const lo = Math.min(8, d3.min(used)); const hi = Math.max(17, d3.max(used));
     const hours = d3.range(lo, hi + 1);
@@ -1064,7 +1114,7 @@
       if (byHour[i]) svg.append('path').style('fill', 'var(--judge)').attr('d', `M${x0},${mt - 6}V${y0 + 1.5}q0,-1.5 1.5,-1.5H${x0 + bw - 1.5}q1.5,0 1.5,1.5V${mt - 6}Z`);
       if (courtShare[h]) svg.append('line').attr('x1', x(h)).attr('x2', x(h) + x.bandwidth()).attr('y1', top(courtShare[h])).attr('y2', top(courtShare[h])).style('stroke', 'var(--court)').attr('stroke-width', 2);
       svg.append('rect').attr('x', x(h)).attr('y', 0).attr('width', x.bandwidth()).attr('height', mt - 4).attr('fill', 'transparent')
-        .on('pointermove', (e) => tipShow([hourLong(h) + ' to ' + hourLong((h + 1) % 24), { color: 'var(--judge)', value: fmt.pct0(v), label: 'this judge (' + fmt.int(byHour[i]) + ')' }, { color: 'var(--court)', value: fmt.pct0(courtShare[h] || 0), label: 'all judges' }], e.clientX, e.clientY)).on('pointerleave', tipHide);
+        .on('pointermove', (e) => tipShow([hourLong(h) + ' to ' + hourLong((h + 1) % 24), { color: 'var(--judge)', value: fmt.pct0(v), label: who + ' (' + fmt.int(byHour[i]) + ')' }].concat(courtShare.length ? [{ color: 'var(--court)', value: fmt.pct0(courtShare[h] || 0), label: 'all judges' }] : []), e.clientX, e.clientY)).on('pointerleave', tipHide);
     });
     days.forEach(([w, name], di) => {
       const y = mt + di * ch;
@@ -1072,7 +1122,7 @@
       hours.forEach((h) => {
         const n = grid.get(w + '|' + h) || 0;
         svg.append('rect').attr('x', x(h)).attr('y', y).attr('width', x.bandwidth()).attr('height', ch - 2).attr('rx', 1.5).style('fill', shade(n ? Math.ceil((n / max) * 5) : 0))
-          .on('pointermove', (e) => tipShow([name + ', ' + hourLong(h) + ' to ' + hourLong((h + 1) % 24), plural(n, 'civil order') + ' · ' + pctOf(n, total) + ' of this judge\'s timed orders'], e.clientX, e.clientY)).on('pointerleave', tipHide);
+          .on('pointermove', (e) => tipShow([name + ', ' + hourLong(h) + ' to ' + hourLong((h + 1) % 24), plural(n, noun, nouns) + ' · ' + pctOf(n, total) + ' of ' + of], e.clientX, e.clientY)).on('pointerleave', tipHide);
       });
     });
     const every = Math.ceil(hours.length / Math.max(2, Math.floor((W - ml) / 30)));
@@ -1165,14 +1215,14 @@
   }
 
   // Horizontal share bars in HTML (long labels wrap at phone width): the judge's share as a bar, all judges' as a gray mark.
-  function shareBars(rows, { href } = {}) {
+  function shareBars(rows, { href, hrefTip } = {}) {
     const max = d3.max(rows, (r) => Math.max(r.share, r.court || 0)) || 1;
     return el('div', { className: 'sbars' }, ...rows.map((r) => {
       const track = el('span', { className: 'sb-track' }); const bar = el('i'); bar.style.width = (r.share / max) * 100 + '%'; track.append(bar);
       if (r.court != null) { const mk = el('b'); mk.style.left = (r.court / max) * 100 + '%'; track.append(mk); }
       const row = el(href && r.href ? 'a' : 'div', { className: 'sb-row' }, el('span', { className: 'sb-l', textContent: r.label }), track, el('span', { className: 'sb-v', textContent: fmt.int(r.n) + ' · ' + fmt.pct0(r.share) }));
       if (href && r.href) row.href = r.href;
-      row.dataset.tip = [r.label, 'This judge: ' + fmt.int(r.n) + ' (' + fmt.pct0(r.share) + ')'].concat(r.court != null ? ['All judges: ' + fmt.pct0(r.court) + (r.courtN != null ? ' (' + fmt.int(r.courtN) + ')' : '')] : [], href && r.href ? ['Click to list these opinions'] : []).join('\n');
+      row.dataset.tip = [r.label, 'This judge: ' + fmt.int(r.n) + ' (' + fmt.pct0(r.share) + ')'].concat(r.court != null ? ['All judges: ' + fmt.pct0(r.court) + (r.courtN != null ? ' (' + fmt.int(r.courtN) + ')' : '')] : [], href && r.href ? [hrefTip || 'Click to list these opinions'] : []).join('\n');
       return row;
     }));
   }
@@ -1320,10 +1370,7 @@
     $('j-wait-n').textContent = nWait ? plural(nWait, 'ruling') + ' with a filing date' : '';
 
     // Opinion length.
-    const PB = [['1', 1, 1], ['2', 2, 2], ['3–4', 3, 4], ['5–7', 5, 7], ['8–11', 8, 11], ['12–19', 12, 19], ['20–29', 20, 29], ['30+', 30, Infinity]];
-    const binOf = (p) => PB.findIndex(([, a, b]) => p >= a && p <= b);
-    const pageCount = (rows) => { const c = PB.map(() => 0); rows.forEach((o) => { if (o.pages) c[binOf(o.pages)] += 1; }); return c; };
-    binColumns($('c-j-pages'), { bins: PB.map((b) => b[0]), mine: pageCount(R), court: pageCount(S.recent), label: 'Written opinions by page count, Judge ' + name + ' and all judges', unit: 'pages' });
+    binColumns($('c-j-pages'), { bins: PAGE_BINS.map((b) => b[0]), mine: pageCount(R), court: pageCount(S.recent), label: 'Written opinions by page count, Judge ' + name + ' and all judges', unit: 'pages' });
     $('j-pages-n').textContent = plural(R.filter((o) => o.pages).length, 'opinion') + ' with a page count';
 
     // Cases by year filed.
@@ -1347,6 +1394,15 @@
     $('j-nos').replaceChildren(nrows.length ? shareBars(nrows) : el('p', { className: 'cap', textContent: 'None on file.' }));
     $('j-nos-n').textContent = plural(mineN.length, 'case') + ' with a nature of suit';
 
+    // Magistrate judges the judge's cases are referred to (data/dockets.json `referred`), beside the same shares for all judges.
+    const mjNames = magData().names || {};
+    const refOf = (set) => [...set].map((c) => mjNames[(CI.docket.get(c) || {}).referred] || '').filter(Boolean);
+    const mineR = refOf(CI.byJudge[code] || new Set()); const allR = Object.values(CI.byJudge).flatMap((s) => refOf(s));
+    const rc = d3.rollup(mineR, (v) => v.length, (x) => x); const rcAll = d3.rollup(allR, (v) => v.length, (x) => x);
+    const rrows = magJudges().filter((j) => rc.get(j.code)).map((j) => ({ label: j.name, n: rc.get(j.code), share: rc.get(j.code) / mineR.length, court: allR.length ? (rcAll.get(j.code) || 0) / allR.length : 0, courtN: rcAll.get(j.code) || 0, href: magHref(j.code) }));
+    $('j-ref').replaceChildren(rrows.length ? shareBars(rrows, { href: true, hrefTip: 'Click to open the magistrate judge\'s page' }) : el('p', { className: 'cap', textContent: 'None on file.' }));
+    $('j-ref-n').textContent = plural(mineR.length, 'case') + ' with a referral on file';
+
     // Hearings and trials.
     const ev = procTimeline($('c-j-proc'), { code, name });
     const today = todayIso();
@@ -1364,7 +1420,7 @@
 
   // ------------------------------------------------------------ page: compare
   function renderCompare() {
-    const S = state.stats; const T = S.totals; const codes = state.cmp.filter((c) => S.names[c]);
+    const S = state.stats; const T = S.totals; const D = state.data; const codes = state.cmp.filter((c) => S.names[c]);
     document.title = 'Compare judges · EDLA Analyzer';
     $('cmp-chips').replaceChildren(...codes.map((c) => el('span', { className: 'fchip' }, 'Judge ' + S.names[c],
       el('a', { href: hashFor('compare', { cmp: codes.filter((x) => x !== c) }), textContent: '×', title: 'Remove', 'aria-label': 'Remove Judge ' + S.names[c] }))));
@@ -1372,12 +1428,15 @@
     add.replaceChildren(new Option(codes.length >= 4 ? 'Four judges at most' : '+ Add a judge', ''), ...judgesAlpha().filter((j) => !codes.includes(j.code)).map((j) => new Option(j.name, j.code)));
     add.disabled = codes.length >= 4;
     const table = $('cmp-table');
+    $('cmp-charts-panel').hidden = !codes.length;
     if (!codes.length) { table.replaceChildren(el('tbody', {}, el('tr', {}, el('td', { className: 'txt dim', textContent: 'Add a judge to begin.' })))); return; }
     const ors = codes.map((c) => S.orders.find((r) => r.code === c)); const ops = codes.map((c) => S.opinions.find((r) => r.code === c));
     const head = el('thead', {}, el('tr', {}, el('th', { textContent: 'Figure' }), ...codes.map((c) => el('th', {}, el('a', { href: judgeHref(c), textContent: 'Judge ' + S.names[c] }))), el('th', { textContent: 'All judges' })));
     const body = el('tbody');
     const grp = (label) => body.append(el('tr', { className: 'grp' }, el('td', { colSpan: codes.length + 2, textContent: label })));
     const row = (label, f, all, tip) => body.append(el('tr', {}, el('td', { textContent: label, title: tip || '' }), ...codes.map((c, i) => { const v = f(i); return el('td', { className: 'num' }, v); }), el('td', { className: 'num dim' }, all)));
+    const medAll = (get, f = fmt.med) => f(median(S.opinions.map((r) => get(r.code)))) + ' (median)';
+    const dim = (t) => el('span', { className: 'dim', textContent: t });
     grp('Volume, ' + (state.period ? 'last ' + state.period + ' days' : 'all data'));
     row('Civil orders', (i) => fmt.int(ors[i].orders), fmt.int(T.medOrders) + ' (median)');
     row('Orders per working day', (i) => fmt.d1(ors[i].per_day), fmt.d1(T.medPerDay) + ' (median)');
@@ -1394,16 +1453,112 @@
       const pool = k === 'motion' ? S.pooled.motions : S.pooled[k];
       row(label, (i) => ocCell(get(ops[i]), 'Judge ' + S.names[codes[i]], (oc) => findHref({ judge: codes[i], type: k, oc })), ocCell(pool, 'All judges'));
     });
-    grp('Time to ruling');
-    row('Median days, all motions', (i) => (ops[i].motions.medDays == null ? 'not yet' : fmt.med(ops[i].motions.medDays) + ' (n=' + ops[i].motions.nDays + ')'), T.medDays == null ? 'not yet' : fmt.med(T.medDays) + ' (median)');
+    // Time to ruling: the all-motions line as before, then the motion types with a dated ruling for any judge shown.
+    grp('Time to ruling · median days from the motion\'s filing, written opinions with a filing date');
+    const daysCell = (t) => (t.medDays == null ? dim('not yet') : fmt.med(t.medDays) + ' (n=' + t.nDays + ')');
+    row('All motions', (i) => daysCell(ops[i].motions), T.medDays == null ? 'not yet' : fmt.med(T.medDays) + ' (median)');
+    MCATS.filter(([k]) => k !== 'othermotion' && ops.some((o) => o.cats[k].nDays)).forEach(([k, label]) => {
+      const all = S.recent.filter((o) => o.mcat === k && o.days != null && o.days >= 0).map((o) => o.days);
+      row(label, (i) => daysCell(ops[i].cats[k]), all.length ? fmt.med(median(all)) + ' (all rulings, n=' + all.length + ')' : '—');
+    });
+    // The docket now: active cases and the motions the feed has shown.
+    const active = activeByJudge(); const mj = (c) => S.motionsByJudge.find((r) => r.code === c) || { seen: 0, awaiting: 0, past: 0 };
+    grp('On the docket now');
+    row('Active cases', (i) => fmt.int(active.get(codes[i]) || 0), medAll((c) => active.get(c) || 0), 'Civil cases with a docket entry in the last ' + ACTIVE_DAYS + ' days');
+    row('Motions awaiting a ruling', (i) => el('a', { className: 'n', href: hashFor('motions', { mt: { judge: codes[i], view: 'pending' } }), textContent: fmt.int(mj(codes[i]).awaiting) + ' of ' + fmt.int(mj(codes[i]).seen) }),
+      medAll((c) => mj(c).awaiting), 'Civil motions seen in the feed' + (S.motionsSince ? ' since ' + fmtShort(S.motionsSince) : '') + ' with no later order matched to them');
+    row('Past submission, no ruling found', (i) => fmt.int(mj(codes[i]).past), fmt.int(d3.sum(S.opinions, (r) => mj(r.code).past)) + ' (all judges)', 'Submission dates are estimates where the docket text gives none');
+    const cj = cjraData();
+    if (cj.period) {
+      const cjOf = (c) => cjraJudge(c) || {};
+      grp('Reported pending as of ' + fmtDate(cj.period) + ' · Civil Justice Reform Act report');
+      row('Motions pending over six months', (i) => fmt.int(cjOf(codes[i]).motions || 0), fmt.int(d3.sum(S.opinions, (r) => cjOf(r.code).motions || 0)) + ' (all judges)');
+      row('Civil cases pending over three years', (i) => fmt.int(cjOf(codes[i]).cases || 0), fmt.int(d3.sum(S.opinions, (r) => cjOf(r.code).cases || 0)) + ' (all judges)', 'Multidistrict litigation member cases are counted one by one');
+    }
+    // Trials in closed cases (the Federal Judicial Center's file).
+    const allTr = idbAll().filter((r) => r.trial); const trs = codes.map((c) => allTr.filter((r) => r.judge === c));
+    if (allTr.length) {
+      grp('Trials in cases closed since 2020');
+      const mix = (T0) => fmt.int(T0.length) + (T0.length ? ' (' + fmt.int(T0.filter((r) => seriesOf(r) === 'jury').length) + ' jury · ' + fmt.int(T0.filter((r) => seriesOf(r) === 'bench').length) + ' bench)' : '');
+      row('Trials', (i) => el('a', { className: 'n', href: hashFor('trials', { tr: { q: '', judge: codes[i], view: 'closed' } }), textContent: mix(trs[i]) }), mix(allTr));
+      row('Judgment for', (i) => (trs[i].length ? judgmentBar('Judge ' + S.names[codes[i]], trs[i]) : dim('no trials')), judgmentBar('All judges', allTr));
+      const figs = (T0) => trialFigures(T0);
+      row('Median months, filing to trial', (i) => { const f = figs(trs[i]); return f.wm.length ? fmt.d1(median(f.wm)) + ' (n=' + f.wm.length + ')' : dim('—'); }, fmt.d1(median(figs(allTr).wm)) + ' (all trials)', 'Original and removed cases');
+      row('Median trial length, days', (i) => { const f = figs(trs[i]); return f.lens.length ? fmt.med(median(f.lens)) + ' (n=' + f.lens.length + ')' : dim('—'); }, fmt.med(median(figs(allTr).lens)) + ' (all trials)');
+    }
+    // Cases and chambers.
+    const CI = caseIndex(); const dk = (c) => [...(CI.byJudge[c] || [])].map((x) => CI.docket.get(x)).filter(Boolean);
+    grp('Cases and chambers');
+    row('Most common nature of suit', (i) => { const w = dk(codes[i]).filter((r) => r.nos); if (!w.length) return dim('—'); const [k, n] = topOf(d3.rollup(w, (v) => v.length, (r) => r.nos)); return k + ' (' + pctOf(n, w.length) + ')'; }, '');
+    row('Magistrate judge most often referred', (i) => { const w = dk(codes[i]).filter((r) => r.referred); if (!w.length) return dim('—'); const [k, n] = topOf(d3.rollup(w, (v) => v.length, (r) => r.referred));
+      const code = (magData().names || {})[k]; const m = code ? magOf(code) : null; const text = (m ? m.short : k) + ' (' + fmt.int(n) + ' of ' + fmt.int(w.length) + ')';
+      return m ? el('a', { className: 'n', href: magHref(m.code), textContent: text }) : text; }, '');
+    row('Section', (i) => sectionOf(codes[i]) || dim('—'), '');
+    row('Civil submission day', (i) => { const r = subDates(codes[i]); return r ? ((r.day || '').replace(/s$/, '') || '—') + (r.time ? ', ' + r.time : '') : dim('—'); }, '');
+    row('Next submission dates', (i) => nextSubDates(codes[i], 3).map((d) => d3.utcFormat('%b %-d')(utc(d))).join(' · ') || dim('—'), '');
+    row('Posted requirements', (i) => { const n = ((state.pages[codes[i]] || {}).sections || []).length; return n ? el('a', { className: 'n', href: judgeHref(codes[i]), textContent: plural(n, 'tab') }) : dim('Local Rules only'); }, '');
     table.replaceChildren(head, body);
+
+    // Small multiples: one column of charts per judge, each chart on the same scale across the judges shown.
+    const weeks = S.weekly; const yW = d3.max(weeks, (w) => d3.max([...codes.map((c) => w[c]), w.median])) || 1;
+    const months = S.monthly.slice(-24); const yM = d3.max(months, (m) => d3.max(codes, (c) => d3.sum(Object.values(m.by[c] || {})))) || 1;
+    const courtPages = pageCount(S.recent);
+    const grid = $('cmp-charts'); grid.style.setProperty('--n', codes.length);
+    const cells = codes.map((c) => { const boxes = [el('div', { className: 'chart' }), el('div', { className: 'chart' }), el('div', { className: 'chart' })];
+      return { c, boxes, node: el('div', { className: 'cmp-col' }, el('h3', {}, el('a', { href: judgeHref(c), textContent: 'Judge ' + S.names[c] })),
+        el('h4', { textContent: 'Orders per working day, by week' }), boxes[0], el('h4', { textContent: 'Written opinions by month, last 24' }), boxes[1], el('h4', { textContent: 'Opinion length, pages' }), boxes[2]) }; });
+    grid.replaceChildren(...cells.map((x) => x.node));
+    cells.forEach(({ c, boxes }) => {
+      const name = S.names[c];
+      lineChart(boxes[0], { rows: weeks, series: [{ label: 'Judge ' + name, color: 'var(--judge)', get: (r) => r[c] }, { label: 'Median judge', color: 'var(--court)', get: (r) => r.median }], fmtY: fmt.d1, H: 132, yMax: yW,
+        label: 'Civil orders per working day by week, Judge ' + name + ' and the median judge' });
+      monthColumns(boxes[1], { rows: months, keys: [{ k: 'merits', label: 'Merits rulings', color: 'var(--judge)' }, { k: 'other', label: 'Other opinions and R&Rs', color: 'var(--court)' }],
+        get: (r, k) => { const b = r.by[c] || zeroCats(); return k === 'merits' ? meritsOf(b) : b.rr + b.other; }, H: 132, yMax: yM, label: 'Written opinions by month, Judge ' + name,
+        href: (r) => findHref({ judge: c, month: r.month }) });
+      binColumns(boxes[2], { bins: PAGE_BINS.map((b) => b[0]), mine: pageCount(S.recent.filter((o) => o.judge === c)), court: courtPages, unit: 'pages', H: 132, label: 'Written opinions by page count, Judge ' + name + ' and all judges' });
+    });
+    $('cmp-legend').replaceChildren(legendItem('var(--judge)', 'The judge (by month: merits rulings)'), legendItem('var(--court)', 'Median judge, all judges (by month: other opinions)'));
   }
 
   // ------------------------------------------------------------ page: opinion search
-  function finderRows() {
-    const S = state.stats; const F = state.f; const q = F.q.trim().toLowerCase();
+  function finderRows(F = state.f) {
+    const S = state.stats; const q = F.q.trim().toLowerCase();
     return S.recent.filter((o) => (!F.judge || o.judge === F.judge) && typeMatch(o, F.type) && (!F.oc || ocMatch(o, F.oc))
       && (!F.pdf || linkKind(o) === 'pdf') && (!F.month || o.date.slice(0, 7) === F.month) && textMatch(o, q));
+  }
+  // The opinion search's summary of whatever the filters match: how many, how the motion rulings came out, how long
+  // they took, how long the opinions run, by month, and by judge (by ruling type once one judge is picked).
+  function drawOpGlance(rows) {
+    const S = state.stats; const F = state.f;
+    // By month uses the same filters without the month, so a picked month stays among its neighbors (and an empty month can be left).
+    const base = F.month ? finderRows({ ...F, month: '' }) : rows;
+    $('op-glance').hidden = !base.length; if (!base.length) return;
+    const t = S.tally(rows.filter(isMotion));
+    const pages = rows.map((o) => o.pages).filter((p) => p != null);
+    const cases = new Set(rows.map((o) => o.case)).size;
+    const ocFact = el('div', { className: 'fact' }, el('span', { textContent: 'Motion rulings' }), el('b', { textContent: fmt.int(t.n) }),
+      t.known ? ocBar(t, { labels: true, href: (k) => hashFor('opinions', { f: { ...F, oc: k } }) }) : null,
+      el('small', { textContent: t.known ? pctOf(t.granted, t.known) + ' granted in full · ' + plural(t.known, 'coded ruling') : t.n ? 'outcomes not coded yet' : 'none in these results' }));
+    $('op-facts').replaceChildren(
+      fact('Opinions', fmt.int(rows.length), plural(cases, 'case') + (rows.length < S.recent.length ? ' · ' + pctOf(rows.length, S.recent.length) + ' of all opinions' : '')),
+      ocFact,
+      fact('Median days to ruling', t.nDays ? fmt.med(t.medDays) : '—', t.nDays ? plural(t.nDays, 'ruling') + ' with a filing date' + (t.p25 != null ? ' · middle half ' + fmt.int(Math.round(t.p25)) + '–' + fmt.int(Math.round(t.p75)) : '') : 'no motion filing dates on file'),
+      fact('Median length', pages.length ? fmt.med(median(pages)) + (median(pages) === 1 ? ' page' : ' pages') : '—', pages.length ? plural(pages.length, 'opinion') + ' with a page count · longest ' + fmt.int(d3.max(pages)) : 'no page counts on file'));
+    const per = d3.rollup(base, (v) => ({ merits: v.filter((o) => Number(o.merits) && !Number(o.rr)).length, n: v.length }), (o) => o.date.slice(0, 7));
+    const first = d3.min(base, (o) => o.date).slice(0, 7);
+    const months = S.monthly.filter((m) => m.month >= first).map((m) => ({ month: m.month, gap: m.gap, v: per.get(m.month) || { merits: 0, n: 0 } }));
+    monthColumns($('c-op-months'), { rows: months, keys: [{ k: 'merits', label: 'Merits rulings', color: 'var(--judge)' }, { k: 'other', label: 'Other opinions and R&Rs', color: 'var(--court)' }],
+      get: (r, k) => (k === 'merits' ? r.v.merits : r.v.n - r.v.merits), H: 176, label: 'Written opinions matching the filters, by month',
+      href: (r) => hashFor('opinions', { f: { ...F, month: F.month === r.month ? '' : r.month } }) });
+    $('op-month-n').textContent = plural(months.length, 'month') + (F.month ? ' · ' + fmtMonth(F.month) + ' picked' : '') + ' · click a month to list it';
+    if (F.judge) {
+      $('op-by-h').textContent = 'By ruling type';
+      $('op-by').replaceChildren(countBars(CATS.map(([k, l]) => ({ label: l, n: rows.filter((o) => o.cat === k).length, href: hashFor('opinions', { f: { ...F, type: k } }) })).filter((r) => r.n)));
+    } else {
+      $('op-by-h').textContent = 'By judge';
+      const n = d3.rollup(rows, (v) => v.length, (o) => o.judge);
+      $('op-by').replaceChildren(countBars(judgesAlpha().map((j) => ({ label: j.name, n: n.get(j.code) || 0, href: hashFor('opinions', { f: { ...F, judge: j.code } }) }))));
+    }
   }
   function renderOpinions() {
     const S = state.stats; const F = state.f;
@@ -1419,6 +1574,7 @@
     if (F.q || F.judge || F.type || F.oc || F.pdf || F.month) chips.push(['Clear all', emptyFinder()]);
     $('op-chips').replaceChildren(...chips.map(([label, patch]) => el('span', { className: 'fchip' }, label, el('a', { href: hashFor('opinions', { f: { ...F, ...patch } }), textContent: '×', title: 'Remove this filter', 'aria-label': 'Remove: ' + label }))));
     const rows = finderRows(); const shown = rows.slice(0, state.limit);
+    drawOpGlance(rows);
     const hasDays = rows.some((o) => o.days != null); const hasPages = rows.some((o) => o.pages != null);
     const cols = ['Date', 'Judge', 'Case · doc', 'Ruling', 'Outcome'].concat(hasDays ? ['Days to ruling'] : [], hasPages ? ['Pages'] : [], ['Case name'], state.editor ? ['Record'] : []);
     const head = el('thead', {}, el('tr', {}, ...cols.map((c) => el('th', { textContent: c, className: /^(Days|Pages)/.test(c) ? 'r' : '' }))));
@@ -1459,6 +1615,29 @@
     return S.motions.filter((m) => (!M.judge || m.judge === M.judge) && (M.view === 'all' || (M.view === 'pending' ? !m.ruled : m.past))
       && (!q || (m.case + ' ' + m.title + ' ' + m.event).toLowerCase().includes(q)));
   }
+  // Charts over the motions the judge filter keeps: filings by day and what the docket shows since, the kinds of
+  // motion, and how long the matched rulings took.
+  const MT_STATE = [['ruled', 'Ruling found', 'var(--court)'], ['waiting', 'Awaiting a ruling', 'var(--judge)'], ['past', 'Past submission', 'var(--amber)']];
+  const mtState = (m) => (m.ruled ? 'ruled' : m.past ? 'past' : 'waiting');
+  const kindShort = (k) => (k === 'procedural' ? 'Scheduling and procedural' : mcatLabel[k] || 'Other motions');
+  const WAIT_BINS = [['Same day', 0, 1], ['1', 1, 2], ['2–3', 2, 4], ['4–7', 4, 8], ['8–14', 8, 15], ['15+', 15, Infinity]];
+  function drawMotionCharts(all) {
+    const S = state.stats;
+    $('mt-charts').hidden = !all.length; if (!all.length) return;
+    $('mt-legend').replaceChildren(...MT_STATE.map(([, l, c]) => legendItem(c, l)));
+    const states = (v) => Object.fromEntries(MT_STATE.map(([k]) => [k, v.filter((m) => mtState(m) === k).length]));
+    const by = d3.rollup(all, states, (m) => m.date);
+    const days = [];
+    for (let d = d3.min(all, (m) => m.date); d <= S.through; d = addDays(d, 1)) { const w = utc(d).getUTCDay(); if ((w > 0 && w < 6) || by.has(d)) days.push({ date: d, v: by.get(d) || {} }); }
+    dayColumns($('c-mt-days'), { rows: days, keys: MT_STATE.map(([k, label, color]) => ({ k, label, color })), unit: 'motion', H: 236, label: 'Civil motions by the day filed, split by what the docket shows since' });
+    $('mt-days-n').textContent = plural(all.length, 'motion') + ' since ' + fmtShort(d3.min(all, (m) => m.date));
+    const kinds = d3.rollups(all, states, (m) => m.kind).sort((a, b) => d3.sum(Object.values(b[1])) - d3.sum(Object.values(a[1])));
+    $('mt-kinds').replaceChildren(segBars(kinds.map(([k, v]) => ({ label: kindShort(k), v })), MT_STATE));
+    const waits = all.filter((m) => m.daysToRule != null && m.daysToRule >= 0).map((m) => m.daysToRule);
+    stackCols($('c-mt-wait'), { bins: WAIT_BINS.map((b) => b[0]), jury: binCount(waits, WAIT_BINS.map(([, lo, hi]) => [lo, hi])), single: 'var(--judge)', noun: 'rulings', unit: 'days from filing', H: 236,
+      label: 'Days from a motion\'s filing to the order matched to it' });
+    $('mt-wait-n').textContent = waits.length ? plural(waits.length, 'matched ruling') + ' · median ' + dayWord(median(waits)) : '';
+  }
   function renderMotions() {
     const S = state.stats; const M = state.mt; const all = S.motions.filter((m) => !M.judge || m.judge === M.judge);
     document.title = 'Submitted motions · EDLA Analyzer';
@@ -1473,6 +1652,7 @@
       kpi({ label: 'Ruling found', value: fmt.int(all.filter((m) => m.ruled).length), sub: 'matched to a later order' }),
       kpi({ label: 'Past submission', value: fmt.int(past.length), sub: past.length ? (() => { const v = median(past.map((m) => m.daysPast)); return 'no ruling found · median ' + fmt.med(v) + (v === 1 ? ' day' : ' days') + ' past'; })() : 'none right now' }),
     );
+    drawMotionCharts(all);
     const rows = motionRows(); const shown = rows.slice(0, M.limit);
     const table = shown.length ? motionTable(shown, true) : el('table', { className: 't' }, el('tbody', {}, el('tr', {}, el('td', { className: 'txt dim', textContent: S.motions.length ? 'No matches.' : 'None yet.' }))));
     table.id = 'mt-table'; $('mt-table').replaceWith(table);
@@ -1553,6 +1733,8 @@
   const IDB_NOJ = { 0: 'No amount recorded', 1: 'Monetary award', 2: 'Monetary award and other relief', 3: 'Injunction', 4: 'Forfeiture, foreclosure, or condemnation', 5: 'Costs only', 6: 'Costs and attorney fees' };
   const IDB_JURY = { B: 'Both sides', P: 'Plaintiff', D: 'Defendant', N: 'None' };
   const IDB_ORIGIN = { 2: 'Removed', 3: 'On remand', 4: 'Reopened', 5: 'Transferred in', 6: 'MDL', 8: 'Reopened', 9: 'Reopened', 10: 'Reopened', 11: 'Reopened', 12: 'Reopened', 13: 'MDL' };
+  const IDB_JURIS = [[3, 'Federal question'], [4, 'Diversity'], [2, 'United States defendant'], [1, 'United States plaintiff'], [5, 'Local question']];
+  const IDB_PROSE = { 1: 'Self-represented plaintiff', 2: 'Self-represented defendant', 3: 'Both sides self-represented' };
   const IDB_TOP = 9999;  // the IDB's ceiling: amounts are in thousands of dollars, and 9999 stands for $9,999,000 or more
   const idbMoney = (k) => (k >= IDB_TOP ? '$9,999,000 or more' : '$' + fmt.int(k * 1000));
   const idbAward = (r) => (r.amount ? idbMoney(r.amount) + (r.noj === 2 ? ' and other relief' : '') : r.noj != null ? IDB_NOJ[r.noj] || '—' : '—');
@@ -1609,7 +1791,9 @@
     const head = () => el('thead', {}, el('tr', {}, ...cols.map((h) => el('th', { textContent: h }))));
     const tr = (r) => el('tr', {},
       el('td', { className: 'mono', textContent: fmtMDY(r.term) }),
-      el('td', { className: 'txt' }, caseNumLink(r.case, '', 'case'), IDB_ORIGIN[r.origin] ? el('span', { className: 'tag', textContent: IDB_ORIGIN[r.origin].toUpperCase(), title: 'How the case came to the docket, per the clerk\'s code' }) : null),
+      el('td', { className: 'txt' }, caseNumLink(r.case, '', 'case'), IDB_ORIGIN[r.origin] ? el('span', { className: 'tag', textContent: IDB_ORIGIN[r.origin].toUpperCase(), title: 'How the case came to the docket, per the clerk\'s code' }) : null,
+        r.classact ? el('span', { className: 'tag', textContent: 'CLASS ACTION', title: 'Filed as a class action, per the clerk\'s code' }) : null,
+        IDB_PROSE[r.prose] ? el('span', { className: 'tag', textContent: 'PRO SE', title: IDB_PROSE[r.prose] + ', per the clerk\'s code' }) : null),
       el('td', { className: 'ev', textContent: (r.plt || '—') + ' v. ' + (r.def || '—') }),
       el('td', { className: 'txt' }, S.names[r.judge] ? el('a', { className: 'judge', href: judgeHref(r.judge), textContent: S.names[r.judge] }) : el('span', { className: 'dim', textContent: r.jname || 'Not on file' })),
       el('td', { className: 'txt', textContent: IDB_KIND[r.kind] || '—' }),
@@ -1642,7 +1826,7 @@
   const nosGroup = (n) => { const g = NOS_GROUPS.find(([, f]) => n != null && f(n)); return g ? g[0] : 'Other'; };
   const idbTip = (r) => [(r.plt || '—') + ' v. ' + (r.def || '—'), r.case + ' · ' + (IDB_KIND[r.kind] || ''), idbDates(r) ? 'Tried ' + idbDates(r) : 'Closed ' + fmtDate(r.term),
     IDB_FOR[r.judgment] && r.judgment !== 4 ? 'Judgment for ' + IDB_FOR[r.judgment].toLowerCase() : null,
-    awardText(r.case) ? 'Opinion: ' + awardText(r.case) : null, r.amount || !awardText(r.case) ? 'Clerk\'s entry: ' + idbAward(r).toLowerCase() : null].filter(Boolean).join('\n');
+    awardText(r.case) ? 'Opinion: ' + awardText(r.case) : null, r.amount || !awardText(r.case) ? 'Clerk\'s entry: ' + idbAward(r).toLowerCase() : null, r.demanded ? 'Demanded on the cover sheet: ' + idbMoney(r.demanded) : null].filter(Boolean).join('\n');
 
   // One square per trial, stacked in the month (or quarter, on a narrow screen) the trial began. Open squares are trials
   // on the calendar or in the feed whose cases have not closed.
@@ -1675,7 +1859,7 @@
     }));
   }
   // Stacked columns for ordered bins: two series, a 2px gap between them, the total above each column.
-  function stackCols(box, { bins, jury, bench, label, unit, H = 176, single }) {
+  function stackCols(box, { bins, jury, bench, label, unit, H = 176, single, noun }) {
     const total = bins.map((_, i) => jury[i] + (bench ? bench[i] : 0));
     if (!d3.sum(total)) { emptyChart(box, H, 'Nothing on file yet'); return; }
     const m = { t: 16, r: 4, b: 22, l: 26 }; const { svg, W } = frame(box, H, label);
@@ -1691,7 +1875,7 @@
       if (total[i]) svg.append('text').attr('class', 'lbl').attr('x', x0 + bw / 2).attr('y', y(total[i]) - 4).attr('text-anchor', 'middle').text(total[i]);
       svg.append('rect').attr('x', x(b) - x.step() * x.paddingInner() / 2).attr('width', x.step()).attr('y', m.t).attr('height', H - m.t - m.b).attr('fill', 'transparent')
         .on('pointermove', (e) => tipShow([b + (unit ? ' ' + unit : ''), ...(bench ? [{ color: SERIES.jury.color, value: fmt.int(jury[i]), label: 'jury trials' }, { color: SERIES.bench.color, value: fmt.int(bench[i]), label: 'bench trials' }]
-          : [{ color: single || SERIES.jury.color, value: fmt.int(jury[i]), label: single ? 'decisions' : 'trials' }])], e.clientX, e.clientY)).on('pointerleave', tipHide); });
+          : [{ color: single || SERIES.jury.color, value: fmt.int(jury[i]), label: single ? noun || 'decisions' : 'trials' }])], e.clientX, e.clientY)).on('pointerleave', tipHide); });
   }
   const binCount = (values, edges) => edges.map(([lo, hi]) => values.filter((v) => v >= lo && v < hi).length);
   // Awards on a log scale, one dot per case, a lane for each kind of trial.
@@ -1712,10 +1896,11 @@
   }
   const JSEGS = [[1, 'Plaintiff', 'var(--o-granted)'], [3, 'Both', 'var(--o-partial)'], [2, 'Defendant', 'var(--o-denied)'], [4, 'Not recorded', 'var(--o-other)']];
   // One row: a label, its count, and a bar split by the side the judgment was for, with the count in each segment.
-  function judgmentRow(label, list) { const n = list.length; const c = (k) => list.filter((r) => (r.judgment || 4) === k).length;
-    return el('div', { className: 'jb-row' }, el('span', { className: 'jb-l' }, label, el('small', { textContent: plural(n, 'trial') })),
+  function judgmentBar(label, list) { const n = list.length; const c = (k) => list.filter((r) => (r.judgment || 4) === k).length;
+    return (
       el('div', { className: 'jb-bar' }, ...JSEGS.filter(([k]) => c(k)).map(([k, name, color]) => { const sp = el('span', { textContent: c(k) / n >= 0.09 ? String(c(k)) : '' }); sp.style.flex = c(k) + ' 0 0'; sp.style.background = color; sp.style.color = inkOn(css(color.slice(4, -1)));
         sp.dataset.tip = label + '\nJudgment for ' + name.toLowerCase() + ': ' + fmt.int(c(k)) + ' of ' + fmt.int(n) + ' (' + pctOf(c(k), n) + ')'; return sp; }))); }
+  const judgmentRow = (label, list) => el('div', { className: 'jb-row' }, el('span', { className: 'jb-l' }, label, el('small', { textContent: plural(list.length, 'trial') })), judgmentBar(label, list));
   const judgmentLegend = () => el('div', { className: 'jlegend' }, ...JSEGS.map(([, name, color]) => legendItem(color, name)));
   const trialFigures = (T) => { const dated = T.filter((r) => r.began && r.ended && r.ended >= r.began); const waits = T.filter((r) => r.began && r.filed && (r.origin === 1 || r.origin === 2) && r.began >= r.filed);
     return { dated, waits, lens: dated.map((r) => daysBetween(r.began, r.ended) + 1), wm: waits.map((r) => monthsBetween(r.filed, r.began)) }; };
@@ -1788,6 +1973,11 @@
     const awards = T.map((r) => ({ ...r, best: bestAward(r) })).filter((r) => r.best);
     awardStrip($('tr-awards'), awards);
     $('tr-awards-n').textContent = fmt.int(awards.length) + ' of ' + plural(T.length, 'trial');
+    // Basis of jurisdiction (the clerk's code in the Federal Judicial Center file), jury and bench.
+    const jur = IDB_JURIS.map(([k, label]) => ({ label, v: { jury: jury.filter((r) => r.juris === k).length, bench: bench.filter((r) => r.juris === k).length } })).filter((g) => g.v.jury + g.v.bench);
+    $('tr-juris').replaceChildren(jur.length ? segBars(jur, [['jury', 'Jury trials', SERIES.jury.color], ['bench', 'Bench trials', SERIES.bench.color]]) : el('p', { className: 'empty', textContent: 'Nothing on file.' }));
+    const ps = T.filter((r) => r.prose).length; const ca = T.filter((r) => r.classact).length; const dm = T.filter((r) => r.demanded).length;
+    $('tr-juris-note').textContent = T.length ? `${plural(ps, 'trial')} with a self-represented party · ${fmt.int(ca)} in a class action · ${fmt.int(dm)} with an amount demanded on the civil cover sheet.` : '';
     const yrs = d3.range(2022, +today.slice(0, 4) + 1).map(String); const dy = d3.rollup(D.decisions, (v) => v.length, (d) => d.date.slice(0, 4));
     stackCols($('tr-decyears'), { bins: yrs, jury: yrs.map((y) => dy.get(y) || 0), single: 'var(--series-2)', label: 'Findings of fact and conclusions of law after a bench trial, by year decided' });
   }
@@ -1850,11 +2040,14 @@
     const item = (label, k) => { const f = fact(label, fmt.int(T.court[k]), 'rank ' + T.rank[k] + ' of ' + n + ' · median district ' + fmt.med(T.median[k]));
       const st = T.values && T.values[k] ? strip(T.values[k], T.court[k], fmt.int, label + ', ' + n + ' districts', who) : null; if (st) f.append(st); return f; };
     $('tr-ao-rank').replaceChildren(item('Civil, all', 'civil'), item('Civil jury', 'civil_jury'), item('Civil nonjury', 'civil_nonjury'), fact('Criminal, all', fmt.int(T.court.criminal), 'rank ' + T.rank.criminal + ' of ' + n + ' · median district ' + fmt.med(T.median.criminal)));
-    const W = A.t3 || {}; const rows = [['This court', W.court, 'var(--judge)'], ['Fifth Circuit', W.circuit, 'var(--court)'], ['All districts', W.national, 'var(--court)']].filter(([, r]) => r && r.months != null);
-    const max = d3.max(rows, ([, r]) => r.months) || 1;
+    const W = A.t3 || {}; const places = [['This court', W.court, 'var(--judge)'], ['Fifth Circuit', W.circuit, 'var(--court)'], ['All districts', W.national, 'var(--court)']].filter(([, r]) => r);
+    const kinds = [['All civil trials', 'months', 'trials'], ['Jury trials', 'jury_months', 'jury_trials'], ['Nonjury trials', 'nonjury_months', 'nonjury_trials']];
+    const max = d3.max(places.flatMap(([, r]) => kinds.map(([, mk]) => r[mk] || 0))) || 1;
     $('tr-ao-n').textContent = W.court ? plural(W.court.trials, 'trial') + ' in this court' : '';
-    $('tr-ao-wait').replaceChildren(...(rows.length ? rows.map(([label, r, color]) => { const row = el('div', { className: 'hb-row' }, el('span', { className: 'sb-l', textContent: label }), el('span', { className: 'hb-track' }, (() => { const i = el('i'); i.style.width = (r.months / max) * 100 + '%'; i.style.background = color; return i; })()), el('span', { className: 'sb-v', textContent: fmt.d1(r.months) }));
-      row.dataset.tip = label + '\nMedian ' + fmt.d1(r.months) + ' months from filing to the start of trial\n' + plural(r.trials, 'civil trial') + (r.jury_months != null ? ' · jury trials ' + fmt.d1(r.jury_months) + ' months' : ''); return row; })
+    $('tr-ao-wait').replaceChildren(...(places.some(([, r]) => r.months != null) ? kinds.flatMap(([kl, mk, nk], ki) => [el('h3', { className: ki ? 'mt' : '', textContent: kl }),
+      ...places.map(([label, r, color]) => { const v = r[mk]; const i = el('i'); i.style.width = ((v || 0) / max) * 100 + '%'; i.style.background = color;
+        const row = el('div', { className: 'hb-row' }, el('span', { className: 'sb-l', textContent: label }), el('span', { className: 'hb-track' }, v != null ? i : null), el('span', { className: 'sb-v', textContent: v != null ? fmt.d1(v) : '—' }));
+        row.dataset.tip = label + ' · ' + kl.toLowerCase() + '\n' + (v != null ? 'Median ' + fmt.d1(v) + ' months from filing to the start of trial' : 'Fewer than 10 trials: no median published') + '\n' + plural(r[nk] || 0, 'trial'); return row; })])
       : [el('p', { className: 'empty', textContent: 'Fewer than 10 trials: no median published.' })]));
     const L = A.t2 || {};
     $('tr-ao-legend').replaceChildren(legendItem('var(--judge)', 'This court'), legendItem('var(--court)', 'All districts', 'line'));
@@ -2053,11 +2246,16 @@
     && !/order|judgment entered|^(?:response|reply|opposition|notice|memorand)/i.test(t || '');  // as NOT_MOTION_RE in scripts/update.py
   // The relief a motion asks for, as words an order on it repeats: "Compel" and "Motion to Compel" give ["compel"];
   // "Extension of Deadlines AND Continue" gives ["extension of deadlines", "continue"].
-  const reliefKeys = (t) => splitEvents(t).map((e) => {
+  const reliefKey = (e) => {
     const x = e.replace(/^.*?\bmotion\s+(?:to|for|in)\s+/i, '');
     const m = x.match(RELIEF_RE);
     return (m ? m[0] : x.split(/\s+/).slice(0, 3).join(' ')).toLowerCase().trim();
-  }).filter(Boolean);
+  };
+  const reliefKeys = (t) => splitEvents(t).map(reliefKey).filter(Boolean);
+  // "Dismiss Party" and "Dismiss Case" are the feed's names for dropping a party or the whole case, nearly always by
+  // consent and decided by a short order the same week. They are procedural here, not Rule 12 motions, so they do not
+  // pull the Rule 12 time-to-ruling figures toward zero (the submission-date estimate already leaves them out).
+  const DROP_RE = /(?:^|\bmotion\s+to\s+)dismiss\s+(?:party|case)\b/i;
   // A motion's kind, for comparing how long rulings take: the opinion categories (Rule 12, Rule 56, discovery, ...),
   // plus scheduling and procedural motions, which are usually decided by short order.
   const KIND_OF_RELIEF = { compel: 'discovery', quash: 'discovery', 'protective order': 'discovery', remand: 'remand', reconsideration: 'reconsideration',
@@ -2066,8 +2264,9 @@
     dismiss: 'r12', 'judgment on the pleadings': 'r12' };
   const PROCEDURAL_RE = /^(?:continue|expedite|extension of|leave to|withdraw as attorney|enroll as counsel|substitute attorney|appear pro hac vice|seal|substitute party|proceed in forma pauperis|appoint counsel|amend|consolidate|sever|bifurcate|transfer|reopen|intervene)/;
   function motionKind(t) {
-    const keys = reliefKeys(t);
-    for (const k of keys) if (KIND_OF_RELIEF[k]) return KIND_OF_RELIEF[k];
+    const evs = splitEvents(t); const keys = reliefKeys(t);
+    for (const e of evs) if (!DROP_RE.test(e) && KIND_OF_RELIEF[reliefKey(e)]) return KIND_OF_RELIEF[reliefKey(e)];
+    if (evs.length && evs.every((e) => DROP_RE.test(e))) return 'procedural';
     if (/summary judgment/i.test(t || '')) return 'r56';
     if (/\bdismiss|judgment on the pleadings|more definite statement/i.test(t || '')) return 'r12';
     const hit = MCAT_RULES.find(([, re]) => re.test(t || '')); if (hit) return hit[0];
@@ -2146,6 +2345,23 @@
     const F = state.act; const q = F.q.trim().toLowerCase(); const from = addDays(A.latest, 1 - Number(F.days));
     return A.rows.filter((r) => r.date >= from && (!F.judge || r.judge === F.judge) && (!q || q.split(/\s+/).every((w) => r.lt.includes(w))));
   }
+  // The Activity page's two charts follow its search, judge, and range: entries by day (the picked kind in blue, or
+  // orders and opinions when none is picked) and entries by weekday and hour of entry.
+  function drawActCharts(base, F) {
+    $('act-charts').hidden = !base.length; if (!base.length) return;
+    const lead = F.kind ? (r) => r.kind === F.kind : (r) => r.kind === 'order' || r.kind === 'opinion';
+    const leadLabel = F.kind ? ACT_KINDS.find(([k]) => k === F.kind)[1] : 'Orders and opinions';
+    const by = d3.rollup(base, (v) => ({ lead: v.filter(lead).length, rest: v.filter((r) => !lead(r)).length }), (r) => r.date);
+    const first = d3.min(base, (r) => r.date); const last = d3.max(base, (r) => r.date); const days = [];
+    for (let d = first; d <= last; d = addDays(d, 1)) { const w = utc(d).getUTCDay(); if ((w > 0 && w < 6) || by.has(d)) days.push({ date: d, v: by.get(d) || {} }); }
+    $('act-legend').replaceChildren(legendItem('var(--judge)', leadLabel), legendItem('var(--court)', F.kind ? 'Other entries' : 'Motions and other filings'));
+    dayColumns($('c-act-days'), { rows: days, keys: [{ k: 'lead', label: leadLabel, color: 'var(--judge)' }, { k: 'rest', label: F.kind ? 'Other entries' : 'Motions and other filings', color: 'var(--court)' }],
+      unit: 'entry', units: 'entries', label: 'Civil docket entries by day' });
+    const timed = base.filter((r) => (!F.kind || r.kind === F.kind) && /^\d\d:\d\d/.test(r.time || ''));
+    if (timed.length) hourHeat($('c-act-hours'), { rows: timed, courtShare: [], label: 'Civil docket entries by weekday and hour of entry (Central)', noun: 'entry', nouns: 'entries' });
+    else emptyChart($('c-act-hours'), 120, 'No timed entries in this range');
+    $('act-hours-n').textContent = plural(timed.length, 'timed entry', 'timed entries') + (F.kind ? ' · ' + ACT_KINDS.find(([k]) => k === F.kind)[1].toLowerCase() : '');
+  }
   function renderActivity() {
     const S = state.stats; const A = activity(); const F = state.act;
     document.title = 'Docket activity · EDLA Analyzer';
@@ -2159,6 +2375,7 @@
       b.addEventListener('click', () => { Object.assign(state.act, { kind: k, limit: 300 }); renderActivity(); writeHash(); });
       return b;
     }));
+    drawActCharts(base, F);
     const rows = base.filter((r) => !F.kind || r.kind === F.kind);
     const shown = rows.slice(0, F.limit);
     const list = [];
@@ -2552,6 +2769,87 @@
         opts.ics ? el('p', { className: 'sub' }, el('button', { type: 'button', className: 'linklike', textContent: '+ Add to calendar', title: 'Download a calendar file (.ics) for this setting', onclick: () => icsFile([e], 'setting-' + e.date + '-' + slug(e.what)) })) : null));
   }
 
+  // One picture of a case: everything on file placed in time, from filing to today or closing. A lane each for motions,
+  // orders and opinions, hearings and trial days, and other filings; dated flags for filing, closing, and a Fifth
+  // Circuit decision. A motion with no ruling found is an open circle; a written opinion takes its outcome's color.
+  const TL_LANES = [['motion', 'Motions'], ['ruling', 'Orders and opinions'], ['court', 'Hearings and trial'], ['filing', 'Other filings']];
+  function caseTimeline(C, K, today) {
+    const panel = $('c-time-panel'); const box = $('c-timeline');
+    const idb = idbData().rows.find((r) => r.case === C.id) || null; const ap = appealsOf(C.id);
+    const isDate = (s) => /^\d{4}-\d{2}-\d{2}$/.test(s || '');
+    const filed = isDate(K.filed) ? K.filed : idb && isDate(idb.filed) ? idb.filed : '';
+    const closed = isDate(K.terminated) ? K.terminated : idb && isDate(idb.term) ? idb.term : '';
+    const mot = new Map(C.motions.map((m) => [m.doc, m]));
+    const marks = [];
+    C.entries.forEach((e) => {
+      const what = cleanEvent(e.event) + (e.doc ? ' · doc ' + e.doc : ''); const m = mot.get(e.doc);
+      if (e.kind === 'motion') marks.push({ date: e.date, lane: 'motion', open: !!m && !m.ruled, color: 'var(--judge)', tip: [what, m ? (m.ruled ? 'Ruling found ' + fmtShort(m.ruled) : 'No ruling found yet') : 'Motion'] });
+      else if (e.opinion) marks.push({ date: e.date, lane: 'ruling', big: true, color: KNOWN.includes(e.opinion.oc) ? ocColor(e.opinion.oc) : 'var(--judge)',
+        tip: [what, 'Written opinion' + (KNOWN.includes(e.opinion.oc) ? ' · ' + OUTCOMES[e.opinion.oc] : '')] });
+      else if (e.kind === 'order') marks.push({ date: e.date, lane: 'ruling', color: 'var(--court)', tip: [what, 'Order'] });
+      else if (e.kind === 'hearing') marks.push({ date: e.date, lane: 'court', color: 'var(--court)', tip: [what, 'Docket entry'] });
+      else marks.push({ date: e.date, lane: 'filing', color: 'var(--tick)', tip: [what, e.kind === 'newcase' ? 'Case opened' : 'Filing'] });
+    });
+    const heldDays = new Set(marks.filter((x) => x.lane === 'court').map((x) => x.date));
+    [...C.upcoming, ...C.held].forEach((e) => { if (e.src === 'held' && heldDays.has(e.date)) return;
+      const ahead = e.date >= today && e.src !== 'held';
+      marks.push({ date: e.date, lane: 'court', big: /trial/i.test(e.what || ''), color: ahead ? 'var(--judge)' : 'var(--court)', tip: [(e.what || 'Proceeding') + (e.time ? ' · ' + fmtTime(e.time) : ''), (ahead ? 'Set · ' : '') + (CAL_SRC[e.src] || '')] }); });
+    const band = idb && idb.trial && isDate(idb.began) ? { from: idb.began, to: isDate(idb.ended) && idb.ended >= idb.began ? idb.ended : idb.began, tip: idbTip(idb).split('\n') } : null;
+    const flags = [filed && { date: filed, label: 'Filed' }, closed && { date: closed, label: 'Closed' },
+      ...ap.map((a) => ({ date: a.date, label: 'Fifth Circuit' + (a.disposition ? ': ' + a.disposition.toLowerCase() : '') })), (!closed || closed >= today) && { date: today, label: 'Today', now: true }].filter((f) => f && isDate(f.date));
+    const dates = [...marks.map((x) => x.date), ...flags.map((f) => f.date), ...(band ? [band.from, band.to] : [])].filter(isDate).sort();
+    panel.hidden = marks.length + (band ? 1 : 0) < 2 || dates.length < 2;
+    if (panel.hidden) return;
+    let lo = dates[0]; let hi = dates[dates.length - 1];
+    // The site holds every entry only since the feed was first kept, so a case filed long before its first entry here
+    // would squeeze everything against the right edge. The axis then starts at the first entry and says when the case was filed.
+    const firstMark = [...marks.map((x) => x.date), ...(band ? [band.from] : [])].sort()[0];
+    let cut = '';
+    if (filed && filed === lo && daysBetween(filed, firstMark) > 2 * Math.max(21, daysBetween(firstMark, hi))) { cut = filed; lo = addDays(firstMark, -Math.max(3, Math.round(daysBetween(firstMark, hi) * 0.08))); }
+    const span = daysBetween(lo, hi); if (span < 14) { lo = addDays(lo, -Math.ceil((14 - span) / 2)); hi = addDays(hi, Math.ceil((14 - span) / 2)); }
+    const lanes = TL_LANES.filter(([k]) => marks.some((x) => x.lane === k) || (k === 'court' && band));
+    const narrow = (box.clientWidth || 600) < 560;
+    const rowH = 30; const m = { t: 34, b: 24, l: narrow ? 6 : 176, r: 16 }; const laneT = narrow ? 13 : 0;
+    const Hh = m.t + lanes.length * (rowH + laneT) + m.b;
+    const { svg, W } = frame(box, Hh, 'Timeline of case ' + C.id + ': ' + plural(marks.length, 'entry', 'entries') + ' from ' + fmtDate(lo) + ' to ' + fmtDate(hi));
+    const x = d3.scaleUtc([utc(lo), utc(addDays(hi, 1))], [m.l, W - m.r]);
+    const long = daysBetween(lo, hi) > 300;
+    svg.append('g').attr('transform', `translate(0,${Hh - m.b})`).call(d3.axisBottom(x).ticks(Math.max(2, Math.floor((W - m.l - m.r) / 96))).tickFormat(d3.utcFormat(long ? '%b %Y' : '%b %-d')).tickSize(-(Hh - m.b - m.t)).tickPadding(7)).call(axisStyle);
+    const mid = (d) => (x(utc(d)) + x(utc(addDays(d, 1)))) / 2;
+    // Flags: a hairline through every lane, its label on one of two rows so neighbors do not collide.
+    let lastX = [-999, -999];
+    if (cut) svg.append('text').attr('class', 'lbl').attr('x', m.l).attr('y', 12).text('← Filed ' + fmtDate(cut) + (narrow ? '' : ', ' + plural(daysBetween(cut, firstMark), 'day') + ' before the first entry on file here'));
+    if (cut) lastX[0] = m.l + (narrow ? 150 : 420);
+    flags.filter((f) => f.date >= lo).sort((a, b) => a.date.localeCompare(b.date)).forEach((f) => {
+      const fx = mid(f.date); const text = f.label + (f.now ? '' : ' ' + (long ? fmtDate(f.date) : fmtShort(f.date))); const w = text.length * 6.4 + 8;
+      const end = fx + w > W - 2; const left = end ? fx - w : fx; const rowI = left > lastX[0] ? 0 : left > lastX[1] ? 1 : 0; lastX[rowI] = left + w;
+      svg.append('line').attr('x1', fx).attr('x2', fx).attr('y1', rowI ? 20 : 8).attr('y2', Hh - m.b).style('stroke', f.now ? 'var(--ink-3)' : 'var(--line-2)').attr('stroke-dasharray', f.now ? '2 3' : null);
+      svg.append('text').attr('class', 'lbl').attr('x', end ? fx - 4 : fx + 4).attr('y', rowI ? 26 : 12).attr('text-anchor', end ? 'end' : 'start').text(text);
+    });
+    lanes.forEach(([k, label], i) => {
+      const y = m.t + i * (rowH + laneT) + laneT + rowH / 2;
+      svg.append('text').attr('class', 'lbl').attr('x', narrow ? m.l : 0).attr('y', narrow ? y - rowH / 2 - 2 : y + 4).text(label + ' · ' + fmt.int(marks.filter((q) => q.lane === k).length + (k === 'court' && band ? 1 : 0)));
+      svg.append('line').attr('x1', m.l).attr('x2', W - m.r).attr('y1', y).attr('y2', y).style('stroke', 'var(--line)');
+      if (k === 'court' && band) svg.append('rect').attr('x', x(utc(band.from))).attr('width', Math.max(6, x(utc(addDays(band.to, 1))) - x(utc(band.from)))).attr('y', y - 8).attr('height', 16).attr('rx', 3)
+        .style('fill', 'var(--series-2)').on('pointermove', (e) => tipShow(['Trial', ...band.tip], e.clientX, e.clientY)).on('pointerleave', tipHide);
+      const seen = new Map();
+      marks.filter((q) => q.lane === k).sort((a, b) => a.date.localeCompare(b.date)).forEach((q) => {
+        const cx = mid(q.date); const b = Math.round(cx / 8); const c = seen.get(b) || 0; seen.set(b, c + 1);
+        const dy = c === 0 ? 0 : (c % 2 ? -1 : 1) * Math.ceil(c / 2) * 5;
+        const dot = svg.append('circle').attr('cx', cx).attr('cy', y + Math.max(-11, Math.min(11, dy))).attr('r', q.big ? 5.5 : 4).attr('stroke-width', q.open ? 2 : 1.5)
+          .style('fill', q.open ? 'var(--panel)' : q.color).style('stroke', q.open ? q.color : 'var(--panel)');
+        dot.on('pointermove', (e) => tipShow([d3.utcFormat('%a, %b %-d, %Y')(utc(q.date)), ...q.tip.filter(Boolean)], e.clientX, e.clientY)).on('pointerleave', tipHide);
+      });
+    });
+    const open = el('i', { className: 'dot' }); open.style.background = 'transparent'; open.style.boxShadow = 'inset 0 0 0 2px var(--judge)';
+    const has = (f) => marks.some(f); const ocs = new Set(C.entries.filter((e) => e.opinion && KNOWN.includes(e.opinion.oc)).map((e) => { const f = family(e.opinion.oc); return ['granted', 'partial', 'denied'].includes(f) ? f : 'rest'; }));
+    $('c-time-legend').replaceChildren(...[has((q) => q.open) && el('span', {}, open, 'Motion, no ruling found'),
+      has((q) => q.lane === 'motion' && !q.open) && legendItem('var(--judge)', 'Motion', 'dot'),
+      ...OC_SEGS.filter(([k]) => ocs.has(k)).map(([k, l]) => legendItem(`var(${ocVar(k)})`, 'Opinion: ' + l.toLowerCase(), 'dot')),
+      has((q) => q.lane === 'ruling' && q.big && q.color === 'var(--judge)') && legendItem('var(--judge)', 'Opinion, no outcome coded', 'dot'),
+      has((q) => q.color === 'var(--court)') && legendItem('var(--court)', 'Order or proceeding', 'dot'),
+      has((q) => q.lane === 'court' && q.color === 'var(--judge)') && legendItem('var(--judge)', 'Setting ahead', 'dot'), band && legendItem('var(--series-2)', 'Trial')].filter(Boolean));
+  }
   // ---- the case page
   function renderCase() {
     const S = state.stats; const id = state.caseId; const C = caseData(id); const today = ctToday();
@@ -2573,7 +2871,7 @@
     $('c-cl').href = clCase(id);
     const K = docketOf(id) || {};
     const facts = [K.referred ? 'Magistrate Judge ' + K.referred.replace(/^(?:magistrate\s+judge\s+)/i, '') : '', K.nos ? 'Nature of suit: ' + K.nos : '', K.cause ? 'Cause: ' + K.cause : '',
-      K.jury ? 'Jury demand: ' + K.jury : '', K.filed ? 'Filed ' + fmtDate(K.filed) : '', K.terminated ? 'Terminated ' + fmtDate(K.terminated) : ''].filter(Boolean);
+      K.jury ? 'Jury demand: ' + K.jury : '', K.jurisdiction ? 'Jurisdiction: ' + K.jurisdiction.replace(/\bquestion\b/, 'Question') : '', K.filed ? 'Filed ' + fmtDate(K.filed) : '', K.terminated ? 'Terminated ' + fmtDate(K.terminated) : ''].filter(Boolean);
     const mjc = K.referred ? (magData().names || {})[K.referred] : ''; const mj = mjc ? magOf(mjc) : null;
     $('c-facts').replaceChildren(...facts.flatMap((f, i) => [i ? ' · ' : '', i === 0 && K.referred && mj ? el('span', {}, 'Magistrate Judge ', el('a', { href: magHref(mj.code), textContent: mj.name })) : f]));
     const cconf = magIndex().confs.filter((c) => c.case === id);
@@ -2594,7 +2892,7 @@
       ' ' + fmtDate(d.date) + ' (doc ' + d.doc + ')' + ((d.witnesses || []).length ? '; witnesses named: ' + d.witnesses.map((w) => w.name).join(', ') : '')));
     idbData().rows.filter((r) => r.case === id).forEach((r) => trialBits.push((trialBits.length ? ' · ' : ''), el('a', { href: hashFor('trials', { tr: { q: id, judge: '' } }), textContent: 'Closing record' }),
       ': ' + (IDB_KIND[r.kind] || '').toLowerCase() + (idbDates(r) ? ', tried ' + idbDates(r) : '') + (IDB_FOR[r.judgment] && r.judgment !== 4 ? '; judgment for ' + IDB_FOR[r.judgment].toLowerCase() : '')
-      + (r.amount ? '; clerk\'s entry ' + idbMoney(r.amount) : '') + '; closed ' + fmtDate(r.term)));
+      + (r.amount ? '; clerk\'s entry ' + idbMoney(r.amount) : '') + (r.demanded ? '; ' + idbMoney(r.demanded) + ' demanded on the cover sheet' : '') + '; closed ' + fmtDate(r.term)));
     if (awardsOf(id).length) trialBits.push((trialBits.length ? ' · ' : ''), 'Amounts stated in opinions: ', ...awardNodes(id).flatMap((n, i) => [i ? '; ' : '', ...n.childNodes]));
     const cj = cjraData(); const cjm = cj.motions.filter((r) => r.case === id && !r.part); const cjc = cj.cases.filter((r) => r.case === id);
     $('c-cjra').hidden = !(cjm.length || cjc.length);
@@ -2629,6 +2927,7 @@
       kpi({ label: 'Latest entry', value: C.entries.length ? d3.utcFormat('%b %-d')(utc(C.entries[0].date)) : '—', sub: C.entries.length ? cleanEvent(C.entries[0].event) : 'nothing on file yet', href: '#c-docket' }),
       kpi({ label: 'Written opinions', value: fmt.int(C.opinions.length), sub: C.opinions.length ? 'latest ' + fmtShort(C.opinions[0].date) : 'none in this case yet', href: '#c-docket' }),
       kpi({ label: w ? 'New since your last look' : 'Entries on file', value: fmt.int(w ? newCount : C.entries.length), sub: w ? (prev ? 'entries after ' + ctStamp(prev) : 'your first look')  : 'orders, opinions, motions, filings', href: '#c-docket' }));
+    caseTimeline(C, K, today);
     $('c-empty').hidden = C.entries.length > 0 || C.upcoming.length > 0;
     $('c-empty').textContent = `Nothing on file for ${id}. Check the number, or watch the case to pick up new entries.`;
 
@@ -2826,11 +3125,24 @@
         sub: 'No. ' + a.ca5 + ' · ' + (a.kind || 'Opinion') + ' · from ', caseId: a.case })));
     return rows.filter((r) => r.date).sort((a, b) => b.date.localeCompare(a.date) || a.kind.localeCompare(b.kind));
   }
+  // Notices run back decades (General Orders from 1987), so a date outside this year carries its year.
+  const yearTag = (d) => (d.slice(0, 4) !== todayIso().slice(0, 4) ? el('small', { textContent: d.slice(0, 4) }) : null);
   function noticeItem(r) {
-    return el('li', {}, el('span', { className: 'd', textContent: fmtShort(r.date) }),
+    return el('li', {}, el('span', { className: 'd', textContent: fmtShort(r.date), title: fmtDate(r.date) }, yearTag(r.date)),
       el('span', { className: 'h' }, el('span', { className: 'kind k-notice', textContent: r.kind }),
         el('a', { className: 'nt', href: r.url, target: '_blank', rel: 'noopener noreferrer', textContent: r.title }), isFresh(r.fresh) ? el('span', { className: 'badge', textContent: 'New' }) : null),
       r.sub ? el('span', { className: 'c' }, (r.sub || '').slice(0, 220), r.caseId ? caseNumLink(r.caseId, '', 'case') : null) : null);
+  }
+  // Home: civil trials under way or set, from the court's calendar and the feed. The Trials page has every trial.
+  function drawHomeTrials() {
+    const S = state.stats; const today = todayIso();
+    const live = trData().trials.map((t) => ({ t, st: trialStatus(t, today), first: (t.days || [])[0] || ((t.set_for || [])[0] || {}).date || '' }))
+      .filter((x) => x.first && (x.st === 'underway' || x.st === 'set')).sort((a, b) => TR_RANK[a.st] - TR_RANK[b.st] || a.first.localeCompare(b.first)).slice(0, 5);
+    $('home-trials').closest('.panel').hidden = !live.length;
+    $('home-trials').replaceChildren(...live.map(({ t, st, first }) => el('li', {},
+      el('span', { className: 'd', textContent: st === 'underway' ? 'Now' : fmtShort(first) }, st === 'underway' ? null : yearTag(first)),
+      el('span', { className: 'h' }, el('span', { className: 'kind k-notice', textContent: (TR_KIND[t.kind] ? TR_KIND[t.kind] + ' trial' : 'Trial') }), el('a', { className: 'nt', href: caseHref(t.case), textContent: t.title || t.case })),
+      el('span', { className: 'c', textContent: [(t.days || []).length ? fmtDays(t.days) : 'Set for ' + fmtDate(t.set_for[0].date), S.names[t.judge] ? 'Judge ' + S.names[t.judge] : '', t.room ? 'Courtroom ' + t.room : ''].filter(Boolean).join(' · ') }))));
   }
   function drawHomeNotices() {
     const rows = noticeRows().filter((r) => r.date >= addDays(ctToday(), -90)).slice(0, 5);
@@ -2842,11 +3154,23 @@
     const N = state.data.notices || {}; const A = (state.data.appeals || {}).appeals || [];
     $('nt-news').replaceChildren(...((N.news || []).length ? N.news.slice(0, 30).map((n) => noticeItem({ date: n.date, kind: 'News', title: n.title, url: n.url, sub: n.summary, fresh: n.first_seen }))
       : [el('li', {}, el('span', { className: 'empty', textContent: 'The court\'s news feed has not been read yet.' }))]));
-    const groups = d3.groups(N.orders || [], (o) => o.category);
-    $('nt-orders').replaceChildren(...(groups.length ? groups.flatMap(([cat, list]) => [el('li', { className: 'grp' }, el('span', { textContent: cat || 'General orders' }), el('span', { className: 'n', textContent: plural(list.length, 'order') })),
-      ...list.map((o) => noticeItem({ date: o.date, kind: 'Order', title: o.title, url: o.url, fresh: o.first_seen }))])
+    // General Orders: a column per year, then each category newest first, the latest six shown until opened.
+    const orders = (N.orders || []).filter((o) => /^\d{4}-/.test(o.date || ''));
+    const yNow = +todayIso().slice(0, 4); const y0 = yNow - 15;
+    const ybins = d3.range(y0, yNow + 1).map((y) => (y === y0 ? '≤’' + String(y).slice(2) : '’' + String(y).slice(2)));
+    const ycount = ybins.map(() => 0); orders.forEach((o) => { ycount[Math.max(0, +o.date.slice(0, 4) - y0)] += 1; });
+    if (orders.length) stackCols($('c-nt-years'), { bins: ybins, jury: ycount, single: 'var(--judge)', noun: 'General Orders', H: 132, label: 'General Orders on the court\'s page, by year issued' });
+    $('c-nt-years').closest('.pb').hidden = !orders.length;
+    $('nt-years-n').textContent = orders.length ? plural(orders.length, 'order') + ' on the court\'s page' : '';
+    const open = state.ntOpen || (state.ntOpen = new Set());
+    const groups = d3.groups(N.orders || [], (o) => o.category).map(([cat, list]) => [cat, list.slice().sort((x, y) => (y.date || '').localeCompare(x.date || ''))])
+      .sort((x, y) => ((y[1][0] || {}).date || '').localeCompare((x[1][0] || {}).date || ''));
+    $('nt-orders').replaceChildren(...(groups.length ? groups.flatMap(([cat, list]) => { const all = open.has(cat) || list.length <= 7;
+      return [el('li', { className: 'grp' }, el('span', { textContent: cat || 'General orders' }), el('span', { className: 'n', textContent: plural(list.length, 'order') + (list[0] && list[0].date ? ' · latest ' + fmtDate(list[0].date) : '') })),
+        ...(all ? list : list.slice(0, 6)).map((o) => noticeItem({ date: o.date, kind: 'Order', title: o.title, url: o.url, fresh: o.first_seen })),
+        all ? null : el('li', { className: 'more' }, el('button', { type: 'button', className: 'linklike', textContent: 'Show all ' + fmt.int(list.length) + ' in ' + (cat || 'General orders'), onclick: () => { open.add(cat); renderNotices(); } }))].filter(Boolean); })
       : [el('li', {}, el('span', { className: 'empty', textContent: 'The General Orders page has not been read yet.' }))]));
-    $('nt-appeals').replaceChildren(...(A.length ? A.map((a) => el('li', {}, el('span', { className: 'd', textContent: fmtShort(a.date) }),
+    $('nt-appeals').replaceChildren(...(A.length ? A.map((a) => el('li', {}, el('span', { className: 'd', textContent: fmtShort(a.date) }, yearTag(a.date)),
       el('span', { className: 'h' }, el('b', { textContent: a.disposition || 'Decided' }), el('a', { className: 'nt', href: a.pdf, target: '_blank', rel: 'noopener noreferrer', textContent: a.caption + ' ↗' })),
       el('span', { className: 'c' }, 'Fifth Circuit No. ' + a.ca5 + ' · ' + (a.kind || 'Opinion') + ' · from ', caseNumLink(a.case, '', 'case'))))
       : [el('li', {}, el('span', { className: 'empty', textContent: 'None yet.' }))]));
