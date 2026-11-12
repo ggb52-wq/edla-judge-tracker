@@ -2352,7 +2352,59 @@
     $('mo-search-all').href = findHref(preset); $('mo-text').dataset.preset = JSON.stringify(preset);
     $('mo-text').closest('label').hidden = sel.kind === 'mj';
   }
-  function remo(patch) { Object.assign(state.mo, { limit: 15 }, patch); if (state.stats) { renderMotions(); writeHash(); } }
+  // Authorities the rulings cite (data/citations.json, built by scripts/citations.py from the opinion texts). Loaded
+  // the first time a page needs it. For any set of rulings, each authority's count is the number of those rulings
+  // that cite it at least once.
+  let CITES = null; let citesWait = null;
+  function citesLoad() {
+    if (CITES) return Promise.resolve(CITES);
+    if (!citesWait) citesWait = fetch('data/citations.json', { cache: 'no-cache' }).then((r) => (r.ok ? r.json() : null)).then((d) => {
+      CITES = d && Array.isArray(d.auth) ? { auth: d.auth, ops: new Map(Object.entries(d.ops || {})), n: d.opinions || 0 } : { auth: [], ops: new Map(), n: 0 };
+      return CITES;
+    }).catch(() => { citesWait = null; return null; });
+    return citesWait;
+  }
+  // [{ i, n, rulings }], most-cited first; ties go to the newer authority. read: rulings whose text has been read.
+  function citeCounts(rows) {
+    const C = CITES; const by = new Map(); let read = 0;
+    rows.forEach((o) => { const ids = C.ops.get(o.case + '|' + o.doc); if (!ids) return; read += 1;
+      ids.forEach((i) => { let e = by.get(i); if (!e) by.set(i, (e = { i, n: 0, rulings: [] })); e.n += 1; e.rulings.push(o); }); });
+    const list = [...by.values()].sort((a, b) => b.n - a.n || (C.auth[b.i][3] || '').localeCompare(C.auth[a.i][3] || ''));
+    return { list, read };
+  }
+  const AUTH_SCOTUS = / (?:U\.S\.|S\. Ct\.|L\. Ed\. 2d) /;
+  const authName = (a) => a[1] || a[0];
+  const authCite = (a) => { const court = AUTH_SCOTUS.test(' ' + a[0] + ' ') ? '' : a[2]; return a[0] + (court || a[3] ? ' (' + [court, a[3]].filter(Boolean).join(' ') + ')' : ''); };
+  const authFull = (a) => (a[1] ? a[1] + ', ' : '') + authCite(a);
+  // CourtListener finds a case by its reporter citation; a Westlaw number is searched as text.
+  const authHref = (a) => { const m = a[0].match(/^(\d+) (.+) (\d+)$/); return m && !/ WL /.test(a[0]) ? CL + 'c/' + encodeURIComponent(m[2]) + '/' + m[1] + '/' + m[3] + '/' : CL + '?q=' + encodeURIComponent('"' + a[0] + '"'); };
+  function authRow(e, total, k, max) {
+    const C = CITES; const a = C.auth[e.i];
+    const track = el('span', { className: 'sb-track' }); const bar = el('i'); bar.style.width = (e.n / max) * 100 + '%'; track.append(bar);
+    const cites = e.rulings.slice().sort((x, y) => y.date.localeCompare(x.date));
+    return el('details', { className: 'au-row' },
+      el('summary', {}, el('span', { className: 'au-n', textContent: String(k) }),
+        el('span', { className: 'au-name' }, el('a', { href: authHref(a), target: '_blank', rel: 'noopener noreferrer', textContent: authName(a), title: 'Open the authority on CourtListener' }), el('small', { textContent: authCite(a) })),
+        el('span', { className: 'au-bar' }, track), el('span', { className: 'au-v', textContent: fmt.int(e.n) + ' of ' + fmt.int(total) })),
+      el('ul', { className: 'au-list' }, ...cites.slice(0, 10).map((o) => el('li', {}, el('a', { href: opinionLink(o, linkKind(o)), target: '_blank', rel: 'noopener noreferrer', textContent: o.title || o.case }),
+        el('small', { textContent: [fmtDate(o.date), signerName(o.signer || o.judge), KNOWN.includes(o.oc) ? OUTCOMES[o.oc] : ''].filter(Boolean).join(' · ') }))),
+        cites.length > 10 ? el('li', { className: 'dim', textContent: plural(cites.length - 10, 'more ruling') + ' cite this authority.' }) : null));
+  }
+  const AU_NOTE = 'The list counts how many of the rulings cite each authority. The list does not check whether an authority remains good law.';
+  function drawMoCites(rows, sel) {
+    const M = state.mo; const box = $('mo-cites'); const noun = moNoun(M); const cases = moCases(M);
+    if (!rows.length) { setPlain('h-mo-cites', 'Authorities most often cited in these rulings'); box.replaceChildren(el('p', { className: 'cap', textContent: 'No written rulings for this selection.' })); return; }
+    if (!CITES) { box.replaceChildren(el('p', { className: 'cap', textContent: 'Reading the citations…' })); citesLoad().then((C) => { if (C && state.page === 'motions' && state.mo === M) drawMoCites(rows, sel); }); return; }
+    const { list, read } = citeCounts(rows);
+    const top = list[0];
+    if (top) setHead('h-mo-cites', `${sel.Who === 'The court' ? 'The court\'s' : sel.Who + '\'s'} ${fmt.int(read)} written rulings on ${noun}${cases} cite ${authName(CITES.auth[top.i])} most often: ${fmt.int(top.n)} of the ${fmt.int(read)}.`);
+    else setPlain('h-mo-cites', 'Authorities most often cited in these rulings');
+    const limit = state.moCiteLimit || 15; const max = top ? top.n : 1;
+    box.replaceChildren(...(list.length ? [el('div', { className: 'au' }, ...list.slice(0, limit).map((e, k) => authRow(e, read, k + 1, max)))] : [el('p', { className: 'cap', textContent: 'The texts of these rulings do not contain a case citation the site can read.' })]),
+      list.length > limit ? el('button', { type: 'button', className: 'btn more', textContent: 'Show 15 more', onclick: () => { state.moCiteLimit = limit + 15; drawMoCites(rows, sel); } }) : null,
+      el('p', { className: 'foot-note pad', textContent: `${AU_NOTE} The text of ${fmt.int(read)} of the ${plural(rows.length, 'ruling')} has been read. Choose an authority to list the rulings that cite it.` }));
+  }
+  function remo(patch) { state.moCiteLimit = 15; Object.assign(state.mo, { limit: 15 }, patch); if (state.stats) { renderMotions(); writeHash(); } }
 
   function renderMotions() {
     const M = state.mo; const pending = M.type === 'pending';
@@ -2369,6 +2421,7 @@
     drawMoRank(all, sel);
     drawMoBreak(sel);
     drawMoNow(sel);
+    drawMoCites(rows, sel);
     drawMoRead(rows, sel);
   }
   // Home: the three main kinds of motion, each a link to its section of the Motions page.
@@ -4445,7 +4498,7 @@
   // question is visible at once. Setup: cloudflare/README.md. Until ASK_URL is set, the Ask button stays hidden.
   const ASK_URL = 'https://edla-ask.grantbutler52.workers.dev/';
   const askUrl = () => { const local = /^(localhost|127\.0\.0\.1)$/.test(location.hostname) ? store.get('edla-ask-url') : ''; return local || ASK_URL; };
-  const ASK_INTENTS = { motions: 'Rulings on motions', rank_judges: 'Judges compared', search_text: 'Text of the opinions', case: 'One case', judge_profile: 'One judge',
+  const ASK_INTENTS = { authorities: 'Authorities cited', motions: 'Rulings on motions', rank_judges: 'Judges compared', search_text: 'Text of the opinions', case: 'One case', judge_profile: 'One judge',
     pending: 'Motions awaiting a ruling', calendar: 'Calendar', trials: 'Trials', unsupported: 'Outside the site\'s data' };
   const ASK_SUBS = Object.fromEntries(Object.values(MO_SUBS).flat().map(([k, l]) => [k, l]));
   const ASK_EXAMPLES = ['How often does Judge Long grant motions to dismiss for failure to state a claim?', 'Which judge rules fastest on summary judgment?',
@@ -4528,12 +4581,21 @@
     ['injunction', /injunction|restraining\s+order|\btro\b/], ['reconsideration', /reconsider|59\s*\(e\)|60\s*\(b\)/], ['default', /default\s+judg/], ['fees', /attorney'?s?\s+fees|fee\s+award/], ['stay', /\bstay\b/]];
   const ASK_DETAIL_WORDS = { '12b6': /12\s*\(?b\)?\s*\(?6|failure\s+to\s+state/, juris: /jurisdiction|12\s*\(?b\)?\s*\(?[12]\b/, '12c': /pleadings|12\s*\(?c/, partial: /partial/,
     expert: /expert|daubert|exclude|limine/, compel: /compel/, quash: /quash/, protect: /protective/ };
+  const ASK_CASE_WORDS = [['dwh', /deepwater|\bbp\b|oil spill/], ['asbestos', /asbestos|mesothelioma/], ['maritime', /jones act|seaman|seamen|maritime|admiralty|vessel|longshore/],
+    ['insurance', /insur|hurricane|policyholder|bad faith/], ['employment', /title vii|\bada\b|flsa|employment|discriminat|retaliat|wrongful termination|wage/],
+    ['civilrights', /1983|civil rights|police|excessive force|prisoner|inmate/], ['pi', /personal injury|car accident|auto accident|car wreck|slip and fall|products? liability/],
+    ['contract', /breach of contract|contract dispute|commercial|fraud/]];
   const askMotionOf = (t) => { const x = String(t || '').toLowerCase(); const hit = ASK_MOTION_WORDS.find(([, re]) => re.test(x)); return hit ? hit[0] : null; };
   function askFill(Q0, question) {
     const Q = { ...Q0 }; const x = String(question || '').toLowerCase(); const year = +todayIso().slice(0, 4);
     const named = askMotionOf(x);
+    // "What cases should I cite", "authority", "case law": the authorities the rulings cite.
+    if (/\b(?:cite|cites|cited|citing|citations?|case\s*law|authorit(?:y|ies)|precedents?|leading\s+cases?)\b|what\s+cases\s+(?:should|do|to)\b|which\s+cases\s+(?:should|do|to)\b/.test(x)) { Q.intent = 'authorities'; if (!Q.motion) Q.motion = askMotionOf(x) || (askMotionOf(Q.text) || null); if (Q.text && askMotionOf(Q.text)) Q.text = null; }
     if (!Q.motion && named && ['motions', 'rank_judges', 'pending', 'search_text'].includes(Q.intent)) Q.motion = named;
     if (Q.motion_detail && !(ASK_DETAIL_WORDS[Q.motion_detail] || /$^/).test(x)) Q.motion_detail = null;
+    // The motion within the kind, and the type of case, when the question's words name them.
+    if (Q.motion && !Q.motion_detail) { const d = (MO_SUBS[Q.motion] || []).map(([k]) => k).find((k) => ASK_DETAIL_WORDS[k] && ASK_DETAIL_WORDS[k].test(x)); if (d) Q.motion_detail = d; }
+    if (!Q.case_type) { const g = ASK_CASE_WORDS.find(([, re]) => re.test(x)); if (g) Q.case_type = g[0]; }
     if (!Q.period) Q.period = /this\s+year|so\s+far\s+this/.test(x) ? String(year) : /last\s+year|prior\s+year/.test(x) ? String(year - 1) : /(?:last|past)\s+12\s+months|past\s+year/.test(x) ? '12m' : (x.match(/\b(20(?:2[2-9]))\b/) || [])[1] || null;
     // A judge's name in the question; a name that is also an English word ("long", "brown") counts only after "Judge".
     if (!Q.judge) { const pat = (n) => n.replace(/[.]/g, '\\.?').replace(/\s+/g, '\\s+');
@@ -4545,6 +4607,31 @@
     if (Q.intent === 'search_text' && Q.text && askMotionOf(Q.text) && String(Q.text).replace(/motions?|rulings?|opinions?|orders?|daubert|summary judgment|dismiss|to|in limine|limine|compel|remand|the|on|for/gi, '').trim().length < 3) { Q.intent = 'motions'; Q.focus = 'rulings'; Q.motion = Q.motion || askMotionOf(Q.text); Q.text = null; }
     return Q;
   }
+  // Authorities for a kind of motion: those cited in the rulings in one judge's cases (including rulings a magistrate
+  // judge signed there), then those cited across the court, then the judge's rulings to read.
+  function askAuthorities(M, dj) {
+    const S = state.stats; const noun = moNoun(M); const cases = moCases(M);
+    const all = moFilter(moBase(), { ...M, who: '' }); const mine = dj ? all.filter((o) => o.judge === dj) : [];
+    const list = (R, n, heading) => { const { list: L, read } = citeCounts(R); if (!L.length) return [];
+      return [el('p', { className: 'ask-l', textContent: heading }), el('ol', { className: 'ask-au' }, ...L.slice(0, n).map((e) => { const a = CITES.auth[e.i];
+        return el('li', {}, el('a', { href: authHref(a), target: '_blank', rel: 'noopener noreferrer', textContent: authName(a) }), el('small', { textContent: authCite(a) + ' · cited in ' + fmt.int(e.n) + ' of ' + fmt.int(read) })); }))]; };
+    const out = [];
+    if (dj) {
+      const mj = mine.filter((o) => o.mj).length; const who = 'Judge ' + S.names[dj];
+      out.push(el('p', { className: 'ask-a', textContent: mine.length
+        ? `${cap(moWhen(M, { kind: 'dj', code: dj }))}, the court issued ${plural(mine.length, 'written ruling')} on ${noun}${cases} in ${who}'s cases${mj ? (mj === mine.length ? `; magistrate judges signed ${mine.length === 1 ? 'the ruling' : 'all ' + fmt.int(mj)}` : `; magistrate judges signed ${fmt.int(mj)} of the ${fmt.int(mine.length)}`) : ''}.`
+        : `The record on file does not show a written ruling on ${noun}${cases} in ${who}'s cases. The authorities below come from all judges' rulings.` }));
+      out.push(...list(mine, 8, 'Most cited in the rulings in ' + who + '\'s cases'));
+    }
+    out.push(...list(all, dj ? 5 : 10, 'Most cited in all judges\' rulings on ' + noun + cases + ' (' + fmt.int(all.length) + ')'));
+    const read = (dj && mine.length ? mine : all).slice(0, 5);
+    if (read.length) out.push(el('p', { className: 'ask-l', textContent: dj && mine.length ? 'Latest rulings in Judge ' + S.names[dj] + '\'s cases' : 'Latest rulings' }),
+      el('ul', { className: 'ask-rulings' }, ...read.map((o) => askRuling(KNOWN.includes(o.oc) ? OUTCOMES[o.oc] : 'Ruling', o))));
+    out.push(el('p', { className: 'ask-n', textContent: AU_NOTE }));
+    out.push(askLink(dj && mine.length ? 'Every ruling on ' + noun + ' in Judge ' + S.names[dj] + '\'s cases →' : 'Every ruling and the full list of authorities on the Motions page →',
+      dj && mine.length ? findHref({ judge: dj, type: M.type }) : hashFor('motions', { mo: M })));
+    return out;
+  }
   // The answer to one query, built from the site's data.
   function askAnswer(Q) {
     const S = state.stats; const J = askJudge(Q.judge); const dj = S.names[J.code] ? J.code : '';
@@ -4555,6 +4642,13 @@
         return { M: askMo(Q, J, 'r12'), J, parts: notFound.concat(parts) };
       }
       const M = askMo(Q, J); return { M, J, parts: notFound.concat(askMotionAnswer(Q, M)) };
+    }
+    if (Q.intent === 'authorities') {
+      if (!Q.motion) return { J, parts: notFound.concat([el('p', { className: 'ask-a', textContent: 'Name the kind of motion, for example "What cases should I cite in a motion to compel before Judge Long?" The site counts the authorities cited in the rulings on each kind of motion.' }),
+        Q.text ? askLink('Search the opinions for “' + Q.text + '” →', findHref({ ...emptyFinder(), text: Q.text, judge: dj })) : null].filter(Boolean)) };
+      const M = askMo(Q, { code: '' }); const box = el('div', { className: 'ask-sub' }, el('p', { className: 'ask-n', textContent: 'Reading the citations…' }));
+      citesLoad().then((C) => { if (C) box.replaceChildren(...askAuthorities(M, dj)); else box.replaceChildren(el('p', { className: 'ask-n err', textContent: 'The citation data did not load.' })); });
+      return { M: { ...M, who: dj }, J, parts: notFound.concat([box]) };
     }
     if (Q.intent === 'rank_judges') { const M = askMo({ ...Q, judge: null }, { code: dj }, Q.motion || 'r12'); return { M, J, parts: notFound.concat(askRankAnswer(M)) }; }
     if (Q.intent === 'search_text') {

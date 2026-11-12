@@ -39,6 +39,7 @@ import import_written_opinions
 import magistrates
 import opinion_text
 import search_index
+import citations
 import trade_secrets
 import trials
 from outcome_text import classify, motion_doc
@@ -1155,6 +1156,11 @@ def main() -> int:
         search_index.update(texts.root, DATA / "search", today)
     except Exception as e:  # noqa: BLE001 - the pass's data matters more than the index; the next pass tries again
         print(f"search index not updated: {e}", file=sys.stderr)
+    # Authorities each opinion cites (data/citations.json), read only from texts not yet on file.
+    try:
+        citations.update(texts.root, DATA / "citations.json", today)
+    except Exception as e:  # noqa: BLE001 - as above
+        print(f"citations not updated: {e}", file=sys.stderr)
     court_info.save_json(DATA / "dockets.json", sorted(dockets.values(), key=lambda r: r["case"]))
     trade_secrets.save(DATA, ts_store, now)
     (DATA / "link_checks.json").write_text(json.dumps(dict(sorted(link_checks.items())), indent=0) + "\n")

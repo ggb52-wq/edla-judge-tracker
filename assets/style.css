@@ -1015,6 +1015,28 @@ a.rk-row:hover { background: var(--hover); }
 .ask-form .btn { height: 38px; }
 @media (max-width: 640px) { .ask { top: 0; right: 0; bottom: 0; width: 100vw; border-radius: 0; border: 0; } .ask-btn { padding: 0 9px; } }
 @media print { .ask, .ask-btn { display: none !important; } }
+/* ---- Authorities cited: one row per authority, opening to the rulings that cite it ---- */
+.au { display: grid; gap: 1px; }
+.au-row summary { display: grid; grid-template-columns: 24px minmax(0, 1.6fr) minmax(80px, 1fr) 70px; gap: 10px; align-items: center; padding: 6px 4px; border-radius: 2px; cursor: pointer; list-style: none; font-size: 13px; }
+.au-row summary::-webkit-details-marker { display: none; }
+.au-row summary:hover { background: var(--hover); }
+.au-row[open] summary { background: var(--raise); }
+.au-n { font: 11px var(--mono); color: var(--ink-3); text-align: right; }
+.au-name { min-width: 0; display: grid; }
+.au-name a { color: var(--ink); font-weight: 500; text-decoration: none; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.au-name a:hover { color: var(--link); text-decoration: underline; }
+.au-name small { font: 11px var(--mono); color: var(--ink-3); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.au-bar .sb-track { display: block; }
+.au-v { font: 11.5px var(--mono); color: var(--ink-2); text-align: right; white-space: nowrap; }
+.au-list { list-style: none; margin: 2px 0 8px 38px; padding: 0 0 0 10px; border-left: 2px solid var(--line-2); display: grid; gap: 4px; font-size: 12.5px; }
+.au-list a { color: var(--link); text-decoration: none; }
+.au-list a:hover { text-decoration: underline; }
+.au-list small { display: block; font: 11px var(--mono); color: var(--ink-3); }
+.ask-au { margin: 0; padding-left: 20px; display: grid; gap: 5px; font-size: 13px; }
+.ask-au a { color: var(--link); text-decoration: none; }
+.ask-au a:hover { text-decoration: underline; }
+.ask-au small { display: block; font: 11px var(--mono); color: var(--ink-3); }
+@media (max-width: 640px) { .au-row summary { grid-template-columns: 20px minmax(0, 1fr) 62px; } .au-bar { display: none; } }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } .cards.spot .jcard, .cards.spot .jcard.lit { transform: none; } }
 
 /* ---------------------------------------------------------------- print: the judge page, on paper, in light */

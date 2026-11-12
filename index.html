@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
-  <link rel="stylesheet" href="assets/style.css?v=2026-11-12e">
+  <link rel="stylesheet" href="assets/style.css?v=2026-11-13a">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 24 24%27%3E%3Crect width=%2724%27 height=%2724%27 rx=%275%27 fill=%27%2310151c%27/%3E%3Cg transform=%27translate(2.4 2.4) scale(.8)%27%3E%3Cpath d=%27M12 2 22.5 8h-21Z M1.5 20.5h21v2h-21Z%27 fill=%27%23e6e9ee%27/%3E%3Cpath d=%27M3.5 14h3.2v6H3.5Z M8.1 10h3.2v10H8.1Z M12.7 12.5h3.2V20h-3.2Z M17.3 11h3.2v9h-3.2Z%27 fill=%27%233987e5%27/%3E%3C/g%3E%3C/svg%3E">
 </head>
 <body data-page="judges">
@@ -767,6 +767,11 @@
         </section>
       </div>
 
+      <section class="panel" id="mo-p-cites" aria-labelledby="h-mo-cites">
+        <div class="ph"><h2 id="h-mo-cites">Authorities most often cited in these rulings</h2><a class="more-link" href="methodology.html#authorities">How we count</a></div>
+        <div class="pb" id="mo-cites"></div>
+      </section>
+
       <section class="panel" id="mo-p-read" aria-labelledby="h-mo-read">
         <div class="ph"><h2 id="h-mo-read">Written rulings</h2><span class="count" id="mo-count"></span><a class="more-link" id="mo-search-all" href="#opinions">Open in the opinion search →</a></div>
         <div class="facts mo-picks" id="mo-picks" hidden></div>
@@ -840,7 +845,7 @@
 </footer>
 <aside class="ask" id="ask" aria-labelledby="h-ask" hidden>
   <div class="ask-head"><h2 id="h-ask">Ask a question</h2><button type="button" class="icon-btn" id="ask-close" aria-label="Close" title="Close (Esc)">×</button></div>
-  <p class="ask-intro">Ask in plain words about motions, judges, time to ruling, or the text of the opinions. Every figure comes from the site's data, and each answer shows how the question was read. <a href="methodology.html#ask">How answers are made</a></p>
+  <p class="ask-intro">Ask in plain words about motions, judges, time to ruling, the authorities the rulings cite, or the text of the opinions. Every figure comes from the site's data, and each answer shows how the question was read. <a href="methodology.html#ask">How answers are made</a></p>
   <div class="ask-examples chips" id="ask-examples"></div>
   <ol class="ask-log" id="ask-log" aria-live="polite"></ol>
   <form class="ask-form" id="ask-form">
@@ -851,6 +856,6 @@
 <div class="tip" id="tip" role="tooltip" hidden></div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 <script>window.d3 || document.write('<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"><\/script>'); /* cdnjs unreachable: same build from jsDelivr */</script>
-<script src="assets/app.js?v=2026-11-12e"></script>
+<script src="assets/app.js?v=2026-11-13a"></script>
 </body>
 </html>
