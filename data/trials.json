@@ -131,6 +131,35 @@
 "first_seen":"2026-11-06"
 },
 {
+"case":"2:24-cv-01693",
+"title":"Petroclint Baclawsen Services LTD et al v. Clear Water Marine, LLC et ",
+"judge":"DJP",
+"kind":"bench",
+"days":[
+"2026-11-18"
+],
+"room":"C551",
+"events":[
+{
+"date":"2026-10-30",
+"doc":"60",
+"event":"Pretrial Conference"
+},
+{
+"date":"2026-11-04",
+"doc":"61",
+"event":"Proposed Pretrial Order"
+},
+{
+"date":"2026-11-10",
+"doc":"75",
+"event":"Pretrial Memorandum"
+}
+],
+"held":false,
+"first_seen":"2026-11-12"
+},
+{
 "case":"2:24-cv-01768",
 "title":"Moses v. City of New Orleans et al",
 "judge":"BWA",
