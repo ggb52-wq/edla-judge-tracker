@@ -3189,5 +3189,11 @@
 {"date":"2026-11-12","time":"12:54","judge":"ASJ","case":"2:26-cv-00973","doc":"15","title":"Shelton v. United States of America","event":"Terminate Hearings","src":"rss"},
 {"date":"2026-11-12","time":"13:38","judge":"LMA","case":"2:26-cv-01526","doc":"19","title":"Coleman v. Fortunato et al","event":"Scheduling Order","src":"rss"},
 {"date":"2026-11-12","time":"13:53","judge":"LMA","case":"2:26-cv-01629","doc":"15","title":"Johnson v. Experian Information Solutions, Inc.","event":"Order Dismissing Case","src":"rss"},
-{"date":"2026-11-12","time":"13:58","judge":"SM","case":"2:26-cv-00479","doc":"23","title":"Banquer v. Trader Joe's East Inc.","event":"Order Dismissing Case","src":"rss"}
+{"date":"2026-11-12","time":"13:58","judge":"SM","case":"2:26-cv-00479","doc":"23","title":"Banquer v. Trader Joe's East Inc.","event":"Order Dismissing Case","src":"rss"},
+{"date":"2026-11-12","time":"14:21","judge":"BSL","case":"2:25-cv-01655","doc":"123","title":"Stroupe v. State Farm Insurance Life Company","event":"Order","src":"rss"},
+{"date":"2026-11-12","time":"14:46","judge":"ASJ","case":"2:26-cv-01568","doc":"17","title":"Fury v. Victory Cruise Lines, Inc.","event":"Order","src":"rss"},
+{"date":"2026-11-12","time":"14:49","judge":"ASJ","case":"2:26-cv-01364","doc":"10","title":"Pierce v. Smitty's Supply, Inc.","event":"Scheduling Order","src":"rss"},
+{"date":"2026-11-12","time":"14:56","judge":"ASJ","case":"2:26-cv-02072","doc":"10","title":"Voorhies v. Circle K Stores Inc.","event":"Scheduling Order","src":"rss"},
+{"date":"2026-11-12","time":"15:11","judge":"LMA","case":"2:26-cv-00289","doc":"58","title":"Jones v. W&T Offshore Inc et al","event":"Order","src":"rss"},
+{"date":"2026-11-12","time":"15:15","judge":"CJB","case":"2:26-cv-01767","doc":"15","title":"Rivera v. Walmart Inc. et al","event":"Order Dismissing Case","src":"rss"}
 ]
