@@ -1,4 +1,8 @@
 [
+{"at":"2026-11-11T20:02-06:00","case":"2:23-cv-07296","doc":"174","event":"Response/Memorandum in Opposition to Motion","title":"Banner v. Wright et al","judge":"NJB"},
+{"at":"2026-11-11T18:59-06:00","case":"2:26-cv-02360","doc":"10","event":"Dismiss Case","title":"Bourg et al v. LeBoeuf et al","judge":"SM"},
+{"at":"2026-11-11T18:28-06:00","case":"2:25-cv-00804","doc":"390","event":"Dismiss Case","title":"Burches v. Equifax Information Services, LLC et al","judge":"SM"},
+{"at":"2026-11-11T18:21-06:00","case":"2:26-cv-02360","doc":"9","event":"Dismiss/Failure to State a Claim/FRCP12(b)(6)","title":"Bourg et al v. LeBoeuf et al","judge":"SM"},
 {"at":"2026-11-11T17:29-06:00","case":"2:26-cv-02591","doc":"1","event":"Petition for Writ of Mandamus","title":"Edlow v. Mullin et al","judge":""},
 {"at":"2026-11-11T17:04-06:00","case":"2:26-cv-02120","doc":"6","event":"Summons Returned Executed as to USA or Agency of USA","title":"Eliantus et al v. Blanche et al","judge":""},
 {"at":"2026-11-11T16:59-06:00","case":"2:25-cv-02050","doc":"27","event":"Dismiss/Lack of Prosecution","title":"Purnell v. Harley-Davidson Motor Company, Inc. et al","judge":""},
@@ -2735,6 +2739,5 @@
 {"at":"2026-10-29T07:19-05:00","case":"2:26-cv-00630","doc":"14","event":"Continue","title":"Garrett, Jr. v. State Farm Fire and Casualty Company","judge":""},
 {"at":"2026-10-28T22:50-05:00","case":"2:22-cv-01271","doc":"253","event":"Seal Document","title":"Hutchinson-Harper, et al v. Jefferson Parish School Board, et al","judge":"DJP"},
 {"at":"2026-10-28T22:02-05:00","case":"2:26-cv-02496","doc":"1","event":"Complaint","title":"Goss et al v. The Dow Chemical Company et al","judge":""},
-{"at":"2026-10-28T20:32-05:00","case":"2:24-cv-00871","doc":"688","event":"Notice (Other)","title":"Constanza et al v. Sparta Insurance Company et al","judge":"NJB"},
-{"at":"2026-10-28T20:14-05:00","case":"2:19-cv-13773","doc":"371","event":"Supplemental Memorandum","title":"Hignell et al v. City of New Orleans","judge":"ILRL"}
+{"at":"2026-10-28T20:32-05:00","case":"2:24-cv-00871","doc":"688","event":"Notice (Other)","title":"Constanza et al v. Sparta Insurance Company et al","judge":"NJB"}
 ]
