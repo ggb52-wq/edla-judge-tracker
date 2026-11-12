@@ -154,6 +154,11 @@
 "date":"2026-11-10",
 "doc":"75",
 "event":"Pretrial Memorandum"
+},
+{
+"date":"2026-11-12",
+"doc":"76",
+"event":"Proposed Pretrial Order"
 }
 ],
 "held":false,
