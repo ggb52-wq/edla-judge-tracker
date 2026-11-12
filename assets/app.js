@@ -1918,8 +1918,8 @@
   const moNoun = (M) => { const d = (MO_SUBS[M.type] || []).find(([k]) => k === M.sub); return d ? d[2] : MO_NOUN[M.type]; };
   const moCases = (M) => (M.grp === '!dwh' ? ' outside the Deepwater Horizon cases' : M.grp ? ' in ' + caseNoun[M.grp] : '');
   const moHref = (patch) => hashFor('motions', { mo: { ...state.mo, ...patch } });
-  function moClean() {
-    const M = state.mo; const S = state.stats;
+  function moClean(M = state.mo) {
+    const S = state.stats;
     if (!mcatLabel[M.type]) M.type = 'r12';
     if (!(MO_SUBS[M.type] || []).some(([k]) => k === M.sub)) M.sub = '';
     if (M.grp !== '!dwh' && !caseLabel[M.grp]) M.grp = '';
@@ -2048,8 +2048,8 @@
 
   // How the written rulings came out, for the selection: the sentence, one bar, the counts behind it, and every ruling
   // as a square.
-  function drawMoOutcome(rows, base, sel) {
-    const S = state.stats; const M = state.mo; const t = S.tally(rows); const noun = moNoun(M); const cases = moCases(M); const when = moWhen(M, sel);
+  function moOutcomeText(rows, base, sel, M) {
+    const S = state.stats; const t = S.tally(rows); const noun = moNoun(M); const cases = moCases(M); const when = moWhen(M, sel);
     const pct = (n) => pctOf(n, t.known); const verb = sel.kind === 'all' ? 'issued' : 'signed';
     let head; const notes = [];
     if (!t.n) head = `${cap(when)}, the record on file does not show a written ruling${sel.by} on ${noun}${cases}.`;
@@ -2065,6 +2065,11 @@
         if (t2.known >= FEW) notes.push(`${fmt.int(dwh)} of the ${fmt.int(t.n)} rulings are in Deepwater Horizon cases. In all other cases ${sel.who} granted ${pctOf(t2.granted, t2.known)} in full (${plural(t2.known, 'ruling')})`
           + (b2 && b2.known >= FEW ? `, and ${sel.base[0].toLowerCase()} granted ${pctOf(b2.granted, b2.known)} (${plural(b2.known, 'ruling')}).` : '.')); }
     }
+    return { head, notes, t };
+  }
+  function drawMoOutcome(rows, base, sel) {
+    const S = state.stats; const M = state.mo; const noun = moNoun(M);
+    const { head, notes, t } = moOutcomeText(rows, base, sel, M); const pct = (n) => pctOf(n, t.known);
     setHead('h-mo-oc', head);
     $('mo-oc-n').textContent = t.n ? plural(t.n, 'written ruling') + ' · each square opens a ruling' : '';
     const left = [];
@@ -2131,6 +2136,16 @@
       .on('pointerleave', () => { rule.attr('opacity', 0); tipHide(); });
   }
   const WAIT_MARKS = [30, 60, 90, 120, 180, 365];
+  // v and vb: sorted days from filing to ruling, for the selection and for the comparison.
+  function moTimeText(v, vb, sel, M) {
+    const noun = moNoun(M); const cases = moCases(M); if (!v.length) return { head: '', half: '', cmp: false };
+    const med = d3.quantileSorted(v, 0.5);
+    const half = `${fmt.int(Math.round(d3.quantileSorted(v, 0.25)))} to ${dayWord(d3.quantileSorted(v, 0.75))}`; const cmp = !!(vb && vb.length >= FEW);
+    const head = v.length < FEW ? `A filing date is on file for ${plural(v.length, 'written ruling')}${sel.by} on ${noun}${cases}. A median needs ${FEW}.`
+      : cmp ? `${sel.Who} ruled on ${noun}${cases} a median of ${dayWord(med)} after filing (${plural(v.length, 'ruling')} with a filing date); the median for all district judges is ${dayWord(d3.quantileSorted(vb, 0.5))} (${plural(vb.length, 'ruling')}).`
+        : `${sel.Who} ruled on ${noun}${cases} a median of ${dayWord(med)} after filing; the middle half took ${half} (${plural(v.length, 'ruling')} with a filing date).`;
+    return { head, half, cmp };
+  }
   function drawMoTime(rows, base, sel) {
     const M = state.mo; const noun = moNoun(M); const cases = moCases(M);
     const dated = rows.filter((o) => o.days != null && o.days >= 0); const v = dated.map((o) => o.days).sort(d3.ascending);
@@ -2147,11 +2162,8 @@
       box.replaceChildren(el('p', { className: 'cap', textContent: rows.length ? `A filing date is not on file for any of the ${plural(rows.length, 'ruling')} in this selection.` : 'No written rulings for this selection.' }));
       tiles.replaceChildren(); note.textContent = ''; return;
     }
-    const med = d3.quantileSorted(v, 0.5);
-    const half = `${fmt.int(Math.round(d3.quantileSorted(v, 0.25)))} to ${dayWord(d3.quantileSorted(v, 0.75))}`; const cmp = vb && vb.length >= FEW;
-    setHead('h-mo-time', v.length < FEW ? `A filing date is on file for ${plural(v.length, 'written ruling')}${sel.by} on ${noun}${cases}. A median needs ${FEW}.`
-      : cmp ? `${sel.Who} ruled on ${noun}${cases} a median of ${dayWord(med)} after filing (${plural(v.length, 'ruling')} with a filing date); the median for all district judges is ${dayWord(d3.quantileSorted(vb, 0.5))} (${plural(vb.length, 'ruling')}).`
-        : `${sel.Who} ruled on ${noun}${cases} a median of ${dayWord(med)} after filing; the middle half took ${half} (${plural(v.length, 'ruling')} with a filing date).`);
+    const { head, half, cmp } = moTimeText(v, vb, sel, M);
+    setHead('h-mo-time', head);
     waitCurve(box, { dated, v, vb, who: sel.Who, baseWho: sel.base ? sel.base[0] : '' });
     const share = (a, d) => d3.bisectRight(a, d) / a.length;
     tiles.replaceChildren(...(v.length >= FEW ? WAIT_MARKS.map((d) => fact(d === 365 ? 'Within 1 year' : 'Within ' + d + ' days', fmt.pct0(share(v, d)),
@@ -2161,9 +2173,8 @@
 
   // The district judges in order on one measure, chosen from the list. A judge with fewer than five rulings behind the
   // figure is listed after the ranked judges, in outline. A row picks that judge for the whole page.
-  function drawMoRank(all, sel) {
-    const S = state.stats; const M = state.mo; const k = M.rank || 'granted'; const noun = moNoun(M); const cases = moCases(M);
-    const pick = $('mo-rank'); if (!pick.options.length) pick.append(...MO_RANKS.map(([v, l]) => new Option(l, v))); pick.value = k;
+  function moRankCalc(all, sel, M) {
+    const S = state.stats; const k = M.rank || 'granted'; const noun = moNoun(M); const cases = moCases(M);
     const share = k === 'granted' || k === 'any' || k === 'denied'; const needs = share || k === 'days' || k === 'pages';
     const pend = d3.rollup(S.motions.filter((m) => m.kind === M.type && !m.ruled), (v) => v.length, (m) => m.judge);
     const win = moWindow(M); const dj = all.filter((o) => !o.mj);
@@ -2187,6 +2198,18 @@
     const what = { granted: `the share of ${noun}${cases} granted in full`, any: `the share of ${noun}${cases} granted in full or in part`, denied: `the share of ${noun}${cases} denied`,
       days: `median days from filing to a written ruling on ${noun}${cases}`, n: `written rulings on ${noun}${cases}`, rate: `written rulings on ${noun}${cases} per year on the bench`,
       pages: `the median length of a written ruling on ${noun}${cases}`, pending: `${noun} awaiting a ruling on the docket feed` }[k];
+    const me = sel.kind === 'dj' ? rows.find((r) => r.code === sel.code) : null; const lo = ranked[asc ? 0 : ranked.length - 1]; const hi = ranked[asc ? ranked.length - 1 : 0];
+    const basisIn = (r) => (share || k === 'days' || k === 'pages' ? plural(basisOf(r.t), 'ruling') : k === 'rate' ? nText(r) : '');
+    let head = '';
+    if (ranked.length >= 2 && me && me.rank) head = `Judge ${me.name} is ${ord(me.rank)} of ${ranked.length} district judges on ${what}${asc ? ', shortest first' : ''}: ${f(me.val)}${basisIn(me) ? ' (' + basisIn(me) + ')' : ''}. The judges run from ${f(lo.val)} to ${f(hi.val)}.`;
+    else if (ranked.length >= 2 && me) head = `Judge ${me.name} has fewer than ${FEW} rulings behind this figure. The ${ranked.length} ranked judges run from ${f(lo.val)} to ${f(hi.val)} on ${what}.`;
+    else if (ranked.length >= 2) head = `Among the district judges, ${what} runs from ${f(lo.val)} (Judge ${lo.name}${basisIn(lo) ? ', ' + basisIn(lo) : ''}) to ${f(hi.val)} (Judge ${hi.name}${basisIn(hi) ? ', ' + basisIn(hi) : ''}).`;
+    return { k, share, needs, win, yearsFrom, ranked, rest, pool, f, nText, max, what, head, basisOf };
+  }
+  function drawMoRank(all, sel) {
+    const M = state.mo;
+    const { k, share, needs, win, yearsFrom, ranked, rest, pool, f, nText, max, what, head } = moRankCalc(all, sel, M);
+    const pick = $('mo-rank'); if (!pick.options.length) pick.append(...MO_RANKS.map(([v, l]) => new Option(l, v))); pick.value = k;
     const line = (r, opts = {}) => {
       const on = !opts.pool && sel.kind === 'dj' && sel.code === r.code;
       const bar = share ? (r.t.known ? ocBar(r.t, { labels: true }) : el('span', { className: 'rk-none', textContent: r.off ? 'not on the bench in this period' : 'no rulings with a known outcome' }))
@@ -2204,12 +2227,6 @@
     $('mo-rank-list').replaceChildren(line({ ...pool, name: '', years: yearsFrom(win[0]) }, { pool: true }), ...ranked.map((r) => line(r)),
       ...(rest.length && needs ? [el('div', { className: 'rk-sep', textContent: 'Fewer than ' + FEW + ' rulings behind the figure' })] : []), ...rest.map((r) => line(r)));
     $('mo-rank-n').textContent = 'rulings each district judge signed';
-    const me = sel.kind === 'dj' ? rows.find((r) => r.code === sel.code) : null; const lo = ranked[asc ? 0 : ranked.length - 1]; const hi = ranked[asc ? ranked.length - 1 : 0];
-    const basisIn = (r) => (share || k === 'days' || k === 'pages' ? plural(basisOf(r.t), 'ruling') : k === 'rate' ? nText(r) : '');
-    let head = '';
-    if (ranked.length >= 2 && me && me.rank) head = `Judge ${me.name} is ${ord(me.rank)} of ${ranked.length} district judges on ${what}${asc ? ', shortest first' : ''}: ${f(me.val)}${basisIn(me) ? ' (' + basisIn(me) + ')' : ''}. The judges run from ${f(lo.val)} to ${f(hi.val)}.`;
-    else if (ranked.length >= 2 && me) head = `Judge ${me.name} has fewer than ${FEW} rulings behind this figure. The ${ranked.length} ranked judges run from ${f(lo.val)} to ${f(hi.val)} on ${what}.`;
-    else if (ranked.length >= 2) head = `Among the district judges, ${what} runs from ${f(lo.val)} (Judge ${lo.name}${basisIn(lo) ? ', ' + basisIn(lo) : ''}) to ${f(hi.val)} (Judge ${hi.name}${basisIn(hi) ? ', ' + basisIn(hi) : ''}).`;
     if (head) setHead('h-mo-rank', head); else setPlain('h-mo-rank', 'District judges compared');
   }
 
@@ -4420,6 +4437,185 @@
     omnis.push({ root, input });
   }
 
+  // ------------------------------------------------------------ Ask: questions in plain words
+  // The reader types a question. A Cloudflare Worker (cloudflare/ask-worker.js) asks an open-source model on Groq to
+  // turn the question into a query: the kind of motion, the judge, the type of case, the period, and the like. The
+  // site then computes every figure from its own data and writes every sentence with the same code the pages use. The
+  // model never states a number and never describes a judge. The panel shows how the question was read, so a misread
+  // question is visible at once. Setup: cloudflare/README.md. Until ASK_URL is set, the Ask button stays hidden.
+  const ASK_URL = '';
+  const askUrl = () => { const local = /^(localhost|127\.0\.0\.1)$/.test(location.hostname) ? store.get('edla-ask-url') : ''; return local || ASK_URL; };
+  const ASK_INTENTS = { motions: 'Rulings on motions', rank_judges: 'Judges compared', search_text: 'Text of the opinions', case: 'One case', judge_profile: 'One judge',
+    pending: 'Motions awaiting a ruling', calendar: 'Calendar', trials: 'Trials', unsupported: 'Outside the site\'s data' };
+  const ASK_SUBS = Object.fromEntries(Object.values(MO_SUBS).flat().map(([k, l]) => [k, l]));
+  const ASK_EXAMPLES = ['How often does Judge Long grant motions to dismiss for failure to state a claim?', 'Which judge rules fastest on summary judgment?',
+    'How long do discovery motions take?', 'Opinions on spoliation and adverse inference'];
+  const MAG_NAMES = () => magJudges().map((j) => [j.code, j.short]);
+  // Edit distance, for a misspelled surname ("Vitter" typed "Viter").
+  const editDist = (a, b) => { const d = d3.range(b.length + 1); for (let i = 1; i <= a.length; i += 1) { let prev = d[0]; d[0] = i;
+    for (let j = 1; j <= b.length; j += 1) { const t = d[j]; d[j] = Math.min(d[j] + 1, d[j - 1] + 1, prev + (a[i - 1] === b[j - 1] ? 0 : 1)); prev = t; } } return d[b.length]; };
+  // A judge named in a question: a district judge's code, a magistrate judge's code, "dj", "mj", or '' with the name kept.
+  function askJudge(raw) {
+    if (!raw) return { code: '', raw: '' };
+    const s = String(raw).toLowerCase().replace(/\b(?:the\s+)?(?:honorable|hon\.?|chief|senior|u\.?s\.?|united states|district|magistrate|judge)\b/g, ' ').replace(/[^a-z .'-]/g, ' ').replace(/\s+/g, ' ').trim();
+    if (s === 'dj' || /^all district/.test(String(raw).toLowerCase())) return { code: 'dj', raw };
+    if (s === 'mj' || /^(?:all )?magistrate/.test(String(raw).toLowerCase())) return { code: 'mj', raw };
+    const pool = state.data.judges.map((j) => [j.code, j.name]).concat(MAG_NAMES());
+    const norm = (x) => x.toLowerCase().replace(/[^a-z]/g, '');
+    const key = norm(s); const last = norm(s.split(' ').slice(-1)[0] || '');
+    let hit = pool.find(([c, n]) => norm(n) === key || c.toLowerCase() === key || norm(n) === last)
+      || pool.find(([, n]) => key.length >= 4 && (key.includes(norm(n)) || norm(n).includes(key)));
+    if (!hit && key.length >= 4) { const best = pool.map(([c, n]) => [c, n, editDist(last || key, norm(n))]).sort((a, b) => a[2] - b[2])[0]; if (best && best[2] <= (best[1].length >= 6 ? 2 : 1)) hit = best; }
+    return { code: hit ? hit[0] : '', raw };
+  }
+  const askPeriod = (p) => { const S = state.stats; if (state.period || !p || p === 'all') return ''; if (p === '12m') return '12m';
+    return /^\d{4}$/.test(p) && p >= S.since.opinions.slice(0, 4) && p <= S.opThrough.slice(0, 4) ? p : ''; };
+  // The Motions page query for the reader's question, checked the way the page checks its own address.
+  function askMo(Q, J, type) {
+    const M = { type: type || Q.motion || 'r12', who: J.code, sub: Q.motion_detail || '', grp: Q.case_type || '', span: askPeriod(Q.period), rank: Q.measure || '', by: '', oc: Q.outcome || '', sort: '', limit: 15 };
+    moClean(M); return M;
+  }
+  // The chips under each question: how the site read the question.
+  function askChips(Q, J, M) {
+    const S = state.stats; const chips = [ASK_INTENTS[Q.intent] || ASK_INTENTS.unsupported];
+    if (J.raw) chips.push(J.code === 'dj' ? 'All district judges' : J.code === 'mj' ? 'All magistrate judges' : J.code ? (S.names[J.code] ? 'Judge ' + S.names[J.code] : 'Magistrate Judge ' + magOf(J.code).short) : 'Judge not found: ' + J.raw);
+    if (M) { chips.push(mcatLabel[M.type]); if (M.sub) chips.push(ASK_SUBS[M.sub]); if (M.grp) chips.push(M.grp === '!dwh' ? 'All except Deepwater Horizon' : caseLabel[M.grp]); chips.push(M.span ? (M.span === '12m' ? 'Last 12 months' : M.span) : state.period ? 'Last ' + state.period + ' days' : 'Since ' + fmtDate(S.since.opinions)); }
+    if (Q.intent === 'rank_judges' && M) chips.push('Measure: ' + (MO_RANKS.find(([k]) => k === (M.rank || 'granted')) || [])[1]);
+    if (Q.outcome) chips.push(OUTCOMES[Q.outcome]);
+    if (Q.text) chips.push('Words: ' + Q.text);
+    if (Q.case_number) chips.push('Case: ' + Q.case_number);
+    return el('div', { className: 'ask-chips' }, el('span', { className: 'ask-l', textContent: 'Read as' }), ...chips.map((c) => el('span', { className: 'fchip', textContent: c })));
+  }
+  const askLink = (text, href, ext) => el('a', { className: 'ask-go', href, textContent: text, ...(ext ? { target: '_blank', rel: 'noopener noreferrer' } : {}) });
+  const askRuling = (label, o) => (o ? el('li', {}, el('span', { className: 'ask-l', textContent: label }),
+    el('a', { href: opinionLink(o, linkKind(o)), target: '_blank', rel: 'noopener noreferrer', textContent: o.title || o.case }),
+    el('small', { textContent: [fmtDate(o.date), signerName(o.signer), o.pages ? plural(o.pages, 'page') : ''].filter(Boolean).join(' · ') })) : null);
+
+  // One kind of motion: the outcome sentence, the bar, the time sentence, and the rulings to read.
+  function askMotionAnswer(Q, M) {
+    const sel = moSel(M); const all = moFilter(moBase(), M); const rows = all.filter(sel.test); const base = sel.base ? all.filter(sel.base[1]) : null;
+    const { head, notes, t } = moOutcomeText(rows, base, sel, M);
+    const days = (R) => R.filter((o) => o.days != null && o.days >= 0).map((o) => o.days).sort(d3.ascending);
+    const time = sel.countsOnly ? '' : moTimeText(days(rows), base ? days(base) : null, sel, M).head;
+    const parts = [el('p', { className: 'ask-a', textContent: head })];
+    if (!sel.countsOnly && t.known >= FEW) parts.push(ocBar(t, { labels: true, min: 0.08 }));
+    if (notes.length) parts.push(el('p', { className: 'ask-n', textContent: notes.join(' ') }));
+    if (t.known && (sel.countsOnly || t.known < FEW)) parts.push(el('p', { className: 'ask-n', textContent: `By outcome: ${fmt.int(t.granted)} granted in full, ${fmt.int(t.partial)} granted in part, ${fmt.int(t.denied)} denied, and ${fmt.int(t.rest)} mixed, moot, or other.` }));
+    if (time) parts.push(el('p', { className: Q.focus === 'time' ? 'ask-a' : 'ask-n', textContent: time }));
+    if (Q.focus === 'time' && time) parts.unshift(parts.pop());
+    const pick = (f) => rows.find(f);
+    const list = Q.outcome ? rows.filter((o) => (Q.outcome === 'partial' ? o.oc === 'partial' : family(o.oc) === Q.outcome)).slice(0, 5).map((o) => askRuling(OUTCOMES[o.oc], o))
+      : [askRuling('Latest grant', pick((o) => family(o.oc) === 'granted')), askRuling('Latest grant in part', pick((o) => o.oc === 'partial')), askRuling('Latest denial', pick((o) => family(o.oc) === 'denied'))];
+    if (list.some(Boolean)) parts.push(el('ul', { className: 'ask-rulings' }, ...list.filter(Boolean)));
+    parts.push(askLink('Charts, the judges compared, and every ruling on the Motions page →', hashFor('motions', { mo: M })));
+    return parts;
+  }
+  function askRankAnswer(M) {
+    const sel = moSel(M); const all = moFilter(moBase(), M); const R = moRankCalc(all, sel, M);
+    if (!R.ranked.length) return [el('p', { className: 'ask-a', textContent: `Fewer than ${FEW} rulings stand behind this figure for every district judge.` }), askLink('Open the Motions page →', hashFor('motions', { mo: M }))];
+    const head = R.head || `Among the district judges, ${R.what} runs from ${R.f(R.ranked[R.ranked.length - 1].val)} to ${R.f(R.ranked[0].val)}.`;
+    return [el('p', { className: 'ask-a', textContent: head }),
+      el('ol', { className: 'ask-rank' }, ...R.ranked.map((r) => el('li', { className: sel.code === r.code ? 'on' : '' }, el('i', { textContent: String(r.rank) }), el('span', { textContent: r.name }), el('b', { textContent: R.f(r.val) }), el('small', { textContent: R.nText(r) })))),
+      R.rest.length ? el('p', { className: 'ask-n', textContent: 'Fewer than ' + FEW + ' rulings behind the figure: ' + R.rest.map((r) => r.name).join(', ') + '.' }) : null,
+      askLink('The judges compared on the Motions page →', hashFor('motions', { mo: M }))].filter(Boolean);
+  }
+  // The answer to one query, built from the site's data.
+  function askAnswer(Q) {
+    const S = state.stats; const J = askJudge(Q.judge); const dj = S.names[J.code] ? J.code : '';
+    const notFound = J.raw && !J.code ? [el('p', { className: 'ask-n', textContent: `The site does not have a judge named "${J.raw}". The answer covers all judges.` })] : [];
+    if (Q.intent === 'motions') {
+      if (!Q.motion) {
+        const parts = MO_MAIN.map((k) => { const M = askMo(Q, J, k); return el('div', { className: 'ask-sub' }, el('p', { className: 'ask-a', textContent: moOutcomeText(moFilter(moBase(), M).filter(moSel(M).test), null, moSel(M), M).head }), askLink(mcatLabel[k] + ' on the Motions page →', hashFor('motions', { mo: M }))); });
+        return { M: askMo(Q, J, 'r12'), J, parts: notFound.concat(parts) };
+      }
+      const M = askMo(Q, J); return { M, J, parts: notFound.concat(askMotionAnswer(Q, M)) };
+    }
+    if (Q.intent === 'rank_judges') { const M = askMo({ ...Q, judge: null }, { code: dj }, Q.motion || 'r12'); return { M, J, parts: notFound.concat(askRankAnswer(M)) }; }
+    if (Q.intent === 'search_text') {
+      const text = (Q.text || '').trim();
+      if (!text) return { J, parts: [el('p', { className: 'ask-a', textContent: 'The question does not name words to search for. Type the words or a quoted phrase.' })] };
+      const f = { ...emptyFinder(), text, judge: dj, type: Q.motion || '', oc: Q.outcome || '' };
+      return { J, parts: notFound.concat([el('p', { className: 'ask-a', textContent: `The opinion search lists every written opinion containing ${text.includes('"') ? text : '“' + text + '”'}${dj ? ' among Judge ' + S.names[dj] + '\'s opinions' : ''}${Q.motion ? ' in rulings on ' + MO_NOUN[Q.motion] : ''}, with the passage around each match.` }),
+        askLink('Open the matching opinions →', findHref(f))]) };
+    }
+    if (Q.intent === 'case') {
+      const id = normCase(Q.case_number || ''); const c = id && state.cases.find((x) => x.case === id);
+      if (!id) return { J, parts: [el('p', { className: 'ask-a', textContent: 'The question does not contain a case number the site can read. Type the number in the form 2:24-cv-01933.' })] };
+      return { J, parts: [el('p', { className: 'ask-a', textContent: c ? `${id}, ${c.title || 'case name not on file'}, is before ${S.names[c.judge] ? 'Judge ' + S.names[c.judge] : 'a judge not yet on file'}. The case page lists every docket entry, motion, and setting on file.` : `The site does not have docket entries for ${id}.` }),
+        askLink('Open the case page →', caseHref(id))] };
+    }
+    if (Q.intent === 'judge_profile' || Q.intent === 'pending' || Q.intent === 'calendar' || Q.intent === 'trials') {
+      const mj = magOf(J.code) ? J.code : ''; const who = dj ? 'Judge ' + S.names[dj] : mj ? 'Magistrate Judge ' + magOf(mj).short : '';
+      if (Q.intent === 'pending') {
+        const F = S.motions.filter((m) => !m.ruled && (!dj || m.judge === dj) && (!Q.motion || m.kind === Q.motion)); const past = F.filter((m) => m.past);
+        return { J, parts: notFound.concat([el('p', { className: 'ask-a', textContent: `Since ${fmtDate(S.motionsSince)}, the docket feed has shown ${plural(F.length, Q.motion ? MO_NOUN[Q.motion].replace(/s$/, '') : 'motion')} awaiting a ruling${dj ? ' before ' + who : ''}; ${fmt.int(past.length)} ${past.length === 1 ? 'is' : 'are'} under submission.` }),
+          askLink('Open the list of motions awaiting a ruling →', hashFor('motions', { mo: { type: 'pending' }, mt: { judge: dj, view: 'pending' } }))]) };
+      }
+      if (Q.intent === 'calendar') {
+        const next = dj ? nextSubDates(dj, 4) : [];
+        return { J, parts: notFound.concat([next.length ? el('p', { className: 'ask-a', textContent: `${who}'s next civil submission dates: ${next.map(fmtDate).join('; ')}.` }) : el('p', { className: 'ask-a', textContent: 'The calendar lists hearings, trials, and settings by judge and day.' }),
+          askLink('Open the calendar →', hashFor('calendar', { cal: { week: '', judge: dj, view: '', subs: !!dj } }))]) };
+      }
+      if (Q.intent === 'trials') return { J, parts: notFound.concat([el('p', { className: 'ask-a', textContent: `The Trials page lists every civil trial in a case closed since 2020${dj ? ' and can show ' + who + '\'s trials alone' : ''}, with the judgment side and the awards on file.` }), askLink('Open the Trials page →', hashFor('trials', { tr: { q: '', judge: dj, view: 'closed' } }))]) };
+      if (dj) {
+        const op = S.opinions.find((r) => r.code === dj); const g = (c, l) => (c.known >= FEW ? `${fmt.pct0(c.granted / c.known)} of the ${fmt.int(c.known)} ${l} motions with a known outcome` : '');
+        const bits = [g(op.cats.r12, 'Rule 12'), g(op.cats.r56, 'Rule 56')].filter(Boolean);
+        return { J, parts: [el('p', { className: 'ask-a', textContent: `${who} has issued ${plural(op.total, 'written opinion')} ${sinceWhen(op.start)}.${bits.length ? ' Judge ' + S.names[dj] + ' granted in full ' + joinAnd(bits) + '.' : ''}` }),
+          askLink(who + '\'s page: chambers, requirements, and every figure →', judgeHref(dj)), askLink(who + ' on each kind of motion →', hashFor('motions', { mo: { type: 'r12', who: dj } }))] };
+      }
+      if (mj) return { J, parts: [el('p', { className: 'ask-a', textContent: `${who}'s page lists chambers, requirements, settlement conferences, and every written opinion on file.` }), askLink('Open ' + who + '\'s page →', magHref(mj))] };
+      return { J, parts: notFound.concat([el('p', { className: 'ask-a', textContent: 'Each judge has a page with chambers, posted requirements, and every figure on file.' }), askLink('Open the list of judges →', '#judges')]) };
+    }
+    return { J, parts: [el('p', { className: 'ask-a', textContent: 'The site\'s data does not answer that question. The site counts rulings, times, and docket entries. The site does not give legal advice or predict the outcome of a particular case.' }),
+      el('p', { className: 'ask-n', textContent: 'Questions the site answers: how often a judge grants a kind of motion, how long rulings take, which judges grant or rule fastest, which rulings to read, and which opinions discuss a topic.' })] };
+  }
+
+  const ASK = { log: [], busy: false };
+  function askCard(item) {
+    const card = el('li', { className: 'ask-item' }, el('p', { className: 'ask-q', textContent: item.question }));
+    if (item.state === 'wait') card.append(el('p', { className: 'ask-n', textContent: 'Reading the question…' }));
+    else if (item.state === 'error') card.append(el('p', { className: 'ask-n err', textContent: item.error }));
+    else {
+      let ans; try { ans = askAnswer(item.query); } catch (e) { ans = { J: { code: '', raw: '' }, parts: [el('p', { className: 'ask-n err', textContent: 'The site could not compute an answer for this question.' })] }; }
+      card.append(askChips(item.query, ans.J, ans.M), ...ans.parts, el('p', { className: 'ask-src', textContent: 'Question read by ' + item.model + ', an open-source model, on Groq. The figures and sentences come from the site\'s own data.' }));
+    }
+    return card;
+  }
+  function drawAsk() {
+    const list = $('ask-log');
+    list.replaceChildren(...ASK.log.map(askCard));
+    $('ask-examples').hidden = ASK.log.length > 0;
+    $('ask-go').disabled = ASK.busy;
+  }
+  async function askSend(text) {
+    const question = String(text || '').trim().slice(0, 400); if (!question || ASK.busy || !state.stats) return;
+    const item = { question, state: 'wait' }; ASK.log.push(item); ASK.busy = true; $('ask-q').value = ''; drawAsk();
+    $('ask-log').lastElementChild.scrollIntoView({ block: 'nearest' });
+    const ctl = new AbortController(); const timer = setTimeout(() => ctl.abort(), 25000);
+    try {
+      const r = await fetch(askUrl(), { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ question, today: todayIso() }), signal: ctl.signal });
+      const body = await r.json().catch(() => ({}));
+      if (r.ok && body.query && typeof body.query === 'object') { item.query = body.query; item.model = String(body.model || 'an open-source model').slice(0, 60); item.state = 'done'; }
+      else { item.state = 'error'; item.error = r.status === 429 ? 'The free question allowance is used up for the moment. Try again in a minute.' : 'The question service did not answer. Try again, or use the filters on the Motions page.'; }
+    } catch (e) {
+      item.state = 'error'; item.error = 'The question service did not answer. Try again, or use the filters on the Motions page.';
+    } finally { clearTimeout(timer); ASK.busy = false; drawAsk(); const last = $('ask-log').lastElementChild; if (last) last.scrollIntoView({ block: 'nearest' }); }
+  }
+  function askOpen(open) {
+    const p = $('ask'); p.hidden = !open; $('ask-btn').setAttribute('aria-expanded', String(open));
+    if (open) { drawAsk(); $('ask-q').focus(); }
+  }
+  function askWire() {
+    $('ask-btn').hidden = !askUrl();
+    $('ask-examples').replaceChildren(...ASK_EXAMPLES.map((q) => el('button', { type: 'button', className: 'quick', textContent: q, onclick: () => askSend(q) })));
+    $('ask-btn').addEventListener('click', () => askOpen($('ask').hidden));
+    $('ask-close').addEventListener('click', () => askOpen(false));
+    $('ask-form').addEventListener('submit', (e) => { e.preventDefault(); askSend($('ask-q').value); });
+    $('ask-q').addEventListener('keydown', (e) => { if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); askSend($('ask-q').value); } if (e.key === 'Escape') askOpen(false); });
+    $('ask').addEventListener('click', (e) => { if (e.target.closest('a[href^="#"]')) askOpen(false); });
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !$('ask').hidden) askOpen(false); });
+  }
+
   // ------------------------------------------------------------ render
   const RENDER = { judges: renderJudges, judge: renderJudge, compare: renderCompare, cases: renderCases, case: renderCase, notices: renderNotices, activity: renderActivity, calendar: renderCalendar, opinions: renderOpinions, motions: renderMotions, trials: renderTrials, magistrates: renderMagistrates, magistrate: renderMagistrate, log: renderLog };
   function render() {
@@ -4473,6 +4669,7 @@
   document.querySelectorAll('[data-legend="outcomes"]').forEach((n) => n.replaceChildren(...OC_SEGS.map(([k, l]) => legendItem(`var(${ocVar(k)})`, l)), legendItem('transparent', 'Fewer than ' + FEW + ' rulings', 'few'), legendItem('var(--o-granted)', 'All judges', 'thin')));
   document.querySelectorAll('[data-legend="types"]').forEach((n) => n.replaceChildren(legendItem('var(--judge)', 'Dispositive rulings'), legendItem('var(--court)', 'Other opinions and R&Rs')));
   omnibox($('omni-top'));
+  askWire();
   $('jfind').addEventListener('input', findJudges);
   $('jfind').addEventListener('keydown', (e) => {
     if (e.key === 'Escape') { e.target.value = ''; findJudges(); }
