@@ -3759,7 +3759,7 @@
 {"case":"2:23-cv-07296","doc":"164","outcome":"denied","src":"docket_text","at":"2026-10-20","motion_doc":"157"},
 {"case":"2:23-cv-07317","doc":"39","outcome":"granted","src":"docket_text","at":"2026-10-21"},
 {"case":"2:23-cv-07317","doc":"48","outcome":"denied","src":"docket_text","at":"2026-10-21","motion_doc":"41"},
-{"case":"2:23-cv-07336","doc":"46","outcome":"granted","src":"docket_text","at":"2026-10-20","motion_doc":"39"},
+{"case":"2:23-cv-07336","doc":"46","outcome":"granted","src":"docket_text","at":"2026-10-20","motion_doc":"39","motion_filed":"2025-08-05"},
 {"case":"2:23-cv-07337","doc":"29","outcome":"partial","src":"docket_text","at":"2026-10-21"},
 {"case":"2:23-cv-07339","doc":"48","outcome":"granted","src":"docket_text","at":"2026-10-20","motion_doc":"39"},
 {"case":"2:23-cv-07344","doc":"40","outcome":"granted","src":"docket_text","at":"2026-10-20","motion_doc":"28"},
