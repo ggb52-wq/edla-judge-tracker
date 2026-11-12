@@ -4443,7 +4443,7 @@
   // site then computes every figure from its own data and writes every sentence with the same code the pages use. The
   // model never states a number and never describes a judge. The panel shows how the question was read, so a misread
   // question is visible at once. Setup: cloudflare/README.md. Until ASK_URL is set, the Ask button stays hidden.
-  const ASK_URL = '';
+  const ASK_URL = 'https://edla-ask.grantbutler52.workers.dev/';
   const askUrl = () => { const local = /^(localhost|127\.0\.0\.1)$/.test(location.hostname) ? store.get('edla-ask-url') : ''; return local || ASK_URL; };
   const ASK_INTENTS = { motions: 'Rulings on motions', rank_judges: 'Judges compared', search_text: 'Text of the opinions', case: 'One case', judge_profile: 'One judge',
     pending: 'Motions awaiting a ruling', calendar: 'Calendar', trials: 'Trials', unsupported: 'Outside the site\'s data' };
@@ -4518,6 +4518,32 @@
       el('ol', { className: 'ask-rank' }, ...R.ranked.map((r) => el('li', { className: sel.code === r.code ? 'on' : '' }, el('i', { textContent: String(r.rank) }), el('span', { textContent: r.name }), el('b', { textContent: R.f(r.val) }), el('small', { textContent: R.nText(r) })))),
       R.rest.length ? el('p', { className: 'ask-n', textContent: 'Fewer than ' + FEW + ' rulings behind the figure: ' + R.rest.map((r) => r.name).join(', ') + '.' }) : null,
       askLink('The judges compared on the Motions page →', hashFor('motions', { mo: M }))].filter(Boolean);
+  }
+  // Checks on the model's reading against the question's own words. The live model (Nov. 12, 2026) left out the kind
+  // of motion when ranking judges ("fastest on summary judgment"), left out "this year", narrowed "motion to dismiss" to
+  // 12(b)(6), and read "Will Judge Long grant my motion to dismiss?" as a ranking. Each check fills or corrects a field
+  // only where the question's words settle it.
+  const ASK_MOTION_WORDS = [['arbitration', /arbitrat/], ['r56', /summary\s+judg|\bmsjs?\b|rule\s*56/], ['r12', /dismiss|12\s*\(?[bc]\)?|rule\s*12|judgment on the pleadings/],
+    ['remand', /remand/], ['limine', /limine/], ['daubert', /daubert|exclude\s+(?:an?\s+|the\s+)?expert|expert\s+testimony/], ['discovery', /compel|quash|protective\s+order|discovery|subpoena/],
+    ['injunction', /injunction|restraining\s+order|\btro\b/], ['reconsideration', /reconsider|59\s*\(e\)|60\s*\(b\)/], ['default', /default\s+judg/], ['fees', /attorney'?s?\s+fees|fee\s+award/], ['stay', /\bstay\b/]];
+  const ASK_DETAIL_WORDS = { '12b6': /12\s*\(?b\)?\s*\(?6|failure\s+to\s+state/, juris: /jurisdiction|12\s*\(?b\)?\s*\(?[12]\b/, '12c': /pleadings|12\s*\(?c/, partial: /partial/,
+    expert: /expert|daubert|exclude|limine/, compel: /compel/, quash: /quash/, protect: /protective/ };
+  const askMotionOf = (t) => { const x = String(t || '').toLowerCase(); const hit = ASK_MOTION_WORDS.find(([, re]) => re.test(x)); return hit ? hit[0] : null; };
+  function askFill(Q0, question) {
+    const Q = { ...Q0 }; const x = String(question || '').toLowerCase(); const year = +todayIso().slice(0, 4);
+    const named = askMotionOf(x);
+    if (!Q.motion && named && ['motions', 'rank_judges', 'pending', 'search_text'].includes(Q.intent)) Q.motion = named;
+    if (Q.motion_detail && !(ASK_DETAIL_WORDS[Q.motion_detail] || /$^/).test(x)) Q.motion_detail = null;
+    if (!Q.period) Q.period = /this\s+year|so\s+far\s+this/.test(x) ? String(year) : /last\s+year|prior\s+year/.test(x) ? String(year - 1) : /(?:last|past)\s+12\s+months|past\s+year/.test(x) ? '12m' : (x.match(/\b(20(?:2[2-9]))\b/) || [])[1] || null;
+    // A judge's name in the question; a name that is also an English word ("long", "brown") counts only after "Judge".
+    if (!Q.judge) { const pat = (n) => n.replace(/[.]/g, '\\.?').replace(/\s+/g, '\\s+');
+      const hit = state.data.judges.map((j) => j.name).concat(magJudges().map((j) => j.short)).find((n) => new RegExp('\\bjudge\\s+' + pat(n) + '\\b', 'i').test(question || '')
+        || (!/^(?:long|brown|north)$/i.test(n) && new RegExp('\\b' + pat(n) + '\\b').test(question || ''))); if (hit) Q.judge = hit; }
+    // One judge and no comparison words: the question asks about that judge's rulings.
+    if (Q.intent === 'rank_judges' && Q.judge && !/\b(?:which|who|rank|ranking|compare|compared|most|least|fastest|slowest|quickest|best|worst|highest|lowest|judges)\b/.test(x)) { Q.intent = 'motions'; Q.focus = 'outcome'; Q.measure = null; }
+    // A search for a kind of motion and nothing else is a request for the rulings on that motion.
+    if (Q.intent === 'search_text' && Q.text && askMotionOf(Q.text) && String(Q.text).replace(/motions?|rulings?|opinions?|orders?|daubert|summary judgment|dismiss|to|in limine|limine|compel|remand|the|on|for/gi, '').trim().length < 3) { Q.intent = 'motions'; Q.focus = 'rulings'; Q.motion = Q.motion || askMotionOf(Q.text); Q.text = null; }
+    return Q;
   }
   // The answer to one query, built from the site's data.
   function askAnswer(Q) {
@@ -4595,7 +4621,7 @@
     try {
       const r = await fetch(askUrl(), { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ question, today: todayIso() }), signal: ctl.signal });
       const body = await r.json().catch(() => ({}));
-      if (r.ok && body.query && typeof body.query === 'object') { item.query = body.query; item.model = String(body.model || 'an open-source model').slice(0, 60); item.state = 'done'; }
+      if (r.ok && body.query && typeof body.query === 'object') { item.query = askFill(body.query, question); item.model = String(body.model || 'an open-source model').slice(0, 60); item.state = 'done'; }
       else { item.state = 'error'; item.error = r.status === 429 ? 'The free question allowance is used up for the moment. Try again in a minute.' : 'The question service did not answer. Try again, or use the filters on the Motions page.'; }
     } catch (e) {
       item.state = 'error'; item.error = 'The question service did not answer. Try again, or use the filters on the Motions page.';

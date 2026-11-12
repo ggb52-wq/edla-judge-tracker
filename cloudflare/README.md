@@ -17,19 +17,23 @@ traffic; neither account needs a credit card.
 
 ### 2. Cloudflare Worker
 1. Open https://dash.cloudflare.com and sign up.
-2. Choose **Workers & Pages**, then **Create**, then **Create Worker** (the "Hello World" starter).
-3. Name the Worker `edla-ask` and choose **Deploy**.
+2. Open **Workers & Pages** (on some accounts under **Compute** or **Build**), choose **Create application**, then
+   **Start with Hello World!** (or **Create Worker**).
+3. Name the Worker `edla-ask` and choose **Deploy**. A new account is asked to pick a `workers.dev` subdomain first.
 4. Choose **Edit code**. Delete the starter code, paste the whole of `cloudflare/ask-worker.js`, and choose **Deploy**.
-5. Back on the Worker's page, choose **Settings**, then **Variables and Secrets**, then **Add**:
-   - Type: **Secret**
-   - Name: `GROQ_API_KEY`
-   - Value: the Groq key from step 1
-   Choose **Deploy**.
+5. Back on the Worker's page, choose **Settings**, then **Variables and Secrets**, then **Add**. In the "Add
+   environment variable" box: leave **Production** checked, Key `GROQ_API_KEY`, Value the Groq key from step 1, check
+   **Secret**, then **Add variable and deploy**.
 6. Copy the Worker's address from its page. The address looks like `https://edla-ask.<your-name>.workers.dev`.
 
 ### 3. Connect the site
-Put the Worker's address in `ASK_URL` near the top of the Ask block in `assets/app.js` (search for `ASK_URL`), bump
-the `?v=` stamp, and push. The **Ask** button then appears in the site's header. The address is not a secret.
+`ASK_URL` in `assets/app.js` holds the Worker's address (set Nov. 12, 2026 to
+`https://edla-ask.grantbutler52.workers.dev/`). A new Worker at a new address needs that line changed, the `?v=`
+stamp bumped, and a push. The address is not a secret.
+
+### Updating the Worker
+After a change to `ask-worker.js`, open the Worker, choose **Edit code**, paste the whole file again, and choose
+**Deploy**. The secret stays in place.
 
 ## Optional settings (Worker > Settings > Variables and Secrets, type Text)
 - `MODELS`: Groq model names to try in order, separated by commas. Default:
