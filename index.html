@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
-  <link rel="stylesheet" href="assets/style.css?v=2026-11-11c">
+  <link rel="stylesheet" href="assets/style.css?v=2026-11-12b">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 24 24%27%3E%3Crect width=%2724%27 height=%2724%27 rx=%275%27 fill=%27%2310151c%27/%3E%3Cg transform=%27translate(2.4 2.4) scale(.8)%27%3E%3Cpath d=%27M12 2 22.5 8h-21Z M1.5 20.5h21v2h-21Z%27 fill=%27%23e6e9ee%27/%3E%3Cpath d=%27M3.5 14h3.2v6H3.5Z M8.1 10h3.2v10H8.1Z M12.7 12.5h3.2V20h-3.2Z M17.3 11h3.2v9h-3.2Z%27 fill=%27%233987e5%27/%3E%3C/g%3E%3C/svg%3E">
 </head>
 <body data-page="judges">
@@ -72,11 +72,11 @@
       <aside class="home-side" aria-label="Court figures and latest activity">
         <div class="kpis two" id="court-kpis" aria-label="Court figures"></div>
         <section class="panel" aria-labelledby="h-latest-home">
-          <div class="ph"><h2 id="h-latest-home">Latest on the docket</h2><a class="more-link" href="#activity">All activity →</a></div>
+          <div class="ph"><h2 id="h-latest-home">Latest docket entries</h2><a class="more-link" href="#activity">All activity →</a></div>
           <ol class="act compact withjudge side" id="home-act"></ol>
         </section>
         <section class="panel" aria-labelledby="h-trials-home" hidden>
-          <div class="ph"><h2 id="h-trials-home">Trials now and next</h2><a class="more-link" href="#trials">All trials →</a></div>
+          <div class="ph"><h2 id="h-trials-home">Trials under way and set</h2><a class="more-link" href="#trials">All trials →</a></div>
           <ol class="feed notices" id="home-trials"></ol>
         </section>
         <section class="panel" aria-labelledby="h-notices-home" hidden>
@@ -94,25 +94,25 @@
 
     <div class="cview" data-view="orders">
       <section class="panel">
-        <div class="ph"><h2>Civil orders</h2><span class="count" data-since="orders"></span></div>
+        <div class="ph"><h2 id="h-t-orders">Civil orders</h2><span class="count" data-since="orders"></span></div>
         <div class="scroll"><table class="t" id="t-orders"></table></div>
       </section>
     </div>
 
     <div class="cview" data-view="opinions">
       <section class="panel">
-        <div class="ph"><h2>Written opinions</h2><span class="count" data-since="opinions"></span></div>
+        <div class="ph"><h2 id="h-t-opinions">Written opinions</h2><span class="count" data-since="opinions"></span></div>
         <div class="scroll"><table class="t" id="t-opinions"></table></div>
       </section>
       <section class="panel">
-        <div class="ph"><h2>Written opinions by month, all judges</h2><div class="legend" data-legend="types"></div></div>
+        <div class="ph"><h2 id="h-t-monthly">Written opinions by month, all judges</h2><div class="legend" data-legend="types"></div></div>
         <div class="pb"><div class="chart" id="c-court-monthly"></div></div>
       </section>
     </div>
 
     <div class="cview" data-view="outcomes">
       <section class="panel">
-        <div class="ph"><h2>Motion outcomes</h2>
+        <div class="ph"><h2 id="h-t-outcomes">Motion rulings</h2>
           <div class="seg" id="oc-seg" role="group" aria-label="Motion type"><button type="button" data-g="r12">Rule 12</button><button type="button" data-g="r56">Rule 56</button><button type="button" data-g="all">All motions</button></div>
           <div class="legend" data-legend="outcomes"></div></div>
         <div class="pb tight"><p class="cap" id="oc-cap"></p></div>
@@ -122,21 +122,21 @@
 
     <div class="cview" data-view="pending">
       <section class="panel">
-        <div class="ph"><h2>Pending matters each judge reported</h2><span class="count" id="cjra-asof"></span><a class="more-link" href="methodology.html#cjra">Method</a></div>
+        <div class="ph"><h2 id="h-t-cjra">Matters pending more than six months, as reported by each judge</h2><span class="count" id="cjra-asof"></span><a class="more-link" href="methodology.html#cjra">Method</a></div>
         <div class="scroll"><table class="t" id="t-cjra"></table></div>
       </section>
     </div>
 
     <div class="cview" data-view="weekdays">
       <section class="panel">
-        <div class="ph"><h2>Share of each judge's orders by weekday</h2><span class="count" id="dow-days"></span></div>
+        <div class="ph"><h2 id="h-t-dow">Civil orders by weekday</h2><span class="count" id="dow-days"></span></div>
         <div class="scroll"><table class="t" id="t-dow"></table></div>
       </section>
     </div>
 
     <div class="cview" data-view="hours">
       <section class="panel">
-        <div class="ph"><h2>Time of day orders are entered (Central)</h2>
+        <div class="ph"><h2 id="h-t-hours">Civil orders by hour of entry (Central)</h2>
           <label class="inline">Compare with<select id="hours-judge" aria-label="Judge to compare"></select></label></div>
         <div class="pb"><p class="cap" id="hours-cap"></p><div class="legend" id="hours-legend"></div><div class="chart" id="c-hours"></div></div>
       </section>
@@ -167,7 +167,7 @@
     <div class="kpis six" id="j-kpis" aria-label="Key figures"></div>
 
     <section class="panel jfacts" aria-labelledby="h-facts">
-      <div class="ph"><h2 id="h-facts">Facts</h2><a class="more-link" href="methodology.html#profile">Method</a></div>
+      <div class="ph"><h2 id="h-facts">Selected figures</h2><a class="more-link" href="methodology.html#profile">Method</a></div>
       <div class="pb"><p class="cap" id="j-facts-cap"></p><div class="facts many" id="j-facts"></div></div>
     </section>
 
@@ -183,7 +183,7 @@
         </section>
 
         <section class="panel" aria-labelledby="h-oc">
-          <div class="ph"><h2 id="h-oc">Motion outcomes</h2><div class="legend" data-legend="outcomes"></div></div>
+          <div class="ph"><h2 id="h-oc">Motion rulings</h2><div class="legend" data-legend="outcomes"></div></div>
           <div class="pb">
             <p class="cap" id="j-oc-cap"></p>
             <div class="scroll"><table class="t oc" id="j-oc-table"></table></div>
@@ -194,9 +194,9 @@
         <section class="panel" aria-labelledby="h-act">
           <div class="ph"><h2 id="h-act">Docket activity</h2><div class="legend" id="j-act-legend"></div></div>
           <div class="trio">
-            <div><h3>Orders per working day, by week</h3><div class="chart" id="c-j-weekly"></div></div>
-            <div><h3>Written opinions by month</h3><div class="chart" id="c-j-monthly"></div></div>
-            <div><h3>Share of orders by weekday</h3><div class="chart" id="c-j-dow"></div></div>
+            <div><h3 id="j-h-weekly">Civil orders per working day, by week</h3><div class="chart" id="c-j-weekly"></div></div>
+            <div><h3 id="j-h-monthly">Written opinions by month</h3><div class="chart" id="c-j-monthly"></div></div>
+            <div><h3 id="j-h-dow">Civil orders by weekday</h3><div class="chart" id="c-j-dow"></div></div>
           </div>
         </section>
 
@@ -208,29 +208,29 @@
             <div class="legend keyrow" id="j-days-key"></div>
           </div>
           <div class="duo">
-            <div><h3>Civil orders by weekday and hour of entry <span class="n" id="j-hours-n"></span></h3><div class="chart" id="c-j-hours"></div><div class="legend keyrow" id="j-hours-key"></div></div>
-            <div><h3>Written opinions by ruling type and month</h3><div class="mults" id="c-j-mult"></div></div>
+            <div><h3 id="j-h-hours">Civil orders by weekday and hour of entry <span class="n" id="j-hours-n"></span></h3><div class="chart" id="c-j-hours"></div><div class="legend keyrow" id="j-hours-key"></div></div>
+            <div><h3 id="j-h-mult">Written opinions by ruling type and month</h3><div class="mults" id="c-j-mult"></div></div>
           </div>
         </section>
 
         <section class="panel" aria-labelledby="h-decided">
           <div class="ph"><h2 id="h-decided">Motions decided</h2><div class="legend"><span><i style="background:var(--judge)"></i>This judge</span><span><i class="line" style="background:var(--court)"></i>All judges</span></div></div>
           <div class="duo">
-            <div><h3>Motion types decided in written opinions <span class="n" id="j-mix-n"></span></h3><div id="j-mix"></div></div>
-            <div><h3>Days from filing to ruling <span class="n" id="j-wait-n"></span></h3><div class="chart" id="c-j-wait"></div>
-              <p class="foot-note">One dot per ruling. Dark tick: this judge's median (5+ rulings). Gray tick: all judges.</p></div>
+            <div><h3 id="j-h-mix">Motion types decided in written opinions <span class="n" id="j-mix-n"></span></h3><div id="j-mix"></div></div>
+            <div><h3 id="j-h-wait">Days from filing to ruling <span class="n" id="j-wait-n"></span></h3><div class="chart" id="c-j-wait"></div>
+              <p class="foot-note">Each dot is one ruling. The dark tick marks this judge's median, which needs at least 5 rulings. The gray tick marks all judges.</p></div>
           </div>
         </section>
 
         <section class="panel" aria-labelledby="h-shape">
           <div class="ph"><h2 id="h-shape">Opinions and cases</h2><div class="legend"><span><i style="background:var(--judge)"></i>This judge</span><span><i class="line" style="background:var(--court)"></i>All judges</span></div></div>
           <div class="duo">
-            <div><h3>Opinion length, pages <span class="n" id="j-pages-n"></span></h3><div class="chart" id="c-j-pages"></div></div>
-            <div><h3>Cases by year filed <span class="n" id="j-years-n"></span></h3><div class="chart" id="c-j-years"></div></div>
+            <div><h3 id="j-h-pages">Opinion length, pages <span class="n" id="j-pages-n"></span></h3><div class="chart" id="c-j-pages"></div></div>
+            <div><h3 id="j-h-years">Cases by year filed <span class="n" id="j-years-n"></span></h3><div class="chart" id="c-j-years"></div></div>
           </div>
           <div class="duo">
-            <div><h3>Nature of suit <span class="n" id="j-nos-n"></span></h3><div id="j-nos"></div></div>
-            <div><h3>Referred magistrate judges <span class="n" id="j-ref-n"></span></h3><div id="j-ref"></div></div>
+            <div><h3 id="j-h-nos">Nature of suit <span class="n" id="j-nos-n"></span></h3><div id="j-nos"></div></div>
+            <div><h3 id="j-h-ref">Referred magistrate judges <span class="n" id="j-ref-n"></span></h3><div id="j-ref"></div></div>
           </div>
         </section>
 
@@ -245,7 +245,7 @@
 
       <aside class="stack">
         <section class="panel" aria-labelledby="h-jcal">
-          <div class="ph"><h2 id="h-jcal">On the calendar</h2><a class="more-link" id="j-cal-all" href="#calendar">Calendar →</a></div>
+          <div class="ph"><h2 id="h-jcal">Upcoming settings</h2><a class="more-link" id="j-cal-all" href="#calendar">Calendar →</a></div>
           <ol class="cal-list" id="j-cal"></ol>
         </section>
         <section class="panel" aria-labelledby="h-proc">
@@ -262,7 +262,7 @@
           <ol class="feed" id="j-ca5"></ol>
         </section>
         <section class="panel latest" aria-labelledby="h-latest">
-          <div class="ph"><h2 id="h-latest">Written opinions</h2><span class="count" id="j-op-count"></span></div>
+          <div class="ph"><h2 id="h-latest">Written opinions, latest first</h2><span class="count" id="j-op-count"></span></div>
           <div class="pb tight">
             <div class="filters row">
               <input id="j-op-q" type="search" placeholder="Filter: party, case, motion" autocomplete="off" aria-label="Filter this judge's opinions">
@@ -275,16 +275,16 @@
       </aside>
     </div>
     <section class="panel" aria-labelledby="h-jact">
-      <div class="ph"><h2 id="h-jact">Recent docket activity</h2><a class="more-link" id="j-act-all" href="#activity">All activity →</a></div>
+      <div class="ph"><h2 id="h-jact">Latest docket entries</h2><a class="more-link" id="j-act-all" href="#activity">All activity →</a></div>
       <ol class="act compact" id="j-act"></ol>
     </section>
 
     <section class="panel" aria-labelledby="h-jm">
-      <div class="ph"><h2 id="h-jm">Submitted motions</h2><a class="more-link" id="j-motions-all" href="#motions">All submitted motions →</a></div>
+      <div class="ph"><h2 id="h-jm">Motions awaiting a ruling</h2><a class="more-link" id="j-motions-all" href="#motions">All submitted motions →</a></div>
       <div class="pb" id="j-motions"></div>
     </section>
     <section class="panel" aria-labelledby="h-jcjra">
-      <div class="ph"><h2 id="h-jcjra">Pending more than six months, as reported</h2><span class="count" id="j-cjra-n"></span><a class="more-link" id="j-cjra-src" target="_blank" rel="noopener noreferrer">Report ↗</a></div>
+      <div class="ph"><h2 id="h-jcjra">Matters pending more than six months, as reported</h2><span class="count" id="j-cjra-n"></span><a class="more-link" id="j-cjra-src" target="_blank" rel="noopener noreferrer">Report ↗</a></div>
       <div class="pb" id="j-cjra"></div>
     </section>
   </section>
@@ -323,7 +323,7 @@
     <div class="jgrid">
       <div class="stack">
         <section class="panel" aria-labelledby="h-nt-news"><div class="ph"><h2 id="h-nt-news">Court news</h2></div><ol class="feed notices" id="nt-news"></ol></section>
-        <section class="panel" aria-labelledby="h-nt-orders"><div class="ph"><h2 id="h-nt-orders">General orders</h2><a class="more-link" href="https://www.laed.uscourts.gov/attorney-information/rules-and-orders/general-orders" target="_blank" rel="noopener noreferrer">Court's page ↗</a></div><div class="pb"><h3>General Orders by year <span class="n" id="nt-years-n"></span></h3><div class="chart" id="c-nt-years"></div></div><ol class="feed notices" id="nt-orders"></ol></section>
+        <section class="panel" aria-labelledby="h-nt-orders"><div class="ph"><h2 id="h-nt-orders">General Orders</h2><a class="more-link" href="https://www.laed.uscourts.gov/attorney-information/rules-and-orders/general-orders" target="_blank" rel="noopener noreferrer">Court's page ↗</a></div><div class="pb"><h3 id="nt-h-years">General Orders by year <span class="n" id="nt-years-n"></span></h3><div class="chart" id="c-nt-years"></div></div><ol class="feed notices" id="nt-orders"></ol></section>
       </div>
       <aside class="stack">
         <section class="panel" aria-labelledby="h-nt-ap"><div class="ph"><h2 id="h-nt-ap">Fifth Circuit decisions</h2><a class="more-link" href="https://www.ca5.uscourts.gov/opinions" target="_blank" rel="noopener noreferrer">Fifth Circuit ↗</a></div>
@@ -375,7 +375,7 @@
       </div>
       <aside class="stack">
         <section class="panel" id="c-cal" aria-labelledby="h-ccal">
-          <div class="ph"><h2 id="h-ccal">On the calendar</h2><div class="actions"><button type="button" class="btn ghost" id="c-ics" title="Download a calendar file (.ics) for Outlook, Google, or Apple Calendar">Add all to calendar</button><a class="more-link" id="c-cal-all" href="#calendar">Judge's calendar →</a></div></div>
+          <div class="ph"><h2 id="h-ccal">Upcoming settings</h2><div class="actions"><button type="button" class="btn ghost" id="c-ics" title="Download a calendar file (.ics) for Outlook, Google, or Apple Calendar">Add all to calendar</button><a class="more-link" id="c-cal-all" href="#calendar">Judge's calendar →</a></div></div>
           <ol class="cal-list" id="c-cal-list"></ol>
         </section>
         <section class="panel" id="c-appeals-panel" aria-labelledby="h-cap" hidden>
@@ -411,13 +411,13 @@
       <div class="actions"><div class="chips" id="cmp-chips"></div><select id="cmp-add" aria-label="Add a judge"></select></div>
     </div>
     <section class="panel" id="cmp-charts-panel" hidden>
-      <div class="ph"><h2>Side by side</h2><div class="legend" id="cmp-legend"></div></div>
+      <div class="ph"><h2 id="h-cmp">Comparison of the judges shown</h2><div class="legend" id="cmp-legend"></div></div>
       <div class="cmp-grid" id="cmp-charts"></div>
     </section>
     <section class="panel">
       <div class="scroll"><table class="t cmp" id="cmp-table"></table></div>
     </section>
-    <p class="foot-note">"All judges" is the median judge for rates and counts, and all 16 judges pooled for outcomes. n = rulings with a coded outcome. <a href="methodology.html#compare">How we count</a></p>
+    <p class="foot-note">"All judges" shows the median judge for counts and rates, and all 16 judges together for outcomes. n is the number of rulings with a known outcome. <a href="methodology.html#compare">How we count</a></p>
   </section>
 
   <!-- ============================================================ Activity -->
@@ -436,10 +436,10 @@
     </div>
     <div class="chip-row kinds" id="act-kinds" role="group" aria-label="Entry type"></div>
     <section class="panel" id="act-charts" hidden>
-      <div class="ph"><h2>These entries</h2><div class="legend" id="act-legend"></div></div>
+      <div class="ph"><h2 id="h-act-charts">Docket entries in this range</h2><div class="legend" id="act-legend"></div></div>
       <div class="duo flush">
-        <div><h3>By day</h3><div class="chart" id="c-act-days"></div></div>
-        <div><h3>By weekday and hour of entry <span class="n" id="act-hours-n"></span></h3><div class="chart" id="c-act-hours"></div></div>
+        <div><h3 id="act-h-days">Entries by day</h3><div class="chart" id="c-act-days"></div></div>
+        <div><h3 id="act-h-hours">Entries by weekday and hour <span class="n" id="act-hours-n"></span></h3><div class="chart" id="c-act-hours"></div></div>
       </div>
     </section>
     <section class="panel">
@@ -475,8 +475,8 @@
       <ol class="cal-list big" id="cal-list" hidden></ol>
     </section>
     <section class="panel">
-      <div class="ph"><h2>Settings with no date yet</h2><span class="count" id="cal-pending-count"></span></div>
-      <div class="pb tight"><p class="cap">Entries from the last two weeks that set a proceeding. The feed omits the date; it is added once the docket text is read.</p></div>
+      <div class="ph"><h2>Settings without a date</h2><span class="count" id="cal-pending-count"></span></div>
+      <div class="pb tight"><p class="cap">These docket entries set a hearing or conference but do not state the date in the feed. The date appears here once the docket text is read.</p></div>
       <ol class="act compact withjudge" id="cal-pending"></ol>
     </section>
     <section class="panel" hidden>
@@ -502,19 +502,19 @@
       <label class="grow">Case or motion<input id="op-q" type="search" placeholder="Party, case number, or motion" autocomplete="off"></label>
       <label>Judge<select id="op-judge"></select></label>
       <label>Ruling<select id="op-type"></select></label>
-      <label>Outcome<select id="op-outcome"><option value="">Any</option><option value="granted">Granted</option><option value="granted_leave">Granted, leave to amend</option><option value="partial">Granted in part</option><option value="denied">Denied</option><option value="denied_wop">Denied without prejudice</option><option value="mixed">Mixed</option><option value="moot">Moot</option><option value="other">Other</option><option value="known">Any coded outcome</option><option value="none">Not coded yet</option></select></label>
+      <label>Outcome<select id="op-outcome"><option value="">Any</option><option value="granted">Granted</option><option value="granted_leave">Granted, leave to amend</option><option value="partial">Granted in part</option><option value="denied">Denied</option><option value="denied_wop">Denied without prejudice</option><option value="mixed">Mixed</option><option value="moot">Moot</option><option value="other">Other</option><option value="known">Any known outcome</option><option value="none">Outcome not yet read</option></select></label>
       <label class="check"><input type="checkbox" id="op-pdf"> PDF on file</label>
       <span class="chip-row" id="op-chips"></span>
     </div>
     <p class="foot-note ft-status" id="op-ft-status" role="status" aria-live="polite" hidden></p>
     <section class="panel" id="op-glance" aria-labelledby="h-op-glance" hidden>
-      <div class="ph"><h2 id="h-op-glance">These results</h2><div class="legend" data-legend="types"></div></div>
+      <div class="ph"><h2 id="h-op-glance">Written opinions matching these filters</h2><div class="legend" data-legend="types"></div></div>
       <div class="duo flush lead">
         <div>
           <div class="facts two" id="op-facts"></div>
-          <h3 class="mt">By month <span class="n" id="op-month-n"></span></h3><div class="chart" id="c-op-months"></div>
+          <h3 class="mt" id="op-h-month">Opinions by month <span class="n" id="op-month-n"></span></h3><div class="chart" id="c-op-months"></div>
         </div>
-        <div><h3 id="op-by-h">By judge</h3><div id="op-by"></div></div>
+        <div><h3 id="op-h-by">Opinions by judge</h3><div id="op-by"></div></div>
       </div>
     </section>
     <section class="panel">
@@ -536,7 +536,7 @@
     <div class="kpis five" id="tr-kpis" aria-label="Trial figures, all judges"></div>
 
     <section class="panel" id="tr-now-wrap" aria-labelledby="h-tr-now">
-      <div class="ph"><h2 id="h-tr-now">Now and next</h2><span class="count" id="tr-now-count"></span></div>
+      <div class="ph"><h2 id="h-tr-now">Trials under way and set</h2><span class="count" id="tr-now-count"></span></div>
       <div class="tnow" id="tr-now"></div>
     </section>
 
@@ -569,7 +569,7 @@
       <section class="panel" aria-labelledby="h-tr-awards">
         <div class="ph"><h2 id="h-tr-awards">Award amounts</h2><span class="count" id="tr-awards-n"></span></div>
         <div class="pb"><div class="chart" id="tr-awards"></div>
-          <h3 class="mt">Basis of jurisdiction</h3><div id="tr-juris"></div><p class="foot-note" id="tr-juris-note"></p></div>
+          <h3 class="mt" id="tr-h-juris">Basis of jurisdiction</h3><div id="tr-juris"></div><p class="foot-note" id="tr-juris-note"></p></div>
       </section>
       <section class="panel" aria-labelledby="h-tr-jnos">
         <div class="ph"><h2 id="h-tr-jnos">Judgment for, by type of case</h2></div>
@@ -625,7 +625,7 @@
     <div class="jhead">
       <div>
         <h1 id="h-mags">Magistrate judges</h1>
-        <p class="sub">What each magistrate judge does on the civil docket: settlement conferences, referred cases, and written opinions. Counts and case lists only. <a href="methodology.html#magistrates">How we count</a></p>
+        <p class="sub">Settlement conferences, referred cases, and written opinions for each magistrate judge. The page shows counts and case lists. <a href="methodology.html#magistrates">How we count</a></p>
       </div>
       <div class="actions"><button type="button" class="btn" data-csv="mg">Export CSV</button></div>
     </div>
@@ -642,7 +642,7 @@
       <div class="scroll"><table class="t" id="m-conf-table"></table></div>
     </section>
     <section class="panel" aria-labelledby="h-m-table">
-      <div class="ph"><h2 id="h-m-table">By magistrate judge</h2><a class="more-link" href="methodology.html#magistrates">Method</a></div>
+      <div class="ph"><h2 id="h-m-table">Counts by magistrate judge</h2><a class="more-link" href="methodology.html#magistrates">Method</a></div>
       <div class="scroll"><table class="t" id="t-mags"></table></div>
       <p class="foot-note pad" id="m-table-note"></p>
     </section>
@@ -714,21 +714,21 @@
     <div class="jhead">
       <div>
         <h1 id="h-motions">Submitted motions</h1>
-        <p class="sub">Civil motions past their submission date with no ruling on the docket. Tracked since <span id="mt-since">the site began reading the feed</span>. Dates marked "est." are estimates (<a href="methodology.html#motions">how</a>).</p>
+        <p class="sub">Civil motions under submission with no ruling on the docket, recorded since <span id="mt-since">the site began reading the feed</span>. A date marked "est." is estimated (<a href="methodology.html#motions">how</a>).</p>
       </div>
       <div class="actions"><button type="button" class="btn" data-csv="mt">Export CSV</button></div>
     </div>
     <div class="kpis four" id="mt-kpis"></div>
     <section class="panel" id="mt-charts" hidden>
-      <div class="ph"><h2>Motions since the feed was first read</h2><div class="legend" id="mt-legend"></div></div>
+      <div class="ph"><h2 id="h-mt-charts">Motions recorded from the docket feed</h2><div class="legend" id="mt-legend"></div></div>
       <div class="trio">
-        <div><h3>Filed by day <span class="n" id="mt-days-n"></span></h3><div class="chart" id="c-mt-days"></div></div>
-        <div><h3>By kind of motion</h3><div id="mt-kinds"></div></div>
-        <div><h3>Days from filing to ruling <span class="n" id="mt-wait-n"></span></h3><div class="chart" id="c-mt-wait"></div></div>
+        <div><h3 id="mt-h-days">Motions filed by day <span class="n" id="mt-days-n"></span></h3><div class="chart" id="c-mt-days"></div></div>
+        <div><h3 id="mt-h-kinds">Motions by kind</h3><div id="mt-kinds"></div></div>
+        <div><h3 id="mt-h-wait">Days from filing to ruling <span class="n" id="mt-wait-n"></span></h3><div class="chart" id="c-mt-wait"></div></div>
       </div>
     </section>
     <div class="filters">
-      <label>Show<select id="mt-view"><option value="past">Past submission, no ruling found</option><option value="pending">All awaiting a ruling</option><option value="all">All motions on file</option></select></label>
+      <label>Show<select id="mt-view"><option value="past">Under submission, no ruling found</option><option value="pending">All awaiting a ruling</option><option value="all">All motions on file</option></select></label>
       <label>Judge<select id="mt-judge"></select></label>
       <label class="grow">Search<input id="mt-q" type="search" placeholder="Party, case number, or motion" autocomplete="off"></label>
     </div>
@@ -738,7 +738,7 @@
       <button type="button" class="btn more" id="mt-more" hidden>Show more</button>
     </section>
     <section class="panel">
-      <div class="ph"><h2>By judge</h2><button type="button" class="btn ghost" data-csv="mj">Export CSV</button></div>
+      <div class="ph"><h2>Motions by judge</h2><button type="button" class="btn ghost" data-csv="mj">Export CSV</button></div>
       <div class="scroll"><table class="t" id="mj-table"></table></div>
     </section>
     <details class="explain">
@@ -758,7 +758,7 @@
 
 <footer class="foot">
   <div class="foot-in">
-    <p>Independent project, not affiliated with the U.S. District Court for the Eastern District of Louisiana or any judge. Not legal advice. Counts describe docket activity, not the merits of any ruling. Sources: PACER, the court's RSS feed, GovInfo, and CourtListener.</p>
+    <p>Independent project, not affiliated with the U.S. District Court for the Eastern District of Louisiana or any judge. Not legal advice. The figures count what the docket shows. They do not grade any ruling. Sources: PACER, the court's RSS feed, GovInfo, and CourtListener.</p>
     <nav aria-label="About"><a href="#notices">Court notices</a><a href="methodology.html">How we count</a><a href="#log">Update log</a><a href="https://github.com/ggb52-wq/edla-judge-tracker">Data and code</a></nav>
     <p class="keys"><kbd>/</kbd> search <kbd>[</kbd> <kbd>]</kbd> previous / next judge <kbd>Esc</kbd> close</p>
   </div>
@@ -766,6 +766,6 @@
 <div class="tip" id="tip" role="tooltip" hidden></div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 <script>window.d3 || document.write('<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"><\/script>'); /* cdnjs unreachable: same build from jsDelivr */</script>
-<script src="assets/app.js?v=2026-11-11c"></script>
+<script src="assets/app.js?v=2026-11-12b"></script>
 </body>
 </html>
