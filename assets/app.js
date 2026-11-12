@@ -40,11 +40,16 @@
   const isMotion = (o) => !Number(o.rr) && /\bmotion\s+(to|for|in)\b/i.test(o.event || '');
   // Motion categories, from the Rule 12 / Rule 56 flags first and then the motion's name in the docket event.
   const MCATS = [['r12', 'Rule 12'], ['r56', 'Rule 56'], ['discovery', 'Discovery'], ['daubert', 'Daubert / expert'], ['limine', 'In limine'],
-    ['injunction', 'Injunction / TRO'], ['remand', 'Remand'], ['reconsideration', 'Reconsideration'], ['stay', 'Stay'], ['default', 'Default judgment'],
+    ['injunction', 'Injunction / TRO'], ['remand', 'Remand'], ['arbitration', 'Arbitration'], ['reconsideration', 'Reconsideration'], ['stay', 'Stay'], ['default', 'Default judgment'],
     ['fees', 'Attorney fees'], ['othermotion', 'Other motions']];
   const mcatLabel = Object.fromEntries(MCATS);
-  const MCAT_RULES = [['remand', /remand/i], ['limine', /in limine/i], ['daubert', /daubert|exclude|expert/i],
-    ['discovery', /compel|protective order|quash|discovery|deposition|subpoena|interrogator|produc/i],
+  // A motion to compel arbitration, an appraisal, mediation, or a settlement is not a discovery motion, and a motion to
+  // quash service or a jury demand is not one either (until Nov. 12, 2026 "compel" and "quash" alone made a ruling a
+  // discovery ruling, which put 99 arbitration rulings there).
+  const ARBITRATION_RE = /arbitrat|a rbitration/i;
+  const DISCOVERY_RE = /compel(?!\s+(?:appraisal|mediation|settlement|enforcement|compliance with (?:the )?settlement))|protective order|quash(?!\s+(?:service|jury|summons|(?:the\s+)?indictment))|discovery|deposition|subpoena|interrogator|\bproduc(?:e|tion)\b|requests? for admission|medical examination/i;
+  const MCAT_RULES = [['remand', /remand/i], ['limine', /in limine/i], ['daubert', /daubert|exclude|expert/i], ['arbitration', ARBITRATION_RE],
+    ['discovery', DISCOVERY_RE],
     ['injunction', /restraining order|injunction|\btro\b/i], ['reconsideration', /reconsider/i], ['stay', /motion to stay\b/i],
     ['default', /default/i], ['fees', /attorney'?s? fees|\bfees\b/i]];
   const motionCategory = (o) => {
@@ -96,9 +101,9 @@
   // The Requirements and Trade secrets pages were removed Nov. 6, 2026; their addresses open Home.
   // The Court page's tables moved to the bottom of Home on Nov. 10, 2026: #court/outcomes opens Home at that table.
   const LEGACY = { overview: ['judges'], rules: ['judges'], tradesecrets: ['judges'], court: ['judges', 'orders'], orders: ['judges', 'orders'], outcomes: ['judges', 'outcomes'], finder: ['opinions'] };
-  const emptyFinder = () => ({ q: '', judge: '', type: '', oc: '', pdf: false, month: '', text: '' });
+  const emptyFinder = () => ({ q: '', judge: '', type: '', oc: '', pdf: false, month: '', text: '', by: '' });
   const state = { page: 'judges', judge: '', cmp: [], vs: [], view: 'orders', period: '', f: emptyFinder(), limit: 100,
-    mt: { view: 'past', q: '', judge: '', limit: 100 }, jf: { q: '', type: '', judge: '' }, ocGroup: 'r12', hoursJudge: '', sorts: {},
+    mt: { view: 'past', q: '', judge: '', limit: 100 }, mo: { type: 'r12', who: '', sub: '', grp: '', span: '', rank: '', by: '', oc: '', sort: '', limit: 15 }, jf: { q: '', type: '', judge: '' }, ocGroup: 'r12', hoursJudge: '', sorts: {},
     rtab: '', act: { q: '', judge: '', kind: '', days: '7', limit: 300 }, cal: { week: '', judge: '', view: '', subs: false }, tr: { q: '', judge: '', view: 'closed' }, mag: '', mtab: '', mgLimit: 25, mgAll: false, editor: false, data: null, stats: null, cases: [], pages: {} };
   const editorParam = new URLSearchParams(location.search).get('editor');
   if (editorParam === '1' || editorParam === '0') store.set('edla-editor', editorParam);
@@ -138,6 +143,9 @@
     const opFloor = period ? addDays(opThrough, 1 - Number(period)) : '';
     const workdays = (a, b) => { const out = []; for (let d = utc(a); d <= utc(b); d.setUTCDate(d.getUTCDate() + 1)) { const w = d.getUTCDay(); if (w > 0 && w < 6 && !H.has(iso(d))) out.push(iso(d)); } return out; };
     const OC = new Map((D.outcomes || []).map((r) => [r.case + '|' + r.doc, r]));
+    // Orders a magistrate judge signed (data/magistrates.json). The opinion stays in the district judge's opinion counts,
+    // as before; the district judge's motion outcomes, times to ruling, and motion-type counts leave it out.
+    const MJ = new Map((((D.magistrates || {}).opinions) || []).filter((r) => !Number(r.rr)).map((r) => [r.case + '|' + r.doc, r.mj]));
     const names = Object.fromEntries(D.judges.map((j) => [j.code, j.name]));
     const bench = Object.fromEntries(D.judges.map((j) => [j.code, j.bench_start]));
 
@@ -164,7 +172,7 @@
       const filed = /^\d{4}-\d{2}-\d{2}$/.test(r.motion_filed || '') ? r.motion_filed : '';
       // A hearing question is asked only when the whole filing-to-ruling span falls inside the orders window.
       const askHearing = !!filed && filed >= orStart && o.date >= orStart;
-      return { ...o, cat: category(o), mcat: motionCategory(o), oc: r.outcome || '', ocSrc: r.src || '', motionDoc: r.motion_doc || '',
+      return { ...o, cat: category(o), mcat: motionCategory(o), mj: MJ.get(o.case + '|' + o.doc) || '', oc: r.outcome || '', ocSrc: r.src || '', motionDoc: r.motion_doc || '',
         filed, days: filed ? daysBetween(filed, o.date) : null, pages: Number(o.pages) > 0 ? Number(o.pages) : null,
         hearing: askHearing ? (hearingDays[o.case] || []).some((d) => d >= filed && d <= o.date) : null };
     };
@@ -182,9 +190,11 @@
         cases: new Set(R.map((o) => o.case)).size, days_with: ds.length, per_week: wd ? ch.length / (wd / 5) : 0, merits: mer.length,
         merits_month: wd ? mer.length / (wd / 21) : 0, r12: mer.filter((o) => Number(o.r12)).length, r56: mer.filter((o) => Number(o.r56)).length, mix,
         last: ds.length ? ds[ds.length - 1] : '', pdf: R.filter((o) => linkKind(o) === 'pdf').length };
-      Object.keys(GROUPS).forEach((g) => { const t = tally(R.filter((o) => inGroup(o, g))); Object.keys(t).forEach((k) => { row[g + '_' + k] = t[k]; }); });
-      row.cats = Object.fromEntries(MCATS.map(([k]) => [k, tally(R.filter((o) => o.mcat === k))]));
-      row.motions = tally(R.filter((o) => isMotion(o)));
+      const own = R.filter((o) => !o.mj);  // rulings the district judge signed
+      Object.keys(GROUPS).forEach((g) => { const t = tally(own.filter((o) => inGroup(o, g))); Object.keys(t).forEach((k) => { row[g + '_' + k] = t[k]; }); });
+      row.cats = Object.fromEntries(MCATS.map(([k]) => [k, tally(own.filter((o) => o.mcat === k))]));
+      row.motions = tally(own.filter((o) => isMotion(o)));
+      row.mj_motions = R.filter((o) => o.mj && isMotion(o)).length;
       const allPages = R.map((o) => o.pages).filter((p) => p != null);
       row.med_pages = allPages.length ? median(allPages) : 0; row.n_pages = allPages.length;
       // Written opinions against all orders in the same window: how much of this judge's output is flagged as a written opinion.
@@ -357,12 +367,21 @@
     if (page === 'opinions') {
       const f = emptyFinder(); f.q = p.get('q') || ''; f.judge = judgeCode(p.get('judge')); f.type = Object.hasOwn(typeLabel, p.get('type') || '') && p.get('type') !== '|' ? p.get('type') : '';
       f.oc = p.get('oc') || ''; f.pdf = p.get('pdf') === '1'; f.month = /^\d{4}-\d{2}$/.test(p.get('month') || '') ? p.get('month') : ''; f.text = (p.get('text') || '').slice(0, 200);
+      f.by = ['dj', 'mj'].includes(p.get('by')) ? p.get('by') : '';
       state.f = f;
     }
     if (page === 'trials') state.tr = { q: p.get('q') || '', judge: judgeCode(p.get('judge')), view: ['feed', 'decisions'].includes(p.get('view')) ? p.get('view') : 'closed' };
     if (page === 'magistrate') { const m = magCode(parts[1]); if (m !== state.mag) { state.mag = m; state.mtab = ''; state.mgLimit = 25; state.mgAll = false; } }
-    if (page === 'motions') { state.mt.judge = judgeCode(p.get('judge')); state.mt.view = ['past', 'pending', 'all'].includes(p.get('view')) ? p.get('view') : 'past'; }
+    // #motions/r56?judge=BSL&motion=partial&cases=insurance&decided=2025 is one kind of motion; #motions/pending is the
+    // list of motions awaiting a ruling (the page's earlier form, which an address with view= still opens).
+    if (page === 'motions') {
+      const t = parts[1] || '';
+      if (t === 'pending' || (!t && p.has('view'))) { state.mo = { ...state.mo, type: 'pending' }; state.mt.judge = judgeCode(p.get('judge')); state.mt.view = ['past', 'pending', 'all'].includes(p.get('view')) ? p.get('view') : 'past'; }
+      else state.mo = { type: mcatLabel[t] ? t : 'r12', who: whoCode(p.get('judge')), sub: p.get('motion') || '', grp: p.get('cases') || '', span: p.get('decided') || '', rank: p.get('rank') || '', by: p.get('by') || '', oc: p.get('oc') || '', sort: p.get('sort') || '', limit: 15 };
+    }
   }
+  // Who decided: a district judge, a magistrate judge, or all of either ("dj", "mj").
+  const whoCode = (v) => (v === 'dj' || v === 'mj' ? v : judgeCode(v) || (state.data ? magCode(v) : ''));
   function hashFor(page, o = {}) {
     const p = new URLSearchParams(); let path = page;
     if (page === 'judge') { path += '/' + o.judge; if (o.tab) p.set('tab', o.tab); }
@@ -372,13 +391,17 @@
     if (page === 'activity' && o.act) { const a = o.act; if (a.q) p.set('q', a.q); if (a.judge) p.set('judge', a.judge); if (a.kind) p.set('kind', a.kind); if (a.days && a.days !== '7') p.set('days', a.days); }
     if (page === 'compare' && o.cmp && o.cmp.length) path += '/' + o.cmp.join(',');
     if (page === 'judges' && o.view) path += '/' + o.view;
-    if (page === 'opinions' && o.f) { const f = o.f; if (f.q) p.set('q', f.q); if (f.judge) p.set('judge', f.judge); if (f.type) p.set('type', f.type); if (f.oc) p.set('oc', f.oc); if (f.pdf) p.set('pdf', '1'); if (f.month) p.set('month', f.month); if (f.text) p.set('text', f.text); }
+    if (page === 'opinions' && o.f) { const f = o.f; if (f.q) p.set('q', f.q); if (f.judge) p.set('judge', f.judge); if (f.type) p.set('type', f.type); if (f.oc) p.set('oc', f.oc); if (f.pdf) p.set('pdf', '1'); if (f.month) p.set('month', f.month); if (f.text) p.set('text', f.text); if (f.by) p.set('by', f.by); }
     if (page === 'trials' && o.tr) { if (o.tr.q) p.set('q', o.tr.q); if (o.tr.judge) p.set('judge', o.tr.judge); if (o.tr.view && o.tr.view !== 'closed') p.set('view', o.tr.view); }
-    if (page === 'motions' && o.mt) { if (o.mt.judge) p.set('judge', o.mt.judge); if (o.mt.view && o.mt.view !== 'past') p.set('view', o.mt.view); }
+    if (page === 'motions') {
+      const m = o.mo || { type: 'r12' }; path += '/' + (m.type || 'r12');
+      if (m.type === 'pending') { const t = o.mt || {}; if (t.judge) p.set('judge', t.judge); if (t.view && t.view !== 'past') p.set('view', t.view); }
+      else { if (m.who) p.set('judge', m.who); if (m.sub) p.set('motion', m.sub); if (m.grp) p.set('cases', m.grp); if (m.span) p.set('decided', m.span); if (m.rank) p.set('rank', m.rank); if (m.by) p.set('by', m.by); if (m.oc) p.set('oc', m.oc); if (m.sort) p.set('sort', m.sort); }
+    }
     if (state.period) p.set('period', state.period);
     return '#' + path + (p.toString() ? '?' + p : '');
   }
-  const currentHash = () => hashFor(state.page, { caseId: state.caseId, mag: state.mag, judge: state.judge, cmp: state.cmp, view: state.view === 'orders' ? '' : state.view, f: state.f, mt: state.mt, act: state.act, cal: state.cal, tr: state.tr,
+  const currentHash = () => hashFor(state.page, { caseId: state.caseId, mag: state.mag, judge: state.judge, cmp: state.cmp, view: state.view === 'orders' ? '' : state.view, f: state.f, mt: state.mt, mo: state.mo, act: state.act, cal: state.cal, tr: state.tr,
     tab: state.page === 'judge' && (state.pages[state.judge] || { sections: [] }).sections.some((x) => slug(x.title) === state.rtab) ? state.rtab : '' });
   const slug = (t) => String(t).toLowerCase().replace(/&/g, 'and').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
   const judgeHref = (code) => hashFor('judge', { judge: code });
@@ -427,7 +450,7 @@
       const tip = [who + label + ' ' + fmt.pct0(share), `${fmt.int(v)} of ${plural(t.known, 'ruling')} with a known outcome${detail}`].concat(few ? ['Fewer than ' + FEW + ' rulings with a known outcome'] : [], opts.href ? ['Click to list these opinions'] : []).join('\n');
       const seg = opts.href ? el('a', { href: opts.href(k) }) : el('span');
       seg.className = 'seg-' + k; seg.style.width = `calc(${share * 100}% - ${2 * (1 - share)}px)`; seg.dataset.tip = tip;
-      if (opts.labels && !few && share >= 0.17) { seg.textContent = fmt.pct0(share); seg.style.color = inkOn(css(ocVar(k))); }
+      if (opts.labels && !few && share >= (opts.min || 0.17)) { seg.textContent = fmt.pct0(share); seg.style.color = inkOn(css(ocVar(k))); }
       if (opts.href) seg.setAttribute('aria-label', label + ' ' + fmt.pct0(share) + ', ' + fmt.int(v) + ' of ' + fmt.int(t.known));
       bar.append(seg);
     });
@@ -696,7 +719,7 @@
       kpi({ label: 'Civil orders', value: fmt.int(T.orders), sub: 'since ' + fmtDate(S.since.orders), href: hashFor('judges', { view: 'orders' }) }),
       kpi({ label: 'Current through', value: fmtShort(S.through), sub: (S.opThrough < S.through ? 'opinions ' + fmtShort(S.opThrough) + ' · ' : '') + lastRunText(), href: '#log' }),
     );
-    drawHomeCases(); drawHomeNotices(); drawHomeTrials();
+    drawHomeCases(); drawHomeNotices(); drawHomeTrials(); drawHomeMotions();
     $('home-act').replaceChildren(...actItems(activity().rows.slice(0, 10), { judge: true }));
     drawJudgeCards();
     drawHero();
@@ -932,10 +955,10 @@
       return th;
     })));
     const line = (label, t, pool, type, total) => {
-      const preset = { judge: code, type };
+      const preset = { judge: code, type, by: 'dj' };
       const few = t.known && t.known < FEW;
       const tr = el('tr', { className: total ? 'total' : '' });
-      tr.append(el('td', { className: 'txt', textContent: label, title: MCAT_LONG[type] || '' }),
+      tr.append(el('td', { className: 'txt', title: MCAT_LONG[type] || '' }, mcatLabel[type] ? el('a', { className: 'judge', href: hashFor('motions', { mo: { type, who: code } }), textContent: label, title: 'Outcomes, time to ruling, and the rulings to read' }) : label),
         el('td', { className: 'num' }, t.n ? numLink(fmt.int(t.n), findHref(preset)) : '0'),
         el('td', { className: 'num' + (t.known ? '' : ' dim') }, t.known ? numLink(fmt.int(t.known), findHref({ ...preset, oc: 'known' }), 'List the rulings with a known outcome') : '0'));
       const cell = el('td', { className: 'ocwrap' }, ocBar(t, { labels: true, who: 'Judge ' + name, href: (k) => findHref({ ...preset, oc: k }) }), ocBar(pool, { thin: true, who: 'All judges' }));
@@ -951,10 +974,11 @@
     $('j-oc-table').replaceChildren(head, body);
     const none = MCATS.filter(([k]) => !op.cats[k].n).map(([, l]) => l);
     const t = op.motions; const notes = [];
+    if (op.mj_motions) notes.push(`The table counts the rulings Judge ${name} signed. Magistrate judges signed ${plural(op.mj_motions, 'more motion ruling')} in Judge ${name}'s cases.`);
     if (none.length && shown.length) notes.push('None in this period: ' + none.join(', ') + '.');
     if (t.nDays) notes.push(`Days to ruling: ${fmt.int(t.nDays)} of ${plural(t.n, 'ruling')} dated.`);
     if (t.nHearing) notes.push(`Hearing set while pending: ${fmt.int(t.hearings)} of ${fmt.int(t.nHearing)}.`);
-    $('j-oc-foot').textContent = notes.join(' ');
+    $('j-oc-foot').replaceChildren(notes.join(' ') + (notes.length ? ' ' : ''), el('a', { href: hashFor('motions', { mo: { type: 'r12', who: code } }), textContent: `Judge ${name} on each kind of motion →` }));
     const part = [[op.cats.r12, 'Rule 12'], [op.cats.r56, 'Rule 56']].filter(([c]) => c.known).map(([c, l]) => `${fmt.pct0(c.granted / c.known)} of the ${fmt.int(c.known)} ${l} rulings`);
     const said = part.length ? joinAnd(part) : op.motions.known ? `${fmt.pct0(op.motions.granted / op.motions.known)} of the ${fmt.int(op.motions.known)} motion rulings` : '';
     setHead('h-oc', said && `Judge ${name} granted ${said} whose outcome is known.`);
@@ -994,7 +1018,7 @@
 
   function drawJudgeMotions(code) {
     const S = state.stats; const M = S.motions.filter((m) => m.judge === code);
-    $('j-motions-all').href = hashFor('motions', { mt: { judge: code, view: 'pending' } });
+    $('j-motions-all').href = hashFor('motions', { mo: { type: 'pending' }, mt: { judge: code, view: 'pending' } });
     const box = $('j-motions');
     if (!M.length) {
       box.replaceChildren(el('p', { className: 'cap', textContent: S.motionsSince
@@ -1326,7 +1350,7 @@
       }
     }
     const mt = MCATS.filter(([k]) => k !== 'othermotion' && op.cats[k].n).reduce((a, [k, l]) => (!a || op.cats[k].n > a.n ? { k, l, n: op.cats[k].n } : a), null);
-    if (mt) out.push({ k: 'Most common motion decided', v: mt.l, sub: fmt.int(mt.n) + ' of ' + plural(op.motions.n, 'motion ruling') + ' in written opinions', href: findHref({ judge: code, type: mt.k }) });
+    if (mt) out.push({ k: 'Most common motion decided', v: mt.l, sub: fmt.int(mt.n) + ' of ' + plural(op.motions.n, 'motion ruling') + ' in written opinions', href: findHref({ judge: code, type: mt.k, by: 'dj' }) });
     if (ords.length) {
       const [d, n] = topOf(d3.rollup(ords, (v) => v.length, (o) => o.date));
       out.push({ k: 'Most civil orders in a day', v: fmt.int(n), sub: d3.utcFormat('%a, %b %-d, %Y')(utc(d)) });
@@ -1387,7 +1411,7 @@
 
     // Motion types decided.
     const pooledN = S.pooled.motions.n;
-    const mrows = MCATS.filter(([k]) => op.cats[k].n).map(([k, l]) => ({ label: l, n: op.cats[k].n, share: op.motions.n ? op.cats[k].n / op.motions.n : 0, court: pooledN ? S.pooled[k].n / pooledN : 0, courtN: S.pooled[k].n, href: findHref({ judge: code, type: k }) }));
+    const mrows = MCATS.filter(([k]) => op.cats[k].n).map(([k, l]) => ({ label: l, n: op.cats[k].n, share: op.motions.n ? op.cats[k].n / op.motions.n : 0, court: pooledN ? S.pooled[k].n / pooledN : 0, courtN: S.pooled[k].n, href: findHref({ judge: code, type: k, by: 'dj' }) }));
     $('j-mix').replaceChildren(mrows.length ? shareBars(mrows, { href: true }) : el('p', { className: 'cap', textContent: 'No motion rulings among this judge\'s written opinions in this period.' }));
     $('j-mix-n').textContent = plural(op.motions.n, 'motion ruling');
     if (mrows.length) { const tm = mrows.slice().sort((a, b) => b.n - a.n)[0]; setHead('j-h-mix', `The largest group of motion rulings in Judge ${name}'s written opinions is ${tm.label}: ${fmt.int(tm.n)} of ${fmt.int(op.motions.n)}, or ${fmt.pct0(tm.share)}.`); }
@@ -1484,14 +1508,14 @@
     [['motion', 'All motion rulings'], ...MCATS].filter(([k]) => k === 'motion' || ops.some((o) => o.cats[k].n)).forEach(([k, label]) => {
       const get = (o) => (k === 'motion' ? o.motions : o.cats[k]);
       const pool = k === 'motion' ? S.pooled.motions : S.pooled[k];
-      row(label, (i) => ocCell(get(ops[i]), 'Judge ' + S.names[codes[i]], (oc) => findHref({ judge: codes[i], type: k, oc })), ocCell(pool, 'All judges'));
+      row(label, (i) => ocCell(get(ops[i]), 'Judge ' + S.names[codes[i]], (oc) => findHref({ judge: codes[i], type: k, oc, by: 'dj' })), ocCell(pool, 'All judges'));
     });
     // Time to ruling: the all-motions line as before, then the motion types with a dated ruling for any judge shown.
     grp('Median days from filing to ruling, for written opinions with a filing date');
     const daysCell = (t) => (t.medDays == null ? dim('not yet') : fmt.med(t.medDays) + ' (n=' + t.nDays + ')');
     row('All motions', (i) => daysCell(ops[i].motions), T.medDays == null ? 'not yet' : fmt.med(T.medDays) + ' (median)');
     MCATS.filter(([k]) => k !== 'othermotion' && ops.some((o) => o.cats[k].nDays)).forEach(([k, label]) => {
-      const all = S.recent.filter((o) => o.mcat === k && o.days != null && o.days >= 0).map((o) => o.days);
+      const all = S.recent.filter((o) => o.mcat === k && !o.mj && o.days != null && o.days >= 0).map((o) => o.days);
       row(label, (i) => daysCell(ops[i].cats[k]), all.length ? fmt.med(median(all)) + ' (all rulings, n=' + all.length + ')' : '—');
     });
     // The docket now: active cases and the motions the feed has shown.
@@ -1698,7 +1722,8 @@
     const S = state.stats; const q = F.q.trim().toLowerCase();
     const inText = anyPhrase ? (o) => FT.q === F.text && !!FT.cand && FT.cand.has(ftKey(o)) : (o) => ftPass(o, F);
     return S.recent.filter((o) => (!F.judge || o.judge === F.judge) && typeMatch(o, F.type) && (!F.oc || ocMatch(o, F.oc))
-      && (!F.pdf || linkKind(o) === 'pdf') && (!F.month || o.date.slice(0, 7) === F.month) && textMatch(o, q) && (!F.text || inText(o)));
+      && (!F.pdf || linkKind(o) === 'pdf') && (!F.month || o.date.slice(0, 7) === F.month) && textMatch(o, q) && (!F.text || inText(o))
+      && (!F.by || (F.by === 'dj' ? !o.mj : !!o.mj)));
   }
   // The opinion search's summary of whatever the filters match: how many, how the motion rulings came out, how long
   // they took, how long the opinions run, by month, and by judge (by ruling type once one judge is picked).
@@ -1713,7 +1738,7 @@
     const ocFact = el('div', { className: 'fact' }, el('span', { textContent: 'Motion rulings' }), el('b', { textContent: fmt.int(t.n) }),
       t.known ? ocBar(t, { labels: true, href: (k) => hashFor('opinions', { f: { ...F, oc: k } }) }) : null,
       el('small', { textContent: t.known ? pctOf(t.granted, t.known) + ' granted in full · ' + plural(t.known, 'ruling') + ' with a known outcome' : t.n ? 'outcomes not yet read' : 'none in these results' }));
-    const filtered = !!(F.text || F.q || F.judge || F.type || F.oc || F.pdf || F.month);
+    const filtered = !!(F.text || F.q || F.judge || F.type || F.oc || F.pdf || F.month || F.by);
     setHead('h-op-glance', F.text ? `${plural(rows.length, 'written opinion')} ${rows.length === 1 ? 'matches' : 'match'} “${F.text}”.`
       : filtered ? `${plural(rows.length, 'written opinion')} ${rows.length === 1 ? 'matches' : 'match'} these filters.` : `The court has issued ${fmt.int(rows.length)} written opinions since ${fmtDate(S.since.opinions)}.`);
     $('op-facts').replaceChildren(
@@ -1758,7 +1783,8 @@
     const chips = [];
     if (F.month) chips.push(['Month: ' + fmtMonth(F.month), { month: '' }]);
     if (F.oc === 'rest') chips.push(['Outcome: mixed, moot, or other', { oc: '' }]);
-    if (F.q || F.judge || F.type || F.oc || F.pdf || F.month || F.text) chips.push(['Clear all', emptyFinder()]);
+    if (F.by) chips.push([F.by === 'dj' ? 'Signed by the district judge' : 'Signed by a magistrate judge', { by: '' }]);
+    if (F.q || F.judge || F.type || F.oc || F.pdf || F.month || F.text || F.by) chips.push(['Clear all', emptyFinder()]);
     $('op-chips').replaceChildren(...chips.map(([label, patch]) => el('span', { className: 'fchip' }, label, el('a', { href: hashFor('opinions', { f: { ...F, ...patch } }), textContent: '×', title: 'Remove this filter', 'aria-label': 'Remove: ' + label }))));
     const rows = finderRows(); const shown = rows.slice(0, state.limit);
     drawOpGlance(rows);
@@ -1768,7 +1794,7 @@
     const head = el('thead', {}, el('tr', {}, ...cols.map((c) => el('th', { textContent: c, className: /^(Days|Pages)/.test(c) ? 'r' : '' }))));
     const body = el('tbody', {}, ...(shown.length ? shown.map((o) => {
       const cells = [el('td', { className: 'mono', textContent: fmtMDY(o.date) }),
-        el('td', { className: 'txt' }, el('a', { className: 'judge', href: judgeHref(o.judge), textContent: S.names[o.judge] })),
+        el('td', { className: 'txt' }, el('a', { className: 'judge', href: judgeHref(o.judge), textContent: S.names[o.judge] }), o.mj ? signedTag(o) : null),
         el('td', { className: 'txt' }, ...caseLink(o)), el('td', { className: 'ev', textContent: o.event }), el('td', { className: 'txt' }, outcomePill(o))];
       if (hasDays) cells.push(el('td', { className: 'num' + (o.days == null ? ' dim' : ''), textContent: o.days == null ? '—' : fmt.int(o.days), title: o.filed ? 'Motion filed ' + fmtDate(o.filed) : 'Motion filing date not on file' }));
       if (hasPages) cells.push(el('td', { className: 'num' + (o.pages == null ? ' dim' : ''), textContent: o.pages == null ? '—' : fmt.int(o.pages) }));
@@ -1784,7 +1810,559 @@
     $('op-more').hidden = shown.length >= rows.length;
   }
 
-  // ------------------------------------------------------------ page: submitted motions
+  // ------------------------------------------------------------ page: motions
+  // One section per kind of motion (Rule 12, Rule 56, discovery, then the other categories): how the written rulings
+  // came out, how long they took, how the district judges compare, and the rulings themselves. Every figure follows
+  // the filter row (who decided, the motion, the type of case, the period). A ruling belongs to whoever signed it.
+  // For one magistrate judge the page gives counts and the list of rulings, and no shares, medians, or place in a
+  // ranking: the owner's Nov. 2026 decision on magistrate judges ("per judge: counts and case lists only").
+  // MAG_SHARES = true shows the same figures for one magistrate judge as for one district judge.
+  const MAG_SHARES = false;
+  const MO_MAIN = ['r12', 'r56', 'discovery'];
+  const MO_NOUN = { r12: 'Rule 12 motions', r56: 'Rule 56 motions', discovery: 'discovery motions', daubert: 'Daubert and expert motions', limine: 'motions in limine',
+    injunction: 'motions for an injunction or a restraining order', remand: 'motions to remand', arbitration: 'motions concerning arbitration', reconsideration: 'motions for reconsideration',
+    stay: 'motions to stay', default: 'motions for default judgment', fees: 'motions for attorney fees', othermotion: 'other motions' };
+  const MO_LONG = { r12: 'Motions to dismiss and for judgment on the pleadings', r56: 'Motions for summary judgment', discovery: 'Motions to compel, to quash, and for protective orders' };
+  // The motion within a kind, read from the docket event: [key, label, the motions as a sentence names them, test].
+  // A ruling on two motions counts under both; the entry with no test takes a ruling none of the others match.
+  const MO_SUBS = {
+    r12: [['12b6', 'Failure to state a claim', 'motions to dismiss for failure to state a claim', (e) => /failure to state a claim/i.test(e)],
+      ['juris', 'Lack of jurisdiction', 'motions to dismiss for lack of jurisdiction', (e) => /lack of jurisdiction/i.test(e)],
+      ['12c', 'Judgment on the pleadings', 'motions for judgment on the pleadings', (e) => /judgment on the pleadings/i.test(e)],
+      ['plain', 'Dismissal, ground not named in the docket entry', 'motions to dismiss whose docket entry does not name the ground', null]],
+    r56: [['full', 'Summary judgment', 'motions for summary judgment', (e) => /summary judgment/i.test(e.replace(/partial summary judgment/gi, ''))],
+      ['partial', 'Partial summary judgment', 'motions for partial summary judgment', (e) => /partial summary judgment/i.test(e)],
+      ['expert', 'Decided with a motion to exclude an expert', 'summary judgment motions decided with a motion to exclude an expert', (e) => /in limine|exclude|daubert/i.test(e)]],
+    discovery: [['compel', 'To compel', 'motions to compel', (e) => /compel/i.test(e)], ['quash', 'To quash', 'motions to quash', (e) => /quash/i.test(e)],
+      ['protect', 'For a protective order', 'motions for a protective order', (e) => /protective order/i.test(e)], ['otherdisc', 'Other discovery motions', 'other discovery motions', null]],
+  };
+  const subsOf = (o) => {
+    const defs = MO_SUBS[o.mcat]; if (!defs) return [];
+    const hit = defs.filter(([, , , f]) => f && f(o.event || '')).map(([k]) => k); const rest = defs.find(([, , , f]) => !f);
+    if (o.mcat === 'r56') return hit.some((k) => k !== 'expert') ? hit : ['full', ...hit];
+    return hit.length ? hit : rest ? [rest[0]] : [];
+  };
+  // Types of case, from the court's case flag for the Deepwater Horizon docket and the nature of suit on the docket.
+  const CASE_GROUPS = [['dwh', 'Deepwater Horizon oil spill', 'Deepwater Horizon cases'], ['asbestos', 'Asbestos', 'asbestos cases'], ['insurance', 'Insurance', 'insurance cases'],
+    ['maritime', 'Maritime', 'maritime cases'], ['employment', 'Employment', 'employment cases'], ['civilrights', 'Civil rights and prisoner', 'civil rights and prisoner cases'],
+    ['pi', 'Personal injury', 'personal injury cases'], ['contract', 'Contract and commercial', 'contract and commercial cases'], ['property', 'Property', 'property cases'], ['other', 'Other', 'other cases']];
+  const caseLabel = Object.fromEntries(CASE_GROUPS.map(([k, l]) => [k, l])); const caseNoun = Object.fromEntries(CASE_GROUPS.map(([k, , n]) => [k, n]));
+  function caseGroup(k) {
+    if (!k) return 'other';
+    const f = k.flags || []; const n = String(k.nos || '').replace(/^\d+\s+/, '');
+    if (f.includes('OIL_SPILL')) return 'dwh';
+    if (/asbestos/i.test(n) || f.includes('ASBEST')) return 'asbestos';
+    if (/^insurance/i.test(n)) return 'insurance';
+    if (/marine|admiralty/i.test(n)) return 'maritime';
+    if (/civil rights: jobs|disabilities - employment|^labor|fair standards|family and medical/i.test(n)) return 'employment';
+    if (/civil rights|prisoner|prison condition|constitutional|habeas|detainee/i.test(n)) return 'civilrights';
+    if (/^p\.i\.|personal inj|motor vehicle|airplane|assault|malpractice|prod(?:uct|\.) liability|federal employer|other personal liability/i.test(n)) return 'pi';
+    if (/^contract|negotiable instrument|miller act|fraud|consumer credit|truth in lending|banks|recovery/i.test(n)) return 'contract';
+    if (/property|torts to land|condemnation|foreclosure|rent lease/i.test(n)) return 'property';
+    return 'other';
+  }
+  const MO_RANKS = [['granted', 'Granted in full'], ['any', 'Granted in full or in part'], ['denied', 'Denied'], ['days', 'Median days from filing to ruling'],
+    ['n', 'Written rulings'], ['rate', 'Written rulings per year'], ['pages', 'Median length of a ruling, in pages'], ['pending', 'Motions awaiting a ruling now']];
+  const MO_DIMS = [['sub', 'Motion'], ['grp', 'Type of case'], ['year', 'Year decided'], ['signer', 'Who signed']];
+  const MO_SORTS = [['new', 'Newest first'], ['long', 'Longest ruling first'], ['slow', 'Longest time to ruling first'], ['fast', 'Shortest time to ruling first']];
+  const MO_OCS = [['', 'All outcomes'], ['granted', 'Granted in full'], ['partial', 'Granted in part'], ['denied', 'Denied'], ['rest', 'Mixed, moot, or other'], ['none', 'Outcome not known']];
+  const signerName = (code) => (state.stats.names[code] ? 'Judge ' + state.stats.names[code] : magOf(code) ? 'Magistrate Judge ' + magOf(code).short : code);
+  const signerHref = (code) => (state.stats.names[code] ? judgeHref(code) : magOf(code) ? magHref(code) : '');
+  const signedTag = (o) => { const t = el('span', { className: 'tag', textContent: 'MJ ' + (magOf(o.mj) ? magOf(o.mj).short : o.mj) }); t.title = 'Signed by ' + signerName(o.mj); return t; };
+  const setPlain = (id, text) => { const n = $(id); if (!n) return; n.classList.remove('finding'); const t = n.firstChild; if (t && t.nodeType === 3) t.nodeValue = text; else n.prepend(text); };
+
+  // Every written ruling on a motion in the period, with who signed it: the district judges' own rulings, rulings a
+  // magistrate judge signed in a district judge's case, and rulings a magistrate judge signed presiding by consent.
+  let moMemo = null;
+  function moBase() {
+    const S = state.stats; const D = state.data;
+    if (moMemo && moMemo.S === S && moMemo.dk === D.dockets && moMemo.mg === D.magistrates) return moMemo.rows;
+    const mags = new Set(magData().judges.map((j) => j.code)); const CI = caseIndex();
+    const consent = S.allOpinions.filter((o) => mags.has(o.judge) && isMotion(o) && o.date >= S.since.opinions && o.date <= S.opThrough);
+    const rows = S.recent.filter(isMotion).concat(consent).map((o) => { const mj = o.mj || (mags.has(o.judge) ? o.judge : '');
+      return { ...o, mj, signer: mj || o.judge, grp: caseGroup(CI.docket.get(o.case)), subs: subsOf(o) }; })
+      .sort((a, b) => b.date.localeCompare(a.date) || b.case.localeCompare(a.case) || (+b.doc - +a.doc));
+    moMemo = { S, dk: D.dockets, mg: D.magistrates, rows };
+    return rows;
+  }
+  // The rulings the filter row keeps, before the choice of who decided. skip leaves one filter out, for the chart that
+  // breaks the rulings down along it.
+  function moFilter(rows, M, skip = {}) {
+    const floor = M.span === '12m' ? addDays(state.stats.opThrough, -364) : '';
+    return rows.filter((o) => o.mcat === M.type && (skip.sub || !M.sub || o.subs.includes(M.sub))
+      && (skip.grp || !M.grp || (M.grp === '!dwh' ? o.grp !== 'dwh' : o.grp === M.grp))
+      && (skip.span || !M.span || (M.span === '12m' ? o.date >= floor : o.date.slice(0, 4) === M.span)));
+  }
+  // Who decided: everyone, all district or all magistrate judges, or one judge. base is what one judge is set beside.
+  function moSel(M = state.mo) {
+    const S = state.stats; const w = M.who;
+    const kind = !w ? 'all' : w === 'dj' ? 'djs' : w === 'mj' ? 'mjs' : S.names[w] ? 'dj' : magOf(w) ? 'mj' : 'all';
+    const who = kind === 'dj' ? 'Judge ' + S.names[w] : kind === 'mj' ? 'Magistrate Judge ' + magOf(w).short : kind === 'djs' ? 'the district judges' : kind === 'mjs' ? 'the magistrate judges' : 'the court';
+    return { kind, code: kind === 'dj' || kind === 'mj' ? w : '', who, Who: cap(who), by: kind === 'all' ? '' : ' by ' + who,
+      test: kind === 'all' ? () => true : kind === 'djs' ? (o) => !o.mj : kind === 'mjs' ? (o) => !!o.mj : (o) => o.signer === w,
+      countsOnly: kind === 'mj' && !MAG_SHARES,
+      base: kind === 'dj' ? ['All district judges', (o) => !o.mj] : kind === 'mj' && MAG_SHARES ? ['All magistrate judges', (o) => !!o.mj] : null };
+  }
+  // The period the figures cover: as dates, and as a sentence names it.
+  function moWindow(M) {
+    const S = state.stats; const y = /^\d{4}$/.test(M.span) ? M.span : '';
+    return [y ? later(y + '-01-01', S.since.opinions) : M.span === '12m' ? later(addDays(S.opThrough, -364), S.since.opinions) : S.since.opinions, y && y + '-12-31' < S.opThrough ? y + '-12-31' : S.opThrough];
+  }
+  function moWhen(M, sel) {
+    const S = state.stats;
+    if (M.span === '12m') return 'in the 12 months to ' + fmtDate(S.opThrough);
+    if (/^\d{4}$/.test(M.span)) return 'in ' + M.span;
+    if (state.period) return 'in the last ' + state.period + ' days';
+    return 'since ' + fmtDate(sel.kind === 'dj' ? (S.opinions.find((r) => r.code === sel.code) || {}).start || S.since.opinions : S.since.opinions);
+  }
+  const moNoun = (M) => { const d = (MO_SUBS[M.type] || []).find(([k]) => k === M.sub); return d ? d[2] : MO_NOUN[M.type]; };
+  const moCases = (M) => (M.grp === '!dwh' ? ' outside the Deepwater Horizon cases' : M.grp ? ' in ' + caseNoun[M.grp] : '');
+  const moHref = (patch) => hashFor('motions', { mo: { ...state.mo, ...patch } });
+  function moClean() {
+    const M = state.mo; const S = state.stats;
+    if (!mcatLabel[M.type]) M.type = 'r12';
+    if (!(MO_SUBS[M.type] || []).some(([k]) => k === M.sub)) M.sub = '';
+    if (M.grp !== '!dwh' && !caseLabel[M.grp]) M.grp = '';
+    if (state.period || !(M.span === '12m' || (/^\d{4}$/.test(M.span) && M.span >= S.since.opinions.slice(0, 4) && M.span <= S.opThrough.slice(0, 4)))) M.span = '';
+    if (!MO_RANKS.some(([k]) => k === M.rank)) M.rank = '';
+    if (!MO_DIMS.some(([k]) => k === M.by)) M.by = '';
+    if (!MO_OCS.some(([k]) => k === M.oc)) M.oc = '';
+    if (!MO_SORTS.some(([k]) => k === M.sort)) M.sort = '';
+    if (M.who && M.who !== 'dj' && M.who !== 'mj' && !S.names[M.who] && !magOf(M.who)) M.who = '';
+  }
+
+  // A card for one kind of motion: the share granted in full, the outcome bar, and the time to ruling, for the rulings
+  // given. Used at the top of the Motions page (where it picks the kind) and on Home.
+  function moCard(k, R, { on, href, countsOnly, noteDwh }) {
+    const S = state.stats; const t = S.tally(R);
+    const a = el('a', { className: 'mtc' + (on ? ' on' : ''), href });
+    if (on) a.setAttribute('aria-current', 'true');
+    const fig = countsOnly || t.known < FEW ? el('span', { className: 'mtc-fig' }, el('b', { textContent: fmt.int(t.n) }), t.n === 1 ? ' written ruling' : ' written rulings')
+      : el('span', { className: 'mtc-fig' }, el('b', { textContent: fmt.pct0(t.granted / t.known) }), ' granted in full');
+    const facts = [];
+    if (!countsOnly && t.known >= FEW) facts.push(plural(t.known, 'ruling') + ' with a known outcome');
+    if (!countsOnly && t.nDays >= FEW) facts.push('median ' + dayWord(t.medDays) + ' from filing to ruling');
+    a.append(el('span', { className: 'mtc-k', textContent: mcatLabel[k] }), el('span', { className: 'mtc-long', textContent: MO_LONG[k] || cap(MO_NOUN[k]) }), fig);
+    if (!countsOnly && t.known >= FEW) a.append(ocBar(t, { thin: true }));
+    a.append(el('span', { className: 'mtc-sub', textContent: facts.join(' · ') || (countsOnly ? 'Counts and the list of rulings' : 'Fewer than ' + FEW + ' rulings with a known outcome') }));
+    if (noteDwh && !countsOnly) {
+      const dwh = R.filter((o) => o.grp === 'dwh'); const rest = S.tally(R.filter((o) => o.grp !== 'dwh'));
+      if (dwh.length >= 0.1 * R.length && rest.known >= FEW) a.append(el('span', { className: 'mtc-note', textContent: `${fmt.pct0(rest.granted / rest.known)} outside the ${fmt.int(dwh.length)} Deepwater Horizon rulings` }));
+    }
+    return a;
+  }
+  function drawMoCards() {
+    const S = state.stats; const M = state.mo; const pending = M.type === 'pending';
+    const sel = moSel(pending ? { who: '' } : M); const scope = pending ? { sub: '', grp: '', span: '' } : { ...M, sub: '' };
+    const base = moBase(); const of = (k) => moFilter(base, { ...scope, type: k }).filter(sel.test);
+    const to = (k) => hashFor('motions', { mo: pending ? { type: k } : { ...M, type: k, sub: '', by: '', oc: '', sort: '' } });
+    $('mo-cards').replaceChildren(...MO_MAIN.map((k) => moCard(k, of(k), { on: M.type === k, href: to(k), countsOnly: sel.countsOnly, noteDwh: !scope.grp })));
+    const awaiting = S.motions.filter((m) => !m.ruled).length;
+    const chip = (label, n, href, on) => { const a = el('a', { className: 'quick' + (on ? ' on' : ''), href }, label, el('b', { textContent: fmt.int(n) })); if (on) a.setAttribute('aria-current', 'true'); return a; };
+    $('mo-more').replaceChildren(el('span', { className: 'mo-more-l', textContent: 'Other motions' }),
+      ...MCATS.filter(([k]) => !MO_MAIN.includes(k)).map(([k, l]) => chip(l, of(k).length, to(k), M.type === k)),
+      el('span', { className: 'mo-more-l gap', textContent: 'On the docket now' }), chip('Motions awaiting a ruling', awaiting, hashFor('motions', { mo: { type: 'pending' }, mt: { view: 'pending' } }), pending));
+  }
+
+  // The filter row: who decided, the motion, the type of case, and the period. Every figure below follows it.
+  function drawMoFilters() {
+    const S = state.stats; const M = state.mo; const typeRows = moBase().filter((o) => o.mcat === M.type);
+    const mjN = d3.rollup(typeRows.filter((o) => o.mj), (v) => v.length, (o) => o.mj);
+    const who = $('mo-who');
+    who.replaceChildren(new Option('All judges', ''), ...(mjN.size ? [new Option('All district judges', 'dj'), new Option('All magistrate judges', 'mj')] : []),
+      el('optgroup', { label: 'District judges' }, ...judgesAlpha().map((j) => new Option(j.name, j.code))),
+      ...(mjN.size || magOf(M.who) ? [el('optgroup', { label: 'Magistrate judges' }, ...magJudges().filter((j) => mjN.get(j.code) || j.code === M.who).map((j) => new Option(j.short + (j.former ? ' (former)' : ''), j.code)))] : []));
+    who.value = M.who; if (who.value !== M.who) { who.append(new Option(M.who === 'dj' ? 'All district judges' : 'All magistrate judges', M.who)); who.value = M.who; }
+    const subs = MO_SUBS[M.type] || []; const sub = $('mo-sub');
+    sub.closest('label').hidden = !subs.length;
+    sub.replaceChildren(new Option('All ' + MO_NOUN[M.type], ''), ...subs.map(([k, l]) => new Option(l, k))); sub.value = M.sub;
+    const have = new Set(typeRows.map((o) => o.grp)); const grp = $('mo-grp');
+    grp.replaceChildren(new Option('All types of case', ''), ...(have.has('dwh') ? [new Option('All except Deepwater Horizon', '!dwh')] : []), ...CASE_GROUPS.filter(([k]) => have.has(k) || k === M.grp).map(([k, l]) => new Option(l, k)));
+    grp.value = M.grp;
+    const span = $('mo-span'); span.closest('label').hidden = !!state.period;
+    const y0 = +S.since.opinions.slice(0, 4); const y1 = +S.opThrough.slice(0, 4);
+    span.replaceChildren(new Option('Since ' + fmtDate(S.since.opinions), ''), new Option('Last 12 months', '12m'), ...d3.range(y1, y0 - 1, -1).map((y) => new Option(String(y), String(y)))); span.value = M.span;
+    $('mo-clear').hidden = !(M.who || M.sub || M.grp || M.span);
+    $('mo-clear').href = hashFor('motions', { mo: { type: M.type, rank: M.rank, by: M.by } });
+  }
+
+  // Rows of rulings, one whole each: a label, the number of rulings, the outcome bar, and the share granted in full.
+  // A row marked countsOnly (one magistrate judge) draws its count as a plain bar.
+  function ocRows(rows, { empty = 'No written rulings for this selection.' } = {}) {
+    const S = state.stats; const list = rows.filter((r) => r.R.length || r.on);
+    if (!list.length) return el('p', { className: 'empty', textContent: empty });
+    const max = d3.max(list, (r) => r.R.length) || 1; const anyBar = list.some((r) => !r.countsOnly);
+    return el('div', { className: 'ocrows' }, el('div', { className: 'oc-row head' }, el('span'), el('span', { textContent: 'Rulings' }), el('span', { textContent: anyBar ? 'Outcome' : '' }), el('span', { textContent: anyBar ? 'Granted in full' : '' })),
+      ...list.map((r) => {
+        const t = S.tally(r.R); const few = t.known < FEW;
+        const bar = r.countsOnly ? (() => { const tr = el('span', { className: 'sb-track' }); const i = el('i'); i.style.width = (t.n / max) * 100 + '%'; if (t.n) tr.append(i); return tr; })() : ocBar(t, { labels: true });
+        const row = el(r.href ? 'a' : 'div', { className: 'oc-row' + (r.on ? ' on' : '') }, el('span', { className: 'or-l', textContent: r.label }), el('span', { className: 'or-n', textContent: fmt.int(t.n) }), el('span', { className: 'or-bar' }, bar),
+          el('span', { className: 'or-v' + (few ? ' dim' : ''), textContent: r.countsOnly || !t.known ? '' : fmt.pct0(t.granted / t.known) }));
+        if (r.href) row.href = r.href;
+        if (r.on) row.setAttribute('aria-current', 'true');
+        row.dataset.tip = [r.label, plural(t.n, 'written ruling') + (r.countsOnly ? '' : ' · ' + fmt.int(t.known) + ' with a known outcome')]
+          .concat(!r.countsOnly && t.known ? [`Granted in full ${fmt.pct0(t.granted / t.known)} · in part ${fmt.pct0(t.partial / t.known)} · denied ${fmt.pct0(t.denied / t.known)}`] : [],
+            !r.countsOnly && t.known && few ? ['Fewer than ' + FEW + ' rulings with a known outcome'] : [], r.href ? [r.on ? 'Click to remove this filter' : 'Click to show only these rulings'] : []).join('\n');
+        return row;
+      }));
+  }
+
+  // One square per ruling in the month (or quarter) it was decided, stacked by outcome so the colors form bands; a
+  // square opens the ruling. neutral draws every square in one color (one magistrate judge: counts only).
+  const ocRank = (o) => { const f = family(o.oc); return f === 'granted' ? 0 : f === 'partial' ? 1 : f === 'denied' ? 2 : KNOWN.includes(o.oc) ? 3 : 4; };
+  const rulingTip = (o) => [o.title || o.case, fmtDate(o.date) + ' · ' + signerName(o.signer || o.judge), (o.event || '').length > 96 ? o.event.slice(0, 94) + '…' : o.event,
+    [KNOWN.includes(o.oc) ? OUTCOMES[o.oc] : 'Outcome not known', o.days != null && o.days >= 0 ? dayWord(o.days) + ' from filing' : '', o.pages ? plural(o.pages, 'page') : ''].filter(Boolean).join(' · '), 'Click to open the ruling'].join('\n');
+  function rulingUnits(box, rows, { neutral, win, label }) {
+    if (!rows.length) { emptyChart(box, 110, 'No written rulings for this selection'); return; }
+    const W = Math.max(280, Math.floor(box.clientWidth || 600)); const m = { l: 2, r: 2, t: 8, b: 32 }; const inner = W - m.l - m.r;
+    const idx = (d) => +d.slice(0, 4) * 12 + (+d.slice(5, 7) - 1);
+    const lo0 = Math.min(idx(win[0]), idx(d3.min(rows, (o) => o.date))); const hi = Math.max(idx(win[1]), idx(d3.max(rows, (o) => o.date)));
+    const per = inner / (hi - lo0 + 1) >= 9 ? 1 : inner / ((hi - lo0 + 1) / 3) >= 8 ? 3 : 6;
+    const lo = Math.floor(lo0 / per) * per; const nCols = Math.floor((hi - lo) / per) + 1; const colW = inner / nCols;
+    const bins = d3.group(rows, (o) => Math.floor((idx(o.date) - lo) / per));
+    const tall = d3.max([...bins.values()], (v) => v.length) || 1;
+    let sq = 11; let k = 1;
+    for (; sq >= 4; sq -= 1) { k = Math.max(1, Math.floor((colW - 1) / (sq + 1))); if (Math.ceil(tall / k) * (sq + 1) <= 190) break; }
+    sq = Math.max(4, sq); k = Math.max(1, Math.floor((colW - 1) / (sq + 1)));
+    const plotH = Math.max(56, Math.ceil(tall / k) * (sq + 1)); const H = m.t + plotH + m.b; const base = m.t + plotH;
+    const { svg } = frame(box, H, label + ', one square per ruling, by ' + (per === 1 ? 'month' : per === 3 ? 'quarter' : 'half year') + ' decided');
+    const byYear = d3.rollup(rows, (v) => v.length, (o) => o.date.slice(0, 4));
+    d3.range(nCols).forEach((c) => {
+      const mi = lo + c * per; if (mi % 12 && c) return;
+      const yr = Math.floor(mi / 12); const x = m.l + c * colW; const yw = ((12 - (mi % 12)) / per) * colW;
+      if (c) svg.append('line').attr('x1', x + 0.5).attr('x2', x + 0.5).attr('y1', m.t).attr('y2', base + 28).style('stroke', 'var(--line)');
+      if (yw >= 30) svg.append('text').attr('class', 'lbl').attr('x', x + 5).attr('y', base + 14).text(yw >= 44 ? yr : '’' + String(yr).slice(2));
+      if (byYear.get(String(yr)) && yw >= 36) svg.append('text').attr('x', x + 5).attr('y', base + 27).text(yw >= 88 ? plural(byYear.get(String(yr)), 'ruling') : fmt.int(byYear.get(String(yr))));
+    });
+    svg.append('line').attr('x1', m.l).attr('x2', W - m.r).attr('y1', base + 0.5).attr('y2', base + 0.5).style('stroke', 'var(--line-2)');
+    const pad = (colW - k * (sq + 1) + 1) / 2;
+    bins.forEach((list, b) => list.slice().sort((p, q) => (neutral ? 0 : ocRank(p) - ocRank(q)) || p.date.localeCompare(q.date)).forEach((o, i) => {
+      const known = KNOWN.includes(o.oc); const kind = linkKind(o);
+      const a = svg.append('a').attr('href', opinionLink(o, kind)).attr('target', '_blank').attr('rel', 'noopener noreferrer').attr('tabindex', -1).attr('aria-label', (o.title || o.case) + ', ' + fmtDate(o.date) + (known ? ', ' + OUTCOMES[o.oc] : ''));
+      const r = a.append('rect').attr('x', m.l + b * colW + pad + (i % k) * (sq + 1)).attr('y', base - (Math.floor(i / k) + 1) * (sq + 1) + 1).attr('width', sq).attr('height', sq).attr('rx', sq >= 8 ? 2 : 1).attr('data-tip', rulingTip(o));
+      if (neutral) r.attr('class', 'unit').style('fill', 'var(--judge)');
+      else if (known) r.attr('class', 'unit').style('fill', `var(${ocVar(['granted', 'partial', 'denied'].includes(family(o.oc)) ? family(o.oc) : 'rest')})`);
+      else r.attr('class', 'unit open').style('stroke', 'var(--ink-3)').attr('stroke-width', 1);
+    }));
+  }
+
+  // How the written rulings came out, for the selection: the sentence, one bar, the counts behind it, and every ruling
+  // as a square.
+  function drawMoOutcome(rows, base, sel) {
+    const S = state.stats; const M = state.mo; const t = S.tally(rows); const noun = moNoun(M); const cases = moCases(M); const when = moWhen(M, sel);
+    const pct = (n) => pctOf(n, t.known); const verb = sel.kind === 'all' ? 'issued' : 'signed';
+    let head; const notes = [];
+    if (!t.n) head = `${cap(when)}, the record on file does not show a written ruling${sel.by} on ${noun}${cases}.`;
+    else if (sel.countsOnly) head = `${cap(when)}, ${sel.who} signed ${plural(t.n, 'written ruling')} on ${noun}${cases}.`;
+    else if (t.known < FEW) head = `${cap(when)}, ${sel.who} ${verb} ${plural(t.n, 'written ruling')} on ${noun}${cases}. A share needs ${FEW} rulings with a known outcome.`;
+    else {
+      head = `${cap(when)}, ${sel.who} granted ${pct(t.granted)} of ${noun} in full${cases}, granted ${pct(t.partial)} in part, and denied ${pct(t.denied)}, across ${fmt.int(t.known)} written rulings with a known outcome.`;
+      // Beneath the bar: the comparison, who signed, and the Deepwater Horizon rulings where they weigh on the share.
+      const dwh = rows.filter((o) => o.grp === 'dwh').length; const mjs = rows.filter((o) => o.mj).length; const tb = base ? S.tally(base) : null;
+      if (tb && tb.known >= FEW) notes.push(`${sel.base[0]} granted ${pctOf(tb.granted, tb.known)} in full (${plural(tb.known, 'ruling')}).`);
+      if (sel.kind === 'all' && mjs >= 0.1 * t.n) notes.push(`Magistrate judges signed ${fmt.int(mjs)} of the ${fmt.int(t.n)} rulings.`);
+      if (!M.grp && dwh >= 0.1 * t.n) { const t2 = S.tally(rows.filter((o) => o.grp !== 'dwh')); const b2 = base ? S.tally(base.filter((o) => o.grp !== 'dwh')) : null;
+        if (t2.known >= FEW) notes.push(`${fmt.int(dwh)} of the ${fmt.int(t.n)} rulings are in Deepwater Horizon cases. In all other cases ${sel.who} granted ${pctOf(t2.granted, t2.known)} in full (${plural(t2.known, 'ruling')})`
+          + (b2 && b2.known >= FEW ? `, and ${sel.base[0].toLowerCase()} granted ${pctOf(b2.granted, b2.known)} (${plural(b2.known, 'ruling')}).` : '.')); }
+    }
+    setHead('h-mo-oc', head);
+    $('mo-oc-n').textContent = t.n ? plural(t.n, 'written ruling') + ' · each square opens a ruling' : '';
+    const left = [];
+    if (sel.countsOnly) left.push(el('p', { className: 'cap' }, `For one magistrate judge the page gives counts and the list of rulings. Outcome shares, time to ruling, and the comparison of judges cover the district judges and all magistrate judges together. `,
+      el('a', { href: moHref({ who: 'mj' }), textContent: 'Show all magistrate judges' })));
+    else if (t.known) {
+      const bar = ocBar(t, { labels: true, min: 0.06, who: sel.Who }); bar.classList.add('tall'); left.push(bar);
+      left.push(el('div', { className: 'legend mo-leg' }, ...OC_SEGS.map(([k, l]) => legendItem(`var(${ocVar(k)})`, l)), (() => { const x = legendItem('transparent', 'Outcome not known'); x.firstChild.style.boxShadow = 'inset 0 0 0 1px var(--ink-3)'; return x; })()));
+      if (notes.length) left.push(el('p', { className: 'mo-notes', textContent: notes.join(' ') }));
+    }
+    // The counts behind the bar; each opens the list of those rulings below.
+    const tile = (k, label, n, extra) => { const b = el('button', { type: 'button', className: 'fact go' + (M.oc === k ? ' on' : '') }, el('span', { textContent: label }), el('b', { textContent: fmt.int(n) }),
+      el('small', { textContent: [sel.countsOnly || !t.known ? '' : pct(n) + ' of rulings with a known outcome', extra].filter(Boolean).join(' · ') || ' ' }));
+      b.title = 'List these rulings'; b.addEventListener('click', () => { remo({ oc: M.oc === k ? '' : k }); $('mo-p-read').scrollIntoView({ block: 'start', behavior: 'smooth' }); }); return b; };
+    if (t.n) left.push(el('div', { className: 'facts two' }, tile('granted', 'Granted in full', t.granted, t.grantedLeave ? fmt.int(t.grantedLeave) + ' with leave to amend' : ''), tile('partial', 'Granted in part', t.partial, ''),
+      tile('denied', 'Denied', t.denied, t.deniedWop ? fmt.int(t.deniedWop) + ' without prejudice' : ''), tile('rest', 'Mixed, moot, or other', t.rest, t.moot ? fmt.int(t.moot) + ' moot' : '')));
+    // One judge beside the rest, or district and magistrate judges beside each other.
+    const split = base ? [{ label: sel.base[0], R: base }] : sel.kind === 'all' && rows.some((o) => o.mj)
+      ? [{ label: 'District judges', R: rows.filter((o) => !o.mj), href: moHref({ who: 'dj' }) }, { label: 'Magistrate judges', R: rows.filter((o) => o.mj), href: moHref({ who: 'mj' }) }] : [];
+    if (split.length && !sel.countsOnly) left.push(ocRows(split));
+    if (t.n > t.known && !sel.countsOnly) left.push(el('p', { className: 'foot-note', textContent: `${plural(t.n - t.known, 'ruling')} of ${fmt.int(t.n)} ${t.n - t.known === 1 ? 'does' : 'do'} not have a known outcome and ${t.n - t.known === 1 ? 'is' : 'are'} left out of the shares.` }));
+    $('mo-oc-left').replaceChildren(...left);
+    const win = moWindow(M); if (sel.kind === 'dj') win[0] = later(win[0], (S.opinions.find((r) => r.code === sel.code) || {}).start || win[0]);
+    rulingUnits($('mo-units'), rows, { neutral: sel.countsOnly, win, label: 'Written rulings on ' + noun + sel.by });
+  }
+
+  // Share of rulings decided within each number of days of filing: a step line for the selection and one for the
+  // comparison, a crosshair that reads both, and under the axis one dot per ruling, which opens it.
+  function waitCurve(box, { dated, v, vb, who, baseWho }) {
+    const Hh = 312; const band = 44; const m = { t: 14, r: 18, b: 44 + band, l: 40 };
+    const q = (a, p) => d3.quantileSorted(a, p);
+    const { svg, W } = frame(box, Hh, 'Share of rulings decided within each number of days after the motion was filed, ' + who + (vb ? ' and ' + baseWho : ''));
+    const x = d3.scaleLinear([0, Math.max(30, q(v, 0.96), vb && vb.length ? q(vb, 0.96) : 0)], [m.l, W - m.r]).nice(6);
+    const xMax = x.domain()[1]; const y = d3.scaleLinear([0, 1], [Hh - m.b, m.t]); const plotB = Hh - m.b;
+    svg.append('g').attr('transform', `translate(0,${plotB})`).call(d3.axisBottom(x).ticks(Math.max(3, Math.floor((W - m.l - m.r) / 70))).tickSize(0).tickPadding(8)).call(axisStyle);
+    svg.append('g').attr('transform', `translate(${m.l},0)`).call(d3.axisLeft(y).tickValues([0, 0.25, 0.5, 0.75, 1]).tickSize(-(W - m.l - m.r)).tickPadding(6).tickFormat(fmt.pct0)).call(axisStyle);
+    svg.append('text').attr('x', m.l).attr('y', Hh - 4).text(W < 520 ? 'Days from filing to ruling. A dot is one ruling.' : 'Days from the motion\'s filing to the ruling. Each dot is one ruling.');
+    const path = (a) => { const pts = [[0, 0]]; a.forEach((d, i) => { if (d <= xMax) pts.push([d, (i + 1) / a.length]); }); pts.push([xMax, pts[pts.length - 1][1]]);
+      return d3.line().x((p) => x(p[0])).y((p) => y(p[1])).curve(d3.curveStepAfter)(pts); };
+    if (vb && vb.length >= FEW) svg.append('path').attr('fill', 'none').style('stroke', 'var(--court)').attr('stroke-width', 2).attr('stroke-linejoin', 'round').attr('d', path(vb));
+    svg.append('path').attr('fill', 'none').style('stroke', 'var(--judge)').attr('stroke-width', 2.5).attr('stroke-linejoin', 'round').attr('d', path(v));
+    if (v.length >= FEW) {
+      const med = q(v, 0.5); const mx = x(Math.min(med, xMax)); const right = mx < W - m.r - 120;
+      svg.append('line').attr('x1', mx).attr('x2', mx).attr('y1', y(0.5)).attr('y2', plotB).style('stroke', 'var(--ink-3)');
+      svg.append('circle').attr('cx', mx).attr('cy', y(0.5)).attr('r', 4.5).style('fill', 'var(--judge)').style('stroke', 'var(--panel)').attr('stroke-width', 2);
+      svg.append('text').attr('class', 'lbl').attr('x', mx + (right ? 9 : -9)).attr('y', y(0.5) + 16).attr('text-anchor', right ? 'start' : 'end').text('Median ' + dayWord(med));
+    }
+    // One dot per ruling under the axis; dots that would overlap step down a row.
+    const y0 = plotB + 28; const rows = Math.floor((band - 8) / 7); const used = new Map();
+    dated.slice().sort((a, b) => a.days - b.days).forEach((o) => {
+      const cx = x(Math.min(o.days, xMax)); const b = Math.round(cx / 8); const n = used.get(b) || 0; used.set(b, n + 1);
+      svg.append('a').attr('href', opinionLink(o, linkKind(o))).attr('target', '_blank').attr('rel', 'noopener noreferrer').attr('tabindex', -1).attr('aria-label', (o.title || o.case) + ', ' + dayWord(o.days) + ' from filing')
+        .append('circle').attr('class', 'dot').attr('cx', cx).attr('cy', y0 + Math.min(n, rows) * 7).attr('r', 3.5).style('fill', 'var(--judge)').attr('stroke-width', 1.5).attr('data-tip', rulingTip(o));
+    });
+    const rule = svg.append('line').attr('y1', m.t).attr('y2', plotB).style('stroke', 'var(--ink-3)').attr('opacity', 0);
+    const within = (a, d) => d3.bisectRight(a, d);
+    svg.append('rect').attr('x', m.l).attr('y', m.t).attr('width', W - m.l - m.r).attr('height', plotB - m.t).attr('fill', 'transparent')
+      .on('pointermove', (e) => {
+        const d = Math.max(0, Math.min(xMax, Math.round(x.invert(d3.pointer(e)[0]))));
+        rule.attr('x1', x(d)).attr('x2', x(d)).attr('opacity', 1);
+        tipShow(['Within ' + dayWord(d) + ' of filing', { color: 'var(--judge)', value: fmt.pct0(within(v, d) / v.length), label: who + ' (' + fmt.int(within(v, d)) + ' of ' + fmt.int(v.length) + ')' },
+          ...(vb && vb.length >= FEW ? [{ color: 'var(--court)', value: fmt.pct0(within(vb, d) / vb.length), label: baseWho + ' (' + fmt.int(within(vb, d)) + ' of ' + fmt.int(vb.length) + ')' }] : [])], e.clientX, e.clientY);
+      })
+      .on('pointerleave', () => { rule.attr('opacity', 0); tipHide(); });
+  }
+  const WAIT_MARKS = [30, 60, 90, 120, 180, 365];
+  function drawMoTime(rows, base, sel) {
+    const M = state.mo; const noun = moNoun(M); const cases = moCases(M);
+    const dated = rows.filter((o) => o.days != null && o.days >= 0); const v = dated.map((o) => o.days).sort(d3.ascending);
+    const vb = base ? base.filter((o) => o.days != null && o.days >= 0).map((o) => o.days).sort(d3.ascending) : null;
+    const box = $('mo-time'); const tiles = $('mo-time-tiles'); const note = $('mo-time-note');
+    $('mo-time-legend').replaceChildren(...(sel.countsOnly || !v.length ? [] : [legendItem('var(--judge)', sel.Who, 'line'), ...(vb && vb.length >= FEW ? [legendItem('var(--court)', sel.base[0], 'line')] : [])]));
+    if (sel.countsOnly) {
+      setPlain('h-mo-time', 'Time from filing to ruling');
+      box.replaceChildren(el('p', { className: 'cap' }, 'Time to ruling is shown for all magistrate judges together. ', el('a', { href: moHref({ who: 'mj' }), textContent: 'Show all magistrate judges' })));
+      tiles.replaceChildren(); note.textContent = ''; return;
+    }
+    if (!v.length) {
+      setPlain('h-mo-time', 'Time from filing to ruling');
+      box.replaceChildren(el('p', { className: 'cap', textContent: rows.length ? `A filing date is not on file for any of the ${plural(rows.length, 'ruling')} in this selection.` : 'No written rulings for this selection.' }));
+      tiles.replaceChildren(); note.textContent = ''; return;
+    }
+    const med = d3.quantileSorted(v, 0.5);
+    const half = `${fmt.int(Math.round(d3.quantileSorted(v, 0.25)))} to ${dayWord(d3.quantileSorted(v, 0.75))}`; const cmp = vb && vb.length >= FEW;
+    setHead('h-mo-time', v.length < FEW ? `A filing date is on file for ${plural(v.length, 'written ruling')}${sel.by} on ${noun}${cases}. A median needs ${FEW}.`
+      : cmp ? `${sel.Who} ruled on ${noun}${cases} a median of ${dayWord(med)} after filing (${plural(v.length, 'ruling')} with a filing date); the median for all district judges is ${dayWord(d3.quantileSorted(vb, 0.5))} (${plural(vb.length, 'ruling')}).`
+        : `${sel.Who} ruled on ${noun}${cases} a median of ${dayWord(med)} after filing; the middle half took ${half} (${plural(v.length, 'ruling')} with a filing date).`);
+    waitCurve(box, { dated, v, vb, who: sel.Who, baseWho: sel.base ? sel.base[0] : '' });
+    const share = (a, d) => d3.bisectRight(a, d) / a.length;
+    tiles.replaceChildren(...(v.length >= FEW ? WAIT_MARKS.map((d) => fact(d === 365 ? 'Within 1 year' : 'Within ' + d + ' days', fmt.pct0(share(v, d)),
+      fmt.int(d3.bisectRight(v, d)) + ' of ' + fmt.int(v.length) + (vb && vb.length >= FEW ? ' · all judges ' + fmt.pct0(share(vb, d)) : ''))) : []));
+    note.textContent = (cmp && v.length >= FEW ? `The middle half of ${sel.who}'s rulings took ${half}. ` : '') + `A filing date is on file for ${fmt.int(v.length)} of the ${plural(rows.length, 'ruling')}, all decided since ${fmtDate(d3.min(dated, (o) => o.date))}. The count of days starts when the motion was filed. Local Rule 7.2 sets the submission date at least 15 days after filing.`;
+  }
+
+  // The district judges in order on one measure, chosen from the list. A judge with fewer than five rulings behind the
+  // figure is listed after the ranked judges, in outline. A row picks that judge for the whole page.
+  function drawMoRank(all, sel) {
+    const S = state.stats; const M = state.mo; const k = M.rank || 'granted'; const noun = moNoun(M); const cases = moCases(M);
+    const pick = $('mo-rank'); if (!pick.options.length) pick.append(...MO_RANKS.map(([v, l]) => new Option(l, v))); pick.value = k;
+    const share = k === 'granted' || k === 'any' || k === 'denied'; const needs = share || k === 'days' || k === 'pages';
+    const pend = d3.rollup(S.motions.filter((m) => m.kind === M.type && !m.ruled), (v) => v.length, (m) => m.judge);
+    const win = moWindow(M); const dj = all.filter((o) => !o.mj);
+    const value = (t, years, pending) => (k === 'granted' ? (t.known ? t.granted / t.known : null) : k === 'any' ? (t.known ? (t.granted + t.partial) / t.known : null) : k === 'denied' ? (t.known ? t.denied / t.known : null)
+      : k === 'days' ? t.medDays : k === 'n' ? t.n : k === 'rate' ? t.n / years : k === 'pages' ? t.medPages : pending);
+    const basisOf = (t) => (share ? t.known : k === 'days' ? t.nDays : k === 'pages' ? t.nPages : t.n);
+    const yearsFrom = (start) => Math.max(1 / 12, (daysBetween(start, win[1]) + 1) / 365.25);
+    const rows = judgesAlpha().map((j) => {
+      const t = S.tally(dj.filter((o) => o.signer === j.code)); const start = later((S.opinions.find((r) => r.code === j.code) || {}).start || win[0], win[0]);
+      const off = start > win[1]; const years = yearsFrom(start); const basis = basisOf(t);
+      return { code: j.code, name: j.name, t, years, basis, off, val: off ? null : value(t, years, pend.get(j.code) || 0), few: off || (needs && basis < FEW) };
+    });
+    const tp = S.tally(dj); const pool = { t: tp, val: value(tp, yearsFrom(win[0]), d3.sum(rows, (r) => pend.get(r.code) || 0)), basis: basisOf(tp) };
+    const asc = k === 'days';
+    const ranked = rows.filter((r) => !r.few && r.val != null).sort((a, b) => (asc ? a.val - b.val : b.val - a.val) || a.name.localeCompare(b.name));
+    ranked.forEach((r, i) => { r.rank = i && ranked[i - 1].val === r.val ? ranked[i - 1].rank : i + 1; });
+    const rest = rows.filter((r) => r.few || r.val == null);
+    const f = (v) => (v == null ? '—' : share ? fmt.pct0(v) : k === 'days' ? dayWord(v) : k === 'rate' ? fmt.d1(v) + ' a year' : k === 'pages' ? fmt.med(v) + (v === 1 ? ' page' : ' pages') : fmt.int(v));
+    const nText = (r) => (share ? 'n=' + fmt.int(r.t.known) : k === 'days' ? 'n=' + fmt.int(r.t.nDays) : k === 'pages' ? 'n=' + fmt.int(r.t.nPages) : k === 'rate' ? fmt.int(r.t.n) + ' in ' + fmt.d1(r.years) + ' yr' : '');
+    const max = d3.max(ranked.concat(rest), (r) => (share ? 0 : r.val || 0)) || 1;
+    const what = { granted: `the share of ${noun}${cases} granted in full`, any: `the share of ${noun}${cases} granted in full or in part`, denied: `the share of ${noun}${cases} denied`,
+      days: `median days from filing to a written ruling on ${noun}${cases}`, n: `written rulings on ${noun}${cases}`, rate: `written rulings on ${noun}${cases} per year on the bench`,
+      pages: `the median length of a written ruling on ${noun}${cases}`, pending: `${noun} awaiting a ruling on the docket feed` }[k];
+    const line = (r, opts = {}) => {
+      const on = !opts.pool && sel.kind === 'dj' && sel.code === r.code;
+      const bar = share ? (r.t.known ? ocBar(r.t, { labels: true }) : el('span', { className: 'rk-none', textContent: r.off ? 'not on the bench in this period' : 'no rulings with a known outcome' }))
+        : (() => { const tr = el('span', { className: 'sb-track' + (r.few ? ' few' : '') }); if (r.val) { const i = el('i'); i.style.width = Math.max(0, Math.min(100, (r.val / max) * 100)) + '%'; tr.append(i); }
+          if (!opts.pool && pool.val && k !== 'n' && k !== 'pending') { const b = el('b'); b.style.left = Math.min(100, (pool.val / max) * 100) + '%'; tr.append(b); } return tr; })();
+      const row = el(opts.pool ? 'div' : 'a', { className: 'rk-row' + (on ? ' on' : '') + (r.few ? ' few' : '') + (opts.pool ? ' pool' : '') },
+        el('span', { className: 'rk-n', textContent: opts.pool ? '' : r.rank ? String(r.rank) : '—' }), el('span', { className: 'rk-name', textContent: opts.pool ? 'All district judges' : r.name }),
+        el('span', { className: 'rk-bar' }, bar), el('span', { className: 'rk-v' }, el('b', { textContent: f(r.val) }), nText(r) ? el('small', { textContent: nText(r) }) : null));
+      if (!opts.pool) { row.href = moHref({ who: on ? '' : r.code }); if (on) row.setAttribute('aria-current', 'true'); }
+      row.dataset.tip = [(opts.pool ? 'All district judges' : 'Judge ' + r.name) + ': ' + f(r.val), cap(what)]
+        .concat(nText(r) ? [share ? plural(r.t.known, 'ruling') + ' with a known outcome' : k === 'days' ? plural(r.t.nDays, 'ruling') + ' with a filing date' : k === 'pages' ? plural(r.t.nPages, 'ruling') + ' with a page count' : plural(r.t.n, 'ruling') + ' in ' + fmt.d1(r.years) + ' years'] : [],
+          r.few && !r.off && needs ? ['Fewer than ' + FEW + ' rulings behind this figure'] : [], opts.pool ? [] : [on ? 'Click to show all judges' : 'Click to show this judge']).join('\n');
+      return row;
+    };
+    $('mo-rank-list').replaceChildren(line({ ...pool, name: '', years: yearsFrom(win[0]) }, { pool: true }), ...ranked.map((r) => line(r)),
+      ...(rest.length && needs ? [el('div', { className: 'rk-sep', textContent: 'Fewer than ' + FEW + ' rulings behind the figure' })] : []), ...rest.map((r) => line(r)));
+    $('mo-rank-n').textContent = 'rulings each district judge signed';
+    const me = sel.kind === 'dj' ? rows.find((r) => r.code === sel.code) : null; const lo = ranked[asc ? 0 : ranked.length - 1]; const hi = ranked[asc ? ranked.length - 1 : 0];
+    const basisIn = (r) => (share || k === 'days' || k === 'pages' ? plural(basisOf(r.t), 'ruling') : k === 'rate' ? nText(r) : '');
+    let head = '';
+    if (ranked.length >= 2 && me && me.rank) head = `Judge ${me.name} is ${ord(me.rank)} of ${ranked.length} district judges on ${what}${asc ? ', shortest first' : ''}: ${f(me.val)}${basisIn(me) ? ' (' + basisIn(me) + ')' : ''}. The judges run from ${f(lo.val)} to ${f(hi.val)}.`;
+    else if (ranked.length >= 2 && me) head = `Judge ${me.name} has fewer than ${FEW} rulings behind this figure. The ${ranked.length} ranked judges run from ${f(lo.val)} to ${f(hi.val)} on ${what}.`;
+    else if (ranked.length >= 2) head = `Among the district judges, ${what} runs from ${f(lo.val)} (Judge ${lo.name}${basisIn(lo) ? ', ' + basisIn(lo) : ''}) to ${f(hi.val)} (Judge ${hi.name}${basisIn(hi) ? ', ' + basisIn(hi) : ''}).`;
+    if (head) setHead('h-mo-rank', head); else setPlain('h-mo-rank', 'District judges compared');
+  }
+
+  // The same outcomes split along one line: the motion within the kind, the type of case, the year, or who signed.
+  // A row sets that filter for the whole page.
+  function drawMoBreak(sel) {
+    const S = state.stats; const M = state.mo; const base = moBase(); const noun = MO_NOUN[M.type];
+    const mjN = base.filter((o) => o.mcat === M.type && o.mj).length;
+    const dims = MO_DIMS.filter(([k]) => (k !== 'sub' || MO_SUBS[M.type]) && (k !== 'signer' || mjN >= FEW) && (k !== 'year' || !state.period));
+    const dim = dims.some(([k]) => k === M.by) ? M.by : M.type === 'discovery' && dims.some(([k]) => k === 'signer') ? 'signer' : dims[0][0];
+    $('mo-break-tabs').replaceChildren(...dims.map(([k, l]) => { const b = el('button', { type: 'button', textContent: l }); b.setAttribute('role', 'tab'); b.setAttribute('aria-selected', String(k === dim)); b.addEventListener('click', () => remo({ by: k })); return b; }));
+    const co = sel.countsOnly; let rows = []; let head = ''; let plain = '';
+    const g = (R) => { const t = S.tally(R); return t.known >= FEW ? t : null; }; const p = (t) => fmt.pct0(t.granted / t.known);
+    if (dim === 'sub') {
+      const U = moFilter(base, M, { sub: true }).filter(sel.test);
+      rows = MO_SUBS[M.type].map(([k, label, long]) => ({ k, label, long, R: U.filter((o) => o.subs.includes(k)), on: M.sub === k, href: moHref({ sub: M.sub === k ? '' : k }), countsOnly: co }));
+      const two = rows.filter((r) => r.k !== 'expert' && g(r.R)).sort((a, b) => b.R.length - a.R.length).slice(0, 2);
+      if (!co && two.length === 2) head = `${sel.Who} granted ${p(g(two[0].R))} of ${two[0].long} in full (${plural(g(two[0].R).known, 'ruling')}) and ${p(g(two[1].R))} of ${two[1].long} (${plural(g(two[1].R).known, 'ruling')}).`;
+      plain = 'Rulings on each motion within ' + noun;
+    } else if (dim === 'grp') {
+      const U = moFilter(base, M, { grp: true }).filter(sel.test);
+      rows = CASE_GROUPS.map(([k, label]) => ({ k, label, R: U.filter((o) => o.grp === k), on: M.grp === k, href: moHref({ grp: M.grp === k ? '' : k }), countsOnly: co }))
+        .sort((a, b) => (a.k === 'other') - (b.k === 'other') || b.R.length - a.R.length);
+      const two = rows.filter((r) => r.k !== 'other' && g(r.R)).slice(0, 2);
+      if (!co && two.length === 2) head = `In ${caseNoun[two[0].k]}, ${sel.who} granted ${p(g(two[0].R))} of ${moNoun(M)} in full (${plural(g(two[0].R).known, 'ruling')}); in ${caseNoun[two[1].k]}, ${p(g(two[1].R))} (${plural(g(two[1].R).known, 'ruling')}).`;
+      plain = 'Rulings on ' + noun + ' in each type of case';
+    } else if (dim === 'year') {
+      const U = moFilter(base, M, { span: true }).filter(sel.test); const cur = S.opThrough.slice(0, 4);
+      rows = d3.range(+S.since.opinions.slice(0, 4), +cur + 1).map(String).map((y) => ({ y, label: y === cur ? y + ' to ' + fmtShort(S.opThrough) : y, R: U.filter((o) => o.date.slice(0, 4) === y), on: M.span === y, href: moHref({ span: M.span === y ? '' : y }), countsOnly: co }));
+      const two = rows.filter((r) => g(r.R)); const a = two[0]; const b = two[two.length - 1];
+      if (!co && a && b && a !== b) head = `${sel.Who} granted ${p(g(a.R))} of ${moNoun(M)}${moCases(M)} in full in ${a.y} (${plural(g(a.R).known, 'ruling')}) and ${p(g(b.R))} in ${b.y === cur ? b.y + ' to date' : b.y} (${plural(g(b.R).known, 'ruling')}).`;
+      plain = 'Rulings on ' + noun + ' in each year';
+    } else {
+      const U = moFilter(base, M); const d = U.filter((o) => !o.mj); const mj = U.filter((o) => o.mj); const per = d3.group(mj, (o) => o.mj);
+      rows = [{ label: 'District judges', R: d, on: M.who === 'dj', href: moHref({ who: M.who === 'dj' ? '' : 'dj' }) }, { label: 'Magistrate judges', R: mj, on: M.who === 'mj', href: moHref({ who: M.who === 'mj' ? '' : 'mj' }) },
+        ...magJudges().filter((j) => per.get(j.code)).map((j) => ({ label: 'Magistrate Judge ' + j.short, R: per.get(j.code), on: M.who === j.code, href: moHref({ who: M.who === j.code ? '' : j.code }), countsOnly: !MAG_SHARES }))];
+      if (U.length) head = `Magistrate judges signed ${fmt.int(mj.length)} of the ${fmt.int(U.length)} written rulings on ${moNoun(M)}${moCases(M)}; district judges signed ${fmt.int(d.length)}.`;
+      plain = 'Rulings on ' + noun + ' signed by district judges and by magistrate judges';
+    }
+    if (head) setHead('h-mo-break', head); else setPlain('h-mo-break', cap(plain));
+    $('mo-break').replaceChildren(ocRows(rows));
+  }
+
+  // The docket now, and what a lawyer filing this kind of motion needs first: the motions of this kind the feed has
+  // shown and whether a ruling followed, then the judge's submission dates, the deadlines the Local Rules hang on them,
+  // and the passages of the judge's posted requirements that bear on the motion.
+  function drawMoNow(sel) {
+    const S = state.stats; const M = state.mo; const today = todayIso(); const code = sel.kind === 'dj' ? sel.code : ''; const noun = MO_NOUN[M.type];
+    const F = S.motions.filter((m) => m.kind === M.type && (!code || m.judge === code));
+    const waiting = F.filter((m) => !m.ruled).sort((a, b) => a.date.localeCompare(b.date)); const past = F.filter((m) => m.past);
+    const before = code ? ' before Judge ' + S.names[code] : '';
+    const shown = `Since ${fmtDate(S.motionsSince)}, the docket feed has shown ${fmt.int(F.length)} ${F.length === 1 ? noun.replace('motions', 'motion') : noun}${before}`;
+    if (F.length) setHead('h-mo-now', waiting.length ? `${shown}: ${fmt.int(waiting.length)} ${waiting.length === 1 ? 'awaits' : 'await'} a ruling, and ${fmt.int(past.length)} ${past.length === 1 ? 'is' : 'are'} under submission.`
+      : `${shown}, and ${F.length === 1 ? 'the motion' : 'each'} has a matched ruling.`);
+    else setHead('h-mo-now', `The docket feed has not shown ${M.type === 'othermotion' ? 'such motions' : noun}${before} since ${S.motionsSince ? fmtDate(S.motionsSince) : 'the site began reading it'}.`);
+    $('mo-now-all').href = hashFor('motions', { mo: { type: 'pending' }, mt: { judge: code, view: 'pending' } });
+    const parts = [];
+    if (F.length) parts.push(el('div', { className: 'facts' }, fact('Filed', fmt.int(F.length), 'since ' + fmtShort(S.motionsSince)), fact('Ruling found', fmt.int(F.length - waiting.length), 'matched to a later order'),
+      fact('Awaiting a ruling', fmt.int(waiting.length), waiting.length ? 'oldest filed ' + fmtShort(waiting[0].date) : 'none right now'), fact('Under submission', fmt.int(past.length), past.length ? 'median ' + dayWord(median(past.map((m) => m.daysPast))) + ' past the date' : 'none right now')));
+    if (waiting.length) parts.push(el('div', { className: 'scroll mo-now-t' }, motionTable(waiting.slice(0, 6), !code)));
+    if (sel.kind === 'mj' || sel.kind === 'mjs') parts.push(el('p', { className: 'foot-note', textContent: 'The feed names the district judge assigned to the case. These motions are from all cases.' }));
+    $('mo-now').replaceChildren(...parts);
+    // Filing: the first submission date a motion filed today can be noticed for, and the opposition deadline it sets.
+    const J = (state.data.submission_dates || {}).judges || {}; const target = addDays(today, SUBMIT_LEAD_DAYS);
+    const first = (c) => ((J[c] || {}).dates || []).find((d) => d >= target) || '';
+    const file = [];
+    if (code && first(code)) {
+      const d = first(code); const r = J[code]; const P = state.pages[code];
+      file.push(el('p', { className: 'mo-file-l' }, 'A motion filed today, ' + fmtDate(today) + ', can be noticed for submission before Judge ' + S.names[code] + ' on ', el('b', { textContent: fmtDate(d) }), ' at the earliest. An opposition is then due ',
+        el('b', { textContent: fmtDate(addDays(d, -8)) }), '.'));
+      file.push(el('p', { className: 'foot-note' }, 'Local Rule 7.2 requires filing at least 15 days before the submission date. Local Rule 7.5 makes an opposition due eight days before that date. Next civil submission dates: '
+        + nextSubDates(code, 5).map(fmtShort).join(' · ') + '. ', el('a', { href: r.url, target: '_blank', rel: 'noopener noreferrer', textContent: 'The court\'s list ↗' }), ' controls.'));
+      const { hits, re } = P && (P.sections || []).length ? reqPassages(code, [M.type]) : { hits: [] };
+      const own = hits.filter((h) => (REQ_TERMS[M.type] || []).some((term) => segText(h.block.s).toLowerCase().includes(term)));
+      (own.length ? own : hits).slice(0, 3).forEach((h) => file.push(el('div', { className: 'rq-hit' }, el('small', {}, el('a', { href: hashFor('judge', { judge: code, tab: slug(h.section) }), textContent: 'Judge ' + S.names[code] + ' · ' + h.section })), blockEl(h.block, re))));
+      file.push(el('p', { className: 'foot-note' }, el('a', { href: judgeHref(code), textContent: 'Judge ' + S.names[code] + '\'s chambers and requirements →' })));
+    } else if (!code && Object.keys(J).length) {
+      const list = judgesAlpha().filter((j) => first(j.code));
+      file.push(el('p', { className: 'mo-file-l', textContent: 'A motion filed today, ' + fmtDate(today) + ', can be noticed for submission no earlier than these dates. Local Rule 7.2 requires filing at least 15 days before the submission date, and Local Rule 7.5 makes an opposition due eight days before that date.' }));
+      file.push(el('div', { className: 'scroll mo-file-t' }, el('table', { className: 't' }, thead(['Judge', 'Section', 'Earliest submission date', 'Opposition due']),
+        el('tbody', {}, ...list.map((j) => el('tr', {}, el('td', {}, el('a', { className: 'judge', href: moHref({ who: j.code }), textContent: j.name, title: 'Show this judge' })), el('td', { className: 'mono', textContent: J[j.code].section || '' }),
+          el('td', { className: 'mono', textContent: fmtDate(first(j.code)) }), el('td', { className: 'mono', textContent: fmtDate(addDays(first(j.code), -8)) })))))));
+      file.push(el('p', { className: 'foot-note', textContent: 'Dates come from the list the court posts for each section, read once a day. The court\'s list controls.' }));
+    }
+    $('mo-file').hidden = !file.length; $('mo-file').replaceChildren(...(file.length ? [el('h3', { textContent: 'Filing dates' }), ...file] : []));
+  }
+
+  // The rulings themselves, for reading: the latest grant, the latest denial, and the longest ruling up top, then the
+  // list, which the outcome filter and the sort order narrow. The search box looks inside the text of these rulings.
+  function moReadRows(rows) {
+    const M = state.mo;
+    const L = rows.filter((o) => !M.oc || (M.oc === 'none' ? !KNOWN.includes(o.oc) : ocMatch(o, M.oc)));
+    const s = M.sort || 'new'; const by = (f, dir) => (a, b) => { const x = f(a); const y = f(b); return (x == null) - (y == null) || (x - y) * dir || b.date.localeCompare(a.date); };
+    return s === 'long' ? L.slice().sort(by((o) => o.pages, -1)) : s === 'slow' ? L.slice().sort(by((o) => (o.days != null && o.days >= 0 ? o.days : null), -1)) : s === 'fast' ? L.slice().sort(by((o) => (o.days != null && o.days >= 0 ? o.days : null), 1)) : L;
+  }
+  function drawMoRead(rows, sel) {
+    const S = state.stats; const M = state.mo; const noun = moNoun(M);
+    const oc = $('mo-oc'); if (!oc.options.length) oc.append(...MO_OCS.map(([k, l]) => new Option(l, k))); oc.value = M.oc;
+    const so = $('mo-sort'); if (!so.options.length) so.append(...MO_SORTS.map(([k, l]) => new Option(l, k))); so.value = M.sort || 'new';
+    setPlain('h-mo-read', cap(`written rulings on ${noun}${moCases(M)}${sel.by}`));
+    const pickOf = (label, o, sub) => (o ? factCard({ k: label, v: o.title || o.case, sub: [fmtDate(o.date), sel.code ? '' : signerName(o.signer), sub(o)].filter(Boolean).join(' · '), href: opinionLink(o, linkKind(o)), ext: true }) : null);
+    const paged = rows.filter((o) => o.pages); const longest = paged.length ? paged.reduce((a, o) => (o.pages > a.pages ? o : a)) : null;
+    const picks = [pickOf('Latest ruling granting the motion in full', rows.find((o) => family(o.oc) === 'granted'), (o) => (o.pages ? plural(o.pages, 'page') : '')),
+      pickOf('Latest ruling granting the motion in part', rows.find((o) => o.oc === 'partial'), (o) => (o.pages ? plural(o.pages, 'page') : '')),
+      pickOf('Latest ruling denying the motion', rows.find((o) => family(o.oc) === 'denied'), (o) => (o.pages ? plural(o.pages, 'page') : '')),
+      pickOf('Longest ruling', longest, (o) => plural(o.pages, 'page') + (KNOWN.includes(o.oc) ? ' · ' + OUTCOMES[o.oc].toLowerCase() : ''))].filter(Boolean);
+    $('mo-picks').hidden = !picks.length; $('mo-picks').replaceChildren(...picks);
+    const L = moReadRows(rows); const shown = L.slice(0, M.limit);
+    const hasDays = L.some((o) => o.days != null); const who = !sel.code;
+    const cols = ['Decided'].concat(who ? ['Signed by'] : [], ['Case · doc', 'Ruling', 'Outcome'], hasDays ? ['Days from filing'] : [], ['Pages', 'Case name']);
+    const head = el('thead', {}, el('tr', {}, ...cols.map((c) => el('th', { textContent: c, className: /^(Days|Pages)/.test(c) ? 'r' : '' }))));
+    const body = el('tbody', {}, ...(shown.length ? shown.map((o) => el('tr', {}, el('td', { className: 'mono', textContent: fmtMDY(o.date) }),
+      who ? el('td', { className: 'txt' }, signerHref(o.signer) ? el('a', { className: 'judge', href: signerHref(o.signer), textContent: (o.mj ? 'MJ ' : '') + (S.names[o.signer] || magOf(o.signer).short) }) : o.signer) : null,
+      el('td', { className: 'txt' }, ...caseLink(o)), el('td', { className: 'ev', textContent: o.event }), el('td', { className: 'txt' }, outcomePill(o)),
+      hasDays ? el('td', { className: 'num' + (o.days == null ? ' dim' : ''), textContent: o.days == null ? '—' : fmt.int(o.days), title: o.filed ? 'Motion filed ' + fmtDate(o.filed) : 'Motion filing date not on file' }) : null,
+      el('td', { className: 'num' + (o.pages == null ? ' dim' : ''), textContent: o.pages == null ? '—' : fmt.int(o.pages) }), el('td', { className: 'wrap' }, el('a', { href: caseHref(o.case), textContent: o.title || o.case, title: 'Open the case page' }))))
+      : [el('tr', {}, el('td', { className: 'txt dim', colSpan: cols.length, textContent: 'No rulings match.' }))]));
+    $('mo-table').replaceChildren(head, body);
+    $('mo-count').textContent = L.length ? (shown.length < L.length ? fmt.int(shown.length) + ' of ' : '') + plural(L.length, 'ruling') : '';
+    $('mo-read-more').hidden = shown.length >= L.length;
+    // Full text and the full search: district judges' rulings carry over the judge; the opinion search lists by the case's judge.
+    const preset = { type: M.type, judge: sel.kind === 'dj' ? sel.code : '', by: sel.kind === 'dj' || sel.kind === 'djs' ? 'dj' : sel.kind === 'mjs' ? 'mj' : '', oc: M.oc === 'none' ? '' : M.oc };
+    $('mo-search-all').href = findHref(preset); $('mo-text').dataset.preset = JSON.stringify(preset);
+    $('mo-text').closest('label').hidden = sel.kind === 'mj';
+  }
+  function remo(patch) { Object.assign(state.mo, { limit: 15 }, patch); if (state.stats) { renderMotions(); writeHash(); } }
+
+  function renderMotions() {
+    const M = state.mo; const pending = M.type === 'pending';
+    if (!pending) moClean();
+    $('mo-type').hidden = pending; $('mo-pending').hidden = !pending;
+    drawMoCards();
+    if (pending) { document.title = 'Motions awaiting a ruling · EDLA Analyzer'; drawPending(); return; }
+    const sel = moSel();
+    document.title = cap(MO_NOUN[M.type]) + (sel.code ? ' · ' + sel.Who : '') + ' · EDLA Analyzer';
+    drawMoFilters();
+    const all = moFilter(moBase(), M); const rows = all.filter(sel.test); const base = sel.base ? all.filter(sel.base[1]) : null;
+    drawMoOutcome(rows, base, sel);
+    drawMoTime(rows, base, sel);
+    drawMoRank(all, sel);
+    drawMoBreak(sel);
+    drawMoNow(sel);
+    drawMoRead(rows, sel);
+  }
+  // Home: the three main kinds of motion, each a link to its section of the Motions page.
+  function drawHomeMotions() {
+    const S = state.stats; const base = moBase(); const of = (k) => base.filter((o) => o.mcat === k);
+    $('home-motions').replaceChildren(...MO_MAIN.map((k) => moCard(k, of(k), { href: hashFor('motions', { mo: { type: k } }), noteDwh: true })));
+    const t12 = S.tally(of('r12')); const t56 = S.tally(of('r56'));
+    if (t12.known >= FEW && t56.known >= FEW) setHead('h-home-motions', `${cap(sinceWhen(S.since.opinions))}, the court granted ${fmt.pct0(t12.granted / t12.known)} of Rule 12 motions and ${fmt.pct0(t56.granted / t56.known)} of Rule 56 motions in full.`);
+  }
+
+  // ------------------------------------------------------------ motions awaiting a ruling (the Motions page's last tab)
   function motionTable(rows, withJudge) {
     const S = state.stats;
     const cols = (withJudge ? ['Judge'] : []).concat(['Case · doc', 'Motion', 'Filed', 'Submission', 'Days past', 'Status', 'Case name']);
@@ -1837,9 +2415,8 @@
     $('mt-wait-n').textContent = waits.length ? plural(waits.length, 'matched ruling') + ' · median ' + dayWord(median(waits)) : '';
     if (waits.length) setHead('mt-h-wait', `Motions with a matched ruling were decided a median of ${dayWord(median(waits))} after filing (${fmt.int(waits.length)} motions).`);
   }
-  function renderMotions() {
+  function drawPending() {
     const S = state.stats; const M = state.mt; const all = S.motions.filter((m) => !M.judge || m.judge === M.judge);
-    document.title = 'Submitted motions · EDLA Analyzer';
     $('mt-since').textContent = S.motionsSince ? fmtDate(S.motionsSince) : 'the site began reading the feed';
     const js = $('mt-judge'); if (js.options.length < 2) js.append(new Option('All judges', ''), ...judgesAlpha().map((j) => new Option(j.name, j.code)));
     js.value = M.judge; $('mt-view').value = M.view; if ($('mt-q').value !== M.q) $('mt-q').value = M.q;
@@ -2361,15 +2938,15 @@
   ] };
   const ocTableCols = (g) => [
     { k: 'name', label: 'Judge' },
-    { k: g + '_n', label: 'Rulings', f: fmt.int, num: true, sum: true, href: finderCount({ type: g === 'all' ? 'motion' : g }) },
-    { k: g + '_known', label: 'Known outcome', f: fmt.int, num: true, sum: true, href: finderCount({ type: g === 'all' ? 'motion' : g, oc: 'known' }), title: 'Rulings whose outcome is known' },
-    { k: g + '_granted', label: 'Granted', f: fmt.int, num: true, sum: true, gstart: true, href: finderCount({ type: g === 'all' ? 'motion' : g, oc: 'granted' }) },
-    { k: g + '_partial', label: 'In part', f: fmt.int, num: true, sum: true, href: finderCount({ type: g === 'all' ? 'motion' : g, oc: 'partial' }) },
-    { k: g + '_denied', label: 'Denied', f: fmt.int, num: true, sum: true, href: finderCount({ type: g === 'all' ? 'motion' : g, oc: 'denied' }) },
-    { k: g + '_rest', label: 'Other', f: fmt.int, num: true, sum: true, title: 'Mixed, moot, or other', href: finderCount({ type: g === 'all' ? 'motion' : g, oc: 'rest' }) },
+    { k: g + '_n', label: 'Rulings', f: fmt.int, num: true, sum: true, href: finderCount({ by: 'dj', type: g === 'all' ? 'motion' : g }) },
+    { k: g + '_known', label: 'Known outcome', f: fmt.int, num: true, sum: true, href: finderCount({ by: 'dj', type: g === 'all' ? 'motion' : g, oc: 'known' }), title: 'Rulings whose outcome is known' },
+    { k: g + '_granted', label: 'Granted', f: fmt.int, num: true, sum: true, gstart: true, href: finderCount({ by: 'dj', type: g === 'all' ? 'motion' : g, oc: 'granted' }) },
+    { k: g + '_partial', label: 'In part', f: fmt.int, num: true, sum: true, href: finderCount({ by: 'dj', type: g === 'all' ? 'motion' : g, oc: 'partial' }) },
+    { k: g + '_denied', label: 'Denied', f: fmt.int, num: true, sum: true, href: finderCount({ by: 'dj', type: g === 'all' ? 'motion' : g, oc: 'denied' }) },
+    { k: g + '_rest', label: 'Other', f: fmt.int, num: true, sum: true, title: 'Mixed, moot, or other', href: finderCount({ by: 'dj', type: g === 'all' ? 'motion' : g, oc: 'rest' }) },
     { k: g + '_share', label: 'Outcome shares', nosort: true, cls: 'ocwrap', gstart: true,
       render: (r) => ocBar({ n: r[g + '_n'], known: r[g + '_known'], granted: r[g + '_granted'], partial: r[g + '_partial'], denied: r[g + '_denied'], rest: r[g + '_rest'] },
-        { labels: true, who: 'Judge ' + r.name, href: (k) => findHref({ judge: r.code, type: g === 'all' ? 'motion' : g, oc: k }) }) },
+        { labels: true, who: 'Judge ' + r.name, href: (k) => findHref({ judge: r.code, type: g === 'all' ? 'motion' : g, oc: k, by: 'dj' }) }) },
   ];
   TABLES['t-outcomes'] = { rows: () => state.stats.opinions, sort: { k: 'name', dir: 1 }, get cols() { return ocTableCols(state.ocGroup); },
     foot: [['All judges', (c, all) => (c.render ? ocBar(state.stats.pooled['g_' + state.ocGroup], { labels: true, who: 'All judges' }) : c.sum ? c.f(d3.sum(all, (r) => r[c.k])) : '')]] };
@@ -2494,6 +3071,8 @@
   const PROCEDURAL_RE = /^(?:continue|expedite|extension of|leave to|withdraw as attorney|enroll as counsel|substitute attorney|appear pro hac vice|seal|substitute party|proceed in forma pauperis|appoint counsel|amend|consolidate|sever|bifurcate|transfer|reopen|intervene)/;
   function motionKind(t) {
     const evs = splitEvents(t); const keys = reliefKeys(t);
+    if (ARBITRATION_RE.test(t || '')) return 'arbitration';
+    if (/compel\s+(?:appraisal|mediation|settlement)/i.test(t || '')) return 'othermotion';
     for (const e of evs) if (!DROP_RE.test(e) && KIND_OF_RELIEF[reliefKey(e)]) return KIND_OF_RELIEF[reliefKey(e)];
     if (evs.length && evs.every((e) => DROP_RE.test(e))) return 'procedural';
     if (/summary judgment/i.test(t || '')) return 'r56';
@@ -2503,7 +3082,7 @@
   }
   const KIND_LABEL = { ...Object.fromEntries(MCATS), r12: 'motions to dismiss and other Rule 12 motions', r56: 'summary judgment motions', discovery: 'discovery motions',
     daubert: 'Daubert and expert motions', limine: 'motions in limine', injunction: 'injunction and TRO motions', remand: 'motions to remand', reconsideration: 'motions for reconsideration',
-    stay: 'motions to stay', default: 'default judgment motions', fees: 'attorney fee motions', procedural: 'scheduling and procedural motions', othermotion: 'other motions' };
+    stay: 'motions to stay', arbitration: 'motions concerning arbitration', default: 'default judgment motions', fees: 'attorney fee motions', procedural: 'scheduling and procedural motions', othermotion: 'other motions' };
   const cleanEvent = (t) => splitEvents(t).map((e) => e.replace(/\s*~Util\s*-\s*/gi, ' · ').replace(/^ · /, '')).join(' · ') || 'Docket entry';
   const actKind = (r) => (r.opinion ? 'opinion' : r.isOrder || isOrderEvent(r.event) ? 'order' : isMotionEvent(r.event) ? 'motion'
     : /^(?:(?:verified|class action|amended)\s+)?complaint\b|^notice of removal|^petition\b/i.test(r.event || '') && !/amended/i.test(r.event || '') ? 'newcase'
@@ -2954,14 +3533,17 @@
     }
     card.append(waitBar(age, w, name), el('p', { className: 'mc-wait' },
       el('b', { textContent: age === 0 ? 'Filed today.' : 'Filed ' + dayWord(age) + ' ago.' }),
-      ` ${w.scope === 'judge' ? 'Judge ' + name + ' has' : 'The court\'s judges have'} decided ${fmt.int(w.n)} ${KIND_LABEL[m.kind]} in a median of ${dayWord(w.med)}. The middle half took ${fmt.int(Math.round(w.p25))} to ${dayWord(w.p75)}.`));
+      w.scope === 'judge' && m.kind === 'discovery' ? ` In Judge ${name}'s cases, ${fmt.int(w.n)} ${KIND_LABEL[m.kind]} were decided in a median of ${dayWord(w.med)}. The middle half took ${fmt.int(Math.round(w.p25))} to ${dayWord(w.p75)}.`
+        : ` ${w.scope === 'judge' ? 'Judge ' + name + ' has' : 'The court\'s judges have'} decided ${fmt.int(w.n)} ${KIND_LABEL[m.kind]} in a median of ${dayWord(w.med)}. The middle half took ${fmt.int(Math.round(w.p25))} to ${dayWord(w.p75)}.`));
+    if (MO_NOUN[m.kind] && m.kind !== 'othermotion') card.append(el('p', { className: 'mc-wait' }, el('a', { href: hashFor('motions', { mo: { type: m.kind, who: m.kind === 'discovery' ? '' : C.judge } }),
+      textContent: (m.kind === 'discovery' ? 'Rulings on ' : 'Judge ' + name + ' on ') + MO_NOUN[m.kind] + ': outcomes, time to ruling, and the rulings to read →' })));
     return card;
   }
 
   // Passages of the judge's posted requirements that bear on the case's motions.
   const REQ_TERMS = { r56: ['summary judgment', 'statement of uncontested', 'oral argument', 'page limit'], r12: ['dismiss', 'oral argument', 'page limit'],
     discovery: ['discovery', 'magistrate'], daubert: ['daubert', 'expert'], limine: ['limine'], injunction: ['injunction', 'restraining order'],
-    procedural: ['continuance', 'extension', 'proposed order'], reconsideration: ['reconsider'], remand: ['remand'] };
+    procedural: ['continuance', 'extension', 'proposed order'], reconsideration: ['reconsider'], remand: ['remand'], arbitration: ['arbitration'] };
   const REQ_ALWAYS = ['courtesy cop', 'oral argument', 'proposed order', 'memoranda'];
   function reqPassages(code, kinds) {
     const P = state.pages[code]; if (!P) return { hits: [], re: null };
@@ -3195,7 +3777,7 @@
     if (!opts.includes(state.caseKind)) state.caseKind = opts[0];
     $('c-cmp-h').textContent = name ? `Judge ${name}'s written rulings on similar motions` : 'Written rulings on similar motions';
     $('c-cmp-kinds').replaceChildren(...opts.map((k) => { const b = el('button', { type: 'button', className: 'quick', textContent: mcatLabel[k] }); b.setAttribute('aria-pressed', String(k === state.caseKind)); b.addEventListener('click', () => { state.caseKind = k; renderCase(); }); return b; }));
-    const comp = C.judge ? S.recent.filter((o) => o.judge === C.judge && o.mcat === state.caseKind && o.case !== id) : [];
+    const comp = C.judge ? S.recent.filter((o) => o.judge === C.judge && !o.mj && o.mcat === state.caseKind && o.case !== id) : [];
     $('c-cmp').replaceChildren(...(comp.length ? comp.slice(0, 8).map((o) => el('li', {},
       el('span', { className: 'd', textContent: fmtShort(o.date) }),
       el('span', { className: 'h' }, el('span', {}, ...caseLink(o)), outcomePill(o)),
@@ -3458,6 +4040,21 @@
         ...magIndex().ops.filter((o) => o.mj === state.mag).map((o) => [o.date, (magOf(o.mj) || {}).name || o.mj, o.case, o.doc, o.rr ? 'Report and recommendation' : 'Order', o.event, o.rr ? rrLabel[o.about || ''] : '',
           S.names[o.judge] || '', o.consent ? 'yes' : '', o.src === 'pacer_wo' ? 'Written Opinions Report' : 'signature block', o.pages == null ? '' : o.pages, o.title, o.pdf || ''])];
     }
+    if (which === 'mo') {
+      const M = state.mo; const sel = moSel(); const rows = moReadRows(moFilter(moBase(), M).filter(sel.test));
+      return [['Decided', 'Signed by', 'District judge of the case', 'Case', 'Doc', 'Kind of motion', 'Ruling', 'Outcome', 'Outcome source', 'Motion filed', 'Days from filing to ruling', 'Pages', 'Type of case', 'Case name', 'Link'],
+        ...rows.map((o) => [o.date, signerName(o.signer), S.names[o.judge] || '', o.case, o.doc, mcatLabel[o.mcat] || '', o.event, OUTCOMES[o.oc] || '', o.ocSrc || '', o.filed, o.days == null ? '' : o.days, o.pages == null ? '' : o.pages, caseLabel[o.grp] || '', o.title, opinionLink(o, linkKind(o))])];
+    }
+    if (which === 'mor') {
+      const M = state.mo; const dj = moFilter(moBase(), M).filter((o) => !o.mj); const win = moWindow(M);
+      const pend = d3.rollup(S.motions.filter((m) => m.kind === M.type && !m.ruled), (v) => v.length, (m) => m.judge);
+      return [['Judge', 'Written rulings', 'Known outcome', 'Granted in full', 'Granted in part', 'Denied', 'Mixed, moot, or other', 'Share granted in full', 'Share granted in full or in part', 'Share denied',
+        'Median days from filing to ruling', 'Rulings with a filing date', 'Median pages', 'Rulings with a page count', 'Years on the bench in the period', 'Written rulings per year', 'Motions awaiting a ruling now'],
+        ...judgesAlpha().map((j) => { const t = S.tally(dj.filter((o) => o.signer === j.code)); const start = later((S.opinions.find((r) => r.code === j.code) || {}).start || win[0], win[0]);
+          const years = start > win[1] ? 0 : Math.max(1 / 12, (daysBetween(start, win[1]) + 1) / 365.25); const sh = (n) => (t.known ? +(n / t.known).toFixed(4) : '');
+          return [j.name, t.n, t.known, t.granted, t.partial, t.denied, t.rest, sh(t.granted), sh(t.granted + t.partial), sh(t.denied), t.medDays == null ? '' : t.medDays, t.nDays, t.medPages == null ? '' : t.medPages, t.nPages,
+            +years.toFixed(2), years ? +(t.n / years).toFixed(2) : '', pend.get(j.code) || 0]; })];
+    }
     if (which === 'mt') {
       return [['Judge', 'Case', 'Doc', 'Motion', 'Filed', 'Submission date', 'Submission date estimated', 'Days past submission', 'Ruling found', 'Case name'],
         ...motionRows().map((m) => [S.names[m.judge] || '', m.case, m.doc, m.event, m.date, m.submit, m.subEst ? 'yes' : '', m.daysPast == null ? '' : m.daysPast, m.ruled, m.title])];
@@ -3471,7 +4068,7 @@
     // Case names and docket text come from whoever files: a value a spreadsheet would read as a formula is kept as text.
     const cell = (v) => { let s = v == null ? '' : String(v); if (typeof v === 'string' && /^[=+\-@\t\r]/.test(s)) s = "'" + s; return /[",\n\r]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s; };
     const text = csvRows(which).map((row) => row.map(cell).join(',')).join('\n');
-    const name = which === 'op' ? 'opinions' : which === 'cal' ? 'calendar' : which === 'act' ? 'activity' : which === 'mt' ? 'motions' : which === 'tr' ? 'trials' : which === 'trh' ? 'trials-closed-cases' : which === 'mg' ? 'magistrate-judges' : which === 'mgc' ? 'settlement-conferences' : which === 'mgo' ? 'magistrate-' + state.mag.toLowerCase() + '-opinions' : which === 'mj' ? 'motions-by-judge' : 'court-' + state.view;
+    const name = which === 'op' ? 'opinions' : which === 'cal' ? 'calendar' : which === 'act' ? 'activity' : which === 'mt' ? 'motions-awaiting' : which === 'mo' ? 'motions-' + state.mo.type + (state.mo.who ? '-' + state.mo.who.toLowerCase() : '') : which === 'mor' ? 'motions-' + state.mo.type + '-judges-compared' : which === 'tr' ? 'trials' : which === 'trh' ? 'trials-closed-cases' : which === 'mg' ? 'magistrate-judges' : which === 'mgc' ? 'settlement-conferences' : which === 'mgo' ? 'magistrate-' + state.mag.toLowerCase() + '-opinions' : which === 'mj' ? 'motions-by-judge' : 'court-' + state.view;
     const a = el('a', { href: URL.createObjectURL(new Blob([text + '\n'], { type: 'text/csv' })), download: `edla-${name}-${state.stats.through}.csv` });
     document.body.append(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 1000);
   }
@@ -3777,6 +4374,9 @@
     });
     magJudges().filter((j) => lc.length >= 3 && (j.name.toLowerCase().includes(lc) || j.code.toLowerCase() === lc)).slice(0, 3).forEach((j) => out.push({ kind: 'Magistrate', label: 'Magistrate Judge ' + j.name,
       sub: (j.former ? 'Former · ' : j.division ? 'Division ' + j.division + ' · ' : '') + j.code, href: magHref(j.code) }));
+    const mk = lc.length >= 3 && [['r12', /dismiss|rule 12|12\(b|12\(c|pleadings/], ['r56', /summary j|rule 56|msj/], ['discovery', /compel|discovery|quash|protective|subpoena/], ['remand', /remand/], ['limine', /limine/],
+      ['daubert', /daubert|expert/], ['arbitration', /arbitrat/], ['reconsideration', /reconsider/], ['injunction', /injunct|restraining|\btro\b/], ['stay', /^stay/], ['default', /default/], ['fees', /attorney.? fee|fees/]].filter(([, re]) => re.test(lc)).slice(0, 2);
+    (mk || []).forEach(([k]) => out.push({ kind: 'Motions', label: cap(MO_NOUN[k]), sub: 'Outcomes, time to ruling, the judges compared, and the rulings to read', href: hashFor('motions', { mo: { type: k } }) }));
     const sq = q.match(/^sec(?:tion)?\.?\s*([a-z]{1,2})$/i);
     if (sq) judgesAlpha().filter((j) => sectionOf(j.code) === sq[1].toUpperCase()).forEach((j) => out.push({ kind: 'Section', label: 'Section ' + sq[1].toUpperCase() + ' · Judge ' + j.name, sub: 'Open the judge\'s page', href: judgeHref(j.code) }));
     const cq = caseQuery(q);
@@ -3830,7 +4430,7 @@
     if (state.page !== 'case' || (state.caseSeen && state.caseSeen.id !== state.caseId)) { state.caseSeen = null; state.caseAll = false; state.caseAllDecided = false; }
     PAGES.forEach((p) => { $('page-' + p).hidden = p !== state.page; });
     document.querySelectorAll('[data-nav]').forEach((a) => {
-      const k = a.dataset.nav; a.href = hashFor(k, { f: emptyFinder(), mt: { view: 'past' } });
+      const k = a.dataset.nav; a.href = hashFor(k, { f: emptyFinder(), mo: { type: 'r12' } });
       if (NAV[state.page] === k) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current');
     });
     document.querySelectorAll('.period button').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.period === state.period)));
@@ -3843,7 +4443,7 @@
   function update() {
     if (!state.data) return;
     if (state.period !== lastPeriod) { state.stats = compute(state.data, state.period); lastPeriod = state.period; }
-    const pageKey = state.page + '/' + state.judge + '/' + (state.page === 'case' ? state.caseId : state.page === 'magistrate' ? state.mag : '');
+    const pageKey = state.page + '/' + state.judge + '/' + (state.page === 'case' ? state.caseId : state.page === 'magistrate' ? state.mag : state.page === 'motions' ? (state.mo.type === 'pending' ? 'pending' : 'type') : '');
     render();
     if (pageKey !== lastPage) { if (lastPage) window.scrollTo({ top: 0 }); lastPage = pageKey; }
     if (state.homeJump) { state.homeJump = false; if (state.page === 'judges') $('home-court').scrollIntoView(); }
@@ -3916,6 +4516,17 @@
   $('tr-judge').addEventListener('change', (e) => retrials({ judge: e.target.value }));
   $('tr-q').addEventListener('input', (e) => retrials({ q: e.target.value }));
   const remotion = (patch) => { Object.assign(state.mt, patch, { limit: 100 }); if (state.stats) { renderMotions(); writeHash(); } };
+  $('mo-who').addEventListener('change', (e) => remo({ who: e.target.value }));
+  $('mo-sub').addEventListener('change', (e) => remo({ sub: e.target.value }));
+  $('mo-grp').addEventListener('change', (e) => remo({ grp: e.target.value }));
+  $('mo-span').addEventListener('change', (e) => remo({ span: e.target.value }));
+  $('mo-rank').addEventListener('change', (e) => remo({ rank: e.target.value === 'granted' ? '' : e.target.value }));
+  $('mo-oc').addEventListener('change', (e) => remo({ oc: e.target.value }));
+  $('mo-sort').addEventListener('change', (e) => remo({ sort: e.target.value === 'new' ? '' : e.target.value }));
+  $('mo-read-more').addEventListener('click', () => remo({ limit: state.mo.limit + 50 }));
+  const moText = () => { const q = $('mo-text').value.trim(); if (q) location.hash = findHref({ ...JSON.parse($('mo-text').dataset.preset || '{}'), text: q }); };
+  $('mo-text').addEventListener('keydown', (e) => { if (e.key === 'Enter') moText(); });
+  $('mo-text-go').addEventListener('click', moText);
   $('mt-view').addEventListener('change', (e) => remotion({ view: e.target.value }));
   $('mt-judge').addEventListener('change', (e) => remotion({ judge: e.target.value }));
   $('mt-q').addEventListener('input', (e) => remotion({ q: e.target.value }));

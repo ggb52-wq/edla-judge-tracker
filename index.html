@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
-  <link rel="stylesheet" href="assets/style.css?v=2026-11-12b">
+  <link rel="stylesheet" href="assets/style.css?v=2026-11-12c">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 24 24%27%3E%3Crect width=%2724%27 height=%2724%27 rx=%275%27 fill=%27%2310151c%27/%3E%3Cg transform=%27translate(2.4 2.4) scale(.8)%27%3E%3Cpath d=%27M12 2 22.5 8h-21Z M1.5 20.5h21v2h-21Z%27 fill=%27%23e6e9ee%27/%3E%3Cpath d=%27M3.5 14h3.2v6H3.5Z M8.1 10h3.2v10H8.1Z M12.7 12.5h3.2V20h-3.2Z M17.3 11h3.2v9h-3.2Z%27 fill=%27%233987e5%27/%3E%3C/g%3E%3C/svg%3E">
 </head>
 <body data-page="judges">
@@ -19,11 +19,11 @@
     <a class="brand" href="#judges" aria-label="EDLA Analyzer home"><svg class="brand-mark" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M12 2 22.5 8h-21Z"/><rect x="1.5" y="20.5" width="21" height="2" rx=".4"/><g class="bars"><rect x="3.5" y="14" width="3.2" height="6" rx=".4"/><rect x="8.1" y="10" width="3.2" height="10" rx=".4"/><rect x="12.7" y="12.5" width="3.2" height="7.5" rx=".4"/><rect x="17.3" y="11" width="3.2" height="9" rx=".4"/></g></svg><span class="brand-name">EDLA <span>Analyzer</span></span></a>
     <nav class="nav" aria-label="Sections">
       <a href="#judges" data-nav="judges">Home</a>
+      <a href="#motions" data-nav="motions">Motions</a>
       <a href="#cases" data-nav="cases">My cases</a>
       <a href="#activity" data-nav="activity">Activity</a>
       <a href="#calendar" data-nav="calendar">Calendar</a>
       <a href="#opinions" data-nav="opinions">Opinions</a>
-      <a href="#motions" data-nav="motions">Motions</a>
       <a href="#trials" data-nav="trials">Trials</a>
       <a href="#magistrates" data-nav="magistrates">Magistrates</a>
     </nav>
@@ -55,6 +55,10 @@
         <div class="jlegend" id="hero-legend"></div>
       </div>
       <div class="chart" id="hero-chart"></div>
+    </section>
+    <section class="panel" id="home-mo" aria-labelledby="h-home-motions">
+      <div class="ph"><h2 id="h-home-motions">Rulings on motions</h2><a class="more-link" href="#motions">Every kind of motion, by judge →</a></div>
+      <div class="mtcards flush" id="home-motions"></div>
     </section>
     <div class="home">
       <div class="home-main">
@@ -713,38 +717,108 @@
   <section class="page" id="page-motions" aria-labelledby="h-motions" hidden>
     <div class="jhead">
       <div>
-        <h1 id="h-motions">Submitted motions</h1>
-        <p class="sub">Civil motions under submission with no ruling on the docket, recorded since <span id="mt-since">the site began reading the feed</span>. A date marked "est." is estimated (<a href="methodology.html#motions">how</a>).</p>
+        <h1 id="h-motions">Motions</h1>
+        <p class="sub">How the court has ruled on each kind of motion, how long the rulings took, how the district judges compare, and the rulings to read. The figures count rulings the court marked as written opinions. <a href="methodology.html#motion-practice">How we count</a></p>
       </div>
-      <div class="actions"><button type="button" class="btn" data-csv="mt">Export CSV</button></div>
     </div>
-    <div class="kpis four" id="mt-kpis"></div>
-    <section class="panel" id="mt-charts" hidden>
-      <div class="ph"><h2 id="h-mt-charts">Motions recorded from the docket feed</h2><div class="legend" id="mt-legend"></div></div>
-      <div class="trio">
-        <div><h3 id="mt-h-days">Motions filed by day <span class="n" id="mt-days-n"></span></h3><div class="chart" id="c-mt-days"></div></div>
-        <div><h3 id="mt-h-kinds">Motions by kind</h3><div id="mt-kinds"></div></div>
-        <div><h3 id="mt-h-wait">Days from filing to ruling <span class="n" id="mt-wait-n"></span></h3><div class="chart" id="c-mt-wait"></div></div>
+    <div class="mtcards" id="mo-cards" aria-label="Kinds of motion"></div>
+    <nav class="mo-more" id="mo-more" aria-label="Other kinds of motion"></nav>
+
+    <div class="stack" id="mo-type">
+      <div class="filters mo-bar" id="mo-bar">
+        <label>Decided by<select id="mo-who"></select></label>
+        <label>Motion<select id="mo-sub"></select></label>
+        <label>Type of case<select id="mo-grp"></select></label>
+        <label>Decided<select id="mo-span"></select></label>
+        <a class="btn ghost" id="mo-clear" hidden>Clear filters</a>
+        <span class="mo-bar-end"><button type="button" class="btn" data-csv="mo">Export CSV</button></span>
       </div>
-    </section>
-    <div class="filters">
-      <label>Show<select id="mt-view"><option value="past">Under submission, no ruling found</option><option value="pending">All awaiting a ruling</option><option value="all">All motions on file</option></select></label>
-      <label>Judge<select id="mt-judge"></select></label>
-      <label class="grow">Search<input id="mt-q" type="search" placeholder="Party, case number, or motion" autocomplete="off"></label>
+
+      <section class="panel" id="mo-p-oc" aria-labelledby="h-mo-oc">
+        <div class="ph"><h2 id="h-mo-oc">Outcomes of written rulings</h2><span class="count" id="mo-oc-n"></span></div>
+        <div class="mo-oc">
+          <div class="mo-oc-left" id="mo-oc-left"></div>
+          <div class="mo-oc-right"><div class="chart" id="mo-units"></div></div>
+        </div>
+      </section>
+
+      <div class="mo-grid">
+        <section class="panel" id="mo-p-time" aria-labelledby="h-mo-time">
+          <div class="ph"><h2 id="h-mo-time">Time from filing to ruling</h2><div class="legend" id="mo-time-legend"></div></div>
+          <div class="pb"><div class="chart" id="mo-time"></div><div class="facts three mo-tiles" id="mo-time-tiles"></div><p class="foot-note" id="mo-time-note"></p></div>
+        </section>
+        <section class="panel" id="mo-p-rank" aria-labelledby="h-mo-rank">
+          <div class="ph"><h2 id="h-mo-rank">District judges compared</h2><span class="count" id="mo-rank-n"></span><button type="button" class="btn sm" data-csv="mor" title="Every measure for every district judge">CSV</button></div>
+          <div class="filters pad"><label>Rank the judges by<select id="mo-rank"></select></label></div>
+          <div class="pb"><div class="rk" id="mo-rank-list"></div></div>
+        </section>
+      </div>
+
+      <div class="mo-grid">
+        <section class="panel" id="mo-p-break" aria-labelledby="h-mo-break">
+          <div class="ph"><h2 id="h-mo-break">Rulings in each group</h2></div>
+          <div class="rtabs" id="mo-break-tabs" role="tablist" aria-label="Split the rulings by"></div>
+          <div class="pb"><div id="mo-break"></div></div>
+        </section>
+        <section class="panel" id="mo-p-now" aria-labelledby="h-mo-now">
+          <div class="ph"><h2 id="h-mo-now">Motions on the docket now</h2><a class="more-link" id="mo-now-all" href="#motions/pending">All motions awaiting a ruling →</a></div>
+          <div class="pb"><div id="mo-now"></div><div class="mo-file" id="mo-file" hidden></div></div>
+        </section>
+      </div>
+
+      <section class="panel" id="mo-p-read" aria-labelledby="h-mo-read">
+        <div class="ph"><h2 id="h-mo-read">Written rulings</h2><span class="count" id="mo-count"></span><a class="more-link" id="mo-search-all" href="#opinions">Open in the opinion search →</a></div>
+        <div class="facts mo-picks" id="mo-picks" hidden></div>
+        <div class="filters pad">
+          <label>Outcome<select id="mo-oc"></select></label>
+          <label>Order<select id="mo-sort"></select></label>
+          <label class="grow">Search the text of these rulings<span class="mo-textrow"><input id="mo-text" type="search" placeholder="Words or a &quot;quoted phrase&quot;" autocomplete="off" spellcheck="false"><button type="button" class="btn" id="mo-text-go">Search</button></span></label>
+        </div>
+        <div class="scroll tall"><table class="t" id="mo-table"></table></div>
+        <button type="button" class="btn more" id="mo-read-more" hidden>Show more</button>
+      </section>
+      <details class="explain">
+        <summary>What these figures count</summary>
+        <p>The figures count rulings the court marked as written opinions since Jan. 1, 2022. A ruling by short order without that mark is not counted, and chambers differ in how often they use the mark. A ruling belongs to the judge who signed it. "Granted in full" includes a grant with leave to amend, and "denied" includes a denial without prejudice. Outcomes are read automatically from the docket text and the order; each ruling's PDF controls. A filing date is on file only for rulings since 2025, so times to ruling rest on fewer rulings than the outcomes do. <a href="methodology.html#motion-practice">How we count</a></p>
+      </details>
     </div>
-    <section class="panel">
-      <div class="ph"><h2>Motions</h2><span class="count" id="mt-count"></span></div>
-      <div class="scroll tall"><table class="t" id="mt-table"></table></div>
-      <button type="button" class="btn more" id="mt-more" hidden>Show more</button>
-    </section>
-    <section class="panel">
-      <div class="ph"><h2>Motions by judge</h2><button type="button" class="btn ghost" data-csv="mj">Export CSV</button></div>
-      <div class="scroll"><table class="t" id="mj-table"></table></div>
-    </section>
-    <details class="explain">
-      <summary>How rulings are matched</summary>
-      <p>A motion counts as ruled on once a later order in the same case names the same type of motion. A motion that was withdrawn or decided by minute entry can still show here. <a href="methodology.html#motions">How we count</a></p>
-    </details>
+
+    <div class="stack" id="mo-pending" hidden>
+      <div class="jhead">
+        <div>
+          <h2 class="h1like" id="h-mt">Motions awaiting a ruling</h2>
+          <p class="sub">Civil motions recorded from the docket feed since <span id="mt-since">the site began reading the feed</span>, with the ruling matched to each. A date marked "est." is estimated (<a href="methodology.html#motions">how</a>).</p>
+        </div>
+        <div class="actions"><button type="button" class="btn" data-csv="mt">Export CSV</button></div>
+      </div>
+      <div class="kpis four" id="mt-kpis"></div>
+      <section class="panel" id="mt-charts" hidden>
+        <div class="ph"><h2 id="h-mt-charts">Motions recorded from the docket feed</h2><div class="legend" id="mt-legend"></div></div>
+        <div class="trio">
+          <div><h3 id="mt-h-days">Motions filed by day <span class="n" id="mt-days-n"></span></h3><div class="chart" id="c-mt-days"></div></div>
+          <div><h3 id="mt-h-kinds">Motions by kind</h3><div id="mt-kinds"></div></div>
+          <div><h3 id="mt-h-wait">Days from filing to ruling <span class="n" id="mt-wait-n"></span></h3><div class="chart" id="c-mt-wait"></div></div>
+        </div>
+      </section>
+      <div class="filters">
+        <label>Show<select id="mt-view"><option value="past">Under submission, no ruling found</option><option value="pending">All awaiting a ruling</option><option value="all">All motions on file</option></select></label>
+        <label>Judge<select id="mt-judge"></select></label>
+        <label class="grow">Search<input id="mt-q" type="search" placeholder="Party, case number, or motion" autocomplete="off"></label>
+      </div>
+      <section class="panel">
+        <div class="ph"><h2>Motions</h2><span class="count" id="mt-count"></span></div>
+        <div class="scroll tall"><table class="t" id="mt-table"></table></div>
+        <button type="button" class="btn more" id="mt-more" hidden>Show more</button>
+      </section>
+      <section class="panel">
+        <div class="ph"><h2>Motions by judge</h2><button type="button" class="btn ghost" data-csv="mj">Export CSV</button></div>
+        <div class="scroll"><table class="t" id="mj-table"></table></div>
+      </section>
+      <details class="explain">
+        <summary>How rulings are matched</summary>
+        <p>A motion counts as ruled on once a later order in the same case names the same type of motion. A motion that was withdrawn or decided by minute entry can still show here. <a href="methodology.html#motions">How we count</a></p>
+      </details>
+    </div>
   </section>
 
   <!-- ============================================================ Requirements -->
@@ -766,6 +840,6 @@
 <div class="tip" id="tip" role="tooltip" hidden></div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 <script>window.d3 || document.write('<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"><\/script>'); /* cdnjs unreachable: same build from jsDelivr */</script>
-<script src="assets/app.js?v=2026-11-12b"></script>
+<script src="assets/app.js?v=2026-11-12c"></script>
 </body>
 </html>
