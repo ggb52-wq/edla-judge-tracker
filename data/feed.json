@@ -336,7 +336,7 @@
 {"at":"2026-11-12T12:54-06:00","case":"2:26-cv-00973","doc":"15","event":"Order","title":"Shelton v. United States of America","judge":"ASJ"},
 {"at":"2026-11-12T12:54-06:00","case":"2:22-cv-01271","doc":"314","event":"Order on Motion to Appear Pro Hac Vice","title":"Hutchinson-Harper, et al v. Jefferson Parish School Board, et al","judge":"DJP"},
 {"at":"2026-11-12T12:52-06:00","case":"2:22-cv-01271","doc":"313","event":"Jury Trial - Held","title":"Hutchinson-Harper, et al v. Jefferson Parish School Board, et al","judge":"DJP"},
-{"at":"2026-11-12T12:49-06:00","case":"2:26-cv-01168","doc":"34","event":"Order on Motion to Dismiss","title":"Singleton et al v. Jefferson Parish Board of Election Supervisors et al","judge":""},
+{"at":"2026-11-12T12:49-06:00","case":"2:26-cv-01168","doc":"34","event":"Order on Motion to Dismiss","title":"Singleton et al v. Jefferson Parish Board of Election Supervisors et al","judge":"SM"},
 {"at":"2026-11-12T12:48-06:00","case":"2:25-cv-01733","doc":"22","event":"Order on Motion for Leave to File","title":"Crier v. USAA Casualty Insurance  Company","judge":"JCZ"},
 {"at":"2026-11-12T12:48-06:00","case":"2:25-cv-00987","doc":"30","event":"Withdraw as Attorney","title":"Kendrick Troy Investments, LLC v. St. John The Baptist Parish Government","judge":""},
 {"at":"2026-11-12T12:46-06:00","case":"2:26-cv-01650","doc":"6","event":"~Util - Set Deadlines/Hearings","title":"AM-PM Services, Inc v. F&S Infrastructure, L.L.C. et al","judge":"JCZ"},
@@ -2739,11 +2739,5 @@
 {"at":"2026-10-30T14:54-05:00","case":"2:26-cv-02227","doc":"9","event":"Order on Motion for Extension of Time to File Response/Reply","title":"Elliott v. Sun Finance Co. LLC","judge":"LMA"},
 {"at":"2026-10-30T14:54-05:00","case":"2:24-cv-02298","doc":"126","event":"~Util - Set/Reset Hearings","title":"CMP, L.L.C. v Board of Commissioners for the Lafitte Area independent Levee District","judge":"WBV"},
 {"at":"2026-10-30T14:54-05:00","case":"2:24-cv-02298","doc":"126","event":"Pretrial Conference","title":"CMP, L.L.C. v Board of Commissioners for the Lafitte Area independent Levee District","judge":"WBV"},
-{"at":"2026-10-30T14:54-05:00","case":"2:24-cv-02298","doc":"126","event":"~Util - Terminate Motions","title":"CMP, L.L.C. v Board of Commissioners for the Lafitte Area independent Levee District","judge":"WBV"},
-{"at":"2026-10-30T14:53-05:00","case":"2:23-cv-01922","doc":"199","event":"Reply to Response to Motion","title":"Williams v. Williams et al","judge":"BSL"},
-{"at":"2026-10-30T14:52-05:00","case":"2:26-cv-02456","doc":"4","event":"Order on Motion for Leave to Proceed In Forma Pauperis","title":"Raiford v. Social Security Administration","judge":""},
-{"at":"2026-10-30T14:50-05:00","case":"2:26-cv-00949","doc":"101","event":"Order on Motion to Dismiss Party","title":"Bertucci v. Anco Insulations, Inc. et al","judge":"WBV"},
-{"at":"2026-10-30T14:46-05:00","case":"2:26-cv-00474","doc":"16","event":"Extension of Time to Answer","title":"Hammler v. Medical Transportation Management, Inc.","judge":"ILRL"},
-{"at":"2026-10-30T14:42-05:00","case":"2:26-cv-00651","doc":"65","event":"Leave to File Document","title":"Raymond v. Taylor-Seidenbach, Inc. et al","judge":""},
-{"at":"2026-10-30T14:41-05:00","case":"2:25-cv-01363","doc":"75","event":"Scheduling Order","title":"Southland Truck Leasing, LLC v. Cherokee Insurance Company et al","judge":"DJP"}
+{"at":"2026-10-30T14:54-05:00","case":"2:24-cv-02298","doc":"126","event":"~Util - Terminate Motions","title":"CMP, L.L.C. v Board of Commissioners for the Lafitte Area independent Levee District","judge":"WBV"}
 ]
