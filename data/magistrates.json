@@ -41,7 +41,8 @@
 {"case":"2:23-cv-00469","doc":"146","date":"2026-11-04","event":"Judgment","sign":"judgment"},
 {"case":"2:23-cv-06300","doc":"85","date":"2026-11-09","event":"Order Dismissing Case","sign":"dismissal"},
 {"case":"2:24-cv-02816","doc":"36","date":"2026-11-09","event":"Order Dismissing Case","sign":"dismissal"},
-{"case":"2:26-cv-00479","doc":"23","date":"2026-11-12","event":"Order Dismissing Case","sign":"dismissal"}
+{"case":"2:26-cv-00479","doc":"23","date":"2026-11-12","event":"Order Dismissing Case","sign":"dismissal"},
+{"case":"2:24-cv-02556","doc":"95","date":"2026-11-13","event":"Order Dismissing Case","sign":"dismissal"}
 ],
 "opinions":[
 {"date":"2022-01-03","mj":"JVM","case":"2:20-cv-01013","doc":"21","title":"Franklin v. Vannoy et al","event":"Report and Recommendations","rr":1,"judge":"WBV","consent":0,"src":"pacer_wo","about":"habeas"},
