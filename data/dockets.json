@@ -11888,6 +11888,137 @@
 "referred":"Michael B. North"
 },
 {
+"case":"2:21-cv-00852",
+"referred":"Michael B. North",
+"nos":"440 Civil Rights: Other",
+"cause":"42:1983 Civil Rights Act",
+"jury":"Both",
+"jurisdiction":"Federal Question",
+"filed":"2021-04-28",
+"parties":[
+"Arden Taylor, Jr.",
+"Bilal Ali-Bey",
+"Brandon Abadie",
+"Brian Lampard",
+"Bryan Bissell",
+"Bryan Lampard",
+"Damond Harris",
+"Daniel Grijalva",
+"Daniel Hiatt",
+"David DeSalvo",
+"Demond Davis",
+"Denzel Millon",
+"Devin Johnson",
+"Devin Joseph",
+"Douglas Boudreau",
+"Dylen Pazon",
+"Evan Cox",
+"Frank Vitrano",
+"Jamal Kendrick",
+"James Cunningham",
+"Jason Jorgenson",
+"Jeffrey Crouch",
+"John Cabral",
+"John Thomas",
+"Jonathan Burnette",
+"Joseph P. Lopinto, III",
+"Joshua Diaz",
+"Justin McCubbins",
+"Katharine Archer",
+"Kenneth Kuykindall",
+"Kenny Prepetit",
+"LaToya Cantrell",
+"Lamar A Davis",
+"Lamont Walker",
+"Lauren E Chustz",
+"LeJon Roberts",
+"Matthew Connolly",
+"Matthew Ezell",
+"Matthew McKoan",
+"Merlin Bush",
+"Michael Crawford",
+"Michael Devezin",
+"Michael Pierce",
+"New Orleans City",
+"Raphael Rico",
+"Remingtyn A Williams",
+"Shaun D. Ferguson",
+"Shaun Ferguson",
+"Stephen Nguyen",
+"Terrence Hilliard",
+"Todd Morrell",
+"Travis Johnson",
+"Travis Ward",
+"Troy Johnson",
+"Unidentified Parties",
+"Vinh Nguyen",
+"Wesley Humbles",
+"Zachary Vogel"
+],
+"attorneys":[
+"Ashia Crooms-Carpenter",
+"Charles Andrew Perry",
+"Churita H. Hansell",
+"Corwin St. Raymond",
+"Daniel Rault Martiny",
+"Dennis J. Phayer",
+"Donesia D. Turner",
+"Emily Mottiel Washington",
+"Erin Bridget Wheeler",
+"Gregory C. Fahrenholt",
+"Hannah Lommers-Johnson",
+"Isaka R. Williams",
+"Jahmy S. Graham",
+"James Bryan Mullaly",
+"James William Craig",
+"Jeffrey David Martiny",
+"Jennifer E Ciarrocchi",
+"Mark Daniel Macnamara",
+"Mary Catherine Biscoe-Hall",
+"Meghan K. Matt",
+"Nora Sam Ahmed",
+"Priscilla Szeto",
+"Renee E. Goudeau",
+"Sarah Whittington",
+"Sherri L. Hutton",
+"Stephanie Legros Willis",
+"Sunni Jones LeBeouf"
+],
+"firms":[
+"A C L U of Louisiana",
+"ACLU Foundation of Louisiana",
+"ACLU of Louisiana",
+"ACLU of Louisiana, Legal",
+"American Civil Liberties Union Foundation of Louisiana",
+"American Civil Liberties Union of Louisiana",
+"Burglass & Tankersley L L C",
+"Burglass & Tankersley, L.L.C.",
+"City Attorney's Office",
+"City Attorney's Office (New Orleans)",
+"City of New Orleans",
+"City of New Orleans Law Department",
+"City of New Orleans Law Deptment",
+"City of New Orleans, City Attorney",
+"Doj-Usao",
+"Gregory C. Fahrenholt",
+"Lewis Brisbois Bisgaard & Smith, LLP",
+"Litigation",
+"Martiny & Associates",
+"Murell Law",
+"Nelson Mullins Riley & Scarborough LLP",
+"Nelson Mullins Riley and Scarborough LLP",
+"Nelson Mullins Scarborough & Riley",
+"New Orleans City Attorney's Office",
+"New Orleans Parish Sheriff's Office",
+"Roderick and Solange MacArthur Justice Center",
+"Roderick and Solange MacArthur Justice Center Louisiana",
+"U. S. Attorney's Office (New Orleans)"
+],
+"docket_id":59862576,
+"judge":"DJP",
+"seen":"2026-11-12"
+},
+{
 "case":"2:21-cv-00861",
 "nos":"Insurance",
 "cause":"28:1332 Diversity-Insurance Contract",
@@ -29169,7 +29300,7 @@
 ],
 "docket_id":67618277,
 "judge":"NJB",
-"seen":"2026-11-11"
+"seen":"2026-11-12"
 },
 {
 "case":"2:23-cv-02587",
@@ -41344,7 +41475,7 @@
 ],
 "docket_id":69410620,
 "judge":"SM",
-"seen":"2026-11-07"
+"seen":"2026-11-12"
 },
 {
 "case":"2:24-cv-02748",
@@ -45007,7 +45138,7 @@
 ],
 "docket_id":69939706,
 "judge":"SM",
-"seen":"2026-11-11"
+"seen":"2026-11-12"
 },
 {
 "case":"2:25-cv-00805",
@@ -45724,7 +45855,7 @@
 ],
 "docket_id":70343329,
 "judge":"SSV",
-"seen":"2026-11-11"
+"seen":"2026-11-12"
 },
 {
 "case":"2:25-cv-01023",
@@ -51670,7 +51801,7 @@
 ],
 "docket_id":72039762,
 "judge":"SM",
-"seen":"2026-11-11"
+"seen":"2026-11-12"
 },
 {
 "case":"2:25-cv-02510",
@@ -53881,7 +54012,9 @@
 "Gueringer"
 ],
 "docket_id":73113598,
-"seen":"2026-11-10"
+"seen":"2026-11-12",
+"nos":"Civil Rights: Americans with Disabilities - Employment",
+"cause":"42:12101 Americans With Disabilities Act"
 },
 {
 "case":"2:26-cv-00674",
@@ -54845,7 +54978,7 @@
 ],
 "docket_id":73305803,
 "judge":"ASJ",
-"seen":"2026-11-03"
+"seen":"2026-11-12"
 },
 {
 "case":"2:26-cv-00984",
@@ -56322,7 +56455,7 @@
 ],
 "docket_id":73527269,
 "judge":"LMA",
-"seen":"2026-11-11"
+"seen":"2026-11-12"
 },
 {
 "case":"2:26-cv-01355",
@@ -56397,6 +56530,18 @@
 "docket_id":73540228,
 "judge":"EEF",
 "seen":"2026-11-05"
+},
+{
+"case":"2:26-cv-01369",
+"referred":"Janis Van Meerveld",
+"filed":"2026-06-25",
+"parties":[
+"Henderson",
+"Meta Platforms, Inc"
+],
+"docket_id":73538698,
+"judge":"SM",
+"seen":"2026-11-12"
 },
 {
 "case":"2:26-cv-01372",
@@ -56831,7 +56976,7 @@
 ],
 "docket_id":73589003,
 "judge":"LMA",
-"seen":"2026-11-11"
+"seen":"2026-11-12"
 },
 {
 "case":"2:26-cv-01494",
@@ -59134,7 +59279,7 @@
 "PDI Solutions, LLC"
 ],
 "docket_id":74769442,
-"seen":"2026-11-11"
+"seen":"2026-11-12"
 },
 {
 "case":"2:26-cv-02011",
@@ -59168,7 +59313,7 @@
 ],
 "docket_id":74774425,
 "judge":"ASJ",
-"seen":"2026-11-11"
+"seen":"2026-11-12"
 },
 {
 "case":"2:26-cv-02025",

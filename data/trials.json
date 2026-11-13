@@ -164,6 +164,16 @@
 "date":"2026-11-12",
 "doc":"76",
 "event":"Proposed Pretrial Order"
+},
+{
+"date":"2026-11-12",
+"doc":"78",
+"event":"Pretrial Memorandum"
+},
+{
+"date":"2026-11-12",
+"doc":"79",
+"event":"Proposed Findings of Fact & Conclusions of Law"
 }
 ],
 "held":false,
