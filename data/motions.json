@@ -973,8 +973,8 @@
 {"date":"2026-11-13","time":"14:04","judge":"","case":"2:26-cv-02404","doc":"16","title":"Hills et al v. PAC Housing Group, LLC et al","event":"Remand to State Court","submit":"","src":"rss"},
 {"date":"2026-11-13","time":"16:03","judge":"","case":"2:26-cv-02471","doc":"8","title":"Casanova et al v. American National Property and Casualty Company","event":"Substitute Attorney","submit":"","src":"rss"},
 {"date":"2026-11-13","time":"07:36","judge":"","case":"2:26-cv-02560","doc":"4","title":"Solorzano v. Crosby Tugs, L.L.C. et al","event":"Appear Pro Hac Vice","submit":"","src":"rss"},
-{"date":"2026-11-13","time":"18:01","judge":"","case":"2:26-cv-02612","doc":"2","title":"United States of America et al v. State of Louisiana et al","event":"Preliminary Injunction","submit":"","src":"rss"},
-{"date":"2026-11-13","time":"23:14","judge":"","case":"2:26-cv-02612","doc":"4","title":"United States of America et al v. State of Louisiana et al","event":"Intervene","submit":"","src":"rss"},
-{"date":"2026-11-13","time":"23:24","judge":"","case":"2:26-cv-02612","doc":"5","title":"United States of America et al v. State of Louisiana et al","event":"Intervene","submit":"","src":"rss"},
+{"date":"2026-11-13","time":"18:01","judge":"AJ","case":"2:26-cv-02612","doc":"2","title":"United States of America et al v. State of Louisiana et al","event":"Preliminary Injunction","submit":"","src":"rss"},
+{"date":"2026-11-13","time":"23:14","judge":"AJ","case":"2:26-cv-02612","doc":"4","title":"United States of America et al v. State of Louisiana et al","event":"Intervene","submit":"","src":"rss"},
+{"date":"2026-11-13","time":"23:24","judge":"AJ","case":"2:26-cv-02612","doc":"5","title":"United States of America et al v. State of Louisiana et al","event":"Intervene","submit":"","src":"rss"},
 {"date":"2026-11-14","time":"02:08","judge":"","case":"2:26-cv-02614","doc":"4","title":"State of Louisiana v. Kalshi Inc. et al","event":"Vacate","submit":"","src":"rss"}
 ]
