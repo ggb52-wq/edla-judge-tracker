@@ -4220,7 +4220,7 @@
 {"case":"2:24-cv-01663","doc":"15","outcome":"granted","src":"docket_text","at":"2026-10-21","motion_doc":"9"},
 {"case":"2:24-cv-01676","doc":"48","outcome":"moot","src":"docket_text","at":"2026-10-20","motion_doc":"34"},
 {"case":"2:24-cv-01676","doc":"54","outcome":"denied","src":"docket_text","at":"2026-10-20","motion_doc":"46"},
-{"case":"2:24-cv-01680","doc":"31","outcome":"denied","src":"docket_text","at":"2026-10-20","motion_doc":"27"},
+{"case":"2:24-cv-01680","doc":"31","outcome":"denied","src":"docket_text","at":"2026-10-20","motion_doc":"27","motion_filed":"2025-07-21"},
 {"case":"2:24-cv-01683","doc":"23","outcome":"partial","src":"docket_text","at":"2026-10-21","motion_doc":"10"},
 {"case":"2:24-cv-01683","doc":"36","outcome":"granted","src":"docket_text","at":"2026-10-20","motion_doc":"31"},
 {"case":"2:24-cv-01686","doc":"7","outcome":"granted","src":"docket_text","at":"2026-10-21","motion_doc":"6"},
