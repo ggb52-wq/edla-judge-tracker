@@ -945,6 +945,7 @@
 {"date":"2026-11-13","time":"10:13","judge":"WBV","case":"2:26-cv-00779","doc":"160","title":"Gump v. Taylor-Seidenbach, Inc. et al","event":"Continue","submit":"","src":"rss"},
 {"date":"2026-11-13","time":"14:36","judge":"WBV","case":"2:26-cv-00779","doc":"161","title":"Gump v. Taylor-Seidenbach, Inc. et al","event":"Enroll as Counsel of Record","submit":"","src":"rss"},
 {"date":"2026-11-13","time":"12:47","judge":"SM","case":"2:26-cv-00984","doc":"29","title":"IN RE: Genesis Marine, LLC","event":"Entry of Default","submit":"","src":"rss"},
+{"date":"2026-11-13","time":"17:09","judge":"","case":"2:26-cv-01057","doc":"62","title":"Florida Marine, LLC et al v. Pelican Marine Logistics, LLC et al","event":"Substitute Attorney","submit":"","src":"rss"},
 {"date":"2026-11-13","time":"11:14","judge":"","case":"2:26-cv-01102","doc":"11","title":"Young et al v. Nash","event":"Compel","submit":"","src":"rss"},
 {"date":"2026-11-13","time":"10:56","judge":"","case":"2:26-cv-01224","doc":"5","title":"United States of America v. Currency","event":"Default Judgment","submit":"","src":"rss"},
 {"date":"2026-11-13","time":"13:05","judge":"SSV","case":"2:26-cv-01494","doc":"11","title":"Torrence v. Lyft, Inc.  et al","event":"Continue","submit":"","src":"rss"},
@@ -969,5 +970,6 @@
 {"date":"2026-11-13","time":"14:02","judge":"","case":"2:26-cv-02399","doc":"23","title":"Hills et al v. PAC Housing Group, LLC et al","event":"Remand to State Court","submit":"","src":"rss"},
 {"date":"2026-11-13","time":"14:04","judge":"","case":"2:26-cv-02404","doc":"16","title":"Hills et al v. PAC Housing Group, LLC et al","event":"Remand to State Court","submit":"","src":"rss"},
 {"date":"2026-11-13","time":"16:03","judge":"","case":"2:26-cv-02471","doc":"8","title":"Casanova et al v. American National Property and Casualty Company","event":"Substitute Attorney","submit":"","src":"rss"},
-{"date":"2026-11-13","time":"07:36","judge":"","case":"2:26-cv-02560","doc":"4","title":"Solorzano v. Crosby Tugs, L.L.C. et al","event":"Appear Pro Hac Vice","submit":"","src":"rss"}
+{"date":"2026-11-13","time":"07:36","judge":"","case":"2:26-cv-02560","doc":"4","title":"Solorzano v. Crosby Tugs, L.L.C. et al","event":"Appear Pro Hac Vice","submit":"","src":"rss"},
+{"date":"2026-11-13","time":"18:01","judge":"","case":"2:26-cv-02612","doc":"2","title":"United States of America et al v. State of Louisiana et al","event":"Preliminary Injunction","submit":"","src":"rss"}
 ]
