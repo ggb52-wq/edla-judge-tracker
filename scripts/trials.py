@@ -338,11 +338,11 @@ def build(old: dict, *, hearings: list[dict], entries: list[dict], opinions: lis
     sets: dict[str, list[dict]] = {}
     for h in hearings:
         case = h.get("case", "")
-        if not _civil(case) or not is_trial_proceeding(h.get("what", "")):
+        if not _civil(case) or not is_trial_proceeding(h.get("what", "")) or h.get("cancelled"):
             continue
         if h.get("src") == "court_calendar":
             cal.setdefault(case, []).append(h)
-        elif h.get("date", "") >= today:
+        elif h.get("src") == "docket_text" and h.get("date", "") >= today:   # a minute entry records a day held, never a setting
             sets.setdefault(case, []).append(h)
 
     held_cases = {e["case"] for e in entries if _civil(e.get("case", "")) and (HELD_RE.search(e.get("event", "")) or VERDICT_RE.search(e.get("event", "")))}

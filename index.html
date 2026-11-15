@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
-  <link rel="stylesheet" href="assets/style.css?v=2026-11-13a">
+  <link rel="stylesheet" href="assets/style.css?v=2026-11-15a">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 24 24%27%3E%3Crect width=%2724%27 height=%2724%27 rx=%275%27 fill=%27%2310151c%27/%3E%3Cg transform=%27translate(2.4 2.4) scale(.8)%27%3E%3Cpath d=%27M12 2 22.5 8h-21Z M1.5 20.5h21v2h-21Z%27 fill=%27%23e6e9ee%27/%3E%3Cpath d=%27M3.5 14h3.2v6H3.5Z M8.1 10h3.2v10H8.1Z M12.7 12.5h3.2V20h-3.2Z M17.3 11h3.2v9h-3.2Z%27 fill=%27%233987e5%27/%3E%3C/g%3E%3C/svg%3E">
 </head>
 <body data-page="judges">
@@ -459,29 +459,41 @@
     <div class="jhead">
       <div>
         <h1 id="h-calendar">Calendar</h1>
-        <p class="sub">Trials, hearings, and conferences by judge, from the court's calendar and the docket.</p>
+        <p class="sub">Civil trials, hearings, and conferences by day, with each section's motion submission dates.</p>
       </div>
       <div class="actions"><button type="button" class="btn" data-csv="cal">Export CSV</button></div>
     </div>
-    <div class="filters cal-controls">
-      <div class="stepper" role="group" aria-label="Week">
-        <a class="btn icon" id="cal-prev" aria-label="Previous week" title="Previous week">‹</a>
-        <a class="btn" id="cal-today">This week</a>
-        <a class="btn icon" id="cal-next" aria-label="Next week" title="Next week">›</a>
+    <div class="cal-bar">
+      <div class="stepper" role="group" aria-label="Move the calendar">
+        <a class="btn icon" id="cal-prev" aria-label="Previous month" title="Previous month">‹</a>
+        <a class="btn" id="cal-today">Today</a>
+        <a class="btn icon" id="cal-next" aria-label="Next month" title="Next month">›</a>
       </div>
-      <span class="cal-range" id="cal-range"></span>
-      <label>Judge<select id="cal-judge"></select></label>
-      <div class="seg" id="cal-view" role="group" aria-label="View"><button type="button" data-v="week">Week</button><button type="button" data-v="list">List</button></div>
-      <label class="check"><input type="checkbox" id="cal-subs"> Motion submissions</label>
+      <h2 class="cal-title" id="cal-title" aria-live="polite"></h2>
+      <div class="filters">
+        <label>Judge<select id="cal-judge"></select></label>
+        <div class="seg" id="cal-view" role="group" aria-label="View"><button type="button" data-v="month">Month</button><button type="button" data-v="week">Week</button><button type="button" data-v="list">List</button></div>
+      </div>
     </div>
-    <div class="legend cal-legend" id="cal-legend"></div>
-    <section class="panel">
-      <div class="scroll" id="cal-week-wrap"><table class="t cal" id="cal-week"></table></div>
-      <ol class="cal-list big" id="cal-list" hidden></ol>
-    </section>
-    <section class="panel">
-      <div class="ph"><h2>Settings without a date</h2><span class="count" id="cal-pending-count"></span></div>
-      <div class="pb tight"><p class="cap">These docket entries set a hearing or conference but do not state the date in the feed. The date appears here once the docket text is read.</p></div>
+    <p class="cal-finding" id="cal-finding"></p>
+    <div class="cal-cats" id="cal-cats" role="group" aria-label="Kinds of entry shown"></div>
+    <div class="cal-layout" id="cal-layout">
+      <section class="panel cal-main" aria-labelledby="cal-title">
+        <div id="cal-grid-wrap">
+          <div class="cal-dow" aria-hidden="true"><span>Sun</span><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span></div>
+          <div class="cal-grid month" id="cal-grid" role="grid" aria-label="Calendar"></div>
+        </div>
+        <ol class="cal-events agenda" id="cal-agenda" hidden></ol>
+      </section>
+      <aside class="panel cal-day" id="cal-day" aria-labelledby="cal-day-title">
+        <div class="ph"><h2 id="cal-day-title"></h2><span class="count" id="cal-day-count"></span></div>
+        <ol class="cal-events" id="cal-day-list" aria-live="polite"></ol>
+      </aside>
+    </div>
+    <p class="foot-note" id="cal-note"></p>
+    <section class="panel" id="cal-pending-panel" aria-labelledby="h-cal-pending">
+      <div class="ph"><h2 id="h-cal-pending">Docket entries setting a proceeding</h2></div>
+      <div class="pb tight"><p class="cap">The court's feed names each docket entry. The feed does not state the date the entry sets. The proceeding appears on the calendar when the court's calendar or the docket text supplies the date.</p></div>
       <ol class="act compact withjudge" id="cal-pending"></ol>
     </section>
     <section class="panel" hidden>
@@ -489,7 +501,6 @@
       <div class="scroll"><table class="t" id="cal-subtable"></table></div>
       <p class="foot-note pad" id="cal-sub-note"></p>
     </section>
-    <p class="foot-note" id="cal-note"></p>
   </section>
 
   <!-- ============================================================ Opinions -->
@@ -856,6 +867,6 @@
 <div class="tip" id="tip" role="tooltip" hidden></div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 <script>window.d3 || document.write('<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"><\/script>'); /* cdnjs unreachable: same build from jsDelivr */</script>
-<script src="assets/app.js?v=2026-11-13a"></script>
+<script src="assets/app.js?v=2026-11-15a"></script>
 </body>
 </html>

@@ -434,12 +434,15 @@ def save_case_activity(obj: dict) -> None:
 
 
 def update_hearings(old: list[dict], cl_entries: dict, case_judge: dict, judges: list[dict], rows: list[dict],
-                    now: dt.datetime, note: list[str]) -> list[dict]:
-    """data/hearings.json for the Calendar page: the court's seven-day calendar (one small page, read every pass) and
-    proceedings set in the docket text CourtListener returned this run (no extra calls)."""
+                    now: dt.datetime, note: list[str], feed: list[dict] | None = None) -> list[dict]:
+    """data/hearings.json for the Calendar page: the court's seven-day calendar (one small page, read every pass),
+    proceedings set in the docket text CourtListener returned this run (no extra calls), and minute entries in the
+    feed (`feed`: case, doc, event, title, date, time) that name a proceeding held."""
     today = now.date()
+    old = [x for r in old for x in hearings.resplit(r)]   # rows written before the calendar was read one matter at a time
     try:
-        cal_rows, cal_dates = hearings.parse_court_calendar(http_get(hearings.CALENDAR_URL).decode("utf-8", "replace"), judges)
+        cal_rows, cal_dates = hearings.parse_court_calendar(http_get(hearings.CALENDAR_URL).decode("utf-8", "replace"), judges,
+                                                            [j for j in magistrates.ROSTER if not j.get("former")])
         note.append(f"court calendar {len(cal_rows)} proceedings over {len(cal_dates)} days")
     except Exception as e:  # noqa: BLE001 - keep the last copy when the court's site is down
         cal_rows, cal_dates = [], []
@@ -450,8 +453,17 @@ def update_hearings(old: list[dict], cl_entries: dict, case_judge: dict, judges:
         m = re.match(r"\d:(\d\d)-cv-0*(\d+)$", r.get("case", ""))
         if m:
             short.setdefault(f"{m.group(1)}-{m.group(2)}", r["case"])
-    for r in cal_rows:
-        r["case"] = "" if hearings.is_criminal(r.get("text", "")) else short.get(r["case_short"], "")
+    for c in case_judge:
+        m = re.match(r"\d:(\d\d)-cv-0*(\d+)$", c)
+        if m:
+            short.setdefault(f"{m.group(1)}-{m.group(2)}", c)
+    held_rows = []
+    for f in feed or []:
+        what = hearings.held_event(f.get("event", ""))
+        if what and f.get("case") and f.get("doc") and f.get("date"):
+            held_rows.append({"date": f["date"], "time": "", "entered": f.get("time", ""), "judge": case_judge.get(f["case"], ""),
+                              "case": f["case"], "doc": str(f["doc"]), "title": f.get("title", ""), "what": what,
+                              "src": "minute_entry", "seen": today.isoformat()})
     docket_rows = []
     for (case, doc), e in cl_entries.items():
         if e.get("kind") != "cv" or not e.get("text"):
@@ -461,7 +473,10 @@ def update_hearings(old: list[dict], cl_entries: dict, case_judge: dict, judges:
                                 "title": e.get("title", ""), "text": e["text"][:300], "src": "docket_text", "seen": today.isoformat()})
     if docket_rows:
         note.append(f"{len(docket_rows)} proceedings set in docket text")
-    merged = hearings.merge(old, cal_rows, cal_dates, docket_rows, today)
+    merged = hearings.merge(old, cal_rows, cal_dates, docket_rows, today, held_rows)
+    for r in merged:
+        if r.get("src") == "court_calendar" and r.get("v") == 2:   # each pass, so a case or judge learned later is used
+            r["case"] = hearings.civil_case(r, short, case_judge)
     for r in merged:  # judges learned since the row was written
         if not r.get("judge") and case_judge.get(r.get("case", "")):
             r["judge"] = case_judge[r["case"]]
@@ -1085,7 +1100,10 @@ def main() -> int:
             court_info.save_json(DATA / f"{name}.json", new)
     # The calendar too, before the run log is written, so its notes ("court calendar N proceedings ...") are in it.
     hearing_rows = update_hearings(load("hearings") if (DATA / "hearings.json").exists() else [], cl_entries, case_judge,
-                                   judges, orders + opinions + motions, now, note)
+                                   judges, orders + opinions + motions, now, note,
+                                   feed=[{"case": i["case"], "doc": i["doc"], "event": i["event"], "title": i["title"],
+                                          "date": i["when"].date().isoformat(), "time": i["when"].strftime("%H:%M")}
+                                         for i in rss_civil + saved_feed if i.get("case") and i.get("when")])
     # Trade secret and noncompete cases, from the docket details, docket text, motions, and opinion text on file.
     feed_rows = [{"case": i["case"], "doc": i["doc"], "event": i["event"], "title": i["title"],
                   "date": i["when"].date().isoformat() if i["when"] else today} for i in rss_civil + saved_feed if i.get("case")]
