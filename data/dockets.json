@@ -62230,11 +62230,25 @@
 "filed":"2026-11-13",
 "parties":[
 "Atlantic Asphalt MV",
-"Board of Commissioners of the Port of New Orleans"
+"Board of Commissioners of the Port of New Orleans",
+"Nave Shipping SA",
+"Thome Ship Management Pte Ltd"
 ],
 "docket_id":75118743,
 "judge":"WBV",
-"seen":"2026-11-14"
+"seen":"2026-11-14",
+"nos":"340 Marine",
+"cause":"28:1333 Property Damage",
+"jury":"None",
+"jurisdiction":"Federal Question",
+"attorneys":[
+"Abigail Jean Weiland",
+"Christopher Matthew Hannan",
+"Sara Barry Kuebel"
+],
+"firms":[
+"Jones Walker LLP"
+]
 },
 {
 "case":"2:26-cv-02612",
