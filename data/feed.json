@@ -1,4 +1,6 @@
 [
+{"at":"2026-11-16T08:09-06:00","case":"2:24-cv-02298","doc":"136","event":"Order on Motion in Limine","title":"CMP, L.L.C. v Board of Commissioners for the Lafitte Area independent Levee District","judge":"WBV"},
+{"at":"2026-11-16T08:06-06:00","case":"2:24-cv-02298","doc":"135","event":"Status Conference","title":"CMP, L.L.C. v Board of Commissioners for the Lafitte Area independent Levee District","judge":"WBV"},
 {"at":"2026-11-15T23:50-06:00","case":"2:26-cv-01710","doc":"18","event":"Continue","title":"Knieper v. United States of America","judge":"EEF"},
 {"at":"2026-11-15T22:47-06:00","case":"2:25-cv-01294","doc":"32","event":"Witness List","title":"Givens v. Lafourche Parish Government","judge":"JVM"},
 {"at":"2026-11-15T22:46-06:00","case":"2:25-cv-01294","doc":"31","event":"Exhibit List","title":"Givens v. Lafourche Parish Government","judge":"JVM"},
@@ -2776,8 +2778,5 @@
 {"at":"2026-11-02T09:01-06:00","case":"2:25-cv-01013","doc":"50","event":"Terminate Hearings","title":"Sears v. LHC Group, Inc.","judge":"JCZ"},
 {"at":"2026-11-02T08:58-06:00","case":"2:25-cv-02444","doc":"28","event":"Leave to File Document","title":"Russell et al v. Knight McHenry et al","judge":"SM"},
 {"at":"2026-11-02T08:32-06:00","case":"2:21-cv-00457","doc":"113","event":"Reply to Response to Motion","title":"Strickland v. Slidell et al","judge":"ASJ"},
-{"at":"2026-11-02T08:22-06:00","case":"2:26-cv-02500","doc":"6","event":"Substitute","title":"In the Matter of STK Line S.A., as Owner, and Eagle Ship Management Co., Ltd., as Operator and Manager, of the M/V TSUNOMINE BULKER, Petitioning for Exoneration from and/or Limitation of Liability","judge":"JCZ"},
-{"at":"2026-11-02T08:14-06:00","case":"2:24-cv-00871","doc":"706","event":"Dismiss Party","title":"Constanza et al v. Sparta Insurance Company et al","judge":"NJB"},
-{"at":"2026-11-02T08:11-06:00","case":"2:21-cv-01855","doc":"170","event":"Expedite","title":"Nevarez v. Coleman et al","judge":"DJP"},
-{"at":"2026-11-02T08:11-06:00","case":"2:21-cv-01855","doc":"170","event":"Miscellaneous Relief","title":"Nevarez v. Coleman et al","judge":"DJP"}
+{"at":"2026-11-02T08:22-06:00","case":"2:26-cv-02500","doc":"6","event":"Substitute","title":"In the Matter of STK Line S.A., as Owner, and Eagle Ship Management Co., Ltd., as Operator and Manager, of the M/V TSUNOMINE BULKER, Petitioning for Exoneration from and/or Limitation of Liability","judge":"JCZ"}
 ]
