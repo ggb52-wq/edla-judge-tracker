@@ -1,4 +1,8 @@
 [
+{"at":"2026-11-16T09:12-06:00","case":"2:26-cv-01110","doc":"28","event":"Response/Memorandum in Opposition to Motion","title":"Carr v. Louis Armstrong New Orleans International Airport Authority et al","judge":"JCZ"},
+{"at":"2026-11-16T09:11-06:00","case":"2:25-cv-01355","doc":"284","event":"Dismiss Party","title":"Landix v. Taylor Seidenbach, Inc. et al","judge":"BSL"},
+{"at":"2026-11-16T09:00-06:00","case":"2:22-cv-04007","doc":"282","event":"Reply to Response to Motion","title":"Lewis v. Friedman et al","judge":"DJP"},
+{"at":"2026-11-16T08:23-06:00","case":"2:26-cv-00935","doc":"20","event":"Continue","title":"Saunier-Howes v. Department of Veterans Affairs","judge":"BWA"},
 {"at":"2026-11-16T08:09-06:00","case":"2:24-cv-02298","doc":"136","event":"Order on Motion in Limine","title":"CMP, L.L.C. v Board of Commissioners for the Lafitte Area independent Levee District","judge":"WBV"},
 {"at":"2026-11-16T08:06-06:00","case":"2:24-cv-02298","doc":"135","event":"Status Conference","title":"CMP, L.L.C. v Board of Commissioners for the Lafitte Area independent Levee District","judge":"WBV"},
 {"at":"2026-11-15T23:50-06:00","case":"2:26-cv-01710","doc":"18","event":"Continue","title":"Knieper v. United States of America","judge":"EEF"},
@@ -2764,12 +2768,5 @@
 {"at":"2026-11-02T09:35-06:00","case":"2:25-cv-01534","doc":"46","event":"Order on Motion to Substitute Attorney","title":"Brun v. Revivalists, LLC et al","judge":"JCZ"},
 {"at":"2026-11-02T09:29-06:00","case":"2:18-cv-05242","doc":"","event":"Correction of Docket Entry by Clerk","title":"Jefferson Parish, et al v. Equitable Petroleum Corporation, et al","judge":"EEF"},
 {"at":"2026-11-02T09:28-06:00","case":"2:26-cv-01942","doc":"6","event":"Answer to Complaint","title":"Douglass v. Social Security Administration","judge":""},
-{"at":"2026-11-02T09:25-06:00","case":"2:26-cv-01400","doc":"20","event":"Leave to File Document","title":"Fosselman v. Sazerac Company Inc","judge":"WJC"},
-{"at":"2026-11-02T09:18-06:00","case":"2:26-cv-00599","doc":"6","event":"Dismiss Case","title":"LaPorte, A Professional Accounting Corporation v. Inflo Group Limited","judge":"CJB"},
-{"at":"2026-11-02T09:14-06:00","case":"2:26-cv-01929","doc":"34","event":"Extension of Time to Answer","title":"Bunch v. IDscan.net, Inc.","judge":"WBV"},
-{"at":"2026-11-02T09:12-06:00","case":"2:26-cv-01478","doc":"32","event":"Response/Memorandum in Opposition to Motion","title":"Stubbs v. SMK Business Center, LLC et al","judge":"ASJ"},
-{"at":"2026-11-02T09:11-06:00","case":"2:26-cv-01381","doc":"18","event":"Summons Returned Executed","title":"Morehouse v. Carollo et al","judge":"LMA"},
-{"at":"2026-11-02T09:10-06:00","case":"2:26-cv-01023","doc":"15","event":"Notice (Other)","title":"Houser et al v. State Farm Fire and Casualty Company","judge":"SSV"},
-{"at":"2026-11-02T09:09-06:00","case":"2:16-cv-10920","doc":"","event":"Correction of Docket Entry by Clerk","title":"Williams v. Vannoy et al","judge":"NJB"},
-{"at":"2026-11-02T09:07-06:00","case":"2:23-cv-01723","doc":"","event":"Correction of Docket Entry by Clerk","title":"United States Fire Insurance Company v. Brown  et al","judge":"BSL"}
+{"at":"2026-11-02T09:25-06:00","case":"2:26-cv-01400","doc":"20","event":"Leave to File Document","title":"Fosselman v. Sazerac Company Inc","judge":"WJC"}
 ]
