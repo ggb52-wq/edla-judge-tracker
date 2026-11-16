@@ -116,6 +116,21 @@
 "date":"2026-11-13",
 "doc":"315",
 "event":"Jury Trial - Held"
+},
+{
+"date":"2026-11-16",
+"doc":"317",
+"event":"Jury Trial - Completed"
+},
+{
+"date":"2026-11-16",
+"doc":"318",
+"event":"Jury Verdict Form"
+},
+{
+"date":"2026-11-16",
+"doc":"319",
+"event":"Trial Exhibit List"
 }
 ],
 "held":true,
