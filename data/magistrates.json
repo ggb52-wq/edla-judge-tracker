@@ -32,6 +32,7 @@
 {"case":"2:25-cv-01440","doc":"47","date":"2026-11-16","title":"McDowell v. Carter","judge":"","mj":"","reset":false},
 {"case":"2:25-cv-02078","doc":"60","date":"2026-11-16","title":"Rouyer v. Jones, et al","judge":"BWA","mj":"JVM","reset":false},
 {"case":"2:22-cv-01923","doc":"131","date":"2026-11-17","title":"Grandpre v. Gusman et al","judge":"","mj":"EJD","reset":false},
+{"case":"2:24-cv-00688","doc":"196","date":"2026-11-17","title":"Angers v. Franco et al","judge":"BSL","mj":"DPC","reset":false},
 {"case":"2:26-cv-00378","doc":"15","date":"2026-11-17","title":"Faulder v. Christian Shane Development LLC, et al","judge":"EEF","mj":"MBN","reset":false}
 ],
 "signs":[
@@ -51,6 +52,7 @@
 {"case":"2:25-cv-02332","doc":"36","date":"2026-11-13","event":"Judgment - Consent AND ~Util - Terminate Motions","sign":"judgment"},
 {"case":"2:25-cv-02078","doc":"59","date":"2026-11-16","event":"Order Dismissing Case","sign":"dismissal"},
 {"case":"2:26-cv-00215","doc":"37","date":"2026-11-16","event":"Order Dismissing Case","sign":"dismissal"},
+{"case":"2:25-cv-02172","doc":"56","date":"2026-11-17","event":"Order Dismissing Case","sign":"dismissal"},
 {"case":"2:25-cv-02332","doc":"37","date":"2026-11-17","event":"Judgment","sign":"judgment"}
 ],
 "opinions":[
