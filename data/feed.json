@@ -1,4 +1,19 @@
 [
+{"at":"2026-11-17T13:09-06:00","case":"2:25-cv-00779","doc":"64","event":"Response/Memorandum in Opposition to Motion","title":"Williams et al v. Venture Global Plaquemines, LLC et al","judge":"NJB"},
+{"at":"2026-11-17T13:07-06:00","case":"2:26-cv-01175","doc":"26","event":"Response/Memorandum in Opposition to Motion","title":"Johnson v. Delaware North Companies Inc. et al","judge":"CJB"},
+{"at":"2026-11-17T13:04-06:00","case":"2:26-cv-02632","doc":"2","event":"Notice of Removal","title":"Sampson et al v. State Farm Fire and Casualty Company","judge":""},
+{"at":"2026-11-17T13:02-06:00","case":"2:26-cv-02482","doc":"31","event":"Enroll as Counsel of Record","title":"QCX LLC v. Murrill et al","judge":"LMA"},
+{"at":"2026-11-17T13:00-06:00","case":"2:26-cv-02628","doc":"","event":"Initial Case Assignment","title":"LabMar Inland, LLC v. Genesis Marine, LLC of Delaware","judge":""},
+{"at":"2026-11-17T12:56-06:00","case":"2:26-cv-01929","doc":"62","event":"Appear Pro Hac Vice","title":"Bunch v. IDscan.net, Inc.","judge":"WBV"},
+{"at":"2026-11-17T12:55-06:00","case":"2:26-cv-01576","doc":"13","event":"Scheduling Order","title":"Sierra v. United States of America","judge":"EEF"},
+{"at":"2026-11-17T12:53-06:00","case":"2:25-cv-00243","doc":"","event":"Text Order","title":"Sullivan v. Crosby et al","judge":"BSL"},
+{"at":"2026-11-17T12:47-06:00","case":"2:26-cv-02555","doc":"12","event":"Seizure Warrant Returned Executed","title":"Island Oil Ltd. v. Hadeel MV","judge":""},
+{"at":"2026-11-17T12:43-06:00","case":"2:26-cv-02563","doc":"14","event":"Seizure Warrant Returned Executed","title":"Bulk Trading S.A. v. HANSON BULK PTE. LTD.","judge":"LMA"},
+{"at":"2026-11-17T12:42-06:00","case":"2:25-cv-00429","doc":"74","event":"Continue","title":"Curry  et al v. Chemtrans Taurus M/V et al","judge":"WBV"},
+{"at":"2026-11-17T12:38-06:00","case":"2:26-cv-02510","doc":"9","event":"Appoint Counsel","title":"Patterson v. Dominic-Chenier et al","judge":"EEF"},
+{"at":"2026-11-17T12:33-06:00","case":"2:26-cv-00468","doc":"20","event":"Order on Motion for Extension of Deadlines","title":"Kudr v. Zenith Logistics LLC, et al","judge":"NJB"},
+{"at":"2026-11-17T12:27-06:00","case":"2:25-cv-01042","doc":"54","event":"Proposed Pretrial Order","title":"McLemore v. Bogalusa City School District et al","judge":"WBV"},
+{"at":"2026-11-17T12:19-06:00","case":"2:26-cv-01744","doc":"10","event":"Dismiss","title":"O.B. v. Jefferson Parish School Board","judge":"NJB"},
 {"at":"2026-11-17T12:18-06:00","case":"2:26-cv-02632","doc":"1","event":"Statement of Corporate Disclosure","title":"Sampson et al v. State Farm Fire and Casualty Company","judge":""},
 {"at":"2026-11-17T12:12-06:00","case":"2:26-cv-01670","doc":"7","event":"Order on Motion for Extension of Deadlines","title":"Richardson v. United States of America","judge":""},
 {"at":"2026-11-17T12:12-06:00","case":"2:26-cv-01224","doc":"7","event":"Default Judgment","title":"United States of America v. Currency","judge":""},
@@ -2767,11 +2782,5 @@
 {"at":"2026-11-03T13:36-06:00","case":"2:26-cv-00949","doc":"106","event":"Answer to Complaint","title":"Bertucci v. Anco Insulations, Inc. et al","judge":"WBV"},
 {"at":"2026-11-03T13:35-06:00","case":"2:26-cv-00368","doc":"49","event":"Enroll as Counsel of Record","title":"Taylor et al v. Southern University and Agricultural and Mechanical College Board of Supervisors","judge":"SM"},
 {"at":"2026-11-03T13:33-06:00","case":"2:26-cv-02525","doc":"5","event":"Notice (Other)","title":"Gourrier et al v. Progressive Paloverde Insurance Company","judge":""},
-{"at":"2026-11-03T13:30-06:00","case":"2:26-cv-02525","doc":"4","event":"Statement of Corporate Disclosure","title":"Gourrier et al v. Progressive Paloverde Insurance Company","judge":""},
-{"at":"2026-11-03T13:28-06:00","case":"2:26-cv-01013","doc":"15","event":"Attorney Fees","title":"Langlois v. Social Security Administration","judge":"ILRL"},
-{"at":"2026-11-03T13:24-06:00","case":"2:26-cv-00949","doc":"105","event":"Answer to Amended Complaint","title":"Bertucci v. Anco Insulations, Inc. et al","judge":"WBV"},
-{"at":"2026-11-03T13:22-06:00","case":"2:26-cv-02526","doc":"2","event":"Statement of Corporate Disclosure","title":"Dvir v. New Orleans Police Department et al","judge":"JTM"},
-{"at":"2026-11-03T13:22-06:00","case":"2:26-cv-02458","doc":"7","event":"Waiver of Service Executed","title":"Audubon Resources, LLC v. KEG Medical, LLC et al","judge":""},
-{"at":"2026-11-03T13:16-06:00","case":"2:26-cv-02415","doc":"6","event":"Notice of Compliance","title":"Humphrey et al v. Charlymar Transport LLC et al","judge":""},
-{"at":"2026-11-03T13:15-06:00","case":"2:26-cv-00949","doc":"104","event":"Answer to Amended Complaint","title":"Bertucci v. Anco Insulations, Inc. et al","judge":"WBV"}
+{"at":"2026-11-03T13:30-06:00","case":"2:26-cv-02525","doc":"4","event":"Statement of Corporate Disclosure","title":"Gourrier et al v. Progressive Paloverde Insurance Company","judge":""}
 ]
