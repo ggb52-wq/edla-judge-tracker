@@ -310,6 +310,23 @@
 ],
 "held":false,
 "first_seen":"2026-11-10"
+},
+{
+"case":"2:26-cv-00647",
+"title":"Cockerham v. City of New Orleans et al",
+"judge":"CJB",
+"kind":"jury",
+"days":[],
+"set_for":[
+{
+"date":"2027-11-01",
+"time":"08:30",
+"what":"Jury Trial"
+}
+],
+"events":[],
+"held":false,
+"first_seen":"2026-11-16"
 }
 ],
 "decisions":[
