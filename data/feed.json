@@ -2807,10 +2807,5 @@
 {"at":"2026-11-03T12:04-06:00","case":"2:24-cv-02866","doc":"82","event":"~Util - Set/Reset Hearings","title":"Cerdes et al v. United States of America","judge":"EEF"},
 {"at":"2026-11-03T12:04-06:00","case":"2:24-cv-02866","doc":"82","event":"Terminate Hearings","title":"Cerdes et al v. United States of America","judge":"EEF"},
 {"at":"2026-11-03T12:04-06:00","case":"2:24-cv-02866","doc":"82","event":"Order","title":"Cerdes et al v. United States of America","judge":"EEF"},
-{"at":"2026-11-03T12:03-06:00","case":"2:25-cv-01355","doc":"204","event":"Dismiss Party","title":"Landix v. Taylor Seidenbach, Inc. et al","judge":"BSL"},
-{"at":"2026-11-03T11:58-06:00","case":"2:18-cv-05215","doc":"88","event":"Order on Motion to Enroll as Counsel of Record","title":"Plaquemines Parish v. Exchange Oil & Gas Corporation et al","judge":"EEF"},
-{"at":"2026-11-03T11:52-06:00","case":"2:24-cv-00871","doc":"711","event":"Order Dismissing Case","title":"Constanza et al v. Sparta Insurance Company et al","judge":"NJB"},
-{"at":"2026-11-03T11:49-06:00","case":"2:26-cv-02518","doc":"4","event":"Order","title":"ElementUS Minerals LLC v. Atalco Gramercy LLC","judge":""},
-{"at":"2026-11-03T11:49-06:00","case":"2:26-cv-00569","doc":"28","event":"Answer to Third Party Complaint","title":"Alexander v. Chet Morrison Contractors, LLC","judge":"BSL"},
-{"at":"2026-11-03T11:46-06:00","case":"2:24-cv-00871","doc":"710","event":"Order on Motion to Dismiss Party","title":"Constanza et al v. Sparta Insurance Company et al","judge":"NJB"}
+{"at":"2026-11-03T12:03-06:00","case":"2:25-cv-01355","doc":"204","event":"Dismiss Party","title":"Landix v. Taylor Seidenbach, Inc. et al","judge":"BSL"}
 ]
