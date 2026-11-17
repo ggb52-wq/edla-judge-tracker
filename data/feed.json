@@ -2748,15 +2748,5 @@
 {"at":"2026-11-03T16:20-06:00","case":"2:21-cv-01855","doc":"173","event":"~Util - Terminate Motions","title":"Nevarez v. Coleman et al","judge":"DJP"},
 {"at":"2026-11-03T16:20-06:00","case":"2:21-cv-01855","doc":"173","event":"~Util - Set/Reset Scheduling Order Deadlines","title":"Nevarez v. Coleman et al","judge":"DJP"},
 {"at":"2026-11-03T16:20-06:00","case":"2:21-cv-01855","doc":"173","event":"Order","title":"Nevarez v. Coleman et al","judge":"DJP"},
-{"at":"2026-11-03T16:18-06:00","case":"2:25-cv-01398","doc":"41","event":"Dismiss/Failure to State a Claim/FRCP12(b)(6)","title":"Inclusive Louisiana et al v. FG LA LLC","judge":"CJB"},
-{"at":"2026-11-03T16:11-06:00","case":"2:26-cv-01779","doc":"10","event":"Notice of Voluntary Dismissal","title":"Larsen v. United States of America","judge":"JCZ"},
-{"at":"2026-11-03T16:10-06:00","case":"2:26-cv-02256","doc":"3","event":"Petition for Writ of Habeas Corpus (28:2254)","title":"Parr v. Woodfork et al","judge":"NJB"},
-{"at":"2026-11-03T16:10-06:00","case":"2:26-cv-01675","doc":"8","event":"Answer to Complaint","title":"Buck Kreihs Marine Repair, LLC v. Boa Marine, LLC et al","judge":"LMA"},
-{"at":"2026-11-03T16:10-06:00","case":"2:26-cv-00733","doc":"16","event":"Miscellaneous Relief","title":"Gremillion et al v. Depuy Synthes Sales, Inc., et al","judge":"EEF"},
-{"at":"2026-11-03T16:07-06:00","case":"2:26-cv-01556","doc":"3","event":"Order Dismissing Case","title":"Abair v. Modesens, Inc. et al","judge":"SSV"},
-{"at":"2026-11-03T16:05-06:00","case":"2:25-cv-02005","doc":"54","event":"Expedite","title":"Allen v. W&T Offshore Inc et al","judge":"JTM"},
-{"at":"2026-11-03T16:01-06:00","case":"2:25-cv-02005","doc":"53","event":"Leave to File Document","title":"Allen v. W&T Offshore Inc et al","judge":"JTM"},
-{"at":"2026-11-03T16:01-06:00","case":"2:25-cv-02005","doc":"53","event":"Strike","title":"Allen v. W&T Offshore Inc et al","judge":"JTM"},
-{"at":"2026-11-03T16:00-06:00","case":"2:26-cv-01793","doc":"","event":"Correction of Docket Entry by Clerk","title":"Continental Republic Capital, LLC v. TriSmart Solar LLC et al","judge":"AJ"},
-{"at":"2026-11-03T15:58-06:00","case":"2:26-cv-00733","doc":"15","event":"Seal Document","title":"Gremillion et al v. Depuy Synthes Sales, Inc., et al","judge":"EEF"}
+{"at":"2026-11-03T16:18-06:00","case":"2:25-cv-01398","doc":"41","event":"Dismiss/Failure to State a Claim/FRCP12(b)(6)","title":"Inclusive Louisiana et al v. FG LA LLC","judge":"CJB"}
 ]
