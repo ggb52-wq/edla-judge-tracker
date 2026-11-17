@@ -50,7 +50,8 @@
 {"case":"2:25-cv-02332","doc":"36","date":"2026-11-13","event":"Judgment - Consent","sign":"judgment"},
 {"case":"2:25-cv-02332","doc":"36","date":"2026-11-13","event":"Judgment - Consent AND ~Util - Terminate Motions","sign":"judgment"},
 {"case":"2:25-cv-02078","doc":"59","date":"2026-11-16","event":"Order Dismissing Case","sign":"dismissal"},
-{"case":"2:26-cv-00215","doc":"37","date":"2026-11-16","event":"Order Dismissing Case","sign":"dismissal"}
+{"case":"2:26-cv-00215","doc":"37","date":"2026-11-16","event":"Order Dismissing Case","sign":"dismissal"},
+{"case":"2:25-cv-02332","doc":"37","date":"2026-11-17","event":"Judgment","sign":"judgment"}
 ],
 "opinions":[
 {"date":"2022-01-03","mj":"JVM","case":"2:20-cv-01013","doc":"21","title":"Franklin v. Vannoy et al","event":"Report and Recommendations","rr":1,"judge":"WBV","consent":0,"src":"pacer_wo","about":"habeas"},
@@ -1886,5 +1887,6 @@
 {"date":"2026-11-06","mj":"KWR","case":"2:25-cv-02234","doc":"36","title":"Volter v. James Marine Hahnville, LLC et al","event":"Order on Motion to Compel Physical Examination of Plaintiff Pursuant","rr":0,"judge":"EEF","consent":0,"src":"opinion_text"},
 {"date":"2026-11-09","mj":"EJD","case":"2:26-cv-02129","doc":"21","title":"Hambrick v. Walgreen Co.","event":"Order on Motion for Leave to File Second Amended Complaint","rr":0,"judge":"BWA","consent":0,"src":"opinion_text"},
 {"date":"2026-11-12","mj":"KWR","case":"2:25-cv-02286","doc":"104","title":"Ferrier v. CP Marine Services, LLC et al","event":"Order on Motion to Compel","rr":0,"judge":"JCZ","consent":0,"src":"opinion_text"},
-{"date":"2026-11-13","mj":"KWR","case":"2:26-cv-01273","doc":"13","title":"Lu v. Five Happiness, Inc.","event":"Order on Motion to Set Aside Entry of Default","rr":0,"judge":"BWA","consent":0,"src":"opinion_text"}
+{"date":"2026-11-13","mj":"KWR","case":"2:26-cv-01273","doc":"13","title":"Lu v. Five Happiness, Inc.","event":"Order on Motion to Set Aside Entry of Default","rr":0,"judge":"BWA","consent":0,"src":"opinion_text"},
+{"date":"2026-11-16","mj":"KWR","case":"2:26-cv-01304","doc":"12","title":"Faulstich v. Take 5 LLC et al","event":"Order on Motion for Leave to File First Supplemental and","rr":0,"judge":"GGG","consent":0,"src":"opinion_text"}
 ]}
