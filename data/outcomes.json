@@ -4642,7 +4642,7 @@
 {"case":"2:25-cv-00124","doc":"43","outcome":"granted","src":"docket_text","at":"2026-10-20","motion_doc":"19","motion_filed":"2025-06-05"},
 {"case":"2:25-cv-00125","doc":"17","outcome":"denied","src":"docket_text","at":"2026-10-20","motion_doc":"10"},
 {"case":"2:25-cv-00128","doc":"10","outcome":"denied","src":"docket_text","at":"2026-10-20","motion_doc":"7"},
-{"case":"2:25-cv-00144","doc":"24","outcome":"denied","src":"docket_text","at":"2026-10-20","motion_doc":"18"},
+{"case":"2:25-cv-00144","doc":"24","outcome":"denied","src":"docket_text","at":"2026-10-20","motion_doc":"18","motion_filed":"2025-06-04"},
 {"case":"2:25-cv-00145","doc":"54","outcome":"granted","src":"govinfo_text","at":"2026-10-19","motion_doc":""},
 {"case":"2:25-cv-00145","doc":"55","outcome":"partial","src":"docket_text","at":"2026-10-21","motion_doc":"35","motion_filed":"2026-01-20"},
 {"case":"2:25-cv-00145","doc":"56","outcome":"moot","src":"govinfo_text","at":"2026-10-19","motion_doc":"40","motion_filed":"2026-02-02"},
