@@ -1052,5 +1052,8 @@
 {"date":"2026-11-16","time":"12:21","judge":"LMA","case":"2:26-cv-02614","doc":"18","title":"Louisiana State v. Kalshi Inc. et al","event":"Remand","submit":"","src":"rss"},
 {"date":"2026-11-16","time":"16:28","judge":"LMA","case":"2:26-cv-02614","doc":"22","title":"Louisiana State v. Kalshi Inc. et al","event":"Appear Pro Hac Vice","submit":"","src":"rss"},
 {"date":"2026-11-16","time":"16:30","judge":"LMA","case":"2:26-cv-02614","doc":"23","title":"Louisiana State v. Kalshi Inc. et al","event":"Appear Pro Hac Vice","submit":"","src":"rss"},
-{"date":"2026-11-17","time":"08:14","judge":"DJP","case":"2:25-cv-02250","doc":"17","title":"Smith v. Hancock Whitney Bank","event":"Sanctions","submit":"","src":"rss"}
+{"date":"2026-11-17","time":"08:43","judge":"BSL","case":"2:25-cv-01355","doc":"286","title":"Landix v. Taylor Seidenbach, Inc. et al","event":"Dismiss Party","submit":"","src":"rss"},
+{"date":"2026-11-17","time":"08:44","judge":"BSL","case":"2:25-cv-01355","doc":"287","title":"Landix v. Taylor Seidenbach, Inc. et al","event":"Dismiss Party","submit":"","src":"rss"},
+{"date":"2026-11-17","time":"08:14","judge":"DJP","case":"2:25-cv-02250","doc":"17","title":"Smith v. Hancock Whitney Bank","event":"Sanctions","submit":"","src":"rss"},
+{"date":"2026-11-17","time":"09:13","judge":"","case":"2:26-cv-02618","doc":"2","title":"Singleton v. Day et al","event":"Quash","submit":"","src":"rss"}
 ]

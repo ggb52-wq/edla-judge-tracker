@@ -1,4 +1,20 @@
 [
+{"at":"2026-11-17T09:17-06:00","case":"2:25-cv-02172","doc":"55","event":"Pretrial Conference","title":"Bowlsbey et al v. Dover Bay Specialty Insurance Company","judge":"ILRL"},
+{"at":"2026-11-17T09:14-06:00","case":"2:25-cv-01233","doc":"46","event":"Scheduling Order","title":"Morrison et al v. Louisiana State Department of Children Family Services et al","judge":"JTM"},
+{"at":"2026-11-17T09:13-06:00","case":"2:26-cv-02618","doc":"2","event":"Quash","title":"Singleton v. Day et al","judge":""},
+{"at":"2026-11-17T09:13-06:00","case":"2:26-cv-00756","doc":"","event":"Correction of Docket Entry by Clerk","title":"Denham v. Bheema Hospitality LLC d/b/a Hampton Inn, Metairie","judge":"WBV"},
+{"at":"2026-11-17T09:08-06:00","case":"2:26-cv-02623","doc":"","event":"Initial Case Assignment","title":"Hartman v. Orleans Parish District Attorney's Office","judge":""},
+{"at":"2026-11-17T09:08-06:00","case":"2:26-cv-02618","doc":"1","event":"Petition for Writ of Habeas Corpus (28:2254)","title":"Singleton v. Day et al","judge":""},
+{"at":"2026-11-17T09:01-06:00","case":"2:26-cv-02625","doc":"3","event":"Summons Submitted for Issuance","title":"Scottsdale Insurance Company v. NOLA Sprays, LLC d/b/a Stoneview Construction et al","judge":""},
+{"at":"2026-11-17T09:01-06:00","case":"2:20-cv-00980","doc":"","event":"Correction of Docket Entry by Clerk","title":"Baqer et al v. St. Tammany Parish Government et al","judge":"DJP"},
+{"at":"2026-11-17T08:58-06:00","case":"2:26-cv-02625","doc":"2","event":"Summons Submitted for Issuance","title":"Scottsdale Insurance Company v. NOLA Sprays, LLC d/b/a Stoneview Construction et al","judge":""},
+{"at":"2026-11-17T08:50-06:00","case":"2:26-cv-02482","doc":"26","event":"Notice (Other)","title":"QCX LLC v. Murrill et al","judge":"LMA"},
+{"at":"2026-11-17T08:49-06:00","case":"2:22-cv-03490","doc":"148","event":"Status Conference","title":"Upper Room Bible Church, Inc. v. Sedgwick Delegated Authority et al","judge":"LMA"},
+{"at":"2026-11-17T08:46-06:00","case":"2:26-cv-01631","doc":"12","event":"Order on Motion for Extension of Time to File","title":"King v. Social Security Administration","judge":""},
+{"at":"2026-11-17T08:44-06:00","case":"2:26-cv-00378","doc":"15","event":"Settlement Conference","title":"Faulder v. Christian Shane Development LLC, et al","judge":"EEF"},
+{"at":"2026-11-17T08:44-06:00","case":"2:25-cv-01355","doc":"287","event":"Dismiss Party","title":"Landix v. Taylor Seidenbach, Inc. et al","judge":"BSL"},
+{"at":"2026-11-17T08:43-06:00","case":"2:25-cv-01355","doc":"286","event":"Dismiss Party","title":"Landix v. Taylor Seidenbach, Inc. et al","judge":"BSL"},
+{"at":"2026-11-17T08:37-06:00","case":"2:25-cv-02398","doc":"48","event":"Order","title":"JRK Residential Group, Inc.  v. Sevilla","judge":"JTM"},
 {"at":"2026-11-17T08:14-06:00","case":"2:25-cv-02250","doc":"17","event":"Sanctions","title":"Smith v. Hancock Whitney Bank","judge":"DJP"},
 {"at":"2026-11-16T23:53-06:00","case":"2:26-cv-02482","doc":"25","event":"Memorandum","title":"QCX LLC v. Murrill et al","judge":"LMA"},
 {"at":"2026-11-16T23:34-06:00","case":"2:26-cv-02482","doc":"24","event":"File Excess Pages","title":"QCX LLC v. Murrill et al","judge":"LMA"},
@@ -27,6 +43,7 @@
 {"at":"2026-11-16T17:07-06:00","case":"2:26-cv-00289","doc":"60","event":"Pretrial Memorandum","title":"Jones v. W&T Offshore Inc et al","judge":"LMA"},
 {"at":"2026-11-16T17:05-06:00","case":"2:18-cv-05240","doc":"91","event":"Enroll as Counsel of Record","title":"Plaquemines Parish v. Apache Oil Corporation et al","judge":"CJB"},
 {"at":"2026-11-16T17:02-06:00","case":"2:26-cv-00756","doc":"20","event":"Extension of Time to File Response/Reply","title":"Denham v. Bheema Hospitality LLC d/b/a Hampton Inn, Metairie","judge":"WBV"},
+{"at":"2026-11-16T17:02-06:00","case":"2:26-cv-00756","doc":"20","event":"Leave to File Document","title":"Denham v. Bheema Hospitality LLC d/b/a Hampton Inn, Metairie","judge":"WBV"},
 {"at":"2026-11-16T17:01-06:00","case":"2:26-cv-02482","doc":"22","event":"Order","title":"QCX LLC v. Murrill et al","judge":"LMA"},
 {"at":"2026-11-16T17:00-06:00","case":"2:26-cv-00947","doc":"","event":"Correction of Docket Entry by Clerk","title":"Gaudin et al v. National Railroad Passenger Corporation (Amtrak)","judge":"NJB"},
 {"at":"2026-11-16T17:00-06:00","case":"2:18-cv-05260","doc":"72","event":"Enroll as Counsel of Record","title":"Plaquemines Parish v. Helis Oil & Gas Company, LLC et al","judge":"ILRL"},
@@ -2787,6 +2804,5 @@
 {"at":"2026-11-03T09:27-06:00","case":"2:24-cv-02435","doc":"253","event":"Dismiss Party","title":"Roderick v. Taylor-Seidenbach, Inc. et al","judge":"GGG"},
 {"at":"2026-11-03T09:25-06:00","case":"2:26-cv-01519","doc":"11","event":"Continue","title":"Ton v. J Sercovich LLC et al","judge":"GGG"},
 {"at":"2026-11-03T09:21-06:00","case":"2:18-cv-05240","doc":"87","event":"Order on Motion to Dismiss Party","title":"Plaquemines Parish v. Apache Oil Corporation et al","judge":"CJB"},
-{"at":"2026-11-03T09:18-06:00","case":"2:26-cv-02430","doc":"","event":"Correction of Docket Entry by Clerk","title":"Benjamin v. Vyndiuk et al","judge":"JTM"},
-{"at":"2026-11-03T09:12-06:00","case":"2:24-cv-02746","doc":"","event":"Correction of Docket Entry by Clerk","title":"Britt et al v. Old Dominion Freight Line, Inc. et al","judge":"SM"}
+{"at":"2026-11-03T09:18-06:00","case":"2:26-cv-02430","doc":"","event":"Correction of Docket Entry by Clerk","title":"Benjamin v. Vyndiuk et al","judge":"JTM"}
 ]
