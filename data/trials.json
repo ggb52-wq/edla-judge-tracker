@@ -306,9 +306,14 @@
 "date":"2026-11-06",
 "doc":"131",
 "event":"Proposed Jury Verdict Form"
+},
+{
+"date":"2026-11-17",
+"doc":"137",
+"event":"Jury Trial - Begun"
 }
 ],
-"held":false,
+"held":true,
 "first_seen":"2026-11-10"
 },
 {
