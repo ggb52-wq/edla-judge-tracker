@@ -3439,5 +3439,7 @@
 {"date":"2026-11-16","time":"17:01","judge":"LMA","case":"2:26-cv-02482","doc":"22","title":"QCX LLC v. Murrill et al","event":"Order","src":"rss"},
 {"date":"2026-11-16","time":"17:10","judge":"","case":"2:26-cv-01849","doc":"14","title":"Jenkins v. U.S. Xpress","event":"Order AND Set Hearings","src":"courtlistener"},
 {"date":"2026-11-17","time":"08:37","judge":"JTM","case":"2:25-cv-02398","doc":"48","title":"JRK Residential Group, Inc.  v. Sevilla","event":"Order","src":"rss"},
-{"date":"2026-11-17","time":"09:14","judge":"JTM","case":"2:25-cv-01233","doc":"46","title":"Morrison et al v. Louisiana State Department of Children Family Servic","event":"Scheduling Order","src":"rss"}
+{"date":"2026-11-17","time":"08:46","judge":"","case":"2:26-cv-01631","doc":"12","title":"King v. Social Security Administration","event":"Order on Motion for Extension of Time to File","src":"courtlistener"},
+{"date":"2026-11-17","time":"09:14","judge":"JTM","case":"2:25-cv-01233","doc":"46","title":"Morrison et al v. Louisiana State Department of Children Family Servic","event":"Scheduling Order","src":"rss"},
+{"date":"2026-11-17","time":"10:18","judge":"","case":"2:26-cv-01517","doc":"21","title":"Baack v. Hoist & Crane Service Group, Inc.","event":"Order on Motion to Appear Pro Hac Vice","src":"courtlistener"}
 ]
