@@ -2760,13 +2760,5 @@
 {"at":"2026-11-04T12:16-06:00","case":"2:18-cv-05227","doc":"87","event":"Set Hearings","title":"Plaquemines Parish v. Great Southern Oil & Gas Co., Inc., et al","judge":"EEF"},
 {"at":"2026-11-04T12:16-06:00","case":"2:18-cv-05227","doc":"87","event":"Status Conference","title":"Plaquemines Parish v. Great Southern Oil & Gas Co., Inc., et al","judge":"EEF"},
 {"at":"2026-11-04T12:16-06:00","case":"2:18-cv-05227","doc":"87","event":"~Util - Set/Clear Flags","title":"Plaquemines Parish v. Great Southern Oil & Gas Co., Inc., et al","judge":"EEF"},
-{"at":"2026-11-04T12:14-06:00","case":"2:26-cv-01205","doc":"41","event":"Order Transferring Case","title":"Delacroix Corporation v. Apache Corporation et al","judge":"BSL"},
-{"at":"2026-11-04T12:12-06:00","case":"2:25-cv-01891","doc":"17","event":"Continue","title":"Baker v. Cryogenics Freight, LLC et al","judge":"CJB"},
-{"at":"2026-11-04T12:12-06:00","case":"2:18-cv-05215","doc":"91","event":"~Util - Set/Clear Flags","title":"Plaquemines Parish v. Exchange Oil & Gas Corporation et al","judge":"EEF"},
-{"at":"2026-11-04T12:12-06:00","case":"2:18-cv-05215","doc":"91","event":"Status Conference","title":"Plaquemines Parish v. Exchange Oil & Gas Corporation et al","judge":"EEF"},
-{"at":"2026-11-04T12:12-06:00","case":"2:18-cv-05215","doc":"91","event":"Set Hearings","title":"Plaquemines Parish v. Exchange Oil & Gas Corporation et al","judge":"EEF"},
-{"at":"2026-11-04T12:08-06:00","case":"2:25-cv-01447","doc":"62","event":"Intervenor Complaint","title":"Seals et al v. GulfMark Americas, Inc. et al","judge":"JTM"},
-{"at":"2026-11-04T12:06-06:00","case":"2:26-cv-02476","doc":"6","event":"Stipulation","title":"Erhabor-Emokpae v. Cargill, Inc.","judge":""},
-{"at":"2026-11-04T12:01-06:00","case":"2:25-cv-02268","doc":"18","event":"Continue","title":"Harris et al v. United States of America","judge":"SSV"},
-{"at":"2026-11-04T12:01-06:00","case":"2:24-cv-00836","doc":"64","event":"Stipulation of Dismissal","title":"Lee et al v. R&R Home Care, Inc. et al","judge":"SM"}
+{"at":"2026-11-04T12:14-06:00","case":"2:26-cv-01205","doc":"41","event":"Order Transferring Case","title":"Delacroix Corporation v. Apache Corporation et al","judge":"BSL"}
 ]
