@@ -1,4 +1,8 @@
 [
+{"at":"2026-11-17T19:59-06:00","case":"2:20-cv-00980","doc":"526","event":"Response/Memorandum in Opposition to Motion","title":"Baqer et al v. St. Tammany Parish Government et al","judge":"DJP"},
+{"at":"2026-11-17T19:53-06:00","case":"2:26-cv-00756","doc":"22","event":"Response to Motion","title":"Denham v. Bheema Hospitality LLC d/b/a Hampton Inn, Metairie","judge":"WBV"},
+{"at":"2026-11-17T19:50-06:00","case":"2:26-cv-00247","doc":"30","event":"Leave to File Document","title":"Caldwell v. Einstein Charter School","judge":"JTM"},
+{"at":"2026-11-17T19:22-06:00","case":"2:26-cv-02613","doc":"4","event":"Extension of Time to Answer","title":"Wilson v. Avion Hospitality LLC","judge":""},
 {"at":"2026-11-17T18:50-06:00","case":"2:26-cv-01665","doc":"14","event":"Answer to Amended Complaint","title":"Campos v. Prime Ocean Personnel Services, LLC et al","judge":"CJB"},
 {"at":"2026-11-17T18:38-06:00","case":"2:25-cv-01398","doc":"42","event":"Response/Memorandum in Opposition to Motion","title":"Inclusive Louisiana et al v. FG LA LLC","judge":"CJB"},
 {"at":"2026-11-17T18:12-06:00","case":"2:26-cv-00713","doc":"32","event":"Response/Memorandum in Opposition to Motion","title":"Rodriguez v. New Orleans Public Belt Railroad Commission for the Port of New Orleans","judge":"LMA"},
@@ -2821,7 +2825,5 @@
 {"at":"2026-11-03T21:31-06:00","case":"2:26-cv-01472","doc":"18","event":"Strike","title":"Desjardins v. RTB Digital Inc et al","judge":"BSL"},
 {"at":"2026-11-03T21:31-06:00","case":"2:26-cv-01472","doc":"18","event":"Dismiss/Failure to State a Claim/FRCP12(b)(6)","title":"Desjardins v. RTB Digital Inc et al","judge":"BSL"},
 {"at":"2026-11-03T20:27-06:00","case":"2:26-cv-01472","doc":"17","event":"Dismiss/Failure to State a Claim/FRCP12(b)(6)","title":"Desjardins v. RTB Digital Inc et al","judge":"BSL"},
-{"at":"2026-11-03T20:27-06:00","case":"2:26-cv-01472","doc":"17","event":"Dismiss/Lack of Jurisdiction","title":"Desjardins v. RTB Digital Inc et al","judge":"BSL"},
-{"at":"2026-11-03T20:18-06:00","case":"2:25-cv-02105","doc":"27","event":"Request/Statement of Oral Argument","title":"Norfolk Southern Railway Company v. Associated Terminals of St. Bernard, LLC","judge":"WBV"},
-{"at":"2026-11-03T20:12-06:00","case":"2:25-cv-01152","doc":"60","event":"Miscellaneous Relief","title":"Hancock Whitney Bank v. MOF-Willows, LLC","judge":"JCZ"}
+{"at":"2026-11-03T20:27-06:00","case":"2:26-cv-01472","doc":"17","event":"Dismiss/Lack of Jurisdiction","title":"Desjardins v. RTB Digital Inc et al","judge":"BSL"}
 ]
