@@ -2832,16 +2832,5 @@
 {"at":"2026-11-04T17:05-06:00","case":"2:26-cv-00733","doc":"19","event":"~Util - Set/Reset Hearings","title":"Gremillion et al v. Depuy Synthes Sales, Inc., et al","judge":"EEF"},
 {"at":"2026-11-04T17:05-06:00","case":"2:26-cv-00733","doc":"19","event":"Terminate Hearings","title":"Gremillion et al v. Depuy Synthes Sales, Inc., et al","judge":"EEF"},
 {"at":"2026-11-04T17:05-06:00","case":"2:26-cv-00733","doc":"19","event":"Order","title":"Gremillion et al v. Depuy Synthes Sales, Inc., et al","judge":"EEF"},
-{"at":"2026-11-04T16:58-06:00","case":"2:26-cv-02038","doc":"11","event":"Intervenor Complaint","title":"Couvillion et al v. Smith et al","judge":"EEF"},
-{"at":"2026-11-04T16:52-06:00","case":"2:26-cv-02038","doc":"10","event":"Order on Motion for Leave to File","title":"Couvillion et al v. Smith et al","judge":"EEF"},
-{"at":"2026-11-04T16:51-06:00","case":"2:26-cv-01929","doc":"43","event":"Status Conference","title":"Bunch v. IDscan.net, Inc.","judge":"WBV"},
-{"at":"2026-11-04T16:51-06:00","case":"2:26-cv-01929","doc":"43","event":"Order on Motion for Extension of Time to Answer","title":"Bunch v. IDscan.net, Inc.","judge":"WBV"},
-{"at":"2026-11-04T16:49-06:00","case":"2:26-cv-01238","doc":"17","event":"Terminate Hearings","title":"Brown v. Bricolage Academy et al","judge":"WJC"},
-{"at":"2026-11-04T16:49-06:00","case":"2:26-cv-01238","doc":"17","event":"Order","title":"Brown v. Bricolage Academy et al","judge":"WJC"},
-{"at":"2026-11-04T16:49-06:00","case":"2:06-cv-10751","doc":"221","event":"Set Hearings","title":"Corner et al v. Housing Authority of New Orleans et al","judge":""},
-{"at":"2026-11-04T16:49-06:00","case":"2:06-cv-10751","doc":"221","event":"Status Conference","title":"Corner et al v. Housing Authority of New Orleans et al","judge":""},
-{"at":"2026-11-04T16:47-06:00","case":"2:25-cv-02467","doc":"16","event":"Continue","title":"Thompson v. Octopus Towing, LLC","judge":"EEF"},
-{"at":"2026-11-04T16:47-06:00","case":"2:18-cv-05242","doc":"96","event":"Order on Motion to Enroll as Counsel of Record","title":"Jefferson Parish, et al v. Equitable Petroleum Corporation, et al","judge":"EEF"},
-{"at":"2026-11-04T16:46-06:00","case":"2:26-cv-01013","doc":"16","event":"Order on Motion for Attorney Fees","title":"Langlois v. Social Security Administration","judge":"ILRL"},
-{"at":"2026-11-04T16:44-06:00","case":"2:25-cv-00711","doc":"31","event":"Settlement Conference","title":"Kropog v. Walmart Inc.","judge":""}
+{"at":"2026-11-04T16:58-06:00","case":"2:26-cv-02038","doc":"11","event":"Intervenor Complaint","title":"Couvillion et al v. Smith et al","judge":"EEF"}
 ]
