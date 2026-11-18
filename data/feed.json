@@ -2818,16 +2818,5 @@
 {"at":"2026-11-04T15:24-06:00","case":"2:26-cv-02256","doc":"4","event":"Habeas Corpus Response Order","title":"Parr v. Woodfork et al","judge":"NJB"},
 {"at":"2026-11-04T15:23-06:00","case":"2:26-cv-02526","doc":"7","event":"Order of Recusal","title":"Dvir v. New Orleans Police Department et al","judge":"JTM"},
 {"at":"2026-11-04T15:19-06:00","case":"2:25-cv-00156","doc":"30","event":"Withdraw as Attorney","title":"Bey v. On-Site Concrete Solutions, LLC.","judge":"DJP"},
-{"at":"2026-11-04T15:17-06:00","case":"2:23-cv-00469","doc":"146","event":"Judgment","title":"Smith v. Oceaneering Mobile Workforce LLC et al","judge":"CJB"},
-{"at":"2026-11-04T15:11-06:00","case":"2:26-cv-01282","doc":"12","event":"Continue","title":"Crockerham v. Penske Logistics LLC","judge":""},
-{"at":"2026-11-04T15:10-06:00","case":"2:25-cv-02172","doc":"47","event":"Order on Motion in Limine","title":"Bowlsbey et al v. Dover Bay Specialty Insurance Company","judge":"ILRL"},
-{"at":"2026-11-04T15:10-06:00","case":"2:25-cv-02172","doc":"47","event":"Order on Motion for Partial Summary Judgment","title":"Bowlsbey et al v. Dover Bay Specialty Insurance Company","judge":"ILRL"},
-{"at":"2026-11-04T15:10-06:00","case":"2:25-cv-02172","doc":"47","event":"Order on Motion for Sanctions","title":"Bowlsbey et al v. Dover Bay Specialty Insurance Company","judge":"ILRL"},
-{"at":"2026-11-04T15:04-06:00","case":"2:25-cv-01021","doc":"19","event":"Reopen Case","title":"Huamanchumo v. Edison Chouest Offshore","judge":"SSV"},
-{"at":"2026-11-04T15:04-06:00","case":"2:25-cv-01021","doc":"19","event":"Set Aside Judgment","title":"Huamanchumo v. Edison Chouest Offshore","judge":"SSV"},
-{"at":"2026-11-04T15:04-06:00","case":"2:25-cv-01021","doc":"19","event":"Miscellaneous Relief","title":"Huamanchumo v. Edison Chouest Offshore","judge":"SSV"},
-{"at":"2026-11-04T15:02-06:00","case":"2:25-cv-02332","doc":"31","event":"Order","title":"Ghost City Tours of Georgia, LLC v. US Ghost Adventures, LLC et al","judge":"SSV"},
-{"at":"2026-11-04T15:01-06:00","case":"2:26-cv-02549","doc":"1","event":"Complaint","title":"Landry v. Hyundai Motor America Corporation","judge":""},
-{"at":"2026-11-04T15:00-06:00","case":"2:22-cv-03490","doc":"144","event":"Set Hearings","title":"Upper Room Bible Church, Inc. v. Sedgwick Delegated Authority et al","judge":"LMA"},
-{"at":"2026-11-04T15:00-06:00","case":"2:22-cv-03490","doc":"144","event":"Order","title":"Upper Room Bible Church, Inc. v. Sedgwick Delegated Authority et al","judge":"LMA"}
+{"at":"2026-11-04T15:17-06:00","case":"2:23-cv-00469","doc":"146","event":"Judgment","title":"Smith v. Oceaneering Mobile Workforce LLC et al","judge":"CJB"}
 ]
