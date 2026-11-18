@@ -3549,5 +3549,10 @@
 {"date":"2026-11-18","time":"09:42","judge":"BSL","case":"2:25-cv-01355","doc":"292","title":"Landix v. Taylor Seidenbach, Inc.","event":"Order on Motion to Dismiss","src":"courtlistener"},
 {"date":"2026-11-18","time":"09:56","judge":"LMA","case":"2:26-cv-02632","doc":"4","title":"Sampson v. State Farm Fire and Casualty Company","event":"Order","src":"courtlistener"},
 {"date":"2026-11-18","time":"10:12","judge":"BSL","case":"2:26-cv-00911","doc":"17","title":"Young v. First 72+","event":"Order AND ~Util - Set/Reset Hearings","src":"courtlistener"},
-{"date":"2026-11-18","time":"10:17","judge":"SM","case":"2:26-cv-02086","doc":"8","title":"Ridley v. General Motors LLC","event":"Scheduling Order","src":"courtlistener"}
+{"date":"2026-11-18","time":"10:17","judge":"SM","case":"2:26-cv-02086","doc":"8","title":"Ridley v. General Motors LLC","event":"Scheduling Order","src":"courtlistener"},
+{"date":"2026-11-18","time":"10:36","judge":"WJC","case":"2:25-cv-00424","doc":"63","title":"Ohio Casualty Insurance Company v. Ryder & Ryder, Ltd. et al","event":"Order","src":"rss"},
+{"date":"2026-11-18","time":"10:43","judge":"ASJ","case":"2:25-cv-01099","doc":"47","title":"Landry, et al v. Orleans Parish Communication District","event":"Order","src":"rss"},
+{"date":"2026-11-18","time":"10:46","judge":"SSV","case":"2:26-cv-01157","doc":"16","title":"Progressive Paloverde Insurance Company v. Moffatt, et al","event":"Scheduling Order","src":"rss"},
+{"date":"2026-11-18","time":"10:48","judge":"ASJ","case":"2:26-cv-01771","doc":"23","title":"Robinson v. Hammond City","event":"Order","src":"rss"},
+{"date":"2026-11-18","time":"10:55","judge":"SM","case":"2:26-cv-01477","doc":"11","title":"Little  v. Pedal Valves, Inc.","event":"Scheduling Order","src":"rss"}
 ]
