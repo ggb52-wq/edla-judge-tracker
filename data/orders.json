@@ -3520,6 +3520,7 @@
 {"date":"2026-11-17","time":"16:18","judge":"EEF","case":"2:26-cv-01475","doc":"16","title":"Wilson v. Southwest Airlines Co.","event":"Order","src":"rss"},
 {"date":"2026-11-17","time":"16:27","judge":"SM","case":"2:25-cv-00501","doc":"59","title":"Clanton v. Wright Medical Technology, Inc.","event":"Terminate Hearings","src":"rss"},
 {"date":"2026-11-17","time":"16:30","judge":"EEF","case":"2:26-cv-02581","doc":"8","title":"Dantzler v. United States Department of Justice et al","event":"Order","src":"rss"},
+{"date":"2026-11-17","time":"16:32","judge":"BSL","case":"2:24-cv-02818","doc":"316","title":"Zeringue v. Taylor Seidenbach, Inc.","event":"Order on Motion to Dismiss Party","src":"courtlistener"},
 {"date":"2026-11-17","time":"16:32","judge":"ILRL","case":"2:26-cv-01412","doc":"68","title":"Olmstead v. Huntington Ingalls Incorporated","event":"Order on Motion to Dismiss Party","src":"courtlistener"},
 {"date":"2026-11-17","time":"16:34","judge":"WBV","case":"2:25-cv-02517","doc":"30","title":"Whitehead v. Holliday Sand & Gravel Company, Inc.","event":"Order on Motion to Dismiss Case","src":"courtlistener"},
 {"date":"2026-11-17","time":"16:35","judge":"SM","case":"2:26-cv-00552","doc":"27","title":"Thomas v. Greyhound Lines, Inc.","event":"Order on Motion for Leave to File","src":"courtlistener"},
@@ -3538,5 +3539,15 @@
 {"date":"2026-11-17","time":"17:10","judge":"","case":"2:26-cv-02471","doc":"10","title":"Casanova v. American National Property and Casualty Company","event":"Order AND Set Hearings","src":"courtlistener"},
 {"date":"2026-11-17","time":"17:18","judge":"","case":"2:26-cv-00319","doc":"27","title":"Peck v. Walmart, Inc.","event":"Scheduling Order","src":"courtlistener"},
 {"date":"2026-11-17","time":"17:21","judge":"ILRL","case":"2:23-cv-01773","doc":"139","title":"Neyland et al  v. Hutson et al","event":"Scheduling Order","src":"rss"},
-{"date":"2026-11-17","time":"17:31","judge":"","case":"2:26-cv-00884","doc":"19","title":"Valenti v. Elionord","event":"Order on Motion to Continue","src":"courtlistener"}
+{"date":"2026-11-17","time":"17:31","judge":"","case":"2:26-cv-00884","doc":"19","title":"Valenti v. Elionord","event":"Order on Motion to Continue","src":"courtlistener"},
+{"date":"2026-11-18","time":"08:54","judge":"BSL","case":"2:25-cv-01355","doc":"290","title":"Landix v. Taylor Seidenbach, Inc.","event":"Order on Motion to Dismiss Party","src":"courtlistener"},
+{"date":"2026-11-18","time":"08:57","judge":"BSL","case":"2:25-cv-01355","doc":"291","title":"Landix v. Taylor Seidenbach, Inc.","event":"Order on Motion to Dismiss Party AND Order on Motion to Dismiss Party","src":"courtlistener"},
+{"date":"2026-11-18","time":"08:59","judge":"WBV","case":"2:26-cv-01432","doc":"20","title":"Edwards v. Ochsner Clinic Foundation","event":"Order on Motion to Dismiss/Failure to State a Claim","src":"courtlistener"},
+{"date":"2026-11-18","time":"09:14","judge":"EEF","case":"2:25-cv-01241","doc":"55","title":"Magee v. Amazon Corporation LLC","event":"Order on Motion to Compel","src":"courtlistener"},
+{"date":"2026-11-18","time":"09:37","judge":"CJB","case":"2:25-cv-02336","doc":"20","title":"Moore v. Chalmette Refining, LLC","event":"Order on Motion to Enroll as Counsel of Record","src":"courtlistener"},
+{"date":"2026-11-18","time":"09:41","judge":"EEF","case":"2:24-cv-02866","doc":"85","title":"Cerdes v. United States","event":"Scheduling Order","src":"courtlistener"},
+{"date":"2026-11-18","time":"09:42","judge":"BSL","case":"2:25-cv-01355","doc":"292","title":"Landix v. Taylor Seidenbach, Inc.","event":"Order on Motion to Dismiss","src":"courtlistener"},
+{"date":"2026-11-18","time":"09:56","judge":"LMA","case":"2:26-cv-02632","doc":"4","title":"Sampson v. State Farm Fire and Casualty Company","event":"Order","src":"courtlistener"},
+{"date":"2026-11-18","time":"10:12","judge":"BSL","case":"2:26-cv-00911","doc":"17","title":"Young v. First 72+","event":"Order AND ~Util - Set/Reset Hearings","src":"courtlistener"},
+{"date":"2026-11-18","time":"10:17","judge":"SM","case":"2:26-cv-02086","doc":"8","title":"Ridley v. General Motors LLC","event":"Scheduling Order","src":"courtlistener"}
 ]
