@@ -1,4 +1,19 @@
 [
+{"at":"2026-11-18T09:16-06:00","case":"2:26-cv-00949","doc":"118","event":"Summons Returned Executed","title":"Bertucci v. Anco Insulations, Inc. et al","judge":"WBV"},
+{"at":"2026-11-18T09:14-06:00","case":"2:25-cv-01241","doc":"55","event":"Order on Motion to Compel","title":"Magee v. Amazon Corporation LLC et al","judge":"DPC"},
+{"at":"2026-11-18T09:12-06:00","case":"2:26-cv-02604","doc":"3","event":"Complaint","title":"Guidry et al v. Loop, LLC","judge":""},
+{"at":"2026-11-18T09:11-06:00","case":"2:25-cv-02226","doc":"11","event":"Satisfaction of Judgment","title":"The McDonnel Group, L.L.C. et al v. Complete Furniture Solutions LLC","judge":""},
+{"at":"2026-11-18T09:07-06:00","case":"2:26-cv-01094","doc":"","event":"Correction of Docket Entry by Clerk","title":"Silvester v. EAN Holdings, LLC et al","judge":""},
+{"at":"2026-11-18T08:59-06:00","case":"2:26-cv-01432","doc":"20","event":"Order on Motion to Dismiss/Failure to State a Claim","title":"Edwards v. Ochsner Clinic Foundation","judge":"WBV"},
+{"at":"2026-11-18T08:57-06:00","case":"2:25-cv-01355","doc":"291","event":"Order on Motion to Dismiss Party","title":"Landix v. Taylor Seidenbach, Inc. et al","judge":"BSL"},
+{"at":"2026-11-18T08:54-06:00","case":"2:26-cv-02109","doc":"37","event":"Leave to File Document","title":"Lycee Francais International De La Louisiane v. Zaghia","judge":"BWA"},
+{"at":"2026-11-18T08:54-06:00","case":"2:25-cv-01355","doc":"290","event":"Order on Motion to Dismiss Party","title":"Landix v. Taylor Seidenbach, Inc. et al","judge":"BSL"},
+{"at":"2026-11-18T08:48-06:00","case":"2:26-cv-01907","doc":"6","event":"Statement of Corporate Disclosure","title":"Murphy v. FCA US LLC","judge":""},
+{"at":"2026-11-18T08:45-06:00","case":"2:26-cv-01907","doc":"5","event":"Answer to Complaint","title":"Murphy v. FCA US LLC","judge":""},
+{"at":"2026-11-18T08:42-06:00","case":"2:26-cv-02122","doc":"","event":"Correction of Docket Entry by Clerk","title":"Boudreaux v. City of Hammond","judge":""},
+{"at":"2026-11-18T08:38-06:00","case":"2:26-cv-00397","doc":"","event":"Correction of Docket Entry by Clerk","title":"Western Motorcoach, Inc. v. American Safety, LLC et al","judge":"ASJ"},
+{"at":"2026-11-18T08:35-06:00","case":"2:26-cv-00552","doc":"29","event":"Summons Issued","title":"Thomas v. Greyhound Lines, Inc. et al","judge":"SM"},
+{"at":"2026-11-18T08:31-06:00","case":"2:25-cv-00429","doc":"","event":"Correction of Docket Entry by Clerk","title":"Curry  et al v. Chemtrans Taurus M/V et al","judge":"WBV"},
 {"at":"2026-11-18T07:19-06:00","case":"2:26-cv-01848","doc":"9","event":"Amended Complaint","title":"Chriss, et al v. JSH Trucking, LLC et al","judge":"JTM"},
 {"at":"2026-11-18T00:03-06:00","case":"2:25-cv-02047","doc":"54","event":"Request/Statement of Oral Argument","title":"Rainey v. Marathon Petroleum Company LP","judge":"KWR"},
 {"at":"2026-11-17T23:56-06:00","case":"2:25-cv-02047","doc":"53","event":"Reconsideration","title":"Rainey v. Marathon Petroleum Company LP","judge":"KWR"},
@@ -2807,11 +2822,5 @@
 {"at":"2026-11-04T09:44-06:00","case":"2:26-cv-01793","doc":"14","event":"Order on Motion for Entry of Default","title":"Continental Republic Capital, LLC v. TriSmart Solar LLC et al","judge":"AJ"},
 {"at":"2026-11-04T09:43-06:00","case":"2:26-cv-02526","doc":"","event":"Correction of Docket Entry by Clerk","title":"Dvir v. New Orleans Police Department et al","judge":"JTM"},
 {"at":"2026-11-04T09:39-06:00","case":"2:26-cv-00779","doc":"","event":"Correction of Docket Entry by Clerk","title":"Gump v. Taylor-Seidenbach, Inc. et al","judge":"WBV"},
-{"at":"2026-11-04T09:36-06:00","case":"2:26-cv-00779","doc":"152","event":"Statement of Corporate Disclosure","title":"Gump v. Taylor-Seidenbach, Inc. et al","judge":"WBV"},
-{"at":"2026-11-04T09:27-06:00","case":"2:26-cv-02330","doc":"7","event":"Certificate of Service","title":"Rampart Allstars, LLC v. G6 Americas Proptech LLC et al","judge":"DJP"},
-{"at":"2026-11-04T09:26-06:00","case":"2:26-cv-02508","doc":"3","event":"Order on Motion for Leave to Proceed In Forma Pauperis","title":"Monroe v. Vannoy et al","judge":"EEF"},
-{"at":"2026-11-04T09:23-06:00","case":"2:26-cv-01472","doc":"","event":"Correction of Docket Entry by Clerk","title":"Desjardins v. RTB Digital Inc et al","judge":"BSL"},
-{"at":"2026-11-04T09:22-06:00","case":"2:26-cv-02036","doc":"15","event":"Order on Motion to Withdraw as Attorney","title":"Jackson et al v. Watts et al","judge":"GGG"},
-{"at":"2026-11-04T09:22-06:00","case":"2:26-cv-00527","doc":"16","event":"Order on Motion for Entry of Default","title":"United States of America v. Hall","judge":"ILRL"},
-{"at":"2026-11-04T09:21-06:00","case":"2:26-cv-00640","doc":"101","event":"Summons Issued","title":"Torres v. Taylor-Seidenbach, Inc. et al","judge":"GGG"}
+{"at":"2026-11-04T09:36-06:00","case":"2:26-cv-00779","doc":"152","event":"Statement of Corporate Disclosure","title":"Gump v. Taylor-Seidenbach, Inc. et al","judge":"WBV"}
 ]
