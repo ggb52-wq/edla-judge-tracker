@@ -2794,19 +2794,5 @@
 {"at":"2026-11-04T10:20-06:00","case":"2:26-cv-00169","doc":"19","event":"Terminate Hearings","title":"Eaton v. Gulf States Insurance Company","judge":"SM"},
 {"at":"2026-11-04T10:20-06:00","case":"2:26-cv-00169","doc":"19","event":"~Util - Set/Reset Deadlines","title":"Eaton v. Gulf States Insurance Company","judge":"SM"},
 {"at":"2026-11-04T10:20-06:00","case":"2:26-cv-00169","doc":"19","event":"Status Conference","title":"Eaton v. Gulf States Insurance Company","judge":"SM"},
-{"at":"2026-11-04T10:20-06:00","case":"2:26-cv-00169","doc":"19","event":"Set Hearings","title":"Eaton v. Gulf States Insurance Company","judge":"SM"},
-{"at":"2026-11-04T10:14-06:00","case":"2:26-cv-01897","doc":"","event":"Correction of Docket Entry by Clerk","title":"Moffatt v. RLI Insurance Company","judge":"SSV"},
-{"at":"2026-11-04T10:11-06:00","case":"2:26-cv-01897","doc":"11","event":"Request/Statement of Oral Argument","title":"Moffatt v. RLI Insurance Company","judge":"SSV"},
-{"at":"2026-11-04T10:11-06:00","case":"2:25-cv-01724","doc":"50","event":"Order Setting/Resetting Hearing on Motion","title":"Great American Assurance Company v. Weed et al","judge":"EEF"},
-{"at":"2026-11-04T10:10-06:00","case":"2:25-cv-01355","doc":"212","event":"Order on Motion to Dismiss Party","title":"Landix v. Taylor Seidenbach, Inc. et al","judge":"BSL"},
-{"at":"2026-11-04T10:09-06:00","case":"2:26-cv-00346","doc":"12","event":"~Util - Set/Reset Hearings","title":"Davis v. RaceTrac Petroleum Inc.","judge":"NJB"},
-{"at":"2026-11-04T10:09-06:00","case":"2:26-cv-00346","doc":"12","event":"Order","title":"Davis v. RaceTrac Petroleum Inc.","judge":"NJB"},
-{"at":"2026-11-04T10:08-06:00","case":"2:25-cv-01355","doc":"211","event":"Order on Motion to Dismiss Party","title":"Landix v. Taylor Seidenbach, Inc. et al","judge":"BSL"},
-{"at":"2026-11-04T10:06-06:00","case":"2:26-cv-00756","doc":"","event":"Correction of Docket Entry by Clerk","title":"Denham v. Bheema Hospitality LLC d/b/a Hampton Inn, Metairie","judge":"WBV"},
-{"at":"2026-11-04T10:06-06:00","case":"2:25-cv-02398","doc":"45","event":"Summary Judgment","title":"JRK Residential Group, Inc.  v. Sevilla","judge":"JTM"},
-{"at":"2026-11-04T10:06-06:00","case":"2:25-cv-01355","doc":"","event":"Correction of Docket Entry by Clerk","title":"Landix v. Taylor Seidenbach, Inc. et al","judge":"BSL"},
-{"at":"2026-11-04T10:05-06:00","case":"2:25-cv-00624","doc":"34","event":"Scheduling Order","title":"Plump v. Walmart Inc.","judge":"GGG"},
-{"at":"2026-11-04T10:05-06:00","case":"2:18-cv-05227","doc":"86","event":"Order on Motion to Enroll as Counsel of Record","title":"Plaquemines Parish v. Great Southern Oil & Gas Co., Inc., et al","judge":"EEF"},
-{"at":"2026-11-04T10:04-06:00","case":"2:25-cv-01355","doc":"209","event":"Amended Complaint","title":"Landix v. Taylor Seidenbach, Inc. et al","judge":"BSL"},
-{"at":"2026-11-04T10:02-06:00","case":"2:18-cv-05215","doc":"90","event":"Order on Motion to Enroll as Counsel of Record","title":"Plaquemines Parish v. Exchange Oil & Gas Corporation et al","judge":"EEF"}
+{"at":"2026-11-04T10:20-06:00","case":"2:26-cv-00169","doc":"19","event":"Set Hearings","title":"Eaton v. Gulf States Insurance Company","judge":"SM"}
 ]
