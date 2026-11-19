@@ -4,7 +4,7 @@
 {"case":"2:23-cv-03056","doc":"81","date":"2026-10-19","title":"Industry Icon Cleaning and Restoration, Inc. v. Fairway Village Condom","judge":"JTM","mj":"JVM","reset":false},
 {"case":"2:25-cv-01755","doc":"33","date":"2026-10-19","title":"Porch v. Administrators of the Tulane University Educational Fund","judge":"CJB","mj":"MBN","reset":false},
 {"case":"2:26-cv-00128","doc":"16","date":"2026-10-19","title":"Hydra Force L.L.C. v Dawn Services, L.L.C.","judge":"JTM","mj":"","reset":false},
-{"case":"2:22-cv-04417","doc":"33","date":"2026-10-21","title":"National Furniture Outlet, Inc. v. Westchester Surplus Lines Insurance","judge":"ILRL","mj":"JVM","reset":false},
+{"case":"2:22-cv-04417","doc":"33","date":"2026-10-21","title":"National Furniture Outlet, Inc.  v. Westchester Surplus Lines Insuranc","judge":"ILRL","mj":"JVM","reset":false},
 {"case":"2:25-cv-02480","doc":"15","date":"2026-10-22","title":"Alterbaum v. TradeWinds Towing, LLC","judge":"JCZ","mj":"","reset":false},
 {"case":"2:25-cv-00892","doc":"15","date":"2026-10-27","title":"Leduke et al v. United States of America","judge":"DJP","mj":"DPC","reset":false},
 {"case":"2:25-cv-01271","doc":"35","date":"2026-10-28","title":"Smith v. Royal Trucking Company et al","judge":"EEF","mj":"JVM","reset":false},
@@ -34,7 +34,8 @@
 {"case":"2:22-cv-01923","doc":"131","date":"2026-11-17","title":"Grandpre v. Gusman et al","judge":"","mj":"EJD","reset":false},
 {"case":"2:24-cv-00688","doc":"196","date":"2026-11-17","title":"Angers v. Franco et al","judge":"BSL","mj":"DPC","reset":false},
 {"case":"2:26-cv-00378","doc":"15","date":"2026-11-17","title":"Faulder v. Christian Shane Development LLC, et al","judge":"EEF","mj":"MBN","reset":false},
-{"case":"2:25-cv-01294","doc":"34","date":"2026-11-19","title":"Givens v. Lafourche Parish Government","judge":"","mj":"JVM","reset":false}
+{"case":"2:25-cv-01294","doc":"34","date":"2026-11-19","title":"Givens v. Lafourche Parish Government","judge":"","mj":"JVM","reset":false},
+{"case":"2:26-cv-01553","doc":"16","date":"2026-11-19","title":"Administrators of the Tulane Educational Fund v. Thread Bioscience, In","judge":"LMA","mj":"MBN","reset":false}
 ],
 "signs":[
 {"case":"2:25-cv-01755","doc":"34","date":"2026-10-19","event":"Order Dismissing Case","sign":"dismissal"},
