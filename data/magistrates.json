@@ -1866,6 +1866,7 @@
 {"date":"2026-10-07","mj":"KWR","case":"2:25-cv-01156","doc":"53","title":"Hamilton v. Mastec North America, Inc., et al","event":"Order on Motion to Compel","rr":0,"judge":"JTM","consent":0,"src":"pacer_wo"},
 {"date":"2026-10-07","mj":"KWR","case":"2:25-cv-02577","doc":"27","title":"Moore v. Steiner et al","event":"Order on Motion to Dismiss Party","rr":0,"judge":"","consent":1,"src":"pacer_wo"},
 {"date":"2026-10-09","mj":"DPC","case":"2:26-cv-00760","doc":"27","title":"Broussard v. Waste Pro USA, Inc. et al","event":"Report and Recommendations","rr":1,"judge":"CJB","consent":0,"src":"opinion_text"},
+{"date":"2026-10-09","mj":"JVM","case":"2:26-cv-02167","doc":"4","title":"Montgomery v. Ibert et al","event":"Report and Recommendations","rr":1,"judge":"GGG","consent":0,"src":"opinion_text"},
 {"date":"2026-10-14","mj":"DPC","case":"2:26-cv-00322","doc":"47","title":"LeBeau v. All Chemical Transport Corp. et al","event":"Order on Motion for Sanctions, Order on Motion to Compel","rr":0,"judge":"WBV","consent":0,"src":"pacer_wo"},
 {"date":"2026-10-14","mj":"DPC","case":"2:26-cv-00588","doc":"33","title":"Torrent Gulf Coast III, LLC v. Gulf Oceanic Marine Contractors, Inc. e","event":"Order on Motion to Compel","rr":0,"judge":"BSL","consent":0,"src":"pacer_wo"},
 {"date":"2026-10-16","mj":"KWR","case":"2:25-cv-01750","doc":"84","title":"Dragon Limited, Inc. v. Carbon Asset Developer Associates, LLC et al","event":"Order on Motion for Sanctions","rr":0,"judge":"BSL","consent":0,"src":"pacer_wo"},
@@ -1892,5 +1893,6 @@
 {"date":"2026-11-09","mj":"EJD","case":"2:26-cv-02129","doc":"21","title":"Hambrick v. Walgreen Co.","event":"Order on Motion for Leave to File Second Amended Complaint","rr":0,"judge":"BWA","consent":0,"src":"opinion_text"},
 {"date":"2026-11-12","mj":"KWR","case":"2:25-cv-02286","doc":"104","title":"Ferrier v. CP Marine Services, LLC et al","event":"Order on Motion to Compel","rr":0,"judge":"JCZ","consent":0,"src":"opinion_text"},
 {"date":"2026-11-13","mj":"KWR","case":"2:26-cv-01273","doc":"13","title":"Lu v. Five Happiness, Inc.","event":"Order on Motion to Set Aside Entry of Default","rr":0,"judge":"BWA","consent":0,"src":"opinion_text"},
-{"date":"2026-11-16","mj":"KWR","case":"2:26-cv-01304","doc":"12","title":"Faulstich v. Take 5 LLC et al","event":"Order on Motion for Leave to File First Supplemental and","rr":0,"judge":"GGG","consent":0,"src":"opinion_text"}
+{"date":"2026-11-16","mj":"KWR","case":"2:26-cv-01304","doc":"12","title":"Faulstich v. Take 5 LLC et al","event":"Order on Motion for Leave to File First Supplemental and","rr":0,"judge":"GGG","consent":0,"src":"opinion_text"},
+{"date":"2026-11-18","mj":"JVM","case":"2:23-cv-00987","doc":"177","title":"Inclusive Louisiana et al v. St. James Parish et al","event":"Order on Motion to Compel Discovery Responses, Order on Motion to Compel Responses to First Set of, Order on Motion to Compel Responses to Second Set of","rr":0,"judge":"CJB","consent":0,"src":"opinion_text"}
 ]}
