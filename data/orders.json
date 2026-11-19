@@ -3654,5 +3654,10 @@
 {"date":"2026-11-19","time":"09:58","judge":"LMA","case":"2:26-cv-02131","doc":"16","title":"Ziifle et al v. Garrison Property And Casualty Insurance Company","event":"Scheduling Order","src":"rss"},
 {"date":"2026-11-19","time":"10:01","judge":"EEF","case":"2:26-cv-02620","doc":"3","title":"Verdin v. Comcast","event":"Order on Motion for Leave to Proceed In Forma Pauperis","src":"courtlistener"},
 {"date":"2026-11-19","time":"10:02","judge":"EEF","case":"2:26-cv-02620","doc":"4","title":"Verdin v. Comcast","event":"Order AND ~Util - Set/Clear Flags","src":"courtlistener"},
-{"date":"2026-11-19","time":"10:29","judge":"WBV","case":"2:26-cv-01430","doc":"26","title":"In the Matter of the Complaint of John J. Housey, Jr.","event":"Scheduling Order","src":"rss"}
+{"date":"2026-11-19","time":"10:29","judge":"WBV","case":"2:26-cv-01430","doc":"26","title":"In the Matter of the Complaint of John J. Housey, Jr.","event":"Scheduling Order","src":"rss"},
+{"date":"2026-11-19","time":"11:33","judge":"DJP","case":"2:25-cv-00407","doc":"65","title":"BC REI, LLC v. Jotun Paints, Inc.","event":"Report and Recommendations","src":"rss"},
+{"date":"2026-11-19","time":"11:46","judge":"JTM","case":"2:25-cv-02179","doc":"51","title":"Edwards v. Rogow et al","event":"Order","src":"rss"},
+{"date":"2026-11-19","time":"11:51","judge":"LMA","case":"2:26-cv-02469","doc":"10","title":"Collins v. American Security Insurance Company","event":"Scheduling Order","src":"rss"},
+{"date":"2026-11-19","time":"12:00","judge":"EEF","case":"2:26-cv-02453","doc":"10","title":"Lewis v. Target Corporation of Minnesota et al","event":"Order","src":"rss"},
+{"date":"2026-11-19","time":"12:05","judge":"SSV","case":"2:25-cv-01524","doc":"33","title":"Walker v. L&G Towing, LLC et al","event":"Order","src":"rss"}
 ]
