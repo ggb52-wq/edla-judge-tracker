@@ -2853,18 +2853,5 @@
 {"at":"2026-11-05T14:12-06:00","case":"2:24-cv-00725","doc":"86","event":"Order Dismissing Case","title":"Brown v. Turlich, et al.","judge":"SM"},
 {"at":"2026-11-05T14:08-06:00","case":"2:26-cv-02524","doc":"9","event":"Certificate of Service","title":"Washington v. United States of America","judge":""},
 {"at":"2026-11-05T14:01-06:00","case":"2:26-cv-02059","doc":"16","event":"Status Conference","title":"Oubre v. Zara Carriers, LLC et al","judge":"LMA"},
-{"at":"2026-11-05T14:01-06:00","case":"2:25-cv-02268","doc":"20","event":"Scheduling Order","title":"Harris et al v. United States of America","judge":"SSV"},
-{"at":"2026-11-05T13:53-06:00","case":"2:25-cv-01475","doc":"48","event":"~Util - Set/Reset Deadlines","title":"Fields v. Nucor Corporation et al","judge":"BWA"},
-{"at":"2026-11-05T13:53-06:00","case":"2:25-cv-01475","doc":"48","event":"~Util - Set/Reset Hearings","title":"Fields v. Nucor Corporation et al","judge":"BWA"},
-{"at":"2026-11-05T13:53-06:00","case":"2:25-cv-01475","doc":"48","event":"~Util - Terminate Motions","title":"Fields v. Nucor Corporation et al","judge":"BWA"},
-{"at":"2026-11-05T13:53-06:00","case":"2:25-cv-01475","doc":"48","event":"Order","title":"Fields v. Nucor Corporation et al","judge":"BWA"},
-{"at":"2026-11-05T13:51-06:00","case":"2:26-cv-01401","doc":"15","event":"Amended Complaint","title":"Luckett v. Johnson et al","judge":"BWA"},
-{"at":"2026-11-05T13:49-06:00","case":"2:26-cv-01401","doc":"14","event":"Order on Motion for Leave to File","title":"Luckett v. Johnson et al","judge":"BWA"},
-{"at":"2026-11-05T13:46-06:00","case":"2:26-cv-02554","doc":"1","event":"Complaint","title":"Dion v. Gulf/Inland Contractors, Inc.","judge":""},
-{"at":"2026-11-05T13:46-06:00","case":"2:25-cv-01355","doc":"223","event":"Exhibit List","title":"Landix v. Taylor Seidenbach, Inc. et al","judge":"BSL"},
-{"at":"2026-11-05T13:46-06:00","case":"2:25-cv-01355","doc":"222","event":"Witness List","title":"Landix v. Taylor Seidenbach, Inc. et al","judge":"BSL"},
-{"at":"2026-11-05T13:46-06:00","case":"2:19-cv-14665","doc":"26","event":"~Util - Terminate Motions","title":"Hamilton v. Roman Catholic Church of the Archdiocese of New Orleans et al","judge":"BWA"},
-{"at":"2026-11-05T13:46-06:00","case":"2:19-cv-14665","doc":"26","event":"Order","title":"Hamilton v. Roman Catholic Church of the Archdiocese of New Orleans et al","judge":"BWA"},
-{"at":"2026-11-05T13:46-06:00","case":"2:19-cv-14665","doc":"26","event":"~Util - Add and Terminate Attorneys","title":"Hamilton v. Roman Catholic Church of the Archdiocese of New Orleans et al","judge":"BWA"},
-{"at":"2026-11-05T13:45-06:00","case":"2:26-cv-02553","doc":"1","event":"Complaint","title":"Grundy v. Ion Insurance Company, Inc.","judge":""}
+{"at":"2026-11-05T14:01-06:00","case":"2:25-cv-02268","doc":"20","event":"Scheduling Order","title":"Harris et al v. United States of America","judge":"SSV"}
 ]
