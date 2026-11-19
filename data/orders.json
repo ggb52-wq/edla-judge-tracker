@@ -3649,5 +3649,9 @@
 {"date":"2026-11-19","time":"09:30","judge":"LMA","case":"2:26-cv-01480","doc":"12","title":"Lucineo v. Terry Parkway Limited Partnership","event":"Scheduling Order","src":"rss"},
 {"date":"2026-11-19","time":"09:33","judge":"LMA","case":"2:26-cv-02597","doc":"7","title":"Carpio-Castillo v. Safepoint Insurance Company","event":"Set Hearings","src":"rss"},
 {"date":"2026-11-19","time":"09:48","judge":"EJD","case":"2:22-cv-01923","doc":"133","title":"Grandpre v. Gusman et al","event":"Set Hearings","src":"rss"},
-{"date":"2026-11-19","time":"09:58","judge":"LMA","case":"2:26-cv-02131","doc":"16","title":"Ziifle et al v. Garrison Property And Casualty Insurance Company","event":"Scheduling Order","src":"rss"}
+{"date":"2026-11-19","time":"09:50","judge":"EEF","case":"2:26-cv-01005","doc":"27","title":"Monroe v. Vannoy","event":"Order on Motion for Miscellaneous Relief","src":"courtlistener"},
+{"date":"2026-11-19","time":"09:52","judge":"JTM","case":"2:26-cv-00247","doc":"31","title":"Caldwell v. Einstein Charter School","event":"Order on Motion for Leave to File","src":"courtlistener"},
+{"date":"2026-11-19","time":"09:58","judge":"LMA","case":"2:26-cv-02131","doc":"16","title":"Ziifle et al v. Garrison Property And Casualty Insurance Company","event":"Scheduling Order","src":"rss"},
+{"date":"2026-11-19","time":"10:01","judge":"EEF","case":"2:26-cv-02620","doc":"3","title":"Verdin v. Comcast","event":"Order on Motion for Leave to Proceed In Forma Pauperis","src":"courtlistener"},
+{"date":"2026-11-19","time":"10:02","judge":"EEF","case":"2:26-cv-02620","doc":"4","title":"Verdin v. Comcast","event":"Order AND ~Util - Set/Clear Flags","src":"courtlistener"}
 ]
