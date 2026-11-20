@@ -3752,5 +3752,9 @@
 {"date":"2026-11-20","time":"08:48","judge":"SSV","case":"2:26-cv-01755","doc":"4","title":"Kudirka v. MS Transverse Specialty Insurance Company","event":"Order AND ~Util - Set/Reset Hearings","src":"courtlistener"},
 {"date":"2026-11-20","time":"08:52","judge":"SSV","case":"2:26-cv-01656","doc":"15","title":"Mitchell v Brandsafway LLC","event":"Scheduling Order","src":"rss"},
 {"date":"2026-11-20","time":"09:57","judge":"CJB","case":"2:26-cv-01767","doc":"18","title":"Rivera v. Walmart Inc. et al","event":"Order","src":"rss"},
-{"date":"2026-11-20","time":"09:59","judge":"","case":"2:26-cv-01513","doc":"11","title":"Schottel, Inc. v. Hornbeck Offshore Operators, LLC","event":"Order AND Set Hearings","src":"courtlistener"}
+{"date":"2026-11-20","time":"09:59","judge":"","case":"2:26-cv-01513","doc":"11","title":"Schottel, Inc. v. Hornbeck Offshore Operators, LLC","event":"Order AND Set Hearings","src":"courtlistener"},
+{"date":"2026-11-20","time":"10:38","judge":"BWA","case":"2:26-cv-00609","doc":"15","title":"Quinn  v. Walmart Inc.","event":"Set Hearings","src":"rss"},
+{"date":"2026-11-20","time":"10:53","judge":"SM","case":"2:24-cv-02746","doc":"174","title":"Britt et al v. Old Dominion Freight Line, Inc. et al","event":"Set Hearings","src":"rss"},
+{"date":"2026-11-20","time":"11:00","judge":"SM","case":"2:26-cv-02348","doc":"9","title":"Thomas v. ISS Scope, Inc. et al","event":"Set Hearings","src":"rss"},
+{"date":"2026-11-20","time":"11:05","judge":"WBV","case":"2:26-cv-00949","doc":"121","title":"Bertucci v. Anco Insulations, Inc. et al","event":"Set Hearings","src":"rss"}
 ]
