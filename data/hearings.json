@@ -209,6 +209,7 @@
 {"date":"2026-11-20","time":"","entered":"16:17","judge":"LMA","case":"2:26-cv-01158","doc":"14","title":"Stephens v. United States of America","what":"Status Conference","src":"minute_entry","seen":"2026-11-20"},
 {"date":"2026-11-20","time":"","entered":"15:08","judge":"LMA","case":"2:26-cv-02482","doc":"102","title":"QCX LLC v. Murrill et al","what":"Status Conference","src":"minute_entry","seen":"2026-11-20"},
 {"date":"2026-11-20","time":"","entered":"11:08","judge":"SSV","case":"2:24-cv-00714","doc":"58","title":"Wilson v. City of Bogalusa et al","what":"Pretrial Conference","src":"minute_entry","seen":"2026-11-20"},
+{"date":"2026-11-20","time":"","entered":"16:36","judge":"WBV","case":"2:25-cv-00447","doc":"86","title":"Jones v. Savage Refinery Services, LLC et al","what":"Status Conference","src":"minute_entry","seen":"2026-11-20"},
 {"date":"2026-11-20","time":"","entered":"12:33","judge":"WJC","case":"2:26-cv-00085","doc":"41","title":"In re: Shamrock Marine, LLC","what":"Motion Hearing","src":"minute_entry","seen":"2026-11-20"},
 {"date":"2026-11-23","time":"10:00","judge":"DJP","case_short":"24-2838","what":"Oral Argument","title":"","text":"24-2838 Oral Argument","civil":true,"room":"C551","src":"court_calendar","v":2,"seen":"2026-11-20","case":"2:24-cv-02838"},
 {"date":"2026-11-24","time":"10:00","judge":"DJP","case_short":"26-67","what":"Sentencing","title":"","text":"26-67 Sentencing","crim":true,"room":"C551","src":"court_calendar","v":2,"seen":"2026-11-20","case":""},
