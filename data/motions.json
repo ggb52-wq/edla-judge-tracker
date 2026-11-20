@@ -1215,6 +1215,7 @@
 {"date":"2026-11-19","time":"13:09","judge":"GGG","case":"2:25-cv-01269","doc":"49","title":"TMC Builders, LLC et al v. Clyne et al","event":"Continue","submit":"","src":"rss"},
 {"date":"2026-11-19","time":"13:53","judge":"CJB","case":"2:25-cv-01730","doc":"191","title":"Pillette et al v. ITG Brands, LLC et al","event":"Dismiss","submit":"","src":"rss"},
 {"date":"2026-11-19","time":"16:58","judge":"JCZ","case":"2:25-cv-02058","doc":"26","title":"Sanders v. Social Security Administration","event":"Extension of Deadlines","submit":"","src":"rss"},
+{"date":"2026-11-19","time":"15:08","judge":"BWA","case":"2:25-cv-02191","doc":"50","title":"Brooks v. Zachry Construction Company, et al","event":"Leave to File Document","submit":"","src":"rss"},
 {"date":"2026-11-19","time":"14:01","judge":"CJB","case":"2:25-cv-02359","doc":"27","title":"Chase Catering and Concessions, LLC v. Delaware North Companies Travel","event":"Continue","submit":"","src":"rss"},
 {"date":"2026-11-19","time":"12:01","judge":"","case":"2:25-cv-02434","doc":"21","title":"REC Marine Logistics, LLC v. Muddy Water Dredging, LP","event":"Dismiss Case","submit":"","src":"rss"},
 {"date":"2026-11-19","time":"11:16","judge":"DJP","case":"2:25-cv-02505","doc":"34","title":"Coleman v. Pre-Gunite Solutions, L.L.C. et al","event":"Dismiss","submit":"","src":"rss"},
@@ -1229,6 +1230,7 @@
 {"date":"2026-11-19","time":"10:07","judge":"WBV","case":"2:26-cv-01430","doc":"24","title":"In the Matter of the Complaint of John J. Housey, Jr.","event":"Leave to File Document","submit":"","src":"rss"},
 {"date":"2026-11-19","time":"10:21","judge":"WBV","case":"2:26-cv-01430","doc":"25","title":"In the Matter of the Complaint of John J. Housey, Jr.","event":"Enroll as Counsel of Record","submit":"","src":"rss"},
 {"date":"2026-11-19","time":"13:02","judge":"ASJ","case":"2:26-cv-01568","doc":"19","title":"Fury v. Victory Cruise Lines, Inc.","event":"Dismiss/Lack of Jurisdiction","submit":"","src":"rss"},
+{"date":"2026-11-19","time":"13:49","judge":"NJB","case":"2:26-cv-01638","doc":"51","title":"Pontious v. Taylor-Seidenbach Inc. et al","event":"Dismiss Party","submit":"","src":"rss"},
 {"date":"2026-11-19","time":"22:05","judge":"NJB","case":"2:26-cv-01638","doc":"52","title":"Pontious v. Taylor-Seidenbach Inc. et al","event":"Amend/Correct","submit":"","src":"rss"},
 {"date":"2026-11-19","time":"11:30","judge":"NJB","case":"2:26-cv-01660","doc":"9","title":"Lucineo v. Hardserve Computer & Communication, Inc.","event":"Set Aside Default","submit":"","src":"rss"},
 {"date":"2026-11-19","time":"16:25","judge":"","case":"2:26-cv-01670","doc":"8","title":"Richardson v. United States of America","event":"Dismiss","submit":"","src":"rss"},
@@ -1262,5 +1264,8 @@
 {"date":"2026-11-19","time":"11:31","judge":"JTM","case":"2:26-cv-02656","doc":"2","title":"General Maritime Transportation Services, Inc. v. SwissMarine PTE LTD.","event":"Miscellaneous Relief","submit":"","src":"rss"},
 {"date":"2026-11-19","time":"11:33","judge":"JTM","case":"2:26-cv-02656","doc":"3","title":"General Maritime Transportation Services, Inc. v. SwissMarine PTE LTD.","event":"Miscellaneous Relief","submit":"","src":"rss"},
 {"date":"2026-11-19","time":"11:37","judge":"JTM","case":"2:26-cv-02656","doc":"5","title":"General Maritime Transportation Services, Inc. v. SwissMarine PTE LTD.","event":"Miscellaneous Relief","submit":"","src":"rss"},
-{"date":"2026-11-20","time":"08:12","judge":"","case":"2:26-cv-02284","doc":"18","title":"American General Life Insurance Company v. Ting et al","event":"Entry of Default","submit":"","src":"rss"}
+{"date":"2026-11-20","time":"08:53","judge":"JTM","case":"2:25-cv-01447","doc":"64","title":"Seals et al v. GulfMark Americas, Inc. et al","event":"Miscellaneous Relief","submit":"","src":"rss"},
+{"date":"2026-11-20","time":"09:12","judge":"GGG","case":"2:26-cv-00640","doc":"103","title":"Torres v. Taylor-Seidenbach, Inc. et al","event":"Dismiss","submit":"","src":"rss"},
+{"date":"2026-11-20","time":"08:12","judge":"","case":"2:26-cv-02284","doc":"18","title":"American General Life Insurance Company v. Ting et al","event":"Entry of Default","submit":"","src":"rss"},
+{"date":"2026-11-20","time":"08:41","judge":"","case":"2:26-cv-02667","doc":"2","title":"Hendrix v. Commissioner of Social Security","event":"Appear Pro Hac Vice","submit":"","src":"rss"}
 ]
