@@ -2913,7 +2913,7 @@
 {"case":"2:23-cv-01308","doc":"70","outcome":"granted","src":"docket_text","at":"2026-10-21","motion_doc":"53"},
 {"case":"2:23-cv-01309","doc":"56","outcome":"moot","src":"docket_text","at":"2026-10-21"},
 {"case":"2:23-cv-01314","doc":"17","outcome":"denied_wop","src":"docket_text","at":"2026-10-21"},
-{"case":"2:23-cv-01317","doc":"34","outcome":"denied","src":"docket_text","at":"2026-10-20","motion_doc":"29"},
+{"case":"2:23-cv-01317","doc":"34","outcome":"denied","src":"docket_text","at":"2026-10-20","motion_doc":"29","motion_filed":"2025-02-18"},
 {"case":"2:23-cv-01319","doc":"34","outcome":"partial","src":"docket_text","at":"2026-10-21","motion_doc":"21"},
 {"case":"2:23-cv-01319","doc":"35","outcome":"granted","src":"docket_text","at":"2026-10-21","motion_doc":"26"},
 {"case":"2:23-cv-01327","doc":"8","outcome":"granted","src":"docket_text","at":"2026-10-21","motion_doc":"7"},
