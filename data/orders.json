@@ -3828,5 +3828,12 @@
 {"date":"2026-11-23","time":"10:23","judge":"EEF","case":"2:25-cv-01724","doc":"53","title":"Great American Assurance Company v. Weed","event":"Motion Hearing AND Order on Motion to Dismiss/Lack of Jurisdiction","src":"courtlistener"},
 {"date":"2026-11-23","time":"10:31","judge":"GGG","case":"2:26-cv-00291","doc":"19","title":"Campbell v. Howard","event":"Order on Motion to Dismiss Party","src":"courtlistener"},
 {"date":"2026-11-23","time":"10:32","judge":"SM","case":"2:26-cv-02672","doc":"8","title":"In the Matter of Nave Shipping S.A.","event":"Order Transferring Case","src":"courtlistener"},
-{"date":"2026-11-23","time":"10:37","judge":"WBV","case":"2:26-cv-00415","doc":"14","title":"Bierria v. Hutson","event":"Order on Motion to Stay","src":"courtlistener"}
+{"date":"2026-11-23","time":"10:37","judge":"WBV","case":"2:26-cv-00415","doc":"14","title":"Bierria v. Hutson","event":"Order on Motion to Stay","src":"courtlistener"},
+{"date":"2026-11-23","time":"11:40","judge":"JTM","case":"2:26-cv-02226","doc":"7","title":"Reed v. Moore","event":"Order","src":"rss"},
+{"date":"2026-11-23","time":"11:44","judge":"EEF","case":"2:18-cv-05206","doc":"121","title":"Jefferson Parish et al v. Destin Operating Company, Inc et al","event":"Set Hearings","src":"rss"},
+{"date":"2026-11-23","time":"12:08","judge":"SSV","case":"2:26-cv-01298","doc":"22","title":"Davis v. Kirkpatrick et al","event":"Judgment","src":"rss"},
+{"date":"2026-11-23","time":"12:17","judge":"SSV","case":"2:24-cv-02409","doc":"77","title":"Seacor Marine LLC v. GOL, LLC","event":"Order","src":"rss"},
+{"date":"2026-11-23","time":"12:26","judge":"EEF","case":"2:26-cv-01367","doc":"18","title":"Harrell v. Jefferson Parish Correctional Center et al","event":"Judgment","src":"rss"},
+{"date":"2026-11-23","time":"12:31","judge":"SSV","case":"2:25-cv-00328","doc":"50","title":"Brothers Petroleum, LLC et al v. StarStone Specialty Insurance Company","event":"Order","src":"rss"},
+{"date":"2026-11-23","time":"12:34","judge":"EEF","case":"2:26-cv-01475","doc":"17","title":"Wilson v. Southwest Airlines Co.","event":"Set Hearings","src":"rss"}
 ]
