@@ -2913,20 +2913,5 @@
 {"at":"2026-11-09T15:01-06:00","case":"2:26-cv-02559","doc":"5","event":"~Util - Set/Reset Hearings","title":"Melan v. Walmart Inc. et al","judge":"NJB"},
 {"at":"2026-11-09T15:01-06:00","case":"2:26-cv-02559","doc":"5","event":"Order","title":"Melan v. Walmart Inc. et al","judge":"NJB"},
 {"at":"2026-11-09T15:00-06:00","case":"2:26-cv-02445","doc":"7","event":"~Util - Set/Reset Hearings","title":"Cureaux v. Target Corporation of Minnesota, et al","judge":""},
-{"at":"2026-11-09T15:00-06:00","case":"2:26-cv-02445","doc":"7","event":"Order","title":"Cureaux v. Target Corporation of Minnesota, et al","judge":""},
-{"at":"2026-11-09T14:58-06:00","case":"2:26-cv-01928","doc":"9","event":"~Util - Set/Reset Hearings","title":"Huval v. American Honda Motor Co., Inc.","judge":"NJB"},
-{"at":"2026-11-09T14:58-06:00","case":"2:26-cv-01928","doc":"9","event":"Order","title":"Huval v. American Honda Motor Co., Inc.","judge":"NJB"},
-{"at":"2026-11-09T14:58-06:00","case":"2:24-cv-01693","doc":"74","event":"Set Hearings","title":"Petroclint Baclawsen Services LTD et al v. Clear Water Marine, LLC et al","judge":"DJP"},
-{"at":"2026-11-09T14:58-06:00","case":"2:24-cv-01693","doc":"74","event":"Order","title":"Petroclint Baclawsen Services LTD et al v. Clear Water Marine, LLC et al","judge":"DJP"},
-{"at":"2026-11-09T14:57-06:00","case":"2:26-cv-01598","doc":"10","event":"~Util - Set/Reset Hearings","title":"Lucineo v. Gretna Village Investments, LLC","judge":"NJB"},
-{"at":"2026-11-09T14:57-06:00","case":"2:26-cv-01598","doc":"10","event":"Order","title":"Lucineo v. Gretna Village Investments, LLC","judge":"NJB"},
-{"at":"2026-11-09T14:55-06:00","case":"2:24-cv-01607","doc":"164","event":"Reply to Response to Motion","title":"Gentile v. New Orleans City Park Improvement Association et al","judge":"JCZ"},
-{"at":"2026-11-09T14:54-06:00","case":"2:26-cv-01783","doc":"13","event":"Notice (Other)","title":"Roy v. State Farm Fire and Casualty Company","judge":"EEF"},
-{"at":"2026-11-09T14:54-06:00","case":"2:24-cv-01607","doc":"163","event":"Reply to Response to Motion","title":"Gentile v. New Orleans City Park Improvement Association et al","judge":"JCZ"},
-{"at":"2026-11-09T14:53-06:00","case":"2:25-cv-01260","doc":"","event":"USCA Appeal Fee","title":"Gentry et al v. Thompson et al","judge":"CJB"},
-{"at":"2026-11-09T14:52-06:00","case":"2:26-cv-01783","doc":"12","event":"Statement of Corporate Disclosure","title":"Roy v. State Farm Fire and Casualty Company","judge":"EEF"},
-{"at":"2026-11-09T14:46-06:00","case":"2:26-cv-02238","doc":"37","event":"Extension of Time to Answer","title":"Doss et al v. Pate et al","judge":"ASJ"},
-{"at":"2026-11-09T14:46-06:00","case":"2:25-cv-02377","doc":"187","event":"Answer to Amended Complaint","title":"Beckley v. Taylor-Seidenbach, Inc. et al","judge":"BWA"},
-{"at":"2026-11-09T14:45-06:00","case":"2:26-cv-01494","doc":"10","event":"Terminate Deadlines","title":"Torrence v. Lyft, Inc.  et al","judge":"SSV"},
-{"at":"2026-11-09T14:45-06:00","case":"2:26-cv-01494","doc":"10","event":"Order","title":"Torrence v. Lyft, Inc.  et al","judge":"SSV"}
+{"at":"2026-11-09T15:00-06:00","case":"2:26-cv-02445","doc":"7","event":"Order","title":"Cureaux v. Target Corporation of Minnesota, et al","judge":""}
 ]
