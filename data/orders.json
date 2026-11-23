@@ -3817,5 +3817,6 @@
 {"date":"2026-11-20","time":"16:46","judge":"ILRL","case":"2:18-cv-05230","doc":"132","title":"Plaquemines Parish v. ConocoPhillips Company","event":"Order of Recusal","src":"courtlistener"},
 {"date":"2026-11-20","time":"16:52","judge":"LMA","case":"2:26-cv-02671","doc":"3","title":"Rancatore Sr. v. Taylor Seidenbach, Inc.","event":"Order of Recusal","src":"courtlistener"},
 {"date":"2026-11-20","time":"17:01","judge":"NJB","case":"2:25-cv-02375","doc":"8","title":"Senior v. Camus","event":"Order Adopting Report and Recommendations","src":"courtlistener"},
-{"date":"2026-11-20","time":"17:03","judge":"NJB","case":"2:25-cv-02375","doc":"9","title":"Senior v. Camus et al","event":"Judgment","src":"rss"}
+{"date":"2026-11-20","time":"17:03","judge":"NJB","case":"2:25-cv-02375","doc":"9","title":"Senior v. Camus et al","event":"Judgment","src":"rss"},
+{"date":"2026-11-23","time":"10:18","judge":"DJP","case":"2:24-cv-00543","doc":"161","title":"Damon J. Baldone, LLC v. Starr Surplus Lines Insurance Company et al","event":"Order Dismissing Case","src":"rss"}
 ]
