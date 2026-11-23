@@ -3835,5 +3835,7 @@
 {"date":"2026-11-23","time":"12:17","judge":"SSV","case":"2:24-cv-02409","doc":"77","title":"Seacor Marine LLC v. GOL, LLC","event":"Order","src":"rss"},
 {"date":"2026-11-23","time":"12:26","judge":"EEF","case":"2:26-cv-01367","doc":"18","title":"Harrell v. Jefferson Parish Correctional Center et al","event":"Judgment","src":"rss"},
 {"date":"2026-11-23","time":"12:31","judge":"SSV","case":"2:25-cv-00328","doc":"50","title":"Brothers Petroleum, LLC et al v. StarStone Specialty Insurance Company","event":"Order","src":"rss"},
-{"date":"2026-11-23","time":"12:34","judge":"EEF","case":"2:26-cv-01475","doc":"17","title":"Wilson v. Southwest Airlines Co.","event":"Set Hearings","src":"rss"}
+{"date":"2026-11-23","time":"12:34","judge":"EEF","case":"2:26-cv-01475","doc":"17","title":"Wilson v. Southwest Airlines Co.","event":"Set Hearings","src":"rss"},
+{"date":"2026-11-23","time":"12:42","judge":"JTM","case":"2:24-cv-02540","doc":"59","title":"Bosley et al v. Atalco Gramercy LLC","event":"Order Dismissing Case","src":"rss"},
+{"date":"2026-11-23","time":"12:48","judge":"WBV","case":"2:25-cv-01042","doc":"64","title":"McLemore v. Bogalusa City School District et al","event":"Terminate Hearings","src":"rss"}
 ]
