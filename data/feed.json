@@ -2922,11 +2922,5 @@
 {"at":"2026-11-09T09:11-06:00","case":"2:26-cv-00302","doc":"10","event":"Notice (Other)","title":"Buckley v. Dolgencorp, LLC et al","judge":"JCZ"},
 {"at":"2026-11-09T09:09-06:00","case":"2:26-cv-02549","doc":"4","event":"Summons Returned Executed","title":"Landry v. Hyundai Motor America Corporation","judge":""},
 {"at":"2026-11-09T09:09-06:00","case":"2:25-cv-02377","doc":"185","event":"Request for Summons Issued","title":"Beckley v. Taylor-Seidenbach, Inc. et al","judge":"BWA"},
-{"at":"2026-11-09T09:05-06:00","case":"2:26-cv-01830","doc":"9","event":"Scheduling Order","title":"Montiel et al v. New Orleans City et al","judge":""},
-{"at":"2026-11-09T08:51-06:00","case":"2:26-cv-02129","doc":"22","event":"Amended Complaint","title":"Hambrick v. Walgreen Co.","judge":"BWA"},
-{"at":"2026-11-09T08:51-06:00","case":"2:24-cv-00688","doc":"191","event":"~Util - Add and Terminate Parties","title":"Angers v. Franco et al","judge":"BSL"},
-{"at":"2026-11-09T08:51-06:00","case":"2:24-cv-00688","doc":"191","event":"Order","title":"Angers v. Franco et al","judge":"BSL"},
-{"at":"2026-11-09T08:51-06:00","case":"2:24-cv-00688","doc":"191","event":"~Util - Terminate Motions","title":"Angers v. Franco et al","judge":"BSL"},
-{"at":"2026-11-09T08:50-06:00","case":"2:26-cv-01826","doc":"9","event":"Scheduling Order","title":"Carr et al v. Allstate Vehicle and Property Insurance Company","judge":"WJC"},
-{"at":"2026-11-09T08:49-06:00","case":"2:25-cv-02354","doc":"191","event":"Answer to Amended Complaint","title":"Arceneaux v. Huntington Ingalls Incorporated et al","judge":"AJ"}
+{"at":"2026-11-09T09:05-06:00","case":"2:26-cv-01830","doc":"9","event":"Scheduling Order","title":"Montiel et al v. New Orleans City et al","judge":""}
 ]
