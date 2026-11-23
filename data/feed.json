@@ -2904,9 +2904,5 @@
 {"at":"2026-11-09T12:08-06:00","case":"2:26-cv-01897","doc":"13","event":"Order","title":"Moffatt v. RLI Insurance Company","judge":"SSV"},
 {"at":"2026-11-09T12:06-06:00","case":"2:25-cv-01021","doc":"21","event":"~Util - Set/Reset Hearings","title":"Huamanchumo v. Edison Chouest Offshore","judge":"SSV"},
 {"at":"2026-11-09T12:06-06:00","case":"2:25-cv-01021","doc":"21","event":"~Util - Terminate Motions","title":"Huamanchumo v. Edison Chouest Offshore","judge":"SSV"},
-{"at":"2026-11-09T12:06-06:00","case":"2:25-cv-01021","doc":"21","event":"Order Lifting Stay","title":"Huamanchumo v. Edison Chouest Offshore","judge":"SSV"},
-{"at":"2026-11-09T11:59-06:00","case":"2:25-cv-02332","doc":"32","event":"Set Hearings","title":"Ghost City Tours of Georgia, LLC v. US Ghost Adventures, LLC et al","judge":"SSV"},
-{"at":"2026-11-09T11:59-06:00","case":"2:25-cv-02332","doc":"32","event":"Settlement Conference","title":"Ghost City Tours of Georgia, LLC v. US Ghost Adventures, LLC et al","judge":"SSV"},
-{"at":"2026-11-09T11:51-06:00","case":"2:26-cv-01547","doc":"18","event":"Response/Reply","title":"Rojas v. Vannoy et al","judge":"WBV"},
-{"at":"2026-11-09T11:49-06:00","case":"2:25-cv-01355","doc":"263","event":"Order on Motion to Dismiss Party","title":"Landix v. Taylor Seidenbach, Inc. et al","judge":"BSL"}
+{"at":"2026-11-09T12:06-06:00","case":"2:25-cv-01021","doc":"21","event":"Order Lifting Stay","title":"Huamanchumo v. Edison Chouest Offshore","judge":"SSV"}
 ]
