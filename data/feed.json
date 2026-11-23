@@ -3012,16 +3012,5 @@
 {"at":"2026-11-09T16:59-06:00","case":"2:25-cv-02506","doc":"14","event":"Notice (Other)","title":"Rodrigue v. SRG PLK OPCO, LLC","judge":"SM"},
 {"at":"2026-11-09T16:59-06:00","case":"2:25-cv-02467","doc":"17","event":"~Util - Set/Reset Scheduling Order Deadlines","title":"Thompson v. Octopus Towing, LLC","judge":"EEF"},
 {"at":"2026-11-09T16:59-06:00","case":"2:25-cv-02467","doc":"17","event":"Status Conference","title":"Thompson v. Octopus Towing, LLC","judge":"EEF"},
-{"at":"2026-11-09T16:59-06:00","case":"2:25-cv-02467","doc":"17","event":"Order on Motion to Continue","title":"Thompson v. Octopus Towing, LLC","judge":"EEF"},
-{"at":"2026-11-09T16:54-06:00","case":"2:24-cv-01749","doc":"67","event":"~Util - Set/Reset Hearings","title":"Sheyin v. Pan American Life Insurance Group, Inc.","judge":"EJD"},
-{"at":"2026-11-09T16:54-06:00","case":"2:24-cv-01749","doc":"67","event":"Order","title":"Sheyin v. Pan American Life Insurance Group, Inc.","judge":"EJD"},
-{"at":"2026-11-09T16:52-06:00","case":"2:26-cv-02123","doc":"7","event":"Proceed In Forma Pauperis","title":"Bishop v. Day et al","judge":"WJC"},
-{"at":"2026-11-09T16:51-06:00","case":"2:25-cv-02234","doc":"38","event":"~Util - Terminate Motions","title":"Volter v. James Marine Hahnville, LLC et al","judge":"EEF"},
-{"at":"2026-11-09T16:51-06:00","case":"2:25-cv-02234","doc":"38","event":"Terminate Deadlines and Hearings","title":"Volter v. James Marine Hahnville, LLC et al","judge":"EEF"},
-{"at":"2026-11-09T16:51-06:00","case":"2:25-cv-02234","doc":"38","event":"Order","title":"Volter v. James Marine Hahnville, LLC et al","judge":"EEF"},
-{"at":"2026-11-09T16:49-06:00","case":"2:25-cv-00463","doc":"","event":"Manual Attachment Received","title":"Davis v. Trege et al","judge":"DJP"},
-{"at":"2026-11-09T16:47-06:00","case":"2:26-cv-02123","doc":"6","event":"Petition for Writ of Habeas Corpus (28:2254)","title":"Bishop v. Day et al","judge":"WJC"},
-{"at":"2026-11-09T16:43-06:00","case":"2:26-cv-00368","doc":"51","event":"Set Hearings","title":"Taylor et al v. Southern University and Agricultural and Mechanical College Board of Supervisors","judge":"SM"},
-{"at":"2026-11-09T16:43-06:00","case":"2:26-cv-00368","doc":"51","event":"Status Conference","title":"Taylor et al v. Southern University and Agricultural and Mechanical College Board of Supervisors","judge":"SM"},
-{"at":"2026-11-09T16:43-06:00","case":"2:26-cv-00114","doc":"19","event":"Leave to File Document","title":"McNulty v. Hammond et al","judge":"WJC"}
+{"at":"2026-11-09T16:59-06:00","case":"2:25-cv-02467","doc":"17","event":"Order on Motion to Continue","title":"Thompson v. Octopus Towing, LLC","judge":"EEF"}
 ]
