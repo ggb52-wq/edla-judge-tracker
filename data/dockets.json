@@ -21536,7 +21536,7 @@
 ],
 "docket_id":64890794,
 "judge":"CJB",
-"seen":"2026-11-13"
+"seen":"2026-11-23"
 },
 {
 "case":"2:22-cv-02666",
@@ -37178,7 +37178,7 @@
 ],
 "docket_id":68307803,
 "judge":"DJP",
-"seen":"2026-11-21"
+"seen":"2026-11-23"
 },
 {
 "case":"2:24-cv-00545",
@@ -50473,7 +50473,7 @@
 ],
 "docket_id":71169366,
 "judge":"EEF",
-"seen":"2026-11-18"
+"seen":"2026-11-23"
 },
 {
 "case":"2:25-cv-01730",
@@ -53967,7 +53967,7 @@
 ],
 "docket_id":72039322,
 "judge":"DJP",
-"seen":"2026-11-10"
+"seen":"2026-11-23"
 },
 {
 "case":"2:25-cv-02506",
@@ -55324,7 +55324,7 @@
 "Howard"
 ],
 "docket_id":72252538,
-"seen":"2026-11-03"
+"seen":"2026-11-23"
 },
 {
 "case":"2:26-cv-00296",
@@ -55789,6 +55789,18 @@
 "REMAND"
 ],
 "referred":"Donna Phillips Currault"
+},
+{
+"case":"2:26-cv-00415",
+"referred":"Eva J. Dossier",
+"filed":"2026-02-24",
+"parties":[
+"Bierria",
+"Hutson"
+],
+"docket_id":72339064,
+"judge":"WBV",
+"seen":"2026-11-23"
 },
 {
 "case":"2:26-cv-00416",
@@ -61424,7 +61436,7 @@
 ],
 "docket_id":74652161,
 "judge":"AJ",
-"seen":"2026-11-22"
+"seen":"2026-11-23"
 },
 {
 "case":"2:26-cv-01794",
@@ -61866,7 +61878,7 @@
 ],
 "docket_id":74699592,
 "judge":"JTM",
-"seen":"2026-11-22"
+"seen":"2026-11-23"
 },
 {
 "case":"2:26-cv-01880",
@@ -62696,7 +62708,7 @@
 "Nette"
 ],
 "docket_id":74769195,
-"seen":"2026-11-18"
+"seen":"2026-11-23"
 },
 {
 "case":"2:26-cv-02009",
@@ -62706,7 +62718,7 @@
 "PDI Solutions, LLC"
 ],
 "docket_id":74769442,
-"seen":"2026-11-13"
+"seen":"2026-11-23"
 },
 {
 "case":"2:26-cv-02011",
@@ -62842,7 +62854,7 @@
 "Most & Associates"
 ],
 "docket_id":74782830,
-"seen":"2026-11-22",
+"seen":"2026-11-23",
 "referred":"Janis Van Meerveld",
 "judge":"EEF"
 },
@@ -63302,6 +63314,18 @@
 ],
 "docket_id":74839794,
 "seen":"2026-11-10"
+},
+{
+"case":"2:26-cv-02137",
+"referred":"Donna Phillips Currault",
+"filed":"2026-09-23",
+"parties":[
+"Marriott International Limited",
+"Warner"
+],
+"docket_id":74839950,
+"judge":"CJB",
+"seen":"2026-11-23"
 },
 {
 "case":"2:26-cv-02155",
@@ -65018,7 +65042,7 @@
 ],
 "docket_id":75118743,
 "judge":"WBV",
-"seen":"2026-11-22",
+"seen":"2026-11-23",
 "nos":"340 Marine",
 "cause":"28:1333 Property Damage",
 "jury":"None",
@@ -65225,6 +65249,16 @@
 "seen":"2026-11-20"
 },
 {
+"case":"2:26-cv-02641",
+"filed":"2026-11-17",
+"parties":[
+"Catholic Mutual Relief Society of America",
+"Roman Catholic Diocese of Baton Rouge"
+],
+"docket_id":75134020,
+"seen":"2026-11-23"
+},
+{
 "case":"2:26-cv-02643",
 "filed":"2026-11-18",
 "parties":[
@@ -65332,6 +65366,16 @@
 "seen":"2026-11-20"
 },
 {
+"case":"2:26-cv-02665",
+"filed":"2026-11-19",
+"parties":[
+"Nave Shipping, SA",
+"Sayres"
+],
+"docket_id":75148038,
+"seen":"2026-11-23"
+},
+{
 "case":"2:26-cv-02666",
 "referred":"Karen Wells Roby",
 "filed":"2026-11-19",
@@ -65354,6 +65398,14 @@
 "docket_id":75151879,
 "judge":"LMA",
 "seen":"2026-11-21"
+},
+{
+"case":"2:26-cv-02672",
+"referred":"Eva J. Dossier",
+"filed":"2026-11-20",
+"docket_id":75152389,
+"judge":"SM",
+"seen":"2026-11-23"
 },
 {
 "case":"2:65-cv-15556",
