@@ -309,6 +309,21 @@
 "date":"2026-11-17",
 "doc":"137",
 "event":"Jury Trial - Begun"
+},
+{
+"date":"2026-11-23",
+"doc":"138",
+"event":"Jury Trial - Held"
+},
+{
+"date":"2026-11-23",
+"doc":"139",
+"event":"Jury Trial - Completed"
+},
+{
+"date":"2026-11-23",
+"doc":"140",
+"event":"Jury Verdict Form"
 }
 ],
 "held":true,
