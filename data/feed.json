@@ -1,4 +1,9 @@
 [
+{"at":"2026-11-24T08:41-06:00","case":"2:26-cv-02003","doc":"13","event":"Set Hearings","title":"A-1 Service, Inc. et al v. Atlantic Casualty Insurance Company","judge":""},
+{"at":"2026-11-24T08:41-06:00","case":"2:26-cv-02003","doc":"13","event":"Order","title":"A-1 Service, Inc. et al v. Atlantic Casualty Insurance Company","judge":""},
+{"at":"2026-11-24T08:40-06:00","case":"2:26-cv-02021","doc":"12","event":"Status Conference","title":"Brown v. Great American Insurance Company","judge":"ASJ"},
+{"at":"2026-11-24T08:39-06:00","case":"2:25-cv-01440","doc":"","event":"Correction of Docket Entry by Clerk","title":"McDowell v. Carter","judge":""},
+{"at":"2026-11-24T08:38-06:00","case":"2:25-cv-00899","doc":"","event":"Correction of Docket Entry by Clerk","title":"Conaler, et al v Louisiana Department of Public Safety and Corrections Office of Juvenile Justice","judge":"WBV"},
 {"at":"2026-11-23T23:36-06:00","case":"2:26-cv-02234","doc":"10","event":"Extension of Time to Answer","title":"Robinson v. Vannoy et al","judge":"LMA"},
 {"at":"2026-11-23T23:27-06:00","case":"2:19-cv-11793","doc":"697","event":"File Excess Pages","title":"Muslow et al v. Louisiana State University and Agricultural and Mechanical College et al","judge":"BWA"},
 {"at":"2026-11-23T23:20-06:00","case":"2:26-cv-01654","doc":"14","event":"Response to Habeas Petition","title":"Robinson v. Vannoy et al","judge":"NJB"},
@@ -3028,6 +3033,5 @@
 {"at":"2026-11-10T08:59-06:00","case":"2:26-cv-01385","doc":"9","event":"Scheduling Order","title":"Collins v. Kia America, Inc.","judge":"GGG"},
 {"at":"2026-11-10T08:56-06:00","case":"2:25-cv-01927","doc":"43","event":"Order on Motion to Dismiss/Failure to State a Claim","title":"Sears v. Cvitanovich et al","judge":"BSL"},
 {"at":"2026-11-10T08:49-06:00","case":"2:25-cv-01156","doc":"54","event":"Miscellaneous Relief","title":"Hamilton v. Mastec North America, Inc., et al","judge":"JTM"},
-{"at":"2026-11-10T08:47-06:00","case":"2:26-cv-01616","doc":"8","event":"Scheduling Order","title":"Barnes, et al v. General Motors LLC","judge":"GGG"},
-{"at":"2026-11-10T08:33-06:00","case":"2:26-cv-00755","doc":"56","event":"Answer to Complaint","title":"Legendre et al v. Huntington Ingalls, Inc. et al","judge":"JTM"}
+{"at":"2026-11-10T08:47-06:00","case":"2:26-cv-01616","doc":"8","event":"Scheduling Order","title":"Barnes, et al v. General Motors LLC","judge":"GGG"}
 ]
