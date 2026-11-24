@@ -1366,6 +1366,7 @@
 {"date":"2026-11-23","time":"16:59","judge":"BWA","case":"2:26-cv-02129","doc":"26","title":"Hambrick v. Walgreen Co.","event":"Dismiss","submit":"","src":"rss"},
 {"date":"2026-11-23","time":"16:56","judge":"","case":"2:26-cv-02142","doc":"5","title":"Lingerfelt v. State Farm Fire & Casualty  Company","event":"Dismiss","submit":"","src":"rss"},
 {"date":"2026-11-23","time":"23:36","judge":"LMA","case":"2:26-cv-02234","doc":"10","title":"Robinson v. Vannoy et al","event":"Extension of Time to Answer","submit":"","src":"rss"},
+{"date":"2026-11-23","time":"11:06","judge":"DJP","case":"2:26-cv-02330","doc":"9","title":"Rampart Allstars, LLC v. G6 Americas Proptech LLC et al","event":"Entry of Default","submit":"","src":"rss"},
 {"date":"2026-11-23","time":"11:41","judge":"ASJ","case":"2:26-cv-02412","doc":"11","title":"Ward v. BH Management","event":"Appoint Counsel","submit":"","src":"rss"},
 {"date":"2026-11-23","time":"15:22","judge":"","case":"2:26-cv-02518","doc":"12","title":"ElementUS Minerals LLC v. Atalco Gramercy LLC","event":"Expedite","submit":"","src":"rss"},
 {"date":"2026-11-23","time":"14:58","judge":"","case":"2:26-cv-02532","doc":"8","title":"Dobrescu v. Bladimir-Jimenez Rivera et al","event":"Enroll as Counsel of Record","submit":"","src":"rss"},
@@ -1378,5 +1379,14 @@
 {"date":"2026-11-23","time":"14:55","judge":"","case":"2:26-cv-02694","doc":"3","title":"W. v. Defendant 1 et al","event":"Leave to File Document","submit":"","src":"rss"},
 {"date":"2026-11-23","time":"15:06","judge":"","case":"2:26-cv-02694","doc":"4","title":"W. v. Defendant 1 et al","event":"Miscellaneous Relief","submit":"","src":"rss"},
 {"date":"2026-11-23","time":"15:19","judge":"","case":"2:26-cv-02694","doc":"5","title":"W. v. Defendant 1 et al","event":"Miscellaneous Relief","submit":"","src":"rss"},
-{"date":"2026-11-24","time":"09:06","judge":"BWA","case":"2:26-cv-00937","doc":"12","title":"Bruno  v. Social Security Administration","event":"Remand to U.S. Agency","submit":"","src":"rss"}
+{"date":"2026-11-24","time":"10:28","judge":"JTM","case":"2:22-cv-03662","doc":"177","title":"Pittman Assets MSSC, LLC v. Scottsdale Insurance Company","event":"Miscellaneous Relief","submit":"","src":"rss"},
+{"date":"2026-11-24","time":"10:27","judge":"","case":"2:25-cv-00570","doc":"27","title":"QSL New Orleans, LLC v. Asher Materials, LLC","event":"Miscellaneous Relief","submit":"","src":"rss"},
+{"date":"2026-11-24","time":"10:31","judge":"","case":"2:25-cv-00570","doc":"28","title":"QSL New Orleans, LLC v. Asher Materials, LLC","event":"Expedite","submit":"","src":"rss"},
+{"date":"2026-11-24","time":"10:36","judge":"","case":"2:25-cv-00570","doc":"29","title":"QSL New Orleans, LLC v. Asher Materials, LLC","event":"Miscellaneous Relief","submit":"","src":"rss"},
+{"date":"2026-11-24","time":"09:53","judge":"JTM","case":"2:26-cv-00159","doc":"24","title":"South Louisiana Electric Cooperative Association v. Virginia Transform","event":"Enroll as Counsel of Record","submit":"","src":"rss"},
+{"date":"2026-11-24","time":"10:13","judge":"SSV","case":"2:26-cv-00695","doc":"119","title":"Coleman v. Taylor-Seidenbach, Inc. et al","event":"Extension of Time to Answer","submit":"","src":"rss"},
+{"date":"2026-11-24","time":"09:06","judge":"BWA","case":"2:26-cv-00937","doc":"12","title":"Bruno  v. Social Security Administration","event":"Remand to U.S. Agency","submit":"","src":"rss"},
+{"date":"2026-11-24","time":"09:56","judge":"WJC","case":"2:26-cv-01419","doc":"11","title":"Williams v. Reitz","event":"Enroll as Counsel of Record","submit":"","src":"rss"},
+{"date":"2026-11-24","time":"10:08","judge":"WJC","case":"2:26-cv-02442","doc":"9","title":"Bossier v. St. Charles Parish Sheriff's Office et al","event":"Miscellaneous Relief","submit":"","src":"rss"},
+{"date":"2026-11-24","time":"10:08","judge":"","case":"2:26-cv-02694","doc":"6","title":"W. v. Defendant 1 et al","event":"Seal Document","submit":"","src":"rss"}
 ]
