@@ -4463,7 +4463,7 @@
 {"case":"2:24-cv-02344","doc":"234","outcome":"denied_wop","src":"govinfo_text","at":"2026-10-19","motion_doc":""},
 {"case":"2:24-cv-02352","doc":"20","outcome":"granted","src":"docket_text","at":"2026-10-20","motion_doc":"17"},
 {"case":"2:24-cv-02353","doc":"31","outcome":"granted","src":"docket_text","at":"2026-10-20","motion_doc":"25","motion_filed":"2025-02-28"},
-{"case":"2:24-cv-02360","doc":"10","outcome":"granted","src":"docket_text","at":"2026-10-20","motion_doc":"5"},
+{"case":"2:24-cv-02360","doc":"10","outcome":"granted","src":"docket_text","at":"2026-10-20","motion_doc":"5","motion_filed":"2025-01-30"},
 {"case":"2:24-cv-02361","doc":"12","outcome":"denied","src":"docket_text","at":"2026-10-20","motion_doc":"8"},
 {"case":"2:24-cv-02363","doc":"49","outcome":"granted","src":"govinfo_text","at":"2026-10-19","motion_doc":"40","motion_filed":"2026-03-17"},
 {"case":"2:24-cv-02364","doc":"39","outcome":"granted","src":"docket_text","at":"2026-10-20","motion_doc":"11","motion_filed":"2024-11-15"},
