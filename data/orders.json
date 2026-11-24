@@ -3909,5 +3909,7 @@
 {"date":"2026-11-23","time":"17:00","judge":"","case":"2:26-cv-02674","doc":"4","title":"Chiappetta v. Nave Shipping S.A.","event":"Order Transferring Case","src":"courtlistener"},
 {"date":"2026-11-23","time":"17:11","judge":"DJP","case":"2:26-cv-00394","doc":"12","title":"Bush v. Allstate Vehicle and Property Insurance Company","event":"Order on Motion to Compel","src":"courtlistener"},
 {"date":"2026-11-23","time":"17:19","judge":"CJB","case":"2:26-cv-01613","doc":"12","title":"Aleman v. Bickham","event":"Order on Motion for Extension of Time to Answer","src":"courtlistener"},
-{"date":"2026-11-23","time":"17:24","judge":"DJP","case":"2:25-cv-00177","doc":"40","title":"Pelotto v. Oxy Inc.","event":"Order AND Set Hearings","src":"courtlistener"}
+{"date":"2026-11-23","time":"17:24","judge":"DJP","case":"2:25-cv-00177","doc":"40","title":"Pelotto v. Oxy Inc.","event":"Order AND Set Hearings","src":"courtlistener"},
+{"date":"2026-11-24","time":"08:58","judge":"EEF","case":"2:26-cv-02584","doc":"5","title":"Rutter v. Novix Outdoors","event":"Set Hearings","src":"rss"},
+{"date":"2026-11-24","time":"09:36","judge":"ILRL","case":"2:25-cv-02121","doc":"38","title":"Phillips v. St. James Parish Hospital","event":"Set Hearings","src":"rss"}
 ]
