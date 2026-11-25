@@ -1457,9 +1457,11 @@
 {"date":"2026-11-25","time":"08:08","judge":"SM","case":"2:25-cv-01462","doc":"53","title":"Agee v. Hilton New Orleans, LLC  et al","event":"In Limine","submit":"","src":"rss"},
 {"date":"2026-11-25","time":"08:14","judge":"BSL","case":"2:25-cv-01655","doc":"129","title":"Stroupe v. State Farm Insurance Life Company","event":"Compel","submit":"","src":"rss"},
 {"date":"2026-11-25","time":"09:19","judge":"","case":"2:25-cv-02050","doc":"29","title":"Purnell v. Harley-Davidson Motor Company, Inc. et al","event":"Reopen Case","submit":"","src":"rss"},
+{"date":"2026-11-25","time":"13:00","judge":"EEF","case":"2:25-cv-02106","doc":"43","title":"Collins v. Orleans Parish Sheriff's Office et al","event":"Extension of Time to File Response/Reply","submit":"","src":"rss"},
 {"date":"2026-11-25","time":"09:49","judge":"","case":"2:25-cv-02473","doc":"20","title":"Hite v. Ross Dress for Less, Inc.","event":"Substitute Attorney","submit":"","src":"rss"},
 {"date":"2026-11-25","time":"11:46","judge":"NJB","case":"2:26-cv-00344","doc":"36","title":"McElroy v. Cox Operating, LLC et al","event":"Leave to File Document","submit":"","src":"rss"},
 {"date":"2026-11-25","time":"12:08","judge":"NJB","case":"2:26-cv-00444","doc":"42","title":"Labat et al v. Anco Insulations, Inc. et al","event":"Leave to File Document","submit":"","src":"rss"},
+{"date":"2026-11-25","time":"13:06","judge":"","case":"2:26-cv-00458","doc":"19","title":"Fabre v. Social Security Administration","event":"Attorney Fees","submit":"","src":"rss"},
 {"date":"2026-11-25","time":"08:49","judge":"GGG","case":"2:26-cv-00640","doc":"105","title":"Torres v. Taylor-Seidenbach, Inc. et al","event":"Dismiss","submit":"","src":"rss"},
 {"date":"2026-11-25","time":"10:29","judge":"","case":"2:26-cv-01517","doc":"23","title":"Baack v. Hoist & Crane Service Group, Inc.","event":"Extension of Deadlines","submit":"","src":"rss"},
 {"date":"2026-11-25","time":"10:44","judge":"EEF","case":"2:26-cv-01712","doc":"7","title":"Williams v. Board of Supervisors of Community and Technical Colleges","event":"Extension of Time to Answer","submit":"","src":"rss"},
@@ -1467,6 +1469,8 @@
 {"date":"2026-11-25","time":"11:45","judge":"GGG","case":"2:26-cv-01784","doc":"18","title":"Bell v. Dillard University","event":"Miscellaneous Relief","submit":"","src":"rss"},
 {"date":"2026-11-25","time":"11:25","judge":"WBV","case":"2:26-cv-01836","doc":"45","title":"Miller et al v. Smitty's Supply, Inc. et al","event":"Transfer Case","submit":"","src":"rss"},
 {"date":"2026-11-25","time":"11:40","judge":"WBV","case":"2:26-cv-01929","doc":"73","title":"Bunch v. IDscan.net, Inc.","event":"Continue","submit":"","src":"rss"},
+{"date":"2026-11-25","time":"13:23","judge":"WBV","case":"2:26-cv-01929","doc":"74","title":"Bunch v. IDscan.net, Inc.","event":"Appear Pro Hac Vice","submit":"","src":"rss"},
+{"date":"2026-11-25","time":"13:32","judge":"WBV","case":"2:26-cv-01929","doc":"75","title":"Bunch v. IDscan.net, Inc.","event":"Appear Pro Hac Vice","submit":"","src":"rss"},
 {"date":"2026-11-25","time":"10:57","judge":"","case":"2:26-cv-02031","doc":"12","title":"Ceasar et al v. Huisman North America Services, LLC et al","event":"Appear Pro Hac Vice","submit":"","src":"rss"},
 {"date":"2026-11-25","time":"10:17","judge":"","case":"2:26-cv-02093","doc":"11","title":"Moye v. United States of America","event":"Extension of Time to Answer","submit":"","src":"rss"},
 {"date":"2026-11-25","time":"10:20","judge":"BWA","case":"2:26-cv-02109","doc":"41","title":"Lycee Francais International De La Louisiane v. Zaghia","event":"Sanctions","submit":"","src":"rss"},
@@ -1475,6 +1479,7 @@
 {"date":"2026-11-25","time":"12:15","judge":"","case":"2:26-cv-02400","doc":"5","title":"Johnson-O'Neal v. Jefferson Parish School Board","event":"Appear Pro Hac Vice","submit":"","src":"rss"},
 {"date":"2026-11-25","time":"11:38","judge":"","case":"2:26-cv-02475","doc":"10","title":"Worth Capital Holdings 99 LLC v. American Natural Energy Corporation e","event":"Enroll as Counsel of Record","submit":"","src":"rss"},
 {"date":"2026-11-25","time":"09:41","judge":"WBV","case":"2:26-cv-02578","doc":"8","title":"Aptim Corp. et al v. Iron Mountain Information Management, LLC","event":"Extension of Time to File Document","submit":"","src":"rss"},
+{"date":"2026-11-25","time":"13:10","judge":"","case":"2:26-cv-02654","doc":"7","title":"Chin v. Safeport Insurance Company et al","event":"Dismiss","submit":"","src":"rss"},
 {"date":"2026-11-25","time":"10:22","judge":"WBV","case":"2:26-cv-02672","doc":"22","title":"In the Matter of Nave Shipping S.A.","event":"Miscellaneous Relief","submit":"","src":"rss"},
 {"date":"2026-11-25","time":"12:24","judge":"","case":"2:26-cv-02710","doc":"2","title":"Henderson v. Tekgo, Inc.","event":"Proceed In Forma Pauperis","submit":"","src":"rss"}
 ]
