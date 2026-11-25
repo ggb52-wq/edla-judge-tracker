@@ -3969,6 +3969,7 @@
 {"date":"2026-11-24","time":"14:25","judge":"","case":"2:26-cv-02331","doc":"10","title":"Prudential Insurance Company of America v. Edwards","event":"Order on Motion for Miscellaneous Relief","src":"courtlistener"},
 {"date":"2026-11-24","time":"14:29","judge":"","case":"2:26-cv-02331","doc":"11","title":"Prudential Insurance Company of America v. Edwards","event":"Judgment","src":"courtlistener"},
 {"date":"2026-11-24","time":"14:35","judge":"WBV","case":"2:26-cv-02691","doc":"4","title":"Oman v. Nave Shipping S.A.","event":"Order Transferring Case","src":"courtlistener"},
+{"date":"2026-11-24","time":"14:43","judge":"WBV","case":"2:26-cv-02672","doc":"15","title":"In the Matter of Nave Shipping S.A.","event":"Order on Motion to Expedite","src":"courtlistener"},
 {"date":"2026-11-24","time":"14:46","judge":"","case":"2:26-cv-02518","doc":"15","title":"ElementUS Minerals LLC v. Atalco Gramercy LLC","event":"Status Conference AND ~Util - Set/Reset Motion and R&R Deadlines/Hearings","src":"courtlistener"},
 {"date":"2026-11-24","time":"14:57","judge":"BSL","case":"2:25-cv-02542","doc":"27","title":"Garcias v. Walmart Inc","event":"Order on Motion for Protective Order","src":"courtlistener"},
 {"date":"2026-11-24","time":"14:57","judge":"LMA","case":"2:26-cv-01553","doc":"18","title":"Administrators of the Tulane Educational Fund v. Thread Bioscience, In","event":"Set Hearings","src":"rss"},
@@ -3992,7 +3993,13 @@
 {"date":"2026-11-24","time":"17:51","judge":"LMA","case":"2:26-cv-01722","doc":"17","title":"Kinsale Insurance Company v. Greg Cantrell, Inc. et al","event":"Set Hearings","src":"rss"},
 {"date":"2026-11-24","time":"21:42","judge":"SSV","case":"2:24-cv-00714","doc":"61","title":"Wilson v. City of Bogalusa","event":"Order on Motion for Miscellaneous Relief","src":"courtlistener"},
 {"date":"2026-11-25","time":"08:35","judge":"GGG","case":"2:26-cv-01908","doc":"13","title":"Hebert v. Chosen Foods LLC","event":"Case Transferred Out - District","src":"rss"},
+{"date":"2026-11-25","time":"09:11","judge":"AJ","case":"2:25-cv-01812","doc":"111","title":"Doe v. Choice Hotels International, Inc.","event":"Order on Motion to Dismiss/Failure to State a Claim","src":"courtlistener"},
 {"date":"2026-11-25","time":"10:00","judge":"AJ","case":"2:25-cv-01812","doc":"112","title":"Doe v. Choice Hotels International, Inc. et al","event":"Judgment","src":"rss"},
 {"date":"2026-11-25","time":"10:37","judge":"NJB","case":"2:26-cv-00947","doc":"23","title":"Gaudin et al v. National Railroad Passenger Corporation (Amtrak)","event":"Order","src":"rss"},
-{"date":"2026-11-25","time":"10:47","judge":"SM","case":"2:25-cv-01462","doc":"55","title":"Agee v. Hilton New Orleans, LLC  et al","event":"Order","src":"rss"}
+{"date":"2026-11-25","time":"10:45","judge":"SM","case":"2:25-cv-01462","doc":"54","title":"Agee v. Hilton New Orleans, LLC","event":"Order on Motion to Enroll as Counsel of Record","src":"courtlistener"},
+{"date":"2026-11-25","time":"10:47","judge":"SM","case":"2:25-cv-01462","doc":"55","title":"Agee v. Hilton New Orleans, LLC  et al","event":"Order","src":"rss"},
+{"date":"2026-11-25","time":"11:02","judge":"BSL","case":"2:25-cv-01355","doc":"303","title":"Landix v. Taylor Seidenbach, Inc. et al","event":"Order","src":"rss"},
+{"date":"2026-11-25","time":"11:06","judge":"BSL","case":"2:25-cv-00243","doc":"77","title":"Sullivan v. Crosby","event":"Judgment","src":"courtlistener"},
+{"date":"2026-11-25","time":"11:22","judge":"","case":"2:26-cv-00629","doc":"10","title":"Washington v. Lucedale Forestry Product LLC","event":"Order Dismissing Case","src":"courtlistener"},
+{"date":"2026-11-25","time":"11:51","judge":"","case":"2:26-cv-02415","doc":"11","title":"Humphrey v. Charlymar Transport LLC","event":"Order AND Set Hearings","src":"courtlistener"}
 ]
