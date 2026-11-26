@@ -3032,16 +3032,5 @@
 {"at":"2026-11-12T14:38-06:00","case":"2:25-cv-02354","doc":"197","event":"Summons Returned Executed","title":"Arceneaux v. Huntington Ingalls Incorporated et al","judge":"AJ"},
 {"at":"2026-11-12T14:37-06:00","case":"2:26-cv-02577","doc":"4","event":"Order","title":"Gary v. Orleans Levee District et al","judge":"BWA"},
 {"at":"2026-11-12T14:35-06:00","case":"2:26-cv-02577","doc":"3","event":"Order on Motion for Leave to Proceed In Forma Pauperis","title":"Gary v. Orleans Levee District et al","judge":"BWA"},
-{"at":"2026-11-12T14:24-06:00","case":"2:25-cv-01750","doc":"99","event":"Settlement Conference","title":"Dragon Limited, Inc. v. Carbon Asset Developer Associates, LLC et al","judge":"BSL"},
-{"at":"2026-11-12T14:21-06:00","case":"2:25-cv-01655","doc":"123","event":"~Util - Set/Reset Motion and R&R Deadlines/Hearings","title":"Stroupe v. State Farm Insurance Life Company","judge":"BSL"},
-{"at":"2026-11-12T14:21-06:00","case":"2:25-cv-01655","doc":"123","event":"Order","title":"Stroupe v. State Farm Insurance Life Company","judge":"BSL"},
-{"at":"2026-11-12T14:20-06:00","case":"2:26-cv-00824","doc":"68","event":"Order on Motion to Substitute Attorney","title":"Mason III v. Eagle, Inc. et al","judge":"GGG"},
-{"at":"2026-11-12T14:19-06:00","case":"2:26-cv-00824","doc":"67","event":"Order on Motion to Enroll as Counsel of Record","title":"Mason III v. Eagle, Inc. et al","judge":"GGG"},
-{"at":"2026-11-12T14:19-06:00","case":"2:24-cv-01000","doc":"185","event":"Order on Motion for Protective Order","title":"Breaux v. Alliance Liftboats, LLC et al","judge":"SM"},
-{"at":"2026-11-12T14:17-06:00","case":"2:25-cv-00922","doc":"562","event":"Order on Motion to Enroll as Counsel of Record","title":"Hotard v. Taylor-Seidenbach, Inc. et al","judge":"GGG"},
-{"at":"2026-11-12T14:15-06:00","case":"2:25-cv-00922","doc":"561","event":"Order on Motion to Dismiss Party","title":"Hotard v. Taylor-Seidenbach, Inc. et al","judge":"GGG"},
-{"at":"2026-11-12T14:14-06:00","case":"2:25-cv-02042","doc":"40","event":"Response to Discovery Request","title":"Price v. Evolve Bancorp Inc. et al","judge":"JCZ"},
-{"at":"2026-11-12T14:14-06:00","case":"2:25-cv-00922","doc":"560","event":"Order on Motion to Dismiss Party","title":"Hotard v. Taylor-Seidenbach, Inc. et al","judge":"GGG"},
-{"at":"2026-11-12T14:12-06:00","case":"2:25-cv-02062","doc":"20","event":"Dismiss/Failure to State a Claim/FRCP12(b)(6)","title":"Holmes v. Jackson et al","judge":"ILRL"},
-{"at":"2026-11-12T14:12-06:00","case":"2:25-cv-00922","doc":"559","event":"Order on Motion to Dismiss Party","title":"Hotard v. Taylor-Seidenbach, Inc. et al","judge":"GGG"}
+{"at":"2026-11-12T14:24-06:00","case":"2:25-cv-01750","doc":"99","event":"Settlement Conference","title":"Dragon Limited, Inc. v. Carbon Asset Developer Associates, LLC et al","judge":"BSL"}
 ]
