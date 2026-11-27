@@ -2736,13 +2736,5 @@
 {"at":"2026-11-13T15:22-06:00","case":"2:25-cv-01486","doc":"21","event":"~Util - Set/Reset Hearings","title":"Stewart v. Tangipahoa Parish School System","judge":"JVM"},
 {"at":"2026-11-13T15:22-06:00","case":"2:25-cv-01486","doc":"21","event":"Order","title":"Stewart v. Tangipahoa Parish School System","judge":"JVM"},
 {"at":"2026-11-13T15:20-06:00","case":"2:26-cv-02107","doc":"10","event":"Order","title":"Nelson v. Vernon et al","judge":"BWA"},
-{"at":"2026-11-13T15:19-06:00","case":"2:24-cv-00714","doc":"54","event":"Proposed Jury Verdict Form","title":"Wilson v. City of Bogalusa et al","judge":"SSV"},
-{"at":"2026-11-13T15:18-06:00","case":"2:25-cv-02050","doc":"28","event":"Notice of Appearance","title":"Purnell v. Harley-Davidson Motor Company, Inc. et al","judge":""},
-{"at":"2026-11-13T15:18-06:00","case":"2:24-cv-00714","doc":"53","event":"Proposed Jury Instructions","title":"Wilson v. City of Bogalusa et al","judge":"SSV"},
-{"at":"2026-11-13T15:17-06:00","case":"2:25-cv-01300","doc":"44","event":"Order of Recusal","title":"In Re: Stewart Barge Number Twelve, L.L.C. as Owner of the SC 740 Barge, Petitioning for Exoneration from or Limitation of Liability","judge":"BWA"},
-{"at":"2026-11-13T15:17-06:00","case":"2:24-cv-00714","doc":"52","event":"Proposed Voir Dire","title":"Wilson v. City of Bogalusa et al","judge":"SSV"},
-{"at":"2026-11-13T15:15-06:00","case":"2:24-cv-00714","doc":"51","event":"Proposed Pretrial Order","title":"Wilson v. City of Bogalusa et al","judge":"SSV"},
-{"at":"2026-11-13T15:08-06:00","case":"2:25-cv-00804","doc":"393","event":"Stipulation of Dismissal","title":"Burches v. Equifax Information Services, LLC et al","judge":"SM"},
-{"at":"2026-11-13T15:07-06:00","case":"2:25-cv-02332","doc":"36","event":"~Util - Terminate Motions","title":"Ghost City Tours of Georgia, LLC v. US Ghost Adventures, LLC et al","judge":"SSV"},
-{"at":"2026-11-13T15:07-06:00","case":"2:25-cv-02332","doc":"36","event":"Judgment - Consent","title":"Ghost City Tours of Georgia, LLC v. US Ghost Adventures, LLC et al","judge":"SSV"}
+{"at":"2026-11-13T15:19-06:00","case":"2:24-cv-00714","doc":"54","event":"Proposed Jury Verdict Form","title":"Wilson v. City of Bogalusa et al","judge":"SSV"}
 ]
