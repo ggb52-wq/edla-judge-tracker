@@ -2803,14 +2803,5 @@
 {"at":"2026-11-13T13:22-06:00","case":"2:26-cv-02364","doc":"9","event":"Dismiss/Failure to State a Claim/FRCP12(b)(6)","title":"Geraci v. Tregre et al","judge":"EEF"},
 {"at":"2026-11-13T13:22-06:00","case":"2:26-cv-01458","doc":"13","event":"Order on Motion for Extension of Time to File","title":"In Re: Crosby Marine Transportation, LLC, et al","judge":"WJC"},
 {"at":"2026-11-13T13:21-06:00","case":"2:26-cv-01457","doc":"18","event":"Order on Motion for Extension of Time to File","title":"In Re: Crosby Marine Transportation, LLC, et al","judge":"WJC"},
-{"at":"2026-11-13T13:20-06:00","case":"2:23-cv-01839","doc":"239","event":"Notice (Other)","title":"Louisiana State et al v. Department of Homeland Security et al","judge":"DJP"},
-{"at":"2026-11-13T13:19-06:00","case":"2:26-cv-01456","doc":"14","event":"Order on Motion for Extension of Time to File","title":"In Re:  Crosby Marine Transportation, LLC, et al","judge":"WJC"},
-{"at":"2026-11-13T13:16-06:00","case":"2:26-cv-01929","doc":"56","event":"Appear Pro Hac Vice","title":"Bunch v. IDscan.net, Inc.","judge":"WBV"},
-{"at":"2026-11-13T13:15-06:00","case":"2:26-cv-01620","doc":"10","event":"Order on Motion to Withdraw as Attorney","title":"Hermans Construction LLC v. Aladdin Construction Company, Inc.","judge":""},
-{"at":"2026-11-13T13:13-06:00","case":"2:25-cv-02078","doc":"58","event":"Order Setting/Resetting Hearing on Motion","title":"Rouyer v. Jones, et al","judge":"BWA"},
-{"at":"2026-11-13T13:09-06:00","case":"2:26-cv-01929","doc":"55","event":"~Util - Terminate Motions","title":"Bunch v. IDscan.net, Inc.","judge":"WBV"},
-{"at":"2026-11-13T13:09-06:00","case":"2:26-cv-01929","doc":"55","event":"Order","title":"Bunch v. IDscan.net, Inc.","judge":"WBV"},
-{"at":"2026-11-13T13:06-06:00","case":"2:26-cv-02499","doc":"6","event":"~Util - Create Case Association","title":"Collins v. IDscan.net, Inc.","judge":""},
-{"at":"2026-11-13T13:06-06:00","case":"2:26-cv-02499","doc":"6","event":"Order","title":"Collins v. IDscan.net, Inc.","judge":""},
-{"at":"2026-11-13T13:06-06:00","case":"2:26-cv-02499","doc":"6","event":"~Util - Set/Clear Flags","title":"Collins v. IDscan.net, Inc.","judge":""}
+{"at":"2026-11-13T13:20-06:00","case":"2:23-cv-01839","doc":"239","event":"Notice (Other)","title":"Louisiana State et al v. Department of Homeland Security et al","judge":"DJP"}
 ]
