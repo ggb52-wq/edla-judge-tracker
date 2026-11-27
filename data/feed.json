@@ -1,4 +1,10 @@
 [
+{"at":"2026-11-27T10:59-06:00","case":"2:25-cv-00804","doc":"","event":"Correction of Docket Entry by Clerk","title":"Burches v. Equifax Information Services, LLC et al","judge":"SM"},
+{"at":"2026-11-27T10:53-06:00","case":"2:26-cv-02715","doc":"3","event":"Order","title":"Champange et al v. Crescent Louisiana Midstream LLC et al","judge":""},
+{"at":"2026-11-27T10:42-06:00","case":"2:25-cv-00804","doc":"","event":"Correction of Docket Entry by Clerk","title":"Burches v. Equifax Information Services, LLC et al","judge":"SM"},
+{"at":"2026-11-27T10:31-06:00","case":"2:26-cv-01738","doc":"12","event":"Order on Motion to Enroll as Counsel of Record","title":"Hernandez v. Travers et al","judge":""},
+{"at":"2026-11-27T10:21-06:00","case":"2:26-cv-02672","doc":"30","event":"Order on Motion for Miscellaneous Relief","title":"In the Matter of Nave Shipping S.A.","judge":"WBV"},
+{"at":"2026-11-27T10:05-06:00","case":"2:26-cv-00550","doc":"","event":"Correction of Docket Entry by Clerk","title":"Knight v. Bayou Construction Inc.","judge":""},
 {"at":"2026-11-27T09:54-06:00","case":"2:25-cv-02106","doc":"","event":"Correction of Docket Entry by Clerk","title":"Collins v. Orleans Parish Sheriff's Office et al","judge":"EEF"},
 {"at":"2026-11-27T09:20-06:00","case":"2:26-cv-02716","doc":"","event":"Initial Case Assignment","title":"Frerene, Jr. v. USAA General Indemnity Company","judge":""},
 {"at":"2026-11-27T09:13-06:00","case":"2:26-cv-02715","doc":"","event":"Initial Case Assignment","title":"Champange et al v. Crescent Louisiana Midstream LLC et al","judge":""},
@@ -2866,10 +2872,5 @@
 {"at":"2026-11-13T11:13-06:00","case":"2:24-cv-01702","doc":"74","event":"USCA Judgment","title":"Dyer v. New Orleans City, et al","judge":"JVM"},
 {"at":"2026-11-13T11:13-06:00","case":"2:22-cv-05303","doc":"189","event":"Transcript","title":"Rogers et al v. Orleans Parish Sheriff Office et al","judge":"DJP"},
 {"at":"2026-11-13T11:08-06:00","case":"2:25-cv-02042","doc":"","event":"Correction of Docket Entry by Clerk","title":"Price v. Evolve Bancorp Inc. et al","judge":"JCZ"},
-{"at":"2026-11-13T11:08-06:00","case":"2:23-cv-01839","doc":"229","event":"Notice (Other)","title":"Louisiana State et al v. Department of Homeland Security et al","judge":"DJP"},
-{"at":"2026-11-13T11:06-06:00","case":"2:26-cv-02605","doc":"1","event":"Complaint","title":"Brunal et al v. Topa Insurance Company","judge":""},
-{"at":"2026-11-13T10:59-06:00","case":"2:25-cv-01355","doc":"278","event":"Dismiss Party","title":"Landix v. Taylor Seidenbach, Inc. et al","judge":"BSL"},
-{"at":"2026-11-13T10:58-06:00","case":"2:25-cv-01355","doc":"277","event":"Dismiss Party","title":"Landix v. Taylor Seidenbach, Inc. et al","judge":"BSL"},
-{"at":"2026-11-13T10:57-06:00","case":"2:25-cv-01394","doc":"89","event":"Reply to Response to Motion","title":"Edmond v. Venture Global LNG, Inc. et al","judge":"SSV"},
-{"at":"2026-11-13T10:56-06:00","case":"2:26-cv-01224","doc":"5","event":"Default Judgment","title":"United States of America v. Currency","judge":""}
+{"at":"2026-11-13T11:08-06:00","case":"2:23-cv-01839","doc":"229","event":"Notice (Other)","title":"Louisiana State et al v. Department of Homeland Security et al","judge":"DJP"}
 ]
