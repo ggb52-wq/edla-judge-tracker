@@ -13,7 +13,7 @@
 {"at":"2026-11-27T09:54-06:00","case":"2:25-cv-02106","doc":"","event":"Correction of Docket Entry by Clerk","title":"Collins v. Orleans Parish Sheriff's Office et al","judge":"EEF"},
 {"at":"2026-11-27T09:20-06:00","case":"2:26-cv-02716","doc":"","event":"Initial Case Assignment","title":"Frerene, Jr. v. USAA General Indemnity Company","judge":""},
 {"at":"2026-11-27T09:13-06:00","case":"2:26-cv-02715","doc":"","event":"Initial Case Assignment","title":"Champange et al v. Crescent Louisiana Midstream LLC et al","judge":""},
-{"at":"2026-11-27T08:31-06:00","case":"2:26-cv-02701","doc":"3","event":"Order on Motion for Leave to Proceed In Forma Pauperis","title":"Alexander v. Dillard University","judge":""},
+{"at":"2026-11-27T08:31-06:00","case":"2:26-cv-02701","doc":"3","event":"Order on Motion for Leave to Proceed In Forma Pauperis","title":"Alexander v. Dillard University","judge":"WBV"},
 {"at":"2026-11-27T07:26-06:00","case":"2:24-cv-00639","doc":"200","event":"Proposed Pretrial Order","title":"Porche v. Zachry Holdings, Inc. et al","judge":"EEF"},
 {"at":"2026-11-25T22:38-06:00","case":"2:25-cv-01686","doc":"37","event":"Summary Judgment","title":"Lacour v. Walmart Inc. et al","judge":"BWA"},
 {"at":"2026-11-25T21:00-06:00","case":"2:25-cv-02178","doc":"50","event":"Response/Memorandum in Opposition to Motion","title":"Pierce  v. Golden Meadow Town et al","judge":"WJC"},
@@ -279,8 +279,8 @@
 {"at":"2026-11-24T15:55-06:00","case":"2:26-cv-02672","doc":"20","event":"Answer to Complaint","title":"In the Matter of Nave Shipping S.A.","judge":"SM"},
 {"at":"2026-11-24T15:53-06:00","case":"2:26-cv-02672","doc":"19","event":"Answer to Complaint","title":"In the Matter of Nave Shipping S.A.","judge":"SM"},
 {"at":"2026-11-24T15:52-06:00","case":"2:25-cv-01762","doc":"21","event":"Witness and Exhibit List","title":"Murry et al v. Gomez et al","judge":"BWA"},
-{"at":"2026-11-24T15:49-06:00","case":"2:26-cv-02701","doc":"2","event":"Proceed In Forma Pauperis","title":"Alexander v. Dillard University","judge":""},
-{"at":"2026-11-24T15:47-06:00","case":"2:26-cv-02701","doc":"1","event":"Complaint","title":"Alexander v. Dillard University","judge":""},
+{"at":"2026-11-24T15:49-06:00","case":"2:26-cv-02701","doc":"2","event":"Proceed In Forma Pauperis","title":"Alexander v. Dillard University","judge":"WBV"},
+{"at":"2026-11-24T15:47-06:00","case":"2:26-cv-02701","doc":"1","event":"Complaint","title":"Alexander v. Dillard University","judge":"WBV"},
 {"at":"2026-11-24T15:45-06:00","case":"2:25-cv-02333","doc":"52","event":"Partial Summary Judgment","title":"Gibbs v. Byron Energy LLC et al","judge":"JCZ"},
 {"at":"2026-11-24T15:45-06:00","case":"2:23-cv-01773","doc":"141","event":"Withdraw Document","title":"Neyland et al  v. Hutson et al","judge":"ILRL"},
 {"at":"2026-11-24T15:45-06:00","case":"2:23-cv-01773","doc":"141","event":"Withdraw as Attorney","title":"Neyland et al  v. Hutson et al","judge":"ILRL"},
@@ -2833,11 +2833,5 @@
 {"at":"2026-11-13T12:27-06:00","case":"2:26-cv-02461","doc":"10","event":"Return of Service (Non Summons & Complaint)","title":"Alexander v. Vannoy et al","judge":""},
 {"at":"2026-11-13T12:23-06:00","case":"2:22-cv-03490","doc":"147","event":"Set Hearings","title":"Upper Room Bible Church, Inc. v. Sedgwick Delegated Authority et al","judge":"LMA"},
 {"at":"2026-11-13T12:23-06:00","case":"2:22-cv-03490","doc":"147","event":"Order","title":"Upper Room Bible Church, Inc. v. Sedgwick Delegated Authority et al","judge":"LMA"},
-{"at":"2026-11-13T12:21-06:00","case":"2:23-cv-01839","doc":"234","event":"Notice (Other)","title":"Louisiana State et al v. Department of Homeland Security et al","judge":"DJP"},
-{"at":"2026-11-13T12:20-06:00","case":"2:19-cv-11682","doc":"18","event":"Judgment","title":"Nemzoff v. Louisiana Children's Medical Center et al","judge":""},
-{"at":"2026-11-13T12:18-06:00","case":"2:25-cv-02239","doc":"23","event":"Notice (Other)","title":"Taylor v. Treasure Chest Casino, L.L.C.","judge":"DJP"},
-{"at":"2026-11-13T12:17-06:00","case":"2:25-cv-01750","doc":"101","event":"1 - Notice of Deficient Filing","title":"Dragon Limited, Inc. v. Carbon Asset Developer Associates, LLC et al","judge":"BSL"},
-{"at":"2026-11-13T12:16-06:00","case":"2:19-cv-11680","doc":"156","event":"Judgment","title":"Nemzoff v. Louisiana Children's Medical Center, Inc. et al","judge":"DJP"},
-{"at":"2026-11-13T12:10-06:00","case":"2:26-cv-02046","doc":"11","event":"Evidentiary Hearing","title":"Dunn v. French et al","judge":"JCZ"},
-{"at":"2026-11-13T12:07-06:00","case":"2:22-cv-01271","doc":"316","event":"Order to Pay Jurors Meals","title":"Hutchinson-Harper, et al v. Jefferson Parish School Board, et al","judge":"DJP"}
+{"at":"2026-11-13T12:21-06:00","case":"2:23-cv-01839","doc":"234","event":"Notice (Other)","title":"Louisiana State et al v. Department of Homeland Security et al","judge":"DJP"}
 ]

@@ -37462,7 +37462,7 @@
 ],
 "docket_id":68340463,
 "judge":"EEF",
-"seen":"2026-11-04",
+"seen":"2026-11-27",
 "flags":[
 "PROTO",
 "REOPEN"
@@ -41983,7 +41983,7 @@
 ],
 "docket_id":69243553,
 "judge":"WBV",
-"seen":"2026-11-26"
+"seen":"2026-11-27"
 },
 {
 "case":"2:24-cv-02448",
@@ -61660,7 +61660,7 @@
 "Travers"
 ],
 "docket_id":73735808,
-"seen":"2026-11-13"
+"seen":"2026-11-27"
 },
 {
 "case":"2:26-cv-01744",
@@ -66095,7 +66095,7 @@
 "filed":"2026-11-20",
 "docket_id":75152389,
 "judge":"WBV",
-"seen":"2026-11-26",
+"seen":"2026-11-27",
 "reassigned":[
 {
 "date":"2026-11-24",
@@ -66168,6 +66168,18 @@
 "seen":"2026-11-26"
 },
 {
+"case":"2:26-cv-02701",
+"referred":"Donna Phillips Currault",
+"filed":"2026-11-23",
+"parties":[
+"Alexander",
+"Dillard University"
+],
+"docket_id":75171270,
+"judge":"WBV",
+"seen":"2026-11-27"
+},
+{
 "case":"2:26-cv-02704",
 "referred":"Donna Phillips Currault",
 "nos":"890 Other Statutory Actions",
@@ -66224,6 +66236,16 @@
 "seen":"2026-11-26",
 "nos":"Habeas Corpus (General)",
 "cause":"28:2254 Petition for Writ of Habeas Corpus (State)"
+},
+{
+"case":"2:26-cv-02715",
+"filed":"2026-11-25",
+"parties":[
+"Champange",
+"Crescent Louisiana Midstream LLC"
+],
+"docket_id":75176367,
+"seen":"2026-11-27"
 },
 {
 "case":"2:65-cv-15556",
