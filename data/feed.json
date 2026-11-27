@@ -1,4 +1,6 @@
 [
+{"at":"2026-11-27T12:26-06:00","case":"2:26-cv-01724","doc":"23","event":"Summons Issued","title":"S.A. v. Woodfork et al","judge":"WBV"},
+{"at":"2026-11-27T12:22-06:00","case":"2:26-cv-02704","doc":"","event":"Correction of Docket Entry by Clerk","title":"Payton et al v. DK Crown Holdings, Inc. et al","judge":"EEF"},
 {"at":"2026-11-27T11:53-06:00","case":"2:25-cv-02346","doc":"","event":"Correction of Docket Entry by Clerk","title":"Habeney v. RPM Pizza Greater New Orleans, LLC et al","judge":"WBV"},
 {"at":"2026-11-27T11:36-06:00","case":"2:24-cv-02446","doc":"134","event":"Order on Motion for Extension of Deadlines","title":"LAD Services of Louisiana, LLC v. Dragados/Hawaiian Dredging//Orion Joint Venture, et al","judge":"WBV"},
 {"at":"2026-11-27T11:36-06:00","case":"2:24-cv-02446","doc":"134","event":"Order on Motion to Expedite","title":"LAD Services of Louisiana, LLC v. Dragados/Hawaiian Dredging//Orion Joint Venture, et al","judge":"WBV"},
@@ -2810,14 +2812,5 @@
 {"at":"2026-11-13T13:09-06:00","case":"2:26-cv-01929","doc":"55","event":"Order","title":"Bunch v. IDscan.net, Inc.","judge":"WBV"},
 {"at":"2026-11-13T13:06-06:00","case":"2:26-cv-02499","doc":"6","event":"~Util - Create Case Association","title":"Collins v. IDscan.net, Inc.","judge":""},
 {"at":"2026-11-13T13:06-06:00","case":"2:26-cv-02499","doc":"6","event":"Order","title":"Collins v. IDscan.net, Inc.","judge":""},
-{"at":"2026-11-13T13:06-06:00","case":"2:26-cv-02499","doc":"6","event":"~Util - Set/Clear Flags","title":"Collins v. IDscan.net, Inc.","judge":""},
-{"at":"2026-11-13T13:05-06:00","case":"2:26-cv-01724","doc":"11","event":"Dismiss/Failure to State a Claim/FRCP12(b)(6)","title":"S.A. v. Woodfork et al","judge":"WBV"},
-{"at":"2026-11-13T13:05-06:00","case":"2:26-cv-01494","doc":"11","event":"Continue","title":"Torrence v. Lyft, Inc.  et al","judge":"SSV"},
-{"at":"2026-11-13T13:05-06:00","case":"2:23-cv-01839","doc":"238","event":"Notice (Other)","title":"Louisiana State et al v. Department of Homeland Security et al","judge":"DJP"},
-{"at":"2026-11-13T13:00-06:00","case":"2:24-cv-02739","doc":"82","event":"Order on Motion to Dismiss Case","title":"Guerrero v Danos, L.L.C., et al","judge":"WBV"},
-{"at":"2026-11-13T12:59-06:00","case":"2:23-cv-01839","doc":"237","event":"Notice (Other)","title":"Louisiana State et al v. Department of Homeland Security et al","judge":"DJP"},
-{"at":"2026-11-13T12:54-06:00","case":"2:26-cv-01043","doc":"12","event":"Order on Motion for Extension of Deadlines","title":"Lucineo v. C.","judge":"WBV"},
-{"at":"2026-11-13T12:54-06:00","case":"2:23-cv-00987","doc":"174","event":"Order Setting/Resetting Hearing on Motion","title":"Inclusive Louisiana et al v. St. James Parish et al","judge":"CJB"},
-{"at":"2026-11-13T12:53-06:00","case":"2:23-cv-01839","doc":"236","event":"Notice (Other)","title":"Louisiana State et al v. Department of Homeland Security et al","judge":"DJP"},
-{"at":"2026-11-13T12:51-06:00","case":"2:26-cv-00518","doc":"64","event":"Notice of Change of Address","title":"Kindell v. Connick et al","judge":"ASJ"}
+{"at":"2026-11-13T13:06-06:00","case":"2:26-cv-02499","doc":"6","event":"~Util - Set/Clear Flags","title":"Collins v. IDscan.net, Inc.","judge":""}
 ]
