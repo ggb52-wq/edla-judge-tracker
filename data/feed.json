@@ -1,4 +1,7 @@
 [
+{"at":"2026-11-27T09:54-06:00","case":"2:25-cv-02106","doc":"","event":"Correction of Docket Entry by Clerk","title":"Collins v. Orleans Parish Sheriff's Office et al","judge":"EEF"},
+{"at":"2026-11-27T09:20-06:00","case":"2:26-cv-02716","doc":"","event":"Initial Case Assignment","title":"Frerene, Jr. v. USAA General Indemnity Company","judge":""},
+{"at":"2026-11-27T09:13-06:00","case":"2:26-cv-02715","doc":"","event":"Initial Case Assignment","title":"Champange et al v. Crescent Louisiana Midstream LLC et al","judge":""},
 {"at":"2026-11-27T08:31-06:00","case":"2:26-cv-02701","doc":"3","event":"Order on Motion for Leave to Proceed In Forma Pauperis","title":"Alexander v. Dillard University","judge":""},
 {"at":"2026-11-27T07:26-06:00","case":"2:24-cv-00639","doc":"200","event":"Proposed Pretrial Order","title":"Porche v. Zachry Holdings, Inc. et al","judge":"EEF"},
 {"at":"2026-11-25T22:38-06:00","case":"2:25-cv-01686","doc":"37","event":"Summary Judgment","title":"Lacour v. Walmart Inc. et al","judge":"BWA"},
@@ -2877,13 +2880,5 @@
 {"at":"2026-11-13T10:33-06:00","case":"2:25-cv-01355","doc":"276","event":"Dismiss Party","title":"Landix v. Taylor Seidenbach, Inc. et al","judge":"BSL"},
 {"at":"2026-11-13T10:20-06:00","case":"2:26-cv-01273","doc":"13","event":"Order on Motion to Set Aside Default","title":"Lu v. Five Happiness, Inc.","judge":"BWA"},
 {"at":"2026-11-13T10:13-06:00","case":"2:26-cv-00779","doc":"160","event":"Continue","title":"Gump v. Taylor-Seidenbach, Inc. et al","judge":"WBV"},
-{"at":"2026-11-13T10:08-06:00","case":"2:26-cv-02402","doc":"4","event":"Summons Returned Executed","title":"Breaux v. American Honda Motor Co., Inc.","judge":""},
-{"at":"2026-11-13T10:05-06:00","case":"2:26-cv-01227","doc":"","event":"Correction of Docket Entry by Clerk","title":"Hamed v. Emergency Staffing Solutions, Inc.","judge":"BSL"},
-{"at":"2026-11-13T10:00-06:00","case":"2:26-cv-02604","doc":"1","event":"Complaint","title":"Guidry et al v. LOOP, LLC","judge":""},
-{"at":"2026-11-13T10:00-06:00","case":"2:26-cv-00779","doc":"159","event":"Order on Motion to Substitute Party","title":"Gump v. Taylor-Seidenbach, Inc. et al","judge":"WBV"},
-{"at":"2026-11-13T09:57-06:00","case":"2:24-cv-02556","doc":"95","event":"Order Dismissing Case","title":"Sigillito v. Augustar Financial","judge":"NJB"},
-{"at":"2026-11-13T09:56-06:00","case":"2:26-cv-02053","doc":"13","event":"Statement of Corporate Disclosure","title":"Randell v. Dollar Tree Stores, Inc.","judge":"SSV"},
-{"at":"2026-11-13T09:56-06:00","case":"2:25-cv-01355","doc":"275","event":"Order on Motion to Dismiss Party","title":"Landix v. Taylor Seidenbach, Inc. et al","judge":"BSL"},
-{"at":"2026-11-13T09:55-06:00","case":"2:25-cv-02005","doc":"","event":"Correction of Docket Entry by Clerk","title":"Allen v. W&T Offshore Inc et al","judge":"JTM"},
-{"at":"2026-11-13T09:54-06:00","case":"2:25-cv-01355","doc":"274","event":"Dismiss Party","title":"Landix v. Taylor Seidenbach, Inc. et al","judge":"BSL"}
+{"at":"2026-11-13T10:08-06:00","case":"2:26-cv-02402","doc":"4","event":"Summons Returned Executed","title":"Breaux v. American Honda Motor Co., Inc.","judge":""}
 ]
