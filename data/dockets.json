@@ -37462,7 +37462,7 @@
 ],
 "docket_id":68340463,
 "judge":"EEF",
-"seen":"2026-11-27",
+"seen":"2026-11-28",
 "flags":[
 "PROTO",
 "REOPEN"
@@ -37563,7 +37563,7 @@
 ],
 "docket_id":68360971,
 "judge":"SSV",
-"seen":"2026-11-26"
+"seen":"2026-11-28"
 },
 {
 "case":"2:24-cv-00725",
@@ -41983,7 +41983,7 @@
 ],
 "docket_id":69243553,
 "judge":"WBV",
-"seen":"2026-11-27"
+"seen":"2026-11-28"
 },
 {
 "case":"2:24-cv-02448",
@@ -57034,7 +57034,7 @@
 ],
 "docket_id":73135788,
 "judge":"SSV",
-"seen":"2026-11-26"
+"seen":"2026-11-28"
 },
 {
 "case":"2:26-cv-00696",
@@ -60233,7 +60233,7 @@
 ],
 "docket_id":73585382,
 "judge":"BSL",
-"seen":"2026-10-27"
+"seen":"2026-11-28"
 },
 {
 "case":"2:26-cv-01473",
@@ -61660,7 +61660,7 @@
 "Travers"
 ],
 "docket_id":73735808,
-"seen":"2026-11-27"
+"seen":"2026-11-28"
 },
 {
 "case":"2:26-cv-01744",
@@ -61892,7 +61892,7 @@
 ],
 "docket_id":74652161,
 "judge":"AJ",
-"seen":"2026-11-27"
+"seen":"2026-11-28"
 },
 {
 "case":"2:26-cv-01794",
@@ -62357,7 +62357,7 @@
 ],
 "docket_id":74699592,
 "judge":"JTM",
-"seen":"2026-11-27"
+"seen":"2026-11-28"
 },
 {
 "case":"2:26-cv-01880",
@@ -63371,7 +63371,7 @@
 "Most & Associates"
 ],
 "docket_id":74782830,
-"seen":"2026-11-27",
+"seen":"2026-11-28",
 "referred":"Janis Van Meerveld",
 "judge":"EEF"
 },
@@ -63695,6 +63695,16 @@
 "seen":"2026-11-19",
 "nos":"Civil Rights: Education",
 "cause":"28:1651 All Writs Act"
+},
+{
+"case":"2:26-cv-02120",
+"filed":"2026-09-21",
+"parties":[
+"Blanche",
+"Eliantus"
+],
+"docket_id":74827623,
+"seen":"2026-11-28"
 },
 {
 "case":"2:26-cv-02121",
@@ -64475,6 +64485,22 @@
 "docket_id":74950061,
 "judge":"SM",
 "seen":"2026-10-23"
+},
+{
+"case":"2:26-cv-02358",
+"referred":"Eva J. Dossier",
+"nos":"340 Marine",
+"cause":"46:30104 Marine Personal Injury",
+"jury":"Plaintiff",
+"jurisdiction":"Federal Question",
+"filed":"2026-10-13",
+"parties":[
+"Jackson",
+"Tidewater, Inc."
+],
+"docket_id":74952739,
+"judge":"JCZ",
+"seen":"2026-11-28"
 },
 {
 "case":"2:26-cv-02360",
@@ -65691,7 +65717,7 @@
 ],
 "docket_id":75118743,
 "judge":"WBV",
-"seen":"2026-11-27",
+"seen":"2026-11-28",
 "nos":"340 Marine",
 "cause":"28:1333 Property Damage",
 "jury":"None",
@@ -65989,6 +66015,32 @@
 "seen":"2026-11-20"
 },
 {
+"case":"2:26-cv-02648",
+"referred":"Donna Phillips Currault",
+"nos":"190 Contract: Other",
+"cause":"28:1332 Diversity-Breach of Contract",
+"jury":"Plaintiff",
+"jurisdiction":"Diversity",
+"filed":"2026-11-18",
+"parties":[
+"Abhi Sheth",
+"Hertz Corporation",
+"IDscan.net, Inc."
+],
+"attorneys":[
+"Caroline Hogan Paschal",
+"Kerry James Miller",
+"Rebekka C. Veith",
+"Stephanie T Wartelle"
+],
+"firms":[
+"Miller Thibodeaux Dysart Veith & Paschal, LLC"
+],
+"docket_id":75138576,
+"judge":"NJB",
+"seen":"2026-11-28"
+},
+{
 "case":"2:26-cv-02651",
 "referred":"Karen Wells Roby",
 "filed":"2026-11-18",
@@ -66095,7 +66147,7 @@
 "filed":"2026-11-20",
 "docket_id":75152389,
 "judge":"WBV",
-"seen":"2026-11-27",
+"seen":"2026-11-28",
 "reassigned":[
 {
 "date":"2026-11-24",
@@ -66177,7 +66229,7 @@
 ],
 "docket_id":75171270,
 "judge":"WBV",
-"seen":"2026-11-27"
+"seen":"2026-11-28"
 },
 {
 "case":"2:26-cv-02704",
@@ -66241,11 +66293,23 @@
 "case":"2:26-cv-02715",
 "filed":"2026-11-25",
 "parties":[
-"Champange",
+"Champagne",
 "Crescent Louisiana Midstream LLC"
 ],
 "docket_id":75176367,
-"seen":"2026-11-27"
+"seen":"2026-11-28"
+},
+{
+"case":"2:26-cv-02718",
+"referred":"Janis Van Meerveld",
+"filed":"2026-11-27",
+"parties":[
+"Capitol City Produce Company LLC",
+"DOC Investments, LLC"
+],
+"docket_id":75182029,
+"judge":"JCZ",
+"seen":"2026-11-28"
 },
 {
 "case":"2:65-cv-15556",
